@@ -22,8 +22,10 @@ PHP Dictionary
    * :ref:`Binary Integer<binary-integer>`
    * :ref:`Blind Variable<variable-blind>`
    * :ref:`Boolean<boolean>`
+   * :ref:`Break<break>`
 * C
    * :ref:`CSV<csv>`
+   * :ref:`Callables<callbe>`
    * :ref:`Cast operator<cast>`
    * :ref:`Catch<catch>`
    * :ref:`Class Constants Visibility<class-constant-visibility>`
@@ -81,6 +83,7 @@ PHP Dictionary
    * :ref:`echo<echo>`
    * :ref:`extract()<extract>`
 * F
+   * :ref:`FIG<php-fig>`
    * :ref:`False<false>`
    * :ref:`Final Class Constants<final-class-constant>`
    * :ref:`Final Keyword<final>`
@@ -104,6 +107,7 @@ PHP Dictionary
    * :ref:`Hash<hash>`
    * :ref:`Heredocs<heredoc>`
    * :ref:`Hexadecimal Integer<hexadecimal-integer>`
+   * :ref:`Hyper Text Transfer Protocol (HTTP)<http>`
 * I
    * :ref:`Iconv<iconv>`
    * :ref:`If Then Else<if-then>`
@@ -129,6 +133,7 @@ PHP Dictionary
    * :ref:`LogicException<logicexception>`
    * :ref:`Loops<loop>`
    * :ref:`libsodium<libsodium>`
+   * :ref:`list<list>`
 * M
    * :ref:`Magic<magic>`
    * :ref:`Magic Constants<magic-constant>`
@@ -159,11 +164,14 @@ PHP Dictionary
    * :ref:`Octal Integer<octal-integer>`
    * :ref:`OpenSSL<openssl>`
    * :ref:`Operators<operator>`
+   * :ref:`OutOfRangeException<outofrangeexception>`
    * :ref:`Overwrite<overwrite>`
 * P
    * :ref:`PDOException<pdoexception>`
    * :ref:`PECL<pecl>`
    * :ref:`PHP Predefined Exception<predefined-exception>`
+   * :ref:`PHP Standards Recommendations (PSR)<psr>`
+   * :ref:`PHP variables<php-variable>`
    * :ref:`Parameter<parameter>`
    * :ref:`Parenthesis<parenthesis>`
    * :ref:`PharException<pharexception>`
@@ -176,18 +184,9 @@ PHP Dictionary
    * :ref:`phpinfo()<phpinfo>`
    * :ref:`plus +<plus>`
    * :ref:`private Keyword<private>`
-   * :ref:`psr<psr>`
-* V
-   * :ref:`Validation<validation>`
-   * :ref:`ValueError<valueerror>`
-   * :ref:`Var<var>`
-   * :ref:`Variable Variables<variable-variable>`
-   * :ref:`Variables<variable>`
-   * :ref:`Variadic<variadic>`
-   * :ref:`Visibility<visibility>`
-   * :ref:`Void<void>`
 * R
    * :ref:`Random<random>`
+   * :ref:`Readonly<readonly>`
    * :ref:`Real Numbers<real>`
    * :ref:`References<reference>`
    * :ref:`Regular Expressions<regex>`
@@ -204,6 +203,7 @@ PHP Dictionary
    * :ref:`Short assignations<short-assignation>`
    * :ref:`Spaceship operator<spaeceship>`
    * :ref:`Special Typehints<special-typehint>`
+   * :ref:`Standard PHP Library (SPL)<spl>`
    * :ref:`Static Method<static-method>`
    * :ref:`Static Property<static-property>`
    * :ref:`Static Variables<static-variable>`
@@ -224,6 +224,7 @@ PHP Dictionary
    * :ref:`Throwable<throwable>`
    * :ref:`Trailing Comma<trailing-comma>`
    * :ref:`Traits<trait>`
+   * :ref:`Traversable<traversable>`
    * :ref:`Try-catch<try-catch>`
    * :ref:`Type Error<typerror>`
    * :ref:`TypeError<typeerror>`
@@ -237,6 +238,15 @@ PHP Dictionary
    * :ref:`Union type<union-type>`
    * :ref:`Use<use>`
    * :ref:`unset Keyword<unset>`
+* V
+   * :ref:`Validation<validation>`
+   * :ref:`ValueError<valueerror>`
+   * :ref:`Var<var>`
+   * :ref:`Variable Variables<variable-variable>`
+   * :ref:`Variables<variable>`
+   * :ref:`Variadic<variadic>`
+   * :ref:`Visibility<visibility>`
+   * :ref:`Void<void>`
 * X
    * :ref:`XML<xml>`
 * Y
@@ -737,6 +747,68 @@ Booleans have a related scalar typehint : `bool`. There is also a special `false
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
 Related : :ref:`type-juggling<type-juggling>`
+
+.. _break:
+
+Break
+-----
+
+Break is a control structure, which ends execution of the current for, foreach, while, do-while or switch structure.
+
+break accepts an optional argument, which tells how many enclosing structures are to be broken out of. 
+
+break should not be confused with `continue` : continue doesn't work in a switch, like a break does.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   foreach([1,2,3] as $b) {
+       // break upon the first even number
+       if ($b % 2 == 0) {
+           break;
+       }
+       
+       echo $b;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/control-structures.break.php>`__
+
+Related : :ref:`continue<continue>`, :ref:`switch<switch>`, :ref:`loop<loop>`
+
+Added in PHP 5.4
+
+.. _callbe:
+
+Callables
+---------
+
+Callables are objects that can pass the callable typehint. 
+
+Callable may be callabacks, closures or arrow functions. 
+
+Classes may also be callable, when they implement the magic method `__invoke`.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo() { echo __METHOD__; }
+   
+   call_user_func('foo');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
+
+Related : :ref:`callback<callback>`, :ref:`closure<closure>`, :ref:`arrow-function<arrow-function>`
 
 .. _case:
 
@@ -1350,7 +1422,9 @@ Removed in PHP 4.0
 Continue
 --------
 
-continue is used within looping structures to skip the rest of the current loop iteration and continue execution at the condition evaluation and then the beginning of the next iteration.
+continue is used within looping structures to skip the rest of the current loop iteration and resume the execution at the condition evaluation and then the beginning of the next iteration.
+
+continue is not possible inside a switch structure. 
 
 
 .. code-block:: php
@@ -2346,6 +2420,21 @@ false has two usage, as PHP keyword : the opposite of true, as a boolean value a
 
 Related : :ref:`boolean<boolean>`, :ref:`typehint<typehint>`
 
+.. _php-fig:
+
+FIG
+---
+
+FIG is the Framework Interoperability Group. It is 'moving PHP forward through collaboration and standards.'.
+
+In particular, it discusses, writes and publish PSR: PHP Standard Recommendations. They are currently numbered from 1 to 22, which some retired numbers.
+
+Famous PSR include : 12 (Extended Coding Style Guide), 16 (Simple Cache), 18 (HTTP client).
+
+`Documentation <https://www.php-fig.org/>`__
+
+Related : :ref:`psr<psr>`
+
 .. _final-class-constant:
 
 Final Class Constants
@@ -2882,7 +2971,7 @@ It is possible to indent the text in a nowdocs string: to avoid this indentation
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc>`__
 
-Related : :ref:`now<now>`, :ref:`string<string>`
+Related : :ref:`nowdoc<nowdoc>`, :ref:`string<string>`
 
 Added in PHP 5.5
 
@@ -2936,6 +3025,26 @@ Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Tran
 
 
 `Documentation <https://en.wikipedia.org/wiki/HTTPS>`__
+
+Related : :ref:`http<http>`, :ref:`wrapper<wrapper>`, :ref:`protocol<protocol>`
+
+Removed in PHP 
+
+.. _http:
+
+Hyper Text Transfer Protocol (HTTP)
+-----------------------------------
+
+The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol. 
+
+It is also a wrapper for network communication in PHP, allowing it to be used directly with functions such as file_get_contents().
+
+HTTP is related to HTTPS, the secure version of HTTP.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>`__
+
+Related : :ref:`https<https>`, :ref:`wrapper<wrapper>`, :ref:`protocol<protocol>`
 
 .. _iconv:
 
@@ -3496,6 +3605,45 @@ Linting is an option of the PHP CLI : `-l`.
 Linting is sometimes mistaken with 'compiling' : linting is a part of a compilation. Since, it is the only step available in PHP between the code and the execution (with eval() or the PHP CLI), linting is often considered as compiling. 
 
 
+
+.. _list:
+
+list
+----
+
+List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list. 
+
+List() also has a short array version, which is `[ ]` the square brackets. Those square brackets are only appearing on the left side of an assignation. 
+
+list() may omit extracted values by skipping their value, and leaving seemingly empty arguments. List() also supports double-arrow notation, where the key is provided. 
+
+list() may be nested. It may also be used with foreach() structures.
+
+list() looks like a function, though it only appears on the left part of an assignation, and is actually a language-construct.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   list($a, $b, $c) = [1,2,3];
+   
+   [$a, , [$c]] = [1,2,[3],4];
+   
+   [2 => $c, 0 => $a] = [1,2,3,4];
+   
+   $rows = [[1,2], [3, 4]];
+   foreach($rows as [$a, $b]) {
+       print $a + $b\n;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.list.php>`__
+
+Related : :ref:`array<array>`
 
 .. _logicexception:
 
@@ -4325,6 +4473,30 @@ An operator is something that takes one or more values (or expressions, in progr
 
 `Documentation <https://www.php.net/manual/en/language.operators.php>`__
 
+.. _outofrangeexception:
+
+OutOfRangeException
+-------------------
+
+Exception thrown when an illegal index was requested. 
+
+.. code-block:: php
+   
+   <?php
+   
+   $list = new SplDoublyLinkedList();
+   
+   try {
+       // Adding 5 at index 2, while it should be added a 0 (empty list)
+       $list->add(2,5);
+   } catch (OutOfRangeException $e) {
+       echo Exception:.$e->getMessage().\n;
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.outofrangeexception.php>`__
+
 .. _overwrite:
 
 Overwrite
@@ -4542,6 +4714,48 @@ The final keyword prevents child classes from overriding a method or a constant 
 
 Related : :ref:`throw<throw>`, :ref:`try-catch<try-catch>`, :ref:`exception<exception>`
 
+.. _psr:
+
+PHP Standards Recommendations (PSR)
+-----------------------------------
+
+PHP Standards Recommendations. This is a set of rules and best practices, that may be adopted by any PHP project. It will help adopt common behavior and improve collaboration between projects.
+
+PSR are edited by the PHP-FIG : Framework Interoperability Group.
+
+There are 22 PSR at the moment, covering subjects such as cache, factories, log, coding standards,...
+
+
+`Documentation <https://www.php-fig.org/psr/>`__
+
+Related : :ref:`php-fig<php-fig>`
+
+.. _php-variable:
+
+PHP variables
+-------------
+
+PHP provides a large number of predefined variables. They may be super-global, and available in any context, such as `$_GET`, or classic variable, in the global scope, such as `$argv`.
+
+.. code-block:: php
+   
+   <?php
+   
+   print_r($_GET);
+   print_r($argv);
+   print_r($GLOBALS);
+   
+   function foo() {
+       global $argc;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
+
+Related : :ref:`super-global<super-global>`
+
 .. _phpinfo:
 
 phpinfo()
@@ -4718,22 +4932,6 @@ Related : :ref:`typehint<typehint>`
 
 Added in PHP 7.4
 
-.. _psr:
-
-psr
----
-
-PHP Standards Recommendations. This is a set of rules and best practices, that may be adopted by any PHP project. It will help adopt common behavior and improve collaboration between projects.
-
-PSR are edited by the PHP-FIG : Framework Interoperability Group.
-
-There are 21 PSR at the moment, covering subjects such as cache, factories, log, coding standards,...
-
-
-`Documentation <https://www.php-fig.org/psr/>`__
-
-Related : :ref:`php-fig<php-fig>`
-
 .. _random:
 
 Random
@@ -4758,6 +4956,45 @@ Traditional native functions, such as rand() and mt_rand() are not recommended f
 `Documentation <https://www.php.net/manual/en/function.random-bytes.php>`__
 
 Added in PHP 4.0
+
+.. _readonly:
+
+Readonly
+--------
+
+A property can be declared with the readonly modifier, which prevents modification of the property after initialization.
+
+In PHP 8.2, a class may be readonly, making all of of its properties readonly too. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class Test {
+      public readonly string $prop;
+   
+      public function __construct(string $prop) {
+          // Legal initialization.
+          $this->prop = $prop;
+      }
+   }
+   
+   $test = new Test(foobar);
+   // Legal read.
+   var_dump($test->prop); // string(6) foobar
+   
+   // Illegal reassignment. It does not matter that the assigned value is the same.
+   $test->prop = foobar;
+   // Error: Cannot modify readonly property Test::$prop
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
+
+Related : :ref:`class<class>`
+
+Added in PHP 8.1
 
 .. _real:
 
@@ -4823,8 +5060,6 @@ A regular expression is a sequence of characters that specifies a search pattern
 
 
 `Documentation <https://www.php.net/preg_match>`__
-
-Added in PHP 4.0
 
 .. _resource:
 
@@ -5244,6 +5479,35 @@ SSL is a PHP context for sockets, and share the configuration options with TLS.
 `Documentation <https://www.php.net/manual/en/context.php>`__
 
 Related : :ref:`tls<tls>`
+
+.. _spl:
+
+Standard PHP Library (SPL)
+--------------------------
+
+The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems.
+
+SPL offers features, functions, classes and interfaces in many different fields : iterators, data structures, files, exceptions, and observers. 
+
+One of the most famous SPL features is the function spl_autoload_register(), which register an autoload handler.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // SPL and autoloading
+   spl_autoload_register(function ($class) {
+       include 'classes/' . $class . '.class.php';
+   });
+   
+   if ($object instanceof Countable) {
+       $count = count($object);
+   } elseif ($object instanceof Traversable)
+       $count = iterator_count($object);
+   } else {
+       print Can
+
 
 .. _static:
 
@@ -5748,6 +6012,30 @@ Traits are a mechanism for code reuse in single inheritance languages such as PH
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php>`__
 
 Added in PHP 4.0+
+
+.. _traversable:
+
+Traversable
+-----------
+
+A special return type that signals a method that never returns : only dies or throw an exception.
+
+.. code-block:: php
+   
+   <?php
+   
+   try {
+       doSomething();
+   } catch (\Traversable $e) {
+       print Some error was raised during processing :. $e::class;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.traversable.php>`__
+
+Related : :ref:`exception<exception>`, :ref:`error<error>`
 
 .. _try-catch:
 
