@@ -6,6 +6,7 @@ PHP Dictionary
    * :ref:`Abstract Syntactic Tree<ast>`
    * :ref:`Alias<namespace-alias>`
    * :ref:`Alternative Syntax<alternative-syntax>`
+   * :ref:`Anonymous Class<anonymous-class>`
    * :ref:`Argument<argument>`
    * :ref:`ArgumentCountError<argumentcounterror>`
    * :ref:`ArithmeticError Error<arithmeticerror>`
@@ -18,21 +19,37 @@ PHP Dictionary
    * :ref:`Assertions<assertion>`
    * :ref:`Assignations<assignation>`
    * :ref:`Attributes<attribute>`
-* M
-   * :ref:`Magic<magic>`
-   * :ref:`Magic Constants<magic-constant>`
-   * :ref:`Magic Methods<magic-method>`
-   * :ref:`Magic Property<magic-property>`
-   * :ref:`Match<match>`
-   * :ref:`Memoization<memoization>`
-   * :ref:`Method<method>`
-   * :ref:`Mixed return type<mixed>`
-   * :ref:`Multidimensional Array<multidimensional-array>`
 * B
    * :ref:`Binary Integer<binary-integer>`
    * :ref:`Blind Variable<variable-blind>`
    * :ref:`Boolean<boolean>`
    * :ref:`Break<break>`
+* P
+   * :ref:`PDOException<pdoexception>`
+   * :ref:`PECL<pecl>`
+   * :ref:`PHP Predefined Exception<predefined-exception>`
+   * :ref:`PHP Profiler<profiler>`
+   * :ref:`PHP Standards Recommendations (PSR)<psr>`
+   * :ref:`PHP variables<php-variable>`
+   * :ref:`Packagist<packagist>`
+   * :ref:`Parameter<parameter>`
+   * :ref:`Parenthesis<parenthesis>`
+   * :ref:`Passing By Reference<by-reference>`
+   * :ref:`Passing By Value<by-value>`
+   * :ref:`PharException<pharexception>`
+   * :ref:`Positional Parameters<positional-parameter>`
+   * :ref:`Precedence<precedence>`
+   * :ref:`Predefined Constants<predefined-constant>`
+   * :ref:`Preprocess<preprocess>`
+   * :ref:`Promoted Properties<promoted-property>`
+   * :ref:`Properties<property>`
+   * :ref:`Property Type Declaration<type-declaration-property>`
+   * :ref:`Protocol<protocol>`
+   * :ref:`pack<pack>`
+   * :ref:`parent<parent>`
+   * :ref:`phpinfo()<phpinfo>`
+   * :ref:`plus +<plus>`
+   * :ref:`private Keyword<private>`
 * C
    * :ref:`CSV<csv>`
    * :ref:`Callables<callbe>`
@@ -51,6 +68,7 @@ PHP Dictionary
    * :ref:`Command Line Interface<cli>`
    * :ref:`Compact array<compact-array>`
    * :ref:`Comparison<comparison-operator>`
+   * :ref:`Composer<composer>`
    * :ref:`Concatenation<concatenation>`
    * :ref:`Conditioned Structures<conditioned>`
    * :ref:`Const<const>`
@@ -81,6 +99,7 @@ PHP Dictionary
    * :ref:`Dynamic Constant<dynamic-constant>`
    * :ref:`Dynamic Properties<dynamic-property>`
    * :ref:`Dynamic Variable<dynamic-variable>`
+   * :ref:`declare()<declare>`
    * :ref:`define()<define>`
    * :ref:`destructor<destructor>`
    * :ref:`disable functions<disable_functions>`
@@ -128,9 +147,11 @@ PHP Dictionary
 * I
    * :ref:`Iconv<iconv>`
    * :ref:`If Then Else<if-then>`
+   * :ref:`Inclusion<include>`
    * :ref:`Inclusions<inclusion>`
    * :ref:`Indentation<indentation>`
    * :ref:`Index<index>`
+   * :ref:`Inequality<inequality>`
    * :ref:`Inheritance<inheritance>`
    * :ref:`Insteadof<insteadof>`
    * :ref:`Interfaces<interface>`
@@ -143,15 +164,29 @@ PHP Dictionary
    * :ref:`integer<integer>`
    * :ref:`isset<isset>`
 * J
+   * :ref:`JSON<json>`
    * :ref:`JsonException<jsonexception>`
 * L
    * :ref:`Language construct<language-construct>`
    * :ref:`Late Static Bindings<late-static-binding>`
    * :ref:`Linting<linting>`
+   * :ref:`Locale<locale>`
    * :ref:`LogicException<logicexception>`
+   * :ref:`Logical operators<logical-operator>`
    * :ref:`Loops<loop>`
    * :ref:`libsodium<libsodium>`
    * :ref:`list<list>`
+* M
+   * :ref:`Magic<magic>`
+   * :ref:`Magic Constants<magic-constant>`
+   * :ref:`Magic Methods<magic-method>`
+   * :ref:`Magic Property<magic-property>`
+   * :ref:`Match<match>`
+   * :ref:`Memoization<memoization>`
+   * :ref:`Method<method>`
+   * :ref:`Mixed return type<mixed>`
+   * :ref:`Multibyte String<mbstring>`
+   * :ref:`Multidimensional Array<multidimensional-array>`
 * N
    * :ref:`Named Parameters<named-parameter>`
    * :ref:`Namespaces<namespace>`
@@ -171,30 +206,11 @@ PHP Dictionary
    * :ref:`Object<object>`
    * :ref:`Object Operator<object-operator>`
    * :ref:`Octal Integer<octal-integer>`
+   * :ref:`Opcode<opcode>`
    * :ref:`OpenSSL<openssl>`
    * :ref:`Operators<operator>`
    * :ref:`OutOfRangeException<outofrangeexception>`
    * :ref:`Overwrite<overwrite>`
-* P
-   * :ref:`PDOException<pdoexception>`
-   * :ref:`PECL<pecl>`
-   * :ref:`PHP Predefined Exception<predefined-exception>`
-   * :ref:`PHP Standards Recommendations (PSR)<psr>`
-   * :ref:`PHP variables<php-variable>`
-   * :ref:`Parameter<parameter>`
-   * :ref:`Parenthesis<parenthesis>`
-   * :ref:`PharException<pharexception>`
-   * :ref:`Precedence<precedence>`
-   * :ref:`Predefined Constants<predefined-constant>`
-   * :ref:`Promoted Properties<promoted-property>`
-   * :ref:`Properties<property>`
-   * :ref:`Property Type Declaration<type-declaration-property>`
-   * :ref:`Protocol<protocol>`
-   * :ref:`pack<pack>`
-   * :ref:`parent<parent>`
-   * :ref:`phpinfo()<phpinfo>`
-   * :ref:`plus +<plus>`
-   * :ref:`private Keyword<private>`
 * R
    * :ref:`Random<random>`
    * :ref:`Readonly<readonly>`
@@ -204,6 +220,7 @@ PHP Dictionary
    * :ref:`Return<return>`
    * :ref:`Return Type Will Change<returntypewillchange>`
    * :ref:`Return Typehint<return-typehint>`
+   * :ref:`Return Value<return-value>`
    * :ref:`resource<resource>`
 * S
    * :ref:`SSL<ssl>`
@@ -211,6 +228,8 @@ PHP Dictionary
    * :ref:`Scalar Typehints<scalar-typehint>`
    * :ref:`Scope Resolution Operator<scope-resolution-operator>`
    * :ref:`Session<session>`
+   * :ref:`Short Syntax<short-syntax>`
+   * :ref:`Short Tags<short-tag>`
    * :ref:`Short assignations<short-assignation>`
    * :ref:`Spaceship operator<spaeceship>`
    * :ref:`Special Typehints<special-typehint>`
@@ -218,6 +237,7 @@ PHP Dictionary
    * :ref:`Static Method<static-method>`
    * :ref:`Static Property<static-property>`
    * :ref:`Static Variables<static-variable>`
+   * :ref:`Strict Comparison<strict-comparison>`
    * :ref:`String<string>`
    * :ref:`String Interpolation<string-interpolation>`
    * :ref:`Stringable<stringable>`
@@ -245,6 +265,7 @@ PHP Dictionary
 * $
    * :ref:`$this<this>`
 * U
+   * :ref:`UOPZ<uopz>`
    * :ref:`UnexpectedValueException<unexpectedvalueexception>`
    * :ref:`UnhandledMatchError<unhandledmatcherror>`
    * :ref:`Union type<union-type>`
@@ -394,6 +415,37 @@ PHP offers an alternative syntax for some of its control structures; namely, if,
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
 Related : :ref:`control-structure<control-structure>`
+
+.. _anonymous-class:
+
+Anonymous Class
+---------------
+
+A class may be instantiate, without defining a class name. The class is identical to a named-class, except for the name attribute. This also means that it cannot be used for typehinting, though it may be typed itself, using parent class or implemented interfaces. 
+
+Also, arguments may be passed at instantiation time, unlink with named-class definition, where those arguments are passed when calling ``new``, not when defining the class.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   interface i {}
+   function foo(i $a) {}
+   
+   $a = new class () implements i {};
+   
+   foo($a);
+   
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.anonymous.php>`__
+
+See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_, `PPHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_
+
+Related : :ref:`closure<closure>`
 
 .. _argument:
 
@@ -1352,6 +1404,22 @@ Comparison
 
 Related : :ref:`operator<operator>`
 
+.. _composer:
+
+Composer
+--------
+
+Composer is the most popular package manager for PHP.
+
+Composer install and update packages, which are stored on the packagist website.
+
+Composer is the work of `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Nils Adermann <https://twitter.com/naderman>`_.
+
+
+`Documentation <https://getcomposer.org/>`__
+
+Related : :ref:`packagist<packagist>`
+
 .. _concatenation:
 
 Concatenation
@@ -1824,6 +1892,32 @@ These functions allow you to get the date and time from the server where your PH
 
 
 `Documentation <https://www.php.net/datetime>`__
+
+.. _declare:
+
+declare()
+---------
+
+declare() construct is used to set execution directives for a block of code. 
+
+declare() may set the following values : 
+
++ strict_type : strict typing in the block
++ ticks : generate a tick event 
++ encoding : per-file encoding directive
+
+
+.. code-block:: php
+   
+   <?php
+       declare(strict_types=1, encoding='UTF-8');
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/fr/control-structures.declare.php>`__
+
+Related : :ref:`strict_type<strict_type>`, :ref:`ticks<ticks>`, :ref:`declare-encoding<declare-encoding>`
 
 .. _default:
 
@@ -3370,6 +3464,44 @@ Related : :ref:`class<class>`, :ref:`getter<getter>`
 
 Added in PHP 5.0+
 
+.. _include:
+
+Inclusion
+---------
+
+Inclusion is the process to read an external file, and evaluate with the current application for execution. It may define new structures, and execute code. 
+
+Inclusion relies on four language structures : include, require, include_once, require_once. 
+
+Inclusion is often hidden in autoload() functions : the code is included class per class, upon request. 
+
+
+
+.. code-block:: php
+   
+    vars.php
+   <?php
+   
+   $color = 'green';
+   $fruit = 'apple';
+   
+   ?>
+   
+   test.php
+   <?php
+   
+   echo A $color $fruit; // A
+   
+   include 'vars.php';
+   
+   echo A $color $fruit; // A green apple
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/function.include.php>`__
+
 .. _inclusion:
 
 Inclusions
@@ -3446,6 +3578,33 @@ PHP index start at 0. They may be automatically assigned by appending a new valu
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
 Related : :ref:`array<array>`
+
+.. _inequality:
+
+Inequality
+----------
+
+Inequalities are the mathematical comparison of values, with the `>`,  `>=`,  `<` and `=<` operators. 
+
+Unlike the equality operators, they do not have a strict version, which takes into account the type of the values. Hence, the compared values are always adapted to each other's type.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // displays false
+   var_dump(3 > 3);
+   
+   // displays true
+   var_dump(4 >= 0)
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
 .. _inheritance:
 
@@ -3701,7 +3860,10 @@ Related : :ref:`logicexception<logicexception>`
 isset
 -----
 
-isset() is a function that determines if a variable is declared and is different than null
+isset() is a function that determines if a variable is declared and is different than null.
+
+Isset() is also related to the magic method __isset(), which is used to determine if a property in an object exists or not. 
+
 
 .. code-block:: php
    
@@ -3719,7 +3881,7 @@ isset() is a function that determines if a variable is declared and is different
 
 `Documentation <https://www.php.net/manual/en/function.isset.php>`__
 
-Added in PHP 4.0
+Related : :ref:`magic-method<magic-method>`
 
 .. _iterable:
 
@@ -3746,6 +3908,30 @@ Iterable is a pseudo-type, which accepts any array or object implementing the Tr
 Related : :ref:`traversable<traversable>`, :ref:`array<array>`
 
 Added in PHP 7.1
+
+.. _json:
+
+JSON
+----
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
+
+.. code-block:: php
+   
+   <?php
+   $array = array('a' => 1, 'b' => c, 'c' => [3, 4], 'd' => new stdclass());
+   
+   echo json_encode($arr);
+   // displays {"a":1,"b":"c","c":[3,4],"d":{}}
+   
+   ?>
+
+
+`Documentation <https://www.php.net/json>`__
+
+See also `JSON <https://www.json.org/json-en.html>`_
+
+Added in PHP 5.0+
 
 .. _jsonexception:
 
@@ -3919,6 +4105,69 @@ list() looks like a function, though it only appears on the left part of an assi
 `Documentation <https://www.php.net/manual/en/function.list.php>`__
 
 Related : :ref:`array<array>`
+
+.. _locale:
+
+Locale
+------
+
+Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time.
+
+Locales are extracted from the system, and depends on a country name and a language name. For example, `fr-FR` for French French, `nl_NL` for Dutch, or `zh_CN` for Chinese Chinese. 
+
+Locale are supported with the ext/icu extension, and also, natively with the setlocale() function. 
+
+
+.. code-block:: php
+   
+   <?php
+   /* Set locale to Dutch */
+   setlocale(LC_ALL, 'nl_NL');
+   
+   /* Output: vrijdag 22 december 1978 */
+   echo strftime(%A %e %B %Y, mktime(0, 0, 0, 12, 22, 1978));
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/class.locale.php>`__
+
+See also `setlocale() <https://www.php.net/manual/en/class.locale.php>`_
+
+.. _logical-operator:
+
+Logical operators
+-----------------
+
+Logical operators applies four logical functions to booleans. 
+
++ ``and`` and ``&&``
++ ``or`` and ``||``
++ ``xor`` (no symbolic version for ``xor``)
++ ``!``  (no letter version for ``not``)
+
+The logical operators are either symbolic or letter. Be aware that the symbolic operators have a higher precedence than the letter one, in particular vis-à-vis comparisons.
+
+The logical operators work on various types, and output booleans. They are different from the bitwise operators, which work on the value as a bit level, not as a whole.
+
+ 
+
+.. code-block:: php
+   
+   <?php
+   
+   if ($a == $b) {
+       print a and b are equal;
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
+
+See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
+
+Related : :ref:`bitwise-operator<bitwise-operator>`
 
 .. _logicexception:
 
@@ -4220,6 +4469,30 @@ A special return type that signals a method that never returns : only dies or th
 
 Added in PHP 8.0+
 
+.. _mbstring:
+
+Multibyte String
+----------------
+
+mbstring provides function to process multibyte strings functions. Moreover, mbstring converts from and to various character encodings.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   /* Convert EUC-JP to UTF-7 */
+   $str = mb_convert_encoding($str, UTF-7, EUC-JP);
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/book.mbstring.php>`__
+
+Related : :ref:`iconv<iconv>`, :ref:`encoding<encoding>`
+
+Removed in PHP 
+
 .. _multidimensional-array:
 
 Multidimensional Array
@@ -4286,9 +4559,7 @@ Argument names may be used when calling a method.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
+Related : :ref:`positional-parameter<positional-parameter>`
 
 .. _namespace:
 
@@ -4732,6 +5003,36 @@ Initially, octal integers were formatted by simply starting with a initial 0. Th
 
 Related : :ref:`integer<integer>`, :ref:`binary-integer<binary-integer>`, :ref:`hexadecimal-integer<hexadecimal-integer>`
 
+.. _opcode:
+
+Opcode
+------
+
+ArgumentCountError is thrown when too few arguments are passed to a user-defined function or method. This is an error, not an exception.
+
+No exception is raised for extra parameters, as those may still be processed by the method itself. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo($a) {}
+   
+   // No error is raised here
+   foo(1,2);
+   
+   // ArgumentCountError is catchable
+   try {
+       foo();
+   } catch (ArgumentCountError) {
+       print 'No enough parameters passed.';
+   }
+   ?>
+
+
+See also `LEARN ABOUT PHP OPCODES <https://x-team.com/blog/learn-about-php-opcodes/>`_, `How to dump and inspect PHP OPCodes <https://php.watch/articles/php-dump-opcodes>`_
+
 .. _openssl:
 
 OpenSSL
@@ -4869,6 +5170,20 @@ Added in PHP 4.0
 
 Removed in PHP 4.0
 
+.. _packagist:
+
+Packagist
+---------
+
+Packagist is the most popular package repository for PHP.
+
+Packagist works with composer. 
+
+
+`Documentation <https://getcomposer.org/>`__
+
+Related : :ref:`packagist<packagist>`
+
 .. _parameter:
 
 Parameter
@@ -4949,6 +5264,80 @@ Parenthesis are  parameter is a variable in a method definition. They have a nam
 
 Related : :ref:`argument<argument>`
 
+.. _by-reference:
+
+Passing By Reference
+--------------------
+
+When calling a method, or returning from it, data may be passed by value or by reference. 
+
+By reference, a reference to the the data is passed : any modification on that value inside the method will be reflected in the original value. 
+
+This is the alternative way of passing data to methods : the default way is to use by value, which copies the data. 
+
+Passing by reference is the default behavior with object. Otherwise, it needs to be declared with the ``&`` operator, in the function signature.
+
+Returned value are passed back to the calling context with the same rule than for parameters.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 0;
+   foo($a);  // displays 1
+   print $a; // displays 1
+   
+   function foo(&$a) {
+       ++$a;
+       echo $a;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.references.pass.php>`__
+
+Related : :ref:`by-value<by-value>`
+
+.. _by-value:
+
+Passing By Value
+----------------
+
+When calling a method, or returning from it, data may be passed by value or by reference. 
+
+By value, a copy of the data is passed : any modification on that value inside the method will not be reflected in the original value. 
+
+This is the default way of passing data to methods : the alternative way is to use by reference. 
+
+Passing by value may be memory-intensive when passing a large array. This is not the case for objects, which are always passed by reference.
+
+Returned value are passed back to the calling context with the same rule than for parameters.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 0;
+   foo($a);  // displays 1
+   print $a; // displays 0
+   
+   function foo($a) {
+       ++$a;
+       echo $a;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+Related : :ref:`by-reference<by-reference>`
+
 .. _pdoexception:
 
 PDOException
@@ -5028,6 +5417,41 @@ The final keyword prevents child classes from overriding a method or a constant 
 `Documentation <https://www.php.net/manual/en/reserved.exceptions.php>`__
 
 Related : :ref:`throw<throw>`, :ref:`try-catch<try-catch>`, :ref:`exception<exception>`
+
+.. _profiler:
+
+PHP Profiler
+------------
+
+A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation.
+
+PHP has several profilers. They may provide an online interface to visualize the results, or a local server, or even a raw execution breakdown, which may then be processed to identify the bottlenecks.
+ 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // code to use with PHP-spx, one of PHP profilers
+   
+   while ($task = get_next_ready_task()) {
+     spx_profiler_start();
+     try {
+       $task->process();
+     } finally {
+       spx_profiler_stop();
+     }
+   }
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Profiling_(computer_programming)>`__
+
+See also `BlackFire <https://www.blackfire.io/php/>`_, `gProfiler <https://gprofiler.io/>`_, `PHP-profiler <https://github.com/perftools/php-profiler.git>`_, `PHP-reli <https://github.com/reliforp/reli-prof.git>`_, `XHprof <https://www.php.net/manual/en/book.xhprof.php>`_, `Xdebug <https://www.xdebug.org/>`_
+
+Related : :ref:`debugger<debugger>`
 
 .. _psr:
 
@@ -5116,6 +5540,36 @@ plus +
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
 
+.. _positional-parameter:
+
+Positional Parameters
+---------------------
+
+Argument which are identified by their position in the signature or the call. This is the traditional way of sending arguments to a method. 
+
+The alternative way is to use named parameters.
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo($a, $b) {
+       return $a - $b;
+   }
+   
+   echo foo(2, 3);  // return -1
+   echo foo(3, 2);  // return 1
+   
+   echo foo(a: 2, b: 3);  // return -1
+   echo foo(b: 2, a: 3);  // return 1
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+Related : :ref:`named-parameter<named-parameter>`
+
 .. _precedence:
 
 Precedence
@@ -5169,6 +5623,36 @@ Other constants come from extensions : for example, the Math extension defines M
 
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
+
+.. _preprocess:
+
+Preprocess
+----------
+
+Preprocessing is an optimisation technique, where a value is calculated even before the execution of a script. This is only possible with constants values, which are known before execution.
+
+Preprocessing may save execution time, and memory. 
+
+In terms of maintenance, it hides some implementation details in the result : one has to guess where this value is coming from.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $seconds = 60;
+   $minutes = 60;
+   
+   $hours = $seconds * $minutes;
+   
+   // this variable may be preprocessed, saving the calculation at execution time.
+   $hours = 3600;
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/class.locale.php>`__
 
 .. _private:
 
@@ -5548,6 +6032,37 @@ return typehint are covariant : they get more or equally precise with each new c
 
 Related : :ref:`typehint<typehint>`, :ref:`return<return>`, :ref:`type-covariance<type-covariance>`
 
+.. _return-value:
+
+Return Value
+------------
+
+Return value is the value returned, at the end of a method call. That value may be typed with a data typehint. It may also be typed with `never`, in case the method doesn't return, or `void`, when the method returns nothing. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo() : int {
+       return 1;
+   }
+   
+   function goo() : never {
+       throw new Exception(Error);
+   }
+   
+   function hoo() : void {
+       echo __METHOD__;
+       // No return value
+   }
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/function.include.php>`__
+
 .. _sanitation:
 
 Sanitation
@@ -5707,6 +6222,68 @@ In addition to the basic assignment operator, there are combined operators for a
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
 Related : :ref:`assignation<assignation>`
+
+.. _short-syntax:
+
+Short Syntax
+------------
+
+A short syntax is the fusion of an operator with the `=` operator. That way, the operator is applied to the right hand operand, and the left variable, then, assigned to that variable. 
+
+It is convenient when the variable has to be assigned again to itself.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 0;
+   // Adds 2 to $a
+   $a = $a + 2;
+   
+   // short syntax to add 3 to $a
+   $a += 3;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
+
+Related : :ref:`assignation<assignation>`, :ref:`operator<operator>`
+
+.. _short-tag:
+
+Short Tags
+----------
+
+PHP uses special tags to identify code that has to be executed. The short tags are a special set of PHP tag, shorter than the usual ``<?php``. It was simply ``<?``.
+
+Short tags may be disabled in PHP configuration, with the ``short_open_tag`` directive. 
+
+Short tags are different from echo tags : those tags immediately display data.
+
+From the manual : As short tags can be disabled it is recommended to only use the normal tags (<?php ?> and <?= ?>) to maximise compatibility. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   echo 1;
+   ?>
+   
+   <? 
+   // this is a short tag
+   echo 2;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
+
+See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/deprecate_php_short_tags_v2>`_
+
+Related : :ref:`php-tag<php-tag>`, :ref:`echo-tag<echo-tag>`
 
 .. _signature:
 
@@ -6045,6 +6622,40 @@ Related : :ref:`property<property>`, :ref:`dynamic-property<dynamic-property>`
 Added in PHP 4.0
 
 Removed in PHP 4.0
+
+.. _strict-comparison:
+
+Strict Comparison
+-----------------
+
+Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value. In other words, it does not apply any type-juggling to the values before processing. 
+
+Here are the strict operators : ``==`` may be replaced with ``===``,  ``!=`` may be replaced with ``!==``, ``switch`` may be replaced with ``match``, in_array() with the third parameter ``strict`` set to true. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   //true
+   var_dump(1 == 1);
+   //false
+   var_dump(1 === 1);
+   
+   //true
+   var_dump(null == 0);
+   //false
+   var_dump(null === 0);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
+
+See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
+
+Related : :ref:`switch<switch>`, :ref:`match<match>`
 
 .. _string:
 
@@ -6641,6 +7252,39 @@ unset() removes a variable. This features used to be available as a function cal
 
 Related : :ref:`variable<variable>`
 
+.. _uopz:
+
+UOPZ
+----
+
+XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.
+
+PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader, xmlwriter.
+
+
+
+.. code-block:: php
+   
+   <?php
+   $string = <<<XML
+   <?xml version='1.0'?>
+   <document>
+       <cmd>login</cmd>
+       <login>Richard</login>
+   </document>
+   XML;
+                                                                          
+                                             
+   $xml = simplexml_load_string($string);
+   print_r($xml);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/refs.xml.php>`__
+
+Related : :ref:`simplexml<simplexml>`, :ref:`domxml<domxml>`, :ref:`xmlwriter<xmlwriter>`, :ref:`xmlreader<xmlreader>`
+
 .. _use:
 
 Use
@@ -6971,6 +7615,8 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
+
+Related : :ref:`simplexml<simplexml>`, :ref:`domxml<domxml>`, :ref:`xmlwriter<xmlwriter>`, :ref:`xmlreader<xmlreader>`
 
 .. _yield:
 
