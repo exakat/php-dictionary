@@ -90,6 +90,8 @@ PHP Dictionary
    * :ref:`Dates<date>`
    * :ref:`Default Keyword<default>`
    * :ref:`Default Parameter<default-parameter>`
+   * :ref:`Default Value<default-value>`
+   * :ref:`Dependency Injection<dependency-injection>`
    * :ref:`Dereferencing<dereferencing>`
    * :ref:`Directives<directives>`
    * :ref:`DirectoryIterator<directoryiterator>`
@@ -147,6 +149,7 @@ PHP Dictionary
 * I
    * :ref:`Iconv<iconv>`
    * :ref:`If Then Else<if-then>`
+   * :ref:`ImagickException<imagickexception>`
    * :ref:`Inclusion<include>`
    * :ref:`Inclusions<inclusion>`
    * :ref:`Indentation<indentation>`
@@ -242,6 +245,7 @@ PHP Dictionary
    * :ref:`String Interpolation<string-interpolation>`
    * :ref:`Stringable<stringable>`
    * :ref:`Superglobal variables<superglobal>`
+   * :ref:`Supply Chain Attack<supply-chain-attack>`
    * :ref:`Switch<switch>`
    * :ref:`self<self>`
    * :ref:`signature<signature>`
@@ -1222,6 +1226,8 @@ To perform a deep clone, aka to clone an object and its referenced properties, t
 
 See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
+Related : :ref:`shallow-clone<shallow-clone>`, :ref:`deep-clone<deep-clone>`
+
 Added in PHP 4.0+
 
 .. _closure:
@@ -1976,6 +1982,36 @@ The default parameter must be the last of the parameters : adding a parameter wi
 
 Related : :ref:`function<function>`, :ref:`method<method>`
 
+.. _default-value:
+
+Default Value
+-------------
+
+Default value is the value that a variable or a property takes when it is used for the first time, and have not been provided.
+
+Arguments and properties may have a default value. That way, arguments may be skipped when the method is being called, and the properties do not have to be initialized before usage.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo($a = 1) {
+       echo $a;
+   }
+   
+   foo('one ');
+   foo();
+   
+   // displays one 1
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+Related : :ref:`parameter<parameter>`, :ref:`properties<properties>`
+
 .. _define:
 
 define()
@@ -2003,6 +2039,17 @@ define() used to create case-insensitive constant, but this was abandonned in PH
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
 Related : :ref:`class<class>`, :ref:`trait<trait>`, :ref:`conditioned<conditioned>`
+
+.. _dependency-injection:
+
+Dependency Injection
+--------------------
+
+Dependency injection is a design pattern in which an object receives other objects that it depends on. 
+
+`Documentation <https://en.wikipedia.org/wiki/Dependency_injection>`__
+
+See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/`_
 
 .. _dereferencing:
 
@@ -2298,11 +2345,9 @@ When the class implements the magic methods __get() and __set(), of if the class
 
 `Documentation <https://wiki.php.net/rfc/deprecate_dynamic_properties>`__
 
+See also `PHP, what are dynamic properties? <https://medium.com/geekculture/php-what-are-dynamic-properties-2509c6fbccf8>`_
+
 Related : :ref:`property<property>`, :ref:`magic-method<magic-method>`, :ref:`stdclass<stdclass>`
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _dynamic-variable:
 
@@ -3428,6 +3473,30 @@ A  a PHP file into another PHP file. This is usually isolated into the autoloadi
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
 Added in PHP 8.0+
+
+.. _imagickexception:
+
+ImagickException
+----------------
+
+The ImagickException exception is thrown when an error happens while processing an Imagick operation.
+
+.. code-block:: php
+   
+   <?php
+   
+   try {
+       $imagick->gammaImage($correction, \Imagick::CHANNEL_ALL);
+   } catch (\ImagickException $e) {
+       throw new RuntimeException('Failed to apply gamma correction to the image');
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.imagick.php>`__
+
+Related : :ref:`exception<exception>`
 
 .. _implements:
 
@@ -6798,6 +6867,23 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 `Documentation <https://www.php.net/manual/en/language.variables.superglobals.php>`__
 
 Related : :ref:`variable<variable>`, :ref:`static-variable<static-variable>`, :ref:`variable-variable<variable-variable>`, :ref:`global-variable<global-variable>`
+
+.. _supply-chain-attack:
+
+Supply Chain Attack
+-------------------
+
+Supply Chain Attack is a security attack that uses dependencies to infect a program.
+
+Modern applications are built on top of components which are fetched from central repositories. In the PHP world, composer is the most popular PHP repository.
+
+When those external repositories are infected with malicious component or code, the dependency manager will load them like the rest of the code. Blind trust in the imported code lead to vulnerabilities.
+
+
+
+`Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
+
+See also `PHP Supply Chain Attack on Composer <https://blog.sonarsource.com/php-supply-chain-attack-on-composer/>`_
 
 .. _switch:
 

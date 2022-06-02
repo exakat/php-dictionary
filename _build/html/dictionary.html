@@ -144,6 +144,8 @@
 <li><p><a class="reference internal" href="#date"><span class="std std-ref">Dates</span></a></p></li>
 <li><p><a class="reference internal" href="#default"><span class="std std-ref">Default Keyword</span></a></p></li>
 <li><p><a class="reference internal" href="#default-parameter"><span class="std std-ref">Default Parameter</span></a></p></li>
+<li><p><a class="reference internal" href="#default-value"><span class="std std-ref">Default Value</span></a></p></li>
+<li><p><a class="reference internal" href="#dependency-injection"><span class="std std-ref">Dependency Injection</span></a></p></li>
 <li><p><a class="reference internal" href="#dereferencing"><span class="std std-ref">Dereferencing</span></a></p></li>
 <li><p><a class="reference internal" href="#directives"><span class="std std-ref">Directives</span></a></p></li>
 <li><p><a class="reference internal" href="#directoryiterator"><span class="std std-ref">DirectoryIterator</span></a></p></li>
@@ -226,8 +228,9 @@
 <dt>I</dt><dd><ul>
 <li><p><a class="reference internal" href="#iconv"><span class="std std-ref">Iconv</span></a></p></li>
 <li><p><a class="reference internal" href="#if-then"><span class="std std-ref">If Then Else</span></a></p></li>
+<li><p><a class="reference internal" href="#imagickexception"><span class="std std-ref">ImagickException</span></a></p></li>
 <li><p><a class="reference internal" href="#include"><span class="std std-ref">Inclusion</span></a></p></li>
-<li><p><a class="reference internal" href="#id69"><span class="std std-ref">Inclusions</span></a></p></li>
+<li><p><a class="reference internal" href="#id72"><span class="std std-ref">Inclusions</span></a></p></li>
 <li><p><a class="reference internal" href="#indentation"><span class="std std-ref">Indentation</span></a></p></li>
 <li><p><a class="reference internal" href="#index"><span class="std std-ref">Index</span></a></p></li>
 <li><p><a class="reference internal" href="#inequality"><span class="std std-ref">Inequality</span></a></p></li>
@@ -356,6 +359,7 @@
 <li><p><a class="reference internal" href="#string-interpolation"><span class="std std-ref">String Interpolation</span></a></p></li>
 <li><p><a class="reference internal" href="#stringable"><span class="std std-ref">Stringable</span></a></p></li>
 <li><p><a class="reference internal" href="#superglobal"><span class="std std-ref">Superglobal variables</span></a></p></li>
+<li><p><a class="reference internal" href="#supply-chain-attack"><span class="std std-ref">Supply Chain Attack</span></a></p></li>
 <li><p><a class="reference internal" href="#switch"><span class="std std-ref">Switch</span></a></p></li>
 <li><p><a class="reference internal" href="#self"><span class="std std-ref">self</span></a></p></li>
 <li><p><a class="reference internal" href="#signature"><span class="std std-ref">signature</span></a></p></li>
@@ -1081,6 +1085,7 @@ foo($a);
 </div>
 <p><a class="reference external" href="https://www.php.net/manual/en/language.oop5.cloning.php">Documentation</a></p>
 <p>See also <a class="reference external" href="https://doeken.org/blog/what-happens-when-we-clone">What happens when we clone?</a>, <a class="reference external" href="https://www.php.net/manual/en/language.oop5.cloning.php">Object Cloning</a>, <a class="reference external" href="https://linuxhint.com/cloning_objects_php/">How to clone an object in PHP</a></p>
+<p>Related : <span class="xref std std-ref">shallow-clone</span>, <span class="xref std std-ref">deep-clone</span></p>
 <p>Added in PHP 4.0+</p>
 </div>
 <div class="section" id="closure">
@@ -1603,8 +1608,29 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default">Documentation</a></p>
 <p>Related : <a class="reference internal" href="#function"><span class="std std-ref">function</span></a>, <a class="reference internal" href="#method"><span class="std std-ref">method</span></a></p>
 </div>
+<div class="section" id="default-value">
+<span id="id35"></span><h3>Default Value<a class="headerlink" href="#default-value" title="Permalink to this headline">¶</a></h3>
+<p>Default value is the value that a variable or a property takes when it is used for the first time, and have not been provided.</p>
+<p>Arguments and properties may have a default value. That way, arguments may be skipped when the method is being called, and the properties do not have to be initialized before usage.</p>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+
+<span class="k">function</span> <span class="nf">foo</span><span class="p">(</span><span class="nv">$a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">echo</span> <span class="nv">$a</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">foo</span><span class="p">(</span><span class="s1">&#39;one &#39;</span><span class="p">);</span>
+<span class="nx">foo</span><span class="p">();</span>
+
+<span class="c1">// displays one 1</span>
+
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://www.php.net/manual/en/functions.arguments.php">Documentation</a></p>
+<p>Related : <a class="reference internal" href="#parameter"><span class="std std-ref">parameter</span></a>, <span class="xref std std-ref">properties</span></p>
+</div>
 <div class="section" id="define">
-<span id="id35"></span><h3>define()<a class="headerlink" href="#define" title="Permalink to this headline">¶</a></h3>
+<span id="id36"></span><h3>define()<a class="headerlink" href="#define" title="Permalink to this headline">¶</a></h3>
 <p>define() is a PHP function, that introduces constant definitions.</p>
 <p>define() is a function, and may be called anywhere. It is slower than <cite>const</cite>, as it is only executed at runtime. define() doesn’t allow class constants creation.</p>
 <p>define() used to create case-insensitive constant, but this was abandonned in PHP 7.3.</p>
@@ -1618,8 +1644,14 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/control-structures.alternative-syntax.php">Documentation</a></p>
 <p>Related : <a class="reference internal" href="#class"><span class="std std-ref">class</span></a>, <a class="reference internal" href="#trait"><span class="std std-ref">trait</span></a>, <a class="reference internal" href="#conditioned"><span class="std std-ref">conditioned</span></a></p>
 </div>
+<div class="section" id="dependency-injection">
+<span id="id37"></span><h3>Dependency Injection<a class="headerlink" href="#dependency-injection" title="Permalink to this headline">¶</a></h3>
+<p>Dependency injection is a design pattern in which an object receives other objects that it depends on.</p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Dependency_injection">Documentation</a></p>
+<p>See also <a href="#id176"><span class="problematic" id="id177">`Road to dependency injection &lt;https://matthiasnoback.nl/2018/06/road-to-dependency-injection/`_</span></a></p>
+</div>
 <div class="section" id="dereferencing">
-<span id="id36"></span><h3>Dereferencing<a class="headerlink" href="#dereferencing" title="Permalink to this headline">¶</a></h3>
+<span id="id38"></span><h3>Dereferencing<a class="headerlink" href="#dereferencing" title="Permalink to this headline">¶</a></h3>
 <p>Dereferencing is the action to access a value, which is reference with a pointer. Since PHP has no pointer, dereferencing applies to accessing an element in an array.</p>
 <p>Dereferencing is also applicable to function calls : when a function returns an array, it is possible to immediately access one of the element by using the array syntax.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -1642,7 +1674,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#function"><span class="std std-ref">function</span></a>, <a class="reference internal" href="#array"><span class="std std-ref">array</span></a></p>
 </div>
 <div class="section" id="destructor">
-<span id="id37"></span><h3>destructor<a class="headerlink" href="#destructor" title="Permalink to this headline">¶</a></h3>
+<span id="id39"></span><h3>destructor<a class="headerlink" href="#destructor" title="Permalink to this headline">¶</a></h3>
 <p>The destructor is a special method in a class, which is called at shutdown of an object, in order to do any last minute cleaning.</p>
 <p>Most of the time, the destructor is automatic : removing scalar values may be sufficient. In cases of resources, or other objects, it is recommended to issue the graceful commands to shut them down in turn.</p>
 <p>Destructors are usually called after the end of the script, and will not have access to any display. As such, calls to echo are ineffective.</p>
@@ -1673,7 +1705,7 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="directives">
-<span id="id38"></span><h3>Directives<a class="headerlink" href="#directives" title="Permalink to this headline">¶</a></h3>
+<span id="id40"></span><h3>Directives<a class="headerlink" href="#directives" title="Permalink to this headline">¶</a></h3>
 <p>Directives are the configuration option of PHP. They may be set in the php.ini file, in HTTP server files like .htaccess, or accessed via the ini_get() and ini_set() native calls.</p>
 <p>Directives are also set by PHP extension.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -1691,7 +1723,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#extension"><span class="std std-ref">extension</span></a></p>
 </div>
 <div class="section" id="directoryiterator">
-<span id="id39"></span><h3>DirectoryIterator<a class="headerlink" href="#directoryiterator" title="Permalink to this headline">¶</a></h3>
+<span id="id41"></span><h3>DirectoryIterator<a class="headerlink" href="#directoryiterator" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>The DirectoryIterator class provides a simple interface for viewing the contents of filesystem directories.</p>
 </div></blockquote>
@@ -1709,7 +1741,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#spl"><span class="std std-ref">spl</span></a></p>
 </div>
 <div class="section" id="disable-classes">
-<span id="id40"></span><h3>Disable classes<a class="headerlink" href="#disable-classes" title="Permalink to this headline">¶</a></h3>
+<span id="id42"></span><h3>Disable classes<a class="headerlink" href="#disable-classes" title="Permalink to this headline">¶</a></h3>
 <p>This directive allows you to disable certain classes in the php.ini.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">// in php.ini</span>
 
@@ -1720,7 +1752,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="disable-functions">
-<span id="id41"></span><h3>disable functions<a class="headerlink" href="#disable-functions" title="Permalink to this headline">¶</a></h3>
+<span id="id43"></span><h3>disable functions<a class="headerlink" href="#disable-functions" title="Permalink to this headline">¶</a></h3>
 <p>This directive allows you to disable certain functions in the php.ini.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">// in php.ini</span>
 
@@ -1731,7 +1763,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="divisionbyzeroerror">
-<span id="id42"></span><h3>DivisionByZeroError<a class="headerlink" href="#divisionbyzeroerror" title="Permalink to this headline">¶</a></h3>
+<span id="id44"></span><h3>DivisionByZeroError<a class="headerlink" href="#divisionbyzeroerror" title="Permalink to this headline">¶</a></h3>
 <p>DivisionByZeroError is thrown when an attempt is made to divide a number by zero.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="k">try</span> <span class="p">{</span>
@@ -1747,7 +1779,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#error"><span class="std std-ref">error</span></a></p>
 </div>
 <div class="section" id="dynamic-call">
-<span id="id43"></span><h3>Dynamic Call<a class="headerlink" href="#dynamic-call" title="Permalink to this headline">¶</a></h3>
+<span id="id45"></span><h3>Dynamic Call<a class="headerlink" href="#dynamic-call" title="Permalink to this headline">¶</a></h3>
 <p>A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time.</p>
 <p>In PHP, every syntax may use a dynamic call.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -1777,7 +1809,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from">Documentation</a></p>
 </div>
 <div class="section" id="dynamic-constant">
-<span id="id44"></span><h3>Dynamic Constant<a class="headerlink" href="#dynamic-constant" title="Permalink to this headline">¶</a></h3>
+<span id="id46"></span><h3>Dynamic Constant<a class="headerlink" href="#dynamic-constant" title="Permalink to this headline">¶</a></h3>
 <p>A constant is dynamic when its name is a piece of data, and is only access at execution time.</p>
 <p>Calling a constant is done by using the constant() function.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -1820,12 +1852,11 @@ foo($a);
 </pre></div>
 </div>
 <p><a class="reference external" href="https://wiki.php.net/rfc/deprecate_dynamic_properties">Documentation</a></p>
+<p>See also <a class="reference external" href="https://medium.com/geekculture/php-what-are-dynamic-properties-2509c6fbccf8">PHP, what are dynamic properties?</a></p>
 <p>Related : <a class="reference internal" href="#property"><span class="std std-ref">property</span></a>, <a class="reference internal" href="#magic-method"><span class="std std-ref">magic-method</span></a>, <a class="reference internal" href="#stdclass"><span class="std std-ref">stdclass</span></a></p>
-<p>Added in PHP 4.0</p>
-<p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="dynamic-variable">
-<span id="id45"></span><h3>Dynamic Variable<a class="headerlink" href="#dynamic-variable" title="Permalink to this headline">¶</a></h3>
+<span id="id47"></span><h3>Dynamic Variable<a class="headerlink" href="#dynamic-variable" title="Permalink to this headline">¶</a></h3>
 <p>A dynamic variable is a variable whose name stored in a variable or an expression.</p>
 <p>They are identified by a double $ sign, though the same operator may be used multiple times.</p>
 <p>They are also called variable variable.</p>
@@ -1846,7 +1877,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#variable"><span class="std std-ref">variable</span></a></p>
 </div>
 <div class="section" id="echo">
-<span id="id46"></span><h3>echo<a class="headerlink" href="#echo" title="Permalink to this headline">¶</a></h3>
+<span id="id48"></span><h3>echo<a class="headerlink" href="#echo" title="Permalink to this headline">¶</a></h3>
 <p>echo displays the arguments to the output : this may be the web page, or the command line screen.</p>
 <p>echo is a language construct of PHP.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -1859,7 +1890,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/function.echo.php">Documentation</a></p>
 </div>
 <div class="section" id="ellipsis">
-<span id="id47"></span><h3>Ellipsis<a class="headerlink" href="#ellipsis" title="Permalink to this headline">¶</a></h3>
+<span id="id49"></span><h3>Ellipsis<a class="headerlink" href="#ellipsis" title="Permalink to this headline">¶</a></h3>
 <p>Ellipsis operator is the <cite>…</cite> operator. It also bears the name of three dots, and even dot dot dot.</p>
 <p>It is used to implements the array spread feature, and the variadic arguments. The actual feature depends on the context.</p>
 <p>Ellipsis is the classic punctuation description of the operator, and will apply to both features.</p>
@@ -1876,7 +1907,7 @@ foo($a);
 <p>Added in PHP 5.6</p>
 </div>
 <div class="section" id="empty">
-<span id="id48"></span><h3>Empty<a class="headerlink" href="#empty" title="Permalink to this headline">¶</a></h3>
+<span id="id50"></span><h3>Empty<a class="headerlink" href="#empty" title="Permalink to this headline">¶</a></h3>
 <p>Empty is a language structure, which determines whether a variable is empty.</p>
 <p>A variable is considered empty if it does not exist or if its value equals false. This may overlap with the usage of isset().</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -1935,7 +1966,7 @@ foo($a);
 <p>Added in PHP 8.1+</p>
 </div>
 <div class="section" id="error">
-<span id="id49"></span><h3>Error<a class="headerlink" href="#error" title="Permalink to this headline">¶</a></h3>
+<span id="id51"></span><h3>Error<a class="headerlink" href="#error" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Error is the base class for all internal PHP errors.</p>
 </div></blockquote>
@@ -1954,7 +1985,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#throw"><span class="std std-ref">throw</span></a>, <a class="reference internal" href="#try-catch"><span class="std std-ref">try-catch</span></a></p>
 </div>
 <div class="section" id="escape-character">
-<span id="id50"></span><h3>Escape Character<a class="headerlink" href="#escape-character" title="Permalink to this headline">¶</a></h3>
+<span id="id52"></span><h3>Escape Character<a class="headerlink" href="#escape-character" title="Permalink to this headline">¶</a></h3>
 <p>Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence.</p>
 <p>Escape characters are often generating a special sequence to escape themselves and allow their literal meaning to be expressed.</p>
 <p>In PHP’s strings and HEREDOC, the escape character is the backslash : </p>
@@ -2004,7 +2035,7 @@ foo($a);
 <p>See also <a class="reference external" href="https://dev.mysql.com/doc/refman/8.0/en/string-literals.html">String literals (MySQL)</a>, <a class="reference external" href="https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20.">Lexical Structure (PostgreSQL)</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/INI_file.">INI file</a></p>
 </div>
 <div class="section" id="eval">
-<span id="id52"></span><h3>Eval<a class="headerlink" href="#eval" title="Permalink to this headline">¶</a></h3>
+<span id="id54"></span><h3>Eval<a class="headerlink" href="#eval" title="Permalink to this headline">¶</a></h3>
 <p>The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2020,7 +2051,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/function.eval.php">Documentation</a></p>
 </div>
 <div class="section" id="exception">
-<span id="id53"></span><h3>Exception<a class="headerlink" href="#exception" title="Permalink to this headline">¶</a></h3>
+<span id="id55"></span><h3>Exception<a class="headerlink" href="#exception" title="Permalink to this headline">¶</a></h3>
 <p>The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2037,7 +2068,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#throw"><span class="std std-ref">throw</span></a>, <a class="reference internal" href="#try-catch"><span class="std std-ref">try-catch</span></a></p>
 </div>
 <div class="section" id="exponent">
-<span id="id54"></span><h3>Exponent<a class="headerlink" href="#exponent" title="Permalink to this headline">¶</a></h3>
+<span id="id56"></span><h3>Exponent<a class="headerlink" href="#exponent" title="Permalink to this headline">¶</a></h3>
 <p>Exponent is the mathematical operation to raise to the power of. There are two possibilities to use this operator : the <cite>**</cite> operator, and the pow() function.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2071,7 +2102,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/install.pecl.php">Documentation</a></p>
 </div>
 <div class="section" id="extract">
-<span id="id55"></span><h3>extract()<a class="headerlink" href="#extract" title="Permalink to this headline">¶</a></h3>
+<span id="id57"></span><h3>extract()<a class="headerlink" href="#extract" title="Permalink to this headline">¶</a></h3>
 <p>extract() is a native PHP function, which creates arrays from an array containing variables and their values.</p>
 <p>extract() has option to handle situations where the variables are already existing, and how those conflicts should be handled : by default, it overwrites the local variables.</p>
 <p>Options are :  <code class="docutils literal notranslate"><span class="pre">EXTR_OVERWRITE</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_SKIP</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_PREFIX_SAME</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_PREFIX_ALL</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_PREFIX_INVALID</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_IF_EXISTS</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_PREFIX_IF_EXISTS</span></code>, <code class="docutils literal notranslate"><span class="pre">EXTR_REFS</span></code>.</p>
@@ -2089,7 +2120,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#compact"><span class="std std-ref">compact</span></a></p>
 </div>
 <div class="section" id="false">
-<span id="id56"></span><h3>False<a class="headerlink" href="#false" title="Permalink to this headline">¶</a></h3>
+<span id="id58"></span><h3>False<a class="headerlink" href="#false" title="Permalink to this headline">¶</a></h3>
 <p>false has two usage, as PHP keyword : the opposite of true, as a boolean value and a special typehint for functions that may return false, but not true.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2152,7 +2183,7 @@ foo($a);
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="finally">
-<span id="id57"></span><h3>Finally<a class="headerlink" href="#finally" title="Permalink to this headline">¶</a></h3>
+<span id="id59"></span><h3>Finally<a class="headerlink" href="#finally" title="Permalink to this headline">¶</a></h3>
 <p>Finally is the default clause of a try-catch expression. It is run after all the catch clauses have been called.</p>
 <p>Finally is run everytime after a try, with or without any catch clause. It is also run before the return expression, if any.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2174,7 +2205,7 @@ foo($a);
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="first-class-callable">
-<span id="id58"></span><h3>First Class Callable<a class="headerlink" href="#first-class-callable" title="Permalink to this headline">¶</a></h3>
+<span id="id60"></span><h3>First Class Callable<a class="headerlink" href="#first-class-callable" title="Permalink to this headline">¶</a></h3>
 <p>Syntax to create a closure from a method call.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2206,7 +2237,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#real"><span class="std std-ref">real</span></a></p>
 </div>
 <div class="section" id="foreach">
-<span id="id59"></span><h3>Foreach<a class="headerlink" href="#foreach" title="Permalink to this headline">¶</a></h3>
+<span id="id61"></span><h3>Foreach<a class="headerlink" href="#foreach" title="Permalink to this headline">¶</a></h3>
 <p>Foreach is the most popular loop in PHP.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2304,7 +2335,7 @@ foo($a);
 </div>
 </div>
 <div class="section" id="fully-qualified-name">
-<span id="id60"></span><h3>Fully Qualified Name<a class="headerlink" href="#fully-qualified-name" title="Permalink to this headline">¶</a></h3>
+<span id="id62"></span><h3>Fully Qualified Name<a class="headerlink" href="#fully-qualified-name" title="Permalink to this headline">¶</a></h3>
 <p>A fully qualified name is a unique identifier for the PHP name of a constant, class, trait, interface or function : it includes its namespace name.</p>
 <p>PHP names may be fully qualified, relative, qualified or relative.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2329,7 +2360,7 @@ foo($a);
 <p>Added in PHP 5.3</p>
 </div>
 <div class="section" id="function-subscripting">
-<span id="id61"></span><h3>Function Subscripting<a class="headerlink" href="#function-subscripting" title="Permalink to this headline">¶</a></h3>
+<span id="id63"></span><h3>Function Subscripting<a class="headerlink" href="#function-subscripting" title="Permalink to this headline">¶</a></h3>
 <p>Function subscripting is the ability to apply operators like -&gt;, ?-&gt; or [&lt;index&gt;] directly on the results of a method call.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2358,7 +2389,7 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="generator">
-<span id="id62"></span><h3>Generator<a class="headerlink" href="#generator" title="Permalink to this headline">¶</a></h3>
+<span id="id64"></span><h3>Generator<a class="headerlink" href="#generator" title="Permalink to this headline">¶</a></h3>
 <p>Generators provide an easy way to implement simple iterators without the overhead or complexity of implementing a class that implements the Iterator interface.</p>
 <p>Generator must have no return typehint, or use the Generator typehint.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2380,7 +2411,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#yield"><span class="std std-ref">yield</span></a>, <a class="reference internal" href="#yield-from"><span class="std std-ref">yield-from</span></a>, <a class="reference internal" href="#return-typehint"><span class="std std-ref">return-typehint</span></a></p>
 </div>
 <div class="section" id="glob">
-<span id="id63"></span><h3>glob<a class="headerlink" href="#glob" title="Permalink to this headline">¶</a></h3>
+<span id="id65"></span><h3>glob<a class="headerlink" href="#glob" title="Permalink to this headline">¶</a></h3>
 <p>glob() is a function that finds pathnames matching a pattern.</p>
 <p>The glob() function is not related to the global keyword.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2480,7 +2511,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#goto"><span class="std std-ref">goto</span></a></p>
 </div>
 <div class="section" id="hash">
-<span id="id64"></span><h3>Hash<a class="headerlink" href="#hash" title="Permalink to this headline">¶</a></h3>
+<span id="id66"></span><h3>Hash<a class="headerlink" href="#hash" title="Permalink to this headline">¶</a></h3>
 <p>Hash is both a PHP extension, a PHP function and a general computer science concept. Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms.</p>
 <p>While the extension ‘hash’ only process hashes, there are other extensions which offer these features : openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2521,7 +2552,7 @@ foo($a);
 <p>Added in PHP 5.5</p>
 </div>
 <div class="section" id="hexadecimal-integer">
-<span id="id65"></span><h3>Hexadecimal Integer<a class="headerlink" href="#hexadecimal-integer" title="Permalink to this headline">¶</a></h3>
+<span id="id67"></span><h3>Hexadecimal Integer<a class="headerlink" href="#hexadecimal-integer" title="Permalink to this headline">¶</a></h3>
 <p>Hexadecimal integers are integers with an hexadecimal representation. Their value is the same, yet their are written in a different way than the common decimal.</p>
 <p>Hexadecimal has native support in PHP with the <code class="docutils literal notranslate"><span class="pre">0x123</span></code> format. There is also support for hexadecimal characters, inside double-quote strings, with the <code class="docutils literal notranslate"><span class="pre">\xhh</span></code> syntax.</p>
 <p>There are functions to convert from and to hexadecimal format : hexdec(), dechex() and base_convert(), from ten to sixteen.</p>
@@ -2541,7 +2572,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#binary-integer"><span class="std std-ref">binary-integer</span></a>, <a class="reference internal" href="#octal-integer"><span class="std std-ref">octal-integer</span></a></p>
 </div>
 <div class="section" id="https">
-<span id="id66"></span><h3>HTTPS<a class="headerlink" href="#https" title="Permalink to this headline">¶</a></h3>
+<span id="id68"></span><h3>HTTPS<a class="headerlink" href="#https" title="Permalink to this headline">¶</a></h3>
 <p>Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP). It is used for secure communication over a computer network, and is widely used on the Internet.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2564,7 +2595,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#https"><span class="std std-ref">https</span></a>, <a class="reference internal" href="#wrapper"><span class="std std-ref">wrapper</span></a>, <a class="reference internal" href="#protocol"><span class="std std-ref">protocol</span></a></p>
 </div>
 <div class="section" id="iconv">
-<span id="id67"></span><h3>Iconv<a class="headerlink" href="#iconv" title="Permalink to this headline">¶</a></h3>
+<span id="id69"></span><h3>Iconv<a class="headerlink" href="#iconv" title="Permalink to this headline">¶</a></h3>
 <p>Iconv is both a PHP function, a PHP extension and a library for character encoding conversion.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
   <span class="k">echo</span> <span class="s1">&#39;TRANSLIT : &#39;</span><span class="p">,</span> <span class="nb">iconv</span><span class="p">(</span><span class="nx">UTF</span><span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="nx">ISO</span><span class="o">-</span><span class="mi">8859</span><span class="o">-</span><span class="mi">1</span><span class="c1">//TRANSLIT, $text), PHP_EOL;</span>
@@ -2592,8 +2623,25 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/function.include.php">Documentation</a></p>
 <p>Added in PHP 8.0+</p>
 </div>
+<div class="section" id="imagickexception">
+<span id="id70"></span><h3>ImagickException<a class="headerlink" href="#imagickexception" title="Permalink to this headline">¶</a></h3>
+<p>The ImagickException exception is thrown when an error happens while processing an Imagick operation.</p>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+
+<span class="k">try</span> <span class="p">{</span>
+    <span class="nv">$imagick</span><span class="o">-&gt;</span><span class="na">gammaImage</span><span class="p">(</span><span class="nv">$correction</span><span class="p">,</span> <span class="nx">\Imagick</span><span class="o">::</span><span class="na">CHANNEL_ALL</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">\ImagickException</span> <span class="nv">$e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="nx">RuntimeException</span><span class="p">(</span><span class="s1">&#39;Failed to apply gamma correction to the image&#39;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://www.php.net/manual/en/book.imagick.php">Documentation</a></p>
+<p>Related : <a class="reference internal" href="#exception"><span class="std std-ref">exception</span></a></p>
+</div>
 <div class="section" id="implements">
-<span id="id68"></span><h3>implements<a class="headerlink" href="#implements" title="Permalink to this headline">¶</a></h3>
+<span id="id71"></span><h3>implements<a class="headerlink" href="#implements" title="Permalink to this headline">¶</a></h3>
 <p>Implements is a keyword, dedicated to classes. It specify which interfaces a class implements.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2647,7 +2695,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/function.include.php">Documentation</a></p>
 </div>
 <div class="section" id="inclusions">
-<span id="id69"></span><h3>Inclusions<a class="headerlink" href="#inclusions" title="Permalink to this headline">¶</a></h3>
+<span id="id72"></span><h3>Inclusions<a class="headerlink" href="#inclusions" title="Permalink to this headline">¶</a></h3>
 <p>Including a PHP file into another PHP file. This is usually isolated into the autoloading feature.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2664,7 +2712,7 @@ foo($a);
 <p>Added in PHP 8.0+</p>
 </div>
 <div class="section" id="indentation">
-<span id="id70"></span><h3>Indentation<a class="headerlink" href="#indentation" title="Permalink to this headline">¶</a></h3>
+<span id="id73"></span><h3>Indentation<a class="headerlink" href="#indentation" title="Permalink to this headline">¶</a></h3>
 <p>Indentation is a convention governing the indentation of blocks of code to convey program structure.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2683,7 +2731,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="index">
-<span id="id71"></span><h3>Index<a class="headerlink" href="#index" title="Permalink to this headline">¶</a></h3>
+<span id="id74"></span><h3>Index<a class="headerlink" href="#index" title="Permalink to this headline">¶</a></h3>
 <p>A index is the identifier of an specific element in an array. They may automatically generated, by simply omitting them at creation time.</p>
 <p>PHP index may be integers or strings only. Other data type will generate an error or a type conversion. For example, floats will be turned into integer. integer-shaped strings will also be turned into integer.</p>
 <p>PHP index start at 0. They may be automatically assigned by appending a new value with the <cite>[]</cite> operator : then, they will use the greatest available index + 1.</p>
@@ -2698,7 +2746,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#array"><span class="std std-ref">array</span></a></p>
 </div>
 <div class="section" id="inequality">
-<span id="id72"></span><h3>Inequality<a class="headerlink" href="#inequality" title="Permalink to this headline">¶</a></h3>
+<span id="id75"></span><h3>Inequality<a class="headerlink" href="#inequality" title="Permalink to this headline">¶</a></h3>
 <p>Inequalities are the mathematical comparison of values, with the <cite>&gt;</cite>,  <cite>&gt;=</cite>,  <cite>&lt;</cite> and <cite>=&lt;</cite> operators.</p>
 <p>Unlike the equality operators, they do not have a strict version, which takes into account the type of the values. Hence, the compared values are always adapted to each other’s type.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2715,7 +2763,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/language.operators.comparison.php">Documentation</a></p>
 </div>
 <div class="section" id="inheritance">
-<span id="id73"></span><h3>Inheritance<a class="headerlink" href="#inheritance" title="Permalink to this headline">¶</a></h3>
+<span id="id76"></span><h3>Inheritance<a class="headerlink" href="#inheritance" title="Permalink to this headline">¶</a></h3>
 <p>Inheritance is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2742,7 +2790,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#class"><span class="std std-ref">class</span></a></p>
 </div>
 <div class="section" id="instanceof">
-<span id="id74"></span><h3>instanceof<a class="headerlink" href="#instanceof" title="Permalink to this headline">¶</a></h3>
+<span id="id77"></span><h3>instanceof<a class="headerlink" href="#instanceof" title="Permalink to this headline">¶</a></h3>
 <p>instanceof is used to determine whether a PHP variable is an instantiated object of a certain class. It is related to the function is_a().</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2755,7 +2803,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/language.operators.type.php#language.operators.type">Documentation</a></p>
 </div>
 <div class="section" id="insteadof">
-<span id="id75"></span><h3>Insteadof<a class="headerlink" href="#insteadof" title="Permalink to this headline">¶</a></h3>
+<span id="id78"></span><h3>Insteadof<a class="headerlink" href="#insteadof" title="Permalink to this headline">¶</a></h3>
 <p>The insteadof operator needs to be used to resolve naming conflicts between multiple traits used in the same class.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2792,7 +2840,7 @@ foo($a);
 <p>Added in PHP 5.4+</p>
 </div>
 <div class="section" id="integer">
-<span id="id76"></span><h3>integer<a class="headerlink" href="#integer" title="Permalink to this headline">¶</a></h3>
+<span id="id79"></span><h3>integer<a class="headerlink" href="#integer" title="Permalink to this headline">¶</a></h3>
 <p>An int is a number of the set ℤ = {…, -2, -1, 0, 1, 2, …}. It is limited by PHP_INT_MIN (lower bound) and PHP_INT_MAX (upper bound).</p>
 <p>Integers have several syntaxes : they may be written in binary, octal, decimal, hexadecimal and with <cite>_</cite> as a separator.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2852,7 +2900,7 @@ foo($a);
 <p>See also <a class="reference external" href="https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php">Interfaces vs Abstract Classes in PHP</a></p>
 </div>
 <div class="section" id="interpolation">
-<span id="id78"></span><h3>Interpolation<a class="headerlink" href="#interpolation" title="Permalink to this headline">¶</a></h3>
+<span id="id81"></span><h3>Interpolation<a class="headerlink" href="#interpolation" title="Permalink to this headline">¶</a></h3>
 <p>Interpolation is the PHP feature that automatically replaces variables by their value in double-quoted strings and Heredoc syntax.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="nv">$string</span> <span class="o">=</span> <span class="nx">world</span><span class="p">;</span>
@@ -2866,7 +2914,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#string"><span class="std std-ref">string</span></a>, <a class="reference internal" href="#concatenation"><span class="std std-ref">concatenation</span></a>, <a class="reference internal" href="#heredoc"><span class="std std-ref">heredoc</span></a></p>
 </div>
 <div class="section" id="intersection-type">
-<span id="id79"></span><h3>Intersection Type<a class="headerlink" href="#intersection-type" title="Permalink to this headline">¶</a></h3>
+<span id="id82"></span><h3>Intersection Type<a class="headerlink" href="#intersection-type" title="Permalink to this headline">¶</a></h3>
 <p>Specifying several types together as a single typehint, separated with the &amp; operator.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2882,7 +2930,7 @@ foo($a);
 <p>Added in PHP 8.1</p>
 </div>
 <div class="section" id="invalidargumentexception">
-<span id="id80"></span><h3>InvalidArgumentException<a class="headerlink" href="#invalidargumentexception" title="Permalink to this headline">¶</a></h3>
+<span id="id83"></span><h3>InvalidArgumentException<a class="headerlink" href="#invalidargumentexception" title="Permalink to this headline">¶</a></h3>
 <p>Exception thrown if an argument is not of the expected type. It is a LogicException, and it may be thrown when using SPL classes.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2901,7 +2949,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#logicexception"><span class="std std-ref">logicexception</span></a></p>
 </div>
 <div class="section" id="isset">
-<span id="id81"></span><h3>isset<a class="headerlink" href="#isset" title="Permalink to this headline">¶</a></h3>
+<span id="id84"></span><h3>isset<a class="headerlink" href="#isset" title="Permalink to this headline">¶</a></h3>
 <p>isset() is a function that determines if a variable is declared and is different than null.</p>
 <p>Isset() is also related to the magic method __isset(), which is used to determine if a property in an object exists or not.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -2938,7 +2986,7 @@ foo($a);
 <p>Added in PHP 7.1</p>
 </div>
 <div class="section" id="json">
-<span id="id82"></span><h3>JSON<a class="headerlink" href="#json" title="Permalink to this headline">¶</a></h3>
+<span id="id85"></span><h3>JSON<a class="headerlink" href="#json" title="Permalink to this headline">¶</a></h3>
 <p>JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="nv">$array</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;a&#39;</span> <span class="o">=&gt;</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span> <span class="o">=&gt;</span> <span class="nx">c</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="s1">&#39;d&#39;</span> <span class="o">=&gt;</span> <span class="k">new</span> <span class="k">stdclass</span><span class="p">());</span>
@@ -2954,7 +3002,7 @@ foo($a);
 <p>Added in PHP 5.0+</p>
 </div>
 <div class="section" id="jsonexception">
-<span id="id84"></span><h3>JsonException<a class="headerlink" href="#jsonexception" title="Permalink to this headline">¶</a></h3>
+<span id="id87"></span><h3>JsonException<a class="headerlink" href="#jsonexception" title="Permalink to this headline">¶</a></h3>
 <p>Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_decode(). code contains the error type, for possible values see json_last_error().</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -2976,7 +3024,7 @@ foo($a);
 <p>Added in PHP 5.0+</p>
 </div>
 <div class="section" id="language-construct">
-<span id="id85"></span><h3>Language construct<a class="headerlink" href="#language-construct" title="Permalink to this headline">¶</a></h3>
+<span id="id88"></span><h3>Language construct<a class="headerlink" href="#language-construct" title="Permalink to this headline">¶</a></h3>
 <p>PHP has ‘language construct’, which are special keywords, with an attached feature.</p>
 <p>Language constructs are : echo, require, require_once, include, include_once, return, die, exit, unset, isset, print, empty.</p>
 <p>Language constructs usually do not require parenthesis, and they are mostly known for that. The parenthesis is not necessary, but possible. It makes the language construct look like a function call.</p>
@@ -3022,7 +3070,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#self"><span class="std std-ref">self</span></a>, <a class="reference internal" href="#static"><span class="std std-ref">static</span></a>, <a class="reference internal" href="#parent"><span class="std std-ref">parent</span></a></p>
 </div>
 <div class="section" id="libsodium">
-<span id="id86"></span><h3>libsodium<a class="headerlink" href="#libsodium" title="Permalink to this headline">¶</a></h3>
+<span id="id89"></span><h3>libsodium<a class="headerlink" href="#libsodium" title="Permalink to this headline">¶</a></h3>
 <p>Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more.</p>
 <p>The library is integrated into PHP as an extension. It provides a lot of functions and features to the language.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3036,14 +3084,14 @@ foo($a);
 <p>Related : <a class="reference internal" href="#cryptography"><span class="std std-ref">cryptography</span></a>, <a class="reference internal" href="#openssl"><span class="std std-ref">openssl</span></a></p>
 </div>
 <div class="section" id="linting">
-<span id="id87"></span><h3>Linting<a class="headerlink" href="#linting" title="Permalink to this headline">¶</a></h3>
+<span id="id90"></span><h3>Linting<a class="headerlink" href="#linting" title="Permalink to this headline">¶</a></h3>
 <p>Linting is the process to turn the Text file that holds the source code, into tokens. During this first phase, PHP applies some checks, and report anything that makes no sense.</p>
 <p>After linting, the code is processed further before reaching the status of opcode, where it can be executed.</p>
 <p>Linting is an option of the PHP CLI : <cite>-l</cite>.</p>
 <p>Linting is sometimes mistaken with ‘compiling’ : linting is a part of a compilation. Since, it is the only step available in PHP between the code and the execution (with eval() or the PHP CLI), linting is often considered as compiling.</p>
 </div>
 <div class="section" id="list">
-<span id="id88"></span><h3>list<a class="headerlink" href="#list" title="Permalink to this headline">¶</a></h3>
+<span id="id91"></span><h3>list<a class="headerlink" href="#list" title="Permalink to this headline">¶</a></h3>
 <p>List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list.</p>
 <p>List() also has a short array version, which is <cite>[ ]</cite> the square brackets. Those square brackets are only appearing on the left side of an assignation.</p>
 <p>list() may omit extracted values by skipping their value, and leaving seemingly empty arguments. List() also supports double-arrow notation, where the key is provided.</p>
@@ -3069,7 +3117,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#array"><span class="std std-ref">array</span></a></p>
 </div>
 <div class="section" id="locale">
-<span id="id89"></span><h3>Locale<a class="headerlink" href="#locale" title="Permalink to this headline">¶</a></h3>
+<span id="id92"></span><h3>Locale<a class="headerlink" href="#locale" title="Permalink to this headline">¶</a></h3>
 <p>Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time.</p>
 <p>Locales are extracted from the system, and depends on a country name and a language name. For example, <cite>fr-FR</cite> for French French, <cite>nl_NL</cite> for Dutch, or <cite>zh_CN</cite> for Chinese Chinese.</p>
 <p>Locale are supported with the ext/icu extension, and also, natively with the setlocale() function.</p>
@@ -3110,7 +3158,7 @@ foo($a);
 <p>Related : <span class="xref std std-ref">bitwise-operator</span></p>
 </div>
 <div class="section" id="logicexception">
-<span id="id90"></span><h3>LogicException<a class="headerlink" href="#logicexception" title="Permalink to this headline">¶</a></h3>
+<span id="id93"></span><h3>LogicException<a class="headerlink" href="#logicexception" title="Permalink to this headline">¶</a></h3>
 <p>Exception that represents error in the program logic. This kind of exception should lead directly to a fix in your code.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3153,7 +3201,7 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="magic">
-<span id="id91"></span><h3>Magic<a class="headerlink" href="#magic" title="Permalink to this headline">¶</a></h3>
+<span id="id94"></span><h3>Magic<a class="headerlink" href="#magic" title="Permalink to this headline">¶</a></h3>
 <p>return returns program control to the calling module. Execution resumes at the expression following the called module’s invocation.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3227,7 +3275,7 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="magic-property">
-<span id="id92"></span><h3>Magic Property<a class="headerlink" href="#magic-property" title="Permalink to this headline">¶</a></h3>
+<span id="id95"></span><h3>Magic Property<a class="headerlink" href="#magic-property" title="Permalink to this headline">¶</a></h3>
 <p>Special properties, which are not declared, but dynamically handled by</p>
 <p>The magic methods to handle magic properties are :  __get(), __set(), __isset() et __unset().</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3248,7 +3296,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/language.oop5.magic.php">Documentation</a></p>
 </div>
 <div class="section" id="match">
-<span id="id93"></span><h3>Match<a class="headerlink" href="#match" title="Permalink to this headline">¶</a></h3>
+<span id="id96"></span><h3>Match<a class="headerlink" href="#match" title="Permalink to this headline">¶</a></h3>
 <p>The match expression branches evaluation based on an identity check of a value.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3266,7 +3314,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="memoization">
-<span id="id94"></span><h3>Memoization<a class="headerlink" href="#memoization" title="Permalink to this headline">¶</a></h3>
+<span id="id97"></span><h3>Memoization<a class="headerlink" href="#memoization" title="Permalink to this headline">¶</a></h3>
 <p>Memoization is an optimisation technique to speed up a function by avoiding re-processing previously calculated results.</p>
 <p>Usually, memoization trades processing time with memory. The best suited situation are when the load takes some time to process, and the result is a small amount of memory, such as a count.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3291,7 +3339,7 @@ foo($a);
 <p>Added in PHP 4.0+</p>
 </div>
 <div class="section" id="method">
-<span id="id95"></span><h3>Method<a class="headerlink" href="#method" title="Permalink to this headline">¶</a></h3>
+<span id="id98"></span><h3>Method<a class="headerlink" href="#method" title="Permalink to this headline">¶</a></h3>
 <p>Methods are function dedicated to a class. They are defined inside the body of a class, and may only be access in relation to that class : via an object, the class name or another method.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3340,7 +3388,7 @@ foo($a);
 <p>Removed in PHP</p>
 </div>
 <div class="section" id="multidimensional-array">
-<span id="id96"></span><h3>Multidimensional Array<a class="headerlink" href="#multidimensional-array" title="Permalink to this headline">¶</a></h3>
+<span id="id99"></span><h3>Multidimensional Array<a class="headerlink" href="#multidimensional-array" title="Permalink to this headline">¶</a></h3>
 <p>An array inside an array is called a multidimensional array. Dimensions may be created as many as necessary, by using the square brackets.</p>
 <p>PHP creates the arrays on the fly. When the intermediate array are undefined, PHP will add them in the structure.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3417,7 +3465,7 @@ foo($a);
 <p>Removed in PHP 5.3</p>
 </div>
 <div class="section" id="native">
-<span id="id97"></span><h3>Native<a class="headerlink" href="#native" title="Permalink to this headline">¶</a></h3>
+<span id="id100"></span><h3>Native<a class="headerlink" href="#native" title="Permalink to this headline">¶</a></h3>
 <p>A features is called ‘native’ when it is part of the standard installation of PHP. For example, <cite>.</cite> (dot operator) or the <cite>stdClass</cite> class are native to PHP.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3433,7 +3481,7 @@ foo($a);
 </div>
 </div>
 <div class="section" id="nested-attributes">
-<span id="id98"></span><h3>Nested Attributes<a class="headerlink" href="#nested-attributes" title="Permalink to this headline">¶</a></h3>
+<span id="id101"></span><h3>Nested Attributes<a class="headerlink" href="#nested-attributes" title="Permalink to this headline">¶</a></h3>
 <p>Arguments of attribute may also be objects, when using a new expression in the arguments.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3469,7 +3517,7 @@ foo($a);
 <p>Added in PHP 8.1+</p>
 </div>
 <div class="section" id="never-typehint">
-<span id="id99"></span><h3>Never Typehint<a class="headerlink" href="#never-typehint" title="Permalink to this headline">¶</a></h3>
+<span id="id102"></span><h3>Never Typehint<a class="headerlink" href="#never-typehint" title="Permalink to this headline">¶</a></h3>
 <p>Never is a typehint that explicitly set that a method will never return. It will end the execution or throw an exception.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3527,7 +3575,7 @@ foo($a);
 <p>Added in PHP 5.5</p>
 </div>
 <div class="section" id="null">
-<span id="id100"></span><h3>Null<a class="headerlink" href="#null" title="Permalink to this headline">¶</a></h3>
+<span id="id103"></span><h3>Null<a class="headerlink" href="#null" title="Permalink to this headline">¶</a></h3>
 <p>Null represents the absence of data. It is the default value for objects.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3565,7 +3613,7 @@ foo($a);
 <p>Added in PHP 8.0+</p>
 </div>
 <div class="section" id="null-ternary">
-<span id="id101"></span><h3>Null ternary<a class="headerlink" href="#null-ternary" title="Permalink to this headline">¶</a></h3>
+<span id="id104"></span><h3>Null ternary<a class="headerlink" href="#null-ternary" title="Permalink to this headline">¶</a></h3>
 <p>The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates to true, and expr3 if expr1 evaluates to false.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3579,7 +3627,7 @@ foo($a);
 <p>Added in PHP 7.0+</p>
 </div>
 <div class="section" id="nullable">
-<span id="id102"></span><h3>Nullable<a class="headerlink" href="#nullable" title="Permalink to this headline">¶</a></h3>
+<span id="id105"></span><h3>Nullable<a class="headerlink" href="#nullable" title="Permalink to this headline">¶</a></h3>
 <p>Nullable is the name of the NULL value, when used as a type. Until PHP 8.0, it was marked as a question mark with types, and since PHP 8.0, it is also marked with its own name, as an union type.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3595,7 +3643,7 @@ foo($a);
 <p>Added in PHP 7.1</p>
 </div>
 <div class="section" id="nullsafe">
-<span id="id103"></span><h3>Nullsafe<a class="headerlink" href="#nullsafe" title="Permalink to this headline">¶</a></h3>
+<span id="id106"></span><h3>Nullsafe<a class="headerlink" href="#nullsafe" title="Permalink to this headline">¶</a></h3>
 <p>A nullsafe operator is able to carry a function or fail graciously. In particular, it won’t stop the execution with a fatal error.</p>
 <p>There are two PHP operators that are nullsafe :</p>
 <ul class="simple">
@@ -3618,7 +3666,7 @@ foo($a);
 <p>Added in PHP 8.0+</p>
 </div>
 <div class="section" id="numeric-separator">
-<span id="id104"></span><h3>Numeric Separator<a class="headerlink" href="#numeric-separator" title="Permalink to this headline">¶</a></h3>
+<span id="id107"></span><h3>Numeric Separator<a class="headerlink" href="#numeric-separator" title="Permalink to this headline">¶</a></h3>
 <p>var keyword for introducing PHP properties in classes. It is now replaced by visibility (public, but possibly private or protected), and is not recommended.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3632,7 +3680,7 @@ foo($a);
 <p>Added in PHP 7.4</p>
 </div>
 <div class="section" id="object">
-<span id="id105"></span><h3>Object<a class="headerlink" href="#object" title="Permalink to this headline">¶</a></h3>
+<span id="id108"></span><h3>Object<a class="headerlink" href="#object" title="Permalink to this headline">¶</a></h3>
 <p>PHP includes a complete object model. Some of its features are: visibility, abstract and final classes and methods, additional magic methods, interfaces, and cloning.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3661,7 +3709,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#visibility"><span class="std std-ref">visibility</span></a>, <a class="reference internal" href="#abstract"><span class="std std-ref">abstract</span></a>, <a class="reference internal" href="#final"><span class="std std-ref">final</span></a>, <a class="reference internal" href="#magic-method"><span class="std std-ref">magic-method</span></a>, <a class="reference internal" href="#interface"><span class="std std-ref">interface</span></a>, <a class="reference internal" href="#clone"><span class="std std-ref">clone</span></a></p>
 </div>
 <div class="section" id="object-operator">
-<span id="id106"></span><h3>Object Operator<a class="headerlink" href="#object-operator" title="Permalink to this headline">¶</a></h3>
+<span id="id109"></span><h3>Object Operator<a class="headerlink" href="#object-operator" title="Permalink to this headline">¶</a></h3>
 <p>The Object Operator is the operator to access properties and methods from an object.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3688,7 +3736,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#nullsafe-object-operator"><span class="std std-ref">nullsafe-object-operator</span></a>, <a class="reference internal" href="#scope-resolution-operator"><span class="std std-ref">scope-resolution-operator</span></a></p>
 </div>
 <div class="section" id="octal-integer">
-<span id="id107"></span><h3>Octal Integer<a class="headerlink" href="#octal-integer" title="Permalink to this headline">¶</a></h3>
+<span id="id110"></span><h3>Octal Integer<a class="headerlink" href="#octal-integer" title="Permalink to this headline">¶</a></h3>
 <p>Integers can be specified in octal (base 8) notation. Octal integer syntax starts with <code class="docutils literal notranslate"><span class="pre">0o</span></code> (zero-o) and only contains digits from 0 to 7.</p>
 <p>Initially, octal integers were formatted by simply starting with a initial 0. This features is still available, yet should be replaced with the less confusing syntax with <cite>0o</cite>.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3704,7 +3752,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#integer"><span class="std std-ref">integer</span></a>, <a class="reference internal" href="#binary-integer"><span class="std std-ref">binary-integer</span></a>, <a class="reference internal" href="#hexadecimal-integer"><span class="std std-ref">hexadecimal-integer</span></a></p>
 </div>
 <div class="section" id="opcode">
-<span id="id108"></span><h3>Opcode<a class="headerlink" href="#opcode" title="Permalink to this headline">¶</a></h3>
+<span id="id111"></span><h3>Opcode<a class="headerlink" href="#opcode" title="Permalink to this headline">¶</a></h3>
 <p>ArgumentCountError is thrown when too few arguments are passed to a user-defined function or method. This is an error, not an exception.</p>
 <p>No exception is raised for extra parameters, as those may still be processed by the method itself.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3726,7 +3774,7 @@ foo($a);
 <p>See also <a class="reference external" href="https://x-team.com/blog/learn-about-php-opcodes/">LEARN ABOUT PHP OPCODES</a>, <a class="reference external" href="https://php.watch/articles/php-dump-opcodes">How to dump and inspect PHP OPCodes</a></p>
 </div>
 <div class="section" id="openssl">
-<span id="id109"></span><h3>OpenSSL<a class="headerlink" href="#openssl" title="Permalink to this headline">¶</a></h3>
+<span id="id112"></span><h3>OpenSSL<a class="headerlink" href="#openssl" title="Permalink to this headline">¶</a></h3>
 <p>The OpenSSL Project develops and maintains the OpenSSL software - a robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication.</p>
 <p>The library is integrated into PHP as an extension. It provides a lot of functions and features to the language.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -3767,7 +3815,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/language.operators.php">Documentation</a></p>
 </div>
 <div class="section" id="outofrangeexception">
-<span id="id110"></span><h3>OutOfRangeException<a class="headerlink" href="#outofrangeexception" title="Permalink to this headline">¶</a></h3>
+<span id="id113"></span><h3>OutOfRangeException<a class="headerlink" href="#outofrangeexception" title="Permalink to this headline">¶</a></h3>
 <p>Exception thrown when an illegal index was requested.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3785,7 +3833,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/class.outofrangeexception.php">Documentation</a></p>
 </div>
 <div class="section" id="overwrite">
-<span id="id111"></span><h3>Overwrite<a class="headerlink" href="#overwrite" title="Permalink to this headline">¶</a></h3>
+<span id="id114"></span><h3>Overwrite<a class="headerlink" href="#overwrite" title="Permalink to this headline">¶</a></h3>
 <p>Overwriting is the process to replace a method, property or constant that was defined in a parent, by a local definition. This is related to OOP programming and inheritance.</p>
 <p>Overwriting is applicable to constants, methods and properties. Methods still should have a compatible signature with their parent’s equivalent, while properties and constants may change their (default) value.</p>
 <p>Overwriting is prevented by the <code class="docutils literal notranslate"><span class="pre">final</span></code> keyword, or the <code class="docutils literal notranslate"><span class="pre">private</span></code> visibility.</p>
@@ -3811,7 +3859,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#final"><span class="std std-ref">final</span></a>, <a class="reference internal" href="#private"><span class="std std-ref">private</span></a>, <a class="reference internal" href="#inheritance"><span class="std std-ref">inheritance</span></a></p>
 </div>
 <div class="section" id="pack">
-<span id="id112"></span><h3>pack<a class="headerlink" href="#pack" title="Permalink to this headline">¶</a></h3>
+<span id="id115"></span><h3>pack<a class="headerlink" href="#pack" title="Permalink to this headline">¶</a></h3>
 <p>Pack() is a native PHP function which converts given arguments into a binary string according to format. By extension, pack is the string that defines that format.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="nv">$binarydata</span> <span class="o">=</span> <span class="nb">pack</span><span class="p">(</span><span class="nx">nvc</span><span class="o">*</span><span class="p">,</span> <span class="mh">0x1234</span><span class="p">,</span> <span class="mh">0x5678</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">66</span><span class="p">);</span>
@@ -3823,14 +3871,14 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="packagist">
-<span id="id113"></span><h3>Packagist<a class="headerlink" href="#packagist" title="Permalink to this headline">¶</a></h3>
+<span id="id116"></span><h3>Packagist<a class="headerlink" href="#packagist" title="Permalink to this headline">¶</a></h3>
 <p>Packagist is the most popular package repository for PHP.</p>
 <p>Packagist works with composer.</p>
 <p><a class="reference external" href="https://getcomposer.org/">Documentation</a></p>
 <p>Related : <a class="reference internal" href="#packagist"><span class="std std-ref">packagist</span></a></p>
 </div>
 <div class="section" id="parameter">
-<span id="id114"></span><h3>Parameter<a class="headerlink" href="#parameter" title="Permalink to this headline">¶</a></h3>
+<span id="id117"></span><h3>Parameter<a class="headerlink" href="#parameter" title="Permalink to this headline">¶</a></h3>
 <p>A parameter is a variable in a method definition. They have a name, and may have a default value and typehint. They may also be passed by reference, or by value (by default).</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3846,7 +3894,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#argument"><span class="std std-ref">argument</span></a></p>
 </div>
 <div class="section" id="parent">
-<span id="id115"></span><h3>parent<a class="headerlink" href="#parent" title="Permalink to this headline">¶</a></h3>
+<span id="id118"></span><h3>parent<a class="headerlink" href="#parent" title="Permalink to this headline">¶</a></h3>
 <p>parent is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the first parent class, or any or their own parents. In particular, when searching for methods or properties, it may skip the direct parent, and land on one of the parent above.</p>
 <p>Parent represents the first parent of the class.</p>
 <p>In a trait, parent represents the host class’s parent, not the trait own parent. In fact, the trait has no parent.</p>
@@ -3870,7 +3918,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#overwrite"><span class="std std-ref">overwrite</span></a>, <a class="reference internal" href="#static"><span class="std std-ref">static</span></a>, <a class="reference internal" href="#self"><span class="std std-ref">self</span></a>, <a class="reference internal" href="#late-static-binding"><span class="std std-ref">late-static-binding</span></a></p>
 </div>
 <div class="section" id="parenthesis">
-<span id="id116"></span><h3>Parenthesis<a class="headerlink" href="#parenthesis" title="Permalink to this headline">¶</a></h3>
+<span id="id119"></span><h3>Parenthesis<a class="headerlink" href="#parenthesis" title="Permalink to this headline">¶</a></h3>
 <p>Parenthesis are  parameter is a variable in a method definition. They have a name, and may have a default value and typehint. They may also be passed by reference, or by value (by default).</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -3934,7 +3982,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#by-reference"><span class="std std-ref">by-reference</span></a></p>
 </div>
 <div class="section" id="pdoexception">
-<span id="id117"></span><h3>PDOException<a class="headerlink" href="#pdoexception" title="Permalink to this headline">¶</a></h3>
+<span id="id120"></span><h3>PDOException<a class="headerlink" href="#pdoexception" title="Permalink to this headline">¶</a></h3>
 <p>PDOException represents an error raised by PDO. You should not throw a PDOException from your own code.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
     <span class="k">try</span> <span class="p">{</span>
@@ -3948,13 +3996,13 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/class.pdoexception.php">Documentation</a></p>
 </div>
 <div class="section" id="pecl">
-<span id="id118"></span><h3>PECL<a class="headerlink" href="#pecl" title="Permalink to this headline">¶</a></h3>
+<span id="id121"></span><h3>PECL<a class="headerlink" href="#pecl" title="Permalink to this headline">¶</a></h3>
 <p>PECL is a repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions.</p>
 <p><a class="reference external" href="https://pecl.php.net/">Documentation</a></p>
 <p>Related : <a class="reference internal" href="#extension"><span class="std std-ref">extension</span></a></p>
 </div>
 <div class="section" id="pharexception">
-<span id="id119"></span><h3>PharException<a class="headerlink" href="#pharexception" title="Permalink to this headline">¶</a></h3>
+<span id="id122"></span><h3>PharException<a class="headerlink" href="#pharexception" title="Permalink to this headline">¶</a></h3>
 <p>The PharException class provides a phar-specific exception class for try/catch blocks.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4040,7 +4088,7 @@ foo($a);
 <p>Related : <span class="xref std std-ref">super-global</span></p>
 </div>
 <div class="section" id="phpinfo">
-<span id="id121"></span><h3>phpinfo()<a class="headerlink" href="#phpinfo" title="Permalink to this headline">¶</a></h3>
+<span id="id124"></span><h3>phpinfo()<a class="headerlink" href="#phpinfo" title="Permalink to this headline">¶</a></h3>
 <p>phpinfo() is one of the most famous PHP function. It outputs information about PHP’s configuration, in HTML format.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="c1">// Show all information, defaults to INFO_ALL</span>
@@ -4052,7 +4100,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="plus">
-<span id="id122"></span><h3>plus +<a class="headerlink" href="#plus" title="Permalink to this headline">¶</a></h3>
+<span id="id125"></span><h3>plus +<a class="headerlink" href="#plus" title="Permalink to this headline">¶</a></h3>
 <p><cite>+</cite> is a native PHP operator, which may have three meaning :</p>
 <ul class="simple">
 <li><p>The addition, as in mathematics. This works on integers and double.</p></li>
@@ -4093,7 +4141,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#named-parameter"><span class="std std-ref">named-parameter</span></a></p>
 </div>
 <div class="section" id="precedence">
-<span id="id123"></span><h3>Precedence<a class="headerlink" href="#precedence" title="Permalink to this headline">¶</a></h3>
+<span id="id126"></span><h3>Precedence<a class="headerlink" href="#precedence" title="Permalink to this headline">¶</a></h3>
 <p>Precedence organizes the way operators are executed, when they are mixed in the same expression.</p>
 <p>For example, <cite>1 + 2 * 3</cite> will produce <cite>7</cite>, since <cite>*</cite> has a higher precedence than <cite>+</cite>.</p>
 <p>Every operator has a precedence, and when they have the same precedence, the rightmost one yield to the leftmost one.</p>
@@ -4125,7 +4173,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/reserved.constants.php">Documentation</a></p>
 </div>
 <div class="section" id="preprocess">
-<span id="id124"></span><h3>Preprocess<a class="headerlink" href="#preprocess" title="Permalink to this headline">¶</a></h3>
+<span id="id127"></span><h3>Preprocess<a class="headerlink" href="#preprocess" title="Permalink to this headline">¶</a></h3>
 <p>Preprocessing is an optimisation technique, where a value is calculated even before the execution of a script. This is only possible with constants values, which are known before execution.</p>
 <p>Preprocessing may save execution time, and memory.</p>
 <p>In terms of maintenance, it hides some implementation details in the result : one has to guess where this value is coming from.</p>
@@ -4214,7 +4262,7 @@ foo($a);
 <p>Added in PHP 7.4</p>
 </div>
 <div class="section" id="protocol">
-<span id="id125"></span><h3>Protocol<a class="headerlink" href="#protocol" title="Permalink to this headline">¶</a></h3>
+<span id="id128"></span><h3>Protocol<a class="headerlink" href="#protocol" title="Permalink to this headline">¶</a></h3>
 <p>A protocol is a scheme part of a URL, with an associated wrapper.</p>
 <p>In a URL like <cite>ftp://www.site.com/file.txt</cite>, the protocol is <cite>ftp</cite>, and relates to the FTP protocol. It is also a predefined PHP wrapper.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4228,7 +4276,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#wrapper"><span class="std std-ref">wrapper</span></a></p>
 </div>
 <div class="section" id="random">
-<span id="id126"></span><h3>Random<a class="headerlink" href="#random" title="Permalink to this headline">¶</a></h3>
+<span id="id129"></span><h3>Random<a class="headerlink" href="#random" title="Permalink to this headline">¶</a></h3>
 <p>Random generators generates numbers or strings.</p>
 <p>random_bytes(), random_int() and openssl_random_pseudo_bytes() produce pseudo-random data, suitable for cryptography.</p>
 <p>Traditional native functions, such as rand() and mt_rand() are not recommended for cryptography.</p>
@@ -4242,7 +4290,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="readonly">
-<span id="id127"></span><h3>Readonly<a class="headerlink" href="#readonly" title="Permalink to this headline">¶</a></h3>
+<span id="id130"></span><h3>Readonly<a class="headerlink" href="#readonly" title="Permalink to this headline">¶</a></h3>
 <p>A property can be declared with the readonly modifier, which prevents modification of the property after initialization.</p>
 <p>In PHP 8.2, a class may be readonly, making all of of its properties readonly too.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4312,7 +4360,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/preg_match">Documentation</a></p>
 </div>
 <div class="section" id="resource">
-<span id="id128"></span><h3>resource<a class="headerlink" href="#resource" title="Permalink to this headline">¶</a></h3>
+<span id="id131"></span><h3>resource<a class="headerlink" href="#resource" title="Permalink to this headline">¶</a></h3>
 <p>A resource is a special type of data, holding a reference to an external resource. Resources are created and used by special functions.</p>
 <p>Resources are only used with their dedicated functions. It is not possible to modify them in any other way.</p>
 <p>Resources, in general, are removed from PHP code and more recent version tend to rely less on them.</p>
@@ -4328,7 +4376,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/language.types.resource.php">Documentation</a></p>
 </div>
 <div class="section" id="return">
-<span id="id129"></span><h3>Return<a class="headerlink" href="#return" title="Permalink to this headline">¶</a></h3>
+<span id="id132"></span><h3>Return<a class="headerlink" href="#return" title="Permalink to this headline">¶</a></h3>
 <p>return returns program control to the calling module. Execution resumes at the expression following the called module’s invocation.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4367,7 +4415,7 @@ foo($a);
 <p>Added in PHP 8.1+</p>
 </div>
 <div class="section" id="return-typehint">
-<span id="id130"></span><h3>Return Typehint<a class="headerlink" href="#return-typehint" title="Permalink to this headline">¶</a></h3>
+<span id="id133"></span><h3>Return Typehint<a class="headerlink" href="#return-typehint" title="Permalink to this headline">¶</a></h3>
 <p>Return typehints are the types used for the return values of a method or function.</p>
 <p>They are the same as the argument types, with a few addition :</p>
 <ul class="simple">
@@ -4393,7 +4441,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#typehint"><span class="std std-ref">typehint</span></a>, <a class="reference internal" href="#return"><span class="std std-ref">return</span></a>, <a class="reference internal" href="#type-covariance"><span class="std std-ref">type-covariance</span></a></p>
 </div>
 <div class="section" id="return-value">
-<span id="id131"></span><h3>Return Value<a class="headerlink" href="#return-value" title="Permalink to this headline">¶</a></h3>
+<span id="id134"></span><h3>Return Value<a class="headerlink" href="#return-value" title="Permalink to this headline">¶</a></h3>
 <p>Return value is the value returned, at the end of a method call. That value may be typed with a data typehint. It may also be typed with <cite>never</cite>, in case the method doesn’t return, or <cite>void</cite>, when the method returns nothing.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4415,7 +4463,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/function.include.php">Documentation</a></p>
 </div>
 <div class="section" id="sanitation">
-<span id="id132"></span><h3>Sanitation<a class="headerlink" href="#sanitation" title="Permalink to this headline">¶</a></h3>
+<span id="id135"></span><h3>Sanitation<a class="headerlink" href="#sanitation" title="Permalink to this headline">¶</a></h3>
 <p>Sanitation is the process to clean data and remove any unwanted parts. The data may end up modified by this process, sometimes quite a lot. There are native and extension functions in PHP to perform sanitation, as long as components.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4448,7 +4496,7 @@ foo($a);
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="scope-resolution-operator">
-<span id="id133"></span><h3>Scope Resolution Operator<a class="headerlink" href="#scope-resolution-operator" title="Permalink to this headline">¶</a></h3>
+<span id="id136"></span><h3>Scope Resolution Operator<a class="headerlink" href="#scope-resolution-operator" title="Permalink to this headline">¶</a></h3>
 <p>The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class.</p>
 <p>Traditionnally, this used to be a feature of the function get_class(). The operator is more modern and faster.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4468,7 +4516,7 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="self">
-<span id="id134"></span><h3>self<a class="headerlink" href="#self" title="Permalink to this headline">¶</a></h3>
+<span id="id137"></span><h3>self<a class="headerlink" href="#self" title="Permalink to this headline">¶</a></h3>
 <p>Self is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current written class.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4488,7 +4536,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#static"><span class="std std-ref">static</span></a>, <a class="reference internal" href="#parent"><span class="std std-ref">parent</span></a>, <a class="reference internal" href="#late-static-binding"><span class="std std-ref">late-static-binding</span></a></p>
 </div>
 <div class="section" id="session">
-<span id="id135"></span><h3>Session<a class="headerlink" href="#session" title="Permalink to this headline">¶</a></h3>
+<span id="id138"></span><h3>Session<a class="headerlink" href="#session" title="Permalink to this headline">¶</a></h3>
 <p>Session support in PHP consists of a way to preserve certain data across subsequent accesses.</p>
 <p>It relies on the session_* functions, and the <code class="docutils literal notranslate"><span class="pre">$_SESSION</span></code> superglobal variable.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4524,7 +4572,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#assignation"><span class="std std-ref">assignation</span></a></p>
 </div>
 <div class="section" id="short-syntax">
-<span id="id136"></span><h3>Short Syntax<a class="headerlink" href="#short-syntax" title="Permalink to this headline">¶</a></h3>
+<span id="id139"></span><h3>Short Syntax<a class="headerlink" href="#short-syntax" title="Permalink to this headline">¶</a></h3>
 <p>A short syntax is the fusion of an operator with the <cite>=</cite> operator. That way, the operator is applied to the right hand operand, and the left variable, then, assigned to that variable.</p>
 <p>It is convenient when the variable has to be assigned again to itself.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4565,7 +4613,7 @@ foo($a);
 <p>Related : <span class="xref std std-ref">php-tag</span>, <span class="xref std std-ref">echo-tag</span></p>
 </div>
 <div class="section" id="signature">
-<span id="id137"></span><h3>signature<a class="headerlink" href="#signature" title="Permalink to this headline">¶</a></h3>
+<span id="id140"></span><h3>signature<a class="headerlink" href="#signature" title="Permalink to this headline">¶</a></h3>
 <p>The signature of a method or a function is the list of arguments and constraints that applies when calling it.</p>
 <p>In its simplest form, signature of a method is its argument’s type and list, though modern syntax should also include default values, visibilities and parameter names.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4577,7 +4625,7 @@ foo($a);
 <p><a class="reference external" href="https://www.php.net/manual/en/functions.arguments.php">Documentation</a></p>
 </div>
 <div class="section" id="sleep">
-<span id="id138"></span><h3>sleep<a class="headerlink" href="#sleep" title="Permalink to this headline">¶</a></h3>
+<span id="id141"></span><h3>sleep<a class="headerlink" href="#sleep" title="Permalink to this headline">¶</a></h3>
 <p>sleep() is a PHP function which stops the execution for a given number of seconds. In web security, stopping a process makes it vulnerable to DOS attack : the process will wait, doing nothing yet using resources, allowing an attacker to saturate the server.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4641,7 +4689,7 @@ foo($a);
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="ssl">
-<span id="id139"></span><h3>SSL<a class="headerlink" href="#ssl" title="Permalink to this headline">¶</a></h3>
+<span id="id142"></span><h3>SSL<a class="headerlink" href="#ssl" title="Permalink to this headline">¶</a></h3>
 <p>SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web. SSL is often related to HTTPS, for secured transmission with the HTTP protocol, although HTTPS has moved from SSL to TLS.</p>
 <p>SSL is a PHP context for sockets, and share the configuration options with TLS.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4682,7 +4730,7 @@ foo($a);
 </div>
 </div>
 <div class="section" id="static">
-<span id="id140"></span><h3>static<a class="headerlink" href="#static" title="Permalink to this headline">¶</a></h3>
+<span id="id143"></span><h3>static<a class="headerlink" href="#static" title="Permalink to this headline">¶</a></h3>
 <p>Static has many distinct usages.</p>
 <p>Static is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current called class.</p>
 <p>Static is a keyword for methods and properties : they are turned into class elements, and should be reached with the :: syntax, instead of -&gt; or ?-&gt;.</p>
@@ -4712,7 +4760,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#static"><span class="std std-ref">static</span></a>, <a class="reference internal" href="#parent"><span class="std std-ref">parent</span></a>, <a class="reference internal" href="#closure"><span class="std std-ref">closure</span></a>, <a class="reference internal" href="#arrow-function"><span class="std std-ref">arrow-function</span></a>, <a class="reference internal" href="#variable"><span class="std std-ref">variable</span></a>, <a class="reference internal" href="#late-static-binding"><span class="std std-ref">late-static-binding</span></a></p>
 </div>
 <div class="section" id="static-method">
-<span id="id141"></span><h3>Static Method<a class="headerlink" href="#static-method" title="Permalink to this headline">¶</a></h3>
+<span id="id144"></span><h3>Static Method<a class="headerlink" href="#static-method" title="Permalink to this headline">¶</a></h3>
 <p>Static methods are methods defined with the static keyword. They have to be called with the name of the class, rather than instantiated object.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4733,7 +4781,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="static-property">
-<span id="id142"></span><h3>Static Property<a class="headerlink" href="#static-property" title="Permalink to this headline">¶</a></h3>
+<span id="id145"></span><h3>Static Property<a class="headerlink" href="#static-property" title="Permalink to this headline">¶</a></h3>
 <p>Static properties are properties defined with the static keyword. They may be accessed with the name of the class, or instantiated object.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4774,7 +4822,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#variable"><span class="std std-ref">variable</span></a>, <a class="reference internal" href="#variable-variable"><span class="std std-ref">variable-variable</span></a></p>
 </div>
 <div class="section" id="stdclass">
-<span id="id143"></span><h3>stdclass<a class="headerlink" href="#stdclass" title="Permalink to this headline">¶</a></h3>
+<span id="id146"></span><h3>stdclass<a class="headerlink" href="#stdclass" title="Permalink to this headline">¶</a></h3>
 <p>Stdclass is a native PHP class. It is the class used when a generic object is created, for example with json_decode() or the (object) cast operator.</p>
 <p>The stdClass is allowed to create dynamic properties on the fly, as its base definition has none.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4804,7 +4852,7 @@ foo($a);
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="strict-comparison">
-<span id="id144"></span><h3>Strict Comparison<a class="headerlink" href="#strict-comparison" title="Permalink to this headline">¶</a></h3>
+<span id="id147"></span><h3>Strict Comparison<a class="headerlink" href="#strict-comparison" title="Permalink to this headline">¶</a></h3>
 <p>Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value. In other words, it does not apply any type-juggling to the values before processing.</p>
 <p>Here are the strict operators : <code class="docutils literal notranslate"><span class="pre">==</span></code> may be replaced with <code class="docutils literal notranslate"><span class="pre">===</span></code>,  <code class="docutils literal notranslate"><span class="pre">!=</span></code> may be replaced with <code class="docutils literal notranslate"><span class="pre">!==</span></code>, <code class="docutils literal notranslate"><span class="pre">switch</span></code> may be replaced with <code class="docutils literal notranslate"><span class="pre">match</span></code>, in_array() with the third parameter <code class="docutils literal notranslate"><span class="pre">strict</span></code> set to true.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4827,7 +4875,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#switch"><span class="std std-ref">switch</span></a>, <a class="reference internal" href="#match"><span class="std std-ref">match</span></a></p>
 </div>
 <div class="section" id="string">
-<span id="id145"></span><h3>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h3>
+<span id="id148"></span><h3>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h3>
 <p>A string is series of characters, where a character is the same as a byte. This means that PHP only supports a 256-character set, and hence does not offer native Unicode support.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4841,7 +4889,7 @@ foo($a);
 <p>Added in PHP 4.0</p>
 </div>
 <div class="section" id="string-interpolation">
-<span id="id146"></span><h3>String Interpolation<a class="headerlink" href="#string-interpolation" title="Permalink to this headline">¶</a></h3>
+<span id="id149"></span><h3>String Interpolation<a class="headerlink" href="#string-interpolation" title="Permalink to this headline">¶</a></h3>
 <p>String interpolation is a feature where variables inside a string are dynamically replaced by their value at execution time.</p>
 <p>There are several ways to do interpolation :</p>
 <ul class="simple">
@@ -4868,7 +4916,7 @@ foo($a);
 <p>Related : <a class="reference internal" href="#string"><span class="std std-ref">string</span></a></p>
 </div>
 <div class="section" id="stringable">
-<span id="id147"></span><h3>Stringable<a class="headerlink" href="#stringable" title="Permalink to this headline">¶</a></h3>
+<span id="id150"></span><h3>Stringable<a class="headerlink" href="#stringable" title="Permalink to this headline">¶</a></h3>
 <p>The <code class="docutils literal notranslate"><span class="pre">Stringable</span></code> interface denotes a class as having a __toString() method.</p>
 <p><code class="docutils literal notranslate"><span class="pre">Stringeable</span></code> is not an English word : it is the name of this interface, and, at best, a neologism.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4922,8 +4970,16 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p><a class="reference external" href="https://www.php.net/manual/en/language.variables.superglobals.php">Documentation</a></p>
 <p>Related : <a class="reference internal" href="#variable"><span class="std std-ref">variable</span></a>, <a class="reference internal" href="#static-variable"><span class="std std-ref">static-variable</span></a>, <a class="reference internal" href="#variable-variable"><span class="std std-ref">variable-variable</span></a>, <a class="reference internal" href="#global-variable"><span class="std std-ref">global-variable</span></a></p>
 </div>
+<div class="section" id="supply-chain-attack">
+<span id="id151"></span><h3>Supply Chain Attack<a class="headerlink" href="#supply-chain-attack" title="Permalink to this headline">¶</a></h3>
+<p>Supply Chain Attack is a security attack that uses dependencies to infect a program.</p>
+<p>Modern applications are built on top of components which are fetched from central repositories. In the PHP world, composer is the most popular PHP repository.</p>
+<p>When those external repositories are infected with malicious component or code, the dependency manager will load them like the rest of the code. Blind trust in the imported code lead to vulnerabilities.</p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Supply_chain_attack">Documentation</a></p>
+<p>See also <a class="reference external" href="https://blog.sonarsource.com/php-supply-chain-attack-on-composer/">PHP Supply Chain Attack on Composer</a></p>
+</div>
 <div class="section" id="switch">
-<span id="id148"></span><h3>Switch<a class="headerlink" href="#switch" title="Permalink to this headline">¶</a></h3>
+<span id="id152"></span><h3>Switch<a class="headerlink" href="#switch" title="Permalink to this headline">¶</a></h3>
 <p>The switch expression branches evaluation based on an equality check of a value.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4961,7 +5017,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 7.0+</p>
 </div>
 <div class="section" id="throw">
-<span id="id149"></span><h3>throw<a class="headerlink" href="#throw" title="Permalink to this headline">¶</a></h3>
+<span id="id153"></span><h3>throw<a class="headerlink" href="#throw" title="Permalink to this headline">¶</a></h3>
 <p>Throw is the keyword which raise an existing exception.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="k">try</span><span class="p">{</span>
@@ -4978,7 +5034,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 4.0+</p>
 </div>
 <div class="section" id="throwable">
-<span id="id150"></span><h3>Throwable<a class="headerlink" href="#throwable" title="Permalink to this headline">¶</a></h3>
+<span id="id154"></span><h3>Throwable<a class="headerlink" href="#throwable" title="Permalink to this headline">¶</a></h3>
 <p>Throwable is a PHP native interface, which is required for any object which will be used with thrown, such as <cite>Exception</cite> and <cite>Error</cite>.</p>
 <p>This interface may be used with catch clauses, to catch everything that is thrown. Yet, this interface cannot be implemented directly. It should be acquired by extending <cite>Exception</cite>.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4996,7 +5052,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="tls">
-<span id="id151"></span><h3>TLS<a class="headerlink" href="#tls" title="Permalink to this headline">¶</a></h3>
+<span id="id155"></span><h3>TLS<a class="headerlink" href="#tls" title="Permalink to this headline">¶</a></h3>
 <p>TLS, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web. TLS is often related to HTTPS, for secured transmission with the HTTP protocol. It used to be based on SSL.</p>
 <p>TLS is a PHP context for sockets, and share the configuration options with SSL.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5016,7 +5072,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <a class="reference internal" href="#ssl"><span class="std std-ref">ssl</span></a></p>
 </div>
 <div class="section" id="trailing-comma">
-<span id="id152"></span><h3>Trailing Comma<a class="headerlink" href="#trailing-comma" title="Permalink to this headline">¶</a></h3>
+<span id="id156"></span><h3>Trailing Comma<a class="headerlink" href="#trailing-comma" title="Permalink to this headline">¶</a></h3>
 <p>The trailing comma is the possibility to leave the last element of a list empty, for presentation reasons.</p>
 <p>Trailing commas were introduced progressively in PHP. In PHP 7.2, in use statements; in PHP 7.3, in method calls; in PHP 8.0, in method declarations; in very old version, in array declarations.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5057,7 +5113,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 4.0+</p>
 </div>
 <div class="section" id="traversable">
-<span id="id153"></span><h3>Traversable<a class="headerlink" href="#traversable" title="Permalink to this headline">¶</a></h3>
+<span id="id157"></span><h3>Traversable<a class="headerlink" href="#traversable" title="Permalink to this headline">¶</a></h3>
 <p>A special return type that signals a method that never returns : only dies or throw an exception.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5074,7 +5130,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <a class="reference internal" href="#exception"><span class="std std-ref">exception</span></a>, <a class="reference internal" href="#error"><span class="std std-ref">error</span></a></p>
 </div>
 <div class="section" id="try-catch">
-<span id="id154"></span><h3>Try-catch<a class="headerlink" href="#try-catch" title="Permalink to this headline">¶</a></h3>
+<span id="id158"></span><h3>Try-catch<a class="headerlink" href="#try-catch" title="Permalink to this headline">¶</a></h3>
 <p>Try-catch is a PHP command, which run a block of code, and catch some configured exceptions that the block may throw. It may be completed with a finally block.</p>
 <p>The catch clause may be anonymous, when it only specify the type of caught exception, without providing a variable name.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5114,7 +5170,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="type-juggling">
-<span id="id155"></span><h3>Type Juggling<a class="headerlink" href="#type-juggling" title="Permalink to this headline">¶</a></h3>
+<span id="id159"></span><h3>Type Juggling<a class="headerlink" href="#type-juggling" title="Permalink to this headline">¶</a></h3>
 <p>Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation.</p>
 <p>For example, integers are translated into string when displayed, or kept as integers to be used with math operations.</p>
 <p>Type juggling is usually done automatically, without user intervention. Explicit type juggling is achieved with the cast operators.</p>
@@ -5132,7 +5188,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <a class="reference internal" href="#cast"><span class="std std-ref">cast</span></a></p>
 </div>
 <div class="section" id="typeerror">
-<span id="id156"></span><h3>TypeError<a class="headerlink" href="#typeerror" title="Permalink to this headline">¶</a></h3>
+<span id="id160"></span><h3>TypeError<a class="headerlink" href="#typeerror" title="Permalink to this headline">¶</a></h3>
 <p>The TypeError Error may be thrown when an error related to typing is detected.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5152,7 +5208,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="typehint">
-<span id="id157"></span><h3>Typehint<a class="headerlink" href="#typehint" title="Permalink to this headline">¶</a></h3>
+<span id="id161"></span><h3>Typehint<a class="headerlink" href="#typehint" title="Permalink to this headline">¶</a></h3>
 <p>Type declarations can be added to function arguments, return values, and, as of PHP 7.4.0, class properties. They ensure that the value is of the specified type at call time, otherwise a TypeError is thrown.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5170,7 +5226,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 7.0</p>
 </div>
 <div class="section" id="unexpectedvalueexception">
-<span id="id158"></span><h3>UnexpectedValueException<a class="headerlink" href="#unexpectedvalueexception" title="Permalink to this headline">¶</a></h3>
+<span id="id162"></span><h3>UnexpectedValueException<a class="headerlink" href="#unexpectedvalueexception" title="Permalink to this headline">¶</a></h3>
 <p>The UnexpectedValueException exception is thrown if a value does not match with a set of values.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5187,7 +5243,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 5.1</p>
 </div>
 <div class="section" id="unhandledmatcherror">
-<span id="id159"></span><h3>UnhandledMatchError<a class="headerlink" href="#unhandledmatcherror" title="Permalink to this headline">¶</a></h3>
+<span id="id163"></span><h3>UnhandledMatchError<a class="headerlink" href="#unhandledmatcherror" title="Permalink to this headline">¶</a></h3>
 <p>An UnhandledMatchError is thrown when the subject passed to a match expression is not handled by any arm of the match expression.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5204,7 +5260,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <a class="reference internal" href="#exception"><span class="std std-ref">exception</span></a></p>
 </div>
 <div class="section" id="union-type">
-<span id="id160"></span><h3>Union type<a class="headerlink" href="#union-type" title="Permalink to this headline">¶</a></h3>
+<span id="id164"></span><h3>Union type<a class="headerlink" href="#union-type" title="Permalink to this headline">¶</a></h3>
 <p>Specifying several types in as a typehint, separated with the | operator.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5235,7 +5291,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <a class="reference internal" href="#variable"><span class="std std-ref">variable</span></a></p>
 </div>
 <div class="section" id="uopz">
-<span id="id161"></span><h3>UOPZ<a class="headerlink" href="#uopz" title="Permalink to this headline">¶</a></h3>
+<span id="id165"></span><h3>UOPZ<a class="headerlink" href="#uopz" title="Permalink to this headline">¶</a></h3>
 <p>XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.</p>
 <p>PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader, xmlwriter.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5258,7 +5314,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <span class="xref std std-ref">simplexml</span>, <span class="xref std std-ref">domxml</span>, <span class="xref std std-ref">xmlwriter</span>, <span class="xref std std-ref">xmlreader</span></p>
 </div>
 <div class="section" id="use">
-<span id="id162"></span><h3>Use<a class="headerlink" href="#use" title="Permalink to this headline">¶</a></h3>
+<span id="id166"></span><h3>Use<a class="headerlink" href="#use" title="Permalink to this headline">¶</a></h3>
 <p>The use operator has three distinct usage.</p>
 <p>The use operator allows the import and aliasing of fully qualified names (such as classes, interfaces, constants, …)  in the current namespace.</p>
 <p>When <cite>use</cite> used inside a class or a trait, it imports a trait and its methods and properties.</p>
@@ -5293,7 +5349,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="validation">
-<span id="id163"></span><h3>Validation<a class="headerlink" href="#validation" title="Permalink to this headline">¶</a></h3>
+<span id="id167"></span><h3>Validation<a class="headerlink" href="#validation" title="Permalink to this headline">¶</a></h3>
 <p>Validation is the process to check that a data conform to a specific pattern. The data is not modified by a validation process. There are native and extension functions in PHP to perform validation, as long as components.</p>
 <p>Validation is also called filtering.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5311,7 +5367,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="valueerror">
-<span id="id164"></span><h3>ValueError<a class="headerlink" href="#valueerror" title="Permalink to this headline">¶</a></h3>
+<span id="id168"></span><h3>ValueError<a class="headerlink" href="#valueerror" title="Permalink to this headline">¶</a></h3>
 <p>A ValueError is thrown when the type of an argument is correct but the value of it is incorrect.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="nv">$hexadecimal</span> <span class="o">=</span> <span class="s1">&#39;a37334&#39;</span><span class="p">;</span>
@@ -5325,7 +5381,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p><a class="reference external" href="https://www.php.net/manual/en/class.valueerror.php">Documentation</a></p>
 </div>
 <div class="section" id="var">
-<span id="id165"></span><h3>Var<a class="headerlink" href="#var" title="Permalink to this headline">¶</a></h3>
+<span id="id169"></span><h3>Var<a class="headerlink" href="#var" title="Permalink to this headline">¶</a></h3>
 <p>var keyword for introducing PHP properties in classes. It is now replaced by visibility (public, but possibly private or protected), and is not recommended.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -5375,7 +5431,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="variadic">
-<span id="id166"></span><h3>Variadic<a class="headerlink" href="#variadic" title="Permalink to this headline">¶</a></h3>
+<span id="id170"></span><h3>Variadic<a class="headerlink" href="#variadic" title="Permalink to this headline">¶</a></h3>
 <p>Three dots, aka ellipsis, is an operator to spread or collect array values.</p>
 <p>Applied to an array, it will spread the values of the array as distinct elements.</p>
 <p>Used in a function signature, it will collect all the values into one array.</p>
@@ -5401,7 +5457,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 5.6</p>
 </div>
 <div class="section" id="visibility">
-<span id="id167"></span><h3>Visibility<a class="headerlink" href="#visibility" title="Permalink to this headline">¶</a></h3>
+<span id="id171"></span><h3>Visibility<a class="headerlink" href="#visibility" title="Permalink to this headline">¶</a></h3>
 <p>Properties, methods and classes may have a visibility. It limits the scope of the definition :</p>
 <ul class="simple">
 <li><p>private : to the current class</p></li>
@@ -5427,7 +5483,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Removed in PHP 4.0</p>
 </div>
 <div class="section" id="void">
-<span id="id168"></span><h3>Void<a class="headerlink" href="#void" title="Permalink to this headline">¶</a></h3>
+<span id="id172"></span><h3>Void<a class="headerlink" href="#void" title="Permalink to this headline">¶</a></h3>
 <p>Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement. null is not a valid return value for a void function.</p>
 <p>Void function may throw exceptions or return without a parameter.</p>
 <p>Null and void are two different notions.</p>
@@ -5450,7 +5506,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Added in PHP 8.0</p>
 </div>
 <div class="section" id="wrapper">
-<span id="id169"></span><h3>Wrapper<a class="headerlink" href="#wrapper" title="Permalink to this headline">¶</a></h3>
+<span id="id173"></span><h3>Wrapper<a class="headerlink" href="#wrapper" title="Permalink to this headline">¶</a></h3>
 <p>A Wrapper is a custom way to access remote resources. It is designed to look like accessing to file, on the file system, but using other drivers than the ones of the hard drive. It is based on a configuration string, which looks like a URL : <cite>ftp://www.site.com/file.txt</cite>, where the part before the <cite>://</cite> is the protocol.</p>
 <p>Among the predefined PHP wrapper, there are <a class="reference external" href="http://">http://</a>, <a class="reference external" href="ftp://">ftp://</a>, zlib://, phar://, rar://, expect://.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5464,7 +5520,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <a class="reference internal" href="#protocol"><span class="std std-ref">protocol</span></a></p>
 </div>
 <div class="section" id="xml">
-<span id="id170"></span><h3>XML<a class="headerlink" href="#xml" title="Permalink to this headline">¶</a></h3>
+<span id="id174"></span><h3>XML<a class="headerlink" href="#xml" title="Permalink to this headline">¶</a></h3>
 <p>XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.</p>
 <p>PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader, xmlwriter.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -5487,7 +5543,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <p>Related : <span class="xref std std-ref">simplexml</span>, <span class="xref std std-ref">domxml</span>, <span class="xref std std-ref">xmlwriter</span>, <span class="xref std std-ref">xmlreader</span></p>
 </div>
 <div class="section" id="yield">
-<span id="id171"></span><h3>Yield<a class="headerlink" href="#yield" title="Permalink to this headline">¶</a></h3>
+<span id="id175"></span><h3>Yield<a class="headerlink" href="#yield" title="Permalink to this headline">¶</a></h3>
 <p>In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="k">function</span> <span class="nf">gen_one_to_three</span><span class="p">()</span> <span class="p">{</span>
