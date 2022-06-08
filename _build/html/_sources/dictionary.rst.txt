@@ -1,9 +1,13 @@
 PHP Dictionary
 ++++++++++++++
 
+* $
+   * :ref:`$_FILES<$_files>`
+   * :ref:`$this<this>`
 * A
    * :ref:`Abstract Keyword<abstract>`
    * :ref:`Abstract Syntactic Tree<ast>`
+   * :ref:`Addition<addition>`
    * :ref:`Alias<namespace-alias>`
    * :ref:`Alternative Syntax<alternative-syntax>`
    * :ref:`Anonymous Class<anonymous-class>`
@@ -24,35 +28,10 @@ PHP Dictionary
    * :ref:`Blind Variable<variable-blind>`
    * :ref:`Boolean<boolean>`
    * :ref:`Break<break>`
-* P
-   * :ref:`PDOException<pdoexception>`
-   * :ref:`PECL<pecl>`
-   * :ref:`PHP Predefined Exception<predefined-exception>`
-   * :ref:`PHP Profiler<profiler>`
-   * :ref:`PHP Standards Recommendations (PSR)<psr>`
-   * :ref:`PHP variables<php-variable>`
-   * :ref:`Packagist<packagist>`
-   * :ref:`Parameter<parameter>`
-   * :ref:`Parenthesis<parenthesis>`
-   * :ref:`Passing By Reference<by-reference>`
-   * :ref:`Passing By Value<by-value>`
-   * :ref:`PharException<pharexception>`
-   * :ref:`Positional Parameters<positional-parameter>`
-   * :ref:`Precedence<precedence>`
-   * :ref:`Predefined Constants<predefined-constant>`
-   * :ref:`Preprocess<preprocess>`
-   * :ref:`Promoted Properties<promoted-property>`
-   * :ref:`Properties<property>`
-   * :ref:`Property Type Declaration<type-declaration-property>`
-   * :ref:`Protocol<protocol>`
-   * :ref:`pack<pack>`
-   * :ref:`parent<parent>`
-   * :ref:`phpinfo()<phpinfo>`
-   * :ref:`plus +<plus>`
-   * :ref:`private Keyword<private>`
 * C
    * :ref:`CSV<csv>`
    * :ref:`Callables<callbe>`
+   * :ref:`Callback<callback>`
    * :ref:`Cast operator<cast>`
    * :ref:`Catch<catch>`
    * :ref:`Class Constants Visibility<class-constant-visibility>`
@@ -106,6 +85,7 @@ PHP Dictionary
    * :ref:`destructor<destructor>`
    * :ref:`disable functions<disable_functions>`
 * E
+   * :ref:`Echo Tag<echo-tag>`
    * :ref:`Ellipsis<ellipsis>`
    * :ref:`Empty<empty>`
    * :ref:`Enumeration<enum>`
@@ -127,6 +107,7 @@ PHP Dictionary
    * :ref:`Finally<finally>`
    * :ref:`First Class Callable<first-class-callable>`
    * :ref:`Floating Point Numbers<float>`
+   * :ref:`Fluent Interface<fluent-interface>`
    * :ref:`Foreach<foreach>`
    * :ref:`Fossilized Methods<fossilized-method>`
    * :ref:`Frameworks<framework>`
@@ -142,6 +123,7 @@ PHP Dictionary
    * :ref:`goto Labels<label>`
 * H
    * :ref:`HTTPS<https>`
+   * :ref:`Hard Coded<hard-coded>`
    * :ref:`Hash<hash>`
    * :ref:`Heredocs<heredoc>`
    * :ref:`Hexadecimal Integer<hexadecimal-integer>`
@@ -212,8 +194,35 @@ PHP Dictionary
    * :ref:`Opcode<opcode>`
    * :ref:`OpenSSL<openssl>`
    * :ref:`Operators<operator>`
+   * :ref:`Optional Parameter<optional-parameter>`
    * :ref:`OutOfRangeException<outofrangeexception>`
    * :ref:`Overwrite<overwrite>`
+* P
+   * :ref:`PDOException<pdoexception>`
+   * :ref:`PECL<pecl>`
+   * :ref:`PHP Predefined Exception<predefined-exception>`
+   * :ref:`PHP Profiler<profiler>`
+   * :ref:`PHP Standards Recommendations (PSR)<psr>`
+   * :ref:`PHP variables<php-variable>`
+   * :ref:`Packagist<packagist>`
+   * :ref:`Parameter<parameter>`
+   * :ref:`Parenthesis<parenthesis>`
+   * :ref:`Passing By Reference<by-reference>`
+   * :ref:`Passing By Value<by-value>`
+   * :ref:`PharException<pharexception>`
+   * :ref:`Positional Parameters<positional-parameter>`
+   * :ref:`Precedence<precedence>`
+   * :ref:`Predefined Constants<predefined-constant>`
+   * :ref:`Preprocess<preprocess>`
+   * :ref:`Promoted Properties<promoted-property>`
+   * :ref:`Properties<property>`
+   * :ref:`Property Type Declaration<type-declaration-property>`
+   * :ref:`Protocol<protocol>`
+   * :ref:`pack<pack>`
+   * :ref:`parent<parent>`
+   * :ref:`phpinfo()<phpinfo>`
+   * :ref:`plus +<plus>`
+   * :ref:`private Keyword<private>`
 * R
    * :ref:`Random<random>`
    * :ref:`Readonly<readonly>`
@@ -266,8 +275,6 @@ PHP Dictionary
    * :ref:`TypeError<typeerror>`
    * :ref:`Typehint<typehint>`
    * :ref:`throw<throw>`
-* $
-   * :ref:`$this<this>`
 * U
    * :ref:`UOPZ<uopz>`
    * :ref:`UnexpectedValueException<unexpectedvalueexception>`
@@ -300,6 +307,37 @@ The Entries
 
 .
 =
+.. _$_files:
+
+$_FILES
+-------
+
+An associative array of items uploaded to the current script via the HTTP POST method.
+
++ ``$_FILES['userfile']['name']`` : the original name of the file on the client machine.
++ ``$_FILES['userfile']['type']`` : the mime type of the file, if the browser provided this information. An example would be image/gif. This mime type is however not checked on the PHP side and therefore don't take its value for granted.
++ ``$_FILES['userfile']['size']`` : the size, in bytes, of the uploaded file.
++ ``$_FILES['userfile']['tmp_name']`` : the temporary filename of the file in which the uploaded file was stored on the server.
++ ``$_FILES['userfile']['error']`` : the error code associated with this file upload.
++ ``$_FILES['userfile']['full_path']`` : the full path as submitted by the browser. This value does not always contain a real directory structure, and cannot be trusted. Available as of PHP 8.1.0.
+
+
+.. code-block:: php
+   
+   <?php
+   
+       // $a->file was filled with $_FILES at some point
+       move_uploaded_file($a->file['tmp_name'], $target);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
+
+See also `POST method uploads <https://www.php.net/manual/en/features.file-upload.post-method.php>`_
+
+Related : :ref:`upload<upload>`
+
 .. _this:
 
 $this
@@ -368,6 +406,36 @@ Abstract Syntactic Tree
 An abstract syntax tree (AST), is a tree representation of the abstract syntactic structure of PHP source code. 
 
 `Documentation <https://en.wikipedia.org/wiki/Abstract_syntax_tree>`__
+
+.. _addition:
+
+Addition
+--------
+
+PHP additions apply to two different types : numbers and arrays.
+
+For numbers, a.k.a. integers or float, this is the classic mathematical addition. 
+
+For arrays, this is a special version of array merge : the arrays are merged, and keys are kept once they are written. This features only exists for addition and arrays. Substraction is not available. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 1 + 2.3; // 3.3
+   
+   $b = [1] + [3, 4]; // [1, 4]
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
+
+See also `Array operators <https://www.php.net/manual/en/language.operators.array.php>`_, `Combining arrays using + versus array_merge in PHP <https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php>`_
+
+Related : :ref:`array<array>`, :ref:`integer<integer>`, :ref:`float<float>`
 
 .. _namespace-alias:
 
@@ -447,7 +515,7 @@ Also, arguments may be passed at instantiation time, unlink with named-class def
 
 `Documentation <https://www.php.net/manual/en/language.oop5.anonymous.php>`__
 
-See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_, `PPHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_
+See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_, `PHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_
 
 Related : :ref:`closure<closure>`
 
@@ -881,6 +949,37 @@ Classes may also be callable, when they implement the magic method `__invoke`.
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
 Related : :ref:`callback<callback>`, :ref:`closure<closure>`, :ref:`arrow-function<arrow-function>`
+
+.. _callback:
+
+Callback
+--------
+
+Callback are functions which are used as parameters for other functions. Such functions are used to customize the main function. For example, array_map(), which applies a callback to every element of an array, or usort(), which sorts an array using a function.
+
+Callback is akin to a functioncall : it is actually hidden inside the caller function. 
+
+Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string (i.e., `'strtolower'`) and array (i.e. `[X::class, 'methodName']`, or `[$object, 'methodName']` ) syntax. In fact, anything that is_callable() may be used. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = ['Damien', 'Dan', 'Daniel', 'Davey', 'David', 'Dennis', 'Derick', 'Dmitry', 'Dustin',];
+   $array = array_map('strtolower', $array);
+   
+   //['damien', 'dan', 'daniel', 'davey', 'david', 'dennis', 'derick', 'dmitry', 'dustin',];
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
+
+See also `The Wonderful World of Callbacks <https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/>`_
+
+Related : :ref:`callable<callable>`, :ref:`closure<closure>`, :ref:`arrow-function<arrow-function>`
 
 .. _case:
 
@@ -2401,6 +2500,25 @@ echo is a language construct of PHP.
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
+.. _echo-tag:
+
+Echo Tag
+--------
+
+Echo tag is a special PHP opening tag : ``<?=``. It combines the opening tag, and a call to the echo function.
+
+The echo tag should not be confused with PHP short tags ``<?``.
+
+
+.. code-block:: php
+   
+   <?php $a = 1; ?><?= $a; ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
+
+Related : :ref:`php-tag<php-tag>`, :ref:`short-tag<short-tag>`
+
 .. _ellipsis:
 
 Ellipsis
@@ -2917,6 +3035,43 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 Related : :ref:`real<real>`
 
+.. _fluent-interface:
+
+Fluent Interface
+----------------
+
+ a fluent interface is an object-oriented API whose design relies extensively on method chaining.
+
+.. code-block:: php
+   
+   <?php
+   
+   class script {
+       function hello() {
+           print 'Hello ';
+           return $this;
+       }
+   
+       function word() {
+           print 'word.';
+           return $this;
+       }
+   }
+   
+   $script = new Script();
+   
+   $script->hello()->world();
+   // 
+   
+   ?>
+
+
+`Documentation <https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html>`__
+
+See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_
+
+Related : :ref:`final<final>`
+
 .. _foreach:
 
 Foreach
@@ -3294,6 +3449,34 @@ Labels are the receiving end of a goto call.
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
 Related : :ref:`goto<goto>`
+
+.. _hard-coded:
+
+Hard Coded
+----------
+
+Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters.
+
+Hard-code becomes a security problem, when the hard-coded value is a password or a hash of it. This secret is now readable in the code.
+
+
+.. code-block:: php
+   
+   <?php 
+   
+   // This is hard-coded
+   $a = 1;
+   
+   // $b has a default value, but may also be changed at execution time
+   function foo($b = 2) {
+       echo $b;
+   }
+   
+    ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Hard_coding>`__
 
 .. _hash:
 
@@ -4173,6 +4356,8 @@ list() looks like a function, though it only appears on the left part of an assi
 
 `Documentation <https://www.php.net/manual/en/function.list.php>`__
 
+See also `List-o-mania <https://markbakeruk.net/2022/06/06/list-o-mania/>`_
+
 Related : :ref:`array<array>`
 
 .. _locale:
@@ -4543,7 +4728,7 @@ Added in PHP 8.0+
 Multibyte String
 ----------------
 
-mbstring provides function to process multibyte strings functions. Moreover, mbstring converts from and to various character encodings.
+``mbstring`` provides function to process multibyte strings functions. Moreover, ``mbstring`` converts from and to various character encodings.
 
 
 .. code-block:: php
@@ -4559,8 +4744,6 @@ mbstring provides function to process multibyte strings functions. Moreover, mbs
 `Documentation <https://www.php.net/manual/en/book.mbstring.php>`__
 
 Related : :ref:`iconv<iconv>`, :ref:`encoding<encoding>`
-
-Removed in PHP 
 
 .. _multidimensional-array:
 
@@ -5157,6 +5340,33 @@ An operator is something that takes one or more values (or expressions, in progr
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.php>`__
+
+.. _optional-parameter:
+
+Optional Parameter
+------------------
+
+Optional parameter are parameter fitted with a default value. They may then be skipped when the function is called. 
+
+Optional parameter should be the last parameters : otherwise, PHP will have trouble figuring out which parameter uses which value.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo($a, $b = 2) { }
+   
+   // $b will be 2, using the default value
+   foo(1); 
+   
+   // $b will be 3
+   foo(1, 3); 
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
 .. _outofrangeexception:
 
@@ -5886,6 +6096,8 @@ Readonly
 
 A property can be declared with the readonly modifier, which prevents modification of the property after initialization.
 
+Readonly also applies inside the __clone() magic method : cloning doesn't allow for changing a readonly property.
+
 In PHP 8.2, a class may be readonly, making all of of its properties readonly too. 
 
 
@@ -5914,7 +6126,7 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
 
-Related : :ref:`class<class>`
+Related : :ref:`class<class>`, :ref:`__clone<__clone>`
 
 Added in PHP 8.1
 
@@ -7290,7 +7502,7 @@ An UnhandledMatchError is thrown when the subject passed to a match expression i
 
 `Documentation <https://www.php.net/manual/en/class.unhandledmatcherror.php>`__
 
-Related : :ref:`exception<exception>`
+Related : :ref:`exception<exception>`, :ref:`match<match>`
 
 .. _union-type:
 
@@ -7607,6 +7819,8 @@ Properties, methods and classes may have a visibility. It limits the scope of th
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
+
+See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_
 
 Related : :ref:`property<property>`, :ref:`method<method>`, :ref:`class-constant<class-constant>`
 
