@@ -70,6 +70,7 @@ PHP Dictionary
    * :ref:`constructor<constructor>`
 * D
    * :ref:`Dates<date>`
+   * :ref:`Deep clone<deep-clone>`
    * :ref:`Default Keyword<default>`
    * :ref:`Default Parameter<default-parameter>`
    * :ref:`Default Value<default-value>`
@@ -248,6 +249,7 @@ PHP Dictionary
    * :ref:`Scalar Typehints<scalar-typehint>`
    * :ref:`Scope Resolution Operator<scope-resolution-operator>`
    * :ref:`Session<session>`
+   * :ref:`Shallow clone<shallow-clone>`
    * :ref:`Short Syntax<short-syntax>`
    * :ref:`Short Tags<short-tag>`
    * :ref:`Short assignations<short-assignation>`
@@ -307,6 +309,8 @@ PHP Dictionary
    * :ref:`Yield<yield>`
    * :ref:`Yoda condition<yoda>`
    * :ref:`yield from Keyword<yield-from>`
+* _
+   * :ref:`__clone<__clone>`
 
 
 The Entries
@@ -375,6 +379,36 @@ Methods are function dedicated to a class. They are defined inside the body of a
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
 Related : :ref:`class<class>`
+
+.. ___clone:
+
+__clone
+-------
+
+To clone an object is the creation of a new distinct object, from an existing one. This is basically a copy, although the object itself is multiplied by call the clone operator.
+
+By default PHP does a shallow clone, duplicating the scalars (string, integer...) and keeping the same link to objet objects. To make a deep clone, the class must define the ``__clone`` magic method.
+
+Cloning is similar to creating another object of the same class, without requiring all the constructor arguments.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $spike = new Dog('Spike', 'Teckel', 'red');
+   $medor = clone $spike;
+   
+   $medor->setCollar('green'); // distinguish spike and medor by collar
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
+
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+
+Related : :ref:`magic-method<magic-method>`, :ref:`deep-clone<deep-clone>`, :ref:`shallow-clone<shallow-clone>`
 
 .. _abstract:
 
@@ -2100,6 +2134,52 @@ declare() may set the following values :
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
 Related : :ref:`strict_type<strict_type>`, :ref:`ticks<ticks>`, :ref:`declare-encoding<declare-encoding>`
+
+.. _deep-clone:
+
+Deep clone
+----------
+
+A deep clone is an object cloning, where the cloned object also clone its own object properties. This prevents the original object to share data with the cloned one, yet it is slower to process.
+
+Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP does shallow clone.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class Dog {
+       private $name = '';
+       private Address $address;
+   
+       function __construct(string $name, Address $address) {
+           $this->address->setName($address);
+       }
+       
+       function moves(string $address) {
+           $this->address->setName($address);
+       }
+   
+       function __clone() {
+           $this->address = clone $this->address;
+       }
+   }
+   
+   $spike = new Dog('Spike', new Address('Acme city'));
+   $medor = clone $spike;
+   $medor->moves('Upstate farm');
+   
+   // spike and medor do now share the same address
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
+
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+
+Related : :ref:`magic-method<magic-method>`, :ref:`__clone<__clone>`, :ref:`shallow-clone<shallow-clone>`
 
 .. _default:
 
@@ -6695,6 +6775,50 @@ It relies on the session_* functions, and the ``$_SESSION`` superglobal variable
 `Documentation <https://www.php.net/manual/en/book.session.php>`__
 
 Related : :ref:`superglobal<superglobal>`
+
+.. _shallow-clone:
+
+Shallow clone
+-------------
+
+A shallow clone is an object cloning, where the cloned object keeps the same object properties as the original object. This is a fast way to share data between objects.
+
+Shallow cloning is the default behavior in PHP.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class Dog {
+       private $name = '';
+       private Address $address;
+   
+       function __construct(string $name, Address $address) {
+           $this->address->setName($address);
+       }
+       
+       function moves(string $address) {
+           $this->address->setName($address);
+       }
+   
+       // no __clone method
+   }
+   
+   $spike = new Dog('Spike', new Address('Acme city'));
+   $medor = clone $spike;
+   $medor->moves('Upstate farm');
+   
+   // spike and medor are still at the same address
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
+
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+
+Related : :ref:`magic-method<magic-method>`, :ref:`__clone<__clone>`, :ref:`deep-clone<deep-clone>`
 
 .. _short-assignation:
 
