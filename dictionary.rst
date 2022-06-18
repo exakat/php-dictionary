@@ -310,7 +310,7 @@ PHP Dictionary
    * :ref:`Yoda condition<yoda>`
    * :ref:`yield from Keyword<yield-from>`
 * _
-   * :ref:`__clone<__clone>`
+   * :ref:`__clone<-__clone>`
 
 
 The Entries
@@ -380,7 +380,7 @@ Methods are function dedicated to a class. They are defined inside the body of a
 
 Related : :ref:`class<class>`
 
-.. ___clone:
+.. _-__clone:
 
 __clone
 -------
@@ -406,7 +406,7 @@ Cloning is similar to creating another object of the same class, without requiri
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
 Related : :ref:`magic-method<magic-method>`, :ref:`deep-clone<deep-clone>`, :ref:`shallow-clone<shallow-clone>`
 
@@ -2179,7 +2179,7 @@ Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP 
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
 
-Related : :ref:`magic-method<magic-method>`, :ref:`__clone<__clone>`, :ref:`shallow-clone<shallow-clone>`
+Related : :ref:`magic-method<magic-method>`, :ref:`__clone<-__clone>`, :ref:`shallow-clone<shallow-clone>`
 
 .. _default:
 
@@ -6422,7 +6422,7 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
 
-Related : :ref:`class<class>`, :ref:`__clone<__clone>`
+Related : :ref:`class<class>`, :ref:`__clone<-__clone>`
 
 Added in PHP 8.1
 
@@ -6818,7 +6818,7 @@ Shallow cloning is the default behavior in PHP.
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
 
-Related : :ref:`magic-method<magic-method>`, :ref:`__clone<__clone>`, :ref:`deep-clone<deep-clone>`
+Related : :ref:`magic-method<magic-method>`, :ref:`__clone<-__clone>`, :ref:`deep-clone<deep-clone>`
 
 .. _short-assignation:
 
