@@ -1,0 +1,60 @@
+Running Sphinx v4.1.2
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 1 source files that are out of date
+updating environment: 0 added, 1 changed, 0 removed
+reading sources... [100%] dictionary
+
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "json".
+/Users/famille/Desktop/php-dictionary/dictionary.rst:565: WARNING: Unknown target name: "variadic functions via ...<https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>".
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2228: WARNING: Unknown target name: "road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/".
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [ 50%] dictionary
+writing output... [100%] index
+
+/Users/famille/Desktop/php-dictionary/dictionary.rst:160: WARNING: undefined label: json
+/Users/famille/Desktop/php-dictionary/dictionary.rst:475: WARNING: undefined label: namespaces-alias
+/Users/famille/Desktop/php-dictionary/dictionary.rst:792: WARNING: undefined label: use-alias
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1043: WARNING: undefined label: callable
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1389: WARNING: undefined label: shallow-clone
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1389: WARNING: undefined label: deep-clone
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2102: WARNING: undefined label: strict_type
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2102: WARNING: undefined label: ticks
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2102: WARNING: undefined label: declare-encoding
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2189: WARNING: undefined label: properties
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2503: WARNING: undefined label: new
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2664: WARNING: undefined label: php-tag
+/Users/famille/Desktop/php-dictionary/dictionary.rst:4251: WARNING: undefined label: intl
+/Users/famille/Desktop/php-dictionary/dictionary.rst:4638: WARNING: undefined label: bitwise-operator
+/Users/famille/Desktop/php-dictionary/dictionary.rst:4658: WARNING: undefined label: badfunctioncallexception
+/Users/famille/Desktop/php-dictionary/dictionary.rst:4658: WARNING: undefined label: domainexception
+/Users/famille/Desktop/php-dictionary/dictionary.rst:4658: WARNING: undefined label: lengthexception
+/Users/famille/Desktop/php-dictionary/dictionary.rst:4960: WARNING: undefined label: encoding
+/Users/famille/Desktop/php-dictionary/dictionary.rst:5058: WARNING: undefined label: namespaces-alias
+/Users/famille/Desktop/php-dictionary/dictionary.rst:5949: WARNING: undefined label: debugger
+/Users/famille/Desktop/php-dictionary/dictionary.rst:5991: WARNING: undefined label: super-global
+/Users/famille/Desktop/php-dictionary/dictionary.rst:6345: WARNING: undefined label: __clone
+/Users/famille/Desktop/php-dictionary/dictionary.rst:6783: WARNING: undefined label: php-tag
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7786: WARNING: undefined label: simplexml
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7786: WARNING: undefined label: domxml
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7786: WARNING: undefined label: xmlwriter
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7786: WARNING: undefined label: xmlreader
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7829: WARNING: undefined label: use-alias
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7981: WARNING: undefined label: variable-argument
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8107: WARNING: undefined label: simplexml
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8107: WARNING: undefined label: domxml
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8107: WARNING: undefined label: xmlwriter
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8107: WARNING: undefined label: xmlreader
+/Users/famille/Desktop/php-dictionary/dictionary.rst:510: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+generating indices... genindex done
+writing additional pages... search done
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+build succeeded, 37 warnings.
+
+The HTML pages are in _build/html.

@@ -11,6 +11,7 @@ PHP Dictionary
    * :ref:`Alias<namespace-alias>`
    * :ref:`Alternative Syntax<alternative-syntax>`
    * :ref:`Anonymous Class<anonymous-class>`
+   * :ref:`Arbitrary Number of Argument<arbitrary-argument>`
    * :ref:`Argument<argument>`
    * :ref:`ArgumentCountError<argumentcounterror>`
    * :ref:`ArithmeticError Error<arithmeticerror>`
@@ -28,6 +29,7 @@ PHP Dictionary
    * :ref:`Blind Variable<variable-blind>`
    * :ref:`Boolean<boolean>`
    * :ref:`Break<break>`
+   * :ref:`basename<basename>`
 * C
    * :ref:`CSV<csv>`
    * :ref:`Callables<callbe>`
@@ -43,6 +45,7 @@ PHP Dictionary
    * :ref:`Classes<class>`
    * :ref:`Closure<closure>`
    * :ref:`Coalesce operator<coalesce>`
+   * :ref:`Coding Conventions<coding-convention>`
    * :ref:`Comma<comma>`
    * :ref:`Command Line Interface<cli>`
    * :ref:`Compact array<compact-array>`
@@ -77,12 +80,15 @@ PHP Dictionary
    * :ref:`Disable classes<disable_classes>`
    * :ref:`DivisionByZeroError<divisionbyzeroerror>`
    * :ref:`Dynamic Call<dynamic-call>`
+   * :ref:`Dynamic Class<dynamic-class>`
    * :ref:`Dynamic Constant<dynamic-constant>`
+   * :ref:`Dynamic Loading<dynamic-loading>`
    * :ref:`Dynamic Properties<dynamic-property>`
    * :ref:`Dynamic Variable<dynamic-variable>`
    * :ref:`declare()<declare>`
    * :ref:`define()<define>`
    * :ref:`destructor<destructor>`
+   * :ref:`dirname<dirname>`
    * :ref:`disable functions<disable_functions>`
 * E
    * :ref:`Echo Tag<echo-tag>`
@@ -102,6 +108,7 @@ PHP Dictionary
 * F
    * :ref:`FIG<php-fig>`
    * :ref:`False<false>`
+   * :ref:`File Upload<upload>`
    * :ref:`Final Class Constants<final-class-constant>`
    * :ref:`Final Keyword<final>`
    * :ref:`Finally<finally>`
@@ -140,6 +147,7 @@ PHP Dictionary
    * :ref:`Inheritance<inheritance>`
    * :ref:`Insteadof<insteadof>`
    * :ref:`Interfaces<interface>`
+   * :ref:`Internationalization<internationalization>`
    * :ref:`Interpolation<interpolation>`
    * :ref:`Intersection Type<intersection-type>`
    * :ref:`InvalidArgumentException<invalidargumentexception>`
@@ -297,6 +305,7 @@ PHP Dictionary
    * :ref:`XML<xml>`
 * Y
    * :ref:`Yield<yield>`
+   * :ref:`Yoda condition<yoda>`
    * :ref:`yield from Keyword<yield-from>`
 
 
@@ -518,6 +527,44 @@ Also, arguments may be passed at instantiation time, unlink with named-class def
 See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_, `PHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_
 
 Related : :ref:`closure<closure>`
+
+.. _arbitrary-argument:
+
+Arbitrary Number of Argument
+----------------------------
+
+PHP allows any number of arguments to be passed to a functioncall. In the function definition, receiving those arguments means managing an arbitrary number of parameters. 
+
+This is achieved with the variadic operator, or with functions such as func_get_args().
+
+They are also called variable argument lists.
+
+When the arguments are dynamic, aka they are collected at execution time, the operator variadic or the function call_user_func_array() turns an array to arguments.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo(...$args) {
+       print This function is called with.count($args).arguments\n;
+       print This function is called with.func_get_count().arguments\n;
+       print This function is called with.count($func_get_args()).arguments\n;
+   } 
+   
+   $array = range(0, rand(5, 10)); // generates an array with 1 to 11 elements
+   
+   foo(...$array);
+   call_user_func_array('foo', $array));
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
+
+See also `Variadic functions via ...<https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>`_
+
+Related : :ref:`variadic<variadic>`
 
 .. _argument:
 
@@ -812,6 +859,20 @@ Machine readable options that may be added PHP code.
 `Documentation <https://www.php.net/manual/en/language.attributes.overview.php>`__
 
 Added in PHP 8.0
+
+.. _basename:
+
+basename
+--------
+
+Basename is the name of a file, without the file's path, but including the extension. 
+
+In `/var/www/index.php`, the base name is `index.php`.
+
+
+`Documentation <https://www.php.net/manual/en/function.basename.php>`__
+
+Related : :ref:`dirname<dirname>`
 
 .. _binary-integer:
 
@@ -1323,7 +1384,7 @@ To perform a deep clone, aka to clone an object and its referenced properties, t
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
+See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_, `PHP Clone All The Things <https://jolicode.com/blog/php-clone-all-the-things>`_
 
 Related : :ref:`shallow-clone<shallow-clone>`, :ref:`deep-clone<deep-clone>`
 
@@ -1378,6 +1439,22 @@ The coalesce operator `??` returns its first operand if it is set and not NULL. 
 See also `Null Coalescing Operator (??) <https://riptutorial.com/php/example/7164/null-coalescing-operator----->`_, `PHP ternary operator vs null coalescing operator <https://stackoverflow.com/questions/34571330/php-ternary-operator-vs-null-coalescing-operator>`_
 
 Added in PHP 7.0+
+
+.. _coding-convention:
+
+Coding Conventions
+------------------
+
+Coding conventions are a set of guidelines for PHP that recommend source code writing, programming style and practices.
+
+Often, large projects have their own coding convention. When writing for a specific framework or plat-form, it is recommended to use their coding convention to reduce friction. 
+
+
+`Documentation <https://en.wikipedia.org/wiki/Coding_conventions>`__
+
+See also `PSR-12: Extended Style Guide <https://www.php-fig.org/psr/psr-12/>`_, `Wordpress PHP coding standards <https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/>`_, `PHP Coding Guidelines & Best Practices <https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html>`_
+
+Related : :ref:`control-structure<control-structure>`
 
 .. _comma:
 
@@ -1486,7 +1563,7 @@ It is the opposite of extract().
 
 `Documentation <https://www.php.net/manual/en/function.compact.php>`__
 
-Related : :ref:`extract<extract>`
+Related : :ref:`extract<extract>`, :ref:`variable-variable<variable-variable>`
 
 .. _comparison-operator:
 
@@ -1726,7 +1803,7 @@ continue is not possible inside a switch structure.
    ?>
 
 
-`Documentation <https://www.php.net/manual/fr/control-structures.continue.php>`__
+`Documentation <https://www.php.net/manual/en/control-structures.continue.php>`__
 
 Related : :ref:`break<break>`
 
@@ -2020,7 +2097,7 @@ declare() may set the following values :
    
 
 
-`Documentation <https://www.php.net/manual/fr/control-structures.declare.php>`__
+`Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
 Related : :ref:`strict_type<strict_type>`, :ref:`ticks<ticks>`, :ref:`declare-encoding<declare-encoding>`
 
@@ -2278,6 +2355,22 @@ DirectoryIterator
 
 Related : :ref:`spl<spl>`
 
+.. _dirname:
+
+dirname
+-------
+
+Dirname is the name of the path to a file. 
+
+In `/var/www/index.php`, the dirname is `/var/www`.
+
+In PHP, dirname() provides the dirname from a path, based on the `/` separator. It has to be combined with basename() to get the name of the directory, without its path.
+
+
+`Documentation <https://www.php.net/manual/en/function.dirname.php>`__
+
+Related : :ref:`dirname<dirname>`
+
 .. _disable_classes:
 
 Disable classes
@@ -2382,6 +2475,33 @@ In PHP, every syntax may use a dynamic call.
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`__
 
+.. _dynamic-class:
+
+Dynamic Class
+-------------
+
+A dynamic class is a class whose fully qualified name is defined at execution time. 
+
+This is convenient for module systems, where the actual class is named from an external configuration.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class AB {}
+   
+   class AC {}
+   
+   $name = '\A'.(rand(0, 1) ? 'B' : 'C');
+   
+   $object = new $name;
+   
+   ?>
+
+
+Related : :ref:`new<new>`
+
 .. _dynamic-constant:
 
 Dynamic Constant
@@ -2409,6 +2529,30 @@ Calling a constant is done by using the constant() function.
 `Documentation <https://www.php.net/manual/en/function.constant.php>`__
 
 Related : :ref:`constant<constant>`
+
+.. _dynamic-loading:
+
+Dynamic Loading
+---------------
+
+Dynamic Loading is related to the loading of PHP extensions, at execution time. 
+
+Most of the time, the extensions are compiled with PHP, and loaded at startup. For development purposes, or for distribution purposes, some libraries may be loaded at execution time, with the dl() function.
+
+Dl() calls are considered bad for performances and for security. 
+
+
+
+.. code-block:: php
+   
+   <?php
+       // add extra features to PHP
+       dl('ldap.so');
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/function.dl.php>`__
 
 .. _dynamic-property:
 
@@ -2598,6 +2742,8 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.php>`__
+
+See also `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_
 
 Related : :ref:`enum-case<enum-case>`
 
@@ -2851,7 +2997,7 @@ It is the opposite of compact().
 
 `Documentation <https://www.php.net/manual/en/function.extract.php>`__
 
-Related : :ref:`compact<compact>`
+Related : :ref:`compact<compact>`, :ref:`variable-variable<variable-variable>`
 
 .. _false:
 
@@ -2893,6 +3039,40 @@ Famous PSR include : 12 (Extended Coding Style Guide), 16 (Simple Cache), 18 (HT
 `Documentation <https://www.php-fig.org/>`__
 
 Related : :ref:`psr<psr>`
+
+.. _upload:
+
+File Upload
+-----------
+
+PHP is able to receive files as part of a form submission. 
+
+PHP is capable of receiving file uploads from any RFC-1867 compliant browser. 
+
+File upload code is based on the $_FILES superglobale, and move_uploaded_file() function. It also relies on several PHP directives :  ``file_uploads``, ``upload_max_filesize``, ``upload_tmp_dir``, ``post_max_size`` and ``max_input_time``. 
+
+
+.. code-block:: php
+   
+   <?php
+   $uploaddir = '/var/www/uploads/';
+   $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+   
+   echo '<pre>';
+   if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+       echo 'File is valid, and was successfully uploaded.';
+   } else {
+       echo 'Possible file upload attack!';
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/features.file-upload.post-method.php>`__
+
+See also `Learn Everything About File Upload in PHP With Examples <https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php>`_
+
+Related : :ref:`$_FILES<$_FILES>`
 
 .. _final-class-constant:
 
@@ -3089,7 +3269,7 @@ Foreach is the most popular loop in PHP.
    ?>
 
 
-`Documentation <https://www.php.net/manual/fr/control-structures.foreach.php>`__
+`Documentation <https://www.php.net/manual/en/control-structures.foreach.php>`__
 
 Added in PHP 4.0
 
@@ -3679,6 +3859,8 @@ The ImagickException exception is thrown when an error happens while processing 
 
 `Documentation <https://www.php.net/manual/en/book.imagick.php>`__
 
+See also `How to Fix 'ImagickException: not authorized' <https://andy-carter.com/blog/how-to-fix-imagickexception-not-authorized>`_
+
 Related : :ref:`exception<exception>`
 
 .. _implements:
@@ -4034,7 +4216,39 @@ Interfaces may have methods signatures, without a body, and constants.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_
+
+.. _internationalization:
+
+Internationalization
+--------------------
+
+Internationalization is the process to make the human interface of a program in a local language. 
+
+PHP includes some internationalization capabilities, via the locale, for dates or money format, or with the ext/intl extension. 
+
+Most of the interface translations for application is done with specific components, such as `Symfony/translation`. Translation of interface messages is part of this concept.
+
+Internationalization is also called `i18n`, aka i, 18 letters and n. This is shorter to write. This word may be written with a z or an s, depending on the flavor of English being used.
+
+
+.. code-block:: php
+   
+   <?php
+   /* Configure le script en hollandais */
+   setlocale(LC_ALL, 'nl_NL');
+   
+   /* Affiche : vrijdag 22 december 1978 */
+   echo strftime(%A %e %B %Y, mktime(0, 0, 0, 12, 22, 1978));
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.intl.php>`__
+
+See also `PHP internationalization - i18n mechanisms tutorial <https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial>`_, `Implementing PHP localization: A complete guide <https://lokalise.com/blog/implementing-php-localization-complete-guide/>`_
+
+Related : :ref:`locale<locale>`, :ref:`intl<intl>`
 
 .. _interpolation:
 
@@ -4783,7 +4997,7 @@ PHP creates the arrays on the fly. When the intermediate array are undefined, PH
    ?>
 
 
-`Documentation <https://www.php.net/manual/fr/function.array.php>`__
+`Documentation <https://www.php.net/manual/en/function.array.php>`__
 
 .. _named-parameter:
 
@@ -5053,6 +5267,8 @@ The Null Safe Object Operator behaves like the object operator, until the object
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.nullsafe>`__
+
+See also `This nullsafe operator could come in PHP 8 <https://www.amitmerchant.com/nullsafe-operator-php/>`_
 
 Related : :ref:`object-operator<object-operator>`, :ref:`scope-resolution-operator<scope-resolution-operator>`
 
@@ -6806,8 +7022,6 @@ Static methods are methods defined with the static keyword. They have to be call
 
 Related : :ref:`method<method>`
 
-Added in PHP 4.0
-
 .. _static-property:
 
 Static Property
@@ -6900,10 +7114,6 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
 
 Related : :ref:`property<property>`, :ref:`dynamic-property<dynamic-property>`
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
-
 .. _strict-comparison:
 
 Strict Comparison
@@ -6957,8 +7167,6 @@ A string is series of characters, where a character is the same as a byte. This 
 `Documentation <https://www.php.net/manual/en/language.types.string.php>`__
 
 Related : :ref:`stringable<stringable>`, :ref:`magic-method<magic-method>`
-
-Added in PHP 4.0
 
 .. _string-interpolation:
 
@@ -7174,8 +7382,6 @@ Throw is the keyword which raise an existing exception.
 
 Related : :ref:`try-catch<try-catch>`, :ref:`exception<exception>`
 
-Added in PHP 4.0+
-
 .. _throwable:
 
 Throwable
@@ -7289,8 +7495,6 @@ Traits are a mechanism for code reuse in single inheritance languages such as PH
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php>`__
 
-Added in PHP 4.0+
-
 .. _traversable:
 
 Traversable
@@ -7367,10 +7571,6 @@ A TypeError may be thrown when a value does not match the expected type.
 
 
 `Documentation <https://www.php.net/manual/en/class.typeerror.php>`__
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _type-juggling:
 
@@ -7450,6 +7650,8 @@ Type declarations can be added to function arguments, return values, and, as of 
 
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
+
+See also `Explore Your Types <https://backendtea.com/post/explore-your-types/>`_
 
 Related : :ref:`scalar-typehint<scalar-typehint>`, :ref:`union-type<union-type>`, :ref:`intersection-type<intersection-type>`
 
@@ -7654,10 +7856,6 @@ Validation is also called filtering.
 
 Related : :ref:`sanitation<sanitation>`
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
-
 .. _valueerror:
 
 ValueError
@@ -7700,10 +7898,6 @@ var keyword for introducing PHP properties in classes. It is now replaced by vis
 
 Related : :ref:`visibility<visibility>`
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
-
 .. _variable-variable:
 
 Variable Variables
@@ -7725,7 +7919,9 @@ Variables whose name is held in another variable.
 
 `Documentation <https://www.php.net/manual/en/language.variables.variable.php>`__
 
-Related : :ref:`variable<variable>`, :ref:`static-variable<static-variable>`
+See also `The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-php-variable-variables>`_
+
+Related : :ref:`variable<variable>`, :ref:`static-variable<static-variable>`, :ref:`compact<compact>`
 
 .. _variable:
 
@@ -7748,10 +7944,6 @@ Variables holds data when processing a PHP script.
 `Documentation <https://www.php.net/manual/en/language.variables.php>`__
 
 Related : :ref:`static-variable<static-variable>`, :ref:`variable-variable<variable-variable>`
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _variadic:
 
@@ -7820,13 +8012,9 @@ Properties, methods and classes may have a visibility. It limits the scope of th
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_
+See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP — P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_
 
 Related : :ref:`property<property>`, :ref:`method<method>`, :ref:`class-constant<class-constant>`
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _void:
 
@@ -7975,6 +8163,30 @@ Generator delegation allows you to yield values from another generator, Traversa
 
 Related : :ref:`yield<yield>`, :ref:`generator<generator>`
 
-Added in PHP 7.0
+.. _yoda:
 
-Removed in PHP 7.0
+Yoda condition
+--------------
+
+Yoda condition is a way to write condition by using any literal value on the left, instead of the right.
+
+This prevents errors where the comparison operator is shortened, and turned into an assignation, which is usually true. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Yoda condition
+   if (0 == $a) {}
+   
+   // Assignation, instead of comparison and bug
+   if ($a = 0) {}
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Yoda_conditions>`__
+
+See also `Why using Yoda conditions you should probably not be  <https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not>`_
