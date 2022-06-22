@@ -16,16 +16,18 @@ PHP Dictionary
    * :ref:`ArgumentCountError<argumentcounterror>`
    * :ref:`ArithmeticError Error<arithmeticerror>`
    * :ref:`Array<array>`
+   * :ref:`Array Append<append>`
    * :ref:`Array With Curly Braces<array-curly-braces>`
    * :ref:`Array spread<array-spread>`
-   * :ref:`Arrays<arrays>`
    * :ref:`Arrow Functions<arrow-function>`
    * :ref:`As<As>`
    * :ref:`Assertions<assertion>`
    * :ref:`Assignations<assignation>`
    * :ref:`Attributes<attribute>`
 * B
+   * :ref:`BadFunctioncallException<badfunctioncallexception>`
    * :ref:`Binary Integer<binary-integer>`
+   * :ref:`Bitwise operators<bitwise-operator>`
    * :ref:`Blind Variable<variable-blind>`
    * :ref:`Boolean<boolean>`
    * :ref:`Break<break>`
@@ -36,6 +38,7 @@ PHP Dictionary
    * :ref:`Callback<callback>`
    * :ref:`Cast operator<cast>`
    * :ref:`Catch<catch>`
+   * :ref:`Class Autoloading<autoload>`
    * :ref:`Class Constants Visibility<class-constant-visibility>`
    * :ref:`Class Getter Method<getter>`
    * :ref:`Class Invasion<class-invasion>`
@@ -98,6 +101,7 @@ PHP Dictionary
    * :ref:`Enumeration<enum>`
    * :ref:`Enumeration's case<enum-case>`
    * :ref:`Error<error>`
+   * :ref:`Error Handler<error-handler>`
    * :ref:`Escape Character<escape-character>`
    * :ref:`Escape Sequences<escape-sequence>`
    * :ref:`Eval<eval>`
@@ -149,6 +153,7 @@ PHP Dictionary
    * :ref:`Insteadof<insteadof>`
    * :ref:`Interfaces<interface>`
    * :ref:`Internationalization<internationalization>`
+   * :ref:`Internationalization Functions<intl>`
    * :ref:`Interpolation<interpolation>`
    * :ref:`Intersection Type<intersection-type>`
    * :ref:`InvalidArgumentException<invalidargumentexception>`
@@ -163,6 +168,7 @@ PHP Dictionary
 * L
    * :ref:`Language construct<language-construct>`
    * :ref:`Late Static Bindings<late-static-binding>`
+   * :ref:`LengthException<lengthexception>`
    * :ref:`Linting<linting>`
    * :ref:`Locale<locale>`
    * :ref:`LogicException<logicexception>`
@@ -196,6 +202,7 @@ PHP Dictionary
    * :ref:`Nullable<nullable>`
    * :ref:`Nullsafe<nullsafe>`
    * :ref:`Numeric Separator<numeric-separator>`
+   * :ref:`new<new>`
 * O
    * :ref:`Object<object>`
    * :ref:`Object Operator<object-operator>`
@@ -234,6 +241,7 @@ PHP Dictionary
    * :ref:`private Keyword<private>`
 * R
    * :ref:`Random<random>`
+   * :ref:`RangeException<rangeexception>`
    * :ref:`Readonly<readonly>`
    * :ref:`Real Numbers<real>`
    * :ref:`References<reference>`
@@ -253,6 +261,7 @@ PHP Dictionary
    * :ref:`Short Syntax<short-syntax>`
    * :ref:`Short Tags<short-tag>`
    * :ref:`Short assignations<short-assignation>`
+   * :ref:`SimpleXML<simplexml>`
    * :ref:`Spaceship operator<spaeceship>`
    * :ref:`Special Typehints<special-typehint>`
    * :ref:`Standard PHP Library (SPL)<spl>`
@@ -271,6 +280,7 @@ PHP Dictionary
    * :ref:`sleep<sleep>`
    * :ref:`static<static>`
    * :ref:`stdclass<stdclass>`
+   * :ref:`strict_types<strict_types>`
    * :ref:`stubs files<stubs>`
 * T
    * :ref:`TLS<tls>`
@@ -305,12 +315,14 @@ PHP Dictionary
    * :ref:`Wrapper<wrapper>`
 * X
    * :ref:`XML<xml>`
+   * :ref:`XMLReader<xmlreader>`
+   * :ref:`XMLwriter<xmlwriter>`
 * Y
    * :ref:`Yield<yield>`
    * :ref:`Yoda condition<yoda>`
    * :ref:`yield from Keyword<yield-from>`
 * _
-   * :ref:`__clone<__clone>`
+   * :ref:`__clone<-__clone>`
 
 
 The Entries
@@ -380,14 +392,14 @@ Methods are function dedicated to a class. They are defined inside the body of a
 
 Related : :ref:`class<class>`
 
-.. ___clone:
+.. _-__clone:
 
 __clone
 -------
 
 To clone an object is the creation of a new distinct object, from an existing one. This is basically a copy, although the object itself is multiplied by call the clone operator.
 
-By default PHP does a shallow clone, duplicating the scalars (string, integer...) and keeping the same link to objet objects. To make a deep clone, the class must define the ``__clone`` magic method.
+By default PHP does a shallow clone, duplicating the scalars (string, integer...) and keeping the same reference to objects. To make a deep clone, the class must define the ``__clone`` magic method.
 
 Cloning is similar to creating another object of the same class, without requiring all the constructor arguments.
 
@@ -406,7 +418,7 @@ Cloning is similar to creating another object of the same class, without requiri
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
 Related : :ref:`magic-method<magic-method>`, :ref:`deep-clone<deep-clone>`, :ref:`shallow-clone<shallow-clone>`
 
@@ -457,7 +469,7 @@ Addition
 
 PHP additions apply to two different types : numbers and arrays.
 
-For numbers, a.k.a. integers or float, this is the classic mathematical addition. 
+For numbers, aka integers or float, this is the classic mathematical addition. 
 
 For arrays, this is a special version of array merge : the arrays are merged, and keys are kept once they are written. This features only exists for addition and arrays. Substraction is not available. 
 
@@ -536,9 +548,9 @@ Related : :ref:`control-structure<control-structure>`
 Anonymous Class
 ---------------
 
-A class may be instantiate, without defining a class name. The class is identical to a named-class, except for the name attribute. This also means that it cannot be used for typehinting, though it may be typed itself, using parent class or implemented interfaces. 
+A class may be instantiated, without defining a class name. The class is identical to a named-class, except for the name attribute. This also means that it cannot be used for typehinting, though it may be typed itself, using parent class or implemented interfaces. 
 
-Also, arguments may be passed at instantiation time, unlink with named-class definition, where those arguments are passed when calling ``new``, not when defining the class.
+Also, arguments may be passed at instantiation time, unlike with named-class definition, where those arguments are passed when calling ``new``, not when defining the class.
 
 
 .. code-block:: php
@@ -596,7 +608,7 @@ When the arguments are dynamic, aka they are collected at execution time, the op
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-See also `Variadic functions via ...<https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>`_
+See also `Variadic functions via ... <https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>`_
 
 Related : :ref:`variadic<variadic>`
 
@@ -709,6 +721,37 @@ An array assigns automatically an integer index to the values appended to it. An
 
 Added in PHP 4.0
 
+.. _append:
+
+Array Append
+------------
+
+Append is an array operation, which adds an element at the end of the array. It is also called a push.
+
+There are two operators for this feature ; the ``[]`` operator, which has to be placed after a variable or member. There is also the array_push() function, which is available as a callback, unlike the operator.
+
+The opposite operation is a pop, with the function array_pop(). Array_unshift() is the append at the beginning of the array. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = [1, 2, 3];
+   $array[] = 4;
+   
+   $array []= 5; // Same as above, with a notation similar to a short assignation
+   
+   array_push($array, 6);
+   
+   // $array === [1, 2, 3, 4, 5, 6];
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.array.php>`__
+
+See also `array_push <https://www.php.net/manual/en/function.array-push.php>`_
+
 .. _array-spread:
 
 Array spread
@@ -753,26 +796,6 @@ Specifying an array index with the curly braces, instead of the square brackets.
 `Documentation <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing>`__
 
 Added in PHP 8.0
-
-.. _arrays:
-
-Arrays
-------
-
-An array in PHP is actually an ordered map. A map is a type that associates values to keys.
-
-.. code-block:: php
-   
-   <?php
-   
-   $array = array('a' => 1, 'b' => 2, 'c' => 3, 4, []);
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/language.types.array.php>`__
-
-Added in PHP 4.0+
 
 .. _arrow-function:
 
@@ -894,6 +917,33 @@ Machine readable options that may be added PHP code.
 
 Added in PHP 8.0
 
+.. _badfunctioncallexception:
+
+BadFunctioncallException
+------------------------
+
+The BadFunctioncallException exception is thrown if callback refers to an undefined function or if some arguments are missing.
+
+BadFunctioncallException are defined by the SPL extension. It is not natively used. 
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo(string $s) {
+       if (empty($s)) {
+          throw new \UnexpectedValueException('Foo() expects a non-empty string');
+       }
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.lengthexception.php>`__
+
+Related : :ref:`exception<exception>`
+
+Added in PHP 5.1
+
 .. _basename:
 
 basename
@@ -901,7 +951,7 @@ basename
 
 Basename is the name of a file, without the file's path, but including the extension. 
 
-In `/var/www/index.php`, the base name is `index.php`.
+In ``/var/www/index.php``, the base name is ``index.php``.
 
 
 `Documentation <https://www.php.net/manual/en/function.basename.php>`__
@@ -930,6 +980,34 @@ Integers can be specified in binary (base 2) notation. Binary integer syntax sta
 Related : :ref:`integer<integer>`
 
 Added in PHP 5.4
+
+.. _bitwise-operator:
+
+Bitwise operators
+-----------------
+
+Bitwise operators evaluate specific bits within an integer. 
+
+Bitwise operators are convenient to handle bit fields. 
+
+On the other hand, logical operators convert the whole value to bool before manipulation.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 3;  // binary : 11
+   $b = 7;  // binary : 111
+   
+   print $a & $b; // 3; binary : 11
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
+
+Related : :ref:`logical-operator<logical-operator>`
 
 .. _variable-blind:
 
@@ -961,11 +1039,11 @@ Boolean
 
 A boolean is a value that is either true or false. 
 
-PHP's boolean are constants. They may be prefixed by `\\`, and are case-insensitive. They can't be redefined in namespaces.
+PHP's boolean are constants. They may be prefixed by ``\\``, and are case-insensitive. They can't be redefined in namespaces.
 
 There are rules to convert any data to a boolean. 
 
-Booleans have a related scalar typehint : `bool`. There is also a special `false` typehint. 
+Booleans have a related scalar typehint : ``bool``. There is also a special ``false`` typehint. 
 
 
 
@@ -1024,9 +1102,9 @@ Callables
 
 Callables are objects that can pass the callable typehint. 
 
-Callable may be callabacks, closures or arrow functions. 
+Callable may be callbacks, closures or arrow functions. 
 
-Classes may also be callable, when they implement the magic method `__invoke`.
+Classes may also be callable, when they implement the magic method __invoke().
 
 
 
@@ -1043,7 +1121,7 @@ Classes may also be callable, when they implement the magic method `__invoke`.
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-Related : :ref:`callback<callback>`, :ref:`closure<closure>`, :ref:`arrow-function<arrow-function>`
+Related : :ref:`callback<callback>`, :ref:`closure<closure>`, :ref:`__invoke<-__invoke>`, :ref:`arrow-function<arrow-function>`
 
 .. _callback:
 
@@ -1072,7 +1150,7 @@ Callback may be build with on closures, arrow-functions, native PHP functions, m
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-See also `The Wonderful World of Callbacks <https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/>`_
+See also `The Wonderful World of Callbacks <https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/>`_, `Using callbacks to prevent code duplication <https://doeken.org/tip/using-callbacks-to-prevent-code-duplication>`_
 
 Related : :ref:`callable<callable>`, :ref:`closure<closure>`, :ref:`arrow-function<arrow-function>`
 
@@ -1155,7 +1233,7 @@ See also `PHP Type Casting <https://tutorials.supunkavinda.blog/php/type-casting
 Catch
 -----
 
-Catch is the sister clause of try : it defines which exception will be caught, and, optionnaly, which variable will hold it when it happens.
+Catch is the sister clause of try : it defines which exception will be caught, and, optionaly, which variable will hold it when it happens.
 
 
 .. code-block:: php
@@ -1208,6 +1286,36 @@ It is possible to make an alias of a class and call it with this new name. It ei
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
 Related : :ref:`use<use>`
+
+.. _autoload:
+
+Class Autoloading
+-----------------
+
+Autoloading provides a hook to allow the loading of a class, the first PHP requires it. This is a more flexible way to handle the class definitions than the traditional inclusions, which requires good planning.
+
+Autoloading requires each class, trait, interface or enumeration to be stored in a distinct file. This is the most popular way, yet autoloading allows any other strategy of storage, as long as the class may be loaded based only on its name.
+
+Autoloading relies on the spl_autoload_register() function. Prior to PHP 8.0, it was possible to define the  __autoload() method, and this has being deprecated since PHP 7.2.
+
+Autoloading does not work for global constants and functions. Those still require a specific inclusion mechanism.
+
+
+.. code-block:: php
+   
+   <?php
+   spl_autoload_register(function ($class_name) {
+       include $class_name . '.php';
+   });
+   
+   $obj  = new MyClass1();
+   $obj2 = new MyClass2(); 
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.autoload.php>`__
+
+Added in PHP 5.0
 
 .. _class-constant:
 
@@ -1501,7 +1609,7 @@ Commas are syntax elements, to separate elements when provided as a list.
 + parameter separator
 + trait name separator, in use expression
 + array element separator
-+ list separator, where uncaptured variables may be omitted, leaving commas back to back.
++ list separator, where unused values may be omitted, leaving commas back to back.
 
 They do not have a value by themselves.
 
@@ -1675,7 +1783,7 @@ For example, it is possible to create a function or a class, only if it doesn't 
 
 classes, traits, interfaces, global constants (with define()), enumerations, functions may be conditioned. 
 
-class constants, properties, methods and cases (for enum) cannot be conditioned.
+class constants, properties, methods and cases (for ``enum``) cannot be conditioned.
 
 Conditioned structures adapt the PHP context to external condition. For example, some function may become native after a specific PHP version, and is only redefined for older installation. 
 
@@ -2118,9 +2226,9 @@ declare() construct is used to set execution directives for a block of code.
 
 declare() may set the following values : 
 
-+ strict_type : strict typing in the block
-+ ticks : generate a tick event 
-+ encoding : per-file encoding directive
++ ``strict_types`` : strict typing in the block
++ ``ticks`` : generate a tick event 
++ ``encoding`` : per-file encoding directive
 
 
 .. code-block:: php
@@ -2133,7 +2241,7 @@ declare() may set the following values :
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
-Related : :ref:`strict_type<strict_type>`, :ref:`ticks<ticks>`, :ref:`declare-encoding<declare-encoding>`
+Related : :ref:`strict_types<strict_types>`, :ref:`ticks<ticks>`, :ref:`declare-encoding<declare-encoding>`
 
 .. _deep-clone:
 
@@ -2177,9 +2285,9 @@ Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`magic-method<magic-method>`, :ref:`__clone<__clone>`, :ref:`shallow-clone<shallow-clone>`
+Related : :ref:`magic-method<magic-method>`, :ref:`__clone<-__clone>`, :ref:`shallow-clone<shallow-clone>`
 
 .. _default:
 
@@ -2266,7 +2374,7 @@ Arguments and properties may have a default value. That way, arguments may be sk
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`parameter<parameter>`, :ref:`properties<properties>`
+Related : :ref:`parameter<parameter>`, :ref:`property<property>`
 
 .. _define:
 
@@ -2277,7 +2385,7 @@ define() is a PHP function, that introduces constant definitions.
 
 define() is a function, and may be called anywhere. It is slower than `const`, as it is only executed at runtime. define() doesn't allow class constants creation.
 
-define() used to create case-insensitive constant, but this was abandonned in PHP 7.3.
+define() used to create case-insensitive constant, but this was abandoned in PHP 7.3.
 
 
 
@@ -2305,7 +2413,7 @@ Dependency injection is a design pattern in which an object receives other objec
 
 `Documentation <https://en.wikipedia.org/wiki/Dependency_injection>`__
 
-See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/`_
+See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/>`_
 
 .. _dereferencing:
 
@@ -2881,6 +2989,44 @@ Error
 
 Related : :ref:`throw<throw>`, :ref:`try-catch<try-catch>`
 
+.. _error-handler:
+
+Error Handler
+-------------
+
+The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler. 
+
+The error handler is set with the set_error_handler() function. 
+
+The error handler is convenient to translate errors, handle custom levels of errors, or convert errors to exceptions. 
+
+There is a separate exception handler. 
+
+.. code-block:: php
+   
+   <?php
+   
+   set_error_handler('customErrorHandler');
+   
+   function customErrorHandler($errno, $errstr, $errfile, $errline, array $errcontext)
+   {
+   	// Handles @ error suppression
+   	if (error_reporting === 0)
+   	{
+   		return false;
+   	}
+   
+   	throw new Exception($errstr, 0, $errno, $errfile, $errline);
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
+
+See also `Convert Errors to Exceptions in PHP <https://joshtronic.com/2013/07/15/convert-errors-to-exceptions/>`_, `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_
+
+Related : :ref:`handler<handler>`, :ref:`exception-handler<exception-handler>`, :ref:`shutdown-handler<shutdown-handler>`
+
 .. _escape-character:
 
 Escape Character
@@ -3028,7 +3174,7 @@ Extensions
 
 Extensions are PHP module system. They are compiled into PHP, and offer extra features, such as functions, classes, traits and directive.
 
-Extensions are published in the PECL repositor. Some are available by default, in the PHP standard configuration. 
+Extensions are published in the PECL repository. Some are available by default, in the PHP standard configuration. 
 
 
 .. code-block:: php
@@ -3217,7 +3363,7 @@ Finally
 
 Finally is the default clause of a try-catch expression. It is run after all the catch clauses have been called.
 
-Finally is run everytime after a try, with or without any catch clause. It is also run before the return expression, if any. 
+Finally is run every time after a try, with or without any catch clause. It is also run before the return expression, if any. 
 
 
 
@@ -4073,9 +4219,9 @@ Index
 
 A index is the identifier of an specific element in an array. They may automatically generated, by simply omitting them at creation time. 
 
-PHP index may be integers or strings only. Other data type will generate an error or a type conversion. For example, floats will be turned into integer. integer-shaped strings will also be turned into integer.
+PHP index may be integers or strings only. Other data types generate an error or a type conversion. For example, floats are turned into integer. integer-shaped strings will also be turned into integer.
 
-PHP index start at 0. They may be automatically assigned by appending a new value with the `[]` operator : then, they will use the greatest available index + 1.
+PHP index start at 0. They may be automatically assigned by appending a new value with the `[]` operator : then, they use the greatest available index + 1.
 
 
 .. code-block:: php
@@ -4245,10 +4391,6 @@ Integers have several syntaxes : they may be written in binary, octal, decimal, 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
-
 .. _interface:
 
 Interfaces
@@ -4329,6 +4471,40 @@ Internationalization is also called `i18n`, aka i, 18 letters and n. This is sho
 See also `PHP internationalization - i18n mechanisms tutorial <https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial>`_, `Implementing PHP localization: A complete guide <https://lokalise.com/blog/implementing-php-localization-complete-guide/>`_
 
 Related : :ref:`locale<locale>`, :ref:`intl<intl>`
+
+.. _intl:
+
+Internationalization Functions
+------------------------------
+
+The internationalization extension performs operations with locales. For example, it formats dates according to country and language configurations. The operations include, and are not limited to, formatting, transliteration, encoding conversion, calendar operations, » UCA-conformant collation, locating text boundaries and working with locale identifiers, timezones and graphemes.
+
+This extension is closely linked to the ICU library. 
+
+
+.. code-block:: php
+   
+   <?php
+   $us = new NumberFormatter('en_US', NumberFormatter::DECIMAL);
+   echo $us->format(1234567).PHP_EOL;
+   //1,234,567
+   
+   $zh = new NumberFormatter('zh_ZH', NumberFormatter::DECIMAL);
+   echo $zh->format(1234567).PHP_EOL;
+   //1,234,567
+   
+   $fr = new NumberFormatter('fr_FR', NumberFormatter::DECIMAL);
+   echo $fr->format(1234567).PHP_EOL;
+   //1 234 567
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.intl.php>`__
+
+See also `ICU lib <https://icu.unicode.org/docs/>`_
+
+Related : :ref:`locale<locale>`
 
 .. _interpolation:
 
@@ -4475,7 +4651,7 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 
 `Documentation <https://www.php.net/json>`__
 
-See also `JSON <https://www.json.org/json-en.html>`_
+See also `JSON <https://www.json.org/json-en.html>`__
 
 Added in PHP 5.0+
 
@@ -4574,6 +4750,33 @@ PHP implements a feature called late static bindings which can be used to refere
 `Documentation <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`__
 
 Related : :ref:`self<self>`, :ref:`static<static>`, :ref:`parent<parent>`
+
+.. _lengthexception:
+
+LengthException
+---------------
+
+The LengthException exception is thrown if a length is invalid.
+
+LengthException are defined by the SPL extension. It is not natively used. 
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo(string $s) {
+       if (empty($s)) {
+          throw new \UnexpectedValueException('Foo() expects a non-empty string');
+       }
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.lengthexception.php>`__
+
+Related : :ref:`exception<exception>`
+
+Added in PHP 5.1
 
 .. _libsodium:
 
@@ -4772,10 +4975,6 @@ PHP supports several types of loops : for, while, do...while and foreach.
 
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
-
 .. _magic:
 
 Magic
@@ -4885,7 +5084,7 @@ Magic Property
 
 Special properties, which are not declared, but dynamically handled by 
 
-The magic methods to handle magic properties are :  __get(), __set(), __isset() et __unset().
+The magic methods to handle magic properties are :  __get(), __set(), __isset() and __unset().
 
 .. code-block:: php
    
@@ -4928,9 +5127,11 @@ The match expression branches evaluation based on an identity check of a value.
 
 `Documentation <https://www.php.net/manual/en/control-structures.match.php>`__
 
+See also `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
+
 Related : :ref:`switch<switch>`
 
-Added in PHP 4.0
+Added in PHP 8.0
 
 .. _memoization:
 
@@ -5238,6 +5439,37 @@ Related : :ref:`typehint<typehint>`
 
 Added in PHP 8.1
 
+.. _new:
+
+new
+---
+
+new is the operator which instantiate an object from a class. The class serves as a template for the object, and the constructor finalize the creation of the object with specific characteristics.
+
+new is distinct from clone, which takes an object and makes a copy, lest distinct features which are changed by the __clone method.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class Dog {
+       private $name = '';
+   
+       function __construct($name) {
+           $this->name = $name;
+       }
+   }
+   
+   $medor = new Dog('Medor');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.basic.php>`__
+
+Related : :ref:`constructor<constructor>`, :ref:`class<class>`, :ref:`clone<clone>`
+
 .. _new-in-initializer:
 
 New In Initializers
@@ -5316,6 +5548,8 @@ Null represents the absence of data. It is the default value for objects.
 
 `Documentation <https://www.php.net/manual/en/language.types.null.php>`__
 
+See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_
+
 Related : :ref:`nullable<nullable>`
 
 Added in PHP 4.0
@@ -5372,7 +5606,7 @@ The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary>`__
 
-See also `https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6`
+See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
 Added in PHP 7.0+
 
@@ -5533,7 +5767,7 @@ Octal Integer
 
 Integers can be specified in octal (base 8) notation. Octal integer syntax starts with ``0o`` (zero-o) and only contains digits from 0 to 7.
 
-Initially, octal integers were formatted by simply starting with a initial 0. This features is still available, yet should be replaced with the less confusing syntax with `0o`.
+Initially, octal integers were formatted by simply starting with a initial 0. This features is still available, yet should be replaced with the less confusing syntax with ``0o``.
 
 
 .. code-block:: php
@@ -5740,10 +5974,6 @@ Pack() is a native PHP function which converts given arguments into a binary str
 
 
 `Documentation <https://www.php.net/manual/en/function.pack.php>`__
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _packagist:
 
@@ -6097,7 +6327,7 @@ plus +
 `+` is a native PHP operator, which may have three meaning : 
 
 + The addition, as in mathematics. This works on integers and double.
-+ The merging of arrays. This merging will set the keys once, then omit the next values.
++ The merging of arrays. This merge sets the keys once, then omits the next values.
 + The + sign in front of a number, to make it explicitely positive. This is optional, and may be repeated.
 
 
@@ -6198,6 +6428,8 @@ Other constants come from extensions : for example, the Math extension defines M
 
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
+
+Related : :ref:`constant<constant>`
 
 .. _preprocess:
 
@@ -6385,6 +6617,35 @@ Traditional native functions, such as rand() and mt_rand() are not recommended f
 
 Added in PHP 4.0
 
+.. _rangeexception:
+
+RangeException
+--------------
+
+The RangeException exception is thrown if a value is out of range. It usually means that a values overflows or underflows.
+
+RangeException are defined by the SPL extension. It is use by the SplStack class.
+
+
+
+.. code-block:: php
+   
+   <?php
+   try {
+       $var = new SplStack();
+       $var->offsetSet(100,new DateTime('2000-01-01'));
+   } catch(OutOfRangeException $e) {
+       print $e->getMessage().\n;
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.rangeexception.php>`__
+
+Related : :ref:`exception<exception>`, :ref:`overflow<overflow>`, :ref:`underflow<underflow>`
+
+Added in PHP 5.1
+
 .. _readonly:
 
 Readonly
@@ -6422,7 +6683,7 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
 
-Related : :ref:`class<class>`, :ref:`__clone<__clone>`
+Related : :ref:`class<class>`, :ref:`__clone<-__clone>`
 
 Added in PHP 8.1
 
@@ -6471,6 +6732,8 @@ References in PHP are a means to access the same variable content by different n
 
 
 `Documentation <https://www.php.net/manual/en/language.references.php>`__
+
+See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_
 
 Related : :ref:`variable<variable>`
 
@@ -6755,7 +7018,7 @@ Session
 
 Session support in PHP consists of a way to preserve certain data across subsequent accesses.
 
-It relies on the session_* functions, and the ``$_SESSION`` superglobal variable.
+It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal variable.
 
 
 .. code-block:: php
@@ -6773,6 +7036,8 @@ It relies on the session_* functions, and the ``$_SESSION`` superglobal variable
 
 
 `Documentation <https://www.php.net/manual/en/book.session.php>`__
+
+See also `Session in PHP: Creating, Destroying, and Working With Session in PHP <https://www.simplilearn.com/tutorials/php-tutorial/session-in-php>`_
 
 Related : :ref:`superglobal<superglobal>`
 
@@ -6816,9 +7081,9 @@ Shallow cloning is the default behavior in PHP.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`magic-method<magic-method>`, :ref:`__clone<__clone>`, :ref:`deep-clone<deep-clone>`
+Related : :ref:`magic-method<magic-method>`, :ref:`__clone<-__clone>`, :ref:`deep-clone<deep-clone>`
 
 .. _short-assignation:
 
@@ -6927,6 +7192,42 @@ In its simplest form, signature of a method is its argument's type and list, tho
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
+.. _simplexml:
+
+SimpleXML
+---------
+
+The SimpleXML extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.
+
+.. code-block:: php
+   
+   <?php
+   $books = new SimpleXMLElement('<?xml version=1.0?>
+   <books>
+   <book>
+   <title>Les miserables</title>
+   <genre>Novel</genre>
+   </book>
+   <book>
+   <title>The old man and the sea</title>
+   <genre>Novel</genre>
+   </book>
+   <book>
+   <title>The journey to the west</title>
+   <genre>Epic</genre>
+   </book>
+   </books>');
+   
+   echo $movies->books[0]->title;
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.simplexml.php>`__
+
+See also xmlwriter, xmlreader, xml
+
+Added in PHP 5.0+
+
 .. _sleep:
 
 sleep
@@ -6959,7 +7260,7 @@ Spaceship operator is an operator which reports if a value is larger, equal or s
 
 The spaceship operator may be replace by a `-` (minus) sign, if the compared values are correct. It may also be replace with `!=`, since -1 and 1 are both cast to `true`. 
 
-The spaceship operator got its name from the ressemblence to an flying saucer. Battleship operator, or death star operator do not exist. 
+The spaceship operator got its name from its resemblance to an flying saucer. Battleship operator, or death star operator do not exist. 
 
 
 
@@ -6976,6 +7277,8 @@ The spaceship operator got its name from the ressemblence to an flying saucer. B
 
 
 `Documentation <https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op>`__
+
+See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-php/>`_
 
 .. _special-typehint:
 
@@ -7089,7 +7392,7 @@ Static is a keyword for methods and properties : they are turned into class elem
 
 Static is a keyword for closures and arrow functions : it prevents the current scope to be included in with the closure, thus limiting the number of accessible values.
 
-Static is a keyword for variables : those variables will not be removed at the end of the method execution and will be available at the beginning of the next call.
+Static is a keyword for variables : those variables aren't removed at the end of the method execution and are available at the beginning of the next call.
 
 
 
@@ -7272,6 +7575,38 @@ See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict
 
 Related : :ref:`switch<switch>`, :ref:`match<match>`
 
+.. _strict_types:
+
+strict_types
+------------
+
+strict_types is an execution directive, that makes PHP more strict when applying the typehints. In particular, it doesn't cast values automatically, but raise an error. 
+
+``strict_types`` is an option per file, and is set with the declare() function.
+
+
+.. code-block:: php
+   
+   <?php
+   declare(strict_types=1);
+   
+   function foo(int $a) {}
+   
+   foo(1);
+   foo(1.3);
+   //Fatal error: Uncaught TypeError: foo(): Argument #1 ($a) must be of type int, float given,
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict>`__
+
+See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_
+
+Related : :ref:`typehint<typehint>`
+
+Added in PHP 7.0
+
 .. _string:
 
 String
@@ -7304,9 +7639,9 @@ There are several ways to do interpolation :
 + use double-quotes and a variable
 + use double-quotes and a property or a array with a valid index
 + use curly braces with a variable
-+ use dollar and curly-braces : it will call the variable whose name is dynamically calculated in the curly braces. This syntax will be deprecated in PHP 8.2 and later.
++ use dollar and curly-braces : it calls the variable whose name is dynamically calculated in the curly braces. This syntax is deprecated in PHP 8.2 and later.
 
-Double quotes and Heredoc notation allows string interpolation. On the other hand, single quote and nowdoc forbid interpolation. Then, escaping the special characters such as `$` and `{` with `\\` will also disable interpolation locally.
+Double quotes and Heredoc notation allows string interpolation. On the other hand, single quote and nowdoc forbid interpolation. Then, escaping the special characters such as `$` and `{` with `\\` also disables interpolation locally.
 
 Interpolation happens inside strings, while concatenation happens between strings.
 
@@ -7421,7 +7756,7 @@ Supply Chain Attack is a security attack that uses dependencies to infect a prog
 
 Modern applications are built on top of components which are fetched from central repositories. In the PHP world, composer is the most popular PHP repository.
 
-When those external repositories are infected with malicious component or code, the dependency manager will load them like the rest of the code. Blind trust in the imported code lead to vulnerabilities.
+When those external repositories are infected with malicious component or code, the dependency manager loads them like the rest of the code. Blind trust in the imported code lead to vulnerabilities.
 
 
 
@@ -7479,7 +7814,7 @@ The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary>`__
 
-See also `https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6`
+See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
 Added in PHP 7.0+
 
@@ -7511,7 +7846,7 @@ Related : :ref:`try-catch<try-catch>`, :ref:`exception<exception>`
 Throwable
 ---------
 
-Throwable is a PHP native interface, which is required for any object which will be used with thrown, such as `Exception` and `Error`.
+Throwable is a PHP native interface, which is required for any object to be used with thrown, such as `Exception` and `Error`.
 
 This interface may be used with catch clauses, to catch everything that is thrown. Yet, this interface cannot be implemented directly. It should be acquired by extending `Exception`.
 
@@ -7581,7 +7916,7 @@ Trailing commas were introduced progressively in PHP. In PHP 7.2, in use stateme
    $a = array(1,
               2,
               3,
-              // Adding a new element in this array will only create
+              // Adding a new element in this array only creates
               // a one line diff, when using the trailing comma
               )
    ?>
@@ -7618,6 +7953,8 @@ Traits are a mechanism for code reuse in single inheritance languages such as PH
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php>`__
+
+See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_, `What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_
 
 .. _traversable:
 
@@ -7936,7 +8273,7 @@ When `use` is used with a closure, it imports the listed variables in the closur
        
            function foo() {
                $a = 1;
-               // use imports the variable $a in the closure. Its value will be accessible at execution time.
+               // use imports the variable $a in the closure. Its value is accessible at execution time.
                $closure = function ($b) use ($a) { return $a + $b;}
            }
        }
@@ -8076,9 +8413,9 @@ Variadic
 
 Three dots, aka ellipsis, is an operator to spread or collect array values. 
 
-Applied to an array, it will spread the values of the array as distinct elements.
+Applied to an array, it  spreads the values of the array as distinct elements.
 
-Used in a function signature, it will collect all the values into one array.
+Used in a function signature, it collects all the values into one array.
 
 
 .. code-block:: php
@@ -8136,7 +8473,7 @@ Properties, methods and classes may have a visibility. It limits the scope of th
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP — P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_
+See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_, `PHP Tricks: Access control bypass <https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass>`_
 
 Related : :ref:`property<property>`, :ref:`method<method>`, :ref:`class-constant<class-constant>`
 
@@ -8229,6 +8566,95 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
 Related : :ref:`simplexml<simplexml>`, :ref:`domxml<domxml>`, :ref:`xmlwriter<xmlwriter>`, :ref:`xmlreader<xmlreader>`
+
+.. _xmlreader:
+
+XMLReader
+---------
+
+The XMLReader extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.
+
+.. code-block:: php
+   
+   <?php
+   //creating an XML documents that is to be parsed using XML reader to retrieve the contents
+   $xmlDocument = '<?xml version=1.0?>
+   <books>
+   <book>
+   <title>Les miserables</title>
+   <genre>Novel</genre>
+   </book>
+   <book>
+   <title>The old man and the sea</title>
+   <genre>Novel</genre>
+   </book>
+   <book>
+   <title>The journey to the west</title>
+   <genre>Epic</genre>
+   </book>
+   </books>';
+   //declaring an instance of XML Reader
+   $xml = new XMLReader();
+   $xml->XML($xmlDocument);
+   //parsing the contents of the XML document and retrieving the required contents from the document
+   echo List of the book titles:\n;
+   while( $xml->read() )
+   {
+       if ($xml->name === 'title') {
+           print $xml->readInnerXML().PHP_EOL;
+           $xml->next();
+       }
+   }
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/book.xmlreader.php>`__
+
+See also xmlwriter, xml
+
+Added in PHP 5.0+
+
+.. _xmlwriter:
+
+XMLwriter
+---------
+
+This is the XMLWriter extension. It wraps the libxml xmlWriter API.
+
+.. code-block:: php
+   
+   <?php
+   
+   // adapted from PHP Manual
+   
+   $xw = xmlwriter_open_memory();
+   xmlwriter_set_indent($xw, 1);
+   $res = xmlwriter_set_indent_string($xw, ' ');
+   
+   xmlwriter_start_document($xw, '1.0', 'UTF-8');
+   
+   // A first element
+   xmlwriter_start_element($xw, 'tag1');
+   
+   // Attribute 'att1' for element 'tag1'
+   xmlwriter_start_attribute($xw, 'att1');
+   xmlwriter_text($xw, 'valueofatt1');
+   xmlwriter_end_attribute($xw);
+   
+   xmlwriter_end_document($xw);
+   
+   echo xmlwriter_output_memory($xw);
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/book.xmlwriter.php>`__
+
+See also xmlreader, xmlwriter
+
+Added in PHP 5.0+
 
 .. _yield:
 
