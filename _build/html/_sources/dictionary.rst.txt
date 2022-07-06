@@ -47,6 +47,7 @@ PHP Dictionary
    * :ref:`Class constant<class-constant>`
    * :ref:`Classes<class>`
    * :ref:`Closure<closure>`
+   * :ref:`Closure Binding<closure-binding>`
    * :ref:`Coalesce operator<coalesce>`
    * :ref:`Coding Conventions<coding-convention>`
    * :ref:`Comma<comma>`
@@ -143,6 +144,7 @@ PHP Dictionary
 * I
    * :ref:`Iconv<iconv>`
    * :ref:`If Then Else<if-then>`
+   * :ref:`Iffectation<iffectation>`
    * :ref:`ImagickException<imagickexception>`
    * :ref:`Inclusion<include>`
    * :ref:`Inclusions<inclusion>`
@@ -176,6 +178,7 @@ PHP Dictionary
    * :ref:`Loops<loop>`
    * :ref:`libsodium<libsodium>`
    * :ref:`list<list>`
+   * :ref:`literal<literal>`
 * M
    * :ref:`Magic<magic>`
    * :ref:`Magic Constants<magic-constant>`
@@ -195,6 +198,7 @@ PHP Dictionary
    * :ref:`Never Typehint<never-typehint>`
    * :ref:`Never return type<never>`
    * :ref:`New In Initializers<new-in-initializer>`
+   * :ref:`Non breakable spaces<non-breakable-space>`
    * :ref:`Nowdocs<nowdoc>`
    * :ref:`Null<null>`
    * :ref:`Null Safe Object Operator<nullsafe-object-operator>`
@@ -216,6 +220,7 @@ PHP Dictionary
 * P
    * :ref:`PDOException<pdoexception>`
    * :ref:`PECL<pecl>`
+   * :ref:`PHP Handlers<handler>`
    * :ref:`PHP Predefined Exception<predefined-exception>`
    * :ref:`PHP Profiler<profiler>`
    * :ref:`PHP Standards Recommendations (PSR)<psr>`
@@ -252,10 +257,12 @@ PHP Dictionary
    * :ref:`Return Value<return-value>`
    * :ref:`resource<resource>`
 * S
+   * :ref:`SAPI<sapi>`
    * :ref:`SSL<ssl>`
    * :ref:`Sanitation<sanitation>`
    * :ref:`Scalar Typehints<scalar-typehint>`
    * :ref:`Scope Resolution Operator<scope-resolution-operator>`
+   * :ref:`Serialization<serialization>`
    * :ref:`Session<session>`
    * :ref:`Shallow clone<shallow-clone>`
    * :ref:`Short Syntax<short-syntax>`
@@ -264,6 +271,7 @@ PHP Dictionary
    * :ref:`SimpleXML<simplexml>`
    * :ref:`Spaceship operator<spaeceship>`
    * :ref:`Special Typehints<special-typehint>`
+   * :ref:`Sqlite3<sqlite>`
    * :ref:`Standard PHP Library (SPL)<spl>`
    * :ref:`Static Method<static-method>`
    * :ref:`Static Property<static-property>`
@@ -275,6 +283,8 @@ PHP Dictionary
    * :ref:`Superglobal variables<superglobal>`
    * :ref:`Supply Chain Attack<supply-chain-attack>`
    * :ref:`Switch<switch>`
+   * :ref:`Switch Fallthrough<fallthrough>`
+   * :ref:`System Call<system-call>`
    * :ref:`self<self>`
    * :ref:`signature<signature>`
    * :ref:`sleep<sleep>`
@@ -286,6 +296,7 @@ PHP Dictionary
    * :ref:`TLS<tls>`
    * :ref:`Ternary operator<ternary>`
    * :ref:`Throwable<throwable>`
+   * :ref:`Tick<tick>`
    * :ref:`Trailing Comma<trailing-comma>`
    * :ref:`Traits<trait>`
    * :ref:`Traversable<traversable>`
@@ -449,7 +460,7 @@ PHP has abstract classes and methods. Classes defined as abstract cannot be inst
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_
 
 Related : :ref:`final<final>`
 
@@ -719,8 +730,6 @@ An array assigns automatically an integer index to the values appended to it. An
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Added in PHP 4.0
-
 .. _append:
 
 Array Append
@@ -782,6 +791,7 @@ Array With Curly Braces
 -----------------------
 
 Specifying an array index with the curly braces, instead of the square brackets.
+
 
 .. code-block:: php
    
@@ -1233,7 +1243,9 @@ See also `PHP Type Casting <https://tutorials.supunkavinda.blog/php/type-casting
 Catch
 -----
 
-Catch is the sister clause of try : it defines which exception will be caught, and, optionaly, which variable will hold it when it happens.
+Catch is the complement clause of try : it defines which exception is caught. Optionaly, it defines which variable holds the exception when it happens (since PHP 8.0).
+
+Multiple catches may be used. They are applied in the order of coding, and the first clause which succeed is the last.
 
 
 .. code-block:: php
@@ -1242,7 +1254,11 @@ Catch is the sister clause of try : it defines which exception will be caught, a
    
    try {
        callSomeMethod();
-   } catch (\Exception $e) {
+   } catch (\SomeException $e) {
+       display(Warning);
+   } catch (\SomeSeriousException $e) {
+       display(Alert);
+   } catch (\Exception) {
        // process the error here
    }
    
@@ -1251,9 +1267,9 @@ Catch is the sister clause of try : it defines which exception will be caught, a
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-Related : :ref:`try-catch<try-catch>`
+See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_
 
-Added in PHP 4.0+
+Related : :ref:`try-catch<try-catch>`, :ref:`finally<finally>`
 
 .. _class-alias:
 
@@ -1337,10 +1353,6 @@ It is possible to define constants on a per-class basis remaining the same and u
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _class-constant-visibility:
 
@@ -1554,6 +1566,38 @@ Closures are anonymous functions : functions without a name. They are also suppo
 
 Related : :ref:`static<static>`, :ref:`arrow-function<arrow-function>`, :ref:`closure<closure>`
 
+.. _closure-binding:
+
+Closure Binding
+---------------
+
+A closure acquires values from its context of creation. When the closure is created in a different context that wished, one may rebind the closure to another context.
+
+This is done with the two methods Closure::bind() and Closure::bintTo();
+
+
+.. code-block:: php
+   
+   <?php
+   class A {
+       private static function foo() { return 1;}
+   }
+   
+   $closure = function() {
+       // Self is undefined here, since it is not inside a class
+       return self::foo();
+   };
+   
+   // Self now defined, and set to A
+   $bcl1 = Closure::bind($closure, null, 'A');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/closure.bind.php>`__
+
+Related : :ref:`closure<closure>`
+
 .. _coalesce:
 
 Coalesce operator
@@ -1675,10 +1719,6 @@ This notion is not related to the compact() function.
 
 
 `Documentation <https://www.npopov.com/2012/03/28/Understanding-PHPs-internal-array-implementation.html>`__
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _compact:
 
@@ -2025,7 +2065,7 @@ Control structures are PHP statements that control the flow of execution.
 Cookie
 ------
 
- Cookies are a mechanism for storing data in the remote browser and thus tracking or identifying return users. 
+Cookies are a mechanism for storing data in the remote browser and thus tracking or identifying return users. 
 
 .. code-block:: php
    
@@ -2931,7 +2971,7 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.php>`__
 
-See also `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_
+See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_
 
 Related : :ref:`enum-case<enum-case>`
 
@@ -4063,6 +4103,33 @@ A  a PHP file into another PHP file. This is usually isolated into the autoloadi
 
 Added in PHP 8.0+
 
+.. _iffectation:
+
+Iffectation
+-----------
+
+An iffection is both an assignation and a condition at the same time. 
+
+Assignation is a condition is debated. It makes the code less readable, as the assignation is hidden in the if condition.
+
+It also saves some extra lines of code, when the condition applies to something that will immediately be used. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   if ($x = foo()) { }
+   
+   // same, without the iffectation
+   $x = foo();
+   if ($x) { }
+   
+   
+   ?>
+
+
 .. _imagickexception:
 
 ImagickException
@@ -4857,6 +4924,40 @@ See also `List-o-mania <https://markbakeruk.net/2022/06/06/list-o-mania/>`_
 
 Related : :ref:`array<array>`
 
+.. _literal:
+
+literal
+-------
+
+A literal is a hard coded value in the source.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class X {
+       private $property;
+       
+       function __construct($value) {
+           $this->property = $value;
+       }
+   }
+   
+   $x = new X(1);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
+
+Related : :ref:`destructor<destructor>`
+
+Added in PHP 4.0
+
+Removed in PHP 4.0
+
 .. _locale:
 
 Locale
@@ -5072,6 +5173,8 @@ The magic methods are  : __call(), __callStatic(), __get(), __set(), __isset(), 
 
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
+
+See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_
 
 Added in PHP 4.0
 
@@ -5491,6 +5594,35 @@ It is possible to use a new expression for default values of static variables, a
 `Documentation <https://wiki.php.net/rfc/new_in_initializers>`__
 
 Added in PHP 8.1+
+
+.. _non-breakable-space:
+
+Non breakable spaces
+--------------------
+
+Space is one of the base ascii character. They are often used to separate words, and are forbidden from being used in names. 
+
+PHP supports Unicode characters, and some of the characters are called : non breaking spaces. They behave like a space, by displaying a blank area. Yet, they are recognized internally as a non-space, and can be used in a name.
+
+Non-breakable spaces are useful for tests, as they make the testing name more readable. They are also quite rare, and confusing for newcomers.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // This is a space, it won't compile
+   const A B = 1;
+   
+   // This is a non breakabe space, it compile and is not visibly different from the line above
+   const A B = 1;
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Non-breaking_space>`__
+
+See also `Non breakable space in PHP <https://3v4l.org/ATkWY>`_
 
 .. _nowdoc:
 
@@ -6198,6 +6330,38 @@ The PharException class provides a phar-specific exception class for try/catch b
 `Documentation <https://www.php.net/manual/en/class.pharexception.php>`__
 
 Related : :ref:`exception<exception>`
+
+.. _handler:
+
+PHP Handlers
+------------
+
+PHP handlers are methods which are called to customize the processing of specific events. All those handlers have a default handler, which is used until a new one is configured.
+
+Handlers are usually named by their setting function : 
+
++ Errors
+    + set_error_handler()
+    + set_exception_handler()
++ Sessions
+    + session_set_save_handler()
+    + session_register_shutdown()
++ Execution
+    + register_shutdown_function()
++ Ticks
+    + register_tick_function()
++ Headers
+    + register_header_function()
++ Streams
+    + stream_register_wrapper()
+    + stream_wrapper_register()
+    + stream_filter_register()
++ Autoload
+    + spl_autoload_register()
+
+
+
+`Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
 
 .. _predefined-exception:
 
@@ -6927,6 +7091,26 @@ Added in PHP 4.0
 
 Removed in PHP 4.0
 
+.. _sapi:
+
+SAPI
+----
+
+Server Application Programming Interface : SAPI are the interface between PHP and a supporting platform, such as a web server (nginx, apache, caddy, ... ), a debugger (phpdbg, ...) or the command line interface (CLI).
+
+
+.. code-block:: php
+   
+   <?php
+   
+   echo PHP_SAPI;
+   echo php_sapi_name();
+   
+   ?>
+
+
+`Documentation <https://docs.php.earth/php/sapi/>`__
+
 .. _scalar-typehint:
 
 Scalar Typehints
@@ -7010,6 +7194,41 @@ Self is one of the three special keywords that are used to access properties or 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
 Related : :ref:`static<static>`, :ref:`parent<parent>`, :ref:`late-static-binding<late-static-binding>`
+
+.. _serialization:
+
+Serialization
+-------------
+
+Serialization is a string representation of an object, that can be stored as text, and then turned into the original object again.
+
+The reverse process is unserialization. 
+
+In PHP, there are different ways to implement serialization. The native way is to rely on the serialize() and unserialize(), which, in turn, rely on the __serialize() and __unserialize() magic method. Then, var_export() and require() make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class X {
+       private const X = 1;
+       
+       function foo() {
+           // same as \X::C;
+           return self::C;
+       }
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
+
+See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_
+
+Related : :ref:`__serialize<-__serialize>`
 
 .. _session:
 
@@ -7320,6 +7539,37 @@ Other special types are the scalar types.
 Related : :ref:`typehint<typehint>`, :ref:`special-typehint<special-typehint>`
 
 Added in PHP 7.0
+
+.. _sqlite:
+
+Sqlite3
+-------
+
+SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+
+The related extension is Sqlite3. It allows the creation and usage of file-based or memory-based databases.
+
+Sqlite3 is also available with PDO (Portable Document File), with the pdo_sqlite engine.
+
+
+.. code-block:: php
+   
+   <?php
+   $db = new SQLite3('my.sqlite3');
+   
+   $results = $db->query('SELECT bar FROM foo');
+   while ($row = $results->fetchArray()) {
+       var_dump($row);
+   }
+   ?>
+   
+
+
+`Documentation <https://www.sqlite.org/index.html>`__
+
+See also `SQLite3 in PHP <https://www.php.net/sqlite3>`_
+
+Related : :ref:`sql<sql>`, :ref:`pdo<pdo>`
 
 .. _ssl:
 
@@ -7796,6 +8046,62 @@ Related : :ref:`switch<switch>`
 
 Added in PHP 4.0
 
+.. _fallthrough:
+
+Switch Fallthrough
+------------------
+
+A fallthrough is the absence of break (or equivalent) at the end of a switch case. That way, the execution continues on the next case. 
+
+While this is an intended feature, and is useful to reduce code, it tends to surprise programmers, which expect the cases to always end. 
+
+<?php
+
+switch ($a) {
+    case 1:
+        $a = 2 * $a;
+        // fallthrough here : the execution continue
+        
+    case 2:
+        $a = $a + 1;
+        break;
+}
+
+?>
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = array(0, 1, 2, 3);
+   echo $a{2};
+   
+   ?>
+
+
+`Documentation <https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/>`__
+
+.. _system-call:
+
+System Call
+-----------
+
+A system call is a call to an operating system function. In PHP, those are done with the shell_exec(), system() and exec() functions; and the `` (back tick) operators.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // list files
+   $list = shell_exec('ls -1');
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/System_call>`__
+
 .. _ternary:
 
 Ternary operator
@@ -7870,6 +8176,44 @@ Related : :ref:`catch<catch>`, :ref:`exception<exception>`, :ref:`error<error>`
 
 Added in PHP 7.0
 
+.. _tick:
+
+Tick
+----
+
+ticks are events that occur for a group of tickable statements executed by the parser within the declare block. 
+
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   declare(ticks=1);
+   
+   // A function called on each tick event
+   function tick_handler()
+   {
+       echo 'tick_handler() called'.PHP_EOL;
+   }
+   
+   register_tick_function('tick_handler'); // causes a tick event
+   
+   $a = 1; // causes a tick event
+   
+   if ($a > 0) {
+       $a += 2; // causes a tick event
+       print($a); // causes a tick event
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks>`__
+
+Related : :ref:`declare<declare>`
+
 .. _tls:
 
 TLS
@@ -7931,7 +8275,10 @@ Related : :ref:`comma<comma>`
 Traits
 ------
 
-Traits are a mechanism for code reuse in single inheritance languages such as PHP.
+Traits are a mechanism for code reuse in single inheritance languages.
+
+Traits define methods and properties. They are included in one or several classes by the use of ``use`` expression.
+
 
 .. code-block:: php
    
@@ -7946,7 +8293,7 @@ Traits are a mechanism for code reuse in single inheritance languages such as PH
    }
    
    class x { 
-       use t
+       use t;
    }
    
    ?>
@@ -7954,7 +8301,9 @@ Traits are a mechanism for code reuse in single inheritance languages such as PH
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php>`__
 
-See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_, `What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_
+See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_, `What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_, `Some lesser known facts of Traits in PHP <https://www.amitmerchant.com/some-lesser-known-facts-traits-php/>`_
+
+Related : :ref:`class<class>`, :ref:`use<use>`
 
 .. _traversable:
 
