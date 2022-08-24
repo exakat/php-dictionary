@@ -6,7 +6,6 @@ updating environment: [new config] 2 added, 0 changed, 0 removed
 reading sources... [ 50%] dictionary
 reading sources... [100%] index
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8068: WARNING: Definition list ends without a blank line; unexpected unindent.
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -14,37 +13,29 @@ preparing documents... done
 writing output... [ 50%] dictionary
 writing output... [100%] index
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:532: WARNING: undefined label: namespaces-alias
-/Users/famille/Desktop/php-dictionary/dictionary.rst:859: WARNING: undefined label: use-alias
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1134: WARNING: undefined label: -__invoke
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1165: WARNING: undefined label: callable
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2284: WARNING: undefined label: ticks
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2284: WARNING: undefined label: declare-encoding
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2892: WARNING: undefined label: php-tag
-/Users/famille/Desktop/php-dictionary/dictionary.rst:3068: WARNING: undefined label: exception-handler
-/Users/famille/Desktop/php-dictionary/dictionary.rst:3068: WARNING: undefined label: shutdown-handler
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5042: WARNING: undefined label: domainexception
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5344: WARNING: undefined label: encoding
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5442: WARNING: undefined label: namespaces-alias
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6423: WARNING: undefined label: debugger
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6465: WARNING: undefined label: super-global
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6809: WARNING: undefined label: overflow
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6809: WARNING: undefined label: underflow
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7231: WARNING: undefined label: -__serialize
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7391: WARNING: undefined label: php-tag
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7572: WARNING: undefined label: sql
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7572: WARNING: undefined label: pdo
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8596: WARNING: undefined label: domxml
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8639: WARNING: undefined label: use-alias
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8791: WARNING: undefined label: variable-argument
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8917: WARNING: undefined label: domxml
-/Users/famille/Desktop/php-dictionary/dictionary.rst:567: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:527: WARNING: undefined label: unserialize
+/Users/famille/Desktop/php-dictionary/dictionary.rst:527: WARNING: undefined label: -__unserialize
+/Users/famille/Desktop/php-dictionary/dictionary.rst:641: WARNING: undefined label: namespaces-alias
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2005: WARNING: undefined label: ternary-operator
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2474: WARNING: undefined label: declare-encoding
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2829: WARNING: undefined label: disable-functions
+/Users/famille/Desktop/php-dictionary/dictionary.rst:3207: WARNING: undefined label: php-tag
+/Users/famille/Desktop/php-dictionary/dictionary.rst:3412: WARNING: undefined label: exception-handler
+/Users/famille/Desktop/php-dictionary/dictionary.rst:3412: WARNING: undefined label: shutdown-handler
+/Users/famille/Desktop/php-dictionary/dictionary.rst:6929: WARNING: undefined label: debugger
+/Users/famille/Desktop/php-dictionary/dictionary.rst:6971: WARNING: undefined label: super-global
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7315: WARNING: undefined label: overflow
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7315: WARNING: undefined label: underflow
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7986: WARNING: undefined label: php-tag
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8237: WARNING: undefined label: sql
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8237: WARNING: undefined label: pdo
+/Users/famille/Desktop/php-dictionary/dictionary.rst:676: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done
 copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 26 warnings.
+build succeeded, 17 warnings.
 
 The HTML pages are in _build/html.
