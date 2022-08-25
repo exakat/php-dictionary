@@ -13,29 +13,18 @@ preparing documents... done
 writing output... [ 50%] dictionary
 writing output... [100%] index
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:527: WARNING: undefined label: unserialize
-/Users/famille/Desktop/php-dictionary/dictionary.rst:527: WARNING: undefined label: -__unserialize
-/Users/famille/Desktop/php-dictionary/dictionary.rst:641: WARNING: undefined label: namespaces-alias
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2005: WARNING: undefined label: ternary-operator
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2474: WARNING: undefined label: declare-encoding
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2829: WARNING: undefined label: disable-functions
-/Users/famille/Desktop/php-dictionary/dictionary.rst:3207: WARNING: undefined label: php-tag
-/Users/famille/Desktop/php-dictionary/dictionary.rst:3412: WARNING: undefined label: exception-handler
-/Users/famille/Desktop/php-dictionary/dictionary.rst:3412: WARNING: undefined label: shutdown-handler
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6929: WARNING: undefined label: debugger
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6971: WARNING: undefined label: super-global
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7315: WARNING: undefined label: overflow
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7315: WARNING: undefined label: underflow
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7986: WARNING: undefined label: php-tag
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8237: WARNING: undefined label: sql
-/Users/famille/Desktop/php-dictionary/dictionary.rst:8237: WARNING: undefined label: pdo
-/Users/famille/Desktop/php-dictionary/dictionary.rst:676: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:3286: WARNING: undefined label: php-tag
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7123: WARNING: undefined label: debugger
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8263: WARNING: undefined label: php-tag
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8347: WARNING: undefined label: pdo
+/Users/famille/Desktop/php-dictionary/dictionary.rst:8542: WARNING: undefined label: pdo
+/Users/famille/Desktop/php-dictionary/dictionary.rst:724: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done
 copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 17 warnings.
+build succeeded, 6 warnings.
 
 The HTML pages are in _build/html.
