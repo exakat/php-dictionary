@@ -171,8 +171,10 @@ PHP Dictionary
    * :ref:`Iffectation <iffectation>`
    * :ref:`ImagickException <imagickexception>`
    * :ref:`ImagickPixelException <imagickpixelexception>`
+   * :ref:`Immutable <immutable>`
    * :ref:`Inclusion <include>`
    * :ref:`Inclusions <inclusion>`
+   * :ref:`Incoming Data <incoming-data>`
    * :ref:`Indentation <indentation>`
    * :ref:`Index <index>`
    * :ref:`Inequality <inequality>`
@@ -245,6 +247,7 @@ PHP Dictionary
    * :ref:`Operators <operator>`
    * :ref:`Optional Parameter <optional-parameter>`
    * :ref:`OutOfRangeException <outofrangeexception>`
+   * :ref:`Outgoing Data <outgoing-data>`
    * :ref:`Overflow <overflow>`
    * :ref:`Overwrite <overwrite>`
 * P
@@ -281,6 +284,7 @@ PHP Dictionary
 * R
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
+   * :ref:`Readability <readability>`
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
@@ -297,6 +301,7 @@ PHP Dictionary
    * :ref:`resource <resource>`
 * S
    * :ref:`SAPI <sapi>`
+   * :ref:`SOLID <solid>`
    * :ref:`SSL <ssl>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scalar Typehints <scalar-typehint>`
@@ -312,6 +317,7 @@ PHP Dictionary
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`SimpleXML <simplexml>`
    * :ref:`Single Quotes Strings <single-quote>`
+   * :ref:`Sort <sort>`
    * :ref:`Spaceship operator <spaeceship>`
    * :ref:`Special Typehints <special-typehint>`
    * :ref:`Sqlite3 <sqlite>`
@@ -4284,11 +4290,15 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 Related : :ref:`real <real>`
 
 .. _fluent-interface:
+.. _fluent:
 
 Fluent Interface
 ----------------
 
- a fluent interface is an object-oriented API whose design relies extensively on method chaining.
+A fluent interface is an object-oriented API whose design relies extensively on method chaining.
+
+A fluent interface is not related to an interface : it may be implemented without them. 
+
 
 .. code-block:: php
    
@@ -4318,7 +4328,7 @@ Fluent Interface
 
 See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_
 
-Related : :ref:`final <final>`
+Related : :ref:`final <final>`, :ref:`interface <interface>`
 
 .. _foreach:
 
@@ -5053,6 +5063,47 @@ Exception thrown when an error happens while creating an ImagickPixel object.
 
 `Documentation <https://www.php.net/manual/en/imagickpixel.construct.php>`__
 
+.. _immutable:
+
+Immutable
+---------
+
+An immutable object is an object that can't be changed. It may be created, read and cloned. On the other hand, a mutable object may change when one of its method is called, even if this is not visible from the outside.
+
+Immutable objects are thread-safe. 
+
+Immutable objects often return a clone version of themself after a modification. 
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   class x {
+   	private $x = 0;
+   	
+   	function inc() : self {
+   		$return = clone $this;
+   		$return->x +=1;
+   		
+   		return $return;
+   	}
+   }
+   
+   $a = new x();
+   $b = $a->inc();
+   
+   // $a and $b are two distinct objects
+   
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Immutable_object>`__
+
+See also `The case for immutability <https://dev.to/timoschinkel/the-case-for-immutability-1gfa>`_
+
 .. _implements:
 
 implements
@@ -5149,6 +5200,40 @@ Including a PHP file into another PHP file. This is usually isolated into the au
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
 Added in PHP 8.0+
+
+.. _incoming-data:
+
+Incoming Data
+-------------
+
+Incoming data are data submitted to PHP by the user. They may come in different way : GET, POST, cookies or files; and, by extension, $_REQUEST. 
+
+Incoming data should always be checked before usage. Their value may have been modified by the author of the source, and carry some malicious payload.
+
+The encoding of the incoming data are controled with the `default_charset` directive.
+
+By extension, incoming data may be used to every source of data that is not PHP itself : files, databases, API, etc. Then, they should be treated the same way, with checks on format and value before usage. 
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   if ($_GET['x'] === '1') {
+   	print "You provided a one digit. Thanks!";
+   } else {
+   	print "No processable data was provided.";
+   }
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
+
+Related : :ref:`$_REQUEST <$_REQUEST>`, :ref:`$_POST <$_POST>`, :ref:`$_FILES <$_FILES>`, :ref:`$_GET <$_GET>`, :ref:`outgoing-data <outgoing-data>`
 
 .. _indentation:
 .. _indenting:
@@ -5443,7 +5528,9 @@ Interfaces may have methods signatures, without a body, and constants.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_
+
+Related : :ref:`fluent-interface <fluent-interface>`
 
 .. _internationalization:
 .. _i18n:
@@ -7075,6 +7162,35 @@ Optional parameter should be the last parameters : otherwise, PHP will have trou
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
+.. _outgoing-data:
+
+Outgoing Data
+-------------
+
+Outgoing data are data submitted by PHP to an external user. The default may be the user's browser, and the usual formats may be HTML, or JSON. Yet, there are many other destinations, such as databases, files, API, other process and formats, such as CSV, text, PDF, etc.  
+
+Outgoing data should always be formatted with the target technology. For example, text should use HTML entities for HTML output, or be provided as prepared statement with a database. Each target has its own system of protection.
+
+The encoding of the incoming data are controled with the `default_charset` directive.
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // raw text, for the browser
+   echo Hello world.;
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
+
+Related : :ref:`incoming-data <incoming-data>`
+
 .. _outofrangeexception:
 
 OutOfRangeException
@@ -7992,6 +8108,35 @@ RangeException are defined by the SPL extension. It is use by the SplStack class
 Related : :ref:`exception <exception>`, :ref:`overflow <overflow>`, :ref:`underflow <underflow>`
 
 Added in PHP 5.1
+
+.. _readability:
+
+Readability
+-----------
+
+A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it.
+
+Readable code may be understood on the spot, while unreadable code hides some important part of the process. 
+
+Readability is a human characteristic of the code : it depends on the level of knowledge of the reader. Good naming is an important part of readability, as intention are conveyed.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // all explicit alphabet
+   $alphabet = array ( 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+   
+   // readable with knowledge of range() function
+   $alphabet = range('a', 'z');
+   
+   // generic name for a partial list of letter : many questions hang
+   $array = range('a', 'l');
+   
+   ?>
+
 
 .. _readonly:
 
@@ -8922,6 +9067,80 @@ sleep() is a PHP function which stops the execution for a given number of second
 
 
 `Documentation <https://www.php.net/manual/en/features.commandline.php>`__
+
+.. _solid:
+
+SOLID
+-----
+
+SOLID is an acronym for a set of OOP design principle. They were coined by Robert C. Martin (also known as Uncle Bob).
+
++ S : Single Responsiblity Principle
++ O : Open Closed Principle
++ L : Liskov Substitution Principle
++ I : Interface Segregation Principle
++ D : Dependency Inversion Principle
+
+Each principle may be used independently. Those principle are not dedicated to PHP, though they may be used in PHP. 
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   ?>
+   
+
+
+`Documentation <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>`__
+
+See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_
+
+Related : :ref:`SRP <SRP>`, :ref:`OCP <OCP>`, :ref:`LSP <LSP>`, :ref:`ISP <ISP>`, :ref:`DIP <DIP>`
+
+.. _sort:
+.. _sorting:
+
+Sort
+----
+
+Sorting is the action to put a list of object into a specific order. In PHP, sorting applies to arrays.
+
+There are several ways to sort arrays in PHP: by value (no prefix), by key (`k` prefix), or by value while keeping the keys (`a` prefix, for associative). 
+
+Then, the sort may be ascending (no prefix), descending (`r`, as in reverse) or custom (`u`, as in user sort). Custom sort is done with a closure or similar.
+
+Based on the prefixes above, the following PHP native functions are available : sort(), rsort(), usort(), ksort(), krsort(), uksort(), asort(), uasort(). There is not ursort(), as the reverse part of the sort may be coded in the custom closure.
+
+In case of ex-aequos while sorting, which are values with the same order, the values are sorted in the same order than the original array. This behavior has changed in PHP 7.0.
+
+It is also possible to sort using a natural sort, which is a way to sort strings like a human would read them : natsort().
+
+The default comparison between elements may be adapted with sort()'s parameter : regular, numeric, string, locale, natural and with or without case.  
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   $fruits = array( "Orange1", "orange2", "Orange3", "orange20" );
+   sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
+   foreach ($fruits as $key => $val) {
+       echo "fruits[" . $key . "] = " . $val . "\n";
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.sort.php>`__
+
+See also `natsort <https://www.php.net/natsort>`_
+
+Related : :ref:`array <array>`, :ref:`closure <closure>`
 
 .. _spaeceship:
 
@@ -10013,7 +10232,9 @@ Unicode is a standard to represent text. It is maintained by the Unicode Consort
 
 Unicode moto : 'Everyone in the world should be able to use their own language on phones and computers.'
 
-PHP supports unicode in its syntax
+PHP supports unicode in its syntax with the declare() `encoding` option. 
+
+PHP may translate from and to Unicode to other character sets with extensions such as iconv, intl, mbstring. 
 
 
 .. code-block:: php
