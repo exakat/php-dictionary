@@ -13,6 +13,7 @@ PHP Dictionary
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree <ast>`
    * :ref:`Accessibility <accessibility>`
+   * :ref:`Active Record <active-record>`
    * :ref:`Addition <addition>`
    * :ref:`Alias <namespace-alias>`
    * :ref:`Alternative Syntax <alternative-syntax>`
@@ -50,6 +51,7 @@ PHP Dictionary
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
    * :ref:`Class Getter Method <getter>`
+   * :ref:`Class Hoisting <class-hoisting>`
    * :ref:`Class Invasion <class-invasion>`
    * :ref:`Class Operator <class-operator>`
    * :ref:`Class Setter Method <setter>`
@@ -121,6 +123,7 @@ PHP Dictionary
    * :ref:`dirname <dirname>`
    * :ref:`disable functions <disable-functions>`
 * E
+   * :ref:`Early Binding <early-binding>`
    * :ref:`Echo Tag <echo-tag>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Empty <empty>`
@@ -199,6 +202,7 @@ PHP Dictionary
    * :ref:`Intersection Type <intersection-type>`
    * :ref:`InvalidArgumentException <invalidargumentexception>`
    * :ref:`Iterable Keyword <iterable>`
+   * :ref:`Iterator <iterator>`
    * :ref:`implements <implements>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
@@ -209,9 +213,11 @@ PHP Dictionary
 * L
    * :ref:`Language construct <language-construct>`
    * :ref:`Late Static Bindings <late-static-binding>`
+   * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Linting <linting>`
    * :ref:`Liskov Substitution Principle <lsp>`
+   * :ref:`Local File Inclusion <lfi>`
    * :ref:`Locale <locale>`
    * :ref:`LogicException <logicexception>`
    * :ref:`Logical operators <logical-operator>`
@@ -367,6 +373,7 @@ PHP Dictionary
    * :ref:`Trailing Comma <trailing-comma>`
    * :ref:`Traits <trait>`
    * :ref:`Traversable <traversable>`
+   * :ref:`Traversal <traversal>`
    * :ref:`Try-catch <try-catch>`
    * :ref:`Type Error <typerror>`
    * :ref:`Type Juggling <type-juggling>`
@@ -423,13 +430,8 @@ PHP Dictionary
    * :ref:`__unserialize <-__unserialize>`
 
 
-The Entries
-
-+++++++++++
 
 
-.
-=
 .. _$_files:
 
 $_FILES
@@ -459,7 +461,7 @@ An associative array of items uploaded to the current script via the HTTP POST m
 
 See also `POST method uploads <https://www.php.net/manual/en/features.file-upload.post-method.php>`_
 
-Related : :ref:`upload <upload>`
+Related : :ref:`File Upload <upload>`
 
 .. _$_get:
 
@@ -491,7 +493,7 @@ $_GET is a superglobal : it is always available, in every scope.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-Related : :ref:`$_post <$_post>`
+Related : :ref:`$_POST <$_post>`
 
 .. _$_post:
 
@@ -524,7 +526,7 @@ $_POST is a superglobal : it is always available, in every scope.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.post.php>`__
 
-Related : :ref:`$_get <$_get>`
+Related : :ref:`$_GET <$_get>`
 
 .. _$_request:
 
@@ -558,7 +560,7 @@ $_REQUEST is a superglobal : it is always available, in every scope.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-Related : :ref:`$_post <$_post>`, :ref:`$_get <$_get>`, :ref:`variable_order <variable_order>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`variable_order <variable_order>`
 
 .. _$http_raw_post_data:
 
@@ -669,7 +671,7 @@ Cloning is similar to creating another object of the same class, without requiri
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`magic-method <magic-method>`, :ref:`deep-clone <deep-clone>`, :ref:`shallow-clone <shallow-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep clone <deep-clone>`, :ref:`Shallow clone <shallow-clone>`
 
 .. _halt-compiler:
 
@@ -734,7 +736,7 @@ The __invoke() magic method is called when a script tries to call an object as a
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.invoke>`__
 
-Related : :ref:`magic-method <magic-method>`
+Related : :ref:`Magic Methods <magic-method>`
 
 .. _-__serialize:
 
@@ -772,7 +774,7 @@ If no array is returned a TypeError will be thrown.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.serialize>`__
 
-Related : :ref:`unserialize <unserialize>`, :ref:`__unserialize <-__unserialize>`
+Related : :ref:`Unsserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`
 
 .. _-__unserialize:
 
@@ -809,7 +811,7 @@ The __unserialize() magic method is called when a script tries to construct an o
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.unserialize>`__
 
-Related : :ref:`unserialize <unserialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`serialize <serialize>`, :ref:`__serialize <-__serialize>`
+Related : :ref:`Unsserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Serialization <serialize>`, :ref:`__serialize <-__serialize>`
 
 .. _abstract:
 
@@ -840,7 +842,7 @@ PHP has abstract classes and methods. Classes defined as abstract cannot be inst
 
 See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_
 
-Related : :ref:`final <final>`
+Related : :ref:`Final Keyword <final>`
 
 .. _ast:
 
@@ -868,7 +870,29 @@ Accessibility is also called `a11y`, aka a, 11 letters and y. This is shorter to
 
 See also `Why we should default to Tabs instead of Spaces for an 'accessible first' environment <https://dev.to/alexandersandberg/why-we-should-default-to-tabs-instead-of-spaces-for-an-accessible-first-environment-101f>`_, `Tabs vs. Spaces: It's an Accessibility Issue <https://adamtuttle.codes/blog/2021/tabs-vs-spaces-its-an-accessibility-issue/>`_
 
-Related : :ref:`intl <intl>`
+Related : :ref:`Internationalization Functions <intl>`
+
+.. _active-record:
+
+Active Record
+-------------
+
+An object that wraps a row in a database table or view, encapsulates the database access, and adds domain logic on that data.
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Active_record_pattern>`__
+
+See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.html>`_
+
+Related : :ref:`Data Mapper <data-mapper>`
 
 .. _addition:
 
@@ -898,7 +922,7 @@ For arrays, this is a special version of array merge : the arrays are merged, an
 
 See also `Array operators <https://www.php.net/manual/en/language.operators.array.php>`_, `Combining arrays using + versus array_merge in PHP <https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php>`_
 
-Related : :ref:`array <array>`, :ref:`integer <integer>`, :ref:`float <float>`
+Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`
 
 .. _namespace-alias:
 
@@ -926,7 +950,7 @@ Alias
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`use-alias <use-alias>`
+Related : :ref:`Use Alias <use-alias>`
 
 Added in PHP 5.3
 
@@ -947,7 +971,7 @@ PHP offers an alternative syntax for some of its control structures; namely, if,
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`control-structure <control-structure>`
+Related : :ref:`Control Structures <control-structure>`
 
 .. _anonymous-class:
 
@@ -975,7 +999,7 @@ Also, arguments may be passed at instantiation time, unlike with named-class def
 
 See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_, `PHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_
 
-Related : :ref:`closure <closure>`
+Related : :ref:`Closure <closure>`
 
 .. _arbitrary-argument:
 
@@ -1013,7 +1037,7 @@ When the arguments are dynamic, aka they are collected at execution time, the op
 
 See also `Variadic functions via ... <https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>`_
 
-Related : :ref:`variadic <variadic>`
+Related : :ref:`Variadic <variadic>`
 
 .. _archive:
 
@@ -1029,7 +1053,7 @@ There are also other archive formats, such as TAR (for files) or JAR (for Java a
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`phar <phar>`
+Related : :ref:`Phar <phar>`
 
 .. _argument:
 
@@ -1052,7 +1076,7 @@ Arguments are values passed to a function or method, at execution time. They may
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`parameter <parameter>`
+Related : :ref:`Parameter <parameter>`
 
 .. _argumentcounterror:
 
@@ -1084,7 +1108,7 @@ No exception is raised for extra parameters, as those may still be processed by 
 
 `Documentation <https://www.php.net/manual/en/class.argumentcounterror.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _arithmeticerror:
 
@@ -1109,7 +1133,7 @@ ArithmeticError Error
 
 `Documentation <https://www.php.net/manual/en/class.arithmeticerror.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _array:
 
@@ -1193,7 +1217,7 @@ Array spread is the ellipsis operator, applied to an array. Then, the array itse
 
 `Documentation <https://www.php.net/manual/en/migration74.new-features.php#migration74.new-features.standard.array-merge-no-args>`__
 
-Related : :ref:`ellipsis <ellipsis>`
+Related : :ref:`Ellipsis <ellipsis>`
 
 .. _array-curly-braces:
 
@@ -1236,7 +1260,7 @@ Arrow functions are a type of closure with a specific syntax. It only accepts on
 
 `Documentation <https://www.php.net/manual/en/functions.arrow.php>`__
 
-Related : :ref:`static <static>`, :ref:`function <function>`, :ref:`closure <closure>`
+Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`
 
 Added in PHP 4.0
 
@@ -1266,7 +1290,7 @@ The As operator has several usage :
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`foreach <foreach>`, :ref:`use-alias <use-alias>`
+Related : :ref:`Foreach <foreach>`, :ref:`Use Alias <use-alias>`
 
 .. _assertion:
 .. _assert:
@@ -1280,7 +1304,9 @@ Assertions are disabled in production, by using the `zend.assertions` directive.
 
 Assertions are a development tool, and should not be used. Be aware that the removal of the assertion may leave the system running with unchecked data. 
 
-There are user-land assertions, such as `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_ and `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_.
+There are user-land assertions, such as webmozart/assert and beberlei/assert.
+
+
 
 
 .. code-block:: php
@@ -1294,6 +1320,8 @@ There are user-land assertions, such as `webmozart/assert <https://packagist.org
 
 
 `Documentation <https://www.php.net/manual/en/function.assert.php>`__
+
+See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertions-usage/>`_, `beberlei/assert <https://github.com/beberlei/assert>`_, `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_
 
 .. _assignation:
 .. _assignement:
@@ -1314,7 +1342,7 @@ The basic assignment operator is `=`. Your first inclination might be to think o
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`short-assignation <short-assignation>`
+Related : :ref:`Short assignations <short-assignation>`
 
 .. _assumption:
 
@@ -1352,7 +1380,7 @@ Assumptions may be upgraded to assertions.
 
 See also `From assumptions to assertions <https://rskuipers.com/entry/from-assumptions-to-assertions>`_
 
-Related : :ref:`assertion <assertion>`
+Related : :ref:`Assertions <assertion>`
 
 .. _attribute:
 
@@ -1402,7 +1430,7 @@ BadFunctioncallException are defined by the SPL extension. It is not natively us
 
 `Documentation <https://www.php.net/manual/en/class.lengthexception.php>`__
 
-Related : :ref:`exception <exception>`
+Related : :ref:`Exception <exception>`
 
 Added in PHP 5.1
 
@@ -1469,7 +1497,7 @@ On the other hand, logical operators convert the whole value to bool before mani
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
-Related : :ref:`logical-operator <logical-operator>`
+Related : :ref:`Logical operators <logical-operator>`
 
 .. _variable-blind:
 .. _blind-variable:
@@ -1548,7 +1576,7 @@ Booleans have a related scalar typehint : ``bool``. There is also a special ``fa
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-Related : :ref:`type-juggling <type-juggling>`
+Related : :ref:`Type Juggling <type-juggling>`
 
 .. _break:
 
@@ -1580,7 +1608,7 @@ break should not be confused with `continue` : continue doesn't work in a switch
 
 `Documentation <https://www.php.net/manual/en/control-structures.break.php>`__
 
-Related : :ref:`continue <continue>`, :ref:`switch <switch>`, :ref:`loop <loop>`
+Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>`
 
 Added in PHP 5.4
 
@@ -1612,7 +1640,7 @@ Classes may also be callable, when they implement the magic method __invoke().
 
 See also `What Is the callable Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-callable-type-in-php>`_
 
-Related : :ref:`callback <callback>`, :ref:`closure <closure>`, :ref:`__invoke <-__invoke>`, :ref:`arrow-function <arrow-function>`
+Related : :ref:`Callback <callback>`, :ref:`Closure <closure>`, :ref:`__invoke <-__invoke>`, :ref:`Arrow Functions <arrow-function>`
 
 .. _callback:
 
@@ -1643,7 +1671,7 @@ Callback may be build with on closures, arrow-functions, native PHP functions, m
 
 See also `The Wonderful World of Callbacks <https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/>`_, `Using callbacks to prevent code duplication <https://doeken.org/tip/using-callbacks-to-prevent-code-duplication>`_
 
-Related : :ref:`callable <callable>`, :ref:`closure <closure>`, :ref:`arrow-function <arrow-function>`
+Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`
 
 .. _case:
 
@@ -1684,7 +1712,7 @@ cases are used in two situations in PHP :
    ?>
 
 
-Related : :ref:`enum <enum>`, :ref:`enum-case <enum-case>`, :ref:`switch <switch>`
+Related : :ref:`Enumeration <enum>`, :ref:`Enumeration's case <enum-case>`, :ref:`Switch <switch>`
 
 Added in PHP 4.0+
 
@@ -1750,7 +1778,7 @@ Multiple catches may be used. They are applied in the order of coding, and the f
 
 See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_
 
-Related : :ref:`try-catch <try-catch>`, :ref:`finally <finally>`
+Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
 
 .. _class-alias:
 
@@ -1782,7 +1810,7 @@ It is possible to make an alias of a class and call it with this new name. It ei
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`use <use>`
+Related : :ref:`Use <use>`
 
 .. _autoload:
 
@@ -1855,7 +1883,7 @@ Using visibility with class constants : private, protected and public.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-constants>`__
 
-Related : :ref:`visibility <visibility>`
+Related : :ref:`Visibility <visibility>`
 
 Added in PHP 7.1
 
@@ -1888,9 +1916,37 @@ Getters are usually created with a setter method.
 
 `Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
 
-Related : :ref:`class <class>`, :ref:`setter <setter>`
+Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`
 
 Added in PHP 5.0+
+
+.. _class-hoisting:
+
+Class Hoisting
+--------------
+
+Class hoisting is a compilation mode where the declaration of functions, classes... are moved before their actual usage.
+
+This allows the usage of functions that are declared later in the code. 
+
+PHP doesn't do class hoisting : it does two passes on the code, and later, triggers the autoload if a class is missing. 
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // displays foo
+   foo();
+   
+   function foo() { echo __FUNCTION__; }
+   
+   ?>
+   
+
+
+See also ` Early binding in PHP <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`_
 
 .. _class-invasion:
 
@@ -1927,7 +1983,7 @@ Objects of the same type will have access to each others private and protected m
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`__
 
-Related : :ref:`class <class>`
+Related : :ref:`Classes <class>`
 
 .. _class-operator:
 
@@ -1960,7 +2016,7 @@ Class operator is the `::class`, added to a class, interface, trait or enumerati
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class>`__
 
-Related : :ref:`use <use>`
+Related : :ref:`Use <use>`
 
 .. _setter:
 
@@ -1989,7 +2045,9 @@ Setters are usually created with a getter method.
 
 `Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
 
-Related : :ref:`class <class>`, :ref:`getter <getter>`
+See also `What are getters and setters methods in PHP? <https://www.tutorialspoint.com/what-are-getters-and-setters-methods-in-php>`_
+
+Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`
 
 Added in PHP 5.0+
 
@@ -2054,7 +2112,7 @@ To perform a deep clone, aka to clone an object and its referenced properties, t
 
 See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_, `PHP Clone All The Things <https://jolicode.com/blog/php-clone-all-the-things>`_
 
-Related : :ref:`shallow-clone <shallow-clone>`, :ref:`deep-clone <deep-clone>`
+Related : :ref:`Shallow clone <shallow-clone>`, :ref:`Deep clone <deep-clone>`
 
 Added in PHP 4.0+
 
@@ -2065,7 +2123,10 @@ Added in PHP 4.0+
 Closure
 -------
 
-Closures are anonymous functions : functions without a name. They are also supported by a class in PHP.
+Closures are anonymous functions : functions without a name. They are also supported by the eponymous `Closure` class in PHP.
+
+They are close to the arrow-functions. 
+
 
 .. code-block:: php
    
@@ -2080,7 +2141,7 @@ Closures are anonymous functions : functions without a name. They are also suppo
 
 `Documentation <https://www.php.net/manual/en/functions.anonymous.php>`__
 
-Related : :ref:`static <static>`, :ref:`arrow-function <arrow-function>`, :ref:`closure <closure>`
+Related : :ref:`static <static>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Closure <closure>`
 
 .. _closure-binding:
 
@@ -2112,7 +2173,7 @@ This is done with the two methods Closure::bind() and Closure::bintTo();
 
 `Documentation <https://www.php.net/manual/en/closure.bind.php>`__
 
-Related : :ref:`closure <closure>`
+Related : :ref:`Closure <closure>`
 
 .. _coalesce:
 
@@ -2156,7 +2217,7 @@ Often, large projects have their own coding convention. When writing for a speci
 
 See also `PSR-12: Extended Style Guide <https://www.php-fig.org/psr/psr-12/>`_, `Wordpress PHP coding standards <https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/>`_, `PHP Coding Guidelines & Best Practices <https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html>`_
 
-Related : :ref:`control-structure <control-structure>`
+Related : :ref:`Control Structures <control-structure>`
 
 .. _comma:
 
@@ -2188,7 +2249,7 @@ They do not have a value by themselves.
    ?>
 
 
-Related : :ref:`parameter <parameter>`, :ref:`argument <argument>`, :ref:`array <array>`, :ref:`list <list>`
+Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`list <list>`
 
 .. _cli:
 
@@ -2261,7 +2322,7 @@ It is the opposite of extract().
 
 `Documentation <https://www.php.net/manual/en/function.compact.php>`__
 
-Related : :ref:`extract <extract>`, :ref:`variable-variable <variable-variable>`
+Related : :ref:`extract() <extract>`, :ref:`Variable Variables <variable-variable>`
 
 .. _comparison-operator:
 
@@ -2282,7 +2343,7 @@ Comparison
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-Related : :ref:`operator <operator>`
+Related : :ref:`Operators <operator>`
 
 .. _composer:
 
@@ -2298,7 +2359,7 @@ Composer is the work of `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Nil
 
 `Documentation <https://getcomposer.org/>`__
 
-Related : :ref:`packagist <packagist>`
+Related : :ref:`Packagist <packagist>`
 
 .. _compression:
 
@@ -2327,7 +2388,7 @@ PHP supports compression via zip, rar, zlib, bzip2.
 
 See also `Zip <https://www.php.net/manual/en/book.zip.php>`_
 
-Related : :ref:`archive <archive>`
+Related : :ref:`Archive <archive>`
 
 .. _concatenation:
 .. _concat:
@@ -2356,7 +2417,7 @@ Concatenation is done with the dot operator.
 
 `Documentation <https://www.php.net/manual/en/language.operators.string.php>`__
 
-Related : :ref:`string <string>`, :ref:`interpolation <interpolation>`, :ref:`heredoc <heredoc>`
+Related : :ref:`String <string>`, :ref:`Interpolation <interpolation>`, :ref:`Heredocs <heredoc>`
 
 .. _conditional-structure:
 
@@ -2382,7 +2443,7 @@ This includes if-elsif-then, switch(), match(), the ternary operators `? ... :` 
    ?>
 
 
-Related : :ref:`switch <switch>`, :ref:`match <match>`, :ref:`if-then <if-then>`, :ref:`coalesce <coalesce>`, :ref:`ternary-operator <ternary-operator>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Coalesce operator <coalesce>`, :ref:`Ternary operator <ternary-operator>`
 
 .. _conditioned:
 
@@ -2416,7 +2477,7 @@ Some structures do not accept condition, such as global constants with `const` k
    ?>
 
 
-Related : :ref:`const <const>`
+Related : :ref:`Const <const>`
 
 .. _configuration:
 
@@ -2455,7 +2516,7 @@ const is only allowed in the body of a trait and a class, and the first level of
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`class <class>`, :ref:`trait <trait>`, :ref:`define <define>`, :ref:`conditioned <conditioned>`
+Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`
 
 .. _constant-scalar-expression:
 
@@ -2476,7 +2537,7 @@ Constant Scalar Expression allows static values (const declarations, property de
 
 `Documentation <https://wiki.php.net/rfc/const_scalar_exprs>`__
 
-Related : :ref:`constant <constant>`, :ref:`parameter <parameter>`
+Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`
 
 Added in PHP 5.6+
 
@@ -2510,7 +2571,7 @@ There are global constants, which are accessible with their name and their names
 
 `Documentation <https://www.php.net/manual/en/language.constants.php>`__
 
-Related : :ref:`class-constant <class-constant>`
+Related : :ref:`Class constant <class-constant>`
 
 .. _constructor:
 
@@ -2542,7 +2603,7 @@ In PHP, parents constructors are not automatically called, when a child class de
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
-Related : :ref:`destructor <destructor>`
+Related : :ref:`Destructor <destructor>`
 
 Added in PHP 4.0
 
@@ -2574,7 +2635,7 @@ continue is not possible inside a switch structure.
 
 `Documentation <https://www.php.net/manual/en/control-structures.continue.php>`__
 
-Related : :ref:`break <break>`
+Related : :ref:`Break <break>`
 
 .. _type-contravariance:
 .. _contravariance:
@@ -2604,7 +2665,7 @@ Contravariance allows a parameter type to be less specific in a child method, th
 
 `Documentation <https://www.php.net/manual/en/language.oop5.variance.php>`__
 
-Related : :ref:`type-covariance <type-covariance>`
+Related : :ref:`Covariance <type-covariance>`
 
 Added in PHP 7.4+
 
@@ -2658,7 +2719,7 @@ control flow structures can't be called dynamically : they have to be hardcoded.
 
 See also `PHP flow control <https://zetcode.com/php/flowcontrol/>`_
 
-Related : :ref:`statement <statement>`, :ref:`loop <loop>`, :ref:`semicolon <semicolon>`, :ref:`if-then <if-then>`, :ref:`while <while>`, :ref:`do-while <do-while>`, :ref:`for <for>`, :ref:`foreach <foreach>`, :ref:`break <break>`, :ref:`continue <continue>`, :ref:`switch <switch>`, :ref:`match <match>`, :ref:`declare <declare>`, :ref:`return <return>`, :ref:`inclusion <inclusion>`, :ref:`goto <goto>`
+Related : , :ref:`Loops <loop>`, , :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`goto Keyword <goto>`
 
 .. _control-structure:
 
@@ -2732,7 +2793,7 @@ Cookies are a mechanism for storing data in the remote browser and thus tracking
 
 `Documentation <https://www.php.net/manual/en/features.cookies.php>`__
 
-Related : :ref:`http <http>`
+Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 
 .. _countable:
 
@@ -2802,7 +2863,9 @@ Covariance allows a child's method to return a more specific type than the retur
 
 `Documentation <https://www.php.net/manual/en/language.oop5.variance.php>`__
 
-Related : :ref:`type-contravariance <type-contravariance>`
+See also `Type variance in PHP <https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html>`_
+
+Related : :ref:`Contravariance <type-contravariance>`
 
 Added in PHP 7.4+
 
@@ -2903,20 +2966,11 @@ The data mapper is responsible for CRUD operations : Create, Read, Update and De
 
 
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 `Documentation <https://en.wikipedia.org/wiki/Data_mapper_pattern>`__
 
 See also `Data Mapper <https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html>`_, `Doctrine <https://www.doctrine-project.org/>`_, `Cycle ORM <https://github.com/cycle/orm>`_, `How to write a Data Mapper with PHP <https://emre.xyz/how-to-write-a-data-mapper-with-php>`_
 
-Related : :ref:`active-record <active-record>`, :ref:`orm <orm>`
+Related : :ref:`Active Record <active-record>`, :ref:`Object Relationanl Mapping (ORM) <orm>`
 
 .. _dsn:
 
@@ -2987,7 +3041,7 @@ Debugging include executing the code step by step, displaying and modifying the 
    
 
 
-See also `xdebug <https://xdebug.org/>`_, `Interactive PHP Debugger <https://www.php.net/manual/en/book.phpdbg.php>`_, `Kint <https://github.com/kint-php/kint>`_, `Whoops <https://github.com/filp/whoops>`_, `Krumo <http://krumo.kaloyan.info/>`_
+See also `Xdebug <https://www.xdebug.org/>`_, `Interactive PHP Debugger <https://www.php.net/manual/en/book.phpdbg.php>`_, `Kint <https://github.com/kint-php/kint>`_, `Whoops <https://github.com/filp/whoops>`_, `Krumo <http://krumo.kaloyan.info/>`_
 
 .. _declare-encoding:
 
@@ -3007,7 +3061,7 @@ declare() with encoding specifies the encoding of the file that holds PHP script
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
-Related : :ref:`declare <declare>`
+Related : :ref:`declare() <declare>`
 
 .. _declare:
 
@@ -3033,7 +3087,7 @@ declare() may set the following values :
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
-Related : :ref:`strict_types <strict_types>`, :ref:`tick <tick>`, :ref:`declare-encoding <declare-encoding>`
+Related : :ref:`strict_types <strict_types>`, :ref:`Tick <tick>`, :ref:`declare encoding <declare-encoding>`
 
 .. _deep-clone:
 
@@ -3079,7 +3133,7 @@ Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP 
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`magic-method <magic-method>`, :ref:`__clone <-__clone>`, :ref:`shallow-clone <shallow-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Shallow clone <shallow-clone>`
 
 .. _default:
 
@@ -3109,7 +3163,7 @@ default is a PHP keyword, used with switch() and match() structures. It represen
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
-Related : :ref:`switch <switch>`, :ref:`match <match>`, :ref:`case <case>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`case <case>`
 
 .. _default-parameter:
 
@@ -3136,7 +3190,11 @@ The default parameter must be the last of the parameters : adding a parameter wi
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default>`__
 
-Related : :ref:`function <function>`, :ref:`method <method>`
+Related : :ref:`Functions <function>`, :ref:`Method <method>`
+
+Added in PHP 7.1
+
+Removed in PHP 7.1
 
 .. _default-value:
 
@@ -3166,7 +3224,7 @@ Arguments and properties may have a default value. That way, arguments may be sk
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`parameter <parameter>`, :ref:`property <property>`
+Related : :ref:`Parameter <parameter>`, :ref:`Properties <property>`
 
 .. _define:
 
@@ -3194,7 +3252,7 @@ define() used to create case-insensitive constant, but this was abandoned in PHP
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`class <class>`, :ref:`trait <trait>`, :ref:`conditioned <conditioned>`
+Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`Conditioned Structures <conditioned>`
 
 .. _dependency-injection:
 
@@ -3258,7 +3316,7 @@ Dereferencing is also possible to function and methods calls : when a function r
 
 See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functionarraydereferencing>`_, `Array Dereferencing in PHP <https://xpertdeveloper.com/php-array-dereferencing/>`_
 
-Related : :ref:`function <function>`, :ref:`array <array>`
+Related : :ref:`Functions <function>`, :ref:`Array <array>`
 
 .. _destructor:
 
@@ -3331,7 +3389,7 @@ Directives are also set by PHP extension.
 
 `Documentation <https://www.php.net/manual/en/ini.list.php>`__
 
-Related : :ref:`extension <extension>`
+Related : :ref:`Extensions <extension>`
 
 .. _directoryiterator:
 
@@ -3354,7 +3412,7 @@ DirectoryIterator
 
 `Documentation <https://www.php.net/manual/en/class.directoryiterator.php>`__
 
-Related : :ref:`spl <spl>`
+Related : :ref:`Iterator <iterator>`, :ref:`Standard PHP Library (SPL) <spl>`
 
 .. _dirname:
 
@@ -3390,7 +3448,7 @@ This directive allows you to disable certain classes in the php.ini.
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-classes>`__
 
-Related : :ref:`disable-functions <disable-functions>`
+Related : :ref:`disable functions <disable-functions>`
 
 .. _disable-functions:
 
@@ -3431,7 +3489,7 @@ DivisionByZeroError is thrown when an attempt is made to divide a number by zero
 
 `Documentation <https://www.php.net/manual/en/class.divisionbyzeroerror.php>`__
 
-Related : :ref:`error <error>`
+Related : :ref:`Error <error>`
 
 .. _do-while:
 
@@ -3464,7 +3522,7 @@ Part of the block execution may be skipped by using the `continue` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.do.while.php>`__
 
-Related : :ref:`continue <continue>`, :ref:`foreach <foreach>`, :ref:`loop <loop>`, :ref:`for <for>`, :ref:`while <while>`
+Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`, :ref:`While <while>`
 
 .. _domainexception:
 
@@ -3535,7 +3593,7 @@ The DOM extension process XML documents with the DOM API.
 
 `Documentation <https://www.php.net/manual/en/book.dom.php>`__
 
-Related : :ref:`XML <XML>`
+Related : :ref:`XML <xml>`
 
 .. _double-quote:
 
@@ -3559,7 +3617,7 @@ This is an extended version of the single-quoted strings.
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`__
 
-Related : :ref:`single-quote <single-quote>`, :ref:`interpolation <interpolation>`, :ref:`string <string>`
+Related : :ref:`Single Quotes Strings <single-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`
 
 .. _dry:
 
@@ -3653,7 +3711,7 @@ A constant is dynamic when its name is a piece of data, and is only access at ex
 
 Calling a constant is done by using the constant() function. 
 
-
+Sometimes, dynamic constants are also called variable constants. 
 
 .. code-block:: php
    
@@ -3670,7 +3728,7 @@ Calling a constant is done by using the constant() function.
 
 `Documentation <https://www.php.net/manual/en/function.constant.php>`__
 
-Related : :ref:`constant <constant>`
+Related : :ref:`Constants <constant>`
 
 .. _dynamic-loading:
 
@@ -3732,7 +3790,7 @@ When the class implements the magic methods __get() and __set(), of if the class
 
 See also `PHP, what are dynamic properties? <https://medium.com/geekculture/php-what-are-dynamic-properties-2509c6fbccf8>`_
 
-Related : :ref:`property <property>`, :ref:`magic-method <magic-method>`, :ref:`stdclass <stdclass>`
+Related : :ref:`Properties <property>`, :ref:`Magic Methods <magic-method>`, :ref:`stdclass <stdclass>`
 
 .. _dynamic-variable:
 
@@ -3764,7 +3822,27 @@ They are also called variable variable.
 
 `Documentation <https://www.php.net/manual/en/language.variables.variable.php>`__
 
-Related : :ref:`variable <variable>`
+Related : :ref:`Variables <variable>`
+
+.. _early-binding:
+
+Early Binding
+-------------
+
+Early binding is the fact that PHP allows using a class before its declaration in the same file. This is not always true, thought.
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   ?>
+   
+
+
+`Documentation <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`__
+
+Related : :ref:`Late Static Bindings <late-binding>`
 
 .. _echo:
 
@@ -3786,7 +3864,7 @@ echo is a language construct of PHP.
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-Related : :ref:`print <print>`, :ref:`language-construct <language-construct>`
+Related : :ref:`Print <print>`, :ref:`Language construct <language-construct>`
 
 .. _echo-tag:
 
@@ -3805,7 +3883,7 @@ The echo tag should not be confused with PHP short tags ``<?``.
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-Related : :ref:`php-tag <php-tag>`, :ref:`short-tag <short-tag>`
+Related : :ref:`PHP tags <php-tag>`, :ref:`Short Tags <short-tag>`
 
 .. _ellipsis:
 
@@ -3831,7 +3909,7 @@ Ellipsis is the classic punctuation description of the operator, and will apply 
 
 `Documentation <https://en.wikipedia.org/wiki/Ellipsis>`__
 
-Related : :ref:`array-spread <array-spread>`, :ref:`variadic <variadic>`
+Related : :ref:`Array spread <array-spread>`, :ref:`Variadic <variadic>`
 
 Added in PHP 5.6
 
@@ -3861,7 +3939,7 @@ A variable is considered empty if it does not exist or if its value equals false
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`__
 
-Related : :ref:`language-construct <language-construct>`, :ref:`isset <isset>`
+Related : :ref:`Language construct <language-construct>`, :ref:`isset <isset>`
 
 .. _encoding:
 
@@ -3919,7 +3997,7 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_
 
-Related : :ref:`enum-case <enum-case>`
+Related : :ref:`Enumeration's case <enum-case>`
 
 Added in PHP 8.1+
 
@@ -3947,7 +4025,7 @@ An Enumeration may have zero or more case definitions, with no maximum. A zero-c
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.basics.php>`__
 
-Related : :ref:`enum <enum>`
+Related : :ref:`Enumeration <enum>`
 
 Added in PHP 8.1+
 
@@ -3973,7 +4051,7 @@ Error
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _error-handler:
 
@@ -4011,7 +4089,7 @@ There is a separate exception handler.
 
 See also `Convert Errors to Exceptions in PHP <https://joshtronic.com/2013/07/15/convert-errors-to-exceptions/>`_, `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_
 
-Related : :ref:`handler <handler>`, :ref:`exception-handler <exception-handler>`, :ref:`shutdown-handler <shutdown-handler>`
+Related : :ref:`PHP Handlers <handler>`, :ref:`Exception Handler <exception-handler>`, :ref:`Shutdown Function <shutdown-handler>`
 
 .. _escape-character:
 
@@ -4141,7 +4219,7 @@ The final keyword prevents child classes from overriding a method or a constant 
 
 See also exception-chain
 
-Related : :ref:`throw <throw>`, :ref:`try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _exception-handler:
 
@@ -4174,7 +4252,7 @@ The exception handler is different from the try/catch block : the latter allows 
 
 `Documentation <https://www.php.net/manual/en/function.set-exception-handler.php>`__
 
-Related : :ref:`try-catch <try-catch>`
+Related : :ref:`Try-catch <try-catch>`
 
 .. _exit:
 .. _die:
@@ -4202,7 +4280,7 @@ shutdown functions and constructor are still executed after a call to exit.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-Related : :ref:`language-construct <language-construct>`, :ref:`shutdown-function <shutdown-function>`, :ref:`destructor <destructor>`
+Related : :ref:`Language construct <language-construct>`, :ref:`Shutdown Function <shutdown-function>`, :ref:`Destructor <destructor>`
 
 Added in PHP 8.1
 
@@ -4212,7 +4290,9 @@ Added in PHP 8.1
 Exponent
 --------
 
-Exponent is the mathematical operation to raise to the power of. There are two possibilities to use this operator : the `**` operator, and the pow() function.  
+Exponent is the mathematical operation to raise a number to the power of another number. 
+
+There are two possibilities to use this operation : the `**` operator, and the pow() function.  
 
 
 
@@ -4227,10 +4307,6 @@ Exponent is the mathematical operation to raise to the power of. There are two p
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _exponential:
 .. _exp:
@@ -4349,7 +4425,7 @@ It is the opposite of compact().
 
 `Documentation <https://www.php.net/manual/en/function.extract.php>`__
 
-Related : :ref:`compact <compact>`, :ref:`variable-variable <variable-variable>`
+Related : :ref:`compact() <compact>`, :ref:`Variable Variables <variable-variable>`
 
 .. _facade:
 
@@ -4381,7 +4457,7 @@ See also `Facades @ Laravel <https://laravel.com/docs/9.x/facades>`_, `Facade @ 
 False
 -----
 
-false has two usage, as PHP keyword : the opposite of true, as a boolean value and a special typehint for functions that may return false, but not true. 
+false has two usages, as PHP keyword : the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true. 
 
 .. code-block:: php
    
@@ -4400,7 +4476,7 @@ false has two usage, as PHP keyword : the opposite of true, as a boolean value a
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-Related : :ref:`boolean <boolean>`, :ref:`typehint <typehint>`
+Related : :ref:`Boolean <boolean>`, :ref:`Type system <type>`
 
 .. _php-fig:
 
@@ -4415,7 +4491,7 @@ Famous PSR include : 12 (Extended Coding Style Guide), 16 (Simple Cache), 18 (HT
 
 `Documentation <https://www.php-fig.org/>`__
 
-Related : :ref:`psr <psr>`
+Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 
 .. _upload:
 .. _file-upload:
@@ -4450,7 +4526,7 @@ File upload code is based on the $_FILES superglobale, and move_uploaded_file() 
 
 See also `Learn Everything About File Upload in PHP With Examples <https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php>`_
 
-Related : :ref:`$_FILES <$_FILES>`
+Related : :ref:`$_FILES <$_files>`
 
 .. _final-class-constant:
 
@@ -4472,7 +4548,7 @@ Using final with class constants
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-Related : :ref:`visibility <visibility>`
+Related : :ref:`Visibility <visibility>`
 
 Added in PHP 8.1
 
@@ -4504,7 +4580,7 @@ The final keyword cannot be used with the private keyword : a private method is 
 
 See also `Final Classes: Open for Extension, Closed for Inheritance <https://verraes.net/2014/05/final-classes-in-php/>`_
 
-Related : :ref:`private <private>`
+Related : :ref:`private Keyword <private>`
 
 Added in PHP 7.0
 
@@ -4538,7 +4614,7 @@ Finally is run every time after a try, with or without any catch clause. It is a
 
 See also `How to use Try - Catch - Finally in PHP  <https://thecodeprogram.com/how-to-use-try---catch---finally-in-php>`_
 
-Related : :ref:`try-catch <try-catch>`, :ref:`catch <catch>`
+Related : :ref:`Try-catch <try-catch>`, :ref:`Catch <catch>`
 
 Added in PHP 7.0
 
@@ -4590,7 +4666,7 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 `Documentation <https://www.php.net/manual/en/language.types.float.php>`__
 
-Related : :ref:`real <real>`
+Related : :ref:`Real Numbers <real>`
 
 .. _fluent-interface:
 .. _fluent:
@@ -4631,7 +4707,7 @@ A fluent interface is not related to an interface : it may be implemented withou
 
 See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_
 
-Related : :ref:`final <final>`, :ref:`interface <interface>`
+Related : :ref:`Final Keyword <final>`, :ref:`Interfaces <interface>`
 
 .. _for:
 
@@ -4671,7 +4747,7 @@ Part of the block execution may be skipped by using the `continue` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.for.php>`__
 
-Related : :ref:`continue <continue>`, :ref:`foreach <foreach>`, :ref:`loop <loop>`, :ref:`while <while>`, :ref:`do-while <do-while>`
+Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`
 
 .. _foreach:
 
@@ -4718,7 +4794,7 @@ The value may be an array, collecting several values at the same time.
 
 `Documentation <https://www.php.net/manual/en/control-structures.foreach.php>`__
 
-Related : :ref:`continue <continue>`, :ref:`for <for>`, :ref:`loop <loop>`, :ref:`while <while>`, :ref:`do-while <do-while>`
+Related : :ref:`Continue <continue>`, :ref:`For <for>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`
 
 .. _fossilized-method:
 
@@ -4754,7 +4830,7 @@ A method become fossilized when it is overwritten many times, leading to the dif
 
 See also `Method fossilisation <https://www.exakat.io/en/method-fossilisation/>`_
 
-Related : :ref:`method <method>`
+Related : :ref:`Method <method>`
 
 .. _framework:
 
@@ -4819,6 +4895,8 @@ There are lots of frameworks in PHP. In alphabetical order, here are some :
    ?>
 
 
+See also `PHP framework list <https://www.exakat.io/en/php-framework-list/>`_
+
 .. _fully-qualified-name:
 .. _fqn:
 
@@ -4851,7 +4929,7 @@ PHP names may be fully qualified, relative, qualified or relative.
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.rules.php>`__
 
-Related : :ref:`use <use>`, :ref:`namespace <namespace>`
+Related : :ref:`Use <use>`, :ref:`Namespaces <namespace>`
 
 Added in PHP 5.3
 
@@ -4929,7 +5007,7 @@ Since garbage collection requires pausing the execution, PHP only runs it on-dem
 
 See also `Easy to understand PHP garbage collection mechanism <https://medium.com/geekculture/easy-to-understand-php-garbage-collection-mechanism-ee5c5bde5a5d>`_
 
-Related : :ref:`zval <zval>`, :ref:`reference <reference>`, :ref:`reference-count <reference-count>`
+Related : :ref:`Zval <zval>`, :ref:`References <reference>`, 
 
 .. _generator:
 
@@ -4962,7 +5040,7 @@ Generator must have no return typehint, or use the \Generator typehint.
 
 See also `Do generators really reduce the memory usage? <https://phpdelusions.net/articles/generators>`_, `PHP Generators From Scratch <https://alanstorm.com/php-generators-from-scratch/>`_
 
-Related : :ref:`yield <yield>`, :ref:`yield-from <yield-from>`, :ref:`return-typehint <return-typehint>`
+Related : :ref:`Yield <yield>`, :ref:`yield from Keyword <yield-from>`, :ref:`Return Typehint <return-typehint>`
 
 .. _glob:
 
@@ -5029,7 +5107,7 @@ To become a global variable, a variable may use one of the following ways :
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`variable <variable>`, :ref:`static-variable <static-variable>`, :ref:`variable-variable <variable-variable>`, :ref:`globals <globals>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`
 
 Added in PHP 4.0
 
@@ -5060,7 +5138,7 @@ $GLOBALS is a global variable, that host all other global variables, during a PH
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.globals.php>`__
 
-Related : :ref:`variable <variable>`, :ref:`static-variable <static-variable>`, :ref:`variable-variable <variable-variable>`, :ref:`global-variable <global-variable>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
 
 Added in PHP 4.0
 
@@ -5088,7 +5166,7 @@ The goto operator can be used to jump to another section in the program.
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-Related : :ref:`label <label>`
+Related : :ref:`goto Labels <label>`
 
 .. _label:
 
@@ -5112,7 +5190,7 @@ Labels are the receiving end of a goto call.
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-Related : :ref:`goto <goto>`
+Related : :ref:`goto Keyword <goto>`
 
 .. _hard-coded:
 
@@ -5203,7 +5281,7 @@ It is possible to indent the text in a nowdocs string: to avoid this indentation
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc>`__
 
-Related : :ref:`nowdoc <nowdoc>`, :ref:`string <string>`
+Related : :ref:`Nowdocs <nowdoc>`, :ref:`String <string>`
 
 Added in PHP 5.5
 
@@ -5238,7 +5316,7 @@ PHP also has special syntax for binary and octal numbers.
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-Related : :ref:`binary-integer <binary-integer>`, :ref:`octal-integer <octal-integer>`
+Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-integer>`
 
 .. _http-header:
 
@@ -5271,7 +5349,7 @@ In PHP, they are handled by the functions prefixed by `header_` : headers_sent()
 
 See also `RFC 4229 : HTTP Header Field Registrations <https://datatracker.ietf.org/doc/html/rfc4229>`_, `HTTP headers list <https://en.wikipedia.org/wiki/List_of_HTTP_header_fields>`_
 
-Related : :ref:`http <http>`, :ref:`https <https>`
+Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTPS <https>`
 
 .. _https:
 
@@ -5292,7 +5370,7 @@ Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Tran
 
 `Documentation <https://en.wikipedia.org/wiki/HTTPS>`__
 
-Related : :ref:`http <http>`, :ref:`wrapper <wrapper>`, :ref:`protocol <protocol>`
+Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`
 
 Removed in PHP 
 
@@ -5310,7 +5388,7 @@ HTTP is related to HTTPS, the secure version of HTTP.
 
 `Documentation <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>`__
 
-Related : :ref:`https <https>`, :ref:`wrapper <wrapper>`, :ref:`protocol <protocol>`
+Related : :ref:`HTTPS <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`
 
 .. _iconv:
 
@@ -5358,7 +5436,7 @@ If-then structures may be chained with the `elseif` keyword. The else branch is 
 
 `Documentation <https://www.php.net/manual/en/control-structures.if.php>`__
 
-Related : :ref:`switch <switch>`, :ref:`match <match>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`
 
 .. _iffectation:
 
@@ -5411,7 +5489,7 @@ The ImagickException exception is thrown when an error happens while processing 
 
 See also `How to Fix 'ImagickException: not authorized' <https://andy-carter.com/blog/how-to-fix-imagickexception-not-authorized>`_
 
-Related : :ref:`exception <exception>`
+Related : :ref:`Exception <exception>`
 
 .. _imagickpixelexception:
 
@@ -5507,7 +5585,7 @@ Implements is a keyword, dedicated to classes. It specify which interfaces a cla
 
 `Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
 
-Related : :ref:`class <class>`, :ref:`getter <getter>`, :ref:`extends <extends>`
+Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`, :ref:`extends <extends>`
 
 Added in PHP 5.0+
 
@@ -5605,7 +5683,7 @@ By extension, incoming data may be used to every source of data that is not PHP 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
 
-Related : :ref:`$_REQUEST <$_REQUEST>`, :ref:`$_POST <$_POST>`, :ref:`$_FILES <$_FILES>`, :ref:`$_GET <$_GET>`, :ref:`outgoing-data <outgoing-data>`
+Related : :ref:`$_REQUEST <$_request>`, :ref:`$_POST <$_post>`, :ref:`$_FILES <$_files>`, :ref:`$_GET <$_get>`, :ref:`Outgoing Data <outgoing-data>`
 
 .. _indentation:
 .. _indenting:
@@ -5659,7 +5737,7 @@ PHP index start at 0. They may be automatically assigned by appending a new valu
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`array <array>`
+Related : :ref:`Array <array>`
 
 .. _inequality:
 
@@ -5724,7 +5802,7 @@ Inheritance is a mechanism where you can to derive a class from another class fo
 
 See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_
 
-Related : :ref:`class <class>`
+Related : :ref:`Classes <class>`
 
 .. _injection:
 
@@ -5749,7 +5827,7 @@ There are bad injections : all the security ones. SQL injection, PHP code inject
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`__
 
-Related : :ref:`dependency-injection <dependency-injection>`, :ref:`sql-injection <sql-injection>`, :ref:`code-injection <code-injection>`, :ref:`csv-injection <csv-injection>`
+Related : :ref:`Dependency Injection <dependency-injection>`, , , 
 
 .. _instanceof:
 
@@ -5824,7 +5902,7 @@ The insteadof operator needs to be used to resolve naming conflicts between mult
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict>`__
 
-Related : :ref:`use <use>`
+Related : :ref:`Use <use>`
 
 Added in PHP 5.4+
 
@@ -5904,7 +5982,7 @@ Interfaces may have methods signatures, without a body, and constants.
 
 See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_
 
-Related : :ref:`fluent-interface <fluent-interface>`
+Related : :ref:`Fluent Interface <fluent-interface>`
 
 .. _internationalization:
 .. _i18n:
@@ -5938,7 +6016,7 @@ Internationalization is also called `i18n`, aka i, 18 letters and n. This is sho
 
 See also `PHP internationalization - i18n mechanisms tutorial <https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial>`_, `Implementing PHP localization: A complete guide <https://lokalise.com/blog/implementing-php-localization-complete-guide/>`_
 
-Related : :ref:`locale <locale>`, :ref:`intl <intl>`
+Related : :ref:`Locale <locale>`, :ref:`Internationalization Functions <intl>`
 
 .. _intl:
 
@@ -5972,7 +6050,7 @@ This extension is closely linked to the ICU library.
 
 See also `ICU lib <https://icu.unicode.org/docs/>`_
 
-Related : :ref:`locale <locale>`
+Related : :ref:`Locale <locale>`
 
 .. _interpolation:
 
@@ -5993,7 +6071,7 @@ Interpolation is the PHP feature that automatically replaces variables by their 
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`__
 
-Related : :ref:`string <string>`, :ref:`concatenation <concatenation>`, :ref:`heredoc <heredoc>`
+Related : :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Heredocs <heredoc>`
 
 .. _intersection-type:
 
@@ -6015,7 +6093,7 @@ Specifying several types together as a single typehint, separated with the & ope
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.union>`__
 
-Related : :ref:`typehint <typehint>`
+Related : :ref:`Type system <typehint>`
 
 Added in PHP 8.1
 
@@ -6043,7 +6121,7 @@ Exception thrown if an argument is not of the expected type. It is a LogicExcept
 
 `Documentation <https://www.php.net/manual/en/class.invalidargumentexception.php>`__
 
-Related : :ref:`logicexception <logicexception>`
+Related : :ref:`LogicException <logicexception>`
 
 .. _isset:
 
@@ -6071,7 +6149,7 @@ Isset() is also related to the magic method __isset(), which is used to determin
 
 `Documentation <https://www.php.net/manual/en/function.isset.php>`__
 
-Related : :ref:`magic-method <magic-method>`
+Related : :ref:`Magic Methods <magic-method>`
 
 .. _iterable:
 
@@ -6095,9 +6173,34 @@ Iterable is a pseudo-type, which accepts any array or object implementing the Tr
 
 `Documentation <https://www.php.net/manual/en/language.types.iterable.php>`__
 
-Related : :ref:`traversable <traversable>`, :ref:`array <array>`
+Related : :ref:`Traversable <traversable>`, :ref:`Array <array>`
 
 Added in PHP 7.1
+
+.. _iterator:
+
+Iterator
+--------
+
+An iterator is an object which can be traversed with a foreach() loop. 
+
+`Iterator` is an interface, which shall be implemented by objects. Ther are also a list of default iterators in the SPL extension.
+
+An iterator may be turned into an array, with the iterator_to_array() function.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/class.iterator.php>`__
+
+Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Traversal <traversal>`, :ref:`Foreach <foreach>`
 
 .. _json:
 
@@ -6184,9 +6287,10 @@ There have some special behavior : echo accepts an arbitrary number of argument,
 
 See also `PHP Language Constructs vs Built-in Functions <http://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions/>`_
 
-Related : :ref:`self <self>`, :ref:`static <static>`, :ref:`parent <parent>`
+Related : :ref:`Self <self>`, :ref:`static <static>`, :ref:`parent <parent>`
 
 .. _late-static-binding:
+.. _late-binding:
 
 Late Static Bindings
 --------------------
@@ -6217,7 +6321,52 @@ PHP implements a feature called late static bindings which can be used to refere
 
 `Documentation <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`__
 
-Related : :ref:`self <self>`, :ref:`static <static>`, :ref:`parent <parent>`
+See also `Late static binding in PHP - What, How & When <https://www.amitmerchant.com/late-static-binding-php-what-how-when/>`_
+
+Related : :ref:`Self <self>`, :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Early Binding <early-binding>`
+
+.. _lazy-loading:
+
+Lazy Loading
+------------
+
+Lazy loading is a programming technic that postpone the actual loading of a resource to the moment it is actually used. 
+
+This prevents the application from loading resources that may not be used later : it improves efficiency. 
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   class File {
+   	private $path;
+   	private $content = null;
+   
+   	function __constructor($path) {
+   		$this->path = $path;
+   	}
+   
+   	function get() {
+   		if ($this->content === null) {
+   			$this->content = file_get_contents($path);
+   		}
+   		
+   		return $this->content;
+   	}
+   }
+   
+   $file = new File($path);
+   // some more code
+   echo $file->getContent();
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Lazy_loading>`__
+
+See also `Revisiting Lazy-Loading Proxies in PHP <https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67>`_, `Lazy loading design pattern in PHP <https://docs.php.earth/php/ref/oop/design-patterns/lazy-loading/>`_
 
 .. _lengthexception:
 
@@ -6242,7 +6391,7 @@ LengthException are defined by the SPL extension. It is not natively used.
 
 `Documentation <https://www.php.net/manual/en/class.lengthexception.php>`__
 
-Related : :ref:`exception <exception>`
+Related : :ref:`Exception <exception>`
 
 Added in PHP 5.1
 
@@ -6268,7 +6417,9 @@ The library is integrated into PHP as an extension. It provides a lot of functio
 
 `Documentation <https://libsodium.gitbook.io/doc/>`__
 
-Related : :ref:`cryptography <cryptography>`, :ref:`openssl <openssl>`
+See also `libsodium on github <https://github.com/jedisct1/libsodium.git>`_
+
+Related : :ref:`Cryptography <cryptography>`, :ref:`OpenSSL <openssl>`
 
 .. _linting:
 .. _lint:
@@ -6307,7 +6458,7 @@ The Liskov Substitution Principle states that an object from a class and a sub-o
 
 See also `Liskov Substitution Principle in PHP <https://php.watch/articles/php-lsp>`_
 
-Related : :ref:`contravariance <contravariance>`, :ref:`covariance <covariance>`
+Related : :ref:`Contravariance <contravariance>`, :ref:`Covariance <covariance>`
 
 .. _list:
 
@@ -6348,7 +6499,7 @@ list() looks like a function, though it only appears on the left part of an assi
 
 See also `List-o-mania <https://markbakeruk.net/2022/06/06/list-o-mania/>`_
 
-Related : :ref:`array <array>`
+Related : :ref:`Array <array>`
 
 .. _literal:
 
@@ -6378,11 +6529,38 @@ A literal is a hard coded value in the source.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
-Related : :ref:`destructor <destructor>`
+Related : :ref:`Destructor <destructor>`
 
 Added in PHP 4.0
 
 Removed in PHP 4.0
+
+.. _lfi:
+
+Local File Inclusion
+--------------------
+
+A local file inclusion is a security vulnerability, where an external attacker can choose which file from the local system is processed by the called script. 
+
+This vulnerability is often used to access password files, such as `/etc/passwd`, or other hidden files. They might be read and display, or furthermore processed and alterated.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // Input URL : http://vulnerable_host/preview.php?file=../../../../etc/passwd
+   
+   file_get_contents($_GET['file']); 
+   
+   ?>
+   
+
+
+`Documentation <https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion>`__
+
+See also `Exploiting Local File Inclusion (LFI) Using PHP Wrapper <https://gupta-bless.medium.com/exploiting-local-file-inclusion-lfi-using-php-wrapper-89904478b225>`_, `Local File Inclusion (LFI): Understanding and Preventing LFI Attacks <https://brightsec.com/blog/local-file-inclusion-lfi/>`_
 
 .. _locale:
 
@@ -6449,7 +6627,7 @@ The logical operators work on various types, and output booleans. They are diffe
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 
-Related : :ref:`bitwise-operator <bitwise-operator>`
+Related : :ref:`Bitwise operators <bitwise-operator>`
 
 .. _logicexception:
 
@@ -6469,7 +6647,7 @@ Exception that represents error in the program logic. This kind of exception sho
 
 `Documentation <https://www.php.net/manual/en/class.logicexception.php>`__
 
-Related : :ref:`badfunctioncallexception <badfunctioncallexception>`, :ref:`domainexception <domainexception>`, :ref:`lengthexception <lengthexception>`, :ref:`outofrangeexception <outofrangeexception>`, :ref:`invalidargumentexception <invalidargumentexception>`
+Related : :ref:`BadFunctioncallException <badfunctioncallexception>`, :ref:`DomainException <domainexception>`, :ref:`LengthException <lengthexception>`, :ref:`OutOfRangeException <outofrangeexception>`, :ref:`InvalidArgumentException <invalidargumentexception>`
 
 .. _loop:
 
@@ -6525,7 +6703,7 @@ Magic has only a remote relationship to PHP's magic constant and magic methods.
 
 See also `Too much magic? <https://matthiasnoback.nl/2022/03/too-much-magic/>`_
 
-Related : :ref:`magic-constant <magic-constant>`, :ref:`magic-method <magic-method>`, :ref:`convention <convention>`, :ref:`configuration <configuration>`
+Related : :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`
 
 .. _magic-constant:
 
@@ -6568,7 +6746,7 @@ Those constants are case insensitive. All those syntax will work : `__METHOD__`,
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
-Related : :ref:`magic <magic>`, :ref:`magic-property <magic-property>`, :ref:`magic-method <magic-method>`
+Related : :ref:`Magic <magic>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Methods <magic-method>`
 
 .. _magic-method:
 
@@ -6655,7 +6833,7 @@ The match expression branches evaluation based on an identity check of a value.
 
 See also `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
 
-Related : :ref:`switch <switch>`, :ref:`if-then <if-then>`
+Related : :ref:`Switch <switch>`, :ref:`If Then Else <if-then>`
 
 Added in PHP 8.0
 
@@ -6719,7 +6897,7 @@ Methods are function dedicated to a class. They are defined inside the body of a
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
-Related : :ref:`class <class>`
+Related : :ref:`Classes <class>`
 
 .. _mixed:
 
@@ -6767,7 +6945,7 @@ Multibyte String
 
 `Documentation <https://www.php.net/manual/en/book.mbstring.php>`__
 
-Related : :ref:`iconv <iconv>`, :ref:`encoding <encoding>`
+Related : :ref:`Iconv <iconv>`, :ref:`Encoding <encoding>`
 
 .. _multidimensional-array:
 
@@ -6834,7 +7012,7 @@ mysqli_sql_exception is thrown when a mysqli related error is found.
 
 `Documentation <https://www.php.net/manual/en/class.argumentcounterror.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _named-constructor:
 
@@ -6876,7 +7054,7 @@ As Matthias Verraes puts it : 'Don't limit yourself by PHP's single constructor.
 
 `Documentation <https://verraes.net/2014/06/named-constructors-in-php/>`__
 
-Related : :ref:`static-method <static-method>`
+Related : :ref:`Static Method <static-method>`
 
 .. _named-parameter:
 
@@ -6904,7 +7082,7 @@ Argument names may be used when calling a method.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`positional-parameter <positional-parameter>`
+Related : :ref:`Positional Parameters <positional-parameter>`
 
 .. _namespace:
 
@@ -6934,7 +7112,7 @@ Namespaces are a way of encapsulating classes, interfaces, traits, functions and
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.rationale.php>`__
 
-Related : :ref:`use-alias <use-alias>`
+Related : :ref:`Use Alias <use-alias>`
 
 Added in PHP 5.3
 
@@ -7013,7 +7191,7 @@ A special return type that signals a method that never returns : only dies or th
 
 `Documentation <https://wiki.php.net/rfc/noreturn_type>`__
 
-Related : :ref:`type <type>`
+Related : :ref:`Type system <type>`
 
 Added in PHP 8.1+
 
@@ -7038,7 +7216,7 @@ Never is a typehint that explicitly set that a method will never return. It will
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`typehint <typehint>`
+Related : :ref:`Type system <typehint>`
 
 Added in PHP 8.1
 
@@ -7161,7 +7339,7 @@ It is possible to indent the text in a nowdocs string: to avoid this indentation
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.nowdoc>`__
 
-Related : :ref:`heredoc <heredoc>`, :ref:`string <string>`
+Related : :ref:`Heredocs <heredoc>`, :ref:`String <string>`
 
 Added in PHP 5.5
 
@@ -7185,7 +7363,7 @@ Null represents the absence of data. It is the default value for objects.
 
 See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_
 
-Related : :ref:`nullable <nullable>`
+Related : :ref:`Nullable <nullable>`
 
 Added in PHP 4.0
 
@@ -7219,7 +7397,7 @@ The Null Safe Object Operator behaves like the object operator, until the object
 
 See also `This nullsafe operator could come in PHP 8 <https://www.amitmerchant.com/nullsafe-operator-php/>`_
 
-Related : :ref:`object-operator <object-operator>`, :ref:`scope-resolution-operator <scope-resolution-operator>`
+Related : :ref:`Object Operator <object-operator>`, :ref:`Scope Resolution Operator <scope-resolution-operator>`
 
 Added in PHP 8.0+
 
@@ -7265,7 +7443,9 @@ Nullable is the name of the NULL value, when used as a type. Until PHP 8.0, it w
 
 `Documentation <https://www.php.net/manual/en/language.types.null.php>`__
 
-Related : :ref:`null <null>`, :ref:`typehint <typehint>`
+See also `Dealing with null <https://front-line-php.com/dealing-with-null>`_
+
+Related : :ref:`Null <null>`, :ref:`Type system <type>`
 
 Added in PHP 7.1
 
@@ -7331,6 +7511,9 @@ Object
 
 PHP includes a complete object model. Some of its features are: visibility, abstract and final classes and methods, additional magic methods, interfaces, and cloning.
 
+`object` is also a PHP type, which represent an object of any class.
+
+
 .. code-block:: php
    
    <?php
@@ -7359,7 +7542,7 @@ PHP includes a complete object model. Some of its features are: visibility, abst
 
 `Documentation <https://www.php.net/manual/en/language.oop5.php>`__
 
-Related : :ref:`visibility <visibility>`, :ref:`abstract <abstract>`, :ref:`final <final>`, :ref:`magic-method <magic-method>`, :ref:`interface <interface>`, :ref:`clone <clone>`
+Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`clone <clone>`, :ref:`Type system <type>`
 
 .. _object-operator:
 
@@ -7393,7 +7576,7 @@ The Object Operator is the operator to access properties and methods from an obj
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
-Related : :ref:`nullsafe-object-operator <nullsafe-object-operator>`, :ref:`scope-resolution-operator <scope-resolution-operator>`
+Related : :ref:`Null Safe Object Operator <nullsafe-object-operator>`, :ref:`Scope Resolution Operator <scope-resolution-operator>`
 
 .. _orm:
 
@@ -7445,7 +7628,7 @@ Initially, octal integers were formatted by simply starting with a initial 0. Th
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-Related : :ref:`integer <integer>`, :ref:`binary-integer <binary-integer>`, :ref:`hexadecimal-integer <hexadecimal-integer>`
+Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`
 
 .. _opcode:
 
@@ -7528,7 +7711,7 @@ The library is integrated into PHP as an extension. It provides a lot of functio
 
 `Documentation <https://www.openssl.org/>`__
 
-Related : :ref:`cryptography <cryptography>`, :ref:`libsodium <libsodium>`
+Related : :ref:`Cryptography <cryptography>`, :ref:`libsodium <libsodium>`
 
 .. _operator-precedence:
 
@@ -7647,7 +7830,7 @@ The encoding of the incoming data are controled with the `default_charset` direc
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
 
-Related : :ref:`incoming-data <incoming-data>`
+Related : :ref:`Incoming Data <incoming-data>`
 
 .. _outofrangeexception:
 
@@ -7698,7 +7881,7 @@ Other situations, such as accessing an array element or a string character beyon
    ?>
 
 
-Related : :ref:`null <null>`
+Related : :ref:`Null <null>`
 
 .. _overwrite:
 .. _overloading:
@@ -7736,7 +7919,7 @@ Overwriting is also called overloading.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-Related : :ref:`final <final>`, :ref:`private <private>`, :ref:`inheritance <inheritance>`
+Related : :ref:`Final Keyword <final>`, :ref:`private Keyword <private>`, :ref:`Inheritance <inheritance>`
 
 .. _pack:
 
@@ -7766,7 +7949,7 @@ Packagist works with composer.
 
 `Documentation <https://getcomposer.org/>`__
 
-Related : :ref:`packagist <packagist>`
+Related : :ref:`Packagist <packagist>`
 
 .. _parameter:
 
@@ -7789,7 +7972,7 @@ A parameter is a variable in a method definition. They have a name, and may have
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`argument <argument>`
+Related : :ref:`Argument <argument>`
 
 .. _parent:
 
@@ -7823,7 +8006,7 @@ In a trait, parent represents the host class's parent, not the trait own parent.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`overwrite <overwrite>`, :ref:`static <static>`, :ref:`self <self>`, :ref:`late-static-binding <late-static-binding>`
+Related : :ref:`Overwrite <overwrite>`, :ref:`static <static>`, :ref:`Self <self>`, :ref:`Late Static Bindings <late-static-binding>`
 
 .. _parenthesis:
 
@@ -7846,7 +8029,7 @@ Parenthesis are  parameter is a variable in a method definition. They have a nam
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`argument <argument>`
+Related : :ref:`Argument <argument>`
 
 .. _by-reference:
 
@@ -7883,7 +8066,7 @@ Returned value are passed back to the calling context with the same rule than fo
 
 `Documentation <https://www.php.net/manual/en/language.references.pass.php>`__
 
-Related : :ref:`by-value <by-value>`
+Related : :ref:`Passing By Value <by-value>`
 
 .. _by-value:
 
@@ -7920,7 +8103,7 @@ Returned value are passed back to the calling context with the same rule than fo
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`by-reference <by-reference>`
+Related : :ref:`Passing By Reference <by-reference>`
 
 .. _pdoexception:
 
@@ -7951,7 +8134,7 @@ PECL is a repository for PHP Extensions, providing a directory of all known exte
 
 `Documentation <https://pecl.php.net/>`__
 
-Related : :ref:`extension <extension>`
+Related : :ref:`Extensions <extension>`
 
 .. _persistence:
 
@@ -8021,7 +8204,7 @@ The PharException class provides a phar-specific exception class for try/catch b
 
 `Documentation <https://www.php.net/manual/en/class.pharexception.php>`__
 
-Related : :ref:`exception <exception>`
+Related : :ref:`Exception <exception>`
 
 .. _php:
 
@@ -8074,7 +8257,7 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 
 `Documentation <https://www.php.net/manual/en/intro.pdo.php>`__
 
-Related : :ref:`dsn <dsn>`
+Related : :ref:`Data Source Name (DSN) <dsn>`
 
 .. _handler:
 
@@ -8108,7 +8291,7 @@ Handlers are usually named by their setting function :
 
 `Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
 
-Related : :ref:`http-header <http-header>`
+Related : :ref:`HTTP headers <http-header>`
 
 .. _predefined-exception:
 
@@ -8132,7 +8315,7 @@ The final keyword prevents child classes from overriding a method or a constant 
 
 `Documentation <https://www.php.net/manual/en/reserved.exceptions.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`try-catch <try-catch>`, :ref:`exception <exception>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`
 
 .. _profiler:
 
@@ -8167,7 +8350,7 @@ PHP has several profilers. They may provide an online interface to visualize the
 
 See also `BlackFire <https://www.blackfire.io/php/>`_, `gProfiler <https://gprofiler.io/>`_, `PHP-profiler <https://github.com/perftools/php-profiler.git>`_, `PHP-reli <https://github.com/reliforp/reli-prof.git>`_, `XHprof <https://www.php.net/manual/en/book.xhprof.php>`_, `Xdebug <https://www.xdebug.org/>`_
 
-Related : :ref:`debugger <debugger>`
+Related : :ref:`Debugger <debugger>`
 
 .. _psr:
 
@@ -8183,7 +8366,9 @@ There are 22 PSR at the moment, covering subjects such as cache, factories, log,
 
 `Documentation <https://www.php-fig.org/psr/>`__
 
-Related : :ref:`php-fig <php-fig>`
+See also `PHP extension providing the accepted PSR interfaces <https://github.com/jbboehr/php-psr>`_
+
+Related : :ref:`FIG <php-fig>`
 
 .. _php-tag:
 
@@ -8248,7 +8433,7 @@ PHP provides a large number of predefined variables. They may be super-global, a
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-Related : :ref:`super-global <super-global>`
+Related : :ref:`Superglobal variables <super-global>`
 
 .. _phpinfo:
 
@@ -8323,7 +8508,7 @@ The alternative way is to use named parameters.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`named-parameter <named-parameter>`
+Related : :ref:`Named Parameters <named-parameter>`
 
 .. _precedence:
 
@@ -8354,7 +8539,7 @@ Precedence offers some reading surprises to human readers. For example, `! $b in
 
 See also `Understanding PHP Operators of Logic, or || and && and ! a lot more <https://wpshout.com/php-logic-operators/>`_
 
-Related : :ref:`operator <operator>`
+Related : :ref:`Operators <operator>`
 
 .. _predefined-constant:
 
@@ -8379,7 +8564,7 @@ Other constants come from extensions : for example, the Math extension defines M
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
 
-Related : :ref:`constant <constant>`
+Related : :ref:`Constants <constant>`
 
 .. _preprocess:
 
@@ -8461,7 +8646,7 @@ The private keyword cannot be used with the final keyword : a private method is 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-Related : :ref:`final <final>`, :ref:`visibility <visibility>`
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`
 
 .. _promoted-property:
 
@@ -8519,7 +8704,7 @@ Property should be uniquely defined in a class. They may be redefined in childre
 
 See also `PHP OOP properties <https://tutorials.supunkavinda.blog/php/oop-properties>`_
 
-Related : :ref:`visibility <visibility>`, :ref:`static <static>`, :ref:`readonly <readonly>`, :ref:`attribute <attribute>`, :ref:`default-value <default-value>`, :ref:`magic-property <magic-property>`, :ref:`type <type>`
+Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly <readonly>`, :ref:`Attributes <attribute>`, :ref:`Default Value <default-value>`, :ref:`Magic Property <magic-property>`, :ref:`Type system <type>`
 
 .. _type-declaration-property:
 
@@ -8541,7 +8726,7 @@ Type declaration for properties.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`typehint <typehint>`
+Related : :ref:`Type system <typehint>`
 
 Added in PHP 7.4
 
@@ -8566,7 +8751,7 @@ In a URL like `ftp://www.site.com/file.txt`, the protocol is `ftp`, and relates 
 
 `Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
 
-Related : :ref:`wrapper <wrapper>`
+Related : :ref:`Wrapper <wrapper>`
 
 .. _random:
 
@@ -8618,7 +8803,7 @@ RangeException are defined by the SPL extension. It is use by the SplStack class
 
 `Documentation <https://www.php.net/manual/en/class.rangeexception.php>`__
 
-Related : :ref:`exception <exception>`, :ref:`overflow <overflow>`, :ref:`underflow <underflow>`
+Related : :ref:`Exception <exception>`, :ref:`Overflow <overflow>`, :ref:`Underflow <underflow>`
 
 Added in PHP 5.1
 
@@ -8688,7 +8873,7 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
 
-Related : :ref:`class <class>`, :ref:`__clone <-__clone>`
+Related : :ref:`Classes <class>`, :ref:`__clone <-__clone>`
 
 Added in PHP 8.1
 
@@ -8715,7 +8900,7 @@ In case of doubt, you should read about ``float``.
 
 See also `How To Work with Numbers in PHP <https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php>`_
 
-Related : :ref:`float <float>`
+Related : :ref:`Floating Point Numbers <float>`
 
 .. _recursion:
 .. _recursive:
@@ -8755,7 +8940,7 @@ Recursion is an abstract notion : it is also used in the PHP name itself. PHP : 
 
 See also `Recursion in PHP - when to use and how <https://phpenthusiast.com/blog/recursion-in-php>`_
 
-Related : :ref:`function <function>`
+Related : :ref:`Functions <function>`
 
 .. _reference:
 
@@ -8782,7 +8967,7 @@ References in PHP are a means to access the same variable content by different n
 
 See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_
 
-Related : :ref:`variable <variable>`, :ref:`weak-reference <weak-reference>`
+Related : :ref:`Variables <variable>`, :ref:`Weak References <weak-reference>`
 
 .. _reflectionexception:
 
@@ -8913,9 +9098,9 @@ A resource is a special type of data, holding a reference to an external resourc
 
 Resources are only used with their dedicated functions. It is not possible to modify them in any other way.
 
-Resources, in general, are removed from PHP code and more recent version tend to rely less on them. 
+Resources, in general, are being removed from PHP code and more recent versions tend to rely less on them and more on objects. 
 
-There is a list of PHP resources : `List of Resource Types <https://www.php.net/manual/en/resource.php>`_.
+There is a list of PHP resources available in the docs.
 
 
 .. code-block:: php
@@ -8929,6 +9114,8 @@ There is a list of PHP resources : `List of Resource Types <https://www.php.net/
 
 
 `Documentation <https://www.php.net/manual/en/language.types.resource.php>`__
+
+See also `List of Resource Types <https://www.php.net/manual/en/resource.php>`_
 
 .. _return:
 
@@ -8956,7 +9143,7 @@ Return
 
 `Documentation <https://www.php.net/manual/en/function.return.php>`__
 
-Related : :ref:`function <function>`, :ref:`method <method>`, :ref:`closure <closure>`
+Related : :ref:`Functions <function>`, :ref:`Method <method>`, :ref:`Closure <closure>`
 
 .. _returntypewillchange:
 
@@ -9021,7 +9208,7 @@ return typehint are covariant : they get more or equally precise with each new c
 
 `Documentation <https://www.php.net/manual/en/functions.returning-values.php>`__
 
-Related : :ref:`typehint <typehint>`, :ref:`return <return>`, :ref:`type-covariance <type-covariance>`
+Related : :ref:`Type system <typehint>`, :ref:`Return <return>`, :ref:`Covariance <type-covariance>`
 
 .. _return-value:
 
@@ -9055,6 +9242,7 @@ Return value is the value returned, at the end of a method call. That value may 
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
 .. _sanitation:
+.. _sanitization:
 
 Sanitation
 ----------
@@ -9072,7 +9260,9 @@ Sanitation is the process to clean data and remove any unwanted parts. The data 
 
 `Documentation <https://www.php.net/manual/en/filter.examples.validation.php>`__
 
-Related : :ref:`validation <validation>`
+See also `Data sanitization <https://en.wikipedia.org/wiki/Data_sanitization>`_
+
+Related : :ref:`Validation <validation>`
 
 Added in PHP 4.0
 
@@ -9121,7 +9311,7 @@ In its simplest form, a yield statement looks much like a return statement, exce
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield>`__
 
-Related : :ref:`typehint <typehint>`, :ref:`special-typehint <special-typehint>`
+Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
 
 Added in PHP 7.0
 
@@ -9181,7 +9371,7 @@ Self is one of the three special keywords that are used to access properties or 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`late-static-binding <late-static-binding>`
+Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Late Static Bindings <late-static-binding>`
 
 .. _semantics:
 
@@ -9272,7 +9462,7 @@ It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal vari
 
 See also `Session in PHP: Creating, Destroying, and Working With Session in PHP <https://www.simplilearn.com/tutorials/php-tutorial/session-in-php>`_
 
-Related : :ref:`superglobal <superglobal>`
+Related : :ref:`Superglobal variables <superglobal>`
 
 .. _shallow-clone:
 
@@ -9316,7 +9506,7 @@ Shallow cloning is the default behavior in PHP.
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`magic-method <magic-method>`, :ref:`__clone <-__clone>`, :ref:`deep-clone <deep-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Deep clone <deep-clone>`
 
 .. _short-assignation:
 .. _combined-operator:
@@ -9341,7 +9531,7 @@ In addition to the basic assignment operator, there are combined operators for a
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`assignation <assignation>`
+Related : :ref:`Assignations <assignation>`
 
 .. _short-syntax:
 
@@ -9369,7 +9559,7 @@ It is convenient when the variable has to be assigned again to itself.
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`assignation <assignation>`, :ref:`operator <operator>`
+Related : :ref:`Assignations <assignation>`, :ref:`Operators <operator>`
 
 .. _short-tag:
 
@@ -9403,7 +9593,7 @@ From the manual : As short tags can be disabled it is recommended to only use th
 
 See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/deprecate_php_short_tags_v2>`_
 
-Related : :ref:`php-tag <php-tag>`, :ref:`echo-tag <echo-tag>`
+Related : :ref:`PHP tags <php-tag>`, :ref:`Echo Tag <echo-tag>`
 
 .. _shutdown-function:
 .. _shutdown-handler:
@@ -9439,7 +9629,7 @@ Shutdown function acts as destructors : they should clean up any unfinished jobs
 
 See also `Register Shutdown Function PHP <https://www.learn-codes.net/php/register-shutdown-function-php/>`_
 
-Related : :ref:`handler <handler>`
+Related : :ref:`PHP Handlers <handler>`
 
 .. _signature:
 
@@ -9487,7 +9677,7 @@ PHP supports several rdbms natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-Related : :ref:`pdo <pdo>`
+Related : :ref:`PHP Data Objects (PDO)  <pdo>`
 
 .. _simplexml:
 
@@ -9558,7 +9748,7 @@ Double quoted strings use the anti-slash `\` to escape special characters, such 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
 
-Related : :ref:`double-quote <double-quote>`, :ref:`interpolation <interpolation>`, :ref:`string <string>`
+Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`
 
 .. _singleton:
 
@@ -9605,7 +9795,7 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 
 See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_
 
-Related : :ref:`design-pattern <design-pattern>`
+Related : 
 
 .. _sleep:
 
@@ -9660,7 +9850,7 @@ Each principle may be used independently. Those principle are not dedicated to P
 
 See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_
 
-Related : :ref:`SRP <SRP>`, :ref:`OCP <OCP>`, :ref:`LSP <LSP>`, :ref:`ISP <ISP>`, :ref:`DIP <DIP>`
+Related : , :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, , 
 
 .. _sort:
 .. _sorting:
@@ -9702,7 +9892,7 @@ The default comparison between elements may be adapted with sort()'s parameter :
 
 See also `natsort <https://www.php.net/natsort>`_
 
-Related : :ref:`array <array>`, :ref:`closure <closure>`
+Related : :ref:`Array <array>`, :ref:`Closure <closure>`
 
 .. _spaeceship:
 
@@ -9770,7 +9960,7 @@ Other special types are the scalar types.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`typehint <typehint>`, :ref:`special-typehint <special-typehint>`
+Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
 
 Added in PHP 7.0
 
@@ -9803,7 +9993,7 @@ Sqlite3 is also available with PDO (Portable Document File), with the pdo_sqlite
 
 See also `SQLite3 in PHP <https://www.php.net/sqlite3>`_
 
-Related : :ref:`sql <sql>`, :ref:`pdo <pdo>`
+Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`PHP Data Objects (PDO)  <pdo>`
 
 .. _ssl:
 
@@ -9832,7 +10022,7 @@ SSL is a PHP context for sockets, and share the configuration options with TLS.
 
 `Documentation <https://www.php.net/manual/en/context.php>`__
 
-Related : :ref:`tls <tls>`
+Related : :ref:`TLS <tls>`
 
 .. _spl:
 
@@ -9868,7 +10058,7 @@ One of the most famous SPL features is the function spl_autoload_register(), whi
 
 `Documentation <https://www.php.net/manual/en/book.spl.php>`__
 
-Related : :ref:`autoload <autoload>`
+Related : :ref:`Class Autoloading <autoload>`
 
 .. _static:
 
@@ -9913,7 +10103,7 @@ Static is a keyword for variables : those variables aren't removed at the end of
 
 See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`closure <closure>`, :ref:`arrow-function <arrow-function>`, :ref:`variable <variable>`, :ref:`late-static-binding <late-static-binding>`
+Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Bindings <late-static-binding>`
 
 .. _static-method:
 
@@ -9942,7 +10132,7 @@ Static methods are methods defined with the static keyword. They have to be call
 
 See also `When to use static methods <https://verraes.net/2014/06/when-to-use-static-methods-in-php/>`_
 
-Related : :ref:`method <method>`
+Related : :ref:`Method <method>`
 
 .. _static-property:
 
@@ -9970,7 +10160,7 @@ Static properties are properties defined with the static keyword. They may be ac
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`__
 
-Related : :ref:`property <property>`, :ref:`static-method <static-method>`
+Related : :ref:`Properties <property>`, :ref:`Static Method <static-method>`
 
 .. _static-variable:
 
@@ -9997,7 +10187,7 @@ Variables that reside in one method's scope, even after the method's end.
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`variable <variable>`, :ref:`variable-variable <variable-variable>`
+Related : :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`
 
 .. _stdclass:
 
@@ -10034,7 +10224,7 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
 
 `Documentation <https://www.php.net/manual/en/language.types.object.php#language.types.object.casting>`__
 
-Related : :ref:`property <property>`, :ref:`dynamic-property <dynamic-property>`
+Related : :ref:`Properties <property>`, :ref:`Dynamic Properties <dynamic-property>`
 
 .. _strict-comparison:
 
@@ -10068,7 +10258,7 @@ Here are the strict operators : ``==`` may be replaced with ``===``,  ``!=`` may
 
 See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
 
-Related : :ref:`switch <switch>`, :ref:`match <match>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`
 
 .. _strict_types:
 
@@ -10098,7 +10288,7 @@ strict_types is an execution directive, that makes PHP more strict when applying
 
 See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_
 
-Related : :ref:`typehint <typehint>`
+Related : :ref:`Type system <typehint>`
 
 Added in PHP 7.0
 
@@ -10120,7 +10310,7 @@ A string is series of characters, where a character is the same as a byte. This 
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php>`__
 
-Related : :ref:`stringable <stringable>`, :ref:`magic-method <magic-method>`
+Related : :ref:`Stringable <stringable>`, :ref:`Magic Methods <magic-method>`
 
 .. _string-interpolation:
 
@@ -10158,7 +10348,7 @@ Interpolation happens inside strings, while concatenation happens between string
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`__
 
-Related : :ref:`string <string>`
+Related : :ref:`String <string>`
 
 .. _stringable:
 
@@ -10185,7 +10375,7 @@ The ``Stringable`` interface denotes a class as having a __toString() method.
 
 `Documentation <https://www.php.net/manual/en/class.stringable.php>`__
 
-Related : :ref:`string <string>`, :ref:`magic-method <magic-method>`
+Related : :ref:`String <string>`, :ref:`Magic Methods <magic-method>`
 
 Added in PHP 8.0+
 
@@ -10211,7 +10401,7 @@ stubs files are PHP code, that contain only the definitions of classic PHP struc
 
 `Documentation <https://www.php.net/manual/en/function.extract.php>`__
 
-Related : :ref:`compact <compact>`
+Related : :ref:`compact() <compact>`
 
 .. _superglobal:
 .. _super-global:
@@ -10228,7 +10418,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
    <?php
    
    global $x;
-   $x = 'A';
+   $x = A;
    
    function counter() {
        echo $GLOBALS['A'];
@@ -10241,7 +10431,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 
 `Documentation <https://www.php.net/manual/en/language.variables.superglobals.php>`__
 
-Related : :ref:`variable <variable>`, :ref:`static-variable <static-variable>`, :ref:`variable-variable <variable-variable>`, :ref:`global-variable <global-variable>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
 
 .. _supply-chain-attack:
 
@@ -10288,7 +10478,7 @@ The switch expression branches evaluation based on an equality check of a value.
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
-Related : :ref:`match <match>`, :ref:`if-then <if-then>`
+Related : :ref:`Match <match>`, :ref:`If Then Else <if-then>`
 
 Added in PHP 4.0
 
@@ -10322,7 +10512,7 @@ While this is an intended feature, and is useful to reduce code, it tends to sur
 
 `Documentation <https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/>`__
 
-Related : :ref:`match <match>`
+Related : :ref:`Match <match>`
 
 .. _system-call:
 
@@ -10388,7 +10578,7 @@ Throw is the keyword which raise an existing exception.
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-Related : :ref:`try-catch <try-catch>`, :ref:`exception <exception>`
+Related : :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`
 
 .. _throwable:
 
@@ -10415,7 +10605,7 @@ This interface may be used with catch clauses, to catch everything that is throw
 
 `Documentation <https://www.php.net/manual/en/class.throwable.php>`__
 
-Related : :ref:`catch <catch>`, :ref:`exception <exception>`, :ref:`error <error>`
+Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Error <error>`
 
 Added in PHP 7.0
 
@@ -10455,7 +10645,7 @@ ticks are events that occur for a group of tickable statements executed by the p
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks>`__
 
-Related : :ref:`declare <declare>`
+Related : :ref:`declare() <declare>`
 
 .. _tls:
 
@@ -10484,7 +10674,7 @@ TLS is a PHP context for sockets, and share the configuration options with SSL.
 
 `Documentation <https://www.php.net/manual/en/context.php>`__
 
-Related : :ref:`ssl <ssl>`
+Related : :ref:`SSL <ssl>`
 
 .. _trailing-comma:
 
@@ -10511,7 +10701,7 @@ Trailing commas were introduced progressively in PHP. In PHP 7.2, in use stateme
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.arguments>`__
 
-Related : :ref:`comma <comma>`
+Related : :ref:`Comma <comma>`
 
 .. _trait:
 
@@ -10546,7 +10736,7 @@ Traits define methods and properties. They are included in one or several classe
 
 See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_, `What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_, `Some lesser known facts of Traits in PHP <https://www.amitmerchant.com/some-lesser-known-facts-traits-php/>`_, `When to use a trait? <https://matthiasnoback.nl/2022/07/when-to-use-a-trait/>`_, `The difference between Traits, Interfaces, and Abstract Classes in PHP <https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/>`_
 
-Related : :ref:`class <class>`, :ref:`use <use>`
+Related : :ref:`Classes <class>`, :ref:`Use <use>`
 
 .. _traversable:
 
@@ -10570,7 +10760,48 @@ A special return type that signals a method that never returns : only dies or th
 
 `Documentation <https://www.php.net/manual/en/class.traversable.php>`__
 
-Related : :ref:`exception <exception>`, :ref:`error <error>`
+Related : :ref:`Exception <exception>`, :ref:`Error <error>`
+
+.. _traversal:
+
+Traversal
+---------
+
+A traversal is the list of all elements in a data structure. 
+
+foreach() is a command to do a traversal on an array or an iterable object. 
+
+Traversal may be recursive : for example, the recursive iterators in the SPL library features the `RecursiveArrayIterator` class, which traverses multi-dimensional arrays.
+
+Traversal of a tree or graph datastructure turns the graph into a array-like list.
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   $array = range(0, 9);
+   
+   foreach($array as $item) {
+   	print $item\n;
+   	// list digits from 0 to 9
+   }
+   
+   // adds 10, 11, 12 to the previous array
+   // in a separate 
+   $array[] = [10, 11, 12];
+   
+   $iterator = new RecursiveArrayIterator($array);
+   foreach($iterator as $item) {
+   	print $item\n;
+   	// list digits from 0 to 12
+   }
+   
+   ?>
+   
+
 
 .. _try-catch:
 
@@ -10597,7 +10828,7 @@ The catch clause may be anonymous, when it only specify the type of caught excep
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-Related : :ref:`finally <finally>`
+Related : :ref:`Finally <finally>`
 
 .. _typerror:
 
@@ -10652,7 +10883,7 @@ Type juggling is usually done automatically, without user intervention. Explicit
 
 `Documentation <https://www.php.net/manual/en/language.types.type-juggling.php>`__
 
-Related : :ref:`cast <cast>`
+Related : :ref:`Cast operator <cast>`
 
 .. _typehint:
 .. _type:
@@ -10679,7 +10910,7 @@ Type declarations can be added to function arguments, return values, and, as of 
 
 See also `Explore Your Types <https://backendtea.com/post/explore-your-types/>`_, `Narrowing types for static analysis <https://seld.be/notes/narrowing-types-for-static-analysis/>`_
 
-Related : :ref:`scalar-typehint <scalar-typehint>`, :ref:`union-type <union-type>`, :ref:`intersection-type <intersection-type>`
+Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`, :ref:`Intersection Type <intersection-type>`
 
 Added in PHP 7.0
 
@@ -10707,7 +10938,7 @@ The TypeError Error may be thrown when an error related to typing is detected.
 
 `Documentation <https://www.php.net/manual/en/class.typeerror.php>`__
 
-Related : :ref:`error <error>`
+Related : :ref:`Error <error>`
 
 Added in PHP 7.0
 
@@ -10736,7 +10967,7 @@ Other situations, such as accessing an array element or a string character beyon
    ?>
 
 
-Related : :ref:`null <null>`, :ref:`overflow <overflow>`
+Related : :ref:`Null <null>`, :ref:`Overflow <overflow>`
 
 .. _unexpectedvalueexception:
 
@@ -10759,7 +10990,7 @@ The UnexpectedValueException exception is thrown if a value does not match with 
 
 `Documentation <https://www.php.net/manual/en/class.unexpectedvalueexception.php>`__
 
-Related : :ref:`exception <exception>`
+Related : :ref:`Exception <exception>`
 
 Added in PHP 5.1
 
@@ -10785,7 +11016,7 @@ An UnhandledMatchError is thrown when the subject passed to a match expression i
 
 `Documentation <https://www.php.net/manual/en/class.unhandledmatcherror.php>`__
 
-Related : :ref:`exception <exception>`, :ref:`match <match>`
+Related : :ref:`Exception <exception>`, :ref:`Match <match>`
 
 .. _unicode:
 
@@ -10821,7 +11052,7 @@ PHP may translate from and to Unicode to other character sets with extensions su
 
 `Documentation <https://home.unicode.org/>`__
 
-Related : :ref:`simplexml <simplexml>`, :ref:`domxml <domxml>`, :ref:`xmlwriter <xmlwriter>`, :ref:`xmlreader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DomXML <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
 
 .. _union-type:
 
@@ -10845,7 +11076,7 @@ Specifying several types in as a typehint, separated with the | operator.
 
 See also `What are union types and how do you use them in PHP? <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_
 
-Related : :ref:`typehint <typehint>`
+Related : :ref:`Type system <typehint>`
 
 Added in PHP 8.0
 
@@ -10899,7 +11130,7 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 
 See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 
-Related : :ref:`ssl <ssl>`, :ref:`file <file>`
+Related : :ref:`SSL <ssl>`, 
 
 .. _unreachable-code:
 
@@ -10948,7 +11179,7 @@ unset() removes a variable. This features used to be available as a function cal
 
 `Documentation <https://www.php.net/manual/en/function.unset.php>`__
 
-Related : :ref:`variable <variable>`
+Related : :ref:`Variables <variable>`
 
 .. _unserialization:
 .. _unserialize:
@@ -11043,7 +11274,7 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
-Related : :ref:`simplexml <simplexml>`, :ref:`domxml <domxml>`, :ref:`xmlwriter <xmlwriter>`, :ref:`xmlreader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DomXML <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
 
 .. _use:
 
@@ -11086,7 +11317,7 @@ When `use` is used with a closure, it imports the listed variables in the closur
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`fully-qualified-name <fully-qualified-name>`, :ref:`use-alias <use-alias>`, :ref:`closure <closure>`, :ref:`trait <trait>`
+Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Traits <trait>`
 
 .. _use-alias:
 
@@ -11113,7 +11344,7 @@ The use operator can create aliases for a class, function or constant. After the
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`use-alias <use-alias>`
+Related : :ref:`Use Alias <use-alias>`
 
 .. _uuid:
 
@@ -11162,7 +11393,7 @@ Validation is also called filtering.
 
 `Documentation <https://www.php.net/manual/en/filter.examples.validation.php>`__
 
-Related : :ref:`sanitation <sanitation>`
+Related : :ref:`Sanitation <sanitation>`
 
 .. _valueerror:
 
@@ -11204,7 +11435,7 @@ var keyword for introducing PHP properties in classes. It is now replaced by vis
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties>`__
 
-Related : :ref:`visibility <visibility>`
+Related : :ref:`Visibility <visibility>`
 
 .. _variable-argument:
 
@@ -11243,7 +11474,7 @@ Variable arguments may be static or dynamic. It is static when the list of argum
 
 See also `Variable-length argument lists <https://riptutorial.com/php/example/18652/variable-length-argument-lists>`_
 
-Related : :ref:`function <function>`
+Related : :ref:`Functions <function>`
 
 .. _variable-scope:
 .. _scope:
@@ -11306,7 +11537,7 @@ Variables whose name is held in another variable.
 
 See also `The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-php-variable-variables>`_
 
-Related : :ref:`variable <variable>`, :ref:`static-variable <static-variable>`, :ref:`compact <compact>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`compact() <compact>`
 
 .. _variable_order:
 
@@ -11335,7 +11566,7 @@ The default configuration ensures that safer values, such as the session's value
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.variables-order>`__
 
-Related : :ref:`$_request <$_request>`
+Related : :ref:`$_REQUEST <$_request>`
 
 .. _variable:
 
@@ -11357,7 +11588,7 @@ Variables holds data when processing a PHP script.
 
 `Documentation <https://www.php.net/manual/en/language.variables.php>`__
 
-Related : :ref:`static-variable <static-variable>`, :ref:`variable-variable <variable-variable>`
+Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`
 
 .. _variadic:
 .. _splat:
@@ -11394,7 +11625,7 @@ Used in a function signature, it collects all the values into one array.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-Related : :ref:`variable-argument <variable-argument>`, :ref:`array-spread <array-spread>`, :ref:`ellipsis <ellipsis>`
+Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array spread <array-spread>`, :ref:`Ellipsis <ellipsis>`
 
 Added in PHP 5.6
 
@@ -11430,7 +11661,7 @@ Properties, methods and classes may have a visibility. It limits the scope of th
 
 See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_, `PHP Tricks: Access control bypass <https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass>`_
 
-Related : :ref:`property <property>`, :ref:`method <method>`, :ref:`class-constant <class-constant>`
+Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Class constant <class-constant>`
 
 .. _void:
 
@@ -11462,7 +11693,7 @@ Null and void are two different notions.
 
 `Documentation <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`__
 
-Related : :ref:`null <null>`
+Related : :ref:`Null <null>`
 
 Added in PHP 8.0
 
@@ -11490,7 +11721,7 @@ Weak references allow the programmer to retain a reference to an object which do
 
 `Documentation <https://www.php.net/manual/en/class.weakreference.php>`__
 
-Related : :ref:`reference <reference>`
+Related : :ref:`References <reference>`
 
 Added in PHP 7.4
 
@@ -11527,7 +11758,7 @@ Part of the block execution may be skipped by using the `continue` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.while.php>`__
 
-Related : :ref:`continue <continue>`, :ref:`foreach <foreach>`, :ref:`loop <loop>`, :ref:`for <for>`, :ref:`while <while>`
+Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`, :ref:`While <while>`
 
 .. _wrapper:
 
@@ -11554,7 +11785,7 @@ A wrapper is also a design pattern, also called an adapter. This concept also ap
 
 See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_
 
-Related : :ref:`protocol <protocol>`
+Related : :ref:`Protocol <protocol>`
 
 .. _xml:
 
@@ -11586,7 +11817,7 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
-Related : :ref:`simplexml <simplexml>`, :ref:`domxml <domxml>`, :ref:`xmlwriter <xmlwriter>`, :ref:`xmlreader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DomXML <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
 
 .. _xmlreader:
 
@@ -11730,7 +11961,7 @@ In its simplest form, a yield statement looks much like a return statement, exce
 
 See also `Introduction to PHP yield <https://www.educba.com/php-yield/>`_
 
-Related : :ref:`yield-from <yield-from>`, :ref:`generator <generator>`
+Related : :ref:`yield from Keyword <yield-from>`, :ref:`Generator <generator>`
 
 Added in PHP 5.5
 
@@ -11763,7 +11994,7 @@ Generator delegation allows you to yield values from another generator, Traversa
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`__
 
-Related : :ref:`yield <yield>`, :ref:`generator <generator>`
+Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`
 
 .. _yoda:
 
