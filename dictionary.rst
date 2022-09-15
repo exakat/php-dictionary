@@ -2,13 +2,21 @@ PHP Dictionary
 ++++++++++++++
 
 * $
-   * :ref:`$HTTP_RAW_POST_DATA <$http_raw_post_data>`
    * :ref:`$_FILES <$_files>`
    * :ref:`$_GET <$_get>`
    * :ref:`$_POST <$_post>`
    * :ref:`$_REQUEST <$_request>`
    * :ref:`$php_errormsg <$php_errormsg>`
    * :ref:`$this <$this>`
+* _
+   * :ref:`__clone <-__clone>`
+   * :ref:`__get() method <-__get>`
+   * :ref:`__halt_compiler() <halt-compiler>`
+   * :ref:`__invoke <-__invoke>`
+   * :ref:`__serialize <-__serialize>`
+   * :ref:`__set() method <-__set>`
+   * :ref:`__sleep() method <-__sleep>`
+   * :ref:`__unserialize <-__unserialize>`
 * A
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree <ast>`
@@ -48,6 +56,7 @@ PHP Dictionary
    * :ref:`Callback <callback>`
    * :ref:`Cast operator <cast>`
    * :ref:`Catch <catch>`
+   * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
    * :ref:`Class Getter Method <getter>`
@@ -62,6 +71,8 @@ PHP Dictionary
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce operator <coalesce>`
    * :ref:`Coding Conventions <coding-convention>`
+   * :ref:`Collection <collection>`
+   * :ref:`Colon <colon>`
    * :ref:`Comma <comma>`
    * :ref:`Command Line Interface <cli>`
    * :ref:`Compact array <compact-array>`
@@ -91,6 +102,7 @@ PHP Dictionary
    * :ref:`constructor <constructor>`
 * D
    * :ref:`DRY : don't repeat yourself <dry>`
+   * :ref:`DTO <dto>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
    * :ref:`Dates <date>`
@@ -174,6 +186,7 @@ PHP Dictionary
 * H
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
+   * :ref:`HTTP_RAW_POST_DATA <HTTP_RAW_POST_DATA>`
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hash <hash>`
    * :ref:`Heredocs <heredoc>`
@@ -282,6 +295,7 @@ PHP Dictionary
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP tags <php-tag>`
    * :ref:`PHP variables <php-variable>`
+   * :ref:`PHPdoc <phpdoc>`
    * :ref:`Packagist <packagist>`
    * :ref:`Parameter <parameter>`
    * :ref:`Parenthesis <parenthesis>`
@@ -293,6 +307,7 @@ PHP Dictionary
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Precedence <precedence>`
    * :ref:`Predefined Constants <predefined-constant>`
+   * :ref:`Prepared Query <prepared-query>`
    * :ref:`Preprocess <preprocess>`
    * :ref:`Print <print>`
    * :ref:`Promoted Properties <promoted-property>`
@@ -304,6 +319,8 @@ PHP Dictionary
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
    * :ref:`private Keyword <private>`
+   * :ref:`protected Keyword <protected>`
+   * :ref:`public Keyword <public>`
 * R
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
@@ -311,6 +328,7 @@ PHP Dictionary
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
+   * :ref:`Reference Count <reference-count>`
    * :ref:`References <reference>`
    * :ref:`ReflectionException <reflectionexception>`
    * :ref:`Register Globals <register-globals>`
@@ -325,12 +343,14 @@ PHP Dictionary
 * S
    * :ref:`SAPI <sapi>`
    * :ref:`SOLID <solid>`
+   * :ref:`SQL injection <sql-injection>`
    * :ref:`SSL <ssl>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scalar Typehints <scalar-typehint>`
    * :ref:`Scope Resolution Operator <scope-resolution-operator>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
+   * :ref:`Semicolon <semicolon>`
    * :ref:`Serialization <serialization>`
    * :ref:`Session <session>`
    * :ref:`Shallow clone <shallow-clone>`
@@ -347,6 +367,7 @@ PHP Dictionary
    * :ref:`Special Typehints <special-typehint>`
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Standard PHP Library (SPL) <spl>`
+   * :ref:`Statement <statement>`
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`
@@ -397,6 +418,7 @@ PHP Dictionary
    * :ref:`unset Keyword <unset>`
 * V
    * :ref:`Validation <validation>`
+   * :ref:`Value Object <value-object>`
    * :ref:`ValueError <valueerror>`
    * :ref:`Var <var>`
    * :ref:`Variable Arguments <variable-argument>`
@@ -422,12 +444,6 @@ PHP Dictionary
    * :ref:`yield from Keyword <yield-from>`
 * Z
    * :ref:`Zval <zval>`
-* _
-   * :ref:`__clone <-__clone>`
-   * :ref:`__halt_compiler() <halt-compiler>`
-   * :ref:`__invoke <-__invoke>`
-   * :ref:`__serialize <-__serialize>`
-   * :ref:`__unserialize <-__unserialize>`
 
 
 
@@ -562,30 +578,6 @@ $_REQUEST is a superglobal : it is always available, in every scope.
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`variable_order <variable_order>`
 
-.. _$http_raw_post_data:
-
-$HTTP_RAW_POST_DATA
--------------------
-
-$HTTP_RAW_POST_DATA contains the raw POST data. 
-
-In general, ``php://input``` should be used instead of $HTTP_RAW_POST_DATA.  
-
-This feature was removed in PHP 7.0.
-
-
-.. code-block:: php
-   
-   <?php
-   
-       // $a->file was filled with $_FILES at some point
-       move_uploaded_file($a->file['tmp_name'], $target);
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
-
 .. _$php_errormsg:
 
 $php_errormsg
@@ -620,28 +612,28 @@ Removed in PHP
 $this
 -----
 
-$this is a variable
+$this is a variable that represents the current object. It is different in each object / class. 
 
 $this is also called a pseudo-variable. There is no special variable called `$that`.
-
-
 
 .. code-block:: php
    
    <?php
    
-   // Warning: Undefined variable $php_errormsg 
-   // in PHP 8.0 (sic)
-   echo $php_errormsg;
+   class x {
+   	private $y = 1;
    
-   print_r(error_get_last());
+   	function foo() {
+   		return $this->y;
+   	}
+   }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`__
+`Documentation <https://www.php.net/manual/en/reserved.variables.this.php>`__
 
-Removed in PHP 
+See also `PHP $this <https://www.phptutorial.net/php-oop/php-this/>`_
 
 .. _-__clone:
 
@@ -672,6 +664,45 @@ Cloning is similar to creating another object of the same class, without requiri
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep clone <deep-clone>`, :ref:`Shallow clone <shallow-clone>`
+
+.. _-__get:
+
+__get() method
+--------------
+
+__get() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it.
+
+That way, it is possible to create dynamically properties, without hardcoding them. 
+
+The __get() method is usually paired with the __set() method. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $values = ['a' => 1,
+   					   'b' => 2,
+   					   ];
+   
+   	// Checks the dictionary, or return 0
+   	function __get($name) {
+   		if (isset($this->values[$name])) {
+   			return $this->values[$name];
+   		}
+   		
+   		return 0;
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__set() method <-__set>`
 
 .. _halt-compiler:
 
@@ -776,6 +807,84 @@ If no array is returned a TypeError will be thrown.
 
 Related : :ref:`Unsserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`
 
+.. _-__set:
+
+__set() method
+--------------
+
+__set() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it. It is used to give a value to the property.
+
+That way, it is possible to create dynamically properties, without hardcoding them. 
+
+The __set() method is usually paired with the __get() method. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $values = ['a' => 1,
+   					   'b' => 2,
+   					   ];
+   
+   	// Checks the dictionary, or return 0
+   	function __set($name, $value) {
+   		if (isset($this->values[$name])) {
+   			$this->values[$name] = $value;
+   		}
+   		
+   		//do not set new values
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__get() method <-__get>`
+
+.. _-__sleep:
+
+__sleep() method
+----------------
+
+__sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned. 
+
+In particular, some resources, such as database connexion or files cannot be serialized. They should be closed, stored as a path, and reopened later with __wakeup().
+
+The __sleep() method is usually paired with the __wakeup() method. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $file;
+   	private $path;
+   
+   	function __sleep() {
+   		fclose($this->path);
+   	}
+   
+   	function __wakeup() {
+   		$this->path = fopen($this->path, 'r');
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php#object.sleep>`__
+
+See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_, `__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_
+
+Related : :ref:`Magic Methods <magic-method>`, 
+
 .. _-__unserialize:
 
 __unserialize
@@ -878,15 +987,6 @@ Active Record
 -------------
 
 An object that wraps a row in a database table or view, encapsulates the database access, and adds domain logic on that data.
-
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
 
 `Documentation <https://en.wikipedia.org/wiki/Active_record_pattern>`__
 
@@ -1262,9 +1362,7 @@ Arrow functions are a type of closure with a specific syntax. It only accepts on
 
 Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
+Added in PHP 7.4
 
 .. _As:
 
@@ -1351,7 +1449,7 @@ Assumption
 
 An assumption is a piece of code that makes use of knowledge that is not visible in the script. 
 
-Assumptions are often related to arrays : after checking that a variable is of type array, some specific index are used, while there is not garantee that they are available.
+Assumptions are often related to arrays : after checking that a variable is of type array, some specific index are used, while there is not guarantee that they are available.
 
 Assumptions may be upgraded to assertions. 
 
@@ -1393,8 +1491,6 @@ Machine readable options that may be added PHP code.
    
    <?php
    
-   <?php
-   
    #[Attribute]
    class SetUp {}
    
@@ -1404,6 +1500,8 @@ Machine readable options that may be added PHP code.
 `Documentation <https://www.php.net/manual/en/language.attributes.overview.php>`__
 
 See also `PHP native attributes <https://www.exakat.io/en/php-native-attributes-quick-reference/>`_
+
+Related : :ref:`PHPdoc <phpdoc>`
 
 Added in PHP 8.0
 
@@ -1779,6 +1877,42 @@ Multiple catches may be used. They are applied in the order of coding, and the f
 See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
+
+.. _exception-chain:
+
+Chaining Exceptions
+-------------------
+
+Chaining exception is throwing again a caught exception, with a new type, and with the previous exception. 
+
+To provide the previous exception to a new exception, use the third parameter of the Exception constructor. Also, always provide a third argument to custom exceptions.
+
+The previous exception is available with the `getPrevious()` method of the Exception class.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class myException extends \Exception {
+   	function __construct(string $message, $code, \Throwable $exception) {
+   		parent::__construct($message, $code, $exception);
+   	}
+   }
+   
+   try {
+   	doSomething();
+   } catch(\Exception $e) {
+   	// chaining exception
+   	throw new myException('doSomething failed', 0, $e);
+   }
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Exception_chaining>`__
+
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _class-alias:
 
@@ -2219,6 +2353,55 @@ See also `PSR-12: Extended Style Guide <https://www.php-fig.org/psr/psr-12/>`_, 
 
 Related : :ref:`Control Structures <control-structure>`
 
+.. _collection:
+
+Collection
+----------
+
+A сollection is an array in which only elements of the same type can be stored.
+
+Collections may be build with array, or dedicated classes. 
+
+
+
+See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_
+
+Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, , 
+
+.. _colon:
+
+Colon
+-----
+
+Colon are used in a variety of situations : 
+
++ With named parameters, to separate the name from the value
++ With labels, for goto
++ With ternary operator, separated or not from the question mark
+
+Double colon is a distinct operator.
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   goto there;
+   there:
+   
+   foo(a: 3); // 
+   
+   $b = $a ? 'a' : 'b';
+   $c = $c ?: 'a';
+   
+   ?>
+   
+
+
+Related : :ref:`goto Keyword <goto>`, :ref:`Ternary operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, 
+
 .. _comma:
 
 Comma
@@ -2375,15 +2558,6 @@ There are lossless compression, which can provide the exact original data (for t
 PHP supports compression via zip, rar, zlib, bzip2. 
 
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 `Documentation <https://en.wikipedia.org/wiki/Data_compression>`__
 
 See also `Zip <https://www.php.net/manual/en/book.zip.php>`_
@@ -2485,13 +2659,6 @@ Configuration
 -------------
 
  
-
-.. code-block:: php
-   
-   <?php
-   
-   ?>
-
 
 .. _const:
 
@@ -2692,10 +2859,10 @@ control flow structures can't be called dynamically : they have to be hardcoded.
 + match
 + declare
 + return
-+ require
-+ include
-+ require_once
-+ include_once
++ require()
++ include()
++ require_once()
++ include_once()
 + goto
 
 
@@ -2719,7 +2886,7 @@ control flow structures can't be called dynamically : they have to be hardcoded.
 
 See also `PHP flow control <https://zetcode.com/php/flowcontrol/>`_
 
-Related : , :ref:`Loops <loop>`, , :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`goto Keyword <goto>`
+Related : :ref:`Statement <statement>`, :ref:`Loops <loop>`, :ref:`Semicolon <semicolon>`, :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`goto Keyword <goto>`
 
 .. _control-structure:
 
@@ -2739,10 +2906,10 @@ Control structures are PHP statements that control the flow of execution.
 + match
 + declare
 + return
-+ require
-+ include
-+ require_once
-+ include_once
++ require()
++ include()
++ require_once()
++ include_once()
 + goto
 
 
@@ -2767,13 +2934,6 @@ Convention
 ----------
 
  
-
-.. code-block:: php
-   
-   <?php
-   
-   ?>
-
 
 .. _cookie:
 
@@ -3316,7 +3476,7 @@ Dereferencing is also possible to function and methods calls : when a function r
 
 See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functionarraydereferencing>`_, `Array Dereferencing in PHP <https://xpertdeveloper.com/php-array-dereferencing/>`_
 
-Related : :ref:`Functions <function>`, :ref:`Array <array>`
+Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <object>`
 
 .. _destructor:
 
@@ -3632,6 +3792,21 @@ The concept was coined in Andy Hunt and Dave Thomas's book The Pragmatic Program
 
 See also `The Pragmatic Programmer <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>`_, `Why DRY is the most over-rated programming principle <https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/>`_
 
+.. _dto:
+
+DTO
+---
+
+DTO stands for Data Transfer Object : it is an object that carries data between methods. 
+
+DTO is a class, and replaces arrays advantageously ; it has declared properties, with specified names; it may be used for typing, and hold methods. 
+
+
+
+`Documentation <https://en.wikipedia.org/wiki/Data_transfer_object>`__
+
+See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_
+
 .. _dynamic-call:
 
 Dynamic Call
@@ -3830,15 +4005,6 @@ Early Binding
 -------------
 
 Early binding is the fact that PHP allows using a class before its declaration in the same file. This is not always true, thought.
-
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
 
 `Documentation <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`__
 
@@ -4217,9 +4383,7 @@ The final keyword prevents child classes from overriding a method or a constant 
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also exception-chain
-
-Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Chaining Exceptions <exception-chain>`
 
 .. _exception-handler:
 
@@ -4365,7 +4529,9 @@ extends
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also implements, `Stop using “extends” in PHP <https://blog.devgenius.io/stop-using-extends-in-php-37c9da1cce83>`_
+See also `Stop using “extends” in PHP <https://blog.devgenius.io/stop-using-extends-in-php-37c9da1cce83>`_
+
+Related : :ref:`implements <implements>`
 
 .. _extension:
 
@@ -4408,7 +4574,7 @@ extract() has option to handle situations where the variables are already existi
 
 Options are :  ``EXTR_OVERWRITE``, ``EXTR_SKIP``, ``EXTR_PREFIX_SAME``, ``EXTR_PREFIX_ALL``, ``EXTR_PREFIX_INVALID``, ``EXTR_IF_EXISTS``, ``EXTR_PREFIX_IF_EXISTS``, ``EXTR_REFS``.
 
-It is the opposite of compact().
+This function is the opposite of compact().
 
 
 .. code-block:: php
@@ -4437,15 +4603,6 @@ A facade provides a simplified interface to a complex library. The facade hides 
 Facades tends to ease the initial understanding of the library. Later, it limits expert usage and introduce unexpected behavior in the code. 
 
 The Laravel framework is known for its intensive usage of facades.
-
-
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
 
 
 `Documentation <https://refactoring.guru/design-patterns/facade/php/example>`__
@@ -4951,9 +5108,7 @@ Function subscripting is the ability to apply operators like ->, ?-> or [<index>
 
 `Documentation <https://www.php.net/manual/en/functions.user-defined.php>`__
 
-See also deferencing
-
-Added in PHP 4.0
+Related : :ref:`Dereferencing <dereferencing>`
 
 .. _function:
 
@@ -5007,7 +5162,7 @@ Since garbage collection requires pausing the execution, PHP only runs it on-dem
 
 See also `Easy to understand PHP garbage collection mechanism <https://medium.com/geekculture/easy-to-understand-php-garbage-collection-mechanism-ee5c5bde5a5d>`_
 
-Related : :ref:`Zval <zval>`, :ref:`References <reference>`, 
+Related : :ref:`Zval <zval>`, :ref:`References <reference>`, :ref:`Reference Count <reference-count>`
 
 .. _generator:
 
@@ -5351,6 +5506,30 @@ See also `RFC 4229 : HTTP Header Field Registrations <https://datatracker.ietf.o
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTPS <https>`
 
+.. _HTTP_RAW_POST_DATA:
+
+HTTP_RAW_POST_DATA
+------------------
+
+`$HTTP_RAW_POST_DATA` contains the raw POST data. 
+
+In general, ``php://input`` should be used instead of `$HTTP_RAW_POST_DATA`.  
+
+This feature was removed in PHP 7.0.
+
+
+.. code-block:: php
+   
+   <?php
+   
+       // $a->file was filled with $_FILES at some point
+       move_uploaded_file($a->file['tmp_name'], $target);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
+
 .. _https:
 
 HTTPS
@@ -5371,8 +5550,6 @@ Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Tran
 `Documentation <https://en.wikipedia.org/wiki/HTTPS>`__
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`
-
-Removed in PHP 
 
 .. _http:
 
@@ -5561,6 +5738,11 @@ implements
 
 Implements is a keyword, dedicated to classes. It specify which interfaces a class implements.
 
+Implemented interfaces may be tested with types, instanceof, and is_a().
+
+The list of implemented interfaces is accessible with the class_implements() function.
+
+
 .. code-block:: php
    
    <?php
@@ -5583,7 +5765,7 @@ Implements is a keyword, dedicated to classes. It specify which interfaces a cla
    ?>
 
 
-`Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
+`Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php#language.oop5.interfaces.implements>`__
 
 Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`, :ref:`extends <extends>`
 
@@ -5817,17 +5999,9 @@ There are bad injections : all the security ones. SQL injection, PHP code inject
 
 
 
-.. code-block:: php
-   
-   <?php
-   
-   
-   ?>
-
-
 `Documentation <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`__
 
-Related : :ref:`Dependency Injection <dependency-injection>`, , , 
+Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, , 
 
 .. _instanceof:
 
@@ -6189,15 +6363,6 @@ An iterator is an object which can be traversed with a foreach() loop.
 An iterator may be turned into an array, with the iterator_to_array() function.
 
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 `Documentation <https://www.php.net/manual/en/class.iterator.php>`__
 
 Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Traversal <traversal>`, :ref:`Foreach <foreach>`
@@ -6222,7 +6387,7 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 
 `Documentation <https://www.php.net/json>`__
 
-See also `JSON <https://www.json.org/json-en.html>`__
+See also `JSON home <https://www.json.org/json-en.html>`_
 
 Added in PHP 5.0+
 
@@ -6445,15 +6610,6 @@ Liskov Substitution Principle
 
 The Liskov Substitution Principle states that an object from a class and a sub-object, from a class that extends that object, must be interchangeable without breaking the program.
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 `Documentation <https://en.wikipedia.org/wiki/Liskov_substitution_principle>`__
 
 See also `Liskov Substitution Principle in PHP <https://php.watch/articles/php-lsp>`_
@@ -6473,7 +6629,9 @@ list() may omit extracted values by skipping their value, and leaving seemingly 
 
 list() may be nested. It may also be used with foreach() structures.
 
-list() looks like a function, though it only appears on the left part of an assignation, and is actually a language-construct.
+list() looks like a function, though it is the only one to appears on the left part of an assignation, and is actually a language-construct.
+
+A list is also the name given to arrays where the index are the automatic ones. 
 
 
 
@@ -6491,6 +6649,12 @@ list() looks like a function, though it only appears on the left part of an assi
    foreach($rows as [$a, $b]) {
        print $a + $b\n;
    }
+   
+   // Only values are important here
+   $list = range(10, 12);
+   
+   // some keys are missing => not a list
+   $array = array(10, 4 => 12);
    
    ?>
 
@@ -6694,13 +6858,6 @@ Magic is mostly used in the sentence : 'There is too much magic in this code'. I
 Magic has only a remote relationship to PHP's magic constant and magic methods. 
 
 
-.. code-block:: php
-   
-   <?php
-   
-   ?>
-
-
 See also `Too much magic? <https://matthiasnoback.nl/2022/03/too-much-magic/>`_
 
 Related : :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`
@@ -6757,6 +6914,8 @@ Special methods, which provide extended support for PHP features.
 
 The magic methods are  : __call(), __callStatic(), __get(), __set(), __isset(), __unset(), __sleep(), __wakeup(), __toString(), __invoke(), __set_state(), __clone() and __debugInfo().
 
+The constructor and destructors are not considered as magic methods, even though they are reserved. 
+
 
 
 .. code-block:: php
@@ -6777,16 +6936,14 @@ The magic methods are  : __call(), __callStatic(), __get(), __set(), __isset(), 
 
 See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
+Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, , , :ref:`__sleep() method <-__sleep>`, , , :ref:`__invoke <-__invoke>`, 
 
 .. _magic-property:
 
 Magic Property
 --------------
 
-Special properties, which are not declared, but dynamically handled by 
+Special properties, which are not declared, but dynamically handled by the magic methods. They do not have specific declaration. 
 
 The magic methods to handle magic properties are :  __get(), __set(), __isset() and __unset().
 
@@ -6808,6 +6965,8 @@ The magic methods to handle magic properties are :  __get(), __set(), __isset() 
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`
 
 .. _match:
 
@@ -7081,6 +7240,8 @@ Argument names may be used when calling a method.
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_
 
 Related : :ref:`Positional Parameters <positional-parameter>`
 
@@ -7361,7 +7522,7 @@ Null represents the absence of data. It is the default value for objects.
 
 `Documentation <https://www.php.net/manual/en/language.types.null.php>`__
 
-See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_
+See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_
 
 Related : :ref:`Nullable <nullable>`
 
@@ -7591,15 +7752,6 @@ PHP has several ORM : Doctrine, Readbean, Eloquent, Propel.
 
 
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 `Documentation <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>`__
 
 See also `Doctrine <https://www.doctrine-project.org/>`_, `Redbean <https://redbeanphp.com/index.php>`_, `Eloquent <https://laravel.com/docs/5.0/eloquent>`_, `Propel <http://propelorm.org/>`_
@@ -7669,15 +7821,6 @@ The open–closed principle states that classes should be open for extension, bu
 
 The OCP is a general principle, that is applicable to PHP's structures.
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 `Documentation <https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle>`__
 
 See also `The Open Closed Principle <https://codeburst.io/introduction-a1ba1f72b13>`_
@@ -7724,7 +7867,7 @@ For example, in the code `1 + 2 * 3`, the order is the mathematical order : mult
 
 In PHP, operators have different predecence : `.` (dot) has a lower priority than addition `+` and `-`.  
 
-Precedence may lead to unexpected behavior. For example, `-9 ** 2 == -9`, because `-` has lower precedence of **. and PHP doesn't parse negative numbers in one pass. 
+Precedence may lead to unexpected behavior. For example, ``-9 ** 2 == -9``, because ``-`` has lower precedence than ``**``, and PHP doesn't parse negative numbers in one pass. 
 
 Also, `$a = $b & $c;` means that `$a = $b;`, because `=` has a higher priority than `&`.
 
@@ -8150,15 +8293,6 @@ Persistence also applies to database connexion, where the connexion is not close
 Persistent storage may also be called permanant storage. 
 
 
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
-
-
 .. _phar:
 
 Phar
@@ -8435,6 +8569,43 @@ PHP provides a large number of predefined variables. They may be super-global, a
 
 Related : :ref:`Superglobal variables <super-global>`
 
+.. _phpdoc:
+
+PHPdoc
+------
+
+PHPDoc is an adaptation of Javadoc for the PHP programming language. It is a formal way to comment certains PHP structures, that is machine readable.
+
+PHPDoc has a special token, to make it easier to extract it from the code.
+
+PHPdoc may be exploited by automated documentation tools, or static analyzer, IDE.
+
+
+
+.. code-block:: php
+   
+   <?php
+   /**
+    * Check if a number is prime
+    *
+    * @param int     $int       The number to test
+    *
+    * @return bool : is it prime or not
+    */
+    public function prime(int $int): bool {
+        // ...
+    }
+   
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/PHPDoc>`__
+
+See also `phpDocumentor <https://www.phpdoc.org/>`_
+
+Related : :ref:`Attributes <attribute>`
+
 .. _phpinfo:
 
 phpinfo()
@@ -8566,6 +8737,39 @@ Other constants come from extensions : for example, the Math extension defines M
 
 Related : :ref:`Constants <constant>`
 
+.. _prepared-query:
+
+Prepared Query
+--------------
+
+A prepared query is a compiled query, where data are provided as parameters.
+
+Instead of executing the query at once, the query is compiled first, and placeholders are filled later with the actual data. This prevents injections, as the data and the query are separated.
+
+Most PHP DB extensions support prepared statements. Prepared statement may also be available with other systems than SQL databases, such as Gremlin server. 
+
+
+.. code-block:: php
+   
+   <?php
+   // Example from PHP manual
+   /* Execute a prepared statement by passing an array of values */
+   $sth = $dbh->prepare('SELECT name, colour, calories
+       FROM fruit
+       WHERE calories < ? AND colour = ?');
+   $sth->execute(array(150, 'red'));
+   $red = $sth->fetchAll();
+   $sth->execute(array(175, 'yellow'));
+   $yellow = $sth->fetchAll();
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Prepared_statement>`__
+
+Related : :ref:`Simple Query Language (SQL) <sql>`
+
+Added in PHP 5.0+
+
 .. _preprocess:
 
 Preprocess
@@ -8646,7 +8850,7 @@ The private keyword cannot be used with the final keyword : a private method is 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`protected Keyword <protected>`, :ref:`public Keyword <public>`, :ref:`Var <var>`
 
 .. _promoted-property:
 
@@ -8730,6 +8934,34 @@ Related : :ref:`Type system <typehint>`
 
 Added in PHP 7.4
 
+.. _protected:
+
+protected Keyword
+-----------------
+
+The protected keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it restricts usage to the current class and its parents and children.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+       protected const X = 1;
+       
+       public function method() { 
+           echo self::X;
+       }
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
+
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`private Keyword <private>`, :ref:`public Keyword <public>`, :ref:`Var <var>`
+
 .. _protocol:
 
 Protocol
@@ -8752,6 +8984,37 @@ In a URL like `ftp://www.site.com/file.txt`, the protocol is `ftp`, and relates 
 `Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
 
 Related : :ref:`Wrapper <wrapper>`
+
+.. _public:
+
+public Keyword
+--------------
+
+The public keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it doesn't restrict usage.
+
+public is also the default visibility when it is omitted : 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	// public constant
+       const X = 1;
+       public $p = 2;
+   }
+   
+   $x = new x;
+   echo $x->p;
+   echo x::X;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
+
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`private Keyword <private>`, :ref:`protected Keyword <protected>`, :ref:`Var <var>`
 
 .. _random:
 
@@ -8941,6 +9204,22 @@ Recursion is an abstract notion : it is also used in the PHP name itself. PHP : 
 See also `Recursion in PHP - when to use and how <https://phpenthusiast.com/blog/recursion-in-php>`_
 
 Related : :ref:`Functions <function>`
+
+.. _reference-count:
+
+Reference Count
+---------------
+
+Reference counting is the way PHP keeps track of the usage of a value.
+
+The count starts at 1 when the value is created, and it is increased when the value is passed around. It is decreased when the value is deleted or modified. When the reference count is zero, the value may be removed from the memory safely. 
+
+Reference counting is a feature of the PHP engine : code usually uses it transparently. The only possible interaction is when using the garbage collector.
+
+
+`Documentation <https://www.php.net/manual/en/features.gc.refcounting-basics.php>`__
+
+Related : :ref:`Garbage Collection <garbage-collection>`, :ref:`Zval <zval>`
 
 .. _reference:
 
@@ -9398,6 +9677,50 @@ It is also possible to find inconsistencies between the name and its usage. For 
    ?>
 
 
+.. _semicolon:
+
+Semicolon
+---------
+
+Semicolon is used to mark the end of a statement. 
+
+It is also used in the for() statement, to separate the initialization, the terminaison and the increment. When using several statement between those semicolons, they must be separated with a comma.
+
+Semicolons may also be used instead of colons, in a case statement.
+
+Semicolons may be omitted, before a closing PHP tag.
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   $a = 1; $b = 2;
+   
+   // multi-statement usage in for()
+   for($i = 0, $j = 0; $i < 10; ++$i, ++$j) {
+   	print $i $j\n;
+   }
+   
+   switch($a) {
+   	case 1;
+   		$a = 2;
+   		break;
+   		
+   	default; 
+   		$a = 1;
+   }
+   
+   // semi colon may be omitted before the closing tag.
+   $c = 1
+   ?>
+   
+
+
+Related : :ref:`Colon <colon>`, :ref:`Switch <switch>`, :ref:`For <for>`, :ref:`Statement <statement>`
+
 .. _serialization:
 .. _serialize:
 
@@ -9711,7 +10034,7 @@ The SimpleXML extension provides a very simple and easily usable toolset to conv
 
 `Documentation <https://www.php.net/manual/en/book.simplexml.php>`__
 
-See also xmlwriter, xmlreader, xml
+Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`XML <xml>`
 
 Added in PHP 5.0+
 
@@ -9793,7 +10116,7 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 
 `Documentation <https://en.wikipedia.org/wiki/Singleton_pattern>`__
 
-See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_
+See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_, `Stop Using Singleton Pattern <https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2>`_
 
 Related : 
 
@@ -9835,15 +10158,6 @@ SOLID is an acronym for a set of OOP design principle. They were coined by Rober
 
 Each principle may be used independently. Those principle are not dedicated to PHP, though they may be used in PHP. 
 
-
-
-.. code-block:: php
-   
-   
-   <?php
-   
-   ?>
-   
 
 
 `Documentation <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>`__
@@ -9964,6 +10278,39 @@ Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehi
 
 Added in PHP 7.0
 
+.. _sql-injection:
+
+SQL injection
+-------------
+
+A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query. 
+
+In the example below, `$_GET` are directly used inside the query. By using a clever string (shown in comment), it is possible to bypass the whole condition and get access to any user. 
+
+Among the solutions to mitigate this problem : filter adequately the incoming data; use prepared statements. 
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // $_GET['name'] = '" OR 1 = 1 OR "';
+   $SQL_query = "SELECT * FROM users WHERE name=\"".$_GET['name']."\" AND password=\\.$_GET['pass']."\\;
+   
+   $connexion->query($SQL_query);
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/security.database.sql-injection.php>`__
+
+See also `SQL Injection in PHP Web Applications <https://brightsec.com/blog/php-sql-injection/>`_
+
+Related : :ref:`Semicolon <semicolon>`, :ref:`Prepared Query <prepared-query>`, :ref:`Injection <injection>`
+
 .. _sqlite:
 
 Sqlite3
@@ -10059,6 +10406,21 @@ One of the most famous SPL features is the function spl_autoload_register(), whi
 `Documentation <https://www.php.net/manual/en/book.spl.php>`__
 
 Related : :ref:`Class Autoloading <autoload>`
+
+.. _statement:
+
+Statement
+---------
+
+A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement). 
+
+Statements usually end with a semicolon. 
+
+In addition, statements can be grouped into a statement-group by encapsulating a group of statements with curly braces. A statement-group is a statement by itself as well. 
+
+`Documentation <https://www.php.net/manual/en/control-structures.intro.php>`__
+
+Related : :ref:`Semicolon <semicolon>`
 
 .. _static:
 
@@ -10186,6 +10548,8 @@ Variables that reside in one method's scope, even after the method's end.
 
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
+
+See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`
 
@@ -11395,6 +11759,31 @@ Validation is also called filtering.
 
 Related : :ref:`Sanitation <sanitation>`
 
+.. _value-object:
+
+Value Object
+------------
+
+A value object is an object is defined only by its properties. In particular, a value object has no identifier.
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   class person {
+   	public $name;
+   	public $lastName;
+   }
+   
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Value_object>`__
+
+See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_
+
 .. _valueerror:
 
 ValueError
@@ -11435,7 +11824,7 @@ var keyword for introducing PHP properties in classes. It is now replaced by vis
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties>`__
 
-Related : :ref:`Visibility <visibility>`
+Related : :ref:`Visibility <visibility>`, :ref:`protected Keyword <protected>`, :ref:`private Keyword <private>`, :ref:`public Keyword <public>`
 
 .. _variable-argument:
 
@@ -11863,7 +12252,7 @@ The XMLReader extension is an XML Pull parser. The reader acts as a cursor going
 
 `Documentation <https://www.php.net/manual/en/book.xmlreader.php>`__
 
-See also xmlwriter, xml
+Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XML <xml>`
 
 Added in PHP 5.0+
 
@@ -11904,7 +12293,7 @@ This is the XMLWriter extension. It wraps the libxml xmlWriter API.
 
 `Documentation <https://www.php.net/manual/en/book.xmlwriter.php>`__
 
-See also xmlreader, xmlwriter
+Related : :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`
 
 Added in PHP 5.0+
 

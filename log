@@ -1,39 +1,29 @@
 Running Sphinx v4.1.2
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
-building [html]: targets for 2 source files that are out of date
-updating environment: [new config] 2 added, 0 changed, 0 removed
-reading sources... [ 50%] dictionary
-reading sources... [100%] index
+building [html]: targets for 4 source files that are out of date
+updating environment: [new config] 4 added, 0 changed, 0 removed
+reading sources... [ 25%] dictionary
+reading sources... [ 50%] index
+reading sources... [ 75%] introduction
+reading sources... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7544: WARNING: Inline strong start-string without end-string.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "xdebug".
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
 preparing documents... done
-writing output... [ 50%] dictionary
-writing output... [100%] index
+writing output... [ 25%] dictionary
+writing output... [ 50%] index
+writing output... [ 75%] introduction
+writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2661: WARNING: undefined label: statement
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2661: WARNING: undefined label: semicolon
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2919: WARNING: undefined label: active-record
-/Users/famille/Desktop/php-dictionary/dictionary.rst:4932: WARNING: undefined label: reference-count
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5752: WARNING: undefined label: sql-injection
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5752: WARNING: undefined label: code-injection
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5752: WARNING: undefined label: csv-injection
-/Users/famille/Desktop/php-dictionary/dictionary.rst:9608: WARNING: undefined label: design-pattern
-/Users/famille/Desktop/php-dictionary/dictionary.rst:9663: WARNING: undefined label: srp
-/Users/famille/Desktop/php-dictionary/dictionary.rst:9663: WARNING: undefined label: isp
-/Users/famille/Desktop/php-dictionary/dictionary.rst:9663: WARNING: undefined label: dip
-/Users/famille/Desktop/php-dictionary/dictionary.rst:10902: WARNING: undefined label: file
-/Users/famille/Desktop/php-dictionary/dictionary.rst:962: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1086: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done
 copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 15 warnings.
+build succeeded, 1 warning.
 
 The HTML pages are in _build/html.
