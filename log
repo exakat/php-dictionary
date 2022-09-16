@@ -17,7 +17,7 @@ writing output... [ 50%] index
 writing output... [ 75%] introduction
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1086: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1212: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done

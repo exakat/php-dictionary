@@ -41,9 +41,16 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="thesaurus.html">Thesaurus</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#acronym">Acronym</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#attribute">Attribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#concept">Concept</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#control-flow">Control flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#directive">Directive</a></li>
 <li class="toctree-l2"><a class="reference internal" href="thesaurus.html#exception">Exception</a></li>
 <li class="toctree-l2"><a class="reference internal" href="thesaurus.html#keyword">Keyword</a></li>
 <li class="toctree-l2"><a class="reference internal" href="thesaurus.html#language-construct">Language construct</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#type">Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thesaurus.html#magic-method">Magic method</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="dictionary.html">PHP Dictionary</a><ul>
@@ -53,10 +60,13 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#request">$_REQUEST</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#php-errormsg">$php_errormsg</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#this">$this</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#call-method">__call() method</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#callstatic-method">__callStatic() method</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#clone">__clone</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#get-method">__get() method</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#halt-compiler">__halt_compiler()</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#invoke">__invoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#isset-method">__isset() method</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#serialize">__serialize</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#set-method">__set() method</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#sleep-method">__sleep() method</a></li>
@@ -140,6 +150,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#covariance">Covariance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#crypto">Cryptography</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#csv">CSV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#csv-injection">CSV injection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#curl">Curl</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#data-mapper">Data Mapper</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#data-source-name-dsn">Data Source Name (DSN)</a></li>
@@ -185,13 +196,14 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#error">Error</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#error-handler">Error Handler</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#escape-character">Escape Character</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#escape-data">Escape Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#escape-sequences">Escape Sequences</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#eval">Eval</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#event-driven">Event driven</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#exception">Exception</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#exception-handler">Exception Handler</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#exit-class-constants">Exit Class Constants</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id110">Exponent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id112">Exponent</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#exp">Exponential</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#extends">extends</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#extensions">Extensions</a></li>
@@ -215,6 +227,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#functions">Functions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#gc">Garbage Collection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#generator">Generator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#generics">Generics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#glob">glob</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#global-variables">Global Variables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#globals-the-variable">GLOBALS, the variable</a></li>
@@ -252,7 +265,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#interpolation">Interpolation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#intersection-type">Intersection Type</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#invalidargumentexception">InvalidArgumentException</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#isset">isset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id158">isset</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#iterable-keyword">Iterable Keyword</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#iterator">Iterator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#json">JSON</a></li>
@@ -265,7 +278,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#lint">Linting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#liskov-substitution-principle">Liskov Substitution Principle</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#list">list</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#literal">literal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#literal">Literal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#local-file-inclusion">Local File Inclusion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#locale">Locale</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#logical-operators">Logical operators</a></li>
@@ -276,6 +289,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#magic-methods">Magic Methods</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#magic-property">Magic Property</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#match">Match</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#max-execution-time">max_execution_time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#memoization">Memoization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#method">Method</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#mixed-return-type">Mixed return type</a></li>
@@ -300,13 +314,14 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#nullsafe">Nullsafe</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#numeric-separator">Numeric Separator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#object">Object</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#object-operator">Object Operator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#object-nullsafe-operator">Object Nullsafe Operator ?-&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#object-operator">Object Operator -&gt;</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#object-relationanl-mapping-orm">Object Relationanl Mapping (ORM)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#octal">Octal Integer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#opcode">Opcode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#open-closed-principle">Open Closed Principle</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#openssl">OpenSSL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id191">Operator Precedence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id197">Operator Precedence</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#operators">Operators</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#optional-parameter">Optional Parameter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#outgoing-data">Outgoing Data</a></li>
@@ -337,6 +352,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#phpdoc">PHPdoc</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#phpinfo">phpinfo()</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#plus">plus +</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#portability">Portability</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#positional-parameters">Positional Parameters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#precedence">Precedence</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#predefined-constants">Predefined Constants</a></li>
@@ -371,11 +387,11 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#sanitization">Sanitation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#sapi">SAPI</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#scalar-typehints">Scalar Typehints</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#scope-resolution-operator">Scope Resolution Operator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#paamayim-nekudotayim">Scope Resolution Operator ::</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#self">Self</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#semantics">Semantics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#semicolon">Semicolon</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id237">Serialization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id244">Serialization</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#session">Session</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#shallow-clone">Shallow clone</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#short-assignations">Short assignations</a></li>
@@ -387,7 +403,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#simplexml">SimpleXML</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#single-quotes-strings">Single Quotes Strings</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#singleton">Singleton</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id247">sleep</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#id254">sleep</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#solid">SOLID</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#sorting">Sort</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#spaceship-operator">Spaceship operator</a></li>
@@ -414,6 +430,7 @@
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#switch-fallthrough">Switch Fallthrough</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#system-call">System Call</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#ternary-operator">Ternary operator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dictionary.html#test">Test</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#throw">throw</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#throwable">Throwable</a></li>
 <li class="toctree-l2"><a class="reference internal" href="dictionary.html#tick">Tick</a></li>

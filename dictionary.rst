@@ -9,10 +9,13 @@ PHP Dictionary
    * :ref:`$php_errormsg <$php_errormsg>`
    * :ref:`$this <$this>`
 * _
+   * :ref:`__call() method <-__call>`
+   * :ref:`__callStatic() method <-__callStatic>`
    * :ref:`__clone <-__clone>`
    * :ref:`__get() method <-__get>`
    * :ref:`__halt_compiler() <halt-compiler>`
    * :ref:`__invoke <-__invoke>`
+   * :ref:`__isset() method <-__isset>`
    * :ref:`__serialize <-__serialize>`
    * :ref:`__set() method <-__set>`
    * :ref:`__sleep() method <-__sleep>`
@@ -52,6 +55,7 @@ PHP Dictionary
    * :ref:`basename <basename>`
 * C
    * :ref:`CSV <csv>`
+   * :ref:`CSV injection <csv-injection>`
    * :ref:`Callables <callable>`
    * :ref:`Callback <callback>`
    * :ref:`Cast operator <cast>`
@@ -145,6 +149,7 @@ PHP Dictionary
    * :ref:`Error <error>`
    * :ref:`Error Handler <error-handler>`
    * :ref:`Escape Character <escape-character>`
+   * :ref:`Escape Data <escape-data>`
    * :ref:`Escape Sequences <escape-sequence>`
    * :ref:`Eval <eval>`
    * :ref:`Event driven <event-driven>`
@@ -179,6 +184,7 @@ PHP Dictionary
    * :ref:`GLOBALS, the variable <globals>`
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
+   * :ref:`Generics <generics>`
    * :ref:`Global Variables <global-variable>`
    * :ref:`glob <glob>`
    * :ref:`goto Keyword <goto>`
@@ -230,6 +236,7 @@ PHP Dictionary
    * :ref:`LengthException <lengthexception>`
    * :ref:`Linting <linting>`
    * :ref:`Liskov Substitution Principle <lsp>`
+   * :ref:`Literal <literal>`
    * :ref:`Local File Inclusion <lfi>`
    * :ref:`Locale <locale>`
    * :ref:`LogicException <logicexception>`
@@ -237,7 +244,6 @@ PHP Dictionary
    * :ref:`Loops <loop>`
    * :ref:`libsodium <libsodium>`
    * :ref:`list <list>`
-   * :ref:`literal <literal>`
 * M
    * :ref:`Magic <magic>`
    * :ref:`Magic Constants <magic-constant>`
@@ -249,6 +255,7 @@ PHP Dictionary
    * :ref:`Mixed return type <mixed>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
+   * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
    * :ref:`Named Constructors <named-constructor>`
@@ -270,7 +277,8 @@ PHP Dictionary
    * :ref:`new <new>`
 * O
    * :ref:`Object <object>`
-   * :ref:`Object Operator <object-operator>`
+   * :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
+   * :ref:`Object Operator -> <object-operator>`
    * :ref:`Object Relationanl Mapping (ORM) <orm>`
    * :ref:`Octal Integer <octal-integer>`
    * :ref:`Opcode <opcode>`
@@ -304,6 +312,7 @@ PHP Dictionary
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
    * :ref:`PharException <pharexception>`
+   * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Precedence <precedence>`
    * :ref:`Predefined Constants <predefined-constant>`
@@ -347,7 +356,7 @@ PHP Dictionary
    * :ref:`SSL <ssl>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scalar Typehints <scalar-typehint>`
-   * :ref:`Scope Resolution Operator <scope-resolution-operator>`
+   * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon <semicolon>`
@@ -389,6 +398,7 @@ PHP Dictionary
 * T
    * :ref:`TLS <tls>`
    * :ref:`Ternary operator <ternary>`
+   * :ref:`Test <test>`
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
    * :ref:`Trailing Comma <trailing-comma>`
@@ -635,6 +645,88 @@ $this is also called a pseudo-variable. There is no special variable called `$th
 
 See also `PHP $this <https://www.phptutorial.net/php-oop/php-this/>`_
 
+.. _-__call:
+
+__call() method
+---------------
+
+__call() is a magic method : it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
+
+That way, it is possible to create dynamically methods, without hardcoding them. 
+
+The __call() method receives the name of the target-method, and a list of argument. 
+
+The __call() method has a related version for static methods, called `__callStatic`.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $values = ['a' => 1,
+   					   'b' => 2,
+   					   ];
+   
+   	// Checks the dictionary, or return 0
+   	function __call($name, $args) {
+   		if (method_exists($this, $name)) {
+   			return $this->$name(...$args);
+   		}
+   		
+   		return 0;
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() method <-__callStatic>`
+
+.. _-__callStatic:
+
+__callStatic() method
+---------------------
+
+__callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
+
+That way, it is possible to create dynamically static (sic) methods, without hardcoding them. 
+
+The __call() method receives the name of the target-method, and a list of argument. 
+
+The __call() method has a related version for static methods, called `__callStatic`.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $values = ['a' => 1,
+   					   'b' => 2,
+   					   ];
+   
+   	// Checks the dictionary, or return 0
+   	function __call($name, $args) {
+   		if (method_exists($this, $name)) {
+   			return $this->$name(...$args);
+   		}
+   		
+   		return 0;
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() method <-__callStatic>`
+
 .. _-__clone:
 
 __clone
@@ -768,6 +860,40 @@ The __invoke() magic method is called when a script tries to call an object as a
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.invoke>`__
 
 Related : :ref:`Magic Methods <magic-method>`
+
+.. _-__isset:
+
+__isset() method
+----------------
+
+__isset() is a magic method : it is called when the existence of a property has to be checked.
+
+That way, it is possible to create dynamically properties, without hardcoding them. 
+
+The __isset() method is usually paired with the __get() and __set() methods. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $values = ['a' => 1,
+   					   'b' => 2,
+   					   ];
+   
+   	function __isset($name) {
+   		return isset($this->values[$name]);
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.overloading.php#object.isset>`__
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__set() method <-__set>`, :ref:`__get() method <-__get>`
 
 .. _-__serialize:
 
@@ -1912,7 +2038,7 @@ The previous exception is available with the `getPrevious()` method of the Excep
 
 `Documentation <https://en.wikipedia.org/wiki/Exception_chaining>`__
 
-Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`
 
 .. _class-alias:
 
@@ -2366,7 +2492,7 @@ Collections may be build with array, or dedicated classes.
 
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_
 
-Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, , 
+Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, , :ref:`Generics <generics>`
 
 .. _colon:
 
@@ -2400,7 +2526,7 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`goto Keyword <goto>`, :ref:`Ternary operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, 
+Related : :ref:`goto Keyword <goto>`, :ref:`Ternary operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
 
 .. _comma:
 
@@ -3083,6 +3209,27 @@ PHP has several dedicated native functions to read and write from those files : 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Comma-separated_values>`__
+
+.. _csv-injection:
+
+CSV injection
+-------------
+
+A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell. Formulas in cells starts usually with `=`, and may also use `+`, `-`, `@`, tabulation and carriage return.
+
+Depending on the opening spreadsheet software, various targets may be achieved, ranging from sending local data to a remote server, to take over the computer. 
+
+CSV injections rarely target PHP itself, as it is not a spreadsheet, nor support formulas in CSV files. Also, components such as `PHPspreadsheet` are able to run a wide range of formulas. 
+
+PHP may relay an injection by saving it in a CSV file. 
+
+
+
+`Documentation <https://owasp.org/www-community/attacks/CSV_Injection>`__
+
+See also `The Absurdly Underestimated Dangers of CSV Injection <http://georgemauer.net/2017/10/07/csv-injection.html>`_, `Everything about CSV Injection and CSV Excel Macro Injection <https://blog.securelayer7.net/how-to-perform-csv-excel-macro-injection/>`_
+
+Related : :ref:`Semicolon <semicolon>`, :ref:`Escape Data <escape-data>`, :ref:`Injection <injection>`
 
 .. _curl:
 
@@ -4283,6 +4430,23 @@ In PHP's strings and HEREDOC, the escape character is the backslash : \
 
 See also `String literals (MySQL) <https://dev.mysql.com/doc/refman/8.0/en/string-literals.html>`_
 
+.. _escape-data:
+
+Escape Data
+-----------
+
+Escaping data is a method to write data in a neutral syntax for a target technology. 
+
+For example, angular brackets and quotes are special characters for HTML : to display them without their actual HTML meaning, they have to be escaped as HTML entities, such as &quote or &gt;. 
+
+Escaping applies to technologies which mix raw strings and executable expression : SQL, CSV, HTML, LDAP, etc. 
+
+Escaping data replace some symbols with a longer sequence of symbols. The escaping is made with a special character, which must itself be escaped. For example, CSV escapes anti-slash with a double anti-slash.
+
+PHP supports escape sequences for characters in a string. This is the same concept of escaping data : there, the target includes portability.
+
+
+
 .. _escape-sequence:
 
 Escape Sequences
@@ -5197,6 +5361,26 @@ See also `Do generators really reduce the memory usage? <https://phpdelusions.ne
 
 Related : :ref:`Yield <yield>`, :ref:`yield from Keyword <yield-from>`, :ref:`Return Typehint <return-typehint>`
 
+.. _generics:
+
+Generics
+--------
+
+Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level. 
+
+The generics syntax looks like : `$users = new List<User>();` where `List` is a class that holds a list of items, and those items are of the type between brackets. Here, it is `User`.
+
+Generics allows the creation of general classes, that can process several types of data. The actual application's type is declared in the type itself. This is similar to configure an array to only handle one type of elements.
+
+Generics have been submitted as RFC since 2016, and are currently not implemented, in the forseeable future. 
+
+One implementation of generics is available, with transpiling : see `mrsuh/php-generics`
+
+
+`Documentation <https://stitcher.io/blog/generics-in-php-1>`__
+
+See also `Why we can't have generics in PHP <https://stitcher.io/blog/generics-in-php-3>`_, `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_, `mrsuh/php-generics <https://github.com/mrsuh/php-generics>`_
+
 .. _glob:
 
 glob
@@ -6001,7 +6185,7 @@ There are bad injections : all the security ones. SQL injection, PHP code inject
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`__
 
-Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, , 
+Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, , :ref:`CSV injection <csv-injection>`
 
 .. _instanceof:
 
@@ -6323,7 +6507,7 @@ Isset() is also related to the magic method __isset(), which is used to determin
 
 `Documentation <https://www.php.net/manual/en/function.isset.php>`__
 
-Related : :ref:`Magic Methods <magic-method>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__isset() method <-__isset>`
 
 .. _iterable:
 
@@ -6667,10 +6851,14 @@ Related : :ref:`Array <array>`
 
 .. _literal:
 
-literal
+Literal
 -------
 
 A literal is a hard coded value in the source.
+
+There can be literal of type int, float, boolean, null, array. 
+
+Objects and resources cannot be hardcoded, though their creation call may be. 
 
 
 
@@ -6678,26 +6866,17 @@ A literal is a hard coded value in the source.
    
    <?php
    
-   class X {
-       private $property;
-       
-       function __construct($value) {
-           $this->property = $value;
-       }
-   }
+   // Literal 1 to $a
+   $a = 1;
    
-   $x = new X(1);
-   
+   // The object is created during execution.
+   $b = new X();
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
 Related : :ref:`Destructor <destructor>`
-
-Added in PHP 4.0
-
-Removed in PHP 4.0
 
 .. _lfi:
 
@@ -6936,7 +7115,7 @@ The constructor and destructors are not considered as magic methods, even though
 
 See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_
 
-Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, , , :ref:`__sleep() method <-__sleep>`, , , :ref:`__invoke <-__invoke>`, 
+Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, , , :ref:`__invoke <-__invoke>`, 
 
 .. _magic-property:
 
@@ -6995,6 +7174,25 @@ See also `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/
 Related : :ref:`Switch <switch>`, :ref:`If Then Else <if-then>`
 
 Added in PHP 8.0
+
+.. _max_execution_time:
+
+max_execution_time
+------------------
+
+The `max_execution_time` directive sets the maximum amount of time that PHP will work on an application. 
+
+The default value is 30 seconds. It may be lowered down to 1 second, or set to infinity with -1.
+
+`max_execution_time` may be changed from the code with set_time_limit(). This function may also be disabled, and not available.
+
+It is recommended to set this value as low as possible, and optimize the code to run below that limit.
+
+
+
+`Documentation <https://www.php.net/manual/en/ini.core.php#ini.max-execution-time>`__
+
+See also `PHP max_execution_time Guide <https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time>`_
 
 .. _memoization:
 
@@ -7241,7 +7439,7 @@ Argument names may be used when calling a method.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_
+See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_
 
 Related : :ref:`Positional Parameters <positional-parameter>`
 
@@ -7558,7 +7756,7 @@ The Null Safe Object Operator behaves like the object operator, until the object
 
 See also `This nullsafe operator could come in PHP 8 <https://www.amitmerchant.com/nullsafe-operator-php/>`_
 
-Related : :ref:`Object Operator <object-operator>`, :ref:`Scope Resolution Operator <scope-resolution-operator>`
+Related : :ref:`Object Operator -> <object-operator>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 
 Added in PHP 8.0+
 
@@ -7697,6 +7895,9 @@ PHP includes a complete object model. Some of its features are: visibility, abst
        echo $i++;  
    } while ($i <= 10);
    
+   $a = new A;
+   var_dump($a instanceof object);
+   
    ?>
    
 
@@ -7705,12 +7906,49 @@ PHP includes a complete object model. Some of its features are: visibility, abst
 
 Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`clone <clone>`, :ref:`Type system <type>`
 
+.. _object-nullsafe-operator:
+
+Object Nullsafe Operator ?->
+----------------------------
+
+The object nullsafe operator is an operator which gives access to properties and methods of an object.
+
+Depending on the context, those properties and methods must be public or protected.
+
+Object Nullsafe Operator is directly related to the Object operator : the difference is that the former keeps on executing when the support object is null, while the second stops with a fatal error.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = ['a' => (new stdClass)->a = 1, ];
+   
+   // displays 1
+   echo $array['a']?->a;
+   
+   // displays null, so nothing
+   echo $array['b']?->a;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
+
+See also `Object Operator in PHP <https://www.delftstack.com/howto/php/php-object-operator/>`_
+
+Related : :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
+
 .. _object-operator:
 
-Object Operator
----------------
+Object Operator ->
+------------------
 
 The Object Operator is the operator to access properties and methods from an object. 
+
+Depending on the context, those properties and methods must be public or protected.
+
+Object Nullsafe Operator is directly related to the Object operator : the difference is that the former keeps on executing when the support object is null, while the second stops with a fatal error.
 
 .. code-block:: php
    
@@ -7737,7 +7975,7 @@ The Object Operator is the operator to access properties and methods from an obj
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
-Related : :ref:`Null Safe Object Operator <nullsafe-object-operator>`, :ref:`Scope Resolution Operator <scope-resolution-operator>`
+Related : :ref:`Null Safe Object Operator <nullsafe-object-operator>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 
 .. _orm:
 
@@ -8650,6 +8888,19 @@ plus +
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
+
+.. _portability:
+
+Portability
+-----------
+
+Portability is the capacity of a PHP application to run on different platform. 
+
+PHP is quite portable by itself : the vast majority of the codes runs on every plat-forms.
+
+On the other hands, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms. Such non-portable features should not be used, or made optional in code for which portability is important.
+
+
 
 .. _positional-parameter:
 
@@ -9595,15 +9846,17 @@ Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehi
 Added in PHP 7.0
 
 .. _scope-resolution-operator:
+.. _double-colon:
+.. _paamayim-nekudotayim:
 
-Scope Resolution Operator
--------------------------
+Scope Resolution Operator ::
+----------------------------
 
 The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class.
 
 Traditionnally, this used to be a feature of the function get_class(). The operator is more modern and faster. 
 
-
+This operator is often called double-colon, or `paamayim-nekudotayim` : this is double-colon in hebrew.
 
 .. code-block:: php
    
@@ -9621,9 +9874,7 @@ Traditionnally, this used to be a feature of the function get_class(). The opera
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
+Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
 
 .. _self:
 
@@ -10920,6 +11171,35 @@ The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates
 See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
 Added in PHP 7.0+
+
+.. _test:
+
+Test
+----
+
+Tests are tools that monitor the behavior of a code. The code should produce the expected results that are provided in the tests.
+
+There are many different types of tests : 
+
++ Unit test : close to the class level of the code
++ Integration test : they check that components collaborate nicely
++ Functional tests : close to the specifications and the business level
++ End-to-end tests : they run the software from beginning to the end
++ Performance tests : tests focusing on the behavior of the software under load
++ Acceptance tests : the tests that the sofware must pass to be accepted by the end user
++ Smoke tests : tests that quickly detect a problem in the software. They are the most obvious. 
++ Exploratory tests : when tests are used to check new behavior of the code
++ Regression tests : tests that ensures that previous behaviors are still behaving the same
++ Fuzzing : testing the sofware with random data
+
+Tests may be manual, when they are executed manually. Those are not recorded. Test may be automated, when they are executed by another piece of software. 
+
+PHP has several testing framework : PHPunit, pest, pint, simpletest, atoum.
+
+Tests are often further automated in a Continuous Integration Pipeline.
+
+
+Related : 
 
 .. _throw:
 
