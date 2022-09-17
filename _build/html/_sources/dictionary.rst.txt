@@ -20,6 +20,7 @@ PHP Dictionary
    * :ref:`__set() method <-__set>`
    * :ref:`__sleep() method <-__sleep>`
    * :ref:`__unserialize <-__unserialize>`
+   * :ref:`__wakeup() <-__wakeup>`
 * A
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree <ast>`
@@ -71,9 +72,11 @@ PHP Dictionary
    * :ref:`Class aliases <class-alias>`
    * :ref:`Class constant <class-constant>`
    * :ref:`Classes <class>`
+   * :ref:`Clone <clone>`
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce operator <coalesce>`
+   * :ref:`Code Injection <code-injection>`
    * :ref:`Coding Conventions <coding-convention>`
    * :ref:`Collection <collection>`
    * :ref:`Colon <colon>`
@@ -101,7 +104,6 @@ PHP Dictionary
    * :ref:`Cryptography <cryptography>`
    * :ref:`Curl <curl>`
    * :ref:`case <case>`
-   * :ref:`clone <clone>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
 * D
@@ -112,7 +114,7 @@ PHP Dictionary
    * :ref:`Dates <date>`
    * :ref:`Debugger <debugger>`
    * :ref:`Deep clone <deep-clone>`
-   * :ref:`Default Keyword <default>`
+   * :ref:`Default <default>`
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
    * :ref:`Dependency Injection <dependency-injection>`
@@ -140,6 +142,7 @@ PHP Dictionary
    * :ref:`disable functions <disable-functions>`
 * E
    * :ref:`Early Binding <early-binding>`
+   * :ref:`Echo <echo>`
    * :ref:`Echo Tag <echo-tag>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Empty <empty>`
@@ -151,7 +154,7 @@ PHP Dictionary
    * :ref:`Escape Character <escape-character>`
    * :ref:`Escape Data <escape-data>`
    * :ref:`Escape Sequences <escape-sequence>`
-   * :ref:`Eval <eval>`
+   * :ref:`Eval() <eval>`
    * :ref:`Event driven <event-driven>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
@@ -159,7 +162,6 @@ PHP Dictionary
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
    * :ref:`Extensions <extension>`
-   * :ref:`echo <echo>`
    * :ref:`extends <extends>`
    * :ref:`extract() <extract>`
 * F
@@ -176,7 +178,7 @@ PHP Dictionary
    * :ref:`For <for>`
    * :ref:`Foreach <foreach>`
    * :ref:`Fossilized Methods <fossilized-method>`
-   * :ref:`Frameworks <framework>`
+   * :ref:`Framework <framework>`
    * :ref:`Fully Qualified Name <fully-qualified-name>`
    * :ref:`Function Subscripting <function-subscripting>`
    * :ref:`Functions <function>`
@@ -186,9 +188,9 @@ PHP Dictionary
    * :ref:`Generator <generator>`
    * :ref:`Generics <generics>`
    * :ref:`Global Variables <global-variable>`
+   * :ref:`Goto <goto>`
+   * :ref:`Goto Labels <label>`
    * :ref:`glob <glob>`
-   * :ref:`goto Keyword <goto>`
-   * :ref:`goto Labels <label>`
 * H
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
@@ -220,22 +222,23 @@ PHP Dictionary
    * :ref:`Interpolation <interpolation>`
    * :ref:`Intersection Type <intersection-type>`
    * :ref:`InvalidArgumentException <invalidargumentexception>`
-   * :ref:`Iterable Keyword <iterable>`
+   * :ref:`Isset <isset>`
+   * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`
    * :ref:`implements <implements>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
-   * :ref:`isset <isset>`
 * J
    * :ref:`JSON <json>`
    * :ref:`JsonException <jsonexception>`
 * L
    * :ref:`Language construct <language-construct>`
-   * :ref:`Late Static Bindings <late-static-binding>`
+   * :ref:`Late Static Binding <late-static-binding>`
    * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Linting <linting>`
    * :ref:`Liskov Substitution Principle <lsp>`
+   * :ref:`List <list>`
    * :ref:`Literal <literal>`
    * :ref:`Local File Inclusion <lfi>`
    * :ref:`Locale <locale>`
@@ -243,16 +246,16 @@ PHP Dictionary
    * :ref:`Logical operators <logical-operator>`
    * :ref:`Loops <loop>`
    * :ref:`libsodium <libsodium>`
-   * :ref:`list <list>`
 * M
    * :ref:`Magic <magic>`
    * :ref:`Magic Constants <magic-constant>`
    * :ref:`Magic Methods <magic-method>`
    * :ref:`Magic Property <magic-property>`
+   * :ref:`Map <map>`
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
    * :ref:`Method <method>`
-   * :ref:`Mixed return type <mixed>`
+   * :ref:`Mixed <mixed>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
    * :ref:`max_execution_time <max_execution_time>`
@@ -263,8 +266,8 @@ PHP Dictionary
    * :ref:`Namespaces <namespace>`
    * :ref:`Native <native>`
    * :ref:`Nested Attributes <nested-attributes>`
+   * :ref:`Never <never>`
    * :ref:`Never Typehint <never-typehint>`
-   * :ref:`Never return type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
    * :ref:`Non breakable spaces <non-breakable-space>`
    * :ref:`Nowdocs <nowdoc>`
@@ -317,19 +320,19 @@ PHP Dictionary
    * :ref:`Precedence <precedence>`
    * :ref:`Predefined Constants <predefined-constant>`
    * :ref:`Prepared Query <prepared-query>`
-   * :ref:`Preprocess <preprocess>`
+   * :ref:`Preprocessing <preprocess>`
    * :ref:`Print <print>`
+   * :ref:`Private Visibility <private>`
    * :ref:`Promoted Properties <promoted-property>`
    * :ref:`Properties <property>`
    * :ref:`Property Type Declaration <type-declaration-property>`
+   * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
+   * :ref:`Public Visibility <public>`
    * :ref:`pack <pack>`
    * :ref:`parent <parent>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
-   * :ref:`private Keyword <private>`
-   * :ref:`protected Keyword <protected>`
-   * :ref:`public Keyword <public>`
 * R
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
@@ -979,7 +982,7 @@ __sleep() method
 
 __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned. 
 
-In particular, some resources, such as database connexion or files cannot be serialized. They should be closed, stored as a path, and reopened later with __wakeup().
+In particular, some resources, such as database connexions or files cannot be serialized. They should be closed, stored as a path, and reopened later with __wakeup().
 
 The __sleep() method is usually paired with the __wakeup() method. 
 
@@ -1009,7 +1012,7 @@ The __sleep() method is usually paired with the __wakeup() method.
 
 See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_, `__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_
 
-Related : :ref:`Magic Methods <magic-method>`, 
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__wakeup() <-__wakeup>`
 
 .. _-__unserialize:
 
@@ -1047,6 +1050,45 @@ The __unserialize() magic method is called when a script tries to construct an o
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.unserialize>`__
 
 Related : :ref:`Unsserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Serialization <serialize>`, :ref:`__serialize <-__serialize>`
+
+.. _-__wakeup:
+
+__wakeup()
+----------
+
+__wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition. 
+
+In particular, some resources, such as database connexions or files cannot be serialized. They should be closed, stored as a path in __sleep(), and reopened later with __wakeup().
+
+The __wakeup() method is usually paired with the __sleep() method. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $file;
+   	private $path;
+   
+   	function __sleep() {
+   		fclose($this->path);
+   	}
+   
+   	function __wakeup() {
+   		$this->path = fopen($this->path, 'r');
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php#object.sleep>`__
+
+See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_, `__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__sleep() method <-__sleep>`
 
 .. _abstract:
 
@@ -1148,7 +1190,7 @@ For arrays, this is a special version of array merge : the arrays are merged, an
 
 See also `Array operators <https://www.php.net/manual/en/language.operators.array.php>`_, `Combining arrays using + versus array_merge in PHP <https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php>`_
 
-Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`
+Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Real Numbers <float>`
 
 .. _namespace-alias:
 
@@ -2342,7 +2384,7 @@ Added in PHP 4.0+
 
 .. _clone:
 
-clone
+Clone
 -----
 
 Clone makes a duplicate of an object.
@@ -2463,6 +2505,41 @@ See also `Null Coalescing Operator (??) <https://riptutorial.com/php/example/716
 
 Added in PHP 7.0+
 
+.. _code-injection:
+
+Code Injection
+--------------
+
+A CODE injection is a vulnerability, where external data is used as PHP code.  
+
+In the example below, `$_GET` is directly used in the eval() function. By using a clever string (shown in comment), it is possible to assign the variable, and run the phpinfo() command. 
+
+Among the solutions to mitigate this problem : filter adequately the incoming data; use prepared statements. 
+
+Some PHP functions are sensitive to this kind of attack : eval(), include(), include_once(), require(), require_once(). Dynamic calls are also suceptible of code injection. 
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // $_GET['x'] = '1; phpinfo()';
+   eval("$myvar = $x;");
+   
+   // $_GET['method'] = 'getSafe';
+   // Any method may be called on the safe object
+   $data->$method();
+   
+   ?>
+   
+
+
+See also `SQL Injection in PHP Web Applications <https://brightsec.com/blog/code-injection-php/>`_, `PHP Security 2: Directory Traversal & Code Injection <https://www.acunetix.com/websitesecurity/php-security-2/>`_
+
+Related : :ref:`Eval() <eval>`, :ref:`Inclusions <inclusion>`, :ref:`Dynamic Call <dynamic-call>`
+
 .. _coding-convention:
 
 Coding Conventions
@@ -2492,7 +2569,7 @@ Collections may be build with array, or dedicated classes.
 
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_
 
-Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, , :ref:`Generics <generics>`
+Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Generics <generics>`
 
 .. _colon:
 
@@ -2526,7 +2603,7 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`goto Keyword <goto>`, :ref:`Ternary operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Ternary operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
 
 .. _comma:
 
@@ -2558,7 +2635,7 @@ They do not have a value by themselves.
    ?>
 
 
-Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`list <list>`
+Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`List <list>`
 
 .. _cli:
 
@@ -3012,7 +3089,7 @@ control flow structures can't be called dynamically : they have to be hardcoded.
 
 See also `PHP flow control <https://zetcode.com/php/flowcontrol/>`_
 
-Related : :ref:`Statement <statement>`, :ref:`Loops <loop>`, :ref:`Semicolon <semicolon>`, :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`goto Keyword <goto>`
+Related : :ref:`Statement <statement>`, :ref:`Loops <loop>`, :ref:`Semicolon <semicolon>`, :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`Goto <goto>`
 
 .. _control-structure:
 
@@ -3444,8 +3521,8 @@ Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`
 
 .. _default:
 
-Default Keyword
----------------
+Default
+-------
 
 default is a PHP keyword, used with switch() and match() structures. It represents any case that was not already considered.
 
@@ -3558,8 +3635,6 @@ define() used to create case-insensitive constant, but this was abandoned in PHP
 
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
-
-Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`Conditioned Structures <conditioned>`
 
 .. _dependency-injection:
 
@@ -4155,11 +4230,11 @@ Early binding is the fact that PHP allows using a class before its declaration i
 
 `Documentation <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`__
 
-Related : :ref:`Late Static Bindings <late-binding>`
+Related : :ref:`Late Static Binding <late-binding>`
 
 .. _echo:
 
-echo
+Echo
 ----
 
 echo displays the arguments to the output : this may be the web page, or the command line screen. 
@@ -4252,7 +4327,7 @@ A variable is considered empty if it does not exist or if its value equals false
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`__
 
-Related : :ref:`Language construct <language-construct>`, :ref:`isset <isset>`
+Related : :ref:`Language construct <language-construct>`, :ref:`Isset <isset>`
 
 .. _encoding:
 
@@ -4364,7 +4439,7 @@ Error
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
+Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _error-handler:
 
@@ -4492,20 +4567,25 @@ See also `String literals (MySQL) <https://dev.mysql.com/doc/refman/8.0/en/strin
 
 .. _eval:
 
-Eval
-----
+Eval()
+------
 
-The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
+The eval() function executes a string as a PHP code.
+
+eval() has been used originally to obtain features that PHP did not offer. Nowadays, those features are rare enough that it is recommended to find a safe alternative, before relying on it.
+
+
 
 .. code-block:: php
    
    <?php
    
-   class x {
-       final const X = 1;
-       
-       final function method() { }
-   }
+   $name = 'v';
+   $value = 'vvvv';
+   
+   // Set a variable with a dynamic name
+   eval('$'.$name.' = .$value.');
+   // equivalent to $$name = $value;
    
    ?>
 
@@ -4901,7 +4981,7 @@ The final keyword cannot be used with the private keyword : a private method is 
 
 See also `Final Classes: Open for Extension, Closed for Inheritance <https://verraes.net/2014/05/final-classes-in-php/>`_
 
-Related : :ref:`private Keyword <private>`
+Related : :ref:`Private Visibility <private>`
 
 Added in PHP 7.0
 
@@ -4967,7 +5047,7 @@ Floating Point Numbers
 
  Floating point numbers (also known as "floats", "doubles", or "real numbers") can be specified using a decimal dot and a mantis.
 
-They may also have a number separator ``_``.
+They may also use a number separator ``_``.
 
 Floats used be called ``real``, though this was abandoned progressively, since PHP 7.0.
 
@@ -5155,10 +5235,10 @@ Related : :ref:`Method <method>`
 
 .. _framework:
 
-Frameworks
-----------
+Framework
+---------
 
-A framework is a library that helps building PHP applications, mostly web, but also CLI. frameworks provide commonly features, such as forms, authentications, templating, arguments and security. 
+A framework is a library that helps building PHP applications, mostly web, but also CLI. Frameworks provide commonly features, such as forms, authentications, templating, arguments and security. 
 
 Frameworks are often described as a platform : they stand as a layer above PHP, with its own conventions and behaviors. PHP is the language of the framework, and the language used to extends the framework.
 
@@ -5485,8 +5565,8 @@ Removed in PHP 4.0
 
 .. _goto:
 
-goto Keyword
-------------
+Goto
+----
 
 The goto operator can be used to jump to another section in the program.
 
@@ -5505,14 +5585,16 @@ The goto operator can be used to jump to another section in the program.
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-Related : :ref:`goto Labels <label>`
+Related : :ref:`Goto Labels <label>`
 
 .. _label:
 
-goto Labels
+Goto Labels
 -----------
 
-Labels are the receiving end of a goto call.
+Labels are the receiving end of a goto call. They must be in the same context than the goto they relate to : there, they must be unique. There might be several goto for a single label.
+
+
 
 .. code-block:: php
    
@@ -5529,7 +5611,7 @@ Labels are the receiving end of a goto call.
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-Related : :ref:`goto Keyword <goto>`
+Related : :ref:`Goto <goto>`
 
 .. _hard-coded:
 
@@ -5583,7 +5665,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Added in PHP 4.0+
+Related : , :ref:`Array <array>`, :ref:`Map <map>`
 
 .. _heredoc:
 
@@ -6185,7 +6267,7 @@ There are bad injections : all the security ones. SQL injection, PHP code inject
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`__
 
-Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, , :ref:`CSV injection <csv-injection>`
+Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, :ref:`Code Injection <code-injection>`, :ref:`CSV injection <csv-injection>`
 
 .. _instanceof:
 
@@ -6483,7 +6565,7 @@ Related : :ref:`LogicException <logicexception>`
 
 .. _isset:
 
-isset
+Isset
 -----
 
 isset() is a function that determines if a variable is declared and is different than null.
@@ -6511,8 +6593,8 @@ Related : :ref:`Magic Methods <magic-method>`, :ref:`__isset() method <-__isset>
 
 .. _iterable:
 
-Iterable Keyword
-----------------
+Iterable
+--------
 
 Iterable is a pseudo-type, which accepts any array or object implementing the Traversable interface.
 
@@ -6641,8 +6723,8 @@ Related : :ref:`Self <self>`, :ref:`static <static>`, :ref:`parent <parent>`
 .. _late-static-binding:
 .. _late-binding:
 
-Late Static Bindings
---------------------
+Late Static Binding
+-------------------
 
 PHP implements a feature called late static bindings which can be used to reference the called class in a context of static inheritance.
 
@@ -6802,7 +6884,7 @@ Related : :ref:`Contravariance <contravariance>`, :ref:`Covariance <covariance>`
 
 .. _list:
 
-list
+List
 ----
 
 List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list. 
@@ -7115,7 +7197,7 @@ The constructor and destructors are not considered as magic methods, even though
 
 See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_
 
-Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, , , :ref:`__invoke <-__invoke>`, 
+Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, , :ref:`__invoke <-__invoke>`, 
 
 .. _magic-property:
 
@@ -7146,6 +7228,37 @@ The magic methods to handle magic properties are :  __get(), __set(), __isset() 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
 Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`
+
+.. _map:
+
+Map
+---
+
+A map is an associative array. In PHP, this feature is supported by array. 
+
+PHP's array syntax supports a feature to assign the index an arbitrary key. 
+
+Maps are also called associative array, or hashes.
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // explicit keys : this is a map
+   $array = array('a' => 0, 2 => 1, '123' => 2);
+   
+   
+   // keys are assigned automatically
+   $array = array(0, 1, 2);
+   
+   ?>
+   
+
+
+Related : :ref:`Array <array>`
 
 .. _match:
 
@@ -7258,8 +7371,8 @@ Related : :ref:`Classes <class>`
 
 .. _mixed:
 
-Mixed return type
------------------
+Mixed
+-----
 
 A special return type that signals a method that never returns : only dies or throw an exception.
 
@@ -7278,6 +7391,8 @@ A special return type that signals a method that never returns : only dies or th
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed>`__
 
 See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_
+
+Related : :ref:`Type system <type>`
 
 Added in PHP 8.0+
 
@@ -7531,8 +7646,8 @@ Added in PHP 8.1+
 
 .. _never:
 
-Never return type
------------------
+Never
+-----
 
 A special return type that signals a method that never returns : only dies or throw an exception.
 
@@ -7904,7 +8019,7 @@ PHP includes a complete object model. Some of its features are: visibility, abst
 
 `Documentation <https://www.php.net/manual/en/language.oop5.php>`__
 
-Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`clone <clone>`, :ref:`Type system <type>`
+Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`Clone <clone>`, :ref:`Type system <type>`
 
 .. _object-nullsafe-operator:
 
@@ -8300,7 +8415,7 @@ Overwriting is also called overloading.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-Related : :ref:`Final Keyword <final>`, :ref:`private Keyword <private>`, :ref:`Inheritance <inheritance>`
+Related : :ref:`Final Keyword <final>`, :ref:`Private Visibility <private>`, :ref:`Inheritance <inheritance>`
 
 .. _pack:
 
@@ -8387,7 +8502,7 @@ In a trait, parent represents the host class's parent, not the trait own parent.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`Overwrite <overwrite>`, :ref:`static <static>`, :ref:`Self <self>`, :ref:`Late Static Bindings <late-static-binding>`
+Related : :ref:`Overwrite <overwrite>`, :ref:`static <static>`, :ref:`Self <self>`, :ref:`Late Static Binding <late-static-binding>`
 
 .. _parenthesis:
 
@@ -9022,9 +9137,10 @@ Related : :ref:`Simple Query Language (SQL) <sql>`
 Added in PHP 5.0+
 
 .. _preprocess:
+.. _preprocessing:
 
-Preprocess
-----------
+Preprocessing
+-------------
 
 Preprocessing is an optimisation technique, where a value is calculated even before the execution of a script. This is only possible with constants values, which are known before execution.
 
@@ -9071,12 +9187,12 @@ print is a language construct of PHP.
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-Related : :ref:`echo <echo>`
+Related : :ref:`Echo <echo>`
 
 .. _private:
 
-private Keyword
----------------
+Private Visibility
+------------------
 
 The private keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it restrict usage to the current class only. Child class can't redefine it, nor access it.
 
@@ -9101,7 +9217,7 @@ The private keyword cannot be used with the final keyword : a private method is 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`protected Keyword <protected>`, :ref:`public Keyword <public>`, :ref:`Var <var>`
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`, :ref:`Var <var>`
 
 .. _promoted-property:
 
@@ -9187,8 +9303,8 @@ Added in PHP 7.4
 
 .. _protected:
 
-protected Keyword
------------------
+Protected Visibility
+--------------------
 
 The protected keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it restricts usage to the current class and its parents and children.
 
@@ -9211,7 +9327,7 @@ The protected keyword is part of the three keywords to define visibility of a me
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`private Keyword <private>`, :ref:`public Keyword <public>`, :ref:`Var <var>`
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`Private Visibility <private>`, :ref:`Public Visibility <public>`, :ref:`Var <var>`
 
 .. _protocol:
 
@@ -9238,8 +9354,8 @@ Related : :ref:`Wrapper <wrapper>`
 
 .. _public:
 
-public Keyword
---------------
+Public Visibility
+-----------------
 
 The public keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it doesn't restrict usage.
 
@@ -9265,7 +9381,7 @@ public is also the default visibility when it is omitted :
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`private Keyword <private>`, :ref:`protected Keyword <protected>`, :ref:`Var <var>`
+Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`Private Visibility <private>`, :ref:`Protected Visibility <protected>`, :ref:`Var <var>`
 
 .. _random:
 
@@ -9392,6 +9508,7 @@ Related : :ref:`Classes <class>`, :ref:`__clone <-__clone>`
 Added in PHP 8.1
 
 .. _real:
+.. _float:
 
 Real Numbers
 ------------
@@ -9414,7 +9531,7 @@ In case of doubt, you should read about ``float``.
 
 See also `How To Work with Numbers in PHP <https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php>`_
 
-Related : :ref:`Floating Point Numbers <float>`
+Related : :ref:`Real Numbers <float>`
 
 .. _recursion:
 .. _recursive:
@@ -9901,7 +10018,7 @@ Self is one of the three special keywords that are used to access properties or 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Late Static Bindings <late-static-binding>`
+Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Late Static Binding <late-static-binding>`
 
 .. _semantics:
 
@@ -10716,7 +10833,7 @@ Static is a keyword for variables : those variables aren't removed at the end of
 
 See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Bindings <late-static-binding>`
+Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
 
 .. _static-method:
 
@@ -10970,19 +11087,17 @@ Related : :ref:`String <string>`
 Stringable
 ----------
 
-The ``Stringable`` interface denotes a class as having a __toString() method. 
+Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant; or an object which has the `__toString()` method.
 
-``Stringeable`` is not an English word : it is the name of this interface, and, at best, a neologism.
+Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitely.
 
 
 .. code-block:: php
    
    <?php
    
-   class x implements stringable {
-       protected function __toString() : string {
-           return 's';
-       }
+   function foo(stringable $s) {
+   	print $s;
    }
    
    ?>
@@ -10990,9 +11105,9 @@ The ``Stringable`` interface denotes a class as having a __toString() method.
 
 `Documentation <https://www.php.net/manual/en/class.stringable.php>`__
 
-Related : :ref:`String <string>`, :ref:`Magic Methods <magic-method>`
+Related : :ref:`String <string>`
 
-Added in PHP 8.0+
+Added in PHP 8.0
 
 .. _stubs:
 
@@ -12104,7 +12219,7 @@ var keyword for introducing PHP properties in classes. It is now replaced by vis
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties>`__
 
-Related : :ref:`Visibility <visibility>`, :ref:`protected Keyword <protected>`, :ref:`private Keyword <private>`, :ref:`public Keyword <public>`
+Related : :ref:`Visibility <visibility>`, :ref:`Protected Visibility <protected>`, :ref:`Private Visibility <private>`, :ref:`Public Visibility <public>`
 
 .. _variable-argument:
 

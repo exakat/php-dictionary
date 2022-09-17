@@ -25,21 +25,21 @@ Concept
 + :ref:`Active Record <active-record>`
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Classes <class>`
++ :ref:`Clone <clone>`
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Dependency Injection <dependency-injection>`
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
 + :ref:`Event driven <event-driven>`
-+ :ref:`Frameworks <framework>`
++ :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
-+ :ref:`Late Static Bindings <late-static-binding>`
++ :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
 + :ref:`PHPdoc <phpdoc>`
-+ :ref:`Preprocess <preprocess>`
++ :ref:`Preprocessing <preprocess>`
 + :ref:`Protocol <protocol>`
-+ :ref:`Real Numbers <real>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable code <unreachable-code>`
 + :ref:`Unused <unused>`
@@ -51,11 +51,11 @@ Control flow
 + :ref:`Do While <do-while>`
 + :ref:`For <for>`
 + :ref:`Foreach <foreach>`
++ :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
 + :ref:`Match <match>`
 + :ref:`Switch <switch>`
 + :ref:`While <while>`
-+ :ref:`goto Keyword <goto>`
 
 Directive
 ---------
@@ -79,6 +79,7 @@ Exception
 + :ref:`RangeException <rangeexception>`
 + :ref:`ReflectionException <reflectionexception>`
 + :ref:`UnhandledMatchError <unhandledmatcherror>`
++ :ref:`ValueError <valueerror>`
 
 Keyword
 -------
@@ -87,50 +88,56 @@ Keyword
 + :ref:`Callables <callable>`
 + :ref:`Catch <catch>`
 + :ref:`Classes <class>`
-+ :ref:`Default Keyword <default>`
++ :ref:`Clone <clone>`
++ :ref:`Default <default>`
 + :ref:`Do While <do-while>`
-+ :ref:`Eval <eval>`
++ :ref:`Eval() <eval>`
 + :ref:`Exit Class Constants <exit>`
 + :ref:`Finally <finally>`
 + :ref:`For <for>`
 + :ref:`For <for>`
 + :ref:`Global Variables <global-variable>`
++ :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
 + :ref:`Insteadof <insteadof>`
 + :ref:`Interfaces <interface>`
-+ :ref:`Iterable Keyword <iterable>`
++ :ref:`Iterable <iterable>`
 + :ref:`Match <match>`
-+ :ref:`Mixed return type <mixed>`
++ :ref:`Mixed <mixed>`
++ :ref:`Private Visibility <private>`
++ :ref:`Protected Visibility <protected>`
++ :ref:`Public Visibility <public>`
++ :ref:`Stringable <stringable>`
 + :ref:`Switch <switch>`
 + :ref:`Try-catch <try-catch>`
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
-+ :ref:`Zval <zval>`
-+ :ref:`clone <clone>`
-+ :ref:`private Keyword <private>`
-+ :ref:`protected Keyword <protected>`
-+ :ref:`public Keyword <public>`
 
 Language construct
 ------------------
 
 + :ref:`Array <array>`
++ :ref:`Echo <echo>`
 + :ref:`Empty <empty>`
-+ :ref:`Eval <eval>`
++ :ref:`Eval() <eval>`
++ :ref:`Isset <isset>`
++ :ref:`List <list>`
 + :ref:`Print <print>`
-+ :ref:`echo <echo>`
-+ :ref:`isset <isset>`
-+ :ref:`list <list>`
++ :ref:`declare() <declare>`
 
 Type
 ----
 
++ :ref:`Boolean <boolean>`
 + :ref:`False <false>`
-+ :ref:`Iterable Keyword <iterable>`
-+ :ref:`Mixed return type <mixed>`
++ :ref:`Floating Point Numbers <float>`
++ :ref:`Iterable <iterable>`
++ :ref:`Mixed <mixed>`
++ :ref:`Never <never>`
 + :ref:`Never Typehint <never-typehint>`
 + :ref:`Real Numbers <real>`
++ :ref:`Stringable <stringable>`
 
 Magic method
 ------------
@@ -141,3 +148,4 @@ Magic method
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
 + :ref:`__sleep() method <-__sleep>`
++ :ref:`__wakeup() <-__wakeup>`
