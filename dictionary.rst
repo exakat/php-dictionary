@@ -19,6 +19,7 @@ PHP Dictionary
    * :ref:`__serialize <-__serialize>`
    * :ref:`__set() method <-__set>`
    * :ref:`__sleep() method <-__sleep>`
+   * :ref:`__toString() method <-__tostring>`
    * :ref:`__unserialize <-__unserialize>`
    * :ref:`__wakeup() <-__wakeup>`
 * A
@@ -55,6 +56,7 @@ PHP Dictionary
    * :ref:`Break <break>`
    * :ref:`basename <basename>`
 * C
+   * :ref:`CGI <cgi>`
    * :ref:`CSV <csv>`
    * :ref:`CSV injection <csv-injection>`
    * :ref:`Callables <callable>`
@@ -109,8 +111,10 @@ PHP Dictionary
 * D
    * :ref:`DRY : don't repeat yourself <dry>`
    * :ref:`DTO <dto>`
+   * :ref:`Dangling Reference <dangling-reference>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
+   * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dates <date>`
    * :ref:`Debugger <debugger>`
    * :ref:`Deep clone <deep-clone>`
@@ -120,6 +124,7 @@ PHP Dictionary
    * :ref:`Dependency Injection <dependency-injection>`
    * :ref:`Deprecation <deprecated>`
    * :ref:`Dereferencing <dereferencing>`
+   * :ref:`Design Pattern <design-pattern>`
    * :ref:`Destructor <destructor>`
    * :ref:`Directives <directives>`
    * :ref:`DirectoryIterator <directoryiterator>`
@@ -247,8 +252,10 @@ PHP Dictionary
    * :ref:`Loops <loop>`
    * :ref:`libsodium <libsodium>`
 * M
+   * :ref:`MVC <mvc>`
    * :ref:`Magic <magic>`
    * :ref:`Magic Constants <magic-constant>`
+   * :ref:`Magic Hash <magic hash>`
    * :ref:`Magic Methods <magic-method>`
    * :ref:`Magic Property <magic-property>`
    * :ref:`Map <map>`
@@ -261,6 +268,7 @@ PHP Dictionary
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
+   * :ref:`N+1 Query <n-query>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
    * :ref:`Namespaces <namespace>`
@@ -298,14 +306,16 @@ PHP Dictionary
    * :ref:`PDOException <pdoexception>`
    * :ref:`PECL <pecl>`
    * :ref:`PHP <php>`
-   * :ref:`PHP Data Objects (PDO)  <pdo>`
+   * :ref:`PHP Data Objects (PDO) <pdo>`
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
+   * :ref:`PHP RFC <rfc>`
    * :ref:`PHP Standards Recommendations (PSR) <psr>`
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP tags <php-tag>`
    * :ref:`PHP variables <php-variable>`
+   * :ref:`PHP-FPM <fpm>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`Packagist <packagist>`
    * :ref:`Parameter <parameter>`
@@ -383,10 +393,12 @@ PHP Dictionary
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`
+   * :ref:`Stream <stream>`
    * :ref:`Strict Comparison <strict-comparison>`
    * :ref:`String <string>`
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
+   * :ref:`Strpos() syndrom <strpos-syndrom>`
    * :ref:`Superglobal variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
    * :ref:`Switch <switch>`
@@ -408,6 +420,7 @@ PHP Dictionary
    * :ref:`Traits <trait>`
    * :ref:`Traversable <traversable>`
    * :ref:`Traversal <traversal>`
+   * :ref:`Tree <tree>`
    * :ref:`Try-catch <try-catch>`
    * :ref:`Type Error <typerror>`
    * :ref:`Type Juggling <type-juggling>`
@@ -430,6 +443,7 @@ PHP Dictionary
    * :ref:`Use Alias <use-alias>`
    * :ref:`unset Keyword <unset>`
 * V
+   * :ref:`VCS <vcs>`
    * :ref:`Validation <validation>`
    * :ref:`Value Object <value-object>`
    * :ref:`ValueError <valueerror>`
@@ -1014,6 +1028,49 @@ See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <htt
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__wakeup() <-__wakeup>`
 
+.. _-__tostring:
+
+__toString() method
+-------------------
+
+__tostring() is a magic method : it is called when the object has to be turned into a string.
+
+That way, it is possible to dynamically convert the object to a string and display it, or transmit it to another part of the application. 
+
+__toString() is called when strict_type is not active. Otherwise, passing an object to a string parameter yields an error.
+
+__toString() is always called in concatenation, string interpolation, 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private $r = 'S';
+   	private $p = 1;
+   	private $q = 2;
+   
+   	// Checks the dictionary, or return 0
+   	function __toString() : string {
+   	
+   		// $this->r is used as is
+   		// $this->p is formatted with quotes
+   		// $this->q is converted to other values
+   		return $this->r $this->p.($this->q ? 'A' : 'B');
+   	}
+   }
+   
+   echo new x;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+Related : :ref:`Magic Methods <magic-method>`
+
 .. _-__unserialize:
 
 __unserialize
@@ -1190,7 +1247,7 @@ For arrays, this is a special version of array merge : the arrays are merged, an
 
 See also `Array operators <https://www.php.net/manual/en/language.operators.array.php>`_, `Combining arrays using + versus array_merge in PHP <https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php>`_
 
-Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Real Numbers <float>`
+Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`
 
 .. _namespace-alias:
 
@@ -1587,7 +1644,9 @@ There are user-land assertions, such as webmozart/assert and beberlei/assert.
 
 `Documentation <https://www.php.net/manual/en/function.assert.php>`__
 
-See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertions-usage/>`_, `beberlei/assert <https://github.com/beberlei/assert>`_, `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_
+See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertions-usage/>`_
+
+Related packages : `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_, `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_
 
 .. _assignation:
 .. _assignement:
@@ -1944,9 +2003,10 @@ Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`Arrow Fun
 case
 ----
 
-cases are used in two situations in PHP : 
+Cases are used in three situations: 
 
 + with switch() expression
++ with match() expression
 + with enumeration
 
 
@@ -1978,9 +2038,7 @@ cases are used in two situations in PHP :
    ?>
 
 
-Related : :ref:`Enumeration <enum>`, :ref:`Enumeration's case <enum-case>`, :ref:`Switch <switch>`
-
-Added in PHP 4.0+
+Related : :ref:`Default <default>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Enumeration <enum>`, :ref:`Enumeration's case <enum-case>`, :ref:`Switch <switch>`
 
 .. _cast:
 
@@ -2045,6 +2103,19 @@ Multiple catches may be used. They are applied in the order of coding, and the f
 See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
+
+.. _cgi:
+
+CGI
+---
+
+CGI stands for Common Interface Gateway. It is a specification that enables web server to execute programs. 
+
+PHP may be build as a CGI, but also as a webserver module or a CGI server. 
+
+`Documentation <https://en.wikipedia.org/wiki/Common_Gateway_Interface>`__
+
+Related : :ref:`PHP-FPM <fpm>`, :ref:`Command Line Interface <cli>`
 
 .. _exception-chain:
 
@@ -2536,7 +2607,7 @@ Some PHP functions are sensitive to this kind of attack : eval(), include(), inc
    
 
 
-See also `SQL Injection in PHP Web Applications <https://brightsec.com/blog/code-injection-php/>`_, `PHP Security 2: Directory Traversal & Code Injection <https://www.acunetix.com/websitesecurity/php-security-2/>`_
+See also `PHP Security 2: Directory Traversal & Code Injection <https://www.acunetix.com/websitesecurity/php-security-2/>`_
 
 Related : :ref:`Eval() <eval>`, :ref:`Inclusions <inclusion>`, :ref:`Dynamic Call <dynamic-call>`
 
@@ -3158,6 +3229,8 @@ Cookies are a mechanism for storing data in the remote browser and thus tracking
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 
+Related packages : `dflydev/fig-cookies <https://packagist.org/packages/dflydev/fig-cookies>`_
+
 .. _countable:
 
 Countable interface
@@ -3287,6 +3360,8 @@ PHP has several dedicated native functions to read and write from those files : 
 
 `Documentation <https://en.wikipedia.org/wiki/Comma-separated_values>`__
 
+Related packages : `league/csv <https://packagist.org/packages/league/csv>`_
+
 .. _csv-injection:
 
 CSV injection
@@ -3339,6 +3414,45 @@ Curl is both a PHP extension and a multiprotocol file transfer library. It is us
 
 See also `curl.se <https://curl.se/>`_
 
+.. _dangling-reference:
+
+Dangling Reference
+------------------
+
+In a foreach loop, a variable is used for looping through the array. When this variable is configured as a reference, the reference survives after the end of the loop. When this variable is reused later, it applies to the last element of the array and overwrites its value.
+
+This doesn't happen when the second loop doesn't use a reference. 
+
+It is recommended to unset the referenced variable, after the loop. It destroys the reference, not the value.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = ['a', 'b', 'c'];
+   
+   foreach($array as &$x) { 
+   	// doSomething() or even do nothing! 
+   }
+   
+   // second loop, no reference
+   foreach($array as $x) { 
+   	// doSomething() or even do nothing! 
+   }
+   
+   var_dump($array);
+   $array = ['a', 'b', 'b'];
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+See also `No Dangling References <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
+
+Related : :ref:`Loops <loop>`, :ref:`References <reference>`
+
 .. _data-mapper:
 
 Data Mapper
@@ -3381,6 +3495,19 @@ The format of a DNS is usually specified by the target database. For example :
 
 
 `Documentation <https://www.php.net/manual/en/pdo.connections.php>`__
+
+.. _dbal:
+
+Database Abstraction Layer (DBAL)
+---------------------------------
+
+A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases.
+
+See also `Doctrine <https://www.doctrine-project.org/>`_
+
+Related : :ref:`Object Relationanl Mapping (ORM) <orm>`
+
+Related packages : `doctrine/dbal <https://packagist.org/packages/doctrine/dbal>`_, `dibi/dibi <https://packagist.org/packages/dibi/dibi>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_
 
 .. _date:
 .. _datetime:
@@ -3699,6 +3826,28 @@ Dereferencing is also possible to function and methods calls : when a function r
 See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functionarraydereferencing>`_, `Array Dereferencing in PHP <https://xpertdeveloper.com/php-array-dereferencing/>`_
 
 Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <object>`
+
+.. _design-pattern:
+
+Design Pattern
+--------------
+
+A design pattern is a general solution to a common problem. Design patterns also get a name. 
+
+Design patterns are not dedicated to PHP, though most of them do apply to PHP. 
+
+Commong design patterns in PHP : 
++ Factory
++ Dependency injection
++ Decorator
++ Module
++ Iterators
+
+
+
+`Documentation <https://en.wikipedia.org/wiki/Software_design_pattern>`__
+
+See also `The Catalog of PHP Examples <https://refactoring.guru/design-patterns/php>`_, `DesignPatternsPHP <https://designpatternsphp.readthedocs.io/en/latest/README.html>`_, `Design Pattenrs (the book) <https://en.wikipedia.org/wiki/Design_Patterns>`_
 
 .. _destructor:
 
@@ -5559,10 +5708,6 @@ $GLOBALS is a global variable, that host all other global variables, during a PH
 
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
-
 .. _goto:
 
 Goto
@@ -5680,7 +5825,6 @@ Heredocs are convenient for large amount of text, that has to be hardcoded. Smal
 
 It is possible to indent the text in a nowdocs string: to avoid this indentation to be passed at execution time, the final delimiter may be indented too. Its indentation will be removed from the parsed text.
 
- 
 
 .. code-block:: php
    
@@ -7141,7 +7285,7 @@ Those constants are magic, because they have a constant syntax, yet their value 
 + __METHOD__	The class method name.
 + __NAMESPACE__ The name of the current namespace.
 
-Those constants are case insensitive. All those syntax will work : `__METHOD__`, `__method__`, `__method__`.
+Those constants are case insensitive. All those syntax will work : `__METHOD__`, `__method__`, `__meTHod__`.
 
 
 
@@ -7165,6 +7309,43 @@ Those constants are case insensitive. All those syntax will work : `__METHOD__`,
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
 Related : :ref:`Magic <magic>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Methods <magic-method>`
+
+.. _magic hash:
+
+Magic Hash
+----------
+
+A magic hash is a hash string which is mistakenly compared to another hash. 
+
+In the example below, the same MD5 hash is taken for two distinct strings, which ends up being identical, per `==`. 
+
+In reality, the two hashes are different strings : `0e462097431906509019562988736854` and `0e830400451993494058024219903391` respectively. When they are compared, as strings, PHP identifies the initial 0 of the strings, and assume the comparison should be an integer comparison.
+
+Each string is turned into a int, which are 0 in both cases. Hence, the comparison succeeds, yet it wrong.
+
+The protection against magic hashes is to use the identity operator `===`, rather than the equality. It makes a type comparison and do not apply type juggling, which leads to the two hashs above different. 
+
+This example is applicable with any hash algorithm which produces a string that starts with 0. Check the magic hash repository for examples with SHA256, HAVAL, PHOTON, RIPEMD or SPONGENT.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   var_dump(md5('240610708') == md5('QNKCDZO'));
+   
+   //md5('240610708')
+   //0e462097431906509019562988736854
+   //md5('QNKCDZO')
+   //0e830400451993494058024219903391
+   
+   ?>
+
+
+See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_
+
+Related : :ref:`Hash <hash>`
 
 .. _magic-method:
 
@@ -7197,7 +7378,9 @@ The constructor and destructors are not considered as magic methods, even though
 
 See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_
 
-Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, , :ref:`__invoke <-__invoke>`, 
+Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, :ref:`__toString() method <-__tostring>`, :ref:`__invoke <-__invoke>`, 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _magic-property:
 
@@ -7459,6 +7642,23 @@ PHP creates the arrays on the fly. When the intermediate array are undefined, PH
 
 `Documentation <https://www.php.net/manual/en/function.array.php>`__
 
+.. _mvc:
+
+MVC
+---
+
+MVC stands for Model - View - Controller. It is a programming paradigm, which partition a PHP application in three : 
+
++ The model, which is dedicated to the business logic.
++ The view, which is dedicated to the presentation of the data
++ The controller, which orchestrates the excution. 
+
+
+
+`Documentation <https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`__
+
+See also `PHP MVC Framework Tutorial: CodeIgniter Example <https://www.guru99.com/php-mvc-frameworks.html>`_, `How to build a simple PHP MVC framework <https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/>`_
+
 .. _mysqli_sql_exception:
 
 mysqli_sql_exception
@@ -7485,6 +7685,45 @@ mysqli_sql_exception is thrown when a mysqli related error is found.
 `Documentation <https://www.php.net/manual/en/class.argumentcounterror.php>`__
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
+
+.. _n-query:
+
+N+1 Query
+---------
+
+In a foreach loop, a variable is used for looping through the array. When this variable is configured as a reference, the reference survives after the end of the loop. When this variable is reused later, it applies to the last element of the array and overwrites its value.
+
+This doesn't happen when the second loop doesn't use a reference. 
+
+It is recommended to unset the referenced variable, after the loop. It destroys the reference, not the value.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = ['a', 'b', 'c'];
+   
+   foreach($array as &$x) { 
+   	// doSomething() or even do nothing! 
+   }
+   
+   // second loop, no reference
+   foreach($array as $x) { 
+   	// doSomething() or even do nothing! 
+   }
+   
+   var_dump($array);
+   $array = ['a', 'b', 'b'];
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+See also `Eloquent Performance: 4 Examples of N+1 Query Problems <https://laravel-news.com/laravel-n1-query-problems>`_, `The N+1 Query Problem <https://lighthouse-php.com/master/performance/n-plus-one.html>`_
+
+Related : :ref:`Loops <loop>`, :ref:`References <reference>`
 
 .. _named-constructor:
 
@@ -7835,11 +8074,11 @@ Null represents the absence of data. It is the default value for objects.
 
 `Documentation <https://www.php.net/manual/en/language.types.null.php>`__
 
-See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_
+See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_, `Avoiding Unnecessary Null Checks <https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/>`_
 
 Related : :ref:`Nullable <nullable>`
 
-Added in PHP 4.0
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _nullsafe-object-operator:
 
@@ -8107,7 +8346,11 @@ PHP has several ORM : Doctrine, Readbean, Eloquent, Propel.
 
 `Documentation <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>`__
 
-See also `Doctrine <https://www.doctrine-project.org/>`_, `Redbean <https://redbeanphp.com/index.php>`_, `Eloquent <https://laravel.com/docs/5.0/eloquent>`_, `Propel <http://propelorm.org/>`_
+See also `PDO in PHP <https://www.php.net/manual/en/intro.pdo.php>`_
+
+Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`
+
+Related packages : `doctrine/orm <https://packagist.org/packages/doctrine/orm>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_, `propel/propel <https://packagist.org/packages/propel/propel>`_, `gabordemooij/redbean <https://packagist.org/packages/gabordemooij/redbean>`_
 
 .. _octal-integer:
 .. _octal:
@@ -8562,6 +8805,8 @@ Returned value are passed back to the calling context with the same rule than fo
 
 `Documentation <https://www.php.net/manual/en/language.references.pass.php>`__
 
+See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_
+
 Related : :ref:`Passing By Value <by-value>`
 
 .. _by-value:
@@ -8713,8 +8958,8 @@ PHP is a generic programming language. It was invented by Rasmus Lerdorf, on Jun
 
 .. _pdo:
 
-PHP Data Objects (PDO) 
------------------------
+PHP Data Objects (PDO)
+----------------------
 
 PHP Data Objects (PDO) is an interface that abstract access to databases. The same interface may be used to access different databases. 
 
@@ -8839,6 +9084,19 @@ See also `BlackFire <https://www.blackfire.io/php/>`_, `gProfiler <https://gprof
 
 Related : :ref:`Debugger <debugger>`
 
+.. _rfc:
+
+PHP RFC
+-------
+
+PHP evolution is organized by RFC : Request for comments. They are also called 'change proposals'. 
+
+On the PHP wiki, a section is dedicated to PHP new features : they are presented, then voted upon.
+
+`Documentation <https://wiki.php.net/rfc>`__
+
+See also `How To Create an RFC <https://wiki.php.net/rfc/howto>`_
+
 .. _psr:
 
 PHP Standards Recommendations (PSR)
@@ -8921,6 +9179,23 @@ PHP provides a large number of predefined variables. They may be super-global, a
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
 Related : :ref:`Superglobal variables <super-global>`
+
+.. _fpm:
+.. _php-fpm:
+
+PHP-FPM
+-------
+
+FPM stands for FastCGI Process Manager. It is a PHP FastCGI implementation.
+
+Instead of nesting PHP in the webserver, php-fpm makes PHP a server by itself. The web server then delegates the work to the PHP server. The advantage is to lower the memory footprint of PHP and the web server, and the whole of them both. It helps with stability, by keeping the two processes separated.
+
+
+`Documentation <https://www.php.net/manual/en/install.fpm.php>`__
+
+See also `Why Do You Need PHP FastCGI Process Manager? <https://www.plesk.com/blog/various/why-do-you-need-php-fpm/>`_, `How to Configure PHP-FPM with NGINX <https://www.digitalocean.com/community/tutorials/php-fpm-nginx>`_
+
+Related : :ref:`CGI <cgi>`
 
 .. _phpdoc:
 
@@ -9508,7 +9783,6 @@ Related : :ref:`Classes <class>`, :ref:`__clone <-__clone>`
 Added in PHP 8.1
 
 .. _real:
-.. _float:
 
 Real Numbers
 ------------
@@ -9531,7 +9805,7 @@ In case of doubt, you should read about ``float``.
 
 See also `How To Work with Numbers in PHP <https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php>`_
 
-Related : :ref:`Real Numbers <float>`
+Related : :ref:`Floating Point Numbers <float>`
 
 .. _recursion:
 .. _recursive:
@@ -9612,7 +9886,7 @@ References in PHP are a means to access the same variable content by different n
 
 `Documentation <https://www.php.net/manual/en/language.references.php>`__
 
-See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_
+See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_, `PHP Spotting References <https://www.tutorialspoint.com/php-spotting-references>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Weak References <weak-reference>`
 
@@ -9911,16 +10185,14 @@ See also `Data sanitization <https://en.wikipedia.org/wiki/Data_sanitization>`_
 
 Related : :ref:`Validation <validation>`
 
-Added in PHP 4.0
-
-Removed in PHP 4.0
+Related packages : `waavi/sanitizer <https://packagist.org/packages/waavi/sanitizer>`_, `waavi/sanitizer <https://packagist.org/packages/waavi/sanitizer>`_
 
 .. _sapi:
 
 SAPI
 ----
 
-Server Application Programming Interface : SAPI are the interface between PHP and a supporting platform, such as a web server (nginx, apache, caddy, ... ), a debugger (phpdbg, ...) or the command line interface (CLI).
+SAPI stantds for Server Application Programming Interface. SAPI are the interface between PHP and a supporting platform, such as a web server (nginx, apache, caddy, ... ), a debugger (phpdbg, ...) or the command line interface (CLI).
 
 
 .. code-block:: php
@@ -9934,6 +10206,8 @@ Server Application Programming Interface : SAPI are the interface between PHP an
 
 
 `Documentation <https://docs.php.earth/php/sapi/>`__
+
+Related : :ref:`CGI <cgi>`
 
 .. _scalar-typehint:
 .. _scalar:
@@ -10368,7 +10642,7 @@ PHP supports several rdbms natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-Related : :ref:`PHP Data Objects (PDO)  <pdo>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`
 
 .. _simplexml:
 
@@ -10486,7 +10760,7 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 
 See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_, `Stop Using Singleton Pattern <https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2>`_
 
-Related : 
+Related : :ref:`Design Pattern <design-pattern>`
 
 .. _sleep:
 
@@ -10708,7 +10982,9 @@ Sqlite3 is also available with PDO (Portable Document File), with the pdo_sqlite
 
 See also `SQLite3 in PHP <https://www.php.net/sqlite3>`_
 
-Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`PHP Data Objects (PDO)  <pdo>`
+Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`PHP Data Objects (PDO) <pdo>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _ssl:
 
@@ -10958,6 +11234,41 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
 
 Related : :ref:`Properties <property>`, :ref:`Dynamic Properties <dynamic-property>`
 
+.. _stream:
+
+Stream
+------
+
+Streams are a generalisation of the notion of files. Just like files, they can be opened, read, written and closed. 
+
+Unlike files, they may be a lot of things : archive, compressed data, sockets, other programs, etc. They also may not support all the range of features of files.
+
+PHP offers native functions to create, configure, filter streams and process their data.
+
+Streams may be extended with the notion of wrapper and protocols.
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   if ($stream = fopen('https://www.php.net', 'r')) {
+       // print the first 100 chars of the HTML page.
+       echo stream_get_contents($stream, -1, 100);
+   
+       fclose($stream);
+   }
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/book.stream.php>`__
+
+Added in PHP 5.0
+
 .. _strict-comparison:
 
 Strict Comparison
@@ -11108,6 +11419,46 @@ Stringable is automatically added to any class (and subclass) that has the `__to
 Related : :ref:`String <string>`
 
 Added in PHP 8.0
+
+.. _strpos-syndrom:
+
+Strpos() syndrom
+----------------
+
+The strpos() syndrom is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
+
+PHP's string are indexed starting with 0, so the found string might be in an index from 0 to the size of the string. 
+
+PHP also cast 0 to false. And false is also the value that is returned when the string is not found. So, if the found string is at the very beginning of the searched string, it might be confused for its absence.
+
+To avoid confusion, it is recommended to make an explicit comparison with false, using `===` or `!==`.
+
+Note that many PHP native functions behave that way, and should be treated with the same precaution.
+
+In the case of strpos(), it may be replaced with str_contains() (since PHP 8.0) or a regex, to get safer results.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $haystack = 'abcdef';
+   
+   if (strpos($haystack, 'b')) {
+   	print "The haystack contains a 'b'\n";
+   }
+   
+   if (strpos($haystack, 'a')) {
+   	print "The haystack contains an 'a'\n";
+   } else {
+   	print "The haystack doesn't contain an 'a'\n";
+   }
+   
+   
+   ?>
+
+
+See also `Strpos Function Issue In Php Not Finding The Needle <https://www.learn-codes.net/php/strpos-function-issue-in-php-not-finding-the-needle/>`_
 
 .. _stubs:
 
@@ -11561,6 +11912,20 @@ Traversal of a tree or graph datastructure turns the graph into a array-like lis
    ?>
    
 
+
+.. _tree:
+
+Tree
+----
+
+A tree is a datastructure which represents data as a set of connected nodes, where each node has only one parent.
+
+PHP has no native tree.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Tree_(data_structure)>`__
+
+Related packages : `nicmart/tree <https://packagist.org/packages/nicmart/tree>`_
 
 .. _try-catch:
 
@@ -12412,6 +12777,23 @@ Used in a function signature, it collects all the values into one array.
 Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array spread <array-spread>`, :ref:`Ellipsis <ellipsis>`
 
 Added in PHP 5.6
+
+.. _vcs:
+.. _scm:
+
+VCS
+---
+
+VCS stands for Version Control System. It provides a mean to record multiple versions of files across history.  
+
+A VCS is also called a SCM : Source Control Management. 
+
+VCS is a common tool to manage code versions. GIT, mercurial, SVN, CVS, etc.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Version_control>`__
+
+Related packages : `czproject/git-php <https://packagist.org/packages/czproject/git-php>`_
 
 .. _visibility:
 

@@ -4,12 +4,17 @@ Acronym
 -------
 
 + :ref:`Abstract Syntactic Tree <ast>`
++ :ref:`CGI <cgi>`
 + :ref:`Command Line Interface <cli>`
 + :ref:`DTO <dto>`
 + :ref:`HTTPS <https>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`JSON <json>`
++ :ref:`MVC <mvc>`
++ :ref:`PHP RFC <rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
++ :ref:`PHP-FPM <fpm>`
++ :ref:`SAPI <sapi>`
 
 Attribute
 ---------
@@ -29,6 +34,7 @@ Concept
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Dependency Injection <dependency-injection>`
 + :ref:`Dereferencing <dereferencing>`
++ :ref:`Design Pattern <design-pattern>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
 + :ref:`Event driven <event-driven>`
@@ -113,6 +119,7 @@ Keyword
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
++ :ref:`case <case>`
 
 Language construct
 ------------------
@@ -148,4 +155,5 @@ Magic method
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
 + :ref:`__sleep() method <-__sleep>`
++ :ref:`__toString() method <-__tostring>`
 + :ref:`__wakeup() <-__wakeup>`

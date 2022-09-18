@@ -8,8 +8,6 @@ reading sources... [ 50%] index
 reading sources... [ 75%] introduction
 reading sources... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:9511: WARNING: Duplicate explicit target name: "float".
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "sql injection in php web applications".
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -19,17 +17,13 @@ writing output... [ 50%] index
 writing output... [ 75%] introduction
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:176: WARNING: undefined label: float
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1193: WARNING: undefined label: float
-/Users/famille/Desktop/php-dictionary/dictionary.rst:9534: WARNING: undefined label: float
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1254: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/thesaurus.rst:134: WARNING: undefined label: float
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1311: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done
 copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 7 warnings.
+build succeeded, 1 warning.
 
 The HTML pages are in _build/html.
