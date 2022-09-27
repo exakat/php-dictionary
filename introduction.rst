@@ -8,7 +8,9 @@ Do you know what is the 'dangling reference' problem? Or the Last Static binding
 The PHP dictionary provides a list of words, concepts, keywords and expressions used commonly in the PHP ecosystem,
 with a short definition and extra links to more resources. 
 
-The goal is to provide a place that gathers an entrypoint for each PHP notion, and help anyone reading an article understand it. 
+The dictionary's goal is to provide a place for each PHP notions, and help anyone reading an article understand it. 
+
+The dictionary doesn't aim to provide a complete presentation of the definitions : this is why there are external links to blogs, vlogs, documentation and disambiguation. Links to software are also provided without the guarantee to be systematic nor complete. 
 
 Contributions
 -------------

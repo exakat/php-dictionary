@@ -4,13 +4,16 @@ Acronym
 -------
 
 + :ref:`Abstract Syntactic Tree <ast>`
++ :ref:`Application Performance Management <apm>`
 + :ref:`CGI <cgi>`
++ :ref:`CRUD <crud>`
 + :ref:`Command Line Interface <cli>`
 + :ref:`DTO <dto>`
 + :ref:`HTTPS <https>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`JSON <json>`
 + :ref:`MVC <mvc>`
++ :ref:`PEAR <pear>`
 + :ref:`PHP RFC <rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`PHP-FPM <fpm>`
@@ -19,9 +22,12 @@ Acronym
 Attribute
 ---------
 
++ :ref:`Allow Dynamic Property <allowdynamicproperty>`
++ :ref:`Attribute class <attribute-class>`
 + :ref:`Nested Attributes <nested-attributes>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
++ :ref:`Sensitive Parameter <sensitiveparameter>`
 
 Concept
 -------
@@ -31,25 +37,36 @@ Concept
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Classes <class>`
 + :ref:`Clone <clone>`
++ :ref:`Constant Scalar Expression <constant-scalar-expression>`
++ :ref:`Controller <controller>`
++ :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Data Mapper <data-mapper>`
++ :ref:`Default Value <default-value>`
 + :ref:`Dependency Injection <dependency-injection>`
++ :ref:`Deprecation <deprecated>`
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
++ :ref:`Destructor <destructor>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
 + :ref:`Event driven <event-driven>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
++ :ref:`Hash() function <hash-function>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Protocol <protocol>`
++ :ref:`Template <template>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable code <unreachable-code>`
 + :ref:`Unused <unused>`
 + :ref:`Value Object <value-object>`
++ :ref:`View <view>`
++ :ref:`View in presentation <view-presentation>`
++ :ref:`constructor <constructor>`
 
 Control flow
 ------------
@@ -92,6 +109,7 @@ Keyword
 
 + :ref:`Break <break>`
 + :ref:`Callables <callable>`
++ :ref:`Case <case>`
 + :ref:`Catch <catch>`
 + :ref:`Classes <class>`
 + :ref:`Clone <clone>`
@@ -115,11 +133,13 @@ Keyword
 + :ref:`Public Visibility <public>`
 + :ref:`Stringable <stringable>`
 + :ref:`Switch <switch>`
++ :ref:`Switch Case <switch-case>`
++ :ref:`Switch Default <switch-default>`
 + :ref:`Try-catch <try-catch>`
++ :ref:`Use <use>`
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
-+ :ref:`case <case>`
 
 Language construct
 ------------------
@@ -154,6 +174,7 @@ Magic method
 + :ref:`__get() method <-__get>`
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
++ :ref:`__set_state() method <-__set_state>`
 + :ref:`__sleep() method <-__sleep>`
 + :ref:`__toString() method <-__tostring>`
 + :ref:`__wakeup() <-__wakeup>`
