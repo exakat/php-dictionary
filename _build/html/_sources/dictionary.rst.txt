@@ -52,9 +52,12 @@ PHP Dictionary
    * :ref:`Assumption <assumption>`
    * :ref:`Attribute class <attribute-class>`
    * :ref:`Attributes <attribute>`
+   * :ref:`Authenticate <authenticate>`
+   * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
 * B
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
+   * :ref:`Best Practices <best-practice>`
    * :ref:`Binary Integer <binary-integer>`
    * :ref:`Bitwise operators <bitwise-operator>`
    * :ref:`Blind Variable <variable-blind>`
@@ -124,7 +127,9 @@ PHP Dictionary
    * :ref:`Dangling Reference <dangling-reference>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
+   * :ref:`Database <database>`
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
+   * :ref:`Dataset <dataset>`
    * :ref:`Dates <date>`
    * :ref:`Debugger <debugger>`
    * :ref:`Deep clone <deep-clone>`
@@ -132,6 +137,7 @@ PHP Dictionary
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
    * :ref:`Dependency Injection <dependency-injection>`
+   * :ref:`Deploy <deploy>`
    * :ref:`Deprecation <deprecated>`
    * :ref:`Dereferencing <dereferencing>`
    * :ref:`Design Pattern <design-pattern>`
@@ -144,6 +150,7 @@ PHP Dictionary
    * :ref:`DomXML <domxml>`
    * :ref:`DomainException <domainexception>`
    * :ref:`Double Quotes Strings <double-quote>`
+   * :ref:`Duck Typing <duck-typing>`
    * :ref:`Dynamic Call <dynamic-call>`
    * :ref:`Dynamic Class <dynamic-class>`
    * :ref:`Dynamic Constant <dynamic-constant>`
@@ -174,7 +181,7 @@ PHP Dictionary
    * :ref:`Event driven <event-driven>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
-   * :ref:`Exit Class Constants <exit>`
+   * :ref:`Exit <exit>`
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
    * :ref:`Extensions <extension>`
@@ -215,12 +222,14 @@ PHP Dictionary
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hash <hash>`
+   * :ref:`Hash Comparisons <hash-comparison>`
    * :ref:`Hash() function <hash-function>`
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 * I
    * :ref:`Iconv <iconv>`
+   * :ref:`Identical operator <identical>`
    * :ref:`If Then Else <if-then>`
    * :ref:`Iffectation <iffectation>`
    * :ref:`ImagickException <imagickexception>`
@@ -232,9 +241,11 @@ PHP Dictionary
    * :ref:`Indentation <indentation>`
    * :ref:`Index <index>`
    * :ref:`Inequality <inequality>`
+   * :ref:`Inflector <inflector>`
    * :ref:`Inheritance <inheritance>`
    * :ref:`Injection <injection>`
    * :ref:`Insteadof <insteadof>`
+   * :ref:`Interface Segregation Principle <isp>`
    * :ref:`Interfaces <interface>`
    * :ref:`Internationalization <internationalization>`
    * :ref:`Internationalization Functions <intl>`
@@ -249,6 +260,7 @@ PHP Dictionary
    * :ref:`integer <integer>`
 * J
    * :ref:`JSON <json>`
+   * :ref:`Jobqueues <jobqueue>`
    * :ref:`JsonException <jsonexception>`
 * K
    * :ref:`Key-value stores <key-value-store>`
@@ -264,6 +276,7 @@ PHP Dictionary
    * :ref:`Literal <literal>`
    * :ref:`Local File Inclusion <lfi>`
    * :ref:`Locale <locale>`
+   * :ref:`Log <log>`
    * :ref:`LogicException <logicexception>`
    * :ref:`Logical operators <logical-operator>`
    * :ref:`Loops <loop>`
@@ -276,9 +289,11 @@ PHP Dictionary
    * :ref:`Magic Methods <magic-method>`
    * :ref:`Magic Property <magic-property>`
    * :ref:`Map <map>`
+   * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
    * :ref:`Method <method>`
+   * :ref:`Migration <migration>`
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
    * :ref:`Model <model>`
@@ -307,7 +322,9 @@ PHP Dictionary
    * :ref:`Numeric Separator <numeric-separator>`
    * :ref:`new <new>`
 * O
+   * :ref:`OWASP <owasp>`
    * :ref:`Object <object>`
+   * :ref:`Object Injection <object-injection>`
    * :ref:`Object Invasion <object-invasion>`
    * :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
    * :ref:`Object Operator -> <object-operator>`
@@ -340,6 +357,7 @@ PHP Dictionary
    * :ref:`PHP-FPM <fpm>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`Packagist <packagist>`
+   * :ref:`Pagination <pagination>`
    * :ref:`Parameter <parameter>`
    * :ref:`Parenthesis <parenthesis>`
    * :ref:`Passing By Reference <by-reference>`
@@ -347,6 +365,7 @@ PHP Dictionary
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
    * :ref:`PharException <pharexception>`
+   * :ref:`Plugin <plugin>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Precedence <precedence>`
@@ -365,8 +384,11 @@ PHP Dictionary
    * :ref:`parent <parent>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
+* Q
+   * :ref:`Queue <queue>`
 * R
    * :ref:`RDBMS <rdbms>`
+   * :ref:`REST API <api>`
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
    * :ref:`Readability <readability>`
@@ -377,14 +399,18 @@ PHP Dictionary
    * :ref:`References <reference>`
    * :ref:`ReflectionException <reflectionexception>`
    * :ref:`Register Globals <register-globals>`
+   * :ref:`Registry <registry>`
    * :ref:`Regular Expressions <regex>`
    * :ref:`Remote Procedure Call <rpc>`
+   * :ref:`Rendering <render>`
    * :ref:`Reserved Names <reserved-name>`
+   * :ref:`Reserved for Future Use <rfu>`
    * :ref:`Return <return>`
    * :ref:`Return Type Will Change <returntypewillchange>`
    * :ref:`Return Typehint <return-typehint>`
    * :ref:`Return Value <return-value>`
    * :ref:`Route <route>`
+   * :ref:`Rubber Ducking Debugging <rubber-ducking>`
    * :ref:`resource <resource>`
 * S
    * :ref:`SAPI <sapi>`
@@ -393,8 +419,11 @@ PHP Dictionary
    * :ref:`SQL Views <view-sql>`
    * :ref:`SQL injection <sql-injection>`
    * :ref:`SSL <ssl>`
+   * :ref:`SWAP <swap>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scalar Typehints <scalar-typehint>`
+   * :ref:`Schema <schema>`
+   * :ref:`Scheme <scheme>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
@@ -467,7 +496,9 @@ PHP Dictionary
    * :ref:`UnhandledMatchError <unhandledmatcherror>`
    * :ref:`Unicode <unicode>`
    * :ref:`Union type <union-type>`
+   * :ref:`Universal Resource Identifier (URI) <uri>`
    * :ref:`Universal Resource Locator (URL) <url>`
+   * :ref:`Unpacking <unpacking>`
    * :ref:`Unreachable code <unreachable-code>`
    * :ref:`Unsserialization <unserialization>`
    * :ref:`Unused <unused>`
@@ -500,6 +531,7 @@ PHP Dictionary
    * :ref:`XMLwriter <xmlwriter>`
    * :ref:`XXTEA <xxtea>`
 * Y
+   * :ref:`YAML <yaml>`
    * :ref:`Yield <yield>`
    * :ref:`Yoda condition <yoda>`
    * :ref:`yield from Keyword <yield-from>`
@@ -551,26 +583,30 @@ The received values are all strings or arrays. They are strings by default, and 
 
 $_GET is a superglobal : it is always available, in every scope.
 
+Values inside $_GET are always strings, or arrays. `https://www.site.com/index.php?x=1` or `https://www.site.com/index.php?x[2]=1`.
+
 
 .. code-block:: php
    
    <?php
    
    // https://www.example.com/index.php?x=1
-   $_POST['x'] === '1';
+   $_GET['x'] === '1';
    
    // https://www.example.com/index.php?y=abc
-   $_POST['y'] === 'abc';
+   $_GET['y'] === 'abc';
    
    // https://www.example.com/index.php?z[]=def&z[]=ghi
-   $_POST['z'] === array('def', 'ghi');
+   $_GET['z'] === array('def', 'ghi');
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-Related : :ref:`$_POST <$_post>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _$_post:
 
@@ -582,6 +618,9 @@ An associative array of variables, transmitted to the current script via the HTT
 The received values are all strings or arrays. They are strings by default, and other scalar types needs a casting. The values are arrays when the URL uses the `[]` format. 
 
 $_POST is a superglobal : it is always available, in every scope.
+
+Values inside $_POST are always strings, or arrays.
+
 
 
 .. code-block:: php
@@ -603,7 +642,7 @@ $_POST is a superglobal : it is always available, in every scope.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.post.php>`__
 
-Related : :ref:`$_GET <$_get>`
+Related : :ref:`$_GET <$_get>`, :ref:`$_REQUEST <$_request>`
 
 .. _$_request:
 
@@ -1495,13 +1534,16 @@ Related : :ref:`Closure <closure>`
 Application Performance Management
 ----------------------------------
 
-APM stands for Application Performance Management. 
+APM stands for Application Performance Management. An APM monitors various performance metrics, such as CPU, memory usage, logs. 
+
+It helps finding bottlenecks in the code. 
+
 
 `Documentation <https://en.wikipedia.org/wiki/Application_performance_management>`__
 
 See also `Introduction to New Relic for PHP <https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/>`_, `Tracing PHP Applications <https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers>`_, `Scout APM PHP Configuration <https://scoutapm.com/docs/php/configuration>`_, `Best PHP Monitoring Tools on the Market <https://scoutapm.com/blog/php-monitoring-tool-roundup>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
+Related packages : `datadog/dd-trace <https://packagist.org/packages/datadog/dd-trace>`_, `ekino/newrelic-bundle <https://packagist.org/packages/ekino/newrelic-bundle>`_
 
 .. _arbitrary-argument:
 
@@ -1947,6 +1989,68 @@ Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.0
 
+.. _authenticate:
+
+Authenticate
+------------
+
+Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement. null is not a valid return value for a void function. 
+
+Void function may throw exceptions or return without a parameter.
+
+Null and void are two different notions. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo(&$a) : void {
+       $a++;
+       
+       // No return used here
+   }
+   
+   $b = 0;
+   foo($b);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`__
+
+Related : :ref:`Null <null>`
+
+Added in PHP 8.0
+
+.. _autovivification:
+
+Autovivification
+----------------
+
+Autovivification is the automatic creation of an array when a value is dereferenced.
+
+Autovivification from scalars, including true, is deprecated since PHP 7.4 and removed in PHP 8.0. 
+
+Autovivification from false is deprecated since PHP 8.1. 
+
+Autovivification from null is valid.
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = false;
+   $a[1] = 2;
+   
+   $b = null;
+   $b[3] = 4;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.autovivification-false>`__
+
 .. _autowiring:
 .. _auto-wiring:
 
@@ -2019,6 +2123,22 @@ In ``/var/www/index.php``, the base name is ``index.php``.
 `Documentation <https://www.php.net/manual/en/function.basename.php>`__
 
 Related : :ref:`dirname <dirname>`
+
+.. _best-practice:
+
+Best Practices
+--------------
+
+Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome. 
+
+For example, 'comment the code', 'use meaningful names' and 'optimisation is the root of all evil' are such rules. 
+
+Best practices are often grouped in a ruleset, such as SOLID, DRY or Calisthenics. 
+
+It takes some effort to understand the value of the rules, without running into the errors they protect against.
+
+
+See also `PHP - Best Practices 2019 <https://odan.github.io/2019/12/06/php-best-practice-2019.html>`_
 
 .. _binary-integer:
 
@@ -2584,6 +2704,9 @@ Class Invasion
 
 Objects of the same type will have access to each others private and protected members even though they are not the same instances. 
 
+Class invasion doesn't work when running an external closure inside the class.
+
+
 .. code-block:: php
    
    <?php
@@ -2894,8 +3017,6 @@ A сollection is an array in which only elements of the same type can be stored.
 
 Collections may be build with array, or dedicated classes. 
 
-
-
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_
 
 Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Generics <generics>`
@@ -3044,7 +3165,14 @@ Related : :ref:`extract() <extract>`, :ref:`Variable Variables <variable-variabl
 Comparison
 ----------
 
- Comparison operators, as their name implies, allow you to compare two values. 
+Comparison operators, as their name implies, allow you to compare two values. 
+
+PHP comparisons exists wiht type-juggling, `==`, `<>`, `<=>`, switch() and `!=`, and with type checks, match(), `===` and `!==`. 
+
+Inegalities only exists with type-juggling. 
+
+There are also functions dedicated to comparisons, with specific applications : strcmp(), strcasecmp(), strnatcasecpm(), strcoll(), similar_text(), levensthein(), bccomp(), version_compare(), hash_equals().
+
 
 .. code-block:: php
    
@@ -3058,7 +3186,9 @@ Comparison
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-Related : :ref:`Operators <operator>`
+See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_
+
+Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, 
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -3192,7 +3322,18 @@ Related : :ref:`Const <const>`
 Configuration
 -------------
 
- 
+Configuration is a set of data that conditions the execution of the program.
+
+Generally, configuration isn' changed during the execution of the program. 
+
+PHP has three location for configuration : php.ini, .htaccess and usage of the ini_set() functions. 
+
+Each item of configuration is called a directive.
+
+
+`Documentation <https://www.php.net/manual/en/configuration.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _const:
 
@@ -3479,7 +3620,14 @@ Related packages : ` <https://packagist.org/packages/>`_
 Convention
 ----------
 
- 
+A convention is a way in which something is usually done.
+
+There are coding conventions, which is the way the code is presented and should be shared among a or several teams. 
+
+There is also the concept of convention over configuration, where the common behaviors (the convention) is used as default, and any unusual aspect must be configured. 
+
+
+See also `Convention over configuration <https://en.wikipedia.org/wiki/Convention_over_configuration>`_, `Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>`_
 
 .. _cookie:
 
@@ -3814,6 +3962,22 @@ The format of a DNS is usually specified by the target database. For example :
 
 `Documentation <https://www.php.net/manual/en/pdo.connections.php>`__
 
+.. _database:
+
+Database
+--------
+
+A database is an organized set of data, which may be queried.
+
+The database differs from the dataset by the query mechanism. 
+
+The database may be managed by a server, though it is not necessary.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Database>`__
+
+Related : :ref:`Dataset <dataset>`
+
 .. _dbal:
 
 Database Abstraction Layer (DBAL)
@@ -3826,6 +3990,20 @@ See also `Doctrine <https://www.doctrine-project.org/>`_
 Related : :ref:`Object Relationanl Mapping (ORM) <orm>`
 
 Related packages : `doctrine/dbal <https://packagist.org/packages/doctrine/dbal>`_, `dibi/dibi <https://packagist.org/packages/dibi/dibi>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_
+
+.. _dataset:
+
+Dataset
+-------
+
+A dataset is an organized collection of data.
+
+The data may be structured or not. The dataset needs a programming language to query it, or will be imported in a database for further processing.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Data_set>`__
+
+See also `Kaggle <https://www.kaggle.com/datasets>`_
 
 .. _date:
 .. _datetime:
@@ -3846,6 +4024,8 @@ These functions allow you to get the date and time from the server where your PH
 
 
 `Documentation <https://www.php.net/datetime>`__
+
+See also `PHP Time handling: the ultimate guide (Part 1/3) <https://alexwebdevelop.com/php-time-handling-part-1/>`_, `PHP Time handling: the ultimate guide (Part 2/3) <https://alexwebdevelop.com/php-time-handling-part-2/>`_, `PHP Time handling: the ultimate guide (Part 3/3) <https://alexwebdevelop.com/php-time-handling-part-3/>`_
 
 .. _debugger:
 .. _debug:
@@ -4081,6 +4261,7 @@ define() used to create case-insensitive constant, but this was abandoned in PHP
 
 .. _dependency-injection:
 .. _di:
+.. _dip:
 
 Dependency Injection
 --------------------
@@ -4090,6 +4271,17 @@ Dependency injection is a design pattern in which an object receives other objec
 `Documentation <https://en.wikipedia.org/wiki/Dependency_injection>`__
 
 See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/>`_, `PHP-di <https://php-di.org/>`_
+
+.. _deploy:
+
+Deploy
+------
+
+Deploy is the process to bring the code to the production platform. 
+
+
+
+See also `How to deploy code <https://wikitech.wikimedia.org/wiki/How_to_deploy_code>`_, `5 ways to deploy PHP applications <https://buddy.works/guides/5-ways-to-deploy-php-applications>`_
 
 .. _deprecated:
 .. _obsolete:
@@ -4496,6 +4688,35 @@ DTO is a class, and replaces arrays advantageously ; it has declared properties,
 
 See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_
 
+.. _duck-typing:
+
+Duck Typing
+-----------
+
+In duck typing, an object is of a given type if it has all methods and properties required by that type.
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   interface i {
+   	function foo() ; 
+   }
+   
+   // class X doesn't implement i, yet it is of type i because it implements foo()
+   class X {
+   	function foo() {}
+   	function bar() {}
+   }
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Duck_typing>`__
+
+See also `Duck Typing in PHP <https://matthiasnoback.nl/2017/02/convenient-ducktyping-in-php/>`_
+
 .. _dynamic-call:
 
 Dynamic Call
@@ -4856,6 +5077,8 @@ See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_
 
 Related : :ref:`Enumeration's case <enum-case>`
 
+Related packages : `myclabs/php-enum <https://packagist.org/packages/myclabs/php-enum>`_, `dasprid/enum <https://packagist.org/packages/dasprid/enum>`_, `spatie/enum <https://packagist.org/packages/spatie/enum>`_
+
 Added in PHP 8.1+
 
 .. _enum-case:
@@ -5015,6 +5238,10 @@ PHP supports escape sequences for characters in a string. This is the same conce
 
 
 
+`Documentation <https://owasp-top-10-proactive-controls-2018.readthedocs.io/en/latest/c4-encode-escape-data.html>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _escape-sequence:
 
 Escape Sequences
@@ -5031,6 +5258,9 @@ PHP, in strings:
   + \t (horizontal tabulation)
   + "  (double quote, inside a double quoted-string)
   + "  This is not an escape sequence : single quoted string do not recognize this
+  + \u{01f418} : a unicode codepoint, representing an elephpant
+  + \200 : a character in octal notation
+  + \x69 : a character in hexadecimal notation
 
 HTML : 
  + &acute; (a acute accent)
@@ -5158,8 +5388,8 @@ Related : :ref:`Try-catch <try-catch>`
 .. _exit:
 .. _die:
 
-Exit Class Constants
---------------------
+Exit
+----
 
 Exit and dies terminates the current process. 
 
@@ -5345,6 +5575,8 @@ The Laravel framework is known for its intensive usage of facades.
 `Documentation <https://refactoring.guru/design-patterns/facade/php/example>`__
 
 See also `Facades @ Laravel <https://laravel.com/docs/9.x/facades>`_, `Facade @ design pattern PHP <https://designpatternsphp.readthedocs.io/en/latest/Structural/Facade/README.html>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _false:
 
@@ -6205,6 +6437,34 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 Related : :ref:`Hash() function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Array <array>`, :ref:`Map <map>`
 
+.. _hash-comparison:
+
+Hash Comparisons
+----------------
+
+Cryptographic hashes are usually represented by strings in PHP. As such, they are subjects to type juggling, and they should be compared with the identity operator, or a dedicated function.
+
+.. code-block:: php
+   
+   <?php
+   $expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');
+   $correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$');
+   $incorrect = crypt('apple', '$2a$07$usesomesillystringforsalt$');
+   
+   var_dump(hash_equals($expected, $correct));
+   var_dump(hash_equals($expected, $incorrect));
+   
+   var_dump($expected == $correct));
+   var_dump($expected == $incorrect));
+   
+   var_dump($expected === $correct));
+   var_dump($expected === $incorrect));
+   
+   ?>
+
+
+See also `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_
+
 .. _hash-function:
 
 Hash() function
@@ -6394,6 +6654,35 @@ Iconv is both a PHP function, a PHP extension and a library for character encodi
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__
 
 See also `libiconv <http://www.gnu.org/software/libiconv/>`_
+
+.. _identical:
+
+Identical operator
+------------------
+
+Identical is the state of two variables, which contains the same data, with the same type. It is the same as equality, without the type-juggling.
+
+Identical operators are `===`, `!==`. The match() command also uses identical comparisons.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   var_dump(0 == 0000); // true
+   var_dump(0 === 0);   // false
+   var_dump(0 === 0);     // true
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
+
+See also `How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ? <https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/>`_
+
+Related : 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _if-then:
 
@@ -6701,8 +6990,6 @@ Indentation is a convention governing the indentation of blocks of code to conve
 
 `Documentation <https://en.wikipedia.org/wiki/Indentation_style>`__
 
-Added in PHP 4.0
-
 .. _index:
 
 Index
@@ -6757,6 +7044,32 @@ Unlike the equality operators, they do not have a strict version, which takes in
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
+.. _inflector:
+
+Inflector
+---------
+
+An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase.
+
+.. code-block:: php
+   
+   <?php
+   
+   // example using doctrine/inflector
+   
+   $inflector = InflectorFactory::create()->build();
+   echo $inflector->singularize('browsers'); // browser
+   
+   
+   ?>
+
+
+See also `doctrine inflector <https://www.doctrine-project.org/projects/inflector.html>`_
+
+Related : :ref:`Internationalization <localisation>`
+
+Related packages : `doctrine/inflector <https://packagist.org/packages/doctrine/inflector>`_, `symfony/inflector <https://packagist.org/packages/symfony/inflector>`_, `cakephp/utility <https://packagist.org/packages/cakephp/utility>`_
+
 .. _inheritance:
 
 Inheritance
@@ -6807,8 +7120,6 @@ There are good injections, as the dependency injection.
 There are bad injections : all the security ones. SQL injection, PHP code injection, CSV injection, XML injection, etc. Those attempt to change reroute the execution of the method to gain access to unprotected resources. 
 
 
-
-`Documentation <https://www.php.net/manual/en/reserved.variables.phperrormsg.php>`__
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, :ref:`Code Injection <code-injection>`, :ref:`CSV injection <csv-injection>`
 
@@ -6916,6 +7227,19 @@ Integers have several syntaxes : they may be written in binary, octal, decimal, 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
+.. _isp:
+
+Interface Segregation Principle
+-------------------------------
+
+The interface segregation principle (ISP) states that no code should be forced to depend on methods it does not use.
+
+`Documentation <https://en.wikipedia.org/wiki/Interface_segregation_principle>`__
+
+See also `SOLID Design Principles Explained: Interface Segregation with Code Examples <https://stackify.com/interface-segregation-principle/>`_, `How To Use Interface Segregation Principle in PHP/Laravel <https://mohasin-dev.medium.com/how-to-use-interface-segregation-principle-in-php-laravel-e5442d847da3>`_
+
+Related : :ref:`SOLID <solid>`
+
 .. _interface:
 
 Interfaces
@@ -6963,13 +7287,14 @@ Interfaces may have methods signatures, without a body, and constants.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_, `When to add an interface to a class <https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/>`_
 
 Related : :ref:`Fluent Interface <fluent-interface>`
 
 .. _internationalization:
 .. _i18n:
 .. _localization:
+.. _localisation:
 
 Internationalization
 --------------------
@@ -7172,9 +7497,41 @@ An iterator is an object which can be traversed with a foreach() loop.
 An iterator may be turned into an array, with the iterator_to_array() function.
 
 
+.. code-block:: php
+   
+   
+   <?php
+   
+   class myIterator implements Iterator { /**/ }
+   
+   $it = new myIterator;
+   
+   foreach($it as $key => $value) {
+       var_dump($key, $value);
+       echo \n;
+   }
+   
+   ?>
+   
+
+
 `Documentation <https://www.php.net/manual/en/class.iterator.php>`__
 
+See also `Modern PHP Developer - Iterator <https://startutorial.com/view/modern-php-developer-iterator>`_, `Iterator in PHP <https://refactoring.guru/design-patterns/iterator/php/example>`_
+
 Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Traversal <traversal>`, :ref:`Foreach <foreach>`
+
+.. _jobqueue:
+
+Jobqueues
+---------
+
+A job queue is a server that collect tasks to process, and dispatch them to workers.
+
+A job queue may organize the tasks in different way : in particular, by priority. 
+
+
+`Documentation <https://en.wikipedia.org/wiki/Job_queue>`__
 
 .. _json:
 
@@ -7609,6 +7966,20 @@ Locale are supported with the ext/icu extension, and also, natively with the set
 
 See also `setlocale() <https://www.php.net/manual/en/class.locale.php>`_
 
+.. _log:
+
+Log
+---
+
+Log is a list of event that happen during execution of a piece of software.
+
+Log report meaningful events during execution. They are used after execution to provide overview of the process : performance, exceptional events, etc. 
+
+Logs may be saved on the local machine, or exported to external storages. 
+
+
+Related packages : `psr/log <https://packagist.org/packages/psr/log>`_, `monolog/monolog <https://packagist.org/packages/monolog/monolog>`_, `sentry/sentry <https://packagist.org/packages/sentry/sentry>`_
+
 .. _logical-operator:
 .. _xor:
 .. _or:
@@ -7716,6 +8087,8 @@ See also `Too much magic? <https://matthiasnoback.nl/2022/03/too-much-magic/>`_
 
 Related : :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _magic-constant:
 
 Magic Constants
@@ -7776,6 +8149,8 @@ The protection against magic hashes is to use the identity operator `===`, rathe
 
 This example is applicable with any hash algorithm which produces a string that starts with 0. Check the magic hash repository for examples with SHA256, HAVAL, PHOTON, RIPEMD or SPONGENT.
 
+There are PHP functions and operators that perform safe comparisons ,such as `===`, `!==` and hash_equals().
+
 
 
 .. code-block:: php
@@ -7792,9 +8167,9 @@ This example is applicable with any hash algorithm which produces a string that 
    ?>
 
 
-See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_
+See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_, `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_
 
-Related : :ref:`Hash <hash>`
+Related : :ref:`Hash <hash>`, , :ref:`Type Juggling <type-juggling>`
 
 .. _magic-method:
 
@@ -7891,6 +8266,19 @@ Maps are also called associative array, or hashes.
 
 
 Related : :ref:`Array <array>`
+
+.. _markdown:
+
+Markdown
+--------
+
+Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. 
+
+`Documentation <https://www.markdownguide.org/>`__
+
+See also `markdown syntax <https://daringfireball.net/projects/markdown/syntax>`_
+
+Related packages : `league/commonmark <https://packagist.org/packages/league/commonmark>`_, `erusev/parsedown <https://packagist.org/packages/erusev/parsedown>`_, `michelf/php-markdown <https://packagist.org/packages/michelf/php-markdown>`_
 
 .. _match:
 
@@ -8000,6 +8388,22 @@ Methods are function dedicated to a class. They are defined inside the body of a
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
 Related : :ref:`Classes <class>`
+
+.. _migration:
+
+Migration
+---------
+
+Migration is the incremental upgrade of a piece of code. 
+
+It is often used for databases, for example, with Laravel database migrations; for components and frameworks : for example, CakePHP migration.
+
+Usually, migration requires some action from the user, although a migration script may be provided.
+
+Migration may also be called upgrades. 
+
+
+See also `Database: Migrations <https://laravel.com/docs/9.x/migrations>`_, `Migrating from PHP 8.0.x to PHP 8.1.x <https://www.php.net/manual/en/migration81.php>`_
 
 .. _mixed:
 
@@ -8764,6 +9168,29 @@ PHP includes a complete object model. Some of its features are: visibility, abst
 
 Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`Clone <clone>`, :ref:`Type system <type>`
 
+.. _object-injection:
+.. _deserialize-injection:
+
+Object Injection
+----------------
+
+Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controled by the attacker.
+
+The general synopsis is the following : 
++ PHP serialize an object
++ The serialized string is transmitted to the user, then back to PHP (via cookies, hidden fields, or any storage)
++ PHP deserialize the object
+
+While in the hand of the user, the data was doctored to retain its format validity, but with values that are now controlled by the attacker.
+
+
+
+`Documentation <https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection>`__
+
+See also `PHP Object Injection Exploitation Notes <https://snoopysecurity.github.io/web-application-security/2021/01/08/02_php_object_injection_exploitation-notes.html>`_
+
+Related : :ref:`Serialization <serialization>`
+
 .. _object-invasion:
 
 Object Invasion
@@ -8886,8 +9313,6 @@ Object Relationanl Mapping is a tool that bridges the OOP world to databases (in
 As its definition implies, such tool is able to take data from an object, and place it in a database's table. The transfert may be straightforward, when the object is stored in one table. Or, it may be complex, when the same data are spread over multiple tables. 
 
 PHP has several ORM : Doctrine, Readbean, Eloquent, Propel.
-
-
 
 `Documentation <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>`__
 
@@ -9205,6 +9630,20 @@ Overwriting is also called overloading.
 
 Related : :ref:`Final Keyword <final>`, :ref:`Private Visibility <private>`, :ref:`Inheritance <inheritance>`
 
+.. _owasp:
+
+OWASP
+-----
+
+OWASP stands for Open Web Application Security Project. It is a organization that educates people to design, code and maintain secure application.
+
+OWASP is famous for the TOP 10 : a list of the top 10 threats to web applications. It is updated every three years.
+
+
+`Documentation <https://owasp.org/>`__
+
+See also `TOP 10 2021 <https://owasp.org/Top10/>`_
+
 .. _pack:
 
 pack
@@ -9234,6 +9673,18 @@ Packagist works with composer.
 `Documentation <https://getcomposer.org/>`__
 
 Related : :ref:`Packagist <packagist>`
+
+.. _pagination:
+.. _paging:
+
+Pagination
+----------
+
+Pagination is the process to break down a list into smaller partitions, to ease navigation.
+
+`Documentation <https://en.wikipedia.org/wiki/Pagination>`__
+
+See also `PHP Pagination <https://www.javatpoint.com/php-pagination>`_, `What is Pagination in PHP? Understanding The Fundamentals <https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php>`_
 
 .. _parameter:
 
@@ -9442,6 +9893,8 @@ Persistence also applies to database connexion, where the connexion is not close
 
 Persistent storage may also be called permanant storage. 
 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _phar:
 
@@ -9804,6 +10257,20 @@ phpinfo() is one of the most famous PHP function. It outputs information about P
 `Documentation <https://www.php.net/manual/en/function.phpinfo>`__
 
 Added in PHP 4.0
+
+.. _plugin:
+
+Plugin
+------
+
+A plugin is a component that add new features to an existing code. 
+
+A plugin is build on top of a framework, and makes usage of it. It may also have its own dependencies.
+
+Plugin is a generic term, and has many variations : component, extensions, module, etc.
+
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _plus:
 
@@ -10210,6 +10677,22 @@ public is also the default visibility when it is omitted :
 
 Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`Private Visibility <private>`, :ref:`Protected Visibility <protected>`, :ref:`Var <var>`
 
+.. _queue:
+
+Queue
+-----
+
+A Queue may be one of the following: 
+
++ A class, in the ext/ds (data structures) extension
++ A job Queue, which collect and dispatch loads of work, to background processes.
+
+
+
+Related : :ref:`Jobqueues <jobqueue>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _random:
 
 Random
@@ -10499,10 +10982,29 @@ Register-globals has been removed in PHP 5.4.
    	// $_GET['foo'] = 'bar';
    	
    	echo $foo;
+   	
+   	// $_GET['_SESSION']['logged'] = '1';
+   	
    ?>
 
 
 `Documentation <https://www.mediawiki.org/wiki/Register_globals>`__
+
+.. _registry:
+
+Registry
+--------
+
+A registry may be the following things : 
+
++ a design pattern
++ a central object, which gives access to common objects, such as view, database connexion, cache, configuration, etc.
+
+
+
+See also `Registry (design pattern) <https://designpatternsphp.readthedocs.io/en/latest/Structural/Registry/README.html>`_, `Registry Component in Phalcon <https://docs.phalcon.io/4.0/en/registry>`_
+
+Related packages : `jordanbrauer/php-registry <https://packagist.org/packages/jordanbrauer/php-registry>`_, `sylius/registry <https://packagist.org/packages/sylius/registry>`_
 
 .. _regex:
 .. _preg:
@@ -10549,6 +11051,44 @@ PHP offers xml-rpc, grpc, protocolbuffers and yar offers different standard way 
 See also `grpc <https://pecl.php.net/package/gRPC>`_, `yar <https://pecl.php.net/package/yar>`_
 
 Related packages : `grpc/grpc <https://packagist.org/packages/grpc/grpc>`_
+
+.. _render:
+
+Rendering
+---------
+
+Rendering is the action to take a template and its related data, to produce a target format. 
+
+Usually, the rules to render the format are complex.
+
+For example, rendering an HTML page, javascript, PDF, YAML, etc.. 
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   $name = elephpant;
+   $template = Hello NAME;
+   
+   // very simple rendering
+   
+   echo str_replace('NAME', $name, $template);
+   
+   ?>
+   
+
+
+Related : :ref:`View <view>`, :ref:`Template <template>`
+
+Related packages : `friendsofcake/cakepdf <https://packagist.org/packages/friendsofcake/cakepdf>`_
+
+.. _rfu:
+
+Reserved for Future Use
+-----------------------
+
+RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitely, it is a request to leave it in place, until actual usage happen.
 
 .. _reserved-name:
 
@@ -10605,6 +11145,30 @@ There is a list of PHP resources available in the docs.
 `Documentation <https://www.php.net/manual/en/language.types.resource.php>`__
 
 See also `List of Resource Types <https://www.php.net/manual/en/resource.php>`_
+
+.. _api:
+
+REST API
+--------
+
+REST stands for Representational state transfer. It formalize an interface to access resources that are physically separated.
+
+REST defines four interface constraints:
+
++ Identification of resources
++ Manipulation of resources
++ Self-descriptive messages
++ Hypermedia as the engine of application state
+
+REST APIs are docmented with OpenAPI (aka, swagger).
+
+
+
+`Documentation <https://www.redhat.com/en/topics/api/what-is-a-rest-api>`__
+
+See also `How To Use Web APIs in PHP 8.0 <https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-php-8-0>`_, `OpenAPIs <https://www.openapis.org/>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _return:
 
@@ -10767,6 +11331,22 @@ See also `How to create a basic PHP router <https://www.educative.io/answers/how
 
 Related packages : `nikic/fast-route <https://packagist.org/packages/nikic/fast-route>`_, `symfony/routing <https://packagist.org/packages/symfony/routing>`_, `altorouter/altorouter <https://packagist.org/packages/altorouter/altorouter>`_
 
+.. _rubber-ducking:
+
+Rubber Ducking Debugging
+------------------------
+
+Rubber Ducking is a debugging technic, where one explains the bug in human language, to a partner. The partner may be a real human, but also, an inanimate object, such as a rubber duck. In the process of explaining, the speaker clarifies the situation and often, get a deeper knowledge. 
+
+The 'rubber duck' reference is mentionned in the 'Pragmatic programmer' book.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Rubber_duck_debugging>`__
+
+See also `The Pragmatic Programmer <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>`_, `Rubber Ducking <https://webdevstudios.com/2017/08/01/rubber-ducking/>`_
+
+Related : :ref:`Duck Typing <duck-typing>`
+
 .. _sanitation:
 .. _sanitization:
 
@@ -10840,6 +11420,29 @@ In its simplest form, a yield statement looks much like a return statement, exce
 Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
 
 Added in PHP 7.0
+
+.. _schema:
+
+Schema
+------
+
+Schema is the database layout : its tables, views, procedures, variables, etc. 
+
+Related : :ref:`Database <database>`, :ref:`Scheme <scheme>`
+
+.. _scheme:
+
+Scheme
+------
+
+Scheme is a format for a string.
+
+For example, URL have a scheme. It is one of the component of a URL parsed by parse_str().
+
+
+See also `parse_url <https://www.php.net/manual/fr/function.parse-url.php>`_
+
+Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`Schema <schema>`
 
 .. _scope-resolution-operator:
 .. _double-colon:
@@ -11487,7 +12090,7 @@ Each principle may be used independently. Those principle are not dedicated to P
 
 See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_
 
-Related : , :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, , 
+Related : , :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, :ref:`Interface Segregation Principle <isp>`, :ref:`Dependency Injection <dip>`
 
 .. _sort:
 .. _sorting:
@@ -11559,6 +12162,10 @@ The spaceship operator got its name from its resemblance to an flying saucer. Ba
 `Documentation <https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op>`__
 
 See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-php/>`_
+
+Related : 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _special-typehint:
 
@@ -12064,6 +12671,8 @@ A string is series of characters, where a character is the same as a byte. This 
 
 Related : :ref:`Stringable <stringable>`, :ref:`Magic Methods <magic-method>`
 
+Related packages : `symfony/string <https://packagist.org/packages/symfony/string>`_
+
 .. _string-interpolation:
 
 String Interpolation
@@ -12239,6 +12848,30 @@ When those external repositories are infected with malicious component or code, 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 
 See also `PHP Supply Chain Attack on Composer <https://blog.sonarsource.com/php-supply-chain-attack-on-composer/>`_
+
+.. _swap:
+
+SWAP
+----
+
+Swap may be two things : 
+
++ Memory, stored on the disk. 
++ The operation to exchange 2 things, one for another. For example, variable swap, which exchange their value.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // simple swap technic : 
+   list($a, $b) = array($a, $b);
+   
+   [$a, $b] = [$a, $b];
+   
+   ?>
+
 
 .. _switch:
 
@@ -12852,7 +13485,6 @@ For example, integers are translated into string when displayed, or kept as inte
 Type juggling is usually done automatically, without user intervention. Explicit type juggling is achieved with the cast operators.
 
 
-
 .. code-block:: php
    
    <?php
@@ -12866,6 +13498,8 @@ Type juggling is usually done automatically, without user intervention. Explicit
 
 
 `Documentation <https://www.php.net/manual/en/language.types.type-juggling.php>`__
+
+See also `Type Juggling and Loose Comparison <https://cheatsheet.haax.fr/web-pentest/php-vulnerabilities/type_juggling/>`_
 
 Related : :ref:`Cast operator <cast>`
 
@@ -13064,6 +13698,27 @@ Related : :ref:`Type system <typehint>`
 
 Added in PHP 8.0
 
+.. _uri:
+
+Universal Resource Identifier (URI)
+-----------------------------------
+
+Universal Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies.
+
+URI are strings, with a special format, also called scheme, which allows identify uniquely a resource, without providing its location. 
+
+For example, a ISBN is a unique universal identifier for a book, yet it doesn't mention where to find such book. 
+
+URI is closely related to URL, which provides the location of the desired resource.
+
+
+
+`Documentation <https://en.wikipedia.org/wiki/URI>`__
+
+See also `List of URI schemes <https://en.wikipedia.org/wiki/List_of_URI_schemes>`_
+
+Related : :ref:`Universal Resource Locator (URL) <url>`
+
 .. _url:
 
 Universal Resource Locator (URL)
@@ -13115,6 +13770,21 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 
 Related : :ref:`SSL <ssl>`, 
+
+.. _unpacking:
+.. _unpack:
+
+Unpacking
+---------
+
+Unpacking has two meanings : 
+
++ unpack(), a PHP native function, which extracts data from a binary string. It has the pack() reverse function.
++ unpacking arguments, with the `...` operator : turning an array into a list of arguments.
+
+
+
+Related : :ref:`Variadic <variadic>`
 
 .. _unreachable-code:
 
@@ -13722,34 +14392,31 @@ Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Class cons
 Void
 ----
 
-Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement. null is not a valid return value for a void function. 
+Void is a return type. It marks methods which do not return anything. 
 
-Void function may throw exceptions or return without a parameter.
+Indeed, void methods should not use the return statement, or, when they do, use it without any argument. 
 
-Null and void are two different notions. 
+Void is only possible with methods, closures, functions and arrow functions. It makes no sense with properties or parameters.
 
 
 .. code-block:: php
    
    <?php
    
-   function foo(&$a) : void {
-       $a++;
-       
-       // No return used here
-   }
-   
-   $b = 0;
-   foo($b);
+   function foo() : void {}
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`__
 
+See also `Type Hinting No Return(Void) <https://riptutorial.com/php/example/20542/type-hinting-no-return-void->`_
+
 Related : :ref:`Null <null>`
 
-Added in PHP 8.0
+Related packages : ` <https://packagist.org/packages/>`_
+
+Added in PHP 7.1
 
 .. _weak-reference:
 
@@ -13990,6 +14657,43 @@ XXTea is a block cipher algorithm.
 `Documentation <https://en.wikipedia.org/wiki/XXTEA>`__
 
 See also `xxtea-pecl <https://github.com/xxtea/xxtea-pecl>`_
+
+.. _yaml:
+
+YAML
+----
+
+YAML stands for 'YAML ain't Markup Language'. It is a human-friendly data serialization language.
+
+YAML is supported by the extension ext/yaml and several packages. 
+
+It is used to store datasets, and configurations.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   $yaml = <<<YAML
+   ---
+   title: The title
+   date: 2001-01-23
+   amount: 251.420000
+   ...
+   YAML;
+   
+   $parsed = yaml_parse($yaml);
+   var_dump($parsed);
+   
+   ?>
+
+
+`Documentation <https://yaml.org/>`__
+
+See also `php-yaml <https://pecl.php.net/package/yaml>`_, `PHP YAML <https://www.php.net/manual/en/book.yaml.php>`_
+
+Related packages : `symfony/yaml <https://packagist.org/packages/symfony/yaml>`_, `mustangostang/spyc <https://packagist.org/packages/mustangostang/spyc>`_
 
 .. _yield:
 

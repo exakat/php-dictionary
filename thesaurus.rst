@@ -18,6 +18,9 @@ Acronym
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`PHP-FPM <fpm>`
 + :ref:`SAPI <sapi>`
++ :ref:`Universal Resource Identifier (URI) <uri>`
++ :ref:`Universal Resource Locator (URL) <url>`
++ :ref:`YAML <yaml>`
 
 Attribute
 ---------
@@ -39,8 +42,11 @@ Concept
 + :ref:`Clone <clone>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Controller <controller>`
++ :ref:`Convention <convention>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Data Mapper <data-mapper>`
++ :ref:`Database <database>`
++ :ref:`Dataset <dataset>`
 + :ref:`Default Value <default-value>`
 + :ref:`Dependency Injection <dependency-injection>`
 + :ref:`Deprecation <deprecated>`
@@ -49,16 +55,25 @@ Concept
 + :ref:`Destructor <destructor>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
++ :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
 + :ref:`Hash() function <hash-function>`
++ :ref:`Injection <injection>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
++ :ref:`Liskov Substitution Principle <lsp>`
 + :ref:`PHPdoc <phpdoc>`
++ :ref:`Pagination <pagination>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Protocol <protocol>`
++ :ref:`Registry <registry>`
++ :ref:`Rendering <render>`
++ :ref:`SOLID <solid>`
++ :ref:`Schema <schema>`
++ :ref:`Scheme <scheme>`
 + :ref:`Template <template>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable code <unreachable-code>`
@@ -115,8 +130,9 @@ Keyword
 + :ref:`Clone <clone>`
 + :ref:`Default <default>`
 + :ref:`Do While <do-while>`
++ :ref:`Enumeration <enum>`
 + :ref:`Eval() <eval>`
-+ :ref:`Exit Class Constants <exit>`
++ :ref:`Exit <exit>`
 + :ref:`Finally <finally>`
 + :ref:`For <for>`
 + :ref:`For <for>`
@@ -165,6 +181,8 @@ Type
 + :ref:`Never Typehint <never-typehint>`
 + :ref:`Real Numbers <real>`
 + :ref:`Stringable <stringable>`
++ :ref:`Type Juggling <type-juggling>`
++ :ref:`Void <void>`
 
 Magic method
 ------------
