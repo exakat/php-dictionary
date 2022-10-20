@@ -34,7 +34,9 @@ PHP Dictionary
    * :ref:`Alias <namespace-alias>`
    * :ref:`Allow Dynamic Property <allowdynamicproperty>`
    * :ref:`Alternative Syntax <alternative-syntax>`
+   * :ref:`Annotations <annotation>`
    * :ref:`Anonymous Class <anonymous-class>`
+   * :ref:`Anonymous Function <anonymous-function>`
    * :ref:`Application Performance Management <apm>`
    * :ref:`Arbitrary Number of Argument <arbitrary-argument>`
    * :ref:`Archive <archive>`
@@ -57,6 +59,7 @@ PHP Dictionary
    * :ref:`Autowiring <autowiring>`
 * B
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
+   * :ref:`Benchmarking <benchmarking>`
    * :ref:`Best Practices <best-practice>`
    * :ref:`Binary Integer <binary-integer>`
    * :ref:`Bitwise operators <bitwise-operator>`
@@ -86,6 +89,7 @@ PHP Dictionary
    * :ref:`Class aliases <class-alias>`
    * :ref:`Class constant <class-constant>`
    * :ref:`Classes <class>`
+   * :ref:`Clean Architecture <clean-architecture>`
    * :ref:`Clone <clone>`
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
@@ -101,6 +105,7 @@ PHP Dictionary
    * :ref:`Composer <composer>`
    * :ref:`Compression <compression>`
    * :ref:`Concatenation <concatenation>`
+   * :ref:`Condition <condition>`
    * :ref:`Conditional Structures <conditional-structure>`
    * :ref:`Conditioned Structures <conditioned>`
    * :ref:`Configuration <configuration>`
@@ -114,6 +119,7 @@ PHP Dictionary
    * :ref:`Controller <controller>`
    * :ref:`Convention <convention>`
    * :ref:`Cookie <cookie>`
+   * :ref:`Coroutine <coroutine>`
    * :ref:`Countable interface <countable>`
    * :ref:`Covariance <type-covariance>`
    * :ref:`Cryptographic Hash <hash-crypto>`
@@ -169,6 +175,8 @@ PHP Dictionary
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Empty <empty>`
    * :ref:`Encoding <encoding>`
+   * :ref:`Entities <entity>`
+   * :ref:`Entities, in an application <class-entity>`
    * :ref:`Enumeration <enum>`
    * :ref:`Enumeration's case <enum-case>`
    * :ref:`Error <error>`
@@ -179,6 +187,7 @@ PHP Dictionary
    * :ref:`Escape Sequences <escape-sequence>`
    * :ref:`Eval() <eval>`
    * :ref:`Event driven <event-driven>`
+   * :ref:`Event storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
    * :ref:`Exit <exit>`
@@ -218,6 +227,7 @@ PHP Dictionary
    * :ref:`Goto Labels <label>`
    * :ref:`glob() <glob>`
 * H
+   * :ref:`HTML entity <html-entity>`
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
@@ -365,6 +375,7 @@ PHP Dictionary
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
    * :ref:`PharException <pharexception>`
+   * :ref:`Pipeline <pipeline>`
    * :ref:`Plugin <plugin>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
@@ -395,6 +406,7 @@ PHP Dictionary
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
+   * :ref:`Refactoring <refactoring>`
    * :ref:`Reference Count <reference-count>`
    * :ref:`References <reference>`
    * :ref:`ReflectionException <reflectionexception>`
@@ -419,8 +431,10 @@ PHP Dictionary
    * :ref:`SQL Views <view-sql>`
    * :ref:`SQL injection <sql-injection>`
    * :ref:`SSL <ssl>`
+   * :ref:`SVMException <svmexception>`
    * :ref:`SWAP <swap>`
    * :ref:`Sanitation <sanitation>`
+   * :ref:`Scaffolding <scaffolding>`
    * :ref:`Scalar Typehints <scalar-typehint>`
    * :ref:`Schema <schema>`
    * :ref:`Scheme <scheme>`
@@ -441,7 +455,7 @@ PHP Dictionary
    * :ref:`Single Quotes Strings <single-quote>`
    * :ref:`Singleton <singleton>`
    * :ref:`Sort <sort>`
-   * :ref:`Spaceship operator <spaeceship>`
+   * :ref:`Spaceship operator <spaceship>`
    * :ref:`Special Typehints <special-typehint>`
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Standard PHP Library (SPL) <spl>`
@@ -456,8 +470,10 @@ PHP Dictionary
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
    * :ref:`Strpos() syndrom <strpos-syndrom>`
+   * :ref:`Stubs files <stubs>`
    * :ref:`Superglobal variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
+   * :ref:`Support Vector Machine <svm>`
    * :ref:`Switch <switch>`
    * :ref:`Switch Case <switch-case>`
    * :ref:`Switch Default <switch-default>`
@@ -468,12 +484,12 @@ PHP Dictionary
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
-   * :ref:`stubs files <stubs>`
 * T
    * :ref:`TLS <tls>`
    * :ref:`Template <template>`
    * :ref:`Ternary operator <ternary>`
    * :ref:`Test <test>`
+   * :ref:`Thread <thread>`
    * :ref:`Three dots <three-dots>`
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
@@ -504,7 +520,7 @@ PHP Dictionary
    * :ref:`Unused <unused>`
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
-   * :ref:`unset Keyword <unset>`
+   * :ref:`unset() <unset>`
 * V
    * :ref:`VCS <vcs>`
    * :ref:`Validation <validation>`
@@ -1342,6 +1358,8 @@ The underlying components may be of various shapes : PDO offers an abstraction l
 flysystem offers also an abstraction layer to filesystem, lcobucci/clock offers an abstraction to clocks.
 
 
+`Documentation <https://en.wikipedia.org/wiki/Abstraction_layer>`__
+
 Related : :ref:`Stream <stream>`, :ref:`PHP Data Objects (PDO) <pdo>`
 
 Related packages : `league/flysystem <https://packagist.org/packages/league/flysystem>`_, `lcobucci/clock <https://packagist.org/packages/lcobucci/clock>`_
@@ -1501,6 +1519,49 @@ PHP offers an alternative syntax for some of its control structures; namely, if,
 
 Related : :ref:`Control Structures <control-structure>`
 
+.. _annotation:
+
+Annotations
+-----------
+
+PHP annotations are a system to provide meta data about code, in a way that is programmatically processable. 
+
+PHP annotations are based on PHPDoc comment's syntax, and are later partially modernized by PHP attributes. 
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   /**
+    * <description of foo>
+    * @param int $a : <description of the parameter>
+    * @return int : <description of the returned value>
+    */
+   function foo(int $a) {
+   	
+   	// This annotation cannot be turned into an attribute
+   	/**
+   	 * @var int $b : <description of the variable>
+   	 */
+   	 $b = $a + 1;
+   	 
+   	 return $b;
+   }
+   
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/PHPDoc>`__
+
+See also `Understanding annotations <https://php-annotations.readthedocs.io/en/latest/UsingAnnotations.html>`_, `Annotating Types via PHP Doc Comments <https://scrutinizer-ci.com/docs/tools/php/php-analyzer/guides/annotating_code>`_
+
+Related : :ref:`Attributes <attribute>`
+
+Related packages : `php-annotations/php-annotations <https://packagist.org/packages/php-annotations/php-annotations>`_
+
 .. _anonymous-class:
 
 Anonymous Class
@@ -1528,6 +1589,34 @@ Also, arguments may be passed at instantiation time, unlike with named-class def
 See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_, `PHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_
 
 Related : :ref:`Closure <closure>`
+
+.. _anonymous-function:
+
+Anonymous Function
+------------------
+
+A function may be instantiated, without defining a function name. Such functions are called anonymous. 
+
+In PHP, they are defined as closures or arrow functions. They may also be created based on existing methods and functions, with the `...` operator.
+
+Even without names, they are usable just like functions, or as callable. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   	$closure = function () {} ; 
+   
+   	$arrowFunction = fn() => 1;
+   	
+   	$fcs = strlen(...);
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.anonymous.php>`__
+
+Related : :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`First Class Callable <first-class-callable>`
 
 .. _apm:
 
@@ -1804,7 +1893,7 @@ Arrow functions are a type of closure with a specific syntax. It only accepts on
 
 `Documentation <https://www.php.net/manual/en/functions.arrow.php>`__
 
-Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`
+Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
 
 Added in PHP 7.4
 
@@ -2123,6 +2212,16 @@ In ``/var/www/index.php``, the base name is ``index.php``.
 `Documentation <https://www.php.net/manual/en/function.basename.php>`__
 
 Related : :ref:`dirname <dirname>`
+
+.. _benchmarking:
+.. _benchmark:
+
+Benchmarking
+------------
+
+Benchmarking is 
+
+See also `PHP bench <https://github.com/phpbench/phpbench>`_, `PHPbenchmarks <http://www.phpbenchmarks.com/>`_
 
 .. _best-practice:
 
@@ -2834,6 +2933,19 @@ Basic class definitions begin with the keyword class, followed by a class name, 
 
 Added in PHP 4.0+
 
+.. _clean-architecture:
+
+Clean Architecture
+------------------
+
+Clean Architectue is a programming paradigm, where code is distributed in four layers : framework, interface adapters, application business rules, enterprise business rules. The layers are linked by the Dependency rule.
+
+`Documentation <https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html>`__
+
+See also `Domain-Driven Design and Clean Architecture in PHP — Part 1 (Layers and Structure) <https://medium.com/@pogulailo/domain-driven-design-and-clean-architecture-in-php-part-1-layers-and-structure-edcce57be42a>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _clone:
 
 Clone
@@ -2930,6 +3042,7 @@ This is done with the two methods Closure::bind() and Closure::bintTo();
 Related : :ref:`Closure <closure>`
 
 .. _coalesce:
+.. _null-coalesce:
 
 Coalesce operator
 -----------------
@@ -3188,7 +3301,7 @@ There are also functions dedicated to comparisons, with specific applications : 
 
 See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_
 
-Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, 
+Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship operator <spaceship>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -3256,6 +3369,27 @@ Concatenation is done with the dot operator.
 `Documentation <https://www.php.net/manual/en/language.operators.string.php>`__
 
 Related : :ref:`String <string>`, :ref:`Interpolation <interpolation>`, :ref:`Heredocs <heredoc>`
+
+.. _condition:
+
+Condition
+---------
+
+Conditions are an expression that are either true or false. 
+
+They are used in conditional statement, to determine which code to process next. 
+
+There are conditions in conditional statements, such as if(), switch() and match(). There are conditions in loops, to determine if the loop shall continue or not : in for(), do-while() and while().  
+
+Conditions in PHP are expressed with comparisons operators. They are also expressed with raw data, which are converted to boolean, thanks to type-juggling.
+
+
+
+`Documentation <https://www.php.net/manual/en/book.svm.php>`__
+
+See also `How To Write Conditional Statements in PHP <https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-php>`_
+
+Related : :ref:`Yoda condition <yoda>`
 
 .. _conditional-structure:
 
@@ -3650,6 +3784,48 @@ Cookies are a mechanism for storing data in the remote browser and thus tracking
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 
 Related packages : `dflydev/fig-cookies <https://packagist.org/packages/dflydev/fig-cookies>`_
+
+.. _coroutine:
+
+Coroutine
+---------
+
+Coroutines are methods whose execution may be suspended and resumed. 
+
+PHP generators a sort of subroutines.
+
+swoole, openswoole and fibers extensions offer coroutines.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // Example from OpenSwoole (https://openswoole.com/docs/modules/swoole-coroutine)
+   Co\run(function()
+   {
+       go(function()
+       {
+           Co::sleep(1);
+           echo Done 1\n;
+       });
+   
+       go(function()
+       {
+           Co::sleep(1);
+           echo Done 2\n;
+       });
+   });
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Coroutine>`__
+
+Related : :ref:`Generator <generator>`
+
+Related packages : `swow/swow <https://packagist.org/packages/swow/swow>`_, `swlib/saber <https://packagist.org/packages/swlib/saber>`_, `amphp/amp <https://packagist.org/packages/amphp/amp>`_
 
 .. _countable:
 
@@ -4210,7 +4386,7 @@ Default value is the value that a parameter or a property takes when it is used 
 
 Arguments and properties may have a default value. That way, arguments may be skipped when the method is being called, and the properties do not have to be initialized before usage.
 
-Variable have a default value of null. Their initial assignament is considered a default value, as it replaces the `null` one. 
+Variable have a default value of null. Their initial assignement is considered a default value, as it replaces the `null` one. 
 
 
 .. code-block:: php
@@ -4310,7 +4486,7 @@ Related packages : ` <https://packagist.org/packages/>`_
 Dereferencing
 -------------
 
-Dereferencing is the action to access a value, which is referenced with a pointer. Since PHP has no pointer per se, dereferencing applies to accessing an element in an array or an object. 
+Dereferencing is the action to access a value, which is referenced with a pointer. Since PHP has no pointer, dereferencing applies to accessing an element in an array or an object. 
 
 Dereferencing is also possible to function and methods calls : when a function returns an array or an object, it is possible to immediately access one of the element by using the array or method syntax.
 
@@ -4340,15 +4516,16 @@ See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functiona
 Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <object>`
 
 .. _design-pattern:
+.. _pattern:
 
 Design Pattern
 --------------
 
-A design pattern is a general solution to a common problem. Design patterns also get a name. 
+A design pattern, or simply a pattern, is a general solution to a common problem. Design patterns also get a name, for easy reference. 
 
 Design patterns are not dedicated to PHP, though most of them do apply to PHP. 
 
-Commong design patterns in PHP : 
+Common design patterns in PHP (the list is not exhaustive) : 
 + Factory
 + Dependency injection
 + Decorator
@@ -4408,9 +4585,9 @@ Related : :ref:`constructor <constructor>`
 Directives
 ----------
 
-Directives are the configuration option of PHP. They may be set in the php.ini file, in HTTP server files like .htaccess, or accessed via the ini_get() and ini_set() native calls. 
+Directives are the configuration option of PHP. They may be set in the `php.ini` file, in HTTP server files like ``.htaccess`, or accessed via the ini_get() and ini_set() native calls. 
 
-Directives are also set by PHP extension.
+Directives are also set by PHP extensions.
 
 
 .. code-block:: php
@@ -4428,7 +4605,7 @@ Directives are also set by PHP extension.
 
 `Documentation <https://www.php.net/manual/en/ini.list.php>`__
 
-Related : :ref:`Extensions <extension>`
+Related : :ref:`Extensions <extension>`, , 
 
 .. _directoryiterator:
 
@@ -4474,7 +4651,10 @@ Related : :ref:`dirname <dirname>`
 Disable classes
 ---------------
 
-This directive allows you to disable certain classes in the php.ini.
+This directive disables the provided list of classes in the `php.ini`.
+
+Once disabled, the classes may be created, via an extension or in the code of PHP. Custom classes may still be created and used. 
+
 
 .. code-block:: php
    
@@ -4487,7 +4667,7 @@ This directive allows you to disable certain classes in the php.ini.
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-classes>`__
 
-Related : :ref:`disable functions <disable-functions>`
+Related : :ref:`disable functions <disable-functions>`, 
 
 .. _disable-functions:
 
@@ -4689,6 +4869,7 @@ DTO is a class, and replaces arrays advantageously ; it has declared properties,
 See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_
 
 .. _duck-typing:
+.. _ducktyping:
 
 Duck Typing
 -----------
@@ -5032,6 +5213,8 @@ Encoding applies to incoming and outgoing data.
 
 Encoding operations are provided with mb_string, iconv and intl extensions. 
 
+Encoding is also used for code : the source is encoded when it is transformed in an unreadable yet still executable form. 
+
 
 .. code-block:: php
    
@@ -5047,6 +5230,35 @@ Encoding operations are provided with mb_string, iconv and intl extensions.
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`__
+
+.. _entity:
+
+Entities
+--------
+
+Entities are different things : 
+
++ a type of data, which has an identity, independant from the properties
++ a way to unambiguously represent characters in HTML, using a sequence of characters.
+
+
+
+Related : , :ref:`Entities, in an application <class-entity>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _class-entity:
+
+Entities, in an application
+---------------------------
+
+An entity represents a single object, with a unique identifier and a set of properties. The entity is usually stored in a database for long times. The type of the entity is called its model.
+
+`Documentation <https://en.wikipedia.org/wiki/Entity>`__
+
+Related : 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _enum:
 .. _enumeration:
@@ -5176,9 +5388,9 @@ Related : :ref:`PHP Handlers <handler>`, :ref:`Exception Handler <exception-hand
 Error Reporting
 ---------------
 
-Error reporting is both a feature, a directive and a PHP native function. They all cover the same concept.
+Error reporting is both a feature, a directive and a PHP native function. They all work with the same concept.
 
-Error reporting is the way PHP display errors are they are detected during execution. The error_reporting() function and the error_reporting direcitve sets the type of error to be reported : errors are of different types (Warning, Notice, Error, etc.)
+Error reporting is the way PHP display errors are they are detected during execution. The error_reporting() function and the error_reporting directive sets the type of error to be reported : errors are of different types (Warning, Notice, Error, etc.)
 
 While error reporting sets the type of reported error, the display of error is handled by different directives : display_errors and html_errors.
 
@@ -5328,6 +5540,19 @@ Event driven programming is a style of coding where the programm react to action
 
 See also `ReactPHP <https://reactphp.org/>`_, `Event driven server in PHP <https://stitcher.io/blog/event-driven-php>`_, `An Introduction into Event Loops in PHP <https://www.sitepoint.com/an-introduction-into-event-loops-in-php/>`_
 
+.. _event-storming:
+
+Event storming
+--------------
+
+Event storming is a workshop, aiming at discovering the domain for an application. It describes the process with stickers of various colors, posted on a wide wall. 
+
+`Documentation <https://en.wikipedia.org/wiki/Event_storming>`__
+
+See also `Event storming workshop <https://www.eventstorming.com/>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _exception:
 
 Exception
@@ -5445,7 +5670,7 @@ There are two possibilities to use this operation : the `**` operator, and the p
 Exponential
 -----------
 
-The exponential is a mathematical function. It satisfies the equalities : `exp($a + $a) = exp($a) * exp($b)`, and `exp(0) === 1`.
+The exponential is a mathematical function. It satisfies the egalities : `exp($a + $a) = exp($a) * exp($b)`, and `exp(0) === 1`.
 
 .. code-block:: php
    
@@ -5465,7 +5690,7 @@ Added in PHP 8.1
 extends
 -------
 
-`extends` is an operator of the class inheritence. It indicates that a class is built from another one, or an interface is built from another interface. As such, the properties, constants and methods of the parent class or interface are available to the newly created class, unless when they are marked with `private` visiblity. 
+`extends` is an operator of the class inheritance. It indicates that a class is built from another one, or an interface is built from another interface. As such, the properties, constants and methods of the parent class or interface are available to the newly created class, unless when they are marked with `private` visibility. 
 
 `extends` is optional. 
 
@@ -5674,7 +5899,9 @@ Using final with class constants
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-Related : :ref:`Visibility <visibility>`
+Related : :ref:`Final Keyword <final>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.1
 
@@ -5762,6 +5989,8 @@ Syntax to create a closure from a method call.
 
 `Documentation <https://www.php.net/closure>`__
 
+Related : :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`
+
 Added in PHP 8.1
 
 .. _fixture:
@@ -5806,6 +6035,8 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 
 `Documentation <https://www.php.net/manual/en/language.types.float.php>`__
+
+See also `Floating Dangers in PHP <https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc>`_
 
 Related : :ref:`Real Numbers <real>`
 
@@ -6134,6 +6365,10 @@ Functions in PHP. It defines a set of argument, and process a value, which is re
 
 `Documentation <https://www.php.net/manual/en/functions.php>`__
 
+Related : :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _garbage-collection:
 .. _gc:
 
@@ -6214,7 +6449,7 @@ Generics allows the creation of general classes, that can process several types 
 
 Generics have been submitted as RFC since 2016, and are currently not implemented, in the forseeable future. 
 
-One implementation of generics is available, with transpiling : see `mrsuh/php-generics`
+One implementation of generics is available, with transpiling : see `mrsuh/php-generics`.
 
 
 `Documentation <https://stitcher.io/blog/generics-in-php-1>`__
@@ -6566,6 +6801,39 @@ PHP also has special syntax for binary and octal numbers.
 
 Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-integer>`
 
+.. _html-entity:
+
+HTML entity
+-----------
+
+HTML entities are special character sequences, that represents a single character. Such representation is not needed for simple characters, such as the latin alphabet. On the other hand, they are needed for unusual characters, in particular when the encoding cannot be guaranteed to support it. 
+
+They are also needed to display characters, which have a special meaning, such as double quote `"`, or the greater `>` and lesser signs `<`. 
+
+HTML entities makes the source code longer, and harder to read. 
+
+HTML entities may have a letter representation, while they always have a numeric representation. For example, the ampersand may be written `\&amp;` and `\&#38;`.
+
+PHP has functions to decode (turn HTML entities into characters) and encode (turn characters into HTML entities) : htmlentities() and htmlentities_decode(), htmlspecialchars() and htmlspecialchars_decode(). The get_html_translation_table() provides the full list of supported entities. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   echo htmlentities('&'); // &amp;
+   
+   print htmlentities_decode('&lt;A&gt;'); // <A>
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.htmlentities.php>`__
+
+See also `Named character references <https://html.spec.whatwg.org/multipage/named-characters.html>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _http-header:
 
 HTTP headers
@@ -6680,7 +6948,7 @@ Identical operators are `===`, `!==`. The match() command also uses identical co
 
 See also `How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ? <https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/>`_
 
-Related : 
+Related : :ref:`Comparison <comparison-operator>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -9075,13 +9343,12 @@ Added in PHP 7.1
 Nullsafe
 --------
 
-A nullsafe operator is able to carry a function or fail graciously. In particular, it won't stop the execution with a fatal error. 
+A nullsafe operator is able to carry a function or fail graciously to `null`. In particular, it won't stop the execution with a fatal error. 
 
 There are two PHP operators that are nullsafe : 
 
 + nullsafe object operator `?->`
-+ nullsafe-coalesce `??` 
-
++ nullsafe-coalesce `??`.
 
 
 .. code-block:: php
@@ -9092,6 +9359,8 @@ There are two PHP operators that are nullsafe :
    
    $b = $a?->method();
    
+   $b = $a?->chain1?->chain2?->method();
+   
    // foo may return null
    function foo() : ?A { }
    
@@ -9099,9 +9368,9 @@ There are two PHP operators that are nullsafe :
    
 
 
-`Documentation <https://www.php.net/manual/en/intro.hash.php>`__
+Related : :ref:`Object Operator -> <object-operator>`, :ref:`Coalesce operator <coalesce>`
 
-Added in PHP 8.0+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _numeric-separator:
 
@@ -10207,7 +10476,11 @@ Related : :ref:`CGI <cgi>`
 PHPdoc
 ------
 
-PHPDoc is an adaptation of Javadoc for the PHP programming language. It is a formal way to comment certains PHP structures, that is machine readable.
+PHPDoc is a style of PHP comments. Those comments are delimited by `/** */`. 
+
+PHPdoc comments are different from the other styles of PHP comments in their syntax. They are also used for PHP annotations, and are sometimes confused with them. 
+
+PHPDoc annotations are an adaptation of Javadoc for the PHP programming language. It is a formal way to comment certains PHP structures, that is machine readable.
 
 PHPDoc has a special token, to make it easier to extract it from the code.
 
@@ -10235,9 +10508,9 @@ PHPdoc may be exploited by automated documentation tools, or static analyzer, ID
 
 `Documentation <https://en.wikipedia.org/wiki/PHPDoc>`__
 
-See also `phpDocumentor <https://www.phpdoc.org/>`_
+See also `Introduction to PHP Annotations <https://www.educba.com/php-annotations/>`_, `phpDocumentor <https://www.phpdoc.org/>`_
 
-Related : :ref:`Attributes <attribute>`
+Related : :ref:`Attributes <attribute>`, :ref:`Annotations <annotation>`
 
 .. _phpinfo:
 
@@ -10257,6 +10530,28 @@ phpinfo() is one of the most famous PHP function. It outputs information about P
 `Documentation <https://www.php.net/manual/en/function.phpinfo>`__
 
 Added in PHP 4.0
+
+.. _pipeline:
+
+Pipeline
+--------
+
+A pipeline is a chain of steps that composes a sequential set of actions.
+
+A pipeline is used with : 
++ datasets, to read, transform and save data
++ continuous integration, where each check and packaging follows the previous one
++ processing, where each step is a separate process
+
+The pipeline image is related to the assembly line, from factories.
+
+
+
+`Documentation <https://en.wikipedia.org/wiki/Pipeline_(software)>`__
+
+See also `Laravel: When to use Pipelines? How to test them? <https://darkghosthunter.medium.com/laravel-when-to-use-pipelines-how-to-test-them-8993ed93e735>`_, `Understanding the pipeline pattern <https://matthewdaly.co.uk/blog/2018/10/05/understanding-the-pipeline-pattern/>`_
+
+Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `thephpleague/pipeline <https://packagist.org/packages/thephpleague/pipeline>`_
 
 .. _plugin:
 
@@ -10651,9 +10946,9 @@ Related : :ref:`Wrapper <wrapper>`
 Public Visibility
 -----------------
 
-The public keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it doesn't restrict usage.
+The `public` keyword is part of the three keywords to define visibility of a method, property or constant. It is the lowest level of visibility : it doesn't restrict usage.
 
-public is also the default visibility when it is omitted : 
+`public` is also the default visibility when it is omitted. 
 
 
 .. code-block:: php
@@ -10895,6 +11190,47 @@ Recursion is an abstract notion : it is also used in the PHP name itself. PHP : 
 See also `Recursion in PHP - when to use and how <https://phpenthusiast.com/blog/recursion-in-php>`_
 
 Related : :ref:`Functions <function>`
+
+.. _refactoring:
+
+Refactoring
+-----------
+
+Refactoring is the rewrite of a piece of code, without changing its features. 
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   function factorial(int $n) : int {
+   	$return = 2;
+   	for($i = 3; $i <= $n; ++$i) {
+   		$return *= $i;
+   	}
+   	
+   	return $return;
+   }
+   
+   function factorialr(int $n) : int {
+   	if ($n === 2) { return 1; }
+   	
+   	return factorialr($n - 1);
+   
+   	return $return;
+   }
+   
+   // Note : checks on $n >= 1 are omitted here.
+   
+   ?>
+   
+
+
+`Documentation <https://en.wikipedia.org/wiki/Code_refactoring>`__
+
+See also `Refactoring without tests should be fine <https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/>`_, `Refactoring Guru <https://refactoring.guru/refactoring>`_
+
+Related : :ref:`Test <test>`
 
 .. _reference-count:
 
@@ -11345,7 +11681,7 @@ The 'rubber duck' reference is mentionned in the 'Pragmatic programmer' book.
 
 See also `The Pragmatic Programmer <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>`_, `Rubber Ducking <https://webdevstudios.com/2017/08/01/rubber-ducking/>`_
 
-Related : :ref:`Duck Typing <duck-typing>`
+Related : :ref:`Duck Typing <ducktyping>`
 
 .. _sanitation:
 .. _sanitization:
@@ -11393,6 +11729,16 @@ SAPI stantds for Server Application Programming Interface. SAPI are the interfac
 `Documentation <https://docs.php.earth/php/sapi/>`__
 
 Related : :ref:`CGI <cgi>`
+
+.. _scaffolding:
+
+Scaffolding
+-----------
+
+Scaffolding is the automated generation of PHP code to store and retrieve objects in the database. 
+
+Frameworks such as CakePHP and Spiral offer scaffolding.
+
 
 .. _scalar-typehint:
 .. _scalar:
@@ -12076,7 +12422,7 @@ SOLID
 
 SOLID is an acronym for a set of OOP design principle. They were coined by Robert C. Martin (also known as Uncle Bob).
 
-+ S : Single Responsiblity Principle
++ S : Single Responsibility Principle
 + O : Open Closed Principle
 + L : Liskov Substitution Principle
 + I : Interface Segregation Principle
@@ -12134,7 +12480,7 @@ See also `natsort <https://www.php.net/natsort>`_
 
 Related : :ref:`Array <array>`, :ref:`Closure <closure>`
 
-.. _spaeceship:
+.. _spaceship:
 
 Spaceship operator
 ------------------
@@ -12163,7 +12509,7 @@ The spaceship operator got its name from its resemblance to an flying saucer. Ba
 
 See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-php/>`_
 
-Related : 
+Related : :ref:`Comparison <comparison-operator>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -12780,10 +13126,12 @@ See also `Strpos Function Issue In Php Not Finding The Needle <https://www.learn
 
 .. _stubs:
 
-stubs files
+Stubs files
 -----------
 
-stubs files are PHP code, that contain only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code. They provide the definition.
+Stubs files are PHP code, that contain only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code. They provide the definition.
+
+Stubs files are also used for PHP code templates : they are mostly made of PHP code, with placeholders, for later generations. 
 
 
 .. code-block:: php
@@ -12801,6 +13149,8 @@ stubs files are PHP code, that contain only the definitions of classic PHP struc
 `Documentation <https://www.php.net/manual/en/function.extract.php>`__
 
 Related : :ref:`compact() <compact>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _superglobal:
 .. _super-global:
@@ -12848,6 +13198,50 @@ When those external repositories are infected with malicious component or code, 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 
 See also `PHP Supply Chain Attack on Composer <https://blog.sonarsource.com/php-supply-chain-attack-on-composer/>`_
+
+.. _svm:
+
+Support Vector Machine
+----------------------
+
+SVM stands for Support Vector Machine. It is the name of a machine learning algorithm which classify data by taking into account n dimensions. 
+
+The algorithm looks for a way to distinguish two sets, by using those nth dimensions. 
+
+PHP supports SVM with the ext/svm extension and `rubix/ml` package.
+
+
+`Documentation <https://www.php.net/manual/en/book.svm.php>`__
+
+See also `php-svm <https://github.com/ianbarber/php-svm>`_, `Support Vector Machine — Introduction to Machine Learning Algorithms <https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47>`_
+
+Related packages : `rubix/ml <https://packagist.org/packages/rubix/ml>`_
+
+.. _svmexception:
+
+SVMException
+------------
+
+The SVNException exception is thrown by the SVM::train() method.
+
+.. code-block:: php
+   
+   <?php
+   $svm = new SVM();
+   try {
+   	$model = $svm->train($data);
+   } catch (SVMException $e) {
+   	print $e->getMessage();
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.svm.php>`__
+
+See also `Machine Learning with PHP: using Support Vector Machine (SVM) via ext-svm <https://medium.datadriveninvestor.com/machine-learning-with-php-using-support-vector-machine-svm-via-ext-svm-37ef9c3027cd>`_
+
+Related : :ref:`Exception <exception>`, :ref:`Support Vector Machine <svm>`
 
 .. _swap:
 
@@ -13118,6 +13512,20 @@ Tests are often further automated in a Continuous Integration Pipeline.
 
 Related : 
 
+.. _thread:
+
+Thread
+------
+
+A thread is a set of instructions, designed to be executed independantly from the parent process. 
+
+PHP supports threads with extensions, such as the pthread extension. It also supports a thread safe compilation version : it allows PHP to be used with threaded web servers.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Thread_(computing)>`__
+
+See also `pthreads <https://www.php.net/manual/en/book.pthreads.php>`_, `What does thread safety mean when downloading PHP? <https://www.php.net/manual/en/faq.obtaining.php#faq.obtaining.threadsafety>`_
+
 .. _three-dots:
 
 Three dots
@@ -13128,7 +13536,7 @@ Three dots, is an operator with several usages.
 + variadic, to make the last parameter collect all arguments in an array
 + spread, to expand elements of an array into arguments positions
 + spread in array, to merge several arrays in one
-+ closure creator, when used standlone in a methodcall
++ closure creator, when used standlone in a methodcall.
 
 
 
@@ -13815,10 +14223,10 @@ Unreachable code is code that is written, but has no chance of being executed.
 
 .. _unset:
 
-unset Keyword
--------------
+unset()
+-------
 
-unset() removes a variable. This features used to be available as a function call `unset()` or as a type cast `(unset)`. The type-cast was removed in PHP 7.2 
+unset() removes a variable. This feature used to be available as a function call `unset()` or as a type cast `(unset)`. The type-cast was removed in PHP 7.2. 
 
 .. code-block:: php
    
@@ -14005,9 +14413,9 @@ Related : :ref:`Use Alias <use-alias>`
 UUID
 ----
 
-UUID is a universally unique identifier. It is an identifier that anyone can generate, and that has a near certainty that it identify something unique in the universe. 
+UUID is a Universally Unique IDentifier. It is an identifier that anyone can generate, and that has a near certainty that it identify something unique, in the universe. 
 
-UUID are in constrast to classic integer ids, such as auto-increment primary keys, which usually start at 0, and are incrementally generated. Not only this means connecting to a database, and querying the right table, but also means that there are multiple usage of 1, in each of these tables.
+UUID are in contrast to classic integer ids, such as auto-increment primary keys, which usually start at 0, and are incrementally generated. Not only this means connecting to a database, and querying the right table, but also means that there are multiple usage of 1, in each of these tables.
 
 UUID are a standard. The standard has versions from 1 to 5, each with improvements.
 

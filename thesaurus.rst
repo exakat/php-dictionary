@@ -37,9 +37,11 @@ Concept
 
 + :ref:`$this <$this>`
 + :ref:`Active Record <active-record>`
++ :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Classes <class>`
 + :ref:`Clone <clone>`
++ :ref:`Condition <condition>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Controller <controller>`
 + :ref:`Convention <convention>`
@@ -55,6 +57,7 @@ Concept
 + :ref:`Destructor <destructor>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
++ :ref:`Entities, in an application <class-entity>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
 + :ref:`Framework <framework>`
@@ -69,11 +72,13 @@ Concept
 + :ref:`Pagination <pagination>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Protocol <protocol>`
++ :ref:`Refactoring <refactoring>`
 + :ref:`Registry <registry>`
 + :ref:`Rendering <render>`
 + :ref:`SOLID <solid>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
++ :ref:`Stubs files <stubs>`
 + :ref:`Template <template>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable code <unreachable-code>`
@@ -156,6 +161,7 @@ Keyword
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
++ :ref:`unset() <unset>`
 
 Language construct
 ------------------
