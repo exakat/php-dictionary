@@ -469,7 +469,7 @@ PHP Dictionary
    * :ref:`String <string>`
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
-   * :ref:`Strpos() syndrom <strpos-syndrom>`
+   * :ref:`Strpos() syndrome <strpos-syndrom>`
    * :ref:`Stubs files <stubs>`
    * :ref:`Superglobal variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
@@ -1331,7 +1331,7 @@ PHP has abstract classes and methods. Classes defined as abstract cannot be inst
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_, `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_
 
 Related : :ref:`Final Keyword <final>`
 
@@ -7959,7 +7959,7 @@ This prevents the application from loading resources that may not be used later 
    	private $path;
    	private $content = null;
    
-   	function __constructor($path) {
+   	function __construct($path) {
    		$this->path = $path;
    	}
    
@@ -8924,7 +8924,7 @@ As Matthias Verraes puts it : 'Don't limit yourself by PHP's single constructor.
    
    class Person {
    	// constructor is private, $parameters are not documented
-   	private function __constructor( ) {}
+   	private function __construct( ) {}
    	
    	static public function createFromNames(string $firstName, string $lastName) : self {
    		// assign the argument to the right parameter of the constructor
@@ -9295,7 +9295,7 @@ Added in PHP 8.0+
 Null ternary
 ------------
 
-The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates to true, and expr3 if expr1 evaluates to false.
+The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to true, and ``expr3`` if ``expr1`` evaluates to false.
 
 .. code-block:: php
    
@@ -10480,7 +10480,7 @@ PHPDoc is a style of PHP comments. Those comments are delimited by `/** */`.
 
 PHPdoc comments are different from the other styles of PHP comments in their syntax. They are also used for PHP annotations, and are sometimes confused with them. 
 
-PHPDoc annotations are an adaptation of Javadoc for the PHP programming language. It is a formal way to comment certains PHP structures, that is machine readable.
+PHPDoc annotations are an adaptation of Javadoc for the PHP programming language. It is a formal way to comment specific PHP structures, that is machine readable.
 
 PHPDoc has a special token, to make it easier to extract it from the code.
 
@@ -10602,7 +10602,7 @@ Portability is the capacity of a PHP application to run on different platform.
 
 PHP is quite portable by itself : the vast majority of the codes runs on every plat-forms.
 
-On the other hands, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as scoutapm or com. Such non-portable features should not be used, or made optional in code for which portability is important.
+On the other hands, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as `scoutapm` or `com`. Such non-portable features should not be used, or made optional in code for which portability is important.
 
 
 
@@ -10925,7 +10925,7 @@ Protocol
 
 A protocol is a scheme part of a URL, with an associated wrapper. 
 
-In a URL like `ftp://www.site.com/file.txt`, the protocol is `ftp`, and relates to the FTP protocol. It is also a predefined PHP wrapper.
+In a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and relates to the FTP protocol. It is also a predefined PHP wrapper.
 
 
 .. code-block:: php
@@ -10979,7 +10979,7 @@ Queue
 
 A Queue may be one of the following: 
 
-+ A class, in the ext/ds (data structures) extension
++ A class, in the `ext/ds` (data structures) extension
 + A job Queue, which collect and dispatch loads of work, to background processes.
 
 
@@ -11163,7 +11163,7 @@ While the method calls itself, it also must have branch and not call itself : ot
 
 Functions, methods, closures and arrowfunctions may be recursive.
 
-Recursion is an abstract notion : it is also used in the PHP name itself. PHP : Hyperthext Preprocessor.
+Recursion is an abstract notion : it is also used in the PHP name itself. PHP : Hypertext Preprocessor.
 
 
 .. code-block:: php
@@ -11334,7 +11334,7 @@ Registry
 A registry may be the following things : 
 
 + a design pattern
-+ a central object, which gives access to common objects, such as view, database connexion, cache, configuration, etc.
++ a central object, which gives access to common objects, such as view, database connection, cache, configuration, etc.
 
 
 
@@ -11496,7 +11496,7 @@ REST defines four interface constraints:
 + Self-descriptive messages
 + Hypermedia as the engine of application state
 
-REST APIs are docmented with OpenAPI (aka, swagger).
+REST APIs are documented with OpenAPI (aka, swagger).
 
 
 
@@ -11672,9 +11672,9 @@ Related packages : `nikic/fast-route <https://packagist.org/packages/nikic/fast-
 Rubber Ducking Debugging
 ------------------------
 
-Rubber Ducking is a debugging technic, where one explains the bug in human language, to a partner. The partner may be a real human, but also, an inanimate object, such as a rubber duck. In the process of explaining, the speaker clarifies the situation and often, get a deeper knowledge. 
+Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner. The partner may be a real human, but also, an inanimate object, such as a rubber duck. In the process of explaining, the speaker clarifies the situation and often, get a deeper knowledge. 
 
-The 'rubber duck' reference is mentionned in the 'Pragmatic programmer' book.
+The 'rubber duck' reference is mentioned in the 'Pragmatic programmer' book.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Rubber_duck_debugging>`__
@@ -11713,7 +11713,7 @@ Related packages : `waavi/sanitizer <https://packagist.org/packages/waavi/saniti
 SAPI
 ----
 
-SAPI stantds for Server Application Programming Interface. SAPI are the interface between PHP and a supporting platform, such as a web server (nginx, apache, caddy, ... ), a debugger (phpdbg, ...) or the command line interface (CLI).
+SAPI stands for Server Application Programming Interface. SAPI are the interface between PHP and a supporting platform, such as a web server (``nginx``, ``apache``, ``caddy``, ... ), a debugger (phpdbg, ...) or the command line interface (CLI).
 
 
 .. code-block:: php
@@ -11799,9 +11799,9 @@ Scope Resolution Operator ::
 
 The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class.
 
-Traditionnally, this used to be a feature of the function get_class(). The operator is more modern and faster. 
+Traditionally, this used to be a feature of the function get_class(). The operator is more modern and faster. 
 
-This operator is often called double-colon, or `paamayim-nekudotayim` : this is double-colon in hebrew.
+This operator is often called double-colon, or ``paamayim-nekudotayim`` : this is double-colon in Hebrew.
 
 .. code-block:: php
    
@@ -11857,7 +11857,7 @@ Semantics is related with the meaning of things. In particular, when naming stru
 
 While naming doesn't impact the code itself, as names are free, they do have a serious impact on human understanding of the code. 
 
-It is also possible to find inconsistencies between the name and its usage. For example, when a name is used for an unexepected type. 
+It is also possible to find inconsistencies between the name and its usage. For example, when a name is used for an unexpected type. 
 
 
 
@@ -12151,7 +12151,7 @@ The shutdown function is a PHP custom function which is called when the applicat
 
 Multiple functions may be registered with the register_shutdown_function() function. They will be called in order of registration.
 
-Shutdown function acts as destructors : they should clean up any unfinished jobs, and gracefully free resources, such as closing files with their correct endings, or gracefully closing connexions.
+Shutdown function acts as destructors : they should clean up any unfinished jobs, and gracefully free resources, such as closing files with their correct endings, or gracefully closing connections.
 
 
 .. code-block:: php
@@ -13086,10 +13086,10 @@ Added in PHP 8.0
 
 .. _strpos-syndrom:
 
-Strpos() syndrom
-----------------
+Strpos() syndrome
+-----------------
 
-The strpos() syndrom is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
+The strpos() syndrome is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
 
 PHP's string are indexed starting with 0, so the found string might be in an index from 0 to the size of the string. 
 
@@ -13466,7 +13466,7 @@ Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `sma
 Ternary operator
 ----------------
 
-The expression (expr1) ? (expr2) : (expr3) evaluates to expr2 if expr1 evaluates to true, and expr3 if expr1 evaluates to false.
+The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to true, and ``expr3`` if ``expr1`` evaluates to false.
 
 .. code-block:: php
    
@@ -13497,11 +13497,11 @@ There are many different types of tests :
 + Functional tests : close to the specifications and the business level
 + End-to-end tests : they run the software from beginning to the end
 + Performance tests : tests focusing on the behavior of the software under load
-+ Acceptance tests : the tests that the sofware must pass to be accepted by the end user
++ Acceptance tests : the tests that the software must pass to be accepted by the end user
 + Smoke tests : tests that quickly detect a problem in the software. They are the most obvious. 
 + Exploratory tests : when tests are used to check new behavior of the code
 + Regression tests : tests that ensures that previous behaviors are still behaving the same
-+ Fuzzing : testing the sofware with random data
++ Fuzzing : testing the software with random data
 
 Tests may be manual, when they are executed manually. Those are not recorded. Test may be automated, when they are executed by another piece of software. 
 
@@ -13517,7 +13517,7 @@ Related :
 Thread
 ------
 
-A thread is a set of instructions, designed to be executed independantly from the parent process. 
+A thread is a set of instructions, designed to be executed independently from the parent process. 
 
 PHP supports threads with extensions, such as the pthread extension. It also supports a thread safe compilation version : it allows PHP to be used with threaded web servers.
 
@@ -13625,8 +13625,7 @@ Added in PHP 7.0
 Tick
 ----
 
-ticks are events that occur for a group of tickable statements executed by the parser within the declare block. 
-
+Ticks are events that occur for a group of statements, executed by the parser, within the declare block. 
 
 
 
@@ -14571,7 +14570,7 @@ Variable Scope
 
 Variable scope is the context in which the variable is available. The context is often one method or function. 
 
-``global`` keywords allows variables from other contextes to be available in the current one. 
+``global`` keywords allows variables from other contexts to be available in the current one. 
 
 Local variables are only available in one method or function, not counting the local or bind closures or arrow functions. 
 
