@@ -292,13 +292,13 @@
 <li><dl class="simple">
 <dt>G</dt><dd><ul>
 <li><p><a class="reference internal" href="#globals"><span class="std std-ref">GLOBALS, the variable</span></a></p></li>
-<li><p><a class="reference internal" href="#graphql"><span class="std std-ref">GRAPHQL</span></a></p></li>
 <li><p><a class="reference internal" href="#garbage-collection"><span class="std std-ref">Garbage Collection</span></a></p></li>
 <li><p><a class="reference internal" href="#generator"><span class="std std-ref">Generator</span></a></p></li>
 <li><p><a class="reference internal" href="#generics"><span class="std std-ref">Generics</span></a></p></li>
 <li><p><a class="reference internal" href="#global-variable"><span class="std std-ref">Global Variables</span></a></p></li>
 <li><p><a class="reference internal" href="#goto"><span class="std std-ref">Goto</span></a></p></li>
 <li><p><a class="reference internal" href="#label"><span class="std std-ref">Goto Labels</span></a></p></li>
+<li><p><a class="reference internal" href="#graphql"><span class="std std-ref">GraphQL</span></a></p></li>
 <li><p><a class="reference internal" href="#glob"><span class="std std-ref">glob()</span></a></p></li>
 </ul>
 </dd>
@@ -452,7 +452,7 @@
 <li><p><a class="reference internal" href="#object-invasion"><span class="std std-ref">Object Invasion</span></a></p></li>
 <li><p><a class="reference internal" href="#object-nullsafe-operator"><span class="std std-ref">Object Nullsafe Operator ?-&gt;</span></a></p></li>
 <li><p><a class="reference internal" href="#object-operator"><span class="std std-ref">Object Operator -&gt;</span></a></p></li>
-<li><p><a class="reference internal" href="#orm"><span class="std std-ref">Object Relationanl Mapping (ORM)</span></a></p></li>
+<li><p><a class="reference internal" href="#orm"><span class="std std-ref">Object Relational Mapping (ORM)</span></a></p></li>
 <li><p><a class="reference internal" href="#octal-integer"><span class="std std-ref">Octal Integer</span></a></p></li>
 <li><p><a class="reference internal" href="#opcode"><span class="std std-ref">Opcode</span></a></p></li>
 <li><p><a class="reference internal" href="#ocp"><span class="std std-ref">Open Closed Principle</span></a></p></li>
@@ -3089,7 +3089,7 @@
 <p>The data mapper is responsible for CRUD operations : Create, Read, Update and Delete.</p>
 <p><a class="reference external" href="https://en.wikipedia.org/wiki/Data_mapper_pattern">Documentation</a></p>
 <p>See also <a class="reference external" href="https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html">Data Mapper</a>, <a class="reference external" href="https://www.doctrine-project.org/">Doctrine</a>, <a class="reference external" href="https://github.com/cycle/orm">Cycle ORM</a>, <a class="reference external" href="https://emre.xyz/how-to-write-a-data-mapper-with-php">How to write a Data Mapper with PHP</a></p>
-<p>Related : <a class="reference internal" href="#active-record"><span class="std std-ref">Active Record</span></a>, <a class="reference internal" href="#orm"><span class="std std-ref">Object Relationanl Mapping (ORM)</span></a></p>
+<p>Related : <a class="reference internal" href="#active-record"><span class="std std-ref">Active Record</span></a>, <a class="reference internal" href="#orm"><span class="std std-ref">Object Relational Mapping (ORM)</span></a></p>
 </div>
 <div class="section" id="data-source-name-dsn">
 <span id="dsn"></span><h2>Data Source Name (DSN)<a class="headerlink" href="#data-source-name-dsn" title="Permalink to this headline">¶</a></h2>
@@ -3120,7 +3120,7 @@
 <span id="dbal"></span><h2>Database Abstraction Layer (DBAL)<a class="headerlink" href="#database-abstraction-layer-dbal" title="Permalink to this headline">¶</a></h2>
 <p>A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases.</p>
 <p>See also <a class="reference external" href="https://www.doctrine-project.org/">Doctrine</a></p>
-<p>Related : <a class="reference internal" href="#orm"><span class="std std-ref">Object Relationanl Mapping (ORM)</span></a></p>
+<p>Related : <a class="reference internal" href="#orm"><span class="std std-ref">Object Relational Mapping (ORM)</span></a></p>
 <p>Related packages : <a class="reference external" href="https://packagist.org/packages/doctrine/dbal">doctrine/dbal</a>, <a class="reference external" href="https://packagist.org/packages/dibi/dibi">dibi/dibi</a>, <a class="reference external" href="https://packagist.org/packages/illuminate/database">illuminate/database</a></p>
 </div>
 <div class="section" id="dataset">
@@ -4217,7 +4217,7 @@
 <span id="upload"></span><span id="id153"></span><h2>File Upload<a class="headerlink" href="#file-upload" title="Permalink to this headline">¶</a></h2>
 <p>PHP is able to receive files as part of a form submission.</p>
 <p>PHP is capable of receiving file uploads from any RFC-1867 compliant browser.</p>
-<p>File upload code is based on the $_FILES superglobale, and move_uploaded_file() function. It also relies on several PHP directives :  <code class="docutils literal notranslate"><span class="pre">file_uploads</span></code>, <code class="docutils literal notranslate"><span class="pre">upload_max_filesize</span></code>, <code class="docutils literal notranslate"><span class="pre">upload_tmp_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">post_max_size</span></code> and <code class="docutils literal notranslate"><span class="pre">max_input_time</span></code>.</p>
+<p>File upload code is based on the $_FILES superglobal, and move_uploaded_file() function. It also relies on several PHP directives :  <code class="docutils literal notranslate"><span class="pre">file_uploads</span></code>, <code class="docutils literal notranslate"><span class="pre">upload_max_filesize</span></code>, <code class="docutils literal notranslate"><span class="pre">upload_tmp_dir</span></code>, <code class="docutils literal notranslate"><span class="pre">post_max_size</span></code> and <code class="docutils literal notranslate"><span class="pre">max_input_time</span></code>.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="nv">$uploaddir</span> <span class="o">=</span> <span class="s1">&#39;/var/www/uploads/&#39;</span><span class="p">;</span>
 <span class="nv">$uploadfile</span> <span class="o">=</span> <span class="nv">$uploaddir</span> <span class="o">.</span> <span class="nb">basename</span><span class="p">(</span><span class="nv">$_FILES</span><span class="p">[</span><span class="s1">&#39;userfile&#39;</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">]);</span>
@@ -4399,7 +4399,7 @@
 <p>Foreach is the most popular loop in PHP.</p>
 <p>The foreach() loop uses all the elements of the source, and assign them to the blind variable. By default, only the value is assigned; when using the <cite>$key =&gt; $value</cite> syntax, the key is also assigned. Then the block is executed with the assigned values.</p>
 <p>Part of the block execution may be skipped by using the <cite>continue</cite> keyword.</p>
-<p>The value may be a reference : then it actually references the original value, which then may be modified in the source. Do not forget to unset referenced variables after the loop, to avoid the dangling reference syndrom, when the last value is changed.</p>
+<p>The value may be a reference : then it actually references the original value, which then may be modified in the source. Do not forget to unset referenced variables after the loop, to avoid the dangling reference syndrome, when the last value is changed.</p>
 <p>The value may be an array, collecting several values at the same time.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -4579,7 +4579,7 @@
 <div class="section" id="gc">
 <span id="garbage-collection"></span><span id="id165"></span><h2>Garbage Collection<a class="headerlink" href="#gc" title="Permalink to this headline">¶</a></h2>
 <p>Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values.</p>
-<p>PHP allocate memory as it needs, when variables and objects are created in the code. Sometimes, those variables are destroyed, using explicit unset() calls, or implicitely, when leaving a method or destroying an object.</p>
+<p>PHP allocate memory as it needs, when variables and objects are created in the code. Sometimes, those variables are destroyed, using explicit unset() calls, or implicitly, when leaving a method or destroying an object.</p>
 <p>To speed up the process, PHP postpone memory cleaning until the end of the application, or when it reaches some internal threshold. Then, it review all the currently allocated variables, and when they are not used anymore (aka, when the reference counter is down to 0), it removes them.</p>
 <p>Since garbage collection requires pausing the execution, PHP only runs it on-demand (via gc_collect_cycles() calls), or once every 10k objects to clear.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -4625,8 +4625,8 @@
 <p>Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level.</p>
 <p>The generics syntax looks like : <cite>$users = new List&lt;User&gt;();</cite> where <cite>List</cite> is a class that holds a list of items, and those items are of the type between brackets. Here, it is <cite>User</cite>.</p>
 <p>Generics allows the creation of general classes, that can process several types of data. The actual application’s type is declared in the type itself. This is similar to configure an array to only handle one type of elements.</p>
-<p>Generics have been submitted as RFC since 2016, and are currently not implemented, in the forseeable future.</p>
-<p>One implementation of generics is available, with transpiling : see <cite>mrsuh/php-generics</cite>.</p>
+<p>Generics have been submitted as RFC since 2016, and are currently not implemented, in the foreseeable future.</p>
+<p>One implementation of generics is available, with transpiling : see <code class="docutils literal notranslate"><span class="pre">mrsuh/php-generics</span></code>.</p>
 <p><a class="reference external" href="https://stitcher.io/blog/generics-in-php-1">Documentation</a></p>
 <p>See also <a class="reference external" href="https://stitcher.io/blog/generics-in-php-3">Why we can’t have generics in PHP</a>, <a class="reference external" href="https://wiki.php.net/rfc/generics">PHP RFC: Generic Types and Functions</a>, <a class="reference external" href="https://github.com/mrsuh/php-generics">mrsuh/php-generics</a></p>
 </div>
@@ -4727,9 +4727,9 @@
 <p>Related : <a class="reference internal" href="#goto"><span class="std std-ref">Goto</span></a></p>
 </div>
 <div class="section" id="graphql">
-<span id="id170"></span><h2>GRAPHQL<a class="headerlink" href="#graphql" title="Permalink to this headline">¶</a></h2>
-<p>Graphql is a query language for APIs. It provides a way to describe data and operations, so that clients can freely build queries.</p>
-<p>PHP has several packages to implement both the client and the server side of Graphql.</p>
+<span id="id170"></span><h2>GraphQL<a class="headerlink" href="#graphql" title="Permalink to this headline">¶</a></h2>
+<p>GraphQL is a query language for APIs. It provides a way to describe data and operations, so that clients can freely build queries.</p>
+<p>PHP has several packages to implement both the client and the server side of GraphQL.</p>
 <p><a class="reference external" href="https://graphql.org/">Documentation</a></p>
 <p>Related packages : <a class="reference external" href="https://packagist.org/packages/webonyx/graphql-php">webonyx/graphql-php</a>, <a class="reference external" href="https://packagist.org/packages/api-platform/core">api-platform/core</a></p>
 </div>
@@ -4754,7 +4754,7 @@
 </div>
 <div class="section" id="hash">
 <span id="id172"></span><h2>Hash<a class="headerlink" href="#hash" title="Permalink to this headline">¶</a></h2>
-<p>Hash has severeal meanings :</p>
+<p>Hash has several meanings :</p>
 <ul class="simple">
 <li><p>PHP extension</p></li>
 <li><p>PHP function</p></li>
@@ -4862,7 +4862,7 @@
 </div>
 <div class="section" id="html-entity">
 <span id="id175"></span><h2>HTML entity<a class="headerlink" href="#html-entity" title="Permalink to this headline">¶</a></h2>
-<p>HTML entities are special character sequences, that represents a single character. Such representation is not needed for simple characters, such as the latin alphabet. On the other hand, they are needed for unusual characters, in particular when the encoding cannot be guaranteed to support it.</p>
+<p>HTML entities are special character sequences, that represents a single character. Such representation is not needed for simple characters, such as the Latin alphabet. On the other hand, they are needed for unusual characters, in particular when the encoding cannot be guaranteed to support it.</p>
 <p>They are also needed to display characters, which have a special meaning, such as double quote <cite>“</cite>, or the greater <cite>&gt;</cite> and lesser signs <cite>&lt;</cite>.</p>
 <p>HTML entities makes the source code longer, and harder to read.</p>
 <p>HTML entities may have a letter representation, while they always have a numeric representation. For example, the ampersand may be written <cite>&amp;amp;</cite> and <cite>&amp;#38;</cite>.</p>
@@ -4886,7 +4886,7 @@
 <p>They are separated from the content, which usually represents the HTML page, or the binary  code of the image, archive.</p>
 <p>HTTP headers have a name, and a value. They are made of ASCII text, and separated by a colon <cite>:</cite></p>
 <p>HTTP headers are the same with HTTPS.</p>
-<p>In PHP, they are handled by the functions prefixed by <cite>header_</cite> : headers_sent(), headers_list(), header(), header_remove(), header_register_callback()</p>
+<p>In PHP, they are handled by the functions prefixed by <code class="docutils literal notranslate"><span class="pre">header_</span></code> : headers_sent(), headers_list(), header(), header_remove(), header_register_callback()</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
 <span class="k">function</span> <span class="nf">foo</span><span class="p">(</span><span class="nv">$a</span><span class="p">,</span> <span class="nv">$b</span><span class="p">)</span> <span class="p">{</span>
@@ -4954,7 +4954,7 @@
 </div>
 <div class="section" id="if-then-else">
 <span id="if-then"></span><h2>If Then Else<a class="headerlink" href="#if-then-else" title="Permalink to this headline">¶</a></h2>
-<p>A if-then-else command branches the execution based on an condition. When the condition is true, the first branche, called <cite>then</cite> is executed. When the condition is false, the second branch, called <cite>else</cite>, is executed.</p>
+<p>A if-then-else command branches the execution based on an condition. When the condition is true, the first branch, called <code class="docutils literal notranslate"><span class="pre">then</span></code> is executed. When the condition is false, the second branch, called <code class="docutils literal notranslate"><span class="pre">else</span></code>, is executed.</p>
 <p>If-then structures may be chained with the <cite>elseif</cite> keyword. The else branch is then a new if-then structure, with a second condition.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
@@ -6041,9 +6041,9 @@
 </div>
 <div class="section" id="max-execution-time">
 <span id="id224"></span><h2>max_execution_time<a class="headerlink" href="#max-execution-time" title="Permalink to this headline">¶</a></h2>
-<p>The <cite>max_execution_time</cite> directive sets the maximum amount of time that PHP will work on an application.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">max_execution_time</span></code> directive sets the maximum amount of time that PHP will work on an application.</p>
 <p>The default value is 30 seconds. It may be lowered down to 1 second, or set to infinity with -1.</p>
-<p><cite>max_execution_time</cite> may be changed from the code with set_time_limit(). This function may also be disabled, and not available.</p>
+<p><code class="docutils literal notranslate"><span class="pre">max_execution_time</span></code> may be changed from the code with set_time_limit(). This function may also be disabled, and not available.</p>
 <p>It is recommended to set this value as low as possible, and optimize the code to run below that limit.</p>
 <p><a class="reference external" href="https://www.php.net/manual/en/ini.core.php#ini.max-execution-time">Documentation</a></p>
 <p>See also <a class="reference external" href="https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time">PHP max_execution_time Guide</a></p>
@@ -6121,10 +6121,10 @@
 </div>
 <div class="section" id="mock">
 <span id="id229"></span><h2>Mock<a class="headerlink" href="#mock" title="Permalink to this headline">¶</a></h2>
-<p>A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducable state : for example, in a rare state, or after a long set up.</p>
+<p>A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducible state : for example, in a rare state, or after a long set up.</p>
 <p>Mocks turns the dependency into another piece of code, with total control over its behavior.</p>
-<p>On the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible : any change to the dependency behavior has to be backported.</p>
-<p>Mock objects are also called <cite>test double</cite>.</p>
+<p>On the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible : any change to the dependency behavior has to be back-ported.</p>
+<p>Mock objects are also called <code class="docutils literal notranslate"><span class="pre">test</span> <span class="pre">double</span></code>.</p>
 <p><a class="reference external" href="https://www.radview.com/glossary/what-is-mock-testing/">Documentation</a></p>
 <p>See also <a class="reference external" href="https://phpunit.readthedocs.io/en/9.5/test-doubles.html">Test doubles</a>, <a class="reference external" href="https://laravel.com/docs/9.x/mocking">Mocking</a></p>
 <p>Related packages : <a class="reference external" href="https://packagist.org/packages/mockery/mockery">mockery/mockery</a></p>
@@ -6132,7 +6132,7 @@
 <div class="section" id="model">
 <span id="id230"></span><h2>Model<a class="headerlink" href="#model" title="Permalink to this headline">¶</a></h2>
 <p>The model is the classes that describes the business logic.</p>
-<p>The model is often used as part of the MVC pattern, though it may be used independentaly.</p>
+<p>The model is often used as part of the MVC pattern, though it may be used independently.</p>
 <p>Related : <a class="reference internal" href="#mvc"><span class="std std-ref">MVC</span></a>, <a class="reference internal" href="#view-presentation"><span class="std std-ref">View in presentation</span></a>, <a class="reference internal" href="#controller"><span class="std std-ref">Controller</span></a></p>
 <p>Related packages : ` &lt;<a class="reference external" href="https://packagist.org/packages/">https://packagist.org/packages/</a>&gt;`_</p>
 </div>
@@ -6196,7 +6196,7 @@
 <ul class="simple">
 <li><p>The model, which is dedicated to the business logic.</p></li>
 <li><p>The view, which is dedicated to the presentation of the data</p></li>
-<li><p>The controller, which orchestrates the excution.</p></li>
+<li><p>The controller, which orchestrates the execution.</p></li>
 </ul>
 <p><a class="reference external" href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">Documentation</a></p>
 <p>See also <a class="reference external" href="https://www.guru99.com/php-mvc-frameworks.html">PHP MVC Framework Tutorial: CodeIgniter Example</a>, <a class="reference external" href="https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/">How to build a simple PHP MVC framework</a></p>
@@ -6622,7 +6622,7 @@
 </div>
 <div class="section" id="deserialize-injection">
 <span id="object-injection"></span><span id="id246"></span><h2>Object Injection<a class="headerlink" href="#deserialize-injection" title="Permalink to this headline">¶</a></h2>
-<p>Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controled by the attacker.</p>
+<p>Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker.</p>
 <p>The general synopsis is the following :
 + PHP serialize an object
 + The serialized string is transmitted to the user, then back to PHP (via cookies, hidden fields, or any storage)
@@ -6712,11 +6712,11 @@
 <p><a class="reference external" href="https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods">Documentation</a></p>
 <p>Related : <a class="reference internal" href="#nullsafe-object-operator"><span class="std std-ref">Null Safe Object Operator</span></a>, <a class="reference internal" href="#scope-resolution-operator"><span class="std std-ref">Scope Resolution Operator ::</span></a></p>
 </div>
-<div class="section" id="object-relationanl-mapping-orm">
-<span id="orm"></span><h2>Object Relationanl Mapping (ORM)<a class="headerlink" href="#object-relationanl-mapping-orm" title="Permalink to this headline">¶</a></h2>
-<p>Object Relationanl Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular).</p>
-<p>As its definition implies, such tool is able to take data from an object, and place it in a database’s table. The transfert may be straightforward, when the object is stored in one table. Or, it may be complex, when the same data are spread over multiple tables.</p>
-<p>PHP has several ORM : Doctrine, Readbean, Eloquent, Propel.</p>
+<div class="section" id="object-relational-mapping-orm">
+<span id="orm"></span><h2>Object Relational Mapping (ORM)<a class="headerlink" href="#object-relational-mapping-orm" title="Permalink to this headline">¶</a></h2>
+<p>Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular).</p>
+<p>As its definition implies, such tool is able to take data from an object, and place it in a database’s table. The transfer may be straightforward, when the object is stored in one table. Or, it may be complex, when the same data are spread over multiple tables.</p>
+<p>PHP has several ORM : Doctrine, Redbean, Eloquent, Propel.</p>
 <p><a class="reference external" href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping">Documentation</a></p>
 <p>See also <a class="reference external" href="https://www.php.net/manual/en/intro.pdo.php">PDO in PHP</a></p>
 <p>Related : <a class="reference internal" href="#dbal"><span class="std std-ref">Database Abstraction Layer (DBAL)</span></a></p>
@@ -7091,8 +7091,8 @@
 <span id="id272"></span><h2>Persistence<a class="headerlink" href="#persistence" title="Permalink to this headline">¶</a></h2>
 <p>Persistence is related to the life cycle of a resource. A piece of data is said to be persistent when it exceeds the duration of the current process.</p>
 <p>In particular, databases, sessions, shared memory, file system or cache allows for persistent storage : the current process may store data there, and retrieve it later, provided it has transmitted an identifier.</p>
-<p>Persistence also applies to database connexion, where the connexion is not closed at the end of the current process, but stays open for the next to reuse it, saving some overhead, but keeping a connexion open even if not busy.</p>
-<p>Persistent storage may also be called permanant storage.</p>
+<p>Persistence also applies to database connection, where the connection is not closed at the end of the current process, but stays open for the next to reuse it, saving some overhead, but keeping a connection open even if not busy.</p>
+<p>Persistent storage may also be called permanent storage.</p>
 <p>Related packages : ` &lt;<a class="reference external" href="https://packagist.org/packages/">https://packagist.org/packages/</a>&gt;`_</p>
 </div>
 <div class="section" id="phar">
@@ -7328,7 +7328,7 @@
 <div class="section" id="php-fpm">
 <span id="fpm"></span><span id="id278"></span><h2>PHP-FPM<a class="headerlink" href="#php-fpm" title="Permalink to this headline">¶</a></h2>
 <p>FPM stands for FastCGI Process Manager. It is a PHP FastCGI implementation.</p>
-<p>Instead of nesting PHP in the webserver, php-fpm makes PHP a server by itself. The web server then delegates the work to the PHP server. The advantage is to lower the memory footprint of PHP and the web server, and the whole of them both. It helps with stability, by keeping the two processes separated.</p>
+<p>Instead of nesting PHP in the web server, php-fpm makes PHP a server by itself. The web server then delegates the work to the PHP server. The advantage is to lower the memory footprint of PHP and the web server, and the whole of them both. It helps with stability, by keeping the two processes separated.</p>
 <p><a class="reference external" href="https://www.php.net/manual/en/install.fpm.php">Documentation</a></p>
 <p>See also <a class="reference external" href="https://www.plesk.com/blog/various/why-do-you-need-php-fpm/">Why Do You Need PHP FastCGI Process Manager?</a>, <a class="reference external" href="https://www.digitalocean.com/community/tutorials/php-fpm-nginx">How to Configure PHP-FPM with NGINX</a></p>
 <p>Related : <a class="reference internal" href="#cgi"><span class="std std-ref">CGI</span></a></p>
@@ -7947,14 +7947,14 @@
 </div>
 <div class="section" id="reserved-for-future-use">
 <span id="rfu"></span><h2>Reserved for Future Use<a class="headerlink" href="#reserved-for-future-use" title="Permalink to this headline">¶</a></h2>
-<p>RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitely, it is a request to leave it in place, until actual usage happen.</p>
+<p>RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitly, it is a request to leave it in place, until actual usage happen.</p>
 </div>
 <div class="section" id="reserved-names">
 <span id="reserved-name"></span><h2>Reserved Names<a class="headerlink" href="#reserved-names" title="Permalink to this headline">¶</a></h2>
 <p>PHP shares several namespaces with the users, and has reserved some names for its own usage.</p>
 <ul class="simple">
 <li><p>Namespaces : the global namespace, also known as <code class="docutils literal notranslate"><span class="pre">\</span></code> is reserved for PHP.</p></li>
-<li><p>Keywords : <cite>fn</cite>, <cite>finally</cite>, <cite>insteadof</cite>, <cite>null</cite>, <cite>void</cite>, …</p></li>
+<li><p>Keywords : <code class="docutils literal notranslate"><span class="pre">fn</span></code>, <code class="docutils literal notranslate"><span class="pre">finally</span></code>, <code class="docutils literal notranslate"><span class="pre">insteadof</span></code>, <code class="docutils literal notranslate"><span class="pre">null</span></code>, <code class="docutils literal notranslate"><span class="pre">void</span></code>, …</p></li>
 <li><p>classes, constants, functions, interfaces</p></li>
 <li><p>variables :</p></li>
 </ul>
@@ -9660,8 +9660,8 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <div class="section" id="underflow">
 <span id="id373"></span><h2>Underflow<a class="headerlink" href="#underflow" title="Permalink to this headline">¶</a></h2>
 <p>Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown.</p>
-<p>Underflow happens with integers (limited to PHP_INT_MAX  and PHP_INT_MIN), floats (PHP_FLOAT_MAX and PHP_FLOAT_MIN).</p>
-<p>Other situations, such as accessing an array element or a string character beyond its first element, defaults to returning <cite>null</cite>.</p>
+<p>Underflow happens with integers (limited to PHP_INT_MAX  and PHP_INT_MIN), floats (<code class="docutils literal notranslate"><span class="pre">PHP_FLOAT_MAX</span></code> and <code class="docutils literal notranslate"><span class="pre">PHP_FLOAT_MIN</span></code>).</p>
+<p>Other situations, such as accessing an array element or a string character beyond its first element, defaults to returning <code class="docutils literal notranslate"><span class="pre">null</span></code>.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 <span class="nv">$a</span> <span class="o">=</span> <span class="nx">PHP_INT_MAX</span><span class="p">;</span>
 <span class="nv">$b</span> <span class="o">=</span> <span class="p">(</span><span class="nx">int</span><span class="p">)</span> <span class="p">(</span><span class="nv">$a</span> <span class="o">+</span>  <span class="mi">1</span><span class="p">);</span>
@@ -9711,7 +9711,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <div class="section" id="unicode">
 <span id="id376"></span><h2>Unicode<a class="headerlink" href="#unicode" title="Permalink to this headline">¶</a></h2>
 <p>Unicode is a standard to represent text. It is maintained by the Unicode Consortium. Unicode provides a widespread standard for characters. It is used everywhere, from computer to phones, online and offline.</p>
-<p>Unicode moto : ‘Everyone in the world should be able to use their own language on phones and computers.’</p>
+<p>Unicode motto : ‘Everyone in the world should be able to use their own language on phones and computers.’</p>
 <p>PHP supports unicode in its syntax with the declare() <cite>encoding</cite> option.</p>
 <p>PHP may translate from and to Unicode to other character sets with extensions such as iconv, intl, mbstring.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -10106,7 +10106,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 </div>
 <div class="section" id="variable-order">
 <span id="id394"></span><h2>variable_order<a class="headerlink" href="#variable-order" title="Permalink to this headline">¶</a></h2>
-<p>The <cite>variable_order</cite> directive sets the order in which the values are aassigned to the <cite>$_REQUEST</cite> variable.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">variable_order</span></code> directive sets the order in which the values are assigned to the <cite>$_REQUEST</cite> variable.</p>
 <p>The default is <cite>EGPCS</cite> : Environment, GET, POST, COOKIE and SESSION. The values are overwritten by the next, so if GET and POST have both an <cite>x</cite> variable, the default configuration will only keep the one from POST, as it is later in the configuration.</p>
 <p>The default configuration ensures that safer values, such as the session’s value, are not overwritten by less safe values from GET or POST, for example.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
@@ -10182,7 +10182,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 </div>
 <div class="section" id="view-in-presentation">
 <span id="renderer"></span><span id="view-presentation"></span><h2>View in presentation<a class="headerlink" href="#view-in-presentation" title="Permalink to this headline">¶</a></h2>
-<p>A view is the presentation layer in a MVC model. It is in charge of formating the provided data to fit the target reader : HTML, JSON, etc.</p>
+<p>A view is the presentation layer in a MVC model. It is in charge of formatting the provided data to fit the target reader : HTML, JSON, etc.</p>
 <p>Views are also synonym of renderer or template.</p>
 <p>Related : <a class="reference internal" href="#mvc"><span class="std std-ref">MVC</span></a>, <a class="reference internal" href="#template"><span class="std std-ref">Template</span></a></p>
 </div>
@@ -10194,6 +10194,8 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <li><p>protected : to the current class hierarchy (parents and children classes)</p></li>
 <li><p>public : to all the code</p></li>
 </ul>
+<p>In PHP, the default visibility is public.</p>
+<p>Visibility may no change, unless when overwiting it with a trait, or in a child class.</p>
 <div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
 
 <span class="k">class</span> <span class="nc">x</span> <span class="p">{</span>
@@ -10744,7 +10746,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <li class="toctree-l2"><a class="reference internal" href="#globals-the-variable">GLOBALS, the variable</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#goto">Goto</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#goto-labels">Goto Labels</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#graphql">GRAPHQL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#graphql">GraphQL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hard-coded">Hard Coded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hash">Hash</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hash-comparisons">Hash Comparisons</a></li>
@@ -10848,7 +10850,7 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 <li class="toctree-l2"><a class="reference internal" href="#object-invasion">Object Invasion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#object-nullsafe-operator">Object Nullsafe Operator ?-&gt;</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#object-operator">Object Operator -&gt;</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#object-relationanl-mapping-orm">Object Relationanl Mapping (ORM)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#object-relational-mapping-orm">Object Relational Mapping (ORM)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#octal">Octal Integer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#opcode">Opcode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#open-closed-principle">Open Closed Principle</a></li>

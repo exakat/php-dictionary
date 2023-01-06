@@ -218,13 +218,13 @@ PHP Dictionary
    * :ref:`Functions <function>`
 * G
    * :ref:`GLOBALS, the variable <globals>`
-   * :ref:`GRAPHQL <graphql>`
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
    * :ref:`Generics <generics>`
    * :ref:`Global Variables <global-variable>`
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
+   * :ref:`GraphQL <graphql>`
    * :ref:`glob() <glob>`
 * H
    * :ref:`HTML entity <html-entity>`
@@ -338,7 +338,7 @@ PHP Dictionary
    * :ref:`Object Invasion <object-invasion>`
    * :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
    * :ref:`Object Operator -> <object-operator>`
-   * :ref:`Object Relationanl Mapping (ORM) <orm>`
+   * :ref:`Object Relational Mapping (ORM) <orm>`
    * :ref:`Octal Integer <octal-integer>`
    * :ref:`Opcode <opcode>`
    * :ref:`Open Closed Principle <ocp>`
@@ -4110,7 +4110,7 @@ The data mapper is responsible for CRUD operations : Create, Read, Update and De
 
 See also `Data Mapper <https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html>`_, `Doctrine <https://www.doctrine-project.org/>`_, `Cycle ORM <https://github.com/cycle/orm>`_, `How to write a Data Mapper with PHP <https://emre.xyz/how-to-write-a-data-mapper-with-php>`_
 
-Related : :ref:`Active Record <active-record>`, :ref:`Object Relationanl Mapping (ORM) <orm>`
+Related : :ref:`Active Record <active-record>`, :ref:`Object Relational Mapping (ORM) <orm>`
 
 .. _dsn:
 
@@ -4163,7 +4163,7 @@ A Database Abstraction Layer provides one unique interface to build, and execute
 
 See also `Doctrine <https://www.doctrine-project.org/>`_
 
-Related : :ref:`Object Relationanl Mapping (ORM) <orm>`
+Related : :ref:`Object Relational Mapping (ORM) <orm>`
 
 Related packages : `doctrine/dbal <https://packagist.org/packages/doctrine/dbal>`_, `dibi/dibi <https://packagist.org/packages/dibi/dibi>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_
 
@@ -5854,7 +5854,7 @@ PHP is able to receive files as part of a form submission.
 
 PHP is capable of receiving file uploads from any RFC-1867 compliant browser. 
 
-File upload code is based on the $_FILES superglobale, and move_uploaded_file() function. It also relies on several PHP directives :  ``file_uploads``, ``upload_max_filesize``, ``upload_tmp_dir``, ``post_max_size`` and ``max_input_time``. 
+File upload code is based on the $_FILES superglobal, and move_uploaded_file() function. It also relies on several PHP directives :  ``file_uploads``, ``upload_max_filesize``, ``upload_tmp_dir``, ``post_max_size`` and ``max_input_time``. 
 
 
 .. code-block:: php
@@ -6132,7 +6132,7 @@ The foreach() loop uses all the elements of the source, and assign them to the b
 
 Part of the block execution may be skipped by using the `continue` keyword. 
 
-The value may be a reference : then it actually references the original value, which then may be modified in the source. Do not forget to unset referenced variables after the loop, to avoid the dangling reference syndrom, when the last value is changed.
+The value may be a reference : then it actually references the original value, which then may be modified in the source. Do not forget to unset referenced variables after the loop, to avoid the dangling reference syndrome, when the last value is changed.
 
 The value may be an array, collecting several values at the same time.
 
@@ -6377,7 +6377,7 @@ Garbage Collection
 
 Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values. 
 
-PHP allocate memory as it needs, when variables and objects are created in the code. Sometimes, those variables are destroyed, using explicit unset() calls, or implicitely, when leaving a method or destroying an object. 
+PHP allocate memory as it needs, when variables and objects are created in the code. Sometimes, those variables are destroyed, using explicit unset() calls, or implicitly, when leaving a method or destroying an object. 
 
 To speed up the process, PHP postpone memory cleaning until the end of the application, or when it reaches some internal threshold. Then, it review all the currently allocated variables, and when they are not used anymore (aka, when the reference counter is down to 0), it removes them.
 
@@ -6447,9 +6447,9 @@ The generics syntax looks like : `$users = new List<User>();` where `List` is a 
 
 Generics allows the creation of general classes, that can process several types of data. The actual application's type is declared in the type itself. This is similar to configure an array to only handle one type of elements.
 
-Generics have been submitted as RFC since 2016, and are currently not implemented, in the forseeable future. 
+Generics have been submitted as RFC since 2016, and are currently not implemented, in the foreseeable future. 
 
-One implementation of generics is available, with transpiling : see `mrsuh/php-generics`.
+One implementation of generics is available, with transpiling : see ``mrsuh/php-generics``.
 
 
 `Documentation <https://stitcher.io/blog/generics-in-php-1>`__
@@ -6598,12 +6598,12 @@ Related : :ref:`Goto <goto>`
 
 .. _graphql:
 
-GRAPHQL
+GraphQL
 -------
 
-Graphql is a query language for APIs. It provides a way to describe data and operations, so that clients can freely build queries.
+GraphQL is a query language for APIs. It provides a way to describe data and operations, so that clients can freely build queries.
 
-PHP has several packages to implement both the client and the server side of Graphql. 
+PHP has several packages to implement both the client and the server side of GraphQL. 
 
 
 `Documentation <https://graphql.org/>`__
@@ -6643,7 +6643,7 @@ Hard-code becomes a security problem, when the hard-coded value is a password or
 Hash
 ----
 
-Hash has severeal meanings : 
+Hash has several meanings : 
 
 + PHP extension
 + PHP function
@@ -6806,7 +6806,7 @@ Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-int
 HTML entity
 -----------
 
-HTML entities are special character sequences, that represents a single character. Such representation is not needed for simple characters, such as the latin alphabet. On the other hand, they are needed for unusual characters, in particular when the encoding cannot be guaranteed to support it. 
+HTML entities are special character sequences, that represents a single character. Such representation is not needed for simple characters, such as the Latin alphabet. On the other hand, they are needed for unusual characters, in particular when the encoding cannot be guaranteed to support it. 
 
 They are also needed to display characters, which have a special meaning, such as double quote `"`, or the greater `>` and lesser signs `<`. 
 
@@ -6847,7 +6847,7 @@ HTTP headers have a name, and a value. They are made of ASCII text, and separate
 
 HTTP headers are the same with HTTPS.
 
-In PHP, they are handled by the functions prefixed by `header_` : headers_sent(), headers_list(), header(), header_remove(), header_register_callback()
+In PHP, they are handled by the functions prefixed by ``header_`` : headers_sent(), headers_list(), header(), header_remove(), header_register_callback()
 
 
 .. code-block:: php
@@ -6957,7 +6957,7 @@ Related packages : ` <https://packagist.org/packages/>`_
 If Then Else
 ------------
 
-A if-then-else command branches the execution based on an condition. When the condition is true, the first branche, called `then` is executed. When the condition is false, the second branch, called `else`, is executed. 
+A if-then-else command branches the execution based on an condition. When the condition is true, the first branch, called ``then`` is executed. When the condition is false, the second branch, called ``else``, is executed. 
 
 If-then structures may be chained with the `elseif` keyword. The else branch is then a new if-then structure, with a second condition. 
 
@@ -8581,11 +8581,11 @@ Added in PHP 8.0
 max_execution_time
 ------------------
 
-The `max_execution_time` directive sets the maximum amount of time that PHP will work on an application. 
+The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application. 
 
 The default value is 30 seconds. It may be lowered down to 1 second, or set to infinity with -1.
 
-`max_execution_time` may be changed from the code with set_time_limit(). This function may also be disabled, and not available.
+``max_execution_time`` may be changed from the code with set_time_limit(). This function may also be disabled, and not available.
 
 It is recommended to set this value as low as possible, and optimize the code to run below that limit.
 
@@ -8705,13 +8705,13 @@ Added in PHP 8.0+
 Mock
 ----
 
-A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducable state : for example, in a rare state, or after a long set up.
+A mock replaces a code dependency with an object, to make testing easier. Mocks are used when the dependency is difficult to set in a reproducible state : for example, in a rare state, or after a long set up.
 
 Mocks turns the dependency into another piece of code, with total control over its behavior. 
 
-On the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible : any change to the dependency behavior has to be backported. 
+On the other hand, mocks have to be coded to replace the dependency, and emulates its behavior as closely as possible : any change to the dependency behavior has to be back-ported. 
 
-Mock objects are also called `test double`. 
+Mock objects are also called ``test double``. 
 
 
 `Documentation <https://www.radview.com/glossary/what-is-mock-testing/>`__
@@ -8727,7 +8727,7 @@ Model
 
 The model is the classes that describes the business logic. 
 
-The model is often used as part of the MVC pattern, though it may be used independentaly.
+The model is often used as part of the MVC pattern, though it may be used independently.
 
 Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :ref:`Controller <controller>`
 
@@ -8825,7 +8825,7 @@ MVC stands for Model - View - Controller. It is a programming paradigm, which pa
 
 + The model, which is dedicated to the business logic.
 + The view, which is dedicated to the presentation of the data
-+ The controller, which orchestrates the excution. 
++ The controller, which orchestrates the execution. 
 
 
 
@@ -9443,7 +9443,7 @@ Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :r
 Object Injection
 ----------------
 
-Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controled by the attacker.
+Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker.
 
 The general synopsis is the following : 
 + PHP serialize an object
@@ -9574,14 +9574,14 @@ Related : :ref:`Null Safe Object Operator <nullsafe-object-operator>`, :ref:`Sco
 
 .. _orm:
 
-Object Relationanl Mapping (ORM)
---------------------------------
+Object Relational Mapping (ORM)
+-------------------------------
 
-Object Relationanl Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular).
+Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular).
 
-As its definition implies, such tool is able to take data from an object, and place it in a database's table. The transfert may be straightforward, when the object is stored in one table. Or, it may be complex, when the same data are spread over multiple tables. 
+As its definition implies, such tool is able to take data from an object, and place it in a database's table. The transfer may be straightforward, when the object is stored in one table. Or, it may be complex, when the same data are spread over multiple tables. 
 
-PHP has several ORM : Doctrine, Readbean, Eloquent, Propel.
+PHP has several ORM : Doctrine, Redbean, Eloquent, Propel.
 
 `Documentation <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>`__
 
@@ -10158,9 +10158,9 @@ Persistence is related to the life cycle of a resource. A piece of data is said 
 
 In particular, databases, sessions, shared memory, file system or cache allows for persistent storage : the current process may store data there, and retrieve it later, provided it has transmitted an identifier. 
 
-Persistence also applies to database connexion, where the connexion is not closed at the end of the current process, but stays open for the next to reuse it, saving some overhead, but keeping a connexion open even if not busy.
+Persistence also applies to database connection, where the connection is not closed at the end of the current process, but stays open for the next to reuse it, saving some overhead, but keeping a connection open even if not busy.
 
-Persistent storage may also be called permanant storage. 
+Persistent storage may also be called permanent storage. 
 
 
 Related packages : ` <https://packagist.org/packages/>`_
@@ -10462,7 +10462,7 @@ PHP-FPM
 
 FPM stands for FastCGI Process Manager. It is a PHP FastCGI implementation.
 
-Instead of nesting PHP in the webserver, php-fpm makes PHP a server by itself. The web server then delegates the work to the PHP server. The advantage is to lower the memory footprint of PHP and the web server, and the whole of them both. It helps with stability, by keeping the two processes separated.
+Instead of nesting PHP in the web server, php-fpm makes PHP a server by itself. The web server then delegates the work to the PHP server. The advantage is to lower the memory footprint of PHP and the web server, and the whole of them both. It helps with stability, by keeping the two processes separated.
 
 
 `Documentation <https://www.php.net/manual/en/install.fpm.php>`__
@@ -11424,7 +11424,7 @@ Related packages : `friendsofcake/cakepdf <https://packagist.org/packages/friend
 Reserved for Future Use
 -----------------------
 
-RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitely, it is a request to leave it in place, until actual usage happen.
+RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitly, it is a request to leave it in place, until actual usage happen.
 
 .. _reserved-name:
 
@@ -11434,7 +11434,7 @@ Reserved Names
 PHP shares several namespaces with the users, and has reserved some names for its own usage. 
 
 + Namespaces : the global namespace, also known as ``\`` is reserved for PHP.
-+ Keywords : `fn`, `finally`, `insteadof`, `null`, `void`, ...
++ Keywords : ``fn``, ``finally``, ``insteadof``, ``null``, ``void``, ...
 + classes, constants, functions, interfaces
 + variables : 
 
@@ -13974,9 +13974,9 @@ Underflow
 
 Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown.
 
-Underflow happens with integers (limited to PHP_INT_MAX  and PHP_INT_MIN), floats (PHP_FLOAT_MAX and PHP_FLOAT_MIN). 
+Underflow happens with integers (limited to PHP_INT_MAX  and PHP_INT_MIN), floats (``PHP_FLOAT_MAX`` and ``PHP_FLOAT_MIN``). 
 
-Other situations, such as accessing an array element or a string character beyond its first element, defaults to returning `null`.
+Other situations, such as accessing an array element or a string character beyond its first element, defaults to returning ``null``.
 
 
 
@@ -14050,7 +14050,7 @@ Unicode
 
 Unicode is a standard to represent text. It is maintained by the Unicode Consortium. Unicode provides a widespread standard for characters. It is used everywhere, from computer to phones, online and offline.
 
-Unicode moto : 'Everyone in the world should be able to use their own language on phones and computers.'
+Unicode motto : 'Everyone in the world should be able to use their own language on phones and computers.'
 
 PHP supports unicode in its syntax with the declare() `encoding` option. 
 
@@ -14630,7 +14630,7 @@ Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`
 variable_order
 --------------
 
-The `variable_order` directive sets the order in which the values are aassigned to the `$_REQUEST` variable.
+The ``variable_order`` directive sets the order in which the values are assigned to the `$_REQUEST` variable.
 
 The default is `EGPCS` : Environment, GET, POST, COOKIE and SESSION. The values are overwritten by the next, so if GET and POST have both an `x` variable, the default configuration will only keep the one from POST, as it is later in the configuration. 
 
@@ -14752,7 +14752,7 @@ Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :re
 View in presentation
 --------------------
 
-A view is the presentation layer in a MVC model. It is in charge of formating the provided data to fit the target reader : HTML, JSON, etc.
+A view is the presentation layer in a MVC model. It is in charge of formatting the provided data to fit the target reader : HTML, JSON, etc.
 
 Views are also synonym of renderer or template. 
 
@@ -14770,6 +14770,10 @@ Properties, methods and classes may have a visibility. It limits the scope of th
 + private : to the current class
 + protected : to the current class hierarchy (parents and children classes)
 + public : to all the code
+
+In PHP, the default visibility is public. 
+
+Visibility may no change, unless when overwiting it with a trait, or in a child class.
 
 
 
