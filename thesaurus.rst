@@ -12,11 +12,14 @@ Acronym
 + :ref:`HTTPS <https>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`JSON <json>`
++ :ref:`Just In Time <jit>`
 + :ref:`MVC <mvc>`
 + :ref:`PEAR <pear>`
-+ :ref:`PHP RFC <rfc>`
++ :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`PHP-FPM <fpm>`
++ :ref:`RFC <rfc>`
++ :ref:`Request For Change <rfchange>`
 + :ref:`SAPI <sapi>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
@@ -39,6 +42,7 @@ Concept
 + :ref:`Active Record <active-record>`
 + :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Class Hoisting <class-hoisting>`
++ :ref:`Class Wither Method <wither>`
 + :ref:`Classes <class>`
 + :ref:`Clone <clone>`
 + :ref:`Condition <condition>`

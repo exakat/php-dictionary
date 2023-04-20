@@ -30,8 +30,10 @@ PHP Dictionary
    * :ref:`Abstraction Layer <abstraction-layer>`
    * :ref:`Accessibility <accessibility>`
    * :ref:`Active Record <active-record>`
+   * :ref:`Adapters <adapter>`
    * :ref:`Addition <addition>`
    * :ref:`Alias <namespace-alias>`
+   * :ref:`Alias types <alias-types>`
    * :ref:`Allow Dynamic Property <allowdynamicproperty>`
    * :ref:`Alternative Syntax <alternative-syntax>`
    * :ref:`Annotations <annotation>`
@@ -86,6 +88,7 @@ PHP Dictionary
    * :ref:`Class Invasion <class-invasion>`
    * :ref:`Class Operator <class-operator>`
    * :ref:`Class Setter Method <setter>`
+   * :ref:`Class Wither Method <wither>`
    * :ref:`Class aliases <class-alias>`
    * :ref:`Class constant <class-constant>`
    * :ref:`Classes <class>`
@@ -226,6 +229,7 @@ PHP Dictionary
    * :ref:`Goto Labels <label>`
    * :ref:`GraphQL <graphql>`
    * :ref:`glob() <glob>`
+   * :ref:`global scope <global>`
 * H
    * :ref:`HTML entity <html-entity>`
    * :ref:`HTTP headers <http-header>`
@@ -272,6 +276,7 @@ PHP Dictionary
    * :ref:`JSON <json>`
    * :ref:`Jobqueues <jobqueue>`
    * :ref:`JsonException <jsonexception>`
+   * :ref:`Just In Time <jit>`
 * K
    * :ref:`Key-value stores <key-value-store>`
 * L
@@ -284,7 +289,9 @@ PHP Dictionary
    * :ref:`Liskov Substitution Principle <lsp>`
    * :ref:`List <list>`
    * :ref:`Literal <literal>`
+   * :ref:`Literal types <literal-types>`
    * :ref:`Local File Inclusion <lfi>`
+   * :ref:`Local scope <local>`
    * :ref:`Locale <locale>`
    * :ref:`Log <log>`
    * :ref:`LogicException <logicexception>`
@@ -303,6 +310,7 @@ PHP Dictionary
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
    * :ref:`Method <method>`
+   * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Migration <migration>`
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
@@ -359,7 +367,7 @@ PHP Dictionary
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
-   * :ref:`PHP RFC <rfc>`
+   * :ref:`PHP RFC <php-rfc>`
    * :ref:`PHP Standards Recommendations (PSR) <psr>`
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP tags <php-tag>`
@@ -400,6 +408,7 @@ PHP Dictionary
 * R
    * :ref:`RDBMS <rdbms>`
    * :ref:`REST API <api>`
+   * :ref:`RFC <rfc>`
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
    * :ref:`Readability <readability>`
@@ -415,6 +424,7 @@ PHP Dictionary
    * :ref:`Regular Expressions <regex>`
    * :ref:`Remote Procedure Call <rpc>`
    * :ref:`Rendering <render>`
+   * :ref:`Request For Change <rfchange>`
    * :ref:`Reserved Names <reserved-name>`
    * :ref:`Reserved for Future Use <rfu>`
    * :ref:`Return <return>`
@@ -438,6 +448,7 @@ PHP Dictionary
    * :ref:`Scalar Typehints <scalar-typehint>`
    * :ref:`Schema <schema>`
    * :ref:`Scheme <scheme>`
+   * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
@@ -448,6 +459,7 @@ PHP Dictionary
    * :ref:`Shallow clone <shallow-clone>`
    * :ref:`Short Syntax <short-syntax>`
    * :ref:`Short Tags <short-tag>`
+   * :ref:`Short Ternary operator <short-ternary>`
    * :ref:`Short assignations <short-assignation>`
    * :ref:`Shutdown Function <shutdown-function>`
    * :ref:`Simple Query Language (SQL) <sql>`
@@ -1394,6 +1406,22 @@ See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.ht
 
 Related : :ref:`Data Mapper <data-mapper>`
 
+.. _adapter:
+
+Adapters
+--------
+
+Adapters are the link between the application and the rest of the universe. They take incoming data and shape them into internal format, and vice-versa.
+
+Adapters are heavily used in hexagonal architecture. They area also a classic design pattern
+
+
+`Documentation <https://en.wikipedia.org/wiki/Adapter_pattern>`__
+
+See also `Adapter in PHP <https://refactoring.guru/design-patterns/adapter/php/example>`_
+
+Related : 
+
 .. _addition:
 
 Addition
@@ -1453,6 +1481,34 @@ Alias
 Related : :ref:`Use Alias <use-alias>`
 
 Added in PHP 5.3
+
+.. _alias-types:
+
+Alias types
+-----------
+
+An alias type is a short name for several types at once. Under the hood, alias type are union type. 
+
+PHP has some native alias type, such as iterable, which represents array | Traversable. Alias type are not available for customisation. 
+
+The same rules applies to alias types than other types : for example, array | iterable produces a 'Duplicate type array is redundant' error.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo(iterable $a) {
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
+
+Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`, :ref:`Type system <typehint>`
+
+Added in PHP 8.0
 
 .. _allowdynamicproperty:
 
@@ -2290,6 +2346,8 @@ On the other hand, logical operators convert the whole value to bool before mani
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
+See also `Are Bitwise Operators Still Relevant in Modern PHP? <https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/>`_
+
 Related : :ref:`Logical operators <logical-operator>`
 
 .. _variable-blind:
@@ -2904,6 +2962,41 @@ Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`
 
 Added in PHP 5.0+
 
+.. _wither:
+
+Class Wither Method
+-------------------
+
+With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself.  
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+       private A $property;
+       
+       // getter
+       public function getProperty() : A {
+           return $this->property;
+       }
+   
+       // wither
+       public function withProperty() : A{
+           return clone $this->property;
+       }
+   }
+   
+   ?>
+
+
+`Documentation <https://projectlombok.org/features/With>`__
+
+See also `RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_
+
+Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Getter Method <getter>`
+
 .. _class:
 
 Classes
@@ -3067,6 +3160,8 @@ The coalesce operator `??` returns its first operand if it is set and not NULL. 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`__
 
 See also `Null Coalescing Operator (??) <https://riptutorial.com/php/example/7164/null-coalescing-operator----->`_, `PHP ternary operator vs null coalescing operator <https://stackoverflow.com/questions/34571330/php-ternary-operator-vs-null-coalescing-operator>`_
+
+Related : :ref:`Ternary operator <ternary>`, :ref:`Short Ternary operator <short-ternary>`
 
 Added in PHP 7.0+
 
@@ -6077,7 +6172,7 @@ A fluent interface is not related to an interface : it may be implemented withou
 
 `Documentation <https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html>`__
 
-See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_
+See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_, `Fluent Interfaces Are Bad for Maintainability <https://news.ycombinator.com/item?id=16619171>`_, `Fluent Interfaces are Evil <https://ocramius.github.io/blog/fluent-interfaces-are-evil/>`_
 
 Related : :ref:`Final Keyword <final>`, :ref:`Interfaces <interface>`
 
@@ -6086,11 +6181,11 @@ Related : :ref:`Final Keyword <final>`, :ref:`Interfaces <interface>`
 For
 ---
 
-For is a loop structure. It is configured with an initialization expression, a terminaison expression and an increment expression. 
+For is a loop structure. It is configured with an initialization expression, an ending expression and an increment expression. 
 
-The for() loop executes the init expression first, and only once. Then it executes the block, the increment and the terminaison. When the terminaison is false, it exits the loop.
+The for() loop executes the init expression first, and only once. Then it executes the block, the increment and the ending. When the ending is false, it exits the loop.
 
-The initialization, terminaison and increment expression may all host several instructions : they have to be separated by comma, rather than semi colons.
+The initialization, ending and increment expression may all host several instructions : they have to be separated by comma, rather than semi colons.
 
 Part of the block execution may be skipped by using the `continue` keyword. 
 
@@ -6101,7 +6196,7 @@ Part of the block execution may be skipped by using the `continue` keyword.
    <?php
    
    /*
-   for(initialization; terminaison; increment) {
+   for(initialization; ending; increment) {
    	block
    }
    */
@@ -6477,6 +6572,39 @@ The glob() function is not related to the global keyword.
 
 `Documentation <https://www.php.net/manual/en/function.glob.php>`__
 
+.. _global:
+
+global scope
+------------
+
+The global scope is the top level scope. It is the scope when no function, or method scope is active. It is also the first scope when starting execution. 
+
+Variables from the global scope are accessible in other scopes by using the `global` keyword, or the $GLOBALS variable. Variables in the global scope are automatically added to the $GLOBALS variable; in local scopes, the `global` keyword have that effect too.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $x = 'A';
+   
+   function counter() {
+       echo $GLOBALS['A'];
+   
+   	global $x;
+   	
+   	echo $x;
+   }
+   
+   foo();
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/reserved.variables.globals.php>`__
+
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
+
 .. _global-variable:
 
 Global Variables
@@ -6847,7 +6975,7 @@ HTTP headers have a name, and a value. They are made of ASCII text, and separate
 
 HTTP headers are the same with HTTPS.
 
-In PHP, they are handled by the functions prefixed by ``header_`` : headers_sent(), headers_list(), header(), header_remove(), header_register_callback()
+In PHP, they are handled by the functions prefixed by ``header_`` : headers_sent(), headers_list(), header(), header_remove(), header_register_callback().
 
 
 .. code-block:: php
@@ -7854,6 +7982,30 @@ Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_
 
 Added in PHP 5.0+
 
+.. _jit:
+
+Just In Time
+------------
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
+
+.. code-block:: php
+   
+   <?php
+   $array = array('a' => 1, 'b' => c, 'c' => [3, 4], 'd' => new stdclass());
+   
+   echo json_encode($arr);
+   // displays {"a":1,"b":"c","c":[3,4],"d":{}}
+   
+   ?>
+
+
+`Documentation <https://wiki.php.net/rfc/jit>`__
+
+See also `PHP 8.0: JIT <https://php.watch/versions/8.0/JIT>`_, `Exploring the New PHP JIT Compiler <https://www.zend.com/blog/exploring-new-php-jit-compiler>`_
+
+Added in PHP 8.0+
+
 .. _key-value-store:
 
 Key-value stores
@@ -8178,6 +8330,32 @@ Objects and resources cannot be hardcoded, though their creation call may be.
 
 Related : :ref:`Destructor <destructor>`
 
+.. _literal-types:
+
+Literal types
+-------------
+
+Literal types are type which not only check the type of a value but also the value itself. PHP has support for two literal types: false as of PHP 8.0.0, and true as of PHP 8.2.0. 
+
+.. code-block:: php
+   
+   <?php
+   
+   // bool is a type
+   // false is a literal type : a bool, which value is false
+   function foo(bool $a) : false {
+   	return false;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
+
+Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`
+
+Added in PHP 8.0
+
 .. _lfi:
 
 Local File Inclusion
@@ -8204,6 +8382,47 @@ This vulnerability is often used to access password files, such as `/etc/passwd`
 `Documentation <https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion>`__
 
 See also `Exploiting Local File Inclusion (LFI) Using PHP Wrapper <https://gupta-bless.medium.com/exploiting-local-file-inclusion-lfi-using-php-wrapper-89904478b225>`_, `Local File Inclusion (LFI): Understanding and Preventing LFI Attacks <https://brightsec.com/blog/local-file-inclusion-lfi/>`_
+
+.. _local:
+
+Local scope
+-----------
+
+The local scope is the scope inside a function or method. The variables are contained within that scope, and are not available beyond it. 
+
+The opposite of local scope is the global scope. 
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   function foo() {
+   	// $foo variable is only available in the foo scope
+   	$foo = 1; 
+   	
+   	$closure = function () {
+   		// this scope is different from foo()
+   		// its definition is nested in the foo() function
+   		// but those are 2 distinct scopes
+   	};
+   }
+   
+   function goo() {
+   	// $goo variable is only available in the goo scope
+   	$goo = 1; 
+   }
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
+
+Related : :ref:`Scope <scope>`, :ref:`global scope <global>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _locale:
 
@@ -8540,7 +8759,7 @@ Related : :ref:`Array <array>`
 Markdown
 --------
 
-Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. 
+Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents. 
 
 `Documentation <https://www.markdownguide.org/>`__
 
@@ -8656,6 +8875,39 @@ Methods are function dedicated to a class. They are defined inside the body of a
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
 Related : :ref:`Classes <class>`
+
+.. _micro-optimisation:
+
+Micro-optimisation
+------------------
+
+A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed.
+
+Micro-optimisation should be done only for highly constraints systems, or application that deliver a high number of hits in short times : usually, it takes one to ten millions usage for the gain to be visible. 
+
+Yet, micro-optimisations may be valuable on the long run, or as a good practice. 
+
+It is often a pointless to discuss the micro-optimisation. It is a do or don't, and should raise a consensus, or left alone.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // this is faster than calling 3 times echo
+   echo 1, 2, 3;
+   
+   // This is slower, yet it doesn't speed up the process a lot
+   echo 1;
+   echo 2;
+   echo 3;
+   
+   ?>
+
+
+`Documentation <https://en.wiktionary.org/wiki/micro-optimization>`__
+
+See also `25 Easy PHP7 Micro-Optimizations <https://blobfolio.com/2017/25-easy-php7-micro-optimizations/>`_
 
 .. _migration:
 
@@ -8910,7 +9162,7 @@ Named constructor is a class organisation, where several static factories are cr
 
 That approaches makes the construction of the object simpler, and reduces the number of conditionals. 
 
-As Matthias Verraes puts it : 'Don't limit yourself by PHP's single constructor. Use static factory methods.'
+As Matthias Verraes puts it : 'Don't limit yourself by PHP's single constructor. Use static factory methods.'.
 
 .. code-block:: php
    
@@ -9658,7 +9910,7 @@ The OCP is a general principle, that is applicable to PHP's structures.
 
 `Documentation <https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle>`__
 
-See also `The Open Closed Principle <https://codeburst.io/introduction-a1ba1f72b13>`_
+See also `The Open Closed Principle <https://codeburst.io/introduction-a1ba1f72b13>`_, `Open-Closed Principle Example Using PHP <https://blog.devops.dev/open-closed-principle-example-using-php-3c310105ece4>`_
 
 .. _openssl:
 
@@ -9700,7 +9952,7 @@ The operator precedence dictates in which order the operators in a same sequence
 
 For example, in the code `1 + 2 * 3`, the order is the mathematical order : multiplication has precedence over addition. The results is 7, not 9. 
 
-In PHP, operators have different predecence : `.` (dot) has a lower priority than addition `+` and `-`.  
+In PHP, operators have different precedence : `.` (dot) has a lower priority than addition `+` and `-`.  
 
 Precedence may lead to unexpected behavior. For example, ``-9 ** 2 == -9``, because ``-`` has lower precedence than ``**``, and PHP doesn't parse negative numbers in one pass. 
 
@@ -9790,7 +10042,7 @@ Outgoing data are data submitted by PHP to an external user. The default may be 
 
 Outgoing data should always be formatted with the target technology. For example, text should use HTML entities for HTML output, or be provided as prepared statement with a database. Each target has its own system of protection.
 
-The encoding of the incoming data are controled with the `default_charset` directive.
+The encoding of the incoming data are controlled with the `default_charset` directive.
 
 
 
@@ -10293,6 +10545,7 @@ Handlers are usually named by their setting function :
 + Autoload
     + spl_autoload_register()
 
+PHP handlers may be functions, closures or arrow_functions too. 
 
 
 `Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
@@ -10358,7 +10611,7 @@ See also `BlackFire <https://www.blackfire.io/php/>`_, `gProfiler <https://gprof
 
 Related : :ref:`Debugger <debugger>`
 
-.. _rfc:
+.. _php-rfc:
 
 PHP RFC
 -------
@@ -10396,9 +10649,9 @@ PHP tags
 
 When PHP parses a file, it looks for opening and closing tags, which are <?php and ?> which tell PHP to start and stop interpreting the code between them. 
 
-The classic PHP tag is `<?php`, and it also has a short version, for better serving xml tags : `<?`. This one relies on the `short_open_tag` directive.
+The classic PHP tag is ``<?php``, and it also has a short version, for better serving xml tags : `<?`. This one relies on the ``short_open_tag`` directive.
 
-Previously, PHP supported also Javascript-style and ASP-style tags, though these are now unsupported.
+Previously, PHP supported also javascript-style and ASP-style tags, though these are now unsupported.
 
 
 .. code-block:: php
@@ -10433,7 +10686,7 @@ PHP-UG are the PHP User Groups. They are informal groups of PHP developer and re
 PHP variables
 -------------
 
-PHP provides a large number of predefined variables. They may be super-global, and available in any context, such as `$_GET`, or classic variable, in the global scope, such as `$argv`.
+PHP provides a set of predefined variables. They may be super-global, and available in any context, such as ``$_GET``; they may also be classic variable, in the global scope, such as ``$argv``.
 
 .. code-block:: php
    
@@ -10452,7 +10705,7 @@ PHP provides a large number of predefined variables. They may be super-global, a
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-Related : :ref:`Superglobal variables <super-global>`
+Related : :ref:`Superglobal variables <super-global>`, :ref:`Variables <variable>`
 
 .. _fpm:
 .. _php-fpm:
@@ -11419,6 +11672,17 @@ Related : :ref:`View <view>`, :ref:`Template <template>`
 
 Related packages : `friendsofcake/cakepdf <https://packagist.org/packages/friendsofcake/cakepdf>`_
 
+.. _rfchange:
+
+Request For Change
+------------------
+
+A Request For Change is a document containing a call for an adjustment of a source code.
+
+`Documentation <https://en.wikipedia.org/wiki/Change_request>`__
+
+Related : :ref:`PHP RFC <php-rfc>`, :ref:`RFC <rfc>`
+
 .. _rfu:
 
 Reserved for Future Use
@@ -11436,7 +11700,7 @@ PHP shares several namespaces with the users, and has reserved some names for it
 + Namespaces : the global namespace, also known as ``\`` is reserved for PHP.
 + Keywords : ``fn``, ``finally``, ``insteadof``, ``null``, ``void``, ...
 + classes, constants, functions, interfaces
-+ variables : 
++ variables : ``$GLOBALS``, ``$_GET``,...
 
 
 
@@ -11630,6 +11894,23 @@ Return value is the value returned, at the end of a method call. That value may 
 
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
+.. _rfc:
+
+RFC
+---
+
+The RFC acronym has several usage :
+
++ Request For Comments
++ Request For Change
+
+RFC is often a short for PHP rfc.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Request_for_Comments>`__
+
+Related : :ref:`PHP RFC <php-rfc>`, :ref:`Request For Change <rfchange>`
+
 .. _route:
 
 Route
@@ -11789,6 +12070,48 @@ For example, URL have a scheme. It is one of the component of a URL parsed by pa
 See also `parse_url <https://www.php.net/manual/fr/function.parse-url.php>`_
 
 Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`Schema <schema>`
+
+.. _scope:
+
+Scope
+-----
+
+The scope is the context in which a variable is defined. A variable scope is usually its host method, or the file in which is used. It also extends to any included files, and skips other method definition.  
+
+Arrow functions are inited with the same scope than the defining scope, but do not write back in it. Closure with the use keyword also import variables from the defining scope. 
+
+Scopes are generally considered as global or local. 
+
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // $a is defined in the file scope
+   $a = 1; 
+   
+   // $a is extended to the included scope
+   include 'b.php';
+   
+   // arrow functions use the same scope than the defining code. 
+   // here, $a is also defined there. 
+   // $c will not be available in the calling scope.
+   $c = fn () => $a + ($c = 2);
+   
+   function foo() {
+   	// $b is only defined in the foo() function
+   	echo $b; 
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
+
+Related : :ref:`Local scope <local>`, :ref:`global scope <global>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _scope-resolution-operator:
 .. _double-colon:
@@ -12141,6 +12464,34 @@ See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/de
 
 Related : :ref:`PHP tags <php-tag>`, :ref:`Echo Tag <echo-tag>`
 
+.. _short-ternary:
+.. _short-ternary-operator:
+
+Short Ternary operator
+----------------------
+
+The expression ``(expr1) ?: (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to empty(), and ``expr3`` if ``expr1`` evaluates to false.
+
+Is is a short version of the ternary operator, and it is often used to set default values in a concise way.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $action = (empty($_POST['action'])) ? 'default';
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary>`__
+
+See also `Short Hand Comparison in PHP <https://stitcher.io/blog/shorthand-comparisons-in-php>`_
+
+Related : :ref:`Ternary operator <ternary>`, :ref:`Coalesce operator <coalesce>`
+
+Added in PHP 5.3+
+
 .. _shutdown-function:
 .. _shutdown-handler:
 
@@ -12339,7 +12690,7 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 
 `Documentation <https://en.wikipedia.org/wiki/Singleton_pattern>`__
 
-See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_, `Stop Using Singleton Pattern <https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2>`_
+See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_, `Stop Using Singleton Pattern <https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2>`_, `PHP Design Patterns Game : The Singleton Pattern <https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html>`_
 
 Related : :ref:`Design Pattern <design-pattern>`
 
@@ -13481,6 +13832,8 @@ The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1
 
 See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
+Related : :ref:`Short Ternary operator <short-ternary>`, :ref:`Coalesce operator <coalesce>`
+
 Added in PHP 7.0+
 
 .. _test:
@@ -14563,7 +14916,6 @@ See also `Variable-length argument lists <https://riptutorial.com/php/example/18
 Related : :ref:`Functions <function>`
 
 .. _variable-scope:
-.. _scope:
 
 Variable Scope
 --------------
