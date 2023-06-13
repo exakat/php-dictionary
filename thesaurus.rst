@@ -40,7 +40,9 @@ Concept
 
 + :ref:`$this <$this>`
 + :ref:`Active Record <active-record>`
++ :ref:`Alias <alias>`
 + :ref:`Anonymous Function <anonymous-function>`
++ :ref:`Benchmarking <benchmarking>`
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Class Wither Method <wither>`
 + :ref:`Classes <class>`
@@ -62,8 +64,10 @@ Concept
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
 + :ref:`Entities, in an application <class-entity>`
++ :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
++ :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
 + :ref:`Hash() function <hash-function>`
@@ -77,11 +81,13 @@ Concept
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Protocol <protocol>`
 + :ref:`Refactoring <refactoring>`
++ :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
 + :ref:`Rendering <render>`
 + :ref:`SOLID <solid>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
++ :ref:`Single Responsability Principle <srp>`
 + :ref:`Stubs files <stubs>`
 + :ref:`Template <template>`
 + :ref:`UUID <uuid>`
@@ -131,6 +137,7 @@ Exception
 Keyword
 -------
 
++ :ref:`As <as>`
 + :ref:`Break <break>`
 + :ref:`Callables <callable>`
 + :ref:`Case <case>`
@@ -171,6 +178,7 @@ Language construct
 ------------------
 
 + :ref:`Array <array>`
++ :ref:`ArrayObject <arrayobject>`
 + :ref:`Echo <echo>`
 + :ref:`Empty <empty>`
 + :ref:`Eval() <eval>`

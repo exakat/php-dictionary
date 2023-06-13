@@ -7,6 +7,7 @@ PHP Dictionary
    * :ref:`$_GET <$_get>`
    * :ref:`$_POST <$_post>`
    * :ref:`$_REQUEST <$_request>`
+   * :ref:`$argv <$argv>`
    * :ref:`$php_errormsg <$php_errormsg>`
    * :ref:`$this <$this>`
 * _
@@ -25,6 +26,8 @@ PHP Dictionary
    * :ref:`__unserialize <-__unserialize>`
    * :ref:`__wakeup() <-__wakeup>`
 * A
+   * :ref:`API <api>`
+   * :ref:`Abstract Class <abstract-class>`
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree <ast>`
    * :ref:`Abstraction Layer <abstraction-layer>`
@@ -32,7 +35,7 @@ PHP Dictionary
    * :ref:`Active Record <active-record>`
    * :ref:`Adapters <adapter>`
    * :ref:`Addition <addition>`
-   * :ref:`Alias <namespace-alias>`
+   * :ref:`Alias <alias>`
    * :ref:`Alias types <alias-types>`
    * :ref:`Allow Dynamic Property <allowdynamicproperty>`
    * :ref:`Alternative Syntax <alternative-syntax>`
@@ -49,8 +52,9 @@ PHP Dictionary
    * :ref:`Array Append <append>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
    * :ref:`Array spread <array-spread>`
+   * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
-   * :ref:`As <As>`
+   * :ref:`As <as>`
    * :ref:`Assertions <assertion>`
    * :ref:`Assignations <assignation>`
    * :ref:`Assumption <assumption>`
@@ -60,6 +64,8 @@ PHP Dictionary
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
 * B
+   * :ref:`Backed Enumeration <enum-backed>`
+   * :ref:`Backend <backend>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
    * :ref:`Benchmarking <benchmarking>`
    * :ref:`Best Practices <best-practice>`
@@ -75,6 +81,7 @@ PHP Dictionary
    * :ref:`CRUD <crud>`
    * :ref:`CSV <csv>`
    * :ref:`CSV injection <csv-injection>`
+   * :ref:`CVS <cvs>`
    * :ref:`Callables <callable>`
    * :ref:`Callback <callback>`
    * :ref:`Case <case>`
@@ -94,6 +101,7 @@ PHP Dictionary
    * :ref:`Classes <class>`
    * :ref:`Clean Architecture <clean-architecture>`
    * :ref:`Clone <clone>`
+   * :ref:`Close Tag <close-tag>`
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce operator <coalesce>`
@@ -115,7 +123,9 @@ PHP Dictionary
    * :ref:`Const <const>`
    * :ref:`Constant Scalar Expression <constant-scalar-expression>`
    * :ref:`Constants <constant>`
+   * :ref:`Container <container>`
    * :ref:`Continue <continue>`
+   * :ref:`Continuous Integration <ci>`
    * :ref:`Contravariance <type-contravariance>`
    * :ref:`Control Flow <control-flow>`
    * :ref:`Control Structures <control-structure>`
@@ -128,6 +138,7 @@ PHP Dictionary
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
    * :ref:`Curl <curl>`
+   * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
 * D
@@ -146,10 +157,12 @@ PHP Dictionary
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
    * :ref:`Dependency Injection <dependency-injection>`
+   * :ref:`Dependency Injection Container <dependency-injection-container>`
    * :ref:`Deploy <deploy>`
    * :ref:`Deprecation <deprecated>`
    * :ref:`Dereferencing <dereferencing>`
    * :ref:`Design Pattern <design-pattern>`
+   * :ref:`Design by Contract <contract>`
    * :ref:`Destructor <destructor>`
    * :ref:`Directives <directives>`
    * :ref:`DirectoryIterator <directoryiterator>`
@@ -203,7 +216,9 @@ PHP Dictionary
    * :ref:`FIG <php-fig>`
    * :ref:`Facade <facade>`
    * :ref:`False <false>`
+   * :ref:`File <file>`
    * :ref:`File Upload <upload>`
+   * :ref:`File system <file-system>`
    * :ref:`Final Class Constants <final-class-constant>`
    * :ref:`Final Keyword <final>`
    * :ref:`Finally <finally>`
@@ -214,8 +229,10 @@ PHP Dictionary
    * :ref:`For <for>`
    * :ref:`Foreach <foreach>`
    * :ref:`Form <form>`
+   * :ref:`Format <format>`
    * :ref:`Fossilized Methods <fossilized-method>`
    * :ref:`Framework <framework>`
+   * :ref:`Front-end <frontend>`
    * :ref:`Fully Qualified Name <fully-qualified-name>`
    * :ref:`Function Subscripting <function-subscripting>`
    * :ref:`Functions <function>`
@@ -231,6 +248,7 @@ PHP Dictionary
    * :ref:`glob() <glob>`
    * :ref:`global scope <global>`
 * H
+   * :ref:`HTML Entities <html-entities>`
    * :ref:`HTML entity <html-entity>`
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
@@ -240,6 +258,7 @@ PHP Dictionary
    * :ref:`Hash() function <hash-function>`
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
+   * :ref:`Hexagonal Architecture <hexagonal>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 * I
    * :ref:`Iconv <iconv>`
@@ -270,6 +289,7 @@ PHP Dictionary
    * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`
    * :ref:`implements <implements>`
+   * :ref:`instance <instance>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
 * J
@@ -299,6 +319,7 @@ PHP Dictionary
    * :ref:`Loops <loop>`
    * :ref:`libsodium <libsodium>`
 * M
+   * :ref:`MD5 <md5>`
    * :ref:`MVC <mvc>`
    * :ref:`Magic <magic>`
    * :ref:`Magic Constants <magic-constant>`
@@ -324,6 +345,7 @@ PHP Dictionary
    * :ref:`N+1 Query <n-query>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
+   * :ref:`Namespace alias <namespace-alias>`
    * :ref:`Namespaces <namespace>`
    * :ref:`Native <native>`
    * :ref:`Nested Attributes <nested-attributes>`
@@ -364,6 +386,7 @@ PHP Dictionary
    * :ref:`PECL <pecl>`
    * :ref:`PHP <php>`
    * :ref:`PHP Data Objects (PDO) <pdo>`
+   * :ref:`PHP Docker Container <php-docker-container>`
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
@@ -393,6 +416,7 @@ PHP Dictionary
    * :ref:`Preprocessing <preprocess>`
    * :ref:`Print <print>`
    * :ref:`Private Visibility <private>`
+   * :ref:`Process Control (pcntl) <pcntl>`
    * :ref:`Promoted Properties <promoted-property>`
    * :ref:`Properties <property>`
    * :ref:`Property Type Declaration <type-declaration-property>`
@@ -401,13 +425,14 @@ PHP Dictionary
    * :ref:`Public Visibility <public>`
    * :ref:`pack <pack>`
    * :ref:`parent <parent>`
+   * :ref:`php.ini <php.ini>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
 * Q
    * :ref:`Queue <queue>`
 * R
    * :ref:`RDBMS <rdbms>`
-   * :ref:`REST API <api>`
+   * :ref:`REST API <rest-api>`
    * :ref:`RFC <rfc>`
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
@@ -418,10 +443,12 @@ PHP Dictionary
    * :ref:`Refactoring <refactoring>`
    * :ref:`Reference Count <reference-count>`
    * :ref:`References <reference>`
+   * :ref:`Reflection <reflection>`
    * :ref:`ReflectionException <reflectionexception>`
    * :ref:`Register Globals <register-globals>`
    * :ref:`Registry <registry>`
    * :ref:`Regular Expressions <regex>`
+   * :ref:`Release <release>`
    * :ref:`Remote Procedure Call <rpc>`
    * :ref:`Rendering <render>`
    * :ref:`Request For Change <rfchange>`
@@ -465,6 +492,7 @@ PHP Dictionary
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`SimpleXML <simplexml>`
    * :ref:`Single Quotes Strings <single-quote>`
+   * :ref:`Single Responsability Principle <srp>`
    * :ref:`Singleton <singleton>`
    * :ref:`Sort <sort>`
    * :ref:`Spaceship operator <spaceship>`
@@ -491,8 +519,10 @@ PHP Dictionary
    * :ref:`Switch Default <switch-default>`
    * :ref:`Switch Fallthrough <fallthrough>`
    * :ref:`System Call <system-call>`
+   * :ref:`System event <system-event>`
    * :ref:`signature <signature>`
    * :ref:`sleep <sleep>`
+   * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
@@ -551,6 +581,7 @@ PHP Dictionary
    * :ref:`variable_order <variable_order>`
 * W
    * :ref:`Weak References <weak-reference>`
+   * :ref:`Webserver <webserver>`
    * :ref:`While <while>`
    * :ref:`Wrapper <wrapper>`
 * X
@@ -705,6 +736,30 @@ $_REQUEST is a superglobal : it is always available, in every scope.
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`variable_order <variable_order>`
+
+.. _$argv:
+
+$argv
+-----
+
+$argv is a PHP variable that contains an array of the arguments passed to the PHP script, in command line. $argv is not defined when PHP is run in a webserver.
+
+$argv is not a super global : it has to be imported in a non-global scope with the global keyword.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   print_r($argv);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/reserved.variables.argv.php>`__
+
+Related : 
 
 .. _$HTTP_RAW_POST_DATA:
 
@@ -1045,7 +1100,7 @@ __serialize
 
 The __serialize() magic method is called when a script tries to construct an associative array of key/value pairs that represent the serialized form of the object. 
 
-If no array is returned a TypeError will be thrown. 
+If no array is returned a ``TypeError`` will be thrown. 
 
 
 .. code-block:: php
@@ -1208,7 +1263,7 @@ That way, it is possible to dynamically convert the object to a string and displ
 
 __toString() is called when strict_type is not active. Otherwise, passing an object to a string parameter yields an error.
 
-__toString() is always called in concatenation, string interpolation, 
+__toString() is always called in concatenation, and string interpolation.
 
 
 
@@ -1237,6 +1292,8 @@ __toString() is always called in concatenation, string interpolation,
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+See also `PHP __toString <https://www.phptutorial.net/php-oop/php-__tostring/>`_
 
 Related : :ref:`Magic Methods <magic-method>`
 
@@ -1315,6 +1372,25 @@ The __wakeup() method is usually paired with the __sleep() method.
 See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_, `__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__sleep() method <-__sleep>`
+
+.. _abstract-class:
+
+Abstract Class
+--------------
+
+An abstract class is a PHP class that has the ``final`` option.
+
+.. code-block:: php
+   
+   <?php
+   abstract class AbstractClass { }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
+
+Related : :ref:`Final Keyword <final>`
 
 .. _abstract:
 
@@ -1402,9 +1478,11 @@ An object that wraps a row in a database table or view, encapsulates the databas
 
 `Documentation <https://en.wikipedia.org/wiki/Active_record_pattern>`__
 
-See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.html>`_
+See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.html>`_, `Getting started with Eloquent in Laravel: (for Beginners) <https://www.linkedin.com/pulse/getting-started-eloquent-laravel-beginners-youssef-saleem/>`_
 
 Related : :ref:`Data Mapper <data-mapper>`
+
+Related packages : `Eloquent <https://packagist.org/packages/Eloquent>`_
 
 .. _adapter:
 
@@ -1413,14 +1491,14 @@ Adapters
 
 Adapters are the link between the application and the rest of the universe. They take incoming data and shape them into internal format, and vice-versa.
 
-Adapters are heavily used in hexagonal architecture. They area also a classic design pattern
+Adapters are heavily used in hexagonal architecture. They area also a classic design pattern.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Adapter_pattern>`__
 
 See also `Adapter in PHP <https://refactoring.guru/design-patterns/adapter/php/example>`_
 
-Related : 
+Related : :ref:`Hexagonal Architecture <hexagonal>`
 
 .. _addition:
 
@@ -1452,35 +1530,37 @@ See also `Array operators <https://www.php.net/manual/en/language.operators.arra
 
 Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`
 
-.. _namespace-alias:
+.. _alias:
 
 Alias
 -----
 
- PHP can alias(/import) constants, functions, classes, interfaces, and namespaces. 
+An alias is a distinct name for an existing named structure. It is a classic way to cope with possible naming conflict. 
+
+For example, there are aliases in namespaces import, to disambiguate classes, traits, interfaces, enums, functions and constants from other namespaces. There is also the class_alias() function, which allows the application-wide creation of aliases. 
+
+There are also aliases for methods, when importing them from a trait. 
+
+References are also considered an alias, as they stand for a variable with another name. 
+
 
 
 .. code-block:: php
    
    <?php
    
-   namespace a {
-       class x {
-       }
-   }
+   use stdClass as StandardClass;
    
-   namespace b {
-       use a\x as aX;
+   foreach($map as $key => $value) {
+   	print "$key => $value\n";
    }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
+`Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
 Related : :ref:`Use Alias <use-alias>`
-
-Added in PHP 5.3
 
 .. _alias-types:
 
@@ -1507,6 +1587,8 @@ The same rules applies to alias types than other types : for example, array | it
 `Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
 
 Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`, :ref:`Type system <typehint>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.0
 
@@ -1674,6 +1756,20 @@ Even without names, they are usable just like functions, or as callable.
 
 Related : :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`First Class Callable <first-class-callable>`
 
+.. _api:
+
+API
+---
+
+A set of functions and procedures allowing the creation of applications that access the features or data of another service.
+
+There are several API protocols : REST, RPC, GraphQL and SOAP. 
+
+
+`Documentation <https://en.wikipedia.org/wiki/API>`__
+
+Related : :ref:`REST API <rest-api>`, , , 
+
 .. _apm:
 
 Application Performance Management
@@ -1806,6 +1902,8 @@ ArithmeticError Error
 
 ``ArithmeticError`` is thrown when an error occurs while performing mathematical operations. These errors include attempting to perform a bitshift by a negative amount, and any call to intdiv() that would result in a value outside the possible bounds of an int. 
 
+Currently, a bitshift is the main source for arithmetic exceptions. The other is division by zero, which is a child class.
+
 
 .. code-block:: php
    
@@ -1930,6 +2028,39 @@ Specifying an array index with the curly braces, instead of the square brackets.
 
 Removed in PHP 
 
+.. _arrayobject:
+
+ArrayObject
+-----------
+
+ArrayObject is a class that allows objects to work as arrays.
+
+Operator such as append ``[]``, or foreach() loops are then available with those objects.
+
+ArrayObjects are still objects, though they behave a lot like arrays.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class myObject extends ArrayObject{ }
+   
+   $variable = new ArrObj([0, 1]);
+   
+   $variable[] = 2;
+   foreach($variable as $k => $v) {
+   	echo $k . ' => ' . $v . PHP_EOL; 
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.arrayobject.php>`__
+
+See also `Array Objects in PHP <https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667>`_
+
 .. _arrow-function:
 
 Arrow Functions
@@ -1953,16 +2084,18 @@ Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <cl
 
 Added in PHP 7.4
 
-.. _As:
+.. _as:
 
 As
 --
 
-The As operator has several usage :
+The as operator has several usage:
 
 + It is a compulsory keyword with the foreach() control structure
 + It is an optional keyword with the use expression, in trait import
 + It is an optional keyword with the use expression, in namespace import
+
+The as operator often works to give a distinct name to an existing structure. 
 
 
 
@@ -1981,7 +2114,7 @@ The As operator has several usage :
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`Foreach <foreach>`, :ref:`Use Alias <use-alias>`
+Related : :ref:`Foreach <foreach>`, :ref:`Use Alias <use-alias>`, :ref:`Alias <alias>`
 
 .. _assertion:
 .. _assert:
@@ -2228,6 +2361,51 @@ See also `PHP OOP Autoloading <https://tutorials.supunkavinda.blog/php/oop-autol
 
 Related : :ref:`Dependency Injection <dependency-injection>`
 
+.. _enum-backed:
+
+Backed Enumeration
+------------------
+
+Backed enumerations are enumerations whose cases have a built-in scalar equivalent. The scalars may be integers or strings.
+
+There are methods to convert a scalar value to an enumeration's case, notably from() and tryFrom(). On the other way, the cases have a property called ``value``.
+
+
+.. code-block:: php
+   
+   <?php
+   enum Suit: string
+   {
+       case Hearts   = 'H';
+       case Diamonds = 'D';
+       case Clubs    = 'C';
+       case Spades   = 'S';
+   }
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.enumerations.backed.php>`__
+
+Related : :ref:`Enumeration <enum>`
+
+Added in PHP 8.1+
+
+.. _backend:
+
+Backend
+-------
+
+Backend refers to the software that runs on the server, and not on the client machine. PHP is a typical backend language.
+
+The complement to backend is the front end. 
+
+
+`Documentation <https://en.wikipedia.org/wiki/Frontend_and_backend>`__
+
+Related : :ref:`Front-end <frontend>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _badfunctioncallexception:
 
 BadFunctioncallException
@@ -2275,7 +2453,7 @@ Related : :ref:`dirname <dirname>`
 Benchmarking
 ------------
 
-Benchmarking is 
+Benchmarking is a process of measuring the performance. In the computer world, it usually means the speed of execution of a piece of code.
 
 See also `PHP bench <https://github.com/phpbench/phpbench>`_, `PHPbenchmarks <http://www.phpbenchmarks.com/>`_
 
@@ -2529,11 +2707,13 @@ Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`Arrow Fun
 Case
 ----
 
-Cases are used in three situations: 
+Case is a PHP keyword, which may be used in three distinct situations: 
 
 + with switch() expression
 + with match() expression
 + with enumeration
+
+case is often complemented with default. 
 
 
 
@@ -2573,7 +2753,7 @@ Cast operator
 
 Cast operators change the type of the variable to the desired type. Conversion between the current format and the target format may happen. 
 
-The casts allowed are:
+The available casts are:
 
 (int), (integer) - cast to integer
 (bool), (boolean) - cast to boolean
@@ -2582,6 +2762,8 @@ The casts allowed are:
 (array) - cast to array
 (object) - cast to object
 (unset) - cast to NULL (Deprecated since PHP 7.2)
+
+There is no operator to convert to a specific class type.
 
 
 
@@ -3075,6 +3257,36 @@ Related : :ref:`Shallow clone <shallow-clone>`, :ref:`Deep clone <deep-clone>`
 
 Added in PHP 4.0+
 
+.. _close-tag:
+
+Close Tag
+---------
+
+PHP comands are placed between the PHP tags : ``<?php`` and ``?>``.  The second tag is called the closing tag. 
+
+Closing tag allow to finish a PHP tag, and switch back to non-interpreted code. The text following the closing tag is then display raw, until the next PHP tag. 
+
+When a file online contains PHP code, the closing tag is not ncessary. Its absence even prevents the accidental adding of white space, which create output errors.
+
+
+.. code-block:: php
+   
+   <?php
+   // here, PHP code
+   
+   // the closing tag
+   ?>Here, raw text, always displayed
+   <?php
+   // more PHP code
+   
+   // No final closing tag
+   
+
+
+`Documentation <https://www.php.net/manual/en/closure.bind.php>`__
+
+Related : , 
+
 .. _closure:
 .. _anonymous-functions:
 .. _lambda-functions:
@@ -3109,7 +3321,7 @@ Closure Binding
 
 A closure acquires values from its context of creation. When the closure is created in a different context that wished, one may rebind the closure to another context.
 
-This is done with the two methods Closure::bind() and Closure::bintTo();
+This is done with the two methods Closure::bind() and Closure::bintTo().
 
 
 .. code-block:: php
@@ -3133,6 +3345,8 @@ This is done with the two methods Closure::bind() and Closure::bintTo();
 `Documentation <https://www.php.net/manual/en/closure.bind.php>`__
 
 Related : :ref:`Closure <closure>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _coalesce:
 .. _null-coalesce:
@@ -3314,6 +3528,8 @@ PHP supports a CLI mode : command line interface. It processes commands in the f
 
 `Documentation <https://www.php.net/manual/en/features.commandline.php>`__
 
+Related : :ref:`Webserver <webserver>`
+
 .. _compact-array:
 
 Compact array
@@ -3369,6 +3585,7 @@ It is the opposite of extract().
 Related : :ref:`extract() <extract>`, :ref:`Variable Variables <variable-variable>`
 
 .. _comparison-operator:
+.. _comparison:
 
 Comparison
 ----------
@@ -3678,6 +3895,22 @@ In PHP, parents constructors are not automatically called, when a child class de
 
 Related : :ref:`Destructor <destructor>`
 
+.. _container:
+
+Container
+---------
+
+There are several usage of container: 
+
++ PHP docker container
++ Dependency injection container
+
+
+
+Related : :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`PHP Docker Container <php-docker-container>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _continue:
 
 Continue
@@ -3705,6 +3938,22 @@ continue is not possible inside a switch structure.
 `Documentation <https://www.php.net/manual/en/control-structures.continue.php>`__
 
 Related : :ref:`Break <break>`
+
+.. _ci:
+
+Continuous Integration
+----------------------
+
+Continuous integration refers to the automation of the build and test phase of development. 
+
+Every revision that is committed triggers an automated build and test. With continuous delivery, code changes are automatically tested, reviewed, and built for a release to production.
+
+Since a lot of these operations a executed one after the other, they are called a pipeline. 
+
+Continuous integration is a building block for continuous delivery. This extended notion also include the automated release in production of the code.
+
+
+Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, 
 
 .. _type-contravariance:
 .. _contravariance:
@@ -3745,8 +3994,6 @@ Control Flow
 
 Control flow structures direct the way PHP execute the statements. For example, a loop repeats the same statements several times; a goto instruction jumps to another part of the code; a if-then statement applies a block of code or another, depending on a condition.
 
-control flow structures can't be called dynamically : they have to be hardcoded. 
-
 + if
 + else
 + elseif/else if
@@ -3766,6 +4013,8 @@ control flow structures can't be called dynamically : they have to be hardcoded.
 + require_once()
 + include_once()
 + goto
+
+Control flow structures can't be called dynamically : they have to be hardcoded, or nested in a closure or other function. 
 
 
 
@@ -3814,6 +4063,7 @@ Control structures are PHP statements that control the flow of execution.
 + include_once()
 + goto
 
+Usually, instructions and commands are executed one after each other. With control structures, this flow is changed and the execution will go to another part of the code for its next step. For example, inside a loop, when PHP encounters a break command, it will then execute the next command after the loop, instead of the next command sequentially.
 
 
 .. code-block:: php
@@ -4069,35 +4319,17 @@ Related packages : ` <https://packagist.org/packages/>`_
 CSV
 ---
 
-CSV stands for Comma Separated Values. It is a file format, used by many platforms to store and read data. 
+CSV is a data format, where values are separated by commas. 
 
-PHP has several dedicated native functions to read and write from those files : fputcsv() and fgetcsv().
+Each line represents a data record. The first line may be a header line, or not. 
 
+CSV is not fully standardized : it represents in fact several format, with different features. In particuler, nested new lines and escape sequences may vary from format to format. 
 
-.. code-block:: php
-   
-   <?php
-   
-   // Example from the PHP documentation
-   $list = array (
-      array('aaa', 'bbb', 'ccc', 'dddd'),
-      array('123', '456', '789'),
-      array('aaa', 'bbb')
-   );
-   
-   $fp = fopen('file.csv', 'w');
-   
-   foreach ($list as $fields) {
-       fputcsv($fp, $fields);
-   }
-   
-   fclose($fp);
-   ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Comma-separated_values>`__
 
-Related packages : `league/csv <https://packagist.org/packages/league/csv>`_
+Related : , :ref:`Format <format>`, :ref:`JSON <json>`
 
 .. _csv-injection:
 
@@ -4150,6 +4382,53 @@ Curl is both a PHP extension and a multiprotocol file transfer library. It is us
 `Documentation <https://www.php.net/manual/en/book.curl.php>`__
 
 See also `curl.se <https://curl.se/>`_
+
+.. _curly-bracket:
+
+Curly Brackets
+--------------
+
+Curly brackets have different usage in PHP:
+
++ Delimit a block of code 
++ Represents a variable delimiter inside string
++ It used to identify a single byte in a string, like an array
+
+They are also called curly braces.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   for($a = 1; $a < 10; ++$i) {
+   	// block
+   	
+   	echo {$var}s;
+   }
+   
+   // old syntax: it used to be the second character in the string
+   // modern syntax : use angular brackets
+   echo $string{1};
+   
+   ?>
+
+
+See also `PHP Curly Braces: How and When to Use it? <https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/>`_
+
+Related : :ref:`Block <block>`, :ref:`String <string>`
+
+.. _cvs:
+
+CVS
+---
+
+CSV is Concurent Version System. It is a revision control system. 
+
+`Documentation <https://en.wikipedia.org/wiki/Concurrent_Versions_System>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _dangling-reference:
 
@@ -4212,14 +4491,16 @@ Related : :ref:`Active Record <active-record>`, :ref:`Object Relational Mapping 
 Data Source Name (DSN)
 ----------------------
 
-A DNS is a string that describes a database location and access. 
+A DSN is a string that describes a database location and access. 
 
-The format of a DNS is usually specified by the target database. For example : 
+The format of a DSN is usually specified by the target database. For example : 
 
 + MySQL: 'mysql:host=localhost;dbname=test'
 + Oracle: 'oci:dbname=//localhost:1521/mydb'
 + PostGreSQL: 'pgsql:host=localhost;port=5432;dbname=testdb;user=bruce;password=mypass'
 + SQLite: 'sqlite:/opt/databases/mydb.sq3'
+
+DSN is closely related to the PDO extension.
 
 
 
@@ -4232,6 +4513,8 @@ The format of a DNS is usually specified by the target database. For example :
 
 
 `Documentation <https://www.php.net/manual/en/pdo.connections.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _database:
 
@@ -4348,13 +4631,15 @@ Related : :ref:`declare() <declare>`
 declare()
 ---------
 
-declare() construct is used to set execution directives for a block of code. 
+declare() is a language construct. It is used to set execution directives for a block of code. 
 
 declare() may set the following values : 
 
 + ``strict_types`` : strict typing in the block
 + ``ticks`` : generate a tick event 
 + ``encoding`` : per-file encoding directive
+
+declare() affects some configuration for the next block of code. 
 
 
 .. code-block:: php
@@ -4543,6 +4828,24 @@ Dependency injection is a design pattern in which an object receives other objec
 
 See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/>`_, `PHP-di <https://php-di.org/>`_
 
+.. _dependency-injection-container:
+
+Dependency Injection Container
+------------------------------
+
+A dependency injection container is a tool to make dependency injection easy to use. 
+
+The application requests an object of class Foo to the container. The container then build any dependency for that object, then build that object and returns it. 
+
+PSR-11 is related to containers. 
+
+
+See also `Dependency Injection (DI) Container in PHP <https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6>`_, `Create PHP Dependency Injection Container and Learn How Laravel Initiate Controller and Method with Dependency and Parameter <https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm>`_, `How and why to use PHP-DI: a PHP dependency injection container <https://getinstance.com/php-dependency-injection/>`_
+
+Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`PHP Standards Recommendations (PSR) <psr>`
+
+Related packages : `psr/container <https://packagist.org/packages/psr/container>`_, `pimple/pimple <https://packagist.org/packages/pimple/pimple>`_, `php-di/php-di <https://packagist.org/packages/php-di/php-di>`_, `illuminate/container <https://packagist.org/packages/illuminate/container>`_, `nette/di <https://packagist.org/packages/nette/di>`_
+
 .. _deploy:
 
 Deploy
@@ -4610,6 +4913,32 @@ See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functiona
 
 Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <object>`
 
+.. _contract:
+.. _design-by-contract:
+
+Design by Contract
+------------------
+
+Design by contract is a coding philosophy, where each piece of software must have a precise and verifiable set of specifications. 
+
+This means that 
+
+
+.. code-block:: php
+   
+   <?php
+   
+       $twenty    = 0x14;
+       $twentyToo = 20;
+       
+       $i = \x69; // i is the 105 ASCII code
+       $i = 'i';
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Design_by_contract>`__
+
 .. _design-pattern:
 .. _pattern:
 
@@ -4618,14 +4947,14 @@ Design Pattern
 
 A design pattern, or simply a pattern, is a general solution to a common problem. Design patterns also get a name, for easy reference. 
 
-Design patterns are not dedicated to PHP, though most of them do apply to PHP. 
-
-Common design patterns in PHP (the list is not exhaustive) : 
+Common design patterns in PHP (this list is not exhaustive) : 
 + Factory
 + Dependency injection
 + Decorator
 + Module
 + Iterators
+
+Design patterns are not dedicated to PHP, though most of them do apply to PHP. 
 
 
 
@@ -4700,7 +5029,7 @@ Directives are also set by PHP extensions.
 
 `Documentation <https://www.php.net/manual/en/ini.list.php>`__
 
-Related : :ref:`Extensions <extension>`, , 
+Related : :ref:`Extensions <extension>`, :ref:`php.ini <php.ini>`, 
 
 .. _directoryiterator:
 
@@ -4762,7 +5091,7 @@ Once disabled, the classes may be created, via an extension or in the code of PH
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-classes>`__
 
-Related : :ref:`disable functions <disable-functions>`, 
+Related : :ref:`disable functions <disable-functions>`, :ref:`php.ini <php.ini>`
 
 .. _disable-functions:
 
@@ -5221,6 +5550,7 @@ echo is a language construct of PHP.
 Related : :ref:`Print <print>`, :ref:`Language construct <language-construct>`
 
 .. _echo-tag:
+.. _short-echo-tag:
 
 Echo Tag
 --------
@@ -5228,6 +5558,8 @@ Echo Tag
 Echo tag is a special PHP opening tag : ``<?=``. It combines the opening tag, and a call to the echo function.
 
 The echo tag should not be confused with PHP short tags ``<?``.
+
+It is also called the short echo tag.
 
 
 .. code-block:: php
@@ -5338,7 +5670,7 @@ Entities are different things :
 
 
 
-Related : , :ref:`Entities, in an application <class-entity>`
+Related : :ref:`HTML Entities <html-entities>`, :ref:`Entities, in an application <class-entity>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -5351,7 +5683,7 @@ An entity represents a single object, with a unique identifier and a set of prop
 
 `Documentation <https://en.wikipedia.org/wiki/Entity>`__
 
-Related : 
+Related : :ref:`HTML Entities <html-entities>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -5511,7 +5843,7 @@ Escape characters are special characters, that introduce a special meaning, for 
 
 Escape characters are often generating a special sequence to escape themselves and allow their literal meaning to be expressed.
 
-In PHP's strings and HEREDOC, the escape character is the backslash : \
+In PHP's strings and HEREDOC, the escape character is the backslash : \.
 
 
 
@@ -5765,7 +6097,7 @@ There are two possibilities to use this operation : the `**` operator, and the p
 Exponential
 -----------
 
-The exponential is a mathematical function. It satisfies the egalities : `exp($a + $a) = exp($a) * exp($b)`, and `exp(0) === 1`.
+The exponential is a mathematical function. It satisfies the equalities : `exp($a + $a) = exp($a) * exp($b)`, and `exp(0) === 1`.
 
 .. code-block:: php
    
@@ -5939,6 +6271,52 @@ Famous PSR include : 12 (Extended Coding Style Guide), 16 (Simple Cache), 18 (HT
 
 Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 
+.. _file:
+
+File
+----
+
+A file is a resource for recording data on a computer storage device, such as a hard drive or memory.
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   file_put_contents('file.txt', 'some text.');
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Computer_file>`__
+
+See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_
+
+Related : 
+
+.. _file-system:
+
+File system
+-----------
+
+A file system is a way to store and organise multiple files. A file system include files and folders.
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   file_put_contents('file.txt', 'some text.');
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/File_system>`__
+
+See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_
+
+Related : :ref:`File <file>`
+
 .. _upload:
 .. _file-upload:
 
@@ -5979,14 +6357,23 @@ Related : :ref:`$_FILES <$_files>`
 Final Class Constants
 ---------------------
 
-Using final with class constants
+Using the final option with class constants, the constant cannot be redefined by a child class. It is not possible to give it a new value or visibility. 
+
+It yields a Fatal error : 'y::x cannot override final constant'. 
+
 
 .. code-block:: php
    
    <?php
    
    class x {
-       final const X = 1;
+       final public const F = 1;
+       public const C = 2;
+   }
+   
+   class y extends x {
+   	// 
+       public const C = 3;
    }
    
    ?>
@@ -6214,6 +6601,8 @@ Part of the block execution may be skipped by using the `continue` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.for.php>`__
 
+See also `Stop using for loops and start showing intent <https://dev.to/rocksheep/stop-using-for-loops-and-start-showing-intent-3am0>`_, `PHP Loop: For, ForEach, While, Do While <https://www.guru99.com/php-loop.html>`_
+
 Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`
 
 .. _foreach:
@@ -6283,6 +6672,41 @@ Related : :ref:`$_GET <$_get>`, :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_reque
 
 Related packages : `symfony/form <https://packagist.org/packages/symfony/form>`_
 
+.. _format:
+
+Format
+------
+
+Format is a set of rules to structure a piece of text, and make it parsable by a specific engine. A piece of text may be in the format: then, it is usable as a command for another technology. 
+
+Formats have various shapes. Exemple of formats: 
+
++ `SQL` Structure Query Language: `SELECT column FROM table` 
++ Date and time (human): `2020-01-01` 
++ sprintf(): `%d 9` 
++ Regular expressions
++ `YAML`
++ INI
++ CSV
++ JSON
+
+It is possible to define one's custom format. Common formats have a comprehensive specifications (how to build them) and assorted tools (encode, decode, use, combine, etc. ).
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // displays 123 with 9 characters, and fills with dots any empty characters
+   // ......123
+   echo sprintf(%'.9d\n, 123);
+   
+   ?>
+
+
+Related : :ref:`String <string>`
+
 .. _fossilized-method:
 
 Fossilized Methods
@@ -6324,11 +6748,11 @@ Related : :ref:`Method <method>`
 Framework
 ---------
 
-A framework is a library that helps building PHP applications, mostly web, but also CLI. Frameworks provide commonly features, such as forms, authentications, templating, arguments and security. 
+A framework is a library of code and practices that helps building PHP applications. Frameworks provide common features, such as forms, authentications, templating, arguments and security. 
 
 Frameworks are often described as a platform : they stand as a layer above PHP, with its own conventions and behaviors. PHP is the language of the framework, and the language used to extends the framework.
 
-There are lots of frameworks in PHP. In alphabetical order, here are some : 
+There are lots of frameworks in PHP. In alphabetical order, here is a non-exhaustive list: 
 
 + `Aura <https://auraphp.com/>`_
 + `Bolt CMS <https://boltcms.io/>`_
@@ -6383,6 +6807,22 @@ There are lots of frameworks in PHP. In alphabetical order, here are some :
 
 
 See also `PHP framework list <https://www.exakat.io/en/php-framework-list/>`_
+
+.. _frontend:
+
+Front-end
+---------
+
+Front-end refers to the software that runs on the client, and not on the servers. Javascript is a typical front-end language.
+
+The complement to front-end is the backend. 
+
+
+`Documentation <https://en.wikipedia.org/wiki/Frontend_and_backend>`__
+
+Related : :ref:`Backend <backend>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _fully-qualified-name:
 .. _fqn:
@@ -6616,9 +7056,12 @@ To become a global variable, a variable may use one of the following ways :
 
 + Be declared as such with the `global` keyword
 + Be created in the `$GLOBALS` variable, which is a global variable itself
-+ Be created 
++ Be created outside any function, method, closure
++ Be a super-global
 
- 
+Global variables provides a way to share data in different and remote scopes. It also provide a way for data to be modified by another part of the code, without warning.
+
+
 
 .. code-block:: php
    
@@ -6645,7 +7088,7 @@ To become a global variable, a variable may use one of the following ways :
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`Superglobal variables <superglobal>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`global scope <global>`, :ref:`Superglobal variables <superglobal>`
 
 .. _globals:
 
@@ -6928,6 +7371,41 @@ PHP also has special syntax for binary and octal numbers.
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
 Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-integer>`
+
+.. _hexagonal:
+.. _hexagonal-architecture:
+
+Hexagonal Architecture
+----------------------
+
+The hexagonal architecture, or ports and adapters architecture, is an architectural pattern used in software design. It aims at creating loosely coupled application components that can be easily connected to their software environment by means of ports and adapters.
+
+`Documentation <https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>`__
+
+See also `Hexagonal Architecture in PHP <https://www.developers.nl/blog/35/hexagonal-architecture-in-php>`_
+
+.. _html-entities:
+
+HTML Entities
+-------------
+
+HTML entities are a way to write special characters. For example, the superior and inferior characters have a special meaning in HTML. To be able to display them correctly, it is recommended to use the following writing : ``&gt;``  and ``&lt;``.
+
+This protection is extended to many characters. They have a numerical entity, such as ``&38;`` and a literal entity, such as ``&amp;``, for the ampersand. 
+
+Such entities are typical of HTML. They are different in different languages. 
+
+PHP uses htmlentities() and html_entities_decode() to convert those characters from and to their entities.
+
+HTML entities are useful in the HTML code, but they are confusing in a text file, which has no special entity.
+
+
+
+`Documentation <https://www.freeformatter.com/html-entities.html>`__
+
+Related : :ref:`Entities <entity>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _html-entity:
 
@@ -7518,6 +7996,34 @@ There are bad injections : all the security ones. SQL injection, PHP code inject
 
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL injection <sql-injection>`, :ref:`Code Injection <code-injection>`, :ref:`CSV injection <csv-injection>`
+
+.. _instance:
+.. _instantiate:
+
+instance
+--------
+
+An instance is an object with a class. The class provides the definitions of the behavior of that object, while the object holds the specific data. 
+
+The creation of an instance, called instantiation, is done with the `new` keyword. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	private int $property;
+   	
+   	function __construct(int $arg) {
+   		$this->propety = $arg;
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`__
 
 .. _instanceof:
 
@@ -8171,7 +8677,7 @@ PHP offers two sets of operators for logical operations : the letter operators (
 
 While they do the same, those operators have a difference : they do not share the same precedence. In particular, && has higher priority than = while = has higher priority than and. This leads to a difference in execution.
 
-When combining = and &&, the logical operation happens before the assignation; while combinins = and and actually igmore the logical operation.
+When combining ``=`` and ``&&``, the logical operation happens before the assignation. While combining ``=`` and ``and`` actually ignore the logical operation.
 
 The same problem affect yield, yield from, print, all assignations, including the short assignations, the ternary operator and the null-coalesce. 
 
@@ -8212,7 +8718,7 @@ The library is integrated into PHP as an extension. It provides a lot of functio
    <?php
    //Generate a random key for sodium_crypto_auth
    $key = sodium_crypto_auth_keygen();
-   ;
+   
    ?>
 
 
@@ -8363,7 +8869,7 @@ Local File Inclusion
 
 A local file inclusion is a security vulnerability, where an external attacker can choose which file from the local system is processed by the called script. 
 
-This vulnerability is often used to access password files, such as `/etc/passwd`, or other hidden files. They might be read and display, or furthermore processed and alterated.
+This vulnerability is often used to access password files, such as ``/etc/passwd``, or other hidden files. They might be read and display, or furthermore processed and modified.
 
 
 .. code-block:: php
@@ -8462,7 +8968,7 @@ Log is a list of event that happen during execution of a piece of software.
 
 Log report meaningful events during execution. They are used after execution to provide overview of the process : performance, exceptional events, etc. 
 
-Logs may be saved on the local machine, or exported to external storages. 
+Logs may be saved on the local machine, or exported to external storage. 
 
 
 Related packages : `psr/log <https://packagist.org/packages/psr/log>`_, `monolog/monolog <https://packagist.org/packages/monolog/monolog>`_, `sentry/sentry <https://packagist.org/packages/sentry/sentry>`_
@@ -8656,7 +9162,7 @@ There are PHP functions and operators that perform safe comparisons ,such as `==
 
 See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_, `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_
 
-Related : :ref:`Hash <hash>`, , :ref:`Type Juggling <type-juggling>`
+Related : :ref:`Hash <hash>`, :ref:`Comparison <comparison>`, :ref:`Type Juggling <type-juggling>`
 
 .. _magic-method:
 
@@ -8813,6 +9319,35 @@ It is recommended to set this value as low as possible, and optimize the code to
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.max-execution-time>`__
 
 See also `PHP max_execution_time Guide <https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time>`_
+
+.. _md5:
+
+MD5
+---
+
+MD5 is a hash function, that produce a 128-bit footprint for a value. 
+
+MD5 was used a lot for secure hashing and control. Nowadays, it may be useful for hashing and comparing data, though it is not considered secure. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   //Generate a MD5 hash with the history md5() native function
+   echo hash('md5', 'Le rapide goupil brun sauta par dessus le chien paresseux.');
+   
+   //Generate a MD5 hash with the history md5() native function
+   print md5(Some text.)
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/fr/function.hash.php>`__
+
+See also `md5 <https://www.php.net/manual/en/function.md5.php>`_
+
+Related : :ref:`Cryptography <cryptography>`, 
 
 .. _memoization:
 
@@ -9224,6 +9759,36 @@ Argument names may be used when calling a method.
 See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_
 
 Related : :ref:`Positional Parameters <positional-parameter>`
+
+.. _namespace-alias:
+
+Namespace alias
+---------------
+
+ PHP can alias(/import) constants, functions, classes, interfaces, and namespaces. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   namespace a {
+       class x {
+       }
+   }
+   
+   namespace b {
+       use a\x as aX;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
+
+Related : :ref:`Use Alias <use-alias>`
+
+Added in PHP 5.3
 
 .. _namespace:
 
@@ -10517,6 +11082,25 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 
 Related : :ref:`Data Source Name (DSN) <dsn>`
 
+.. _php-docker-container:
+
+PHP Docker Container
+--------------------
+
+This is a Docker container, with a pre-installed PHP executable. 
+
+There are official PHP containers, maintained by the PHP group. They are to be run on Docker.
+
+There are also other container which come with PHP preinstalled, or which are build for specific target, such as a service or the underlying architecture. 
+
+
+
+`Documentation <https://www.docker.com/>`__
+
+See also `php official image on Docker Hub <https://hub.docker.com/_/php>`_, `circleci/php image on Docker Hub <https://hub.docker.com/r/circleci/php>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _handler:
 
 PHP Handlers
@@ -10724,6 +11308,20 @@ See also `Why Do You Need PHP FastCGI Process Manager? <https://www.plesk.com/bl
 
 Related : :ref:`CGI <cgi>`
 
+.. _php.ini:
+
+php.ini
+-------
+
+php.ini is the name of the main configuration file of PHP. It acts as the default configuration. 
+
+php.ini contains directives. For example, ``memory_limit`` or ``default_socket_timeout``.
+
+They may be later redefined using other mechanisms, such as command line options (``-d``), .htaccess or in-code function call (``ini_set()``), although it may vary depending on the directive. 
+
+
+`Documentation <https://www.php.net/manual/en/configuration.file.php>`__
+
 .. _phpdoc:
 
 PHPdoc
@@ -10829,7 +11427,7 @@ plus +
 
 + The addition, as in mathematics. This works on integers and double.
 + The merging of arrays. This merge sets the keys once, then omits the next values.
-+ The + sign in front of a number, to make it explicitely positive. This is optional, and may be repeated.
++ The + sign in front of a number, to make it explicitly positive. This is optional, and may be repeated.
 
 
 
@@ -11061,6 +11659,43 @@ The private keyword cannot be used with the final keyword : a private method is 
 
 Related : :ref:`Final Keyword <final>`, :ref:`Visibility <visibility>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`, :ref:`Var <var>`
 
+.. _pcntl:
+
+Process Control (pcntl)
+-----------------------
+
+Process Control is a set of native PHP function, that handles signals coming from the OS. 
+
+pcntl is suited for CLI operations, and not for web serving operations. 
+
+pcntl manage process creation, program execution, signal handling and process termination. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $pid = pcntl_fork();
+   if ($pid == -1) {
+        die('could not fork');
+   } else if ($pid) {
+        // we are the parent
+        pcntl_wait($status); //Protect against Zombie children
+   } else {
+        // we are the child
+   }
+   
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/book.pcntl.php>`__
+
+See also ` Example: Parallel processing in PHP using pcntl_fork()  <https://gist.github.com/nicksantamaria/21dce5ff2a6640cdff76ce7bc57d2981>`_
+
+Related : :ref:`PHP Handlers <handler>`
+
 .. _promoted-property:
 
 Promoted Properties
@@ -11232,7 +11867,7 @@ Queue
 
 A Queue may be one of the following: 
 
-+ A class, in the `ext/ds` (data structures) extension
++ A class, in the ``ext/ds`` (data structures) extension
 + A job Queue, which collect and dispatch loads of work, to background processes.
 
 
@@ -11481,7 +12116,7 @@ Refactoring is the rewrite of a piece of code, without changing its features.
 
 `Documentation <https://en.wikipedia.org/wiki/Code_refactoring>`__
 
-See also `Refactoring without tests should be fine <https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/>`_, `Refactoring Guru <https://refactoring.guru/refactoring>`_
+See also `Refactoring without tests should be fine <https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/>`_, `Refactoring Guru <https://refactoring.guru/refactoring>`_, `PHP Refactoring: The Art of Improving Code Quality and Maintainability <https://www.fuseweb.io/en/2023/05/10/php-refactoring-code-quality-maintainability/>`_
 
 Related : :ref:`Test <test>`
 
@@ -11527,6 +12162,53 @@ References in PHP are a means to access the same variable content by different n
 See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_, `PHP Spotting References <https://www.tutorialspoint.com/php-spotting-references>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Weak References <weak-reference>`
+
+.. _reflection:
+
+Reflection
+----------
+
+Reflection is a way for PHP to do self introspection : describe the definition it holds in a programmatic way. 
+
+PHP offers a complecte API to describe classes, methods, interfaces, constants, functions, extensions, traits, enums and their components. 
+
++ ReflectionAttribute — The ReflectionAttribute class
++ ReflectionClass — The ReflectionClass class
++ ReflectionClassConstant — The ReflectionClassConstant class
++ ReflectionEnum — The ReflectionEnum class
++ ReflectionEnumBackedCase — The ReflectionEnumBackedCase class
++ ReflectionEnumUnitCase — The ReflectionEnumUnitCase class
++ ReflectionException — The ReflectionException class
++ ReflectionExtension — The ReflectionExtension class
++ ReflectionFiber — The ReflectionFiber class
++ ReflectionFunction — The ReflectionFunction class
++ ReflectionFunctionAbstract — The ReflectionFunctionAbstract class
++ ReflectionGenerator — The ReflectionGenerator class
++ ReflectionIntersectionType — The ReflectionIntersectionType class
++ ReflectionMethod — The ReflectionMethod class
++ ReflectionNamedType — The ReflectionNamedType class
++ ReflectionObject — The ReflectionObject class
++ ReflectionParameter — The ReflectionParameter class
++ ReflectionProperty — The ReflectionProperty class
++ ReflectionReference — The ReflectionReference class
++ ReflectionType — The ReflectionType class
++ ReflectionUnionType — The ReflectionUnionType class
++ ReflectionZendExtension — The ReflectionZendExtension class
++ Reflector — The Reflector interface
+
+Reflection is also available in other programming languages.
+
+
+.. code-block:: php
+   
+   <?php
+   Reflection::export(new ReflectionClass('Exception'));
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.reflection.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _reflectionexception:
 
@@ -11612,6 +12294,19 @@ A regular expression is a sequence of characters that specifies a search pattern
 
 
 `Documentation <https://www.php.net/preg_match>`__
+
+.. _release:
+
+Release
+-------
+
+A release is a final version of a software. A release is published, or released to the public. 
+
+A release may have a version number. For published software, this version is published, while for Saas, it may be undocumented.
+
+Related : 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _rpc:
 
@@ -11746,7 +12441,7 @@ There is a list of PHP resources available in the docs.
 
 See also `List of Resource Types <https://www.php.net/manual/en/resource.php>`_
 
-.. _api:
+.. _rest-api:
 
 REST API
 --------
@@ -11767,6 +12462,8 @@ REST APIs are documented with OpenAPI (aka, swagger).
 `Documentation <https://www.redhat.com/en/topics/api/what-is-a-rest-api>`__
 
 See also `How To Use Web APIs in PHP 8.0 <https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-php-8-0>`_, `OpenAPIs <https://www.openapis.org/>`_
+
+Related : :ref:`API <api>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -12078,7 +12775,7 @@ Scope
 
 The scope is the context in which a variable is defined. A variable scope is usually its host method, or the file in which is used. It also extends to any included files, and skips other method definition.  
 
-Arrow functions are inited with the same scope than the defining scope, but do not write back in it. Closure with the use keyword also import variables from the defining scope. 
+Arrow functions are initialised with the same scope than the defining scope, but do not write back in it. Closure with the use keyword also import variables from the defining scope. 
 
 Scopes are generally considered as global or local. 
 
@@ -12203,7 +12900,7 @@ Semicolon
 
 Semicolon is used to mark the end of a statement. 
 
-It is also used in the for() statement, to separate the initialization, the terminaison and the increment. When using several statement between those semicolons, they must be separated with a comma.
+It is also used in the for() statement, to separate the initialization, the termination and the increment. When using several statement between those semicolons, they must be separated with a comma.
 
 Semicolons may also be used instead of colons, in a case statement.
 
@@ -12647,6 +13344,26 @@ Double quoted strings use the anti-slash `\` to escape special characters, such 
 
 Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`
 
+.. _srp:
+
+Single Responsability Principle
+-------------------------------
+
+Single Responsability Principle is a coding principle where one component is responsible for one task, and nothing more. 
+
+It particularly aims at avoid multiple responsabilities in code, where several tasks are performed at the same time. This means that any modifications to that method has an impact on each of the tasks, leading to potential spillovers. 
+
+Single Responsability Principile relies on the possibility to identify one responsability per component, and exclude any other. 
+
+
+`Documentation <https://en.wikipedia.org/wiki/Single-responsibility_principle>`__
+
+See also `How To Use Single Responsibility Principle in PHP/Laravel <https://mohasin-dev.medium.com/how-to-use-single-responsibility-principle-in-php-laravel-with-example-9c728360f4f2>`_
+
+Related : :ref:`SOLID <solid>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _singleton:
 
 Singleton
@@ -12654,7 +13371,7 @@ Singleton
 
 A singleton is a class which can only have one object. There is no way to instantiate the class and get a second, distinct object.
 
-A singleton is used when there is a significant cost or limitations at maintaining multiple instances of the same object. For example, multiple Sqlite3 access to the same file, even as read-only, means several copies of the same file in memory. Or, several object referencing the same lock may be a problem.
+A singleton is used when there is a significant cost or limitations at maintaining multiple instances of the same object. For example, multiple ``Sqlite3`` access to the same file, even as read-only, means several copies of the same file in memory. Or, several object referencing the same lock may be a problem.
 
 Singleton are more difficult to test, as there is only one instance, and it is difficult to control it. Singleton may be achieve by dependency injection, with the same object. 
 
@@ -12787,7 +13504,7 @@ Each principle may be used independently. Those principle are not dedicated to P
 
 See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_
 
-Related : , :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, :ref:`Interface Segregation Principle <isp>`, :ref:`Dependency Injection <dip>`
+Related : :ref:`Single Responsability Principle <srp>`, :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, :ref:`Interface Segregation Principle <isp>`, :ref:`Dependency Injection <dip>`
 
 .. _sort:
 .. _sorting:
@@ -12904,6 +13621,46 @@ Other special types are the scalar types.
 Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
 
 Added in PHP 7.0
+
+.. _sprintf:
+.. _vprintf:
+.. _printf:
+
+sprintf
+-------
+
+sprintf() is a PHP native function, which format a string based on a format string, and one or more values. 
+
+sprintf() returns the formatted string, while printf() displays it immediately, and vprintf() writes the formatted string to a stream. There is also sscanf(), which parse the string, according to the format.
+
+printf() is convenient to display text in command line, as it makes easy to use fillers and justification. 
+
+printf() also supports named arguments, which makes the format string more flexible. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // displays 123 with 9 characters, and fills with dots any empty characters
+   // ......123
+   echo sprintf(%'.9d\n, 123);
+   
+   // same as above, without the echo command
+   printf(%'.9d\n, 123);
+   
+   // same as above, without the echo command
+   vprintf(%'.9d\n, '......123');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/fr/function.sprintf.php>`__
+
+See also `PHP Sprintf: Powerful String Formatting <https://marketsplash.com/tutorials/php/php-sprintf/>`_
+
+Related : :ref:`String <string>`, :ref:`Format <format>`
 
 .. _sql-injection:
 
@@ -13342,7 +14099,7 @@ strict_types is an execution directive, that makes PHP more strict when applying
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict>`__
 
-See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_
+See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_, `The way declare(strict_types=1) works in PHP <https://dev.to/rocksheep/the-way-stricttypes-works-in-php-eb7>`_
 
 Related : :ref:`Type system <typehint>`
 
@@ -13415,7 +14172,7 @@ Stringable
 
 Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant; or an object which has the `__toString()` method.
 
-Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitely.
+Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitly.
 
 
 .. code-block:: php
@@ -13781,6 +14538,17 @@ A system call is a call to an operating system function. In PHP, those are done 
 
 `Documentation <https://en.wikipedia.org/wiki/System_call>`__
 
+.. _system-event:
+
+System event
+------------
+
+System events, also known as signals, are software interrupts sent to a program to indicate that an important event has occurred. 
+
+By default, PHP reacts to system events. It may also handle those events by configuring a handler the pcntl_signal() function.
+
+Related : :ref:`PHP Handlers <handler>`, :ref:`Process Control (pcntl) <pcntl>`
+
 .. _template:
 
 Template
@@ -13863,7 +14631,7 @@ PHP has several testing framework : PHPunit, pest, pint, simpletest, atoum.
 Tests are often further automated in a Continuous Integration Pipeline.
 
 
-Related : 
+Related : :ref:`Continuous Integration <ci>`
 
 .. _thread:
 
@@ -13889,7 +14657,7 @@ Three dots, is an operator with several usages.
 + variadic, to make the last parameter collect all arguments in an array
 + spread, to expand elements of an array into arguments positions
 + spread in array, to merge several arrays in one
-+ closure creator, when used standlone in a methodcall.
++ closure creator, when used standalone in a methodcall.
 
 
 
@@ -14134,7 +14902,7 @@ A traversal is the list of all elements in a data structure.
 
 foreach() is a command to do a traversal on an array or an iterable object. 
 
-Traversal may be recursive : for example, the recursive iterators in the SPL library features the `RecursiveArrayIterator` class, which traverses multi-dimensional arrays.
+Traversal may be recursive : for example, the recursive iterators in the SPL library features the ``RecursiveArrayIterator`` class, which traverses multi-dimensional arrays.
 
 Traversal of a tree or graph datastructure turns the graph into a array-like list.
 
@@ -14529,7 +15297,7 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 
 See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 
-Related : :ref:`SSL <ssl>`, 
+Related : :ref:`SSL <ssl>`, :ref:`File <file>`
 
 .. _unpacking:
 .. _unpack:
@@ -15028,6 +15796,8 @@ Variables holds data when processing a PHP script.
 
 Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _variadic:
 .. _splat:
 .. _spread:
@@ -15209,6 +15979,28 @@ Related : :ref:`References <reference>`
 
 Added in PHP 7.4
 
+.. _webserver:
+
+Webserver
+---------
+
+A webserver 
+
+PHP is able to be integrated in many webservers: Apache, nginx, lighthttpd, Litespeed,...
+
+PHP is able to run in server mode. In command line, use the ``-S`` option. 
+
+.. code-block:: php
+   
+   php -S localhost:8000 index.php
+
+
+`Documentation <https://www.php.net/manual/en/features.commandline.php>`__
+
+See also `Built-in web server <https://www.php.net/manual/en/features.commandline.webserver.php>`_, `Installation and Configuration <https://www.php.net/manual/en/install.php>`_
+
+Related : :ref:`Command Line Interface <cli>`
+
 .. _while:
 
 While
@@ -15216,7 +16008,7 @@ While
 
 While is a loop structure. It runs the block of code until the condition is not met anymore. 
 
-The initialization, terminaison and increment expression may all host several instructions : they have to be separated by comma, rather than semi colons.
+The initialization, termination and increment expression may all host several instructions : they have to be separated by comma, rather than semi colons.
 
 Part of the block execution may be skipped by using the `continue` keyword. 
 
