@@ -8,7 +8,7 @@ reading sources... [ 50%] index
 reading sources... [ 75%] introduction
 reading sources... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5012: WARNING: Inline literal start-string without end-string.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:5095: WARNING: Inline literal start-string without end-string.
 /Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "md5".
 looking for now-outdated files... none found
 pickling environment... done
@@ -19,10 +19,10 @@ writing output... [ 50%] index
 writing output... [ 75%] introduction
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:322: WARNING: undefined label: md5
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1713: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:6697: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:13642: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:326: WARNING: undefined label: md5
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1766: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:6768: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:13801: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done

@@ -69,8 +69,9 @@ Concept
 + :ref:`Event driven <event-driven>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
-+ :ref:`Hash <hash>`
++ :ref:`Hash <hashing>`
 + :ref:`Hash() function <hash-function>`
++ :ref:`Index <index>`
 + :ref:`Injection <injection>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`

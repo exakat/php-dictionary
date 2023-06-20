@@ -7,6 +7,7 @@ PHP Dictionary
    * :ref:`$_GET <$_get>`
    * :ref:`$_POST <$_post>`
    * :ref:`$_REQUEST <$_request>`
+   * :ref:`$argc <$argc>`
    * :ref:`$argv <$argv>`
    * :ref:`$php_errormsg <$php_errormsg>`
    * :ref:`$this <$this>`
@@ -151,6 +152,7 @@ PHP Dictionary
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
    * :ref:`Dates <date>`
+   * :ref:`Dead code <dead-code>`
    * :ref:`Debugger <debugger>`
    * :ref:`Deep clone <deep-clone>`
    * :ref:`Default <default>`
@@ -253,7 +255,7 @@ PHP Dictionary
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
-   * :ref:`Hash <hash>`
+   * :ref:`Hash <hashing>`
    * :ref:`Hash Comparisons <hash-comparison>`
    * :ref:`Hash() function <hash-function>`
    * :ref:`Heredocs <heredoc>`
@@ -273,6 +275,8 @@ PHP Dictionary
    * :ref:`Incoming Data <incoming-data>`
    * :ref:`Indentation <indentation>`
    * :ref:`Index <index>`
+   * :ref:`Index for SQL <index-sql>`
+   * :ref:`Index for arrays <index-array>`
    * :ref:`Inequality <inequality>`
    * :ref:`Inflector <inflector>`
    * :ref:`Inheritance <inheritance>`
@@ -387,6 +391,7 @@ PHP Dictionary
    * :ref:`PHP <php>`
    * :ref:`PHP Data Objects (PDO) <pdo>`
    * :ref:`PHP Docker Container <php-docker-container>`
+   * :ref:`PHP Extensions <php-extension>`
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
@@ -574,6 +579,7 @@ PHP Dictionary
    * :ref:`Variable Variables <variable-variable>`
    * :ref:`Variables <variable>`
    * :ref:`Variadic <variadic>`
+   * :ref:`Version <version>`
    * :ref:`View <view>`
    * :ref:`View in presentation <view-presentation>`
    * :ref:`Visibility <visibility>`
@@ -595,6 +601,7 @@ PHP Dictionary
    * :ref:`Yoda condition <yoda>`
    * :ref:`yield from Keyword <yield-from>`
 * Z
+   * :ref:`Zombie Code <zombie-code>`
    * :ref:`Zval <zval>`
 
 
@@ -605,7 +612,9 @@ PHP Dictionary
 $_FILES
 -------
 
-An associative array of items uploaded to the current script via the HTTP POST method.
+In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=multipart/form-data`` attribute. It provides access to the uploaded file's properties such as name, size, type, and temporary location on the server.
+
+When a file upload form is submitted, PHP populates the ``$_FILES`` variable with an array structure that contains information about the uploaded files. The array is organized based on the input field names used in the form.
 
 + ``$_FILES['userfile']['name']`` : the original name of the file on the client machine.
 + ``$_FILES['userfile']['type']`` : the mime type of the file, if the browser provided this information. An example would be image/gif. This mime type is however not checked on the PHP side and therefore don't take its value for granted.
@@ -613,6 +622,8 @@ An associative array of items uploaded to the current script via the HTTP POST m
 + ``$_FILES['userfile']['tmp_name']`` : the temporary filename of the file in which the uploaded file was stored on the server.
 + ``$_FILES['userfile']['error']`` : the error code associated with this file upload.
 + ``$_FILES['userfile']['full_path']`` : the full path as submitted by the browser. This value does not always contain a real directory structure, and cannot be trusted. Available as of PHP 8.1.0.
+
+``$_FILES`` is associated to the functions move_uploaded_file() and is_uploaded_file().
 
 
 .. code-block:: php
@@ -631,14 +642,18 @@ See also `POST method uploads <https://www.php.net/manual/en/features.file-uploa
 
 Related : :ref:`File Upload <upload>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _$_get:
 
 $_GET
 -----
 
-An associative array of variables, transmitted to the current script via the HTTP GET method, in the URL.
+In PHP, the ``$_GET`` variable is a special superglobal variable that is used to retrieve data from the query string or URL parameters. When a user submits a form using the HTTP GET method or includes parameters in the URL, PHP populates the ``$_GET`` variable with key-value pairs representing those parameters.
 
-The received values are all strings or arrays. They are strings by default, and other scalar types needs a casting. The values are arrays when the URL uses the `[]` format. 
+The ``$_GET`` variable is an associative array where the keys are the parameter names and the values are the corresponding values passed in the URL. 
+
+The received values are strings or arrays. They are strings by default, and other scalar types needs a casting to have the correct type. The values are arrays when the URL uses the `[]` format : that format handles arrays and map.  
 
 $_GET is a superglobal : it is always available, in every scope.
 
@@ -655,15 +670,15 @@ Values inside $_GET are always strings, or arrays. `https://www.site.com/index.p
    // https://www.example.com/index.php?y=abc
    $_GET['y'] === 'abc';
    
-   // https://www.example.com/index.php?z[]=def&z[]=ghi
-   $_GET['z'] === array('def', 'ghi');
+   // https://www.example.com/index.php?z[]=def&z[][]=ghi
+   $_GET['z'] === array('def', array('ghi'));
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-Related : :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_files>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -703,6 +718,8 @@ Values inside $_POST are always strings, or arrays.
 
 Related : :ref:`$_GET <$_get>`, :ref:`$_REQUEST <$_request>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _$_request:
 
 $_REQUEST
@@ -737,6 +754,32 @@ $_REQUEST is a superglobal : it is always available, in every scope.
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`variable_order <variable_order>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _$argc:
+
+$argc
+-----
+
+In PHP, ``$argc`` is a predefined variable that holds the number of arguments passed to the script when it is executed from the command line. It represents the argument count (hence the name $argc).
+
+When a PHP script is run from the command line, the script's filename is counted as the first argument, and any additional arguments passed after the filename are also counted. The value of ``$argc`` will be an integer indicating the total number of arguments.
+
+.. code-block:: php
+   
+   <?php
+   
+   echo $argc;
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/reserved.variables.argc.php>`__
+
+Related : :ref:`$argv <$argv>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _$argv:
 
 $argv
@@ -759,7 +802,7 @@ $argv is not a super global : it has to be imported in a non-global scope with t
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.argv.php>`__
 
-Related : 
+Related : :ref:`$argc <$argc>`
 
 .. _$HTTP_RAW_POST_DATA:
 
@@ -783,6 +826,8 @@ In general, ``php://input`` should be used instead of `$HTTP_RAW_POST_DATA`.
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Removed in PHP 
 
@@ -1474,11 +1519,19 @@ Related : :ref:`Internationalization Functions <intl>`
 Active Record
 -------------
 
-An object that wraps a row in a database table or view, encapsulates the database access, and adds domain logic on that data.
+Active Record is a design pattern commonly used in PHP development. It provides an object-oriented approach to interact with a database table or view. In the Active Record pattern, each table or view in the database is represented by a corresponding class in the PHP code.
+
+The main purpose of Active Record is to encapsulate the database access logic within the objects themselves. This means that an Active Record object not only represents a single row of data, but it also includes methods to perform CRUD (Create, Read, Update, Delete) operations on that data.
+
+With Active Record, developers can easily create, retrieve, update, and delete records from the database by invoking methods on the corresponding objects. The Active Record object abstracts away the SQL queries and provides a more intuitive and object-oriented way to work with the data.
+
+Additionally, Active Record allows developers to add domain logic to the objects. This means that business rules and validations can be implemented directly within the Active Record classes. For example, you can define methods to validate input, perform calculations, or enforce certain constraints on the data.
+
+Active Record is often used in conjunction with other design patterns, such as the Data Mapper pattern. While Active Record focuses on the direct interaction between objects and the database, the Data Mapper pattern separates the database access logic into a separate layer, providing more flexibility and decoupling between the domain objects and the persistence layer.
 
 `Documentation <https://en.wikipedia.org/wiki/Active_record_pattern>`__
 
-See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.html>`_, `Getting started with Eloquent in Laravel: (for Beginners) <https://www.linkedin.com/pulse/getting-started-eloquent-laravel-beginners-youssef-saleem/>`_
+See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.html>`_, `Getting started with Eloquent in Laravel: (for Beginners)syste <https://www.linkedin.com/pulse/getting-started-eloquent-laravel-beginners-youssef-saleem/>`_
 
 Related : :ref:`Data Mapper <data-mapper>`
 
@@ -3441,7 +3494,7 @@ Collections may be build with array, or dedicated classes.
 
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_
 
-Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Generics <generics>`
+Related : :ref:`Enumeration <enum>`, , :ref:`Map <map>`, :ref:`Generics <generics>`
 
 .. _colon:
 
@@ -4288,7 +4341,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`Hash() function <hash-function>`, , :ref:`Array <array>`, :ref:`Map <map>`
 
 .. _cryptography:
 .. _crypto:
@@ -4580,6 +4633,36 @@ These functions allow you to get the date and time from the server where your PH
 `Documentation <https://www.php.net/datetime>`__
 
 See also `PHP Time handling: the ultimate guide (Part 1/3) <https://alexwebdevelop.com/php-time-handling-part-1/>`_, `PHP Time handling: the ultimate guide (Part 2/3) <https://alexwebdevelop.com/php-time-handling-part-2/>`_, `PHP Time handling: the ultimate guide (Part 3/3) <https://alexwebdevelop.com/php-time-handling-part-3/>`_
+
+.. _dead-code:
+.. _unused-code:
+
+Dead code
+---------
+
+Dead code refers to sections of code that are no longer executed or reachable during the program's execution. It includes any lines or blocks of code that do not contribute to the program's functionality or produce any observable results. Dead code can be the result of code modifications, changes in requirements, or mistakes during development.
+
+Dead code is also known as unused code. It happens to any defined structure. Variables, methods, functions, classes, interfaces, etc..
+
+.. code-block:: php
+   
+   <?php
+   
+   // bar is dead code : never executed
+   function bar() { echo World; }
+   
+   // foo() is alive code : it is executed
+   function foo() { echo Hello; }
+   
+   echo foo();
+   ?>
+
+
+See also `Delete unused code (and how to retrieve it) <https://understandlegacycode.com/blog/delete-unused-code/>`_
+
+Related : :ref:`Zombie Code <zombie-code>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _debugger:
 .. _debug:
@@ -6157,30 +6240,12 @@ Related : :ref:`implements <implements>`
 Extensions
 ----------
 
-Extensions are PHP module system. They are compiled into PHP, and offer extra features, such as functions, classes, traits and directive.
+Extensions are a custom way to add features to software. 
 
-Extensions are published in the PECL repository. Some are available by default, in the PHP standard configuration. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // Example with the ext/pspell extensions, for orthographic checks
-   $pspell = pspell_new(en);
-   
-   if (pspell_check($pspell, testt)) {
-       echo This is a valid spelling;
-   } else {
-       echo Sorry, wrong spelling;
-   }
-   ?>
-   
++ PHP extensions
++ Extensions (concept)
 
 
-`Documentation <https://www.php.net/manual/en/install.pecl.php>`__
-
-Added in PHP 7.0
 
 .. _extract:
 
@@ -6275,6 +6340,12 @@ Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 
 File
 ----
+
+A file is a named collection of data or information that is stored and organized on a computer's storage system. In computing, files are used to store various types of data, such as text, images, audio, video, programs, and more. Files can be created, accessed, modified, and deleted by computer programs and users.
+
+Files are typically organized into a hierarchical structure called a file system, which helps to manage and organize them. Each file is identified by a unique name, which allows it to be located and accessed within the file system. Files can be stored on different types of storage media, including hard drives, solid-state drives, network storage, and removable storage devices such as USB drives.
+
+A file consists of two main components: the file name and the file content. The file name is used to identify and refer to the file, while the file content contains the actual data stored within the file. The content can vary depending on the type of file, such as plain text, binary data, or specific file formats.
 
 A file is a resource for recording data on a computer storage device, such as a hard drive or memory.
 
@@ -7209,7 +7280,7 @@ Hard-code becomes a security problem, when the hard-coded value is a password or
 
 `Documentation <https://en.wikipedia.org/wiki/Hard_coding>`__
 
-.. _hash:
+.. _hashing:
 
 Hash
 ----
@@ -7299,7 +7370,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`Hash() function <hash-function>`, , :ref:`Array <array>`, :ref:`Map <map>`
 
 .. _heredoc:
 
@@ -7869,6 +7940,22 @@ Indentation is a convention governing the indentation of blocks of code to conve
 Index
 -----
 
+An index may be several things : 
+
++ An identifier in an array
++ A optimized datastructure for a SQL database
+
+
+
+Related : :ref:`MVC <mvc>`, :ref:`Index for arrays <index-array>`, :ref:`Index for SQL <index-sql>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _index-array:
+
+Index for arrays
+----------------
+
 A index is the identifier of an specific element in an array. They may automatically generated, by simply omitting them at creation time. 
 
 PHP index may be integers or strings only. Other data types generate an error or a type conversion. For example, floats are turned into integer. integer-shaped strings will also be turned into integer.
@@ -7890,6 +7977,46 @@ PHP index start at 0. They may be automatically assigned by appending a new valu
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
 Related : :ref:`Array <array>`
+
+.. _index-sql:
+
+Index for SQL
+-------------
+
+In SQL, an index is a database object that improves the performance of data retrieval operations on database tables. It is a data structure that provides a quick lookup mechanism for finding specific data within a table.
+
+An index is created on one or more columns of a table and contains a sorted copy of the data in those columns, along with a pointer to the original data. This allows the database engine to locate and retrieve the required data more efficiently, reducing the need for scanning the entire table.
+
+Indexes provide the following benefits:
+
+    Improved query performance: By creating an index on frequently queried columns, the database engine can quickly locate the relevant data, resulting in faster query execution times.
+
+    Efficient data retrieval: Indexes allow the database to perform index-based seeks or scans instead of full table scans, which can significantly reduce the amount of disk I/O and improve overall system performance.
+
+    Sorting and ordering: Indexes can be used to sort the data in a specific order, which is helpful when retrieving data in a specific sequence, such as ascending or descending order.
+
+    Constraint enforcement: Indexes can be used to enforce unique constraints and primary key constraints on a table, ensuring data integrity and preventing duplicate or NULL values.
+
+However, indexes also have some considerations:
+
+    Overhead: Indexes consume disk space and require additional processing time for index maintenance during data modifications (inserts, updates, and deletes). So, creating too many indexes or indexes on frequently updated columns can impact performance.
+
+    Maintenance: Indexes need to be maintained as the underlying data changes. This includes updating the index when data is inserted, modified, or deleted, which can impact overall system performance.
+
+    Choosing the right columns: It's important to carefully choose the columns to index based on the specific queries and usage patterns of the database. Indexing every column is not always necessary or beneficial.
+
+.. code-block:: php
+   
+   
+   <?php
+       $array = ['a', 'b', 'c'];
+       
+       echo $array[0];
+   ?>
+   
+
+
+Related : :ref:`Index <index>`
 
 .. _inequality:
 
@@ -9162,7 +9289,7 @@ There are PHP functions and operators that perform safe comparisons ,such as `==
 
 See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_, `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_
 
-Related : :ref:`Hash <hash>`, :ref:`Comparison <comparison>`, :ref:`Type Juggling <type-juggling>`
+Related : , :ref:`Comparison <comparison>`, :ref:`Type Juggling <type-juggling>`
 
 .. _magic-method:
 
@@ -9234,11 +9361,13 @@ Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`
 Map
 ---
 
-A map is an associative array. In PHP, this feature is supported by array. 
+A map refers to an abstract data type (ADT) that stores key-value pairs, where each key is unique within the map. In PHP, this feature is supported by array. 
 
-PHP's array syntax supports a feature to assign the index an arbitrary key. 
+PHP's array syntax supports a feature to assign the index an arbitrary key. A map allows efficient lookup, insertion, and deletion of values based on their associated keys. The key-value pairs are typically unordered, meaning that the order of insertion may not be preserved when iterating over the map's elements.
 
-Maps are also called associative array, or hashes.
+Maps are also called associative array, dictionary, or hashes.
+
+Maps are useful when you want to associate a value with a specific key and perform operations like searching for a value by its key or updating the value associated with a key. They provide a convenient way to store and retrieve data based on some unique identifier.
 
 
 
@@ -9258,7 +9387,9 @@ Maps are also called associative array, or hashes.
    
 
 
-Related : :ref:`Array <array>`
+See also `Associative Arrays in PHP: An Overview <https://www.simplilearn.com/tutorials/php-tutorial/associative-array-in-php>`_
+
+Related : :ref:`Array <array>`, :ref:`Index for arrays <index-array>`
 
 .. _markdown:
 
@@ -9347,7 +9478,7 @@ MD5 was used a lot for secure hashing and control. Nowadays, it may be useful fo
 
 See also `md5 <https://www.php.net/manual/en/function.md5.php>`_
 
-Related : :ref:`Cryptography <cryptography>`, 
+Related : :ref:`Cryptography <cryptography>`, :ref:`Hash <hashing>`
 
 .. _memoization:
 
@@ -11101,6 +11232,34 @@ See also `php official image on Docker Hub <https://hub.docker.com/_/php>`_, `ci
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _php-extension:
+
+PHP Extensions
+--------------
+
+Extensions are PHP module system. They are compiled into PHP, and offer extra features, such as functions, classes, traits and directive.
+
+Extensions are published in the PECL repository. Some are available by default, in the PHP standard configuration. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Example with the ext/pspell extensions, for orthographic checks
+   $pspell = pspell_new(en);
+   
+   if (pspell_check($pspell, testt)) {
+       echo This is a valid spelling;
+   } else {
+       echo Sorry, wrong spelling;
+   }
+   ?>
+   
+
+
+`Documentation <https://www.php.net/manual/en/install.pecl.php>`__
+
 .. _handler:
 
 PHP Handlers
@@ -12304,7 +12463,7 @@ A release is a final version of a software. A release is published, or released 
 
 A release may have a version number. For published software, this version is published, while for Saas, it may be undocumented.
 
-Related : 
+Related : :ref:`Version <version>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -15854,6 +16013,25 @@ VCS is a common tool to manage code versions. GIT, mercurial, SVN, CVS, etc.
 
 Related packages : `czproject/git-php <https://packagist.org/packages/czproject/git-php>`_
 
+.. _version:
+
+Version
+-------
+
+In the context of software development, a version refers to a specific iteration or release of a software product or application. It represents a distinct point in the evolution of the software, marking a milestone or set of changes made to the codebase.
+
+Versions are typically assigned using a versioning scheme that helps track and identify different releases. Versions may be sequential, date based or semantic.
+
+Versions serve several purposes : tracking changes, Compatibility management, Release management and Bug tracking and support.
+
+`Documentation <https://en.wikipedia.org/wiki/Software_versioning>`__
+
+See also `Semantic versioning <https://semver.org/>`_, `Managing package versions in Packagist <https://packagist.org/about>`_
+
+Related : :ref:`Release <release>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _view:
 
 View
@@ -15867,6 +16045,8 @@ A view may be several things :
 
 
 Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :ref:`SQL Views <view-sql>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _view-presentation:
 .. _renderer:
@@ -16336,6 +16516,36 @@ This prevents errors where the comparison operator is shortened, and turned into
 `Documentation <https://en.wikipedia.org/wiki/Yoda_conditions>`__
 
 See also `Why using Yoda conditions you should probably not be  <https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not>`_
+
+.. _zombie-code:
+
+Zombie Code
+-----------
+
+Zombie code refers to sections of code that are still executed, but whose results are discarded. It is essentially dead or unused code that serves no purpose and can negatively impact the codebase.
+
+Zombie code slows down the application, yet are logged as being used. They are a various of dead code. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // $capitalized is calculated from $name
+   $capitalized = ucfirst(strtolower($name));
+   
+   // $capitalized is not used later in the code. 
+   echo Hello $name\n;
+   
+   ?>
+
+
+`Documentation <`Zombie Code <https://www.calculquebec.ca/en/communiques/zombie-code/>`_>`__
+
+Related : :ref:`Dead code <dead-code>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _zval:
 
