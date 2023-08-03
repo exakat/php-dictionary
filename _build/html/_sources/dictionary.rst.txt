@@ -41,6 +41,7 @@ PHP Dictionary
    * :ref:`Allow Dynamic Property <allowdynamicproperty>`
    * :ref:`Alternative Syntax <alternative-syntax>`
    * :ref:`Annotations <annotation>`
+   * :ref:`Anonymous Catch <anonymous-catch>`
    * :ref:`Anonymous Class <anonymous-class>`
    * :ref:`Anonymous Function <anonymous-function>`
    * :ref:`Application Performance Management <apm>`
@@ -57,6 +58,7 @@ PHP Dictionary
    * :ref:`Arrow Functions <arrow-function>`
    * :ref:`As <as>`
    * :ref:`Assertions <assertion>`
+   * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
    * :ref:`Assumption <assumption>`
    * :ref:`Attribute class <attribute-class>`
@@ -76,6 +78,7 @@ PHP Dictionary
    * :ref:`Block <block>`
    * :ref:`Boolean <boolean>`
    * :ref:`Break <break>`
+   * :ref:`Built in <built-in>`
    * :ref:`basename <basename>`
 * C
    * :ref:`CGI <cgi>`
@@ -107,10 +110,12 @@ PHP Dictionary
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce operator <coalesce>`
    * :ref:`Code Injection <code-injection>`
+   * :ref:`Code Smell <code-smell>`
    * :ref:`Coding Conventions <coding-convention>`
    * :ref:`Collection <collection>`
    * :ref:`Colon <colon>`
    * :ref:`Comma <comma>`
+   * :ref:`Command Bus <command-bus>`
    * :ref:`Command Line Interface <cli>`
    * :ref:`Compact array <compact-array>`
    * :ref:`Comparison <comparison-operator>`
@@ -134,15 +139,18 @@ PHP Dictionary
    * :ref:`Convention <convention>`
    * :ref:`Cookie <cookie>`
    * :ref:`Coroutine <coroutine>`
-   * :ref:`Countable interface <countable>`
+   * :ref:`Countable Interface <countable>`
+   * :ref:`Coupling <coupling>`
    * :ref:`Covariance <type-covariance>`
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
    * :ref:`Curl <curl>`
    * :ref:`Curly Brackets <curly-bracket>`
+   * :ref:`Custom <custom>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
 * D
+   * :ref:`DOM <domxml>`
    * :ref:`DRY : don't repeat yourself <dry>`
    * :ref:`DTO <dto>`
    * :ref:`Dangling Reference <dangling-reference>`
@@ -152,6 +160,8 @@ PHP Dictionary
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
    * :ref:`Dates <date>`
+   * :ref:`Day are not 86400 seconds <day-in-seconds>`
+   * :ref:`Days In Month <days-in-month>`
    * :ref:`Dead code <dead-code>`
    * :ref:`Debugger <debugger>`
    * :ref:`Deep clone <deep-clone>`
@@ -160,18 +170,19 @@ PHP Dictionary
    * :ref:`Default Value <default-value>`
    * :ref:`Dependency Injection <dependency-injection>`
    * :ref:`Dependency Injection Container <dependency-injection-container>`
-   * :ref:`Deploy <deploy>`
+   * :ref:`Deployment <deploy>`
    * :ref:`Deprecation <deprecated>`
    * :ref:`Dereferencing <dereferencing>`
    * :ref:`Design Pattern <design-pattern>`
+   * :ref:`Design Pattern Wrapper <wrapper-designpattern>`
    * :ref:`Design by Contract <contract>`
    * :ref:`Destructor <destructor>`
    * :ref:`Directives <directives>`
    * :ref:`DirectoryIterator <directoryiterator>`
    * :ref:`Disable classes <disable_classes>`
+   * :ref:`Disjunctive Normal Form (DNF) <dnf>`
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
    * :ref:`Do While <do-while>`
-   * :ref:`DomXML <domxml>`
    * :ref:`DomainException <domainexception>`
    * :ref:`Double Quotes Strings <double-quote>`
    * :ref:`Duck Typing <duck-typing>`
@@ -218,6 +229,7 @@ PHP Dictionary
    * :ref:`FIG <php-fig>`
    * :ref:`Facade <facade>`
    * :ref:`False <false>`
+   * :ref:`Feature <feature>`
    * :ref:`File <file>`
    * :ref:`File Upload <upload>`
    * :ref:`File system <file-system>`
@@ -255,9 +267,10 @@ PHP Dictionary
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
-   * :ref:`Hash <hashing>`
+   * :ref:`Hash <hash>`
    * :ref:`Hash Comparisons <hash-comparison>`
    * :ref:`Hash() function <hash-function>`
+   * :ref:`Headless <headless>`
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
@@ -340,6 +353,7 @@ PHP Dictionary
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
    * :ref:`Model <model>`
+   * :ref:`Module <module>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
    * :ref:`Mutation Testing <mutation-test>`
@@ -398,6 +412,7 @@ PHP Dictionary
    * :ref:`PHP RFC <php-rfc>`
    * :ref:`PHP Standards Recommendations (PSR) <psr>`
    * :ref:`PHP User Groups <php-ug>`
+   * :ref:`PHP Wrapper <wrapper-php>`
    * :ref:`PHP tags <php-tag>`
    * :ref:`PHP variables <php-variable>`
    * :ref:`PHP-FPM <fpm>`
@@ -422,6 +437,7 @@ PHP Dictionary
    * :ref:`Print <print>`
    * :ref:`Private Visibility <private>`
    * :ref:`Process Control (pcntl) <pcntl>`
+   * :ref:`Promise <promise>`
    * :ref:`Promoted Properties <promoted-property>`
    * :ref:`Properties <property>`
    * :ref:`Property Type Declaration <type-declaration-property>`
@@ -453,12 +469,14 @@ PHP Dictionary
    * :ref:`Register Globals <register-globals>`
    * :ref:`Registry <registry>`
    * :ref:`Regular Expressions <regex>`
+   * :ref:`Relative Types <relative-types>`
+   * :ref:`Relaxed Comparison <loose-comparison>`
    * :ref:`Release <release>`
    * :ref:`Remote Procedure Call <rpc>`
    * :ref:`Rendering <render>`
    * :ref:`Request For Change <rfchange>`
+   * :ref:`Reserved For Future Use <rfu>`
    * :ref:`Reserved Names <reserved-name>`
-   * :ref:`Reserved for Future Use <rfu>`
    * :ref:`Return <return>`
    * :ref:`Return Type Will Change <returntypewillchange>`
    * :ref:`Return Typehint <return-typehint>`
@@ -477,7 +495,7 @@ PHP Dictionary
    * :ref:`SWAP <swap>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scaffolding <scaffolding>`
-   * :ref:`Scalar Typehints <scalar-typehint>`
+   * :ref:`Scalar Types <scalar-typehint>`
    * :ref:`Schema <schema>`
    * :ref:`Scheme <scheme>`
    * :ref:`Scope <scope>`
@@ -488,19 +506,20 @@ PHP Dictionary
    * :ref:`Sensitive Parameter <sensitiveparameter>`
    * :ref:`Serialization <serialization>`
    * :ref:`Session <session>`
-   * :ref:`Shallow clone <shallow-clone>`
+   * :ref:`Shallow Clone <shallow-clone>`
+   * :ref:`Short Assignations <short-assignation>`
    * :ref:`Short Syntax <short-syntax>`
    * :ref:`Short Tags <short-tag>`
-   * :ref:`Short Ternary operator <short-ternary>`
-   * :ref:`Short assignations <short-assignation>`
+   * :ref:`Short Ternary Operator <short-ternary>`
    * :ref:`Shutdown Function <shutdown-function>`
+   * :ref:`Signature <signature>`
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`SimpleXML <simplexml>`
    * :ref:`Single Quotes Strings <single-quote>`
    * :ref:`Single Responsability Principle <srp>`
    * :ref:`Singleton <singleton>`
    * :ref:`Sort <sort>`
-   * :ref:`Spaceship operator <spaceship>`
+   * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Typehints <special-typehint>`
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Standard PHP Library (SPL) <spl>`
@@ -514,9 +533,9 @@ PHP Dictionary
    * :ref:`String <string>`
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
-   * :ref:`Strpos() syndrome <strpos-syndrom>`
-   * :ref:`Stubs files <stubs>`
-   * :ref:`Superglobal variables <superglobal>`
+   * :ref:`Strpos() Syndrom <strpos-syndrom>`
+   * :ref:`Stubs Files <stubs>`
+   * :ref:`Superglobal Variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
    * :ref:`Support Vector Machine <svm>`
    * :ref:`Switch <switch>`
@@ -525,7 +544,6 @@ PHP Dictionary
    * :ref:`Switch Fallthrough <fallthrough>`
    * :ref:`System Call <system-call>`
    * :ref:`System event <system-event>`
-   * :ref:`signature <signature>`
    * :ref:`sleep <sleep>`
    * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`
@@ -533,8 +551,9 @@ PHP Dictionary
    * :ref:`strict_types <strict_types>`
 * T
    * :ref:`TLS <tls>`
+   * :ref:`Task Runner <task-runner>`
    * :ref:`Template <template>`
-   * :ref:`Ternary operator <ternary>`
+   * :ref:`Ternary Operator <ternary>`
    * :ref:`Test <test>`
    * :ref:`Thread <thread>`
    * :ref:`Three dots <three-dots>`
@@ -558,11 +577,11 @@ PHP Dictionary
    * :ref:`UnexpectedValueException <unexpectedvalueexception>`
    * :ref:`UnhandledMatchError <unhandledmatcherror>`
    * :ref:`Unicode <unicode>`
-   * :ref:`Union type <union-type>`
+   * :ref:`Union Type <union-type>`
    * :ref:`Universal Resource Identifier (URI) <uri>`
    * :ref:`Universal Resource Locator (URL) <url>`
    * :ref:`Unpacking <unpacking>`
-   * :ref:`Unreachable code <unreachable-code>`
+   * :ref:`Unreachable Code <unreachable-code>`
    * :ref:`Unsserialization <unserialization>`
    * :ref:`Unused <unused>`
    * :ref:`Use <use>`
@@ -598,7 +617,7 @@ PHP Dictionary
 * Y
    * :ref:`YAML <yaml>`
    * :ref:`Yield <yield>`
-   * :ref:`Yoda condition <yoda>`
+   * :ref:`Yoda Condition <yoda>`
    * :ref:`yield from Keyword <yield-from>`
 * Z
    * :ref:`Zombie Code <zombie-code>`
@@ -998,7 +1017,7 @@ Cloning is similar to creating another object of the same class, without requiri
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep clone <deep-clone>`, :ref:`Shallow clone <shallow-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep clone <deep-clone>`, :ref:`Shallow Clone <shallow-clone>`
 
 .. _-__get:
 
@@ -1423,7 +1442,12 @@ Related : :ref:`Magic Methods <magic-method>`, :ref:`__sleep() method <-__sleep>
 Abstract Class
 --------------
 
-An abstract class is a PHP class that has the ``final`` option.
+An abstract class is a class that cannot be instantiated directly. It has the ``abstract`` option.
+
+An abstract class serves as a blueprint for other classes and is intended to be subclassed. 
+
+An abstract class can contain both regular methods and abstract methods. Regular methods provide common functionality that can be inherited by subclasses, while abstract methods are declared without an implementation. Subclasses of an abstract class must provide an implementation for all the abstract methods defined in the abstract class.
+
 
 .. code-block:: php
    
@@ -1436,6 +1460,8 @@ An abstract class is a PHP class that has the ``final`` option.
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
 Related : :ref:`Final Keyword <final>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _abstract:
 
@@ -1468,6 +1494,8 @@ See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/bl
 
 Related : :ref:`Final Keyword <final>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _ast:
 
 Abstract Syntactic Tree
@@ -1495,7 +1523,7 @@ flysystem offers also an abstraction layer to filesystem, lcobucci/clock offers 
 
 Related : :ref:`Stream <stream>`, :ref:`PHP Data Objects (PDO) <pdo>`
 
-Related packages : `league/flysystem <https://packagist.org/packages/league/flysystem>`_, `lcobucci/clock <https://packagist.org/packages/lcobucci/clock>`_
+Related packages : `league/flysystem <https://packagist.org/packages/league/flysystem>`_, `lcobucci/clock <https://packagist.org/packages/lcobucci/clock>`_, `php-http/httplug <https://packagist.org/packages/php-http/httplug>`_
 
 .. _accessibility:
 .. _a11y:
@@ -1639,7 +1667,7 @@ The same rules applies to alias types than other types : for example, array | it
 
 `Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
 
-Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`, :ref:`Type system <typehint>`
+Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Type system <typehint>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -1696,7 +1724,7 @@ Added in PHP 8.2+
 Alternative Syntax
 ------------------
 
-PHP offers an alternative syntax for some of its control structures; namely, if, while, for, foreach, and switch. In each case, the basic form of the alternate syntax is to change the opening brace to a colon (:) and the closing brace to endif;, endwhile;, endfor;, endforeach;, or endswitch;, respectively.
+PHP offers an alternative syntax for some of its control structures; namely, ``if``, ``while``, ``for``, ``foreach``, and ``switch``. In each case, the basic form of the alternate syntax is to change the opening brace to a colon (:) and the closing brace to ``endif;``, ``endwhile;``, ``endfor;``, ``endforeach;``, or ``endswitch;``, respectively.
 
 .. code-block:: php
    
@@ -1752,6 +1780,34 @@ See also `Understanding annotations <https://php-annotations.readthedocs.io/en/l
 Related : :ref:`Attributes <attribute>`
 
 Related packages : `php-annotations/php-annotations <https://packagist.org/packages/php-annotations/php-annotations>`_
+
+.. _anonymous-catch:
+
+Anonymous Catch
+---------------
+
+Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.
+
+PHP 8.0 introduced a new language constructs that makes the identifier variable optional, allowing for a fully anonymous catch statement. This means there is no need to specify a variable to hold the caught exception.
+
+The motivation behind this proposal is to simplify exception handling code, especially in cases where you don't need to use the caught exception object. It leads to cleaner and more concise code, especially when the specific details of the exception are not interesting and can just be handled generically.
+
+.. code-block:: php
+   
+   <?php
+   
+   try {
+   	$a / 0;
+   } catch (DivisionByZero) {
+   
+   }
+   
+   ?>
+
+
+Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Try-catch <try-catch>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _anonymous-class:
 
@@ -1948,6 +2004,8 @@ No exception is raised for extra parameters, as those may still be processed by 
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _arithmeticerror:
 
 ArithmeticError Error
@@ -2086,12 +2144,11 @@ Removed in PHP
 ArrayObject
 -----------
 
-ArrayObject is a class that allows objects to work as arrays.
+``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object. It extends the base ``ArrayObject`` class and implements the ``ArrayAccess``, ``Countable``, ``IteratorAggregate``, and ``Serializable`` interfaces.
+
+With ``ArrayObject``, it is possible to reate objects that have the behavior of arrays, meaning it is possible to access array elements as properties and use object-oriented methods to manipulate the array. 
 
 Operator such as append ``[]``, or foreach() loops are then available with those objects.
-
-ArrayObjects are still objects, though they behave a lot like arrays.
-
 
 
 .. code-block:: php
@@ -2113,6 +2170,8 @@ ArrayObjects are still objects, though they behave a lot like arrays.
 `Documentation <https://www.php.net/manual/en/class.arrayobject.php>`__
 
 See also `Array Objects in PHP <https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667>`_
+
+Related packages : `jbzoo/data <https://packagist.org/packages/jbzoo/data>`_, `phootwork/collection <https://packagist.org/packages/phootwork/collection>`_
 
 .. _arrow-function:
 
@@ -2202,13 +2261,29 @@ See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertion
 
 Related packages : `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_, `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_
 
+.. _asset:
+
+Asset
+-----
+
+Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project. Specifically, in the context of web design and development, these 'assets' pertain to diverse components, such as CSS, JS libraries, textual content, graphics, photographs, videos, and audio files.
+
+Assets are often reduced to their URL, which might be hard coded or dynamically generated.
+
+
+Related packages : `symfony/asset <https://packagist.org/packages/symfony/asset>`_, `kriswallsmith/assetic <https://packagist.org/packages/kriswallsmith/assetic>`_
+
 .. _assignation:
 .. _assignement:
 
 Assignations
 ------------
 
-The basic assignment operator is `=`. Your first inclination might be to think of this as `equal to`. Don't. It really means that the left operand gets set to the value of the expression on the right (that is, "gets set to").
+Assignation refers to the process of assigning a value to a variable. It is a fundamental concept in programming that allows to store and manipulate data.
+
+The main operator of assignation is `=`. There are secondary operators, such as `+=`, `*=`, ``??=``, ... which are called short assignation : they apply a specific operation while assigning.
+
+Finally, there are some inherent assignations: foreach() loops, method calls and list() operator performs assignations without an explicit operator.
 
 .. code-block:: php
    
@@ -2216,12 +2291,21 @@ The basic assignment operator is `=`. Your first inclination might be to think o
    
    $a = 'b';
    
+   // $c is assigned by 
+   foreach([1, 2, 3] as $c) {}
+   echo $c; // $c is 3
+   
+   // list call that assigns values
+   [$a, $b, $c] = ['a', 'b', 'C'];
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`Short assignations <short-assignation>`
+Related : :ref:`Short Assignations <short-assignation>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _assumption:
 
@@ -2508,7 +2592,9 @@ Benchmarking
 
 Benchmarking is a process of measuring the performance. In the computer world, it usually means the speed of execution of a piece of code.
 
-See also `PHP bench <https://github.com/phpbench/phpbench>`_, `PHPbenchmarks <http://www.phpbenchmarks.com/>`_
+See also `PHP bench <https://github.com/phpbench/phpbench>`_, `PHPbenchmarks <http://www.phpbenchmarks.com/>`_, `The Definitive PHP 7.2, 7.3, 7.4, 8.0, and 8.1 Benchmarks <https://kinsta.com/blog/php-benchmarks/>`_, `Benchmarking PHP code with PhpBench Benchmarks <https://mike42.me/blog/2019-07-benchmarking-php-code-with-phpbench/>`_
+
+Related packages : `phpbench/phpbench <https://packagist.org/packages/phpbench/phpbench>`_, `devster/ubench <https://packagist.org/packages/devster/ubench>`_
 
 .. _best-practice:
 
@@ -2693,6 +2779,36 @@ break should not be confused with `continue` : continue doesn't work in a switch
 Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>`
 
 Added in PHP 5.4
+
+.. _built-in:
+
+Built in
+--------
+
+A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP. For example, `.` (dot operator) or the `stdClass` class are native to PHP.
+
+A feature may also be custom, when defined by the developer or extension, when defined in a PHP extension. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // This is a built-in function
+   $s = strtolower($s);
+   
+   // This is not a built-in function : it comes from an extension
+   $rar_arch = RarArchive::open('latest_winrar.rar');
+   
+   // This is not a built-in function : it is a custom function
+   function foo() {}
+   
+   ?>
+
+
+Related : :ref:`Built in <built-in>`, :ref:`Custom <custom>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _callable:
 
@@ -3232,6 +3348,8 @@ See also `RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_
 
 Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Getter Method <getter>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _class:
 
 Classes
@@ -3306,7 +3424,7 @@ To perform a deep clone, aka to clone an object and its referenced properties, t
 
 See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_, `PHP Clone All The Things <https://jolicode.com/blog/php-clone-all-the-things>`_
 
-Related : :ref:`Shallow clone <shallow-clone>`, :ref:`Deep clone <deep-clone>`
+Related : :ref:`Shallow Clone <shallow-clone>`, :ref:`Deep clone <deep-clone>`
 
 Added in PHP 4.0+
 
@@ -3336,9 +3454,13 @@ When a file online contains PHP code, the closing tag is not ncessary. Its absen
    
 
 
-`Documentation <https://www.php.net/manual/en/closure.bind.php>`__
+`Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-Related : , 
+See also `You shouldn't use PHP Closing Tags <https://www.youtube.com/watch?v=mXzUwcDBtkA>`_, `Should You Close PHP Tags? The Debate Continues… <https://www.sitepoint.com/closing-php-tags-debate/>`_
+
+Related : , :ref:`Short Tags <short-tag>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _closure:
 .. _anonymous-functions:
@@ -3428,7 +3550,7 @@ The coalesce operator `??` returns its first operand if it is set and not NULL. 
 
 See also `Null Coalescing Operator (??) <https://riptutorial.com/php/example/7164/null-coalescing-operator----->`_, `PHP ternary operator vs null coalescing operator <https://stackoverflow.com/questions/34571330/php-ternary-operator-vs-null-coalescing-operator>`_
 
-Related : :ref:`Ternary operator <ternary>`, :ref:`Short Ternary operator <short-ternary>`
+Related : :ref:`Ternary Operator <ternary>`, :ref:`Short Ternary Operator <short-ternary>`
 
 Added in PHP 7.0+
 
@@ -3467,6 +3589,24 @@ See also `PHP Security 2: Directory Traversal & Code Injection <https://www.acun
 
 Related : :ref:`Eval() <eval>`, :ref:`Inclusions <inclusion>`, :ref:`Dynamic Call <dynamic-call>`
 
+.. _code-smell:
+
+Code Smell
+----------
+
+A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices. It is a metaphorical term used to describe code that may not be structured optimally or may be prone to bugs, maintainability issues, or other software development problems. Code smells are subjective indicators and do not necessarily indicate a bug or an error in the code, but they highlight areas that may require attention and refactoring.
+
+Long methods, duplicate code are code smells. 
+
+Code smells are not strict rules or errors but rather indicators of areas that may need improvement. Recognizing and addressing code smells early in the development process can lead to cleaner, more maintainable, and bug-free code. Automated code analysis tools and code reviews can be helpful in identifying code smells and promoting better coding practices.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Code_smell>`__
+
+See also `What Are Code Smells in PHP? An OOP Approach for Cleaner Code <https://betterprogramming.pub/what-are-code-smells-in-php-oop-approach-for-cleaner-code-c9729232dc5f>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _coding-convention:
 
 Coding Conventions
@@ -3494,7 +3634,7 @@ Collections may be build with array, or dedicated classes.
 
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_
 
-Related : :ref:`Enumeration <enum>`, , :ref:`Map <map>`, :ref:`Generics <generics>`
+Related : :ref:`Enumeration <enum>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Generics <generics>`
 
 .. _colon:
 
@@ -3528,7 +3668,7 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`Goto <goto>`, :ref:`Ternary operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
 
 .. _comma:
 
@@ -3561,6 +3701,30 @@ They do not have a value by themselves.
 
 
 Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`List <list>`
+
+.. _command-bus:
+
+Command Bus
+-----------
+
+A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design (DDD) and CQRS (Command Query Responsibility Segregation). It helps to decouple the sender of a command from its handler, allowing for better separation of concerns and improving the overall architecture of the application.
+
+A command bus works together with commands and command handlers. 
+
+Here's a simplified overview of how a command bus works:
+
++ The sender (e.g., a controller in a web application) creates a command object and sends it to the command bus.
++ The command bus examines the command object and identifies the appropriate command handler based on the type of the command.
++ The command bus dispatches the command to the identified command handler.
++ The command handler processes the command and performs the required actions (e.g., modifying the database, updating the domain model, etc.).
+
+
+
+`Documentation <`What is a Command Bus?bb <https://tactician.thephpleague.com/>`_>`__
+
+See also `What is a command bus and why should you use it?  <https://barryvanveen.nl/articles/49-what-is-a-command-bus-and-why-should-you-use-it>`_, `Command Bus <https://laravel.com/docs/5.0/bus>`_
+
+Related packages : `league/tactician <https://packagist.org/packages/league/tactician>`_, `simple-bus/message-bus <https://packagist.org/packages/simple-bus/message-bus>`_, `simple-bus/symfony-bridge <https://packagist.org/packages/simple-bus/symfony-bridge>`_
 
 .. _cli:
 
@@ -3666,7 +3830,7 @@ There are also functions dedicated to comparisons, with specific applications : 
 
 See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_
 
-Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship operator <spaceship>`
+Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship Operator <spaceship>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -3754,7 +3918,7 @@ Conditions in PHP are expressed with comparisons operators. They are also expres
 
 See also `How To Write Conditional Statements in PHP <https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-php>`_
 
-Related : :ref:`Yoda condition <yoda>`
+Related : :ref:`Yoda Condition <yoda>`
 
 .. _conditional-structure:
 
@@ -3780,7 +3944,7 @@ This includes if-elsif-then, switch(), match(), the ternary operators `? ... :` 
    ?>
 
 
-Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Coalesce operator <coalesce>`, :ref:`Ternary operator <ternary-operator>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Coalesce operator <coalesce>`, :ref:`Ternary Operator <ternary-operator>`
 
 .. _conditioned:
 
@@ -3864,7 +4028,7 @@ Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>
 Constant Scalar Expression
 --------------------------
 
-Constant Scalar Expression allows static values (const declarations, property declarations, function arguments, etc) to also be able to take static expressions.
+A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values (constants), operators. Constant scalar expressions are used to initialize constants, and default values for parameters and properties.
 
 .. code-block:: php
    
@@ -3878,7 +4042,7 @@ Constant Scalar Expression allows static values (const declarations, property de
 
 `Documentation <https://wiki.php.net/rfc/const_scalar_exprs>`__
 
-Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`
+Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`, 
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -4227,23 +4391,22 @@ Related packages : `swow/swow <https://packagist.org/packages/swow/swow>`_, `swl
 
 .. _countable:
 
-Countable interface
+Countable Interface
 -------------------
 
-Classes implementing Countable can be used with the count() function.
+The Countable interface in PHP is a built-in interface that allows objects to be counted using the count() function. 
+
+By implementing the Countable interface, a class can define custom logic for determining its count.
 
 .. code-block:: php
    
    <?php
-   //Example One, BAD :(
-   
-   class Counter
+   class Collection implements Countable
    {
-   
-       protected $count = 0;
+       private $list = [];
        
-       public function inc() {
-           $this->count++;
+       public function add($x) {
+           $this->list[] = $x;
        }
    
        public function count()
@@ -4264,6 +4427,64 @@ Classes implementing Countable can be used with the count() function.
 
 
 `Documentation <https://www.php.net/manual/en/class.countable.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _coupling:
+
+Coupling
+--------
+
+Coupling refers to the degree of dependency between different classes of a software. It measures how interconnected or interdependent these classes are. There are several types of coupling, ranging from loose (good) to tight (undesirable). 
+
+    Content Coupling: This is the strongest form of coupling, where one module directly accesses or modifies the internal data or methods of another class. It's considered the most undesirable type of coupling, as it makes the modules highly dependent on each other and difficult to change independently.
+
+    Common Coupling: In this type, multiple modules share the same data or a common storage location. Changes to this shared data can impact multiple modules simultaneously, leading to potential issues in understanding and maintaining the codebase.
+
+    External Coupling: This type of coupling occurs when two modules rely on the same external interface, such as a file, a database, or a communication protocol. Changes to the external interface can affect multiple modules, but at least the internal details remain separate.
+
+    Control Coupling: Control coupling happens when one module passes control information (e.g., flags, status, or control variables) to another module. The receiving module behaves differently based on this information, introducing dependencies between them.
+
+    Data Coupling: Data coupling is a better form of coupling compared to the above ones. It happens when two modules share data through parameters or arguments, but they do not directly access each other's internal data. It promotes encapsulation and makes it easier to maintain and understand the system.
+
+    Message Coupling: In this type, modules communicate by passing messages, which can be in the form of method calls, function calls, or events. The modules don't need to know each other's internal details, and they interact based on well-defined interfaces.
+
+    No Coupling (or Content Independence): The ideal type of coupling is no coupling at all, where modules are entirely independent of each other. Each module operates in isolation, and changes to one module do not affect others.
+
+Software designers aim to achieve low coupling and high cohesion (a measure of how closely the elements within a module are related) in their systems to improve maintainability, reusability, and overall system design.
+
+.. code-block:: php
+   
+   <?php
+   
+   // User class with high coupling (Content Coupling)
+   class User {
+       private $username;
+       private $email;
+   
+       public function __construct($username, $email) {
+           $this->username = $username;
+           $this->email = $email;
+       }
+   
+       // Content coupling: EmailSender is directly accessed here
+       public function register() {
+           // Register the user in the database
+   
+           // Send a welcome email
+           $emailSender = new EmailSender();
+           $emailSender->sendWelcomeEmail($this->username, $this->email);
+       }
+   }
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Coupling_(computer_programming)>`__
+
+See also `Dependencies and coupling <https://dev.to/franiglesias/dependencies-and-coupling-4365>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _type-covariance:
 .. _covariance:
@@ -4341,7 +4562,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, , :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`Hash() function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
 
 .. _cryptography:
 .. _crypto:
@@ -4410,7 +4631,13 @@ Related : :ref:`Semicolon <semicolon>`, :ref:`Escape Data <escape-data>`, :ref:`
 Curl
 ----
 
-Curl is both a PHP extension and a multiprotocol file transfer library. It is used to access remote resources, using various protocols such as DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP. 
+Curl is both a PHP extension and a multiprotocol file transfer library. 
+
+The cURL (Client URL) extension is a powerful library that allows to transfer data to and from servers using various protocols. It enables to make HTTP requests, handle responses, and perform various network-related tasks from within PHP code.
+
+The cURL extension provides a set of functions that can be used to perform different tasks, such as making GET and POST requests, sending custom headers, handling cookies, and more. 
+
+cURL is used to access remote resources, using various protocols such as DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP. 
 
 .. code-block:: php
    
@@ -4435,6 +4662,8 @@ Curl is both a PHP extension and a multiprotocol file transfer library. It is us
 `Documentation <https://www.php.net/manual/en/book.curl.php>`__
 
 See also `curl.se <https://curl.se/>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _curly-bracket:
 
@@ -4472,14 +4701,45 @@ See also `PHP Curly Braces: How and When to Use it? <https://schoolsofweb.com/ph
 
 Related : :ref:`Block <block>`, :ref:`String <string>`
 
+.. _custom:
+
+Custom
+------
+
+A feature is called 'custom' when it is not part of the standard installation of PHP, any PHP extension or a publish library. For example, the function foo() is generally a custom function.
+
+Any declaration object may be custom : constants, variables, classes, interfaces, enums, traits. 
+
+A custom asset is usually the last to be defined, and, as such, has to use a distinct name. For example, declaring a function called ``wp_header`` is possible as long as the code is not part of Wordpress, which does declare it as a common set of features.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // This is a custom function
+   function foo() {}
+   
+   ?>
+
+
+Related : :ref:`Built in <built-in>`, :ref:`Custom <custom>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _cvs:
 
 CVS
 ---
 
 CSV is Concurent Version System. It is a revision control system. 
+It is a version control system that allows multiple users to collaborate on a project by managing the changes made to files and keeping track of different versions of those files. CVS was one of the earlier popular version control systems, introduced in the 1980s.
+
+With CVS, developers can check out a copy of a project's source code, make changes to files, and then commit those changes back to the repository. It provides features like branching and merging, which allow parallel development and the integration of changes from different branches.
 
 `Documentation <https://en.wikipedia.org/wiki/Concurrent_Versions_System>`__
+
+Related : , , 
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -4634,6 +4894,63 @@ These functions allow you to get the date and time from the server where your PH
 
 See also `PHP Time handling: the ultimate guide (Part 1/3) <https://alexwebdevelop.com/php-time-handling-part-1/>`_, `PHP Time handling: the ultimate guide (Part 2/3) <https://alexwebdevelop.com/php-time-handling-part-2/>`_, `PHP Time handling: the ultimate guide (Part 3/3) <https://alexwebdevelop.com/php-time-handling-part-3/>`_
 
+.. _day-in-seconds:
+
+Day are not 86400 seconds
+-------------------------
+
+Days in seconds is a classic bug when dealing with dates. It happens when adding 86400 seconds to a time to get the same time on the next day. 
+
+The bug will happen most commonly twice a year, at the change of time from winter to summer time. Those days are one hour longer or shorter and lead to calculating the wrong time on the next day. 
+
+Thig bug may also have impact when the internal clock of the server is updated, or when extra leap seconds are added, by December 31st or June 30th (it depends on the years).
+
+When dealing with days, it is recommended to use an interval, or use reltive expression like 'tomorrow'.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $tomorrow = new DateTime('tomorrow');
+   $secondsLeft = $tomorrow->getTimestamp() - time();
+   echo $secondsLeft;
+   
+   ?>
+
+
+`Documentation <https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622>`__
+
+Related : 
+
+.. _days-in-month:
+
+Days In Month
+-------------
+
+Days in month is a classic bug when dealing with dates. It happens when adding a month to a date and ending on two months later. 
+
+This happens when adding a month to the last day of a month, while this month is longer than the next. For example, January 31st, or Halloween October 31st. After adding a month, PHP calculates it as the November 31st, which doesn't exists. Yet, PHP converts it to December 1st.
+
+When dealing with months, it is recommended to use expressions like 'first day of this month', or 'next month', instead of adding a month to an existing date.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   echo date('d-m-Y', strtotime(+1 months, strtotime('31 October 2000')));
+   
+   echo (new DateTime('first day of this month'))->format('jS, F Y');
+   echo (new DateTime('next month'))->format('jS, F Y');
+   
+   ?>
+
+
+`Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
+
+Related : 
+
 .. _dead-code:
 .. _unused-code:
 
@@ -4781,7 +5098,7 @@ Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP 
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Shallow clone <shallow-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Shallow Clone <shallow-clone>`
 
 .. _default:
 
@@ -4930,15 +5247,16 @@ Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`PHP Standard
 Related packages : `psr/container <https://packagist.org/packages/psr/container>`_, `pimple/pimple <https://packagist.org/packages/pimple/pimple>`_, `php-di/php-di <https://packagist.org/packages/php-di/php-di>`_, `illuminate/container <https://packagist.org/packages/illuminate/container>`_, `nette/di <https://packagist.org/packages/nette/di>`_
 
 .. _deploy:
+.. _deployment:
 
-Deploy
-------
+Deployment
+----------
 
-Deploy is the process to bring the code to the production platform. 
-
-
+deployment refers to the process of making a web application or website available for use on a server or hosting environment. It involves transferring the necessary files and configuring the environment to run the PHP code.
 
 See also `How to deploy code <https://wikitech.wikimedia.org/wiki/How_to_deploy_code>`_, `5 ways to deploy PHP applications <https://buddy.works/guides/5-ways-to-deploy-php-applications>`_
+
+Related packages : `deployer/deployer <https://packagist.org/packages/deployer/deployer>`_, `bref/bref <https://packagist.org/packages/bref/bref>`_, `acquia/blt <https://packagist.org/packages/acquia/blt>`_
 
 .. _deprecated:
 .. _obsolete:
@@ -5002,25 +5320,12 @@ Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <objec
 Design by Contract
 ------------------
 
-Design by contract is a coding philosophy, where each piece of software must have a precise and verifiable set of specifications. 
-
-This means that 
-
-
-.. code-block:: php
-   
-   <?php
-   
-       $twenty    = 0x14;
-       $twentyToo = 20;
-       
-       $i = \x69; // i is the 105 ASCII code
-       $i = 'i';
-   
-   ?>
+Design by Contract (DbC) is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants. Although DbC is not natively supported in PHP, you can incorporate its principles into your PHP code using libraries and coding practices.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Design_by_contract>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _design-pattern:
 .. _pattern:
@@ -5044,6 +5349,20 @@ Design patterns are not dedicated to PHP, though most of them do apply to PHP.
 `Documentation <https://en.wikipedia.org/wiki/Software_design_pattern>`__
 
 See also `The Catalog of PHP Examples <https://refactoring.guru/design-patterns/php>`_, `DesignPatternsPHP <https://designpatternsphp.readthedocs.io/en/latest/README.html>`_, `Design Pattenrs (the book) <https://en.wikipedia.org/wiki/Design_Patterns>`_
+
+.. _wrapper-designpattern:
+
+Design Pattern Wrapper
+----------------------
+
+A wrapper is also a design pattern, also called an adaptor. This concept also appears when a component provide access to a remote service : it is a PHP wrapper (wrapper for the service when calling PHP) or a `service-name` wrapper, when it is viewed from PHP. 
+
+
+`Documentation <https://refactoring.guru/design-patterns/decorator>`__
+
+See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _destructor:
 
@@ -5153,6 +5472,8 @@ In PHP, dirname() provides the dirname from a path, based on the `/` separator. 
 
 Related : :ref:`dirname <dirname>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _disable_classes:
 
 Disable classes
@@ -5193,6 +5514,36 @@ This directive allows you to disable certain functions in the php.ini.
 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
+
+.. _dnf:
+.. _dnf-type:
+
+Disjunctive Normal Form (DNF)
+-----------------------------
+
+DNF stands for 'Disjunctive Normal Form'. It is a standard form used in propositional logic and Boolean algebra. DNF represents logical expressions as a disjunction (OR) of one or more conjunctions (AND) of literals. In simpler terms, it is a way to express logical statements using only the logical operators OR and AND.
+
+The DNF form allows for the representation of any logical expression using a combination of OR and AND operators. It is particularly useful in logic analysis, theorem proving, and boolean circuit design.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+       private (A&B)|(C&D) $y;
+   }
+   
+   ?>
+
+
+See also `PHP RFC: Disjunctive Normal Form Types <https://wiki.php.net/rfc/dnf_types>`_, `Disjunctive normal form <https://en.wikipedia.org/wiki/Disjunctive_normal_form>`_, `DNF Types in PHP 8.2 <https://lindevs.com/dnf-types-in-php-8-2>`_
+
+Related : :ref:`Type system <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+Added in PHP 8.2
 
 .. _divisionbyzeroerror:
 
@@ -5252,6 +5603,50 @@ Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loo
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _domxml:
+
+DOM
+---
+
+The DOM extension in PHP is an extension that allows developers to work with XML documents using the Document Object Model (DOM) API. It provides a set of classes and functions to parse, manipulate, and generate XML documents.
+
+The DOM extension provides a tree-based representation of an XML document, where each element, attribute, and text node is represented as an object. This allows developers to traverse and manipulate the XML document easily.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // from PHP manual : https://www.php.net/manual/en/class.domcomment.php
+   
+      $xml = new DOMDocument();
+       $xml->loadXML('<?xml version=1.0 encoding=utf-8?>
+         <configuration version=2>
+         <!-- test &#45;&#45;&gt; -->
+         test &#45;&#45;&gt;
+         </configuration>'
+       );
+   $xpath = new DOMXPath($xml);
+   $comments = $xpath->query('//comment()');
+   $elements = $xpath->query('//configuration');
+   
+   echo $comments[0]->textContent;
+   // result: test &#45;&#45;&gt;
+   
+   echo $elements[0]->textContent;
+   // result: test -->
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.dom.php>`__
+
+See also `Using PHP DOMDocument: Code Examples Explained <https://www.bitdegree.org/learn/php-domdocument>`_
+
+Related : :ref:`XML <xml>`, :ref:`SimpleXML <simplexml>`, :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _domainexception:
 
 DomainException
@@ -5284,44 +5679,6 @@ Exception thrown if a value does not adhere to a defined valid data domain.
 
 
 `Documentation <https://www.php.net/manual/en/class.domainexception.php>`__
-
-.. _domxml:
-
-DomXML
-------
-
-The DOM extension process XML documents with the DOM API.
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // from PHP manual : https://www.php.net/manual/en/class.domcomment.php
-   
-      $xml = new DOMDocument();
-       $xml->loadXML('<?xml version=1.0 encoding=utf-8?>
-         <configuration version=2>
-         <!-- test &#45;&#45;&gt; -->
-         test &#45;&#45;&gt;
-         </configuration>'
-       );
-   $xpath = new DOMXPath($xml);
-   $comments = $xpath->query('//comment()');
-   $elements = $xpath->query('//configuration');
-   
-   echo $comments[0]->textContent;
-   // result: test &#45;&#45;&gt;
-   
-   echo $elements[0]->textContent;
-   // result: test -->
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/book.dom.php>`__
-
-Related : :ref:`XML <xml>`
 
 .. _double-quote:
 
@@ -5367,13 +5724,15 @@ DTO
 
 DTO stands for Data Transfer Object : it is an object that carries data between methods. 
 
-DTO is a class, and replaces arrays advantageously ; it has declared properties, with specified names; it may be used for typing, and hold methods. 
+DTO is a class, and replaces arrays advantageously : it has declared properties, with specified names. It may be used for typing, and hold methods. 
 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Data_transfer_object>`__
 
-See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_
+See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _duck-typing:
 .. _ducktyping:
@@ -5836,16 +6195,32 @@ Added in PHP 8.1+
 Error
 -----
 
- Error is the base class for all internal PHP errors.
+In PHP, the error class is a base class for all internal PHP error exceptions. It represents an error that occurs during the execution of PHP code. The Error class extends the built-in Throwable interface, making it possible to catch and handle these error exceptions using try-catch blocks.
+
+The Error class has several child classes that represent specific types of errors. Some common child classes include:
+
++ ParseError: Represents a syntax error that occurs during parsing of PHP code.
++ TypeError: Represents a type-related error, such as passing an incorrect argument type to a function or method.
++ DivisionByZeroError: Represents an error that occurs when dividing a number by zero.
++ OutOfMemoryError: Represents an error that occurs when the PHP process runs out of memory.
+
+Here's an example that demonstrates catching and handling a ParseError:
+
+php
+
+
+In this example, the eval() function is used to evaluate a string of PHP code. However, the code contains a syntax error with a missing semicolon. This results in a ParseError being thrown. We use a try-catch block to catch the ParseError exception, and then display the error message using the getMessage() method.
+
+It's important to note that these error exceptions are only thrown for internal PHP errors. User-generated errors (e.g., triggered using the trigger_error() function) are not instances of the Error class. Instead, they are represented by the ErrorException class, which extends Exception.
 
 .. code-block:: php
    
    <?php
    
-   class x {
-       final const X = 1;
-       
-       final function method() { }
+   try {
+       eval('echo Hello, World!'); // Missing semicolon generates a ParseError
+   } catch (ParseError $e) {
+       echo 'Caught ParseError: ' . $e->getMessage();
    }
    
    ?>
@@ -5853,7 +6228,9 @@ Error
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
+Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, , :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _error-handler:
 
@@ -6085,7 +6462,11 @@ The final keyword prevents child classes from overriding a method or a constant 
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
+See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_, `PHP try & catch: what are exceptions and how to handle them? <https://benjamincrozat.com/php-exceptions>`_
+
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Chaining Exceptions <exception-chain>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _exception-handler:
 
@@ -6321,6 +6702,22 @@ false has two usages, as PHP keyword : the opposite of true, as a boolean value 
 
 Related : :ref:`Boolean <boolean>`, :ref:`Type system <type>`
 
+.. _feature:
+
+Feature
+-------
+
+A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose. Features are the building blocks that make up the overall functionality of a software product, and they are what enable users to perform tasks, achieve goals, or solve problems using the software.
+
+Software features can vary widely depending on the type of application and its intended use. For example, in a word processing software, features might include the ability to format text, insert images, create tables, and perform spell-checks. In a video editing software, features might include cutting, trimming, adding effects, and exporting videos in different formats. In a messaging app, features might include sending text messages, multimedia messages, and voice calls.
+
+Developers prioritize and implement features based on user needs, market demand, and the overall vision for the software. As software evolves, new features may be added to enhance its functionality or to keep up with advancements in technology and user expectations. Additionally, user feedback and requests often play a role in determining which features get added or improved in future updates of the software.
+
+
+See also `Can I PHP <https://caniphp.com/>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _php-fig:
 
 FIG
@@ -6529,7 +6926,10 @@ Added in PHP 7.0
 First Class Callable
 --------------------
 
-Syntax to create a closure from a method call.
+In PHP 8.1, a new feature called 'First Class Callable Syntax' was introduced. It allows to create a closure directly, by usingthe triple dot operator as an argument.
+
+Such closure may be created using any kind of function, such as native PHP function, or library methods. 
+
 
 .. code-block:: php
    
@@ -6537,12 +6937,16 @@ Syntax to create a closure from a method call.
    
    $a = foo(...);
    
+   $function = strtolower(...);
+   
    ?>
 
 
 `Documentation <https://www.php.net/closure>`__
 
 Related : :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.1
 
@@ -7159,7 +7563,7 @@ Global variables provides a way to share data in different and remote scopes. It
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`global scope <global>`, :ref:`Superglobal variables <superglobal>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`global scope <global>`, :ref:`Superglobal Variables <superglobal>`
 
 .. _globals:
 
@@ -7193,7 +7597,14 @@ Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`
 Goto
 ----
 
-The goto operator can be used to jump to another section in the program.
+The goto operator PHP is a language construct that allows you to perform an unconditional jump in the flow of your code to a specified label. 
+
+Goto one of the very controversial features in PHP and has been the subject of much debate due to its potential to create spaghetti code and make code difficult to read and maintain.
+
+Some legit uses of goto in PHP include breaking out of nested loops, implementing state machines, or in some cases for error handling. However, they are rare, and should only considered in last resort.
+
+The target label must be within the same file and context, meaning that you cannot jump out of a function or method, nor can you jump into one.
+
 
 .. code-block:: php
    
@@ -7210,7 +7621,13 @@ The goto operator can be used to jump to another section in the program.
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
+See also `GoTo statement in PHP <https://www.thecreativedev.com/goto-statement-in-php/>`_
+
 Related : :ref:`Goto Labels <label>`
+
+Related packages : `symfony/symfony <https://packagist.org/packages/symfony/symfony>`_, `yiisoft/yii2 <https://packagist.org/packages/yiisoft/yii2>`_
+
+Added in PHP 5.3
 
 .. _label:
 
@@ -7280,6 +7697,7 @@ Hard-code becomes a security problem, when the hard-coded value is a password or
 
 `Documentation <https://en.wikipedia.org/wiki/Hard_coding>`__
 
+.. _hash:
 .. _hashing:
 
 Hash
@@ -7370,7 +7788,21 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, , :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`Hash() function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
+
+.. _headless:
+
+Headless
+--------
+
+A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other. In this setup, the frontend (the head or user interface) and the backend (the body or content management system) operate independently and communicate through APIs (Application Programming Interfaces).
+
+Traditionally, websites are built using a monolithic architecture, where the frontend and backend are tightly integrated. The backend typically handles both content management and presentation logic, rendering HTML pages that are sent to the user's browser.
+
+In contrast, a headless website is designed with a clear separation of concerns.
+
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _heredoc:
 
@@ -7449,11 +7881,27 @@ Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-int
 Hexagonal Architecture
 ----------------------
 
-The hexagonal architecture, or ports and adapters architecture, is an architectural pattern used in software design. It aims at creating loosely coupled application components that can be easily connected to their software environment by means of ports and adapters.
+Hexagonal architecture, also known as Ports and Adapters architecture or the Onion architecture, is a software architectural pattern that promotes the separation of concerns and emphasizes modularity and flexibility. It was introduced by Alistair Cockburn in 2005 as a way to address the challenges of building maintainable and testable software systems.
+
+In hexagonal architecture, the core principle is the isolation of the application's business logic from external dependencies such as databases, frameworks, user interfaces, and external services. The architecture consists of three main components:
+
+    Core/Application Layer: This layer represents the business logic or the application's core functionality. It encapsulates the use cases and domain models that define the behavior of the system. The core does not depend on any specific technologies or external systems.
+
+    Ports and Adapters: This layer acts as a boundary between the application and its external dependencies. It consists of two types of components:
+    
+    Ports: These are interfaces or contracts that define the interaction between the core/application layer and the external systems. They provide a way for the core to communicate its needs and receive data or trigger actions.
+    
+    Adapters: These are the implementations of the ports, connecting the core with the external systems. Adapters translate the core's requests into a format that external systems can understand and vice versa. They handle the technical details of communication, such as data persistence, network protocols, or user interface rendering.
+
+    External Systems: This layer includes databases, frameworks, user interfaces, messaging systems, or any other external dependencies. The core does not have direct knowledge of these systems. Instead, it communicates through the defined ports and relies on the adapters to interact with them.
+
+The hexagonal architecture promotes loose coupling, which makes the system more maintainable, testable, and adaptable to changes. It allows for easier swapping of external dependencies or modifying user interfaces without affecting the core business logic. The separation of concerns and clear boundaries between layers also make the system easier to understand and reason about.
 
 `Documentation <https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>`__
 
 See also `Hexagonal Architecture in PHP <https://www.developers.nl/blog/35/hexagonal-architecture-in-php>`_
+
+Related packages : `pccomponentes/ddd  <https://packagist.org/packages/pccomponentes/ddd >`_
 
 .. _html-entities:
 
@@ -7586,7 +8034,11 @@ Related : :ref:`HTTPS <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protoc
 Iconv
 -----
 
-Iconv is both a PHP function, a PHP extension and a library for character encoding conversion. 
+`iconv` is a PHP extension that stands for Internationalized CONVersion. It provides functionality to convert strings between different character encodings, making it useful for dealing with multilingual and internationalized applications.
+
+The iconv extension allows you to convert strings from one character encoding to another, and it also supports transliteration and character set detection. This is particularly important when dealing with data that may come from different sources with various character encodings.
+
+`iconv` is both a PHP function, a PHP extension and an independant library for character encoding conversion. 
 
 .. code-block:: php
    
@@ -7598,7 +8050,9 @@ Iconv is both a PHP function, a PHP extension and a library for character encodi
 
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__
 
-See also `libiconv <http://www.gnu.org/software/libiconv/>`_
+See also `libiconv <http://www.gnu.org/software/libiconv/>`_, `How to use Iconv function in PHP <https://topic.alibabacloud.com/a/how-to-use-font-colorrediconvfont-function-in-php_4_86_30934271.html>`_
+
+Related packages : `zbateson/mb-wrapper <https://packagist.org/packages/zbateson/mb-wrapper>`_
 
 .. _identical:
 
@@ -8188,7 +8642,9 @@ instanceof
 Insteadof
 ---------
 
-The insteadof operator needs to be used to resolve naming conflicts between multiple traits used in the same class.
+The insteadof operator is used in the context of trait composition and resolving conflicts between methods or properties of multiple traits that are being used in a class.
+
+When a class uses multiple traits that have methods or properties with the same name, naming conflicts can arise. The insteadof operator helps to resolve these conflicts by specifying which trait's implementation should be used in the class.
 
 .. code-block:: php
    
@@ -8225,7 +8681,11 @@ The insteadof operator needs to be used to resolve naming conflicts between mult
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict>`__
 
+See also `PHP Traits Explained <https://alexwebdevelop.com/php-traits/>`_
+
 Related : :ref:`Use <use>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.4+
 
@@ -8394,7 +8854,7 @@ Related : :ref:`Locale <locale>`
 Interpolation
 -------------
 
-Interpolation is the PHP feature that automatically replaces variables by their value in double-quoted strings and Heredoc syntax.
+Interpolation is the PHP feature that automatically replaces variables and public properties by their value in double-quoted strings and Heredoc syntax.
 
 .. code-block:: php
    
@@ -8985,7 +9445,7 @@ Literal types are type which not only check the type of a value but also the val
 
 `Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
 
-Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`
+Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`
 
 Added in PHP 8.0
 
@@ -9289,7 +9749,7 @@ There are PHP functions and operators that perform safe comparisons ,such as `==
 
 See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_, `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_
 
-Related : , :ref:`Comparison <comparison>`, :ref:`Type Juggling <type-juggling>`
+Related : :ref:`Hash <hash>`, :ref:`Comparison <comparison>`, :ref:`Type Juggling <type-juggling>`
 
 .. _magic-method:
 
@@ -9320,7 +9780,7 @@ The constructor and destructors are not considered as magic methods, even though
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
-See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_
+See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_, `PHP Magic Methods Explained <https://atakde.medium.com/php-magic-methods-explained-bac7053c007d>`_
 
 Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, :ref:`__toString() method <-__tostring>`, :ref:`__invoke <-__invoke>`, :ref:`__set_state() method <-__set_state>`
 
@@ -9651,6 +10111,22 @@ Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :re
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _module:
+
+Module
+------
+
+In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities. It is a fundamental concept in modular programming, which aims to break down complex systems into smaller, more manageable components.
+
+In the PHP world, modules often refers to specfic frameworks' component : for example, Drupal and Laravel use modules to extends their features.
+
+
+See also `Download & Extend <https://www.drupal.org/project/project_module>`_
+
+Related : , :ref:`Extensions <extension>`, 
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _mbstring:
 .. _multibyte-string:
 
@@ -9760,6 +10236,10 @@ mysqli_sql_exception
 
 mysqli_sql_exception is thrown when a mysqli related error is found. 
 
+When an error occurs during a database operation using the MySQLi extension, such as a failed database connection or a syntax error in a query, a mysqli_sql_exception exception can be thrown.
+
+Methods like ``commit``, ``query``, ``prepare``, ``execute_query``, ``rollback``, ``real_query``, ``real_connect``, ``__construct``,  ``reap_async_query`` all throw exceptions when the strict mode is activated.
+
 
 
 .. code-block:: php
@@ -9866,7 +10346,9 @@ Related : :ref:`Static Method <static-method>`
 Named Parameters
 ----------------
 
-Argument names may be used when calling a method.
+Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters.
+
+In traditional positional parameter passing, the values are provided to a function in the order in which the parameters are defined. However, with named parameters, the parameter to which a value is passed, is explicitely stated.
 
 .. code-block:: php
    
@@ -9890,6 +10372,8 @@ Argument names may be used when calling a method.
 See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_
 
 Related : :ref:`Positional Parameters <positional-parameter>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _namespace-alias:
 
@@ -9961,7 +10445,7 @@ Added in PHP 5.3
 Native
 ------
 
-A feature is called 'native' when it is part of the standard installation of PHP. For example, `.` (dot operator) or the `stdClass` class are native to PHP.
+A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP. For example, `.` (dot operator) or the `stdClass` class are native to PHP.
 
 A feature may also be custom, when defined by the developer or extension, when defined in a PHP extension. 
 
@@ -9979,6 +10463,10 @@ A feature may also be custom, when defined by the developer or extension, when d
    
    ?>
 
+
+Related : :ref:`Built in <built-in>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _nested-attributes:
 
@@ -10185,13 +10673,20 @@ Added in PHP 5.5
 Null
 ----
 
-Null represents the absence of data. It is the default value for objects. 
+``null`` is a special data type that represents a variable with no value or an undefined value. It is used to indicate the absence of a value. In other words, when a variable is assigned the value null, it means that the variable exists but has no valid data. 
+
+``null`` may be used as a default value for variables, parameter or properties that are expected to hold some value later but don't have a value assigned initially. It was also be used to unset a variable and free up memory, when using the operator ``(unset)``. 
+
+There is also a design pattern called Null Pattern, although its main goal is to remove usage of null and replace it with an actual object. 
+
 
 .. code-block:: php
    
    <?php
    
    $a = null;
+   
+   function foo(?string $s = null) {}
    
    ?>
 
@@ -10200,7 +10695,7 @@ Null represents the absence of data. It is the default value for objects.
 
 See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_, `Avoiding Unnecessary Null Checks <https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/>`_
 
-Related : :ref:`Nullable <nullable>`
+Related : :ref:`Nullable <nullable>`, 
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -10487,9 +10982,9 @@ Related : :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:
 Object Operator ->
 ------------------
 
-The Object Operator is the operator to access properties and methods from an object. 
+The Object Operator is the operator to access properties and methods from an object. It is ``->``, sometimes called the arrow. 
 
-Depending on the context, those properties and methods must be public or protected.
+Depending on the context, those properties and methods must be public, protected or private. When the visibility is not valid, or if the method doesn't exists, PHP yields a Fatal error. Accessing an undefined property is a warning. 
 
 Object Nullsafe Operator is directly related to the Object operator : the difference is that the former keeps on executing when the support object is null, while the second stops with a fatal error.
 
@@ -10520,6 +11015,8 @@ Object Nullsafe Operator is directly related to the Object operator : the differ
 
 Related : :ref:`Null Safe Object Operator <nullsafe-object-operator>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _orm:
 
 Object Relational Mapping (ORM)
@@ -10535,7 +11032,7 @@ PHP has several ORM : Doctrine, Redbean, Eloquent, Propel.
 
 See also `PDO in PHP <https://www.php.net/manual/en/intro.pdo.php>`_
 
-Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`
+Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, 
 
 Related packages : `doctrine/orm <https://packagist.org/packages/doctrine/orm>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_, `propel/propel <https://packagist.org/packages/propel/propel>`_, `gabordemooij/redbean <https://packagist.org/packages/gabordemooij/redbean>`_
 
@@ -10763,7 +11260,9 @@ Related : :ref:`Incoming Data <incoming-data>`
 OutOfRangeException
 -------------------
 
-Exception thrown when an illegal index was requested. 
+OutOfRangeException is a built-in exception class that is used to indicate that an index or value is outside the acceptable range. It is a subclass of the LogicException class.
+
+The OutOfRangeException is typically thrown when accessing an array or collection with an index that is either negative or exceeds the valid range of indices. It can also be thrown when working with iterators or other data structures that have a defined range of valid values. 
 
 .. code-block:: php
    
@@ -10781,6 +11280,8 @@ Exception thrown when an illegal index was requested.
 
 
 `Documentation <https://www.php.net/manual/en/class.outofrangeexception.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _overflow:
 
@@ -11084,7 +11585,15 @@ PDOException represents an error raised by PDO. You should not throw a PDOExcept
 PEAR
 ----
 
-PEAR stands for PHP Extension And Repository. 
+PEAR stands for 'PHP Extension and Application Repository'. It was a framework and distribution system for reusable PHP components, libraries, and software packages. PEAR provides a structured and standardized way to package and distribute PHP code, making it easier for developers to share and reuse code across projects. 
+
+Nowadays, PEAR is not much used anymore and is replaced by composer.
+
+`Documentation <http://pear.php.net/>`__
+
+Related : :ref:`Composer <composer>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _pecl:
 
@@ -11448,7 +11957,34 @@ PHP provides a set of predefined variables. They may be super-global, and availa
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-Related : :ref:`Superglobal variables <super-global>`, :ref:`Variables <variable>`
+Related : :ref:`Superglobal Variables <super-global>`, :ref:`Variables <variable>`
+
+.. _wrapper-php:
+
+PHP Wrapper
+-----------
+
+A Wrapper is a custom way to access remote resources. It is designed to look like accessing to file, on the file system, but using other drivers than the ones of the hard drive. It is based on a configuration string, which looks like a URL : `ftp://www.site.com/file.txt`, where the part before the `://` is the protocol.
+
+Among the predefined PHP wrapper, there are http://, ftp://, zlib://, phar://, rar://, expect://. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $html = file_get_content('http://www.php.net/');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
+
+See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_, `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_
+
+Related : :ref:`Protocol <protocol>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _fpm:
 .. _php-fpm:
@@ -11603,25 +12139,30 @@ plus +
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _portability:
 
 Portability
 -----------
 
-Portability is the capacity of a PHP application to run on different platform. 
+Portability refers to the ability of a PHP codebase to run on different platforms or environments without requiring significant modifications. It means that the code can be easily transferred from one system to another, such as different operating systems or web servers, without encountering compatibility issues or breaking functionality.
 
-PHP is quite portable by itself : the vast majority of the codes runs on every plat-forms.
+The notion of portability is essential because PHP applications are often deployed on various platforms, like Windows, Linux, or macOS, and different web servers like Apache HTTP Server or Nginx. 
 
-On the other hands, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as `scoutapm` or `com`. Such non-portable features should not be used, or made optional in code for which portability is important.
+To ensure portability in PHP code, developers should follow best practices such as avoiding platform-specific functions, libraries, or configurations. Additionally, frameworks and libraries promote portability, such as Laravel or Symfony.
+
+For example, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as `scoutapm` or `com`. Such non-portable features should not be used, or made optional in code for which portability is important. For example, the COM extension, or win32service extensions are available only on Windows; the extensions ev and eio are only available on Linux. When accessing files, both the / used by Linux, and \ used by Windows are supported, though it is recommended to use the /. 
 
 
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _positional-parameter:
 
 Positional Parameters
 ---------------------
 
-Argument which are identified by their position in the signature or the call. This is the traditional way of sending arguments to a method. 
+Way of calling a function or method, where argument which are identified by their position in the signature or the call. This is the traditional way of sending arguments to a method. 
 
 The alternative way is to use named parameters.
 
@@ -11645,6 +12186,8 @@ The alternative way is to use named parameters.
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
 Related : :ref:`Named Parameters <named-parameter>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _precedence:
 
@@ -11702,6 +12245,8 @@ Other constants come from extensions : for example, the Math extension defines M
 
 Related : :ref:`Constants <constant>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _prepared-query:
 
 Prepared Query
@@ -11732,6 +12277,8 @@ Most PHP DB extensions support prepared statements. Prepared statement may also 
 `Documentation <https://en.wikipedia.org/wiki/Prepared_statement>`__
 
 Related : :ref:`Simple Query Language (SQL) <sql>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.0+
 
@@ -11855,6 +12402,22 @@ See also ` Example: Parallel processing in PHP using pcntl_fork()  <https://gist
 
 Related : :ref:`PHP Handlers <handler>`
 
+.. _promise:
+
+Promise
+-------
+
+A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet. It allows you to write code that can continue executing while waiting for the completion of a long-running task, such as making an HTTP request or querying a database.
+
+Promises follow the concept of promises in the context of the Promises/A+ specification, which is a widely adopted standard for asynchronous programming in many programming languages.
+
+In PHP, promises are commonly used with libraries or frameworks that provide asynchronous functionality, such as Guzzle for making HTTP requests or ReactPHP for building asynchronous applications.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Futures_and_promises>`__
+
+Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_, `guzzle/promises <https://packagist.org/packages/guzzle/promises>`_, `react/promises <https://packagist.org/packages/react/promises>`_, `php-http/promise <https://packagist.org/packages/php-http/promise>`_
+
 .. _promoted-property:
 
 Promoted Properties
@@ -11918,7 +12481,12 @@ Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly
 Property Type Declaration
 -------------------------
 
-Type declaration for properties. 
+Type declaration property, also known as typed properties, is a feature introduced in PHP 7.4 that allows to specify the type of a class property. 
+
+With type declaration properties, the type of a property is explicitely defined, ensuring that only values of the specified type can be assigned to that property. This helps enforce type safety and prevents accidental assignments of incompatible values.
+
+Typed properties support any type format : simple, union, intersectional or DNF. 
+
 
 .. code-block:: php
    
@@ -11933,7 +12501,9 @@ Type declaration for properties.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`Type system <typehint>`
+Related : :ref:`Type system <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 7.4
 
@@ -11986,7 +12556,11 @@ In a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and rela
 
 `Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
 
+See also `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_
+
 Related : :ref:`Wrapper <wrapper>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _public:
 
@@ -12131,6 +12705,10 @@ Readability is a human characteristic of the code : it depends on the level of k
    
    ?>
 
+
+See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _readonly:
 
@@ -12454,6 +13032,78 @@ A regular expression is a sequence of characters that specifies a search pattern
 
 `Documentation <https://www.php.net/preg_match>`__
 
+.. _relative-types:
+
+Relative Types
+--------------
+
+Relative types are types that are not explicit, but relative to the current class. There are three relative types : 
+
++ static : this represents the current calling class. It is important when the class is not directly called, but one of its children is. 
++ self : this represents the current class, at compilation time. 
++ parent : this represents the first available parent of the current class. It usually is the direct parent, but may skip classes when the requested resource is not available, as in method calls. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x extends y {
+   	function foo() : self {}
+   	function hoo() : static {}
+   	function ioo() : parent {}	
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.relative-class-types.php>`__
+
+Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Literal types <literal-types>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _loose-comparison:
+
+Relaxed Comparison
+------------------
+
+In PHP, relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values. Relaxed comparison is performed using the double equals operator (==).
+
+When using relaxed comparison (``==``), PHP will attempt to convert the operands to compatible types before comparing them. If the operands are of different types, PHP will perform type coercion to make them comparable.
+
+Relaxed comparison is associated with ``==``, ``!=`` and ``<>``. It also applies to switch(), the spaceship operator ``<=>``, and the inegalities ``>``, ``<``, ``>=``, ``<=``. 
+
+The contrary to relaxed comparison is the strict comparison, which includes type. 
+
+Loose comparison is know to have changed significantly in PHP 8.0 : in particular, for special values like 0, empty string '', null and false.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   //true
+   var_dump(1 == 1);
+   //false
+   var_dump(1 === 1);
+   
+   //false
+   var_dump(1 > 'a');
+   //true
+   var_dump(1 < 'a');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
+
+See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
+
+Related : :ref:`Switch <switch>`, :ref:`Strict Comparison <strict-comparison>`
+
 .. _release:
 
 Release
@@ -12539,7 +13189,7 @@ Related : :ref:`PHP RFC <php-rfc>`, :ref:`RFC <rfc>`
 
 .. _rfu:
 
-Reserved for Future Use
+Reserved For Future Use
 -----------------------
 
 RFU stands for Reserved for Future Use. It means that the code is here for later usage, but not right now. Implicitly, it is a request to leave it in place, until actual usage happen.
@@ -12880,10 +13530,20 @@ Frameworks such as CakePHP and Spiral offer scaffolding.
 .. _scalar-typehint:
 .. _scalar:
 
-Scalar Typehints
-----------------
+Scalar Types
+------------
 
-In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function. 
+Scalar types refer to the basic data types that hold a single value. 
+
+PHP scalar types include the following:
+
+Integer (``int``): integers are whole numbers without decimal points. 
+
+Float (``float``): floats, also known as floating-point numbers or doubles, represent decimal numbers. 
+
+String  (``string``): strings are sequences of characters enclosed in quotes (single or double).
+
+Boolean  (``bool``): booleans have two possible values: true or false.  
 
 .. code-block:: php
    
@@ -12900,7 +13560,11 @@ In its simplest form, a yield statement looks much like a return statement, exce
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield>`__
 
-Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
+See also `PHP 7 Scalar Type Declaration <https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration>`_
+
+Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`, :ref:`String <string>`, :ref:`Boolean <boolean>`, :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 7.0
 
@@ -13187,11 +13851,11 @@ It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal vari
 
 See also `Session in PHP: Creating, Destroying, and Working With Session in PHP <https://www.simplilearn.com/tutorials/php-tutorial/session-in-php>`_
 
-Related : :ref:`Superglobal variables <superglobal>`
+Related : :ref:`Superglobal Variables <superglobal>`
 
 .. _shallow-clone:
 
-Shallow clone
+Shallow Clone
 -------------
 
 A shallow clone is an object cloning, where the cloned object keeps the same object properties as the original object. This is a fast way to share data between objects.
@@ -13233,10 +13897,12 @@ See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_p
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Deep clone <deep-clone>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _short-assignation:
 .. _combined-operator:
 
-Short assignations
+Short Assignations
 ------------------
 
 In addition to the basic assignment operator, there are combined operators for all of the binary arithmetic, array union and string operators that allow you to use a value in an expression and then set its value to the result of that expression.
@@ -13257,6 +13923,8 @@ In addition to the basic assignment operator, there are combined operators for a
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
 Related : :ref:`Assignations <assignation>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _short-syntax:
 
@@ -13287,6 +13955,7 @@ It is convenient when the variable has to be assigned again to itself.
 Related : :ref:`Assignations <assignation>`, :ref:`Operators <operator>`
 
 .. _short-tag:
+.. _short-open-tag:
 
 Short Tags
 ----------
@@ -13320,10 +13989,12 @@ See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/de
 
 Related : :ref:`PHP tags <php-tag>`, :ref:`Echo Tag <echo-tag>`
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _short-ternary:
 .. _short-ternary-operator:
 
-Short Ternary operator
+Short Ternary Operator
 ----------------------
 
 The expression ``(expr1) ?: (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to empty(), and ``expr3`` if ``expr1`` evaluates to false.
@@ -13344,7 +14015,7 @@ Is is a short version of the ternary operator, and it is often used to set defau
 
 See also `Short Hand Comparison in PHP <https://stitcher.io/blog/shorthand-comparisons-in-php>`_
 
-Related : :ref:`Ternary operator <ternary>`, :ref:`Coalesce operator <coalesce>`
+Related : :ref:`Ternary Operator <ternary>`, :ref:`Coalesce operator <coalesce>`
 
 Added in PHP 5.3+
 
@@ -13386,12 +14057,12 @@ Related : :ref:`PHP Handlers <handler>`
 
 .. _signature:
 
-signature
+Signature
 ---------
 
 The signature of a method or a function is the list of arguments and constraints that applies when calling it. 
 
-In its simplest form, signature of a method is its argument's type and list, though modern syntax should also include default values, visibilities and parameter names.
+In its simplest form, signature of a method is its name, its argument's type and list, though modern syntax also include default values, visibilities, attributes and parameter names.
 
 
 .. code-block:: php
@@ -13399,11 +14070,14 @@ In its simplest form, signature of a method is its argument's type and list, tho
    <?php
    
    function foo(string &$s = 'abc') {}
+   
    ?>
    
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _sql:
 
@@ -13709,7 +14383,7 @@ Related : :ref:`Array <array>`, :ref:`Closure <closure>`
 
 .. _spaceship:
 
-Spaceship operator
+Spaceship Operator
 ------------------
 
 Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value. It return 1, 0 or -1 in each case, respectively. 
@@ -13734,11 +14408,13 @@ The spaceship operator got its name from its resemblance to an flying saucer. Ba
 
 `Documentation <https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op>`__
 
-See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-php/>`_
+See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-php/>`_, `What Is the PHP Spaceship Operator? <https://www.designcise.com/web/tutorial/what-is-the-php-spaceship-operator>`_
 
 Related : :ref:`Comparison <comparison-operator>`
 
 Related packages : ` <https://packagist.org/packages/>`_
+
+Added in PHP 7.0
 
 .. _special-typehint:
 
@@ -13988,7 +14664,7 @@ Related : :ref:`Semicolon <semicolon>`
 static
 ------
 
-Static has many distinct usages.
+The ``static`` keyword has many distinct usages.
 
 Static is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current called class.
 
@@ -14024,9 +14700,9 @@ Static is a keyword for variables : those variables aren't removed at the end of
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_
+See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `Scope of Variables <https://jobtensor.com/Tutorial/PHP/en/Variables>`_
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
+Related : , :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
 
 .. _static-method:
 
@@ -14090,7 +14766,13 @@ Related : :ref:`Properties <property>`, :ref:`Static Method <static-method>`
 Static Variables
 ----------------
 
-Variables that reside in one method's scope, even after the method's end. 
+A static variable is a variable that retains its value across multiple function calls. Unlike regular variables, which are created and destroyed each time a function is called, static variables are initialized only once and persist throughout the entire execution of the script. 
+
+To declare a static variable in PHP, you need to use the static keyword inside a function. 
+
+Static variables are commonly used when you want to keep track of certain information across function calls without the need to use global variables or properties. They are especially useful for counters, accumulators, caching, and memoization. However, it's essential to use them judiciously and avoid excessive reliance on them, as they can make code harder to maintain and understand if used indiscriminately.
+
+Static variables may be refactored as a global variable or a property. 
 
 .. code-block:: php
    
@@ -14110,7 +14792,7 @@ Variables that reside in one method's scope, even after the method's end.
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_
+See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`
 
@@ -14230,7 +14912,7 @@ Here are the strict operators : ``==`` may be replaced with ``===``,  ``!=`` may
 
 See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
 
-Related : :ref:`Switch <switch>`, :ref:`Match <match>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, 
 
 .. _strict_types:
 
@@ -14284,7 +14966,7 @@ A string is series of characters, where a character is the same as a byte. This 
 
 Related : :ref:`Stringable <stringable>`, :ref:`Magic Methods <magic-method>`
 
-Related packages : `symfony/string <https://packagist.org/packages/symfony/string>`_
+Related packages : `symfony/string <https://packagist.org/packages/symfony/string>`_, `voku/stringy <https://packagist.org/packages/voku/stringy>`_
 
 .. _string-interpolation:
 
@@ -14331,7 +15013,7 @@ Stringable
 
 Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant; or an object which has the `__toString()` method.
 
-Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitly.
+Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitnly.
 
 
 .. code-block:: php
@@ -14347,22 +15029,26 @@ Stringable is automatically added to any class (and subclass) that has the `__to
 
 `Documentation <https://www.php.net/manual/en/class.stringable.php>`__
 
+See also `What is Stringable Interface in PHP 8? <https://www.tutorialspoint.com/what-is-stringable-interface-in-php-8>`_
+
 Related : :ref:`String <string>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.0
 
 .. _strpos-syndrom:
 
-Strpos() syndrome
------------------
+Strpos() Syndrom
+----------------
 
-The strpos() syndrome is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
+The strpos() syndrom is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
 
 PHP's string are indexed starting with 0, so the found string might be in an index from 0 to the size of the string. 
 
 PHP also cast 0 to false. And false is also the value that is returned when the string is not found. So, if the found string is at the very beginning of the searched string, it might be confused for its absence.
 
-To avoid confusion, it is recommended to make an explicit comparison with false, using `===` or `!==`.
+To avoid confusion, it is recommended to make an explicit comparison with false, using ``===`` or ``!==``.
 
 Note that many PHP native functions behave that way, and should be treated with the same precaution.
 
@@ -14391,12 +15077,14 @@ In the case of strpos(), it may be replaced with str_contains() (since PHP 8.0) 
 
 See also `Strpos Function Issue In Php Not Finding The Needle <https://www.learn-codes.net/php/strpos-function-issue-in-php-not-finding-the-needle/>`_
 
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _stubs:
 
-Stubs files
+Stubs Files
 -----------
 
-Stubs files are PHP code, that contain only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code. They provide the definition.
+Stubs files are PHP code, that contains only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code. They only provide the definitions.
 
 Stubs files are also used for PHP code templates : they are mostly made of PHP code, with placeholders, for later generations. 
 
@@ -14422,11 +15110,29 @@ Related packages : ` <https://packagist.org/packages/>`_
 .. _superglobal:
 .. _super-global:
 
-Superglobal variables
+Superglobal Variables
 ---------------------
 
-Superglobal variables are built-in PHP variable that are always available in any scope. Their names : 
-$GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $_ENV.
+PHP superglobal variables are predefined variables that are accessible from any scope within a PHP script without the need for any special syntax or function calls. These variables are called 'superglobals' because they are automatically available in all scopes, including functions, methods, and the global scope.
+
+PHP provides several superglobal variables, each serving a specific purpose. Here are the most commonly used ones:
+
+    $_SERVER: Contains information about the server and execution environment, such as headers, paths, and script locations.
+
+    $_GET: Holds the values of variables passed to the current script via the URL parameters (HTTP GET method).
+
+    $_POST: Stores the values of variables sent to the current script via HTTP POST method (usually from an HTML form).
+
+    $_REQUEST: Contains the values of both $_GET, $_POST, and $_COOKIE variables, providing a convenient way to access user input data.
+
+    $_COOKIE: Holds the values of cookies sent by the client browser to the server.
+
+    $_SESSION: Stores and retrieves session variables, which are used to persist data across multiple requests from the same user.
+
+    $_FILES: Contains information about uploaded files through an HTML form with enctype=multipart/form-data.
+
+    $_ENV: Holds variables passed to the PHP script from the server's environment.
+
 
 
 .. code-block:: php
@@ -14447,7 +15153,11 @@ $GLOBALS, $_SERVER, $_GET, $_POST, $_FILES, $_COOKIE, $_SESSION, $_REQUEST and $
 
 `Documentation <https://www.php.net/manual/en/language.variables.superglobals.php>`__
 
+See also `What are superglobals in PHP? <https://www.educative.io/answers/what-are-superglobals-in-php>`_
+
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _supply-chain-attack:
 
@@ -14489,7 +15199,7 @@ Related packages : `rubix/ml <https://packagist.org/packages/rubix/ml>`_
 SVMException
 ------------
 
-The SVNException exception is thrown by the SVM::train() method.
+The SVMException exception is thrown by the SVM::train() method. It happens when the model could not be trainted. 
 
 .. code-block:: php
    
@@ -14708,6 +15418,23 @@ By default, PHP reacts to system events. It may also handle those events by conf
 
 Related : :ref:`PHP Handlers <handler>`, :ref:`Process Control (pcntl) <pcntl>`
 
+.. _task-runner:
+
+Task Runner
+-----------
+
+A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications. It helps streamline development workflows by reducing manual effort and increasing efficiency.
+
+Task runners provide a way to define and execute tasks or scripts in a predefined sequence, often using configuration files or scripts. These tasks can include various activities, such as compiling code, running tests, optimizing assets, generating documentation, and deploying the application to a server.
+
+
+
+See also `Castor, a journey across the sea of task runners <https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners>`_, `Being Productive With Task Runners <https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/>`_
+
+Related : :ref:`Pipeline <pipeline>`
+
+Related packages : `consolidation/robo <https://packagist.org/packages/consolidation/robo>`_, `phing/phing <https://packagist.org/packages/phing/phing>`_, `jolicode/castor <https://packagist.org/packages/jolicode/castor>`_
+
 .. _template:
 
 Template
@@ -14741,7 +15468,7 @@ Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `sma
 .. _ternary:
 .. _ternary-operator:
 
-Ternary operator
+Ternary Operator
 ----------------
 
 The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to true, and ``expr3`` if ``expr1`` evaluates to false.
@@ -14759,7 +15486,7 @@ The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1
 
 See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
-Related : :ref:`Short Ternary operator <short-ternary>`, :ref:`Coalesce operator <coalesce>`
+Related : :ref:`Short Ternary Operator <short-ternary>`, :ref:`Coalesce operator <coalesce>`
 
 Added in PHP 7.0+
 
@@ -14853,7 +15580,9 @@ Added in PHP 5.6
 throw
 -----
 
-Throw is the keyword which raise an existing exception. 
+Throw is the keyword which raise an exception. 
+
+When an exception is thrown, the normal flow of the program is interrupted, and PHP starts looking for an exception handler to catch and handle the exception.
 
 .. code-block:: php
    
@@ -14869,7 +15598,11 @@ Throw is the keyword which raise an existing exception.
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
+See also `Exceptions - PHP Advance <https://jobtensor.com/Tutorial/PHP/en/Exceptions>`_
+
 Related : :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _throwable:
 
@@ -14905,7 +15638,11 @@ Added in PHP 7.0
 Tick
 ----
 
-Ticks are events that occur for a group of statements, executed by the parser, within the declare block. 
+Ticks are events that occur for a group of N statements, executed by PHP. 
+
+Ticks are started within the declare block. 
+
+Ticks are deprecated since PHP 5.3. They might entirely disappear in PHP 9.0.
 
 
 
@@ -14935,7 +15672,11 @@ Ticks are events that occur for a group of statements, executed by the parser, w
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks>`__
 
+See also `The declare() function and ticks <http://www.hackingwithphp.com/4/21/0/the-declare-function-and-ticks>`_, `PHP RFC: Deprecate ticks <https://wiki.php.net/rfc/deprecate_ticks>`_
+
 Related : :ref:`declare() <declare>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _tls:
 
@@ -14971,7 +15712,7 @@ Related : :ref:`SSL <ssl>`
 Trailing Comma
 --------------
 
-The trailing comma is the possibility to leave the last element of a list empty, for presentation reasons.
+The trailing comma is the possibility to leave the last element of a list empty. This is for presentation reasons. In particular, VCS will be able to treat the last line just like any aother previous line, with a final comma. This reduces de amount of diff.
 
 Trailing commas were introduced progressively in PHP. In PHP 7.2, in use statements; in PHP 7.3, in method calls; in PHP 8.0, in method declarations; in very old version, in array declarations.
 
@@ -15215,7 +15956,7 @@ Type declarations can be added to function arguments, return values, and, as of 
 
 See also `Explore Your Types <https://backendtea.com/post/explore-your-types/>`_, `Narrowing types for static analysis <https://seld.be/notes/narrowing-types-for-static-analysis/>`_
 
-Related : :ref:`Scalar Typehints <scalar-typehint>`, :ref:`Union type <union-type>`, :ref:`Intersection Type <intersection-type>`
+Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`
 
 Added in PHP 7.0
 
@@ -15224,7 +15965,10 @@ Added in PHP 7.0
 TypeError
 ---------
 
-The TypeError Error may be thrown when an error related to typing is detected.
+A type error refers to an error that occurs when there is a mismatch or violation of data types. It typically happens when a function or operation is performed on a value of an incompatible type. PHP is a dynamically typed language, which means that variable types can change during runtime. However, certain operations and functions expect specific types, and if the actual type doesn't match the expected type, a type error may occur.
+
+In other situations, PHP applies some type juggling, and automatically convert the type to a suitable type. This is often the case to preserve backward compatibility, when a transparent operation make sense. 
+
 
 .. code-block:: php
    
@@ -15238,12 +15982,19 @@ The TypeError Error may be thrown when an error related to typing is detected.
        print 'Wrong type of argument sent to foo()';
    }
    
+   // PHP convert the integer 12 to the string '12', to allow the concatenation to proceed. 
+   $number = 12;
+   print There are.$number.apple in the tree.;
+   
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.typeerror.php>`__
 
 Related : :ref:`Error <error>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 7.0
 
@@ -15357,14 +16108,19 @@ PHP may translate from and to Unicode to other character sets with extensions su
 
 `Documentation <https://home.unicode.org/>`__
 
-Related : :ref:`SimpleXML <simplexml>`, :ref:`DomXML <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
 
 .. _union-type:
 
-Union type
+Union Type
 ----------
 
-Specifying several types in as a typehint, separated with the | operator. 
+Union types refer to the ability to specify multiple possible types for a property, parameter, or return value. It allows a property or parameter to accept values of different types. It allows a method or function to return values of different types. Union types were introduced in PHP 8.
+
+Before PHP 8, type declaration could only have a single type declaration, except for the null type. Nowadays, with union types, the code can declare multiple types by separating them with a pipe (|) symbol. 
+
+Union types were introduced for exception catching, before PHP 8.
+
 
 .. code-block:: php
    
@@ -15372,6 +16128,12 @@ Specifying several types in as a typehint, separated with the | operator.
    
    class x {
        private A | B | C $property;
+   }
+   
+   try {
+   
+   } catch (A|B|C $e) {
+   
    }
    
    ?>
@@ -15382,6 +16144,8 @@ Specifying several types in as a typehint, separated with the | operator.
 See also `What are union types and how do you use them in PHP? <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_
 
 Related : :ref:`Type system <typehint>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.0
 
@@ -15475,10 +16239,19 @@ Related : :ref:`Variadic <variadic>`
 
 .. _unreachable-code:
 
-Unreachable code
+Unreachable Code
 ----------------
 
-Unreachable code is code that is written, but has no chance of being executed. 
+Unreachable code refers to a section of code within a program that can never be executed during the program's runtime. It means that the code is written in such a way that it can never be reached or accessed by the program's execution flow.
+
+Unreachable code can occur due to several reasons:
+
++ Conditional statements
++ Early return statements
++ Infinite loops
++ Branching with goto, yield, break, return, die...
+
+
 
 .. code-block:: php
    
@@ -15499,6 +16272,8 @@ Unreachable code is code that is written, but has no chance of being executed.
    
    ?>
 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _unset:
 
@@ -15521,6 +16296,8 @@ unset() removes a variable. This feature used to be available as a function call
 `Documentation <https://www.php.net/manual/en/function.unset.php>`__
 
 Related : :ref:`Variables <variable>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _unserialization:
 .. _unserialize:
@@ -15615,7 +16392,7 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
-Related : :ref:`SimpleXML <simplexml>`, :ref:`DomXML <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
 
 .. _use:
 
@@ -15741,7 +16518,9 @@ Related : :ref:`Sanitation <sanitation>`
 Value Object
 ------------
 
-A value object is an object is defined only by its properties. In particular, a value object has no identifier.
+A value object is a design pattern used to represent immutable objects that encapsulate a set of related values or attributes. Unlike entities, which are identified by their identity and can change over time, value objects are defined by their state and remain constant throughout their lifetime.
+
+Value objects are typically used to model concepts that don't have a distinct identity but are important for the behavior and correctness of the system. For example, a Date value object can represent a specific date, and its attributes may include the year, month, and day. Another example is a Money value object that represents a monetary amount, including attributes such as the currency and the value.
 
 .. code-block:: php
    
@@ -15761,12 +16540,16 @@ A value object is an object is defined only by its properties. In particular, a 
 
 See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_
 
+Related packages : `sebastian/type <https://packagist.org/packages/sebastian/type>`_, `cuyz/valinor <https://packagist.org/packages/cuyz/valinor>`_
+
 .. _valueerror:
 
 ValueError
 ----------
 
-A ValueError is thrown when the type of an argument is correct but the value of it is incorrect.
+A ValueError is thrown when the type of an argument is correct but the value of it is incorrect. 
+
+It is a PHP error, and not an exception, it is thrown by PHP native functions. 
 
 .. code-block:: php
    
@@ -15776,10 +16559,19 @@ A ValueError is thrown when the type of an argument is correct but the value of 
    // -2 is not a valid number base : it should be 2 or more.
    // Argument #2 ($from_base) must be between 2 and 36 (inclusive)
    echo base_convert($hexadecimal, 0, 2);
+   
+   // Third argument is for the starting offset. Here, this is beyond the end of the string
+   // as such, the offset has a valid type (integer), but its value is not correct (out of range)
+   $a = strpos(p, php, 16);
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.valueerror.php>`__
+
+See also `PHP 8.0: New ValueError Error Exception <https://php.watch/versions/8.0/ValueError>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _var:
 
@@ -15884,7 +16676,10 @@ Local variables are only available in one method or function, not counting the l
 Variable Variables
 ------------------
 
-Variables whose name is held in another variable.
+Variable variables refer to a feature that allows to use the value of a variable as the name of another variable. It provides a way to dynamically create and access variables based on runtime values.
+
+Variable variables are denoted by the double dollar sign ``$$`` followed by the name of the variable stored in another variable. More dollar signs may be coumpounded, though it is rare.
+
 
 .. code-block:: php
    
@@ -15903,6 +16698,8 @@ Variables whose name is held in another variable.
 See also `The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-php-variable-variables>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`compact() <compact>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _variable_order:
 
@@ -15938,7 +16735,13 @@ Related : :ref:`$_REQUEST <$_request>`
 Variables
 ---------
 
-Variables holds data when processing a PHP script. 
+Variables are used to store and manipulate data. They are containers that hold values, such as numbers, strings, arrays, objects, and more. Variables are an essential component of programming, allowing to store and retrieve information as needed throughout the code. 
+
+Variables in PHP must start with a dollar sign ``$`` followed by the variable name. The name should begin with a letter or an underscore and can contain letters, numbers, and underscores. PHP variable names are case-sensitive.
+
+PHP is a loosely typed language, which means you don't need to explicitly declare the type of a variable. PHP determines the variable's type based on the assigned value. 
+
+
 
 .. code-block:: php
    
@@ -15953,7 +16756,7 @@ Variables holds data when processing a PHP script.
 
 `Documentation <https://www.php.net/manual/en/language.variables.php>`__
 
-Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`
+Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Type system <type>`, , :ref:`Interpolation <interpolation>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -16221,27 +17024,25 @@ Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loo
 Wrapper
 -------
 
-A Wrapper is a custom way to access remote resources. It is designed to look like accessing to file, on the file system, but using other drivers than the ones of the hard drive. It is based on a configuration string, which looks like a URL : `ftp://www.site.com/file.txt`, where the part before the `://` is the protocol.
+A wrapper may be several things: 
 
-Among the predefined PHP wrapper, there are http://, ftp://, zlib://, phar://, rar://, expect://. 
-
-A wrapper is also a design pattern, also called an adapter. This concept also appears when a component provide access to a remote service : it is a PHP wrapper (wrapper for the service when calling PHP) or a `service-name` wrapper, when it is viewed from PHP. 
++ a PHP wrapper
++ a design pattern, also known as adaptor
 
 
 .. code-block:: php
    
    <?php
    
+   // the PHP wrapper http
    $html = file_get_content('http://www.php.net/');
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
-
-See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_
-
 Related : :ref:`Protocol <protocol>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _xml:
 
@@ -16273,7 +17074,7 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
-Related : :ref:`SimpleXML <simplexml>`, :ref:`DomXML <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
 
 .. _xmlreader:
 
@@ -16319,7 +17120,11 @@ The XMLReader extension is an XML Pull parser. The reader acts as a cursor going
 
 `Documentation <https://www.php.net/manual/en/book.xmlreader.php>`__
 
+See also `PHP XML Reader <https://phppot.com/php/php-xml-reader/>`_
+
 Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XML <xml>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.0+
 
@@ -16328,7 +17133,15 @@ Added in PHP 5.0+
 XMLwriter
 ---------
 
-This is the XMLWriter extension. It wraps the libxml xmlWriter API.
+The XMLWriter PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP. It allows to create XML elements, attributes, text nodes, and other XML constructs using a procedural interface.
+
+The XMLWriter extension offers several benefits when working with XML in PHP:
+
++ Efficient and low memory usage: The extension is designed to generate XML incrementally, allowing you to write large XML documents without consuming excessive memory.
++    Stream-oriented output: XMLWriter writes XML data to a stream, which can be a file, memory, or an HTTP connection. This enables you to generate XML directly without the need to store the entire document in memory.
++    Namespace support: XMLWriter supports XML namespaces, allowing you to define and assign namespaces to elements and attributes.
++    Character encoding and formatting: XMLWriter provides methods to set the character encoding of the XML document and control the formatting options, such as indentation and line breaks.
++    Validity and well-formedness checking: XMLWriter performs automatic validation and well-formedness checking as you write XML, ensuring that the generated XML document is compliant with XML standards.
 
 .. code-block:: php
    
@@ -16360,7 +17173,11 @@ This is the XMLWriter extension. It wraps the libxml xmlWriter API.
 
 `Documentation <https://www.php.net/manual/en/book.xmlwriter.php>`__
 
+See also `PHP XMLWriter <https://www.educba.com/php-xmlwriter/>`_, `Create an XML file using XMLWriter <https://riptutorial.com/php/example/2731/create-an-xml-file-using-xmlwriter>`_
+
 Related : :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`
+
+Related packages : `sabre/xml <https://packagist.org/packages/sabre/xml>`_, `fluentdom/fluentdom <https://packagist.org/packages/fluentdom/fluentdom>`_
 
 Added in PHP 5.0+
 
@@ -16369,7 +17186,9 @@ Added in PHP 5.0+
 XXTEA
 -----
 
-XXTea is a block cipher algorithm.
+XXTEA is a symmetric encryption algorithm that stands for 'Corrected Block TEA' (TEA refers to Tiny Encryption Algorithm). It is primarily used for encrypting and decrypting data, providing a level of security for sensitive information.
+
+XXTEA operates on 32-bit integer data blocks and employs a 128-bit key. It uses a series of iterations and bitwise operations to scramble the data and make it unreadable without the corresponding decryption process. XXTEA is a block cipher with a fixed block size of 8 bytes.
 
 .. code-block:: php
    
@@ -16392,6 +17211,8 @@ XXTea is a block cipher algorithm.
 `Documentation <https://en.wikipedia.org/wiki/XXTEA>`__
 
 See also `xxtea-pecl <https://github.com/xxtea/xxtea-pecl>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _yaml:
 
@@ -16463,7 +17284,11 @@ Added in PHP 5.5
 yield from Keyword
 ------------------
 
-Generator delegation allows you to yield values from another generator, Traversable object, or array by using the yield from keyword.
+The `yield from` keyword is used to delegate the iteration control of one generator to another. It was introduced in PHP 7.0 as part of the generator delegation feature. 
+
+This keyword allows to create more maintainable and modular code by reusing the code logic of one generator within another.
+
+Generator delegation works with another generators, Traversable objects, and arrays.
 
 .. code-block:: php
    
@@ -16487,11 +17312,17 @@ Generator delegation allows you to yield values from another generator, Traversa
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`__
 
+See also `How to Use Yield and Generators in PHP <https://code.tutsplus.com/tutorials/how-to-use-yield-and-generators-in-php--cms-39200>`_
+
 Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`
+
+Related packages : ` <https://packagist.org/packages/>`_, ` <https://packagist.org/packages/>`_
+
+Added in PHP 7.0
 
 .. _yoda:
 
-Yoda condition
+Yoda Condition
 --------------
 
 Yoda condition is a way to write condition by using any literal value on the left, instead of the right.
@@ -16516,6 +17347,8 @@ This prevents errors where the comparison operator is shortened, and turned into
 `Documentation <https://en.wikipedia.org/wiki/Yoda_conditions>`__
 
 See also `Why using Yoda conditions you should probably not be  <https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _zombie-code:
 

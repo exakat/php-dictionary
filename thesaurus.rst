@@ -9,6 +9,7 @@ Acronym
 + :ref:`CRUD <crud>`
 + :ref:`Command Line Interface <cli>`
 + :ref:`DTO <dto>`
++ :ref:`Disjunctive Normal Form (DNF) <dnf>`
 + :ref:`HTTPS <https>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`JSON <json>`
@@ -20,6 +21,7 @@ Acronym
 + :ref:`PHP-FPM <fpm>`
 + :ref:`RFC <rfc>`
 + :ref:`Request For Change <rfchange>`
++ :ref:`Reserved For Future Use <rfu>`
 + :ref:`SAPI <sapi>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
@@ -47,10 +49,13 @@ Concept
 + :ref:`Class Wither Method <wither>`
 + :ref:`Classes <class>`
 + :ref:`Clone <clone>`
++ :ref:`Code Smell <code-smell>`
++ :ref:`Command Bus <command-bus>`
 + :ref:`Condition <condition>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Controller <controller>`
 + :ref:`Convention <convention>`
++ :ref:`Coupling <coupling>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Database <database>`
@@ -67,9 +72,10 @@ Concept
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
++ :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
-+ :ref:`Hash <hashing>`
++ :ref:`Hash <hash>`
 + :ref:`Hash() function <hash-function>`
 + :ref:`Index <index>`
 + :ref:`Injection <injection>`
@@ -77,9 +83,11 @@ Concept
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle <lsp>`
++ :ref:`Module <module>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
 + :ref:`Preprocessing <preprocess>`
++ :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`
 + :ref:`Refactoring <refactoring>`
 + :ref:`Reflection <reflection>`
@@ -89,10 +97,10 @@ Concept
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
 + :ref:`Single Responsability Principle <srp>`
-+ :ref:`Stubs files <stubs>`
++ :ref:`Stubs Files <stubs>`
 + :ref:`Template <template>`
 + :ref:`UUID <uuid>`
-+ :ref:`Unreachable code <unreachable-code>`
++ :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`
 + :ref:`Value Object <value-object>`
 + :ref:`View <view>`
@@ -132,6 +140,7 @@ Exception
 + :ref:`OutOfRangeException <outofrangeexception>`
 + :ref:`RangeException <rangeexception>`
 + :ref:`ReflectionException <reflectionexception>`
++ :ref:`TypeError <typeerror>`
 + :ref:`UnhandledMatchError <unhandledmatcherror>`
 + :ref:`ValueError <valueerror>`
 
