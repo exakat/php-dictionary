@@ -79,6 +79,7 @@ Concept
 + :ref:`Hash() function <hash-function>`
 + :ref:`Index <index>`
 + :ref:`Injection <injection>`
++ :ref:`Jobqueue <jobqueue>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
@@ -89,6 +90,7 @@ Concept
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`
++ :ref:`Real Numbers <real>`
 + :ref:`Refactoring <refactoring>`
 + :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
@@ -122,6 +124,7 @@ Control flow
 Directive
 ---------
 
++ :ref:`Disable Functions <disable-functions>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`variable_order <variable_order>`
 

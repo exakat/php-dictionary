@@ -179,6 +179,7 @@ PHP Dictionary
    * :ref:`Destructor <destructor>`
    * :ref:`Directives <directives>`
    * :ref:`DirectoryIterator <directoryiterator>`
+   * :ref:`Disable Functions <disable-functions>`
    * :ref:`Disable classes <disable_classes>`
    * :ref:`Disjunctive Normal Form (DNF) <dnf>`
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
@@ -196,7 +197,6 @@ PHP Dictionary
    * :ref:`declare() <declare>`
    * :ref:`define() <define>`
    * :ref:`dirname <dirname>`
-   * :ref:`disable functions <disable-functions>`
 * E
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
@@ -259,11 +259,13 @@ PHP Dictionary
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
    * :ref:`GraphQL <graphql>`
+   * :ref:`git <git>`
    * :ref:`glob() <glob>`
    * :ref:`global scope <global>`
 * H
    * :ref:`HTML Entities <html-entities>`
    * :ref:`HTML entity <html-entity>`
+   * :ref:`HTTP Code <http-code>`
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
@@ -311,7 +313,7 @@ PHP Dictionary
    * :ref:`integer <integer>`
 * J
    * :ref:`JSON <json>`
-   * :ref:`Jobqueues <jobqueue>`
+   * :ref:`Jobqueue <jobqueue>`
    * :ref:`JsonException <jsonexception>`
    * :ref:`Just In Time <jit>`
 * K
@@ -347,6 +349,7 @@ PHP Dictionary
    * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
+   * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
    * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Migration <migration>`
@@ -365,6 +368,7 @@ PHP Dictionary
    * :ref:`Named Parameters <named-parameter>`
    * :ref:`Namespace alias <namespace-alias>`
    * :ref:`Namespaces <namespace>`
+   * :ref:`Naming <naming>`
    * :ref:`Native <native>`
    * :ref:`Nested Attributes <nested-attributes>`
    * :ref:`Never <never>`
@@ -373,6 +377,7 @@ PHP Dictionary
    * :ref:`Non breakable spaces <non-breakable-space>`
    * :ref:`Nowdocs <nowdoc>`
    * :ref:`Null <null>`
+   * :ref:`Null Pattern <nullpattern>`
    * :ref:`Null Safe Object Operator <nullsafe-object-operator>`
    * :ref:`Null ternary <null-ternary>`
    * :ref:`Nullable <nullable>`
@@ -421,6 +426,7 @@ PHP Dictionary
    * :ref:`Pagination <pagination>`
    * :ref:`Parameter <parameter>`
    * :ref:`Parenthesis <parenthesis>`
+   * :ref:`ParseError <parseerror>`
    * :ref:`Passing By Reference <by-reference>`
    * :ref:`Passing By Value <by-value>`
    * :ref:`Persistence <persistence>`
@@ -470,7 +476,7 @@ PHP Dictionary
    * :ref:`Registry <registry>`
    * :ref:`Regular Expressions <regex>`
    * :ref:`Relative Types <relative-types>`
-   * :ref:`Relaxed Comparison <loose-comparison>`
+   * :ref:`Relaxed Comparison <relaxed-comparison>`
    * :ref:`Release <release>`
    * :ref:`Remote Procedure Call <rpc>`
    * :ref:`Rendering <render>`
@@ -1877,7 +1883,7 @@ There are several API protocols : REST, RPC, GraphQL and SOAP.
 
 `Documentation <https://en.wikipedia.org/wiki/API>`__
 
-Related : :ref:`REST API <rest-api>`, , , 
+Related : :ref:`REST API <rest-api>`, , :ref:`GraphQL <graphql-api>`, 
 
 .. _apm:
 
@@ -4739,7 +4745,7 @@ With CVS, developers can check out a copy of a project's source code, make chang
 
 `Documentation <https://en.wikipedia.org/wiki/Concurrent_Versions_System>`__
 
-Related : , , 
+Related : :ref:`git <git>`, , 
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -4783,6 +4789,7 @@ See also `No Dangling References <https://github.com/dseguy/clearPHP/blob/master
 Related : :ref:`Loops <loop>`, :ref:`References <reference>`
 
 .. _data-mapper:
+.. _object-mapper:
 
 Data Mapper
 -----------
@@ -4921,7 +4928,7 @@ When dealing with days, it is recommended to use an interval, or use reltive exp
 
 `Documentation <https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622>`__
 
-Related : 
+Related : :ref:`Days In Month <days-in-month>`
 
 .. _days-in-month:
 
@@ -4949,7 +4956,7 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 `Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
 
-Related : 
+Related : :ref:`Day are not 86400 seconds <day-in-seconds>`
 
 .. _dead-code:
 .. _unused-code:
@@ -5495,14 +5502,21 @@ Once disabled, the classes may be created, via an extension or in the code of PH
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-classes>`__
 
-Related : :ref:`disable functions <disable-functions>`, :ref:`php.ini <php.ini>`
+Related : :ref:`Disable Functions <disable-functions>`, :ref:`php.ini <php.ini>`
 
 .. _disable-functions:
 
-disable functions
+Disable Functions
 -----------------
 
-This directive allows you to disable certain functions in the php.ini.
+This PHP directive is used to prevent specific functions from being called in PHP scripts. It helps mitigate potential security vulnerabilities or enforce practices by forbidding usage of specific functions.
+
+This directive requires a list of PHP functions, separated by a comma, and set in the PHP.ini file : this is read at startup time and cannot be changed later. 
+
+disable_functions only works on PHP native functions. It is not possible to preemptively disable a custom function. 
+
+Disabled functions appear as undefined : in fact, they can also be redefined, with a custom code and then used. 
+
 
 .. code-block:: php
    
@@ -5514,6 +5528,8 @@ This directive allows you to disable certain functions in the php.ini.
 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
+
+Related : :ref:`Functions <function>`
 
 .. _dnf:
 .. _dnf-type:
@@ -6195,7 +6211,7 @@ Added in PHP 8.1+
 Error
 -----
 
-In PHP, the error class is a base class for all internal PHP error exceptions. It represents an error that occurs during the execution of PHP code. The Error class extends the built-in Throwable interface, making it possible to catch and handle these error exceptions using try-catch blocks.
+The `Error` class is a base class for all internal PHP error exceptions. It represents an error that occurs during the execution of PHP code. The Error class extends the built-in Throwable interface, making it possible to catch and handle these error exceptions using try-catch blocks.
 
 The Error class has several child classes that represent specific types of errors. Some common child classes include:
 
@@ -6228,7 +6244,7 @@ It's important to note that these error exceptions are only thrown for internal 
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, , :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, 
+Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`ParseError <parseerror>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -6730,6 +6746,8 @@ In particular, it discusses, writes and publish PSR: PHP Standard Recommendation
 Famous PSR include : 12 (Extended Coding Style Guide), 16 (Simple Cache), 18 (HTTP client).
 
 `Documentation <https://www.php-fig.org/>`__
+
+See also `PHP-FIG <https://fideloper.com/php-fig>`_
 
 Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 
@@ -7466,6 +7484,17 @@ One implementation of generics is available, with transpiling : see ``mrsuh/php-
 
 See also `Why we can't have generics in PHP <https://stitcher.io/blog/generics-in-php-3>`_, `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_, `mrsuh/php-generics <https://github.com/mrsuh/php-generics>`_
 
+.. _git:
+
+git
+---
+
+Git is a distributed version control system that is widely used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 and has since become one of the most popular and essential tools in the software development industry. Git allows multiple developers to collaborate on a project, manage different versions of code, and track changes over time.
+
+`Documentation <https://git-scm.com/>`__
+
+Related packages : `czproject/git-php <https://packagist.org/packages/czproject/git-php>`_, `gitonomy/gitlib <https://packagist.org/packages/gitonomy/gitlib>`_
+
 .. _glob:
 
 glob()
@@ -7621,7 +7650,7 @@ The target label must be within the same file and context, meaning that you cann
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-See also `GoTo statement in PHP <https://www.thecreativedev.com/goto-statement-in-php/>`_
+See also `GoTo statement in PHP <https://www.thecreativedev.com/goto-statement-in-php/>`_, `Why PHP, goto, and bubblesort, are good, actually <https://topher.io/writing/why-php-goto-and-bubblesort-are-good/>`_
 
 Related : :ref:`Goto Labels <label>`
 
@@ -7656,6 +7685,7 @@ Labels are the receiving end of a goto call. They must be in the same context th
 Related : :ref:`Goto <goto>`
 
 .. _graphql:
+.. _graphql-api:
 
 GraphQL
 -------
@@ -7956,6 +7986,61 @@ PHP has functions to decode (turn HTML entities into characters) and encode (tur
 `Documentation <https://www.php.net/manual/en/function.htmlentities.php>`__
 
 See also `Named character references <https://html.spec.whatwg.org/multipage/named-characters.html>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _http-code:
+
+HTTP Code
+---------
+
+HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server. These codes are a part of the HTTP (Hypertext Transfer Protocol) standard and provide information about the status of the request and the server's response. HTTP status codes are grouped into different ranges, each with a specific meaning.
+
+Here are some of the most common HTTP status codes and their general meanings:
+
+1xx (Informational):
+
+    100 Continue: The server has received the request headers and the client should proceed to send the request body.
+    101 Switching Protocols: The server is switching protocols according to the client's request.
+    102 Processing: The server has received the request and is processing it, but no response is available yet.
+    103 Early Hints: This status code is used to return some response headers before final HTTP message.
+
+2xx (Successful):
+
+    200 OK: The request was successful, and the server has returned the requested resource.
+    201 Created: The request was successful, and a new resource was created as a result.
+    202 Accepted: The request has been accepted for processing, but the processing has not been completed. 
+    202 Non-Authoritative Information: The server is a transforming proxy (e.g. a Web accelerator) that received a 200 OK from its origin, but is returning a modified version of the origin's response. 
+    204 No Content: The server has successfully processed the request, but there is no content to send in the response.
+
+3xx (Redirection):
+
+    301 Moved Permanently: The requested resource has been permanently moved to a new location.
+    302 Found: The requested resource has been temporarily moved to a different location.
+    303 See Other: The requested resource has been temporarily moved to a different location.
+    304 Not Modified: The client's cached version of the resource is still valid; no content is returned.
+
+4xx (Client Error):
+
+    400 Bad Request: The request from the client was malformed or invalid.
+    401 Unauthorized: Authentication is required, and the client needs to provide valid credentials.
+    402 Payement Required: Reserved for future use. 
+    403 Forbidden: The client does not have permission to access the requested resource.
+    404 Not Found: The requested resource was not found on the server.
+    405 Method Not Allowed: A request method is not supported for the requested resource.
+
+5xx (Server Error):
+
+    500 Internal Server Error: The server encountered an error while processing the request.
+    501 Not Implemented: The server either does not recognize the request method, or it lacks the ability to fulfil the request.
+    502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from an upstream server.
+    503 Service Unavailable: The server is currently unable to handle the request due to temporary overloading or maintenance of the server.
+    504 Gateway Timeout: The server, while acting as a gateway or proxy, did not receive a timely response from an upstream server.
+    505 HTTP Version Not Supported: The server does not support the HTTP version used in the request.
+    
+    
+
+See also `HTTP response status codes <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -9012,12 +9097,14 @@ Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Traversal <traversal>`,
 
 .. _jobqueue:
 
-Jobqueues
----------
+Jobqueue
+--------
 
-A job queue is a server that collect tasks to process, and dispatch them to workers.
+A job queue is a concept that refers to a system or data structure used to manage and schedule the execution of various tasks or jobs in a sequential or parallel manner. 
 
-A job queue may organize the tasks in different way : in particular, by priority. 
+Job queues are commonly used in scenarios where there is a need to process multiple tasks asynchronously, ensuring that tasks are executed efficiently and in an organized manner.
+
+A job queue may organize the tasks in different way : by priority, by type, by sequence, by estimated load, by available worker, etc. 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Job_queue>`__
@@ -9827,7 +9914,7 @@ PHP's array syntax supports a feature to assign the index an arbitrary key. A ma
 
 Maps are also called associative array, dictionary, or hashes.
 
-Maps are useful when you want to associate a value with a specific key and perform operations like searching for a value by its key or updating the value associated with a key. They provide a convenient way to store and retrieve data based on some unique identifier.
+Maps are useful to associate a value with a specific key and perform operations like searching for a value by its key or updating the value associated with a key. They provide a convenient way to store and retrieve data based on some unique identifier.
 
 
 
@@ -9973,6 +10060,21 @@ Usually, memoization trades processing time with memory. The best suited situati
 
 Added in PHP 4.0+
 
+.. _message-queue:
+
+Message Queue
+-------------
+
+A message queue server is a middleware component or service that facilitates communication between different software components or systems by enabling asynchronous message passing. It provides a mechanism for sending, storing, and receiving messages between different parts of an application or between separate applications, often across distributed or networked environments.
+
+Message queues are commonly used in scenarios where components need to communicate and exchange data without requiring immediate responses or direct interaction. This decoupling of components through asynchronous communication offers several advantages, including improved scalability, fault tolerance, and responsiveness.
+
+See also `Best Lightweight PHP Message Queue  <https://blog.iron.io/best-lightweight-php-message-queue/>`_
+
+Related : :ref:`Jobqueue <jobqueue>`
+
+Related packages : `bernard/bernard <https://packagist.org/packages/bernard/bernard>`_
+
 .. _method:
 
 Method
@@ -10095,6 +10197,8 @@ Mock objects are also called ``test double``.
 `Documentation <https://www.radview.com/glossary/what-is-mock-testing/>`__
 
 See also `Test doubles <https://phpunit.readthedocs.io/en/9.5/test-doubles.html>`_, `Mocking <https://laravel.com/docs/9.x/mocking>`_
+
+Related : 
 
 Related packages : `mockery/mockery <https://packagist.org/packages/mockery/mockery>`_
 
@@ -10437,6 +10541,19 @@ Related : :ref:`Use Alias <use-alias>`
 
 Added in PHP 5.3
 
+.. _naming:
+
+Naming
+------
+
+`naming` refers to the process of choosing appropriate names for variables, functions, classes, constants, traits, interfaces, enum, methods, parameters and  any other programming elements. 
+
+Good naming practices are essential for writing readable, maintainable, and understandable code. Clear and meaningful names make it easier for developers (including yourself) to understand the purpose and functionality of different parts of the codebase.
+
+See also `Basics of Naming Conventions for PHP Developers <https://www.codementor.io/@veenitchauhan/basics-of-naming-conventions-for-php-developers-eliexmew6>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _native:
 .. _native-function:
 .. _native-class:
@@ -10695,7 +10812,55 @@ There is also a design pattern called Null Pattern, although its main goal is to
 
 See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_, `Avoiding Unnecessary Null Checks <https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/>`_
 
-Related : :ref:`Nullable <nullable>`, 
+Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+.. _nullpattern:
+
+Null Pattern
+------------
+
+The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner. It is also known as the Null Object Pattern.
+
+In many programming languages, including PHP, ``null`` is often used to indicate the absence of a value or an error condition. However, using ``null`` can lead to unexpected errors or code complexity when developers forget to check for null before using a variable, leading to runtime exceptions or bugs.
+
+The Null Pattern suggests creating a special object to represent the absence of a value instead of using null. This object behaves like a regular object but has default or ``null`` behavior, making it safe to use without explicit null checks.
+
+Key principles of the Null Pattern:
+
+    Null Object: Create a specific class that implements a common interface for the objects in question. This class represents the null state and provides default, empty, or no-op implementations of the interface's methods.
+
+    No Null Checks: Instead of checking for null before using an object, you can safely call methods on the Null Object, knowing that it won't throw exceptions or cause errors. This simplifies the code and avoids conditional logic based on null checks.
+
+    Transparency: Code that interacts with the Null Object should treat it like any other object without needing to handle special cases for null.
+
+.. code-block:: php
+   
+   <?php
+   
+   interface Logger {
+       public function log($message);
+   }
+   
+   class FileLogger implements Logger {
+       public function log($message) {
+           // Log the message to a file
+       }
+   }
+   
+   class NullLogger implements Logger {
+       public function log($message) {
+           // Do nothing (null behavior)
+       }
+   }
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Null_object_pattern>`__
+
+See also `Null Object Pattern in PHP <https://nunomaduro.com/null_object_pattern_in_php>`_
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -11032,7 +11197,7 @@ PHP has several ORM : Doctrine, Redbean, Eloquent, Propel.
 
 See also `PDO in PHP <https://www.php.net/manual/en/intro.pdo.php>`_
 
-Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, 
+Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, :ref:`Data Mapper <object-mapper>`
 
 Related packages : `doctrine/orm <https://packagist.org/packages/doctrine/orm>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_, `propel/propel <https://packagist.org/packages/propel/propel>`_, `gabordemooij/redbean <https://packagist.org/packages/gabordemooij/redbean>`_
 
@@ -11483,6 +11648,34 @@ Parenthesis are  parameter is a variable in a method definition. They have a nam
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
 Related : :ref:`Argument <argument>`
+
+.. _parseerror:
+
+ParseError
+----------
+
+A ParseError is thrown when an error occurs while parsing PHP code, such as when eval() is called or when including non-compilable code. 
+
+.. code-block:: php
+   
+   <?php
+   
+   try {
+   	eval (' A A ');
+   } catch (ParseError $e) {
+   	echo This is not PHP code;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/class.parseerror.php>`__
+
+Related : :ref:`Error <error>`, :ref:`Eval() <eval>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
+Added in PHP 7.0+
 
 .. _by-reference:
 
@@ -12605,7 +12798,7 @@ A Queue may be one of the following:
 
 
 
-Related : :ref:`Jobqueues <jobqueue>`
+Related : :ref:`Jobqueue <jobqueue>`, :ref:`Message Queue <message-queue>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -12756,9 +12949,13 @@ Added in PHP 8.1
 Real Numbers
 ------------
 
-Real numbers is a synonym for floating point numbers (see related). There used to be ``real`` dedicated structures in PHP (like is_real() or (real)), though, they were removed..
+Real numbers are represented using the ``float`` data type. 
 
-In case of doubt, you should read about ``float``. 
+They are also commonly referred to as ``floating-point numbers`` or ``double-precision numbers``. Floats are used to represent decimal numbers, including both whole numbers and fractions, with a certain degree of precision. Real numbers are used for performing mathematical calculations that require decimal accuracy.
+
+There used to be ``real`` dedicated structures in PHP (like is_real() or (real)), though, they were removed in PHP 7.0. In case of doubt, refer to ``float``. 
+
+It's important to be aware of potential rounding errors or precision issues when working with real numbers (floats) in PHP or any other programming language that uses floating-point representation. If you require exact decimal precision, you might need to use specialized libraries or techniques to handle arbitrary precision arithmetic.
 
 
 .. code-block:: php
@@ -12775,6 +12972,8 @@ In case of doubt, you should read about ``float``.
 See also `How To Work with Numbers in PHP <https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php>`_
 
 Related : :ref:`Floating Point Numbers <float>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _recursion:
 .. _recursive:
@@ -13064,6 +13263,7 @@ Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`,
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _relaxed-comparison:
 .. _loose-comparison:
 
 Relaxed Comparison
@@ -13793,9 +13993,20 @@ Added in PHP 8.2+
 Serialization
 -------------
 
-Serialization is a string representation of an object, that can be stored as text, and then turned into the original object again.
+Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later. In other words, it involves converting complex data, such as objects or data structures, into a linear sequence of bytes or characters that can be saved to a file, sent over a network, or otherwise persisted.
 
-The reverse process is unserialization. 
+Serialization is commonly used in computer science and software development for various purposes, such as:
+
++ Data Storage: Serialized data can be saved to files or databases, allowing it to be retrieved and reconstructed at a later time.
++ Data Transmission: Serialized data can be sent over a network or communication channel, allowing it to be transmitted between different systems or processes.
++ Caching: Serialized data can be stored in memory caches, improving the performance of applications by reducing the need to regenerate complex data structures.
++ Remote Procedure Calls (RPC): Serialized data can be used to pass function arguments and return values between remote systems or services.
++ Message Queues: Serialized data can be placed in message queues to enable communication between different components or microservices.
++ State Persistence: Serialized data can represent the state of an application, enabling it to be saved and restored across different sessions.
+
+Common serialization formats include JSON (JavaScript Object Notation), XML (eXtensible Markup Language), Protocol Buffers, and MessagePack, among others. Each format has its own characteristics, advantages, and use cases. The choice of serialization format often depends on factors such as data complexity, performance requirements, interoperability, and ease of use.
+
+Deserialization, also known as unserialization, is the reverse process, where the serialized data is converted back into its original form, such as objects or data structures, so that it can be used and manipulated within a program.
 
 In PHP, there are different ways to implement serialization. The native way is to rely on the serialize() and unserialize(), which, in turn, rely on the __serialize() and __unserialize() magic method. Then, var_export() and require() make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues. 
 
@@ -13819,9 +14030,9 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 `Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
 
-See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_
+See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `Understanding Serialisation in PHP <https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php>`_
 
-Related : :ref:`__serialize <-__serialize>`, :ref:`__unserialize <-__unserialize>`
+Related : :ref:`__serialize <-__serialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Remote Procedure Call <rpc>`, :ref:`Message Queue <message-queue>`, 
 
 .. _session:
 
@@ -13951,6 +14162,8 @@ It is convenient when the variable has to be assigned again to itself.
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
+
+See also `PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security <https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/>`_
 
 Related : :ref:`Assignations <assignation>`, :ref:`Operators <operator>`
 
@@ -14664,7 +14877,7 @@ Related : :ref:`Semicolon <semicolon>`
 static
 ------
 
-The ``static`` keyword has many distinct usages.
+The ``static`` keyword has several distinct usages.
 
 Static is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current called class.
 
@@ -14702,7 +14915,7 @@ Static is a keyword for variables : those variables aren't removed at the end of
 
 See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `Scope of Variables <https://jobtensor.com/Tutorial/PHP/en/Variables>`_
 
-Related : , :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
+Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
 
 .. _static-method:
 
@@ -14912,7 +15125,7 @@ Here are the strict operators : ``==`` may be replaced with ``===``,  ``!=`` may
 
 See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
 
-Related : :ref:`Switch <switch>`, :ref:`Match <match>`, 
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Relaxed Comparison <relaxed-comparison>`
 
 .. _strict_types:
 
@@ -15774,7 +15987,12 @@ Related : :ref:`Classes <class>`, :ref:`Use <use>`
 Traversable
 -----------
 
-A special return type that signals a method that never returns : only dies or throw an exception.
+Traversable is a specific PHP interface that represents an object that can be iterated over.
+
+Traversable is an abstract interface : it cannot be implemented directly, and instead, it must be implemented by either IteratorAggregate or Iterator. 
+
+The traversable interface is used for typing purposes. 
+
 
 .. code-block:: php
    
@@ -15790,6 +16008,8 @@ A special return type that signals a method that never returns : only dies or th
 
 
 `Documentation <https://www.php.net/manual/en/class.traversable.php>`__
+
+See also `Traversable interface in PHP <https://blog.eduonix.com/web-programming-tutorials/traversable-interface-in-php/>`_
 
 Related : :ref:`Exception <exception>`, :ref:`Error <error>`
 
@@ -16756,7 +16976,7 @@ PHP is a loosely typed language, which means you don't need to explicitly declar
 
 `Documentation <https://www.php.net/manual/en/language.variables.php>`__
 
-Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Type system <type>`, , :ref:`Interpolation <interpolation>`
+Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Type system <type>`, :ref:`Naming <naming>`, :ref:`Interpolation <interpolation>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -16805,11 +17025,11 @@ Added in PHP 5.6
 VCS
 ---
 
-VCS stands for Version Control System. It provides a mean to record multiple versions of files across history.  
+VCS stands for Version Control System. It is a software tool or system that helps manage changes to files and documents over time. It is particularly useful in situations where multiple people are collaborating on the same project, allowing them to track modifications, work on different versions of files concurrently, and manage the history of changes. Version control systems are commonly used in software development, but they can also be applied to various other types of projects where tracking changes is important.
 
 A VCS is also called a SCM : Source Control Management. 
 
-VCS is a common tool to manage code versions. GIT, mercurial, SVN, CVS, etc.
+VCS is a common tool to manage code versions. There are many such systems: GIT, mercurial, SVN, CVS, etc.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Version_control>`__

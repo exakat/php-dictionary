@@ -8,9 +8,10 @@ reading sources... [ 50%] index
 reading sources... [ 75%] introduction
 reading sources... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5414: WARNING: Inline literal start-string without end-string.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:5421: WARNING: Inline literal start-string without end-string.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "php-fig".
 /Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "md5".
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7904: WARNING: Unknown target name: "pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd >".
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7934: WARNING: Unknown target name: "pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd >".
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -20,16 +21,18 @@ writing output... [ 50%] index
 writing output... [ 75%] introduction
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:339: WARNING: undefined label: md5
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1822: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7172: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:14477: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:229: WARNING: undefined label: php-fig
+/Users/famille/Desktop/php-dictionary/dictionary.rst:341: WARNING: undefined label: md5
+/Users/famille/Desktop/php-dictionary/dictionary.rst:12088: WARNING: undefined label: php-fig
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1828: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7190: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:14690: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done
 copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 7 warnings.
+build succeeded, 10 warnings.
 
 The HTML pages are in _build/html.
