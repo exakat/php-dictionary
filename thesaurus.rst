@@ -44,6 +44,7 @@ Concept
 + :ref:`Active Record <active-record>`
 + :ref:`Alias <alias>`
 + :ref:`Anonymous Function <anonymous-function>`
++ :ref:`Artifact <artifact>`
 + :ref:`Benchmarking <benchmarking>`
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Class Wither Method <wither>`
@@ -76,7 +77,6 @@ Concept
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
-+ :ref:`Hash() function <hash-function>`
 + :ref:`Index <index>`
 + :ref:`Injection <injection>`
 + :ref:`Jobqueue <jobqueue>`
@@ -85,6 +85,7 @@ Concept
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle <lsp>`
 + :ref:`Module <module>`
++ :ref:`N+1 Query Problem <n-query>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
 + :ref:`Preprocessing <preprocess>`
@@ -106,8 +107,9 @@ Concept
 + :ref:`Unused <unused>`
 + :ref:`Value Object <value-object>`
 + :ref:`View <view>`
-+ :ref:`View in presentation <view-presentation>`
++ :ref:`View In Presentation <view-presentation>`
 + :ref:`constructor <constructor>`
++ :ref:`hash() Function <hash-function>`
 
 Control flow
 ------------
@@ -135,7 +137,9 @@ Exception
 + :ref:`ArithmeticError Error <arithmeticerror>`
 + :ref:`BadFunctioncallException <badfunctioncallexception>`
 + :ref:`Chaining Exceptions <exception-chain>`
++ :ref:`ClosedGeneratorException <closedgeneratorexception>`
 + :ref:`DivisionByZeroError <divisionbyzeroerror>`
++ :ref:`ImagickPixelException <imagickpixelexception>`
 + :ref:`InvalidArgumentException <invalidargumentexception>`
 + :ref:`JsonException <jsonexception>`
 + :ref:`LengthException <lengthexception>`

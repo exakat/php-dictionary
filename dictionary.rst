@@ -56,6 +56,7 @@ PHP Dictionary
    * :ref:`Array spread <array-spread>`
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
+   * :ref:`Artifact <artifact>`
    * :ref:`As <as>`
    * :ref:`Assertions <assertion>`
    * :ref:`Asset <asset>`
@@ -78,7 +79,6 @@ PHP Dictionary
    * :ref:`Block <block>`
    * :ref:`Boolean <boolean>`
    * :ref:`Break <break>`
-   * :ref:`Built in <built-in>`
    * :ref:`basename <basename>`
 * C
    * :ref:`CGI <cgi>`
@@ -106,6 +106,7 @@ PHP Dictionary
    * :ref:`Clean Architecture <clean-architecture>`
    * :ref:`Clone <clone>`
    * :ref:`Close Tag <close-tag>`
+   * :ref:`ClosedGeneratorException <closedgeneratorexception>`
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce operator <coalesce>`
@@ -271,12 +272,12 @@ PHP Dictionary
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hash <hash>`
    * :ref:`Hash Comparisons <hash-comparison>`
-   * :ref:`Hash() function <hash-function>`
    * :ref:`Headless <headless>`
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
+   * :ref:`hash() Function <hash-function>`
 * I
    * :ref:`Iconv <iconv>`
    * :ref:`Identical operator <identical>`
@@ -363,7 +364,7 @@ PHP Dictionary
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
-   * :ref:`N+1 Query <n-query>`
+   * :ref:`N+1 Query Problem <n-query>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
    * :ref:`Namespace alias <namespace-alias>`
@@ -379,7 +380,6 @@ PHP Dictionary
    * :ref:`Null <null>`
    * :ref:`Null Pattern <nullpattern>`
    * :ref:`Null Safe Object Operator <nullsafe-object-operator>`
-   * :ref:`Null ternary <null-ternary>`
    * :ref:`Nullable <nullable>`
    * :ref:`Nullsafe <nullsafe>`
    * :ref:`Numeric Separator <numeric-separator>`
@@ -418,6 +418,7 @@ PHP Dictionary
    * :ref:`PHP Standards Recommendations (PSR) <psr>`
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Wrapper <wrapper-php>`
+   * :ref:`PHP engine <engine>`
    * :ref:`PHP tags <php-tag>`
    * :ref:`PHP variables <php-variable>`
    * :ref:`PHP-FPM <fpm>`
@@ -524,6 +525,7 @@ PHP Dictionary
    * :ref:`Single Quotes Strings <single-quote>`
    * :ref:`Single Responsability Principle <srp>`
    * :ref:`Singleton <singleton>`
+   * :ref:`Skeleton <skeleton>`
    * :ref:`Sort <sort>`
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Typehints <special-typehint>`
@@ -567,6 +569,7 @@ PHP Dictionary
    * :ref:`Tick <tick>`
    * :ref:`Trailing Comma <trailing-comma>`
    * :ref:`Traits <trait>`
+   * :ref:`Transpile <transpile>`
    * :ref:`Traversable <traversable>`
    * :ref:`Traversal <traversal>`
    * :ref:`Tree <tree>`
@@ -592,6 +595,7 @@ PHP Dictionary
    * :ref:`Unused <unused>`
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
+   * :ref:`Userland <userland>`
    * :ref:`unset() <unset>`
 * V
    * :ref:`VCS <vcs>`
@@ -606,7 +610,7 @@ PHP Dictionary
    * :ref:`Variadic <variadic>`
    * :ref:`Version <version>`
    * :ref:`View <view>`
-   * :ref:`View in presentation <view-presentation>`
+   * :ref:`View In Presentation <view-presentation>`
    * :ref:`Visibility <visibility>`
    * :ref:`Void <void>`
    * :ref:`variable_order <variable_order>`
@@ -834,11 +838,9 @@ Related : :ref:`$argc <$argc>`
 $HTTP_RAW_POST_DATA
 -------------------
 
-`$HTTP_RAW_POST_DATA` contains the raw POST data. 
+`$HTTP_RAW_POST_DATA` used to contain the raw POST data of an HTTP request. 
 
-In general, ``php://input`` should be used instead of `$HTTP_RAW_POST_DATA`.  
-
-
+Since PHP 7.0, ``php://input`` should be used instead of `$HTTP_RAW_POST_DATA`.  
 
 .. code-block:: php
    
@@ -1247,7 +1249,7 @@ __set_state() method
 
 __set_state() is a magic method : it is called when an object has been exported with var_export(), and has to be instantiated again. 
 
-__set_state() is tasked with recreating the object, assigning the previous values to it, and recreating any missing properties, such as database connexions or resources.
+__set_state() is tasked with recreating the object, assigning the previous values to it, and recreating any missing properties, such as database connections or resources.
 
 The __set_state() method has no counterpart : var_export() do not use any magic method. 
 
@@ -1522,7 +1524,7 @@ An abstraction layer is a piece of software that offer the same API to access mu
 
 The underlying components may be of various shapes : PDO offers an abstraction layer to databases, streams offer an abstraction layer to files, etc.
 
-flysystem offers also an abstraction layer to filesystem, lcobucci/clock offers an abstraction to clocks.
+league/flysystem offers also an abstraction layer to filesystem, lcobucci/clock offers an abstraction to clocks.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Abstraction_layer>`__
@@ -2152,7 +2154,7 @@ ArrayObject
 
 ``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object. It extends the base ``ArrayObject`` class and implements the ``ArrayAccess``, ``Countable``, ``IteratorAggregate``, and ``Serializable`` interfaces.
 
-With ``ArrayObject``, it is possible to reate objects that have the behavior of arrays, meaning it is possible to access array elements as properties and use object-oriented methods to manipulate the array. 
+With ``ArrayObject``, it is possible to create objects that have the behavior of arrays, meaning it is possible to access array elements as properties and use object-oriented methods to manipulate the array. 
 
 Operator such as append ``[]``, or foreach() loops are then available with those objects.
 
@@ -2201,6 +2203,15 @@ Arrow functions are a type of closure with a specific syntax. It only accepts on
 Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
 
 Added in PHP 7.4
+
+.. _artifact:
+
+Artifact
+--------
+
+An artifact refers to any intermediate or final output that is produced during the development process. This could include compiled code, cache content, libraries, executable files, documentation, diagrams, configuration files, and more. Artifacts are the tangible results of the development process and are often used for testing, deployment, and maintenance of software applications.
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _as:
 
@@ -2785,36 +2796,6 @@ break should not be confused with `continue` : continue doesn't work in a switch
 Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>`
 
 Added in PHP 5.4
-
-.. _built-in:
-
-Built in
---------
-
-A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP. For example, `.` (dot operator) or the `stdClass` class are native to PHP.
-
-A feature may also be custom, when defined by the developer or extension, when defined in a PHP extension. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // This is a built-in function
-   $s = strtolower($s);
-   
-   // This is not a built-in function : it comes from an extension
-   $rar_arch = RarArchive::open('latest_winrar.rar');
-   
-   // This is not a built-in function : it is a custom function
-   function foo() {}
-   
-   ?>
-
-
-Related : :ref:`Built in <built-in>`, :ref:`Custom <custom>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _callable:
 
@@ -3468,6 +3449,59 @@ Related : , :ref:`Short Tags <short-tag>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _closedgeneratorexception:
+
+ClosedGeneratorException
+------------------------
+
+A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed. Generators iterates over a set of values without needing to create an array to hold all the values in memory at once.
+
+Once a generator is closed, it cannot be used for further iteration. Any attempt to use methods like next(), send(), or throw() on a closed generator throws a ClosedGeneratorException, to indicate that the generator is no longer available for iteration.
+
+.. code-block:: php
+   
+   <?php
+   
+   // Code example from Ben Peachey (see external links)
+   // Adapted for presentation purposes
+   
+   class CustomException extends Exception {}
+   
+   function from() {
+       yield 1;
+       throw new CustomException();
+   }
+   
+   function gen($gen) {
+       yield from $gen;
+   }
+   
+   $gen = from();
+   $gens[] = gen($gen);
+   $gens[] = gen($gen);
+   
+   foreach ($gens as $g) {
+       $g->current(); // init.
+   }
+   
+   foreach ($gens as $i => $g) {
+       try {
+           $g->current();
+           $g->next();
+       } catch (\ClosedGeneratorException $e) {
+           print 'Caught ClosedGeneratorException'.PHP_EOL;
+       } catch (\Exception $e) {
+           print 'Caught Generic Exception'.PHP_EOL;
+       }
+   }
+   
+   ?>
+
+
+See also `Explaining the ClosedGeneratorException in PHP <https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303>`_, `PHP Exception Handling - ClosedGeneratorException <https://blog.airbrake.io/blog/php-exception-handling/closedgeneratorexception>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _closure:
 .. _anonymous-functions:
 .. _lambda-functions:
@@ -3674,7 +3708,7 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Null ternary <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, , :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
 
 .. _comma:
 
@@ -4313,7 +4347,7 @@ Controllers takes in charge one or several URL, extract data from the request, p
 Controllers orchestrate the execution of the request, and act as gatekeeper, ensuring that data are correctly processed.
 
 
-Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :ref:`Model <model>`
+Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -4545,9 +4579,9 @@ Related : :ref:`Storage systems <storage-system>`
 Cryptographic Hash
 ------------------
 
-A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult to revert.
+A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert.
 
-Some famous algorithm : MD5, SHA1, SHA256, HAVAL, Bcrypt.
+Some famous algorithms : MD5, SHA1, SHA256, HAVAL, Bcrypt.
 
 Other algorithms include crc32(), though it is not considered a cryptography. 
 
@@ -4568,7 +4602,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
 
 .. _cryptography:
 .. _crypto:
@@ -4729,7 +4763,7 @@ A custom asset is usually the last to be defined, and, as such, has to use a dis
    ?>
 
 
-Related : :ref:`Built in <built-in>`, :ref:`Custom <custom>`
+Related : :ref:`Native <built-in>`, :ref:`Custom <custom>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -5990,15 +6024,18 @@ Related : :ref:`Late Static Binding <late-binding>`
 Echo
 ----
 
-echo displays the arguments to the output : this may be the web page, or the command line screen. 
+``echo`` is a PHP language construct used to output text to the browser or the output stream. It's commonly used to display content on a web page, generate HTML, or provide feedback to users. The echo construct is often used in PHP scripts to generate dynamic content that is sent to the client's web browser.
 
 echo is a language construct of PHP. 
+
+echo works without parenthesis. It also accepts an arbitrary number of arguments. 
+
 
 .. code-block:: php
    
    <?php
    
-   echo 'Hellow world!';
+   echo 'Hello', ' ', 'world!';
    
    ?>
 
@@ -7760,7 +7797,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Array <array>`, :ref:`Map <map>`
 
 .. _hash-comparison:
 
@@ -7792,17 +7829,10 @@ See also `Can you find the bug in this piece of php code? <https://dev.to/nombre
 
 .. _hash-function:
 
-Hash() function
+hash() Function
 ---------------
 
-A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult to revert.
-
-Some famous algorithm : MD5, SHA1, SHA256, HAVAL, Bcrypt.
-
-Other algorithms include crc32(), though it is not considered a cryptography. 
-
-While the extension 'hash' only process hashes, there are other extensions which offer these features : openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued. 
-
+hash() is a PHP native function, that computes the cryptographic hash of strings, with a wide range of algorithms.
 
 .. code-block:: php
    
@@ -7818,7 +7848,7 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`Hash() function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Hash <hash>`, :ref:`Map <map>`
 
 .. _headless:
 
@@ -9167,20 +9197,13 @@ Added in PHP 5.0+
 Just In Time
 ------------
 
-JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
+Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution.
 
-.. code-block:: php
-   
-   <?php
-   $array = array('a' => 1, 'b' => c, 'c' => [3, 4], 'd' => new stdclass());
-   
-   echo json_encode($arr);
-   // displays {"a":1,"b":"c","c":[3,4],"d":{}}
-   
-   ?>
+In traditional interpretation of programming languages like PHP, code is executed line by line by an interpreter. This can lead to some performance bottlenecks, especially for code that is executed frequently or for applications that require high throughput.
 
+With Just-In-Time compilation, the code is not interpreted line by line. Instead, it's analyzed and compiled into machine code just before it's executed. This compiled code is then stored in memory and can be executed much more efficiently than interpreted code. This approach can significantly improve the performance of a programming language.
 
-`Documentation <https://wiki.php.net/rfc/jit>`__
+`Documentation <https://php.watch/versions/8.0/JIT>`__
 
 See also `PHP 8.0: JIT <https://php.watch/versions/8.0/JIT>`_, `Exploring the New PHP JIT Compiler <https://www.zend.com/blog/exploring-new-php-jit-compiler>`_
 
@@ -10158,17 +10181,24 @@ See also `Database: Migrations <https://laravel.com/docs/9.x/migrations>`_, `Mig
 Mixed
 -----
 
-A special return type that signals a method that never returns : only dies or throw an exception.
+A special type that represents any available type. It is equivalent to not explicitely setting the type, though it is now explictly done. 
+
+A ``mixed`` type may be also represented by a union of all possible types. 
+
+``mixed`` is useful when literally any type should be supported, such as with a cache system. Yet, it is usually recommended to consider reducing the number of possible types by using a common interface or a union type. 
+
 
 .. code-block:: php
    
    <?php
    
-   function headers() : never {
-       headers('Location: https://www.exakat.io/');
-       die();
+   function cache(string $name, mixed $value) : bool {
+   	static $cache = [];
+   	
+   	$cache[$name] = $value;
+   	
+   	return true;
    }
-   
    ?>
 
 
@@ -10177,6 +10207,8 @@ A special return type that signals a method that never returns : only dies or th
 See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_
 
 Related : :ref:`Type system <type>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.0+
 
@@ -10211,7 +10243,7 @@ The model is the classes that describes the business logic.
 
 The model is often used as part of the MVC pattern, though it may be used independently.
 
-Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :ref:`Controller <controller>`
+Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Controller <controller>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -10366,42 +10398,25 @@ Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 
 .. _n-query:
 
-N+1 Query
----------
+N+1 Query Problem
+-----------------
 
-In a foreach loop, a variable is used for looping through the array. When this variable is configured as a reference, the reference survives after the end of the loop. When this variable is reused later, it applies to the last element of the array and overwrites its value.
+The N+1 query problem is a term used in the context of database queries, often in the context of Object-Relational Mapping (ORM) systems. This issue arises when a program queries a database for a set of entities (usually rows from a table) and then, for each of those entities, issues an additional query to retrieve related data. This leads to a large number of individual queries being executed, which can result in poor performance and increased database load.
 
-This doesn't happen when the second loop doesn't use a reference. 
+Here's a breakdown of the issue:
 
-It is recommended to unset the referenced variable, after the loop. It destroys the reference, not the value.
++ Initial Query (N queries): The program retrieves a set of main entities, let's say a list of users. This query retrieves 'N' records.
 
++ Subsequent Queries (+1 queries): For each of the 'N' users, the program issues a separate query to fetch additional related data, such as user roles, posts, comments, etc. This results in an additional 'N' queries.
 
-.. code-block:: php
-   
-   <?php
-   
-   $array = ['a', 'b', 'c'];
-   
-   foreach($array as &$x) { 
-   	// doSomething() or even do nothing! 
-   }
-   
-   // second loop, no reference
-   foreach($array as $x) { 
-   	// doSomething() or even do nothing! 
-   }
-   
-   var_dump($array);
-   $array = ['a', 'b', 'b'];
-   
-   ?>
+As a result, you end up with a total of 'N+1' queries, hence the term N+1 query problem. This approach can cause significant performance issues, as executing many individual queries can be slower than fetching the required data in a more optimized way.
 
 
-`Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+`Documentation <https://www.freecodecamp.org/news/n-plus-one-query-problem/>`__
 
 See also `Eloquent Performance: 4 Examples of N+1 Query Problems <https://laravel-news.com/laravel-n1-query-problems>`_, `The N+1 Query Problem <https://lighthouse-php.com/master/performance/n-plus-one.html>`_
 
-Related : :ref:`Loops <loop>`, :ref:`References <reference>`
+Related : :ref:`Loops <loop>`
 
 .. _named-constructor:
 
@@ -10558,14 +10573,14 @@ Related packages : ` <https://packagist.org/packages/>`_
 .. _native-function:
 .. _native-class:
 .. _native-constant:
+.. _built-in:
 
 Native
 ------
 
 A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP. For example, `.` (dot operator) or the `stdClass` class are native to PHP.
 
-A feature may also be custom, when defined by the developer or extension, when defined in a PHP extension. 
-
+On the other hand, a feature is custom : that is, when defined by the developer or a PHP extension. 
 
 .. code-block:: php
    
@@ -10581,7 +10596,7 @@ A feature may also be custom, when defined by the developer or extension, when d
    ?>
 
 
-Related : :ref:`Built in <built-in>`
+Related : :ref:`Native <built-in>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -10898,28 +10913,6 @@ Related : :ref:`Object Operator -> <object-operator>`, :ref:`Scope Resolution Op
 
 Added in PHP 8.0+
 
-.. _null-ternary:
-
-Null ternary
-------------
-
-The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1`` evaluates to true, and ``expr3`` if ``expr1`` evaluates to false.
-
-.. code-block:: php
-   
-   <?php
-   
-   $action = (empty($_POST['action'])) ? 'default' : $_POST['action'];
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary>`__
-
-See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
-
-Added in PHP 7.0+
-
 .. _nullable:
 
 Nullable
@@ -10985,13 +10978,17 @@ Related packages : ` <https://packagist.org/packages/>`_
 Numeric Separator
 -----------------
 
-var keyword for introducing PHP properties in classes. It is now replaced by visibility (public, but possibly private or protected), and is not recommended. 
+Since PHP 7.4, it is possible to add underscores as numeric separators within numeric literals to improve their readability. This feature allows to group digits, making them easier to read and understand. Numeric separators have no effect on the value of the number; they're purely for human-friendly formatting.
 
 .. code-block:: php
    
    <?php
    
-   $i = 1_234_567;
+   $phone_fr = 1_33_61_23_45_67;
+   $phone_ca = 1_514_387_9947;
+   
+   // true;
+   var_dump(1_2_3 === 123);
    
    ?>
 
@@ -11232,30 +11229,14 @@ Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref
 Opcode
 ------
 
-ArgumentCountError is thrown when too few arguments are passed to a user-defined function or method. This is an error, not an exception.
+Opcodes (short for operation codes) refer to low-level instructions that the PHP interpreter uses to execute PHP scripts. When PHP processes a code, it goes through several stages of compilation and interpretation. One of these stages involves translating the human-readable PHP source into a series of opcodes, which are then executed by the PHP engine.
 
-No exception is raised for extra parameters, as those may still be processed by the method itself. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   function foo($a) {}
-   
-   // No error is raised here
-   foo(1,2);
-   
-   // ArgumentCountError is catchable
-   try {
-       foo();
-   } catch (ArgumentCountError) {
-       print 'No enough parameters passed.';
-   }
-   ?>
+Generaly speaking, coders never come close to opcodes. The only occasion is when configuring the opcode cache: this cache keeps the generated opcodes in memory, and skips the stages of compilation as long as the source is not changed. 
 
 
-See also `LEARN ABOUT PHP OPCODES <https://x-team.com/blog/learn-about-php-opcodes/>`_, `How to dump and inspect PHP OPCodes <https://php.watch/articles/php-dump-opcodes>`_
+`Documentation <https://www.php.net/manual/en/book.opcache.php>`__
+
+See also `What is OPcache and How Do You Use It? <https://wp-rocket.me/wordpress-cache/what-is-opcache/>`_
 
 .. _ocp:
 
@@ -11934,6 +11915,19 @@ See also `php official image on Docker Hub <https://hub.docker.com/_/php>`_, `ci
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _engine:
+.. _php-binary:
+.. _php-executable:
+
+PHP engine
+----------
+
+The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language. It is responsible for translating and executing PHP code on a web server or other environments that support PHP. The engine takes the human-readable PHP code and converts it into machine-level instructions that the computer can understand and execute.
+
+`Documentation <https://www.php.net/manual/en/install.general.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _php-extension:
 
 PHP Extensions
@@ -12002,24 +11996,26 @@ Related : :ref:`HTTP headers <http-header>`
 PHP Predefined Exception
 ------------------------
 
-The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
+The predefined exceptions are the exceptions that are built-in the PHP engine. They are always available, and change from version to version.
 
 .. code-block:: php
    
    <?php
    
    try {
-       $shift =-1;
-       $number = 8;
-       $result =  $number >> $shif;
-   } catch (ArithmeticError)
+   	throw new RuntimeException('one error!');
+   } catch (Exception $e) {
+   	print Caught an exception of type.get_class($e)è;
+   }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.exceptions.php>`__
 
-Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`, :ref:`Native <built-in>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _profiler:
 
@@ -12511,22 +12507,27 @@ In terms of maintenance, it hides some implementation details in the result : on
 Print
 -----
 
-echo displays the arguments to the output : this may be the web page, or the command line screen. 
+print() is a PHP language construct used to output text to the browser or the output stream. It is often used to display information to users on a web page or to debug and inspect variable values during development. The print construct can be used in two forms: with or without parentheses.
 
-print is a language construct of PHP. 
+print() is a language construct of PHP. It only accepts one argument and it returns 1. 
+
+print() also has a closely related function called print_r(), used for debugging. 
+
 
 .. code-block:: php
    
    <?php
    
-   print 'Hellow world!';
+   print 'Hello';
+   
+   print(' world!');
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-Related : :ref:`Echo <echo>`
+Related : :ref:`Echo <echo>`, 
 
 .. _private:
 
@@ -13965,25 +13966,40 @@ Related : :ref:`Colon <colon>`, :ref:`Switch <switch>`, :ref:`For <for>`, :ref:`
 Sensitive Parameter
 -------------------
 
-This is a native PHP attribute, which tells the engine that a class is a PHP attribute.
+This is a native PHP attribute, which tells the engine that a parameter is a sensitive parameter, and should not be displayed by PHP when an error displays the stack trace.
 
-This attribute is not necessary, but it is recommended.
+This prevent innocent mistakes, where reading the logs on the production server also tells the actual value of a secret.
 
 
 .. code-block:: php
    
    <?php
    
-   #[Attribute]
-   class MyAttribute { }
+   function foo(
+       #[SensitiveParameter] string $apiKey
+   ): int {
+       throw new Exception('Could not foo');
+   }
    
-   #[MyAttribute]
-   class MyClass { }
+   foo('abc');
+   
+   /* The code above displays the following : 
+   
+   Fatal error: Uncaught Exception: Could not foo in file.php:6
+   Stack trace:
+   #0 file.php(9): foo(Object(SensitiveParameterValue))
+   #1 {main}
+     thrown in file.php on line 6
+   */
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
+
+See also `Sensitive parameters in PHP 8.2 <https://flareapp.io/blog/57-sensitive-parameters-in-php-82>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.2+
 
@@ -14456,6 +14472,38 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `The singleton pattern::the good, the bad, and the ugly <https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php>`_, `Stop Using Singleton Pattern <https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2>`_, `PHP Design Patterns Game : The Singleton Pattern <https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html>`_
 
 Related : :ref:`Design Pattern <design-pattern>`
+
+.. _skeleton:
+
+Skeleton
+--------
+
+A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features. Polyfills are used to bridge the gap between the capabilities of modern web standards and the limitations of older browsers that might not fully support those standards.
+
+The term polyfill is a combination of poly (meaning many) and fill (meaning to provide what's missing). Essentially, a polyfill fills in the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
+
+There are polyfills for PHP version, for specific extensions (in case they are not compiled with PHP) or component versions.
+
+There are polyfills available in packagist, like the family of packages symfony/polyfill-*, or manually coded in the sources. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // hand-made polyfill
+   if (!function_exists('str_contains')) {
+   	function str_contains(string $a, string $b) : bool {
+   		return substr($a, $b) !== false;
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://github.com/symfony/polyfill>`__
+
+Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_
 
 .. _sleep:
 
@@ -15982,6 +16030,19 @@ See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inheri
 
 Related : :ref:`Classes <class>`, :ref:`Use <use>`
 
+.. _transpile:
+
+Transpile
+---------
+
+Transpiling, short for source-to-source compiling, is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language. This is typically done to make code compatible with a different runtime environment, platform, or version of a language.
+
+Transpilation is often used in the context of modern web development. For example, many developers write code using newer features of JavaScript, which may not be supported by older web browsers. In such cases, the code can be transpiled to an older version of JavaScript that is more widely supported.
+
+`Documentation <https://kinsta.com/blog/transpiling-php/>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _traversable:
 
 Traversable
@@ -16586,33 +16647,26 @@ It also happens to propagate : removing an unused function may actually create a
 UOPZ
 ----
 
-XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.
-
-PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader, xmlwriter.
-
-
+The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM.
 
 .. code-block:: php
    
    <?php
-   $string = <<<XML
-   <?xml version='1.0'?>
-   <document>
-       <cmd>login</cmd>
-       <login>Richard</login>
-   </document>
-   XML;
-                                                                          
-                                             
-   $xml = simplexml_load_string($string);
-   print_r($xml);
    
+   // Dynamically adds an interface to a class with UOPZ
+   
+   interface myInterface {}
+   
+   class myClass {}
+   
+   uopz_implement(myClass::class, myInterface::class);
+   
+   var_dump(class_implements(myClass::class));
    ?>
+   
 
 
-`Documentation <https://www.php.net/manual/en/refs.xml.php>`__
-
-Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
+`Documentation <https://www.php.net/manual/en/book.uopz.php>`__
 
 .. _use:
 
@@ -16683,6 +16737,34 @@ The use operator can create aliases for a class, function or constant. After the
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
 Related : :ref:`Use Alias <use-alias>`
+
+.. _userland:
+
+Userland
+--------
+
+A `userland` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developper. `userland` features are opposed to `native` features, which are available within PHP itself.
+
+Functions, classes, enums, traits, constants, etc. may be userland. Loaded component with composer from packagist are also userland structures. 
+
+The main difference between userland and native features are tenuous. Though, some very specific feature may be reserved to native features. For example, magic methods are case-insensitive (and magic), while userland constant cannot be case-insensitive. This is never critical.
+
+There are some specific guidelines for userland naming. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // foo is a userland function
+   function foo() {}
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/userlandnaming.php>`__
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _uuid:
 
@@ -17067,17 +17149,17 @@ A view may be several things :
 
 
 
-Related : :ref:`MVC <mvc>`, :ref:`View in presentation <view-presentation>`, :ref:`SQL Views <view-sql>`
+Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`SQL Views <view-sql>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
 .. _view-presentation:
 .. _renderer:
 
-View in presentation
+View In Presentation
 --------------------
 
-A view is the presentation layer in a MVC model. It is in charge of formatting the provided data to fit the target reader : HTML, JSON, etc.
+A view is the presentation layer in a MVC model. It is in charge of formatting the provided data to fit the target reader : HTML, JSON, XML, etc.
 
 Views are also synonym of renderer or template. 
 
