@@ -101,7 +101,6 @@ PHP Dictionary
    * :ref:`Class Setter Method <setter>`
    * :ref:`Class Wither Method <wither>`
    * :ref:`Class aliases <class-alias>`
-   * :ref:`Class constant <class-constant>`
    * :ref:`Classes <class>`
    * :ref:`Clean Architecture <clean-architecture>`
    * :ref:`Clone <clone>`
@@ -230,6 +229,7 @@ PHP Dictionary
    * :ref:`FIG <php-fig>`
    * :ref:`Facade <facade>`
    * :ref:`False <false>`
+   * :ref:`FastCGI <fastcgi>`
    * :ref:`Feature <feature>`
    * :ref:`File <file>`
    * :ref:`File Upload <upload>`
@@ -530,11 +530,13 @@ PHP Dictionary
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Typehints <special-typehint>`
    * :ref:`Sqlite3 <sqlite>`
+   * :ref:`Standalone types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
    * :ref:`Statement <statement>`
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`
+   * :ref:`Static constant <class-constant>`
    * :ref:`Storage systems <storage-system>`
    * :ref:`Stream <stream>`
    * :ref:`Strict Comparison <strict-comparison>`
@@ -563,6 +565,7 @@ PHP Dictionary
    * :ref:`Template <template>`
    * :ref:`Ternary Operator <ternary>`
    * :ref:`Test <test>`
+   * :ref:`Test pyramid <test-pyramid>`
    * :ref:`Thread <thread>`
    * :ref:`Three dots <three-dots>`
    * :ref:`Throwable <throwable>`
@@ -2973,13 +2976,17 @@ Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
 CGI
 ---
 
-CGI stands for Common Interface Gateway. It is a specification that enables web server to execute programs. 
+CGI stands for Common Interface Gateway. It is a protocol, whose specification enables web server to execute programs. CGI is platform independant, and can be used with any programming language.
 
 PHP may be build as a CGI, but also as a webserver module or a CGI server. 
 
+CGI was widely used in the early days of the web, more modern web development approaches, such as server-side scripting have largely replaced CGI in contemporary web development due to performance and security considerations.
+
 `Documentation <https://en.wikipedia.org/wiki/Common_Gateway_Interface>`__
 
-Related : :ref:`PHP-FPM <fpm>`, :ref:`Command Line Interface <cli>`
+Related : :ref:`PHP-FPM <fpm>`, :ref:`FastCGI <fastcgi>`, :ref:`Command Line Interface <cli>`
+
+Added in PHP `CGI and command line setups <https://www.php.net/manual/en/install.unix.commandline.php>`_
 
 .. _exception-chain:
 
@@ -3088,40 +3095,34 @@ Related : :ref:`Autowiring <auto-wiring>`
 
 Added in PHP 5.0
 
-.. _class-constant:
-
-Class constant
---------------
-
-It is possible to define constants on a per-class basis remaining the same and unchangeable. The default visibility of class constants is public.
-
-.. code-block:: php
-   
-   <?php
-   
-   class x {
-       public  const FOO = 1;
-       private const BAR = 2;
-   }
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
-
 .. _class-constant-visibility:
 
 Class Constants Visibility
 --------------------------
 
-Using visibility with class constants : private, protected and public. 
+Class constant may have a visibility option. This limits their accessibility to the current class, its class hierarchy or any other class. Visibilities for class constants are : private, protected and public. 
 
 .. code-block:: php
    
    <?php
    
    class x {
-       private const X = 1;
+   	// This class can only be used in x
+       private const C1 = 1;
+   
+   	// This class can only be used in x and y
+       protected const C2 = 1;
+   
+   	// This class can be used in x, y and z
+       private const C3 = 1;
+   }
+   
+   class y extends x {
+   	// doSomething()
+   }
+   
+   class z {
+   	// doSomething()
    }
    
    ?>
@@ -3130,6 +3131,8 @@ Using visibility with class constants : private, protected and public.
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-constants>`__
 
 Related : :ref:`Visibility <visibility>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 7.1
 
@@ -4043,12 +4046,11 @@ Related packages : ` <https://packagist.org/packages/>`_
 Const
 -----
 
-const is a PHP keyword, that introduces constant definitions. 
+``const`` is a PHP keyword, that introduces constant definitions. 
 
-const is allowed inside classes and traits, to create class constants. const is also allowed in the global scope, to create global constants. 
+``const`` is allowed inside classes, interfaces, enumerations and traits, to create static constants. ``const`` is also allowed in the global scope, to create global constants. 
 
-const is only allowed in the body of a trait and a class, and the first level of a main file. It is not possible to create conditioned constants with a if-then structure and const : this requires an include. 
-
+``const`` is only allowed in the body of a classes, interfaces, enumerations and traits, and the first level of a main file. It is not possible to create conditioned constants with a if-then structure and const : this requires an include. 
 
 
 .. code-block:: php
@@ -4061,7 +4063,7 @@ const is only allowed in the body of a trait and a class, and the first level of
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`
+Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static constant <static-constant>`, :ref:`Inclusion <include>`
 
 .. _constant-scalar-expression:
 
@@ -4098,9 +4100,13 @@ Constants are named values, that never change.
 
 Constants may be created with the const keyword or the define() function. They may be tested for existence with the defined() function.
 
-There are global constants, which are accessible with their name and their namespaces. 
+There are global constants, which are accessible with their name and their namespaces. There are also constants in classes, interfaces, enums and traits. Those are called class constant.
 
+Constants are namespace dependant. They can be imported using the ``use`` command. 
 
+Constants are usually written in uppercase. 
+
+Global constants used to be case insensitive, when created with define. This feature was removed in PHP 8. Nowadays, both ``const`` and ``define`` create case insensitive values.
 
 
 .. code-block:: php
@@ -4118,7 +4124,7 @@ There are global constants, which are accessible with their name and their names
 
 `Documentation <https://www.php.net/manual/en/language.constants.php>`__
 
-Related : :ref:`Class constant <class-constant>`
+Related : :ref:`Static constant <class-constant>`
 
 .. _constructor:
 
@@ -5702,7 +5708,7 @@ Related packages : ` <https://packagist.org/packages/>`_
 DomainException
 ---------------
 
-Exception thrown if a value does not adhere to a defined valid data domain.
+Exception thrown if a value does not adhere to a defined valid data domain. For example, it might be an invalid value for a class property and not just its type.
 
 .. code-block:: php
    
@@ -5729,6 +5735,10 @@ Exception thrown if a value does not adhere to a defined valid data domain.
 
 
 `Documentation <https://www.php.net/manual/en/class.domainexception.php>`__
+
+See also `PHP Exception Handling - DomainException <https://blog.airbrake.io/blog/php-exception-handling/domainexception>`_
+
+Related : :ref:`Exception <exception>`, :ref:`RangeException <rangeexception>`
 
 .. _double-quote:
 
@@ -6498,7 +6508,10 @@ Related packages : ` <https://packagist.org/packages/>`_
 Exception
 ---------
 
-The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
+Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or die() statements. Exceptions provide a way to separate the normal flow of code from error-handling code, making it easier to manage errors and maintain clean and readable code.
+
+Exceptions are thrown at the point of detection of the issue, and processed somewhere else in the code, when they are caught by a try-catch statement. Ultimately, exceptions block the execution of the application when they are not caught.
+
 
 .. code-block:: php
    
@@ -6515,7 +6528,7 @@ The final keyword prevents child classes from overriding a method or a constant 
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_, `PHP try & catch: what are exceptions and how to handle them? <https://benjamincrozat.com/php-exceptions>`_
+See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_, `PHP try & catch: what are exceptions and how to handle them? <https://benjamincrozat.com/php-exceptions>`_, `The PHP Exception Class Hierarchy <https://blog.airbrake.io/blog/php-exception-handling/the-php-exception-class-hierarchy>`_
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Chaining Exceptions <exception-chain>`
 
@@ -6754,6 +6767,19 @@ false has two usages, as PHP keyword : the opposite of true, as a boolean value 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
 Related : :ref:`Boolean <boolean>`, :ref:`Type system <type>`
+
+.. _fastcgi:
+
+FastCGI
+-------
+
+CGI stands for fast CGI, so fast Common Interface Gateway. It is a protocol, built on top of CGI. Unlike CGI, fastCGI has persistent processes that can handle more than one request before being destroyed. It also implements multiplexing.
+
+PHP may be build as a fast CGI, in the php-fpm demon. 
+
+`Documentation <https://www.php.net/manual/en/install.fpm.php>`__
+
+Related : :ref:`PHP-FPM <fpm>`, :ref:`FastCGI <fastcgi>`, :ref:`Command Line Interface <cli>`
 
 .. _feature:
 
@@ -9979,7 +10005,12 @@ Related packages : `league/commonmark <https://packagist.org/packages/league/com
 Match
 -----
 
-The match expression branches evaluation based on an identity check of a value. 
+The ``match`` expression is the remote cousin of the ``switch``. It takes a value, branch among a list of cases, or fallback to a default one, and returns a unique value. 
+
+``match`` use a strict comparison for the comparison. ``match`` raise an error if no case match, unless the ``default`` case is provided. 
+
+``match`` is an expression, to be used in an assignement, while ``switch`` is a command, and must be used alone. 
+
 
 .. code-block:: php
    
@@ -9989,6 +10020,7 @@ The match expression branches evaluation based on an identity check of a value.
        'apple' => 'This food is an apple',
        'bar'   => 'This food is a bar',
        'cake'  => 'This food is a cake',
+       default => 'This is not food'
    };
    
    ?>
@@ -10228,11 +10260,11 @@ Mock objects are also called ``test double``.
 
 `Documentation <https://www.radview.com/glossary/what-is-mock-testing/>`__
 
-See also `Test doubles <https://phpunit.readthedocs.io/en/9.5/test-doubles.html>`_, `Mocking <https://laravel.com/docs/9.x/mocking>`_
+See also `Test doubles <https://phpunit.readthedocs.io/en/9.5/test-doubles.html>`_, `Mocking <https://laravel.com/docs/9.x/mocking>`_, `Avoid mocking repositories by using in-memory implementations <https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html>`_
 
 Related : 
 
-Related packages : `mockery/mockery <https://packagist.org/packages/mockery/mockery>`_
+Related packages : `mockery/mockery <https://packagist.org/packages/mockery/mockery>`_, `phpspec/prophecy <https://packagist.org/packages/phpspec/prophecy>`_
 
 .. _model:
 
@@ -10875,7 +10907,7 @@ Key principles of the Null Pattern:
 
 `Documentation <https://en.wikipedia.org/wiki/Null_object_pattern>`__
 
-See also `Null Object Pattern in PHP <https://nunomaduro.com/null_object_pattern_in_php>`_
+See also `Null Object Pattern in PHP <https://nunomaduro.com/null_object_pattern_in_php>`_, `All the way to handle null values in PHP <https://www.amitmerchant.com/all-the-ways-to-handle-null-values-in-php/>`_
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -12188,7 +12220,7 @@ Instead of nesting PHP in the web server, php-fpm makes PHP a server by itself. 
 
 `Documentation <https://www.php.net/manual/en/install.fpm.php>`__
 
-See also `Why Do You Need PHP FastCGI Process Manager? <https://www.plesk.com/blog/various/why-do-you-need-php-fpm/>`_, `How to Configure PHP-FPM with NGINX <https://www.digitalocean.com/community/tutorials/php-fpm-nginx>`_
+See also `Why Do You Need PHP FastCGI Process Manager? <https://www.plesk.com/blog/various/why-do-you-need-php-fpm/>`_, `How to Configure PHP-FPM with NGINX <https://www.digitalocean.com/community/tutorials/php-fpm-nginx>`_, `PHP FastCGI Process Manager - PHP-FPM <https://docs.cpanel.net/knowledge-base/php-fpm/php-fastcgi-process-manager-php-fpm/>`_
 
 Related : :ref:`CGI <cgi>`
 
@@ -13021,7 +13053,7 @@ Related : :ref:`Functions <function>`
 Refactoring
 -----------
 
-Refactoring is the rewrite of a piece of code, without changing its features. 
+Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior. The primary goal of refactoring is to make the code more readable, maintainable, and efficient while reducing code duplication and potential bugs. Refactoring is an essential practice in software development to ensure that the code remains clean and adaptable as the project evolves. 
 
 .. code-block:: php
    
@@ -14149,6 +14181,8 @@ In addition to the basic assignment operator, there are combined operators for a
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
+See also `PHP — P22: Shorthand Operators <https://blog.devgenius.io/php-7-x-p22-shorthand-operators-bdef003cd52d>`_
+
 Related : :ref:`Assignations <assignation>`
 
 Related packages : ` <https://packagist.org/packages/>`_
@@ -14596,7 +14630,7 @@ Each principle may be used independently. Those principle are not dedicated to P
 
 `Documentation <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>`__
 
-See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_
+See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_, `SOLID principles in PHP <https://dev.to/devlinaung/solid-principles-in-php-363j>`_
 
 Related : :ref:`Single Responsability Principle <srp>`, :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, :ref:`Interface Segregation Principle <isp>`, :ref:`Dependency Injection <dip>`
 
@@ -14800,7 +14834,7 @@ Views in a SQL server is a virtual table, build as the result of a SQL query.
 
 Instead of accessing a concrete table, a view is built as a SELECT query, and display the result of that query. As a SELECT, it may join with multiple tables, display columns, build dynamic values, and drop others.
 
-SQL views are usally non-writable (no UPDATE, no INSERT), as they do not mirror a real table. 
+SQL views are usually non-writable (no UPDATE, no INSERT), as they do not mirror a real table. 
 
 
 `Documentation <https://en.wikipedia.org/wiki/View_(SQL)>`__
@@ -14868,6 +14902,35 @@ SSL is a PHP context for sockets, and share the configuration options with TLS.
 `Documentation <https://www.php.net/manual/en/context.php>`__
 
 Related : :ref:`TLS <tls>`
+
+.. _standalone-types:
+
+Standalone types
+----------------
+
+Types are standalone, as they can be use alone, in a type declaration. This is the case of almost any type of PHP, scalar, or class. The only exception used to be false and null.
+
+Null needed to be associated to another type, and was not standalone. False also was introduced as a non-standalone type, where it had to be associated with another type. 
+
+Since PHP 8.2 (and 8.3 for true), those types are now standalone and can be used by themselves. They are also called a 'literal type' as they define both the type and the value. 
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo(true $t) {
+   	// $t can only be true
+   	var_dump($t);
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
+
+See also `What's the 'true' Standalone Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-true-standalone-type-in-php>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _spl:
 
@@ -14964,6 +15027,42 @@ Static is a keyword for variables : those variables aren't removed at the end of
 See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `Scope of Variables <https://jobtensor.com/Tutorial/PHP/en/Variables>`_
 
 Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
+
+.. _class-constant:
+.. _static-constant:
+.. _interface-constant:
+.. _trait-constant:
+.. _enum-constant:
+
+Static constant
+---------------
+
+Static constants are constants that are defined inside a class, interface, trait (since PHP 8.2) and enumeration. 
+
+Static constants have a visibility. Visibility may be ``public``, ``protected``, ``private``. By default, and for backward compatibility, a constant without a visibility is ``public``.
+
+Static constants may also be overwritten by children classes. They can also use the ``final`` keyword, to avoid such behavior.
+
+Static constants are defined at coding time, and cannot be changed later, not dynamically created. 
+
+Static constant syntax is the same than for enumeration cases. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+       public  const FOO = 1;
+       private const BAR = 2;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
+
+Related : :ref:`Visibility <visibility>`, :ref:`Final Keyword <final>`
 
 .. _static-method:
 
@@ -15780,6 +15879,19 @@ Tests are often further automated in a Continuous Integration Pipeline.
 
 Related : :ref:`Continuous Integration <ci>`
 
+.. _test-pyramid:
+
+Test pyramid
+------------
+
+The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy. It was popularized by Mike Cohn in his book Succeeding with Agile. The Test Pyramid is used to illustrate the recommended proportions of various levels of testing in an application, with the goal of achieving effective test coverage while keeping testing efforts manageable and efficient.
+
+`Documentation <https://martinfowler.com/articles/practical-test-pyramid.html>`__
+
+See also `TestPyramid <https://martinfowler.com/bliki/TestPyramid.html>`_
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _thread:
 
 Thread
@@ -16161,7 +16273,14 @@ Related : :ref:`Finally <finally>`
 Type Error
 ----------
 
-A TypeError may be thrown when a value does not match the expected type.
+A ``TypeError`` is an error that occurs when there is a mismatch between the expected data type and the actual data type of a variable or value in your code. This applies to method arguments, property types and method return types. 
+
+PHP is a dynamically typed language, which means that variable types are not explicitly declared, and PHP determines the data type at runtime. ``TypeError`` can occur when PHP encounters a situation where the expected data type does not match the actual data type.
+
+``TypeError`` apply to typed custom methods, native PHP methods and operators. ``TypeError`` do not represent an invalid value: for example, an argument may be typed ``int``, and later used in a division, while being zero. This situation will yield a different exception.
+
+``TypeError`` are a kind of ``Throwable``. 
+
 
 .. code-block:: php
    
@@ -16181,6 +16300,12 @@ A TypeError may be thrown when a value does not match the expected type.
 
 
 `Documentation <https://www.php.net/manual/en/class.typeerror.php>`__
+
+See also `PHP Exception Handling - TypeError <https://blog.airbrake.io/blog/php-exception-handling/php-typeerror>`_
+
+Related : :ref:`Exception <exception>`, :ref:`Throwable <throwable>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _type-juggling:
 
@@ -16336,7 +16461,11 @@ Added in PHP 5.1
 UnhandledMatchError
 -------------------
 
-An UnhandledMatchError is thrown when the subject passed to a match expression is not handled by any arm of the match expression. 
+An UnhandledMatchError is thrown when the subject passed to a match expression is not handled by any case of the match expression. This means that all the cases have been exhausted, and then, the ``default`` case is missing. 
+
+Instead of finishing the ``match`` expression without any returned value, it throws an exception and stops the execution. This is a different behavior than ``switch``, which will continue the processing, even if nothing was found, potentially leading to unexpected situations.
+
+
 
 .. code-block:: php
    
@@ -17203,7 +17332,7 @@ Visibility may no change, unless when overwiting it with a trait, or in a child 
 
 See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_, `PHP Tricks: Access control bypass <https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass>`_
 
-Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Class constant <class-constant>`
+Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Static constant <class-constant>`
 
 .. _void:
 
@@ -17521,12 +17650,7 @@ Related packages : ` <https://packagist.org/packages/>`_
 YAML
 ----
 
-YAML stands for 'YAML ain't Markup Language'. It is a human-friendly data serialization language.
-
-YAML is supported by the extension ext/yaml and several packages. 
-
-It is used to store datasets, and configurations.
-
+``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format. It is often used for configuration files, data exchange between languages with different data structures, and general-purpose data storage. YAML is designed to be easy for humans to read and write while also being easy for machines to parse and generate.
 
 .. code-block:: php
    
@@ -17687,9 +17811,9 @@ Related packages : ` <https://packagist.org/packages/>`_
 Zval
 ----
 
-ZVAL is a C structure, that represents data in PHP. It is a C structure, which is never directly used from PHP code.
+``ZVAL`` is a C structure, that represents data in PHP. It is a structure, which is never directly used from PHP code.
 
-It may be access with debug_zval_dump() function. It is useful to debug PHP engine, or extensions.
+It may be access with debug_zval_dump() function, for debugging purposes. It is useful to debug PHP engine, or extensions.
 
 
 .. code-block:: php

@@ -8,11 +8,11 @@ reading sources... [ 50%] index
 reading sources... [ 75%] introduction
 reading sources... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5455: WARNING: Inline literal start-string without end-string.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:5461: WARNING: Inline literal start-string without end-string.
 /Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "php-fig".
 /Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "md5".
-/Users/famille/Desktop/php-dictionary/dictionary.rst:14487: WARNING: Inline emphasis start-string without end-string.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7964: WARNING: Unknown target name: "pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd >".
+/Users/famille/Desktop/php-dictionary/dictionary.rst:14521: WARNING: Inline emphasis start-string without end-string.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7990: WARNING: Unknown target name: "pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd >".
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -22,12 +22,12 @@ writing output... [ 50%] index
 writing output... [ 75%] introduction
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:230: WARNING: undefined label: php-fig
+/Users/famille/Desktop/php-dictionary/dictionary.rst:229: WARNING: undefined label: php-fig
 /Users/famille/Desktop/php-dictionary/dictionary.rst:342: WARNING: undefined label: md5
-/Users/famille/Desktop/php-dictionary/dictionary.rst:12084: WARNING: undefined label: php-fig
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1830: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7227: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:14738: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:12116: WARNING: undefined label: php-fig
+/Users/famille/Desktop/php-dictionary/dictionary.rst:1833: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:7253: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+/Users/famille/Desktop/php-dictionary/dictionary.rst:14772: WARNING: Could not lex literal_block as "php". Highlighting skipped.
 generating indices... genindex done
 writing additional pages... search done
 copying static files... done

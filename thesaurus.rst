@@ -10,6 +10,7 @@ Acronym
 + :ref:`Command Line Interface <cli>`
 + :ref:`DTO <dto>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf>`
++ :ref:`FastCGI <fastcgi>`
 + :ref:`HTTPS <https>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`JSON <json>`
@@ -215,6 +216,7 @@ Type
 + :ref:`Never <never>`
 + :ref:`Never Typehint <never-typehint>`
 + :ref:`Real Numbers <real>`
++ :ref:`Standalone types <standalone-types>`
 + :ref:`Stringable <stringable>`
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Void <void>`
