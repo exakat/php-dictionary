@@ -439,6 +439,7 @@ PHP Dictionary
    * :ref:`PharException <pharexception>`
    * :ref:`Pipeline <pipeline>`
    * :ref:`Plugin <plugin>`
+   * :ref:`Polyfill <polyfill>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Precedence <precedence>`
@@ -531,7 +532,6 @@ PHP Dictionary
    * :ref:`Single Quotes Strings <single-quote>`
    * :ref:`Single Responsability Principle <srp>`
    * :ref:`Singleton <singleton>`
-   * :ref:`Skeleton <skeleton>`
    * :ref:`Sort <sort>`
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Typehints <special-typehint>`
@@ -561,7 +561,6 @@ PHP Dictionary
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
    * :ref:`sleep <sleep>`
-   * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
@@ -5549,9 +5548,9 @@ Related : :ref:`constructor <constructor>`
 Directives
 ----------
 
-Directives are the configuration option of PHP. They may be set in the `php.ini` file, in HTTP server files like ``.htaccess`, or accessed via the ini_get() and ini_set() native calls. 
+Directives are the configuration option of PHP. They may be set in the ``php.ini`` file, in HTTP server files like ``.htaccess``, or accessed via the ini_get() and ini_set() native calls. 
 
-Directives are also set by PHP extensions.
+Directives are also set by PHP extensions or by PHP applications.
 
 
 .. code-block:: php
@@ -7347,7 +7346,7 @@ It is possible to define one's custom format. Common formats have a comprehensiv
    
    // displays 123 with 9 characters, and fills with dots any empty characters
    // ......123
-   echo sprintf(%'.9d\n, 123);
+   echo sprintf("%'.9d\n", 123);
    
    ?>
 
@@ -8078,7 +8077,7 @@ The hexagonal architecture promotes loose coupling, which makes the system more 
 
 See also `Hexagonal Architecture in PHP <https://www.developers.nl/blog/35/hexagonal-architecture-in-php>`_
 
-Related packages : `pccomponentes/ddd  <https://packagist.org/packages/pccomponentes/ddd >`_
+Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_
 
 .. _html-entities:
 
@@ -12526,6 +12525,38 @@ plus +
 
 Related packages : ` <https://packagist.org/packages/>`_
 
+.. _polyfill:
+
+Polyfill
+--------
+
+A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features. Polyfills are used to bridge the gap between the capabilities of modern web standards and the limitations of older browsers that might not fully support those standards.
+
+The term polyfill is a combination of poly (meaning many) and fill (meaning to provide what's missing). Essentially, a polyfill fills in the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
+
+There are polyfills for PHP version, for specific extensions (in case they are not compiled with PHP) or component versions.
+
+There are polyfills available in packagist, like the family of packages ``symfony/polyfill-*``, or manually coded in the sources. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // hand-made polyfill
+   if (!function_exists('str_contains')) {
+   	function str_contains(string $a, string $b) : bool {
+   		return substr($a, $b) !== false;
+   	}
+   }
+   
+   ?>
+
+
+`Documentation <https://github.com/symfony/polyfill>`__
+
+Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_
+
 .. _portability:
 
 Portability
@@ -14725,38 +14756,6 @@ See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01
 
 Related : :ref:`Design Pattern <design-pattern>`
 
-.. _skeleton:
-
-Skeleton
---------
-
-A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features. Polyfills are used to bridge the gap between the capabilities of modern web standards and the limitations of older browsers that might not fully support those standards.
-
-The term polyfill is a combination of poly (meaning many) and fill (meaning to provide what's missing). Essentially, a polyfill fills in the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
-
-There are polyfills for PHP version, for specific extensions (in case they are not compiled with PHP) or component versions.
-
-There are polyfills available in packagist, like the family of packages symfony/polyfill-*, or manually coded in the sources. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // hand-made polyfill
-   if (!function_exists('str_contains')) {
-   	function str_contains(string $a, string $b) : bool {
-   		return substr($a, $b) !== false;
-   	}
-   }
-   
-   ?>
-
-
-`Documentation <https://github.com/symfony/polyfill>`__
-
-Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_
-
 .. _sleep:
 
 sleep
@@ -14969,46 +14968,6 @@ Other special types are the scalar types.
 Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
 
 Added in PHP 7.0
-
-.. _sprintf:
-.. _vprintf:
-.. _printf:
-
-sprintf
--------
-
-sprintf() is a PHP native function, which format a string based on a format string, and one or more values. 
-
-sprintf() returns the formatted string, while printf() displays it immediately, and vprintf() writes the formatted string to a stream. There is also sscanf(), which parse the string, according to the format.
-
-printf() is convenient to display text in command line, as it makes easy to use fillers and justification. 
-
-printf() also supports named arguments, which makes the format string more flexible. 
-
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // displays 123 with 9 characters, and fills with dots any empty characters
-   // ......123
-   echo sprintf(%'.9d\n, 123);
-   
-   // same as above, without the echo command
-   printf(%'.9d\n, 123);
-   
-   // same as above, without the echo command
-   vprintf(%'.9d\n, '......123');
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/fr/function.sprintf.php>`__
-
-See also `PHP Sprintf: Powerful String Formatting <https://marketsplash.com/tutorials/php/php-sprintf/>`_
-
-Related : :ref:`String <string>`, :ref:`Format <format>`
 
 .. _sql-injection:
 
