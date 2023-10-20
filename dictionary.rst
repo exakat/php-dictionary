@@ -561,6 +561,7 @@ PHP Dictionary
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
    * :ref:`sleep <sleep>`
+   * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
@@ -680,8 +681,6 @@ See also `POST method uploads <https://www.php.net/manual/en/features.file-uploa
 
 Related : :ref:`File Upload <upload>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _$_get:
 
 $_GET
@@ -717,8 +716,6 @@ Values inside $_GET are always strings, or arrays. `https://www.site.com/index.p
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_files>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _$_post:
 
@@ -756,8 +753,6 @@ Values inside $_POST are always strings, or arrays.
 
 Related : :ref:`$_GET <$_get>`, :ref:`$_REQUEST <$_request>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _$_request:
 
 $_REQUEST
@@ -792,8 +787,6 @@ $_REQUEST is a superglobal : it is always available, in every scope.
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`variable_order <variable_order>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _$argc:
 
 $argc
@@ -815,8 +808,6 @@ When a PHP script is run from the command line, the script's filename is counted
 `Documentation <https://www.php.net/manual/en/reserved.variables.argc.php>`__
 
 Related : :ref:`$argv <$argv>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _$argv:
 
@@ -862,8 +853,6 @@ Since PHP 7.0, ``php://input`` should be used instead of `$HTTP_RAW_POST_DATA`.
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Removed in PHP 
 
@@ -1082,7 +1071,7 @@ __halt_compiler()
 
 Halts the execution of the compiler. This can be useful to embed data in PHP scripts, like the installation files. 
 
-Byte position of the data start can be determined by the ``__COMPILER_HALT_OFFSET__``` constant which is defined only if there is a __halt_compiler() presented in the file. 
+Byte position of the data start can be determined by the ``__COMPILER_HALT_OFFSET__`` constant which is defined only if there is a __halt_compiler() presented in the file. 
 
 Note : this is the documentation from PHP.net.
 
@@ -1478,8 +1467,6 @@ An abstract class can contain both regular methods and abstract methods. Regular
 
 Related : :ref:`Final Keyword <final>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _abstract:
 
 Abstract Keyword
@@ -1510,8 +1497,6 @@ PHP has abstract classes and methods. Classes defined as abstract cannot be inst
 See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_, `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_
 
 Related : :ref:`Final Keyword <final>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _ast:
 
@@ -1686,8 +1671,6 @@ The same rules applies to alias types than other types : for example, array | it
 
 Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Type system <typehint>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.0
 
 .. _allowdynamicproperty:
@@ -1823,8 +1806,6 @@ The motivation behind this proposal is to simplify exception handling code, espe
 
 
 Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Try-catch <try-catch>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _anonymous-class:
 
@@ -2020,8 +2001,6 @@ No exception is raised for extra parameters, as those may still be processed by 
 `Documentation <https://www.php.net/manual/en/class.argumentcounterror.php>`__
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _arithmeticerror:
 
@@ -2220,8 +2199,6 @@ Artifact
 
 An artifact refers to any intermediate or final output that is produced during the development process. This could include compiled code, cache content, libraries, executable files, documentation, diagrams, configuration files, and more. Artifacts are the tangible results of the development process and are often used for testing, deployment, and maintenance of software applications.
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _as:
 
 As
@@ -2331,8 +2308,6 @@ Finally, there are some inherent assignations: foreach() loops, method calls and
 
 Related : :ref:`Short Assignations <short-assignation>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _assumption:
 
 Assumption
@@ -2427,8 +2402,6 @@ Attributes are related to phpdoc.
 See also `PHP native attributes <https://www.exakat.io/en/php-native-attributes-quick-reference/>`_
 
 Related : :ref:`PHPdoc <phpdoc>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 8.0
 
@@ -2569,8 +2542,6 @@ The complement to backend is the front end.
 
 Related : :ref:`Front-end <frontend>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _badfunctioncallexception:
 
 BadFunctioncallException
@@ -2660,8 +2631,6 @@ Integers can be specified in binary (base 2) notation. Binary integer syntax sta
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
 Related : :ref:`integer <integer>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.4
 
@@ -3067,8 +3036,6 @@ It is possible to make an alias of a class and call it with this new name. It ei
 
 Related : :ref:`Use <use>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _autoload:
 
 Class Autoloading
@@ -3140,8 +3107,6 @@ Class constant may have a visibility option. This limits their accessibility to 
 
 Related : :ref:`Visibility <visibility>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 7.1
 
 .. _getter:
@@ -3201,7 +3166,7 @@ PHP doesn't do class hoisting : it does two passes on the code, and later, trigg
    
 
 
-See also ` Early binding in PHP <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`_
+See also `Early binding in PHP <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`_
 
 .. _class-invasion:
 
@@ -3346,8 +3311,6 @@ See also `RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_
 
 Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Getter Method <getter>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _class:
 
 Classes
@@ -3387,8 +3350,6 @@ Clean Architectue is a programming paradigm, where code is distributed in four l
 `Documentation <https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html>`__
 
 See also `Domain-Driven Design and Clean Architecture in PHP — Part 1 (Layers and Structure) <https://medium.com/@pogulailo/domain-driven-design-and-clean-architecture-in-php-part-1-layers-and-structure-edcce57be42a>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _clone:
 
@@ -3458,8 +3419,6 @@ See also `You shouldn't use PHP Closing Tags <https://www.youtube.com/watch?v=mX
 
 Related : :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _closedgeneratorexception:
 
 ClosedGeneratorException
@@ -3510,8 +3469,6 @@ Once a generator is closed, it cannot be used for further iteration. Any attempt
 
 
 See also `Explaining the ClosedGeneratorException in PHP <https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303>`_, `PHP Exception Handling - ClosedGeneratorException <https://blog.airbrake.io/blog/php-exception-handling/closedgeneratorexception>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _closure:
 .. _anonymous-functions:
@@ -3571,8 +3528,6 @@ This is done with the two methods Closure::bind() and Closure::bintTo().
 `Documentation <https://www.php.net/manual/en/closure.bind.php>`__
 
 Related : :ref:`Closure <closure>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _coalesce:
 .. _null-coalesce:
@@ -3656,8 +3611,6 @@ Code smells are not strict rules or errors but rather indicators of areas that m
 `Documentation <https://en.wikipedia.org/wiki/Code_smell>`__
 
 See also `What Are Code Smells in PHP? An OOP Approach for Cleaner Code <https://betterprogramming.pub/what-are-code-smells-in-php-oop-approach-for-cleaner-code-c9729232dc5f>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _coding-convention:
 
@@ -3772,7 +3725,7 @@ Here's a simplified overview of how a command bus works:
 
 
 
-`Documentation <`What is a Command Bus?bb <https://tactician.thephpleague.com/>`_>`__
+`What is a Command Bus?bb <https://tactician.thephpleague.com/>`_
 
 See also `What is a command bus and why should you use it?  <https://barryvanveen.nl/articles/49-what-is-a-command-bus-and-why-should-you-use-it>`_, `Command Bus <https://laravel.com/docs/5.0/bus>`_
 
@@ -3835,8 +3788,6 @@ Comments may be formalized with a specific syntax, and create automated instruct
 
 
 Related : :ref:`PHPdoc <phpdoc>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _compact-array:
 
@@ -3922,8 +3873,6 @@ There are also functions dedicated to comparisons, with specific applications : 
 See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_
 
 Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship Operator <spaceship>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _composer:
 
@@ -4087,8 +4036,6 @@ Each item of configuration is called a directive.
 
 `Documentation <https://www.php.net/manual/en/configuration.php>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _const:
 
 Const
@@ -4133,8 +4080,6 @@ A constant scalar expression is an expression that can be evaluated at compile t
 `Documentation <https://wiki.php.net/rfc/const_scalar_exprs>`__
 
 Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`, 
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.6+
 
@@ -4219,8 +4164,6 @@ There are several usage of container:
 
 
 Related : :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`PHP Docker Container <php-docker-container>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _continue:
 
@@ -4403,8 +4346,6 @@ Controllers orchestrate the execution of the request, and act as gatekeeper, ens
 
 Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _convention:
 
 Convention
@@ -4522,8 +4463,6 @@ By implementing the Countable interface, a class can define custom logic for det
 
 `Documentation <https://www.php.net/manual/en/class.countable.php>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _coupling:
 
 Coupling
@@ -4577,8 +4516,6 @@ Software designers aim to achieve low coupling and high cohesion (a measure of h
 `Documentation <https://en.wikipedia.org/wiki/Coupling_(computer_programming)>`__
 
 See also `Dependencies and coupling <https://dev.to/franiglesias/dependencies-and-coupling-4365>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _type-covariance:
 .. _covariance:
@@ -4680,8 +4617,6 @@ PHP include native crypto features, like hash() and crypt(), and also extensions
 
 `Documentation <https://www.php.net/manual/en/refs.crypto.php>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _csv:
 
 CSV
@@ -4757,8 +4692,6 @@ cURL is used to access remote resources, using various protocols such as DICT, F
 
 See also `curl.se <https://curl.se/>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _curly-bracket:
 
 Curly Brackets
@@ -4819,8 +4752,6 @@ A custom asset is usually the last to be defined, and, as such, has to use a dis
 
 Related : :ref:`Native <built-in>`, :ref:`Custom <custom>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _cvs:
 
 CVS
@@ -4834,8 +4765,6 @@ With CVS, developers can check out a copy of a project's source code, make chang
 `Documentation <https://en.wikipedia.org/wiki/Concurrent_Versions_System>`__
 
 Related : :ref:`git <git>`, , 
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _dangling-reference:
 
@@ -4921,8 +4850,6 @@ DSN is closely related to the PDO extension.
 
 
 `Documentation <https://www.php.net/manual/en/pdo.connections.php>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _database:
 
@@ -5073,8 +5000,6 @@ Dead code is also known as unused code. It happens to any defined structure. Var
 See also `Delete unused code (and how to retrieve it) <https://understandlegacycode.com/blog/delete-unused-code/>`_
 
 Related : :ref:`Zombie Code <zombie-code>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _debugger:
 .. _debug:
@@ -5415,8 +5340,6 @@ Deprecation is the state of a feature which is still available, but not recommen
 
 `Documentation <https://www.php.net/manual/en/migration74.deprecated.php#migration74.deprecated.core.nested-ternary>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _dereferencing:
 
 Dereferencing
@@ -5462,8 +5385,6 @@ Design by Contract (DbC) is a software development approach that focuses on spec
 
 `Documentation <https://en.wikipedia.org/wiki/Design_by_contract>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _design-pattern:
 .. _pattern:
 
@@ -5498,8 +5419,6 @@ A wrapper is also a design pattern, also called an adaptor. This concept also ap
 `Documentation <https://refactoring.guru/design-patterns/decorator>`__
 
 See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _destructor:
 
@@ -5609,8 +5528,6 @@ In PHP, dirname() provides the dirname from a path, based on the `/` separator. 
 
 Related : :ref:`dirname <dirname>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _disable_classes:
 
 Disable classes
@@ -5687,8 +5604,6 @@ See also `PHP RFC: Disjunctive Normal Form Types <https://wiki.php.net/rfc/dnf_t
 
 Related : :ref:`Type system <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.2
 
 .. _divisionbyzeroerror:
@@ -5747,8 +5662,6 @@ Part of the block execution may be skipped by using the `continue` keyword.
 
 Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`, :ref:`While <while>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _domxml:
 
 DOM
@@ -5790,8 +5703,6 @@ The DOM extension provides a tree-based representation of an XML document, where
 See also `Using PHP DOMDocument: Code Examples Explained <https://www.bitdegree.org/learn/php-domdocument>`_
 
 Related : :ref:`XML <xml>`, :ref:`SimpleXML <simplexml>`, :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _domainexception:
 
@@ -5881,8 +5792,6 @@ DTO is a class, and replaces arrays advantageously : it has declared properties,
 `Documentation <https://en.wikipedia.org/wiki/Data_transfer_object>`__
 
 See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _duck-typing:
 .. _ducktyping:
@@ -6267,8 +6176,6 @@ Entities are different things :
 
 Related : :ref:`HTML Entities <html-entities>`, :ref:`Entities, in an application <class-entity>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _class-entity:
 
 Entities, in an application
@@ -6279,8 +6186,6 @@ An entity represents a single object, with a unique identifier and a set of prop
 `Documentation <https://en.wikipedia.org/wiki/Entity>`__
 
 Related : :ref:`HTML Entities <html-entities>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _enum:
 .. _enumeration:
@@ -6382,8 +6287,6 @@ It's important to note that these error exceptions are only thrown for internal 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
 Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`ParseError <parseerror>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _error-handler:
 
@@ -6492,8 +6395,6 @@ PHP supports escape sequences for characters in a string. This is the same conce
 
 `Documentation <https://owasp-top-10-proactive-controls-2018.readthedocs.io/en/latest/c4-encode-escape-data.html>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _escape-sequence:
 
 Escape Sequences
@@ -6591,8 +6492,6 @@ Event storming is a workshop, aiming at discovering the domain for an applicatio
 
 See also `Event storming workshop <https://www.eventstorming.com/>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _exception:
 
 Exception
@@ -6621,8 +6520,6 @@ Exceptions are thrown at the point of detection of the issue, and processed some
 See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_, `PHP try & catch: what are exceptions and how to handle them? <https://benjamincrozat.com/php-exceptions>`_, `The PHP Exception Class Hierarchy <https://blog.airbrake.io/blog/php-exception-handling/the-php-exception-class-hierarchy>`_
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Chaining Exceptions <exception-chain>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _exception-handler:
 
@@ -6830,8 +6727,6 @@ The Laravel framework is known for its intensive usage of facades.
 
 See also `Facades @ Laravel <https://laravel.com/docs/9.x/facades>`_, `Facade @ design pattern PHP <https://designpatternsphp.readthedocs.io/en/latest/Structural/Facade/README.html>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _false:
 
 False
@@ -6884,8 +6779,6 @@ Developers prioritize and implement features based on user needs, market demand,
 
 
 See also `Can I PHP <https://caniphp.com/>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _php-fig:
 
@@ -7022,8 +6915,6 @@ It yields a Fatal error : 'y::x cannot override final constant'.
 
 Related : :ref:`Final Keyword <final>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.1
 
 .. _final:
@@ -7117,8 +7008,6 @@ Such closure may be created using any kind of function, such as native PHP funct
 
 Related : :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.1
 
 .. _fixture:
@@ -7133,8 +7022,6 @@ A fixture is a set of test data. They are used to set up the environment in a kn
 See also `Fixtures in PHPUnit <https://phpunit.readthedocs.io/en/9.5/fixtures.html>`_, `Fixture Factory in PHP <https://medium.com/ticketswap/fixture-factory-in-php-7969efd9c5d7>`_
 
 Related : :ref:`Mock <mock>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _float:
 .. _double:
@@ -7468,8 +7355,6 @@ The complement to front-end is the backend.
 
 Related : :ref:`Backend <backend>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _fully-qualified-name:
 .. _fqn:
 
@@ -7547,8 +7432,6 @@ Functions in PHP. It defines a set of argument, and process a value, which is re
 `Documentation <https://www.php.net/manual/en/functions.php>`__
 
 Related : :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _garbage-collection:
 .. _gc:
@@ -7978,8 +7861,6 @@ Traditionally, websites are built using a monolithic architecture, where the fro
 In contrast, a headless website is designed with a clear separation of concerns.
 
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _heredoc:
 
 Heredocs
@@ -8100,8 +7981,6 @@ HTML entities are useful in the HTML code, but they are confusing in a text file
 
 Related : :ref:`Entities <entity>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _html-entity:
 
 HTML entity
@@ -8132,8 +8011,6 @@ PHP has functions to decode (turn HTML entities into characters) and encode (tur
 `Documentation <https://www.php.net/manual/en/function.htmlentities.php>`__
 
 See also `Named character references <https://html.spec.whatwg.org/multipage/named-characters.html>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _http-code:
 
@@ -8187,8 +8064,6 @@ Here are some of the most common HTTP status codes and their general meanings:
     
 
 See also `HTTP response status codes <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _http-header:
 
@@ -8311,8 +8186,6 @@ Identical operators are `===`, `!==`. The match() command also uses identical co
 See also `How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ? <https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/>`_
 
 Related : :ref:`Comparison <comparison-operator>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _if-then:
 
@@ -8641,8 +8514,6 @@ An index may be several things :
 
 Related : :ref:`MVC <mvc>`, :ref:`Index for arrays <index-array>`, :ref:`Index for SQL <index-sql>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _index-array:
 
 Index for arrays
@@ -8922,8 +8793,6 @@ When a class uses multiple traits that have methods or properties with the same 
 See also `PHP Traits Explained <https://alexwebdevelop.com/php-traits/>`_
 
 Related : :ref:`Use <use>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.4+
 
@@ -9346,8 +9215,6 @@ Classic key-value stores include memcache, redis.
 
 See also `Php and Redis <https://developer.redis.com/develop/php/>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _language-construct:
 
 Language construct
@@ -9748,8 +9615,6 @@ The opposite of local scope is the global scope.
 
 Related : :ref:`Scope <scope>`, :ref:`global scope <global>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _locale:
 
 Locale
@@ -9907,8 +9772,6 @@ See also `Too much magic? <https://matthiasnoback.nl/2022/03/too-much-magic/>`_
 
 Related : :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _magic-constant:
 
 Magic Constants
@@ -10023,8 +9886,6 @@ The constructor and destructors are not considered as magic methods, even though
 See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_, `PHP Magic Methods Explained <https://atakde.medium.com/php-magic-methods-explained-bac7053c007d>`_
 
 Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, :ref:`__toString() method <-__tostring>`, :ref:`__invoke <-__invoke>`, :ref:`__set_state() method <-__set_state>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _magic-property:
 
@@ -10344,8 +10205,6 @@ See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_
 
 Related : :ref:`Type system <type>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.0+
 
 .. _mock:
@@ -10381,8 +10240,6 @@ The model is often used as part of the MVC pattern, though it may be used indepe
 
 Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Controller <controller>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _module:
 
 Module
@@ -10396,8 +10253,6 @@ In the PHP world, modules often refers to specfic frameworks' component : for ex
 See also `Download & Extend <https://www.drupal.org/project/project_module>`_
 
 Related : , :ref:`Extensions <extension>`, 
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _mbstring:
 .. _multibyte-string:
@@ -10628,8 +10483,6 @@ See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/
 
 Related : :ref:`Positional Parameters <positional-parameter>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _namespace-alias:
 
 Namespace alias
@@ -10703,8 +10556,6 @@ Good naming practices are essential for writing readable, maintainable, and unde
 
 See also `Basics of Naming Conventions for PHP Developers <https://www.codementor.io/@veenitchauhan/basics-of-naming-conventions-for-php-developers-eliexmew6>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _native:
 .. _native-function:
 .. _native-class:
@@ -10733,8 +10584,6 @@ On the other hand, a feature is custom : that is, when defined by the developer 
 
 
 Related : :ref:`Native <built-in>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _nested-attributes:
 
@@ -10965,8 +10814,6 @@ See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-abo
 
 Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _nullpattern:
 
 Null Pattern
@@ -11012,8 +10859,6 @@ Key principles of the Null Pattern:
 `Documentation <https://en.wikipedia.org/wiki/Null_object_pattern>`__
 
 See also `Null Object Pattern in PHP <https://nunomaduro.com/null_object_pattern_in_php>`_, `All the way to handle null values in PHP <https://www.amitmerchant.com/all-the-ways-to-handle-null-values-in-php/>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _nullsafe-object-operator:
 
@@ -11106,8 +10951,6 @@ There are two PHP operators that are nullsafe :
 
 
 Related : :ref:`Object Operator -> <object-operator>`, :ref:`Coalesce operator <coalesce>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _numeric-separator:
 
@@ -11313,8 +11156,6 @@ Object Nullsafe Operator is directly related to the Object operator : the differ
 
 Related : :ref:`Null Safe Object Operator <nullsafe-object-operator>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _orm:
 
 Object Relational Mapping (ORM)
@@ -11417,8 +11258,6 @@ There is another open tag, called `echo tag`. ``<?=`` starts PHP execution, and 
 
 Related : :ref:`Echo Tag <echo-tag>`, :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _openssl:
 
 OpenSSL
@@ -11474,8 +11313,6 @@ An operand is an argument for an operator. It applies to any of the operand: to 
 
 
 Related : :ref:`Addition <addition>`, , :ref:`Ternary Operator <ternary>`, 
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _operator-precedence:
 
@@ -11621,8 +11458,6 @@ The OutOfRangeException is typically thrown when accessing an array or collectio
 
 
 `Documentation <https://www.php.net/manual/en/class.outofrangeexception.php>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _overflow:
 
@@ -11849,8 +11684,6 @@ A ParseError is thrown when an error occurs while parsing PHP code, such as when
 
 Related : :ref:`Error <error>`, :ref:`Eval() <eval>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 7.0+
 
 .. _by-reference:
@@ -11962,8 +11795,6 @@ Nowadays, PEAR is not much used anymore and is replaced by composer.
 
 Related : :ref:`Composer <composer>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _pecl:
 
 PECL
@@ -11988,8 +11819,6 @@ Persistence also applies to database connection, where the connection is not clo
 
 Persistent storage may also be called permanent storage. 
 
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _phar:
 
@@ -12108,8 +11937,6 @@ There are also other container which come with PHP preinstalled, or which are bu
 
 See also `php official image on Docker Hub <https://hub.docker.com/_/php>`_, `circleci/php image on Docker Hub <https://hub.docker.com/r/circleci/php>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _engine:
 .. _php-binary:
 .. _php-executable:
@@ -12120,8 +11947,6 @@ PHP engine
 The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language. It is responsible for translating and executing PHP code on a web server or other environments that support PHP. The engine takes the human-readable PHP code and converts it into machine-level instructions that the computer can understand and execute.
 
 `Documentation <https://www.php.net/manual/en/install.general.php>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _php-extension:
 
@@ -12209,8 +12034,6 @@ The predefined exceptions are the exceptions that are built-in the PHP engine. T
 `Documentation <https://www.php.net/manual/en/reserved.exceptions.php>`__
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`, :ref:`Native <built-in>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _profiler:
 
@@ -12368,8 +12191,6 @@ See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist
 
 Related : :ref:`Protocol <protocol>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _fpm:
 .. _php-fpm:
 
@@ -12495,8 +12316,6 @@ A plugin is build on top of a framework, and makes usage of it. It may also have
 Plugin is a generic term, and has many variations : component, extensions, module, etc.
 
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _plus:
 
 plus +
@@ -12522,8 +12341,6 @@ plus +
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _polyfill:
 
@@ -12571,8 +12388,6 @@ To ensure portability in PHP code, developers should follow best practices such 
 For example, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as `scoutapm` or `com`. Such non-portable features should not be used, or made optional in code for which portability is important. For example, the COM extension, or win32service extensions are available only on Windows; the extensions ev and eio are only available on Linux. When accessing files, both the / used by Linux, and \ used by Windows are supported, though it is recommended to use the /. 
 
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _positional-parameter:
 
 Positional Parameters
@@ -12602,8 +12417,6 @@ The alternative way is to use named parameters.
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
 Related : :ref:`Named Parameters <named-parameter>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _precedence:
 
@@ -12661,8 +12474,6 @@ Other constants come from extensions : for example, the Math extension defines M
 
 Related : :ref:`Constants <constant>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _prepared-query:
 
 Prepared Query
@@ -12693,8 +12504,6 @@ Most PHP DB extensions support prepared statements. Prepared statement may also 
 `Documentation <https://en.wikipedia.org/wiki/Prepared_statement>`__
 
 Related : :ref:`Simple Query Language (SQL) <sql>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.0+
 
@@ -12819,7 +12628,7 @@ pcntl manage process creation, program execution, signal handling and process te
 
 `Documentation <https://www.php.net/manual/en/book.pcntl.php>`__
 
-See also ` Example: Parallel processing in PHP using pcntl_fork()  <https://gist.github.com/nicksantamaria/21dce5ff2a6640cdff76ce7bc57d2981>`_
+See also `Example: Parallel processing in PHP using pcntl_fork()  <https://gist.github.com/nicksantamaria/21dce5ff2a6640cdff76ce7bc57d2981>`_
 
 Related : :ref:`PHP Handlers <handler>`
 
@@ -12924,8 +12733,6 @@ Typed properties support any type format : simple, union, intersectional or DNF.
 
 Related : :ref:`Type system <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 7.4
 
 .. _protected:
@@ -12981,8 +12788,6 @@ See also `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-
 
 Related : :ref:`Wrapper <wrapper>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _public:
 
 Public Visibility
@@ -13027,8 +12832,6 @@ A Queue may be one of the following:
 
 
 Related : :ref:`Jobqueue <jobqueue>`, :ref:`Message Queue <message-queue>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _random:
 
@@ -13129,8 +12932,6 @@ Readability is a human characteristic of the code : it depends on the level of k
 
 See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _readonly:
 
 Readonly
@@ -13200,8 +13001,6 @@ It's important to be aware of potential rounding errors or precision issues when
 See also `How To Work with Numbers in PHP <https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php>`_
 
 Related : :ref:`Floating Point Numbers <float>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _recursion:
 .. _recursive:
@@ -13372,8 +13171,6 @@ Reflection is also available in other programming languages.
 
 `Documentation <https://www.php.net/manual/en/book.reflection.php>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _reflectionexception:
 
 ReflectionException
@@ -13498,8 +13295,6 @@ Relative types are types that are not explicit, but relative to the current clas
 
 Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Literal types <literal-types>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _relaxed-comparison:
 .. _loose-comparison:
 
@@ -13551,8 +13346,6 @@ A release is a final version of a software. A release is published, or released 
 A release may have a version number. For published software, this version is published, while for Saas, it may be undocumented.
 
 Related : :ref:`Version <version>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _rpc:
 
@@ -13711,8 +13504,6 @@ See also `How To Use Web APIs in PHP 8.0 <https://www.digitalocean.com/community
 
 Related : :ref:`API <api>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _return:
 
 Return
@@ -13845,8 +13636,6 @@ Revision
 A `revision` typically refers to a specific state or snapshot of a VCS repository at a particular point in its history. These revisions are identified by unique identifiers called commit hashes or commit SHAs (Secure Hash Algorithms).
 
 Related : :ref:`git <git>`, :ref:`VCS <vcs>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _rfc:
 
@@ -14012,8 +13801,6 @@ See also `PHP 7 Scalar Type Declaration <https://www.etutorialspoint.com/index.p
 
 Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`, :ref:`String <string>`, :ref:`Boolean <boolean>`, :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 7.0
 
 .. _schema:
@@ -14078,8 +13865,6 @@ Scopes are generally considered as global or local.
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
 Related : :ref:`Local scope <local>`, :ref:`global scope <global>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _scope-resolution-operator:
 .. _double-colon:
@@ -14246,8 +14031,6 @@ This prevent innocent mistakes, where reading the logs on the production server 
 
 See also `Sensitive parameters in PHP 8.2 <https://flareapp.io/blog/57-sensitive-parameters-in-php-82>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.2+
 
 .. _serialization:
@@ -14371,8 +14154,6 @@ See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_p
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Deep clone <deep-clone>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _short-assignation:
 .. _combined-operator:
 
@@ -14399,8 +14180,6 @@ In addition to the basic assignment operator, there are combined operators for a
 See also `PHP — P22: Shorthand Operators <https://blog.devgenius.io/php-7-x-p22-shorthand-operators-bdef003cd52d>`_
 
 Related : :ref:`Assignations <assignation>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _short-syntax:
 
@@ -14466,8 +14245,6 @@ From the manual : As short tags can be disabled it is recommended to only use th
 See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/deprecate_php_short_tags_v2>`_
 
 Related : :ref:`PHP tags <php-tag>`, :ref:`Echo Tag <echo-tag>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _short-ternary:
 .. _short-ternary-operator:
@@ -14554,8 +14331,6 @@ In its simplest form, signature of a method is its name, its argument's type and
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _sql:
 
@@ -14706,8 +14481,6 @@ Single Responsability Principile relies on the possibility to identify one respo
 See also `How To Use Single Responsibility Principle in PHP/Laravel <https://mohasin-dev.medium.com/how-to-use-single-responsibility-principle-in-php-laravel-with-example-9c728360f4f2>`_
 
 Related : :ref:`SOLID <solid>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _singleton:
 
@@ -14924,8 +14697,6 @@ See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-ph
 
 Related : :ref:`Comparison <comparison-operator>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 7.0
 
 .. _special-typehint:
@@ -14968,6 +14739,46 @@ Other special types are the scalar types.
 Related : :ref:`Type system <typehint>`, :ref:`Special Typehints <special-typehint>`
 
 Added in PHP 7.0
+
+.. _sprintf:
+.. _vprintf:
+.. _printf:
+
+sprintf
+-------
+
+sprintf() is a PHP native function, which format a string based on a format string, and one or more values. 
+
+sprintf() returns the formatted string, while printf() displays it immediately, and vprintf() writes the formatted string to a stream. There is also sscanf(), which parse the string, according to the format.
+
+printf() is convenient to display text in command line, as it makes easy to use fillers and justification. 
+
+printf() also supports named arguments, which makes the format string more flexible. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // displays 123 with 9 characters, and fills with dots any empty characters
+   // ......123
+   echo sprintf("%'.9d\n", 123);
+   
+   // same as above, without the echo command
+   printf("%'.9d\n", 123);
+   
+   // same as above, without the echo command
+   vprintf("%'.9d\n", '......123');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/fr/function.sprintf.php>`__
+
+See also `PHP Sprintf: Powerful String Formatting <https://marketsplash.com/tutorials/php/php-sprintf/>`_
+
+Related : :ref:`String <string>`, :ref:`Format <format>`
 
 .. _sql-injection:
 
@@ -15049,8 +14860,6 @@ See also `SQLite3 in PHP <https://www.php.net/sqlite3>`_
 
 Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`PHP Data Objects (PDO) <pdo>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _ssl:
 
 SSL
@@ -15106,8 +14915,6 @@ Since PHP 8.2 (and 8.3 for true), those types are now standalone and can be used
 `Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
 
 See also `What's the 'true' Standalone Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-true-standalone-type-in-php>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _spl:
 
@@ -15575,8 +15382,6 @@ See also `What is Stringable Interface in PHP 8? <https://www.tutorialspoint.com
 
 Related : :ref:`String <string>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.0
 
 .. _strpos-syndrom:
@@ -15619,8 +15424,6 @@ In the case of strpos(), it may be replaced with str_contains() (since PHP 8.0) 
 
 See also `Strpos Function Issue In Php Not Finding The Needle <https://www.learn-codes.net/php/strpos-function-issue-in-php-not-finding-the-needle/>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _stubs:
 
 Stubs Files
@@ -15646,8 +15449,6 @@ Stubs files are also used for PHP code templates : they are mostly made of PHP c
 `Documentation <https://www.php.net/manual/en/function.extract.php>`__
 
 Related : :ref:`compact() <compact>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _superglobal:
 .. _super-global:
@@ -15698,8 +15499,6 @@ PHP provides several superglobal variables, each serving a specific purpose. Her
 See also `What are superglobals in PHP? <https://www.educative.io/answers/what-are-superglobals-in-php>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _supply-chain-attack:
 
@@ -15834,7 +15633,7 @@ Each case is an expression, and shall be used that way.
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
-See also `Compact `switch` alternative <https://tomlankhorst.nl/compact-switch-alternative-php/>`_
+See also `Compact switch alternative <https://tomlankhorst.nl/compact-switch-alternative-php/>`_
 
 Related : :ref:`Match <match>`, :ref:`Simple Switch <simple-switch>`, :ref:`If Then Else <if-then>`
 
@@ -16094,8 +15893,6 @@ The Test Pyramid is a concept in software testing that represents the ideal dist
 
 See also `TestPyramid <https://martinfowler.com/bliki/TestPyramid.html>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _thread:
 
 Thread
@@ -16179,8 +15976,6 @@ See also `Exceptions - PHP Advance <https://jobtensor.com/Tutorial/PHP/en/Except
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _throwable:
 
 Throwable
@@ -16253,8 +16048,6 @@ See also `The declare() function and ticks <http://www.hackingwithphp.com/4/21/0
 
 Related : :ref:`declare() <declare>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _tls:
 
 TLS
@@ -16314,8 +16107,6 @@ Toctou is a class of bug where there is a time interval between checking a resou
 `Documentation <https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use>`__
 
 See also `Practical Race Condition Vulnerabilities in Web Applications <https://defuse.ca/race-conditions-in-web-applications.htm>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _trailing-comma:
 
@@ -16389,8 +16180,6 @@ Transpiling, short for source-to-source compiling, is a process in software deve
 Transpilation is often used in the context of modern web development. For example, many developers write code using newer features of JavaScript, which may not be supported by older web browsers. In such cases, the code can be transpiled to an older version of JavaScript that is more widely supported.
 
 `Documentation <https://kinsta.com/blog/transpiling-php/>`__
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _traversable:
 
@@ -16542,8 +16331,6 @@ See also `PHP Exception Handling - TypeError <https://blog.airbrake.io/blog/php-
 
 Related : :ref:`Exception <exception>`, :ref:`Throwable <throwable>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _type-juggling:
 
 Type Juggling
@@ -16636,8 +16423,6 @@ In other situations, PHP applies some type juggling, and automatically convert t
 `Documentation <https://www.php.net/manual/en/class.typeerror.php>`__
 
 Related : :ref:`Error <error>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 7.0
 
@@ -16792,8 +16577,6 @@ See also `What are union types and how do you use them in PHP? <https://www.educ
 
 Related : :ref:`Type system <typehint>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 Added in PHP 8.0
 
 .. _uri:
@@ -16920,8 +16703,6 @@ Unreachable code can occur due to several reasons:
    ?>
 
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _unset:
 
 unset()
@@ -16943,8 +16724,6 @@ unset() removes a variable. This feature used to be available as a function call
 `Documentation <https://www.php.net/manual/en/function.unset.php>`__
 
 Related : :ref:`Variables <variable>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _unserialization:
 .. _unserialize:
@@ -17130,8 +16909,6 @@ There are some specific guidelines for userland naming.
 
 `Documentation <https://www.php.net/manual/en/userlandnaming.php>`__
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _uuid:
 
 UUID
@@ -17238,8 +17015,6 @@ It is a PHP error, and not an exception, it is thrown by PHP native functions.
 `Documentation <https://www.php.net/manual/en/class.valueerror.php>`__
 
 See also `PHP 8.0: New ValueError Error Exception <https://php.watch/versions/8.0/ValueError>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _var:
 
@@ -17367,8 +17142,6 @@ See also `The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-p
 
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`compact() <compact>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _variable_order:
 
 variable_order
@@ -17425,8 +17198,6 @@ PHP is a loosely typed language, which means you don't need to explicitly declar
 `Documentation <https://www.php.net/manual/en/language.variables.php>`__
 
 Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Type system <type>`, :ref:`Naming <naming>`, :ref:`Interpolation <interpolation>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _variadic:
 .. _splat:
@@ -17501,8 +17272,6 @@ See also `Semantic versioning <https://semver.org/>`_, `Managing package version
 
 Related : :ref:`Release <release>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _view:
 
 View
@@ -17516,8 +17285,6 @@ A view may be several things :
 
 
 Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`SQL Views <view-sql>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _view-presentation:
 .. _renderer:
@@ -17597,8 +17364,6 @@ Void is only possible with methods, closures, functions and arrow functions. It 
 See also `Type Hinting No Return(Void) <https://riptutorial.com/php/example/20542/type-hinting-no-return-void->`_
 
 Related : :ref:`Null <null>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 7.1
 
@@ -17710,8 +17475,6 @@ A wrapper may be several things:
 
 Related : :ref:`Protocol <protocol>`
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _xml:
 
 XML
@@ -17791,8 +17554,6 @@ The XMLReader extension is an XML Pull parser. The reader acts as a cursor going
 See also `PHP XML Reader <https://phppot.com/php/php-xml-reader/>`_
 
 Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XML <xml>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 Added in PHP 5.0+
 
@@ -17879,8 +17640,6 @@ XXTEA operates on 32-bit integer data blocks and employs a 128-bit key. It uses 
 `Documentation <https://en.wikipedia.org/wiki/XXTEA>`__
 
 See also `xxtea-pecl <https://github.com/xxtea/xxtea-pecl>`_
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _yaml:
 
@@ -17979,8 +17738,6 @@ See also `How to Use Yield and Generators in PHP <https://code.tutsplus.com/tuto
 
 Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`
 
-Related packages : ` <https://packagist.org/packages/>`_, ` <https://packagist.org/packages/>`_
-
 Added in PHP 7.0
 
 .. _yoda:
@@ -18011,8 +17768,6 @@ This prevents errors where the comparison operator is shortened, and turned into
 
 See also `Why using Yoda conditions you should probably not be  <https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not>`_
 
-Related packages : ` <https://packagist.org/packages/>`_
-
 .. _zombie-code:
 
 Zombie Code
@@ -18037,11 +17792,9 @@ Zombie code slows down the application, yet are logged as being used. They are a
    ?>
 
 
-`Documentation <`Zombie Code <https://www.calculquebec.ca/en/communiques/zombie-code/>`_>`__
+`Documentation <https://www.calculquebec.ca/en/communiques/zombie-code/>`__
 
 Related : :ref:`Dead code <dead-code>`
-
-Related packages : ` <https://packagist.org/packages/>`_
 
 .. _zval:
 
