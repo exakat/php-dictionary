@@ -62,7 +62,7 @@ PHP Dictionary
    * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
    * :ref:`Assumption <assumption>`
-   * :ref:`Attribute class <attribute-class>`
+   * :ref:`Attribute Class <attribute-class>`
    * :ref:`Attributes <attribute>`
    * :ref:`Authenticate <authenticate>`
    * :ref:`Autovivification <autovivification>`
@@ -89,7 +89,7 @@ PHP Dictionary
    * :ref:`Callables <callable>`
    * :ref:`Callback <callback>`
    * :ref:`Case <case>`
-   * :ref:`Cast operator <cast>`
+   * :ref:`Cast Operator <cast>`
    * :ref:`Catch <catch>`
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Class Autoloading <autoload>`
@@ -117,6 +117,7 @@ PHP Dictionary
    * :ref:`Comma <comma>`
    * :ref:`Command Bus <command-bus>`
    * :ref:`Command Line Interface <cli>`
+   * :ref:`Comments <comment>`
    * :ref:`Compact array <compact-array>`
    * :ref:`Comparison <comparison-operator>`
    * :ref:`Composer <composer>`
@@ -164,6 +165,7 @@ PHP Dictionary
    * :ref:`Days In Month <days-in-month>`
    * :ref:`Dead code <dead-code>`
    * :ref:`Debugger <debugger>`
+   * :ref:`Decorator Pattern <decorator>`
    * :ref:`Deep clone <deep-clone>`
    * :ref:`Default <default>`
    * :ref:`Default Parameter <default-parameter>`
@@ -395,7 +397,9 @@ PHP Dictionary
    * :ref:`Octal Integer <octal-integer>`
    * :ref:`Opcode <opcode>`
    * :ref:`Open Closed Principle <ocp>`
+   * :ref:`Open Tag <open-tag>`
    * :ref:`OpenSSL <openssl>`
+   * :ref:`Operand <operand>`
    * :ref:`Operator Precedence <operator-precedence>`
    * :ref:`Operators <operator>`
    * :ref:`Optional Parameter <optional-parameter>`
@@ -488,6 +492,7 @@ PHP Dictionary
    * :ref:`Return Type Will Change <returntypewillchange>`
    * :ref:`Return Typehint <return-typehint>`
    * :ref:`Return Value <return-value>`
+   * :ref:`Revision <revision>`
    * :ref:`Route <route>`
    * :ref:`Rubber Ducking Debugging <rubber-ducking>`
    * :ref:`resource <resource>`
@@ -554,7 +559,7 @@ PHP Dictionary
    * :ref:`Switch Default <switch-default>`
    * :ref:`Switch Fallthrough <fallthrough>`
    * :ref:`System Call <system-call>`
-   * :ref:`System event <system-event>`
+   * :ref:`System Event <system-event>`
    * :ref:`sleep <sleep>`
    * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`
@@ -583,6 +588,7 @@ PHP Dictionary
    * :ref:`Type system <typehint>`
    * :ref:`TypeError <typeerror>`
    * :ref:`throw <throw>`
+   * :ref:`toctou : Time of check to time of use <toctou>`
 * U
    * :ref:`UOPZ <uopz>`
    * :ref:`UUID <uuid>`
@@ -2368,12 +2374,12 @@ Related : :ref:`Assertions <assertion>`
 
 .. _attribute-class:
 
-Attribute class
+Attribute Class
 ---------------
 
 This is a native PHP attribute, which tells the engine that a class is a PHP attribute.
 
-This attribute is not necessary, but it is recommended.
+This attribute (sic) is not necessary to make a class a valid attribute. Yet, it is recommended to use it and make the classes explicitly attributes.
 
 
 .. code-block:: php
@@ -2390,6 +2396,8 @@ This attribute is not necessary, but it is recommended.
 
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
+
+See also `Attributes in PHP 8 <https://php.watch/articles/php-attributes>`_
 
 Added in PHP 8.1+
 
@@ -2908,7 +2916,7 @@ Related : :ref:`Default <default>`, :ref:`Match <match>`, :ref:`Enumeration <enu
 
 .. _cast:
 
-Cast operator
+Cast Operator
 -------------
 
 Cast operators change the type of the variable to the desired type. Conversion between the current format and the target format may happen. 
@@ -3449,7 +3457,7 @@ When a file online contains PHP code, the closing tag is not ncessary. Its absen
 
 See also `You shouldn't use PHP Closing Tags <https://www.youtube.com/watch?v=mXzUwcDBtkA>`_, `Should You Close PHP Tags? The Debate Continues… <https://www.sitepoint.com/closing-php-tags-debate/>`_
 
-Related : , :ref:`Short Tags <short-tag>`
+Related : :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`
 
 Related packages : ` <https://packagist.org/packages/>`_
 
@@ -3569,6 +3577,7 @@ Related packages : ` <https://packagist.org/packages/>`_
 
 .. _coalesce:
 .. _null-coalesce:
+.. _null-ternary:
 
 Coalesce operator
 -----------------
@@ -3712,7 +3721,7 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, , :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce operator <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
 
 .. _comma:
 
@@ -3790,6 +3799,45 @@ PHP supports a CLI mode : command line interface. It processes commands in the f
 `Documentation <https://www.php.net/manual/en/features.commandline.php>`__
 
 Related : :ref:`Webserver <webserver>`
+
+.. _comment:
+
+Comments
+--------
+
+In PHP, comments are used to add explanatory notes or annotations within your code. Comments are not executed by the PHP interpreter; they are purely for documentation purposes, and they help you and others understand the code better. PHP supports two main types of comments:
+
+Single-line comments: These are comments that span only one line. They are typically used for brief explanations or annotations within the code. Single-line comments in PHP can be created using either double slashes (``//``) or a hash symbol (``#``).
+
+Multi-line comments: These are comments that can span multiple lines, allowing for more extensive explanations or commenting out large sections of code. Multi-line comments in PHP are enclosed within ``/*`` and ``*/``.
+
+It's important to note that comments do not affect the execution of the PHP code; they are ignored by the PHP interpreter: in fact, they are removed before execution. Comments are primarily for developers and maintainers of the code to understand its purpose, logic, or any special considerations. Well-documented code with meaningful comments can make it easier for you and others to read, understand, and maintain PHP applications.
+
+Comments may be formalized with a specific syntax, and create automated instruction for other application. For example, phpdoc comments are providing extra information with a specific syntax.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // This is a single-line comment
+   $variable = 42; // Assign a value to $variable
+   # Another single-line comment
+   
+       /*
+       This is a multi-line comment.
+       It can span multiple lines and is often used for
+       longer explanations or for commenting out sections of code.
+       */
+   
+       $variable = 43; 
+   
+   ?>
+
+
+Related : :ref:`PHPdoc <phpdoc>`
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _compact-array:
 
@@ -4217,7 +4265,7 @@ Since a lot of these operations a executed one after the other, they are called 
 Continuous integration is a building block for continuous delivery. This extended notion also include the automated release in production of the code.
 
 
-Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, 
+Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`
 
 .. _type-contravariance:
 .. _contravariance:
@@ -5101,6 +5149,48 @@ declare() affects some configuration for the next block of code.
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
 Related : :ref:`strict_types <strict_types>`, :ref:`Tick <tick>`, :ref:`declare encoding <declare-encoding>`
+
+.. _decorator:
+
+Decorator Pattern
+-----------------
+
+A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code. Decorators are often used to extend the functionality of classes or objects by wrapping them in additional classes that provide the desired functionality.
+
+.. code-block:: php
+   
+   <?php
+   
+   interface Coffee {
+       function cost();
+   }
+   
+   class SimpleCoffee implements Coffee {
+       public function cost() {
+           return 5;
+       }
+   }
+   
+   class MilkDecorator implements Coffee {
+       protected $coffee;
+   
+       public function __construct(Coffee $coffee) {
+           $this->coffee = $coffee;
+       }
+   
+       public function cost() {
+           return $this->coffee->cost() + 2;
+       }
+   }
+   
+   ?>
+
+
+`Documentation <https://refactoring.guru/design-patterns/decorator/php/example>`__
+
+See also `Decorating Member Objects <https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members>`_
+
+Related packages : `zbateson/stream-decorators <https://packagist.org/packages/zbateson/stream-decorators>`_
 
 .. _deep-clone:
 
@@ -6144,7 +6234,7 @@ Encoding applies to PHP scripts, which should be UTF-8 encoded, although it migh
 
 Encoding applies to incoming and outgoing data.
 
-Encoding operations are provided with mb_string, iconv and intl extensions. 
+Encoding operations are provided with mb_string, ``iconv`` and ``intl`` extensions. 
 
 Encoding is also used for code : the source is encoded when it is transformed in an unreadable yet still executable form. 
 
@@ -6811,7 +6901,7 @@ Famous PSR include : 12 (Extended Coding Style Guide), 16 (Simple Cache), 18 (HT
 
 `Documentation <https://www.php-fig.org/>`__
 
-See also `PHP-FIG <https://fideloper.com/php-fig>`_
+See also `PHP-FIG home <https://fideloper.com/php-fig>`_
 
 Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 
@@ -8176,11 +8266,11 @@ Related : :ref:`HTTPS <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protoc
 Iconv
 -----
 
-`iconv` is a PHP extension that stands for Internationalized CONVersion. It provides functionality to convert strings between different character encodings, making it useful for dealing with multilingual and internationalized applications.
+``iconv`` is a PHP extension that stands for Internationalized CONVersion. It provides functionality to convert strings between different character encodings, making it useful for dealing with multilingual and internationalized applications.
 
-The iconv extension allows you to convert strings from one character encoding to another, and it also supports transliteration and character set detection. This is particularly important when dealing with data that may come from different sources with various character encodings.
+The ``iconv`` extension allows you to convert strings from one character encoding to another, and it also supports transliteration and character set detection. This is particularly important when dealing with data that may come from different sources with various character encodings.
 
-`iconv` is both a PHP function, a PHP extension and an independant library for character encoding conversion. 
+``iconv`` is both a PHP function, a PHP extension and an independant library for character encoding conversion. 
 
 .. code-block:: php
    
@@ -8312,7 +8402,14 @@ Related : :ref:`Exception <exception>`
 ImagickPixelException
 ---------------------
 
-Exception thrown when an error happens while creating an ImagickPixel object.
+ImagickPixelException is an exception class that is used to handle exceptions related to problems with ImagickPixel objects.
+
+ImagickPixelException happens when using invalid color specification.
+
+ImagickPixelException is related to the Imagick extension.
+
+
+
 
 .. code-block:: php
    
@@ -9760,7 +9857,14 @@ Related : :ref:`BadFunctioncallException <badfunctioncallexception>`, :ref:`Doma
 Loops
 -----
 
-PHP supports several types of loops : for, while, do...while and foreach.
+A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition. Loops are essential for automating repetitive tasks and processing arrays or collections of data. PHP provides several types of loops, including: for, while, do...while and foreach.
+
+The most popular loop is foreach().
+
+Loops may hide in certain functions : for example, array_map() and array_walk() apply a method to every element in an array. 
+
+Generators are closely related to the foreach() loop. 
+
 
 .. code-block:: php
    
@@ -10079,7 +10183,7 @@ MD5 was used a lot for secure hashing and control. Nowadays, it may be useful fo
 
 `Documentation <https://www.php.net/manual/fr/function.hash.php>`__
 
-See also `md5 <https://www.php.net/manual/en/function.md5.php>`_
+See also `PHP md5() function <https://www.php.net/manual/en/function.md5.php>`_
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`Hash <hashing>`
 
@@ -10214,7 +10318,7 @@ See also `Database: Migrations <https://laravel.com/docs/9.x/migrations>`_, `Mig
 Mixed
 -----
 
-A special type that represents any available type. It is equivalent to not explicitely setting the type, though it is now explictly done. 
+A special type that represents any available type. It is equivalent to not explicitly setting the type, though it is now explicitly done. 
 
 A ``mixed`` type may be also represented by a union of all possible types. 
 
@@ -10500,7 +10604,7 @@ Named Parameters
 
 Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters.
 
-In traditional positional parameter passing, the values are provided to a function in the order in which the parameters are defined. However, with named parameters, the parameter to which a value is passed, is explicitely stated.
+In traditional positional parameter passing, the values are provided to a function in the order in which the parameters are defined. However, with named parameters, the parameter to which a value is passed, is explicitly stated.
 
 .. code-block:: php
    
@@ -10521,7 +10625,7 @@ In traditional positional parameter passing, the values are provided to a functi
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_
+See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_, `New in PHP 8: Named Arguments <https://alexwebdevelop.activehosted.com/social/758874998f5bd0c393da094e1967a72b.326/>`_
 
 Related : :ref:`Positional Parameters <positional-parameter>`
 
@@ -11284,6 +11388,38 @@ The OCP is a general principle, that is applicable to PHP's structures.
 
 See also `The Open Closed Principle <https://codeburst.io/introduction-a1ba1f72b13>`_, `Open-Closed Principle Example Using PHP <https://blog.devops.dev/open-closed-principle-example-using-php-3c310105ece4>`_
 
+.. _open-tag:
+
+Open Tag
+--------
+
+PHP comands are placed between the PHP tags : ``<?php`` and ``?>``.  The first tag is called the open tag. 
+
+The open tag is mandatory for PHP to execute the code. Anything before the open tag is output as is, without modification.
+
+There is another open tag, called `echo tag`. ``<?=`` starts PHP execution, and outputs the first command. 
+
+
+.. code-block:: php
+   
+   <?php
+   // here, PHP code
+   
+   // the closing tag
+   ?>Here, raw text, always displayed
+   <?php
+   // more PHP code
+   
+   // No final closing tag
+   
+
+
+`Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
+
+Related : :ref:`Echo Tag <echo-tag>`, :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _openssl:
 
 OpenSSL
@@ -11314,6 +11450,33 @@ The library is integrated into PHP as an extension. It provides a lot of functio
 `Documentation <https://www.openssl.org/>`__
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`libsodium <libsodium>`
+
+.. _operand:
+
+Operand
+-------
+
+An operand is an argument for an operator. It applies to any of the operand: to differentiate them later, they are named with their position (first, second, etc.), or their name.
+
+.. code-block:: php
+   
+   <?php
+   
+   // One operand
+   $b = !$a;
+   
+   // two operands
+   $a = 1 + 3;
+   
+   // Three operands
+   $c = $a ? 2 : 4;
+   
+   ?>
+
+
+Related : :ref:`Addition <addition>`, , :ref:`Ternary Operator <ternary>`, 
+
+Related packages : ` <https://packagist.org/packages/>`_
 
 .. _operator-precedence:
 
@@ -12710,7 +12873,7 @@ Property Type Declaration
 
 Type declaration property, also known as typed properties, is a feature introduced in PHP 7.4 that allows to specify the type of a class property. 
 
-With type declaration properties, the type of a property is explicitely defined, ensuring that only values of the specified type can be assigned to that property. This helps enforce type safety and prevents accidental assignments of incompatible values.
+With type declaration properties, the type of a property is explicitly defined, ensuring that only values of the specified type can be assigned to that property. This helps enforce type safety and prevents accidental assignments of incompatible values.
 
 Typed properties support any type format : simple, union, intersectional or DNF. 
 
@@ -13187,6 +13350,15 @@ ReflectionException
 
 ReflectionException is thrown whenever the Reflection API encounters an error.
 
+Common reasons for encountering a ReflectionException include:
+
++ Class Not Found
++ Property Not Found
++ Method Not Found
++ Invalid Argument
+
+
+
 .. code-block:: php
    
    <?php
@@ -13634,6 +13806,17 @@ Return value is the value returned, at the end of a method call. That value may 
 
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
+.. _revision:
+
+Revision
+--------
+
+A `revision` typically refers to a specific state or snapshot of a VCS repository at a particular point in its history. These revisions are identified by unique identifiers called commit hashes or commit SHAs (Secure Hash Algorithms).
+
+Related : :ref:`git <git>`, :ref:`VCS <vcs>`
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _rfc:
 
 RFC
@@ -13807,7 +13990,7 @@ Added in PHP 7.0
 Schema
 ------
 
-Schema is the database layout : its tables, views, procedures, variables, etc. 
+A schema is a blueprint or structural representation of the organization and structure of a database. It defines how data is organized and how relationships between data are handled within the database system. In essence, a database schema specifies the logical design of the database, including the tables, fields, relationships, constraints, and other characteristics that define the data storage and retrieval.
 
 Related : :ref:`Database <database>`, :ref:`Scheme <scheme>`
 
@@ -15171,6 +15354,8 @@ Static variables may be refactored as a global variable or a property.
 
 Static variables may be declared only once, starting with PHP 8.3. Until that version, it is a best practice to only declare them once.
 
+Static variables may use any PHP expressions to define their default value. That value is used when the variable is used for the first time. 
+
 
 .. code-block:: php
    
@@ -15190,7 +15375,7 @@ Static variables may be declared only once, starting with PHP 8.3. Until that ve
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_
+See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `PHP Static Variables <https://www.scaler.com/topics/static-variable-in-php/>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`
 
@@ -15411,7 +15596,7 @@ Stringable
 
 Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant; or an object which has the `__toString()` method.
 
-Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitnly.
+Stringable is automatically added to any class (and subclass) that has the `__toString()` method, though it is recommended to add it explicitly.
 
 
 .. code-block:: php
@@ -15690,6 +15875,8 @@ Each case is an expression, and shall be used that way.
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
+See also `Compact `switch` alternative <https://tomlankhorst.nl/compact-switch-alternative-php/>`_
+
 Related : :ref:`Match <match>`, :ref:`Simple Switch <simple-switch>`, :ref:`If Then Else <if-then>`
 
 Added in PHP 4.0
@@ -15827,7 +16014,7 @@ A system call is a call to an operating system function. In PHP, those are done 
 
 .. _system-event:
 
-System event
+System Event
 ------------
 
 System events, also known as signals, are software interrupts sent to a program to indicate that an important event has occurred. 
@@ -16138,6 +16325,18 @@ TLS is a PHP context for sockets, and share the configuration options with SSL.
 
 Related : :ref:`SSL <ssl>`
 
+.. _toctou:
+
+toctou : Time of check to time of use
+-------------------------------------
+
+Toctou is a class of bug where there is a time interval between checking a resource and then using it. This interval may be used by an attacker to replace the checked resource, and fool the code.
+
+
+
+
+Related packages : ` <https://packagist.org/packages/>`_
+
 .. _trailing-comma:
 
 Trailing Comma
@@ -16393,7 +16592,7 @@ Type juggling is usually done automatically, without user intervention. Explicit
 
 See also `Type Juggling and Loose Comparison <https://cheatsheet.haax.fr/web-pentest/php-vulnerabilities/type_juggling/>`_
 
-Related : :ref:`Cast operator <cast>`
+Related : :ref:`Cast Operator <cast>`
 
 .. _typehint:
 .. _type:

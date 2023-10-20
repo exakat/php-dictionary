@@ -32,7 +32,7 @@ Attribute
 ---------
 
 + :ref:`Allow Dynamic Property <allowdynamicproperty>`
-+ :ref:`Attribute class <attribute-class>`
++ :ref:`Attribute Class <attribute-class>`
 + :ref:`Nested Attributes <nested-attributes>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
