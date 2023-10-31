@@ -1,39 +1,22 @@
-Running Sphinx v4.1.2
+Running Sphinx v7.2.6
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
+writing output... 
 building [html]: targets for 4 source files that are out of date
 updating environment: [new config] 4 added, 0 changed, 0 removed
-reading sources... [ 25%] dictionary
-reading sources... [ 50%] index
-reading sources... [ 75%] introduction
-reading sources... [100%] thesaurus
-
-/Users/famille/Desktop/php-dictionary/dictionary.rst:5462: WARNING: Inline literal start-string without end-string.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "php-fig".
-/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "md5".
-/Users/famille/Desktop/php-dictionary/dictionary.rst:14556: WARNING: Inline emphasis start-string without end-string.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7991: WARNING: Unknown target name: "pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd >".
+[2Kreading sources... [ 25%] dictionary[2Kreading sources... [ 50%] index[2Kreading sources... [ 75%] introduction[2Kreading sources... [100%] thesaurus
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
 preparing documents... done
-writing output... [ 25%] dictionary
-writing output... [ 50%] index
-writing output... [ 75%] introduction
-writing output... [100%] thesaurus
-
-/Users/famille/Desktop/php-dictionary/dictionary.rst:229: WARNING: undefined label: php-fig
-/Users/famille/Desktop/php-dictionary/dictionary.rst:342: WARNING: undefined label: md5
-/Users/famille/Desktop/php-dictionary/dictionary.rst:12117: WARNING: undefined label: php-fig
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1834: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:7254: WARNING: Could not lex literal_block as "php". Highlighting skipped.
-/Users/famille/Desktop/php-dictionary/dictionary.rst:14807: WARNING: Could not lex literal_block as "php". Highlighting skipped.
+copying assets... copying static files... done
+copying extra files... done
+done
+[2Kwriting output... [ 25%] dictionary[2Kwriting output... [ 50%] index[2Kwriting output... [ 75%] introduction[2Kwriting output... [100%] thesaurus
 generating indices... genindex done
 writing additional pages... search done
-copying static files... done
-copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 11 warnings.
+build succeeded.
 
 The HTML pages are in build/html.

@@ -47,6 +47,7 @@ Concept
 + :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Artifact <artifact>`
 + :ref:`Benchmarking <benchmarking>`
++ :ref:`Class Entities <class-entity>`
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Class Wither Method <wither>`
 + :ref:`Classes <class>`
@@ -70,7 +71,6 @@ Concept
 + :ref:`Destructor <destructor>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Encoding <encoding>`
-+ :ref:`Entities, in an application <class-entity>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
@@ -101,8 +101,10 @@ Concept
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
 + :ref:`Single Responsability Principle <srp>`
++ :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
 + :ref:`Template <template>`
++ :ref:`Test Pyramid <test-pyramid>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`

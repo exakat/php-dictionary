@@ -11,6 +11,8 @@ PHP Dictionary
    * :ref:`$argv <$argv>`
    * :ref:`$php_errormsg <$php_errormsg>`
    * :ref:`$this <$this>`
+* .
+   * :ref:`.htaccess <htaccess>`
 * _
    * :ref:`__call() method <-__call>`
    * :ref:`__callStatic() method <-__callStatic>`
@@ -37,7 +39,7 @@ PHP Dictionary
    * :ref:`Adapters <adapter>`
    * :ref:`Addition <addition>`
    * :ref:`Alias <alias>`
-   * :ref:`Alias types <alias-types>`
+   * :ref:`Alias Types <alias-types>`
    * :ref:`Allow Dynamic Property <allowdynamicproperty>`
    * :ref:`Alternative Syntax <alternative-syntax>`
    * :ref:`Annotations <annotation>`
@@ -52,8 +54,8 @@ PHP Dictionary
    * :ref:`ArithmeticError Error <arithmeticerror>`
    * :ref:`Array <array>`
    * :ref:`Array Append <append>`
+   * :ref:`Array Spread <array-spread>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
-   * :ref:`Array spread <array-spread>`
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
    * :ref:`Artifact <artifact>`
@@ -74,7 +76,8 @@ PHP Dictionary
    * :ref:`Benchmarking <benchmarking>`
    * :ref:`Best Practices <best-practice>`
    * :ref:`Binary Integer <binary-integer>`
-   * :ref:`Bitwise operators <bitwise-operator>`
+   * :ref:`Bitshift Operators <bitshift>`
+   * :ref:`Bitwise Operators <bitwise-operator>`
    * :ref:`Blind Variable <variable-blind>`
    * :ref:`Block <block>`
    * :ref:`Boolean <boolean>`
@@ -94,6 +97,7 @@ PHP Dictionary
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
+   * :ref:`Class Entities <class-entity>`
    * :ref:`Class Getter Method <getter>`
    * :ref:`Class Hoisting <class-hoisting>`
    * :ref:`Class Invasion <class-invasion>`
@@ -108,7 +112,7 @@ PHP Dictionary
    * :ref:`ClosedGeneratorException <closedgeneratorexception>`
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
-   * :ref:`Coalesce operator <coalesce>`
+   * :ref:`Coalesce Operator <coalesce>`
    * :ref:`Code Injection <code-injection>`
    * :ref:`Code Smell <code-smell>`
    * :ref:`Coding Conventions <coding-convention>`
@@ -148,6 +152,7 @@ PHP Dictionary
    * :ref:`Curl <curl>`
    * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`Custom <custom>`
+   * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
 * D
@@ -155,18 +160,19 @@ PHP Dictionary
    * :ref:`DRY : don't repeat yourself <dry>`
    * :ref:`DTO <dto>`
    * :ref:`Dangling Reference <dangling-reference>`
+   * :ref:`Data <data>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
    * :ref:`Database <database>`
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
    * :ref:`Dates <date>`
-   * :ref:`Day are not 86400 seconds <day-in-seconds>`
+   * :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
    * :ref:`Days In Month <days-in-month>`
    * :ref:`Dead code <dead-code>`
    * :ref:`Debugger <debugger>`
    * :ref:`Decorator Pattern <decorator>`
-   * :ref:`Deep clone <deep-clone>`
+   * :ref:`Deep Clone <deep-clone>`
    * :ref:`Default <default>`
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
@@ -207,9 +213,9 @@ PHP Dictionary
    * :ref:`Empty <empty>`
    * :ref:`Encoding <encoding>`
    * :ref:`Entities <entity>`
-   * :ref:`Entities, in an application <class-entity>`
    * :ref:`Enumeration <enum>`
-   * :ref:`Enumeration's case <enum-case>`
+   * :ref:`Enumeration Case <enum-case>`
+   * :ref:`Environment Variables <environment-variable>`
    * :ref:`Error <error>`
    * :ref:`Error Handler <error-handler>`
    * :ref:`Error Reporting <error-reporting>`
@@ -217,8 +223,8 @@ PHP Dictionary
    * :ref:`Escape Data <escape-data>`
    * :ref:`Escape Sequences <escape-sequence>`
    * :ref:`Eval() <eval>`
+   * :ref:`Event Storming <event-storming>`
    * :ref:`Event driven <event-driven>`
-   * :ref:`Event storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
    * :ref:`Exit <exit>`
@@ -280,6 +286,7 @@ PHP Dictionary
    * :ref:`Hexagonal Architecture <hexagonal>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
    * :ref:`hash() Function <hash-function>`
+   * :ref:`hg <hg>`
 * I
    * :ref:`Iconv <iconv>`
    * :ref:`Identical operator <identical>`
@@ -369,15 +376,16 @@ PHP Dictionary
    * :ref:`N+1 Query Problem <n-query>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
-   * :ref:`Namespace alias <namespace-alias>`
+   * :ref:`Namespace Alias <namespace-alias>`
    * :ref:`Namespaces <namespace>`
    * :ref:`Naming <naming>`
    * :ref:`Native <native>`
    * :ref:`Nested Attributes <nested-attributes>`
+   * :ref:`Nesting <nesting>`
    * :ref:`Never <never>`
    * :ref:`Never Typehint <never-typehint>`
    * :ref:`New In Initializers <new-in-initializer>`
-   * :ref:`Non breakable spaces <non-breakable-space>`
+   * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Nowdocs <nowdoc>`
    * :ref:`Null <null>`
    * :ref:`Null Pattern <nullpattern>`
@@ -414,6 +422,7 @@ PHP Dictionary
    * :ref:`PHP <php>`
    * :ref:`PHP Data Objects (PDO) <pdo>`
    * :ref:`PHP Docker Container <php-docker-container>`
+   * :ref:`PHP Engine <engine>`
    * :ref:`PHP Extensions <php-extension>`
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
@@ -421,10 +430,9 @@ PHP Dictionary
    * :ref:`PHP RFC <php-rfc>`
    * :ref:`PHP Standards Recommendations (PSR) <psr>`
    * :ref:`PHP User Groups <php-ug>`
+   * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrapper <wrapper-php>`
-   * :ref:`PHP engine <engine>`
    * :ref:`PHP tags <php-tag>`
-   * :ref:`PHP variables <php-variable>`
    * :ref:`PHP-FPM <fpm>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`Packagist <packagist>`
@@ -461,6 +469,7 @@ PHP Dictionary
    * :ref:`php.ini <php.ini>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
+   * :ref:`print_r function <print_r>`
 * Q
    * :ref:`Queue <queue>`
 * R
@@ -505,14 +514,16 @@ PHP Dictionary
    * :ref:`SQL injection <sql-injection>`
    * :ref:`SSL <ssl>`
    * :ref:`SVMException <svmexception>`
+   * :ref:`SVN <svn>`
    * :ref:`SWAP <swap>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scaffolding <scaffolding>`
-   * :ref:`Scalar Types <scalar-typehint>`
+   * :ref:`Scalar Types <scalar-type>`
    * :ref:`Schema <schema>`
    * :ref:`Scheme <scheme>`
    * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
+   * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon <semicolon>`
@@ -538,6 +549,7 @@ PHP Dictionary
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Standalone types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
+   * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
@@ -571,7 +583,7 @@ PHP Dictionary
    * :ref:`Template <template>`
    * :ref:`Ternary Operator <ternary>`
    * :ref:`Test <test>`
-   * :ref:`Test pyramid <test-pyramid>`
+   * :ref:`Test Pyramid <test-pyramid>`
    * :ref:`Thread <thread>`
    * :ref:`Three dots <three-dots>`
    * :ref:`Throwable <throwable>`
@@ -592,6 +604,7 @@ PHP Dictionary
 * U
    * :ref:`UOPZ <uopz>`
    * :ref:`UUID <uuid>`
+   * :ref:`Unary Operator <unary>`
    * :ref:`Underflow <underflow>`
    * :ref:`UnexpectedValueException <unexpectedvalueexception>`
    * :ref:`UnhandledMatchError <unhandledmatcherror>`
@@ -913,6 +926,15 @@ $this is also called a pseudo-variable. There is no special variable called `$th
 
 See also `PHP $this <https://www.phptutorial.net/php-oop/php-this/>`_
 
+.. _htaccess:
+
+.htaccess
+---------
+
+The .htaccess file is a configuration file used in web servers that support the Apache HTTP Server software. It allows you to configure various aspects of how your web server operates and how it serves web content. The name ``htaccess`` stands for ``hypertext access``, and the file is often referred to as an ``htaccess file``.
+
+`Documentation <https://www.seobility.net/en/wiki/.htaccess>`__
+
 .. _-__call:
 
 __call() method
@@ -1023,7 +1045,7 @@ Cloning is similar to creating another object of the same class, without requiri
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep clone <deep-clone>`, :ref:`Shallow Clone <shallow-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep Clone <deep-clone>`, :ref:`Shallow Clone <shallow-clone>`
 
 .. _-__get:
 
@@ -1618,7 +1640,7 @@ Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Floating Point N
 Alias
 -----
 
-An alias is a distinct name for an existing named structure. It is a classic way to cope with possible naming conflict. 
+An alias is a distinct name for an existing named structure. It is a classic way to cope with possible naming conflict, and improve readability. 
 
 For example, there are aliases in namespaces import, to disambiguate classes, traits, interfaces, enums, functions and constants from other namespaces. There is also the class_alias() function, which allows the application-wide creation of aliases. 
 
@@ -1643,16 +1665,16 @@ References are also considered an alias, as they stand for a variable with anoth
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`Use Alias <use-alias>`
+Related : :ref:`Use Alias <use-alias>`, , :ref:`Insteadof <insteadof>`, :ref:`References <reference>`
 
 .. _alias-types:
 
-Alias types
+Alias Types
 -----------
 
-An alias type is a short name for several types at once. Under the hood, alias type are union type. 
+An alias type is a short name for several types at once. Under the hood, alias types are union type. 
 
-PHP has some native alias type, such as iterable, which represents array | Traversable. Alias type are not available for customisation. 
+PHP has some native alias types, such as iterable, which represents array | Traversable. Alias type are not available for customisation. 
 
 The same rules applies to alias types than other types : for example, array | iterable produces a 'Duplicate type array is redundant' error.
 
@@ -2091,7 +2113,7 @@ See also `array_push <https://www.php.net/manual/en/function.array-push.php>`_
 
 .. _array-spread:
 
-Array spread
+Array Spread
 ------------
 
 Array spread is the ellipsis operator, applied to an array. Then, the array itself is replaced by each of its own element, as if each element was spread from the array.
@@ -2111,27 +2133,38 @@ Array spread is the ellipsis operator, applied to an array. Then, the array itse
 
 `Documentation <https://www.php.net/manual/en/migration74.new-features.php#migration74.new-features.standard.array-merge-no-args>`__
 
+See also `PHP Spread Operator <https://www.phptutorial.net/php-tutorial/php-spread-operator/>`_
+
 Related : :ref:`Ellipsis <ellipsis>`
+
+Added in PHP 7.4
 
 .. _array-curly-braces:
 
 Array With Curly Braces
 -----------------------
 
-Specifying an array index with the curly braces, instead of the square brackets.
+Curly braces used to be a feature, used to access specific index in an array or in a string. They acted like the square braces. 
+
+Since PHP 8.0, this is not supported anymore.
 
 
 .. code-block:: php
    
    <?php
    
-   $a = array(0, 1, 2, 3);
-   echo $a{2};
+   $array = array('a', 'b', 'c', 'd');
+   echo $array{2};    // c
+   
+   $string = 'abcd';
+   echo $string{2};   // c
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing>`__
+
+See also `PHP RFC: Deprecate curly brace syntax for accessing array elements and string offsets <https://wiki.php.net/rfc/deprecate_curly_braces_array_access>`_
 
 Removed in PHP 
 
@@ -2634,9 +2667,33 @@ Related : :ref:`integer <integer>`
 
 Added in PHP 5.4
 
+.. _bitshift:
+
+Bitshift Operators
+------------------
+
+Bitshift operators ``<<`` and ``>>`` move bits within an integer. The bits are shifted by an number of position, to the right or to the left. They are equivalent to multiplying or divising by a power of 2. 
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 3;       // binary : 11
+   echo $a >> 1; // binary : 1 (the last 1 is lost)
+   echo $a << 2; // binary : 1100 
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
+
+See also `Are Bitwise Operators Still Relevant in Modern PHP? <https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/>`_
+
+Related : :ref:`Logical operators <logical-operator>`, :ref:`Bitwise Operators <bitwise-operator>`
+
 .. _bitwise-operator:
 
-Bitwise operators
+Bitwise Operators
 -----------------
 
 Bitwise operators evaluate specific bits within an integer. 
@@ -2880,7 +2937,7 @@ case is often complemented with default.
    ?>
 
 
-Related : :ref:`Default <default>`, :ref:`Match <match>`, :ref:`Enumeration <enum>`, :ref:`Enumeration's case <enum-case>`, :ref:`Switch <switch>`, :ref:`Switch Case <switch-case>`
+Related : :ref:`Default <default>`, :ref:`Match <match>`, :ref:`Enumeration <enum>`, :ref:`Enumeration Case <enum-case>`, :ref:`Switch <switch>`, :ref:`Switch Case <switch-case>`
 
 .. _cast:
 
@@ -3109,6 +3166,17 @@ Related : :ref:`Visibility <visibility>`
 
 Added in PHP 7.1
 
+.. _class-entity:
+
+Class Entities
+--------------
+
+An entity represents a single object, with a unique identifier and a set of properties. The entity is usually stored in a database for long times. The type of the entity is called its model.
+
+`Documentation <https://en.wikipedia.org/wiki/Entity>`__
+
+Related : :ref:`HTML Entities <html-entities>`
+
 .. _getter:
 
 Class Getter Method
@@ -3311,6 +3379,40 @@ See also `RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_
 
 Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Getter Method <getter>`
 
+.. _class_alias:
+
+class_alias()
+-------------
+
+The ``class_alias()`` function creates an alias for a class, interface, enum or trait. Then, the alias may be used in place of the original name anywhere in the application, including in ``use`` expressions. 
+
+In PHP 8.3, class_alias() supports the creation of aliases with native PHP classes. 
+
+class_alias() is also usable on interfaces, enumerations and traits. 
+
+Once created, the objects are of the original class. The alias name doesn't stick to the objects, and it is not possible to know if the object was created as an alias or the original class. The alias may be used with types. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class_alias(stdClass::class, StandardClass::class);
+   
+   $object = new StandardClass();
+   
+   // stdClass
+   print gettype($object);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.class-alias.php>`__
+
+See also `PHP: Using class_alias to maintain BC while moving/renaming classes <https://www.schmengler-se.de/en/2016/09/php-using-class_alias-to-maintain-bc-while-move-rename-classes/>`_
+
+Related : :ref:`Use <use>`
+
 .. _class:
 
 Classes
@@ -3383,7 +3485,7 @@ To perform a deep clone, aka to clone an object and its referenced properties, t
 
 See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_, `PHP Clone All The Things <https://jolicode.com/blog/php-clone-all-the-things>`_
 
-Related : :ref:`Shallow Clone <shallow-clone>`, :ref:`Deep clone <deep-clone>`
+Related : :ref:`Shallow Clone <shallow-clone>`, :ref:`Deep Clone <deep-clone>`
 
 Added in PHP 4.0+
 
@@ -3533,7 +3635,7 @@ Related : :ref:`Closure <closure>`
 .. _null-coalesce:
 .. _null-ternary:
 
-Coalesce operator
+Coalesce Operator
 -----------------
 
 The coalesce operator `??` returns its first operand if it is set and not NULL. Otherwise it will return its second operand.
@@ -3673,7 +3775,7 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce operator <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
 
 .. _comma:
 
@@ -3984,7 +4086,7 @@ This includes if-elsif-then, switch(), match(), the ternary operators `? ... :` 
    ?>
 
 
-Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Coalesce operator <coalesce>`, :ref:`Ternary Operator <ternary-operator>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Ternary Operator <ternary-operator>`
 
 .. _conditioned:
 
@@ -4079,7 +4181,7 @@ A constant scalar expression is an expression that can be evaluated at compile t
 
 `Documentation <https://wiki.php.net/rfc/const_scalar_exprs>`__
 
-Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`, 
+Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`, :ref:`Scalar Types <scalar-type>`
 
 Added in PHP 5.6+
 
@@ -4632,7 +4734,7 @@ CSV is not fully standardized : it represents in fact several format, with diffe
 
 `Documentation <https://en.wikipedia.org/wiki/Comma-separated_values>`__
 
-Related : , :ref:`Format <format>`, :ref:`JSON <json>`
+Related : :ref:`Data <data>`, :ref:`Format <format>`, :ref:`JSON <json>`
 
 .. _csv-injection:
 
@@ -4764,7 +4866,7 @@ With CVS, developers can check out a copy of a project's source code, make chang
 
 `Documentation <https://en.wikipedia.org/wiki/Concurrent_Versions_System>`__
 
-Related : :ref:`git <git>`, , 
+Related : :ref:`git <git>`, :ref:`SVN <svn>`, :ref:`hg <hg>`
 
 .. _dangling-reference:
 
@@ -4804,6 +4906,20 @@ It is recommended to unset the referenced variable, after the loop. It destroys 
 See also `No Dangling References <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
 
 Related : :ref:`Loops <loop>`, :ref:`References <reference>`
+
+.. _data:
+
+Data
+----
+
+``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication. Data can take various forms, including numbers, text, images, sounds, and more. In the context of computing and technology, data often refers to digital information that can be manipulated, stored, and analyzed by computer systems.
+
+Data may be structured or unstructured, raw or processed, unsecure or validated. There is also the expression of big data for large datasets.
+
+
+`Documentation <https://en.wikipedia.org/wiki/Data_(computer_science)>`__
+
+Related : :ref:`Data <data>`, :ref:`Format <format>`
 
 .. _data-mapper:
 .. _object-mapper:
@@ -4918,7 +5034,7 @@ See also `PHP Time handling: the ultimate guide (Part 1/3) <https://alexwebdevel
 
 .. _day-in-seconds:
 
-Day are not 86400 seconds
+Day Are Not 86400 Seconds
 -------------------------
 
 Days in seconds is a classic bug when dealing with dates. It happens when adding 86400 seconds to a time to get the same time on the next day. 
@@ -4971,7 +5087,7 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 `Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
 
-Related : :ref:`Day are not 86400 seconds <day-in-seconds>`
+Related : :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
 
 .. _dead-code:
 .. _unused-code:
@@ -5118,7 +5234,7 @@ Related packages : `zbateson/stream-decorators <https://packagist.org/packages/z
 
 .. _deep-clone:
 
-Deep clone
+Deep Clone
 ----------
 
 A deep clone is an object cloning, where the cloned object also clone its own object properties. This prevents the original object to share data with the cloned one, yet it is slower to process.
@@ -5487,7 +5603,7 @@ Directives are also set by PHP extensions or by PHP applications.
 
 `Documentation <https://www.php.net/manual/en/ini.list.php>`__
 
-Related : :ref:`Extensions <extension>`, :ref:`php.ini <php.ini>`, 
+Related : :ref:`Extensions <extension>`, :ref:`php.ini <php.ini>`, :ref:`.htaccess <htaccess>`
 
 .. _directoryiterator:
 
@@ -6099,7 +6215,7 @@ Ellipsis is the classic punctuation description of the operator, and will apply 
 
 `Documentation <https://en.wikipedia.org/wiki/Ellipsis>`__
 
-Related : :ref:`Array spread <array-spread>`, :ref:`Variadic <variadic>`
+Related : :ref:`Array Spread <array-spread>`, :ref:`Variadic <variadic>`
 
 Added in PHP 5.6
 
@@ -6174,18 +6290,7 @@ Entities are different things :
 
 
 
-Related : :ref:`HTML Entities <html-entities>`, :ref:`Entities, in an application <class-entity>`
-
-.. _class-entity:
-
-Entities, in an application
----------------------------
-
-An entity represents a single object, with a unique identifier and a set of properties. The entity is usually stored in a database for long times. The type of the entity is called its model.
-
-`Documentation <https://en.wikipedia.org/wiki/Entity>`__
-
-Related : :ref:`HTML Entities <html-entities>`
+Related : :ref:`HTML Entities <html-entities>`, :ref:`Class Entities <class-entity>`
 
 .. _enum:
 .. _enumeration:
@@ -6214,7 +6319,7 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_
 
-Related : :ref:`Enumeration's case <enum-case>`
+Related : :ref:`Enumeration Case <enum-case>`
 
 Related packages : `myclabs/php-enum <https://packagist.org/packages/myclabs/php-enum>`_, `dasprid/enum <https://packagist.org/packages/dasprid/enum>`_, `spatie/enum <https://packagist.org/packages/spatie/enum>`_
 
@@ -6222,8 +6327,8 @@ Added in PHP 8.1+
 
 .. _enum-case:
 
-Enumeration's case
-------------------
+Enumeration Case
+----------------
 
 An Enumeration may have zero or more case definitions, with no maximum. A zero-case enum is syntactically valid, if rather useless.
 
@@ -6244,9 +6349,40 @@ An Enumeration may have zero or more case definitions, with no maximum. A zero-c
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.basics.php>`__
 
-Related : :ref:`Enumeration <enum>`
+Related : :ref:`Enumeration <enum>`, :ref:`Case <case>`
 
 Added in PHP 8.1+
+
+.. _environment-variable:
+
+Environment Variables
+---------------------
+
+Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed. These variables are part of the operating system's environment and can be used to retrieve information about the server, the operating system, or custom configuration parameters that are set for a particular application. PHP provides a way to access these variables through the ``$_ENV`` superglobal array.
+
+The environment variables are set in the operating system before the execution of the script, using commands such as `export`, `setenv`, or else (depending on the OS). They may also be provided at the start of containerized images. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // print all available environment variables at the start of the script
+   // it may be empty
+   print_r($_ENV);
+   
+   // retrieve an environment variable 
+   var_dump(getenv('MY_VARIABLE'));
+   
+   // sets an environment variable 
+   var_dump(setenv('MY_VARIABLE', 2));
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Environment_variable>`__
+
+See also `Working with Environment Variables in PHP <https://www.twilio.com/blog/working-with-environment-variables-in-php>`_
 
 .. _error:
 
@@ -6475,15 +6611,17 @@ See also `Eval function in PHP <https://www.tutorialspoint.com/eval-function-in-
 Event driven
 ------------
 
-Event driven programming is a style of coding where the programm react to action coming from the user. 
+Event-driven programming is a programming paradigm that focuses on the flow of a program's execution being determined by events or actions that occur, rather than following a strictly sequential, procedural path. In event-driven programming, the program responds to events generated by external factors, such as user interactions, sensor inputs, or messages from other software components. Events can trigger specific functions or pieces of code to execute in response.
 
 `Documentation <https://en.wikipedia.org/wiki/Event-driven_architecture>`__
 
 See also `ReactPHP <https://reactphp.org/>`_, `Event driven server in PHP <https://stitcher.io/blog/event-driven-php>`_, `An Introduction into Event Loops in PHP <https://www.sitepoint.com/an-introduction-into-event-loops-in-php/>`_
 
+Related packages : `cboden/ratchet <https://packagist.org/packages/cboden/ratchet>`_, `react/stream <https://packagist.org/packages/react/stream>`_
+
 .. _event-storming:
 
-Event storming
+Event Storming
 --------------
 
 Event storming is a workshop, aiming at discovering the domain for an application. It describes the process with stickers of various colors, posted on a wide wall. 
@@ -6824,14 +6962,15 @@ A file is a resource for recording data on a computer storage device, such as a 
 
 See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_
 
-Related : 
+Related : :ref:`File system <filesystem>`
 
 .. _file-system:
+.. _filesystem:
 
 File system
 -----------
 
-A file system is a way to store and organise multiple files. A file system include files and folders.
+A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage (NAS). It provides a logical and efficient way to store and retrieve data on these storage media.
 
 .. code-block:: php
    
@@ -6848,6 +6987,8 @@ A file system is a way to store and organise multiple files. A file system inclu
 See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_
 
 Related : :ref:`File <file>`
+
+Related packages : `league/flysystem <https://packagist.org/packages/league/flysystem>`_, `symfony/filesystem <https://packagist.org/packages/symfony/filesystem>`_, `nette/finder <https://packagist.org/packages/nette/finder>`_
 
 .. _upload:
 .. _file-upload:
@@ -7959,6 +8100,16 @@ The hexagonal architecture promotes loose coupling, which makes the system more 
 See also `Hexagonal Architecture in PHP <https://www.developers.nl/blog/35/hexagonal-architecture-in-php>`_
 
 Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_
+
+.. _hg:
+.. _mercurial:
+
+hg
+--
+
+HG is another name for Mercurial, which is a distributed version control system (DVCS) similar to Git. Mercurial is designed to help developers manage and track changes to source code and other files, just like Subversion and Git. It is often used for collaborative software development and version control of various types of digital assets.
+
+`Documentation <https://www.mercurial-scm.org/>`__
 
 .. _html-entities:
 
@@ -9694,7 +9845,7 @@ The logical operators work on various types, and output booleans. They are diffe
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 
-Related : :ref:`Bitwise operators <bitwise-operator>`
+Related : :ref:`Bitwise Operators <bitwise-operator>`
 
 .. _logicexception:
 
@@ -10252,7 +10403,7 @@ In the PHP world, modules often refers to specfic frameworks' component : for ex
 
 See also `Download & Extend <https://www.drupal.org/project/project_module>`_
 
-Related : , :ref:`Extensions <extension>`, 
+Related : :ref:`Plugin <plug-in>`, :ref:`Extensions <extension>`, 
 
 .. _mbstring:
 .. _multibyte-string:
@@ -10485,7 +10636,7 @@ Related : :ref:`Positional Parameters <positional-parameter>`
 
 .. _namespace-alias:
 
-Namespace alias
+Namespace Alias
 ---------------
 
  PHP can alias(/import) constants, functions, classes, interfaces, and namespaces. 
@@ -10590,7 +10741,7 @@ Related : :ref:`Native <built-in>`
 Nested Attributes
 -----------------
 
-Arguments of attribute may also be objects, when using a new expression in the arguments.
+Arguments of attributes may be literals and also objects. The objects must be created with a new expression, in their respective argument position or name. The created object is not necesseraly an attribute itself.
 
 .. code-block:: php
    
@@ -10611,6 +10762,69 @@ Arguments of attribute may also be objects, when using a new expression in the a
 `Documentation <https://wiki.php.net/rfc/new_in_initializers>`__
 
 Added in PHP 8.1+
+
+.. _nesting:
+.. _nested:
+
+Nesting
+-------
+
+Nesting refers to the practice of placing code block or construct inside another. 
+
+This is commonly used with loops, conditional statements, functions, classes, arrays, generators, attributes, ternaries, try-catch, etc. 
+
+Nesting creates more complex and intricate logic. It usually erodes readability by mixing two contexts in the same code location, or genrating unexpected code.
+
+.. code-block:: php
+   
+   <?php
+   
+   // Nested attributes
+   #[
+       MyAttribute(
+           new OptionA(),
+           new OptionB()
+       )
+   ]
+   function headers() : never {
+   }
+   
+   // Nested conditions
+   if ($condition1) {
+       if ($condition2) {
+           // Code to run when both condition1 and condition2 are true
+       } else {
+           // Code to run when condition1 is true but condition2 is false
+       }
+   } else {
+       // Code to run when condition1 is false
+   }
+   
+   // Nested loops
+   for ($i = 0; $i < 3; $i++) {
+       for ($j = 0; $j < 3; $j++) {
+           // Code to handle the combination of $i and $j
+       }
+   }
+   
+   // Nested functions
+   function outerFunction() {
+       // Code in the outer function
+       
+       function innerFunction() {
+           // Code in the inner function
+       }
+       
+       innerFunction(); // Call the inner function
+   }
+   
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Nesting_(computing)>`__
+
+See also `PHP Nested Try-Catch <https://rollbar.com/blog/php-nested-try-catch/#>`_
 
 .. _never:
 
@@ -10720,7 +10934,7 @@ Added in PHP 8.1+
 
 .. _non-breakable-space:
 
-Non breakable spaces
+Non Breakable Spaces
 --------------------
 
 Space is one of the base ascii character. They are often used to separate words, and are forbidden from being used in names. 
@@ -10950,7 +11164,7 @@ There are two PHP operators that are nullsafe :
    
 
 
-Related : :ref:`Object Operator -> <object-operator>`, :ref:`Coalesce operator <coalesce>`
+Related : :ref:`Object Operator -> <object-operator>`, :ref:`Coalesce Operator <coalesce>`
 
 .. _numeric-separator:
 
@@ -11287,6 +11501,8 @@ The library is integrated into PHP as an extension. It provides a lot of functio
 
 `Documentation <https://www.openssl.org/>`__
 
+See also `Encryption using PHP and OpenSSL <https://www.virendrachandak.com/techtalk/encryption-using-php-openssl/>`_
+
 Related : :ref:`Cryptography <cryptography>`, :ref:`libsodium <libsodium>`
 
 .. _operand:
@@ -11312,7 +11528,7 @@ An operand is an argument for an operator. It applies to any of the operand: to 
    ?>
 
 
-Related : :ref:`Addition <addition>`, , :ref:`Ternary Operator <ternary>`, 
+Related : :ref:`Addition <addition>`, :ref:`Unary Operator <unary>`, :ref:`Ternary Operator <ternary>`, :ref:`Bitshift Operators <bitshift>`
 
 .. _operator-precedence:
 
@@ -11941,7 +12157,7 @@ See also `php official image on Docker Hub <https://hub.docker.com/_/php>`_, `ci
 .. _php-binary:
 .. _php-executable:
 
-PHP engine
+PHP Engine
 ----------
 
 The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language. It is responsible for translating and executing PHP code on a web server or other environments that support PHP. The engine takes the human-readable PHP code and converts it into machine-level instructions that the computer can understand and execute.
@@ -12142,7 +12358,7 @@ PHP-UG are the PHP User Groups. They are informal groups of PHP developer and re
 
 .. _php-variable:
 
-PHP variables
+PHP Variables
 -------------
 
 PHP provides a set of predefined variables. They may be super-global, and available in any context, such as ``$_GET``; they may also be classic variable, in the global scope, such as ``$argv``.
@@ -12164,7 +12380,7 @@ PHP provides a set of predefined variables. They may be super-global, and availa
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-Related : :ref:`Superglobal Variables <super-global>`, :ref:`Variables <variable>`
+Related : :ref:`Superglobal Variables <super-global>`, :ref:`Variables <variable>`, :ref:`Native <native>`
 
 .. _wrapper-php:
 
@@ -12305,6 +12521,7 @@ See also `Laravel: When to use Pipelines? How to test them? <https://darkghosthu
 Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `thephpleague/pipeline <https://packagist.org/packages/thephpleague/pipeline>`_
 
 .. _plugin:
+.. _plug-in:
 
 Plugin
 ------
@@ -12315,6 +12532,8 @@ A plugin is build on top of a framework, and makes usage of it. It may also have
 
 Plugin is a generic term, and has many variations : component, extensions, module, etc.
 
+
+Related : :ref:`Module <module>`
 
 .. _plus:
 
@@ -12563,7 +12782,36 @@ print() also has a closely related function called print_r(), used for debugging
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-Related : :ref:`Echo <echo>`, 
+Related : :ref:`Echo <echo>`, :ref:`print_r function <print_r>`
+
+.. _print_r:
+
+print_r function
+----------------
+
+print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. It's particularly helpful for debugging and understanding the structure of complex data structures in your PHP code. When you use print_r, it prints the array or object's values and structure to the browser or the console.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 1;
+   
+   print_r($a);
+   /*
+   Array
+   (
+       [0] => 1
+   )
+   */
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.print_r.php>`__
+
+Related : :ref:`Assertions <assert>`, :ref:`Echo <echo>`, :ref:`Print <print>`, 
 
 .. _private:
 
@@ -12930,7 +13178,7 @@ Readability is a human characteristic of the code : it depends on the level of k
    ?>
 
 
-See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_
+See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_, `How to write readable code? <https://suckup.de/2020/07/how-to-write-readable-code/>`_
 
 .. _readonly:
 
@@ -13764,8 +14012,9 @@ Scaffolding is the automated generation of PHP code to store and retrieve object
 Frameworks such as CakePHP and Spiral offer scaffolding.
 
 
-.. _scalar-typehint:
+.. _scalar-type:
 .. _scalar:
+.. _scalar-typehint:
 
 Scalar Types
 ------------
@@ -13896,6 +14145,33 @@ This operator is often called double-colon, or ``paamayim-nekudotayim`` : this i
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
 Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
+
+.. _segmentation-fault:
+
+Segmentation Fault
+------------------
+
+``Segmentation fault`` is the laconic error message that is displayed when PHP crashes. It signals an error occured during the execution of the PHP code, and it was not handled by any part of the engine. 
+
+Segmentation fault are notoriously hard to fix. They are often linked to a bug, and there are some rare PHP syntax that leads to them. PHP 8.3 addresses them with a sensor that stops the problem before going out of hand.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // start the file by including itself immediately.
+   // What do you expect? 
+   include __FILE__; 
+   
+   // Segmentation fault
+   
+   ?>
+
+
+`Documentation <https://www.zend.com/blog/debugging-php-segmentation-faults>`__
+
+See also `Find Segfaults in PHP like a boss <https://jolicode.com/blog/find-segfaults-in-php-like-a-boss>`_
 
 .. _self:
 
@@ -14152,7 +14428,7 @@ Shallow cloning is the default behavior in PHP.
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Deep clone <deep-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`Deep Clone <deep-clone>`
 
 .. _short-assignation:
 .. _combined-operator:
@@ -14270,7 +14546,7 @@ Is is a short version of the ternary operator, and it is often used to set defau
 
 See also `Short Hand Comparison in PHP <https://stitcher.io/blog/shorthand-comparisons-in-php>`_
 
-Related : :ref:`Ternary Operator <ternary>`, :ref:`Coalesce operator <coalesce>`
+Related : :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <coalesce>`
 
 Added in PHP 5.3+
 
@@ -14952,6 +15228,15 @@ One of the most famous SPL features is the function spl_autoload_register(), whi
 
 Related : :ref:`Class Autoloading <autoload>`
 
+.. _stateless:
+
+Stateless
+---------
+
+Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices. In a stateless system, each transaction or request is treated as an independent and isolated event, and the system does not store any information about the context or history of those interactions. This design is often used in computer networking, web development, and distributed systems.
+
+See also `PHP is Weird, Stateless, and Beautiful <https://fideloper.com/php-weird-stateless-and-beautiful>`_
+
 .. _statement:
 
 Statement
@@ -15561,6 +15846,15 @@ See also `Machine Learning with PHP: using Support Vector Machine (SVM) via ext-
 
 Related : :ref:`Exception <exception>`, :ref:`Support Vector Machine <svm>`
 
+.. _svn:
+
+SVN
+---
+
+SVN, or Subversion, is a version control system (VCS) used for managing and tracking changes to files and directories in software development and other collaborative environments. It allows multiple users to work on the same set of files, keeping track of changes, and maintaining a history of who made what changes and when. Subversion is commonly used for source code management, but it can also be used for versioning other types of documents and data.
+
+`Documentation <https://en.wikipedia.org/wiki/Apache_Subversion>`__
+
 .. _swap:
 
 SWAP
@@ -15849,7 +16143,7 @@ The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1
 
 See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
-Related : :ref:`Short Ternary Operator <short-ternary>`, :ref:`Coalesce operator <coalesce>`
+Related : :ref:`Short Ternary Operator <short-ternary>`, :ref:`Coalesce Operator <coalesce>`
 
 Added in PHP 7.0+
 
@@ -15884,7 +16178,7 @@ Related : :ref:`Continuous Integration <ci>`
 
 .. _test-pyramid:
 
-Test pyramid
+Test Pyramid
 ------------
 
 The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy. It was popularized by Mike Cohn in his book Succeeding with Agile. The Test Pyramid is used to illustrate the recommended proportions of various levels of testing in an application, with the goal of achieving effective test coverage while keeping testing efforts manageable and efficient.
@@ -15945,7 +16239,7 @@ Three dots, is an operator with several usages.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array spread <array-spread>`, :ref:`Ellipsis <ellipsis>`, :ref:`First Class Callable <first-class-callable>`
+Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`, :ref:`First Class Callable <first-class-callable>`
 
 Added in PHP 5.6
 
@@ -16426,6 +16720,40 @@ Related : :ref:`Error <error>`
 
 Added in PHP 7.0
 
+.. _unary:
+.. _unary-operator:
+
+Unary Operator
+--------------
+
+A unary operator is an operator that operates on a single operand. It performs an operation on the value of the operand. PHP supports several unary operators, including the following:
+
++ Post increment operator ``$a++``
++ Pre increment operator ``++$a``
++ Post decrement operator ``$a--``
++ Pre decrement operator ``--$a``
++ Negation operator ``-$a``
++ Logical Not operator ``!$a``
++ Bitwise Not operator ``~$a``
+
+The four first operators change the underlying value and also return the value. The three last operators only return the changed value, leaving the original value unchanged.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 10;
+   print -$a;  // -10, $a unchanged
+   print $a;   // 10
+   print ++$a; // 10, $a changed
+   print $a;   // 11
+   
+   ?>
+
+
+Related : :ref:`Ternary Operator <ternary>`
+
 .. _underflow:
 
 Underflow
@@ -16573,7 +16901,7 @@ Union types were introduced for exception catching, before PHP 8.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.union>`__
 
-See also `What are union types and how do you use them in PHP? <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_
+See also `What are union types and how do you use them in PHP? <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_, `New in PHP 8: Union Types <https://alexwebdevelop.activehosted.com/social/3fe94a002317b5f9259f82690aeea4cd.328>`_
 
 Related : :ref:`Type system <typehint>`
 
@@ -17234,7 +17562,7 @@ Used in a function signature, it collects all the values into one array.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array spread <array-spread>`, :ref:`Ellipsis <ellipsis>`
+Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`
 
 Added in PHP 5.6
 
@@ -17376,20 +17704,23 @@ Weak references allow the programmer to retain a reference to an object which do
 
 .. code-block:: php
    
-   
-   
    <?php
+   
    $obj = new stdClass;
    $weakref = WeakReference::create($obj);
+   
    var_dump($weakref->get());
    unset($obj);
+   
    var_dump($weakref->get());
    // NULL
-   ?>
    
+   ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.weakreference.php>`__
+
+See also `PHP 8.0 feature focus: Weak maps <https://platform.sh/blog/php-80-feature-focus-weak-maps/>`_, `WeakReferences <https://www.cmuir.co.nz/post/weakreferences/>`_
 
 Related : :ref:`References <reference>`
 
@@ -17793,6 +18124,8 @@ Zombie code slows down the application, yet are logged as being used. They are a
 
 
 `Documentation <https://www.calculquebec.ca/en/communiques/zombie-code/>`__
+
+See also `Zombie Code <https://www.calculquebec.ca/en/communiques/zombie-code/>`_
 
 Related : :ref:`Dead code <dead-code>`
 
