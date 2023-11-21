@@ -158,6 +158,10 @@ Exception
 Keyword
 -------
 
++ :ref:`Abstract Keyword <abstract>`
++ :ref:`And Operator <and>`
++ :ref:`Array <array>`
++ :ref:`Arrow Functions <arrow-function>`
 + :ref:`As <as>`
 + :ref:`Break <break>`
 + :ref:`Callables <callable>`
@@ -167,6 +171,7 @@ Keyword
 + :ref:`Clone <clone>`
 + :ref:`Default <default>`
 + :ref:`Do While <do-while>`
++ :ref:`Empty <empty>`
 + :ref:`Enumeration <enum>`
 + :ref:`Eval() <eval>`
 + :ref:`Exit <exit>`
@@ -176,6 +181,7 @@ Keyword
 + :ref:`Global Variables <global-variable>`
 + :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
++ :ref:`Inclusion <include>`
 + :ref:`Insteadof <insteadof>`
 + :ref:`Interfaces <interface>`
 + :ref:`Iterable <iterable>`
@@ -184,6 +190,7 @@ Keyword
 + :ref:`Private Visibility <private>`
 + :ref:`Protected Visibility <protected>`
 + :ref:`Public Visibility <public>`
++ :ref:`Self <self>`
 + :ref:`Simple Switch <simple-switch>`
 + :ref:`Stringable <stringable>`
 + :ref:`Switch <switch>`
@@ -204,6 +211,7 @@ Language construct
 + :ref:`Echo <echo>`
 + :ref:`Empty <empty>`
 + :ref:`Eval() <eval>`
++ :ref:`Inclusion <include>`
 + :ref:`Isset <isset>`
 + :ref:`List <list>`
 + :ref:`Print <print>`

@@ -5,6 +5,7 @@ writing output...
 building [html]: targets for 4 source files that are out of date
 updating environment: [new config] 4 added, 0 changed, 0 removed
 [2Kreading sources... [ 25%] dictionary[2Kreading sources... [ 50%] index[2Kreading sources... [ 75%] introduction[2Kreading sources... [100%] thesaurus
+/Users/famille/Desktop/php-dictionary/dictionary.rst:2: WARNING: Duplicate explicit target name: "composer".
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -13,10 +14,13 @@ copying assets... copying static files... done
 copying extra files... done
 done
 [2Kwriting output... [ 25%] dictionary[2Kwriting output... [ 50%] index[2Kwriting output... [ 75%] introduction[2Kwriting output... [100%] thesaurus
+/Users/famille/Desktop/php-dictionary/dictionary.rst:130: WARNING: undefined label: 'composer'
+/Users/famille/Desktop/php-dictionary/dictionary.rst:11891: WARNING: undefined label: 'composer'
+/Users/famille/Desktop/php-dictionary/dictionary.rst:12158: WARNING: undefined label: 'composer'
 generating indices... genindex done
 writing additional pages... search done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded.
+build succeeded, 4 warnings.
 
 The HTML pages are in build/html.

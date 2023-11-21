@@ -42,6 +42,7 @@ PHP Dictionary
    * :ref:`Alias Types <alias-types>`
    * :ref:`Allow Dynamic Property <allowdynamicproperty>`
    * :ref:`Alternative Syntax <alternative-syntax>`
+   * :ref:`And Operator <and>`
    * :ref:`Annotations <annotation>`
    * :ref:`Anonymous Catch <anonymous-catch>`
    * :ref:`Anonymous Class <anonymous-class>`
@@ -82,6 +83,7 @@ PHP Dictionary
    * :ref:`Block <block>`
    * :ref:`Boolean <boolean>`
    * :ref:`Break <break>`
+   * :ref:`Bucket <bucket>`
    * :ref:`basename <basename>`
 * C
    * :ref:`CGI <cgi>`
@@ -114,6 +116,7 @@ PHP Dictionary
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce Operator <coalesce>`
    * :ref:`Code Injection <code-injection>`
+   * :ref:`Code Inventory <inventory>`
    * :ref:`Code Smell <code-smell>`
    * :ref:`Coding Conventions <coding-convention>`
    * :ref:`Collection <collection>`
@@ -270,7 +273,7 @@ PHP Dictionary
    * :ref:`GraphQL <graphql>`
    * :ref:`git <git>`
    * :ref:`glob() <glob>`
-   * :ref:`global scope <global>`
+   * :ref:`global Scope <global>`
 * H
    * :ref:`HTML Entities <html-entities>`
    * :ref:`HTML entity <html-entity>`
@@ -328,6 +331,7 @@ PHP Dictionary
    * :ref:`Just In Time <jit>`
 * K
    * :ref:`Key-value stores <key-value-store>`
+   * :ref:`Keyword <keyword>`
 * L
    * :ref:`Language construct <language-construct>`
    * :ref:`Late Static Binding <late-static-binding>`
@@ -437,8 +441,10 @@ PHP Dictionary
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`Packagist <packagist>`
    * :ref:`Pagination <pagination>`
+   * :ref:`Parallel <parallel>`
    * :ref:`Parameter <parameter>`
    * :ref:`Parenthesis <parenthesis>`
+   * :ref:`Parse <parse>`
    * :ref:`ParseError <parseerror>`
    * :ref:`Passing By Reference <by-reference>`
    * :ref:`Passing By Value <by-value>`
@@ -540,9 +546,11 @@ PHP Dictionary
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`Simple Switch <simple-switch>`
    * :ref:`SimpleXML <simplexml>`
+   * :ref:`Single Page Application <spa>`
    * :ref:`Single Quotes Strings <single-quote>`
    * :ref:`Single Responsability Principle <srp>`
    * :ref:`Singleton <singleton>`
+   * :ref:`Socket <socket>`
    * :ref:`Sort <sort>`
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Typehints <special-typehint>`
@@ -578,6 +586,7 @@ PHP Dictionary
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
 * T
+   * :ref:`TCP <tcp>`
    * :ref:`TLS <tls>`
    * :ref:`Task Runner <task-runner>`
    * :ref:`Template <template>`
@@ -616,6 +625,7 @@ PHP Dictionary
    * :ref:`Unreachable Code <unreachable-code>`
    * :ref:`Unsserialization <unserialization>`
    * :ref:`Unused <unused>`
+   * :ref:`Upgrade <upgrade>`
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
    * :ref:`Userland <userland>`
@@ -1760,6 +1770,17 @@ PHP offers an alternative syntax for some of its control structures; namely, ``i
 
 Related : :ref:`Control Structures <control-structure>`
 
+.. _and:
+
+And Operator
+------------
+
+``and`` is the logical and operator. It is synonym with the symbol and operator ``&&``, though it has a different precedence level. 
+
+``and`` is a PHP keyword.
+
+Related : :ref:`Logical operators <logical-operator>`, :ref:`Keyword <keyword>`
+
 .. _annotation:
 
 Annotations
@@ -2203,6 +2224,7 @@ See also `Array Objects in PHP <https://gist.github.com/Jeff-Russ/e1f64273a471d4
 Related packages : `jbzoo/data <https://packagist.org/packages/jbzoo/data>`_, `phootwork/collection <https://packagist.org/packages/phootwork/collection>`_
 
 .. _arrow-function:
+.. _fn:
 
 Arrow Functions
 ---------------
@@ -2834,6 +2856,15 @@ Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>
 
 Added in PHP 5.4
 
+.. _bucket:
+
+Bucket
+------
+
+The term ``bucket`` is not commonly associated with a specific concept. In a more general sense, the term ``bucket`` is often used in the context of data structures and algorithms to refer to a container or a storage space for holding elements.
+
+For example, in the context of hashing or hash tables, a ``bucket`` may be used to describe the individual storage locations where key-value pairs are stored. When a hash collision occurs (two keys hash to the same location), the elements with the same hash value are often placed in a bucket, which is a data structure that allows multiple elements to be stored at the same location.
+
 .. _callable:
 
 Callables
@@ -2977,7 +3008,7 @@ See also `PHP Type Casting <https://tutorials.supunkavinda.blog/php/type-casting
 Catch
 -----
 
-Catch is the complement clause of try : it defines which exception is caught. Optionaly, it defines which variable holds the exception when it happens (since PHP 8.0).
+Catch is the complement clause of try : it defines which exception is caught. Optionally, it defines which variable holds the exception when it happens (since PHP 8.0).
 
 Multiple catches may be used. They are applied in the order of coding, and the first clause which succeed is the last.
 
@@ -3010,7 +3041,7 @@ Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
 CGI
 ---
 
-CGI stands for Common Interface Gateway. It is a protocol, whose specification enables web server to execute programs. CGI is platform independant, and can be used with any programming language.
+CGI stands for Common Interface Gateway. It is a protocol, whose specification enables web server to execute programs. CGI is platform independent, and can be used with any programming language.
 
 PHP may be build as a CGI, but also as a webserver module or a CGI server. 
 
@@ -3597,7 +3628,7 @@ They are close to the arrow-functions.
 
 `Documentation <https://www.php.net/manual/en/functions.anonymous.php>`__
 
-Related : :ref:`static <static>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Closure <closure>`
+Related : :ref:`static <static>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`Closure <closure>`
 
 .. _closure-binding:
 
@@ -3697,6 +3728,17 @@ Some PHP functions are sensitive to this kind of attack : eval(), include(), inc
 See also `PHP Security 2: Directory Traversal & Code Injection <https://www.acunetix.com/websitesecurity/php-security-2/>`_
 
 Related : :ref:`Eval() <eval>`, :ref:`Inclusions <inclusion>`, :ref:`Dynamic Call <dynamic-call>`
+
+.. _inventory:
+
+Code Inventory
+--------------
+
+A code inventory is the collection of all elements of the same type, for categorized review. 
+
+For example, variable names, error messages, namespaces, regexes are all interesting inventories. 
+
+Inventories work best when the code practice is scattered: exceptions and regexes are usually created where and when needed, and are rarely considered as a common asset. That leads to repetition and deformations.
 
 .. _code-smell:
 
@@ -5191,6 +5233,7 @@ declare() affects some configuration for the next block of code.
 Related : :ref:`strict_types <strict_types>`, :ref:`Tick <tick>`, :ref:`declare encoding <declare-encoding>`
 
 .. _decorator:
+.. _decoration:
 
 Decorator Pattern
 -----------------
@@ -5228,7 +5271,7 @@ A decorator is a design pattern used to add behavior or responsibilities to obje
 
 `Documentation <https://refactoring.guru/design-patterns/decorator/php/example>`__
 
-See also `Decorating Member Objects <https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members>`_
+See also `Decorating Member Objects <https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members>`_, `Hands-on decoration <https://muhammedsari.me/hands-on-decoration>`_
 
 Related packages : `zbateson/stream-decorators <https://packagist.org/packages/zbateson/stream-decorators>`_
 
@@ -5727,7 +5770,7 @@ Added in PHP 8.2
 DivisionByZeroError
 -------------------
 
-DivisionByZeroError is thrown when an attempt is made to divide a number by zero.
+DivisionByZeroError is thrown when an attempt is made to divide a number by zero. It is never possible to divide by zero, the result is undefined. It is true for all zeroes: 0, +0, -0. 
 
 .. code-block:: php
    
@@ -6317,7 +6360,7 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.php>`__
 
-See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_
+See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_, `Enum in PHP — Real life examples <https://medium.com/@danielarcher/enum-in-php-real-life-examples-a596ba421f3c>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_
 
 Related : :ref:`Enumeration Case <enum-case>`
 
@@ -6655,7 +6698,7 @@ Exceptions are thrown at the point of detection of the issue, and processed some
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_, `PHP try & catch: what are exceptions and how to handle them? <https://benjamincrozat.com/php-exceptions>`_, `The PHP Exception Class Hierarchy <https://blog.airbrake.io/blog/php-exception-handling/the-php-exception-class-hierarchy>`_
+See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_, `PHP try & catch: what are exceptions and how to handle them? <https://benjamincrozat.com/php-exceptions>`_, `The PHP Exception Class Hierarchy <https://blog.airbrake.io/blog/php-exception-handling/the-php-exception-class-hierarchy>`_, `Mastering Exception Handling in PHP: Ensuring Code Resilience <https://dev.to/devmahfuz/mastering-exception-handling-in-php-ensuring-code-resilience-3pk5>`_
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Chaining Exceptions <exception-chain>`
 
@@ -7572,7 +7615,7 @@ Functions in PHP. It defines a set of argument, and process a value, which is re
 
 `Documentation <https://www.php.net/manual/en/functions.php>`__
 
-Related : :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
+Related : :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Functions <function>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
 
 .. _garbage-collection:
 .. _gc:
@@ -7695,7 +7738,7 @@ The glob() function is not related to the global keyword.
 
 .. _global:
 
-global scope
+global Scope
 ------------
 
 The global scope is the top level scope. It is the scope when no function, or method scope is active. It is also the first scope when starting execution. 
@@ -7769,7 +7812,7 @@ Global variables provides a way to share data in different and remote scopes. It
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`global scope <global>`, :ref:`Superglobal Variables <superglobal>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`global Scope <global>`, :ref:`Superglobal Variables <superglobal>`
 
 .. _globals:
 
@@ -8531,6 +8574,9 @@ Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`, :ref:`ext
 Added in PHP 5.0+
 
 .. _include:
+.. _include_once:
+.. _require_once:
+.. _require:
 
 Inclusion
 ---------
@@ -9133,20 +9179,29 @@ Related : :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`He
 Intersection Type
 -----------------
 
-Specifying several types together as a single typehint, separated with the & operator. 
+Intersection types, also called intersectional types, is a specification syntax where several types act together as a single typehint. The individual types are separated with the & operator. 
+
+The value typed with an intersection type must satisfy all the types at the same time. 
+
+Intersection types don't work with scalar values, which are excluding one another. It works with polymorphism, where one object may be of several types at the same time, when implementing interfaces. 
+
 
 .. code-block:: php
    
    <?php
    
    class x {
+   	// Property is of type A, B and C at the same time. 
+   	// Two of them have to be interfaces.
        private A & B & C $property;
    }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.union>`__
+`Documentation <https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite.intersection>`__
+
+See also `How the New Intersection Types in PHP 8.1 Give You More Flexibility <https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/>`_
 
 Related : :ref:`Type system <typehint>`
 
@@ -9359,12 +9414,39 @@ Key-value stores
 
 A key value store is a server which stores data like a hash. The server stores values as a collection, and each object is identified with a unique key. 
 
-Classic key-value stores include memcache, redis. 
+Classic key-value stores include memcache, redis, tokyo-tyrant. 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Key%E2%80%93value_database>`__
 
 See also `Php and Redis <https://developer.redis.com/develop/php/>`_
+
+.. _keyword:
+
+Keyword
+-------
+
+PHP has a list of keywords, which are also called reserved words. Those are names used with some functions or operators. 
+
+Keywords are not allowed in function, constant, class, interface, enum and trait names. They are allowed in method, properties, variables and class cosntant names.
+
+While legit, it is usually recommended to avoid using PHP keywords as identifiers, so as to prevent confusion. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class myNamespace {
+   	function array() {
+   		return array();
+   	}
+   }
+   
+   print_r((new myNamespace)->array());
+   
+   ?>
+
 
 .. _language-construct:
 
@@ -9445,6 +9527,10 @@ Lazy loading is a programming technic that postpone the actual loading of a reso
 
 This prevents the application from loading resources that may not be used later : it improves efficiency. 
 
+Lazy loading happens with data and source code. Some entities may be loaded only when they are actually needed, to avoid loading too much data from the repositories, while they are not used. 
+
+PHP also uses lazy loading: some structures are checked at linting time, when they are available. Otherwise, their validation is defered to execution. For example, method signature compatibility with parents, or class constant values. 
+
 
 .. code-block:: php
    
@@ -9471,6 +9557,18 @@ This prevents the application from loading resources that may not be used later 
    $file = new File($path);
    // some more code
    echo $file->getContent();
+   
+   class ErroneousConstant {
+   	const VALID = 1;
+   	// invalid value for the INVALID constant
+   	const INVALID = [] + 1;
+   }
+   
+   // displays 1
+   echo ErroneousConstant::VALID;
+   // This produces a Fatal error, even though it could be detected before. 
+   echo ErroneousConstant::INVALID;
+   
    ?>
    
 
@@ -9764,7 +9862,7 @@ The opposite of local scope is the global scope.
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
-Related : :ref:`Scope <scope>`, :ref:`global scope <global>`
+Related : :ref:`Scope <scope>`, :ref:`global Scope <global>`
 
 .. _locale:
 
@@ -9812,7 +9910,7 @@ Related packages : `psr/log <https://packagist.org/packages/psr/log>`_, `monolog
 .. _logical-operator:
 .. _xor:
 .. _or:
-.. _and:
+.. _and-operator:
 .. _not:
 
 Logical operators
@@ -10306,7 +10404,7 @@ It is often a pointless to discuss the micro-optimisation. It is a do or don't, 
 
 `Documentation <https://en.wiktionary.org/wiki/micro-optimization>`__
 
-See also `25 Easy PHP7 Micro-Optimizations <https://blobfolio.com/2017/25-easy-php7-micro-optimizations/>`_
+See also `25 Easy PHP7 Micro-Optimizations <https://blobfolio.com/2017/25-easy-php7-micro-optimizations/>`_, `What are compiler optimized internal PHP functions and should you import them via use statement? <https://tideways.com/profiler/blog/compiler-optimized-php-functions/>`_
 
 .. _migration:
 
@@ -10639,7 +10737,11 @@ Related : :ref:`Positional Parameters <positional-parameter>`
 Namespace Alias
 ---------------
 
- PHP can alias(/import) constants, functions, classes, interfaces, and namespaces. 
+PHP can alias, or import, constants, functions, classes, interfaces, traits, enumerations and namespaces. 
+
+This makes the code shorter, as the imported structure can be called with its alias name, instead of the fully qualified name. 
+
+Aliasing solves naming conflicts, by giving another local name to any structure. 
 
 
 .. code-block:: php
@@ -10669,7 +10771,7 @@ Added in PHP 5.3
 Namespaces
 ----------
 
-Namespaces are a way of encapsulating classes, interfaces, traits, functions and constants. 
+In PHP, namespaces are a way to encapsulate items like classes, interfaces, enumerations, traits, functions, and constants, preventing naming conflicts between different parts of a program. They help organize and structure code, especially in larger projects where multiple developers may be contributing.
 
 
 .. code-block:: php
@@ -10691,6 +10793,8 @@ Namespaces are a way of encapsulating classes, interfaces, traits, functions and
 
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.rationale.php>`__
+
+See also `Understanding PHP Namespaces: Organising Your Code <https://medium.com/@bluznierca1/understanding-php-namespaces-organising-your-code-ba2590c5e529>`_
 
 Related : :ref:`Use Alias <use-alias>`
 
@@ -11775,14 +11879,16 @@ Pack() is a native PHP function which converts given arguments into a binary str
 Packagist
 ---------
 
-Packagist is the most popular package repository for PHP.
+Packagist is the default package repository for PHP. It's a service that helps PHP developers find and use packages in their projects. A package is a reusable piece of code, typically a library or framework, that can be easily integrated into different projects.
 
-Packagist works with composer. 
+Packagist makes it easy for developers to share their packages with the community. It uses Composer, a dependency manager for PHP, to handle the installation and management of packages. Developers can define the dependencies their projects have in a composer.json file, and Composer will then fetch and install the required packages from Packagist.
 
 
-`Documentation <https://getcomposer.org/>`__
+`Documentation <https://www.packagist.org/>`__
 
-Related : :ref:`Packagist <packagist>`
+See also `Composer <https://www.getcomposer.org/>`_
+
+Related : :ref:`Packagist <packagist>`, :ref:`Composer <composer>`
 
 .. _pagination:
 .. _paging:
@@ -11795,6 +11901,15 @@ Pagination is the process to break down a list into smaller partitions, to ease 
 `Documentation <https://en.wikipedia.org/wiki/Pagination>`__
 
 See also `PHP Pagination <https://www.javatpoint.com/php-pagination>`_, `What is Pagination in PHP? Understanding The Fundamentals <https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php>`_
+
+.. _parallel:
+
+Parallel
+--------
+
+Running processes in parallel means that several distinct processes are running at the same time. This approaches takes advantage of modern CPU, which have several cores, and modern Operating System, with a robust process management.
+
+PHP has several ways to start threads or processes, and monitor them: ampphp, reactPHP, fibers.
 
 .. _parameter:
 
@@ -11875,6 +11990,37 @@ Parenthesis are  parameter is a variable in a method definition. They have a nam
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
 Related : :ref:`Argument <argument>`
+
+.. _parse:
+.. _parsing:
+
+Parse
+-----
+
+To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information. 
+
+Parsing is commonly used when working with data formats like XML, JSON, HTML, YAML, or even custom text formats. It involves breaking down a string into its individual components or tokens to understand its underlying structure.
+
+The simplest usage of parsing is to identify errors in the structure, leading to an early aborting of the processing. 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   if (!json_validate($json)) {
+   	throw new Exception('invalid JSON data');
+   }
+   
+   $object = json_decode($json);
+   
+   ?>
+
+
+See also `Parse, don’t validate <https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/>`_
+
+Related : :ref:`Sanitation <sanitation>`, :ref:`Validation <validation>`
 
 .. _parseerror:
 
@@ -12063,7 +12209,7 @@ Phar archives may be zipped.
 PharException
 -------------
 
-The PharException class provides a phar-specific exception class for try/catch blocks.
+The PharException class is a phar-specific exception. It is raised my many Phar-related methods, and are generally differentiated based on their message, rather than having different types of exception. For example, ``'Cannot call constructor twice'`` or ``'Phar creation or opening failed'``.
 
 .. code-block:: php
    
@@ -12326,7 +12472,7 @@ When PHP parses a file, it looks for opening and closing tags, which are <?php a
 
 The classic PHP tag is ``<?php``, and it also has a short version, for better serving xml tags : `<?`. This one relies on the ``short_open_tag`` directive.
 
-Previously, PHP supported also javascript-style and ASP-style tags, though these are now unsupported.
+Previously, PHP supported also Javascript-style and ASP-style tags, though these are now unsupported.
 
 
 .. code-block:: php
@@ -13352,7 +13498,7 @@ Related : :ref:`Garbage Collection <garbage-collection>`, :ref:`Zval <zval>`
 References
 ----------
 
-References in PHP are a means to access the same variable content by different names. 
+References references allow to create multiple variables that refer to the same underlying value in memory. When using references, any changes made to one variable affect the others that reference the same value. This can be useful in certain situations, such as when you want to avoid copying large amounts of data or when you need to modify the original value through multiple variables.
 
 .. code-block:: php
    
@@ -13370,7 +13516,7 @@ References in PHP are a means to access the same variable content by different n
 
 `Documentation <https://www.php.net/manual/en/language.references.php>`__
 
-See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_, `PHP Spotting References <https://www.tutorialspoint.com/php-spotting-references>`_
+See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_, `PHP Spotting References <https://www.tutorialspoint.com/php-spotting-references>`_, `References in PHP <https://erikpoehler.com/2023/01/15/references-in-php/>`_
 
 Related : :ref:`Variables <variable>`, :ref:`Weak References <weak-reference>`
 
@@ -13379,9 +13525,9 @@ Related : :ref:`Variables <variable>`, :ref:`Weak References <weak-reference>`
 Reflection
 ----------
 
-Reflection is a way for PHP to do self introspection : describe the definition it holds in a programmatic way. 
+PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime. Reflection in PHP is made possible by the Reflection API, which provides a set of classes and functions for introspecting objects and classes.
 
-PHP offers a complecte API to describe classes, methods, interfaces, constants, functions, extensions, traits, enums and their components. 
+PHP offers a complete API to describe classes, methods, interfaces, constants, functions, extensions, traits, enums and their components. 
 
 + ReflectionAttribute — The ReflectionAttribute class
 + ReflectionClass — The ReflectionClass class
@@ -13418,6 +13564,10 @@ Reflection is also available in other programming languages.
 
 
 `Documentation <https://www.php.net/manual/en/book.reflection.php>`__
+
+See also `Introduction to PHP Reflection API <https://medium.com/tech-tajawal/introduction-to-php-reflection-api-4af07cc17db4>`_
+
+Related packages : `bramus/reflection <https://packagist.org/packages/bramus/reflection>`_, `roave/better-reflection <https://packagist.org/packages/roave/better-reflection>`_
 
 .. _reflectionexception:
 
@@ -13661,7 +13811,15 @@ Request For Change
 
 A Request For Change is a document containing a call for an adjustment of a source code.
 
+PHP RFCs are formal proposals for changes or additions to the language. These proposals are used to discuss and decide on new features, syntax modifications, and improvements.
+
+The RFC process allows the PHP community, which includes core developers and the broader user base, to review, comment on, and reach a consensus about proposed changes before they are implemented. This open and collaborative approach helps ensure that significant decisions are made with input from a diverse range of perspectives.
+
+The typical lifecycle of an RFC involves several stages, including drafting, discussion, and voting. If an RFC is accepted and receives enough support, the proposed changes are integrated into the PHP source code, and the feature becomes part of a future PHP release
+
 `Documentation <https://en.wikipedia.org/wiki/Change_request>`__
+
+See also `How To Create an RFC <https://wiki.php.net/rfc/howto>`_
 
 Related : :ref:`PHP RFC <php-rfc>`, :ref:`RFC <rfc>`
 
@@ -14113,7 +14271,7 @@ Scopes are generally considered as global or local.
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
-Related : :ref:`Local scope <local>`, :ref:`global scope <global>`
+Related : :ref:`Local scope <local>`, :ref:`global Scope <global>`
 
 .. _scope-resolution-operator:
 .. _double-colon:
@@ -14178,7 +14336,10 @@ See also `Find Segfaults in PHP like a boss <https://jolicode.com/blog/find-segf
 Self
 ----
 
-Self is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current written class.
+``self`` is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the current written class.
+
+``self`` is traditionally written lower-case, although it is case-insensitive. ``self`` is a PHP keyword.
+
 
 .. code-block:: php
    
@@ -14198,7 +14359,9 @@ Self is one of the three special keywords that are used to access properties or 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Late Static Binding <late-static-binding>`
+See also `PHP self Vs this <https://phppot.com/php/php-self-vs-this/>`_, `PHP $this Keyword <https://www.studytonight.com/php/php-this-keyword>`_
+
+Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Keyword <keyword>`, :ref:`Late Static Binding <late-static-binding>`
 
 .. _semantics:
 
@@ -14705,6 +14868,16 @@ Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`XML 
 
 Added in PHP 5.0+
 
+.. _spa:
+.. _single-page-application:
+
+Single Page Application
+-----------------------
+
+SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server. This approach provides a smoother and more fluid user experience, as the page doesn't need to be fully reloaded for every interaction. SPAs often use JavaScript frameworks like htmx, React, Angular, or Vue.js to handle these dynamic updates and manage the application state.
+
+See also `Making a Single-Page Application with HTMX and Symfony <https://jolicode.com/blog/making-a-single-page-application-with-htmx-and-symfony>`_
+
 .. _single-quote:
 
 Single Quotes Strings
@@ -14876,6 +15049,31 @@ PHP supports SOAP with a native extension called ext/soap.
 
 
 `Documentation <https://www.php.net/manual/en/book.soap.php>`__
+
+.. _socket:
+
+Socket
+------
+
+A socket refers to a communication endpoint that allows two processes on a network to exchange data. Sockets provide a mechanism for processes on different devices to communicate with each other, whether they are on the same machine or across the Internet.
+
+PHP provides a set of functions for working with sockets, allowing developers to create both client and server applications that can communicate over networks using various protocols, including TCP and UDP.
+
+.. code-block:: php
+   
+   <?php
+   
+   $server = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
+   socket_bind($server, '127.0.0.1', 8080);
+   socket_listen($server);
+   $client = socket_accept($server);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.sockets.php>`__
+
+Related packages : `react/socket <https://packagist.org/packages/react/socket>`_
 
 .. _solid:
 
@@ -15880,6 +16078,7 @@ Swap may be two things :
 
 
 .. _switch:
+.. _endswitch:
 
 Switch
 ------
@@ -16091,6 +16290,34 @@ See also `Castor, a journey across the sea of task runners <https://jolicode.com
 Related : :ref:`Pipeline <pipeline>`
 
 Related packages : `consolidation/robo <https://packagist.org/packages/consolidation/robo>`_, `phing/phing <https://packagist.org/packages/phing/phing>`_, `jolicode/castor <https://packagist.org/packages/jolicode/castor>`_
+
+.. _tcp:
+
+TCP
+---
+
+TCP, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol (IP) suite. Together with IP (Internet Protocol), it forms the foundation for Internet communication. TCP is a connection-oriented protocol, meaning it establishes a reliable and secure connection between two devices before data is exchanged.
+
+Key features of TCP include:
+
++ Reliability: TCP ensures the reliable delivery of data by using acknowledgments and retransmission. When a device sends data over a TCP connection, it waits for an acknowledgment from the receiving device. If an acknowledgment is not received, the data is resent.
+
++ Connection-oriented: Before data transfer begins, a connection must be established between the sender and the receiver. This connection is maintained until the data transfer is complete, and then it is terminated.
+
++ Flow control: TCP includes mechanisms for flow control, which helps manage the amount of data sent between devices to prevent congestion and ensure efficient communication.
+
++ Error checking: TCP includes error-checking mechanisms to detect and retransmit lost or corrupted data. This contributes to the protocol's reliability.
+
++ Sequencing: TCP numbers each data packet so that the receiving device can reorder them and ensure that the data is delivered in the correct order.
+
+TCP is commonly used for applications that require high reliability and accurate delivery of data, such as web browsing, file transfers, and email. It operates at the transport layer of the OSI model and works in conjunction with the Internet Protocol (IP), which operates at the network layer. Together, TCP/IP provides a robust and standardized framework for communication over the Internet.
+
+
+See also `Example #1 Socket example: Simple TCP/IP server <https://www.php.net/manual/en/sockets.examples.php>`_
+
+Related : :ref:`Socket <socket>`
+
+Related packages : `https://packagist.org/packages/react/socket <https://packagist.org/packages/https://packagist.org/packages/react/socket>`_
 
 .. _template:
 
@@ -16585,6 +16812,8 @@ The catch clause may be anonymous, when it only specify the type of caught excep
 
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
+
+See also `PHP: Try and Catch me if you can! <https://medium.com/@erlandmuchasaj/php-try-and-catch-me-if-you-can-824bc6bb6698>`_
 
 Related : :ref:`Finally <finally>`
 
@@ -17141,6 +17370,19 @@ The uopz - User Operations for Zend - extension exposes Zend Engine functionalit
 
 `Documentation <https://www.php.net/manual/en/book.uopz.php>`__
 
+.. _upgrade:
+
+Upgrade
+-------
+
+An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version. Major upgrade refers to a change in the first digit of the version, while minor upgrades are for the other numbers in the version.
+
+An upgrade often require a migration: the current code has to be made compatible with the current version, but also with the upcoming version. 
+
+See also `Deal with major upgrades in PHP <https://medium.com/yousign-engineering-product/deal-with-major-upgrades-in-php-490ed55c54a1>`_
+
+Related : :ref:`Version <version>`
+
 .. _use:
 
 Use
@@ -17267,7 +17509,7 @@ See also `Introducing ramsey/uuid <https://benramsey.com/blog/2016/04/ramsey-uui
 Validation
 ----------
 
-Validation is the process to check that a data conform to a specific pattern. The data is not modified by a validation process. There are native and extension functions in PHP to perform validation, as long as components. 
+Validation is the process to check that a data conform to a specific pattern or set of constraints. The data is not modified by a validation process. There are native and extension functions in PHP to perform validation, and components. 
 
 Validation is also called filtering. 
 
@@ -17311,7 +17553,7 @@ Value objects are typically used to model concepts that don't have a distinct id
 
 `Documentation <https://en.wikipedia.org/wiki/Value_object>`__
 
-See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_
+See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_, `Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_
 
 Related packages : `sebastian/type <https://packagist.org/packages/sebastian/type>`_, `cuyz/valinor <https://packagist.org/packages/cuyz/valinor>`_
 
@@ -17561,6 +17803,8 @@ Used in a function signature, it collects all the values into one array.
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
+
+See also `PHP variadic <https://dev.to/jmau111/php-variadic-5a84>`_
 
 Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`
 
