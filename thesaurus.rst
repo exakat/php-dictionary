@@ -41,6 +41,7 @@ Attribute
 Concept
 -------
 
++ :ref:` <template>`
 + :ref:`$this <$this>`
 + :ref:`Active Record <active-record>`
 + :ref:`Alias <alias>`
@@ -103,7 +104,6 @@ Concept
 + :ref:`Single Responsability Principle <srp>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
-+ :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
@@ -144,7 +144,6 @@ Exception
 + :ref:`ClosedGeneratorException <closedgeneratorexception>`
 + :ref:`DivisionByZeroError <divisionbyzeroerror>`
 + :ref:`ImagickPixelException <imagickpixelexception>`
-+ :ref:`InvalidArgumentException <invalidargumentexception>`
 + :ref:`JsonException <jsonexception>`
 + :ref:`LengthException <lengthexception>`
 + :ref:`LogicException <logicexception>`

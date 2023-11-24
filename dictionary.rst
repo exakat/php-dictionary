@@ -1,6 +1,8 @@
 PHP Dictionary
 ++++++++++++++
 
+* 
+   * :ref:` <template>`
 * $
    * :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`
    * :ref:`$_FILES <$_files>`
@@ -170,6 +172,7 @@ PHP Dictionary
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
    * :ref:`Dates <date>`
+   * :ref:`Datetime Trap <datetime-trap>`
    * :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
    * :ref:`Days In Month <days-in-month>`
    * :ref:`Dead code <dead-code>`
@@ -589,7 +592,6 @@ PHP Dictionary
    * :ref:`TCP <tcp>`
    * :ref:`TLS <tls>`
    * :ref:`Task Runner <task-runner>`
-   * :ref:`Template <template>`
    * :ref:`Ternary Operator <ternary>`
    * :ref:`Test <test>`
    * :ref:`Test Pyramid <test-pyramid>`
@@ -669,17 +671,47 @@ PHP Dictionary
 
 
 
+.. _template:
+
+
+
+
+A template is a preset document, filled with values in placeholders, to display the resulting data. This is also called a view.
+
+PHP used to be known as a template engine. Nowadays, template engines are written in PHP. 
+
+Templates may be produced in any file format : HTML, CSS, Javascript, JSON, PDF, URL, etc. 
+
+Template may be large : they are then broken down into smaller and reusable sub-templates.
+
+Some template packages : Twig, Latte, Blade, smarty.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // piece 
+   echo "<h1>".$name."</h1>";
+   
+   ?>
+   
+
+
+Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_
+
 .. _$_files:
 
 $_FILES
 -------
 
-In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=multipart/form-data`` attribute. It provides access to the uploaded file's properties such as name, size, type, and temporary location on the server.
+In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype="multipart/form-data"`` attribute. It provides access to the uploaded file's properties such as name, size, type, and temporary location on the server.
 
 When a file upload form is submitted, PHP populates the ``$_FILES`` variable with an array structure that contains information about the uploaded files. The array is organized based on the input field names used in the form.
 
 + ``$_FILES['userfile']['name']`` : the original name of the file on the client machine.
-+ ``$_FILES['userfile']['type']`` : the mime type of the file, if the browser provided this information. An example would be image/gif. This mime type is however not checked on the PHP side and therefore don't take its value for granted.
++ ``$_FILES['userfile']['type']`` : the mime type of the file, if the browser provided this information. An example would be "image/gif". This mime type is however not checked on the PHP side and therefore don't take its value for granted.
 + ``$_FILES['userfile']['size']`` : the size, in bytes, of the uploaded file.
 + ``$_FILES['userfile']['tmp_name']`` : the temporary filename of the file in which the uploaded file was stored on the server.
 + ``$_FILES['userfile']['error']`` : the error code associated with this file upload.
@@ -1384,7 +1416,7 @@ __toString() is always called in concatenation, and string interpolation.
    		// $this->r is used as is
    		// $this->p is formatted with quotes
    		// $this->q is converted to other values
-   		return $this->r $this->p.($this->q ? 'A' : 'B');
+   		return "$this->r '$this->p' ".($this->q ? 'A' : 'B');
    	}
    }
    
@@ -1517,7 +1549,7 @@ PHP has abstract classes and methods. Classes defined as abstract cannot be inst
    
        // Common method
        public function printOut() {
-           print $this->getValue() . \n;
+           print $this->getValue() . "\n";
        }
    }
    
@@ -1526,7 +1558,7 @@ PHP has abstract classes and methods. Classes defined as abstract cannot be inst
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_, `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_, `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Testing Abstract Classes in PHP using Anonymous Classes <https://www.otsch.codes/blog/testing-abstract-classes-in-php-using-anonymous-classes>`_
 
 Related : :ref:`Final Keyword <final>`
 
@@ -1955,9 +1987,9 @@ When the arguments are dynamic, aka they are collected at execution time, the op
    <?php
    
    function foo(...$args) {
-       print This function is called with.count($args).arguments\n;
-       print This function is called with.func_get_count().arguments\n;
-       print This function is called with.count($func_get_args()).arguments\n;
+       print "This function is called with ".count($args)." arguments\n";
+       print "This function is called with ".func_get_count()." arguments\n";
+       print "This function is called with ".count($func_get_args())." arguments\n";
    } 
    
    $array = range(0, rand(5, 10)); // generates an array with 1 to 11 elements
@@ -2955,13 +2987,13 @@ case is often complemented with default.
    
    switch ($i) {
        case 0:
-           echo i equals 0;
+           echo "i equals 0";
            break;
        case 1:
-           echo i equals 1;
+           echo "i equals 1";
            break;
        case 2:
-           echo i equals 2;
+           echo "i equals 2";
            break;
    }
    
@@ -3020,9 +3052,9 @@ Multiple catches may be used. They are applied in the order of coding, and the f
    try {
        callSomeMethod();
    } catch (\SomeException $e) {
-       display(Warning);
+       display("Warning");
    } catch (\SomeSeriousException $e) {
-       display(Alert);
+       display("Alert");
    } catch (\Exception) {
        // process the error here
    }
@@ -3032,7 +3064,7 @@ Multiple catches may be used. They are applied in the order of coding, and the f
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_
+See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_\
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
 
@@ -3282,7 +3314,7 @@ Class invasion doesn't work when running an external closure inside the class.
    <?php
    
    class X {
-       private $p = abc;
+       private $p = "abc";
    
        function foo(X $x) {
            echo $x->p;
@@ -3305,6 +3337,8 @@ Class invasion doesn't work when running an external closure inside the class.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`__
 
+See also `Invading private properties and methods in PHP <https://freek.dev/2192-invading-private-properties-and-methods-in-php>`_
+
 Related : :ref:`Classes <class>`, :ref:`Visibility <visibility>`
 
 Related packages : `spatie/invade <https://packagist.org/packages/spatie/invade>`_
@@ -3314,9 +3348,9 @@ Related packages : `spatie/invade <https://packagist.org/packages/spatie/invade>
 Class Operator
 --------------
 
-Class operator is the `::class`, added to a class, interface, trait or enumeration identifier. It returns the fully qualified name of the class, according to the current code. 
+Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier. It returns the fully qualified name of the class, according to the current code. 
 
-`::class` is affected by `use` expressions, but not by class_alias(); function. 
+``::class`` is affected by `use` expressions, but not by class_alias(); function. 
 
 .. code-block:: php
    
@@ -4007,7 +4041,7 @@ There are also functions dedicated to comparisons, with specific applications : 
    <?php
    
    if ($a == $b) {
-       print a and b are equal;
+       print "a and b are equal";
    }
    ?>
 
@@ -4071,8 +4105,8 @@ Concatenation is done with the dot operator.
 .. code-block:: php
    
    <?php
-   $a = world;
-   $b = Hello;
+   $a = "world";
+   $b = "Hello ";
    echo $b.$a;
    // displays Hello world
    
@@ -4515,7 +4549,7 @@ Cookies are a mechanism for storing data in the remote browser and thus tracking
    
    <?php
    
-   setcookie(aCookieName, Cookie value, time()+3600);  /* expire in 1 hour */
+   setcookie("aCookieName", "Cookie value", time()+3600);  /* expire in 1 hour */
    
    ?>
 
@@ -4549,13 +4583,13 @@ swoole, openswoole and fibers extensions offer coroutines.
        go(function()
        {
            Co::sleep(1);
-           echo Done 1\n;
+           echo "Done 1\n";
        });
    
        go(function()
        {
            Co::sleep(1);
-           echo Done 2\n;
+           echo "Done 2\n";
        });
    });
    ?>
@@ -4817,8 +4851,8 @@ cURL is used to access remote resources, using various protocols such as DICT, F
    <?php
    
    // Example from the PHP manual
-   $ch = curl_init(http://www.example.com/);
-   $fp = fopen(example_homepage.txt, w);
+   $ch = curl_init("http://www.example.com/");
+   $fp = fopen("example_homepage.txt", "w");
    
    curl_setopt($ch, CURLOPT_FILE, $fp);
    curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -4858,7 +4892,7 @@ They are also called curly braces.
    for($a = 1; $a < 10; ++$i) {
    	// block
    	
-   	echo {$var}s;
+   	echo "{$var}s";
    }
    
    // old syntax: it used to be the second character in the string
@@ -5074,6 +5108,44 @@ These functions allow you to get the date and time from the server where your PH
 
 See also `PHP Time handling: the ultimate guide (Part 1/3) <https://alexwebdevelop.com/php-time-handling-part-1/>`_, `PHP Time handling: the ultimate guide (Part 2/3) <https://alexwebdevelop.com/php-time-handling-part-2/>`_, `PHP Time handling: the ultimate guide (Part 3/3) <https://alexwebdevelop.com/php-time-handling-part-3/>`_
 
+.. _datetime-trap:
+
+Datetime Trap
+-------------
+
+When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself. This means that calculating a difference with ``diff()``, ``add()``, ``modify()`` methods also changes the underlying object. 
+
+This trap is also set in packages that are build on top of Datetime. 
+
+To avoid this trap, use the DatetimeImmutable class. This class is not modified by those methods, but returns a new object each time.
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $today = new Datetime('now');
+   print $today->format('d-m-Y').PHP_EOL;
+   // 24-11-2023
+   
+   $tomorrow = $today->add(new DateInterval('P1D'));
+   print $tomorrow->format('d-m-Y').PHP_EOL;
+   // 25-11-2023 (as expected)
+   
+   $twoDaysLater = $today->add(new DateInterval('P2D'));
+   print $twoDaysLater->format('d-m-Y');
+   // 27-11-2023 (one day overshoot!)
+   
+   ?>
+
+
+`Documentation <https://www.php.net/datetime>`__
+
+See also `I just fell into the Date Trap in PHP <https://twitter.com/CodeWithKyrian/status/1727832972303143151>`_, `PHP DateTime difference – it’s a trap! <https://aiocollective.com/blog/php-datetime-difference-trap/>`_, `What’s all this “immutable date” stuff, anyway? <https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce>`_
+
+Related packages : `nesbot/carbon <https://packagist.org/packages/nesbot/carbon>`_, `cakephp/chronos <https://packagist.org/packages/cakephp/chronos>`_
+
 .. _day-in-seconds:
 
 Day Are Not 86400 Seconds
@@ -5119,7 +5191,7 @@ When dealing with months, it is recommended to use expressions like 'first day o
    
    <?php
    
-   echo date('d-m-Y', strtotime(+1 months, strtotime('31 October 2000')));
+   echo date('d-m-Y', strtotime("+1 months", strtotime('31 October 2000')));
    
    echo (new DateTime('first day of this month'))->format('jS, F Y');
    echo (new DateTime('next month'))->format('jS, F Y');
@@ -5146,10 +5218,10 @@ Dead code is also known as unused code. It happens to any defined structure. Var
    <?php
    
    // bar is dead code : never executed
-   function bar() { echo World; }
+   function bar() { echo "World"; }
    
    // foo() is alive code : it is executed
-   function foo() { echo Hello; }
+   function foo() { echo "Hello"; }
    
    echo foo();
    ?>
@@ -5334,13 +5406,13 @@ default is a PHP keyword, used with switch() and match() structures. It represen
    
    switch ($i) {
        case 0:
-           echo i equals 0;
+           echo "i equals 0";
            break;
        case 1:
-           echo i equals 1;
+           echo "i equals 1";
            break;
        default 2:
-           echo i is not 0 nor 1;
+           echo "i is not 0 nor 1";
            break;
    }
    
@@ -5368,7 +5440,7 @@ The default parameter must be the last of the parameters : adding a parameter wi
    <?php
    
    function makeCodffe($type = 'latte') {
-       return Making a cup of $latte;
+       return "Making a cup of $latte";
    }
    
    ?>
@@ -5429,7 +5501,7 @@ define() used to create case-insensitive constant, but this was abandoned in PHP
    <?php
        define('HELLO', 'Hello');
        
-       print HELLO . world\n;
+       print HELLO . " world\n";
    ?>
    
 
@@ -5604,12 +5676,12 @@ Destructors are usually called after the end of the script, and will not have ac
        }
        
        function __destruct() {
-           fwrite($this->file, End);
+           fwrite($this->file, "End");
            fclose($this->file);
        }
    }
    
-   $x = new X(/tmp/test.txt);
+   $x = new X("/tmp/test.txt");
    unset($x);
    
    ?>
@@ -5635,10 +5707,10 @@ Directives are also set by PHP extensions or by PHP applications.
    
    <?php
    
-   echo 'display_errors = ' . ini_get('display_errors') . \n;
-   echo 'register_globals = ' . ini_get('register_globals') . \n;
-   echo 'post_max_size = ' . ini_get('post_max_size') . \n;
-   echo 'post_max_size+1 = ' . (ini_get('post_max_size')+1) . \n;
+   echo 'display_errors = ' . ini_get('display_errors') . "\n";
+   echo 'register_globals = ' . ini_get('register_globals') . "\n";
+   echo 'post_max_size = ' . ini_get('post_max_size') . "\n";
+   echo 'post_max_size+1 = ' . (ini_get('post_max_size')+1) . "\n";
    echo 'post_max_size in bytes = ' . return_bytes(ini_get('post_max_size'));
    
    ?>
@@ -5661,7 +5733,7 @@ DirectoryIterator
    $iterator = new DirectoryIterator(__DIR__);
    while($iterator->valid()) {
        $file = $iterator->current();
-       echo $iterator->key() .  =>  . $file->getFilename() . \n;
+       echo $iterator->key() . " => " . $file->getFilename() . "\n";
        $iterator->next();
    }
    ?>
@@ -5701,7 +5773,7 @@ Once disabled, the classes may be created, via an extension or in the code of PH
    
    // in php.ini
    
-   disable_classes=mysqli,socket,soapserver
+   disable_classes="mysqli,socket,soapserver" 
    
    
 
@@ -5728,7 +5800,7 @@ Disabled functions appear as undefined : in fact, they can also be redefined, wi
    
    // in php.ini
    
-   disable_functions=print_r,phpinfo,var_dump
+   disable_functions="print_r,phpinfo,var_dump" 
    
    
 
@@ -5743,7 +5815,7 @@ Related : :ref:`Functions <function>`
 Disjunctive Normal Form (DNF)
 -----------------------------
 
-DNF stands for 'Disjunctive Normal Form'. It is a standard form used in propositional logic and Boolean algebra. DNF represents logical expressions as a disjunction (OR) of one or more conjunctions (AND) of literals. In simpler terms, it is a way to express logical statements using only the logical operators OR and AND.
+DNF stands for 'Disjunctive Normal Form'. It is a standard form used in propositional logic and Boolean algebra. DNF represents logical expressions as a disjunction (OR) of one or more conjunctions (AND) of literals. In simpler terms, it is a way to express logical statements using only the logical operators "OR" and "AND".
 
 The DNF form allows for the representation of any logical expression using a combination of OR and AND operators. It is particularly useful in logic analysis, theorem proving, and boolean circuit design.
 
@@ -5779,7 +5851,7 @@ DivisionByZeroError is thrown when an attempt is made to divide a number by zero
        echo 1/$a;
    }
    catch(DivisionByZeroError $e){
-       echo Trying to divide by 0;
+       echo "Trying to divide by 0";
    }
    ?>
 
@@ -5811,7 +5883,7 @@ Part of the block execution may be skipped by using the `continue` keyword.
    
    $i = 1;
    do {
-   	print $i\n;
+   	print "$i\n";
    } while($i < 10);
    
    ?>
@@ -5838,8 +5910,8 @@ The DOM extension provides a tree-based representation of an XML document, where
    // from PHP manual : https://www.php.net/manual/en/class.domcomment.php
    
       $xml = new DOMDocument();
-       $xml->loadXML('<?xml version=1.0 encoding=utf-8?>
-         <configuration version=2>
+       $xml->loadXML('<?xml version="1.0" encoding="utf-8"?>
+         <configuration version="2">
          <!-- test &#45;&#45;&gt; -->
          test &#45;&#45;&gt;
          </configuration>'
@@ -5998,9 +6070,9 @@ In PHP, every syntax may use a dynamic call.
    
    <?php
    
-   $constant = Name;
+   $constant = "Name";
    echo constant($constant); 
-   echo constant(someClass::$constant); 
+   echo constant("someClass::$constant"); 
    
    $variable = 'a';
    $a = 'b';
@@ -6125,7 +6197,7 @@ When the class implements the magic methods __get() and __set(), of if the class
            $this->a = 1;
            
            // dynamic property with variable name 
-           $b = abc;
+           $b = "abc";
            $this->$b = 1; 
            
            // static property
@@ -6455,7 +6527,7 @@ It's important to note that these error exceptions are only thrown for internal 
    <?php
    
    try {
-       eval('echo Hello, World!'); // Missing semicolon generates a ParseError
+       eval('echo "Hello, World!"'); // Missing semicolon generates a ParseError
    } catch (ParseError $e) {
        echo 'Caught ParseError: ' . $e->getMessage();
    }
@@ -6538,7 +6610,7 @@ Escape characters are special characters, that introduce a special meaning, for 
 
 Escape characters are often generating a special sequence to escape themselves and allow their literal meaning to be expressed.
 
-In PHP's strings and HEREDOC, the escape character is the backslash : \.
+In PHP's strings and HEREDOC, the escape character is the backslash : "\".
 
 
 
@@ -6546,7 +6618,7 @@ In PHP's strings and HEREDOC, the escape character is the backslash : \.
    
    <?php
    
-   echo <a href="https://www.exakat.io/" />
+   echo "<a href="https://www.exakat.io/" />";
    
    ?>
 
@@ -6639,7 +6711,7 @@ eval() has been used originally to obtain features that PHP did not offer. Nowad
    $value = 'vvvv';
    
    // Set a variable with a dynamic name
-   eval('$'.$name.' = .$value.');
+   eval('$'.$name.' = "'.$value.'"');
    // equivalent to $$name = $value;
    
    ?>
@@ -6832,7 +6904,7 @@ extends
    <?php
    
    class x {
-   	function foo() { echo X; }
+   	function foo() { echo "X"; }
    }
    
    class y extends x { }
@@ -7151,9 +7223,9 @@ Finally is run every time after a try, with or without any catch clause. It is a
    try{
        doSomething();
    } catch (\Exception $e) {
-       print An exception was raised and caught;
+       print "An exception was raised and caught";
    } finally {
-       print Finally\n;
+       print "Finally\n";
    }
    
    ?>
@@ -7306,11 +7378,11 @@ Part of the block execution may be skipped by using the `continue` keyword.
    */
    
    for($i = 0; $i < 10; ++$i) {
-   	print $i\n;
+   	print "$i\n";
    }
    
    for($i = 0, $j = 0; $i < 10; ++$i, $j += 2) {
-   	print $i $j\n;  // 1 2, 2 4, 3 6....
+   	print "$i $j\n";  // 1 2, 2 4, 3 6....
    }
    
    ?>
@@ -7672,9 +7744,9 @@ Generator must have no return typehint, or use the \Generator typehint.
    }
    
    foreach (evenInteger() as $number) {
-       echo $number;
+       echo "$number ";
    }
-   echo \n;
+   echo "\n";
    ?>
 
 
@@ -7728,8 +7800,8 @@ The glob() function is not related to the global keyword.
 .. code-block:: php
    
    <?php
-   foreach (glob(*.txt) as $filename) {
-       echo $filename size  . filesize($filename) . \n;
+   foreach (glob("*.txt") as $filename) {
+       echo "$filename size " . filesize($filename) . "\n";
    }
    ?>
 
@@ -8038,7 +8110,7 @@ Related : :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Hash <hash>`, :ref:`Map
 Headless
 --------
 
-A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other. In this setup, the frontend (the head or user interface) and the backend (the body or content management system) operate independently and communicate through APIs (Application Programming Interfaces).
+A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other. In this setup, the frontend (the "head" or user interface) and the backend (the "body" or content management system) operate independently and communicate through APIs (Application Programming Interfaces).
 
 Traditionally, websites are built using a monolithic architecture, where the frontend and backend are tightly integrated. The backend typically handles both content management and presentation logic, rendering HTML pages that are sent to the user's browser.
 
@@ -8106,7 +8178,7 @@ PHP also has special syntax for binary and octal numbers.
        $twenty    = 0x14;
        $twentyToo = 20;
        
-       $i = \x69; // i is the 105 ASCII code
+       $i = "\x69"; // i is the 105 ASCII code
        $i = 'i';
    
    ?>
@@ -8169,6 +8241,16 @@ PHP uses htmlentities() and html_entities_decode() to convert those characters f
 
 HTML entities are useful in the HTML code, but they are confusing in a text file, which has no special entity.
 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // echo &amp;
+   echo htmlentities("&");
+   
+   ?>
 
 
 `Documentation <https://www.freeformatter.com/html-entities.html>`__
@@ -8334,7 +8416,7 @@ Related : :ref:`HTTPS <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protoc
 Iconv
 -----
 
-``iconv`` is a PHP extension that stands for Internationalized CONVersion. It provides functionality to convert strings between different character encodings, making it useful for dealing with multilingual and internationalized applications.
+``iconv`` is a PHP extension that stands for "Internationalized CONVersion". It provides functionality to convert strings between different character encodings, making it useful for dealing with multilingual and internationalized applications.
 
 The ``iconv`` extension allows you to convert strings from one character encoding to another, and it also supports transliteration and character set detection. This is particularly important when dealing with data that may come from different sources with various character encodings.
 
@@ -8343,7 +8425,7 @@ The ``iconv`` extension allows you to convert strings from one character encodin
 .. code-block:: php
    
    <?php
-     echo 'TRANSLIT : ', iconv(UTF-8, ISO-8859-1//TRANSLIT, $text), PHP_EOL;
+     echo 'TRANSLIT : ', iconv("UTF-8", "ISO-8859-1//TRANSLIT", $text), PHP_EOL;
      // TRANSLIT : This is the Euro symbol 'EUR'.
    ?>
 
@@ -8368,8 +8450,8 @@ Identical operators are `===`, `!==`. The match() command also uses identical co
    
    <?php
    
-   var_dump(0 == 0000); // true
-   var_dump(0 === 0);   // false
+   var_dump(0 == "0000"); // true
+   var_dump(0 === "0");   // false
    var_dump(0 === 0);     // true
    
    ?>
@@ -8398,9 +8480,9 @@ If-then structures may be chained with the `elseif` keyword. The else branch is 
    $number = rand(0, 10);
    
    if ($number % 2 === 0) {
-   	print $number is even\n;
+   	print "$number is even\n";
    } else {
-   	print $number is odd\n;
+   	print "$number is odd\n";
    }
    
    ?>
@@ -8482,10 +8564,10 @@ ImagickPixelException is related to the Imagick extension.
    <?php
    
    // invalid creation
-   new ImagickPixel(LightCorral);
+   new ImagickPixel("LightCorral");
    
    // valid creation
-   new ImagickPixel(LightCoral);
+   new ImagickPixel("LightCoral");
    
    ?>
 
@@ -8602,11 +8684,11 @@ Inclusion is often hidden in autoload() functions : the code is included class p
    test.php
    <?php
    
-   echo A $color $fruit; // A
+   echo "A $color $fruit"; // A
    
    include 'vars.php';
    
-   echo A $color $fruit; // A green apple
+   echo "A $color $fruit"; // A green apple
    
    ?>
    
@@ -8625,11 +8707,11 @@ Including a PHP file into another PHP file. This is usually isolated into the au
    
    <?php
    
-   echo A $color $fruit; // A
+   echo "A $color $fruit"; // A
    
    include 'vars.php';
    
-   echo A $color $fruit; // A green apple
+   echo "A $color $fruit"; // A green apple
    
    ?>
 
@@ -8794,7 +8876,7 @@ Unlike the equality operators, they do not have a strict version, which takes in
    <?php
    
    // displays false
-   var_dump(3 > 3);
+   var_dump("3" > 3);
    
    // displays true
    var_dump(4 >= 0)
@@ -8865,7 +8947,7 @@ Inheritance is a mechanism where you can to derive a class from another class fo
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_
+See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_\
 
 Related : :ref:`Classes <class>`
 
@@ -9108,7 +9190,7 @@ Internationalization is also called `i18n`, aka i, 18 letters and n. This is sho
    setlocale(LC_ALL, 'nl_NL');
    
    /* Affiche : vrijdag 22 december 1978 */
-   echo strftime(%A %e %B %Y, mktime(0, 0, 0, 12, 22, 1978));
+   echo strftime("%A %e %B %Y", mktime(0, 0, 0, 12, 22, 1978));
    
    ?>
 
@@ -9163,8 +9245,8 @@ Interpolation is the PHP feature that automatically replaces variables and publi
 .. code-block:: php
    
    <?php
-   $string = world;
-   echo Hello $string;
+   $string = "world";
+   echo "Hello $string"; 
    // displays Hello world
    
    ?>
@@ -9221,7 +9303,7 @@ Exception thrown if an argument is not of the expected type. It is a LogicExcept
    function foo(string $a) {}
    
    // OK
-   foo(abc);
+   foo("abc");
    
    // KO : invalid argument
    foo(12);
@@ -9310,7 +9392,7 @@ An iterator may be turned into an array, with the iterator_to_array() function.
    
    foreach($it as $key => $value) {
        var_dump($key, $value);
-       echo \n;
+       echo "\n";
    }
    
    ?>
@@ -9347,7 +9429,7 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 .. code-block:: php
    
    <?php
-   $array = array('a' => 1, 'b' => c, 'c' => [3, 4], 'd' => new stdclass());
+   $array = array('a' => 1, 'b' => "c", 'c' => [3, 4], 'd' => new stdclass());
    
    echo json_encode($arr);
    // displays {"a":1,"b":"c","c":[3,4],"d":{}}
@@ -9725,7 +9807,7 @@ A list is also the name given to arrays where the index are the automatic ones.
    
    $rows = [[1,2], [3, 4]];
    foreach($rows as [$a, $b]) {
-       print $a + $b\n;
+       print "$a + $b\n";
    }
    
    // Only values are important here
@@ -9883,7 +9965,7 @@ Locale are supported with the ext/icu extension, and also, natively with the set
    setlocale(LC_ALL, 'nl_NL');
    
    /* Output: vrijdag 22 december 1978 */
-   echo strftime(%A %e %B %Y, mktime(0, 0, 0, 12, 22, 1978));
+   echo strftime("%A %e %B %Y", mktime(0, 0, 0, 12, 22, 1978));
    
    ?>
    
@@ -9934,7 +10016,7 @@ The logical operators work on various types, and output booleans. They are diffe
    <?php
    
    if ($a == $b) {
-       print a and b are equal;
+       print "a and b are equal";
    }
    ?>
 
@@ -9984,7 +10066,7 @@ Generators are closely related to the foreach() loop.
    <?php
    
    foreach([11,12,13] as $id => $value) {
-       print $id => $value\n;
+       print "$id => $value\n";
    }
    
    for ($i = 1; $i <= 10; $i++) {
@@ -10285,7 +10367,7 @@ MD5 was used a lot for secure hashing and control. Nowadays, it may be useful fo
    echo hash('md5', 'Le rapide goupil brun sauta par dessus le chien paresseux.');
    
    //Generate a MD5 hash with the history md5() native function
-   print md5(Some text.)
+   print md5("Some text.")
    
    ?>
 
@@ -10517,7 +10599,7 @@ Multibyte String
    
    <?php
    /* Convert EUC-JP to UTF-7 */
-   $str = mb_convert_encoding($str, UTF-7, EUC-JP);
+   $str = mb_convert_encoding($str, "UTF-7", "EUC-JP");
    ?>
    
 
@@ -10542,7 +10624,7 @@ PHP creates the arrays on the fly. When the intermediate array are undefined, PH
    
    $a = array(1 => array('a' => 1));
    
-   $a[1][b]['c'] = 3;
+   $a[1]["b"]['c'] = 3;
    
    print_r($a);
    
@@ -10627,7 +10709,7 @@ Methods like ``commit``, ``query``, ``prepare``, ``execute_query``, ``rollback``
        try {
    	    $mysqli->execute_query();
        } catch(mysqli_sql_exception $e) {
-           echo $e->getMessage().\n;
+           echo $e->getMessage()."\n";
        }
    ?>
 
@@ -10641,7 +10723,7 @@ Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`
 N+1 Query Problem
 -----------------
 
-The N+1 query problem is a term used in the context of database queries, often in the context of Object-Relational Mapping (ORM) systems. This issue arises when a program queries a database for a set of entities (usually rows from a table) and then, for each of those entities, issues an additional query to retrieve related data. This leads to a large number of individual queries being executed, which can result in poor performance and increased database load.
+The "N+1 query problem" is a term used in the context of database queries, often in the context of Object-Relational Mapping (ORM) systems. This issue arises when a program queries a database for a set of entities (usually rows from a table) and then, for each of those entities, issues an additional query to retrieve related data. This leads to a large number of individual queries being executed, which can result in poor performance and increased database load.
 
 Here's a breakdown of the issue:
 
@@ -10649,7 +10731,7 @@ Here's a breakdown of the issue:
 
 + Subsequent Queries (+1 queries): For each of the 'N' users, the program issues a separate query to fetch additional related data, such as user roles, posts, comments, etc. This results in an additional 'N' queries.
 
-As a result, you end up with a total of 'N+1' queries, hence the term N+1 query problem. This approach can cause significant performance issues, as executing many individual queries can be slower than fetching the required data in a more optimized way.
+As a result, you end up with a total of 'N+1' queries, hence the term "N+1 query problem". This approach can cause significant performance issues, as executing many individual queries can be slower than fetching the required data in a more optimized way.
 
 
 `Documentation <https://www.freecodecamp.org/news/n-plus-one-query-problem/>`__
@@ -10967,7 +11049,7 @@ Never is a typehint that explicitly set that a method will never return. It will
    <?php
    
    function foo($url) : never {
-       header(Location: $url);
+       header("Location: $url");
        exit();
    }
    
@@ -11311,7 +11393,7 @@ PHP includes a complete object model. Some of its features are: visibility, abst
    <?php
    
    foreach([11,12,13] as $id => $value) {
-       print $id => $value\n;
+       print "$id => $value\n";
    }
    
    for ($i = 1; $i <= 10; $i++) {
@@ -11524,7 +11606,7 @@ Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref
 Opcode
 ------
 
-Opcodes (short for operation codes) refer to low-level instructions that the PHP interpreter uses to execute PHP scripts. When PHP processes a code, it goes through several stages of compilation and interpretation. One of these stages involves translating the human-readable PHP source into a series of opcodes, which are then executed by the PHP engine.
+Opcodes (short for "operation codes") refer to low-level instructions that the PHP interpreter uses to execute PHP scripts. When PHP processes a code, it goes through several stages of compilation and interpretation. One of these stages involves translating the human-readable PHP source into a series of opcodes, which are then executed by the PHP engine.
 
 Generaly speaking, coders never come close to opcodes. The only occasion is when configuring the opcode cache: this cache keeps the generated opcodes in memory, and skips the stages of compilation as long as the source is not changed. 
 
@@ -11593,7 +11675,7 @@ The library is integrated into PHP as an extension. It provides a lot of functio
    // $data is assumed to contain the data to be signed
    
    // fetch private key from file and ready it
-   $pkeyid = openssl_pkey_get_private(file://src/openssl-0.9.6/demos/sign/key.pem);
+   $pkeyid = openssl_pkey_get_private("file://src/openssl-0.9.6/demos/sign/key.pem");
    
    // compute signature
    openssl_sign($data, $signature, $pkeyid);
@@ -11743,7 +11825,7 @@ The encoding of the incoming data are controlled with the `default_charset` dire
    <?php
    
    // raw text, for the browser
-   echo Hello world.;
+   echo "Hello world.";
    
    ?>
    
@@ -11772,7 +11854,7 @@ The OutOfRangeException is typically thrown when accessing an array or collectio
        // Adding 5 at index 2, while it should be added a 0 (empty list)
        $list->add(2,5);
    } catch (OutOfRangeException $e) {
-       echo Exception:.$e->getMessage().\n;
+       echo "Exception: ".$e->getMessage()."\n";
    }
    ?>
 
@@ -11868,7 +11950,7 @@ Pack() is a native PHP function which converts given arguments into a binary str
 .. code-block:: php
    
    <?php
-   $binarydata = pack(nvc*, 0x1234, 0x5678, 65, 66);
+   $binarydata = pack("nvc*", 0x1234, 0x5678, 65, 66);
    ?>
 
 
@@ -12036,7 +12118,7 @@ A ParseError is thrown when an error occurs while parsing PHP code, such as when
    try {
    	eval (' A A ');
    } catch (ParseError $e) {
-   	echo This is not PHP code;
+   	echo "This is not PHP code";
    }
    
    ?>
@@ -12219,7 +12301,7 @@ The PharException class is a phar-specific exception. It is raised my many Phar-
    try {
      $phar->extractTo($directory, 'directory/', true);
    } catch (PharException $ex) {
-       print An error happened while extracting the phar;
+       print "An error happened while extracting the phar";
    }
    
    ?>
@@ -12325,12 +12407,12 @@ Extensions are published in the PECL repository. Some are available by default, 
    <?php
    
    // Example with the ext/pspell extensions, for orthographic checks
-   $pspell = pspell_new(en);
+   $pspell = pspell_new("en");
    
-   if (pspell_check($pspell, testt)) {
-       echo This is a valid spelling;
+   if (pspell_check($pspell, "testt")) {
+       echo "This is a valid spelling";
    } else {
-       echo Sorry, wrong spelling;
+       echo "Sorry, wrong spelling";
    }
    ?>
    
@@ -12387,7 +12469,7 @@ The predefined exceptions are the exceptions that are built-in the PHP engine. T
    try {
    	throw new RuntimeException('one error!');
    } catch (Exception $e) {
-   	print Caught an exception of type.get_class($e)è;
+   	print "Caught an exception of type ".get_class($e)è;
    }
    
    ?>
@@ -12485,7 +12567,7 @@ Previously, PHP supported also Javascript-style and ASP-style tags, though these
    <?
      // This is the short PHP tag
    
-   ?><?= Hello world;
+   ?><?= "Hello world";
      // This is the short echo PHP tag
    
    ?>
@@ -12714,7 +12796,7 @@ Polyfill
 
 A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features. Polyfills are used to bridge the gap between the capabilities of modern web standards and the limitations of older browsers that might not fully support those standards.
 
-The term polyfill is a combination of poly (meaning many) and fill (meaning to provide what's missing). Essentially, a polyfill fills in the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
+The term "polyfill" is a combination of "poly" (meaning many) and "fill" (meaning to provide what's missing). Essentially, a polyfill "fills in" the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
 
 There are polyfills for PHP version, for specific extensions (in case they are not compiled with PHP) or component versions.
 
@@ -12830,7 +12912,7 @@ Other constants come from extensions : for example, the Math extension defines M
    
    <?php
    
-   echo This is PHP.PHP_VERSION;
+   echo "This is PHP ".PHP_VERSION;
    
    ?>
 
@@ -13270,7 +13352,7 @@ RangeException are defined by the SPL extension. It is use by the SplStack class
        $var = new SplStack();
        $var->offsetSet(100,new DateTime('2000-01-01'));
    } catch(OutOfRangeException $e) {
-       print $e->getMessage().\n;
+       print $e->getMessage()."\n";
    }
    ?>
 
@@ -13351,12 +13433,12 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
       }
    }
    
-   $test = new Test(foobar);
+   $test = new Test("foobar");
    // Legal read.
-   var_dump($test->prop); // string(6) foobar
+   var_dump($test->prop); // string(6) "foobar" 
    
    // Illegal reassignment. It does not matter that the assigned value is the same.
-   $test->prop = foobar;
+   $test->prop = "foobar";
    // Error: Cannot modify readonly property Test::$prop
    ?>
 
@@ -13716,9 +13798,9 @@ Loose comparison is know to have changed significantly in PHP 8.0 : in particula
    <?php
    
    //true
-   var_dump(1 == 1);
+   var_dump(1 == "1");
    //false
-   var_dump(1 === 1);
+   var_dump(1 === "1");
    
    //false
    var_dump(1 > 'a');
@@ -13759,7 +13841,7 @@ PHP offers xml-rpc, grpc, protocolbuffers and yar offers different standard way 
 .. code-block:: php
    
    <?php
-   $params = array ( one=>red,two=>blue,three=>green );
+   $params = array ( "one"=>"red","two"=>"blue","three"=>"green" );
    
    $response = xmlrpc_encode ( $params );
    
@@ -13789,8 +13871,8 @@ For example, rendering an HTML page, javascript, PDF, YAML, etc..
    
    <?php
    
-   $name = elephpant;
-   $template = Hello NAME;
+   $name = "elephpant";
+   $template = "Hello NAME";
    
    // very simple rendering
    
@@ -13800,7 +13882,7 @@ For example, rendering an HTML page, javascript, PDF, YAML, etc..
    
 
 
-Related : :ref:`View <view>`, :ref:`Template <template>`
+Related : :ref:`View <view>`, 
 
 Related packages : `friendsofcake/cakepdf <https://packagist.org/packages/friendsofcake/cakepdf>`_
 
@@ -14021,7 +14103,7 @@ Return value is the value returned, at the end of a method call. That value may 
    }
    
    function goo() : never {
-       throw new Exception(Error);
+       throw new Exception("Error");
    }
    
    function hoo() : void {
@@ -14125,7 +14207,7 @@ Sanitation is the process to clean data and remove any unwanted parts. The data 
    
    <?php
    
-   echo 'TRANSLIT : ', iconv(UTF-8, ISO-8859-1//TRANSLIT, $text), PHP_EOL;
+   echo 'TRANSLIT : ', iconv("UTF-8", "ISO-8859-1//TRANSLIT", $text), PHP_EOL;
    
    ?>
 
@@ -14412,7 +14494,7 @@ Semicolons may be omitted, before a closing PHP tag.
    
    // multi-statement usage in for()
    for($i = 0, $j = 0; $i < 10; ++$i, ++$j) {
-   	print $i $j\n;
+   	print "$i $j\n";
    }
    
    switch($a) {
@@ -14534,11 +14616,11 @@ It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal vari
    <?php
    
    if (isset($_SESSION['x'])) {
-       print x was already set with the value.$_SESSION['x'];
+       print "x was already set with the value ".$_SESSION['x'];
    }
    
    $_SESSION['x'] = rand(0, 10);
-   print Giving the value.$_SESSION['x'].to x, in the session\n;
+   print "Giving the value ".$_SESSION['x']." to x, in the session\n";
    
    ?>
 
@@ -14599,7 +14681,7 @@ Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone <-__clone>`, :ref:`
 Short Assignations
 ------------------
 
-In addition to the basic assignment operator, there are combined operators for all of the binary arithmetic, array union and string operators that allow you to use a value in an expression and then set its value to the result of that expression.
+In addition to the basic assignment operator, there are "combined operators" for all of the binary arithmetic, array union and string operators that allow you to use a value in an expression and then set its value to the result of that expression.
 
 .. code-block:: php
    
@@ -14811,13 +14893,13 @@ A simple switch is a switch where all the cases are simple literals. This helps 
    
    switch ($i) {
        case 0:
-           echo i equals 0;
+           echo "i equals 0";
            break;
        case 1:
-           echo i equals 1;
+           echo "i equals 1";
            break;
        case 2:
-           echo i equals 2;
+           echo "i equals 2";
            break;
    }
    
@@ -14842,7 +14924,7 @@ The SimpleXML extension provides a very simple and easily usable toolset to conv
 .. code-block:: php
    
    <?php
-   $books = new SimpleXMLElement('<?xml version=1.0?>
+   $books = new SimpleXMLElement('<?xml version="1.0"?>
    <books>
    <book>
    <title>Les miserables</title>
@@ -15273,7 +15355,7 @@ Among the solutions to mitigate this problem : filter adequately the incoming da
    <?php
    
    // $_GET['name'] = '" OR 1 = 1 OR "';
-   $SQL_query = "SELECT * FROM users WHERE name=\"".$_GET['name']."\" AND password=\\.$_GET['pass']."\\;
+   $SQL_query = "SELECT * FROM users WHERE name=\\".$_GET['name']."\\" AND password=\".$_GET['pass']."\"";
    
    $connexion->query($SQL_query);
    
@@ -15351,7 +15433,7 @@ SSL is a PHP context for sockets, and share the configuration options with TLS.
    $context = stream_context_create( array( 'ssl' => ['local_cert'=> $certificate_path], )));
    
    if ($fp = stream_socket_client('ssl://'.$host.':'.$port, $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $context)) {
-       fwrite($fp, \n);
+       fwrite($fp, "\n");
    } else {
       echo "Error: $errno - $errstr\n";
    }
@@ -15650,7 +15732,7 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
            $this->a = 1;
            
            // dynamic property with variable name 
-           $b = abc;
+           $b = "abc";
            $this->$b = 1; 
            
            // static property
@@ -15728,9 +15810,9 @@ Here are the strict operators : ``==`` may be replaced with ``===``,  ``!=`` may
    <?php
    
    //true
-   var_dump(1 == 1);
+   var_dump(1 == "1");
    //false
-   var_dump(1 === 1);
+   var_dump(1 === "1");
    
    //true
    var_dump(null == 0);
@@ -15814,7 +15896,7 @@ There are several ways to do interpolation :
 + use curly braces with a variable
 + use dollar and curly-braces : it calls the variable whose name is dynamically calculated in the curly braces. This syntax is deprecated in PHP 8.2 and later.
 
-Double quotes and Heredoc notation allows string interpolation. On the other hand, single quote and nowdoc forbid interpolation. Then, escaping the special characters such as `$` and `{` with `\\` also disables interpolation locally.
+Double quotes and Heredoc notation allows string interpolation. On the other hand, single quote and nowdoc forbid interpolation. Then, escaping the special characters such as `$` and `{` with `\\\\` also disables interpolation locally.
 
 Interpolation happens inside strings, while concatenation happens between strings.
 
@@ -15826,7 +15908,7 @@ Interpolation happens inside strings, while concatenation happens between string
    
    $world = 'world';
    // This is an interpolated string
-   $string = Hello $world;
+   $string = "Hello $world";
    
    // This is not an interpolated string
    $string = 'Hollow $world';
@@ -15955,7 +16037,7 @@ PHP provides several superglobal variables, each serving a specific purpose. Her
 
     $_SESSION: Stores and retrieves session variables, which are used to persist data across multiple requests from the same user.
 
-    $_FILES: Contains information about uploaded files through an HTML form with enctype=multipart/form-data.
+    $_FILES: Contains information about uploaded files through an HTML form with enctype="multipart/form-data".
 
     $_ENV: Holds variables passed to the PHP script from the server's environment.
 
@@ -15966,7 +16048,7 @@ PHP provides several superglobal variables, each serving a specific purpose. Her
    <?php
    
    global $x;
-   $x = A;
+   $x = "A";
    
    function counter() {
        echo $GLOBALS['A'];
@@ -16319,36 +16401,6 @@ Related : :ref:`Socket <socket>`
 
 Related packages : `https://packagist.org/packages/react/socket <https://packagist.org/packages/https://packagist.org/packages/react/socket>`_
 
-.. _template:
-
-Template
---------
-
-A template is a preset document, filled with values in placeholders, to display the resulting data. This is also called a view.
-
-PHP used to be known as a template engine. Nowadays, template engines are written in PHP. 
-
-Templates may be produced in any file format : HTML, CSS, Javascript, JSON, PDF, URL, etc. 
-
-Template may be large : they are then broken down into smaller and reusable sub-templates.
-
-Some template packages : Twig, Latte, Blade, smarty.
-
-
-.. code-block:: php
-   
-   
-   <?php
-   
-   // piece 
-   echo <h1>.$name.</h1>;
-   
-   ?>
-   
-
-
-Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_
-
 .. _ternary:
 .. _ternary-operator:
 
@@ -16408,7 +16460,7 @@ Related : :ref:`Continuous Integration <ci>`
 Test Pyramid
 ------------
 
-The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy. It was popularized by Mike Cohn in his book Succeeding with Agile. The Test Pyramid is used to illustrate the recommended proportions of various levels of testing in an application, with the goal of achieving effective test coverage while keeping testing efforts manageable and efficient.
+The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy. It was popularized by Mike Cohn in his book "Succeeding with Agile." The Test Pyramid is used to illustrate the recommended proportions of various levels of testing in an application, with the goal of achieving effective test coverage while keeping testing efforts manageable and efficient.
 
 `Documentation <https://martinfowler.com/articles/practical-test-pyramid.html>`__
 
@@ -16586,9 +16638,9 @@ TLS is a PHP context for sockets, and share the configuration options with SSL.
    $context = stream_context_create( array( 'tls' => ['local_cert'=> $certificate_path], )));
    
    if ($fp = stream_socket_client('tlsv1.2://'.$host.':'.$port, $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $context)) {
-       fwrite($fp, \n);
+       fwrite($fp, "\n");
    } else {
-      echo Error: $errno - $errstr\n;
+      echo "Error: $errno - $errstr\n";
    }
    
    ?>
@@ -16696,7 +16748,7 @@ Related : :ref:`Classes <class>`, :ref:`Use <use>`
 Transpile
 ---------
 
-Transpiling, short for source-to-source compiling, is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language. This is typically done to make code compatible with a different runtime environment, platform, or version of a language.
+Transpiling, short for "source-to-source compiling," is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language. This is typically done to make code compatible with a different runtime environment, platform, or version of a language.
 
 Transpilation is often used in the context of modern web development. For example, many developers write code using newer features of JavaScript, which may not be supported by older web browsers. In such cases, the code can be transpiled to an older version of JavaScript that is more widely supported.
 
@@ -16721,7 +16773,7 @@ The traversable interface is used for typing purposes.
    try {
        doSomething();
    } catch (\Traversable $e) {
-       print Some error was raised during processing :. $e::class;
+       print "Some error was raised during processing : ". $e::class;
    }
    
    ?>
@@ -16756,7 +16808,7 @@ Traversal of a tree or graph datastructure turns the graph into a array-like lis
    $array = range(0, 9);
    
    foreach($array as $item) {
-   	print $item\n;
+   	print "$item\n";
    	// list digits from 0 to 9
    }
    
@@ -16766,7 +16818,7 @@ Traversal of a tree or graph datastructure turns the graph into a array-like lis
    
    $iterator = new RecursiveArrayIterator($array);
    foreach($iterator as $item) {
-   	print $item\n;
+   	print "$item\n";
    	// list digits from 0 to 12
    }
    
@@ -16842,7 +16894,7 @@ PHP is a dynamically typed language, which means that variable types are not exp
    try {
        foo('a');
    } catch (TypeError $e) {
-       print Wrong type of data\n;
+       print "Wrong type of data\n";
    }
    
    ?>
@@ -16870,7 +16922,7 @@ Type juggling is usually done automatically, without user intervention. Explicit
    
    <?php
    
-   $a = 35;
+   $a = "35";
    echo $a + 4; // display 39
    
    echo substr($a, -1); // display 5
@@ -16937,7 +16989,7 @@ In other situations, PHP applies some type juggling, and automatically convert t
    
    // PHP convert the integer 12 to the string '12', to allow the concatenation to proceed. 
    $number = 12;
-   print There are.$number.apple in the tree.;
+   print "There are ".$number." apple in the tree.";
    
    
    ?>
@@ -17051,8 +17103,8 @@ Instead of finishing the ``match`` expression without any returned value, it thr
    <?php
    
    $b = match(3) {
-       1 => A,
-       2 => b;
+       1 => "A",
+       2 => "b";
    };
    
    
@@ -17518,7 +17570,7 @@ Validation is also called filtering.
    <?php
    
    if (intval($string) > 0) {
-       print The string is an integer;
+       print "The string is an integer";
    }
    
    ?>
@@ -17577,7 +17629,7 @@ It is a PHP error, and not an exception, it is thrown by PHP native functions.
    
    // Third argument is for the starting offset. Here, this is beyond the end of the string
    // as such, the offset has a valid type (integer), but its value is not correct (out of range)
-   $a = strpos(p, php, 16);
+   $a = strpos("p", "php", 16);
    
    ?>
 
@@ -17870,7 +17922,7 @@ Views are also synonym of renderer or template.
 
 
 
-Related : :ref:`MVC <mvc>`, :ref:`Template <template>`
+Related : :ref:`MVC <mvc>`, 
 
 .. _visibility:
 
@@ -18017,7 +18069,7 @@ Part of the block execution may be skipped by using the `continue` keyword.
    
    $i = 0;
    while($i < 10) {
-   	print $i\n;
+   	print "$i\n";
    }
    
    ?>
@@ -18093,7 +18145,7 @@ The XMLReader extension is an XML Pull parser. The reader acts as a cursor going
    
    <?php
    //creating an XML documents that is to be parsed using XML reader to retrieve the contents
-   $xmlDocument = '<?xml version=1.0?>
+   $xmlDocument = '<?xml version="1.0"?>
    <books>
    <book>
    <title>Les miserables</title>
@@ -18112,7 +18164,7 @@ The XMLReader extension is an XML Pull parser. The reader acts as a cursor going
    $xml = new XMLReader();
    $xml->XML($xmlDocument);
    //parsing the contents of the XML document and retrieving the required contents from the document
-   echo List of the book titles:\n;
+   echo "List of the book titles:\n";
    while( $xml->read() )
    {
        if ($xml->name === 'title') {
@@ -18230,8 +18282,8 @@ YAML
    
    $yaml = <<<YAML
    ---
-   title: The title
-   date: 2001-01-23
+   title: "The title" 
+   date: "2001-01-23" 
    amount: 251.420000
    ...
    YAML;
@@ -18362,7 +18414,7 @@ Zombie code slows down the application, yet are logged as being used. They are a
    $capitalized = ucfirst(strtolower($name));
    
    // $capitalized is not used later in the code. 
-   echo Hello $name\n;
+   echo "Hello $name\n";
    
    ?>
 
@@ -18394,7 +18446,7 @@ It may be access with debug_zval_dump() function, for debugging purposes. It is 
    
    debug_zval_dump($var1);
    
-   // displays string(11) Hello World refcount(3)
+   // displays string(11) "Hello World" refcount(3)
    
    ?>
 
