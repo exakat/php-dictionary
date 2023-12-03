@@ -1,8 +1,6 @@
 PHP Dictionary
 ++++++++++++++
 
-* 
-   * :ref:` <template>`
 * $
    * :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`
    * :ref:`$_FILES <$_files>`
@@ -16,8 +14,8 @@ PHP Dictionary
 * .
    * :ref:`.htaccess <htaccess>`
 * _
-   * :ref:`__call() method <-__call>`
-   * :ref:`__callStatic() method <-__callStatic>`
+   * :ref:`__call() Method <-__call>`
+   * :ref:`__callStatic() Method <-__callStatic>`
    * :ref:`__clone <-__clone>`
    * :ref:`__get() method <-__get>`
    * :ref:`__halt_compiler() <halt-compiler>`
@@ -93,6 +91,7 @@ PHP Dictionary
    * :ref:`CSV <csv>`
    * :ref:`CSV injection <csv-injection>`
    * :ref:`CVS <cvs>`
+   * :ref:`Cache <cache>`
    * :ref:`Callables <callable>`
    * :ref:`Callback <callback>`
    * :ref:`Case <case>`
@@ -166,6 +165,7 @@ PHP Dictionary
    * :ref:`DTO <dto>`
    * :ref:`Dangling Reference <dangling-reference>`
    * :ref:`Data <data>`
+   * :ref:`Data Container <data-container>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
    * :ref:`Database <database>`
@@ -361,6 +361,7 @@ PHP Dictionary
    * :ref:`Magic Constants <magic-constant>`
    * :ref:`Magic Hash <magic hash>`
    * :ref:`Magic Methods <magic-method>`
+   * :ref:`Magic Numbers <magic-number>`
    * :ref:`Magic Property <magic-property>`
    * :ref:`Map <map>`
    * :ref:`Markdown <markdown>`
@@ -389,8 +390,7 @@ PHP Dictionary
    * :ref:`Native <native>`
    * :ref:`Nested Attributes <nested-attributes>`
    * :ref:`Nesting <nesting>`
-   * :ref:`Never <never>`
-   * :ref:`Never Typehint <never-typehint>`
+   * :ref:`Never Type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Nowdocs <nowdoc>`
@@ -442,6 +442,7 @@ PHP Dictionary
    * :ref:`PHP tags <php-tag>`
    * :ref:`PHP-FPM <fpm>`
    * :ref:`PHPdoc <phpdoc>`
+   * :ref:`PHPunit <phpunit>`
    * :ref:`Packagist <packagist>`
    * :ref:`Pagination <pagination>`
    * :ref:`Parallel <parallel>`
@@ -478,7 +479,7 @@ PHP Dictionary
    * :ref:`php.ini <php.ini>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
-   * :ref:`print_r function <print_r>`
+   * :ref:`print_r() <print_r>`
 * Q
    * :ref:`Queue <queue>`
 * R
@@ -546,6 +547,7 @@ PHP Dictionary
    * :ref:`Short Ternary Operator <short-ternary>`
    * :ref:`Shutdown Function <shutdown-function>`
    * :ref:`Signature <signature>`
+   * :ref:`Silent Behavior <silent>`
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`Simple Switch <simple-switch>`
    * :ref:`SimpleXML <simplexml>`
@@ -592,8 +594,10 @@ PHP Dictionary
    * :ref:`TCP <tcp>`
    * :ref:`TLS <tls>`
    * :ref:`Task Runner <task-runner>`
+   * :ref:`Template <template>`
    * :ref:`Ternary Operator <ternary>`
    * :ref:`Test <test>`
+   * :ref:`Test Data Provider <test-data-provider>`
    * :ref:`Test Pyramid <test-pyramid>`
    * :ref:`Thread <thread>`
    * :ref:`Three dots <three-dots>`
@@ -625,7 +629,7 @@ PHP Dictionary
    * :ref:`Universal Resource Locator (URL) <url>`
    * :ref:`Unpacking <unpacking>`
    * :ref:`Unreachable Code <unreachable-code>`
-   * :ref:`Unsserialization <unserialization>`
+   * :ref:`Unserialization <unserialization>`
    * :ref:`Unused <unused>`
    * :ref:`Upgrade <upgrade>`
    * :ref:`Use <use>`
@@ -648,6 +652,7 @@ PHP Dictionary
    * :ref:`View In Presentation <view-presentation>`
    * :ref:`Visibility <visibility>`
    * :ref:`Void <void>`
+   * :ref:`var_dump() <var_dump>`
    * :ref:`variable_order <variable_order>`
 * W
    * :ref:`Weak References <weak-reference>`
@@ -670,36 +675,6 @@ PHP Dictionary
 
 
 
-
-.. _template:
-
-
-
-
-A template is a preset document, filled with values in placeholders, to display the resulting data. This is also called a view.
-
-PHP used to be known as a template engine. Nowadays, template engines are written in PHP. 
-
-Templates may be produced in any file format : HTML, CSS, Javascript, JSON, PDF, URL, etc. 
-
-Template may be large : they are then broken down into smaller and reusable sub-templates.
-
-Some template packages : Twig, Latte, Blade, smarty.
-
-
-.. code-block:: php
-   
-   
-   <?php
-   
-   // piece 
-   echo "<h1>".$name."</h1>";
-   
-   ?>
-   
-
-
-Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_
 
 .. _$_files:
 
@@ -734,7 +709,7 @@ When a file upload form is submitted, PHP populates the ``$_FILES`` variable wit
 
 See also `POST method uploads <https://www.php.net/manual/en/features.file-upload.post-method.php>`_
 
-Related : :ref:`File Upload <upload>`
+Related : :ref:`File Upload <upload>`, :ref:`$_GET <$_get>`
 
 .. _$_get:
 
@@ -979,7 +954,7 @@ The .htaccess file is a configuration file used in web servers that support the 
 
 .. _-__call:
 
-__call() method
+__call() Method
 ---------------
 
 __call() is a magic method : it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
@@ -1016,11 +991,13 @@ The __call() method has a related version for static methods, called `__callStat
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() method <-__callStatic>`
+See also `PHP _call (Lesson 3: PHP Magic Methods) <https://dev.to/cleancodestudio/php-call-lesson-3-php-magic-methods-5bi0>`_
+
+Related : :ref:`__callStatic() Method <-__callStatic>`, :ref:`Magic Methods <magic-method>`
 
 .. _-__callStatic:
 
-__callStatic() method
+__callStatic() Method
 ---------------------
 
 __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
@@ -1057,7 +1034,9 @@ The __call() method has a related version for static methods, called `__callStat
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() method <-__callStatic>`
+See also `Understand more magic methods: __callStatic() <https://dev.to/ngodinhcuong/understand-more-magic-methods-callstatic-2828>`_
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() Method <-__callStatic>`, :ref:`__call() Method <-__call>`
 
 .. _-__clone:
 
@@ -1126,7 +1105,7 @@ The __get() method is usually paired with the __set() method.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__set() method <-__set>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__set() method <-__set>`, :ref:`__isset() method <-__isset>`
 
 .. _halt-compiler:
 
@@ -1169,7 +1148,11 @@ Note : this is the documentation from PHP.net.
 __invoke
 --------
 
-The __invoke() magic method is called when a script tries to call an object as a function.
+The __invoke() magic method is called when a script calls an object as a function. This type of class is also called a functor. 
+
+The method is able to take an arbitrary number of argument. 
+
+When a class has the ``__invoke`` class, it is possible to can a method without mentioning its name: the object is the method.
 
 
 .. code-block:: php
@@ -1183,6 +1166,7 @@ The __invoke() magic method is called when a script tries to call an object as a
    	        var_dump($x);
    	    }
    	}
+   
    	$obj = new CallableClass;
    	$obj(5);
    	var_dump(is_callable($obj));
@@ -1190,6 +1174,8 @@ The __invoke() magic method is called when a script tries to call an object as a
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.invoke>`__
+
+See also `PHP __invoke <https://www.phptutorial.net/php-oop/php-__invoke/>`_
 
 Related : :ref:`Magic Methods <magic-method>`
 
@@ -1263,7 +1249,7 @@ If no array is returned a ``TypeError`` will be thrown.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.serialize>`__
 
-Related : :ref:`Unsserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`
+Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`
 
 .. _-__set:
 
@@ -1302,7 +1288,7 @@ The __set() method is usually paired with the __get() method.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__get() method <-__get>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__get() method <-__get>`, :ref:`__isset() method <-__isset>`
 
 .. _-__set_state:
 
@@ -1466,7 +1452,7 @@ The __unserialize() magic method is called when a script tries to construct an o
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.unserialize>`__
 
-Related : :ref:`Unsserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Serialization <serialize>`, :ref:`__serialize <-__serialize>`
+Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Serialization <serialize>`, :ref:`__serialize <-__serialize>`
 
 .. _-__wakeup:
 
@@ -1707,9 +1693,10 @@ References are also considered an alias, as they stand for a variable with anoth
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`Use Alias <use-alias>`, , :ref:`Insteadof <insteadof>`, :ref:`References <reference>`
+Related : :ref:`Use Alias <use-alias>`, :ref:`Alias Types <type-alias>`, :ref:`Insteadof <insteadof>`, :ref:`References <reference>`
 
 .. _alias-types:
+.. _type-alias:
 
 Alias Types
 -----------
@@ -1950,7 +1937,7 @@ There are several API protocols : REST, RPC, GraphQL and SOAP.
 
 `Documentation <https://en.wikipedia.org/wiki/API>`__
 
-Related : :ref:`REST API <rest-api>`, , :ref:`GraphQL <graphql-api>`, 
+Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`
 
 .. _apm:
 
@@ -2852,7 +2839,7 @@ Booleans have a related scalar typehint : ``bool``. There is also a special ``fa
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-Related : :ref:`Type Juggling <type-juggling>`
+Related : :ref:`Type Juggling <type-juggling>`, :ref:`Scalar Types <scalar-typehint>`
 
 .. _break:
 
@@ -2896,6 +2883,36 @@ Bucket
 The term ``bucket`` is not commonly associated with a specific concept. In a more general sense, the term ``bucket`` is often used in the context of data structures and algorithms to refer to a container or a storage space for holding elements.
 
 For example, in the context of hashing or hash tables, a ``bucket`` may be used to describe the individual storage locations where key-value pairs are stored. When a hash collision occurs (two keys hash to the same location), the elements with the same hash value are often placed in a bucket, which is a data structure that allows multiple elements to be stored at the same location.
+
+.. _cache:
+
+Cache
+-----
+
+Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance.
+
+There are different types of caches, depending on where they are applied: opcode cache, data cache, query cache, etc.
+
+.. code-block:: php
+   
+   <?php
+   
+   $count = count($array);
+   // $count is a cache for the number of elements in the array
+   // it saves a call to count() for every loop
+   
+   for($i = 0; $i < $count; ++$i) {
+   	doSomething($i);
+   }
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Cache_(computing)>`__
+
+See also `PHP cache <https://www.php-cache.com/en/latest/>`_
+
+Related : :ref:`Memoization <memoization>`
 
 .. _callable:
 
@@ -3064,9 +3081,9 @@ Multiple catches may be used. They are applied in the order of coding, and the f
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_\
+See also `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_
 
-Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`
+Related : :ref:`Try-catch <try-catch>`, :ref:`Finally <finally>`, :ref:`Throwable <throwable>`
 
 .. _cgi:
 
@@ -3267,7 +3284,7 @@ Getters are usually created with a setter method.
 
 `Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
 
-Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`
+Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Wither Method <wither>`
 
 Added in PHP 5.0+
 
@@ -3405,7 +3422,7 @@ Setters are usually created with a getter method.
 
 See also `What are getters and setters methods in PHP? <https://www.tutorialspoint.com/what-are-getters-and-setters-methods-in-php>`_
 
-Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`
+Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`, :ref:`Class Wither Method <wither>`
 
 Added in PHP 5.0+
 
@@ -3504,6 +3521,8 @@ Basic class definitions begin with the keyword class, followed by a class name, 
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php>`__
+
+Related : :ref:`Class Wither Method <wither>`
 
 Added in PHP 4.0+
 
@@ -4338,10 +4357,11 @@ There are several usage of container:
 
 + PHP docker container
 + Dependency injection container
++ Any structure that stores data in PHP : variable, properties, arrays. 
 
 
 
-Related : :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`PHP Docker Container <php-docker-container>`
+Related : :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`PHP Docker Container <php-docker-container>`, :ref:`Data Container <data-container>`
 
 .. _continue:
 
@@ -4997,6 +5017,26 @@ Data may be structured or unstructured, raw or processed, unsecure or validated.
 
 Related : :ref:`Data <data>`, :ref:`Format <format>`
 
+.. _data-container:
+
+Data Container
+--------------
+
+A data container is a structure that stores data. It is a generic concept, that covers variables, properties and arrays. 
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 1;
+   $object->property = 'b';
+   $array = ['a', 3, 4.4];
+   
+   ?>
+
+
+Related : :ref:`Container <container>`
+
 .. _data-mapper:
 .. _object-mapper:
 
@@ -5594,6 +5634,7 @@ Dereferencing is also possible to function and methods calls : when a function r
        return ['x', 'y', 'z'];
    }
    
+   // Function Array Dereferencing
    foo()[2]; // display z
    
    ?>
@@ -5601,7 +5642,7 @@ Dereferencing is also possible to function and methods calls : when a function r
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functionarraydereferencing>`_, `Array Dereferencing in PHP <https://xpertdeveloper.com/php-array-dereferencing/>`_
+See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functionarraydereferencing>`_, `Array Dereferencing in PHP <https://xpertdeveloper.com/php-array-dereferencing/>`_, `Function Array Dereferencing in PHP (example 8) <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax>`_
 
 Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <object>`
 
@@ -6927,7 +6968,7 @@ Related : :ref:`implements <implements>`
 Extensions
 ----------
 
-Extensions are a custom way to add features to software. 
+Extensions are a custom way to add features to software. Extension is a very generic concept, with broad usage. 
 
 + PHP extensions
 + Extensions (concept)
@@ -7201,7 +7242,7 @@ The final keyword cannot be used with the private keyword : a private method is 
 
 See also `Final Classes: Open for Extension, Closed for Inheritance <https://verraes.net/2014/05/final-classes-in-php/>`_
 
-Related : :ref:`Private Visibility <private>`
+Related : :ref:`Overwrite <overwrite>`, :ref:`Private Visibility <private>`, :ref:`Abstract Class <abstract-class>`, :ref:`Abstract Keyword <abstract>`
 
 Added in PHP 7.0
 
@@ -8701,7 +8742,13 @@ Inclusion is often hidden in autoload() functions : the code is included class p
 Inclusions
 ----------
 
-Including a PHP file into another PHP file. This is usually isolated into the autoloading feature.
+Inclusion is the operation to add PHP code stored in an external file, into another PHP code. 
+
+Inclusions rely on four native functions: ``include``, ``require``, ``include_once``, ``require_once``. 
+
+Inclusions have application with templates, configurations, caches, function libraries. 
+
+Inclusions have been superseeded by autoload in recent PHP versions. Autoload relies on inclusion, though.
 
 .. code-block:: php
    
@@ -8717,6 +8764,10 @@ Including a PHP file into another PHP file. This is usually isolated into the au
 
 
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
+
+See also `PHP Include & Require : All about Include vs Require in PHP <https://www.simplilearn.com/tutorials/php-tutorial/include-in-php>`_
+
+Related : :ref:`Class Autoloading <autoload>`
 
 Added in PHP 8.0+
 
@@ -8947,7 +8998,7 @@ Inheritance is a mechanism where you can to derive a class from another class fo
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_\
+See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_
 
 Related : :ref:`Classes <class>`
 
@@ -10216,7 +10267,43 @@ The constructor and destructors are not considered as magic methods, even though
 
 See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_, `PHP Magic Methods Explained <https://atakde.medium.com/php-magic-methods-explained-bac7053c007d>`_
 
-Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() method <-__call>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, :ref:`__toString() method <-__tostring>`, :ref:`__invoke <-__invoke>`, :ref:`__set_state() method <-__set_state>`
+Related : :ref:`__get() method <-__get>`, :ref:`__set() method <-__set>`, :ref:`__call() Method <-__call>`, :ref:`__isset() method <-__isset>`, :ref:`__clone <-__clone>`, :ref:`__callStatic() Method <-__callStatic>`, :ref:`__isset() method <-__isset>`, :ref:`__sleep() method <-__sleep>`, :ref:`__wakeup() <-__wakeup>`, :ref:`__toString() method <-__tostring>`, :ref:`__invoke <-__invoke>`, :ref:`__set_state() method <-__set_state>`
+
+.. _magic-number:
+
+Magic Numbers
+-------------
+
+A magic number is a number that appears in the code, and has no obvious signification. 
+
+It is recommended to make the meaning of that number obvious. This is achieved by using constants, class or global, where the name of the constant improves readability.
+
+Magic numbers also applies to other literal values, such as string, float, arrays. Though, they are more difficult to sort out of the code.
+
+Magic numbers are difficult to categorize, when they are very common across different fields. For example, 0, 1, 2, 10 are very common for different tasks, and may need several disambiguations.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   foreach($array as $id => $values) {
+   	// Only displaying 10 values, but couldn't that limit be parametered?
+   	if ($id > 10) {
+   		break;
+   	}
+   	
+   	print $values.PHP_EOL;
+   }
+   
+   ?>
+
+
+`Documentation <https://en.wikipedia.org/wiki/Magic_number_(programming)>`__
+
+See also `What are PHP Magic Numbers, and how to find and remove them <https://medium.com/@yourpropertyexpert/what-are-php-magic-numbers-and-how-to-find-and-remove-them-d47a616261cc>`_, `Replace Magic Number with Symbolic Constant <https://refactoring.guru/replace-magic-number-with-symbolic-constant>`_
+
+Related packages : `povils/phpmnd <https://packagist.org/packages/povils/phpmnd>`_
 
 .. _magic-property:
 
@@ -10326,7 +10413,7 @@ The ``match`` expression is the remote cousin of the ``switch``. It takes a valu
 
 See also `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
 
-Related : :ref:`Switch <switch>`, :ref:`If Then Else <if-then>`
+Related : :ref:`Switch <switch>`, :ref:`Default <default>`, :ref:`If Then Else <if-then>`
 
 Added in PHP 8.0
 
@@ -10556,7 +10643,7 @@ Mock objects are also called ``test double``.
 
 See also `Test doubles <https://phpunit.readthedocs.io/en/9.5/test-doubles.html>`_, `Mocking <https://laravel.com/docs/9.x/mocking>`_, `Avoid mocking repositories by using in-memory implementations <https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html>`_
 
-Related : 
+Related : :ref:`Test Data Provider <test-data-provider>`
 
 Related packages : `mockery/mockery <https://packagist.org/packages/mockery/mockery>`_, `phpspec/prophecy <https://packagist.org/packages/phpspec/prophecy>`_
 
@@ -10583,7 +10670,7 @@ In the PHP world, modules often refers to specfic frameworks' component : for ex
 
 See also `Download & Extend <https://www.drupal.org/project/project_module>`_
 
-Related : :ref:`Plugin <plug-in>`, :ref:`Extensions <extension>`, 
+Related : :ref:`Plugin <plug-in>`, :ref:`Extensions <extension>`
 
 .. _mbstring:
 .. _multibyte-string:
@@ -11013,11 +11100,12 @@ Nesting creates more complex and intricate logic. It usually erodes readability 
 See also `PHP Nested Try-Catch <https://rollbar.com/blog/php-nested-try-catch/#>`_
 
 .. _never:
+.. _never-typehint:
 
-Never
------
+Never Type
+----------
 
-A special return type that signals a method that never returns : only dies or throw an exception.
+``never`` is a special return type that signals a method that never returns : it only dies or throws an exception.
 
 .. code-block:: php
    
@@ -11033,34 +11121,11 @@ A special return type that signals a method that never returns : only dies or th
 
 `Documentation <https://wiki.php.net/rfc/noreturn_type>`__
 
-Related : :ref:`Type system <type>`
+See also `The "never" Return Type for PHP <https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303>`_
+
+Related : :ref:`Type system <typehint>`, :ref:`Type system <type>`
 
 Added in PHP 8.1+
-
-.. _never-typehint:
-
-Never Typehint
---------------
-
-Never is a typehint that explicitly set that a method will never return. It will end the execution or throw an exception.
-
-.. code-block:: php
-   
-   <?php
-   
-   function foo($url) : never {
-       header("Location: $url");
-       exit();
-   }
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
-
-Related : :ref:`Type system <typehint>`
-
-Added in PHP 8.1
 
 .. _new:
 .. _instantiation:
@@ -11483,6 +11548,8 @@ This feature break OOP encapsulation : even when using private visibility, it is
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`__
 
+Related : :ref:`__set_state() method <-__set_state>`
+
 Related packages : `spatie/invade <https://packagist.org/packages/spatie/invade>`_
 
 .. _object-nullsafe-operator:
@@ -11779,6 +11846,8 @@ An operator is something that takes one or more values (or expressions, in progr
 
 `Documentation <https://www.php.net/manual/en/language.operators.php>`__
 
+Related : :ref:`Short Tags <short-tag>`, :ref:`Short Syntax <short-syntax>`
+
 .. _optional-parameter:
 
 Optional Parameter
@@ -11978,11 +12047,13 @@ Related : :ref:`Packagist <packagist>`, :ref:`Composer <composer>`
 Pagination
 ----------
 
-Pagination is the process to break down a list into smaller partitions, to ease navigation.
+Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages. This is especially useful when dealing with long lists, tables, or search results, as it enhances user experience and reduces the amount of data loaded at once. Pagination is commonly seen in search engine results, product listings, blog archives, and other scenarios where content needs to be organized across multiple pages.
 
 `Documentation <https://en.wikipedia.org/wiki/Pagination>`__
 
 See also `PHP Pagination <https://www.javatpoint.com/php-pagination>`_, `What is Pagination in PHP? Understanding The Fundamentals <https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php>`_
+
+Related packages : `pagerfanta/pagerfanta <https://packagist.org/packages/pagerfanta/pagerfanta>`_, `illuminate/pagination <https://packagist.org/packages/illuminate/pagination>`_, `knplabs/knp-paginator-bundle <https://packagist.org/packages/knplabs/knp-paginator-bundle>`_
 
 .. _parallel:
 
@@ -12316,7 +12387,10 @@ Related : :ref:`Exception <exception>`
 PHP
 ---
 
-PHP is a generic programming language. It was invented by Rasmus Lerdorf, on June 8th, 1995.
+A popular general-purpose scripting language that is especially suited to web development.
+Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+
+It was invented by Rasmus Lerdorf, on June 8th, 1995.
 
 .. code-block:: php
    
@@ -12575,6 +12649,8 @@ Previously, PHP supported also Javascript-style and ASP-style tags, though these
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
+Related : :ref:`Short Tags <short-tag>`, :ref:`Short Tags <short-open-tag>`
+
 .. _php-ug:
 
 PHP User Groups
@@ -12725,6 +12801,17 @@ phpinfo() is one of the most famous PHP function. It outputs information about P
 `Documentation <https://www.php.net/manual/en/function.phpinfo>`__
 
 Added in PHP 4.0
+
+.. _phpunit:
+
+PHPunit
+-------
+
+PHPUnit is a popular open-source testing framework for the PHP programming language. It is designed to facilitate unit testing in PHP applications. Unit testing is a software testing approach where individual units or components of a software application are tested in isolation to ensure they behave as expected.
+
+`Documentation <https://www.phpunit.org/>`__
+
+See also `How to Test PHP Code With PHPUnit <https://www.freecodecamp.org/news/test-php-code-with-phpunit/>`_
 
 .. _pipeline:
 
@@ -13010,12 +13097,12 @@ print() also has a closely related function called print_r(), used for debugging
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-Related : :ref:`Echo <echo>`, :ref:`print_r function <print_r>`
+Related : :ref:`Echo <echo>`, :ref:`print_r() <print_r>`
 
 .. _print_r:
 
-print_r function
-----------------
+print_r()
+---------
 
 print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. It's particularly helpful for debugging and understanding the structure of complex data structures in your PHP code. When you use print_r, it prints the array or object's values and structure to the browser or the console.
 
@@ -13039,7 +13126,7 @@ print_r() is a built-in PHP function used for displaying the contents of an arra
 
 `Documentation <https://www.php.net/manual/en/function.print_r.php>`__
 
-Related : :ref:`Assertions <assert>`, :ref:`Echo <echo>`, :ref:`Print <print>`, 
+Related : :ref:`Assertions <assert>`, :ref:`Echo <echo>`, :ref:`Print <print>`, :ref:`var_dump() <var_dump>`
 
 .. _private:
 
@@ -13882,7 +13969,7 @@ For example, rendering an HTML page, javascript, PDF, YAML, etc..
    
 
 
-Related : :ref:`View <view>`, 
+Related : :ref:`View <view>`, :ref:`Template <template>`
 
 Related packages : `friendsofcake/cakepdf <https://packagist.org/packages/friendsofcake/cakepdf>`_
 
@@ -14599,7 +14686,7 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `Understanding Serialisation in PHP <https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php>`_
 
-Related : :ref:`__serialize <-__serialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Remote Procedure Call <rpc>`, :ref:`Message Queue <message-queue>`, 
+Related : :ref:`__serialize <-__serialize>`, :ref:`__unserialize <-__unserialize>`, :ref:`Remote Procedure Call <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`
 
 .. _session:
 
@@ -14700,7 +14787,7 @@ In addition to the basic assignment operator, there are "combined operators" for
 
 See also `PHP — P22: Shorthand Operators <https://blog.devgenius.io/php-7-x-p22-shorthand-operators-bdef003cd52d>`_
 
-Related : :ref:`Assignations <assignation>`
+Related : :ref:`Assignations <assignation>`, :ref:`Assignations <assignement>`
 
 .. _short-syntax:
 
@@ -14765,7 +14852,7 @@ From the manual : As short tags can be disabled it is recommended to only use th
 
 See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/deprecate_php_short_tags_v2>`_
 
-Related : :ref:`PHP tags <php-tag>`, :ref:`Echo Tag <echo-tag>`
+Related : :ref:`PHP tags <php-tag>`, :ref:`Echo Tag <echo-tag>`, :ref:`Open Tag <open-tag>`
 
 .. _short-ternary:
 .. _short-ternary-operator:
@@ -14852,6 +14939,40 @@ In its simplest form, signature of a method is its name, its argument's type and
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+.. _silent:
+
+Silent Behavior
+---------------
+
+Silent behaviors are expressions that do not raise any error, and are impossible or useless.
+
+Silent behaviors also describes extra actions that are taken by PHP, without signaling it or making it obvious.
+
+Since they are silent, their usage or absence of usage is never signaled and the code may stay in the repository long before being discovered and removed or fixed.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Importing a non existent class
+   use Unknown\Namespace\theClass;
+   
+   // Typing with a non-existent class, or a trait, but still allowing other types
+   function foo(UndefinedType|string $t) : \aTrait|string {}
+   
+   // The whole try catch is now useless.
+   try {
+   
+   } catch (unknownException $e) {}
+   
+   // null is automatically turned into an int, so 0
+   $a = [null => 1];
+   echo $a[0]; // displays 1
+   
+   ?>
+
 
 .. _sql:
 
@@ -15878,7 +15999,7 @@ A string is series of characters, where a character is the same as a byte. This 
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php>`__
 
-Related : :ref:`Stringable <stringable>`, :ref:`Magic Methods <magic-method>`
+Related : :ref:`Stringable <stringable>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Magic Methods <magic-method>`
 
 Related packages : `symfony/string <https://packagist.org/packages/symfony/string>`_, `voku/stringy <https://packagist.org/packages/voku/stringy>`_
 
@@ -16063,7 +16184,7 @@ PHP provides several superglobal variables, each serving a specific purpose. Her
 
 See also `What are superglobals in PHP? <https://www.educative.io/answers/what-are-superglobals-in-php>`_
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
+Related : :ref:`Variables <variable>`, :ref:`Session <session>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`
 
 .. _supply-chain-attack:
 
@@ -16210,7 +16331,7 @@ Each case is an expression, and shall be used that way.
 
 See also `Compact switch alternative <https://tomlankhorst.nl/compact-switch-alternative-php/>`_
 
-Related : :ref:`Match <match>`, :ref:`Simple Switch <simple-switch>`, :ref:`If Then Else <if-then>`
+Related : :ref:`Match <match>`, :ref:`Default <default>`, :ref:`Strict Comparison <strict-comparison>`, :ref:`Simple Switch <simple-switch>`, :ref:`If Then Else <if-then>`
 
 Added in PHP 4.0
 
@@ -16401,6 +16522,36 @@ Related : :ref:`Socket <socket>`
 
 Related packages : `https://packagist.org/packages/react/socket <https://packagist.org/packages/https://packagist.org/packages/react/socket>`_
 
+.. _template:
+
+Template
+--------
+
+A template is a preset document, filled with values in placeholders, to display the resulting data. This is also called a view.
+
+PHP used to be known as a template engine. Nowadays, template engines are written in PHP. 
+
+Templates may be produced in any file format : HTML, CSS, Javascript, JSON, PDF, URL, etc. 
+
+Template may be large : they are then broken down into smaller and reusable sub-templates.
+
+Some template packages : Twig, Latte, Blade, smarty.
+
+
+.. code-block:: php
+   
+   
+   <?php
+   
+   // piece 
+   echo "<h1>".$name."</h1>";
+   
+   ?>
+   
+
+
+Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_
+
 .. _ternary:
 .. _ternary-operator:
 
@@ -16422,7 +16573,7 @@ The expression ``(expr1) ? (expr2) : (expr3)`` evaluates to ``expr2`` if ``expr1
 
 See also `Ternary Operator in PHP | How to use the PHP Ternary Operator <https://www.codementor.io/@sayantinideb/ternary-operator-in-php-how-to-use-the-php-ternary-operator-x0ubd3po6>`_
 
-Related : :ref:`Short Ternary Operator <short-ternary>`, :ref:`Coalesce Operator <coalesce>`
+Related : :ref:`Short Ternary Operator <short-ternary>`, :ref:`Short Ternary Operator <short-ternary-operator>`, :ref:`Coalesce Operator <coalesce>`
 
 Added in PHP 7.0+
 
@@ -16454,6 +16605,17 @@ Tests are often further automated in a Continuous Integration Pipeline.
 
 
 Related : :ref:`Continuous Integration <ci>`
+
+.. _test-data-provider:
+
+Test Data Provider
+------------------
+
+A test data provider is a mechanism or component that supplies the necessary data for executing test cases. Test data providers are particularly useful when a set of test cases need to be executed with different input values or configurations. They help ensure that your tests cover a variety of scenarios and edge cases.
+
+See also `How to use Data Providers in PHPUnit <https://blog.martinhujer.cz/how-to-use-data-providers-in-phpunit/>`_
+
+Related : :ref:`PHPunit <phpunit>`
 
 .. _test-pyramid:
 
@@ -16706,7 +16868,9 @@ Trailing commas were introduced progressively in PHP. In PHP 7.2, in use stateme
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.arguments>`__
 
-Related : :ref:`Comma <comma>`
+See also `How I learned to stop worrying and love the trailing comma <https://c-harrison.medium.com/how-i-learned-to-stop-worrying-and-love-the-trailing-comma-480f3a73d203>`_
+
+Related : :ref:`Comma <comma>`, :ref:`Convention <convention>`
 
 .. _trait:
 
@@ -17067,7 +17231,12 @@ Related : :ref:`Null <null>`, :ref:`Overflow <overflow>`
 UnexpectedValueException
 ------------------------
 
-The UnexpectedValueException exception is thrown if a value does not match with a set of values.
+The UnexpectedValueException exception is thrown if a value does not match with a set of expected values.
+
+This happens when the value is not in a list of expected values, or if it is outside an interval of validity.
+
+This exception is mainly thrown by the Phar and SPL extensions.
+
 
 .. code-block:: php
    
@@ -17083,7 +17252,7 @@ The UnexpectedValueException exception is thrown if a value does not match with 
 
 `Documentation <https://www.php.net/manual/en/class.unexpectedvalueexception.php>`__
 
-Related : :ref:`Exception <exception>`
+Related : :ref:`Exception <exception>`, :ref:`Phar <phar>`, :ref:`Standard PHP Library (SPL) <spl>`
 
 Added in PHP 5.1
 
@@ -17312,33 +17481,11 @@ Unreachable code can occur due to several reasons:
    ?>
 
 
-.. _unset:
-
-unset()
--------
-
-unset() removes a variable. This feature used to be available as a function call `unset()` or as a type cast `(unset)`. The type-cast was removed in PHP 7.2. 
-
-.. code-block:: php
-   
-   <?php
-   
-   $a = 1;
-   unset($a);
-   var_dump(isset($a)); // false
-   
-   ?>
-
-
-`Documentation <https://www.php.net/manual/en/function.unset.php>`__
-
-Related : :ref:`Variables <variable>`
-
 .. _unserialization:
 .. _unserialize:
 
-Unsserialization
-----------------
+Unserialization
+---------------
 
 Unserialization is the extraction of an object from a string representation of an object.
 
@@ -17369,6 +17516,28 @@ In PHP, there are different ways to implement serialization. The native way is t
 See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_
 
 Related : :ref:`__serialize <-__serialize>`, :ref:`__unserialize <-__unserialize>`
+
+.. _unset:
+
+unset()
+-------
+
+unset() removes a variable. This feature used to be available as a function call `unset()` or as a type cast `(unset)`. The type-cast was removed in PHP 7.2. 
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = 1;
+   unset($a);
+   var_dump(isset($a)); // false
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.unset.php>`__
+
+Related : :ref:`Variables <variable>`
 
 .. _unused:
 
@@ -17605,7 +17774,7 @@ Value objects are typically used to model concepts that don't have a distinct id
 
 `Documentation <https://en.wikipedia.org/wiki/Value_object>`__
 
-See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_, `Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_
+See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_, `Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_, `Value Objects in PHP 8: Building a better code <https://dev.to/cnastasi/value-objects-in-php-8-building-a-better-code-38k8?ref=dailydev>`_
 
 Related packages : `sebastian/type <https://packagist.org/packages/sebastian/type>`_, `cuyz/valinor <https://packagist.org/packages/cuyz/valinor>`_
 
@@ -17659,6 +17828,17 @@ var keyword for introducing PHP properties in classes. It is now replaced by vis
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties>`__
 
 Related : :ref:`Visibility <visibility>`, :ref:`Protected Visibility <protected>`, :ref:`Private Visibility <private>`, :ref:`Public Visibility <public>`
+
+.. _var_dump:
+
+var_dump()
+----------
+
+var_dump() displays the informations in a variable or any data container. It is a debugging function.
+
+var_dump() is one of the most famous PHP function. It is often related to print_r(). 
+
+Related : :ref:`print_r() <print_r>`
 
 .. _variable-argument:
 
@@ -17922,7 +18102,7 @@ Views are also synonym of renderer or template.
 
 
 
-Related : :ref:`MVC <mvc>`, 
+Related : :ref:`MVC <mvc>`, :ref:`Template <template>`
 
 .. _visibility:
 
@@ -18084,10 +18264,11 @@ Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loo
 Wrapper
 -------
 
-A wrapper may be several things: 
+A wrapper may be two things: 
 
-+ a PHP wrapper
++ a PHP wrapper, a built-in tool to process various URL-style protocols
 + a design pattern, also known as adaptor
+
 
 
 .. code-block:: php

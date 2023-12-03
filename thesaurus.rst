@@ -41,7 +41,6 @@ Attribute
 Concept
 -------
 
-+ :ref:` <template>`
 + :ref:`$this <$this>`
 + :ref:`Active Record <active-record>`
 + :ref:`Alias <alias>`
@@ -75,6 +74,7 @@ Concept
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
++ :ref:`Extensions <extension>`
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
@@ -86,6 +86,7 @@ Concept
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle <lsp>`
++ :ref:`Magic Numbers <magic-number>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`PHPdoc <phpdoc>`
@@ -104,6 +105,7 @@ Concept
 + :ref:`Single Responsability Principle <srp>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
++ :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`UUID <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
@@ -224,8 +226,8 @@ Type
 + :ref:`Floating Point Numbers <float>`
 + :ref:`Iterable <iterable>`
 + :ref:`Mixed <mixed>`
-+ :ref:`Never <never>`
-+ :ref:`Never Typehint <never-typehint>`
++ :ref:`Never Type <never>`
++ :ref:`Never Type <never>`
 + :ref:`Real Numbers <real>`
 + :ref:`Standalone types <standalone-types>`
 + :ref:`Stringable <stringable>`
@@ -235,8 +237,8 @@ Type
 Magic method
 ------------
 
-+ :ref:`__call() method <-__call>`
-+ :ref:`__callStatic() method <-__callStatic>`
++ :ref:`__call() Method <-__call>`
++ :ref:`__callStatic() Method <-__callStatic>`
 + :ref:`__get() method <-__get>`
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
