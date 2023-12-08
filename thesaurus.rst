@@ -182,7 +182,6 @@ Keyword
 + :ref:`Global Variables <global-variable>`
 + :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
-+ :ref:`Inclusion <include>`
 + :ref:`Insteadof <insteadof>`
 + :ref:`Interfaces <interface>`
 + :ref:`Iterable <iterable>`
@@ -202,6 +201,7 @@ Keyword
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
++ :ref:`include <include>`
 + :ref:`unset() <unset>`
 
 Language construct
@@ -212,11 +212,11 @@ Language construct
 + :ref:`Echo <echo>`
 + :ref:`Empty <empty>`
 + :ref:`Eval() <eval>`
-+ :ref:`Inclusion <include>`
 + :ref:`Isset <isset>`
 + :ref:`List <list>`
 + :ref:`Print <print>`
 + :ref:`declare() <declare>`
++ :ref:`include <include>`
 
 Type
 ----

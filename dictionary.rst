@@ -301,7 +301,6 @@ PHP Dictionary
    * :ref:`ImagickException <imagickexception>`
    * :ref:`ImagickPixelException <imagickpixelexception>`
    * :ref:`Immutable <immutable>`
-   * :ref:`Inclusion <include>`
    * :ref:`Inclusions <inclusion>`
    * :ref:`Incoming Data <incoming-data>`
    * :ref:`Indentation <indentation>`
@@ -324,6 +323,7 @@ PHP Dictionary
    * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`
    * :ref:`implements <implements>`
+   * :ref:`include <include>`
    * :ref:`instance <instance>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
@@ -432,6 +432,7 @@ PHP Dictionary
    * :ref:`PHP Engine <engine>`
    * :ref:`PHP Extensions <php-extension>`
    * :ref:`PHP Handlers <handler>`
+   * :ref:`PHP Native Attribute <php-native-attribute>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
    * :ref:`PHP RFC <php-rfc>`
@@ -502,6 +503,7 @@ PHP Dictionary
    * :ref:`Regular Expressions <regex>`
    * :ref:`Relative Types <relative-types>`
    * :ref:`Relaxed Comparison <relaxed-comparison>`
+   * :ref:`Relaxed Syntax <relaxed-syntax>`
    * :ref:`Release <release>`
    * :ref:`Remote Procedure Call <rpc>`
    * :ref:`Rendering <render>`
@@ -2458,7 +2460,11 @@ Attributes are machine readable options that may be added PHP code. Since PHP 8.
 
 Attributes provide extra and customisable options for the PHP engine, static analysis tools and coders alike. 
 
-Attributes are related to phpdoc.
+Attributes are a modern version of the phpdoc comment blocks.
+
+Attributes are backward compatible: they can be used in any PHP version, and are ignored when not supported. 
+
+Attributes may or may not have a supporting class: attributes may be used for their semantic value, or with related code. 
 
 
 .. code-block:: php
@@ -2475,7 +2481,7 @@ Attributes are related to phpdoc.
 
 See also `PHP native attributes <https://www.exakat.io/en/php-native-attributes-quick-reference/>`_
 
-Related : :ref:`PHPdoc <phpdoc>`
+Related : :ref:`PHPdoc <phpdoc>`, :ref:`PHP Native Attribute <php-native-attribute>`
 
 Added in PHP 8.0
 
@@ -3321,7 +3327,7 @@ See also `Early binding in PHP <https://www.npopov.com/2021/10/20/Early-binding-
 Class Invasion
 --------------
 
-Objects of the same type will have access to each others private and protected members even though they are not the same instances. 
+Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances. 
 
 Class invasion doesn't work when running an external closure inside the class.
 
@@ -3332,6 +3338,8 @@ Class invasion doesn't work when running an external closure inside the class.
    
    class X {
        private $p = "abc";
+       
+       private function privateMethod() { echo __METHOD__; }
    
        function foo(X $x) {
            echo $x->p;
@@ -3340,7 +3348,15 @@ Class invasion doesn't work when running an external closure inside the class.
        function set($s) {
            $this->p = $s;
        }
+       
+       function goo() {
+       	// The other object accesses the current one's private method
+       	$y = new X; 
+       	$y->privateMethod();
+       }
    }
+   
+   class Y extends X { }
    
    $x1 = new x;
    $x1->set('xyz');
@@ -4255,7 +4271,7 @@ Const
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static constant <static-constant>`, :ref:`Inclusion <include>`
+Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static constant <static-constant>`, :ref:`include <include>`
 
 .. _constant-scalar-expression:
 
@@ -7654,14 +7670,14 @@ Related : :ref:`Backend <backend>`
 
 .. _fully-qualified-name:
 .. _fqn:
+.. _fqcn:
 
 Fully Qualified Name
 --------------------
 
-A fully qualified name is a unique identifier for the PHP name of a constant, class, trait, interface or function : it includes its namespace name.
+A fully qualified name, or a fully qualified class name, is a unique identifier for the PHP name of a constant, class, trait, interface, enum or function : it includes its namespace name.
 
-PHP names may be fully qualified, relative, qualified or relative.
- 
+PHP names may be fully qualified, unqualified or relative.
 
 .. code-block:: php
    
@@ -8701,10 +8717,10 @@ Added in PHP 5.0+
 .. _require_once:
 .. _require:
 
-Inclusion
----------
+include
+-------
 
-Inclusion is the process to read an external file, and evaluate with the current application for execution. It may define new structures, and execute code. 
+Inclusion, often represented by the ``include`` keyword, is the process to read an external file, and evaluate with the current application for execution. It may define new structures, and execute code. 
 
 Inclusion relies on four language structures : include, require, include_once, require_once. 
 
@@ -10280,7 +10296,7 @@ It is recommended to make the meaning of that number obvious. This is achieved b
 
 Magic numbers also applies to other literal values, such as string, float, arrays. Though, they are more difficult to sort out of the code.
 
-Magic numbers are difficult to categorize, when they are very common across different fields. For example, 0, 1, 2, 10 are very common for different tasks, and may need several disambiguations.
+Magic numbers are difficult to categorize, when they are very common across different fields. For example, 0, 1, 2, 10 are very common for different tasks, and may need several disambiguations. Others, such as 60, 404, 
 
 
 .. code-block:: php
@@ -12529,6 +12545,15 @@ PHP handlers may be functions, closures or arrow_functions too.
 
 Related : :ref:`HTTP headers <http-header>`
 
+.. _php-native-attribute:
+
+PHP Native Attribute
+--------------------
+
+PHP supports a system of attribute, to add options 
+
+Related : :ref:`Attributes <attribute>`
+
 .. _predefined-exception:
 
 PHP Predefined Exception
@@ -13902,6 +13927,42 @@ Loose comparison is know to have changed significantly in PHP 8.0 : in particula
 See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
 
 Related : :ref:`Switch <switch>`, :ref:`Strict Comparison <strict-comparison>`
+
+.. _relaxed-syntax:
+
+Relaxed Syntax
+--------------
+
+Relaxed syntax refers to the extra freedom in naming class elements, such as constant and methods, compared to creating global constant and functions. 
+
+In particular, keywords are allowed for class constants and methods, while they are forbidden for global constants and functions. 
+
+Note that using PHP keywords in specific 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // That is not possible, as array is already reserved
+   // function array() {}
+   // const array = [];
+   
+   class x {
+     	function array() { return [1]; }
+   	const array = [2];
+   
+   	function foo() {
+   		return $this->array() + self::array;
+   	}
+   }
+   
+   ?>
+
+
+See also `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`_
+
+Related : :ref:`Naming <naming>`
 
 .. _release:
 
@@ -17774,7 +17835,7 @@ Value objects are typically used to model concepts that don't have a distinct id
 
 `Documentation <https://en.wikipedia.org/wiki/Value_object>`__
 
-See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_, `Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_, `Value Objects in PHP 8: Building a better code <https://dev.to/cnastasi/value-objects-in-php-8-building-a-better-code-38k8?ref=dailydev>`_
+See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_, `Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_, `Value Objects in PHP 8: Building a better code <https://dev.to/cnastasi/value-objects-in-php-8-building-a-better-code-38k8?ref=dailydev>`_, `Advanced Value Objects in PHP 8 <https://dev.to/cnastasi/advanced-value-objects-in-php-8-1lp0>`_
 
 Related packages : `sebastian/type <https://packagist.org/packages/sebastian/type>`_, `cuyz/valinor <https://packagist.org/packages/cuyz/valinor>`_
 

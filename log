@@ -15,8 +15,8 @@ copying extra files... done
 done
 [2Kwriting output... [ 25%] dictionary[2Kwriting output... [ 50%] index[2Kwriting output... [ 75%] introduction[2Kwriting output... [100%] thesaurus
 /Users/famille/Desktop/php-dictionary/dictionary.rst:131: WARNING: undefined label: 'composer'
-/Users/famille/Desktop/php-dictionary/dictionary.rst:12042: WARNING: undefined label: 'composer'
-/Users/famille/Desktop/php-dictionary/dictionary.rst:12311: WARNING: undefined label: 'composer'
+/Users/famille/Desktop/php-dictionary/dictionary.rst:12058: WARNING: undefined label: 'composer'
+/Users/famille/Desktop/php-dictionary/dictionary.rst:12327: WARNING: undefined label: 'composer'
 generating indices... genindex done
 writing additional pages... search done
 dumping search index in English (code: en)... done
