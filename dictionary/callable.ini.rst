@@ -1,0 +1,29 @@
+.. _callable:
+
+Callables
+---------
+
+Callables are objects that can pass the callable typehint. 
+
+Callable may be callbacks, closures or arrow functions. 
+
+Classes may also be callable, when they implement the magic method __invoke().
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   function foo() { echo __METHOD__; }
+   
+   call_user_func('foo');
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
+
+See also `What Is the callable Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-callable-type-in-php>`_
+
+Related : :ref:`Callback <callback>`, :ref:`Closure <closure>`, :ref:`__invoke() method <-__invoke>`, :ref:`Arrow Functions <arrow-function>`

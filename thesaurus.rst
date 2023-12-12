@@ -70,7 +70,6 @@ Concept
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
 + :ref:`Early Binding <early-binding>`
-+ :ref:`Encoding <encoding>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event driven <event-driven>`
@@ -107,9 +106,12 @@ Concept
 + :ref:`Stubs Files <stubs>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
++ :ref:`Text Encoding <encoding-text>`
 + :ref:`UUID <uuid>`
++ :ref:`Underflow <underflow>`
 + :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`
++ :ref:`Validation <validation>`
 + :ref:`Value Object <value-object>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
@@ -178,7 +180,6 @@ Keyword
 + :ref:`Exit <exit>`
 + :ref:`Finally <finally>`
 + :ref:`For <for>`
-+ :ref:`For <for>`
 + :ref:`Global Variables <global-variable>`
 + :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
@@ -227,8 +228,8 @@ Type
 + :ref:`Iterable <iterable>`
 + :ref:`Mixed <mixed>`
 + :ref:`Never Type <never>`
-+ :ref:`Never Type <never>`
 + :ref:`Real Numbers <real>`
++ :ref:`Relative Types <relative-types>`
 + :ref:`Standalone types <standalone-types>`
 + :ref:`Stringable <stringable>`
 + :ref:`Type Juggling <type-juggling>`
@@ -237,12 +238,12 @@ Type
 Magic method
 ------------
 
-+ :ref:`__call() Method <-__call>`
-+ :ref:`__callStatic() Method <-__callStatic>`
++ :ref:`__call() method <-__call>`
++ :ref:`__callStatic() method <-__callStatic>`
 + :ref:`__get() method <-__get>`
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
 + :ref:`__set_state() method <-__set_state>`
 + :ref:`__sleep() method <-__sleep>`
 + :ref:`__toString() method <-__tostring>`
-+ :ref:`__wakeup() <-__wakeup>`
++ :ref:`__wakeup() method <-__wakeup>`

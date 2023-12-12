@@ -11,6 +11,7 @@ Welcome to PHP Dictionary!
    :caption: Contents:
 
    introduction
+   list
    thesaurus
    dictionary
 
