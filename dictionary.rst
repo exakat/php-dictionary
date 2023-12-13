@@ -93,7 +93,7 @@ PHP Dictionary
    * :ref:`CVS <cvs>`
    * :ref:`Cache <cache>`
    * :ref:`Callables <callable>`
-   * :ref:`Callback <callback>`
+   * :ref:`Callbacks <callback>`
    * :ref:`Case <case>`
    * :ref:`Cast Operator <cast>`
    * :ref:`Catch <catch>`

@@ -5,7 +5,7 @@ Format
 
 Format is a set of rules to structure a piece of text, and make it parsable by a specific engine. A piece of text may be in the format: then, it is usable as a command for another technology. 
 
-Formats have various shapes. Exemple of formats: 
+Formats have various shapes. Here are some examples of formats: 
 
 + `SQL` Structure Query Language: `SELECT column FROM table` 
 + Date and time (human): `2020-01-01` 

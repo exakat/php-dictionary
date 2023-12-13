@@ -3,9 +3,9 @@
 $php_errormsg
 -------------
 
-$php_errormsg contains the last error message, emitted by PHP. 
+``$php_errormsg`` contains the last error message, emitted by PHP. 
 
-In general, error_get_last() should be used instead of $php_errormsg, although this function returns an array, not a string.
+In general, ``error_get_last()`` should be used instead of ``$php_errormsg``, although this function returns an array, not a string.
 
 This feature was removed in PHP 8.0.
 

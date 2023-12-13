@@ -5,7 +5,7 @@ Iterator
 
 An iterator is an object which can be traversed with a foreach() loop. 
 
-`Iterator` is an interface, which shall be implemented by objects. Ther are also a list of default iterators in the SPL extension.
+`Iterator` is an interface, which shall be implemented by objects. There are also a list of default iterators in the SPL extension.
 
 An iterator may be turned into an array, with the iterator_to_array() function.
 

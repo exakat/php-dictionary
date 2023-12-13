@@ -1,9 +1,9 @@
 .. _callback:
 
-Callback
---------
+Callbacks
+---------
 
-Callback are functions which are used as parameters for other functions. Such functions are used to customize the main function. For example, array_map(), which applies a callback to every element of an array, or usort(), which sorts an array using a function.
+Callbacks are functions or methods which are used as parameters for other functions. Such functions are used to customize the calling function. For example, array_map(), which applies a callback to every element of an array, or usort(), which sorts an array using a function.
 
 Callback is akin to a functioncall : it is actually hidden inside the caller function. 
 

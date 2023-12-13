@@ -7,7 +7,7 @@ Days in seconds is a classic bug when dealing with dates. It happens when adding
 
 The bug will happen most commonly twice a year, at the change of time from winter to summer time. Those days are one hour longer or shorter and lead to calculating the wrong time on the next day. 
 
-Thig bug may also have impact when the internal clock of the server is updated, or when extra leap seconds are added, by December 31st or June 30th (it depends on the years).
+This bug may also have impact when the internal clock of the server is updated, or when extra leap seconds are added, by December 31st or June 30th (it depends on the years).
 
 When dealing with days, it is recommended to use an interval, or use relative expression like 'tomorrow'.
 

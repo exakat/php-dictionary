@@ -6,9 +6,9 @@ Comparison
 
 Comparison operators, as their name implies, allow you to compare two values. 
 
-PHP comparisons exists wiht type-juggling, `==`, `<>`, `<=>`, switch() and `!=`, and with type checks, match(), `===` and `!==`. 
+PHP comparisons exists with type-juggling, `==`, `<>`, `<=>`, switch() and `!=`, and with type checks, match(), `===` and `!==`. 
 
-Inegalities only exists with type-juggling. 
+Inequalities only exist with type-juggling. 
 
 There are also functions dedicated to comparisons, with specific applications : strcmp(), strcasecmp(), strnatcasecpm(), strcoll(), similar_text(), levensthein(), bccomp(), version_compare(), hash_equals().
 
