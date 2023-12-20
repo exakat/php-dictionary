@@ -26,6 +26,8 @@ There are polyfills available in packagist, like the family of packages ``symfon
    ?>
 
 
-`Documentation <https://github.com/symfony/polyfill>`__
+`Documentation <https://symfony.com/components/Polyfill%20PHP%208.0>`__
+
+See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_
 
 Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_

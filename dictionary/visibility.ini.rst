@@ -34,4 +34,4 @@ Visibility may no change, unless when overwiting it with a trait, or in a child 
 
 See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_, `PHP Tricks: Access control bypass <https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass>`_
 
-Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Static constant <class-constant>`
+Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Static Constant <class-constant>`

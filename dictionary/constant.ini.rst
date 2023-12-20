@@ -32,4 +32,4 @@ Global constants used to be case insensitive, when created with define. This fea
 
 `Documentation <https://www.php.net/manual/en/language.constants.php>`__
 
-Related : :ref:`Static constant <class-constant>`
+Related : :ref:`Static Constant <class-constant>`

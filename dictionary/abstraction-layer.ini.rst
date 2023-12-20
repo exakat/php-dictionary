@@ -12,6 +12,8 @@ league/flysystem offers also an abstraction layer to filesystem, lcobucci/clock 
 
 `Documentation <https://en.wikipedia.org/wiki/Abstraction_layer>`__
 
+See also `Creating a Data Abstraction Layer in PHP <https://bytes.com/topic/php/insights/632487-creating-data-abstraction-layer-php>`_
+
 Related : :ref:`Stream <stream>`, :ref:`PHP Data Objects (PDO) <pdo>`
 
 Related packages : `league/flysystem <https://packagist.org/packages/league/flysystem>`_, `lcobucci/clock <https://packagist.org/packages/lcobucci/clock>`_, `php-http/httplug <https://packagist.org/packages/php-http/httplug>`_

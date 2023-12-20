@@ -20,4 +20,4 @@ Const
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static constant <static-constant>`, :ref:`include <include>`
+Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static Constant <static-constant>`, :ref:`include <include>`

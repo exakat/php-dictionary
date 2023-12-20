@@ -1,4 +1,5 @@
 .. _exception-chain:
+.. _chaining-exception:
 
 Chaining Exceptions
 -------------------

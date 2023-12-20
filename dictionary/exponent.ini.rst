@@ -1,5 +1,6 @@
 .. _exponent:
 .. _**:
+.. _power:
 
 Exponent
 --------

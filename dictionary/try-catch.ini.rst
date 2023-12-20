@@ -1,4 +1,5 @@
 .. _try-catch:
+.. _try:
 
 Try-catch
 ---------

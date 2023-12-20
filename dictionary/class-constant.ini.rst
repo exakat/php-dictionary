@@ -4,7 +4,7 @@
 .. _trait-constant:
 .. _enum-constant:
 
-Static constant
+Static Constant
 ---------------
 
 Static constants are constants that are defined inside a class, interface, trait (since PHP 8.2) and enumeration. 

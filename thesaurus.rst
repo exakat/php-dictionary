@@ -63,6 +63,7 @@ Concept
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Database <database>`
 + :ref:`Dataset <dataset>`
++ :ref:`Declaration <declaration>`
 + :ref:`Default Value <default-value>`
 + :ref:`Dependency Injection <dependency-injection>`
 + :ref:`Deprecation <deprecated>`
@@ -72,7 +73,7 @@ Concept
 + :ref:`Early Binding <early-binding>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
-+ :ref:`Event driven <event-driven>`
++ :ref:`Event Driven <event-driven>`
 + :ref:`Extensions <extension>`
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
@@ -90,6 +91,7 @@ Concept
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
++ :ref:`Path <path>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`

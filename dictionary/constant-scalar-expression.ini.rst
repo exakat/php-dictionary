@@ -1,4 +1,5 @@
 .. _constant-scalar-expression:
+.. _static-constant-expression:
 
 Constant Scalar Expression
 --------------------------

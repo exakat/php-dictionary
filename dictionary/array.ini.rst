@@ -1,13 +1,18 @@
 .. _array:
+.. _array-short-syntax:
 
 Array
 -----
 
 array is the array structure in PHP. 
 
-It may be written as array() or with square brackets `[]`.
+It may be written as array() or with square brackets `[]`, which is also called the array short syntax.
 
-An array assigns automatically an integer index to the values appended to it. An arbitrary index may be assigned with the => syntax, or when accessing an element in the array. 
+The keys that serve as index in the array may be string or integers. 
+
+An array assigns automatically an integer index to the values appended to it. An arbitrary index may be assigned with the ``=>`` syntax, or when accessing an element in the array. 
+
+Mixed keys in an array refers to the practice add elements in the array with both the automatic indexing and the arbitrary assignment. 
 
 
 .. code-block:: php
@@ -24,3 +29,5 @@ An array assigns automatically an integer index to the values appended to it. An
 
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
+
+Related : :ref:`Index for arrays <index-array>`

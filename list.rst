@@ -86,6 +86,7 @@ PHP Dictionary
    dictionary/cache.ini
    dictionary/callable.ini
    dictionary/callback.ini
+   dictionary/case-sensitivity.ini
    dictionary/case.ini
    dictionary/cast.ini
    dictionary/catch.ini
@@ -122,6 +123,7 @@ PHP Dictionary
    dictionary/composer.ini
    dictionary/compression.ini
    dictionary/concatenation.ini
+   dictionary/concrete.ini
    dictionary/condition.ini
    dictionary/conditional-structure.ini
    dictionary/conditioned.ini
@@ -162,6 +164,7 @@ PHP Dictionary
    dictionary/dbal.ini
    dictionary/dead-code.ini
    dictionary/debugger.ini
+   dictionary/declaration.ini
    dictionary/declare-encoding.ini
    dictionary/declare.ini
    dictionary/decorator.ini
@@ -417,6 +420,8 @@ PHP Dictionary
    dictionary/parenthesis.ini
    dictionary/parse.ini
    dictionary/parseerror.ini
+   dictionary/password-ext.ini
+   dictionary/path.ini
    dictionary/pcntl.ini
    dictionary/pdo.ini
    dictionary/pdoexception.ini

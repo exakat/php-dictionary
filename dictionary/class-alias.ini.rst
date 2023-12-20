@@ -1,6 +1,6 @@
 .. _class-alias:
 
-Class aliases
+Class Aliases
 -------------
 
 It is possible to make an alias of a class and call it with this new name. It either rely on the `use` expression, preferable at the beginning of the namespace, or the class_alias() function, for dynamic and application-wide aliases. 

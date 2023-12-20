@@ -95,9 +95,11 @@ PHP Dictionary
    * :ref:`Callables <callable>`
    * :ref:`Callbacks <callback>`
    * :ref:`Case <case>`
+   * :ref:`Case Sensitivity <case-sensitivity>`
    * :ref:`Cast Operator <cast>`
    * :ref:`Catch <catch>`
    * :ref:`Chaining Exceptions <exception-chain>`
+   * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
    * :ref:`Class Entities <class-entity>`
@@ -107,7 +109,6 @@ PHP Dictionary
    * :ref:`Class Operator <class-operator>`
    * :ref:`Class Setter Method <setter>`
    * :ref:`Class Wither Method <wither>`
-   * :ref:`Class aliases <class-alias>`
    * :ref:`Classes <class>`
    * :ref:`Clean Architecture <clean-architecture>`
    * :ref:`Clone <clone>`
@@ -131,6 +132,7 @@ PHP Dictionary
    * :ref:`Composer <composer>`
    * :ref:`Compression <compression>`
    * :ref:`Concatenation <concatenation>`
+   * :ref:`Concrete Class <concrete>`
    * :ref:`Condition <condition>`
    * :ref:`Conditional Structures <conditional-structure>`
    * :ref:`Conditioned Structures <conditioned>`
@@ -177,6 +179,7 @@ PHP Dictionary
    * :ref:`Days In Month <days-in-month>`
    * :ref:`Dead code <dead-code>`
    * :ref:`Debugger <debugger>`
+   * :ref:`Declaration <declaration>`
    * :ref:`Decorator Pattern <decorator>`
    * :ref:`Deep Clone <deep-clone>`
    * :ref:`Default <default>`
@@ -229,8 +232,8 @@ PHP Dictionary
    * :ref:`Escape Data <escape-data>`
    * :ref:`Escape Sequences <escape-sequence>`
    * :ref:`Eval() <eval>`
+   * :ref:`Event Driven <event-driven>`
    * :ref:`Event Storming <event-storming>`
-   * :ref:`Event driven <event-driven>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
    * :ref:`Exit <exit>`
@@ -246,8 +249,8 @@ PHP Dictionary
    * :ref:`FastCGI <fastcgi>`
    * :ref:`Feature <feature>`
    * :ref:`File <file>`
+   * :ref:`File System <file-system>`
    * :ref:`File Upload <upload>`
-   * :ref:`File system <file-system>`
    * :ref:`Final Class Constants <final-class-constant>`
    * :ref:`Final Keyword <final>`
    * :ref:`Finally <finally>`
@@ -453,6 +456,8 @@ PHP Dictionary
    * :ref:`ParseError <parseerror>`
    * :ref:`Passing By Reference <by-reference>`
    * :ref:`Passing By Value <by-value>`
+   * :ref:`Password API <password-ext>`
+   * :ref:`Path <path>`
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
    * :ref:`PharException <pharexception>`
@@ -567,10 +572,10 @@ PHP Dictionary
    * :ref:`Standard PHP Library (SPL) <spl>`
    * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`
+   * :ref:`Static Constant <class-constant>`
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`
-   * :ref:`Static constant <class-constant>`
    * :ref:`Storage systems <storage-system>`
    * :ref:`Stream <stream>`
    * :ref:`Stream Wrapper <wrapper-stream>`
