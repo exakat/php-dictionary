@@ -3,13 +3,13 @@
 Lazy Loading
 ------------
 
-Lazy loading is a programming technic that postpone the actual loading of a resource to the moment it is actually used. 
+Lazy loading is a programming pattern that postpone the actual loading of a resource to the moment it is actually used. 
 
 This prevents the application from loading resources that may not be used later : it improves efficiency. 
 
 Lazy loading happens with data and source code. Some entities may be loaded only when they are actually needed, to avoid loading too much data from the repositories, while they are not used. 
 
-PHP also uses lazy loading: some structures are checked at linting time, when they are available. Otherwise, their validation is defered to execution. For example, method signature compatibility with parents, or class constant values. 
+PHP also uses lazy loading: some structures are checked at linting time, when they are available. Otherwise, their validation is deferred to execution. For example, method signature compatibility with parents, or class constant values. 
 
 
 .. code-block:: php

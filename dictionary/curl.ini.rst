@@ -33,4 +33,8 @@ cURL is used to access remote resources, using various protocols such as DICT, F
 
 `Documentation <https://www.php.net/manual/en/book.curl.php>`__
 
-See also `curl.se <https://curl.se/>`_
+See also `curl.se <https://curl.se/>`_, `How to use cURL in PHP <https://dev.to/serpapi/how-to-use-curl-in-php-2aga>`_
+
+Related : 
+
+Related packages : `symfony/panther <https://packagist.org/packages/symfony/panther>`_, `roach-php/core <https://packagist.org/packages/roach-php/core>`_

@@ -1,4 +1,5 @@
 .. _reserved-name:
+.. _reserved-word:
 
 Reserved Names
 --------------

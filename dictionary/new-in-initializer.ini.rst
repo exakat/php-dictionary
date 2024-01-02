@@ -1,4 +1,5 @@
 .. _new-in-initializer:
+.. _new-initializer:
 
 New In Initializers
 -------------------

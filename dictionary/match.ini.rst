@@ -7,7 +7,7 @@ The ``match`` expression is the remote cousin of the ``switch``. It takes a valu
 
 ``match`` use a strict comparison for the comparison. ``match`` raise an error if no case match, unless the ``default`` case is provided. 
 
-``match`` is an expression, to be used in an assignement, while ``switch`` is a command, and must be used alone. 
+``match`` is an expression, to be used in an assignment, while ``switch`` is a command, and must be used alone. 
 
 
 .. code-block:: php

@@ -5,7 +5,7 @@ Keyword
 
 PHP has a list of keywords, which are also called reserved words. Those are names used with some functions or operators. 
 
-Keywords are not allowed in function, constant, class, interface, enum and trait names. They are allowed in method, properties, variables and class cosntant names.
+Keywords are not allowed in function, constant, class, interface, enum and trait names. They are allowed in method, properties, variables and class constant names.
 
 While legit, it is usually recommended to avoid using PHP keywords as identifiers, so as to prevent confusion. 
 

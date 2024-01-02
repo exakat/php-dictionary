@@ -79,6 +79,7 @@ Concept
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
++ :ref:`Idempotent <idempotent>`
 + :ref:`Index <index>`
 + :ref:`Injection <injection>`
 + :ref:`Jobqueue <jobqueue>`
@@ -234,6 +235,7 @@ Type
 + :ref:`Relative Types <relative-types>`
 + :ref:`Standalone types <standalone-types>`
 + :ref:`Stringable <stringable>`
++ :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Void <void>`
 

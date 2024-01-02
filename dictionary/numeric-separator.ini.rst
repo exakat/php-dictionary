@@ -1,4 +1,5 @@
 .. _numeric-separator:
+.. _integer-separator:
 
 Numeric Separator
 -----------------

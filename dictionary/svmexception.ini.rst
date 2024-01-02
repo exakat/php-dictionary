@@ -3,7 +3,7 @@
 SVMException
 ------------
 
-The SVMException exception is thrown by the SVM::train() method. It happens when the model could not be trainted. 
+The SVMException exception is thrown by the SVM::train() method. It happens when the model could not be trained. 
 
 .. code-block:: php
    

@@ -8,7 +8,7 @@ Nesting refers to the practice of placing code block or construct inside another
 
 This is commonly used with loops, conditional statements, functions, classes, arrays, generators, attributes, ternaries, try-catch, etc. 
 
-Nesting creates more complex and intricate logic. It usually erodes readability by mixing two contexts in the same code location, or genrating unexpected code.
+Nesting creates more complex and intricate logic. It usually erodes readability by mixing two contexts in the same code location, or generating unexpected code.
 
 .. code-block:: php
    

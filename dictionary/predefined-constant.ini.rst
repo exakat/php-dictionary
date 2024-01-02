@@ -21,4 +21,6 @@ Other constants come from extensions : for example, the Math extension defines M
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
 
+See also `Understanding PHP Predefined Constants <https://dev.to/patricia1988hernandez2/understanding-php-predefined-constants-6db>`_
+
 Related : :ref:`Constants <constant>`

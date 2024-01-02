@@ -80,6 +80,7 @@ PHP Dictionary
    dictionary/block.ini
    dictionary/boolean.ini
    dictionary/break.ini
+   dictionary/browcap.ini
    dictionary/bucket.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
@@ -143,6 +144,7 @@ PHP Dictionary
    dictionary/coroutine.ini
    dictionary/countable.ini
    dictionary/coupling.ini
+   dictionary/crc32.ini
    dictionary/crud.ini
    dictionary/cryptography.ini
    dictionary/csv-injection.ini
@@ -239,6 +241,7 @@ PHP Dictionary
    dictionary/feature.ini
    dictionary/file.ini
    dictionary/filesystem.ini
+   dictionary/filesystemiterator.ini
    dictionary/final-class-constant.ini
    dictionary/final.ini
    dictionary/finally.ini
@@ -263,6 +266,8 @@ PHP Dictionary
    dictionary/getter.ini
    dictionary/git.ini
    dictionary/glob.ini
+   dictionary/global-code.ini
+   dictionary/global-space.ini
    dictionary/global-variable.ini
    dictionary/global.ini
    dictionary/globals.ini
@@ -288,6 +293,7 @@ PHP Dictionary
    dictionary/http.ini
    dictionary/https.ini
    dictionary/iconv.ini
+   dictionary/idempotent.ini
    dictionary/identical.ini
    dictionary/if-then.ini
    dictionary/iffectation.ini
@@ -298,13 +304,16 @@ PHP Dictionary
    dictionary/include.ini
    dictionary/inclusion.ini
    dictionary/incoming-data.ini
+   dictionary/increment.ini
    dictionary/indentation.ini
    dictionary/index-array.ini
    dictionary/index-sql.ini
    dictionary/index.ini
    dictionary/inequality.ini
+   dictionary/infinite.ini
    dictionary/inflector.ini
    dictionary/inheritance.ini
+   dictionary/initialisation.ini
    dictionary/injection.ini
    dictionary/instance.ini
    dictionary/instanceof.ini
@@ -316,6 +325,7 @@ PHP Dictionary
    dictionary/intersection-type.ini
    dictionary/intl.ini
    dictionary/invalidargumentexception.ini
+   dictionary/invariant.ini
    dictionary/inventory.ini
    dictionary/isp.ini
    dictionary/isset.ini
@@ -362,6 +372,7 @@ PHP Dictionary
    dictionary/message-queue.ini
    dictionary/method.ini
    dictionary/micro-optimisation.ini
+   dictionary/microservice.ini
    dictionary/migration.ini
    dictionary/mixed.ini
    dictionary/mock.ini
@@ -391,6 +402,7 @@ PHP Dictionary
    dictionary/nullsafe-object-operator.ini
    dictionary/nullsafe.ini
    dictionary/numeric-separator.ini
+   dictionary/object-api.ini
    dictionary/object-injection.ini
    dictionary/object-invasion.ini
    dictionary/object-nullsafe-operator.ini
@@ -466,6 +478,8 @@ PHP Dictionary
    dictionary/pseudo-variable.ini
    dictionary/psr.ini
    dictionary/public.ini
+   dictionary/query-string.ini
+   dictionary/query.ini
    dictionary/queue.ini
    dictionary/random.ini
    dictionary/rangeexception.ini
@@ -637,11 +651,13 @@ PHP Dictionary
    dictionary/view-presentation.ini
    dictionary/view-sql.ini
    dictionary/view.ini
+   dictionary/virtual-machine.ini
    dictionary/visibility.ini
    dictionary/void.ini
    dictionary/weak-reference.ini
    dictionary/webserver.ini
    dictionary/while.ini
+   dictionary/whitespace.ini
    dictionary/wither.ini
    dictionary/wrapper-designpattern.ini
    dictionary/wrapper-php.ini

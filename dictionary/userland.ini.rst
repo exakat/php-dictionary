@@ -3,7 +3,7 @@
 Userland
 --------
 
-A `userland` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developper. `userland` features are opposed to `native` features, which are available within PHP itself.
+A `userland` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developer. `userland` features are opposed to `native` features, which are available within PHP itself.
 
 Functions, classes, enums, traits, constants, etc. may be userland. Loaded component with composer from packagist are also userland structures. 
 

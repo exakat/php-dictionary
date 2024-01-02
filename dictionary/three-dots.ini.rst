@@ -3,12 +3,14 @@
 Three dots
 ----------
 
-Three dots, is an operator with several usages.
+Three dots, is an operator with several usages and names.
 
 + variadic, to make the last parameter collect all arguments in an array
 + spread, to expand elements of an array into arguments positions
 + spread in array, to merge several arrays in one
 + closure creator, when used standalone in a methodcall.
+
+The various features of this operator were introduced in different PHP versions. 
 
 
 
@@ -16,12 +18,16 @@ Three dots, is an operator with several usages.
    
    <?php
    
-   $array = [1, 2, 3];
+   $a = [2, 3];
+   // equivalent to [1, 2, 3], or array_merge([1], $a);
+   $array = [1, ...$a];
    
-   // same as foo(0, 1,2, 3);
+   // spread operator, in function call
+   // same as foo(0, 1, 2, 3, 4);
    foo(0, ...$array, 4);
    
    
+   // variadic argument (the last one)
    function foo($special, ...$others) {
        // with the above call
        // $special === 0
@@ -30,6 +36,7 @@ Three dots, is an operator with several usages.
    
    // PHP 8.1
    $closure = strlen(...);
+   echo $closure('Ab'); // display 2, by calling strlen
    
    ?>
 

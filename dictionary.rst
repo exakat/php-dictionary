@@ -85,6 +85,7 @@ PHP Dictionary
    * :ref:`Break <break>`
    * :ref:`Bucket <bucket>`
    * :ref:`basename <basename>`
+   * :ref:`browcap <browcap>`
 * C
    * :ref:`CGI <cgi>`
    * :ref:`CRUD <crud>`
@@ -161,6 +162,7 @@ PHP Dictionary
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
+   * :ref:`crc32 <crc32>`
 * D
    * :ref:`DOM <domxml>`
    * :ref:`DRY : don't repeat yourself <dry>`
@@ -251,6 +253,7 @@ PHP Dictionary
    * :ref:`File <file>`
    * :ref:`File System <file-system>`
    * :ref:`File Upload <upload>`
+   * :ref:`FileSystemIterator <filesystemiterator>`
    * :ref:`Final Class Constants <final-class-constant>`
    * :ref:`Final Keyword <final>`
    * :ref:`Finally <finally>`
@@ -273,6 +276,8 @@ PHP Dictionary
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
    * :ref:`Generics <generics>`
+   * :ref:`Global Code <global-code>`
+   * :ref:`Global Space <global-space>`
    * :ref:`Global Variables <global-variable>`
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
@@ -298,6 +303,7 @@ PHP Dictionary
    * :ref:`hg <hg>`
 * I
    * :ref:`Iconv <iconv>`
+   * :ref:`Idempotent <idempotent>`
    * :ref:`Identical operator <identical>`
    * :ref:`If Then Else <if-then>`
    * :ref:`Iffectation <iffectation>`
@@ -306,13 +312,16 @@ PHP Dictionary
    * :ref:`Immutable <immutable>`
    * :ref:`Inclusions <inclusion>`
    * :ref:`Incoming Data <incoming-data>`
+   * :ref:`Increment <increment>`
    * :ref:`Indentation <indentation>`
    * :ref:`Index <index>`
    * :ref:`Index for SQL <index-sql>`
    * :ref:`Index for arrays <index-array>`
    * :ref:`Inequality <inequality>`
+   * :ref:`Infinite <infinite>`
    * :ref:`Inflector <inflector>`
    * :ref:`Inheritance <inheritance>`
+   * :ref:`Initialisation <initialisation>`
    * :ref:`Injection <injection>`
    * :ref:`Insteadof <insteadof>`
    * :ref:`Interface Segregation Principle <isp>`
@@ -373,6 +382,7 @@ PHP Dictionary
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
    * :ref:`Micro-optimisation <micro-optimisation>`
+   * :ref:`Microservice <microservice>`
    * :ref:`Migration <migration>`
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
@@ -407,6 +417,7 @@ PHP Dictionary
 * O
    * :ref:`OWASP <owasp>`
    * :ref:`Object <object>`
+   * :ref:`Object API <object-api>`
    * :ref:`Object Injection <object-injection>`
    * :ref:`Object Invasion <object-invasion>`
    * :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
@@ -488,6 +499,8 @@ PHP Dictionary
    * :ref:`plus + <plus>`
    * :ref:`print_r() <print_r>`
 * Q
+   * :ref:`Query <query>`
+   * :ref:`Query String <query-string>`
    * :ref:`Queue <queue>`
 * R
    * :ref:`RDBMS <rdbms>`
@@ -621,6 +634,7 @@ PHP Dictionary
    * :ref:`Tree <tree>`
    * :ref:`Try-catch <try-catch>`
    * :ref:`Type Error <typerror>`
+   * :ref:`Type Invariant <invariant>`
    * :ref:`Type Juggling <type-juggling>`
    * :ref:`Type system <typehint>`
    * :ref:`TypeError <typeerror>`
@@ -660,6 +674,7 @@ PHP Dictionary
    * :ref:`Version <version>`
    * :ref:`View <view>`
    * :ref:`View In Presentation <view-presentation>`
+   * :ref:`Virtual Machine <virtual-mchine>`
    * :ref:`Visibility <visibility>`
    * :ref:`Void <void>`
    * :ref:`var_dump() <var_dump>`
@@ -668,6 +683,7 @@ PHP Dictionary
    * :ref:`Weak References <weak-reference>`
    * :ref:`Webserver <webserver>`
    * :ref:`While <while>`
+   * :ref:`Whitespace <whitespace>`
    * :ref:`Wrapper <wrapper>`
 * X
    * :ref:`XML <xml>`

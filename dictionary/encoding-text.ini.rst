@@ -10,7 +10,7 @@ Encoding applies to PHP scripts, which should be UTF-8 encoded, although it migh
 
 Encoding applies to incoming and outgoing data.
 
-Encoding operations are provided with mb_string, ``iconv`` and ``intl`` extensions. 
+Encoding operations are provided with ``ext/mbstring``, ``ext/iconv`` and ``ext/intl`` extensions. 
 
 Encoding is also used for code : the source is encoded when it is transformed in an unreadable yet still executable form. 
 
@@ -29,3 +29,5 @@ Encoding is also used for code : the source is encoded when it is transformed in
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`__
+
+Related : :ref:`Multibyte String <mbstring>`, :ref:`Iconv <iconv>`, :ref:`Internationalization Functions <intl>`

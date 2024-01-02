@@ -7,7 +7,7 @@ Iconv
 
 The ``iconv`` extension allows you to convert strings from one character encoding to another, and it also supports transliteration and character set detection. This is particularly important when dealing with data that may come from different sources with various character encodings.
 
-``iconv`` is both a PHP function, a PHP extension and an independant library for character encoding conversion. 
+``iconv`` is both a PHP function, a PHP extension and an independent library for character encoding conversion. 
 
 .. code-block:: php
    

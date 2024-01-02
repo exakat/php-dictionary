@@ -8,7 +8,7 @@ In PHP, relaxed comparison, also known as loose comparison, is a comparison styl
 
 When using relaxed comparison (``==``), PHP will attempt to convert the operands to compatible types before comparing them. If the operands are of different types, PHP will perform type coercion to make them comparable.
 
-Relaxed comparison is associated with ``==``, ``!=`` and ``<>``. It also applies to switch(), the spaceship operator ``<=>``, and the inegalities ``>``, ``<``, ``>=``, ``<=``. 
+Relaxed comparison is associated with ``==``, ``!=`` and ``<>``. It also applies to switch(), the spaceship operator ``<=>``, and the inequalities ``>``, ``<``, ``>=``, ``<=``. 
 
 The contrary to relaxed comparison is the strict comparison, which includes type. 
 

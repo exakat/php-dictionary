@@ -1,4 +1,5 @@
 .. _hard-coded:
+.. _hardcoded:
 
 Hard Coded
 ----------

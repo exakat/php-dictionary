@@ -11,7 +11,7 @@ Properties, methods and classes may have a visibility. It limits the scope of th
 
 In PHP, the default visibility is public. 
 
-Visibility may no change, unless when overwiting it with a trait, or in a child class.
+Visibility may no change, unless when overwriting it with a trait, or in a child class.
 
 
 
