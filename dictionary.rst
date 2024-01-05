@@ -681,6 +681,7 @@ PHP Dictionary
    * :ref:`variable_order <variable_order>`
 * W
    * :ref:`Weak References <weak-reference>`
+   * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
    * :ref:`While <while>`
    * :ref:`Whitespace <whitespace>`

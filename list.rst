@@ -655,6 +655,7 @@ PHP Dictionary
    dictionary/visibility.ini
    dictionary/void.ini
    dictionary/weak-reference.ini
+   dictionary/webscraping.ini
    dictionary/webserver.ini
    dictionary/while.ini
    dictionary/whitespace.ini

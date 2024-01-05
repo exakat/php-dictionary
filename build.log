@@ -1,5 +1,4 @@
 No extension INI on ./human/en/Features/Dictionnaire PHP.txt
-./human/en/Features/webscraping.ini doesn't compile
 ./human/en/Features/$HTTP_RAW_POST_DATA.ini has no SeeAlso. 
 ./human/en/Features/$_get.ini has no SeeAlso. 
 ./human/en/Features/$_post.ini has no SeeAlso. 
@@ -139,7 +138,6 @@ Design by Contract has a wrong format in file ./human/en/Features/contract.ini.
 CSV injection has a wrong format in file ./human/en/Features/csv-injection.ini.
 ./human/en/Features/csv.ini has no SeeAlso. 
 ./human/en/Features/curl.ini is missing the tags attribute
-Missing title for webscraping in ./human/en/Features/curl.ini
 ./human/en/Features/custom.ini has no SeeAlso. 
 ./human/en/Features/cvs.ini has no SeeAlso. 
 ./human/en/Features/data-container.ini has no SeeAlso. 
@@ -562,7 +560,7 @@ Type system has a wrong format in file ./human/en/Features/typehint.ini.
 ./human/en/Features/view.ini has no SeeAlso. 
 ./human/en/Features/virtual-machine.ini has no SeeAlso. 
 ./human/en/Features/weak-reference.ini is missing the tags attribute
-./human/en/Features/webscraping.ini doesn't compile
+./human/en/Features/webscraping.ini has no SeeAlso. 
 ./human/en/Features/while.ini has no SeeAlso. 
 ./human/en/Features/wrapper-stream.ini has empty code for PHP. 
 ./human/en/Features/wrapper.ini last char is not a .
@@ -760,7 +758,6 @@ Missing way back from 'human/en/Features/escape-data.ini' => related[] = "csv-in
 Missing way back from 'human/en/Features/data.ini' => related[] = "csv";
 Missing way back from 'human/en/Features/format.ini' => related[] = "csv";
 Missing way back from 'human/en/Features/json.ini' => related[] = "csv";
-Missing way back from 'human/en/Features/webscraping.ini' => related[] = "curl";
 Missing way back from 'human/en/Features/block.ini' => related[] = "curly-bracket";
 Missing way back from 'human/en/Features/string.ini' => related[] = "curly-bracket";
 Missing way back from 'human/en/Features/built-in.ini' => related[] = "custom";
