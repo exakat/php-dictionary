@@ -1,4 +1,4 @@
-PHP Dictionary
+Index
 --------------------
 
 .. toctree::
