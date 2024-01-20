@@ -77,14 +77,16 @@ PHP Dictionary
    dictionary/binary-integer.ini
    dictionary/bitshit-operator.ini
    dictionary/bitwise-operator.ini
+   dictionary/blind-key.ini
    dictionary/block.ini
    dictionary/boolean.ini
    dictionary/break.ini
-   dictionary/browcap.ini
+   dictionary/browscap.ini
    dictionary/bucket.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
    dictionary/cache.ini
+   dictionary/call.ini
    dictionary/callable.ini
    dictionary/callback.ini
    dictionary/case-sensitivity.ini
@@ -175,6 +177,7 @@ PHP Dictionary
    dictionary/default-value.ini
    dictionary/default.ini
    dictionary/define.ini
+   dictionary/definition.ini
    dictionary/dependency-injection-container.ini
    dictionary/dependency-injection.ini
    dictionary/deploy.ini
@@ -193,6 +196,7 @@ PHP Dictionary
    dictionary/domainexception.ini
    dictionary/domxml.ini
    dictionary/double-quote.ini
+   dictionary/dowhile.ini
    dictionary/dry.ini
    dictionary/dsn.ini
    dictionary/dto.ini
@@ -207,6 +211,7 @@ PHP Dictionary
    dictionary/echo-tag.ini
    dictionary/echo.ini
    dictionary/ellipsis.ini
+   dictionary/email.ini
    dictionary/empty.ini
    dictionary/encoding-text.ini
    dictionary/encoding.ini
@@ -235,6 +240,7 @@ PHP Dictionary
    dictionary/extension.ini
    dictionary/extract.ini
    dictionary/facade.ini
+   dictionary/fallback-function.ini
    dictionary/fallthrough.ini
    dictionary/false.ini
    dictionary/fastcgi.ini
@@ -271,6 +277,7 @@ PHP Dictionary
    dictionary/global-variable.ini
    dictionary/global.ini
    dictionary/globals.ini
+   dictionary/god-object.ini
    dictionary/goto.ini
    dictionary/graphql.ini
    dictionary/halt-compiler.ini
@@ -373,6 +380,7 @@ PHP Dictionary
    dictionary/method.ini
    dictionary/micro-optimisation.ini
    dictionary/microservice.ini
+   dictionary/microtime.ini
    dictionary/migration.ini
    dictionary/mixed.ini
    dictionary/mock.ini
@@ -410,6 +418,7 @@ PHP Dictionary
    dictionary/object.ini
    dictionary/ocp.ini
    dictionary/octal-integer.ini
+   dictionary/one-liner.ini
    dictionary/opcode.ini
    dictionary/open-tag.ini
    dictionary/openssl.ini
@@ -420,6 +429,7 @@ PHP Dictionary
    dictionary/orm.ini
    dictionary/outgoing-data.ini
    dictionary/outofrangeexception.ini
+   dictionary/overengineer.ini
    dictionary/overflow.ini
    dictionary/overwrite.ini
    dictionary/owasp.ini
@@ -433,6 +443,7 @@ PHP Dictionary
    dictionary/parse.ini
    dictionary/parseerror.ini
    dictionary/password-ext.ini
+   dictionary/password.ini
    dictionary/path.ini
    dictionary/pcntl.ini
    dictionary/pdo.ini
@@ -515,6 +526,7 @@ PHP Dictionary
    dictionary/route.ini
    dictionary/rpc.ini
    dictionary/rubber-ducking.ini
+   dictionary/runtime-checks.ini
    dictionary/sanitation.ini
    dictionary/sapi.ini
    dictionary/scaffolding.ini
@@ -586,6 +598,7 @@ PHP Dictionary
    dictionary/switch.ini
    dictionary/system-call.ini
    dictionary/system-event.ini
+   dictionary/taint.ini
    dictionary/task-runner.ini
    dictionary/tcp.ini
    dictionary/template.ini
@@ -614,6 +627,7 @@ PHP Dictionary
    dictionary/typeerror.ini
    dictionary/typehint.ini
    dictionary/typerror.ini
+   dictionary/typo.ini
    dictionary/unary.ini
    dictionary/underflow.ini
    dictionary/unexpectedvalueexception.ini
@@ -640,7 +654,6 @@ PHP Dictionary
    dictionary/var.ini
    dictionary/var_dump.ini
    dictionary/variable-argument.ini
-   dictionary/variable-blind.ini
    dictionary/variable-scope.ini
    dictionary/variable-variable.ini
    dictionary/variable.ini

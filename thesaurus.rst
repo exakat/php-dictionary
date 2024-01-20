@@ -33,7 +33,7 @@ Attribute
 
 + :ref:`Allow Dynamic Property <allowdynamicproperty>`
 + :ref:`Attribute Class <attribute-class>`
-+ :ref:`Nested Attributes <nested-attributes>`
++ :ref:`Nested Attributes <nested-attribute>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
 + :ref:`Sensitive Parameter <sensitiveparameter>`
@@ -92,6 +92,7 @@ Concept
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
++ :ref:`Password <password>`
 + :ref:`Path <path>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Promise <promise>`
