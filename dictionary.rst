@@ -113,6 +113,7 @@ PHP Dictionary
    * :ref:`Class Wither Method <wither>`
    * :ref:`Classes <class>`
    * :ref:`Clean Architecture <clean-architecture>`
+   * :ref:`Clean Code <clean-code>`
    * :ref:`Clone <clone>`
    * :ref:`Close Tag <close-tag>`
    * :ref:`ClosedGeneratorException <closedgeneratorexception>`
@@ -160,6 +161,7 @@ PHP Dictionary
    * :ref:`Curl <curl>`
    * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`Custom <custom>`
+   * :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
@@ -423,6 +425,7 @@ PHP Dictionary
    * :ref:`new <new>`
 * O
    * :ref:`OWASP <owasp>`
+   * :ref:`Obfuscation <obfuscation>`
    * :ref:`Object <object>`
    * :ref:`Object API <object-api>`
    * :ref:`Object Injection <object-injection>`
@@ -572,6 +575,7 @@ PHP Dictionary
    * :ref:`Sensitive Parameter <sensitiveparameter>`
    * :ref:`Serialization <serialization>`
    * :ref:`Session <session>`
+   * :ref:`Session Highjacking <session-highjacking>`
    * :ref:`Shallow Clone <shallow-clone>`
    * :ref:`Short Assignations <short-assignation>`
    * :ref:`Short Syntax <short-syntax>`
@@ -594,6 +598,7 @@ PHP Dictionary
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Standalone types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
+   * :ref:`Stateful <stateful>`
    * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`
    * :ref:`Static Constant <class-constant>`

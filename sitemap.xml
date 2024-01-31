@@ -301,6 +301,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/clean-architecture.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/clean-code.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html</loc>
  </url>
  <url>
@@ -449,6 +452,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cvs.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cyclomatic-complexity.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dangling-reference.ini.html</loc>
@@ -1216,6 +1222,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/numeric-separator.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/obfuscation.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/object-api.ini.html</loc>
  </url>
  <url>
@@ -1609,6 +1618,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/session-highjacking.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html</loc>
  </url>
  <url>
@@ -1697,6 +1709,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/standalone-type.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/stateful.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/stateless.ini.html</loc>

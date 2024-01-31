@@ -11,8 +11,6 @@ The __call() method receives the name of the target-method, and a list of argume
 
 The __call() method has a related version for static methods, called `__callStatic`.
 
-
-
 .. code-block:: php
    
    <?php

@@ -105,6 +105,7 @@ Index
    dictionary/class.ini
    dictionary/class_alias.ini
    dictionary/clean-architecture.ini
+   dictionary/clean-code.ini
    dictionary/cli.ini
    dictionary/clone.ini
    dictionary/close-tag.ini
@@ -155,6 +156,7 @@ Index
    dictionary/curly-bracket.ini
    dictionary/custom.ini
    dictionary/cvs.ini
+   dictionary/cyclomatic-complexity.ini
    dictionary/dangling-reference.ini
    dictionary/data-container.ini
    dictionary/data-mapper.ini
@@ -410,6 +412,7 @@ Index
    dictionary/nullsafe-object-operator.ini
    dictionary/nullsafe.ini
    dictionary/numeric-separator.ini
+   dictionary/obfuscation.ini
    dictionary/object-api.ini
    dictionary/object-injection.ini
    dictionary/object-invasion.ini
@@ -541,6 +544,7 @@ Index
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
    dictionary/serialization.ini
+   dictionary/session-highjacking.ini
    dictionary/session.ini
    dictionary/setter.ini
    dictionary/shallow-clone.ini
@@ -571,6 +575,7 @@ Index
    dictionary/srp.ini
    dictionary/ssl.ini
    dictionary/standalone-type.ini
+   dictionary/stateful.ini
    dictionary/stateless.ini
    dictionary/statement.ini
    dictionary/static-method.ini

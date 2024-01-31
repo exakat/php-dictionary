@@ -95,6 +95,7 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/class-invasion.ini is missing the tags attribute
 ./human/en/Features/class-operator.ini has no SeeAlso. 
 ./human/en/Features/class.ini has no SeeAlso. 
+./human/en/Features/clean-code.ini has no SeeAlso. 
 ./human/en/Features/cli.ini has no SeeAlso. 
 ./human/en/Features/closure-binding.ini has no SeeAlso. 
 ./human/en/Features/closure.ini is missing the tags attribute
@@ -344,6 +345,7 @@ Logical operators has a wrong format in file ./human/en/Features/logical-operato
 ./human/en/Features/nullable.ini is missing the tags attribute
 ./human/en/Features/nullsafe.ini has no SeeAlso. 
 ./human/en/Features/numeric-separator.ini has no SeeAlso. 
+./human/en/Features/obfuscation.ini has no SeeAlso. 
 ./human/en/Features/object-api.ini has empty code for PHP. 
 Missing title for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/object-invasion.ini has no SeeAlso. 
@@ -462,6 +464,9 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/semantics.ini has no SeeAlso. 
 ./human/en/Features/semicolon.ini has no SeeAlso. 
 ./human/en/Features/serialization.ini is missing the tags attribute
+Missing title for session-fixation in ./human/en/Features/session-highjacking.ini
+Missing title for session-id in ./human/en/Features/session-highjacking.ini
+Missing title for man-in-the-middle in ./human/en/Features/session-highjacking.ini
 ./human/en/Features/session.ini is missing the tags attribute
 ./human/en/Features/shard.ini has empty code for PHP. 
 ./human/en/Features/shard.ini has no description. Omitting. 
@@ -1200,6 +1205,9 @@ Missing way back from 'human/en/Features/__serialize.ini' => related[] = "serial
 Missing way back from 'human/en/Features/rpc.ini' => related[] = "serialize";
 Missing way back from 'human/en/Features/message-queue.ini' => related[] = "serialize";
 Missing way back from 'human/en/Features/cache.ini' => related[] = "serialize";
+Missing way back from 'human/en/Features/session-fixation.ini' => related[] = "session-highjacking";
+Missing way back from 'human/en/Features/session-id.ini' => related[] = "session-highjacking";
+Missing way back from 'human/en/Features/man-in-the-middle.ini' => related[] = "session-highjacking";
 Missing way back from 'human/en/Features/class.ini' => related[] = "setter";
 Missing way back from 'human/en/Features/magic-method.ini' => related[] = "shallow-clone";
 Missing way back from 'human/en/Features/assignation.ini' => related[] = "combined-operator";

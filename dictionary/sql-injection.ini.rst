@@ -27,6 +27,6 @@ Among the solutions to mitigate this problem : filter adequately the incoming da
 
 `Documentation <https://www.php.net/manual/en/security.database.sql-injection.php>`__
 
-See also `SQL Injection in PHP Web Applications <https://brightsec.com/blog/php-sql-injection/>`_
+See also `SQL Injection in PHP Web Applications <https://brightsec.com/blog/php-sql-injection/>`_, `What is SQL injection and how to prevent it? <https://docs.php.earth/security/sql-injection/>`_
 
 Related : :ref:`Semicolon <semicolon>`, :ref:`Prepared Query <prepared-query>`, :ref:`Injection <injection>`
