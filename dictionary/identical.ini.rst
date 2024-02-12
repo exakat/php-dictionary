@@ -1,6 +1,6 @@
 .. _identical:
 
-Identical operator
+Identical Operator
 ------------------
 
 Identical is the state of two variables, which contains the same data, with the same type. It is the same as equality, without the type-juggling.

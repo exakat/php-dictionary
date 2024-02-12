@@ -1,6 +1,6 @@
 .. _standalone-types:
 
-Standalone types
+Standalone Types
 ----------------
 
 Types are standalone, as they can be use alone, in a type declaration. This is the case of almost any type of PHP, scalar, or class. The only exception used to be false and null.

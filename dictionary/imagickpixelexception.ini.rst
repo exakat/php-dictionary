@@ -13,12 +13,15 @@ ImagickPixelException is related to the Imagick extension.
    
    <?php
    
-   // invalid creation
-   new ImagickPixel("LightCorral");
-   
-   // valid creation
-   new ImagickPixel("LightCoral");
-   
+   try {
+   	// valid creation
+   	new ImagickPixel("LightCoral");
+   	
+   	// invalid creation
+   	new ImagickPixel("LightCorral");
+   } catch (ImagickPixelException $e) {
+   	log(Error while creating a pixel);
+   }
    ?>
 
 

@@ -14,7 +14,7 @@ PHP Dictionary
 * .
    * :ref:`.htaccess <htaccess>`
 * _
-   * :ref:`__call() method <-__call>`
+   * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() method <-__callStatic>`
    * :ref:`__clone() method <-__clone>`
    * :ref:`__get() method <-__get>`
@@ -25,7 +25,7 @@ PHP Dictionary
    * :ref:`__set() method <-__set>`
    * :ref:`__set_state() method <-__set_state>`
    * :ref:`__sleep() method <-__sleep>`
-   * :ref:`__toString() method <-__tostring>`
+   * :ref:`__toString() Method <-__tostring>`
    * :ref:`__unserialize() method <-__unserialize>`
    * :ref:`__wakeup() method <-__wakeup>`
 * A
@@ -313,7 +313,7 @@ PHP Dictionary
 * I
    * :ref:`Iconv <iconv>`
    * :ref:`Idempotent <idempotent>`
-   * :ref:`Identical operator <identical>`
+   * :ref:`Identical Operator <identical>`
    * :ref:`If Then Else <if-then>`
    * :ref:`Iffectation <iffectation>`
    * :ref:`ImagickException <imagickexception>`
@@ -384,6 +384,7 @@ PHP Dictionary
    * :ref:`Magic Methods <magic-method>`
    * :ref:`Magic Numbers <magic-number>`
    * :ref:`Magic Property <magic-property>`
+   * :ref:`Man In The Middle <man-in-the-middle>`
    * :ref:`Map <map>`
    * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
@@ -556,8 +557,8 @@ PHP Dictionary
    * :ref:`SAPI <sapi>`
    * :ref:`SOAP <soap>`
    * :ref:`SOLID <solid>`
+   * :ref:`SQL Injection <sql-injection>`
    * :ref:`SQL Views <view-sql>`
-   * :ref:`SQL injection <sql-injection>`
    * :ref:`SSL <ssl>`
    * :ref:`SVMException <svmexception>`
    * :ref:`SVN <svn>`
@@ -576,6 +577,7 @@ PHP Dictionary
    * :ref:`Sensitive Parameter <sensitiveparameter>`
    * :ref:`Serialization <serialization>`
    * :ref:`Session <session>`
+   * :ref:`Session Fixation <session-fixation>`
    * :ref:`Session Highjacking <session-highjacking>`
    * :ref:`Shallow Clone <shallow-clone>`
    * :ref:`Short Assignations <short-assignation>`
@@ -597,7 +599,7 @@ PHP Dictionary
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Types <special-type>`
    * :ref:`Sqlite3 <sqlite>`
-   * :ref:`Standalone types <standalone-types>`
+   * :ref:`Standalone Types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
    * :ref:`Stateful <stateful>`
    * :ref:`Stateless <stateless>`

@@ -36,6 +36,6 @@ Other special types are the scalar types.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`Type system <type>`, :ref:`Special Types <special-type>`
+Related : :ref:`Type system <type>`
 
 Added in PHP 7.0

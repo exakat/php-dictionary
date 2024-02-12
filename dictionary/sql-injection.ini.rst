@@ -1,6 +1,6 @@
 .. _sql-injection:
 
-SQL injection
+SQL Injection
 -------------
 
 A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query. 

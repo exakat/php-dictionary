@@ -8,7 +8,7 @@ Escape sequences are sequences of characters with a special meaning. Most of the
 
 An escape sequence is dedicated to a technology, and they are rare the same between two technologies, or even, between two engines dedicated to that technology.
 
-Examples of escape sequences ; 
+Here are some examples of escape sequences.
 
 PHP, in strings: 
   + \n (new line)

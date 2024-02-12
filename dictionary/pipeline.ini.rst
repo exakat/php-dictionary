@@ -19,4 +19,4 @@ The pipeline image is related to the assembly line, from factories.
 
 See also `Laravel: When to use Pipelines? How to test them? <https://darkghosthunter.medium.com/laravel-when-to-use-pipelines-how-to-test-them-8993ed93e735>`_, `Understanding the pipeline pattern <https://matthewdaly.co.uk/blog/2018/10/05/understanding-the-pipeline-pattern/>`_
 
-Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `thephpleague/pipeline <https://packagist.org/packages/thephpleague/pipeline>`_
+Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `league/pipeline <https://packagist.org/packages/league/pipeline>`_

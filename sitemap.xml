@@ -1102,6 +1102,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/magic.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/man-in-the-middle.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/map.ini.html</loc>
  </url>
  <url>
@@ -1619,6 +1622,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/session-fixation.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/session-highjacking.ini.html</loc>

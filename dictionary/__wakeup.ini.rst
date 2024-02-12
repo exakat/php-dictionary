@@ -5,7 +5,7 @@ __wakeup() method
 
 __wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition. 
 
-In particular, some resources, such as database connexions or files cannot be serialized. They should be closed, stored as a path in __sleep(), and reopened later with __wakeup().
+In particular, some resources, such as database connections or files cannot be serialized. They should be closed, stored as a path in __sleep(), and reopened later with __wakeup().
 
 The __wakeup() method is usually paired with the __sleep() method. 
 

@@ -11,5 +11,3 @@ In PHP, dirname() provides the dirname from a path, based on the `/` separator. 
 
 
 `Documentation <https://www.php.net/manual/en/function.dirname.php>`__
-
-Related : :ref:`dirname <dirname>`

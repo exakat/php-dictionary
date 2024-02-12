@@ -12,4 +12,4 @@ Packagist makes it easy for developers to share their packages with the communit
 
 See also `Composer <https://www.getcomposer.org/>`_
 
-Related : :ref:`Packagist <packagist>`, :ref:`Composer <composer>`
+Related : :ref:`Composer <composer>`

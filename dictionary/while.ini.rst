@@ -27,4 +27,4 @@ Part of the loop execution may be skipped by using the ``continue`` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.while.php>`__
 
-Related : :ref:`Continue <continue>`, :ref:`Do...while <dowhile>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`, :ref:`While <while>`
+Related : :ref:`Continue <continue>`, :ref:`Do...while <dowhile>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`

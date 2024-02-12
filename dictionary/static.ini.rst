@@ -41,4 +41,4 @@ Static is a keyword for variables : those variables aren't removed at the end of
 
 See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `Scope of Variables <https://jobtensor.com/Tutorial/PHP/en/Variables>`_
 
-Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`
+Related : :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`

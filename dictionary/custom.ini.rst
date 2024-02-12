@@ -20,4 +20,4 @@ A custom asset is usually the last to be defined, and, as such, has to use a dis
    ?>
 
 
-Related : :ref:`Native <built-in>`, :ref:`Custom <custom>`
+Related : :ref:`Native <built-in>`

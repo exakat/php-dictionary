@@ -7,9 +7,7 @@ Callbacks are functions or methods which are used as parameters for other functi
 
 Callback is akin to a functioncall : it is actually hidden inside the caller function. 
 
-Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string (i.e., `'strtolower'`) and array (i.e. `[X::class, 'methodName']`, or `[$object, 'methodName']` ) syntax. In fact, anything that is_callable() may be used. 
-
-
+Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string (such as `'strtolower'`) and array (such as `[X::class, 'methodName']`, or `[$object, 'methodName']` ) syntax. In fact, anything that is_callable() may be used.
 
 .. code-block:: php
    

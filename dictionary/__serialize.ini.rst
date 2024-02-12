@@ -34,4 +34,6 @@ If no array is returned a ``TypeError`` will be thrown.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.serialize>`__
 
-Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize() method <-__unserialize>`
+See also `Serializing Data In PHP <https://www.phparch.com/2023/02/serializing-data-in-php/>`_
+
+Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize() method <-__unserialize>`, :ref:`Serialization <serialization>`, :ref:`Serialization <serialize>`, :ref:`Unserialization <unserialization>`

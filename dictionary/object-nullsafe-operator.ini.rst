@@ -29,4 +29,4 @@ Object Nullsafe Operator is directly related to the Object operator : the differ
 
 See also `Object Operator in PHP <https://www.delftstack.com/howto/php/php-object-operator/>`_
 
-Related : :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
+Related : :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Object Operator -> <object-operator>`

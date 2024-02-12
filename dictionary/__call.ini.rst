@@ -1,17 +1,15 @@
 .. _-__call:
 
-__call() method
+__call() Method
 ---------------
 
 __call() is a magic method : it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
 
 That way, it is possible to create dynamically methods, without hardcoding them. 
 
-The __call() method receives the name of the target-method, and a list of argument. 
+The __call() method receives the name of the target-method, and a list of argument, as an array. 
 
-The __call() method has a related version for static methods, called `__callStatic`.
-
-
+The __call() method has a related version for static methods, called ``__callStatic``.
 
 .. code-block:: php
    
@@ -39,4 +37,4 @@ The __call() method has a related version for static methods, called `__callStat
 
 See also `PHP _call (Lesson 3: PHP Magic Methods) <https://dev.to/cleancodestudio/php-call-lesson-3-php-magic-methods-5bi0>`_
 
-Related : :ref:`__callStatic() method <-__callStatic>`, :ref:`Magic Methods <magic-method>`
+Related : :ref:`__callStatic() method <-__callStatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`

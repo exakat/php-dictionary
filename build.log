@@ -6,7 +6,6 @@ No extension INI on ./human/en/Features/Dictionnaire PHP.txt
 ./human/en/Features/$argc.ini has no SeeAlso. 
 ./human/en/Features/$argv.ini has no SeeAlso. 
 ./human/en/Features/$php_errormsg.ini has no SeeAlso. 
-__call() method has a wrong format in file ./human/en/Features/__call.ini.
 __callStatic() method has a wrong format in file ./human/en/Features/__callstatic.ini.
 __clone() method has a wrong format in file ./human/en/Features/__clone.ini.
 __get() method has a wrong format in file ./human/en/Features/__get.ini.
@@ -17,13 +16,11 @@ __isset() method has a wrong format in file ./human/en/Features/__isset.ini.
 ./human/en/Features/__isset.ini has no SeeAlso. 
 __serialize() method has a wrong format in file ./human/en/Features/__serialize.ini.
 ./human/en/Features/__serialize.ini is missing the tags attribute
-./human/en/Features/__serialize.ini has no SeeAlso. 
 __set() method has a wrong format in file ./human/en/Features/__set.ini.
 ./human/en/Features/__set.ini has no SeeAlso. 
 __set_state() method has a wrong format in file ./human/en/Features/__set_state.ini.
 ./human/en/Features/__set_state.ini has no SeeAlso. 
 __sleep() method has a wrong format in file ./human/en/Features/__sleep.ini.
-__toString() method has a wrong format in file ./human/en/Features/__tostring.ini.
 __unserialize() method has a wrong format in file ./human/en/Features/__unserialize.ini.
 ./human/en/Features/__unserialize.ini is missing the tags attribute
 ./human/en/Features/__unserialize.ini has no SeeAlso. 
@@ -81,7 +78,6 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/bucket.ini has no SeeAlso. 
 ./human/en/Features/by-value.ini has no SeeAlso. 
 ./human/en/Features/call.ini has no SeeAlso. 
-./human/en/Features/callback.ini is missing the tags attribute
 ./human/en/Features/case-sensitivity.ini last char is not a .
 ./human/en/Features/case-sensitivity.ini has no SeeAlso. 
 ./human/en/Features/case.ini has no SeeAlso. 
@@ -193,7 +189,7 @@ DRY : don't repeat yourself has a wrong format in file ./human/en/Features/dry.i
 ./human/en/Features/encoding-text.ini has no SeeAlso. 
 ./human/en/Features/encoding.ini last char is not a .
 ./human/en/Features/encoding.ini has no SeeAlso. 
-Missing title for http-encoding in ./human/en/Features/encoding.ini
+Missing target related link for http-encoding in ./human/en/Features/encoding.ini
 ./human/en/Features/engine.ini has no SeeAlso. 
 ./human/en/Features/entity.ini has no SeeAlso. 
 ./human/en/Features/enum-backed.ini has no SeeAlso. 
@@ -217,7 +213,6 @@ Missing title for http-encoding in ./human/en/Features/encoding.ini
 ./human/en/Features/fastcgi.ini has no SeeAlso. 
 ./human/en/Features/filesystemiterator.ini has no SeeAlso. 
 ./human/en/Features/final-class-constant.ini has no SeeAlso. 
-./human/en/Features/first-class-callable.ini has no SeeAlso. 
 ./human/en/Features/fluent-interface.ini is missing the tags attribute
 ./human/en/Features/foreach.ini has no SeeAlso. 
 ./human/en/Features/form.ini has no SeeAlso. 
@@ -259,11 +254,9 @@ HTTP headers has a wrong format in file ./human/en/Features/http-header.ini.
 ./human/en/Features/http.ini has no SeeAlso. 
 ./human/en/Features/https.ini has no SeeAlso. 
 ./human/en/Features/idempotent.ini has no SeeAlso. 
-Identical operator has a wrong format in file ./human/en/Features/identical.ini.
 ./human/en/Features/if-then.ini has no SeeAlso. 
 ./human/en/Features/iffectation.ini is missing the tags attribute
 ./human/en/Features/iffectation.ini has no SeeAlso. 
-./human/en/Features/imagickexception.ini is missing the tags attribute
 ./human/en/Features/imagickpixelexception.ini has no SeeAlso. 
 ./human/en/Features/immutable.ini is missing the tags attribute
 ./human/en/Features/implements.ini has no SeeAlso. 
@@ -324,6 +317,7 @@ Logical operators has a wrong format in file ./human/en/Features/logical-operato
 ./human/en/Features/magic-number.ini last char is not a .
 ./human/en/Features/magic-property.ini has no SeeAlso. 
 ./human/en/Features/magic.ini is missing the tags attribute
+Missing target related link for session_highjacking in ./human/en/Features/man-in-the-middle.ini
 ./human/en/Features/mbstring.ini has no SeeAlso. 
 ./human/en/Features/memoization.ini has no SeeAlso. 
 ./human/en/Features/method.ini has no SeeAlso. 
@@ -347,7 +341,7 @@ Logical operators has a wrong format in file ./human/en/Features/logical-operato
 ./human/en/Features/numeric-separator.ini has no SeeAlso. 
 ./human/en/Features/obfuscation.ini has no SeeAlso. 
 ./human/en/Features/object-api.ini has empty code for PHP. 
-Missing title for mysqli in ./human/en/Features/object-api.ini
+Missing target related link for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/object-invasion.ini has no SeeAlso. 
 ./human/en/Features/object-operator.ini has no SeeAlso. 
 ./human/en/Features/object.ini is missing the tags attribute
@@ -395,8 +389,8 @@ One liner has a wrong format in file ./human/en/Features/one-liner.ini.
 ./human/en/Features/pharexception.ini has no SeeAlso. 
 ./human/en/Features/php-extension.ini has no SeeAlso. 
 ./human/en/Features/php-native-attribute.ini last char is not a .
-Missing title for allowdynamicproperties in ./human/en/Features/php-native-attribute.ini
-Missing title for override in ./human/en/Features/php-native-attribute.ini
+Missing target related link for allowdynamicproperties in ./human/en/Features/php-native-attribute.ini
+Missing target related link for override in ./human/en/Features/php-native-attribute.ini
 PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/php-tag.ini is missing the tags attribute
 ./human/en/Features/php-tag.ini has no SeeAlso. 
@@ -464,9 +458,7 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/semantics.ini has no SeeAlso. 
 ./human/en/Features/semicolon.ini has no SeeAlso. 
 ./human/en/Features/serialization.ini is missing the tags attribute
-Missing title for session-fixation in ./human/en/Features/session-highjacking.ini
-Missing title for session-id in ./human/en/Features/session-highjacking.ini
-Missing title for man-in-the-middle in ./human/en/Features/session-highjacking.ini
+Missing target related link for session-id in ./human/en/Features/session-highjacking.ini
 ./human/en/Features/session.ini is missing the tags attribute
 ./human/en/Features/shard.ini has empty code for PHP. 
 ./human/en/Features/shard.ini has no description. Omitting. 
@@ -483,23 +475,15 @@ Missing title for man-in-the-middle in ./human/en/Features/session-highjacking.i
 ./human/en/Features/soap.ini has no SeeAlso. 
 ./human/en/Features/socket.ini has no SeeAlso. 
 ./human/en/Features/sort.ini is missing the tags attribute
-./human/en/Features/special-typehint.ini is missing the tags attribute
 ./human/en/Features/special-typehint.ini has no SeeAlso. 
 ./human/en/Features/spl.ini is missing the tags attribute
 ./human/en/Features/spl.ini has no SeeAlso. 
-SQL injection has a wrong format in file ./human/en/Features/sql-injection.ini.
-./human/en/Features/sql.ini is missing the tags attribute
 ./human/en/Features/sql.ini has no SeeAlso. 
 ./human/en/Features/sqlite3.ini is missing the tags attribute
 ./human/en/Features/ssl.ini is missing the tags attribute
 ./human/en/Features/ssl.ini has no SeeAlso. 
-Standalone types has a wrong format in file ./human/en/Features/standalone-type.ini.
 ./human/en/Features/statement.ini has no SeeAlso. 
-./human/en/Features/static-method.ini is missing the tags attribute
-./human/en/Features/static-property.ini is missing the tags attribute
 ./human/en/Features/static-property.ini has no SeeAlso. 
-./human/en/Features/stdclass.ini is missing the tags attribute
-./human/en/Features/stdclass.ini has no SeeAlso. 
 Storage systems has a wrong format in file ./human/en/Features/storage-system.ini.
 ./human/en/Features/storage-system.ini has no SeeAlso. 
 ./human/en/Features/stream.ini has no SeeAlso. 
@@ -515,7 +499,7 @@ Storage systems has a wrong format in file ./human/en/Features/storage-system.in
 ./human/en/Features/system-call.ini has no SeeAlso. 
 ./human/en/Features/system-event.ini has no SeeAlso. 
 ./human/en/Features/taint.ini has no SeeAlso. 
-Missing title for security in ./human/en/Features/taint.ini
+Missing target related link for security in ./human/en/Features/taint.ini
 ./human/en/Features/template.ini has no SeeAlso. 
 Three dots has a wrong format in file ./human/en/Features/three-dots.ini.
 ./human/en/Features/three-dots.ini is missing the tags attribute
@@ -552,7 +536,6 @@ Type system has a wrong format in file ./human/en/Features/typehint.ini.
 ./human/en/Features/unused.ini has no SeeAlso. 
 ./human/en/Features/uopz.ini has no SeeAlso. 
 ./human/en/Features/upload.ini is missing the tags attribute
-./human/en/Features/use-alias.ini is missing the tags attribute
 ./human/en/Features/use-alias.ini has no SeeAlso. 
 ./human/en/Features/use.ini has no SeeAlso. 
 ./human/en/Features/userland.ini has no SeeAlso. 
@@ -575,11 +558,14 @@ Type system has a wrong format in file ./human/en/Features/typehint.ini.
 ./human/en/Features/wrapper-stream.ini has empty code for PHP. 
 ./human/en/Features/wrapper.ini last char is not a .
 ./human/en/Features/wrapper.ini has no SeeAlso. 
-Missing title for wrapper-pattern in ./human/en/Features/wrapper.ini
+Missing target related link for wrapper-pattern in ./human/en/Features/wrapper.ini
 ./human/en/Features/xml.ini is missing the tags attribute
 ./human/en/Features/xml.ini has no SeeAlso. 
 ./human/en/Features/xmlreader.ini has some empty seeAlso. 
 yield from Keyword has a wrong format in file ./human/en/Features/yield-from.ini.
+Missing way back from 'human/en/Features/method.ini' => related[] = "__call";
+Missing way back from 'human/en/Features/strict_types.ini' => related[] = "__tostring";
+Missing way back from 'human/en/Features/cast.ini' => related[] = "__tostring";
 Missing way back from 'human/en/Features/stream.ini' => related[] = "abstraction-layer";
 Missing way back from 'human/en/Features/pdo.ini' => related[] = "abstraction-layer";
 Missing way back from 'human/en/Features/intl.ini' => related[] = "accessibility";
@@ -614,12 +600,10 @@ Missing way back from 'human/en/Features/try-catch.ini' => related[] = "argument
 Missing way back from 'human/en/Features/throw.ini' => related[] = "arithmeticerror";
 Missing way back from 'human/en/Features/try-catch.ini' => related[] = "arithmeticerror";
 Missing way back from 'human/en/Features/index-array.ini' => related[] = "array-short-syntax";
-Missing way back from 'human/en/Features/first-class-callable.ini' => related[] = "arrow-function";
 Missing way back from 'human/en/Features/static.ini' => related[] = "fn";
 Missing way back from 'human/en/Features/function.ini' => related[] = "fn";
 Missing way back from 'human/en/Features/closure.ini' => related[] = "fn";
 Missing way back from 'human/en/Features/anonymous-function.ini' => related[] = "fn";
-Missing way back from 'human/en/Features/first-class-callable.ini' => related[] = "fn";
 Missing way back from 'human/en/Features/foreach.ini' => related[] = "as";
 Missing way back from 'human/en/Features/use-alias.ini' => related[] = "as";
 Missing way back from 'human/en/Features/alias.ini' => related[] = "as";
@@ -653,7 +637,6 @@ Missing way back from 'human/en/Features/enum.ini' => related[] = "case";
 Missing way back from 'human/en/Features/switch.ini' => related[] = "case";
 Missing way back from 'human/en/Features/switch-case.ini' => related[] = "case";
 Missing way back from 'human/en/Features/try-catch.ini' => related[] = "catch";
-Missing way back from 'human/en/Features/fastcgi.ini' => related[] = "cgi";
 Missing way back from 'human/en/Features/cli.ini' => related[] = "cgi";
 Missing way back from 'human/en/Features/pipeline.ini' => related[] = "ci";
 Missing way back from 'human/en/Features/release.ini' => related[] = "ci";
@@ -682,11 +665,11 @@ Missing way back from 'human/en/Features/closure.ini' => related[] = "closure-bi
 Missing way back from 'human/en/Features/static.ini' => related[] = "anonymous-functions";
 Missing way back from 'human/en/Features/arrow-function.ini' => related[] = "anonymous-functions";
 Missing way back from 'human/en/Features/anonymous-function.ini' => related[] = "anonymous-functions";
-Missing way back from 'human/en/Features/closure.ini' => related[] = "anonymous-functions";
+Missing way back from 'human/en/Features/first-class-callable.ini' => related[] = "anonymous-functions";
 Missing way back from 'human/en/Features/static.ini' => related[] = "lambda-functions";
 Missing way back from 'human/en/Features/arrow-function.ini' => related[] = "lambda-functions";
 Missing way back from 'human/en/Features/anonymous-function.ini' => related[] = "lambda-functions";
-Missing way back from 'human/en/Features/closure.ini' => related[] = "lambda-functions";
+Missing way back from 'human/en/Features/first-class-callable.ini' => related[] = "lambda-functions";
 Missing way back from 'human/en/Features/ternary.ini' => related[] = "null-coalesce";
 Missing way back from 'human/en/Features/short-ternary.ini' => related[] = "null-coalesce";
 Missing way back from 'human/en/Features/ternary.ini' => related[] = "null-ternary";
@@ -874,7 +857,6 @@ Missing way back from 'human/en/Features/cli.ini' => related[] = "fastcgi";
 Missing way back from 'human/en/Features/file.ini' => related[] = "file-system";
 Missing way back from 'human/en/Features/directoryiterator.ini' => related[] = "filesystemiterator";
 Missing way back from 'human/en/Features/final.ini' => related[] = "final-class-constant";
-Missing way back from 'human/en/Features/closure.ini' => related[] = "first-class-callable";
 Missing way back from 'human/en/Features/mock.ini' => related[] = "fixture";
 Missing way back from 'human/en/Features/real.ini' => related[] = "double";
 Missing way back from 'human/en/Features/final.ini' => related[] = "fluent-interface";
@@ -898,6 +880,7 @@ Missing way back from 'human/en/Features/namespace.ini' => related[] = "fqcn";
 Missing way back from 'human/en/Features/dereferencing.ini' => related[] = "function-subscripting";
 Missing way back from 'human/en/Features/dereferencing.ini' => related[] = "subscripting";
 Missing way back from 'human/en/Features/closure.ini' => related[] = "function";
+Missing way back from 'human/en/Features/method.ini' => related[] = "function";
 Missing way back from 'human/en/Features/anonymous-function.ini' => related[] = "function";
 Missing way back from 'human/en/Features/zval.ini' => related[] = "garbage-collection";
 Missing way back from 'human/en/Features/reference.ini' => related[] = "garbage-collection";
@@ -1013,6 +996,7 @@ Missing way back from 'human/en/Features/__set.ini' => related[] = "magic-proper
 Missing way back from 'human/en/Features/magic-method.ini' => related[] = "magic";
 Missing way back from 'human/en/Features/convention.ini' => related[] = "magic";
 Missing way back from 'human/en/Features/configuration.ini' => related[] = "magic";
+Missing way back from 'human/en/Features/session_highjacking.ini' => related[] = "man-in-the-middle";
 Missing way back from 'human/en/Features/array.ini' => related[] = "map";
 Missing way back from 'human/en/Features/index-array.ini' => related[] = "map";
 Missing way back from 'human/en/Features/iconv.ini' => related[] = "mbstring";
@@ -1051,6 +1035,7 @@ Missing way back from 'human/en/Features/integer.ini' => related[] = "integer-se
 Missing way back from 'human/en/Features/mysqli.ini' => related[] = "object-api";
 Missing way back from 'human/en/Features/serialization.ini' => related[] = "object-injection";
 Missing way back from 'human/en/Features/serialization.ini' => related[] = "deserialize-injection";
+Missing way back from 'human/en/Features/object-operator.ini' => related[] = "object-nullsafe-operator";
 Missing way back from 'human/en/Features/visibility.ini' => related[] = "object";
 Missing way back from 'human/en/Features/abstract.ini' => related[] = "object";
 Missing way back from 'human/en/Features/final.ini' => related[] = "object";
@@ -1196,12 +1181,10 @@ Missing way back from 'human/en/Features/keyword.ini' => related[] = "self";
 Missing way back from 'human/en/Features/colon.ini' => related[] = "semicolon";
 Missing way back from 'human/en/Features/switch.ini' => related[] = "semicolon";
 Missing way back from 'human/en/Features/for.ini' => related[] = "semicolon";
-Missing way back from 'human/en/Features/__serialize.ini' => related[] = "serialization";
 Missing way back from 'human/en/Features/__unserialize.ini' => related[] = "serialization";
 Missing way back from 'human/en/Features/rpc.ini' => related[] = "serialization";
 Missing way back from 'human/en/Features/message-queue.ini' => related[] = "serialization";
 Missing way back from 'human/en/Features/cache.ini' => related[] = "serialization";
-Missing way back from 'human/en/Features/__serialize.ini' => related[] = "serialize";
 Missing way back from 'human/en/Features/rpc.ini' => related[] = "serialize";
 Missing way back from 'human/en/Features/message-queue.ini' => related[] = "serialize";
 Missing way back from 'human/en/Features/cache.ini' => related[] = "serialize";
@@ -1233,7 +1216,6 @@ Missing way back from 'human/en/Features/array.ini' => related[] = "sorting";
 Missing way back from 'human/en/Features/closure.ini' => related[] = "sorting";
 Missing way back from 'human/en/Features/type.ini' => related[] = "special-type";
 Missing way back from 'human/en/Features/type.ini' => related[] = "special-typehint";
-Missing way back from 'human/en/Features/special-type.ini' => related[] = "special-typehint";
 Missing way back from 'human/en/Features/autoload.ini' => related[] = "spl";
 Missing way back from 'human/en/Features/string.ini' => related[] = "sprintf";
 Missing way back from 'human/en/Features/format.ini' => related[] = "sprintf";
@@ -1244,6 +1226,9 @@ Missing way back from 'human/en/Features/format.ini' => related[] = "printf";
 Missing way back from 'human/en/Features/semicolon.ini' => related[] = "sql-injection";
 Missing way back from 'human/en/Features/prepared-query.ini' => related[] = "sql-injection";
 Missing way back from 'human/en/Features/pdo.ini' => related[] = "sql";
+Missing way back from 'human/en/Features/rdbms.ini' => related[] = "sql";
+Missing way back from 'human/en/Features/orm.ini' => related[] = "sql";
+Missing way back from 'human/en/Features/active-record.ini' => related[] = "sql";
 Missing way back from 'human/en/Features/sql.ini' => related[] = "sqlite";
 Missing way back from 'human/en/Features/pdo.ini' => related[] = "sqlite";
 Missing way back from 'human/en/Features/method.ini' => related[] = "static-method";
@@ -1331,7 +1316,6 @@ Missing way back from 'human/en/Features/xmlwriter.ini' => related[] = "unicode"
 Missing way back from 'human/en/Features/xmlreader.ini' => related[] = "unicode";
 Missing way back from 'human/en/Features/variadic.ini' => related[] = "unpacking";
 Missing way back from 'human/en/Features/variadic.ini' => related[] = "unpack";
-Missing way back from 'human/en/Features/__serialize.ini' => related[] = "unserialization";
 Missing way back from 'human/en/Features/__unserialize.ini' => related[] = "unserialization";
 Missing way back from 'human/en/Features/variable.ini' => related[] = "unset";
 Missing way back from 'human/en/Features/version.ini' => related[] = "upgrade";

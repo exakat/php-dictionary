@@ -14,4 +14,4 @@ Session highjacking is mitigated by having a way to identify if a user is the ac
 
 See also `Session And Security in PHP <https://sjinnovation.com/session-and-security-in-php>`_, `PHP Security Vulnerabilities: Session Hijacking, Cross-Site Scripting, SQL Injection, and How to Fix Them <https://www.freecodecamp.org/news/php-security-vulnerabilities/>`_
 
-Related : , , 
+Related : :ref:`Session Fixation <session-fixation>`, , :ref:`Man In The Middle <man-in-the-middle>`

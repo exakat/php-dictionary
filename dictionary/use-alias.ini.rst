@@ -22,5 +22,3 @@ The use operator can create aliases for a class, function or constant. After the
 
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
-
-Related : :ref:`Use Alias <use-alias>`

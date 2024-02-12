@@ -3,7 +3,7 @@
 Increment
 ---------
 
-Increment generally refers to the process of increasing or adding a small amount to a value, or simply by one unit.
+Increment generally refers to the process of increasing or adding a small amount to a value, or simply one unit.
 
 In PHP, increments usually refer to the pre-plusplus and post-plusplus.
 
@@ -13,12 +13,11 @@ In PHP, increments usually refer to the pre-plusplus and post-plusplus.
    
    $a = 1;
    
-   ++$a; // pre plus plus 
+   echo ++$a; // pre plus plus : displays 1, and $a ends with 2
    
-   $a++; // post plus plus 
+   echo $a++; // post plus plus 
    
-   $a += 1; // increment 
-   
+   echo $a += 1; // increment 
    
    ?>
 

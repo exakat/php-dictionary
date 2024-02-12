@@ -1,15 +1,17 @@
 .. _-__tostring:
 
-__toString() method
+__toString() Method
 -------------------
 
-__tostring() is a magic method : it is called when the object has to be turned into a string.
+__tostring() is a magic method : it is called when the object has to be converted into a string.
 
 That way, it is possible to dynamically convert the object to a string and display it, or transmit it to another part of the application. 
 
-__toString() is called when strict_type is not active. Otherwise, passing an object to a string parameter yields an error.
+__toString() is called when ``strict_types`` is not active. Otherwise, passing an object to a string parameter yields an error: it requires an explicit type cast.
 
 __toString() is always called in concatenation, and string interpolation.
+
+There is no magic method to convert an object to another type.
 
 
 
@@ -34,6 +36,8 @@ __toString() is always called in concatenation, and string interpolation.
    
    echo new x;
    
+   $y = (string) new x;
+   
    ?>
 
 
@@ -41,4 +45,4 @@ __toString() is always called in concatenation, and string interpolation.
 
 See also `PHP __toString <https://www.phptutorial.net/php-oop/php-__tostring/>`_
 
-Related : :ref:`Magic Methods <magic-method>`
+Related : :ref:`strict_types <strict_types>`, :ref:`Magic Methods <magic-method>`, :ref:`Cast Operator <cast>`

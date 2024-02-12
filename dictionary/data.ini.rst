@@ -10,4 +10,4 @@ Data may be structured or unstructured, raw or processed, insecure or validated.
 
 `Documentation <https://en.wikipedia.org/wiki/Data_(computer_science)>`__
 
-Related : :ref:`Data <data>`, :ref:`Format <format>`
+Related : :ref:`Format <format>`

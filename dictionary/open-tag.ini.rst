@@ -26,4 +26,4 @@ There is another open tag, called `echo tag`. ``<?=`` starts PHP execution, and 
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-Related : :ref:`Echo Tag <echo-tag>`, :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`
+Related : :ref:`Echo Tag <echo-tag>`, :ref:`Short Tags <short-tag>`

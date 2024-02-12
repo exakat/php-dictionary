@@ -21,6 +21,8 @@ Such closure may be created using any kind of function, such as native PHP funct
 
 `Documentation <https://www.php.net/closure>`__
 
-Related : :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`
+See also `PHP's First-Class Callable Syntax <https://dev.to/damms005/phps-first-class-callable-syntax-1kjl>`_
+
+Related : :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`Arrow Functions <fn>`, :ref:`Arrow Functions <arrow-function>`
 
 Added in PHP 8.1

@@ -234,7 +234,7 @@ Type
 + :ref:`Never Type <never>`
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
-+ :ref:`Standalone types <standalone-types>`
++ :ref:`Standalone Types <standalone-types>`
 + :ref:`Stringable <stringable>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
@@ -243,12 +243,12 @@ Type
 Magic method
 ------------
 
-+ :ref:`__call() method <-__call>`
++ :ref:`__call() Method <-__call>`
 + :ref:`__callStatic() method <-__callStatic>`
 + :ref:`__get() method <-__get>`
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
 + :ref:`__set_state() method <-__set_state>`
 + :ref:`__sleep() method <-__sleep>`
-+ :ref:`__toString() method <-__tostring>`
++ :ref:`__toString() Method <-__tostring>`
 + :ref:`__wakeup() method <-__wakeup>`

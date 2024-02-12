@@ -5,7 +5,7 @@ Simple Query Language (SQL)
 
 Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS).
 
-PHP supports several rdbms natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC. PHP also offers a database abstraction layer, called PDO. 
+PHP supports several RDBMS natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC. PHP also offers a database abstraction layer, called PDO. 
 
 
 .. code-block:: php
@@ -23,4 +23,4 @@ PHP supports several rdbms natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`RDBMS <rdbms>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Active Record <active-record>`

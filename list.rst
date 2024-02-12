@@ -372,6 +372,7 @@ Index
    dictionary/magic-number.ini
    dictionary/magic-property.ini
    dictionary/magic.ini
+   dictionary/man-in-the-middle.ini
    dictionary/map.ini
    dictionary/markdown.ini
    dictionary/match.ini
@@ -545,6 +546,7 @@ Index
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
    dictionary/serialization.ini
+   dictionary/session-fixation.ini
    dictionary/session-highjacking.ini
    dictionary/session.ini
    dictionary/setter.ini
