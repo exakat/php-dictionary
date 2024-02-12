@@ -45,6 +45,6 @@ Interfaces may have methods signatures, without a body, and constants.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_, `When to add an interface to a class <https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/>`_
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_, `When to add an interface to a class <https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/>`_, `Code to an interface! <https://blog.oussama-mater.tech/code-to-an-interface/>`_
 
 Related : :ref:`Fluent Interface <fluent-interface>`

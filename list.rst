@@ -246,6 +246,7 @@ Index
    dictionary/fallthrough.ini
    dictionary/false.ini
    dictionary/fastcgi.ini
+   dictionary/feature-flag.ini
    dictionary/feature.ini
    dictionary/file.ini
    dictionary/filesystem.ini

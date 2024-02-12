@@ -6,6 +6,7 @@ PHP Data Objects (PDO)
 PHP Data Objects (PDO) is an interface that abstract access to databases. The same interface may be used to access different databases. 
 
 PDO may access 10 different databases : 
+
 + CUBRID
 + MS SQL Server
 + Firebird

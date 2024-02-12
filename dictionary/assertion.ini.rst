@@ -12,9 +12,6 @@ Assertions are a development tool, and should not be used in production. Be awar
 
 There are packages providing assertions features and more.
 
-
-
-
 .. code-block:: php
    
    <?php
@@ -27,6 +24,6 @@ There are packages providing assertions features and more.
 
 `Documentation <https://www.php.net/manual/en/function.assert.php>`__
 
-See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertions-usage/>`_
+See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertions-usage/>`_, `Assertions in PHP <https://aleksandertabor.com/blog/assertions-in-php/>`_
 
 Related packages : `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_, `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_

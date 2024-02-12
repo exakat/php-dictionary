@@ -278,6 +278,7 @@ PHP Dictionary
    * :ref:`Fully Qualified Name <fully-qualified-name>`
    * :ref:`Function Subscripting <function-subscripting>`
    * :ref:`Functions <function>`
+   * :ref:`feature-flag <feature-switch>`
 * G
    * :ref:`GLOBALS, the variable <globals>`
    * :ref:`Garbage Collection <garbage-collection>`

@@ -6,6 +6,7 @@ Pipeline
 A pipeline is a chain of steps that composes a sequential set of actions.
 
 A pipeline is used with : 
+
 + datasets, to read, transform and save data
 + continuous integration, where each check and packaging follows the previous one
 + processing, where each step is a separate process

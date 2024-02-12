@@ -9,9 +9,6 @@ ImagickPixelException happens when using invalid color specification.
 
 ImagickPixelException is related to the Imagick extension.
 
-
-
-
 .. code-block:: php
    
    <?php
