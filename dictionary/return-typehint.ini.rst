@@ -35,4 +35,4 @@ Return type are covariant : they get more or equally precise with each new child
 
 `Documentation <https://www.php.net/manual/en/functions.returning-values.php>`__
 
-Related : :ref:`Type system <type>`, :ref:`Return <return>`, :ref:`Covariance <type-covariance>`
+Related : :ref:`Type System <type>`, :ref:`Return <return>`, :ref:`Covariance <type-covariance>`

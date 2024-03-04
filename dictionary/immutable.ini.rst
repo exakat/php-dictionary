@@ -37,4 +37,4 @@ Immutable objects often return a clone version of themselves, after modification
 
 `Documentation <https://en.wikipedia.org/wiki/Immutable_object>`__
 
-See also `The case for immutability <https://dev.to/timoschinkel/the-case-for-immutability-1gfa>`_
+See also `The case for immutability <https://dev.to/timoschinkel/the-case-for-immutability-1gfa>`_, `TElegant immutable object pattern in PHP <https://dev.to/hbgl/elegant-immutable-object-pattern-in-php-1dg3>`_

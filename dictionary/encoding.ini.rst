@@ -11,4 +11,4 @@ Encoding is a generic term, and is used in different places in PHP.
 
 
 
-Related : :ref:`declare encoding <declare-encoding>`, :ref:`Text Encoding <text-encoding>`, 
+Related : :ref:`declare Encoding <declare-encoding>`, :ref:`Text Encoding <text-encoding>`, :ref:`HTTP Encoding <http-encoding>`

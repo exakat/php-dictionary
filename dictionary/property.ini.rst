@@ -33,4 +33,4 @@ Property should be uniquely defined in a class. They may be redefined in childre
 
 See also `PHP OOP properties <https://tutorials.supunkavinda.blog/php/oop-properties>`_
 
-Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly <readonly>`, :ref:`Attributes <attribute>`, :ref:`Default Value <default-value>`, :ref:`Magic Property <magic-property>`, :ref:`Type system <type>`
+Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly <readonly>`, :ref:`Attributes <attribute>`, :ref:`Default Value <default-value>`, :ref:`Magic Property <magic-property>`, :ref:`Type System <type>`

@@ -23,6 +23,6 @@ The same rules applies to alias types than other types : for example, array | it
 
 `Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
 
-Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Type system <typehint>`
+Related : :ref:`Scalar Types <scalar-typehint>`, :ref:`Union Type <union-type>`, :ref:`Type System <typehint>`
 
 Added in PHP 8.0

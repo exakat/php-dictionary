@@ -1,7 +1,8 @@
 .. _signature:
+.. _method-signature:
 
-Signature
----------
+Method Signature
+----------------
 
 The signature of a method or a function is the list of arguments and constraints that applies when calling it. 
 

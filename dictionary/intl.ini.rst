@@ -30,4 +30,4 @@ This extension is closely linked to the ICU library.
 
 See also `ICU lib <https://icu.unicode.org/docs/>`_
 
-Related : :ref:`Locale <locale>`
+Related : :ref:`Locale <locale>`, :ref:`Accessibility <a11y>`, :ref:`Accessibility <accessibility>`

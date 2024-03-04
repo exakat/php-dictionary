@@ -29,7 +29,7 @@ The target label must be within the same file and context, meaning that you cann
 
 See also `GoTo statement in PHP <https://www.thecreativedev.com/goto-statement-in-php/>`_, `Why PHP, goto, and bubblesort, are good, actually <https://topher.io/writing/why-php-goto-and-bubblesort-are-good/>`_
 
-Related : :ref:`Goto Labels <label>`
+Related : :ref:`Goto Labels <label>`, :ref:`Colon <colon>`
 
 Related packages : `symfony/symfony <https://packagist.org/packages/symfony/symfony>`_, `yiisoft/yii2 <https://packagist.org/packages/yiisoft/yii2>`_
 

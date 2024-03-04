@@ -31,4 +31,4 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`

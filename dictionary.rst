@@ -130,7 +130,7 @@ PHP Dictionary
    * :ref:`Command Bus <command-bus>`
    * :ref:`Command Line Interface <cli>`
    * :ref:`Comments <comment>`
-   * :ref:`Compact array <compact-array>`
+   * :ref:`Compact Array <compact-array>`
    * :ref:`Comparison <comparison-operator>`
    * :ref:`Composer <composer>`
    * :ref:`Compression <compression>`
@@ -158,6 +158,7 @@ PHP Dictionary
    * :ref:`Covariance <type-covariance>`
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
+   * :ref:`Ctype <ctype>`
    * :ref:`Curl <curl>`
    * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`Custom <custom>`
@@ -182,7 +183,7 @@ PHP Dictionary
    * :ref:`Datetime Trap <datetime-trap>`
    * :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
    * :ref:`Days In Month <days-in-month>`
-   * :ref:`Dead code <dead-code>`
+   * :ref:`Dead Code <dead-code>`
    * :ref:`Debugger <debugger>`
    * :ref:`Declaration <declaration>`
    * :ref:`Decorator Pattern <decorator>`
@@ -196,9 +197,9 @@ PHP Dictionary
    * :ref:`Deployment <deploy>`
    * :ref:`Deprecation <deprecated>`
    * :ref:`Dereferencing <dereferencing>`
+   * :ref:`Design By Contract <contract>`
    * :ref:`Design Pattern <design-pattern>`
    * :ref:`Design Pattern Wrapper <wrapper-designpattern>`
-   * :ref:`Design by Contract <contract>`
    * :ref:`Destructor <destructor>`
    * :ref:`Directives <directive>`
    * :ref:`DirectoryIterator <directoryiterator>`
@@ -217,7 +218,7 @@ PHP Dictionary
    * :ref:`Dynamic Loading <dynamic-loading>`
    * :ref:`Dynamic Properties <dynamic-property>`
    * :ref:`Dynamic Variable <dynamic-variable>`
-   * :ref:`declare encoding <declare-encoding>`
+   * :ref:`declare Encoding <declare-encoding>`
    * :ref:`declare() <declare>`
    * :ref:`define() <define>`
    * :ref:`dirname <dirname>`
@@ -241,6 +242,7 @@ PHP Dictionary
    * :ref:`Escape Sequences <escape-sequence>`
    * :ref:`Eval() <eval>`
    * :ref:`Event Driven <event-driven>`
+   * :ref:`Event Loop <event-loop>`
    * :ref:`Event Storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
@@ -298,6 +300,7 @@ PHP Dictionary
    * :ref:`HTML Entities <html-entities>`
    * :ref:`HTML entity <html-entity>`
    * :ref:`HTTP Code <http-code>`
+   * :ref:`HTTP Encoding <http-encoding>`
    * :ref:`HTTP headers <http-header>`
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
@@ -360,15 +363,16 @@ PHP Dictionary
    * :ref:`Language construct <language-construct>`
    * :ref:`Late Static Binding <late-static-binding>`
    * :ref:`Lazy Loading <lazy-loading>`
+   * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
    * :ref:`Linting <linting>`
    * :ref:`Liskov Substitution Principle <lsp>`
    * :ref:`List <list>`
    * :ref:`Literal <literal>`
-   * :ref:`Literal types <literal-types>`
+   * :ref:`Literal Types <literal-types>`
    * :ref:`Local File Inclusion <lfi>`
-   * :ref:`Local scope <local>`
+   * :ref:`Local Scope <local>`
    * :ref:`Locale <locale>`
    * :ref:`Log <log>`
    * :ref:`LogicException <logicexception>`
@@ -391,6 +395,7 @@ PHP Dictionary
    * :ref:`Memoization <memoization>`
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
+   * :ref:`Method Signature <signature>`
    * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Microservice <microservice>`
    * :ref:`Microtime() <microtime>`
@@ -403,6 +408,7 @@ PHP Dictionary
    * :ref:`Multidimensional Array <multidimensional-array>`
    * :ref:`Mutation Testing <mutation-test>`
    * :ref:`max_execution_time <max_execution_time>`
+   * :ref:`mcrypt Extension <mcrypt>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
    * :ref:`N+1 Query Problem <n-query>`
@@ -436,7 +442,7 @@ PHP Dictionary
    * :ref:`Object Operator -> <object-operator>`
    * :ref:`Object Relational Mapping (ORM) <orm>`
    * :ref:`Octal Integer <octal-integer>`
-   * :ref:`One liner <one-liner>`
+   * :ref:`One Liner <one-liner>`
    * :ref:`Opcode <opcode>`
    * :ref:`Open Closed Principle <ocp>`
    * :ref:`Open Tag <open-tag>`
@@ -580,12 +586,12 @@ PHP Dictionary
    * :ref:`Session Fixation <session-fixation>`
    * :ref:`Session Highjacking <session-highjacking>`
    * :ref:`Shallow Clone <shallow-clone>`
+   * :ref:`Shell <shell>`
    * :ref:`Short Assignations <short-assignation>`
    * :ref:`Short Syntax <short-syntax>`
    * :ref:`Short Tags <short-tag>`
    * :ref:`Short Ternary Operator <short-ternary>`
    * :ref:`Shutdown Function <shutdown-function>`
-   * :ref:`Signature <signature>`
    * :ref:`Silent Behavior <silent>`
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`Simple Switch <simple-switch>`
@@ -595,6 +601,7 @@ PHP Dictionary
    * :ref:`Single Responsability Principle <srp>`
    * :ref:`Singleton <singleton>`
    * :ref:`Socket <socket>`
+   * :ref:`Software Development Kit <sdk>`
    * :ref:`Sort <sort>`
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Types <special-type>`
@@ -656,7 +663,7 @@ PHP Dictionary
    * :ref:`Type Error <typerror>`
    * :ref:`Type Invariant <invariant>`
    * :ref:`Type Juggling <type-juggling>`
-   * :ref:`Type system <type>`
+   * :ref:`Type System <type>`
    * :ref:`TypeError <typeerror>`
    * :ref:`Typo <typo>`
    * :ref:`throw <throw>`

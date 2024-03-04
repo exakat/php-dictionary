@@ -22,4 +22,6 @@ Initially, octal integers were formatted by simply starting with a initial 0. Th
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
+See also `PHP 8.1: Explicit Octal numeral notation <https://php.watch/versions/8.1/explicit-octal-notation>`_
+
 Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`

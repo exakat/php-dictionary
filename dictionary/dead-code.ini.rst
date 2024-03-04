@@ -1,7 +1,7 @@
 .. _dead-code:
 .. _unused-code:
 
-Dead code
+Dead Code
 ---------
 
 Dead code refers to sections of code that are no longer executed or reachable during the program's execution. It includes any lines or blocks of code that do not contribute to the program's functionality or produce any observable results. Dead code can be the result of code modifications, changes in requirements, or mistakes during development.

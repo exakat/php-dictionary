@@ -26,4 +26,4 @@ Relative types are types that are not explicit, but relative to the current clas
 
 `Documentation <https://www.php.net/manual/en/language.types.relative-class-types.php>`__
 
-Related : :ref:`Scalar Types <scalar-type>`, :ref:`Union Type <union-type>`, :ref:`Literal types <literal-types>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
+Related : :ref:`Scalar Types <scalar-type>`, :ref:`Union Type <union-type>`, :ref:`Literal Types <literal-types>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`

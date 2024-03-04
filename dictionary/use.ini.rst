@@ -39,4 +39,4 @@ When `use` is used with a closure, it imports the listed variables in the closur
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Traits <trait>`
+Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Traits <trait>`, :ref:`Fully Qualified Name <fqn>`

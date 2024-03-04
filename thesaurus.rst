@@ -106,6 +106,7 @@ Concept
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
 + :ref:`Single Responsability Principle <srp>`
++ :ref:`Software Development Kit <sdk>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
 + :ref:`Template <template>`
@@ -252,3 +253,17 @@ Magic method
 + :ref:`__sleep() method <-__sleep>`
 + :ref:`__toString() Method <-__tostring>`
 + :ref:`__wakeup() method <-__wakeup>`
+
+Bug
+---
+
++ :ref:`Dangling Reference <dangling-reference>`
++ :ref:`Datetime Trap <datetime-trap>`
++ :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
++ :ref:`Days In Month <days-in-month>`
++ :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
++ :ref:`Letter Logical Bug <letter-logical>`
++ :ref:`Magic Hash <magic hash>`
++ :ref:`N+1 Query Problem <n-query>`
++ :ref:`Object Injection <object-injection>`
++ :ref:`Strpos() Syndrom <strpos-syndrom>`

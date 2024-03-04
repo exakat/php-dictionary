@@ -152,6 +152,7 @@ Index
    dictionary/cryptography.ini
    dictionary/csv-injection.ini
    dictionary/csv.ini
+   dictionary/ctype.ini
    dictionary/curl.ini
    dictionary/curly-bracket.ini
    dictionary/custom.ini
@@ -231,6 +232,7 @@ Index
    dictionary/escape-sequence.ini
    dictionary/eval.ini
    dictionary/event-driven.ini
+   dictionary/event-loop.ini
    dictionary/event-storming.ini
    dictionary/exception-chain.ini
    dictionary/exception-handler.ini
@@ -299,6 +301,7 @@ Index
    dictionary/html-entities.ini
    dictionary/html-entity.ini
    dictionary/http-code.ini
+   dictionary/http-encoding.ini
    dictionary/http-header.ini
    dictionary/http.ini
    dictionary/https.ini
@@ -351,6 +354,7 @@ Index
    dictionary/language-construct.ini
    dictionary/late-static-binding.ini
    dictionary/lazy-loading.ini
+   dictionary/leading-zero-means-octal.ini
    dictionary/lengthexception.ini
    dictionary/letter-logical.ini
    dictionary/libsodium.ini
@@ -378,6 +382,7 @@ Index
    dictionary/match.ini
    dictionary/max_execution_time.ini
    dictionary/mbstring.ini
+   dictionary/mcrypt.ini
    dictionary/md5.ini
    dictionary/memoization.ini
    dictionary/message-queue.ini
@@ -540,6 +545,7 @@ Index
    dictionary/scheme.ini
    dictionary/scope-resolution-operator.ini
    dictionary/scope.ini
+   dictionary/sdk.ini
    dictionary/segmentation-fault.ini
    dictionary/self.ini
    dictionary/semantics.ini
@@ -551,6 +557,7 @@ Index
    dictionary/session.ini
    dictionary/setter.ini
    dictionary/shallow-clone.ini
+   dictionary/shell.ini
    dictionary/short-assignation.ini
    dictionary/short-syntax.ini
    dictionary/short-tag.ini

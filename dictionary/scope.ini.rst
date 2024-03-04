@@ -36,4 +36,4 @@ Scopes are generally considered as global or local.
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
-Related : :ref:`Local scope <local>`, :ref:`global Scope <global>`
+Related : :ref:`Local Scope <local>`, :ref:`global Scope <global>`

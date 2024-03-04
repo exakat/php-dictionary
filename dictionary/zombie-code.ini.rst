@@ -26,4 +26,4 @@ Zombie code slows down the application, yet are logged as being used. They are a
 
 See also `Zombie Code <https://www.calculquebec.ca/en/communiques/zombie-code/>`_
 
-Related : :ref:`Dead code <dead-code>`
+Related : :ref:`Dead Code <dead-code>`

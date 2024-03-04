@@ -1,7 +1,7 @@
 .. _type:
 .. _typehint:
 
-Type system
+Type System
 -----------
 
 Type declarations can be added to function arguments, return values, and, as of PHP 7.4.0, class properties. They ensure that the value is of the specified type at call time, otherwise a TypeError is thrown. 

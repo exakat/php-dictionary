@@ -28,6 +28,6 @@ A ``mixed`` type may be also represented by a union of all possible types.
 
 See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_
 
-Related : :ref:`Type system <type>`
+Related : :ref:`Type System <type>`
 
 Added in PHP 8.0+

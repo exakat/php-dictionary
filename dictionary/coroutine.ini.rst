@@ -36,6 +36,8 @@ swoole, openswoole and fibers extensions offer coroutines.
 
 `Documentation <https://en.wikipedia.org/wiki/Coroutine>`__
 
+See also `Coroutine in PHP <https://openswoole.com/coroutine>`_
+
 Related : :ref:`Generator <generator>`
 
 Related packages : `swow/swow <https://packagist.org/packages/swow/swow>`_, `swlib/saber <https://packagist.org/packages/swlib/saber>`_, `amphp/amp <https://packagist.org/packages/amphp/amp>`_

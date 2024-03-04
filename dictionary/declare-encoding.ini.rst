@@ -1,9 +1,9 @@
 .. _declare-encoding:
 
-declare encoding
+declare Encoding
 ----------------
 
-declare() with encoding specifies the encoding of the file that holds PHP script. This applies to the current file only. 
+declare() with the ``encoding`` keyword specifies the encoding of the file that holds PHP script. This applies to the current file only. 
 
 
 .. code-block:: php

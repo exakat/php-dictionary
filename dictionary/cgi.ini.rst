@@ -11,6 +11,6 @@ CGI was widely used in the early days of the web, more modern web development ap
 
 `Documentation <https://en.wikipedia.org/wiki/Common_Gateway_Interface>`__
 
-Related : :ref:`PHP-FPM <fpm>`, :ref:`FastCGI <fastcgi>`, :ref:`Command Line Interface <cli>`
+Related : :ref:`PHP-FPM <fpm>`, :ref:`FastCGI <fastcgi>`, :ref:`Command Line Interface <cli>`, :ref:`PHP-FPM <php-fpm>`
 
 Added in PHP `CGI and command line setups <https://www.php.net/manual/en/install.unix.commandline.php>`_

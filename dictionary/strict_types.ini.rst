@@ -26,6 +26,6 @@ strict_types is an execution directive, that makes PHP more strict when applying
 
 See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_, `The way declare(strict_types=1) works in PHP <https://dev.to/rocksheep/the-way-stricttypes-works-in-php-eb7>`_
 
-Related : :ref:`Type system <type>`
+Related : :ref:`Type System <type>`
 
 Added in PHP 7.0

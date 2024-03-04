@@ -23,6 +23,6 @@ Typed properties support any type format : simple, union, intersectional or DNF.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`Type system <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
+Related : :ref:`Type System <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 
 Added in PHP 7.4

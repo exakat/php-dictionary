@@ -26,4 +26,6 @@ Some template packages : Twig, Latte, Blade, smarty.
    
 
 
+Related : :ref:`View In Presentation <view-presentation>`
+
 Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_

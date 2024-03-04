@@ -83,7 +83,6 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/case.ini has no SeeAlso. 
 ./human/en/Features/cgi.ini has no SeeAlso. 
 ./human/en/Features/ci.ini has no SeeAlso. 
-./human/en/Features/class-alias.ini has no SeeAlso. 
 ./human/en/Features/class-constant-visibility.ini has no SeeAlso. 
 ./human/en/Features/class-constant.ini is missing the tags attribute
 ./human/en/Features/class-constant.ini has no SeeAlso. 
@@ -101,8 +100,6 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/colon.ini has no SeeAlso. 
 ./human/en/Features/comma.ini has no SeeAlso. 
 ./human/en/Features/comment.ini has no SeeAlso. 
-Compact array has a wrong format in file ./human/en/Features/compact-array.ini.
-./human/en/Features/compact-array.ini is missing the tags attribute
 ./human/en/Features/compact-array.ini has no SeeAlso. 
 ./human/en/Features/compact.ini has no SeeAlso. 
 ./human/en/Features/component.ini has empty code for PHP. 
@@ -122,14 +119,11 @@ Compact array has a wrong format in file ./human/en/Features/compact-array.ini.
 ./human/en/Features/constructor.ini has no SeeAlso. 
 ./human/en/Features/container.ini has no SeeAlso. 
 ./human/en/Features/continue.ini has no SeeAlso. 
-Design by Contract has a wrong format in file ./human/en/Features/contract.ini.
-./human/en/Features/contract.ini has no SeeAlso. 
 ./human/en/Features/control-flow.ini is missing the tags attribute
 ./human/en/Features/control-structure.ini has no SeeAlso. 
 ./human/en/Features/controller.ini has no SeeAlso. 
 ./human/en/Features/cookie.ini is missing the tags attribute
 ./human/en/Features/cookie.ini has no SeeAlso. 
-./human/en/Features/coroutine.ini has no SeeAlso. 
 ./human/en/Features/countable.ini has no SeeAlso. 
 ./human/en/Features/crc32.ini has no SeeAlso. 
 ./human/en/Features/crud.ini has no SeeAlso. 
@@ -144,10 +138,8 @@ CSV injection has a wrong format in file ./human/en/Features/csv-injection.ini.
 ./human/en/Features/database.ini has no SeeAlso. 
 ./human/en/Features/day-in-seconds.ini has no SeeAlso. 
 ./human/en/Features/days-in-month.ini has some empty seeAlso. 
-Dead code has a wrong format in file ./human/en/Features/dead-code.ini.
 ./human/en/Features/debugger.ini is missing the tags attribute
 ./human/en/Features/declaration.ini has no SeeAlso. 
-declare encoding has a wrong format in file ./human/en/Features/declare-encoding.ini.
 ./human/en/Features/declare-encoding.ini has no SeeAlso. 
 ./human/en/Features/declare.ini has no SeeAlso. 
 ./human/en/Features/deep-clone.ini is missing the tags attribute
@@ -189,7 +181,6 @@ DRY : don't repeat yourself has a wrong format in file ./human/en/Features/dry.i
 ./human/en/Features/encoding-text.ini has no SeeAlso. 
 ./human/en/Features/encoding.ini last char is not a .
 ./human/en/Features/encoding.ini has no SeeAlso. 
-Missing target related link for http-encoding in ./human/en/Features/encoding.ini
 ./human/en/Features/engine.ini has no SeeAlso. 
 ./human/en/Features/entity.ini has no SeeAlso. 
 ./human/en/Features/enum-backed.ini has no SeeAlso. 
@@ -199,6 +190,7 @@ Missing target related link for http-encoding in ./human/en/Features/encoding.in
 ./human/en/Features/error.ini is missing the tags attribute
 ./human/en/Features/error.ini has no SeeAlso. 
 ./human/en/Features/escape-data.ini has no SeeAlso. 
+./human/en/Features/event-loop.ini has empty code for PHP. 
 ./human/en/Features/exception-chain.ini has no SeeAlso. 
 ./human/en/Features/exception-handler.ini is missing the tags attribute
 ./human/en/Features/exception-handler.ini has no SeeAlso. 
@@ -258,7 +250,6 @@ HTTP headers has a wrong format in file ./human/en/Features/http-header.ini.
 ./human/en/Features/iffectation.ini is missing the tags attribute
 ./human/en/Features/iffectation.ini has no SeeAlso. 
 ./human/en/Features/imagickpixelexception.ini has no SeeAlso. 
-./human/en/Features/immutable.ini is missing the tags attribute
 ./human/en/Features/implements.ini has no SeeAlso. 
 ./human/en/Features/include.ini has no SeeAlso. 
 ./human/en/Features/inclusion.ini has some empty seeAlso. 
@@ -283,7 +274,6 @@ Index for SQL has a wrong format in file ./human/en/Features/index-sql.ini.
 ./human/en/Features/integer.ini has no SeeAlso. 
 ./human/en/Features/internationalization.ini is missing the tags attribute
 ./human/en/Features/interpolation.ini is missing the tags attribute
-./human/en/Features/intl.ini is missing the tags attribute
 ./human/en/Features/invalidargumentexception.ini has no SeeAlso. 
 ./human/en/Features/inventory.ini has no SeeAlso. 
 ./human/en/Features/isset.ini has no SeeAlso. 
@@ -298,12 +288,9 @@ Language construct has a wrong format in file ./human/en/Features/language-const
 ./human/en/Features/lengthexception.ini has no SeeAlso. 
 ./human/en/Features/letter-logical.ini has no SeeAlso. 
 ./human/en/Features/linting.ini has no SeeAlso. 
-Literal types has a wrong format in file ./human/en/Features/literal-types.ini.
-./human/en/Features/literal-types.ini is missing the tags attribute
 ./human/en/Features/literal-types.ini has no SeeAlso. 
 ./human/en/Features/literal.ini is missing the tags attribute
 ./human/en/Features/literal.ini has no SeeAlso. 
-Local scope has a wrong format in file ./human/en/Features/local.ini.
 ./human/en/Features/local.ini has no SeeAlso. 
 ./human/en/Features/log.ini has no SeeAlso. 
 Logical operators has a wrong format in file ./human/en/Features/logical-operator.ini.
@@ -317,8 +304,8 @@ Logical operators has a wrong format in file ./human/en/Features/logical-operato
 ./human/en/Features/magic-number.ini last char is not a .
 ./human/en/Features/magic-property.ini has no SeeAlso. 
 ./human/en/Features/magic.ini is missing the tags attribute
-Missing target related link for session_highjacking in ./human/en/Features/man-in-the-middle.ini
 ./human/en/Features/mbstring.ini has no SeeAlso. 
+./human/en/Features/mcrypt.ini has no SeeAlso. 
 ./human/en/Features/memoization.ini has no SeeAlso. 
 ./human/en/Features/method.ini has no SeeAlso. 
 ./human/en/Features/microtime.ini has no SeeAlso. 
@@ -345,10 +332,6 @@ Missing target related link for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/object-invasion.ini has no SeeAlso. 
 ./human/en/Features/object-operator.ini has no SeeAlso. 
 ./human/en/Features/object.ini is missing the tags attribute
-./human/en/Features/object.ini has no SeeAlso. 
-./human/en/Features/octal-integer.ini is missing the tags attribute
-./human/en/Features/octal-integer.ini has no SeeAlso. 
-One liner has a wrong format in file ./human/en/Features/one-liner.ini.
 ./human/en/Features/open-tag.ini has no SeeAlso. 
 ./human/en/Features/openssl.ini is missing the tags attribute
 ./human/en/Features/operand.ini has no SeeAlso. 
@@ -419,7 +402,6 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/pseudo-variable.ini has no SeeAlso. 
 ./human/en/Features/public.ini has no SeeAlso. 
 ./human/en/Features/query-string.ini has no SeeAlso. 
-./human/en/Features/query.ini has empty code for PHP. 
 ./human/en/Features/query.ini last char is not a .
 ./human/en/Features/query.ini has no SeeAlso. 
 ./human/en/Features/queue.ini has no SeeAlso. 
@@ -429,7 +411,6 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/reference-count.ini has no SeeAlso. 
 ./human/en/Features/reflectionexception.ini last char is not a .
 ./human/en/Features/reflectionexception.ini has no SeeAlso. 
-./human/en/Features/regex.ini has no SeeAlso. 
 ./human/en/Features/register-globals.ini has no SeeAlso. 
 ./human/en/Features/relative-types.ini has no SeeAlso. 
 ./human/en/Features/relaxed-comparison.ini is missing the tags attribute
@@ -454,6 +435,7 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/schema.ini has no SeeAlso. 
 ./human/en/Features/scope-resolution-operator.ini has no SeeAlso. 
 ./human/en/Features/scope.ini has no SeeAlso. 
+./human/en/Features/sdk.ini has no SeeAlso. 
 ./human/en/Features/semantics.ini is missing the tags attribute
 ./human/en/Features/semantics.ini has no SeeAlso. 
 ./human/en/Features/semicolon.ini has no SeeAlso. 
@@ -462,6 +444,7 @@ Missing target related link for session-id in ./human/en/Features/session-highja
 ./human/en/Features/session.ini is missing the tags attribute
 ./human/en/Features/shard.ini has empty code for PHP. 
 ./human/en/Features/shard.ini has no description. Omitting. 
+./human/en/Features/shell.ini has no SeeAlso. 
 ./human/en/Features/shutdown-function.ini is missing the tags attribute
 ./human/en/Features/signature.ini has no SeeAlso. 
 ./human/en/Features/silent.ini has no SeeAlso. 
@@ -519,8 +502,6 @@ toctou : Time of check to time of use has a wrong format in file ./human/en/Feat
 ./human/en/Features/type-covariance.ini is missing the tags attribute
 ./human/en/Features/type-declaration-property.ini has no SeeAlso. 
 ./human/en/Features/typeerror.ini has no SeeAlso. 
-Type system has a wrong format in file ./human/en/Features/typehint.ini.
-./human/en/Features/typehint.ini is missing the tags attribute
 ./human/en/Features/typerror.ini has some empty seeAlso. 
 ./human/en/Features/typo.ini has no SeeAlso. 
 ./human/en/Features/unary.ini has no SeeAlso. 
@@ -568,9 +549,6 @@ Missing way back from 'human/en/Features/strict_types.ini' => related[] = "__tos
 Missing way back from 'human/en/Features/cast.ini' => related[] = "__tostring";
 Missing way back from 'human/en/Features/stream.ini' => related[] = "abstraction-layer";
 Missing way back from 'human/en/Features/pdo.ini' => related[] = "abstraction-layer";
-Missing way back from 'human/en/Features/intl.ini' => related[] = "accessibility";
-Missing way back from 'human/en/Features/intl.ini' => related[] = "a11y";
-Missing way back from 'human/en/Features/hexagonal.ini' => related[] = "adapter";
 Missing way back from 'human/en/Features/array.ini' => related[] = "addition";
 Missing way back from 'human/en/Features/integer.ini' => related[] = "addition";
 Missing way back from 'human/en/Features/float.ini' => related[] = "addition";
@@ -678,11 +656,7 @@ Missing way back from 'human/en/Features/eval.ini' => related[] = "code-injectio
 Missing way back from 'human/en/Features/inclusion.ini' => related[] = "code-injection";
 Missing way back from 'human/en/Features/dynamic-call.ini' => related[] = "code-injection";
 Missing way back from 'human/en/Features/control-structure.ini' => related[] = "coding-convention";
-Missing way back from 'human/en/Features/enum.ini' => related[] = "collection";
-Missing way back from 'human/en/Features/hash.ini' => related[] = "collection";
-Missing way back from 'human/en/Features/map.ini' => related[] = "collection";
 Missing way back from 'human/en/Features/generics.ini' => related[] = "collection";
-Missing way back from 'human/en/Features/goto.ini' => related[] = "colon";
 Missing way back from 'human/en/Features/ternary.ini' => related[] = "colon";
 Missing way back from 'human/en/Features/null-ternary.ini' => related[] = "colon";
 Missing way back from 'human/en/Features/named-parameter.ini' => related[] = "colon";
@@ -692,6 +666,7 @@ Missing way back from 'human/en/Features/argument.ini' => related[] = "comma";
 Missing way back from 'human/en/Features/array.ini' => related[] = "comma";
 Missing way back from 'human/en/Features/list.ini' => related[] = "comma";
 Missing way back from 'human/en/Features/phpdoc.ini' => related[] = "comment";
+Missing way back from 'human/en/Features/compact.ini' => related[] = "compact-array";
 Missing way back from 'human/en/Features/operator.ini' => related[] = "comparison-operator";
 Missing way back from 'human/en/Features/type-juggling.ini' => related[] = "comparison-operator";
 Missing way back from 'human/en/Features/switch.ini' => related[] = "comparison-operator";
@@ -755,6 +730,7 @@ Missing way back from 'human/en/Features/escape-data.ini' => related[] = "csv-in
 Missing way back from 'human/en/Features/data.ini' => related[] = "csv";
 Missing way back from 'human/en/Features/format.ini' => related[] = "csv";
 Missing way back from 'human/en/Features/json.ini' => related[] = "csv";
+Missing way back from 'human/en/Features/filter.ini' => related[] = "ctype";
 Missing way back from 'human/en/Features/block.ini' => related[] = "curly-bracket";
 Missing way back from 'human/en/Features/string.ini' => related[] = "curly-bracket";
 Missing way back from 'human/en/Features/built-in.ini' => related[] = "custom";
@@ -828,6 +804,7 @@ Missing way back from 'human/en/Features/http-encoding.ini' => related[] = "enco
 Missing way back from 'human/en/Features/class-entity.ini' => related[] = "entity";
 Missing way back from 'human/en/Features/enum.ini' => related[] = "enum-backed";
 Missing way back from 'human/en/Features/enum-case.ini' => related[] = "enumeration";
+Missing way back from 'human/en/Features/collection.ini' => related[] = "enumeration";
 Missing way back from 'human/en/Features/handler.ini' => related[] = "error-handler";
 Missing way back from 'human/en/Features/exception-handler.ini' => related[] = "error-handler";
 Missing way back from 'human/en/Features/shutdown-handler.ini' => related[] = "error-handler";
@@ -835,6 +812,7 @@ Missing way back from 'human/en/Features/error-handler.ini' => related[] = "erro
 Missing way back from 'human/en/Features/exception.ini' => related[] = "error";
 Missing way back from 'human/en/Features/throw.ini' => related[] = "error";
 Missing way back from 'human/en/Features/try-catch.ini' => related[] = "error";
+Missing way back from 'human/en/Features/event-loop.ini' => related[] = "event-driven";
 Missing way back from 'human/en/Features/throw.ini' => related[] = "exception-chain";
 Missing way back from 'human/en/Features/try-catch.ini' => related[] = "exception-chain";
 Missing way back from 'human/en/Features/throw.ini' => related[] = "chaining-exception";
@@ -871,9 +849,6 @@ Missing way back from 'human/en/Features/$_post.ini' => related[] = "form";
 Missing way back from 'human/en/Features/$_request.ini' => related[] = "form";
 Missing way back from 'human/en/Features/string.ini' => related[] = "format";
 Missing way back from 'human/en/Features/method.ini' => related[] = "fossilized-method";
-Missing way back from 'human/en/Features/cgi.ini' => related[] = "php-fpm";
-Missing way back from 'human/en/Features/namespace.ini' => related[] = "fully-qualified-name";
-Missing way back from 'human/en/Features/use.ini' => related[] = "fqn";
 Missing way back from 'human/en/Features/namespace.ini' => related[] = "fqn";
 Missing way back from 'human/en/Features/use.ini' => related[] = "fqcn";
 Missing way back from 'human/en/Features/namespace.ini' => related[] = "fqcn";
@@ -906,12 +881,16 @@ Missing way back from 'human/en/Features/array.ini' => related[] = "hash";
 Missing way back from 'human/en/Features/map.ini' => related[] = "hash";
 Missing way back from 'human/en/Features/hash-function.ini' => related[] = "hashing";
 Missing way back from 'human/en/Features/hash-crypto.ini' => related[] = "hashing";
+Missing way back from 'human/en/Features/collection.ini' => related[] = "hashing";
 Missing way back from 'human/en/Features/array.ini' => related[] = "hashing";
 Missing way back from 'human/en/Features/map.ini' => related[] = "hashing";
 Missing way back from 'human/en/Features/string.ini' => related[] = "heredoc";
 Missing way back from 'human/en/Features/binary-integer.ini' => related[] = "hexadecimal-integer";
 Missing way back from 'human/en/Features/binary-integer.ini' => related[] = "hexadecimal";
 Missing way back from 'human/en/Features/octal-integer.ini' => related[] = "hexadecimal";
+Missing way back from 'human/en/Features/adapter.ini' => related[] = "hexagonal-architecture";
+Missing way back from 'human/en/Features/text-encoding.ini' => related[] = "http-encoding";
+Missing way back from 'human/en/Features/text-encoding.ini' => related[] = "percent-encoding";
 Missing way back from 'human/en/Features/http.ini' => related[] = "http-header";
 Missing way back from 'human/en/Features/https.ini' => related[] = "http-header";
 Missing way back from 'human/en/Features/wrapper.ini' => related[] = "http";
@@ -991,18 +970,30 @@ Missing way back from 'human/en/Features/magic-method.ini' => related[] = "magic
 Missing way back from 'human/en/Features/hash.ini' => related[] = "magic hash";
 Missing way back from 'human/en/Features/comparison.ini' => related[] = "magic hash";
 Missing way back from 'human/en/Features/type-juggling.ini' => related[] = "magic hash";
+Missing way back from 'human/en/Features/__get.ini' => related[] = "magic-method";
+Missing way back from 'human/en/Features/__set.ini' => related[] = "magic-method";
+Missing way back from 'human/en/Features/__call.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__isset.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__clone.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__callStatic.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__sleep.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__wakeup.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__tostring.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__invoke.ini' => related[] = "magicmethod";
+Missing way back from 'human/en/Features/__set_state.ini' => related[] = "magicmethod";
 Missing way back from 'human/en/Features/__get.ini' => related[] = "magic-property";
 Missing way back from 'human/en/Features/__set.ini' => related[] = "magic-property";
 Missing way back from 'human/en/Features/magic-method.ini' => related[] = "magic";
 Missing way back from 'human/en/Features/convention.ini' => related[] = "magic";
 Missing way back from 'human/en/Features/configuration.ini' => related[] = "magic";
-Missing way back from 'human/en/Features/session_highjacking.ini' => related[] = "man-in-the-middle";
 Missing way back from 'human/en/Features/array.ini' => related[] = "map";
 Missing way back from 'human/en/Features/index-array.ini' => related[] = "map";
 Missing way back from 'human/en/Features/iconv.ini' => related[] = "mbstring";
 Missing way back from 'human/en/Features/encoding.ini' => related[] = "mbstring";
 Missing way back from 'human/en/Features/iconv.ini' => related[] = "multibyte-string";
 Missing way back from 'human/en/Features/encoding.ini' => related[] = "multibyte-string";
+Missing way back from 'human/en/Features/sodium.ini' => related[] = "mcrypt";
+Missing way back from 'human/en/Features/openssl.ini' => related[] = "mcrypt";
 Missing way back from 'human/en/Features/cryptography.ini' => related[] = "md5";
 Missing way back from 'human/en/Features/hashing.ini' => related[] = "md5";
 Missing way back from 'human/en/Features/jobqueue.ini' => related[] = "message-queue";
@@ -1036,6 +1027,8 @@ Missing way back from 'human/en/Features/mysqli.ini' => related[] = "object-api"
 Missing way back from 'human/en/Features/serialization.ini' => related[] = "object-injection";
 Missing way back from 'human/en/Features/serialization.ini' => related[] = "deserialize-injection";
 Missing way back from 'human/en/Features/object-operator.ini' => related[] = "object-nullsafe-operator";
+Missing way back from 'human/en/Features/scope-resolution-operator.ini' => related[] = "nullsafe-operator";
+Missing way back from 'human/en/Features/object-operator.ini' => related[] = "nullsafe-operator";
 Missing way back from 'human/en/Features/visibility.ini' => related[] = "object";
 Missing way back from 'human/en/Features/abstract.ini' => related[] = "object";
 Missing way back from 'human/en/Features/final.ini' => related[] = "object";
@@ -1190,9 +1183,9 @@ Missing way back from 'human/en/Features/message-queue.ini' => related[] = "seri
 Missing way back from 'human/en/Features/cache.ini' => related[] = "serialize";
 Missing way back from 'human/en/Features/session-fixation.ini' => related[] = "session-highjacking";
 Missing way back from 'human/en/Features/session-id.ini' => related[] = "session-highjacking";
-Missing way back from 'human/en/Features/man-in-the-middle.ini' => related[] = "session-highjacking";
 Missing way back from 'human/en/Features/class.ini' => related[] = "setter";
 Missing way back from 'human/en/Features/magic-method.ini' => related[] = "shallow-clone";
+Missing way back from 'human/en/Features/pcntl.ini' => related[] = "shell";
 Missing way back from 'human/en/Features/assignation.ini' => related[] = "combined-operator";
 Missing way back from 'human/en/Features/assignement.ini' => related[] = "combined-operator";
 Missing way back from 'human/en/Features/assignation.ini' => related[] = "short-syntax";
@@ -1341,8 +1334,6 @@ Missing way back from 'human/en/Features/variable-argument.ini' => related[] = "
 Missing way back from 'human/en/Features/array-spread.ini' => related[] = "spread";
 Missing way back from 'human/en/Features/ellipsis.ini' => related[] = "spread";
 Missing way back from 'human/en/Features/mvc.ini' => related[] = "view-presentation";
-Missing way back from 'human/en/Features/template.ini' => related[] = "view-presentation";
-Missing way back from 'human/en/Features/mvc.ini' => related[] = "renderer";
 Missing way back from 'human/en/Features/template.ini' => related[] = "renderer";
 Missing way back from 'human/en/Features/mvc.ini' => related[] = "view";
 Missing way back from 'human/en/Features/view-presentation.ini' => related[] = "view";

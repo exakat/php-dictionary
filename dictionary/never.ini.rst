@@ -22,6 +22,6 @@ Never Type
 
 See also `The "never" Return Type for PHP <https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303>`_
 
-Related : :ref:`Type system <type>`, :ref:`Type system <type>`
+Related : :ref:`Type System <type>`, :ref:`Type System <type>`
 
 Added in PHP 8.1+

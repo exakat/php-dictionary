@@ -1,6 +1,6 @@
 .. _local:
 
-Local scope
+Local Scope
 -----------
 
 The local scope is the scope inside a function or method. The variables are contained within that scope, and are not available beyond it. 

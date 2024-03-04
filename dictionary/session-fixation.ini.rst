@@ -11,4 +11,4 @@ To prevent session fixation attacks, web applications should employ secure sessi
 
 See also `PHP Session Fixation / Hijacking <https://stackoverflow.com/questions/5081025/php-session-fixation-hijacking>`_
 
-Related packages : `stefangabos/zebra_session  <https://packagist.org/packages/stefangabos/zebra_session >`_
+Related packages : `stefangabos/zebra_session <https://packagist.org/packages/stefangabos/zebra_session>`_

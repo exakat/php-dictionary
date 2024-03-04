@@ -24,4 +24,4 @@ PHP is a loosely typed language, which means you don't need to explicitly declar
 
 `Documentation <https://www.php.net/manual/en/language.variables.php>`__
 
-Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Type system <type>`, :ref:`Naming <naming>`, :ref:`Interpolation <interpolation>`
+Related : :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Type System <type>`, :ref:`Naming <naming>`, :ref:`Interpolation <interpolation>`

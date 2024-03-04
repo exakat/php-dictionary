@@ -27,6 +27,6 @@ Intersection types don't work with scalar values, which are excluding one anothe
 
 See also `How the New Intersection Types in PHP 8.1 Give You More Flexibility <https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/>`_
 
-Related : :ref:`Type system <type>`
+Related : :ref:`Type System <type>`
 
 Added in PHP 8.1

@@ -1,4 +1,5 @@
 .. _magic-method:
+.. _magicmethod:
 
 Magic Methods
 -------------

@@ -28,6 +28,6 @@ In PHP, namespaces are a way to encapsulate items like classes, interfaces, enum
 
 See also `Understanding PHP Namespaces: Organising Your Code <https://medium.com/@bluznierca1/understanding-php-namespaces-organising-your-code-ba2590c5e529>`_
 
-Related : :ref:`Use Alias <use-alias>`
+Related : :ref:`Use Alias <use-alias>`, :ref:`Fully Qualified Name <fully-qualified-name>`
 
 Added in PHP 5.3

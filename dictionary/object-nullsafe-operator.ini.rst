@@ -1,4 +1,5 @@
 .. _object-nullsafe-operator:
+.. _nullsafe-operator:
 
 Object Nullsafe Operator ?->
 ----------------------------

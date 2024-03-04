@@ -24,4 +24,6 @@ The hexagonal architecture promotes loose coupling, which makes the system more 
 
 See also `Hexagonal Architecture in PHP <https://www.developers.nl/blog/35/hexagonal-architecture-in-php>`_
 
+Related : :ref:`Adapters <adapter>`
+
 Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_

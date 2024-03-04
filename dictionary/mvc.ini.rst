@@ -15,4 +15,6 @@ MVC stands for Model - View - Controller. It is a programming paradigm, which pa
 
 See also `PHP MVC Framework Tutorial: CodeIgniter Example <https://www.guru99.com/php-mvc-frameworks.html>`_, `How to build a simple PHP MVC framework <https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/>`_
 
+Related : :ref:`View In Presentation <renderer>`
+
 Related packages : `laminas/laminas-mvc <https://packagist.org/packages/laminas/laminas-mvc>`_

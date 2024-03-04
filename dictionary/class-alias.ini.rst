@@ -31,4 +31,6 @@ It is possible to make an alias of a class and call it with this new name. It ei
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
+See also `PHP 8.3: class_alias() supports aliasing built-in PHP classes <https://php.watch/versions/8.3/class_alias-php-built-in-classes-supported>`_, `PHP Magic Methods and Class Aliases <https://alanastorm.com/php_magic_methods_and_class_aliases/>`_
+
 Related : :ref:`Use <use>`

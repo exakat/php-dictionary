@@ -22,6 +22,6 @@ The DNF form allows for the representation of any logical expression using a com
 
 See also `PHP RFC: Disjunctive Normal Form Types <https://wiki.php.net/rfc/dnf_types>`_, `Disjunctive normal form <https://en.wikipedia.org/wiki/Disjunctive_normal_form>`_, `DNF Types in PHP 8.2 <https://lindevs.com/dnf-types-in-php-8-2>`_
 
-Related : :ref:`Type system <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`
+Related : :ref:`Type System <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`
 
 Added in PHP 8.2

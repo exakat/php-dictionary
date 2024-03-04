@@ -28,6 +28,6 @@ A simple switch is a switch where all the cases are simple literals. This helps 
 
 See also `PHP 7.2's 'switch' optimisations <https://derickrethans.nl/php7.2-switch.html>`_
 
-Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Compact Array <compact-array>`
 
 Added in PHP 4.0

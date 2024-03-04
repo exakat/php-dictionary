@@ -442,6 +442,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ctype.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html</loc>
  </url>
  <url>
@@ -679,6 +682,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/event-driven.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/event-storming.ini.html</loc>
  </url>
  <url>
@@ -883,6 +889,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/http-code.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/http-encoding.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html</loc>
  </url>
  <url>
@@ -1039,6 +1048,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/leading-zero-means-octal.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/lengthexception.ini.html</loc>
  </url>
  <url>
@@ -1118,6 +1130,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/md5.ini.html</loc>
@@ -1606,6 +1621,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/scope.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sdk.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/segmentation-fault.ini.html</loc>
  </url>
  <url>
@@ -1637,6 +1655,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/shallow-clone.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html</loc>

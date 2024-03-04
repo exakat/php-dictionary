@@ -20,6 +20,6 @@ Nullable is the name of the NULL value, when used as a type. Until PHP 8.0, it w
 
 See also `Dealing with null <https://front-line-php.com/dealing-with-null>`_
 
-Related : :ref:`Null <null>`, :ref:`Type system <type>`
+Related : :ref:`Null <null>`, :ref:`Type System <type>`
 
 Added in PHP 7.1

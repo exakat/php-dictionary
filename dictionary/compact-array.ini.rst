@@ -1,6 +1,6 @@
 .. _compact-array:
 
-Compact array
+Compact Array
 -------------
 
 An array is compact if it only uses automated indices, starting with 0. This doesn't really show in PHP code, though performances are better for some operations.
@@ -24,3 +24,5 @@ This notion is not related to the compact() function.
 
 
 `Documentation <https://www.npopov.com/2012/03/28/Understanding-PHPs-internal-array-implementation.html>`__
+
+Related : :ref:`compact() <compact>`, :ref:`Simple Switch <simple-switch>`

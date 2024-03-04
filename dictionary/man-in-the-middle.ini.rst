@@ -13,4 +13,4 @@ To mitigate the risk of MitM attacks, encryption protocols like SSL/TLS are ofte
 
 See also `VaultPress - Remote Code Execution via Man in The Middle attack <https://www.securify.nl/en/advisory/vaultpress-remote-code-execution-via-man-in-the-middle-attack/>`_
 
-Related : 
+Related : :ref:`Session Highjacking <session-highjacking>`

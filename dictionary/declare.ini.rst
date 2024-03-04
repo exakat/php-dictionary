@@ -24,4 +24,4 @@ declare() affects some configuration for the next block of code.
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php>`__
 
-Related : :ref:`strict_types <strict_types>`, :ref:`Tick <tick>`, :ref:`declare encoding <declare-encoding>`
+Related : :ref:`strict_types <strict_types>`, :ref:`Tick <tick>`, :ref:`declare Encoding <declare-encoding>`

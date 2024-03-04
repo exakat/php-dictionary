@@ -1,6 +1,6 @@
 .. _one-liner:
 
-One liner
+One Liner
 ---------
 
 A one-liner refers to a concise and often single expression that accomplishes a specific task. It's a shorthand way of expressing functionality in a compact form. 

@@ -1,6 +1,6 @@
 .. _literal-types:
 
-Literal types
+Literal Types
 -------------
 
 Literal types are type which not only check the type of a value but also the value itself. PHP has support for two literal types: false as of PHP 8.0.0, and true as of PHP 8.2.0. 

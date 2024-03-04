@@ -31,6 +31,6 @@ Union types were introduced for exception catching, before PHP 8.
 
 See also `What are union types and how do you use them in PHP? <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_, `New in PHP 8: Union Types <https://alexwebdevelop.activehosted.com/social/3fe94a002317b5f9259f82690aeea4cd.328>`_
 
-Related : :ref:`Type system <type>`
+Related : :ref:`Type System <type>`
 
 Added in PHP 8.0

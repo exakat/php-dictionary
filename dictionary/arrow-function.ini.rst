@@ -4,7 +4,7 @@
 Arrow Functions
 ---------------
 
-Arrow functions are a type of closure with a specific syntax. It only accepts one expression, and uses the local context of definition.
+Arrow functions are a type of closure with a specific syntax. It only accepts one expression, and uses all the variables from the local context of definition. They may also be marked as ``static``, to prevent this last feature.
 
 .. code-block:: php
    
