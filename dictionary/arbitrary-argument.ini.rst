@@ -1,6 +1,6 @@
 .. _arbitrary-argument:
 
-Arbitrary Number of Argument
+Arbitrary Number Of Argument
 ----------------------------
 
 PHP allows any number of arguments to be passed to a functioncall. In the function definition, receiving those arguments means managing an arbitrary number of parameters. 

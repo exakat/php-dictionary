@@ -1,6 +1,6 @@
 .. _storage-system:
 
-Storage systems
+Storage Systems
 ---------------
 
 A storage system is a generic term to describe an external service that store data for a longer time than the current PHP request. 

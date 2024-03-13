@@ -1,6 +1,6 @@
 .. _php-tag:
 
-PHP tags
+PHP Tags
 --------
 
 When PHP parses a file, it looks for opening and closing tags, which are <?php and ?> which tell PHP to start and stop interpreting the code between them. 

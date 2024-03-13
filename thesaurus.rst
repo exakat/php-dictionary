@@ -34,6 +34,7 @@ Attribute
 + :ref:`Allow Dynamic Property <allowdynamicproperty>`
 + :ref:`Attribute Class <attribute-class>`
 + :ref:`Nested Attributes <nested-attribute>`
++ :ref:`Override Parent Method <override>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
 + :ref:`Sensitive Parameter <sensitiveparameter>`
@@ -94,6 +95,7 @@ Concept
 + :ref:`Pagination <pagination>`
 + :ref:`Password <password>`
 + :ref:`Path <path>`
++ :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`

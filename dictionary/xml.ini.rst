@@ -28,4 +28,6 @@ PHP offers several set of functions to handle XML : domxml, simplexml, xmlreader
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
+See also `PHP XML Tutorial: Create, Parse, Read with Example <https://www.guru99.com/php-and-xml.html>`_
+
 Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`

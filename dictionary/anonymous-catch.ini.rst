@@ -22,4 +22,6 @@ The motivation behind this proposal is to simplify exception handling code, espe
    ?>
 
 
+`Documentation <https://wiki.php.net/rfc/anonymous_catch>`__
+
 Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Try-catch <try-catch>`

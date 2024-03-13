@@ -15,4 +15,6 @@ PHP offers an alternative syntax for some of its control structures; namely, ``i
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
+See also `Using Alternative Syntax for Control Structures in PHP to Enhance HTML Integration <https://www.linkedin.com/pulse/using-alternative-syntax-control-structures-php-html-rahman-nadim/>`_
+
 Related : :ref:`Control Structures <control-structure>`

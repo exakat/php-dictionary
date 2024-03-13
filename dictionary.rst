@@ -48,7 +48,7 @@ PHP Dictionary
    * :ref:`Anonymous Class <anonymous-class>`
    * :ref:`Anonymous Function <anonymous-function>`
    * :ref:`Application Performance Management <apm>`
-   * :ref:`Arbitrary Number of Argument <arbitrary-argument>`
+   * :ref:`Arbitrary Number Of Argument <arbitrary-argument>`
    * :ref:`Archive <archive>`
    * :ref:`Argument <argument>`
    * :ref:`ArgumentCountError <argumentcounterror>`
@@ -57,6 +57,7 @@ PHP Dictionary
    * :ref:`Array Append <append>`
    * :ref:`Array Spread <array-spread>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
+   * :ref:`ArrayAccess <arrayaccess>`
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
    * :ref:`Artifact <artifact>`
@@ -455,6 +456,7 @@ PHP Dictionary
    * :ref:`Outgoing Data <outgoing-data>`
    * :ref:`Overenginer <overenginer>`
    * :ref:`Overflow <overflow>`
+   * :ref:`Override Parent Method <override>`
    * :ref:`Overwrite <overwrite>`
 * P
    * :ref:`PDOException <pdoexception>`
@@ -471,10 +473,10 @@ PHP Dictionary
    * :ref:`PHP Profiler <profiler>`
    * :ref:`PHP RFC <php-rfc>`
    * :ref:`PHP Standards Recommendations (PSR) <psr>`
+   * :ref:`PHP Tags <php-tag>`
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrapper <wrapper-php>`
-   * :ref:`PHP tags <php-tag>`
    * :ref:`PHP-FPM <fpm>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`PHPunit <phpunit>`
@@ -496,6 +498,7 @@ PHP Dictionary
    * :ref:`Pipeline <pipeline>`
    * :ref:`Plugin <plugin>`
    * :ref:`Polyfill <polyfill>`
+   * :ref:`Polymorphism <polymorphism>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Precedence <precedence>`
@@ -586,6 +589,7 @@ PHP Dictionary
    * :ref:`Session Fixation <session-fixation>`
    * :ref:`Session Highjacking <session-highjacking>`
    * :ref:`Shallow Clone <shallow-clone>`
+   * :ref:`Shard <shard>`
    * :ref:`Shell <shell>`
    * :ref:`Short Assignations <short-assignation>`
    * :ref:`Short Syntax <short-syntax>`
@@ -615,7 +619,7 @@ PHP Dictionary
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`
-   * :ref:`Storage systems <storage-system>`
+   * :ref:`Storage Systems <storage-system>`
    * :ref:`Stream <stream>`
    * :ref:`Stream Wrapper <wrapper-stream>`
    * :ref:`Strict Comparison <strict-comparison>`

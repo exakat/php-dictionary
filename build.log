@@ -11,11 +11,9 @@ __clone() method has a wrong format in file ./human/en/Features/__clone.ini.
 __get() method has a wrong format in file ./human/en/Features/__get.ini.
 ./human/en/Features/__get.ini has no SeeAlso. 
 __invoke() method has a wrong format in file ./human/en/Features/__invoke.ini.
-./human/en/Features/__invoke.ini is missing the tags attribute
 __isset() method has a wrong format in file ./human/en/Features/__isset.ini.
 ./human/en/Features/__isset.ini has no SeeAlso. 
 __serialize() method has a wrong format in file ./human/en/Features/__serialize.ini.
-./human/en/Features/__serialize.ini is missing the tags attribute
 __set() method has a wrong format in file ./human/en/Features/__set.ini.
 ./human/en/Features/__set.ini has no SeeAlso. 
 __set_state() method has a wrong format in file ./human/en/Features/__set_state.ini.
@@ -30,17 +28,10 @@ __wakeup() method has a wrong format in file ./human/en/Features/__wakeup.ini.
 ./human/en/Features/addition.ini is missing the tags attribute
 ./human/en/Features/alias-types.ini has no SeeAlso. 
 ./human/en/Features/alias.ini has no SeeAlso. 
-./human/en/Features/allowdynamicproperty.ini has no SeeAlso. 
-./human/en/Features/alternative-syntax.ini is missing the tags attribute
-./human/en/Features/alternative-syntax.ini has no SeeAlso. 
-./human/en/Features/and.ini has empty code for PHP. 
 ./human/en/Features/and.ini has no SeeAlso. 
 ./human/en/Features/anonymous-catch.ini has no SeeAlso. 
-./human/en/Features/anonymous-class.ini is missing the tags attribute
 ./human/en/Features/anonymous-function.ini has no SeeAlso. 
 ./human/en/Features/api.ini has no SeeAlso. 
-./human/en/Features/append.ini is missing the tags attribute
-Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbitrary-argument.ini.
 ./human/en/Features/arbitrary-argument.ini is missing the tags attribute
 ./human/en/Features/archive.ini is missing the tags attribute
 ./human/en/Features/archive.ini has no SeeAlso. 
@@ -49,8 +40,7 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/argumentcounterror.ini has no SeeAlso. 
 ./human/en/Features/arithmeticerror.ini has no SeeAlso. 
 ./human/en/Features/array.ini has no SeeAlso. 
-./human/en/Features/arrayaccess.ini has empty code for PHP. 
-./human/en/Features/arrayaccess.ini has no description. Omitting. 
+./human/en/Features/arrayaccess.ini has no SeeAlso. 
 ./human/en/Features/arrow-function.ini has no SeeAlso. 
 ./human/en/Features/artifact.ini has no SeeAlso. 
 ./human/en/Features/as.ini has no SeeAlso. 
@@ -61,7 +51,6 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/authenticate.ini is missing the tags attribute
 ./human/en/Features/authenticate.ini has no SeeAlso. 
 ./human/en/Features/authorize.ini has no description. Omitting. 
-./human/en/Features/autovivification.ini has no SeeAlso. 
 ./human/en/Features/backend.ini has no SeeAlso. 
 ./human/en/Features/badfunctioncallexception.ini has no SeeAlso. 
 ./human/en/Features/basename.ini is missing the tags attribute
@@ -102,7 +91,6 @@ Arbitrary Number of Argument has a wrong format in file ./human/en/Features/arbi
 ./human/en/Features/comment.ini has no SeeAlso. 
 ./human/en/Features/compact-array.ini has no SeeAlso. 
 ./human/en/Features/compact.ini has no SeeAlso. 
-./human/en/Features/component.ini has empty code for PHP. 
 ./human/en/Features/component.ini has no description. Omitting. 
 ./human/en/Features/composer.ini is missing the tags attribute
 ./human/en/Features/composer.ini has no SeeAlso. 
@@ -190,7 +178,6 @@ DRY : don't repeat yourself has a wrong format in file ./human/en/Features/dry.i
 ./human/en/Features/error.ini is missing the tags attribute
 ./human/en/Features/error.ini has no SeeAlso. 
 ./human/en/Features/escape-data.ini has no SeeAlso. 
-./human/en/Features/event-loop.ini has empty code for PHP. 
 ./human/en/Features/exception-chain.ini has no SeeAlso. 
 ./human/en/Features/exception-handler.ini is missing the tags attribute
 ./human/en/Features/exception-handler.ini has no SeeAlso. 
@@ -327,7 +314,6 @@ Logical operators has a wrong format in file ./human/en/Features/logical-operato
 ./human/en/Features/nullsafe.ini has no SeeAlso. 
 ./human/en/Features/numeric-separator.ini has no SeeAlso. 
 ./human/en/Features/obfuscation.ini has no SeeAlso. 
-./human/en/Features/object-api.ini has empty code for PHP. 
 Missing target related link for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/object-invasion.ini has no SeeAlso. 
 ./human/en/Features/object-operator.ini has no SeeAlso. 
@@ -344,6 +330,7 @@ Missing target related link for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/outgoing-data.ini has no SeeAlso. 
 ./human/en/Features/outofrangeexception.ini has no SeeAlso. 
 ./human/en/Features/overflow.ini has no SeeAlso. 
+./human/en/Features/override.ini has no SeeAlso. 
 ./human/en/Features/overwrite.ini is missing the tags attribute
 ./human/en/Features/overwrite.ini has no SeeAlso. 
 ./human/en/Features/pack.ini is missing the tags attribute
@@ -353,11 +340,9 @@ Missing target related link for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/parameter.ini has no SeeAlso. 
 ./human/en/Features/parent.ini is missing the tags attribute
 ./human/en/Features/parent.ini has no SeeAlso. 
-./human/en/Features/parenthesis.ini is missing the tags attribute
 ./human/en/Features/parenthesis.ini has no SeeAlso. 
 ./human/en/Features/parse.ini is missing the tags attribute
 ./human/en/Features/parseerror.ini has no SeeAlso. 
-./human/en/Features/path.ini has empty code for PHP. 
 ./human/en/Features/path.ini has no SeeAlso. 
 ./human/en/Features/pdo.ini has no SeeAlso. 
 ./human/en/Features/pdoexception.ini is missing the tags attribute
@@ -373,8 +358,6 @@ Missing target related link for mysqli in ./human/en/Features/object-api.ini
 ./human/en/Features/php-extension.ini has no SeeAlso. 
 ./human/en/Features/php-native-attribute.ini last char is not a .
 Missing target related link for allowdynamicproperties in ./human/en/Features/php-native-attribute.ini
-Missing target related link for override in ./human/en/Features/php-native-attribute.ini
-PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/php-tag.ini is missing the tags attribute
 ./human/en/Features/php-tag.ini has no SeeAlso. 
 ./human/en/Features/php-ug.ini has no SeeAlso. 
@@ -384,7 +367,6 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/phpinfo.ini has no SeeAlso. 
 ./human/en/Features/plugin.ini has no SeeAlso. 
 ./human/en/Features/plus.ini has no SeeAlso. 
-./human/en/Features/polymorphism.ini has no description. Omitting. 
 ./human/en/Features/portability.ini has no SeeAlso. 
 ./human/en/Features/positional-parameter.ini has no SeeAlso. 
 ./human/en/Features/precedence.ini is missing the tags attribute
@@ -439,11 +421,9 @@ PHP tags has a wrong format in file ./human/en/Features/php-tag.ini.
 ./human/en/Features/semantics.ini is missing the tags attribute
 ./human/en/Features/semantics.ini has no SeeAlso. 
 ./human/en/Features/semicolon.ini has no SeeAlso. 
-./human/en/Features/serialization.ini is missing the tags attribute
 Missing target related link for session-id in ./human/en/Features/session-highjacking.ini
 ./human/en/Features/session.ini is missing the tags attribute
-./human/en/Features/shard.ini has empty code for PHP. 
-./human/en/Features/shard.ini has no description. Omitting. 
+./human/en/Features/shard.ini has no SeeAlso. 
 ./human/en/Features/shell.ini has no SeeAlso. 
 ./human/en/Features/shutdown-function.ini is missing the tags attribute
 ./human/en/Features/signature.ini has no SeeAlso. 
@@ -467,7 +447,6 @@ Missing target related link for session-id in ./human/en/Features/session-highja
 ./human/en/Features/ssl.ini has no SeeAlso. 
 ./human/en/Features/statement.ini has no SeeAlso. 
 ./human/en/Features/static-property.ini has no SeeAlso. 
-Storage systems has a wrong format in file ./human/en/Features/storage-system.ini.
 ./human/en/Features/storage-system.ini has no SeeAlso. 
 ./human/en/Features/stream.ini has no SeeAlso. 
 ./human/en/Features/strict-comparison.ini is missing the tags attribute
@@ -522,7 +501,6 @@ toctou : Time of check to time of use has a wrong format in file ./human/en/Feat
 ./human/en/Features/userland.ini has no SeeAlso. 
 ./human/en/Features/validation.ini has no SeeAlso. 
 ./human/en/Features/var.ini has no SeeAlso. 
-./human/en/Features/var_dump.ini has empty code for PHP. 
 ./human/en/Features/var_dump.ini has no SeeAlso. 
 ./human/en/Features/variable-scope.ini has no SeeAlso. 
 ./human/en/Features/variable.ini has no SeeAlso. 
@@ -540,8 +518,6 @@ toctou : Time of check to time of use has a wrong format in file ./human/en/Feat
 ./human/en/Features/wrapper.ini last char is not a .
 ./human/en/Features/wrapper.ini has no SeeAlso. 
 Missing target related link for wrapper-pattern in ./human/en/Features/wrapper.ini
-./human/en/Features/xml.ini is missing the tags attribute
-./human/en/Features/xml.ini has no SeeAlso. 
 ./human/en/Features/xmlreader.ini has some empty seeAlso. 
 yield from Keyword has a wrong format in file ./human/en/Features/yield-from.ini.
 Missing way back from 'human/en/Features/method.ini' => related[] = "__call";
@@ -605,10 +581,8 @@ Missing way back from 'human/en/Features/scalar-type.ini' => related[] = "bool";
 Missing way back from 'human/en/Features/switch.ini' => related[] = "break";
 Missing way back from 'human/en/Features/loop.ini' => related[] = "break";
 Missing way back from 'human/en/Features/memoization.ini' => related[] = "cache";
-Missing way back from 'human/en/Features/closure.ini' => related[] = "callable";
 Missing way back from 'human/en/Features/__invoke.ini' => related[] = "callable";
 Missing way back from 'human/en/Features/arrow-function.ini' => related[] = "callable";
-Missing way back from 'human/en/Features/closure.ini' => related[] = "callback";
 Missing way back from 'human/en/Features/arrow-function.ini' => related[] = "callback";
 Missing way back from 'human/en/Features/match.ini' => related[] = "case";
 Missing way back from 'human/en/Features/enum.ini' => related[] = "case";
@@ -644,10 +618,13 @@ Missing way back from 'human/en/Features/static.ini' => related[] = "anonymous-f
 Missing way back from 'human/en/Features/arrow-function.ini' => related[] = "anonymous-functions";
 Missing way back from 'human/en/Features/anonymous-function.ini' => related[] = "anonymous-functions";
 Missing way back from 'human/en/Features/first-class-callable.ini' => related[] = "anonymous-functions";
+Missing way back from 'human/en/Features/callable.ini' => related[] = "anonymous-functions";
+Missing way back from 'human/en/Features/callback.ini' => related[] = "anonymous-functions";
 Missing way back from 'human/en/Features/static.ini' => related[] = "lambda-functions";
 Missing way back from 'human/en/Features/arrow-function.ini' => related[] = "lambda-functions";
 Missing way back from 'human/en/Features/anonymous-function.ini' => related[] = "lambda-functions";
-Missing way back from 'human/en/Features/first-class-callable.ini' => related[] = "lambda-functions";
+Missing way back from 'human/en/Features/callable.ini' => related[] = "lambda-functions";
+Missing way back from 'human/en/Features/callback.ini' => related[] = "lambda-functions";
 Missing way back from 'human/en/Features/ternary.ini' => related[] = "null-coalesce";
 Missing way back from 'human/en/Features/short-ternary.ini' => related[] = "null-coalesce";
 Missing way back from 'human/en/Features/ternary.ini' => related[] = "null-ternary";

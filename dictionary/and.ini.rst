@@ -7,4 +7,13 @@ And Operator
 
 ``and`` is a PHP keyword.
 
+.. code-block:: php
+   
+   <?php
+   
+   $a = 1 & 2;
+   
+   ?>
+
+
 Related : :ref:`Logical operators <logical-operator>`, :ref:`Keyword <keyword>`

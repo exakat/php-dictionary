@@ -18,4 +18,4 @@ It is also called the short echo tag.
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-Related : :ref:`PHP tags <php-tag>`, :ref:`Short Tags <short-tag>`
+Related : :ref:`PHP Tags <php-tag>`, :ref:`Short Tags <short-tag>`

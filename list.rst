@@ -54,6 +54,7 @@ Index
    dictionary/array-curly-braces.ini
    dictionary/array-spread.ini
    dictionary/array.ini
+   dictionary/arrayaccess.ini
    dictionary/arrayobject.ini
    dictionary/arrow-function.ini
    dictionary/artifact.ini
@@ -441,6 +442,7 @@ Index
    dictionary/outofrangeexception.ini
    dictionary/overengineer.ini
    dictionary/overflow.ini
+   dictionary/override.ini
    dictionary/overwrite.ini
    dictionary/owasp.ini
    dictionary/pack.ini
@@ -480,6 +482,7 @@ Index
    dictionary/plugin.ini
    dictionary/plus.ini
    dictionary/polyfill.ini
+   dictionary/polymorphism.ini
    dictionary/portability.ini
    dictionary/positional-parameter.ini
    dictionary/precedence.ini
@@ -557,6 +560,7 @@ Index
    dictionary/session.ini
    dictionary/setter.ini
    dictionary/shallow-clone.ini
+   dictionary/shard.ini
    dictionary/shell.ini
    dictionary/short-assignation.ini
    dictionary/short-syntax.ini
