@@ -3,6 +3,7 @@
 .. _or:
 .. _and-operator:
 .. _not:
+.. _logical:
 
 Logical operators
 -----------------

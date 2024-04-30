@@ -1,6 +1,6 @@
 .. _toctou:
 
-toctou : Time of check to time of use
+toctou : Time Of Check To Time Of Use
 -------------------------------------
 
 Toctou is a class of bug where there is a time interval between checking a resource and then using it. This interval may be used by an attacker to replace the checked resource, and fool the code.

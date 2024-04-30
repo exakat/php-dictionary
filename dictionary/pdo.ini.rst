@@ -32,4 +32,4 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 
 `Documentation <https://www.php.net/manual/en/intro.pdo.php>`__
 
-Related : :ref:`Data Source Name (DSN) <dsn>`
+Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Abstraction Layer <abstraction-layer>`

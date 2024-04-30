@@ -1,4 +1,5 @@
 .. _sqlite:
+.. _sqlite3:
 
 Sqlite3
 -------

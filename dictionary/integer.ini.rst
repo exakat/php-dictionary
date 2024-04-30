@@ -24,3 +24,5 @@ Integers have several syntaxes : they may be written in binary, octal, decimal, 
 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
+
+Related : :ref:`Addition <addition>`

@@ -30,4 +30,4 @@ Mixed keys in an array refers to the practice add elements in the array with bot
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`Index for arrays <index-array>`
+Related : :ref:`Index for arrays <index-array>`, :ref:`Addition <addition>`

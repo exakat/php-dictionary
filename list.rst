@@ -9,6 +9,7 @@ Index
    dictionary/$_get.ini
    dictionary/$_post.ini
    dictionary/$_request.ini
+   dictionary/$_server.ini
    dictionary/$argc.ini
    dictionary/$argv.ini
    dictionary/$http_raw_post_data.ini
@@ -64,6 +65,7 @@ Index
    dictionary/assignation.ini
    dictionary/assumption.ini
    dictionary/ast.ini
+   dictionary/asynchronous.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
    dictionary/authenticate.ini
@@ -86,6 +88,7 @@ Index
    dictionary/bucket.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
+   dictionary/c2-framework.ini
    dictionary/cache.ini
    dictionary/call.ini
    dictionary/callable.ini
@@ -114,7 +117,9 @@ Index
    dictionary/closure-binding.ini
    dictionary/closure.ini
    dictionary/coalesce.ini
+   dictionary/code-freeze.ini
    dictionary/code-injection.ini
+   dictionary/code-reuse.ini
    dictionary/code-smell.ini
    dictionary/coding-convention.ini
    dictionary/collection.ini
@@ -230,6 +235,7 @@ Index
    dictionary/error.ini
    dictionary/escape-character.ini
    dictionary/escape-data.ini
+   dictionary/escape-html.ini
    dictionary/escape-sequence.ini
    dictionary/eval.ini
    dictionary/event-driven.ini
@@ -241,6 +247,7 @@ Index
    dictionary/exit.ini
    dictionary/exponent.ini
    dictionary/exponential.ini
+   dictionary/expression.ini
    dictionary/extends.ini
    dictionary/extension.ini
    dictionary/extract.ini
@@ -341,6 +348,7 @@ Index
    dictionary/invalidargumentexception.ini
    dictionary/invariant.ini
    dictionary/inventory.ini
+   dictionary/ip.ini
    dictionary/isp.ini
    dictionary/isset.ini
    dictionary/iterable.ini
@@ -399,6 +407,7 @@ Index
    dictionary/multidimensional-array.ini
    dictionary/mutation-test.ini
    dictionary/mvc.ini
+   dictionary/mysqli.ini
    dictionary/mysqli_sql_exception.ini
    dictionary/n-query.ini
    dictionary/named-constructor.ini
@@ -483,6 +492,7 @@ Index
    dictionary/plus.ini
    dictionary/polyfill.ini
    dictionary/polymorphism.ini
+   dictionary/port.ini
    dictionary/portability.ini
    dictionary/positional-parameter.ini
    dictionary/precedence.ini
@@ -544,11 +554,13 @@ Index
    dictionary/sapi.ini
    dictionary/scaffolding.ini
    dictionary/scalar-typehint.ini
+   dictionary/scaling.ini
    dictionary/schema.ini
    dictionary/scheme.ini
    dictionary/scope-resolution-operator.ini
    dictionary/scope.ini
    dictionary/sdk.ini
+   dictionary/second-order-sql-injection.ini
    dictionary/segmentation-fault.ini
    dictionary/self.ini
    dictionary/semantics.ini
@@ -597,6 +609,7 @@ Index
    dictionary/static-variable.ini
    dictionary/static.ini
    dictionary/stdclass.ini
+   dictionary/stdout.ini
    dictionary/storage-system.ini
    dictionary/stream.ini
    dictionary/strict-comparison.ini
@@ -615,6 +628,7 @@ Index
    dictionary/switch-case.ini
    dictionary/switch-default.ini
    dictionary/switch.ini
+   dictionary/synchronous.ini
    dictionary/system-call.ini
    dictionary/system-event.ini
    dictionary/taint.ini

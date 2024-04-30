@@ -268,4 +268,4 @@ Bug
 + :ref:`Magic Hash <magic hash>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Object Injection <object-injection>`
-+ :ref:`Strpos() Syndrom <strpos-syndrom>`
++ :ref:`Strpos() Syndrome <strpos-syndrom>`

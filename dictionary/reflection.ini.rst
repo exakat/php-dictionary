@@ -7,29 +7,29 @@ PHP reflection is a feature that allows to inspect and interact with the structu
 
 PHP offers a complete API to describe classes, methods, interfaces, constants, functions, extensions, traits, enums and their components. 
 
-+ ReflectionAttribute — The ReflectionAttribute class
-+ ReflectionClass — The ReflectionClass class
-+ ReflectionClassConstant — The ReflectionClassConstant class
-+ ReflectionEnum — The ReflectionEnum class
-+ ReflectionEnumBackedCase — The ReflectionEnumBackedCase class
-+ ReflectionEnumUnitCase — The ReflectionEnumUnitCase class
-+ ReflectionException — The ReflectionException class
-+ ReflectionExtension — The ReflectionExtension class
-+ ReflectionFiber — The ReflectionFiber class
-+ ReflectionFunction — The ReflectionFunction class
-+ ReflectionFunctionAbstract — The ReflectionFunctionAbstract class
-+ ReflectionGenerator — The ReflectionGenerator class
-+ ReflectionIntersectionType — The ReflectionIntersectionType class
-+ ReflectionMethod — The ReflectionMethod class
-+ ReflectionNamedType — The ReflectionNamedType class
-+ ReflectionObject — The ReflectionObject class
-+ ReflectionParameter — The ReflectionParameter class
-+ ReflectionProperty — The ReflectionProperty class
-+ ReflectionReference — The ReflectionReference class
-+ ReflectionType — The ReflectionType class
-+ ReflectionUnionType — The ReflectionUnionType class
-+ ReflectionZendExtension — The ReflectionZendExtension class
-+ Reflector — The Reflector interface
++ ReflectionAttribute
++ ReflectionClass
++ ReflectionClassConstant
++ ReflectionEnum
++ ReflectionEnumBackedCase
++ ReflectionEnumUnitCase
++ ReflectionException
++ ReflectionExtension
++ ReflectionFiber
++ ReflectionFunction
++ ReflectionFunctionAbstract
++ ReflectionGenerator
++ ReflectionIntersectionType
++ ReflectionMethod
++ ReflectionNamedType
++ ReflectionObject
++ ReflectionParameter
++ ReflectionProperty
++ ReflectionReference
++ ReflectionType
++ ReflectionUnionType
++ ReflectionZendExtension
++ Reflector
 
 Reflection is also available in other programming languages.
 
@@ -37,7 +37,7 @@ Reflection is also available in other programming languages.
 .. code-block:: php
    
    <?php
-   Reflection::export(new ReflectionClass('Exception'));
+      Reflection::export(new ReflectionClass('Exception'));
    ?>
 
 

@@ -1,6 +1,6 @@
 .. _csv-injection:
 
-CSV injection
+CSV Injection
 -------------
 
 A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell. Formulas in cells starts usually with `=`, and may also use `+`, `-`, `@`, tabulation and carriage return.

@@ -5,11 +5,9 @@ Process Control (pcntl)
 
 Process Control is a set of native PHP function, that handles signals coming from the OS. 
 
-pcntl is suited for CLI operations, and not for web serving operations. 
+``pcntl`` is suited for CLI operations, and not for web serving operations. 
 
-pcntl manage process creation, program execution, signal handling and process termination. 
-
-
+``pcntl`` manage process creation, program execution, signal handling and process termination. 
 
 .. code-block:: php
    

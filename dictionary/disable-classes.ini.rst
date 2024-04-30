@@ -1,6 +1,6 @@
 .. _disable-classes:
 
-Disable classes
+Disable Classes
 ---------------
 
 This directive disables the provided list of classes in the `php.ini`.

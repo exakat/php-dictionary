@@ -13,6 +13,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_request.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_server.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$argc.ini.html</loc>
  </url>
  <url>
@@ -178,6 +181,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asynchronous.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute-class.ini.html</loc>
  </url>
  <url>
@@ -242,6 +248,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/c2-framework.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cache.ini.html</loc>
@@ -328,7 +337,13 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-freeze.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-injection.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-reuse.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-smell.ini.html</loc>
@@ -676,6 +691,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-data.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-html.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html</loc>
  </url>
  <url>
@@ -707,6 +725,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/expression.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/extends.ini.html</loc>
@@ -1009,6 +1030,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/inventory.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/isp.ini.html</loc>
  </url>
  <url>
@@ -1181,6 +1205,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mvc.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mysqli.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mysqli_sql_exception.ini.html</loc>
@@ -1435,6 +1462,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/polymorphism.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/port.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/portability.ini.html</loc>
  </url>
  <url>
@@ -1618,6 +1648,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/scaling.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/schema.ini.html</loc>
  </url>
  <url>
@@ -1631,6 +1664,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sdk.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/second-order-sql-injection.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/segmentation-fault.ini.html</loc>
@@ -1777,6 +1813,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/stdout.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/storage-system.ini.html</loc>
  </url>
  <url>
@@ -1829,6 +1868,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/synchronous.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/system-call.ini.html</loc>

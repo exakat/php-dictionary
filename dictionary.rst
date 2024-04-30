@@ -7,6 +7,7 @@ PHP Dictionary
    * :ref:`$_GET <$_get>`
    * :ref:`$_POST <$_post>`
    * :ref:`$_REQUEST <$_request>`
+   * :ref:`$_SERVER <$_server>`
    * :ref:`$argc <$argc>`
    * :ref:`$argv <$argv>`
    * :ref:`$php_errormsg <$php_errormsg>`
@@ -66,6 +67,7 @@ PHP Dictionary
    * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
    * :ref:`Assumption <assumption>`
+   * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute Class <attribute-class>`
    * :ref:`Attributes <attribute>`
    * :ref:`Authenticate <authenticate>`
@@ -88,10 +90,11 @@ PHP Dictionary
    * :ref:`basename <basename>`
    * :ref:`browscap <browscap>`
 * C
+   * :ref:`C2 Framework <c2-framework>`
    * :ref:`CGI <cgi>`
    * :ref:`CRUD <crud>`
    * :ref:`CSV <csv>`
-   * :ref:`CSV injection <csv-injection>`
+   * :ref:`CSV Injection <csv-injection>`
    * :ref:`CVS <cvs>`
    * :ref:`Cache <cache>`
    * :ref:`Call <call>`
@@ -121,8 +124,10 @@ PHP Dictionary
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce Operator <coalesce>`
+   * :ref:`Code Freeze <code-freeze>`
    * :ref:`Code Injection <code-injection>`
    * :ref:`Code Inventory <inventory>`
+   * :ref:`Code Reuse <code-reuse>`
    * :ref:`Code Smell <code-smell>`
    * :ref:`Coding Conventions <coding-convention>`
    * :ref:`Collection <collection>`
@@ -170,7 +175,7 @@ PHP Dictionary
    * :ref:`crc32 <crc32>`
 * D
    * :ref:`DOM <domxml>`
-   * :ref:`DRY : don't repeat yourself <dry>`
+   * :ref:`DRY : Don't Repeat Yourself <dry>`
    * :ref:`DTO <dto>`
    * :ref:`Dangling Reference <dangling-reference>`
    * :ref:`Data <data>`
@@ -204,8 +209,8 @@ PHP Dictionary
    * :ref:`Destructor <destructor>`
    * :ref:`Directives <directive>`
    * :ref:`DirectoryIterator <directoryiterator>`
+   * :ref:`Disable Classes <disable-classes>`
    * :ref:`Disable Functions <disable-functions>`
-   * :ref:`Disable classes <disable-classes>`
    * :ref:`Disjunctive Normal Form (DNF) <dnf>`
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
    * :ref:`Do While <do-while>`
@@ -250,6 +255,7 @@ PHP Dictionary
    * :ref:`Exit <exit>`
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
+   * :ref:`Expression <expression>`
    * :ref:`Extensions <extension>`
    * :ref:`extends <extends>`
    * :ref:`extract() <extract>`
@@ -299,6 +305,7 @@ PHP Dictionary
    * :ref:`global Scope <global>`
 * H
    * :ref:`HTML Entities <html-entities>`
+   * :ref:`HTML Escaping <escape-html>`
    * :ref:`HTML entity <html-entity>`
    * :ref:`HTTP Code <http-code>`
    * :ref:`HTTP Encoding <http-encoding>`
@@ -315,6 +322,7 @@ PHP Dictionary
    * :ref:`hash() Function <hash-function>`
    * :ref:`hg <hg>`
 * I
+   * :ref:`IP <ip>`
    * :ref:`Iconv <iconv>`
    * :ref:`Idempotent <idempotent>`
    * :ref:`Identical Operator <identical>`
@@ -410,6 +418,7 @@ PHP Dictionary
    * :ref:`Mutation Testing <mutation-test>`
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mcrypt Extension <mcrypt>`
+   * :ref:`mysqli <mysqli>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
    * :ref:`N+1 Query Problem <n-query>`
@@ -499,6 +508,7 @@ PHP Dictionary
    * :ref:`Plugin <plugin>`
    * :ref:`Polyfill <polyfill>`
    * :ref:`Polymorphism <polymorphism>`
+   * :ref:`Port <port>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Precedence <precedence>`
@@ -569,16 +579,19 @@ PHP Dictionary
    * :ref:`SQL Injection <sql-injection>`
    * :ref:`SQL Views <view-sql>`
    * :ref:`SSL <ssl>`
+   * :ref:`STDOUT <stdout>`
    * :ref:`SVMException <svmexception>`
    * :ref:`SVN <svn>`
    * :ref:`SWAP <swap>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scaffolding <scaffolding>`
    * :ref:`Scalar Types <scalar-type>`
+   * :ref:`Scaling <scaling>`
    * :ref:`Schema <schema>`
    * :ref:`Scheme <scheme>`
    * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
+   * :ref:`Second Order SQL Injection <second-order-sql-injection>`
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
@@ -587,7 +600,7 @@ PHP Dictionary
    * :ref:`Serialization <serialization>`
    * :ref:`Session <session>`
    * :ref:`Session Fixation <session-fixation>`
-   * :ref:`Session Highjacking <session-highjacking>`
+   * :ref:`Session Hijacking <session-highjacking>`
    * :ref:`Shallow Clone <shallow-clone>`
    * :ref:`Shard <shard>`
    * :ref:`Shell <shell>`
@@ -626,7 +639,7 @@ PHP Dictionary
    * :ref:`String <string>`
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
-   * :ref:`Strpos() Syndrom <strpos-syndrom>`
+   * :ref:`Strpos() Syndrome <strpos-syndrom>`
    * :ref:`Stubs Files <stubs>`
    * :ref:`Superglobal Variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
@@ -635,6 +648,7 @@ PHP Dictionary
    * :ref:`Switch Case <switch-case>`
    * :ref:`Switch Default <switch-default>`
    * :ref:`Switch Fallthrough <fallthrough>`
+   * :ref:`Synchronous <synchronous>`
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
    * :ref:`sleep <sleep>`
@@ -671,7 +685,7 @@ PHP Dictionary
    * :ref:`TypeError <typeerror>`
    * :ref:`Typo <typo>`
    * :ref:`throw <throw>`
-   * :ref:`toctou : Time of check to time of use <toctou>`
+   * :ref:`toctou : Time Of Check To Time Of Use <toctou>`
 * U
    * :ref:`UOPZ <uopz>`
    * :ref:`UUID <uuid>`

@@ -8,7 +8,7 @@ The ``switch`` expression branches evaluation based on an equality check of a va
 
 Each case is an expression, and shall be used that way. 
 
-``switch`` use a relaxed comparison between the parametered value and the case values. This means that some type juggling happens, and some literals might behave as identical.
+``switch`` use a relaxed comparison between the parameter value and the case values. This means that some type juggling happens, and some literals might behave as identical.
 
 
 .. code-block:: php

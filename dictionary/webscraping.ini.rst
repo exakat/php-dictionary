@@ -1,28 +1,28 @@
 .. _webscraping:
+.. _web_scraping:
 
 Webscraping
 -----------
 
-Web scraping is the process of extracting data from websites. It involves fetching the web page's HTML code and then using programming techniques to extract the desired information from that code. Web scraping is often used when the data you need is not available through an API (Application Programming Interface) or other structured means.
-
-The interrogation of the remote API may be done with PHP native functions or cUrl. The scraping itself may be done with regex for the most simple one: it requires a specific parser to extract structured information.
+Web scraping is the process of extracting data from websites. It involves fetching web pages, parsing HTML (or other markup languages), and then extracting the desired information. Web scraping can be done manually by a person or automatically using software tools called web scrapers or web crawling bots.
 
 .. code-block:: php
    
    <?php
    
-   // Loading the remote page
-   $html = file_get_contents('https://www.example.com/');
+   // fetching the web page
+   $html = file_get_contents('https://www.php.net/');
    
-   // Identify links
-   preg_match_all('/<a href="(.*?)"/', $html, $r);
+   // retrieving PHP current versions
+   preg_match_all('/downloads.php#v(\d+\.\d+\.\d+)\b/', $html, $r);
    
-   foreach ($r[1] as $link) {
-   	echo $link.PHP_EOL;
-   }
+   print_r(array_unique($r[1]));
    
    ?>
-   
 
 
-Related : :ref:`Curl <curl>`
+`Documentation <https://en.wikipedia.org/wiki/Web_scraping>`__
+
+See also `Web Scraping in PHP - The Complete Guide <https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide>`_
+
+Related packages : `symfony/panther <https://packagist.org/packages/symfony/panther>`_, `roach-php/core <https://packagist.org/packages/roach-php/core>`_, `jaeger/querylist <https://packagist.org/packages/jaeger/querylist>`_

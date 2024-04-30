@@ -28,4 +28,4 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 See also `Floating Dangers in PHP <https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc>`_
 
-Related : :ref:`Real Numbers <real>`
+Related : :ref:`Real Numbers <real>`, :ref:`Addition <addition>`, 

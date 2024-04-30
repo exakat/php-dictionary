@@ -1,9 +1,9 @@
 .. _strpos-syndrom:
 
-Strpos() Syndrom
-----------------
+Strpos() Syndrome
+-----------------
 
-The strpos() syndrom is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
+The strpos() syndrome is a classic bug : strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
 
 PHP's string are indexed starting with 0, so the found string might be in an index from 0 to the size of the string. 
 

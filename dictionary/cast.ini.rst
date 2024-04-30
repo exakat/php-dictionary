@@ -30,3 +30,5 @@ There is no operator to convert to a specific class type.
 `Documentation <https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`__
 
 See also `PHP Type Casting <https://tutorials.supunkavinda.blog/php/type-casting>`_
+
+Related : :ref:`__toString() Method <-__tostring>`

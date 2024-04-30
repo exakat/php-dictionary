@@ -31,4 +31,4 @@ PHP supports a system of attribute, to add local configuration to methods, class
 
 See also `PHP Native Attributes <https://www.exakat.io/en/php-native-attributes-quick-reference/>`_
 
-Related : :ref:`Attributes <attribute>`, , :ref:`Return Type Will Change <returntypewillchange>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Override Parent Method <override>`
+Related : :ref:`Attributes <attribute>`, :ref:`Allow Dynamic Property <allowdynamicproperty>`, :ref:`Return Type Will Change <returntypewillchange>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Override Parent Method <override>`

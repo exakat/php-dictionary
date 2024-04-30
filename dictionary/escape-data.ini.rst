@@ -16,3 +16,5 @@ PHP supports escape sequences for characters in a string. This is the same conce
 
 
 `Documentation <https://owasp-top-10-proactive-controls-2018.readthedocs.io/en/latest/c4-encode-escape-data.html>`__
+
+Related : :ref:`HTML Escaping <escape-html>`, :ref:`Escape Sequences <escape-sequence>`, :ref:`Escape Character <escape-character>`

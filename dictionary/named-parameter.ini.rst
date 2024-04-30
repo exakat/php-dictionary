@@ -26,6 +26,6 @@ In traditional positional parameter passing, the values are provided to a functi
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_, `New in PHP 8: Named Arguments <https://alexwebdevelop.activehosted.com/social/758874998f5bd0c393da094e1967a72b.326/>`_
+See also `PHP 8.0 feature focus: Named Arguments <https://platform.sh/blog/2020/php-80-feature-focus-named-arguments>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_, `New in PHP 8: Named Arguments <https://alexwebdevelop.activehosted.com/social/758874998f5bd0c393da094e1967a72b.326/>`_, `PHP: Named arguments are your friends <https://darkghosthunter.medium.com/php-named-arguments-are-your-friends-8076959b2f11/>`_, `Opting out of Named Parameters in PHP 8.0 <https://php.watch/articles/no-named-arguments-docblock-attribute>`_
 
 Related : :ref:`Positional Parameters <positional-parameter>`
