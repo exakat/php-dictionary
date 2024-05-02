@@ -336,8 +336,8 @@ PHP Dictionary
    * :ref:`Increment <increment>`
    * :ref:`Indentation <indentation>`
    * :ref:`Index <index>`
-   * :ref:`Index for SQL <index-sql>`
-   * :ref:`Index for arrays <index-array>`
+   * :ref:`Index For Arrays <index-array>`
+   * :ref:`Index For SQL <index-sql>`
    * :ref:`Inequality <inequality>`
    * :ref:`Infinite <infinite>`
    * :ref:`Inflector <inflector>`
@@ -366,7 +366,7 @@ PHP Dictionary
    * :ref:`JsonException <jsonexception>`
    * :ref:`Just In Time <jit>`
 * K
-   * :ref:`Key-value stores <key-value-store>`
+   * :ref:`Key-value Stores <key-value-store>`
    * :ref:`Keyword <keyword>`
 * L
    * :ref:`Language construct <language-construct>`
