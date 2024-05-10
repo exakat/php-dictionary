@@ -5,6 +5,8 @@ Index
    :maxdepth: 1
    :caption: Contents:
 
+   dictionary/$_cookie.ini
+   dictionary/$_env.ini
    dictionary/$_files.ini
    dictionary/$_get.ini
    dictionary/$_post.ini
@@ -194,6 +196,7 @@ Index
    dictionary/dereferencing.ini
    dictionary/design-pattern.ini
    dictionary/destructor.ini
+   dictionary/dictionary.ini
    dictionary/directive.ini
    dictionary/directoryiterator.ini
    dictionary/dirname.ini
@@ -231,6 +234,7 @@ Index
    dictionary/enum.ini
    dictionary/environment-variables.ini
    dictionary/error-handler.ini
+   dictionary/error-handling.ini
    dictionary/error-reporting.ini
    dictionary/error.ini
    dictionary/escape-character.ini
@@ -699,6 +703,7 @@ Index
    dictionary/view.ini
    dictionary/virtual-machine.ini
    dictionary/visibility.ini
+   dictionary/vo.ini
    dictionary/void.ini
    dictionary/weak-reference.ini
    dictionary/webscraping.ini

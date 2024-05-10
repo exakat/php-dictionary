@@ -3,6 +3,8 @@ PHP Dictionary
 
 * $
    * :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`
+   * :ref:`$_COOKIE <$_cookie>`
+   * :ref:`$_ENV <$_env>`
    * :ref:`$_FILES <$_files>`
    * :ref:`$_GET <$_get>`
    * :ref:`$_POST <$_post>`
@@ -207,6 +209,7 @@ PHP Dictionary
    * :ref:`Design Pattern <design-pattern>`
    * :ref:`Design Pattern Wrapper <wrapper-designpattern>`
    * :ref:`Destructor <destructor>`
+   * :ref:`Dictionary <dictionary>`
    * :ref:`Directives <directive>`
    * :ref:`DirectoryIterator <directoryiterator>`
    * :ref:`Disable Classes <disable-classes>`
@@ -242,6 +245,7 @@ PHP Dictionary
    * :ref:`Environment Variables <environment-variable>`
    * :ref:`Error <error>`
    * :ref:`Error Handler <error-handler>`
+   * :ref:`Error Handling <error-handling>`
    * :ref:`Error Reporting <error-reporting>`
    * :ref:`Escape Character <escape-character>`
    * :ref:`Escape Data <escape-data>`
@@ -709,7 +713,7 @@ PHP Dictionary
 * V
    * :ref:`VCS <vcs>`
    * :ref:`Validation <validation>`
-   * :ref:`Value Object <value-object>`
+   * :ref:`Value Object <vo>`
    * :ref:`ValueError <valueerror>`
    * :ref:`Var <var>`
    * :ref:`Variable Arguments <variable-argument>`

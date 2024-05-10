@@ -26,6 +26,7 @@ Acronym
 + :ref:`SAPI <sapi>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
++ :ref:`Value Object <vo>`
 + :ref:`YAML <yaml>`
 
 Attribute
