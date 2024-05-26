@@ -25,4 +25,4 @@ The ``$_SERVER`` variable is an associative array where the keys are the variabl
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.server.php>`__
 
-Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_FILES <$_files>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_FILES <$_files>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`

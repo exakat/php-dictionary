@@ -28,6 +28,6 @@ mcrypt was deprecated in PHP 7.1 and removed in PHP 7.2. It is recommended to us
 
 `Documentation <https://www.php.net/manual/en/ref.mcrypt.php>`__
 
-See also `ext/sodium <https://www.php.net/manual/en/book.sodium.php>_`, `ext/openssl <https://www.php.net/manual/en/book.openssl.php>_`
+See also `ext/sodium <https://www.php.net/manual/en/book.sodium.php>`_, `ext/openssl <https://www.php.net/manual/en/book.openssl.php>`_
 
 Related : :ref:`libsodium <sodium>`, :ref:`OpenSSL <openssl>`

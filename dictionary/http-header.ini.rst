@@ -1,6 +1,6 @@
 .. _http-header:
 
-HTTP headers
+HTTP Headers
 ------------
 
 HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction. 

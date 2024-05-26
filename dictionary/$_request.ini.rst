@@ -30,4 +30,4 @@ $_REQUEST is a superglobal : it is always available, in every scope.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`variable_order <variable_order>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`Form <form>`, :ref:`Incoming Data <incoming-data>`, :ref:`variable_order <variable_order>`

@@ -18,6 +18,6 @@ Arrow functions are a type of closure with a specific syntax. It only accepts on
 
 `Documentation <https://www.php.net/manual/en/functions.arrow.php>`__
 
-Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`
+Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Closure <anonymous-functions>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`, :ref:`Closure <lambda-functions>`
 
 Added in PHP 7.4

@@ -32,4 +32,4 @@ Values inside $_GET are always strings, or arrays. `https://www.site.com/index.p
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-Related : :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_files>`, :ref:`$_SERVER <$_server>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_files>`, :ref:`$_SERVER <$_server>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`Form <form>`, :ref:`Incoming Data <incoming-data>`, :ref:`Query String <query-string>`

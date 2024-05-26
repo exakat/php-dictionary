@@ -41,4 +41,4 @@ Global variables provides a way to share data in different and remote scopes. It
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`GLOBALS, the variable <globals>`, :ref:`global Scope <global>`, :ref:`Superglobal Variables <superglobal>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`$GLOBALS <globals>`, :ref:`global Scope <global>`, :ref:`Superglobal Variables <superglobal>`

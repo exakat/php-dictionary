@@ -31,4 +31,4 @@ PHP handlers may be functions, closures and arrow functions.
 
 `Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
 
-Related : :ref:`HTTP headers <http-header>`
+Related : :ref:`HTTP Headers <http-header>`

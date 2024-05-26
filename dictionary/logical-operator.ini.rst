@@ -5,7 +5,7 @@
 .. _not:
 .. _logical:
 
-Logical operators
+Logical Operators
 -----------------
 
 Logical operators applies four logical functions to booleans. 

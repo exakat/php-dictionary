@@ -21,4 +21,4 @@ echo works without parenthesis. It also accepts an arbitrary number of arguments
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-Related : :ref:`Print <print>`, :ref:`Language construct <language-construct>`
+Related : :ref:`Print <print>`, :ref:`Language Construct <language-construct>`

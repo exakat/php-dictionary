@@ -35,6 +35,6 @@ Used in a function signature, it collects all the values into one array.
 
 See also `PHP variadic <https://dev.to/jmau111/php-variadic-5a84>`_
 
-Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`
+Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`, :ref:`Unpacking <unpacking>`, :ref:`Unpacking <unpack>`
 
 Added in PHP 5.6

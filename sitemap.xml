@@ -286,6 +286,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cgi.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ci.ini.html</loc>
  </url>
  <url>
@@ -913,6 +916,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hg.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hosting.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/htaccess.ini.html</loc>
  </url>
  <url>
@@ -962,6 +968,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/import.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html</loc>
@@ -1213,6 +1222,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/multiplication.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mutation-test.ini.html</loc>
  </url>
  <url>
@@ -1304,6 +1316,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/observer.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ocp.ini.html</loc>

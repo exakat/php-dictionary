@@ -2,6 +2,7 @@ PHP Dictionary
 ++++++++++++++
 
 * $
+   * :ref:`$GLOBALS <globals>`
    * :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`
    * :ref:`$_COOKIE <$_cookie>`
    * :ref:`$_ENV <$_env>`
@@ -106,6 +107,7 @@ PHP Dictionary
    * :ref:`Case Sensitivity <case-sensitivity>`
    * :ref:`Cast Operator <cast>`
    * :ref:`Catch <catch>`
+   * :ref:`Chaining <chaining>`
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
@@ -293,7 +295,6 @@ PHP Dictionary
    * :ref:`Functions <function>`
    * :ref:`feature-flag <feature-switch>`
 * G
-   * :ref:`GLOBALS, the variable <globals>`
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
    * :ref:`Generics <generics>`
@@ -309,11 +310,11 @@ PHP Dictionary
    * :ref:`global Scope <global>`
 * H
    * :ref:`HTML Entities <html-entities>`
+   * :ref:`HTML Entity <html-entity>`
    * :ref:`HTML Escaping <escape-html>`
-   * :ref:`HTML entity <html-entity>`
    * :ref:`HTTP Code <http-code>`
    * :ref:`HTTP Encoding <http-encoding>`
-   * :ref:`HTTP headers <http-header>`
+   * :ref:`HTTP Headers <http-header>`
    * :ref:`HTTPS <https>`
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hash <hash>`
@@ -322,6 +323,7 @@ PHP Dictionary
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
+   * :ref:`Hosting <hosting>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
    * :ref:`hash() Function <hash-function>`
    * :ref:`hg <hg>`
@@ -335,6 +337,7 @@ PHP Dictionary
    * :ref:`ImagickException <imagickexception>`
    * :ref:`ImagickPixelException <imagickpixelexception>`
    * :ref:`Immutable <immutable>`
+   * :ref:`Import <import>`
    * :ref:`Inclusions <inclusion>`
    * :ref:`Incoming Data <incoming-data>`
    * :ref:`Increment <increment>`
@@ -373,7 +376,7 @@ PHP Dictionary
    * :ref:`Key-value Stores <key-value-store>`
    * :ref:`Keyword <keyword>`
 * L
-   * :ref:`Language construct <language-construct>`
+   * :ref:`Language Construct <language-construct>`
    * :ref:`Late Static Binding <late-static-binding>`
    * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
@@ -389,7 +392,7 @@ PHP Dictionary
    * :ref:`Locale <locale>`
    * :ref:`Log <log>`
    * :ref:`LogicException <logicexception>`
-   * :ref:`Logical operators <logical-operator>`
+   * :ref:`Logical Operators <logical-operator>`
    * :ref:`Loops <loop>`
    * :ref:`libsodium <libsodium>`
 * M
@@ -419,6 +422,7 @@ PHP Dictionary
    * :ref:`Module <module>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
+   * :ref:`Multiplication <multiplication>`
    * :ref:`Mutation Testing <mutation-test>`
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mcrypt Extension <mcrypt>`
@@ -455,6 +459,7 @@ PHP Dictionary
    * :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
    * :ref:`Object Operator -> <object-operator>`
    * :ref:`Object Relational Mapping (ORM) <orm>`
+   * :ref:`Observer Design Pattern <observer>`
    * :ref:`Octal Integer <octal-integer>`
    * :ref:`One Liner <one-liner>`
    * :ref:`Opcode <opcode>`

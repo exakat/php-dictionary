@@ -1,9 +1,9 @@
 .. _language-construct:
 
-Language construct
+Language Construct
 ------------------
 
-PHP has 'language construct', which are special keywords, with an attached feature. 
+PHP has a notion of ``language construct``, which are special keywords, with an attached feature. 
 
 Language constructs are : echo, require, require_once, include, include_once, return, die, exit, unset, isset, print, empty.
 

@@ -238,6 +238,7 @@ Type
 + :ref:`Never Type <never>`
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
++ :ref:`Return Typehint <return-type>`
 + :ref:`Standalone Types <standalone-types>`
 + :ref:`Stringable <stringable>`
 + :ref:`Type Invariant <invariant>`

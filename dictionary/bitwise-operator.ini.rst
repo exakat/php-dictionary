@@ -26,4 +26,4 @@ On the other hand, logical operators convert the whole value to boolean before m
 
 See also `Are Bitwise Operators Still Relevant in Modern PHP? <https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/>`_
 
-Related : :ref:`Logical operators <logical-operator>`
+Related : :ref:`Logical Operators <logical-operator>`

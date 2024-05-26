@@ -16,4 +16,4 @@ And Operator
    ?>
 
 
-Related : :ref:`Logical operators <logical-operator>`, :ref:`Keyword <keyword>`
+Related : :ref:`Logical Operators <logical-operator>`, :ref:`Keyword <keyword>`

@@ -100,6 +100,7 @@ Index
    dictionary/cast.ini
    dictionary/catch.ini
    dictionary/cgi.ini
+   dictionary/chaining.ini
    dictionary/ci.ini
    dictionary/class-alias.ini
    dictionary/class-constant-visibility.ini
@@ -309,6 +310,7 @@ Index
    dictionary/hexadecimal-integer.ini
    dictionary/hexagonal.ini
    dictionary/hg.ini
+   dictionary/hosting.ini
    dictionary/htaccess.ini
    dictionary/html-entities.ini
    dictionary/html-entity.ini
@@ -326,6 +328,7 @@ Index
    dictionary/imagickpixelexception.ini
    dictionary/immutable.ini
    dictionary/implements.ini
+   dictionary/import.ini
    dictionary/include.ini
    dictionary/inclusion.ini
    dictionary/incoming-data.ini
@@ -409,6 +412,7 @@ Index
    dictionary/model.ini
    dictionary/module.ini
    dictionary/multidimensional-array.ini
+   dictionary/multiplication.ini
    dictionary/mutation-test.ini
    dictionary/mvc.ini
    dictionary/mysqli.ini
@@ -440,6 +444,7 @@ Index
    dictionary/object-nullsafe-operator.ini
    dictionary/object-operator.ini
    dictionary/object.ini
+   dictionary/observer.ini
    dictionary/ocp.ini
    dictionary/octal-integer.ini
    dictionary/one-liner.ini

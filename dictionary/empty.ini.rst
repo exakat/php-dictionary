@@ -26,4 +26,4 @@ A variable is considered empty if it does not exist or if its value equals false
 
 See also `PHP isset() vs. empty() vs. is_null() <https://code.tutsplus.com/php-isset-vs-empty-vs-is_null--cms-37162t>`_, `Avoiding empty() in PHP <https://localheinz.com/articles/2023/05/10/avoiding-empty-in-php/>`_
 
-Related : :ref:`Language construct <language-construct>`, :ref:`Isset <isset>`, :ref:`Null <null>`
+Related : :ref:`Language Construct <language-construct>`, :ref:`Isset <isset>`, :ref:`Null <null>`

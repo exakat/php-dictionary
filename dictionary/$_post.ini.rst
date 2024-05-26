@@ -32,4 +32,4 @@ Values inside $_POST are always strings, or arrays.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.post.php>`__
 
-Related : :ref:`$_GET <$_get>`, :ref:`$_REQUEST <$_request>`
+Related : :ref:`$_GET <$_get>`, :ref:`$_REQUEST <$_request>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`$_SERVER <$_server>`, :ref:`Form <form>`, :ref:`Incoming Data <incoming-data>`

@@ -5,7 +5,7 @@
 Return Typehint
 ---------------
 
-Return types are the types used for the return values of a method or function. 
+Return types are the types used for the return value of a method or function. 
 
 They are the same as the argument types, with a few addition : 
 
@@ -14,9 +14,7 @@ They are the same as the argument types, with a few addition :
 
 Return types are ignored when the method throws an exception. 
 
-Return type are covariant : they get more or equally precise with each new child generation. 
-
-
+Return type are covariant : they get more or equally precise with each new child generation.
 
 .. code-block:: php
    
@@ -26,7 +24,7 @@ Return type are covariant : they get more or equally precise with each new child
        if (rand(0,1)) {
            return true;
        } else {
-           throw new Exception('e');
+           return false;
        }
    }
    
@@ -34,5 +32,7 @@ Return type are covariant : they get more or equally precise with each new child
 
 
 `Documentation <https://www.php.net/manual/en/functions.returning-values.php>`__
+
+See also `Return Types In PHP <https://dev.to/karleb/return-types-in-php-3fip>`_
 
 Related : :ref:`Type System <type>`, :ref:`Return <return>`, :ref:`Covariance <type-covariance>`

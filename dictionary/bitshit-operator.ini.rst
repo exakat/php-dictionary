@@ -20,4 +20,4 @@ Bitshift operators ``<<`` and ``>>`` move bits within an integer. The bits are s
 
 See also `Are Bitwise Operators Still Relevant in Modern PHP? <https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/>`_
 
-Related : :ref:`Logical operators <logical-operator>`, :ref:`Bitwise Operators <bitwise-operator>`
+Related : :ref:`Logical Operators <logical-operator>`, :ref:`Bitwise Operators <bitwise-operator>`

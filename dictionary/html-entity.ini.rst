@@ -1,6 +1,6 @@
 .. _html-entity:
 
-HTML entity
+HTML Entity
 -----------
 
 HTML entities are special character sequences, that represents a single character. Such representation is not needed for simple characters, such as the Latin alphabet. On the other hand, they are needed for unusual characters, in particular when the encoding cannot be guaranteed to support it. 

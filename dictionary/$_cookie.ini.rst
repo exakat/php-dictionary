@@ -23,4 +23,4 @@ Values inside $_COOKIE are always strings, or arrays.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.cookie.php>`__
 
-Related : :ref:`$_GET <$_get>`, :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_files>`, :ref:`$_SERVER <$_server>`
+Related : :ref:`$_GET <$_get>`, :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_files>`, :ref:`$_SERVER <$_server>`, :ref:`$_ENV <$_env>`

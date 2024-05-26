@@ -1,7 +1,8 @@
 .. _globals:
+.. _$_globals:
 
-GLOBALS, the variable
----------------------
+$GLOBALS
+--------
 
 $GLOBALS is a global variable, that host all other global variables, during a PHP execution. It is also a super-global, because it is always available, even without import. 
 
