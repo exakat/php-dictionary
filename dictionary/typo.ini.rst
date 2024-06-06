@@ -3,7 +3,7 @@
 Typo
 ----
 
-A typo is short for "typographical error". It refers to a mistake made in the typing of the code. Typographical errors can include misspelled words, misplaced opertors. Typos can occur in various contexts, such as types, expressions, naming. 
+A typo is short for "typographical error". It refers to a mistake made in the typing of the code. Typographical errors can include misspelled words, misplaced operators. Typos can occur in various contexts, such as types, expressions, naming. 
 
 A typo can lead to a visible or invisible error.
 

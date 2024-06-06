@@ -3,12 +3,11 @@
 XXTEA
 -----
 
-XXTEA is a symmetric encryption algorithm that stands for 'Corrected Block TEA' (TEA refers to Tiny Encryption Algorithm). It is primarily used for encrypting and decrypting data, providing a level of security for sensitive information.
+``XXTEA`` is a symmetric encryption algorithm that stands for 'Corrected Block TEA' (TEA refers to Tiny Encryption Algorithm). It is primarily used for encrypting and decrypting data, providing a level of security for sensitive information.
 
-XXTEA operates on 32-bit integer data blocks and employs a 128-bit key. It uses a series of iterations and bitwise operations to scramble the data and make it unreadable without the corresponding decryption process. XXTEA is a block cipher with a fixed block size of 8 bytes.
+``XXTEA`` operates on 32-bit integer data blocks and employs a 128-bit key. It uses a series of iterations and bitwise operations to scramble the data and make it unreadable without the corresponding decryption process. ``XXTEA`` is a block cipher with a fixed block size of 8 bytes.
 
 .. code-block:: php
-   
    
    <?php
    $str = "Hello World! 你好，中国🇨🇳！";
