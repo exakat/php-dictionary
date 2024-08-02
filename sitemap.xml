@@ -121,7 +121,13 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-class.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-constant.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-function.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/api.ini.html</loc>
@@ -551,6 +557,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/defined.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html</loc>
@@ -1240,6 +1249,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/n-query.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/named-constructor.ini.html</loc>
  </url>
  <url>
@@ -1609,6 +1621,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-comparison.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-keywords.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-syntax.ini.html</loc>
  </url>
  <url>
@@ -1694,6 +1709,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/second-order-sql-injection.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/security.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/segmentation-fault.ini.html</loc>

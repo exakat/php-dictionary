@@ -1,6 +1,6 @@
 .. _three-dots:
 
-Three dots
+Three Dots
 ----------
 
 Three dots, is an operator with several usages and names.

@@ -3,15 +3,13 @@
 Traversal
 ---------
 
-A traversal is the list of all elements in a data structure. 
+A traversal is the process to list of all elements in a data structure. 
 
-foreach() is a command to do a traversal on an array or an iterable object. 
+foreach() is a command to do a traversal on an array, an object or an iterable object. It is also possible to use an iterator.
 
 Traversal may be recursive : for example, the recursive iterators in the SPL library features the ``RecursiveArrayIterator`` class, which traverses multi-dimensional arrays.
 
 Traversal of a tree or graph datastructure turns the graph into a array-like list.
-
-
 
 .. code-block:: php
    
@@ -38,3 +36,7 @@ Traversal of a tree or graph datastructure turns the graph into a array-like lis
    ?>
    
 
+
+See also `Using PHP Arrays: A Guide for Beginners <https://www.sitepoint.com/php-arrays-tutorial/>`_
+
+Related : :ref:`Iterator <iterator>`

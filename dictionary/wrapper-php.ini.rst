@@ -21,4 +21,4 @@ Among the predefined PHP wrapper, there are http://, ftp://, zlib://, phar://, r
 
 See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_, `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_
 
-Related : :ref:`Protocol <protocol>`
+Related : :ref:`Protocol <protocol>`, :ref:`Wrapper <wrapper>`

@@ -45,7 +45,9 @@ Index
    dictionary/annotation.ini
    dictionary/anonymous-catch.ini
    dictionary/anonymous-class.ini
+   dictionary/anonymous-constant.ini
    dictionary/anonymous-function.ini
+   dictionary/anonymous.ini
    dictionary/api.ini
    dictionary/apm.ini
    dictionary/append.ini
@@ -189,6 +191,7 @@ Index
    dictionary/default-value.ini
    dictionary/default.ini
    dictionary/define.ini
+   dictionary/defined.ini
    dictionary/definition.ini
    dictionary/dependency-injection-container.ini
    dictionary/dependency-injection.ini
@@ -418,6 +421,7 @@ Index
    dictionary/mysqli.ini
    dictionary/mysqli_sql_exception.ini
    dictionary/n-query.ini
+   dictionary/name.ini
    dictionary/named-constructor.ini
    dictionary/named-parameter.ini
    dictionary/namespace-alias.ini
@@ -541,6 +545,7 @@ Index
    dictionary/registry.ini
    dictionary/relative-types.ini
    dictionary/relaxed-comparison.ini
+   dictionary/relaxed-keywords.ini
    dictionary/relaxed-syntax.ini
    dictionary/release.ini
    dictionary/render.ini
@@ -570,6 +575,7 @@ Index
    dictionary/scope.ini
    dictionary/sdk.ini
    dictionary/second-order-sql-injection.ini
+   dictionary/security.ini
    dictionary/segmentation-fault.ini
    dictionary/self.ini
    dictionary/semantics.ini

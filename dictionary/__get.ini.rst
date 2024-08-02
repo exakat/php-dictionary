@@ -1,6 +1,6 @@
 .. _-__get:
 
-__get() method
+__get() Method
 --------------
 
 __get() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it.
@@ -34,5 +34,7 @@ The __get() method is usually paired with the __set() method.
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
+
+See also `What are magic methods and how to use them in PHP ? <https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/>`_
 
 Related : :ref:`Magic Methods <magicmethod>`, :ref:`__set() method <-__set>`, :ref:`__isset() method <-__isset>`

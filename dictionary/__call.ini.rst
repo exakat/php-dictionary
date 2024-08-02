@@ -37,4 +37,4 @@ The __call() method has a related version for static methods, called ``__callSta
 
 See also `PHP _call (Lesson 3: PHP Magic Methods) <https://dev.to/cleancodestudio/php-call-lesson-3-php-magic-methods-5bi0>`_
 
-Related : :ref:`__callStatic() method <-__callStatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`
+Related : :ref:`__callStatic() Method <-__callStatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`

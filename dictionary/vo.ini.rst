@@ -13,4 +13,4 @@ VO may be confused with Data Transfert Object: the former's role is to carry dat
 
 See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Understanding Value Objects in PHP <https://wendelladriel.com/blog/understanding-value-objects-in-php>`_
 
-Related : :ref:`Value Object <vo>`, , :ref:`Class Entities <class-entity>`
+Related : , :ref:`Class Entities <class-entity>`

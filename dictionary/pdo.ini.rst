@@ -25,11 +25,11 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 .. code-block:: php
    
    <?php
-   $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
+     $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
    ?>
    
 
 
 `Documentation <https://www.php.net/manual/en/intro.pdo.php>`__
 
-Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Abstraction Layer <abstraction-layer>`
+Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`RDBMS <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`

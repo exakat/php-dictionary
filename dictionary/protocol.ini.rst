@@ -21,4 +21,4 @@ In a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and rela
 
 See also `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_
 
-Related : :ref:`Wrapper <wrapper>`
+Related : :ref:`Wrapper <wrapper>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTPS <https>`

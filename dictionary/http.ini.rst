@@ -12,4 +12,4 @@ HTTP is related to HTTPS, the secure version of HTTP.
 
 `Documentation <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>`__
 
-Related : :ref:`HTTPS <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`
+Related : :ref:`HTTPS <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`, :ref:`HTTP Headers <http-header>`

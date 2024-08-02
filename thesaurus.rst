@@ -46,6 +46,7 @@ Concept
 + :ref:`$this <$this>`
 + :ref:`Active Record <active-record>`
 + :ref:`Alias <alias>`
++ :ref:`Anonymous <anonymous>`
 + :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Artifact <artifact>`
 + :ref:`Benchmarking <benchmarking>`
@@ -115,6 +116,7 @@ Concept
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text Encoding <encoding-text>`
++ :ref:`Traversal <traversal>`
 + :ref:`UUID <uuid>`
 + :ref:`Underflow <underflow>`
 + :ref:`Unreachable Code <unreachable-code>`
@@ -249,8 +251,8 @@ Magic method
 ------------
 
 + :ref:`__call() Method <-__call>`
-+ :ref:`__callStatic() method <-__callStatic>`
-+ :ref:`__get() method <-__get>`
++ :ref:`__callStatic() Method <-__callStatic>`
++ :ref:`__get() Method <-__get>`
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
 + :ref:`__set_state() method <-__set_state>`

@@ -40,4 +40,4 @@ Shallow cloning is the default behavior in PHP.
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone() method <-__clone>`, :ref:`Deep Clone <deep-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone() Method <-__clone>`, :ref:`Deep Clone <deep-clone>`

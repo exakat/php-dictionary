@@ -28,6 +28,6 @@ The ``match`` expression is the remote cousin of the ``switch``. It takes a valu
 
 See also `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_
 
-Related : :ref:`Switch <switch>`, :ref:`Default <default>`, :ref:`If Then Else <if-then>`
+Related : :ref:`Switch <switch>`, :ref:`Default <default>`, :ref:`If Then Else <if-then>`, :ref:`UnhandledMatchError <unhandledmatcherror>`
 
 Added in PHP 8.0

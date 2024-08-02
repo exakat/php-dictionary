@@ -23,6 +23,6 @@ Type declarations can be added to function arguments, return values, and, as of 
 
 See also `Explore Your Types <https://backendtea.com/post/explore-your-types/>`_, `Narrowing types for static analysis <https://seld.be/notes/narrowing-types-for-static-analysis/>`_
 
-Related : :ref:`Scalar Types <scalar-type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Special Types <special-typehint>`, :ref:`Disjunctive Normal Form (DNF) <dnf>`
+Related : :ref:`Scalar Types <scalar-type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Special Types <special-typehint>`, :ref:`Disjunctive Normal Form (DNF) <dnf>`, :ref:`Variables <variable>`
 
 Added in PHP 7.0

@@ -42,4 +42,4 @@ Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP 
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone() method <-__clone>`, :ref:`Shallow Clone <shallow-clone>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone() Method <-__clone>`, :ref:`Shallow Clone <shallow-clone>`

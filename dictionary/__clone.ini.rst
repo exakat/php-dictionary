@@ -1,6 +1,6 @@
 .. _-__clone:
 
-__clone() method
+__clone() Method
 ----------------
 
 To clone an object is the creation of a new distinct object, from an existing one. This is basically a copy, although the object itself is multiplied by call the clone operator.
@@ -26,4 +26,4 @@ Cloning is similar to creating another object of the same class, without requiri
 
 See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`Deep Clone <deep-clone>`, :ref:`Shallow Clone <shallow-clone>`
+Related : :ref:`Readonly <readonly>`, :ref:`Magic Methods <magic-method>`, :ref:`Deep Clone <deep-clone>`, :ref:`Shallow Clone <shallow-clone>`

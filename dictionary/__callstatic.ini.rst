@@ -1,6 +1,6 @@
 .. _-__callStatic:
 
-__callStatic() method
+__callStatic() Method
 ---------------------
 
 __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
@@ -37,4 +37,4 @@ The __call() method has a related version for static methods, called `__callStat
 
 See also `Understand more magic methods: __callStatic() <https://dev.to/ngodinhcuong/understand-more-magic-methods-callstatic-2828>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() method <-__callStatic>`, :ref:`__call() Method <-__call>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__callStatic() Method <-__callStatic>`, :ref:`__call() Method <-__call>`

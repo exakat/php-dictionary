@@ -19,9 +19,9 @@ PHP Dictionary
    * :ref:`.htaccess <htaccess>`
 * _
    * :ref:`__call() Method <-__call>`
-   * :ref:`__callStatic() method <-__callStatic>`
-   * :ref:`__clone() method <-__clone>`
-   * :ref:`__get() method <-__get>`
+   * :ref:`__callStatic() Method <-__callStatic>`
+   * :ref:`__clone() Method <-__clone>`
+   * :ref:`__get() Method <-__get>`
    * :ref:`__halt_compiler() <halt-compiler>`
    * :ref:`__invoke() method <-__invoke>`
    * :ref:`__isset() method <-__isset>`
@@ -48,8 +48,10 @@ PHP Dictionary
    * :ref:`Alternative Syntax <alternative-syntax>`
    * :ref:`And Operator <and>`
    * :ref:`Annotations <annotation>`
+   * :ref:`Anonymous <anonymous>`
    * :ref:`Anonymous Catch <anonymous-catch>`
    * :ref:`Anonymous Class <anonymous-class>`
+   * :ref:`Anonymous Constant <anonymous-constant>`
    * :ref:`Anonymous Function <anonymous-function>`
    * :ref:`Application Performance Management <apm>`
    * :ref:`Arbitrary Number Of Argument <arbitrary-argument>`
@@ -232,6 +234,7 @@ PHP Dictionary
    * :ref:`declare Encoding <declare-encoding>`
    * :ref:`declare() <declare>`
    * :ref:`define() <define>`
+   * :ref:`defined() <defined>`
    * :ref:`dirname <dirname>`
 * E
    * :ref:`Early Binding <early-binding>`
@@ -430,6 +433,7 @@ PHP Dictionary
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
    * :ref:`N+1 Query Problem <n-query>`
+   * :ref:`Name <name>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
    * :ref:`Namespace Alias <namespace-alias>`
@@ -565,6 +569,7 @@ PHP Dictionary
    * :ref:`Regular Expressions <regex>`
    * :ref:`Relative Types <relative-types>`
    * :ref:`Relaxed Comparison <relaxed-comparison>`
+   * :ref:`Relaxed Keywords <relaxed-keywords>`
    * :ref:`Relaxed Syntax <relaxed-syntax>`
    * :ref:`Release <release>`
    * :ref:`Remote Procedure Call <rpc>`
@@ -601,6 +606,7 @@ PHP Dictionary
    * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
+   * :ref:`Security <security>`
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
    * :ref:`Semantics <semantics>`
@@ -677,7 +683,7 @@ PHP Dictionary
    * :ref:`Test Pyramid <test-pyramid>`
    * :ref:`Text Encoding <encoding-text>`
    * :ref:`Thread <thread>`
-   * :ref:`Three dots <three-dots>`
+   * :ref:`Three Dots <three-dots>`
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
    * :ref:`Trailing Comma <trailing-comma>`

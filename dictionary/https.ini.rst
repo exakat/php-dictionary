@@ -17,4 +17,4 @@ Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Tran
 
 `Documentation <https://en.wikipedia.org/wiki/HTTPS>`__
 
-Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`
+Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`, :ref:`HTTP Headers <http-header>`

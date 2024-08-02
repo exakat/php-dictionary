@@ -20,4 +20,4 @@ A wrapper may be two things:
    ?>
 
 
-Related : :ref:`Stream Wrapper <stream-wrapper>`, 
+Related : :ref:`Stream Wrapper <stream-wrapper>`, , :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTPS <https>`
