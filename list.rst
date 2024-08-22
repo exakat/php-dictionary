@@ -67,6 +67,7 @@ Index
    dictionary/assertion.ini
    dictionary/asset.ini
    dictionary/assignation.ini
+   dictionary/associative-array.ini
    dictionary/assumption.ini
    dictionary/ast.ini
    dictionary/asynchronous.ini
@@ -213,6 +214,7 @@ Index
    dictionary/domxml.ini
    dictionary/double-quote.ini
    dictionary/dowhile.ini
+   dictionary/downtime.ini
    dictionary/dry.ini
    dictionary/dsn.ini
    dictionary/dto.ini
@@ -308,6 +310,7 @@ Index
    dictionary/hash-crypto.ini
    dictionary/hash-function.ini
    dictionary/hash.ini
+   dictionary/haystack.ini
    dictionary/headless.ini
    dictionary/heredoc.ini
    dictionary/hexadecimal-integer.ini
@@ -340,6 +343,7 @@ Index
    dictionary/index-array.ini
    dictionary/index-sql.ini
    dictionary/index.ini
+   dictionary/indexed-array.ini
    dictionary/inequality.ini
    dictionary/infinite.ini
    dictionary/inflector.ini
@@ -406,6 +410,7 @@ Index
    dictionary/memoization.ini
    dictionary/message-queue.ini
    dictionary/method.ini
+   dictionary/methodcall.ini
    dictionary/micro-optimisation.ini
    dictionary/microservice.ini
    dictionary/microtime.ini
@@ -428,6 +433,7 @@ Index
    dictionary/namespace.ini
    dictionary/naming.ini
    dictionary/native.ini
+   dictionary/needle.ini
    dictionary/nested-attribute.ini
    dictionary/nesting.ini
    dictionary/never.ini

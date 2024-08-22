@@ -83,6 +83,7 @@ Concept
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
 + :ref:`Idempotent <idempotent>`
++ :ref:`Immutable <immutable>`
 + :ref:`Index <index>`
 + :ref:`Injection <injection>`
 + :ref:`Jobqueue <jobqueue>`

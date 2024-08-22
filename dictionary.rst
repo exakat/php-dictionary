@@ -71,6 +71,7 @@ PHP Dictionary
    * :ref:`Assertions <assertion>`
    * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
+   * :ref:`Associative Array <associative-array>`
    * :ref:`Assumption <assumption>`
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute Class <attribute-class>`
@@ -224,6 +225,7 @@ PHP Dictionary
    * :ref:`Do...while <dowhile>`
    * :ref:`DomainException <domainexception>`
    * :ref:`Double Quotes Strings <double-quote>`
+   * :ref:`Downtime <downtime>`
    * :ref:`Duck Typing <duck-typing>`
    * :ref:`Dynamic Call <dynamic-call>`
    * :ref:`Dynamic Class <dynamic-class>`
@@ -322,6 +324,7 @@ PHP Dictionary
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hash <hash>`
    * :ref:`Hash Comparisons <hash-comparison>`
+   * :ref:`Haystack <haystack>`
    * :ref:`Headless <headless>`
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
@@ -348,6 +351,7 @@ PHP Dictionary
    * :ref:`Index <index>`
    * :ref:`Index For Arrays <index-array>`
    * :ref:`Index For SQL <index-sql>`
+   * :ref:`Indexed Array <indexed-array>`
    * :ref:`Inequality <inequality>`
    * :ref:`Infinite <infinite>`
    * :ref:`Inflector <inflector>`
@@ -415,6 +419,7 @@ PHP Dictionary
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
    * :ref:`Method Signature <signature>`
+   * :ref:`Methodcall <methodcall>`
    * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Microservice <microservice>`
    * :ref:`Microtime() <microtime>`
@@ -440,6 +445,7 @@ PHP Dictionary
    * :ref:`Namespaces <namespace>`
    * :ref:`Naming <naming>`
    * :ref:`Native <native>`
+   * :ref:`Needle <needle>`
    * :ref:`Nested Attributes <nested-attribute>`
    * :ref:`Nesting <nesting>`
    * :ref:`Never Type <never>`

@@ -187,6 +187,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/associative-array.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/assumption.ini.html</loc>
  </url>
  <url>
@@ -625,6 +628,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dowhile.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/downtime.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html</loc>
  </url>
  <url>
@@ -910,6 +916,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/haystack.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/headless.ini.html</loc>
  </url>
  <url>
@@ -1004,6 +1013,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/indexed-array.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/inequality.ini.html</loc>
@@ -1204,6 +1216,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/methodcall.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html</loc>
  </url>
  <url>
@@ -1268,6 +1283,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/needle.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/nested-attribute.ini.html</loc>
