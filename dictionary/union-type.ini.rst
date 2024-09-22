@@ -1,4 +1,5 @@
 .. _union-type:
+.. _union:
 
 Union Type
 ----------

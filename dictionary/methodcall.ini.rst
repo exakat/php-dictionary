@@ -41,4 +41,4 @@ Static methods must be called statically. Method must be called non-statically, 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
-Related : 
+Related : :ref:`Fluent Interface <fluid-interface>`

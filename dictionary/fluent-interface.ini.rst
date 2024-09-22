@@ -1,10 +1,11 @@
 .. _fluent-interface:
 .. _fluent:
+.. _fluid-interface:
 
 Fluent Interface
 ----------------
 
-A fluent interface is an object-oriented API whose design relies extensively on method chaining.
+A fluent interface, or fluid interface, is an object-oriented API whose design relies extensively on method chaining.
 
 A fluent interface is not related to an interface : it may be implemented without them. 
 

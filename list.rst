@@ -129,6 +129,7 @@ Index
    dictionary/code-smell.ini
    dictionary/coding-convention.ini
    dictionary/collection.ini
+   dictionary/collision.ini
    dictionary/colon.ini
    dictionary/comma.ini
    dictionary/command-bus.ini

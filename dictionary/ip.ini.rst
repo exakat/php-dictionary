@@ -7,8 +7,7 @@ Internet Protocol: In the context of networking, IP often refers to Internet Pro
 
 PHP usually handles IP addresses as strings. It also has dedicated functions to manage them, in particular converting IPs to integer, with ip2long(), or solving them with DNS, with gethostbyaddr(). 
 
-PHP also provides IP in its configuration, such as ``$_SERVER['SERVER_ADDR']``, which is the IP of the current webserver
-
+PHP also provides IP in its configuration, such as ``$_SERVER['SERVER_ADDR']``, which is the IP of the current webserver.
 
 .. code-block:: php
    

@@ -1,4 +1,6 @@
 .. _intersection-type:
+.. _intersectional:
+.. _intersectional-type:
 
 Intersection Type
 -----------------

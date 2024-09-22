@@ -9,8 +9,7 @@ It is recommended to make the meaning of that number obvious. This is achieved b
 
 Magic numbers also applies to other literal values, such as string, float, arrays. Though, they are more difficult to sort out of the code.
 
-Magic numbers are difficult to categorize, when they are very common across different fields. For example, 0, 1, 2, 10 are very common for different tasks, and may need several disambiguations. Others, such as 60, 404, 
-
+Magic numbers are difficult to categorize, when they are very common across different fields. For example, 0, 1, 2, 10 are very common for different tasks, and may need several disambiguations. Others, such as 60, 404, 1024, are common usage. Finally, there might be business specific numbers, such as 42.
 
 .. code-block:: php
    

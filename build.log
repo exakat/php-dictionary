@@ -1,4 +1,5 @@
 No extension INI on ./human/en/Features/Dictionnaire PHP.txt
+Can't process seeAlso `PHP Include <https://www.phptutorial.net/php-tutorial/php-include-file/>_` in ./human/en/Features/inclusion.ini
 __invoke() method has a wrong format in file ./human/en/Features/__invoke.ini.
 __isset() method has a wrong format in file ./human/en/Features/__isset.ini.
 __serialize() method has a wrong format in file ./human/en/Features/__serialize.ini.
@@ -16,17 +17,14 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/extension.ini last char is not a .
 ./human/en/Features/framework.ini last char is not a .
 ./human/en/Features/hosting.ini has empty code for PHP. 
-./human/en/Features/inclusion.ini has some empty seeAlso. 
-./human/en/Features/ip.ini last char is not a .
-./human/en/Features/magic-number.ini last char is not a .
-Missing target related link for fluid-interface in ./human/en/Features/methodcall.ini
+Error in link for file ./human/en/Features/inclusion.ini : `PHP Include <https://www.phptutorial.net/php-tutorial/php-include-file/>_`
 ./human/en/Features/observer.ini has empty code for PHP. 
-Missing target related link for design pattern in ./human/en/Features/observer.ini
 ./human/en/Features/php-native-attribute.ini last char is not a .
 ./human/en/Features/query.ini last char is not a .
 ./human/en/Features/reflectionexception.ini last char is not a .
 ./human/en/Features/relaxed-syntax.ini last char is not a .
 ./human/en/Features/rfchange.ini last char is not a .
+./human/en/Features/rounding.ini has no description. Omitting. 
 ./human/en/Features/typerror.ini has some empty seeAlso. 
 ./human/en/Features/view.ini last char is not a .
 Missing target related link for ddd in ./human/en/Features/vo.ini
@@ -163,6 +161,8 @@ Missing way back from 'human/en/Features/associative-array.ini' => related[] = "
 Missing way back from 'human/en/Features/index-array.ini' => related[] = "collection";
 Missing way back from 'human/en/Features/array.ini' => related[] = "collection";
 Missing way back from 'human/en/Features/generics.ini' => related[] = "collection";
+Missing way back from 'human/en/Features/namespace.ini' => related[] = "collision";
+Missing way back from 'human/en/Features/namespace.ini' => related[] = "name-collision";
 Missing way back from 'human/en/Features/ternary.ini' => related[] = "colon";
 Missing way back from 'human/en/Features/null-ternary.ini' => related[] = "colon";
 Missing way back from 'human/en/Features/named-parameter.ini' => related[] = "colon";
@@ -353,6 +353,8 @@ Missing way back from 'human/en/Features/multiplication.ini' => related[] = "dou
 Missing way back from 'human/en/Features/final.ini' => related[] = "fluent-interface";
 Missing way back from 'human/en/Features/final.ini' => related[] = "fluent";
 Missing way back from 'human/en/Features/interface.ini' => related[] = "fluent";
+Missing way back from 'human/en/Features/final.ini' => related[] = "fluid-interface";
+Missing way back from 'human/en/Features/interface.ini' => related[] = "fluid-interface";
 Missing way back from 'human/en/Features/continue.ini' => related[] = "for";
 Missing way back from 'human/en/Features/loop.ini' => related[] = "for";
 Missing way back from 'human/en/Features/continue.ini' => related[] = "foreach";
@@ -433,6 +435,8 @@ Missing way back from 'human/en/Features/locale.ini' => related[] = "localisatio
 Missing way back from 'human/en/Features/intl.ini' => related[] = "localisation";
 Missing way back from 'human/en/Features/string.ini' => related[] = "interpolation";
 Missing way back from 'human/en/Features/heredoc.ini' => related[] = "interpolation";
+Missing way back from 'human/en/Features/type.ini' => related[] = "intersectional";
+Missing way back from 'human/en/Features/type.ini' => related[] = "intersectional-type";
 Missing way back from 'human/en/Features/locale.ini' => related[] = "intl";
 Missing way back from 'human/en/Features/covariance.ini' => related[] = "invariant";
 Missing way back from 'human/en/Features/contravariance.ini' => related[] = "invariant";
@@ -541,7 +545,7 @@ Missing way back from 'human/en/Features/magic-method.ini' => related[] = "objec
 Missing way back from 'human/en/Features/interface.ini' => related[] = "object";
 Missing way back from 'human/en/Features/clone.ini' => related[] = "object";
 Missing way back from 'human/en/Features/type.ini' => related[] = "object";
-Missing way back from 'human/en/Features/design pattern.ini' => related[] = "observer";
+Missing way back from 'human/en/Features/design-pattern.ini' => related[] = "observer";
 Missing way back from 'human/en/Features/integer.ini' => related[] = "octal-integer";
 Missing way back from 'human/en/Features/binary-integer.ini' => related[] = "octal-integer";
 Missing way back from 'human/en/Features/integer.ini' => related[] = "octal";
@@ -780,7 +784,15 @@ Missing way back from 'human/en/Features/convention.ini' => related[] = "trailin
 Missing way back from 'human/en/Features/class.ini' => related[] = "trait";
 Missing way back from 'human/en/Features/error.ini' => related[] = "traversable";
 Missing way back from 'human/en/Features/finally.ini' => related[] = "try";
+Missing way back from 'human/en/Features/nullable.ini' => related[] = "type-contravariance";
+Missing way back from 'human/en/Features/intersectional.ini' => related[] = "type-contravariance";
+Missing way back from 'human/en/Features/union.ini' => related[] = "type-contravariance";
+Missing way back from 'human/en/Features/scalar.ini' => related[] = "type-contravariance";
 Missing way back from 'human/en/Features/type-covariance.ini' => related[] = "contravariance";
+Missing way back from 'human/en/Features/nullable.ini' => related[] = "contravariance";
+Missing way back from 'human/en/Features/intersectional.ini' => related[] = "contravariance";
+Missing way back from 'human/en/Features/union.ini' => related[] = "contravariance";
+Missing way back from 'human/en/Features/scalar.ini' => related[] = "contravariance";
 Missing way back from 'human/en/Features/type-contravariance.ini' => related[] = "covariance";
 Missing way back from 'human/en/Features/type.ini' => related[] = "type-declaration-property";
 Missing way back from 'human/en/Features/union-type.ini' => related[] = "type-declaration-property";
@@ -804,6 +816,7 @@ Missing way back from 'human/en/Features/error.ini' => related[] = "unhandledmat
 Missing way back from 'human/en/Features/domxml.ini' => related[] = "unicode";
 Missing way back from 'human/en/Features/xmlwriter.ini' => related[] = "unicode";
 Missing way back from 'human/en/Features/xmlreader.ini' => related[] = "unicode";
+Missing way back from 'human/en/Features/type.ini' => related[] = "union";
 Missing way back from 'human/en/Features/__unserialize.ini' => related[] = "unserialization";
 Missing way back from 'human/en/Features/__serialize.ini' => related[] = "deserialize";
 Missing way back from 'human/en/Features/__unserialize.ini' => related[] = "deserialize";

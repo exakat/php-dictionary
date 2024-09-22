@@ -138,6 +138,7 @@ PHP Dictionary
    * :ref:`Code Smell <code-smell>`
    * :ref:`Coding Conventions <coding-convention>`
    * :ref:`Collection <collection>`
+   * :ref:`Collision <collision>`
    * :ref:`Colon <colon>`
    * :ref:`Comma <comma>`
    * :ref:`Command Bus <command-bus>`
