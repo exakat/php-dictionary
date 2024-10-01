@@ -73,6 +73,7 @@ PHP Dictionary
    * :ref:`Assignations <assignation>`
    * :ref:`Associative Array <associative-array>`
    * :ref:`Assumption <assumption>`
+   * :ref:`Asymetric Visibility <asymetric visibility>`
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute Class <attribute-class>`
    * :ref:`Attributes <attribute>`
@@ -541,6 +542,7 @@ PHP Dictionary
    * :ref:`Promise <promise>`
    * :ref:`Promoted Properties <promoted-property>`
    * :ref:`Properties <property>`
+   * :ref:`Property Hook <property-hook>`
    * :ref:`Property Type Declaration <type-declaration-property>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
@@ -743,6 +745,7 @@ PHP Dictionary
    * :ref:`View <view>`
    * :ref:`View In Presentation <view-presentation>`
    * :ref:`Virtual Machine <virtual-mchine>`
+   * :ref:`Virtual Property <virtual-property>`
    * :ref:`Visibility <visibility>`
    * :ref:`Void <void>`
    * :ref:`var_dump() <var_dump>`

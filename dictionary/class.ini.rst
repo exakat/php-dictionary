@@ -25,6 +25,6 @@ Basic class definitions begin with the keyword class, followed by a class name, 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php>`__
 
-Related : :ref:`Readonly <readonly>`, :ref:`Class Wither Method <wither>`
+Related : :ref:`Readonly <readonly>`, :ref:`Class Invasion <class-invasion>`, :ref:`Const <const>`, :ref:`Class Getter Method <getter>`, :ref:`implements <implements>`, :ref:`Inheritance <inheritance>`, :ref:`Method <method>`, :ref:`Class Setter Method <setter>`, :ref:`Traits <trait>`, :ref:`Class Wither Method <wither>`
 
 Added in PHP 4.0+

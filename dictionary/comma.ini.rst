@@ -28,4 +28,4 @@ They do not have a value by themselves.
    ?>
 
 
-Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`List <list>`
+Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`List <list>`, :ref:`Trailing Comma <trailing-comma>`

@@ -10,4 +10,4 @@ PHP can connect to multiple RDBMS : MySQL, Oracle, MariaDB, Sqlite3, MSSQL, Post
 PHP offers also a native abstraction layer : PDO.
 
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Simple Query Language (SQL) <sql>`, :ref:`Storage Systems <storage-system>`

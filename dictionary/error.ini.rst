@@ -31,4 +31,4 @@ It's important to note that these errors are only thrown by internal PHP errors.
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`
+Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Throwable <throwable>`, :ref:`Traversable <traversable>`, :ref:`UnhandledMatchError <unhandledmatcherror>`

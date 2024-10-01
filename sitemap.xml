@@ -196,6 +196,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asymetric-visibility.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asynchronous.ini.html</loc>
  </url>
  <url>
@@ -1564,6 +1567,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/property-hook.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html</loc>
  </url>
  <url>
@@ -2144,6 +2150,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/virtual-machine.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/virtual-property.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html</loc>

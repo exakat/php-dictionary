@@ -25,4 +25,4 @@ SSL is a PHP context for sockets, and share the configuration options with TLS.
 
 `Documentation <https://www.php.net/manual/en/context.php>`__
 
-Related : :ref:`TLS <tls>`
+Related : :ref:`TLS <tls>`, :ref:`Universal Resource Locator (URL) <url>`

@@ -24,4 +24,4 @@ continue is not possible inside a switch structure.
 
 `Documentation <https://www.php.net/manual/en/control-structures.continue.php>`__
 
-Related : :ref:`Break <break>`
+Related : :ref:`Break <break>`, :ref:`Control Flow <control-flow>`, :ref:`Do While <do-while>`, :ref:`Do...while <dowhile>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`While <while>`

@@ -31,4 +31,4 @@ There is no operator to convert to a specific class type.
 
 See also `PHP Type Casting <https://tutorials.supunkavinda.blog/php/type-casting>`_
 
-Related : :ref:`__toString() Method <-__tostring>`
+Related : :ref:`__toString() Method <-__tostring>`, :ref:`Type Juggling <type-juggling>`

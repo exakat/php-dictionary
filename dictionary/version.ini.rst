@@ -13,4 +13,4 @@ Versions serve several purposes : tracking changes, Compatibility management, Re
 
 See also `Semantic versioning <https://semver.org/>`_, `Managing package versions in Packagist <https://packagist.org/about>`_
 
-Related : :ref:`Release <release>`
+Related : :ref:`Release <release>`, :ref:`Upgrade <upgrade>`

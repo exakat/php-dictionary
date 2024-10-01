@@ -24,4 +24,6 @@ Even without names, they are usable just like functions, or as callable.
 
 `Documentation <https://www.php.net/manual/en/functions.anonymous.php>`__
 
+See also `Anonymous functions in PHP <https://drops-of-php.hi-folks.dev/04-functions/01-fns-anonymous/>`_
+
 Related : :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Closure <lambda-functions>`, :ref:`Anonymous <anonymous>`, :ref:`Arrow Functions <fn>`

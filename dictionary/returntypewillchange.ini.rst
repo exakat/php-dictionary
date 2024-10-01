@@ -27,4 +27,6 @@ This attributes only works with PHP native methods: it is ignored when used with
 
 `Documentation <https://php.watch/versions/8.1/ReturnTypeWillChange>`__
 
+Related : :ref:`PHP Native Attribute <php-native-attribute>`
+
 Added in PHP 8.1+

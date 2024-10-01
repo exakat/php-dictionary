@@ -23,6 +23,6 @@ This interface may be used with catch clauses, to catch everything that is throw
 
 `Documentation <https://www.php.net/manual/en/class.throwable.php>`__
 
-Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Error <error>`
+Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Error <error>`, :ref:`Type Error <typerror>`
 
 Added in PHP 7.0

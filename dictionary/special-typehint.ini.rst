@@ -36,6 +36,6 @@ Other special types are the scalar types.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`Type System <type>`
+Related : :ref:`Type System <type>`, :ref:`Type System <typehint>`, :ref:`Mixed <mixed>`, :ref:`Void <void>`, :ref:`Callables <callable>`, :ref:`Iterable <iterable>`, :ref:`Never Type <never>`, :ref:`Object <object>`, :ref:`parent <parent>`, :ref:`static <static>`, :ref:`Self <self>`
 
 Added in PHP 7.0

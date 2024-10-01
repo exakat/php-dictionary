@@ -27,4 +27,4 @@ Unpacking has two meanings :
    ?>
 
 
-Related : :ref:`Variadic <variadic>`
+Related : :ref:`Variadic <variadic>`, :ref:`Variadic <splat>`, :ref:`Variadic <spread>`

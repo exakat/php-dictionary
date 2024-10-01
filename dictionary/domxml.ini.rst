@@ -38,4 +38,4 @@ The DOM extension provides a tree-based representation of an XML document, where
 
 See also `Using PHP DOMDocument: Code Examples Explained <https://www.bitdegree.org/learn/php-domdocument>`_
 
-Related : :ref:`XML <xml>`, :ref:`SimpleXML <simplexml>`, :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`
+Related : :ref:`XML <xml>`, :ref:`SimpleXML <simplexml>`, :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`, :ref:`Unicode <unicode>`

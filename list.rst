@@ -70,6 +70,7 @@ Index
    dictionary/associative-array.ini
    dictionary/assumption.ini
    dictionary/ast.ini
+   dictionary/asymetric-visibility.ini
    dictionary/asynchronous.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
@@ -526,6 +527,7 @@ Index
    dictionary/profiler.ini
    dictionary/promise.ini
    dictionary/promoted-property.ini
+   dictionary/property-hook.ini
    dictionary/property.ini
    dictionary/protected.ini
    dictionary/protocol.ini
@@ -720,6 +722,7 @@ Index
    dictionary/view-sql.ini
    dictionary/view.ini
    dictionary/virtual-machine.ini
+   dictionary/virtual-property.ini
    dictionary/visibility.ini
    dictionary/vo.ini
    dictionary/void.ini

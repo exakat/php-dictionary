@@ -31,6 +31,6 @@ Streams may be extended with the notion of wrapper and protocols.
 
 `Documentation <https://www.php.net/manual/en/book.stream.php>`__
 
-Related : :ref:`Abstraction Layer <abstraction-layer>`
+Related : :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`
 
 Added in PHP 5.0

@@ -37,4 +37,4 @@ The __get() method is usually paired with the __set() method.
 
 See also `What are magic methods and how to use them in PHP ? <https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/>`_
 
-Related : :ref:`Magic Methods <magicmethod>`, :ref:`__set() method <-__set>`, :ref:`__isset() method <-__isset>`
+Related : :ref:`Magic Methods <magicmethod>`, :ref:`__set() method <-__set>`, :ref:`__isset() method <-__isset>`, :ref:`Magic Constants <magic-constant>`

@@ -16,6 +16,6 @@ A string is series of characters, where a character is the same as a byte. This 
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php>`__
 
-Related : :ref:`Stringable <stringable>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Magic Methods <magic-method>`, :ref:`sprintf <sprintf>`, :ref:`sprintf <vprintf>`
+Related : :ref:`Stringable <stringable>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Magic Methods <magic-method>`, :ref:`sprintf <sprintf>`, :ref:`sprintf <vprintf>`, :ref:`Concatenation <concatenation>`, :ref:`Curly Brackets <curly-bracket>`, :ref:`Format <format>`, :ref:`Heredocs <heredoc>`, :ref:`Interpolation <interpolation>`, :ref:`Nowdocs <nowdoc>`, :ref:`Scalar Types <scalar-typehint>`, :ref:`String Interpolation <string-interpolation>`
 
 Related packages : `symfony/string <https://packagist.org/packages/symfony/string>`_, `voku/stringy <https://packagist.org/packages/voku/stringy>`_

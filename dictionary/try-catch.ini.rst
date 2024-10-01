@@ -26,4 +26,4 @@ The catch clause may be anonymous, when it only specify the type of caught excep
 
 See also `PHP: Try and Catch me if you can! <https://medium.com/@erlandmuchasaj/php-try-and-catch-me-if-you-can-824bc6bb6698>`_, `How to Implement Try Catch Finally Blocks in PHP <https://rollbar.com/blog/php-try-catch-finally/>`_
 
-Related : :ref:`Finally <finally>`
+Related : :ref:`Finally <finally>`, :ref:`Anonymous Catch <anonymous-catch>`, :ref:`ArgumentCountError <argumentcounterror>`, :ref:`ArithmeticError Error <arithmeticerror>`, :ref:`Catch <catch>`, :ref:`Error <error>`, :ref:`Chaining Exceptions <exception-chain>`, :ref:`Exception Handler <exception-handler>`, :ref:`Exception <exception>`, :ref:`mysqli_sql_exception <mysqli_sql_exception>`, :ref:`PHP Predefined Exception <predefined-exception>`, :ref:`throw <throw>`

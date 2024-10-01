@@ -91,6 +91,7 @@ Concept
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle <lsp>`
++ :ref:`Loops <loop>`
 + :ref:`Magic Numbers <magic-number>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
@@ -254,6 +255,7 @@ Magic method
 + :ref:`__call() Method <-__call>`
 + :ref:`__callStatic() Method <-__callStatic>`
 + :ref:`__get() Method <-__get>`
++ :ref:`__invoke() method <-__invoke>`
 + :ref:`__isset() method <-__isset>`
 + :ref:`__set() method <-__set>`
 + :ref:`__set_state() method <-__set_state>`

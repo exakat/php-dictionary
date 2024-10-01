@@ -39,3 +39,5 @@ Generators are closely related to the foreach() loop.
 
 
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__
+
+Related : :ref:`Do While <do-while>`, :ref:`While <while>`, :ref:`Break <break>`, :ref:`Control Flow <control-flow>`, :ref:`Dangling Reference <dangling-reference>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`N+1 Query Problem <n-query>`

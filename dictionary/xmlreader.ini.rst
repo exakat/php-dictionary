@@ -42,7 +42,7 @@ The ``XMLReader`` extension is an XML Pull parser. The reader acts as a cursor g
 
 `Documentation <https://www.php.net/manual/en/book.xmlreader.php>`__
 
-See also `PHP XML Reader <https://phppot.com/php/php-xml-reader/>`_
+See also `PHP: Reading XML with XMLReader <https://www.youtube.com/watch?v=xBuBjyLAxOI>`_
 
 Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XML <xml>`
 

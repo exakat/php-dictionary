@@ -23,4 +23,4 @@ Other situations, such as accessing an array element or a string character beyon
    ?>
 
 
-Related : :ref:`Null <null>`
+Related : :ref:`Null <null>`, :ref:`RangeException <rangeexception>`, :ref:`Underflow <underflow>`

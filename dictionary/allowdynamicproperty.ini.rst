@@ -44,4 +44,6 @@ This attribute may be added to any class. It is not necessary with `stdClass`.
 
 See also `No More Dynamic Properties in PHP 9. <https://medium.com/@dotcom.software/no-more-dynamic-properties-in-php-9-the-language-is-evolving-260fd70da5e8>`_, `I hate the deprecation of dynamic properties. <https://www.reddit.com/r/PHP/comments/10u90o2/i_hate_the_deprecation_of_dynamic_properties/>`_
 
+Related : :ref:`PHP Native Attribute <php-native-attribute>`
+
 Added in PHP 8.2+
