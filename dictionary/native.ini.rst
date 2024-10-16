@@ -3,6 +3,7 @@
 .. _native-class:
 .. _native-constant:
 .. _built-in:
+.. _internal:
 
 Native
 ------

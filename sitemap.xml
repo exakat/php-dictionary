@@ -154,6 +154,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/arm.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array-curly-braces.ini.html</loc>
  </url>
  <url>
@@ -196,7 +199,7 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html</loc>
  </url>
  <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asymetric-visibility.ini.html</loc>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asymmetric-visibility.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asynchronous.ini.html</loc>
@@ -253,6 +256,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html</loc>
  </url>
  <url>
@@ -299,6 +305,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/character.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ci.ini.html</loc>
@@ -398,6 +407,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/compile-time.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html</loc>
@@ -586,6 +598,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecation.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html</loc>
  </url>
  <url>
@@ -752,6 +767,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/execution-time.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html</loc>
@@ -1076,6 +1094,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/inventory.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/invoke.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html</loc>

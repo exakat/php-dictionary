@@ -3,15 +3,13 @@
 Colon
 -----
 
-Colon are used in a variety of situations : 
+Colons are used in a variety of situations : 
 
 + With named parameters, to separate the name from the value
 + With labels, for goto
 + With ternary operator, separated or not from the question mark
 
-Double colon is a distinct operator.
-
-
+The double colon is a distinct operator.
 
 .. code-block:: php
    
@@ -30,4 +28,4 @@ Double colon is a distinct operator.
    
 
 
-Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`

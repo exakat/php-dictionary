@@ -1,5 +1,4 @@
 No extension INI on ./human/en/Features/Dictionnaire PHP.txt
-Can't process seeAlso `PHP Include <https://www.phptutorial.net/php-tutorial/php-include-file/>_` in ./human/en/Features/inclusion.ini
 __invoke() method has a wrong format in file ./human/en/Features/__invoke.ini.
 __isset() method has a wrong format in file ./human/en/Features/__isset.ini.
 __serialize() method has a wrong format in file ./human/en/Features/__serialize.ini.
@@ -8,10 +7,12 @@ __set_state() method has a wrong format in file ./human/en/Features/__set_state.
 __sleep() method has a wrong format in file ./human/en/Features/__sleep.ini.
 __unserialize() method has a wrong format in file ./human/en/Features/__unserialize.ini.
 __wakeup() method has a wrong format in file ./human/en/Features/__wakeup.ini.
+./human/en/Features/arm.ini has short description (96). 
 Missing target related link for anonymous-functions in ./human/en/Features/arrow-function.ini
 ./human/en/Features/authorize.ini has no description. Omitting. 
+Missing target related link for utf-8 in ./human/en/Features/character.ini
+Compile time has a wrong format in file ./human/en/Features/compile-time.ini.
 ./human/en/Features/component.ini has no description. Omitting. 
-./human/en/Features/days-in-month.ini has some empty seeAlso. 
 Missing target related link for error-system in ./human/en/Features/error-handling.ini
 related has empty entries in ./human/en/Features/exception-handler.ini
 related has empty entries in ./human/en/Features/exponent.ini
@@ -19,9 +20,9 @@ related has empty entries in ./human/en/Features/exponent.ini
 ./human/en/Features/extension.ini last char is not a .
 ./human/en/Features/framework.ini last char is not a .
 ./human/en/Features/hosting.ini has empty code for PHP. 
-Error in link for file ./human/en/Features/inclusion.ini : `PHP Include <https://www.phptutorial.net/php-tutorial/php-include-file/>_`
 ./human/en/Features/loop.ini has double tags : do-while.
 ./human/en/Features/observer.ini has empty code for PHP. 
+./human/en/Features/offset.ini has no description. Omitting. 
 related has empty entries in ./human/en/Features/php-docker-container.ini
 ./human/en/Features/php-native-attribute.ini last char is not a .
 ./human/en/Features/query.ini last char is not a .
@@ -32,7 +33,6 @@ related has empty entries in ./human/en/Features/returntypewillchange.ini
 ./human/en/Features/rounding.ini has no description. Omitting. 
 related has empty entries in ./human/en/Features/shutdown-function.ini
 related has empty entries in ./human/en/Features/stringable.ini
-./human/en/Features/typerror.ini has some empty seeAlso. 
 related has empty entries in ./human/en/Features/upload.ini
 related has empty entries in ./human/en/Features/uri.ini
 ./human/en/Features/view.ini last char is not a .

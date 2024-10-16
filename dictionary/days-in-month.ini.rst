@@ -9,7 +9,6 @@ This happens when adding a month to the last day of a month, while this month is
 
 When dealing with months, it is recommended to use expressions like 'first day of this month', or 'next month', instead of adding a month to an existing date.
 
-
 .. code-block:: php
    
    <?php
@@ -23,5 +22,7 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 
 `Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
+
+See also `How to Get Number of Days in Current Month in PHP? <https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/>`_
 
 Related : :ref:`Day Are Not 86400 Seconds <day-in-seconds>`

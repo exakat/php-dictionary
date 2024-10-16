@@ -59,6 +59,7 @@ PHP Dictionary
    * :ref:`Argument <argument>`
    * :ref:`ArgumentCountError <argumentcounterror>`
    * :ref:`ArithmeticError Error <arithmeticerror>`
+   * :ref:`Arm <arm>`
    * :ref:`Array <array>`
    * :ref:`Array Append <append>`
    * :ref:`Array Spread <array-spread>`
@@ -73,7 +74,7 @@ PHP Dictionary
    * :ref:`Assignations <assignation>`
    * :ref:`Associative Array <associative-array>`
    * :ref:`Assumption <assumption>`
-   * :ref:`Asymetric Visibility <asymetric visibility>`
+   * :ref:`Asymetric Visibility <asymmetric-visibility>`
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute Class <attribute-class>`
    * :ref:`Attributes <attribute>`
@@ -92,6 +93,7 @@ PHP Dictionary
    * :ref:`Blind Variable <blind-variable>`
    * :ref:`Block <block>`
    * :ref:`Boolean <boolean>`
+   * :ref:`Branch <branch>`
    * :ref:`Break <break>`
    * :ref:`Bucket <bucket>`
    * :ref:`basename <basename>`
@@ -113,6 +115,7 @@ PHP Dictionary
    * :ref:`Catch <catch>`
    * :ref:`Chaining <chaining>`
    * :ref:`Chaining Exceptions <exception-chain>`
+   * :ref:`Character <character>`
    * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
@@ -147,6 +150,7 @@ PHP Dictionary
    * :ref:`Comments <comment>`
    * :ref:`Compact Array <compact-array>`
    * :ref:`Comparison <comparison-operator>`
+   * :ref:`Compile time <compile-time>`
    * :ref:`Composer <composer>`
    * :ref:`Compression <compression>`
    * :ref:`Concatenation <concatenation>`
@@ -210,7 +214,8 @@ PHP Dictionary
    * :ref:`Dependency Injection <dependency-injection>`
    * :ref:`Dependency Injection Container <dependency-injection-container>`
    * :ref:`Deployment <deploy>`
-   * :ref:`Deprecation <deprecated>`
+   * :ref:`Deprecated <deprecated>`
+   * :ref:`Deprecation <deprecation>`
    * :ref:`Dereferencing <dereferencing>`
    * :ref:`Design By Contract <contract>`
    * :ref:`Design Pattern <design-pattern>`
@@ -265,6 +270,7 @@ PHP Dictionary
    * :ref:`Event Storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
+   * :ref:`Execution Time <execution-time>`
    * :ref:`Exit <exit>`
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
@@ -368,6 +374,7 @@ PHP Dictionary
    * :ref:`Interpolation <interpolation>`
    * :ref:`Intersection Type <intersection-type>`
    * :ref:`InvalidArgumentException <invalidargumentexception>`
+   * :ref:`Invoke <invoke>`
    * :ref:`Isset <isset>`
    * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`

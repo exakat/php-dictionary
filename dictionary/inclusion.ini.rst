@@ -26,7 +26,7 @@ Inclusions have been superseded by autoload in recent PHP versions. Autoload rel
 
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
-See also `PHP Include <https://www.phptutorial.net/php-tutorial/php-include-file/>_`, `PHP Include & Require : All about Include vs Require in PHP <https://www.simplilearn.com/tutorials/php-tutorial/include-in-php>`_
+See also `PHP Include <https://www.phptutorial.net/php-tutorial/php-include-file/>`_, `PHP Include & Require : All about Include vs Require in PHP <https://www.simplilearn.com/tutorials/php-tutorial/include-in-php>`_
 
 Related : :ref:`Class Autoloading <autoload>`
 

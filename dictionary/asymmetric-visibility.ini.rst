@@ -1,4 +1,4 @@
-.. _asymetric visibility:
+.. _asymmetric-visibility:
 .. _set-visibility:
 
 Asymetric Visibility
@@ -30,5 +30,7 @@ Traditionally, the visibility options (``private``, ``protected``, ``public``) c
    
    ?>
 
+
+See also `PHP Asymmetric Visibility RFC: An In-Depth Look <https://developerjoy.co/blog/php-asymmetric-visibility-rfc-an-in-depth-look>`_
 
 Related : :ref:`Visibility <visibility>`, :ref:`Properties <property>`

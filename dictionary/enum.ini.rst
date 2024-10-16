@@ -23,7 +23,7 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.php>`__
 
-See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_, `Enum in PHP — Real life examples <https://medium.com/@danielarcher/enum-in-php-real-life-examples-a596ba421f3c>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_
+See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_, `Enum in PHP — Real life examples <https://medium.com/@danielarcher/enum-in-php-real-life-examples-a596ba421f3c>`_
 
 Related : :ref:`Enumeration Case <enum-case>`, :ref:`Collection <collection>`
 

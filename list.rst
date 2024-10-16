@@ -56,6 +56,7 @@ Index
    dictionary/argument.ini
    dictionary/argumentcounterror.ini
    dictionary/arithmeticerror.ini
+   dictionary/arm.ini
    dictionary/array-curly-braces.ini
    dictionary/array-spread.ini
    dictionary/array.ini
@@ -70,7 +71,7 @@ Index
    dictionary/associative-array.ini
    dictionary/assumption.ini
    dictionary/ast.ini
-   dictionary/asymetric-visibility.ini
+   dictionary/asymmetric-visibility.ini
    dictionary/asynchronous.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
@@ -89,6 +90,7 @@ Index
    dictionary/blind-key.ini
    dictionary/block.ini
    dictionary/boolean.ini
+   dictionary/branch.ini
    dictionary/break.ini
    dictionary/browscap.ini
    dictionary/bucket.ini
@@ -105,6 +107,7 @@ Index
    dictionary/catch.ini
    dictionary/cgi.ini
    dictionary/chaining.ini
+   dictionary/character.ini
    dictionary/ci.ini
    dictionary/class-alias.ini
    dictionary/class-constant-visibility.ini
@@ -138,6 +141,7 @@ Index
    dictionary/compact-array.ini
    dictionary/compact.ini
    dictionary/comparison.ini
+   dictionary/compile-time.ini
    dictionary/composer.ini
    dictionary/compression.ini
    dictionary/concatenation.ini
@@ -200,6 +204,7 @@ Index
    dictionary/dependency-injection.ini
    dictionary/deploy.ini
    dictionary/deprecated.ini
+   dictionary/deprecation.ini
    dictionary/dereferencing.ini
    dictionary/design-pattern.ini
    dictionary/destructor.ini
@@ -256,6 +261,7 @@ Index
    dictionary/exception-chain.ini
    dictionary/exception-handler.ini
    dictionary/exception.ini
+   dictionary/execution-time.ini
    dictionary/exit.ini
    dictionary/exponent.ini
    dictionary/exponential.ini
@@ -364,6 +370,7 @@ Index
    dictionary/invalidargumentexception.ini
    dictionary/invariant.ini
    dictionary/inventory.ini
+   dictionary/invoke.ini
    dictionary/ip.ini
    dictionary/isp.ini
    dictionary/isset.ini

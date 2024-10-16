@@ -15,7 +15,10 @@ Float (``float``): floats, also known as floating-point numbers or doubles, repr
 
 String  (``string``): strings are sequences of characters enclosed in quotes (single or double).
 
-Boolean  (``bool``): booleans have two possible values: true or false.  
+Boolean  (``bool``): booleans have two possible values: true or false. 
+
+Note that ``null`` is not considered a scalar type, and is often behaving differently. 
+
 
 .. code-block:: php
    

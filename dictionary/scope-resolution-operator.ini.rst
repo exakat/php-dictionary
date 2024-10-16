@@ -27,4 +27,4 @@ This operator is often called double-colon, or ``paamayim-nekudotayim`` : this i
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
+Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`, :ref:`Colon <colon>`

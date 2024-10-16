@@ -34,6 +34,7 @@ Attribute
 
 + :ref:`Allow Dynamic Property <allowdynamicproperty>`
 + :ref:`Attribute Class <attribute-class>`
++ :ref:`Deprecated <deprecated>`
 + :ref:`Nested Attributes <nested-attribute>`
 + :ref:`Override Parent Method <override>`
 + :ref:`Properties <property>`
@@ -69,7 +70,7 @@ Concept
 + :ref:`Declaration <declaration>`
 + :ref:`Default Value <default-value>`
 + :ref:`Dependency Injection <dependency-injection>`
-+ :ref:`Deprecation <deprecated>`
++ :ref:`Deprecation <deprecation>`
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`

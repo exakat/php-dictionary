@@ -23,3 +23,5 @@ The uopz - User Operations for Zend - extension exposes Zend Engine functionalit
 
 
 `Documentation <https://www.php.net/manual/en/book.uopz.php>`__
+
+See also `UOPZ <https://github.com/krakjoe/uopz>`_
