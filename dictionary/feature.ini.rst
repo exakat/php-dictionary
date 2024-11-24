@@ -10,4 +10,4 @@ Software features can vary widely depending on the type of application and its i
 Developers prioritize and implement features based on user needs, market demand, and the overall vision for the software. As software evolves, new features may be added to enhance its functionality or to keep up with advancements in technology and user expectations. Additionally, user feedback and requests often play a role in determining which features get added or improved in future updates of the software.
 
 
-See also `Can I PHP <https://caniphp.com/>`_
+See also `Can I PHP <https://caniphp.com/>`_, `Top 10 PHP Features You Can Use in 2024 <https://backpackforlaravel.com/articles/tips-and-tricks/top-10-php-features-you-can-use-in-2024>`_

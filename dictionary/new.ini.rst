@@ -1,5 +1,4 @@
 .. _new:
-.. _instantiation:
 
 new
 ---

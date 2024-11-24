@@ -1,6 +1,7 @@
 .. _fully-qualified-name:
 .. _fqn:
 .. _fqcn:
+.. _absolute-name:
 
 Fully Qualified Name
 --------------------
@@ -30,6 +31,6 @@ PHP names may be fully qualified, unqualified or relative.
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.rules.php>`__
 
-Related : :ref:`Use <use>`, :ref:`Namespaces <namespace>`
+Related : :ref:`Use <use>`, :ref:`Namespaces <namespace>`, :ref:`Relative Types <relative-types>`
 
 Added in PHP 5.3

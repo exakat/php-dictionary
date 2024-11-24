@@ -26,6 +26,6 @@ The final keyword cannot be used with the private keyword : a private method is 
 
 See also `Final Classes: Open for Extension, Closed for Inheritance <https://verraes.net/2014/05/final-classes-in-php/>`_
 
-Related : :ref:`Overwrite <overwrite>`, :ref:`Private Visibility <private>`, :ref:`Abstract Class <abstract-class>`, :ref:`Abstract Keyword <abstract>`
+Related : :ref:`Overwrite <overwrite>`, :ref:`Private Visibility <private>`, :ref:`Abstract Class <abstract-class>`, :ref:`Abstract Keyword <abstract>`, :ref:`Static Constant <class-constant>`, :ref:`Final Class Constants <final-class-constant>`, :ref:`Fluent Interface <fluent-interface>`, :ref:`Object <object>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`
 
 Added in PHP 7.0

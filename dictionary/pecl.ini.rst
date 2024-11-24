@@ -7,4 +7,4 @@ PECL is a repository for PHP Extensions, providing a directory of all known exte
 
 `Documentation <https://pecl.php.net/>`__
 
-Related : :ref:`Extensions <extension>`
+Related : :ref:`Extensions <extension>`, :ref:`pie <pie>`

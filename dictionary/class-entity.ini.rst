@@ -7,4 +7,4 @@ An entity represents a single object, with a unique identifier and a set of prop
 
 `Documentation <https://en.wikipedia.org/wiki/Entity>`__
 
-Related : :ref:`HTML Entities <html-entities>`
+Related : :ref:`HTML Entities <html-entities>`, :ref:`Value Object <vo>`

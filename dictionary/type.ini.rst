@@ -23,6 +23,6 @@ Type declarations can be added to function arguments, return values, and, as of 
 
 See also `Explore Your Types <https://backendtea.com/post/explore-your-types/>`_, `Narrowing types for static analysis <https://seld.be/notes/narrowing-types-for-static-analysis/>`_
 
-Related : :ref:`Scalar Types <scalar-type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Special Types <special-typehint>`, :ref:`Disjunctive Normal Form (DNF) <dnf>`, :ref:`Variables <variable>`
+Related : :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`False <false>`, :ref:`Mixed <mixed>`, :ref:`Never Type <never>`, :ref:`Nullable <nullable>`, :ref:`Object <object>`, :ref:`Properties <property>`, :ref:`Return Type <return-type>`, :ref:`strict_types <strict_types>`, :ref:`True <true>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Typed Property <typed-property>`
 
 Added in PHP 7.0

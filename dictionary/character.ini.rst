@@ -25,4 +25,4 @@ In PHP, there is no dedicated type of character: a string of one element is used
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php>`__
 
-Related : :ref:`Encoding <encoding>`, 
+Related : :ref:`Encoding <encoding>`, :ref:`UTF-8 <utf-8>`

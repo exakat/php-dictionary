@@ -5,7 +5,6 @@ Use Alias
 
 The use operator can create aliases for a class, function or constant. After the declaration of the alias, it is possible to use the original class with the alias name. 
 
- 
 
 .. code-block:: php
    

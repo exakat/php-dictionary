@@ -7,6 +7,9 @@ Empty is a language structure, which determines whether a variable is empty.
 
 A variable is considered empty if it does not exist or if its value equals false. This may overlap with the usage of isset().
 
+``empty()`` has an error suppression feature, that masks various errors, such as undefined offset or undefined variables. Some other errors, like an invalid type as offset, are still reported.
+
+
 
 .. code-block:: php
    

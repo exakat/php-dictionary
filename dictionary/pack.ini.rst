@@ -8,8 +8,15 @@ Pack() is a native PHP function which converts given arguments into a binary str
 .. code-block:: php
    
    <?php
-   $binarydata = pack("nvc*", 0x1234, 0x5678, 65, 66);
+     
+     print pack("nvc*", 0x1234, 0x5678, 65, 66);
+     // displays 4xVAB
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/function.pack.php>`__
+
+See also `pack <https://www.phptutorial.info/?pack>`_
+
+Related : :ref:`Unpacking <unpack>`

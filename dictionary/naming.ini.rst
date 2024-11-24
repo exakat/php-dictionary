@@ -8,3 +8,5 @@ Naming
 Good naming practices are essential for writing readable, maintainable, and understandable code. Clear and meaningful names make it easier for developers (including yourself) to understand the purpose and functionality of different parts of the codebase.
 
 See also `Basics of Naming Conventions for PHP Developers <https://www.codementor.io/@veenitchauhan/basics-of-naming-conventions-for-php-developers-eliexmew6>`_
+
+Related : :ref:`Variables <variable>`

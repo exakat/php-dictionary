@@ -19,4 +19,4 @@ Interpolation is the PHP feature that automatically replaces variables and publi
 
 See also `How to Use String Interpolation in PHP <https://www.phpflow.com/php/how-to-use-string-interpolation-in-php/>`_
 
-Related : :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Heredocs <heredoc>`
+Related : :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Heredocs <heredoc>`, :ref:`Variables <variable>`

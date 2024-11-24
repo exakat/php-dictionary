@@ -1,4 +1,5 @@
 .. _magic hash:
+.. _magic hashes:
 
 Magic Hash
 ----------

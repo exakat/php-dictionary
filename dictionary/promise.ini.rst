@@ -12,4 +12,6 @@ In PHP, promises are commonly used with libraries or frameworks that provide asy
 
 `Documentation <https://en.wikipedia.org/wiki/Futures_and_promises>`__
 
+See also `Promises in PHP <https://evertpot.com/promises-in-php/>`_, `Using JavaScript-style Promises in PHP <https://www.amitmerchant.com/using-javascript-style-promises-php/>`_, `Pointless Promises in PHP <https://benwendt.ca/articles/pointless-promises-in-php/>`_
+
 Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_, `guzzle/promises <https://packagist.org/packages/guzzle/promises>`_, `react/promises <https://packagist.org/packages/react/promises>`_, `php-http/promise <https://packagist.org/packages/php-http/promise>`_

@@ -1,13 +1,12 @@
 .. _yoda:
+.. _yoda-condition:
 
 Yoda Condition
 --------------
 
 Yoda condition is a way to write condition by using any literal value on the left, instead of the right.
 
-This prevents errors where the comparison operator is shortened, and turned into an assignation, which is usually true. 
-
-
+This prevents errors where the comparison operator is shortened, and turned into an assignation, which is usually true.
 
 .. code-block:: php
    

@@ -3,7 +3,7 @@
 Arm
 ---
 
-An arm is a branch in a match() expression. There is the ``default`` arm, and the other ``arm``. 
+An arm is a branch in a match() expression. There is the ``default`` arm, and the other ``arm``. The arm includes the case (left) and the payload (right).
 
 .. code-block:: php
    
@@ -20,4 +20,4 @@ An arm is a branch in a match() expression. There is the ``default`` arm, and th
 
 `Documentation <https://www.php.net/manual/en/control-structures.match.php>`__
 
-Related : :ref:`If Then Else <if-then>`, :ref:`Branch <branch>`
+Related : :ref:`If Then Else <if-then>`, :ref:`Branch <branch>`, :ref:`Match <match>`

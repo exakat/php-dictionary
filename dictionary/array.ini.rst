@@ -31,3 +31,5 @@ Mixed keys in an array refers to the practice add elements in the array with bot
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
 Related : :ref:`Index For Arrays <index-array>`, :ref:`Addition <addition>`, :ref:`Comma <comma>`, :ref:`Dereferencing <dereferencing>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Hash <hash>`, :ref:`Hash <hashing>`, :ref:`Iterable <iterable>`, :ref:`List <list>`, :ref:`Map <map>`, :ref:`Sort <sort>`, :ref:`Sort <sorting>`, :ref:`Indexed Array <indexed-array>`, :ref:`Associative Array <associative-array>`
+
+Related packages : `voku/arrayy <https://packagist.org/packages/voku/arrayy>`_

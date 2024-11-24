@@ -1,6 +1,6 @@
 .. _-__invoke:
 
-__invoke() method
+__invoke() Method
 -----------------
 
 The __invoke() magic method is called when a script calls an object as a function. This type of class is also called a functor. 

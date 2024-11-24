@@ -56,3 +56,7 @@ PHP also uses lazy loading: some structures are checked at linting time, when th
 `Documentation <https://en.wikipedia.org/wiki/Lazy_loading>`__
 
 See also `Revisiting Lazy-Loading Proxies in PHP <https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67>`_, `Lazy loading design pattern in PHP <https://docs.php.earth/php/ref/oop/design-patterns/lazy-loading/>`_
+
+Related : :ref:`Lazy Objects <lazy-objects>`
+
+Related packages : `ocramius/proxy-manager <https://packagist.org/packages/ocramius/proxy-manager>`_

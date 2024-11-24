@@ -29,3 +29,5 @@ PHP requires a declaration for some structures, and allows its omission for othe
    
    ?>
 
+
+Related : :ref:`Definition <definition>`

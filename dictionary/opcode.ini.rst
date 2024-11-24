@@ -1,4 +1,5 @@
 .. _opcode:
+.. _bytecode:
 
 Opcode
 ------

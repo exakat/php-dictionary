@@ -1,4 +1,5 @@
 .. _magic-property:
+.. _overloaded-property:
 
 Magic Property
 --------------

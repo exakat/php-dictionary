@@ -3,7 +3,7 @@
 Ellipsis
 --------
 
-Ellipsis operator is the `...` operator. It also bears the name of three dots, and even dot dot dot. 
+Ellipsis operator is the `...` operator. It also bears the name of three dots, and even ``dot dot dot``. 
 
 It is used to implements the array spread feature, and the variadic arguments. The actual feature depends on the context. 
 

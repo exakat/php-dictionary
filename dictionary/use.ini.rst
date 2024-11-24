@@ -3,7 +3,7 @@
 Use
 ---
 
-The use operator has three distinct usage. 
+The use operator has three distinct usages. 
 
 The use operator allows the import and aliasing of fully qualified names (such as classes, interfaces, constants, ...)  in the current namespace. 
 

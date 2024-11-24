@@ -25,4 +25,4 @@ Execution time is related to compile time. Objects, constants (with define()), f
    ?>
 
 
-Related : :ref:`Compile time <compile-time>`, :ref:`Late Static Binding <late-static-binding>`
+Related : :ref:`Compile Time <compile-time>`, :ref:`Late Static Binding <late-static-binding>`

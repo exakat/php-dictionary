@@ -1,6 +1,7 @@
 .. _scalar-type:
 .. _scalar:
 .. _scalar-typehint:
+.. _primitive-type:
 
 Scalar Types
 ------------

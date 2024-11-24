@@ -1,7 +1,7 @@
 .. _override:
 
-Override Parent Method
-----------------------
+Override Attribute
+------------------
 
 This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent.
 

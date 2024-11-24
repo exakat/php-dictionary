@@ -1,5 +1,6 @@
 .. _instance:
 .. _instantiate:
+.. _instantiation:
 
 instance
 --------

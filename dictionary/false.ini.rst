@@ -22,4 +22,4 @@ false has two usages, as PHP keyword : the opposite of true, as a boolean value 
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`
+Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`True <true>`

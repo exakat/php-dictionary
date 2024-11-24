@@ -24,4 +24,4 @@ Classes may also be callable, when they implement the magic method ``__invoke()`
 
 See also `What Is the callable Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-callable-type-in-php>`_
 
-Related : :ref:`Callbacks <callback>`, :ref:`Closure <closure>`, :ref:`__invoke() method <-__invoke>`, :ref:`Arrow Functions <arrow-function>`
+Related : :ref:`Callbacks <callback>`, :ref:`Closure <closure>`, :ref:`__invoke() Method <-__invoke>`, :ref:`Arrow Functions <arrow-function>`

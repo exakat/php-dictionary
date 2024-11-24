@@ -36,4 +36,4 @@ Generators are also used to implement asynchronous properties: they may stop exe
 
 See also `Do generators really reduce the memory usage? <https://phpdelusions.net/articles/generators>`_, `PHP Generators From Scratch <https://alanstorm.com/php-generators-from-scratch/>`_, `Unlocking PHP Generators: Revolutionizing Memory Efficiency <https://itnext.io/unlocking-php-generators-revolutionizing-memory-efficiency-c6b894aacd22>`_
 
-Related : :ref:`Yield <yield>`, :ref:`yield from Keyword <yield-from>`, :ref:`Return Typehint <return-type>`
+Related : :ref:`Yield <yield>`, :ref:`yield from Keyword <yield-from>`, :ref:`Return Type <return-type>`

@@ -24,3 +24,5 @@ microtime() is often used for speed measures, and it may be easily replaced by h
 
 
 `Documentation <https://www.php.net/manual/fr/function.microtime.php>`__
+
+See also `hrtime <https://www.php.net/manual/fr/function.hrtime.php>`_

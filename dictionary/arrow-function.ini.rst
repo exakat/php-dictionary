@@ -22,6 +22,6 @@ Arrow functions may also be marked as ``static``, to prevent this import.
 
 See also `Arrow functions in PHP <https://drops-of-php.hi-folks.dev/04-functions/02-fns-arrowfunction/>`_
 
-Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, , :ref:`Callables <callable>`, :ref:`Callbacks <callback>`, :ref:`Closure <lambda-functions>`
+Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`
 
 Added in PHP 7.4

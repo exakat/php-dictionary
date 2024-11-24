@@ -28,4 +28,6 @@ While this is an intended feature, and is useful to reduce code, it tends to sur
 
 `Documentation <https://www.learncpp.com/cpp-tutorial/switch-fallthrough-and-scoping/>`__
 
+See also `PHP switch Statement <https://www.codeguage.com/courses/php/control-flow-switch>`_
+
 Related : :ref:`Match <match>`

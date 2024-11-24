@@ -36,7 +36,7 @@ Attribute
 + :ref:`Attribute Class <attribute-class>`
 + :ref:`Deprecated <deprecated>`
 + :ref:`Nested Attributes <nested-attribute>`
-+ :ref:`Override Parent Method <override>`
++ :ref:`Override Attribute <override>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
 + :ref:`Sensitive Parameter <sensitiveparameter>`
@@ -45,6 +45,7 @@ Concept
 -------
 
 + :ref:`$this <$this>`
++ :ref:`Abstraction Layer <abstraction-layer>`
 + :ref:`Active Record <active-record>`
 + :ref:`Alias <alias>`
 + :ref:`Anonymous <anonymous>`
@@ -74,11 +75,13 @@ Concept
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
++ :ref:`Domain Design Driven <ddd>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
 + :ref:`Extensions <extension>`
++ :ref:`Facade <facade>`
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
@@ -100,6 +103,7 @@ Concept
 + :ref:`Pagination <pagination>`
 + :ref:`Password <password>`
 + :ref:`Path <path>`
++ :ref:`Permission <permission>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Promise <promise>`
@@ -161,6 +165,7 @@ Exception
 + :ref:`ClosedGeneratorException <closedgeneratorexception>`
 + :ref:`DivisionByZeroError <divisionbyzeroerror>`
 + :ref:`ImagickPixelException <imagickpixelexception>`
++ :ref:`InvalidArgumentException <invalidargumentexception>`
 + :ref:`JsonException <jsonexception>`
 + :ref:`LengthException <lengthexception>`
 + :ref:`LogicException <logicexception>`
@@ -198,6 +203,7 @@ Keyword
 + :ref:`If Then Else <if-then>`
 + :ref:`Insteadof <insteadof>`
 + :ref:`Interfaces <interface>`
++ :ref:`Isset <isset>`
 + :ref:`Iterable <iterable>`
 + :ref:`Match <match>`
 + :ref:`Mixed <mixed>`
@@ -243,9 +249,10 @@ Type
 + :ref:`Never Type <never>`
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
-+ :ref:`Return Typehint <return-type>`
++ :ref:`Return Type <return-type>`
 + :ref:`Standalone Types <standalone-types>`
 + :ref:`Stringable <stringable>`
++ :ref:`True <true>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Void <void>`
@@ -255,13 +262,16 @@ Magic method
 
 + :ref:`__call() Method <-__call>`
 + :ref:`__callStatic() Method <-__callStatic>`
++ :ref:`__clone() Method <-__clone>`
 + :ref:`__get() Method <-__get>`
-+ :ref:`__invoke() method <-__invoke>`
++ :ref:`__invoke() Method <-__invoke>`
 + :ref:`__isset() method <-__isset>`
++ :ref:`__serialize() method <-__serialize>`
 + :ref:`__set() method <-__set>`
 + :ref:`__set_state() method <-__set_state>`
 + :ref:`__sleep() method <-__sleep>`
 + :ref:`__toString() Method <-__tostring>`
++ :ref:`__unserialize() method <-__unserialize>`
 + :ref:`__wakeup() method <-__wakeup>`
 
 Bug

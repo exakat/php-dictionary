@@ -3,13 +3,17 @@
 Assumption
 ----------
 
-An assumption is a piece of code that makes use of knowledge that is not visible in the script. 
+An assumption is a piece of code that makes use of knowledge that is not visible in the source. 
 
 Assumptions are often related to arrays : after checking that a variable is of type array, some specific index are used, while there is not guarantee that they are available.
 
-Assumptions may be upgraded to assertions. 
+Assumptions may apply to any type of data. 
 
+Assumptions are characterized by a lact of checks, before or after. They are based on code discipline (actual or expected), and hard rules that are thought to never be violated: ``this never happens``. 
 
+Assumptions leads to faster code, and faster coding working. It also yield errors later, when the assumptions rules are violated.
+
+Assumptions may be upgraded to assertions, by adding an explicit check on the situation. 
 
 .. code-block:: php
    

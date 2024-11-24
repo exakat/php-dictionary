@@ -1,9 +1,10 @@
 .. _return-type:
 .. _returntype:
 .. _return-typehint:
+.. _returntypehint:
 
-Return Typehint
----------------
+Return Type
+-----------
 
 Return types are the types used for the return value of a method or function. 
 

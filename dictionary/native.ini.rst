@@ -27,5 +27,3 @@ On the other hand, a feature is custom : that is, when defined by the developer 
 
 
 See also `The 100 PHP functions in 2022 <https://www.exakat.io/en/the-100-php-functions-in-2022/>`_
-
-Related : :ref:`Native <built-in>`

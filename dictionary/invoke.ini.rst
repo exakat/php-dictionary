@@ -25,4 +25,4 @@ Invocation is based on the ``__invoke`` magic method.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`__
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__invoke() method <-__invoke>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__invoke() Method <-__invoke>`

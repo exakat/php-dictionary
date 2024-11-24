@@ -56,3 +56,12 @@ html_static_path = ['_static']
 
 html_extra_path = ["googlee919cb0917e4fefc.html",
 					"sitemap.xml"]
+					
+html_theme_options = {
+#    'logo': 'logo.png',
+    'analytics_id': 'G-29LCZ34CDW',
+    'github_button': True,
+    'github_repo':'php-dictionary',
+    'github_user':'exakat',
+    'description': 'The definitive reference with all things PHP, and their definitions.',
+}

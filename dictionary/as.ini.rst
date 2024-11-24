@@ -9,7 +9,7 @@ The as operator has several usage:
 + It is an optional keyword with the use expression, in trait import
 + It is an optional keyword with the use expression, in namespace import
 
-The as operator often works to give a distinct name to an existing structure. 
+The ``as`` operator often works to give a distinct name to an existing structure. 
 
 
 

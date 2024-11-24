@@ -3,11 +3,11 @@
 Comments
 --------
 
-In PHP, comments are used to add explanatory notes or annotations within your code. Comments are not executed by the PHP interpreter; they are purely for documentation purposes, and they help you and others understand the code better. PHP supports two main types of comments:
+PHP comments are used to add explanatory notes or annotations within your code. Comments are not executed by the PHP interpreter; they are purely for documentation purposes, and they help you and others understand the code better. PHP supports two main types of comments:
 
-Single-line comments: These are comments that span only one line. They are typically used for brief explanations or annotations within the code. Single-line comments in PHP can be created using either double slashes (``//``) or a hash symbol (``#``).
+Single-line comments: these are comments that span only one line. They are typically used for brief explanations or annotations within the code. Single-line comments in PHP can be created using either double slashes (``//``) or a hash symbol (``#``).
 
-Multi-line comments: These are comments that can span multiple lines, allowing for more extensive explanations or commenting out large sections of code. Multi-line comments in PHP are enclosed within ``/*`` and ``*/``.
+Multi-line comments: these are comments that can span multiple lines, allowing for more extensive explanations or commenting out large sections of code. Multi-line comments in PHP are enclosed within ``/*`` and ``*/``.
 
 It's important to note that comments do not affect the execution of the PHP code; they are ignored by the PHP interpreter: in fact, they are removed before execution. Comments are primarily for developers and maintainers of the code to understand its purpose, logic, or any special considerations. Well-documented code with meaningful comments can make it easier for you and others to read, understand, and maintain PHP applications.
 

@@ -1,4 +1,5 @@
 .. _curly-bracket:
+.. _curly-braces:
 
 Curly Brackets
 --------------
@@ -7,7 +8,7 @@ Curly brackets have different usage in PHP:
 
 + Delimit a block of code 
 + Represents a variable delimiter inside string
-+ It used to identify a single byte in a string, like an array
++ It used to identify a single byte in a string, with an array syntax
 
 They are also called curly braces.
 

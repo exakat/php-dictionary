@@ -1,5 +1,6 @@
 .. _validation:
 .. _filter:
+.. _filtering:
 .. _check:
 
 Validation
@@ -22,4 +23,8 @@ Validation is also called filtering.
 
 `Documentation <https://www.php.net/manual/en/filter.examples.validation.php>`__
 
+See also `PHP Form Validation <https://www.geeksforgeeks.org/php-form-validation/>`_
+
 Related : :ref:`Sanitation <sanitation>`
+
+Related packages : `respect/validation <https://packagist.org/packages/respect/validation>`_, `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_

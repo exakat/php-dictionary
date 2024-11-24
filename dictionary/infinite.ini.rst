@@ -1,4 +1,5 @@
 .. _infinite:
+.. _inf:
 
 Infinite
 --------
@@ -16,6 +17,8 @@ While the infinite is a float, it is possible to test a number with ``is_infinit
    var_dump(is_infinite($infinite)); // true 
    
    var_dump(INF === $infinite);      // true 
+   
+   echo str_repeat('1', 1000) + 0;  // INF
    
    ?>
 

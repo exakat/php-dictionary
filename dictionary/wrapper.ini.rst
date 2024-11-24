@@ -22,4 +22,4 @@ A wrapper may be two things:
 
 See also `Php wrapper and Local File Inclusion <https://medium.com/@robsfromashes/php-wrapper-and-local-file-inclusion-2fb82c891f55>`_
 
-Related : :ref:`Stream Wrapper <stream-wrapper>`, , :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTPS <https>`
+Related : :ref:`Stream Wrapper <stream-wrapper>`, , :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTPS <https>`, :ref:`PHP Wrapper <wrapper-php>`

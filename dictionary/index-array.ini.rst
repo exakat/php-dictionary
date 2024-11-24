@@ -1,4 +1,5 @@
 .. _index-array:
+.. _key:
 
 Index For Arrays
 ----------------
@@ -22,5 +23,7 @@ PHP index start at 0. They may be automatically assigned by appending a new valu
 
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
+
+See also `PHP: Frankenstein arrays <https://vazaha.blog/en/9/php-frankenstein-arrays>`_, `Filtering an array by keys in PHP <https://yellowduck.be/posts/filtering-an-array-by-keys-in-php>`_
 
 Related : :ref:`Array <array>`

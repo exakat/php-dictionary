@@ -7,9 +7,7 @@ Exponent
 
 Exponent is the mathematical operation to raise a number to the power of another number. 
 
-There are two possibilities to use this operation : the `**` operator, and the pow() function.  
-
-
+There are two possibilities to use this operation : the `**` operator, and the pow() function.
 
 .. code-block:: php
    
@@ -22,3 +20,5 @@ There are two possibilities to use this operation : the `**` operator, and the p
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
+
+Related : :ref:`Multiplication <multiplication>`, :ref:`Division <division>`

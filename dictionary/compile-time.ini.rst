@@ -2,7 +2,7 @@
 .. _lint-time:
 .. _linting-time:
 
-Compile time
+Compile Time
 ------------
 
 Compile time is a phase of PHP processing, where the source code is transformed into execution commands. 
