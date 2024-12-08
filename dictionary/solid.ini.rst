@@ -11,7 +11,7 @@ SOLID is an acronym for a set of OOP design principle. They were coined by Rober
 + I : Interface Segregation Principle
 + D : Dependency Inversion Principle
 
-Each principle may be used independently. Those principle are not dedicated to PHP, though they may be used in PHP. 
+Each principle may be used independently. Those principles are not dedicated to PHP, though they are used with PHP. 
 
 
 

@@ -1,11 +1,13 @@
-.. _allowdynamicproperty:
+.. _allowdynamicproperties:
 
-Allow Dynamic Property
-----------------------
+Allow Dynamic Properties
+------------------------
 
 This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them.
 
-This attribute may be added to any class. It is not necessary with `stdClass`.
+This attribute may be added to any class. It is not necessary with ``stdClass``.
+
+The attributes allow any dynamic property: there is no way to restrict this to a set of names or a number without other means.
 
 
 .. code-block:: php

@@ -1,11 +1,9 @@
-.. _object:
+.. _object-type:
 
-Object
-------
+object type
+-----------
 
-PHP includes a complete object model. Some of its features are: visibility, abstract and final classes and methods, additional magic methods, interfaces, and cloning.
-
-``object`` is also a PHP type, which represent an object of any class.
+``object`` is a PHP type, which represent an object of any class, including anonymous class. 
 
 
 .. code-block:: php

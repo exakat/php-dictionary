@@ -3,11 +3,13 @@
 __invoke() Method
 -----------------
 
-The __invoke() magic method is called when a script calls an object as a function. This type of class is also called a functor. 
+The __invoke() magic method is called when the code calls an object as a function name. This type of class is also called a functor. 
 
-The method is able to take an arbitrary number of argument. 
+The method is able to take an arbitrary number of arguments, as usual. 
 
 When a class has the ``__invoke`` class, it is possible to can a method without mentioning its name: the object is the method.
+
+``__invoke``` is also considered as the anonymous method: it is called without using its name.
 
 
 .. code-block:: php
@@ -32,4 +34,4 @@ When a class has the ``__invoke`` class, it is possible to can a method without 
 
 See also `PHP __invoke <https://www.phptutorial.net/php-oop/php-__invoke/>`_
 
-Related : :ref:`Magic Methods <magic-method>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`SOLID <solid>`

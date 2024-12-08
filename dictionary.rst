@@ -45,7 +45,7 @@ PHP Dictionary
    * :ref:`Addition <addition>`
    * :ref:`Alias <alias>`
    * :ref:`Alias Types <alias-types>`
-   * :ref:`Allow Dynamic Property <allowdynamicproperty>`
+   * :ref:`Allow Dynamic Properties <allowdynamicproperties>`
    * :ref:`Alternative Syntax <alternative-syntax>`
    * :ref:`And Operator <and>`
    * :ref:`Annotations <annotation>`
@@ -65,6 +65,7 @@ PHP Dictionary
    * :ref:`Array Append <append>`
    * :ref:`Array Spread <array-spread>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
+   * :ref:`Array syntax <array-syntax>`
    * :ref:`ArrayAccess <arrayaccess>`
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
@@ -192,6 +193,7 @@ PHP Dictionary
    * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`Custom <custom>`
    * :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
+   * :ref:`child class <child-class>`
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
@@ -401,6 +403,7 @@ PHP Dictionary
    * :ref:`instance <instance>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
+   * :ref:`is_object() <is_object>`
 * J
    * :ref:`JSON <json>`
    * :ref:`Jobqueue <jobqueue>`
@@ -418,6 +421,7 @@ PHP Dictionary
    * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
+   * :ref:`Lexical variable <lexical-variable>`
    * :ref:`Linting <linting>`
    * :ref:`Liskov Substitution Principle <lsp>`
    * :ref:`List <list>`
@@ -521,6 +525,7 @@ PHP Dictionary
    * :ref:`Overflow <overflow>`
    * :ref:`Override Attribute <override>`
    * :ref:`Overwrite <overwrite>`
+   * :ref:`object type <object-type>`
 * P
    * :ref:`PDOException <pdoexception>`
    * :ref:`PEAR <pear>`
@@ -716,6 +721,7 @@ PHP Dictionary
    * :ref:`Switch Fallthrough <fallthrough>`
    * :ref:`Synchronous <synchronous>`
    * :ref:`Syntax Error <syntax-error>`
+   * :ref:`System <system>`
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
    * :ref:`sleep <sleep>`
@@ -723,6 +729,8 @@ PHP Dictionary
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
+   * :ref:`subtype <subtype>`
+   * :ref:`supertype <supertype>`
 * T
    * :ref:`TCP <tcp>`
    * :ref:`TLS <tls>`
@@ -762,6 +770,7 @@ PHP Dictionary
    * :ref:`UTF-8 <utf8>`
    * :ref:`UUID <uuid>`
    * :ref:`Unary Operator <unary>`
+   * :ref:`Undefined <undefined>`
    * :ref:`Underflow <underflow>`
    * :ref:`UnexpectedValueException <unexpectedvalueexception>`
    * :ref:`UnhandledMatchError <unhandledmatcherror>`

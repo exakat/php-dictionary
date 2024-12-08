@@ -40,7 +40,7 @@ Index
    dictionary/addition.ini
    dictionary/alias-types.ini
    dictionary/alias.ini
-   dictionary/allowdynamicproperty.ini
+   dictionary/allowdynamicproperties.ini
    dictionary/alternative-syntax.ini
    dictionary/and.ini
    dictionary/annotation.ini
@@ -60,6 +60,7 @@ Index
    dictionary/arm.ini
    dictionary/array-curly-braces.ini
    dictionary/array-spread.ini
+   dictionary/array-syntax.ini
    dictionary/array.ini
    dictionary/arrayaccess.ini
    dictionary/arrayobject.ini
@@ -114,6 +115,7 @@ Index
    dictionary/cgi.ini
    dictionary/chaining.ini
    dictionary/character.ini
+   dictionary/child-class.ini
    dictionary/ci.ini
    dictionary/class-alias.ini
    dictionary/class-constant-visibility.ini
@@ -390,6 +392,7 @@ Index
    dictionary/inventory.ini
    dictionary/invoke.ini
    dictionary/ip.ini
+   dictionary/is_object.ini
    dictionary/isp.ini
    dictionary/isset.ini
    dictionary/iterable.ini
@@ -409,6 +412,7 @@ Index
    dictionary/leading-zero-means-octal.ini
    dictionary/lengthexception.ini
    dictionary/letter-logical.ini
+   dictionary/lexical.ini
    dictionary/libsodium.ini
    dictionary/linting.ini
    dictionary/list.ini
@@ -486,6 +490,7 @@ Index
    dictionary/object-nullsafe-operator.ini
    dictionary/object-operator.ini
    dictionary/object-syntax.ini
+   dictionary/object-type.ini
    dictionary/object.ini
    dictionary/observer.ini
    dictionary/ocp.ini
@@ -685,7 +690,9 @@ Index
    dictionary/stringable.ini
    dictionary/strpos-syndrom.ini
    dictionary/stubs.ini
+   dictionary/subtype.ini
    dictionary/superglobal.ini
+   dictionary/supertype.ini
    dictionary/supply-chain-attack.ini
    dictionary/svm.ini
    dictionary/svmexception.ini
@@ -698,6 +705,7 @@ Index
    dictionary/syntax-error.ini
    dictionary/system-call.ini
    dictionary/system-event.ini
+   dictionary/system.ini
    dictionary/taint.ini
    dictionary/task-runner.ini
    dictionary/tcp.ini
@@ -733,6 +741,7 @@ Index
    dictionary/typerror.ini
    dictionary/typo.ini
    dictionary/unary.ini
+   dictionary/undefined.ini
    dictionary/underflow.ini
    dictionary/unexpectedvalueexception.ini
    dictionary/unhandledmatcherror.ini

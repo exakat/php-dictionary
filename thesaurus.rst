@@ -32,7 +32,7 @@ Acronym
 Attribute
 ---------
 
-+ :ref:`Allow Dynamic Property <allowdynamicproperty>`
++ :ref:`Allow Dynamic Properties <allowdynamicproperties>`
 + :ref:`Attribute Class <attribute-class>`
 + :ref:`Deprecated <deprecated>`
 + :ref:`Nested Attributes <nested-attribute>`
@@ -255,7 +255,11 @@ Type
 + :ref:`True <true>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
++ :ref:`Typed Property <typed-property>`
 + :ref:`Void <void>`
++ :ref:`resource <resource>`
++ :ref:`subtype <subtype>`
++ :ref:`supertype <supertype>`
 
 Magic method
 ------------

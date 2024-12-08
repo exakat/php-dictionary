@@ -16,6 +16,8 @@ Missing target related link for absolute-value in ./human/en/Features/absolute.i
 ./human/en/Features/archive.ini has empty tags section
 ./human/en/Features/argument.ini has empty tags section
 ./human/en/Features/arm.ini has empty tags section
+Array syntax has a wrong format (missing capitals) in file ./human/en/Features/array-syntax.ini
+./human/en/Features/array-syntax.ini has empty tags section
 ./human/en/Features/arrow-function.ini has double tags : anonymous-function.
 ./human/en/Features/asset.ini has empty tags section
 ./human/en/Features/assignation.ini has empty tags section
@@ -39,6 +41,8 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/callback.ini has empty tags section
 ./human/en/Features/case-sensitivity.ini has empty tags section
 ./human/en/Features/character.ini has empty tags section
+child class has a wrong format (missing capitals) in file ./human/en/Features/child-class.ini
+./human/en/Features/child-class.ini has empty tags section
 ./human/en/Features/class-constant.ini has empty tags section
 ./human/en/Features/class-invasion.ini has empty tags section
 ./human/en/Features/class_alias.ini has empty tags section
@@ -95,7 +99,6 @@ related has empty entries in ./human/en/Features/core.ini
 ./human/en/Features/dynamic-class.ini has empty tags section
 ./human/en/Features/dynamic-constant.ini has empty tags section
 ./human/en/Features/dynamic-loading.ini has empty tags section
-./human/en/Features/dynamic-property.ini has empty tags section
 ./human/en/Features/dynamic-variable.ini has empty tags section
 ./human/en/Features/each.ini has empty code for PHP. 
 ./human/en/Features/each.ini has empty tags section
@@ -104,6 +107,7 @@ related has empty entries in ./human/en/Features/core.ini
 ./human/en/Features/email.ini has empty tags section
 ./human/en/Features/enum-backed.ini has empty tags section
 ./human/en/Features/enum-case.ini has empty tags section
+Missing target related link for lintable in ./human/en/Features/enum-case.ini
 ./human/en/Features/error-handler.ini has empty tags section
 ./human/en/Features/error-handling.ini has empty tags section
 Missing target related link for error-system in ./human/en/Features/error-handling.ini
@@ -158,9 +162,15 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/intl.ini has empty tags section
 ./human/en/Features/invoke.ini has empty tags section
 ./human/en/Features/ip.ini has empty tags section
+./human/en/Features/is_object.ini has empty tags section
+Missing target related link for is_a in ./human/en/Features/is_object.ini
 ./human/en/Features/keyword.ini has empty tags section
 ./human/en/Features/language-construct.ini has empty tags section
 ./human/en/Features/lazy-objects.ini has empty tags section
+Lexical variable has a wrong format (missing capitals) in file ./human/en/Features/lexical.ini
+./human/en/Features/lexical.ini has empty tags section
+./human/en/Features/lint-wont-execute.ini has empty code for PHP. 
+./human/en/Features/lint-wont-execute.ini has no description. Omitting. 
 ./human/en/Features/literal-types.ini has empty tags section
 ./human/en/Features/literal.ini has empty tags section
 ./human/en/Features/local.ini has empty tags section
@@ -192,6 +202,9 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/numeric-string.ini has empty code for PHP. 
 ./human/en/Features/object-api.ini has empty tags section
 ./human/en/Features/object-syntax.ini has empty tags section
+object type has a wrong format (missing capitals) in file ./human/en/Features/object-type.ini
+./human/en/Features/object-type.ini has short description (92). 
+./human/en/Features/object-type.ini has empty tags section
 ./human/en/Features/object.ini has empty tags section
 ./human/en/Features/observer.ini has empty code for PHP. 
 ./human/en/Features/ocp.ini has empty tags section
@@ -222,6 +235,7 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/php-extension.ini has empty tags section
 ./human/en/Features/php-native-attribute.ini has empty tags section
 ./human/en/Features/php-native-attribute.ini last char is not a .
+Missing target related link for allowdynamicproperty in ./human/en/Features/php-native-attribute.ini
 ./human/en/Features/php-tag.ini has empty tags section
 ./human/en/Features/php-variable.ini has empty tags section
 ./human/en/Features/php.ini has empty tags section
@@ -252,7 +266,6 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/relaxed-syntax.ini last char is not a .
 ./human/en/Features/release.ini has empty tags section
 ./human/en/Features/reserved-name.ini has empty tags section
-./human/en/Features/resource.ini has empty tags section
 ./human/en/Features/return-value.ini has empty tags section
 ./human/en/Features/return.ini has empty tags section
 ./human/en/Features/revision.ini has empty tags section
@@ -302,6 +315,7 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/syntax-error.ini last char is not a .
 ./human/en/Features/syntax-error.ini has multiple empty lines
 ./human/en/Features/system-call.ini has empty tags section
+./human/en/Features/system.ini has empty tags section
 ./human/en/Features/taint.ini has empty tags section
 ./human/en/Features/tcp.ini has empty tags section
 ./human/en/Features/temporary-expression.ini has empty tags section
@@ -318,12 +332,11 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/type-covariance.ini has empty tags section
 ./human/en/Features/type-declaration-property.ini has empty tags section
 ./human/en/Features/type.ini has empty tags section
-./human/en/Features/typed-property.ini has empty tags section
+./human/en/Features/undefined.ini has empty tags section
 ./human/en/Features/unexpectedvalueexception.ini has empty tags section
 ./human/en/Features/unserialize.ini has empty tags section
 ./human/en/Features/upgrade.ini has empty tags section
 ./human/en/Features/use-alias.ini has empty tags section
-./human/en/Features/var_dump.ini has empty tags section
 ./human/en/Features/variable-scope.ini has empty tags section
 ./human/en/Features/variable.ini has empty tags section
 ./human/en/Features/version.ini has empty tags section

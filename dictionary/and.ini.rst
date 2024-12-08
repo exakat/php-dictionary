@@ -3,7 +3,11 @@
 And Operator
 ------------
 
-``and`` is the logical and operator. It is synonym with the symbol and operator ``&&``, though it has a different precedence level. 
+``and`` is the logical operator: it returns ``true`` only when both operands are ``true``; otherwise, it returns ``false``. 
+
+It is synonym with the symbol and operator ``&&``, though it has a different precedence level. 
+
+There is also a bitwise ``and`` operator: ``&``
 
 ``and`` is a PHP keyword.
 
@@ -11,9 +15,9 @@ And Operator
    
    <?php
    
-   $a = 1 & 2;
+   $a = 1 && 2;
    
    ?>
 
 
-Related : :ref:`Logical Operators <logical-operator>`, :ref:`Keyword <keyword>`
+Related : :ref:`Logical Operators <logical-operator>`, :ref:`Bitwise Operators <bitwise-operator>`, :ref:`Logical Operators <or>`, :ref:`Keyword <keyword>`
