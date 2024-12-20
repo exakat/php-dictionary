@@ -65,3 +65,9 @@ html_theme_options = {
     'github_user':'exakat',
     'description': 'The definitive reference with all things PHP, and their definitions.',
 }
+
+
+html_js_files = [
+    'js/custom.js',
+    'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
+]
