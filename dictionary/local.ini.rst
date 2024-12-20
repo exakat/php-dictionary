@@ -1,4 +1,5 @@
 .. _local:
+.. _local-scope:
 
 Local Scope
 -----------

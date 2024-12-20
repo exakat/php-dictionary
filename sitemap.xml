@@ -244,6 +244,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/basename.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/batch.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/bcmath.ini.html</loc>
  </url>
  <url>
@@ -272,6 +275,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/body.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html</loc>
@@ -1396,6 +1402,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/nesting.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/neutral-element.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html</loc>
  </url>
  <url>
@@ -1951,6 +1960,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sleep.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/snmp.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/soap.ini.html</loc>
  </url>
  <url>
@@ -2009,6 +2021,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/statement.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/static-expression.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html</loc>

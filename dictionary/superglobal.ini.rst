@@ -1,5 +1,7 @@
 .. _superglobal:
 .. _super-global:
+.. _auto-global:
+.. _autoglobal:
 
 Superglobal Variables
 ---------------------
@@ -24,7 +26,7 @@ PHP provides several superglobal variables, each serving a specific purpose. Her
 
     $_ENV: Holds variables passed to the PHP script from the server's environment.
 
-
+PHP superglobal variables are also called autoglobal, as they are implicitly global, without using the ``global`` keyword.
 
 .. code-block:: php
    

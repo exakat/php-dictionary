@@ -86,6 +86,7 @@ Index
    dictionary/backend.ini
    dictionary/badfunctioncallexception.ini
    dictionary/basename.ini
+   dictionary/batch.ini
    dictionary/bcmath.ini
    dictionary/benchmarking.ini
    dictionary/best-practice.ini
@@ -96,6 +97,7 @@ Index
    dictionary/bitwise-operator.ini
    dictionary/blind-key.ini
    dictionary/block.ini
+   dictionary/body.ini
    dictionary/boolean.ini
    dictionary/branch.ini
    dictionary/break.ini
@@ -470,6 +472,7 @@ Index
    dictionary/needle.ini
    dictionary/nested-attribute.ini
    dictionary/nesting.ini
+   dictionary/neutral-element.ini
    dictionary/never.ini
    dictionary/new-in-initializer.ini
    dictionary/new.ini
@@ -655,6 +658,7 @@ Index
    dictionary/single-quote.ini
    dictionary/singleton.ini
    dictionary/sleep.ini
+   dictionary/snmp.ini
    dictionary/soap.ini
    dictionary/socket.ini
    dictionary/solid.ini
@@ -675,6 +679,7 @@ Index
    dictionary/stateful.ini
    dictionary/stateless.ini
    dictionary/statement.ini
+   dictionary/static-expression.ini
    dictionary/static-method.ini
    dictionary/static-property.ini
    dictionary/static-variable.ini

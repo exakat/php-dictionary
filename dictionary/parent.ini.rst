@@ -33,4 +33,4 @@ In a trait, parent represents the host class's parent, not the trait own parent.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-Related : :ref:`Overwrite <overwrite>`, :ref:`static <static>`, :ref:`Self <self>`, :ref:`child class <child-class>`, :ref:`Late Static Binding <late-static-binding>`
+Related : :ref:`Overwrite <overwrite>`, :ref:`static <static>`, :ref:`Self <self>`, :ref:`Child Class <child-class>`, :ref:`Late Static Binding <late-static-binding>`

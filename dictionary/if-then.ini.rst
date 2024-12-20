@@ -26,4 +26,4 @@ If-then structures may be chained with the `elseif` keyword. The else branch is 
 
 `Documentation <https://www.php.net/manual/en/control-structures.if.php>`__
 
-Related : :ref:`Switch <switch>`, :ref:`Match <match>`
+Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <coalesce>`

@@ -132,6 +132,7 @@ Concept
 + :ref:`Value Object <value-object>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
++ :ref:`Zombie Code <zombie-code>`
 + :ref:`constructor <constructor>`
 + :ref:`hash() Function <hash-function>`
 
@@ -223,6 +224,7 @@ Keyword
 + :ref:`Yield <yield>`
 + :ref:`include <include>`
 + :ref:`unset() <unset>`
++ :ref:`yield from Keyword <yield-from>`
 
 Language construct
 ------------------

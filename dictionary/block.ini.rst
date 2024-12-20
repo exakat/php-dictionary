@@ -5,7 +5,7 @@ Block
 
 Blocks are none, one or more instructions, grouped together with or without curly brackets.
 
-Blocks may require brackets, like for classes, switch(), function bodies; they might be optional, like with cases, arrow-functions or loops. 
+Blocks may require brackets, like for ``class``, ``switch()``, ``function bodies``; they may be optional, like with ``case``, ``arrow-functions`` or loops. 
 
 
 .. code-block:: php
@@ -22,3 +22,5 @@ Blocks may require brackets, like for classes, switch(), function bodies; they m
    }
    ?>
 
+
+Related : :ref:`Body <body>`

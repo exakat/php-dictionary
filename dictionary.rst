@@ -64,8 +64,8 @@ PHP Dictionary
    * :ref:`Array <array>`
    * :ref:`Array Append <append>`
    * :ref:`Array Spread <array-spread>`
+   * :ref:`Array Syntax <array-syntax>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
-   * :ref:`Array syntax <array-syntax>`
    * :ref:`ArrayAccess <arrayaccess>`
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
@@ -89,6 +89,7 @@ PHP Dictionary
    * :ref:`Backed Enumeration <enum-backed>`
    * :ref:`Backend <backend>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
+   * :ref:`Batch <batch>`
    * :ref:`Bcmath <bcmath>`
    * :ref:`Benchmarking <benchmarking>`
    * :ref:`Best Practices <best-practice>`
@@ -99,6 +100,7 @@ PHP Dictionary
    * :ref:`Bitwise Operators <bitwise-operator>`
    * :ref:`Blind Variable <blind-variable>`
    * :ref:`Block <block>`
+   * :ref:`Body <body>`
    * :ref:`Boolean <boolean>`
    * :ref:`Branch <branch>`
    * :ref:`Break <break>`
@@ -123,6 +125,7 @@ PHP Dictionary
    * :ref:`Chaining <chaining>`
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Character <character>`
+   * :ref:`Child Class <child-class>`
    * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
@@ -193,7 +196,6 @@ PHP Dictionary
    * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`Custom <custom>`
    * :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
-   * :ref:`child class <child-class>`
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
@@ -482,6 +484,7 @@ PHP Dictionary
    * :ref:`Needle <needle>`
    * :ref:`Nested Attributes <nested-attribute>`
    * :ref:`Nesting <nesting>`
+   * :ref:`Neutral Element <neutral-element>`
    * :ref:`Never Type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
@@ -641,6 +644,7 @@ PHP Dictionary
    * :ref:`resource <resource>`
 * S
    * :ref:`SAPI <sapi>`
+   * :ref:`SNMP <snmp>`
    * :ref:`SOAP <soap>`
    * :ref:`SOLID <solid>`
    * :ref:`SQL Injection <sql-injection>`
@@ -700,6 +704,7 @@ PHP Dictionary
    * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`
    * :ref:`Static Constant <class-constant>`
+   * :ref:`Static Expression <static-expression>`
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`

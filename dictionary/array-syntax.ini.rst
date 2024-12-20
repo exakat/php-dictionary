@@ -1,6 +1,7 @@
 .. _array-syntax:
+.. _array-notation:
 
-Array syntax
+Array Syntax
 ------------
 
 The array syntax is the usage of square brackets after a data container (variables, properties...) or a literal, to access an element. It is generally known to be used with array structures, though it may also be used with strings and objects.

@@ -1,4 +1,5 @@
 No extension INI on ./human/en/Features/Dictionnaire PHP.txt
+Can't process seeAlso https://reintech.io/blog/a-guide-to-php-snmp-library-for-simple-network-management-protocol in ./human/en/Features/snmp.ini
 __isset() method has a wrong format (missing capitals) in file ./human/en/Features/__isset.ini
 __serialize() method has a wrong format (missing capitals) in file ./human/en/Features/__serialize.ini
 __set() method has a wrong format (missing capitals) in file ./human/en/Features/__set.ini
@@ -16,7 +17,6 @@ Missing target related link for absolute-value in ./human/en/Features/absolute.i
 ./human/en/Features/archive.ini has empty tags section
 ./human/en/Features/argument.ini has empty tags section
 ./human/en/Features/arm.ini has empty tags section
-Array syntax has a wrong format (missing capitals) in file ./human/en/Features/array-syntax.ini
 ./human/en/Features/array-syntax.ini has empty tags section
 ./human/en/Features/arrow-function.ini has double tags : anonymous-function.
 ./human/en/Features/asset.ini has empty tags section
@@ -31,8 +31,10 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/autowiring.ini has empty tags section
 ./human/en/Features/backend.ini has empty tags section
 ./human/en/Features/basename.ini has empty tags section
+./human/en/Features/batch.ini has empty tags section
 ./human/en/Features/blind-key.ini has empty tags section
 ./human/en/Features/block.ini has empty tags section
+./human/en/Features/body.ini has empty tags section
 ./human/en/Features/branch.ini has empty tags section
 ./human/en/Features/browscap.ini has empty tags section
 ./human/en/Features/bucket.ini has empty tags section
@@ -41,7 +43,6 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/callback.ini has empty tags section
 ./human/en/Features/case-sensitivity.ini has empty tags section
 ./human/en/Features/character.ini has empty tags section
-child class has a wrong format (missing capitals) in file ./human/en/Features/child-class.ini
 ./human/en/Features/child-class.ini has empty tags section
 ./human/en/Features/class-constant.ini has empty tags section
 ./human/en/Features/class-invasion.ini has empty tags section
@@ -57,11 +58,9 @@ child class has a wrong format (missing capitals) in file ./human/en/Features/ch
 ./human/en/Features/collection.ini has empty tags section
 ./human/en/Features/collision.ini has empty tags section
 ./human/en/Features/comment.ini has empty tags section
-./human/en/Features/compile-time.ini has empty tags section
 ./human/en/Features/composer.ini has empty tags section
 ./human/en/Features/compression.ini has empty tags section
 ./human/en/Features/concrete.ini has empty tags section
-./human/en/Features/conditional-structure.ini has empty tags section
 ./human/en/Features/configuration.ini has empty tags section
 ./human/en/Features/const.ini has empty tags section
 ./human/en/Features/constant-in-trait.ini has empty tags section
@@ -70,7 +69,7 @@ child class has a wrong format (missing capitals) in file ./human/en/Features/ch
 ./human/en/Features/control-flow.ini has empty tags section
 ./human/en/Features/control-structure.ini has empty tags section
 ./human/en/Features/cookie.ini has empty tags section
-related has empty entries in ./human/en/Features/core.ini
+./human/en/Features/core.ini is missing seeAlso
 ./human/en/Features/coroutine.ini has empty tags section
 ./human/en/Features/crc32.ini has empty tags section
 ./human/en/Features/cryptography.ini has empty tags section
@@ -194,6 +193,7 @@ Lexical variable has a wrong format (missing capitals) in file ./human/en/Featur
 ./human/en/Features/named-constructor.ini has empty tags section
 ./human/en/Features/namespace.ini has empty tags section
 ./human/en/Features/native.ini has empty tags section
+./human/en/Features/neutral-element.ini has empty tags section
 ./human/en/Features/non-breakable-space.ini has empty tags section
 ./human/en/Features/non-static.ini has empty tags section
 ./human/en/Features/nowdoc.ini has empty tags section
@@ -292,6 +292,7 @@ Missing target related link for allowdynamicproperty in ./human/en/Features/php-
 ./human/en/Features/simplexml.ini has empty tags section
 ./human/en/Features/single-quote.ini has empty tags section
 ./human/en/Features/singleton.ini has empty tags section
+./human/en/Features/snmp.ini has empty tags section
 ./human/en/Features/socket.ini has empty tags section
 ./human/en/Features/spa.ini has empty tags section
 ./human/en/Features/special-constant.ini has empty tags section
@@ -302,6 +303,7 @@ Missing target related link for allowdynamicproperty in ./human/en/Features/php-
 ./human/en/Features/sso.ini has empty tags section
 ./human/en/Features/stateful.ini has empty tags section
 ./human/en/Features/statement.ini has empty tags section
+./human/en/Features/static-expression.ini has empty tags section
 ./human/en/Features/static-method.ini has empty tags section
 ./human/en/Features/static-property.ini has empty tags section
 ./human/en/Features/stdclass.ini has empty tags section
@@ -348,10 +350,6 @@ Missing target related link for allowdynamicproperty in ./human/en/Features/php-
 ./human/en/Features/wrapper-php.ini has empty tags section
 ./human/en/Features/wrapper-stream.ini has empty code for PHP. 
 ./human/en/Features/wrapper-stream.ini has empty tags section
-./human/en/Features/wrapper.ini last char is not a .
-Missing target related link for wrapper-pattern in ./human/en/Features/wrapper.ini
 ./human/en/Features/writable.ini has empty tags section
 ./human/en/Features/xml.ini has empty tags section
 ./human/en/Features/xmlwriter.ini has empty tags section
-./human/en/Features/yield-from.ini has empty tags section
-./human/en/Features/zombie-code.ini has empty tags section

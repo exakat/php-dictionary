@@ -10,4 +10,4 @@ Object syntax is often opposed to the array syntax, which relies on arrays and t
 Object syntax is also opposed to ``resource``: some PHP extensions produce resources, which are usually feed as first argument into dedicated functions. The object syntax hides the resource in an object, and makes use of method calls, with similar names and parameters.
 
 
-Related : :ref:`Array syntax <array-syntax>`, :ref:`resource <resource>`
+Related : :ref:`Array Syntax <array-syntax>`, :ref:`resource <resource>`

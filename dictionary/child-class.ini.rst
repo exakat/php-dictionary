@@ -3,7 +3,7 @@
 .. _children:
 .. _subclass:
 
-child class
+Child Class
 -----------
 
 A child class is a class that extends another class. There is not specific keyword related to child classes: unlike ``parent`` which is unique and defined, any class that extends a class is its child.
