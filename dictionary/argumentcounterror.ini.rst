@@ -3,7 +3,7 @@
 ArgumentCountError
 ------------------
 
-ArgumentCountError is thrown when too few arguments are passed to a user-defined function or method. This is an error, not an exception.
+ArgumentCountError is thrown when too few arguments are passed to a user-defined or PHP native function or method. This is an error, not an exception.
 
 No exception is raised for extra parameters, as those may still be processed by the method itself. 
 

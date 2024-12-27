@@ -164,6 +164,7 @@ PHP Dictionary
    * :ref:`Compile Time <compile-time>`
    * :ref:`Component <component>`
    * :ref:`Composer <composer>`
+   * :ref:`Composition <composition>`
    * :ref:`Compression <compression>`
    * :ref:`Concatenation <concatenation>`
    * :ref:`Concrete Class <concrete>`
@@ -172,6 +173,7 @@ PHP Dictionary
    * :ref:`Conditioned Structures <conditioned>`
    * :ref:`Configuration <configuration>`
    * :ref:`Const <const>`
+   * :ref:`Constant Expression <constant-expression>`
    * :ref:`Constant Scalar Expression <constant-scalar-expression>`
    * :ref:`Constants <constant>`
    * :ref:`Constants In Trait <constant-in-trait>`

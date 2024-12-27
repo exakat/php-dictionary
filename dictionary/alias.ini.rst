@@ -9,9 +9,7 @@ For example, there are aliases in namespaces import, to disambiguate classes, tr
 
 There are also aliases for methods, when importing them from a trait. 
 
-References are also considered an alias, as they stand for a variable with another name. 
-
-
+References are also considered an alias, as they stand for a variable with another name.
 
 .. code-block:: php
    

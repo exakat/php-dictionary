@@ -155,6 +155,7 @@ Index
    dictionary/compile-time.ini
    dictionary/component.ini
    dictionary/composer.ini
+   dictionary/composition.ini
    dictionary/compression.ini
    dictionary/concatenation.ini
    dictionary/concrete.ini
@@ -163,6 +164,7 @@ Index
    dictionary/conditioned.ini
    dictionary/configuration.ini
    dictionary/const.ini
+   dictionary/constant-expression.ini
    dictionary/constant-in-trait.ini
    dictionary/constant-scalar-expression.ini
    dictionary/constant.ini

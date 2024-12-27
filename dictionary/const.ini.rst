@@ -3,7 +3,7 @@
 Const
 -----
 
-``const`` is a PHP keyword, that introduces constant definitions. 
+``const`` is a PHP keyword, that creates constant definitions. 
 
 ``const`` is allowed inside classes, interfaces, enumerations and traits, to create static constants. ``const`` is also allowed in the global scope, to create global constants. 
 
