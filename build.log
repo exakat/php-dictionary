@@ -18,6 +18,7 @@ Missing target related link for absolute-value in ./human/en/Features/absolute.i
 ./human/en/Features/argument.ini has empty tags section
 ./human/en/Features/arm.ini has empty tags section
 ./human/en/Features/array-syntax.ini has empty tags section
+Missing target related link for iterator_to_array in ./human/en/Features/arrayobject.ini
 ./human/en/Features/arrow-function.ini has double tags : anonymous-function.
 ./human/en/Features/asset.ini has empty tags section
 ./human/en/Features/assignation.ini has empty tags section

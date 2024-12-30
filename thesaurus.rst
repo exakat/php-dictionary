@@ -230,7 +230,6 @@ Language construct
 ------------------
 
 + :ref:`Array <array>`
-+ :ref:`ArrayObject <arrayobject>`
 + :ref:`Echo <echo>`
 + :ref:`Empty <empty>`
 + :ref:`Eval() <eval>`

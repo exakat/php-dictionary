@@ -9,6 +9,10 @@ With ``ArrayObject``, it is possible to create objects that have the behavior of
 
 Operator such as append ``[]``, or foreach() loops are then available with those objects.
 
+On the other hand, ``ArrayObject`` fails any ``array`` type, and many ``array`` functions do not work with the objects: ``array_key_exists()``, ``array_map()``, etc. 
+
+Converting an ``ArrayObject`` to an array is done with a cast ``(array)`` or a call to ``iterator_to_array()``.
+
 
 .. code-block:: php
    
@@ -29,5 +33,7 @@ Operator such as append ``[]``, or foreach() loops are then available with those
 `Documentation <https://www.php.net/manual/en/class.arrayobject.php>`__
 
 See also `Array Objects in PHP <https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667>`_
+
+Related : :ref:`Array <array>`, :ref:`Cast Operator <cast>`, 
 
 Related packages : `jbzoo/data <https://packagist.org/packages/jbzoo/data>`_, `phootwork/collection <https://packagist.org/packages/phootwork/collection>`_
