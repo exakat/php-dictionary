@@ -55,10 +55,11 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 
 html_extra_path = ["googlee919cb0917e4fefc.html",
-					"sitemap.xml"]
+					"sitemap.xml",
+					"BingSiteAuth.xml"]
 					
 html_theme_options = {
-#    'logo': 'logo.png',
+    'logo': 'logo.png',
     'analytics_id': 'G-29LCZ34CDW',
     'github_button': True,
     'github_repo':'php-dictionary',
