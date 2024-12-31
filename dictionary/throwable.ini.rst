@@ -1,4 +1,18 @@
 .. _throwable:
+.. meta::
+	:description:
+		Throwable: Throwable is a PHP native interface, which is required for any object to be used with thrown, such as `Exception` and `Error`.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Throwable
+	:twitter:description: Throwable: Throwable is a PHP native interface, which is required for any object to be used with thrown, such as `Exception` and `Error`
+	:twitter:creator: @exakat
+	:og:title: Throwable
+	:og:type: article
+	:og:description: Throwable is a PHP native interface, which is required for any object to be used with thrown, such as `Exception` and `Error`
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/throwable.ini.html
+	:og:locale: en
+
 
 Throwable
 ---------

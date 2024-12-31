@@ -1,4 +1,18 @@
 .. _literal:
+.. meta::
+	:description:
+		Literal: A literal is a hard coded value in the source.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Literal
+	:twitter:description: Literal: A literal is a hard coded value in the source
+	:twitter:creator: @exakat
+	:og:title: Literal
+	:og:type: article
+	:og:description: A literal is a hard coded value in the source
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html
+	:og:locale: en
+
 
 Literal
 -------

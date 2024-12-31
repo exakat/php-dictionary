@@ -1,4 +1,18 @@
 .. _weak-reference:
+.. meta::
+	:description:
+		Weak References: Weak references allow the programmer to retain a reference to an object which does not prevent the object from being destroyed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Weak References
+	:twitter:description: Weak References: Weak references allow the programmer to retain a reference to an object which does not prevent the object from being destroyed
+	:twitter:creator: @exakat
+	:og:title: Weak References
+	:og:type: article
+	:og:description: Weak references allow the programmer to retain a reference to an object which does not prevent the object from being destroyed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/weak-reference.ini.html
+	:og:locale: en
+
 
 Weak References
 ---------------

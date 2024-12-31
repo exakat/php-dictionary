@@ -1,5 +1,19 @@
 .. _hg:
 .. _mercurial:
+.. meta::
+	:description:
+		hg: HG is another name for Mercurial, which is a distributed version control system (DVCS) similar to Git.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: hg
+	:twitter:description: hg: HG is another name for Mercurial, which is a distributed version control system (DVCS) similar to Git
+	:twitter:creator: @exakat
+	:og:title: hg
+	:og:type: article
+	:og:description: HG is another name for Mercurial, which is a distributed version control system (DVCS) similar to Git
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hg.ini.html
+	:og:locale: en
+
 
 hg
 --

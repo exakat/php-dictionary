@@ -1,4 +1,18 @@
 .. _ffi:
+.. meta::
+	:description:
+		Foreign Function Interface: ``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Foreign Function Interface
+	:twitter:description: Foreign Function Interface: ``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``
+	:twitter:creator: @exakat
+	:og:title: Foreign Function Interface
+	:og:type: article
+	:og:description: ``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ffi.ini.html
+	:og:locale: en
+
 
 Foreign Function Interface
 --------------------------

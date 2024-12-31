@@ -1,4 +1,18 @@
 .. _dynamic-constant:
+.. meta::
+	:description:
+		Dynamic Constant: A constant is dynamic when its name is a piece of data, and is only access at execution time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Constant
+	:twitter:description: Dynamic Constant: A constant is dynamic when its name is a piece of data, and is only access at execution time
+	:twitter:creator: @exakat
+	:og:title: Dynamic Constant
+	:og:type: article
+	:og:description: A constant is dynamic when its name is a piece of data, and is only access at execution time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-constant.ini.html
+	:og:locale: en
+
 
 Dynamic Constant
 ----------------

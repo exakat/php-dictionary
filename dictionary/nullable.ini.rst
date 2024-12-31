@@ -1,4 +1,18 @@
 .. _nullable:
+.. meta::
+	:description:
+		Nullable: Nullable is the name of the NULL value, when used as a type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nullable
+	:twitter:description: Nullable: Nullable is the name of the NULL value, when used as a type
+	:twitter:creator: @exakat
+	:og:title: Nullable
+	:og:type: article
+	:og:description: Nullable is the name of the NULL value, when used as a type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html
+	:og:locale: en
+
 
 Nullable
 --------

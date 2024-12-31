@@ -1,4 +1,18 @@
 .. _variable-argument:
+.. meta::
+	:description:
+		Variable Arguments: Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variable Arguments
+	:twitter:description: Variable Arguments: Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method
+	:twitter:creator: @exakat
+	:og:title: Variable Arguments
+	:og:type: article
+	:og:description: Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/variable-argument.ini.html
+	:og:locale: en
+
 
 Variable Arguments
 ------------------

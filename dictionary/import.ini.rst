@@ -1,4 +1,18 @@
 .. _import:
+.. meta::
+	:description:
+		Import: Imports are elements of a different namespaces, brought into the current one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Import
+	:twitter:description: Import: Imports are elements of a different namespaces, brought into the current one
+	:twitter:creator: @exakat
+	:og:title: Import
+	:og:type: article
+	:og:description: Imports are elements of a different namespaces, brought into the current one
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/import.ini.html
+	:og:locale: en
+
 
 Import
 ------

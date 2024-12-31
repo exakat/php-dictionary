@@ -1,5 +1,19 @@
 .. _dnf:
 .. _dnf-type:
+.. meta::
+	:description:
+		Disjunctive Normal Form (DNF): DNF stands for 'Disjunctive Normal Form'.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Disjunctive Normal Form (DNF)
+	:twitter:description: Disjunctive Normal Form (DNF): DNF stands for 'Disjunctive Normal Form'
+	:twitter:creator: @exakat
+	:og:title: Disjunctive Normal Form (DNF)
+	:og:type: article
+	:og:description: DNF stands for 'Disjunctive Normal Form'
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dnf.ini.html
+	:og:locale: en
+
 
 Disjunctive Normal Form (DNF)
 -----------------------------

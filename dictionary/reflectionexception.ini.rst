@@ -1,4 +1,18 @@
 .. _reflectionexception:
+.. meta::
+	:description:
+		ReflectionException: ReflectionException is thrown whenever the Reflection API encounters an error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ReflectionException
+	:twitter:description: ReflectionException: ReflectionException is thrown whenever the Reflection API encounters an error
+	:twitter:creator: @exakat
+	:og:title: ReflectionException
+	:og:type: article
+	:og:description: ReflectionException is thrown whenever the Reflection API encounters an error
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/reflectionexception.ini.html
+	:og:locale: en
+
 
 ReflectionException
 -------------------

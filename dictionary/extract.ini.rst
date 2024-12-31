@@ -1,4 +1,18 @@
 .. _extract:
+.. meta::
+	:description:
+		extract(): extract() is a native PHP function, which creates arrays from an array containing variables and their values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: extract()
+	:twitter:description: extract(): extract() is a native PHP function, which creates arrays from an array containing variables and their values
+	:twitter:creator: @exakat
+	:og:title: extract()
+	:og:type: article
+	:og:description: extract() is a native PHP function, which creates arrays from an array containing variables and their values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/extract.ini.html
+	:og:locale: en
+
 
 extract()
 ---------

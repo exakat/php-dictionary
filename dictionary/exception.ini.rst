@@ -1,4 +1,18 @@
 .. _exception:
+.. meta::
+	:description:
+		Exception: Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or die() statements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exception
+	:twitter:description: Exception: Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or die() statements
+	:twitter:creator: @exakat
+	:og:title: Exception
+	:og:type: article
+	:og:description: Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or die() statements
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html
+	:og:locale: en
+
 
 Exception
 ---------

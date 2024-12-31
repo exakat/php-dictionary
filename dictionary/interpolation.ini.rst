@@ -1,4 +1,18 @@
 .. _interpolation:
+.. meta::
+	:description:
+		Interpolation: Interpolation is the PHP feature that automatically replaces variables and public properties by their value in double-quoted strings and Heredoc syntax.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interpolation
+	:twitter:description: Interpolation: Interpolation is the PHP feature that automatically replaces variables and public properties by their value in double-quoted strings and Heredoc syntax
+	:twitter:creator: @exakat
+	:og:title: Interpolation
+	:og:type: article
+	:og:description: Interpolation is the PHP feature that automatically replaces variables and public properties by their value in double-quoted strings and Heredoc syntax
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html
+	:og:locale: en
+
 
 Interpolation
 -------------

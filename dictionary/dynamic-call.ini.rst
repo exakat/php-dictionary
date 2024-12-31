@@ -1,4 +1,18 @@
 .. _dynamic-call:
+.. meta::
+	:description:
+		Dynamic Call: A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Call
+	:twitter:description: Dynamic Call: A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time
+	:twitter:creator: @exakat
+	:og:title: Dynamic Call
+	:og:type: article
+	:og:description: A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html
+	:og:locale: en
+
 
 Dynamic Call
 ------------

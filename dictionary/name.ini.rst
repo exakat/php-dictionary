@@ -1,4 +1,18 @@
 .. _name:
+.. meta::
+	:description:
+		Name: A name is a generic coding concept : it is a short and human handle to designate a larger or variable structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Name
+	:twitter:description: Name: A name is a generic coding concept : it is a short and human handle to designate a larger or variable structure
+	:twitter:creator: @exakat
+	:og:title: Name
+	:og:type: article
+	:og:description: A name is a generic coding concept : it is a short and human handle to designate a larger or variable structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html
+	:og:locale: en
+
 
 Name
 ----

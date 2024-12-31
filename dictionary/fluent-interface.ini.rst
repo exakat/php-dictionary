@@ -1,6 +1,20 @@
 .. _fluent-interface:
 .. _fluent:
 .. _fluid-interface:
+.. meta::
+	:description:
+		Fluent Interface: A fluent interface, or fluid interface, is an object-oriented API whose design relies extensively on method chaining.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fluent Interface
+	:twitter:description: Fluent Interface: A fluent interface, or fluid interface, is an object-oriented API whose design relies extensively on method chaining
+	:twitter:creator: @exakat
+	:og:title: Fluent Interface
+	:og:type: article
+	:og:description: A fluent interface, or fluid interface, is an object-oriented API whose design relies extensively on method chaining
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html
+	:og:locale: en
+
 
 Fluent Interface
 ----------------

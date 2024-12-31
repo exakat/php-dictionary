@@ -1,4 +1,18 @@
 .. _solid:
+.. meta::
+	:description:
+		SOLID: SOLID is an acronym for a set of OOP design principle.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SOLID
+	:twitter:description: SOLID: SOLID is an acronym for a set of OOP design principle
+	:twitter:creator: @exakat
+	:og:title: SOLID
+	:og:type: article
+	:og:description: SOLID is an acronym for a set of OOP design principle
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/solid.ini.html
+	:og:locale: en
+
 
 SOLID
 -----

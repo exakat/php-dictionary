@@ -1,4 +1,18 @@
 .. _break:
+.. meta::
+	:description:
+		Break: Break is a control structure, which ends execution of the current for, foreach, while, do-while or switch structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Break
+	:twitter:description: Break: Break is a control structure, which ends execution of the current for, foreach, while, do-while or switch structure
+	:twitter:creator: @exakat
+	:og:title: Break
+	:og:type: article
+	:og:description: Break is a control structure, which ends execution of the current for, foreach, while, do-while or switch structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html
+	:og:locale: en
+
 
 Break
 -----

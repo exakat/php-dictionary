@@ -1,4 +1,18 @@
 .. _email:
+.. meta::
+	:description:
+		Email: Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Email
+	:twitter:description: Email: Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices
+	:twitter:creator: @exakat
+	:og:title: Email
+	:og:type: article
+	:og:description: Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html
+	:og:locale: en
+
 
 Email
 -----

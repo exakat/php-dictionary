@@ -1,4 +1,18 @@
 .. _system-call:
+.. meta::
+	:description:
+		System Call: A system call is a call to an operating system function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: System Call
+	:twitter:description: System Call: A system call is a call to an operating system function
+	:twitter:creator: @exakat
+	:og:title: System Call
+	:og:type: article
+	:og:description: A system call is a call to an operating system function
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/system-call.ini.html
+	:og:locale: en
+
 
 System Call
 -----------

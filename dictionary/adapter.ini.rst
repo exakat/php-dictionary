@@ -1,4 +1,18 @@
 .. _adapter:
+.. meta::
+	:description:
+		Adapters: Adapters are the link between the application and the rest of the universe.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Adapters
+	:twitter:description: Adapters: Adapters are the link between the application and the rest of the universe
+	:twitter:creator: @exakat
+	:og:title: Adapters
+	:og:type: article
+	:og:description: Adapters are the link between the application and the rest of the universe
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/adapter.ini.html
+	:og:locale: en
+
 
 Adapters
 --------

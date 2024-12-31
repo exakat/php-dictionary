@@ -1,4 +1,18 @@
 .. _valueerror:
+.. meta::
+	:description:
+		ValueError: A ValueError is thrown when the type of an argument is correct but the value of it is incorrect.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ValueError
+	:twitter:description: ValueError: A ValueError is thrown when the type of an argument is correct but the value of it is incorrect
+	:twitter:creator: @exakat
+	:og:title: ValueError
+	:og:type: article
+	:og:description: A ValueError is thrown when the type of an argument is correct but the value of it is incorrect
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/valueerror.ini.html
+	:og:locale: en
+
 
 ValueError
 ----------

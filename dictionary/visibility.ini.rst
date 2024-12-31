@@ -1,5 +1,19 @@
 .. _visibility:
 .. _access-level:
+.. meta::
+	:description:
+		Visibility: Properties, methods and classes may have a visibility.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Visibility
+	:twitter:description: Visibility: Properties, methods and classes may have a visibility
+	:twitter:creator: @exakat
+	:og:title: Visibility
+	:og:type: article
+	:og:description: Properties, methods and classes may have a visibility
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html
+	:og:locale: en
+
 
 Visibility
 ----------

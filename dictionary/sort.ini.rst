@@ -1,5 +1,19 @@
 .. _sort:
 .. _sorting:
+.. meta::
+	:description:
+		Sort: Sorting is the action to put a list of object into a specific order.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sort
+	:twitter:description: Sort: Sorting is the action to put a list of object into a specific order
+	:twitter:creator: @exakat
+	:og:title: Sort
+	:og:type: article
+	:og:description: Sorting is the action to put a list of object into a specific order
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html
+	:og:locale: en
+
 
 Sort
 ----

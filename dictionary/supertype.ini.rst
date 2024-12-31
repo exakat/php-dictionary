@@ -1,4 +1,18 @@
 .. _supertype:
+.. meta::
+	:description:
+		supertype: A supertype is any of the parent types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: supertype
+	:twitter:description: supertype: A supertype is any of the parent types
+	:twitter:creator: @exakat
+	:og:title: supertype
+	:og:type: article
+	:og:description: A supertype is any of the parent types
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/supertype.ini.html
+	:og:locale: en
+
 
 supertype
 ---------

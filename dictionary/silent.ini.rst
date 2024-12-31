@@ -1,5 +1,19 @@
 .. _silent:
 .. _silent-cast:
+.. meta::
+	:description:
+		Silent Behavior: Silent behaviors are expressions that do not raise any error, yet performs a transformation on data, with or without the programmer's knowledge.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Silent Behavior
+	:twitter:description: Silent Behavior: Silent behaviors are expressions that do not raise any error, yet performs a transformation on data, with or without the programmer's knowledge
+	:twitter:creator: @exakat
+	:og:title: Silent Behavior
+	:og:type: article
+	:og:description: Silent behaviors are expressions that do not raise any error, yet performs a transformation on data, with or without the programmer's knowledge
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html
+	:og:locale: en
+
 
 Silent Behavior
 ---------------

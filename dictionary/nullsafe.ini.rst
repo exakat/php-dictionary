@@ -1,4 +1,18 @@
 .. _nullsafe:
+.. meta::
+	:description:
+		Nullsafe: A nullsafe operator is able to carry a function or fail graciously to `null`.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nullsafe
+	:twitter:description: Nullsafe: A nullsafe operator is able to carry a function or fail graciously to `null`
+	:twitter:creator: @exakat
+	:og:title: Nullsafe
+	:og:type: article
+	:og:description: A nullsafe operator is able to carry a function or fail graciously to `null`
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe.ini.html
+	:og:locale: en
+
 
 Nullsafe
 --------

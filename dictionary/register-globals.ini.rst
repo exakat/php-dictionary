@@ -1,4 +1,18 @@
 .. _register-globals:
+.. meta::
+	:description:
+		Register Globals: Register globals is an old and removed feature of PHP, which automatically created variables from the incoming super globals, such as $_GET, $_POST, $_REQUEST, $_COOKIES.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Register Globals
+	:twitter:description: Register Globals: Register globals is an old and removed feature of PHP, which automatically created variables from the incoming super globals, such as $_GET, $_POST, $_REQUEST, $_COOKIES
+	:twitter:creator: @exakat
+	:og:title: Register Globals
+	:og:type: article
+	:og:description: Register globals is an old and removed feature of PHP, which automatically created variables from the incoming super globals, such as $_GET, $_POST, $_REQUEST, $_COOKIES
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/register-globals.ini.html
+	:og:locale: en
+
 
 Register Globals
 ----------------

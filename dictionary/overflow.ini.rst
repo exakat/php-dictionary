@@ -1,4 +1,18 @@
 .. _overflow:
+.. meta::
+	:description:
+		Overflow: Overflow happens when a value goes beyond a limit : out of its range of existence, the behavior of the value is now unknown.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Overflow
+	:twitter:description: Overflow: Overflow happens when a value goes beyond a limit : out of its range of existence, the behavior of the value is now unknown
+	:twitter:creator: @exakat
+	:og:title: Overflow
+	:og:type: article
+	:og:description: Overflow happens when a value goes beyond a limit : out of its range of existence, the behavior of the value is now unknown
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/overflow.ini.html
+	:og:locale: en
+
 
 Overflow
 --------

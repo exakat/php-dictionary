@@ -1,4 +1,18 @@
 .. _xmlreader:
+.. meta::
+	:description:
+		XMLReader: The ``XMLReader`` extension is an XML Pull parser.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: XMLReader
+	:twitter:description: XMLReader: The ``XMLReader`` extension is an XML Pull parser
+	:twitter:creator: @exakat
+	:og:title: XMLReader
+	:og:type: article
+	:og:description: The ``XMLReader`` extension is an XML Pull parser
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/xmlreader.ini.html
+	:og:locale: en
+
 
 XMLReader
 ---------

@@ -1,4 +1,18 @@
 .. _binary:
+.. meta::
+	:description:
+		Binary: Binary has several distinct usages: .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Binary
+	:twitter:description: Binary: Binary has several distinct usages: 
+	:twitter:creator: @exakat
+	:og:title: Binary
+	:og:type: article
+	:og:description: Binary has several distinct usages: 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/binary.ini.html
+	:og:locale: en
+
 
 Binary
 ------

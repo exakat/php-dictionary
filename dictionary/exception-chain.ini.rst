@@ -1,5 +1,19 @@
 .. _exception-chain:
 .. _chaining-exception:
+.. meta::
+	:description:
+		Chaining Exceptions: Chaining exception is throwing again a caught exception, with a new type, and with the previous exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Chaining Exceptions
+	:twitter:description: Chaining Exceptions: Chaining exception is throwing again a caught exception, with a new type, and with the previous exception
+	:twitter:creator: @exakat
+	:og:title: Chaining Exceptions
+	:og:type: article
+	:og:description: Chaining exception is throwing again a caught exception, with a new type, and with the previous exception
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-chain.ini.html
+	:og:locale: en
+
 
 Chaining Exceptions
 -------------------

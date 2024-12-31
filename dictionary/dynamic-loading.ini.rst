@@ -1,4 +1,18 @@
 .. _dynamic-loading:
+.. meta::
+	:description:
+		Dynamic Loading: Dynamic Loading is related to the loading of PHP extensions, at execution time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Loading
+	:twitter:description: Dynamic Loading: Dynamic Loading is related to the loading of PHP extensions, at execution time
+	:twitter:creator: @exakat
+	:og:title: Dynamic Loading
+	:og:type: article
+	:og:description: Dynamic Loading is related to the loading of PHP extensions, at execution time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-loading.ini.html
+	:og:locale: en
+
 
 Dynamic Loading
 ---------------

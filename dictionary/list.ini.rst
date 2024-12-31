@@ -1,4 +1,18 @@
 .. _list:
+.. meta::
+	:description:
+		List: List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: List
+	:twitter:description: List: List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list
+	:twitter:creator: @exakat
+	:og:title: List
+	:og:type: article
+	:og:description: List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html
+	:og:locale: en
+
 
 List
 ----

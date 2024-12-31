@@ -1,4 +1,18 @@
 .. _unexpectedvalueexception:
+.. meta::
+	:description:
+		UnexpectedValueException: The UnexpectedValueException exception is thrown if a value does not match with a set of expected values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: UnexpectedValueException
+	:twitter:description: UnexpectedValueException: The UnexpectedValueException exception is thrown if a value does not match with a set of expected values
+	:twitter:creator: @exakat
+	:og:title: UnexpectedValueException
+	:og:type: article
+	:og:description: The UnexpectedValueException exception is thrown if a value does not match with a set of expected values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unexpectedvalueexception.ini.html
+	:og:locale: en
+
 
 UnexpectedValueException
 ------------------------

@@ -1,4 +1,18 @@
 .. _reflection:
+.. meta::
+	:description:
+		Reflection: PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Reflection
+	:twitter:description: Reflection: PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime
+	:twitter:creator: @exakat
+	:og:title: Reflection
+	:og:type: article
+	:og:description: PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/reflection.ini.html
+	:og:locale: en
+
 
 Reflection
 ----------

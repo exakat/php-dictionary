@@ -1,4 +1,18 @@
 .. _return-value:
+.. meta::
+	:description:
+		Return Value: Return value is the value returned by a method or function call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return Value
+	:twitter:description: Return Value: Return value is the value returned by a method or function call
+	:twitter:creator: @exakat
+	:og:title: Return Value
+	:og:type: article
+	:og:description: Return value is the value returned by a method or function call
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/return-value.ini.html
+	:og:locale: en
+
 
 Return Value
 ------------

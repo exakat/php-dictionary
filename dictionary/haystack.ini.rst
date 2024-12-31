@@ -1,4 +1,18 @@
 .. _haystack:
+.. meta::
+	:description:
+		Haystack: Haystack is a classic name, used to designate a dataset where something will be searched in.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Haystack
+	:twitter:description: Haystack: Haystack is a classic name, used to designate a dataset where something will be searched in
+	:twitter:creator: @exakat
+	:og:title: Haystack
+	:og:type: article
+	:og:description: Haystack is a classic name, used to designate a dataset where something will be searched in
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/haystack.ini.html
+	:og:locale: en
+
 
 Haystack
 --------

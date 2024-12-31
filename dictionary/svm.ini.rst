@@ -1,4 +1,18 @@
 .. _svm:
+.. meta::
+	:description:
+		Support Vector Machine: SVM stands for Support Vector Machine.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Support Vector Machine
+	:twitter:description: Support Vector Machine: SVM stands for Support Vector Machine
+	:twitter:creator: @exakat
+	:og:title: Support Vector Machine
+	:og:type: article
+	:og:description: SVM stands for Support Vector Machine
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/svm.ini.html
+	:og:locale: en
+
 
 Support Vector Machine
 ----------------------

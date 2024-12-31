@@ -1,4 +1,18 @@
 .. _setter:
+.. meta::
+	:description:
+		Class Setter Method: Setters are methods used to give the values of a property.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Setter Method
+	:twitter:description: Class Setter Method: Setters are methods used to give the values of a property
+	:twitter:creator: @exakat
+	:og:title: Class Setter Method
+	:og:type: article
+	:og:description: Setters are methods used to give the values of a property
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/setter.ini.html
+	:og:locale: en
+
 
 Class Setter Method
 -------------------

@@ -1,4 +1,18 @@
 .. _variable-scope:
+.. meta::
+	:description:
+		Variable Scope: Variable scope is the context in which the variable is available.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variable Scope
+	:twitter:description: Variable Scope: Variable scope is the context in which the variable is available
+	:twitter:creator: @exakat
+	:og:title: Variable Scope
+	:og:type: article
+	:og:description: Variable scope is the context in which the variable is available
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/variable-scope.ini.html
+	:og:locale: en
+
 
 Variable Scope
 --------------

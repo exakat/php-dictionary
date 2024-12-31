@@ -1,5 +1,19 @@
 .. _file-system:
 .. _filesystem:
+.. meta::
+	:description:
+		File System: A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage (NAS).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File System
+	:twitter:description: File System: A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage (NAS)
+	:twitter:creator: @exakat
+	:og:title: File System
+	:og:type: article
+	:og:description: A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage (NAS)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/file-system.ini.html
+	:og:locale: en
+
 
 File System
 -----------

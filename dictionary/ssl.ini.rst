@@ -1,4 +1,18 @@
 .. _ssl:
+.. meta::
+	:description:
+		SSL: SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SSL
+	:twitter:description: SSL: SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web
+	:twitter:creator: @exakat
+	:og:title: SSL
+	:og:type: article
+	:og:description: SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html
+	:og:locale: en
+
 
 SSL
 ---

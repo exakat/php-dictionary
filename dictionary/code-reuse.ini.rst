@@ -1,4 +1,18 @@
 .. _code-reuse:
+.. meta::
+	:description:
+		Code Reuse: Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Code Reuse
+	:twitter:description: Code Reuse: Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects
+	:twitter:creator: @exakat
+	:og:title: Code Reuse
+	:og:type: article
+	:og:description: Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/code-reuse.ini.html
+	:og:locale: en
+
 
 Code Reuse
 ----------

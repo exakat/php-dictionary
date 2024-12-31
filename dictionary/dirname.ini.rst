@@ -1,4 +1,18 @@
 .. _dirname:
+.. meta::
+	:description:
+		dirname: Dirname is the name of the path to a file.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: dirname
+	:twitter:description: dirname: Dirname is the name of the path to a file
+	:twitter:creator: @exakat
+	:og:title: dirname
+	:og:type: article
+	:og:description: Dirname is the name of the path to a file
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dirname.ini.html
+	:og:locale: en
+
 
 dirname
 -------

@@ -1,4 +1,18 @@
 .. _sapi:
+.. meta::
+	:description:
+		SAPI: SAPI stands for Server Application Programming Interface.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SAPI
+	:twitter:description: SAPI: SAPI stands for Server Application Programming Interface
+	:twitter:creator: @exakat
+	:og:title: SAPI
+	:og:type: article
+	:og:description: SAPI stands for Server Application Programming Interface
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sapi.ini.html
+	:og:locale: en
+
 
 SAPI
 ----

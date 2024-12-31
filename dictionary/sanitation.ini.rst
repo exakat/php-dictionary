@@ -1,5 +1,19 @@
 .. _sanitation:
 .. _sanitization:
+.. meta::
+	:description:
+		Sanitation: Sanitation is the process to clean data and remove any unwanted parts.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sanitation
+	:twitter:description: Sanitation: Sanitation is the process to clean data and remove any unwanted parts
+	:twitter:creator: @exakat
+	:og:title: Sanitation
+	:og:type: article
+	:og:description: Sanitation is the process to clean data and remove any unwanted parts
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sanitation.ini.html
+	:og:locale: en
+
 
 Sanitation
 ----------

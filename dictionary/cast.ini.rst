@@ -1,4 +1,18 @@
 .. _cast:
+.. meta::
+	:description:
+		Cast Operator: Cast operators change the type of the variable to the desired type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cast Operator
+	:twitter:description: Cast Operator: Cast operators change the type of the variable to the desired type
+	:twitter:creator: @exakat
+	:og:title: Cast Operator
+	:og:type: article
+	:og:description: Cast operators change the type of the variable to the desired type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html
+	:og:locale: en
+
 
 Cast Operator
 -------------

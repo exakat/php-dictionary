@@ -1,4 +1,18 @@
 .. _schema:
+.. meta::
+	:description:
+		Schema: A schema is a blueprint or structural representation of the organization and structure of a database.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Schema
+	:twitter:description: Schema: A schema is a blueprint or structural representation of the organization and structure of a database
+	:twitter:creator: @exakat
+	:og:title: Schema
+	:og:type: article
+	:og:description: A schema is a blueprint or structural representation of the organization and structure of a database
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/schema.ini.html
+	:og:locale: en
+
 
 Schema
 ------

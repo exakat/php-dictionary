@@ -1,4 +1,18 @@
 .. _dry:
+.. meta::
+	:description:
+		DRY : Don't Repeat Yourself: "Don't repeat yourself" (DRY) is a principle of software development aimed at reducing repetition of software patterns.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: DRY : Don't Repeat Yourself
+	:twitter:description: DRY : Don't Repeat Yourself: "Don't repeat yourself" (DRY) is a principle of software development aimed at reducing repetition of software patterns
+	:twitter:creator: @exakat
+	:og:title: DRY : Don't Repeat Yourself
+	:og:type: article
+	:og:description: "Don't repeat yourself" (DRY) is a principle of software development aimed at reducing repetition of software patterns
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html
+	:og:locale: en
+
 
 DRY : Don't Repeat Yourself
 ---------------------------

@@ -1,5 +1,19 @@
 .. _recursion:
 .. _recursive:
+.. meta::
+	:description:
+		Recursion: Recursion in PHP is a method or a function, which calls itself.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Recursion
+	:twitter:description: Recursion: Recursion in PHP is a method or a function, which calls itself
+	:twitter:creator: @exakat
+	:og:title: Recursion
+	:og:type: article
+	:og:description: Recursion in PHP is a method or a function, which calls itself
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html
+	:og:locale: en
+
 
 Recursion
 ---------

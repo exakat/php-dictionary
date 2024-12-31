@@ -1,5 +1,19 @@
 .. _magic hash:
 .. _magic hashes:
+.. meta::
+	:description:
+		Magic Hash: A magic hash is a hash string which is mistakenly compared to another hash.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic Hash
+	:twitter:description: Magic Hash: A magic hash is a hash string which is mistakenly compared to another hash
+	:twitter:creator: @exakat
+	:og:title: Magic Hash
+	:og:type: article
+	:og:description: A magic hash is a hash string which is mistakenly compared to another hash
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic hash.ini.html
+	:og:locale: en
+
 
 Magic Hash
 ----------

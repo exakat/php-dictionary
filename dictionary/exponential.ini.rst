@@ -1,5 +1,19 @@
 .. _exponential:
 .. _exp:
+.. meta::
+	:description:
+		Exponential: The exponential is a mathematical function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exponential
+	:twitter:description: Exponential: The exponential is a mathematical function
+	:twitter:creator: @exakat
+	:og:title: Exponential
+	:og:type: article
+	:og:description: The exponential is a mathematical function
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exponential.ini.html
+	:og:locale: en
+
 
 Exponential
 -----------

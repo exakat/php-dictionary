@@ -1,4 +1,18 @@
 .. _singleton:
+.. meta::
+	:description:
+		Singleton: A singleton is a class which can only have one object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Singleton
+	:twitter:description: Singleton: A singleton is a class which can only have one object
+	:twitter:creator: @exakat
+	:og:title: Singleton
+	:og:type: article
+	:og:description: A singleton is a class which can only have one object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/singleton.ini.html
+	:og:locale: en
+
 
 Singleton
 ---------

@@ -1,4 +1,18 @@
 .. _non-breakable-space:
+.. meta::
+	:description:
+		Non Breakable Spaces: Space is one of the base ascii character.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Non Breakable Spaces
+	:twitter:description: Non Breakable Spaces: Space is one of the base ascii character
+	:twitter:creator: @exakat
+	:og:title: Non Breakable Spaces
+	:og:type: article
+	:og:description: Space is one of the base ascii character
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html
+	:og:locale: en
+
 
 Non Breakable Spaces
 --------------------

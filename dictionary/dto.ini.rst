@@ -1,4 +1,18 @@
 .. _dto:
+.. meta::
+	:description:
+		DTO: DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: DTO
+	:twitter:description: DTO: DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture
+	:twitter:creator: @exakat
+	:og:title: DTO
+	:og:type: article
+	:og:description: DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dto.ini.html
+	:og:locale: en
+
 
 DTO
 ---

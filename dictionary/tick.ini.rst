@@ -1,4 +1,18 @@
 .. _tick:
+.. meta::
+	:description:
+		Tick: Ticks are events that occur for a group of N statements, executed by PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Tick
+	:twitter:description: Tick: Ticks are events that occur for a group of N statements, executed by PHP
+	:twitter:creator: @exakat
+	:og:title: Tick
+	:og:type: article
+	:og:description: Ticks are events that occur for a group of N statements, executed by PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/tick.ini.html
+	:og:locale: en
+
 
 Tick
 ----

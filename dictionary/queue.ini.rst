@@ -1,4 +1,18 @@
 .. _queue:
+.. meta::
+	:description:
+		Queue: A Queue may be one of the following: .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Queue
+	:twitter:description: Queue: A Queue may be one of the following: 
+	:twitter:creator: @exakat
+	:og:title: Queue
+	:og:type: article
+	:og:description: A Queue may be one of the following: 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/queue.ini.html
+	:og:locale: en
+
 
 Queue
 -----

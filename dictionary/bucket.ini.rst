@@ -1,4 +1,18 @@
 .. _bucket:
+.. meta::
+	:description:
+		Bucket: The term ``bucket`` is not commonly associated with a specific concept.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Bucket
+	:twitter:description: Bucket: The term ``bucket`` is not commonly associated with a specific concept
+	:twitter:creator: @exakat
+	:og:title: Bucket
+	:og:type: article
+	:og:description: The term ``bucket`` is not commonly associated with a specific concept
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/bucket.ini.html
+	:og:locale: en
+
 
 Bucket
 ------

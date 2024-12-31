@@ -2,6 +2,20 @@
 .. _filter:
 .. _filtering:
 .. _check:
+.. meta::
+	:description:
+		Validation: Validation is the process to check that a data conform to a specific pattern or set of constraints.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Validation
+	:twitter:description: Validation: Validation is the process to check that a data conform to a specific pattern or set of constraints
+	:twitter:creator: @exakat
+	:og:title: Validation
+	:og:type: article
+	:og:description: Validation is the process to check that a data conform to a specific pattern or set of constraints
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html
+	:og:locale: en
+
 
 Validation
 ----------

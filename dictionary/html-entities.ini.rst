@@ -1,4 +1,18 @@
 .. _html-entities:
+.. meta::
+	:description:
+		HTML Entities: HTML entities are a way to write special characters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTML Entities
+	:twitter:description: HTML Entities: HTML entities are a way to write special characters
+	:twitter:creator: @exakat
+	:og:title: HTML Entities
+	:og:type: article
+	:og:description: HTML entities are a way to write special characters
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entities.ini.html
+	:og:locale: en
+
 
 HTML Entities
 -------------

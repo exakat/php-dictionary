@@ -1,5 +1,19 @@
 .. _blind-variable:
 .. _blind-key:
+.. meta::
+	:description:
+		Blind Variable: A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Blind Variable
+	:twitter:description: Blind Variable: A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value
+	:twitter:creator: @exakat
+	:og:title: Blind Variable
+	:og:type: article
+	:og:description: A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html
+	:og:locale: en
+
 
 Blind Variable
 --------------

@@ -1,5 +1,19 @@
 .. _utf8:
 .. _utf-8:
+.. meta::
+	:description:
+		UTF-8: UTF-8 is a character encoding standard.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: UTF-8
+	:twitter:description: UTF-8: UTF-8 is a character encoding standard
+	:twitter:creator: @exakat
+	:og:title: UTF-8
+	:og:type: article
+	:og:description: UTF-8 is a character encoding standard
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/utf8.ini.html
+	:og:locale: en
+
 
 UTF-8
 -----

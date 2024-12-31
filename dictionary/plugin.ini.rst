@@ -1,5 +1,19 @@
 .. _plugin:
 .. _plug-in:
+.. meta::
+	:description:
+		Plugin: A plugin is a component that add new features to an existing code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Plugin
+	:twitter:description: Plugin: A plugin is a component that add new features to an existing code
+	:twitter:creator: @exakat
+	:og:title: Plugin
+	:og:type: article
+	:og:description: A plugin is a component that add new features to an existing code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/plugin.ini.html
+	:og:locale: en
+
 
 Plugin
 ------

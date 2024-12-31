@@ -1,5 +1,19 @@
 .. _globals:
 .. _$_globals:
+.. meta::
+	:description:
+		$GLOBALS: $GLOBALS is a global variable, that host all other global variables, during a PHP execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $GLOBALS
+	:twitter:description: $GLOBALS: $GLOBALS is a global variable, that host all other global variables, during a PHP execution
+	:twitter:creator: @exakat
+	:og:title: $GLOBALS
+	:og:type: article
+	:og:description: $GLOBALS is a global variable, that host all other global variables, during a PHP execution
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/globals.ini.html
+	:og:locale: en
+
 
 $GLOBALS
 --------

@@ -1,4 +1,18 @@
 .. _closedgeneratorexception:
+.. meta::
+	:description:
+		ClosedGeneratorException: A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ClosedGeneratorException
+	:twitter:description: ClosedGeneratorException: A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed
+	:twitter:creator: @exakat
+	:og:title: ClosedGeneratorException
+	:og:type: article
+	:og:description: A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/closedgeneratorexception.ini.html
+	:og:locale: en
+
 
 ClosedGeneratorException
 ------------------------

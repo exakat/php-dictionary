@@ -1,4 +1,18 @@
 .. _typo:
+.. meta::
+	:description:
+		Typo: A typo is short for ``typographical error``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typo
+	:twitter:description: Typo: A typo is short for ``typographical error``
+	:twitter:creator: @exakat
+	:og:title: Typo
+	:og:type: article
+	:og:description: A typo is short for ``typographical error``
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/typo.ini.html
+	:og:locale: en
+
 
 Typo
 ----

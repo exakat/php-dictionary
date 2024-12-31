@@ -1,5 +1,19 @@
 .. _deploy:
 .. _deployment:
+.. meta::
+	:description:
+		Deployment: deployment refers to the process of making a web application or website available for use on a server or hosting environment.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deployment
+	:twitter:description: Deployment: deployment refers to the process of making a web application or website available for use on a server or hosting environment
+	:twitter:creator: @exakat
+	:og:title: Deployment
+	:og:type: article
+	:og:description: deployment refers to the process of making a web application or website available for use on a server or hosting environment
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/deploy.ini.html
+	:og:locale: en
+
 
 Deployment
 ----------

@@ -1,4 +1,18 @@
 .. _virtual-property:
+.. meta::
+	:description:
+		Virtual Property: A virtual property is a class property, whose property hooks don't use the value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Virtual Property
+	:twitter:description: Virtual Property: A virtual property is a class property, whose property hooks don't use the value
+	:twitter:creator: @exakat
+	:og:title: Virtual Property
+	:og:type: article
+	:og:description: A virtual property is a class property, whose property hooks don't use the value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/virtual-property.ini.html
+	:og:locale: en
+
 
 Virtual Property
 ----------------

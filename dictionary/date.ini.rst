@@ -1,5 +1,19 @@
 .. _date:
 .. _datetime:
+.. meta::
+	:description:
+		Dates: These functions allow you to get the date and time from the server where your PHP scripts are running.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dates
+	:twitter:description: Dates: These functions allow you to get the date and time from the server where your PHP scripts are running
+	:twitter:creator: @exakat
+	:og:title: Dates
+	:og:type: article
+	:og:description: These functions allow you to get the date and time from the server where your PHP scripts are running
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html
+	:og:locale: en
+
 
 Dates
 -----

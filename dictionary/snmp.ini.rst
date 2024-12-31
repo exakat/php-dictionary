@@ -1,4 +1,18 @@
 .. _snmp:
+.. meta::
+	:description:
+		SNMP: The SNMP extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SNMP
+	:twitter:description: SNMP: The SNMP extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol
+	:twitter:creator: @exakat
+	:og:title: SNMP
+	:og:type: article
+	:og:description: The SNMP extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/snmp.ini.html
+	:og:locale: en
+
 
 SNMP
 ----

@@ -1,4 +1,19 @@
 .. _call:
+.. _functioncall:
+.. meta::
+	:description:
+		Call: A call is the usage action of a definition or declaration.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Call
+	:twitter:description: Call: A call is the usage action of a definition or declaration
+	:twitter:creator: @exakat
+	:og:title: Call
+	:og:type: article
+	:og:description: A call is the usage action of a definition or declaration
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/call.ini.html
+	:og:locale: en
+
 
 Call
 ----

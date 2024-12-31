@@ -1,4 +1,18 @@
 .. _mysqli_sql_exception:
+.. meta::
+	:description:
+		mysqli_sql_exception: mysqli_sql_exception is thrown when a mysqli related error is found.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: mysqli_sql_exception
+	:twitter:description: mysqli_sql_exception: mysqli_sql_exception is thrown when a mysqli related error is found
+	:twitter:creator: @exakat
+	:og:title: mysqli_sql_exception
+	:og:type: article
+	:og:description: mysqli_sql_exception is thrown when a mysqli related error is found
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mysqli_sql_exception.ini.html
+	:og:locale: en
+
 
 mysqli_sql_exception
 --------------------

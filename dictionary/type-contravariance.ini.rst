@@ -1,5 +1,19 @@
 .. _type-contravariance:
 .. _contravariance:
+.. meta::
+	:description:
+		Contravariance: Contravariance allows a parameter type to be less specific in a child method, than that of its parent.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Contravariance
+	:twitter:description: Contravariance: Contravariance allows a parameter type to be less specific in a child method, than that of its parent
+	:twitter:creator: @exakat
+	:og:title: Contravariance
+	:og:type: article
+	:og:description: Contravariance allows a parameter type to be less specific in a child method, than that of its parent
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html
+	:og:locale: en
+
 
 Contravariance
 --------------

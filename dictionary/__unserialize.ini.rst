@@ -1,4 +1,18 @@
 .. _-__unserialize:
+.. meta::
+	:description:
+		__unserialize() method: The __unserialize() magic method is called when a script tries to construct an object from an associative array of key/value pairs.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __unserialize() method
+	:twitter:description: __unserialize() method: The __unserialize() magic method is called when a script tries to construct an object from an associative array of key/value pairs
+	:twitter:creator: @exakat
+	:og:title: __unserialize() method
+	:og:type: article
+	:og:description: The __unserialize() magic method is called when a script tries to construct an object from an associative array of key/value pairs
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__unserialize.ini.html
+	:og:locale: en
+
 
 __unserialize() method
 ----------------------

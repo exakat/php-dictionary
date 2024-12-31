@@ -1,4 +1,18 @@
 .. _block:
+.. meta::
+	:description:
+		Block: Blocks are none, one or more instructions, grouped together with or without curly brackets.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Block
+	:twitter:description: Block: Blocks are none, one or more instructions, grouped together with or without curly brackets
+	:twitter:creator: @exakat
+	:og:title: Block
+	:og:type: article
+	:og:description: Blocks are none, one or more instructions, grouped together with or without curly brackets
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/block.ini.html
+	:og:locale: en
+
 
 Block
 -----

@@ -1,4 +1,18 @@
 .. _simple-switch:
+.. meta::
+	:description:
+		Simple Switch: A simple switch is a switch where all the cases are simple literals.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Simple Switch
+	:twitter:description: Simple Switch: A simple switch is a switch where all the cases are simple literals
+	:twitter:creator: @exakat
+	:og:title: Simple Switch
+	:og:type: article
+	:og:description: A simple switch is a switch where all the cases are simple literals
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/simple-switch.ini.html
+	:og:locale: en
+
 
 Simple Switch
 -------------

@@ -1,5 +1,19 @@
 .. _magic-property:
 .. _overloaded-property:
+.. meta::
+	:description:
+		Magic Property: Special properties, which are not declared, but dynamically handled by the magic methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic Property
+	:twitter:description: Magic Property: Special properties, which are not declared, but dynamically handled by the magic methods
+	:twitter:creator: @exakat
+	:og:title: Magic Property
+	:og:type: article
+	:og:description: Special properties, which are not declared, but dynamically handled by the magic methods
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-property.ini.html
+	:og:locale: en
+
 
 Magic Property
 --------------

@@ -1,6 +1,20 @@
 .. _append:
 .. _array-append:
 .. _push:
+.. meta::
+	:description:
+		Array Append: Append is an array operation, which adds an element at the end of the array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array Append
+	:twitter:description: Array Append: Append is an array operation, which adds an element at the end of the array
+	:twitter:creator: @exakat
+	:og:title: Array Append
+	:og:type: article
+	:og:description: Append is an array operation, which adds an element at the end of the array
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html
+	:og:locale: en
+
 
 Array Append
 ------------

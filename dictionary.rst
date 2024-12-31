@@ -684,6 +684,7 @@ PHP Dictionary
    * :ref:`Short Tags <short-tag>`
    * :ref:`Short Ternary Operator <short-ternary>`
    * :ref:`Shutdown Function <shutdown-function>`
+   * :ref:`Sign <sign>`
    * :ref:`Silent Behavior <silent>`
    * :ref:`Simple Query Language (SQL) <sql>`
    * :ref:`Simple Switch <simple-switch>`
@@ -835,6 +836,3 @@ PHP Dictionary
 * Z
    * :ref:`Zombie Code <zombie-code>`
    * :ref:`Zval <zval>`
-
-
-

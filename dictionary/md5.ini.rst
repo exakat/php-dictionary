@@ -1,4 +1,18 @@
 .. _md5:
+.. meta::
+	:description:
+		MD5: MD5 is a hash function, that produce a 128-bit footprint for a value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: MD5
+	:twitter:description: MD5: MD5 is a hash function, that produce a 128-bit footprint for a value
+	:twitter:creator: @exakat
+	:og:title: MD5
+	:og:type: article
+	:og:description: MD5 is a hash function, that produce a 128-bit footprint for a value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/md5.ini.html
+	:og:locale: en
+
 
 MD5
 ---

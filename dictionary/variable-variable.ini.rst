@@ -1,4 +1,18 @@
 .. _variable-variable:
+.. meta::
+	:description:
+		Variable Variables: Variable variables refer to a feature that allows to use the value of a variable as the name of another variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variable Variables
+	:twitter:description: Variable Variables: Variable variables refer to a feature that allows to use the value of a variable as the name of another variable
+	:twitter:creator: @exakat
+	:og:title: Variable Variables
+	:og:type: article
+	:og:description: Variable variables refer to a feature that allows to use the value of a variable as the name of another variable
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/variable-variable.ini.html
+	:og:locale: en
+
 
 Variable Variables
 ------------------

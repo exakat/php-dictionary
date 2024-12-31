@@ -1,4 +1,18 @@
 .. _arbitrary-argument:
+.. meta::
+	:description:
+		Arbitrary Number Of Argument: PHP allows any number of arguments to be passed to a functioncall.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Arbitrary Number Of Argument
+	:twitter:description: Arbitrary Number Of Argument: PHP allows any number of arguments to be passed to a functioncall
+	:twitter:creator: @exakat
+	:og:title: Arbitrary Number Of Argument
+	:og:type: article
+	:og:description: PHP allows any number of arguments to be passed to a functioncall
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/arbitrary-argument.ini.html
+	:og:locale: en
+
 
 Arbitrary Number Of Argument
 ----------------------------

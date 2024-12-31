@@ -1,4 +1,18 @@
 .. _attribute:
+.. meta::
+	:description:
+		Attributes: Attributes are machine readable options that may be added PHP code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Attributes
+	:twitter:description: Attributes: Attributes are machine readable options that may be added PHP code
+	:twitter:creator: @exakat
+	:og:title: Attributes
+	:og:type: article
+	:og:description: Attributes are machine readable options that may be added PHP code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html
+	:og:locale: en
+
 
 Attributes
 ----------

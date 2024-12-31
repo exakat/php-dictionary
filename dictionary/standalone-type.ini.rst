@@ -1,4 +1,18 @@
 .. _standalone-types:
+.. meta::
+	:description:
+		Standalone Types: Types are standalone, as they can be use alone, in a type declaration.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Standalone Types
+	:twitter:description: Standalone Types: Types are standalone, as they can be use alone, in a type declaration
+	:twitter:creator: @exakat
+	:og:title: Standalone Types
+	:og:type: article
+	:og:description: Types are standalone, as they can be use alone, in a type declaration
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/standalone-types.ini.html
+	:og:locale: en
+
 
 Standalone Types
 ----------------

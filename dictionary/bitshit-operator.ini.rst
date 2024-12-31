@@ -1,4 +1,18 @@
 .. _bitshift:
+.. meta::
+	:description:
+		Bitshift Operators: Bitshift operators ``<<`` and ``>>`` move bits within an integer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Bitshift Operators
+	:twitter:description: Bitshift Operators: Bitshift operators ``<<`` and ``>>`` move bits within an integer
+	:twitter:creator: @exakat
+	:og:title: Bitshift Operators
+	:og:type: article
+	:og:description: Bitshift operators ``<<`` and ``>>`` move bits within an integer
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/bitshift.ini.html
+	:og:locale: en
+
 
 Bitshift Operators
 ------------------

@@ -1,5 +1,19 @@
 .. _accessibility:
 .. _a11y:
+.. meta::
+	:description:
+		Accessibility: Accessibility is the process to make the code accessible to everyone.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Accessibility
+	:twitter:description: Accessibility: Accessibility is the process to make the code accessible to everyone
+	:twitter:creator: @exakat
+	:og:title: Accessibility
+	:og:type: article
+	:og:description: Accessibility is the process to make the code accessible to everyone
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/accessibility.ini.html
+	:og:locale: en
+
 
 Accessibility
 -------------

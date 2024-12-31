@@ -1,6 +1,20 @@
 .. _exponent:
 .. _**:
 .. _power:
+.. meta::
+	:description:
+		Exponent: Exponent is the mathematical operation to raise a number to the power of another number.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exponent
+	:twitter:description: Exponent: Exponent is the mathematical operation to raise a number to the power of another number
+	:twitter:creator: @exakat
+	:og:title: Exponent
+	:og:type: article
+	:og:description: Exponent is the mathematical operation to raise a number to the power of another number
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html
+	:og:locale: en
+
 
 Exponent
 --------

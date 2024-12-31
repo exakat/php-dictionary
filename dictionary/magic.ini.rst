@@ -1,4 +1,18 @@
 .. _magic:
+.. meta::
+	:description:
+		Magic: Magic is mostly used in the sentence : 'There is too much magic in this code'.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic
+	:twitter:description: Magic: Magic is mostly used in the sentence : 'There is too much magic in this code'
+	:twitter:creator: @exakat
+	:og:title: Magic
+	:og:type: article
+	:og:description: Magic is mostly used in the sentence : 'There is too much magic in this code'
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic.ini.html
+	:og:locale: en
+
 
 Magic
 -----

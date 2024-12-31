@@ -1,4 +1,18 @@
 .. _absolute:
+.. meta::
+	:description:
+		Absolute: An ``absolute`` value is independant from the context in which it operates.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Absolute
+	:twitter:description: Absolute: An ``absolute`` value is independant from the context in which it operates
+	:twitter:creator: @exakat
+	:og:title: Absolute
+	:og:type: article
+	:og:description: An ``absolute`` value is independant from the context in which it operates
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/absolute.ini.html
+	:og:locale: en
+
 
 Absolute
 --------

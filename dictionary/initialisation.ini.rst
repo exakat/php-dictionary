@@ -1,4 +1,18 @@
 .. _initialisation:
+.. meta::
+	:description:
+		Initialisation: Initialisation is the process to unconditionally give a value to a variable, or any container, before its usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Initialisation
+	:twitter:description: Initialisation: Initialisation is the process to unconditionally give a value to a variable, or any container, before its usage
+	:twitter:creator: @exakat
+	:og:title: Initialisation
+	:og:type: article
+	:og:description: Initialisation is the process to unconditionally give a value to a variable, or any container, before its usage
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/initialisation.ini.html
+	:og:locale: en
+
 
 Initialisation
 --------------

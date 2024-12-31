@@ -1,4 +1,18 @@
 .. _facade:
+.. meta::
+	:description:
+		Facade: A facade provides a simplified interface to a complex library.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Facade
+	:twitter:description: Facade: A facade provides a simplified interface to a complex library
+	:twitter:creator: @exakat
+	:og:title: Facade
+	:og:type: article
+	:og:description: A facade provides a simplified interface to a complex library
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/facade.ini.html
+	:og:locale: en
+
 
 Facade
 ------

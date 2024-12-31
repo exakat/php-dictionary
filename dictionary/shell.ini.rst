@@ -1,4 +1,18 @@
 .. _shell:
+.. meta::
+	:description:
+		Shell: A shell is a program that provides an interface for users to interact with the operating system (OS) and execute commands.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Shell
+	:twitter:description: Shell: A shell is a program that provides an interface for users to interact with the operating system (OS) and execute commands
+	:twitter:creator: @exakat
+	:og:title: Shell
+	:og:type: article
+	:og:description: A shell is a program that provides an interface for users to interact with the operating system (OS) and execute commands
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html
+	:og:locale: en
+
 
 Shell
 -----

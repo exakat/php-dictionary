@@ -1,4 +1,18 @@
 .. _polyfill:
+.. meta::
+	:description:
+		Polyfill: A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Polyfill
+	:twitter:description: Polyfill: A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features
+	:twitter:creator: @exakat
+	:og:title: Polyfill
+	:og:type: article
+	:og:description: A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/polyfill.ini.html
+	:og:locale: en
+
 
 Polyfill
 --------

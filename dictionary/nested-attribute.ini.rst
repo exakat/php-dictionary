@@ -1,4 +1,18 @@
 .. _nested-attribute:
+.. meta::
+	:description:
+		Nested Attributes: Arguments of attributes may be literals, such as integer or strings: they can also be other objects.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nested Attributes
+	:twitter:description: Nested Attributes: Arguments of attributes may be literals, such as integer or strings: they can also be other objects
+	:twitter:creator: @exakat
+	:og:title: Nested Attributes
+	:og:type: article
+	:og:description: Arguments of attributes may be literals, such as integer or strings: they can also be other objects
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nested-attribute.ini.html
+	:og:locale: en
+
 
 Nested Attributes
 -----------------

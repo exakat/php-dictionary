@@ -1,4 +1,18 @@
 .. _php-docker-container:
+.. meta::
+	:description:
+		PHP Docker Container: This is a Docker container, with a pre-installed PHP executable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Docker Container
+	:twitter:description: PHP Docker Container: This is a Docker container, with a pre-installed PHP executable
+	:twitter:creator: @exakat
+	:og:title: PHP Docker Container
+	:og:type: article
+	:og:description: This is a Docker container, with a pre-installed PHP executable
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-docker-container.ini.html
+	:og:locale: en
+
 
 PHP Docker Container
 --------------------

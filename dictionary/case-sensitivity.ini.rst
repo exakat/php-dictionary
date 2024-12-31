@@ -1,4 +1,18 @@
 .. _case-sensitivity:
+.. meta::
+	:description:
+		Case Sensitivity: Case sensitivity refers to the way PHP retrieves names when it looks for a definition: is it in a case-sensitive way, or case insensitive.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Case Sensitivity
+	:twitter:description: Case Sensitivity: Case sensitivity refers to the way PHP retrieves names when it looks for a definition: is it in a case-sensitive way, or case insensitive
+	:twitter:creator: @exakat
+	:og:title: Case Sensitivity
+	:og:type: article
+	:og:description: Case sensitivity refers to the way PHP retrieves names when it looks for a definition: is it in a case-sensitive way, or case insensitive
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html
+	:og:locale: en
+
 
 Case Sensitivity
 ----------------

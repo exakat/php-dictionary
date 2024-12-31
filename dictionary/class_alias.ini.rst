@@ -1,4 +1,18 @@
 .. _class_alias:
+.. meta::
+	:description:
+		class_alias(): The ``class_alias()`` function creates an alias for a class, interface, enum or trait.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: class_alias()
+	:twitter:description: class_alias(): The ``class_alias()`` function creates an alias for a class, interface, enum or trait
+	:twitter:creator: @exakat
+	:og:title: class_alias()
+	:og:type: article
+	:og:description: The ``class_alias()`` function creates an alias for a class, interface, enum or trait
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class_alias.ini.html
+	:og:locale: en
+
 
 class_alias()
 -------------

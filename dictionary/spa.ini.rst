@@ -1,5 +1,19 @@
 .. _spa:
 .. _single-page-application:
+.. meta::
+	:description:
+		Single Page Application: SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Single Page Application
+	:twitter:description: Single Page Application: SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server
+	:twitter:creator: @exakat
+	:og:title: Single Page Application
+	:og:type: article
+	:og:description: SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/spa.ini.html
+	:og:locale: en
+
 
 Single Page Application
 -----------------------

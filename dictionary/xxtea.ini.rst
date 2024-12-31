@@ -1,4 +1,18 @@
 .. _xxtea:
+.. meta::
+	:description:
+		XXTEA: ``XXTEA`` is a symmetric encryption algorithm that stands for 'Corrected Block TEA' (TEA refers to Tiny Encryption Algorithm).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: XXTEA
+	:twitter:description: XXTEA: ``XXTEA`` is a symmetric encryption algorithm that stands for 'Corrected Block TEA' (TEA refers to Tiny Encryption Algorithm)
+	:twitter:creator: @exakat
+	:og:title: XXTEA
+	:og:type: article
+	:og:description: ``XXTEA`` is a symmetric encryption algorithm that stands for 'Corrected Block TEA' (TEA refers to Tiny Encryption Algorithm)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html
+	:og:locale: en
+
 
 XXTEA
 -----

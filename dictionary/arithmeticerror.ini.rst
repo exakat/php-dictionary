@@ -1,4 +1,18 @@
 .. _arithmeticerror:
+.. meta::
+	:description:
+		ArithmeticError Error: ``ArithmeticError`` is thrown when an error occurs while performing mathematical operations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ArithmeticError Error
+	:twitter:description: ArithmeticError Error: ``ArithmeticError`` is thrown when an error occurs while performing mathematical operations
+	:twitter:creator: @exakat
+	:og:title: ArithmeticError Error
+	:og:type: article
+	:og:description: ``ArithmeticError`` is thrown when an error occurs while performing mathematical operations
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html
+	:og:locale: en
+
 
 ArithmeticError Error
 ---------------------

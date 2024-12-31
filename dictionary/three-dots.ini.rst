@@ -1,4 +1,18 @@
 .. _three-dots:
+.. meta::
+	:description:
+		Three Dots: Three dots, is an operator with several usages and names.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Three Dots
+	:twitter:description: Three Dots: Three dots, is an operator with several usages and names
+	:twitter:creator: @exakat
+	:og:title: Three Dots
+	:og:type: article
+	:og:description: Three dots, is an operator with several usages and names
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/three-dots.ini.html
+	:og:locale: en
+
 
 Three Dots
 ----------

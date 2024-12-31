@@ -1,4 +1,18 @@
 .. _filesystemiterator:
+.. meta::
+	:description:
+		FileSystemIterator: the FilesystemIterator class is part of the Standard PHP Library (SPL) and is used for iterating over the contents of a directory.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: FileSystemIterator
+	:twitter:description: FileSystemIterator: the FilesystemIterator class is part of the Standard PHP Library (SPL) and is used for iterating over the contents of a directory
+	:twitter:creator: @exakat
+	:og:title: FileSystemIterator
+	:og:type: article
+	:og:description: the FilesystemIterator class is part of the Standard PHP Library (SPL) and is used for iterating over the contents of a directory
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html
+	:og:locale: en
+
 
 FileSystemIterator
 ------------------

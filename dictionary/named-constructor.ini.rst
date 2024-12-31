@@ -1,4 +1,18 @@
 .. _named-constructor:
+.. meta::
+	:description:
+		Named Constructors: Named constructor is a class organisation, where several static factories are created to instantiate the object, based on arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Named Constructors
+	:twitter:description: Named Constructors: Named constructor is a class organisation, where several static factories are created to instantiate the object, based on arguments
+	:twitter:creator: @exakat
+	:og:title: Named Constructors
+	:og:type: article
+	:og:description: Named constructor is a class organisation, where several static factories are created to instantiate the object, based on arguments
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/named-constructor.ini.html
+	:og:locale: en
+
 
 Named Constructors
 ------------------

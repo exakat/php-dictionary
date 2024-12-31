@@ -1,5 +1,19 @@
 .. _assertion:
 .. _assert:
+.. meta::
+	:description:
+		Assertions: Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Assertions
+	:twitter:description: Assertions: Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production
+	:twitter:creator: @exakat
+	:og:title: Assertions
+	:og:type: article
+	:og:description: Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/assertion.ini.html
+	:og:locale: en
+
 
 Assertions
 ----------

@@ -2,6 +2,20 @@
 .. _i18n:
 .. _localization:
 .. _localisation:
+.. meta::
+	:description:
+		Internationalization: Internationalization is the process to make the human interface of a program in a local language.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Internationalization
+	:twitter:description: Internationalization: Internationalization is the process to make the human interface of a program in a local language
+	:twitter:creator: @exakat
+	:og:title: Internationalization
+	:og:type: article
+	:og:description: Internationalization is the process to make the human interface of a program in a local language
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/internationalization.ini.html
+	:og:locale: en
+
 
 Internationalization
 --------------------

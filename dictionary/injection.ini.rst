@@ -1,4 +1,18 @@
 .. _injection:
+.. meta::
+	:description:
+		Injection: Injection is the usage of a resource (data, object, services.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Injection
+	:twitter:description: Injection: Injection is the usage of a resource (data, object, services
+	:twitter:creator: @exakat
+	:og:title: Injection
+	:og:type: article
+	:og:description: Injection is the usage of a resource (data, object, services
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html
+	:og:locale: en
+
 
 Injection
 ---------

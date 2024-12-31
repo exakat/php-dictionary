@@ -1,5 +1,19 @@
 .. _if-then:
 .. _ifthen:
+.. meta::
+	:description:
+		If Then Else: A if-then-else command branches the execution based on an condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: If Then Else
+	:twitter:description: If Then Else: A if-then-else command branches the execution based on an condition
+	:twitter:creator: @exakat
+	:og:title: If Then Else
+	:og:type: article
+	:og:description: A if-then-else command branches the execution based on an condition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html
+	:og:locale: en
+
 
 If Then Else
 ------------

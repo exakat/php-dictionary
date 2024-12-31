@@ -1,4 +1,18 @@
 .. _magic-constant:
+.. meta::
+	:description:
+		Magic Constants: Constants which hold information about the current location of the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic Constants
+	:twitter:description: Magic Constants: Constants which hold information about the current location of the code
+	:twitter:creator: @exakat
+	:og:title: Magic Constants
+	:og:type: article
+	:og:description: Constants which hold information about the current location of the code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-constant.ini.html
+	:og:locale: en
+
 
 Magic Constants
 ---------------

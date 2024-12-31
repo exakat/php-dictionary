@@ -1,4 +1,18 @@
 .. _default-value:
+.. meta::
+	:description:
+		Default Value: Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Default Value
+	:twitter:description: Default Value: Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided
+	:twitter:creator: @exakat
+	:og:title: Default Value
+	:og:type: article
+	:og:description: Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html
+	:og:locale: en
+
 
 Default Value
 -------------

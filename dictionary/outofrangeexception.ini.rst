@@ -1,4 +1,18 @@
 .. _outofrangeexception:
+.. meta::
+	:description:
+		OutOfRangeException: OutOfRangeException is a built-in exception class that is used to indicate that an index or value is outside the acceptable range.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: OutOfRangeException
+	:twitter:description: OutOfRangeException: OutOfRangeException is a built-in exception class that is used to indicate that an index or value is outside the acceptable range
+	:twitter:creator: @exakat
+	:og:title: OutOfRangeException
+	:og:type: article
+	:og:description: OutOfRangeException is a built-in exception class that is used to indicate that an index or value is outside the acceptable range
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/outofrangeexception.ini.html
+	:og:locale: en
+
 
 OutOfRangeException
 -------------------

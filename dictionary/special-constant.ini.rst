@@ -1,4 +1,18 @@
 .. _special-constant:
+.. meta::
+	:description:
+		Special Constant: The only special constant is the ``::class`` constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Special Constant
+	:twitter:description: Special Constant: The only special constant is the ``::class`` constant
+	:twitter:creator: @exakat
+	:og:title: Special Constant
+	:og:type: article
+	:og:description: The only special constant is the ``::class`` constant
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/special-constant.ini.html
+	:og:locale: en
+
 
 Special Constant
 ----------------

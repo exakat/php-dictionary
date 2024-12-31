@@ -1,4 +1,18 @@
 .. _htaccess:
+.. meta::
+	:description:
+		.htaccess: The .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: .htaccess
+	:twitter:description: .htaccess: The 
+	:twitter:creator: @exakat
+	:og:title: .htaccess
+	:og:type: article
+	:og:description: The 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/htaccess.ini.html
+	:og:locale: en
+
 
 .htaccess
 ---------

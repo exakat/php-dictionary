@@ -1,4 +1,18 @@
 .. _code:
+.. meta::
+	:description:
+		Codepoint: A code point is a numerical value that represents a specific character in an encoding system, such as Unicode.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Codepoint
+	:twitter:description: Codepoint: A code point is a numerical value that represents a specific character in an encoding system, such as Unicode
+	:twitter:creator: @exakat
+	:og:title: Codepoint
+	:og:type: article
+	:og:description: A code point is a numerical value that represents a specific character in an encoding system, such as Unicode
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/code.ini.html
+	:og:locale: en
+
 
 Codepoint
 ---------

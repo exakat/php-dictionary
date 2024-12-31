@@ -1,4 +1,18 @@
 .. _compression:
+.. meta::
+	:description:
+		Compression: Compression is the representation of data in a format that uses less space that the original raw data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Compression
+	:twitter:description: Compression: Compression is the representation of data in a format that uses less space that the original raw data
+	:twitter:creator: @exakat
+	:og:title: Compression
+	:og:type: article
+	:og:description: Compression is the representation of data in a format that uses less space that the original raw data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/compression.ini.html
+	:og:locale: en
+
 
 Compression
 -----------

@@ -1,4 +1,18 @@
 .. _default:
+.. meta::
+	:description:
+		Default: default is a PHP keyword, used with switch() and match() structures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Default
+	:twitter:description: Default: default is a PHP keyword, used with switch() and match() structures
+	:twitter:creator: @exakat
+	:og:title: Default
+	:og:type: article
+	:og:description: default is a PHP keyword, used with switch() and match() structures
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html
+	:og:locale: en
+
 
 Default
 -------

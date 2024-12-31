@@ -1,4 +1,18 @@
 .. _heredoc:
+.. meta::
+	:description:
+		Heredocs: Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Heredocs
+	:twitter:description: Heredocs: Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation
+	:twitter:creator: @exakat
+	:og:title: Heredocs
+	:og:type: article
+	:og:description: Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html
+	:og:locale: en
+
 
 Heredocs
 --------

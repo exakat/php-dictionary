@@ -1,4 +1,18 @@
 .. _session-fixation:
+.. meta::
+	:description:
+		Session Fixation: A session fixation attack is a type of security exploit where an attacker sets a victim's session identifier to a known value, allowing the attacker to hijack the session once the victim logs in.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Session Fixation
+	:twitter:description: Session Fixation: A session fixation attack is a type of security exploit where an attacker sets a victim's session identifier to a known value, allowing the attacker to hijack the session once the victim logs in
+	:twitter:creator: @exakat
+	:og:title: Session Fixation
+	:og:type: article
+	:og:description: A session fixation attack is a type of security exploit where an attacker sets a victim's session identifier to a known value, allowing the attacker to hijack the session once the victim logs in
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/session-fixation.ini.html
+	:og:locale: en
+
 
 Session Fixation
 ----------------

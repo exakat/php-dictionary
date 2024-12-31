@@ -1,4 +1,18 @@
 .. _binary-operator:
+.. meta::
+	:description:
+		Binary Operator: A binary operator is an operator that operates on a two operands.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Binary Operator
+	:twitter:description: Binary Operator: A binary operator is an operator that operates on a two operands
+	:twitter:creator: @exakat
+	:og:title: Binary Operator
+	:og:type: article
+	:og:description: A binary operator is an operator that operates on a two operands
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-operator.ini.html
+	:og:locale: en
+
 
 Binary Operator
 ---------------

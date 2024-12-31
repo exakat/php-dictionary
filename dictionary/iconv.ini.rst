@@ -1,4 +1,18 @@
 .. _iconv:
+.. meta::
+	:description:
+		Iconv: ``iconv`` is a PHP extension that stands for "Internationalized CONVersion".
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Iconv
+	:twitter:description: Iconv: ``iconv`` is a PHP extension that stands for "Internationalized CONVersion"
+	:twitter:creator: @exakat
+	:og:title: Iconv
+	:og:type: article
+	:og:description: ``iconv`` is a PHP extension that stands for "Internationalized CONVersion"
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/iconv.ini.html
+	:og:locale: en
+
 
 Iconv
 -----

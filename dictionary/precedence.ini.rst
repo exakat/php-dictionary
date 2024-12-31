@@ -1,4 +1,18 @@
 .. _precedence:
+.. meta::
+	:description:
+		Precedence: Precedence organizes the way operators are executed, when they are mixed in the same expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Precedence
+	:twitter:description: Precedence: Precedence organizes the way operators are executed, when they are mixed in the same expression
+	:twitter:creator: @exakat
+	:og:title: Precedence
+	:og:type: article
+	:og:description: Precedence organizes the way operators are executed, when they are mixed in the same expression
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html
+	:og:locale: en
+
 
 Precedence
 ----------

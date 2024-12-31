@@ -1,4 +1,18 @@
 .. _port:
+.. meta::
+	:description:
+		Port: In computer networking, a port is a communication endpoint that facilitates the transfer of data between different processes or devices over a network.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Port
+	:twitter:description: Port: In computer networking, a port is a communication endpoint that facilitates the transfer of data between different processes or devices over a network
+	:twitter:creator: @exakat
+	:og:title: Port
+	:og:type: article
+	:og:description: In computer networking, a port is a communication endpoint that facilitates the transfer of data between different processes or devices over a network
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/port.ini.html
+	:og:locale: en
+
 
 Port
 ----

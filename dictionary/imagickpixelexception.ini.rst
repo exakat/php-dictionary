@@ -1,4 +1,18 @@
 .. _imagickpixelexception:
+.. meta::
+	:description:
+		ImagickPixelException: ImagickPixelException is an exception class that is used to handle exceptions related to problems with ImagickPixel objects.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ImagickPixelException
+	:twitter:description: ImagickPixelException: ImagickPixelException is an exception class that is used to handle exceptions related to problems with ImagickPixel objects
+	:twitter:creator: @exakat
+	:og:title: ImagickPixelException
+	:og:type: article
+	:og:description: ImagickPixelException is an exception class that is used to handle exceptions related to problems with ImagickPixel objects
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickpixelexception.ini.html
+	:og:locale: en
+
 
 ImagickPixelException
 ---------------------

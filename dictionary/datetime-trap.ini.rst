@@ -1,4 +1,18 @@
 .. _datetime-trap:
+.. meta::
+	:description:
+		Datetime Trap: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Datetime Trap
+	:twitter:description: Datetime Trap: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself
+	:twitter:creator: @exakat
+	:og:title: Datetime Trap
+	:og:type: article
+	:og:description: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/datetime-trap.ini.html
+	:og:locale: en
+
 
 Datetime Trap
 -------------

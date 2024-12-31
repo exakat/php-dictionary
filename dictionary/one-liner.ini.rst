@@ -1,4 +1,18 @@
 .. _one-liner:
+.. meta::
+	:description:
+		One Liner: A one-liner refers to a concise and often single expression that accomplishes a specific task.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: One Liner
+	:twitter:description: One Liner: A one-liner refers to a concise and often single expression that accomplishes a specific task
+	:twitter:creator: @exakat
+	:og:title: One Liner
+	:og:type: article
+	:og:description: A one-liner refers to a concise and often single expression that accomplishes a specific task
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/one-liner.ini.html
+	:og:locale: en
+
 
 One Liner
 ---------

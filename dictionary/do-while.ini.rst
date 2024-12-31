@@ -1,4 +1,18 @@
 .. _do-while:
+.. meta::
+	:description:
+		Do While: Do While is a loop structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Do While
+	:twitter:description: Do While: Do While is a loop structure
+	:twitter:creator: @exakat
+	:og:title: Do While
+	:og:type: article
+	:og:description: Do While is a loop structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/do-while.ini.html
+	:og:locale: en
+
 
 Do While
 --------

@@ -1,4 +1,18 @@
 .. _void:
+.. meta::
+	:description:
+		Void: Void is a return type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Void
+	:twitter:description: Void: Void is a return type
+	:twitter:creator: @exakat
+	:og:title: Void
+	:og:type: article
+	:og:description: Void is a return type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html
+	:og:locale: en
+
 
 Void
 ----

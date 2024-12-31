@@ -1,4 +1,18 @@
 .. _php-fig:
+.. meta::
+	:description:
+		FIG: FIG is the Framework Interoperability Group.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: FIG
+	:twitter:description: FIG: FIG is the Framework Interoperability Group
+	:twitter:creator: @exakat
+	:og:title: FIG
+	:og:type: article
+	:og:description: FIG is the Framework Interoperability Group
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-fig.ini.html
+	:og:locale: en
+
 
 FIG
 ---

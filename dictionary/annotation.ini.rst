@@ -1,4 +1,18 @@
 .. _annotation:
+.. meta::
+	:description:
+		Annotations: PHP annotations are a system to provide meta data about code, in a way that is programmatically processable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Annotations
+	:twitter:description: Annotations: PHP annotations are a system to provide meta data about code, in a way that is programmatically processable
+	:twitter:creator: @exakat
+	:og:title: Annotations
+	:og:type: article
+	:og:description: PHP annotations are a system to provide meta data about code, in a way that is programmatically processable
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/annotation.ini.html
+	:og:locale: en
+
 
 Annotations
 -----------

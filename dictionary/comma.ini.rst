@@ -1,4 +1,18 @@
 .. _comma:
+.. meta::
+	:description:
+		Comma: Commas are syntax elements, to separate elements when provided as a list.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Comma
+	:twitter:description: Comma: Commas are syntax elements, to separate elements when provided as a list
+	:twitter:creator: @exakat
+	:og:title: Comma
+	:og:type: article
+	:og:description: Commas are syntax elements, to separate elements when provided as a list
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/comma.ini.html
+	:og:locale: en
+
 
 Comma
 -----

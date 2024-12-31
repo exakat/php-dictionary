@@ -1,4 +1,18 @@
 .. _constructor:
+.. meta::
+	:description:
+		constructor: The constructor is a special method in a class, which is called at instantiation of an object, with the provided arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: constructor
+	:twitter:description: constructor: The constructor is a special method in a class, which is called at instantiation of an object, with the provided arguments
+	:twitter:creator: @exakat
+	:og:title: constructor
+	:og:type: article
+	:og:description: The constructor is a special method in a class, which is called at instantiation of an object, with the provided arguments
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html
+	:og:locale: en
+
 
 constructor
 -----------

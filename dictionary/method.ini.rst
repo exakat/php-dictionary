@@ -1,4 +1,18 @@
 .. _method:
+.. meta::
+	:description:
+		Method: Methods are function dedicated to a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method
+	:twitter:description: Method: Methods are function dedicated to a class
+	:twitter:creator: @exakat
+	:og:title: Method
+	:og:type: article
+	:og:description: Methods are function dedicated to a class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html
+	:og:locale: en
+
 
 Method
 ------

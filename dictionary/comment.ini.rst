@@ -1,4 +1,18 @@
 .. _comment:
+.. meta::
+	:description:
+		Comments: PHP comments are used to add explanatory notes or annotations within your code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Comments
+	:twitter:description: Comments: PHP comments are used to add explanatory notes or annotations within your code
+	:twitter:creator: @exakat
+	:og:title: Comments
+	:og:type: article
+	:og:description: PHP comments are used to add explanatory notes or annotations within your code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/comment.ini.html
+	:og:locale: en
+
 
 Comments
 --------

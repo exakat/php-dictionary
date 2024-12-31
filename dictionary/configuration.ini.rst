@@ -1,4 +1,18 @@
 .. _configuration:
+.. meta::
+	:description:
+		Configuration: Configuration is a set of data that conditions the execution of the program.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Configuration
+	:twitter:description: Configuration: Configuration is a set of data that conditions the execution of the program
+	:twitter:creator: @exakat
+	:og:title: Configuration
+	:og:type: article
+	:og:description: Configuration is a set of data that conditions the execution of the program
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/configuration.ini.html
+	:og:locale: en
+
 
 Configuration
 -------------

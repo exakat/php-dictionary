@@ -1,6 +1,20 @@
 .. _unserialization:
 .. _unserialize:
 .. _deserialize:
+.. meta::
+	:description:
+		Unserialization: Unserialization is the extraction of an object from a string representation of an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unserialization
+	:twitter:description: Unserialization: Unserialization is the extraction of an object from a string representation of an object
+	:twitter:creator: @exakat
+	:og:title: Unserialization
+	:og:type: article
+	:og:description: Unserialization is the extraction of an object from a string representation of an object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unserialization.ini.html
+	:og:locale: en
+
 
 Unserialization
 ---------------

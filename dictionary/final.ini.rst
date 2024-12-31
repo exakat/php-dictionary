@@ -1,4 +1,18 @@
 .. _final:
+.. meta::
+	:description:
+		Final Keyword: The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Final Keyword
+	:twitter:description: Final Keyword: The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final
+	:twitter:creator: @exakat
+	:og:title: Final Keyword
+	:og:type: article
+	:og:description: The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html
+	:og:locale: en
+
 
 Final Keyword
 -------------

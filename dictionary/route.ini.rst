@@ -1,4 +1,18 @@
 .. _route:
+.. meta::
+	:description:
+		Route: A route is links an HTTP URL to a request handler.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Route
+	:twitter:description: Route: A route is links an HTTP URL to a request handler
+	:twitter:creator: @exakat
+	:og:title: Route
+	:og:type: article
+	:og:description: A route is links an HTTP URL to a request handler
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/route.ini.html
+	:og:locale: en
+
 
 Route
 -----

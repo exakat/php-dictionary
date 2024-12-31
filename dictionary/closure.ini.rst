@@ -1,5 +1,19 @@
 .. _closure:
 .. _lambda-functions:
+.. meta::
+	:description:
+		Closure: Closures are anonymous functions : functions without a name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Closure
+	:twitter:description: Closure: Closures are anonymous functions : functions without a name
+	:twitter:creator: @exakat
+	:og:title: Closure
+	:og:type: article
+	:og:description: Closures are anonymous functions : functions without a name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html
+	:og:locale: en
+
 
 Closure
 -------

@@ -1,4 +1,18 @@
 .. _$_request:
+.. meta::
+	:description:
+		$_REQUEST: An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $_REQUEST
+	:twitter:description: $_REQUEST: An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods
+	:twitter:creator: @exakat
+	:og:title: $_REQUEST
+	:og:type: article
+	:og:description: An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_request.ini.html
+	:og:locale: en
+
 
 $_REQUEST
 ---------

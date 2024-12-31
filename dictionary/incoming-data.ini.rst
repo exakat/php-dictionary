@@ -1,4 +1,18 @@
 .. _incoming-data:
+.. meta::
+	:description:
+		Incoming Data: Incoming data are data submitted to PHP by the user.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Incoming Data
+	:twitter:description: Incoming Data: Incoming data are data submitted to PHP by the user
+	:twitter:creator: @exakat
+	:og:title: Incoming Data
+	:og:type: article
+	:og:description: Incoming data are data submitted to PHP by the user
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/incoming-data.ini.html
+	:og:locale: en
+
 
 Incoming Data
 -------------

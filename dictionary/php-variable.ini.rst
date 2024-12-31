@@ -1,4 +1,18 @@
 .. _php-variable:
+.. meta::
+	:description:
+		PHP Variables: PHP provides a set of predefined variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Variables
+	:twitter:description: PHP Variables: PHP provides a set of predefined variables
+	:twitter:creator: @exakat
+	:og:title: PHP Variables
+	:og:type: article
+	:og:description: PHP provides a set of predefined variables
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-variable.ini.html
+	:og:locale: en
+
 
 PHP Variables
 -------------

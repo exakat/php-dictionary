@@ -1,4 +1,18 @@
 .. _object-operator:
+.. meta::
+	:description:
+		Object Operator ->: The Object Operator is the operator to access properties and methods from an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object Operator ->
+	:twitter:description: Object Operator ->: The Object Operator is the operator to access properties and methods from an object
+	:twitter:creator: @exakat
+	:og:title: Object Operator ->
+	:og:type: article
+	:og:description: The Object Operator is the operator to access properties and methods from an object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object-operator.ini.html
+	:og:locale: en
+
 
 Object Operator ->
 ------------------

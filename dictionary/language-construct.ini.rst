@@ -1,4 +1,18 @@
 .. _language-construct:
+.. meta::
+	:description:
+		Language Construct: PHP has a notion of ``language construct``, which are special keywords, with an attached feature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Language Construct
+	:twitter:description: Language Construct: PHP has a notion of ``language construct``, which are special keywords, with an attached feature
+	:twitter:creator: @exakat
+	:og:title: Language Construct
+	:og:type: article
+	:og:description: PHP has a notion of ``language construct``, which are special keywords, with an attached feature
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html
+	:og:locale: en
+
 
 Language Construct
 ------------------

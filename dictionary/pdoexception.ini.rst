@@ -1,4 +1,18 @@
 .. _pdoexception:
+.. meta::
+	:description:
+		PDOException: PDOException represents an error raised by PDO.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PDOException
+	:twitter:description: PDOException: PDOException represents an error raised by PDO
+	:twitter:creator: @exakat
+	:og:title: PDOException
+	:og:type: article
+	:og:description: PDOException represents an error raised by PDO
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/pdoexception.ini.html
+	:og:locale: en
+
 
 PDOException
 ------------

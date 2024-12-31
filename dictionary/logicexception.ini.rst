@@ -1,4 +1,18 @@
 .. _logicexception:
+.. meta::
+	:description:
+		LogicException: Exception that represents error in the program logic.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: LogicException
+	:twitter:description: LogicException: Exception that represents error in the program logic
+	:twitter:creator: @exakat
+	:og:title: LogicException
+	:og:type: article
+	:og:description: Exception that represents error in the program logic
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/logicexception.ini.html
+	:og:locale: en
+
 
 LogicException
 --------------

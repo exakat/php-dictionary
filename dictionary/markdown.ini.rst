@@ -1,4 +1,18 @@
 .. _markdown:
+.. meta::
+	:description:
+		Markdown: Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Markdown
+	:twitter:description: Markdown: Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents
+	:twitter:creator: @exakat
+	:og:title: Markdown
+	:og:type: article
+	:og:description: Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/markdown.ini.html
+	:og:locale: en
+
 
 Markdown
 --------

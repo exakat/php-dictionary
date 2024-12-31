@@ -1,4 +1,18 @@
 .. _sql:
+.. meta::
+	:description:
+		Simple Query Language (SQL): Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Simple Query Language (SQL)
+	:twitter:description: Simple Query Language (SQL): Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS)
+	:twitter:creator: @exakat
+	:og:title: Simple Query Language (SQL)
+	:og:type: article
+	:og:description: Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sql.ini.html
+	:og:locale: en
+
 
 Simple Query Language (SQL)
 ---------------------------

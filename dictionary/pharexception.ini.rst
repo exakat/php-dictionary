@@ -1,4 +1,18 @@
 .. _pharexception:
+.. meta::
+	:description:
+		PharException: The PharException class is a phar-specific exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PharException
+	:twitter:description: PharException: The PharException class is a phar-specific exception
+	:twitter:creator: @exakat
+	:og:title: PharException
+	:og:type: article
+	:og:description: The PharException class is a phar-specific exception
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/pharexception.ini.html
+	:og:locale: en
+
 
 PharException
 -------------

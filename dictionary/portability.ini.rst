@@ -1,4 +1,18 @@
 .. _portability:
+.. meta::
+	:description:
+		Portability: Portability refers to the ability of a PHP codebase to run on different platforms or environments without requiring significant modifications.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Portability
+	:twitter:description: Portability: Portability refers to the ability of a PHP codebase to run on different platforms or environments without requiring significant modifications
+	:twitter:creator: @exakat
+	:og:title: Portability
+	:og:type: article
+	:og:description: Portability refers to the ability of a PHP codebase to run on different platforms or environments without requiring significant modifications
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/portability.ini.html
+	:og:locale: en
+
 
 Portability
 -----------

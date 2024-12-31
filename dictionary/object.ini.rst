@@ -1,4 +1,18 @@
 .. _object:
+.. meta::
+	:description:
+		Object: PHP includes a complete object model.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object
+	:twitter:description: Object: PHP includes a complete object model
+	:twitter:creator: @exakat
+	:og:title: Object
+	:og:type: article
+	:og:description: PHP includes a complete object model
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html
+	:og:locale: en
+
 
 Object
 ------

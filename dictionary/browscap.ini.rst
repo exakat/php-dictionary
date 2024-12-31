@@ -1,4 +1,18 @@
 .. _browscap:
+.. meta::
+	:description:
+		browscap: Browscap is a browser capabilities project that provides a database and API for determining the capabilities of a web browser.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: browscap
+	:twitter:description: browscap: Browscap is a browser capabilities project that provides a database and API for determining the capabilities of a web browser
+	:twitter:creator: @exakat
+	:og:title: browscap
+	:og:type: article
+	:og:description: Browscap is a browser capabilities project that provides a database and API for determining the capabilities of a web browser
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/browscap.ini.html
+	:og:locale: en
+
 
 browscap
 --------

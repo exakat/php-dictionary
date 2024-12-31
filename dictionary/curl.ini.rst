@@ -1,4 +1,18 @@
 .. _curl:
+.. meta::
+	:description:
+		Curl: Curl is both a PHP extension and a multiprotocol file transfer library.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Curl
+	:twitter:description: Curl: Curl is both a PHP extension and a multiprotocol file transfer library
+	:twitter:creator: @exakat
+	:og:title: Curl
+	:og:type: article
+	:og:description: Curl is both a PHP extension and a multiprotocol file transfer library
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html
+	:og:locale: en
+
 
 Curl
 ----

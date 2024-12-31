@@ -1,5 +1,19 @@
 .. _data-mapper:
 .. _object-mapper:
+.. meta::
+	:description:
+		Data Mapper: A data mapper performs a bidirectional conversion of data, between PHP's OOP representation and a database storage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Data Mapper
+	:twitter:description: Data Mapper: A data mapper performs a bidirectional conversion of data, between PHP's OOP representation and a database storage
+	:twitter:creator: @exakat
+	:og:title: Data Mapper
+	:og:type: article
+	:og:description: A data mapper performs a bidirectional conversion of data, between PHP's OOP representation and a database storage
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/data-mapper.ini.html
+	:og:locale: en
+
 
 Data Mapper
 -----------

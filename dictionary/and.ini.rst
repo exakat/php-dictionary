@@ -1,4 +1,18 @@
 .. _and:
+.. meta::
+	:description:
+		And Operator: ``and`` is the logical operator: it returns ``true`` only when both operands are ``true``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: And Operator
+	:twitter:description: And Operator: ``and`` is the logical operator: it returns ``true`` only when both operands are ``true``
+	:twitter:creator: @exakat
+	:og:title: And Operator
+	:og:type: article
+	:og:description: ``and`` is the logical operator: it returns ``true`` only when both operands are ``true``
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/and.ini.html
+	:og:locale: en
+
 
 And Operator
 ------------

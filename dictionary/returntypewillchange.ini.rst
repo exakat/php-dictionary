@@ -1,4 +1,18 @@
 .. _returntypewillchange:
+.. meta::
+	:description:
+		Return Type Will Change: This is a native PHP attribute.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return Type Will Change
+	:twitter:description: Return Type Will Change: This is a native PHP attribute
+	:twitter:creator: @exakat
+	:og:title: Return Type Will Change
+	:og:type: article
+	:og:description: This is a native PHP attribute
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/returntypewillchange.ini.html
+	:og:locale: en
+
 
 Return Type Will Change
 -----------------------

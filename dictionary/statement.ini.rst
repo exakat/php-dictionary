@@ -1,4 +1,18 @@
 .. _statement:
+.. meta::
+	:description:
+		Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Statement
+	:twitter:description: Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)
+	:twitter:creator: @exakat
+	:og:title: Statement
+	:og:type: article
+	:og:description: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/statement.ini.html
+	:og:locale: en
+
 
 Statement
 ---------

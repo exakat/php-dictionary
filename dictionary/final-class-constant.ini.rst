@@ -1,4 +1,18 @@
 .. _final-class-constant:
+.. meta::
+	:description:
+		Final Class Constants: Using the final option with class constants, the constant cannot be redefined by a child class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Final Class Constants
+	:twitter:description: Final Class Constants: Using the final option with class constants, the constant cannot be redefined by a child class
+	:twitter:creator: @exakat
+	:og:title: Final Class Constants
+	:og:type: article
+	:og:description: Using the final option with class constants, the constant cannot be redefined by a child class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/final-class-constant.ini.html
+	:og:locale: en
+
 
 Final Class Constants
 ---------------------

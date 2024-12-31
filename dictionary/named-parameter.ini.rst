@@ -1,4 +1,18 @@
 .. _named-parameter:
+.. meta::
+	:description:
+		Named Parameters: Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Named Parameters
+	:twitter:description: Named Parameters: Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters
+	:twitter:creator: @exakat
+	:og:title: Named Parameters
+	:og:type: article
+	:og:description: Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html
+	:og:locale: en
+
 
 Named Parameters
 ----------------

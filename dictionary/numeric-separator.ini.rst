@@ -1,5 +1,19 @@
 .. _numeric-separator:
 .. _integer-separator:
+.. meta::
+	:description:
+		Numeric Separator: Since PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Numeric Separator
+	:twitter:description: Numeric Separator: Since PHP 7
+	:twitter:creator: @exakat
+	:og:title: Numeric Separator
+	:og:type: article
+	:og:description: Since PHP 7
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/numeric-separator.ini.html
+	:og:locale: en
+
 
 Numeric Separator
 -----------------

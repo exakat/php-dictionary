@@ -1,4 +1,18 @@
 .. _yaml:
+.. meta::
+	:description:
+		YAML: ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: YAML
+	:twitter:description: YAML: ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format
+	:twitter:creator: @exakat
+	:og:title: YAML
+	:og:type: article
+	:og:description: ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/yaml.ini.html
+	:og:locale: en
+
 
 YAML
 ----

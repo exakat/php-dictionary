@@ -1,4 +1,18 @@
 .. _alias:
+.. meta::
+	:description:
+		Alias: An alias is a distinct name for an existing named structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Alias
+	:twitter:description: Alias: An alias is a distinct name for an existing named structure
+	:twitter:creator: @exakat
+	:og:title: Alias
+	:og:type: article
+	:og:description: An alias is a distinct name for an existing named structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/alias.ini.html
+	:og:locale: en
+
 
 Alias
 -----

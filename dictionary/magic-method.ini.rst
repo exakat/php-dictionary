@@ -1,5 +1,19 @@
 .. _magic-method:
 .. _magicmethod:
+.. meta::
+	:description:
+		Magic Methods: Special methods, which provide extended support for PHP features.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic Methods
+	:twitter:description: Magic Methods: Special methods, which provide extended support for PHP features
+	:twitter:creator: @exakat
+	:og:title: Magic Methods
+	:og:type: article
+	:og:description: Special methods, which provide extended support for PHP features
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html
+	:og:locale: en
+
 
 Magic Methods
 -------------

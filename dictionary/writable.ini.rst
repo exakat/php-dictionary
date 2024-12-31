@@ -1,4 +1,18 @@
 .. _writable:
+.. meta::
+	:description:
+		Writable: Something is writable when a new value may be assigned to it, in the correct context.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Writable
+	:twitter:description: Writable: Something is writable when a new value may be assigned to it, in the correct context
+	:twitter:creator: @exakat
+	:og:title: Writable
+	:og:type: article
+	:og:description: Something is writable when a new value may be assigned to it, in the correct context
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/writable.ini.html
+	:og:locale: en
+
 
 Writable
 --------

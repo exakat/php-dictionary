@@ -1,5 +1,19 @@
 .. _escape-sequence:
 .. _string-sequence:
+.. meta::
+	:description:
+		Escape Sequences: Escape sequences are sequences of characters with a special meaning.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Escape Sequences
+	:twitter:description: Escape Sequences: Escape sequences are sequences of characters with a special meaning
+	:twitter:creator: @exakat
+	:og:title: Escape Sequences
+	:og:type: article
+	:og:description: Escape sequences are sequences of characters with a special meaning
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html
+	:og:locale: en
+
 
 Escape Sequences
 ----------------

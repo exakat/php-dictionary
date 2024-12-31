@@ -1,4 +1,18 @@
 .. _html-entity:
+.. meta::
+	:description:
+		HTML Entity: HTML entities are special character sequences, that represents a single character.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTML Entity
+	:twitter:description: HTML Entity: HTML entities are special character sequences, that represents a single character
+	:twitter:creator: @exakat
+	:og:title: HTML Entity
+	:og:type: article
+	:og:description: HTML entities are special character sequences, that represents a single character
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entity.ini.html
+	:og:locale: en
+
 
 HTML Entity
 -----------

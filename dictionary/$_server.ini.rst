@@ -1,5 +1,19 @@
 .. _$_server:
 .. _$_SERVER:
+.. meta::
+	:description:
+		$_SERVER: The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $_SERVER
+	:twitter:description: $_SERVER: The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations
+	:twitter:creator: @exakat
+	:og:title: $_SERVER
+	:og:type: article
+	:og:description: The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_server.ini.html
+	:og:locale: en
+
 
 $_SERVER
 --------

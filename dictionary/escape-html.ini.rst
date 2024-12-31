@@ -1,5 +1,19 @@
 .. _escape-html:
 .. _html-escape:
+.. meta::
+	:description:
+		HTML Escaping: HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTML Escaping
+	:twitter:description: HTML Escaping: HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities
+	:twitter:creator: @exakat
+	:og:title: HTML Escaping
+	:og:type: article
+	:og:description: HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-html.ini.html
+	:og:locale: en
+
 
 HTML Escaping
 -------------

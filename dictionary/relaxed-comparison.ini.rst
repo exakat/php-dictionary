@@ -1,5 +1,19 @@
 .. _relaxed-comparison:
 .. _loose-comparison:
+.. meta::
+	:description:
+		Relaxed Comparison: In PHP, relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Relaxed Comparison
+	:twitter:description: Relaxed Comparison: In PHP, relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values
+	:twitter:creator: @exakat
+	:og:title: Relaxed Comparison
+	:og:type: article
+	:og:description: In PHP, relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-comparison.ini.html
+	:og:locale: en
+
 
 Relaxed Comparison
 ------------------

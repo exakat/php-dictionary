@@ -1,5 +1,19 @@
 .. _graphql:
 .. _graphql-api:
+.. meta::
+	:description:
+		GraphQL: GraphQL is a query language for APIs.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: GraphQL
+	:twitter:description: GraphQL: GraphQL is a query language for APIs
+	:twitter:creator: @exakat
+	:og:title: GraphQL
+	:og:type: article
+	:og:description: GraphQL is a query language for APIs
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/graphql.ini.html
+	:og:locale: en
+
 
 GraphQL
 -------

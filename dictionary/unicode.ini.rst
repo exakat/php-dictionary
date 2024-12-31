@@ -1,4 +1,18 @@
 .. _unicode:
+.. meta::
+	:description:
+		Unicode: Unicode is a standard to represent text.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unicode
+	:twitter:description: Unicode: Unicode is a standard to represent text
+	:twitter:creator: @exakat
+	:og:title: Unicode
+	:og:type: article
+	:og:description: Unicode is a standard to represent text
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unicode.ini.html
+	:og:locale: en
+
 
 Unicode
 -------

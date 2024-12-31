@@ -1,4 +1,18 @@
 .. _array-spread:
+.. meta::
+	:description:
+		Array Spread: Array spread is the ellipsis operator, applied to an array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array Spread
+	:twitter:description: Array Spread: Array spread is the ellipsis operator, applied to an array
+	:twitter:creator: @exakat
+	:og:title: Array Spread
+	:og:type: article
+	:og:description: Array spread is the ellipsis operator, applied to an array
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html
+	:og:locale: en
+
 
 Array Spread
 ------------

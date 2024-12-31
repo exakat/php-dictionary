@@ -1,4 +1,18 @@
 .. _environment-variable:
+.. meta::
+	:description:
+		Environment Variables: Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Environment Variables
+	:twitter:description: Environment Variables: Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed
+	:twitter:creator: @exakat
+	:og:title: Environment Variables
+	:og:type: article
+	:og:description: Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/environment-variable.ini.html
+	:og:locale: en
+
 
 Environment Variables
 ---------------------

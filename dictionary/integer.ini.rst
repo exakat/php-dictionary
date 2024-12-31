@@ -1,5 +1,19 @@
 .. _integer:
 .. _int:
+.. meta::
+	:description:
+		integer: An int is a number of the set ℤ = {.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: integer
+	:twitter:description: integer: An int is a number of the set ℤ = {
+	:twitter:creator: @exakat
+	:og:title: integer
+	:og:type: article
+	:og:description: An int is a number of the set ℤ = {
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html
+	:og:locale: en
+
 
 integer
 -------
@@ -25,4 +39,4 @@ Integers have several syntaxes : they may be written in binary, octal, decimal, 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-Related : :ref:`Addition <addition>`
+Related : :ref:`Addition <addition>`, :ref:`Binary Integer <binary-integer>`, :ref:`Multiplication <multiplication>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`Octal Integer <octal-integer>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`

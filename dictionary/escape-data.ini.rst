@@ -1,6 +1,20 @@
 .. _escape-data:
 .. _escaping-data:
 .. _escape:
+.. meta::
+	:description:
+		Escape Data: Escaping data is a method to write data in a neutral syntax for a target technology.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Escape Data
+	:twitter:description: Escape Data: Escaping data is a method to write data in a neutral syntax for a target technology
+	:twitter:creator: @exakat
+	:og:title: Escape Data
+	:og:type: article
+	:og:description: Escaping data is a method to write data in a neutral syntax for a target technology
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-data.ini.html
+	:og:locale: en
+
 
 Escape Data
 -----------

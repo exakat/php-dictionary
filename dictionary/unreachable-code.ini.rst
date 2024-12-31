@@ -1,4 +1,18 @@
 .. _unreachable-code:
+.. meta::
+	:description:
+		Unreachable Code: Unreachable code refers to a section of code within a program that can never be executed during the program's runtime.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unreachable Code
+	:twitter:description: Unreachable Code: Unreachable code refers to a section of code within a program that can never be executed during the program's runtime
+	:twitter:creator: @exakat
+	:og:title: Unreachable Code
+	:og:type: article
+	:og:description: Unreachable code refers to a section of code within a program that can never be executed during the program's runtime
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unreachable-code.ini.html
+	:og:locale: en
+
 
 Unreachable Code
 ----------------

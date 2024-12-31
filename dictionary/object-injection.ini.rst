@@ -1,5 +1,19 @@
 .. _object-injection:
 .. _deserialize-injection:
+.. meta::
+	:description:
+		Object Injection: Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object Injection
+	:twitter:description: Object Injection: Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker
+	:twitter:creator: @exakat
+	:og:title: Object Injection
+	:og:type: article
+	:og:description: Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object-injection.ini.html
+	:og:locale: en
+
 
 Object Injection
 ----------------

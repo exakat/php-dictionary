@@ -1,4 +1,18 @@
 .. _function:
+.. meta::
+	:description:
+		Functions: Functions in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Functions
+	:twitter:description: Functions: Functions in PHP
+	:twitter:creator: @exakat
+	:og:title: Functions
+	:og:type: article
+	:og:description: Functions in PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html
+	:og:locale: en
+
 
 Functions
 ---------

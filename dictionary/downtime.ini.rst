@@ -1,4 +1,18 @@
 .. _downtime:
+.. meta::
+	:description:
+		Downtime: Downtime represents periods where a service is not available.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Downtime
+	:twitter:description: Downtime: Downtime represents periods where a service is not available
+	:twitter:creator: @exakat
+	:og:title: Downtime
+	:og:type: article
+	:og:description: Downtime represents periods where a service is not available
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/downtime.ini.html
+	:og:locale: en
+
 
 Downtime
 --------

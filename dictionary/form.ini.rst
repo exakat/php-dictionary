@@ -1,4 +1,18 @@
 .. _form:
+.. meta::
+	:description:
+		Form: A form is a web page component to collect and submit information.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Form
+	:twitter:description: Form: A form is a web page component to collect and submit information
+	:twitter:creator: @exakat
+	:og:title: Form
+	:og:type: article
+	:og:description: A form is a web page component to collect and submit information
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/form.ini.html
+	:og:locale: en
+
 
 Form
 ----

@@ -1,4 +1,18 @@
 .. _character:
+.. meta::
+	:description:
+		Character: A character is a unit of information, that represents represents letters, punctation signs, ideogram, etc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Character
+	:twitter:description: Character: A character is a unit of information, that represents represents letters, punctation signs, ideogram, etc
+	:twitter:creator: @exakat
+	:og:title: Character
+	:og:type: article
+	:og:description: A character is a unit of information, that represents represents letters, punctation signs, ideogram, etc
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/character.ini.html
+	:og:locale: en
+
 
 Character
 ---------

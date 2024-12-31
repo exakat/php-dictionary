@@ -1,4 +1,18 @@
 .. _php-native-attribute:
+.. meta::
+	:description:
+		PHP Native Attribute: PHP supports a system of attribute, to add local configuration to methods, classes, etc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Native Attribute
+	:twitter:description: PHP Native Attribute: PHP supports a system of attribute, to add local configuration to methods, classes, etc
+	:twitter:creator: @exakat
+	:og:title: PHP Native Attribute
+	:og:type: article
+	:og:description: PHP supports a system of attribute, to add local configuration to methods, classes, etc
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-native-attribute.ini.html
+	:og:locale: en
+
 
 PHP Native Attribute
 --------------------

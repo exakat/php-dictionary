@@ -1,5 +1,19 @@
 .. _autowiring:
 .. _auto-wiring:
+.. meta::
+	:description:
+		Autowiring: Autowiring is the ability of the framework to inject dependencies, based on the constructor signature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Autowiring
+	:twitter:description: Autowiring: Autowiring is the ability of the framework to inject dependencies, based on the constructor signature
+	:twitter:creator: @exakat
+	:og:title: Autowiring
+	:og:type: article
+	:og:description: Autowiring is the ability of the framework to inject dependencies, based on the constructor signature
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/autowiring.ini.html
+	:og:locale: en
+
 
 Autowiring
 ----------

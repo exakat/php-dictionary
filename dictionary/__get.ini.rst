@@ -1,4 +1,18 @@
 .. _-__get:
+.. meta::
+	:description:
+		__get() Method: __get() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __get() Method
+	:twitter:description: __get() Method: __get() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it
+	:twitter:creator: @exakat
+	:og:title: __get() Method
+	:og:type: article
+	:og:description: __get() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__get.ini.html
+	:og:locale: en
+
 
 __get() Method
 --------------

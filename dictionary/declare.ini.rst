@@ -1,4 +1,18 @@
 .. _declare:
+.. meta::
+	:description:
+		declare(): declare() is a language construct.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: declare()
+	:twitter:description: declare(): declare() is a language construct
+	:twitter:creator: @exakat
+	:og:title: declare()
+	:og:type: article
+	:og:description: declare() is a language construct
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html
+	:og:locale: en
+
 
 declare()
 ---------

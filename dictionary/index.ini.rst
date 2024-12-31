@@ -1,5 +1,19 @@
 .. _index:
 .. _indices:
+.. meta::
+	:description:
+		Index: An index may be several things: .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Index
+	:twitter:description: Index: An index may be several things: 
+	:twitter:creator: @exakat
+	:og:title: Index
+	:og:type: article
+	:og:description: An index may be several things: 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html
+	:og:locale: en
+
 
 Index
 -----

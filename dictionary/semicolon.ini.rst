@@ -1,4 +1,18 @@
 .. _semicolon:
+.. meta::
+	:description:
+		Semicolon: Semicolon is used to mark the end of a statement.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Semicolon
+	:twitter:description: Semicolon: Semicolon is used to mark the end of a statement
+	:twitter:creator: @exakat
+	:og:title: Semicolon
+	:og:type: article
+	:og:description: Semicolon is used to mark the end of a statement
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/semicolon.ini.html
+	:og:locale: en
+
 
 Semicolon
 ---------

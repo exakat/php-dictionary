@@ -1,4 +1,18 @@
 .. _ci:
+.. meta::
+	:description:
+		Continuous Integration: Continuous integration refers to the automation of the build and test phase of development.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Continuous Integration
+	:twitter:description: Continuous Integration: Continuous integration refers to the automation of the build and test phase of development
+	:twitter:creator: @exakat
+	:og:title: Continuous Integration
+	:og:type: article
+	:og:description: Continuous integration refers to the automation of the build and test phase of development
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ci.ini.html
+	:og:locale: en
+
 
 Continuous Integration
 ----------------------

@@ -1,4 +1,18 @@
 .. _definition:
+.. meta::
+	:description:
+		Definition: A definition is the description of a particular constant, function, method, property, class, trait, interface or enum.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Definition
+	:twitter:description: Definition: A definition is the description of a particular constant, function, method, property, class, trait, interface or enum
+	:twitter:creator: @exakat
+	:og:title: Definition
+	:og:type: article
+	:og:description: A definition is the description of a particular constant, function, method, property, class, trait, interface or enum
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html
+	:og:locale: en
+
 
 Definition
 ----------

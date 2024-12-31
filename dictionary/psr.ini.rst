@@ -1,4 +1,18 @@
 .. _psr:
+.. meta::
+	:description:
+		PHP Standards Recommendations (PSR): PHP Standards Recommendations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Standards Recommendations (PSR)
+	:twitter:description: PHP Standards Recommendations (PSR): PHP Standards Recommendations
+	:twitter:creator: @exakat
+	:og:title: PHP Standards Recommendations (PSR)
+	:og:type: article
+	:og:description: PHP Standards Recommendations
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/psr.ini.html
+	:og:locale: en
+
 
 PHP Standards Recommendations (PSR)
 -----------------------------------

@@ -1,6 +1,20 @@
 .. _system:
 .. _os:
 .. _operating-system:
+.. meta::
+	:description:
+		System: The system, or the operating system, is the environement where PHP is running.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: System
+	:twitter:description: System: The system, or the operating system, is the environement where PHP is running
+	:twitter:creator: @exakat
+	:og:title: System
+	:og:type: article
+	:og:description: The system, or the operating system, is the environement where PHP is running
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/system.ini.html
+	:og:locale: en
+
 
 System
 ------

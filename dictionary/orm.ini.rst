@@ -1,4 +1,18 @@
 .. _orm:
+.. meta::
+	:description:
+		Object Relational Mapping (ORM): Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object Relational Mapping (ORM)
+	:twitter:description: Object Relational Mapping (ORM): Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular)
+	:twitter:creator: @exakat
+	:og:title: Object Relational Mapping (ORM)
+	:og:type: article
+	:og:description: Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/orm.ini.html
+	:og:locale: en
+
 
 Object Relational Mapping (ORM)
 -------------------------------

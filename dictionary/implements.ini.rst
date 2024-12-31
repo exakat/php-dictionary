@@ -1,4 +1,18 @@
 .. _implements:
+.. meta::
+	:description:
+		implements: Implements is a keyword, dedicated to classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: implements
+	:twitter:description: implements: Implements is a keyword, dedicated to classes
+	:twitter:creator: @exakat
+	:og:title: implements
+	:og:type: article
+	:og:description: Implements is a keyword, dedicated to classes
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html
+	:og:locale: en
+
 
 implements
 ----------

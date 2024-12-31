@@ -1,4 +1,18 @@
 .. _-__isset:
+.. meta::
+	:description:
+		__isset() method: __isset() is a magic method : it is called when the existence of a property has to be checked.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __isset() method
+	:twitter:description: __isset() method: __isset() is a magic method : it is called when the existence of a property has to be checked
+	:twitter:creator: @exakat
+	:og:title: __isset() method
+	:og:type: article
+	:og:description: __isset() is a magic method : it is called when the existence of a property has to be checked
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__isset.ini.html
+	:og:locale: en
+
 
 __isset() method
 ----------------

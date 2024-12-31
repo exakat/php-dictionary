@@ -1,4 +1,18 @@
 .. _nowdoc:
+.. meta::
+	:description:
+		Nowdocs: Nowdocs is a string syntax, similar to heredoc, and without internal parsing.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nowdocs
+	:twitter:description: Nowdocs: Nowdocs is a string syntax, similar to heredoc, and without internal parsing
+	:twitter:creator: @exakat
+	:og:title: Nowdocs
+	:og:type: article
+	:og:description: Nowdocs is a string syntax, similar to heredoc, and without internal parsing
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nowdoc.ini.html
+	:og:locale: en
+
 
 Nowdocs
 -------

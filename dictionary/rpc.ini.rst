@@ -1,4 +1,18 @@
 .. _rpc:
+.. meta::
+	:description:
+		Remote Procedure Call: RPC is an acronym for Remote Procedure Call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Remote Procedure Call
+	:twitter:description: Remote Procedure Call: RPC is an acronym for Remote Procedure Call
+	:twitter:creator: @exakat
+	:og:title: Remote Procedure Call
+	:og:type: article
+	:og:description: RPC is an acronym for Remote Procedure Call
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rpc.ini.html
+	:og:locale: en
+
 
 Remote Procedure Call
 ---------------------

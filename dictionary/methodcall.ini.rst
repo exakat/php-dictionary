@@ -1,4 +1,18 @@
 .. _methodcall:
+.. meta::
+	:description:
+		Methodcall: A method call is the actual usage of a method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Methodcall
+	:twitter:description: Methodcall: A method call is the actual usage of a method
+	:twitter:creator: @exakat
+	:og:title: Methodcall
+	:og:type: article
+	:og:description: A method call is the actual usage of a method
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/methodcall.ini.html
+	:og:locale: en
+
 
 Methodcall
 ----------

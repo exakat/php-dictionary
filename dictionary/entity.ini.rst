@@ -1,4 +1,18 @@
 .. _entity:
+.. meta::
+	:description:
+		Entities: Entities are different things : .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Entities
+	:twitter:description: Entities: Entities are different things : 
+	:twitter:creator: @exakat
+	:og:title: Entities
+	:og:type: article
+	:og:description: Entities are different things : 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/entity.ini.html
+	:og:locale: en
+
 
 Entities
 --------

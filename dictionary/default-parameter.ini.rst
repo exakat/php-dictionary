@@ -1,4 +1,18 @@
 .. _default-parameter:
+.. meta::
+	:description:
+		Default Parameter: Methods may define a default value for parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Default Parameter
+	:twitter:description: Default Parameter: Methods may define a default value for parameters
+	:twitter:creator: @exakat
+	:og:title: Default Parameter
+	:og:type: article
+	:og:description: Methods may define a default value for parameters
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/default-parameter.ini.html
+	:og:locale: en
+
 
 Default Parameter
 -----------------

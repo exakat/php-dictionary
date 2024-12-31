@@ -1,4 +1,18 @@
 .. _idempotent:
+.. meta::
+	:description:
+		Idempotent: Idempotent is said of an operation, which yields always the same result after the first call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Idempotent
+	:twitter:description: Idempotent: Idempotent is said of an operation, which yields always the same result after the first call
+	:twitter:creator: @exakat
+	:og:title: Idempotent
+	:og:type: article
+	:og:description: Idempotent is said of an operation, which yields always the same result after the first call
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html
+	:og:locale: en
+
 
 Idempotent
 ----------

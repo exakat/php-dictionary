@@ -1,5 +1,19 @@
 .. _echo-tag:
 .. _short-echo-tag:
+.. meta::
+	:description:
+		Echo Tag: Echo tag is a special PHP opening tag : ``<.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Echo Tag
+	:twitter:description: Echo Tag: Echo tag is a special PHP opening tag : ``<
+	:twitter:creator: @exakat
+	:og:title: Echo Tag
+	:og:type: article
+	:og:description: Echo tag is a special PHP opening tag : ``<
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/echo-tag.ini.html
+	:og:locale: en
+
 
 Echo Tag
 --------

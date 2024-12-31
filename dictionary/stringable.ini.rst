@@ -1,4 +1,18 @@
 .. _stringable:
+.. meta::
+	:description:
+		Stringable: Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Stringable
+	:twitter:description: Stringable: Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant
+	:twitter:creator: @exakat
+	:og:title: Stringable
+	:og:type: article
+	:og:description: Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/stringable.ini.html
+	:og:locale: en
+
 
 Stringable
 ----------

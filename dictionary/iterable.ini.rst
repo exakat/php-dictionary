@@ -1,4 +1,18 @@
 .. _iterable:
+.. meta::
+	:description:
+		Iterable: Iterable is a pseudo-type, which accepts any array or object implementing the Traversable interface.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Iterable
+	:twitter:description: Iterable: Iterable is a pseudo-type, which accepts any array or object implementing the Traversable interface
+	:twitter:creator: @exakat
+	:og:title: Iterable
+	:og:type: article
+	:og:description: Iterable is a pseudo-type, which accepts any array or object implementing the Traversable interface
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/iterable.ini.html
+	:og:locale: en
+
 
 Iterable
 --------

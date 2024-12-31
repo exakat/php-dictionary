@@ -1,4 +1,18 @@
 .. _rubber-ducking:
+.. meta::
+	:description:
+		Rubber Ducking Debugging: Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rubber Ducking Debugging
+	:twitter:description: Rubber Ducking Debugging: Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner
+	:twitter:creator: @exakat
+	:og:title: Rubber Ducking Debugging
+	:og:type: article
+	:og:description: Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rubber-ducking.ini.html
+	:og:locale: en
+
 
 Rubber Ducking Debugging
 ------------------------

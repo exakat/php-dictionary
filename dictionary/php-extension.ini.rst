@@ -1,4 +1,18 @@
 .. _php-extension:
+.. meta::
+	:description:
+		PHP Extensions: Extensions are PHP module system.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Extensions
+	:twitter:description: PHP Extensions: Extensions are PHP module system
+	:twitter:creator: @exakat
+	:og:title: PHP Extensions
+	:og:type: article
+	:og:description: Extensions are PHP module system
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-extension.ini.html
+	:og:locale: en
+
 
 PHP Extensions
 --------------

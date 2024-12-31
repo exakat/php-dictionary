@@ -1,4 +1,18 @@
 .. _encoding:
+.. meta::
+	:description:
+		Encoding: Encoding is a generic term, and is used in different places in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Encoding
+	:twitter:description: Encoding: Encoding is a generic term, and is used in different places in PHP
+	:twitter:creator: @exakat
+	:og:title: Encoding
+	:og:type: article
+	:og:description: Encoding is a generic term, and is used in different places in PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html
+	:og:locale: en
+
 
 Encoding
 --------

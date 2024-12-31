@@ -1,5 +1,19 @@
 .. _debugger:
 .. _debug:
+.. meta::
+	:description:
+		Debugger: A debugger is an extension or an external program that is used to help when searching for bugs in PHP code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Debugger
+	:twitter:description: Debugger: A debugger is an extension or an external program that is used to help when searching for bugs in PHP code
+	:twitter:creator: @exakat
+	:og:title: Debugger
+	:og:type: article
+	:og:description: A debugger is an extension or an external program that is used to help when searching for bugs in PHP code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/debugger.ini.html
+	:og:locale: en
+
 
 Debugger
 --------

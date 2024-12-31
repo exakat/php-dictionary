@@ -1,4 +1,18 @@
 .. _model:
+.. meta::
+	:description:
+		Model: The model is the classes that describes the business logic.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Model
+	:twitter:description: Model: The model is the classes that describes the business logic
+	:twitter:creator: @exakat
+	:og:title: Model
+	:og:type: article
+	:og:description: The model is the classes that describes the business logic
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/model.ini.html
+	:og:locale: en
+
 
 Model
 -----

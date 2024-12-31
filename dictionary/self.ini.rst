@@ -1,4 +1,18 @@
 .. _self:
+.. meta::
+	:description:
+		Self: ``self`` is one of the three special keywords that are used to access properties or methods from inside the class definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Self
+	:twitter:description: Self: ``self`` is one of the three special keywords that are used to access properties or methods from inside the class definition
+	:twitter:creator: @exakat
+	:og:title: Self
+	:og:type: article
+	:og:description: ``self`` is one of the three special keywords that are used to access properties or methods from inside the class definition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html
+	:og:locale: en
+
 
 Self
 ----

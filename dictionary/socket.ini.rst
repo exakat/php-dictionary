@@ -1,4 +1,18 @@
 .. _socket:
+.. meta::
+	:description:
+		Socket: A socket refers to a communication endpoint that allows two processes on a network to exchange data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Socket
+	:twitter:description: Socket: A socket refers to a communication endpoint that allows two processes on a network to exchange data
+	:twitter:creator: @exakat
+	:og:title: Socket
+	:og:type: article
+	:og:description: A socket refers to a communication endpoint that allows two processes on a network to exchange data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/socket.ini.html
+	:og:locale: en
+
 
 Socket
 ------

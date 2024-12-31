@@ -1,6 +1,20 @@
 .. _intersection-type:
 .. _intersectional:
 .. _intersectional-type:
+.. meta::
+	:description:
+		Intersection Type: Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Intersection Type
+	:twitter:description: Intersection Type: Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type
+	:twitter:creator: @exakat
+	:og:title: Intersection Type
+	:og:type: article
+	:og:description: Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html
+	:og:locale: en
+
 
 Intersection Type
 -----------------

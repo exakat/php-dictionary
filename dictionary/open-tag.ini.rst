@@ -1,4 +1,18 @@
 .. _open-tag:
+.. meta::
+	:description:
+		Open Tag: PHP commands are placed between the PHP tags : ``<.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Open Tag
+	:twitter:description: Open Tag: PHP commands are placed between the PHP tags : ``<
+	:twitter:creator: @exakat
+	:og:title: Open Tag
+	:og:type: article
+	:og:description: PHP commands are placed between the PHP tags : ``<
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/open-tag.ini.html
+	:og:locale: en
+
 
 Open Tag
 --------

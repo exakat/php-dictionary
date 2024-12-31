@@ -2,6 +2,20 @@
 .. _scalar:
 .. _scalar-typehint:
 .. _primitive-type:
+.. meta::
+	:description:
+		Scalar Types: Scalar types refer to the basic data types that hold a single value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scalar Types
+	:twitter:description: Scalar Types: Scalar types refer to the basic data types that hold a single value
+	:twitter:creator: @exakat
+	:og:title: Scalar Types
+	:og:type: article
+	:og:description: Scalar types refer to the basic data types that hold a single value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-type.ini.html
+	:og:locale: en
+
 
 Scalar Types
 ------------

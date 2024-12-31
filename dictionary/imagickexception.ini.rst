@@ -1,4 +1,18 @@
 .. _imagickexception:
+.. meta::
+	:description:
+		ImagickException: The ImagickException exception is thrown when an error happens while processing an Imagick operation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ImagickException
+	:twitter:description: ImagickException: The ImagickException exception is thrown when an error happens while processing an Imagick operation
+	:twitter:creator: @exakat
+	:og:title: ImagickException
+	:og:type: article
+	:og:description: The ImagickException exception is thrown when an error happens while processing an Imagick operation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickexception.ini.html
+	:og:locale: en
+
 
 ImagickException
 ----------------

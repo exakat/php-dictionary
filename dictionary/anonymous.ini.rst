@@ -1,4 +1,18 @@
 .. _anonymous:
+.. meta::
+	:description:
+		Anonymous: An anonymous structure is a definition that usually has a name, but may also go without it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Anonymous
+	:twitter:description: Anonymous: An anonymous structure is a definition that usually has a name, but may also go without it
+	:twitter:creator: @exakat
+	:og:title: Anonymous
+	:og:type: article
+	:og:description: An anonymous structure is a definition that usually has a name, but may also go without it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous.ini.html
+	:og:locale: en
+
 
 Anonymous
 ---------

@@ -1,4 +1,18 @@
 .. _$_get:
+.. meta::
+	:description:
+		$_GET: The ``$_GET`` variable is a special superglobal variable that is used to retrieve data from the query string or URL parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $_GET
+	:twitter:description: $_GET: The ``$_GET`` variable is a special superglobal variable that is used to retrieve data from the query string or URL parameters
+	:twitter:creator: @exakat
+	:og:title: $_GET
+	:og:type: article
+	:og:description: The ``$_GET`` variable is a special superglobal variable that is used to retrieve data from the query string or URL parameters
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_get.ini.html
+	:og:locale: en
+
 
 $_GET
 -----

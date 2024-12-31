@@ -1,4 +1,18 @@
 .. _as:
+.. meta::
+	:description:
+		As: The as operator has several usage:.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: As
+	:twitter:description: As: The as operator has several usage:
+	:twitter:creator: @exakat
+	:og:title: As
+	:og:type: article
+	:og:description: The as operator has several usage:
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/as.ini.html
+	:og:locale: en
+
 
 As
 --

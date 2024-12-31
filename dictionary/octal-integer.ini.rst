@@ -1,5 +1,19 @@
 .. _octal-integer:
 .. _octal:
+.. meta::
+	:description:
+		Octal Integer: Integers can be specified in octal (base 8) notation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Octal Integer
+	:twitter:description: Octal Integer: Integers can be specified in octal (base 8) notation
+	:twitter:creator: @exakat
+	:og:title: Octal Integer
+	:og:type: article
+	:og:description: Integers can be specified in octal (base 8) notation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/octal-integer.ini.html
+	:og:locale: en
+
 
 Octal Integer
 -------------

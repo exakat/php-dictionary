@@ -1,4 +1,18 @@
 .. _extends:
+.. meta::
+	:description:
+		extends: `extends` is an operator of the class inheritance.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: extends
+	:twitter:description: extends: `extends` is an operator of the class inheritance
+	:twitter:creator: @exakat
+	:og:title: extends
+	:og:type: article
+	:og:description: `extends` is an operator of the class inheritance
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/extends.ini.html
+	:og:locale: en
+
 
 extends
 -------

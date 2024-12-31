@@ -1,4 +1,18 @@
 .. _c2-framework:
+.. meta::
+	:description:
+		C2 Framework: A C2 framework is also known as a C&C framework, or command-and-control framework.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: C2 Framework
+	:twitter:description: C2 Framework: A C2 framework is also known as a C&C framework, or command-and-control framework
+	:twitter:creator: @exakat
+	:og:title: C2 Framework
+	:og:type: article
+	:og:description: A C2 framework is also known as a C&C framework, or command-and-control framework
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/c2-framework.ini.html
+	:og:locale: en
+
 
 C2 Framework
 ------------

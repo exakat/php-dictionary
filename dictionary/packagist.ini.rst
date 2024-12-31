@@ -1,4 +1,18 @@
 .. _packagist:
+.. meta::
+	:description:
+		Packagist: Packagist is the default package repository for PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Packagist
+	:twitter:description: Packagist: Packagist is the default package repository for PHP
+	:twitter:creator: @exakat
+	:og:title: Packagist
+	:og:type: article
+	:og:description: Packagist is the default package repository for PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/packagist.ini.html
+	:og:locale: en
+
 
 Packagist
 ---------

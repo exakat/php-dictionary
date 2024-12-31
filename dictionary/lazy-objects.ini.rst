@@ -1,4 +1,18 @@
 .. _lazy-objects:
+.. meta::
+	:description:
+		Lazy Objects: Lazy objects is a application of lazy-loading, directly applied in the PHP engine, and available as an engine feature since PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Lazy Objects
+	:twitter:description: Lazy Objects: Lazy objects is a application of lazy-loading, directly applied in the PHP engine, and available as an engine feature since PHP 8
+	:twitter:creator: @exakat
+	:og:title: Lazy Objects
+	:og:type: article
+	:og:description: Lazy objects is a application of lazy-loading, directly applied in the PHP engine, and available as an engine feature since PHP 8
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-objects.ini.html
+	:og:locale: en
+
 
 Lazy Objects
 ------------

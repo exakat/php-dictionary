@@ -1,4 +1,18 @@
 .. _shallow-clone:
+.. meta::
+	:description:
+		Shallow Clone: A shallow clone is an object cloning, where the cloned object keeps the same object properties as the original object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Shallow Clone
+	:twitter:description: Shallow Clone: A shallow clone is an object cloning, where the cloned object keeps the same object properties as the original object
+	:twitter:creator: @exakat
+	:og:title: Shallow Clone
+	:og:type: article
+	:og:description: A shallow clone is an object cloning, where the cloned object keeps the same object properties as the original object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/shallow-clone.ini.html
+	:og:locale: en
+
 
 Shallow Clone
 -------------

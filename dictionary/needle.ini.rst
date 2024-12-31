@@ -1,4 +1,18 @@
 .. _needle:
+.. meta::
+	:description:
+		Needle: Needle is a classic name, used to designate the object of a search.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Needle
+	:twitter:description: Needle: Needle is a classic name, used to designate the object of a search
+	:twitter:creator: @exakat
+	:og:title: Needle
+	:og:type: article
+	:og:description: Needle is a classic name, used to designate the object of a search
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/needle.ini.html
+	:og:locale: en
+
 
 Needle
 ------

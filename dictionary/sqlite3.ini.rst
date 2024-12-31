@@ -1,5 +1,19 @@
 .. _sqlite:
 .. _sqlite3:
+.. meta::
+	:description:
+		Sqlite3: SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sqlite3
+	:twitter:description: Sqlite3: SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine
+	:twitter:creator: @exakat
+	:og:title: Sqlite3
+	:og:type: article
+	:og:description: SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sqlite.ini.html
+	:og:locale: en
+
 
 Sqlite3
 -------

@@ -1,4 +1,18 @@
 .. _halt-compiler:
+.. meta::
+	:description:
+		__halt_compiler(): Halts the execution of the compiler.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __halt_compiler()
+	:twitter:description: __halt_compiler(): Halts the execution of the compiler
+	:twitter:creator: @exakat
+	:og:title: __halt_compiler()
+	:og:type: article
+	:og:description: Halts the execution of the compiler
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/halt-compiler.ini.html
+	:og:locale: en
+
 
 __halt_compiler()
 -----------------

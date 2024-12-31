@@ -1,5 +1,19 @@
 .. _curly-bracket:
 .. _curly-braces:
+.. meta::
+	:description:
+		Curly Brackets: Curly brackets have different usage in PHP:.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Curly Brackets
+	:twitter:description: Curly Brackets: Curly brackets have different usage in PHP:
+	:twitter:creator: @exakat
+	:og:title: Curly Brackets
+	:og:type: article
+	:og:description: Curly brackets have different usage in PHP:
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/curly-bracket.ini.html
+	:og:locale: en
+
 
 Curly Brackets
 --------------

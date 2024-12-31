@@ -1,5 +1,19 @@
 .. _array-syntax:
 .. _array-notation:
+.. meta::
+	:description:
+		Array Syntax: The array syntax is the usage of square brackets after a data container (variables, properties.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array Syntax
+	:twitter:description: Array Syntax: The array syntax is the usage of square brackets after a data container (variables, properties
+	:twitter:creator: @exakat
+	:og:title: Array Syntax
+	:og:type: article
+	:og:description: The array syntax is the usage of square brackets after a data container (variables, properties
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array-syntax.ini.html
+	:og:locale: en
+
 
 Array Syntax
 ------------

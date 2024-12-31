@@ -1,4 +1,18 @@
 .. _collection:
+.. meta::
+	:description:
+		Collection: A сollection is an array in which only elements of the same type can be stored.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collection
+	:twitter:description: Collection: A сollection is an array in which only elements of the same type can be stored
+	:twitter:creator: @exakat
+	:og:title: Collection
+	:og:type: article
+	:og:description: A сollection is an array in which only elements of the same type can be stored
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/collection.ini.html
+	:og:locale: en
+
 
 Collection
 ----------

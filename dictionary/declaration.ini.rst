@@ -1,4 +1,18 @@
 .. _declaration:
+.. meta::
+	:description:
+		Declaration: A declaration is a statement that defines a structure, such as a function, a class, method, property, etc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Declaration
+	:twitter:description: Declaration: A declaration is a statement that defines a structure, such as a function, a class, method, property, etc
+	:twitter:creator: @exakat
+	:og:title: Declaration
+	:og:type: article
+	:og:description: A declaration is a statement that defines a structure, such as a function, a class, method, property, etc
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html
+	:og:locale: en
+
 
 Declaration
 -----------

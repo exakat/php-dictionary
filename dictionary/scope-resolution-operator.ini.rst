@@ -1,6 +1,20 @@
 .. _scope-resolution-operator:
 .. _double-colon:
 .. _paamayim-nekudotayim:
+.. meta::
+	:description:
+		Scope Resolution Operator ::: The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scope Resolution Operator ::
+	:twitter:description: Scope Resolution Operator ::: The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class
+	:twitter:creator: @exakat
+	:og:title: Scope Resolution Operator ::
+	:og:type: article
+	:og:description: The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/scope-resolution-operator.ini.html
+	:og:locale: en
+
 
 Scope Resolution Operator ::
 ----------------------------

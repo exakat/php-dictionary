@@ -1,4 +1,18 @@
 .. _dsn:
+.. meta::
+	:description:
+		Data Source Name (DSN): A DSN is a string that describes a database location and access.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Data Source Name (DSN)
+	:twitter:description: Data Source Name (DSN): A DSN is a string that describes a database location and access
+	:twitter:creator: @exakat
+	:og:title: Data Source Name (DSN)
+	:og:type: article
+	:og:description: A DSN is a string that describes a database location and access
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dsn.ini.html
+	:og:locale: en
+
 
 Data Source Name (DSN)
 ----------------------

@@ -1,4 +1,18 @@
 .. _colon:
+.. meta::
+	:description:
+		Colon: Colons are used in a variety of situations : .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Colon
+	:twitter:description: Colon: Colons are used in a variety of situations : 
+	:twitter:creator: @exakat
+	:og:title: Colon
+	:og:type: article
+	:og:description: Colons are used in a variety of situations : 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/colon.ini.html
+	:og:locale: en
+
 
 Colon
 -----

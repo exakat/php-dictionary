@@ -1,4 +1,18 @@
 .. _mvc:
+.. meta::
+	:description:
+		MVC: MVC stands for Model - View - Controller.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: MVC
+	:twitter:description: MVC: MVC stands for Model - View - Controller
+	:twitter:creator: @exakat
+	:og:title: MVC
+	:og:type: article
+	:og:description: MVC stands for Model - View - Controller
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mvc.ini.html
+	:og:locale: en
+
 
 MVC
 ---

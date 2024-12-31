@@ -1,4 +1,18 @@
 .. _domainexception:
+.. meta::
+	:description:
+		DomainException: Exception thrown if a value does not adhere to a defined valid data domain.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: DomainException
+	:twitter:description: DomainException: Exception thrown if a value does not adhere to a defined valid data domain
+	:twitter:creator: @exakat
+	:og:title: DomainException
+	:og:type: article
+	:og:description: Exception thrown if a value does not adhere to a defined valid data domain
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/domainexception.ini.html
+	:og:locale: en
+
 
 DomainException
 ---------------

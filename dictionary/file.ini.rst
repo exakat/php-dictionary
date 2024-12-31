@@ -1,4 +1,18 @@
 .. _file:
+.. meta::
+	:description:
+		File: A file is a named collection of data or information that is stored and organized on a computer's storage system.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File
+	:twitter:description: File: A file is a named collection of data or information that is stored and organized on a computer's storage system
+	:twitter:creator: @exakat
+	:og:title: File
+	:og:type: article
+	:og:description: A file is a named collection of data or information that is stored and organized on a computer's storage system
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html
+	:og:locale: en
+
 
 File
 ----

@@ -1,4 +1,18 @@
 .. _syntax-error:
+.. meta::
+	:description:
+		Syntax Error: A syntax error happens when the text could not be parsed into tokens by PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Syntax Error
+	:twitter:description: Syntax Error: A syntax error happens when the text could not be parsed into tokens by PHP
+	:twitter:creator: @exakat
+	:og:title: Syntax Error
+	:og:type: article
+	:og:description: A syntax error happens when the text could not be parsed into tokens by PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/syntax-error.ini.html
+	:og:locale: en
+
 
 Syntax Error
 ------------

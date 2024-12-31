@@ -1,5 +1,19 @@
 .. _property-hook:
 .. _hook:
+.. meta::
+	:description:
+		Property Hook: Property hooks are a feature of PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Hook
+	:twitter:description: Property Hook: Property hooks are a feature of PHP 8
+	:twitter:creator: @exakat
+	:og:title: Property Hook
+	:og:type: article
+	:og:description: Property hooks are a feature of PHP 8
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/property-hook.ini.html
+	:og:locale: en
+
 
 Property Hook
 -------------

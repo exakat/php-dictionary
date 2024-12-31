@@ -1,4 +1,18 @@
 .. _data:
+.. meta::
+	:description:
+		Data: ``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Data
+	:twitter:description: Data: ``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication
+	:twitter:creator: @exakat
+	:og:title: Data
+	:og:type: article
+	:og:description: ``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/data.ini.html
+	:og:locale: en
+
 
 Data
 ----

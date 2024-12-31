@@ -1,5 +1,19 @@
 .. _boolean:
 .. _bool:
+.. meta::
+	:description:
+		Boolean: A boolean is a value that is either true or false.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Boolean
+	:twitter:description: Boolean: A boolean is a value that is either true or false
+	:twitter:creator: @exakat
+	:og:title: Boolean
+	:og:type: article
+	:og:description: A boolean is a value that is either true or false
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html
+	:og:locale: en
+
 
 Boolean
 -------

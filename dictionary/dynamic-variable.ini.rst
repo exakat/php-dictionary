@@ -1,4 +1,18 @@
 .. _dynamic-variable:
+.. meta::
+	:description:
+		Dynamic Variable: A dynamic variable is a variable whose name stored in a variable or an expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Variable
+	:twitter:description: Dynamic Variable: A dynamic variable is a variable whose name stored in a variable or an expression
+	:twitter:creator: @exakat
+	:og:title: Dynamic Variable
+	:og:type: article
+	:og:description: A dynamic variable is a variable whose name stored in a variable or an expression
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html
+	:og:locale: en
+
 
 Dynamic Variable
 ----------------

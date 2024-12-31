@@ -1,4 +1,18 @@
 .. _data-container:
+.. meta::
+	:description:
+		Data Container: A data container is a structure that stores data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Data Container
+	:twitter:description: Data Container: A data container is a structure that stores data
+	:twitter:creator: @exakat
+	:og:title: Data Container
+	:og:type: article
+	:og:description: A data container is a structure that stores data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/data-container.ini.html
+	:og:locale: en
+
 
 Data Container
 --------------

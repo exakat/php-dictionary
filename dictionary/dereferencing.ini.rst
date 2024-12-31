@@ -1,4 +1,18 @@
 .. _dereferencing:
+.. meta::
+	:description:
+		Dereferencing: Dereferencing is the action to access a value, which is referenced with a pointer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dereferencing
+	:twitter:description: Dereferencing: Dereferencing is the action to access a value, which is referenced with a pointer
+	:twitter:creator: @exakat
+	:og:title: Dereferencing
+	:og:type: article
+	:og:description: Dereferencing is the action to access a value, which is referenced with a pointer
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dereferencing.ini.html
+	:og:locale: en
+
 
 Dereferencing
 -------------

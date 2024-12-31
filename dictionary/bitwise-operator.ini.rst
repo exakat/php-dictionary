@@ -1,4 +1,18 @@
 .. _bitwise-operator:
+.. meta::
+	:description:
+		Bitwise Operators: Bitwise operators evaluate specific bits within an integer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Bitwise Operators
+	:twitter:description: Bitwise Operators: Bitwise operators evaluate specific bits within an integer
+	:twitter:creator: @exakat
+	:og:title: Bitwise Operators
+	:og:type: article
+	:og:description: Bitwise operators evaluate specific bits within an integer
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/bitwise-operator.ini.html
+	:og:locale: en
+
 
 Bitwise Operators
 -----------------

@@ -1,4 +1,18 @@
 .. _neutral-element:
+.. meta::
+	:description:
+		Neutral Element: A neutral element is an piece of data which has no effect with a particular operation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Neutral Element
+	:twitter:description: Neutral Element: A neutral element is an piece of data which has no effect with a particular operation
+	:twitter:creator: @exakat
+	:og:title: Neutral Element
+	:og:type: article
+	:og:description: A neutral element is an piece of data which has no effect with a particular operation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/neutral-element.ini.html
+	:og:locale: en
+
 
 Neutral Element
 ---------------

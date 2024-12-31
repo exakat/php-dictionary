@@ -1,5 +1,19 @@
 .. _autoload:
 .. _autoloading:
+.. meta::
+	:description:
+		Class Autoloading: Autoloading provides a hook to allow the loading of a class, the first PHP requires it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Autoloading
+	:twitter:description: Class Autoloading: Autoloading provides a hook to allow the loading of a class, the first PHP requires it
+	:twitter:creator: @exakat
+	:og:title: Class Autoloading
+	:og:type: article
+	:og:description: Autoloading provides a hook to allow the loading of a class, the first PHP requires it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html
+	:og:locale: en
+
 
 Class Autoloading
 -----------------

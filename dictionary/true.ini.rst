@@ -1,4 +1,18 @@
 .. _true:
+.. meta::
+	:description:
+		True: true has two usages, as PHP keyword : the opposite of false, as a boolean value and a special type for functions that may return a boolean, but not false.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: True
+	:twitter:description: True: true has two usages, as PHP keyword : the opposite of false, as a boolean value and a special type for functions that may return a boolean, but not false
+	:twitter:creator: @exakat
+	:og:title: True
+	:og:type: article
+	:og:description: true has two usages, as PHP keyword : the opposite of false, as a boolean value and a special type for functions that may return a boolean, but not false
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/true.ini.html
+	:og:locale: en
+
 
 True
 ----

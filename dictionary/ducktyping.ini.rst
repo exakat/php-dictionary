@@ -1,5 +1,19 @@
 .. _duck-typing:
 .. _ducktyping:
+.. meta::
+	:description:
+		Duck Typing: In duck typing, an object is of a given type if it has all methods and properties required by that type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duck Typing
+	:twitter:description: Duck Typing: In duck typing, an object is of a given type if it has all methods and properties required by that type
+	:twitter:creator: @exakat
+	:og:title: Duck Typing
+	:og:type: article
+	:og:description: In duck typing, an object is of a given type if it has all methods and properties required by that type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/duck-typing.ini.html
+	:og:locale: en
+
 
 Duck Typing
 -----------

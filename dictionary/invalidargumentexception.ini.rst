@@ -1,4 +1,18 @@
 .. _invalidargumentexception:
+.. meta::
+	:description:
+		InvalidArgumentException: Exception thrown if an argument is not of the expected type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: InvalidArgumentException
+	:twitter:description: InvalidArgumentException: Exception thrown if an argument is not of the expected type
+	:twitter:creator: @exakat
+	:og:title: InvalidArgumentException
+	:og:type: article
+	:og:description: Exception thrown if an argument is not of the expected type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/invalidargumentexception.ini.html
+	:og:locale: en
+
 
 InvalidArgumentException
 ------------------------

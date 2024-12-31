@@ -1,4 +1,18 @@
 .. _cyclomatic-complexity:
+.. meta::
+	:description:
+		Cyclomatic Complexity: Cyclomatic complexity is a software metric of the complexity of a program.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cyclomatic Complexity
+	:twitter:description: Cyclomatic Complexity: Cyclomatic complexity is a software metric of the complexity of a program
+	:twitter:creator: @exakat
+	:og:title: Cyclomatic Complexity
+	:og:type: article
+	:og:description: Cyclomatic complexity is a software metric of the complexity of a program
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/cyclomatic-complexity.ini.html
+	:og:locale: en
+
 
 Cyclomatic Complexity
 ---------------------

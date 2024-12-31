@@ -1,5 +1,19 @@
 .. _pagination:
 .. _paging:
+.. meta::
+	:description:
+		Pagination: Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Pagination
+	:twitter:description: Pagination: Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages
+	:twitter:creator: @exakat
+	:og:title: Pagination
+	:og:type: article
+	:og:description: Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/pagination.ini.html
+	:og:locale: en
+
 
 Pagination
 ----------

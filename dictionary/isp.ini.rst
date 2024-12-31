@@ -1,4 +1,18 @@
 .. _isp:
+.. meta::
+	:description:
+		Interface Segregation Principle: The interface segregation principle (ISP) states that no code should be forced to depend on methods it does not use.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interface Segregation Principle
+	:twitter:description: Interface Segregation Principle: The interface segregation principle (ISP) states that no code should be forced to depend on methods it does not use
+	:twitter:creator: @exakat
+	:og:title: Interface Segregation Principle
+	:og:type: article
+	:og:description: The interface segregation principle (ISP) states that no code should be forced to depend on methods it does not use
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/isp.ini.html
+	:og:locale: en
+
 
 Interface Segregation Principle
 -------------------------------

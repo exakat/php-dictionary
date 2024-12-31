@@ -1,4 +1,18 @@
 .. _readability:
+.. meta::
+	:description:
+		Readability: A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Readability
+	:twitter:description: Readability: A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it
+	:twitter:creator: @exakat
+	:og:title: Readability
+	:og:type: article
+	:og:description: A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html
+	:og:locale: en
+
 
 Readability
 -----------

@@ -1,4 +1,18 @@
 .. _optional-parameter:
+.. meta::
+	:description:
+		Optional Parameter: Optional parameter are parameter fitted with a default value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Optional Parameter
+	:twitter:description: Optional Parameter: Optional parameter are parameter fitted with a default value
+	:twitter:creator: @exakat
+	:og:title: Optional Parameter
+	:og:type: article
+	:og:description: Optional parameter are parameter fitted with a default value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/optional-parameter.ini.html
+	:og:locale: en
+
 
 Optional Parameter
 ------------------

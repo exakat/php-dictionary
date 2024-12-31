@@ -1,4 +1,18 @@
 .. _registry:
+.. meta::
+	:description:
+		Registry: A registry may be the following things : .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Registry
+	:twitter:description: Registry: A registry may be the following things : 
+	:twitter:creator: @exakat
+	:og:title: Registry
+	:og:type: article
+	:og:description: A registry may be the following things : 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/registry.ini.html
+	:og:locale: en
+
 
 Registry
 --------

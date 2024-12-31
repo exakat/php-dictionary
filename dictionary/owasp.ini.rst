@@ -1,4 +1,18 @@
 .. _owasp:
+.. meta::
+	:description:
+		OWASP: OWASP stands for Open Web Application Security Project.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: OWASP
+	:twitter:description: OWASP: OWASP stands for Open Web Application Security Project
+	:twitter:creator: @exakat
+	:og:title: OWASP
+	:og:type: article
+	:og:description: OWASP stands for Open Web Application Security Project
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/owasp.ini.html
+	:og:locale: en
+
 
 OWASP
 -----

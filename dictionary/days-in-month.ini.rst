@@ -1,4 +1,18 @@
 .. _days-in-month:
+.. meta::
+	:description:
+		Days In Month: Days in month is a classic bug when dealing with dates.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Days In Month
+	:twitter:description: Days In Month: Days in month is a classic bug when dealing with dates
+	:twitter:creator: @exakat
+	:og:title: Days In Month
+	:og:type: article
+	:og:description: Days in month is a classic bug when dealing with dates
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/days-in-month.ini.html
+	:og:locale: en
+
 
 Days In Month
 -------------

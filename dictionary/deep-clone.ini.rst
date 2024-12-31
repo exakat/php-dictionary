@@ -1,4 +1,18 @@
 .. _deep-clone:
+.. meta::
+	:description:
+		Deep Clone: A deep clone is an object cloning, where the cloned object also clone its own object properties.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deep Clone
+	:twitter:description: Deep Clone: A deep clone is an object cloning, where the cloned object also clone its own object properties
+	:twitter:creator: @exakat
+	:og:title: Deep Clone
+	:og:type: article
+	:og:description: A deep clone is an object cloning, where the cloned object also clone its own object properties
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/deep-clone.ini.html
+	:og:locale: en
+
 
 Deep Clone
 ----------

@@ -1,4 +1,18 @@
 .. _match:
+.. meta::
+	:description:
+		Match: The ``match`` expression is the remote cousin of the ``switch``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Match
+	:twitter:description: Match: The ``match`` expression is the remote cousin of the ``switch``
+	:twitter:creator: @exakat
+	:og:title: Match
+	:og:type: article
+	:og:description: The ``match`` expression is the remote cousin of the ``switch``
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html
+	:og:locale: en
+
 
 Match
 -----

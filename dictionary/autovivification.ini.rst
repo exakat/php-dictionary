@@ -1,4 +1,18 @@
 .. _autovivification:
+.. meta::
+	:description:
+		Autovivification: Autovivification is the automatic creation of an array when a value is dereferenced.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Autovivification
+	:twitter:description: Autovivification: Autovivification is the automatic creation of an array when a value is dereferenced
+	:twitter:creator: @exakat
+	:og:title: Autovivification
+	:og:type: article
+	:og:description: Autovivification is the automatic creation of an array when a value is dereferenced
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/autovivification.ini.html
+	:og:locale: en
+
 
 Autovivification
 ----------------

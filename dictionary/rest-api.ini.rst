@@ -1,4 +1,18 @@
 .. _rest-api:
+.. meta::
+	:description:
+		REST API: REST stands for Representational state transfer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: REST API
+	:twitter:description: REST API: REST stands for Representational state transfer
+	:twitter:creator: @exakat
+	:og:title: REST API
+	:og:type: article
+	:og:description: REST stands for Representational state transfer
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rest-api.ini.html
+	:og:locale: en
+
 
 REST API
 --------

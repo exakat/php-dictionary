@@ -1,5 +1,19 @@
 .. _arrow-function:
 .. _fn:
+.. meta::
+	:description:
+		Arrow Functions: Arrow functions are a type of closure with a specific syntax.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Arrow Functions
+	:twitter:description: Arrow Functions: Arrow functions are a type of closure with a specific syntax
+	:twitter:creator: @exakat
+	:og:title: Arrow Functions
+	:og:type: article
+	:og:description: Arrow functions are a type of closure with a specific syntax
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html
+	:og:locale: en
+
 
 Arrow Functions
 ---------------

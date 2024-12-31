@@ -1,4 +1,18 @@
 .. _runtime-checks:
+.. meta::
+	:description:
+		Runtime Checks: Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Runtime Checks
+	:twitter:description: Runtime Checks: Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script
+	:twitter:creator: @exakat
+	:og:title: Runtime Checks
+	:og:type: article
+	:og:description: Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/runtime-checks.ini.html
+	:og:locale: en
+
 
 Runtime Checks
 --------------

@@ -1,4 +1,18 @@
 .. _-__set:
+.. meta::
+	:description:
+		__set() method: __set() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __set() method
+	:twitter:description: __set() method: __set() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it
+	:twitter:creator: @exakat
+	:og:title: __set() method
+	:og:type: article
+	:og:description: __set() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__set.ini.html
+	:og:locale: en
+
 
 __set() method
 --------------

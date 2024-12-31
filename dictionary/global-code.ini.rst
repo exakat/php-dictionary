@@ -1,4 +1,18 @@
 .. _global-code:
+.. meta::
+	:description:
+		Global Code: The global code is the code that doesn't belong to any method or function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Global Code
+	:twitter:description: Global Code: The global code is the code that doesn't belong to any method or function
+	:twitter:creator: @exakat
+	:og:title: Global Code
+	:og:type: article
+	:og:description: The global code is the code that doesn't belong to any method or function
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/global-code.ini.html
+	:og:locale: en
+
 
 Global Code
 -----------

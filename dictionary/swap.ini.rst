@@ -1,4 +1,18 @@
 .. _swap:
+.. meta::
+	:description:
+		SWAP: Swap may be two things : .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SWAP
+	:twitter:description: SWAP: Swap may be two things : 
+	:twitter:creator: @exakat
+	:og:title: SWAP
+	:og:type: article
+	:og:description: Swap may be two things : 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/swap.ini.html
+	:og:locale: en
+
 
 SWAP
 ----

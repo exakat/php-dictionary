@@ -1,4 +1,18 @@
 .. _openssl:
+.. meta::
+	:description:
+		OpenSSL: The OpenSSL Project develops and maintains the OpenSSL software - a robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: OpenSSL
+	:twitter:description: OpenSSL: The OpenSSL Project develops and maintains the OpenSSL software - a robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
+	:twitter:creator: @exakat
+	:og:title: OpenSSL
+	:og:type: article
+	:og:description: The OpenSSL Project develops and maintains the OpenSSL software - a robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html
+	:og:locale: en
+
 
 OpenSSL
 -------

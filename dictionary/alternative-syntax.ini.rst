@@ -1,4 +1,18 @@
 .. _alternative-syntax:
+.. meta::
+	:description:
+		Alternative Syntax: PHP offers an alternative syntax for some of its control structures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Alternative Syntax
+	:twitter:description: Alternative Syntax: PHP offers an alternative syntax for some of its control structures
+	:twitter:creator: @exakat
+	:og:title: Alternative Syntax
+	:og:type: article
+	:og:description: PHP offers an alternative syntax for some of its control structures
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/alternative-syntax.ini.html
+	:og:locale: en
+
 
 Alternative Syntax
 ------------------

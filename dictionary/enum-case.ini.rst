@@ -1,4 +1,18 @@
 .. _enum-case:
+.. meta::
+	:description:
+		Enumeration Case: An Enumeration may have zero or more case definitions, with no maximum.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Enumeration Case
+	:twitter:description: Enumeration Case: An Enumeration may have zero or more case definitions, with no maximum
+	:twitter:creator: @exakat
+	:og:title: Enumeration Case
+	:og:type: article
+	:og:description: An Enumeration may have zero or more case definitions, with no maximum
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html
+	:og:locale: en
+
 
 Enumeration Case
 ----------------

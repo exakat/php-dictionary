@@ -1,4 +1,18 @@
 .. _scaling:
+.. meta::
+	:description:
+		Scaling: Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scaling
+	:twitter:description: Scaling: Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability
+	:twitter:creator: @exakat
+	:og:title: Scaling
+	:og:type: article
+	:og:description: Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/scaling.ini.html
+	:og:locale: en
+
 
 Scaling
 -------

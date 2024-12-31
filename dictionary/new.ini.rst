@@ -1,4 +1,18 @@
 .. _new:
+.. meta::
+	:description:
+		new: new creates a new object from a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: new
+	:twitter:description: new: new creates a new object from a class
+	:twitter:creator: @exakat
+	:og:title: new
+	:og:type: article
+	:og:description: new creates a new object from a class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html
+	:og:locale: en
+
 
 new
 ---

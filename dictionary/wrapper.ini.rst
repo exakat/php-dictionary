@@ -1,4 +1,18 @@
 .. _wrapper:
+.. meta::
+	:description:
+		Wrapper: A wrapper may be two things: .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrapper
+	:twitter:description: Wrapper: A wrapper may be two things: 
+	:twitter:creator: @exakat
+	:og:title: Wrapper
+	:og:type: article
+	:og:description: A wrapper may be two things: 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper.ini.html
+	:og:locale: en
+
 
 Wrapper
 -------

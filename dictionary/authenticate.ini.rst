@@ -1,4 +1,18 @@
 .. _authenticate:
+.. meta::
+	:description:
+		Authenticate: Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Authenticate
+	:twitter:description: Authenticate: Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement
+	:twitter:creator: @exakat
+	:og:title: Authenticate
+	:og:type: article
+	:og:description: Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/authenticate.ini.html
+	:og:locale: en
+
 
 Authenticate
 ------------

@@ -1,4 +1,18 @@
 .. _mixed:
+.. meta::
+	:description:
+		Mixed: A special type that represents any available type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mixed
+	:twitter:description: Mixed: A special type that represents any available type
+	:twitter:creator: @exakat
+	:og:title: Mixed
+	:og:type: article
+	:og:description: A special type that represents any available type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html
+	:og:locale: en
+
 
 Mixed
 -----

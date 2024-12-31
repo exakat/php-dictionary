@@ -1,5 +1,19 @@
 .. _parse:
 .. _parsing:
+.. meta::
+	:description:
+		Parse: To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parse
+	:twitter:description: Parse: To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information
+	:twitter:creator: @exakat
+	:og:title: Parse
+	:og:type: article
+	:og:description: To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/parse.ini.html
+	:og:locale: en
+
 
 Parse
 -----

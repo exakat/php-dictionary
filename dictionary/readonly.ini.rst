@@ -1,4 +1,18 @@
 .. _readonly:
+.. meta::
+	:description:
+		Readonly: A property can be declared with the readonly modifier, which prevents modification of the property after initialization.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Readonly
+	:twitter:description: Readonly: A property can be declared with the readonly modifier, which prevents modification of the property after initialization
+	:twitter:creator: @exakat
+	:og:title: Readonly
+	:og:type: article
+	:og:description: A property can be declared with the readonly modifier, which prevents modification of the property after initialization
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html
+	:og:locale: en
+
 
 Readonly
 --------

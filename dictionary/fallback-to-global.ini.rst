@@ -1,5 +1,19 @@
 .. _fallback-to-global:
 .. _fallback:
+.. meta::
+	:description:
+		Fallback To Global: The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fallback To Global
+	:twitter:description: Fallback To Global: The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing
+	:twitter:creator: @exakat
+	:og:title: Fallback To Global
+	:og:type: article
+	:og:description: The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-to-global.ini.html
+	:og:locale: en
+
 
 Fallback To Global
 ------------------

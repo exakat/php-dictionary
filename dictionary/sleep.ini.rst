@@ -1,5 +1,19 @@
 .. _sleep:
 .. _usleep:
+.. meta::
+	:description:
+		sleep: sleep() is a PHP function which stops the execution for a given number of seconds.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: sleep
+	:twitter:description: sleep: sleep() is a PHP function which stops the execution for a given number of seconds
+	:twitter:creator: @exakat
+	:og:title: sleep
+	:og:type: article
+	:og:description: sleep() is a PHP function which stops the execution for a given number of seconds
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sleep.ini.html
+	:og:locale: en
+
 
 sleep
 -----

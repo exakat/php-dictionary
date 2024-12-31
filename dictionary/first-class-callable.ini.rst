@@ -1,4 +1,18 @@
 .. _first-class-callable:
+.. meta::
+	:description:
+		First Class Callable: In PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: First Class Callable
+	:twitter:description: First Class Callable: In PHP 8
+	:twitter:creator: @exakat
+	:og:title: First Class Callable
+	:og:type: article
+	:og:description: In PHP 8
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/first-class-callable.ini.html
+	:og:locale: en
+
 
 First Class Callable
 --------------------

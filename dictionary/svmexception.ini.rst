@@ -1,4 +1,18 @@
 .. _svmexception:
+.. meta::
+	:description:
+		SVMException: The SVMException exception is thrown by the SVM::train() method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SVMException
+	:twitter:description: SVMException: The SVMException exception is thrown by the SVM::train() method
+	:twitter:creator: @exakat
+	:og:title: SVMException
+	:og:type: article
+	:og:description: The SVMException exception is thrown by the SVM::train() method
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/svmexception.ini.html
+	:og:locale: en
+
 
 SVMException
 ------------

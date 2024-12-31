@@ -1,4 +1,18 @@
 .. _false:
+.. meta::
+	:description:
+		False: false has two usages, as PHP keyword : the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: False
+	:twitter:description: False: false has two usages, as PHP keyword : the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true
+	:twitter:creator: @exakat
+	:og:title: False
+	:og:type: article
+	:og:description: false has two usages, as PHP keyword : the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html
+	:og:locale: en
+
 
 False
 -----

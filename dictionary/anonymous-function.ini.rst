@@ -1,4 +1,18 @@
 .. _anonymous-function:
+.. meta::
+	:description:
+		Anonymous Function: A function may be instantiated, without defining a function name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Anonymous Function
+	:twitter:description: Anonymous Function: A function may be instantiated, without defining a function name
+	:twitter:creator: @exakat
+	:og:title: Anonymous Function
+	:og:type: article
+	:og:description: A function may be instantiated, without defining a function name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-function.ini.html
+	:og:locale: en
+
 
 Anonymous Function
 ------------------

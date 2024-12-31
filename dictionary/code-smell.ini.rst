@@ -1,4 +1,18 @@
 .. _code-smell:
+.. meta::
+	:description:
+		Code Smell: A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Code Smell
+	:twitter:description: Code Smell: A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices
+	:twitter:creator: @exakat
+	:og:title: Code Smell
+	:og:type: article
+	:og:description: A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/code-smell.ini.html
+	:og:locale: en
+
 
 Code Smell
 ----------

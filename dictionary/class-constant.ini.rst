@@ -3,6 +3,20 @@
 .. _interface-constant:
 .. _trait-constant:
 .. _enum-constant:
+.. meta::
+	:description:
+		Static Constant: Static constants are constants that are defined inside a class, interface, trait (since PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Constant
+	:twitter:description: Static Constant: Static constants are constants that are defined inside a class, interface, trait (since PHP 8
+	:twitter:creator: @exakat
+	:og:title: Static Constant
+	:og:type: article
+	:og:description: Static constants are constants that are defined inside a class, interface, trait (since PHP 8
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html
+	:og:locale: en
+
 
 Static Constant
 ---------------

@@ -1,4 +1,18 @@
 .. _apm:
+.. meta::
+	:description:
+		Application Performance Management: APM stands for Application Performance Management.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Application Performance Management
+	:twitter:description: Application Performance Management: APM stands for Application Performance Management
+	:twitter:creator: @exakat
+	:og:title: Application Performance Management
+	:og:type: article
+	:og:description: APM stands for Application Performance Management
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/apm.ini.html
+	:og:locale: en
+
 
 Application Performance Management
 ----------------------------------

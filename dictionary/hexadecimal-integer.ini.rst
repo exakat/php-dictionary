@@ -1,5 +1,19 @@
 .. _hexadecimal-integer:
 .. _hexadecimal:
+.. meta::
+	:description:
+		Hexadecimal Integer: Hexadecimal integers are integers with an hexadecimal representation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hexadecimal Integer
+	:twitter:description: Hexadecimal Integer: Hexadecimal integers are integers with an hexadecimal representation
+	:twitter:creator: @exakat
+	:og:title: Hexadecimal Integer
+	:og:type: article
+	:og:description: Hexadecimal integers are integers with an hexadecimal representation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal-integer.ini.html
+	:og:locale: en
+
 
 Hexadecimal Integer
 -------------------

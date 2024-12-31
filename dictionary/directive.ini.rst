@@ -1,4 +1,18 @@
 .. _directive:
+.. meta::
+	:description:
+		Directives: Directives are the configuration option of PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Directives
+	:twitter:description: Directives: Directives are the configuration option of PHP
+	:twitter:creator: @exakat
+	:og:title: Directives
+	:og:type: article
+	:og:description: Directives are the configuration option of PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html
+	:og:locale: en
+
 
 Directives
 ----------

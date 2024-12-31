@@ -1,4 +1,18 @@
 .. _spaceship:
+.. meta::
+	:description:
+		Spaceship Operator: Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Spaceship Operator
+	:twitter:description: Spaceship Operator: Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value
+	:twitter:creator: @exakat
+	:og:title: Spaceship Operator
+	:og:type: article
+	:og:description: Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html
+	:og:locale: en
+
 
 Spaceship Operator
 ------------------

@@ -1,4 +1,18 @@
 .. _loop:
+.. meta::
+	:description:
+		Loops: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Loops
+	:twitter:description: Loops: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition
+	:twitter:creator: @exakat
+	:og:title: Loops
+	:og:type: article
+	:og:description: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html
+	:og:locale: en
+
 
 Loops
 -----

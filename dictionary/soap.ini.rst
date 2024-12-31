@@ -1,4 +1,18 @@
 .. _soap:
+.. meta::
+	:description:
+		SOAP: SOAP is an acronym for Simple Object Access Protocol.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SOAP
+	:twitter:description: SOAP: SOAP is an acronym for Simple Object Access Protocol
+	:twitter:creator: @exakat
+	:og:title: SOAP
+	:og:type: article
+	:og:description: SOAP is an acronym for Simple Object Access Protocol
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/soap.ini.html
+	:og:locale: en
+
 
 SOAP
 ----

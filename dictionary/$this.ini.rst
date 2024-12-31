@@ -1,4 +1,18 @@
 .. _$this:
+.. meta::
+	:description:
+		$this: $this is a variable that represents the current object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $this
+	:twitter:description: $this: $this is a variable that represents the current object
+	:twitter:creator: @exakat
+	:og:title: $this
+	:og:type: article
+	:og:description: $this is a variable that represents the current object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$this.ini.html
+	:og:locale: en
+
 
 $this
 -----

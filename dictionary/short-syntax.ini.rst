@@ -1,4 +1,18 @@
 .. _short-syntax:
+.. meta::
+	:description:
+		Short Syntax: A short syntax is the fusion of an operator with the `=` operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Short Syntax
+	:twitter:description: Short Syntax: A short syntax is the fusion of an operator with the `=` operator
+	:twitter:creator: @exakat
+	:og:title: Short Syntax
+	:og:type: article
+	:og:description: A short syntax is the fusion of an operator with the `=` operator
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/short-syntax.ini.html
+	:og:locale: en
+
 
 Short Syntax
 ------------

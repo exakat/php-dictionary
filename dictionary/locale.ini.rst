@@ -1,4 +1,18 @@
 .. _locale:
+.. meta::
+	:description:
+		Locale: Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Locale
+	:twitter:description: Locale: Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time
+	:twitter:creator: @exakat
+	:og:title: Locale
+	:og:type: article
+	:og:description: Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/locale.ini.html
+	:og:locale: en
+
 
 Locale
 ------

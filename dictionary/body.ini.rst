@@ -1,4 +1,18 @@
 .. _body:
+.. meta::
+	:description:
+		Body: The body, of a function or a command, it the related block that is commanded by the the command.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Body
+	:twitter:description: Body: The body, of a function or a command, it the related block that is commanded by the the command
+	:twitter:creator: @exakat
+	:og:title: Body
+	:og:type: article
+	:og:description: The body, of a function or a command, it the related block that is commanded by the the command
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/body.ini.html
+	:og:locale: en
+
 
 Body
 ----

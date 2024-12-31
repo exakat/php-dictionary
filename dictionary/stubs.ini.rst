@@ -1,4 +1,18 @@
 .. _stubs:
+.. meta::
+	:description:
+		Stubs Files: Stubs files are PHP code, that contains only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Stubs Files
+	:twitter:description: Stubs Files: Stubs files are PHP code, that contains only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code
+	:twitter:creator: @exakat
+	:og:title: Stubs Files
+	:og:type: article
+	:og:description: Stubs files are PHP code, that contains only the definitions of classic PHP structures (functions, constants, classes, interfaces), without any actual code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/stubs.ini.html
+	:og:locale: en
+
 
 Stubs Files
 -----------

@@ -1,5 +1,19 @@
 .. _object-nullsafe-operator:
 .. _nullsafe-operator:
+.. meta::
+	:description:
+		Object Nullsafe Operator ?->: The object nullsafe operator is an operator which gives access to properties and methods of an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object Nullsafe Operator ?->
+	:twitter:description: Object Nullsafe Operator ?->: The object nullsafe operator is an operator which gives access to properties and methods of an object
+	:twitter:creator: @exakat
+	:og:title: Object Nullsafe Operator ?->
+	:og:type: article
+	:og:description: The object nullsafe operator is an operator which gives access to properties and methods of an object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object-nullsafe-operator.ini.html
+	:og:locale: en
+
 
 Object Nullsafe Operator ?->
 ----------------------------

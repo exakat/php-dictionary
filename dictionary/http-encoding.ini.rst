@@ -1,5 +1,19 @@
 .. _http-encoding:
 .. _percent-encoding:
+.. meta::
+	:description:
+		HTTP Encoding: URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTTP Encoding
+	:twitter:description: HTTP Encoding: URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet
+	:twitter:creator: @exakat
+	:og:title: HTTP Encoding
+	:og:type: article
+	:og:description: URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/http-encoding.ini.html
+	:og:locale: en
+
 
 HTTP Encoding
 -------------

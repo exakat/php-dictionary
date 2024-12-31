@@ -1,4 +1,18 @@
 .. _rfc:
+.. meta::
+	:description:
+		RFC: The RFC acronym has several usage :.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: RFC
+	:twitter:description: RFC: The RFC acronym has several usage :
+	:twitter:creator: @exakat
+	:og:title: RFC
+	:og:type: article
+	:og:description: The RFC acronym has several usage :
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rfc.ini.html
+	:og:locale: en
+
 
 RFC
 ---

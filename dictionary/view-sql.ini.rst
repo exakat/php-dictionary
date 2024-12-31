@@ -1,4 +1,18 @@
 .. _view-sql:
+.. meta::
+	:description:
+		SQL Views: Views in a SQL server is a virtual table, build as the result of a SQL query.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SQL Views
+	:twitter:description: SQL Views: Views in a SQL server is a virtual table, build as the result of a SQL query
+	:twitter:creator: @exakat
+	:og:title: SQL Views
+	:og:type: article
+	:og:description: Views in a SQL server is a virtual table, build as the result of a SQL query
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/view-sql.ini.html
+	:og:locale: en
+
 
 SQL Views
 ---------

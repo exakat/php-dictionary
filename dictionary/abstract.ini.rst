@@ -1,4 +1,18 @@
 .. _abstract:
+.. meta::
+	:description:
+		Abstract Keyword: PHP has abstract classes and methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Keyword
+	:twitter:description: Abstract Keyword: PHP has abstract classes and methods
+	:twitter:creator: @exakat
+	:og:title: Abstract Keyword
+	:og:type: article
+	:og:description: PHP has abstract classes and methods
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html
+	:og:locale: en
+
 
 Abstract Keyword
 ----------------

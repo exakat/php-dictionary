@@ -1,4 +1,18 @@
 .. _jsonexception:
+.. meta::
+	:description:
+		JsonException: Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_decode().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: JsonException
+	:twitter:description: JsonException: Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_decode()
+	:twitter:creator: @exakat
+	:og:title: JsonException
+	:og:type: article
+	:og:description: Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_decode()
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html
+	:og:locale: en
+
 
 JsonException
 -------------

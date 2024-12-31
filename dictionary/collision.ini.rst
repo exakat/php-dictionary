@@ -1,5 +1,19 @@
 .. _collision:
 .. _name-collision:
+.. meta::
+	:description:
+		Collision: A collision happens when two entities of the same type have two distinct definitions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collision
+	:twitter:description: Collision: A collision happens when two entities of the same type have two distinct definitions
+	:twitter:creator: @exakat
+	:og:title: Collision
+	:og:type: article
+	:og:description: A collision happens when two entities of the same type have two distinct definitions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/collision.ini.html
+	:og:locale: en
+
 
 Collision
 ---------

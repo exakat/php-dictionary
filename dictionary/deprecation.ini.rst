@@ -1,5 +1,19 @@
 .. _deprecation:
 .. _obsolete:
+.. meta::
+	:description:
+		Deprecation: Deprecation is the state of a feature which is still available, but not recommended anymore.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deprecation
+	:twitter:description: Deprecation: Deprecation is the state of a feature which is still available, but not recommended anymore
+	:twitter:creator: @exakat
+	:og:title: Deprecation
+	:og:type: article
+	:og:description: Deprecation is the state of a feature which is still available, but not recommended anymore
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecation.ini.html
+	:og:locale: en
+
 
 Deprecation
 -----------

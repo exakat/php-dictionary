@@ -1,4 +1,18 @@
 .. _pipeline:
+.. meta::
+	:description:
+		Pipeline: A pipeline is a chain of steps that composes a sequential set of actions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Pipeline
+	:twitter:description: Pipeline: A pipeline is a chain of steps that composes a sequential set of actions
+	:twitter:creator: @exakat
+	:og:title: Pipeline
+	:og:type: article
+	:og:description: A pipeline is a chain of steps that composes a sequential set of actions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/pipeline.ini.html
+	:og:locale: en
+
 
 Pipeline
 --------

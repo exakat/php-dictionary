@@ -1,4 +1,18 @@
 .. _$_cookie:
+.. meta::
+	:description:
+		$_COOKIE: The ``$_COOKIE`` variable is a special superglobal variable that stores the name and values of the cookies that were transmitted to the webserver.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $_COOKIE
+	:twitter:description: $_COOKIE: The ``$_COOKIE`` variable is a special superglobal variable that stores the name and values of the cookies that were transmitted to the webserver
+	:twitter:creator: @exakat
+	:og:title: $_COOKIE
+	:og:type: article
+	:og:description: The ``$_COOKIE`` variable is a special superglobal variable that stores the name and values of the cookies that were transmitted to the webserver
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_cookie.ini.html
+	:og:locale: en
+
 
 $_COOKIE
 --------

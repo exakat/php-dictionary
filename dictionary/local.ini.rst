@@ -1,5 +1,19 @@
 .. _local:
 .. _local-scope:
+.. meta::
+	:description:
+		Local Scope: The local scope is the scope inside a function or method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Local Scope
+	:twitter:description: Local Scope: The local scope is the scope inside a function or method
+	:twitter:creator: @exakat
+	:og:title: Local Scope
+	:og:type: article
+	:og:description: The local scope is the scope inside a function or method
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/local.ini.html
+	:og:locale: en
+
 
 Local Scope
 -----------

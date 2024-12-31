@@ -1,4 +1,18 @@
 .. _task-runner:
+.. meta::
+	:description:
+		Task Runner: A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Task Runner
+	:twitter:description: Task Runner: A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications
+	:twitter:creator: @exakat
+	:og:title: Task Runner
+	:og:type: article
+	:og:description: A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/task-runner.ini.html
+	:og:locale: en
+
 
 Task Runner
 -----------

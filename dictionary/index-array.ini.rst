@@ -1,5 +1,19 @@
 .. _index-array:
 .. _key:
+.. meta::
+	:description:
+		Index For Arrays: A index is the identifier of an specific element in an array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Index For Arrays
+	:twitter:description: Index For Arrays: A index is the identifier of an specific element in an array
+	:twitter:creator: @exakat
+	:og:title: Index For Arrays
+	:og:type: article
+	:og:description: A index is the identifier of an specific element in an array
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html
+	:og:locale: en
+
 
 Index For Arrays
 ----------------

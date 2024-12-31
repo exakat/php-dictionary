@@ -1,4 +1,18 @@
 .. _generics:
+.. meta::
+	:description:
+		Generics: Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Generics
+	:twitter:description: Generics: Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level
+	:twitter:creator: @exakat
+	:og:title: Generics
+	:og:type: article
+	:og:description: Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/generics.ini.html
+	:og:locale: en
+
 
 Generics
 --------

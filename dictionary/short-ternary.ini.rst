@@ -1,5 +1,19 @@
 .. _short-ternary:
 .. _short-ternary-operator:
+.. meta::
+	:description:
+		Short Ternary Operator: The expression ``(expr1) .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Short Ternary Operator
+	:twitter:description: Short Ternary Operator: The expression ``(expr1) 
+	:twitter:creator: @exakat
+	:og:title: Short Ternary Operator
+	:og:type: article
+	:og:description: The expression ``(expr1) 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/short-ternary.ini.html
+	:og:locale: en
+
 
 Short Ternary Operator
 ----------------------

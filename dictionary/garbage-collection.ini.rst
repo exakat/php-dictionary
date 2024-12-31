@@ -1,5 +1,19 @@
 .. _garbage-collection:
 .. _gc:
+.. meta::
+	:description:
+		Garbage Collection: Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Garbage Collection
+	:twitter:description: Garbage Collection: Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values
+	:twitter:creator: @exakat
+	:og:title: Garbage Collection
+	:og:type: article
+	:og:description: Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/garbage-collection.ini.html
+	:og:locale: en
+
 
 Garbage Collection
 ------------------

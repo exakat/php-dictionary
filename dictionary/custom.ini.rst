@@ -1,4 +1,18 @@
 .. _custom:
+.. meta::
+	:description:
+		Custom: A feature is called 'custom' when it is not part of the standard installation of PHP, any PHP extension or a publish library.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Custom
+	:twitter:description: Custom: A feature is called 'custom' when it is not part of the standard installation of PHP, any PHP extension or a publish library
+	:twitter:creator: @exakat
+	:og:title: Custom
+	:og:type: article
+	:og:description: A feature is called 'custom' when it is not part of the standard installation of PHP, any PHP extension or a publish library
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/custom.ini.html
+	:og:locale: en
+
 
 Custom
 ------

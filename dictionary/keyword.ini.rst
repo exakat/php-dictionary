@@ -1,4 +1,18 @@
 .. _keyword:
+.. meta::
+	:description:
+		Keyword: PHP has a list of keywords, which are also called reserved words.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Keyword
+	:twitter:description: Keyword: PHP has a list of keywords, which are also called reserved words
+	:twitter:creator: @exakat
+	:og:title: Keyword
+	:og:type: article
+	:og:description: PHP has a list of keywords, which are also called reserved words
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/keyword.ini.html
+	:og:locale: en
+
 
 Keyword
 -------

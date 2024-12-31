@@ -1,5 +1,19 @@
 .. _serialization:
 .. _serialize:
+.. meta::
+	:description:
+		Serialization: Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Serialization
+	:twitter:description: Serialization: Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later
+	:twitter:creator: @exakat
+	:og:title: Serialization
+	:og:type: article
+	:og:description: Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html
+	:og:locale: en
+
 
 Serialization
 -------------

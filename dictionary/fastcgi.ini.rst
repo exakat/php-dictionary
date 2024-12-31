@@ -1,4 +1,18 @@
 .. _fastcgi:
+.. meta::
+	:description:
+		FastCGI: CGI stands for fast CGI, so fast Common Interface Gateway.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: FastCGI
+	:twitter:description: FastCGI: CGI stands for fast CGI, so fast Common Interface Gateway
+	:twitter:creator: @exakat
+	:og:title: FastCGI
+	:og:type: article
+	:og:description: CGI stands for fast CGI, so fast Common Interface Gateway
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fastcgi.ini.html
+	:og:locale: en
+
 
 FastCGI
 -------

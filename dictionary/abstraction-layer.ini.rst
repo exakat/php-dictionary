@@ -1,4 +1,18 @@
 .. _abstraction-layer:
+.. meta::
+	:description:
+		Abstraction Layer: An abstraction layer is a piece of software that offer the same API to access multiple similar components.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstraction Layer
+	:twitter:description: Abstraction Layer: An abstraction layer is a piece of software that offer the same API to access multiple similar components
+	:twitter:creator: @exakat
+	:og:title: Abstraction Layer
+	:og:type: article
+	:og:description: An abstraction layer is a piece of software that offer the same API to access multiple similar components
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/abstraction-layer.ini.html
+	:og:locale: en
+
 
 Abstraction Layer
 -----------------

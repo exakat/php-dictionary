@@ -1,4 +1,18 @@
 .. _dowhile:
+.. meta::
+	:description:
+		Do...while: Do.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Do...while
+	:twitter:description: Do...while: Do
+	:twitter:creator: @exakat
+	:og:title: Do...while
+	:og:type: article
+	:og:description: Do
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dowhile.ini.html
+	:og:locale: en
+
 
 Do...while
 ----------

@@ -1,4 +1,18 @@
 .. _compact-array:
+.. meta::
+	:description:
+		Compact Array: An array is compact if it only uses automated indices, starting with 0.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Compact Array
+	:twitter:description: Compact Array: An array is compact if it only uses automated indices, starting with 0
+	:twitter:creator: @exakat
+	:og:title: Compact Array
+	:og:type: article
+	:og:description: An array is compact if it only uses automated indices, starting with 0
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/compact-array.ini.html
+	:og:locale: en
+
 
 Compact Array
 -------------

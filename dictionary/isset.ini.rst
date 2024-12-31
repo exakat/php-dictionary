@@ -1,4 +1,18 @@
 .. _isset:
+.. meta::
+	:description:
+		Isset: isset() is a function that determines if a variable is declared and is different than null.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Isset
+	:twitter:description: Isset: isset() is a function that determines if a variable is declared and is different than null
+	:twitter:creator: @exakat
+	:og:title: Isset
+	:og:type: article
+	:og:description: isset() is a function that determines if a variable is declared and is different than null
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html
+	:og:locale: en
+
 
 Isset
 -----

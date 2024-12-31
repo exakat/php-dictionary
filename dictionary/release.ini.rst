@@ -1,4 +1,18 @@
 .. _release:
+.. meta::
+	:description:
+		Release: A release is a final version of a software.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Release
+	:twitter:description: Release: A release is a final version of a software
+	:twitter:creator: @exakat
+	:og:title: Release
+	:og:type: article
+	:og:description: A release is a final version of a software
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/release.ini.html
+	:og:locale: en
+
 
 Release
 -------

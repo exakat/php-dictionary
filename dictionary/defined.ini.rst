@@ -1,4 +1,18 @@
 .. _defined:
+.. meta::
+	:description:
+		defined(): defined() is a PHP function, that checks if a constant or a class constant is defined in the current context of execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: defined()
+	:twitter:description: defined(): defined() is a PHP function, that checks if a constant or a class constant is defined in the current context of execution
+	:twitter:creator: @exakat
+	:og:title: defined()
+	:og:type: article
+	:og:description: defined() is a PHP function, that checks if a constant or a class constant is defined in the current context of execution
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/defined.ini.html
+	:og:locale: en
+
 
 defined()
 ---------

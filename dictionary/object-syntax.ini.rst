@@ -1,4 +1,18 @@
 .. _object-syntax:
+.. meta::
+	:description:
+		Object Syntax: The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::\.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object Syntax
+	:twitter:description: Object Syntax: The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::\
+	:twitter:creator: @exakat
+	:og:title: Object Syntax
+	:og:type: article
+	:og:description: The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::\
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object-syntax.ini.html
+	:og:locale: en
+
 
 Object Syntax
 -------------

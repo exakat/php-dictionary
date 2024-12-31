@@ -1,4 +1,18 @@
 .. _control-structure:
+.. meta::
+	:description:
+		Control Structures: Control structures are PHP statements that control the flow of execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Control Structures
+	:twitter:description: Control Structures: Control structures are PHP statements that control the flow of execution
+	:twitter:creator: @exakat
+	:og:title: Control Structures
+	:og:type: article
+	:og:description: Control structures are PHP statements that control the flow of execution
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/control-structure.ini.html
+	:og:locale: en
+
 
 Control Structures
 ------------------

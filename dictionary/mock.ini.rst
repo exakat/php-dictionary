@@ -1,4 +1,18 @@
 .. _mock:
+.. meta::
+	:description:
+		Mock: A mock replaces a code dependency with an object, to make testing easier.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mock
+	:twitter:description: Mock: A mock replaces a code dependency with an object, to make testing easier
+	:twitter:creator: @exakat
+	:og:title: Mock
+	:og:type: article
+	:og:description: A mock replaces a code dependency with an object, to make testing easier
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mock.ini.html
+	:og:locale: en
+
 
 Mock
 ----

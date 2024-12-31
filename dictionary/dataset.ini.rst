@@ -1,4 +1,18 @@
 .. _dataset:
+.. meta::
+	:description:
+		Dataset: A dataset is an organized collection of data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dataset
+	:twitter:description: Dataset: A dataset is an organized collection of data
+	:twitter:creator: @exakat
+	:og:title: Dataset
+	:og:type: article
+	:og:description: A dataset is an organized collection of data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dataset.ini.html
+	:og:locale: en
+
 
 Dataset
 -------

@@ -1,4 +1,18 @@
 .. _divisionbyzeroerror:
+.. meta::
+	:description:
+		DivisionByZeroError: DivisionByZeroError is thrown when an attempt is made to divide a number by zero.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: DivisionByZeroError
+	:twitter:description: DivisionByZeroError: DivisionByZeroError is thrown when an attempt is made to divide a number by zero
+	:twitter:creator: @exakat
+	:og:title: DivisionByZeroError
+	:og:type: article
+	:og:description: DivisionByZeroError is thrown when an attempt is made to divide a number by zero
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/divisionbyzeroerror.ini.html
+	:og:locale: en
+
 
 DivisionByZeroError
 -------------------

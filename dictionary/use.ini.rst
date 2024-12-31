@@ -1,4 +1,18 @@
 .. _use:
+.. meta::
+	:description:
+		Use: The use operator has three distinct usages.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use
+	:twitter:description: Use: The use operator has three distinct usages
+	:twitter:creator: @exakat
+	:og:title: Use
+	:og:type: article
+	:og:description: The use operator has three distinct usages
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html
+	:og:locale: en
+
 
 Use
 ---

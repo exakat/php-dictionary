@@ -1,4 +1,18 @@
 .. _public:
+.. meta::
+	:description:
+		Public Visibility: The `public` keyword is part of the three keywords to define visibility of a method, property or constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Public Visibility
+	:twitter:description: Public Visibility: The `public` keyword is part of the three keywords to define visibility of a method, property or constant
+	:twitter:creator: @exakat
+	:og:title: Public Visibility
+	:og:type: article
+	:og:description: The `public` keyword is part of the three keywords to define visibility of a method, property or constant
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/public.ini.html
+	:og:locale: en
+
 
 Public Visibility
 -----------------

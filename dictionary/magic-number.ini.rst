@@ -1,4 +1,18 @@
 .. _magic-number:
+.. meta::
+	:description:
+		Magic Numbers: A magic number is a number that appears in the code, and has no obvious signification.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic Numbers
+	:twitter:description: Magic Numbers: A magic number is a number that appears in the code, and has no obvious signification
+	:twitter:creator: @exakat
+	:og:title: Magic Numbers
+	:og:type: article
+	:og:description: A magic number is a number that appears in the code, and has no obvious signification
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-number.ini.html
+	:og:locale: en
+
 
 Magic Numbers
 -------------

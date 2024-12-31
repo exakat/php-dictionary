@@ -1,4 +1,18 @@
 .. _view:
+.. meta::
+	:description:
+		View: A view may be several things: .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: View
+	:twitter:description: View: A view may be several things: 
+	:twitter:creator: @exakat
+	:og:title: View
+	:og:type: article
+	:og:description: A view may be several things: 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/view.ini.html
+	:og:locale: en
+
 
 View
 ----

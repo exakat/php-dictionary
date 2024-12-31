@@ -1,4 +1,18 @@
 .. _protected:
+.. meta::
+	:description:
+		Protected Visibility: The protected keyword is part of the three keywords to define visibility of a method, property or constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Protected Visibility
+	:twitter:description: Protected Visibility: The protected keyword is part of the three keywords to define visibility of a method, property or constant
+	:twitter:creator: @exakat
+	:og:title: Protected Visibility
+	:og:type: article
+	:og:description: The protected keyword is part of the three keywords to define visibility of a method, property or constant
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/protected.ini.html
+	:og:locale: en
+
 
 Protected Visibility
 --------------------

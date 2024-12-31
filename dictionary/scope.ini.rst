@@ -1,5 +1,19 @@
 .. _scope:
 .. _context:
+.. meta::
+	:description:
+		Scope: The scope, also called context, is the space in which a certain elements are defined.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scope
+	:twitter:description: Scope: The scope, also called context, is the space in which a certain elements are defined
+	:twitter:creator: @exakat
+	:og:title: Scope
+	:og:type: article
+	:og:description: The scope, also called context, is the space in which a certain elements are defined
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/scope.ini.html
+	:og:locale: en
+
 
 Scope
 -----

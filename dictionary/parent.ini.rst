@@ -1,5 +1,19 @@
 .. _parent:
 .. _parent-class:
+.. meta::
+	:description:
+		parent: parent is one of the three special keywords that are used to access properties or methods from inside the class definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: parent
+	:twitter:description: parent: parent is one of the three special keywords that are used to access properties or methods from inside the class definition
+	:twitter:creator: @exakat
+	:og:title: parent
+	:og:type: article
+	:og:description: parent is one of the three special keywords that are used to access properties or methods from inside the class definition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html
+	:og:locale: en
+
 
 parent
 ------

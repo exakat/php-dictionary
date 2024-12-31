@@ -1,4 +1,18 @@
 .. _migration:
+.. meta::
+	:description:
+		Migration: Migration is the incremental upgrade of a piece of code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Migration
+	:twitter:description: Migration: Migration is the incremental upgrade of a piece of code
+	:twitter:creator: @exakat
+	:og:title: Migration
+	:og:type: article
+	:og:description: Migration is the incremental upgrade of a piece of code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/migration.ini.html
+	:og:locale: en
+
 
 Migration
 ---------

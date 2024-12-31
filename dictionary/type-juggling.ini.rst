@@ -1,4 +1,18 @@
 .. _type-juggling:
+.. meta::
+	:description:
+		Type Juggling: Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type Juggling
+	:twitter:description: Type Juggling: Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation
+	:twitter:creator: @exakat
+	:og:title: Type Juggling
+	:og:type: article
+	:og:description: Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html
+	:og:locale: en
+
 
 Type Juggling
 -------------

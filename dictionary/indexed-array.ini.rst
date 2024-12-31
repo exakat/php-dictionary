@@ -1,4 +1,18 @@
 .. _indexed-array:
+.. meta::
+	:description:
+		Indexed Array: An indexed array is an array whose keys are only integers.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Indexed Array
+	:twitter:description: Indexed Array: An indexed array is an array whose keys are only integers
+	:twitter:creator: @exakat
+	:og:title: Indexed Array
+	:og:type: article
+	:og:description: An indexed array is an array whose keys are only integers
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/indexed-array.ini.html
+	:og:locale: en
+
 
 Indexed Array
 -------------

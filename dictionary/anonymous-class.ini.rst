@@ -1,4 +1,18 @@
 .. _anonymous-class:
+.. meta::
+	:description:
+		Anonymous Class: A class may be instantiated, without defining a class name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Anonymous Class
+	:twitter:description: Anonymous Class: A class may be instantiated, without defining a class name
+	:twitter:creator: @exakat
+	:og:title: Anonymous Class
+	:og:type: article
+	:og:description: A class may be instantiated, without defining a class name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-class.ini.html
+	:og:locale: en
+
 
 Anonymous Class
 ---------------

@@ -1,4 +1,18 @@
 .. _query:
+.. meta::
+	:description:
+		Query: Query is a generic term in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Query
+	:twitter:description: Query: Query is a generic term in PHP
+	:twitter:creator: @exakat
+	:og:title: Query
+	:og:type: article
+	:og:description: Query is a generic term in PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/query.ini.html
+	:og:locale: en
+
 
 Query
 -----

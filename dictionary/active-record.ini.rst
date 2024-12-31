@@ -1,4 +1,18 @@
 .. _active-record:
+.. meta::
+	:description:
+		Active Record: Active Record is a design pattern commonly used in PHP development.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Active Record
+	:twitter:description: Active Record: Active Record is a design pattern commonly used in PHP development
+	:twitter:creator: @exakat
+	:og:title: Active Record
+	:og:type: article
+	:og:description: Active Record is a design pattern commonly used in PHP development
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/active-record.ini.html
+	:og:locale: en
+
 
 Active Record
 -------------

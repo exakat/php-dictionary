@@ -1,4 +1,18 @@
 .. _string:
+.. meta::
+	:description:
+		String: A string is series of characters, where a character is the same as a byte.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: String
+	:twitter:description: String: A string is series of characters, where a character is the same as a byte
+	:twitter:creator: @exakat
+	:og:title: String
+	:og:type: article
+	:og:description: A string is series of characters, where a character is the same as a byte
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html
+	:og:locale: en
+
 
 String
 ------

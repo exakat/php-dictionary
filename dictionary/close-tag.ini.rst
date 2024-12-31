@@ -1,4 +1,18 @@
 .. _close-tag:
+.. meta::
+	:description:
+		Close Tag: PHP commands are placed between the PHP tags : ``<.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Close Tag
+	:twitter:description: Close Tag: PHP commands are placed between the PHP tags : ``<
+	:twitter:creator: @exakat
+	:og:title: Close Tag
+	:og:type: article
+	:og:description: PHP commands are placed between the PHP tags : ``<
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html
+	:og:locale: en
+
 
 Close Tag
 ---------

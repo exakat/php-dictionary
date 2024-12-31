@@ -1,4 +1,18 @@
 .. _arrayobject:
+.. meta::
+	:description:
+		ArrayObject: ``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ArrayObject
+	:twitter:description: ArrayObject: ``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object
+	:twitter:creator: @exakat
+	:og:title: ArrayObject
+	:og:type: article
+	:og:description: ``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayobject.ini.html
+	:og:locale: en
+
 
 ArrayObject
 -----------

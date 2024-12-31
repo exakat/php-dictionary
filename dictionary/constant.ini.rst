@@ -1,5 +1,19 @@
 .. _constant:
 .. _global-constant:
+.. meta::
+	:description:
+		Constants: Constants are named values, that never change.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants
+	:twitter:description: Constants: Constants are named values, that never change
+	:twitter:creator: @exakat
+	:og:title: Constants
+	:og:type: article
+	:og:description: Constants are named values, that never change
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html
+	:og:locale: en
+
 
 Constants
 ---------

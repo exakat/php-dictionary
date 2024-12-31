@@ -1,4 +1,18 @@
 .. _dangling-reference:
+.. meta::
+	:description:
+		Dangling Reference: In a foreach loop, a variable is used for looping through the array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dangling Reference
+	:twitter:description: Dangling Reference: In a foreach loop, a variable is used for looping through the array
+	:twitter:creator: @exakat
+	:og:title: Dangling Reference
+	:og:type: article
+	:og:description: In a foreach loop, a variable is used for looping through the array
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dangling-reference.ini.html
+	:og:locale: en
+
 
 Dangling Reference
 ------------------

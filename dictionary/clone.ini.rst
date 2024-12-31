@@ -1,4 +1,18 @@
 .. _clone:
+.. meta::
+	:description:
+		Clone: Clone makes a duplicate of an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Clone
+	:twitter:description: Clone: Clone makes a duplicate of an object
+	:twitter:creator: @exakat
+	:og:title: Clone
+	:og:type: article
+	:og:description: Clone makes a duplicate of an object
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html
+	:og:locale: en
+
 
 Clone
 -----

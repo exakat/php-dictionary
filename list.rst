@@ -653,6 +653,7 @@ Index
    dictionary/short-tag.ini
    dictionary/short-ternary.ini
    dictionary/shutdown-function.ini
+   dictionary/sign.ini
    dictionary/signature.ini
    dictionary/silent.ini
    dictionary/simple-switch.ini

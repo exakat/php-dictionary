@@ -1,4 +1,18 @@
 .. _ellipsis:
+.. meta::
+	:description:
+		Ellipsis: Ellipsis operator is the `.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ellipsis
+	:twitter:description: Ellipsis: Ellipsis operator is the `
+	:twitter:creator: @exakat
+	:og:title: Ellipsis
+	:og:type: article
+	:og:description: Ellipsis operator is the `
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html
+	:og:locale: en
+
 
 Ellipsis
 --------

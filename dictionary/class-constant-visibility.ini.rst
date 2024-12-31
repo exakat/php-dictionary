@@ -1,4 +1,18 @@
 .. _class-constant-visibility:
+.. meta::
+	:description:
+		Class Constants Visibility: Class constant may have a visibility option.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Constants Visibility
+	:twitter:description: Class Constants Visibility: Class constant may have a visibility option
+	:twitter:creator: @exakat
+	:og:title: Class Constants Visibility
+	:og:type: article
+	:og:description: Class constant may have a visibility option
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant-visibility.ini.html
+	:og:locale: en
+
 
 Class Constants Visibility
 --------------------------

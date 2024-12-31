@@ -1,4 +1,18 @@
 .. _composition:
+.. meta::
+	:description:
+		Composition: Composition is the creation of new classes, by including other classes, and delivering a specific interface over them.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Composition
+	:twitter:description: Composition: Composition is the creation of new classes, by including other classes, and delivering a specific interface over them
+	:twitter:creator: @exakat
+	:og:title: Composition
+	:og:type: article
+	:og:description: Composition is the creation of new classes, by including other classes, and delivering a specific interface over them
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/composition.ini.html
+	:og:locale: en
+
 
 Composition
 -----------

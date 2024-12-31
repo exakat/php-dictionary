@@ -1,4 +1,18 @@
 .. _var_dump:
+.. meta::
+	:description:
+		var_dump(): var_dump() displays the information in a variable or any data container.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: var_dump()
+	:twitter:description: var_dump(): var_dump() displays the information in a variable or any data container
+	:twitter:creator: @exakat
+	:og:title: var_dump()
+	:og:type: article
+	:og:description: var_dump() displays the information in a variable or any data container
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/var_dump.ini.html
+	:og:locale: en
+
 
 var_dump()
 ----------

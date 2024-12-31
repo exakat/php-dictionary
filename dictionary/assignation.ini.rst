@@ -1,5 +1,19 @@
 .. _assignation:
 .. _assignement:
+.. meta::
+	:description:
+		Assignations: Assignation refers to the process of assigning a value to a variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Assignations
+	:twitter:description: Assignations: Assignation refers to the process of assigning a value to a variable
+	:twitter:creator: @exakat
+	:og:title: Assignations
+	:og:type: article
+	:og:description: Assignation refers to the process of assigning a value to a variable
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html
+	:og:locale: en
+
 
 Assignations
 ------------

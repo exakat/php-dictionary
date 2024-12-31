@@ -1,4 +1,18 @@
 .. _eval:
+.. meta::
+	:description:
+		Eval(): The eval() function executes a string as a PHP code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Eval()
+	:twitter:description: Eval(): The eval() function executes a string as a PHP code
+	:twitter:creator: @exakat
+	:og:title: Eval()
+	:og:type: article
+	:og:description: The eval() function executes a string as a PHP code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html
+	:og:locale: en
+
 
 Eval()
 ------

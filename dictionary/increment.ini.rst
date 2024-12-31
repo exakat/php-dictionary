@@ -1,4 +1,18 @@
 .. _increment:
+.. meta::
+	:description:
+		Increment: Increment generally refers to the process of increasing or adding a small amount to a value, or simply one unit.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Increment
+	:twitter:description: Increment: Increment generally refers to the process of increasing or adding a small amount to a value, or simply one unit
+	:twitter:creator: @exakat
+	:og:title: Increment
+	:og:type: article
+	:og:description: Increment generally refers to the process of increasing or adding a small amount to a value, or simply one unit
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/increment.ini.html
+	:og:locale: en
+
 
 Increment
 ---------

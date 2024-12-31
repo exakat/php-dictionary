@@ -1,4 +1,18 @@
 .. _wrapper-php:
+.. meta::
+	:description:
+		PHP Wrapper: A Wrapper is a custom way to access remote resources.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Wrapper
+	:twitter:description: PHP Wrapper: A Wrapper is a custom way to access remote resources
+	:twitter:creator: @exakat
+	:og:title: PHP Wrapper
+	:og:type: article
+	:og:description: A Wrapper is a custom way to access remote resources
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-php.ini.html
+	:og:locale: en
+
 
 PHP Wrapper
 -----------

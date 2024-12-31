@@ -1,4 +1,18 @@
 .. _whitespace:
+.. meta::
+	:description:
+		Whitespace: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Whitespace
+	:twitter:description: Whitespace: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name
+	:twitter:creator: @exakat
+	:og:title: Whitespace
+	:og:type: article
+	:og:description: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html
+	:og:locale: en
+
 
 Whitespace
 ----------

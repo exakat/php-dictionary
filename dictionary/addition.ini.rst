@@ -1,4 +1,18 @@
 .. _addition:
+.. meta::
+	:description:
+		Addition: PHP additions apply to two different types : numbers and arrays.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Addition
+	:twitter:description: Addition: PHP additions apply to two different types : numbers and arrays
+	:twitter:creator: @exakat
+	:og:title: Addition
+	:og:type: article
+	:og:description: PHP additions apply to two different types : numbers and arrays
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html
+	:og:locale: en
+
 
 Addition
 --------

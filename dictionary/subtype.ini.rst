@@ -1,4 +1,18 @@
 .. _subtype:
+.. meta::
+	:description:
+		subtype: A subtype is any of the child types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: subtype
+	:twitter:description: subtype: A subtype is any of the child types
+	:twitter:creator: @exakat
+	:og:title: subtype
+	:og:type: article
+	:og:description: A subtype is any of the child types
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/subtype.ini.html
+	:og:locale: en
+
 
 subtype
 -------

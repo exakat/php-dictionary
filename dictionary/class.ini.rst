@@ -1,4 +1,18 @@
 .. _class:
+.. meta::
+	:description:
+		Classes: Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Classes
+	:twitter:description: Classes: Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class
+	:twitter:creator: @exakat
+	:og:title: Classes
+	:og:type: article
+	:og:description: Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html
+	:og:locale: en
+
 
 Classes
 -------

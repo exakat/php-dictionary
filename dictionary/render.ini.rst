@@ -1,4 +1,18 @@
 .. _render:
+.. meta::
+	:description:
+		Rendering: Rendering is the action to take a template and its related data, to produce a target format.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rendering
+	:twitter:description: Rendering: Rendering is the action to take a template and its related data, to produce a target format
+	:twitter:creator: @exakat
+	:og:title: Rendering
+	:og:type: article
+	:og:description: Rendering is the action to take a template and its related data, to produce a target format
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/render.ini.html
+	:og:locale: en
+
 
 Rendering
 ---------

@@ -1,4 +1,18 @@
 .. _wrapper-designpattern:
+.. meta::
+	:description:
+		Design Pattern Wrapper: A wrapper is also a design pattern, also called an adaptor.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Design Pattern Wrapper
+	:twitter:description: Design Pattern Wrapper: A wrapper is also a design pattern, also called an adaptor
+	:twitter:creator: @exakat
+	:og:title: Design Pattern Wrapper
+	:og:type: article
+	:og:description: A wrapper is also a design pattern, also called an adaptor
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-designpattern.ini.html
+	:og:locale: en
+
 
 Design Pattern Wrapper
 ----------------------

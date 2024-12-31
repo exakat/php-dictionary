@@ -1,4 +1,18 @@
 .. _destructor:
+.. meta::
+	:description:
+		Destructor: The destructor is a special method in a class, which is called at shutdown of an object, in order to do any last minute cleaning.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Destructor
+	:twitter:description: Destructor: The destructor is a special method in a class, which is called at shutdown of an object, in order to do any last minute cleaning
+	:twitter:creator: @exakat
+	:og:title: Destructor
+	:og:type: article
+	:og:description: The destructor is a special method in a class, which is called at shutdown of an object, in order to do any last minute cleaning
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/destructor.ini.html
+	:og:locale: en
+
 
 Destructor
 ----------

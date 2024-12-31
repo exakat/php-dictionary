@@ -1,4 +1,18 @@
 .. _error-reporting:
+.. meta::
+	:description:
+		Error Reporting: Error reporting is both a feature, a directive and a PHP native function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Error Reporting
+	:twitter:description: Error Reporting: Error reporting is both a feature, a directive and a PHP native function
+	:twitter:creator: @exakat
+	:og:title: Error Reporting
+	:og:type: article
+	:og:description: Error reporting is both a feature, a directive and a PHP native function
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/error-reporting.ini.html
+	:og:locale: en
+
 
 Error Reporting
 ---------------

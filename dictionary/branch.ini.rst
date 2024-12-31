@@ -1,4 +1,18 @@
 .. _branch:
+.. meta::
+	:description:
+		Branch: A branch is one of the two alternative in a if then expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Branch
+	:twitter:description: Branch: A branch is one of the two alternative in a if then expression
+	:twitter:creator: @exakat
+	:og:title: Branch
+	:og:type: article
+	:og:description: A branch is one of the two alternative in a if then expression
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html
+	:og:locale: en
+
 
 Branch
 ------

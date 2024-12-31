@@ -1,4 +1,18 @@
 .. _use-alias:
+.. meta::
+	:description:
+		Use Alias: The use operator can create aliases for a class, function or constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Alias
+	:twitter:description: Use Alias: The use operator can create aliases for a class, function or constant
+	:twitter:creator: @exakat
+	:og:title: Use Alias
+	:og:type: article
+	:og:description: The use operator can create aliases for a class, function or constant
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html
+	:og:locale: en
+
 
 Use Alias
 ---------

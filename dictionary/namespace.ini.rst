@@ -1,4 +1,18 @@
 .. _namespace:
+.. meta::
+	:description:
+		Namespaces: In PHP, namespaces are a way to encapsulate items like classes, interfaces, enumerations, traits, functions, and constants, preventing naming conflicts between different parts of a program.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Namespaces
+	:twitter:description: Namespaces: In PHP, namespaces are a way to encapsulate items like classes, interfaces, enumerations, traits, functions, and constants, preventing naming conflicts between different parts of a program
+	:twitter:creator: @exakat
+	:og:title: Namespaces
+	:og:type: article
+	:og:description: In PHP, namespaces are a way to encapsulate items like classes, interfaces, enumerations, traits, functions, and constants, preventing naming conflicts between different parts of a program
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html
+	:og:locale: en
+
 
 Namespaces
 ----------

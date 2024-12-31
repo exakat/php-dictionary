@@ -1,4 +1,18 @@
 .. _variable_order:
+.. meta::
+	:description:
+		variable_order: The ``variable_order`` directive sets the order in which the values are assigned to the `$_REQUEST` variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: variable_order
+	:twitter:description: variable_order: The ``variable_order`` directive sets the order in which the values are assigned to the `$_REQUEST` variable
+	:twitter:creator: @exakat
+	:og:title: variable_order
+	:og:type: article
+	:og:description: The ``variable_order`` directive sets the order in which the values are assigned to the `$_REQUEST` variable
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/variable_order.ini.html
+	:og:locale: en
+
 
 variable_order
 --------------

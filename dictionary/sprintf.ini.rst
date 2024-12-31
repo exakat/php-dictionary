@@ -1,6 +1,20 @@
 .. _sprintf:
 .. _vprintf:
 .. _printf:
+.. meta::
+	:description:
+		sprintf: sprintf() is a PHP native function, which format a string based on a format string, and one or more values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: sprintf
+	:twitter:description: sprintf: sprintf() is a PHP native function, which format a string based on a format string, and one or more values
+	:twitter:creator: @exakat
+	:og:title: sprintf
+	:og:type: article
+	:og:description: sprintf() is a PHP native function, which format a string based on a format string, and one or more values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sprintf.ini.html
+	:og:locale: en
+
 
 sprintf
 -------

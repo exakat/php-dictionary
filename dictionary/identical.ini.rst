@@ -1,4 +1,18 @@
 .. _identical:
+.. meta::
+	:description:
+		Identical Operator: Identical is the state of two variables, which contains the same data, with the same type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Identical Operator
+	:twitter:description: Identical Operator: Identical is the state of two variables, which contains the same data, with the same type
+	:twitter:creator: @exakat
+	:og:title: Identical Operator
+	:og:type: article
+	:og:description: Identical is the state of two variables, which contains the same data, with the same type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/identical.ini.html
+	:og:locale: en
+
 
 Identical Operator
 ------------------

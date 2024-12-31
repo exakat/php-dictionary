@@ -1,4 +1,18 @@
 .. _continue:
+.. meta::
+	:description:
+		Continue: continue is used within looping structures to skip the rest of the current loop iteration and resume the execution at the condition evaluation and then the beginning of the next iteration.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Continue
+	:twitter:description: Continue: continue is used within looping structures to skip the rest of the current loop iteration and resume the execution at the condition evaluation and then the beginning of the next iteration
+	:twitter:creator: @exakat
+	:og:title: Continue
+	:og:type: article
+	:og:description: continue is used within looping structures to skip the rest of the current loop iteration and resume the execution at the condition evaluation and then the beginning of the next iteration
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/continue.ini.html
+	:og:locale: en
+
 
 Continue
 --------

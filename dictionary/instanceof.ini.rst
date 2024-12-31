@@ -1,4 +1,18 @@
 .. _instanceof:
+.. meta::
+	:description:
+		instanceof: `instanceof` is used to determine whether a PHP variable is an instantiated object of a certain class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: instanceof
+	:twitter:description: instanceof: `instanceof` is used to determine whether a PHP variable is an instantiated object of a certain class
+	:twitter:creator: @exakat
+	:og:title: instanceof
+	:og:type: article
+	:og:description: `instanceof` is used to determine whether a PHP variable is an instantiated object of a certain class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/instanceof.ini.html
+	:og:locale: en
+
 
 instanceof
 ----------

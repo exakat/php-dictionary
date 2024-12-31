@@ -1,5 +1,19 @@
 .. _benchmarking:
 .. _benchmark:
+.. meta::
+	:description:
+		Benchmarking: Benchmarking is a process of measuring the performance.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Benchmarking
+	:twitter:description: Benchmarking: Benchmarking is a process of measuring the performance
+	:twitter:creator: @exakat
+	:og:title: Benchmarking
+	:og:type: article
+	:og:description: Benchmarking is a process of measuring the performance
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/benchmarking.ini.html
+	:og:locale: en
+
 
 Benchmarking
 ------------

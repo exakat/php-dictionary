@@ -1,4 +1,18 @@
 .. _database:
+.. meta::
+	:description:
+		Database: A database is an organized set of data, which may be queried.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Database
+	:twitter:description: Database: A database is an organized set of data, which may be queried
+	:twitter:creator: @exakat
+	:og:title: Database
+	:og:type: article
+	:og:description: A database is an organized set of data, which may be queried
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/database.ini.html
+	:og:locale: en
+
 
 Database
 --------

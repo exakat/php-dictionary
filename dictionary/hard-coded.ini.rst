@@ -1,5 +1,19 @@
 .. _hard-coded:
 .. _hardcoded:
+.. meta::
+	:description:
+		Hard Coded: Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hard Coded
+	:twitter:description: Hard Coded: Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters
+	:twitter:creator: @exakat
+	:og:title: Hard Coded
+	:og:type: article
+	:og:description: Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hard-coded.ini.html
+	:og:locale: en
+
 
 Hard Coded
 ----------

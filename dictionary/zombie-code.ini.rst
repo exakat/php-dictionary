@@ -1,4 +1,18 @@
 .. _zombie-code:
+.. meta::
+	:description:
+		Zombie Code: Zombie code refers to sections of code that are still executed, but whose results are discarded.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Zombie Code
+	:twitter:description: Zombie Code: Zombie code refers to sections of code that are still executed, but whose results are discarded
+	:twitter:creator: @exakat
+	:og:title: Zombie Code
+	:og:type: article
+	:og:description: Zombie code refers to sections of code that are still executed, but whose results are discarded
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/zombie-code.ini.html
+	:og:locale: en
+
 
 Zombie Code
 -----------

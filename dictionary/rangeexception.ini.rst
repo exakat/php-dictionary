@@ -1,4 +1,18 @@
 .. _rangeexception:
+.. meta::
+	:description:
+		RangeException: The RangeException exception is thrown if a value is out of range.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: RangeException
+	:twitter:description: RangeException: The RangeException exception is thrown if a value is out of range
+	:twitter:creator: @exakat
+	:og:title: RangeException
+	:og:type: article
+	:og:description: The RangeException exception is thrown if a value is out of range
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rangeexception.ini.html
+	:og:locale: en
+
 
 RangeException
 --------------

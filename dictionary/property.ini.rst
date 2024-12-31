@@ -1,4 +1,18 @@
 .. _property:
+.. meta::
+	:description:
+		Properties: Class properties are variables, local to an object or a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Properties
+	:twitter:description: Properties: Class properties are variables, local to an object or a class
+	:twitter:creator: @exakat
+	:og:title: Properties
+	:og:type: article
+	:og:description: Class properties are variables, local to an object or a class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html
+	:og:locale: en
+
 
 Properties
 ----------

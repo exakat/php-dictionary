@@ -1,4 +1,18 @@
 .. _csv-injection:
+.. meta::
+	:description:
+		CSV Injection: A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CSV Injection
+	:twitter:description: CSV Injection: A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell
+	:twitter:creator: @exakat
+	:og:title: CSV Injection
+	:og:type: article
+	:og:description: A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/csv-injection.ini.html
+	:og:locale: en
+
 
 CSV Injection
 -------------

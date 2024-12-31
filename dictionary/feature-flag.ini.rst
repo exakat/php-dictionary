@@ -1,4 +1,18 @@
 .. _feature-switch:
+.. meta::
+	:description:
+		feature-flag: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: feature-flag
+	:twitter:description: feature-flag: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system
+	:twitter:creator: @exakat
+	:og:title: feature-flag
+	:og:type: article
+	:og:description: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/feature-switch.ini.html
+	:og:locale: en
+
 
 feature-flag
 ------------

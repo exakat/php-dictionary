@@ -1,5 +1,19 @@
 .. _infinite:
 .. _inf:
+.. meta::
+	:description:
+		Infinite: Infinite is a PHP constant, called ``INF``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Infinite
+	:twitter:description: Infinite: Infinite is a PHP constant, called ``INF``
+	:twitter:creator: @exakat
+	:og:title: Infinite
+	:og:type: article
+	:og:description: Infinite is a PHP constant, called ``INF``
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/infinite.ini.html
+	:og:locale: en
+
 
 Infinite
 --------

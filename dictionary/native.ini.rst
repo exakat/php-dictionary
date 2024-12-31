@@ -4,6 +4,20 @@
 .. _native-constant:
 .. _built-in:
 .. _internal:
+.. meta::
+	:description:
+		Native: A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Native
+	:twitter:description: Native: A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP
+	:twitter:creator: @exakat
+	:og:title: Native
+	:og:type: article
+	:og:description: A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html
+	:og:locale: en
+
 
 Native
 ------

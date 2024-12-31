@@ -1,4 +1,18 @@
 .. _modulo:
+.. meta::
+	:description:
+		Modulo: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Modulo
+	:twitter:description: Modulo: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another
+	:twitter:creator: @exakat
+	:og:title: Modulo
+	:og:type: article
+	:og:description: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/modulo.ini.html
+	:og:locale: en
+
 
 Modulo
 ------

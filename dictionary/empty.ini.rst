@@ -1,4 +1,18 @@
 .. _empty:
+.. meta::
+	:description:
+		Empty: Empty is a language structure, which determines whether a variable is empty.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty
+	:twitter:description: Empty: Empty is a language structure, which determines whether a variable is empty
+	:twitter:creator: @exakat
+	:og:title: Empty
+	:og:type: article
+	:og:description: Empty is a language structure, which determines whether a variable is empty
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html
+	:og:locale: en
+
 
 Empty
 -----

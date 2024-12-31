@@ -1,5 +1,19 @@
 .. _mbstring:
 .. _multibyte-string:
+.. meta::
+	:description:
+		Multibyte String: ``mbstring`` provides function to process multibyte strings functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multibyte String
+	:twitter:description: Multibyte String: ``mbstring`` provides function to process multibyte strings functions
+	:twitter:creator: @exakat
+	:og:title: Multibyte String
+	:og:type: article
+	:og:description: ``mbstring`` provides function to process multibyte strings functions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html
+	:og:locale: en
+
 
 Multibyte String
 ----------------

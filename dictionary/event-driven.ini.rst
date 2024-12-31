@@ -1,4 +1,18 @@
 .. _event-driven:
+.. meta::
+	:description:
+		Event Driven: Event-driven programming is a programming paradigm that focuses on the flow of a program's execution being determined by events or actions that occur, rather than following a strictly sequential, procedural path.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Event Driven
+	:twitter:description: Event Driven: Event-driven programming is a programming paradigm that focuses on the flow of a program's execution being determined by events or actions that occur, rather than following a strictly sequential, procedural path
+	:twitter:creator: @exakat
+	:og:title: Event Driven
+	:og:type: article
+	:og:description: Event-driven programming is a programming paradigm that focuses on the flow of a program's execution being determined by events or actions that occur, rather than following a strictly sequential, procedural path
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/event-driven.ini.html
+	:og:locale: en
+
 
 Event Driven
 ------------

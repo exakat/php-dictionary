@@ -1,5 +1,19 @@
 .. _unary:
 .. _unary-operator:
+.. meta::
+	:description:
+		Unary Operator: A unary operator is an operator that operates on a single operand.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unary Operator
+	:twitter:description: Unary Operator: A unary operator is an operator that operates on a single operand
+	:twitter:creator: @exakat
+	:og:title: Unary Operator
+	:og:type: article
+	:og:description: A unary operator is an operator that operates on a single operand
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unary.ini.html
+	:og:locale: en
+
 
 Unary Operator
 --------------

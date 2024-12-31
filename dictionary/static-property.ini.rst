@@ -1,5 +1,19 @@
 .. _static-property:
 .. _class-property:
+.. meta::
+	:description:
+		Static Property: Static properties are properties defined with the ``static`` keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Property
+	:twitter:description: Static Property: Static properties are properties defined with the ``static`` keyword
+	:twitter:creator: @exakat
+	:og:title: Static Property
+	:og:type: article
+	:og:description: Static properties are properties defined with the ``static`` keyword
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/static-property.ini.html
+	:og:locale: en
+
 
 Static Property
 ---------------

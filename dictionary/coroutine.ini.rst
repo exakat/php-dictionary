@@ -1,4 +1,18 @@
 .. _coroutine:
+.. meta::
+	:description:
+		Coroutine: Coroutines are methods whose execution may be suspended and resumed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Coroutine
+	:twitter:description: Coroutine: Coroutines are methods whose execution may be suspended and resumed
+	:twitter:creator: @exakat
+	:og:title: Coroutine
+	:og:type: article
+	:og:description: Coroutines are methods whose execution may be suspended and resumed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/coroutine.ini.html
+	:og:locale: en
+
 
 Coroutine
 ---------

@@ -1,5 +1,19 @@
 .. _short-tag:
 .. _short-open-tag:
+.. meta::
+	:description:
+		Short Tags: PHP uses special tags to identify code that has to be executed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Short Tags
+	:twitter:description: Short Tags: PHP uses special tags to identify code that has to be executed
+	:twitter:creator: @exakat
+	:og:title: Short Tags
+	:og:type: article
+	:og:description: PHP uses special tags to identify code that has to be executed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/short-tag.ini.html
+	:og:locale: en
+
 
 Short Tags
 ----------

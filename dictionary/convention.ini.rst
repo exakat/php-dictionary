@@ -1,4 +1,18 @@
 .. _convention:
+.. meta::
+	:description:
+		Convention: A convention is a way in which something is usually done.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Convention
+	:twitter:description: Convention: A convention is a way in which something is usually done
+	:twitter:creator: @exakat
+	:og:title: Convention
+	:og:type: article
+	:og:description: A convention is a way in which something is usually done
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/convention.ini.html
+	:og:locale: en
+
 
 Convention
 ----------

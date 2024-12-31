@@ -1,4 +1,18 @@
 .. _directoryiterator:
+.. meta::
+	:description:
+		DirectoryIterator:  The DirectoryIterator class provides a simple interface for viewing the contents of filesystem directories.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: DirectoryIterator
+	:twitter:description: DirectoryIterator:  The DirectoryIterator class provides a simple interface for viewing the contents of filesystem directories
+	:twitter:creator: @exakat
+	:og:title: DirectoryIterator
+	:og:type: article
+	:og:description:  The DirectoryIterator class provides a simple interface for viewing the contents of filesystem directories
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/directoryiterator.ini.html
+	:og:locale: en
+
 
 DirectoryIterator
 -----------------

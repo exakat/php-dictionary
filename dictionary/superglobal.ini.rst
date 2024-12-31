@@ -2,6 +2,20 @@
 .. _super-global:
 .. _auto-global:
 .. _autoglobal:
+.. meta::
+	:description:
+		Superglobal Variables: PHP superglobal variables are predefined variables that are accessible from any scope within a PHP script without the need for any special syntax or function calls.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Superglobal Variables
+	:twitter:description: Superglobal Variables: PHP superglobal variables are predefined variables that are accessible from any scope within a PHP script without the need for any special syntax or function calls
+	:twitter:creator: @exakat
+	:og:title: Superglobal Variables
+	:og:type: article
+	:og:description: PHP superglobal variables are predefined variables that are accessible from any scope within a PHP script without the need for any special syntax or function calls
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html
+	:og:locale: en
+
 
 Superglobal Variables
 ---------------------

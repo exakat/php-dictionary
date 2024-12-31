@@ -1,4 +1,18 @@
 .. _sdk:
+.. meta::
+	:description:
+		Software Development Kit: SDK stands for Software Development Kit.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Software Development Kit
+	:twitter:description: Software Development Kit: SDK stands for Software Development Kit
+	:twitter:creator: @exakat
+	:og:title: Software Development Kit
+	:og:type: article
+	:og:description: SDK stands for Software Development Kit
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sdk.ini.html
+	:og:locale: en
+
 
 Software Development Kit
 ------------------------

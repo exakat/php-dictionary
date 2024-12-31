@@ -1,5 +1,19 @@
 .. _union-type:
 .. _union:
+.. meta::
+	:description:
+		Union Type: Union types refer to the ability to specify multiple possible types for a property, parameter, or return value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Union Type
+	:twitter:description: Union Type: Union types refer to the ability to specify multiple possible types for a property, parameter, or return value
+	:twitter:creator: @exakat
+	:og:title: Union Type
+	:og:type: article
+	:og:description: Union types refer to the ability to specify multiple possible types for a property, parameter, or return value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html
+	:og:locale: en
+
 
 Union Type
 ----------

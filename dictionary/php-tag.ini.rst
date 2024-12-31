@@ -1,4 +1,18 @@
 .. _php-tag:
+.. meta::
+	:description:
+		PHP Tags: When PHP parses a file, it looks for opening and closing tags, which are <.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Tags
+	:twitter:description: PHP Tags: When PHP parses a file, it looks for opening and closing tags, which are <
+	:twitter:creator: @exakat
+	:og:title: PHP Tags
+	:og:type: article
+	:og:description: When PHP parses a file, it looks for opening and closing tags, which are <
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-tag.ini.html
+	:og:locale: en
+
 
 PHP Tags
 --------

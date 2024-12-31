@@ -1,4 +1,18 @@
 .. _mcrypt:
+.. meta::
+	:description:
+		mcrypt Extension: mcrypt is a PHP extension that provides access to the mcrypt library.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: mcrypt Extension
+	:twitter:description: mcrypt Extension: mcrypt is a PHP extension that provides access to the mcrypt library
+	:twitter:creator: @exakat
+	:og:title: mcrypt Extension
+	:og:type: article
+	:og:description: mcrypt is a PHP extension that provides access to the mcrypt library
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html
+	:og:locale: en
+
 
 mcrypt Extension
 ----------------

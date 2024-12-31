@@ -1,5 +1,19 @@
 .. _enum:
 .. _enumeration:
+.. meta::
+	:description:
+		Enumeration: Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Enumeration
+	:twitter:description: Enumeration: Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type
+	:twitter:creator: @exakat
+	:og:title: Enumeration
+	:og:type: article
+	:og:description: Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html
+	:og:locale: en
+
 
 Enumeration
 -----------

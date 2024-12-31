@@ -1,4 +1,18 @@
 .. _index-sql:
+.. meta::
+	:description:
+		Index For SQL: In SQL, an index is a database object that improves the performance of data retrieval operations on database tables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Index For SQL
+	:twitter:description: Index For SQL: In SQL, an index is a database object that improves the performance of data retrieval operations on database tables
+	:twitter:creator: @exakat
+	:og:title: Index For SQL
+	:og:type: article
+	:og:description: In SQL, an index is a database object that improves the performance of data retrieval operations on database tables
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/index-sql.ini.html
+	:og:locale: en
+
 
 Index For SQL
 -------------

@@ -1,6 +1,20 @@
 .. _engine:
 .. _php-binary:
 .. _php-executable:
+.. meta::
+	:description:
+		PHP Engine: The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Engine
+	:twitter:description: PHP Engine: The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language
+	:twitter:creator: @exakat
+	:og:title: PHP Engine
+	:og:type: article
+	:og:description: The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/engine.ini.html
+	:og:locale: en
+
 
 PHP Engine
 ----------

@@ -1,4 +1,18 @@
 .. _multidimensional-array:
+.. meta::
+	:description:
+		Multidimensional Array: An array inside an array is called a multidimensional array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multidimensional Array
+	:twitter:description: Multidimensional Array: An array inside an array is called a multidimensional array
+	:twitter:creator: @exakat
+	:og:title: Multidimensional Array
+	:og:type: article
+	:og:description: An array inside an array is called a multidimensional array
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html
+	:og:locale: en
+
 
 Multidimensional Array
 ----------------------

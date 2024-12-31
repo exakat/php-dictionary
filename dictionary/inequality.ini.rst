@@ -1,4 +1,18 @@
 .. _inequality:
+.. meta::
+	:description:
+		Inequality: Inequalities are the mathematical comparison of values, with the `>`,  `>=`,  `<` and `=<` operators.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inequality
+	:twitter:description: Inequality: Inequalities are the mathematical comparison of values, with the `>`,  `>=`,  `<` and `=<` operators
+	:twitter:creator: @exakat
+	:og:title: Inequality
+	:og:type: article
+	:og:description: Inequalities are the mathematical comparison of values, with the `>`,  `>=`,  `<` and `=<` operators
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/inequality.ini.html
+	:og:locale: en
+
 
 Inequality
 ----------

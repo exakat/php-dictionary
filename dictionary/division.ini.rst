@@ -1,4 +1,18 @@
 .. _division:
+.. meta::
+	:description:
+		Division: Division is the mathematical division.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Division
+	:twitter:description: Division: Division is the mathematical division
+	:twitter:creator: @exakat
+	:og:title: Division
+	:og:type: article
+	:og:description: Division is the mathematical division
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/division.ini.html
+	:og:locale: en
+
 
 Division
 --------

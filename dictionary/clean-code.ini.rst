@@ -1,4 +1,18 @@
 .. _clean-code:
+.. meta::
+	:description:
+		Clean Code: Clean code refers to code that is well-organized, easy to read, and easy to maintain.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Clean Code
+	:twitter:description: Clean Code: Clean code refers to code that is well-organized, easy to read, and easy to maintain
+	:twitter:creator: @exakat
+	:og:title: Clean Code
+	:og:type: article
+	:og:description: Clean code refers to code that is well-organized, easy to read, and easy to maintain
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/clean-code.ini.html
+	:og:locale: en
+
 
 Clean Code
 ----------

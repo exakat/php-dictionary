@@ -1,4 +1,18 @@
 .. _print:
+.. meta::
+	:description:
+		Print: print() is a PHP language construct used to output text to the browser or the output stream.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Print
+	:twitter:description: Print: print() is a PHP language construct used to output text to the browser or the output stream
+	:twitter:creator: @exakat
+	:og:title: Print
+	:og:type: article
+	:og:description: print() is a PHP language construct used to output text to the browser or the output stream
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html
+	:og:locale: en
+
 
 Print
 -----

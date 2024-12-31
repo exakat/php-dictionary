@@ -1,5 +1,19 @@
 .. _type:
 .. _typehint:
+.. meta::
+	:description:
+		Type System: Type declarations can be added to function arguments, return values, and, as of PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type System
+	:twitter:description: Type System: Type declarations can be added to function arguments, return values, and, as of PHP 7
+	:twitter:creator: @exakat
+	:og:title: Type System
+	:og:type: article
+	:og:description: Type declarations can be added to function arguments, return values, and, as of PHP 7
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html
+	:og:locale: en
+
 
 Type System
 -----------

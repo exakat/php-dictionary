@@ -1,5 +1,19 @@
 .. _unpacking:
 .. _unpack:
+.. meta::
+	:description:
+		Unpacking: Unpacking has two meanings : .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unpacking
+	:twitter:description: Unpacking: Unpacking has two meanings : 
+	:twitter:creator: @exakat
+	:og:title: Unpacking
+	:og:type: article
+	:og:description: Unpacking has two meanings : 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unpacking.ini.html
+	:og:locale: en
+
 
 Unpacking
 ---------

@@ -1,4 +1,18 @@
 .. _escape-character:
+.. meta::
+	:description:
+		Escape Character: Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Escape Character
+	:twitter:description: Escape Character: Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence
+	:twitter:creator: @exakat
+	:og:title: Escape Character
+	:og:type: article
+	:og:description: Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-character.ini.html
+	:og:locale: en
+
 
 Escape Character
 ----------------

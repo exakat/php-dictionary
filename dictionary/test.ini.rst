@@ -1,4 +1,18 @@
 .. _test:
+.. meta::
+	:description:
+		Test: Tests are tools that monitor the behavior of a code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Test
+	:twitter:description: Test: Tests are tools that monitor the behavior of a code
+	:twitter:creator: @exakat
+	:og:title: Test
+	:og:type: article
+	:og:description: Tests are tools that monitor the behavior of a code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/test.ini.html
+	:og:locale: en
+
 
 Test
 ----

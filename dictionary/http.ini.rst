@@ -1,4 +1,18 @@
 .. _http:
+.. meta::
+	:description:
+		Hyper Text Transfer Protocol (HTTP): The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hyper Text Transfer Protocol (HTTP)
+	:twitter:description: Hyper Text Transfer Protocol (HTTP): The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol
+	:twitter:creator: @exakat
+	:og:title: Hyper Text Transfer Protocol (HTTP)
+	:og:type: article
+	:og:description: The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html
+	:og:locale: en
+
 
 Hyper Text Transfer Protocol (HTTP)
 -----------------------------------

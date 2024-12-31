@@ -1,4 +1,18 @@
 .. _php.ini:
+.. meta::
+	:description:
+		php.ini: php.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: php.ini
+	:twitter:description: php.ini: php
+	:twitter:creator: @exakat
+	:og:title: php.ini
+	:og:type: article
+	:og:description: php
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.ini.html
+	:og:locale: en
+
 
 php.ini
 -------

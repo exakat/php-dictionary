@@ -1,4 +1,18 @@
 .. _hash-function:
+.. meta::
+	:description:
+		hash() Function: hash() is a PHP native function, that computes the cryptographic hash of strings, with a wide range of algorithms.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: hash() Function
+	:twitter:description: hash() Function: hash() is a PHP native function, that computes the cryptographic hash of strings, with a wide range of algorithms
+	:twitter:creator: @exakat
+	:og:title: hash() Function
+	:og:type: article
+	:og:description: hash() is a PHP native function, that computes the cryptographic hash of strings, with a wide range of algorithms
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hash-function.ini.html
+	:og:locale: en
+
 
 hash() Function
 ---------------

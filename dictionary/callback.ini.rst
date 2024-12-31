@@ -1,4 +1,18 @@
 .. _callback:
+.. meta::
+	:description:
+		Callbacks: Callbacks are functions or methods which are used as parameters for other functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Callbacks
+	:twitter:description: Callbacks: Callbacks are functions or methods which are used as parameters for other functions
+	:twitter:creator: @exakat
+	:og:title: Callbacks
+	:og:type: article
+	:og:description: Callbacks are functions or methods which are used as parameters for other functions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html
+	:og:locale: en
+
 
 Callbacks
 ---------

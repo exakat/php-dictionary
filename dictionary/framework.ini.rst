@@ -1,4 +1,18 @@
 .. _framework:
+.. meta::
+	:description:
+		Framework: A framework is a library of code and practices that helps building PHP applications.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Framework
+	:twitter:description: Framework: A framework is a library of code and practices that helps building PHP applications
+	:twitter:creator: @exakat
+	:og:title: Framework
+	:og:type: article
+	:og:description: A framework is a library of code and practices that helps building PHP applications
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html
+	:og:locale: en
+
 
 Framework
 ---------

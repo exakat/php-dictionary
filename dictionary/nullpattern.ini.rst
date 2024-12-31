@@ -1,4 +1,18 @@
 .. _nullpattern:
+.. meta::
+	:description:
+		Null Pattern: The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Null Pattern
+	:twitter:description: Null Pattern: The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner
+	:twitter:creator: @exakat
+	:og:title: Null Pattern
+	:og:type: article
+	:og:description: The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nullpattern.ini.html
+	:og:locale: en
+
 
 Null Pattern
 ------------

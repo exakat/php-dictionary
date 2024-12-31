@@ -1,5 +1,19 @@
 .. _encoding-text:
 .. _text-encoding:
+.. meta::
+	:description:
+		Text Encoding: Encoding is the way characters are organized to hold a meaning while being transmitted, stored or manipulated.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Text Encoding
+	:twitter:description: Text Encoding: Encoding is the way characters are organized to hold a meaning while being transmitted, stored or manipulated
+	:twitter:creator: @exakat
+	:og:title: Text Encoding
+	:og:type: article
+	:og:description: Encoding is the way characters are organized to hold a meaning while being transmitted, stored or manipulated
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding-text.ini.html
+	:og:locale: en
+
 
 Text Encoding
 -------------

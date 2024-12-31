@@ -1,5 +1,19 @@
 .. _fpm:
 .. _php-fpm:
+.. meta::
+	:description:
+		PHP-FPM: FPM stands for FastCGI Process Manager.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP-FPM
+	:twitter:description: PHP-FPM: FPM stands for FastCGI Process Manager
+	:twitter:creator: @exakat
+	:og:title: PHP-FPM
+	:og:type: article
+	:og:description: FPM stands for FastCGI Process Manager
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fpm.ini.html
+	:og:locale: en
+
 
 PHP-FPM
 -------

@@ -1,4 +1,18 @@
 .. _unset:
+.. meta::
+	:description:
+		unset(): unset() removes a variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: unset()
+	:twitter:description: unset(): unset() removes a variable
+	:twitter:creator: @exakat
+	:og:title: unset()
+	:og:type: article
+	:og:description: unset() removes a variable
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html
+	:og:locale: en
+
 
 unset()
 -------

@@ -1,4 +1,18 @@
 .. _cvs:
+.. meta::
+	:description:
+		CVS: CSV is Concurrent Version System.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CVS
+	:twitter:description: CVS: CSV is Concurrent Version System
+	:twitter:creator: @exakat
+	:og:title: CVS
+	:og:type: article
+	:og:description: CSV is Concurrent Version System
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/cvs.ini.html
+	:og:locale: en
+
 
 CVS
 ---

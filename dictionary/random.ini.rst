@@ -1,4 +1,18 @@
 .. _random:
+.. meta::
+	:description:
+		Random: Random generators generates numbers or strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Random
+	:twitter:description: Random: Random generators generates numbers or strings
+	:twitter:creator: @exakat
+	:og:title: Random
+	:og:type: article
+	:og:description: Random generators generates numbers or strings
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/random.ini.html
+	:og:locale: en
+
 
 Random
 ------

@@ -1,4 +1,18 @@
 .. _headless:
+.. meta::
+	:description:
+		Headless: A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Headless
+	:twitter:description: Headless: A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other
+	:twitter:creator: @exakat
+	:og:title: Headless
+	:og:type: article
+	:og:description: A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/headless.ini.html
+	:og:locale: en
+
 
 Headless
 --------

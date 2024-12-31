@@ -1,4 +1,18 @@
 .. _binary-integer:
+.. meta::
+	:description:
+		Binary Integer: Integers can be specified in binary (base 2) notation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Binary Integer
+	:twitter:description: Binary Integer: Integers can be specified in binary (base 2) notation
+	:twitter:creator: @exakat
+	:og:title: Binary Integer
+	:og:type: article
+	:og:description: Integers can be specified in binary (base 2) notation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-integer.ini.html
+	:og:locale: en
+
 
 Binary Integer
 --------------

@@ -1,4 +1,18 @@
 .. _undefined:
+.. meta::
+	:description:
+		Undefined: Something ``undefined`` has not been defined yet.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined
+	:twitter:description: Undefined: Something ``undefined`` has not been defined yet
+	:twitter:creator: @exakat
+	:og:title: Undefined
+	:og:type: article
+	:og:description: Something ``undefined`` has not been defined yet
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/undefined.ini.html
+	:og:locale: en
+
 
 Undefined
 ---------

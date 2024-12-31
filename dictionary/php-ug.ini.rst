@@ -1,4 +1,18 @@
 .. _php-ug:
+.. meta::
+	:description:
+		PHP User Groups: PHP-UG are the PHP User Groups.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP User Groups
+	:twitter:description: PHP User Groups: PHP-UG are the PHP User Groups
+	:twitter:creator: @exakat
+	:og:title: PHP User Groups
+	:og:type: article
+	:og:description: PHP-UG are the PHP User Groups
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-ug.ini.html
+	:og:locale: en
+
 
 PHP User Groups
 ---------------

@@ -1,4 +1,18 @@
 .. _protocol:
+.. meta::
+	:description:
+		Protocol: A protocol is a scheme part of a URL, with an associated wrapper.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Protocol
+	:twitter:description: Protocol: A protocol is a scheme part of a URL, with an associated wrapper
+	:twitter:creator: @exakat
+	:og:title: Protocol
+	:og:type: article
+	:og:description: A protocol is a scheme part of a URL, with an associated wrapper
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/protocol.ini.html
+	:og:locale: en
+
 
 Protocol
 --------

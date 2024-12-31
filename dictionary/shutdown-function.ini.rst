@@ -1,5 +1,19 @@
 .. _shutdown-function:
 .. _shutdown-handler:
+.. meta::
+	:description:
+		Shutdown Function: The shutdown function is a PHP custom function which is called when the application is shutting down.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Shutdown Function
+	:twitter:description: Shutdown Function: The shutdown function is a PHP custom function which is called when the application is shutting down
+	:twitter:creator: @exakat
+	:og:title: Shutdown Function
+	:og:type: article
+	:og:description: The shutdown function is a PHP custom function which is called when the application is shutting down
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/shutdown-function.ini.html
+	:og:locale: en
+
 
 Shutdown Function
 -----------------

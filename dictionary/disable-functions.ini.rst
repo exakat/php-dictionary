@@ -1,4 +1,18 @@
 .. _disable-functions:
+.. meta::
+	:description:
+		Disable Functions: This PHP directive is used to prevent specific functions from being called in PHP scripts.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Disable Functions
+	:twitter:description: Disable Functions: This PHP directive is used to prevent specific functions from being called in PHP scripts
+	:twitter:creator: @exakat
+	:og:title: Disable Functions
+	:og:type: article
+	:og:description: This PHP directive is used to prevent specific functions from being called in PHP scripts
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-functions.ini.html
+	:og:locale: en
+
 
 Disable Functions
 -----------------

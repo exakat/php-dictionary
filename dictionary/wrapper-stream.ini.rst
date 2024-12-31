@@ -1,5 +1,19 @@
 .. _wrapper-stream:
 .. _stream-wrapper:
+.. meta::
+	:description:
+		Stream Wrapper: A wrapper is additional code which tells the stream how to handle specific protocols/encodings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Stream Wrapper
+	:twitter:description: Stream Wrapper: A wrapper is additional code which tells the stream how to handle specific protocols/encodings
+	:twitter:creator: @exakat
+	:og:title: Stream Wrapper
+	:og:type: article
+	:og:description: A wrapper is additional code which tells the stream how to handle specific protocols/encodings
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-stream.ini.html
+	:og:locale: en
+
 
 Stream Wrapper
 --------------

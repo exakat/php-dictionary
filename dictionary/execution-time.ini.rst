@@ -1,4 +1,18 @@
 .. _execution-time:
+.. meta::
+	:description:
+		Execution Time: Execution time is a phase of PHP processing, where the source code is executed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Execution Time
+	:twitter:description: Execution Time: Execution time is a phase of PHP processing, where the source code is executed
+	:twitter:creator: @exakat
+	:og:title: Execution Time
+	:og:type: article
+	:og:description: Execution time is a phase of PHP processing, where the source code is executed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/execution-time.ini.html
+	:og:locale: en
+
 
 Execution Time
 --------------

@@ -1,4 +1,18 @@
 .. _static-method:
+.. meta::
+	:description:
+		Static Method: Static methods are methods defined with the static keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Method
+	:twitter:description: Static Method: Static methods are methods defined with the static keyword
+	:twitter:creator: @exakat
+	:og:title: Static Method
+	:og:type: article
+	:og:description: Static methods are methods defined with the static keyword
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html
+	:og:locale: en
+
 
 Static Method
 -------------

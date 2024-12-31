@@ -1,4 +1,18 @@
 .. _while:
+.. meta::
+	:description:
+		While: While is a loop structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: While
+	:twitter:description: While: While is a loop structure
+	:twitter:creator: @exakat
+	:og:title: While
+	:og:type: article
+	:og:description: While is a loop structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html
+	:og:locale: en
+
 
 While
 -----

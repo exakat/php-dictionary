@@ -1,4 +1,18 @@
 .. _control-flow:
+.. meta::
+	:description:
+		Control Flow: Control flow structures direct the way PHP execute the statements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Control Flow
+	:twitter:description: Control Flow: Control flow structures direct the way PHP execute the statements
+	:twitter:creator: @exakat
+	:og:title: Control Flow
+	:og:type: article
+	:og:description: Control flow structures direct the way PHP execute the statements
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/control-flow.ini.html
+	:og:locale: en
+
 
 Control Flow
 ------------

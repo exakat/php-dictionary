@@ -1,4 +1,18 @@
 .. _inclusion:
+.. meta::
+	:description:
+		Inclusions: Inclusion is the operation to add PHP code stored in an external file, into another PHP code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inclusions
+	:twitter:description: Inclusions: Inclusion is the operation to add PHP code stored in an external file, into another PHP code
+	:twitter:creator: @exakat
+	:og:title: Inclusions
+	:og:type: article
+	:og:description: Inclusion is the operation to add PHP code stored in an external file, into another PHP code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html
+	:og:locale: en
+
 
 Inclusions
 ----------

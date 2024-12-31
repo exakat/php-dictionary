@@ -1,4 +1,18 @@
 .. _strict-comparison:
+.. meta::
+	:description:
+		Strict Comparison: Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Strict Comparison
+	:twitter:description: Strict Comparison: Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value
+	:twitter:creator: @exakat
+	:og:title: Strict Comparison
+	:og:type: article
+	:og:description: Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/strict-comparison.ini.html
+	:og:locale: en
+
 
 Strict Comparison
 -----------------

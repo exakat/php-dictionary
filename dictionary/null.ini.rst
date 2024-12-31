@@ -1,4 +1,18 @@
 .. _null:
+.. meta::
+	:description:
+		Null: ``null`` is a special data type that represents a variable with no value or an undefined value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Null
+	:twitter:description: Null: ``null`` is a special data type that represents a variable with no value or an undefined value
+	:twitter:creator: @exakat
+	:og:title: Null
+	:og:type: article
+	:og:description: ``null`` is a special data type that represents a variable with no value or an undefined value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html
+	:og:locale: en
+
 
 Null
 ----

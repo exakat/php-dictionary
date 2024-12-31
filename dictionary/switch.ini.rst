@@ -1,5 +1,19 @@
 .. _switch:
 .. _endswitch:
+.. meta::
+	:description:
+		Switch: The ``switch`` expression branches evaluation based on an equality check of a value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Switch
+	:twitter:description: Switch: The ``switch`` expression branches evaluation based on an equality check of a value
+	:twitter:creator: @exakat
+	:og:title: Switch
+	:og:type: article
+	:og:description: The ``switch`` expression branches evaluation based on an equality check of a value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html
+	:og:locale: en
+
 
 Switch
 ------

@@ -1,4 +1,18 @@
 .. _typed-property:
+.. meta::
+	:description:
+		Typed Property: A typed property has a type in its definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typed Property
+	:twitter:description: Typed Property: A typed property has a type in its definition
+	:twitter:creator: @exakat
+	:og:title: Typed Property
+	:og:type: article
+	:og:description: A typed property has a type in its definition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/typed-property.ini.html
+	:og:locale: en
+
 
 Typed Property
 --------------

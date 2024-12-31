@@ -1,4 +1,18 @@
 .. _foreach:
+.. meta::
+	:description:
+		Foreach: Foreach is the most popular loop in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Foreach
+	:twitter:description: Foreach: Foreach is the most popular loop in PHP
+	:twitter:creator: @exakat
+	:og:title: Foreach
+	:og:type: article
+	:og:description: Foreach is the most popular loop in PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html
+	:og:locale: en
+
 
 Foreach
 -------

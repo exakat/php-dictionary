@@ -1,4 +1,18 @@
 .. _truthy:
+.. meta::
+	:description:
+		Truthy: A truthy value is a value that evaluate to true, when cast to a boolean.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Truthy
+	:twitter:description: Truthy: A truthy value is a value that evaluate to true, when cast to a boolean
+	:twitter:creator: @exakat
+	:og:title: Truthy
+	:og:type: article
+	:og:description: A truthy value is a value that evaluate to true, when cast to a boolean
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/truthy.ini.html
+	:og:locale: en
+
 
 Truthy
 ------

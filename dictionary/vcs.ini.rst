@@ -1,5 +1,19 @@
 .. _vcs:
 .. _scm:
+.. meta::
+	:description:
+		VCS: VCS stands for Version Control System.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: VCS
+	:twitter:description: VCS: VCS stands for Version Control System
+	:twitter:creator: @exakat
+	:og:title: VCS
+	:og:type: article
+	:og:description: VCS stands for Version Control System
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/vcs.ini.html
+	:og:locale: en
+
 
 VCS
 ---

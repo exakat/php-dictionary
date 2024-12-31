@@ -1,4 +1,18 @@
 .. _invariant:
+.. meta::
+	:description:
+		Type Invariant: A type invariant is a data container whose type can't change between a parent class and a child class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type Invariant
+	:twitter:description: Type Invariant: A type invariant is a data container whose type can't change between a parent class and a child class
+	:twitter:creator: @exakat
+	:og:title: Type Invariant
+	:og:type: article
+	:og:description: A type invariant is a data container whose type can't change between a parent class and a child class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/invariant.ini.html
+	:og:locale: en
+
 
 Type Invariant
 --------------

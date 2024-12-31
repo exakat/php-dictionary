@@ -1,4 +1,18 @@
 .. _uuid:
+.. meta::
+	:description:
+		UUID: UUID is a Universally Unique IDentifier.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: UUID
+	:twitter:description: UUID: UUID is a Universally Unique IDentifier
+	:twitter:creator: @exakat
+	:og:title: UUID
+	:og:type: article
+	:og:description: UUID is a Universally Unique IDentifier
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/uuid.ini.html
+	:og:locale: en
+
 
 UUID
 ----

@@ -1,4 +1,18 @@
 .. _type-declaration-property:
+.. meta::
+	:description:
+		Property Type Declaration: Type declaration property, also known as typed properties, is a feature introduced in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Type Declaration
+	:twitter:description: Property Type Declaration: Type declaration property, also known as typed properties, is a feature introduced in PHP 7
+	:twitter:creator: @exakat
+	:og:title: Property Type Declaration
+	:og:type: article
+	:og:description: Type declaration property, also known as typed properties, is a feature introduced in PHP 7
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/type-declaration-property.ini.html
+	:og:locale: en
+
 
 Property Type Declaration
 -------------------------

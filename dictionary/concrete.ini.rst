@@ -1,4 +1,18 @@
 .. _concrete:
+.. meta::
+	:description:
+		Concrete Class: PHP has abstract classes and methods: the contrary to ``abstract`` is concrete.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Concrete Class
+	:twitter:description: Concrete Class: PHP has abstract classes and methods: the contrary to ``abstract`` is concrete
+	:twitter:creator: @exakat
+	:og:title: Concrete Class
+	:og:type: article
+	:og:description: PHP has abstract classes and methods: the contrary to ``abstract`` is concrete
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/concrete.ini.html
+	:og:locale: en
+
 
 Concrete Class
 --------------

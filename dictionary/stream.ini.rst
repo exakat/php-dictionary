@@ -1,4 +1,18 @@
 .. _stream:
+.. meta::
+	:description:
+		Stream: Streams are a generalisation of the notion of files.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Stream
+	:twitter:description: Stream: Streams are a generalisation of the notion of files
+	:twitter:creator: @exakat
+	:og:title: Stream
+	:og:type: article
+	:og:description: Streams are a generalisation of the notion of files
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/stream.ini.html
+	:og:locale: en
+
 
 Stream
 ------

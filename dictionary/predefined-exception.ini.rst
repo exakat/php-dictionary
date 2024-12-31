@@ -1,4 +1,18 @@
 .. _predefined-exception:
+.. meta::
+	:description:
+		PHP Predefined Exception: The predefined exceptions are the exceptions that are built-in the PHP engine.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Predefined Exception
+	:twitter:description: PHP Predefined Exception: The predefined exceptions are the exceptions that are built-in the PHP engine
+	:twitter:creator: @exakat
+	:og:title: PHP Predefined Exception
+	:og:type: article
+	:og:description: The predefined exceptions are the exceptions that are built-in the PHP engine
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-exception.ini.html
+	:og:locale: en
+
 
 PHP Predefined Exception
 ------------------------

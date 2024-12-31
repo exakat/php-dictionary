@@ -1,4 +1,18 @@
 .. _php-rfc:
+.. meta::
+	:description:
+		PHP RFC: PHP evolution is organized by RFC : Request for comments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP RFC
+	:twitter:description: PHP RFC: PHP evolution is organized by RFC : Request for comments
+	:twitter:creator: @exakat
+	:og:title: PHP RFC
+	:og:type: article
+	:og:description: PHP evolution is organized by RFC : Request for comments
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-rfc.ini.html
+	:og:locale: en
+
 
 PHP RFC
 -------

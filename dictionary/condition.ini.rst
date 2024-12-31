@@ -1,4 +1,18 @@
 .. _condition:
+.. meta::
+	:description:
+		Condition: Conditions are an expression that are either true or false.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Condition
+	:twitter:description: Condition: Conditions are an expression that are either true or false
+	:twitter:creator: @exakat
+	:og:title: Condition
+	:og:type: article
+	:og:description: Conditions are an expression that are either true or false
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/condition.ini.html
+	:og:locale: en
+
 
 Condition
 ---------

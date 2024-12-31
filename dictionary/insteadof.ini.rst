@@ -1,5 +1,19 @@
 .. _insteadof:
 .. _method-alias:
+.. meta::
+	:description:
+		Insteadof: The insteadof operator is used in the context of trait composition and resolving conflicts between methods or properties of multiple traits that are being used in a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Insteadof
+	:twitter:description: Insteadof: The insteadof operator is used in the context of trait composition and resolving conflicts between methods or properties of multiple traits that are being used in a class
+	:twitter:creator: @exakat
+	:og:title: Insteadof
+	:og:type: article
+	:og:description: The insteadof operator is used in the context of trait composition and resolving conflicts between methods or properties of multiple traits that are being used in a class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/insteadof.ini.html
+	:og:locale: en
+
 
 Insteadof
 ---------

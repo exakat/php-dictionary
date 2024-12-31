@@ -1,5 +1,19 @@
 .. _immutable:
 .. _immutability:
+.. meta::
+	:description:
+		Immutable: An immutable object is an object that can't be changed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Immutable
+	:twitter:description: Immutable: An immutable object is an object that can't be changed
+	:twitter:creator: @exakat
+	:og:title: Immutable
+	:og:type: article
+	:og:description: An immutable object is an object that can't be changed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/immutable.ini.html
+	:og:locale: en
+
 
 Immutable
 ---------

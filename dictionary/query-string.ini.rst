@@ -1,4 +1,18 @@
 .. _query-string:
+.. meta::
+	:description:
+		Query String: The query string is a part of a URL that contains data and parameters to be passed to a web server.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Query String
+	:twitter:description: Query String: The query string is a part of a URL that contains data and parameters to be passed to a web server
+	:twitter:creator: @exakat
+	:og:title: Query String
+	:og:type: article
+	:og:description: The query string is a part of a URL that contains data and parameters to be passed to a web server
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html
+	:og:locale: en
+
 
 Query String
 ------------

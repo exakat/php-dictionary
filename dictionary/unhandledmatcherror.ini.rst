@@ -1,4 +1,18 @@
 .. _unhandledmatcherror:
+.. meta::
+	:description:
+		UnhandledMatchError: An ``UnhandledMatchError`` error is thrown when the subject passed to a match expression is not handled by any case of the match expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: UnhandledMatchError
+	:twitter:description: UnhandledMatchError: An ``UnhandledMatchError`` error is thrown when the subject passed to a match expression is not handled by any case of the match expression
+	:twitter:creator: @exakat
+	:og:title: UnhandledMatchError
+	:og:type: article
+	:og:description: An ``UnhandledMatchError`` error is thrown when the subject passed to a match expression is not handled by any case of the match expression
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/unhandledmatcherror.ini.html
+	:og:locale: en
+
 
 UnhandledMatchError
 -------------------

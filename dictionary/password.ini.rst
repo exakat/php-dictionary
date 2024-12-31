@@ -1,5 +1,19 @@
 .. _password:
 .. _secret:
+.. meta::
+	:description:
+		Password: A password is a secret or confidential string of characters that is used for authentication and access control to verify the identity of a user.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Password
+	:twitter:description: Password: A password is a secret or confidential string of characters that is used for authentication and access control to verify the identity of a user
+	:twitter:creator: @exakat
+	:og:title: Password
+	:og:type: article
+	:og:description: A password is a secret or confidential string of characters that is used for authentication and access control to verify the identity of a user
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/password.ini.html
+	:og:locale: en
+
 
 Password
 --------

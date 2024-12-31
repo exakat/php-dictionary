@@ -1,4 +1,18 @@
 .. _error:
+.. meta::
+	:description:
+		Error: The ``Error`` class is a base class for all internal PHP error exceptions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Error
+	:twitter:description: Error: The ``Error`` class is a base class for all internal PHP error exceptions
+	:twitter:creator: @exakat
+	:og:title: Error
+	:og:type: article
+	:og:description: The ``Error`` class is a base class for all internal PHP error exceptions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html
+	:og:locale: en
+
 
 Error
 -----

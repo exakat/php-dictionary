@@ -1,4 +1,18 @@
 .. _strict_types:
+.. meta::
+	:description:
+		strict_types: strict_types is an execution directive, that makes PHP more strict when applying the types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strict_types
+	:twitter:description: strict_types: strict_types is an execution directive, that makes PHP more strict when applying the types
+	:twitter:creator: @exakat
+	:og:title: strict_types
+	:og:type: article
+	:og:description: strict_types is an execution directive, that makes PHP more strict when applying the types
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/strict_types.ini.html
+	:og:locale: en
+
 
 strict_types
 ------------

@@ -1,6 +1,20 @@
 .. _coalesce:
 .. _null-coalesce:
 .. _null-ternary:
+.. meta::
+	:description:
+		Coalesce Operator: The coalesce operator `.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Coalesce Operator
+	:twitter:description: Coalesce Operator: The coalesce operator `
+	:twitter:creator: @exakat
+	:og:title: Coalesce Operator
+	:og:type: article
+	:og:description: The coalesce operator `
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html
+	:og:locale: en
+
 
 Coalesce Operator
 -----------------

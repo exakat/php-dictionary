@@ -1,5 +1,19 @@
 .. _alias-types:
 .. _type-alias:
+.. meta::
+	:description:
+		Alias Types: An alias type is a short name for several types at once.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Alias Types
+	:twitter:description: Alias Types: An alias type is a short name for several types at once
+	:twitter:creator: @exakat
+	:og:title: Alias Types
+	:og:type: article
+	:og:description: An alias type is a short name for several types at once
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/alias-types.ini.html
+	:og:locale: en
+
 
 Alias Types
 -----------

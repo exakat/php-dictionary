@@ -1,4 +1,18 @@
 .. _single-quote:
+.. meta::
+	:description:
+		Single Quotes Strings: Single quoted strings are strings that include a literal value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Single Quotes Strings
+	:twitter:description: Single Quotes Strings: Single quoted strings are strings that include a literal value
+	:twitter:creator: @exakat
+	:og:title: Single Quotes Strings
+	:og:type: article
+	:og:description: Single quoted strings are strings that include a literal value
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/single-quote.ini.html
+	:og:locale: en
+
 
 Single Quotes Strings
 ---------------------

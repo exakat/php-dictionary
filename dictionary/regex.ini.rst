@@ -1,5 +1,19 @@
 .. _regex:
 .. _preg:
+.. meta::
+	:description:
+		Regular Expressions: A regular expression is a sequence of characters that specifies a search pattern.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Regular Expressions
+	:twitter:description: Regular Expressions: A regular expression is a sequence of characters that specifies a search pattern
+	:twitter:creator: @exakat
+	:og:title: Regular Expressions
+	:og:type: article
+	:og:description: A regular expression is a sequence of characters that specifies a search pattern
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html
+	:og:locale: en
+
 
 Regular Expressions
 -------------------

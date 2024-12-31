@@ -1,4 +1,18 @@
 .. _enum-backed:
+.. meta::
+	:description:
+		Backed Enumeration: Backed enumerations are enumerations whose cases have a built-in scalar equivalent.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Backed Enumeration
+	:twitter:description: Backed Enumeration: Backed enumerations are enumerations whose cases have a built-in scalar equivalent
+	:twitter:creator: @exakat
+	:og:title: Backed Enumeration
+	:og:type: article
+	:og:description: Backed enumerations are enumerations whose cases have a built-in scalar equivalent
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-backed.ini.html
+	:og:locale: en
+
 
 Backed Enumeration
 ------------------

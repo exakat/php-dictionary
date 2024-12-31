@@ -1,4 +1,18 @@
 .. _case:
+.. meta::
+	:description:
+		Case: Case is a PHP keyword, which may be used in three distinct situations: .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Case
+	:twitter:description: Case: Case is a PHP keyword, which may be used in three distinct situations: 
+	:twitter:creator: @exakat
+	:og:title: Case
+	:og:type: article
+	:og:description: Case is a PHP keyword, which may be used in three distinct situations: 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html
+	:og:locale: en
+
 
 Case
 ----

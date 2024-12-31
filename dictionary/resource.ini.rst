@@ -1,4 +1,18 @@
 .. _resource:
+.. meta::
+	:description:
+		resource: A resource is a special type of data, holding a reference to an external resource.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: resource
+	:twitter:description: resource: A resource is a special type of data, holding a reference to an external resource
+	:twitter:creator: @exakat
+	:og:title: resource
+	:og:type: article
+	:og:description: A resource is a special type of data, holding a reference to an external resource
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/resource.ini.html
+	:og:locale: en
+
 
 resource
 --------

@@ -1,4 +1,18 @@
 .. _parameter:
+.. meta::
+	:description:
+		Parameter: A parameter is a variable in a method definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parameter
+	:twitter:description: Parameter: A parameter is a variable in a method definition
+	:twitter:creator: @exakat
+	:og:title: Parameter
+	:og:type: article
+	:og:description: A parameter is a variable in a method definition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html
+	:og:locale: en
+
 
 Parameter
 ---------

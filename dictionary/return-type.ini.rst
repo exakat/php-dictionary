@@ -2,6 +2,20 @@
 .. _returntype:
 .. _return-typehint:
 .. _returntypehint:
+.. meta::
+	:description:
+		Return Type: Return types are the types used for the return value of a method or function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return Type
+	:twitter:description: Return Type: Return types are the types used for the return value of a method or function
+	:twitter:creator: @exakat
+	:og:title: Return Type
+	:og:type: article
+	:og:description: Return types are the types used for the return value of a method or function
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/return-type.ini.html
+	:og:locale: en
+
 
 Return Type
 -----------

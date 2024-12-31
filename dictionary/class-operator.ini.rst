@@ -1,4 +1,18 @@
 .. _class-operator:
+.. meta::
+	:description:
+		Class Operator: Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Operator
+	:twitter:description: Class Operator: Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier
+	:twitter:creator: @exakat
+	:og:title: Class Operator
+	:og:type: article
+	:og:description: Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class-operator.ini.html
+	:og:locale: en
+
 
 Class Operator
 --------------

@@ -1,4 +1,18 @@
 .. _$_env:
+.. meta::
+	:description:
+		$_ENV: The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $_ENV
+	:twitter:description: $_ENV: The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values
+	:twitter:creator: @exakat
+	:og:title: $_ENV
+	:og:type: article
+	:og:description: The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_env.ini.html
+	:og:locale: en
+
 
 $_ENV
 -----

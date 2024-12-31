@@ -1,4 +1,18 @@
 .. _relaxed-syntax:
+.. meta::
+	:description:
+		Relaxed Syntax: Relaxed syntax refers to the extra freedom in naming class elements, such as constant and methods, compared to creating global constant and functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Relaxed Syntax
+	:twitter:description: Relaxed Syntax: Relaxed syntax refers to the extra freedom in naming class elements, such as constant and methods, compared to creating global constant and functions
+	:twitter:creator: @exakat
+	:og:title: Relaxed Syntax
+	:og:type: article
+	:og:description: Relaxed syntax refers to the extra freedom in naming class elements, such as constant and methods, compared to creating global constant and functions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-syntax.ini.html
+	:og:locale: en
+
 
 Relaxed Syntax
 --------------

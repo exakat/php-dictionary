@@ -1,4 +1,18 @@
 .. _dynamic-property:
+.. meta::
+	:description:
+		Dynamic Properties: Dynamic properties are properties created on the fly, without previous definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Properties
+	:twitter:description: Dynamic Properties: Dynamic properties are properties created on the fly, without previous definition
+	:twitter:creator: @exakat
+	:og:title: Dynamic Properties
+	:og:type: article
+	:og:description: Dynamic properties are properties created on the fly, without previous definition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-property.ini.html
+	:og:locale: en
+
 
 Dynamic Properties
 ------------------

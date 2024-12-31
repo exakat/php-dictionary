@@ -1,4 +1,18 @@
 .. _underflow:
+.. meta::
+	:description:
+		Underflow: Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Underflow
+	:twitter:description: Underflow: Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown
+	:twitter:creator: @exakat
+	:og:title: Underflow
+	:og:type: article
+	:og:description: Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/underflow.ini.html
+	:og:locale: en
+
 
 Underflow
 ---------

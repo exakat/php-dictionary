@@ -2,6 +2,20 @@
 .. _child:
 .. _children:
 .. _subclass:
+.. meta::
+	:description:
+		Child Class: A child class is a class that extends another class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Child Class
+	:twitter:description: Child Class: A child class is a class that extends another class
+	:twitter:creator: @exakat
+	:og:title: Child Class
+	:og:type: article
+	:og:description: A child class is a class that extends another class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/child-class.ini.html
+	:og:locale: en
+
 
 Child Class
 -----------

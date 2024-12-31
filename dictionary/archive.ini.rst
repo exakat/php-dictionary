@@ -1,4 +1,18 @@
 .. _archive:
+.. meta::
+	:description:
+		Archive: Archives are a single document that stores a collection of files and directories.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Archive
+	:twitter:description: Archive: Archives are a single document that stores a collection of files and directories
+	:twitter:creator: @exakat
+	:og:title: Archive
+	:og:type: article
+	:og:description: Archives are a single document that stores a collection of files and directories
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/archive.ini.html
+	:og:locale: en
+
 
 Archive
 -------

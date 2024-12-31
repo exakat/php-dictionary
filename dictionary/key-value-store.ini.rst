@@ -1,4 +1,18 @@
 .. _key-value-store:
+.. meta::
+	:description:
+		Key-value Stores: A key value store is a server which stores data like a hash.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Key-value Stores
+	:twitter:description: Key-value Stores: A key value store is a server which stores data like a hash
+	:twitter:creator: @exakat
+	:og:title: Key-value Stores
+	:og:type: article
+	:og:description: A key value store is a server which stores data like a hash
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/key-value-store.ini.html
+	:og:locale: en
+
 
 Key-value Stores
 ----------------

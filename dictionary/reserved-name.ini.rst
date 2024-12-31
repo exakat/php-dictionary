@@ -1,5 +1,19 @@
 .. _reserved-name:
 .. _reserved-word:
+.. meta::
+	:description:
+		Reserved Names: PHP shares several namespaces with the users, and has reserved some names for its own usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Reserved Names
+	:twitter:description: Reserved Names: PHP shares several namespaces with the users, and has reserved some names for its own usage
+	:twitter:creator: @exakat
+	:og:title: Reserved Names
+	:og:type: article
+	:og:description: PHP shares several namespaces with the users, and has reserved some names for its own usage
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html
+	:og:locale: en
+
 
 Reserved Names
 --------------

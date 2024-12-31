@@ -1,4 +1,18 @@
 .. _nullsafe-object-operator:
+.. meta::
+	:description:
+		Null Safe Object Operator: The Null Safe Object Operator behaves like the object operator, until the object is null.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Null Safe Object Operator
+	:twitter:description: Null Safe Object Operator: The Null Safe Object Operator behaves like the object operator, until the object is null
+	:twitter:creator: @exakat
+	:og:title: Null Safe Object Operator
+	:og:type: article
+	:og:description: The Null Safe Object Operator behaves like the object operator, until the object is null
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html
+	:og:locale: en
+
 
 Null Safe Object Operator
 -------------------------

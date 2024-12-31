@@ -1,4 +1,18 @@
 .. _prepared-query:
+.. meta::
+	:description:
+		Prepared Query: A prepared query is a compiled query, where data are provided as parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Prepared Query
+	:twitter:description: Prepared Query: A prepared query is a compiled query, where data are provided as parameters
+	:twitter:creator: @exakat
+	:og:title: Prepared Query
+	:og:type: article
+	:og:description: A prepared query is a compiled query, where data are provided as parameters
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/prepared-query.ini.html
+	:og:locale: en
+
 
 Prepared Query
 --------------

@@ -1,4 +1,18 @@
 .. _outgoing-data:
+.. meta::
+	:description:
+		Outgoing Data: Outgoing data are data submitted by PHP to an external user.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Outgoing Data
+	:twitter:description: Outgoing Data: Outgoing data are data submitted by PHP to an external user
+	:twitter:creator: @exakat
+	:og:title: Outgoing Data
+	:og:type: article
+	:og:description: Outgoing data are data submitted by PHP to an external user
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/outgoing-data.ini.html
+	:og:locale: en
+
 
 Outgoing Data
 -------------

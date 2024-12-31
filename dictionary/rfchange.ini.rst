@@ -1,4 +1,18 @@
 .. _rfchange:
+.. meta::
+	:description:
+		Request For Change: A Request For Change is a document containing a call for an adjustment of a source code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Request For Change
+	:twitter:description: Request For Change: A Request For Change is a document containing a call for an adjustment of a source code
+	:twitter:creator: @exakat
+	:og:title: Request For Change
+	:og:type: article
+	:og:description: A Request For Change is a document containing a call for an adjustment of a source code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rfchange.ini.html
+	:og:locale: en
+
 
 Request For Change
 ------------------

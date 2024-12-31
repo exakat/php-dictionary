@@ -1,5 +1,19 @@
 .. _nesting:
 .. _nested:
+.. meta::
+	:description:
+		Nesting: Nesting refers to the practice of placing code block or construct inside another.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nesting
+	:twitter:description: Nesting: Nesting refers to the practice of placing code block or construct inside another
+	:twitter:creator: @exakat
+	:og:title: Nesting
+	:og:type: article
+	:og:description: Nesting refers to the practice of placing code block or construct inside another
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/nesting.ini.html
+	:og:locale: en
+
 
 Nesting
 -------

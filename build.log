@@ -1,4 +1,5 @@
 No extension INI on ./human/en/Features/Dictionnaire PHP.txt
+Can't process seeAlso https://www.php.net/manual/en/function.fopen.php in ./human/en/Features/file-mode.ini
 Can't process seeAlso https://reintech.io/blog/a-guide-to-php-snmp-library-for-simple-network-management-protocol in ./human/en/Features/snmp.ini
 __isset() method has a wrong format (missing capitals) in file ./human/en/Features/__isset.ini
 __serialize() method has a wrong format (missing capitals) in file ./human/en/Features/__serialize.ini
@@ -124,6 +125,7 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/extension.ini last char is not a .
 ./human/en/Features/falsy.ini has empty tags section
 ./human/en/Features/ffi.ini has empty tags section
+./human/en/Features/file-mode.ini has no description. Omitting. 
 ./human/en/Features/file.ini has empty tags section
 ./human/en/Features/filesystem.ini has empty tags section
 ./human/en/Features/final.ini has empty tags section
@@ -289,6 +291,7 @@ Missing target related link for allowdynamicproperty in ./human/en/Features/php-
 ./human/en/Features/shell.ini has empty tags section
 ./human/en/Features/short-tag.ini has empty tags section
 ./human/en/Features/shutdown-function.ini has empty tags section
+./human/en/Features/sign.ini has empty tags section
 ./human/en/Features/signature.ini has empty tags section
 ./human/en/Features/silent.ini has empty tags section
 ./human/en/Features/simplexml.ini has empty tags section

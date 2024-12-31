@@ -1,5 +1,19 @@
 .. _decorator:
 .. _decoration:
+.. meta::
+	:description:
+		Decorator Pattern: A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Decorator Pattern
+	:twitter:description: Decorator Pattern: A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code
+	:twitter:creator: @exakat
+	:og:title: Decorator Pattern
+	:og:type: article
+	:og:description: A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/decorator.ini.html
+	:og:locale: en
+
 
 Decorator Pattern
 -----------------

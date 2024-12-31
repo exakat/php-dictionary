@@ -1,4 +1,18 @@
 .. _operator:
+.. meta::
+	:description:
+		Operators: An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Operators
+	:twitter:description: Operators: An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression)
+	:twitter:creator: @exakat
+	:og:title: Operators
+	:og:type: article
+	:og:description: An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html
+	:og:locale: en
+
 
 Operators
 ---------

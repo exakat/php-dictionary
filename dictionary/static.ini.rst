@@ -1,4 +1,18 @@
 .. _static:
+.. meta::
+	:description:
+		static: The ``static`` keyword has several distinct usages.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: static
+	:twitter:description: static: The ``static`` keyword has several distinct usages
+	:twitter:creator: @exakat
+	:og:title: static
+	:og:type: article
+	:og:description: The ``static`` keyword has several distinct usages
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html
+	:og:locale: en
+
 
 static
 ------

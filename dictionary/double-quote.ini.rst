@@ -1,4 +1,18 @@
 .. _double-quote:
+.. meta::
+	:description:
+		Double Quotes Strings: Double quoted strings are strings that include variables (properties and arrays), which are interpolated at execution time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Double Quotes Strings
+	:twitter:description: Double Quotes Strings: Double quoted strings are strings that include variables (properties and arrays), which are interpolated at execution time
+	:twitter:creator: @exakat
+	:og:title: Double Quotes Strings
+	:og:type: article
+	:og:description: Double quoted strings are strings that include variables (properties and arrays), which are interpolated at execution time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/double-quote.ini.html
+	:og:locale: en
+
 
 Double Quotes Strings
 ---------------------

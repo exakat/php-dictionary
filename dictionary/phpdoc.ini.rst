@@ -1,4 +1,18 @@
 .. _phpdoc:
+.. meta::
+	:description:
+		PHPdoc: PHPDoc is a style of PHP comments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHPdoc
+	:twitter:description: PHPdoc: PHPDoc is a style of PHP comments
+	:twitter:creator: @exakat
+	:og:title: PHPdoc
+	:og:type: article
+	:og:description: PHPDoc is a style of PHP comments
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/phpdoc.ini.html
+	:og:locale: en
+
 
 PHPdoc
 ------

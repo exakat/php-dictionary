@@ -1,4 +1,18 @@
 .. _simplexml:
+.. meta::
+	:description:
+		SimpleXML: The SimpleXML extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SimpleXML
+	:twitter:description: SimpleXML: The SimpleXML extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators
+	:twitter:creator: @exakat
+	:og:title: SimpleXML
+	:og:type: article
+	:og:description: The SimpleXML extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/simplexml.ini.html
+	:og:locale: en
+
 
 SimpleXML
 ---------

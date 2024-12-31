@@ -1,4 +1,18 @@
 .. _coupling:
+.. meta::
+	:description:
+		Coupling: Coupling refers to the degree of dependency between different classes of a software.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Coupling
+	:twitter:description: Coupling: Coupling refers to the degree of dependency between different classes of a software
+	:twitter:creator: @exakat
+	:og:title: Coupling
+	:og:type: article
+	:og:description: Coupling refers to the degree of dependency between different classes of a software
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/coupling.ini.html
+	:og:locale: en
+
 
 Coupling
 --------

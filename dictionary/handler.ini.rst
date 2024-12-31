@@ -1,4 +1,18 @@
 .. _handler:
+.. meta::
+	:description:
+		PHP Handlers: PHP handlers are methods which are called to customize the processing of specific events.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Handlers
+	:twitter:description: PHP Handlers: PHP handlers are methods which are called to customize the processing of specific events
+	:twitter:creator: @exakat
+	:og:title: PHP Handlers
+	:og:type: article
+	:og:description: PHP handlers are methods which are called to customize the processing of specific events
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/handler.ini.html
+	:og:locale: en
+
 
 PHP Handlers
 ------------

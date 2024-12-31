@@ -1,4 +1,18 @@
 .. _for:
+.. meta::
+	:description:
+		For: For is a loop structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: For
+	:twitter:description: For: For is a loop structure
+	:twitter:creator: @exakat
+	:og:title: For
+	:og:type: article
+	:og:description: For is a loop structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html
+	:og:locale: en
+
 
 For
 ---

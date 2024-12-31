@@ -1,4 +1,18 @@
 .. _csv:
+.. meta::
+	:description:
+		CSV: CSV is a data format, where values are separated by commas.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CSV
+	:twitter:description: CSV: CSV is a data format, where values are separated by commas
+	:twitter:creator: @exakat
+	:og:title: CSV
+	:og:type: article
+	:og:description: CSV is a data format, where values are separated by commas
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html
+	:og:locale: en
+
 
 CSV
 ---

@@ -1,4 +1,18 @@
 .. _shared-memory:
+.. meta::
+	:description:
+		Shared Memory: Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Shared Memory
+	:twitter:description: Shared Memory: Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment
+	:twitter:creator: @exakat
+	:og:title: Shared Memory
+	:og:type: article
+	:og:description: Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/shared-memory.ini.html
+	:og:locale: en
+
 
 Shared Memory
 -------------

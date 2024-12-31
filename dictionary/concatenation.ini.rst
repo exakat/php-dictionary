@@ -1,5 +1,19 @@
 .. _concatenation:
 .. _concat:
+.. meta::
+	:description:
+		Concatenation: Concatenation is the PHP feature that appends two strings together, to make a third, longer one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Concatenation
+	:twitter:description: Concatenation: Concatenation is the PHP feature that appends two strings together, to make a third, longer one
+	:twitter:creator: @exakat
+	:og:title: Concatenation
+	:og:type: article
+	:og:description: Concatenation is the PHP feature that appends two strings together, to make a third, longer one
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html
+	:og:locale: en
+
 
 Concatenation
 -------------

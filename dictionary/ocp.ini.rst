@@ -1,4 +1,18 @@
 .. _ocp:
+.. meta::
+	:description:
+		Open Closed Principle: The open–closed principle states that classes should be open for extension, but closed for modification.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Open Closed Principle
+	:twitter:description: Open Closed Principle: The open–closed principle states that classes should be open for extension, but closed for modification
+	:twitter:creator: @exakat
+	:og:title: Open Closed Principle
+	:og:type: article
+	:og:description: The open–closed principle states that classes should be open for extension, but closed for modification
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ocp.ini.html
+	:og:locale: en
+
 
 Open Closed Principle
 ---------------------

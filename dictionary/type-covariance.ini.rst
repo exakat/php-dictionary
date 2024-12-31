@@ -1,5 +1,19 @@
 .. _type-covariance:
 .. _covariance:
+.. meta::
+	:description:
+		Covariance: Covariance allows a child's method to return a more specific type than the return type of its parent's method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Covariance
+	:twitter:description: Covariance: Covariance allows a child's method to return a more specific type than the return type of its parent's method
+	:twitter:creator: @exakat
+	:og:title: Covariance
+	:og:type: article
+	:og:description: Covariance allows a child's method to return a more specific type than the return type of its parent's method
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html
+	:og:locale: en
+
 
 Covariance
 ----------

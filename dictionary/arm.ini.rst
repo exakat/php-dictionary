@@ -1,4 +1,18 @@
 .. _arm:
+.. meta::
+	:description:
+		Arm: An arm is a branch in a match() expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Arm
+	:twitter:description: Arm: An arm is a branch in a match() expression
+	:twitter:creator: @exakat
+	:og:title: Arm
+	:og:type: article
+	:og:description: An arm is a branch in a match() expression
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/arm.ini.html
+	:og:locale: en
+
 
 Arm
 ---

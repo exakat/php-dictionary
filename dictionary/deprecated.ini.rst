@@ -1,4 +1,18 @@
 .. _deprecated:
+.. meta::
+	:description:
+		Deprecated: Deprecated is a native PHP attribute.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deprecated
+	:twitter:description: Deprecated: Deprecated is a native PHP attribute
+	:twitter:creator: @exakat
+	:og:title: Deprecated
+	:og:type: article
+	:og:description: Deprecated is a native PHP attribute
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html
+	:og:locale: en
+
 
 Deprecated
 ----------

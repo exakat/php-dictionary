@@ -1,4 +1,18 @@
 .. _private:
+.. meta::
+	:description:
+		Private Visibility: The private keyword is part of the three keywords to define visibility of a method, property or constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Private Visibility
+	:twitter:description: Private Visibility: The private keyword is part of the three keywords to define visibility of a method, property or constant
+	:twitter:creator: @exakat
+	:og:title: Private Visibility
+	:og:type: article
+	:og:description: The private keyword is part of the three keywords to define visibility of a method, property or constant
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html
+	:og:locale: en
+
 
 Private Visibility
 ------------------

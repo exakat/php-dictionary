@@ -1,5 +1,19 @@
 .. _constant-scalar-expression:
 .. _static-constant-expression:
+.. meta::
+	:description:
+		Constant Scalar Expression: A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values (constants), operators.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant Scalar Expression
+	:twitter:description: Constant Scalar Expression: A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values (constants), operators
+	:twitter:creator: @exakat
+	:og:title: Constant Scalar Expression
+	:og:type: article
+	:og:description: A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values (constants), operators
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-scalar-expression.ini.html
+	:og:locale: en
+
 
 Constant Scalar Expression
 --------------------------

@@ -1,4 +1,18 @@
 .. _parameter-removal:
+.. meta::
+	:description:
+		Parameter Removal: Parameter removal is the operation to remove a parameter in a method's signature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parameter Removal
+	:twitter:description: Parameter Removal: Parameter removal is the operation to remove a parameter in a method's signature
+	:twitter:creator: @exakat
+	:og:title: Parameter Removal
+	:og:type: article
+	:og:description: Parameter removal is the operation to remove a parameter in a method's signature
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter-removal.ini.html
+	:og:locale: en
+
 
 Parameter Removal
 -----------------

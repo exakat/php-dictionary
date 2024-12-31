@@ -1,4 +1,18 @@
 .. _template:
+.. meta::
+	:description:
+		Template: A template is a preset document, filled with values in placeholders, to display the resulting data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Template
+	:twitter:description: Template: A template is a preset document, filled with values in placeholders, to display the resulting data
+	:twitter:creator: @exakat
+	:og:title: Template
+	:og:type: article
+	:og:description: A template is a preset document, filled with values in placeholders, to display the resulting data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/template.ini.html
+	:og:locale: en
+
 
 Template
 --------

@@ -1,4 +1,18 @@
 .. _php:
+.. meta::
+	:description:
+		PHP: A popular general-purpose scripting language that is especially suited to web development.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP
+	:twitter:description: PHP: A popular general-purpose scripting language that is especially suited to web development
+	:twitter:creator: @exakat
+	:og:title: PHP
+	:og:type: article
+	:og:description: A popular general-purpose scripting language that is especially suited to web development
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html
+	:og:locale: en
+
 
 PHP
 ---

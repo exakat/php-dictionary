@@ -1,4 +1,18 @@
 .. _sensitiveparameter:
+.. meta::
+	:description:
+		Sensitive Parameter: This is a native PHP attribute, which tells the engine that a parameter is a sensitive parameter, and should not be displayed by PHP when an error displays the stack trace.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sensitive Parameter
+	:twitter:description: Sensitive Parameter: This is a native PHP attribute, which tells the engine that a parameter is a sensitive parameter, and should not be displayed by PHP when an error displays the stack trace
+	:twitter:creator: @exakat
+	:og:title: Sensitive Parameter
+	:og:type: article
+	:og:description: This is a native PHP attribute, which tells the engine that a parameter is a sensitive parameter, and should not be displayed by PHP when an error displays the stack trace
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sensitiveparameter.ini.html
+	:og:locale: en
+
 
 Sensitive Parameter
 -------------------

@@ -1,4 +1,18 @@
 .. _generator:
+.. meta::
+	:description:
+		Generator: Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Generator
+	:twitter:description: Generator: Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface
+	:twitter:creator: @exakat
+	:og:title: Generator
+	:og:type: article
+	:og:description: Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html
+	:og:locale: en
+
 
 Generator
 ---------

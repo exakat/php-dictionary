@@ -1,4 +1,18 @@
 .. _chaining:
+.. meta::
+	:description:
+		Chaining: Chaining refers to the practice to link several elements one to each other.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Chaining
+	:twitter:description: Chaining: Chaining refers to the practice to link several elements one to each other
+	:twitter:creator: @exakat
+	:og:title: Chaining
+	:og:type: article
+	:og:description: Chaining refers to the practice to link several elements one to each other
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining.ini.html
+	:og:locale: en
+
 
 Chaining
 --------

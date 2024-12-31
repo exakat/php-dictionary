@@ -1,4 +1,18 @@
 .. _test-pyramid:
+.. meta::
+	:description:
+		Test Pyramid: The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Test Pyramid
+	:twitter:description: Test Pyramid: The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy
+	:twitter:creator: @exakat
+	:og:title: Test Pyramid
+	:og:type: article
+	:og:description: The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/test-pyramid.ini.html
+	:og:locale: en
+
 
 Test Pyramid
 ------------

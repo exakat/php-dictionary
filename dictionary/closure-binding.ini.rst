@@ -1,4 +1,18 @@
 .. _closure-binding:
+.. meta::
+	:description:
+		Closure Binding: A closure acquires values from its context of creation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Closure Binding
+	:twitter:description: Closure Binding: A closure acquires values from its context of creation
+	:twitter:creator: @exakat
+	:og:title: Closure Binding
+	:og:type: article
+	:og:description: A closure acquires values from its context of creation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/closure-binding.ini.html
+	:og:locale: en
+
 
 Closure Binding
 ---------------

@@ -1,5 +1,19 @@
 .. _stdout:
 .. _standard-output:
+.. meta::
+	:description:
+		STDOUT: stdout refers to the standard output stream.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: STDOUT
+	:twitter:description: STDOUT: stdout refers to the standard output stream
+	:twitter:creator: @exakat
+	:og:title: STDOUT
+	:og:type: article
+	:og:description: stdout refers to the standard output stream
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/stdout.ini.html
+	:og:locale: en
+
 
 STDOUT
 ------

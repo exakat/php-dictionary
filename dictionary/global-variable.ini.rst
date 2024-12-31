@@ -1,4 +1,18 @@
 .. _global-variable:
+.. meta::
+	:description:
+		Global Variables: Variables that reside in the global scope, and may be imported with the global keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Global Variables
+	:twitter:description: Global Variables: Variables that reside in the global scope, and may be imported with the global keyword
+	:twitter:creator: @exakat
+	:og:title: Global Variables
+	:og:type: article
+	:og:description: Variables that reside in the global scope, and may be imported with the global keyword
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html
+	:og:locale: en
+
 
 Global Variables
 ----------------

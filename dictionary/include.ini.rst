@@ -2,6 +2,20 @@
 .. _include_once:
 .. _require_once:
 .. _require:
+.. meta::
+	:description:
+		include: Inclusion, often represented by the ``include`` keyword, is the process to read an external file, and evaluate with the current application for execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: include
+	:twitter:description: include: Inclusion, often represented by the ``include`` keyword, is the process to read an external file, and evaluate with the current application for execution
+	:twitter:creator: @exakat
+	:og:title: include
+	:og:type: article
+	:og:description: Inclusion, often represented by the ``include`` keyword, is the process to read an external file, and evaluate with the current application for execution
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html
+	:og:locale: en
+
 
 include
 -------

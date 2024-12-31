@@ -1,4 +1,18 @@
 .. _$argv:
+.. meta::
+	:description:
+		$argv: $argv is a PHP variable that contains an array of the arguments passed to the PHP script, in command line.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $argv
+	:twitter:description: $argv: $argv is a PHP variable that contains an array of the arguments passed to the PHP script, in command line
+	:twitter:creator: @exakat
+	:og:title: $argv
+	:og:type: article
+	:og:description: $argv is a PHP variable that contains an array of the arguments passed to the PHP script, in command line
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$argv.ini.html
+	:og:locale: en
+
 
 $argv
 -----

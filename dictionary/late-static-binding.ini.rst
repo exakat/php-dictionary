@@ -1,5 +1,19 @@
 .. _late-static-binding:
 .. _late-binding:
+.. meta::
+	:description:
+		Late Static Binding: PHP implements a feature called late static bindings which can be used to reference the called class in a context of static inheritance.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Late Static Binding
+	:twitter:description: Late Static Binding: PHP implements a feature called late static bindings which can be used to reference the called class in a context of static inheritance
+	:twitter:creator: @exakat
+	:og:title: Late Static Binding
+	:og:type: article
+	:og:description: PHP implements a feature called late static bindings which can be used to reference the called class in a context of static inheritance
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/late-static-binding.ini.html
+	:og:locale: en
+
 
 Late Static Binding
 -------------------

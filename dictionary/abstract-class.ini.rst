@@ -1,4 +1,18 @@
 .. _abstract-class:
+.. meta::
+	:description:
+		Abstract Class: An abstract class is a class that cannot be instantiated directly.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Class
+	:twitter:description: Abstract Class: An abstract class is a class that cannot be instantiated directly
+	:twitter:creator: @exakat
+	:og:title: Abstract Class
+	:og:type: article
+	:og:description: An abstract class is a class that cannot be instantiated directly
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html
+	:og:locale: en
+
 
 Abstract Class
 --------------

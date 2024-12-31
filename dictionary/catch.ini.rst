@@ -1,4 +1,18 @@
 .. _catch:
+.. meta::
+	:description:
+		Catch: Catch is the complement clause of try : it defines which exception is caught.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Catch
+	:twitter:description: Catch: Catch is the complement clause of try : it defines which exception is caught
+	:twitter:creator: @exakat
+	:og:title: Catch
+	:og:type: article
+	:og:description: Catch is the complement clause of try : it defines which exception is caught
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html
+	:og:locale: en
+
 
 Catch
 -----

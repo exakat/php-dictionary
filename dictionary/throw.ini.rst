@@ -1,4 +1,18 @@
 .. _throw:
+.. meta::
+	:description:
+		throw: Throw is the keyword which raise an exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: throw
+	:twitter:description: throw: Throw is the keyword which raise an exception
+	:twitter:creator: @exakat
+	:og:title: throw
+	:og:type: article
+	:og:description: Throw is the keyword which raise an exception
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html
+	:og:locale: en
+
 
 throw
 -----

@@ -1,4 +1,18 @@
 .. _operand:
+.. meta::
+	:description:
+		Operand: An operand is an argument for an operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Operand
+	:twitter:description: Operand: An operand is an argument for an operator
+	:twitter:creator: @exakat
+	:og:title: Operand
+	:og:type: article
+	:og:description: An operand is an argument for an operator
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/operand.ini.html
+	:og:locale: en
+
 
 Operand
 -------

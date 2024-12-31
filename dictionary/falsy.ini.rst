@@ -1,4 +1,18 @@
 .. _falsy:
+.. meta::
+	:description:
+		Falsy: A falsy value is a value that evaluate to false, when cast to a boolean.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Falsy
+	:twitter:description: Falsy: A falsy value is a value that evaluate to false, when cast to a boolean
+	:twitter:creator: @exakat
+	:og:title: Falsy
+	:og:type: article
+	:og:description: A falsy value is a value that evaluate to false, when cast to a boolean
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/falsy.ini.html
+	:og:locale: en
+
 
 Falsy
 -----

@@ -1,5 +1,19 @@
 .. _comparison-operator:
 .. _comparison:
+.. meta::
+	:description:
+		Comparison: Comparison operators, as their name implies, allow you to compare two values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Comparison
+	:twitter:description: Comparison: Comparison operators, as their name implies, allow you to compare two values
+	:twitter:creator: @exakat
+	:og:title: Comparison
+	:og:type: article
+	:og:description: Comparison operators, as their name implies, allow you to compare two values
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison-operator.ini.html
+	:og:locale: en
+
 
 Comparison
 ----------

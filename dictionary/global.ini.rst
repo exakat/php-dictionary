@@ -1,4 +1,18 @@
 .. _global:
+.. meta::
+	:description:
+		global Scope: The global scope is the top level scope.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: global Scope
+	:twitter:description: global Scope: The global scope is the top level scope
+	:twitter:creator: @exakat
+	:og:title: global Scope
+	:og:type: article
+	:og:description: The global scope is the top level scope
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html
+	:og:locale: en
+
 
 global Scope
 ------------

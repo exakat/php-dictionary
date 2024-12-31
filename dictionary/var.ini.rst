@@ -1,4 +1,18 @@
 .. _var:
+.. meta::
+	:description:
+		Var: var keyword for introducing PHP properties in classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Var
+	:twitter:description: Var: var keyword for introducing PHP properties in classes
+	:twitter:creator: @exakat
+	:og:title: Var
+	:og:type: article
+	:og:description: var keyword for introducing PHP properties in classes
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/var.ini.html
+	:og:locale: en
+
 
 Var
 ---

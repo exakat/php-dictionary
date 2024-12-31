@@ -1,4 +1,18 @@
 .. _upgrade:
+.. meta::
+	:description:
+		Upgrade: An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Upgrade
+	:twitter:description: Upgrade: An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version
+	:twitter:creator: @exakat
+	:og:title: Upgrade
+	:og:type: article
+	:og:description: An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/upgrade.ini.html
+	:og:locale: en
+
 
 Upgrade
 -------

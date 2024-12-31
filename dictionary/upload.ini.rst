@@ -1,5 +1,19 @@
 .. _upload:
 .. _file-upload:
+.. meta::
+	:description:
+		File Upload: PHP is able to receive files as part of a form submission.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File Upload
+	:twitter:description: File Upload: PHP is able to receive files as part of a form submission
+	:twitter:creator: @exakat
+	:og:title: File Upload
+	:og:type: article
+	:og:description: PHP is able to receive files as part of a form submission
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/upload.ini.html
+	:og:locale: en
+
 
 File Upload
 -----------

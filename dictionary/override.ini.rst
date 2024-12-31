@@ -1,4 +1,18 @@
 .. _override:
+.. meta::
+	:description:
+		Override Attribute: This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Override Attribute
+	:twitter:description: Override Attribute: This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent
+	:twitter:creator: @exakat
+	:og:title: Override Attribute
+	:og:type: article
+	:og:description: This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html
+	:og:locale: en
+
 
 Override Attribute
 ------------------

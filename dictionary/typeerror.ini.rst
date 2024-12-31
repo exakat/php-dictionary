@@ -1,4 +1,18 @@
 .. _typeerror:
+.. meta::
+	:description:
+		TypeError: A type error refers to an error that occurs when there is a mismatch or violation of data types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: TypeError
+	:twitter:description: TypeError: A type error refers to an error that occurs when there is a mismatch or violation of data types
+	:twitter:creator: @exakat
+	:og:title: TypeError
+	:og:type: article
+	:og:description: A type error refers to an error that occurs when there is a mismatch or violation of data types
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/typeerror.ini.html
+	:og:locale: en
+
 
 TypeError
 ---------

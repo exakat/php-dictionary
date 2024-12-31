@@ -1,4 +1,18 @@
 .. _http-header:
+.. meta::
+	:description:
+		HTTP Headers: HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTTP Headers
+	:twitter:description: HTTP Headers: HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction
+	:twitter:creator: @exakat
+	:og:title: HTTP Headers
+	:og:type: article
+	:og:description: HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html
+	:og:locale: en
+
 
 HTTP Headers
 ------------

@@ -1,4 +1,18 @@
 .. _$HTTP_RAW_POST_DATA:
+.. meta::
+	:description:
+		$HTTP_RAW_POST_DATA: `$HTTP_RAW_POST_DATA` used to contain the raw POST data of an HTTP request.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $HTTP_RAW_POST_DATA
+	:twitter:description: $HTTP_RAW_POST_DATA: `$HTTP_RAW_POST_DATA` used to contain the raw POST data of an HTTP request
+	:twitter:creator: @exakat
+	:og:title: $HTTP_RAW_POST_DATA
+	:og:type: article
+	:og:description: `$HTTP_RAW_POST_DATA` used to contain the raw POST data of an HTTP request
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$HTTP_RAW_POST_DATA.ini.html
+	:og:locale: en
+
 
 $HTTP_RAW_POST_DATA
 -------------------

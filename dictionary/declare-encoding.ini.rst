@@ -1,4 +1,18 @@
 .. _declare-encoding:
+.. meta::
+	:description:
+		declare Encoding: declare() with the ``encoding`` keyword specifies the encoding of the file that holds PHP script.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: declare Encoding
+	:twitter:description: declare Encoding: declare() with the ``encoding`` keyword specifies the encoding of the file that holds PHP script
+	:twitter:creator: @exakat
+	:og:title: declare Encoding
+	:og:type: article
+	:og:description: declare() with the ``encoding`` keyword specifies the encoding of the file that holds PHP script
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/declare-encoding.ini.html
+	:og:locale: en
+
 
 declare Encoding
 ----------------

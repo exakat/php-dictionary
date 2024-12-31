@@ -1,4 +1,18 @@
 .. _callable:
+.. meta::
+	:description:
+		Callables: A callable is an object that can pass the ``callable`` type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Callables
+	:twitter:description: Callables: A callable is an object that can pass the ``callable`` type
+	:twitter:creator: @exakat
+	:og:title: Callables
+	:og:type: article
+	:og:description: A callable is an object that can pass the ``callable`` type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html
+	:og:locale: en
+
 
 Callables
 ---------

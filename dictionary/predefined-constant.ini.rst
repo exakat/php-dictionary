@@ -1,4 +1,18 @@
 .. _predefined-constant:
+.. meta::
+	:description:
+		Predefined Constants: Predefined constants are PHP native constants, available at the start of the PHP engine.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Predefined Constants
+	:twitter:description: Predefined Constants: Predefined constants are PHP native constants, available at the start of the PHP engine
+	:twitter:creator: @exakat
+	:og:title: Predefined Constants
+	:og:type: article
+	:og:description: Predefined constants are PHP native constants, available at the start of the PHP engine
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-constant.ini.html
+	:og:locale: en
+
 
 Predefined Constants
 --------------------

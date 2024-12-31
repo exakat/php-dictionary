@@ -1,4 +1,18 @@
 .. _ast:
+.. meta::
+	:description:
+		Abstract Syntactic Tree: An abstract syntax tree (AST), is a tree representation of the abstract syntactic structure of PHP source code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Syntactic Tree
+	:twitter:description: Abstract Syntactic Tree: An abstract syntax tree (AST), is a tree representation of the abstract syntactic structure of PHP source code
+	:twitter:creator: @exakat
+	:og:title: Abstract Syntactic Tree
+	:og:type: article
+	:og:description: An abstract syntax tree (AST), is a tree representation of the abstract syntactic structure of PHP source code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html
+	:og:locale: en
+
 
 Abstract Syntactic Tree
 -----------------------

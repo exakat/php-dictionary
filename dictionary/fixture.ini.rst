@@ -1,4 +1,18 @@
 .. _fixture:
+.. meta::
+	:description:
+		Fixture: A fixture is a set of test data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fixture
+	:twitter:description: Fixture: A fixture is a set of test data
+	:twitter:creator: @exakat
+	:og:title: Fixture
+	:og:type: article
+	:og:description: A fixture is a set of test data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fixture.ini.html
+	:og:locale: en
+
 
 Fixture
 -------

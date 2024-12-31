@@ -1,4 +1,18 @@
 .. _promoted-property:
+.. meta::
+	:description:
+		Promoted Properties: Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Promoted Properties
+	:twitter:description: Promoted Properties: Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation
+	:twitter:creator: @exakat
+	:og:title: Promoted Properties
+	:og:type: article
+	:og:description: Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html
+	:og:locale: en
+
 
 Promoted Properties
 -------------------

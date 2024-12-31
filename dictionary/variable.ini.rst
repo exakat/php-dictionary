@@ -1,4 +1,18 @@
 .. _variable:
+.. meta::
+	:description:
+		Variables: Variables are used to store and manipulate data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variables
+	:twitter:description: Variables: Variables are used to store and manipulate data
+	:twitter:creator: @exakat
+	:og:title: Variables
+	:og:type: article
+	:og:description: Variables are used to store and manipulate data
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html
+	:og:locale: en
+
 
 Variables
 ---------

@@ -1,4 +1,18 @@
 .. _anonymous-constant:
+.. meta::
+	:description:
+		Anonymous Constant: A constant may be anonymous.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Anonymous Constant
+	:twitter:description: Anonymous Constant: A constant may be anonymous
+	:twitter:creator: @exakat
+	:og:title: Anonymous Constant
+	:og:type: article
+	:og:description: A constant may be anonymous
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-constant.ini.html
+	:og:locale: en
+
 
 Anonymous Constant
 ------------------

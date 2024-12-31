@@ -1,4 +1,18 @@
 .. _ctype:
+.. meta::
+	:description:
+		Ctype: `ctype` is a set of functions used for character type checking.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ctype
+	:twitter:description: Ctype: `ctype` is a set of functions used for character type checking
+	:twitter:creator: @exakat
+	:og:title: Ctype
+	:og:type: article
+	:og:description: `ctype` is a set of functions used for character type checking
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ctype.ini.html
+	:og:locale: en
+
 
 Ctype
 -----

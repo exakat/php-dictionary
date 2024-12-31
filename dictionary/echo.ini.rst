@@ -1,4 +1,18 @@
 .. _echo:
+.. meta::
+	:description:
+		Echo: ``echo`` is a PHP language construct used to output text to the browser or the output stream.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Echo
+	:twitter:description: Echo: ``echo`` is a PHP language construct used to output text to the browser or the output stream
+	:twitter:creator: @exakat
+	:og:title: Echo
+	:og:type: article
+	:og:description: ``echo`` is a PHP language construct used to output text to the browser or the output stream
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html
+	:og:locale: en
+
 
 Echo
 ----

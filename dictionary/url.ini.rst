@@ -1,4 +1,18 @@
 .. _url:
+.. meta::
+	:description:
+		Universal Resource Locator (URL): Universal Resource Locator is a string that represents a resource, where to find it, how to access it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Universal Resource Locator (URL)
+	:twitter:description: Universal Resource Locator (URL): Universal Resource Locator is a string that represents a resource, where to find it, how to access it
+	:twitter:creator: @exakat
+	:og:title: Universal Resource Locator (URL)
+	:og:type: article
+	:og:description: Universal Resource Locator is a string that represents a resource, where to find it, how to access it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/url.ini.html
+	:og:locale: en
+
 
 Universal Resource Locator (URL)
 --------------------------------

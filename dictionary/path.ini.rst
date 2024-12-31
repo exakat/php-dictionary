@@ -1,4 +1,18 @@
 .. _path:
+.. meta::
+	:description:
+		Path: A path is a representation of the location of a file or directory within the directory structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Path
+	:twitter:description: Path: A path is a representation of the location of a file or directory within the directory structure
+	:twitter:creator: @exakat
+	:og:title: Path
+	:og:type: article
+	:og:description: A path is a representation of the location of a file or directory within the directory structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html
+	:og:locale: en
+
 
 Path
 ----

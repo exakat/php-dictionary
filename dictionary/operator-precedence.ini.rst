@@ -1,4 +1,18 @@
 .. _operator-precedence:
+.. meta::
+	:description:
+		Operator Precedence: The operator precedence dictates in which order the operators in a same sequence are executed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Operator Precedence
+	:twitter:description: Operator Precedence: The operator precedence dictates in which order the operators in a same sequence are executed
+	:twitter:creator: @exakat
+	:og:title: Operator Precedence
+	:og:type: article
+	:og:description: The operator precedence dictates in which order the operators in a same sequence are executed
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/operator-precedence.ini.html
+	:og:locale: en
+
 
 Operator Precedence
 -------------------

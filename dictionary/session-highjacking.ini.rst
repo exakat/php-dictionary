@@ -1,5 +1,19 @@
 .. _session-highjacking:
 .. _session-hijacking:
+.. meta::
+	:description:
+		Session Hijacking: Session hijacking, also known as session stealing, is an attack where an unauthorized person takes over a user's session.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Session Hijacking
+	:twitter:description: Session Hijacking: Session hijacking, also known as session stealing, is an attack where an unauthorized person takes over a user's session
+	:twitter:creator: @exakat
+	:og:title: Session Hijacking
+	:og:type: article
+	:og:description: Session hijacking, also known as session stealing, is an attack where an unauthorized person takes over a user's session
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/session-highjacking.ini.html
+	:og:locale: en
+
 
 Session Hijacking
 -----------------

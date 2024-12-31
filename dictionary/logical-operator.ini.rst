@@ -4,6 +4,20 @@
 .. _and-operator:
 .. _not:
 .. _logical:
+.. meta::
+	:description:
+		Logical Operators: Logical operators applies four logical functions to booleans.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Logical Operators
+	:twitter:description: Logical Operators: Logical operators applies four logical functions to booleans
+	:twitter:creator: @exakat
+	:og:title: Logical Operators
+	:og:type: article
+	:og:description: Logical operators applies four logical functions to booleans
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html
+	:og:locale: en
+
 
 Logical Operators
 -----------------

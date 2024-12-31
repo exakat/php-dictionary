@@ -1,4 +1,18 @@
 .. _stdclass:
+.. meta::
+	:description:
+		stdclass: Stdclass is a native PHP class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: stdclass
+	:twitter:description: stdclass: Stdclass is a native PHP class
+	:twitter:creator: @exakat
+	:og:title: stdclass
+	:og:type: article
+	:og:description: Stdclass is a native PHP class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html
+	:og:locale: en
+
 
 stdclass
 --------

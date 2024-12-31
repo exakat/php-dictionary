@@ -1,4 +1,18 @@
 .. _http-code:
+.. meta::
+	:description:
+		HTTP Code: HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTTP Code
+	:twitter:description: HTTP Code: HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server
+	:twitter:creator: @exakat
+	:og:title: HTTP Code
+	:og:type: article
+	:og:description: HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/http-code.ini.html
+	:og:locale: en
+
 
 HTTP Code
 ---------

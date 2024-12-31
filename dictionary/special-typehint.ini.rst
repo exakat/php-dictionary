@@ -1,5 +1,19 @@
 .. _special-type:
 .. _special-typehint:
+.. meta::
+	:description:
+		Special Types: PHP defines some special types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Special Types
+	:twitter:description: Special Types: PHP defines some special types
+	:twitter:creator: @exakat
+	:og:title: Special Types
+	:og:type: article
+	:og:description: PHP defines some special types
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/special-type.ini.html
+	:og:locale: en
+
 
 Special Types
 -------------

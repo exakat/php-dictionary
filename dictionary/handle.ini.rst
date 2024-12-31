@@ -1,4 +1,18 @@
 .. _handle:
+.. meta::
+	:description:
+		Handle: A handle, in PHP jargon, represents a datastructure that has established a link with an independant resource.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Handle
+	:twitter:description: Handle: A handle, in PHP jargon, represents a datastructure that has established a link with an independant resource
+	:twitter:creator: @exakat
+	:og:title: Handle
+	:og:type: article
+	:og:description: A handle, in PHP jargon, represents a datastructure that has established a link with an independant resource
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/handle.ini.html
+	:og:locale: en
+
 
 Handle
 ------

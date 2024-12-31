@@ -1,4 +1,18 @@
 .. _obfuscation:
+.. meta::
+	:description:
+		Obfuscation: Obfuscation refers to the practice of deliberately making something difficult to understand or obscure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Obfuscation
+	:twitter:description: Obfuscation: Obfuscation refers to the practice of deliberately making something difficult to understand or obscure
+	:twitter:creator: @exakat
+	:og:title: Obfuscation
+	:og:type: article
+	:og:description: Obfuscation refers to the practice of deliberately making something difficult to understand or obscure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/obfuscation.ini.html
+	:og:locale: en
+
 
 Obfuscation
 -----------

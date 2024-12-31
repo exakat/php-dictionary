@@ -1,4 +1,18 @@
 .. _-__wakeup:
+.. meta::
+	:description:
+		__wakeup() method: __wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __wakeup() method
+	:twitter:description: __wakeup() method: __wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition
+	:twitter:creator: @exakat
+	:og:title: __wakeup() method
+	:og:type: article
+	:og:description: __wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__wakeup.ini.html
+	:og:locale: en
+
 
 __wakeup() method
 -----------------

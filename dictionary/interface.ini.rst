@@ -1,4 +1,18 @@
 .. _interface:
+.. meta::
+	:description:
+		Interfaces: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interfaces
+	:twitter:description: Interfaces: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented
+	:twitter:creator: @exakat
+	:og:title: Interfaces
+	:og:type: article
+	:og:description: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html
+	:og:locale: en
+
 
 Interfaces
 ----------

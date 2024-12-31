@@ -1,4 +1,18 @@
 .. _traversal:
+.. meta::
+	:description:
+		Traversal: A traversal is the process to list of all elements in a data structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Traversal
+	:twitter:description: Traversal: A traversal is the process to list of all elements in a data structure
+	:twitter:creator: @exakat
+	:og:title: Traversal
+	:og:type: article
+	:og:description: A traversal is the process to list of all elements in a data structure
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/traversal.ini.html
+	:og:locale: en
+
 
 Traversal
 ---------

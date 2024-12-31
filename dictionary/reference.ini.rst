@@ -1,4 +1,18 @@
 .. _reference:
+.. meta::
+	:description:
+		References: References references allow to create multiple variables that refer to the same underlying value in memory.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: References
+	:twitter:description: References: References references allow to create multiple variables that refer to the same underlying value in memory
+	:twitter:creator: @exakat
+	:og:title: References
+	:og:type: article
+	:og:description: References references allow to create multiple variables that refer to the same underlying value in memory
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html
+	:og:locale: en
+
 
 References
 ----------

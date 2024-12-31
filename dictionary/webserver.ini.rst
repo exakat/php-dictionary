@@ -1,4 +1,18 @@
 .. _webserver:
+.. meta::
+	:description:
+		Webserver: A webserver .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Webserver
+	:twitter:description: Webserver: A webserver 
+	:twitter:creator: @exakat
+	:og:title: Webserver
+	:og:type: article
+	:og:description: A webserver 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/webserver.ini.html
+	:og:locale: en
+
 
 Webserver
 ---------

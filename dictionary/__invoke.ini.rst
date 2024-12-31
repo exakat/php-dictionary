@@ -1,4 +1,18 @@
 .. _-__invoke:
+.. meta::
+	:description:
+		__invoke() Method: The __invoke() magic method is called when the code calls an object as a function name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __invoke() Method
+	:twitter:description: __invoke() Method: The __invoke() magic method is called when the code calls an object as a function name
+	:twitter:creator: @exakat
+	:og:title: __invoke() Method
+	:og:type: article
+	:og:description: The __invoke() magic method is called when the code calls an object as a function name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__invoke.ini.html
+	:og:locale: en
+
 
 __invoke() Method
 -----------------

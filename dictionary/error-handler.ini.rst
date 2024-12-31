@@ -1,4 +1,18 @@
 .. _error-handler:
+.. meta::
+	:description:
+		Error Handler: The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Error Handler
+	:twitter:description: Error Handler: The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler
+	:twitter:creator: @exakat
+	:og:title: Error Handler
+	:og:type: article
+	:og:description: The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/error-handler.ini.html
+	:og:locale: en
+
 
 Error Handler
 -------------

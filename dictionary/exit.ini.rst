@@ -1,5 +1,19 @@
 .. _exit:
 .. _die:
+.. meta::
+	:description:
+		Exit: Exit and dies terminates the current process.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exit
+	:twitter:description: Exit: Exit and dies terminates the current process
+	:twitter:creator: @exakat
+	:og:title: Exit
+	:og:type: article
+	:og:description: Exit and dies terminates the current process
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html
+	:og:locale: en
+
 
 Exit
 ----

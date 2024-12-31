@@ -1,4 +1,18 @@
 .. _relative:
+.. meta::
+	:description:
+		Relative: A ``relative`` value is dependant from the context in which it operates.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Relative
+	:twitter:description: Relative: A ``relative`` value is dependant from the context in which it operates
+	:twitter:creator: @exakat
+	:og:title: Relative
+	:og:type: article
+	:og:description: A ``relative`` value is dependant from the context in which it operates
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/relative.ini.html
+	:og:locale: en
+
 
 Relative
 --------

@@ -1,4 +1,18 @@
 .. _-__callStatic:
+.. meta::
+	:description:
+		__callStatic() Method: __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __callStatic() Method
+	:twitter:description: __callStatic() Method: __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it
+	:twitter:creator: @exakat
+	:og:title: __callStatic() Method
+	:og:type: article
+	:og:description: __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__callStatic.ini.html
+	:og:locale: en
+
 
 __callStatic() Method
 ---------------------

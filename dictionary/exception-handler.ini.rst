@@ -1,4 +1,18 @@
 .. _exception-handler:
+.. meta::
+	:description:
+		Exception Handler: The exception handler is a default or custom function, which is called once an exception has exhausted all available try-catch blocks.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exception Handler
+	:twitter:description: Exception Handler: The exception handler is a default or custom function, which is called once an exception has exhausted all available try-catch blocks
+	:twitter:creator: @exakat
+	:og:title: Exception Handler
+	:og:type: article
+	:og:description: The exception handler is a default or custom function, which is called once an exception has exhausted all available try-catch blocks
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-handler.ini.html
+	:og:locale: en
+
 
 Exception Handler
 -----------------

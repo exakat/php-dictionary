@@ -1,4 +1,18 @@
 .. _anonymous-catch:
+.. meta::
+	:description:
+		Anonymous Catch: Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Anonymous Catch
+	:twitter:description: Anonymous Catch: Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception
+	:twitter:creator: @exakat
+	:og:title: Anonymous Catch
+	:og:type: article
+	:og:description: Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-catch.ini.html
+	:og:locale: en
+
 
 Anonymous Catch
 ---------------

@@ -1,4 +1,18 @@
 .. _$php_errormsg:
+.. meta::
+	:description:
+		$php_errormsg: ``$php_errormsg`` contains the last error message, emitted by PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $php_errormsg
+	:twitter:description: $php_errormsg: ``$php_errormsg`` contains the last error message, emitted by PHP
+	:twitter:creator: @exakat
+	:og:title: $php_errormsg
+	:og:type: article
+	:og:description: ``$php_errormsg`` contains the last error message, emitted by PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$php_errormsg.ini.html
+	:og:locale: en
+
 
 $php_errormsg
 -------------

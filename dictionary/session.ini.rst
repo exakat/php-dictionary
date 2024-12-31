@@ -1,4 +1,18 @@
 .. _session:
+.. meta::
+	:description:
+		Session: Session support in PHP consists of a way to preserve certain data across subsequent accesses.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Session
+	:twitter:description: Session: Session support in PHP consists of a way to preserve certain data across subsequent accesses
+	:twitter:creator: @exakat
+	:og:title: Session
+	:og:type: article
+	:og:description: Session support in PHP consists of a way to preserve certain data across subsequent accesses
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html
+	:og:locale: en
+
 
 Session
 -------

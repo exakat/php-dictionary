@@ -1,4 +1,18 @@
 .. _const:
+.. meta::
+	:description:
+		Const: ``const`` is a PHP keyword, that creates constant definitions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Const
+	:twitter:description: Const: ``const`` is a PHP keyword, that creates constant definitions
+	:twitter:creator: @exakat
+	:og:title: Const
+	:og:type: article
+	:og:description: ``const`` is a PHP keyword, that creates constant definitions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/const.ini.html
+	:og:locale: en
+
 
 Const
 -----

@@ -1,4 +1,18 @@
 .. _asymmetric-property:
+.. meta::
+	:description:
+		Asymmetric Property: An asymmetric property is a property that specify the asymmetric visibility.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Asymmetric Property
+	:twitter:description: Asymmetric Property: An asymmetric property is a property that specify the asymmetric visibility
+	:twitter:creator: @exakat
+	:og:title: Asymmetric Property
+	:og:type: article
+	:og:description: An asymmetric property is a property that specify the asymmetric visibility
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/asymmetric-property.ini.html
+	:og:locale: en
+
 
 Asymmetric Property
 -------------------

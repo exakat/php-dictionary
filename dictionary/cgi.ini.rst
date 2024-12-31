@@ -1,4 +1,18 @@
 .. _cgi:
+.. meta::
+	:description:
+		CGI: CGI stands for Common Interface Gateway.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CGI
+	:twitter:description: CGI: CGI stands for Common Interface Gateway
+	:twitter:creator: @exakat
+	:og:title: CGI
+	:og:type: article
+	:og:description: CGI stands for Common Interface Gateway
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/cgi.ini.html
+	:og:locale: en
+
 
 CGI
 ---

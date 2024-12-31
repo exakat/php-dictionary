@@ -1,4 +1,18 @@
 .. _class-alias:
+.. meta::
+	:description:
+		Class Aliases: It is possible to make an alias of a class and call it with this new name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Aliases
+	:twitter:description: Class Aliases: It is possible to make an alias of a class and call it with this new name
+	:twitter:creator: @exakat
+	:og:title: Class Aliases
+	:og:type: article
+	:og:description: It is possible to make an alias of a class and call it with this new name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html
+	:og:locale: en
+
 
 Class Aliases
 -------------

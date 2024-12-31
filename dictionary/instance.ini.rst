@@ -1,6 +1,20 @@
 .. _instance:
 .. _instantiate:
 .. _instantiation:
+.. meta::
+	:description:
+		instance: An instance is an object with a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: instance
+	:twitter:description: instance: An instance is an object with a class
+	:twitter:creator: @exakat
+	:og:title: instance
+	:og:type: article
+	:og:description: An instance is an object with a class
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/instance.ini.html
+	:og:locale: en
+
 
 instance
 --------

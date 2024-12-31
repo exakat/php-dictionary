@@ -1,4 +1,18 @@
 .. _scheme:
+.. meta::
+	:description:
+		Scheme: Scheme is a format for a string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scheme
+	:twitter:description: Scheme: Scheme is a format for a string
+	:twitter:creator: @exakat
+	:og:title: Scheme
+	:og:type: article
+	:og:description: Scheme is a format for a string
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/scheme.ini.html
+	:og:locale: en
+
 
 Scheme
 ------

@@ -1,4 +1,18 @@
 .. _error-handling:
+.. meta::
+	:description:
+		Error Handling: Error handling is a broad concept that covers the different ways that PHP use to signal than an error occured.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Error Handling
+	:twitter:description: Error Handling: Error handling is a broad concept that covers the different ways that PHP use to signal than an error occured
+	:twitter:creator: @exakat
+	:og:title: Error Handling
+	:og:type: article
+	:og:description: Error handling is a broad concept that covers the different ways that PHP use to signal than an error occured
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/error-handling.ini.html
+	:og:locale: en
+
 
 Error Handling
 --------------

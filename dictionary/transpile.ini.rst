@@ -1,4 +1,18 @@
 .. _transpile:
+.. meta::
+	:description:
+		Transpile: Transpiling, short for "source-to-source compiling," is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Transpile
+	:twitter:description: Transpile: Transpiling, short for "source-to-source compiling," is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language
+	:twitter:creator: @exakat
+	:og:title: Transpile
+	:og:type: article
+	:og:description: Transpiling, short for "source-to-source compiling," is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/transpile.ini.html
+	:og:locale: en
+
 
 Transpile
 ---------

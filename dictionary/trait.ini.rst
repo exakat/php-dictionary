@@ -1,4 +1,18 @@
 .. _trait:
+.. meta::
+	:description:
+		Traits: Traits are a mechanism for code reuse in single inheritance languages.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Traits
+	:twitter:description: Traits: Traits are a mechanism for code reuse in single inheritance languages
+	:twitter:creator: @exakat
+	:og:title: Traits
+	:og:type: article
+	:og:description: Traits are a mechanism for code reuse in single inheritance languages
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html
+	:og:locale: en
+
 
 Traits
 ------

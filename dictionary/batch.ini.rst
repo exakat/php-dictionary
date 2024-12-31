@@ -1,4 +1,18 @@
 .. _batch:
+.. meta::
+	:description:
+		Batch: Batch processing refers to the treatment of several items at the same time, instead of one at a time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Batch
+	:twitter:description: Batch: Batch processing refers to the treatment of several items at the same time, instead of one at a time
+	:twitter:creator: @exakat
+	:og:title: Batch
+	:og:type: article
+	:og:description: Batch processing refers to the treatment of several items at the same time, instead of one at a time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/batch.ini.html
+	:og:locale: en
+
 
 Batch
 -----

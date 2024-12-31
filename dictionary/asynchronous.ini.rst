@@ -1,5 +1,19 @@
 .. _asynchronous:
 .. _asynch:
+.. meta::
+	:description:
+		Asynchronous: Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Asynchronous
+	:twitter:description: Asynchronous: Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete
+	:twitter:creator: @exakat
+	:og:title: Asynchronous
+	:og:type: article
+	:og:description: Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/asynchronous.ini.html
+	:og:locale: en
+
 
 Asynchronous
 ------------

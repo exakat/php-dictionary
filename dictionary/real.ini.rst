@@ -1,4 +1,18 @@
 .. _real:
+.. meta::
+	:description:
+		Real Numbers: Real numbers are represented using the ``float`` data type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Real Numbers
+	:twitter:description: Real Numbers: Real numbers are represented using the ``float`` data type
+	:twitter:creator: @exakat
+	:og:title: Real Numbers
+	:og:type: article
+	:og:description: Real numbers are represented using the ``float`` data type
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/real.ini.html
+	:og:locale: en
+
 
 Real Numbers
 ------------

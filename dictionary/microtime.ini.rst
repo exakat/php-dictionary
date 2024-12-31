@@ -1,4 +1,18 @@
 .. _microtime:
+.. meta::
+	:description:
+		Microtime(): microtime() is a native PHP function, which returns the current timestamp, with the microseconds.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Microtime()
+	:twitter:description: Microtime(): microtime() is a native PHP function, which returns the current timestamp, with the microseconds
+	:twitter:creator: @exakat
+	:og:title: Microtime()
+	:og:type: article
+	:og:description: microtime() is a native PHP function, which returns the current timestamp, with the microseconds
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/microtime.ini.html
+	:og:locale: en
+
 
 Microtime()
 -----------

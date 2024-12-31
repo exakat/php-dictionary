@@ -1,4 +1,18 @@
 .. _global-space:
+.. meta::
+	:description:
+		Global Space: The term "global space" refers to the global namespace "\" or the top-level scope in the PHP language.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Global Space
+	:twitter:description: Global Space: The term "global space" refers to the global namespace "\" or the top-level scope in the PHP language
+	:twitter:creator: @exakat
+	:og:title: Global Space
+	:og:type: article
+	:og:description: The term "global space" refers to the global namespace "\" or the top-level scope in the PHP language
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html
+	:og:locale: en
+
 
 Global Space
 ------------

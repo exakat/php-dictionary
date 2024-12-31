@@ -1,5 +1,19 @@
 .. _array:
 .. _array-short-syntax:
+.. meta::
+	:description:
+		Array: array is the array structure in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array
+	:twitter:description: Array: array is the array structure in PHP
+	:twitter:creator: @exakat
+	:og:title: Array
+	:og:type: article
+	:og:description: array is the array structure in PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html
+	:og:locale: en
+
 
 Array
 -----

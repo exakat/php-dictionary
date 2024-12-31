@@ -1,4 +1,18 @@
 .. _yield-from:
+.. meta::
+	:description:
+		yield from Keyword: The `yield from` keyword is used to delegate the iteration control of one generator to another.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: yield from Keyword
+	:twitter:description: yield from Keyword: The `yield from` keyword is used to delegate the iteration control of one generator to another
+	:twitter:creator: @exakat
+	:og:title: yield from Keyword
+	:og:type: article
+	:og:description: The `yield from` keyword is used to delegate the iteration control of one generator to another
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html
+	:og:locale: en
+
 
 yield from Keyword
 ------------------

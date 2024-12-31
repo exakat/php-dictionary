@@ -1,4 +1,18 @@
 .. _finally:
+.. meta::
+	:description:
+		Finally: Finally is the default clause of a try-catch expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Finally
+	:twitter:description: Finally: Finally is the default clause of a try-catch expression
+	:twitter:creator: @exakat
+	:og:title: Finally
+	:og:type: article
+	:og:description: Finally is the default clause of a try-catch expression
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html
+	:og:locale: en
+
 
 Finally
 -------

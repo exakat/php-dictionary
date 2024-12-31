@@ -1,4 +1,18 @@
 .. _multiplication:
+.. meta::
+	:description:
+		Multiplication: Multiplication is the mathematical multiplication.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiplication
+	:twitter:description: Multiplication: Multiplication is the mathematical multiplication
+	:twitter:creator: @exakat
+	:og:title: Multiplication
+	:og:type: article
+	:og:description: Multiplication is the mathematical multiplication
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/multiplication.ini.html
+	:og:locale: en
+
 
 Multiplication
 --------------

@@ -1,5 +1,19 @@
 .. _hash:
 .. _hashing:
+.. meta::
+	:description:
+		Hash: Hash has several meanings : .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hash
+	:twitter:description: Hash: Hash has several meanings : 
+	:twitter:creator: @exakat
+	:og:title: Hash
+	:og:type: article
+	:og:description: Hash has several meanings : 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html
+	:og:locale: en
+
 
 Hash
 ----

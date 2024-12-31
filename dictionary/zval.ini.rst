@@ -1,4 +1,18 @@
 .. _zval:
+.. meta::
+	:description:
+		Zval: ``ZVAL`` is a C structure, that represents data in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Zval
+	:twitter:description: Zval: ``ZVAL`` is a C structure, that represents data in PHP
+	:twitter:creator: @exakat
+	:og:title: Zval
+	:og:type: article
+	:og:description: ``ZVAL`` is a C structure, that represents data in PHP
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/zval.ini.html
+	:og:locale: en
+
 
 Zval
 ----

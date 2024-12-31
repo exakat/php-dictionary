@@ -1,4 +1,18 @@
 .. _https:
+.. meta::
+	:description:
+		HTTPS: Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: HTTPS
+	:twitter:description: HTTPS: Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP)
+	:twitter:creator: @exakat
+	:og:title: HTTPS
+	:og:type: article
+	:og:description: Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol (HTTP)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/https.ini.html
+	:og:locale: en
+
 
 HTTPS
 -----

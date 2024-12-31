@@ -1,4 +1,18 @@
 .. _constant-in-trait:
+.. meta::
+	:description:
+		Constants In Trait: Constants were added to trait in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants In Trait
+	:twitter:description: Constants In Trait: Constants were added to trait in PHP 8
+	:twitter:creator: @exakat
+	:og:title: Constants In Trait
+	:og:type: article
+	:og:description: Constants were added to trait in PHP 8
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-in-trait.ini.html
+	:og:locale: en
+
 
 Constants In Trait
 ------------------

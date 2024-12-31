@@ -1,4 +1,18 @@
 .. _inflector:
+.. meta::
+	:description:
+		Inflector: An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inflector
+	:twitter:description: Inflector: An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase
+	:twitter:creator: @exakat
+	:og:title: Inflector
+	:og:type: article
+	:og:description: An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/inflector.ini.html
+	:og:locale: en
+
 
 Inflector
 ---------

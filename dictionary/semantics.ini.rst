@@ -1,4 +1,18 @@
 .. _semantics:
+.. meta::
+	:description:
+		Semantics: Semantics is related with the meaning of things.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Semantics
+	:twitter:description: Semantics: Semantics is related with the meaning of things
+	:twitter:creator: @exakat
+	:og:title: Semantics
+	:og:type: article
+	:og:description: Semantics is related with the meaning of things
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html
+	:og:locale: en
+
 
 Semantics
 ---------

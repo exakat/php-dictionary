@@ -1,4 +1,18 @@
 .. _by-value:
+.. meta::
+	:description:
+		Passing By Value: When calling a method, or returning from it, data may be passed by value or by reference.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Passing By Value
+	:twitter:description: Passing By Value: When calling a method, or returning from it, data may be passed by value or by reference
+	:twitter:creator: @exakat
+	:og:title: Passing By Value
+	:og:type: article
+	:og:description: When calling a method, or returning from it, data may be passed by value or by reference
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html
+	:og:locale: en
+
 
 Passing By Value
 ----------------

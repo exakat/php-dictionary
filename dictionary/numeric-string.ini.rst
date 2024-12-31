@@ -1,4 +1,18 @@
 .. _numeric-string:
+.. meta::
+	:description:
+		Numeric String: A numeric string, is a string that contains a numeric value, or can be easily converted from string to numeric (integer or float).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Numeric String
+	:twitter:description: Numeric String: A numeric string, is a string that contains a numeric value, or can be easily converted from string to numeric (integer or float)
+	:twitter:creator: @exakat
+	:og:title: Numeric String
+	:og:type: article
+	:og:description: A numeric string, is a string that contains a numeric value, or can be easily converted from string to numeric (integer or float)
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/numeric-string.ini.html
+	:og:locale: en
+
 
 Numeric String
 --------------

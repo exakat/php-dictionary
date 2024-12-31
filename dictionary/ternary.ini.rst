@@ -1,5 +1,19 @@
 .. _ternary:
 .. _ternary-operator:
+.. meta::
+	:description:
+		Ternary Operator: The expression ``(expr1) .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ternary Operator
+	:twitter:description: Ternary Operator: The expression ``(expr1) 
+	:twitter:creator: @exakat
+	:og:title: Ternary Operator
+	:og:type: article
+	:og:description: The expression ``(expr1) 
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html
+	:og:locale: en
+
 
 Ternary Operator
 ----------------

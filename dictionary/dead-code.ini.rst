@@ -1,5 +1,19 @@
 .. _dead-code:
 .. _unused-code:
+.. meta::
+	:description:
+		Dead Code: Dead code refers to sections of code that are no longer executed or reachable during the program's execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dead Code
+	:twitter:description: Dead Code: Dead code refers to sections of code that are no longer executed or reachable during the program's execution
+	:twitter:creator: @exakat
+	:og:title: Dead Code
+	:og:type: article
+	:og:description: Dead code refers to sections of code that are no longer executed or reachable during the program's execution
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dead-code.ini.html
+	:og:locale: en
+
 
 Dead Code
 ---------
