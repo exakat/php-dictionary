@@ -9,6 +9,8 @@
 	:twitter:title: Unserialization
 	:twitter:description: Unserialization: Unserialization is the extraction of an object from a string representation of an object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Unserialization
 	:og:type: article
 	:og:description: Unserialization is the extraction of an object from a string representation of an object

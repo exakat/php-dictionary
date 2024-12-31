@@ -8,6 +8,8 @@
 	:twitter:title: File Upload
 	:twitter:description: File Upload: PHP is able to receive files as part of a form submission
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: File Upload
 	:og:type: article
 	:og:description: PHP is able to receive files as part of a form submission

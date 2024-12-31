@@ -7,6 +7,8 @@
 	:twitter:title: Truthy
 	:twitter:description: Truthy: A truthy value is a value that evaluate to true, when cast to a boolean
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Truthy
 	:og:type: article
 	:og:description: A truthy value is a value that evaluate to true, when cast to a boolean

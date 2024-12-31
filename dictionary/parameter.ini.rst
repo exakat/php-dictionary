@@ -7,6 +7,8 @@
 	:twitter:title: Parameter
 	:twitter:description: Parameter: A parameter is a variable in a method definition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Parameter
 	:og:type: article
 	:og:description: A parameter is a variable in a method definition

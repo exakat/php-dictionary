@@ -7,6 +7,8 @@
 	:twitter:title: Observer Design Pattern
 	:twitter:description: Observer Design Pattern: The observer is an architectural pattern, where objects register to get notified when events happen to a specific object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Observer Design Pattern
 	:og:type: article
 	:og:description: The observer is an architectural pattern, where objects register to get notified when events happen to a specific object

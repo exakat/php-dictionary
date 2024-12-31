@@ -7,6 +7,8 @@
 	:twitter:title: Userland
 	:twitter:description: Userland: A `userland` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developer
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Userland
 	:og:type: article
 	:og:description: A `userland` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developer

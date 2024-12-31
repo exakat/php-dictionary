@@ -7,6 +7,8 @@
 	:twitter:title: Keyword
 	:twitter:description: Keyword: PHP has a list of keywords, which are also called reserved words
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Keyword
 	:og:type: article
 	:og:description: PHP has a list of keywords, which are also called reserved words

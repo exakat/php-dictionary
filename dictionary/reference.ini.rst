@@ -7,6 +7,8 @@
 	:twitter:title: References
 	:twitter:description: References: References references allow to create multiple variables that refer to the same underlying value in memory
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: References
 	:og:type: article
 	:og:description: References references allow to create multiple variables that refer to the same underlying value in memory

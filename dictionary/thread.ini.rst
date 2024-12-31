@@ -7,6 +7,8 @@
 	:twitter:title: Thread
 	:twitter:description: Thread: A thread is a set of instructions, designed to be executed independently from the parent process
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Thread
 	:og:type: article
 	:og:description: A thread is a set of instructions, designed to be executed independently from the parent process

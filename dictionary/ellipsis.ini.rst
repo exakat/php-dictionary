@@ -7,6 +7,8 @@
 	:twitter:title: Ellipsis
 	:twitter:description: Ellipsis: Ellipsis operator is the `
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Ellipsis
 	:og:type: article
 	:og:description: Ellipsis operator is the `

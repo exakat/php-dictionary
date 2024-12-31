@@ -7,6 +7,8 @@
 	:twitter:title: Command Line Interface
 	:twitter:description: Command Line Interface: PHP supports a CLI mode : command line interface
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Command Line Interface
 	:og:type: article
 	:og:description: PHP supports a CLI mode : command line interface

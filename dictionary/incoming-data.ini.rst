@@ -7,6 +7,8 @@
 	:twitter:title: Incoming Data
 	:twitter:description: Incoming Data: Incoming data are data submitted to PHP by the user
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Incoming Data
 	:og:type: article
 	:og:description: Incoming data are data submitted to PHP by the user

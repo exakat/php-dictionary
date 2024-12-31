@@ -7,6 +7,8 @@
 	:twitter:title: variable_order
 	:twitter:description: variable_order: The ``variable_order`` directive sets the order in which the values are assigned to the `$_REQUEST` variable
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: variable_order
 	:og:type: article
 	:og:description: The ``variable_order`` directive sets the order in which the values are assigned to the `$_REQUEST` variable

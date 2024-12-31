@@ -7,6 +7,8 @@
 	:twitter:title: UnhandledMatchError
 	:twitter:description: UnhandledMatchError: An ``UnhandledMatchError`` error is thrown when the subject passed to a match expression is not handled by any case of the match expression
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: UnhandledMatchError
 	:og:type: article
 	:og:description: An ``UnhandledMatchError`` error is thrown when the subject passed to a match expression is not handled by any case of the match expression

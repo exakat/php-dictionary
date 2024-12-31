@@ -7,6 +7,8 @@
 	:twitter:title: Eval()
 	:twitter:description: Eval(): The eval() function executes a string as a PHP code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Eval()
 	:og:type: article
 	:og:description: The eval() function executes a string as a PHP code

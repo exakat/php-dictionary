@@ -8,6 +8,8 @@
 	:twitter:title: Deprecation
 	:twitter:description: Deprecation: Deprecation is the state of a feature which is still available, but not recommended anymore
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Deprecation
 	:og:type: article
 	:og:description: Deprecation is the state of a feature which is still available, but not recommended anymore

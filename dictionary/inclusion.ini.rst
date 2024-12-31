@@ -7,6 +7,8 @@
 	:twitter:title: Inclusions
 	:twitter:description: Inclusions: Inclusion is the operation to add PHP code stored in an external file, into another PHP code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Inclusions
 	:og:type: article
 	:og:description: Inclusion is the operation to add PHP code stored in an external file, into another PHP code

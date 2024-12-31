@@ -7,6 +7,8 @@
 	:twitter:title: Datetime Trap
 	:twitter:description: Datetime Trap: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Datetime Trap
 	:og:type: article
 	:og:description: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself

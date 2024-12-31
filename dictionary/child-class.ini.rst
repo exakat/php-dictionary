@@ -10,6 +10,8 @@
 	:twitter:title: Child Class
 	:twitter:description: Child Class: A child class is a class that extends another class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Child Class
 	:og:type: article
 	:og:description: A child class is a class that extends another class

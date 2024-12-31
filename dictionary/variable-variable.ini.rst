@@ -7,6 +7,8 @@
 	:twitter:title: Variable Variables
 	:twitter:description: Variable Variables: Variable variables refer to a feature that allows to use the value of a variable as the name of another variable
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Variable Variables
 	:og:type: article
 	:og:description: Variable variables refer to a feature that allows to use the value of a variable as the name of another variable

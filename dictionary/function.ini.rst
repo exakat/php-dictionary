@@ -7,6 +7,8 @@
 	:twitter:title: Functions
 	:twitter:description: Functions: Functions in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Functions
 	:og:type: article
 	:og:description: Functions in PHP

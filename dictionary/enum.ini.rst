@@ -8,6 +8,8 @@
 	:twitter:title: Enumeration
 	:twitter:description: Enumeration: Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Enumeration
 	:og:type: article
 	:og:description: Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type

@@ -7,6 +7,8 @@
 	:twitter:title: PHP Variables
 	:twitter:description: PHP Variables: PHP provides a set of predefined variables
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Variables
 	:og:type: article
 	:og:description: PHP provides a set of predefined variables

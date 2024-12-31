@@ -8,6 +8,8 @@
 	:twitter:title: Single Sign On
 	:twitter:description: Single Sign On: Single Sign-On (SSO) is an authentication process that allows users to access multiple applications or services with one set of login credentials (username and password)
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Single Sign On
 	:og:type: article
 	:og:description: Single Sign-On (SSO) is an authentication process that allows users to access multiple applications or services with one set of login credentials (username and password)

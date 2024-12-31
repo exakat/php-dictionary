@@ -7,6 +7,8 @@
 	:twitter:title: Stateless
 	:twitter:description: Stateless: Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Stateless
 	:og:type: article
 	:og:description: Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices

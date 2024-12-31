@@ -7,6 +7,8 @@
 	:twitter:title: Version
 	:twitter:description: Version: In the context of software development, a version refers to a specific iteration or release of a software product or application
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Version
 	:og:type: article
 	:og:description: In the context of software development, a version refers to a specific iteration or release of a software product or application

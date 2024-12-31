@@ -7,6 +7,8 @@
 	:twitter:title: Anonymous Catch
 	:twitter:description: Anonymous Catch: Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Anonymous Catch
 	:og:type: article
 	:og:description: Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception

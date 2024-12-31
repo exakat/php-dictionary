@@ -7,6 +7,8 @@
 	:twitter:title: ValueError
 	:twitter:description: ValueError: A ValueError is thrown when the type of an argument is correct but the value of it is incorrect
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ValueError
 	:og:type: article
 	:og:description: A ValueError is thrown when the type of an argument is correct but the value of it is incorrect

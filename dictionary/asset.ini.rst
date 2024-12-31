@@ -7,6 +7,8 @@
 	:twitter:title: Asset
 	:twitter:description: Asset: Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Asset
 	:og:type: article
 	:og:description: Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project

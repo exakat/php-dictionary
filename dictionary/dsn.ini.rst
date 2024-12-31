@@ -7,6 +7,8 @@
 	:twitter:title: Data Source Name (DSN)
 	:twitter:description: Data Source Name (DSN): A DSN is a string that describes a database location and access
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Data Source Name (DSN)
 	:og:type: article
 	:og:description: A DSN is a string that describes a database location and access

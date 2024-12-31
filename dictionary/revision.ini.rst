@@ -7,6 +7,8 @@
 	:twitter:title: Revision
 	:twitter:description: Revision: A `revision` typically refers to a specific state or snapshot of a VCS repository at a particular point in its history
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Revision
 	:og:type: article
 	:og:description: A `revision` typically refers to a specific state or snapshot of a VCS repository at a particular point in its history

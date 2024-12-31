@@ -7,6 +7,8 @@
 	:twitter:title: Best Practices
 	:twitter:description: Best Practices: Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Best Practices
 	:og:type: article
 	:og:description: Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome

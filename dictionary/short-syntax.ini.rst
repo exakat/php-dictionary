@@ -7,6 +7,8 @@
 	:twitter:title: Short Syntax
 	:twitter:description: Short Syntax: A short syntax is the fusion of an operator with the `=` operator
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Short Syntax
 	:og:type: article
 	:og:description: A short syntax is the fusion of an operator with the `=` operator

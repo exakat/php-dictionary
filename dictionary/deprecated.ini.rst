@@ -7,6 +7,8 @@
 	:twitter:title: Deprecated
 	:twitter:description: Deprecated: Deprecated is a native PHP attribute
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Deprecated
 	:og:type: article
 	:og:description: Deprecated is a native PHP attribute

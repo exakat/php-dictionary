@@ -7,6 +7,8 @@
 	:twitter:title: Private Visibility
 	:twitter:description: Private Visibility: The private keyword is part of the three keywords to define visibility of a method, property or constant
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Private Visibility
 	:og:type: article
 	:og:description: The private keyword is part of the three keywords to define visibility of a method, property or constant

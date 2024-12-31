@@ -7,6 +7,8 @@
 	:twitter:title: Falsy
 	:twitter:description: Falsy: A falsy value is a value that evaluate to false, when cast to a boolean
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Falsy
 	:og:type: article
 	:og:description: A falsy value is a value that evaluate to false, when cast to a boolean

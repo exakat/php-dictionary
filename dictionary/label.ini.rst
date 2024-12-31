@@ -7,6 +7,8 @@
 	:twitter:title: Goto Labels
 	:twitter:description: Goto Labels: Labels are the receiving end of a goto call
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Goto Labels
 	:og:type: article
 	:og:description: Labels are the receiving end of a goto call

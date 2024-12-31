@@ -7,6 +7,8 @@
 	:twitter:title: Password API
 	:twitter:description: Password API: The Password API, or extension, is a part of the Core of PHP, which provides an easy to use wrapper around crypt() and some other password hashing algorithms, to make it easy to create and manage passwords in a secure manner
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Password API
 	:og:type: article
 	:og:description: The Password API, or extension, is a part of the Core of PHP, which provides an easy to use wrapper around crypt() and some other password hashing algorithms, to make it easy to create and manage passwords in a secure manner

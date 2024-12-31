@@ -7,6 +7,8 @@
 	:twitter:title: Multidimensional Array
 	:twitter:description: Multidimensional Array: An array inside an array is called a multidimensional array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Multidimensional Array
 	:og:type: article
 	:og:description: An array inside an array is called a multidimensional array

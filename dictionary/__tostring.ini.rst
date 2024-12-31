@@ -7,6 +7,8 @@
 	:twitter:title: __toString() Method
 	:twitter:description: __toString() Method: __tostring() is a magic method : it is called when the object has to be converted into a string
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __toString() Method
 	:og:type: article
 	:og:description: __tostring() is a magic method : it is called when the object has to be converted into a string

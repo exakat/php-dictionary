@@ -7,6 +7,8 @@
 	:twitter:title: Fossilized Methods
 	:twitter:description: Fossilized Methods: A method become fossilized when it is overwritten many times, leading to the difficulty to update the method signature, without impacting many parts of the code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Fossilized Methods
 	:og:type: article
 	:og:description: A method become fossilized when it is overwritten many times, leading to the difficulty to update the method signature, without impacting many parts of the code

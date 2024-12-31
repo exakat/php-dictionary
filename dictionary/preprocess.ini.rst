@@ -8,6 +8,8 @@
 	:twitter:title: Preprocessing
 	:twitter:description: Preprocessing: Preprocessing is an optimisation technique, where a value is calculated even before the execution of a script
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Preprocessing
 	:og:type: article
 	:og:description: Preprocessing is an optimisation technique, where a value is calculated even before the execution of a script

@@ -7,6 +7,8 @@
 	:twitter:title: $_ENV
 	:twitter:description: $_ENV: The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $_ENV
 	:og:type: article
 	:og:description: The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values

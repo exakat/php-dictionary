@@ -8,6 +8,8 @@
 	:twitter:title: Magic Methods
 	:twitter:description: Magic Methods: Special methods, which provide extended support for PHP features
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Magic Methods
 	:og:type: article
 	:og:description: Special methods, which provide extended support for PHP features

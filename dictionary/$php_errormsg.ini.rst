@@ -7,6 +7,8 @@
 	:twitter:title: $php_errormsg
 	:twitter:description: $php_errormsg: ``$php_errormsg`` contains the last error message, emitted by PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $php_errormsg
 	:og:type: article
 	:og:description: ``$php_errormsg`` contains the last error message, emitted by PHP

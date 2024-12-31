@@ -7,6 +7,8 @@
 	:twitter:title: Constants In Trait
 	:twitter:description: Constants In Trait: Constants were added to trait in PHP 8
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Constants In Trait
 	:og:type: article
 	:og:description: Constants were added to trait in PHP 8

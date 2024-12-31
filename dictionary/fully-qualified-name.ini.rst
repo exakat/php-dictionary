@@ -10,6 +10,8 @@
 	:twitter:title: Fully Qualified Name
 	:twitter:description: Fully Qualified Name: A fully qualified name, or a fully qualified class name, is a unique identifier for the PHP name of a constant, class, trait, interface, enum or function : it includes its namespace name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Fully Qualified Name
 	:og:type: article
 	:og:description: A fully qualified name, or a fully qualified class name, is a unique identifier for the PHP name of a constant, class, trait, interface, enum or function : it includes its namespace name

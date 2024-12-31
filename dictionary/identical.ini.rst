@@ -7,6 +7,8 @@
 	:twitter:title: Identical Operator
 	:twitter:description: Identical Operator: Identical is the state of two variables, which contains the same data, with the same type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Identical Operator
 	:og:type: article
 	:og:description: Identical is the state of two variables, which contains the same data, with the same type

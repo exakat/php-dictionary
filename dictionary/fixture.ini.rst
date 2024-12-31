@@ -7,6 +7,8 @@
 	:twitter:title: Fixture
 	:twitter:description: Fixture: A fixture is a set of test data
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Fixture
 	:og:type: article
 	:og:description: A fixture is a set of test data

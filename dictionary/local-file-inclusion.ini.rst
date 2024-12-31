@@ -7,6 +7,8 @@
 	:twitter:title: Local File Inclusion
 	:twitter:description: Local File Inclusion: A local file inclusion is a security vulnerability, where an external attacker can choose which file from the local system is processed by the called script
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Local File Inclusion
 	:og:type: article
 	:og:description: A local file inclusion is a security vulnerability, where an external attacker can choose which file from the local system is processed by the called script

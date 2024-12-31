@@ -8,6 +8,8 @@
 	:twitter:title: Arrow Functions
 	:twitter:description: Arrow Functions: Arrow functions are a type of closure with a specific syntax
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Arrow Functions
 	:og:type: article
 	:og:description: Arrow functions are a type of closure with a specific syntax

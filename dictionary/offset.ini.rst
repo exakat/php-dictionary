@@ -7,6 +7,8 @@
 	:twitter:title: Offset
 	:twitter:description: Offset: The term offset refers to the position or index of an element within an array or a string
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Offset
 	:og:type: article
 	:og:description: The term offset refers to the position or index of an element within an array or a string

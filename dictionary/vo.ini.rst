@@ -7,6 +7,8 @@
 	:twitter:title: Value Object
 	:twitter:description: Value Object: VO stands for Value Object : a simple object whose equality is not based on identity
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Value Object
 	:og:type: article
 	:og:description: VO stands for Value Object : a simple object whose equality is not based on identity

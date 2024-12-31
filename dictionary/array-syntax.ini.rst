@@ -8,6 +8,8 @@
 	:twitter:title: Array Syntax
 	:twitter:description: Array Syntax: The array syntax is the usage of square brackets after a data container (variables, properties
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Array Syntax
 	:og:type: article
 	:og:description: The array syntax is the usage of square brackets after a data container (variables, properties

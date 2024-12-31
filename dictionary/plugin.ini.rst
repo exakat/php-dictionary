@@ -8,6 +8,8 @@
 	:twitter:title: Plugin
 	:twitter:description: Plugin: A plugin is a component that add new features to an existing code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Plugin
 	:og:type: article
 	:og:description: A plugin is a component that add new features to an existing code

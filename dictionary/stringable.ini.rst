@@ -7,6 +7,8 @@
 	:twitter:title: Stringable
 	:twitter:description: Stringable: Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Stringable
 	:og:type: article
 	:og:description: Stringable is a type, which represents variables that may be used as as string : either a string, a heredoc or a string constant

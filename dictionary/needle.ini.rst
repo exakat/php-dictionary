@@ -7,6 +7,8 @@
 	:twitter:title: Needle
 	:twitter:description: Needle: Needle is a classic name, used to designate the object of a search
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Needle
 	:og:type: article
 	:og:description: Needle is a classic name, used to designate the object of a search

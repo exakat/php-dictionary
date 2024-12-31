@@ -7,6 +7,8 @@
 	:twitter:title: Format
 	:twitter:description: Format: Format is a set of rules to structure a piece of text, and make it parsable by a specific engine
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Format
 	:og:type: article
 	:og:description: Format is a set of rules to structure a piece of text, and make it parsable by a specific engine

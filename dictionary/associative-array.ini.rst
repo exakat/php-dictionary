@@ -8,6 +8,8 @@
 	:twitter:title: Associative Array
 	:twitter:description: Associative Array: An associative array is an array whose keys are strings
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Associative Array
 	:og:type: article
 	:og:description: An associative array is an array whose keys are strings

@@ -8,6 +8,8 @@
 	:twitter:title: Scope
 	:twitter:description: Scope: The scope, also called context, is the space in which a certain elements are defined
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Scope
 	:og:type: article
 	:og:description: The scope, also called context, is the space in which a certain elements are defined

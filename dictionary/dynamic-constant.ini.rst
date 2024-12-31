@@ -7,6 +7,8 @@
 	:twitter:title: Dynamic Constant
 	:twitter:description: Dynamic Constant: A constant is dynamic when its name is a piece of data, and is only access at execution time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dynamic Constant
 	:og:type: article
 	:og:description: A constant is dynamic when its name is a piece of data, and is only access at execution time

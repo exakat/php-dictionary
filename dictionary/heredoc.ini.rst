@@ -7,6 +7,8 @@
 	:twitter:title: Heredocs
 	:twitter:description: Heredocs: Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Heredocs
 	:og:type: article
 	:og:description: Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation

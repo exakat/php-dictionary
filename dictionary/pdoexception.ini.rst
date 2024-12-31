@@ -7,6 +7,8 @@
 	:twitter:title: PDOException
 	:twitter:description: PDOException: PDOException represents an error raised by PDO
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PDOException
 	:og:type: article
 	:og:description: PDOException represents an error raised by PDO

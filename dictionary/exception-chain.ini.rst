@@ -8,6 +8,8 @@
 	:twitter:title: Chaining Exceptions
 	:twitter:description: Chaining Exceptions: Chaining exception is throwing again a caught exception, with a new type, and with the previous exception
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Chaining Exceptions
 	:og:type: article
 	:og:description: Chaining exception is throwing again a caught exception, with a new type, and with the previous exception

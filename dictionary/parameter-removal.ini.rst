@@ -7,6 +7,8 @@
 	:twitter:title: Parameter Removal
 	:twitter:description: Parameter Removal: Parameter removal is the operation to remove a parameter in a method's signature
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Parameter Removal
 	:og:type: article
 	:og:description: Parameter removal is the operation to remove a parameter in a method's signature

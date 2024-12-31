@@ -7,6 +7,8 @@
 	:twitter:title: Foreach
 	:twitter:description: Foreach: Foreach is the most popular loop in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Foreach
 	:og:type: article
 	:og:description: Foreach is the most popular loop in PHP

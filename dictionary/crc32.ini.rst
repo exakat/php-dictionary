@@ -7,6 +7,8 @@
 	:twitter:title: crc32
 	:twitter:description: crc32: crc32 stands for Cyclic Redundancy Check 32-bit
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: crc32
 	:og:type: article
 	:og:description: crc32 stands for Cyclic Redundancy Check 32-bit

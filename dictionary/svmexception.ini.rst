@@ -7,6 +7,8 @@
 	:twitter:title: SVMException
 	:twitter:description: SVMException: The SVMException exception is thrown by the SVM::train() method
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: SVMException
 	:og:type: article
 	:og:description: The SVMException exception is thrown by the SVM::train() method

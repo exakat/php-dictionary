@@ -8,6 +8,8 @@
 	:twitter:title: Reserved Names
 	:twitter:description: Reserved Names: PHP shares several namespaces with the users, and has reserved some names for its own usage
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Reserved Names
 	:og:type: article
 	:og:description: PHP shares several namespaces with the users, and has reserved some names for its own usage

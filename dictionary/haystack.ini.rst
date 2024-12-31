@@ -7,6 +7,8 @@
 	:twitter:title: Haystack
 	:twitter:description: Haystack: Haystack is a classic name, used to designate a dataset where something will be searched in
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Haystack
 	:og:type: article
 	:og:description: Haystack is a classic name, used to designate a dataset where something will be searched in

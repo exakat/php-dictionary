@@ -7,6 +7,8 @@
 	:twitter:title: Autovivification
 	:twitter:description: Autovivification: Autovivification is the automatic creation of an array when a value is dereferenced
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Autovivification
 	:og:type: article
 	:og:description: Autovivification is the automatic creation of an array when a value is dereferenced

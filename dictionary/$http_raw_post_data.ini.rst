@@ -7,6 +7,8 @@
 	:twitter:title: $HTTP_RAW_POST_DATA
 	:twitter:description: $HTTP_RAW_POST_DATA: `$HTTP_RAW_POST_DATA` used to contain the raw POST data of an HTTP request
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $HTTP_RAW_POST_DATA
 	:og:type: article
 	:og:description: `$HTTP_RAW_POST_DATA` used to contain the raw POST data of an HTTP request

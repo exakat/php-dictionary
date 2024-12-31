@@ -7,6 +7,8 @@
 	:twitter:title: MD5
 	:twitter:description: MD5: MD5 is a hash function, that produce a 128-bit footprint for a value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: MD5
 	:og:type: article
 	:og:description: MD5 is a hash function, that produce a 128-bit footprint for a value

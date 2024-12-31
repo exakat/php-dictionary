@@ -7,6 +7,8 @@
 	:twitter:title: Protocol
 	:twitter:description: Protocol: A protocol is a scheme part of a URL, with an associated wrapper
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Protocol
 	:og:type: article
 	:og:description: A protocol is a scheme part of a URL, with an associated wrapper

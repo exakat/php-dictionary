@@ -7,6 +7,8 @@
 	:twitter:title: Precedence
 	:twitter:description: Precedence: Precedence organizes the way operators are executed, when they are mixed in the same expression
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Precedence
 	:og:type: article
 	:og:description: Precedence organizes the way operators are executed, when they are mixed in the same expression

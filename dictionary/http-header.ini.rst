@@ -7,6 +7,8 @@
 	:twitter:title: HTTP Headers
 	:twitter:description: HTTP Headers: HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: HTTP Headers
 	:og:type: article
 	:og:description: HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction

@@ -7,6 +7,8 @@
 	:twitter:title: Migration
 	:twitter:description: Migration: Migration is the incremental upgrade of a piece of code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Migration
 	:og:type: article
 	:og:description: Migration is the incremental upgrade of a piece of code

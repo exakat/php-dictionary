@@ -7,6 +7,8 @@
 	:twitter:title: Switch Fallthrough
 	:twitter:description: Switch Fallthrough: A fallthrough is the absence of break (or equivalent) at the end of a switch case
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Switch Fallthrough
 	:og:type: article
 	:og:description: A fallthrough is the absence of break (or equivalent) at the end of a switch case

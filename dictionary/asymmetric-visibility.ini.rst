@@ -8,6 +8,8 @@
 	:twitter:title: Asymetric Visibility
 	:twitter:description: Asymetric Visibility: Asymetric visibility is a feature of PHP class properties
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Asymetric Visibility
 	:og:type: article
 	:og:description: Asymetric visibility is a feature of PHP class properties

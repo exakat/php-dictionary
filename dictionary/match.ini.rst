@@ -7,6 +7,8 @@
 	:twitter:title: Match
 	:twitter:description: Match: The ``match`` expression is the remote cousin of the ``switch``
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Match
 	:og:type: article
 	:og:description: The ``match`` expression is the remote cousin of the ``switch``

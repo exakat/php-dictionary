@@ -7,6 +7,8 @@
 	:twitter:title: PharException
 	:twitter:description: PharException: The PharException class is a phar-specific exception
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PharException
 	:og:type: article
 	:og:description: The PharException class is a phar-specific exception

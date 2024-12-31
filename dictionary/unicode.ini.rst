@@ -7,6 +7,8 @@
 	:twitter:title: Unicode
 	:twitter:description: Unicode: Unicode is a standard to represent text
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Unicode
 	:og:type: article
 	:og:description: Unicode is a standard to represent text

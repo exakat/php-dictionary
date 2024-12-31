@@ -7,6 +7,8 @@
 	:twitter:title: mysqli_sql_exception
 	:twitter:description: mysqli_sql_exception: mysqli_sql_exception is thrown when a mysqli related error is found
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: mysqli_sql_exception
 	:og:type: article
 	:og:description: mysqli_sql_exception is thrown when a mysqli related error is found

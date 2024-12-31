@@ -8,6 +8,8 @@
 	:twitter:title: Switch
 	:twitter:description: Switch: The ``switch`` expression branches evaluation based on an equality check of a value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Switch
 	:og:type: article
 	:og:description: The ``switch`` expression branches evaluation based on an equality check of a value

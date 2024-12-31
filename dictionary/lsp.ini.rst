@@ -8,6 +8,8 @@
 	:twitter:title: Liskov Substitution Principle
 	:twitter:description: Liskov Substitution Principle: The Liskov Substitution Principle states that an object from a class and a sub-object, from a class that extends that object, must be interchangeable without breaking the program
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Liskov Substitution Principle
 	:og:type: article
 	:og:description: The Liskov Substitution Principle states that an object from a class and a sub-object, from a class that extends that object, must be interchangeable without breaking the program

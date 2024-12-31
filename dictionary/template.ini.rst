@@ -7,6 +7,8 @@
 	:twitter:title: Template
 	:twitter:description: Template: A template is a preset document, filled with values in placeholders, to display the resulting data
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Template
 	:og:type: article
 	:og:description: A template is a preset document, filled with values in placeholders, to display the resulting data

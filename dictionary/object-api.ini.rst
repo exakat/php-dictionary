@@ -7,6 +7,8 @@
 	:twitter:title: Object API
 	:twitter:description: Object API: The Object API is a set of classes, interfaces, enums and traits to execute features
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object API
 	:og:type: article
 	:og:description: The Object API is a set of classes, interfaces, enums and traits to execute features

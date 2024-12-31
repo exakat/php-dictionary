@@ -7,6 +7,8 @@
 	:twitter:title: Callbacks
 	:twitter:description: Callbacks: Callbacks are functions or methods which are used as parameters for other functions
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Callbacks
 	:og:type: article
 	:og:description: Callbacks are functions or methods which are used as parameters for other functions

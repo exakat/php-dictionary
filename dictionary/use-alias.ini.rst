@@ -7,6 +7,8 @@
 	:twitter:title: Use Alias
 	:twitter:description: Use Alias: The use operator can create aliases for a class, function or constant
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Use Alias
 	:og:type: article
 	:og:description: The use operator can create aliases for a class, function or constant

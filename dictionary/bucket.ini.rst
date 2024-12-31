@@ -7,6 +7,8 @@
 	:twitter:title: Bucket
 	:twitter:description: Bucket: The term ``bucket`` is not commonly associated with a specific concept
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Bucket
 	:og:type: article
 	:og:description: The term ``bucket`` is not commonly associated with a specific concept

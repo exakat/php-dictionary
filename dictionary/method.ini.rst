@@ -7,6 +7,8 @@
 	:twitter:title: Method
 	:twitter:description: Method: Methods are function dedicated to a class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Method
 	:og:type: article
 	:og:description: Methods are function dedicated to a class

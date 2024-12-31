@@ -8,6 +8,8 @@
 	:twitter:title: Function Subscripting
 	:twitter:description: Function Subscripting: Function subscripting is the ability to apply operators like ->, 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Function Subscripting
 	:og:type: article
 	:og:description: Function subscripting is the ability to apply operators like ->, 

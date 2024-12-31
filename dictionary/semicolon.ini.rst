@@ -7,6 +7,8 @@
 	:twitter:title: Semicolon
 	:twitter:description: Semicolon: Semicolon is used to mark the end of a statement
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Semicolon
 	:og:type: article
 	:og:description: Semicolon is used to mark the end of a statement

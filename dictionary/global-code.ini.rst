@@ -7,6 +7,8 @@
 	:twitter:title: Global Code
 	:twitter:description: Global Code: The global code is the code that doesn't belong to any method or function
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Global Code
 	:og:type: article
 	:og:description: The global code is the code that doesn't belong to any method or function

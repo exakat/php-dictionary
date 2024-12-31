@@ -7,6 +7,8 @@
 	:twitter:title: is_object()
 	:twitter:description: is_object(): ``is_object()`` is a PHP native function that checks if the content of a variable is an object or not, without consideration for the actual class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: is_object()
 	:og:type: article
 	:og:description: ``is_object()`` is a PHP native function that checks if the content of a variable is an object or not, without consideration for the actual class

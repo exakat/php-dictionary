@@ -7,6 +7,8 @@
 	:twitter:title: Downtime
 	:twitter:description: Downtime: Downtime represents periods where a service is not available
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Downtime
 	:og:type: article
 	:og:description: Downtime represents periods where a service is not available

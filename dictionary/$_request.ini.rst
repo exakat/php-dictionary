@@ -7,6 +7,8 @@
 	:twitter:title: $_REQUEST
 	:twitter:description: $_REQUEST: An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $_REQUEST
 	:og:type: article
 	:og:description: An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods

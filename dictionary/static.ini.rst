@@ -7,6 +7,8 @@
 	:twitter:title: static
 	:twitter:description: static: The ``static`` keyword has several distinct usages
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: static
 	:og:type: article
 	:og:description: The ``static`` keyword has several distinct usages

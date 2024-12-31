@@ -7,6 +7,8 @@
 	:twitter:title: CGI
 	:twitter:description: CGI: CGI stands for Common Interface Gateway
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: CGI
 	:og:type: article
 	:og:description: CGI stands for Common Interface Gateway

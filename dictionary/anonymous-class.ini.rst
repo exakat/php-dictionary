@@ -7,6 +7,8 @@
 	:twitter:title: Anonymous Class
 	:twitter:description: Anonymous Class: A class may be instantiated, without defining a class name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Anonymous Class
 	:og:type: article
 	:og:description: A class may be instantiated, without defining a class name

@@ -7,6 +7,8 @@
 	:twitter:title: XMLwriter
 	:twitter:description: XMLwriter: The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: XMLwriter
 	:og:type: article
 	:og:description: The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP

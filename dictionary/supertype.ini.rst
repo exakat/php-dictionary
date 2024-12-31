@@ -7,6 +7,8 @@
 	:twitter:title: supertype
 	:twitter:description: supertype: A supertype is any of the parent types
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: supertype
 	:og:type: article
 	:og:description: A supertype is any of the parent types

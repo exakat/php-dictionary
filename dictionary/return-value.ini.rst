@@ -7,6 +7,8 @@
 	:twitter:title: Return Value
 	:twitter:description: Return Value: Return value is the value returned by a method or function call
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Return Value
 	:og:type: article
 	:og:description: Return value is the value returned by a method or function call

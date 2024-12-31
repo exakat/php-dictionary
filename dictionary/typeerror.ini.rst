@@ -7,6 +7,8 @@
 	:twitter:title: TypeError
 	:twitter:description: TypeError: A type error refers to an error that occurs when there is a mismatch or violation of data types
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: TypeError
 	:og:type: article
 	:og:description: A type error refers to an error that occurs when there is a mismatch or violation of data types

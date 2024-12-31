@@ -7,6 +7,8 @@
 	:twitter:title: Object Operator ->
 	:twitter:description: Object Operator ->: The Object Operator is the operator to access properties and methods from an object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object Operator ->
 	:og:type: article
 	:og:description: The Object Operator is the operator to access properties and methods from an object

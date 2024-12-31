@@ -7,6 +7,8 @@
 	:twitter:title: Core
 	:twitter:description: Core: Core is the name of the main PHP extension, which provides the base features of the language
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Core
 	:og:type: article
 	:og:description: Core is the name of the main PHP extension, which provides the base features of the language

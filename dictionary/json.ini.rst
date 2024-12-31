@@ -7,6 +7,8 @@
 	:twitter:title: JSON
 	:twitter:description: JSON: JSON (JavaScript Object Notation) is a lightweight data-interchange format
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: JSON
 	:og:type: article
 	:og:description: JSON (JavaScript Object Notation) is a lightweight data-interchange format

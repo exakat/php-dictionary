@@ -7,6 +7,8 @@
 	:twitter:title: throw
 	:twitter:description: throw: Throw is the keyword which raise an exception
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: throw
 	:og:type: article
 	:og:description: Throw is the keyword which raise an exception

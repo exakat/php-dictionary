@@ -9,6 +9,8 @@
 	:twitter:title: Permission
 	:twitter:description: Permission: A permission is the approval or consent given to someone to perform a specific action, access certain information, or use a resource
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Permission
 	:og:type: article
 	:og:description: A permission is the approval or consent given to someone to perform a specific action, access certain information, or use a resource

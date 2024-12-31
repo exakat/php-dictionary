@@ -7,6 +7,8 @@
 	:twitter:title: Directives
 	:twitter:description: Directives: Directives are the configuration option of PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Directives
 	:og:type: article
 	:og:description: Directives are the configuration option of PHP

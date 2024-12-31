@@ -7,6 +7,8 @@
 	:twitter:title: Iterator
 	:twitter:description: Iterator: An iterator is an object which can be traversed with a foreach() loop
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Iterator
 	:og:type: article
 	:og:description: An iterator is an object which can be traversed with a foreach() loop

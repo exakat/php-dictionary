@@ -7,6 +7,8 @@
 	:twitter:title: Predefined Constants
 	:twitter:description: Predefined Constants: Predefined constants are PHP native constants, available at the start of the PHP engine
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Predefined Constants
 	:og:type: article
 	:og:description: Predefined constants are PHP native constants, available at the start of the PHP engine

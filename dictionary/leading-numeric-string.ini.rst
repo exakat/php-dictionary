@@ -7,6 +7,8 @@
 	:twitter:title: Leading Numeric String
 	:twitter:description: Leading Numeric String: A leading nummeric string is subset of numeric string, where the first characters are numbers (or the occasional + or -), and the rest of the string is non digits
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Leading Numeric String
 	:og:type: article
 	:og:description: A leading nummeric string is subset of numeric string, where the first characters are numbers (or the occasional + or -), and the rest of the string is non digits

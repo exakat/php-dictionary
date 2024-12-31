@@ -9,6 +9,8 @@
 	:twitter:title: System
 	:twitter:description: System: The system, or the operating system, is the environement where PHP is running
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: System
 	:og:type: article
 	:og:description: The system, or the operating system, is the environement where PHP is running

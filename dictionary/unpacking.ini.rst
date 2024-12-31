@@ -8,6 +8,8 @@
 	:twitter:title: Unpacking
 	:twitter:description: Unpacking: Unpacking has two meanings : 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Unpacking
 	:og:type: article
 	:og:description: Unpacking has two meanings : 

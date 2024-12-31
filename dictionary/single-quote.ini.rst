@@ -7,6 +7,8 @@
 	:twitter:title: Single Quotes Strings
 	:twitter:description: Single Quotes Strings: Single quoted strings are strings that include a literal value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Single Quotes Strings
 	:og:type: article
 	:og:description: Single quoted strings are strings that include a literal value

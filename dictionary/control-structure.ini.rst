@@ -7,6 +7,8 @@
 	:twitter:title: Control Structures
 	:twitter:description: Control Structures: Control structures are PHP statements that control the flow of execution
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Control Structures
 	:og:type: article
 	:og:description: Control structures are PHP statements that control the flow of execution

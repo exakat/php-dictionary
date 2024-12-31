@@ -7,6 +7,8 @@
 	:twitter:title: Bitwise Operators
 	:twitter:description: Bitwise Operators: Bitwise operators evaluate specific bits within an integer
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Bitwise Operators
 	:og:type: article
 	:og:description: Bitwise operators evaluate specific bits within an integer

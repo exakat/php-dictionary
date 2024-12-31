@@ -7,6 +7,8 @@
 	:twitter:title: Microtime()
 	:twitter:description: Microtime(): microtime() is a native PHP function, which returns the current timestamp, with the microseconds
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Microtime()
 	:og:type: article
 	:og:description: microtime() is a native PHP function, which returns the current timestamp, with the microseconds

@@ -7,6 +7,8 @@
 	:twitter:title: Temporary Expression
 	:twitter:description: Temporary Expression: A temporary expression is an expression which is used on the spot, and will not persist later in the script
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Temporary Expression
 	:og:type: article
 	:og:description: A temporary expression is an expression which is used on the spot, and will not persist later in the script

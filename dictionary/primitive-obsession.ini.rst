@@ -7,6 +7,8 @@
 	:twitter:title: Primitive Obsession
 	:twitter:description: Primitive Obsession: Primitive Obsession is when the code uses too many primitive types to represent complex concepts
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Primitive Obsession
 	:og:type: article
 	:og:description: Primitive Obsession is when the code uses too many primitive types to represent complex concepts

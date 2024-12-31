@@ -7,6 +7,8 @@
 	:twitter:title: __wakeup() method
 	:twitter:description: __wakeup() method: __wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __wakeup() method
 	:og:type: article
 	:og:description: __wakeup() is a magic method : it is called an object is being deserialized, so that the object may be restored to its working condition

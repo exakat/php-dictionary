@@ -7,6 +7,8 @@
 	:twitter:title: Data
 	:twitter:description: Data: ``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Data
 	:og:type: article
 	:og:description: ``Data`` is a broad term that refers to information, facts, or statistics that are represented in a form suitable for processing, interpretation, or communication

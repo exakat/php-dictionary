@@ -7,6 +7,8 @@
 	:twitter:title: Event Storming
 	:twitter:description: Event Storming: Event storming is a workshop, aiming at discovering the domain for an application
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Event Storming
 	:og:type: article
 	:og:description: Event storming is a workshop, aiming at discovering the domain for an application

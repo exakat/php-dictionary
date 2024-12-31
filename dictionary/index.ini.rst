@@ -8,6 +8,8 @@
 	:twitter:title: Index
 	:twitter:description: Index: An index may be several things: 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Index
 	:og:type: article
 	:og:description: An index may be several things: 

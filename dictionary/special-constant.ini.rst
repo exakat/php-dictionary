@@ -7,6 +7,8 @@
 	:twitter:title: Special Constant
 	:twitter:description: Special Constant: The only special constant is the ``::class`` constant
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Special Constant
 	:og:type: article
 	:og:description: The only special constant is the ``::class`` constant

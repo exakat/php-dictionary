@@ -7,6 +7,8 @@
 	:twitter:title: Close Tag
 	:twitter:description: Close Tag: PHP commands are placed between the PHP tags : ``<
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Close Tag
 	:og:type: article
 	:og:description: PHP commands are placed between the PHP tags : ``<

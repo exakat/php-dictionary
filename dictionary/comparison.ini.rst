@@ -8,6 +8,8 @@
 	:twitter:title: Comparison
 	:twitter:description: Comparison: Comparison operators, as their name implies, allow you to compare two values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Comparison
 	:og:type: article
 	:og:description: Comparison operators, as their name implies, allow you to compare two values

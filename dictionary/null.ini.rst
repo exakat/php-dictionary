@@ -7,6 +7,8 @@
 	:twitter:title: Null
 	:twitter:description: Null: ``null`` is a special data type that represents a variable with no value or an undefined value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Null
 	:og:type: article
 	:og:description: ``null`` is a special data type that represents a variable with no value or an undefined value

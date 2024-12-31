@@ -7,6 +7,8 @@
 	:twitter:title: declare Encoding
 	:twitter:description: declare Encoding: declare() with the ``encoding`` keyword specifies the encoding of the file that holds PHP script
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: declare Encoding
 	:og:type: article
 	:og:description: declare() with the ``encoding`` keyword specifies the encoding of the file that holds PHP script

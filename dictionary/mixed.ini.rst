@@ -7,6 +7,8 @@
 	:twitter:title: Mixed
 	:twitter:description: Mixed: A special type that represents any available type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Mixed
 	:og:type: article
 	:og:description: A special type that represents any available type

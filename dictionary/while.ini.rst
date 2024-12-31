@@ -7,6 +7,8 @@
 	:twitter:title: While
 	:twitter:description: While: While is a loop structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: While
 	:og:type: article
 	:og:description: While is a loop structure

@@ -7,6 +7,8 @@
 	:twitter:title: ArgumentCountError
 	:twitter:description: ArgumentCountError: ArgumentCountError is thrown when too few arguments are passed to a user-defined or PHP native function or method
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ArgumentCountError
 	:og:type: article
 	:og:description: ArgumentCountError is thrown when too few arguments are passed to a user-defined or PHP native function or method

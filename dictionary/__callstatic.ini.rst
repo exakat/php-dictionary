@@ -7,6 +7,8 @@
 	:twitter:title: __callStatic() Method
 	:twitter:description: __callStatic() Method: __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __callStatic() Method
 	:og:type: article
 	:og:description: __callStatic() is a magic method : it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it

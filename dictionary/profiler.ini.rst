@@ -7,6 +7,8 @@
 	:twitter:title: PHP Profiler
 	:twitter:description: PHP Profiler: A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Profiler
 	:og:type: article
 	:og:description: A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation

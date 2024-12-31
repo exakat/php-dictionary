@@ -7,6 +7,8 @@
 	:twitter:title: each
 	:twitter:description: each: each() was a native function, that would yield each element in an array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: each
 	:og:type: article
 	:og:description: each() was a native function, that would yield each element in an array

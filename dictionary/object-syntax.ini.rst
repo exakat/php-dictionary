@@ -7,6 +7,8 @@
 	:twitter:title: Object Syntax
 	:twitter:description: Object Syntax: The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::\
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object Syntax
 	:og:type: article
 	:og:description: The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::\

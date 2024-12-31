@@ -7,6 +7,8 @@
 	:twitter:title: Array With Curly Braces
 	:twitter:description: Array With Curly Braces: Curly braces used to be a feature, used to access specific index in an array or in a string
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Array With Curly Braces
 	:og:type: article
 	:og:description: Curly braces used to be a feature, used to access specific index in an array or in a string

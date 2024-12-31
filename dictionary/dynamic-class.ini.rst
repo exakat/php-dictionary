@@ -7,6 +7,8 @@
 	:twitter:title: Dynamic Class
 	:twitter:description: Dynamic Class: A dynamic class is a class whose fully qualified name is defined at execution time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dynamic Class
 	:og:type: article
 	:og:description: A dynamic class is a class whose fully qualified name is defined at execution time

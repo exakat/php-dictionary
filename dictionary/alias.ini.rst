@@ -7,6 +7,8 @@
 	:twitter:title: Alias
 	:twitter:description: Alias: An alias is a distinct name for an existing named structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Alias
 	:og:type: article
 	:og:description: An alias is a distinct name for an existing named structure

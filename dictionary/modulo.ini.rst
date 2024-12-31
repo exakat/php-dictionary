@@ -7,6 +7,8 @@
 	:twitter:title: Modulo
 	:twitter:description: Modulo: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Modulo
 	:og:type: article
 	:og:description: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another

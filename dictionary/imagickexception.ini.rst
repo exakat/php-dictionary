@@ -7,6 +7,8 @@
 	:twitter:title: ImagickException
 	:twitter:description: ImagickException: The ImagickException exception is thrown when an error happens while processing an Imagick operation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ImagickException
 	:og:type: article
 	:og:description: The ImagickException exception is thrown when an error happens while processing an Imagick operation

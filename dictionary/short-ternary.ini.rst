@@ -8,6 +8,8 @@
 	:twitter:title: Short Ternary Operator
 	:twitter:description: Short Ternary Operator: The expression ``(expr1) 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Short Ternary Operator
 	:og:type: article
 	:og:description: The expression ``(expr1) 

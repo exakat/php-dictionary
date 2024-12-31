@@ -7,6 +7,8 @@
 	:twitter:title: Use
 	:twitter:description: Use: The use operator has three distinct usages
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Use
 	:og:type: article
 	:og:description: The use operator has three distinct usages

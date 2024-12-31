@@ -8,6 +8,8 @@
 	:twitter:title: View In Presentation
 	:twitter:description: View In Presentation: A view is the presentation layer in a MVC model
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: View In Presentation
 	:og:type: article
 	:og:description: A view is the presentation layer in a MVC model

@@ -8,6 +8,8 @@
 	:twitter:title: Garbage Collection
 	:twitter:description: Garbage Collection: Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Garbage Collection
 	:og:type: article
 	:og:description: Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values

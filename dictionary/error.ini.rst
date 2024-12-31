@@ -7,6 +7,8 @@
 	:twitter:title: Error
 	:twitter:description: Error: The ``Error`` class is a base class for all internal PHP error exceptions
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Error
 	:og:type: article
 	:og:description: The ``Error`` class is a base class for all internal PHP error exceptions

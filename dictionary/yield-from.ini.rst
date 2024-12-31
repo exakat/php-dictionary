@@ -7,6 +7,8 @@
 	:twitter:title: yield from Keyword
 	:twitter:description: yield from Keyword: The `yield from` keyword is used to delegate the iteration control of one generator to another
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: yield from Keyword
 	:og:type: article
 	:og:description: The `yield from` keyword is used to delegate the iteration control of one generator to another

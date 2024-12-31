@@ -7,6 +7,8 @@
 	:twitter:title: $_POST
 	:twitter:description: $_POST: An associative array of variables, transmitted to the current script via the HTTP POST method, with the MIME types `application/x-www-form-urlencoded` or `multipart/form-data`
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $_POST
 	:og:type: article
 	:og:description: An associative array of variables, transmitted to the current script via the HTTP POST method, with the MIME types `application/x-www-form-urlencoded` or `multipart/form-data`

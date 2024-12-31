@@ -8,6 +8,8 @@
 	:twitter:title: Property Hook
 	:twitter:description: Property Hook: Property hooks are a feature of PHP 8
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Property Hook
 	:og:type: article
 	:og:description: Property hooks are a feature of PHP 8

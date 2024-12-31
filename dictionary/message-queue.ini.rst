@@ -7,6 +7,8 @@
 	:twitter:title: Message Queue
 	:twitter:description: Message Queue: A message queue server is a middleware component or service that facilitates communication between different software components or systems by enabling asynchronous message passing
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Message Queue
 	:og:type: article
 	:og:description: A message queue server is a middleware component or service that facilitates communication between different software components or systems by enabling asynchronous message passing

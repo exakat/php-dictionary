@@ -8,6 +8,8 @@
 	:twitter:title: Alias Types
 	:twitter:description: Alias Types: An alias type is a short name for several types at once
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Alias Types
 	:og:type: article
 	:og:description: An alias type is a short name for several types at once

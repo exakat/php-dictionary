@@ -8,6 +8,8 @@
 	:twitter:title: Index For Arrays
 	:twitter:description: Index For Arrays: A index is the identifier of an specific element in an array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Index For Arrays
 	:og:type: article
 	:og:description: A index is the identifier of an specific element in an array

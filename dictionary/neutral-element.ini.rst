@@ -7,6 +7,8 @@
 	:twitter:title: Neutral Element
 	:twitter:description: Neutral Element: A neutral element is an piece of data which has no effect with a particular operation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Neutral Element
 	:og:type: article
 	:og:description: A neutral element is an piece of data which has no effect with a particular operation

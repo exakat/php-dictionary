@@ -8,6 +8,8 @@
 	:twitter:title: Type System
 	:twitter:description: Type System: Type declarations can be added to function arguments, return values, and, as of PHP 7
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Type System
 	:og:type: article
 	:og:description: Type declarations can be added to function arguments, return values, and, as of PHP 7

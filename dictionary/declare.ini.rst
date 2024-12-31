@@ -7,6 +7,8 @@
 	:twitter:title: declare()
 	:twitter:description: declare(): declare() is a language construct
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: declare()
 	:og:type: article
 	:og:description: declare() is a language construct

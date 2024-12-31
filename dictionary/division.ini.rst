@@ -7,6 +7,8 @@
 	:twitter:title: Division
 	:twitter:description: Division: Division is the mathematical division
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Division
 	:og:type: article
 	:og:description: Division is the mathematical division

@@ -7,6 +7,8 @@
 	:twitter:title: Module
 	:twitter:description: Module: In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Module
 	:og:type: article
 	:og:description: In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities

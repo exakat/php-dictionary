@@ -7,6 +7,8 @@
 	:twitter:title: Rubber Ducking Debugging
 	:twitter:description: Rubber Ducking Debugging: Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Rubber Ducking Debugging
 	:og:type: article
 	:og:description: Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner

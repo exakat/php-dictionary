@@ -7,6 +7,8 @@
 	:twitter:title: Generator
 	:twitter:description: Generator: Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Generator
 	:og:type: article
 	:og:description: Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface

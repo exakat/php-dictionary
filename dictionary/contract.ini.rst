@@ -9,6 +9,8 @@
 	:twitter:title: Design By Contract
 	:twitter:description: Design By Contract: Design by Contract (DbC) is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Design By Contract
 	:og:type: article
 	:og:description: Design by Contract (DbC) is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants

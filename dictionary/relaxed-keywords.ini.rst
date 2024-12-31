@@ -7,6 +7,8 @@
 	:twitter:title: Relaxed Keywords
 	:twitter:description: Relaxed Keywords: The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Relaxed Keywords
 	:og:type: article
 	:og:description: The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name

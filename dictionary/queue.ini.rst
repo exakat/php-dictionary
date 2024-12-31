@@ -7,6 +7,8 @@
 	:twitter:title: Queue
 	:twitter:description: Queue: A Queue may be one of the following: 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Queue
 	:og:type: article
 	:og:description: A Queue may be one of the following: 

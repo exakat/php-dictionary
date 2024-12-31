@@ -7,6 +7,8 @@
 	:twitter:title: Break
 	:twitter:description: Break: Break is a control structure, which ends execution of the current for, foreach, while, do-while or switch structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Break
 	:og:type: article
 	:og:description: Break is a control structure, which ends execution of the current for, foreach, while, do-while or switch structure

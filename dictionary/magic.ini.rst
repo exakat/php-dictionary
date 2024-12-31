@@ -7,6 +7,8 @@
 	:twitter:title: Magic
 	:twitter:description: Magic: Magic is mostly used in the sentence : 'There is too much magic in this code'
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Magic
 	:og:type: article
 	:og:description: Magic is mostly used in the sentence : 'There is too much magic in this code'

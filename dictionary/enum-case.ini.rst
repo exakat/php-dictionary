@@ -7,6 +7,8 @@
 	:twitter:title: Enumeration Case
 	:twitter:description: Enumeration Case: An Enumeration may have zero or more case definitions, with no maximum
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Enumeration Case
 	:og:type: article
 	:og:description: An Enumeration may have zero or more case definitions, with no maximum

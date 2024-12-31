@@ -7,6 +7,8 @@
 	:twitter:title: Class Invasion
 	:twitter:description: Class Invasion: Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Invasion
 	:og:type: article
 	:og:description: Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances

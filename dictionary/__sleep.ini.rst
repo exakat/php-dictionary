@@ -7,6 +7,8 @@
 	:twitter:title: __sleep() method
 	:twitter:description: __sleep() method: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __sleep() method
 	:og:type: article
 	:og:description: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned

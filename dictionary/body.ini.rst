@@ -7,6 +7,8 @@
 	:twitter:title: Body
 	:twitter:description: Body: The body, of a function or a command, it the related block that is commanded by the the command
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Body
 	:og:type: article
 	:og:description: The body, of a function or a command, it the related block that is commanded by the the command

@@ -7,6 +7,8 @@
 	:twitter:title: PHP Wrapper
 	:twitter:description: PHP Wrapper: A Wrapper is a custom way to access remote resources
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Wrapper
 	:og:type: article
 	:og:description: A Wrapper is a custom way to access remote resources

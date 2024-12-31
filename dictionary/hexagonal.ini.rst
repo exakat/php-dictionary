@@ -8,6 +8,8 @@
 	:twitter:title: Hexagonal Architecture
 	:twitter:description: Hexagonal Architecture: Hexagonal architecture, also known as Ports and Adapters architecture or the Onion architecture, is a software architectural pattern that promotes the separation of concerns and emphasizes modularity and flexibility
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hexagonal Architecture
 	:og:type: article
 	:og:description: Hexagonal architecture, also known as Ports and Adapters architecture or the Onion architecture, is a software architectural pattern that promotes the separation of concerns and emphasizes modularity and flexibility

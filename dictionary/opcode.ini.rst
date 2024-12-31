@@ -8,6 +8,8 @@
 	:twitter:title: Opcode
 	:twitter:description: Opcode: Opcodes (short for "operation codes") refer to low-level instructions that the PHP interpreter uses to execute PHP scripts
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Opcode
 	:og:type: article
 	:og:description: Opcodes (short for "operation codes") refer to low-level instructions that the PHP interpreter uses to execute PHP scripts

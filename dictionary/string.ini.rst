@@ -7,6 +7,8 @@
 	:twitter:title: String
 	:twitter:description: String: A string is series of characters, where a character is the same as a byte
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: String
 	:og:type: article
 	:og:description: A string is series of characters, where a character is the same as a byte

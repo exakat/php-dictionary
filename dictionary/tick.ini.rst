@@ -7,6 +7,8 @@
 	:twitter:title: Tick
 	:twitter:description: Tick: Ticks are events that occur for a group of N statements, executed by PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Tick
 	:og:type: article
 	:og:description: Ticks are events that occur for a group of N statements, executed by PHP

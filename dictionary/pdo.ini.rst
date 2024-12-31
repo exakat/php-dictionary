@@ -7,6 +7,8 @@
 	:twitter:title: PHP Data Objects (PDO)
 	:twitter:description: PHP Data Objects (PDO): PHP Data Objects (PDO) is an interface that abstract access to databases
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Data Objects (PDO)
 	:og:type: article
 	:og:description: PHP Data Objects (PDO) is an interface that abstract access to databases

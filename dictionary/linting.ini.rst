@@ -8,6 +8,8 @@
 	:twitter:title: Linting
 	:twitter:description: Linting: Linting is the process to turn the Text file that holds the source code, into tokens
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Linting
 	:og:type: article
 	:og:description: Linting is the process to turn the Text file that holds the source code, into tokens

@@ -7,6 +7,8 @@
 	:twitter:title: Optional Parameter
 	:twitter:description: Optional Parameter: Optional parameter are parameter fitted with a default value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Optional Parameter
 	:og:type: article
 	:og:description: Optional parameter are parameter fitted with a default value

@@ -7,6 +7,8 @@
 	:twitter:title: Coroutine
 	:twitter:description: Coroutine: Coroutines are methods whose execution may be suspended and resumed
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Coroutine
 	:og:type: article
 	:og:description: Coroutines are methods whose execution may be suspended and resumed

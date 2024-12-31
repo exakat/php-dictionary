@@ -7,6 +7,8 @@
 	:twitter:title: Configuration
 	:twitter:description: Configuration: Configuration is a set of data that conditions the execution of the program
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Configuration
 	:og:type: article
 	:og:description: Configuration is a set of data that conditions the execution of the program

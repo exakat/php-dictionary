@@ -7,6 +7,8 @@
 	:twitter:title: Value Object
 	:twitter:description: Value Object: A value object is a design pattern used to represent immutable objects that encapsulate a set of related values or attributes
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Value Object
 	:og:type: article
 	:og:description: A value object is a design pattern used to represent immutable objects that encapsulate a set of related values or attributes

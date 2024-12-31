@@ -7,6 +7,8 @@
 	:twitter:title: Synchronous
 	:twitter:description: Synchronous: Synchronous PHP refers to the traditional way PHP applications execute code: synchronously, or in a blocking manner
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Synchronous
 	:og:type: article
 	:og:description: Synchronous PHP refers to the traditional way PHP applications execute code: synchronously, or in a blocking manner

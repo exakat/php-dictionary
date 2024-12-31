@@ -7,6 +7,8 @@
 	:twitter:title: Code Injection
 	:twitter:description: Code Injection: A CODE injection is a vulnerability, where external data is used as PHP code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Code Injection
 	:og:type: article
 	:og:description: A CODE injection is a vulnerability, where external data is used as PHP code

@@ -7,6 +7,8 @@
 	:twitter:title: Foreign Function Interface
 	:twitter:description: Foreign Function Interface: ``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Foreign Function Interface
 	:og:type: article
 	:og:description: ``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``

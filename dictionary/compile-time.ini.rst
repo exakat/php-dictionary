@@ -9,6 +9,8 @@
 	:twitter:title: Compile Time
 	:twitter:description: Compile Time: Compile time is a phase of PHP processing, where the source code is transformed into execution commands
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Compile Time
 	:og:type: article
 	:og:description: Compile time is a phase of PHP processing, where the source code is transformed into execution commands

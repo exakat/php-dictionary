@@ -7,6 +7,8 @@
 	:twitter:title: Isset
 	:twitter:description: Isset: isset() is a function that determines if a variable is declared and is different than null
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Isset
 	:og:type: article
 	:og:description: isset() is a function that determines if a variable is declared and is different than null

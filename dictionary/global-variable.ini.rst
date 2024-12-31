@@ -7,6 +7,8 @@
 	:twitter:title: Global Variables
 	:twitter:description: Global Variables: Variables that reside in the global scope, and may be imported with the global keyword
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Global Variables
 	:og:type: article
 	:og:description: Variables that reside in the global scope, and may be imported with the global keyword

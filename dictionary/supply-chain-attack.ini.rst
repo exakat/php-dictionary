@@ -7,6 +7,8 @@
 	:twitter:title: Supply Chain Attack
 	:twitter:description: Supply Chain Attack: Supply Chain Attack is a security attack that uses dependencies to infect a program
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Supply Chain Attack
 	:og:type: article
 	:og:description: Supply Chain Attack is a security attack that uses dependencies to infect a program

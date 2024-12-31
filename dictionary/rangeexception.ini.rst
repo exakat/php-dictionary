@@ -7,6 +7,8 @@
 	:twitter:title: RangeException
 	:twitter:description: RangeException: The RangeException exception is thrown if a value is out of range
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: RangeException
 	:og:type: article
 	:og:description: The RangeException exception is thrown if a value is out of range

@@ -7,6 +7,8 @@
 	:twitter:title: System Call
 	:twitter:description: System Call: A system call is a call to an operating system function
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: System Call
 	:og:type: article
 	:og:description: A system call is a call to an operating system function

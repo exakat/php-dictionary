@@ -7,6 +7,8 @@
 	:twitter:title: Parallel
 	:twitter:description: Parallel: Running processes in parallel means that several distinct processes are running at the same time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Parallel
 	:og:type: article
 	:og:description: Running processes in parallel means that several distinct processes are running at the same time

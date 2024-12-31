@@ -7,6 +7,8 @@
 	:twitter:title: Array Spread
 	:twitter:description: Array Spread: Array spread is the ellipsis operator, applied to an array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Array Spread
 	:og:type: article
 	:og:description: Array spread is the ellipsis operator, applied to an array

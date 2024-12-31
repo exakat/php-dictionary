@@ -7,6 +7,8 @@
 	:twitter:title: $argc
 	:twitter:description: $argc: In PHP, ``$argc`` is a predefined variable that holds the number of arguments passed to the script when it is executed from the command line
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $argc
 	:og:type: article
 	:og:description: In PHP, ``$argc`` is a predefined variable that holds the number of arguments passed to the script when it is executed from the command line

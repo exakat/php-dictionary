@@ -9,6 +9,8 @@
 	:twitter:title: PHP Engine
 	:twitter:description: PHP Engine: The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Engine
 	:og:type: article
 	:og:description: The PHP engine, often referred to as the PHP interpreter or the PHP executable, is the core component of the PHP programming language

@@ -7,6 +7,8 @@
 	:twitter:title: Feature
 	:twitter:description: Feature: A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Feature
 	:og:type: article
 	:og:description: A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose

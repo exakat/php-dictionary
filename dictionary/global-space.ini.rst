@@ -7,6 +7,8 @@
 	:twitter:title: Global Space
 	:twitter:description: Global Space: The term "global space" refers to the global namespace "\" or the top-level scope in the PHP language
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Global Space
 	:og:type: article
 	:og:description: The term "global space" refers to the global namespace "\" or the top-level scope in the PHP language

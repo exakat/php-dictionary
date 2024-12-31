@@ -7,6 +7,8 @@
 	:twitter:title: Universal Resource Identifier (URI)
 	:twitter:description: Universal Resource Identifier (URI): Universal Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Universal Resource Identifier (URI)
 	:og:type: article
 	:og:description: Universal Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies

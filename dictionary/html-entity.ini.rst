@@ -7,6 +7,8 @@
 	:twitter:title: HTML Entity
 	:twitter:description: HTML Entity: HTML entities are special character sequences, that represents a single character
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: HTML Entity
 	:og:type: article
 	:og:description: HTML entities are special character sequences, that represents a single character

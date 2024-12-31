@@ -7,6 +7,8 @@
 	:twitter:title: Cache
 	:twitter:description: Cache: Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Cache
 	:og:type: article
 	:og:description: Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance

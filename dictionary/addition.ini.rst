@@ -7,6 +7,8 @@
 	:twitter:title: Addition
 	:twitter:description: Addition: PHP additions apply to two different types : numbers and arrays
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Addition
 	:og:type: article
 	:og:description: PHP additions apply to two different types : numbers and arrays

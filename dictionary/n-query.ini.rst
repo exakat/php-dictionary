@@ -7,6 +7,8 @@
 	:twitter:title: N+1 Query Problem
 	:twitter:description: N+1 Query Problem: The "N+1 query problem" is a term used in the context of database queries, often in the context of Object-Relational Mapping (ORM) systems
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: N+1 Query Problem
 	:og:type: article
 	:og:description: The "N+1 query problem" is a term used in the context of database queries, often in the context of Object-Relational Mapping (ORM) systems

@@ -8,6 +8,8 @@
 	:twitter:title: Exit
 	:twitter:description: Exit: Exit and dies terminates the current process
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Exit
 	:og:type: article
 	:og:description: Exit and dies terminates the current process

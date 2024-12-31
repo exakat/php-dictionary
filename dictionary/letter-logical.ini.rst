@@ -7,6 +7,8 @@
 	:twitter:title: Letter Logical Bug
 	:twitter:description: Letter Logical Bug: PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Letter Logical Bug
 	:og:type: article
 	:og:description: PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)

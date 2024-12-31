@@ -7,6 +7,8 @@
 	:twitter:title: Query
 	:twitter:description: Query: Query is a generic term in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Query
 	:og:type: article
 	:og:description: Query is a generic term in PHP

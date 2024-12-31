@@ -7,6 +7,8 @@
 	:twitter:title: Rendering
 	:twitter:description: Rendering: Rendering is the action to take a template and its related data, to produce a target format
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Rendering
 	:og:type: article
 	:og:description: Rendering is the action to take a template and its related data, to produce a target format

@@ -7,6 +7,8 @@
 	:twitter:title: browscap
 	:twitter:description: browscap: Browscap is a browser capabilities project that provides a database and API for determining the capabilities of a web browser
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: browscap
 	:og:type: article
 	:og:description: Browscap is a browser capabilities project that provides a database and API for determining the capabilities of a web browser

@@ -7,6 +7,8 @@
 	:twitter:title: Object Invasion
 	:twitter:description: Object Invasion: PHP allows objects of one class to access private structures of an object of the same class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object Invasion
 	:og:type: article
 	:og:description: PHP allows objects of one class to access private structures of an object of the same class

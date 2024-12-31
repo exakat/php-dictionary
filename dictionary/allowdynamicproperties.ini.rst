@@ -7,6 +7,8 @@
 	:twitter:title: Allow Dynamic Properties
 	:twitter:description: Allow Dynamic Properties: This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Allow Dynamic Properties
 	:og:type: article
 	:og:description: This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them

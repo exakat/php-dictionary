@@ -7,6 +7,8 @@
 	:twitter:title: PHP Standards Recommendations (PSR)
 	:twitter:description: PHP Standards Recommendations (PSR): PHP Standards Recommendations
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Standards Recommendations (PSR)
 	:og:type: article
 	:og:description: PHP Standards Recommendations

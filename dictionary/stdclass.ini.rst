@@ -7,6 +7,8 @@
 	:twitter:title: stdclass
 	:twitter:description: stdclass: Stdclass is a native PHP class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: stdclass
 	:og:type: article
 	:og:description: Stdclass is a native PHP class

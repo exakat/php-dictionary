@@ -7,6 +7,8 @@
 	:twitter:title: Undefined
 	:twitter:description: Undefined: Something ``undefined`` has not been defined yet
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Undefined
 	:og:type: article
 	:og:description: Something ``undefined`` has not been defined yet

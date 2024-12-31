@@ -8,6 +8,8 @@
 	:twitter:title: Echo Tag
 	:twitter:description: Echo Tag: Echo tag is a special PHP opening tag : ``<
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Echo Tag
 	:og:type: article
 	:og:description: Echo tag is a special PHP opening tag : ``<

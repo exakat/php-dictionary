@@ -7,6 +7,8 @@
 	:twitter:title: Variables
 	:twitter:description: Variables: Variables are used to store and manipulate data
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Variables
 	:og:type: article
 	:og:description: Variables are used to store and manipulate data

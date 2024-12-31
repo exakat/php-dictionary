@@ -8,6 +8,8 @@
 	:twitter:title: Contravariance
 	:twitter:description: Contravariance: Contravariance allows a parameter type to be less specific in a child method, than that of its parent
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Contravariance
 	:og:type: article
 	:og:description: Contravariance allows a parameter type to be less specific in a child method, than that of its parent

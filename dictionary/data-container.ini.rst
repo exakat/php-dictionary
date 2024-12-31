@@ -7,6 +7,8 @@
 	:twitter:title: Data Container
 	:twitter:description: Data Container: A data container is a structure that stores data
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Data Container
 	:og:type: article
 	:og:description: A data container is a structure that stores data

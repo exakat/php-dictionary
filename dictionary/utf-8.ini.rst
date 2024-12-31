@@ -8,6 +8,8 @@
 	:twitter:title: UTF-8
 	:twitter:description: UTF-8: UTF-8 is a character encoding standard
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: UTF-8
 	:og:type: article
 	:og:description: UTF-8 is a character encoding standard

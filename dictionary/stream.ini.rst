@@ -7,6 +7,8 @@
 	:twitter:title: Stream
 	:twitter:description: Stream: Streams are a generalisation of the notion of files
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Stream
 	:og:type: article
 	:og:description: Streams are a generalisation of the notion of files

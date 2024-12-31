@@ -7,6 +7,8 @@
 	:twitter:title: Absolute
 	:twitter:description: Absolute: An ``absolute`` value is independant from the context in which it operates
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Absolute
 	:og:type: article
 	:og:description: An ``absolute`` value is independant from the context in which it operates

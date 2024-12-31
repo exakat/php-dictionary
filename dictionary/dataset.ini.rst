@@ -7,6 +7,8 @@
 	:twitter:title: Dataset
 	:twitter:description: Dataset: A dataset is an organized collection of data
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dataset
 	:og:type: article
 	:og:description: A dataset is an organized collection of data

@@ -7,6 +7,8 @@
 	:twitter:title: DOM
 	:twitter:description: DOM: The DOM extension in PHP is an extension that allows developers to work with XML documents using the Document Object Model (DOM) API
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: DOM
 	:og:type: article
 	:og:description: The DOM extension in PHP is an extension that allows developers to work with XML documents using the Document Object Model (DOM) API

@@ -7,6 +7,8 @@
 	:twitter:title: Handle
 	:twitter:description: Handle: A handle, in PHP jargon, represents a datastructure that has established a link with an independant resource
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Handle
 	:og:type: article
 	:og:description: A handle, in PHP jargon, represents a datastructure that has established a link with an independant resource

@@ -8,6 +8,8 @@
 	:twitter:title: Object Nullsafe Operator ?->
 	:twitter:description: Object Nullsafe Operator ?->: The object nullsafe operator is an operator which gives access to properties and methods of an object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object Nullsafe Operator ?->
 	:og:type: article
 	:og:description: The object nullsafe operator is an operator which gives access to properties and methods of an object

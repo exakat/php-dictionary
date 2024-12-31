@@ -8,6 +8,8 @@
 	:twitter:title: Password
 	:twitter:description: Password: A password is a secret or confidential string of characters that is used for authentication and access control to verify the identity of a user
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Password
 	:og:type: article
 	:og:description: A password is a secret or confidential string of characters that is used for authentication and access control to verify the identity of a user

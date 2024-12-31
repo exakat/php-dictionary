@@ -7,6 +7,8 @@
 	:twitter:title: Virtual Property
 	:twitter:description: Virtual Property: A virtual property is a class property, whose property hooks don't use the value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Virtual Property
 	:og:type: article
 	:og:description: A virtual property is a class property, whose property hooks don't use the value

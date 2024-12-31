@@ -7,6 +7,8 @@
 	:twitter:title: System Event
 	:twitter:description: System Event: System events, also known as signals, are software interrupts sent to a program to indicate that an important event has occurred
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: System Event
 	:og:type: article
 	:og:description: System events, also known as signals, are software interrupts sent to a program to indicate that an important event has occurred

@@ -7,6 +7,8 @@
 	:twitter:title: Expression
 	:twitter:description: Expression: In PHP, an expression is a combination of one or more variables, operators, constants, and functions that evaluates to a single value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Expression
 	:og:type: article
 	:og:description: In PHP, an expression is a combination of one or more variables, operators, constants, and functions that evaluates to a single value

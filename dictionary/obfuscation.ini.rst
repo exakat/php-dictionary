@@ -7,6 +7,8 @@
 	:twitter:title: Obfuscation
 	:twitter:description: Obfuscation: Obfuscation refers to the practice of deliberately making something difficult to understand or obscure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Obfuscation
 	:og:type: article
 	:og:description: Obfuscation refers to the practice of deliberately making something difficult to understand or obscure

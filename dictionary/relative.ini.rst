@@ -7,6 +7,8 @@
 	:twitter:title: Relative
 	:twitter:description: Relative: A ``relative`` value is dependant from the context in which it operates
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Relative
 	:og:type: article
 	:og:description: A ``relative`` value is dependant from the context in which it operates

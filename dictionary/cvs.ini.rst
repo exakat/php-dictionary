@@ -7,6 +7,8 @@
 	:twitter:title: CVS
 	:twitter:description: CVS: CSV is Concurrent Version System
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: CVS
 	:og:type: article
 	:og:description: CSV is Concurrent Version System

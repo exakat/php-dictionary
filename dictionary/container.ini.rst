@@ -7,6 +7,8 @@
 	:twitter:title: Container
 	:twitter:description: Container: There are several usage of container: 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Container
 	:og:type: article
 	:og:description: There are several usage of container: 

@@ -7,6 +7,8 @@
 	:twitter:title: __serialize() method
 	:twitter:description: __serialize() method: The __serialize() magic method is called when a script tries to construct an associative array of key/value pairs that represent the serialized form of the object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __serialize() method
 	:og:type: article
 	:og:description: The __serialize() magic method is called when a script tries to construct an associative array of key/value pairs that represent the serialized form of the object

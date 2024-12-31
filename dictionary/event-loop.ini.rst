@@ -7,6 +7,8 @@
 	:twitter:title: Event Loop
 	:twitter:description: Event Loop: An event loop is a mechanism for handling asynchronous operations and event-driven programming
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Event Loop
 	:og:type: article
 	:og:description: An event loop is a mechanism for handling asynchronous operations and event-driven programming

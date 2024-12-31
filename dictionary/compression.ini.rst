@@ -7,6 +7,8 @@
 	:twitter:title: Compression
 	:twitter:description: Compression: Compression is the representation of data in a format that uses less space that the original raw data
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Compression
 	:og:type: article
 	:og:description: Compression is the representation of data in a format that uses less space that the original raw data

@@ -8,6 +8,8 @@
 	:twitter:title: Curly Brackets
 	:twitter:description: Curly Brackets: Curly brackets have different usage in PHP:
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Curly Brackets
 	:og:type: article
 	:og:description: Curly brackets have different usage in PHP:

@@ -7,6 +7,8 @@
 	:twitter:title: SQL Views
 	:twitter:description: SQL Views: Views in a SQL server is a virtual table, build as the result of a SQL query
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: SQL Views
 	:og:type: article
 	:og:description: Views in a SQL server is a virtual table, build as the result of a SQL query

@@ -8,6 +8,8 @@
 	:twitter:title: Magic Hash
 	:twitter:description: Magic Hash: A magic hash is a hash string which is mistakenly compared to another hash
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Magic Hash
 	:og:type: article
 	:og:description: A magic hash is a hash string which is mistakenly compared to another hash

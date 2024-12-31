@@ -7,6 +7,8 @@
 	:twitter:title: Switch Case
 	:twitter:description: Switch Case: A switch case, also called case, is an option in a switch() or a match() expression
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Switch Case
 	:og:type: article
 	:og:description: A switch case, also called case, is an option in a switch() or a match() expression

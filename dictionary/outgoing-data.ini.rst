@@ -7,6 +7,8 @@
 	:twitter:title: Outgoing Data
 	:twitter:description: Outgoing Data: Outgoing data are data submitted by PHP to an external user
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Outgoing Data
 	:og:type: article
 	:og:description: Outgoing data are data submitted by PHP to an external user

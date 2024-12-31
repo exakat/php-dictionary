@@ -7,6 +7,8 @@
 	:twitter:title: PHP User Groups
 	:twitter:description: PHP User Groups: PHP-UG are the PHP User Groups
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP User Groups
 	:og:type: article
 	:og:description: PHP-UG are the PHP User Groups

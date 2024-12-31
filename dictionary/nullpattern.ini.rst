@@ -7,6 +7,8 @@
 	:twitter:title: Null Pattern
 	:twitter:description: Null Pattern: The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Null Pattern
 	:og:type: article
 	:og:description: The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner

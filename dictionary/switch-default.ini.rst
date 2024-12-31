@@ -7,6 +7,8 @@
 	:twitter:title: Switch Default
 	:twitter:description: Switch Default: A switch default, also called default, is the catch-all option in a switch() or a match() expression
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Switch Default
 	:og:type: article
 	:og:description: A switch default, also called default, is the catch-all option in a switch() or a match() expression

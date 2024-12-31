@@ -8,6 +8,8 @@
 	:twitter:title: Multibyte String
 	:twitter:description: Multibyte String: ``mbstring`` provides function to process multibyte strings functions
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Multibyte String
 	:og:type: article
 	:og:description: ``mbstring`` provides function to process multibyte strings functions

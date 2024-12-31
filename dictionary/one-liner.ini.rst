@@ -7,6 +7,8 @@
 	:twitter:title: One Liner
 	:twitter:description: One Liner: A one-liner refers to a concise and often single expression that accomplishes a specific task
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: One Liner
 	:og:type: article
 	:og:description: A one-liner refers to a concise and often single expression that accomplishes a specific task

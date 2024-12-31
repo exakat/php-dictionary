@@ -7,6 +7,8 @@
 	:twitter:title: Lazy Loading
 	:twitter:description: Lazy Loading: Lazy loading is a programming pattern that postpone the actual loading of a resource to the moment it is actually used
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Lazy Loading
 	:og:type: article
 	:og:description: Lazy loading is a programming pattern that postpone the actual loading of a resource to the moment it is actually used

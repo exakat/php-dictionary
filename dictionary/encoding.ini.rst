@@ -7,6 +7,8 @@
 	:twitter:title: Encoding
 	:twitter:description: Encoding: Encoding is a generic term, and is used in different places in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Encoding
 	:og:type: article
 	:og:description: Encoding is a generic term, and is used in different places in PHP

@@ -7,6 +7,8 @@
 	:twitter:title: Underflow
 	:twitter:description: Underflow: Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Underflow
 	:og:type: article
 	:og:description: Underflow happens when a value goes below a limit : out of its range of existence, the behavior of the value is now unknown

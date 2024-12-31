@@ -7,6 +7,8 @@
 	:twitter:title: Rounding
 	:twitter:description: Rounding: Rouding refers to the process of adjusting numerical values to a certain degree of precision
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Rounding
 	:og:type: article
 	:og:description: Rouding refers to the process of adjusting numerical values to a certain degree of precision

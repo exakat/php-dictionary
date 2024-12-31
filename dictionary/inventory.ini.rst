@@ -7,6 +7,8 @@
 	:twitter:title: Code Inventory
 	:twitter:description: Code Inventory: A code inventory is the collection of all elements of the same type, for categorized review
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Code Inventory
 	:og:type: article
 	:og:description: A code inventory is the collection of all elements of the same type, for categorized review

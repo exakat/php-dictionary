@@ -7,6 +7,8 @@
 	:twitter:title: Days In Month
 	:twitter:description: Days In Month: Days in month is a classic bug when dealing with dates
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Days In Month
 	:og:type: article
 	:og:description: Days in month is a classic bug when dealing with dates

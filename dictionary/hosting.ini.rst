@@ -7,6 +7,8 @@
 	:twitter:title: Hosting
 	:twitter:description: Hosting: Hosting is a server that stores the application code, and is accessible to a audience for usage
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hosting
 	:og:type: article
 	:og:description: Hosting is a server that stores the application code, and is accessible to a audience for usage

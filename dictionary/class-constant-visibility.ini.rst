@@ -7,6 +7,8 @@
 	:twitter:title: Class Constants Visibility
 	:twitter:description: Class Constants Visibility: Class constant may have a visibility option
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Constants Visibility
 	:og:type: article
 	:og:description: Class constant may have a visibility option

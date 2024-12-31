@@ -7,6 +7,8 @@
 	:twitter:title: Static Variables
 	:twitter:description: Static Variables: A static variable is a variable that retains its value across multiple function calls
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Static Variables
 	:og:type: article
 	:og:description: A static variable is a variable that retains its value across multiple function calls

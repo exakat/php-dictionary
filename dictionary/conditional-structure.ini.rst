@@ -7,6 +7,8 @@
 	:twitter:title: Conditional Structures
 	:twitter:description: Conditional Structures: Conditional structures are instructions which run different code, based on a condition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Conditional Structures
 	:og:type: article
 	:og:description: Conditional structures are instructions which run different code, based on a condition

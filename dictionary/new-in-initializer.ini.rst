@@ -8,6 +8,8 @@
 	:twitter:title: New In Initializers
 	:twitter:description: New In Initializers: It is possible to use a new expression for default values of static variables, arguments and properties
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: New In Initializers
 	:og:type: article
 	:og:description: It is possible to use a new expression for default values of static variables, arguments and properties

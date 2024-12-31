@@ -7,6 +7,8 @@
 	:twitter:title: __clone() Method
 	:twitter:description: __clone() Method: To clone an object is the creation of a new distinct object, from an existing one
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __clone() Method
 	:og:type: article
 	:og:description: To clone an object is the creation of a new distinct object, from an existing one

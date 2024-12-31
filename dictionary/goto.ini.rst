@@ -7,6 +7,8 @@
 	:twitter:title: Goto
 	:twitter:description: Goto: The goto operator PHP is a language construct that allows you to perform an unconditional jump in the flow of your code to a specified label
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Goto
 	:og:type: article
 	:og:description: The goto operator PHP is a language construct that allows you to perform an unconditional jump in the flow of your code to a specified label

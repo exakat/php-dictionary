@@ -7,6 +7,8 @@
 	:twitter:title: Double Quotes Strings
 	:twitter:description: Double Quotes Strings: Double quoted strings are strings that include variables (properties and arrays), which are interpolated at execution time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Double Quotes Strings
 	:og:type: article
 	:og:description: Double quoted strings are strings that include variables (properties and arrays), which are interpolated at execution time

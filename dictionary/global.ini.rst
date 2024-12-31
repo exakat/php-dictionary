@@ -7,6 +7,8 @@
 	:twitter:title: global Scope
 	:twitter:description: global Scope: The global scope is the top level scope
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: global Scope
 	:og:type: article
 	:og:description: The global scope is the top level scope

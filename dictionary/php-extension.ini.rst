@@ -7,6 +7,8 @@
 	:twitter:title: PHP Extensions
 	:twitter:description: PHP Extensions: Extensions are PHP module system
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Extensions
 	:og:type: article
 	:og:description: Extensions are PHP module system

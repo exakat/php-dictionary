@@ -7,6 +7,8 @@
 	:twitter:title: new
 	:twitter:description: new: new creates a new object from a class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: new
 	:og:type: article
 	:og:description: new creates a new object from a class

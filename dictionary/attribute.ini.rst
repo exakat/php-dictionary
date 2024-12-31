@@ -7,6 +7,8 @@
 	:twitter:title: Attributes
 	:twitter:description: Attributes: Attributes are machine readable options that may be added PHP code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Attributes
 	:og:type: article
 	:og:description: Attributes are machine readable options that may be added PHP code

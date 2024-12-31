@@ -7,6 +7,8 @@
 	:twitter:title: Multiplication
 	:twitter:description: Multiplication: Multiplication is the mathematical multiplication
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Multiplication
 	:og:type: article
 	:og:description: Multiplication is the mathematical multiplication

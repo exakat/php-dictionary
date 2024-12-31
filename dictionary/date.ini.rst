@@ -8,6 +8,8 @@
 	:twitter:title: Dates
 	:twitter:description: Dates: These functions allow you to get the date and time from the server where your PHP scripts are running
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dates
 	:og:type: article
 	:og:description: These functions allow you to get the date and time from the server where your PHP scripts are running

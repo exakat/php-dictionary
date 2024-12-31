@@ -7,6 +7,8 @@
 	:twitter:title: String Interpolation
 	:twitter:description: String Interpolation: String interpolation is a feature where variables inside a string are dynamically replaced by their value at execution time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: String Interpolation
 	:og:type: article
 	:og:description: String interpolation is a feature where variables inside a string are dynamically replaced by their value at execution time

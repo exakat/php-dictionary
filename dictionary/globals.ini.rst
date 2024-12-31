@@ -8,6 +8,8 @@
 	:twitter:title: $GLOBALS
 	:twitter:description: $GLOBALS: $GLOBALS is a global variable, that host all other global variables, during a PHP execution
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $GLOBALS
 	:og:type: article
 	:og:description: $GLOBALS is a global variable, that host all other global variables, during a PHP execution

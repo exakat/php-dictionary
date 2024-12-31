@@ -8,6 +8,8 @@
 	:twitter:title: Webscraping
 	:twitter:description: Webscraping: Web scraping is the process of extracting data from websites
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Webscraping
 	:og:type: article
 	:og:description: Web scraping is the process of extracting data from websites

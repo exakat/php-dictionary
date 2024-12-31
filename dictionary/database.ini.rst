@@ -7,6 +7,8 @@
 	:twitter:title: Database
 	:twitter:description: Database: A database is an organized set of data, which may be queried
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Database
 	:og:type: article
 	:og:description: A database is an organized set of data, which may be queried

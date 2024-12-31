@@ -7,6 +7,8 @@
 	:twitter:title: ArithmeticError Error
 	:twitter:description: ArithmeticError Error: ``ArithmeticError`` is thrown when an error occurs while performing mathematical operations
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ArithmeticError Error
 	:og:type: article
 	:og:description: ``ArithmeticError`` is thrown when an error occurs while performing mathematical operations

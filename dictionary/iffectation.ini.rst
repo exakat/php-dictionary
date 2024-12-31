@@ -7,6 +7,8 @@
 	:twitter:title: Iffectation
 	:twitter:description: Iffectation: An iffection is both an assignation and a condition at the same time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Iffectation
 	:og:type: article
 	:og:description: An iffection is both an assignation and a condition at the same time

@@ -7,6 +7,8 @@
 	:twitter:title: Callables
 	:twitter:description: Callables: A callable is an object that can pass the ``callable`` type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Callables
 	:og:type: article
 	:og:description: A callable is an object that can pass the ``callable`` type

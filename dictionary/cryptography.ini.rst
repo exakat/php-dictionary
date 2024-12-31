@@ -8,6 +8,8 @@
 	:twitter:title: Cryptography
 	:twitter:description: Cryptography: Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Cryptography
 	:og:type: article
 	:og:description: Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior

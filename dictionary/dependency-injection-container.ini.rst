@@ -7,6 +7,8 @@
 	:twitter:title: Dependency Injection Container
 	:twitter:description: Dependency Injection Container: A dependency injection container is a tool to make dependency injection easy to use
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dependency Injection Container
 	:og:type: article
 	:og:description: A dependency injection container is a tool to make dependency injection easy to use

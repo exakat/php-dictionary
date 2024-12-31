@@ -8,6 +8,8 @@
 	:twitter:title: Immutable
 	:twitter:description: Immutable: An immutable object is an object that can't be changed
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Immutable
 	:og:type: article
 	:og:description: An immutable object is an object that can't be changed

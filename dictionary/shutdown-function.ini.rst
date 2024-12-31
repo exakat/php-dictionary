@@ -8,6 +8,8 @@
 	:twitter:title: Shutdown Function
 	:twitter:description: Shutdown Function: The shutdown function is a PHP custom function which is called when the application is shutting down
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Shutdown Function
 	:og:type: article
 	:og:description: The shutdown function is a PHP custom function which is called when the application is shutting down

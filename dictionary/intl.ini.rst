@@ -7,6 +7,8 @@
 	:twitter:title: Internationalization Functions
 	:twitter:description: Internationalization Functions: The internationalization extension performs operations with locales
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Internationalization Functions
 	:og:type: article
 	:og:description: The internationalization extension performs operations with locales

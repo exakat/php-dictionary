@@ -7,6 +7,8 @@
 	:twitter:title: Zombie Code
 	:twitter:description: Zombie Code: Zombie code refers to sections of code that are still executed, but whose results are discarded
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Zombie Code
 	:og:type: article
 	:og:description: Zombie code refers to sections of code that are still executed, but whose results are discarded

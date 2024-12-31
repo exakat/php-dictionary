@@ -8,6 +8,8 @@
 	:twitter:title: Hard Coded
 	:twitter:description: Hard Coded: Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hard Coded
 	:og:type: article
 	:og:description: Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters

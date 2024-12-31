@@ -7,6 +7,8 @@
 	:twitter:title: Nowdocs
 	:twitter:description: Nowdocs: Nowdocs is a string syntax, similar to heredoc, and without internal parsing
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Nowdocs
 	:og:type: article
 	:og:description: Nowdocs is a string syntax, similar to heredoc, and without internal parsing

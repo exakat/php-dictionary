@@ -12,6 +12,8 @@
 	:twitter:title: Logical Operators
 	:twitter:description: Logical Operators: Logical operators applies four logical functions to booleans
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Logical Operators
 	:og:type: article
 	:og:description: Logical operators applies four logical functions to booleans

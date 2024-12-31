@@ -7,6 +7,8 @@
 	:twitter:title: Injection
 	:twitter:description: Injection: Injection is the usage of a resource (data, object, services
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Injection
 	:og:type: article
 	:og:description: Injection is the usage of a resource (data, object, services

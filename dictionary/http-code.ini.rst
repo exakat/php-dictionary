@@ -7,6 +7,8 @@
 	:twitter:title: HTTP Code
 	:twitter:description: HTTP Code: HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: HTTP Code
 	:og:type: article
 	:og:description: HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server

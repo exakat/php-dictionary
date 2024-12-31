@@ -7,6 +7,8 @@
 	:twitter:title: Error Reporting
 	:twitter:description: Error Reporting: Error reporting is both a feature, a directive and a PHP native function
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Error Reporting
 	:og:type: article
 	:og:description: Error reporting is both a feature, a directive and a PHP native function

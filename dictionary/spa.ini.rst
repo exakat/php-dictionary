@@ -8,6 +8,8 @@
 	:twitter:title: Single Page Application
 	:twitter:description: Single Page Application: SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Single Page Application
 	:og:type: article
 	:og:description: SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server

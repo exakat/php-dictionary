@@ -8,6 +8,8 @@
 	:twitter:title: integer
 	:twitter:description: integer: An int is a number of the set ℤ = {
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: integer
 	:og:type: article
 	:og:description: An int is a number of the set ℤ = {

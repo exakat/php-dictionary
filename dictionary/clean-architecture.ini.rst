@@ -7,6 +7,8 @@
 	:twitter:title: Clean Architecture
 	:twitter:description: Clean Architecture: Clean Architecture is a programming paradigm, where code is distributed in four layers : framework, interface adapters, application business rules, enterprise business rules
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Clean Architecture
 	:og:type: article
 	:og:description: Clean Architecture is a programming paradigm, where code is distributed in four layers : framework, interface adapters, application business rules, enterprise business rules

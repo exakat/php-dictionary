@@ -7,6 +7,8 @@
 	:twitter:title: Default Value
 	:twitter:description: Default Value: Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Default Value
 	:og:type: article
 	:og:description: Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided

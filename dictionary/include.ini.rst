@@ -10,6 +10,8 @@
 	:twitter:title: include
 	:twitter:description: include: Inclusion, often represented by the ``include`` keyword, is the process to read an external file, and evaluate with the current application for execution
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: include
 	:og:type: article
 	:og:description: Inclusion, often represented by the ``include`` keyword, is the process to read an external file, and evaluate with the current application for execution

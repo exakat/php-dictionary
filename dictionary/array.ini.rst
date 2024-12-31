@@ -8,6 +8,8 @@
 	:twitter:title: Array
 	:twitter:description: Array: array is the array structure in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Array
 	:og:type: article
 	:og:description: array is the array structure in PHP

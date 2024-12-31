@@ -7,6 +7,8 @@
 	:twitter:title: PHP RFC
 	:twitter:description: PHP RFC: PHP evolution is organized by RFC : Request for comments
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP RFC
 	:og:type: article
 	:og:description: PHP evolution is organized by RFC : Request for comments

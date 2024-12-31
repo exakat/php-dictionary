@@ -8,6 +8,8 @@
 	:twitter:title: Boolean
 	:twitter:description: Boolean: A boolean is a value that is either true or false
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Boolean
 	:og:type: article
 	:og:description: A boolean is a value that is either true or false

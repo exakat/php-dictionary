@@ -7,6 +7,8 @@
 	:twitter:title: PHP Docker Container
 	:twitter:description: PHP Docker Container: This is a Docker container, with a pre-installed PHP executable
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Docker Container
 	:og:type: article
 	:og:description: This is a Docker container, with a pre-installed PHP executable

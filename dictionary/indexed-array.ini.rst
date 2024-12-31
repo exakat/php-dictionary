@@ -7,6 +7,8 @@
 	:twitter:title: Indexed Array
 	:twitter:description: Indexed Array: An indexed array is an array whose keys are only integers
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Indexed Array
 	:og:type: article
 	:og:description: An indexed array is an array whose keys are only integers

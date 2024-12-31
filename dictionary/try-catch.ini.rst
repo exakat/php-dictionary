@@ -8,6 +8,8 @@
 	:twitter:title: Try-catch
 	:twitter:description: Try-catch: Try-catch is a PHP command, which run a block of code, and catch some configured exceptions that the block may throw
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Try-catch
 	:og:type: article
 	:og:description: Try-catch is a PHP command, which run a block of code, and catch some configured exceptions that the block may throw

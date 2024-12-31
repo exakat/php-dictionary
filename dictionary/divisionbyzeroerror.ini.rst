@@ -7,6 +7,8 @@
 	:twitter:title: DivisionByZeroError
 	:twitter:description: DivisionByZeroError: DivisionByZeroError is thrown when an attempt is made to divide a number by zero
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: DivisionByZeroError
 	:og:type: article
 	:og:description: DivisionByZeroError is thrown when an attempt is made to divide a number by zero

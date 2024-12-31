@@ -9,6 +9,8 @@
 	:twitter:title: Coalesce Operator
 	:twitter:description: Coalesce Operator: The coalesce operator `
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Coalesce Operator
 	:og:type: article
 	:og:description: The coalesce operator `

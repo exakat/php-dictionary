@@ -7,6 +7,8 @@
 	:twitter:title: Authenticate
 	:twitter:description: Authenticate: Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Authenticate
 	:og:type: article
 	:og:description: Functions declared with void as their return type must either omit their return statement altogether, or use an empty return statement

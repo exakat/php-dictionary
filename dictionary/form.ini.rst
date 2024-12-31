@@ -7,6 +7,8 @@
 	:twitter:title: Form
 	:twitter:description: Form: A form is a web page component to collect and submit information
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Form
 	:og:type: article
 	:og:description: A form is a web page component to collect and submit information

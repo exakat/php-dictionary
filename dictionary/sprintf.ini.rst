@@ -9,6 +9,8 @@
 	:twitter:title: sprintf
 	:twitter:description: sprintf: sprintf() is a PHP native function, which format a string based on a format string, and one or more values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: sprintf
 	:og:type: article
 	:og:description: sprintf() is a PHP native function, which format a string based on a format string, and one or more values

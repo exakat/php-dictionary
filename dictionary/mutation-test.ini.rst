@@ -7,6 +7,8 @@
 	:twitter:title: Mutation Testing
 	:twitter:description: Mutation Testing: Mutation testing is a way to enhance the quality of tests by checking how they react to a small perturbation of the code source
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Mutation Testing
 	:og:type: article
 	:og:description: Mutation testing is a way to enhance the quality of tests by checking how they react to a small perturbation of the code source

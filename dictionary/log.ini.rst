@@ -7,6 +7,8 @@
 	:twitter:title: Log
 	:twitter:description: Log: Log is a list of event that happen during execution of a piece of software
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Log
 	:og:type: article
 	:og:description: Log is a list of event that happen during execution of a piece of software

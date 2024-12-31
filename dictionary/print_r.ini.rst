@@ -7,6 +7,8 @@
 	:twitter:title: print_r()
 	:twitter:description: print_r(): print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: print_r()
 	:og:type: article
 	:og:description: print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format

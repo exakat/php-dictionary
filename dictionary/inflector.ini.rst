@@ -7,6 +7,8 @@
 	:twitter:title: Inflector
 	:twitter:description: Inflector: An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Inflector
 	:og:type: article
 	:og:description: An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase

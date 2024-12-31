@@ -7,6 +7,8 @@
 	:twitter:title: SQL Injection
 	:twitter:description: SQL Injection: A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: SQL Injection
 	:og:type: article
 	:og:description: A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query

@@ -7,6 +7,8 @@
 	:twitter:title: Memoization
 	:twitter:description: Memoization: Memoization is an optimisation technique to speed up a function by avoiding re-processing previously calculated results
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Memoization
 	:og:type: article
 	:og:description: Memoization is an optimisation technique to speed up a function by avoiding re-processing previously calculated results

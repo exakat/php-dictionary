@@ -8,6 +8,8 @@
 	:twitter:title: Yoda Condition
 	:twitter:description: Yoda Condition: Yoda condition is a way to write condition by using any literal value on the left, instead of the right
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Yoda Condition
 	:og:type: article
 	:og:description: Yoda condition is a way to write condition by using any literal value on the left, instead of the right

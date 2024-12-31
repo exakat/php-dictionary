@@ -7,6 +7,8 @@
 	:twitter:title: Sign
 	:twitter:description: Sign: A signed expression is an expression that starts with the ``+`` or the ``-`` token
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Sign
 	:og:type: article
 	:og:description: A signed expression is an expression that starts with the ``+`` or the ``-`` token

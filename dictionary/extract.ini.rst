@@ -7,6 +7,8 @@
 	:twitter:title: extract()
 	:twitter:description: extract(): extract() is a native PHP function, which creates arrays from an array containing variables and their values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: extract()
 	:og:type: article
 	:og:description: extract() is a native PHP function, which creates arrays from an array containing variables and their values

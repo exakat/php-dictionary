@@ -7,6 +7,8 @@
 	:twitter:title: TCP
 	:twitter:description: TCP: TCP, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol (IP) suite
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: TCP
 	:og:type: article
 	:og:description: TCP, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol (IP) suite

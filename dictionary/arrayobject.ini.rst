@@ -7,6 +7,8 @@
 	:twitter:title: ArrayObject
 	:twitter:description: ArrayObject: ``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ArrayObject
 	:og:type: article
 	:og:description: ``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object

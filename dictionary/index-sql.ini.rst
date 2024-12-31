@@ -7,6 +7,8 @@
 	:twitter:title: Index For SQL
 	:twitter:description: Index For SQL: In SQL, an index is a database object that improves the performance of data retrieval operations on database tables
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Index For SQL
 	:og:type: article
 	:og:description: In SQL, an index is a database object that improves the performance of data retrieval operations on database tables

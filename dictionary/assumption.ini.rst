@@ -7,6 +7,8 @@
 	:twitter:title: Assumption
 	:twitter:description: Assumption: An assumption is a piece of code that makes use of knowledge that is not visible in the source
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Assumption
 	:og:type: article
 	:og:description: An assumption is a piece of code that makes use of knowledge that is not visible in the source

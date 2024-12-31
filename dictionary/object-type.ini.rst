@@ -7,6 +7,8 @@
 	:twitter:title: object type
 	:twitter:description: object type: ``object`` is a PHP type, which represent an object of any class, including anonymous class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: object type
 	:og:type: article
 	:og:description: ``object`` is a PHP type, which represent an object of any class, including anonymous class

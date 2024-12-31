@@ -7,6 +7,8 @@
 	:twitter:title: Comma
 	:twitter:description: Comma: Commas are syntax elements, to separate elements when provided as a list
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Comma
 	:og:type: article
 	:og:description: Commas are syntax elements, to separate elements when provided as a list

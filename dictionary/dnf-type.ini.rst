@@ -8,6 +8,8 @@
 	:twitter:title: Disjunctive Normal Form (DNF)
 	:twitter:description: Disjunctive Normal Form (DNF): DNF stands for 'Disjunctive Normal Form'
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Disjunctive Normal Form (DNF)
 	:og:type: article
 	:og:description: DNF stands for 'Disjunctive Normal Form'

@@ -7,6 +7,8 @@
 	:twitter:title: Positional Parameters
 	:twitter:description: Positional Parameters: Way of calling a function or method, where argument which are identified by their position in the signature or the call
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Positional Parameters
 	:og:type: article
 	:og:description: Way of calling a function or method, where argument which are identified by their position in the signature or the call

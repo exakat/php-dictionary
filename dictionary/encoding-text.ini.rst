@@ -8,6 +8,8 @@
 	:twitter:title: Text Encoding
 	:twitter:description: Text Encoding: Encoding is the way characters are organized to hold a meaning while being transmitted, stored or manipulated
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Text Encoding
 	:og:type: article
 	:og:description: Encoding is the way characters are organized to hold a meaning while being transmitted, stored or manipulated

@@ -8,6 +8,8 @@
 	:twitter:title: If Then Else
 	:twitter:description: If Then Else: A if-then-else command branches the execution based on an condition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: If Then Else
 	:og:type: article
 	:og:description: A if-then-else command branches the execution based on an condition

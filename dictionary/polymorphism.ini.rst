@@ -7,6 +7,8 @@
 	:twitter:title: Polymorphism
 	:twitter:description: Polymorphism: Polymorphism is a fundamental concept in object-oriented programming (OOP)
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Polymorphism
 	:og:type: article
 	:og:description: Polymorphism is a fundamental concept in object-oriented programming (OOP)

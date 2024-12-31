@@ -7,6 +7,8 @@
 	:twitter:title: ReflectionException
 	:twitter:description: ReflectionException: ReflectionException is thrown whenever the Reflection API encounters an error
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ReflectionException
 	:og:type: article
 	:og:description: ReflectionException is thrown whenever the Reflection API encounters an error

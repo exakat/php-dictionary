@@ -10,6 +10,8 @@
 	:twitter:title: Scalar Types
 	:twitter:description: Scalar Types: Scalar types refer to the basic data types that hold a single value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Scalar Types
 	:og:type: article
 	:og:description: Scalar types refer to the basic data types that hold a single value

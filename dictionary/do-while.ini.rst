@@ -7,6 +7,8 @@
 	:twitter:title: Do While
 	:twitter:description: Do While: Do While is a loop structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Do While
 	:og:type: article
 	:og:description: Do While is a loop structure

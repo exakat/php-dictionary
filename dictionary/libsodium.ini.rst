@@ -8,6 +8,8 @@
 	:twitter:title: libsodium
 	:twitter:description: libsodium: Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: libsodium
 	:og:type: article
 	:og:description: Sodium is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more

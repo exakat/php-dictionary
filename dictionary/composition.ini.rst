@@ -7,6 +7,8 @@
 	:twitter:title: Composition
 	:twitter:description: Composition: Composition is the creation of new classes, by including other classes, and delivering a specific interface over them
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Composition
 	:og:type: article
 	:og:description: Composition is the creation of new classes, by including other classes, and delivering a specific interface over them

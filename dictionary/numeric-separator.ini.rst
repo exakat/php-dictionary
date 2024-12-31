@@ -8,6 +8,8 @@
 	:twitter:title: Numeric Separator
 	:twitter:description: Numeric Separator: Since PHP 7
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Numeric Separator
 	:og:type: article
 	:og:description: Since PHP 7

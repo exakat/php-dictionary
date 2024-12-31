@@ -7,6 +7,8 @@
 	:twitter:title: SVN
 	:twitter:description: SVN: SVN, or Subversion, is a version control system (VCS) used for managing and tracking changes to files and directories in software development and other collaborative environments
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: SVN
 	:og:type: article
 	:og:description: SVN, or Subversion, is a version control system (VCS) used for managing and tracking changes to files and directories in software development and other collaborative environments

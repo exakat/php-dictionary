@@ -9,6 +9,8 @@
 	:twitter:title: Scope Resolution Operator ::
 	:twitter:description: Scope Resolution Operator ::: The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Scope Resolution Operator ::
 	:og:type: article
 	:og:description: The Scope Resolution Operator is a token that allows access to static, constant, and overridden properties or methods of a class

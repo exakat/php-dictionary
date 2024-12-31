@@ -7,6 +7,8 @@
 	:twitter:title: Naming
 	:twitter:description: Naming: `naming` refers to the process of choosing appropriate names for variables, functions, classes, constants, traits, interfaces, enum, methods, parameters and  any other programming elements
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Naming
 	:og:type: article
 	:og:description: `naming` refers to the process of choosing appropriate names for variables, functions, classes, constants, traits, interfaces, enum, methods, parameters and  any other programming elements

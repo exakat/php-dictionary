@@ -7,6 +7,8 @@
 	:twitter:title: Null Safe Object Operator
 	:twitter:description: Null Safe Object Operator: The Null Safe Object Operator behaves like the object operator, until the object is null
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Null Safe Object Operator
 	:og:type: article
 	:og:description: The Null Safe Object Operator behaves like the object operator, until the object is null

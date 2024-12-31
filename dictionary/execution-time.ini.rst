@@ -7,6 +7,8 @@
 	:twitter:title: Execution Time
 	:twitter:description: Execution Time: Execution time is a phase of PHP processing, where the source code is executed
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Execution Time
 	:og:type: article
 	:og:description: Execution time is a phase of PHP processing, where the source code is executed

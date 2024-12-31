@@ -7,6 +7,8 @@
 	:twitter:title: Colon
 	:twitter:description: Colon: Colons are used in a variety of situations : 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Colon
 	:og:type: article
 	:og:description: Colons are used in a variety of situations : 

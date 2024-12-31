@@ -8,6 +8,8 @@
 	:twitter:title: Concatenation
 	:twitter:description: Concatenation: Concatenation is the PHP feature that appends two strings together, to make a third, longer one
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Concatenation
 	:og:type: article
 	:og:description: Concatenation is the PHP feature that appends two strings together, to make a third, longer one

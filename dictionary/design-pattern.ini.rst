@@ -8,6 +8,8 @@
 	:twitter:title: Design Pattern
 	:twitter:description: Design Pattern: A design pattern, or simply a pattern, is a general solution to a common problem
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Design Pattern
 	:og:type: article
 	:og:description: A design pattern, or simply a pattern, is a general solution to a common problem

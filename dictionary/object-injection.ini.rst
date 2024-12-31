@@ -8,6 +8,8 @@
 	:twitter:title: Object Injection
 	:twitter:description: Object Injection: Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object Injection
 	:og:type: article
 	:og:description: Object injection happens when a string is deserialized to recreate an object, inside PHP, while the string is controlled by the attacker

@@ -8,6 +8,8 @@
 	:twitter:title: Stream Wrapper
 	:twitter:description: Stream Wrapper: A wrapper is additional code which tells the stream how to handle specific protocols/encodings
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Stream Wrapper
 	:og:type: article
 	:og:description: A wrapper is additional code which tells the stream how to handle specific protocols/encodings

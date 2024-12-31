@@ -7,6 +7,8 @@
 	:twitter:title: Passing By Value
 	:twitter:description: Passing By Value: When calling a method, or returning from it, data may be passed by value or by reference
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Passing By Value
 	:og:type: article
 	:og:description: When calling a method, or returning from it, data may be passed by value or by reference

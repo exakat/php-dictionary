@@ -7,6 +7,8 @@
 	:twitter:title: Facade
 	:twitter:description: Facade: A facade provides a simplified interface to a complex library
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Facade
 	:og:type: article
 	:og:description: A facade provides a simplified interface to a complex library

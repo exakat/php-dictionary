@@ -7,6 +7,8 @@
 	:twitter:title: Just In Time
 	:twitter:description: Just In Time: Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Just In Time
 	:og:type: article
 	:og:description: Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution

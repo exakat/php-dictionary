@@ -7,6 +7,8 @@
 	:twitter:title: Literal Types
 	:twitter:description: Literal Types: Literal types are type which not only check the type of a value but also the value itself
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Literal Types
 	:og:type: article
 	:og:description: Literal types are type which not only check the type of a value but also the value itself

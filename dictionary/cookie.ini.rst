@@ -7,6 +7,8 @@
 	:twitter:title: Cookie
 	:twitter:description: Cookie: Cookies are a mechanism for storing data in the remote browser and thus tracking or identifying return users
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Cookie
 	:og:type: article
 	:og:description: Cookies are a mechanism for storing data in the remote browser and thus tracking or identifying return users

@@ -7,6 +7,8 @@
 	:twitter:title: Return Type Will Change
 	:twitter:description: Return Type Will Change: This is a native PHP attribute
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Return Type Will Change
 	:og:type: article
 	:og:description: This is a native PHP attribute

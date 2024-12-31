@@ -7,6 +7,8 @@
 	:twitter:title: Scheme
 	:twitter:description: Scheme: Scheme is a format for a string
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Scheme
 	:og:type: article
 	:og:description: Scheme is a format for a string

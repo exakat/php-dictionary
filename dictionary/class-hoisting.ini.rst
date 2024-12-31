@@ -7,6 +7,8 @@
 	:twitter:title: Class Hoisting
 	:twitter:description: Class Hoisting: Class hoisting is a compilation mode where the declaration of functions, classes
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Hoisting
 	:og:type: article
 	:og:description: Class hoisting is a compilation mode where the declaration of functions, classes

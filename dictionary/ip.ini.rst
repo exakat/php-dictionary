@@ -7,6 +7,8 @@
 	:twitter:title: IP
 	:twitter:description: IP: Internet Protocol: In the context of networking, IP often refers to Internet Protocol, which is a set of rules governing the format of data sent over the internet or other networks
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: IP
 	:og:type: article
 	:og:description: Internet Protocol: In the context of networking, IP often refers to Internet Protocol, which is a set of rules governing the format of data sent over the internet or other networks

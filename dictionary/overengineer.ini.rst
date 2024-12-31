@@ -8,6 +8,8 @@
 	:twitter:title: Overenginer
 	:twitter:description: Overenginer: Overengineering refers to the practice of designing and implementing a solution to a problem that goes beyond what is necessary or exceeds the requirements of the task
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Overenginer
 	:og:type: article
 	:og:description: Overengineering refers to the practice of designing and implementing a solution to a problem that goes beyond what is necessary or exceeds the requirements of the task

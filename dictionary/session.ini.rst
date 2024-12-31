@@ -7,6 +7,8 @@
 	:twitter:title: Session
 	:twitter:description: Session: Session support in PHP consists of a way to preserve certain data across subsequent accesses
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Session
 	:og:type: article
 	:og:description: Session support in PHP consists of a way to preserve certain data across subsequent accesses

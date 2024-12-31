@@ -7,6 +7,8 @@
 	:twitter:title: Day Are Not 86400 Seconds
 	:twitter:description: Day Are Not 86400 Seconds: Days in seconds is a classic bug when dealing with dates
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Day Are Not 86400 Seconds
 	:og:type: article
 	:og:description: Days in seconds is a classic bug when dealing with dates

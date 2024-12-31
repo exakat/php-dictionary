@@ -7,6 +7,8 @@
 	:twitter:title: __set() method
 	:twitter:description: __set() method: __set() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __set() method
 	:og:type: article
 	:og:description: __set() is a magic method : it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it

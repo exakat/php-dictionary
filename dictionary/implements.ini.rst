@@ -7,6 +7,8 @@
 	:twitter:title: implements
 	:twitter:description: implements: Implements is a keyword, dedicated to classes
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: implements
 	:og:type: article
 	:og:description: Implements is a keyword, dedicated to classes

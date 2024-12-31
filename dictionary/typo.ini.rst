@@ -7,6 +7,8 @@
 	:twitter:title: Typo
 	:twitter:description: Typo: A typo is short for ``typographical error``
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Typo
 	:og:type: article
 	:og:description: A typo is short for ``typographical error``

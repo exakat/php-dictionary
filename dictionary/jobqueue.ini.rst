@@ -7,6 +7,8 @@
 	:twitter:title: Jobqueue
 	:twitter:description: Jobqueue: A job queue is a concept that refers to a system or data structure used to manage and schedule the execution of various tasks or jobs in a sequential or parallel manner
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Jobqueue
 	:og:type: article
 	:og:description: A job queue is a concept that refers to a system or data structure used to manage and schedule the execution of various tasks or jobs in a sequential or parallel manner

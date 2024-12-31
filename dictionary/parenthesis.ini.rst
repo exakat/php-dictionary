@@ -7,6 +7,8 @@
 	:twitter:title: Parenthesis
 	:twitter:description: Parenthesis: Parenthesis are  parameter is a variable in a method definition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Parenthesis
 	:og:type: article
 	:og:description: Parenthesis are  parameter is a variable in a method definition

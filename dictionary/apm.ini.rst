@@ -7,6 +7,8 @@
 	:twitter:title: Application Performance Management
 	:twitter:description: Application Performance Management: APM stands for Application Performance Management
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Application Performance Management
 	:og:type: article
 	:og:description: APM stands for Application Performance Management

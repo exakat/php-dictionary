@@ -7,6 +7,8 @@
 	:twitter:title: phpinfo()
 	:twitter:description: phpinfo(): phpinfo() is one of the most famous PHP function
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: phpinfo()
 	:og:type: article
 	:og:description: phpinfo() is one of the most famous PHP function

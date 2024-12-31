@@ -8,6 +8,8 @@
 	:twitter:title: Sort
 	:twitter:description: Sort: Sorting is the action to put a list of object into a specific order
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Sort
 	:og:type: article
 	:og:description: Sorting is the action to put a list of object into a specific order

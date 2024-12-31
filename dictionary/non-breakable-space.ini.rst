@@ -7,6 +7,8 @@
 	:twitter:title: Non Breakable Spaces
 	:twitter:description: Non Breakable Spaces: Space is one of the base ascii character
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Non Breakable Spaces
 	:og:type: article
 	:og:description: Space is one of the base ascii character

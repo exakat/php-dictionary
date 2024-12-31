@@ -7,6 +7,8 @@
 	:twitter:title: Archive
 	:twitter:description: Archive: Archives are a single document that stores a collection of files and directories
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Archive
 	:og:type: article
 	:og:description: Archives are a single document that stores a collection of files and directories

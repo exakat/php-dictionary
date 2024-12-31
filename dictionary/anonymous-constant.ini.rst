@@ -7,6 +7,8 @@
 	:twitter:title: Anonymous Constant
 	:twitter:description: Anonymous Constant: A constant may be anonymous
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Anonymous Constant
 	:og:type: article
 	:og:description: A constant may be anonymous

@@ -7,6 +7,8 @@
 	:twitter:title: Declaration
 	:twitter:description: Declaration: A declaration is a statement that defines a structure, such as a function, a class, method, property, etc
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Declaration
 	:og:type: article
 	:og:description: A declaration is a statement that defines a structure, such as a function, a class, method, property, etc

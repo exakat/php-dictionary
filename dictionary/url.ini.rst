@@ -7,6 +7,8 @@
 	:twitter:title: Universal Resource Locator (URL)
 	:twitter:description: Universal Resource Locator (URL): Universal Resource Locator is a string that represents a resource, where to find it, how to access it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Universal Resource Locator (URL)
 	:og:type: article
 	:og:description: Universal Resource Locator is a string that represents a resource, where to find it, how to access it

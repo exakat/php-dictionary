@@ -7,6 +7,8 @@
 	:twitter:title: Leading Zero Means Octal
 	:twitter:description: Leading Zero Means Octal: PHP integer syntax has some special formats for binary, octal and hexadecimal formats
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Leading Zero Means Octal
 	:og:type: article
 	:og:description: PHP integer syntax has some special formats for binary, octal and hexadecimal formats

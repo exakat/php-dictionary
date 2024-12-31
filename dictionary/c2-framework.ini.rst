@@ -7,6 +7,8 @@
 	:twitter:title: C2 Framework
 	:twitter:description: C2 Framework: A C2 framework is also known as a C&C framework, or command-and-control framework
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: C2 Framework
 	:og:type: article
 	:og:description: A C2 framework is also known as a C&C framework, or command-and-control framework

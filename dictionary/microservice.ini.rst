@@ -8,6 +8,8 @@
 	:twitter:title: Microservice
 	:twitter:description: Microservice: A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Microservice
 	:og:type: article
 	:og:description: A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality

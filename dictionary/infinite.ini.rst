@@ -8,6 +8,8 @@
 	:twitter:title: Infinite
 	:twitter:description: Infinite: Infinite is a PHP constant, called ``INF``
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Infinite
 	:og:type: article
 	:og:description: Infinite is a PHP constant, called ``INF``

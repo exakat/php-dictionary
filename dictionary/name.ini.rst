@@ -7,6 +7,8 @@
 	:twitter:title: Name
 	:twitter:description: Name: A name is a generic coding concept : it is a short and human handle to designate a larger or variable structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Name
 	:og:type: article
 	:og:description: A name is a generic coding concept : it is a short and human handle to designate a larger or variable structure

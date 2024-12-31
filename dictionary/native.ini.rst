@@ -12,6 +12,8 @@
 	:twitter:title: Native
 	:twitter:description: Native: A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Native
 	:og:type: article
 	:og:description: A feature is called 'native' or 'built-in' when it is part of the standard installation of PHP

@@ -7,6 +7,8 @@
 	:twitter:title: Reserved For Future Use
 	:twitter:description: Reserved For Future Use: RFU stands for Reserved for Future Use
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Reserved For Future Use
 	:og:type: article
 	:og:description: RFU stands for Reserved for Future Use

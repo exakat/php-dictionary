@@ -8,6 +8,8 @@
 	:twitter:title: Virtual Machine
 	:twitter:description: Virtual Machine: A virtual machine (VM) is a software-based emulation of a physical computer
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Virtual Machine
 	:og:type: article
 	:og:description: A virtual machine (VM) is a software-based emulation of a physical computer

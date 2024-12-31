@@ -7,6 +7,8 @@
 	:twitter:title: Var
 	:twitter:description: Var: var keyword for introducing PHP properties in classes
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Var
 	:og:type: article
 	:og:description: var keyword for introducing PHP properties in classes

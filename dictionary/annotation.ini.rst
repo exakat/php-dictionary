@@ -7,6 +7,8 @@
 	:twitter:title: Annotations
 	:twitter:description: Annotations: PHP annotations are a system to provide meta data about code, in a way that is programmatically processable
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Annotations
 	:og:type: article
 	:og:description: PHP annotations are a system to provide meta data about code, in a way that is programmatically processable

@@ -7,6 +7,8 @@
 	:twitter:title: dirname
 	:twitter:description: dirname: Dirname is the name of the path to a file
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: dirname
 	:og:type: article
 	:og:description: Dirname is the name of the path to a file

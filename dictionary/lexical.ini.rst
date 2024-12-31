@@ -7,6 +7,8 @@
 	:twitter:title: Lexical variable
 	:twitter:description: Lexical variable: A lexical variable is the type of variable that appears in the ``use`` part of a closure definition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Lexical variable
 	:og:type: article
 	:og:description: A lexical variable is the type of variable that appears in the ``use`` part of a closure definition

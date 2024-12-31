@@ -8,6 +8,8 @@
 	:twitter:title: Never Type
 	:twitter:description: Never Type: ``never`` is a special return type that signals a method that never returns : it only dies or throws an exception
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Never Type
 	:og:type: article
 	:og:description: ``never`` is a special return type that signals a method that never returns : it only dies or throws an exception

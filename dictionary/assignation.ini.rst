@@ -8,6 +8,8 @@
 	:twitter:title: Assignations
 	:twitter:description: Assignations: Assignation refers to the process of assigning a value to a variable
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Assignations
 	:og:type: article
 	:og:description: Assignation refers to the process of assigning a value to a variable

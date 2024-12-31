@@ -7,6 +7,8 @@
 	:twitter:title: Empty
 	:twitter:description: Empty: Empty is a language structure, which determines whether a variable is empty
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Empty
 	:og:type: article
 	:og:description: Empty is a language structure, which determines whether a variable is empty

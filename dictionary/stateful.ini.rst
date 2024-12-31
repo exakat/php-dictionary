@@ -7,6 +7,8 @@
 	:twitter:title: Stateful
 	:twitter:description: Stateful: Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Stateful
 	:og:type: article
 	:og:description: Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests

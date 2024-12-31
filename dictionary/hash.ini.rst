@@ -8,6 +8,8 @@
 	:twitter:title: Hash
 	:twitter:description: Hash: Hash has several meanings : 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hash
 	:og:type: article
 	:og:description: Hash has several meanings : 

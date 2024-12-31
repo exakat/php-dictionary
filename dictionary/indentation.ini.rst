@@ -8,6 +8,8 @@
 	:twitter:title: Indentation
 	:twitter:description: Indentation: Indentation is a convention governing the indentation of blocks of code to convey program structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Indentation
 	:og:type: article
 	:og:description: Indentation is a convention governing the indentation of blocks of code to convey program structure

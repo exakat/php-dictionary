@@ -7,6 +7,8 @@
 	:twitter:title: Support Vector Machine
 	:twitter:description: Support Vector Machine: SVM stands for Support Vector Machine
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Support Vector Machine
 	:og:type: article
 	:og:description: SVM stands for Support Vector Machine

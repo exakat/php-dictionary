@@ -7,6 +7,8 @@
 	:twitter:title: Operator Precedence
 	:twitter:description: Operator Precedence: The operator precedence dictates in which order the operators in a same sequence are executed
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Operator Precedence
 	:og:type: article
 	:og:description: The operator precedence dictates in which order the operators in a same sequence are executed

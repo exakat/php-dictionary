@@ -7,6 +7,8 @@
 	:twitter:title: basename
 	:twitter:description: basename: Basename is the name of a file, without the file's path, but including the extension
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: basename
 	:og:type: article
 	:og:description: Basename is the name of a file, without the file's path, but including the extension

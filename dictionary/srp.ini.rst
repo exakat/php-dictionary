@@ -7,6 +7,8 @@
 	:twitter:title: Single Responsability Principle
 	:twitter:description: Single Responsability Principle: Single Responsibility Principle is a coding principle where one component is responsible for one task, and nothing more
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Single Responsability Principle
 	:og:type: article
 	:og:description: Single Responsibility Principle is a coding principle where one component is responsible for one task, and nothing more

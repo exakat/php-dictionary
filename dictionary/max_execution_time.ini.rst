@@ -7,6 +7,8 @@
 	:twitter:title: max_execution_time
 	:twitter:description: max_execution_time: The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: max_execution_time
 	:og:type: article
 	:og:description: The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application

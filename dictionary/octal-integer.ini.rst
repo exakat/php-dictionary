@@ -8,6 +8,8 @@
 	:twitter:title: Octal Integer
 	:twitter:description: Octal Integer: Integers can be specified in octal (base 8) notation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Octal Integer
 	:og:type: article
 	:og:description: Integers can be specified in octal (base 8) notation

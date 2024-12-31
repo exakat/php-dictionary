@@ -7,6 +7,8 @@
 	:twitter:title: Closure Binding
 	:twitter:description: Closure Binding: A closure acquires values from its context of creation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Closure Binding
 	:og:type: article
 	:og:description: A closure acquires values from its context of creation

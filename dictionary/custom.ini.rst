@@ -7,6 +7,8 @@
 	:twitter:title: Custom
 	:twitter:description: Custom: A feature is called 'custom' when it is not part of the standard installation of PHP, any PHP extension or a publish library
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Custom
 	:og:type: article
 	:og:description: A feature is called 'custom' when it is not part of the standard installation of PHP, any PHP extension or a publish library

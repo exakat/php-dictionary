@@ -7,6 +7,8 @@
 	:twitter:title: Writable
 	:twitter:description: Writable: Something is writable when a new value may be assigned to it, in the correct context
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Writable
 	:og:type: article
 	:og:description: Something is writable when a new value may be assigned to it, in the correct context

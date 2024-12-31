@@ -7,6 +7,8 @@
 	:twitter:title: Class Aliases
 	:twitter:description: Class Aliases: It is possible to make an alias of a class and call it with this new name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Aliases
 	:og:type: article
 	:og:description: It is possible to make an alias of a class and call it with this new name

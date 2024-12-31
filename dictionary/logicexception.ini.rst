@@ -7,6 +7,8 @@
 	:twitter:title: LogicException
 	:twitter:description: LogicException: Exception that represents error in the program logic
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: LogicException
 	:og:type: article
 	:og:description: Exception that represents error in the program logic

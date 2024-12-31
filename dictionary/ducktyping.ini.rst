@@ -8,6 +8,8 @@
 	:twitter:title: Duck Typing
 	:twitter:description: Duck Typing: In duck typing, an object is of a given type if it has all methods and properties required by that type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Duck Typing
 	:og:type: article
 	:og:description: In duck typing, an object is of a given type if it has all methods and properties required by that type

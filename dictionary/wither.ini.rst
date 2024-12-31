@@ -7,6 +7,8 @@
 	:twitter:title: Class Wither Method
 	:twitter:description: Class Wither Method: With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Wither Method
 	:og:type: article
 	:og:description: With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself

@@ -7,6 +7,8 @@
 	:twitter:title: Locale
 	:twitter:description: Locale: Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Locale
 	:og:type: article
 	:og:description: Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time

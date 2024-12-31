@@ -8,6 +8,8 @@
 	:twitter:title: Regular Expressions
 	:twitter:description: Regular Expressions: A regular expression is a sequence of characters that specifies a search pattern
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Regular Expressions
 	:og:type: article
 	:og:description: A regular expression is a sequence of characters that specifies a search pattern

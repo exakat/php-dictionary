@@ -7,6 +7,8 @@
 	:twitter:title: Artifact
 	:twitter:description: Artifact: An artifact refers to any intermediate or final output that is produced during the development process
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Artifact
 	:og:type: article
 	:og:description: An artifact refers to any intermediate or final output that is produced during the development process

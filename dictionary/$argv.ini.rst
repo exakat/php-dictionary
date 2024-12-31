@@ -7,6 +7,8 @@
 	:twitter:title: $argv
 	:twitter:description: $argv: $argv is a PHP variable that contains an array of the arguments passed to the PHP script, in command line
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $argv
 	:og:type: article
 	:og:description: $argv is a PHP variable that contains an array of the arguments passed to the PHP script, in command line

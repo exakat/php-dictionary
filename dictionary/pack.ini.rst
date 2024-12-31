@@ -7,6 +7,8 @@
 	:twitter:title: pack
 	:twitter:description: pack: Pack() is a native PHP function which converts given arguments into a binary string according to format
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: pack
 	:og:type: article
 	:og:description: Pack() is a native PHP function which converts given arguments into a binary string according to format

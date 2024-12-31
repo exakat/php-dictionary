@@ -7,6 +7,8 @@
 	:twitter:title: Literal
 	:twitter:description: Literal: A literal is a hard coded value in the source
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Literal
 	:og:type: article
 	:og:description: A literal is a hard coded value in the source

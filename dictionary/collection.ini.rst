@@ -7,6 +7,8 @@
 	:twitter:title: Collection
 	:twitter:description: Collection: A сollection is an array in which only elements of the same type can be stored
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Collection
 	:og:type: article
 	:og:description: A сollection is an array in which only elements of the same type can be stored

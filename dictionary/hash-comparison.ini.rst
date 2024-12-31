@@ -7,6 +7,8 @@
 	:twitter:title: Hash Comparisons
 	:twitter:description: Hash Comparisons: Cryptographic hashes are usually represented by strings in PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hash Comparisons
 	:og:type: article
 	:og:description: Cryptographic hashes are usually represented by strings in PHP

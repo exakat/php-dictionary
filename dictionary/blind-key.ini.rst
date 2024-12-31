@@ -8,6 +8,8 @@
 	:twitter:title: Blind Variable
 	:twitter:description: Blind Variable: A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Blind Variable
 	:og:type: article
 	:og:description: A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value

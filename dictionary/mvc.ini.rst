@@ -7,6 +7,8 @@
 	:twitter:title: MVC
 	:twitter:description: MVC: MVC stands for Model - View - Controller
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: MVC
 	:og:type: article
 	:og:description: MVC stands for Model - View - Controller

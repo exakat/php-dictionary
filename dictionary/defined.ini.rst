@@ -7,6 +7,8 @@
 	:twitter:title: defined()
 	:twitter:description: defined(): defined() is a PHP function, that checks if a constant or a class constant is defined in the current context of execution
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: defined()
 	:og:type: article
 	:og:description: defined() is a PHP function, that checks if a constant or a class constant is defined in the current context of execution

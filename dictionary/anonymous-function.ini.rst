@@ -7,6 +7,8 @@
 	:twitter:title: Anonymous Function
 	:twitter:description: Anonymous Function: A function may be instantiated, without defining a function name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Anonymous Function
 	:og:type: article
 	:og:description: A function may be instantiated, without defining a function name

@@ -7,6 +7,8 @@
 	:twitter:title: Methodcall
 	:twitter:description: Methodcall: A method call is the actual usage of a method
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Methodcall
 	:og:type: article
 	:og:description: A method call is the actual usage of a method

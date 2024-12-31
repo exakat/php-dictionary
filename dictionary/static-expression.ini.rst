@@ -7,6 +7,8 @@
 	:twitter:title: Static Expression
 	:twitter:description: Static Expression: A static expression is an expression that is wholy defined at coding time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Static Expression
 	:og:type: article
 	:og:description: A static expression is an expression that is wholy defined at coding time

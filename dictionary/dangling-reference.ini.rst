@@ -7,6 +7,8 @@
 	:twitter:title: Dangling Reference
 	:twitter:description: Dangling Reference: In a foreach loop, a variable is used for looping through the array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dangling Reference
 	:og:type: article
 	:og:description: In a foreach loop, a variable is used for looping through the array

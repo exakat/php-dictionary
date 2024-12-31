@@ -7,6 +7,8 @@
 	:twitter:title: PHP Tags
 	:twitter:description: PHP Tags: When PHP parses a file, it looks for opening and closing tags, which are <
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Tags
 	:og:type: article
 	:og:description: When PHP parses a file, it looks for opening and closing tags, which are <

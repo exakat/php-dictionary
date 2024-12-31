@@ -7,6 +7,8 @@
 	:twitter:title: Typed Property
 	:twitter:description: Typed Property: A typed property has a type in its definition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Typed Property
 	:og:type: article
 	:og:description: A typed property has a type in its definition

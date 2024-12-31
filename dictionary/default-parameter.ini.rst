@@ -7,6 +7,8 @@
 	:twitter:title: Default Parameter
 	:twitter:description: Default Parameter: Methods may define a default value for parameters
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Default Parameter
 	:og:type: article
 	:og:description: Methods may define a default value for parameters

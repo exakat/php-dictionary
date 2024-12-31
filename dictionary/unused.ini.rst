@@ -7,6 +7,8 @@
 	:twitter:title: Unused
 	:twitter:description: Unused: Unused is a state of a PHP structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Unused
 	:og:type: article
 	:og:description: Unused is a state of a PHP structure

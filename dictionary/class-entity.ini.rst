@@ -7,6 +7,8 @@
 	:twitter:title: Class Entities
 	:twitter:description: Class Entities: An entity represents a single object, with a unique identifier and a set of properties
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Entities
 	:og:type: article
 	:og:description: An entity represents a single object, with a unique identifier and a set of properties

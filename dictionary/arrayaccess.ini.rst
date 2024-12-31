@@ -7,6 +7,8 @@
 	:twitter:title: ArrayAccess
 	:twitter:description: ArrayAccess: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ArrayAccess
 	:og:type: article
 	:og:description: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array

@@ -7,6 +7,8 @@
 	:twitter:title: Binary Integer
 	:twitter:description: Binary Integer: Integers can be specified in binary (base 2) notation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Binary Integer
 	:og:type: article
 	:og:description: Integers can be specified in binary (base 2) notation

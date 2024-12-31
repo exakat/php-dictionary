@@ -7,6 +7,8 @@
 	:twitter:title: Class Operator
 	:twitter:description: Class Operator: Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Operator
 	:og:type: article
 	:og:description: Class operator is the ``::class``, added to a class, interface, trait or enumeration identifier

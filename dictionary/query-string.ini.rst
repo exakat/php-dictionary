@@ -7,6 +7,8 @@
 	:twitter:title: Query String
 	:twitter:description: Query String: The query string is a part of a URL that contains data and parameters to be passed to a web server
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Query String
 	:og:type: article
 	:og:description: The query string is a part of a URL that contains data and parameters to be passed to a web server

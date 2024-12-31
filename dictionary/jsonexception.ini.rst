@@ -7,6 +7,8 @@
 	:twitter:title: JsonException
 	:twitter:description: JsonException: Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_decode()
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: JsonException
 	:og:type: article
 	:og:description: Exception thrown if JSON_THROW_ON_ERROR option is set for json_encode() or json_decode()

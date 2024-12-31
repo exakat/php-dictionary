@@ -7,6 +7,8 @@
 	:twitter:title: Bitshift Operators
 	:twitter:description: Bitshift Operators: Bitshift operators ``<<`` and ``>>`` move bits within an integer
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Bitshift Operators
 	:og:type: article
 	:og:description: Bitshift operators ``<<`` and ``>>`` move bits within an integer

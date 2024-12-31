@@ -7,6 +7,8 @@
 	:twitter:title: XML
 	:twitter:description: XML: XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: XML
 	:og:type: article
 	:og:description: XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use

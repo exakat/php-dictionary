@@ -8,6 +8,8 @@
 	:twitter:title: Dead Code
 	:twitter:description: Dead Code: Dead code refers to sections of code that are no longer executed or reachable during the program's execution
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dead Code
 	:og:type: article
 	:og:description: Dead code refers to sections of code that are no longer executed or reachable during the program's execution

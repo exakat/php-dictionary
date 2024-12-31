@@ -7,6 +7,8 @@
 	:twitter:title: God Object
 	:twitter:description: God Object: A ``god object`` is a term used in software development to describe a class or module that knows too much or does too much within a system
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: God Object
 	:og:type: article
 	:og:description: A ``god object`` is a term used in software development to describe a class or module that knows too much or does too much within a system

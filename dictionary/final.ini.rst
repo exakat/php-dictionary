@@ -7,6 +7,8 @@
 	:twitter:title: Final Keyword
 	:twitter:description: Final Keyword: The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Final Keyword
 	:og:type: article
 	:og:description: The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final

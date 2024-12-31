@@ -7,6 +7,8 @@
 	:twitter:title: Traversable
 	:twitter:description: Traversable: Traversable is a specific PHP interface that represents an object that can be iterated over
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Traversable
 	:og:type: article
 	:og:description: Traversable is a specific PHP interface that represents an object that can be iterated over

@@ -7,6 +7,8 @@
 	:twitter:title: Nullable
 	:twitter:description: Nullable: Nullable is the name of the NULL value, when used as a type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Nullable
 	:og:type: article
 	:og:description: Nullable is the name of the NULL value, when used as a type

@@ -7,6 +7,8 @@
 	:twitter:title: Syntax Error
 	:twitter:description: Syntax Error: A syntax error happens when the text could not be parsed into tokens by PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Syntax Error
 	:og:type: article
 	:og:description: A syntax error happens when the text could not be parsed into tokens by PHP

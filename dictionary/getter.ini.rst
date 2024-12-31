@@ -7,6 +7,8 @@
 	:twitter:title: Class Getter Method
 	:twitter:description: Class Getter Method: Getters are methods used to access the values of a property
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Getter Method
 	:og:type: article
 	:og:description: Getters are methods used to access the values of a property

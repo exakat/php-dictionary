@@ -7,6 +7,8 @@
 	:twitter:title: __set_state() method
 	:twitter:description: __set_state() method: __set_state() is a magic method : it is called when an object has been exported with var_export(), and has to be instantiated again
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __set_state() method
 	:og:type: article
 	:og:description: __set_state() is a magic method : it is called when an object has been exported with var_export(), and has to be instantiated again

@@ -8,6 +8,8 @@
 	:twitter:title: Covariance
 	:twitter:description: Covariance: Covariance allows a child's method to return a more specific type than the return type of its parent's method
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Covariance
 	:og:type: article
 	:og:description: Covariance allows a child's method to return a more specific type than the return type of its parent's method

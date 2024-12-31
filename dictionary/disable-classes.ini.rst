@@ -7,6 +7,8 @@
 	:twitter:title: Disable Classes
 	:twitter:description: Disable Classes: This directive disables the provided list of classes in the `php
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Disable Classes
 	:og:type: article
 	:og:description: This directive disables the provided list of classes in the `php

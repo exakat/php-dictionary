@@ -7,6 +7,8 @@
 	:twitter:title: Binary Operator
 	:twitter:description: Binary Operator: A binary operator is an operator that operates on a two operands
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Binary Operator
 	:og:type: article
 	:og:description: A binary operator is an operator that operates on a two operands

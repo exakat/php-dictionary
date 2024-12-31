@@ -7,6 +7,8 @@
 	:twitter:title: __call() Method
 	:twitter:description: __call() Method: __call() is a magic method : it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __call() Method
 	:og:type: article
 	:og:description: __call() is a magic method : it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it

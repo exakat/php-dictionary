@@ -8,6 +8,8 @@
 	:twitter:title: Magic Property
 	:twitter:description: Magic Property: Special properties, which are not declared, but dynamically handled by the magic methods
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Magic Property
 	:og:type: article
 	:og:description: Special properties, which are not declared, but dynamically handled by the magic methods

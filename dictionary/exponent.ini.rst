@@ -9,6 +9,8 @@
 	:twitter:title: Exponent
 	:twitter:description: Exponent: Exponent is the mathematical operation to raise a number to the power of another number
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Exponent
 	:og:type: article
 	:og:description: Exponent is the mathematical operation to raise a number to the power of another number

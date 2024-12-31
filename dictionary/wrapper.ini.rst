@@ -7,6 +7,8 @@
 	:twitter:title: Wrapper
 	:twitter:description: Wrapper: A wrapper may be two things: 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Wrapper
 	:og:type: article
 	:og:description: A wrapper may be two things: 

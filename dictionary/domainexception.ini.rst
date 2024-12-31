@@ -7,6 +7,8 @@
 	:twitter:title: DomainException
 	:twitter:description: DomainException: Exception thrown if a value does not adhere to a defined valid data domain
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: DomainException
 	:og:type: article
 	:og:description: Exception thrown if a value does not adhere to a defined valid data domain

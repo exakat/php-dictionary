@@ -8,6 +8,8 @@
 	:twitter:title: Benchmarking
 	:twitter:description: Benchmarking: Benchmarking is a process of measuring the performance
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Benchmarking
 	:og:type: article
 	:og:description: Benchmarking is a process of measuring the performance

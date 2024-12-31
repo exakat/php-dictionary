@@ -7,6 +7,8 @@
 	:twitter:title: First Class Callable
 	:twitter:description: First Class Callable: In PHP 8
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: First Class Callable
 	:og:type: article
 	:og:description: In PHP 8

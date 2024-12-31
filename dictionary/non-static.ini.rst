@@ -7,6 +7,8 @@
 	:twitter:title: Non-static
 	:twitter:description: Non-static: Non-static is the opposite of static, when used with methods, closures, properties or variables
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Non-static
 	:og:type: article
 	:og:description: Non-static is the opposite of static, when used with methods, closures, properties or variables

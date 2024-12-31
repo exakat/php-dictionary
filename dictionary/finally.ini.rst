@@ -7,6 +7,8 @@
 	:twitter:title: Finally
 	:twitter:description: Finally: Finally is the default clause of a try-catch expression
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Finally
 	:og:type: article
 	:og:description: Finally is the default clause of a try-catch expression

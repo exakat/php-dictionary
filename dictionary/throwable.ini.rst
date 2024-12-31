@@ -7,6 +7,8 @@
 	:twitter:title: Throwable
 	:twitter:description: Throwable: Throwable is a PHP native interface, which is required for any object to be used with thrown, such as `Exception` and `Error`
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Throwable
 	:og:type: article
 	:og:description: Throwable is a PHP native interface, which is required for any object to be used with thrown, such as `Exception` and `Error`

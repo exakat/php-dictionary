@@ -10,6 +10,8 @@
 	:twitter:title: Return Type
 	:twitter:description: Return Type: Return types are the types used for the return value of a method or function
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Return Type
 	:og:type: article
 	:og:description: Return types are the types used for the return value of a method or function

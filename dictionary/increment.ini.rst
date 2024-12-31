@@ -7,6 +7,8 @@
 	:twitter:title: Increment
 	:twitter:description: Increment: Increment generally refers to the process of increasing or adding a small amount to a value, or simply one unit
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Increment
 	:og:type: article
 	:og:description: Increment generally refers to the process of increasing or adding a small amount to a value, or simply one unit

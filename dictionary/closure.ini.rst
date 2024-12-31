@@ -8,6 +8,8 @@
 	:twitter:title: Closure
 	:twitter:description: Closure: Closures are anonymous functions : functions without a name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Closure
 	:og:type: article
 	:og:description: Closures are anonymous functions : functions without a name

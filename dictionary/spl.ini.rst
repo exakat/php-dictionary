@@ -7,6 +7,8 @@
 	:twitter:title: Standard PHP Library (SPL)
 	:twitter:description: Standard PHP Library (SPL): The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Standard PHP Library (SPL)
 	:og:type: article
 	:og:description: The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems

@@ -7,6 +7,8 @@
 	:twitter:title: Backend
 	:twitter:description: Backend: Backend refers to the software that runs on the server, and not on the client machine
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Backend
 	:og:type: article
 	:og:description: Backend refers to the software that runs on the server, and not on the client machine

@@ -7,6 +7,8 @@
 	:twitter:title: LengthException
 	:twitter:description: LengthException: The LengthException exception is thrown if a length is invalid
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: LengthException
 	:og:type: article
 	:og:description: The LengthException exception is thrown if a length is invalid

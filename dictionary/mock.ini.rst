@@ -7,6 +7,8 @@
 	:twitter:title: Mock
 	:twitter:description: Mock: A mock replaces a code dependency with an object, to make testing easier
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Mock
 	:og:type: article
 	:og:description: A mock replaces a code dependency with an object, to make testing easier

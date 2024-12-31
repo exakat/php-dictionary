@@ -7,6 +7,8 @@
 	:twitter:title: Abstraction Layer
 	:twitter:description: Abstraction Layer: An abstraction layer is a piece of software that offer the same API to access multiple similar components
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Abstraction Layer
 	:og:type: article
 	:og:description: An abstraction layer is a piece of software that offer the same API to access multiple similar components

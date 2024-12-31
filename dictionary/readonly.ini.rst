@@ -7,6 +7,8 @@
 	:twitter:title: Readonly
 	:twitter:description: Readonly: A property can be declared with the readonly modifier, which prevents modification of the property after initialization
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Readonly
 	:og:type: article
 	:og:description: A property can be declared with the readonly modifier, which prevents modification of the property after initialization

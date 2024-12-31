@@ -7,6 +7,8 @@
 	:twitter:title: Anonymous
 	:twitter:description: Anonymous: An anonymous structure is a definition that usually has a name, but may also go without it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Anonymous
 	:og:type: article
 	:og:description: An anonymous structure is a definition that usually has a name, but may also go without it

@@ -7,6 +7,8 @@
 	:twitter:title: Simple Switch
 	:twitter:description: Simple Switch: A simple switch is a switch where all the cases are simple literals
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Simple Switch
 	:og:type: article
 	:og:description: A simple switch is a switch where all the cases are simple literals

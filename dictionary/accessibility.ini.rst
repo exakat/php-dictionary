@@ -8,6 +8,8 @@
 	:twitter:title: Accessibility
 	:twitter:description: Accessibility: Accessibility is the process to make the code accessible to everyone
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Accessibility
 	:og:type: article
 	:og:description: Accessibility is the process to make the code accessible to everyone

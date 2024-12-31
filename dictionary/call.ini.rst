@@ -8,6 +8,8 @@
 	:twitter:title: Call
 	:twitter:description: Call: A call is the usage action of a definition or declaration
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Call
 	:og:type: article
 	:og:description: A call is the usage action of a definition or declaration

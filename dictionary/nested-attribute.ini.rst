@@ -7,6 +7,8 @@
 	:twitter:title: Nested Attributes
 	:twitter:description: Nested Attributes: Arguments of attributes may be literals, such as integer or strings: they can also be other objects
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Nested Attributes
 	:og:type: article
 	:og:description: Arguments of attributes may be literals, such as integer or strings: they can also be other objects

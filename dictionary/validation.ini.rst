@@ -10,6 +10,8 @@
 	:twitter:title: Validation
 	:twitter:description: Validation: Validation is the process to check that a data conform to a specific pattern or set of constraints
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Validation
 	:og:type: article
 	:og:description: Validation is the process to check that a data conform to a specific pattern or set of constraints

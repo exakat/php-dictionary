@@ -7,6 +7,8 @@
 	:twitter:title: Variable Scope
 	:twitter:description: Variable Scope: Variable scope is the context in which the variable is available
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Variable Scope
 	:og:type: article
 	:og:description: Variable scope is the context in which the variable is available

@@ -7,6 +7,8 @@
 	:twitter:title: InvalidArgumentException
 	:twitter:description: InvalidArgumentException: Exception thrown if an argument is not of the expected type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: InvalidArgumentException
 	:og:type: article
 	:og:description: Exception thrown if an argument is not of the expected type

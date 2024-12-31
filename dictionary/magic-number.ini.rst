@@ -7,6 +7,8 @@
 	:twitter:title: Magic Numbers
 	:twitter:description: Magic Numbers: A magic number is a number that appears in the code, and has no obvious signification
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Magic Numbers
 	:og:type: article
 	:og:description: A magic number is a number that appears in the code, and has no obvious signification

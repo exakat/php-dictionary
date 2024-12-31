@@ -7,6 +7,8 @@
 	:twitter:title: Database Abstraction Layer (DBAL)
 	:twitter:description: Database Abstraction Layer (DBAL): A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Database Abstraction Layer (DBAL)
 	:og:type: article
 	:og:description: A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases

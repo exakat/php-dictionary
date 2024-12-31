@@ -7,6 +7,8 @@
 	:twitter:title: Import
 	:twitter:description: Import: Imports are elements of a different namespaces, brought into the current one
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Import
 	:og:type: article
 	:og:description: Imports are elements of a different namespaces, brought into the current one

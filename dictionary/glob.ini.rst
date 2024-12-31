@@ -7,6 +7,8 @@
 	:twitter:title: glob()
 	:twitter:description: glob(): glob() is a function that finds pathnames matching a pattern
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: glob()
 	:og:type: article
 	:og:description: glob() is a function that finds pathnames matching a pattern

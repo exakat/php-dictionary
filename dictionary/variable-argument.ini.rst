@@ -7,6 +7,8 @@
 	:twitter:title: Variable Arguments
 	:twitter:description: Variable Arguments: Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Variable Arguments
 	:og:type: article
 	:og:description: Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method

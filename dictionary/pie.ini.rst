@@ -7,6 +7,8 @@
 	:twitter:title: pie
 	:twitter:description: pie: Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: pie
 	:og:type: article
 	:og:description: Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn

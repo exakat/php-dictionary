@@ -8,6 +8,8 @@
 	:twitter:title: Class Autoloading
 	:twitter:description: Class Autoloading: Autoloading provides a hook to allow the loading of a class, the first PHP requires it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Autoloading
 	:og:type: article
 	:og:description: Autoloading provides a hook to allow the loading of a class, the first PHP requires it

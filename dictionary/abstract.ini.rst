@@ -7,6 +7,8 @@
 	:twitter:title: Abstract Keyword
 	:twitter:description: Abstract Keyword: PHP has abstract classes and methods
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Abstract Keyword
 	:og:type: article
 	:og:description: PHP has abstract classes and methods

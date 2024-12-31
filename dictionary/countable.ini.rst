@@ -7,6 +7,8 @@
 	:twitter:title: Countable Interface
 	:twitter:description: Countable Interface: The Countable interface in PHP is a built-in interface that allows objects to be counted using the count() function
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Countable Interface
 	:og:type: article
 	:og:description: The Countable interface in PHP is a built-in interface that allows objects to be counted using the count() function

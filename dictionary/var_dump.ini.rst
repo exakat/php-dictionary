@@ -7,6 +7,8 @@
 	:twitter:title: var_dump()
 	:twitter:description: var_dump(): var_dump() displays the information in a variable or any data container
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: var_dump()
 	:og:type: article
 	:og:description: var_dump() displays the information in a variable or any data container

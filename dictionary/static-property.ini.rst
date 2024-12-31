@@ -8,6 +8,8 @@
 	:twitter:title: Static Property
 	:twitter:description: Static Property: Static properties are properties defined with the ``static`` keyword
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Static Property
 	:og:type: article
 	:og:description: Static properties are properties defined with the ``static`` keyword

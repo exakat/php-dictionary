@@ -7,6 +7,8 @@
 	:twitter:title: Open Closed Principle
 	:twitter:description: Open Closed Principle: The open–closed principle states that classes should be open for extension, but closed for modification
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Open Closed Principle
 	:og:type: article
 	:og:description: The open–closed principle states that classes should be open for extension, but closed for modification

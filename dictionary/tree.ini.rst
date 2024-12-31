@@ -7,6 +7,8 @@
 	:twitter:title: Tree
 	:twitter:description: Tree: A tree is a datastructure which represents data as a set of connected nodes, where each node has only one parent
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Tree
 	:og:type: article
 	:og:description: A tree is a datastructure which represents data as a set of connected nodes, where each node has only one parent

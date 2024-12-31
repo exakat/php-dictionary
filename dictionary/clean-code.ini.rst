@@ -7,6 +7,8 @@
 	:twitter:title: Clean Code
 	:twitter:description: Clean Code: Clean code refers to code that is well-organized, easy to read, and easy to maintain
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Clean Code
 	:og:type: article
 	:og:description: Clean code refers to code that is well-organized, easy to read, and easy to maintain

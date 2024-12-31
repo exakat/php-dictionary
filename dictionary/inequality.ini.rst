@@ -7,6 +7,8 @@
 	:twitter:title: Inequality
 	:twitter:description: Inequality: Inequalities are the mathematical comparison of values, with the `>`,  `>=`,  `<` and `=<` operators
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Inequality
 	:og:type: article
 	:og:description: Inequalities are the mathematical comparison of values, with the `>`,  `>=`,  `<` and `=<` operators

@@ -7,6 +7,8 @@
 	:twitter:title: Adapters
 	:twitter:description: Adapters: Adapters are the link between the application and the rest of the universe
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Adapters
 	:og:type: article
 	:og:description: Adapters are the link between the application and the rest of the universe

@@ -9,6 +9,8 @@
 	:twitter:title: Variadic
 	:twitter:description: Variadic: Three dots, aka ellipsis, is an operator to spread or collect array values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Variadic
 	:og:type: article
 	:og:description: Three dots, aka ellipsis, is an operator to spread or collect array values

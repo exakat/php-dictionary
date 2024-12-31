@@ -8,6 +8,8 @@
 	:twitter:title: Method Signature
 	:twitter:description: Method Signature: The signature of a method or a function is the list of arguments and constraints that applies when calling it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Method Signature
 	:og:type: article
 	:og:description: The signature of a method or a function is the list of arguments and constraints that applies when calling it

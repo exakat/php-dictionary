@@ -7,6 +7,8 @@
 	:twitter:title: Hyper Text Transfer Protocol (HTTP)
 	:twitter:description: Hyper Text Transfer Protocol (HTTP): The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hyper Text Transfer Protocol (HTTP)
 	:og:type: article
 	:og:description: The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol

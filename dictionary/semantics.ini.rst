@@ -7,6 +7,8 @@
 	:twitter:title: Semantics
 	:twitter:description: Semantics: Semantics is related with the meaning of things
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Semantics
 	:og:type: article
 	:og:description: Semantics is related with the meaning of things

@@ -7,6 +7,8 @@
 	:twitter:title: Attribute Class
 	:twitter:description: Attribute Class: This is a native PHP attribute, which tells the engine that a class is a PHP attribute
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Attribute Class
 	:og:type: article
 	:og:description: This is a native PHP attribute, which tells the engine that a class is a PHP attribute

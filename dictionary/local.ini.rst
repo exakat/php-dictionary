@@ -8,6 +8,8 @@
 	:twitter:title: Local Scope
 	:twitter:description: Local Scope: The local scope is the scope inside a function or method
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Local Scope
 	:og:type: article
 	:og:description: The local scope is the scope inside a function or method

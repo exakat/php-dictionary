@@ -7,6 +7,8 @@
 	:twitter:title: UUID
 	:twitter:description: UUID: UUID is a Universally Unique IDentifier
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: UUID
 	:og:type: article
 	:og:description: UUID is a Universally Unique IDentifier

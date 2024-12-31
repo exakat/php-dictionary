@@ -7,6 +7,8 @@
 	:twitter:title: plus +
 	:twitter:description: plus +: `+` is a native PHP operator, which has three usage : 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: plus +
 	:og:type: article
 	:og:description: `+` is a native PHP operator, which has three usage : 

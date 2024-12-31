@@ -7,6 +7,8 @@
 	:twitter:title: UnexpectedValueException
 	:twitter:description: UnexpectedValueException: The UnexpectedValueException exception is thrown if a value does not match with a set of expected values
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: UnexpectedValueException
 	:og:type: article
 	:og:description: The UnexpectedValueException exception is thrown if a value does not match with a set of expected values

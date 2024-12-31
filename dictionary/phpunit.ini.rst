@@ -7,6 +7,8 @@
 	:twitter:title: PHPunit
 	:twitter:description: PHPunit: PHPUnit is a popular open-source testing framework for the PHP programming language
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHPunit
 	:og:type: article
 	:og:description: PHPUnit is a popular open-source testing framework for the PHP programming language

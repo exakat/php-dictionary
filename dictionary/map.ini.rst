@@ -7,6 +7,8 @@
 	:twitter:title: Map
 	:twitter:description: Map: A map refers to an abstract data type (ADT) that stores key-value pairs, where each key is unique within the map
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Map
 	:og:type: article
 	:og:description: A map refers to an abstract data type (ADT) that stores key-value pairs, where each key is unique within the map

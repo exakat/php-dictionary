@@ -9,6 +9,8 @@
 	:twitter:title: Overwrite
 	:twitter:description: Overwrite: Overwriting is the process to replace a method, property or constant that was defined in a parent, by a local definition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Overwrite
 	:og:type: article
 	:og:description: Overwriting is the process to replace a method, property or constant that was defined in a parent, by a local definition

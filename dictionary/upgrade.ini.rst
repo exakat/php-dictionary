@@ -7,6 +7,8 @@
 	:twitter:title: Upgrade
 	:twitter:description: Upgrade: An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Upgrade
 	:og:type: article
 	:og:description: An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version

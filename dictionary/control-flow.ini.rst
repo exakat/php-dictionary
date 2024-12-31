@@ -7,6 +7,8 @@
 	:twitter:title: Control Flow
 	:twitter:description: Control Flow: Control flow structures direct the way PHP execute the statements
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Control Flow
 	:og:type: article
 	:og:description: Control flow structures direct the way PHP execute the statements

@@ -7,6 +7,8 @@
 	:twitter:title: Default
 	:twitter:description: Default: default is a PHP keyword, used with switch() and match() structures
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Default
 	:og:type: article
 	:og:description: default is a PHP keyword, used with switch() and match() structures

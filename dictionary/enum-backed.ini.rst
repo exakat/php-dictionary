@@ -7,6 +7,8 @@
 	:twitter:title: Backed Enumeration
 	:twitter:description: Backed Enumeration: Backed enumerations are enumerations whose cases have a built-in scalar equivalent
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Backed Enumeration
 	:og:type: article
 	:og:description: Backed enumerations are enumerations whose cases have a built-in scalar equivalent

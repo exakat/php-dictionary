@@ -7,6 +7,8 @@
 	:twitter:title: Block
 	:twitter:description: Block: Blocks are none, one or more instructions, grouped together with or without curly brackets
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Block
 	:og:type: article
 	:og:description: Blocks are none, one or more instructions, grouped together with or without curly brackets

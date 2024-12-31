@@ -8,6 +8,8 @@
 	:twitter:title: GraphQL
 	:twitter:description: GraphQL: GraphQL is a query language for APIs
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: GraphQL
 	:og:type: article
 	:og:description: GraphQL is a query language for APIs

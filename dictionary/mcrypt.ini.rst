@@ -7,6 +7,8 @@
 	:twitter:title: mcrypt Extension
 	:twitter:description: mcrypt Extension: mcrypt is a PHP extension that provides access to the mcrypt library
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: mcrypt Extension
 	:og:type: article
 	:og:description: mcrypt is a PHP extension that provides access to the mcrypt library

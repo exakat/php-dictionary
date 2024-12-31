@@ -7,6 +7,8 @@
 	:twitter:title: Request For Change
 	:twitter:description: Request For Change: A Request For Change is a document containing a call for an adjustment of a source code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Request For Change
 	:og:type: article
 	:og:description: A Request For Change is a document containing a call for an adjustment of a source code

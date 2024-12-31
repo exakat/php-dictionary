@@ -7,6 +7,8 @@
 	:twitter:title: PHPdoc
 	:twitter:description: PHPdoc: PHPDoc is a style of PHP comments
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHPdoc
 	:og:type: article
 	:og:description: PHPDoc is a style of PHP comments

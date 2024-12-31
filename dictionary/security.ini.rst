@@ -7,6 +7,8 @@
 	:twitter:title: Security
 	:twitter:description: Security: Security is a whole matter: it involves implementing measures and best practices to protect your application and its data from malicious attacks and vulnerabilities
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Security
 	:og:type: article
 	:og:description: Security is a whole matter: it involves implementing measures and best practices to protect your application and its data from malicious attacks and vulnerabilities

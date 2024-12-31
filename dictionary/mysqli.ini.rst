@@ -7,6 +7,8 @@
 	:twitter:title: mysqli
 	:twitter:description: mysqli: The mysqli extension provide access to MySQL database server, with version 4
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: mysqli
 	:og:type: article
 	:og:description: The mysqli extension provide access to MySQL database server, with version 4

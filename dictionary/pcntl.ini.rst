@@ -7,6 +7,8 @@
 	:twitter:title: Process Control (pcntl)
 	:twitter:description: Process Control (pcntl): Process Control is a set of native PHP function, that handles signals coming from the OS
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Process Control (pcntl)
 	:og:type: article
 	:og:description: Process Control is a set of native PHP function, that handles signals coming from the OS

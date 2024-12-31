@@ -7,6 +7,8 @@
 	:twitter:title: Operators
 	:twitter:description: Operators: An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression)
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Operators
 	:og:type: article
 	:og:description: An operator is something that takes one or more values (or expressions, in programming jargon) and yields another value (so that the construction itself becomes an expression)

@@ -7,6 +7,8 @@
 	:twitter:title: Taint Analysis
 	:twitter:description: Taint Analysis: Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Taint Analysis
 	:og:type: article
 	:og:description: Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program

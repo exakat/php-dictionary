@@ -7,6 +7,8 @@
 	:twitter:title: Convention
 	:twitter:description: Convention: A convention is a way in which something is usually done
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Convention
 	:og:type: article
 	:og:description: A convention is a way in which something is usually done

@@ -7,6 +7,8 @@
 	:twitter:title: HTML Entities
 	:twitter:description: HTML Entities: HTML entities are a way to write special characters
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: HTML Entities
 	:og:type: article
 	:og:description: HTML entities are a way to write special characters

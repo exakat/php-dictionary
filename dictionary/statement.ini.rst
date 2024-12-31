@@ -7,6 +7,8 @@
 	:twitter:title: Statement
 	:twitter:description: Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Statement
 	:og:type: article
 	:og:description: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)

@@ -8,6 +8,8 @@
 	:twitter:title: sleep
 	:twitter:description: sleep: sleep() is a PHP function which stops the execution for a given number of seconds
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: sleep
 	:og:type: article
 	:og:description: sleep() is a PHP function which stops the execution for a given number of seconds

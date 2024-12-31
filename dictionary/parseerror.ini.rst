@@ -7,6 +7,8 @@
 	:twitter:title: ParseError
 	:twitter:description: ParseError: A ParseError is thrown when an error occurs while parsing PHP code, such as when eval() is called or when including non-compilable code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ParseError
 	:og:type: article
 	:og:description: A ParseError is thrown when an error occurs while parsing PHP code, such as when eval() is called or when including non-compilable code

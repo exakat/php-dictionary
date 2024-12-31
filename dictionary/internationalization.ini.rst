@@ -10,6 +10,8 @@
 	:twitter:title: Internationalization
 	:twitter:description: Internationalization: Internationalization is the process to make the human interface of a program in a local language
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Internationalization
 	:og:type: article
 	:og:description: Internationalization is the process to make the human interface of a program in a local language

@@ -7,6 +7,8 @@
 	:twitter:title: Constant Expression
 	:twitter:description: Constant Expression: A constant expression is an expression built with others constants and a limited subset of PHP operators
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Constant Expression
 	:og:type: article
 	:og:description: A constant expression is an expression built with others constants and a limited subset of PHP operators

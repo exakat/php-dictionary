@@ -8,6 +8,8 @@
 	:twitter:title: Hexadecimal Integer
 	:twitter:description: Hexadecimal Integer: Hexadecimal integers are integers with an hexadecimal representation
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hexadecimal Integer
 	:og:type: article
 	:og:description: Hexadecimal integers are integers with an hexadecimal representation

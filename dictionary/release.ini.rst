@@ -7,6 +7,8 @@
 	:twitter:title: Release
 	:twitter:description: Release: A release is a final version of a software
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Release
 	:og:type: article
 	:og:description: A release is a final version of a software

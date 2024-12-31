@@ -7,6 +7,8 @@
 	:twitter:title: Abstract Class
 	:twitter:description: Abstract Class: An abstract class is a class that cannot be instantiated directly
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Abstract Class
 	:og:type: article
 	:og:description: An abstract class is a class that cannot be instantiated directly

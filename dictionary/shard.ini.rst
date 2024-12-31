@@ -8,6 +8,8 @@
 	:twitter:title: Shard
 	:twitter:description: Shard: Database sharding is a database architecture strategy where a large database is partitioned into smaller, more manageable units called shards
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Shard
 	:og:type: article
 	:og:description: Database sharding is a database architecture strategy where a large database is partitioned into smaller, more manageable units called shards

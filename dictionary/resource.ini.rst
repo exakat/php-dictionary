@@ -7,6 +7,8 @@
 	:twitter:title: resource
 	:twitter:description: resource: A resource is a special type of data, holding a reference to an external resource
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: resource
 	:og:type: article
 	:og:description: A resource is a special type of data, holding a reference to an external resource

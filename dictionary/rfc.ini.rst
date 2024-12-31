@@ -7,6 +7,8 @@
 	:twitter:title: RFC
 	:twitter:description: RFC: The RFC acronym has several usage :
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: RFC
 	:og:type: article
 	:og:description: The RFC acronym has several usage :

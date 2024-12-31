@@ -7,6 +7,8 @@
 	:twitter:title: Persistence
 	:twitter:description: Persistence: Persistence is related to the life cycle of a resource
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Persistence
 	:og:type: article
 	:og:description: Persistence is related to the life cycle of a resource

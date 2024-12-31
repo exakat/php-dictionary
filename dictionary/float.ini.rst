@@ -8,6 +8,8 @@
 	:twitter:title: Floating Point Numbers
 	:twitter:description: Floating Point Numbers:  Floating point numbers (also known as "floats", "doubles", or "real numbers") can be specified using a decimal dot and a mantis
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Floating Point Numbers
 	:og:type: article
 	:og:description:  Floating point numbers (also known as "floats", "doubles", or "real numbers") can be specified using a decimal dot and a mantis

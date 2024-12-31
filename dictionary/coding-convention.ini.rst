@@ -7,6 +7,8 @@
 	:twitter:title: Coding Conventions
 	:twitter:description: Coding Conventions: Coding conventions are a set of guidelines for PHP that recommend source code writing, programming style and practices
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Coding Conventions
 	:og:type: article
 	:og:description: Coding conventions are a set of guidelines for PHP that recommend source code writing, programming style and practices

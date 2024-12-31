@@ -7,6 +7,8 @@
 	:twitter:title: Extensions
 	:twitter:description: Extensions: Extensions are a custom way to add features to software
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Extensions
 	:og:type: article
 	:og:description: Extensions are a custom way to add features to software

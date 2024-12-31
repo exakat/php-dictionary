@@ -7,6 +7,8 @@
 	:twitter:title: .htaccess
 	:twitter:description: .htaccess: The 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: .htaccess
 	:og:type: article
 	:og:description: The 

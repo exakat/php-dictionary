@@ -7,6 +7,8 @@
 	:twitter:title: Override Attribute
 	:twitter:description: Override Attribute: This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Override Attribute
 	:og:type: article
 	:og:description: This is a native PHP attribute, which tells the engine that a method must be overriding the same method in a parent

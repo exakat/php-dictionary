@@ -7,6 +7,8 @@
 	:twitter:title: PHP Native Attribute
 	:twitter:description: PHP Native Attribute: PHP supports a system of attribute, to add local configuration to methods, classes, etc
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Native Attribute
 	:og:type: article
 	:og:description: PHP supports a system of attribute, to add local configuration to methods, classes, etc

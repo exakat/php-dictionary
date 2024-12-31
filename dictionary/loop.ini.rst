@@ -7,6 +7,8 @@
 	:twitter:title: Loops
 	:twitter:description: Loops: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Loops
 	:og:type: article
 	:og:description: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition

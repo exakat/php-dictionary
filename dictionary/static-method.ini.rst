@@ -7,6 +7,8 @@
 	:twitter:title: Static Method
 	:twitter:description: Static Method: Static methods are methods defined with the static keyword
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Static Method
 	:og:type: article
 	:og:description: Static methods are methods defined with the static keyword

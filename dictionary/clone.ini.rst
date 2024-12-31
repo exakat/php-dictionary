@@ -7,6 +7,8 @@
 	:twitter:title: Clone
 	:twitter:description: Clone: Clone makes a duplicate of an object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Clone
 	:og:type: article
 	:og:description: Clone makes a duplicate of an object

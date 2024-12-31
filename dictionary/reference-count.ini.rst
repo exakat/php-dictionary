@@ -7,6 +7,8 @@
 	:twitter:title: Reference Count
 	:twitter:description: Reference Count: Reference counting is the way PHP keeps track of the usage of a value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Reference Count
 	:og:type: article
 	:og:description: Reference counting is the way PHP keeps track of the usage of a value

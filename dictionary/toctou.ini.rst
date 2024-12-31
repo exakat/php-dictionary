@@ -7,6 +7,8 @@
 	:twitter:title: toctou : Time Of Check To Time Of Use
 	:twitter:description: toctou : Time Of Check To Time Of Use: Toctou is a class of bug where there is a time interval between checking a resource and then using it
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: toctou : Time Of Check To Time Of Use
 	:og:type: article
 	:og:description: Toctou is a class of bug where there is a time interval between checking a resource and then using it

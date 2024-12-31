@@ -7,6 +7,8 @@
 	:twitter:title: Iterable
 	:twitter:description: Iterable: Iterable is a pseudo-type, which accepts any array or object implementing the Traversable interface
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Iterable
 	:og:type: article
 	:og:description: Iterable is a pseudo-type, which accepts any array or object implementing the Traversable interface

@@ -7,6 +7,8 @@
 	:twitter:title: Domain Design Driven
 	:twitter:description: Domain Design Driven: Domain-Driven Design (DDD) is a software development approach that emphasizes structuring and modeling software based on the real-world domain it is meant to represent
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Domain Design Driven
 	:og:type: article
 	:og:description: Domain-Driven Design (DDD) is a software development approach that emphasizes structuring and modeling software based on the real-world domain it is meant to represent

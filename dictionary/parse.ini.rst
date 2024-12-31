@@ -8,6 +8,8 @@
 	:twitter:title: Parse
 	:twitter:description: Parse: To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Parse
 	:og:type: article
 	:og:description: To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information

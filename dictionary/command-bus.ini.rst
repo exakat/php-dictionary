@@ -7,6 +7,8 @@
 	:twitter:title: Command Bus
 	:twitter:description: Command Bus: A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design (DDD) and CQRS (Command Query Responsibility Segregation)
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Command Bus
 	:og:type: article
 	:og:description: A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design (DDD) and CQRS (Command Query Responsibility Segregation)

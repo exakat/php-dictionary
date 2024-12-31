@@ -7,6 +7,8 @@
 	:twitter:title: git
 	:twitter:description: git: Git is a distributed version control system that is widely used for tracking changes in source code during software development
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: git
 	:og:type: article
 	:og:description: Git is a distributed version control system that is widely used for tracking changes in source code during software development

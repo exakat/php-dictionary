@@ -7,6 +7,8 @@
 	:twitter:title: Ctype
 	:twitter:description: Ctype: `ctype` is a set of functions used for character type checking
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Ctype
 	:og:type: article
 	:og:description: `ctype` is a set of functions used for character type checking

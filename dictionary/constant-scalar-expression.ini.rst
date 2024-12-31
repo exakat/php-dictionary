@@ -8,6 +8,8 @@
 	:twitter:title: Constant Scalar Expression
 	:twitter:description: Constant Scalar Expression: A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values (constants), operators
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Constant Scalar Expression
 	:og:type: article
 	:og:description: A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values (constants), operators

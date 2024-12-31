@@ -7,6 +7,8 @@
 	:twitter:title: Strict Comparison
 	:twitter:description: Strict Comparison: Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Strict Comparison
 	:og:type: article
 	:og:description: Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value

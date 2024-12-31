@@ -7,6 +7,8 @@
 	:twitter:title: Magic Constants
 	:twitter:description: Magic Constants: Constants which hold information about the current location of the code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Magic Constants
 	:og:type: article
 	:og:description: Constants which hold information about the current location of the code

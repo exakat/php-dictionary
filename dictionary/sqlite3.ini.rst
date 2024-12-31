@@ -8,6 +8,8 @@
 	:twitter:title: Sqlite3
 	:twitter:description: Sqlite3: SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Sqlite3
 	:og:type: article
 	:og:description: SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine

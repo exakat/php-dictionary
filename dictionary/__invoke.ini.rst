@@ -7,6 +7,8 @@
 	:twitter:title: __invoke() Method
 	:twitter:description: __invoke() Method: The __invoke() magic method is called when the code calls an object as a function name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __invoke() Method
 	:og:type: article
 	:og:description: The __invoke() magic method is called when the code calls an object as a function name

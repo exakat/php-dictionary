@@ -8,6 +8,8 @@
 	:twitter:title: Union Type
 	:twitter:description: Union Type: Union types refer to the ability to specify multiple possible types for a property, parameter, or return value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Union Type
 	:og:type: article
 	:og:description: Union types refer to the ability to specify multiple possible types for a property, parameter, or return value

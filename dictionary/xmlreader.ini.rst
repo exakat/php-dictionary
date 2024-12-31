@@ -7,6 +7,8 @@
 	:twitter:title: XMLReader
 	:twitter:description: XMLReader: The ``XMLReader`` extension is an XML Pull parser
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: XMLReader
 	:og:type: article
 	:og:description: The ``XMLReader`` extension is an XML Pull parser

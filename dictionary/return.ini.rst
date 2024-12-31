@@ -7,6 +7,8 @@
 	:twitter:title: Return
 	:twitter:description: Return: `return` ends the current method, and sends back a produced value to the calling module
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Return
 	:og:type: article
 	:og:description: `return` ends the current method, and sends back a produced value to the calling module

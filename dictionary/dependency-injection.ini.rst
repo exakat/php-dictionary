@@ -9,6 +9,8 @@
 	:twitter:title: Dependency Injection
 	:twitter:description: Dependency Injection: Dependency injection is a design pattern in which an object receives other objects that it depends on
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dependency Injection
 	:og:type: article
 	:og:description: Dependency injection is a design pattern in which an object receives other objects that it depends on

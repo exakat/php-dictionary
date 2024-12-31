@@ -7,6 +7,8 @@
 	:twitter:title: Refactoring
 	:twitter:description: Refactoring: Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Refactoring
 	:og:type: article
 	:og:description: Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior

@@ -7,6 +7,8 @@
 	:twitter:title: API
 	:twitter:description: API: A set of functions and procedures allowing the creation of applications that access the features or data of another service
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: API
 	:og:type: article
 	:og:description: A set of functions and procedures allowing the creation of applications that access the features or data of another service

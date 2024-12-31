@@ -7,6 +7,8 @@
 	:twitter:title: Whitespace
 	:twitter:description: Whitespace: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Whitespace
 	:og:type: article
 	:og:description: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name

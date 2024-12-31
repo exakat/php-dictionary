@@ -7,6 +7,8 @@
 	:twitter:title: Language Construct
 	:twitter:description: Language Construct: PHP has a notion of ``language construct``, which are special keywords, with an attached feature
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Language Construct
 	:og:type: article
 	:og:description: PHP has a notion of ``language construct``, which are special keywords, with an attached feature

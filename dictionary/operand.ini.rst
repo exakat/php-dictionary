@@ -7,6 +7,8 @@
 	:twitter:title: Operand
 	:twitter:description: Operand: An operand is an argument for an operator
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Operand
 	:og:type: article
 	:og:description: An operand is an argument for an operator

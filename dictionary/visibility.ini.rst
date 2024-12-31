@@ -8,6 +8,8 @@
 	:twitter:title: Visibility
 	:twitter:description: Visibility: Properties, methods and classes may have a visibility
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Visibility
 	:og:type: article
 	:og:description: Properties, methods and classes may have a visibility

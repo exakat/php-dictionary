@@ -7,6 +7,8 @@
 	:twitter:title: extends
 	:twitter:description: extends: `extends` is an operator of the class inheritance
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: extends
 	:og:type: article
 	:og:description: `extends` is an operator of the class inheritance

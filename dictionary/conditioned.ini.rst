@@ -7,6 +7,8 @@
 	:twitter:title: Conditioned Structures
 	:twitter:description: Conditioned Structures: Conditioned structures are definitions that are placed inside a condition structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Conditioned Structures
 	:og:type: article
 	:og:description: Conditioned structures are definitions that are placed inside a condition structure

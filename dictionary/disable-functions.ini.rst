@@ -7,6 +7,8 @@
 	:twitter:title: Disable Functions
 	:twitter:description: Disable Functions: This PHP directive is used to prevent specific functions from being called in PHP scripts
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Disable Functions
 	:og:type: article
 	:og:description: This PHP directive is used to prevent specific functions from being called in PHP scripts

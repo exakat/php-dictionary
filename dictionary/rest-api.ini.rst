@@ -7,6 +7,8 @@
 	:twitter:title: REST API
 	:twitter:description: REST API: REST stands for Representational state transfer
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: REST API
 	:og:type: article
 	:og:description: REST stands for Representational state transfer

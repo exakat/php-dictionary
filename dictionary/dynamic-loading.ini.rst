@@ -7,6 +7,8 @@
 	:twitter:title: Dynamic Loading
 	:twitter:description: Dynamic Loading: Dynamic Loading is related to the loading of PHP extensions, at execution time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dynamic Loading
 	:og:type: article
 	:og:description: Dynamic Loading is related to the loading of PHP extensions, at execution time

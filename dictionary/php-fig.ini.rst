@@ -7,6 +7,8 @@
 	:twitter:title: FIG
 	:twitter:description: FIG: FIG is the Framework Interoperability Group
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: FIG
 	:og:type: article
 	:og:description: FIG is the Framework Interoperability Group

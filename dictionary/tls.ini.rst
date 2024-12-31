@@ -7,6 +7,8 @@
 	:twitter:title: TLS
 	:twitter:description: TLS: TLS, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: TLS
 	:og:type: article
 	:og:description: TLS, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web

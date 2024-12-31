@@ -7,6 +7,8 @@
 	:twitter:title: Segmentation Fault
 	:twitter:description: Segmentation Fault: ``Segmentation fault`` is the laconic error message that is displayed when PHP crashes
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Segmentation Fault
 	:og:type: article
 	:og:description: ``Segmentation fault`` is the laconic error message that is displayed when PHP crashes

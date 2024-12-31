@@ -7,6 +7,8 @@
 	:twitter:title: And Operator
 	:twitter:description: And Operator: ``and`` is the logical operator: it returns ``true`` only when both operands are ``true``
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: And Operator
 	:og:type: article
 	:og:description: ``and`` is the logical operator: it returns ``true`` only when both operands are ``true``

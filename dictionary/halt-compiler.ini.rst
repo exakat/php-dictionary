@@ -7,6 +7,8 @@
 	:twitter:title: __halt_compiler()
 	:twitter:description: __halt_compiler(): Halts the execution of the compiler
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __halt_compiler()
 	:og:type: article
 	:og:description: Halts the execution of the compiler

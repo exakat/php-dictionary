@@ -7,6 +7,8 @@
 	:twitter:title: Pseudo-variable
 	:twitter:description: Pseudo-variable: A pseudo-variable is a term used to describe a symbol that looks like a variable but does not represent one
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Pseudo-variable
 	:og:type: article
 	:og:description: A pseudo-variable is a term used to describe a symbol that looks like a variable but does not represent one

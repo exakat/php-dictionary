@@ -7,6 +7,8 @@
 	:twitter:title: Idempotent
 	:twitter:description: Idempotent: Idempotent is said of an operation, which yields always the same result after the first call
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Idempotent
 	:og:type: article
 	:og:description: Idempotent is said of an operation, which yields always the same result after the first call

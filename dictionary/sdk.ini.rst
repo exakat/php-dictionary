@@ -7,6 +7,8 @@
 	:twitter:title: Software Development Kit
 	:twitter:description: Software Development Kit: SDK stands for Software Development Kit
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Software Development Kit
 	:og:type: article
 	:og:description: SDK stands for Software Development Kit

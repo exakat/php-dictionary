@@ -7,6 +7,8 @@
 	:twitter:title: Namespace Alias
 	:twitter:description: Namespace Alias: PHP can alias, or import, constants, functions, classes, interfaces, traits, enumerations and namespaces
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Namespace Alias
 	:og:type: article
 	:og:description: PHP can alias, or import, constants, functions, classes, interfaces, traits, enumerations and namespaces

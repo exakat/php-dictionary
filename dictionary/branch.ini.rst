@@ -7,6 +7,8 @@
 	:twitter:title: Branch
 	:twitter:description: Branch: A branch is one of the two alternative in a if then expression
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Branch
 	:og:type: article
 	:og:description: A branch is one of the two alternative in a if then expression

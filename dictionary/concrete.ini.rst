@@ -7,6 +7,8 @@
 	:twitter:title: Concrete Class
 	:twitter:description: Concrete Class: PHP has abstract classes and methods: the contrary to ``abstract`` is concrete
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Concrete Class
 	:og:type: article
 	:og:description: PHP has abstract classes and methods: the contrary to ``abstract`` is concrete

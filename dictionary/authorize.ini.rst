@@ -7,6 +7,8 @@
 	:twitter:title: Authorize
 	:twitter:description: Authorize: To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Authorize
 	:og:type: article
 	:og:description: To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action

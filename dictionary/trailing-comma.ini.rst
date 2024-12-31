@@ -7,6 +7,8 @@
 	:twitter:title: Trailing Comma
 	:twitter:description: Trailing Comma: The trailing comma is the possibility to leave the last element of a list empty
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Trailing Comma
 	:og:type: article
 	:og:description: The trailing comma is the possibility to leave the last element of a list empty

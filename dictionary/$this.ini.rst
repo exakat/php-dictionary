@@ -7,6 +7,8 @@
 	:twitter:title: $this
 	:twitter:description: $this: $this is a variable that represents the current object
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $this
 	:og:type: article
 	:og:description: $this is a variable that represents the current object

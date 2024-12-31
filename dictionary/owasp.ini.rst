@@ -7,6 +7,8 @@
 	:twitter:title: OWASP
 	:twitter:description: OWASP: OWASP stands for Open Web Application Security Project
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: OWASP
 	:og:type: article
 	:og:description: OWASP stands for Open Web Application Security Project

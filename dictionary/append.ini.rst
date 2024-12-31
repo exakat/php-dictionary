@@ -9,6 +9,8 @@
 	:twitter:title: Array Append
 	:twitter:description: Array Append: Append is an array operation, which adds an element at the end of the array
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Array Append
 	:og:type: article
 	:og:description: Append is an array operation, which adds an element at the end of the array

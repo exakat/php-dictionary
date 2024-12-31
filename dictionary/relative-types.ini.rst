@@ -7,6 +7,8 @@
 	:twitter:title: Relative Types
 	:twitter:description: Relative Types: Relative types are types that are not explicit, but relative to the current class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Relative Types
 	:og:type: article
 	:og:description: Relative types are types that are not explicit, but relative to the current class

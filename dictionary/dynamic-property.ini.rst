@@ -7,6 +7,8 @@
 	:twitter:title: Dynamic Properties
 	:twitter:description: Dynamic Properties: Dynamic properties are properties created on the fly, without previous definition
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dynamic Properties
 	:og:type: article
 	:og:description: Dynamic properties are properties created on the fly, without previous definition

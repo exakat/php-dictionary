@@ -7,6 +7,8 @@
 	:twitter:title: List
 	:twitter:description: List: List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: List
 	:og:type: article
 	:og:description: List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list

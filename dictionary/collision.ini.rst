@@ -8,6 +8,8 @@
 	:twitter:title: Collision
 	:twitter:description: Collision: A collision happens when two entities of the same type have two distinct definitions
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Collision
 	:og:type: article
 	:og:description: A collision happens when two entities of the same type have two distinct definitions

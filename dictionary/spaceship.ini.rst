@@ -7,6 +7,8 @@
 	:twitter:title: Spaceship Operator
 	:twitter:description: Spaceship Operator: Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Spaceship Operator
 	:og:type: article
 	:og:description: Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value

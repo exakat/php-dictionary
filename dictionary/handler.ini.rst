@@ -7,6 +7,8 @@
 	:twitter:title: PHP Handlers
 	:twitter:description: PHP Handlers: PHP handlers are methods which are called to customize the processing of specific events
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Handlers
 	:og:type: article
 	:og:description: PHP handlers are methods which are called to customize the processing of specific events

@@ -7,6 +7,8 @@
 	:twitter:title: Composer
 	:twitter:description: Composer: Composer is the most popular package manager for PHP
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Composer
 	:og:type: article
 	:og:description: Composer is the most popular package manager for PHP

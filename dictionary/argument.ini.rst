@@ -7,6 +7,8 @@
 	:twitter:title: Argument
 	:twitter:description: Argument: Arguments are values passed to a function or method, at execution time
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Argument
 	:og:type: article
 	:og:description: Arguments are values passed to a function or method, at execution time

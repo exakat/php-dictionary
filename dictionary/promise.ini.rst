@@ -7,6 +7,8 @@
 	:twitter:title: Promise
 	:twitter:description: Promise: A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Promise
 	:og:type: article
 	:og:description: A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet

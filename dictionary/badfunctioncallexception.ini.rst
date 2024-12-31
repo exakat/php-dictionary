@@ -7,6 +7,8 @@
 	:twitter:title: BadFunctioncallException
 	:twitter:description: BadFunctioncallException: The ``BadFunctioncallException`` exception is thrown if callback refers to an undefined function or if some arguments are missing
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: BadFunctioncallException
 	:og:type: article
 	:og:description: The ``BadFunctioncallException`` exception is thrown if callback refers to an undefined function or if some arguments are missing

@@ -7,6 +7,8 @@
 	:twitter:title: For
 	:twitter:description: For: For is a loop structure
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: For
 	:og:type: article
 	:og:description: For is a loop structure

@@ -7,6 +7,8 @@
 	:twitter:title: Route
 	:twitter:description: Route: A route is links an HTTP URL to a request handler
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Route
 	:og:type: article
 	:og:description: A route is links an HTTP URL to a request handler

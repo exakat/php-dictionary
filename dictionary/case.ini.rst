@@ -7,6 +7,8 @@
 	:twitter:title: Case
 	:twitter:description: Case: Case is a PHP keyword, which may be used in three distinct situations: 
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Case
 	:og:type: article
 	:og:description: Case is a PHP keyword, which may be used in three distinct situations: 

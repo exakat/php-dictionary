@@ -7,6 +7,8 @@
 	:twitter:title: Final Class Constants
 	:twitter:description: Final Class Constants: Using the final option with class constants, the constant cannot be redefined by a child class
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Final Class Constants
 	:og:type: article
 	:og:description: Using the final option with class constants, the constant cannot be redefined by a child class

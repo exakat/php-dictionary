@@ -7,6 +7,8 @@
 	:twitter:title: Void
 	:twitter:description: Void: Void is a return type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Void
 	:og:type: article
 	:og:description: Void is a return type

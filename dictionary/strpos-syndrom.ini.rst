@@ -7,6 +7,8 @@
 	:twitter:title: Strpos() Syndrome
 	:twitter:description: Strpos() Syndrome: The strpos() syndrome is a classic bug : strpos() searches for a string inside another string
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Strpos() Syndrome
 	:og:type: article
 	:og:description: The strpos() syndrome is a classic bug : strpos() searches for a string inside another string

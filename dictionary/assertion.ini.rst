@@ -8,6 +8,8 @@
 	:twitter:title: Assertions
 	:twitter:description: Assertions: Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Assertions
 	:og:type: article
 	:og:description: Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production

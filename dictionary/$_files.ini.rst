@@ -7,6 +7,8 @@
 	:twitter:title: $_FILES
 	:twitter:description: $_FILES: In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype="multipart/form-data"`` attribute
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: $_FILES
 	:og:type: article
 	:og:description: In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype="multipart/form-data"`` attribute

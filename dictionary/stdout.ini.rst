@@ -8,6 +8,8 @@
 	:twitter:title: STDOUT
 	:twitter:description: STDOUT: stdout refers to the standard output stream
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: STDOUT
 	:og:type: article
 	:og:description: stdout refers to the standard output stream

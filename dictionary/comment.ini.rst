@@ -7,6 +7,8 @@
 	:twitter:title: Comments
 	:twitter:description: Comments: PHP comments are used to add explanatory notes or annotations within your code
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Comments
 	:og:type: article
 	:og:description: PHP comments are used to add explanatory notes or annotations within your code

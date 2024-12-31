@@ -7,6 +7,8 @@
 	:twitter:title: Micro-optimisation
 	:twitter:description: Micro-optimisation: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Micro-optimisation
 	:og:type: article
 	:og:description: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed

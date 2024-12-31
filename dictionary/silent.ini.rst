@@ -8,6 +8,8 @@
 	:twitter:title: Silent Behavior
 	:twitter:description: Silent Behavior: Silent behaviors are expressions that do not raise any error, yet performs a transformation on data, with or without the programmer's knowledge
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Silent Behavior
 	:og:type: article
 	:og:description: Silent behaviors are expressions that do not raise any error, yet performs a transformation on data, with or without the programmer's knowledge

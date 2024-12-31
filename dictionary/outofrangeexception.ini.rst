@@ -7,6 +7,8 @@
 	:twitter:title: OutOfRangeException
 	:twitter:description: OutOfRangeException: OutOfRangeException is a built-in exception class that is used to indicate that an index or value is outside the acceptable range
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: OutOfRangeException
 	:og:type: article
 	:og:description: OutOfRangeException is a built-in exception class that is used to indicate that an index or value is outside the acceptable range

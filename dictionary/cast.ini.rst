@@ -7,6 +7,8 @@
 	:twitter:title: Cast Operator
 	:twitter:description: Cast Operator: Cast operators change the type of the variable to the desired type
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Cast Operator
 	:og:type: article
 	:og:description: Cast operators change the type of the variable to the desired type

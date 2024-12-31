@@ -7,6 +7,8 @@
 	:twitter:title: Standalone Types
 	:twitter:description: Standalone Types: Types are standalone, as they can be use alone, in a type declaration
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Standalone Types
 	:og:type: article
 	:og:description: Types are standalone, as they can be use alone, in a type declaration

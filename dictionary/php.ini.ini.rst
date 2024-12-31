@@ -7,6 +7,8 @@
 	:twitter:title: php.ini
 	:twitter:description: php.ini: php
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: php.ini
 	:og:type: article
 	:og:description: php

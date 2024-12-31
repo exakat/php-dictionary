@@ -7,6 +7,8 @@
 	:twitter:title: Identifier
 	:twitter:description: Identifier: An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Identifier
 	:og:type: article
 	:og:description: An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant

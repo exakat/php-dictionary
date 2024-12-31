@@ -7,6 +7,8 @@
 	:twitter:title: Early Binding
 	:twitter:description: Early Binding: Early binding is the fact that PHP allows using a class before its declaration in the same file
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Early Binding
 	:og:type: article
 	:og:description: Early binding is the fact that PHP allows using a class before its declaration in the same file

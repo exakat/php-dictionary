@@ -8,6 +8,8 @@
 	:twitter:title: Unary Operator
 	:twitter:description: Unary Operator: A unary operator is an operator that operates on a single operand
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Unary Operator
 	:og:type: article
 	:og:description: A unary operator is an operator that operates on a single operand

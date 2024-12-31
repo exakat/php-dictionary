@@ -7,6 +7,8 @@
 	:twitter:title: Dereferencing
 	:twitter:description: Dereferencing: Dereferencing is the action to access a value, which is referenced with a pointer
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Dereferencing
 	:og:type: article
 	:og:description: Dereferencing is the action to access a value, which is referenced with a pointer

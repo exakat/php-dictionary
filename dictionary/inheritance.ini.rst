@@ -7,6 +7,8 @@
 	:twitter:title: Inheritance
 	:twitter:description: Inheritance: Inheritance is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Inheritance
 	:og:type: article
 	:og:description: Inheritance is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods

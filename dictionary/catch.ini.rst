@@ -7,6 +7,8 @@
 	:twitter:title: Catch
 	:twitter:description: Catch: Catch is the complement clause of try : it defines which exception is caught
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Catch
 	:og:type: article
 	:og:description: Catch is the complement clause of try : it defines which exception is caught

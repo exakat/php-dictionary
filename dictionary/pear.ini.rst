@@ -7,6 +7,8 @@
 	:twitter:title: PEAR
 	:twitter:description: PEAR: PEAR stands for 'PHP Extension and Application Repository'
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PEAR
 	:og:type: article
 	:og:description: PEAR stands for 'PHP Extension and Application Repository'

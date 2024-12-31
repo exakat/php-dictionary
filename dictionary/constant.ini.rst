@@ -8,6 +8,8 @@
 	:twitter:title: Constants
 	:twitter:description: Constants: Constants are named values, that never change
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Constants
 	:og:type: article
 	:og:description: Constants are named values, that never change

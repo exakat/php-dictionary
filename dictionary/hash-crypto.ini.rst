@@ -7,6 +7,8 @@
 	:twitter:title: Cryptographic Hash
 	:twitter:description: Cryptographic Hash: A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Cryptographic Hash
 	:og:type: article
 	:og:description: A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert

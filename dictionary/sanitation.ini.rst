@@ -8,6 +8,8 @@
 	:twitter:title: Sanitation
 	:twitter:description: Sanitation: Sanitation is the process to clean data and remove any unwanted parts
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Sanitation
 	:og:type: article
 	:og:description: Sanitation is the process to clean data and remove any unwanted parts

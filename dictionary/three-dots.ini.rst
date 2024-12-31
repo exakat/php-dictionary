@@ -7,6 +7,8 @@
 	:twitter:title: Three Dots
 	:twitter:description: Three Dots: Three dots, is an operator with several usages and names
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Three Dots
 	:og:type: article
 	:og:description: Three dots, is an operator with several usages and names

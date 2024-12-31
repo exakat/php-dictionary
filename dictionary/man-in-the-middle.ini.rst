@@ -7,6 +7,8 @@
 	:twitter:title: Man In The Middle
 	:twitter:description: Man In The Middle: A Man-in-the-Middle (MitM) attack is a cyberattack where a malicious actor intercepts and possibly alters communications between two parties without their knowledge
 	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Man In The Middle
 	:og:type: article
 	:og:description: A Man-in-the-Middle (MitM) attack is a cyberattack where a malicious actor intercepts and possibly alters communications between two parties without their knowledge
