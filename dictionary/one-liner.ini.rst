@@ -25,7 +25,7 @@ One liner are supposed to fit on one line. The line is also supposed to be limit
 
 One liners tends to pack a lot of operations in one expression. When used aggressively, one liners become less readable, and more complex. 
 
-Some commands have a short and a long syntax, such as ``if-then-else`` and the ternary operator ``? : ``.
+Some commands have a short and a long syntax, such as ``if-then-else`` and the ternary operator ``condition ? then : else``.
 
 
 .. code-block:: php

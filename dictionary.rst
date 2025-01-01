@@ -444,7 +444,7 @@ PHP Dictionary
    * :ref:`MVC <mvc>`
    * :ref:`Magic <magic>`
    * :ref:`Magic Constants <magic-constant>`
-   * :ref:`Magic Hash <magic hash>`
+   * :ref:`Magic Hash <magic-hash>`
    * :ref:`Magic Methods <magic-method>`
    * :ref:`Magic Numbers <magic-number>`
    * :ref:`Magic Property <magic-property>`

@@ -1,5 +1,5 @@
-.. _magic hash:
-.. _magic hashes:
+.. _magic-hash:
+.. _magic-hashes:
 .. meta::
 	:description:
 		Magic Hash: A magic hash is a hash string which is mistakenly compared to another hash.
@@ -13,7 +13,7 @@
 	:og:title: Magic Hash
 	:og:type: article
 	:og:description: A magic hash is a hash string which is mistakenly compared to another hash
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic hash.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-hash.ini.html
 	:og:locale: en
 
 

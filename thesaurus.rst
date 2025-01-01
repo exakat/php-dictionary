@@ -288,7 +288,7 @@ Bug
 + :ref:`Days In Month <days-in-month>`
 + :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
 + :ref:`Letter Logical Bug <letter-logical>`
-+ :ref:`Magic Hash <magic hash>`
++ :ref:`Magic Hash <magic-hash>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Object Injection <object-injection>`
 + :ref:`Strpos() Syndrome <strpos-syndrom>`

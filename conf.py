@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'PHP Dictionary'
-copyright = '2022-2024, Damien Seguy'
+copyright = '2022-2025, Damien Seguy'
 author = 'Damien Seguy'
 
 # The full version, including alpha/beta/rc tags

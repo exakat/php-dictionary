@@ -1,6 +1,8 @@
 No extension INI on ./human/en/Features/Dictionnaire PHP.txt
+Can't process seeAlso `Autovivification <https://en.wikipedia.org/wiki/Autovivification>`__ in ./human/en/Features/autovivification.ini
 Can't process seeAlso https://www.php.net/manual/en/function.fopen.php in ./human/en/Features/file-mode.ini
 Can't process seeAlso https://reintech.io/blog/a-guide-to-php-snmp-library-for-simple-network-management-protocol in ./human/en/Features/snmp.ini
+Can't process seeAlso `UOPZ <https://github.com/krakjoe/uopz>`__ in ./human/en/Features/uopz.ini
 __isset() method has a wrong format (missing capitals) in file ./human/en/Features/__isset.ini
 __serialize() method has a wrong format (missing capitals) in file ./human/en/Features/__serialize.ini
 __set() method has a wrong format (missing capitals) in file ./human/en/Features/__set.ini

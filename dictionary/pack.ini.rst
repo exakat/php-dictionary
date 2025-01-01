@@ -33,6 +33,4 @@ Pack() is a native PHP function which converts given arguments into a binary str
 
 `Documentation <https://www.php.net/manual/en/function.pack.php>`__
 
-See also `pack <https://www.phptutorial.info/?pack>`_
-
 Related : :ref:`Unpacking <unpack>`

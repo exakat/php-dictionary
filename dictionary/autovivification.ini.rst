@@ -42,4 +42,4 @@ Autovivification from null is valid.
 
 `Documentation <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.autovivification-false>`__
 
-See also `Autovivification <https://en.wikipedia.org/wiki/Autovivification>`_
+See also `Autovivification <https://en.wikipedia.org/wiki/Autovivification>`__

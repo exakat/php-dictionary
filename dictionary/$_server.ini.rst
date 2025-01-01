@@ -1,5 +1,4 @@
 .. _$_server:
-.. _$_SERVER:
 .. meta::
 	:description:
 		$_SERVER: The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations.
