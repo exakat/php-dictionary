@@ -26,4 +26,4 @@ A view may be several things:
 
 
 
-Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`SQL Views <view-sql>`
+Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`SQL Views <view-sql>`

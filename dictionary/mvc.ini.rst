@@ -1,23 +1,23 @@
 .. _mvc:
 .. meta::
 	:description:
-		MVC: MVC stands for Model - View - Controller.
+		Model - View - Controller (MVC): MVC stands for Model - View - Controller.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: MVC
-	:twitter:description: MVC: MVC stands for Model - View - Controller
+	:twitter:title: Model - View - Controller (MVC)
+	:twitter:description: Model - View - Controller (MVC): MVC stands for Model - View - Controller
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: MVC
+	:og:title: Model - View - Controller (MVC)
 	:og:type: article
 	:og:description: MVC stands for Model - View - Controller
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mvc.ini.html
 	:og:locale: en
 
 
-MVC
----
+Model - View - Controller (MVC)
+-------------------------------
 
 MVC stands for Model - View - Controller. It is a programming paradigm, which partition a PHP application in three : 
 

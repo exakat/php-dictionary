@@ -1,23 +1,23 @@
 .. _jit:
 .. meta::
 	:description:
-		Just In Time: Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution.
+		Just In Time (JIT): Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Just In Time
-	:twitter:description: Just In Time: Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution
+	:twitter:title: Just In Time (JIT)
+	:twitter:description: Just In Time (JIT): Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Just In Time
+	:og:title: Just In Time (JIT)
 	:og:type: article
 	:og:description: Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/jit.ini.html
 	:og:locale: en
 
 
-Just In Time
-------------
+Just In Time (JIT)
+------------------
 
 Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution.
 

@@ -1,23 +1,23 @@
 .. _pie:
 .. meta::
 	:description:
-		pie: Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn.
+		PHP Installer For Extensions (PIE): Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: pie
-	:twitter:description: pie: Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn
+	:twitter:title: PHP Installer For Extensions (PIE)
+	:twitter:description: PHP Installer For Extensions (PIE): Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: pie
+	:og:title: PHP Installer For Extensions (PIE)
 	:og:type: article
 	:og:description: Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/pie.ini.html
 	:og:locale: en
 
 
-pie
----
+PHP Installer For Extensions (PIE)
+----------------------------------
 
 Pie is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundationn
 
@@ -25,4 +25,4 @@ Pie is a new extension installer for PHP, designed as a successor to PECL and de
 
 See also `php/pie <https://github.com/php/pie>`_, `Announcing the Pre-Release of the PHP Installer for Extensions (PIE) <https://thephp.foundation/blog/2024/11/19/pie-pre-release/>`_
 
-Related : :ref:`Extensions <extension>`, :ref:`PECL <pecl>`
+Related : :ref:`Extensions <extension>`, :ref:`PHP Extension C Library (PECL) <pecl>`

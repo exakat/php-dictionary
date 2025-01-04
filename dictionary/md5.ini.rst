@@ -1,23 +1,23 @@
 .. _md5:
 .. meta::
 	:description:
-		MD5: MD5 is a hash function, that produce a 128-bit footprint for a value.
+		Message Digest Algorithm 5 (MD5): MD5 is a hash function, that produce a 128-bit footprint for a value.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: MD5
-	:twitter:description: MD5: MD5 is a hash function, that produce a 128-bit footprint for a value
+	:twitter:title: Message Digest Algorithm 5 (MD5)
+	:twitter:description: Message Digest Algorithm 5 (MD5): MD5 is a hash function, that produce a 128-bit footprint for a value
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: MD5
+	:og:title: Message Digest Algorithm 5 (MD5)
 	:og:type: article
 	:og:description: MD5 is a hash function, that produce a 128-bit footprint for a value
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/md5.ini.html
 	:og:locale: en
 
 
-MD5
----
+Message Digest Algorithm 5 (MD5)
+--------------------------------
 
 MD5 is a hash function, that produce a 128-bit footprint for a value. 
 

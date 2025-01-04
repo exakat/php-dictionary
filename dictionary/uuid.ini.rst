@@ -1,23 +1,23 @@
 .. _uuid:
 .. meta::
 	:description:
-		UUID: UUID is a Universally Unique IDentifier.
+		Universally Unique IDentifier (UUID): UUID is a Universally Unique IDentifier.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: UUID
-	:twitter:description: UUID: UUID is a Universally Unique IDentifier
+	:twitter:title: Universally Unique IDentifier (UUID)
+	:twitter:description: Universally Unique IDentifier (UUID): UUID is a Universally Unique IDentifier
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: UUID
+	:og:title: Universally Unique IDentifier (UUID)
 	:og:type: article
 	:og:description: UUID is a Universally Unique IDentifier
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/uuid.ini.html
 	:og:locale: en
 
 
-UUID
-----
+Universally Unique IDentifier (UUID)
+------------------------------------
 
 UUID is a Universally Unique IDentifier. It is an identifier that anyone can generate, and that has a near certainty that it identify something unique, in the universe. 
 

@@ -1,23 +1,23 @@
 .. _crud:
 .. meta::
 	:description:
-		CRUD: CRUD stands for Create, Read, Update and Delete.
+		Create, Read, Update and Delete (CRUD): CRUD stands for Create, Read, Update and Delete.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: CRUD
-	:twitter:description: CRUD: CRUD stands for Create, Read, Update and Delete
+	:twitter:title: Create, Read, Update and Delete (CRUD)
+	:twitter:description: Create, Read, Update and Delete (CRUD): CRUD stands for Create, Read, Update and Delete
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: CRUD
+	:og:title: Create, Read, Update and Delete (CRUD)
 	:og:type: article
 	:og:description: CRUD stands for Create, Read, Update and Delete
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/crud.ini.html
 	:og:locale: en
 
 
-CRUD
-----
+Create, Read, Update and Delete (CRUD)
+--------------------------------------
 
 CRUD stands for Create, Read, Update and Delete. Those are the four primitive operation for storage. 
 

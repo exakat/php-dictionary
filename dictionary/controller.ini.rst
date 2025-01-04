@@ -24,4 +24,4 @@ Controllers takes in charge one or several URL, extract data from the request, p
 Controllers orchestrate the execution of the request, and act as gatekeeper, ensuring that data are correctly processed.
 
 
-Related : :ref:`MVC <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`
+Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`

@@ -21,7 +21,7 @@ List
 
 List() acts as the contrary to array() : it will break an array into individual elements, and assign them to the arguments of the list. 
 
-List() also has a short array version, which is `[ ]` the square brackets. Those square brackets are only appearing on the left side of an assignation. 
+List() also has a short array version, which is ``[ ]`` the square brackets. Those square brackets are only appearing on the left side of an assignation. 
 
 list() may omit extracted values by skipping their value, and leaving seemingly empty arguments. List() also supports double-arrow notation, where the key is provided. 
 
@@ -30,6 +30,8 @@ list() may be nested. It may also be used with foreach() structures.
 list() looks like a function, though it is the only one to appears on the left part of an assignation, and is actually a language-construct.
 
 A list is also the name given to arrays where the index are the automatic ones. 
+
+``list()`` is the only expression where successive commas may be used.
 
 
 

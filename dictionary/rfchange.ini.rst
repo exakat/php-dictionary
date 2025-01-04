@@ -1,23 +1,23 @@
 .. _rfchange:
 .. meta::
 	:description:
-		Request For Change: A Request For Change is a document containing a call for an adjustment of a source code.
+		Request For Change (RFC): A Request For Change is a document containing a call for an adjustment of a source code.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Request For Change
-	:twitter:description: Request For Change: A Request For Change is a document containing a call for an adjustment of a source code
+	:twitter:title: Request For Change (RFC)
+	:twitter:description: Request For Change (RFC): A Request For Change is a document containing a call for an adjustment of a source code
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Request For Change
+	:og:title: Request For Change (RFC)
 	:og:type: article
 	:og:description: A Request For Change is a document containing a call for an adjustment of a source code
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rfchange.ini.html
 	:og:locale: en
 
 
-Request For Change
-------------------
+Request For Change (RFC)
+------------------------
 
 A Request For Change is a document containing a call for an adjustment of a source code.
 

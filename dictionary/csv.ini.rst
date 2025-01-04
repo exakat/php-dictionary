@@ -1,23 +1,23 @@
 .. _csv:
 .. meta::
 	:description:
-		CSV: CSV is a data format, where values are separated by commas.
+		Comma Secparated Values (CSV): CSV is a data format, where values are separated by commas.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: CSV
-	:twitter:description: CSV: CSV is a data format, where values are separated by commas
+	:twitter:title: Comma Secparated Values (CSV)
+	:twitter:description: Comma Secparated Values (CSV): CSV is a data format, where values are separated by commas
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: CSV
+	:og:title: Comma Secparated Values (CSV)
 	:og:type: article
 	:og:description: CSV is a data format, where values are separated by commas
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html
 	:og:locale: en
 
 
-CSV
----
+Comma Secparated Values (CSV)
+-----------------------------
 
 CSV is a data format, where values are separated by commas. 
 
@@ -29,4 +29,4 @@ CSV is not fully standardized : it represents in fact several format, with diffe
 
 `Documentation <https://en.wikipedia.org/wiki/Comma-separated_values>`__
 
-Related : :ref:`Data <data>`, :ref:`Format <format>`, :ref:`JSON <json>`
+Related : :ref:`Data <data>`, :ref:`Format <format>`, :ref:`JavaScript Object Notation (JSON) <json>`

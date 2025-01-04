@@ -1,23 +1,23 @@
 .. _yaml:
 .. meta::
 	:description:
-		YAML: ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format.
+		YAML Ain't Markup Language (YAML): ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: YAML
-	:twitter:description: YAML: ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format
+	:twitter:title: YAML Ain't Markup Language (YAML)
+	:twitter:description: YAML Ain't Markup Language (YAML): ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: YAML
+	:og:title: YAML Ain't Markup Language (YAML)
 	:og:type: article
 	:og:description: ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/yaml.ini.html
 	:og:locale: en
 
 
-YAML
-----
+YAML Ain't Markup Language (YAML)
+---------------------------------
 
 ``YAML``, which stands for ``YAML Ain't Markup Language`` (a playful recursive acronym), is a human-readable data serialization format. It is often used for configuration files, data exchange between languages with different data structures, and general-purpose data storage. YAML is designed to be easy for humans to read and write while also being easy for machines to parse and generate.
 

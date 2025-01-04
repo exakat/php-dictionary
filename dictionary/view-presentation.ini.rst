@@ -26,4 +26,4 @@ Views are also synonym of renderer or template.
 
 
 
-Related : :ref:`MVC <mvc>`, :ref:`Template <template>`
+Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Template <template>`

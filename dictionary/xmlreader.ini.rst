@@ -60,6 +60,6 @@ The ``XMLReader`` extension is an XML Pull parser. The reader acts as a cursor g
 
 See also `PHP: Reading XML with XMLReader <https://www.youtube.com/watch?v=xBuBjyLAxOI>`_
 
-Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XML <xml>`
+Related : :ref:`XMLwriter <xmlwriter>`, :ref:`Extensible Markup Language (XML) <xml>`
 
 Added in PHP 5.0+

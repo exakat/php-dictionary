@@ -29,4 +29,4 @@ RFC is often a short for PHP rfc.
 
 `Documentation <https://en.wikipedia.org/wiki/Request_for_Comments>`__
 
-Related : :ref:`PHP RFC <php-rfc>`, :ref:`Request For Change <rfchange>`
+Related : :ref:`PHP RFC <php-rfc>`, :ref:`Request For Change (RFC) <rfchange>`

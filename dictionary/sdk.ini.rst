@@ -1,23 +1,23 @@
 .. _sdk:
 .. meta::
 	:description:
-		Software Development Kit: SDK stands for Software Development Kit.
+		Software Development Kit (SDK): SDK stands for Software Development Kit.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Software Development Kit
-	:twitter:description: Software Development Kit: SDK stands for Software Development Kit
+	:twitter:title: Software Development Kit (SDK)
+	:twitter:description: Software Development Kit (SDK): SDK stands for Software Development Kit
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Software Development Kit
+	:og:title: Software Development Kit (SDK)
 	:og:type: article
 	:og:description: SDK stands for Software Development Kit
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sdk.ini.html
 	:og:locale: en
 
 
-Software Development Kit
-------------------------
+Software Development Kit (SDK)
+------------------------------
 
 SDK stands for Software Development Kit. It is a set of tools, libraries, documentation, and resources that developers use to create software applications for specific platforms, frameworks, or programming languages. SDKs provide a structured way for developers to access and utilize the features and capabilities of a particular software platform or service.
 

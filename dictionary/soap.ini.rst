@@ -1,23 +1,23 @@
 .. _soap:
 .. meta::
 	:description:
-		SOAP: SOAP is an acronym for Simple Object Access Protocol.
+		Simple Object Access Protocol (SOAP): SOAP is an acronym for Simple Object Access Protocol.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: SOAP
-	:twitter:description: SOAP: SOAP is an acronym for Simple Object Access Protocol
+	:twitter:title: Simple Object Access Protocol (SOAP)
+	:twitter:description: Simple Object Access Protocol (SOAP): SOAP is an acronym for Simple Object Access Protocol
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: SOAP
+	:og:title: Simple Object Access Protocol (SOAP)
 	:og:type: article
 	:og:description: SOAP is an acronym for Simple Object Access Protocol
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/soap.ini.html
 	:og:locale: en
 
 
-SOAP
-----
+Simple Object Access Protocol (SOAP)
+------------------------------------
 
 SOAP is an acronym for Simple Object Access Protocol. It is a messaging protocol to exchange structure data, based on XML.
 

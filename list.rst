@@ -316,6 +316,8 @@ Index
    dictionary/fpm.ini
    dictionary/framework.ini
    dictionary/frontend.ini
+   dictionary/ftp.ini
+   dictionary/ftps.ini
    dictionary/fully-qualified-name.ini
    dictionary/function-subscripting.ini
    dictionary/function.ini
@@ -380,6 +382,7 @@ Index
    dictionary/infinite.ini
    dictionary/inflector.ini
    dictionary/inheritance.ini
+   dictionary/inherited-variable.ini
    dictionary/initialisation.ini
    dictionary/injection.ini
    dictionary/instance.ini

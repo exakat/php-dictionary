@@ -3,31 +3,62 @@ Thesaurus
 Acronym
 -------
 
-+ :ref:`Abstract Syntactic Tree <ast>`
-+ :ref:`Application Performance Management <apm>`
-+ :ref:`CGI <cgi>`
-+ :ref:`CRUD <crud>`
-+ :ref:`Command Line Interface <cli>`
++ :ref:`Abstract Syntactic Tree (AST) <ast>`
++ :ref:`Application Performance Management (APM) <apm>`
++ :ref:`Client URL (CURL) <curl>`
++ :ref:`Comma Secparated Values (CSV) <csv>`
++ :ref:`Command Line Interface (CLI) <cli>`
++ :ref:`Common Interface Gateway (CGI) <cgi>`
++ :ref:`Concurent Version System (CVS) <cvs>`
++ :ref:`Create, Read, Update and Delete (CRUD) <crud>`
 + :ref:`DTO <dto>`
++ :ref:`Data Source Name (DSN) <dsn>`
++ :ref:`Database Abstraction Layer (DBAL) <dbal>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf>`
++ :ref:`Domain Design Driven (DDD) <ddd>`
++ :ref:`Don't Repeat Yourself (DRY) <dry>`
++ :ref:`Extensible Markup Language (XML) <xml>`
 + :ref:`FastCGI <fastcgi>`
-+ :ref:`HTTPS <https>`
++ :ref:`File Transfert Protocol (FTP) <ftp>`
++ :ref:`File Transfert Protocol Secure (FTPS) <ftps>`
++ :ref:`Foreign Function Interface (FFI) <ffi>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
-+ :ref:`JSON <json>`
-+ :ref:`Just In Time <jit>`
-+ :ref:`MVC <mvc>`
++ :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
++ :ref:`Interface Segregation Principle (ISP) <isp>`
++ :ref:`JavaScript Object Notation (JSON) <json>`
++ :ref:`Just In Time (JIT) <jit>`
++ :ref:`Liskov Substitution Principle (LSP) <lsp>`
++ :ref:`Message Digest Algorithm 5 (MD5) <md5>`
++ :ref:`Model - View - Controller (MVC) <mvc>`
++ :ref:`Object Relational Mapping (ORM) <orm>`
++ :ref:`Open Closed Principle (OCP) <ocp>`
 + :ref:`PEAR <pear>`
++ :ref:`PHP Data Objects (PDO) <pdo>`
++ :ref:`PHP Extension C Library (PECL) <pecl>`
++ :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
-+ :ref:`PHP-FPM <fpm>`
++ :ref:`PHP-FPM (FPM) <fpm>`
 + :ref:`RFC <rfc>`
-+ :ref:`Request For Change <rfchange>`
-+ :ref:`Reserved For Future Use <rfu>`
-+ :ref:`SAPI <sapi>`
++ :ref:`Remote Procedure Call (RPC) <rpc>`
++ :ref:`Request For Change (RFC) <rfchange>`
++ :ref:`Reserved For Future Use (RFU) <rfu>`
++ :ref:`Server Application Programming Interface (SAPI) <sapi>`
++ :ref:`Simple Object Access Protocol (SOAP) <soap>`
++ :ref:`Single Page Application (SPA) <spa>`
++ :ref:`Single Responsability Principle (SRP) <srp>`
++ :ref:`Single Sign On (SSO) <sso>`
++ :ref:`Software Development Kit (SDK) <sdk>`
++ :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
-+ :ref:`Value Object <vo>`
-+ :ref:`YAML <yaml>`
++ :ref:`Universally Unique IDentifier (UUID) <uuid>`
++ :ref:`User Operations for Zend (UOPZ) <uopz>`
++ :ref:`Value Object (VO) <vo>`
++ :ref:`YAML Ain't Markup Language (YAML) <yaml>`
++ :ref:`Yoda Condition <yoda>`
++ :ref:`ransport Layer Security (TLS) <tls>`
 
 Attribute
 ---------
@@ -75,7 +106,7 @@ Concept
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
-+ :ref:`Domain Design Driven <ddd>`
++ :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
@@ -94,7 +125,7 @@ Concept
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
-+ :ref:`Liskov Substitution Principle <lsp>`
++ :ref:`Liskov Substitution Principle (LSP) <lsp>`
 + :ref:`Loops <loop>`
 + :ref:`Magic Numbers <magic-number>`
 + :ref:`Module <module>`
@@ -116,16 +147,16 @@ Concept
 + :ref:`SOLID <solid>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
-+ :ref:`Single Responsability Principle <srp>`
-+ :ref:`Software Development Kit <sdk>`
++ :ref:`Single Responsability Principle (SRP) <srp>`
++ :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text Encoding <encoding-text>`
 + :ref:`Traversal <traversal>`
-+ :ref:`UUID <uuid>`
 + :ref:`Underflow <underflow>`
++ :ref:`Universally Unique IDentifier (UUID) <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`
 + :ref:`Validation <validation>`

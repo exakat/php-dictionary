@@ -1,23 +1,23 @@
 .. _apm:
 .. meta::
 	:description:
-		Application Performance Management: APM stands for Application Performance Management.
+		Application Performance Management (APM): APM stands for Application Performance Management.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Application Performance Management
-	:twitter:description: Application Performance Management: APM stands for Application Performance Management
+	:twitter:title: Application Performance Management (APM)
+	:twitter:description: Application Performance Management (APM): APM stands for Application Performance Management
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Application Performance Management
+	:og:title: Application Performance Management (APM)
 	:og:type: article
 	:og:description: APM stands for Application Performance Management
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/apm.ini.html
 	:og:locale: en
 
 
-Application Performance Management
-----------------------------------
+Application Performance Management (APM)
+----------------------------------------
 
 APM stands for Application Performance Management. An APM monitors various performance metrics, such as CPU, memory usage, logs. 
 

@@ -46,6 +46,6 @@ The SimpleXML extension provides a very simple and easily usable toolset to conv
 
 `Documentation <https://www.php.net/manual/en/book.simplexml.php>`__
 
-Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`XML <xml>`, :ref:`Unicode <unicode>`
+Related : :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Unicode <unicode>`
 
 Added in PHP 5.0+

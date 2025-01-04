@@ -1,22 +1,22 @@
 .. _object-type:
 .. meta::
 	:description:
-		object type: ``object`` is a PHP type, which represent an object of any class, including anonymous class.
+		Object Type: ``object`` is a PHP type, which represent an object of any class, including anonymous class.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: object type
-	:twitter:description: object type: ``object`` is a PHP type, which represent an object of any class, including anonymous class
+	:twitter:title: Object Type
+	:twitter:description: Object Type: ``object`` is a PHP type, which represent an object of any class, including anonymous class
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: object type
+	:og:title: Object Type
 	:og:type: article
 	:og:description: ``object`` is a PHP type, which represent an object of any class, including anonymous class
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object-type.ini.html
 	:og:locale: en
 
 
-object type
+Object Type
 -----------
 
 ``object`` is a PHP type, which represent an object of any class, including anonymous class. 

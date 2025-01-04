@@ -1,23 +1,23 @@
 .. _xml:
 .. meta::
 	:description:
-		XML: XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.
+		Extensible Markup Language (XML): XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: XML
-	:twitter:description: XML: XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use
+	:twitter:title: Extensible Markup Language (XML)
+	:twitter:description: Extensible Markup Language (XML): XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: XML
+	:og:title: Extensible Markup Language (XML)
 	:og:type: article
 	:og:description: XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html
 	:og:locale: en
 
 
-XML
----
+Extensible Markup Language (XML)
+--------------------------------
 
 XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use.
 

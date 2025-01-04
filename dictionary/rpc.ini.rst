@@ -1,23 +1,23 @@
 .. _rpc:
 .. meta::
 	:description:
-		Remote Procedure Call: RPC is an acronym for Remote Procedure Call.
+		Remote Procedure Call (RPC): RPC is an acronym for Remote Procedure Call.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Remote Procedure Call
-	:twitter:description: Remote Procedure Call: RPC is an acronym for Remote Procedure Call
+	:twitter:title: Remote Procedure Call (RPC)
+	:twitter:description: Remote Procedure Call (RPC): RPC is an acronym for Remote Procedure Call
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Remote Procedure Call
+	:og:title: Remote Procedure Call (RPC)
 	:og:type: article
 	:og:description: RPC is an acronym for Remote Procedure Call
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/rpc.ini.html
 	:og:locale: en
 
 
-Remote Procedure Call
----------------------
+Remote Procedure Call (RPC)
+---------------------------
 
 RPC is an acronym for Remote Procedure Call. This happens when the program delegate the execution of a piece of code to a separate server.
 

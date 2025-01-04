@@ -34,4 +34,4 @@ PHP is able to run in server mode. In command line, use the ``-S`` option.
 
 See also `Built-in web server <https://www.php.net/manual/en/features.commandline.webserver.php>`_, `Installation and Configuration <https://www.php.net/manual/en/install.php>`_
 
-Related : :ref:`Command Line Interface <cli>`
+Related : :ref:`Command Line Interface (CLI) <cli>`

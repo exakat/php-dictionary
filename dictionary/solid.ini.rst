@@ -35,4 +35,4 @@ Each principle may be used independently. Those principles are not dedicated to 
 
 See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_, `SOLID principles in PHP <https://dev.to/devlinaung/solid-principles-in-php-363j>`_
 
-Related : :ref:`Single Responsability Principle <srp>`, :ref:`Open Closed Principle <ocp>`, :ref:`Liskov Substitution Principle <lsp>`, :ref:`Interface Segregation Principle <isp>`, :ref:`Dependency Injection <dip>`
+Related : :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Open Closed Principle (OCP) <ocp>`, :ref:`Liskov Substitution Principle (LSP) <lsp>`, :ref:`Interface Segregation Principle (ISP) <isp>`, :ref:`Dependency Injection <dip>`
