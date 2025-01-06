@@ -11,8 +11,8 @@ Acronym
 + :ref:`Common Interface Gateway (CGI) <cgi>`
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Create, Read, Update and Delete (CRUD) <crud>`
-+ :ref:`DTO <dto>`
 + :ref:`Data Source Name (DSN) <dsn>`
++ :ref:`Data Transfer Object (DTO) <dto>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
@@ -54,7 +54,7 @@ Acronym
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
-+ :ref:`User Operations for Zend (UOPZ) <uopz>`
++ :ref:`User Operations For Zend (UOPZ) <uopz>`
 + :ref:`Value Object (VO) <vo>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
 + :ref:`Yoda Condition <yoda>`
@@ -248,6 +248,7 @@ Keyword
 + :ref:`Switch <switch>`
 + :ref:`Switch Case <switch-case>`
 + :ref:`Switch Default <switch-default>`
++ :ref:`Traits <trait>`
 + :ref:`Try-catch <try-catch>`
 + :ref:`Use <use>`
 + :ref:`Var <var>`

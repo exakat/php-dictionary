@@ -94,7 +94,7 @@ reading sources... [ 11%] dictionary/best-practice.ini
 reading sources... [ 11%] dictionary/binary-integer.ini
 reading sources... [ 11%] dictionary/binary-operator.ini
 reading sources... [ 11%] dictionary/binary.ini
-reading sources... [ 11%] dictionary/bitshit-operator.ini
+reading sources... [ 11%] dictionary/bitshift-operator.ini
 reading sources... [ 11%] dictionary/bitwise-operator.ini
 reading sources... [ 11%] dictionary/blind-key.ini
 reading sources... [ 11%] dictionary/block.ini
@@ -924,7 +924,7 @@ writing output... [ 11%] dictionary/best-practice.ini
 writing output... [ 11%] dictionary/binary-integer.ini
 writing output... [ 11%] dictionary/binary-operator.ini
 writing output... [ 11%] dictionary/binary.ini
-writing output... [ 11%] dictionary/bitshit-operator.ini
+writing output... [ 11%] dictionary/bitshift-operator.ini
 writing output... [ 11%] dictionary/bitwise-operator.ini
 writing output... [ 11%] dictionary/blind-key.ini
 writing output... [ 11%] dictionary/block.ini

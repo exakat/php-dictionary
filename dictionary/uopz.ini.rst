@@ -1,22 +1,22 @@
 .. _uopz:
 .. meta::
 	:description:
-		User Operations for Zend (UOPZ): The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM.
+		User Operations For Zend (UOPZ): The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: User Operations for Zend (UOPZ)
-	:twitter:description: User Operations for Zend (UOPZ): The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM
+	:twitter:title: User Operations For Zend (UOPZ)
+	:twitter:description: User Operations For Zend (UOPZ): The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: User Operations for Zend (UOPZ)
+	:og:title: User Operations For Zend (UOPZ)
 	:og:type: article
 	:og:description: The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/uopz.ini.html
 	:og:locale: en
 
 
-User Operations for Zend (UOPZ)
+User Operations For Zend (UOPZ)
 -------------------------------
 
 The uopz - User Operations for Zend - extension exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM.

@@ -1,4 +1,5 @@
 .. _bitshift:
+.. _bitshift-operator:
 .. meta::
 	:description:
 		Bitshift Operators: Bitshift operators ``<<`` and ``>>`` move bits within an integer.
@@ -19,7 +20,7 @@
 Bitshift Operators
 ------------------
 
-Bitshift operators ``<<`` and ``>>`` move bits within an integer. The bits are shifted by an number of position, to the right or to the left. They are equivalent to multiplying or dividing by a power of 2. 
+Bitshift operators ``<<`` and ``>>`` move bits within an integer. The bits are shifted by an number of position, to the right or to the left. They are equivalent to multiplying or dividing by a power of 2.
 
 .. code-block:: php
    

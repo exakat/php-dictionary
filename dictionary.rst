@@ -204,12 +204,12 @@ PHP Dictionary
    * :ref:`crc32 <crc32>`
 * D
    * :ref:`DOM <domxml>`
-   * :ref:`DTO <dto>`
    * :ref:`Dangling Reference <dangling-reference>`
    * :ref:`Data <data>`
    * :ref:`Data Container <data-container>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
+   * :ref:`Data Transfer Object (DTO) <dto>`
    * :ref:`Database <database>`
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
@@ -796,7 +796,7 @@ PHP Dictionary
    * :ref:`Upgrade <upgrade>`
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
-   * :ref:`User Operations for Zend (UOPZ) <uopz>`
+   * :ref:`User Operations For Zend (UOPZ) <uopz>`
    * :ref:`Userland <userland>`
    * :ref:`unset() <unset>`
 * V

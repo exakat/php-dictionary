@@ -1,25 +1,25 @@
 .. _dto:
 .. meta::
 	:description:
-		DTO: DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture.
+		Data Transfer Object (DTO): DTO stands for Data Transfer Object: it is an object that carries data between methods and different part of the architecture.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: DTO
-	:twitter:description: DTO: DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture
+	:twitter:title: Data Transfer Object (DTO)
+	:twitter:description: Data Transfer Object (DTO): DTO stands for Data Transfer Object: it is an object that carries data between methods and different part of the architecture
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: DTO
+	:og:title: Data Transfer Object (DTO)
 	:og:type: article
-	:og:description: DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture
+	:og:description: DTO stands for Data Transfer Object: it is an object that carries data between methods and different part of the architecture
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dto.ini.html
 	:og:locale: en
 
 
-DTO
----
+Data Transfer Object (DTO)
+--------------------------
 
-DTO stands for Data Transfer Object : it is an object that carries data between methods and different part of the architecture. 
+DTO stands for Data Transfer Object: it is an object that carries data between methods and different part of the architecture. 
 
 DTO is a class, with only properties. It replaces advantageously arrays. It may be used for typing, and do not hold methods.
 

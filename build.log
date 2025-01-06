@@ -426,7 +426,6 @@ Missing target related link for absolute-value in ./human/en/Features/absolute.i
 ./human/en/Features/accessibility.ini has empty tags section
 ./human/en/Features/alternative-syntax.ini has empty tags section
 ./human/en/Features/annotation.ini has empty tags section
-./human/en/Features/anonymous-class.ini has empty tags section
 ./human/en/Features/append.ini has empty tags section
 ./human/en/Features/arbitrary-argument.ini has empty tags section
 ./human/en/Features/archive.ini has empty tags section
@@ -462,6 +461,8 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/child-class.ini has empty tags section
 ./human/en/Features/class-constant.ini has empty tags section
 ./human/en/Features/class-invasion.ini has empty tags section
+Missing target related link for structure in ./human/en/Features/class.ini
+Missing target related link for cite in ./human/en/Features/class.ini
 ./human/en/Features/class_alias.ini has empty tags section
 ./human/en/Features/clean-architecture.ini has empty tags section
 ./human/en/Features/clean-code.ini has empty tags section
@@ -695,7 +696,6 @@ Missing target related link for allowdynamicproperty in ./human/en/Features/php-
 ./human/en/Features/second-order-sql-injection.ini has empty tags section
 ./human/en/Features/security.ini has empty tags section
 ./human/en/Features/semantics.ini has empty tags section
-./human/en/Features/serialization.ini has empty tags section
 ./human/en/Features/session.ini has empty tags section
 ./human/en/Features/shared-memory.ini has empty tags section
 ./human/en/Features/shell.ini has empty tags section
@@ -740,7 +740,6 @@ phpErrors[0] does not exists in ./human/en/Features/strict_types.ini
 ./human/en/Features/three-dots.ini has empty tags section
 ./human/en/Features/throw.ini has empty tags section
 ./human/en/Features/throwable.ini has empty tags section
-./human/en/Features/trait.ini has empty tags section
 ./human/en/Features/transpile.ini has empty tags section
 ./human/en/Features/truthy.ini has empty tags section
 ./human/en/Features/type-contravariance.ini has empty tags section
@@ -749,8 +748,6 @@ phpErrors[0] does not exists in ./human/en/Features/strict_types.ini
 ./human/en/Features/type.ini has empty tags section
 ./human/en/Features/undefined.ini has empty tags section
 ./human/en/Features/unexpectedvalueexception.ini has empty tags section
-./human/en/Features/unserialize.ini has empty tags section
-User Operations for Zend (UOPZ) has a wrong format (missing capitals) in file ./human/en/Features/uopz.ini
 ./human/en/Features/upgrade.ini has empty tags section
 ./human/en/Features/use-alias.ini has empty tags section
 ./human/en/Features/variable-scope.ini has empty tags section

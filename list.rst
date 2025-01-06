@@ -93,7 +93,7 @@ Index
    dictionary/binary-integer.ini
    dictionary/binary-operator.ini
    dictionary/binary.ini
-   dictionary/bitshit-operator.ini
+   dictionary/bitshift-operator.ini
    dictionary/bitwise-operator.ini
    dictionary/blind-key.ini
    dictionary/block.ini
