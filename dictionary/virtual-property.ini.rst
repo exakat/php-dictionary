@@ -38,4 +38,8 @@ A virtual property is a class property, whose property hooks don't use the value
    ?>
 
 
+`Documentation <https://www.php.net/manual/en/language.oop5.property-hooks.php>`__
+
+See also https://geekytomato.com/php-8-4-property-hooks-virtual-properties-and-potential-issues/
+
 Added in PHP 8.4+

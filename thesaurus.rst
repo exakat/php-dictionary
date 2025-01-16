@@ -10,7 +10,7 @@ Acronym
 + :ref:`Command Line Interface (CLI) <cli>`
 + :ref:`Common Interface Gateway (CGI) <cgi>`
 + :ref:`Concurent Version System (CVS) <cvs>`
-+ :ref:`Create, Read, Update and Delete (CRUD) <crud>`
++ :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 + :ref:`Data Source Name (DSN) <dsn>`
 + :ref:`Data Transfer Object (DTO) <dto>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
@@ -39,6 +39,7 @@ Acronym
 + :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`PHP-FPM (FPM) <fpm>`
++ :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`RFC <rfc>`
 + :ref:`Remote Procedure Call (RPC) <rpc>`
 + :ref:`Request For Change (RFC) <rfchange>`
@@ -302,14 +303,14 @@ Magic method
 + :ref:`__clone() Method <-__clone>`
 + :ref:`__get() Method <-__get>`
 + :ref:`__invoke() Method <-__invoke>`
-+ :ref:`__isset() method <-__isset>`
++ :ref:`__isset() Method <-__isset>`
 + :ref:`__serialize() method <-__serialize>`
 + :ref:`__set() method <-__set>`
-+ :ref:`__set_state() method <-__set_state>`
-+ :ref:`__sleep() method <-__sleep>`
++ :ref:`__set_state() Method <-__set_state>`
++ :ref:`__sleep() Method <-__sleep>`
 + :ref:`__toString() Method <-__tostring>`
-+ :ref:`__unserialize() method <-__unserialize>`
-+ :ref:`__wakeup() method <-__wakeup>`
++ :ref:`__unserialize() Method <-__unserialize>`
++ :ref:`__wakeup() Method <-__wakeup>`
 
 Bug
 ---

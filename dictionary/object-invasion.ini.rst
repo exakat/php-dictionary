@@ -53,6 +53,6 @@ This feature break OOP encapsulation : even when using private visibility, it is
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`__
 
-Related : :ref:`__set_state() method <-__set_state>`
+Related : :ref:`__set_state() Method <-__set_state>`
 
 Related packages : `spatie/invade <https://packagist.org/packages/spatie/invade>`_

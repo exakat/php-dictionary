@@ -59,6 +59,6 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `Understanding Serialisation in PHP <https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php>`_, `ProtoBuf in PHP for ultra-efficient and agnostic serialization <https://blog.lepine.pro/en/protobuf-php-go/>`_
 
-Related : :ref:`__serialize() method <-__serialize>`, :ref:`__unserialize() method <-__unserialize>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`
+Related : :ref:`__serialize() method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`
 
 Related packages : `google/protobuf <https://packagist.org/packages/google/protobuf>`_

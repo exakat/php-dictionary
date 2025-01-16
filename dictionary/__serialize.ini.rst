@@ -52,4 +52,4 @@ If no array is returned a ``TypeError`` will be thrown.
 
 See also `Serializing Data In PHP <https://www.phparch.com/2023/02/serializing-data-in-php/>`_
 
-Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize() method <-__unserialize>`, :ref:`Serialization <serialization>`, :ref:`Serialization <serialize>`, :ref:`Unserialization <unserialization>`
+Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Serialization <serialization>`, :ref:`Serialization <serialize>`, :ref:`Unserialization <unserialization>`

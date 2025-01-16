@@ -24,14 +24,14 @@ PHP Dictionary
    * :ref:`__get() Method <-__get>`
    * :ref:`__halt_compiler() <halt-compiler>`
    * :ref:`__invoke() Method <-__invoke>`
-   * :ref:`__isset() method <-__isset>`
+   * :ref:`__isset() Method <-__isset>`
    * :ref:`__serialize() method <-__serialize>`
    * :ref:`__set() method <-__set>`
-   * :ref:`__set_state() method <-__set_state>`
-   * :ref:`__sleep() method <-__sleep>`
+   * :ref:`__set_state() Method <-__set_state>`
+   * :ref:`__sleep() Method <-__sleep>`
    * :ref:`__toString() Method <-__tostring>`
-   * :ref:`__unserialize() method <-__unserialize>`
-   * :ref:`__wakeup() method <-__wakeup>`
+   * :ref:`__unserialize() Method <-__unserialize>`
+   * :ref:`__wakeup() Method <-__wakeup>`
 * A
    * :ref:`Absolute <absolute>`
    * :ref:`Abstract Class <abstract-class>`
@@ -83,12 +83,14 @@ PHP Dictionary
    * :ref:`Attributes <attribute>`
    * :ref:`Authenticate <authenticate>`
    * :ref:`Authorize <authorize>`
+   * :ref:`Automagic <automagic>`
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
 * B
    * :ref:`Backed Enumeration <enum-backed>`
    * :ref:`Backend <backend>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
+   * :ref:`Base 64 Encoding <base64>`
    * :ref:`Batch <batch>`
    * :ref:`Bcmath <bcmath>`
    * :ref:`Benchmarking <benchmarking>`
@@ -191,7 +193,7 @@ PHP Dictionary
    * :ref:`Countable Interface <countable>`
    * :ref:`Coupling <coupling>`
    * :ref:`Covariance <type-covariance>`
-   * :ref:`Create, Read, Update and Delete (CRUD) <crud>`
+   * :ref:`Create, Read, Update And Delete (CRUD) <crud>`
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
    * :ref:`Ctype <ctype>`
@@ -267,6 +269,7 @@ PHP Dictionary
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
    * :ref:`Echo Tag <echo-tag>`
+   * :ref:`Elephpant <elephpant>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Email <email>`
    * :ref:`Empty <empty>`
@@ -411,6 +414,7 @@ PHP Dictionary
    * :ref:`instance <instance>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
+   * :ref:`is_a() <is_a>`
    * :ref:`is_object() <is_object>`
 * J
    * :ref:`JavaScript Object Notation (JSON) <json>`
@@ -429,7 +433,7 @@ PHP Dictionary
    * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
-   * :ref:`Lexical variable <lexical-variable>`
+   * :ref:`Lexical Variable <lexical-variable>`
    * :ref:`Linting <linting>`
    * :ref:`Liskov Substitution Principle (LSP) <lsp>`
    * :ref:`List <list>`
@@ -571,6 +575,7 @@ PHP Dictionary
    * :ref:`Password <password>`
    * :ref:`Password API <password-ext>`
    * :ref:`Path <path>`
+   * :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
    * :ref:`Permission <permission>`
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
@@ -779,6 +784,7 @@ PHP Dictionary
    * :ref:`toctou : Time Of Check To Time Of Use <toctou>`
 * U
    * :ref:`UTF-8 <utf8>`
+   * :ref:`UUencode Encoding <uuencode>`
    * :ref:`Unary Operator <unary>`
    * :ref:`Undefined <undefined>`
    * :ref:`Underflow <underflow>`

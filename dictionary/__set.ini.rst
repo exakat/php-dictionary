@@ -51,4 +51,4 @@ The __set() method is usually paired with the __get() method.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-Related : :ref:`Magic Methods <magicmethod>`, :ref:`__get() Method <-__get>`, :ref:`__isset() method <-__isset>`, :ref:`Magic Constants <magic-constant>`
+Related : :ref:`Magic Methods <magicmethod>`, :ref:`__get() Method <-__get>`, :ref:`__isset() Method <-__isset>`, :ref:`Magic Constants <magic-constant>`

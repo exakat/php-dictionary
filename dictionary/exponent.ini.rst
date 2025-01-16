@@ -1,6 +1,7 @@
 .. _exponent:
 .. _**:
 .. _power:
+.. _exponentiation:
 .. meta::
 	:description:
 		Exponent: Exponent is the mathematical operation to raise a number to the power of another number.

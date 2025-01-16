@@ -44,4 +44,4 @@ isset() is a function that determines if a variable is declared and is different
 
 See also `isset vs empty vs is_null <https://phppot.com/php/isset-vs-empty-vs-is_null/>`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__isset() method <-__isset>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__isset() Method <-__isset>`

@@ -36,4 +36,6 @@ $argv is not a super global : it has to be imported in a non-global scope with t
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.argv.php>`__
 
-Related : :ref:`$argc <$argc>`
+See also https://code.tutsplus.com/get-command-line-arguments-with-php-argv-or-getopt--cms-39201t
+
+Related : :ref:`$argc <$argc>`, :ref:`PHP Variables <php-variable>`

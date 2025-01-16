@@ -7,7 +7,6 @@ Empty seeAlso for ./human/en/Features/$_post.ini
 Empty seeAlso for ./human/en/Features/$_request.ini
 Empty seeAlso for ./human/en/Features/$_server.ini
 Empty seeAlso for ./human/en/Features/$argc.ini
-Empty seeAlso for ./human/en/Features/$argv.ini
 Empty seeAlso for ./human/en/Features/$php_errormsg.ini
 Empty seeAlso for ./human/en/Features/__isset.ini
 Empty seeAlso for ./human/en/Features/__set.ini
@@ -27,7 +26,6 @@ Empty seeAlso for ./human/en/Features/argumentcounterror.ini
 Empty seeAlso for ./human/en/Features/arithmeticerror.ini
 Empty seeAlso for ./human/en/Features/arm.ini
 Empty seeAlso for ./human/en/Features/array-syntax.ini
-Empty seeAlso for ./human/en/Features/array.ini
 Empty seeAlso for ./human/en/Features/arrayaccess.ini
 Empty seeAlso for ./human/en/Features/artifact.ini
 Empty seeAlso for ./human/en/Features/as.ini
@@ -38,6 +36,7 @@ Empty seeAlso for ./human/en/Features/ast.ini
 Empty seeAlso for ./human/en/Features/asymmetric-property.ini
 Empty seeAlso for ./human/en/Features/authenticate.ini
 Empty seeAlso for ./human/en/Features/authorize.ini
+Empty seeAlso for ./human/en/Features/automagic.ini
 Empty seeAlso for ./human/en/Features/backend.ini
 Empty seeAlso for ./human/en/Features/badfunctioncallexception.ini
 Empty seeAlso for ./human/en/Features/basename.ini
@@ -220,6 +219,7 @@ Empty seeAlso for ./human/en/Features/invalidargumentexception.ini
 Empty seeAlso for ./human/en/Features/inventory.ini
 Empty seeAlso for ./human/en/Features/invoke.ini
 Empty seeAlso for ./human/en/Features/ip.ini
+Empty seeAlso for ./human/en/Features/is_a.ini
 Empty seeAlso for ./human/en/Features/is_object.ini
 Empty seeAlso for ./human/en/Features/iterable.ini
 Empty seeAlso for ./human/en/Features/jobqueue.ini
@@ -413,15 +413,9 @@ Empty seeAlso for ./human/en/Features/view-presentation.ini
 Empty seeAlso for ./human/en/Features/view-sql.ini
 Empty seeAlso for ./human/en/Features/view.ini
 Empty seeAlso for ./human/en/Features/virtual-machine.ini
-Empty seeAlso for ./human/en/Features/virtual-property.ini
 Empty seeAlso for ./human/en/Features/writable.ini
-__isset() method has a wrong format (missing capitals) in file ./human/en/Features/__isset.ini
 __serialize() method has a wrong format (missing capitals) in file ./human/en/Features/__serialize.ini
 __set() method has a wrong format (missing capitals) in file ./human/en/Features/__set.ini
-__set_state() method has a wrong format (missing capitals) in file ./human/en/Features/__set_state.ini
-__sleep() method has a wrong format (missing capitals) in file ./human/en/Features/__sleep.ini
-__unserialize() method has a wrong format (missing capitals) in file ./human/en/Features/__unserialize.ini
-__wakeup() method has a wrong format (missing capitals) in file ./human/en/Features/__wakeup.ini
 Missing target related link for absolute-value in ./human/en/Features/absolute.ini
 ./human/en/Features/accessibility.ini has empty tags section
 ./human/en/Features/alternative-syntax.ini has empty tags section
@@ -445,6 +439,7 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/autoload.ini has empty tags section
 ./human/en/Features/autowiring.ini has empty tags section
 ./human/en/Features/backend.ini has empty tags section
+./human/en/Features/base64.ini has empty tags section
 ./human/en/Features/basename.ini has empty tags section
 ./human/en/Features/batch.ini has empty tags section
 ./human/en/Features/blind-key.ini has empty tags section
@@ -481,7 +476,6 @@ Missing target related link for cite in ./human/en/Features/class.ini
 ./human/en/Features/concrete.ini has empty tags section
 ./human/en/Features/configuration.ini has empty tags section
 ./human/en/Features/const.ini has empty tags section
-./human/en/Features/constant-in-trait.ini has empty tags section
 ./human/en/Features/constant.ini has empty tags section
 ./human/en/Features/continue.ini has empty tags section
 ./human/en/Features/control-flow.ini has empty tags section
@@ -490,7 +484,6 @@ Missing target related link for cite in ./human/en/Features/class.ini
 ./human/en/Features/core.ini is missing seeAlso
 ./human/en/Features/coroutine.ini has empty tags section
 ./human/en/Features/crc32.ini has empty tags section
-Create, Read, Update and Delete (CRUD) has a wrong format (missing capitals) in file ./human/en/Features/crud.ini
 ./human/en/Features/cryptography.ini has empty tags section
 ./human/en/Features/custom.ini has empty tags section
 ./human/en/Features/data-container.ini has empty tags section
@@ -498,8 +491,6 @@ Create, Read, Update and Delete (CRUD) has a wrong format (missing capitals) in 
 ./human/en/Features/dead-code.ini has empty tags section
 ./human/en/Features/debugger.ini has empty tags section
 ./human/en/Features/deep-clone.ini has empty tags section
-./human/en/Features/define.ini has empty tags section
-./human/en/Features/defined.ini has empty tags section
 ./human/en/Features/definition.ini has empty tags section
 ./human/en/Features/dependency-injection-container.ini has empty tags section
 ./human/en/Features/dictionary.ini has empty tags section
@@ -561,7 +552,6 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/http-header.ini has empty tags section
 ./human/en/Features/iconv.ini has empty tags section
 ./human/en/Features/identifier.ini has empty tags section
-./human/en/Features/iffectation.ini has empty tags section
 ./human/en/Features/imagickexception.ini has empty tags section
 ./human/en/Features/implements.ini has empty tags section
 ./human/en/Features/import.ini has empty tags section
@@ -577,13 +567,11 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/intl.ini has empty tags section
 ./human/en/Features/invoke.ini has empty tags section
 ./human/en/Features/ip.ini has empty tags section
+./human/en/Features/is_a.ini has empty tags section
 ./human/en/Features/is_object.ini has empty tags section
-Missing target related link for is_a in ./human/en/Features/is_object.ini
 ./human/en/Features/keyword.ini has empty tags section
 ./human/en/Features/language-construct.ini has empty tags section
 ./human/en/Features/lazy-objects.ini has empty tags section
-Lexical variable has a wrong format (missing capitals) in file ./human/en/Features/lexical.ini
-./human/en/Features/lexical.ini has empty tags section
 ./human/en/Features/lint-wont-execute.ini has empty code for PHP. 
 ./human/en/Features/lint-wont-execute.ini has no description. Omitting. 
 ./human/en/Features/literal-types.ini has empty tags section
@@ -634,7 +622,6 @@ Lexical variable has a wrong format (missing capitals) in file ./human/en/Featur
 ./human/en/Features/outgoing-data.ini has empty tags section
 ./human/en/Features/overengineer.ini has empty tags section
 ./human/en/Features/overflow.ini has empty tags section
-phpErrors[0] does not exists in ./human/en/Features/override.ini
 ./human/en/Features/overwrite.ini has empty tags section
 ./human/en/Features/packagist.ini has empty tags section
 ./human/en/Features/paralell.ini has empty tags section
@@ -650,11 +637,9 @@ phpErrors[0] does not exists in ./human/en/Features/override.ini
 ./human/en/Features/php-extension.ini has empty tags section
 ./human/en/Features/php-native-attribute.ini has empty tags section
 ./human/en/Features/php-native-attribute.ini last char is not a .
-Missing target related link for allowdynamicproperty in ./human/en/Features/php-native-attribute.ini
 ./human/en/Features/php-tag.ini has empty tags section
 ./human/en/Features/php-variable.ini has empty tags section
 ./human/en/Features/php.ini has empty tags section
-./human/en/Features/pie.ini last char is not a .
 ./human/en/Features/pipeline.ini has empty tags section
 ./human/en/Features/plugin.ini has empty tags section
 ./human/en/Features/polyfill.ini has empty tags section

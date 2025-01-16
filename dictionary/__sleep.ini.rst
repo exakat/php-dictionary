@@ -1,22 +1,22 @@
 .. _-__sleep:
 .. meta::
 	:description:
-		__sleep() method: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned.
+		__sleep() Method: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: __sleep() method
-	:twitter:description: __sleep() method: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned
+	:twitter:title: __sleep() Method
+	:twitter:description: __sleep() Method: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: __sleep() method
+	:og:title: __sleep() Method
 	:og:type: article
 	:og:description: __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__sleep.ini.html
 	:og:locale: en
 
 
-__sleep() method
+__sleep() Method
 ----------------
 
 __sleep() is a magic method : it is called an object is being serialized, so that the object may be cleaned. 
@@ -51,4 +51,4 @@ The __sleep() method is usually paired with the __wakeup() method.
 
 See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_, `__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__wakeup() method <-__wakeup>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__wakeup() Method <-__wakeup>`

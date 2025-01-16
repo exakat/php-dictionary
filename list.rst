@@ -81,10 +81,12 @@ Index
    dictionary/authenticate.ini
    dictionary/authorize.ini
    dictionary/autoload.ini
+   dictionary/automagic.ini
    dictionary/autovivification.ini
    dictionary/autowiring.ini
    dictionary/backend.ini
    dictionary/badfunctioncallexception.ini
+   dictionary/base64.ini
    dictionary/basename.ini
    dictionary/batch.ini
    dictionary/bcmath.ini
@@ -254,6 +256,7 @@ Index
    dictionary/early-binding.ini
    dictionary/echo-tag.ini
    dictionary/echo.ini
+   dictionary/elephpant.ini
    dictionary/ellipsis.ini
    dictionary/email.ini
    dictionary/empty.ini
@@ -399,6 +402,7 @@ Index
    dictionary/inventory.ini
    dictionary/invoke.ini
    dictionary/ip.ini
+   dictionary/is_a.ini
    dictionary/is_object.ini
    dictionary/isp.ini
    dictionary/isset.ini
@@ -535,6 +539,7 @@ Index
    dictionary/password.ini
    dictionary/path.ini
    dictionary/pcntl.ini
+   dictionary/pcre.ini
    dictionary/pdo.ini
    dictionary/pdoexception.ini
    dictionary/pear.ini
@@ -772,6 +777,7 @@ Index
    dictionary/use.ini
    dictionary/userland.ini
    dictionary/utf-8.ini
+   dictionary/uuencode.ini
    dictionary/uuid.ini
    dictionary/validation.ini
    dictionary/value-object.ini

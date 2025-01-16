@@ -40,4 +40,4 @@ is_object() is rarely used, as ``instanceof`` with the expected class or interfa
 
 `Documentation <https://www.php.net/manual/en/function.is-object.php>`__
 
-Related : :ref:`instanceof <instanceof>`, :ref:`stdclass <stdclass>`, 
+Related : :ref:`instanceof <instanceof>`, :ref:`stdclass <stdclass>`, :ref:`is_a() <is_a>`

@@ -30,7 +30,7 @@ While legit, it is usually recommended to avoid using PHP keywords as identifier
    
    <?php
    
-   class myNamespace {
+   class MyNamespace {
    	function array() {
    		return array();
    	}
@@ -38,5 +38,11 @@ While legit, it is usually recommended to avoid using PHP keywords as identifier
    
    print_r((new myNamespace)->array());
    
+   class X {
+       const array ARRAY = array(); // possible confusion here
+   }
+   
    ?>
 
+
+`Documentation <https://www.php.net/manual/en/reserved.keywords.php>`__

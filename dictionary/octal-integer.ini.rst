@@ -40,4 +40,4 @@ Initially, octal integers were formatted by simply starting with a initial 0. Th
 
 See also `PHP 8.1: Explicit Octal numeral notation <https://php.watch/versions/8.1/explicit-octal-notation>`_
 
-Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`
+Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`, :ref:`Leading Zero Means Octal <leading-zero-means-octal>`

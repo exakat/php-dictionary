@@ -34,4 +34,4 @@ When a PHP script is run from the command line, the script's filename is counted
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.argc.php>`__
 
-Related : :ref:`$argv <$argv>`
+Related : :ref:`$argv <$argv>`, :ref:`PHP Variables <php-variable>`, :ref:`Command Line Interface (CLI) <cli>`
