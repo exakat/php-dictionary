@@ -19,7 +19,7 @@
 Data Container
 --------------
 
-A data container is a structure that stores data. It is a generic concept, that covers variables, properties and arrays. 
+A data container is a structure that stores data. It is a generic concept, that covers variables, properties and array elements. 
 
 .. code-block:: php
    
@@ -32,4 +32,4 @@ A data container is a structure that stores data. It is a generic concept, that 
    ?>
 
 
-Related : :ref:`Container <container>`
+Related : :ref:`Container <container>`, :ref:`Variables <variable>`, :ref:`Properties <property>`, :ref:`Static Property <static-property>`, :ref:`Index For Arrays <index-array>`

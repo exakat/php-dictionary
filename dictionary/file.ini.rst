@@ -27,8 +27,10 @@ A file consists of two main components: the file name and the file content. The 
 
 A file is a resource for recording data on a computer storage device, such as a hard drive or memory.
 
+``file://`` is also the name of a wrapper, for stream.
+
+
 .. code-block:: php
-   
    
    <?php
    
@@ -41,4 +43,4 @@ A file is a resource for recording data on a computer storage device, such as a 
 
 See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_
 
-Related : :ref:`File System <filesystem>`, :ref:`Universal Resource Locator (URL) <url>`
+Related : , :ref:`File System <filesystem>`, :ref:`Universal Resource Locator (URL) <url>`

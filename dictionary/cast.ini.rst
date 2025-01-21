@@ -33,8 +33,6 @@ The available casts are:
 
 There is no operator to convert to a specific class type.
 
-
-
 .. code-block:: php
    
    <?php

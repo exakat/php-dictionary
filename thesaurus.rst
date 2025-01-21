@@ -3,8 +3,11 @@ Thesaurus
 Acronym
 -------
 
+List of acronyms, used in this dictionary.
+
 + :ref:`Abstract Syntactic Tree (AST) <ast>`
 + :ref:`Application Performance Management (APM) <apm>`
++ :ref:`Class Interface Trait Enumeration (CITE) <skeleton>`
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
 + :ref:`Command Line Interface (CLI) <cli>`
@@ -27,6 +30,7 @@ Acronym
 + :ref:`Interface Segregation Principle (ISP) <isp>`
 + :ref:`JavaScript Object Notation (JSON) <json>`
 + :ref:`Just In Time (JIT) <jit>`
++ :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Liskov Substitution Principle (LSP) <lsp>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
@@ -64,6 +68,8 @@ Acronym
 Attribute
 ---------
 
+List of PHP native attributes.
+
 + :ref:`Allow Dynamic Properties <allowdynamicproperties>`
 + :ref:`Attribute Class <attribute-class>`
 + :ref:`Deprecated <deprecated>`
@@ -75,6 +81,8 @@ Attribute
 
 Concept
 -------
+
+List of concept, which are applied to PHP, but not exclusive to it.
 
 + :ref:`$this <$this>`
 + :ref:`Abstraction Layer <abstraction-layer>`
@@ -108,6 +116,7 @@ Concept
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
++ :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
@@ -171,6 +180,8 @@ Concept
 Control flow
 ------------
 
+List of command to control the flow of a program.
+
 + :ref:`Do While <do-while>`
 + :ref:`For <for>`
 + :ref:`Foreach <foreach>`
@@ -184,12 +195,16 @@ Control flow
 Directive
 ---------
 
+List of configuration directives of PHP. They may be used in php.ini, ini_set()/ini_get() or other configuration files.
+
 + :ref:`Disable Functions <disable-functions>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`variable_order <variable_order>`
 
 Exception
 ---------
+
+List of exceptions, available in PHP.
 
 + :ref:`ArgumentCountError <argumentcounterror>`
 + :ref:`ArithmeticError Error <arithmeticerror>`
@@ -211,6 +226,8 @@ Exception
 
 Keyword
 -------
+
+List of PHP keywords and reserved names.
 
 + :ref:`Abstract Keyword <abstract>`
 + :ref:`And Operator <and>`
@@ -256,11 +273,14 @@ Keyword
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
 + :ref:`include <include>`
++ :ref:`throw <throw>`
 + :ref:`unset() <unset>`
 + :ref:`yield from Keyword <yield-from>`
 
 Language construct
 ------------------
+
+List of the PHP language construct: they look like a function, but are more special.
 
 + :ref:`Array <array>`
 + :ref:`Echo <echo>`
@@ -275,12 +295,15 @@ Language construct
 Type
 ----
 
+List of PHP types, used with the type system. They usually are not related to a class.
+
 + :ref:`Boolean <boolean>`
 + :ref:`False <false>`
 + :ref:`Floating Point Numbers <float>`
 + :ref:`Iterable <iterable>`
 + :ref:`Mixed <mixed>`
 + :ref:`Never Type <never>`
++ :ref:`Object Type <object-type>`
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
 + :ref:`Return Type <return-type>`
@@ -298,14 +321,16 @@ Type
 Magic method
 ------------
 
+List of PHP magic method, which are providing special behavior throught the definition of a method with a special signature.
+
 + :ref:`__call() Method <-__call>`
 + :ref:`__callStatic() Method <-__callStatic>`
 + :ref:`__clone() Method <-__clone>`
 + :ref:`__get() Method <-__get>`
 + :ref:`__invoke() Method <-__invoke>`
 + :ref:`__isset() Method <-__isset>`
-+ :ref:`__serialize() method <-__serialize>`
-+ :ref:`__set() method <-__set>`
++ :ref:`__serialize() Method <-__serialize>`
++ :ref:`__set() Method <-__set>`
 + :ref:`__set_state() Method <-__set_state>`
 + :ref:`__sleep() Method <-__sleep>`
 + :ref:`__toString() Method <-__tostring>`
@@ -314,6 +339,8 @@ Magic method
 
 Bug
 ---
+
+List of named bugs.
 
 + :ref:`Dangling Reference <dangling-reference>`
 + :ref:`Datetime Trap <datetime-trap>`
@@ -325,3 +352,45 @@ Bug
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Object Injection <object-injection>`
 + :ref:`Strpos() Syndrome <strpos-syndrom>`
+
+Extension
+---------
+
+List of special PHP extensions.
+
++ :ref:`Bcmath <bcmath>`
++ :ref:`Core <core>`
++ :ref:`Cryptographic Hash <hash-crypto>`
++ :ref:`Hash <hash>`
++ :ref:`Internationalization Functions <intl>`
++ :ref:`Multibyte String <mbstring>`
++ :ref:`PHP Data Objects (PDO) <pdo>`
++ :ref:`Phar <phar>`
++ :ref:`Reflection <reflection>`
++ :ref:`SimpleXML <simplexml>`
++ :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`XMLwriter <xmlwriter>`
++ :ref:`XXTEA <xxtea>`
+
+Token
+-----
+
+List of strings (characters, names), which are PHP tokens: they are useful to parse code.
+
++ :ref:`Colon <colon>`
++ :ref:`Comma <comma>`
++ :ref:`Ellipsis <ellipsis>`
++ :ref:`Parenthesis <parenthesis>`
++ :ref:`Semicolon <semicolon>`
++ :ref:`Square Brackets <square-bracket>`
+
+Folklore
+--------
+
+List of things that seems unrelated to PHP, but, suprisingly, are.
+
++ :ref:`Haystack <haystack>`
++ :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
++ :ref:`Needle <needle>`
++ :ref:`PHP Installer For Extensions (PIE) <pie>`
++ :ref:`Scope Resolution Operator :: <scope-resolution-operator>`

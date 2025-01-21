@@ -1,17 +1,17 @@
 .. _protected:
 .. meta::
 	:description:
-		Protected Visibility: The protected keyword is part of the three keywords to define visibility of a method, property or constant.
+		Protected Visibility: The ``protected`` keyword is part of the three keywords to define visibility of a method, property or constant.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Protected Visibility
-	:twitter:description: Protected Visibility: The protected keyword is part of the three keywords to define visibility of a method, property or constant
+	:twitter:description: Protected Visibility: The ``protected`` keyword is part of the three keywords to define visibility of a method, property or constant
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Protected Visibility
 	:og:type: article
-	:og:description: The protected keyword is part of the three keywords to define visibility of a method, property or constant
+	:og:description: The ``protected`` keyword is part of the three keywords to define visibility of a method, property or constant
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/protected.ini.html
 	:og:locale: en
 
@@ -19,18 +19,29 @@
 Protected Visibility
 --------------------
 
-The protected keyword is part of the three keywords to define visibility of a method, property or constant. It is the strictest level of visibility : it restricts usage to the current class and its parents and children.
-
-
+The ``protected`` keyword is part of the three keywords to define visibility of a method, property or constant. It is the middle level of visibility : it restricts usage to the current class, its parents and children.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class W {
+       public function methodY() { 
+           // dependency on the child class
+           echo self::X;
+       }
+   }
+   
+   class X extends W {
        protected const X = 1;
        
        public function method() { 
+           echo self::X;
+       }
+   }
+   
+   class Y extends X {
+       public function methodY() { 
            echo self::X;
        }
    }

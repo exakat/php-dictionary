@@ -37,10 +37,12 @@ They are also called curly braces.
    for($a = 1; $a < 10; ++$i) {
    	// block
    	
+   	// delimit a variable to avoid confusing it with $vars
    	echo "{$var}s";
    }
    
    // old syntax: it used to be the second character in the string
+   // This is a removed feature in PHP 8.0+
    // modern syntax : use angular brackets
    echo $string{1};
    
@@ -49,4 +51,4 @@ They are also called curly braces.
 
 See also `PHP Curly Braces: How and When to Use it? <https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/>`_
 
-Related : :ref:`Block <block>`, :ref:`String <string>`
+Related : :ref:`Block <block>`, :ref:`String <string>`, :ref:`Square Brackets <square-bracket>`, 

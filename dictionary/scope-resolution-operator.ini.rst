@@ -25,7 +25,14 @@ The Scope Resolution Operator is a token that allows access to static, constant,
 
 Traditionally, this used to be a feature of the function get_class(). The operator is more modern and faster. 
 
-This operator is often called double-colon, or ``paamayim-nekudotayim`` : this is double-colon in Hebrew.
+The double colon operator is used to access class related elements, such as 
+
++ static properties, ``X::$property``
++ static methods, ``X::method()``
++ static constants, ``X::CONSTANT``,
++ class name, ``X::class``
+
+This operator is often called double-colon, or ``paamayim-nekudotayim`` : this means ``double-colon`` in Hebrew. It is said to be a lot easier to google than ``::``.
 
 .. code-block:: php
    

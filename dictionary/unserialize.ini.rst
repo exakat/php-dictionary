@@ -49,6 +49,6 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_
 
-Related : :ref:`__serialize() method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`
+Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`
 
 Related packages : `xkerman/restricted-unserialize <https://packagist.org/packages/xkerman/restricted-unserialize>`_

@@ -46,4 +46,4 @@ The __isset() method is usually paired with the __get() and __set() methods.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.overloading.php#object.isset>`__
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`__set() method <-__set>`, :ref:`__get() Method <-__get>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`__set() Method <-__set>`, :ref:`__get() Method <-__get>`

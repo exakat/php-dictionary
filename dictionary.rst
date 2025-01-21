@@ -25,8 +25,8 @@ PHP Dictionary
    * :ref:`__halt_compiler() <halt-compiler>`
    * :ref:`__invoke() Method <-__invoke>`
    * :ref:`__isset() Method <-__isset>`
-   * :ref:`__serialize() method <-__serialize>`
-   * :ref:`__set() method <-__set>`
+   * :ref:`__serialize() Method <-__serialize>`
+   * :ref:`__set() Method <-__set>`
    * :ref:`__set_state() Method <-__set_state>`
    * :ref:`__sleep() Method <-__sleep>`
    * :ref:`__toString() Method <-__tostring>`
@@ -130,6 +130,7 @@ PHP Dictionary
    * :ref:`Class Entities <class-entity>`
    * :ref:`Class Getter Method <getter>`
    * :ref:`Class Hoisting <class-hoisting>`
+   * :ref:`Class Interface Trait Enumeration (CITE) <skeleton>`
    * :ref:`Class Invasion <class-invasion>`
    * :ref:`Class Operator <class-operator>`
    * :ref:`Class Setter Method <setter>`
@@ -254,6 +255,7 @@ PHP Dictionary
    * :ref:`Double Quotes Strings <double-quote>`
    * :ref:`Downtime <downtime>`
    * :ref:`Duck Typing <duck-typing>`
+   * :ref:`Dynamic <dynamic>`
    * :ref:`Dynamic Call <dynamic-call>`
    * :ref:`Dynamic Class <dynamic-class>`
    * :ref:`Dynamic Constant <dynamic-constant>`
@@ -311,6 +313,7 @@ PHP Dictionary
    * :ref:`FastCGI <fastcgi>`
    * :ref:`Feature <feature>`
    * :ref:`File <file>`
+   * :ref:`File Mode <file-mode>`
    * :ref:`File System <file-system>`
    * :ref:`File Transfert Protocol (FTP) <ftp>`
    * :ref:`File Transfert Protocol Secure (FTPS) <ftps>`
@@ -335,6 +338,8 @@ PHP Dictionary
    * :ref:`Function Subscripting <function-subscripting>`
    * :ref:`Functions <function>`
    * :ref:`feature-flag <feature-switch>`
+   * :ref:`file:// <wrapper-file>`
+   * :ref:`ftp:// <wrapper-ftps>`
 * G
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
@@ -370,6 +375,7 @@ PHP Dictionary
    * :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
    * :ref:`hash() Function <hash-function>`
    * :ref:`hg <hg>`
+   * :ref:`http:// <wrapper-https>`
 * I
    * :ref:`IP <ip>`
    * :ref:`Iconv <iconv>`
@@ -434,7 +440,9 @@ PHP Dictionary
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
    * :ref:`Lexical Variable <lexical-variable>`
+   * :ref:`Lint, Won't Execute <lint-wont-execute>`
    * :ref:`Linting <linting>`
+   * :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
    * :ref:`Liskov Substitution Principle (LSP) <lsp>`
    * :ref:`List <list>`
    * :ref:`Literal <literal>`
@@ -558,7 +566,7 @@ PHP Dictionary
    * :ref:`PHP Tags <php-tag>`
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Variables <php-variable>`
-   * :ref:`PHP Wrapper <wrapper-php>`
+   * :ref:`PHP Wrappers <php-wrapper>`
    * :ref:`PHP-FPM (FPM) <fpm>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`PHPunit <phpunit>`
@@ -607,6 +615,7 @@ PHP Dictionary
    * :ref:`pack <pack>`
    * :ref:`parent <parent>`
    * :ref:`php.ini <php.ini>`
+   * :ref:`php:// <wrapper-php>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`plus + <plus>`
    * :ref:`print_r() <print_r>`
@@ -624,6 +633,7 @@ PHP Dictionary
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
+   * :ref:`Recursive Array <recursive-array>`
    * :ref:`Refactoring <refactoring>`
    * :ref:`Reference Count <reference-count>`
    * :ref:`References <reference>`
@@ -711,6 +721,7 @@ PHP Dictionary
    * :ref:`Special Constant <special-constant>`
    * :ref:`Special Types <special-type>`
    * :ref:`Sqlite3 <sqlite>`
+   * :ref:`Square Brackets <square-bracket>`
    * :ref:`Standalone Types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
    * :ref:`Stateful <stateful>`
@@ -729,6 +740,7 @@ PHP Dictionary
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
    * :ref:`Strpos() Syndrome <strpos-syndrom>`
+   * :ref:`Structure <structure>`
    * :ref:`Stubs Files <stubs>`
    * :ref:`Superglobal Variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`

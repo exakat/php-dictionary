@@ -1,17 +1,17 @@
 .. _object-type:
 .. meta::
 	:description:
-		Object Type: ``object`` is a PHP type, which represent an object of any class, including anonymous class.
+		Object Type: ``object`` is a PHP type, which represents an object of any class, including anonymous classes.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Object Type
-	:twitter:description: Object Type: ``object`` is a PHP type, which represent an object of any class, including anonymous class
+	:twitter:description: Object Type: ``object`` is a PHP type, which represents an object of any class, including anonymous classes
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Object Type
 	:og:type: article
-	:og:description: ``object`` is a PHP type, which represent an object of any class, including anonymous class
+	:og:description: ``object`` is a PHP type, which represents an object of any class, including anonymous classes
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/object-type.ini.html
 	:og:locale: en
 
@@ -19,7 +19,9 @@
 Object Type
 -----------
 
-``object`` is a PHP type, which represent an object of any class, including anonymous class. 
+``object`` is a PHP type, which represents an object of any class, including anonymous classes. 
+
+``object`` may be used with properties, arguments and returntype, but not with ``instanceof``.
 
 
 .. code-block:: php
@@ -55,4 +57,4 @@ Object Type
 
 See also `TYPE HINT ALL THE THINGS! <https://thecodingmachine.io/type-hint-all-the-things>`_
 
-Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`Clone <clone>`, :ref:`Type System <type>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`Clone <clone>`, :ref:`Type System <type>`, :ref:`instanceof <instanceof>`

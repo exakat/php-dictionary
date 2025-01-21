@@ -37,4 +37,4 @@ In a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and rela
 
 See also `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_
 
-Related : :ref:`Wrapper <wrapper>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, :ref:`PHP Wrapper <wrapper-php>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`
+Related : :ref:`Wrapper <wrapper>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, , :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`

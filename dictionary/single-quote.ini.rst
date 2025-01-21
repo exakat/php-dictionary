@@ -47,4 +47,4 @@ Double quoted strings use the anti-slash `\` to escape special characters, such 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
 
-Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`
+Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Heredocs <heredoc>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`

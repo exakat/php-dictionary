@@ -27,3 +27,5 @@ Persistence also applies to database connection, where the connection is not clo
 
 Persistent storage may also be called permanent storage. 
 
+
+Related : , 

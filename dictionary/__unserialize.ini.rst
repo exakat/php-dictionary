@@ -49,4 +49,4 @@ The __unserialize() magic method is called when a script tries to construct an o
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.unserialize>`__
 
-Related : :ref:`Unserialization <unserialize>`, :ref:`Serialization <serialize>`, :ref:`__serialize() method <-__serialize>`
+Related : :ref:`Unserialization <unserialize>`, :ref:`Serialization <serialize>`, :ref:`__serialize() Method <-__serialize>`

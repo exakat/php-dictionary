@@ -49,4 +49,4 @@ Hooks look like the magic methods ``__set`` and ``__get``, with a few difference
 
 See also `PHP 8.4 Property Hooks <https://ashallendesign.co.uk/blog/php-84-property-hooks>`_, `PHP 8.4 Property Hooks: The Ultimate Guide for Developers <https://qirolab.com/posts/php-84-property-hooks>`_, `PHP RFC: Property hook improvements <https://wiki.php.net/rfc/hook_improvements>`_
 
-Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() method <-__set>`, :ref:`Magic Methods <magic-method>`
+Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`

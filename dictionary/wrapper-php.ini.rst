@@ -1,40 +1,36 @@
 .. _wrapper-php:
 .. meta::
 	:description:
-		PHP Wrapper: A Wrapper is a custom way to access remote resources.
+		php://: The ``php://`` wrapper is a native PHP wrapper, to access ``stdin``, ``stdout`` and ``stderr``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: PHP Wrapper
-	:twitter:description: PHP Wrapper: A Wrapper is a custom way to access remote resources
+	:twitter:title: php://
+	:twitter:description: php://: The ``php://`` wrapper is a native PHP wrapper, to access ``stdin``, ``stdout`` and ``stderr``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: PHP Wrapper
+	:og:title: php://
 	:og:type: article
-	:og:description: A Wrapper is a custom way to access remote resources
+	:og:description: The ``php://`` wrapper is a native PHP wrapper, to access ``stdin``, ``stdout`` and ``stderr``
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-php.ini.html
 	:og:locale: en
 
 
-PHP Wrapper
------------
+php://
+------
 
-A Wrapper is a custom way to access remote resources. It is designed to look like accessing to file, on the file system, but using other drivers than the ones of the hard drive. It is based on a configuration string, which looks like a URL : `ftp://www.site.com/file.txt`, where the part before the `://` is the protocol.
-
-Among the predefined PHP wrapper, there are http://, ftp://, zlib://, phar://, rar://, expect://. 
-
+The ``php://`` wrapper is a native PHP wrapper, to access ``stdin``, ``stdout`` and ``stderr``. These are the incoming, outgoing and error streams of the executed PHP code.
 
 .. code-block:: php
    
    <?php
    
-   $html = file_get_content('http://www.php.net/');
+   // display the raw incoming data
+   print_r(file_get_content('php://stdin');
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
 
-See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries. <https://packagist.org/packages/laravel/socialite>`_, `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_
-
-Related : :ref:`Protocol <protocol>`, :ref:`Wrapper <wrapper>`
+Related : :ref:`Wrapper <wrapper>`, :ref:`PHP Wrappers <php-wrapper>`

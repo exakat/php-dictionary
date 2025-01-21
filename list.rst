@@ -14,6 +14,7 @@ Index
    dictionary/$_server.ini
    dictionary/$argc.ini
    dictionary/$argv.ini
+   dictionary/$globals.ini
    dictionary/$http_raw_post_data.ini
    dictionary/$php_errormsg.ini
    dictionary/$this.ini
@@ -121,6 +122,7 @@ Index
    dictionary/character.ini
    dictionary/child-class.ini
    dictionary/ci.ini
+   dictionary/cite.ini
    dictionary/class-alias.ini
    dictionary/class-constant-visibility.ini
    dictionary/class-constant.ini
@@ -252,6 +254,7 @@ Index
    dictionary/dynamic-loading.ini
    dictionary/dynamic-property.ini
    dictionary/dynamic-variable.ini
+   dictionary/dynamic.ini
    dictionary/each.ini
    dictionary/early-binding.ini
    dictionary/echo-tag.ini
@@ -301,6 +304,7 @@ Index
    dictionary/feature-flag.ini
    dictionary/feature.ini
    dictionary/ffi.ini
+   dictionary/file-mode.ini
    dictionary/file.ini
    dictionary/filesystem.ini
    dictionary/filesystemiterator.ini
@@ -415,6 +419,7 @@ Index
    dictionary/key-value-store.ini
    dictionary/keyword.ini
    dictionary/label.ini
+   dictionary/lamp.ini
    dictionary/language-construct.ini
    dictionary/late-static-binding.ini
    dictionary/lazy-loading.ini
@@ -425,6 +430,7 @@ Index
    dictionary/letter-logical.ini
    dictionary/lexical.ini
    dictionary/libsodium.ini
+   dictionary/lint-wont-execute.ini
    dictionary/linting.ini
    dictionary/list.ini
    dictionary/literal-types.ini
@@ -556,6 +562,7 @@ Index
    dictionary/php-tag.ini
    dictionary/php-ug.ini
    dictionary/php-variable.ini
+   dictionary/php-wrapper.ini
    dictionary/php.ini
    dictionary/php.ini.ini
    dictionary/phpdoc.ini
@@ -599,6 +606,7 @@ Index
    dictionary/readonly.ini
    dictionary/real.ini
    dictionary/recursion.ini
+   dictionary/recursive-array.ini
    dictionary/refactoring.ini
    dictionary/reference-count.ini
    dictionary/reference.ini
@@ -683,6 +691,7 @@ Index
    dictionary/sql-injection.ini
    dictionary/sql.ini
    dictionary/sqlite3.ini
+   dictionary/square-bracket.ini
    dictionary/srp.ini
    dictionary/ssl.ini
    dictionary/sso.ini
@@ -705,6 +714,7 @@ Index
    dictionary/string.ini
    dictionary/stringable.ini
    dictionary/strpos-syndrom.ini
+   dictionary/structure.ini
    dictionary/stubs.ini
    dictionary/subtype.ini
    dictionary/superglobal.ini
@@ -807,6 +817,9 @@ Index
    dictionary/whitespace.ini
    dictionary/wither.ini
    dictionary/wrapper-designpattern.ini
+   dictionary/wrapper-file.ini
+   dictionary/wrapper-ftp.ini
+   dictionary/wrapper-http.ini
    dictionary/wrapper-php.ini
    dictionary/wrapper-stream.ini
    dictionary/wrapper.ini

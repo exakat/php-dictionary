@@ -23,7 +23,7 @@ A framework is a library of code and practices that helps building PHP applicati
 
 Frameworks are often described as a platform : they stand as a layer above PHP, with its own conventions and behaviors. PHP is the language of the framework, and the language used to extends the framework.
 
-There are lots of frameworks in PHP. In alphabetical order, here is a non-exhaustive list: 
+There are lots of frameworks in PHP. In alphabetical order: 
 
 + `Aura <https://auraphp.com/>`_
 + `Bolt CMS <https://boltcms.io/>`_
@@ -31,7 +31,7 @@ There are lots of frameworks in PHP. In alphabetical order, here is a non-exhaus
 + `CakePHP <https://cakephp.org/>`_
 + `Cappucino <https://www.cappuccino.dev/>`_
 + `Drupal <https://www.drupal.org/>`_
-+ E
++ `e107 <https://e107.org/>`_
 + `FuelPHP <https://fuelphp.com/>`_
 + `Gyroscope <https://www.gyro-php.org/>`_
 + `Hyperf <https://github.com/hyperf/hyperf>`_
@@ -50,17 +50,18 @@ There are lots of frameworks in PHP. In alphabetical order, here is a non-exhaus
 + `Phalcon <https://phalcon.io/en-us>`_
 + `Prado <http://www.pradoframework.net/site/>`_
 + `Qcodo <https://github.com/qcodo/qcodo.git>`_
-+ R
++ `redcatphp <https://github.com/redcatphp/redcatphp>`_
 + `Slim <https://www.slimframework.com/>`_
 + `Symfony <https://symfony.com/>`_
 + `Typo3 <https://typo3.org/>`_
-+ U
++ `Ubiquity <https://github.com/phpMv/ubiquity>`_
 + `Vanilla PHP <https://github.com/vanilla/vanilla>`_
 + `Wordpress <https://www.wordpress.org/>`_
 + `X <https://github.com/clue/framework-x.git>`_
 + `Yii <https://www.yiiframework.com/>`_
 + `Zend Framework <https://framework.zend.com/>`_
 
+This is not an exhaustive list.
 
 
 .. code-block:: php
