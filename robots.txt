@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+User-agent: *
+Disallow: /_sources/
+
+Sitemap: https://php-dictionary.readthedocs.io/en/latest/sitemap.xml

@@ -56,7 +56,8 @@ html_static_path = ['_static']
 
 html_extra_path = ["googlee919cb0917e4fefc.html",
 					"sitemap.xml",
-					"BingSiteAuth.xml"]
+					"BingSiteAuth.xml",
+					"robots.txt"]
 					
 html_theme_options = {
     'logo': 'logo.png',
