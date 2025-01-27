@@ -56,4 +56,4 @@ case is often complemented with default.
    ?>
 
 
-Related : :ref:`Default <default>`, :ref:`Match <match>`, :ref:`Enumeration <enum>`, :ref:`Enumeration Case <enum-case>`, :ref:`Switch <switch>`, :ref:`Switch Case <switch-case>`
+Related : :ref:`Default <default>`, :ref:`Match <match>`, :ref:`Enumeration (enum) <enum>`, :ref:`Enumeration Case <enum-case>`, :ref:`Switch <switch>`, :ref:`Switch Case <switch-case>`

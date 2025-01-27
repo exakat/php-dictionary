@@ -56,6 +56,6 @@ Enumeration cases must be distinct: this is enforced by the engine with the unit
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.basics.php>`__
 
-Related : :ref:`Enumeration <enum>`, :ref:`Case <case>`, 
+Related : :ref:`Enumeration (enum) <enum>`, :ref:`Case <case>`, 
 
 Added in PHP 8.1+

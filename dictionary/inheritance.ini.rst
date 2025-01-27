@@ -50,4 +50,4 @@ Inheritance is a mechanism where you can to derive a class from another class fo
 
 See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_
 
-Related : :ref:`Classes <class>`
+Related : :ref:`Class <class>`

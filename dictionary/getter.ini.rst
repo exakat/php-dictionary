@@ -41,6 +41,6 @@ Getters are usually created with a setter method.
 
 `Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
 
-Related : :ref:`Classes <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Wither Method <wither>`
+Related : :ref:`Class <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Wither Method <wither>`
 
 Added in PHP 5.0+

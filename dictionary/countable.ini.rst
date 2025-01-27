@@ -54,3 +54,5 @@ By implementing the Countable interface, a class can define custom logic for det
 `Documentation <https://www.php.net/manual/en/class.countable.php>`__
 
 See also `Using the count() Function in PHP <https://pimylifeup.com/php-count/>`_
+
+Related : :ref:`count() <count>`

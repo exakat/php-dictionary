@@ -89,6 +89,6 @@ Class invasion doesn't work when running an external closure inside the class.
 
 See also `Invading private properties and methods in PHP <https://freek.dev/2192-invading-private-properties-and-methods-in-php>`_
 
-Related : :ref:`Classes <class>`, :ref:`Visibility <visibility>`
+Related : :ref:`Class <class>`, :ref:`Visibility <visibility>`
 
 Related packages : `spatie/invade <https://packagist.org/packages/spatie/invade>`_

@@ -1,23 +1,24 @@
 .. _interface:
+.. _interfaces:
 .. meta::
 	:description:
-		Interfaces: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented.
+		Interface: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Interfaces
-	:twitter:description: Interfaces: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented
+	:twitter:title: Interface
+	:twitter:description: Interface: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Interfaces
+	:og:title: Interface
 	:og:type: article
 	:og:description: Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html
 	:og:locale: en
 
 
-Interfaces
-----------
+Interface
+---------
 
 Object interfaces allow you to create code which specifies which methods a class must implement, without having to define how these methods are implemented.
 

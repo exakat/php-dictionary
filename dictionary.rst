@@ -56,7 +56,9 @@ PHP Dictionary
    * :ref:`Application Performance Management (APM) <apm>`
    * :ref:`Application Programming Interface (API) <api>`
    * :ref:`Arbitrary Number Of Argument <arbitrary-argument>`
+   * :ref:`Arcane <arcane>`
    * :ref:`Archive <archive>`
+   * :ref:`Argon2 <argon2>`
    * :ref:`Argument <argument>`
    * :ref:`ArgumentCountError <argumentcounterror>`
    * :ref:`ArithmeticError Error <arithmeticerror>`
@@ -89,7 +91,9 @@ PHP Dictionary
 * B
    * :ref:`Backed Enumeration <enum-backed>`
    * :ref:`Backend <backend>`
+   * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
+   * :ref:`Balanced <balanced>`
    * :ref:`Base 64 Encoding <base64>`
    * :ref:`Batch <batch>`
    * :ref:`Bcmath <bcmath>`
@@ -120,22 +124,24 @@ PHP Dictionary
    * :ref:`Case Sensitivity <case-sensitivity>`
    * :ref:`Cast Operator <cast>`
    * :ref:`Catch <catch>`
+   * :ref:`Centralization <centralization>`
    * :ref:`Chaining <chaining>`
    * :ref:`Chaining Exceptions <exception-chain>`
+   * :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`
    * :ref:`Character <character>`
    * :ref:`Child Class <child-class>`
+   * :ref:`Class <class>`
    * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
    * :ref:`Class Entities <class-entity>`
    * :ref:`Class Getter Method <getter>`
    * :ref:`Class Hoisting <class-hoisting>`
-   * :ref:`Class Interface Trait Enumeration (CITE) <skeleton>`
+   * :ref:`Class Interface Trait Enumeration (CITE) <cite>`
    * :ref:`Class Invasion <class-invasion>`
    * :ref:`Class Operator <class-operator>`
    * :ref:`Class Setter Method <setter>`
    * :ref:`Class Wither Method <wither>`
-   * :ref:`Classes <class>`
    * :ref:`Clean Architecture <clean-architecture>`
    * :ref:`Clean Code <clean-code>`
    * :ref:`Client URL (CURL) <curl>`
@@ -204,6 +210,7 @@ PHP Dictionary
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constructor <constructor>`
+   * :ref:`count() <count>`
    * :ref:`crc32 <crc32>`
 * D
    * :ref:`DOM <domxml>`
@@ -277,7 +284,7 @@ PHP Dictionary
    * :ref:`Empty <empty>`
    * :ref:`Encoding <encoding>`
    * :ref:`Entities <entity>`
-   * :ref:`Enumeration <enum>`
+   * :ref:`Enumeration (enum) <enum>`
    * :ref:`Enumeration Case <enum-case>`
    * :ref:`Environment Variables <environment-variable>`
    * :ref:`Error <error>`
@@ -313,6 +320,7 @@ PHP Dictionary
    * :ref:`FastCGI <fastcgi>`
    * :ref:`Feature <feature>`
    * :ref:`File <file>`
+   * :ref:`File Extension <file-extension>`
    * :ref:`File Mode <file-mode>`
    * :ref:`File System <file-system>`
    * :ref:`File Transfert Protocol (FTP) <ftp>`
@@ -324,6 +332,7 @@ PHP Dictionary
    * :ref:`Finally <finally>`
    * :ref:`First Class Callable <first-class-callable>`
    * :ref:`Fixture <fixture>`
+   * :ref:`Flag <flag>`
    * :ref:`Floating Point Numbers <float>`
    * :ref:`Fluent Interface <fluent-interface>`
    * :ref:`For <for>`
@@ -331,6 +340,7 @@ PHP Dictionary
    * :ref:`Foreign Function Interface (FFI) <ffi>`
    * :ref:`Form <form>`
    * :ref:`Format <format>`
+   * :ref:`Forward Compatible <forward-compatible>`
    * :ref:`Fossilized Methods <fossilized-method>`
    * :ref:`Framework <framework>`
    * :ref:`Front-end <frontend>`
@@ -404,8 +414,8 @@ PHP Dictionary
    * :ref:`Initialisation <initialisation>`
    * :ref:`Injection <injection>`
    * :ref:`Insteadof <insteadof>`
+   * :ref:`Interface <interface>`
    * :ref:`Interface Segregation Principle (ISP) <isp>`
-   * :ref:`Interfaces <interface>`
    * :ref:`Internationalization <internationalization>`
    * :ref:`Internationalization Functions <intl>`
    * :ref:`Interpolation <interpolation>`
@@ -440,6 +450,7 @@ PHP Dictionary
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
    * :ref:`Lexical Variable <lexical-variable>`
+   * :ref:`Library Loading <library-loading>`
    * :ref:`Lint, Won't Execute <lint-wont-execute>`
    * :ref:`Linting <linting>`
    * :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
@@ -449,6 +460,7 @@ PHP Dictionary
    * :ref:`Literal Types <literal-types>`
    * :ref:`Local File Inclusion <lfi>`
    * :ref:`Local Scope <local>`
+   * :ref:`Local Variable <local-variable>`
    * :ref:`Locale <locale>`
    * :ref:`Log <log>`
    * :ref:`LogicException <logicexception>`
@@ -456,6 +468,7 @@ PHP Dictionary
    * :ref:`Loops <loop>`
    * :ref:`libsodium <libsodium>`
 * M
+   * :ref:`Machine Learning <machine-learning>`
    * :ref:`Magic <magic>`
    * :ref:`Magic Constants <magic-constant>`
    * :ref:`Magic Hash <magic-hash>`
@@ -467,6 +480,7 @@ PHP Dictionary
    * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
+   * :ref:`Merge <merge>`
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
@@ -505,6 +519,7 @@ PHP Dictionary
    * :ref:`Neutral Element <neutral-element>`
    * :ref:`Never Type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
+   * :ref:`New Without Parenthesis <new-without-parenthesis>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Non-static <non-static>`
    * :ref:`Nowdocs <nowdoc>`
@@ -515,6 +530,7 @@ PHP Dictionary
    * :ref:`Nullsafe <nullsafe>`
    * :ref:`Numeric Separator <numeric-separator>`
    * :ref:`Numeric String <numeric-string>`
+   * :ref:`negative-index <negative-index>`
    * :ref:`new <new>`
 * O
    * :ref:`OWASP <owasp>`
@@ -583,6 +599,7 @@ PHP Dictionary
    * :ref:`Password <password>`
    * :ref:`Password API <password-ext>`
    * :ref:`Path <path>`
+   * :ref:`Performance <performance>`
    * :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
    * :ref:`Permission <permission>`
    * :ref:`Persistence <persistence>`
@@ -630,6 +647,7 @@ PHP Dictionary
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
    * :ref:`Readability <readability>`
+   * :ref:`Reading <reading>`
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
@@ -737,6 +755,7 @@ PHP Dictionary
    * :ref:`Stream Wrapper <wrapper-stream>`
    * :ref:`Strict Comparison <strict-comparison>`
    * :ref:`String <string>`
+   * :ref:`String Increment <string-increment>`
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
    * :ref:`Strpos() Syndrome <strpos-syndrom>`
@@ -777,7 +796,7 @@ PHP Dictionary
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
    * :ref:`Trailing Comma <trailing-comma>`
-   * :ref:`Traits <trait>`
+   * :ref:`Trait <trait>`
    * :ref:`Transpile <transpile>`
    * :ref:`Traversable <traversable>`
    * :ref:`Traversal <traversal>`
@@ -844,8 +863,10 @@ PHP Dictionary
    * :ref:`Webserver <webserver>`
    * :ref:`While <while>`
    * :ref:`Whitespace <whitespace>`
+   * :ref:`World Wide Weab (WWW) <web>`
    * :ref:`Wrapper <wrapper>`
    * :ref:`Writable <writable>`
+   * :ref:`Writing <writing>`
 * X
    * :ref:`XMLReader <xmlreader>`
    * :ref:`XMLwriter <xmlwriter>`

@@ -41,6 +41,6 @@ There are also functions dedicated to comparisons, with specific applications : 
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_
+See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_, https://www.educative.io/answers/difference-between-the-and-operators-in-php
 
 Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship Operator <spaceship>`

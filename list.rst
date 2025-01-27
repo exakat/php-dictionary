@@ -54,7 +54,9 @@ Index
    dictionary/apm.ini
    dictionary/append.ini
    dictionary/arbitrary-argument.ini
+   dictionary/arcane.ini
    dictionary/archive.ini
+   dictionary/argon2.ini
    dictionary/argument.ini
    dictionary/argumentcounterror.ini
    dictionary/arithmeticerror.ini
@@ -86,7 +88,9 @@ Index
    dictionary/autovivification.ini
    dictionary/autowiring.ini
    dictionary/backend.ini
+   dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
+   dictionary/balanced.ini
    dictionary/base64.ini
    dictionary/basename.ini
    dictionary/batch.ini
@@ -117,7 +121,9 @@ Index
    dictionary/case.ini
    dictionary/cast.ini
    dictionary/catch.ini
+   dictionary/centralization.ini
    dictionary/cgi.ini
+   dictionary/chaining-new-without-parenthesis.ini
    dictionary/chaining.ini
    dictionary/character.ini
    dictionary/child-class.ini
@@ -183,6 +189,7 @@ Index
    dictionary/cookie.ini
    dictionary/core.ini
    dictionary/coroutine.ini
+   dictionary/count.ini
    dictionary/countable.ini
    dictionary/coupling.ini
    dictionary/crc32.ini
@@ -304,6 +311,7 @@ Index
    dictionary/feature-flag.ini
    dictionary/feature.ini
    dictionary/ffi.ini
+   dictionary/file-extension.ini
    dictionary/file-mode.ini
    dictionary/file.ini
    dictionary/filesystem.ini
@@ -313,12 +321,14 @@ Index
    dictionary/finally.ini
    dictionary/first-class-callable.ini
    dictionary/fixture.ini
+   dictionary/flag.ini
    dictionary/float.ini
    dictionary/fluent-interface.ini
    dictionary/for.ini
    dictionary/foreach.ini
    dictionary/form.ini
    dictionary/format.ini
+   dictionary/forward-compatible.ini
    dictionary/fossilized-method.ini
    dictionary/fpm.ini
    dictionary/framework.ini
@@ -429,6 +439,7 @@ Index
    dictionary/lengthexception.ini
    dictionary/letter-logical.ini
    dictionary/lexical.ini
+   dictionary/library-loading.ini
    dictionary/libsodium.ini
    dictionary/lint-wont-execute.ini
    dictionary/linting.ini
@@ -436,6 +447,7 @@ Index
    dictionary/literal-types.ini
    dictionary/literal.ini
    dictionary/local-file-inclusion.ini
+   dictionary/local-variable.ini
    dictionary/local.ini
    dictionary/locale.ini
    dictionary/log.ini
@@ -443,6 +455,7 @@ Index
    dictionary/logicexception.ini
    dictionary/loop.ini
    dictionary/lsp.ini
+   dictionary/machine-learning.ini
    dictionary/magic-constant.ini
    dictionary/magic-hash.ini
    dictionary/magic-method.ini
@@ -458,6 +471,7 @@ Index
    dictionary/mcrypt.ini
    dictionary/md5.ini
    dictionary/memoization.ini
+   dictionary/merge.ini
    dictionary/message-queue.ini
    dictionary/method.ini
    dictionary/methodcall.ini
@@ -485,11 +499,13 @@ Index
    dictionary/naming.ini
    dictionary/native.ini
    dictionary/needle.ini
+   dictionary/negative-index.ini
    dictionary/nested-attribute.ini
    dictionary/nesting.ini
    dictionary/neutral-element.ini
    dictionary/never.ini
    dictionary/new-in-initializer.ini
+   dictionary/new-without-parenthesis.ini
    dictionary/new.ini
    dictionary/non-breakable-space.ini
    dictionary/non-static.ini
@@ -550,6 +566,7 @@ Index
    dictionary/pdoexception.ini
    dictionary/pear.ini
    dictionary/pecl.ini
+   dictionary/performance.ini
    dictionary/permission.ini
    dictionary/persistence.ini
    dictionary/phar.ini
@@ -603,6 +620,7 @@ Index
    dictionary/rangeexception.ini
    dictionary/rdbms.ini
    dictionary/readability.ini
+   dictionary/reading.ini
    dictionary/readonly.ini
    dictionary/real.ini
    dictionary/recursion.ini
@@ -710,6 +728,7 @@ Index
    dictionary/stream.ini
    dictionary/strict-comparison.ini
    dictionary/strict_types.ini
+   dictionary/string-increment.ini
    dictionary/string-interpolation.ini
    dictionary/string.ini
    dictionary/stringable.ini
@@ -811,6 +830,7 @@ Index
    dictionary/vo.ini
    dictionary/void.ini
    dictionary/weak-reference.ini
+   dictionary/web.ini
    dictionary/webscraping.ini
    dictionary/webserver.ini
    dictionary/while.ini
@@ -824,6 +844,7 @@ Index
    dictionary/wrapper-stream.ini
    dictionary/wrapper.ini
    dictionary/writable.ini
+   dictionary/writing.ini
    dictionary/xml.ini
    dictionary/xmlreader.ini
    dictionary/xmlwriter.ini

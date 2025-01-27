@@ -34,4 +34,4 @@ After PHP 8.3, they are added to the host class, with less precedence than the h
    ?>
 
 
-Related : :ref:`Traits <trait>`, :ref:`Static Constant <class-constant>`
+Related : :ref:`Trait <trait>`, :ref:`Static Constant <class-constant>`

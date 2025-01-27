@@ -36,4 +36,4 @@ Const
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static Constant <static-constant>`, :ref:`include <include>`
+Related : :ref:`Class <class>`, :ref:`Trait <trait>`, :ref:`define() <define>`, :ref:`Conditioned Structures <conditioned>`, :ref:`Static Constant <static-constant>`, :ref:`include <include>`

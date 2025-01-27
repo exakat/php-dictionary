@@ -43,6 +43,6 @@ Setters are usually created with a getter method.
 
 See also `What are getters and setters methods in PHP? <https://www.tutorialspoint.com/what-are-getters-and-setters-methods-in-php>`_
 
-Related : :ref:`Classes <class>`, :ref:`Class Getter Method <getter>`, :ref:`Class Wither Method <wither>`
+Related : :ref:`Class <class>`, :ref:`Class Getter Method <getter>`, :ref:`Class Wither Method <wither>`
 
 Added in PHP 5.0+

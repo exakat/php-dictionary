@@ -7,7 +7,7 @@ List of acronyms, used in this dictionary.
 
 + :ref:`Abstract Syntactic Tree (AST) <ast>`
 + :ref:`Application Performance Management (APM) <apm>`
-+ :ref:`Class Interface Trait Enumeration (CITE) <skeleton>`
++ :ref:`Class Interface Trait Enumeration (CITE) <cite>`
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
 + :ref:`Command Line Interface (CLI) <cli>`
@@ -61,6 +61,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
 + :ref:`User Operations For Zend (UOPZ) <uopz>`
 + :ref:`Value Object (VO) <vo>`
++ :ref:`World Wide Weab (WWW) <web>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
 + :ref:`Yoda Condition <yoda>`
 + :ref:`ransport Layer Security (TLS) <tls>`
@@ -92,10 +93,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Artifact <artifact>`
 + :ref:`Benchmarking <benchmarking>`
++ :ref:`Class <class>`
 + :ref:`Class Entities <class-entity>`
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Class Wither Method <wither>`
-+ :ref:`Classes <class>`
 + :ref:`Clone <clone>`
 + :ref:`Code Smell <code-smell>`
 + :ref:`Command Bus <command-bus>`
@@ -212,6 +213,7 @@ List of exceptions, available in PHP.
 + :ref:`Chaining Exceptions <exception-chain>`
 + :ref:`ClosedGeneratorException <closedgeneratorexception>`
 + :ref:`DivisionByZeroError <divisionbyzeroerror>`
++ :ref:`ImagickException <imagickexception>`
 + :ref:`ImagickPixelException <imagickpixelexception>`
 + :ref:`InvalidArgumentException <invalidargumentexception>`
 + :ref:`JsonException <jsonexception>`
@@ -238,12 +240,12 @@ List of PHP keywords and reserved names.
 + :ref:`Callables <callable>`
 + :ref:`Case <case>`
 + :ref:`Catch <catch>`
-+ :ref:`Classes <class>`
++ :ref:`Class <class>`
 + :ref:`Clone <clone>`
 + :ref:`Default <default>`
 + :ref:`Do While <do-while>`
 + :ref:`Empty <empty>`
-+ :ref:`Enumeration <enum>`
++ :ref:`Enumeration (enum) <enum>`
 + :ref:`Eval() <eval>`
 + :ref:`Exit <exit>`
 + :ref:`Finally <finally>`
@@ -252,7 +254,7 @@ List of PHP keywords and reserved names.
 + :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
 + :ref:`Insteadof <insteadof>`
-+ :ref:`Interfaces <interface>`
++ :ref:`Interface <interface>`
 + :ref:`Isset <isset>`
 + :ref:`Iterable <iterable>`
 + :ref:`Match <match>`
@@ -266,7 +268,7 @@ List of PHP keywords and reserved names.
 + :ref:`Switch <switch>`
 + :ref:`Switch Case <switch-case>`
 + :ref:`Switch Default <switch-default>`
-+ :ref:`Traits <trait>`
++ :ref:`Trait <trait>`
 + :ref:`Try-catch <try-catch>`
 + :ref:`Use <use>`
 + :ref:`Var <var>`
@@ -389,6 +391,7 @@ Folklore
 
 List of things that seems unrelated to PHP, but, suprisingly, are.
 
++ :ref:`Flag <flag>`
 + :ref:`Haystack <haystack>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Needle <needle>`

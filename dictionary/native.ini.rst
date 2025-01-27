@@ -2,6 +2,7 @@
 .. _native-function:
 .. _native-class:
 .. _native-constant:
+.. _native-php:
 .. _built-in:
 .. _internal:
 .. meta::

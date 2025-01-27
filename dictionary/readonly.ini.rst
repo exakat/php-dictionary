@@ -51,6 +51,6 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
 
-Related : :ref:`Classes <class>`, :ref:`__clone() Method <-__clone>`, :ref:`Properties <property>`
+Related : :ref:`Class <class>`, :ref:`__clone() Method <-__clone>`, :ref:`Properties <property>`
 
 Added in PHP 8.1

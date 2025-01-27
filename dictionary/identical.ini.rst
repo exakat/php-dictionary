@@ -1,4 +1,5 @@
 .. _identical:
+.. _triple-equal:
 .. meta::
 	:description:
 		Identical Operator: Identical is the state of two variables, which contains the same data, with the same type.
@@ -21,7 +22,7 @@ Identical Operator
 
 Identical is the state of two variables, which contains the same data, with the same type. It is the same as equality, without the type-juggling.
 
-Identical operators are `===`, `!==`. The match() command also uses identical comparisons.
+Identical operators are ``===``, `!==`. The match() command also uses identical comparisons.
 
 
 .. code-block:: php

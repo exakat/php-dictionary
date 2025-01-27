@@ -39,6 +39,6 @@ There are methods to convert a scalar value to an enumeration's case, notably fr
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.backed.php>`__
 
-Related : :ref:`Enumeration <enum>`
+Related : :ref:`Enumeration (enum) <enum>`
 
 Added in PHP 8.1+

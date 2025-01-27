@@ -57,4 +57,4 @@ PHP includes a complete object model. Some of its features are: visibility, abst
 
 See also `TYPE HINT ALL THE THINGS! <https://thecodingmachine.io/type-hint-all-the-things>`_
 
-Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interfaces <interface>`, :ref:`Clone <clone>`, :ref:`Type System <type>`
+Related : :ref:`Visibility <visibility>`, :ref:`Abstract Keyword <abstract>`, :ref:`Final Keyword <final>`, :ref:`Magic Methods <magic-method>`, :ref:`Interface <interface>`, :ref:`Clone <clone>`, :ref:`Type System <type>`

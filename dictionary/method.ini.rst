@@ -41,4 +41,4 @@ Methods are function dedicated to a class. They are defined inside the body of a
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
-Related : :ref:`Classes <class>`, :ref:`__call() Method <-__call>`, :ref:`Default Parameter <default-parameter>`, :ref:`Fossilized Methods <fossilized-method>`, :ref:`Functions <function>`, :ref:`Return <return>`, :ref:`Static Method <static-method>`, :ref:`Visibility <visibility>`
+Related : :ref:`Class <class>`, :ref:`__call() Method <-__call>`, :ref:`Default Parameter <default-parameter>`, :ref:`Fossilized Methods <fossilized-method>`, :ref:`Functions <function>`, :ref:`Return <return>`, :ref:`Static Method <static-method>`, :ref:`Visibility <visibility>`

@@ -1,4 +1,5 @@
-.. _skeleton:
+.. _cite:
+.. _classlike:
 .. meta::
 	:description:
 		Class Interface Trait Enumeration (CITE): CITE stands for Class Interface Trait Enumeration.
@@ -12,7 +13,7 @@
 	:og:title: Class Interface Trait Enumeration (CITE)
 	:og:type: article
 	:og:description: CITE stands for Class Interface Trait Enumeration
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/skeleton.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/cite.ini.html
 	:og:locale: en
 
 
@@ -41,4 +42,4 @@ In particular, all four of them share the same namespaces, which may create nami
    ?>
 
 
-Related : :ref:`Classes <class>`, :ref:`Traits <trait>`, :ref:`Interfaces <interface>`, :ref:`Enumeration <enum>`
+Related : :ref:`Class <class>`, :ref:`Trait <trait>`, :ref:`Interface <interface>`, :ref:`Enumeration (enum) <enum>`

@@ -39,6 +39,6 @@ Stringable is automatically added to any class (and subclass) that has the `__to
 
 See also `What is Stringable Interface in PHP 8? <https://www.tutorialspoint.com/what-is-stringable-interface-in-php-8>`_
 
-Related : :ref:`String <string>`
+Related : :ref:`String <string>`, 
 
 Added in PHP 8.0
