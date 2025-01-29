@@ -19,32 +19,35 @@
 Class Wither Method
 -------------------
 
-With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself.  
-
+A wither method is a function in an immutable class that creates a new object with a modified property instead of changing the original object.
+It is similar to a setter, but instead of modifying the existing instance, it returns a clone of the instance with the updated value.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class X {
        private A $property;
        
-       // getter
-       public function getProperty() : A {
-           return $this->property;
+       // setter
+       public function setProperty(A $property): static {
+           $this->property = $property;
+
+           return $this;
        }
    
        // wither
-       public function withProperty() : A{
-           return clone $this->property;
+       public function withProperty(A $property) : static {
+           $clone = (clone) $this;
+           $clone->property = $property;
+
+           return $clone;
        }
    }
-   
-   ?>
 
 
 `Documentation <https://projectlombok.org/features/With>`__
 
 See also `RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_
 
-Related : :ref:`Class <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Getter Method <getter>`
+Related : :ref:`Class <class>`, :ref:`Class Setter Method <setter>`, :ref:`Immutable Object <immutable>`
