@@ -29,6 +29,7 @@ Empty seeAlso for ./human/en/Features/argumentcounterror.ini
 Empty seeAlso for ./human/en/Features/arithmeticerror.ini
 Empty seeAlso for ./human/en/Features/arm.ini
 Empty seeAlso for ./human/en/Features/array-syntax.ini
+Empty seeAlso for ./human/en/Features/array_merge.ini
 Empty seeAlso for ./human/en/Features/arrayaccess.ini
 Empty seeAlso for ./human/en/Features/artifact.ini
 Empty seeAlso for ./human/en/Features/as.ini
@@ -40,6 +41,8 @@ Empty seeAlso for ./human/en/Features/asymmetric-property.ini
 Empty seeAlso for ./human/en/Features/authenticate.ini
 Empty seeAlso for ./human/en/Features/authorize.ini
 Empty seeAlso for ./human/en/Features/automagic.ini
+Empty seeAlso for ./human/en/Features/automatic-index.ini
+Empty seeAlso for ./human/en/Features/backed-enum.ini
 Empty seeAlso for ./human/en/Features/backend.ini
 Empty seeAlso for ./human/en/Features/backward-incompatible.ini
 Empty seeAlso for ./human/en/Features/badfunctioncallexception.ini
@@ -78,6 +81,7 @@ Empty seeAlso for ./human/en/Features/clean-code.ini
 Empty seeAlso for ./human/en/Features/cli.ini
 Empty seeAlso for ./human/en/Features/closure-binding.ini
 Empty seeAlso for ./human/en/Features/closure.ini
+Empty seeAlso for ./human/en/Features/code-coverage.ini
 Empty seeAlso for ./human/en/Features/codepoint.ini
 Empty seeAlso for ./human/en/Features/collision.ini
 Empty seeAlso for ./human/en/Features/colon.ini
@@ -105,6 +109,7 @@ Empty seeAlso for ./human/en/Features/controller.ini
 Empty seeAlso for ./human/en/Features/cookie.ini
 Empty seeAlso for ./human/en/Features/core.ini
 Empty seeAlso for ./human/en/Features/count.ini
+Empty seeAlso for ./human/en/Features/coverage.ini
 Empty seeAlso for ./human/en/Features/crc32.ini
 Empty seeAlso for ./human/en/Features/crud.ini
 Empty seeAlso for ./human/en/Features/cryptography.ini
@@ -115,6 +120,7 @@ Empty seeAlso for ./human/en/Features/data-container.ini
 Empty seeAlso for ./human/en/Features/data.ini
 Empty seeAlso for ./human/en/Features/database.ini
 Empty seeAlso for ./human/en/Features/day-in-seconds.ini
+Empty seeAlso for ./human/en/Features/dba.ini
 Empty seeAlso for ./human/en/Features/declaration.ini
 Empty seeAlso for ./human/en/Features/declare-encoding.ini
 Empty seeAlso for ./human/en/Features/declare.ini
@@ -417,6 +423,7 @@ Empty seeAlso for ./human/en/Features/typed-property.ini
 Empty seeAlso for ./human/en/Features/typeerror.ini
 Empty seeAlso for ./human/en/Features/typo.ini
 Empty seeAlso for ./human/en/Features/unary.ini
+Empty seeAlso for ./human/en/Features/unbacked-enum.ini
 Empty seeAlso for ./human/en/Features/undefined.ini
 Empty seeAlso for ./human/en/Features/underflow.ini
 Empty seeAlso for ./human/en/Features/unexpectedvalueexception.ini
@@ -427,6 +434,7 @@ Empty seeAlso for ./human/en/Features/unreachable-code.ini
 Empty seeAlso for ./human/en/Features/unset.ini
 Empty seeAlso for ./human/en/Features/unused.ini
 Empty seeAlso for ./human/en/Features/use-alias.ini
+Empty seeAlso for ./human/en/Features/use-trait.ini
 Empty seeAlso for ./human/en/Features/use.ini
 Empty seeAlso for ./human/en/Features/userland.ini
 Empty seeAlso for ./human/en/Features/utf-8.ini
@@ -470,7 +478,9 @@ Missing target related link for iterator_to_array in ./human/en/Features/arrayob
 Missing target related link for rbac in ./human/en/Features/authorize.ini
 Missing target related link for identification in ./human/en/Features/authorize.ini
 ./human/en/Features/autoload.ini has empty tags section
+./human/en/Features/automatic-index.ini has empty tags section
 ./human/en/Features/autowiring.ini has empty tags section
+./human/en/Features/backed-enum.ini has empty tags section
 ./human/en/Features/backend.ini has empty tags section
 ./human/en/Features/backward-incompatible.ini has empty code for PHP. 
 ./human/en/Features/backward-incompatible.ini has empty tags section
@@ -501,6 +511,7 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/close-tag.ini has empty tags section
 ./human/en/Features/closure-binding.ini has empty tags section
 ./human/en/Features/closure.ini has empty tags section
+./human/en/Features/code-coverage.ini has empty tags section
 ./human/en/Features/code-freeze.ini has empty tags section
 ./human/en/Features/code-reuse.ini has empty tags section
 ./human/en/Features/coding-convention.ini has empty tags section
@@ -523,10 +534,11 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/count.ini has empty tags section
 ./human/en/Features/crc32.ini has empty tags section
 ./human/en/Features/cryptography.ini has empty tags section
-Missing target related link for token in ./human/en/Features/curly-bracket.ini
 ./human/en/Features/custom.ini has empty tags section
 ./human/en/Features/data-container.ini has empty tags section
 ./human/en/Features/date.ini has empty tags section
+Database Abstraction Layer (DBA) extension has a wrong format (missing capitals) in file ./human/en/Features/dba.ini
+./human/en/Features/dba.ini has short description (98). 
 ./human/en/Features/dead-code.ini has empty tags section
 ./human/en/Features/debugger.ini has empty tags section
 ./human/en/Features/deep-clone.ini has empty tags section
@@ -581,6 +593,8 @@ Missing target related link for option in ./human/en/Features/flag.ini
 ./human/en/Features/function-subscripting.ini has empty tags section
 ./human/en/Features/function.ini has empty tags section
 ./human/en/Features/getter.ini has empty tags section
+gettext extension has a wrong format (missing capitals) in file ./human/en/Features/gettext.ini
+./human/en/Features/gettext.ini has empty tags section
 ./human/en/Features/glob.ini has empty tags section
 ./human/en/Features/global-code.ini has empty tags section
 ./human/en/Features/global-space.ini has empty tags section
@@ -643,7 +657,6 @@ Missing target related link for array_merge in ./human/en/Features/merge.ini
 ./human/en/Features/namespace.ini has empty tags section
 ./human/en/Features/native-type.ini has no description. Omitting. 
 ./human/en/Features/native.ini has empty tags section
-./human/en/Features/negative-index.ini has empty tags section
 ./human/en/Features/neutral-element.ini has empty tags section
 ./human/en/Features/new-without-parenthesis.ini has empty tags section
 ./human/en/Features/non-breakable-space.ini has empty tags section
@@ -691,6 +704,7 @@ Missing target related link for connexion-persistence in ./human/en/Features/per
 ./human/en/Features/php.ini has empty tags section
 ./human/en/Features/pipeline.ini has empty tags section
 ./human/en/Features/plugin.ini has empty tags section
+Missing target related link for array_merge in ./human/en/Features/plus.ini
 ./human/en/Features/polyfill.ini has empty tags section
 ./human/en/Features/port.ini has empty tags section
 ./human/en/Features/portability.ini has empty tags section
@@ -759,6 +773,7 @@ Missing target related link for connexion-persistence in ./human/en/Features/per
 ./human/en/Features/string-interpolation.ini has empty tags section
 Missing target related link for native-interface in ./human/en/Features/stringable.ini
 ./human/en/Features/structure.ini has empty tags section
+./human/en/Features/sunsetting.ini has empty tags section
 ./human/en/Features/superglobal.ini has empty tags section
 ./human/en/Features/synchronous.ini has empty tags section
 ./human/en/Features/syntax-error.ini has empty tags section
@@ -773,16 +788,22 @@ Missing target related link for native-interface in ./human/en/Features/stringab
 ./human/en/Features/thread.ini has empty tags section
 ./human/en/Features/three-dots.ini has empty tags section
 ./human/en/Features/throwable.ini has empty tags section
+./human/en/Features/token.ini has empty tags section
 ./human/en/Features/transpile.ini has empty tags section
 ./human/en/Features/truthy.ini has empty tags section
 ./human/en/Features/type-contravariance.ini has empty tags section
 ./human/en/Features/type-covariance.ini has empty tags section
+./human/en/Features/type-coverage.ini has empty tags section
+./human/en/Features/type-coverage.ini last char is not a .
+./human/en/Features/type-coverage.ini has listing issues
 ./human/en/Features/type-declaration-property.ini has empty tags section
 ./human/en/Features/type.ini has empty tags section
+./human/en/Features/unbacked-enum.ini has empty tags section
 ./human/en/Features/undefined.ini has empty tags section
 ./human/en/Features/unexpectedvalueexception.ini has empty tags section
 ./human/en/Features/upgrade.ini has empty tags section
 ./human/en/Features/use-alias.ini has empty tags section
+./human/en/Features/use-trait.ini has empty tags section
 ./human/en/Features/variable-scope.ini has empty tags section
 ./human/en/Features/version.ini has empty tags section
 ./human/en/Features/view.ini last char is not a .

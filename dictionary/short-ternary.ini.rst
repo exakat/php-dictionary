@@ -29,7 +29,7 @@ Is is a short version of the ternary operator, and it is often used to set defau
    
    <?php
    
-   $action = (empty($_POST['action'])) ?: 'default';
+   $action = (empty($_POST['action'])) ? 'default';
    
    ?>
 

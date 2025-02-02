@@ -65,6 +65,8 @@ Index
    dictionary/array-spread.ini
    dictionary/array-syntax.ini
    dictionary/array.ini
+   dictionary/array_key_exists.ini
+   dictionary/array_merge.ini
    dictionary/arrayaccess.ini
    dictionary/arrayobject.ini
    dictionary/arrow-function.ini
@@ -85,8 +87,10 @@ Index
    dictionary/authorize.ini
    dictionary/autoload.ini
    dictionary/automagic.ini
+   dictionary/automatic-index.ini
    dictionary/autovivification.ini
    dictionary/autowiring.ini
+   dictionary/backed-enum.ini
    dictionary/backend.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
@@ -147,6 +151,7 @@ Index
    dictionary/closure-binding.ini
    dictionary/closure.ini
    dictionary/coalesce.ini
+   dictionary/code-coverage.ini
    dictionary/code-freeze.ini
    dictionary/code-injection.ini
    dictionary/code-reuse.ini
@@ -192,6 +197,7 @@ Index
    dictionary/count.ini
    dictionary/countable.ini
    dictionary/coupling.ini
+   dictionary/coverage.ini
    dictionary/crc32.ini
    dictionary/crud.ini
    dictionary/cryptography.ini
@@ -213,6 +219,7 @@ Index
    dictionary/datetime-trap.ini
    dictionary/day-in-seconds.ini
    dictionary/days-in-month.ini
+   dictionary/dba.ini
    dictionary/dbal.ini
    dictionary/ddd.ini
    dictionary/dead-code.ini
@@ -342,6 +349,7 @@ Index
    dictionary/generator.ini
    dictionary/generics.ini
    dictionary/getter.ini
+   dictionary/gettext.ini
    dictionary/git.ini
    dictionary/glob.ini
    dictionary/global-code.ini
@@ -736,6 +744,7 @@ Index
    dictionary/structure.ini
    dictionary/stubs.ini
    dictionary/subtype.ini
+   dictionary/sunsetting.ini
    dictionary/superglobal.ini
    dictionary/supertype.ini
    dictionary/supply-chain-attack.ini
@@ -767,6 +776,7 @@ Index
    dictionary/tick.ini
    dictionary/tls.ini
    dictionary/toctou.ini
+   dictionary/token.ini
    dictionary/trailing-comma.ini
    dictionary/trait.ini
    dictionary/transpile.ini
@@ -778,6 +788,7 @@ Index
    dictionary/try-catch.ini
    dictionary/type-contravariance.ini
    dictionary/type-covariance.ini
+   dictionary/type-coverage.ini
    dictionary/type-declaration-property.ini
    dictionary/type-juggling.ini
    dictionary/type.ini
@@ -786,6 +797,7 @@ Index
    dictionary/typerror.ini
    dictionary/typo.ini
    dictionary/unary.ini
+   dictionary/unbacked-enum.ini
    dictionary/undefined.ini
    dictionary/underflow.ini
    dictionary/unexpectedvalueexception.ini
@@ -803,6 +815,7 @@ Index
    dictionary/uri.ini
    dictionary/url.ini
    dictionary/use-alias.ini
+   dictionary/use-trait.ini
    dictionary/use.ini
    dictionary/userland.ini
    dictionary/utf-8.ini

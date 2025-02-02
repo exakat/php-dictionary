@@ -40,6 +40,4 @@ A recursive array is an array that contains a reference to itself. It is a legit
    ?>
 
 
-`Documentation < >`__
-
 Related : :ref:`References <reference>`, :ref:`Array <array>`, :ref:`Recursion <recursion>`

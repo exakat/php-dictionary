@@ -181,6 +181,12 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_key_exists.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_merge.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayaccess.ini.html</loc>
  </url>
  <url>
@@ -241,10 +247,16 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/automagic.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/automatic-index.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/autovivification.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/autowiring.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backed-enum.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backend.ini.html</loc>
@@ -427,6 +439,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-coverage.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-freeze.ini.html</loc>
  </url>
  <url>
@@ -562,6 +577,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/coupling.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/coverage.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/crc32.ini.html</loc>
  </url>
  <url>
@@ -623,6 +641,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/days-in-month.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dba.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dbal.ini.html</loc>
@@ -1010,6 +1031,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/getter.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gettext.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/git.ini.html</loc>
@@ -2194,6 +2218,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/subtype.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sunsetting.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html</loc>
  </url>
  <url>
@@ -2287,6 +2314,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/toctou.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/token.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html</loc>
  </url>
  <url>
@@ -2320,6 +2350,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/type-coverage.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/type-declaration-property.ini.html</loc>
  </url>
  <url>
@@ -2342,6 +2375,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/unary.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/unbacked-enum.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/undefined.ini.html</loc>
@@ -2393,6 +2429,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/use-trait.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html</loc>

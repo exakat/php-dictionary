@@ -363,6 +363,7 @@ List of special PHP extensions.
 + :ref:`Bcmath <bcmath>`
 + :ref:`Core <core>`
 + :ref:`Cryptographic Hash <hash-crypto>`
++ :ref:`Database Abstraction Layer (DBA) extension <dba>`
 + :ref:`Hash <hash>`
 + :ref:`Internationalization Functions <intl>`
 + :ref:`Multibyte String <mbstring>`

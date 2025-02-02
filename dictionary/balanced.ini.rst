@@ -25,7 +25,7 @@ Tokens that needs balancing :
 
 + parenthesis, with ``(`` and ``)``
 + curly bracket, with ``{`` and ``}``
-+ variable delimiters with curly bracket, with ````
++ variable delimiters with curly bracket, with ``${`` and ``}``
 + square bracket, with ``[`` and ``]``
 + single quotes, with ``'``
 + double quotes, with ``"``

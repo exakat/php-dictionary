@@ -86,9 +86,13 @@ PHP Dictionary
    * :ref:`Authenticate <authenticate>`
    * :ref:`Authorize <authorize>`
    * :ref:`Automagic <automagic>`
+   * :ref:`Automatic Index <automatic-index>`
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
+   * :ref:`array_key_exists() <array_key_exists>`
+   * :ref:`array_merge() <skeleton>`
 * B
+   * :ref:`Backed Enum <backed-enum>`
    * :ref:`Backed Enumeration <enum-backed>`
    * :ref:`Backend <backend>`
    * :ref:`Backward Incompatible <backward-incompatible>`
@@ -151,6 +155,7 @@ PHP Dictionary
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce Operator <coalesce>`
+   * :ref:`Code Coverage <code-coverage>`
    * :ref:`Code Freeze <code-freeze>`
    * :ref:`Code Injection <code-injection>`
    * :ref:`Code Inventory <inventory>`
@@ -200,6 +205,7 @@ PHP Dictionary
    * :ref:`Countable Interface <countable>`
    * :ref:`Coupling <coupling>`
    * :ref:`Covariance <type-covariance>`
+   * :ref:`Coverage <coverage>`
    * :ref:`Create, Read, Update And Delete (CRUD) <crud>`
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
@@ -221,6 +227,7 @@ PHP Dictionary
    * :ref:`Data Source Name (DSN) <dsn>`
    * :ref:`Data Transfer Object (DTO) <dto>`
    * :ref:`Database <database>`
+   * :ref:`Database Abstraction Layer (DBA) extension <dba>`
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
    * :ref:`Dates <date>`
@@ -361,6 +368,7 @@ PHP Dictionary
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
    * :ref:`GraphQL <graphql>`
+   * :ref:`gettext extension <gettext>`
    * :ref:`git <git>`
    * :ref:`glob() <glob>`
    * :ref:`global Scope <global>`
@@ -761,6 +769,7 @@ PHP Dictionary
    * :ref:`Strpos() Syndrome <strpos-syndrom>`
    * :ref:`Structure <structure>`
    * :ref:`Stubs Files <stubs>`
+   * :ref:`Sunsetting <sunsetting>`
    * :ref:`Superglobal Variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
    * :ref:`Support Vector Machine (SVM) <svm>`
@@ -795,6 +804,7 @@ PHP Dictionary
    * :ref:`Three Dots <three-dots>`
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
+   * :ref:`Token <token>`
    * :ref:`Trailing Comma <trailing-comma>`
    * :ref:`Trait <trait>`
    * :ref:`Transpile <transpile>`
@@ -804,6 +814,7 @@ PHP Dictionary
    * :ref:`True <true>`
    * :ref:`Truthy <truthy>`
    * :ref:`Try-catch <try-catch>`
+   * :ref:`Type Coverage <type-coverage>`
    * :ref:`Type Error <typerror>`
    * :ref:`Type Invariant <invariant>`
    * :ref:`Type Juggling <type-juggling>`
@@ -817,6 +828,7 @@ PHP Dictionary
    * :ref:`UTF-8 <utf8>`
    * :ref:`UUencode Encoding <uuencode>`
    * :ref:`Unary Operator <unary>`
+   * :ref:`Unbacked Enum <unbacked-enum>`
    * :ref:`Undefined <undefined>`
    * :ref:`Underflow <underflow>`
    * :ref:`UnexpectedValueException <unexpectedvalueexception>`
@@ -833,6 +845,7 @@ PHP Dictionary
    * :ref:`Upgrade <upgrade>`
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
+   * :ref:`Use In Traits <use-trait>`
    * :ref:`User Operations For Zend (UOPZ) <uopz>`
    * :ref:`Userland <userland>`
    * :ref:`unset() <unset>`

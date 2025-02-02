@@ -36,6 +36,6 @@ Feature flags are typically implemented as conditional statements in the codebas
 
 `Documentation <https://en.wikipedia.org/wiki/Feature_toggle>`__
 
-See also `How to use feature flags in a PHP application <https://configcat.com/blog/2022/09/16/how-to-use-feature-flags-in-php/>`_
+See also https://configcat.com/blog/2022/09/16/how-to-use-feature-flags-in-php/, https://chrastecky.dev/programming/unleash-feature-flags-in-php
 
 Related packages : `ylsideas/feature-flags <https://packagist.org/packages/ylsideas/feature-flags>`_

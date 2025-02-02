@@ -23,9 +23,9 @@ The use operator has three distinct usages.
 
 The use operator allows the import and aliasing of fully qualified names (such as classes, interfaces, constants, ...)  in the current namespace. 
 
-When `use` used inside a class or a trait, it imports a trait and its methods and properties. 
+When `use` used inside a class or a trait, it imports a trait and its methods and properties. It is also the place to solve naming conflicts.
 
-When `use` is used with a closure, it imports the listed variables in the closure, from the defining environment. 
+When `use` is used with a closure, it imports the listed variables in the closure, from the defining environment.
 
 .. code-block:: php
    
@@ -55,4 +55,4 @@ When `use` is used with a closure, it imports the listed variables in the closur
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Trait <trait>`, :ref:`Fully Qualified Name <fqn>`
+Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Trait <trait>`, :ref:`Use In Traits <use-trait>`, :ref:`Fully Qualified Name <fqn>`

@@ -28,8 +28,6 @@ Curly brackets have different usage in PHP:
 
 They are also called curly braces.
 
-
-
 .. code-block:: php
    
    <?php
@@ -51,4 +49,4 @@ They are also called curly braces.
 
 See also `PHP Curly Braces: How and When to Use it? <https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/>`_
 
-Related : :ref:`Block <block>`, :ref:`String <string>`, :ref:`Square Brackets <square-bracket>`, 
+Related : :ref:`Block <block>`, :ref:`String <string>`, :ref:`Square Brackets <square-bracket>`, :ref:`Token <token>`
