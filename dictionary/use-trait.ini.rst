@@ -14,6 +14,9 @@
 	:og:description: ``use`` is a keyword for traits and classes: it imports another trait in the current structure
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/use-trait.ini.html
 	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Use In Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Feb 2025 10:14:23 +0000","dateModified":"Sun, 02 Feb 2025 10:14:23 +0000","description":"``use`` is a keyword for traits and classes: it imports another trait in the current structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Use In Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Use In Traits
