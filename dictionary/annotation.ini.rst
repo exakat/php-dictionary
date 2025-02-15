@@ -56,6 +56,6 @@ PHP annotations are based on PHPDoc comment's syntax, and are later partially mo
 
 See also `Understanding annotations <https://php-annotations.readthedocs.io/en/latest/UsingAnnotations.html>`_, `Annotating Types via PHP Doc Comments <https://scrutinizer-ci.com/docs/tools/php/php-analyzer/guides/annotating_code>`_
 
-Related : :ref:`Attributes <attribute>`
+Related : :ref:`Attribute <attribute>`
 
 Related packages : `php-annotations/php-annotations <https://packagist.org/packages/php-annotations/php-annotations>`_

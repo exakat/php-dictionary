@@ -6,6 +6,7 @@ Acronym
 List of acronyms, used in this dictionary.
 
 + :ref:`Abstract Syntactic Tree (AST) <ast>`
++ :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
 + :ref:`Application Performance Management (APM) <apm>`
 + :ref:`Class Interface Trait Enumeration (CITE) <cite>`
 + :ref:`Client URL (CURL) <curl>`
@@ -48,7 +49,9 @@ List of acronyms, used in this dictionary.
 + :ref:`Remote Procedure Call (RPC) <rpc>`
 + :ref:`Request For Change (RFC) <rfchange>`
 + :ref:`Reserved For Future Use (RFU) <rfu>`
++ :ref:`Role Based Access Control (RBAC) <rbac>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
++ :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
 + :ref:`Single Page Application (SPA) <spa>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
@@ -92,6 +95,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Anonymous <anonymous>`
 + :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Artifact <artifact>`
++ :ref:`Autowiring <autowiring>`
++ :ref:`Backend <backend>`
 + :ref:`Benchmarking <benchmarking>`
 + :ref:`Class <class>`
 + :ref:`Class Entities <class-entity>`
@@ -122,6 +127,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
++ :ref:`Expression <expression>`
 + :ref:`Extensions <extension>`
 + :ref:`Facade <facade>`
 + :ref:`Feature <feature>`
@@ -309,6 +315,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
 + :ref:`Return Type <return-type>`
++ :ref:`Special Types <special-type>`
 + :ref:`Standalone Types <standalone-types>`
 + :ref:`Stringable <stringable>`
 + :ref:`True <true>`
@@ -369,11 +376,14 @@ List of special PHP extensions.
 + :ref:`Multibyte String <mbstring>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
++ :ref:`PostgreSQL <postgresql>`
 + :ref:`Reflection <reflection>`
++ :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`SimpleXML <simplexml>`
 + :ref:`Standard PHP Library (SPL) <spl>`
 + :ref:`XMLwriter <xmlwriter>`
 + :ref:`XXTEA <xxtea>`
++ :ref:`gettext Extension <gettext>`
 
 Token
 -----

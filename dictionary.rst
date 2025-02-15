@@ -46,6 +46,7 @@ PHP Dictionary
    * :ref:`Alias Types <alias-types>`
    * :ref:`Allow Dynamic Properties <allowdynamicproperties>`
    * :ref:`Alternative Syntax <alternative-syntax>`
+   * :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
    * :ref:`And Operator <and>`
    * :ref:`Annotations <annotation>`
    * :ref:`Anonymous <anonymous>`
@@ -81,8 +82,8 @@ PHP Dictionary
    * :ref:`Asymetric Visibility <asymmetric-visibility>`
    * :ref:`Asymmetric Property <asymmetric-property>`
    * :ref:`Asynchronous <asynchronous>`
+   * :ref:`Attribute <attribute>`
    * :ref:`Attribute Class <attribute-class>`
-   * :ref:`Attributes <attribute>`
    * :ref:`Authenticate <authenticate>`
    * :ref:`Authorize <authorize>`
    * :ref:`Automagic <automagic>`
@@ -115,6 +116,7 @@ PHP Dictionary
    * :ref:`Branch <branch>`
    * :ref:`Break <break>`
    * :ref:`Bucket <bucket>`
+   * :ref:`Byte <byte>`
    * :ref:`basename <basename>`
    * :ref:`browscap <browscap>`
 * C
@@ -368,7 +370,7 @@ PHP Dictionary
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
    * :ref:`GraphQL <graphql>`
-   * :ref:`gettext extension <gettext>`
+   * :ref:`gettext Extension <gettext>`
    * :ref:`git <git>`
    * :ref:`glob() <glob>`
    * :ref:`global Scope <global>`
@@ -395,6 +397,7 @@ PHP Dictionary
    * :ref:`hg <hg>`
    * :ref:`http:// <wrapper-https>`
 * I
+   * :ref:`INI <ini>`
    * :ref:`IP <ip>`
    * :ref:`Iconv <iconv>`
    * :ref:`Idempotent <idempotent>`
@@ -405,6 +408,7 @@ PHP Dictionary
    * :ref:`ImagickException <imagickexception>`
    * :ref:`ImagickPixelException <imagickpixelexception>`
    * :ref:`Immutable <immutable>`
+   * :ref:`Implicit <implicit>`
    * :ref:`Import <import>`
    * :ref:`Inclusions <inclusion>`
    * :ref:`Incoming Data <incoming-data>`
@@ -450,6 +454,7 @@ PHP Dictionary
    * :ref:`Keyword <keyword>`
 * L
    * :ref:`Language Construct <language-construct>`
+   * :ref:`Laravel <laravel>`
    * :ref:`Late Static Binding <late-static-binding>`
    * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`Lazy Objects <lazy-objects>`
@@ -478,6 +483,7 @@ PHP Dictionary
 * M
    * :ref:`Machine Learning <machine-learning>`
    * :ref:`Magic <magic>`
+   * :ref:`Magic Bytes <magic-bytes>`
    * :ref:`Magic Constants <magic-constant>`
    * :ref:`Magic Hash <magic-hash>`
    * :ref:`Magic Methods <magic-method>`
@@ -518,6 +524,7 @@ PHP Dictionary
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
    * :ref:`Namespace Alias <namespace-alias>`
+   * :ref:`Namespace Name <namespace-name>`
    * :ref:`Namespaces <namespace>`
    * :ref:`Naming <naming>`
    * :ref:`Native <native>`
@@ -615,11 +622,13 @@ PHP Dictionary
    * :ref:`PharException <pharexception>`
    * :ref:`Pipeline <pipeline>`
    * :ref:`Plugin <plugin>`
+   * :ref:`Plus + <plus>`
    * :ref:`Polyfill <polyfill>`
    * :ref:`Polymorphism <polymorphism>`
    * :ref:`Port <port>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
+   * :ref:`PostgreSQL <postgresql>`
    * :ref:`Precedence <precedence>`
    * :ref:`Predefined Constants <predefined-constant>`
    * :ref:`Prepared Query <prepared-query>`
@@ -642,7 +651,6 @@ PHP Dictionary
    * :ref:`php.ini <php.ini>`
    * :ref:`php:// <wrapper-php>`
    * :ref:`phpinfo() <phpinfo>`
-   * :ref:`plus + <plus>`
    * :ref:`print_r() <print_r>`
 * Q
    * :ref:`Query <query>`
@@ -684,6 +692,7 @@ PHP Dictionary
    * :ref:`Return Type Will Change <returntypewillchange>`
    * :ref:`Return Value <return-value>`
    * :ref:`Revision <revision>`
+   * :ref:`Role Based Access Control (RBAC) <rbac>`
    * :ref:`Rounding <rounding>`
    * :ref:`Route <route>`
    * :ref:`Rubber Ducking Debugging <rubber-ducking>`
@@ -822,6 +831,7 @@ PHP Dictionary
    * :ref:`TypeError <typeerror>`
    * :ref:`Typed Property <typed-property>`
    * :ref:`Typo <typo>`
+   * :ref:`testdox <testdoc>`
    * :ref:`throw <throw>`
    * :ref:`toctou : Time Of Check To Time Of Use <toctou>`
 * U
@@ -846,6 +856,7 @@ PHP Dictionary
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
    * :ref:`Use In Traits <use-trait>`
+   * :ref:`Useless <useless>`
    * :ref:`User Operations For Zend (UOPZ) <uopz>`
    * :ref:`Userland <userland>`
    * :ref:`unset() <unset>`

@@ -24,4 +24,4 @@ Authorize
 
 To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action.
 
-Related : :ref:`Single Sign On (SSO) <sso>`, , , :ref:`Permission <permission>`
+Related : :ref:`Single Sign On (SSO) <sso>`, :ref:`Role Based Access Control (RBAC) <rbac>`, , :ref:`Permission <permission>`

@@ -72,6 +72,7 @@ Index
    dictionary/arrow-function.ini
    dictionary/artifact.ini
    dictionary/as.ini
+   dictionary/ascii.ini
    dictionary/assertion.ini
    dictionary/asset.ini
    dictionary/assignation.ini
@@ -116,6 +117,7 @@ Index
    dictionary/bucket.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
+   dictionary/byte.ini
    dictionary/c2-framework.ini
    dictionary/cache.ini
    dictionary/call.ini
@@ -393,6 +395,7 @@ Index
    dictionary/imagickpixelexception.ini
    dictionary/immutable.ini
    dictionary/implements.ini
+   dictionary/implicit.ini
    dictionary/import.ini
    dictionary/include.ini
    dictionary/inclusion.ini
@@ -408,6 +411,7 @@ Index
    dictionary/inflector.ini
    dictionary/inheritance.ini
    dictionary/inherited-variable.ini
+   dictionary/ini.ini
    dictionary/initialisation.ini
    dictionary/injection.ini
    dictionary/instance.ini
@@ -439,6 +443,7 @@ Index
    dictionary/label.ini
    dictionary/lamp.ini
    dictionary/language-construct.ini
+   dictionary/laravel.ini
    dictionary/late-static-binding.ini
    dictionary/lazy-loading.ini
    dictionary/lazy-objects.ini
@@ -464,6 +469,7 @@ Index
    dictionary/loop.ini
    dictionary/lsp.ini
    dictionary/machine-learning.ini
+   dictionary/magic-byte.ini
    dictionary/magic-constant.ini
    dictionary/magic-hash.ini
    dictionary/magic-method.ini
@@ -503,6 +509,7 @@ Index
    dictionary/named-constructor.ini
    dictionary/named-parameter.ini
    dictionary/namespace-alias.ini
+   dictionary/namespace-name.ini
    dictionary/namespace.ini
    dictionary/naming.ini
    dictionary/native.ini
@@ -577,6 +584,7 @@ Index
    dictionary/performance.ini
    dictionary/permission.ini
    dictionary/persistence.ini
+   dictionary/pgsql.ini
    dictionary/phar.ini
    dictionary/pharexception.ini
    dictionary/php-docker-container.ini
@@ -626,6 +634,7 @@ Index
    dictionary/queue.ini
    dictionary/random.ini
    dictionary/rangeexception.ini
+   dictionary/rbac.ini
    dictionary/rdbms.ini
    dictionary/readability.ini
    dictionary/reading.ini
@@ -769,6 +778,7 @@ Index
    dictionary/test-data-provider.ini
    dictionary/test-pyramid.ini
    dictionary/test.ini
+   dictionary/testdox.ini
    dictionary/thread.ini
    dictionary/three-dots.ini
    dictionary/throw.ini
@@ -817,6 +827,7 @@ Index
    dictionary/use-alias.ini
    dictionary/use-trait.ini
    dictionary/use.ini
+   dictionary/useless.ini
    dictionary/userland.ini
    dictionary/utf-8.ini
    dictionary/uuencode.ini
