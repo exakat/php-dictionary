@@ -154,6 +154,7 @@ Index
    dictionary/closure.ini
    dictionary/coalesce.ini
    dictionary/code-coverage.ini
+   dictionary/code-formatting.ini
    dictionary/code-freeze.ini
    dictionary/code-injection.ini
    dictionary/code-reuse.ini
@@ -304,6 +305,7 @@ Index
    dictionary/exception.ini
    dictionary/execution-time.ini
    dictionary/exit.ini
+   dictionary/explicit.ini
    dictionary/exponent.ini
    dictionary/exponential.ini
    dictionary/expression.ini
@@ -655,6 +657,7 @@ Index
    dictionary/relaxed-comparison.ini
    dictionary/relaxed-keywords.ini
    dictionary/relaxed-syntax.ini
+   dictionary/relay-function.ini
    dictionary/release.ini
    dictionary/render.ini
    dictionary/reserved-name.ini
@@ -857,6 +860,7 @@ Index
    dictionary/web.ini
    dictionary/webscraping.ini
    dictionary/webserver.ini
+   dictionary/websocket.ini
    dictionary/while.ini
    dictionary/whitespace.ini
    dictionary/wither.ini

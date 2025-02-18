@@ -165,6 +165,7 @@ PHP Dictionary
    * :ref:`Code Smell <code-smell>`
    * :ref:`Codepoint <code>`
    * :ref:`Coding Conventions <coding-convention>`
+   * :ref:`Coding Formatting <code-formatting>`
    * :ref:`Collection <collection>`
    * :ref:`Collision <collision>`
    * :ref:`Colon <colon>`
@@ -311,6 +312,7 @@ PHP Dictionary
    * :ref:`Exception Handler <exception-handler>`
    * :ref:`Execution Time <execution-time>`
    * :ref:`Exit <exit>`
+   * :ref:`Explicit <explicit>`
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
    * :ref:`Expression <expression>`
@@ -681,6 +683,7 @@ PHP Dictionary
    * :ref:`Relaxed Comparison <relaxed-comparison>`
    * :ref:`Relaxed Keywords <relaxed-keywords>`
    * :ref:`Relaxed Syntax <relaxed-syntax>`
+   * :ref:`Relay Function <relay-function>`
    * :ref:`Release <release>`
    * :ref:`Remote Procedure Call (RPC) <rpc>`
    * :ref:`Rendering <render>`
@@ -885,6 +888,7 @@ PHP Dictionary
    * :ref:`Weak References <weak-reference>`
    * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
+   * :ref:`Websocket <websocket>`
    * :ref:`While <while>`
    * :ref:`Whitespace <whitespace>`
    * :ref:`World Wide Weab (WWW) <web>`

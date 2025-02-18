@@ -45,4 +45,4 @@ The contrary to implicit is explicit. This notion share similarities with hidden
    ?>
 
 
-Related : 
+Related : :ref:`Explicit <explicit>`

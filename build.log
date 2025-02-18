@@ -166,6 +166,7 @@ Empty seeAlso for ./human/en/Features/escape-html.ini
 Empty seeAlso for ./human/en/Features/exception-chain.ini
 Empty seeAlso for ./human/en/Features/exception-handler.ini
 Empty seeAlso for ./human/en/Features/execution-time.ini
+Empty seeAlso for ./human/en/Features/explicit.ini
 Empty seeAlso for ./human/en/Features/exponent.ini
 Empty seeAlso for ./human/en/Features/exponential.ini
 Empty seeAlso for ./human/en/Features/expression.ini
@@ -358,6 +359,7 @@ Empty seeAlso for ./human/en/Features/register-globals.ini
 Empty seeAlso for ./human/en/Features/relative-types.ini
 Empty seeAlso for ./human/en/Features/relative.ini
 Empty seeAlso for ./human/en/Features/relaxed-keywords.ini
+Empty seeAlso for ./human/en/Features/relay-function.ini
 Empty seeAlso for ./human/en/Features/release.ini
 Empty seeAlso for ./human/en/Features/render.ini
 Empty seeAlso for ./human/en/Features/return-value.ini
@@ -509,6 +511,7 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/closure-binding.ini has empty tags section
 ./human/en/Features/closure.ini has empty tags section
 ./human/en/Features/code-coverage.ini has empty tags section
+related has empty entries in ./human/en/Features/code-formatting.ini
 ./human/en/Features/code-freeze.ini has empty tags section
 ./human/en/Features/code-reuse.ini has empty tags section
 ./human/en/Features/coding-convention.ini has empty tags section
@@ -570,6 +573,7 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/exception-handler.ini has empty tags section
 ./human/en/Features/exception.ini has empty tags section
 ./human/en/Features/execution-time.ini has empty tags section
+./human/en/Features/explicit.ini has empty tags section
 ./human/en/Features/extends.ini has empty tags section
 ./human/en/Features/extension.ini last char is not a .
 ./human/en/Features/falsy.ini has empty tags section
@@ -587,8 +591,6 @@ Missing target related link for option in ./human/en/Features/flag.ini
 ./human/en/Features/fully-qualified-name.ini has empty tags section
 ./human/en/Features/function-subscripting.ini has empty tags section
 ./human/en/Features/function.ini has empty tags section
-./human/en/Features/getter.ini has empty tags section
-./human/en/Features/glob.ini has empty tags section
 ./human/en/Features/global-code.ini has empty tags section
 ./human/en/Features/global-space.ini has empty tags section
 ./human/en/Features/handle.ini has empty tags section
@@ -604,7 +606,6 @@ Missing target related link for option in ./human/en/Features/flag.ini
 ./human/en/Features/identity-comparison.ini has no description. Omitting. 
 ./human/en/Features/implements.ini has empty tags section
 ./human/en/Features/implicit.ini has empty tags section
-Missing target related link for explicit in ./human/en/Features/implicit.ini
 ./human/en/Features/import.ini has empty tags section
 ./human/en/Features/incoming-data.ini has empty tags section
 ./human/en/Features/increment.ini has empty tags section
@@ -637,7 +638,6 @@ Missing target related link for explicit in ./human/en/Features/implicit.ini
 ./human/en/Features/magic.ini has empty tags section
 ./human/en/Features/map.ini has empty tags section
 ./human/en/Features/memoization.ini has empty tags section
-./human/en/Features/merge.ini has empty code for PHP. 
 ./human/en/Features/merge.ini has empty tags section
 Missing target related link for array_merge in ./human/en/Features/merge.ini
 ./human/en/Features/message-queue.ini has empty tags section
@@ -758,7 +758,6 @@ Missing target related link for array_merge in ./human/en/Features/plus.ini
 ./human/en/Features/stateful.ini has empty tags section
 ./human/en/Features/statement.ini has empty tags section
 ./human/en/Features/static-expression.ini has empty tags section
-./human/en/Features/static-method.ini has empty tags section
 ./human/en/Features/stdclass.ini has empty tags section
 ./human/en/Features/stdout.ini has empty tags section
 ./human/en/Features/strict-comparison.ini has empty tags section
@@ -805,6 +804,8 @@ Missing target related link for native-interface in ./human/en/Features/stringab
 ./human/en/Features/weak-reference.ini has empty tags section
 ./human/en/Features/webscraping.ini has empty tags section
 ./human/en/Features/webserver.ini has empty tags section
+./human/en/Features/websocket.ini has empty code for PHP. 
+./human/en/Features/websocket.ini has empty tags section
 ./human/en/Features/whitespace.ini has empty tags section
 ./human/en/Features/wrapper-stream.ini has empty tags section
 ./human/en/Features/writable.ini has empty tags section
