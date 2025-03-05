@@ -35,6 +35,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Liskov Substitution Principle (LSP) <lsp>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
++ :ref:`Not A Number (NAN) <nan>`
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
 + :ref:`PEAR <pear>`
@@ -90,6 +91,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 
 + :ref:`$this <$this>`
 + :ref:`Abstraction Layer <abstraction-layer>`
++ :ref:`Accessibility <accessibility>`
 + :ref:`Active Record <active-record>`
 + :ref:`Alias <alias>`
 + :ref:`Anonymous <anonymous>`
@@ -98,6 +100,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Autowiring <autowiring>`
 + :ref:`Backend <backend>`
 + :ref:`Benchmarking <benchmarking>`
++ :ref:`Centralization <centralization>`
 + :ref:`Class <class>`
 + :ref:`Class Entities <class-entity>`
 + :ref:`Class Hoisting <class-hoisting>`

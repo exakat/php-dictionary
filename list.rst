@@ -31,6 +31,7 @@ Index
    dictionary/__tostring.ini
    dictionary/__unserialize.ini
    dictionary/__wakeup.ini
+   dictionary/absolute-value.ini
    dictionary/absolute.ini
    dictionary/abstract-class.ini
    dictionary/abstract.ini
@@ -170,6 +171,7 @@ Index
    dictionary/compact-array.ini
    dictionary/compact.ini
    dictionary/comparison.ini
+   dictionary/compatibility.ini
    dictionary/compile-time.ini
    dictionary/component.ini
    dictionary/composer.ini
@@ -220,6 +222,7 @@ Index
    dictionary/dataset.ini
    dictionary/date.ini
    dictionary/datetime-trap.ini
+   dictionary/datetime.ini
    dictionary/day-in-seconds.ini
    dictionary/days-in-month.ini
    dictionary/dba.ini
@@ -514,6 +517,7 @@ Index
    dictionary/namespace-name.ini
    dictionary/namespace.ini
    dictionary/naming.ini
+   dictionary/nan.ini
    dictionary/native.ini
    dictionary/needle.ini
    dictionary/negative-index.ini
@@ -526,6 +530,8 @@ Index
    dictionary/new.ini
    dictionary/non-breakable-space.ini
    dictionary/non-static.ini
+   dictionary/noscream.ini
+   dictionary/not.ini
    dictionary/nowdoc.ini
    dictionary/null.ini
    dictionary/nullable.ini
@@ -574,6 +580,7 @@ Index
    dictionary/parenthesis.ini
    dictionary/parse.ini
    dictionary/parseerror.ini
+   dictionary/partial-function.ini
    dictionary/password-ext.ini
    dictionary/password.ini
    dictionary/path.ini
@@ -600,6 +607,7 @@ Index
    dictionary/php-wrapper.ini
    dictionary/php.ini
    dictionary/php.ini.ini
+   dictionary/php_max_int.ini
    dictionary/phpdoc.ini
    dictionary/phpinfo.ini
    dictionary/phpunit.ini
@@ -689,6 +697,7 @@ Index
    dictionary/second-order-sql-injection.ini
    dictionary/security.ini
    dictionary/segmentation-fault.ini
+   dictionary/self-reference.ini
    dictionary/self.ini
    dictionary/semantics.ini
    dictionary/semicolon.ini

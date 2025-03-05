@@ -57,4 +57,4 @@ The notion of absolute is the opposite of the notion of relative, which depends 
    ?>
 
 
-Related : :ref:`Fully Qualified Name <fully-qualified-name>`, , :ref:`Path <path>`, :ref:`Relative <relative>`
+Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Absolute Value <absolute-value>`, :ref:`Path <path>`, :ref:`Relative <relative>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"PHP comments are used to add explanatory notes or annotations within your code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:12:02 +0000","dateModified":"Wed, 05 Mar 2025 15:12:02 +0000","description":"PHP comments are used to add explanatory notes or annotations within your code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Comments
@@ -31,6 +31,8 @@ Multi-line comments: these are comments that can span multiple lines, allowing f
 It's important to note that comments do not affect the execution of the PHP code; they are ignored by the PHP interpreter: in fact, they are removed before execution. Comments are primarily for developers and maintainers of the code to understand its purpose, logic, or any special considerations. Well-documented code with meaningful comments can make it easier for you and others to read, understand, and maintain PHP applications.
 
 Comments may be formalized with a specific syntax, and create automated instruction for other application. For example, phpdoc comments are providing extra information with a specific syntax.
+
+As a side feature, comments may also be started with the Unicode #️⃣️ character.
 
 
 .. code-block:: php
@@ -48,8 +50,14 @@ Comments may be formalized with a specific syntax, and create automated instruct
        */
    
        $variable = 43; 
+       
+       #️⃣️ One line comment
    
    ?>
 
+
+`Documentation <https://www.php.net/manual/en/language.basic-syntax.comments.php>`__
+
+See also https://flatcoding.com/tutorials/php-programming/php-comments/, https://www.phptutorial.net/php-tutorial/php-comments/
 
 Related : :ref:`PHPdoc <phpdoc>`

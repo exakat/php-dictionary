@@ -17,6 +17,8 @@ PHP Dictionary
    * :ref:`$this <$this>`
 * .
    * :ref:`.htaccess <htaccess>`
+* @
+   * :ref:`@, No Scream Operator <noscream>`
 * _
    * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() Method <-__callStatic>`
@@ -34,6 +36,7 @@ PHP Dictionary
    * :ref:`__wakeup() Method <-__wakeup>`
 * A
    * :ref:`Absolute <absolute>`
+   * :ref:`Absolute Value <absolute-value>`
    * :ref:`Abstract Class <abstract-class>`
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree (AST) <ast>`
@@ -91,7 +94,7 @@ PHP Dictionary
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
    * :ref:`array_key_exists() <array_key_exists>`
-   * :ref:`array_merge() <skeleton>`
+   * :ref:`array_merge() <array_merge>`
 * B
    * :ref:`Backed Enum <backed-enum>`
    * :ref:`Backed Enumeration <enum-backed>`
@@ -177,6 +180,7 @@ PHP Dictionary
    * :ref:`Common Interface Gateway (CGI) <cgi>`
    * :ref:`Compact Array <compact-array>`
    * :ref:`Comparison <comparison-operator>`
+   * :ref:`Compatibility <compatibility>`
    * :ref:`Compile Time <compile-time>`
    * :ref:`Component <component>`
    * :ref:`Composer <composer>`
@@ -233,6 +237,7 @@ PHP Dictionary
    * :ref:`Database Abstraction Layer (DBA) extension <dba>`
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
+   * :ref:`DateTime <datetime>`
    * :ref:`Dates <date>`
    * :ref:`Datetime Trap <datetime-trap>`
    * :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
@@ -464,7 +469,7 @@ PHP Dictionary
    * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
-   * :ref:`Lexical Variable <lexical-variable>`
+   * :ref:`Lexical Variable <lexical>`
    * :ref:`Library Loading <library-loading>`
    * :ref:`Lint, Won't Execute <lint-wont-execute>`
    * :ref:`Linting <linting>`
@@ -539,6 +544,8 @@ PHP Dictionary
    * :ref:`New Without Parenthesis <new-without-parenthesis>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Non-static <non-static>`
+   * :ref:`Not A Number (NAN) <nan>`
+   * :ref:`Not Operator <not>`
    * :ref:`Nowdocs <nowdoc>`
    * :ref:`Null <null>`
    * :ref:`Null Pattern <nullpattern>`
@@ -601,6 +608,7 @@ PHP Dictionary
    * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrappers <php-wrapper>`
    * :ref:`PHP-FPM (FPM) <fpm>`
+   * :ref:`PHP_INT_MAX <php_int_max>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`PHPunit <phpunit>`
    * :ref:`Packagist <packagist>`
@@ -611,6 +619,7 @@ PHP Dictionary
    * :ref:`Parenthesis <parenthesis>`
    * :ref:`Parse <parse>`
    * :ref:`ParseError <parseerror>`
+   * :ref:`Partial Function <partial-function>`
    * :ref:`Passing By Reference <by-reference>`
    * :ref:`Passing By Value <by-value>`
    * :ref:`Password <password>`
@@ -723,6 +732,7 @@ PHP Dictionary
    * :ref:`Security <security>`
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
+   * :ref:`Self-reference <self-reference>`
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
