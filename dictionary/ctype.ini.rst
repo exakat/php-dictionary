@@ -42,4 +42,4 @@ Ctype
 
 See also `An Introduction to Ctype Functions <https://www.sitepoint.com/an-introduction-to-ctype-functions/>`_
 
-Related : :ref:`Validation <filter>`
+Related : :ref:`filter <filter>`

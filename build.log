@@ -152,7 +152,6 @@ Empty seeAlso for ./human/en/Features/dynamic.ini
 Empty seeAlso for ./human/en/Features/each.ini
 Empty seeAlso for ./human/en/Features/early-binding.ini
 Empty seeAlso for ./human/en/Features/echo-tag.ini
-Empty seeAlso for ./human/en/Features/echo.ini
 Empty seeAlso for ./human/en/Features/ellipsis.ini
 Empty seeAlso for ./human/en/Features/email.ini
 Empty seeAlso for ./human/en/Features/encoding-text.ini
@@ -160,7 +159,6 @@ Empty seeAlso for ./human/en/Features/engine.ini
 Empty seeAlso for ./human/en/Features/entity.ini
 Empty seeAlso for ./human/en/Features/enum-backed.ini
 Empty seeAlso for ./human/en/Features/enum-case.ini
-Empty seeAlso for ./human/en/Features/error-handling.ini
 Empty seeAlso for ./human/en/Features/error.ini
 Empty seeAlso for ./human/en/Features/escape-data.ini
 Empty seeAlso for ./human/en/Features/escape-html.ini
@@ -343,7 +341,6 @@ Empty seeAlso for ./human/en/Features/positional-parameter.ini
 Empty seeAlso for ./human/en/Features/predefined-exception.ini
 Empty seeAlso for ./human/en/Features/prepared-query.ini
 Empty seeAlso for ./human/en/Features/preprocess.ini
-Empty seeAlso for ./human/en/Features/print.ini
 Empty seeAlso for ./human/en/Features/print_r.ini
 Empty seeAlso for ./human/en/Features/private.ini
 Empty seeAlso for ./human/en/Features/protected.ini
@@ -384,7 +381,6 @@ Empty seeAlso for ./human/en/Features/security.ini
 Empty seeAlso for ./human/en/Features/self-reference.ini
 Empty seeAlso for ./human/en/Features/semantics.ini
 Empty seeAlso for ./human/en/Features/semicolon.ini
-Empty seeAlso for ./human/en/Features/shard.ini
 Empty seeAlso for ./human/en/Features/shell.ini
 Empty seeAlso for ./human/en/Features/sign.ini
 Empty seeAlso for ./human/en/Features/signature.ini
@@ -509,7 +505,6 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/closure-binding.ini has empty tags section
 ./human/en/Features/closure.ini has empty tags section
 ./human/en/Features/code-coverage.ini has empty tags section
-./human/en/Features/code-formatting.ini has double tags : coding-convention.
 ./human/en/Features/code-freeze.ini has empty tags section
 ./human/en/Features/code-reuse.ini has empty tags section
 ./human/en/Features/coding-convention.ini has empty tags section
@@ -563,7 +558,6 @@ Database Abstraction Layer (DBA) extension has a wrong format (missing capitals)
 ./human/en/Features/enum-backed.ini has empty tags section
 ./human/en/Features/enum-case.ini has empty tags section
 Missing target related link for lintable in ./human/en/Features/enum-case.ini
-./human/en/Features/error-handling.ini has empty tags section
 Missing target related link for error-system in ./human/en/Features/error-handling.ini
 ./human/en/Features/error.ini has empty tags section
 ./human/en/Features/escape-html.ini has empty tags section
@@ -694,6 +688,9 @@ Missing target related link for connexion-persistence in ./human/en/Features/per
 ./human/en/Features/pharexception.ini has empty tags section
 ./human/en/Features/php-docker-container.ini has empty tags section
 ./human/en/Features/php-extension.ini has empty tags section
+PHP foundation has a wrong format (missing capitals) in file ./human/en/Features/php-foundation.ini
+./human/en/Features/php-foundation.ini has empty tags section
+Missing target related link for php-group in ./human/en/Features/php-foundation.ini
 ./human/en/Features/php-native-attribute.ini has empty tags section
 ./human/en/Features/php-native-attribute.ini last char is not a .
 ./human/en/Features/php-tag.ini has empty tags section

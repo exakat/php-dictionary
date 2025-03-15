@@ -365,6 +365,7 @@ PHP Dictionary
    * :ref:`Functions <function>`
    * :ref:`feature-flag <feature-switch>`
    * :ref:`file:// <wrapper-file>`
+   * :ref:`filter <filter>`
    * :ref:`ftp:// <wrapper-ftps>`
 * G
    * :ref:`Garbage Collection <garbage-collection>`
@@ -607,6 +608,7 @@ PHP Dictionary
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrappers <php-wrapper>`
+   * :ref:`PHP foundation <php-foundation>`
    * :ref:`PHP-FPM (FPM) <fpm>`
    * :ref:`PHP_INT_MAX <php_int_max>`
    * :ref:`PHPdoc <phpdoc>`

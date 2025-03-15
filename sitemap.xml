@@ -976,6 +976,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/filter.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/final-class-constant.ini.html</loc>
  </url>
  <url>
@@ -1781,6 +1784,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-fig.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-foundation.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-native-attribute.ini.html</loc>

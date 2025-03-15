@@ -386,6 +386,7 @@ List of special PHP extensions.
 + :ref:`Standard PHP Library (SPL) <spl>`
 + :ref:`XMLwriter <xmlwriter>`
 + :ref:`XXTEA <xxtea>`
++ :ref:`filter <filter>`
 + :ref:`gettext Extension <gettext>`
 
 Token

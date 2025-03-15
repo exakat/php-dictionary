@@ -45,6 +45,6 @@ PHP also offers special filter to validate email addresses, with the filter exte
 
 `Documentation <https://www.php.net/manual/fr/function.mail.php>`__
 
-Related : :ref:`Validation <filter>`
+Related : :ref:`filter <filter>`
 
 Related packages : `phpmailer/phpmailer <https://packagist.org/packages/phpmailer/phpmailer>`_, `symfony/mailer <https://packagist.org/packages/symfony/mailer>`_, `swiftmailer/swiftmailer <https://packagist.org/packages/swiftmailer/swiftmailer>`_, `php-imap/php-imap <https://packagist.org/packages/php-imap/php-imap>`_

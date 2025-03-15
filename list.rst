@@ -330,6 +330,7 @@ Index
    dictionary/file.ini
    dictionary/filesystem.ini
    dictionary/filesystemiterator.ini
+   dictionary/filter.ini
    dictionary/final-class-constant.ini
    dictionary/final.ini
    dictionary/finally.ini
@@ -599,6 +600,7 @@ Index
    dictionary/php-docker-container.ini
    dictionary/php-extension.ini
    dictionary/php-fig.ini
+   dictionary/php-foundation.ini
    dictionary/php-native-attribute.ini
    dictionary/php-rfc.ini
    dictionary/php-tag.ini
