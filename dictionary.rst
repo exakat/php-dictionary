@@ -207,6 +207,7 @@ PHP Dictionary
    * :ref:`Controller <controller>`
    * :ref:`Convention <convention>`
    * :ref:`Cookie <cookie>`
+   * :ref:`Copy On Write <copy-on-write>`
    * :ref:`Core <core>`
    * :ref:`Coroutine <coroutine>`
    * :ref:`Countable Interface <countable>`
@@ -256,6 +257,7 @@ PHP Dictionary
    * :ref:`Deployment <deploy>`
    * :ref:`Deprecated <deprecated>`
    * :ref:`Deprecation <deprecation>`
+   * :ref:`Depth <depth>`
    * :ref:`Dereferencing <dereferencing>`
    * :ref:`Design By Contract <contract>`
    * :ref:`Design Pattern <design-pattern>`
@@ -793,6 +795,9 @@ PHP Dictionary
    * :ref:`Strpos() Syndrome <strpos-syndrom>`
    * :ref:`Structure <structure>`
    * :ref:`Stubs Files <stubs>`
+   * :ref:`Sub (prefix) <sub-prefix>`
+   * :ref:`Subclass <sub-class>`
+   * :ref:`Subnamespaces <subnamespace>`
    * :ref:`Sunsetting <sunsetting>`
    * :ref:`Superglobal Variables <superglobal>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`

@@ -396,6 +396,7 @@ List of strings (characters, names), which are PHP tokens: they are useful to pa
 
 + :ref:`Colon <colon>`
 + :ref:`Comma <comma>`
++ :ref:`Concatenation <concatenation>`
 + :ref:`Ellipsis <ellipsis>`
 + :ref:`Parenthesis <parenthesis>`
 + :ref:`Semicolon <semicolon>`

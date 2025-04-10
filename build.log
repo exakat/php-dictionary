@@ -107,6 +107,7 @@ Empty seeAlso for ./human/en/Features/continue.ini
 Empty seeAlso for ./human/en/Features/control-structure.ini
 Empty seeAlso for ./human/en/Features/controller.ini
 Empty seeAlso for ./human/en/Features/cookie.ini
+Empty seeAlso for ./human/en/Features/copy-on-write.ini
 Empty seeAlso for ./human/en/Features/core.ini
 Empty seeAlso for ./human/en/Features/count.ini
 Empty seeAlso for ./human/en/Features/coverage.ini
@@ -133,6 +134,7 @@ Empty seeAlso for ./human/en/Features/defined.ini
 Empty seeAlso for ./human/en/Features/definition.ini
 Empty seeAlso for ./human/en/Features/deprecated.ini
 Empty seeAlso for ./human/en/Features/deprecation.ini
+Empty seeAlso for ./human/en/Features/depth.ini
 Empty seeAlso for ./human/en/Features/dictionary.ini
 Empty seeAlso for ./human/en/Features/directive.ini
 Empty seeAlso for ./human/en/Features/directoryiterator.ini
@@ -405,6 +407,9 @@ Empty seeAlso for ./human/en/Features/string-interpolation.ini
 Empty seeAlso for ./human/en/Features/string.ini
 Empty seeAlso for ./human/en/Features/structure.ini
 Empty seeAlso for ./human/en/Features/stubs.ini
+Empty seeAlso for ./human/en/Features/sub.ini
+Empty seeAlso for ./human/en/Features/subclass.ini
+Empty seeAlso for ./human/en/Features/subnamespace.ini
 Empty seeAlso for ./human/en/Features/subtype.ini
 Empty seeAlso for ./human/en/Features/supertype.ini
 Empty seeAlso for ./human/en/Features/svn.ini
@@ -540,6 +545,7 @@ Database Abstraction Layer (DBA) extension has a wrong format (missing capitals)
 ./human/en/Features/deep-clone.ini has empty tags section
 ./human/en/Features/definition.ini has empty tags section
 ./human/en/Features/dependency-injection-container.ini has empty tags section
+./human/en/Features/depth.ini has empty tags section
 ./human/en/Features/dictionary.ini has empty tags section
 ./human/en/Features/directive.ini has empty tags section
 ./human/en/Features/dirname.ini has empty tags section
@@ -680,131 +686,3 @@ Missing target related link for error_reporting in ./human/en/Features/noscream.
 ./human/en/Features/partial-function.ini has empty tags section
 ./human/en/Features/pcntl.ini has empty tags section
 ./human/en/Features/pdoexception.ini has empty tags section
-./human/en/Features/performance.ini has empty code for PHP. 
-./human/en/Features/performance.ini has empty tags section
-./human/en/Features/persistence.ini has empty tags section
-Missing target related link for object-persistence in ./human/en/Features/persistence.ini
-Missing target related link for connexion-persistence in ./human/en/Features/persistence.ini
-./human/en/Features/pharexception.ini has empty tags section
-./human/en/Features/php-docker-container.ini has empty tags section
-./human/en/Features/php-extension.ini has empty tags section
-PHP foundation has a wrong format (missing capitals) in file ./human/en/Features/php-foundation.ini
-./human/en/Features/php-foundation.ini has empty tags section
-Missing target related link for php-group in ./human/en/Features/php-foundation.ini
-./human/en/Features/php-native-attribute.ini has empty tags section
-./human/en/Features/php-native-attribute.ini last char is not a .
-./human/en/Features/php-tag.ini has empty tags section
-./human/en/Features/php-variable.ini has empty tags section
-./human/en/Features/php-wrapper.ini has empty tags section
-./human/en/Features/php.ini has empty tags section
-./human/en/Features/pipeline.ini has empty tags section
-./human/en/Features/plugin.ini has empty tags section
-./human/en/Features/polyfill.ini has empty tags section
-./human/en/Features/port.ini has empty tags section
-./human/en/Features/portability.ini has empty tags section
-./human/en/Features/precedence.ini has empty tags section
-./human/en/Features/predefined-constant.ini has empty tags section
-./human/en/Features/predefined-exception.ini has empty tags section
-./human/en/Features/prepared-query.ini has empty tags section
-./human/en/Features/primitive-obsession.ini has empty tags section
-./human/en/Features/printf.ini has no description. Omitting. 
-./human/en/Features/profiler.ini has empty tags section
-./human/en/Features/promoted-property.ini has empty tags section
-./human/en/Features/property-hook.ini has empty tags section
-./human/en/Features/pseudo-variable.ini has empty tags section
-./human/en/Features/query.ini last char is not a .
-./human/en/Features/random.ini has empty tags section
-./human/en/Features/rdbms.ini has empty tags section
-./human/en/Features/reading.ini has empty tags section
-./human/en/Features/recursion.ini has empty tags section
-./human/en/Features/recursive-array.ini has empty tags section
-./human/en/Features/reflectionexception.ini last char is not a .
-./human/en/Features/relaxed-comparison.ini has empty tags section
-./human/en/Features/relaxed-syntax.ini has empty tags section
-./human/en/Features/relaxed-syntax.ini last char is not a .
-./human/en/Features/release.ini has empty tags section
-./human/en/Features/reserved-name.ini has empty tags section
-./human/en/Features/return-value.ini has empty tags section
-./human/en/Features/return.ini has empty tags section
-./human/en/Features/revision.ini has empty tags section
-./human/en/Features/rfchange.ini last char is not a .
-./human/en/Features/rounding.ini has empty tags section
-./human/en/Features/route.ini has empty tags section
-./human/en/Features/runtime-checks.ini has empty tags section
-./human/en/Features/sanitation.ini has empty tags section
-./human/en/Features/scaffolding.ini has empty tags section
-./human/en/Features/scalar-type.ini has empty tags section
-./human/en/Features/scaling.ini has empty tags section
-./human/en/Features/scope.ini has empty tags section
-./human/en/Features/second-order-sql-injection.ini has empty tags section
-./human/en/Features/security.ini has empty tags section
-./human/en/Features/self-reference.ini has empty tags section
-./human/en/Features/semantics.ini has empty tags section
-./human/en/Features/session.ini has empty tags section
-./human/en/Features/shared-memory.ini has empty tags section
-./human/en/Features/shell.ini has empty tags section
-./human/en/Features/short-tag.ini has empty tags section
-./human/en/Features/shutdown-function.ini has empty tags section
-./human/en/Features/sign.ini has empty tags section
-./human/en/Features/signature.ini has empty tags section
-./human/en/Features/silent.ini has empty tags section
-./human/en/Features/singleton.ini has empty tags section
-./human/en/Features/socket.ini has empty tags section
-./human/en/Features/sql.ini has empty tags section
-./human/en/Features/sqlite3.ini has empty tags section
-./human/en/Features/ssl.ini has empty tags section
-./human/en/Features/stateful.ini has empty tags section
-./human/en/Features/statement.ini has empty tags section
-./human/en/Features/static-expression.ini has empty tags section
-./human/en/Features/stdclass.ini has empty tags section
-./human/en/Features/stdout.ini has empty tags section
-./human/en/Features/strict-comparison.ini has empty tags section
-./human/en/Features/strict_types.ini has empty tags section
-./human/en/Features/string-increment.ini has empty tags section
-./human/en/Features/string-interpolation.ini has empty tags section
-Missing target related link for native-interface in ./human/en/Features/stringable.ini
-./human/en/Features/structure.ini has empty tags section
-./human/en/Features/sunsetting.ini has empty tags section
-./human/en/Features/superglobal.ini has empty tags section
-./human/en/Features/synchronous.ini has empty tags section
-./human/en/Features/syntax-error.ini has empty tags section
-./human/en/Features/syntax-error.ini last char is not a .
-./human/en/Features/syntax-error.ini has multiple empty lines
-./human/en/Features/system-call.ini has empty tags section
-./human/en/Features/system.ini has empty tags section
-./human/en/Features/taint.ini has empty tags section
-./human/en/Features/tcp.ini has empty tags section
-./human/en/Features/temporary-expression.ini has empty tags section
-./human/en/Features/test-data-provider.ini has empty tags section
-./human/en/Features/thread.ini has empty tags section
-./human/en/Features/three-dots.ini has empty tags section
-./human/en/Features/throwable.ini has empty tags section
-./human/en/Features/token.ini has empty tags section
-./human/en/Features/transpile.ini has empty tags section
-./human/en/Features/truthy.ini has empty tags section
-./human/en/Features/type-contravariance.ini has empty tags section
-./human/en/Features/type-covariance.ini has empty tags section
-./human/en/Features/type-coverage.ini has empty tags section
-./human/en/Features/type-coverage.ini last char is not a .
-./human/en/Features/type-coverage.ini has listing issues
-./human/en/Features/type-declaration-property.ini has empty tags section
-./human/en/Features/type.ini has empty tags section
-./human/en/Features/unbacked-enum.ini has empty tags section
-./human/en/Features/undefined.ini has empty tags section
-./human/en/Features/unexpectedvalueexception.ini has empty tags section
-./human/en/Features/upgrade.ini has empty tags section
-./human/en/Features/use-alias.ini has empty tags section
-./human/en/Features/use-trait.ini has empty tags section
-./human/en/Features/useless.ini has empty tags section
-./human/en/Features/variable-scope.ini has empty tags section
-./human/en/Features/version.ini has empty tags section
-./human/en/Features/view.ini last char is not a .
-./human/en/Features/weak-reference.ini has empty tags section
-./human/en/Features/webscraping.ini has empty tags section
-./human/en/Features/webserver.ini has empty tags section
-./human/en/Features/websocket.ini has empty code for PHP. 
-./human/en/Features/websocket.ini has empty tags section
-./human/en/Features/whitespace.ini has empty tags section
-./human/en/Features/wrapper-stream.ini has empty tags section
-./human/en/Features/writable.ini has empty tags section
-./human/en/Features/writing.ini has empty tags section

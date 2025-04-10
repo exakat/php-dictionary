@@ -197,6 +197,7 @@ Index
    dictionary/controller.ini
    dictionary/convention.ini
    dictionary/cookie.ini
+   dictionary/copy-on-write.ini
    dictionary/core.ini
    dictionary/coroutine.ini
    dictionary/count.ini
@@ -246,6 +247,7 @@ Index
    dictionary/deploy.ini
    dictionary/deprecated.ini
    dictionary/deprecation.ini
+   dictionary/depth.ini
    dictionary/dereferencing.ini
    dictionary/design-pattern.ini
    dictionary/destructor.ini
@@ -766,6 +768,9 @@ Index
    dictionary/strpos-syndrom.ini
    dictionary/structure.ini
    dictionary/stubs.ini
+   dictionary/sub.ini
+   dictionary/subclass.ini
+   dictionary/subnamespace.ini
    dictionary/subtype.ini
    dictionary/sunsetting.ini
    dictionary/superglobal.ini
