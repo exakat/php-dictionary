@@ -139,6 +139,7 @@ PHP Dictionary
    * :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`
    * :ref:`Character <character>`
    * :ref:`Child Class <child-class>`
+   * :ref:`Circular Reference <circular-reference>`
    * :ref:`Class <class>`
    * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
@@ -341,8 +342,8 @@ PHP Dictionary
    * :ref:`File Extension <file-extension>`
    * :ref:`File Mode <file-mode>`
    * :ref:`File System <file-system>`
+   * :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
    * :ref:`File Transfert Protocol (FTP) <ftp>`
-   * :ref:`File Transfert Protocol Secure (FTPS) <ftps>`
    * :ref:`File Upload <upload>`
    * :ref:`FileSystemIterator <filesystemiterator>`
    * :ref:`Final Class Constants <final-class-constant>`
@@ -393,6 +394,7 @@ PHP Dictionary
    * :ref:`HTTP Headers <http-header>`
    * :ref:`Handle <handle>`
    * :ref:`Hard Coded <hard-coded>`
+   * :ref:`Hardening <hardening>`
    * :ref:`Hash <hash>`
    * :ref:`Hash Comparisons <hash-comparison>`
    * :ref:`Haystack <haystack>`
@@ -401,6 +403,7 @@ PHP Dictionary
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
    * :ref:`Hosting <hosting>`
+   * :ref:`Hydratation <hydrate>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
    * :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
    * :ref:`hash() Function <hash-function>`
@@ -499,6 +502,7 @@ PHP Dictionary
    * :ref:`Magic Methods <magic-method>`
    * :ref:`Magic Numbers <magic-number>`
    * :ref:`Magic Property <magic-property>`
+   * :ref:`Maintenance <maintenance>`
    * :ref:`Man In The Middle <man-in-the-middle>`
    * :ref:`Map <map>`
    * :ref:`Markdown <markdown>`
@@ -555,6 +559,7 @@ PHP Dictionary
    * :ref:`Null Safe Object Operator <nullsafe-object-operator>`
    * :ref:`Nullable <nullable>`
    * :ref:`Nullsafe <nullsafe>`
+   * :ref:`Numeric Base <numeric-base>`
    * :ref:`Numeric Separator <numeric-separator>`
    * :ref:`Numeric String <numeric-string>`
    * :ref:`negative-index <negative-index>`
@@ -586,7 +591,7 @@ PHP Dictionary
    * :ref:`Optional Parameter <optional-parameter>`
    * :ref:`OutOfRangeException <outofrangeexception>`
    * :ref:`Outgoing Data <outgoing-data>`
-   * :ref:`Overenginer <overenginer>`
+   * :ref:`Over-engineer <overengineer>`
    * :ref:`Overflow <overflow>`
    * :ref:`Override Attribute <override>`
    * :ref:`Overwrite <overwrite>`
@@ -599,6 +604,8 @@ PHP Dictionary
    * :ref:`PHP Engine <engine>`
    * :ref:`PHP Extension C Library (PECL) <pecl>`
    * :ref:`PHP Extensions <php-extension>`
+   * :ref:`PHP Foundation <php-foundation>`
+   * :ref:`PHP Group <php-group>`
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Installer For Extensions (PIE) <pie>`
    * :ref:`PHP Native Attribute <php-native-attribute>`
@@ -610,7 +617,6 @@ PHP Dictionary
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrappers <php-wrapper>`
-   * :ref:`PHP foundation <php-foundation>`
    * :ref:`PHP-FPM (FPM) <fpm>`
    * :ref:`PHP_INT_MAX <php_int_max>`
    * :ref:`PHPdoc <phpdoc>`
@@ -629,6 +635,7 @@ PHP Dictionary
    * :ref:`Password <password>`
    * :ref:`Password API <password-ext>`
    * :ref:`Path <path>`
+   * :ref:`Pattern Matching <pattern-matching>`
    * :ref:`Performance <performance>`
    * :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
    * :ref:`Permission <permission>`
@@ -652,6 +659,7 @@ PHP Dictionary
    * :ref:`Print <print>`
    * :ref:`Private Visibility <private>`
    * :ref:`Process Control (pcntl) <pcntl>`
+   * :ref:`Production <production>`
    * :ref:`Promise <promise>`
    * :ref:`Promoted Properties <promoted-property>`
    * :ref:`Properties <property>`
@@ -854,6 +862,7 @@ PHP Dictionary
    * :ref:`testdox <testdoc>`
    * :ref:`throw <throw>`
    * :ref:`toctou : Time Of Check To Time Of Use <toctou>`
+   * :ref:`trigger_error() <trigger_error>`
 * U
    * :ref:`UTF-8 <utf8>`
    * :ref:`UUencode Encoding <uuencode>`
@@ -892,6 +901,7 @@ PHP Dictionary
    * :ref:`Variable Variables <variable-variable>`
    * :ref:`Variables <variable>`
    * :ref:`Variadic <variadic>`
+   * :ref:`Vector Database <vector-database>`
    * :ref:`Version <version>`
    * :ref:`View <view>`
    * :ref:`View In Presentation <view-presentation>`

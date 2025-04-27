@@ -23,8 +23,8 @@ List of acronyms, used in this dictionary.
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
 + :ref:`Extensible Markup Language (XML) <xml>`
 + :ref:`FastCGI <fastcgi>`
++ :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
 + :ref:`File Transfert Protocol (FTP) <ftp>`
-+ :ref:`File Transfert Protocol Secure (FTPS) <ftps>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
@@ -137,6 +137,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
++ :ref:`Hydratation <hydrate>`
 + :ref:`Idempotent <idempotent>`
 + :ref:`Immutable <immutable>`
 + :ref:`Index <index>`
@@ -150,6 +151,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Magic Numbers <magic-number>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
++ :ref:`Over-engineer <overengineer>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
 + :ref:`Password <password>`
@@ -157,6 +159,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Permission <permission>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
++ :ref:`Production <production>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`
 + :ref:`Real Numbers <real>`
@@ -167,6 +170,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`SOLID <solid>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
++ :ref:`Security <security>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Stateless <stateless>`
@@ -229,6 +233,7 @@ List of exceptions, available in PHP.
 + :ref:`LengthException <lengthexception>`
 + :ref:`LogicException <logicexception>`
 + :ref:`OutOfRangeException <outofrangeexception>`
++ :ref:`PDOException <pdoexception>`
 + :ref:`RangeException <rangeexception>`
 + :ref:`ReflectionException <reflectionexception>`
 + :ref:`TypeError <typeerror>`

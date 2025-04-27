@@ -135,6 +135,7 @@ Index
    dictionary/character.ini
    dictionary/child-class.ini
    dictionary/ci.ini
+   dictionary/circular-reference.ini
    dictionary/cite.ini
    dictionary/class-alias.ini
    dictionary/class-constant-visibility.ini
@@ -374,6 +375,7 @@ Index
    dictionary/handle.ini
    dictionary/handler.ini
    dictionary/hard-coded.ini
+   dictionary/hardening.ini
    dictionary/hash-comparison.ini
    dictionary/hash-crypto.ini
    dictionary/hash-function.ini
@@ -393,6 +395,7 @@ Index
    dictionary/http-header.ini
    dictionary/http.ini
    dictionary/https.ini
+   dictionary/hydrate.ini
    dictionary/iconv.ini
    dictionary/idempotent.ini
    dictionary/identical.ini
@@ -484,6 +487,7 @@ Index
    dictionary/magic-number.ini
    dictionary/magic-property.ini
    dictionary/magic.ini
+   dictionary/maintenance.ini
    dictionary/man-in-the-middle.ini
    dictionary/map.ini
    dictionary/markdown.ini
@@ -541,6 +545,7 @@ Index
    dictionary/nullpattern.ini
    dictionary/nullsafe-object-operator.ini
    dictionary/nullsafe.ini
+   dictionary/numeric-base.ini
    dictionary/numeric-separator.ini
    dictionary/numeric-string.ini
    dictionary/obfuscation.ini
@@ -587,6 +592,7 @@ Index
    dictionary/password-ext.ini
    dictionary/password.ini
    dictionary/path.ini
+   dictionary/pattern-matching.ini
    dictionary/pcntl.ini
    dictionary/pcre.ini
    dictionary/pdo.ini
@@ -603,6 +609,7 @@ Index
    dictionary/php-extension.ini
    dictionary/php-fig.ini
    dictionary/php-foundation.ini
+   dictionary/php-group.ini
    dictionary/php-native-attribute.ini
    dictionary/php-rfc.ini
    dictionary/php-tag.ini
@@ -633,6 +640,7 @@ Index
    dictionary/print.ini
    dictionary/print_r.ini
    dictionary/private.ini
+   dictionary/production.ini
    dictionary/profiler.ini
    dictionary/promise.ini
    dictionary/promoted-property.ini
@@ -812,6 +820,7 @@ Index
    dictionary/traversable.ini
    dictionary/traversal.ini
    dictionary/tree.ini
+   dictionary/trigger_error.ini
    dictionary/true.ini
    dictionary/truthy.ini
    dictionary/try-catch.ini
@@ -863,6 +872,7 @@ Index
    dictionary/variable_order.ini
    dictionary/variadic.ini
    dictionary/vcs.ini
+   dictionary/vector-database.ini
    dictionary/version.ini
    dictionary/view-presentation.ini
    dictionary/view-sql.ini
