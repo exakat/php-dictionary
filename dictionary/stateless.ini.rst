@@ -26,4 +26,4 @@ Stateless refers to a system or protocol that does not retain information about 
 
 See also `PHP is Weird, Stateless, and Beautiful <https://fideloper.com/php-weird-stateless-and-beautiful>`_, `Stateless services in PHP <https://viktorprogger.name/posts/stateless-services-in-php.html>`_
 
-Related : :ref:`Stateful <stateful>`, 
+Related : :ref:`Stateful <stateful>`, :ref:`State <state>`

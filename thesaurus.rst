@@ -173,6 +173,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Security <security>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`
++ :ref:`State <state>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
 + :ref:`Template <template>`

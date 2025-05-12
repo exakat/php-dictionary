@@ -396,6 +396,7 @@ Empty seeAlso for ./human/en/Features/sql.ini
 Empty seeAlso for ./human/en/Features/square-bracket.ini
 Empty seeAlso for ./human/en/Features/ssl.ini
 Empty seeAlso for ./human/en/Features/sso.ini
+Empty seeAlso for ./human/en/Features/state.ini
 Empty seeAlso for ./human/en/Features/statement.ini
 Empty seeAlso for ./human/en/Features/static-expression.ini
 Empty seeAlso for ./human/en/Features/static-property.ini
@@ -699,6 +700,35 @@ Missing target related link for connexion-persistence in ./human/en/Features/per
 ./human/en/Features/php-extension.ini has empty tags section
 ./human/en/Features/php-foundation.ini has empty tags section
 ./human/en/Features/php-group.ini has empty tags section
+./human/en/Features/php-interface.ini is missing seeAlso
+./human/en/Features/php-interface.ini has empty tags section
+Missing target related link for Traversable in ./human/en/Features/php-interface.ini
+Missing target related link for IteratorAggregate in ./human/en/Features/php-interface.ini
+Missing target related link for Iterator in ./human/en/Features/php-interface.ini
+Missing target related link for Serializable in ./human/en/Features/php-interface.ini
+Missing target related link for ArrayAccess in ./human/en/Features/php-interface.ini
+Missing target related link for Countable in ./human/en/Features/php-interface.ini
+Missing target related link for Stringable in ./human/en/Features/php-interface.ini
+Missing target related link for Throwable in ./human/en/Features/php-interface.ini
+Missing target related link for UnitEnum in ./human/en/Features/php-interface.ini
+Missing target related link for BackedEnum in ./human/en/Features/php-interface.ini
+Missing target related link for DateTimeInterface in ./human/en/Features/php-interface.ini
+Missing target related link for DOMParentNode in ./human/en/Features/php-interface.ini
+Missing target related link for Dom\ParentNode in ./human/en/Features/php-interface.ini
+Missing target related link for DOMChildNode in ./human/en/Features/php-interface.ini
+Missing target related link for Dom\ChildNode in ./human/en/Features/php-interface.ini
+Missing target related link for JsonSerializable in ./human/en/Features/php-interface.ini
+Missing target related link for RecursiveIterator in ./human/en/Features/php-interface.ini
+Missing target related link for OuterIterator in ./human/en/Features/php-interface.ini
+Missing target related link for SeekableIterator in ./human/en/Features/php-interface.ini
+Missing target related link for SplObserver in ./human/en/Features/php-interface.ini
+Missing target related link for SplSubject in ./human/en/Features/php-interface.ini
+Missing target related link for SessionHandlerInterface in ./human/en/Features/php-interface.ini
+Missing target related link for SessionIdInterface in ./human/en/Features/php-interface.ini
+Missing target related link for SessionUpdateTimestampHandlerInterface in ./human/en/Features/php-interface.ini
+Missing target related link for Random\Engine in ./human/en/Features/php-interface.ini
+Missing target related link for Random\CryptoSafeEngine in ./human/en/Features/php-interface.ini
+Missing target related link for Reflector in ./human/en/Features/php-interface.ini
 ./human/en/Features/php-native-attribute.ini has empty tags section
 ./human/en/Features/php-native-attribute.ini last char is not a .
 ./human/en/Features/php-tag.ini has empty tags section
@@ -758,7 +788,6 @@ Missing target related link for connexion-persistence in ./human/en/Features/per
 ./human/en/Features/sqlite3.ini has empty tags section
 ./human/en/Features/ssl.ini has empty tags section
 ./human/en/Features/stateful.ini has empty tags section
-Missing target related link for state in ./human/en/Features/stateless.ini
 ./human/en/Features/statement.ini has empty tags section
 ./human/en/Features/static-expression.ini has empty tags section
 ./human/en/Features/stdclass.ini has empty tags section
@@ -767,7 +796,7 @@ Missing target related link for state in ./human/en/Features/stateless.ini
 ./human/en/Features/strict_types.ini has empty tags section
 ./human/en/Features/string-increment.ini has empty tags section
 ./human/en/Features/string-interpolation.ini has empty tags section
-Missing target related link for native-interface in ./human/en/Features/stringable.ini
+Missing target related link for php-interface in ./human/en/Features/stringable.ini
 ./human/en/Features/structure.ini has empty tags section
 ./human/en/Features/sub.ini has empty tags section
 ./human/en/Features/subclass.ini has empty tags section
@@ -809,11 +838,8 @@ Missing target related link for native-interface in ./human/en/Features/stringab
 ./human/en/Features/vector-database.ini has empty tags section
 ./human/en/Features/version.ini has empty tags section
 ./human/en/Features/view.ini last char is not a .
-./human/en/Features/weak-reference.ini has empty tags section
 ./human/en/Features/webscraping.ini has empty tags section
 ./human/en/Features/webserver.ini has empty tags section
-./human/en/Features/websocket.ini has empty code for PHP. 
-./human/en/Features/websocket.ini has empty tags section
 ./human/en/Features/whitespace.ini has empty tags section
 ./human/en/Features/wrapper-stream.ini has empty tags section
 ./human/en/Features/writable.ini has empty tags section

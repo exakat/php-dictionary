@@ -1816,6 +1816,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-group.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-interface.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-native-attribute.ini.html</loc>
  </url>
  <url>
@@ -2249,6 +2252,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/standalone-type.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/state.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/stateful.ini.html</loc>

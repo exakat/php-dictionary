@@ -609,6 +609,7 @@ PHP Dictionary
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Installer For Extensions (PIE) <pie>`
    * :ref:`PHP Native Attribute <php-native-attribute>`
+   * :ref:`PHP Native Interfaces <php-interface>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
    * :ref:`PHP RFC <php-rfc>`
@@ -784,6 +785,7 @@ PHP Dictionary
    * :ref:`Square Brackets <square-bracket>`
    * :ref:`Standalone Types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
+   * :ref:`State <state>`
    * :ref:`Stateful <stateful>`
    * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`

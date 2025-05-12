@@ -610,6 +610,7 @@ Index
    dictionary/php-fig.ini
    dictionary/php-foundation.ini
    dictionary/php-group.ini
+   dictionary/php-interface.ini
    dictionary/php-native-attribute.ini
    dictionary/php-rfc.ini
    dictionary/php-tag.ini
@@ -755,6 +756,7 @@ Index
    dictionary/ssl.ini
    dictionary/sso.ini
    dictionary/standalone-type.ini
+   dictionary/state.ini
    dictionary/stateful.ini
    dictionary/stateless.ini
    dictionary/statement.ini
