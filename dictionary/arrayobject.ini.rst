@@ -53,6 +53,6 @@ Converting an ``ArrayObject`` to an array is done with a cast ``(array)`` or a c
 
 See also `Array Objects in PHP <https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667>`_
 
-Related : :ref:`Array <array>`, :ref:`Cast Operator <cast>`, 
+Related : :ref:`Array <array>`, :ref:`Cast Operator <cast>`, :ref:`iterator_to_array() <iterator_to_array>`
 
 Related packages : `jbzoo/data <https://packagist.org/packages/jbzoo/data>`_, `phootwork/collection <https://packagist.org/packages/phootwork/collection>`_

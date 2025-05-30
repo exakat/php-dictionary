@@ -457,6 +457,7 @@ PHP Dictionary
    * :ref:`integer <integer>`
    * :ref:`is_a() <is_a>`
    * :ref:`is_object() <is_object>`
+   * :ref:`iterator_to_array() <iterator_to_array>`
 * J
    * :ref:`JavaScript Object Notation (JSON) <json>`
    * :ref:`Jobqueue <jobqueue>`

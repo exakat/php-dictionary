@@ -445,6 +445,7 @@ Index
    dictionary/isset.ini
    dictionary/iterable.ini
    dictionary/iterator.ini
+   dictionary/iterator_to_array.ini
    dictionary/jit.ini
    dictionary/jobqueue.ini
    dictionary/json.ini

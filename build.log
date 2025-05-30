@@ -244,6 +244,7 @@ Empty seeAlso for ./human/en/Features/ip.ini
 Empty seeAlso for ./human/en/Features/is_a.ini
 Empty seeAlso for ./human/en/Features/is_object.ini
 Empty seeAlso for ./human/en/Features/iterable.ini
+Empty seeAlso for ./human/en/Features/iterator_to_array.ini
 Empty seeAlso for ./human/en/Features/jobqueue.ini
 Empty seeAlso for ./human/en/Features/jsonexception.ini
 Empty seeAlso for ./human/en/Features/keyword.ini
@@ -469,7 +470,6 @@ Empty seeAlso for ./human/en/Features/wrapper-http.ini
 Empty seeAlso for ./human/en/Features/wrapper-php.ini
 Empty seeAlso for ./human/en/Features/writable.ini
 Empty seeAlso for ./human/en/Features/writing.ini
-./human/en/Features/alternative-syntax.ini has empty tags section
 ./human/en/Features/annotation.ini has empty tags section
 ./human/en/Features/app-server.ini has no description. Omitting. 
 ./human/en/Features/arbitrary-argument.ini has empty tags section
@@ -478,7 +478,6 @@ Empty seeAlso for ./human/en/Features/writing.ini
 ./human/en/Features/argument.ini has empty tags section
 ./human/en/Features/arm.ini has empty tags section
 ./human/en/Features/array-syntax.ini has empty tags section
-Missing target related link for iterator_to_array in ./human/en/Features/arrayobject.ini
 American Standard Code for Information Interchange (ASCII) has a wrong format (missing capitals) in file ./human/en/Features/ascii.ini
 ./human/en/Features/asset.ini has empty tags section
 ./human/en/Features/assignation.ini has empty tags section
@@ -500,10 +499,8 @@ Missing target related link for identification in ./human/en/Features/authorize.
 ./human/en/Features/chaining-new-without-parenthesis.ini has empty tags section
 ./human/en/Features/character.ini has empty tags section
 ./human/en/Features/child-class.ini has empty tags section
-./human/en/Features/circular-reference.ini has empty code for PHP. 
 Missing target related link for memory-leak in ./human/en/Features/circular-reference.ini
 Missing target related link for memory in ./human/en/Features/circular-reference.ini
-Missing target related link for weakreference in ./human/en/Features/circular-reference.ini
 ./human/en/Features/class-constant.ini has empty tags section
 ./human/en/Features/class-invasion.ini has empty tags section
 ./human/en/Features/class_alias.ini has empty tags section

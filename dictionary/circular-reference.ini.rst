@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Circular Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 24 Apr 2025 05:27:06 +0000","dateModified":"Thu, 24 Apr 2025 05:27:06 +0000","description":"A circular reference is a situation where an object has a reference on another object, and vice versa","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Circular Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Circular Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:23:44 +0000","dateModified":"Tue, 13 May 2025 05:23:44 +0000","description":"A circular reference is a situation where an object has a reference on another object, and vice versa","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Circular Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Circular Reference
@@ -26,6 +26,33 @@ A circular reference is a situation where an object has a reference on another o
 
 Circular references create limitation with the garbage collector, which require more refined checks before removing elements from memory. Usually, the garbage collector removes objects which are not referenced from another object. And, in the case of circular references, the whole circle seems to be in use. This leads to memory leaks.
 
+.. code-block:: php
+   
+   <?php
+   
+   $a = new A();
+   $b = new B($a);
+   $a->setB($b);
+   
+   class A {
+       private B $b;
+       
+       function setB(B $b) {
+           $this->b = $b;
+       }
+   }
+   
+   class B {
+       private A $a;
+       
+       function __construct(A $a) {
+           $this->a = $a;
+       }
+   }
+   
+   ?>
+
+
 See also https://dev.to/gromnan/php-closures-and-generators-can-hold-circular-references-45ge
 
-Related : :ref:`Garbage Collection <garbage-collection>`, :ref:`References <reference>`, , , 
+Related : :ref:`Garbage Collection <garbage-collection>`, :ref:`References <reference>`, , , :ref:`Weak References <weak-reference>`
