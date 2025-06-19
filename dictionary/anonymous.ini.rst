@@ -1,28 +1,28 @@
 .. _anonymous:
 .. meta::
 	:description:
-		Anonymous: An anonymous structure is a definition that usually has a name, but may also go without it.
+		Anonymous: An anonymous structure is a structure that usually has a name, but may also go without it.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Anonymous
-	:twitter:description: Anonymous: An anonymous structure is a definition that usually has a name, but may also go without it
+	:twitter:description: Anonymous: An anonymous structure is a structure that usually has a name, but may also go without it
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Anonymous
 	:og:type: article
-	:og:description: An anonymous structure is a definition that usually has a name, but may also go without it
+	:og:description: An anonymous structure is a structure that usually has a name, but may also go without it
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Anonymous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 18:14:49 +0000","dateModified":"Mon, 12 May 2025 18:14:49 +0000","description":"An anonymous structure is a definition that usually has a name, but may also go without it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anonymous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Anonymous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Jun 2025 17:05:23 +0000","dateModified":"Wed, 18 Jun 2025 17:05:23 +0000","description":"An anonymous structure is a structure that usually has a name, but may also go without it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anonymous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Anonymous
 ---------
 
-An anonymous structure is a definition that usually has a name, but may also go without it. 
+An anonymous structure is a structure that usually has a name, but may also go without it. 
 
 There a several structures which may have an anonymous version : 
 
@@ -32,10 +32,9 @@ There a several structures which may have an anonymous version :
 + constants : basically, it is a literal value
 + catch : in this case, the exception is caught, but it is not provided in a related variable
 
-Some structures are always named: variable, property, method, 
+Some structures are always named: variables, properties, traits, interfaces, enums.
 
-Anonymous structure should be be confused with dynamic structures: these structures are defined with a name which is stored in a variable, or a similar data container.
-
+Anonymous structures should not be confused with dynamic structures: these structures are defined with a name which is stored in a variable, or a similar data container. In fact, dynamic structures often rely on a name to be useable. This is the case of variables, with ``$$variable``.
 
 .. code-block:: php
    

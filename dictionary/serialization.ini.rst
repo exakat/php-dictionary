@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Jun 2025 05:06:42 +0000","dateModified":"Thu, 19 Jun 2025 05:06:42 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Serialization
@@ -62,6 +62,6 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `Understanding Serialisation in PHP <https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php>`_, `ProtoBuf in PHP for ultra-efficient and agnostic serialization <https://blog.lepine.pro/en/protobuf-php-go/>`_
 
-Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`
+Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, , :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`
 
-Related packages : `google/protobuf <https://packagist.org/packages/google/protobuf>`_
+Related packages : `google/protobuf <https://packagist.org/packages/google/protobuf>`_, `symfony/serializer <https://packagist.org/packages/symfony/serializer>`_, `jms/serializer <https://packagist.org/packages/jms/serializer>`_, `symfony/var-exporter <https://packagist.org/packages/symfony/var-exporter>`_

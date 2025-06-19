@@ -232,6 +232,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asymmetric-visibility.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/async.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/asynchronous.ini.html</loc>
  </url>
  <url>
@@ -263,6 +266,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backed-enum.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backed-property.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backed.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backend.ini.html</loc>
@@ -841,6 +850,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/emoji.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html</loc>
  </url>
  <url>
@@ -854,9 +866,6 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/entity.ini.html</loc>
- </url>
- <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-backed.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html</loc>
@@ -1336,6 +1345,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonserializable.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/key-value-store.ini.html</loc>
  </url>
  <url>
@@ -1478,6 +1490,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/memory-leak.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/merge.ini.html</loc>
@@ -1868,6 +1883,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/plus.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pointer.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/polyfill.ini.html</loc>

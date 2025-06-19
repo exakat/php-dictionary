@@ -98,6 +98,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Anonymous Function <anonymous-function>`
 + :ref:`Artifact <artifact>`
 + :ref:`Autowiring <autowiring>`
++ :ref:`Backed <backed>`
 + :ref:`Backend <backend>`
 + :ref:`Benchmarking <benchmarking>`
 + :ref:`Centralization <centralization>`
@@ -149,6 +150,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Liskov Substitution Principle (LSP) <lsp>`
 + :ref:`Loops <loop>`
 + :ref:`Magic Numbers <magic-number>`
++ :ref:`Memory Leak <memory-leak>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Over-engineer <overengineer>`

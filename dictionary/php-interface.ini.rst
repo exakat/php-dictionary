@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"PHP Native Interfaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 02 May 2025 16:38:31 +0000","dateModified":"Fri, 02 May 2025 16:38:31 +0000","description":"PHP defines its own native interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Interfaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"PHP Native Interfaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Jun 2025 04:51:36 +0000","dateModified":"Thu, 19 Jun 2025 04:51:36 +0000","description":"PHP defines its own native interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Interfaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Native Interfaces
@@ -39,4 +39,4 @@ Native interfaces depend on the compiled extensions. Native interfaces are intro
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-Related : , , , , , , , , , , , , , , , , , , , , , , , , , , 
+Related : :ref:`Traversable <traversable>`, , :ref:`Iterator <iterator>`, , :ref:`ArrayAccess <arrayaccess>`, :ref:`Countable Interface <countable>`, :ref:`Stringable <stringable>`, :ref:`Throwable <throwable>`, , , , , , , , :ref:`JsonSerializable <jsonserializable>`, , , , , , , , , , , 

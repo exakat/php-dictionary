@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Generics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Generics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Generics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Jun 2025 15:57:47 +0000","dateModified":"Tue, 17 Jun 2025 15:57:47 +0000","description":"Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Generics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Generics
@@ -35,4 +35,4 @@ One implementation of generics is available, with transpiling : see ``mrsuh/php-
 
 `Documentation <https://stitcher.io/blog/generics-in-php-1>`__
 
-See also `Why we can't have generics in PHP <https://stitcher.io/blog/generics-in-php-3>`_, `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_, `mrsuh/php-generics <https://github.com/mrsuh/php-generics>`_
+See also `Why we can't have generics in PHP <https://stitcher.io/blog/generics-in-php-3>`_, `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_, `mrsuh/php-generics <https://github.com/mrsuh/php-generics>`_, `How To Start Using Generic Types In PHP <https://dev.to/jszutkowski/how-to-start-using-generic-types-in-php-2f1k>`_

@@ -82,6 +82,7 @@ Index
    dictionary/ast.ini
    dictionary/asymmetric-property.ini
    dictionary/asymmetric-visibility.ini
+   dictionary/async.ini
    dictionary/asynchronous.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
@@ -93,6 +94,8 @@ Index
    dictionary/autovivification.ini
    dictionary/autowiring.ini
    dictionary/backed-enum.ini
+   dictionary/backed-property.ini
+   dictionary/backed.ini
    dictionary/backend.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
@@ -285,12 +288,12 @@ Index
    dictionary/elephpant.ini
    dictionary/ellipsis.ini
    dictionary/email.ini
+   dictionary/emoji.ini
    dictionary/empty.ini
    dictionary/encoding-text.ini
    dictionary/encoding.ini
    dictionary/engine.ini
    dictionary/entity.ini
-   dictionary/enum-backed.ini
    dictionary/enum-case.ini
    dictionary/enum.ini
    dictionary/environment-variables.ini
@@ -450,6 +453,7 @@ Index
    dictionary/jobqueue.ini
    dictionary/json.ini
    dictionary/jsonexception.ini
+   dictionary/jsonserializable.ini
    dictionary/key-value-store.ini
    dictionary/keyword.ini
    dictionary/label.ini
@@ -498,6 +502,7 @@ Index
    dictionary/mcrypt.ini
    dictionary/md5.ini
    dictionary/memoization.ini
+   dictionary/memory-leak.ini
    dictionary/merge.ini
    dictionary/message-queue.ini
    dictionary/method.ini
@@ -628,6 +633,7 @@ Index
    dictionary/pipeline.ini
    dictionary/plugin.ini
    dictionary/plus.ini
+   dictionary/pointer.ini
    dictionary/polyfill.ini
    dictionary/polymorphism.ini
    dictionary/port.ini

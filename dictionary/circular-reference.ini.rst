@@ -55,4 +55,4 @@ Circular references create limitation with the garbage collector, which require 
 
 See also https://dev.to/gromnan/php-closures-and-generators-can-hold-circular-references-45ge
 
-Related : :ref:`Garbage Collection <garbage-collection>`, :ref:`References <reference>`, , , :ref:`Weak References <weak-reference>`
+Related : :ref:`Garbage Collection <garbage-collection>`, :ref:`References <reference>`, :ref:`Memory Leak <memory-leak>`, , :ref:`Weak References <weak-reference>`

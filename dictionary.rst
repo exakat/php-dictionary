@@ -84,6 +84,7 @@ PHP Dictionary
    * :ref:`Assumption <assumption>`
    * :ref:`Asymetric Visibility <asymmetric-visibility>`
    * :ref:`Asymmetric Property <asymmetric-property>`
+   * :ref:`Async <async>`
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute <attribute>`
    * :ref:`Attribute Class <attribute-class>`
@@ -96,8 +97,9 @@ PHP Dictionary
    * :ref:`array_key_exists() <array_key_exists>`
    * :ref:`array_merge() <array_merge>`
 * B
+   * :ref:`Backed <backed>`
    * :ref:`Backed Enum <backed-enum>`
-   * :ref:`Backed Enumeration <enum-backed>`
+   * :ref:`Backed Property <backed-property>`
    * :ref:`Backend <backend>`
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
@@ -299,6 +301,7 @@ PHP Dictionary
    * :ref:`Elephpant <elephpant>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Email <email>`
+   * :ref:`Emoji <emoji>`
    * :ref:`Empty <empty>`
    * :ref:`Encoding <encoding>`
    * :ref:`Entities <entity>`
@@ -462,6 +465,7 @@ PHP Dictionary
    * :ref:`JavaScript Object Notation (JSON) <json>`
    * :ref:`Jobqueue <jobqueue>`
    * :ref:`JsonException <jsonexception>`
+   * :ref:`JsonSerializable <jsonserializable>`
    * :ref:`Just In Time (JIT) <jit>`
 * K
    * :ref:`Key-value Stores <key-value-store>`
@@ -509,6 +513,7 @@ PHP Dictionary
    * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
+   * :ref:`Memory Leak <memory-leak>`
    * :ref:`Merge <merge>`
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
    * :ref:`Message Queue <message-queue>`
@@ -647,6 +652,7 @@ PHP Dictionary
    * :ref:`Pipeline <pipeline>`
    * :ref:`Plugin <plugin>`
    * :ref:`Plus + <plus>`
+   * :ref:`Pointer <pointer>`
    * :ref:`Polyfill <polyfill>`
    * :ref:`Polymorphism <polymorphism>`
    * :ref:`Port <port>`
