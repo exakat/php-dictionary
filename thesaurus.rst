@@ -17,6 +17,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 + :ref:`Data Source Name (DSN) <dsn>`
 + :ref:`Data Transfer Object (DTO) <dto>`
++ :ref:`Database Abstraction Layer (DBA) extension <dba>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
@@ -26,6 +27,7 @@ List of acronyms, used in this dictionary.
 + :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
 + :ref:`File Transfert Protocol (FTP) <ftp>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
++ :ref:`Functional Programming <functional-programming>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
@@ -36,6 +38,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
 + :ref:`Not A Number (NAN) <nan>`
++ :ref:`OOP (Object Oriented Programming) <oop>`
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
 + :ref:`PEAR <pear>`
@@ -47,6 +50,7 @@ List of acronyms, used in this dictionary.
 + :ref:`PHP-FPM (FPM) <fpm>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`RFC <rfc>`
++ :ref:`Read Eval Print Loop (REPL) <repl>`
 + :ref:`Remote Procedure Call (RPC) <rpc>`
 + :ref:`Request For Change (RFC) <rfchange>`
 + :ref:`Reserved For Future Use (RFU) <rfu>`
@@ -96,6 +100,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Alias <alias>`
 + :ref:`Anonymous <anonymous>`
 + :ref:`Anonymous Function <anonymous-function>`
++ :ref:`Arcane <arcane>`
++ :ref:`Archive <archive>`
++ :ref:`Arm <arm>`
 + :ref:`Artifact <artifact>`
 + :ref:`Autowiring <autowiring>`
 + :ref:`Backed <backed>`
@@ -126,6 +133,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
++ :ref:`Duck Typing <duck-typing>`
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Escape Character <escape-character>`
@@ -154,8 +162,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Over-engineer <overengineer>`
++ :ref:`Overwrite <overwrite>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
++ :ref:`Partial Function <partial-function>`
 + :ref:`Password <password>`
 + :ref:`Path <path>`
 + :ref:`Permission <permission>`
@@ -178,6 +188,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`State <state>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
++ :ref:`Subnamespaces <subnamespace>`
++ :ref:`Sunsetting <sunsetting>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text Encoding <encoding-text>`
@@ -187,7 +199,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`
 + :ref:`Validation <validation>`
++ :ref:`Value <value>`
 + :ref:`Value Object <value-object>`
++ :ref:`Variable Scope <variable-scope>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
 + :ref:`Zombie Code <zombie-code>`
@@ -216,6 +230,7 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 
 + :ref:`Disable Functions <disable-functions>`
 + :ref:`max_execution_time <max_execution_time>`
++ :ref:`register_argc_argv <register_argc_argv>`
 + :ref:`variable_order <variable_order>`
 
 Exception
@@ -326,6 +341,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
 + :ref:`Return Type <return-type>`
++ :ref:`Scalar Types <scalar-type>`
 + :ref:`Special Types <special-type>`
 + :ref:`Standalone Types <standalone-types>`
 + :ref:`Stringable <stringable>`
@@ -382,6 +398,7 @@ List of special PHP extensions.
 + :ref:`Core <core>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Database Abstraction Layer (DBA) extension <dba>`
++ :ref:`Fibers <fibers>`
 + :ref:`Hash <hash>`
 + :ref:`Internationalization Functions <intl>`
 + :ref:`Multibyte String <mbstring>`
@@ -405,6 +422,7 @@ List of strings (characters, names), which are PHP tokens: they are useful to pa
 + :ref:`Colon <colon>`
 + :ref:`Comma <comma>`
 + :ref:`Concatenation <concatenation>`
++ :ref:`Double Arrow <double-arrow>`
 + :ref:`Ellipsis <ellipsis>`
 + :ref:`Parenthesis <parenthesis>`
 + :ref:`Semicolon <semicolon>`
@@ -416,8 +434,10 @@ Folklore
 List of things that seems unrelated to PHP, but, suprisingly, are.
 
 + :ref:`Flag <flag>`
++ :ref:`Glue <glue>`
 + :ref:`Haystack <haystack>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Needle <needle>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
++ :ref:`Separator <separator>`

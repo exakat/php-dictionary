@@ -50,4 +50,4 @@ Garbage collection is needed to handle circular reference: objects that mutually
 
 See also `Easy to understand PHP garbage collection mechanism <https://medium.com/geekculture/easy-to-understand-php-garbage-collection-mechanism-ee5c5bde5a5d>`_
 
-Related : :ref:`Zval <zval>`, :ref:`References <reference>`, :ref:`Reference Count <reference-count>`, :ref:`Circular Reference <circular-reference>`, , :ref:`Memory Leak <memory-leak>`
+Related : :ref:`Zval <zval>`, :ref:`References <reference>`, :ref:`Reference Count <reference-count>`, :ref:`Circular Reference <circular-reference>`, :ref:`Memory <memory>`, :ref:`Memory Leak <memory-leak>`

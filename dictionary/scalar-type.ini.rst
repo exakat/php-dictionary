@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Scalar types refer to the basic data types that hold a single value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 05:03:29 +0000","dateModified":"Thu, 26 Jun 2025 05:03:29 +0000","description":"Scalar types refer to the basic data types that hold a single value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Scalar Types
@@ -57,6 +57,6 @@ Note that ``null`` is not considered a scalar type, and is often behaving differ
 
 See also `PHP 7 Scalar Type Declaration <https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration>`_
 
-Related : :ref:`Type System <type>`, :ref:`Special Types <special-type>`, :ref:`String <string>`, :ref:`Boolean <boolean>`, :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Alias Types <alias-types>`
+Related : :ref:`Type System <type>`, :ref:`Special Types <special-type>`, :ref:`String <string>`, :ref:`Boolean <boolean>`, :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Alias Types <alias-types>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Literal Types <literal-types>`, :ref:`Primitive Obsession <primitive-obsession>`, :ref:`Relative Types <relative-types>`
 
 Added in PHP 7.0

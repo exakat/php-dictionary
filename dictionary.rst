@@ -59,6 +59,7 @@ PHP Dictionary
    * :ref:`Anonymous Function <anonymous-function>`
    * :ref:`Application Performance Management (APM) <apm>`
    * :ref:`Application Programming Interface (API) <api>`
+   * :ref:`Application Server <app-server>`
    * :ref:`Arbitrary Number Of Argument <arbitrary-argument>`
    * :ref:`Arcane <arcane>`
    * :ref:`Archive <archive>`
@@ -88,7 +89,7 @@ PHP Dictionary
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute <attribute>`
    * :ref:`Attribute Class <attribute-class>`
-   * :ref:`Authenticate <authenticate>`
+   * :ref:`Authentication <authentication>`
    * :ref:`Authorize <authorize>`
    * :ref:`Automagic <automagic>`
    * :ref:`Automatic Index <automatic-index>`
@@ -100,6 +101,7 @@ PHP Dictionary
    * :ref:`Backed <backed>`
    * :ref:`Backed Enum <backed-enum>`
    * :ref:`Backed Property <backed-property>`
+   * :ref:`BackedEnum <backedenum>`
    * :ref:`Backend <backend>`
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
@@ -279,6 +281,8 @@ PHP Dictionary
    * :ref:`Domain Design Driven (DDD) <ddd>`
    * :ref:`DomainException <domainexception>`
    * :ref:`Don't Repeat Yourself (DRY) <dry>`
+   * :ref:`Dot Notation <dot-notation>`
+   * :ref:`Double Arrow <double-arrow>`
    * :ref:`Double Quotes Strings <double-quote>`
    * :ref:`Downtime <downtime>`
    * :ref:`Duck Typing <duck-typing>`
@@ -341,6 +345,7 @@ PHP Dictionary
    * :ref:`Falsy <falsy>`
    * :ref:`FastCGI <fastcgi>`
    * :ref:`Feature <feature>`
+   * :ref:`Fibers <fibers>`
    * :ref:`File <file>`
    * :ref:`File Extension <file-extension>`
    * :ref:`File Mode <file-mode>`
@@ -368,6 +373,7 @@ PHP Dictionary
    * :ref:`Front-end <frontend>`
    * :ref:`Fully Qualified Name <fully-qualified-name>`
    * :ref:`Function Subscripting <function-subscripting>`
+   * :ref:`Functional Programming <functional-programming>`
    * :ref:`Functions <function>`
    * :ref:`feature-flag <feature-switch>`
    * :ref:`file:// <wrapper-file>`
@@ -380,6 +386,7 @@ PHP Dictionary
    * :ref:`Global Code <global-code>`
    * :ref:`Global Space <global-space>`
    * :ref:`Global Variables <global-variable>`
+   * :ref:`Glue <glue>`
    * :ref:`God Object <god-object>`
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
@@ -412,12 +419,14 @@ PHP Dictionary
    * :ref:`hash() Function <hash-function>`
    * :ref:`hg <hg>`
    * :ref:`http:// <wrapper-https>`
+   * :ref:`http_build_query() <http_build_query>`
 * I
    * :ref:`INI <ini>`
    * :ref:`IP <ip>`
    * :ref:`Iconv <iconv>`
    * :ref:`Idempotent <idempotent>`
    * :ref:`Identical Operator <identical>`
+   * :ref:`Identification <identification>`
    * :ref:`Identifier <identifier>`
    * :ref:`If Then Else <if-then>`
    * :ref:`Iffectation <iffectation>`
@@ -454,6 +463,7 @@ PHP Dictionary
    * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`
    * :ref:`implements <implements>`
+   * :ref:`implode() <implode>`
    * :ref:`include <include>`
    * :ref:`instance <instance>`
    * :ref:`instanceof <instanceof>`
@@ -513,6 +523,7 @@ PHP Dictionary
    * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
    * :ref:`Memoization <memoization>`
+   * :ref:`Memory <memory>`
    * :ref:`Memory Leak <memory-leak>`
    * :ref:`Merge <merge>`
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
@@ -536,6 +547,7 @@ PHP Dictionary
    * :ref:`Mutation Testing <mutation-test>`
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mcrypt Extension <mcrypt>`
+   * :ref:`memory_limit <memory_limit>`
    * :ref:`mysqli <mysqli>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
@@ -547,6 +559,7 @@ PHP Dictionary
    * :ref:`Namespace Name <namespace-name>`
    * :ref:`Namespaces <namespace>`
    * :ref:`Naming <naming>`
+   * :ref:`Naming Conflict <naming-conflict>`
    * :ref:`Native <native>`
    * :ref:`Needle <needle>`
    * :ref:`Nested Attributes <nested-attribute>`
@@ -571,6 +584,7 @@ PHP Dictionary
    * :ref:`negative-index <negative-index>`
    * :ref:`new <new>`
 * O
+   * :ref:`OOP (Object Oriented Programming) <oop>`
    * :ref:`OWASP <owasp>`
    * :ref:`Obfuscation <obfuscation>`
    * :ref:`Object <object>`
@@ -666,6 +680,7 @@ PHP Dictionary
    * :ref:`Primitive Obsession <primitive-obsession>`
    * :ref:`Print <print>`
    * :ref:`Private Visibility <private>`
+   * :ref:`Procedural Programming <procedural-programming>`
    * :ref:`Process Control (pcntl) <pcntl>`
    * :ref:`Production <production>`
    * :ref:`Promise <promise>`
@@ -693,6 +708,7 @@ PHP Dictionary
    * :ref:`RFC <rfc>`
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
+   * :ref:`Read Eval Print Loop (REPL) <repl>`
    * :ref:`Readability <readability>`
    * :ref:`Reading <reading>`
    * :ref:`Readonly <readonly>`
@@ -730,6 +746,7 @@ PHP Dictionary
    * :ref:`Rubber Ducking Debugging <rubber-ducking>`
    * :ref:`Runtime Checks <runtime-checks>`
    * :ref:`ransport Layer Security (TLS) <tls>`
+   * :ref:`register_argc_argv <register_argc_argv>`
    * :ref:`resource <resource>`
 * S
    * :ref:`SOLID <solid>`
@@ -756,6 +773,8 @@ PHP Dictionary
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
+   * :ref:`Separator <separator>`
+   * :ref:`Serializable <serializable>`
    * :ref:`Serialization <serialization>`
    * :ref:`Server Application Programming Interface (SAPI) <sapi>`
    * :ref:`Session <session>`
@@ -883,6 +902,7 @@ PHP Dictionary
    * :ref:`UnhandledMatchError <unhandledmatcherror>`
    * :ref:`Unicode <unicode>`
    * :ref:`Union Type <union-type>`
+   * :ref:`UnitEnum <unitenum>`
    * :ref:`Universal Resource Identifier (URI) <uri>`
    * :ref:`Universal Resource Locator (URL) <url>`
    * :ref:`Universally Unique IDentifier (UUID) <uuid>`
@@ -901,6 +921,7 @@ PHP Dictionary
 * V
    * :ref:`VCS <vcs>`
    * :ref:`Validation <validation>`
+   * :ref:`Value <value>`
    * :ref:`Value Object <value-object>`
    * :ref:`Value Object (VO) <vo>`
    * :ref:`ValueError <valueerror>`

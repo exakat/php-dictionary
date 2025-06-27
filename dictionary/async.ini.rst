@@ -37,4 +37,4 @@ PHP does not support a notion of ``async``. The closest feature is called 'fiber
    ?>
 
 
-Related : , :ref:`Generator <generator>`
+Related : :ref:`Fibers <fiber>`, :ref:`Generator <generator>`

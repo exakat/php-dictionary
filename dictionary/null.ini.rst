@@ -44,4 +44,4 @@ There is also a design pattern called Null Pattern, although its main goal is to
 
 See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_, `Avoiding Unnecessary Null Checks <https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/>`_
 
-Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`, :ref:`Authenticate <authenticate>`, :ref:`Empty <empty>`, :ref:`Overflow <overflow>`, :ref:`Underflow <underflow>`, :ref:`Void <void>`
+Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`, , :ref:`Empty <empty>`, :ref:`Overflow <overflow>`, :ref:`Underflow <underflow>`, :ref:`Void <void>`

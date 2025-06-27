@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"each","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"each() was a native function, that would yield each element in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/each.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"each","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 16:35:57 +0000","dateModified":"Fri, 27 Jun 2025 16:35:57 +0000","description":"each() was a native function, that would yield each element in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/each.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 each
@@ -24,7 +24,23 @@ each
 
 each() was a native function, that would yield each element in an array. It was used in while() loops, to traverse lists.
 
-It was deprecated during PHP 7.x and it completely removed in PHP 8.
+It was deprecated during PHP 7.x and it is completely removed in PHP 8.
+
+The classic while-each-list structure, shown below, is, nowadays, advantageously replaced by a foreach() loop.
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = ['a' => 1, 'b' => 3, 'c' => 5];
+   while(list($key, $value) = each($array)) {
+       print $key . ' => ' . $value . PHP_EOL;
+   }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/function.each.php>`__
 
 Added in PHP 1.0
 

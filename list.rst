@@ -53,6 +53,7 @@ Index
    dictionary/anonymous.ini
    dictionary/api.ini
    dictionary/apm.ini
+   dictionary/app-server.ini
    dictionary/append.ini
    dictionary/arbitrary-argument.ini
    dictionary/arcane.ini
@@ -86,7 +87,7 @@ Index
    dictionary/asynchronous.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
-   dictionary/authenticate.ini
+   dictionary/authentication.ini
    dictionary/authorize.ini
    dictionary/autoload.ini
    dictionary/automagic.ini
@@ -96,6 +97,7 @@ Index
    dictionary/backed-enum.ini
    dictionary/backed-property.ini
    dictionary/backed.ini
+   dictionary/backedenum.ini
    dictionary/backend.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
@@ -267,6 +269,8 @@ Index
    dictionary/do-while.ini
    dictionary/domainexception.ini
    dictionary/domxml.ini
+   dictionary/dot-notation.ini
+   dictionary/double-arrow.ini
    dictionary/double-quote.ini
    dictionary/dowhile.ini
    dictionary/downtime.ini
@@ -331,6 +335,7 @@ Index
    dictionary/feature-flag.ini
    dictionary/feature.ini
    dictionary/ffi.ini
+   dictionary/fibers.ini
    dictionary/file-extension.ini
    dictionary/file-mode.ini
    dictionary/file.ini
@@ -359,6 +364,7 @@ Index
    dictionary/fully-qualified-name.ini
    dictionary/function-subscripting.ini
    dictionary/function.ini
+   dictionary/functional-programming.ini
    dictionary/garbage-collection.ini
    dictionary/generator.ini
    dictionary/generics.ini
@@ -371,6 +377,7 @@ Index
    dictionary/global-variable.ini
    dictionary/global.ini
    dictionary/globals.ini
+   dictionary/glue.ini
    dictionary/god-object.ini
    dictionary/goto.ini
    dictionary/graphql.ini
@@ -397,11 +404,13 @@ Index
    dictionary/http-encoding.ini
    dictionary/http-header.ini
    dictionary/http.ini
+   dictionary/http_build_query.ini
    dictionary/https.ini
    dictionary/hydrate.ini
    dictionary/iconv.ini
    dictionary/idempotent.ini
    dictionary/identical.ini
+   dictionary/identification.ini
    dictionary/identifier.ini
    dictionary/if-then.ini
    dictionary/iffectation.ini
@@ -410,6 +419,7 @@ Index
    dictionary/immutable.ini
    dictionary/implements.ini
    dictionary/implicit.ini
+   dictionary/implode.ini
    dictionary/import.ini
    dictionary/include.ini
    dictionary/inclusion.ini
@@ -503,6 +513,8 @@ Index
    dictionary/md5.ini
    dictionary/memoization.ini
    dictionary/memory-leak.ini
+   dictionary/memory.ini
+   dictionary/memory_limit.ini
    dictionary/merge.ini
    dictionary/message-queue.ini
    dictionary/method.ini
@@ -529,6 +541,7 @@ Index
    dictionary/namespace-alias.ini
    dictionary/namespace-name.ini
    dictionary/namespace.ini
+   dictionary/naming-conflict.ini
    dictionary/naming.ini
    dictionary/nan.ini
    dictionary/native.ini
@@ -568,6 +581,7 @@ Index
    dictionary/octal-integer.ini
    dictionary/offset.ini
    dictionary/one-liner.ini
+   dictionary/oop.ini
    dictionary/opcache.ini
    dictionary/opcode.ini
    dictionary/open-tag.ini
@@ -648,6 +662,7 @@ Index
    dictionary/print.ini
    dictionary/print_r.ini
    dictionary/private.ini
+   dictionary/procedural-programming.ini
    dictionary/production.ini
    dictionary/profiler.ini
    dictionary/promise.ini
@@ -679,6 +694,7 @@ Index
    dictionary/reflectionexception.ini
    dictionary/regex.ini
    dictionary/register-globals.ini
+   dictionary/register_argc_argv.ini
    dictionary/registry.ini
    dictionary/relative-types.ini
    dictionary/relative.ini
@@ -688,6 +704,7 @@ Index
    dictionary/relay-function.ini
    dictionary/release.ini
    dictionary/render.ini
+   dictionary/repl.ini
    dictionary/reserved-name.ini
    dictionary/resource.ini
    dictionary/rest-api.ini
@@ -722,6 +739,8 @@ Index
    dictionary/semantics.ini
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
+   dictionary/separator.ini
+   dictionary/serializable.ini
    dictionary/serialization.ini
    dictionary/session-fixation.ini
    dictionary/session-highjacking.ini
@@ -851,6 +870,7 @@ Index
    dictionary/unhandledmatcherror.ini
    dictionary/unicode.ini
    dictionary/union-type.ini
+   dictionary/unitenum.ini
    dictionary/unpacking.ini
    dictionary/unreachable-code.ini
    dictionary/unserialize.ini
@@ -871,6 +891,7 @@ Index
    dictionary/uuid.ini
    dictionary/validation.ini
    dictionary/value-object.ini
+   dictionary/value.ini
    dictionary/valueerror.ini
    dictionary/var.ini
    dictionary/var_dump.ini
