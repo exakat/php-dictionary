@@ -205,7 +205,7 @@ PHP Dictionary
    * :ref:`Constants In Trait <constant-in-trait>`
    * :ref:`Container <container>`
    * :ref:`Continue <continue>`
-   * :ref:`Continuous Integration <ci>`
+   * :ref:`Continuous Integration (CI) <ci>`
    * :ref:`Contravariance <type-contravariance>`
    * :ref:`Control Flow <control-flow>`
    * :ref:`Control Structures <control-structure>`
@@ -531,7 +531,9 @@ PHP Dictionary
    * :ref:`Method <method>`
    * :ref:`Method Signature <signature>`
    * :ref:`Methodcall <methodcall>`
+   * :ref:`Micro-framework <microframework>`
    * :ref:`Micro-optimisation <micro-optimisation>`
+   * :ref:`Micro-second <microsecond>`
    * :ref:`Microservice <microservice>`
    * :ref:`Microtime() <microtime>`
    * :ref:`Migration <migration>`
@@ -572,6 +574,7 @@ PHP Dictionary
    * :ref:`Non-static <non-static>`
    * :ref:`Not A Number (NAN) <nan>`
    * :ref:`Not Operator <not>`
+   * :ref:`Notice <notice>`
    * :ref:`Nowdocs <nowdoc>`
    * :ref:`Null <null>`
    * :ref:`Null Pattern <nullpattern>`
@@ -629,6 +632,7 @@ PHP Dictionary
    * :ref:`PHP Handlers <handler>`
    * :ref:`PHP Installer For Extensions (PIE) <pie>`
    * :ref:`PHP Native Attribute <php-native-attribute>`
+   * :ref:`PHP Native Attributes <php-attribute>`
    * :ref:`PHP Native Interfaces <php-interface>`
    * :ref:`PHP Predefined Exception <predefined-exception>`
    * :ref:`PHP Profiler <profiler>`
@@ -640,6 +644,7 @@ PHP Dictionary
    * :ref:`PHP Wrappers <php-wrapper>`
    * :ref:`PHP-FPM (FPM) <fpm>`
    * :ref:`PHP_INT_MAX <php_int_max>`
+   * :ref:`PHP_INT_MIN <php_int_min>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`PHPunit <phpunit>`
    * :ref:`Packagist <packagist>`
@@ -690,6 +695,7 @@ PHP Dictionary
    * :ref:`Property Type Declaration <type-declaration-property>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
+   * :ref:`Pseudo-type <pseudotype>`
    * :ref:`Pseudo-variable <pseudo-variable>`
    * :ref:`Public Visibility <public>`
    * :ref:`pack <pack>`
@@ -730,6 +736,7 @@ PHP Dictionary
    * :ref:`Relaxed Syntax <relaxed-syntax>`
    * :ref:`Relay Function <relay-function>`
    * :ref:`Release <release>`
+   * :ref:`Remote Code Execution (RCE) <skeleton>`
    * :ref:`Remote Procedure Call (RPC) <rpc>`
    * :ref:`Rendering <render>`
    * :ref:`Request For Change (RFC) <rfchange>`
@@ -766,6 +773,7 @@ PHP Dictionary
    * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
+   * :ref:`Secret <secret>`
    * :ref:`Security <security>`
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
@@ -843,6 +851,7 @@ PHP Dictionary
    * :ref:`Switch Default <switch-default>`
    * :ref:`Switch Fallthrough <fallthrough>`
    * :ref:`Synchronous <synchronous>`
+   * :ref:`Syntax <syntax>`
    * :ref:`Syntax Error <syntax-error>`
    * :ref:`System <system>`
    * :ref:`System Call <system-call>`
@@ -942,9 +951,11 @@ PHP Dictionary
    * :ref:`var_dump() <var_dump>`
    * :ref:`variable_order <variable_order>`
 * W
+   * :ref:`Warning <warning>`
    * :ref:`Weak References <weak-reference>`
    * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
+   * :ref:`Webshell <webshell>`
    * :ref:`Websocket <websocket>`
    * :ref:`While <while>`
    * :ref:`Whitespace <whitespace>`

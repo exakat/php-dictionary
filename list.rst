@@ -520,6 +520,8 @@ Index
    dictionary/method.ini
    dictionary/methodcall.ini
    dictionary/micro-optimisation.ini
+   dictionary/micro-second.ini
+   dictionary/microframework.ini
    dictionary/microservice.ini
    dictionary/microtime.ini
    dictionary/migration.ini
@@ -558,6 +560,7 @@ Index
    dictionary/non-static.ini
    dictionary/noscream.ini
    dictionary/not.ini
+   dictionary/notice.ini
    dictionary/nowdoc.ini
    dictionary/null.ini
    dictionary/nullable.ini
@@ -625,6 +628,7 @@ Index
    dictionary/pgsql.ini
    dictionary/phar.ini
    dictionary/pharexception.ini
+   dictionary/php-attribute.ini
    dictionary/php-docker-container.ini
    dictionary/php-extension.ini
    dictionary/php-fig.ini
@@ -640,6 +644,7 @@ Index
    dictionary/php.ini
    dictionary/php.ini.ini
    dictionary/php_max_int.ini
+   dictionary/php_min_int.ini
    dictionary/phpdoc.ini
    dictionary/phpinfo.ini
    dictionary/phpunit.ini
@@ -671,6 +676,7 @@ Index
    dictionary/property.ini
    dictionary/protected.ini
    dictionary/protocol.ini
+   dictionary/pseudo-type.ini
    dictionary/pseudo-variable.ini
    dictionary/psr.ini
    dictionary/public.ini
@@ -680,6 +686,7 @@ Index
    dictionary/random.ini
    dictionary/rangeexception.ini
    dictionary/rbac.ini
+   dictionary/rce.ini
    dictionary/rdbms.ini
    dictionary/readability.ini
    dictionary/reading.ini
@@ -732,6 +739,7 @@ Index
    dictionary/scope.ini
    dictionary/sdk.ini
    dictionary/second-order-sql-injection.ini
+   dictionary/secret.ini
    dictionary/security.ini
    dictionary/segmentation-fault.ini
    dictionary/self-reference.ini
@@ -821,6 +829,7 @@ Index
    dictionary/switch.ini
    dictionary/synchronous.ini
    dictionary/syntax-error.ini
+   dictionary/syntax.ini
    dictionary/system-call.ini
    dictionary/system-event.ini
    dictionary/system.ini
@@ -912,10 +921,12 @@ Index
    dictionary/visibility.ini
    dictionary/vo.ini
    dictionary/void.ini
+   dictionary/warning.ini
    dictionary/weak-reference.ini
    dictionary/web.ini
    dictionary/webscraping.ini
    dictionary/webserver.ini
+   dictionary/webshell.ini
    dictionary/websocket.ini
    dictionary/while.ini
    dictionary/whitespace.ini

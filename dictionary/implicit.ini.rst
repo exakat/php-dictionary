@@ -1,28 +1,28 @@
 .. _implicit:
 .. meta::
 	:description:
-		Implicit: A feature is implicit when it is available, yet not visible.
+		Implicit: A feature is implicit when it is available, yet not explicitly visible.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Implicit
-	:twitter:description: Implicit: A feature is implicit when it is available, yet not visible
+	:twitter:description: Implicit: A feature is implicit when it is available, yet not explicitly visible
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Implicit
 	:og:type: article
-	:og:description: A feature is implicit when it is available, yet not visible
+	:og:description: A feature is implicit when it is available, yet not explicitly visible
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/implicit.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Implicit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A feature is implicit when it is available, yet not visible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Implicit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Implicit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 14:36:54 +0000","dateModified":"Sat, 28 Jun 2025 14:36:54 +0000","description":"A feature is implicit when it is available, yet not explicitly visible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Implicit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Implicit
 --------
 
-A feature is implicit when it is available, yet not visible. 
+A feature is implicit when it is available, yet not explicitly visible. 
 
 For example, objects are passed by reference to functions: any change applied to that object, inside the function, is also available in the calling context.
 

@@ -14,6 +14,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Command Line Interface (CLI) <cli>`
 + :ref:`Common Interface Gateway (CGI) <cgi>`
 + :ref:`Concurent Version System (CVS) <cvs>`
++ :ref:`Continuous Integration (CI) <ci>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 + :ref:`Data Source Name (DSN) <dsn>`
 + :ref:`Data Transfer Object (DTO) <dto>`
@@ -71,7 +72,6 @@ List of acronyms, used in this dictionary.
 + :ref:`Value Object (VO) <vo>`
 + :ref:`World Wide Weab (WWW) <web>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
-+ :ref:`Yoda Condition <yoda>`
 + :ref:`ransport Layer Security (TLS) <tls>`
 
 Attribute
@@ -84,6 +84,7 @@ List of PHP native attributes.
 + :ref:`Deprecated <deprecated>`
 + :ref:`Nested Attributes <nested-attribute>`
 + :ref:`Override Attribute <override>`
++ :ref:`PHP Native Attributes <php-attribute>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
 + :ref:`Sensitive Parameter <sensitiveparameter>`
@@ -229,6 +230,7 @@ Directive
 List of configuration directives of PHP. They may be used in php.ini, ini_set()/ini_get() or other configuration files.
 
 + :ref:`Disable Functions <disable-functions>`
++ :ref:`Error Reporting <error-reporting>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`register_argc_argv <register_argc_argv>`
 + :ref:`variable_order <variable_order>`
@@ -438,6 +440,7 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Haystack <haystack>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Needle <needle>`
++ :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 + :ref:`Separator <separator>`
