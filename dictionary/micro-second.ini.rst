@@ -43,4 +43,4 @@ Do not use ``date()`` to get micro-seconds, as the function always returns 0.
    ?>
 
 
-Related : :ref:`Microtime() <microtime>`, , :ref:`DateTime <datetime>`, :ref:`DateTime <datetimeimmutable>`
+Related : :ref:`microtime() <microtime>`, :ref:`hrtime() <hrtime>`, :ref:`DateTime <datetime>`, :ref:`DateTime <datetimeimmutable>`

@@ -36,6 +36,7 @@ PHP Dictionary
    * :ref:`__wakeup() Method <-__wakeup>`
 * A
    * :ref:`Absolute <absolute>`
+   * :ref:`Absolute Name <absolute-name>`
    * :ref:`Absolute Value <absolute-value>`
    * :ref:`Abstract Class <abstract-class>`
    * :ref:`Abstract Keyword <abstract>`
@@ -96,6 +97,7 @@ PHP Dictionary
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
    * :ref:`array_key_exists() <array_key_exists>`
+   * :ref:`array_map() <array_map>`
    * :ref:`array_merge() <array_merge>`
 * B
    * :ref:`Backed <backed>`
@@ -123,6 +125,7 @@ PHP Dictionary
    * :ref:`Branch <branch>`
    * :ref:`Break <break>`
    * :ref:`Bucket <bucket>`
+   * :ref:`Bug <bug>`
    * :ref:`Byte <byte>`
    * :ref:`basename <basename>`
    * :ref:`browscap <browscap>`
@@ -235,6 +238,7 @@ PHP Dictionary
    * :ref:`DOM <domxml>`
    * :ref:`Dangling Reference <dangling-reference>`
    * :ref:`Data <data>`
+   * :ref:`Data Access Object (DAO) <dao>`
    * :ref:`Data Container <data-container>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
@@ -257,6 +261,7 @@ PHP Dictionary
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
    * :ref:`Definition <definition>`
+   * :ref:`Delimiter <delimiter>`
    * :ref:`Dependency Injection <dependency-injection>`
    * :ref:`Dependency Injection Container <dependency-injection-container>`
    * :ref:`Deployment <deploy>`
@@ -377,6 +382,7 @@ PHP Dictionary
    * :ref:`Functions <function>`
    * :ref:`feature-flag <feature-switch>`
    * :ref:`file:// <wrapper-file>`
+   * :ref:`file_put_contents() <file_put_contents>`
    * :ref:`filter <filter>`
    * :ref:`ftp:// <wrapper-ftps>`
 * G
@@ -391,6 +397,7 @@ PHP Dictionary
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
    * :ref:`GraphQL <graphql>`
+   * :ref:`get_class() <get_class>`
    * :ref:`gettext Extension <gettext>`
    * :ref:`git <git>`
    * :ref:`glob() <glob>`
@@ -418,6 +425,7 @@ PHP Dictionary
    * :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
    * :ref:`hash() Function <hash-function>`
    * :ref:`hg <hg>`
+   * :ref:`hrtime() <hrtime>`
    * :ref:`http:// <wrapper-https>`
    * :ref:`http_build_query() <http_build_query>`
 * I
@@ -522,6 +530,7 @@ PHP Dictionary
    * :ref:`Map <map>`
    * :ref:`Markdown <markdown>`
    * :ref:`Match <match>`
+   * :ref:`Math <math>`
    * :ref:`Memoization <memoization>`
    * :ref:`Memory <memory>`
    * :ref:`Memory Leak <memory-leak>`
@@ -535,7 +544,6 @@ PHP Dictionary
    * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Micro-second <microsecond>`
    * :ref:`Microservice <microservice>`
-   * :ref:`Microtime() <microtime>`
    * :ref:`Migration <migration>`
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
@@ -550,6 +558,7 @@ PHP Dictionary
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mcrypt Extension <mcrypt>`
    * :ref:`memory_limit <memory_limit>`
+   * :ref:`microtime() <microtime>`
    * :ref:`mysqli <mysqli>`
    * :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 * N
@@ -559,6 +568,7 @@ PHP Dictionary
    * :ref:`Named Parameters <named-parameter>`
    * :ref:`Namespace Alias <namespace-alias>`
    * :ref:`Namespace Name <namespace-name>`
+   * :ref:`Namespaced Name <namespaced-name>`
    * :ref:`Namespaces <namespace>`
    * :ref:`Naming <naming>`
    * :ref:`Naming Conflict <naming-conflict>`
@@ -570,6 +580,7 @@ PHP Dictionary
    * :ref:`Never Type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
    * :ref:`New Without Parenthesis <new-without-parenthesis>`
+   * :ref:`NoDiscard <nodiscard>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Non-static <non-static>`
    * :ref:`Not A Number (NAN) <nan>`
@@ -700,6 +711,7 @@ PHP Dictionary
    * :ref:`Public Visibility <public>`
    * :ref:`pack <pack>`
    * :ref:`parent <parent>`
+   * :ref:`parse_str() <parse_str>`
    * :ref:`php.ini <php.ini>`
    * :ref:`php:// <wrapper-php>`
    * :ref:`phpinfo() <phpinfo>`
@@ -708,6 +720,7 @@ PHP Dictionary
    * :ref:`Query <query>`
    * :ref:`Query String <query-string>`
    * :ref:`Queue <queue>`
+   * :ref:`Quoted Printable <quoted-printable>`
 * R
    * :ref:`RDBMS <rdbms>`
    * :ref:`REST API <rest-api>`
@@ -717,6 +730,7 @@ PHP Dictionary
    * :ref:`Read Eval Print Loop (REPL) <repl>`
    * :ref:`Readability <readability>`
    * :ref:`Reading <reading>`
+   * :ref:`Readline <readline>`
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
@@ -730,6 +744,7 @@ PHP Dictionary
    * :ref:`Registry <registry>`
    * :ref:`Regular Expressions <regex>`
    * :ref:`Relative <relative>`
+   * :ref:`Relative Name <relative-name>`
    * :ref:`Relative Types <relative-types>`
    * :ref:`Relaxed Comparison <relaxed-comparison>`
    * :ref:`Relaxed Keywords <relaxed-keywords>`
@@ -756,6 +771,7 @@ PHP Dictionary
    * :ref:`register_argc_argv <register_argc_argv>`
    * :ref:`resource <resource>`
 * S
+   * :ref:`SNMP3 <snmp3>`
    * :ref:`SOLID <solid>`
    * :ref:`SQL Injection <sql-injection>`
    * :ref:`SQL Views <view-sql>`

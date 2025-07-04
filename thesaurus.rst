@@ -16,6 +16,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Integration (CI) <ci>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
++ :ref:`Data Access Object (DAO) <dao>`
 + :ref:`Data Source Name (DSN) <dsn>`
 + :ref:`Data Transfer Object (DTO) <dto>`
 + :ref:`Database Abstraction Layer (DBA) extension <dba>`
@@ -109,6 +110,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Backed <backed>`
 + :ref:`Backend <backend>`
 + :ref:`Benchmarking <benchmarking>`
++ :ref:`Bug <bug>`
 + :ref:`Centralization <centralization>`
 + :ref:`Class <class>`
 + :ref:`Class Entities <class-entity>`
@@ -407,7 +409,9 @@ List of special PHP extensions.
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
 + :ref:`PostgreSQL <postgresql>`
++ :ref:`Readline <readline>`
 + :ref:`Reflection <reflection>`
++ :ref:`SNMP3 <snmp3>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`SimpleXML <simplexml>`
 + :ref:`Standard PHP Library (SPL) <spl>`
@@ -435,6 +439,7 @@ Folklore
 
 List of things that seems unrelated to PHP, but, suprisingly, are.
 
++ :ref:`Elephpant <elephpant>`
 + :ref:`Flag <flag>`
 + :ref:`Glue <glue>`
 + :ref:`Haystack <haystack>`

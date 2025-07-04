@@ -44,4 +44,4 @@ This mode is also called the interactive mode. It is started, on command line, b
 
 See also https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195, https://github.com/borisrepl/boris
 
-Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Command Line Interface (CLI) <cli>`, 
+Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Readline <readline>`

@@ -31,6 +31,7 @@ Index
    dictionary/__tostring.ini
    dictionary/__unserialize.ini
    dictionary/__wakeup.ini
+   dictionary/absolute-name.ini
    dictionary/absolute-value.ini
    dictionary/absolute.ini
    dictionary/abstract-class.ini
@@ -68,6 +69,7 @@ Index
    dictionary/array-syntax.ini
    dictionary/array.ini
    dictionary/array_key_exists.ini
+   dictionary/array_map.ini
    dictionary/array_merge.ini
    dictionary/arrayaccess.ini
    dictionary/arrayobject.ini
@@ -121,6 +123,7 @@ Index
    dictionary/break.ini
    dictionary/browscap.ini
    dictionary/bucket.ini
+   dictionary/bug.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
    dictionary/byte.ini
@@ -222,6 +225,7 @@ Index
    dictionary/cvs.ini
    dictionary/cyclomatic-complexity.ini
    dictionary/dangling-reference.ini
+   dictionary/dao.ini
    dictionary/data-container.ini
    dictionary/data-mapper.ini
    dictionary/data.ini
@@ -248,6 +252,7 @@ Index
    dictionary/define.ini
    dictionary/defined.ini
    dictionary/definition.ini
+   dictionary/delimiter.ini
    dictionary/dependency-injection-container.ini
    dictionary/dependency-injection.ini
    dictionary/deploy.ini
@@ -339,6 +344,7 @@ Index
    dictionary/file-extension.ini
    dictionary/file-mode.ini
    dictionary/file.ini
+   dictionary/file_put_contents.ini
    dictionary/filesystem.ini
    dictionary/filesystemiterator.ini
    dictionary/filter.ini
@@ -368,6 +374,7 @@ Index
    dictionary/garbage-collection.ini
    dictionary/generator.ini
    dictionary/generics.ini
+   dictionary/get_class.ini
    dictionary/getter.ini
    dictionary/gettext.ini
    dictionary/git.ini
@@ -397,6 +404,7 @@ Index
    dictionary/hexagonal.ini
    dictionary/hg.ini
    dictionary/hosting.ini
+   dictionary/hrtime.ini
    dictionary/htaccess.ini
    dictionary/html-entities.ini
    dictionary/html-entity.ini
@@ -507,6 +515,7 @@ Index
    dictionary/map.ini
    dictionary/markdown.ini
    dictionary/match.ini
+   dictionary/math.ini
    dictionary/max_execution_time.ini
    dictionary/mbstring.ini
    dictionary/mcrypt.ini
@@ -543,6 +552,7 @@ Index
    dictionary/namespace-alias.ini
    dictionary/namespace-name.ini
    dictionary/namespace.ini
+   dictionary/namespaced-name.ini
    dictionary/naming-conflict.ini
    dictionary/naming.ini
    dictionary/nan.ini
@@ -556,6 +566,7 @@ Index
    dictionary/new-in-initializer.ini
    dictionary/new-without-parenthesis.ini
    dictionary/new.ini
+   dictionary/nodiscard.ini
    dictionary/non-breakable-space.ini
    dictionary/non-static.ini
    dictionary/noscream.ini
@@ -610,6 +621,7 @@ Index
    dictionary/parent.ini
    dictionary/parenthesis.ini
    dictionary/parse.ini
+   dictionary/parse_str.ini
    dictionary/parseerror.ini
    dictionary/partial-function.ini
    dictionary/password-ext.ini
@@ -683,6 +695,7 @@ Index
    dictionary/query-string.ini
    dictionary/query.ini
    dictionary/queue.ini
+   dictionary/quoted-printable.ini
    dictionary/random.ini
    dictionary/rangeexception.ini
    dictionary/rbac.ini
@@ -690,6 +703,7 @@ Index
    dictionary/rdbms.ini
    dictionary/readability.ini
    dictionary/reading.ini
+   dictionary/readline.ini
    dictionary/readonly.ini
    dictionary/real.ini
    dictionary/recursion.ini
@@ -703,6 +717,7 @@ Index
    dictionary/register-globals.ini
    dictionary/register_argc_argv.ini
    dictionary/registry.ini
+   dictionary/relative-name.ini
    dictionary/relative-types.ini
    dictionary/relative.ini
    dictionary/relaxed-comparison.ini
@@ -772,6 +787,7 @@ Index
    dictionary/singleton.ini
    dictionary/sleep.ini
    dictionary/snmp.ini
+   dictionary/snmp3.ini
    dictionary/soap.ini
    dictionary/socket.ini
    dictionary/solid.ini

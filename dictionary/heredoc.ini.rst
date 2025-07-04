@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Heredocs","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Heredocs.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Heredocs","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 14:13:21 +0000","dateModified":"Fri, 04 Jul 2025 14:13:21 +0000","description":"Heredoc is a string syntax, similar to nowdoc, with internal variable interpolation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Heredocs.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Heredocs
@@ -51,6 +51,6 @@ It is possible to indent the text in a nowdocs string: to avoid this indentation
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc>`__
 
-Related : :ref:`Nowdocs <nowdoc>`, :ref:`String <string>`
+Related : :ref:`Nowdocs <nowdoc>`, :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Indentation <indentation>`, :ref:`Interpolation <interpolation>`, :ref:`Single Quotes Strings <single-quote>`
 
 Added in PHP 5.5

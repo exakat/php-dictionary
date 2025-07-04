@@ -12,6 +12,7 @@ Empty seeAlso for ./human/en/Features/$php_errormsg.ini
 Empty seeAlso for ./human/en/Features/__isset.ini
 Empty seeAlso for ./human/en/Features/__set.ini
 Empty seeAlso for ./human/en/Features/__unserialize.ini
+Empty seeAlso for ./human/en/Features/absolute-name.ini
 Empty seeAlso for ./human/en/Features/absolute-value.ini
 Empty seeAlso for ./human/en/Features/absolute.ini
 Empty seeAlso for ./human/en/Features/abstract-class.ini
@@ -29,6 +30,7 @@ Empty seeAlso for ./human/en/Features/argumentcounterror.ini
 Empty seeAlso for ./human/en/Features/arithmeticerror.ini
 Empty seeAlso for ./human/en/Features/arm.ini
 Empty seeAlso for ./human/en/Features/array-syntax.ini
+Empty seeAlso for ./human/en/Features/array_map.ini
 Empty seeAlso for ./human/en/Features/array_merge.ini
 Empty seeAlso for ./human/en/Features/arrayaccess.ini
 Empty seeAlso for ./human/en/Features/artifact.ini
@@ -63,6 +65,7 @@ Empty seeAlso for ./human/en/Features/branch.ini
 Empty seeAlso for ./human/en/Features/break.ini
 Empty seeAlso for ./human/en/Features/browscap.ini
 Empty seeAlso for ./human/en/Features/bucket.ini
+Empty seeAlso for ./human/en/Features/bug.ini
 Empty seeAlso for ./human/en/Features/by-value.ini
 Empty seeAlso for ./human/en/Features/byte.ini
 Empty seeAlso for ./human/en/Features/call.ini
@@ -118,6 +121,7 @@ Empty seeAlso for ./human/en/Features/cryptography.ini
 Empty seeAlso for ./human/en/Features/csv.ini
 Empty seeAlso for ./human/en/Features/custom.ini
 Empty seeAlso for ./human/en/Features/cvs.ini
+Empty seeAlso for ./human/en/Features/dao.ini
 Empty seeAlso for ./human/en/Features/data-container.ini
 Empty seeAlso for ./human/en/Features/data.ini
 Empty seeAlso for ./human/en/Features/database.ini
@@ -132,6 +136,7 @@ Empty seeAlso for ./human/en/Features/default.ini
 Empty seeAlso for ./human/en/Features/define.ini
 Empty seeAlso for ./human/en/Features/defined.ini
 Empty seeAlso for ./human/en/Features/definition.ini
+Empty seeAlso for ./human/en/Features/delimiter.ini
 Empty seeAlso for ./human/en/Features/deprecated.ini
 Empty seeAlso for ./human/en/Features/deprecation.ini
 Empty seeAlso for ./human/en/Features/depth.ini
@@ -188,6 +193,7 @@ Empty seeAlso for ./human/en/Features/frontend.ini
 Empty seeAlso for ./human/en/Features/fully-qualified-name.ini
 Empty seeAlso for ./human/en/Features/function-subscripting.ini
 Empty seeAlso for ./human/en/Features/function.ini
+Empty seeAlso for ./human/en/Features/get_class.ini
 Empty seeAlso for ./human/en/Features/getter.ini
 Empty seeAlso for ./human/en/Features/git.ini
 Empty seeAlso for ./human/en/Features/glob.ini
@@ -211,6 +217,7 @@ Empty seeAlso for ./human/en/Features/heredoc.ini
 Empty seeAlso for ./human/en/Features/hexadecimal-integer.ini
 Empty seeAlso for ./human/en/Features/hg.ini
 Empty seeAlso for ./human/en/Features/hosting.ini
+Empty seeAlso for ./human/en/Features/hrtime.ini
 Empty seeAlso for ./human/en/Features/htaccess.ini
 Empty seeAlso for ./human/en/Features/html-entities.ini
 Empty seeAlso for ./human/en/Features/http.ini
@@ -270,6 +277,7 @@ Empty seeAlso for ./human/en/Features/machine-learning.ini
 Empty seeAlso for ./human/en/Features/magic-byte.ini
 Empty seeAlso for ./human/en/Features/magic-constant.ini
 Empty seeAlso for ./human/en/Features/magic-property.ini
+Empty seeAlso for ./human/en/Features/math.ini
 Empty seeAlso for ./human/en/Features/mbstring.ini
 Empty seeAlso for ./human/en/Features/memoization.ini
 Empty seeAlso for ./human/en/Features/memory.ini
@@ -286,13 +294,13 @@ Empty seeAlso for ./human/en/Features/name.ini
 Empty seeAlso for ./human/en/Features/named-constructor.ini
 Empty seeAlso for ./human/en/Features/namespace-alias.ini
 Empty seeAlso for ./human/en/Features/namespace-name.ini
+Empty seeAlso for ./human/en/Features/namespaced-name.ini
 Empty seeAlso for ./human/en/Features/naming-conflict.ini
 Empty seeAlso for ./human/en/Features/native-type.ini
 Empty seeAlso for ./human/en/Features/negative-index.ini
 Empty seeAlso for ./human/en/Features/nested-attribute.ini
 Empty seeAlso for ./human/en/Features/new-without-parenthesis.ini
 Empty seeAlso for ./human/en/Features/new.ini
-./human/en/Features/nodiscard.ini doesn't compile
 Empty seeAlso for ./human/en/Features/non-static.ini
 Empty seeAlso for ./human/en/Features/noscream.ini
 Empty seeAlso for ./human/en/Features/not.ini
@@ -321,7 +329,6 @@ Empty seeAlso for ./human/en/Features/parameter-removal.ini
 Empty seeAlso for ./human/en/Features/parameter.ini
 Empty seeAlso for ./human/en/Features/parent.ini
 Empty seeAlso for ./human/en/Features/parenthesis.ini
-./human/en/Features/parse_str.ini doesn't compile
 Empty seeAlso for ./human/en/Features/partial-function.ini
 Empty seeAlso for ./human/en/Features/path.ini
 Empty seeAlso for ./human/en/Features/pdo.ini
@@ -374,6 +381,7 @@ Empty seeAlso for ./human/en/Features/reference-count.ini
 Empty seeAlso for ./human/en/Features/reflectionexception.ini
 Empty seeAlso for ./human/en/Features/register-globals.ini
 Empty seeAlso for ./human/en/Features/register_argc_argv.ini
+Empty seeAlso for ./human/en/Features/relative-name.ini
 Empty seeAlso for ./human/en/Features/relative-types.ini
 Empty seeAlso for ./human/en/Features/relative.ini
 Empty seeAlso for ./human/en/Features/relaxed-keywords.ini
@@ -461,7 +469,6 @@ Empty seeAlso for ./human/en/Features/unhandledmatcherror.ini
 Empty seeAlso for ./human/en/Features/unicode.ini
 Empty seeAlso for ./human/en/Features/unpacking.ini
 Empty seeAlso for ./human/en/Features/unreachable-code.ini
-Empty seeAlso for ./human/en/Features/unset.ini
 Empty seeAlso for ./human/en/Features/unused.ini
 Empty seeAlso for ./human/en/Features/use-alias.ini
 Empty seeAlso for ./human/en/Features/use-trait.ini
@@ -490,6 +497,7 @@ Empty seeAlso for ./human/en/Features/writing.ini
 ./human/en/Features/app-server.ini has empty tags section
 ./human/en/Features/argument.ini has empty tags section
 ./human/en/Features/array-syntax.ini has empty tags section
+Missing target related link for array_walk in ./human/en/Features/array_map.ini
 American Standard Code for Information Interchange (ASCII) has a wrong format (missing capitals) in file ./human/en/Features/ascii.ini
 ./human/en/Features/asset.ini has empty tags section
 ./human/en/Features/assignation.ini has empty tags section
@@ -506,6 +514,7 @@ Missing target related link for native-interface in ./human/en/Features/backeden
 ./human/en/Features/block.ini has empty tags section
 ./human/en/Features/browscap.ini has empty tags section
 ./human/en/Features/bucket.ini has empty tags section
+./human/en/Features/bug.ini last char is not a .
 ./human/en/Features/cache.ini has empty tags section
 ./human/en/Features/call.ini has empty tags section
 ./human/en/Features/case-sensitivity.ini has empty tags section
@@ -581,6 +590,13 @@ Missing target related link for error-system in ./human/en/Features/error-handli
 ./human/en/Features/file-extension.ini has empty tags section
 ./human/en/Features/file-mode.ini has empty tags section
 ./human/en/Features/file.ini has empty tags section
+./human/en/Features/file_put_contents.ini has empty code for PHP. 
+Missing target related link for include_path in ./human/en/Features/file_put_contents.ini
+Missing target related link for FILE_APPEND in ./human/en/Features/file_put_contents.ini
+Missing target related link for LOCK_EX in ./human/en/Features/file_put_contents.ini
+Missing target related link for lock in ./human/en/Features/file_put_contents.ini
+Missing target related link for concurency in ./human/en/Features/file_put_contents.ini
+Missing target related link for file_get_contents in ./human/en/Features/file_put_contents.ini
 ./human/en/Features/filesystem.ini has empty tags section
 ./human/en/Features/final.ini has empty tags section
 ./human/en/Features/flag.ini has empty code for PHP. 
@@ -591,7 +607,8 @@ Missing target related link for option in ./human/en/Features/flag.ini
 ./human/en/Features/frontend.ini has empty tags section
 ./human/en/Features/fully-qualified-name.ini has empty tags section
 ./human/en/Features/function-subscripting.ini has empty tags section
-./human/en/Features/functional-programming.ini has empty code for PHP. 
+./human/en/Features/get_class.ini has empty tags section
+Missing target related link for __class__ in ./human/en/Features/get_class.ini
 ./human/en/Features/global-code.ini has empty tags section
 ./human/en/Features/global-space.ini has empty tags section
 ./human/en/Features/handle.ini has empty tags section
@@ -601,7 +618,6 @@ Missing target related link for option in ./human/en/Features/flag.ini
 ./human/en/Features/html-entities.ini has empty tags section
 ./human/en/Features/http-encoding.ini has empty tags section
 ./human/en/Features/http-header.ini has empty tags section
-Missing target related link for parse_str in ./human/en/Features/http_build_query.ini
 ./human/en/Features/iconv.ini has empty tags section
 ./human/en/Features/identification.ini has empty tags section
 ./human/en/Features/identifier.ini has empty tags section
@@ -645,14 +661,13 @@ Missing target related link for pseudo-type in ./human/en/Features/iterable.ini
 ./human/en/Features/magic.ini has empty tags section
 ./human/en/Features/maintenance.ini has empty tags section
 ./human/en/Features/map.ini has empty tags section
+./human/en/Features/math.ini has empty tags section
 ./human/en/Features/memoization.ini has empty tags section
 ./human/en/Features/memory.ini has empty code for PHP. 
 ./human/en/Features/memory.ini has empty tags section
 ./human/en/Features/merge.ini has empty tags section
 ./human/en/Features/message-queue.ini has empty tags section
 ./human/en/Features/methodcall.ini has empty tags section
-Missing target related link for hrtime in ./human/en/Features/micro-second.ini
-Missing target related link for hrtime in ./human/en/Features/microtime.ini
 ./human/en/Features/migration.ini has empty tags section
 ./human/en/Features/model.ini has empty tags section
 ./human/en/Features/mysqli.ini has empty tags section
@@ -661,17 +676,15 @@ Missing target related link for hrtime in ./human/en/Features/microtime.ini
 ./human/en/Features/named-constructor.ini has empty tags section
 ./human/en/Features/namespace-name.ini has empty tags section
 ./human/en/Features/namespace.ini has empty tags section
-./human/en/Features/naming-conflict.ini has empty tags section
 ./human/en/Features/naming-conflict.ini last char is not a .
 ./human/en/Features/native-type.ini has no description. Omitting. 
 ./human/en/Features/native.ini has empty tags section
 ./human/en/Features/neutral-element.ini has empty tags section
 ./human/en/Features/new-without-parenthesis.ini has empty tags section
-./human/en/Features/nodiscard.ini doesn't compile
+Missing target related link for Attribute in ./human/en/Features/nodiscard.ini
 ./human/en/Features/non-breakable-space.ini has empty tags section
 ./human/en/Features/non-static.ini has empty tags section
 ./human/en/Features/null.ini has empty tags section
-Missing target related link for authenticate in ./human/en/Features/null.ini
 ./human/en/Features/nullable.ini has empty tags section
 ./human/en/Features/numeric-base.ini has empty tags section
 ./human/en/Features/numeric-string.ini has empty code for PHP. 
@@ -694,7 +707,6 @@ Missing target related link for authenticate in ./human/en/Features/null.ini
 ./human/en/Features/parameter-removal.ini has empty tags section
 ./human/en/Features/parent.ini has empty tags section
 ./human/en/Features/parse.ini has empty tags section
-./human/en/Features/parse_str.ini doesn't compile
 ./human/en/Features/pattern-matching.ini has empty tags section
 ./human/en/Features/pcntl.ini has empty tags section
 ./human/en/Features/performance.ini has empty code for PHP. 
@@ -761,7 +773,6 @@ Missing target related link for reflector in ./human/en/Features/php-interface.i
 ./human/en/Features/relaxed-syntax.ini has empty tags section
 ./human/en/Features/relaxed-syntax.ini last char is not a .
 ./human/en/Features/release.ini has empty tags section
-Missing target related link for readline in ./human/en/Features/repl.ini
 ./human/en/Features/reserved-name.ini has empty tags section
 ./human/en/Features/return-value.ini has empty tags section
 ./human/en/Features/return.ini has empty tags section

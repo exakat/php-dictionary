@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Object Relational Mapping (ORM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Relational Mapping (ORM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Object Relational Mapping (ORM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 03 Jul 2025 16:30:59 +0000","dateModified":"Thu, 03 Jul 2025 16:30:59 +0000","description":"Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Relational Mapping (ORM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Object Relational Mapping (ORM)
@@ -34,4 +34,4 @@ See also `PDO in PHP <https://www.php.net/manual/en/intro.pdo.php>`_
 
 Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, :ref:`Data Mapper <object-mapper>`
 
-Related packages : `doctrine/orm <https://packagist.org/packages/doctrine/orm>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_, `propel/propel <https://packagist.org/packages/propel/propel>`_, `gabordemooij/redbean <https://packagist.org/packages/gabordemooij/redbean>`_
+Related packages : `doctrine/orm <https://packagist.org/packages/doctrine/orm>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_, `propel/propel <https://packagist.org/packages/propel/propel>`_, `gabordemooij/redbean <https://packagist.org/packages/gabordemooij/redbean>`_, `thecodingmachine/tdbm <https://packagist.org/packages/thecodingmachine/tdbm>`_
