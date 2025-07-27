@@ -46,6 +46,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__callstatic.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__class__.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__clone.ini.html</loc>
  </url>
  <url>
@@ -382,6 +385,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/callstack.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html</loc>
  </url>
  <url>
@@ -677,6 +683,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dataset.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/datastack.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html</loc>
@@ -1969,6 +1978,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pie.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pipe.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pipeline.ini.html</loc>
  </url>
  <url>
@@ -2399,6 +2411,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sso.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/stack.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/standalone-type.ini.html</loc>

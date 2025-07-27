@@ -20,6 +20,7 @@ PHP Dictionary
 * @
    * :ref:`@, No Scream Operator <noscream>`
 * _
+   * :ref:`__CLASS__ <-__class__>`
    * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() Method <-__callStatic>`
    * :ref:`__clone() Method <-__clone>`
@@ -136,6 +137,7 @@ PHP Dictionary
    * :ref:`Call <call>`
    * :ref:`Callables <callable>`
    * :ref:`Callbacks <callback>`
+   * :ref:`Callstack <callstack>`
    * :ref:`Case <case>`
    * :ref:`Case Sensitivity <case-sensitivity>`
    * :ref:`Cast Operator <cast>`
@@ -244,9 +246,10 @@ PHP Dictionary
    * :ref:`Data Source Name (DSN) <dsn>`
    * :ref:`Data Transfer Object (DTO) <dto>`
    * :ref:`Database <database>`
-   * :ref:`Database Abstraction Layer (DBA) extension <dba>`
+   * :ref:`Database Abstraction Layer (DBA) Extension <dba>`
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
+   * :ref:`Datastack <datastack>`
    * :ref:`DateTime <datetime>`
    * :ref:`Dates <date>`
    * :ref:`Datetime Trap <datetime-trap>`
@@ -679,6 +682,7 @@ PHP Dictionary
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
    * :ref:`PharException <pharexception>`
+   * :ref:`Pipe Operator <pipe>`
    * :ref:`Pipeline <pipeline>`
    * :ref:`Plugin <plugin>`
    * :ref:`Plus + <plus>`
@@ -722,7 +726,6 @@ PHP Dictionary
    * :ref:`Queue <queue>`
    * :ref:`Quoted Printable <quoted-printable>`
 * R
-   * :ref:`RDBMS <rdbms>`
    * :ref:`REST API <rest-api>`
    * :ref:`RFC <rfc>`
    * :ref:`Random <random>`
@@ -743,6 +746,7 @@ PHP Dictionary
    * :ref:`Register Globals <register-globals>`
    * :ref:`Registry <registry>`
    * :ref:`Regular Expressions <regex>`
+   * :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
    * :ref:`Relative <relative>`
    * :ref:`Relative Name <relative-name>`
    * :ref:`Relative Types <relative-types>`
@@ -833,6 +837,7 @@ PHP Dictionary
    * :ref:`Special Types <special-type>`
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Square Brackets <square-bracket>`
+   * :ref:`Stack <stack>`
    * :ref:`Standalone Types <standalone-types>`
    * :ref:`Standard PHP Library (SPL) <spl>`
    * :ref:`State <state>`

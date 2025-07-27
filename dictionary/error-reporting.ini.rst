@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 14:29:17 +0000","dateModified":"Sat, 28 Jun 2025 14:29:17 +0000","description":"Error reporting is both a feature, a directive and a PHP native function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 16:54:19 +0000","dateModified":"Fri, 04 Jul 2025 16:54:19 +0000","description":"Error reporting is both a feature, a directive and a PHP native function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Error Reporting
@@ -24,9 +24,9 @@ Error Reporting
 
 Error reporting is both a feature, a directive and a PHP native function. They all work with the same concept.
 
-Error reporting is the way PHP display errors are they are detected during execution. The error_reporting() function and the error_reporting directive sets the type of error to be reported : errors are of different types (Warning, Notice, Error, etc.)
+Error reporting is the way PHP display errors are they are detected during execution. The ``error_reporting()`` function and the ``error_reporting`` directive sets the type of error to be reported : errors are of different types (Warning, Notice, Error, etc.)
 
-While error reporting sets the type of reported error, the display of error is handled by different directives : display_errors and html_errors.
+While error reporting sets the type of reported error, the display of error is handled by different directives : ``display_errors`` and ``html_errors``.
 
 Exceptions are not covered by the error reporting, even though one of the exception is called Error.
 
@@ -39,4 +39,4 @@ Error may be trigger manually with the trigger_error() function.
 
 See also https://stackify.com/display-php-errors/
 
-Related : :ref:`Error Handler <error-handler>`, :ref:`@, No Scream Operator <noscream>`
+Related : :ref:`Error Handler <error-handler>`, :ref:`@, No Scream Operator <noscream>`, , 

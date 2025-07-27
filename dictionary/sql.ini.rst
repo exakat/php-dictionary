@@ -42,4 +42,4 @@ PHP supports several RDBMS natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`RDBMS <rdbms>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Active Record <active-record>`, :ref:`Prepared Query <prepared-query>`, :ref:`Query <query>`, :ref:`Sqlite3 <sqlite3>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Active Record <active-record>`, :ref:`Prepared Query <prepared-query>`, :ref:`Query <query>`, :ref:`Sqlite3 <sqlite3>`

@@ -51,4 +51,4 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 
 `Documentation <https://www.php.net/manual/en/intro.pdo.php>`__
 
-Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`RDBMS <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Data Access Object (DAO) <dao>`
+Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Data Access Object (DAO) <dao>`

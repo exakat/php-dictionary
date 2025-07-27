@@ -20,6 +20,7 @@ Index
    dictionary/$this.ini
    dictionary/__call.ini
    dictionary/__callstatic.ini
+   dictionary/__class__.ini
    dictionary/__clone.ini
    dictionary/__get.ini
    dictionary/__invoke.ini
@@ -132,6 +133,7 @@ Index
    dictionary/call.ini
    dictionary/callable.ini
    dictionary/callback.ini
+   dictionary/callstack.ini
    dictionary/case-sensitivity.ini
    dictionary/case.ini
    dictionary/cast.ini
@@ -231,6 +233,7 @@ Index
    dictionary/data.ini
    dictionary/database.ini
    dictionary/dataset.ini
+   dictionary/datastack.ini
    dictionary/date.ini
    dictionary/datetime-trap.ini
    dictionary/datetime.ini
@@ -661,6 +664,7 @@ Index
    dictionary/phpinfo.ini
    dictionary/phpunit.ini
    dictionary/pie.ini
+   dictionary/pipe.ini
    dictionary/pipeline.ini
    dictionary/plugin.ini
    dictionary/plus.ini
@@ -805,6 +809,7 @@ Index
    dictionary/srp.ini
    dictionary/ssl.ini
    dictionary/sso.ini
+   dictionary/stack.ini
    dictionary/standalone-type.ini
    dictionary/state.ini
    dictionary/stateful.ini

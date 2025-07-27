@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Use","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The use operator has three distinct usages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Use.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Use","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 27 Jul 2025 19:56:27 +0000","dateModified":"Sun, 27 Jul 2025 19:56:27 +0000","description":"The use operator has three distinct usages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Use.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Use
@@ -58,4 +58,4 @@ When `use` is used with a closure, it imports the listed variables in the closur
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Trait <trait>`, :ref:`Use In Traits <use-trait>`, :ref:`Fully Qualified Name <fqn>`
+Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Use Alias <use-alias>`, :ref:`Closure <closure>`, :ref:`Trait <trait>`, :ref:`Use In Traits <use-trait>`, :ref:`Fully Qualified Name <fqn>`, :ref:`Class Aliases <class-alias>`, :ref:`Class Operator <class-operator>`, :ref:`class_alias() <class_alias>`, :ref:`Insteadof <insteadof>`

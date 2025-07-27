@@ -48,4 +48,4 @@ get_class()
 
 `Documentation <https://www.php.net/manual/en/function.get-class.php>`__
 
-Related : , :ref:`$this <$this>`
+Related : :ref:`__CLASS__ <-__class__>`, :ref:`$this <$this>`

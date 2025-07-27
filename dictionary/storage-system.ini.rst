@@ -27,4 +27,4 @@ A storage system is a generic term to describe an external service that store da
 Storage systems may be RDBMS (SQL servers), key-value stores, noSQL server, file system, memory caching system, etc.
 
 
-Related : :ref:`RDBMS <rdbms>`, :ref:`Key-value Stores <key-value-store>`
+Related : :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Key-value Stores <key-value-store>`

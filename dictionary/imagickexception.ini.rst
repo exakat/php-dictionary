@@ -41,4 +41,4 @@ The ``ImagickException``` exception is thrown when an error happens while proces
 
 See also `How to Fix 'ImagickException: not authorized' <https://andy-carter.com/blog/how-to-fix-imagickexception-not-authorized>`_
 
-Related : :ref:`Exception <exception>`, 
+Related : :ref:`Exception <exception>`, :ref:`imagick <imagick>`

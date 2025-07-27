@@ -19,7 +19,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Data Access Object (DAO) <dao>`
 + :ref:`Data Source Name (DSN) <dsn>`
 + :ref:`Data Transfer Object (DTO) <dto>`
-+ :ref:`Database Abstraction Layer (DBA) extension <dba>`
++ :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
@@ -53,6 +53,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`RFC <rfc>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
++ :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
 + :ref:`Remote Procedure Call (RPC) <rpc>`
 + :ref:`Request For Change (RFC) <rfchange>`
 + :ref:`Reserved For Future Use (RFU) <rfu>`
@@ -259,6 +260,7 @@ List of exceptions, available in PHP.
 + :ref:`RangeException <rangeexception>`
 + :ref:`ReflectionException <reflectionexception>`
 + :ref:`TypeError <typeerror>`
++ :ref:`UnexpectedValueException <unexpectedvalueexception>`
 + :ref:`UnhandledMatchError <unhandledmatcherror>`
 + :ref:`ValueError <valueerror>`
 
@@ -336,6 +338,8 @@ Type
 List of PHP types, used with the type system. They usually are not related to a class.
 
 + :ref:`Boolean <boolean>`
++ :ref:`Contravariance <type-contravariance>`
++ :ref:`Covariance <type-covariance>`
 + :ref:`False <false>`
 + :ref:`Floating Point Numbers <float>`
 + :ref:`Iterable <iterable>`
@@ -350,6 +354,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Standalone Types <standalone-types>`
 + :ref:`Stringable <stringable>`
 + :ref:`True <true>`
++ :ref:`Type Coverage <type-coverage>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Typed Property <typed-property>`
@@ -401,11 +406,12 @@ List of special PHP extensions.
 + :ref:`Bcmath <bcmath>`
 + :ref:`Core <core>`
 + :ref:`Cryptographic Hash <hash-crypto>`
-+ :ref:`Database Abstraction Layer (DBA) extension <dba>`
++ :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Fibers <fibers>`
 + :ref:`Hash <hash>`
 + :ref:`Internationalization Functions <intl>`
 + :ref:`Multibyte String <mbstring>`
++ :ref:`OpenSSL <openssl>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
 + :ref:`PostgreSQL <postgresql>`

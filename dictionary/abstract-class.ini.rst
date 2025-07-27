@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Abstract Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"An abstract class is a class that cannot be instantiated directly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Abstract Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 27 Jul 2025 19:31:58 +0000","dateModified":"Sun, 27 Jul 2025 19:31:58 +0000","description":"An abstract class is a class that cannot be instantiated directly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstract Class
@@ -32,11 +32,30 @@ An abstract class can contain both regular methods and abstract methods. Regular
 .. code-block:: php
    
    <?php
-   abstract class AbstractClass { }
+   
+   abstract class AbstractClass { 
+       function foo(); // abstract method
+   
+       function goo() {
+           return 1;
+       } // concrete method
+   }
+   
+   class ConcreteClass extends AbstractClass{
+   
+       function foo() {
+           return 2;
+       } // concrete method
+   
+       // No need to redefine the concrete methods.
+       // Yet, it is still possible
+   }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-Related : :ref:`Final Keyword <final>`
+See also https://medium.com/@Amir_M4A/in-the-world-of-php-programming-there-are-several-key-concepts-that-developers-need-to-understand-b2ed1916287f
+
+Related : :ref:`Final Keyword <final>`, :ref:`Concrete Class <concrete>`

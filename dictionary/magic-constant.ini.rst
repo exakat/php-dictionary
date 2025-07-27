@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Magic Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Constants which hold information about the current location of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Magic Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Magic Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 27 Jul 2025 19:35:08 +0000","dateModified":"Sun, 27 Jul 2025 19:35:08 +0000","description":"Constants which hold information about the current location of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Magic Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Magic Constants
@@ -34,10 +34,9 @@ Those constants are magic, because they have a constant syntax, yet their value 
 + __TRAIT__	The trait name. The trait name includes the namespace it was declared in (e.g. Foo\Bar).
 + __METHOD__	The class method name.
 + __NAMESPACE__ The name of the current namespace.
++ __PROPERTY__ The name of the current property hook.
 
-Those constants are case insensitive. All those syntax will work : ``__METHOD__``, ``__method__``, ``__meTHod__``.
-
-
+Those constants are case insensitive. While the common convention is to use them all uppercased, all the following syntax work : ``__METHOD__``, ``__method__``, ``__meTHod__``.
 
 .. code-block:: php
    
@@ -58,4 +57,4 @@ Those constants are case insensitive. All those syntax will work : ``__METHOD__`
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
-Related : :ref:`Magic <magic>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Methods <magic-method>`
+Related : :ref:`Magic <magic>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Methods <magic-method>`, :ref:`__CLASS__ <-__class__>`, :ref:`Property Hook <property-hook>`
