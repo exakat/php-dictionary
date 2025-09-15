@@ -42,6 +42,7 @@ PHP Dictionary
    * :ref:`Abstract Class <abstract-class>`
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree (AST) <ast>`
+   * :ref:`Abstraction <abstraction>`
    * :ref:`Abstraction Layer <abstraction-layer>`
    * :ref:`Accessibility <accessibility>`
    * :ref:`Active Record <active-record>`
@@ -72,6 +73,7 @@ PHP Dictionary
    * :ref:`Arm <arm>`
    * :ref:`Array <array>`
    * :ref:`Array Append <append>`
+   * :ref:`Array Callback <array-callback>`
    * :ref:`Array Spread <array-spread>`
    * :ref:`Array Syntax <array-syntax>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
@@ -106,6 +108,7 @@ PHP Dictionary
    * :ref:`Backed Property <backed-property>`
    * :ref:`BackedEnum <backedenum>`
    * :ref:`Backend <backend>`
+   * :ref:`Backtrace <backtrace>`
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
    * :ref:`Balanced <balanced>`
@@ -117,10 +120,12 @@ PHP Dictionary
    * :ref:`Binary <binary>`
    * :ref:`Binary Integer <binary-integer>`
    * :ref:`Binary Operator <binary-operator>`
+   * :ref:`Bind <bind>`
    * :ref:`Bitshift Operators <bitshift>`
    * :ref:`Bitwise Operators <bitwise-operator>`
    * :ref:`Blind Variable <blind-variable>`
    * :ref:`Block <block>`
+   * :ref:`Bloom Filter <bloom-filter>`
    * :ref:`Body <body>`
    * :ref:`Boolean <boolean>`
    * :ref:`Branch <branch>`
@@ -130,10 +135,12 @@ PHP Dictionary
    * :ref:`Byte <byte>`
    * :ref:`basename <basename>`
    * :ref:`browscap <browscap>`
+   * :ref:`bzip2 Extension <bzip2>`
 * C
    * :ref:`C2 Framework <c2-framework>`
    * :ref:`CSV Injection <csv-injection>`
    * :ref:`Cache <cache>`
+   * :ref:`Calendar <calendar>`
    * :ref:`Call <call>`
    * :ref:`Callables <callable>`
    * :ref:`Callbacks <callback>`
@@ -277,6 +284,7 @@ PHP Dictionary
    * :ref:`Design Pattern Wrapper <wrapper-designpattern>`
    * :ref:`Destructor <destructor>`
    * :ref:`Dictionary <dictionary>`
+   * :ref:`Diff <diff>`
    * :ref:`Directives <directive>`
    * :ref:`DirectoryIterator <directoryiterator>`
    * :ref:`Disable Classes <disable-classes>`
@@ -310,6 +318,7 @@ PHP Dictionary
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
    * :ref:`Echo Tag <echo-tag>`
+   * :ref:`Edge Case <edge-case>`
    * :ref:`Elephpant <elephpant>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Email <email>`
@@ -336,6 +345,7 @@ PHP Dictionary
    * :ref:`Execution Time <execution-time>`
    * :ref:`Exit <exit>`
    * :ref:`Explicit <explicit>`
+   * :ref:`Explicit Boolean Comparison <explicit-boolean-comparison>`
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
    * :ref:`Expression <expression>`
@@ -432,6 +442,7 @@ PHP Dictionary
    * :ref:`http:// <wrapper-https>`
    * :ref:`http_build_query() <http_build_query>`
 * I
+   * :ref:`INF <inf>`
    * :ref:`INI <ini>`
    * :ref:`IP <ip>`
    * :ref:`Iconv <iconv>`
@@ -487,6 +498,7 @@ PHP Dictionary
    * :ref:`Jobqueue <jobqueue>`
    * :ref:`JsonException <jsonexception>`
    * :ref:`JsonSerializable <jsonserializable>`
+   * :ref:`Jump <jump>`
    * :ref:`Just In Time (JIT) <jit>`
 * K
    * :ref:`Key-value Stores <key-value-store>`
@@ -554,6 +566,7 @@ PHP Dictionary
    * :ref:`Model - View - Controller (MVC) <mvc>`
    * :ref:`Module <module>`
    * :ref:`Modulo <modulo>`
+   * :ref:`Multi-byte <multi-byte>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
    * :ref:`Multiplication <multiplication>`
@@ -625,6 +638,7 @@ PHP Dictionary
    * :ref:`Operand <operand>`
    * :ref:`Operator Precedence <operator-precedence>`
    * :ref:`Operators <operator>`
+   * :ref:`Optimisation <optimisation>`
    * :ref:`Optional Parameter <optional-parameter>`
    * :ref:`OutOfRangeException <outofrangeexception>`
    * :ref:`Outgoing Data <outgoing-data>`
@@ -669,6 +683,7 @@ PHP Dictionary
    * :ref:`Parenthesis <parenthesis>`
    * :ref:`Parse <parse>`
    * :ref:`ParseError <parseerror>`
+   * :ref:`Parser <parser>`
    * :ref:`Partial Function <partial-function>`
    * :ref:`Passing By Reference <by-reference>`
    * :ref:`Passing By Value <by-value>`
@@ -771,6 +786,7 @@ PHP Dictionary
    * :ref:`Route <route>`
    * :ref:`Rubber Ducking Debugging <rubber-ducking>`
    * :ref:`Runtime Checks <runtime-checks>`
+   * :ref:`range() <range>`
    * :ref:`ransport Layer Security (TLS) <tls>`
    * :ref:`register_argc_argv <register_argc_argv>`
    * :ref:`resource <resource>`
@@ -784,6 +800,7 @@ PHP Dictionary
    * :ref:`SVMException <svmexception>`
    * :ref:`SVN <svn>`
    * :ref:`SWAP <swap>`
+   * :ref:`Sandbox <sandbox>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scaffolding <scaffolding>`
    * :ref:`Scalar Types <scalar-type>`
@@ -798,6 +815,7 @@ PHP Dictionary
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
    * :ref:`Self-reference <self-reference>`
+   * :ref:`Semantic Versioning <semantic-versioning>`
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
@@ -849,6 +867,7 @@ PHP Dictionary
    * :ref:`Static Method <static-method>`
    * :ref:`Static Property <static-property>`
    * :ref:`Static Variables <static-variable>`
+   * :ref:`Stealth Generator <stealth-generator>`
    * :ref:`Storage Systems <storage-system>`
    * :ref:`Stream <stream>`
    * :ref:`Stream Wrapper <wrapper-stream>`
@@ -886,6 +905,7 @@ PHP Dictionary
    * :ref:`supertype <supertype>`
 * T
    * :ref:`TCP <tcp>`
+   * :ref:`Tabulation <tabulation>`
    * :ref:`Taint Analysis <taint>`
    * :ref:`Task Runner <task-runner>`
    * :ref:`Template <template>`
@@ -915,6 +935,7 @@ PHP Dictionary
    * :ref:`Type Juggling <type-juggling>`
    * :ref:`Type System <type>`
    * :ref:`TypeError <typeerror>`
+   * :ref:`Typed Constant <typed-constant>`
    * :ref:`Typed Property <typed-property>`
    * :ref:`Typo <typo>`
    * :ref:`testdox <testdoc>`
@@ -996,3 +1017,5 @@ PHP Dictionary
 * Z
    * :ref:`Zombie Code <zombie-code>`
    * :ref:`Zval <zval>`
+   * :ref:`zip Extension <zip>`
+   * :ref:`zlib extension <zlib>`

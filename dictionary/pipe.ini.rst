@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 27 Jul 2025 19:25:14 +0000","dateModified":"Sun, 27 Jul 2025 19:25:14 +0000","description":"The ``pipe`` operator is the ``|>`` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 25 Aug 2025 04:29:13 +0000","dateModified":"Mon, 25 Aug 2025 04:29:13 +0000","description":"The ``pipe`` operator is the ``|>`` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pipe Operator
@@ -30,7 +30,7 @@ The pipe operator is equivalent to nested calls of functions, methods, closures.
 
 It was added in PHP 8.5.
 
-The pipe operator is a reference to the ``|`` pipe operator from the command line, with use the result of the previous (left) command to feed the next (right) command. It should not be confused with the or operator ``|``, already available.
+The pipe operator is a reference to the ``|`` pipe operator from the command line, with use the result of the previous (left) command to feed the next (right) command. It should not be confused with the or bitwise operator ``|``, already available.
 
 .. code-block:: php
    
@@ -50,6 +50,8 @@ The pipe operator is a reference to the ``|`` pipe operator from the command lin
    ?>
 
 
-See also https://php.watch/versions/8.5/pipe-operator, https://wiki.php.net/rfc/pipe-operator-v3
+See also https://php.watch/versions/8.5/pipe-operator, https://wiki.php.net/rfc/pipe-operator-v3, https://thephp.foundation/blog/2025/07/11/php-85-adds-pipe-operator/
+
+Related : :ref:`Bitwise Operators <bitwise-operator>`, :ref:`Bitwise Operators <bitwise-operator>`
 
 Added in PHP 8.5+

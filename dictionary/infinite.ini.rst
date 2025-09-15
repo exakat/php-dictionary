@@ -1,47 +1,59 @@
 .. _infinite:
-.. _inf:
 .. meta::
 	:description:
-		Infinite: Infinite is a PHP constant, called ``INF``.
+		Infinite: Infinite means that an operation is repeated and will never stop being repeated.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Infinite
-	:twitter:description: Infinite: Infinite is a PHP constant, called ``INF``
+	:twitter:description: Infinite: Infinite means that an operation is repeated and will never stop being repeated
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Infinite
 	:og:type: article
-	:og:description: Infinite is a PHP constant, called ``INF``
+	:og:description: Infinite means that an operation is repeated and will never stop being repeated
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/infinite.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Infinite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Infinite is a PHP constant, called ``INF``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Infinite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Infinite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 20:34:15 +0000","dateModified":"Wed, 06 Aug 2025 20:34:15 +0000","description":"Infinite means that an operation is repeated and will never stop being repeated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Infinite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Infinite
 --------
 
-Infinite is a PHP constant, called ``INF``. It is also possible to generate such a value, with calls to math functions such as ``log(0)`` or ``1e308 * 2``.
+Infinite means that an operation is repeated and will never stop being repeated. 
 
-While the infinite is a float, it is possible to test a number with ``is_infinite()``.
+Infinite is characteristics of loops, generators, recursive functions and streams. Infinite structures may be a bug or a feature, depending on the usage. For example, the event loop is usually an infinite loop, until one of the event triggers a jump out of the loop.
+
+Infinite is also a PHP constant: ``INF``. 
 
 .. code-block:: php
    
    <?php
    
-   $infinite = 1e308 * 2;
+   // infinite loops
+   while(true) { }
    
-   var_dump(is_infinite($infinite)); // true 
+   for(;;) {} 
    
-   var_dump(INF === $infinite);      // true 
+   // infinite generator 
+   function integers() {
+       $i = 0;
+       while(true) {
+           yield $i++;
+       }
+   }
    
-   echo str_repeat('1', 1000) + 0;  // INF
+   // infinite Fibbonacci sequence
+   function recursive ($a = 1, $b = 1) {
+       $a2 = $b;
+       $b2 = $a + $b;
+       print $b2.PHP_EOL;
+       recursive($a2, $b2);
+   }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/math.constants.php>`__
-
-See also `is_infinite() <https://www.php.net/manual/en/function.is-infinite.php>`_
+Related : :ref:`INF <inf>`

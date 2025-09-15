@@ -38,6 +38,7 @@ Index
    dictionary/abstract-class.ini
    dictionary/abstract.ini
    dictionary/abstraction-layer.ini
+   dictionary/abstraction.ini
    dictionary/accessibility.ini
    dictionary/active-record.ini
    dictionary/adapter.ini
@@ -65,6 +66,7 @@ Index
    dictionary/argumentcounterror.ini
    dictionary/arithmeticerror.ini
    dictionary/arm.ini
+   dictionary/array-callback.ini
    dictionary/array-curly-braces.ini
    dictionary/array-spread.ini
    dictionary/array-syntax.ini
@@ -102,6 +104,7 @@ Index
    dictionary/backed.ini
    dictionary/backedenum.ini
    dictionary/backend.ini
+   dictionary/backtrace.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
    dictionary/balanced.ini
@@ -114,10 +117,12 @@ Index
    dictionary/binary-integer.ini
    dictionary/binary-operator.ini
    dictionary/binary.ini
+   dictionary/bind.ini
    dictionary/bitshift-operator.ini
    dictionary/bitwise-operator.ini
    dictionary/blind-key.ini
    dictionary/block.ini
+   dictionary/bloom-filter.ini
    dictionary/body.ini
    dictionary/boolean.ini
    dictionary/branch.ini
@@ -128,8 +133,10 @@ Index
    dictionary/by-reference.ini
    dictionary/by-value.ini
    dictionary/byte.ini
+   dictionary/bzip2.ini
    dictionary/c2-framework.ini
    dictionary/cache.ini
+   dictionary/calendar.ini
    dictionary/call.ini
    dictionary/callable.ini
    dictionary/callback.ini
@@ -266,6 +273,7 @@ Index
    dictionary/design-pattern.ini
    dictionary/destructor.ini
    dictionary/dictionary.ini
+   dictionary/diff.ini
    dictionary/directive.ini
    dictionary/directoryiterator.ini
    dictionary/dirname.ini
@@ -297,6 +305,7 @@ Index
    dictionary/early-binding.ini
    dictionary/echo-tag.ini
    dictionary/echo.ini
+   dictionary/edge-case.ini
    dictionary/elephpant.ini
    dictionary/ellipsis.ini
    dictionary/email.ini
@@ -326,6 +335,7 @@ Index
    dictionary/exception.ini
    dictionary/execution-time.ini
    dictionary/exit.ini
+   dictionary/explicit-boolean-comparison.ini
    dictionary/explicit.ini
    dictionary/exponent.ini
    dictionary/exponential.ini
@@ -442,6 +452,7 @@ Index
    dictionary/index.ini
    dictionary/indexed-array.ini
    dictionary/inequality.ini
+   dictionary/inf.ini
    dictionary/infinite.ini
    dictionary/inflector.ini
    dictionary/inheritance.ini
@@ -475,6 +486,7 @@ Index
    dictionary/json.ini
    dictionary/jsonexception.ini
    dictionary/jsonserializable.ini
+   dictionary/jump.ini
    dictionary/key-value-store.ini
    dictionary/keyword.ini
    dictionary/label.ini
@@ -542,6 +554,7 @@ Index
    dictionary/model.ini
    dictionary/module.ini
    dictionary/modulo.ini
+   dictionary/multi-byte.ini
    dictionary/multidimensional-array.ini
    dictionary/multiplication.ini
    dictionary/mutation-test.ini
@@ -606,6 +619,7 @@ Index
    dictionary/operand.ini
    dictionary/operator-precedence.ini
    dictionary/operator.ini
+   dictionary/optimisation.ini
    dictionary/optional-parameter.ini
    dictionary/orm.ini
    dictionary/outgoing-data.ini
@@ -626,6 +640,7 @@ Index
    dictionary/parse.ini
    dictionary/parse_str.ini
    dictionary/parseerror.ini
+   dictionary/parser.ini
    dictionary/partial-function.ini
    dictionary/password-ext.ini
    dictionary/password.ini
@@ -658,8 +673,8 @@ Index
    dictionary/php-wrapper.ini
    dictionary/php.ini
    dictionary/php.ini.ini
-   dictionary/php_max_int.ini
-   dictionary/php_min_int.ini
+   dictionary/php_int_max.ini
+   dictionary/php_int_min.ini
    dictionary/phpdoc.ini
    dictionary/phpinfo.ini
    dictionary/phpunit.ini
@@ -701,6 +716,7 @@ Index
    dictionary/queue.ini
    dictionary/quoted-printable.ini
    dictionary/random.ini
+   dictionary/range.ini
    dictionary/rangeexception.ini
    dictionary/rbac.ini
    dictionary/rce.ini
@@ -747,6 +763,7 @@ Index
    dictionary/rpc.ini
    dictionary/rubber-ducking.ini
    dictionary/runtime-checks.ini
+   dictionary/sandbox.ini
    dictionary/sanitation.ini
    dictionary/sapi.ini
    dictionary/scaffolding.ini
@@ -763,6 +780,7 @@ Index
    dictionary/segmentation-fault.ini
    dictionary/self-reference.ini
    dictionary/self.ini
+   dictionary/semantic-versioning.ini
    dictionary/semantics.ini
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
@@ -822,6 +840,7 @@ Index
    dictionary/static.ini
    dictionary/stdclass.ini
    dictionary/stdout.ini
+   dictionary/stealth-generator.ini
    dictionary/storage-system.ini
    dictionary/stream.ini
    dictionary/strict-comparison.ini
@@ -854,6 +873,7 @@ Index
    dictionary/system-call.ini
    dictionary/system-event.ini
    dictionary/system.ini
+   dictionary/tabulation.ini
    dictionary/taint.ini
    dictionary/task-runner.ini
    dictionary/tcp.ini
@@ -888,6 +908,7 @@ Index
    dictionary/type-declaration-property.ini
    dictionary/type-juggling.ini
    dictionary/type.ini
+   dictionary/typed-constant.ini
    dictionary/typed-property.ini
    dictionary/typeerror.ini
    dictionary/typerror.ini
@@ -969,5 +990,7 @@ Index
    dictionary/yield-from.ini
    dictionary/yield.ini
    dictionary/yoda.ini
+   dictionary/zip.ini
+   dictionary/zlib.ini
    dictionary/zombie-code.ini
    dictionary/zval.ini

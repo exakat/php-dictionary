@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Application Server","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 15:18:25 +0000","dateModified":"Fri, 27 Jun 2025 15:18:25 +0000","description":"An application server in the context of PHP is a software environment that handles the execution of PHP scripts, serving dynamic content and managing interactions between the web server, the backend systems (like databases), and the client (browser or API consumer)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Server.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Application Server","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 Aug 2025 20:05:01 +0000","dateModified":"Fri, 29 Aug 2025 20:05:01 +0000","description":"An application server in the context of PHP is a software environment that handles the execution of PHP scripts, serving dynamic content and managing interactions between the web server, the backend systems (like databases), and the client (browser or API consumer)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Server.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Application Server
@@ -27,4 +27,4 @@ An application server in the context of PHP is a software environment that handl
 
 While PHP itself runs as an interpreted scripting language, the application server facilitates tasks like processing requests, managing resources, and sometimes handling session state or authentication.
 
-See also https://roadrunner.dev/, https://frankenphp.dev/, https://www.cloudways.com/blog/best-php-servers/, https://github.com/cubiclesoft/php-app-server
+See also https://roadrunner.dev/, https://frankenphp.dev/, https://github.com/el7cosmos/pasir, https://www.cloudways.com/blog/best-php-servers/, https://github.com/cubiclesoft/php-app-server

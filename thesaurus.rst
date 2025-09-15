@@ -86,6 +86,7 @@ List of PHP native attributes.
 + :ref:`Deprecated <deprecated>`
 + :ref:`Nested Attributes <nested-attribute>`
 + :ref:`Override Attribute <override>`
++ :ref:`PHP Native Attribute <php-native-attribute>`
 + :ref:`PHP Native Attributes <php-attribute>`
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
@@ -97,6 +98,7 @@ Concept
 List of concept, which are applied to PHP, but not exclusive to it.
 
 + :ref:`$this <$this>`
++ :ref:`Abstraction <abstraction>`
 + :ref:`Abstraction Layer <abstraction-layer>`
 + :ref:`Accessibility <accessibility>`
 + :ref:`Active Record <active-record>`
@@ -111,7 +113,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Backed <backed>`
 + :ref:`Backend <backend>`
 + :ref:`Benchmarking <benchmarking>`
++ :ref:`Blind Variable <blind-variable>`
 + :ref:`Bug <bug>`
++ :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
 + :ref:`Class <class>`
 + :ref:`Class Entities <class-entity>`
@@ -140,6 +144,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Duck Typing <duck-typing>`
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
++ :ref:`Edge Case <edge-case>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
@@ -154,8 +159,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Idempotent <idempotent>`
 + :ref:`Immutable <immutable>`
 + :ref:`Index <index>`
++ :ref:`Infinite <infinite>`
 + :ref:`Injection <injection>`
 + :ref:`Jobqueue <jobqueue>`
++ :ref:`Jump <jump>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
@@ -173,6 +180,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Password <password>`
 + :ref:`Path <path>`
 + :ref:`Permission <permission>`
++ :ref:`Pipeline <pipeline>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Production <production>`
@@ -206,6 +214,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Value <value>`
 + :ref:`Value Object <value-object>`
 + :ref:`Variable Scope <variable-scope>`
++ :ref:`Version <version>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
 + :ref:`Zombie Code <zombie-code>`
@@ -235,6 +244,8 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 + :ref:`Disable Functions <disable-functions>`
 + :ref:`Error Reporting <error-reporting>`
 + :ref:`max_execution_time <max_execution_time>`
++ :ref:`memory_limit <memory_limit>`
++ :ref:`php.ini <php.ini>`
 + :ref:`register_argc_argv <register_argc_argv>`
 + :ref:`variable_order <variable_order>`
 
@@ -286,6 +297,7 @@ List of PHP keywords and reserved names.
 + :ref:`Enumeration (enum) <enum>`
 + :ref:`Eval() <eval>`
 + :ref:`Exit <exit>`
++ :ref:`Final Keyword <final>`
 + :ref:`Finally <finally>`
 + :ref:`For <for>`
 + :ref:`Global Variables <global-variable>`
@@ -387,16 +399,7 @@ Bug
 
 List of named bugs.
 
-+ :ref:`Dangling Reference <dangling-reference>`
-+ :ref:`Datetime Trap <datetime-trap>`
-+ :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
-+ :ref:`Days In Month <days-in-month>`
-+ :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
-+ :ref:`Letter Logical Bug <letter-logical>`
-+ :ref:`Magic Hash <magic-hash>`
-+ :ref:`N+1 Query Problem <n-query>`
-+ :ref:`Object Injection <object-injection>`
-+ :ref:`Strpos() Syndrome <strpos-syndrom>`
++ 
 
 Extension
 ---------
@@ -404,6 +407,7 @@ Extension
 List of special PHP extensions.
 
 + :ref:`Bcmath <bcmath>`
++ :ref:`Calendar <calendar>`
 + :ref:`Core <core>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
@@ -415,6 +419,7 @@ List of special PHP extensions.
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
 + :ref:`PostgreSQL <postgresql>`
++ :ref:`Process Control (pcntl) <pcntl>`
 + :ref:`Readline <readline>`
 + :ref:`Reflection <reflection>`
 + :ref:`SNMP3 <snmp3>`
@@ -423,8 +428,11 @@ List of special PHP extensions.
 + :ref:`Standard PHP Library (SPL) <spl>`
 + :ref:`XMLwriter <xmlwriter>`
 + :ref:`XXTEA <xxtea>`
++ :ref:`bzip2 Extension <bzip2>`
 + :ref:`filter <filter>`
 + :ref:`gettext Extension <gettext>`
++ :ref:`zip Extension <zip>`
++ :ref:`zlib extension <zlib>`
 
 Token
 -----

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Try-catch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Try-catch is a PHP command, which run a block of code, and catch some configured exceptions that the block may throw","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Try-catch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Try-catch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 10 Sep 2025 09:16:43 +0000","dateModified":"Wed, 10 Sep 2025 09:16:43 +0000","description":"Try-catch is a PHP command, which run a block of code, and catch some configured exceptions that the block may throw","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Try-catch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Try-catch
@@ -43,6 +43,6 @@ The catch clause may be anonymous, when it only specify the type of caught excep
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also `PHP: Try and Catch me if you can! <https://medium.com/@erlandmuchasaj/php-try-and-catch-me-if-you-can-824bc6bb6698>`_, `How to Implement Try Catch Finally Blocks in PHP <https://rollbar.com/blog/php-try-catch-finally/>`_
+See also `PHP: Try and Catch me if you can! <https://medium.com/@erlandmuchasaj/php-try-and-catch-me-if-you-can-824bc6bb6698>`_, `How to Implement Try Catch Finally Blocks in PHP <https://rollbar.com/blog/php-try-catch-finally/>`_, https://medium.com/better-programming/a-php-pattern-to-avoid-try-catch-blocks-repetition-1e3fe2038dc1
 
 Related : :ref:`Finally <finally>`, :ref:`Anonymous Catch <anonymous-catch>`, :ref:`ArgumentCountError <argumentcounterror>`, :ref:`ArithmeticError Error <arithmeticerror>`, :ref:`Catch <catch>`, :ref:`Error <error>`, :ref:`Chaining Exceptions <exception-chain>`, :ref:`Exception Handler <exception-handler>`, :ref:`Exception <exception>`, :ref:`mysqli_sql_exception <mysqli_sql_exception>`, :ref:`PHP Predefined Exception <predefined-exception>`, :ref:`throw <throw>`

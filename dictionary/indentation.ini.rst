@@ -49,4 +49,4 @@ Indentation is part of the syntax of the heredoc strings.
 
 `Documentation <https://en.wikipedia.org/wiki/Indentation_style>`__
 
-Related : :ref:`Heredocs <heredoc>`, , 
+Related : :ref:`Heredocs <heredoc>`, :ref:`Tabulation <tabulation>`, :ref:`Space <space>`

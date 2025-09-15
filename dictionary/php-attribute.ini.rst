@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"PHP Native Attributes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 19:53:33 +0000","dateModified":"Fri, 27 Jun 2025 19:53:33 +0000","description":"PHP defines its own native attributes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Attributes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"PHP Native Attributes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 25 Aug 2025 04:30:15 +0000","dateModified":"Mon, 25 Aug 2025 04:30:15 +0000","description":"PHP defines its own native attributes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Attributes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Native Attributes
@@ -31,6 +31,7 @@ PHP defines its own native attributes.
 + Override
 + Deprecated
 + NoDiscard
++ DelayedTargetValidation
 
 
 
@@ -46,4 +47,4 @@ PHP defines its own native attributes.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-Related : , , , , , , 
+Related : :ref:`Attribute Class <attribute-class>`, :ref:`Return Type Will Change <returntypewillchange>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Allow Dynamic Properties <allowdynamicproperties>`, :ref:`Override Attribute <override>`, :ref:`Deprecated <deprecated>`, :ref:`NoDiscard <nodiscard>`, :ref:`delayedtargetvalidation <delayedtargetvalidation>`
