@@ -142,6 +142,7 @@ PHP Dictionary
    * :ref:`Cache <cache>`
    * :ref:`Calendar <calendar>`
    * :ref:`Call <call>`
+   * :ref:`Callable Arrays <array-callable>`
    * :ref:`Callables <callable>`
    * :ref:`Callbacks <callback>`
    * :ref:`Callstack <callstack>`
@@ -178,6 +179,7 @@ PHP Dictionary
    * :ref:`Closure Binding <closure-binding>`
    * :ref:`Coalesce Operator <coalesce>`
    * :ref:`Code Coverage <code-coverage>`
+   * :ref:`Code Formatter <code-formatter>`
    * :ref:`Code Freeze <code-freeze>`
    * :ref:`Code Injection <code-injection>`
    * :ref:`Code Inventory <inventory>`
@@ -313,6 +315,7 @@ PHP Dictionary
    * :ref:`declare() <declare>`
    * :ref:`define() <define>`
    * :ref:`defined() <defined>`
+   * :ref:`delayedtargetvalidation <delayedtargetvalidation>`
    * :ref:`dirname <dirname>`
 * E
    * :ref:`Early Binding <early-binding>`
@@ -432,6 +435,7 @@ PHP Dictionary
    * :ref:`Heredocs <heredoc>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
+   * :ref:`Honey Pot <honeypot>`
    * :ref:`Hosting <hosting>`
    * :ref:`Hydratation <hydrate>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
@@ -650,9 +654,10 @@ PHP Dictionary
    * :ref:`PDOException <pdoexception>`
    * :ref:`PEAR <pear>`
    * :ref:`PHP <php>`
+   * :ref:`PHP Constants <php-constant>`
    * :ref:`PHP Data Objects (PDO) <pdo>`
    * :ref:`PHP Docker Container <php-docker-container>`
-   * :ref:`PHP Engine <engine>`
+   * :ref:`PHP Engine <php-engine>`
    * :ref:`PHP Extension C Library (PECL) <pecl>`
    * :ref:`PHP Extensions <php-extension>`
    * :ref:`PHP Foundation <php-foundation>`
@@ -907,6 +912,7 @@ PHP Dictionary
    * :ref:`TCP <tcp>`
    * :ref:`Tabulation <tabulation>`
    * :ref:`Taint Analysis <taint>`
+   * :ref:`Tarpit <tarpit>`
    * :ref:`Task Runner <task-runner>`
    * :ref:`Template <template>`
    * :ref:`Temporary Expression <temporary-expression>`
@@ -995,6 +1001,7 @@ PHP Dictionary
 * W
    * :ref:`Warning <warning>`
    * :ref:`Weak References <weak-reference>`
+   * :ref:`Weakmap <weakamp>`
    * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
    * :ref:`Webshell <webshell>`
@@ -1015,6 +1022,7 @@ PHP Dictionary
    * :ref:`Yoda Condition <yoda>`
    * :ref:`yield from Keyword <yield-from>`
 * Z
+   * :ref:`Zend Engine <zend-engine>`
    * :ref:`Zombie Code <zombie-code>`
    * :ref:`Zval <zval>`
    * :ref:`zip Extension <zip>`

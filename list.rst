@@ -66,6 +66,7 @@ Index
    dictionary/argumentcounterror.ini
    dictionary/arithmeticerror.ini
    dictionary/arm.ini
+   dictionary/array-callable.ini
    dictionary/array-callback.ini
    dictionary/array-curly-braces.ini
    dictionary/array-spread.ini
@@ -173,6 +174,7 @@ Index
    dictionary/closure.ini
    dictionary/coalesce.ini
    dictionary/code-coverage.ini
+   dictionary/code-formatter.ini
    dictionary/code-formatting.ini
    dictionary/code-freeze.ini
    dictionary/code-injection.ini
@@ -262,6 +264,7 @@ Index
    dictionary/define.ini
    dictionary/defined.ini
    dictionary/definition.ini
+   dictionary/delayedtargetvalidation.ini
    dictionary/delimiter.ini
    dictionary/dependency-injection-container.ini
    dictionary/dependency-injection.ini
@@ -416,6 +419,7 @@ Index
    dictionary/hexadecimal-integer.ini
    dictionary/hexagonal.ini
    dictionary/hg.ini
+   dictionary/honeypot.ini
    dictionary/hosting.ini
    dictionary/hrtime.ini
    dictionary/htaccess.ini
@@ -659,7 +663,9 @@ Index
    dictionary/phar.ini
    dictionary/pharexception.ini
    dictionary/php-attribute.ini
+   dictionary/php-constant.ini
    dictionary/php-docker-container.ini
+   dictionary/php-engine.ini
    dictionary/php-extension.ini
    dictionary/php-fig.ini
    dictionary/php-foundation.ini
@@ -875,6 +881,7 @@ Index
    dictionary/system.ini
    dictionary/tabulation.ini
    dictionary/taint.ini
+   dictionary/tarpit.ini
    dictionary/task-runner.ini
    dictionary/tcp.ini
    dictionary/template.ini
@@ -965,6 +972,7 @@ Index
    dictionary/void.ini
    dictionary/warning.ini
    dictionary/weak-reference.ini
+   dictionary/weakmap.ini
    dictionary/web.ini
    dictionary/webscraping.ini
    dictionary/webserver.ini
@@ -990,6 +998,7 @@ Index
    dictionary/yield-from.ini
    dictionary/yield.ini
    dictionary/yoda.ini
+   dictionary/zend-engine.ini
    dictionary/zip.ini
    dictionary/zlib.ini
    dictionary/zombie-code.ini

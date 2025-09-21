@@ -91,6 +91,7 @@ List of PHP native attributes.
 + :ref:`Properties <property>`
 + :ref:`Return Type Will Change <returntypewillchange>`
 + :ref:`Sensitive Parameter <sensitiveparameter>`
++ :ref:`delayedtargetvalidation <delayedtargetvalidation>`
 
 Concept
 -------

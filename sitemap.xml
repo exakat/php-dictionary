@@ -184,6 +184,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/arm.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array-callable.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array-callback.ini.html</loc>
  </url>
  <url>
@@ -505,6 +508,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-coverage.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-formatter.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-formatting.ini.html</loc>
  </url>
  <url>
@@ -770,6 +776,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/delayedtargetvalidation.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/delimiter.ini.html</loc>
@@ -1232,6 +1241,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hg.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/honeypot.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hosting.ini.html</loc>
@@ -1963,7 +1975,13 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-attribute.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-constant.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-docker-container.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-engine.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/php-extension.ini.html</loc>
@@ -2611,6 +2629,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/taint.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tarpit.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/task-runner.ini.html</loc>
  </url>
  <url>
@@ -2881,6 +2902,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/weak-reference.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/weakmap.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/web.ini.html</loc>
  </url>
  <url>
@@ -2954,6 +2978,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/yoda.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zend-engine.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zip.ini.html</loc>
