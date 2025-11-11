@@ -94,6 +94,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-factory.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html</loc>
  </url>
  <url>
@@ -301,6 +304,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backend.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backtick.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backtrace.ini.html</loc>
  </url>
  <url>
@@ -412,6 +418,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/callstack.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/canonical.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html</loc>
  </url>
  <url>
@@ -452,6 +461,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant-syntax.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant-visibility.ini.html</loc>
@@ -599,6 +611,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-expression.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-function.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-in-trait.ini.html</loc>
@@ -880,6 +895,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-call.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-class-constant.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-class.ini.html</loc>
  </url>
  <url>
@@ -1027,6 +1045,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/facade.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/factory.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-function.ini.html</loc>
  </url>
  <url>
@@ -1094,6 +1115,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/flag.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/flamegraph.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html</loc>
@@ -1621,6 +1645,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/message-queue.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/method-collision.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html</loc>
  </url>
  <url>
@@ -2039,6 +2066,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pie.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pipe-operator.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pipe.ini.html</loc>
@@ -2461,6 +2491,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/spl.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/splstorageobjects.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sprintf.ini.html</loc>
  </url>
  <url>
@@ -2758,6 +2791,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/underflow.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/underscore.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/unexpectedvalueexception.ini.html</loc>
  </url>
  <url>
@@ -2981,6 +3017,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zend-engine.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zero.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zip.ini.html</loc>

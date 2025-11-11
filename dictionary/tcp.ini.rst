@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"TCP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"TCP, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol (IP) suite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/TCP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"TCP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 09 Nov 2025 17:43:36 +0000","dateModified":"Sun, 09 Nov 2025 17:43:36 +0000","description":"TCP, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol (IP) suite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/TCP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 TCP
@@ -38,6 +38,8 @@ Key features of TCP include:
 
 TCP is commonly used for applications that require high reliability and accurate delivery of data, such as web browsing, file transfers, and email. It operates at the transport layer of the OSI model and works in conjunction with the Internet Protocol (IP), which operates at the network layer. Together, TCP/IP provides a robust and standardized framework for communication over the Internet.
 
+
+`Documentation <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>`__
 
 See also `Example #1 Socket example: Simple TCP/IP server <https://www.php.net/manual/en/sockets.examples.php>`_
 

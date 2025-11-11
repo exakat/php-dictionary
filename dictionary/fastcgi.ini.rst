@@ -28,4 +28,4 @@ PHP may be build as a fast CGI, in the php-fpm demon.
 
 `Documentation <https://www.php.net/manual/en/install.fpm.php>`__
 
-Related : :ref:`PHP-FPM (FPM) <fpm>`, :ref:`Common Interface Gateway (CGI) <cgi>`, :ref:`Command Line Interface (CLI) <cli>`
+Related : :ref:`FastCGI Process Manager (FPM) <fpm>`, :ref:`Common Interface Gateway (CGI) <cgi>`, :ref:`Command Line Interface (CLI) <cli>`

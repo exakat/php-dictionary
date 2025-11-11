@@ -40,6 +40,7 @@ PHP Dictionary
    * :ref:`Absolute Name <absolute-name>`
    * :ref:`Absolute Value <absolute-value>`
    * :ref:`Abstract Class <abstract-class>`
+   * :ref:`Abstract Factory <abstract-factory>`
    * :ref:`Abstract Keyword <abstract>`
    * :ref:`Abstract Syntactic Tree (AST) <ast>`
    * :ref:`Abstraction <abstraction>`
@@ -103,6 +104,7 @@ PHP Dictionary
    * :ref:`array_map() <array_map>`
    * :ref:`array_merge() <array_merge>`
 * B
+   * :ref:`Back-tick <backtick>`
    * :ref:`Backed <backed>`
    * :ref:`Backed Enum <backed-enum>`
    * :ref:`Backed Property <backed-property>`
@@ -146,6 +148,7 @@ PHP Dictionary
    * :ref:`Callables <callable>`
    * :ref:`Callbacks <callback>`
    * :ref:`Callstack <callstack>`
+   * :ref:`Canonical <canonical>`
    * :ref:`Case <case>`
    * :ref:`Case Sensitivity <case-sensitivity>`
    * :ref:`Cast Operator <cast>`
@@ -160,6 +163,7 @@ PHP Dictionary
    * :ref:`Class <class>`
    * :ref:`Class Aliases <class-alias>`
    * :ref:`Class Autoloading <autoload>`
+   * :ref:`Class Constant Syntax <class-constant-syntax>`
    * :ref:`Class Constants Visibility <class-constant-visibility>`
    * :ref:`Class Entities <class-entity>`
    * :ref:`Class Getter Method <getter>`
@@ -242,6 +246,7 @@ PHP Dictionary
    * :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
+   * :ref:`constant() <constant-function>`
    * :ref:`constructor <constructor>`
    * :ref:`count() <count>`
    * :ref:`crc32 <crc32>`
@@ -307,6 +312,7 @@ PHP Dictionary
    * :ref:`Dynamic <dynamic>`
    * :ref:`Dynamic Call <dynamic-call>`
    * :ref:`Dynamic Class <dynamic-class>`
+   * :ref:`Dynamic Class Constant <dynamic-class-constant>`
    * :ref:`Dynamic Constant <dynamic-constant>`
    * :ref:`Dynamic Loading <dynamic-loading>`
    * :ref:`Dynamic Properties <dynamic-property>`
@@ -360,11 +366,13 @@ PHP Dictionary
 * F
    * :ref:`FIG <php-fig>`
    * :ref:`Facade <facade>`
+   * :ref:`Factory <factory>`
    * :ref:`Fallback Function <fallback-function>`
    * :ref:`Fallback To Global <fallback-to-global>`
    * :ref:`False <false>`
    * :ref:`Falsy <falsy>`
    * :ref:`FastCGI <fastcgi>`
+   * :ref:`FastCGI Process Manager (FPM) <fpm>`
    * :ref:`Feature <feature>`
    * :ref:`Fibers <fibers>`
    * :ref:`File <file>`
@@ -381,6 +389,7 @@ PHP Dictionary
    * :ref:`First Class Callable <first-class-callable>`
    * :ref:`Fixture <fixture>`
    * :ref:`Flag <flag>`
+   * :ref:`Flame Graph <flamegraph>`
    * :ref:`Floating Point Numbers <float>`
    * :ref:`Fluent Interface <fluent-interface>`
    * :ref:`For <for>`
@@ -557,6 +566,7 @@ PHP Dictionary
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
+   * :ref:`Method Collision <method-collision>`
    * :ref:`Method Signature <signature>`
    * :ref:`Methodcall <methodcall>`
    * :ref:`Micro-framework <microframework>`
@@ -675,7 +685,6 @@ PHP Dictionary
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrappers <php-wrapper>`
-   * :ref:`PHP-FPM (FPM) <fpm>`
    * :ref:`PHP_INT_MAX <php_int_max>`
    * :ref:`PHP_INT_MIN <php_int_min>`
    * :ref:`PHPdoc <phpdoc>`
@@ -775,7 +784,7 @@ PHP Dictionary
    * :ref:`Relaxed Syntax <relaxed-syntax>`
    * :ref:`Relay Function <relay-function>`
    * :ref:`Release <release>`
-   * :ref:`Remote Code Execution (RCE) <skeleton>`
+   * :ref:`Remote Code Execution (RCE) <rce>`
    * :ref:`Remote Procedure Call (RPC) <rpc>`
    * :ref:`Rendering <render>`
    * :ref:`Request For Change (RFC) <rfchange>`
@@ -800,7 +809,6 @@ PHP Dictionary
    * :ref:`SOLID <solid>`
    * :ref:`SQL Injection <sql-injection>`
    * :ref:`SQL Views <view-sql>`
-   * :ref:`SSL <ssl>`
    * :ref:`STDOUT <stdout>`
    * :ref:`SVMException <svmexception>`
    * :ref:`SVN <svn>`
@@ -816,6 +824,7 @@ PHP Dictionary
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
    * :ref:`Secret <secret>`
+   * :ref:`Secure Sockets Layer (SSL) <ssl>`
    * :ref:`Security <security>`
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`
@@ -858,6 +867,7 @@ PHP Dictionary
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Constant <special-constant>`
    * :ref:`Special Types <special-type>`
+   * :ref:`SplStorageObjects <splstorageobjects>`
    * :ref:`Sqlite3 <sqlite>`
    * :ref:`Square Brackets <square-bracket>`
    * :ref:`Stack <stack>`
@@ -955,6 +965,7 @@ PHP Dictionary
    * :ref:`Unbacked Enum <unbacked-enum>`
    * :ref:`Undefined <undefined>`
    * :ref:`Underflow <underflow>`
+   * :ref:`Underscore <underscore>`
    * :ref:`UnexpectedValueException <unexpectedvalueexception>`
    * :ref:`UnhandledMatchError <unhandledmatcherror>`
    * :ref:`Unicode <unicode>`
@@ -1025,5 +1036,6 @@ PHP Dictionary
    * :ref:`Zend Engine <zend-engine>`
    * :ref:`Zombie Code <zombie-code>`
    * :ref:`Zval <zval>`
+   * :ref:`zero <zero>`
    * :ref:`zip Extension <zip>`
    * :ref:`zlib extension <zlib>`

@@ -38,4 +38,4 @@ A parameter is a variable in a method definition. They have a name, and may have
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`Argument <argument>`, :ref:`Constant Scalar Expression <static-constant-expression>`, :ref:`Comma <comma>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Default Value <default-value>`, :ref:`Inherited Variable <inherited-variable>`, :ref:`New In Initializers <new-in-initializer>`
+Related : :ref:`Argument <argument>`, :ref:`Static Expression <static-constant-expression>`, :ref:`Comma <comma>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Default Value <default-value>`, :ref:`Inherited Variable <inherited-variable>`, :ref:`New In Initializers <new-in-initializer>`

@@ -67,4 +67,4 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 
 See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 
-Related : :ref:`SSL <ssl>`, :ref:`File <file>`
+Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`

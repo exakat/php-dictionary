@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Dynamic Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 05:02:43 +0000","dateModified":"Thu, 26 Jun 2025 05:02:43 +0000","description":"A constant is dynamic when its name is in a variable, or another container, and is accessed at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Dynamic Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Oct 2025 17:14:19 +0000","dateModified":"Wed, 01 Oct 2025 17:14:19 +0000","description":"A constant is dynamic when its name is in a variable, or another container, and is accessed at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic Constant
@@ -76,4 +76,4 @@ Sometimes, dynamic constants are also called variable constants.
 
 See also https://www.exakat.io/all-the-dynamic-syntaxes-in-php/
 
-Related : :ref:`Constants <constant>`, :ref:`Static Constant <class-constant>`, :ref:`Dynamic <dynamic>`
+Related : :ref:`Constants <constant>`, :ref:`constant() <constant-function>`, :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`Static Constant <class-constant>`, :ref:`Dynamic <dynamic>`

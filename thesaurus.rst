@@ -26,6 +26,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
 + :ref:`Extensible Markup Language (XML) <xml>`
 + :ref:`FastCGI <fastcgi>`
++ :ref:`FastCGI Process Manager (FPM) <fpm>`
 + :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
 + :ref:`File Transfert Protocol (FTP) <ftp>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
@@ -49,7 +50,6 @@ List of acronyms, used in this dictionary.
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
-+ :ref:`PHP-FPM (FPM) <fpm>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`RFC <rfc>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
@@ -58,6 +58,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Request For Change (RFC) <rfchange>`
 + :ref:`Reserved For Future Use (RFU) <rfu>`
 + :ref:`Role Based Access Control (RBAC) <rbac>`
++ :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
@@ -171,6 +172,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Loops <loop>`
 + :ref:`Magic Numbers <magic-number>`
 + :ref:`Memory Leak <memory-leak>`
++ :ref:`Merge <merge>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Over-engineer <overengineer>`
@@ -199,6 +201,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`State <state>`
++ :ref:`Stateful <stateful>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
 + :ref:`Subnamespaces <subnamespace>`
@@ -269,6 +272,7 @@ List of exceptions, available in PHP.
 + :ref:`LogicException <logicexception>`
 + :ref:`OutOfRangeException <outofrangeexception>`
 + :ref:`PDOException <pdoexception>`
++ :ref:`PharException <pharexception>`
 + :ref:`RangeException <rangeexception>`
 + :ref:`ReflectionException <reflectionexception>`
 + :ref:`TypeError <typeerror>`

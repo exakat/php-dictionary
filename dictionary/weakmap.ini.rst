@@ -53,4 +53,4 @@ It doesn’t prevent objects from being garbage-collected.
 
 `Documentation <https://www.php.net/manual/en/class.weakmap.php>`__
 
-Related : :ref:`Array <array>`, 
+Related : :ref:`Array <array>`, :ref:`SplStorageObjects <splstorageobjects>`

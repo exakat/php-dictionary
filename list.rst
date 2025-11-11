@@ -36,6 +36,7 @@ Index
    dictionary/absolute-value.ini
    dictionary/absolute.ini
    dictionary/abstract-class.ini
+   dictionary/abstract-factory.ini
    dictionary/abstract.ini
    dictionary/abstraction-layer.ini
    dictionary/abstraction.ini
@@ -105,6 +106,7 @@ Index
    dictionary/backed.ini
    dictionary/backedenum.ini
    dictionary/backend.ini
+   dictionary/backtick.ini
    dictionary/backtrace.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
@@ -142,6 +144,7 @@ Index
    dictionary/callable.ini
    dictionary/callback.ini
    dictionary/callstack.ini
+   dictionary/canonical.ini
    dictionary/case-sensitivity.ini
    dictionary/case.ini
    dictionary/cast.ini
@@ -156,6 +159,7 @@ Index
    dictionary/circular-reference.ini
    dictionary/cite.ini
    dictionary/class-alias.ini
+   dictionary/class-constant-syntax.ini
    dictionary/class-constant-visibility.ini
    dictionary/class-constant.ini
    dictionary/class-entity.ini
@@ -205,6 +209,7 @@ Index
    dictionary/configuration.ini
    dictionary/const.ini
    dictionary/constant-expression.ini
+   dictionary/constant-function.ini
    dictionary/constant-in-trait.ini
    dictionary/constant-scalar-expression.ini
    dictionary/constant.ini
@@ -298,6 +303,7 @@ Index
    dictionary/dto.ini
    dictionary/ducktyping.ini
    dictionary/dynamic-call.ini
+   dictionary/dynamic-class-constant.ini
    dictionary/dynamic-class.ini
    dictionary/dynamic-constant.ini
    dictionary/dynamic-loading.ini
@@ -347,6 +353,7 @@ Index
    dictionary/extension.ini
    dictionary/extract.ini
    dictionary/facade.ini
+   dictionary/factory.ini
    dictionary/fallback-function.ini
    dictionary/fallback-to-global.ini
    dictionary/fallthrough.ini
@@ -370,6 +377,7 @@ Index
    dictionary/first-class-callable.ini
    dictionary/fixture.ini
    dictionary/flag.ini
+   dictionary/flamegraph.ini
    dictionary/float.ini
    dictionary/fluent-interface.ini
    dictionary/for.ini
@@ -545,6 +553,7 @@ Index
    dictionary/memory_limit.ini
    dictionary/merge.ini
    dictionary/message-queue.ini
+   dictionary/method-collision.ini
    dictionary/method.ini
    dictionary/methodcall.ini
    dictionary/micro-optimisation.ini
@@ -685,6 +694,7 @@ Index
    dictionary/phpinfo.ini
    dictionary/phpunit.ini
    dictionary/pie.ini
+   dictionary/pipe-operator.ini
    dictionary/pipe.ini
    dictionary/pipeline.ini
    dictionary/plugin.ini
@@ -825,6 +835,7 @@ Index
    dictionary/special-constant.ini
    dictionary/special-typehint.ini
    dictionary/spl.ini
+   dictionary/splstorageobjects.ini
    dictionary/sprintf.ini
    dictionary/sql-injection.ini
    dictionary/sql.ini
@@ -924,6 +935,7 @@ Index
    dictionary/unbacked-enum.ini
    dictionary/undefined.ini
    dictionary/underflow.ini
+   dictionary/underscore.ini
    dictionary/unexpectedvalueexception.ini
    dictionary/unhandledmatcherror.ini
    dictionary/unicode.ini
@@ -999,6 +1011,7 @@ Index
    dictionary/yield.ini
    dictionary/yoda.ini
    dictionary/zend-engine.ini
+   dictionary/zero.ini
    dictionary/zip.ini
    dictionary/zlib.ini
    dictionary/zombie-code.ini

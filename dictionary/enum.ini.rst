@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Enumeration (enum)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:27:53 +0000","dateModified":"Sun, 03 Aug 2025 20:27:53 +0000","description":"Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Enumeration (enum).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Enumeration (enum)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Oct 2025 04:54:13 +0000","dateModified":"Fri, 03 Oct 2025 04:54:13 +0000","description":"Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Enumeration (enum).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Enumeration (enum)
@@ -43,7 +43,7 @@ Enumerations are a restricting layer on top of classes and class constants, inte
 
 `Documentation <https://www.php.net/manual/en/language.enumerations.php>`__
 
-See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, `On the use of enums <https://peakd.com/hive-168588/@crell/on-the-use-of-enums>`_, `Enum in PHP — Real life examples <https://medium.com/@danielarcher/enum-in-php-real-life-examples-a596ba421f3c>`_
+See also `Enumerations in PHP <https://www.delftstack.com/howto/php/php-enum/>`_, `5 Pitfalls of Upgrade to Native PHP Enums and How to Avoid Them <https://tomasvotruba.com/blog/five-pitfalls-of-upgrade-to-native-php-enums-and-how-to-avoid-them/>`_, https://peakd.com/hive-168588/@crell/on-the-use-of-enums, `Enum in PHP — Real life examples <https://medium.com/@danielarcher/enum-in-php-real-life-examples-a596ba421f3c>`_
 
 Related : :ref:`Enumeration Case <enum-case>`, :ref:`Collection <collection>`, :ref:`Class Interface Trait Enumeration (CITE) <cite>`, :ref:`Backed Enum <backed-enum>`, :ref:`BackedEnum <backedenum>`, :ref:`Case <case>`, :ref:`http_build_query() <http_build_query>`, :ref:`Unbacked Enum <unbacked-enum>`, :ref:`UnitEnum <unitenum>`
 
