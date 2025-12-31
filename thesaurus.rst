@@ -68,6 +68,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Standard PHP Library (SPL) <spl>`
 + :ref:`Support Vector Machine (SVM) <svm>`
++ :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
@@ -126,6 +127,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Clone <clone>`
 + :ref:`Code Smell <code-smell>`
 + :ref:`Command Bus <command-bus>`
++ :ref:`Concatenative <concatenative>`
 + :ref:`Condition <condition>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Controller <controller>`
@@ -176,6 +178,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Over-engineer <overengineer>`
++ :ref:`Overloading <overloading>`
 + :ref:`Overwrite <overwrite>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
@@ -206,6 +209,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Stubs Files <stubs>`
 + :ref:`Subnamespaces <subnamespace>`
 + :ref:`Sunsetting <sunsetting>`
++ :ref:`Taint Analysis <taint>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text Encoding <encoding-text>`
@@ -361,6 +365,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Floating Point Numbers <float>`
 + :ref:`Iterable <iterable>`
 + :ref:`Mixed <mixed>`
++ :ref:`Named Type <named-type>`
 + :ref:`Never Type <never>`
 + :ref:`Object Type <object-type>`
 + :ref:`Real Numbers <real>`

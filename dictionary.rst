@@ -15,6 +15,8 @@ PHP Dictionary
    * :ref:`$argv <$argv>`
    * :ref:`$php_errormsg <$php_errormsg>`
    * :ref:`$this <$this>`
+* (
+   * :ref:`(void) Cast <void-cast>`
 * .
    * :ref:`.htaccess <htaccess>`
 * @
@@ -100,6 +102,7 @@ PHP Dictionary
    * :ref:`Automatic Index <automatic-index>`
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
+   * :ref:`array_column <array_column>`
    * :ref:`array_key_exists() <array_key_exists>`
    * :ref:`array_map() <array_map>`
    * :ref:`array_merge() <array_merge>`
@@ -121,6 +124,7 @@ PHP Dictionary
    * :ref:`Best Practices <best-practice>`
    * :ref:`Binary <binary>`
    * :ref:`Binary Integer <binary-integer>`
+   * :ref:`Binary Not Operator <binary-not>`
    * :ref:`Binary Operator <binary-operator>`
    * :ref:`Bind <bind>`
    * :ref:`Bitshift Operators <bitshift>`
@@ -181,6 +185,7 @@ PHP Dictionary
    * :ref:`ClosedGeneratorException <closedgeneratorexception>`
    * :ref:`Closure <closure>`
    * :ref:`Closure Binding <closure-binding>`
+   * :ref:`Closure Class <closure-class>`
    * :ref:`Coalesce Operator <coalesce>`
    * :ref:`Code Coverage <code-coverage>`
    * :ref:`Code Formatter <code-formatter>`
@@ -210,6 +215,7 @@ PHP Dictionary
    * :ref:`Composition <composition>`
    * :ref:`Compression <compression>`
    * :ref:`Concatenation <concatenation>`
+   * :ref:`Concatenative <concatenative>`
    * :ref:`Concrete Class <concrete>`
    * :ref:`Concurent Version System (CVS) <cvs>`
    * :ref:`Condition <condition>`
@@ -338,6 +344,7 @@ PHP Dictionary
    * :ref:`Enumeration (enum) <enum>`
    * :ref:`Enumeration Case <enum-case>`
    * :ref:`Environment Variables <environment-variable>`
+   * :ref:`Equal Operator <equal>`
    * :ref:`Error <error>`
    * :ref:`Error Handler <error-handler>`
    * :ref:`Error Handling <error-handling>`
@@ -567,6 +574,7 @@ PHP Dictionary
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
    * :ref:`Method Collision <method-collision>`
+   * :ref:`Method Overloading <method-overloading>`
    * :ref:`Method Signature <signature>`
    * :ref:`Methodcall <methodcall>`
    * :ref:`Micro-framework <microframework>`
@@ -574,6 +582,8 @@ PHP Dictionary
    * :ref:`Micro-second <microsecond>`
    * :ref:`Microservice <microservice>`
    * :ref:`Migration <migration>`
+   * :ref:`Minification <minification>`
+   * :ref:`Minus - <minus>`
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
    * :ref:`Model <model>`
@@ -584,6 +594,7 @@ PHP Dictionary
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
    * :ref:`Multiplication <multiplication>`
+   * :ref:`Multiton <multiton>`
    * :ref:`Mutation Testing <mutation-test>`
    * :ref:`max_execution_time <max_execution_time>`
    * :ref:`mcrypt Extension <mcrypt>`
@@ -596,6 +607,7 @@ PHP Dictionary
    * :ref:`Name <name>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
+   * :ref:`Named Type <named-type>`
    * :ref:`Namespace Alias <namespace-alias>`
    * :ref:`Namespace Name <namespace-name>`
    * :ref:`Namespaced Name <namespaced-name>`
@@ -658,7 +670,9 @@ PHP Dictionary
    * :ref:`Outgoing Data <outgoing-data>`
    * :ref:`Over-engineer <overengineer>`
    * :ref:`Overflow <overflow>`
+   * :ref:`Overloading <overloading>`
    * :ref:`Override Attribute <override>`
+   * :ref:`Overriding <overriding>`
    * :ref:`Overwrite <overwrite>`
 * P
    * :ref:`PDOException <pdoexception>`
@@ -767,6 +781,7 @@ PHP Dictionary
    * :ref:`Real Numbers <real>`
    * :ref:`Recursion <recursion>`
    * :ref:`Recursive Array <recursive-array>`
+   * :ref:`RecursiveIterator <recursiveiterator>`
    * :ref:`Refactoring <refactoring>`
    * :ref:`Reference Count <reference-count>`
    * :ref:`References <reference>`
@@ -834,6 +849,7 @@ PHP Dictionary
    * :ref:`Semicolon <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
    * :ref:`Separator <separator>`
+   * :ref:`Serde <serde>`
    * :ref:`Serializable <serializable>`
    * :ref:`Serialization <serialization>`
    * :ref:`Server Application Programming Interface (SAPI) <sapi>`
@@ -864,6 +880,7 @@ PHP Dictionary
    * :ref:`Socket <socket>`
    * :ref:`Software Development Kit (SDK) <sdk>`
    * :ref:`Sort <sort>`
+   * :ref:`Space <space>`
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Constant <special-constant>`
    * :ref:`Special Types <special-type>`
@@ -916,6 +933,7 @@ PHP Dictionary
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`strict_types <strict_types>`
+   * :ref:`strpos <strpos>`
    * :ref:`subtype <subtype>`
    * :ref:`supertype <supertype>`
 * T
@@ -936,6 +954,7 @@ PHP Dictionary
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
    * :ref:`Token <token>`
+   * :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
    * :ref:`Trailing Comma <trailing-comma>`
    * :ref:`Trait <trait>`
    * :ref:`Transpile <transpile>`
@@ -969,6 +988,7 @@ PHP Dictionary
    * :ref:`UnexpectedValueException <unexpectedvalueexception>`
    * :ref:`UnhandledMatchError <unhandledmatcherror>`
    * :ref:`Unicode <unicode>`
+   * :ref:`Uninitialized <uninitialized>`
    * :ref:`Union Type <union-type>`
    * :ref:`UnitEnum <unitenum>`
    * :ref:`Universal Resource Identifier (URI) <uri>`

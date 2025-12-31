@@ -39,4 +39,4 @@ Native interfaces depend on the compiled extensions. Native interfaces are intro
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php>`__
 
-Related : :ref:`Traversable <traversable>`, , :ref:`Iterator <iterator>`, :ref:`Serializable <serializable>`, :ref:`ArrayAccess <arrayaccess>`, :ref:`Countable Interface <countable>`, :ref:`Stringable <stringable>`, :ref:`Throwable <throwable>`, :ref:`UnitEnum <unitenum>`, :ref:`BackedEnum <backedenum>`, , , , , , :ref:`JsonSerializable <jsonserializable>`, , , , , , , , , , , 
+Related : :ref:`Traversable <traversable>`, , :ref:`Iterator <iterator>`, :ref:`Serializable <serializable>`, :ref:`ArrayAccess <arrayaccess>`, :ref:`Countable Interface <countable>`, :ref:`Stringable <stringable>`, :ref:`Throwable <throwable>`, :ref:`UnitEnum <unitenum>`, :ref:`BackedEnum <backedenum>`, , , , , , :ref:`JsonSerializable <jsonserializable>`, :ref:`RecursiveIterator <recursiveiterator>`, , , , , , , , , , 

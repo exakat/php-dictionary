@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Sandbox","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Sep 2025 21:01:32 +0000","dateModified":"Tue, 02 Sep 2025 21:01:32 +0000","description":"An isolated environment where code can be run or tested, without affecting the real system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sandbox.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Sandbox","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Dec 2025 05:46:55 +0000","dateModified":"Mon, 29 Dec 2025 05:46:55 +0000","description":"An isolated environment where code can be run or tested, without affecting the real system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sandbox.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sandbox
@@ -24,6 +24,6 @@ Sandbox
 
 An isolated environment where code can be run or tested, without affecting the real system. Sandboxes are very useful to check PHP feature across several versions.
 
-See also https://www.3v4l.org/, https://phparser.com/, https://onlinephp.io/, https://extendsclass.com/php.html
+See also https://www.3v4l.org/, https://phparser.com/, https://onlinephp.io/, https://php-play.dev/, https://extendsclass.com/php.html
 
 Related : :ref:`Parser <parser>`

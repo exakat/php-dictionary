@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Abstract Factory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 09 Nov 2025 18:02:14 +0000","dateModified":"Sun, 09 Nov 2025 18:02:14 +0000","description":"An Abstract Factory is a design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Factory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Abstract Factory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 09 Dec 2025 05:55:46 +0000","dateModified":"Tue, 09 Dec 2025 05:55:46 +0000","description":"An Abstract Factory is a design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Factory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstract Factory
@@ -27,5 +27,7 @@ An Abstract Factory is a design pattern that provides an interface for creating 
 It is one level of abstraction above the simple factory pattern. While a simple factory creates one type of object, an abstract factory is used to create a set of related factories, each responsible for creating a family of products.
 
 `Documentation <https://refactoring.guru/design-patterns/abstract-factory/php/example>`__
+
+See also https://refactoring.guru/design-patterns/abstract-factory, https://dev.to/zhukmax/design-patterns-in-php-8-abstract-factory-32d1
 
 Related : :ref:`Factory <factory>`

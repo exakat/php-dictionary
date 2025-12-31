@@ -73,6 +73,7 @@ Index
    dictionary/array-spread.ini
    dictionary/array-syntax.ini
    dictionary/array.ini
+   dictionary/array_column.ini
    dictionary/array_key_exists.ini
    dictionary/array_map.ini
    dictionary/array_merge.ini
@@ -175,6 +176,7 @@ Index
    dictionary/close-tag.ini
    dictionary/closedgeneratorexception.ini
    dictionary/closure-binding.ini
+   dictionary/closure-class.ini
    dictionary/closure.ini
    dictionary/coalesce.ini
    dictionary/code-coverage.ini
@@ -202,6 +204,7 @@ Index
    dictionary/composition.ini
    dictionary/compression.ini
    dictionary/concatenation.ini
+   dictionary/concatenative.ini
    dictionary/concrete.ini
    dictionary/condition.ini
    dictionary/conditional-structure.ini
@@ -327,6 +330,7 @@ Index
    dictionary/enum-case.ini
    dictionary/enum.ini
    dictionary/environment-variables.ini
+   dictionary/equal.ini
    dictionary/error-handler.ini
    dictionary/error-handling.ini
    dictionary/error-reporting.ini
@@ -554,6 +558,7 @@ Index
    dictionary/merge.ini
    dictionary/message-queue.ini
    dictionary/method-collision.ini
+   dictionary/method-overloading.ini
    dictionary/method.ini
    dictionary/methodcall.ini
    dictionary/micro-optimisation.ini
@@ -562,6 +567,8 @@ Index
    dictionary/microservice.ini
    dictionary/microtime.ini
    dictionary/migration.ini
+   dictionary/minification.ini
+   dictionary/minus.ini
    dictionary/mixed.ini
    dictionary/mock.ini
    dictionary/model.ini
@@ -570,6 +577,7 @@ Index
    dictionary/multi-byte.ini
    dictionary/multidimensional-array.ini
    dictionary/multiplication.ini
+   dictionary/multiton.ini
    dictionary/mutation-test.ini
    dictionary/mvc.ini
    dictionary/mysqli.ini
@@ -578,6 +586,7 @@ Index
    dictionary/name.ini
    dictionary/named-constructor.ini
    dictionary/named-parameter.ini
+   dictionary/named-type.ini
    dictionary/namespace-alias.ini
    dictionary/namespace-name.ini
    dictionary/namespace.ini
@@ -639,7 +648,9 @@ Index
    dictionary/outofrangeexception.ini
    dictionary/overengineer.ini
    dictionary/overflow.ini
+   dictionary/overloading.ini
    dictionary/override.ini
+   dictionary/overriding.ini
    dictionary/overwrite.ini
    dictionary/owasp.ini
    dictionary/pack.ini
@@ -744,6 +755,7 @@ Index
    dictionary/real.ini
    dictionary/recursion.ini
    dictionary/recursive-array.ini
+   dictionary/recursiveiterator.ini
    dictionary/refactoring.ini
    dictionary/reference-count.ini
    dictionary/reference.ini
@@ -801,6 +813,7 @@ Index
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
    dictionary/separator.ini
+   dictionary/serde.ini
    dictionary/serializable.ini
    dictionary/serialization.ini
    dictionary/session-fixation.ini
@@ -831,6 +844,7 @@ Index
    dictionary/solid.ini
    dictionary/sort.ini
    dictionary/spa.ini
+   dictionary/space.ini
    dictionary/spaceship.ini
    dictionary/special-constant.ini
    dictionary/special-typehint.ini
@@ -867,6 +881,7 @@ Index
    dictionary/string.ini
    dictionary/stringable.ini
    dictionary/strpos-syndrom.ini
+   dictionary/strpos.ini
    dictionary/structure.ini
    dictionary/stubs.ini
    dictionary/sub.ini
@@ -907,9 +922,11 @@ Index
    dictionary/throw.ini
    dictionary/throwable.ini
    dictionary/tick.ini
+   dictionary/tilde.ini
    dictionary/tls.ini
    dictionary/toctou.ini
    dictionary/token.ini
+   dictionary/toml.ini
    dictionary/trailing-comma.ini
    dictionary/trait.ini
    dictionary/transpile.ini
@@ -939,6 +956,7 @@ Index
    dictionary/unexpectedvalueexception.ini
    dictionary/unhandledmatcherror.ini
    dictionary/unicode.ini
+   dictionary/uninitialized.ini
    dictionary/union-type.ini
    dictionary/unitenum.ini
    dictionary/unpacking.ini
@@ -981,6 +999,7 @@ Index
    dictionary/virtual-property.ini
    dictionary/visibility.ini
    dictionary/vo.ini
+   dictionary/void-cast.ini
    dictionary/void.ini
    dictionary/warning.ini
    dictionary/weak-reference.ini

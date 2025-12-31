@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Code Formatter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Sep 2025 16:52:27 +0000","dateModified":"Sun, 21 Sep 2025 16:52:27 +0000","description":"A code formatter is an automated tool that apply coding conventions to the source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Formatter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Code Formatter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 31 Dec 2025 06:03:24 +0000","dateModified":"Wed, 31 Dec 2025 06:03:24 +0000","description":"A code formatter is an automated tool that apply coding conventions to the source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Formatter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Formatter
@@ -46,6 +46,6 @@ Popular coding conventions are ``PSR-12``, or per framework, such as ``Symfony C
    ?>
 
 
-Related : :ref:`PHP Standards Recommendations (PSR) <psr>`, :ref:`PHP Standards Recommendations (PSR) <psr>`
+Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 
 Related packages : `lkrms/pretty-php <https://packagist.org/packages/lkrms/pretty-php>`_, `friendsofphp/php-cs-fixer <https://packagist.org/packages/friendsofphp/php-cs-fixer>`_, `squizlabs/php_codesniffer <https://packagist.org/packages/squizlabs/php_codesniffer>`_
