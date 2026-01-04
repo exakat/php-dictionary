@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 04 Jan 2026 21:25:48 +0000","dateModified":"Sun, 04 Jan 2026 21:25:48 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polyfill
@@ -47,6 +47,8 @@ There are polyfills available in packagist, like the family of packages ``symfon
 
 `Documentation <https://symfony.com/components/Polyfill%20PHP%208.0>`__
 
-See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_
+See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_, https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e
+
+Related : 
 
 Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_

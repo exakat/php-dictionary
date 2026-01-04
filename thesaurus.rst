@@ -214,6 +214,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text Encoding <encoding-text>`
 + :ref:`Traversal <traversal>`
++ :ref:`Truthy <truthy>`
 + :ref:`Underflow <underflow>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
@@ -275,6 +276,7 @@ List of exceptions, available in PHP.
 + :ref:`LengthException <lengthexception>`
 + :ref:`LogicException <logicexception>`
 + :ref:`OutOfRangeException <outofrangeexception>`
++ :ref:`OverflowException <overflowexception>`
 + :ref:`PDOException <pdoexception>`
 + :ref:`PharException <pharexception>`
 + :ref:`RangeException <rangeexception>`
@@ -334,6 +336,7 @@ List of PHP keywords and reserved names.
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
 + :ref:`include <include>`
++ :ref:`parent <parent>`
 + :ref:`throw <throw>`
 + :ref:`unset() <unset>`
 + :ref:`yield from Keyword <yield-from>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Syntax Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:51:50 +0000","dateModified":"Sat, 28 Jun 2025 08:51:50 +0000","description":"A syntax error happens when the text could not be parsed into tokens by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Syntax Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Syntax Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 03 Jan 2026 07:04:15 +0000","dateModified":"Sat, 03 Jan 2026 07:04:15 +0000","description":"A syntax error happens when the text could not be parsed into tokens by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Syntax Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Syntax Error
@@ -28,8 +28,7 @@ Syntax error happen for a variety of reasons, which may compound one with the ot
 
 + Unbalanced opening/closing tokens, such as parenthesis ``()``, brackets ``[]``, curly brackets ``{}``
 + Unfinished command: the final semi colon ``;`` was forgotten
-+ Forgotten ``)``, in particular when there need to be more than 2, sometimes even 1
-
++ Forgotten ``)``, in particular when there need to be more than 2, sometimes even 1.
 
 .. code-block:: php
    

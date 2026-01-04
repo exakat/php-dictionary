@@ -60,4 +60,4 @@ Operator overloading is not supported in PHP. For example, it is not possible to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.overloading.php>`__
 
-Related : :ref:`Magic Methods <magic-method>`, 
+Related : :ref:`Magic Methods <magic-method>`, :ref:`Dynamic Method <dynamic-method>`

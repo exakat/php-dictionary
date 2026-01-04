@@ -18,6 +18,7 @@ PHP Dictionary
 * (
    * :ref:`(void) Cast <void-cast>`
 * .
+   * :ref:`.env File <env-file>`
    * :ref:`.htaccess <htaccess>`
 * @
    * :ref:`@, No Scream Operator <noscream>`
@@ -321,6 +322,7 @@ PHP Dictionary
    * :ref:`Dynamic Class Constant <dynamic-class-constant>`
    * :ref:`Dynamic Constant <dynamic-constant>`
    * :ref:`Dynamic Loading <dynamic-loading>`
+   * :ref:`Dynamic Method <dynamic-method>`
    * :ref:`Dynamic Properties <dynamic-property>`
    * :ref:`Dynamic Variable <dynamic-variable>`
    * :ref:`declare Encoding <declare-encoding>`
@@ -670,6 +672,7 @@ PHP Dictionary
    * :ref:`Outgoing Data <outgoing-data>`
    * :ref:`Over-engineer <overengineer>`
    * :ref:`Overflow <overflow>`
+   * :ref:`OverflowException <overflowexception>`
    * :ref:`Overloading <overloading>`
    * :ref:`Override Attribute <override>`
    * :ref:`Overriding <overriding>`

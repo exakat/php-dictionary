@@ -310,6 +310,7 @@ Index
    dictionary/dynamic-class.ini
    dictionary/dynamic-constant.ini
    dictionary/dynamic-loading.ini
+   dictionary/dynamic-method.ini
    dictionary/dynamic-property.ini
    dictionary/dynamic-variable.ini
    dictionary/dynamic.ini
@@ -329,6 +330,7 @@ Index
    dictionary/entity.ini
    dictionary/enum-case.ini
    dictionary/enum.ini
+   dictionary/env-file.ini
    dictionary/environment-variables.ini
    dictionary/equal.ini
    dictionary/error-handler.ini
@@ -647,6 +649,7 @@ Index
    dictionary/outgoing-data.ini
    dictionary/outofrangeexception.ini
    dictionary/overengineer.ini
+   dictionary/overflow-class.ini
    dictionary/overflow.ini
    dictionary/overloading.ini
    dictionary/override.ini
