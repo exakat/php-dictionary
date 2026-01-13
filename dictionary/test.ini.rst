@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:31:55 +0000","dateModified":"Tue, 13 May 2025 05:31:55 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 Jan 2026 20:55:25 +0000","dateModified":"Sun, 11 Jan 2026 20:55:25 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test
@@ -29,6 +29,7 @@ There are many different types of tests :
 + Unit test : close to the class level of the code
 + Integration test : they check that components collaborate nicely
 + Functional tests : close to the specifications and the business level
++ Feature testing : close to the specifications and the business level
 + End-to-end tests : they run the software from beginning to the end
 + Performance tests : tests focusing on the behavior of the software under load
 + Acceptance tests : the tests that the software must pass to be accepted by the end user
@@ -47,4 +48,4 @@ Tests are often further automated in a Continuous Integration Pipeline.
 
 See also `3 Compelling Reasons For Developers To Write Tests <https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests>`_, `Testing Best Practices: The Ultimate Guide <https://compiler.blog/testing-best-practices-the-ultimate-guide>`_, `Testing tips <https://testing-tips.sarvendev.com/>`_
 
-Related : :ref:`Continuous Integration (CI) <ci>`
+Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Feature Testing <feature-testing>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Async","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Jun 2025 08:42:19 +0000","dateModified":"Tue, 17 Jun 2025 08:42:19 +0000","description":"The ``async`` keyword is used in programming (especially in languages like JavaScript, Python, and C#) to define a function that runs asynchronously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Async.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Async","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 Jan 2026 12:09:21 +0000","dateModified":"Tue, 13 Jan 2026 12:09:21 +0000","description":"The ``async`` keyword is used in programming (especially in languages like JavaScript, Python, and C#) to define a function that runs asynchronously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Async.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Async
@@ -24,7 +24,7 @@ Async
 
 The ``async`` keyword is used in programming (especially in languages like JavaScript, Python, and C#) to define a function that runs asynchronously. It means that it can perform operations without blocking the rest of the program.
 
-PHP does not support a notion of ``async``. The closest feature is called 'fiber' or parallel processing, yet it is quite different from async. Generators also provide a pseudo-asynch processing.
+PHP does not support a notion of ``async``. The closest feature is called 'fiber' or parallel processing, yet it is quite different from asynchronous. Generators also provide a pseudo-asynchronous processing.
 
 .. code-block:: php
    

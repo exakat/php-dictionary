@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Non Breakable Spaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Jul 2025 20:30:09 +0000","dateModified":"Mon, 28 Jul 2025 20:30:09 +0000","description":"Space is one of the base ascii character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non Breakable Spaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Non Breakable Spaces","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 Jan 2026 11:17:56 +0000","dateModified":"Mon, 12 Jan 2026 11:17:56 +0000","description":"Space is one of the base ascii character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non Breakable Spaces.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Non Breakable Spaces
@@ -44,4 +44,4 @@ Non-breakable spaces are useful for tests, as they make the testing name more re
 
 `Documentation <https://en.wikipedia.org/wiki/Non-breaking_space>`__
 
-See also `Non breakable space in PHP <https://3v4l.org/ATkWY>`_
+See also https://3v4l.org/ATkWY, https://dev.to/yasserelgammal/handling-invisible-characters-with-php-1507, https://www.bigmessowires.com/2021/10/14/non-breaking-spaces-and-utf-8-madness/, https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names

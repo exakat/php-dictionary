@@ -45,6 +45,7 @@ PHP Dictionary
    * :ref:`Abstract Class <abstract-class>`
    * :ref:`Abstract Factory <abstract-factory>`
    * :ref:`Abstract Keyword <abstract>`
+   * :ref:`Abstract Method <abstract-method>`
    * :ref:`Abstract Syntactic Tree (AST) <ast>`
    * :ref:`Abstraction <abstraction>`
    * :ref:`Abstraction Layer <abstraction-layer>`
@@ -218,6 +219,7 @@ PHP Dictionary
    * :ref:`Concatenation <concatenation>`
    * :ref:`Concatenative <concatenative>`
    * :ref:`Concrete Class <concrete>`
+   * :ref:`Concrete Method <concrete-method>`
    * :ref:`Concurent Version System (CVS) <cvs>`
    * :ref:`Condition <condition>`
    * :ref:`Conditional Structures <conditional-structure>`
@@ -236,6 +238,7 @@ PHP Dictionary
    * :ref:`Control Structures <control-structure>`
    * :ref:`Controller <controller>`
    * :ref:`Convention <convention>`
+   * :ref:`Convert <convert>`
    * :ref:`Cookie <cookie>`
    * :ref:`Copy On Write <copy-on-write>`
    * :ref:`Core <core>`
@@ -245,6 +248,7 @@ PHP Dictionary
    * :ref:`Covariance <type-covariance>`
    * :ref:`Coverage <coverage>`
    * :ref:`Create, Read, Update And Delete (CRUD) <crud>`
+   * :ref:`Cross Site Scripting (XSS) <xss>`
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
    * :ref:`Ctype <ctype>`
@@ -383,6 +387,7 @@ PHP Dictionary
    * :ref:`FastCGI <fastcgi>`
    * :ref:`FastCGI Process Manager (FPM) <fpm>`
    * :ref:`Feature <feature>`
+   * :ref:`Feature Testing <feature-testing>`
    * :ref:`Fibers <fibers>`
    * :ref:`File <file>`
    * :ref:`File Extension <file-extension>`
@@ -623,6 +628,7 @@ PHP Dictionary
    * :ref:`Neutral Element <neutral-element>`
    * :ref:`Never Type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
+   * :ref:`New Line <new-line>`
    * :ref:`New Without Parenthesis <new-without-parenthesis>`
    * :ref:`NoDiscard <nodiscard>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
@@ -738,7 +744,9 @@ PHP Dictionary
    * :ref:`Port <port>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
+   * :ref:`Post-increment <post-increment>`
    * :ref:`PostgreSQL <postgresql>`
+   * :ref:`Pre-increment <pre-increment>`
    * :ref:`Precedence <precedence>`
    * :ref:`Predefined Constants <predefined-constant>`
    * :ref:`Prepared Query <prepared-query>`
@@ -897,6 +905,7 @@ PHP Dictionary
    * :ref:`Stateful <stateful>`
    * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`
+   * :ref:`Static Application Security Testing (SAST) <skeleton>`
    * :ref:`Static Constant <class-constant>`
    * :ref:`Static Expression <static-expression>`
    * :ref:`Static Method <static-method>`
@@ -919,6 +928,7 @@ PHP Dictionary
    * :ref:`Subnamespaces <subnamespace>`
    * :ref:`Sunsetting <sunsetting>`
    * :ref:`Superglobal Variables <superglobal>`
+   * :ref:`Supply Chain <supply-chain>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
    * :ref:`Support Vector Machine (SVM) <svm>`
    * :ref:`Switch <switch>`

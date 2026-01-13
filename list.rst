@@ -37,6 +37,7 @@ Index
    dictionary/absolute.ini
    dictionary/abstract-class.ini
    dictionary/abstract-factory.ini
+   dictionary/abstract-method.ini
    dictionary/abstract.ini
    dictionary/abstraction-layer.ini
    dictionary/abstraction.ini
@@ -205,6 +206,7 @@ Index
    dictionary/compression.ini
    dictionary/concatenation.ini
    dictionary/concatenative.ini
+   dictionary/concrete-method.ini
    dictionary/concrete.ini
    dictionary/condition.ini
    dictionary/conditional-structure.ini
@@ -224,6 +226,7 @@ Index
    dictionary/control-structure.ini
    dictionary/controller.ini
    dictionary/convention.ini
+   dictionary/convert.ini
    dictionary/cookie.ini
    dictionary/copy-on-write.ini
    dictionary/core.ini
@@ -367,6 +370,7 @@ Index
    dictionary/falsy.ini
    dictionary/fastcgi.ini
    dictionary/feature-flag.ini
+   dictionary/feature-testing.ini
    dictionary/feature.ini
    dictionary/ffi.ini
    dictionary/fibers.ini
@@ -604,6 +608,7 @@ Index
    dictionary/neutral-element.ini
    dictionary/never.ini
    dictionary/new-in-initializer.ini
+   dictionary/new-line.ini
    dictionary/new-without-parenthesis.ini
    dictionary/new.ini
    dictionary/nodiscard.ini
@@ -719,6 +724,8 @@ Index
    dictionary/port.ini
    dictionary/portability.ini
    dictionary/positional-parameter.ini
+   dictionary/post-increment.ini
+   dictionary/pre-increment.ini
    dictionary/precedence.ini
    dictionary/predefined-constant.ini
    dictionary/predefined-exception.ini
@@ -797,6 +804,7 @@ Index
    dictionary/sandbox.ini
    dictionary/sanitation.ini
    dictionary/sapi.ini
+   dictionary/sast.ini
    dictionary/scaffolding.ini
    dictionary/scalar-type.ini
    dictionary/scaling.ini
@@ -895,6 +903,7 @@ Index
    dictionary/superglobal.ini
    dictionary/supertype.ini
    dictionary/supply-chain-attack.ini
+   dictionary/supply-chain.ini
    dictionary/svm.ini
    dictionary/svmexception.ini
    dictionary/svn.ini
@@ -1027,6 +1036,7 @@ Index
    dictionary/xml.ini
    dictionary/xmlreader.ini
    dictionary/xmlwriter.ini
+   dictionary/xss.ini
    dictionary/xxtea.ini
    dictionary/yaml.ini
    dictionary/yield-from.ini

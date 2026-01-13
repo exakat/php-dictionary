@@ -16,6 +16,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Integration (CI) <ci>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
++ :ref:`Cross Site Scripting (XSS) <xss>`
 + :ref:`Data Access Object (DAO) <dao>`
 + :ref:`Data Source Name (DSN) <dsn>`
 + :ref:`Data Transfer Object (DTO) <dto>`
@@ -67,6 +68,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Single Sign On (SSO) <sso>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`Static Application Security Testing (SAST) <skeleton>`
 + :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
@@ -323,6 +325,7 @@ List of PHP keywords and reserved names.
 + :ref:`Private Visibility <private>`
 + :ref:`Protected Visibility <protected>`
 + :ref:`Public Visibility <public>`
++ :ref:`Return <return>`
 + :ref:`Self <self>`
 + :ref:`Simple Switch <simple-switch>`
 + :ref:`Stringable <stringable>`

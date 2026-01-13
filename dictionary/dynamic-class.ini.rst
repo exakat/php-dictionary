@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"Dynamic Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 04:48:40 +0000","dateModified":"Thu, 26 Jun 2025 04:48:40 +0000","description":"A dynamic class is a class whose fully qualified name is defined at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 09 Jan 2026 08:25:57 +0000","dateModified":"Fri, 09 Jan 2026 08:25:57 +0000","description":"A dynamic class is a class whose fully qualified name is defined at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic Class
@@ -25,6 +25,14 @@ Dynamic Class
 A dynamic class is a class whose fully qualified name is defined at execution time. 
 
 This is convenient for module systems, where the actual class is named from an external configuration.
+
+The name of the class is a string. It may be also accessed with the ``::class`` operator. 
+
+For a dynamic call, the name of the class may or may not start with a ``\`` char: both cases work.
+
+Dynamic class may be used with static calls, for class constants, enum cases, static method or static property. It may also be used with the instantiation operator ``new``.
+
+It is also possible to use an object of the same class for all these calls. 
 
 
 .. code-block:: php
@@ -37,9 +45,10 @@ This is convenient for module systems, where the actual class is named from an e
    
    $name = '\A'.(rand(0, 1) ? 'B' : 'C');
    
-   $object = new $name;
+   $object = new $name;    // creates a class of AB or AC
+   $object2 = new $object; // creates another object of AB or AC, same as $object
    
    ?>
 
 
-Related : :ref:`new <new>`
+Related : :ref:`new <new>`, 
