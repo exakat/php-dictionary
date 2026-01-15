@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Allow Dynamic Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 14:10:31 +0000","dateModified":"Fri, 04 Jul 2025 14:10:31 +0000","description":"This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Allow Dynamic Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Allow Dynamic Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Allow Dynamic Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Allow Dynamic Properties
@@ -27,7 +27,6 @@ This is a native PHP attribute, which tells the engine that a class can dynamica
 This attribute may be added to any class. It is not necessary with ``stdClass``.
 
 The attributes allow any dynamic property: there is no way to restrict this to a set of names or a number without other means.
-
 
 .. code-block:: php
    
@@ -63,7 +62,7 @@ The attributes allow any dynamic property: there is no way to restrict this to a
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
 
-See also `No More Dynamic Properties in PHP 9. <https://medium.com/@dotcom.software/no-more-dynamic-properties-in-php-9-the-language-is-evolving-260fd70da5e8>`_, `I hate the deprecation of dynamic properties. <https://www.reddit.com/r/PHP/comments/10u90o2/i_hate_the_deprecation_of_dynamic_properties/>`_
+See also https://medium.com/@dotcom.software/no-more-dynamic-properties-in-php-9-the-language-is-evolving-260fd70da5e8, https://www.reddit.com/r/PHP/comments/10u90o2/i_hate_the_deprecation_of_dynamic_properties/
 
 Related : :ref:`PHP Native Attribute <php-native-attribute>`
 

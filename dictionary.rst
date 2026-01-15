@@ -108,6 +108,7 @@ PHP Dictionary
    * :ref:`array_key_exists() <array_key_exists>`
    * :ref:`array_map() <array_map>`
    * :ref:`array_merge() <array_merge>`
+   * :ref:`array_walk() <array_walk>`
 * B
    * :ref:`Back-tick <backtick>`
    * :ref:`Backed <backed>`
@@ -511,6 +512,7 @@ PHP Dictionary
    * :ref:`Isset <isset>`
    * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`
+   * :ref:`imagick <imagick>`
    * :ref:`implements <implements>`
    * :ref:`implode() <implode>`
    * :ref:`include <include>`
@@ -581,6 +583,7 @@ PHP Dictionary
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
    * :ref:`Method Collision <method-collision>`
+   * :ref:`Method Compatibility <method-compatibility>`
    * :ref:`Method Overloading <method-overloading>`
    * :ref:`Method Signature <signature>`
    * :ref:`Methodcall <methodcall>`

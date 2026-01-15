@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Assumption","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 16:44:17 +0000","dateModified":"Fri, 04 Jul 2025 16:44:17 +0000","description":"An assumption is a piece of code that makes use of knowledge that is not visible in the source","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assumption.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Assumption","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"An assumption is a piece of code that makes use of knowledge that is not visible in the source","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assumption.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Assumption
@@ -32,10 +32,9 @@ Assumptions are characterized by a lack of checks, before or after. They are bas
 
 Assumptions leads to faster code, and faster coding working. It also yield errors later, when the assumptions rules are violated.
 
-Assumptions may be upgraded to assertions, by adding an explicit check on the situation. 
+Assumptions may be upgraded to assertions, by adding an explicit check on the situation.
 
 .. code-block:: php
-   
    
    <?php
    
@@ -52,9 +51,8 @@ Assumptions may be upgraded to assertions, by adding an explicit check on the si
    }
    
    ?>
-   
 
 
-See also `From assumptions to assertions <https://rskuipers.com/entry/from-assumptions-to-assertions>`_
+See also https://rskuipers.com/entry/from-assumptions-to-assertions
 
 Related : :ref:`Assertions <assertion>`

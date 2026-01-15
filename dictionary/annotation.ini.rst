@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Annotations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Jun 2025 20:14:54 +0000","dateModified":"Tue, 24 Jun 2025 20:14:54 +0000","description":"PHP annotations are a system to provide meta data about code, in a way that is programmatically processable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Annotations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Annotations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"PHP annotations are a system to provide meta data about code, in a way that is programmatically processable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Annotations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Annotations
@@ -24,11 +24,9 @@ Annotations
 
 PHP annotations are a system to provide meta data about code, in a way that is programmatically processable. 
 
-PHP annotations are based on PHPDoc comment's syntax, and are later partially modernized by PHP attributes. 
-
+PHP annotations are based on PHPDoc comment's syntax, and are later partially modernized by PHP attributes.
 
 .. code-block:: php
-   
    
    <?php
    
@@ -49,12 +47,11 @@ PHP annotations are based on PHPDoc comment's syntax, and are later partially mo
    }
    
    ?>
-   
 
 
 `Documentation <https://en.wikipedia.org/wiki/PHPDoc>`__
 
-See also `Understanding annotations <https://php-annotations.readthedocs.io/en/latest/UsingAnnotations.html>`_, `Annotating Types via PHP Doc Comments <https://scrutinizer-ci.com/docs/tools/php/php-analyzer/guides/annotating_code>`_
+See also https://php-annotations.readthedocs.io/en/latest/UsingAnnotations.html, https://scrutinizer-ci.com/docs/tools/php/php-analyzer/guides/annotating_code
 
 Related : :ref:`Attribute <attribute>`
 

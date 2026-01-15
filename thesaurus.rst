@@ -410,12 +410,23 @@ List of PHP magic method, which are providing special behavior throught the defi
 + :ref:`__unserialize() Method <-__unserialize>`
 + :ref:`__wakeup() Method <-__wakeup>`
 
-Bug
----
+Classic bug
+-----------
 
 List of named bugs.
 
-+ 
++ :ref:`Dangling Reference <dangling-reference>`
++ :ref:`Datetime Trap <datetime-trap>`
++ :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
++ :ref:`Days In Month <days-in-month>`
++ :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
++ :ref:`Letter Logical Bug <letter-logical>`
++ :ref:`Magic Hash <magic-hash>`
++ :ref:`N+1 Query Problem <n-query>`
++ :ref:`Object Injection <object-injection>`
++ :ref:`Stealth Generator <stealth-generator>`
++ :ref:`Strpos() Syndrome <strpos-syndrom>`
++ :ref:`array_merge() <array_merge>`
 
 Extension
 ---------
@@ -447,6 +458,8 @@ List of special PHP extensions.
 + :ref:`bzip2 Extension <bzip2>`
 + :ref:`filter <filter>`
 + :ref:`gettext Extension <gettext>`
++ :ref:`imagick <imagick>`
++ :ref:`mysqli <mysqli>`
 + :ref:`zip Extension <zip>`
 + :ref:`zlib extension <zlib>`
 

@@ -78,6 +78,7 @@ Index
    dictionary/array_key_exists.ini
    dictionary/array_map.ini
    dictionary/array_merge.ini
+   dictionary/array_walk.ini
    dictionary/arrayaccess.ini
    dictionary/arrayobject.ini
    dictionary/arrow-function.ini
@@ -457,6 +458,7 @@ Index
    dictionary/identifier.ini
    dictionary/if-then.ini
    dictionary/iffectation.ini
+   dictionary/imagick.ini
    dictionary/imagickexception.ini
    dictionary/imagickpixelexception.ini
    dictionary/immutable.ini
@@ -564,6 +566,7 @@ Index
    dictionary/merge.ini
    dictionary/message-queue.ini
    dictionary/method-collision.ini
+   dictionary/method-compatibility.ini
    dictionary/method-overloading.ini
    dictionary/method.ini
    dictionary/methodcall.ini

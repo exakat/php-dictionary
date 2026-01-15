@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Absolute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 May 2025 18:12:45 +0000","dateModified":"Mon, 12 May 2025 18:12:45 +0000","description":"An ``absolute`` value is independent from the context in which it operates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Absolute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Absolute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"An ``absolute`` value is independent from the context in which it operates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Absolute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Absolute
@@ -33,8 +33,6 @@ The notion of ``absolute``` has several usages:
 
 The notion of absolute is the opposite of the notion of relative, which depends on a local context.
 
-
-
 .. code-block:: php
    
    <?php
@@ -42,12 +40,12 @@ The notion of absolute is the opposite of the notion of relative, which depends 
    // global namespace
    namespace {
        // first definition
-       function bar() { echo "in the global scope."; }
+       function bar() { echo \in the global scope.\; }
    }
    
    namespace foo{
        // second definition
-       function bar() { echo "in the foo scope."; }
+       function bar() { echo \in the foo scope.\; }
    
        bar(); // relative call: it goes to the second definition
        \bar(); // absolute call: it goes to the first definition

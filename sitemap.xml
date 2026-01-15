@@ -220,6 +220,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_merge.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_walk.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayaccess.ini.html</loc>
  </url>
  <url>
@@ -1357,6 +1360,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/imagick.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickexception.ini.html</loc>
  </url>
  <url>
@@ -1676,6 +1682,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/method-collision.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/method-compatibility.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/method-overloading.ini.html</loc>

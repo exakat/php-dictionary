@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Abstract Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Dec 2025 07:08:57 +0000","dateModified":"Tue, 30 Dec 2025 07:08:57 +0000","description":"PHP has abstract classes, properties and methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Abstract Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"PHP has abstract classes, properties and methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstract Keyword
@@ -38,7 +38,7 @@ PHP has abstract classes, properties and methods. Classes defined as abstract ca
    
        // Common method
        public function printOut() {
-           print $this->getValue() . "\n";
+           print $this->getValue() . \\\n\;
        }
    }
    
@@ -47,6 +47,6 @@ PHP has abstract classes, properties and methods. Classes defined as abstract ca
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_, `Testing Abstract Classes in PHP using Anonymous Classes <https://www.otsch.codes/blog/testing-abstract-classes-in-php-using-anonymous-classes>`_
+See also https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php, https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods, https://www.otsch.codes/blog/testing-abstract-classes-in-php-using-anonymous-classes
 
 Related : :ref:`Final Keyword <final>`, :ref:`Abstraction <abstraction>`, :ref:`Concrete Class <concrete>`, :ref:`Object <object>`, :ref:`Overriding <overriding>`

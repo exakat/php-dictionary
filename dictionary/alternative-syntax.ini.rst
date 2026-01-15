@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Alternative Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 May 2025 05:14:48 +0000","dateModified":"Tue, 13 May 2025 05:14:48 +0000","description":"PHP offers an alternative syntax for some of its control structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Alternative Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Alternative Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"PHP offers an alternative syntax for some of its control structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Alternative Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Alternative Syntax
@@ -29,11 +29,10 @@ PHP offers an alternative syntax for some of its control structures; namely, ``i
    <?php if ($a == 5): ?>
    A is equal to 5
    <?php endif; ?>
-   
 
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-See also `Using Alternative Syntax for Control Structures in PHP to Enhance HTML Integration <https://www.linkedin.com/pulse/using-alternative-syntax-control-structures-php-html-rahman-nadim/>`_
+See also https://www.linkedin.com/pulse/using-alternative-syntax-control-structures-php-html-rahman-nadim/
 
 Related : :ref:`Control Structures <control-structure>`

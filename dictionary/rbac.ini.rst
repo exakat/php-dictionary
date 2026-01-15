@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Role Based Access Control (RBAC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"RBAC (Role-Based Access Control) is a security model used to restrict system access based on user roles","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Role Based Access Control (RBAC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Role Based Access Control (RBAC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:08:03 +0000","dateModified":"Thu, 15 Jan 2026 11:08:03 +0000","description":"RBAC (Role-Based Access Control) is a security model used to restrict system access based on user roles","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Role Based Access Control (RBAC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Role Based Access Control (RBAC)
@@ -26,4 +26,4 @@ RBAC (Role-Based Access Control) is a security model used to restrict system acc
 
 `Documentation <https://en.wikipedia.org/wiki/Role-based_access_control>`__
 
-Related packages : `zizaco/entrust <https://packagist.org/packages/zizaco/entrust>`_, `spatie/laravel-permission <https://packagist.org/packages/spatie/laravel-permission>`_, `casbin/casbin  <https://packagist.org/packages/casbin/casbin >`_
+Related packages : `zizaco/entrust <https://packagist.org/packages/zizaco/entrust>`_, `spatie/laravel-permission <https://packagist.org/packages/spatie/laravel-permission>`_, `casbin/casbin <https://packagist.org/packages/casbin/casbin>`_
