@@ -30,4 +30,4 @@ For example, SAST searches for injections, XSS, path traversal, insecure deseria
 
 See also https://deepsource.com/, https://snyk.io/, https://www.sonarsource.com/products/sonarqube/
 
-Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Cross Site Scripting (XSS) <xss>`, , :ref:`SQL Injection <sql-injection>`, , , , 
+Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`SQL Injection <sql-injection>`, , , , 

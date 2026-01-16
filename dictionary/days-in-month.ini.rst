@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Days In Month","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Jul 2025 17:12:21 +0000","dateModified":"Mon, 28 Jul 2025 17:12:21 +0000","description":"Days in month is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days In Month.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Days In Month","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"Days in month is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days In Month.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Days In Month
@@ -32,7 +32,7 @@ When dealing with months, it is recommended to use expressions like 'first day o
    
    <?php
    
-   echo date('d-m-Y', strtotime("+1 months", strtotime('31 October 2000')));
+   echo date('d-m-Y', strtotime(\+1 months\, strtotime('31 October 2000')));
    
    echo (new DateTime('first day of this month'))->format('jS, F Y');
    echo (new DateTime('next month'))->format('jS, F Y');
@@ -42,6 +42,6 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 `Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
 
-See also `How to Get Number of Days in Current Month in PHP? <https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/>`_
+See also https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/
 
 Related : :ref:`Day Are Not 86400 Seconds <day-in-seconds>`

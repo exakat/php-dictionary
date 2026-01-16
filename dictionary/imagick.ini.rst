@@ -64,4 +64,4 @@ imagick
 
 See also https://phpimagick.com/, https://www.jeeviacademy.com/installing-imagick-for-php-on-aws-ec2-everything-you-need-to-know/
 
-Related : 
+Related : :ref:`Graphic Draw (GD) <gd>`

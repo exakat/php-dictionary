@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 09:52:54 +0000","dateModified":"Thu, 15 Jan 2026 09:52:54 +0000","description":"A collection is an array in which only elements of the same type can be stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 16:59:52 +0000","dateModified":"Fri, 16 Jan 2026 16:59:52 +0000","description":"A collection is an array in which only elements of the same type can be stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Collection
@@ -26,7 +26,7 @@ A collection is an array in which only elements of the same type can be stored.
 
 Collections may be build with array, or dedicated classes. There is native support for collections in PHP, although there are several packages.
 
-See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_, `Illuminate Collections vs PHP Arrays <https://hackernoon.com/illuminate-collections-vs-php-arrays>`_
+See also https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13, https://hackernoon.com/illuminate-collections-vs-php-arrays
 
 Related : :ref:`Enumeration (enum) <enum>`, :ref:`Hash <hash>`, :ref:`Associative Array <associative-array>`, :ref:`Index For Arrays <index-array>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Generics <generics>`
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_REQUEST","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 Jan 2026 12:08:42 +0000","dateModified":"Tue, 13 Jan 2026 12:08:42 +0000","description":"An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_REQUEST.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_REQUEST","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:17:35 +0000","dateModified":"Fri, 16 Jan 2026 17:17:35 +0000","description":"An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_REQUEST.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_REQUEST
@@ -26,10 +26,9 @@ An associative array of variables, transmitted to the current script via the HTT
 
 When the same name is used both in GET and POST method, the priority is defined by the ``variable_order`` directive. 
 
-The received values are all strings or arrays. They are strings by default, and other scalar types needs a casting. The values are arrays when the URL uses the `[]` format. 
+The received values are all strings or arrays. They are strings by default, and other scalar types needs a casting. The values are arrays when the URL uses the ``[]`` format. 
 
-$_REQUEST is a superglobal : it is always available, in every scope.
-
+``$_REQUEST`` is a superglobal : it is always available, in every scope.
 
 .. code-block:: php
    

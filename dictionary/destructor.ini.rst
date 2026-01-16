@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Destructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The destructor is a special method in a class, which is called at shutdown of an object, in order to do any last minute cleaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Destructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Destructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"The destructor is a special method in a class, which is called at shutdown of an object, in order to do any last minute cleaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Destructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Destructor
@@ -27,8 +27,6 @@ The destructor is a special method in a class, which is called at shutdown of an
 Most of the time, the destructor is automatic : removing scalar values may be sufficient. In cases of resources, or other objects, it is recommended to issue the graceful commands to shut them down in turn. 
 
 Destructors are usually called after the end of the script, and will not have access to any display. As such, calls to echo are ineffective.
-
-
 
 .. code-block:: php
    
@@ -42,12 +40,12 @@ Destructors are usually called after the end of the script, and will not have ac
        }
        
        function __destruct() {
-           fwrite($this->file, "End");
+           fwrite($this->file, \End\);
            fclose($this->file);
        }
    }
    
-   $x = new X("/tmp/test.txt");
+   $x = new X(\/tmp/test.txt\);
    unset($x);
    
    ?>
@@ -55,6 +53,6 @@ Destructors are usually called after the end of the script, and will not have ac
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
-See also `Introduction to Destructor in PHP <https://www.educba.com/destructor-in-php/>`_
+See also https://www.educba.com/destructor-in-php/
 
 Related : :ref:`constructor <constructor>`

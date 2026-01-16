@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dependency Injection Container","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A dependency injection container is a tool to make dependency injection easy to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dependency Injection Container.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dependency Injection Container","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"A dependency injection container is a tool to make dependency injection easy to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dependency Injection Container.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dependency Injection Container
@@ -26,10 +26,9 @@ A dependency injection container is a tool to make dependency injection easy to 
 
 The application requests an object of class Foo to the container. The container then build any dependency for that object, then build that object and returns it. 
 
-PSR-11 is related to containers. 
+PSR-11 is related to containers.
 
-
-See also `Dependency Injection (DI) Container in PHP <https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6>`_, `Create PHP Dependency Injection Container and Learn How Laravel Initiate Controller and Method with Dependency and Parameter <https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm>`_, `How and why to use PHP-DI: a PHP dependency injection container <https://getinstance.com/php-dependency-injection/>`_
+See also https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6, https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm, https://getinstance.com/php-dependency-injection/
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`PHP Standards Recommendations (PSR) <psr>`
 

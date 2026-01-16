@@ -32,6 +32,7 @@ List of acronyms, used in this dictionary.
 + :ref:`File Transfert Protocol (FTP) <ftp>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
 + :ref:`Functional Programming <functional-programming>`
++ :ref:`Graphic Draw (GD) <gd>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
@@ -370,6 +371,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`False <false>`
 + :ref:`Floating Point Numbers <float>`
 + :ref:`Iterable <iterable>`
++ :ref:`Literal Types <literal-types>`
 + :ref:`Mixed <mixed>`
 + :ref:`Named Type <named-type>`
 + :ref:`Never Type <never>`

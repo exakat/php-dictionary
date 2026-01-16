@@ -209,6 +209,7 @@ Index
    dictionary/concatenative.ini
    dictionary/concrete-method.ini
    dictionary/concrete.ini
+   dictionary/concurency.ini
    dictionary/condition.ini
    dictionary/conditional-structure.ini
    dictionary/conditioned.ini
@@ -239,6 +240,7 @@ Index
    dictionary/crc32.ini
    dictionary/crud.ini
    dictionary/cryptography.ini
+   dictionary/csrf.ini
    dictionary/csv-injection.ini
    dictionary/csv.ini
    dictionary/ctype.ini
@@ -407,6 +409,7 @@ Index
    dictionary/function.ini
    dictionary/functional-programming.ini
    dictionary/garbage-collection.ini
+   dictionary/gd.ini
    dictionary/generator.ini
    dictionary/generics.ini
    dictionary/get_class.ini
@@ -536,6 +539,7 @@ Index
    dictionary/local-variable.ini
    dictionary/local.ini
    dictionary/locale.ini
+   dictionary/lock.ini
    dictionary/log.ini
    dictionary/logical-operator.ini
    dictionary/logicexception.ini

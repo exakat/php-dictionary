@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Best Practices","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 11 Jan 2026 20:59:42 +0000","dateModified":"Sun, 11 Jan 2026 20:59:42 +0000","description":"Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Best Practices.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Best Practices","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 13:38:50 +0000","dateModified":"Fri, 16 Jan 2026 13:38:50 +0000","description":"Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Best Practices.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Best Practices
@@ -29,6 +29,5 @@ For example, 'comment the code', 'use meaningful names' and 'optimisation is the
 Best practices are often grouped in a ruleset, such as SOLID, DRY or Calisthenics. 
 
 It takes some effort to understand the value of the rules, without running into the errors they protect against.
-
 
 See also https://odan.github.io/2019/12/06/php-best-practice-2019.html, https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f

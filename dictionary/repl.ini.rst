@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Read Eval Print Loop (REPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 16:45:08 +0000","dateModified":"Fri, 27 Jun 2025 16:45:08 +0000","description":"PHP's REPL (Read-Eval-Print Loop) mode is an interactive shell that allows to execute PHP code line by line and see immediate results","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Read Eval Print Loop (REPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Read Eval Print Loop (REPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:29:15 +0000","dateModified":"Fri, 16 Jan 2026 17:29:15 +0000","description":"PHP's REPL (Read-Eval-Print Loop) mode is an interactive shell that allows to execute PHP code line by line and see immediate results","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Read Eval Print Loop (REPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Read Eval Print Loop (REPL)
@@ -45,3 +45,5 @@ This mode is also called the interactive mode. It is started, on command line, b
 See also https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195, https://github.com/borisrepl/boris
 
 Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Readline <readline>`
+
+Related packages : `psy/psysh <https://packagist.org/packages/psy/psysh>`_

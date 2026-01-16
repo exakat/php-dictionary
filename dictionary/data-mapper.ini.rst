@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Data Mapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"A data mapper performs a bidirectional conversion of data, between PHP's OOP representation and a database storage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Data Mapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Data Mapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"A data mapper performs a bidirectional conversion of data, between PHP's OOP representation and a database storage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Data Mapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Data Mapper
@@ -27,12 +27,10 @@ Data Mapper
 
 A data mapper performs a bidirectional conversion of data, between PHP's OOP representation and a database storage. 
 
-The data mapper is responsible for CRUD operations : Create, Read, Update and Delete. 
-
-
+The data mapper is responsible for CRUD operations : Create, Read, Update and Delete.
 
 `Documentation <https://en.wikipedia.org/wiki/Data_mapper_pattern>`__
 
-See also `Data Mapper <https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html>`_, `Doctrine <https://www.doctrine-project.org/>`_, `Cycle ORM <https://github.com/cycle/orm>`_, `How to write a Data Mapper with PHP <https://emre.xyz/how-to-write-a-data-mapper-with-php>`_
+See also https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html, https://www.doctrine-project.org/, https://github.com/cycle/orm, https://emre.xyz/how-to-write-a-data-mapper-with-php
 
 Related : :ref:`Active Record <active-record>`, :ref:`Object Relational Mapping (ORM) <orm>`

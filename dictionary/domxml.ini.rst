@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DOM","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The DOM extension in PHP is an extension that allows developers to work with XML documents using the Document Object Model (DOM) API","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DOM.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DOM","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"The DOM extension in PHP is an extension that allows developers to work with XML documents using the Document Object Model (DOM) API","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DOM.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 DOM
@@ -26,7 +26,6 @@ The DOM extension in PHP is an extension that allows developers to work with XML
 
 The DOM extension provides a tree-based representation of an XML document, where each element, attribute, and text node is represented as an object. This allows developers to traverse and manipulate the XML document easily.
 
-
 .. code-block:: php
    
    <?php
@@ -34,8 +33,8 @@ The DOM extension provides a tree-based representation of an XML document, where
    // from PHP manual : https://www.php.net/manual/en/class.domcomment.php
    
       $xml = new DOMDocument();
-       $xml->loadXML('<?xml version="1.0" encoding="utf-8"?>
-         <configuration version="2">
+       $xml->loadXML('<?xml version=\1.0\ encoding=\utf-8\?>
+         <configuration version=\2\>
          <!-- test &#45;&#45;&gt; -->
          test &#45;&#45;&gt;
          </configuration>'
@@ -55,6 +54,6 @@ The DOM extension provides a tree-based representation of an XML document, where
 
 `Documentation <https://www.php.net/manual/en/book.dom.php>`__
 
-See also `Using PHP DOMDocument: Code Examples Explained <https://www.bitdegree.org/learn/php-domdocument>`_
+See also https://www.bitdegree.org/learn/php-domdocument
 
 Related : :ref:`Extensible Markup Language (XML) <xml>`, :ref:`SimpleXML <simplexml>`, :ref:`XMLReader <xmlreader>`, :ref:`XMLwriter <xmlwriter>`, :ref:`Unicode <unicode>`

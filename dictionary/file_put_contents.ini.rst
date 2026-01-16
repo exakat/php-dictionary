@@ -33,4 +33,4 @@ The function also include options to handle concurrency with locks; to append da
 
 See also https://reintech.io/blog/practical-guide-php-file-put-contents-function, https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html
 
-Related : , , , , , 
+Related : , , , :ref:`Lock <lock>`, :ref:`Concurency <concurency>`, 

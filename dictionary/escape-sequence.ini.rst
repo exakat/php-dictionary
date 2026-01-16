@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 18:29:07 +0000","dateModified":"Fri, 16 Jan 2026 18:29:07 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Escape Sequences
@@ -32,8 +32,8 @@ Here are some examples of escape sequences.
 PHP, in strings: 
   + \n (new line)
   + \t (horizontal tabulation)
-  + "  (double quote, inside a double quoted-string)
-  + "  This is not an escape sequence : single quoted string do not recognize this
+  +   (double quote, inside a double quoted-string)
+  + \  This is not an escape sequence : single quoted string do not recognize this
   + \u{01f418} : a unicode codepoint, representing an elephpant
   + \200 : a character in octal notation
   + \x69 : a character in hexadecimal notation
@@ -42,9 +42,7 @@ HTML :
  + &acute; (a acute accent)
  + &quote; (double quote)
 
-Escape sequences should not be confused with escape characters, though they are related : some escape sequences are introduced by an escape character. Others rely on a format. 
- 
-
+Escape sequences should not be confused with escape characters, though they are related : some escape sequences are introduced by an escape character. Others rely on a format.
 
 .. code-block:: php
    
@@ -55,11 +53,11 @@ Escape sequences should not be confused with escape characters, though they are 
    preg_match('/(.)\1/', $string);
    
    // Displays AA
-   echo "A\101";
+   echo \A\\101\;
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/regexp.reference.escape.php>`__
 
-See also `String literals (MySQL) <https://dev.mysql.com/doc/refman/8.0/en/string-literals.html>`_, `Lexical Structure (PostgreSQL) <https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20.>`_, `INI file <https://en.wikipedia.org/wiki/INI_file.>`_
+See also https://dev.mysql.com/doc/refman/8.0/en/string-literals.html, https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20., https://en.wikipedia.org/wiki/INI_file.

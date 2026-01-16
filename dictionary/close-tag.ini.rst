@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Close Tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"PHP commands are placed between the PHP tags : ``<","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Close Tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Close Tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 16:59:52 +0000","dateModified":"Fri, 16 Jan 2026 16:59:52 +0000","description":"PHP commands are placed between the PHP tags : ``<","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Close Tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Close Tag
@@ -27,7 +27,6 @@ PHP commands are placed between the PHP tags : ``<?php`` and ``?>``.  The second
 Closing tag allow to finish a PHP tag, and switch back to non-interpreted code. The text following the closing tag is then display raw, until the next PHP tag. 
 
 When a file online contains PHP code, the closing tag is not necessary. Its absence even prevents the accidental adding of white space, which create output errors.
-
 
 .. code-block:: php
    
@@ -40,11 +39,10 @@ When a file online contains PHP code, the closing tag is not necessary. Its abse
    // more PHP code
    
    // No final closing tag
-   
 
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-See also `You shouldn't use PHP Closing Tags <https://www.youtube.com/watch?v=mXzUwcDBtkA>`_, `Should You Close PHP Tags? The Debate Continues… <https://www.sitepoint.com/closing-php-tags-debate/>`_
+See also https://www.youtube.com/watch?v=mXzUwcDBtkA, https://www.sitepoint.com/closing-php-tags-debate/
 
 Related : :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`

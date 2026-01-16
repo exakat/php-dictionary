@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 04:48:47 +0000","dateModified":"Thu, 26 Jun 2025 04:48:47 +0000","description":"A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic Call
@@ -26,16 +26,13 @@ A dynamic call happens when part of the syntax comes from a variable, and is not
 
 In PHP, every syntax may use a dynamic call.
 
-
-
 .. code-block:: php
-   
    
    <?php
    
-   $constant = "Name";
+   $constant = \Name\;
    echo constant($constant); 
-   echo constant("someClass::$constant"); 
+   echo constant(\someClass::$constant\); 
    
    $variable = 'a';
    $a = 'b';
@@ -53,9 +50,8 @@ In PHP, every syntax may use a dynamic call.
    echo $object::CONSTANT;
    
    ?>
-   
 
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`__
 
-See also `All the Dynamic Syntaxes in PHP <https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/>`_
+See also https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Operator Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"The operator precedence dictates in which order the operators in a same sequence are executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Operator Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Operator Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 18:24:12 +0000","dateModified":"Fri, 16 Jan 2026 18:24:12 +0000","description":"The operator precedence dictates in which order the operators in a same sequence are executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Operator Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Operator Precedence
@@ -24,13 +24,13 @@ Operator Precedence
 
 The operator precedence dictates in which order the operators in a same sequence are executed. 
 
-For example, in the code `1 + 2 * 3`, the order is the mathematical order : multiplication has precedence over addition. The results is 7, not 9. 
+For example, in the code ``1 + 2 * 3``, the order is the mathematical order : multiplication has precedence over addition. The results is 7, not 9. 
 
-In PHP, operators have different precedence : `.` (dot) has a lower priority than addition `+` and `-`.  
+In PHP, operators have different precedence : ``.`` (dot) has a lower priority than addition ``+`` and ``-``.  
 
 Precedence may lead to unexpected behavior. For example, ``-9 ** 2 == -9``, because ``-`` has lower precedence than ``**``, and PHP doesn't parse negative numbers in one pass. 
 
-Also, `$a = $b & $c;` means that `$a = $b;`, because `=` has a higher priority than `&`.
+Also, ``$a = $b & $c;`` means that ``$a = $b;``, because ``=`` has a higher priority than ``&``.
 
 
 
@@ -54,3 +54,7 @@ Also, `$a = $b & $c;` means that `$a = $b;`, because `=` has a higher priority t
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.precedence.php#language.operators.precedence>`__
+
+See also https://flatcoding.com/tutorials/php/understanding-the-php-operator-precedence/, https://www.dinocajic.com/php-operator-precedence/
+
+Related : :ref:`Operators <operator>`

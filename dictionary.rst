@@ -221,6 +221,7 @@ PHP Dictionary
    * :ref:`Concatenative <concatenative>`
    * :ref:`Concrete Class <concrete>`
    * :ref:`Concrete Method <concrete-method>`
+   * :ref:`Concurency <concurency>`
    * :ref:`Concurent Version System (CVS) <cvs>`
    * :ref:`Condition <condition>`
    * :ref:`Conditional Structures <conditional-structure>`
@@ -249,6 +250,7 @@ PHP Dictionary
    * :ref:`Covariance <type-covariance>`
    * :ref:`Coverage <coverage>`
    * :ref:`Create, Read, Update And Delete (CRUD) <crud>`
+   * :ref:`Cross Site Request Forgery (CSRF) <csrf>`
    * :ref:`Cross Site Scripting (XSS) <xss>`
    * :ref:`Cryptographic Hash <hash-crypto>`
    * :ref:`Cryptography <cryptography>`
@@ -437,6 +439,7 @@ PHP Dictionary
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
    * :ref:`GraphQL <graphql>`
+   * :ref:`Graphic Draw (GD) <gd>`
    * :ref:`get_class() <get_class>`
    * :ref:`gettext Extension <gettext>`
    * :ref:`git <git>`
@@ -555,6 +558,7 @@ PHP Dictionary
    * :ref:`Local Scope <local>`
    * :ref:`Local Variable <local-variable>`
    * :ref:`Locale <locale>`
+   * :ref:`Lock <lock>`
    * :ref:`Log <log>`
    * :ref:`LogicException <logicexception>`
    * :ref:`Logical Operators <logical-operator>`
