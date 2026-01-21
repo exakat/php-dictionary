@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Over-engineer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 07:11:59 +0000","dateModified":"Mon, 21 Apr 2025 07:11:58 +0000","description":"Over-engineering refers to the practice of designing and implementing a solution to a problem that goes beyond what is necessary or exceeds the requirements of the task","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Over-engineer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Over-engineer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:22:11 +0000","dateModified":"Tue, 20 Jan 2026 07:22:11 +0000","description":"Over-engineering refers to the practice of designing and implementing a solution to a problem that goes beyond what is necessary or exceeds the requirements of the task","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Over-engineer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Over-engineer
@@ -26,4 +26,4 @@ Over-engineer
 
 Over-engineering refers to the practice of designing and implementing a solution to a problem that goes beyond what is necessary or exceeds the requirements of the task. It involves adding unnecessary complexity, features, or components to a system, often resulting in increased development time, resource usage, and potential maintenance difficulties.
 
-See also `Overengineering can kill your product <https://www.mindtheproduct.com/overengineering-can-kill-your-product/>`_
+See also https://www.mindtheproduct.com/overengineering-can-kill-your-product/

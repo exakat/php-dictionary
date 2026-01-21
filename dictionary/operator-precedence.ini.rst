@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Operator Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 18:24:12 +0000","dateModified":"Fri, 16 Jan 2026 18:24:12 +0000","description":"The operator precedence dictates in which order the operators in a same sequence are executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Operator Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Operator Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:22:11 +0000","dateModified":"Tue, 20 Jan 2026 07:22:11 +0000","description":"The operator precedence dictates in which order the operators in a same sequence are executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Operator Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Operator Precedence
@@ -32,10 +32,7 @@ Precedence may lead to unexpected behavior. For example, ``-9 ** 2 == -9``, beca
 
 Also, ``$a = $b & $c;`` means that ``$a = $b;``, because ``=`` has a higher priority than ``&``.
 
-
-
 .. code-block:: php
-   
    
    <?php
    
@@ -50,7 +47,6 @@ Also, ``$a = $b & $c;`` means that ``$a = $b;``, because ``=`` has a higher prio
    $b = !$a instanceof aClass;
    
    ?>
-   
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.precedence.php#language.operators.precedence>`__

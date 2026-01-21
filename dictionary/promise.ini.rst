@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Promise","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Promise.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Promise","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Promise.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Promise
@@ -28,9 +28,8 @@ Promises follow the concept of promises in the context of the Promises/A+ specif
 
 In PHP, promises are commonly used with libraries or frameworks that provide asynchronous functionality, such as Guzzle for making HTTP requests or ReactPHP for building asynchronous applications.
 
-
 `Documentation <https://en.wikipedia.org/wiki/Futures_and_promises>`__
 
-See also `Promises in PHP <https://evertpot.com/promises-in-php/>`_, `Using JavaScript-style Promises in PHP <https://www.amitmerchant.com/using-javascript-style-promises-php/>`_, `Pointless Promises in PHP <https://benwendt.ca/articles/pointless-promises-in-php/>`_
+See also https://evertpot.com/promises-in-php/, https://www.amitmerchant.com/using-javascript-style-promises-php/, https://benwendt.ca/articles/pointless-promises-in-php/
 
 Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_, `guzzle/promises <https://packagist.org/packages/guzzle/promises>`_, `react/promises <https://packagist.org/packages/react/promises>`_, `php-http/promise <https://packagist.org/packages/php-http/promise>`_

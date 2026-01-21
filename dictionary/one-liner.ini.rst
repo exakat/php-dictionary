@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","name":"One Liner","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 13:31:30 +0000","dateModified":"Sat, 28 Jun 2025 13:31:30 +0000","description":"A one-liner refers to a concise and often single expression that accomplishes a specific task","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/One Liner.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","name":"One Liner","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:22:11 +0000","dateModified":"Tue, 20 Jan 2026 07:22:11 +0000","description":"A one-liner refers to a concise and often single expression that accomplishes a specific task","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/One Liner.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 One Liner
@@ -29,7 +29,6 @@ One liner are supposed to fit on one line. The line is also supposed to be limit
 One liners tends to pack a lot of operations in one expression. When used aggressively, one liners become less readable, and more complex. 
 
 Some commands have a short and a long syntax, such as ``if-then-else`` and the ternary operator ``condition ? then : else``.
-
 
 .. code-block:: php
    

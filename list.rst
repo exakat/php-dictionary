@@ -18,6 +18,7 @@ Index
    dictionary/$http_raw_post_data.ini
    dictionary/$php_errormsg.ini
    dictionary/$this.ini
+   dictionary/__autoload.ini
    dictionary/__call.ini
    dictionary/__callstatic.ini
    dictionary/__class__.ini
@@ -238,6 +239,7 @@ Index
    dictionary/coupling.ini
    dictionary/coverage.ini
    dictionary/crc32.ini
+   dictionary/cron.ini
    dictionary/crud.ini
    dictionary/cryptography.ini
    dictionary/csrf.ini
@@ -587,6 +589,7 @@ Index
    dictionary/model.ini
    dictionary/module.ini
    dictionary/modulo.ini
+   dictionary/monolith.ini
    dictionary/multi-byte.ini
    dictionary/multidimensional-array.ini
    dictionary/multiplication.ini
@@ -1028,6 +1031,7 @@ Index
    dictionary/webserver.ini
    dictionary/webshell.ini
    dictionary/websocket.ini
+   dictionary/wet.ini
    dictionary/while.ini
    dictionary/whitespace.ini
    dictionary/wither.ini

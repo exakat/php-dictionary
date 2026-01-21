@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 19 Apr 2025 15:11:55 +0000","dateModified":"Sat, 19 Apr 2025 15:11:55 +0000","description":"A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:49 +0000","dateModified":"Mon, 19 Jan 2026 14:11:49 +0000","description":"A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Loops
@@ -28,15 +28,14 @@ The most popular loop is foreach().
 
 Loops may hide in certain functions : for example, array_map() and array_walk() apply a method to every element in an array. 
 
-Generators are closely related to the foreach() loop. 
-
+Generators are closely related to the foreach() loop.
 
 .. code-block:: php
    
    <?php
    
    foreach([11,12,13] as $id => $value) {
-       print "$id => $value\n";
+       print $id => $value\n;
    }
    
    for ($i = 1; $i <= 10; $i++) {
@@ -54,7 +53,6 @@ Generators are closely related to the foreach() loop.
    } while ($i <= 10);
    
    ?>
-   
 
 
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__

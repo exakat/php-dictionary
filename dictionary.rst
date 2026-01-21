@@ -24,6 +24,7 @@ PHP Dictionary
    * :ref:`@, No Scream Operator <noscream>`
 * _
    * :ref:`__CLASS__ <-__class__>`
+   * :ref:`__autoload <-__autoload>`
    * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() Method <-__callStatic>`
    * :ref:`__clone() Method <-__clone>`
@@ -250,6 +251,7 @@ PHP Dictionary
    * :ref:`Covariance <type-covariance>`
    * :ref:`Coverage <coverage>`
    * :ref:`Create, Read, Update And Delete (CRUD) <crud>`
+   * :ref:`Cron <cron>`
    * :ref:`Cross Site Request Forgery (CSRF) <csrf>`
    * :ref:`Cross Site Scripting (XSS) <xss>`
    * :ref:`Cryptographic Hash <hash-crypto>`
@@ -604,6 +606,7 @@ PHP Dictionary
    * :ref:`Model - View - Controller (MVC) <mvc>`
    * :ref:`Module <module>`
    * :ref:`Modulo <modulo>`
+   * :ref:`Monolith <monolith>`
    * :ref:`Multi-byte <multi-byte>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
@@ -1062,6 +1065,7 @@ PHP Dictionary
    * :ref:`World Wide Weab (WWW) <web>`
    * :ref:`Wrapper <wrapper>`
    * :ref:`Writable <writable>`
+   * :ref:`Write Everything Twice (WET) <wet>`
    * :ref:`Writing <writing>`
 * X
    * :ref:`XMLReader <xmlreader>`

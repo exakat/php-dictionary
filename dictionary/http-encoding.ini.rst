@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Encoding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Encoding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Encoding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:57:00 +0000","dateModified":"Sat, 17 Jan 2026 06:57:00 +0000","description":"URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Encoding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTTP Encoding
@@ -36,14 +36,13 @@ URL encoding works by replacing each non-alphanumeric character with a percent s
 
 URL encoding ensures that URLs remain valid and functional across different systems and protocols. It is commonly used in web browsers, HTTP requests, and other internet-related technologies to transmit data safely and reliably. Most programming languages provide built-in functions or libraries to perform URL encoding and decoding operations.
 
-PHP provides urlencode() and urldecode() to handle coding and decoding this format. 
-
+PHP provides urlencode() and urldecode() to handle coding and decoding this format.
 
 .. code-block:: php
    
    <?php
    
-   $text = "This is the Euro symbol '€'.";
+   $text = \This is the Euro symbol €.\;
    
    // builds a valid URL 
    $url = 'https://www.somesite.com/'.urlencode($text);
@@ -55,6 +54,6 @@ PHP provides urlencode() and urldecode() to handle coding and decoding this form
 
 `Documentation <https://en.wikipedia.org/wiki/Percent-encoding>`__
 
-See also `urlencode() <https://www.php.net/urlencode>`_, `urldecode() <https://www.php.net/urldecode>`_
+See also https://www.php.net/urlencode, https://www.php.net/urldecode
 
 Related : :ref:`Text Encoding <text-encoding>`

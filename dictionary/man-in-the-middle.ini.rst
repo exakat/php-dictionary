@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Man In The Middle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A Man-in-the-Middle (MitM) attack is a cyberattack where a malicious actor intercepts and possibly alters communications between two parties without their knowledge","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Man In The Middle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Man In The Middle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:20:47 +0000","dateModified":"Tue, 20 Jan 2026 07:20:47 +0000","description":"A Man-in-the-Middle (MitM) attack is a cyberattack where a malicious actor intercepts and possibly alters communications between two parties without their knowledge","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Man In The Middle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Man In The Middle
@@ -30,6 +30,6 @@ To mitigate the risk of MitM attacks, encryption protocols like SSL/TLS are ofte
 
 `Documentation <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`__
 
-See also `VaultPress - Remote Code Execution via Man in The Middle attack <https://www.securify.nl/en/advisory/vaultpress-remote-code-execution-via-man-in-the-middle-attack/>`_
+See also https://www.securify.nl/en/advisory/vaultpress-remote-code-execution-via-man-in-the-middle-attack/
 
 Related : :ref:`Session Hijacking <session-highjacking>`

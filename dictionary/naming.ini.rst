@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot redeclare foo() (previously declared in file:3).html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot redeclare foo() (previously declared in file:3).html","name":"Naming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"`naming` refers to the process of choosing appropriate names for variables, functions, classes, constants, traits, interfaces, enum, methods, parameters and  any other programming elements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Naming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot redeclare foo() (previously declared in file:3).html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot redeclare foo() (previously declared in file:3).html","name":"Naming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:21:26 +0000","dateModified":"Tue, 20 Jan 2026 07:21:26 +0000","description":"`naming` refers to the process of choosing appropriate names for variables, functions, classes, constants, traits, interfaces, enum, methods, parameters and  any other programming elements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Naming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Naming
@@ -26,6 +26,6 @@ Naming
 
 Good naming practices are essential for writing readable, maintainable, and understandable code. Clear and meaningful names make it easier for developers (including yourself) to understand the purpose and functionality of different parts of the codebase.
 
-See also `Basics of Naming Conventions for PHP Developers <https://www.codementor.io/@veenitchauhan/basics-of-naming-conventions-for-php-developers-eliexmew6>`_
+See also https://www.codementor.io/@veenitchauhan/basics-of-naming-conventions-for-php-developers-eliexmew6
 
 Related : :ref:`Variables <variable>`

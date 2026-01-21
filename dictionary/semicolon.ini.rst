@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Semicolon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 15 Mar 2025 14:16:52 +0000","dateModified":"Sat, 15 Mar 2025 14:16:52 +0000","description":"Semicolon is used to mark the end of a statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semicolon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Semicolon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Semicolon is used to mark the end of a statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semicolon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Semicolon
@@ -30,10 +30,7 @@ Semicolons may also be used instead of colons, in a case statement.
 
 Semicolons may be omitted, before a closing PHP tag.
 
-
-
 .. code-block:: php
-   
    
    <?php
    
@@ -41,7 +38,7 @@ Semicolons may be omitted, before a closing PHP tag.
    
    // multi-statement usage in for()
    for($i = 0, $j = 0; $i < 10; ++$i, ++$j) {
-   	print "$i $j\n";
+   	print $i $j\\n\;
    }
    
    switch($a) {
@@ -56,7 +53,6 @@ Semicolons may be omitted, before a closing PHP tag.
    // semi colon may be omitted before the closing tag.
    $c = 1
    ?>
-   
 
 
 Related : :ref:`Colon <colon>`, :ref:`Switch <switch>`, :ref:`For <for>`, :ref:`Statement <statement>`

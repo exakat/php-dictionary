@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Object Relational Mapping (ORM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 03 Jul 2025 16:30:59 +0000","dateModified":"Thu, 03 Jul 2025 16:30:59 +0000","description":"Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Relational Mapping (ORM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Object Relational Mapping (ORM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:22:11 +0000","dateModified":"Tue, 20 Jan 2026 07:22:11 +0000","description":"Object Relational Mapping is a tool that bridges the OOP world to databases (in general, and SQL in particular)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Relational Mapping (ORM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Object Relational Mapping (ORM)
@@ -30,7 +30,7 @@ PHP has several ORM : Doctrine, Redbean, Eloquent, Propel.
 
 `Documentation <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>`__
 
-See also `PDO in PHP <https://www.php.net/manual/en/intro.pdo.php>`_
+See also https://www.php.net/manual/en/intro.pdo.php
 
 Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, :ref:`Data Mapper <object-mapper>`
 

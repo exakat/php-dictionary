@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relaxed Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"In PHP, relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relaxed Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relaxed Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:48:22 +0000","dateModified":"Wed, 21 Jan 2026 08:48:22 +0000","description":"In PHP, relaxed comparison, also known as loose comparison, is a comparison style that allows for non-strict equality checks between values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relaxed Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Relaxed Comparison
@@ -33,16 +33,14 @@ The contrary to relaxed comparison is the strict comparison, which includes type
 
 Loose comparison is know to have changed significantly in PHP 8.0 : in particular, for special values like 0, empty string '', null and false.
 
-
-
 .. code-block:: php
    
    <?php
    
    //true
-   var_dump(1 == "1");
+   var_dump(1 == \1\);
    //false
-   var_dump(1 === "1");
+   var_dump(1 === \1\);
    
    //false
    var_dump(1 > 'a');
@@ -54,6 +52,6 @@ Loose comparison is know to have changed significantly in PHP 8.0 : in particula
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_
+See also https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/
 
 Related : :ref:`Switch <switch>`, :ref:`Strict Comparison <strict-comparison>`

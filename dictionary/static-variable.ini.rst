@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 16:53:09 +0000","dateModified":"Fri, 27 Jun 2025 16:53:09 +0000","description":"A static variable is a variable that retains its value across multiple function calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"A static variable is a variable that retains its value across multiple function calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Static Variables
@@ -32,8 +32,7 @@ Static variables may be refactored as a global variable or a property.
 
 Static variables may be declared only once, starting with PHP 8.3. Until that version, it is a best practice to only declare them once.
 
-Static variables may use any PHP expressions to define their default value. That value is used when the variable is used for the first time. 
-
+Static variables may use any PHP expressions to define their default value. That value is used when the variable is used for the first time.
 
 .. code-block:: php
    
@@ -53,6 +52,6 @@ Static variables may use any PHP expressions to define their default value. That
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `PHP Static Variables <https://www.scaler.com/topics/static-variable-in-php/>`_
+See also https://brainbell.com/php/static.html, https://www.exakat.io/en/5-usages-of-static-keyword-in-php/, https://www.scaler.com/topics/static-variable-in-php/
 
 Related : :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`, :ref:`global Scope <global>`, :ref:`$GLOBALS <globals>`, :ref:`Local Variable <local-variable>`, :ref:`Superglobal Variables <superglobal>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strict_types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 03 Jan 2026 17:20:12 +0000","dateModified":"Sat, 03 Jan 2026 17:20:12 +0000","description":"strict_types is an execution directive, that makes PHP more strict when applying the types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strict_types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strict_types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"strict_types is an execution directive, that makes PHP more strict when applying the types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strict_types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 strict_types
@@ -25,7 +25,6 @@ strict_types
 strict_types is an execution directive, that makes PHP more strict when applying the types. In particular, it doesn't cast values automatically, but raise an error. 
 
 ``strict_types`` is an option per file, and is set with the declare() function.
-
 
 .. code-block:: php
    
@@ -43,7 +42,7 @@ strict_types is an execution directive, that makes PHP more strict when applying
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict>`__
 
-See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_, `The way declare(strict_types=1) works in PHP <https://dev.to/rocksheep/the-way-stricttypes-works-in-php-eb7>`_, `What is PHP's declare(strict_types=1); and why you should use it <https://backendtea.com/post/php-declare-strict-types/>`_
+See also https://www.phptutorial.net/php-tutorial/php-strict_types/, https://dev.to/rocksheep/the-way-stricttypes-works-in-php-eb7, https://backendtea.com/post/php-declare-strict-types/
 
 Related : :ref:`Type System <type>`, :ref:`declare() <declare>`
 

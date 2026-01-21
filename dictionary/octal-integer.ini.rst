@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Octal Integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 07:12:15 +0000","dateModified":"Mon, 21 Apr 2025 07:12:15 +0000","description":"Integers can be specified in octal (base 8) notation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Octal Integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Octal Integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:22:11 +0000","dateModified":"Tue, 20 Jan 2026 07:22:11 +0000","description":"Integers can be specified in octal (base 8) notation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Octal Integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Octal Integer
@@ -26,7 +26,6 @@ Octal Integer
 Integers can be specified in octal (base 8) notation. Octal integer syntax starts with ``0o`` (zero-o) and only contains digits from 0 to 7.
 
 Initially, octal integers were formatted by simply starting with a initial 0. This features is still available, yet should be replaced with the less confusing syntax with ``0o``.
-
 
 .. code-block:: php
    
@@ -41,6 +40,6 @@ Initially, octal integers were formatted by simply starting with a initial 0. Th
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-See also `PHP 8.1: Explicit Octal numeral notation <https://php.watch/versions/8.1/explicit-octal-notation>`_
+See also https://php.watch/versions/8.1/explicit-octal-notation
 
 Related : :ref:`integer <integer>`, :ref:`Binary Integer <binary-integer>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`, :ref:`Leading Zero Means Octal <leading-zero-means-octal>`

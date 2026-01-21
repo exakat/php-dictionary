@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 04 Jan 2026 21:25:48 +0000","dateModified":"Sun, 04 Jan 2026 21:25:48 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polyfill
@@ -24,12 +24,11 @@ Polyfill
 
 A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features. Polyfills are used to bridge the gap between the capabilities of modern web standards and the limitations of older browsers that might not fully support those standards.
 
-The term "polyfill" is a combination of "poly" (meaning many) and "fill" (meaning to provide what's missing). Essentially, a polyfill "fills in" the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
+The term \polyfill\ is a combination of \poly\ (meaning many) and \fill\ (meaning to provide what's missing). Essentially, a polyfill \fills in\ the missing functionality by replicating the behavior of the modern feature using JavaScript or other technologies, allowing developers to write code using modern APIs and standards without worrying about compatibility with older browsers.
 
 There are polyfills for PHP version, for specific extensions (in case they are not compiled with PHP) or component versions.
 
-There are polyfills available in packagist, like the family of packages ``symfony/polyfill-*``, or manually coded in the sources. 
-
+There are polyfills available in packagist, like the family of packages ``symfony/polyfill-*``, or manually coded in the sources.
 
 .. code-block:: php
    
@@ -47,7 +46,7 @@ There are polyfills available in packagist, like the family of packages ``symfon
 
 `Documentation <https://symfony.com/components/Polyfill%20PHP%208.0>`__
 
-See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_, https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e
+See also https://github.com/symfony/polyfill, https://github.com/Yoast/PHPUnit-Polyfills.git, https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e
 
 Related : 
 

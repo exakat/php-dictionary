@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Superglobal Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:06:01 +0000","dateModified":"Fri, 16 Jan 2026 17:06:01 +0000","description":"PHP superglobal variables are predefined variables that are accessible from any scope within a PHP script without the need for any special syntax or function calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Superglobal Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Superglobal Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"PHP superglobal variables are predefined variables that are accessible from any scope within a PHP script without the need for any special syntax or function calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Superglobal Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Superglobal Variables
@@ -41,7 +41,7 @@ PHP provides several superglobal variables, each serving a specific purpose. Her
 
     $_SESSION: Stores and retrieves session variables, which are used to persist data across multiple requests from the same user.
 
-    $_FILES: Contains information about uploaded files through an HTML form with enctype="multipart/form-data".
+    $_FILES: Contains information about uploaded files through an HTML form with enctype=\multipart/form-data\.
 
     $_ENV: Holds variables passed to the PHP script from the server's environment.
 
@@ -52,7 +52,7 @@ PHP superglobal variables are also called autoglobal, or auto-global, as they ar
    <?php
    
    global $x;
-   $x = "A";
+   $x = \A\;
    
    function counter() {
        echo $GLOBALS['A'];
@@ -65,6 +65,6 @@ PHP superglobal variables are also called autoglobal, or auto-global, as they ar
 
 `Documentation <https://www.php.net/manual/en/language.variables.superglobals.php>`__
 
-See also `What are superglobals in PHP? <https://www.educative.io/answers/what-are-superglobals-in-php>`_
+See also https://www.educative.io/answers/what-are-superglobals-in-php
 
 Related : :ref:`Variables <variable>`, :ref:`Session <session>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`

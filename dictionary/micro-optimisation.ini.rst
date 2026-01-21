@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Micro-optimisation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 08:37:05 +0000","dateModified":"Sat, 28 Jun 2025 08:37:05 +0000","description":"A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Micro-optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Micro-optimisation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:20:47 +0000","dateModified":"Tue, 20 Jan 2026 07:20:47 +0000","description":"A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Micro-optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Micro-optimisation
@@ -29,7 +29,6 @@ Micro-optimisation should be done only for highly constraints systems, or applic
 Yet, micro-optimisations may be valuable on the long run, or as a good practice. 
 
 It is often a pointless to discuss the micro-optimisation. It is a do or don't, and should raise a consensus, or left alone.
-
 
 .. code-block:: php
    
@@ -48,4 +47,4 @@ It is often a pointless to discuss the micro-optimisation. It is a do or don't, 
 
 `Documentation <https://en.wiktionary.org/wiki/micro-optimization>`__
 
-See also `25 Easy PHP7 Micro-Optimizations <https://blobfolio.com/2017/25-easy-php7-micro-optimizations/>`_, `What are compiler optimized internal PHP functions and should you import them via use statement? <https://tideways.com/profiler/blog/compiler-optimized-php-functions/>`_
+See also https://blobfolio.com/2017/25-easy-php7-micro-optimizations/, https://tideways.com/profiler/blog/compiler-optimized-php-functions/

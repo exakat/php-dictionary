@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Profiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Profiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Profiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Profiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Profiler
@@ -25,8 +25,6 @@ PHP Profiler
 A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation.
 
 PHP has several profilers. They may provide an online interface to visualize the results, or a local server, or even a raw execution breakdown, which may then be processed to identify the bottlenecks.
- 
-
 
 .. code-block:: php
    
@@ -48,6 +46,6 @@ PHP has several profilers. They may provide an online interface to visualize the
 
 `Documentation <https://en.wikipedia.org/wiki/Profiling_(computer_programming)>`__
 
-See also `BlackFire <https://www.blackfire.io/php/>`_, `gProfiler <https://gprofiler.io/>`_, `PHP-profiler <https://github.com/perftools/php-profiler.git>`_, `PHP-reli <https://github.com/reliforp/reli-prof.git>`_, `XHprof <https://www.php.net/manual/en/book.xhprof.php>`_, `Xdebug <https://www.xdebug.org/>`_
+See also https://www.blackfire.io/php/, https://gprofiler.io/, https://github.com/perftools/php-profiler.git, https://github.com/reliforp/reli-prof.git, https://www.php.net/manual/en/book.xhprof.php, https://www.xdebug.org/
 
 Related : :ref:`Debugger <debugger>`

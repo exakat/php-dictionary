@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","name":"Semantic Versioning","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Sep 2025 19:59:48 +0000","dateModified":"Mon, 15 Sep 2025 19:59:48 +0000","description":"Semantic Versioning is a version numbering scheme that encodes meaning about the changes in each release","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semantic Versioning.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","name":"Semantic Versioning","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Semantic Versioning is a version numbering scheme that encodes meaning about the changes in each release","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semantic Versioning.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Semantic Versioning
@@ -35,7 +35,6 @@ Optionally, there is also:
 
 + Pre-release tags: 1.0.0-alpha, 1.0.0-beta.2.
 + Build metadata: 1.0.0+20230930.
-
 
 `Documentation <https://semver.org/>`__
 

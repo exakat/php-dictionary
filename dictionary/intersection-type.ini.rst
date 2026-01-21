@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Dec 2025 07:09:14 +0000","dateModified":"Tue, 30 Dec 2025 07:09:14 +0000","description":"Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:17 +0000","dateModified":"Mon, 19 Jan 2026 14:11:17 +0000","description":"Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Intersection Type
@@ -28,8 +28,7 @@ Intersection types, also called intersectional types, is a specification syntax 
 
 The value typed with an intersection type must satisfy all the types at the same time. 
 
-Intersection types don't work with scalar values, which are excluding one another. It works with polymorphism, where one object may be of several types at the same time, when implementing interfaces. 
-
+Intersection types don't work with scalar values, which are excluding one another. It works with polymorphism, where one object may be of several types at the same time, when implementing interfaces.
 
 .. code-block:: php
    
@@ -46,7 +45,7 @@ Intersection types don't work with scalar values, which are excluding one anothe
 
 `Documentation <https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite.intersection>`__
 
-See also `How the New Intersection Types in PHP 8.1 Give You More Flexibility <https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/>`_
+See also https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/
 
 Related : :ref:`Type System <type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Named Type <named-type>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`
 

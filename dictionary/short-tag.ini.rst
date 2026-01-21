@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Short Tags","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 15:18:05 +0000","dateModified":"Sat, 28 Jun 2025 15:18:05 +0000","description":"PHP uses special tags to identify code that has to be executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Short Tags.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Short Tags","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"PHP uses special tags to identify code that has to be executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Short Tags.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Short Tags
@@ -29,8 +29,7 @@ Short tags may be disabled in PHP configuration, with the ``short_open_tag`` dir
 
 Short tags are different from echo tags : those tags immediately display data.
 
-From the manual : As short tags can be disabled it is recommended to only use the normal tags (<?php ?> and <?= ?>) to maximise compatibility. 
-
+From the manual : As short tags can be disabled it is recommended to only use the normal tags (<?php ?> and <?= ?>) to maximise compatibility.
 
 .. code-block:: php
    
@@ -48,6 +47,6 @@ From the manual : As short tags can be disabled it is recommended to only use th
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/deprecate_php_short_tags_v2>`_
+See also https://wiki.php.net/rfc/deprecate_php_short_tags_v2
 
 Related : :ref:`PHP Tags <php-tag>`, :ref:`Echo Tag <echo-tag>`, :ref:`Open Tag <open-tag>`

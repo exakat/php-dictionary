@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Jun 2025 05:03:29 +0000","dateModified":"Thu, 26 Jun 2025 05:03:29 +0000","description":"Scalar types refer to the basic data types that hold a single value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Scalar types refer to the basic data types that hold a single value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Scalar Types
@@ -37,8 +37,7 @@ String  (``string``): strings are sequences of characters enclosed in quotes (si
 
 Boolean  (``bool``): booleans have two possible values: true or false. 
 
-Note that ``null`` is not considered a scalar type, and is often behaving differently. 
-
+Note that ``null`` is not considered a scalar type, and is often behaving differently.
 
 .. code-block:: php
    
@@ -55,7 +54,7 @@ Note that ``null`` is not considered a scalar type, and is often behaving differ
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield>`__
 
-See also `PHP 7 Scalar Type Declaration <https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration>`_
+See also https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration
 
 Related : :ref:`Type System <type>`, :ref:`Special Types <special-type>`, :ref:`String <string>`, :ref:`Boolean <boolean>`, :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Alias Types <alias-types>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Literal Types <literal-types>`, :ref:`Primitive Obsession <primitive-obsession>`, :ref:`Relative Types <relative-types>`
 

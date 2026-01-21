@@ -17,13 +17,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","name":"OOP (Object Oriented Programming)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Jun 2025 16:10:21 +0000","dateModified":"Fri, 27 Jun 2025 16:10:21 +0000","description":"Procedural Programming is a programming paradigm where a program is structured as a series of step-by-step instructions, using procedures (functions) and control flow statements like loops, conditionals, and function calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OOP (Object Oriented Programming).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Invalid Numeric Literal.html","name":"OOP (Object Oriented Programming)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:22:11 +0000","dateModified":"Tue, 20 Jan 2026 07:22:11 +0000","description":"Procedural Programming is a programming paradigm where a program is structured as a series of step-by-step instructions, using procedures (functions) and control flow statements like loops, conditionals, and function calls","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OOP (Object Oriented Programming).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OOP (Object Oriented Programming)
 ---------------------------------
 
-Procedural Programming is a programming paradigm where a program is structured as a series of step-by-step instructions, using procedures (functions) and control flow statements like loops, conditionals, and function calls. It focuses on "what to do next", in a sequential, top-down manner.
+Procedural Programming is a programming paradigm where a program is structured as a series of step-by-step instructions, using procedures (functions) and control flow statements like loops, conditionals, and function calls. It focuses on \what to do next\, in a sequential, top-down manner.
 
 PHP supports functions and global variables needed for Functional programming.
 

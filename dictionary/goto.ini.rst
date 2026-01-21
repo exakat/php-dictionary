@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Goto","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 Aug 2025 17:07:41 +0000","dateModified":"Wed, 06 Aug 2025 17:07:41 +0000","description":"The goto operator PHP is a language construct that allows you to perform an unconditional jump in the flow of your code to a specified label","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Goto.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Goto","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:56:44 +0000","dateModified":"Sat, 17 Jan 2026 06:56:44 +0000","description":"The goto operator PHP is a language construct that allows you to perform an unconditional jump in the flow of your code to a specified label","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Goto.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Goto
@@ -30,9 +30,7 @@ Some legit uses of goto in PHP include breaking out of nested loops, implementin
 
 The target label must be within the same file and context, meaning that you cannot jump out of a function or method, nor can you jump into one.
 
-
 .. code-block:: php
-   
    
    <?php
    goto a;
@@ -41,12 +39,11 @@ The target label must be within the same file and context, meaning that you cann
    a:
    echo 'Bar';
    ?>
-   
 
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-See also `GoTo statement in PHP <https://www.thecreativedev.com/goto-statement-in-php/>`_, `Why PHP, goto, and bubblesort, are good, actually <https://topher.io/writing/why-php-goto-and-bubblesort-are-good/>`_
+See also https://www.thecreativedev.com/goto-statement-in-php/, https://topher.io/writing/why-php-goto-and-bubblesort-are-good/
 
 Related : :ref:`Goto Labels <label>`, :ref:`Colon <colon>`
 

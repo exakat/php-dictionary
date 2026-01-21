@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 13 Sep 2025 09:29:47 +0000","dateModified":"Sat, 13 Sep 2025 09:29:47 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Serialization
@@ -38,9 +38,7 @@ Common serialization formats include JSON (JavaScript Object Notation), XML (eXt
 
 Deserialization, also known as unserialization, is the reverse process, where the serialized data is converted back into its original form, such as objects or data structures, so that it can be used and manipulated within a program.
 
-In PHP, there are different ways to implement serialization. The native way is to rely on the serialize() and unserialize(), which, in turn, rely on the __serialize() and __unserialize() magic method. Then, var_export() and require() make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues. 
-
-
+In PHP, there are different ways to implement serialization. The native way is to rely on the serialize() and unserialize(), which, in turn, rely on the __serialize() and __unserialize() magic method. Then, var_export() and require() make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues.
 
 .. code-block:: php
    
@@ -60,7 +58,7 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 `Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
 
-See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `Understanding Serialisation in PHP <https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php>`_, `ProtoBuf in PHP for ultra-efficient and agnostic serialization <https://blog.lepine.pro/en/protobuf-php-go/>`_, https://ashallendesign.co.uk/blog/php-serialization
+See also https://peakd.com/hive-168588/@crell/benchmarking-serialization, https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php, https://blog.lepine.pro/en/protobuf-php-go/, https://ashallendesign.co.uk/blog/php-serialization
 
 Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`
 

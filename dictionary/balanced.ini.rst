@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Balanced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 19:43:58 +0000","dateModified":"Fri, 16 Jan 2026 19:43:58 +0000","description":"A pair of token is balanced when the opening token has a corresponding unique closing token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Balanced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Balanced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:24:01 +0000","dateModified":"Wed, 21 Jan 2026 16:24:01 +0000","description":"A pair of token is balanced when the opening token has a corresponding unique closing token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Balanced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Balanced
@@ -46,10 +46,12 @@ Closing tokens are assigned to the last opening token: in case of mismatch, it p
    
    <?php
    
-   $x = ([; // This is a syntax error.
+   // This is a syntax error.
+   // $x = ([; 
    
    $y = '])(['; // this is OK inside quotes
-   $y = {$x; // the curly brackets must be balanced when they enclose a variable or valid PHP expression.
+   // the curly brackets must be balanced when they enclose a variable or valid PHP expression.
+   // $y = "{$x"; 
    
    ?>
 

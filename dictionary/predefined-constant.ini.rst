@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Predefined Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Sep 2025 20:01:10 +0000","dateModified":"Fri, 19 Sep 2025 20:01:10 +0000","description":"Predefined constants are PHP native constants, available at the start of the PHP engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Predefined Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Predefined Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"Predefined constants are PHP native constants, available at the start of the PHP engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Predefined Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Predefined Constants
@@ -30,18 +30,17 @@ Other constants come from extensions : for example, the Math extension defines M
 
 The list of all the defined constants is available with the ``get_defined_constants()`` function.
 
-
 .. code-block:: php
    
    <?php
    
-   echo "This is PHP ".PHP_VERSION;
+   echo \This is PHP \.PHP_VERSION;
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
 
-See also `Understanding PHP Predefined Constants <https://dev.to/patricia1988hernandez2/understanding-php-predefined-constants-6db>`_
+See also https://dev.to/patricia1988hernandez2/understanding-php-predefined-constants-6db
 
 Related : :ref:`Constants <constant>`

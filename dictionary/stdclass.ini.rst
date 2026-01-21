@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"stdclass","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Dec 2025 06:04:30 +0000","dateModified":"Tue, 02 Dec 2025 06:04:30 +0000","description":"Stdclass is a native PHP class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/stdclass.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"stdclass","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Stdclass is a native PHP class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/stdclass.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 stdclass
@@ -24,8 +24,7 @@ stdclass
 
 Stdclass is a native PHP class. It is the class used when a generic object is created, for example with json_decode() or the (object) cast operator.
 
-The stdClass is allowed to create dynamic properties on the fly, as its base definition has none. 
-
+The stdClass is allowed to create dynamic properties on the fly, as its base definition has none.
 
 .. code-block:: php
    
@@ -39,7 +38,7 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
            $this->a = 1;
            
            // dynamic property with variable name 
-           $b = "abc";
+           $b = \abc\;
            $this->$b = 1; 
            
            // static property
@@ -52,6 +51,6 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
 
 `Documentation <https://www.php.net/manual/en/language.types.object.php#language.types.object.casting>`__
 
-See also `Quick way to create a PHP stdClass <https://www.simonholywell.com/post/2016/11/quick-way-to-create-php-stdclass/>`_
+See also https://www.simonholywell.com/post/2016/11/quick-way-to-create-php-stdclass/
 
 Related : :ref:`Properties <property>`, :ref:`Dynamic Properties <dynamic-property>`

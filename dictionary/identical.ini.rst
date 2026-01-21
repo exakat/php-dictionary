@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Identical Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 11 Dec 2025 20:20:51 +0000","dateModified":"Thu, 11 Dec 2025 20:20:51 +0000","description":"Identical is the state of two variables, which contains the same data, with the same type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Identical Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Identical Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:17 +0000","dateModified":"Mon, 19 Jan 2026 14:11:17 +0000","description":"Identical is the state of two variables, which contains the same data, with the same type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Identical Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Identical Operator
@@ -27,13 +27,12 @@ Identical is the state of two variables, which contains the same data, with the 
 
 Identical operators are ``===``, `!==`. The match() command also uses identical comparisons.
 
-
 .. code-block:: php
    
    <?php
    
-   var_dump(0 == "0000"); // true
-   var_dump(0 === "0");   // false
+   var_dump(0 == \0000\); // true
+   var_dump(0 === \0\);   // false
    var_dump(0 === 0);     // true
    
    ?>
@@ -41,6 +40,6 @@ Identical operators are ``===``, `!==`. The match() command also uses identical 
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also `How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ? <https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/>`_
+See also https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/
 
 Related : :ref:`Comparison <comparison-operator>`, :ref:`Equal Operator <equal>`

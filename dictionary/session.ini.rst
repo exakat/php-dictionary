@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Session","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 10 Sep 2025 09:17:42 +0000","dateModified":"Wed, 10 Sep 2025 09:17:42 +0000","description":"Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Session.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Session","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Session.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Session
@@ -33,17 +33,17 @@ It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal vari
    <?php
    
    if (isset($_SESSION['x'])) {
-       print "x was already set with the value ".$_SESSION['x'];
+       print \x was already set with the value \.$_SESSION['x'];
    }
    
    $_SESSION['x'] = rand(0, 10);
-   print "Giving the value ".$_SESSION['x']." to x, in the session\n";
+   print \Giving the value \.$_SESSION['x'].\to x, in the session\\n\;
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/book.session.php>`__
 
-See also `Session in PHP: Creating, Destroying, and Working With Session in PHP <https://www.simplilearn.com/tutorials/php-tutorial/session-in-php>`_, https://dev.to/ahmedraza_fyntune/php-session-security-4c60, https://phpforever.com/php/fixing-php-session-issues-troubleshooting-and-solutions/
+See also https://www.simplilearn.com/tutorials/php-tutorial/session-in-php, https://dev.to/ahmedraza_fyntune/php-session-security-4c60, https://phpforever.com/php/fixing-php-session-issues-troubleshooting-and-solutions/
 
 Related : :ref:`Superglobal Variables <superglobal>`

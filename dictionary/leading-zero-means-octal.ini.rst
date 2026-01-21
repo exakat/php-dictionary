@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Leading Zero Means Octal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Jul 2025 17:13:53 +0000","dateModified":"Mon, 28 Jul 2025 17:13:53 +0000","description":"PHP integer syntax has some special formats for binary, octal and hexadecimal formats","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Leading Zero Means Octal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Leading Zero Means Octal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:49 +0000","dateModified":"Mon, 19 Jan 2026 14:11:49 +0000","description":"PHP integer syntax has some special formats for binary, octal and hexadecimal formats","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Leading Zero Means Octal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Leading Zero Means Octal
@@ -26,8 +26,7 @@ PHP integer syntax has some special formats for binary, octal and hexadecimal fo
 
 In PHP 8.0, a new notation with an 0 was introduced : it makes the octal format just as explicit as the binary or the hexadecimal one. 
 
-Octals are mainly used with the mkdir() function, and special math domains. 
-
+Octals are mainly used with the mkdir() function, and special math domains.
 
 .. code-block:: php
    
@@ -45,6 +44,6 @@ Octals are mainly used with the mkdir() function, and special math domains.
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-See also `PHP 8.1: Explicit Octal numeral notation <https://php.watch/versions/8.1/explicit-octal-notation>`_
+See also https://php.watch/versions/8.1/explicit-octal-notation
 
 Added in PHP 8.1

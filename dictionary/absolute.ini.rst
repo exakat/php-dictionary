@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Absolute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:23:36 +0000","dateModified":"Fri, 16 Jan 2026 17:23:36 +0000","description":"An ``absolute`` value is independent from the context in which it operates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Absolute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Absolute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:10:31 +0000","dateModified":"Wed, 21 Jan 2026 16:10:31 +0000","description":"An ``absolute`` value is independent from the context in which it operates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Absolute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Absolute
@@ -40,12 +40,16 @@ The notion of absolute is the opposite of the notion of relative, which depends 
    // global namespace
    namespace {
        // first definition
-       function bar() { echo \in the global scope.\; }
+       function bar() { 
+           echo 'in the global scope.';
+       }
    }
    
    namespace foo{
        // second definition
-       function bar() { echo \in the foo scope.\; }
+       function bar() { 
+           echo 'in the foo scope.';
+       }
    
        bar(); // relative call: it goes to the second definition
        \bar(); // absolute call: it goes to the first definition
@@ -55,4 +59,4 @@ The notion of absolute is the opposite of the notion of relative, which depends 
    ?>
 
 
-Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Absolute Value <absolute-value>`, :ref:`Path <path>`, :ref:`Relative <relative>`
+Related : :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Absolute Value <absolute-value>`, :ref:`Path <path>`, :ref:`Relative <relative>`, 

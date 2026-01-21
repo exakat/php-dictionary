@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_POST","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:08:11 +0000","dateModified":"Fri, 16 Jan 2026 17:08:11 +0000","description":"``$_POST`` is an associative array of variables, transmitted to the current script via the HTTP POST method, with the MIME types ``application\/x-www-form-urlencoded`` or ``multipart\/form-data``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_POST.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_POST","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 15:54:35 +0000","dateModified":"Wed, 21 Jan 2026 15:54:35 +0000","description":"``$_POST`` is an associative array of variables, transmitted to the current script via the HTTP POST method, with the MIME types ``application\/x-www-form-urlencoded`` or ``multipart\/form-data``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_POST.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_POST
@@ -42,7 +42,7 @@ Values inside ``$_POST`` are always strings, or arrays.
    
    // POST z[]=def
    // POST z[]=ghi
-   $_POST['z'] === array('def', 'ghi');
+   $_POST['z'] === ['def', 'ghi'];
    
    ?>
 

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asynchronous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asynchronous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asynchronous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:22:16 +0000","dateModified":"Wed, 21 Jan 2026 16:22:16 +0000","description":"Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asynchronous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Asynchronous
@@ -34,11 +34,11 @@ There are various libraries and frameworks available for implementing asynchrono
    function async_task($data) {
        // Simulate some asynchronous task, like fetching data from an API
        usleep(1000000); // Sleep for 1 second to mimic a time-consuming task
-       return Processed data: $data;
+       return "Processed data: $data";
    }
    
    $fiber = new Fiber(function () {
-       $data = Some data to process;
+       $data = "Some data to process";
        $result = async_task($data);
        Fiber::suspend($result); // Suspend the fiber and yield the result
    });
@@ -47,11 +47,11 @@ There are various libraries and frameworks available for implementing asynchrono
    $fiber->start();
    
    // Main program can continue execution while the fiber runs asynchronously
-   echo Main program continues...\n;
+   echo "Main program continues...\n";
    
    // Resume the fiber and get the result
    $result = $fiber->resume();
-   echo Fiber result: $result\n;
+   echo "Fiber result: $result\n";
    
    ?>
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Finally","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Finally is the default clause of a try-catch expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Finally","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:56:36 +0000","dateModified":"Sat, 17 Jan 2026 06:56:36 +0000","description":"Finally is the default clause of a try-catch expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Finally
@@ -24,9 +24,7 @@ Finally
 
 Finally is the default clause of a try-catch expression. It is run after all the catch clauses have been called.
 
-Finally is run every time after a try, with or without any catch clause. It is also run before the return expression, if any. 
-
-
+Finally is run every time after a try, with or without any catch clause. It is also run before the return expression, if any.
 
 .. code-block:: php
    
@@ -35,9 +33,9 @@ Finally is run every time after a try, with or without any catch clause. It is a
    try{
        doSomething();
    } catch (\Exception $e) {
-       print "An exception was raised and caught";
+       print \An exception was raised and caught\;
    } finally {
-       print "Finally\n";
+       print \Finally\\n\;
    }
    
    ?>
@@ -45,7 +43,7 @@ Finally is run every time after a try, with or without any catch clause. It is a
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally>`__
 
-See also `How to use Try - Catch - Finally in PHP  <https://thecodeprogram.com/how-to-use-try---catch---finally-in-php>`_
+See also https://thecodeprogram.com/how-to-use-try---catch---finally-in-php
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Catch <catch>`
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 15:57:51 +0000","dateModified":"Wed, 21 Jan 2026 15:57:51 +0000","description":"Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Simple Query Language (SQL)
@@ -24,18 +24,17 @@ Simple Query Language (SQL)
 
 Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS).
 
-PHP supports several RDBMS natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC. PHP also offers a database abstraction layer, called PDO. 
-
+PHP supports several RDBMS natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC. PHP also offers a database abstraction layer, called PDO.
 
 .. code-block:: php
    
    <?php
    
    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-   $mysqli = new mysqli("example.com", "user", "password", "database");
+   $mysqli = new mysqli(example.com, user, password, database);
    
-   $mysqli->query("DROP TABLE IF EXISTS test");
-   $mysqli->query("CREATE TABLE test(id INT)");
+   $mysqli->query(DROP TABLE IF EXISTS test);
+   $mysqli->query(CREATE TABLE test(id INT));
    
    ?>
 

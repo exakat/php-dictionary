@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 13 Jan 2026 10:58:44 +0000","dateModified":"Tue, 13 Jan 2026 10:58:44 +0000","description":"A new-line ``\\n`` (invisible) character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:21:26 +0000","dateModified":"Tue, 20 Jan 2026 07:21:26 +0000","description":"A new-line ``\\n`` (invisible) character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 New Line
@@ -34,8 +34,8 @@ It was possible to use new lines within a namespace name, until PHP 8.0. This is
    
    <?php
    
-   $string = "one new line
-   another new line\nAnd then another new line" . PHP_EOL
+   $string = one new line
+   another new line\nAnd then another new line . PHP_EOL
    
    ?>
 

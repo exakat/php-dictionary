@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pagination","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pagination.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pagination","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pagination.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pagination
@@ -27,6 +27,6 @@ Pagination is a technique used in web development to break down and display a la
 
 `Documentation <https://en.wikipedia.org/wiki/Pagination>`__
 
-See also `PHP Pagination <https://www.javatpoint.com/php-pagination>`_, `What is Pagination in PHP? Understanding The Fundamentals <https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php>`_
+See also https://www.javatpoint.com/php-pagination, https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php
 
 Related packages : `pagerfanta/pagerfanta <https://packagist.org/packages/pagerfanta/pagerfanta>`_, `illuminate/pagination <https://packagist.org/packages/illuminate/pagination>`_, `knplabs/knp-paginator-bundle <https://packagist.org/packages/knplabs/knp-paginator-bundle>`_

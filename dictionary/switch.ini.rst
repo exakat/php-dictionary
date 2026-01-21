@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The ``switch`` expression branches evaluation based on an equality check of a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"The ``switch`` expression branches evaluation based on an equality check of a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Switch
@@ -28,7 +28,6 @@ The ``switch`` expression branches evaluation based on an equality check of a va
 Each case is an expression, and shall be used that way. 
 
 ``switch`` use a relaxed comparison between the parameter value and the case values. This means that some type juggling happens, and some literals might behave as identical.
-
 
 .. code-block:: php
    
@@ -66,7 +65,7 @@ Each case is an expression, and shall be used that way.
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
-See also `Compact switch alternative <https://tomlankhorst.nl/compact-switch-alternative-php/>`_, `PHP switch best practices <https://www.exakat.io/well-structured-switch-command-in-php/>`_
+See also https://tomlankhorst.nl/compact-switch-alternative-php/, https://www.exakat.io/well-structured-switch-command-in-php/
 
 Related : :ref:`Match <match>`, :ref:`Default <default>`, :ref:`Strict Comparison <strict-comparison>`, :ref:`Simple Switch <simple-switch>`, :ref:`If Then Else <if-then>`, :ref:`Break <break>`, :ref:`Case <case>`, :ref:`Comparison <comparison>`, :ref:`Conditional Structures <conditional-structure>`, :ref:`Control Flow <control-flow>`, :ref:`Relaxed Comparison <relaxed-comparison>`, :ref:`Semicolon <semicolon>`, :ref:`Switch Case <switch-case>`, :ref:`Switch Default <switch-default>`
 

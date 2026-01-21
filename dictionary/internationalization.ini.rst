@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Internationalization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Internationalization is the process to make the human interface of a program in a local language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Internationalization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Internationalization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:17 +0000","dateModified":"Mon, 19 Jan 2026 14:11:17 +0000","description":"Internationalization is the process to make the human interface of a program in a local language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Internationalization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Internationalization
@@ -33,7 +33,6 @@ Most of the interface translations for application is done with specific compone
 
 Internationalization is also called `i18n`, aka i, 18 letters and n. This is shorter to write. This word may be written with a z or an s, depending on the flavor of English being used.
 
-
 .. code-block:: php
    
    <?php
@@ -41,13 +40,13 @@ Internationalization is also called `i18n`, aka i, 18 letters and n. This is sho
    setlocale(LC_ALL, 'nl_NL');
    
    /* Affiche : vrijdag 22 december 1978 */
-   echo strftime("%A %e %B %Y", mktime(0, 0, 0, 12, 22, 1978));
+   echo strftime(\%A %e %B %Y\, mktime(0, 0, 0, 12, 22, 1978));
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/book.intl.php>`__
 
-See also `PHP internationalization - i18n mechanisms tutorial <https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial>`_, `Implementing PHP localization: A complete guide <https://lokalise.com/blog/implementing-php-localization-complete-guide/>`_
+See also https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial, https://lokalise.com/blog/implementing-php-localization-complete-guide/
 
 Related : :ref:`Locale <locale>`, :ref:`Internationalization Functions <intl>`

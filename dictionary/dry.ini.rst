@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"Don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 09:22:40 +0000","dateModified":"Tue, 20 Jan 2026 09:22:40 +0000","description":"Don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Don't Repeat Yourself (DRY)
@@ -31,3 +31,5 @@ This principle is also known as Duplication is Evil. Its nemesis is WET : Write 
 `Documentation <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
 
 See also https://en.wikipedia.org/wiki/The_Pragmatic_Programmer, https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/
+
+Related : :ref:`Write Everything Twice (WET) <wet>`

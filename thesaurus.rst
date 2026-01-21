@@ -64,6 +64,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
++ :ref:`Simple Query Language (SQL) <sql>`
 + :ref:`Single Page Application (SPA) <spa>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Single Sign On (SSO) <sso>`
@@ -78,6 +79,7 @@ List of acronyms, used in this dictionary.
 + :ref:`User Operations For Zend (UOPZ) <uopz>`
 + :ref:`Value Object (VO) <vo>`
 + :ref:`World Wide Weab (WWW) <web>`
++ :ref:`Write Everything Twice (WET) <wet>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
 + :ref:`ransport Layer Security (TLS) <tls>`
 
