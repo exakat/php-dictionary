@@ -2142,15 +2142,10 @@ writing output... [100%] introduction
 writing output... [100%] list
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary/password.ini.rst:33: WARNING: Lexing literal_block "<?php\n\n$ftp_server = ftp.example.com;\n$ftp_user = foo;\n$ftp_pass = bar;\n\n// Mise en place d'une connexion basique\n$ftp = ftp_connect($ftp_server) or die(Couldn't connect to $ftp_server);\n\n?>" as "php" resulted in an error at token: "'". Retrying in relaxed mode. [misc.highlighting_failure]
-/Users/famille/Desktop/php-dictionary/dictionary/shared-memory.ini.rst:27: WARNING: Lexing literal_block "<?php\n\n// adapted from the PHP manual : https://www.php.net/manual/en/shmop.examples-basic.php\n// Create 100 byte shared memory block with system id of 0xff3\n$shm_id = shmop_open(0xff3, c, 0644, 100);\nif (!$shm_id) {\n    echo Couldn't create shared memory segment\\n;\n}\n\n// Lets write a test string into shared memory\n$shm_bytes_written = shmop_write($shm_id, my shared memory block, 0);\nif ($shm_bytes_written != strlen(my shared memory block)) {\n    echo Couldn't write the entire length of data\\n;\n}\n\n// Now lets read the string back\n//\n$my_string = shmop_read($shm_id, 0, $shm_size);\nif (!$my_string) {\n    echo Couldn't read from shared memory block\\n;\n}\necho The data inside shared memory was:  . $my_string . \\n;\n\n?>" as "php" resulted in an error at token: "'". Retrying in relaxed mode. [misc.highlighting_failure]
-/Users/famille/Desktop/php-dictionary/dictionary/spl.ini.rst:31: WARNING: Lexing literal_block "<?php\n\n// SPL and autoloading\nspl_autoload_register(function ($class) {\n    include 'classes/' . $class . '.class.php';\n});\n\nif ($object instanceof Countable) {\n    $count = count($object);\n} elseif ($object instanceof Traversable)\n    $count = iterator_count($object);\n} else {\n    print Can't count this;\n}\n\n?>" as "php" resulted in an error at token: "'". Retrying in relaxed mode. [misc.highlighting_failure]
-/Users/famille/Desktop/php-dictionary/dictionary/sprintf.ini.rst:35: WARNING: Lexing literal_block "<?php\n\n// displays 123 with 9 characters, and fills with dots any empty characters\n// ......123\necho sprintf(%'.9d\\n, 123);\n\n// same as above, without the echo command\nprintf(%'.9d\\n, 123);\n\n// same as above, without the echo command\nvprintf(%'.9d\\n, '......123');\n\n?>" as "php" resulted in an error at token: "'". Retrying in relaxed mode. [misc.highlighting_failure]
-/Users/famille/Desktop/php-dictionary/dictionary/strpos-syndrom.ini.rst:37: WARNING: Lexing literal_block "<?php\n\n$haystack = 'abcdef';\n\nif (strpos($haystack, 'b')) {\n     print The haystack contains a 'b'\\n;\n}\n\nif (strpos($haystack, 'a')) {\n     print The haystack contains an 'a'\\n;\n} else {\n     print The haystack doesn't contain an 'a'\\n;\n}\n\n\n?>" as "php" resulted in an error at token: "'". Retrying in relaxed mode. [misc.highlighting_failure]
 generating indices... genindex done
 writing additional pages... search done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 8 warnings.
+build succeeded, 3 warnings.
 
 The HTML pages are in build/html.

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arbitrary Number Of Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:19:06 +0000","dateModified":"Wed, 21 Jan 2026 16:19:06 +0000","description":"PHP allows any number of arguments to be passed to a functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arbitrary Number Of Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arbitrary Number Of Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:56:36 +0000","dateModified":"Wed, 21 Jan 2026 16:56:36 +0000","description":"PHP allows any number of arguments to be passed to a functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arbitrary Number Of Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Arbitrary Number Of Argument
@@ -28,7 +28,7 @@ This is achieved with the variadic operator, or with functions such as func_get_
 
 They are also called variable argument lists.
 
-When the arguments are dynamic, aka they are collected at execution time, the operator variadic or the function call_user_func_array() turns an array to arguments.
+When the arguments are dynamic, aka they are collected at execution time, the operator variadic or the function ``call_user_func_array()`` turns an array to arguments.
 
 .. code-block:: php
    
