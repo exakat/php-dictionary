@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:48:22 +0000","dateModified":"Wed, 21 Jan 2026 08:48:22 +0000","description":"A property can be declared with the readonly modifier, which prevents modification of the property after initialization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 07:57:28 +0000","dateModified":"Thu, 22 Jan 2026 07:57:28 +0000","description":"A property can be declared with the readonly modifier, which prevents modification of the property after initialization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Readonly
@@ -41,17 +41,19 @@ In PHP 8.2, a class may be readonly, making all of of its properties readonly to
       }
    }
    
-   $test = new Test(\foobar\);
+   $test = new Test("foobar");
    // Legal read.
-   var_dump($test->prop); // string(6) \foobar\ 
+   var_dump($test->prop); // string(6) "foobar" 
    
    // Illegal reassignment. It does not matter that the assigned value is the same.
-   $test->prop = \foobar\;
+   $test->prop = "foobar";
    // Error: Cannot modify readonly property Test::$prop
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties>`__
+
+See also https://php.watch/versions/8.1/readonly, https://phpfashion.com/en/php-readonly-properties
 
 Related : :ref:`Class <class>`, :ref:`__clone() Method <-__clone>`, :ref:`Properties <property>`
 

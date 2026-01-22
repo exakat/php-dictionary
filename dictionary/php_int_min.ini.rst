@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP_INT_MIN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"``PHP_INT_MIN`` is the smallest integer that can be processed by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP_INT_MIN.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP_INT_MIN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 07:33:36 +0000","dateModified":"Thu, 22 Jan 2026 07:33:36 +0000","description":"``PHP_INT_MIN`` is the smallest integer that can be processed by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP_INT_MIN.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP_INT_MIN
@@ -24,7 +24,7 @@ PHP_INT_MIN
 
 ``PHP_INT_MIN`` is the smallest integer that can be processed by PHP. 
 
-Nowadays, ``PHP_INT_MIN`` is often -9223372036854775808. This value depends on the underlying machine: in particular, 64bits (machin and OS) have larger values of ``PHP_INT_MAX``, while 32bits have smaller. The hardware and the software have to be compatible to provide a larger value of `PHP_INT_MAX``.
+Nowadays, ``PHP_INT_MIN`` is often -9223372036854775808. This value depends on the underlying machine: in particular, 64bits (machin and OS) have larger absolute values of ``PHP_INT_MIN``, while 32bits have smaller. The hardware and the software have to be compatible to provide a larger absolute value of ``PHP_INT_MIN``.
 
 Beyond ``PHP_INT_MIN``, integers are often converted to floats, and loose precision. 
 
@@ -41,4 +41,4 @@ There is also ``PHP_INT_MAX``, which is the positive version of ``PHP_INT_MIN``,
    ?>
 
 
-Related : :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`PHP_INT_MAX <php_int_max>`
+Related : :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`precision <precision>`

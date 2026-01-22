@@ -623,6 +623,7 @@ Index
    dictionary/new.ini
    dictionary/nodiscard.ini
    dictionary/non-breakable-space.ini
+   dictionary/non-instantiable.ini
    dictionary/non-static.ini
    dictionary/noscream.ini
    dictionary/not.ini
@@ -737,6 +738,7 @@ Index
    dictionary/post-increment.ini
    dictionary/pre-increment.ini
    dictionary/precedence.ini
+   dictionary/precision.ini
    dictionary/predefined-constant.ini
    dictionary/predefined-exception.ini
    dictionary/prepared-query.ini
@@ -750,6 +752,7 @@ Index
    dictionary/profiler.ini
    dictionary/promise.ini
    dictionary/promoted-property.ini
+   dictionary/propagation.ini
    dictionary/property-hook.ini
    dictionary/property.ini
    dictionary/protected.ini

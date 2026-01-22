@@ -1,3 +1,4 @@
+.. _wrapper-ftp:
 .. _wrapper-ftps:
 .. meta::
 	:description:
@@ -12,11 +13,11 @@
 	:og:title: ftp://
 	:og:type: article
 	:og:description: The ``ftp://`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-ftps.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-ftp.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ftp:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 09 Nov 2025 17:54:00 +0000","dateModified":"Sun, 09 Nov 2025 17:54:00 +0000","description":"The ``ftp:\/\/`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ftp:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ftp:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 06:01:22 +0000","dateModified":"Thu, 22 Jan 2026 06:01:22 +0000","description":"The ``ftp:\/\/`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ftp:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ftp://
@@ -29,7 +30,7 @@ The ``ftp://`` wrapper is a native PHP wrapper, to access files on a remote ``FT
    <?php
    
    // display a distant file from a FTP server
-   print_r(file_get_content('ftp://user:password@ftp.server.com:/pub/file.txt');
+   print_r(file_get_content('ftp://user:password@ftp.server.com:/pub/file.txt'));
    
    ?>
 

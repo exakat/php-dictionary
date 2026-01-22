@@ -1855,6 +1855,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/non-instantiable.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/non-static.ini.html</loc>
  </url>
  <url>
@@ -2197,6 +2200,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/precision.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-constant.ini.html</loc>
  </url>
  <url>
@@ -2234,6 +2240,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/propagation.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/property-hook.ini.html</loc>

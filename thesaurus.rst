@@ -73,6 +73,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Static Application Security Testing (SAST) <skeleton>`
 + :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
++ :ref:`Transport Layer Security (TLS) <tls>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
@@ -81,7 +82,6 @@ List of acronyms, used in this dictionary.
 + :ref:`World Wide Weab (WWW) <web>`
 + :ref:`Write Everything Twice (WET) <wet>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
-+ :ref:`ransport Layer Security (TLS) <tls>`
 
 Attribute
 ---------
@@ -231,9 +231,11 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Version <version>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
++ :ref:`Writable <writable>`
 + :ref:`Zombie Code <zombie-code>`
 + :ref:`constructor <constructor>`
 + :ref:`hash() Function <hash-function>`
++ :ref:`precision <precision>`
 
 Control flow
 ------------
@@ -328,6 +330,7 @@ List of PHP keywords and reserved names.
 + :ref:`Private Visibility <private>`
 + :ref:`Protected Visibility <protected>`
 + :ref:`Public Visibility <public>`
++ :ref:`Readonly <readonly>`
 + :ref:`Return <return>`
 + :ref:`Self <self>`
 + :ref:`Simple Switch <simple-switch>`

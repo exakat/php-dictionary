@@ -428,7 +428,7 @@ PHP Dictionary
    * :ref:`file:// <wrapper-file>`
    * :ref:`file_put_contents() <file_put_contents>`
    * :ref:`filter <filter>`
-   * :ref:`ftp:// <wrapper-ftps>`
+   * :ref:`ftp:// <wrapper-ftp>`
 * G
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
@@ -642,6 +642,7 @@ PHP Dictionary
    * :ref:`New Without Parenthesis <new-without-parenthesis>`
    * :ref:`NoDiscard <nodiscard>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
+   * :ref:`Non-instantiable <non-instantiable>`
    * :ref:`Non-static <non-static>`
    * :ref:`Not A Number (NAN) <nan>`
    * :ref:`Not Operator <not>`
@@ -769,6 +770,7 @@ PHP Dictionary
    * :ref:`Production <production>`
    * :ref:`Promise <promise>`
    * :ref:`Promoted Properties <promoted-property>`
+   * :ref:`Propagation <propagation>`
    * :ref:`Properties <property>`
    * :ref:`Property Hook <property-hook>`
    * :ref:`Property Type Declaration <type-declaration-property>`
@@ -783,6 +785,7 @@ PHP Dictionary
    * :ref:`php.ini <php.ini>`
    * :ref:`php:// <wrapper-php>`
    * :ref:`phpinfo() <phpinfo>`
+   * :ref:`precision <precision>`
    * :ref:`print_r() <print_r>`
 * Q
    * :ref:`Query <query>`
@@ -837,7 +840,6 @@ PHP Dictionary
    * :ref:`Rubber Ducking Debugging <rubber-ducking>`
    * :ref:`Runtime Checks <runtime-checks>`
    * :ref:`range() <range>`
-   * :ref:`ransport Layer Security (TLS) <tls>`
    * :ref:`register_argc_argv <register_argc_argv>`
    * :ref:`resource <resource>`
 * S
@@ -981,6 +983,7 @@ PHP Dictionary
    * :ref:`Trailing Comma <trailing-comma>`
    * :ref:`Trait <trait>`
    * :ref:`Transpile <transpile>`
+   * :ref:`Transport Layer Security (TLS) <tls>`
    * :ref:`Traversable <traversable>`
    * :ref:`Traversal <traversal>`
    * :ref:`Tree <tree>`
