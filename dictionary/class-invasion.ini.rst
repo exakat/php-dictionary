@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Invasion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 16:59:52 +0000","dateModified":"Fri, 16 Jan 2026 16:59:52 +0000","description":"Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Invasion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Invasion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:14 +0000","dateModified":"Sun, 25 Jan 2026 20:46:14 +0000","description":"Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Invasion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Invasion
@@ -38,7 +38,7 @@ Class invasion doesn't work when running an external closure inside the class.
    
    // Example of Host class accessing local object (direct class invasion)
    class X {
-       private $p = \abc\;
+       private $p = 'abc';
        private const X = 'def';
        
        private function privateMethod() { echo __METHOD__; }
@@ -62,22 +62,22 @@ Class invasion doesn't work when running an external closure inside the class.
    $x1 = new x;
    $x1->set('xyz');
    
-   $x2 = nex x;
+   $x2 = new x;
    $x2->foo($x1);
    // display xyzdef
    
    // class invasion between sibling classes
-   class parent {
+   class theParent {
        // Necessary. Could be abstract too.     
        protected function execute() { echo __METHOD__; }
    }
    
-   class sister extends parent {
+   class sister extends theParent {
        // cannot be called outside of y or x
        protected function execute() { echo __METHOD__; }
    }
    
-   class brother extends parent {
+   class brother extends theParent {
        // calling a sister's class method 
        function foo($y) { $y->execute(); }
    }

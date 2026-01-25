@@ -114,6 +114,7 @@ Index
    dictionary/backtrace.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
+   dictionary/balanced.ini
    dictionary/base64.ini
    dictionary/basename.ini
    dictionary/batch.ini

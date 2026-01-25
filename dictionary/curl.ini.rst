@@ -1,30 +1,30 @@
 .. _curl:
 .. meta::
 	:description:
-		Client URL (CURL): Curl is both a PHP extension and a multiprotocol file transfer library.
+		Client URL (CURL): ``Curl``` is both a PHP extension and a multiprotocol file transfer library.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Client URL (CURL)
-	:twitter:description: Client URL (CURL): Curl is both a PHP extension and a multiprotocol file transfer library
+	:twitter:description: Client URL (CURL): ``Curl``` is both a PHP extension and a multiprotocol file transfer library
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Client URL (CURL)
 	:og:type: article
-	:og:description: Curl is both a PHP extension and a multiprotocol file transfer library
+	:og:description: ``Curl``` is both a PHP extension and a multiprotocol file transfer library
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Client URL (CURL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 16:59:52 +0000","dateModified":"Fri, 16 Jan 2026 16:59:52 +0000","description":"Curl is both a PHP extension and a multiprotocol file transfer library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Client URL (CURL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Client URL (CURL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:23 +0000","dateModified":"Sun, 25 Jan 2026 20:46:23 +0000","description":"``Curl``` is both a PHP extension and a multiprotocol file transfer library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Client URL (CURL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Client URL (CURL)
 -----------------
 
-Curl is both a PHP extension and a multiprotocol file transfer library. 
+``Curl``` is both a PHP extension and a multiprotocol file transfer library. 
 
-The cURL (Client URL) extension is a powerful library that allows to transfer data to and from servers using various protocols. It enables to make HTTP requests, handle responses, and perform various network-related tasks from within PHP code.
+The ``cURL`` (Client URL) extension is a powerful library that allows to transfer data to and from servers using various protocols. It enables to make HTTP requests, handle responses, and perform various network-related tasks from within PHP code.
 
 The cURL extension provides a set of functions that can be used to perform different tasks, such as making GET and POST requests, sending custom headers, handling cookies, and more. 
 
@@ -35,8 +35,8 @@ cURL is used to access remote resources, using various protocols such as DICT, F
    <?php
    
    // Example from the PHP manual
-   $ch = curl_init(\http://www.example.com/\);
-   $fp = fopen(\example_homepage.txt\, \w\);
+   $ch = curl_init("http://www.example.com/");
+   $fp = fopen("example_homepage.txt\, \w");
    
    curl_setopt($ch, CURLOPT_FILE, $fp);
    curl_setopt($ch, CURLOPT_HEADER, 0);

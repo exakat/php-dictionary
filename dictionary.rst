@@ -120,6 +120,7 @@ PHP Dictionary
    * :ref:`Backtrace <backtrace>`
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
+   * :ref:`Balanced <balanced>`
    * :ref:`Base 64 Encoding <base64>`
    * :ref:`Batch <batch>`
    * :ref:`Bcmath <bcmath>`
