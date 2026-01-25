@@ -328,9 +328,6 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/badfunctioncallexception.ini.html</loc>
  </url>
  <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/balanced.ini.html</loc>
- </url>
- <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/base64.ini.html</loc>
  </url>
  <url>
@@ -377,6 +374,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/body.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/bola.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html</loc>
@@ -1214,6 +1214,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/functional-programming.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fuzzing.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/garbage-collection.ini.html</loc>
@@ -2426,6 +2429,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/runtime-checks.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/saas.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sandbox.ini.html</loc>

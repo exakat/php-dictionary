@@ -16,17 +16,17 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Math","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:20:47 +0000","dateModified":"Tue, 20 Jan 2026 07:20:47 +0000","description":"There are many math features in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Math.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Math","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 19:40:35 +0000","dateModified":"Sun, 25 Jan 2026 19:40:35 +0000","description":"There are many math features in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Math.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Math
 ----
 
-There are many math features in PHP. There are the native math functinos, such as ``exp()``, ``cos()`` or ``abs()``; there are operators, such as ``+``, ``*``, ``**``, etc. There are special notions, such as ``NaN`` (Not a number), and the constant ``INF``, which represents the infinite.
+There are many math features in PHP. There are the native math functions, such as ``exp()``, ``cos()`` or ``abs()``; there are operators, such as ``+``, ``*``, ``**``, etc. There are special notions, such as ``NaN`` (Not a number), and the constant ``INF``, which represents the infinite.
 
 There are also extension, such as ``bcmath`` and ``gmp``, to handle arbitrary large numbers. 
 
-Finally, there are many packages that provide optimized code to run math specialties, like matrices, complex numbers or statistical toosl.
+Finally, there are many packages that provide optimized code to run math specialties, like matrices, complex numbers or statistical tools.
 
 .. code-block:: php
    

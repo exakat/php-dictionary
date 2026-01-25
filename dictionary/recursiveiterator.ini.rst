@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"RecursiveIterator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:48:22 +0000","dateModified":"Wed, 21 Jan 2026 08:48:22 +0000","description":"The ``RecursiveIterator`` interface is an interface that is able to iterate through nested iterators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/RecursiveIterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"RecursiveIterator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 13:19:01 +0000","dateModified":"Thu, 22 Jan 2026 13:19:01 +0000","description":"The ``RecursiveIterator`` interface is an interface that is able to iterate through nested iterators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/RecursiveIterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 RecursiveIterator
@@ -32,15 +32,15 @@ The ``RecursiveIterator`` is implemented by the ``RecursiveArrayIterator``, and 
    
    interface RecursiveIterator extends Iterator {
        /* Methods */
-       public getChildren(): ?RecursiveIterator;
-       public hasChildren(): bool;
+       public function getChildren(): ?RecursiveIterator;
+       public function hasChildren(): bool;
    
-       /* Inherited methods */
-       public Iterator::current(): mixed;
-       public Iterator::key(): mixed;
-       public Iterator::next(): void;
-       public Iterator::rewind(): void;
-       public Iterator::valid(): bool;
+       /* Inherited methods from Iterator */
+       public function current(): mixed;
+       public function key(): mixed;
+       public function next(): void;
+       public function rewind(): void;
+       public function valid(): bool;
    }
    
    ?>

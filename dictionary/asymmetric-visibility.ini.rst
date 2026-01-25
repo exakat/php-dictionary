@@ -2,26 +2,26 @@
 .. _set-visibility:
 .. meta::
 	:description:
-		Asymetric Visibility: Asymmetric visibility is a feature of PHP class properties.
+		Asymmetric Visibility: Asymmetric visibility is a feature of PHP class properties.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Asymetric Visibility
-	:twitter:description: Asymetric Visibility: Asymmetric visibility is a feature of PHP class properties
+	:twitter:title: Asymmetric Visibility
+	:twitter:description: Asymmetric Visibility: Asymmetric visibility is a feature of PHP class properties
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Asymetric Visibility
+	:og:title: Asymmetric Visibility
 	:og:type: article
 	:og:description: Asymmetric visibility is a feature of PHP class properties
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/asymmetric-visibility.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asymetric Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 15 Jan 2026 11:04:51 +0000","dateModified":"Thu, 15 Jan 2026 11:04:51 +0000","description":"Asymmetric visibility is a feature of PHP class properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asymetric Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asymmetric Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 19:17:54 +0000","dateModified":"Sun, 25 Jan 2026 19:17:54 +0000","description":"Asymmetric visibility is a feature of PHP class properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asymmetric Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Asymetric Visibility
---------------------
+Asymmetric Visibility
+---------------------
 
 Asymmetric visibility is a feature of PHP class properties. They refer to the the situation where different scopes may read (get) or write (set). 
 

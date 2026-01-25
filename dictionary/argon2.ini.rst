@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Argon2","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:19:48 +0000","dateModified":"Wed, 21 Jan 2026 16:19:48 +0000","description":"Argon2 is a modern, secure, and highly efficient password hashing algorithm","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Argon2.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Argon2","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 24 Jan 2026 10:12:15 +0000","dateModified":"Sat, 24 Jan 2026 10:12:15 +0000","description":"Argon2 is a modern, secure, and highly efficient password hashing algorithm","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Argon2.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Argon2
@@ -36,3 +36,7 @@ Argon2 is a modern, secure, and highly efficient password hashing algorithm. It 
 
 
 `Documentation <https://guriasoft.com/server-side/php/argon2>`__
+
+See also https://master-spring-ter.medium.com/from-basics-to-expert-a-deep-dive-into-argon2-password-hashing-95d17ba3b10f, https://mojoauth.com/hashing/argon2-in-php
+
+Related packages : `paragonie/halite <https://packagist.org/packages/paragonie/halite>`_

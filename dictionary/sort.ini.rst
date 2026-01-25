@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sort","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"Sorting is the action to put a list of object into a specific order","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sort.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sort","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 24 Jan 2026 12:29:39 +0000","dateModified":"Sat, 24 Jan 2026 12:29:39 +0000","description":"Sorting is the action to put a list of object into a specific order","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sort.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sort
@@ -25,9 +25,9 @@ Sort
 
 Sorting is the action to put a list of object into a specific order. In PHP, sorting applies to arrays.
 
-There are several ways to sort arrays in PHP: by value (no prefix), by key (`k` prefix), or by value while keeping the keys (`a` prefix, for associative). 
+There are several ways to sort arrays in PHP: by value (no prefix), by key (``k`` prefix), or by value while keeping the keys (``a`` prefix, for associative). 
 
-Then, the sort may be ascending (no prefix), descending (`r`, as in reverse) or custom (`u`, as in user sort). Custom sort is done with a closure or similar.
+Then, the sort may be ascending (no prefix), descending (``r``, as in reverse) or custom (``u``, as in user sort). Custom sort is done with a closure or similar.
 
 Based on the prefixes above, the following PHP native functions are available : sort(), rsort(), usort(), ksort(), krsort(), uksort(), asort(), uasort(). There is not ursort(), as the reverse part of the sort may be coded in the custom closure.
 
@@ -41,8 +41,9 @@ The default comparison between elements may be adapted with sort()'s parameter :
    
    <?php
    
-   $fruits = array( Orange1, orange2, Orange3, orange20 );
+   $fruits = ['Orange1', 'orange2', 'Orange3', 'orange20'];
    sort($fruits, SORT_NATURAL | SORT_FLAG_CASE);
+   
    foreach ($fruits as $key => $val) {
        echo fruits[ . $key . ] =  . $val . \n;
    }

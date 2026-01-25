@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Supply Chain","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:52:45 +0000","dateModified":"Wed, 21 Jan 2026 08:52:45 +0000","description":"The supply chain is the set of components, libraries, tools and processes that are used to build an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Supply Chain.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Supply Chain","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 24 Jan 2026 12:11:43 +0000","dateModified":"Sat, 24 Jan 2026 12:11:43 +0000","description":"The supply chain is the set of components, libraries, tools and processes that are used to build an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Supply Chain.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Supply Chain
@@ -29,10 +29,10 @@ The supply chain is the set of components, libraries, tools and processes that a
 + the build and development tools (phpunit, static analysis...)
 + CI pipelines
 + Production environment (PHP, extensions, virtualization)
-+ External services (databases, APIs, cloud providers...)
++ External services (databases, APIs, cloud providers...).
 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 
-See also https://en.wikipedia.org/wiki/Software_supply_chain
+See also https://thephp.cc/presentations/the-php-stacks-supply-chain, https://dev.to/dobrenteiistvan/supply-chain-security-in-php-projects-10p4
 
-Related : :ref:`Supply Chain Attack <supply-chain-attack>`
+Related : :ref:`Supply Chain Attack <supply-chain-attack>`, :ref:`Composer <composer>`, :ref:`Packagist <packagist>`

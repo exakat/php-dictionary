@@ -114,7 +114,6 @@ Index
    dictionary/backtrace.ini
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
-   dictionary/balanced.ini
    dictionary/base64.ini
    dictionary/basename.ini
    dictionary/batch.ini
@@ -131,6 +130,7 @@ Index
    dictionary/block.ini
    dictionary/bloom-filter.ini
    dictionary/body.ini
+   dictionary/bola.ini
    dictionary/boolean.ini
    dictionary/branch.ini
    dictionary/break.ini
@@ -410,6 +410,7 @@ Index
    dictionary/function-subscripting.ini
    dictionary/function.ini
    dictionary/functional-programming.ini
+   dictionary/fuzzing.ini
    dictionary/garbage-collection.ini
    dictionary/gd.ini
    dictionary/generator.ini
@@ -814,6 +815,7 @@ Index
    dictionary/rpc.ini
    dictionary/rubber-ducking.ini
    dictionary/runtime-checks.ini
+   dictionary/saas.ini
    dictionary/sandbox.ini
    dictionary/sanitation.ini
    dictionary/sapi.ini

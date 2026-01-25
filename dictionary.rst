@@ -93,8 +93,8 @@ PHP Dictionary
    * :ref:`Assignations <assignation>`
    * :ref:`Associative Array <associative-array>`
    * :ref:`Assumption <assumption>`
-   * :ref:`Asymetric Visibility <asymmetric-visibility>`
    * :ref:`Asymmetric Property <asymmetric-property>`
+   * :ref:`Asymmetric Visibility <asymmetric-visibility>`
    * :ref:`Async <async>`
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Attribute <attribute>`
@@ -120,7 +120,6 @@ PHP Dictionary
    * :ref:`Backtrace <backtrace>`
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
-   * :ref:`Balanced <balanced>`
    * :ref:`Base 64 Encoding <base64>`
    * :ref:`Batch <batch>`
    * :ref:`Bcmath <bcmath>`
@@ -140,6 +139,7 @@ PHP Dictionary
    * :ref:`Boolean <boolean>`
    * :ref:`Branch <branch>`
    * :ref:`Break <break>`
+   * :ref:`Broken Object Level Authorization (BOLA) <bola>`
    * :ref:`Bucket <bucket>`
    * :ref:`Bug <bug>`
    * :ref:`Byte <byte>`
@@ -424,6 +424,7 @@ PHP Dictionary
    * :ref:`Function Subscripting <function-subscripting>`
    * :ref:`Functional Programming <functional-programming>`
    * :ref:`Functions <function>`
+   * :ref:`Fuzzing <fuzzing>`
    * :ref:`feature-flag <feature-switch>`
    * :ref:`file:// <wrapper-file>`
    * :ref:`file_put_contents() <file_put_contents>`
@@ -902,6 +903,7 @@ PHP Dictionary
    * :ref:`Singleton <singleton>`
    * :ref:`Socket <socket>`
    * :ref:`Software Development Kit (SDK) <sdk>`
+   * :ref:`Software-as-a-Service (SAAS) <saas>`
    * :ref:`Sort <sort>`
    * :ref:`Space <space>`
    * :ref:`Spaceship Operator <spaceship>`
