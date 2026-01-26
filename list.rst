@@ -515,6 +515,7 @@ Index
    dictionary/jit.ini
    dictionary/jobqueue.ini
    dictionary/json.ini
+   dictionary/json_decode.ini
    dictionary/jsonexception.ini
    dictionary/jsonserializable.ini
    dictionary/jump.ini
@@ -626,6 +627,7 @@ Index
    dictionary/nodiscard.ini
    dictionary/non-breakable-space.ini
    dictionary/non-instantiable.ini
+   dictionary/non-numeric.ini
    dictionary/non-static.ini
    dictionary/noscream.ini
    dictionary/not.ini
@@ -851,6 +853,7 @@ Index
    dictionary/shard.ini
    dictionary/shared-memory.ini
    dictionary/shell.ini
+   dictionary/shell_exec.ini
    dictionary/short-assignation.ini
    dictionary/short-syntax.ini
    dictionary/short-tag.ini

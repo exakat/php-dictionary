@@ -16,16 +16,16 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Magic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:20:47 +0000","dateModified":"Tue, 20 Jan 2026 07:20:47 +0000","description":"Magic is mostly used in the sentence : 'There is too much magic in this code'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Magic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Magic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 14:12:00 +0000","dateModified":"Mon, 26 Jan 2026 14:12:00 +0000","description":"Magic is mostly used in the sentence : 'There is too much magic in this code'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Magic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Magic
 -----
 
-Magic is mostly used in the sentence : 'There is too much magic in this code'. It usually refers to convention which triggers certain behavior, which is not explicit in the code, but rather documented and learnt. 
+Magic is mostly used in the sentence : 'There is too much magic in this code'. It usually refers to conventions which trigger certain behaviors, though they are not explicit in the code, but rather documented and learnt. 
 
-Magic has only a remote relationship to PHP's magic constant and magic methods.
+Magic has only a remote relationship to PHP's magic constants, magic numbers and magic methods.
 
 See also https://matthiasnoback.nl/2022/03/too-much-magic/
 
-Related : :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`
+Related : , :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Numbers <magic-number>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`

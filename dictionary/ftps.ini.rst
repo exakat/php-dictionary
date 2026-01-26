@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"File Transfer Protocol Secure (FTPS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:56:36 +0000","dateModified":"Sat, 17 Jan 2026 06:56:36 +0000","description":"FTPS stands for File Transfer Protocol Secure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File Transfer Protocol Secure (FTPS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"File Transfer Protocol Secure (FTPS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 13:49:04 +0000","dateModified":"Mon, 26 Jan 2026 13:49:04 +0000","description":"FTPS stands for File Transfer Protocol Secure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File Transfer Protocol Secure (FTPS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 File Transfer Protocol Secure (FTPS)
@@ -34,9 +34,9 @@ PHP supports FTP and FTPS, through the ext/ftp extension, the ext/curl extension
        $upload = ftp_put($ftp, $destinationPath, $sourceFile, FTP_BINARY); 
        
        if (!$upload) { 
-           echo FTPS upload has failed!;
+           echo "FTPS upload has failed!";
        } else {
-           echo Uploaded $source_file to $ftp_server as $destination_file;
+           echo "Uploaded $source_file to $ftp_server as $destination_file";
        }
        
        ftp_close($ftp);

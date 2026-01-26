@@ -536,6 +536,7 @@ PHP Dictionary
    * :ref:`JsonSerializable <jsonserializable>`
    * :ref:`Jump <jump>`
    * :ref:`Just In Time (JIT) <jit>`
+   * :ref:`json_decode() <json_decode>`
 * K
    * :ref:`Key-value Stores <key-value-store>`
    * :ref:`Keyword <keyword>`
@@ -645,6 +646,7 @@ PHP Dictionary
    * :ref:`NoDiscard <nodiscard>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Non-instantiable <non-instantiable>`
+   * :ref:`Non-numeric <non-numeric>`
    * :ref:`Non-static <non-static>`
    * :ref:`Not A Number (NAN) <nan>`
    * :ref:`Not Operator <not>`
@@ -956,6 +958,7 @@ PHP Dictionary
    * :ref:`System <system>`
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
+   * :ref:`shell_exec() <shell_exec>`
    * :ref:`sleep <sleep>`
    * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`

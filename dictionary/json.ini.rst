@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JavaScript Object Notation (JSON)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:31 +0000","dateModified":"Mon, 19 Jan 2026 14:11:31 +0000","description":"JSON (JavaScript Object Notation) is a lightweight data-interchange format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JavaScript Object Notation (JSON).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JavaScript Object Notation (JSON)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 13:36:56 +0000","dateModified":"Mon, 26 Jan 2026 13:36:56 +0000","description":"JSON (JavaScript Object Notation) is a lightweight data-interchange format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JavaScript Object Notation (JSON).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 JavaScript Object Notation (JSON)
@@ -38,6 +38,8 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 `Documentation <https://www.php.net/json>`__
 
 See also https://www.json.org/json-en.html, https://prahladyeri.github.io/blog/2024/11/working-with-json-data-in-php-mysql.html
+
+Related : :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`json_decode() <json_decode>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Serde <serde>`
 
 Related packages : `jajo/jsondb <https://packagist.org/packages/jajo/jsondb>`_
 
