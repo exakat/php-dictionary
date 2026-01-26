@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Character","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 18:29:07 +0000","dateModified":"Fri, 16 Jan 2026 18:29:07 +0000","description":"Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Character.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Character","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 12:54:19 +0000","dateModified":"Mon, 26 Jan 2026 12:54:19 +0000","description":"Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Character.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Escape Character
@@ -26,13 +26,13 @@ Escape characters are special characters, that introduce a special meaning, for 
 
 Escape characters are often generating a special sequence to escape themselves and allow their literal meaning to be expressed.
 
-In PHP's strings and HEREDOC, the escape character is the backslash : \\\\.
+In PHP's strings and HEREDOC, the escape character is the backslash : \.
 
 .. code-block:: php
    
    <?php
    
-   echo <a href=https://www.exakat.io/ />;
+   echo '<a href="https://www.exakat.io/" />';
    
    ?>
 

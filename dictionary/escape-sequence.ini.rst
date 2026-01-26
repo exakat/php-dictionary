@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 18:29:07 +0000","dateModified":"Fri, 16 Jan 2026 18:29:07 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 12:54:20 +0000","dateModified":"Mon, 26 Jan 2026 12:54:20 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Escape Sequences
@@ -32,7 +32,7 @@ Here are some examples of escape sequences.
 PHP, in strings: 
   + \n (new line)
   + \t (horizontal tabulation)
-  +   (double quote, inside a double quoted-string)
+  + ""  (double quote, inside a double quoted-string)
   + \  This is not an escape sequence : single quoted string do not recognize this
   + \u{01f418} : a unicode codepoint, representing an elephpant
   + \200 : a character in octal notation
@@ -53,7 +53,7 @@ Escape sequences should not be confused with escape characters, though they are 
    preg_match('/(.)\1/', $string);
    
    // Displays AA
-   echo \A\\101\;
+   echo "A\101";
    
    ?>
 
