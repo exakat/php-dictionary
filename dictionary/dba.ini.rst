@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Database Abstraction Layer (DBA) Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 16 Jan 2026 17:01:22 +0000","dateModified":"Fri, 16 Jan 2026 17:01:22 +0000","description":"The Database Abstraction Layer (DBA) extension in PHP provides a unified and consistent programming interface for interacting with various key-value database systems, especially those that follow the Berkeley DB-style architecture","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Database Abstraction Layer (DBA) Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Database Abstraction Layer (DBA) Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 11:11:32 +0000","dateModified":"Mon, 26 Jan 2026 11:11:32 +0000","description":"The Database Abstraction Layer (DBA) extension in PHP provides a unified and consistent programming interface for interacting with various key-value database systems, especially those that follow the Berkeley DB-style architecture","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Database Abstraction Layer (DBA) Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Database Abstraction Layer (DBA) Extension
@@ -30,18 +30,18 @@ The Database Abstraction Layer (DBA) extension in PHP provides a unified and con
    
    // Example from the PHP manual
    
-   $id = dba_open(\/tmp/test.db\, \n\, \db2\);
+   $id = dba_open('/tmp/test.db', "\n", 'db2');
    
    if (!$id) {
-       echo \dba_open failed\n\;
+       echo "dba_open failed\n";
        exit;
    }
    
-   dba_replace(key, This is an example!, $id);
+   dba_replace('key', 'This is an example!', $id);
    
-   if (dba_exists(\key\, $id)) {
-       echo dba_fetch(\key\, $id);
-       dba_delete(\key\, $id);
+   if (dba_exists('key', $id)) {
+       echo dba_fetch('key', $id);
+       dba_delete('key', $id);
    }
    
    dba_close($id);
