@@ -1,5 +1,6 @@
 .. _hash:
 .. _hashing:
+.. _digest:
 .. meta::
 	:description:
 		Hash: Hash has several meanings : .
@@ -17,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:57:00 +0000","dateModified":"Sat, 17 Jan 2026 06:57:00 +0000","description":"Hash has several meanings : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Feb 2026 15:32:18 +0000","dateModified":"Thu, 05 Feb 2026 15:32:18 +0000","description":"Hash has several meanings : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash
@@ -28,7 +29,7 @@ Hash has several meanings :
 + PHP extension
 + PHP function
 + a general computer science concept, that transforms data into another value
-+ a general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert
++ a general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert. It is also called a digest.
 + a synonym for arrays with arbitrary keys, also known as map or associative array
 
 Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. 
@@ -42,9 +43,20 @@ While the extension 'hash' only process hashes, there are other extensions which
    echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');
    // produces ec457d0a974c48d5685a7efa03d137dc8bbde7e3
    
+   // a conversion table is a hash
+   $c = 2;
+   $dictionary = [1 => 'a', 2 => 'b', 3 => 'c'];
+   echo $dictionary[$c]; 
+   
+   // This is a hashmap, or also called a hash
+   $hashMap = ['name' => 'Henry', 
+               'family' => 'Troyat', 
+               'age' => 33,
+               ];
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/intro.hash.php>`__
 
-Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`

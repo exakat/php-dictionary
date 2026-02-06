@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","name":"Callbacks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:11 +0000","dateModified":"Sun, 25 Jan 2026 20:46:11 +0000","description":"Callbacks are functions or methods which are used as parameters for other functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Callbacks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","name":"Callbacks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 05:54:47 +0000","dateModified":"Tue, 03 Feb 2026 05:54:47 +0000","description":"Callbacks are functions or methods which are used as parameters for other functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Callbacks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Callbacks
@@ -26,7 +26,7 @@ Callbacks are functions or methods which are used as parameters for other functi
 
 Callback is akin to a functioncall : it is actually hidden inside the caller function. 
 
-Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string (such as `'strtolower'`) and array (such as `[X::class, 'methodName']`, or `[$object, 'methodName']` ) syntax. In fact, anything that is_callable() may be used.
+Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string (such as ``strtolower``) and array (such as ``[X::class, 'methodName']``, or ``[$object, 'methodName']`` ) syntax. In fact, anything that is_callable() may be used.
 
 .. code-block:: php
    
@@ -42,6 +42,6 @@ Callback may be build with on closures, arrow-functions, native PHP functions, m
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-See also https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/, https://doeken.org/tip/using-callbacks-to-prevent-code-duplication
+See also https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/, https://doeken.org/tip/using-callbacks-to-prevent-code-duplication, https://codernex.hashnode.dev/how-to-use-php-callbacks-examples-and-guide
 
 Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`String <string>`, :ref:`Arrow Functions <arrow-function>`

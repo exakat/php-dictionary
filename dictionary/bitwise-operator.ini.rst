@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bitwise Operators","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:21:41 +0000","dateModified":"Sun, 25 Jan 2026 20:21:41 +0000","description":"Bitwise operators evaluate specific bits within an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bitwise Operators.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bitwise Operators","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 05:55:00 +0000","dateModified":"Tue, 03 Feb 2026 05:55:00 +0000","description":"Bitwise operators evaluate specific bits within an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bitwise Operators.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Bitwise Operators
@@ -26,7 +26,13 @@ Bitwise operators evaluate specific bits within an integer.
 
 Bitwise operators are convenient to handle bit fields. 
 
-On the other hand, logical operators convert the whole value to boolean before manipulation.
++ ``&``, ``&=`` : ampersand operator, and
++ ``|``, ``|=`` : pipe operator, or
++ ``^``, ``^=`` : caret operator, xor
+
+All these operators have a short assignation version, as shown above.
+
+These operator differ from logical operators, which convert the value to boolean before manipulation.
 
 .. code-block:: php
    
@@ -42,6 +48,6 @@ On the other hand, logical operators convert the whole value to boolean before m
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
-See also https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/
+See also https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/, https://rodstaines.medium.com/bitmasks-and-bitwise-operators-in-php-1718b80cd50f
 
-Related : :ref:`Logical Operators <logical-operator>`
+Related : :ref:`Logical Operators <logical-operator>`, :ref:`Logical Operators <or>`, :ref:`And Operator <and>`, :ref:`Logical Operators <xor>`, :ref:`Short Assignations <short-assignation>`, :ref:`Bitfield <bitfield>`, :ref:`Boolean <boolean>`, :ref:`Bitmask <bitmask>`

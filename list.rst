@@ -23,6 +23,7 @@ Index
    dictionary/__callstatic.ini
    dictionary/__class__.ini
    dictionary/__clone.ini
+   dictionary/__function__.ini
    dictionary/__get.ini
    dictionary/__invoke.ini
    dictionary/__isset.ini
@@ -72,6 +73,7 @@ Index
    dictionary/array-callable.ini
    dictionary/array-callback.ini
    dictionary/array-curly-braces.ini
+   dictionary/array-element.ini
    dictionary/array-spread.ini
    dictionary/array-syntax.ini
    dictionary/array.ini
@@ -86,6 +88,7 @@ Index
    dictionary/artifact.ini
    dictionary/as.ini
    dictionary/ascii.ini
+   dictionary/aspect-programming.ini
    dictionary/assertion.ini
    dictionary/asset.ini
    dictionary/assignation.ini
@@ -125,6 +128,8 @@ Index
    dictionary/binary-operator.ini
    dictionary/binary.ini
    dictionary/bind.ini
+   dictionary/bitfield.ini
+   dictionary/bitmask.ini
    dictionary/bitshift-operator.ini
    dictionary/bitwise-operator.ini
    dictionary/blind-key.ini
@@ -154,6 +159,7 @@ Index
    dictionary/case.ini
    dictionary/cast.ini
    dictionary/catch.ini
+   dictionary/cd.ini
    dictionary/centralization.ini
    dictionary/cgi.ini
    dictionary/chaining-new-without-parenthesis.ini
@@ -182,6 +188,7 @@ Index
    dictionary/closure-binding.ini
    dictionary/closure-class.ini
    dictionary/closure.ini
+   dictionary/cms.ini
    dictionary/coalesce.ini
    dictionary/code-coverage.ini
    dictionary/code-formatter.ini
@@ -271,6 +278,7 @@ Index
    dictionary/dead-code.ini
    dictionary/debugger.ini
    dictionary/declaration.ini
+   dictionary/declarative-programming.ini
    dictionary/declare-encoding.ini
    dictionary/declare.ini
    dictionary/decorator.ini
@@ -278,6 +286,7 @@ Index
    dictionary/default-parameter.ini
    dictionary/default-value.ini
    dictionary/default.ini
+   dictionary/defensive-programming.ini
    dictionary/define.ini
    dictionary/defined.ini
    dictionary/definition.ini
@@ -307,6 +316,7 @@ Index
    dictionary/domxml.ini
    dictionary/dot-notation.ini
    dictionary/double-arrow.ini
+   dictionary/double-check.ini
    dictionary/double-quote.ini
    dictionary/dowhile.ini
    dictionary/downtime.ini
@@ -332,6 +342,7 @@ Index
    dictionary/ellipsis.ini
    dictionary/email.ini
    dictionary/emoji.ini
+   dictionary/empty-string.ini
    dictionary/empty.ini
    dictionary/encoding-text.ini
    dictionary/encoding.ini
@@ -357,6 +368,7 @@ Index
    dictionary/exception-chain.ini
    dictionary/exception-handler.ini
    dictionary/exception.ini
+   dictionary/exec.ini
    dictionary/execution-time.ini
    dictionary/exit.ini
    dictionary/explicit-boolean-comparison.ini
@@ -364,6 +376,7 @@ Index
    dictionary/exponent.ini
    dictionary/exponential.ini
    dictionary/expression.ini
+   dictionary/expressive-interface.ini
    dictionary/extends.ini
    dictionary/extension.ini
    dictionary/extract.ini
@@ -400,6 +413,7 @@ Index
    dictionary/foreach.ini
    dictionary/form.ini
    dictionary/format.ini
+   dictionary/forum.ini
    dictionary/forward-compatible.ini
    dictionary/fossilized-method.ini
    dictionary/fpm.ini
@@ -427,6 +441,7 @@ Index
    dictionary/global.ini
    dictionary/globals.ini
    dictionary/glue.ini
+   dictionary/gmp.ini
    dictionary/god-object.ini
    dictionary/goto.ini
    dictionary/graphql.ini
@@ -469,6 +484,7 @@ Index
    dictionary/imagickexception.ini
    dictionary/imagickpixelexception.ini
    dictionary/immutable.ini
+   dictionary/imperative.ini
    dictionary/implements.ini
    dictionary/implicit.ini
    dictionary/implode.ini
@@ -484,7 +500,9 @@ Index
    dictionary/indexed-array.ini
    dictionary/inequality.ini
    dictionary/inf.ini
+   dictionary/infinite-loop.ini
    dictionary/infinite.ini
+   dictionary/infiniteiterator.ini
    dictionary/inflector.ini
    dictionary/inheritance.ini
    dictionary/inherited-variable.ini
@@ -653,6 +671,7 @@ Index
    dictionary/observer.ini
    dictionary/ocp.ini
    dictionary/octal-integer.ini
+   dictionary/offensive-programming.ini
    dictionary/offset.ini
    dictionary/one-liner.ini
    dictionary/oop.ini
@@ -679,6 +698,7 @@ Index
    dictionary/pack.ini
    dictionary/packagist.ini
    dictionary/pagination.ini
+   dictionary/paradigm.ini
    dictionary/paralell.ini
    dictionary/parameter-removal.ini
    dictionary/parameter.ini
@@ -752,6 +772,7 @@ Index
    dictionary/print_r.ini
    dictionary/private.ini
    dictionary/procedural-programming.ini
+   dictionary/process.ini
    dictionary/production.ini
    dictionary/profiler.ini
    dictionary/promise.ini
@@ -769,6 +790,8 @@ Index
    dictionary/query.ini
    dictionary/queue.ini
    dictionary/quoted-printable.ini
+   dictionary/rag.ini
+   dictionary/railroad-programming.ini
    dictionary/random.ini
    dictionary/range.ini
    dictionary/rangeexception.ini
@@ -849,6 +872,7 @@ Index
    dictionary/session-highjacking.ini
    dictionary/session.ini
    dictionary/setter.ini
+   dictionary/sha.ini
    dictionary/shallow-clone.ini
    dictionary/shard.ini
    dictionary/shared-memory.ini

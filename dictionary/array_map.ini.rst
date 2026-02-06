@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/array_key_exists(): Argument #2 ($array) must be of type array, %s given.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/array_key_exists(): Argument #2 ($array) must be of type array, %s given.html","name":"array_map()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:22 +0000","dateModified":"Thu, 22 Jan 2026 21:18:22 +0000","description":"``array_map()`` is a PHP native function that applies a closure to every element of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_map().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/array_key_exists(): Argument #2 ($array) must be of type array, %s given.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/array_key_exists(): Argument #2 ($array) must be of type array, %s given.html","name":"array_map()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 05:48:59 +0000","dateModified":"Tue, 03 Feb 2026 05:48:59 +0000","description":"``array_map()`` is a PHP native function that applies a closure to every element of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_map().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_map()
@@ -34,7 +34,7 @@ array_map()
    
    $array = [1,2,3];
    $squared = array_map(square(...), $array);
-   // array(1, 4, 9);
+   // [1, 4, 9];
    
    function squareSum($x, $y) { return $x ** 2 + $y ** 2; }
    

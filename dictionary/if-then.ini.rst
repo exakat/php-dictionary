@@ -2,30 +2,30 @@
 .. _ifthen:
 .. meta::
 	:description:
-		If Then Else: A if-then-else command branches the execution based on an condition.
+		If Then Else: A ``if-then-else`` command branches the execution based on an condition.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: If Then Else
-	:twitter:description: If Then Else: A if-then-else command branches the execution based on an condition
+	:twitter:description: If Then Else: A ``if-then-else`` command branches the execution based on an condition
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: If Then Else
 	:og:type: article
-	:og:description: A if-then-else command branches the execution based on an condition
+	:og:description: A ``if-then-else`` command branches the execution based on an condition
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","name":"If Then Else","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:17 +0000","dateModified":"Mon, 19 Jan 2026 14:11:17 +0000","description":"A if-then-else command branches the execution based on an condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/If Then Else.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","name":"If Then Else","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 06:35:46 +0000","dateModified":"Tue, 03 Feb 2026 06:35:46 +0000","description":"A ``if-then-else`` command branches the execution based on an condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/If Then Else.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 If Then Else
 ------------
 
-A if-then-else command branches the execution based on an condition. When the condition is true, the first branch, called ``then`` is executed. When the condition is false, the second branch, called ``else``, is executed. 
+A ``if-then-else`` command branches the execution based on an condition. When the condition is true, the first branch, called ``then`` is executed. When the condition is false, the second branch, called ``else``, is executed. 
 
-If-then structures may be chained with the `elseif` keyword. The else branch is then a new if-then structure, with a second condition.
+If-then structures may be chained with the ``elseif`` keyword. The ``else`` branch is then a new if-then structure, with a second condition.
 
 .. code-block:: php
    
@@ -34,14 +34,16 @@ If-then structures may be chained with the `elseif` keyword. The else branch is 
    $number = rand(0, 10);
    
    if ($number % 2 === 0) {
-   	print $number is even\\n\;
+   	print "$number is even"\n";
    } else {
-   	print $number is odd\\n\;
+   	print "$number is odd"\n";
    }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/control-structures.if.php>`__
+
+See also https://www.ionos.com/digitalguide/websites/web-development/php-if-else/
 
 Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Arm <arm>`, :ref:`Branch <branch>`, :ref:`Conditional Structures <conditional-structure>`, :ref:`Control Flow <control-flow>`, :ref:`Simple Switch <simple-switch>`

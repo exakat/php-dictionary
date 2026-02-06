@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Foreign Function Interface (FFI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 13:49:01 +0000","dateModified":"Mon, 26 Jan 2026 13:49:01 +0000","description":"``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Foreign Function Interface (FFI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Foreign Function Interface (FFI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 05:48:15 +0000","dateModified":"Tue, 03 Feb 2026 05:48:15 +0000","description":"``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Foreign Function Interface (FFI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Foreign Function Interface (FFI)
@@ -40,4 +40,4 @@ Foreign Function Interface (FFI)
 
 `Documentation <https://www.php.net/manual/en/book.ffi.php#book.ffi>`__
 
-See also https://ryangjchandler.co.uk/posts/blazingly-fast-markdown-parsing-in-php-using-ffi-and-rust, https://platform.sh/blog/php-fun-with-ffi-getting-rust-ic/
+See also https://ryangjchandler.co.uk/posts/blazingly-fast-markdown-parsing-in-php-using-ffi-and-rust, https://platform.sh/blog/php-fun-with-ffi-getting-rust-ic/, https://sanixdk.xyz/blogs/build-go-code-and-use-in-php-codebase

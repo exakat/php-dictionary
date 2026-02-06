@@ -14,6 +14,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Command Line Interface (CLI) <cli>`
 + :ref:`Common Interface Gateway (CGI) <cgi>`
 + :ref:`Concurent Version System (CVS) <cvs>`
++ :ref:`Continuous Delivery (CD) <cd>`
 + :ref:`Continuous Integration (CI) <ci>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 + :ref:`Cross Site Scripting (XSS) <xss>`
@@ -32,6 +33,7 @@ List of acronyms, used in this dictionary.
 + :ref:`File Transfert Protocol (FTP) <ftp>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
 + :ref:`Functional Programming <functional-programming>`
++ :ref:`GNU Multiple Precision (GMP) <gmp>`
 + :ref:`Graphic Draw (GD) <gd>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
@@ -59,6 +61,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Remote Procedure Call (RPC) <rpc>`
 + :ref:`Request For Change (RFC) <rfchange>`
 + :ref:`Reserved For Future Use (RFU) <rfu>`
++ :ref:`Retrieval Augmented Generation (RAG) <rag>`
 + :ref:`Role Based Access Control (RBAC) <rbac>`
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
@@ -169,6 +172,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Immutable <immutable>`
 + :ref:`Index <index>`
 + :ref:`Infinite <infinite>`
++ :ref:`Infinite Loop <infinite-loop>`
 + :ref:`Injection <injection>`
 + :ref:`Jobqueue <jobqueue>`
 + :ref:`Jump <jump>`
@@ -243,6 +247,7 @@ Control flow
 List of command to control the flow of a program.
 
 + :ref:`Do While <do-while>`
++ :ref:`Do...while <dowhile>`
 + :ref:`For <for>`
 + :ref:`Foreach <foreach>`
 + :ref:`Goto <goto>`
@@ -311,6 +316,7 @@ List of PHP keywords and reserved names.
 + :ref:`Clone <clone>`
 + :ref:`Default <default>`
 + :ref:`Do While <do-while>`
++ :ref:`Do...while <dowhile>`
 + :ref:`Empty <empty>`
 + :ref:`Enumeration (enum) <enum>`
 + :ref:`Eval() <eval>`
@@ -446,7 +452,9 @@ List of special PHP extensions.
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Fibers <fibers>`
++ :ref:`GNU Multiple Precision (GMP) <gmp>`
 + :ref:`Hash <hash>`
++ :ref:`Iconv <iconv>`
 + :ref:`Internationalization Functions <intl>`
 + :ref:`Multibyte String <mbstring>`
 + :ref:`OpenSSL <openssl>`
@@ -497,5 +505,6 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Needle <needle>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
++ :ref:`Railroad Programming <railroad>`
 + :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 + :ref:`Separator <separator>`

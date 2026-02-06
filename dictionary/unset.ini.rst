@@ -16,17 +16,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"unset()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 14:32:48 +0000","dateModified":"Fri, 04 Jul 2025 14:32:48 +0000","description":"unset() removes a variable, an array item or an property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unset().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"unset()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 17:50:04 +0000","dateModified":"Mon, 26 Jan 2026 17:50:04 +0000","description":"unset() removes a variable, an array item or an property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unset().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 unset()
 -------
 
-unset() removes a variable, an array item or an property. This feature used to be available as a function call `unset()` or as a type cast `(unset)`. The type-cast was removed in PHP 7.2. 
+unset() removes a variable, an array item or an property. This feature used to be available as a function call ``unset()`` or as a type cast ``(unset)``. The type-cast was removed in PHP 7.2. 
 
-It is not possible to remove a static property.
-
-After removing a property, with ``unset()``, the property is reset to its initial state. It may end up being uninitialized if it does not have a default value.
+It is not possible to remove a static property, but it is possible to remove a property: a defined property will be reverted to its definition, while an undefined property is removed. It may end up being uninitialized if it does not have a default value.
 
 .. code-block:: php
    

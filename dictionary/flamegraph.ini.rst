@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 13:49:03 +0000","dateModified":"Mon, 26 Jan 2026 13:49:03 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time \u2014 especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 10:36:29 +0000","dateModified":"Fri, 06 Feb 2026 10:36:29 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time \u2014 especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Flame Graph
@@ -25,7 +25,7 @@ Flame Graph
 
 Flame graphs are a visualization tool used to understand where a program spends its time — especially useful for performance profiling.
 
-They help you quickly spot hot paths in code — functions or routines that consume the most CPU or other resources.
+They help quickly spot hot paths in code: functions or routines that consume the most CPU or other resources.
 
 See also https://timotijhof.net/posts/2020/profiling-php-at-scale/, https://derickrethans.nl/flamboyant-flamegraphs.html, https://daniellockyer.com/php-flame-graphs/
 

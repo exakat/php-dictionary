@@ -1,36 +1,33 @@
 .. _arrayaccess:
 .. meta::
 	:description:
-		ArrayAccess: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array.
+		ArrayAccess: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: ArrayAccess
-	:twitter:description: ArrayAccess: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array
+	:twitter:description: ArrayAccess: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: ArrayAccess
 	:og:type: article
-	:og:description: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array
+	:og:description: ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayaccess.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArrayAccess","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:22 +0000","dateModified":"Thu, 22 Jan 2026 21:18:22 +0000","description":"ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArrayAccess.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArrayAccess","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 10:38:29 +0000","dateModified":"Fri, 06 Feb 2026 10:38:29 +0000","description":"ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArrayAccess.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ArrayAccess
 -----------
 
-ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to how you access elements in a regular array. When a class implements the ArrayAccess interface, it must provide methods to define how the object behaves when accessed like an array.
+ArrayAccess is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array. When a class implements the ArrayAccess interface, it must provide methods to define how the object behaves when accessed like an array.
 
-+ offsetExists($offset): This method is called when you check if a specific offset exists in the object. It should return a boolean value (true if the offset exists, false otherwise).
-
-+ offsetGet($offset): This method is called when you try to retrieve the value associated with a specific offset. It should return the value at that offset.
-
-+ offsetSet($offset, $value): This method is called when you try to set a value for a specific offset. It takes two parameters: the offset and the value to be set.
-
-+ offsetUnset($offset): This method is called when you attempt to unset or remove a value associated with a specific offset.
++ ``offsetExists($offset)``: This method is called to check if a specific offset exists in the object. It should return a boolean value (true if the offset exists, false otherwise).
++ ``offsetGet($offset)``: This method is called to try to retrieve the value associated with a specific offset. It should return the value at that offset.
++ ``offsetSet($offset, $value)``: This method is called to try to set a value for a specific offset. It takes two parameters: the offset and the value to be set.
++ ``offsetUnset($offset)``: This method is called to unset or remove a value associated with a specific offset.
 
 Implementing ArrayAccess can be useful to create custom data structures or objects that mimic array behavior, providing a convenient and consistent way to work with data.
 

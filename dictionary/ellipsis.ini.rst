@@ -1,28 +1,28 @@
 .. _ellipsis:
 .. meta::
 	:description:
-		Ellipsis: Ellipsis operator is the `.
+		Ellipsis: Ellipsis operator is the ``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Ellipsis
-	:twitter:description: Ellipsis: Ellipsis operator is the `
+	:twitter:description: Ellipsis: Ellipsis operator is the ``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Ellipsis
 	:og:type: article
-	:og:description: Ellipsis operator is the `
+	:og:description: Ellipsis operator is the ``
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 12:54:17 +0000","dateModified":"Mon, 26 Jan 2026 12:54:17 +0000","description":"Ellipsis operator is the `","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Ellipsis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Feb 2026 09:50:52 +0000","dateModified":"Thu, 05 Feb 2026 09:50:52 +0000","description":"Ellipsis operator is the ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Ellipsis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Ellipsis
 --------
 
-Ellipsis operator is the `...` operator. It also bears the name of three dots, and even ``dot dot dot``. 
+Ellipsis operator is the ``...`` operator. It also bears the name of three dots, and even ``dot dot dot``. 
 
 It is used to implements the array spread feature, and the variadic arguments. The actual feature depends on the context. 
 
@@ -39,6 +39,8 @@ Ellipsis is the classic punctuation description of the operator, and will apply 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Ellipsis>`__
+
+See also https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/, https://www.hashbangcode.com/article/splat-operator-php
 
 Related : :ref:`Array Spread <array-spread>`, :ref:`Variadic <variadic>`
 

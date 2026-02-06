@@ -1,4 +1,5 @@
 .. _division:
+.. _/:
 .. meta::
 	:description:
 		Division: Division is the mathematical division.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Division","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 11:11:36 +0000","dateModified":"Mon, 26 Jan 2026 11:11:36 +0000","description":"Division is the mathematical division","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Division.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Division","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 06:25:53 +0000","dateModified":"Tue, 03 Feb 2026 06:25:53 +0000","description":"Division is the mathematical division","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Division.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Division
@@ -30,13 +31,15 @@ Division may be resulting in an integer or a float, whatever the type of the ini
 
 Division by zero, or by any value that is cast to 0, leads to a ``DivisionByZeroError``.
 
+The operator for division is the slash ``/``. The backslash ``\`` is used for namespaces. 
+
 There is a function for the integer division : ``intdiv()``; and ``%`` for the modulo operator, aka the remaining.
 
 .. code-block:: php
    
    <?php
    
-   $a = 10 * 2.5; // 23.0
+   $a = 10 / 2.5; // 4.0
    
    ?>
 
@@ -45,4 +48,4 @@ There is a function for the integer division : ``intdiv()``; and ``%`` for the m
 
 See also https://www.php.net/manual/en/language.operators.array.php, https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php
 
-Related : :ref:`Addition <addition>`, :ref:`Exponent <exponent>`, :ref:`Multiplication <multiplication>`, :ref:`Modulo <modulo>`
+Related : :ref:`Addition <addition>`, :ref:`Exponent <exponent>`, :ref:`Multiplication <multiplication>`, :ref:`Modulo <modulo>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`

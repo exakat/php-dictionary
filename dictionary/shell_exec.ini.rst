@@ -35,4 +35,4 @@ The command has to be passed as a string.
    ?>
 
 
-Related : :ref:`Back-tick <backtick>`, 
+Related : :ref:`Back-tick <backtick>`, :ref:`exec <exec>`

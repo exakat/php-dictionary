@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 Jan 2026 09:47:53 +0000","dateModified":"Mon, 12 Jan 2026 09:47:53 +0000","description":"Variables are used to store and manipulate data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 10:31:13 +0000","dateModified":"Fri, 06 Feb 2026 10:31:13 +0000","description":"Variables are used to store and manipulate data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Variables
@@ -26,9 +26,7 @@ Variables are used to store and manipulate data. They are containers that hold v
 
 Variables in PHP must start with a dollar sign ``$`` followed by the variable name. The name should begin with a letter or an underscore and can contain letters, numbers, and underscores. PHP variable names are case-sensitive.
 
-PHP is a loosely typed language, which means you don't need to explicitly declare the type of a variable. PHP determines the variable's type based on the assigned value. 
-
-
+PHP is a loosely typed language, which means there is no need to explicitly declare the type of a variable. PHP determines the variable's type based on the assigned value.
 
 .. code-block:: php
    

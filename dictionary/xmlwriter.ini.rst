@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"XMLwriter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Mar 2025 15:10:46 +0000","dateModified":"Wed, 05 Mar 2025 15:10:46 +0000","description":"The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XMLwriter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"XMLwriter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 10:30:14 +0000","dateModified":"Fri, 06 Feb 2026 10:30:14 +0000","description":"The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XMLwriter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 XMLwriter
@@ -26,11 +26,11 @@ The ``XMLWriter`` PHP extension is a built-in extension that provides a simple a
 
 The ``XMLWriter`` extension offers several benefits when working with XML in PHP:
 
-+ Efficient and low memory usage: The extension is designed to generate XML incrementally, allowing you to write large XML documents without consuming excessive memory.
-+    Stream-oriented output: ``XMLWriter`` writes XML data to a stream, which can be a file, memory, or an HTTP connection. This enables you to generate XML directly without the need to store the entire document in memory.
-+    Namespace support: ``XMLWriter`` supports XML namespaces, allowing you to define and assign namespaces to elements and attributes.
-+    Character encoding and formatting: ``XMLWriter`` provides methods to set the character encoding of the XML document and control the formatting options, such as indentation and line breaks.
-+    Validity and well-formedness checking: ``XMLWriter`` performs automatic validation and well-formedness checking as you write XML, ensuring that the generated XML document is compliant with XML standards.
++ Efficient and low memory usage: The extension is designed to generate XML incrementally, allowing to write large XML documents without consuming excessive memory.
++ Stream-oriented output: ``XMLWriter`` writes XML data to a stream, which can be a file, memory, or an HTTP connection. This enables the generation of XML directly without the need to store the entire document in memory.
++ Namespace support: ``XMLWriter`` supports XML namespaces, allowing to define and assign namespaces to elements and attributes.
++ Character encoding and formatting: ``XMLWriter`` provides methods to set the character encoding of the XML document and control the formatting options, such as indentation and line breaks.
++ Validity and well-formedness checking: ``XMLWriter`` performs automatic validation and well-formedness checking while writing XML, ensuring that the generated XML document is compliant with XML standards.
 
 .. code-block:: php
    

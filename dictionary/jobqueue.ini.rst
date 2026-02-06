@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Jobqueue","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:31 +0000","dateModified":"Mon, 19 Jan 2026 14:11:31 +0000","description":"A job queue is a concept that refers to a system or data structure used to manage and schedule the execution of various tasks or jobs in a sequential or parallel manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Jobqueue.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Jobqueue","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 09:20:17 +0000","dateModified":"Fri, 06 Feb 2026 09:20:17 +0000","description":"A job queue is a concept that refers to a system or data structure used to manage and schedule the execution of various tasks or jobs in a sequential or parallel manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Jobqueue.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Jobqueue
@@ -29,3 +29,5 @@ Job queues are commonly used in scenarios where there is a need to process multi
 A job queue may organize the tasks in different way : by priority, by type, by sequence, by estimated load, by available worker, etc.
 
 `Documentation <https://en.wikipedia.org/wiki/Job_queue>`__
+
+Related : :ref:`Cron <cron>`, :ref:`Message Queue <message-queue>`, :ref:`Process <process>`, :ref:`Queue <queue>`

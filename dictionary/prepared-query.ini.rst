@@ -1,4 +1,5 @@
 .. _prepared-query:
+.. _prepared-statement:
 .. meta::
 	:description:
 		Prepared Query: A prepared query is a compiled query, where data are provided as parameters.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"Prepared Query","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"A prepared query is a compiled query, where data are provided as parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Prepared Query.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"Prepared Query","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 10:26:34 +0000","dateModified":"Fri, 06 Feb 2026 10:26:34 +0000","description":"A prepared query is a compiled query, where data are provided as parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Prepared Query.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Prepared Query
@@ -31,19 +32,23 @@ Most PHP DB extensions support prepared statements. Prepared statement may also 
 .. code-block:: php
    
    <?php
-   // Example from PHP manual
-   /* Execute a prepared statement by passing an array of values */
-   $sth = $dbh->prepare('SELECT name, colour, calories
-       FROM fruit
-       WHERE calories < ? AND colour = ?');
-   $sth->execute(array(150, 'red'));
-   $red = $sth->fetchAll();
-   $sth->execute(array(175, 'yellow'));
-   $yellow = $sth->fetchAll();
+   
+       // Example from PHP manual
+       /* Execute a prepared statement by passing an array of values */
+       $sth = $dbh->prepare('SELECT name, colour, calories
+           FROM fruit
+           WHERE calories < ? AND colour = ?');
+       $sth->execute(array(150, 'red'));
+       $red = $sth->fetchAll();
+       $sth->execute(array(175, 'yellow'));
+       $yellow = $sth->fetchAll();
+   
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Prepared_statement>`__
+
+See also https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php, https://www.educative.io/answers/what-are-prepared-statements-in-php
 
 Related : :ref:`Simple Query Language (SQL) <sql>`
 

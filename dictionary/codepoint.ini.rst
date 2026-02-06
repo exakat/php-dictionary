@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Codepoint","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:17 +0000","dateModified":"Sun, 25 Jan 2026 20:46:17 +0000","description":"A code point is a numerical value that represents a specific character in an encoding system, such as Unicode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Codepoint.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Codepoint","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 06:17:19 +0000","dateModified":"Tue, 03 Feb 2026 06:17:19 +0000","description":"A code point is a numerical value that represents a specific character in an encoding system, such as Unicode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Codepoint.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Codepoint
@@ -35,5 +35,9 @@ In Unicode, code points are written as U+ followed by a hexadecimal number. For 
    
    ?>
 
+
+`Documentation <https://en.wikipedia.org/wiki/Code_point>`__
+
+See also https://developer.mozilla.org/en-US/docs/Glossary/Code_point, https://www.unicode.org/versions/Unicode14.0.0/ch02.pdf#G25564, https://codepoints.net/?lang=en
 
 Related : :ref:`Unicode <unicode>`, :ref:`Escape Sequences <escape-sequence>`

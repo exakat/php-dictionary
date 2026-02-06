@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Continuous Integration (CI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:13 +0000","dateModified":"Sun, 25 Jan 2026 20:46:13 +0000","description":"Continuous integration refers to the automation of the build and test phase of development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Continuous Integration (CI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Continuous Integration (CI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Feb 2026 09:43:43 +0000","dateModified":"Thu, 05 Feb 2026 09:43:43 +0000","description":"Continuous integration refers to the automation of the build and test phase of development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Continuous Integration (CI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Continuous Integration (CI)
@@ -30,4 +30,6 @@ Since a lot of these operations a executed one after the other, they are called 
 
 Continuous integration is a building block for continuous delivery. This extended notion also include the automated release in production of the code.
 
-Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`
+See also https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/
+
+Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`, :ref:`Continuous Delivery (CD) <cd>`

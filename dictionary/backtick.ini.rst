@@ -36,4 +36,4 @@ Since PHP 8.5, they are deprecated, and should be replaced with a call to ``shel
    ?>
 
 
-Related : :ref:`shell_exec() <shell_exec>`, 
+Related : :ref:`shell_exec() <shell_exec>`, :ref:`exec <exec>`

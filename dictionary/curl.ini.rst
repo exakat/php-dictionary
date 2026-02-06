@@ -1,28 +1,28 @@
 .. _curl:
 .. meta::
 	:description:
-		Client URL (CURL): ``Curl``` is both a PHP extension and a multiprotocol file transfer library.
+		Client URL (CURL): ``Curl`` is both a PHP extension and a multiprotocol file transfer library.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Client URL (CURL)
-	:twitter:description: Client URL (CURL): ``Curl``` is both a PHP extension and a multiprotocol file transfer library
+	:twitter:description: Client URL (CURL): ``Curl`` is both a PHP extension and a multiprotocol file transfer library
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Client URL (CURL)
 	:og:type: article
-	:og:description: ``Curl``` is both a PHP extension and a multiprotocol file transfer library
+	:og:description: ``Curl`` is both a PHP extension and a multiprotocol file transfer library
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Client URL (CURL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:23 +0000","dateModified":"Sun, 25 Jan 2026 20:46:23 +0000","description":"``Curl``` is both a PHP extension and a multiprotocol file transfer library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Client URL (CURL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Client URL (CURL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 05:49:59 +0000","dateModified":"Tue, 03 Feb 2026 05:49:59 +0000","description":"``Curl`` is both a PHP extension and a multiprotocol file transfer library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Client URL (CURL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Client URL (CURL)
 -----------------
 
-``Curl``` is both a PHP extension and a multiprotocol file transfer library. 
+``Curl`` is both a PHP extension and a multiprotocol file transfer library. 
 
 The ``cURL`` (Client URL) extension is a powerful library that allows to transfer data to and from servers using various protocols. It enables to make HTTP requests, handle responses, and perform various network-related tasks from within PHP code.
 

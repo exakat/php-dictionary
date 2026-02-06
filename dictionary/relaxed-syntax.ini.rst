@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relaxed Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 13:19:02 +0000","dateModified":"Thu, 22 Jan 2026 13:19:02 +0000","description":"Relaxed syntax refers to the extra freedom in naming class elements, such as constant and methods, compared to creating global constant and functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relaxed Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relaxed Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 02 Feb 2026 10:28:57 +0000","dateModified":"Mon, 02 Feb 2026 10:28:57 +0000","description":"Relaxed syntax refers to the extra freedom in naming class elements, such as constant and methods, compared to creating global constant and functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relaxed Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Relaxed Syntax
@@ -26,7 +26,7 @@ Relaxed syntax refers to the extra freedom in naming class elements, such as con
 
 In particular, keywords are allowed for class constants and methods, while they are forbidden for global constants and functions. 
 
-Note that using PHP keywords in specific
+Note that using PHP keywords for method names may bring confusion to the next code reader.
 
 .. code-block:: php
    
@@ -41,6 +41,7 @@ Note that using PHP keywords in specific
    	const array = [2];
    
    	function foo() {
+   	    // This is not a syntax that is expected
    		return $this->array() + self::array;
    	}
    }

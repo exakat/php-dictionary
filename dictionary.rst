@@ -24,6 +24,7 @@ PHP Dictionary
    * :ref:`@, No Scream Operator <noscream>`
 * _
    * :ref:`__CLASS__ <-__class__>`
+   * :ref:`__FUNCTION__ <-__function__>`
    * :ref:`__autoload <-__autoload>`
    * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() Method <-__callStatic>`
@@ -80,6 +81,7 @@ PHP Dictionary
    * :ref:`Array <array>`
    * :ref:`Array Append <append>`
    * :ref:`Array Callback <array-callback>`
+   * :ref:`Array Element <array-element>`
    * :ref:`Array Spread <array-spread>`
    * :ref:`Array Syntax <array-syntax>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
@@ -88,6 +90,7 @@ PHP Dictionary
    * :ref:`Arrow Functions <arrow-function>`
    * :ref:`Artifact <artifact>`
    * :ref:`As <as>`
+   * :ref:`Aspect Oriented Programming <aspect-programming>`
    * :ref:`Assertions <assertion>`
    * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
@@ -131,6 +134,8 @@ PHP Dictionary
    * :ref:`Binary Not Operator <binary-not>`
    * :ref:`Binary Operator <binary-operator>`
    * :ref:`Bind <bind>`
+   * :ref:`Bitfield <bitfield>`
+   * :ref:`Bitmask <bitmask>`
    * :ref:`Bitshift Operators <bitshift>`
    * :ref:`Bitwise Operators <bitwise-operator>`
    * :ref:`Blind Variable <blind-variable>`
@@ -235,7 +240,9 @@ PHP Dictionary
    * :ref:`Constants <constant>`
    * :ref:`Constants In Trait <constant-in-trait>`
    * :ref:`Container <container>`
+   * :ref:`Content Management System (CMS) <cms>`
    * :ref:`Continue <continue>`
+   * :ref:`Continuous Delivery (CD) <cd>`
    * :ref:`Continuous Integration (CI) <ci>`
    * :ref:`Contravariance <type-contravariance>`
    * :ref:`Control Flow <control-flow>`
@@ -260,13 +267,13 @@ PHP Dictionary
    * :ref:`Ctype <ctype>`
    * :ref:`Curly Brackets <curly-bracket>`
    * :ref:`Custom <custom>`
+   * :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`
    * :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
    * :ref:`class_alias() <class_alias>`
    * :ref:`compact() <compact>`
    * :ref:`constant() <constant-function>`
    * :ref:`constructor <constructor>`
    * :ref:`count() <count>`
-   * :ref:`crc32 <crc32>`
 * D
    * :ref:`DOM <domxml>`
    * :ref:`Dangling Reference <dangling-reference>`
@@ -289,11 +296,13 @@ PHP Dictionary
    * :ref:`Dead Code <dead-code>`
    * :ref:`Debugger <debugger>`
    * :ref:`Declaration <declaration>`
+   * :ref:`Declarative Programming <declarative-programming>`
    * :ref:`Decorator Pattern <decorator>`
    * :ref:`Deep Clone <deep-clone>`
    * :ref:`Default <default>`
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
+   * :ref:`Defensive Programming <defensive-programming>`
    * :ref:`Definition <definition>`
    * :ref:`Delimiter <delimiter>`
    * :ref:`Dependency Injection <dependency-injection>`
@@ -323,6 +332,7 @@ PHP Dictionary
    * :ref:`Don't Repeat Yourself (DRY) <dry>`
    * :ref:`Dot Notation <dot-notation>`
    * :ref:`Double Arrow <double-arrow>`
+   * :ref:`Double Check <double-check>`
    * :ref:`Double Quotes Strings <double-quote>`
    * :ref:`Downtime <downtime>`
    * :ref:`Duck Typing <duck-typing>`
@@ -351,6 +361,7 @@ PHP Dictionary
    * :ref:`Email <email>`
    * :ref:`Emoji <emoji>`
    * :ref:`Empty <empty>`
+   * :ref:`Empty String <empty-string>`
    * :ref:`Encoding <encoding>`
    * :ref:`Entities <entity>`
    * :ref:`Enumeration (enum) <enum>`
@@ -377,9 +388,11 @@ PHP Dictionary
    * :ref:`Exponent <exponent>`
    * :ref:`Exponential <exponential>`
    * :ref:`Expression <expression>`
+   * :ref:`Expressive Interface <expressive-interface>`
    * :ref:`Extensible Markup Language (XML) <xml>`
    * :ref:`Extensions <extension>`
    * :ref:`each <each>`
+   * :ref:`exec <exec>`
    * :ref:`extends <extends>`
    * :ref:`extract() <extract>`
 * F
@@ -417,6 +430,7 @@ PHP Dictionary
    * :ref:`Foreign Function Interface (FFI) <ffi>`
    * :ref:`Form <form>`
    * :ref:`Format <format>`
+   * :ref:`Forum <forum>`
    * :ref:`Forward Compatible <forward-compatible>`
    * :ref:`Fossilized Methods <fossilized-method>`
    * :ref:`Framework <framework>`
@@ -432,6 +446,7 @@ PHP Dictionary
    * :ref:`filter <filter>`
    * :ref:`ftp:// <wrapper-ftp>`
 * G
+   * :ref:`GNU Multiple Precision (GMP) <gmp>`
    * :ref:`Garbage Collection <garbage-collection>`
    * :ref:`Generator <generator>`
    * :ref:`Generics <generics>`
@@ -490,6 +505,7 @@ PHP Dictionary
    * :ref:`ImagickException <imagickexception>`
    * :ref:`ImagickPixelException <imagickpixelexception>`
    * :ref:`Immutable <immutable>`
+   * :ref:`Imperative Programming <imperative>`
    * :ref:`Implicit <implicit>`
    * :ref:`Import <import>`
    * :ref:`Inclusions <inclusion>`
@@ -502,6 +518,8 @@ PHP Dictionary
    * :ref:`Indexed Array <indexed-array>`
    * :ref:`Inequality <inequality>`
    * :ref:`Infinite <infinite>`
+   * :ref:`Infinite Loop <infinite-loop>`
+   * :ref:`InfiniteIterator <infiniteiterator>`
    * :ref:`Inflector <inflector>`
    * :ref:`Inheritance <inheritance>`
    * :ref:`Inherited Variable <inherited-variable>`
@@ -677,6 +695,7 @@ PHP Dictionary
    * :ref:`Object Type <object-type>`
    * :ref:`Observer Design Pattern <observer>`
    * :ref:`Octal Integer <octal-integer>`
+   * :ref:`Offensive Programming <offensive-programming>`
    * :ref:`Offset <offset>`
    * :ref:`One Liner <one-liner>`
    * :ref:`Opcache <opcache>`
@@ -729,6 +748,7 @@ PHP Dictionary
    * :ref:`PHPunit <phpunit>`
    * :ref:`Packagist <packagist>`
    * :ref:`Pagination <pagination>`
+   * :ref:`Paradigm <paradigm>`
    * :ref:`Parallel <parallel>`
    * :ref:`Parameter <parameter>`
    * :ref:`Parameter Removal <parameter-removal>`
@@ -770,6 +790,7 @@ PHP Dictionary
    * :ref:`Print <print>`
    * :ref:`Private Visibility <private>`
    * :ref:`Procedural Programming <procedural-programming>`
+   * :ref:`Process <process>`
    * :ref:`Process Control (pcntl) <pcntl>`
    * :ref:`Production <production>`
    * :ref:`Promise <promise>`
@@ -799,6 +820,7 @@ PHP Dictionary
 * R
    * :ref:`REST API <rest-api>`
    * :ref:`RFC <rfc>`
+   * :ref:`Railroad Programming <railroad>`
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
    * :ref:`Read Eval Print Loop (REPL) <repl>`
@@ -833,6 +855,7 @@ PHP Dictionary
    * :ref:`Request For Change (RFC) <rfchange>`
    * :ref:`Reserved For Future Use (RFU) <rfu>`
    * :ref:`Reserved Names <reserved-name>`
+   * :ref:`Retrieval Augmented Generation (RAG) <rag>`
    * :ref:`Return <return>`
    * :ref:`Return Type <return-type>`
    * :ref:`Return Type Will Change <returntypewillchange>`
@@ -854,7 +877,6 @@ PHP Dictionary
    * :ref:`STDOUT <stdout>`
    * :ref:`SVMException <svmexception>`
    * :ref:`SVN <svn>`
-   * :ref:`SWAP <swap>`
    * :ref:`Sandbox <sandbox>`
    * :ref:`Sanitation <sanitation>`
    * :ref:`Scaffolding <scaffolding>`
@@ -866,6 +888,7 @@ PHP Dictionary
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
    * :ref:`Secret <secret>`
+   * :ref:`Secure Hash Algorithm (SHA) <sha>`
    * :ref:`Secure Sockets Layer (SSL) <ssl>`
    * :ref:`Security <security>`
    * :ref:`Segmentation Fault <segmentation-fault>`
@@ -948,6 +971,7 @@ PHP Dictionary
    * :ref:`Supply Chain <supply-chain>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
    * :ref:`Support Vector Machine (SVM) <svm>`
+   * :ref:`Swap <swap>`
    * :ref:`Switch <switch>`
    * :ref:`Switch Case <switch-case>`
    * :ref:`Switch Default <switch-default>`

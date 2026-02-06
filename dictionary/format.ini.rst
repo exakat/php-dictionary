@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 13:49:04 +0000","dateModified":"Mon, 26 Jan 2026 13:49:04 +0000","description":"Format is a set of rules to structure a piece of text, and make it parsable by a specific engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Feb 2026 10:10:08 +0000","dateModified":"Thu, 05 Feb 2026 10:10:08 +0000","description":"Format is a set of rules to structure a piece of text, and make it parsable by a specific engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Format
@@ -26,14 +26,14 @@ Format is a set of rules to structure a piece of text, and make it parsable by a
 
 Formats have various shapes. Here are some examples of formats: 
 
-+ `SQL` Structure Query Language: `SELECT column FROM table` 
-+ Date and time (human): `2020-01-01` 
-+ sprintf(): `%d 9` 
++ ``SQL`` Structure Query Language: ``SELECT column FROM table`` 
++ Date and time (human): ``2020-01-01`` 
++ sprintf(): ``%d 9`` 
 + Regular expressions
-+ `YAML`
-+ INI
-+ CSV
-+ JSON
++ ``YAML``
++ ``INI``
++ ``CSV``
++ ``JSON``
 
 It is possible to define one's custom format. Common formats have a comprehensive specifications (how to build them) and assorted tools (encode, decode, use, combine, etc. ).
 
@@ -48,4 +48,4 @@ It is possible to define one's custom format. Common formats have a comprehensiv
    ?>
 
 
-Related : :ref:`String <string>`, :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`Data <data>`, :ref:`sprintf <sprintf>`, :ref:`sprintf <printf>`
+Related : :ref:`String <string>`, :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Data <data>`, :ref:`sprintf <sprintf>`, :ref:`sprintf <printf>`

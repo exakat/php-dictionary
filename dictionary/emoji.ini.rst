@@ -16,10 +16,32 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Emoji","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 12:54:17 +0000","dateModified":"Mon, 26 Jan 2026 12:54:17 +0000","description":"Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Emoji.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Emoji","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Feb 2026 10:04:52 +0000","dateModified":"Thu, 05 Feb 2026 10:04:52 +0000","description":"Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Emoji.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Emoji
 -----
 
 Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication. The word 'emoji' comes from Japanese, combining ``e`` (picture) and ``moji`` (character or letter).
+
+.. code-block:: php
+   
+   <?php
+   
+   // Emoji, directly in the string, when the file is also supporting Unicode, like with UTF8
+   echo "Hello 😊";
+   
+   // Emoji, with a PHP escape sequence
+   echo "\u{1F60A}";
+   
+   // Emoji, with an HTML escape sequence
+   echo "&#128522;";
+   
+   ?>
+
+
+`Documentation <https://unicode.org/emoji/charts/full-emoji-list.html>`__
+
+See also https://en.wikipedia.org/wiki/Emoji
+
+Related : :ref:`Escape Sequences <escape-sequence>`, :ref:`UTF-8 <utf8>`, :ref:`Unicode <unicode>`

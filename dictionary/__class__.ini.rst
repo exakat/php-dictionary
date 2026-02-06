@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","name":"__CLASS__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 27 Jul 2025 19:38:24 +0000","dateModified":"Sun, 27 Jul 2025 19:38:24 +0000","description":"``__CLASS__`` holds the current class name: this is class of definition, not the called class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__CLASS__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","name":"__CLASS__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 09:17:19 +0000","dateModified":"Fri, 06 Feb 2026 09:17:19 +0000","description":"``__CLASS__`` holds the current class name: this is class of definition, not the called class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__CLASS__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __CLASS__
@@ -24,9 +24,11 @@ __CLASS__
 
 ``__CLASS__`` holds the current class name: this is class of definition, not the called class. It is not the same as ``self::class``, which may change depending on the calling context.
 
-The class name includes the namespace it was declared in (e.g. ``N\X``). 
+The class name includes the namespace it was declared in (e.g. ``N\X``). It does not include the leading ``\``. 
 
-When used inside a trait method, ``__CLASS__`` is the name of the class the trait is used in.
+When used inside a trait method, ``__CLASS__`` is the name of the class the trait is used in. When used outside a function, this constant holds an empty string, and does not emit any warning.
+
+This constant is written in uppercase, by convention. It is case insensitive, and may be used with any combinaison of uppercase and lower case. 
 
 .. code-block:: php
    
@@ -36,7 +38,7 @@ When used inside a trait method, ``__CLASS__`` is the name of the class the trai
    
    class X {
        function foo() {
-           echo __CLASS__;
+           echo __CLASS__;  // N\X
        }
    }
    
@@ -44,3 +46,5 @@ When used inside a trait method, ``__CLASS__`` is the name of the class the trai
 
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
+
+Related : :ref:`__FUNCTION__ <-__function__>`, , 

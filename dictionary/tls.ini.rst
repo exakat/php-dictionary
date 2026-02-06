@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transport Layer Security (TLS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 12:49:55 +0000","dateModified":"Thu, 22 Jan 2026 12:49:55 +0000","description":"TLS, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transport Layer Security (TLS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transport Layer Security (TLS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 17:11:41 +0000","dateModified":"Mon, 26 Jan 2026 17:11:41 +0000","description":"TLS, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transport Layer Security (TLS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Transport Layer Security (TLS)
@@ -31,9 +31,15 @@ TLS is a PHP context for sockets, and share the configuration options with SSL.
    
    <?php
    
-   $context = stream_context_create( array( 'tls' => ['local_cert'=> $certificate_path], )));
+   $context = stream_context_create( ['tls' => ['local_cert'=> $certificate_path], ]));
    
-   if ($fp = stream_socket_client('tlsv1.2://'.$host.':'.$port, $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $context)) {
+   if ($fp = stream_socket_client('tlsv1.2://'.$host.':'.$port, 
+                                  $errno, 
+                                  $errstr, 
+                                  30, 
+                                  STREAM_CLIENT_CONNECT, 
+                                  $context,
+                                  )) {
        fwrite($fp, "\n");
    } else {
       echo "Error: $errno - $errstr\n";

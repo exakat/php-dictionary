@@ -31,4 +31,4 @@ PHP supports threads with extensions, such as the pthread extension. It also sup
 
 See also https://www.php.net/manual/en/book.pthreads.php, https://www.php.net/manual/en/faq.obtaining.php#faq.obtaining.threadsafety, https://medium.com/@andreibirta95/php-and-threads-c6b7ea512fdc
 
-Related : 
+Related : :ref:`Process <process>`
