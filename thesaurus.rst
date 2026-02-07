@@ -224,6 +224,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Text Encoding <encoding-text>`
 + :ref:`Traversal <traversal>`
 + :ref:`Truthy <truthy>`
++ :ref:`Undefined <undefined>`
 + :ref:`Underflow <underflow>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
@@ -398,6 +399,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Type Coverage <type-coverage>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
++ :ref:`Type System <type>`
 + :ref:`Typed Property <typed-property>`
 + :ref:`Void <void>`
 + :ref:`resource <resource>`

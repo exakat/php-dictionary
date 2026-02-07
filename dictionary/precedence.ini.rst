@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"Precedence organizes the way operators are executed, when they are mixed in the same expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Feb 2026 21:14:25 +0000","dateModified":"Sat, 07 Feb 2026 21:14:25 +0000","description":"Precedence organizes the way operators are executed, when they are mixed in the same expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Precedence
@@ -24,11 +24,11 @@ Precedence
 
 Precedence organizes the way operators are executed, when they are mixed in the same expression.
 
-For example, `1 + 2 * 3` will produce `7`, since `*` has a higher precedence than `+`. 
+For example, ``1 + 2 * 3`` will produce ``7``, since ``*`` has a higher precedence than ``+``. 
 
 Every operator has a precedence, and when they have the same precedence, the rightmost one yield to the leftmost one.
 
-Precedence offers some reading surprises to human readers. For example, `! $b instanceof \X` really applies `instanceof` first, and `&&` has a higher priority than `and`, even though they perform the same function.
+Precedence offers some reading surprises to human readers. For example, ``! $b instanceof \X`` really applies ``instanceof`` first, and ``&&`` has a higher priority than ``and``, even though they perform the same function.
 
 .. code-block:: php
    

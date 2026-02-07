@@ -312,7 +312,7 @@ PHP Dictionary
    * :ref:`Deprecation <deprecation>`
    * :ref:`Depth <depth>`
    * :ref:`Dereferencing <dereferencing>`
-   * :ref:`Design By Contract <contract>`
+   * :ref:`Design By Contract (DBC) <contract>`
    * :ref:`Design Pattern <design-pattern>`
    * :ref:`Design Pattern Wrapper <wrapper-designpattern>`
    * :ref:`Destructor <destructor>`
