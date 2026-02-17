@@ -2,28 +2,28 @@
 .. _lambda-functions:
 .. meta::
 	:description:
-		Closure: Closures are anonymous functions : functions without a name.
+		Closure: Closures are anonymous functions: functions without a name.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Closure
-	:twitter:description: Closure: Closures are anonymous functions : functions without a name
+	:twitter:description: Closure: Closures are anonymous functions: functions without a name
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Closure
 	:og:type: article
-	:og:description: Closures are anonymous functions : functions without a name
+	:og:description: Closures are anonymous functions: functions without a name
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:16 +0000","dateModified":"Sun, 25 Jan 2026 20:46:16 +0000","description":"Closures are anonymous functions : functions without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Feb 2026 09:00:48 +0000","dateModified":"Tue, 10 Feb 2026 09:00:48 +0000","description":"Closures are anonymous functions: functions without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Closure
 -------
 
-Closures are anonymous functions : functions without a name. They are also supported by the eponymous ``Closure`` class in PHP.
+Closures are anonymous functions: functions without a name. They are also supported by the eponymous ``Closure`` class in PHP.
 
 They are close to the arrow-functions. They are also created with the ``...`` operator, also known as the first class callable.
 

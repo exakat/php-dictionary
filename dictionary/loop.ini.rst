@@ -1,34 +1,34 @@
 .. _loop:
 .. meta::
 	:description:
-		Loops: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition.
+		Loops: A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Loops
-	:twitter:description: Loops: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition
+	:twitter:description: Loops: A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Loops
 	:og:type: article
-	:og:description: A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition
+	:og:description: A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:49 +0000","dateModified":"Mon, 19 Jan 2026 14:11:49 +0000","description":"A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Feb 2026 08:52:59 +0000","dateModified":"Tue, 10 Feb 2026 08:52:59 +0000","description":"A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Loops
 -----
 
-A loop is a control structure that allows you to execute a block of code repeatedly based on a specified condition. Loops are essential for automating repetitive tasks and processing arrays or collections of data. PHP provides several types of loops, including: for, while, do...while and foreach.
+A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition. Loops are essential for automating repetitive tasks and processing arrays or collections of data. PHP provides several types of loops, including: for, while, do...while and foreach.
 
 The most popular loop is foreach().
 
-Loops may hide in certain functions : for example, array_map() and array_walk() apply a method to every element in an array. 
+Loops may hide in certain functions: for example, ``array_map()`` and ``array_walk()`` apply a method to every element in an array. 
 
-Generators are closely related to the foreach() loop.
+Generators are closely related to the ``foreach()`` loop.
 
 .. code-block:: php
    

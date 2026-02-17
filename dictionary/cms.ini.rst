@@ -41,4 +41,4 @@ CMS may be open source or proprietary. They usually come with a marketplace, whi
 
 See also https://www.plesk.com/blog/various/top-10-php-cms-platforms-for-developers-in-2024/
 
-Related : , , :ref:`Plugin <plugin>`
+Related : :ref:`Open Source <open-source>`, , :ref:`Plugin <plugin>`

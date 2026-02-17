@@ -1,32 +1,32 @@
 .. _disable-functions:
 .. meta::
 	:description:
-		Disable Functions: This PHP directive is used to prevent specific functions from being called in PHP scripts.
+		Disable Functions: The ``disable_functions`` PHP directive prevents specific functions from being called in PHP scripts.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Disable Functions
-	:twitter:description: Disable Functions: This PHP directive is used to prevent specific functions from being called in PHP scripts
+	:twitter:description: Disable Functions: The ``disable_functions`` PHP directive prevents specific functions from being called in PHP scripts
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Disable Functions
 	:og:type: article
-	:og:description: This PHP directive is used to prevent specific functions from being called in PHP scripts
+	:og:description: The ``disable_functions`` PHP directive prevents specific functions from being called in PHP scripts
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-functions.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Disable Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Feb 2026 21:16:52 +0000","dateModified":"Sat, 07 Feb 2026 21:16:52 +0000","description":"This PHP directive is used to prevent specific functions from being called in PHP scripts","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Disable Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Disable Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Feb 2026 07:49:27 +0000","dateModified":"Sun, 08 Feb 2026 07:49:27 +0000","description":"The ``disable_functions`` PHP directive prevents specific functions from being called in PHP scripts","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Disable Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Disable Functions
 -----------------
 
-This PHP directive is used to prevent specific functions from being called in PHP scripts. It helps mitigate potential security vulnerabilities or enforce practices by forbidding usage of specific functions.
+The ``disable_functions`` PHP directive prevents specific functions from being called in PHP scripts. It helps mitigate potential security vulnerabilities or enforce practices by forbidding usage of specific functions, even when they are compiled into the engine.
 
 This directive requires a list of PHP functions, separated by a comma, and set in the PHP.ini file : this is read at startup time and cannot be changed later. 
 
-disable_functions only works on PHP native functions. It is not possible to preemptively disable a custom function. 
+``disable_functions`` only works on PHP native functions, and extension functions. It is not possible to preemptively disable a custom function: this may be achieved by defining the forbidden function, and assigning it a warning, or no operation (see ``auto_prepend_file``). 
 
 Disabled functions appear as undefined : in fact, they can also be redefined, with a custom code and then used.
 
@@ -34,4 +34,4 @@ Disabled functions appear as undefined : in fact, they can also be redefined, wi
 
 See also https://kb.hosting.com/docs/php-disable_functions-directive
 
-Related : :ref:`Functions <function>`
+Related : :ref:`Functions <function>`, :ref:`Preappend File Directive <auto_prepend_file>`, , 

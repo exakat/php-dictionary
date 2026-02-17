@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OutOfRangeException","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 07:52:32 +0000","dateModified":"Thu, 22 Jan 2026 07:52:32 +0000","description":"``OutOfRangeException`` is a built-in exception class that is used to indicate that an index or value is outside the acceptable range","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OutOfRangeException.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OutOfRangeException","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:36:19 +0000","dateModified":"Mon, 16 Feb 2026 21:36:19 +0000","description":"``OutOfRangeException`` is a built-in exception class that is used to indicate that an index or value is outside the acceptable range","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OutOfRangeException.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OutOfRangeException
@@ -30,14 +30,15 @@ The ``OutOfRangeException`` is typically thrown when accessing an array or colle
    
    <?php
    
-   $list = new SplDoublyLinkedList();
+       $list = new SplDoublyLinkedList();
+       
+       try {
+           // Adding 5 at index 2, while it should be added a 0 (empty list)
+           $list->add(2,5);
+       } catch (OutOfRangeException $e) {
+           echo "Exception: ".$e->getMessage()."\n";
+       }
    
-   try {
-       // Adding 5 at index 2, while it should be added a 0 (empty list)
-       $list->add(2,5);
-   } catch (OutOfRangeException $e) {
-       echo "Exception: \.$e->getMessage()."\n";
-   }
    ?>
 
 

@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"print_r()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/print_r().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"print_r()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Feb 2026 08:55:43 +0000","dateModified":"Tue, 10 Feb 2026 08:55:43 +0000","description":"print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/print_r().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 print_r()
 ---------
 
-print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. It's particularly helpful for debugging and understanding the structure of complex data structures in your PHP code. When you use print_r, it prints the array or object's values and structure to the browser or the console.
+print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. It's particularly helpful for debugging and understanding the structure of complex data structures in the PHP code. When using ``print_r()``, it displays the array or object's values and structure to the browser or the console.
 
 .. code-block:: php
    

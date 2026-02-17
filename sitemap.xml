@@ -55,6 +55,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__clone.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__file__.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__function__.ini.html</loc>
  </url>
  <url>
@@ -65,6 +68,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__isset.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__method__.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/__serialize.ini.html</loc>
@@ -295,6 +301,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/authorize.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/auto_prepend_file.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html</loc>
  </url>
  <url>
@@ -448,6 +457,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/callstack.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/camel-case.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/canonical.ini.html</loc>
  </url>
  <url>
@@ -508,6 +520,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/class-entity.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/class-hierarchy.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/class-hoisting.ini.html</loc>
  </url>
  <url>
@@ -536,6 +551,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/closed-source.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/closedgeneratorexception.ini.html</loc>
@@ -583,6 +601,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/coding-convention.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cognitive-complexity.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/collection.ini.html</loc>
  </url>
  <url>
@@ -614,6 +635,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/compile-time.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/complexity.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/component.ini.html</loc>
@@ -997,6 +1021,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ecosystem.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/edge-case.ini.html</loc>
  </url>
  <url>
@@ -1103,6 +1130,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/explicit.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/explode.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/exponent.ini.html</loc>
@@ -1319,6 +1349,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/graphql.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/grpc.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/halt-compiler.ini.html</loc>
@@ -1645,6 +1678,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/libsodium.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/licence.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/lint-wont-execute.ini.html</loc>
  </url>
  <url>
@@ -1927,6 +1963,12 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/non-static.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/nonce.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/noop.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/noscream.ini.html</loc>
  </url>
  <url>
@@ -2015,6 +2057,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/opcode.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/open-source.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/open-tag.ini.html</loc>
@@ -2113,10 +2158,16 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/partial-function.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/passphrase.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/password-ext.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/password.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/path-traversal.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html</loc>
@@ -2281,6 +2332,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-exception.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/prefix.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/prepared-query.ini.html</loc>
  </url>
  <url>
@@ -2342,6 +2396,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/public.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/quality.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html</loc>
@@ -2812,6 +2869,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/subtype.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/suffix.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sunsetting.ini.html</loc>
  </url>
  <url>
@@ -2900,6 +2960,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/testdox.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/thin-method.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/thread.ini.html</loc>
@@ -3190,6 +3253,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wither.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/word-combinaison.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-designpattern.ini.html</loc>
  </url>
  <url>
@@ -3200,6 +3266,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-http.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-pattern.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-php.ini.html</loc>

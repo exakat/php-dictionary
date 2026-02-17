@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 13:49:02 +0000","dateModified":"Mon, 26 Jan 2026 13:49:02 +0000","description":"A file is a named collection of data or information that is stored and organized on a computer's storage system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 21:06:49 +0000","dateModified":"Thu, 12 Feb 2026 21:06:49 +0000","description":"A file is a named collection of data or information that is stored and organized on a computer's storage system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 File
@@ -45,4 +45,4 @@ A file is a resource for recording data on a computer storage device, such as a 
 
 See also https://www.php.net/manual/en/book.filesystem.php
 
-Related : :ref:`file:// <wrapper-file>`, :ref:`File System <filesystem>`, :ref:`Universal Resource Locator (URL) <url>`
+Related : :ref:`file:// <wrapper-file>`, :ref:`File System <filesystem>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Stream <stream>`

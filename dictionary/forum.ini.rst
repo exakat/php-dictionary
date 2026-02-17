@@ -44,4 +44,4 @@ PHP has a lot of forums. Here is a list:
 + ``ElkArte <https://www.elkarte.net/>``_.
 
 
-Related : , , :ref:`Plugin <plugin>`
+Related : :ref:`Open Source <open-source>`, , :ref:`Plugin <plugin>`

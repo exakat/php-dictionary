@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Null Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:21:26 +0000","dateModified":"Tue, 20 Jan 2026 07:21:26 +0000","description":"The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Null Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Null Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Feb 2026 08:54:36 +0000","dateModified":"Tue, 10 Feb 2026 08:54:36 +0000","description":"The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Null Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Null Pattern
@@ -30,11 +30,9 @@ The Null Pattern suggests creating a special object to represent the absence of 
 
 Key principles of the Null Pattern:
 
-    Null Object: Create a specific class that implements a common interface for the objects in question. This class represents the null state and provides default, empty, or no-op implementations of the interface's methods.
-
-    No Null Checks: Instead of checking for null before using an object, you can safely call methods on the Null Object, knowing that it won't throw exceptions or cause errors. This simplifies the code and avoids conditional logic based on null checks.
-
-    Transparency: Code that interacts with the Null Object should treat it like any other object without needing to handle special cases for null.
++ Null Object: Create a specific class that implements a common interface for the objects in question. This class represents the null state and provides default, empty, or no-op implementations of the interface's methods.
++ No Null Checks: Instead of checking for ``null`` before using an object, it is safe to call methods on the Null Object, knowing that it won't throw exceptions or cause errors. This simplifies the code and avoids conditional logic based on ``null`` checks, although it may replace such checks with a call to ``instanceof`` to identify the Null Object.
++ Transparency: Code that interacts with the Null Object should treat it like any other object without needing to handle special cases for ``null``.
 
 .. code-block:: php
    

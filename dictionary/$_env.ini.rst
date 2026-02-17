@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_ENV","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 16:03:20 +0000","dateModified":"Wed, 21 Jan 2026 16:03:20 +0000","description":"The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_ENV.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_ENV","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 13 Feb 2026 12:45:46 +0000","dateModified":"Fri, 13 Feb 2026 12:45:46 +0000","description":"The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_ENV.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_ENV
@@ -26,14 +26,13 @@ The ``$_ENV`` variable is a special superglobal variable that is used to retriev
 
 The ``$_ENV`` variable is an associative array where the keys are the global variables and the values are the corresponding values. 
 
-$_ENV is a superglobal : it is always available, in every scope.
+``$_ENV`` is a superglobal: it is always available, in every scope.
 
-Values inside $_ENV are always strings. 
+Values inside ``$_ENV`` are always strings. 
 
-The values in the $_ENV are collected at the start of the script, and do no change during the life time of the script. To get an up to date value, the function getenv() is preferable.
+The values in the ``$_ENV`` are collected at the start of the script, and do no change during the life time of the script. To get an up to date value, the function ``getenv()`` is preferable.
 
-The content of the ``$_ENV`` array varies from installation to installation : there is no default list of keys in that array. It entirely depends on the underlying system.
-
+The content of the ``$_ENV`` array varies from installation to installation: there is no default list of keys in that array. It entirely depends on the underlying system.
 
 .. code-block:: php
    

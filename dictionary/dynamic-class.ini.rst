@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 11:11:38 +0000","dateModified":"Mon, 26 Jan 2026 11:11:38 +0000","description":"A dynamic class is a class whose fully qualified name is defined at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 07:07:20 +0000","dateModified":"Thu, 12 Feb 2026 07:07:20 +0000","description":"A dynamic class is a class whose fully qualified name is defined at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic Class
@@ -30,7 +30,9 @@ The name of the class is a string. It may be also accessed with the ``::class`` 
 
 For a dynamic call, the name of the class may or may not start with a ``\`` char: both cases work.
 
-Dynamic class may be used with static calls, for class constants, enum cases, static method or static property. It may also be used with the instantiation operator ``new``.
+Dynamic class may be used with static calls, for class constants, enum cases, static method or static property. Here, the call is static, as it actually does not depends on the object, but on the class of the object. 
+
+It may also be used with the instantiation operator ``new``.
 
 It is also possible to use an object of the same class for all these calls.
 
@@ -50,4 +52,4 @@ It is also possible to use an object of the same class for all these calls.
    ?>
 
 
-Related : :ref:`new <new>`, 
+Related : :ref:`new <new>`, , :ref:`Late Static Binding <late-binding>`, :ref:`Early Binding <early-binding>`

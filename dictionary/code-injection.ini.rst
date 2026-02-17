@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Code Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 06:38:31 +0000","dateModified":"Tue, 03 Feb 2026 06:38:31 +0000","description":"A CODE injection is a vulnerability, where external data is used as PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Code Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 21:44:41 +0000","dateModified":"Thu, 12 Feb 2026 21:44:41 +0000","description":"A CODE injection is a vulnerability, where external data is used as PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Injection
@@ -26,9 +26,9 @@ A CODE injection is a vulnerability, where external data is used as PHP code.
 
 In the example below, ``$_GET`` is directly used in the ``eval()`` function. By using a clever string (shown in comment), it is possible to assign the variable, and run the phpinfo() command. 
 
-Among the solutions to mitigate this problem : filter adequately the incoming data; use prepared statements. 
+Among the solutions to mitigate this problem: filter adequately the incoming data; use prepared statements. 
 
-Some PHP functions are sensitive to this kind of attack : ``eval()``, ``include()``, ``include_once()``, ``require()``, ``require_once()``. Dynamic calls are also susceptible of code injection.
+Some PHP functions are sensitive to this kind of attack: ``eval()``, ``include()``, ``include_once()``, ``require()``, ``require_once()``. Dynamic calls are also susceptible of code injection.
 
 .. code-block:: php
    
@@ -44,6 +44,6 @@ Some PHP functions are sensitive to this kind of attack : ``eval()``, ``include(
    ?>
 
 
-See also https://www.acunetix.com/websitesecurity/php-security-2/
+See also https://www.acunetix.com/websitesecurity/php-security-2/, https://beaglesecurity.com/blog/vulnerability/php-code-injection.html
 
 Related : :ref:`Eval() <eval>`, :ref:`Inclusions <inclusion>`, :ref:`Dynamic Call <dynamic-call>`

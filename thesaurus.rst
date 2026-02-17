@@ -135,6 +135,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Clone <clone>`
 + :ref:`Code Smell <code-smell>`
 + :ref:`Command Bus <command-bus>`
++ :ref:`Compatibility <compatibility>`
++ :ref:`Complexity <complexity>`
 + :ref:`Concatenative <concatenative>`
 + :ref:`Condition <condition>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
@@ -153,6 +155,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
++ :ref:`Double Check <double-check>`
 + :ref:`Duck Typing <duck-typing>`
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
@@ -170,6 +173,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Hydratation <hydrate>`
 + :ref:`Idempotent <idempotent>`
 + :ref:`Immutable <immutable>`
++ :ref:`Increment <increment>`
 + :ref:`Index <index>`
 + :ref:`Infinite <infinite>`
 + :ref:`Infinite Loop <infinite-loop>`
@@ -186,12 +190,15 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Merge <merge>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
++ :ref:`Name <name>`
++ :ref:`Noop <noop>`
 + :ref:`Over-engineer <overengineer>`
 + :ref:`Overloading <overloading>`
 + :ref:`Overwrite <overwrite>`
 + :ref:`PHPdoc <phpdoc>`
 + :ref:`Pagination <pagination>`
 + :ref:`Partial Function <partial-function>`
++ :ref:`Passphrase <passphrase>`
 + :ref:`Password <password>`
 + :ref:`Path <path>`
 + :ref:`Permission <permission>`
@@ -201,12 +208,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Production <production>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`
++ :ref:`Quality <quality>`
 + :ref:`Real Numbers <real>`
 + :ref:`Refactoring <refactoring>`
 + :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
 + :ref:`Rendering <render>`
 + :ref:`SOLID <solid>`
++ :ref:`Sandbox <sandbox>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
 + :ref:`Security <security>`
@@ -265,6 +274,7 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 
 + :ref:`Disable Functions <disable-functions>`
 + :ref:`Error Reporting <error-reporting>`
++ :ref:`Preappend File Directive <auto_prepend_file>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`memory_limit <memory_limit>`
 + :ref:`php.ini <php.ini>`
@@ -298,6 +308,7 @@ List of exceptions, available in PHP.
 + :ref:`UnexpectedValueException <unexpectedvalueexception>`
 + :ref:`UnhandledMatchError <unhandledmatcherror>`
 + :ref:`ValueError <valueerror>`
++ :ref:`mysqli_sql_exception <mysqli_sql_exception>`
 
 Keyword
 -------
@@ -452,6 +463,7 @@ List of special PHP extensions.
 + :ref:`Calendar <calendar>`
 + :ref:`Core <core>`
 + :ref:`Cryptographic Hash <hash-crypto>`
++ :ref:`DOM <domxml>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Fibers <fibers>`
 + :ref:`GNU Multiple Precision (GMP) <gmp>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DivisionByZeroError","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 11:11:36 +0000","dateModified":"Mon, 26 Jan 2026 11:11:36 +0000","description":"DivisionByZeroError is thrown when an attempt is made to divide a number by zero","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DivisionByZeroError.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DivisionByZeroError","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 22:06:20 +0000","dateModified":"Thu, 12 Feb 2026 22:06:20 +0000","description":"DivisionByZeroError is thrown when an attempt is made to divide a number by zero","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DivisionByZeroError.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 DivisionByZeroError
@@ -28,9 +28,8 @@ DivisionByZeroError is thrown when an attempt is made to divide a number by zero
    
    <?php
    try {
-       echo 1/$a;
-   }
-   catch(DivisionByZeroError $e){
+       echo 1 / $a;
+   } catch(DivisionByZeroError $e){
        echo 'Trying to divide by 0';
    }
    
@@ -39,4 +38,4 @@ DivisionByZeroError is thrown when an attempt is made to divide a number by zero
 
 `Documentation <https://www.php.net/manual/en/class.divisionbyzeroerror.php>`__
 
-Related : :ref:`Error <error>`
+Related : :ref:`Error <error>`, :ref:`ArithmeticError Error <arithmeticerror>`, :ref:`Division <division>`, :ref:`Underscore <underscore>`, :ref:`zero <zero>`

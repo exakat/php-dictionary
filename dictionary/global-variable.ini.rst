@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Global Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:56:44 +0000","dateModified":"Sat, 17 Jan 2026 06:56:44 +0000","description":"Variables that reside in the global scope, and may be imported with the global keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Global Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Global Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 15 Feb 2026 21:39:44 +0000","dateModified":"Sun, 15 Feb 2026 21:39:44 +0000","description":"Variables that reside in the global scope, and may be imported with the global keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Global Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Global Variables
@@ -24,10 +24,10 @@ Global Variables
 
 Variables that reside in the global scope, and may be imported with the global keyword.
 
-To become a global variable, a variable may use one of the following ways : 
+To become a global variable, a variable may use one of the following ways: 
 
-+ Be declared as such with the `global` keyword
-+ Be created in the `$GLOBALS` variable, which is a global variable itself
++ Be declared as such with the ``global`` keyword
++ Be created in the ``$GLOBALS`` variable, which is a global variable itself
 + Be created outside any function, method, closure
 + Be a super-global
 
@@ -58,4 +58,4 @@ Global variables provides a way to share data in different and remote scopes. It
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`$GLOBALS <globals>`, :ref:`global Scope <global>`, :ref:`Superglobal Variables <superglobal>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`$GLOBALS <$globals>`, :ref:`global Scope <global>`, :ref:`Superglobal Variables <superglobal>`

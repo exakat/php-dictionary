@@ -1,28 +1,28 @@
 .. _plus:
 .. meta::
 	:description:
-		Plus +: `+` is a native PHP operator, which has three usage : .
+		Plus +: ``+`` is a native PHP operator, which has three usage: .
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Plus +
-	:twitter:description: Plus +: `+` is a native PHP operator, which has three usage : 
+	:twitter:description: Plus +: ``+`` is a native PHP operator, which has three usage: 
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Plus +
 	:og:type: article
-	:og:description: `+` is a native PHP operator, which has three usage : 
+	:og:description: ``+`` is a native PHP operator, which has three usage: 
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/plus.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Plus +","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"`+` is a native PHP operator, which has three usage : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Plus +.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Plus +","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:36:48 +0000","dateModified":"Mon, 16 Feb 2026 21:36:48 +0000","description":"``+`` is a native PHP operator, which has three usage: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Plus +.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Plus +
 ------
 
-`+` is a native PHP operator, which has three usage : 
+``+`` is a native PHP operator, which has three usage: 
 
 + The addition, as in mathematics, on numbers. This works on integers and floats.
 + The merging of arrays. This merge sets the keys once, then omits the next values. This is distinct from ``array_merge()``.

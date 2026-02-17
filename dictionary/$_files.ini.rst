@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_FILES","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 13:04:09 +0000","dateModified":"Thu, 22 Jan 2026 13:04:09 +0000","description":"In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=\"multipart\/form-data\"`` attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_FILES.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_FILES","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 13 Feb 2026 12:44:39 +0000","dateModified":"Fri, 13 Feb 2026 12:44:39 +0000","description":"In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=\"multipart\/form-data\"`` attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_FILES.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_FILES
@@ -26,15 +26,14 @@ In PHP, the ``$_FILES`` variable is a special superglobal variable that is used 
 
 When a file upload form is submitted, PHP populates the ``$_FILES`` variable with an array structure that contains information about the uploaded files. The array is organized based on the input field names used in the form.
 
-+ ``$_FILES['userfile']['name']`` : the original name of the file on the client machine.
-+ ``$_FILES['userfile']['type']`` : the mime type of the file, if the browser provided this information. An example would be ``"image/gif"``. This mime type is however not checked on the PHP side and therefore don't take its value for granted.
-+ ``$_FILES['userfile']['size']`` : the size, in bytes, of the uploaded file.
-+ ``$_FILES['userfile']['tmp_name']`` : the temporary filename of the file in which the uploaded file was stored on the server.
-+ ``$_FILES['userfile']['error']`` : the error code associated with this file upload.
-+ ``$_FILES['userfile']['full_path']`` : the full path as submitted by the browser. This value does not always contain a real directory structure, and cannot be trusted. Available as of PHP 8.1.0.
++ ``$_FILES['userfile']['name']``: the original name of the file on the client machine.
++ ``$_FILES['userfile']['type']``: the mime type of the file, if the browser provided this information. An example would be ``"image/gif"``. This mime type is however not checked on the PHP side and therefore don't take its value for granted.
++ ``$_FILES['userfile']['size']``: the size, in bytes, of the uploaded file.
++ ``$_FILES['userfile']['tmp_name']``: the temporary filename of the file in which the uploaded file was stored on the server.
++ ``$_FILES['userfile']['error']``: the error code associated with this file upload.
++ ``$_FILES['userfile']['full_path']``: the full path as submitted by the browser. This value does not always contain a real directory structure, and cannot be trusted. Available as of PHP 8.1.0.
 
-``$_FILES`` is associated to the functions move_uploaded_file() and is_uploaded_file().
-
+``$_FILES`` is associated to the functions ``move_uploaded_file()`` and ``is_uploaded_file()``.
 
 .. code-block:: php
    

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Default Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 11:11:33 +0000","dateModified":"Mon, 26 Jan 2026 11:11:33 +0000","description":"Methods may define a default value for parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Default Parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Default Parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Feb 2026 16:34:02 +0000","dateModified":"Mon, 09 Feb 2026 16:34:02 +0000","description":"Methods may define a default value for parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Default Parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Default Parameter
@@ -26,7 +26,7 @@ Methods may define a default value for parameters. That way the parameter may be
 
 The default value may be a static expression, and, since PHP 8.1, also include new expression. 
 
-The default parameter must be the last of the parameters : adding a parameter without default value after one will yield an error and mess up the call parameters.
+The default parameter must be the last of the parameters: adding a parameter without default value after one will yield an error and mess up the call parameters.
 
 .. code-block:: php
    
@@ -41,4 +41,4 @@ The default parameter must be the last of the parameters : adding a parameter wi
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.default>`__
 
-Related : :ref:`Functions <function>`, :ref:`Method <method>`
+Related : :ref:`Functions <function>`, :ref:`Method <method>`, :ref:`Null Pattern <nullpattern>`

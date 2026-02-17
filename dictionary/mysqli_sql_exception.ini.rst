@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"mysqli_sql_exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:20:47 +0000","dateModified":"Tue, 20 Jan 2026 07:20:47 +0000","description":"mysqli_sql_exception is thrown when a mysqli related error is found","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mysqli_sql_exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"mysqli_sql_exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:29:28 +0000","dateModified":"Mon, 16 Feb 2026 21:29:28 +0000","description":"mysqli_sql_exception is thrown when a mysqli related error is found","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mysqli_sql_exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 mysqli_sql_exception
@@ -32,13 +32,14 @@ Methods like ``commit``, ``query``, ``prepare``, ``execute_query``, ``rollback``
    
    <?php
    
-   	$mysqli = new Mysqli($host, $user, $pass);
-   	
+       $mysqli = new Mysqli($host, $user, $pass);
+   
        try {
-   	    $mysqli->execute_query();
+           $mysqli->execute_query();
        } catch(mysqli_sql_exception $e) {
-           echo $e->getMessage().\\\n\;
+           echo $e->getMessage()."\\n";
        }
+   
    ?>
 
 

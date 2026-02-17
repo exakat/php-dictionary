@@ -57,4 +57,4 @@ Those constants are case insensitive. While the common convention is to use them
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
-Related : :ref:`Magic <magic>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Methods <magic-method>`, :ref:`__CLASS__ <-__class__>`, :ref:`__FUNCTION__ <-__function__>`, , :ref:`Property Hook <property-hook>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Special Constant <special-constant>`
+Related : :ref:`Magic <magic>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Methods <magic-method>`, :ref:`__CLASS__ <-__class__>`, :ref:`__FUNCTION__ <-__function__>`, :ref:`__METHOD__ <-__method__>`, :ref:`Property Hook <property-hook>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Special Constant <special-constant>`

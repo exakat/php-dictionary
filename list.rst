@@ -23,10 +23,12 @@ Index
    dictionary/__callstatic.ini
    dictionary/__class__.ini
    dictionary/__clone.ini
+   dictionary/__file__.ini
    dictionary/__function__.ini
    dictionary/__get.ini
    dictionary/__invoke.ini
    dictionary/__isset.ini
+   dictionary/__method__.ini
    dictionary/__serialize.ini
    dictionary/__set.ini
    dictionary/__set_state.ini
@@ -103,6 +105,7 @@ Index
    dictionary/attribute.ini
    dictionary/authentication.ini
    dictionary/authorize.ini
+   dictionary/auto_prepend_file.ini
    dictionary/autoload.ini
    dictionary/automagic.ini
    dictionary/automatic-index.ini
@@ -154,6 +157,7 @@ Index
    dictionary/callable.ini
    dictionary/callback.ini
    dictionary/callstack.ini
+   dictionary/camel-case.ini
    dictionary/canonical.ini
    dictionary/case-sensitivity.ini
    dictionary/case.ini
@@ -174,6 +178,7 @@ Index
    dictionary/class-constant-visibility.ini
    dictionary/class-constant.ini
    dictionary/class-entity.ini
+   dictionary/class-hierarchy.ini
    dictionary/class-hoisting.ini
    dictionary/class-invasion.ini
    dictionary/class-operator.ini
@@ -184,6 +189,7 @@ Index
    dictionary/cli.ini
    dictionary/clone.ini
    dictionary/close-tag.ini
+   dictionary/closed-source.ini
    dictionary/closedgeneratorexception.ini
    dictionary/closure-binding.ini
    dictionary/closure-class.ini
@@ -199,6 +205,7 @@ Index
    dictionary/code-smell.ini
    dictionary/codepoint.ini
    dictionary/coding-convention.ini
+   dictionary/cognitive-complexity.ini
    dictionary/collection.ini
    dictionary/collision.ini
    dictionary/colon.ini
@@ -210,6 +217,7 @@ Index
    dictionary/comparison.ini
    dictionary/compatibility.ini
    dictionary/compile-time.ini
+   dictionary/complexity.ini
    dictionary/component.ini
    dictionary/composer.ini
    dictionary/composition.ini
@@ -337,6 +345,7 @@ Index
    dictionary/early-binding.ini
    dictionary/echo-tag.ini
    dictionary/echo.ini
+   dictionary/ecosystem.ini
    dictionary/edge-case.ini
    dictionary/elephpant.ini
    dictionary/ellipsis.ini
@@ -373,6 +382,7 @@ Index
    dictionary/exit.ini
    dictionary/explicit-boolean-comparison.ini
    dictionary/explicit.ini
+   dictionary/explode.ini
    dictionary/exponent.ini
    dictionary/exponential.ini
    dictionary/expression.ini
@@ -445,6 +455,7 @@ Index
    dictionary/god-object.ini
    dictionary/goto.ini
    dictionary/graphql.ini
+   dictionary/grpc.ini
    dictionary/halt-compiler.ini
    dictionary/handle.ini
    dictionary/handler.ini
@@ -553,6 +564,7 @@ Index
    dictionary/lexical.ini
    dictionary/library-loading.ini
    dictionary/libsodium.ini
+   dictionary/licence.ini
    dictionary/lint-wont-execute.ini
    dictionary/linting.ini
    dictionary/list.ini
@@ -647,6 +659,8 @@ Index
    dictionary/non-instantiable.ini
    dictionary/non-numeric.ini
    dictionary/non-static.ini
+   dictionary/nonce.ini
+   dictionary/noop.ini
    dictionary/noscream.ini
    dictionary/not.ini
    dictionary/notice.ini
@@ -677,6 +691,7 @@ Index
    dictionary/oop.ini
    dictionary/opcache.ini
    dictionary/opcode.ini
+   dictionary/open-source.ini
    dictionary/open-tag.ini
    dictionary/openssl.ini
    dictionary/operand.ini
@@ -709,8 +724,10 @@ Index
    dictionary/parseerror.ini
    dictionary/parser.ini
    dictionary/partial-function.ini
+   dictionary/passphrase.ini
    dictionary/password-ext.ini
    dictionary/password.ini
+   dictionary/path-traversal.ini
    dictionary/path.ini
    dictionary/pattern-matching.ini
    dictionary/pcntl.ini
@@ -765,6 +782,7 @@ Index
    dictionary/precision.ini
    dictionary/predefined-constant.ini
    dictionary/predefined-exception.ini
+   dictionary/prefix.ini
    dictionary/prepared-query.ini
    dictionary/preprocess.ini
    dictionary/primitive-obsession.ini
@@ -786,6 +804,7 @@ Index
    dictionary/pseudo-variable.ini
    dictionary/psr.ini
    dictionary/public.ini
+   dictionary/quality.ini
    dictionary/query-string.ini
    dictionary/query.ini
    dictionary/queue.ini
@@ -942,6 +961,7 @@ Index
    dictionary/subclass.ini
    dictionary/subnamespace.ini
    dictionary/subtype.ini
+   dictionary/suffix.ini
    dictionary/sunsetting.ini
    dictionary/superglobal.ini
    dictionary/supertype.ini
@@ -972,6 +992,7 @@ Index
    dictionary/test-pyramid.ini
    dictionary/test.ini
    dictionary/testdox.ini
+   dictionary/thin-method.ini
    dictionary/thread.ini
    dictionary/three-dots.ini
    dictionary/throw.ini
@@ -1068,10 +1089,12 @@ Index
    dictionary/while.ini
    dictionary/whitespace.ini
    dictionary/wither.ini
+   dictionary/word-combinaison.ini
    dictionary/wrapper-designpattern.ini
    dictionary/wrapper-file.ini
    dictionary/wrapper-ftp.ini
    dictionary/wrapper-http.ini
+   dictionary/wrapper-pattern.ini
    dictionary/wrapper-php.ini
    dictionary/wrapper-stream.ini
    dictionary/wrapper.ini

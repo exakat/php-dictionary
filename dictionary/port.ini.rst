@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Port","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 08:53:06 +0000","dateModified":"Wed, 21 Jan 2026 08:53:06 +0000","description":"In computer networking, a port is a communication endpoint that facilitates the transfer of data between different processes or devices over a network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Port.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Port","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:37:44 +0000","dateModified":"Mon, 16 Feb 2026 21:37:44 +0000","description":"In computer networking, a port is a communication endpoint that facilitates the transfer of data between different processes or devices over a network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Port.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Port
@@ -32,14 +32,16 @@ Ports are categorized into two types: TCP (Transmission Control Protocol) ports 
    
    <?php
    
-   $url = http://www.sample.com/;
+       $url = "http://www.sample.com/";
    
-   $ch = curl_init();
-   curl_setopt($ch, CURLOPT_URL,$url);
-   curl_setopt($ch, CURLOPT_PORT, 8088);
-   $result = curl_exec($ch);
-   curl_close($ch);
-   echo $result;
+       $ch = curl_init();
+       curl_setopt($ch, CURLOPT_URL,$url);
+       curl_setopt($ch, CURLOPT_PORT, 8088);
+       $result = curl_exec($ch);
+       curl_close($ch);
+       echo $result;
    
    ?>
 
+
+Related : :ref:`TCP <tcp>`, 

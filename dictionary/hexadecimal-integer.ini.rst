@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hexadecimal Integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:57:00 +0000","dateModified":"Sat, 17 Jan 2026 06:57:00 +0000","description":"Hexadecimal integers are integers with an hexadecimal representation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hexadecimal Integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hexadecimal Integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:22:52 +0000","dateModified":"Mon, 16 Feb 2026 21:22:52 +0000","description":"Hexadecimal integers are integers with an hexadecimal representation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hexadecimal Integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hexadecimal Integer
@@ -38,12 +38,14 @@ PHP also has special syntax for binary and octal numbers.
        $twenty    = 0x14;
        $twentyToo = 20;
        
-       $i = \\\x69\; // i is the 105 ASCII code
+       $i = "\x69"; // i is the 105 ASCII code
        $i = 'i';
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
+
+See also https://en.wikipedia.org/wiki/Hexadecimal
 
 Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-integer>`

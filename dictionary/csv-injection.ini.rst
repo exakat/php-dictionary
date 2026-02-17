@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"CSV Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:23 +0000","dateModified":"Sun, 25 Jan 2026 20:46:23 +0000","description":"A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/CSV Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"CSV Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 21:55:42 +0000","dateModified":"Thu, 12 Feb 2026 21:55:42 +0000","description":"A CSV injection is a vulnerability, where a csv file triggers the execution of a formula, stored in a cell","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/CSV Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 CSV Injection
@@ -26,7 +26,7 @@ A CSV injection is a vulnerability, where a csv file triggers the execution of a
 
 Depending on the opening spreadsheet software, various targets may be achieved, ranging from sending local data to a remote server, to take over the computer. 
 
-CSV injections rarely target PHP itself, as it is not a spreadsheet, nor support formulas in CSV files. Also, components such as `PHPspreadsheet` are able to run a wide range of formulas. 
+CSV injections rarely target PHP itself, as it is not a spreadsheet, nor support formulas in CSV files. Also, components such as ``PHPspreadsheet`` are able to run a wide range of formulas. 
 
 PHP may relay an injection by saving it in a CSV file.
 
@@ -35,3 +35,5 @@ PHP may relay an injection by saving it in a CSV file.
 See also http://georgemauer.net/2017/10/07/csv-injection.html, https://blog.securelayer7.net/how-to-perform-csv-excel-macro-injection/
 
 Related : :ref:`Semicolon <semicolon>`, :ref:`Escape Data <escape-data>`, :ref:`Injection <injection>`
+
+Related packages : `phpoffice/phpspreadsheet <https://packagist.org/packages/phpoffice/phpspreadsheet>`_

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 11:11:37 +0000","dateModified":"Mon, 26 Jan 2026 11:11:37 +0000","description":"Don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 07:03:20 +0000","dateModified":"Thu, 12 Feb 2026 07:03:20 +0000","description":"Don't repeat yourself (DRY) is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Don't Repeat Yourself (DRY)
@@ -26,10 +26,10 @@ Don't repeat yourself (DRY) is a principle of software development aimed at redu
 
 The concept was coined in Andy Hunt and Dave Thomas's book The Pragmatic Programmer, in 1999.
 
-This principle is also known as Duplication is Evil. Its nemesis is WET : Write Everything Twice.
+This principle is also known as Duplication is Evil. Its nemesis is WET: Write Everything Twice.
 
 `Documentation <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
 
 See also https://en.wikipedia.org/wiki/The_Pragmatic_Programmer, https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/
 
-Related : :ref:`Write Everything Twice (WET) <wet>`
+Related : :ref:`Write Everything Twice (WET) <wet>`, :ref:`SOLID <solid>`

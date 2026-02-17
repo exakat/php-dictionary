@@ -55,4 +55,4 @@ The notion of special constant is distinct from the magic constants, such as ``_
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-Related : :ref:`Fully Qualified Name <fqn>`, :ref:`Static Constant <class-constant>`, :ref:`Magic Constants <magic-constant>`, 
+Related : :ref:`Fully Qualified Name <fqn>`, :ref:`Static Constant <class-constant>`, :ref:`Magic Constants <magic-constant>`, :ref:`__FILE__ <-__file__>`

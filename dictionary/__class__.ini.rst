@@ -47,4 +47,4 @@ This constant is written in uppercase, by convention. It is case insensitive, an
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
-Related : :ref:`__FUNCTION__ <-__function__>`, , 
+Related : :ref:`__FUNCTION__ <-__function__>`, :ref:`__METHOD__ <-__method__>`, 

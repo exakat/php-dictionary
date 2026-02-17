@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Object Nullsafe Operator ?->","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Feb 2026 21:11:07 +0000","dateModified":"Sat, 07 Feb 2026 21:11:07 +0000","description":"The object nullsafe operator is an operator which gives access to properties and methods of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Nullsafe Operator ?->.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Object Nullsafe Operator ?->","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:35:51 +0000","dateModified":"Mon, 16 Feb 2026 21:35:51 +0000","description":"The object nullsafe operator is an operator which gives access to properties and methods of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Nullsafe Operator ?->.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Object Nullsafe Operator ?->
@@ -33,13 +33,13 @@ Object Nullsafe Operator is directly related to the Object operator : the differ
    
    <?php
    
-   $array = ['a' => (new stdClass)?->a = 1, ];
-   
-   // displays 1
-   echo $array['a']?->a;
-   
-   // displays null, so nothing
-   echo $array['b']?->a;
+       $array = ['a' => (new stdClass)?->a, ];
+       
+       // displays 1
+       echo $array['a']?->a;
+       
+       // displays null, so nothing
+       echo $array['b']?->a;
    
    ?>
 

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","name":"If Then Else","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Feb 2026 06:35:46 +0000","dateModified":"Tue, 03 Feb 2026 06:35:46 +0000","description":"A ``if-then-else`` command branches the execution based on an condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/If Then Else.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected identifier \\%s\\, expecting variable.html","name":"If Then Else","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:25:08 +0000","dateModified":"Mon, 16 Feb 2026 21:25:08 +0000","description":"A ``if-then-else`` command branches the execution based on an condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/If Then Else.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 If Then Else
@@ -34,9 +34,9 @@ If-then structures may be chained with the ``elseif`` keyword. The ``else`` bran
    $number = rand(0, 10);
    
    if ($number % 2 === 0) {
-   	print "$number is even"\n";
+   	print "$number is even\n";
    } else {
-   	print "$number is odd"\n";
+   	print "$number is odd\n";
    }
    
    ?>

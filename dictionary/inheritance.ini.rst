@@ -51,4 +51,4 @@ Inheritance is a mechanism where a class is build from another class, and form a
 
 See also https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/
 
-Related : :ref:`Class <class>`, 
+Related : :ref:`Class <class>`, :ref:`Class Hierarchy <class-hierarchy>`
