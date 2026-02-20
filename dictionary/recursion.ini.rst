@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify readonly property Test::$prop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify readonly property Test::$prop.html","name":"Recursion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 13:19:00 +0000","dateModified":"Thu, 22 Jan 2026 13:19:00 +0000","description":"Recursion in PHP is a method or a function, which calls itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Recursion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify readonly property Test::$prop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify readonly property Test::$prop.html","name":"Recursion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 18:43:53 +0000","dateModified":"Wed, 18 Feb 2026 18:43:53 +0000","description":"Recursion in PHP is a method or a function, which calls itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Recursion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Recursion
@@ -25,11 +25,11 @@ Recursion
 
 Recursion in PHP is a method or a function, which calls itself. 
 
-While the method calls itself, it also must have branch and not call itself : otherwise, the call will never end.
+While the method calls itself, it also must have branch and not call itself: otherwise, the call will never end.
 
 Functions, methods, closures and arrowfunctions may be recursive.
 
-Recursion is an abstract notion : it is also used in the PHP name itself. PHP : Hypertext Preprocessor.
+Recursion is an abstract notion: it is also used in the PHP name itself. PHP: Hypertext Preprocessor.
 
 .. code-block:: php
    

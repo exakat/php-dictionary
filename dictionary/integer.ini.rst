@@ -2,30 +2,30 @@
 .. _int:
 .. meta::
 	:description:
-		integer: An int is a number of the set ℤ = {.
+		integer: An integer, or ``int`` is a number of the set ℤ = ``{.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: integer
-	:twitter:description: integer: An int is a number of the set ℤ = {
+	:twitter:description: integer: An integer, or ``int`` is a number of the set ℤ = ``{
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: integer
 	:og:type: article
-	:og:description: An int is a number of the set ℤ = {
+	:og:description: An integer, or ``int`` is a number of the set ℤ = ``{
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:17 +0000","dateModified":"Mon, 19 Jan 2026 14:11:17 +0000","description":"An int is a number of the set \u2124 = {","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 22:24:17 +0000","dateModified":"Thu, 19 Feb 2026 22:24:17 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 integer
 -------
 
-An int is a number of the set ℤ = {..., -2, -1, 0, 1, 2, ...}. It is limited by PHP_INT_MIN (lower bound) and PHP_INT_MAX (upper bound). 
+An integer, or ``int`` is a number of the set ℤ = ``{..., -2, -1, 0, 1, 2, ...}``. It is limited by ``PHP_INT_MIN`` (lower bound) and ``PHP_INT_MAX`` (upper bound). 
 
-Integers have several syntaxes : they may be written in binary, octal, decimal, hexadecimal and with `_` as a separator.
+Integers have several syntaxes: they may be written in binary, octal, decimal, hexadecimal and with ``_`` as a separator.
 
 .. code-block:: php
    
@@ -43,4 +43,4 @@ Integers have several syntaxes : they may be written in binary, octal, decimal, 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-Related : :ref:`Addition <addition>`, :ref:`Binary Integer <binary-integer>`, :ref:`Multiplication <multiplication>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`Octal Integer <octal-integer>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`
+Related : :ref:`Addition <addition>`, :ref:`Binary Integer <binary-integer>`, :ref:`Multiplication <multiplication>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`Octal Integer <octal-integer>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Positive Integer <positive-integer>`, :ref:`precision <precision>`

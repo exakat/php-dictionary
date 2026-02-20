@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":".env File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 12:54:18 +0000","dateModified":"Mon, 26 Jan 2026 12:54:18 +0000","description":"Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/.env File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":".env File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 21:29:10 +0000","dateModified":"Thu, 19 Feb 2026 21:29:10 +0000","description":"Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/.env File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 .env File
@@ -31,6 +31,6 @@ The env file holds a set of environment variables and their values. It is loaded
 
 See also https://blog.devsense.com/2025/mastering-.env-files-in-php-concepts-tools-and-best-pra/, https://upsun.com/blog/what-is-env-file/, https://dotenvx.com/
 
-Related : 
+Related : :ref:`Environment Variables <environment-variable>`
 
 Related packages : `vlucas/phpdotenv <https://packagist.org/packages/vlucas/phpdotenv>`_, `symfony/dotenv <https://packagist.org/packages/symfony/dotenv>`_

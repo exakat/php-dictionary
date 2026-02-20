@@ -26,7 +26,9 @@ PHP Dictionary
    * :ref:`__CLASS__ <-__class__>`
    * :ref:`__FILE__ <-__file__>`
    * :ref:`__FUNCTION__ <-__function__>`
+   * :ref:`__LINE__ <-__line__>`
    * :ref:`__METHOD__ <-__method__>`
+   * :ref:`__TRAIT__ <-__trait__>`
    * :ref:`__autoload <-__autoload>`
    * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() Method <-__callStatic>`
@@ -327,6 +329,7 @@ PHP Dictionary
    * :ref:`Diff <diff>`
    * :ref:`Directives <directive>`
    * :ref:`DirectoryIterator <directoryiterator>`
+   * :ref:`Disable <disable>`
    * :ref:`Disable Classes <disable-classes>`
    * :ref:`Disable Functions <disable-functions>`
    * :ref:`Disjunctive Normal Form (DNF) <dnf>`
@@ -370,6 +373,7 @@ PHP Dictionary
    * :ref:`Emoji <emoji>`
    * :ref:`Empty <empty>`
    * :ref:`Empty String <empty-string>`
+   * :ref:`Enable <enable>`
    * :ref:`Encoding <encoding>`
    * :ref:`Entities <entity>`
    * :ref:`Enumeration (enum) <enum>`
@@ -496,15 +500,16 @@ PHP Dictionary
    * :ref:`Hydratation <hydrate>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
    * :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
+   * :ref:`HyperText Markup Language (HTML) <html>`
    * :ref:`hash() Function <hash-function>`
    * :ref:`hg <hg>`
    * :ref:`hrtime() <hrtime>`
+   * :ref:`html_errors <html_errors>`
    * :ref:`http:// <wrapper-https>`
    * :ref:`http_build_query() <http_build_query>`
 * I
    * :ref:`INF <inf>`
    * :ref:`INI <ini>`
-   * :ref:`IP <ip>`
    * :ref:`Iconv <iconv>`
    * :ref:`Idempotent <idempotent>`
    * :ref:`Identical Operator <identical>`
@@ -540,6 +545,7 @@ PHP Dictionary
    * :ref:`Interface Segregation Principle (ISP) <isp>`
    * :ref:`Internationalization <internationalization>`
    * :ref:`Internationalization Functions <intl>`
+   * :ref:`Internet Protocol (IP) <ip>`
    * :ref:`Interpolation <interpolation>`
    * :ref:`Intersection Type <intersection-type>`
    * :ref:`InvalidArgumentException <invalidargumentexception>`
@@ -731,6 +737,7 @@ PHP Dictionary
    * :ref:`Override Attribute <override>`
    * :ref:`Overriding <overriding>`
    * :ref:`Overwrite <overwrite>`
+   * :ref:`one <one>`
 * P
    * :ref:`PDOException <pdoexception>`
    * :ref:`PEAR <pear>`
@@ -795,6 +802,7 @@ PHP Dictionary
    * :ref:`Port <port>`
    * :ref:`Portability <portability>`
    * :ref:`Positional Parameters <positional-parameter>`
+   * :ref:`Positive Integer <positive-integer>`
    * :ref:`Post-increment <post-increment>`
    * :ref:`PostgreSQL <postgresql>`
    * :ref:`Pre-increment <pre-increment>`
@@ -830,6 +838,7 @@ PHP Dictionary
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`precision <precision>`
    * :ref:`print_r() <print_r>`
+   * :ref:`printf() <printf>`
 * Q
    * :ref:`Quality <quality>`
    * :ref:`Query <query>`
@@ -844,6 +853,7 @@ PHP Dictionary
    * :ref:`RangeException <rangeexception>`
    * :ref:`Read Eval Print Loop (REPL) <repl>`
    * :ref:`Readability <readability>`
+   * :ref:`Readable <readable>`
    * :ref:`Reading <reading>`
    * :ref:`Readline <readline>`
    * :ref:`Readonly <readonly>`

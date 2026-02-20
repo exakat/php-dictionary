@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 22:00:07 +0000","dateModified":"Thu, 12 Feb 2026 22:00:07 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 10:00:22 +0000","dateModified":"Thu, 19 Feb 2026 10:00:22 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 zero
@@ -28,10 +28,13 @@ It is often used to return successful execution, where non-zero answers are unsu
 
 Adding 0 to a string turns it into an integer, just like the cast operator ``(int)`` does.
 
-Comparisons between 0 and other falsy values, such as '' changed with PHP 8.0: it was true and became false.
+Comparisons between 0 and other falsy values, such as empty string ``''`` changed with PHP 8.0: it was true and became false.
 
 Division by zero emits the ``DivisionByZeroError``, as that operation is impossible. Multiplication is possible and always returns 0.
 
+0 is one of the two valid index when building a callback with an array, along with 1.
+
+0 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.
 
 .. code-block:: php
    
@@ -44,4 +47,4 @@ Division by zero emits the ``DivisionByZeroError``, as that operation is impossi
    ?>
 
 
-Related : :ref:`False <false>`, :ref:`Comparison <comparison>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`
+Related : :ref:`False <false>`, :ref:`Comparison <comparison>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Empty String <empty-string>`, :ref:`one <one>`

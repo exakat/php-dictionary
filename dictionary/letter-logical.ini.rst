@@ -1,30 +1,30 @@
 .. _letter-logical:
 .. meta::
 	:description:
-		Letter Logical Bug: PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol).
+		Letter Logical Bug: PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol).
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Letter Logical Bug
-	:twitter:description: Letter Logical Bug: PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
+	:twitter:description: Letter Logical Bug: PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Letter Logical Bug
 	:og:type: article
-	:og:description: PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
+	:og:description: PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/letter-logical.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Letter Logical Bug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 19 Jan 2026 14:11:49 +0000","dateModified":"Mon, 19 Jan 2026 14:11:49 +0000","description":"PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Letter Logical Bug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Letter Logical Bug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 19:15:20 +0000","dateModified":"Wed, 18 Feb 2026 19:15:20 +0000","description":"PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Letter Logical Bug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Letter Logical Bug
 ------------------
 
-PHP offers two sets of operators for logical operations : the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol).
+PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol).
 
-While they do the same, those operators have a difference : they do not share the same precedence. In particular, && has higher priority than = while = has higher priority than and. This leads to a difference in execution.
+While they do the same, those operators have a difference: they do not share the same precedence. In particular, && has higher priority than = while = has higher priority than and. This leads to a difference in execution.
 
 When combining ``=`` and ``&&``, the logical operation happens before the assignation. While combining ``=`` and ``and`` actually ignore the logical operation.
 

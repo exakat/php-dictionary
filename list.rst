@@ -28,12 +28,14 @@ Index
    dictionary/__get.ini
    dictionary/__invoke.ini
    dictionary/__isset.ini
+   dictionary/__line__.ini
    dictionary/__method__.ini
    dictionary/__serialize.ini
    dictionary/__set.ini
    dictionary/__set_state.ini
    dictionary/__sleep.ini
    dictionary/__tostring.ini
+   dictionary/__trait__.ini
    dictionary/__unserialize.ini
    dictionary/__wakeup.ini
    dictionary/absolute-name.ini
@@ -316,6 +318,7 @@ Index
    dictionary/dirname.ini
    dictionary/disable-classes.ini
    dictionary/disable-functions.ini
+   dictionary/disable.ini
    dictionary/division.ini
    dictionary/divisionbyzeroerror.ini
    dictionary/dnf-type.ini
@@ -353,6 +356,7 @@ Index
    dictionary/emoji.ini
    dictionary/empty-string.ini
    dictionary/empty.ini
+   dictionary/enable.ini
    dictionary/encoding-text.ini
    dictionary/encoding.ini
    dictionary/engine.ini
@@ -360,7 +364,7 @@ Index
    dictionary/enum-case.ini
    dictionary/enum.ini
    dictionary/env-file.ini
-   dictionary/environment-variables.ini
+   dictionary/environment-variable.ini
    dictionary/equal.ini
    dictionary/error-handler.ini
    dictionary/error-handling.ini
@@ -477,6 +481,8 @@ Index
    dictionary/htaccess.ini
    dictionary/html-entities.ini
    dictionary/html-entity.ini
+   dictionary/html.ini
+   dictionary/html_errors.ini
    dictionary/http-code.ini
    dictionary/http-encoding.ini
    dictionary/http-header.ini
@@ -688,6 +694,7 @@ Index
    dictionary/offensive-programming.ini
    dictionary/offset.ini
    dictionary/one-liner.ini
+   dictionary/one.ini
    dictionary/oop.ini
    dictionary/opcache.ini
    dictionary/opcode.ini
@@ -776,6 +783,7 @@ Index
    dictionary/port.ini
    dictionary/portability.ini
    dictionary/positional-parameter.ini
+   dictionary/positive-integer.ini
    dictionary/post-increment.ini
    dictionary/pre-increment.ini
    dictionary/precedence.ini
@@ -788,6 +796,7 @@ Index
    dictionary/primitive-obsession.ini
    dictionary/print.ini
    dictionary/print_r.ini
+   dictionary/printf.ini
    dictionary/private.ini
    dictionary/procedural-programming.ini
    dictionary/process.ini
@@ -818,6 +827,7 @@ Index
    dictionary/rce.ini
    dictionary/rdbms.ini
    dictionary/readability.ini
+   dictionary/readable.ini
    dictionary/reading.ini
    dictionary/readline.ini
    dictionary/readonly.ini

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Template","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 12:49:55 +0000","dateModified":"Thu, 22 Jan 2026 12:49:55 +0000","description":"A template is a preset document, filled with values in placeholders, to display the resulting data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Template.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Template","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 18:33:38 +0000","dateModified":"Wed, 18 Feb 2026 18:33:38 +0000","description":"A template is a preset document, filled with values in placeholders, to display the resulting data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Template.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Template
@@ -26,11 +26,11 @@ A template is a preset document, filled with values in placeholders, to display 
 
 PHP used to be known as a template engine. Nowadays, template engines are written in PHP. 
 
-Templates may be produced in any file format : HTML, CSS, Javascript, JSON, PDF, URL, etc. 
+Templates may be produced in any file format: HTML, CSS, Javascript, JSON, PDF, URL, Markdown, etc. 
 
-Template may be large : they are then broken down into smaller and reusable sub-templates.
+Template may be large: they are then broken down into smaller and reusable sub-templates.
 
-Some template packages : Twig, Latte, Blade, smarty.
+Some PHP template packages: Twig, Latte, Blade, smarty.
 
 
 .. code-block:: php
@@ -47,6 +47,6 @@ Some template packages : Twig, Latte, Blade, smarty.
 
 See also https://www.virtualcuriosities.com/articles/5106/how-wordpress-tells-which-template-to-load-for-a-url
 
-Related : :ref:`View In Presentation <view-presentation>`
+Related : :ref:`View In Presentation <view-presentation>`, :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Markdown <markdown>`
 
-Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_
+Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_, `smarty/smarty <https://packagist.org/packages/smarty/smarty>`_, `latte/latte <https://packagist.org/packages/latte/latte>`_, `twig/twig <https://packagist.org/packages/twig/twig>`_, `jenssegers/blade <https://packagist.org/packages/jenssegers/blade>`_

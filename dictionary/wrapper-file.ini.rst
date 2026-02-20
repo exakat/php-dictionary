@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:26:49 +0000","dateModified":"Sun, 25 Jan 2026 20:26:49 +0000","description":"The ``file:\/\/`` wrapper is a native PHP wrapper, to access files on a local files, on the host system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 19:54:19 +0000","dateModified":"Wed, 18 Feb 2026 19:54:19 +0000","description":"The ``file:\/\/`` wrapper is a native PHP wrapper, to access files on a local files, on the host system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 file://
@@ -32,10 +32,10 @@ It may also be omitted, as the default behavior is to read files on the local sy
    
    // display the content of a file
    // 3 / : two for protocol, one for path
-   print_r(file_get_content('file:///tmp/file.txt');
+   print_r(file_get_content('file:///tmp/file.txt'));
    
    // also possible
-   print_r(file_get_content('/tmp/file.txt');
+   print_r(file_get_content('/tmp/file.txt'));
    
    ?>
 

@@ -18,13 +18,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 12:47:20 +0000","dateModified":"Thu, 22 Jan 2026 12:47:20 +0000","description":"The system, or the operating system, is the environement where PHP is running","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 18:31:33 +0000","dateModified":"Wed, 18 Feb 2026 18:31:33 +0000","description":"The system, or the operating system, is the environement where PHP is running","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 System
 ------
 
 The system, or the operating system, is the environement where PHP is running. It might be Linux, MacOSX, Windows, Debian etc. The system provides specific features, such as access to the file system, or a shell to run commands.
+
+``system()`` is also a PHP native function, which execute a system command, and immediatly display it to the standard output. It is usually recommended to use ``shell_exec()``, which returns the results, rather than display it.
 
 .. code-block:: php
    
@@ -33,5 +35,10 @@ The system, or the operating system, is the environement where PHP is running. I
    // use a system command to get the name of the underlying OS name
    echo shell_exec('cat /etc/os-releaselsb_release –ahostnamectl');
    
+   // same as above
+   system('cat /etc/os-releaselsb_release –ahostnamectl');
+   
    ?>
 
+
+Related : :ref:`shell_exec() <shell_exec>`, :ref:`Back-tick <backtick>`

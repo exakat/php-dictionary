@@ -37,7 +37,9 @@ List of acronyms, used in this dictionary.
 + :ref:`Graphic Draw (GD) <gd>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
++ :ref:`HyperText Markup Language (HTML) <html>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
++ :ref:`Internet Protocol (IP) <ip>`
 + :ref:`JavaScript Object Notation (JSON) <json>`
 + :ref:`Just In Time (JIT) <jit>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
@@ -154,12 +156,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
++ :ref:`Disable <disable>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Double Check <double-check>`
 + :ref:`Duck Typing <duck-typing>`
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Edge Case <edge-case>`
++ :ref:`Enable <enable>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
@@ -184,6 +188,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle (LSP) <lsp>`
++ :ref:`Literal <literal>`
 + :ref:`Loops <loop>`
 + :ref:`Magic Numbers <magic-number>`
 + :ref:`Memory Leak <memory-leak>`
@@ -203,13 +208,17 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Path <path>`
 + :ref:`Permission <permission>`
 + :ref:`Pipeline <pipeline>`
++ :ref:`Plugin <plugin>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Production <production>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`
 + :ref:`Quality <quality>`
++ :ref:`Readable <readable>`
++ :ref:`Reading <reading>`
 + :ref:`Real Numbers <real>`
++ :ref:`Recursion <recursion>`
 + :ref:`Refactoring <refactoring>`
 + :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
@@ -225,6 +234,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Stateful <stateful>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
++ :ref:`Sub (prefix) <sub-prefix>`
 + :ref:`Subnamespaces <subnamespace>`
 + :ref:`Sunsetting <sunsetting>`
 + :ref:`Taint Analysis <taint>`
@@ -272,9 +282,11 @@ Directive
 
 List of configuration directives of PHP. They may be used in php.ini, ini_set()/ini_get() or other configuration files.
 
++ :ref:`Directives <directive>`
 + :ref:`Disable Functions <disable-functions>`
 + :ref:`Error Reporting <error-reporting>`
 + :ref:`Preappend File Directive <auto_prepend_file>`
++ :ref:`html_errors <html_errors>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`memory_limit <memory_limit>`
 + :ref:`php.ini <php.ini>`
@@ -398,7 +410,10 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Mixed <mixed>`
 + :ref:`Named Type <named-type>`
 + :ref:`Never Type <never>`
++ :ref:`Nullable <nullable>`
++ :ref:`Object <object>`
 + :ref:`Object Type <object-type>`
++ :ref:`Positive Integer <positive-integer>`
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
 + :ref:`Return Type <return-type>`
@@ -470,6 +485,7 @@ List of special PHP extensions.
 + :ref:`Hash <hash>`
 + :ref:`Iconv <iconv>`
 + :ref:`Internationalization Functions <intl>`
++ :ref:`Library Loading <library-loading>`
 + :ref:`Multibyte String <mbstring>`
 + :ref:`OpenSSL <openssl>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
@@ -517,6 +533,7 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Haystack <haystack>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Needle <needle>`
++ :ref:`One Liner <one-liner>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`Railroad Programming <railroad>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"microtime()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 20 Jan 2026 07:20:47 +0000","dateModified":"Tue, 20 Jan 2026 07:20:47 +0000","description":"microtime() is a native PHP function, which returns the current timestamp, with the microseconds","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/microtime().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"microtime()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 20:25:24 +0000","dateModified":"Wed, 18 Feb 2026 20:25:24 +0000","description":"microtime() is a native PHP function, which returns the current timestamp, with the microseconds","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/microtime().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 microtime()
@@ -29,15 +29,17 @@ microtime() is often used for speed measures, and it may be easily replaced by h
 .. code-block:: php
    
    <?php
-   $time_start = microtime(true);
    
-   // Sleep some time
-   usleep(100);
+       $time_start = microtime(true);
+       
+       // Sleep some time
+       usleep(100);
+       
+       $time_end = microtime(true);
+       $time = $time_end - $time_start;
+       
+       echo "Slept for $time seconds\n";
    
-   $time_end = microtime(true);
-   $time = $time_end - $time_start;
-   
-   echo Slept for $time seconds\n;
    ?>
 
 

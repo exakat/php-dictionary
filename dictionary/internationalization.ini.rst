@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Internationalization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 09:51:35 +0000","dateModified":"Thu, 22 Jan 2026 09:51:35 +0000","description":"Internationalization is the process to make the human interface of a program in a local language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Internationalization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Internationalization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 19:05:25 +0000","dateModified":"Wed, 18 Feb 2026 19:05:25 +0000","description":"Internationalization is the process to make the human interface of a program in a local language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Internationalization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Internationalization
@@ -29,9 +29,9 @@ Internationalization is the process to make the human interface of a program in 
 
 PHP includes some internationalization capabilities, via the locale, for dates or money format, or with the ext/intl extension. 
 
-Most of the interface translations for application is done with specific components, such as `Symfony/translation`. Translation of interface messages is part of this concept.
+Most of the interface translations for application is done with specific components, such as ``Symfony/translation``. Translation of interface messages is part of this concept.
 
-Internationalization is also called `i18n`, aka i, 18 letters and n. This is shorter to write. This word may be written with a z or an s, depending on the flavor of English being used.
+Internationalization is also called ``i18n``, aka i, 18 letters and n. This is shorter to write. This word may be written with a z or an s, depending on the flavor of English being used.
 
 .. code-block:: php
    
@@ -50,3 +50,5 @@ Internationalization is also called `i18n`, aka i, 18 letters and n. This is sho
 See also https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial, https://lokalise.com/blog/implementing-php-localization-complete-guide/
 
 Related : :ref:`Locale <locale>`, :ref:`Internationalization Functions <intl>`
+
+Related packages : `Symfony/translation <https://packagist.org/packages/Symfony/translation>`_

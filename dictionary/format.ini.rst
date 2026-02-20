@@ -48,4 +48,4 @@ It is possible to define one's custom format. Common formats have a comprehensiv
    ?>
 
 
-Related : :ref:`String <string>`, :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Data <data>`, :ref:`sprintf <sprintf>`, :ref:`sprintf <printf>`
+Related : :ref:`String <string>`, :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Data <data>`, :ref:`sprintf <sprintf>`, :ref:`printf() <printf>`

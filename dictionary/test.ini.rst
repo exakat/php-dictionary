@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 12:49:55 +0000","dateModified":"Thu, 22 Jan 2026 12:49:55 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 18:34:26 +0000","dateModified":"Wed, 18 Feb 2026 18:34:26 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test
@@ -24,24 +24,24 @@ Test
 
 Tests are tools that monitor the behavior of a code. The code should produce the expected results that are provided in the tests.
 
-There are many different types of tests : 
+There are many different types of tests: 
 
-+ Unit test : close to the class level of the code
-+ Integration test : they check that components collaborate nicely
-+ Functional tests : close to the specifications and the business level
-+ Feature testing : close to the specifications and the business level
-+ End-to-end tests : they run the software from beginning to the end
-+ Performance tests : tests focusing on the behavior of the software under load
-+ Acceptance tests : the tests that the software must pass to be accepted by the end user
-+ Smoke tests : tests that quickly detect a problem in the software. They are the most obvious. 
-+ Exploratory tests : when tests are used to check new behavior of the code
-+ Regression tests : tests that ensures that previous behaviors are still behaving the same
-+ Fuzzing : testing the software with random data
-+ Mutation testing : testing the software robustness by altering the code 
++ Unit test: close to the class level of the code
++ Integration test: they check that components collaborate nicely
++ Functional tests: close to the specifications and the business level
++ Feature testing: close to the specifications and the business level
++ End-to-end tests: they run the software from beginning to the end
++ Performance tests: tests focusing on the behavior of the software under load
++ Acceptance tests: the tests that the software must pass to be accepted by the end user
++ Smoke tests: tests that quickly detect a problem in the software. They are the most obvious. 
++ Exploratory tests: when tests are used to check new behavior of the code
++ Regression tests: tests that ensures that previous behaviors are still behaving the same
++ Fuzzing: testing the software with random data
++ Mutation testing: testing the software robustness by altering the code 
 
 Tests may be manual, when they are executed manually. Those are not recorded. Test may be automated, when they are executed by another piece of software. 
 
-PHP has several testing framework : PHPunit, pest, pint, simpletest, atoum.
+PHP has several testing framework: PHPunit, pest, pint, simpletest, atoum.
 
 Tests are often further automated in a Continuous Integration Pipeline.
 

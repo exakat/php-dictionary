@@ -34,4 +34,4 @@ Disabled functions appear as undefined : in fact, they can also be redefined, wi
 
 See also https://kb.hosting.com/docs/php-disable_functions-directive
 
-Related : :ref:`Functions <function>`, :ref:`Preappend File Directive <auto_prepend_file>`, , 
+Related : :ref:`Functions <function>`, :ref:`Preappend File Directive <auto_prepend_file>`, :ref:`Disable <disable>`, :ref:`Enable <enable>`

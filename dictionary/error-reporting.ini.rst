@@ -38,4 +38,4 @@ Error may be trigger manually with the trigger_error() function.
 
 See also https://stackify.com/display-php-errors/
 
-Related : :ref:`Error Handler <error-handler>`, :ref:`@, No Scream Operator <noscream>`, , 
+Related : :ref:`Error Handler <error-handler>`, :ref:`@, No Scream Operator <noscream>`, :ref:`html_errors <html_errors>`, 
