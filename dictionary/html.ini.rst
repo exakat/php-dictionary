@@ -39,4 +39,4 @@ HTML defines the structure of the page. It is completed by CSS, for styling, and
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/HTML>`__
 
-Related : , 
+Related : :ref:`Javascript <javascript>`, 

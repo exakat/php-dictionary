@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Controller","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:21 +0000","dateModified":"Sun, 25 Jan 2026 20:46:21 +0000","description":"Controllers takes in charge one or several URL, extract data from the request, pass them to the model and finally, create and returns the view","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Controller.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Controller","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Mar 2026 17:55:59 +0000","dateModified":"Wed, 04 Mar 2026 17:55:59 +0000","description":"Controllers takes in charge one or several URL, extract data from the request, pass them to the model and finally, create and returns the view","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Controller.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Controller
@@ -26,4 +26,8 @@ Controllers takes in charge one or several URL, extract data from the request, p
 
 Controllers orchestrate the execution of the request, and act as gatekeeper, ensuring that data are correctly processed.
 
-Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`
+See also https://laravel.com/docs/12.x/controllers, https://leafphp.dev/docs/mvc/controllers, https://route.thephpleague.com/5.x/controllers/
+
+Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`, :ref:`Route <route>`
+
+Related packages : `laminas/laminas-mvc <https://packagist.org/packages/laminas/laminas-mvc>`_

@@ -31,7 +31,7 @@ PHP Dictionary
    * :ref:`__TRAIT__ <-__trait__>`
    * :ref:`__autoload <-__autoload>`
    * :ref:`__call() Method <-__call>`
-   * :ref:`__callStatic() Method <-__callStatic>`
+   * :ref:`__callStatic() Method <-__callstatic>`
    * :ref:`__clone() Method <-__clone>`
    * :ref:`__get() Method <-__get>`
    * :ref:`__halt_compiler() <halt-compiler>`
@@ -124,6 +124,7 @@ PHP Dictionary
    * :ref:`Backed Property <backed-property>`
    * :ref:`BackedEnum <backedenum>`
    * :ref:`Backend <backend>`
+   * :ref:`Backslash \ <back-slash>`
    * :ref:`Backtrace <backtrace>`
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
@@ -147,6 +148,7 @@ PHP Dictionary
    * :ref:`Bloom Filter <bloom-filter>`
    * :ref:`Body <body>`
    * :ref:`Boolean <boolean>`
+   * :ref:`Bracketless <bracketless>`
    * :ref:`Branch <branch>`
    * :ref:`Break <break>`
    * :ref:`Broken Object Level Authorization (BOLA) <bola>`
@@ -222,6 +224,7 @@ PHP Dictionary
    * :ref:`Comma Secparated Values (CSV) <csv>`
    * :ref:`Command Bus <command-bus>`
    * :ref:`Command Line Interface (CLI) <cli>`
+   * :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`
    * :ref:`Comments <comment>`
    * :ref:`Common Interface Gateway (CGI) <cgi>`
    * :ref:`Compact Array <compact-array>`
@@ -327,6 +330,7 @@ PHP Dictionary
    * :ref:`Destructor <destructor>`
    * :ref:`Dictionary <dictionary>`
    * :ref:`Diff <diff>`
+   * :ref:`Dir <dir>`
    * :ref:`Directives <directive>`
    * :ref:`DirectoryIterator <directoryiterator>`
    * :ref:`Disable <disable>`
@@ -337,6 +341,7 @@ PHP Dictionary
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
    * :ref:`Do While <do-while>`
    * :ref:`Do...while <dowhile>`
+   * :ref:`Dollar / <dollar>`
    * :ref:`Domain Design Driven (DDD) <ddd>`
    * :ref:`DomainException <domainexception>`
    * :ref:`Don't Repeat Yourself (DRY) <dry>`
@@ -390,6 +395,7 @@ PHP Dictionary
    * :ref:`Eval() <eval>`
    * :ref:`Event Driven <event-driven>`
    * :ref:`Event Loop <event-loop>`
+   * :ref:`Event Sourcing <event-sourcing>`
    * :ref:`Event Storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
@@ -565,6 +571,7 @@ PHP Dictionary
    * :ref:`iterator_to_array() <iterator_to_array>`
 * J
    * :ref:`JavaScript Object Notation (JSON) <json>`
+   * :ref:`Javascript <javascript>`
    * :ref:`Jobqueue <jobqueue>`
    * :ref:`JsonException <jsonexception>`
    * :ref:`JsonSerializable <jsonserializable>`
@@ -638,6 +645,7 @@ PHP Dictionary
    * :ref:`Migration <migration>`
    * :ref:`Minification <minification>`
    * :ref:`Minus - <minus>`
+   * :ref:`Minus One -1 <minus-one>`
    * :ref:`Mixed <mixed>`
    * :ref:`Mock <mock>`
    * :ref:`Model <model>`
@@ -717,6 +725,7 @@ PHP Dictionary
    * :ref:`Offensive Programming <offensive-programming>`
    * :ref:`Offset <offset>`
    * :ref:`One Liner <one-liner>`
+   * :ref:`Onion Architecture <onion>`
    * :ref:`Opcache <opcache>`
    * :ref:`Opcode <opcode>`
    * :ref:`Open Closed Principle (OCP) <ocp>`
@@ -956,6 +965,7 @@ PHP Dictionary
    * :ref:`Single Responsability Principle (SRP) <srp>`
    * :ref:`Single Sign On (SSO) <sso>`
    * :ref:`Singleton <singleton>`
+   * :ref:`Slash / <slash>`
    * :ref:`Socket <socket>`
    * :ref:`Software Development Kit (SDK) <sdk>`
    * :ref:`Software-as-a-Service (SAAS) <saas>`
@@ -1107,6 +1117,7 @@ PHP Dictionary
    * :ref:`Variables <variable>`
    * :ref:`Variadic <variadic>`
    * :ref:`Vector Database <vector-database>`
+   * :ref:`Vendor Lock-in <vendor-lockin>`
    * :ref:`Version <version>`
    * :ref:`View <view>`
    * :ref:`View In Presentation <view-presentation>`

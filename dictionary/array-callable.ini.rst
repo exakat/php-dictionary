@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Callable Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:18 +0000","dateModified":"Thu, 22 Jan 2026 21:18:18 +0000","description":"An callable array is an array with index ``0`` and ``1``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Callable Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Callable Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:47:47 +0000","dateModified":"Fri, 20 Feb 2026 15:47:47 +0000","description":"An callable array is an array with index ``0`` and ``1``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Callable Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Callable Arrays
@@ -24,7 +24,7 @@ Callable Arrays
 
 An callable array is an array with index ``0`` and ``1``. The first index is a string, that represents a valid class, or an object. The second argument is a string, which is a method name.
 
-With such a configuration, it is possible to use that array as a callback: either with a static  method call, or a normal method call.
+With such a configuration, it is possible to use that array as a callback: either with a static method call, or a normal method call.
 
 .. code-block:: php
    
@@ -51,4 +51,4 @@ With such a configuration, it is possible to use that array as a callback: eithe
 
 See also https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/
 
-Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`
+Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`one <one>`, :ref:`zero <zero>`, :ref:`Arrow Functions <arrow-function>`

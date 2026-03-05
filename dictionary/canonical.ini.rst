@@ -17,22 +17,25 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Canonical","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:12 +0000","dateModified":"Sun, 25 Jan 2026 20:46:12 +0000","description":"Canonical PHP are the PHP recommended operators and functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Canonical.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Canonical","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Mar 2026 16:25:26 +0000","dateModified":"Thu, 05 Mar 2026 16:25:26 +0000","description":"Canonical PHP are the PHP recommended operators and functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Canonical.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Canonical
 ---------
 
-Canonical PHP are the PHP recommended operators and functions. This adjective is often used as non-canonical, to highlight that the feature exists, but is not recommended.
+Canonical PHP are the PHP recommended operators and functions. This adjective is often used in its non-canonical, to highlight that the feature exists, but is not recommended.
 
-There are non-canonical functions (``sizeof()`` versus ``count()``), cast operators (``boolean`` versus ``bool``), property options (``var`` versus ``public``), constants (``true`` versus ``'on'``), etc.
+There are non-canonical functions, such as ``sizeof()`` versus ``count()``, cast operators, such as ``boolean`` versus ``bool``, property options, such as ``var`` versus ``public``, constants, such as ``true`` versus ``'on'``, etc.
+
+Non-canonical operators are often a simple duplicate name for the same feature: they do not had any significant performance loss. In the end, they may be a question of taste or habits.
+
 
 .. code-block:: php
    
    <?php
    
-   $array = [1, 2, 3];
-   echo sizeof($array); // 3
+       $array = [1, 2, 3];
+       echo sizeof($array); // 3
    
    ?>
 

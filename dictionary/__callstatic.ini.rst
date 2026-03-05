@@ -1,4 +1,4 @@
-.. _-__callStatic:
+.. _-__callstatic:
 .. meta::
 	:description:
 		__callStatic() Method: ``__callStatic()`` is a magic method: it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
@@ -12,11 +12,11 @@
 	:og:title: __callStatic() Method
 	:og:type: article
 	:og:description: ``__callStatic()`` is a magic method: it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__callStatic.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__callstatic.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","name":"__callStatic() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 21:22:45 +0000","dateModified":"Thu, 19 Feb 2026 21:22:45 +0000","description":"``__callStatic()`` is a magic method: it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__callStatic() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead .html","name":"__callStatic() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Mar 2026 18:00:42 +0000","dateModified":"Wed, 04 Mar 2026 18:00:42 +0000","description":"``__callStatic()`` is a magic method: it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__callStatic() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __callStatic() Method
@@ -24,7 +24,7 @@ __callStatic() Method
 
 ``__callStatic()`` is a magic method: it is called when a static method cannot be accessed, either because it doesn't exist, or because its visibility prevents it.
 
-That way, it is possible to create dynamically static (sic) methods, without hardcoding them. 
+That way, it is possible to create dynamically static methods, without hardcoding them. 
 
 The ``__callStatic()`` method receives the name of the target-method, and a list of argument. 
 

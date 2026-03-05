@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 20:28:08 +0000","dateModified":"Wed, 18 Feb 2026 20:28:08 +0000","description":"A new-line ``\\n`` (invisible) character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:40:32 +0000","dateModified":"Fri, 20 Feb 2026 15:40:32 +0000","description":"A new-line ``\\n`` (invisible) character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 New Line
@@ -24,7 +24,7 @@ New Line
 
 A new-line ``\n`` (invisible) character. It may be represented by this string sequence, or an actual new line, within a string, or, also by the ``PHP_EOL`` native constant. 
 
-PHP uses the ``\r\f`` representation for a new line: it is a combinaison of line feed and return carriage. This is the Linux standard. The ``PHP_EOL`` constant depends on the running platform: its  value is adapted to the underlying OS.
+PHP uses the ``\r\f`` representation for a new line: it is a combinaison of line feed and return carriage. This is the Linux standard. The ``PHP_EOL`` constant depends on the running platform: its value is adapted to the underlying OS.
 
 By convention, PHP files are expected to end on a new line.
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Zval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"``ZVAL`` is a C structure, that represents data in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Zval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Zval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Mar 2026 16:45:22 +0000","dateModified":"Thu, 05 Mar 2026 16:45:22 +0000","description":"``ZVAL`` is a C structure, that represents data in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Zval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Zval
@@ -24,25 +24,25 @@ Zval
 
 ``ZVAL`` is a C structure, that represents data in PHP. It is a structure, which is never directly used from PHP code.
 
-It may be access with debug_zval_dump() function, for debugging purposes. It is useful to debug PHP engine, or extensions.
+It may be access with ``debug_zval_dump()`` function, for debugging purposes. It is useful to debug PHP engine, or extensions.
 
 
 .. code-block:: php
    
    <?php
    
-   // From the manual 
-   $var1 = 'Hello';
-   $var1 .= ' World';
-   $var2 = $var1;
-   
-   debug_zval_dump($var1);
-   
-   // displays string(11) "Hello World" refcount(3)
+       // From the manual 
+       $var1 = 'Hello';
+       $var1 .= ' World';
+       $var2 = $var1;
+       
+       debug_zval_dump($var1);
+       
+       // displays string(11) "Hello World" refcount(3)
    
    ?>
 
 
 `Documentation <https://www.phpinternalsbook.com/php5/zvals/basic_structure.html>`__
 
-See also `debug_zval_dump <https://www.php.net/manual/fr/function.debug-zval-dump.php>`_
+See also https://www.php.net/manual/fr/function.debug-zval-dump.php

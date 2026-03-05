@@ -30,4 +30,4 @@ PHP is open source, under the PHP licence.
 
 See also https://www.php.net/license/3_01.txt
 
-Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, 
+Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Default Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Feb 2026 16:32:28 +0000","dateModified":"Mon, 09 Feb 2026 16:32:28 +0000","description":"Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Default Value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Default Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:56:37 +0000","dateModified":"Fri, 20 Feb 2026 15:56:37 +0000","description":"Default value is the value that a parameter or a property takes when it is used for the first time, and have not been provided","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Default Value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Default Value
@@ -46,4 +46,4 @@ Variable have a default value of ``null``. Their initial assignment is considere
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`Parameter <parameter>`, :ref:`Properties <property>`, :ref:`Default <default>`, :ref:`Null <null>`, 
+Related : :ref:`Parameter <parameter>`, :ref:`Properties <property>`, :ref:`Default <default>`, :ref:`Null <null>`, :ref:`Null Pattern <nullpattern>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Conditioned Structures","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:19 +0000","dateModified":"Sun, 25 Jan 2026 20:46:19 +0000","description":"Conditioned structures are definitions that are placed inside a condition structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Conditioned Structures.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Conditioned Structures","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Mar 2026 20:43:39 +0000","dateModified":"Wed, 04 Mar 2026 20:43:39 +0000","description":"Conditioned structures are definitions that are placed inside a condition structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Conditioned Structures.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Conditioned Structures
@@ -26,13 +26,13 @@ Conditioned structures are definitions that are placed inside a condition struct
 
 For example, it is possible to create a function or a class, only if it doesn't exist. 
 
-classes, traits, interfaces, global constants (with define()), enumerations, functions may be conditioned. 
+Classes, traits, interfaces, global constants, with ``define()``, enumerations, functions may be conditioned. 
 
-class constants, properties, methods and cases (for ``enum``) cannot be conditioned.
+Class constants, properties, methods and cases, for ``enum``, cannot be conditioned.
 
 Conditioned structures adapt the PHP context to external condition. For example, some function may become native after a specific PHP version, and is only redefined for older installation. 
 
-Some structures do not accept condition, such as global constants with `const` keyword (with define() function, it is OK).
+Some structures do not accept condition, such as global constants with ``const`` keyword. With ``define()`` function, it is OK.
 
 .. code-block:: php
    
@@ -47,4 +47,4 @@ Some structures do not accept condition, such as global constants with `const` k
    ?>
 
 
-Related : :ref:`Const <const>`
+Related : :ref:`Const <const>`, :ref:`define() <define>`

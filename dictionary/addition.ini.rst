@@ -1,32 +1,32 @@
 .. _addition:
 .. meta::
 	:description:
-		Addition: PHP additions apply to two different types : numbers and arrays.
+		Addition: PHP additions apply to two different types: numbers and arrays.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Addition
-	:twitter:description: Addition: PHP additions apply to two different types : numbers and arrays
+	:twitter:description: Addition: PHP additions apply to two different types: numbers and arrays
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Addition
 	:og:type: article
-	:og:description: PHP additions apply to two different types : numbers and arrays
+	:og:description: PHP additions apply to two different types: numbers and arrays
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/addition.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Addition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:11 +0000","dateModified":"Thu, 22 Jan 2026 21:18:11 +0000","description":"PHP additions apply to two different types : numbers and arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Addition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Addition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:42:06 +0000","dateModified":"Fri, 20 Feb 2026 15:42:06 +0000","description":"PHP additions apply to two different types: numbers and arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Addition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Addition
 --------
 
-PHP additions apply to two different types : numbers and arrays.
+PHP additions apply to two different types: numbers and arrays.
 
 For numbers, ``int`` and ``float``, this is the classic mathematical addition. 
 
-For arrays, this is a special version of array merge : the arrays are merged, and keys are kept once they are written. This features only exists for addition and arrays. Substraction is not available.
+For arrays, this is a special version of array merge: the arrays are merged, and keys are kept once they are written. This features only exists for addition and arrays. Substraction is not available.
 
 With boolean, addition first cast the boolean to an integer, 0 or 1, and then, operates as a math addition.
 

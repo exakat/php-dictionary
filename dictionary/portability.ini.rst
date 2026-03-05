@@ -30,4 +30,4 @@ To ensure portability in PHP code, developers should follow best practices such 
 
 For example, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as ``scoutapm`` or ``com``. Such non-portable features should not be used, or made optional in code for which portability is important. For example, the COM extension, or win32service extensions are available only on Windows; the extensions ev and eio are only available on Linux. When accessing files, both the / used by Linux, and \ used by Windows are supported, though it is recommended to use the ``/``.
 
-Related : 
+Related : :ref:`Slash / <slash>`

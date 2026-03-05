@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Abstraction Layer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:10 +0000","dateModified":"Thu, 22 Jan 2026 21:18:10 +0000","description":"An abstraction layer is a piece of software that offer the same API to access multiple similar components","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction Layer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","name":"Abstraction Layer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:41:57 +0000","dateModified":"Fri, 20 Feb 2026 15:41:57 +0000","description":"An abstraction layer is a piece of software that offer the same API to access multiple similar components","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction Layer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstraction Layer
@@ -24,7 +24,7 @@ Abstraction Layer
 
 An abstraction layer is a piece of software that offer the same API to access multiple similar components. 
 
-The underlying components may be of various shapes : PDO offers an abstraction layer to databases, streams offer an abstraction layer to files, etc.
+The underlying components may be of various shapes: PDO offers an abstraction layer to databases, streams offer an abstraction layer to files, etc.
 
 league/flysystem offers also an abstraction layer to filesystem, lcobucci/clock offers an abstraction to clocks.
 

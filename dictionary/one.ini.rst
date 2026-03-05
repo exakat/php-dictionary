@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"one","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 10:03:42 +0000","dateModified":"Thu, 19 Feb 2026 10:03:42 +0000","description":"One is the ``1`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"one","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Mar 2026 16:49:22 +0000","dateModified":"Thu, 05 Mar 2026 16:49:22 +0000","description":"One is the ``1`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 one
@@ -41,4 +41,4 @@ Multiplying, or dividing, a string by 1 turns it into an integer, just like the 
    ?>
 
 
-Related : :ref:`False <false>`, :ref:`Callbacks <callback>`, :ref:`zero <zero>`, :ref:`Multiplication <multiplication>`
+Related : :ref:`False <false>`, :ref:`Callbacks <callback>`, :ref:`zero <zero>`, :ref:`Multiplication <multiplication>`, :ref:`Callable Arrays <array-callable>`, :ref:`Array Callback <array-callback>`, :ref:`Minus One -1 <minus-one>`, :ref:`Truthy <truthy>`, :ref:`Magic Numbers <magic-number>`

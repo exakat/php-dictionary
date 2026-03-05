@@ -31,4 +31,4 @@ In PHP, path are represented by strings. The local OS's directory separator is s
 
 See also https://php-path.readthedocs.io/en/latest/
 
-Related : , :ref:`File <file>`, 
+Related : :ref:`Dir <dir>`, :ref:`File <file>`, 

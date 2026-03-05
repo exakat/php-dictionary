@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"As","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:20:12 +0000","dateModified":"Thu, 22 Jan 2026 21:20:12 +0000","description":"The as operator has several usage:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/As.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"As","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Mar 2026 16:32:55 +0000","dateModified":"Thu, 05 Mar 2026 16:32:55 +0000","description":"The as operator has several usage:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/As.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 As
@@ -24,7 +24,7 @@ As
 
 The as operator has several usage:
 
-+ It is a compulsory keyword with the foreach() control structure
++ It is an optional keyword with the ``foreach()`` control structure, to access the key of the looped array
 + It is an optional keyword with the use expression, in trait import
 + It is an optional keyword with the use expression, in namespace import
 
@@ -34,11 +34,11 @@ The ``as`` operator often works to give a distinct name to an existing structure
    
    <?php
    
-   use stdClass as StandardClass;
+       use stdClass as StandardClass;
    
-   foreach($map as $key => $value) {
-   	print "$key => $value\n";
-   }
+       foreach($map as $key => $value) {
+           print "$key => $value\n";
+       }
    
    ?>
 

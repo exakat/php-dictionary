@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","name":"Alias Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:12 +0000","dateModified":"Thu, 22 Jan 2026 21:18:12 +0000","description":"An alias type is a short name for several types at once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Alias Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","name":"Alias Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:42:13 +0000","dateModified":"Fri, 20 Feb 2026 15:42:13 +0000","description":"An alias type is a short name for several types at once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Alias Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Alias Types
@@ -27,7 +27,7 @@ An alias type is a short name for several types at once. Under the hood, alias t
 
 PHP offers several native alias types, such as ``iterable``, which represents ``array | Traversable``. Alias type are not available for customisation. 
 
-The same rules applies to alias types than other types : for example, ``array | iterable`` produces a 'Duplicate type array is redundant' error.
+The same rules applies to alias types than other types: for example, ``array | iterable`` produces a 'Duplicate type array is redundant' error.
 
 .. code-block:: php
    

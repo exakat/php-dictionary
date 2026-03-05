@@ -113,6 +113,7 @@ Index
    dictionary/automatic-index.ini
    dictionary/autovivification.ini
    dictionary/autowiring.ini
+   dictionary/back-slash.ini
    dictionary/backed-enum.ini
    dictionary/backed-property.ini
    dictionary/backed.ini
@@ -143,6 +144,7 @@ Index
    dictionary/body.ini
    dictionary/bola.ini
    dictionary/boolean.ini
+   dictionary/bracketless.ini
    dictionary/branch.ini
    dictionary/break.ini
    dictionary/browscap.ini
@@ -256,6 +258,7 @@ Index
    dictionary/countable.ini
    dictionary/coupling.ini
    dictionary/coverage.ini
+   dictionary/cqrs.ini
    dictionary/crc32.ini
    dictionary/cron.ini
    dictionary/crud.ini
@@ -313,6 +316,7 @@ Index
    dictionary/destructor.ini
    dictionary/dictionary.ini
    dictionary/diff.ini
+   dictionary/dir.ini
    dictionary/directive.ini
    dictionary/directoryiterator.ini
    dictionary/dirname.ini
@@ -323,6 +327,7 @@ Index
    dictionary/divisionbyzeroerror.ini
    dictionary/dnf-type.ini
    dictionary/do-while.ini
+   dictionary/dollar.ini
    dictionary/domainexception.ini
    dictionary/domxml.ini
    dictionary/dot-notation.ini
@@ -377,6 +382,7 @@ Index
    dictionary/eval.ini
    dictionary/event-driven.ini
    dictionary/event-loop.ini
+   dictionary/event-sourcing.ini
    dictionary/event-storming.ini
    dictionary/exception-chain.ini
    dictionary/exception-handler.ini
@@ -547,6 +553,7 @@ Index
    dictionary/iterable.ini
    dictionary/iterator.ini
    dictionary/iterator_to_array.ini
+   dictionary/javascript.ini
    dictionary/jit.ini
    dictionary/jobqueue.ini
    dictionary/json.ini
@@ -622,6 +629,7 @@ Index
    dictionary/microtime.ini
    dictionary/migration.ini
    dictionary/minification.ini
+   dictionary/minus-one.ini
    dictionary/minus.ini
    dictionary/mixed.ini
    dictionary/mock.ini
@@ -695,6 +703,7 @@ Index
    dictionary/offset.ini
    dictionary/one-liner.ini
    dictionary/one.ini
+   dictionary/onion-architecture.ini
    dictionary/oop.ini
    dictionary/opcache.ini
    dictionary/opcode.ini
@@ -919,6 +928,7 @@ Index
    dictionary/simplexml.ini
    dictionary/single-quote.ini
    dictionary/singleton.ini
+   dictionary/slash.ini
    dictionary/sleep.ini
    dictionary/snmp.ini
    dictionary/snmp3.ini
@@ -1077,6 +1087,7 @@ Index
    dictionary/variadic.ini
    dictionary/vcs.ini
    dictionary/vector-database.ini
+   dictionary/vendor-lockin.ini
    dictionary/version.ini
    dictionary/view-presentation.ini
    dictionary/view-sql.ini

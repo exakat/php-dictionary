@@ -325,6 +325,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/autowiring.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/back-slash.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/backed-enum.ini.html</loc>
  </url>
  <url>
@@ -413,6 +416,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/bracketless.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html</loc>
@@ -754,6 +760,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/coverage.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cqrs.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/crc32.ini.html</loc>
  </url>
  <url>
@@ -925,6 +934,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/diff.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dir.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html</loc>
  </url>
  <url>
@@ -953,6 +965,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/do-while.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dollar.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/domainexception.ini.html</loc>
@@ -1115,6 +1130,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/event-sourcing.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/event-storming.ini.html</loc>
@@ -1627,6 +1645,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/iterator_to_array.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/javascript.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jit.ini.html</loc>
  </url>
  <url>
@@ -1852,6 +1873,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/minification.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/minus-one.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/minus.ini.html</loc>
  </url>
  <url>
@@ -2069,6 +2093,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/one.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/onion-architecture.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/oop.ini.html</loc>
@@ -2743,6 +2770,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/singleton.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/slash.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sleep.ini.html</loc>
  </url>
  <url>
@@ -3215,6 +3245,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/vector-database.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/vendor-lockin.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/version.ini.html</loc>

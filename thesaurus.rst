@@ -12,6 +12,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
 + :ref:`Command Line Interface (CLI) <cli>`
++ :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`
 + :ref:`Common Interface Gateway (CGI) <cgi>`
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Delivery (CD) <cd>`
@@ -144,6 +145,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Controller <controller>`
 + :ref:`Convention <convention>`
++ :ref:`Convert <convert>`
 + :ref:`Coupling <coupling>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Data Mapper <data-mapper>`
@@ -193,6 +195,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Magic Numbers <magic-number>`
 + :ref:`Memory Leak <memory-leak>`
 + :ref:`Merge <merge>`
++ :ref:`Method Signature <signature>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
@@ -256,6 +259,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
 + :ref:`Writable <writable>`
++ :ref:`Writing <writing>`
 + :ref:`Zombie Code <zombie-code>`
 + :ref:`constructor <constructor>`
 + :ref:`hash() Function <hash-function>`
@@ -338,6 +342,7 @@ List of PHP keywords and reserved names.
 + :ref:`Catch <catch>`
 + :ref:`Class <class>`
 + :ref:`Clone <clone>`
++ :ref:`Const <const>`
 + :ref:`Default <default>`
 + :ref:`Do While <do-while>`
 + :ref:`Do...while <dowhile>`
@@ -438,7 +443,7 @@ Magic method
 List of PHP magic method, which are providing special behavior throught the definition of a method with a special signature.
 
 + :ref:`__call() Method <-__call>`
-+ :ref:`__callStatic() Method <-__callStatic>`
++ :ref:`__callStatic() Method <-__callstatic>`
 + :ref:`__clone() Method <-__clone>`
 + :ref:`__get() Method <-__get>`
 + :ref:`__invoke() Method <-__invoke>`
@@ -463,6 +468,7 @@ List of named bugs.
 + :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
 + :ref:`Letter Logical Bug <letter-logical>`
 + :ref:`Magic Hash <magic-hash>`
++ :ref:`Minus One -1 <minus-one>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Object Injection <object-injection>`
 + :ref:`Stealth Generator <stealth-generator>`
@@ -527,6 +533,7 @@ Folklore
 
 List of things that seems unrelated to PHP, but, suprisingly, are.
 
++ :ref:`Dollar / <dollar>`
 + :ref:`Elephpant <elephpant>`
 + :ref:`Flag <flag>`
 + :ref:`Glue <glue>`

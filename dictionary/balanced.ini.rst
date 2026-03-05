@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Balanced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:21:39 +0000","dateModified":"Sun, 25 Jan 2026 20:21:39 +0000","description":"A pair of token is balanced when the opening token has a corresponding unique closing token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Balanced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Balanced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:52:45 +0000","dateModified":"Fri, 20 Feb 2026 15:52:45 +0000","description":"A pair of token is balanced when the opening token has a corresponding unique closing token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Balanced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Balanced
@@ -24,7 +24,7 @@ Balanced
 
 A pair of token is balanced when the opening token has a corresponding unique closing token. 
 
-Tokens that needs balancing : 
+Tokens that needs balancing: 
 
 + parenthesis, with ``(`` and ``)``
 + curly bracket, with ``{`` and ``}``
@@ -32,7 +32,7 @@ Tokens that needs balancing :
 + square bracket, with ``[`` and ``]``
 + single quotes, with ``'``
 + double quotes, with ``"``
-+ oblique quotes, with ``\```
++ oblique quotes, with `` \` ``
 
 Quotes are the same for opening and closing tokens. 
 

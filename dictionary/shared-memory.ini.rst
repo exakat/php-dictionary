@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 20:50:35 +0000","dateModified":"Wed, 18 Feb 2026 20:50:35 +0000","description":"Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:37:05 +0000","dateModified":"Fri, 20 Feb 2026 15:37:05 +0000","description":"Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shared Memory
@@ -30,7 +30,7 @@ Shared memory is a powerful feature in PHP that allows multiple processes to acc
       
    // adapted from the PHP manual : https://www.php.net/manual/en/shmop.examples-basic.php
    // Create 100 byte shared memory block with system id of 0xff3
-   $shm_id = shmop_open(0xff3, c, 0644, 100);
+   $shm_id = shmop_open(0xff3, 'c', 0644, 100);
    if (!$shm_id) {
        echo "Couldn't create shared memory segment\n";
    }

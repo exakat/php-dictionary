@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Preappend File Directive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Feb 2026 07:54:37 +0000","dateModified":"Sun, 08 Feb 2026 07:54:37 +0000","description":"The ``auto_prepend_file`` PHP directive adds an ``require`` call before the main file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Preappend File Directive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Preappend File Directive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 26 Feb 2026 11:31:12 +0000","dateModified":"Thu, 26 Feb 2026 11:31:12 +0000","description":"The ``auto_prepend_file`` PHP directive adds an ``require`` call before the main file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Preappend File Directive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Preappend File Directive
@@ -30,4 +30,4 @@ Only one file is prepended: if several files needs to be, they should be include
 
 See also https://medium.com/serveravatar/how-to-use-auto-prepend-file-in-php-effectively-ee3917b668f6, https://kitemetric.com/blogs/mastering-php-s-auto-prepend-file-a-comprehensive-guide6
 
-Related : , 
+Related : :ref:`Disable Functions <disable-functions>`, :ref:`Disable Classes <disable-classes>`

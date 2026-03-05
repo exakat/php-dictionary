@@ -1,28 +1,28 @@
 .. _-__tostring:
 .. meta::
 	:description:
-		__toString() Method: __tostring() is a magic method : it is called when the object has to be converted into a string.
+		__toString() Method: __tostring() is a magic method: it is called when the object has to be converted into a string.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: __toString() Method
-	:twitter:description: __toString() Method: __tostring() is a magic method : it is called when the object has to be converted into a string
+	:twitter:description: __toString() Method: __tostring() is a magic method: it is called when the object has to be converted into a string
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __toString() Method
 	:og:type: article
-	:og:description: __tostring() is a magic method : it is called when the object has to be converted into a string
+	:og:description: __tostring() is a magic method: it is called when the object has to be converted into a string
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__tostring.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__toString() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Feb 2026 09:18:44 +0000","dateModified":"Fri, 06 Feb 2026 09:18:44 +0000","description":"__tostring() is a magic method : it is called when the object has to be converted into a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__toString() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__toString() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:41:42 +0000","dateModified":"Fri, 20 Feb 2026 15:41:42 +0000","description":"__tostring() is a magic method: it is called when the object has to be converted into a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__toString() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __toString() Method
 -------------------
 
-__tostring() is a magic method : it is called when the object has to be converted into a string.
+__tostring() is a magic method: it is called when the object has to be converted into a string.
 
 That way, it is possible to dynamically convert the object to a string and display it, or transmit it to another part of the application. 
 

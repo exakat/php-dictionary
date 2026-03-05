@@ -27,4 +27,4 @@ Closed source, also called proprietary software, means that the source code is n
 
 `Documentation <https://simple.wikipedia.org/wiki/Closed_source>`__
 
-Related : :ref:`Open Source <open-source>`, :ref:`Licence <licence>`, 
+Related : :ref:`Open Source <open-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Emoji","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 05 Feb 2026 10:04:52 +0000","dateModified":"Thu, 05 Feb 2026 10:04:52 +0000","description":"Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Emoji.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Emoji","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Mar 2026 17:51:08 +0000","dateModified":"Wed, 04 Mar 2026 17:51:08 +0000","description":"Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Emoji.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Emoji
@@ -42,6 +42,6 @@ Emojis are small digital images or icons used to express ideas, emotions, object
 
 `Documentation <https://unicode.org/emoji/charts/full-emoji-list.html>`__
 
-See also https://en.wikipedia.org/wiki/Emoji
+See also https://en.wikipedia.org/wiki/Emoji, https://shkspr.mobi/blog/2024/04/where-you-can-and-cant-use-emoji-in-php/
 
 Related : :ref:`Escape Sequences <escape-sequence>`, :ref:`UTF-8 <utf8>`, :ref:`Unicode <unicode>`

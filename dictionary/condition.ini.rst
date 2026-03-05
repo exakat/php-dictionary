@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:19 +0000","dateModified":"Sun, 25 Jan 2026 20:46:19 +0000","description":"Conditions are an expression that are either true or false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Mar 2026 20:49:01 +0000","dateModified":"Wed, 04 Mar 2026 20:49:01 +0000","description":"Conditions are an expression that are either true or false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Condition
@@ -26,7 +26,7 @@ Conditions are an expression that are either true or false.
 
 They are used in conditional statement, to determine which code to process next. 
 
-There are conditions in conditional statements, such as if(), switch() and match(). There are conditions in loops, to determine if the loop shall continue or not : in for(), do-while() and while().  
+There are conditions in conditional statements, such as ``if()``, ``switch()`` and ``match()``. There are conditions in loops, to determine if the loop shall continue or not: in ``for()``, ``do-while()`` and ``while()``.  
 
 Conditions in PHP are expressed with comparisons operators. They are also expressed with raw data, which are converted to boolean, thanks to type-juggling.
 
@@ -34,4 +34,4 @@ Conditions in PHP are expressed with comparisons operators. They are also expres
 
 See also https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-php
 
-Related : :ref:`Yoda Condition <yoda>`
+Related : :ref:`Yoda Condition <yoda>`, , :ref:`Type Juggling <type-juggling>`

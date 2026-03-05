@@ -16,18 +16,20 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Archive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 21:18:17 +0000","dateModified":"Thu, 22 Jan 2026 21:18:17 +0000","description":"Archives are a single document that stores a collection of files and directories","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Archive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Archive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:46:55 +0000","dateModified":"Fri, 20 Feb 2026 15:46:55 +0000","description":"Archives are a single document that stores a collection of files and directories","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Archive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Archive
 -------
 
-Archives are a single document that stores a collection of files and directories. 
+Archives are a single document that stores a collection of files and directories.
 
 There are the PHAR : PHP Archives, which contains PHP code, and any other kind of file, and may be used to execute. 
 
-There are also other archive formats, such as TAR (for files) or JAR (for Java applications), etc.
+There are also other archive formats, such as TAR, for files or JAR, for Java applications, etc.
+
+Archive is often an artefact of compression, using Zip, Rar or Tar.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-Related : :ref:`Phar <phar>`
+Related : :ref:`Phar <phar>`, :ref:`Compression <compression>`
