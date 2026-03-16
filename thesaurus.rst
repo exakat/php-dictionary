@@ -207,6 +207,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
++ :ref:`Native <native>`
 + :ref:`Noop <noop>`
 + :ref:`Optimisation <optimisation>`
 + :ref:`Outgoing Data <outgoing-data>`
@@ -237,7 +238,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Refactoring <refactoring>`
 + :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
-+ :ref:`Rendering <render>`
++ :ref:`Render <render>`
++ :ref:`Renderer <renderer>`
 + :ref:`SOLID <solid>`
 + :ref:`Sandbox <sandbox>`
 + :ref:`Scaffolding <scaffolding>`

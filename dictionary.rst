@@ -117,6 +117,7 @@ PHP Dictionary
    * :ref:`array_key_exists() <array_key_exists>`
    * :ref:`array_map() <array_map>`
    * :ref:`array_merge() <array_merge>`
+   * :ref:`array_unique() <array_unique>`
    * :ref:`array_walk() <array_walk>`
 * B
    * :ref:`Back-tick <backtick>`
@@ -578,6 +579,7 @@ PHP Dictionary
    * :ref:`imagick <imagick>`
    * :ref:`implements <implements>`
    * :ref:`implode() <implode>`
+   * :ref:`in_array() <in_array>`
    * :ref:`include <include>`
    * :ref:`include_path <include_path>`
    * :ref:`instance <instance>`
@@ -662,6 +664,7 @@ PHP Dictionary
    * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Micro-second <microsecond>`
    * :ref:`Microservice <microservice>`
+   * :ref:`Middleware Pattern <middleware>`
    * :ref:`Migration <migration>`
    * :ref:`Minification <minification>`
    * :ref:`Minus - <minus>`
@@ -914,7 +917,8 @@ PHP Dictionary
    * :ref:`Release <release>`
    * :ref:`Remote Code Execution (RCE) <rce>`
    * :ref:`Remote Procedure Call (RPC) <rpc>`
-   * :ref:`Rendering <render>`
+   * :ref:`Render <render>`
+   * :ref:`Renderer <renderer>`
    * :ref:`Request For Change (RFC) <rfchange>`
    * :ref:`Reserved For Future Use (RFU) <rfu>`
    * :ref:`Reserved Names <reserved-name>`

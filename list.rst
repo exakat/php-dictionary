@@ -86,6 +86,7 @@ Index
    dictionary/array_key_exists.ini
    dictionary/array_map.ini
    dictionary/array_merge.ini
+   dictionary/array_unique.ini
    dictionary/array_walk.ini
    dictionary/arrayaccess.ini
    dictionary/arrayobject.ini
@@ -528,6 +529,7 @@ Index
    dictionary/implicit.ini
    dictionary/implode.ini
    dictionary/import.ini
+   dictionary/in_array.ini
    dictionary/include.ini
    dictionary/include_path.ini
    dictionary/inclusion.ini
@@ -648,6 +650,7 @@ Index
    dictionary/microframework.ini
    dictionary/microservice.ini
    dictionary/microtime.ini
+   dictionary/middleware.ini
    dictionary/migration.ini
    dictionary/minification.ini
    dictionary/minus-one.ini
@@ -887,6 +890,7 @@ Index
    dictionary/relay-function.ini
    dictionary/release.ini
    dictionary/render.ini
+   dictionary/renderer.ini
    dictionary/repl.ini
    dictionary/reserved-name.ini
    dictionary/resource.ini
