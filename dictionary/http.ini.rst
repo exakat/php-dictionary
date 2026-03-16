@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hyper Text Transfer Protocol (HTTP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:57:00 +0000","dateModified":"Sat, 17 Jan 2026 06:57:00 +0000","description":"The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hyper Text Transfer Protocol (HTTP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hyper Text Transfer Protocol (HTTP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Mar 2026 08:26:38 +0000","dateModified":"Wed, 11 Mar 2026 08:26:38 +0000","description":"The Hypertext Transfer Protocol is an application layer protocol in the Internet protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hyper Text Transfer Protocol (HTTP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hyper Text Transfer Protocol (HTTP)
@@ -29,5 +29,7 @@ It is also a wrapper for network communication in PHP, allowing it to be used di
 HTTP is related to HTTPS, the secure version of HTTP.
 
 `Documentation <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>`__
+
+See also https://dev.to/michiruf/copy-pasting-http-fakes-by-hand-laravel-http-automock-can-do-it-for-you-kok
 
 Related : :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`, :ref:`HTTP Headers <http-header>`

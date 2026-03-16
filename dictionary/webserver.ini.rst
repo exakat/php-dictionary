@@ -16,17 +16,17 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 16:58:43 +0000","dateModified":"Mon, 26 Jan 2026 16:58:43 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 21:24:51 +0000","dateModified":"Sun, 08 Mar 2026 21:24:51 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Webserver
 ---------
 
-A web server is a computer system or software application that delivers web pages to users over the internet. It handles requests from clients (typically web browsers) and responds by serving content like HTML pages, images, videos, or other files.
+A web server is a computer system or software application that delivers web pages to users over the internet. It handles requests from clients, typically web browsers and responds by serving content like HTML pages, images, videos, or other files.
 
 PHP is able to be integrated in many webservers: Apache, nginx, lighthttpd, Litespeed,...
 
-PHP is able to run in server mode. In command line, use the ``-S`` option. 
+PHP is able to run in server mode. In command line, use the ``-S`` option.
 
 .. code-block:: php
    

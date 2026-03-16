@@ -1,4 +1,4 @@
-.. _skeleton:
+.. _sast:
 .. meta::
 	:description:
 		Static Application Security Testing (SAST): Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security.
@@ -12,11 +12,11 @@
 	:og:title: Static Application Security Testing (SAST)
 	:og:type: article
 	:og:description: Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/skeleton.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sast.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Application Security Testing (SAST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 12:47:20 +0000","dateModified":"Thu, 22 Jan 2026 12:47:20 +0000","description":"Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Application Security Testing (SAST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Application Security Testing (SAST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 07:10:53 +0000","dateModified":"Mon, 16 Mar 2026 07:10:53 +0000","description":"Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Application Security Testing (SAST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Static Application Security Testing (SAST)
@@ -28,6 +28,6 @@ It focuses on finding vulnerabilities before the source code hits production.
 
 For example, SAST searches for injections, XSS, path traversal, insecure deserialization, weak cryptography, missing validation.
 
-See also https://deepsource.com/, https://snyk.io/, https://www.sonarsource.com/products/sonarqube/
+See also https://deepsource.com/, https://snyk.io/, https://www.sonarsource.com/products/sonarqube/, https://github.com/LioTree/php-sast-papers
 
-Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`SQL Injection <sql-injection>`, :ref:`Path Traversal <path-traversal>`, , , 
+Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, , :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`SQL Injection <sql-injection>`, :ref:`Path Traversal <path-traversal>`, , :ref:`Weak Cryptography <weak-cryptography>`, :ref:`Missing Validation <missing-validation>`

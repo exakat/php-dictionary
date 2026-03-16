@@ -40,4 +40,4 @@ It was possible to use new lines within a namespace name, until PHP 8.0. This is
    ?>
 
 
-Related : , , 
+Related : :ref:`Line Feed <line-feed>`, :ref:`Return Carriage <return-carriage>`, 

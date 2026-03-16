@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fully Qualified Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 15 Feb 2026 21:38:22 +0000","dateModified":"Sun, 15 Feb 2026 21:38:22 +0000","description":"A fully qualified name, or a fully qualified class name, is a unique identifier for the PHP name of a constant, class, trait, interface, enum or function: it includes its namespace name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fully Qualified Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fully Qualified Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 17:15:19 +0000","dateModified":"Fri, 06 Mar 2026 17:15:19 +0000","description":"A fully qualified name, or a fully qualified class name, is a unique identifier for the PHP name of a constant, class, trait, interface, enum or function: it includes its namespace name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fully Qualified Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fully Qualified Name
@@ -49,6 +49,6 @@ PHP names may be fully qualified, unqualified or relative.
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.rules.php>`__
 
-Related : :ref:`Use <use>`, :ref:`Namespaces <namespace>`, :ref:`Relative Types <relative-types>`
+Related : :ref:`Use <use>`, :ref:`Namespaces <namespace>`, :ref:`Relative Types <relative-types>`, :ref:`Absolute Value <absolute-value>`, :ref:`Absolute <absolute>`, :ref:`Identifier <identifier>`, :ref:`Relative <relative>`
 
 Added in PHP 5.3

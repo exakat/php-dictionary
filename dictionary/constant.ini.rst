@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:20 +0000","dateModified":"Sun, 25 Jan 2026 20:46:20 +0000","description":"Constants are named values, that never change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 21:03:34 +0000","dateModified":"Sun, 08 Mar 2026 21:03:34 +0000","description":"Constants are named values, that never change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Constants
@@ -49,5 +49,7 @@ Global constants used to be case insensitive, when created with ``define()``. Th
 
 
 `Documentation <https://www.php.net/manual/en/language.constants.php>`__
+
+See also https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/
 
 Related : :ref:`Static Constant <class-constant>`, :ref:`Centralization <centralization>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`New In Initializers <new-in-initializer>`, :ref:`Predefined Constants <predefined-constant>`

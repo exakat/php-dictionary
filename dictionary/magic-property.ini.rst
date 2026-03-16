@@ -45,4 +45,4 @@ The magic methods to handle magic properties are : ``__get()``, ``__set()``, ``_
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-Related : :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`__isset() Method <-__isset>`, , :ref:`Magic Constants <magic-constant>`
+Related : :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`__isset() Method <-__isset>`, :ref:`__unset() Method <-__unset>`, :ref:`Magic Constants <magic-constant>`

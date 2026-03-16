@@ -29,4 +29,4 @@ With CVS, developers can check out a copy of a project's source code, make chang
 
 `Documentation <https://en.wikipedia.org/wiki/Concurrent_Versions_System>`__
 
-Related : :ref:`git <git>`, :ref:`SVN <svn>`, :ref:`hg <hg>`, :ref:`Diff <diff>`, , :ref:`Version <version>`, 
+Related : :ref:`git <git>`, :ref:`SVN <svn>`, :ref:`hg <hg>`, :ref:`Diff <diff>`, :ref:`Commit <commit>`, :ref:`Version <version>`, 

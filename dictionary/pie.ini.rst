@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","name":"PHP Installer For Extensions (PIE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 21:54:36 +0000","dateModified":"Thu, 12 Feb 2026 21:54:36 +0000","description":"PIE is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Installer For Extensions (PIE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","name":"PHP Installer For Extensions (PIE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Mar 2026 08:27:34 +0000","dateModified":"Wed, 11 Mar 2026 08:27:34 +0000","description":"PIE is a new extension installer for PHP, designed as a successor to PECL and developed under the PHP Foundation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Installer For Extensions (PIE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Installer For Extensions (PIE)
@@ -26,6 +26,6 @@ PIE is a new extension installer for PHP, designed as a successor to PECL and de
 
 `Documentation <https://pie.php.net/>`__
 
-See also https://github.com/php/pie, https://thephp.foundation/blog/2024/11/19/pie-pre-release/
+See also https://github.com/php/pie, hhttps://developer.vonage.com/en/blog/managing-php-extensions-is-as-easy-as-pie, https://thephp.foundation/blog/2024/11/19/pie-pre-release/
 
 Related : :ref:`Extensions <extension>`, :ref:`PHP Extension C Library (PECL) <pecl>`

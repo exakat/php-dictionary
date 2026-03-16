@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Mar 2026 17:57:51 +0000","dateModified":"Sat, 07 Mar 2026 17:57:51 +0000","description":"Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Variable Arguments
@@ -24,9 +24,9 @@ Variable Arguments
 
 Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method.
 
-Variable arguments are achieved with the variadic operator, or with the func_get_args() functions. Variadic operator covers most of the cases, and func_get_args() covers the remaining edge cases. 
+Variable arguments are achieved with the variadic operator, or with the ``func_get_args()`` functions. Variadic operator covers most of the cases, and ``func_get_args()`` covers the remaining edge cases. 
 
-Variable arguments may be static or dynamic. It is static when the list of arguments varies from call to call, and are hard-coded. Dynamic argument list depends on variadic operator, or call_user_func_array() functions.
+Variable arguments may be static or dynamic. It is static when the list of arguments varies from call to call, and are hard-coded. Dynamic argument list depends on variadic ``...`` operator, or ``call_user_func_array()`` functions.
 
 
 .. code-block:: php
@@ -52,6 +52,6 @@ Variable arguments may be static or dynamic. It is static when the list of argum
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-See also `Variable-length argument lists <https://riptutorial.com/php/example/18652/variable-length-argument-lists>`_
+See also https://riptutorial.com/php/example/18652/variable-length-argument-lists
 
-Related : :ref:`Functions <function>`
+Related : :ref:`Functions <function>`, :ref:`Variadic <variadic>`, :ref:`func_get_args() <func_get_args>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Software Development Kit (SDK)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 12:47:20 +0000","dateModified":"Thu, 22 Jan 2026 12:47:20 +0000","description":"SDK stands for Software Development Kit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software Development Kit (SDK).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Software Development Kit (SDK)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 06:57:55 +0000","dateModified":"Mon, 16 Mar 2026 06:57:55 +0000","description":"SDK stands for Software Development Kit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software Development Kit (SDK).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Software Development Kit (SDK)
@@ -30,9 +30,9 @@ SDKs typically include:
 + Documentation: Guides, tutorials, and reference materials that explain how to use the SDK and its components.
 + Sample code: Example code snippets or complete applications that demonstrate how to use the SDK in practice.
 + Tools: Utilities and software programs that aid in the development, debugging, and testing of applications.
-+ APIs (Application Programming Interfaces): Interfaces that define how software components should interact with each other, allowing developers to integrate their applications with the platform or service provided by the SDK.
++ API: Interfaces that define how software components should interact with each other, allowing developers to integrate their applications with the platform or service provided by the SDK.
 
-SDKs are commonly provided by companies or organizations to encourage developers to build applications that integrate with their platforms, such as mobile operating systems (iOS, Android), cloud computing services (Amazon Web Services, Microsoft Azure), social media platforms (Facebook, Twitter), and many others.
+SDKs are commonly provided by companies or organizations to encourage developers to build applications that integrate with their platforms, such as mobile operating systems, cloud computing services, social media platforms, and many others.
 
 `Documentation <https://en.wikipedia.org/wiki/Software_development_kit>`__
 

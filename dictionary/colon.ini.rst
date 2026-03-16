@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Colon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 21:45:09 +0000","dateModified":"Thu, 12 Feb 2026 21:45:09 +0000","description":"Colons are used in a variety of situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Colon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Colon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Mar 2026 07:41:14 +0000","dateModified":"Tue, 10 Mar 2026 07:41:14 +0000","description":"Colons are used in a variety of situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Colon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Colon
@@ -27,6 +27,7 @@ Colons are used in a variety of situations:
 + With named parameters, to separate the name from the value
 + With labels, for goto
 + With ternary operator, separated or not from the question mark
++ In ``include_path`` and ``open_basedir``, double-colon is used as a separator
 
 The double colon is a distinct operator.
 
@@ -34,15 +35,15 @@ The double colon is a distinct operator.
    
    <?php
    
-   goto there;
-   there:
+       goto there;
+       there:
    
-   foo(a: 3); // 
+       foo(a: 3); // 
    
-   $b = $a ? 'a' : 'b';
-   $c = $c ?: 'a';
+       $b = $a ? 'a' : 'b';
+       $c = $c ?: 'a';
    
    ?>
 
 
-Related : :ref:`Goto <goto>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`
+Related : :ref:`Goto <goto>`, :ref:`Goto Labels <label>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`, :ref:`Separator <separator>`

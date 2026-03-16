@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP RFC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Feb 2026 21:30:07 +0000","dateModified":"Tue, 17 Feb 2026 21:30:07 +0000","description":"PHP evolution is organized by RFC: Request for comments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP RFC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP RFC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 16:52:33 +0000","dateModified":"Fri, 06 Mar 2026 16:52:33 +0000","description":"PHP evolution is organized by RFC: Request for comments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP RFC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP RFC
@@ -24,8 +24,10 @@ PHP RFC
 
 PHP evolution is organized by RFC: Request for comments. They are also called 'change proposals'. 
 
-On the PHP wiki, a section is dedicated to PHP new features : they are presented, then voted upon.
+On the PHP wiki, a section is dedicated to PHP new features: they are presented, then voted upon.
 
 `Documentation <https://wiki.php.net/rfc>`__
 
 See also https://wiki.php.net/rfc/howto
+
+Related : :ref:`PHP Engine <engine>`, :ref:`PHP Foundation <php-foundation>`

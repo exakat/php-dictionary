@@ -32,4 +32,4 @@ There are 22 PSR at the moment, covering subjects such as cache, factories, log,
 
 See also https://github.com/jbboehr/php-psr
 
-Related : :ref:`FIG <php-fig>`
+Related : :ref:`Framework Interoperability Group (FIG) <php-fig>`

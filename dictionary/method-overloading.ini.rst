@@ -51,4 +51,4 @@ Method overloading is a PHP feature, based on the usage of the ``func_get_args()
 
 See also https://www.freecodecamp.org/news/method-overloading-in-php/, https://dev.to/xwero/php-method-overloading-5epg
 
-Related : 
+Related : :ref:`func_get_args() <func_get_args>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Headers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 17 Jan 2026 06:57:00 +0000","dateModified":"Sat, 17 Jan 2026 06:57:00 +0000","description":"HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Headers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Headers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 05:43:22 +0000","dateModified":"Fri, 06 Mar 2026 05:43:22 +0000","description":"HTTP headers are extra information, exchanged between the server and the client, to configure further the network transaction","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Headers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTTP Headers
@@ -26,19 +26,19 @@ HTTP headers are extra information, exchanged between the server and the client,
 
 They are separated from the content, which usually represents the HTML page, or the binary  code of the image, archive. 
 
-HTTP headers have a name, and a value. They are made of ASCII text, and separated by a colon `:`
+HTTP headers have a name, and a value. They are made of ASCII text, and separated by a colon ``:``
 
 HTTP headers are the same with HTTPS.
 
-In PHP, they are handled by the functions prefixed by ``header_`` : headers_sent(), headers_list(), header(), header_remove(), header_register_callback().
+In PHP, they are handled by the following functions : ``headers_sent()``, ``headers_list()``, ``header()``, ``header_remove()``, ``header_register_callback()``.
 
 .. code-block:: php
    
    <?php
    
-   function foo($a, $b) {
-       return $a - $b;
-   }
+       function foo($a, $b) {
+           return $a - $b;
+       }
    
    ?>
 

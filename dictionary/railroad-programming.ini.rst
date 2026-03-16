@@ -1,4 +1,4 @@
-.. _railroad:
+.. _railroad-programming:
 .. meta::
 	:description:
 		Railroad Programming: Railroad programming is a functional programming paradigm that manage flow control, especially success vs failure, without messy if/else chains or exceptions everywhere.
@@ -12,11 +12,11 @@
 	:og:title: Railroad Programming
 	:og:type: article
 	:og:description: Railroad programming is a functional programming paradigm that manage flow control, especially success vs failure, without messy if/else chains or exceptions everywhere
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/railroad.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/railroad-programming.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Railroad Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 18:39:46 +0000","dateModified":"Wed, 18 Feb 2026 18:39:46 +0000","description":"Railroad programming is a functional programming paradigm that manage flow control, especially success vs failure, without messy if\/else chains or exceptions everywhere","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Railroad Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Railroad Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Mar 2026 20:42:41 +0000","dateModified":"Mon, 09 Mar 2026 20:42:41 +0000","description":"Railroad programming is a functional programming paradigm that manage flow control, especially success vs failure, without messy if\/else chains or exceptions everywhere","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Railroad Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Railroad Programming

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Mar 2026 17:52:56 +0000","dateModified":"Sat, 07 Mar 2026 17:52:56 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Universal Resource Locator (URL)
@@ -67,4 +67,4 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 
 See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 
-Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`
+Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`, :ref:`Query String <query-string>`, :ref:`Scheme <scheme>`, :ref:`URI Extension <uri-extension>`, :ref:`Universal Resource Identifier (URI) <uri>`

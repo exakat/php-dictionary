@@ -30,6 +30,6 @@ RAG is widely used in chatbots, search engines, and knowledge management systems
 
 See also https://dev.to/robertobutti/building-a-rag-retrieval-augmented-generation-system-in-php-with-neuron-ai-4jmo, https://symfony.com/doc/current/ai/cookbook/rag-implementation.html
 
-Related : :ref:`Vector Database <vector-database>`, , 
+Related : :ref:`Vector Database <vector-database>`, :ref:`Large Language Model (LLM) <llm>`, :ref:`Model Context Protocol (MCP) <mcp>`
 
 Related packages : `mzarnecki/php-rag <https://packagist.org/packages/mzarnecki/php-rag>`_

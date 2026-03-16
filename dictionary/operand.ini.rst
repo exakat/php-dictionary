@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Operand","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Feb 2026 21:12:18 +0000","dateModified":"Sat, 07 Feb 2026 21:12:18 +0000","description":"An operand is an argument for an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Operand.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Operand","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 07:19:05 +0000","dateModified":"Mon, 16 Mar 2026 07:19:05 +0000","description":"An operand is an argument for an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Operand.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Operand
@@ -40,4 +40,8 @@ An operand is an argument for an operator. It applies to any of the operand: to 
    ?>
 
 
-Related : :ref:`Addition <addition>`, :ref:`Unary Operator <unary>`, :ref:`Ternary Operator <ternary>`, :ref:`Bitshift Operators <bitshift>`
+`Documentation <https://en.wikipedia.org/wiki/Operand>`__
+
+See also https://www.merriam-webster.com/dictionary/operand
+
+Related : :ref:`Addition <addition>`, :ref:`Unary Operator <unary>`, :ref:`Ternary Operator <ternary>`, :ref:`Bitshift Operators <bitshift>`, :ref:`Operators <operator>`

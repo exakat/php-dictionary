@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webshell","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Jun 2025 13:34:06 +0000","dateModified":"Sat, 28 Jun 2025 13:34:06 +0000","description":"A webshell is a malicious script uploaded to a web server that allows an attacker to remotely control the server using a web browser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webshell.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webshell","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 20:15:15 +0000","dateModified":"Sun, 08 Mar 2026 20:15:15 +0000","description":"A webshell is a malicious script uploaded to a web server that allows an attacker to remotely control the server using a web browser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webshell.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Webshell
@@ -35,4 +35,6 @@ A webshell is a malicious script uploaded to a web server that allows an attacke
 
 `Documentation <https://en.wikipedia.org/wiki/Web_shell>`__
 
-See also https://github.com/tennc/webshell
+See also https://github.com/tennc/webshell, https://www.acunetix.com/blog/articles/introduction-web-shells-part-1/
+
+Related : :ref:`System Call <system-call>`

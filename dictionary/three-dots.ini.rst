@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Three Dots","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 07 Feb 2026 21:04:14 +0000","dateModified":"Sat, 07 Feb 2026 21:04:14 +0000","description":"Three dots, is an operator with several usages and names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Three Dots.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Three Dots","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 20:50:36 +0000","dateModified":"Sun, 08 Mar 2026 20:50:36 +0000","description":"Three dots, is an operator with several usages and names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Three Dots.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Three Dots
@@ -30,7 +30,7 @@ Three dots, is an operator with several usages and names.
 + spread in array, to merge several arrays in one
 + closure creator, when used standalone in a methodcall.
 
-The various features of this operator were introduced in different PHP versions. 
+The various features of this operator were introduced in different PHP versions.
 
 .. code-block:: php
    
@@ -59,6 +59,8 @@ The various features of this operator were introduced in different PHP versions.
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
+
+See also https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/, https://medium.com/@sharminshanta/variadic-function-in-php-5e16c36c2727/
 
 Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`, :ref:`First Class Callable <first-class-callable>`
 

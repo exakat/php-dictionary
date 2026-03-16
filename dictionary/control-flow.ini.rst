@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Control Flow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:21 +0000","dateModified":"Sun, 25 Jan 2026 20:46:21 +0000","description":"Control flow structures direct the way PHP execute the statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Control Flow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Control Flow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 21:02:16 +0000","dateModified":"Sun, 08 Mar 2026 21:02:16 +0000","description":"Control flow structures direct the way PHP execute the statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Control Flow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Control Flow
@@ -38,29 +38,29 @@ Control flow structures direct the way PHP execute the statements. For example, 
 + match
 + declare
 + return
-+ require()
-+ include()
-+ require_once()
-+ include_once()
++ ``require()``
++ ``include()``
++ ``require_once()``
++ ``include_once()``
 + goto
 
-Control flow structures can't be called dynamically : they have to be hardcoded, or nested in a closure or other function.
+Control flow structures can't be called dynamically: they have to be hardcoded, or nested in a closure or other function.
 
 .. code-block:: php
    
    <?php
    
-   if ($a === 1) { 
-   	$b = 2;
-   } else {
-   	$b = 3;
-   }
+       if ($a === 1) { 
+       	$b = 2;
+       } else {
+       	$b = 3;
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__
 
-See also https://zetcode.com/php/flowcontrol/
+See also https://zetcode.com/php/flowcontrol/, https://www.codeguage.com/v1/courses/php/control-flow
 
 Related : :ref:`Statement <statement>`, :ref:`Loops <loop>`, :ref:`Semicolon <semicolon>`, :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`Goto <goto>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"(void) Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Feb 2026 21:39:58 +0000","dateModified":"Mon, 16 Feb 2026 21:39:58 +0000","description":"The ``(void)`` cast is a special cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/(void) Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"(void) Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 17:08:49 +0000","dateModified":"Fri, 06 Mar 2026 17:08:49 +0000","description":"The ``(void)`` cast is a special cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/(void) Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 (void) Cast
@@ -42,4 +42,8 @@ The ``(void)`` cast is a special cast. It doesn't actually cast a value to ``voi
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/migration85.new-features.php#migration85.new-features.core.nodiscard-attribute>`__
+`Documentation <https://www.php.net/manual/en/class.nodiscard.php>`__
+
+See also https://www.php.net/manual/en/migration85.new-features.php#migration85.new-features.core.nodiscard-attribute, https://www.amitmerchant.com/the-nodiscard-attribute-in-php-85/
+
+Related : :ref:`NoDiscard <nodiscard>`

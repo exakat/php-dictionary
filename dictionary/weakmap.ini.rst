@@ -16,20 +16,17 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weakmap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 17 Sep 2025 19:06:48 +0000","dateModified":"Wed, 17 Sep 2025 19:06:48 +0000","description":"``WeakMap`` is a special object type introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weakmap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 21:23:28 +0000","dateModified":"Sun, 08 Mar 2026 21:23:28 +0000","description":"``WeakMap`` is a special object type introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Weakmap
 -------
 
 ``WeakMap`` is a special object type introduced in PHP 8.0.
-It’s basically a map (key–value storage) where the keys are objects and the stored values are automatically removed when the object key is no longer referenced anywhere else in your program.
 
-Think of it as:
+It is a map, or key–value storage, where the keys are objects and the stored values are automatically removed when the object key is no longer referenced anywhere else in your program.
 
-Like an associative array, but the keys must be objects.
-
-It doesn’t prevent objects from being garbage-collected.
+They may be considered as an associative array, where the keys must be objects. It also doesn’t prevent objects from being garbage-collected.
 
 .. code-block:: php
    
@@ -53,4 +50,4 @@ It doesn’t prevent objects from being garbage-collected.
 
 `Documentation <https://www.php.net/manual/en/class.weakmap.php>`__
 
-Related : :ref:`Array <array>`, :ref:`SplStorageObjects <splstorageobjects>`
+Related : :ref:`Array <array>`, :ref:`SplStorageObjects <splstorageobjects>`, :ref:`Garbage Collection <garbage-collection>`

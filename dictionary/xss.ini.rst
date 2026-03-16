@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross Site Scripting (XSS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 12 Jan 2026 20:58:10 +0000","dateModified":"Mon, 12 Jan 2026 20:58:10 +0000","description":"It\u2019s a web security vulnerability where an attacker injects malicious JavaScript into a website, and that script then runs in other users\u2019 browsers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross Site Scripting (XSS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross Site Scripting (XSS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 16:54:59 +0000","dateModified":"Fri, 06 Mar 2026 16:54:59 +0000","description":"It\u2019s a web security vulnerability where an attacker injects malicious JavaScript into a website, and that script then runs in other users\u2019 browsers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross Site Scripting (XSS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cross Site Scripting (XSS)
@@ -27,3 +27,5 @@ It’s a web security vulnerability where an attacker injects malicious JavaScri
 XSS happens when a Web applciation accepts user input, fails to validate it property. That input is used in the resulting web page, and it executes there, either as HTML or javascript or any other available resource.
 
 XSS is dangerous as it allows the attacker to steal important information such as cookies, impersonate the usage, read or modify the page content.
+
+See also https://www.acunetix.com/websitesecurity/php-security-3/, https://portswigger.net/web-security/cross-site-scripting

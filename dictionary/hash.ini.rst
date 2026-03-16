@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Feb 2026 15:33:56 +0000","dateModified":"Tue, 17 Feb 2026 15:33:56 +0000","description":"Hash has several meanings : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 20:59:04 +0000","dateModified":"Sun, 08 Mar 2026 20:59:04 +0000","description":"Hash has several meanings : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash
@@ -31,10 +31,11 @@ Hash has several meanings :
 + a general computer science concept, that transforms data into another value
 + a general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert. It is also called a digest.
 + a synonym for arrays with arbitrary keys, also known as map or associative array
++ a character to start a one line comment: ``#``
 
 Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. 
 
-While the extension 'hash' only process hashes, there are other extensions which offer these features : openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.
+While the extension ``hash`` only process hashes, there are other extensions which offer these features : openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.
 
 .. code-block:: php
    
@@ -61,4 +62,4 @@ While the extension 'hash' only process hashes, there are other extensions which
 
 See also https://ssojet.com/hashing/numeric-hash-nhash-in-php
 
-Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`

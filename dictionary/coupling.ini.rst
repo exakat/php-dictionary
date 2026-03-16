@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coupling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:41:09 +0000","dateModified":"Fri, 20 Feb 2026 15:41:09 +0000","description":"Coupling refers to the degree of dependency between different classes of a software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coupling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coupling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 14 Mar 2026 08:48:58 +0000","dateModified":"Sat, 14 Mar 2026 08:48:58 +0000","description":"Coupling refers to the degree of dependency between different classes of a software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coupling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Coupling
@@ -33,6 +33,9 @@ Coupling refers to the degree of dependency between different classes of a softw
 + No Coupling (or Content Independence): The ideal type of coupling is no coupling at all, where modules are entirely independent of each other. Each module operates in isolation, and changes to one module do not affect others
 
 Software designers aim to achieve low coupling and high cohesion (a measure of how closely the elements within a module are related) in their systems to improve maintainability, reusability, and overall system design.
+
+The opposite of coupling is decoupling.
+
 
 .. code-block:: php
    
@@ -64,3 +67,5 @@ Software designers aim to achieve low coupling and high cohesion (a measure of h
 `Documentation <https://en.wikipedia.org/wiki/Coupling_(computer_programming)>`__
 
 See also https://dev.to/franiglesias/dependencies-and-coupling-4365
+
+Related : :ref:`Decoupling <decoupling>`, 

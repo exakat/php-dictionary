@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Object Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 19:34:19 +0000","dateModified":"Wed, 18 Feb 2026 19:34:19 +0000","description":"The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Object Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Mar 2026 07:37:04 +0000","dateModified":"Tue, 10 Mar 2026 07:37:04 +0000","description":"The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``::``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Object Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Object Syntax
@@ -38,5 +38,9 @@ Object syntax is also opposed to ``resource``: some PHP extensions produce resou
    
    ?>
 
+
+`Documentation <https://www.php.net/manual/en/language.oop5.php>`__
+
+See also https://www.php.net/manual/en/language.oop5.basic.php
 
 Related : :ref:`Array Syntax <array-syntax>`, :ref:`resource <resource>`

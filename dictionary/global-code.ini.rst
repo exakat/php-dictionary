@@ -16,15 +16,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Global Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 15 Feb 2026 21:39:26 +0000","dateModified":"Sun, 15 Feb 2026 21:39:26 +0000","description":"The global code is the code that doesn't belong to any method or function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Global Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Global Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Mar 2026 07:22:40 +0000","dateModified":"Tue, 10 Mar 2026 07:22:40 +0000","description":"The global code is the code that doesn't belong to any method or function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Global Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Global Code
 -----------
 
-The global code is the code that doesn't belong to any method or function. Since PHP has no main() method that is called upon execution, the global code in the first file called is used. It is responsible to make the first calls to objects and functions.
+The global code is the code that doesn't belong to any method or function. Since PHP has no ``main()`` method that is called upon execution, the global code in the first file called is used. It is responsible to make the first calls to objects and functions.
 
-Global code is usually organised in a sequential manner. Once the bootstrapping (create th first objects, install autoload, detect environment) is done, the global code calls one object and let it handle the request.
+Global code is usually organised in a sequential manner. Once the bootstrapping, whieh create the first objects, install autoload, detect environment, is done, the global code calls one object and let it handle the request.
 
 .. code-block:: php
    
@@ -37,3 +37,5 @@ Global code is usually organised in a sequential manner. Once the bootstrapping 
    
    ?>
 
+
+Related : :ref:`Bootstrap <bootstrap>`

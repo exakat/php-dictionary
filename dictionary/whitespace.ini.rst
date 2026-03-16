@@ -1,34 +1,34 @@
 .. _whitespace:
 .. meta::
 	:description:
-		Whitespace: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name.
+		Whitespace: Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Whitespace
-	:twitter:description: Whitespace: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name
+	:twitter:description: Whitespace: Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Whitespace
 	:og:type: article
-	:og:description: Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name
+	:og:description: Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Whitespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 18 Feb 2026 19:53:04 +0000","dateModified":"Wed, 18 Feb 2026 19:53:04 +0000","description":"Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Whitespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Whitespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 21:19:34 +0000","dateModified":"Sun, 08 Mar 2026 21:19:34 +0000","description":"Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Whitespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Whitespace
 ----------
 
-Whitespace refers to spaces, tabs, and newline characters: those characters are invisible on a white background, hence the name. 
+Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name. 
 
 Whitespace is used to format and organize the code, making it more readable. 
 
-However, in PHP, whitespace is generally not significant in terms of parsing; the PHP interpreter usually ignores whitespace. There are some rare situations where the whitespaces have a role : in heredoc syntax, and for formatting floats.
+However, in PHP, whitespace is generally not significant in terms of parsing; the PHP interpreter usually ignores whitespace. There are some rare situations where the whitespaces have a role: in heredoc syntax, and for formatting floats.
 
-Whitespace is not a notion specific to PHP : other languages have them too. For example, trim() removes whitespace at the beginning and the end of a string value.
+Whitespace is not a notion specific to PHP: other languages have them too. For example, ``trim()`` removes whitespace at the beginning and the end of a string value.
 
 .. code-block:: php
    

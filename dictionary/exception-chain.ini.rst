@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Chaining Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 26 Jan 2026 12:54:20 +0000","dateModified":"Mon, 26 Jan 2026 12:54:20 +0000","description":"Chaining exception is throwing again a caught exception, with a new type, and with the previous exception","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Chaining Exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Chaining Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 05:40:19 +0000","dateModified":"Fri, 06 Mar 2026 05:40:19 +0000","description":"Chaining exception is throwing again a caught exception, with a new type, and with the previous exception","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Chaining Exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Chaining Exceptions
@@ -25,9 +25,9 @@ Chaining Exceptions
 
 Chaining exception is throwing again a caught exception, with a new type, and with the previous exception. 
 
-To provide the previous exception to a new exception, use the third parameter of the Exception constructor. Also, always provide a third argument to custom exceptions.
+To provide the previous exception to a new exception, use the third parameter of the ``Exception`` constructor. Also, always provide a third argument to custom exceptions.
 
-The previous exception is available with the `getPrevious()` method of the Exception class.
+The previous exception is available with the ``Exception::getPrevious()`` method of the ``Exception`` class.
 
 .. code-block:: php
    
@@ -50,5 +50,7 @@ The previous exception is available with the `getPrevious()` method of the Excep
 
 
 `Documentation <https://en.wikipedia.org/wiki/Exception_chaining>`__
+
+See also https://moxio.com/blog/best-practices-for-php-exception-handling/
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`

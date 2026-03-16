@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Feb 2026 15:52:14 +0000","dateModified":"Fri, 20 Feb 2026 15:52:14 +0000","description":"array is the array structure in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 17:14:17 +0000","dateModified":"Fri, 06 Mar 2026 17:14:17 +0000","description":"array is the array structure in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Array
@@ -50,6 +50,6 @@ Mixed keys in an array refers to the practice add elements in the array with bot
 
 See also https://ashallendesign.co.uk/blog/php-84-array-functions
 
-Related : :ref:`Index For Arrays <index-array>`, :ref:`Addition <addition>`, :ref:`Comma <comma>`, :ref:`Dereferencing <dereferencing>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Hash <hash>`, :ref:`Hash <hashing>`, :ref:`Iterable <iterable>`, :ref:`List <list>`, :ref:`Map <map>`, :ref:`Sort <sort>`, :ref:`Sort <sorting>`, :ref:`Indexed Array <indexed-array>`, :ref:`Associative Array <associative-array>`, :ref:`ArrayObject <arrayobject>`, :ref:`Collection <collection>`, :ref:`Multiplication <multiplication>`, :ref:`Recursive Array <recursive-array>`, :ref:`Square Brackets <square-bracket>`
+Related : :ref:`Index For Arrays <index-array>`, :ref:`Addition <addition>`, :ref:`Comma <comma>`, :ref:`Dereferencing <dereferencing>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Hash <hash>`, :ref:`Hash <hashing>`, :ref:`Iterable <iterable>`, :ref:`List <list>`, :ref:`Map <map>`, :ref:`Sort <sort>`, :ref:`Sort <sorting>`, :ref:`Indexed Array <indexed-array>`, :ref:`Associative Array <associative-array>`, :ref:`ArrayObject <arrayobject>`, :ref:`Collection <collection>`, :ref:`Multiplication <multiplication>`, :ref:`Recursive Array <recursive-array>`, :ref:`Square Brackets <square-bracket>`, :ref:`Dot Notation <dot-notation>`, :ref:`PHP Natives <native-type>`, :ref:`Self-reference <self-reference>`, :ref:`Serde <serde>`
 
 Related packages : `voku/arrayy <https://packagist.org/packages/voku/arrayy>`_

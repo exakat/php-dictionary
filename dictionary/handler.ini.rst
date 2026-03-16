@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Handlers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Feb 2026 16:30:09 +0000","dateModified":"Mon, 09 Feb 2026 16:30:09 +0000","description":"PHP handlers are methods which are called to customize the processing of specific events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Handlers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Handlers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 10 Mar 2026 07:30:36 +0000","dateModified":"Tue, 10 Mar 2026 07:30:36 +0000","description":"PHP handlers are methods which are called to customize the processing of specific events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Handlers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Handlers
@@ -27,23 +27,23 @@ PHP handlers are methods which are called to customize the processing of specifi
 Handlers are usually named by their setting function: 
 
 + Errors
-    + set_error_handler()
-    + set_exception_handler()
+    + ``set_error_handler()``
+    + ``set_exception_handler()``
 + Sessions
-    + session_set_save_handler()
-    + session_register_shutdown()
+    + ``session_set_save_handler()``
+    + ``session_register_shutdown()``
 + Execution
-    + register_shutdown_function()
+    + ``register_shutdown_function()``
 + Ticks
-    + register_tick_function()
+    + ``register_tick_function()``
 + Headers
-    + header_register_callback()
+    + ``header_register_callback()``
 + Streams
-    + stream_register_wrapper()
-    + stream_wrapper_register()
-    + stream_filter_register()
+    + ``stream_register_wrapper()``
+    + ``stream_wrapper_register()``
+    + ``stream_filter_register()``
 + Autoload
-    + spl_autoload_register()
+    + ``spl_autoload_register()``
 
 PHP handlers may be functions, closures and arrow functions.
 

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Compile Time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 25 Jan 2026 20:46:18 +0000","dateModified":"Sun, 25 Jan 2026 20:46:18 +0000","description":"Compile time is a phase of PHP processing, where the source code is transformed into execution commands","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compile Time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Compile Time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 21:14:18 +0000","dateModified":"Sun, 08 Mar 2026 21:14:18 +0000","description":"Compile time is a phase of PHP processing, where the source code is transformed into execution commands","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compile Time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Compile Time
@@ -28,9 +28,9 @@ Compile time is a phase of PHP processing, where the source code is transformed 
 
 At that time, PHP figures out the syntax and code organisation, and also validates some aspects of the code, depending on the information availability. The information availability may depend on execution: for example, PHP validate interfaces when they are in the same file as the implementing class, but not when they are in different files, as autoloading() needs to happen.
 
-In particular, during compile time, PHP has only visibility on the current constant definitions (no inclusion, no define()). It has not result from any function call, or variables. 
+In particular, during compile time, PHP has only visibility on the current constant definitions: no inclusion, no ``define()``. It has not result from any function call, or variables. 
 
-Compile time is related to execution time and late static binding. Attributes, default values, constants (with ``const``) are fully compile time structures.
+Compile time is related to execution time and late static binding. Attributes, default values, constants, with ``const``, are fully compile time structures.
 
 .. code-block:: php
    

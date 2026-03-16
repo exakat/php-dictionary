@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Break","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 23:16:42 +0000","dateModified":"Thu, 19 Feb 2026 23:16:42 +0000","description":"``break`` is a control structure, which ends execution of the current ``for``, ``foreach``, ``while``, ``do-while`` or ``switch`` structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Break.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Break","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 14 Mar 2026 08:56:57 +0000","dateModified":"Sat, 14 Mar 2026 08:56:57 +0000","description":"``break`` is a control structure, which ends execution of the current ``for``, ``foreach``, ``while``, ``do-while`` or ``switch`` structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Break.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Break
@@ -59,6 +59,6 @@ Break
 
 See also https://www.geeksforgeeks.org/php/difference-between-break-and-continue-in-php/, https://mmramadan.com/loop-control/breaking-multiple-loops-in-php
 
-Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>`
+Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>`, :ref:`Control Flow <control-flow>`, :ref:`InfiniteIterator <infiniteiterator>`, :ref:`Jump <jump>`, :ref:`Switch Case <switch-case>`
 
 Added in PHP 5.4

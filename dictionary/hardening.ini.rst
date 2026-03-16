@@ -28,6 +28,6 @@ For example, by default, PHP displays its version number in the HTTP headers, wi
 
 See also https://www.tecmint.com/hide-php-version-http-header/, https://www.zend.com/blog/php-hardening-strategies, https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html, https://labs.detectify.com/security-guidance/modern-php-security-part-2-breaching-and-hardening-the-php-engine/
 
-Related : 
+Related : :ref:`expose_php <expose_php>`
 
 Related packages : `drupal/core-vendor-hardening <https://packagist.org/packages/drupal/core-vendor-hardening>`_, `jvmtech/neos-hardening <https://packagist.org/packages/jvmtech/neos-hardening>`_

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Passing By Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 03 Mar 2026 22:53:13 +0000","dateModified":"Tue, 03 Mar 2026 22:53:13 +0000","description":"When calling a method, or returning from it, data may be passed by value or by reference","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Passing By Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Passing By Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 09 Mar 2026 20:26:53 +0000","dateModified":"Mon, 09 Mar 2026 20:26:53 +0000","description":"When calling a method, or returning from it, data may be passed by value or by reference","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Passing By Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Passing By Reference
@@ -24,9 +24,9 @@ Passing By Reference
 
 When calling a method, or returning from it, data may be passed by value or by reference. 
 
-By reference, a reference to the the data is passed : any modification on that value inside the method will be reflected in the original value. 
+By reference, a reference to the the data is passed: any modification on that value inside the method will be reflected in the original value. 
 
-This is the alternative way of passing data to methods : the default way is to use by value, which copies the data. 
+This is the alternative way of passing data to methods: the default way is to use by value, which copies the data. 
 
 Passing by reference is the default behavior with object. Otherwise, it needs to be declared with the ``&`` operator, in the function signature.
 

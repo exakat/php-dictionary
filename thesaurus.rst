@@ -24,6 +24,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Data Transfer Object (DTO) <dto>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
++ :ref:`Design By Contract (DBC) <contract>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
@@ -33,6 +34,7 @@ List of acronyms, used in this dictionary.
 + :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
 + :ref:`File Transfert Protocol (FTP) <ftp>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
++ :ref:`Framework Interoperability Group (FIG) <php-fig>`
 + :ref:`Functional Programming <functional-programming>`
 + :ref:`GNU Multiple Precision (GMP) <gmp>`
 + :ref:`Graphic Draw (GD) <gd>`
@@ -47,6 +49,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Liskov Substitution Principle (LSP) <lsp>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
++ :ref:`Model Context Protocol (MCP) <mcp>`
 + :ref:`Not A Number (NAN) <nan>`
 + :ref:`OOP (Object Oriented Programming) <oop>`
 + :ref:`Object Relational Mapping (ORM) <orm>`
@@ -76,13 +79,14 @@ List of acronyms, used in this dictionary.
 + :ref:`Single Sign On (SSO) <sso>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Standard PHP Library (SPL) <spl>`
-+ :ref:`Static Application Security Testing (SAST) <skeleton>`
++ :ref:`Static Application Security Testing (SAST) <sast>`
 + :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 + :ref:`Transport Layer Security (TLS) <tls>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
 + :ref:`Universal Resource Locator (URL) <url>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
++ :ref:`User Datagram Protocol (UDP) <udp>`
 + :ref:`User Operations For Zend (UOPZ) <uopz>`
 + :ref:`Value Object (VO) <vo>`
 + :ref:`World Wide Weab (WWW) <web>`
@@ -128,6 +132,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Backend <backend>`
 + :ref:`Benchmarking <benchmarking>`
 + :ref:`Blind Variable <blind-variable>`
++ :ref:`Boilerplate <boilterplate>`
 + :ref:`Bug <bug>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
@@ -148,10 +153,12 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Convert <convert>`
 + :ref:`Coupling <coupling>`
 + :ref:`Cryptographic Hash <hash-crypto>`
++ :ref:`Data Container <data-container>`
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Database <database>`
 + :ref:`Dataset <dataset>`
 + :ref:`Declaration <declaration>`
++ :ref:`Decoupling <decoupling>`
 + :ref:`Default Value <default-value>`
 + :ref:`Dependency Injection <dependency-injection>`
 + :ref:`Deprecation <deprecation>`
@@ -186,6 +193,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Injection <injection>`
 + :ref:`Jobqueue <jobqueue>`
 + :ref:`Jump <jump>`
++ :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
@@ -200,7 +208,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
 + :ref:`Noop <noop>`
++ :ref:`Optimisation <optimisation>`
++ :ref:`Outgoing Data <outgoing-data>`
 + :ref:`Over-engineer <overengineer>`
++ :ref:`Overflow <overflow>`
 + :ref:`Overloading <overloading>`
 + :ref:`Overwrite <overwrite>`
 + :ref:`PHPdoc <phpdoc>`
@@ -210,6 +221,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Password <password>`
 + :ref:`Path <path>`
 + :ref:`Permission <permission>`
++ :ref:`Persistence <persistence>`
 + :ref:`Pipeline <pipeline>`
 + :ref:`Plugin <plugin>`
 + :ref:`Polymorphism <polymorphism>`
@@ -228,8 +240,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Rendering <render>`
 + :ref:`SOLID <solid>`
 + :ref:`Sandbox <sandbox>`
++ :ref:`Scaffolding <scaffolding>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
++ :ref:`Scope <scope>`
 + :ref:`Security <security>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`
@@ -291,6 +305,7 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 + :ref:`Error Reporting <error-reporting>`
 + :ref:`Preappend File Directive <auto_prepend_file>`
 + :ref:`html_errors <html_errors>`
++ :ref:`include_path <include_path>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`memory_limit <memory_limit>`
 + :ref:`php.ini <php.ini>`
@@ -308,6 +323,7 @@ List of exceptions, available in PHP.
 + :ref:`Chaining Exceptions <exception-chain>`
 + :ref:`ClosedGeneratorException <closedgeneratorexception>`
 + :ref:`DivisionByZeroError <divisionbyzeroerror>`
++ :ref:`Exception Handler <exception-handler>`
 + :ref:`ImagickException <imagickexception>`
 + :ref:`ImagickPixelException <imagickpixelexception>`
 + :ref:`InvalidArgumentException <invalidargumentexception>`
@@ -343,6 +359,7 @@ List of PHP keywords and reserved names.
 + :ref:`Class <class>`
 + :ref:`Clone <clone>`
 + :ref:`Const <const>`
++ :ref:`Continue <continue>`
 + :ref:`Default <default>`
 + :ref:`Do While <do-while>`
 + :ref:`Do...while <dowhile>`
@@ -418,6 +435,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Nullable <nullable>`
 + :ref:`Object <object>`
 + :ref:`Object Type <object-type>`
++ :ref:`PHP Natives <native-type>`
 + :ref:`Positive Integer <positive-integer>`
 + :ref:`Real Numbers <real>`
 + :ref:`Relative Types <relative-types>`
@@ -454,6 +472,7 @@ List of PHP magic method, which are providing special behavior throught the defi
 + :ref:`__sleep() Method <-__sleep>`
 + :ref:`__toString() Method <-__tostring>`
 + :ref:`__unserialize() Method <-__unserialize>`
++ :ref:`__unset() Method <-__unset>`
 + :ref:`__wakeup() Method <-__wakeup>`
 
 Classic bug
@@ -504,6 +523,7 @@ List of special PHP extensions.
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`SimpleXML <simplexml>`
 + :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`URI Extension <uri-extension>`
 + :ref:`XMLwriter <xmlwriter>`
 + :ref:`XXTEA <xxtea>`
 + :ref:`bzip2 Extension <bzip2>`
@@ -536,6 +556,7 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Dollar / <dollar>`
 + :ref:`Elephpant <elephpant>`
 + :ref:`Flag <flag>`
++ :ref:`Framework Interoperability Group (FIG) <php-fig>`
 + :ref:`Glue <glue>`
 + :ref:`Haystack <haystack>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
@@ -543,6 +564,6 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`One Liner <one-liner>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
-+ :ref:`Railroad Programming <railroad>`
++ :ref:`Railroad Programming <railroad-programming>`
 + :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 + :ref:`Separator <separator>`

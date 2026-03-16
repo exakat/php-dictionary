@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"php.ini","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 12 Feb 2026 21:57:09 +0000","dateModified":"Thu, 12 Feb 2026 21:57:09 +0000","description":"``php","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php.ini.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"php.ini","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 06 Mar 2026 16:51:54 +0000","dateModified":"Fri, 06 Mar 2026 16:51:54 +0000","description":"``php","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php.ini.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 php.ini
@@ -26,6 +26,8 @@ php.ini
 
 ``php.ini`` contains directives. For example, ``memory_limit`` or ``default_socket_timeout``.
 
-They may be later redefined using other mechanisms, such as command line options (``-d``), .htaccess or in-code function call (``ini_set()``), although it may vary depending on the directive.
+They may be later redefined using other mechanisms, such as command line options ``-d``, ``.htaccess`` or in-code function call ``ini_set()``, although it may vary depending on the directive.
 
 `Documentation <https://www.php.net/manual/en/configuration.file.php>`__
+
+Related : :ref:`Directives <directive>`, , 

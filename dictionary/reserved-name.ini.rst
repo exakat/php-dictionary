@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Reserved Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 22 Jan 2026 13:19:03 +0000","dateModified":"Thu, 22 Jan 2026 13:19:03 +0000","description":"PHP shares several namespaces with the custom code, and has reserved some names for its own usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Reserved Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Reserved Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Mar 2026 20:02:56 +0000","dateModified":"Sun, 08 Mar 2026 20:02:56 +0000","description":"PHP shares several namespaces with the custom code, and has reserved some names for its own usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Reserved Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Reserved Names
@@ -25,17 +25,17 @@ Reserved Names
 
 PHP shares several namespaces with the custom code, and has reserved some names for its own usage. 
 
-+ Namespaces : the global namespace, also known as ``\`` is reserved for PHP.
-+ Keywords : ``fn``, ``finally``, ``insteadof``, ``null``, ``void``, ``match``, ...
++ Namespaces: the global namespace, also known as ``\`` is reserved for PHP.
++ Keywords: ``fn``, ``finally``, ``insteadof``, ``null``, ``void``, ``match``, ...
 + some classes, constants, functions, interfaces: ``die``, ``exit``, 
-+ variables : ``$GLOBALS``, ``$_GET``,...
++ variables: ``$GLOBALS``, ``$_GET``,...
 
 .. code-block:: php
    
    <?php
    
-   // function void() would not compile
-   function theVoid() : bool { }
+       // function void() would not compile
+       function theVoid() : bool { }
    
    ?>
 
