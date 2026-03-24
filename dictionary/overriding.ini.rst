@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","name":"Overriding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Overriding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","name":"Overriding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 13:55:06 +0000","dateModified":"Tue, 17 Mar 2026 13:55:06 +0000","description":"Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Overriding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Overriding
@@ -49,6 +49,6 @@ Incompatible overriding is not always detected at linting time: this happens whe
 
 See also https://www.geeksforgeeks.org/php/function-overloading-and-overriding-in-php/
 
-Related : :ref:`Override Attribute <override>`, :ref:`Abstract Keyword <abstract>`
+Related : :ref:`Override Attribute <override>`, :ref:`Abstract Keyword <abstract>`, :ref:`Overwrite <overwrite>`, :ref:`PHP Native Attributes <php-attribute>`, :ref:`PHP Native Attribute <php-native-attribute>`
 
 Added in PHP 7.0+

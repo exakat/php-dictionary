@@ -17,29 +17,30 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Properties, methods and classes may have a visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:18:28 +0000","dateModified":"Tue, 24 Mar 2026 10:18:28 +0000","description":"Properties, methods and classes may have a visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Visibility
 ----------
 
-Properties, methods and classes may have a visibility. It limits the scope of the definition :
+Properties, methods and classes may have a visibility. It limits the scope of the definition:
 
-+ private : to the current class
-+ protected : to the current class hierarchy (parents and children classes)
-+ public : to all the code
++ ``private``: to the current class
++ ``protected``: to the current class hierarchy, parents and children classes
++ ``public``: to all the code
++ ``var``: to all the code, deprecated
 
-In PHP, the default visibility is public. 
+The default visibility is ``public``. The visibility may be omitted when using another option, such as ``final``, ``static``. It is recommended to always specify the visibility explicitly.
 
 Visibility may no change, unless when overwriting it with a trait, or in a child class.
 
-
+Visibility may be by-passed with class-invasion, where an object of one class may access another object's property, as long as they are from the same class or family.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class X {
        public const X = 1;
        
        private $property;

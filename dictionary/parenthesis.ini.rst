@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:52:38 +0000","dateModified":"Mon, 16 Mar 2026 14:52:38 +0000","description":"Parenthesis are the ``(`` and ``)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Parenthesis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 15:18:18 +0000","dateModified":"Tue, 17 Mar 2026 15:18:18 +0000","description":"Parenthesis are the ``(`` and ``)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Parenthesis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Parenthesis
@@ -30,7 +30,7 @@ Parenthesis are an important token for the parser: they are needed in many situa
 
 Parenthesis are idempotent: there is no use in setting parenthesis directly inside another parenthesis.
 
-Sometimes, parenthesis are used for make language structure look like a functioncall. This is useles to the PHP engine, and even, prevent some features.
+Sometimes, parenthesis are used for make language structure look like a functioncall. This is useless to the PHP engine, and even, prevent some features.
 
 .. code-block:: php
    

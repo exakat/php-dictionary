@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weakmap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``WeakMap`` is a special object type introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weakmap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:06:24 +0000","dateModified":"Fri, 20 Mar 2026 11:06:24 +0000","description":"``WeakMap`` is a special object type introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Weakmap
@@ -26,7 +26,7 @@ Weakmap
 
 It is a map, or key–value storage, where the keys are objects and the stored values are automatically removed when the object key is no longer referenced anywhere else in your program.
 
-They may be considered as an associative array, where the keys must be objects. It also doesn’t prevent objects from being garbage-collected.
+They may be considered as an associative array, where the keys must be objects. It also doesn't prevent objects from being garbage-collected.
 
 .. code-block:: php
    
@@ -49,5 +49,7 @@ They may be considered as an associative array, where the keys must be objects. 
 
 
 `Documentation <https://www.php.net/manual/en/class.weakmap.php>`__
+
+See also https://withinboredom.info/posts/hacking-phps-weakmap-for-value-object-dx/
 
 Related : :ref:`Array <array>`, :ref:`SplStorageObjects <splstorageobjects>`, :ref:`Garbage Collection <garbage-collection>`

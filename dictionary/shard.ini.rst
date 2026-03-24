@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shard","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Database sharding is a database architecture strategy where a large database is partitioned into smaller, more manageable units called shards","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shard.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shard","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:13:21 +0000","dateModified":"Fri, 20 Mar 2026 11:13:21 +0000","description":"Database sharding is a database architecture strategy where a large database is partitioned into smaller, more manageable units called shards","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shard.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shard
@@ -27,7 +27,7 @@ Database sharding is a database architecture strategy where a large database is 
 
 The purpose of sharding is to improve scalability and performance by distributing the data and the database workload across multiple servers. This allows a system to handle a larger volume of data and a higher number of transactions.
 
-In the context of PHP and web development, a PHP application that uses a sharded database typically needs to be aware of the sharding strategy. This may involve determining which shard a specific piece of data belongs to and directing database queries to the appropriate shard. It requires coordination between the PHP application and the database to ensure that data is appropriately distributed and retrieved.
+An application that uses a sharded database typically needs to be aware of the sharding strategy. This may involve determining which shard a specific piece of data belongs to and directing database queries to the appropriate shard. It requires coordination between the PHP application and the database to ensure that data is appropriately distributed and retrieved.
 
 For example, a simple sharding strategy might involve dividing data based on a certain criterion, such as user IDs. Each shard would then be responsible for a specific range of user IDs. When a PHP application needs to perform a database operation for a particular user, it would determine the appropriate shard based on the user ID and send the query to that shard.
 

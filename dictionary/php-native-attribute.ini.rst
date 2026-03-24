@@ -16,20 +16,22 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Native Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP supports a system of attributes, to add local configuration to methods, classes, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Native Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Mar 2026 19:55:52 +0000","dateModified":"Sat, 21 Mar 2026 19:55:52 +0000","description":"PHP supports a system of attributes, to add local configuration to methods, classes, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Native Attribute
 --------------------
 
-PHP supports a system of attributes, to add local configuration to methods, classes, etc. There are currently (PHP 8.4) 5 attributes: 
+PHP supports a system of attributes, to add local configuration to methods, classes, etc. There are currently, as of PHP 8.5, 7 attributes: 
 
 + ``Attribute``
 + ``AllowDynamicProperties``
 + ``ReturnTypeWillChange``
 + ``SensitiveParameter``
 + ``Override``
-+ ``Deprecated``.
++ ``Deprecated``
++ ``NoDiscard``
++ ``DelayedTargetValidation``.
 
 .. code-block:: php
    
@@ -49,4 +51,4 @@ PHP supports a system of attributes, to add local configuration to methods, clas
 
 See also https://www.exakat.io/en/php-native-attributes-quick-reference/
 
-Related : :ref:`Attribute <attribute>`, :ref:`Allow Dynamic Properties <allowdynamicproperties>`, :ref:`Return Type Will Change <returntypewillchange>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Override Attribute <override>`, :ref:`Deprecated <deprecated>`
+Related : :ref:`Attribute <attribute>`, :ref:`Allow Dynamic Properties <allowdynamicproperties>`, :ref:`Return Type Will Change <returntypewillchange>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Override Attribute <override>`, :ref:`Deprecated <deprecated>`, :ref:`delayedtargetvalidation <delayedtargetvalidation>`, :ref:`NoDiscard <nodiscard>`

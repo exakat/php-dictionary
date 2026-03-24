@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__FUNCTION__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``__FUNCTION__`` holds the current function or method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__FUNCTION__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__FUNCTION__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:25:18 +0000","dateModified":"Tue, 24 Mar 2026 10:25:18 +0000","description":"``__FUNCTION__`` holds the current function or method name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__FUNCTION__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __FUNCTION__
@@ -24,13 +24,13 @@ __FUNCTION__
 
 ``__FUNCTION__`` holds the current function or method name.
 
-The function name includes the namespace it was declared in, e.g. ``N\X\foo``. It also uses the defintion's case.
+The function name includes the namespace it was declared in, e.g. ``N\X\foo``. It also uses the definition's case.
 
 When used inside a method, ``__FUNCTION__`` is the name of the method it is used in. When used outside a function, this constant holds an empty string, and does not emit any warning.
 
 ``__METHOD__`` and ``__FUNCTION__`` are almost identical.
 
-This constant is written in uppercase, by convention. It is case insensitive, and may be used with any combinaison of uppercase and lower case. 
+This constant is written in uppercase, by convention. It is case insensitive, and may be used with any combination of uppercase and lower case. 
 
 .. code-block:: php
    

@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"WebRTC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:06 +0000","dateModified":"Mon, 16 Mar 2026 14:41:06 +0000","description":"WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WebRTC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"WebRTC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:06:35 +0000","dateModified":"Fri, 20 Mar 2026 11:06:35 +0000","description":"WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WebRTC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 WebRTC
 ------
 
-WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software. It’s designed for peer-to-peer, P2P, sharing of audio, video, and data.
+WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software. It's designed for peer-to-peer, P2P, sharing of audio, video, and data.
 
 `Documentation <https://webrtc.org/>`__
 

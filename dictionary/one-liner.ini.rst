@@ -49,4 +49,4 @@ Some commands have a short and a long syntax, such as ``if-then-else`` and the t
 
 See also https://localheinz.com/articles/2023/03/18/avoiding-one-liners-in-php/, https://tanzilr.medium.com/decontructing-php-one-liner-webshells-625f6cbb96ff
 
-Related : :ref:`Webshell <webshell>`, 
+Related : :ref:`Webshell <webshell>`, :ref:`Golf <golf>`

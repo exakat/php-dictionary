@@ -39,4 +39,4 @@ A wrapper may be two things:
 
 See also `Php wrapper and Local File Inclusion <https://medium.com/@robsfromashes/php-wrapper-and-local-file-inclusion-2fb82c891f55>`_
 
-Related : :ref:`Stream Wrapper <stream-wrapper>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, :ref:`php:// <wrapper-php>`, :ref:`Wrapper Pattern <wrapper-pattern>`, :ref:`File Transfert Protocol (FTP) <ftp>`, :ref:`File Transfer Protocol Secure (FTPS) <ftps>`, :ref:`PHP Wrappers <php-wrapper>`, :ref:`Protocol <protocol>`, :ref:`file:// <wrapper-file>`
+Related : :ref:`Stream Wrapper <stream-wrapper>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, :ref:`php:// <wrapper-php>`, :ref:`Wrapper Pattern <wrapper-pattern>`, :ref:`File Transfer Protocol (FTP) <ftp>`, :ref:`File Transfer Protocol Secure (FTPS) <ftps>`, :ref:`PHP Wrappers <php-wrapper>`, :ref:`Protocol <protocol>`, :ref:`file:// <wrapper-file>`

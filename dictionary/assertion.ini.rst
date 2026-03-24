@@ -45,6 +45,6 @@ There are packages providing assertions features and more.
 
 See also https://www.exakat.io/en/php-assertions-usage/, https://aleksandertabor.com/blog/assertions-in-php/
 
-Related : , 
+Related : , :ref:`Zero Cost <zero-cost>`
 
 Related packages : `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_, `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_

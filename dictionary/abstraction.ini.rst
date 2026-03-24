@@ -1,29 +1,47 @@
 .. _abstraction:
 .. meta::
 	:description:
-		Abstraction: An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don’t need to worry about the details.
+		Abstraction: An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Abstraction
-	:twitter:description: Abstraction: An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don’t need to worry about the details
+	:twitter:description: Abstraction: An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Abstraction
 	:og:type: article
-	:og:description: An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don’t need to worry about the details
+	:og:description: An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/abstraction.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","name":"Abstraction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:52 +0000","dateModified":"Mon, 16 Mar 2026 14:40:52 +0000","description":"An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don\u2019t need to worry about the details","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","name":"Abstraction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Mar 2026 15:31:58 +0000","dateModified":"Mon, 23 Mar 2026 15:31:58 +0000","description":"An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstraction
 -----------
 
-An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don’t need to worry about the details.
+An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details.
 
 In that sense, it is related to the ``abstract`` keyword, which introduces a signature and leaves freedom of implementation.
 
-Related : :ref:`Abstract Keyword <abstract>`
+Abstraction is also the name of the refactor to replace a piece of code by an easily changed piece of code.
+
+.. code-block:: php
+   
+   <?php
+   
+   echo 1; // displays 1 
+   
+   // This depends on the execution environment
+   const A = PHP_OS == 'win' ? 'Windows' : 'Others';
+   
+   echo A; // display the value of A
+   
+   ?>
+
+
+See also https://mohasin-dev.medium.com/abstraction-in-php-8c6685893bb8
+
+Related : :ref:`Abstract Keyword <abstract>`, :ref:`Inlining <inlining>`

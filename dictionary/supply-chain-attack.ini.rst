@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Supply Chain Attack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Supply Chain Attack is a security attack that uses dependencies to infect a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Supply Chain Attack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Supply Chain Attack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Mar 2026 09:50:31 +0000","dateModified":"Mon, 23 Mar 2026 09:50:31 +0000","description":"Supply Chain Attack is a security attack that uses dependencies to infect a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Supply Chain Attack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Supply Chain Attack
@@ -30,6 +30,6 @@ When those external repositories are infected with malicious component or code, 
 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 
-See also https://blog.sonarsource.com/php-supply-chain-attack-on-composer/, https://coderlegion.com/8958/supply-chain-security-in-php-projects?show=8958#q8958
+See also https://blog.sonarsource.com/php-supply-chain-attack-on-composer/, https://coderlegion.com/8958/supply-chain-security-in-php-projects?show=8958#q8958, https://www.reversinglabs.com/blog/packagist-php-repo-supply-chain-threat-what-you-need-to-know
 
-Related : :ref:`Supply Chain <supply-chain>`
+Related : :ref:`Supply Chain <supply-chain>`, :ref:`Software Bill Of Material (SBOM) <sbom>`

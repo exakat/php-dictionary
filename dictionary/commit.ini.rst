@@ -28,4 +28,4 @@ It records changes made to the files in the project, such as dding, modifying, a
 
 Several commits are grouped into a pull request, or PR, for code review.
 
-Related : :ref:`git <git>`, :ref:`VCS <vcs>`, , :ref:`Code Review <code-review>`
+Related : :ref:`git <git>`, :ref:`VCS <vcs>`, :ref:`Pull Request (PR) <pr>`, :ref:`Code Review <code-review>`

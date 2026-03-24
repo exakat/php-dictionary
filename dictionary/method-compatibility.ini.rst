@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Method Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Method compatibility means that when a class overrides a method, from a parent class or interface, the new method must keep a compatible signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Method Compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Method Compatibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:10:47 +0000","dateModified":"Fri, 20 Mar 2026 11:10:47 +0000","description":"Method compatibility means that when a class overrides a method, from a parent class or interface, the new method must keep a compatible signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Method Compatibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Method Compatibility
@@ -26,12 +26,12 @@ Method compatibility means that when a class overrides a method, from a parent c
 
 In short, the child method must:
 
-+ Have the same or wider visibility (e.g. public stays public, private becomes protected)
-+ Accept the same parameter types (or more general ones)
-+ Return the same type (or a more specific one)
++ Have the same or wider visibility, e.g. public stays public, private becomes protected
++ Accept the same parameter types, or more general ones
++ Return the same type, or a more specific one
 + Not require more mandatory parameters
 
-If it’s incompatible, PHP throws a fatal error.
+If it's incompatible, PHP throws a fatal error.
 
 .. code-block:: php
    
@@ -61,4 +61,4 @@ If it’s incompatible, PHP throws a fatal error.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop.lsp>`__
 
-Related : :ref:`Method <method>`
+Related : :ref:`Method <method>`, :ref:`throw <throw>`, 

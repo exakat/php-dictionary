@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Iterable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Iterable is a pseudo-type, which accepts any array or object implementing the ``Traversable`` interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Iterable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Iterable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:13:01 +0000","dateModified":"Tue, 24 Mar 2026 09:13:01 +0000","description":"Iterable is a pseudo-type, which accepts any array or object implementing the ``Traversable`` interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Iterable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Iterable
@@ -39,6 +39,8 @@ Iterable is a pseudo-type, which accepts any array or object implementing the ``
 
 `Documentation <https://www.php.net/manual/en/language.types.iterable.php>`__
 
-Related : :ref:`Traversable <traversable>`, :ref:`Array <array>`, :ref:`Pseudo-type <pseudotype>`
+See also https://flatcoding.com/tutorials/php/the-essential-guide-for-php-iterable/, https://inspector.dev/php-iterators-for-walking-through-data-structures-fasttips/
+
+Related : :ref:`Traversable <traversable>`, :ref:`Array <array>`, :ref:`Pseudo-type <pseudotype>`, :ref:`count() <count>`, :ref:`PHP Natives <native-type>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Special Types <special-typehint>`
 
 Added in PHP 7.1

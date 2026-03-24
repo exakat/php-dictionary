@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cron","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A cron job is a scheduled task that runs PHP code automatically at specified times or intervals, without a web request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cron.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cron","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:07:48 +0000","dateModified":"Fri, 20 Mar 2026 11:07:48 +0000","description":"A cron job is a scheduled task that runs PHP code automatically at specified times or intervals, without a web request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cron.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cron
@@ -24,9 +24,9 @@ Cron
 
 A cron job is a scheduled task that runs PHP code automatically at specified times or intervals, without a web request.
 
-It’s usually handled by the operating system (Linux/Unix cron daemon), not by PHP itself. 
+It's usually handled by the operating system, such as Linux/Unix cron daemon, not by PHP itself. 
 
-There are many cron alternatives, like systemd timers, framework schedulers (Laravel, Yii...), components schedulers (symfony,), Windows Task Scheduler, Kubernetes CronJobs, cloud-native schedulers, database-backed schedulers, HTTP-based scheduling (external pings), and workflow schedulers.
+There are many cron alternatives, like ``systemd`` timers, framework schedulers, components schedulers, Windows Task Scheduler, Kubernetes CronJobs, cloud-native schedulers, database-backed schedulers, HTTP-based scheduling, and workflow schedulers.
 
 `Documentation <https://en.wikipedia.org/wiki/Cron>`__
 

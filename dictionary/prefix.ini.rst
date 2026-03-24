@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"Prefix","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A prefix is a word extension, placed before the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Prefix.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"Prefix","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Mar 2026 15:43:00 +0000","dateModified":"Mon, 23 Mar 2026 15:43:00 +0000","description":"A prefix is a word extension, placed before the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Prefix.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Prefix
@@ -24,7 +24,7 @@ Prefix
 
 A prefix is a word extension, placed before the name. 
 
-In linguistics, prefixes change the meaning of the word, and give it a new built meaning, based on the meanings of the word and the prefix. For example, ``reconnect`` is build with ``re``, which means again, and ``connect`` which means connect (sic). Reconnect is the action to connect again, after a previous connection was lost.
+In linguistics, prefixes change the meaning of the word, and give it a new built meaning, based on the meanings of the word and the prefix. For example, ``reconnect`` is build with ``re``, which means again, and ``connect`` which means connect. Reconnect is the action to connect again, after a previous connection was lost.
 
 In PHP, prefixes are used for convention, where methods built with prefixes should deliver a specific behavior. 
 
@@ -39,4 +39,6 @@ In older PHP version, prefixing variables used to hold the type of the variable.
 
 A similar notion is the suffix, which is located at the end of the word. Another way to create word is word combinaison.
 
-Related : :ref:`Suffix <suffix>`, :ref:`Word Combinaison <word-combinaison>`
+In recent PHP, prefixing names is done using namespaces. It is also required for extensions to use a distinct prefix, such as ``mysqli_`` or ``pg_``. This may not apply to all global functions, for backward compatibility reasons.
+
+Related : :ref:`Suffix <suffix>`, :ref:`Word combination <word-combinaison>`, :ref:`Namespaces <namespace>`

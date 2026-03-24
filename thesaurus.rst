@@ -8,6 +8,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Abstract Syntactic Tree (AST) <ast>`
 + :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
 + :ref:`Application Performance Management (APM) <apm>`
++ :ref:`Architectural Decision Record (ADR) <adr>`
 + :ref:`Class Interface Trait Enumeration (CITE) <cite>`
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
@@ -31,8 +32,8 @@ List of acronyms, used in this dictionary.
 + :ref:`Extensible Markup Language (XML) <xml>`
 + :ref:`FastCGI <fastcgi>`
 + :ref:`FastCGI Process Manager (FPM) <fpm>`
++ :ref:`File Transfer Protocol (FTP) <ftp>`
 + :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
-+ :ref:`File Transfert Protocol (FTP) <ftp>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
 + :ref:`Framework Interoperability Group (FIG) <php-fig>`
 + :ref:`Functional Programming <functional-programming>`
@@ -55,12 +56,15 @@ List of acronyms, used in this dictionary.
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
 + :ref:`PEAR <pear>`
++ :ref:`PHP <php>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
++ :ref:`Product Requirements Document (PDR) <pdr>`
++ :ref:`Pull Request (PR) <pr>`
 + :ref:`RFC <rfc>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
 + :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
@@ -71,16 +75,20 @@ List of acronyms, used in this dictionary.
 + :ref:`Role Based Access Control (RBAC) <rbac>`
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
++ :ref:`Server Sent Event (SSE) <sse>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
 + :ref:`Simple Query Language (SQL) <sql>`
 + :ref:`Single Page Application (SPA) <spa>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Single Sign On (SSO) <sso>`
++ :ref:`Software Bill Of Material (SBOM) <sbom>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Standard PHP Library (SPL) <spl>`
 + :ref:`Static Application Security Testing (SAST) <sast>`
++ :ref:`Static Code Analysis (SCA) <sca>`
 + :ref:`Support Vector Machine (SVM) <svm>`
++ :ref:`Token Oriented Object Notation (TOON) <toon>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 + :ref:`Transport Layer Security (TLS) <tls>`
 + :ref:`Universal Resource Identifier (URI) <uri>`
@@ -153,6 +161,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Convert <convert>`
 + :ref:`Coupling <coupling>`
 + :ref:`Cryptographic Hash <hash-crypto>`
++ :ref:`Custom <custom>`
 + :ref:`Data Container <data-container>`
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Database <database>`
@@ -247,6 +256,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Scheme <scheme>`
 + :ref:`Scope <scope>`
 + :ref:`Security <security>`
++ :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`State <state>`
@@ -398,6 +408,7 @@ List of PHP keywords and reserved names.
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
++ :ref:`implements <implements>`
 + :ref:`include <include>`
 + :ref:`parent <parent>`
 + :ref:`throw <throw>`
@@ -427,6 +438,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Boolean <boolean>`
 + :ref:`Contravariance <type-contravariance>`
 + :ref:`Covariance <type-covariance>`
++ :ref:`Disjunctive Normal Form (DNF) <dnf>`
 + :ref:`False <false>`
 + :ref:`Floating Point Numbers <float>`
 + :ref:`Iterable <iterable>`
@@ -560,6 +572,7 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Flag <flag>`
 + :ref:`Framework Interoperability Group (FIG) <php-fig>`
 + :ref:`Glue <glue>`
++ :ref:`Golf <golf>`
 + :ref:`Haystack <haystack>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Needle <needle>`

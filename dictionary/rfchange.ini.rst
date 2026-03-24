@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Request For Change (RFC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A Request For Change is a document containing a call for an adjustment of a source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request For Change (RFC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Request For Change (RFC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Mar 2026 20:39:20 +0000","dateModified":"Thu, 19 Mar 2026 20:39:20 +0000","description":"A Request For Change is a document containing a call for an adjustment of a source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request For Change (RFC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Request For Change (RFC)
@@ -28,7 +28,7 @@ PHP RFCs are formal proposals for changes or additions to the language. These pr
 
 The RFC process allows the PHP community, which includes core developers and the broader user base, to review, comment on, and reach a consensus about proposed changes before they are implemented. This open and collaborative approach helps ensure that significant decisions are made with input from a diverse range of perspectives.
 
-The typical life cycle of an RFC involves several stages, including drafting, discussion, and voting. If an RFC is accepted and receives enough support, the proposed changes are integrated into the PHP source code, and the feature becomes part of a future PHP release
+The typical life cycle of an RFC involves several stages, including drafting, discussion, and voting. If an RFC is accepted and receives enough support, the proposed changes are integrated into the PHP source code, and the feature becomes part of a future PHP release.
 
 `Documentation <https://en.wikipedia.org/wiki/Change_request>`__
 

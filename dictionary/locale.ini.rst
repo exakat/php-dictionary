@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","name":"Locale","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Locale.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","name":"Locale","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 15:20:28 +0000","dateModified":"Tue, 17 Mar 2026 15:20:28 +0000","description":"Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Locale.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Locale
@@ -24,19 +24,19 @@ Locale
 
 Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time.
 
-Locales are extracted from the system, and depends on a country name and a language name. For example, `fr-FR` for French French, `nl_NL` for Dutch, or `zh_CN` for Chinese Chinese. 
+Locales are extracted from the system, and depends on a country name and a language name. For example, ``fr-FR`` for French French, ``nl_NL`` for Dutch, or ``zh_CN`` for Chinese Chinese. 
 
-Locale are supported with the ext/icu extension, and also, natively with the setlocale() function.
+Locale are supported with the ext/icu extension, and also, natively with the ``setlocale()`` function.
 
 .. code-block:: php
    
    <?php
    
-   /* Set locale to Dutch */
-   setlocale(LC_ALL, 'nl_NL');
-   
-   /* Output: vrijdag 22 december 1978 */
-   echo strftime("%A %e %B %Y", mktime(0, 0, 0, 12, 22, 1978));
+       /* Set locale to Dutch */
+       setlocale(LC_ALL, 'nl_NL');
+       
+       /* Output: vrijdag 22 december 1978 */
+       echo strftime("%A %e %B %Y", mktime(0, 0, 0, 12, 22, 1978));
    
    ?>
 
@@ -44,3 +44,5 @@ Locale are supported with the ext/icu extension, and also, natively with the set
 `Documentation <https://www.php.net/manual/en/class.locale.php>`__
 
 See also https://www.php.net/manual/en/class.locale.php
+
+Related : 

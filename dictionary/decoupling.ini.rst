@@ -29,4 +29,4 @@ The opposite of decoupling is coupling.
 
 See also https://medium.com/@vuvanly/decoupling-business-logic-separating-entity-from-orm-model-in-php-a1d68133761c, https://dev.to/netlify/what-is-decoupling-actually-5agj
 
-Related : :ref:`Coupling <coupling>`, 
+Related : :ref:`Coupling <coupling>`, :ref:`Dependency <dependency>`

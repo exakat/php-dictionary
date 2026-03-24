@@ -1,28 +1,28 @@
 .. _sha:
 .. meta::
 	:description:
-		Secure Hash Algorithm (SHA): Secure Hash Algorithm (SHA), is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest.
+		Secure Hash Algorithm (SHA): Secure Hash Algorithm, or SHA, is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Secure Hash Algorithm (SHA)
-	:twitter:description: Secure Hash Algorithm (SHA): Secure Hash Algorithm (SHA), is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest
+	:twitter:description: Secure Hash Algorithm (SHA): Secure Hash Algorithm, or SHA, is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Secure Hash Algorithm (SHA)
 	:og:type: article
-	:og:description: Secure Hash Algorithm (SHA), is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest
+	:og:description: Secure Hash Algorithm, or SHA, is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sha.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Secure Hash Algorithm (SHA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Secure Hash Algorithm (SHA), is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Secure Hash Algorithm (SHA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Secure Hash Algorithm (SHA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:13:54 +0000","dateModified":"Fri, 20 Mar 2026 11:13:54 +0000","description":"Secure Hash Algorithm, or SHA, is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Secure Hash Algorithm (SHA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Secure Hash Algorithm (SHA)
 ---------------------------
 
-Secure Hash Algorithm (SHA), is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest.
+Secure Hash Algorithm, or SHA, is a family of cryptographic hash functions used to turn data into a fixed-length string called a hash or digest.
 
 Key properties
 

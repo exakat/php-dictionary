@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"implements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Implements is a keyword, dedicated to classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/implements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"implements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Mar 2026 20:59:25 +0000","dateModified":"Thu, 19 Mar 2026 20:59:25 +0000","description":"Implements is a keyword, dedicated to classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/implements.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 implements
@@ -32,14 +32,14 @@ The list of implemented interfaces is accessible with the class_implements() fun
    
    <?php
    
-   interface i {
+   interface I {
        function fooi() ;
    }
    
    // empty interface 
-   interface j { }
+   interface J { }
    
-   class x implements i, j {
+   class X implements I, J {
        private $property;
        
        public function fooi() {
@@ -52,6 +52,8 @@ The list of implemented interfaces is accessible with the class_implements() fun
 
 `Documentation <https://www.php.net/manual/en/language.oop5.interfaces.php#language.oop5.interfaces.implements>`__
 
-Related : :ref:`Class <class>`, :ref:`Class Getter Method <getter>`, :ref:`extends <extends>`
+See also https://medium.com/@andreibirta95/php-interfaces-how-to-implement-and-use-them-58c8b0648480
+
+Related : :ref:`Class <class>`, :ref:`Class Getter Method <getter>`, :ref:`extends <extends>`, 
 
 Added in PHP 5.0+

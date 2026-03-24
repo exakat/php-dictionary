@@ -56,6 +56,6 @@ The notion of expressive interface is similar to the fluent interface.
 
 See also https://en.wikipedia.org/wiki/Fluent_interface
 
-Related : :ref:`Fluent Interface <fluent-interface>`, , :ref:`Interface <interface>`
+Related : :ref:`Fluent Interface <fluent-interface>`, :ref:`Self-documenting <self-documenting>`, :ref:`Interface <interface>`
 
 Related packages : `bassim/super-expressive-php <https://packagist.org/packages/bassim/super-expressive-php>`_

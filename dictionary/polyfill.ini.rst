@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Mar 2026 11:33:59 +0000","dateModified":"Sat, 21 Mar 2026 11:33:59 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polyfill
@@ -29,6 +29,9 @@ The term polyfill is a combination of poly, meaning many, and fill, meaning to p
 There are polyfills for PHP version, for specific extensions, in case they are not compiled with PHP or component versions.
 
 There are polyfills available in packagist, like the family of packages ``symfony/polyfill-*``, or manually coded in the sources.
+
+Polyfills exist for PHP, but also for any framework. 
+
 
 .. code-block:: php
    
@@ -50,4 +53,4 @@ See also https://github.com/symfony/polyfill, https://github.com/Yoast/PHPUnit-P
 
 Related : 
 
-Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_
+Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_, `yoast/phpunit-polyfills <https://packagist.org/packages/yoast/phpunit-polyfills>`_

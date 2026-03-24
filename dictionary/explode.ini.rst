@@ -46,4 +46,4 @@ The separator has to be a static string. For dynamic separators, there is the ``
 
 `Documentation <https://www.php.net/manual/en/function.implode.php>`__
 
-Related : 
+Related : :ref:`preg_split() <preg_split>`

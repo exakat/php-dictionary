@@ -45,6 +45,6 @@ Rendering is related to templates, formats and optimisation.
    ?>
 
 
-Related : :ref:`View <view>`, :ref:`Template <template>`, :ref:`Renderer <renderer>`, 
+Related : :ref:`View <view>`, :ref:`Template <template>`, :ref:`Renderer <renderer>`, :ref:`RecursiveTreeIterator <recursivetreeiterator>`
 
 Related packages : `friendsofcake/cakepdf <https://packagist.org/packages/friendsofcake/cakepdf>`_

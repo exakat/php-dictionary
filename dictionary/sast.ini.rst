@@ -30,4 +30,4 @@ For example, SAST searches for injections, XSS, path traversal, insecure deseria
 
 See also https://deepsource.com/, https://snyk.io/, https://www.sonarsource.com/products/sonarqube/, https://github.com/LioTree/php-sast-papers
 
-Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, , :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`SQL Injection <sql-injection>`, :ref:`Path Traversal <path-traversal>`, , :ref:`Weak Cryptography <weak-cryptography>`, :ref:`Missing Validation <missing-validation>`
+Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Static Code Analysis (SCA) <sca>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`SQL Injection <sql-injection>`, :ref:`Path Traversal <path-traversal>`, , :ref:`Weak Cryptography <weak-cryptography>`, :ref:`Missing Validation <missing-validation>`

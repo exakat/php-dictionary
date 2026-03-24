@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Headless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Headless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Headless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Mar 2026 21:19:40 +0000","dateModified":"Thu, 19 Mar 2026 21:19:40 +0000","description":"A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Headless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Headless
@@ -27,3 +27,7 @@ A headless website, also known as a headless CMS (Content Management System) or 
 Traditionally, websites are built using a monolithic architecture, where the frontend and backend are tightly integrated. The backend typically handles both content management and presentation logic, rendering HTML pages that are sent to the user's browser.
 
 In contrast, a headless website is designed with a clear separation of concerns.
+
+`Documentation <https://en.wikipedia.org/wiki/Headless_content_management_system>`__
+
+See also https://blog.fortrabbit.com/headless-php, https://netgen.io/blog/headless-possibilities-for-php, https://www.zend.com/blog/headless-cms-vs-traditional-cms

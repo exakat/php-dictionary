@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Supply Chain","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The supply chain is the set of components, libraries, tools and processes that are used to build an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Supply Chain.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Supply Chain","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 13:53:30 +0000","dateModified":"Tue, 17 Mar 2026 13:53:30 +0000","description":"The supply chain is the set of components, libraries, tools and processes that are used to build an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Supply Chain.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Supply Chain
@@ -24,12 +24,12 @@ Supply Chain
 
 The supply chain is the set of components, libraries, tools and processes that are used to build an application.
 
-+ the application source code (including version management)
-+ the component dependencies (composer.json, phive..)
-+ the build and development tools (phpunit, static analysis...)
++ the application source code, including version management
++ the component dependencies, such as composer.json, phive...
++ the build and development tools, such as phpunit, static analysis...
 + CI pipelines
-+ Production environment (PHP, extensions, virtualization)
-+ External services (databases, APIs, cloud providers...).
++ Production environment, such as PHP, extensions, virtualization...
++ External services, databases, APIs, cloud providers...
 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify readonly property Test::$prop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify readonly property Test::$prop.html","name":"Real Numbers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Real numbers are represented using the ``float`` data type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Real Numbers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Real Numbers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:02:34 +0000","dateModified":"Tue, 24 Mar 2026 10:02:34 +0000","description":"Real numbers are represented using the ``float`` data type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Real Numbers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Real Numbers
@@ -26,9 +26,9 @@ Real numbers are represented using the ``float`` data type.
 
 They are also commonly referred to as ``floating-point numbers`` or ``double-precision numbers``. Floats are used to represent decimal numbers, including both whole numbers and fractions, with a certain degree of precision. Real numbers are used for performing mathematical calculations that require decimal accuracy.
 
-There used to be ``real`` dedicated structures in PHP (like is_real() or (real)), though, they were removed in PHP 7.0. In case of doubt, refer to ``float``. 
+There used to be ``real`` dedicated structures in PHP, like ``is_real()`` or ``(real)``, though, they were removed in PHP 7.0. In case of doubt, refer to ``float``. 
 
-It's important to be aware of potential rounding errors or precision issues when working with real numbers (floats) in PHP or any other programming language that uses floating-point representation. If exact decimal precision, it is recommended to use specialized libraries or techniques to handle arbitrary precision arithmetic, such as ``bcmath`` or ``gmp``.
+It's important to be aware of potential rounding errors or precision issues when working with real numbers. in PHP or any other programming language that uses floating-point representation. If exact decimal precision, it is recommended to use specialized libraries or techniques to handle arbitrary precision arithmetic, such as ``bcmath`` or ``gmp``.
 
 .. code-block:: php
    
@@ -41,4 +41,4 @@ It's important to be aware of potential rounding errors or precision issues when
 
 See also https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php
 
-Related : :ref:`Floating Point Numbers <float>`, :ref:`Bcmath <bcmath>`, :ref:`GNU Multiple Precision (GMP) <gmp>`
+Related : :ref:`Floating Point Numbers <float>`, :ref:`Bcmath <bcmath>`, :ref:`GNU Multiple Precision (GMP) <gmp>`, :ref:`Rounding <rounding>`

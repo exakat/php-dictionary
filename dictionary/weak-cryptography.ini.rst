@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weak Cryptography","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A weak cryptography vulnerability occurs when an application uses outdated, poorly designed, or insufficient cryptographic algorithms, protocols, or implementations to protect sensitive data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weak Cryptography.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weak Cryptography","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Mar 2026 15:37:55 +0000","dateModified":"Mon, 23 Mar 2026 15:37:55 +0000","description":"A weak cryptography vulnerability occurs when an application uses outdated, poorly designed, or insufficient cryptographic algorithms, protocols, or implementations to protect sensitive data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weak Cryptography.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Weak Cryptography
@@ -26,9 +26,10 @@ A weak cryptography vulnerability occurs when an application uses outdated, poor
 
 Weak cryptography refers to the use of:
 
-+ Outdated algorithms (e.g., MD5, SHA-1, DES, RC4).
-+ Short or predictable keys (e.g., 40-bit encryption, hardcoded keys).
-+ Insecure protocols (e.g., SSLv2, SSLv3, early TLS versions).
-+ Poor randomness (e.g., using rand() instead of cryptographically secure functions).
-+ Improper implementations (e.g., ECB mode in block ciphers, custom crypto).
++ Outdated algorithms, such as MD5, SHA-1, DES, RC4
++ Short or predictable keys, such as 40-bit encryption, hardcoded keys
++ Insecure protocols, such as SSLv2, SSLv3, early TLS versions
++ Poor randomness, such as using rand() instead of random\random_bytes()
++ Improper implementations, such as ECB mode in block ciphers, custom crypto.
 
+See also https://derscanner.com/vulnerability-database/PHP-:-Weak-mode-for-encrypting-algorithm, https://docs.datadoghq.com/fr/security/code_security/static_analysis/static_analysis_rules/php-security/weak-hash-algorithm/

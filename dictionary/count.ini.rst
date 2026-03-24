@@ -1,34 +1,34 @@
 .. _count:
 .. meta::
 	:description:
-		count(): count() is a native PHP function, that returns the number of elements in the argument.
+		count(): ``count()`` is a native PHP function, that returns the number of elements in the argument.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: count()
-	:twitter:description: count(): count() is a native PHP function, that returns the number of elements in the argument
+	:twitter:description: count(): ``count()`` is a native PHP function, that returns the number of elements in the argument
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: count()
 	:og:type: article
-	:og:description: count() is a native PHP function, that returns the number of elements in the argument
+	:og:description: ``count()`` is a native PHP function, that returns the number of elements in the argument
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/count.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"count()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"count() is a native PHP function, that returns the number of elements in the argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/count().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"count()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:10:06 +0000","dateModified":"Tue, 24 Mar 2026 09:10:06 +0000","description":"``count()`` is a native PHP function, that returns the number of elements in the argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/count().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 count()
 -------
 
-count() is a native PHP function, that returns the number of elements in the argument. 
+``count()`` is a native PHP function, that returns the number of elements in the argument. 
 
-count() is basically meant to work on arrays: it returns the number of elements in the array. count() is also able to run recursively, when provided the second argument. 
+``count()`` is basically meant to work on arrays: it returns the number of elements in the array. ``count()`` is also able to run recursively, when provided the second argument. 
 
-By extension, count() works on classes of objects that extends the ``countable`` interface.
+By extension, ``count()`` works on classes of objects that extends the ``countable`` interface.
 
-It is a Fatal error to call count() on an object that can't be counted. Use ``is_countable()`` or type validation to make sure the data may be counted.
+It is a Fatal error to call ``count()`` on an object that can't be counted. Use ``is_countable()`` or type validation to make sure the data may be counted.
 
 .. code-block:: php
    
@@ -52,4 +52,4 @@ It is a Fatal error to call count() on an object that can't be counted. Use ``is
 
 `Documentation <https://www.php.net/manual/en/function.count.php>`__
 
-Related : :ref:`Countable Interface <countable>`
+Related : :ref:`Countable Interface <countable>`, :ref:`Array <array>`, :ref:`Iterable <iterable>`, :ref:`Recursion <recursive>`, :ref:`Multidimensional Array <multidimensional-array>`

@@ -16,15 +16,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Taint Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Taint Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Taint Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:15:27 +0000","dateModified":"Fri, 20 Mar 2026 11:15:27 +0000","description":"Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Taint Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Taint Analysis
 --------------
 
-Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program. In the context of PHP and web development, taint analysis is often employed to find security vulnerabilities related to user input and data handling.
+Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program. In the context of web development, taint analysis is often employed to find security vulnerabilities related to user input and data handling.
 
-The basic idea behind taint analysis is to track and label data that originates from untrusted sources (such as user input) and then trace how this tainted data is used throughout the application. By identifying and monitoring the flow of tainted data, developers can better understand and mitigate potential security risks, such as injection attacks (e.g., SQL injection, cross-site scripting) and other vulnerabilities.
+The basic idea behind taint analysis is to track and label data that originates from untrusted sources, such as user input, and then trace how this tainted data is used throughout the application. By identifying and monitoring the flow of tainted data, developers can better understand and mitigate potential security risks, such as injection attacks (e.g., SQL injection, cross-site scripting) and other vulnerabilities.
 
 There was a taint extension in PHP until PHP 8.0. It was not ported further.
 

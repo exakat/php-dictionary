@@ -2,30 +2,30 @@
 .. _dotenv:
 .. meta::
 	:description:
-		.env File: Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment.
+		.env File: Environment files are a way to store and access environment variables, and store them in a file, not in the OS environment.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: .env File
-	:twitter:description: .env File: Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment
+	:twitter:description: .env File: Environment files are a way to store and access environment variables, and store them in a file, not in the OS environment
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: .env File
 	:og:type: article
-	:og:description: Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment
+	:og:description: Environment files are a way to store and access environment variables, and store them in a file, not in the OS environment
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/env-file.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":".env File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:56 +0000","dateModified":"Mon, 16 Mar 2026 14:40:56 +0000","description":"Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/.env File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":".env File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:22:40 +0000","dateModified":"Tue, 24 Mar 2026 10:22:40 +0000","description":"Environment files are a way to store and access environment variables, and store them in a file, not in the OS environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/.env File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 .env File
 ---------
 
-Environment files are a way to store and access environmement variables, and store them in a file, not in the OS environment.
+Environment files are a way to store and access environment variables, and store them in a file, not in the OS environment.
 
-The env file holds a set of environment variables and their values. It is loaded instead of the actual operating system value. That way, there may be several sets of values for the variables, each of them stored in a distinct file, and accessed via the file name.
+The ``env`` file holds a set of environment variables and their values. It is loaded instead of the actual operating system value. That way, there may be several sets of values for the variables, each of them stored in a distinct file, and accessed via the file name.
 
 `Documentation <https://www.dotenv.org/>`__
 

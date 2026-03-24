@@ -17,12 +17,12 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Quality","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:02 +0000","dateModified":"Mon, 16 Mar 2026 14:41:02 +0000","description":"Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Quality.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Quality","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:11:25 +0000","dateModified":"Fri, 20 Mar 2026 11:11:25 +0000","description":"Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Quality.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Quality
 -------
 
-Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time. It’s not just about whether code works: it's about how easy it is to understand, change, and extend without introducing problems.
+Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time. It's not just about whether code works: it's about how easy it is to understand, change, and extend without introducing problems.
 
 Related : :ref:`Readability <readability>`, :ref:`Test <test>`, , :ref:`Performance <performance>`, 

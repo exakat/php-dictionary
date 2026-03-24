@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SQL Views","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Views in a SQL server is a virtual table, build as the result of a SQL query","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SQL Views.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SQL Views","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 13:51:53 +0000","dateModified":"Tue, 17 Mar 2026 13:51:53 +0000","description":"Views in a SQL server is a virtual table, build as the result of a SQL query","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SQL Views.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SQL Views
@@ -26,7 +26,7 @@ Views in a SQL server is a virtual table, build as the result of a SQL query.
 
 Instead of accessing a concrete table, a view is built as a SELECT query, and display the result of that query. As a SELECT, it may join with multiple tables, display columns, build dynamic values, and drop others.
 
-SQL views are usually non-writable (no UPDATE, no INSERT), as they do not mirror a real table. 
+SQL views are usually non-writable, no UPDATE, no INSERT, as they do not mirror a real table. 
 
 
 `Documentation <https://en.wikipedia.org/wiki/View_(SQL)>`__

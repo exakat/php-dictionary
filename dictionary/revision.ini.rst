@@ -16,12 +16,12 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Revision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:03 +0000","dateModified":"Mon, 16 Mar 2026 14:41:03 +0000","description":"A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Revision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Revision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Mar 2026 20:39:49 +0000","dateModified":"Thu, 19 Mar 2026 20:39:49 +0000","description":"A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Revision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Revision
 --------
 
-A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history. These revisions are identified by unique identifiers called commit hashes or commit SHAs (Secure Hash Algorithms).
+A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history. These revisions are identified by unique identifiers called commit hashes or commit SHA, or Secure Hash Algorithms.
 
 Related : :ref:`git <git>`, :ref:`VCS <vcs>`, :ref:`Secure Hash Algorithm (SHA) <sha>`

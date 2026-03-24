@@ -1,25 +1,27 @@
+.. _feature-flag:
 .. _feature-switch:
+.. _feature-toggle:
 .. meta::
 	:description:
-		feature-flag: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system.
+		Feature Flag: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: feature-flag
-	:twitter:description: feature-flag: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system
+	:twitter:title: Feature Flag
+	:twitter:description: Feature Flag: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: feature-flag
+	:og:title: Feature Flag
 	:og:type: article
 	:og:description: A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/feature-switch.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/feature-flag.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"feature-flag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/feature-flag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Feature Flag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:01:54 +0000","dateModified":"Tue, 24 Mar 2026 09:01:54 +0000","description":"A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Feature Flag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-feature-flag
+Feature Flag
 ------------
 
 A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system. Instead of deploying new features directly to all users, developers can use feature flags to control the visibility and activation of these features.
@@ -30,10 +32,11 @@ Feature flags are typically implemented as conditional statements in the codebas
    
    <?php
    
-   // feature flag implemented via PHP directives
-   if (ini_get('date_is_visible')) {
-   	echo date('r');
-   }
+       // feature flag implemented via PHP directives
+       if (ini_get('date_is_visible')) {
+       	echo date('r');
+       }
+   
    ?>
 
 

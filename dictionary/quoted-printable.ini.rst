@@ -43,4 +43,4 @@ Quoted-printable is a content transfer encoding defined in RFC 2045 that's prima
 
 See also https://datatracker.ietf.org/doc/html/rfc2045
 
-Related : 
+Related : :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`

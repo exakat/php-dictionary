@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","name":"Abstraction Layer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"An abstraction layer is a piece of software that offer the same API to access multiple similar components","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction Layer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","name":"Abstraction Layer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:01:11 +0000","dateModified":"Tue, 24 Mar 2026 10:01:11 +0000","description":"An abstraction layer is a piece of software that offer the same API to access multiple similar components","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction Layer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstraction Layer
@@ -26,12 +26,12 @@ An abstraction layer is a piece of software that offer the same API to access mu
 
 The underlying components may be of various shapes: PDO offers an abstraction layer to databases, streams offer an abstraction layer to files, etc.
 
-league/flysystem offers also an abstraction layer to filesystem, lcobucci/clock offers an abstraction to clocks.
+``PDO`` is a database abstraction layer, to access various RDBMS servers with one PHP API. ``league/flysystem`` offers also an abstraction layer to filesystem, lcobucci/clock offers an abstraction to clocks.
 
 `Documentation <https://en.wikipedia.org/wiki/Abstraction_layer>`__
 
 See also https://bytes.com/topic/php/insights/632487-creating-data-abstraction-layer-php
 
-Related : :ref:`Stream <stream>`, :ref:`PHP Data Objects (PDO) <pdo>`
+Related : :ref:`Stream <stream>`, :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
 
 Related packages : `league/flysystem <https://packagist.org/packages/league/flysystem>`_, `lcobucci/clock <https://packagist.org/packages/lcobucci/clock>`_, `php-http/httplug <https://packagist.org/packages/php-http/httplug>`_

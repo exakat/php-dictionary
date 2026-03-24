@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"VCS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"VCS stands for Version Control System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/VCS.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"VCS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:07:32 +0000","dateModified":"Tue, 24 Mar 2026 09:07:32 +0000","description":"VCS stands for Version Control System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/VCS.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 VCS
@@ -31,6 +31,6 @@ VCS is a common tool to manage code versions. There are many such systems: GIT, 
 
 `Documentation <https://en.wikipedia.org/wiki/Version_control>`__
 
-Related : :ref:`git <git>`
+Related : :ref:`git <git>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`SVN <svn>`, :ref:`hg <hg>`, :ref:`Commit <commit>`, :ref:`Merge <merge>`, :ref:`Pull Request (PR) <pr>`, :ref:`Revision <revision>`
 
 Related packages : `czproject/git-php <https://packagist.org/packages/czproject/git-php>`_, `utopia-php/vcs <https://packagist.org/packages/utopia-php/vcs>`_

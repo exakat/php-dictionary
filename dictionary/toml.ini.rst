@@ -1,28 +1,28 @@
 .. _toml:
 .. meta::
 	:description:
-		Tom's Obvious Minimal Language (TOML): TOML stands for Tom’s Obvious, Minimal Language.
+		Tom's Obvious Minimal Language (TOML): TOML stands for ``Tom's Obvious, Minimal Language``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Tom's Obvious Minimal Language (TOML)
-	:twitter:description: Tom's Obvious Minimal Language (TOML): TOML stands for Tom’s Obvious, Minimal Language
+	:twitter:description: Tom's Obvious Minimal Language (TOML): TOML stands for ``Tom's Obvious, Minimal Language``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Tom's Obvious Minimal Language (TOML)
 	:og:type: article
-	:og:description: TOML stands for Tom’s Obvious, Minimal Language
+	:og:description: TOML stands for ``Tom's Obvious, Minimal Language``
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/toml.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Tom's Obvious Minimal Language (TOML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"TOML stands for Tom\u2019s Obvious, Minimal Language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Tom's Obvious Minimal Language (TOML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Tom's Obvious Minimal Language (TOML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 14:59:49 +0000","dateModified":"Fri, 20 Mar 2026 14:59:49 +0000","description":"TOML stands for ``Tom's Obvious, Minimal Language``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Tom's Obvious Minimal Language (TOML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Tom's Obvious Minimal Language (TOML)
 -------------------------------------
 
-TOML stands for Tom’s Obvious, Minimal Language.
+TOML stands for ``Tom's Obvious, Minimal Language``.
 
 It's a configuration file format designed to be human-readable, unambiguous, easy to parse and minimal but expressive.
 

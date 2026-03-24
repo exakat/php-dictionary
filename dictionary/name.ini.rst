@@ -41,4 +41,4 @@ Names usually require to be unique within a piece of code: this is the case for 
    ?>
 
 
-Related : :ref:`Namespaces <namespace>`, :ref:`Anonymous <anonymous>`, :ref:`Case Sensitivity <case-sensitivity>`, :ref:`Namespace Name <namespace-name>`, :ref:`Structure <structure>`, :ref:`Word Combinaison <word-combinaison>`
+Related : :ref:`Namespaces <namespace>`, :ref:`Anonymous <anonymous>`, :ref:`Case Sensitivity <case-sensitivity>`, :ref:`Namespace Name <namespace-name>`, :ref:`Structure <structure>`, :ref:`Word combination <word-combinaison>`

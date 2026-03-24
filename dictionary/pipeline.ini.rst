@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:14:57 +0000","dateModified":"Tue, 24 Mar 2026 10:14:57 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pipeline
@@ -24,7 +24,7 @@ Pipeline
 
 A pipeline is a chain of steps that composes a sequential set of actions.
 
-A pipeline is used with : 
+A pipeline is used with: 
 
 + datasets, to read, transform and save data
 + continuous integration, where each check and packaging follows the previous one
@@ -35,5 +35,7 @@ The pipeline image is related to the assembly line, from factories.
 `Documentation <https://en.wikipedia.org/wiki/Pipeline_(software)>`__
 
 See also https://darkghosthunter.medium.com/laravel-when-to-use-pipelines-how-to-test-them-8993ed93e735, https://matthewdaly.co.uk/blog/2018/10/05/understanding-the-pipeline-pattern/
+
+Related : :ref:`Continuous Delivery (CD) <cd>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Pull Request (PR) <pr>`, :ref:`Task Runner <task-runner>`
 
 Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `league/pipeline <https://packagist.org/packages/league/pipeline>`_

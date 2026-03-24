@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Execution Time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Execution time is a phase of PHP processing, where the source code is executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Execution Time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Execution Time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Mar 2026 16:24:41 +0000","dateModified":"Mon, 23 Mar 2026 16:24:41 +0000","description":"Execution time is a phase of PHP processing, where the source code is executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Execution Time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Execution Time
@@ -26,7 +26,9 @@ Execution time is a phase of PHP processing, where the source code is executed. 
 
 At that time, PHP takes the commands one after the other, and execute them. It allocates memory for data, and definitions. 
 
-Execution time is related to compile time. Objects, constants (with define()), function calls, generators, inclusion, exceptions are execution time elements.
+Execution time is related to compile time. Objects, constants when created with ``define()``, function calls, generators, inclusion, exceptions are execution time elements.
+
+On the other hand, classes, constants when created with ``const``, functions, etc. are created at linting time.
 
 .. code-block:: php
    
@@ -44,4 +46,4 @@ Execution time is related to compile time. Objects, constants (with define()), f
    ?>
 
 
-Related : :ref:`Compile Time <compile-time>`, :ref:`Late Static Binding <late-static-binding>`
+Related : :ref:`Const <const>`, :ref:`define() <define>`, :ref:`Compile Time <compile-time>`, :ref:`Linting <lint>`, :ref:`Late Static Binding <late-static-binding>`

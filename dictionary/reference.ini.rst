@@ -1,28 +1,28 @@
 .. _reference:
 .. meta::
 	:description:
-		References: References references allow to create multiple variables that refer to the same underlying value in memory.
+		References: References allow creating multiple variables that refer to the same underlying value in memory.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: References
-	:twitter:description: References: References references allow to create multiple variables that refer to the same underlying value in memory
+	:twitter:description: References: References allow creating multiple variables that refer to the same underlying value in memory
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: References
 	:og:type: article
-	:og:description: References references allow to create multiple variables that refer to the same underlying value in memory
+	:og:description: References allow creating multiple variables that refer to the same underlying value in memory
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"References references allow to create multiple variables that refer to the same underlying value in memory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 15:16:48 +0000","dateModified":"Tue, 17 Mar 2026 15:16:48 +0000","description":"References allow creating multiple variables that refer to the same underlying value in memory","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 References
 ----------
 
-References references allow to create multiple variables that refer to the same underlying value in memory. When using references, any changes made to one variable affect the others that reference the same value. This may be useful in certain situations, such as when it is important to avoid copying large amounts of data or when it is needed to modify the original value through multiple variables. PHP optimizes the transfert of data by postponing duplication of data until they are actually modified: there is no need to use references with readonly data.
+References allow creating multiple variables that refer to the same underlying value in memory. When using references, any changes made by one variable affect the others that reference the same value. This may be useful in certain situations, such as when it is important to avoid copying large amounts of data or when it is needed to modify the original value through multiple variables. PHP optimizes the transfert of data by postponing duplication of data until they are actually modified: there is no need to use references with readonly data.
 
 .. code-block:: php
    

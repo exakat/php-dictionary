@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The pipe operator is ``|>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:13:55 +0000","dateModified":"Tue, 24 Mar 2026 10:13:55 +0000","description":"The pipe operator is ``|>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pipe Operator
@@ -24,13 +24,11 @@ Pipe Operator
 
 The pipe operator is ``|>``. It chains calls from methods from left to right, using the result of the first method as the only argument of the next method.
 
-The pipe operator is compatible with every form of PHP callable : string, arrays, first class callable, closures, arrow functions with parenthesis, etc. 
+The pipe operator is compatible with every form of PHP callable: string, arrays, first class callable, closures, arrow functions with parenthesis, etc. 
 
-It is not compatible with references, . 
+Pipe operator is not compatible with references. 
 
 The pipe operator should not be mistaken with the ``|`` pipe logical operator, which combines two values with a ``or`` logic.
-
-The pipe operator was added in PHP 8.5.
 
 .. code-block:: php
    
@@ -44,3 +42,5 @@ The pipe operator was added in PHP 8.5.
 See also https://php.watch/versions/8.5/pipe-operator
 
 Related : :ref:`Logical Operators <logical-operator>`
+
+Added in PHP 8.5

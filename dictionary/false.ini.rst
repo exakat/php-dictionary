@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"False","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"false has two usages, as PHP keyword : the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/False.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"False","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:11:53 +0000","dateModified":"Fri, 20 Mar 2026 11:11:53 +0000","description":"false has two usages, as PHP keyword : the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/False.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 False
@@ -43,4 +43,4 @@ false has two usages, as PHP keyword : the opposite of true, as a boolean value 
 
 See also https://flatcoding.com/tutorials/php/php-boolean-true-and-false/
 
-Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`True <true>`, :ref:`Falsy <falsy>`, :ref:`Truthy <truthy>`, :ref:`Underscore <underscore>`, :ref:`zero <zero>`, :ref:`Logical Operators <logical-operator>`
+Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`True <true>`, :ref:`Falsy <falsy>`, :ref:`Truthy <truthy>`, :ref:`Underscore <underscore>`, :ref:`zero <zero>`, :ref:`Logical Operators <logical-operator>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`PHP Natives <native-type>`, :ref:`one <one>`, :ref:`Short Ternary Operator <short-ternary>`
