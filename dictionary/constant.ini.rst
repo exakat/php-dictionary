@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Constants are named values, that never change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:57:19 +0000","dateModified":"Mon, 30 Mar 2026 08:57:19 +0000","description":"Constants are named values, that never change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Constants
@@ -25,7 +25,7 @@ Constants
 
 Constants are named values, that never change. 
 
-Constants may be created with the const keyword or the define() function. They may be tested for existence with the defined() function.
+Constants may be created with the const keyword or the ``define()`` function. They may be tested for existence with the ``defined()`` function.
 
 There are global constants, which are accessible with their name and their namespaces. There are also constants in classes, interfaces, enums and traits. Those are called class constant.
 
@@ -52,4 +52,4 @@ Global constants used to be case insensitive, when created with ``define()``. Th
 
 See also https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/
 
-Related : :ref:`Static Constant <class-constant>`, :ref:`Centralization <centralization>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`New In Initializers <new-in-initializer>`, :ref:`Predefined Constants <predefined-constant>`
+Related : :ref:`Static Constant <class-constant>`, :ref:`Centralization <centralization>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`New In Initializers <new-in-initializer>`, :ref:`Predefined Constants <predefined-constant>`, :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`Constant Case <constant-case>`, :ref:`define() <define>`, :ref:`Literal <literal>`

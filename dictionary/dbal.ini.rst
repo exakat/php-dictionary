@@ -1,28 +1,28 @@
 .. _dbal:
 .. meta::
 	:description:
-		Database Abstraction Layer (DBAL): A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases.
+		Database Abstraction Layer (DBAL): A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Database Abstraction Layer (DBAL)
-	:twitter:description: Database Abstraction Layer (DBAL): A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases
+	:twitter:description: Database Abstraction Layer (DBAL): A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Database Abstraction Layer (DBAL)
 	:og:type: article
-	:og:description: A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases
+	:og:description: A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/dbal.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Database Abstraction Layer (DBAL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:55 +0000","dateModified":"Mon, 16 Mar 2026 14:40:55 +0000","description":"A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Database Abstraction Layer (DBAL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Database Abstraction Layer (DBAL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 10:02:56 +0000","dateModified":"Tue, 31 Mar 2026 10:02:56 +0000","description":"A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Database Abstraction Layer (DBAL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Database Abstraction Layer (DBAL)
 ---------------------------------
 
-A Database Abstraction Layer provides one unique interface to build, and execute queries on different databases.
+A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases. This is said to help with migration between different flavors of databases, yet SQL language usually prevents it.
 
 See also https://www.doctrine-project.org/
 

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Array Append","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:33:05 +0000","dateModified":"Tue, 24 Mar 2026 09:33:05 +0000","description":"Append is an array operation, which adds an element at the end of the array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Array Append","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Mar 2026 08:34:02 +0000","dateModified":"Sat, 28 Mar 2026 08:34:02 +0000","description":"Append is an array operation, which adds an element at the end of the array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Append.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Array Append
@@ -26,9 +26,9 @@ Array Append
 
 Append is an array operation, which adds an element at the end of the array. It is also called a push.
 
-There are two operators for this feature ; the ``[]`` operator, which has to be placed after a variable or member. There is also the array_push() function, which is available as a callback, unlike the operator.
+There are two operators for this feature ; the ``[]`` operator, which has to be placed after a variable or member. There is also the ``array_push()`` function, which is available as a callback, unlike the operator.
 
-The opposite operation is a pop, with the function array_pop(). Array_unshift() is the append at the beginning of the array.
+The opposite operation is a pop, with the function ``array_pop()``. ``array_unshift()`` is the append at the beginning of the array.
 
 .. code-block:: php
    

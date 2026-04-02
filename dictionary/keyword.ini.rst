@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP has a list of keywords, which are also called reserved names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 12:10:20 +0000","dateModified":"Mon, 30 Mar 2026 12:10:20 +0000","description":"PHP has a list of keywords, which are also called reserved names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Keyword
@@ -33,21 +33,23 @@ While legit, it is usually recommended to avoid using PHP keywords as identifier
    
    <?php
    
-   class MyNamespace {
-   	function array() {
-   		return array();
-   	}
-   }
-   
-   print_r((new myNamespace)->array());
-   
-   class X {
-       const array ARRAY = array(); // possible confusion here
-   }
+       class MyNamespace {
+           function array() {
+               return array();
+           }
+       }
+       
+       print_r((new myNamespace)->array());
+       
+       class X {
+           const array ARRAY = array(); // possible confusion here
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.keywords.php>`__
+
+See also https://www.php.net/manual/en/reserved.other-reserved-words.php
 
 Related : :ref:`Reserved Names <reserved-name>`

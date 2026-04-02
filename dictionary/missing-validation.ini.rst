@@ -50,4 +50,4 @@ It is important to remember that validation applies to incoming variables, such 
 
 `Documentation <https://owasp.org/www-project-top-10-for-business-logic-abuse/docs/the-top-10/missing-transition-validation>`__
 
-Related : 
+Related : :ref:`Vulnerability <vulnerability>`

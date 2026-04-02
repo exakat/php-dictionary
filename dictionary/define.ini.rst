@@ -1,32 +1,35 @@
 .. _define:
 .. meta::
 	:description:
-		define(): ``define()`` is a PHP function, that introduces constant definitions.
+		define(): ``define()`` is a PHP function, that introduces global constant definitions.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: define()
-	:twitter:description: define(): ``define()`` is a PHP function, that introduces constant definitions
+	:twitter:description: define(): ``define()`` is a PHP function, that introduces global constant definitions
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: define()
 	:og:type: article
-	:og:description: ``define()`` is a PHP function, that introduces constant definitions
+	:og:description: ``define()`` is a PHP function, that introduces global constant definitions
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"define()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``define()`` is a PHP function, that introduces constant definitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/define().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"define()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 11:03:42 +0000","dateModified":"Fri, 27 Mar 2026 11:03:42 +0000","description":"``define()`` is a PHP function, that introduces global constant definitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/define().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 define()
 --------
 
-``define()`` is a PHP function, that introduces constant definitions. 
+``define()`` is a PHP function, that introduces global constant definitions. 
 
-define() is a function, and may be called anywhere. It is slower than ``const``, as it is only executed at runtime. define() doesn't allow class constants creation.
+``define()`` is a function, and may be called anywhere. It is slower than ``const``, as it is only executed at runtime. ``define()`` doesn't allow class constants creation.
 
-define() used to create case-insensitive constant, but this was abandoned in PHP 7.3.
+``define()`` used to create case-insensitive constant, but this was abandoned in PHP 7.3.
+
+``define()`` cannot create class constants.
+
 
 .. code-block:: php
    
@@ -39,4 +42,6 @@ define() used to create case-insensitive constant, but this was abandoned in PHP
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-Related : :ref:`Const <const>`, :ref:`defined() <defined>`
+See also https://www.uptimia.com/questions/what-are-the-differences-between-define-and-const-in-php
+
+Related : :ref:`Const <const>`, :ref:`Constants <constant>`, :ref:`Static Constant <class-constant>`, :ref:`defined() <defined>`

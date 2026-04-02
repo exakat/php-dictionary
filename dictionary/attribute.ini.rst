@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Attributes are machine readable options that may be added PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:13:00 +0000","dateModified":"Wed, 01 Apr 2026 09:13:00 +0000","description":"Attributes are machine readable options that may be added PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Attribute
@@ -36,16 +36,20 @@ Attributes may or may not have a supporting class: attributes may be used for th
    
    <?php
    
-   #[Attribute]
-   class X {}
+       #[Attribute]
+       class X {} // this class is an Attributes
+       
+       #[X]  // This attribute may be instanciated, and executed
+       #[Z]  // This attribute serves only as a flag. No class is available.
+       class Y {} // this class is an Attributes
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.attributes.overview.php>`__
 
-See also https://www.exakat.io/en/php-native-attributes-quick-reference/, https://www.linkedin.com/pulse/using-php-attributes-instead-annotations-static-carlos-granados-qanwe/, https://itsimiro.medium.com/unlocking-the-power-of-attributes-in-php-a6af57225bbf, https://github.com/DaveLiddament/php-language-extensions, https://jump24.co.uk/journal/playtime-with-php-attributes/
+See also https://www.exakat.io/en/php-native-attributes-quick-reference/, https://www.linkedin.com/pulse/using-php-attributes-instead-annotations-static-carlos-granados-qanwe/, https://itsimiro.medium.com/unlocking-the-power-of-attributes-in-php-a6af57225bbf, https://github.com/DaveLiddament/php-language-extensions, https://jump24.co.uk/journal/playtime-with-php-attributes/, https://www.honeybadger.io/blog/php-attributes-guide/
 
-Related : :ref:`PHPdoc <phpdoc>`, :ref:`PHP Native Attribute <php-native-attribute>`
+Related : :ref:`PHPdoc <phpdoc>`, :ref:`PHP Native Attribute <php-native-attribute>`, :ref:`Annotations <annotation>`, :ref:`Attribute Class <attribute-class>`, :ref:`NoDiscard <nodiscard>`, :ref:`Properties <property>`
 
 Added in PHP 8.0

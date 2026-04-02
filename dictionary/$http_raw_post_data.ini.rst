@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$HTTP_RAW_POST_DATA","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``$HTTP_RAW_POST_DATA`` used to contain the raw POST data of an HTTP request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$HTTP_RAW_POST_DATA.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Zombie Code.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Zombie Code.html","name":"$HTTP_RAW_POST_DATA","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:01:07 +0000","dateModified":"Wed, 01 Apr 2026 09:01:07 +0000","description":"``$HTTP_RAW_POST_DATA`` used to contain the raw POST data of an HTTP request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$HTTP_RAW_POST_DATA.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $HTTP_RAW_POST_DATA
@@ -37,5 +37,7 @@ Since PHP 7.0, ``php://input`` should be used instead of ``$HTTP_RAW_POST_DATA``
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
+
+Related : , , 
 
 Removed in PHP 

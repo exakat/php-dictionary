@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArithmeticError Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``ArithmeticError`` is thrown when an error occurs while performing mathematical operations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArithmeticError Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArithmeticError Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 04:53:44 +0000","dateModified":"Wed, 01 Apr 2026 04:53:44 +0000","description":"``ArithmeticError`` is thrown when an error occurs while performing mathematical operations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArithmeticError Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ArithmeticError Error
@@ -57,6 +57,6 @@ When ``ArithmeticError`` are not raised, PHP may return a ``NaN`` value, and ``I
 
 `Documentation <https://www.php.net/manual/en/class.arithmeticerror.php>`__
 
-See also https://blog.airbrake.io/blog/php-exception-handling/arithmeticerror
+See also https://netgen.io/blog/modern-error-handling-in-php
 
-Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Not A Number (NAN) <nan>`, :ref:`INF <inf>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Not A Number (NAN) <nan>`, :ref:`INF <inf>`, :ref:`zero <zero>`

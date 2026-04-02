@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:50:25 +0000","dateModified":"Mon, 16 Mar 2026 14:50:25 +0000","description":"Arrow functions are a type of closure with a specific syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 15:56:43 +0000","dateModified":"Wed, 01 Apr 2026 15:56:43 +0000","description":"Arrow functions are a type of closure with a specific syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Arrow Functions
@@ -31,16 +31,27 @@ Arrow functions may also be marked as ``static``, to prevent this import.
    
    <?php
    
-   $b = 10;
-   $fn = fn($a) => $a + $b + 2;
+       class X {
+           private int $p = 2;
+           
+           function foo() {
+              $b = 10;
+              $fn = fn($a) => $a + $b + 2;
+              
+              $fn = static fn($a) => $a + $b + $this->p;
+   
+              // $this is not allowed in static arrow function
+              $fn = static fn($a) => $a + $b + $this->p;
+           }
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/functions.arrow.php>`__
 
-See also https://drops-of-php.hi-folks.dev/04-functions/02-fns-arrowfunction/
+See also https://drops-of-php.hi-folks.dev/functions/arrow/#_top, https://dev.to/eddiegoldman/php-arrow-functions-simple-short-and-effective-3lb5, https://oatllo.com/course/php/function/php-variable-scope-guide
 
-Related : :ref:`static <static>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`
+Related : :ref:`static <static>`, :ref:`$this <$this>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`
 
 Added in PHP 7.4

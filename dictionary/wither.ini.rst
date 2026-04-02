@@ -1,29 +1,28 @@
 .. _wither:
 .. meta::
 	:description:
-		Class Wither Method: With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself.
+		Class Wither Method: ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Class Wither Method
-	:twitter:description: Class Wither Method: With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself
+	:twitter:description: Class Wither Method: ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Wither Method
 	:og:type: article
-	:og:description: With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself
+	:og:description: ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wither.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Wither Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Wither Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Wither Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 10:04:39 +0000","dateModified":"Tue, 31 Mar 2026 10:04:39 +0000","description":"``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Wither Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Wither Method
 -------------------
 
-With is a prefix, that tells the reader that the getter returns a copy of the object, and not the object itself.  
-
+``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself. The ``with`` prefix may be added to any property name, virtual or concrete.
 
 .. code-block:: php
    

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sign","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A signed expression is an expression that starts with the ``+`` or the ``-`` token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sign.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sign","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:22:42 +0000","dateModified":"Mon, 30 Mar 2026 08:22:42 +0000","description":"A signed expression is an expression that starts with the ``+`` or the ``-`` token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sign.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sign
@@ -30,7 +30,7 @@ A signed expression is an expression that starts with the ``+`` or the ``-`` tok
 
 PHP tolerate multiple distinct sign tokens: ``+-+-+1`` is the same as ``1``. It is strongly recommended to avoid using it. When an arbitrary number of sign change must be executed, a multiplication by ``-1`` works well.
 
-The signs are distinct from numeric values: ``-9`` is not ``minus nine``, but rather ``-1 * 9``. This is needed to handle expressions such as ``- ( $a * 2)``, where ``-`` applies to the result of the parenthesis. 
+The signs are distinct from numeric values: ``-9`` is not ``minus nine``, but rather ``-1 * 9``. This is needed to handle expressions such as ``- ($a * 2)``, where ``-`` applies to the result of the parenthesis. 
 
 It also leads to the unexpected result that ``-3 ** 2 == -9``. In this case, ``**`` power has priority over ``-``, so this is really ``-(3 ** 2) == -9``.
 
@@ -38,19 +38,19 @@ It also leads to the unexpected result that ``-3 ** 2 == -9``. In this case, ``*
    
    <?php
    
-   $a = 2;
-   $b = -$a; // -2
-   
-   $c = 123.4;
-   $d = +$c; // float(123.4)
-   
-   // Warning
-   
-   $e = -3 ** 2; // -9
-   
-   $f = +-+-+-+-+-4; // -4
+       $a = 2;
+       $b = -$a; // -2
+       
+       $c = 123.4;
+       $d = +$c; // float(123.4)
+       
+       // Warning
+       
+       $e = -3 ** 2; // -9
+       
+       $f = +-+-+-+-+-4; // -4
    
    ?>
 
 
-Related : :ref:`Exponent <power>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`Cast Operator <cast>`
+Related : :ref:`Exponent <power>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`Cast Operator <cast>`, :ref:`Expression <expression>`

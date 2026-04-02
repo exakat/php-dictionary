@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Index For SQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"In SQL, an index is a database object that improves the performance of data retrieval operations on database tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Index For SQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Index For SQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 17:05:32 +0000","dateModified":"Fri, 27 Mar 2026 17:05:32 +0000","description":"In SQL, an index is a database object that improves the performance of data retrieval operations on database tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Index For SQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Index For SQL
@@ -35,7 +35,7 @@ Indexes provide the following benefits:
 
 However, indexes also have some considerations:
 
-+ Overhead: Indexes consume disk space and require additional processing time for index maintenance during data modifications (inserts, updates, and deletes). So, creating too many indexes or indexes on frequently updated columns can impact performance.
++ Overhead: Indexes consume disk space and require additional processing time for index maintenance during data modifications. So, creating too many indexes or indexes on frequently updated columns can impact performance.
 + Maintenance: Indexes need to be maintained as the underlying data changes. This includes updating the index when data is inserted, modified, or deleted, which can impact overall system performance.
 + Choosing the right columns: It's important to carefully choose the columns to index based on the specific queries and usage patterns of the database. Indexing every column is not always necessary or beneficial.
 

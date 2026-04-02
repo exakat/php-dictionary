@@ -35,4 +35,4 @@ etc.
 
 A similar notion is the prefix, which is located at the beginning of the word. Another way to create word is word combinaison.
 
-Related : :ref:`Prefix <prefix>`, :ref:`Word combination <word-combinaison>`
+Related : :ref:`Prefix <prefix>`, :ref:`Word Combination <word-combinaison>`

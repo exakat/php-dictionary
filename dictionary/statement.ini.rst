@@ -1,28 +1,28 @@
 .. _statement:
 .. meta::
 	:description:
-		Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement).
+		Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing, an empty statement.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Statement
-	:twitter:description: Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)
+	:twitter:description: Statement: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing, an empty statement
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Statement
 	:og:type: article
-	:og:description: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)
+	:og:description: A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing, an empty statement
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/statement.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Statement","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Statement.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Statement","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:21:45 +0000","dateModified":"Mon, 30 Mar 2026 08:21:45 +0000","description":"A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing, an empty statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Statement.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Statement
 ---------
 
-A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing (an empty statement). 
+A statement can be an assignment, a function call, a loop, a conditional statement or even a statement that does nothing, an empty statement. 
 
 Statements usually end with a semicolon. 
 

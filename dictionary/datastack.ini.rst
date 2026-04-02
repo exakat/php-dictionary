@@ -42,4 +42,4 @@ There is also a class called ``SplStack``, in the ``spl`` extension, and ``Ds\St
    ?>
 
 
-Related : , :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`
+Related : :ref:`SplStack <splstack>`, :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`

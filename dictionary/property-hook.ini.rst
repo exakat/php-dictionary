@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Property hooks are a feature of PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:07:37 +0000","dateModified":"Wed, 01 Apr 2026 09:07:37 +0000","description":"Property hooks are a feature of PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Property Hook
@@ -25,30 +25,36 @@ Property Hook
 
 Property hooks are a feature of PHP 8.4, where accessors can be defined with the property. 
 
-Hooks are for 'set' and 'get': they allow extra commands to be always executed at setting or getting time of a property. 
+Hooks are for ``set`` and ``get``: they allow extra commands to be always executed at setting or getting time of a property. 
 
 Hooks look like the magic methods ``__set`` and ``__get``, with a few differences: they are dedicated to a property, and easier to write.
+
+Property hooks are also called ``Property Accessors``, in other languages.
 
 .. code-block:: php
    
    <?php
    
-   class X
-   {
-       public string $property {
-       	// this is the single line definition of a hook
-       	// the expression is the returned value
-           get => $this->property . _1;
-   
-           set {
-           	// $value is the unique parameter of that function
-               $this->property = $value;
+       class X {
+           public string $property {
+               // this is the single line definition of a hook
+               // the expression is the returned value
+               get => $this->property . _1;
+       
+               set {
+                   // $value is the unique parameter of that function
+                   $this->property = $value;
+               }
            }
        }
-   }
+   
    ?>
 
 
-See also https://ashallendesign.co.uk/blog/php-84-property-hooks, https://qirolab.com/posts/php-84-property-hooks, https://wiki.php.net/rfc/hook_improvements
+`Documentation <https://www.php.net/manual/en/language.oop5.property-hooks.php>`__
+
+See also https://ashallendesign.co.uk/blog/php-84-property-hooks, https://qirolab.com/posts/php-84-property-hooks, https://wiki.php.net/rfc/hook_improvements, https://www.zend.com/blog/php-8-4-property-hooks
 
 Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`
+
+Added in PHP 8.4

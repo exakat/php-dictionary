@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","name":"Local Scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The local scope is the scope inside a function or method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Local Scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","name":"Local Scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 19:54:58 +0000","dateModified":"Mon, 30 Mar 2026 19:54:58 +0000","description":"The local scope is the scope inside a function or method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Local Scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Local Scope
@@ -32,19 +32,19 @@ The opposite of local scope is the global scope.
    <?php
    
    function foo() {
-   	// $foo variable is only available in the foo scope
-   	$foo = 1; 
-   	
-   	$closure = function () {
-   		// this scope is different from foo()
-   		// its definition is nested in the foo() function
-   		// but those are 2 distinct scopes
-   	};
+       // $foo variable is only available in the foo scope
+       $foo = 1; 
+       
+       $closure = function () {
+           // this scope is different from foo()
+           // its definition is nested in the foo() function
+           // but those are 2 distinct scopes
+       };
    }
    
    function goo() {
-   	// $goo variable is only available in the goo scope
-   	$goo = 1; 
+       // $goo variable is only available in the goo scope
+       $goo = 1; 
    }
    ?>
 

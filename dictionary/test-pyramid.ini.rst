@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test Pyramid","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test Pyramid.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test Pyramid","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 08:56:43 +0000","dateModified":"Wed, 01 Apr 2026 08:56:43 +0000","description":"The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test Pyramid.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test Pyramid
@@ -26,4 +26,4 @@ The Test Pyramid is a concept in software testing that represents the ideal dist
 
 `Documentation <https://martinfowler.com/articles/practical-test-pyramid.html>`__
 
-See also `TestPyramid <https://martinfowler.com/bliki/TestPyramid.html>`_
+See also https://martinfowler.com/bliki/TestPyramid.html

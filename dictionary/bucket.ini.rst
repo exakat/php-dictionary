@@ -16,12 +16,12 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bucket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:53 +0000","dateModified":"Mon, 16 Mar 2026 14:40:53 +0000","description":"The term ``bucket`` is not commonly associated with a specific concept","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bucket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bucket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Mar 2026 08:42:40 +0000","dateModified":"Sat, 28 Mar 2026 08:42:40 +0000","description":"The term ``bucket`` is not commonly associated with a specific concept","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bucket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Bucket
 ------
 
-The term ``bucket`` is not commonly associated with a specific concept. In a more general sense, the term ``bucket`` is often used in the context of data structures and algorithms to refer to a container or a storage space for holding elements.
+The term ``bucket`` is not commonly associated with a specific concept. In a more general sense, the term ``bucket`` is often used in the context of data structures and algorithms to refer to a container or a storage space for holding several elements together.
 
-For example, in the context of hashing or hash tables, a ``bucket`` may be used to describe the individual storage locations where key-value pairs are stored. When a hash collision occurs (two keys hash to the same location), the elements with the same hash value are often placed in a bucket, which is a data structure that allows multiple elements to be stored at the same location.
+For example, in the context of hashing or hash tables, a ``bucket`` may be used to describe the individual storage locations where key-value pairs are stored. When a hash collision occurs, that is when two keys hash to the same location, the elements with the same hash value are often placed in a bucket, which is a data structure that allows multiple elements to be stored at the same location.

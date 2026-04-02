@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Declaration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A declaration is a statement that defines a structure, such as a function, a class, method, property, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Declaration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Declaration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 19:02:28 +0000","dateModified":"Mon, 30 Mar 2026 19:02:28 +0000","description":"A declaration is a statement that defines a structure, such as a function, a class, method, property, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Declaration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Declaration
@@ -36,13 +36,13 @@ PHP requires a declaration for some structures, and allows its omission for othe
    function foo() {}
    
    class x {
-   	function goo() {
-   		// This is a warning since PHP 8.2, planned to be a fatal error in PHP 9.0
-   		$this->undeclaredProperty = 1;
-   		
-   		// $b is undefined. It creates a warning, but the code keeps executing.
-   		$a = $b + 1;
-   	}
+       function goo() {
+           // This is a warning since PHP 8.2, planned to be a fatal error in PHP 9.0
+           $this->undeclaredProperty = 1;
+           
+           // $b is undefined. It creates a warning, but the code keeps executing.
+           $a = $b + 1;
+       }
    }
    
    ?>

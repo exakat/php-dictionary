@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Path","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A path is a representation of the location of a file or directory within the directory structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Path.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Path","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 06:36:03 +0000","dateModified":"Tue, 31 Mar 2026 06:36:03 +0000","description":"A path is a representation of the location of a file or directory within the directory structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Path.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Path
@@ -31,4 +31,4 @@ In PHP, path are represented by strings. The local OS's directory separator is s
 
 See also https://php-path.readthedocs.io/en/latest/
 
-Related : :ref:`Dir <dir>`, :ref:`File <file>`, :ref:`DIRECTORY_SEPARATOR <directory_separator>`
+Related : :ref:`Stream <stream>`, :ref:`Protocol <protocol>`, :ref:`Dir <dir>`, :ref:`File <file>`, :ref:`DIRECTORY_SEPARATOR <directory_separator>`, :ref:`Absolute <absolute>`, :ref:`dirname <dirname>`, :ref:`. Directory <dot-directory>`, :ref:`.. Directory <dot-dot-directory>`, :ref:`Relative <relative>`

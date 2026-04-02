@@ -1,28 +1,28 @@
 .. _fallthrough:
 .. meta::
 	:description:
-		Switch Fallthrough: A fallthrough is the absence of break (or equivalent) at the end of a switch case.
+		Switch Fallthrough: A fallthrough is the absence of break, or equivalent, at the end of a switch case.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Switch Fallthrough
-	:twitter:description: Switch Fallthrough: A fallthrough is the absence of break (or equivalent) at the end of a switch case
+	:twitter:description: Switch Fallthrough: A fallthrough is the absence of break, or equivalent, at the end of a switch case
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Switch Fallthrough
 	:og:type: article
-	:og:description: A fallthrough is the absence of break (or equivalent) at the end of a switch case
+	:og:description: A fallthrough is the absence of break, or equivalent, at the end of a switch case
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fallthrough.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch Fallthrough","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A fallthrough is the absence of break (or equivalent) at the end of a switch case","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch Fallthrough.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch Fallthrough","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 25 Mar 2026 20:05:56 +0000","dateModified":"Wed, 25 Mar 2026 20:05:56 +0000","description":"A fallthrough is the absence of break, or equivalent, at the end of a switch case","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch Fallthrough.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Switch Fallthrough
 ------------------
 
-A fallthrough is the absence of break (or equivalent) at the end of a switch case. That way, the execution continues on the next case. 
+A fallthrough is the absence of break, or equivalent, at the end of a switch case. That way, the execution continues on the next case. 
 
 While this is an intended feature, and is useful to reduce code, it tends to surprise programmers, which expect the cases to always end.
 

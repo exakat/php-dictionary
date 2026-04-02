@@ -1,40 +1,38 @@
 .. _-__wakeup:
 .. meta::
 	:description:
-		__wakeup() Method: __wakeup() is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition.
+		__wakeup() Method: ``__wakeup()`` is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: __wakeup() Method
-	:twitter:description: __wakeup() Method: __wakeup() is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition
+	:twitter:description: __wakeup() Method: ``__wakeup()`` is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __wakeup() Method
 	:og:type: article
-	:og:description: __wakeup() is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition
+	:og:description: ``__wakeup()`` is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__wakeup.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__wakeup() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"__wakeup() is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__wakeup() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__wakeup() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:49:14 +0000","dateModified":"Fri, 27 Mar 2026 15:49:14 +0000","description":"``__wakeup()`` is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__wakeup() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __wakeup() Method
 -----------------
 
-__wakeup() is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition. 
+``__wakeup()`` is a magic method: it is called an object is being deserialized, so that the object may be restored to its working condition. 
 
-In particular, some resources, such as database connections or files cannot be serialized. They should be closed, stored as a path in __sleep(), and reopened later with __wakeup().
+In particular, some resources, such as database connections or files cannot be serialized. They should be closed, stored as a path in ``__sleep()``, and reopened later with ``__wakeup()``.
 
-The __wakeup() method is usually paired with the __sleep() method. 
-
-
+The ``__wakeup()`` method is usually paired with the ``__sleep()`` method.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class X {
    	private $file;
    	private $path;
    

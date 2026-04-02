@@ -1,30 +1,30 @@
 .. _array_unique:
 .. meta::
 	:description:
-		array_unique(): The array_unique() PHP native function removes duplicate values from an array.
+		array_unique(): The ``array_unique()`` PHP native function removes duplicate values from an array.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: array_unique()
-	:twitter:description: array_unique(): The array_unique() PHP native function removes duplicate values from an array
+	:twitter:description: array_unique(): The ``array_unique()`` PHP native function removes duplicate values from an array
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: array_unique()
 	:og:type: article
-	:og:description: The array_unique() PHP native function removes duplicate values from an array
+	:og:description: The ``array_unique()`` PHP native function removes duplicate values from an array
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array_unique.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_unique()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:26:57 +0000","dateModified":"Tue, 24 Mar 2026 10:26:57 +0000","description":"The array_unique() PHP native function removes duplicate values from an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_unique().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_unique()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:52:39 +0000","dateModified":"Fri, 27 Mar 2026 15:52:39 +0000","description":"The ``array_unique()`` PHP native function removes duplicate values from an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_unique().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_unique()
 --------------
 
-The array_unique() PHP native function removes duplicate values from an array. It is important to note that it treats values as strings for comparison by default, unless a specific sort flag is provided.
+The ``array_unique()`` PHP native function removes duplicate values from an array. It is important to note that it treats values as strings for comparison by default, unless a specific sort flag is provided.
 
-The second parameter, `flags`, can be used to modify the comparison behavior:
+The second parameter, ``flags``, can be used to modify the comparison behavior:
 - ``SORT_STRING``: compare items as strings (default).
 - ``SORT_REGULAR``: compare items normally. This is equivalent to ``===`` comparison, and works with enumerations.
 - ``SORT_NUMERIC``: compare items numerically.

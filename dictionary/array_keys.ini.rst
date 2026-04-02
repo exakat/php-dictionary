@@ -57,4 +57,4 @@ array_keys()
 
 See also https://flatcoding.com/tutorials/php/php-array_keys-how-to-extract-keys-in-arrays-with-examples/
 
-Related : :ref:`Multidimensional Array <multidimensional-array>`, :ref:`Cast Operator <cast>`, :ref:`Comparison <comparison>`, :ref:`Index For Arrays <index-array>`, , 
+Related : :ref:`Multidimensional Array <multidimensional-array>`, :ref:`Cast Operator <cast>`, :ref:`Comparison <comparison>`, :ref:`Index For Arrays <index-array>`, :ref:`array_values() <array_values>`, 

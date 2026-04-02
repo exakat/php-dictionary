@@ -45,4 +45,4 @@ By extension, incoming data may be used to every source of data that is not PHP 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
 
-Related : :ref:`$_REQUEST <$_request>`, :ref:`$_POST <$_post>`, :ref:`$_FILES <$_files>`, :ref:`$_GET <$_get>`, :ref:`Outgoing Data <outgoing-data>`, 
+Related : :ref:`$_REQUEST <$_request>`, :ref:`$_POST <$_post>`, :ref:`$_FILES <$_files>`, :ref:`$_GET <$_get>`, :ref:`Outgoing Data <outgoing-data>`, :ref:`default_charset <default_charset>`

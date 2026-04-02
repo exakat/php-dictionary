@@ -37,4 +37,4 @@ There are several models used to implement SDLC, including:
 
 `Documentation <https://en.wikipedia.org/wiki/Systems_development_life_cycle>`__
 
-Related : , , , 
+Related : , , , :ref:`Agile <agile>`

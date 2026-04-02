@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SOLID","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"SOLID is an acronym for a set of OOP design principle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SOLID.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SOLID","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 14:56:42 +0000","dateModified":"Wed, 01 Apr 2026 14:56:42 +0000","description":"SOLID is an acronym for a set of OOP design principle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SOLID.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SOLID
@@ -32,8 +32,10 @@ SOLID is an acronym for a set of OOP design principle. They were coined by Rober
 
 Each principle may be used independently. Those principles are not dedicated to PHP, though they are used with PHP.
 
+The opposite of SOLID is STUPID: 
+
 `Documentation <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>`__
 
-See also https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html, https://dev.to/devlinaung/solid-principles-in-php-363j
+See also https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html, https://dev.to/devlinaung/solid-principles-in-php-363j, https://medium.com/unity-coder-corner/stupid-versus-solid-programming-7c0826d125a0
 
 Related : :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Open Closed Principle (OCP) <ocp>`, :ref:`Liskov Substitution Principle (LSP) <lsp>`, :ref:`Interface Segregation Principle (ISP) <isp>`, :ref:`Dependency Injection <dip>`

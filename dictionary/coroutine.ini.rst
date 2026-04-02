@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coroutine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Coroutines are methods whose execution may be suspended and resumed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coroutine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coroutine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 12:18:27 +0000","dateModified":"Mon, 30 Mar 2026 12:18:27 +0000","description":"Coroutines are methods whose execution may be suspended and resumed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coroutine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Coroutine
@@ -24,7 +24,7 @@ Coroutine
 
 Coroutines are methods whose execution may be suspended and resumed. 
 
-PHP generators a sort of subroutines.
+PHP generators are a sort of coroutines.
 
 swoole, openswoole and fibers extensions offer coroutines.
 
@@ -32,21 +32,22 @@ swoole, openswoole and fibers extensions offer coroutines.
    
    <?php
    
-   // Example from OpenSwoole (https://openswoole.com/docs/modules/swoole-coroutine)
-   Co\run(function()
-   {
-       go(function()
+       // Example from OpenSwoole (https://openswoole.com/docs/modules/swoole-coroutine)
+       Co\run(function()
        {
-           Co::sleep(1);
-           echo "Done 1\n";
+           go(function()
+           {
+               Co::sleep(1);
+               echo "Done 1\n";
+           });
+       
+           go(function()
+           {
+               Co::sleep(1);
+               echo "Done 2\n";
+           });
        });
    
-       go(function()
-       {
-           Co::sleep(1);
-           echo "Done 2\n";
-       });
-   });
    ?>
 
 

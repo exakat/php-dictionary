@@ -46,6 +46,6 @@ Code complexity applies to all programming languages, and is not specific to PHP
 
 See also https://blog.codacy.com/code-complexity, https://jellyfish.co/library/code-complexity/
 
-Related : :ref:`Cognitive Complexity <cognitive-complexity>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, 
+Related : :ref:`Cognitive Complexity <cognitive-complexity>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`
 
 Related packages : `sebastian/complexity <https://packagist.org/packages/sebastian/complexity>`_, `phpmetrics/phpmetrics <https://packagist.org/packages/phpmetrics/phpmetrics>`_

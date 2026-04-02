@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Traits are a mechanism for code reuse in single inheritance languages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:13:31 +0000","dateModified":"Wed, 01 Apr 2026 09:13:31 +0000","description":"Traits are a mechanism for code reuse in single inheritance languages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Trait
@@ -51,4 +51,4 @@ Traits define methods and properties. They are included in one or several classe
 
 See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_, `What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_, `Some lesser known facts of Traits in PHP <https://www.amitmerchant.com/some-lesser-known-facts-traits-php/>`_, `When to use a trait? <https://matthiasnoback.nl/2022/07/when-to-use-a-trait/>`_, `The difference between Traits, Interfaces, and Abstract Classes in PHP <https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/>`_
 
-Related : :ref:`Class <class>`, :ref:`Class Interface Trait Enumeration (CITE) <cite>`, :ref:`Use <use>`
+Related : :ref:`Class <class>`, :ref:`Class Interface Trait Enumeration (CITE) <cite>`, :ref:`Use <use>`, :ref:`$this <$this>`, :ref:`Const <const>`, :ref:`Constants In Trait <constant-in-trait>`, :ref:`Use In Traits <use-trait>`

@@ -41,4 +41,4 @@ A similar notion is the suffix, which is located at the end of the word. Another
 
 In recent PHP, prefixing names is done using namespaces. It is also required for extensions to use a distinct prefix, such as ``mysqli_`` or ``pg_``. This may not apply to all global functions, for backward compatibility reasons.
 
-Related : :ref:`Suffix <suffix>`, :ref:`Word combination <word-combinaison>`, :ref:`Namespaces <namespace>`
+Related : :ref:`Suffix <suffix>`, :ref:`Word Combination <word-combinaison>`, :ref:`Namespaces <namespace>`

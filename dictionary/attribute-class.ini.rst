@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Attribute Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"This is a native PHP attribute, which tells the engine that a class is a PHP attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Attribute Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Attribute Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:12:04 +0000","dateModified":"Wed, 01 Apr 2026 09:12:04 +0000","description":"This is a native PHP attribute, which tells the engine that a class is a PHP attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Attribute Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Attribute Class
@@ -30,17 +30,19 @@ This attribute (sic) is not necessary to make a class a valid attribute. Yet, it
    
    <?php
    
-   #[Attribute]
-   class MyAttribute { }
-   
-   #[MyAttribute]
-   class MyClass { }
+       #[Attribute]
+       class MyAttribute { }
+       
+       #[MyAttribute]
+       class MyClass { }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
 
-See also https://php.watch/articles/php-attributes
+See also https://php.watch/articles/php-attributes, https://php.watch/articles/php-attributes
+
+Related : :ref:`Override Attribute <override>`, :ref:`NoDiscard <nodiscard>`, :ref:`Attribute <attribute>`
 
 Added in PHP 8.1+

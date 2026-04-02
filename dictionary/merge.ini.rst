@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Merge","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"To merge is the action of combining two things into one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Merge","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 19:57:06 +0000","dateModified":"Mon, 30 Mar 2026 19:57:06 +0000","description":"To merge is the action of combining two things into one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Merge
 -----
 
-To merge is the action of combining two things into one. There are usually two meaning associated with PHP code : 
+To merge is the action of combining two things into one. There are usually two meaning associated with PHP code: 
 
 + merging arrays, with the eponymous function ``array_merge()``, or the ``+`` operator
 + code merge, using a VCS, such as git, svn, etc.
@@ -31,11 +31,11 @@ To merge is the action of combining two things into one. There are usually two m
    
    <?php
    
-   $array1 = [1,2];
-   $array2 = [3,4];
-   
-   array_merge($array1, $array2); // [1,2,3,4]
-   $array1 + $array2;             // [1,2,3,4]
+       $array1 = [1,2];
+       $array2 = [3,4];
+       
+       array_merge($array1, $array2); // [1,2,3,4]
+       $array1 + $array2;             // [1,2,3,4]
    
    ?>
 

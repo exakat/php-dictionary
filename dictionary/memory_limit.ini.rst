@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"memory_limit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``memory_limit`` is the directive that caps the maximum amount of memory that PHP can use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/memory_limit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"memory_limit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 19:56:36 +0000","dateModified":"Mon, 30 Mar 2026 19:56:36 +0000","description":"``memory_limit`` is the directive that caps the maximum amount of memory that PHP can use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/memory_limit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 memory_limit
@@ -24,7 +24,7 @@ memory_limit
 
 ``memory_limit`` is the directive that caps the maximum amount of memory that PHP can use. 
 
-The limit is expressed in bytes, although options are available for kb ``K``, Mb ``M`` and Gb ``G`` (case insensitive).
+The limit is expressed in bytes, although options are available for kb ``K``, Mb ``M`` and Gb ``G``, case insensitive.
 
 The limit may be lifted by setting this directive to ``-1``.
 
@@ -38,7 +38,7 @@ The default value of ``memory_limit`` is 128 Mb.
    
    <?php
    
-   echo ini_get('memory_limit');  //128M
+       echo ini_get('memory_limit');  //128M
    
    ?>
 
@@ -46,3 +46,5 @@ The default value of ``memory_limit`` is 128 Mb.
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.memory-limit>`__
 
 See also https://linuxblog.io/understanding-php-memory_limit/
+
+Related : :ref:`Memory <memory>`

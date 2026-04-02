@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ParseError","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as when ``eval()`` is called or when including non-compilable code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ParseError.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ParseError","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 08:29:37 +0000","dateModified":"Wed, 01 Apr 2026 08:29:37 +0000","description":"A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as when ``eval()`` is called or when including non-compilable code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ParseError.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ParseError
@@ -29,9 +29,9 @@ A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as 
    <?php
    
    try {
-   	eval (' A A ');
+       eval (' A A ');
    } catch (ParseError $e) {
-   	echo "This is not PHP code";
+       echo "This is not PHP code";
    }
    
    ?>
@@ -41,6 +41,6 @@ A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as 
 
 See also https://www.ionos.com/help/hosting/troubleshooting-for-php/what-is-a-parse-error/, https://php-errors.readthedocs.io/en/latest/syntaxerror.html
 
-Related : :ref:`Error <error>`, :ref:`Eval() <eval>`
+Related : :ref:`Error <error>`, :ref:`Eval() <eval>`, :ref:`Parse <parse>`
 
 Added in PHP 7.0+

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Task Runner","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Task Runner.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Task Runner","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 13:41:39 +0000","dateModified":"Wed, 01 Apr 2026 13:41:39 +0000","description":"A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Task Runner.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Task Runner
@@ -26,10 +26,8 @@ A task runner refers to a tool or framework that automates repetitive tasks, suc
 
 Task runners provide a way to define and execute tasks or scripts in a predefined sequence, often using configuration files or scripts. These tasks can include various activities, such as compiling code, running tests, optimizing assets, generating documentation, and deploying the application to a server.
 
+See also https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners, https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/, https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner/
 
-
-See also `Castor, a journey across the sea of task runners <https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners>`_, `Being Productive With Task Runners <https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/>`_
-
-Related : :ref:`Pipeline <pipeline>`
+Related : :ref:`Pipeline <pipeline>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Continuous Delivery (CD) <cd>`
 
 Related packages : `consolidation/robo <https://packagist.org/packages/consolidation/robo>`_, `phing/phing <https://packagist.org/packages/phing/phing>`_, `jolicode/castor <https://packagist.org/packages/jolicode/castor>`_

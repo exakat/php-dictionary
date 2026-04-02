@@ -17,25 +17,30 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Associative Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"An associative array is an array whose keys are strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Associative Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Associative Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:26:42 +0000","dateModified":"Wed, 01 Apr 2026 09:26:42 +0000","description":"An associative array is an array whose keys are strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Associative Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Associative Array
 -----------------
 
-An associative array is an array whose keys are strings. There may be integer index, mixed with the string ones.
+An associative array is an array whose keys are strings; there may also be integer index, mixed with the string ones. 
+
+In the evolution of PHP, associative arrays evolved into objects, where the index in the array turned into property names.
+
+It is possible to use types others than integer and string with an array syntax: this requires building an object for that.
+
 
 .. code-block:: php
    
    <?php
    
-   $associative = ['a' => 1, 'b' => 4];
+       $associative = ['a' => 1, 'b' => 4, 3 => 5, 6 ];
    
-   echo $associative['a'];
+       echo $associative['a'];
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/intro.array.php>`__
+`Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`Indexed Array <indexed-array>`, :ref:`Array <array>`, :ref:`Collection <collection>`, :ref:`Dictionary <dictionary>`, :ref:`Index <index>`
+Related : :ref:`Indexed Array <indexed-array>`, :ref:`Array <array>`, :ref:`Collection <collection>`, :ref:`Dictionary <dictionary>`, :ref:`Index <index>`, :ref:`ArrayAccess <arrayaccess>`

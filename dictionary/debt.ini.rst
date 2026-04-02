@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Technical Debt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:55:28 +0000","dateModified":"Tue, 24 Mar 2026 09:55:28 +0000","description":"Debt generally refers to technical debt, as whole","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Technical Debt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Technical Debt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 18:58:15 +0000","dateModified":"Mon, 30 Mar 2026 18:58:15 +0000","description":"Debt generally refers to technical debt, as whole","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Technical Debt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Technical Debt
@@ -27,7 +27,7 @@ Debt generally refers to technical debt, as whole.
 
 Technical debt represents the extra development work that arises when code is written in a quick-and-dirty way instead of following best practices. Previous work as left issues to be fixed later and that later is now.
 
-Technical debt is not build visibly on the spot, but is usually assessed later, when the need for a previous chore becomes a reality. It may be opposed to ``YAGNI`` : you are not going to need it.
+Technical debt is not build visibly on the spot, but is usually assessed later, when the need for a previous chore becomes a reality. It may be opposed to ``YAGNI``: you are not going to need it.
 
 There are many types of debts: code, maintenance, documentation, readable, visual, etc. 
 
@@ -37,4 +37,4 @@ By extension, anything that currently slows down development is considered a deb
 
 See also https://www.zend.com/blog/php-maintenance-trends, https://medium.com/@kimashleyrocks/taming-technical-debt-a-practical-guide-to-managing-deprecations-in-php-and-laravel-1b0aa991574b
 
-Related : , :ref:`Visual Debt <visual-debt>`, :ref:`Maintenance <maintenance>`, :ref:`Readable <readable>`, 
+Related : :ref:`You Are Not Going To Need It (YAGNI) <yagni>`, :ref:`Visual Debt <visual-debt>`, :ref:`Maintenance <maintenance>`, :ref:`Readable <readable>`, :ref:`Documentation <documentation>`

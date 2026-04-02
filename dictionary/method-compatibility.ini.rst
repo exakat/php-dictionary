@@ -61,4 +61,4 @@ If it's incompatible, PHP throws a fatal error.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop.lsp>`__
 
-Related : :ref:`Method <method>`, :ref:`throw <throw>`, 
+Related : :ref:`Method <method>`, :ref:`throw <throw>`, :ref:`Fatal Error <fatal-error>`

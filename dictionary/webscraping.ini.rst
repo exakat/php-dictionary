@@ -1,5 +1,6 @@
 .. _webscraping:
 .. _web_scraping:
+.. _scraping:
 .. meta::
 	:description:
 		Webscraping: Web scraping is the process of extracting data from websites.
@@ -17,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webscraping","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Web scraping is the process of extracting data from websites","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webscraping.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webscraping","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 08:15:21 +0000","dateModified":"Thu, 02 Apr 2026 08:15:21 +0000","description":"Web scraping is the process of extracting data from websites","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webscraping.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Webscraping
@@ -29,21 +30,21 @@ Web scraping is the process of extracting data from websites. It involves fetchi
    
    <?php
    
-   // fetching the web page
-   $html = file_get_contents('https://www.php.net/');
-   
-   // retrieving PHP current versions
-   preg_match_all('/downloads.php#v(\d+\.\d+\.\d+)\b/', $html, $r);
-   
-   print_r(array_unique($r[1]));
+       // fetching the web page
+       $html = file_get_contents('https://www.php.net/');
+       
+       // retrieving PHP current versions
+       preg_match_all('/downloads.php#v(\d+\.\d+\.\d+)\b/', $html, $r);
+       
+       print_r(array_unique($r[1]));
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Web_scraping>`__
 
-See also `Web Scraping in PHP - The Complete Guide <https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide>`_
+See also https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide
 
-Related : :ref:`Client URL (CURL) <curl>`
+Related : :ref:`Client URL (CURL) <curl>`, 
 
 Related packages : `symfony/panther <https://packagist.org/packages/symfony/panther>`_, `roach-php/core <https://packagist.org/packages/roach-php/core>`_, `jaeger/querylist <https://packagist.org/packages/jaeger/querylist>`_

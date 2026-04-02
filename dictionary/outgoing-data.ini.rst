@@ -40,4 +40,4 @@ The encoding of the incoming data are controlled with the ``default_charset`` di
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
 
-Related : :ref:`Incoming Data <incoming-data>`, 
+Related : :ref:`Incoming Data <incoming-data>`, :ref:`default_charset <default_charset>`

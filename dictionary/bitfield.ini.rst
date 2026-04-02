@@ -1,28 +1,28 @@
 .. _bitfield:
 .. meta::
 	:description:
-		Bitfield: A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer (or sequence of bits), where each bit or group of bits represents a distinct value or state.
+		Bitfield: A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Bitfield
-	:twitter:description: Bitfield: A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer (or sequence of bits), where each bit or group of bits represents a distinct value or state
+	:twitter:description: Bitfield: A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Bitfield
 	:og:type: article
-	:og:description: A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer (or sequence of bits), where each bit or group of bits represents a distinct value or state
+	:og:description: A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/bitfield.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bitfield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer (or sequence of bits), where each bit or group of bits represents a distinct value or state","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bitfield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bitfield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:43:02 +0000","dateModified":"Mon, 30 Mar 2026 08:43:02 +0000","description":"A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bitfield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Bitfield
 --------
 
-A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer (or sequence of bits), where each bit or group of bits represents a distinct value or state.
+A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state.
 
 In PHP, bitfields are stored as integers.
 
@@ -30,7 +30,7 @@ In PHP, bitfields are stored as integers.
    
    <?php
    
-   $bitfield = 0b111; // 7
+       $bitfield = 0b111; // 7
    
    ?>
 

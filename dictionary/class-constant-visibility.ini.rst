@@ -16,41 +16,43 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Constants Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Class constant may have a visibility option","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Constants Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Constants Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 04:33:08 +0000","dateModified":"Wed, 01 Apr 2026 04:33:08 +0000","description":"Class constant may have a visibility option","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Constants Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Constants Visibility
 --------------------------
 
-Class constant may have a visibility option. This limits their accessibility to the current class, its class hierarchy or any other class. Visibilities for class constants are : private, protected and public.
+Class constant may have a visibility option. This limits their accessibility to the current class, its class hierarchy or any other class. Visibilities for class constants are: private, protected and public.
 
 .. code-block:: php
    
    <?php
    
    class x {
-   	// This class can only be used in x
+       // This class can only be used in x
        private const C1 = 1;
    
-   	// This class can only be used in x and y
+       // This class can only be used in x and y
        protected const C2 = 1;
    
-   	// This class can be used in x, y and z
+       // This class can be used in x, y and z
        private const C3 = 1;
    }
    
    class y extends x {
-   	// doSomething()
+       // doSomething()
    }
    
    class z {
-   	// doSomething()
+       // doSomething()
    }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-constants>`__
+
+See also https://tomasvotruba.com/blog/how-to-add-visbility-to-338-class-constants-in-25-seconds
 
 Related : :ref:`Visibility <visibility>`
 

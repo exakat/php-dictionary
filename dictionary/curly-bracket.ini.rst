@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Curly Brackets","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Curly brackets have different usage in PHP:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Curly Brackets.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Curly Brackets","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 18:52:54 +0000","dateModified":"Mon, 30 Mar 2026 18:52:54 +0000","description":"Curly brackets have different usage in PHP:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Curly Brackets.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Curly Brackets
@@ -35,17 +35,17 @@ They are also called curly braces.
    
    <?php
    
-   for($a = 1; $a < 10; ++$i) {
-   	// block
-   	
-   	// delimit a variable to avoid confusing it with $vars
-   	echo "{$var}s";
-   }
+       for($a = 1; $a < 10; ++$i) {
+           // block
+           
+           // delimit a variable to avoid confusing it with $vars
+           echo "{$var}s";
+       }
    
-   // old syntax: it used to be the second character in the string
-   // This is a removed feature in PHP 8.0+
-   // modern syntax : use angular brackets
-   echo $string{1};
+       // old syntax: it used to be the second character in the string
+       // This is a removed feature in PHP 8.0+
+       // modern syntax : use angular brackets
+       echo $string{1};
    
    ?>
 

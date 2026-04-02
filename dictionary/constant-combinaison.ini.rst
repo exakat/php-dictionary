@@ -51,4 +51,4 @@ Constant combinaison is used with such functions as ``error_reporting()``, ``php
    ?>
 
 
-Related : , :ref:`Sort <sort>`, :ref:`Bitfield <bitfield>`
+Related : :ref:`Error Reporting <error_reporting>`, :ref:`Sort <sort>`, :ref:`Bitfield <bitfield>`

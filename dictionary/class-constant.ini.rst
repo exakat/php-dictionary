@@ -20,7 +20,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Static constants are constants that are defined inside a class, interface, trait (since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:17:52 +0000","dateModified":"Fri, 27 Mar 2026 15:17:52 +0000","description":"Static constants are constants that are defined inside a class, interface, trait (since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Static Constant
@@ -50,4 +50,6 @@ Static constant syntax is the same than for enumeration cases.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-Related : :ref:`Visibility <visibility>`, :ref:`Final Keyword <final>`, :ref:`Constants In Trait <constant-in-trait>`, :ref:`Constants <constant>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`Special Constant <special-constant>`
+See also https://pangea.ai/resources/everything-you-should-know-about-php-const-in-class, https://www.codewithharry.com/tutorial/php-class-constants
+
+Related : :ref:`Visibility <visibility>`, :ref:`Final Keyword <final>`, :ref:`Constants In Trait <constant-in-trait>`, :ref:`Constants <constant>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`Special Constant <special-constant>`, :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`define() <define>`, :ref:`Literal <literal>`, :ref:`New In Initializers <new-in-initializer>`

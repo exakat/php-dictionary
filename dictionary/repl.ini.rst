@@ -1,28 +1,28 @@
 .. _repl:
 .. meta::
 	:description:
-		Read Eval Print Loop (REPL): PHP's REPL, Read-Eval-Print Loop, mode is an interactive shell that allows to execute PHP code line by line and see immediate results.
+		Read Eval Print Loop (REPL): PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Read Eval Print Loop (REPL)
-	:twitter:description: Read Eval Print Loop (REPL): PHP's REPL, Read-Eval-Print Loop, mode is an interactive shell that allows to execute PHP code line by line and see immediate results
+	:twitter:description: Read Eval Print Loop (REPL): PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Read Eval Print Loop (REPL)
 	:og:type: article
-	:og:description: PHP's REPL, Read-Eval-Print Loop, mode is an interactive shell that allows to execute PHP code line by line and see immediate results
+	:og:description: PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/repl.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Read Eval Print Loop (REPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP's REPL, Read-Eval-Print Loop, mode is an interactive shell that allows to execute PHP code line by line and see immediate results","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Read Eval Print Loop (REPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Read Eval Print Loop (REPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 08:39:38 +0000","dateModified":"Wed, 01 Apr 2026 08:39:38 +0000","description":"PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Read Eval Print Loop (REPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Read Eval Print Loop (REPL)
 ---------------------------
 
-PHP's REPL, Read-Eval-Print Loop, mode is an interactive shell that allows to execute PHP code line by line and see immediate results. It's useful for testing code snippets, debugging, and experimenting with PHP functions without creating separate files.
+PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results. It's useful for testing code snippets, debugging, and experimenting with PHP functions without creating separate files.
 
 This mode is also called the interactive mode. It is started, on command line, by calling PHP with the ``-a`` option: ``>php -a``. The mode is ended by calling ``quit``.
 
@@ -39,8 +39,8 @@ This mode is also called the interactive mode. It is started, on command line, b
 
 `Documentation <https://www.php.net/manual/en/features.commandline.interactive.php>`__
 
-See also https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195, https://github.com/borisrepl/boris
+See also https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195, https://github.com/borisrepl/boris, https://www.sitepoint.com/say-hello-to-boris-a-better-repl-for-php/
 
 Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Readline <readline>`
 
-Related packages : `psy/psysh <https://packagist.org/packages/psy/psysh>`_
+Related packages : `psy/psysh <https://packagist.org/packages/psy/psysh>`_, `d11wtq/boris <https://packagist.org/packages/d11wtq/boris>`_

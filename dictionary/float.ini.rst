@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Floating Point Numbers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Floating point numbers (also known as \\floats\\, \\doubles\\, or \\real numbers\\) can be specified using a decimal dot and a mantis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Floating Point Numbers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Floating Point Numbers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Mar 2026 08:27:51 +0000","dateModified":"Sat, 28 Mar 2026 08:27:51 +0000","description":"Floating point numbers (also known as \\floats\\, \\doubles\\, or \\real numbers\\) can be specified using a decimal dot and a mantis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Floating Point Numbers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Floating Point Numbers
@@ -44,4 +44,4 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 See also https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc, https://0.30000000000000004.com/, https://www.geeksforgeeks.org/comparing-float-value-in-php/
 
-Related : :ref:`Real Numbers <real>`, :ref:`Addition <addition>`, :ref:`Multiplication <multiplication>`, :ref:`Not A Number (NAN) <nan>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`
+Related : :ref:`Real Numbers <real>`, :ref:`Addition <addition>`, :ref:`Multiplication <multiplication>`, :ref:`Not A Number (NAN) <nan>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`abs() <abs>`, :ref:`PHP Natives <native-type>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`precision <precision>`

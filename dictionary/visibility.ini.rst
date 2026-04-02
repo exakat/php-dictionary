@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:18:28 +0000","dateModified":"Tue, 24 Mar 2026 10:18:28 +0000","description":"Properties, methods and classes may have a visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 04:21:29 +0000","dateModified":"Wed, 01 Apr 2026 04:21:29 +0000","description":"Properties, methods and classes may have a visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Visibility
@@ -55,4 +55,4 @@ Visibility may be by-passed with class-invasion, where an object of one class ma
 
 See also `PHP OOP Visibility <https://tutorials.supunkavinda.blog/php/oop-visibility>`_, `PHP P51: Visibility Modifiers <https://blog.devgenius.io/php-p51-visibility-modifiers-b277591e7c0b>`_, `PHP Tricks: Access control bypass <https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass>`_
 
-Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Static Constant <class-constant>`, :ref:`Class Constants Visibility <class-constant-visibility>`, :ref:`Class Invasion <class-invasion>`, :ref:`Object <object>`, :ref:`Private Visibility <private>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`, :ref:`Var <var>`
+Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Static Constant <class-constant>`, :ref:`Class Constants Visibility <class-constant-visibility>`, :ref:`Class Invasion <class-invasion>`, :ref:`Object <object>`, :ref:`Private Visibility <private>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`, :ref:`Var <var>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`Constructor <constructor>`, :ref:`Readable <readable>`, :ref:`Writable <writable>`

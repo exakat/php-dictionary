@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Alternative Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:52 +0000","dateModified":"Mon, 16 Mar 2026 14:40:52 +0000","description":"PHP offers an alternative syntax for some of its control structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Alternative Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Alternative Syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Mar 2026 08:33:06 +0000","dateModified":"Sat, 28 Mar 2026 08:33:06 +0000","description":"PHP offers an alternative syntax for some of its control structures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Alternative Syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Alternative Syntax
 ------------------
 
-PHP offers an alternative syntax for some of its control structures; namely, ``if``, ``while``, ``for``, ``foreach``, and ``switch``. In each case, the basic form of the alternate syntax is to change the opening brace to a colon (:) and the closing brace to ``endif;``, ``endwhile;``, ``endfor;``, ``endforeach;``, or ``endswitch;``, respectively.
+PHP offers an alternative syntax for some of its control structures; namely, ``if``, ``while``, ``for``, ``foreach``, and ``switch``. In each case, the basic form of the alternate syntax is to change the opening brace to a colon ``:`` and the closing brace to ``endif;``, ``endwhile;``, ``endfor;``, ``endforeach;``, or ``endswitch;``, respectively.
 
 .. code-block:: php
    

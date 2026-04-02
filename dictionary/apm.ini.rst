@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Application Performance Management (APM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:32:49 +0000","dateModified":"Tue, 24 Mar 2026 09:32:49 +0000","description":"APM stands for Application Performance Management","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Performance Management (APM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Performance Management (APM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:28:30 +0000","dateModified":"Wed, 01 Apr 2026 09:28:30 +0000","description":"APM stands for Application Performance Management","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Performance Management (APM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Application Performance Management (APM)
@@ -28,6 +28,6 @@ It helps finding bottlenecks in the code.
 
 `Documentation <https://en.wikipedia.org/wiki/Application_performance_management>`__
 
-See also https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/, https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers, https://scoutapm.com/docs/php/configuration, https://scoutapm.com/blog/php-monitoring-tool-roundup
+See also https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/, https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers
 
 Related packages : `datadog/dd-trace <https://packagist.org/packages/datadog/dd-trace>`_, `ekino/newrelic-bundle <https://packagist.org/packages/ekino/newrelic-bundle>`_

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Preappend File Directive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:53 +0000","dateModified":"Mon, 16 Mar 2026 14:40:53 +0000","description":"The ``auto_prepend_file`` PHP directive adds an ``require`` call before the main file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Preappend File Directive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Preappend File Directive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 04:51:35 +0000","dateModified":"Wed, 01 Apr 2026 04:51:35 +0000","description":"The ``auto_prepend_file`` PHP directive adds an ``require`` call before the main file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Preappend File Directive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Preappend File Directive
@@ -28,6 +28,6 @@ Only one file is prepended: if several files needs to be, they should be include
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.auto-prepend-file>`__
 
-See also https://medium.com/serveravatar/how-to-use-auto-prepend-file-in-php-effectively-ee3917b668f6, https://kitemetric.com/blogs/mastering-php-s-auto-prepend-file-a-comprehensive-guide6
+See also https://medium.com/serveravatar/how-to-use-auto-prepend-file-in-php-effectively-ee3917b668f6, https://kitemetric.com/blogs/mastering-php-s-auto-prepend-file-a-comprehensive-guide
 
 Related : :ref:`Disable Functions <disable-functions>`, :ref:`Disable Classes <disable-classes>`

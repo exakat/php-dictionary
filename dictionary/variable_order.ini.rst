@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"variable_order","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The ``variable_order`` directive sets the order in which the values are assigned to the ``$_REQUEST`` variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/variable_order.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"variable_order","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 17:10:33 +0000","dateModified":"Fri, 27 Mar 2026 17:10:33 +0000","description":"The ``variable_order`` directive sets the order in which the values are assigned to the ``$_REQUEST`` variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/variable_order.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 variable_order
@@ -24,7 +24,7 @@ variable_order
 
 The ``variable_order`` directive sets the order in which the values are assigned to the ``$_REQUEST`` variable.
 
-The default is ``EGPCS`` : Environment, GET, POST, COOKIE and SESSION. The values are overwritten by the next, so if GET and POST have both an ``$x`` variable, the default configuration will only keep the one from POST, as it is later in the configuration. 
+The default value for this directive is ``EGPCS`` : Environment, GET, POST, COOKIE and SESSION. The values are overwritten by the next, so if GET and POST have both an ``$x`` variable, the default configuration only keeps the one from POST, as it is later in the configuration. 
 
 The default configuration ensures that safer values, such as the session's value, are not overwritten by less safe values from GET or POST, for example.
 
@@ -32,14 +32,16 @@ The default configuration ensures that safer values, such as the session's value
    
    <?php
    
-   // variable_order = EGPCS
-   // https://www.example.com/index.php?x=1
-   // POST x = 2;
-   $_REQUEST['x'] === '2';
+       // variable_order = EGPCS
+       // https://www.example.com/index.php?x=1
+       // POST x = 2;
+       $_REQUEST['x'] === '2';
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.variables-order>`__
+
+See also https://phppot.com/php/php-globals-with-egpcs-information/
 
 Related : :ref:`$_REQUEST <$_request>`

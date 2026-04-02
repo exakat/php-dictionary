@@ -1,28 +1,28 @@
 .. _registry:
 .. meta::
 	:description:
-		Registry: A registry may be the following things : .
+		Registry: A registry may be the following things: .
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Registry
-	:twitter:description: Registry: A registry may be the following things : 
+	:twitter:description: Registry: A registry may be the following things: 
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Registry
 	:og:type: article
-	:og:description: A registry may be the following things : 
+	:og:description: A registry may be the following things: 
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/registry.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Registry","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:02 +0000","dateModified":"Mon, 16 Mar 2026 14:41:02 +0000","description":"A registry may be the following things : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Registry.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Registry","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:26:21 +0000","dateModified":"Mon, 30 Mar 2026 08:26:21 +0000","description":"A registry may be the following things: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Registry.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Registry
 --------
 
-A registry may be the following things : 
+A registry may be the following things: 
 
 + a design pattern
 + a central object, which gives access to common objects, such as view, database connection, cache, configuration, etc.

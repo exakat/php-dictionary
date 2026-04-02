@@ -50,6 +50,6 @@ Docblock improve readability, enables IDE features and automate reference docume
 
 See also https://docs.phpdoc.org/guide/references/phpdoc/index.html#phpdoc-reference
 
-Related : :ref:`Self-documenting <self-documenting>`, , :ref:`Readability <readability>`
+Related : :ref:`Self-documenting <self-documenting>`, :ref:`Documentation <documentation>`, :ref:`Readability <readability>`
 
 Related packages : `phpdocumentor/phpdocumentor <https://packagist.org/packages/phpdocumentor/phpdocumentor>`_, `php-di/phpdoc-reader <https://packagist.org/packages/php-di/phpdoc-reader>`_, `phpowermove/docblock <https://packagist.org/packages/phpowermove/docblock>`_

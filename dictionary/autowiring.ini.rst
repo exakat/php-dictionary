@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Autowiring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Autowiring is the ability of the framework to inject dependencies, based on the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Autowiring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Autowiring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 04:56:02 +0000","dateModified":"Wed, 01 Apr 2026 04:56:02 +0000","description":"Autowiring is the ability of the framework to inject dependencies, based on the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Autowiring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Autowiring
@@ -27,24 +27,27 @@ Autowiring is the ability of the framework to inject dependencies, based on the 
 
 Autowiring is based on types. 
 
-Several PHP frameworks offer autowiring: Laravel, Netter, Slim, Symfony...
+Several PHP frameworks offer autowiring: Laravel, Netter, Slim, Symfony... 
 
 .. code-block:: php
    
    <?php
    
    class Renderer {
-   	private View $view;
+       private View $view;
    
-   	function __construct(View $view) {
-   		$this->view = $view;
-   	}
+       function __construct(View $view) {
+           $this->view = $view;
+       }
    }
+   
    ?>
 
 
 `Documentation <https://symfony.com/doc/current/service_container/autowiring.html>`__
 
-See also https://tutorials.supunkavinda.blog/php/oop-autoloading, https://solidlystated.com/scripting/what-is-autoloading-in-php/, https://symfony.com/doc/current/service_container/autowiring.html
+See also https://php-di.org/doc/autowiring.html, https://symfony.com/doc/current/service_container/autowiring.html
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`Type System <type>`
+
+Related packages : `nette/di <https://packagist.org/packages/nette/di>`_, `php-di/php-di <https://packagist.org/packages/php-di/php-di>`_

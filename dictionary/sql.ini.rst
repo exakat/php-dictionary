@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 12:18:55 +0000","dateModified":"Mon, 30 Mar 2026 12:18:55 +0000","description":"Simple Query Language is a database query language, use to access and update data in a a relational database management system (RDBMS)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Simple Query Language (SQL)
@@ -41,4 +41,4 @@ PHP supports several RDBMS natively, such as : Mysql, Oracle, IBM db2, DBA, ODBC
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Active Record <active-record>`, :ref:`Prepared Query <prepared-query>`, :ref:`Query <query>`, :ref:`Sqlite3 <sqlite3>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Active Record <active-record>`, :ref:`Prepared Query <prepared-query>`, :ref:`Query <query>`, :ref:`Sqlite3 <sqlite3>`, :ref:`SQL Database <sql-database>`

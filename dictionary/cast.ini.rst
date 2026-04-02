@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cast Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Cast operators change the type of the variable to the desired type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cast Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cast Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Mar 2026 08:32:42 +0000","dateModified":"Sat, 28 Mar 2026 08:32:42 +0000","description":"Cast operators change the type of the variable to the desired type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cast Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cast Operator
@@ -52,4 +52,4 @@ The available casts are:
 
 See also https://tutorials.supunkavinda.blog/php/type-casting
 
-Related : :ref:`__toString() Method <-__tostring>`, :ref:`Type Juggling <type-juggling>`, :ref:`ArrayObject <arrayobject>`, :ref:`Convert <convert>`, :ref:`Non-numeric <non-numeric>`, :ref:`Sign <sign>`
+Related : :ref:`__toString() Method <-__tostring>`, :ref:`Type Juggling <type-juggling>`, :ref:`ArrayObject <arrayobject>`, :ref:`Convert <convert>`, :ref:`Non-numeric <non-numeric>`, :ref:`Sign <sign>`, :ref:`array_keys() <array_keys>`, :ref:`Boolean <boolean>`, :ref:`Golf <golf>`, :ref:`Number <number>`

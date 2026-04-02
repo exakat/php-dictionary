@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dangling Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"In a foreach loop, a variable is used for looping through the array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dangling Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dangling Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 18:53:47 +0000","dateModified":"Mon, 30 Mar 2026 18:53:47 +0000","description":"In a foreach loop, a variable is used for looping through the array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dangling Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dangling Reference
@@ -32,19 +32,19 @@ It is recommended to unset the referenced variable, after the loop. It destroys 
    
    <?php
    
-   $array = ['a', 'b', 'c'];
-   
-   foreach($array as &$x) { 
-   	// doSomething() or even do nothing! 
-   }
-   
-   // second loop, no reference
-   foreach($array as $x) { 
-   	// doSomething() or even do nothing! 
-   }
-   
-   var_dump($array);
-   $array = ['a', 'b', 'b'];
+       $array = ['a', 'b', 'c'];
+       
+       foreach($array as &$x) { 
+           // doSomething() or even do nothing! 
+       }
+       
+       // second loop, no reference
+       foreach($array as $x) { 
+           // doSomething() or even do nothing! 
+       }
+       
+       var_dump($array);
+       $array = ['a', 'b', 'b'];
    
    ?>
 

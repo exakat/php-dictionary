@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","name":"Callbacks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:50:43 +0000","dateModified":"Mon, 16 Mar 2026 14:50:43 +0000","description":"Callbacks are functions or methods which are used as parameters for other functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Callbacks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function goo().html","name":"Callbacks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:48:24 +0000","dateModified":"Mon, 30 Mar 2026 08:48:24 +0000","description":"Callbacks are functions or methods which are used as parameters for other functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Callbacks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Callbacks
@@ -24,18 +24,18 @@ Callbacks
 
 Callbacks are functions or methods which are used as parameters for other functions. Such functions are used to customize the calling function. For example, array_map(), which applies a callback to every element of an array, or usort(), which sorts an array using a function.
 
-Callback is akin to a functioncall : it is actually hidden inside the caller function. 
+Callback is akin to a functioncall: it is actually hidden inside the caller function. 
 
-Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string (such as ``strtolower``) and array (such as ``[X::class, 'methodName']``, or ``[$object, 'methodName']`` ) syntax. In fact, anything that is_callable() may be used.
+Callback may be build with on closures, arrow-functions, native PHP functions, methods and static methods. They also use string, such as ``strtolower``, and array, such as ``[X::class, 'methodName']``, or ``[$object, 'methodName']``, syntax. In fact, anything that is_callable() may be used.
 
 .. code-block:: php
    
    <?php
    
-   $array = ['Damien', 'Dan', 'Daniel', 'Davey', 'David', 'Dennis', 'Derick', 'Dmitry', 'Dustin',];
-   $array = array_map('strtolower', $array);
+       $array = ['Damien', 'Dan', 'Daniel', 'Davey', 'David', 'Dennis', 'Derick', 'Dmitry', 'Dustin',];
+       $array = array_map('strtolower', $array);
    
-   //['damien', 'dan', 'daniel', 'davey', 'david', 'dennis', 'derick', 'dmitry', 'dustin',];
+       //['damien', 'dan', 'daniel', 'davey', 'david', 'dennis', 'derick', 'dmitry', 'dustin',];
    
    ?>
 

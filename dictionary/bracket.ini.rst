@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bracket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 15:21:57 +0000","dateModified":"Tue, 17 Mar 2026 15:21:57 +0000","description":"Bracket is a generic class of characters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bracket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bracket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:46:09 +0000","dateModified":"Mon, 30 Mar 2026 08:46:09 +0000","description":"Bracket is a generic class of characters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bracket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Bracket
@@ -26,18 +26,24 @@ Bracket is a generic class of characters.
 
 They include 
 
-+ Parenthesis, ``()``, or round 
++ Parenthesis, ``()``, or round brackets
 + Curly ``{}``, or accolades
-+ Square ``[]``
++ Square ``[]``, or brackets
+
+Brackets are a element of the PHP syntax.
 
 
 .. code-block:: php
    
    <?php
    
-   $array[1] = 2;
-   
-   
+       // curly brackes for block
+       {
+           // square brackets for array syntax
+           $array[1] = 2;
+       }
    
    ?>
 
+
+Related : :ref:`Parenthesis <parenthesis>`, :ref:`Curly Brackets <curly-braces>`

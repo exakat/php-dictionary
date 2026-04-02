@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DateTime","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``DateTime`` and ``DateTimeImmutable`` is a class for the representation of date and time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DateTime.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DateTime","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 18:54:58 +0000","dateModified":"Mon, 30 Mar 2026 18:54:58 +0000","description":"``DateTime`` and ``DateTimeImmutable`` is a class for the representation of date and time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DateTime.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 DateTime
@@ -33,13 +33,17 @@ Both classes comes with the ``DateTimeInterface``, for typing purposes.
    
    <?php
    
-   $date = new DateTimeImmutable("2024-02-24 11:45 America/Montreal");
-   
-   $mutable = DateTime::createFromInterface($date);
-   
-   $date = new DateTime("2014-06-20 11:45 Europe/Amsterdam");
+       $date = new DateTimeImmutable("2024-02-24 11:45 America/Montreal");
+       
+       $mutable = DateTime::createFromInterface($date);
+       
+       $date = new DateTime("2014-06-20 11:45 Europe/Amsterdam");
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.datetime.php>`__
+
+See also https://www.phparch.com/2022/10/the-php-datetime-class/
+
+Related : :ref:`DateTime <datetimeimmutable>`

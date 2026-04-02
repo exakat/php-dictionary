@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monolith","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 15:18:45 +0000","dateModified":"Tue, 17 Mar 2026 15:18:45 +0000","description":"A monolith refers to an application that is built and deployed as one single, tightly integrated codebase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monolith.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monolith","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 06:32:58 +0000","dateModified":"Tue, 31 Mar 2026 06:32:58 +0000","description":"A monolith refers to an application that is built and deployed as one single, tightly integrated codebase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monolith.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Monolith
@@ -26,7 +26,7 @@ A monolith refers to an application that is built and deployed as one single, ti
 
 The monolith concept is not specific to PHP: it applies to other programming languages.
 
-In a monolithic application, all concerns live in one project (routing, controller, business logic, database, views, logging, authentication, etc.). Everything is deployed together, and a change in one part usually requires the deployment of all of the monolith.
+In a monolithic application, all concerns live in one project, may it be routing, controller, business logic, database, views, logging, authentication, etc. Everything is deployed together, and a change in one part usually requires the deployment of all of the monolith.
 
 The opposite of a monolith is micro-services. 
 

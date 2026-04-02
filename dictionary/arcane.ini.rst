@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arcane","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Arcane refers to weird features, that are almost unknown or forgotten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arcane.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arcane","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Apr 2026 09:15:29 +0000","dateModified":"Wed, 01 Apr 2026 09:15:29 +0000","description":"Arcane refers to weird features, that are almost unknown or forgotten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arcane.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Arcane
@@ -25,18 +25,25 @@ Arcane
 Arcane refers to weird features, that are almost unknown or forgotten. They have been with the language since the early versions, and they are eventually removed.
 
 + It is possible to use ``++`` on a string containing variables. In that case, trailing letters are augmented by one. 
-+ strpos() used to accept an integer as second argument: it would convert it automatically to its ASCII equivalent.
++ ``strpos()`` used to accept an integer as second argument: it would convert it automatically to its ASCII equivalent
++ ``range()`` used to produce all the values between the interval boundaries, even when the boundaries where one string and one integer 
++ Logical operators works on strings, and then, produce strings.
 
 .. code-block:: php
    
    <?php
    
-   $a = 'b';
-   echo ++$a; // c
+       $a = 'b';
+       echo ++$a; // c
+       
+       // 98 is b
+       print strpos('abc', 99); // 1
+       // This was removed in PHP 8.0
    
-   // 98 is b
-   print strpos('abc', 99); // 1
-   // This was removed in PHP 8.0
+       var_dump(a & 'A' );    // 'A'
+       var_dump(a & 'B' );    // '@'
    
    ?>
 
+
+Related : :ref:`Deprecated <deprecated>`, :ref:`Deprecation <obsolete>`

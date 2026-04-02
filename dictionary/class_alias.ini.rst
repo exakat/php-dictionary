@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"class_alias()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The ``class_alias()`` function creates an alias for a class, interface, enum or trait","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_alias().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"class_alias()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 28 Mar 2026 08:44:19 +0000","dateModified":"Sat, 28 Mar 2026 08:44:19 +0000","description":"The ``class_alias()`` function creates an alias for a class, interface, enum or trait","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_alias().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 class_alias()
@@ -24,11 +24,13 @@ class_alias()
 
 The ``class_alias()`` function creates an alias for a class, interface, enum or trait. Then, the alias may be used in place of the original name anywhere in the application, including in ``use`` expressions. 
 
-In PHP 8.3, class_alias() supports the creation of aliases with native PHP classes. 
+In PHP 8.3, ``class_alias()`` supports the creation of aliases with native PHP classes. 
 
-class_alias() is also usable on interfaces, enumerations and traits. 
+``class_alias()`` is also usable on interfaces, enumerations and traits. 
 
 Once created, the objects are of the original class. The alias name doesn't stick to the objects, and it is not possible to know if the object was created as an alias or the original class. The alias may be used with types.
+
+There is no equivalent to ``class_alias()`` for functions, or constants. 
 
 .. code-block:: php
    
@@ -48,4 +50,4 @@ Once created, the objects are of the original class. The alias name doesn't stic
 
 See also https://www.schmengler-se.de/en/2016/09/php-using-class_alias-to-maintain-bc-while-move-rename-classes/
 
-Related : :ref:`Use <use>`
+Related : :ref:`Use <use>`, :ref:`Alias <alias>`
