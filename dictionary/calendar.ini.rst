@@ -1,28 +1,28 @@
 .. _calendar:
 .. meta::
 	:description:
-		Calendar: The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count (Not Julian calendar), Unixtimestamp, French Revolutionary, Jewish, and others.
+		Calendar: The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unixtimestamp, French Revolutionary, Jewish, and others.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Calendar
-	:twitter:description: Calendar: The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count (Not Julian calendar), Unixtimestamp, French Revolutionary, Jewish, and others
+	:twitter:description: Calendar: The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unixtimestamp, French Revolutionary, Jewish, and others
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Calendar
 	:og:type: article
-	:og:description: The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count (Not Julian calendar), Unixtimestamp, French Revolutionary, Jewish, and others
+	:og:description: The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unixtimestamp, French Revolutionary, Jewish, and others
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/calendar.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Calendar","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count (Not Julian calendar), Unixtimestamp, French Revolutionary, Jewish, and others","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Calendar.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Calendar","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:15:29 +0000","dateModified":"Thu, 09 Apr 2026 06:15:29 +0000","description":"The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unixtimestamp, French Revolutionary, Jewish, and others","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Calendar.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Calendar
 --------
 
-The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count (Not Julian calendar), Unixtimestamp, French Revolutionary, Jewish, and others.
+The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unixtimestamp, French Revolutionary, Jewish, and others.
 
 .. code-block:: php
    
@@ -39,3 +39,5 @@ The calendar extension provides functions to convert dates between different cal
 `Documentation <https://www.php.net/manual/en/book.calendar.php>`__
 
 See also https://codeshack.io/event-calendar-php/
+
+Related : :ref:`DateTime <datetime>`, :ref:`DateInterval <dateinterval>`

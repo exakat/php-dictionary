@@ -1,4 +1,4 @@
-.. _$_files:
+.. _$_FILES:
 .. meta::
 	:description:
 		$_FILES: In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype="multipart/form-data"`` attribute.
@@ -12,11 +12,11 @@
 	:og:title: $_FILES
 	:og:type: article
 	:og:description: In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype="multipart/form-data"`` attribute
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_files.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/$_FILES.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Zombie Code.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Zombie Code.html","name":"$_FILES","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=\"multipart\/form-data\"`` attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_FILES.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_FILES","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:59:12 +0000","dateModified":"Fri, 10 Apr 2026 16:59:12 +0000","description":"In PHP, the ``$_FILES`` variable is a special superglobal variable that is used to retrieve information about files uploaded to the server via HTML forms with the ``enctype=\"multipart\/form-data\"`` attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_FILES.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_FILES
@@ -47,6 +47,6 @@ When a file upload form is submitted, PHP populates the ``$_FILES`` variable wit
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
 
-See also `POST method uploads <https://www.php.net/manual/en/features.file-upload.post-method.php>`_
+See also https://www.php.net/manual/en/features.file-upload.post-method.php
 
-Related : :ref:`File Upload <upload>`, :ref:`$_GET <$_get>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`$_SERVER <$_server>`, :ref:`File Upload <file-upload>`, :ref:`Incoming Data <incoming-data>`
+Related : :ref:`File Upload <upload>`, :ref:`Incoming Data <incoming-data>`, :ref:`File Upload <file-upload>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`$_GET <$_get>`, :ref:`$_SERVER <$_server>`

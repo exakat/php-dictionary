@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Benchmarking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:53 +0000","dateModified":"Mon, 16 Mar 2026 14:40:53 +0000","description":"Benchmarking is a process of measuring the performance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Benchmarking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Benchmarking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:41:38 +0000","dateModified":"Thu, 09 Apr 2026 17:41:38 +0000","description":"Benchmarking is a process of measuring the performance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Benchmarking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Benchmarking
@@ -26,5 +26,7 @@ Benchmarking
 Benchmarking is a process of measuring the performance. In the computer world, it usually means the speed of execution of a piece of code.
 
 See also https://github.com/phpbench/phpbench, http://www.phpbenchmarks.com/, https://kinsta.com/blog/php-benchmarks/, https://mike42.me/blog/2019-07-benchmarking-php-code-with-phpbench/
+
+Related : :ref:`Performance <performance>`
 
 Related packages : `phpbench/phpbench <https://packagist.org/packages/phpbench/phpbench>`_, `devster/ubench <https://packagist.org/packages/devster/ubench>`_

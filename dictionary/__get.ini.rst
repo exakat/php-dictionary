@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__get() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``__get()`` is a magic method: it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__get() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:34:56 +0000","dateModified":"Fri, 10 Apr 2026 16:34:56 +0000","description":"``__get()`` is a magic method: it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __get() Method
@@ -32,19 +32,19 @@ The ``__get()`` method is usually paired with the ``__set()`` method.
    
    <?php
    
-   class x {
-   	private $values = ['a' => 1,
-   					   'b' => 2,
-   					   ];
+   class X {
+       private $values = ['a' => 1,
+                          'b' => 2,
+                          ];
    
-   	// Checks the dictionary, or return 0
-   	function __get($name) {
-   		if (isset($this->values[$name])) {
-   			return $this->values[$name];
-   		}
-   		
-   		return 0;
-   	}
+       // Checks the dictionary, or return 0
+       function __get($name) {
+           if (isset($this->values[$name])) {
+               return $this->values[$name];
+           }
+           
+           return 0;
+       }
    }
    
    ?>

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__sleep() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``__sleep()`` is a magic method: it is called an object is being serialized, so that the object may be cleaned","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__sleep() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__sleep() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:20:42 +0000","dateModified":"Thu, 09 Apr 2026 17:20:42 +0000","description":"``__sleep()`` is a magic method: it is called an object is being serialized, so that the object may be cleaned","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__sleep() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __sleep() Method
@@ -32,17 +32,17 @@ The ``__sleep()`` method is usually paired with the ``__wakeup()`` method.
    
    <?php
    
-   class x {
-   	private $file;
-   	private $path;
+   class X {
+       private $file;
+       private $path;
    
-   	function __sleep() {
-   		fclose($this->path);
-   	}
+       function __sleep() {
+           fclose($this->path);
+       }
    
-   	function __wakeup() {
-   		$this->path = fopen($this->path, 'r');
-   	}
+       function __wakeup() {
+           $this->path = fopen($this->path, 'r');
+       }
    }
    
    ?>

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Whitespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Whitespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Whitespace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Apr 2026 07:09:49 +0000","dateModified":"Sat, 11 Apr 2026 07:09:49 +0000","description":"Whitespace refers to spaces, tabulations, and newline characters: those characters are invisible on a white background, hence the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Whitespace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Whitespace
@@ -35,9 +35,9 @@ Whitespace is not a notion specific to PHP: other languages have them too. For e
    <?php
    
    $heredoc = <<<HEREDOC
-   	One tab shift
-   	Here
-   	HEREDOC;
+       One tab shift
+       Here
+       HEREDOC;
    
    $x = 1 . 0; // This is 10
    
@@ -48,4 +48,6 @@ Whitespace is not a notion specific to PHP: other languages have them too. For e
    ?>
 
 
-See also `php_strip_whitespace() <https://www.php.net/manual/en/function.php-strip-whitespace.php>`_, `Be careful of whitespace in .php files <https://avdi.codes/be-careful-of-whitespace-in-php-files/>`_
+See also https://www.php.net/manual/en/function.php-strip-whitespace.php, https://avdi.codes/be-careful-of-whitespace-in-php-files/
+
+Related : :ref:`Token <token>`

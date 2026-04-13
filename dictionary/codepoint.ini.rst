@@ -1,4 +1,4 @@
-.. _code:
+.. _codepoint:
 .. meta::
 	:description:
 		Codepoint: A code point is a numerical value that represents a specific character in an encoding system, such as Unicode.
@@ -12,11 +12,11 @@
 	:og:title: Codepoint
 	:og:type: article
 	:og:description: A code point is a numerical value that represents a specific character in an encoding system, such as Unicode
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/code.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/codepoint.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Codepoint","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A code point is a numerical value that represents a specific character in an encoding system, such as Unicode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Codepoint.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Codepoint","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:42:34 +0000","dateModified":"Fri, 10 Apr 2026 16:42:34 +0000","description":"A code point is a numerical value that represents a specific character in an encoding system, such as Unicode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Codepoint.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Codepoint

@@ -1,32 +1,32 @@
-.. _binary-not:
-.. _~:
 .. _tilde:
+.. _~:
 .. meta::
 	:description:
-		Binary Not Operator: The tilde ``~`` operator return the opposite value, bit by by.
+		~ Tilde: The tilde ``~`` is an operator and a wildcard.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Binary Not Operator
-	:twitter:description: Binary Not Operator: The tilde ``~`` operator return the opposite value, bit by by
+	:twitter:title: ~ Tilde
+	:twitter:description: ~ Tilde: The tilde ``~`` is an operator and a wildcard
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Binary Not Operator
+	:og:title: ~ Tilde
 	:og:type: article
-	:og:description: The tilde ``~`` operator return the opposite value, bit by by
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-not.ini.html
+	:og:description: The tilde ``~`` is an operator and a wildcard
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/tilde.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","name":"Binary Not Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The tilde ``~`` operator return the opposite value, bit by by","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Binary Not Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","name":"~ Tilde","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Apr 2026 18:20:50 +0000","dateModified":"Sun, 12 Apr 2026 18:20:50 +0000","description":"The tilde ``~`` is an operator and a wildcard","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/~ Tilde.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Binary Not Operator
--------------------
+~ Tilde
+-------
 
-The tilde ``~`` operator return the opposite value, bit by by. The value is first converted to an integer, then, negated. This operator returns an integer.
+The tilde ``~`` is an operator and a wildcard.
 
-``~`` is often confused with ``!``, as some usage quite overlap. 
++ ``~`` is the binary not operator
++ ``~`` is used in composer configuration to define a minimum version.
 
 
 .. code-block:: php
@@ -35,11 +35,10 @@ The tilde ``~`` operator return the opposite value, bit by by. The value is firs
    
    $a = 3;     // 3 
    $b = ~$a;   // -4
-   $c = !$a;   // false
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
-Related : :ref:`Not Operator <not>`
+Related : :ref:`Not Operator <not>`, :ref:`Binary Not Operator <binary-not>`

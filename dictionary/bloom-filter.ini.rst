@@ -16,14 +16,16 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bloom Filter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:53 +0000","dateModified":"Mon, 16 Mar 2026 14:40:53 +0000","description":"A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bloom Filter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bloom Filter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:44:07 +0000","dateModified":"Thu, 09 Apr 2026 17:44:07 +0000","description":"A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bloom Filter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Bloom Filter
 ------------
 
-A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set. It can return false positives (indicating an element might be in the set when it's not), but never false negatives (if it says the element is not in the set, it's definitely not).
+A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set. It can return false positives, indicating an element might be in the set when it's not, but never false negatives, if it says the element is not in the set, it's definitely not.
 
 See also https://www.dailycomputerscience.com/post/bloom-filter-in-php
+
+Related : :ref:`Algorithm <algorithm>`
 
 Related packages : `pleonasm/bloom-filter <https://packagist.org/packages/pleonasm/bloom-filter>`_

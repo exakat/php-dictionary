@@ -26,4 +26,4 @@ To anonymize is the process to replace a precise identifier with an unrelated ha
 
 Anonymisation removes anything that can trace back to the original user. It must also keep relationships with other data, which must also be anonymized. Some values cannot be anonymized, such as booleans.
 
-Related : 
+Related : :ref:`Faker <faker>`

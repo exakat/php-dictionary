@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","name":"Countable Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 09:11:02 +0000","dateModified":"Tue, 24 Mar 2026 09:11:02 +0000","description":"The ``Countable`` interface in PHP is a built-in interface that allows objects to be counted using the ``count()`` function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Countable Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","name":"Countable Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 05:56:53 +0000","dateModified":"Thu, 09 Apr 2026 05:56:53 +0000","description":"The ``Countable`` interface in PHP is a built-in interface that allows objects to be counted using the ``count()`` function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Countable Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Countable Interface
@@ -58,4 +58,4 @@ By implementing the ``Countable`` interface, a class defines custom logic for de
 
 See also https://pimylifeup.com/php-count/
 
-Related : :ref:`count() <count>`, :ref:`Interface <interface>`, 
+Related : :ref:`count() <count>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`

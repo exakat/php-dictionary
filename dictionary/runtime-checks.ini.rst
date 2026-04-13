@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Runtime Checks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Runtime Checks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Runtime Checks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Apr 2026 19:24:52 +0000","dateModified":"Mon, 06 Apr 2026 19:24:52 +0000","description":"Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Runtime Checks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Runtime Checks
@@ -28,15 +28,19 @@ Runtime checks refer to the process of verifying certain conditions or constrain
    
    <?php
    
-   // string $string is a static check : it can be checked before running
-   function foo(string $string, $argument) {
-   	// This is a runtime check : it needs to run
-   	if (is_string($argument)) {
-   		// 
-   	}
-   }
+       // string $string is a static check : it can be checked before running
+       function foo(string $string, $argument) {
+           // This is a runtime check : it needs to run
+           if (is_string($argument)) {
+               // 
+           }
+       }
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Runtime_verification>`__
+
+See also https://blog.jez.io/runtime-type-checking/
+
+Related : :ref:`Assertions <assertion>`

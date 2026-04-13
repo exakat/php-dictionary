@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","name":"Backtrace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:06:54 +0000","dateModified":"Fri, 20 Mar 2026 11:06:54 +0000","description":"A backtrace, in PHP and in other programming language, is a snapshot of the callstack at a specific point in the program's execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Backtrace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","name":"Backtrace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:39:34 +0000","dateModified":"Thu, 09 Apr 2026 17:39:34 +0000","description":"A backtrace, in PHP and in other programming language, is a snapshot of the callstack at a specific point in the program's execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Backtrace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Backtrace
@@ -27,20 +27,21 @@ A backtrace, in PHP and in other programming language, is a snapshot of the call
 .. code-block:: php
    
    <?php
-   function foo() {
-       goo();
-   }
    
-   function goo() {
-       debug_print_backtrace();
-   }
+       function foo() {
+           goo();
+       }
    
-   foo();
+       function goo() {
+           debug_print_backtrace();
+       }
    
-   /**
-   #0 /in/a4eQc(3): goo()
-   #1 /in/a4eQc(10): foo()
-   */
+       foo();
+   
+       /**
+       #0 /in/a4eQc(3): goo()
+       #1 /in/a4eQc(10): foo()
+       */
    
    ?>
 
@@ -48,5 +49,7 @@ A backtrace, in PHP and in other programming language, is a snapshot of the call
 `Documentation <https://www.php.net/manual/en/function.debug-backtrace.php>`__
 
 See also https://www.php.net/manual/en/function.debug-backtrace.php, https://www.php.net/manual/en/function.debug-print-backtrace.php
+
+Related : :ref:`Debugger <debugger>`
 
 Related packages : `spatie/backtrace <https://packagist.org/packages/spatie/backtrace>`_, `axy/backtrace <https://packagist.org/packages/axy/backtrace>`_

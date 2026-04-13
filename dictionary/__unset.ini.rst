@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__unset() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``__unset()`` is a magic method: it is called when a magic property is being removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__unset() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__unset() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:21:41 +0000","dateModified":"Thu, 09 Apr 2026 17:21:41 +0000","description":"``__unset()`` is a magic method: it is called when a magic property is being removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__unset() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __unset() Method
@@ -30,23 +30,23 @@ The ``__unset()`` method is usually paired with the ``__isset()`` and ``__set()`
    
    <?php
    
-   class x {
-   	private $values = ['a' => 1,
-   					   'b' => 2,
-   					   ];
-   
-   	function __unset($name) {
-   		unset($this->values[$name]);
-   	}
-   
-   	function __isset($name) {
-   		return isset($this->values[$name]);
-   	}
-   
-   	function __set($name, $value) {
-   		$this->values[$name] = $value;
-   	}
-   }
+       class X {
+           private $values = ['a' => 1,
+                              'b' => 2,
+                              ];
+       
+           function __unset($name) {
+               unset($this->values[$name]);
+           }
+       
+           function __isset($name) {
+               return isset($this->values[$name]);
+           }
+       
+           function __set($name, $value) {
+               $this->values[$name] = $value;
+           }
+       }
    
    ?>
 

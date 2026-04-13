@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Variable scope is the context in which the variable is available","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Apr 2026 07:12:06 +0000","dateModified":"Sat, 11 Apr 2026 07:12:06 +0000","description":"Variable scope is the context in which the variable is available","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Variable Scope
@@ -33,19 +33,19 @@ Local variables are only available in one method or function, not counting the l
    <?php
    
    function foo() {
-   	// $a is only available in foo
-   	$a = 1;
+       // $a is only available in foo
+       $a = 1;
    }
    
    function bar() {
-   	// $a is only available in bar, and is distinct from the one in foo()
-   	$a = 2;
+       // $a is only available in bar, and is distinct from the one in foo()
+       $a = 2;
    
-   	// $bar is only available in bar, the followring closure and the arrow function
-   	$b = 1;
-   	
-   	$c = function() use ($b) { return $b;};
-   	$d = function() use ($b) { return $b;};
+       // $bar is only available in bar, the followring closure and the arrow function
+       $b = 1;
+       
+       $c = function() use ($b) { return $b;};
+       $d = function() use ($b) { return $b;};
    }
    
    ?>
@@ -54,3 +54,5 @@ Local variables are only available in one method or function, not counting the l
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
 See also https://www.geeksforgeeks.org/php/what-are-the-different-scopes-of-variables-in-php/
+
+Related : :ref:`Variables <variable>`, :ref:`global Scope <global>`, :ref:`Visibility <visibility>`

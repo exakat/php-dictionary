@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_unique()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:52:39 +0000","dateModified":"Fri, 27 Mar 2026 15:52:39 +0000","description":"The ``array_unique()`` PHP native function removes duplicate values from an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_unique().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_unique()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:49:11 +0000","dateModified":"Thu, 09 Apr 2026 17:49:11 +0000","description":"The ``array_unique()`` PHP native function removes duplicate values from an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_unique().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_unique()
@@ -25,7 +25,7 @@ array_unique()
 The ``array_unique()`` PHP native function removes duplicate values from an array. It is important to note that it treats values as strings for comparison by default, unless a specific sort flag is provided.
 
 The second parameter, ``flags``, can be used to modify the comparison behavior:
-- ``SORT_STRING``: compare items as strings (default).
+- ``SORT_STRING``: compare items as strings, by default.
 - ``SORT_REGULAR``: compare items normally. This is equivalent to ``===`` comparison, and works with enumerations.
 - ``SORT_NUMERIC``: compare items numerically.
 - ``SORT_LOCALE_STRING``: compare items as strings, based on the current locale.
@@ -34,18 +34,18 @@ The second parameter, ``flags``, can be used to modify the comparison behavior:
    
    <?php
    
-   $array = [1, '1', 2, 2];
-   
-   // Default behavior (SORT_STRING): returns [1, 2]
-   var_dump(array_unique($array)); 
-   
-   // SORT_REGULAR: treats 1 and '1' as different if they are of different types
-   // Note: with SORT_REGULAR, it still might return only one value if types are loosely equal
-   var_dump(array_unique($array, SORT_REGULAR));
-   
-   // Preserve keys: array_unique preserves keys by default
-   $arrayWithKeys = ['a' => 'red', 'b' => 'green', 'c' => 'red'];
-   var_dump(array_unique($arrayWithKeys)); // returns ['a' => 'red', 'b' => 'green']
+       $array = [1, '1', 2, 2];
+       
+       // Default behavior (SORT_STRING): returns [1, 2]
+       var_dump(array_unique($array)); 
+       
+       // SORT_REGULAR: treats 1 and '1' as different if they are of different types
+       // Note: with SORT_REGULAR, it still might return only one value if types are loosely equal
+       var_dump(array_unique($array, SORT_REGULAR));
+       
+       // Preserve keys: array_unique preserves keys by default
+       $arrayWithKeys = ['a' => 'red', 'b' => 'green', 'c' => 'red'];
+       var_dump(array_unique($arrayWithKeys)); // returns ['a' => 'red', 'b' => 'green']
    
    ?>
 

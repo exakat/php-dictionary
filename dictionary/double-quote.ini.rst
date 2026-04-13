@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Double Quotes Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Double quoted strings are strings, similar to the single quoted strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Double Quotes Strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Double Quotes Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 09:36:51 +0000","dateModified":"Wed, 08 Apr 2026 09:36:51 +0000","description":"Double quoted strings are strings, similar to the single quoted strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Double Quotes Strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Double Quotes Strings
@@ -34,18 +34,20 @@ This is an extended version of the single-quoted strings. They are similar to th
    
    <?php
    
-   // single quoted string : all literal values
-   $name = 'Elephpant loves $signs.'; 
-   
-   // single quoted string : all literal values
-   $signs = 'PHP';
-   $name = 'Elephpant loves $signs.';  // Elephpant loves PHP
-   
-   echo "\u{01f418}"; // escape sequence of an elephant
+       // single quoted string : all literal values
+       $name = 'Elephpant loves $signs.'; 
+       
+       // single quoted string : all literal values
+       $signs = 'PHP';
+       $name = 'Elephpant loves $signs.';  // Elephpant loves PHP
+       
+       echo "\u{01f418}"; // escape sequence of an elephant
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`__
+
+See also https://dev.to/parzival_computer/single-quotes-and-double-quotes-string-interpolation-and-performance-32p2
 
 Related : :ref:`Single Quotes Strings <single-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`, :ref:`Heredocs <heredoc>`, :ref:`Escape Sequences <escape-sequence>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArrayObject","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:16:36 +0000","dateModified":"Fri, 20 Mar 2026 11:16:36 +0000","description":"``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArrayObject.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArrayObject","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 08:08:27 +0000","dateModified":"Wed, 08 Apr 2026 08:08:27 +0000","description":"``ArrayObject`` is a native class that provides the functionality of an array with the added features of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArrayObject.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ArrayObject
@@ -36,14 +36,14 @@ Converting an ``ArrayObject`` to an array is done with a cast ``(array)`` or a c
    
    <?php
    
-   class myObject extends ArrayObject{ }
-   
-   $variable = new ArrObj([0, 1]);
-   
-   $variable[] = 2;
-   foreach($variable as $k => $v) {
-   	echo $k . ' => ' . $v . PHP_EOL; 
-   }
+       class myObject extends ArrayObject{ }
+       
+       $variable = new ArrObj([0, 1]);
+       
+       $variable[] = 2;
+       foreach($variable as $k => $v) {
+           echo $k . ' => ' . $v . PHP_EOL; 
+       }
    
    ?>
 

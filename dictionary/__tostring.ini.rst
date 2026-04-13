@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__toString() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:47:51 +0000","dateModified":"Fri, 27 Mar 2026 15:47:51 +0000","description":"``__tostring()`` is a magic method: it is called when the object has to be converted into a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__toString() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__toString() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:21:03 +0000","dateModified":"Thu, 09 Apr 2026 17:21:03 +0000","description":"``__tostring()`` is a magic method: it is called when the object has to be converted into a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__toString() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __toString() Method
@@ -38,24 +38,24 @@ There is no magic method to convert an object to another type.
    
    <?php
    
-   class x {
-   	private $r = 'S';
-   	private $p = 1;
-   	private $q = 2;
+   class X {
+       private $r = 'S';
+       private $p = 1;
+       private $q = 2;
    
-   	// Checks the dictionary, or return 0
-   	function __toString() : string {
-   	
-   		// $this->r is used as is
-   		// $this->p is formatted with quotes
-   		// $this->q is converted to other values
-   		return "$this->r '$this->p' ".($this->q ? 'A' : 'B');
-   	}
+       // Checks the dictionary, or return 0
+       function __toString() : string {
+       
+           // $this->r is used as is
+           // $this->p is formatted with quotes
+           // $this->q is converted to other values
+           return "$this->r '$this->p' ".($this->q ? 'A' : 'B');
+       }
    }
    
-   echo new x;
+   echo new X;
    
-   $y = (string) new x;
+   $y = (string) new X;
    
    ?>
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Slash \/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``\/`` is character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Slash \/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Slash \/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 05:56:53 +0000","dateModified":"Thu, 09 Apr 2026 05:56:53 +0000","description":"``\/`` is character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Slash \/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Slash /
@@ -31,6 +31,9 @@ Slash /
 + Double slash is the marker of a comment: ``// a comment till the end of the line``
 + With star, ``/*`` is a multi line comment: ``/* */``
 + With double star, ``/**`` is a phpdoc comment: ``/** */``
++ ``stripslashes()`` removes slashes used for escaping, in strings
++ ``addslashes()`` adds slashes for escaping, in strings
++ ``addcslashes()`` adds slashes for escaping arbitrary characters
 
 The slash looks like the back-slash character ``\``, though they have very different use.
 
@@ -38,11 +41,11 @@ The slash looks like the back-slash character ``\``, though they have very diffe
    
    <?php
    
-   file_get_contents('/tmp/test.txt');
+       file_get_contents('/tmp/test.txt');
    
-   echo 1234 / 2; 
+       echo 1234 / 2;
    
-   // Just a comment
+       // Just a comment
    
    ?>
 

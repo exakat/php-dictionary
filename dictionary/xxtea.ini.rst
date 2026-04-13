@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"XXTEA","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``XXTEA`` is a symmetric encryption algorithm that stands for ``Corrected Block TEA``: TEA refers to Tiny Encryption Algorithm","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XXTEA.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"XXTEA","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 09:30:02 +0000","dateModified":"Wed, 08 Apr 2026 09:30:02 +0000","description":"``XXTEA`` is a symmetric encryption algorithm that stands for ``Corrected Block TEA``: TEA refers to Tiny Encryption Algorithm","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XXTEA.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 XXTEA
@@ -29,20 +29,24 @@ XXTEA
 .. code-block:: php
    
    <?php
-   $str = "Hello World! 你好，中国🇨🇳！";
-   $key = "1234567890";
-   $base64 = "D4t0rVXUDl3bnWdERhqJmFIanfn/6zAxAY9jD6n9MSMQNoD8TOS4rHHcGuE=";
-   $encrypt_data = xxtea_encrypt($str, $key);
-   $decrypt_data = xxtea_decrypt($encrypt_data, $key);
-   if ($str == $decrypt_data && base64_encode($encrypt_data) == $base64) {
-       echo "success!";
-   } else {
-       echo base64_encode($encrypt_data);
-       echo "fail!";
-   }
+   
+       $str = "Hello World! 你好，中国🇨🇳！";
+       $key = "1234567890";
+       $base64 = "D4t0rVXUDl3bnWdERhqJmFIanfn/6zAxAY9jD6n9MSMQNoD8TOS4rHHcGuE=";
+       $encrypt_data = xxtea_encrypt($str, $key);
+       $decrypt_data = xxtea_decrypt($encrypt_data, $key);
+       if ($str == $decrypt_data && base64_encode($encrypt_data) == $base64) {
+           echo "success!";
+       } else {
+           echo base64_encode($encrypt_data);
+           echo "fail!";
+       }
+   
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/XXTEA>`__
 
-See also `xxtea-pecl <https://github.com/xxtea/xxtea-pecl>`_
+See also https://github.com/xxtea/xxtea-pecl
+
+Related : 

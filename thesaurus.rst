@@ -15,9 +15,11 @@ List of acronyms, used in this dictionary.
 + :ref:`Command Line Interface (CLI) <cli>`
 + :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`
 + :ref:`Common Interface Gateway (CGI) <cgi>`
++ :ref:`Common Vulnerabilities and Exposures (CVE) <cve>`
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Delivery (CD) <cd>`
 + :ref:`Continuous Integration (CI) <ci>`
++ :ref:`Copy On Write (COW) <copy-on-write>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 + :ref:`Cross Site Scripting (XSS) <xss>`
 + :ref:`Data Access Object (DAO) <dao>`
@@ -26,7 +28,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
 + :ref:`Design By Contract (DBC) <contract>`
-+ :ref:`Disjunctive Normal Form (DNF) <dnf>`
++ :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Domain Name System (DNS) <dns>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
@@ -46,6 +48,8 @@ List of acronyms, used in this dictionary.
 + :ref:`HyperText Markup Language (HTML) <html>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
 + :ref:`Internet Protocol (IP) <ip>`
++ :ref:`JSON Lines (JSONC) <jsonc>`
++ :ref:`JSON Lines (JSONL) <jsonl>`
 + :ref:`JavaScript Object Notation (JSON) <json>`
 + :ref:`Just In Time (JIT) <jit>`
 + :ref:`KISS <kiss>`
@@ -96,6 +100,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Static Code Analysis (SCA) <sca>`
 + :ref:`Static Single Assignment Form (SSA) <ssa>`
 + :ref:`Support Vector Machine (SVM) <svm>`
++ :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
 + :ref:`Token Oriented Object Notation (TOON) <toon>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 + :ref:`Transport Layer Security (TLS) <tls>`
@@ -105,6 +110,7 @@ List of acronyms, used in this dictionary.
 + :ref:`User Datagram Protocol (UDP) <udp>`
 + :ref:`User Operations For Zend (UOPZ) <uopz>`
 + :ref:`Value Object (VO) <vo>`
++ :ref:`Virtual Machine (VM) <virtual-machine>`
 + :ref:`World Wide Web (WWW) <web>`
 + :ref:`Write Everything Twice (WET) <wet>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
@@ -154,8 +160,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Backend <backend>`
 + :ref:`Batch <batch>`
 + :ref:`Benchmarking <benchmarking>`
-+ :ref:`Blind Variable <blind-variable>`
-+ :ref:`Boilerplate <boilterplate>`
++ :ref:`Blind Variable <blind-key>`
++ :ref:`Boilerplate <boilerplate>`
 + :ref:`Bucket <bucket>`
 + :ref:`Bug <bug>`
 + :ref:`Case Sensitivity <case-sensitivity>`
@@ -198,7 +204,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Documentation <documentation>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Double Check <double-check>`
-+ :ref:`Duck Typing <duck-typing>`
++ :ref:`Duck Typing <ducktyping>`
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Edge Case <edge-case>`
@@ -209,10 +215,12 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Expression <expression>`
 + :ref:`Extensions <extension>`
 + :ref:`Facade <facade>`
++ :ref:`Faker <faker>`
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Hash <hash>`
++ :ref:`Heuristics <heuristic>`
 + :ref:`Hydratation <hydrate>`
 + :ref:`Idempotent <idempotent>`
 + :ref:`Immutable <immutable>`
@@ -267,7 +275,6 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Plugin <plugin>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
-+ :ref:`Production <production>`
 + :ref:`Promise <promise>`
 + :ref:`Protocol <protocol>`
 + :ref:`Quality <quality>`
@@ -295,9 +302,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Stateful <stateful>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
-+ :ref:`Sub (prefix) <sub-prefix>`
++ :ref:`Sub (prefix) <sub>`
 + :ref:`Subnamespaces <subnamespace>`
-+ :ref:`Sunsetting <sunsetting>`
 + :ref:`Taint Analysis <taint>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
@@ -313,7 +319,6 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Validation <validation>`
 + :ref:`Value <value>`
 + :ref:`Value Object <value-object>`
-+ :ref:`Variable Scope <variable-scope>`
 + :ref:`Version <version>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
@@ -358,6 +363,7 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 + :ref:`php.ini <php.ini>`
 + :ref:`register_argc_argv <register_argc_argv>`
 + :ref:`variable_order <variable_order>`
++ :ref:`zend.assertions <zend-assertions>`
 
 Exception
 ---------
@@ -474,9 +480,11 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Contravariance <type-contravariance>`
 + :ref:`Covariance <type-covariance>`
 + :ref:`Dependent Type <dependent-type>`
-+ :ref:`Disjunctive Normal Form (DNF) <dnf>`
++ :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
++ :ref:`Duck Typing <ducktyping>`
 + :ref:`False <false>`
 + :ref:`Floating Point Numbers <float>`
++ :ref:`Gradual Type Checking <gradual-type-checking>`
 + :ref:`Iterable <iterable>`
 + :ref:`Literal Types <literal-types>`
 + :ref:`Mixed <mixed>`
@@ -491,8 +499,8 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Relative Types <relative-types>`
 + :ref:`Return Type <return-type>`
 + :ref:`Scalar Types <scalar-type>`
-+ :ref:`Special Types <special-type>`
-+ :ref:`Standalone Types <standalone-types>`
++ :ref:`Special Types <special-typehint>`
++ :ref:`Standalone Types <standalone-type>`
 + :ref:`Stringable <stringable>`
 + :ref:`True <true>`
 + :ref:`Type Coverage <type-coverage>`
@@ -566,7 +574,7 @@ List of special PHP extensions.
 + :ref:`OpenSSL <openssl>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
-+ :ref:`PostgreSQL <postgresql>`
++ :ref:`PostgreSQL <pgsql>`
 + :ref:`Process Control (pcntl) <pcntl>`
 + :ref:`Readline <readline>`
 + :ref:`Reflection <reflection>`
@@ -618,7 +626,9 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`One Liner <one-liner>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
++ :ref:`Parquet <parquet>`
 + :ref:`Quine <quine>`
 + :ref:`Railroad Programming <railroad-programming>`
 + :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 + :ref:`Separator <separator>`
++ :ref:`Tree <tree>`

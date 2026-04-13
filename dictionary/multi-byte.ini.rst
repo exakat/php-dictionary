@@ -1,5 +1,6 @@
 .. _multi-byte:
 .. _mb:
+.. _multibyte:
 .. meta::
 	:description:
 		Multi-byte: Multi-byte refers to string encoding where characters are coded over several bytes, rather than just one.
@@ -17,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Multi-byte","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 06:32:29 +0000","dateModified":"Tue, 31 Mar 2026 06:32:29 +0000","description":"Multi-byte refers to string encoding where characters are coded over several bytes, rather than just one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-byte.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Multi-byte","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:14:29 +0000","dateModified":"Thu, 09 Apr 2026 06:14:29 +0000","description":"Multi-byte refers to string encoding where characters are coded over several bytes, rather than just one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-byte.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Multi-byte
@@ -46,4 +47,4 @@ In PHP, string functions are single-byte. When needed, extensions such as ``icon
 
 See also https://medium.com/@gftea/character-encoding-ff9a14a10ec7
 
-Related : :ref:`Unicode <unicode>`, :ref:`UTF-8 <utf8>`, :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
+Related : :ref:`Unicode <unicode>`, :ref:`UTF-8 <utf8>`, :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`, :ref:`Byte <byte>`

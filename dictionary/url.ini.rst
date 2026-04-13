@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:52:55 +0000","dateModified":"Thu, 09 Apr 2026 06:52:55 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Universal Resource Locator (URL)
@@ -24,15 +24,15 @@ Universal Resource Locator (URL)
 
 Universal Resource Locator is a string that represents a resource, where to find it, how to access it. 
 
-The full URL include the following information : 
+The full URL include the following information: 
 
-+ protocol : for example, http, https, mongodb, zip
-+ user : the username for authentication purposes
-+ pass : the password associated with the username
-+ server : the name or the address of the server where the resource reside
-+ path : the location of the resource on the server
-+ query : extra parameters to reach the resource
-+ fragment : the location of the resource inside the previous address (server + path)
++ protocol: for example, http, https, mongodb, zip
++ user: the username for authentication purposes
++ pass: the password associated with the username
++ server: the name or the address of the server where the resource reside
++ path: the location of the resource on the server
++ query: extra parameters to reach the resource
++ fragment: the location of the resource inside the previous address (server + path)
 
 PHP has several functions dedicated to processing URL, such as parse_url() and http_build_query(). 
 

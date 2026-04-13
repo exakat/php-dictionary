@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Zombie Code.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Zombie Code.html","name":"$_SERVER","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_SERVER.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_SERVER","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 17:03:21 +0000","dateModified":"Fri, 10 Apr 2026 17:03:21 +0000","description":"The ``$_SERVER`` variable is a special superglobal variable that holds information about the headers, scripts and path locations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_SERVER.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_SERVER
@@ -43,4 +43,4 @@ The ``$_SERVER`` variable is an associative array where the keys are the variabl
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.server.php>`__
 
-Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_FILES <$_files>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`
+Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_FILES <$_FILES>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`

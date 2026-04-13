@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Promoted Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:02 +0000","dateModified":"Mon, 16 Mar 2026 14:41:02 +0000","description":"Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Promoted Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Promoted Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 06:08:01 +0000","dateModified":"Mon, 13 Apr 2026 06:08:01 +0000","description":"Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Promoted Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Promoted Properties
@@ -27,13 +27,24 @@ Promoted properties are a class's arguments, which are declared as properties an
 .. code-block:: php
    
    <?php
-   // Show all information, defaults to INFO_ALL
-   phpinfo();
+       
+       class X {
+           function __construct($property, public int $promotedProperty) {
+               $this->property = $property; // manual initialization
+               
+               // not initilization of $this->promotedProperty, as it is automatic
+               echo $promotedProperty; // the variable version is available for further processing
+               echo $this->promotedProperty; // the property is available immediately
+           }
+       }
+       
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`__
 
 See also https://php.watch/versions/8.0/constructor-property-promotion
+
+Related : :ref:`Properties <property>`, :ref:`Class <class>`, :ref:`Constructor <constructor>`
 
 Added in PHP 8.0

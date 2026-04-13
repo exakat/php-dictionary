@@ -1,28 +1,28 @@
 .. _toctou:
 .. meta::
 	:description:
-		toctou : Time Of Check To Time Of Use: Toctou is a class of bug where there is a time interval between checking a resource and then using it.
+		Time Of Check To Time Of Use (TOCTOU): TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: toctou : Time Of Check To Time Of Use
-	:twitter:description: toctou : Time Of Check To Time Of Use: Toctou is a class of bug where there is a time interval between checking a resource and then using it
+	:twitter:title: Time Of Check To Time Of Use (TOCTOU)
+	:twitter:description: Time Of Check To Time Of Use (TOCTOU): TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: toctou : Time Of Check To Time Of Use
+	:og:title: Time Of Check To Time Of Use (TOCTOU)
 	:og:type: article
-	:og:description: Toctou is a class of bug where there is a time interval between checking a resource and then using it
+	:og:description: TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/toctou.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"toctou : Time Of Check To Time Of Use","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Toctou is a class of bug where there is a time interval between checking a resource and then using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/toctou : Time Of Check To Time Of Use.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Time Of Check To Time Of Use (TOCTOU)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Apr 2026 19:54:33 +0000","dateModified":"Mon, 06 Apr 2026 19:54:33 +0000","description":"TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Time Of Check To Time Of Use (TOCTOU).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-toctou : Time Of Check To Time Of Use
+Time Of Check To Time Of Use (TOCTOU)
 -------------------------------------
 
-Toctou is a class of bug where there is a time interval between checking a resource and then using it. This interval may be used by an attacker to replace the checked resource, and fool the code.
+TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it. This interval may be used by an attacker to replace the checked resource, and fool the code.
 
 
 .. code-block:: php
@@ -30,15 +30,15 @@ Toctou is a class of bug where there is a time interval between checking a resou
    <?php
    
    function foo($file) {
-   	// Checking is the file exists
-   	if (!file_exists($file)) {
-   		return false;
-   	}
-   	
-   	$fp = fopen($file, 'r');
-   	// $fp should be available, because it was checked just before
-   	// The TOCTOU is here
-   	$string = fget($fp, 1000);
+       // Checking is the file exists
+       if (!file_exists($file)) {
+           return false;
+       }
+       
+       $fp = fopen($file, 'r');
+       // $fp should be available, because it was checked just before
+       // The TOCTOU is here
+       $string = fget($fp, 1000);
    }
    
    ?>
@@ -46,4 +46,6 @@ Toctou is a class of bug where there is a time interval between checking a resou
 
 `Documentation <https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use>`__
 
-See also `Practical Race Condition Vulnerabilities in Web Applications <https://defuse.ca/race-conditions-in-web-applications.htm>`_
+See also https://defuse.ca/race-conditions-in-web-applications.htm
+
+Related : :ref:`Security <security>`

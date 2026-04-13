@@ -45,6 +45,6 @@ Web scraping is the process of extracting data from websites. It involves fetchi
 
 See also https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide
 
-Related : :ref:`Client URL (CURL) <curl>`, 
+Related : :ref:`Client URL (CURL) <curl>`, :ref:`Web-spider <web-spider>`
 
 Related packages : `symfony/panther <https://packagist.org/packages/symfony/panther>`_, `roach-php/core <https://packagist.org/packages/roach-php/core>`_, `jaeger/querylist <https://packagist.org/packages/jaeger/querylist>`_

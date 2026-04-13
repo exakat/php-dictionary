@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__serialize() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The ``__serialize()`` magic method is called when a script tries to construct an associative array of key\/value pairs that represent the serialized form of the object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__serialize() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__serialize() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:20:00 +0000","dateModified":"Thu, 09 Apr 2026 17:20:00 +0000","description":"The ``__serialize()`` magic method is called when a script tries to construct an associative array of key\/value pairs that represent the serialized form of the object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__serialize() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __serialize() Method
@@ -29,24 +29,25 @@ When no array is returned, a ``TypeError`` is thrown.
 .. code-block:: php
    
    <?php
-   	class WebPage {
-   		private $html;
-   		private $url;
-   		
-   	    public function __construct($url) {
-   	        $this->url = $url;
-   	    }
    
-   		public function __serialize() {
-   			return ['url' => $url];
-   		}
+       class WebPage {
+           private $html;
+           private $url;
    
-   		public function __unserialize($arg) {
-   			$this->url = $arg['url'];
-   			$this->html = file_get_contents($this->url);
-   		}
+           public function __construct($url) {
+               $this->url = $url;
+           }
    
-   	}
+           public function __serialize() {
+               return ['url' => $url];
+           }
+   
+           public function __unserialize($arg) {
+               $this->url = $arg['url'];
+               $this->html = file_get_contents($this->url);
+           }
+   
+       }
    ?>
 
 

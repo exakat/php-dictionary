@@ -1,4 +1,4 @@
-.. _boilterplate:
+.. _boilerplate:
 .. meta::
 	:description:
 		Boilerplate: Boilerplate refers to sections of code, documentation, or configuration that are repeated in multiple places with little or no variation.
@@ -12,11 +12,11 @@
 	:og:title: Boilerplate
 	:og:type: article
 	:og:description: Boilerplate refers to sections of code, documentation, or configuration that are repeated in multiple places with little or no variation
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/boilterplate.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/boilerplate.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Boilerplate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Boilerplate refers to sections of code, documentation, or configuration that are repeated in multiple places with little or no variation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Boilerplate.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Boilerplate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:42:22 +0000","dateModified":"Fri, 10 Apr 2026 16:42:22 +0000","description":"Boilerplate refers to sections of code, documentation, or configuration that are repeated in multiple places with little or no variation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Boilerplate.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Boilerplate

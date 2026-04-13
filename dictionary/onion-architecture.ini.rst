@@ -1,5 +1,5 @@
-.. _onion:
 .. _onion-architecture:
+.. _onion:
 .. meta::
 	:description:
 		Onion Architecture: Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``.
@@ -13,19 +13,17 @@
 	:og:title: Onion Architecture
 	:og:type: article
 	:og:description: Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/onion.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/onion-architecture.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Onion Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:01 +0000","dateModified":"Mon, 16 Mar 2026 14:41:01 +0000","description":"Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Onion Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Onion Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:45:36 +0000","dateModified":"Fri, 10 Apr 2026 16:45:36 +0000","description":"Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Onion Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Onion Architecture
 ------------------
 
 Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``. It organizes code in concentric layers, like an onion, to enforce separation of concerns and keep the core business logic independent from external systems like databases, UI, or frameworks.
-
-
 
 `Documentation <https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>`__
 

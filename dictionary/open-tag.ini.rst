@@ -1,28 +1,28 @@
 .. _open-tag:
 .. meta::
 	:description:
-		Open Tag: PHP commands are placed between the PHP tags : ``<.
+		Open Tag: PHP commands are placed between the PHP tags: ``<.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Open Tag
-	:twitter:description: Open Tag: PHP commands are placed between the PHP tags : ``<
+	:twitter:description: Open Tag: PHP commands are placed between the PHP tags: ``<
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Open Tag
 	:og:type: article
-	:og:description: PHP commands are placed between the PHP tags : ``<
+	:og:description: PHP commands are placed between the PHP tags: ``<
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/open-tag.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP commands are placed between the PHP tags : ``<","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:10:04 +0000","dateModified":"Thu, 09 Apr 2026 06:10:04 +0000","description":"PHP commands are placed between the PHP tags: ``<","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Open Tag
 --------
 
-PHP commands are placed between the PHP tags : ``<?php`` and ``?>``.  The first tag is called the open tag. 
+PHP commands are placed between the PHP tags: ``<?php`` and ``?>``.  The first tag is called the open tag. 
 
 The open tag is mandatory for PHP to execute the code. Anything before the open tag is output as is, without modification.
 

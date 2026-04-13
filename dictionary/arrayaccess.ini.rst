@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArrayAccess","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:27:40 +0000","dateModified":"Tue, 24 Mar 2026 10:27:40 +0000","description":"``ArrayAccess`` is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArrayAccess.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ArrayAccess","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 08:08:35 +0000","dateModified":"Wed, 08 Apr 2026 08:08:35 +0000","description":"``ArrayAccess`` is an interface that allows objects to be accessed like arrays using square brackets, similar to accessing elements in a regular array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ArrayAccess.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ArrayAccess
@@ -59,7 +59,7 @@ Implementing ``ArrayAccess`` can be useful to create custom data structures or o
    
        public function offsetGet($offset): mixed {
            if (in_array($offset, ['a', 'b', 'c'])) {
-   	        return $this->$offset;
+               return $this->$offset;
            }
        }
    }

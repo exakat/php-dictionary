@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Hierarchy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The class hierarchy is a list of class, which are extending one from another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Hierarchy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Hierarchy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Apr 2026 19:49:50 +0000","dateModified":"Thu, 02 Apr 2026 19:49:50 +0000","description":"The class hierarchy is a list of class, which are extending one from another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Hierarchy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Hierarchy
@@ -24,23 +24,24 @@ Class Hierarchy
 
 The class hierarchy is a list of class, which are extending one from another. The extended classes are parents, and the exending classes are children. Classes extending the same class are also called siblings. 
 
-The depth of the class hierarchy is a measure of the complexity. 
-
+The depth of the class hierarchy is a measure of the complexity.
 
 .. code-block:: php
    
    <?php
    
-   class A {}
-   
-   class B extends A {}
-   
-   class C extends B {}
-   
-   class D1 extends C {}
-   class D2 extends C {}
+       class A {}
+       
+       class B extends A {}
+       
+       class C extends B {}
+       
+       class D1 extends C {}
+       class D2 extends C {}
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Class_hierarchy>`__
+
+Related : :ref:`parent <parent>`

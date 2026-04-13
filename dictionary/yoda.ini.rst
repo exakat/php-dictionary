@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Yoda Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Yoda condition is a way to write condition by using any literal value on the left, instead of the right","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Yoda Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Yoda Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 09:29:14 +0000","dateModified":"Wed, 08 Apr 2026 09:29:14 +0000","description":"Yoda condition is a way to write condition by using any literal value on the left, instead of the right","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Yoda Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Yoda Condition
@@ -31,11 +31,11 @@ This prevents errors where the comparison operator is shortened, and turned into
    
    <?php
    
-   // Yoda condition
-   if (0 == $a) {}
-   
-   // Assignation, instead of comparison and bug
-   if ($a = 0) {}
+       // Yoda condition
+       if (0 == $a) {}
+       
+       // Assignation, instead of comparison and bug
+       if ($a = 0) {}
    
    ?>
 
@@ -43,3 +43,5 @@ This prevents errors where the comparison operator is shortened, and turned into
 `Documentation <https://en.wikipedia.org/wiki/Yoda_conditions>`__
 
 See also https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not, https://cs.symfony.com/doc/rules/control_structure/yoda_style.html
+
+Related : :ref:`Coding Conventions <coding-convention>`, :ref:`Design Pattern <pattern>`

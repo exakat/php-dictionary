@@ -78,4 +78,4 @@ Constants are not returned by that function.
 
 See also https://www.elated.com/object-oriented-php-autoloading-serializing-and-querying-objects/, https://www.stechies.com/convert-php-object-array/
 
-Related : , :ref:`Reflection <reflection>`, :ref:`Visibility <visibility>`, :ref:`Properties <property>`, :ref:`Cast Operator <cast>`, , :ref:`Static Property <static-property>`
+Related : , :ref:`Reflection <reflection>`, :ref:`Visibility <visibility>`, :ref:`Properties <property>`, :ref:`Cast Operator <cast>`, :ref:`json_encode() <json_encode>`, :ref:`Static Property <static-property>`

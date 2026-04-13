@@ -67,4 +67,4 @@ array_column() is more efficient than custom code to convert an array into a map
 
 See also https://3v4l.org/Nc1uL#veol
 
-Related : 
+Related : :ref:`array_combine() <array_combine>`

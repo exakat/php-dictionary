@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 24 Mar 2026 10:20:01 +0000","dateModified":"Tue, 24 Mar 2026 10:20:01 +0000","description":"Type declarations can be added to function arguments, return values, and, as of PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:54:02 +0000","dateModified":"Fri, 10 Apr 2026 16:54:02 +0000","description":"Type declarations can be added to function arguments, return values, and, as of PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Type System
@@ -40,8 +40,8 @@ Type declarations can be added to function arguments, return values, and, as of 
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-See also `Explore Your Types <https://backendtea.com/post/explore-your-types/>`_, `Narrowing types for static analysis <https://seld.be/notes/narrowing-types-for-static-analysis/>`_
+See also https://backendtea.com/post/explore-your-types/, https://seld.be/notes/narrowing-types-for-static-analysis/
 
-Related : :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`False <false>`, :ref:`Mixed <mixed>`, :ref:`Never Type <never>`, :ref:`Nullable <nullable>`, :ref:`Object <object>`, :ref:`Properties <property>`, :ref:`Return Type <return-type>`, :ref:`strict_types <strict_types>`, :ref:`True <true>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Typed Property <typed-property>`, :ref:`Intersection Type <intersection-type>`, :ref:`Object Type <object-type>`, :ref:`Scalar Types <scalar-type>`, :ref:`Special Types <special-typehint>`, :ref:`Union Type <union-type>`, :ref:`Variables <variable>`, :ref:`Autowiring <autowiring>`, :ref:`Propagation <propagation>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Type Coverage <type-coverage>`
+Related : :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`False <false>`, :ref:`Mixed <mixed>`, :ref:`Never Type <never>`, :ref:`Nullable <nullable>`, :ref:`Object <object>`, :ref:`Properties <property>`, :ref:`Return Type <return-type>`, :ref:`strict_types <strict_types>`, :ref:`True <true>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Typed Property <typed-property>`, :ref:`Intersection Type <intersection-type>`, :ref:`Object Type <object-type>`, :ref:`Scalar Types <scalar-type>`, :ref:`Special Types <special-typehint>`, :ref:`Union Type <union-type>`, :ref:`Variables <variable>`, :ref:`Autowiring <autowiring>`, :ref:`Propagation <propagation>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Type Coverage <type-coverage>`, :ref:`Dependent Type <dependent-type>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Relative Types <relative-types>`, :ref:`Standalone Types <standalone-type>`
 
 Added in PHP 7.0

@@ -1,28 +1,28 @@
 .. _close-tag:
 .. meta::
 	:description:
-		Close Tag: PHP commands are placed between the PHP tags : ``<.
+		Close Tag: PHP commands are placed between the PHP tags: ``<.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Close Tag
-	:twitter:description: Close Tag: PHP commands are placed between the PHP tags : ``<
+	:twitter:description: Close Tag: PHP commands are placed between the PHP tags: ``<
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Close Tag
 	:og:type: article
-	:og:description: PHP commands are placed between the PHP tags : ``<
+	:og:description: PHP commands are placed between the PHP tags: ``<
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Close Tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP commands are placed between the PHP tags : ``<","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Close Tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Close Tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:10:11 +0000","dateModified":"Thu, 09 Apr 2026 06:10:11 +0000","description":"PHP commands are placed between the PHP tags: ``<","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Close Tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Close Tag
 ---------
 
-PHP commands are placed between the PHP tags : ``<?php`` and ``?>``.  The second tag is called the closing tag. 
+PHP commands are placed between the PHP tags: ``<?php`` and ``?>``.  The second tag is called the closing tag. 
 
 Closing tag allow to finish a PHP tag, and switch back to non-interpreted code. The text following the closing tag is then display raw, until the next PHP tag. 
 

@@ -44,4 +44,4 @@ In case an error arise during parsing, a ``null`` value is returned, as the defa
 
 `Documentation <https://www.php.net/manual/en/function.json-decode.php>`__
 
-Related : :ref:`JavaScript Object Notation (JSON) <json>`, , :ref:`Null <null>`, :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`ValueError <valueerror>`
+Related : :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`json_encode() <json_encode>`, :ref:`Null <null>`, :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`ValueError <valueerror>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__unserialize() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:48:40 +0000","dateModified":"Fri, 27 Mar 2026 15:48:40 +0000","description":"The ``__unserialize()`` magic method is called when a script tries to construct an object from an associative array of key\/value pairs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__unserialize() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__unserialize() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:21:24 +0000","dateModified":"Thu, 09 Apr 2026 17:21:24 +0000","description":"The ``__unserialize()`` magic method is called when a script tries to construct an object from an associative array of key\/value pairs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__unserialize() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __unserialize() Method
@@ -27,24 +27,26 @@ The ``__unserialize()`` magic method is called when a script tries to construct 
 .. code-block:: php
    
    <?php
-   	class WebPage {
-   		private $html;
-   		private $url;
-   		
-   	    public function __construct($url) {
-   	        $this->url = $url;
-   	    }
    
-   		public function __serialize() {
-   			return ['url' => $url];
-   		}
+       class X {
+           private $html;
+           private $url;
    
-   		public function __unserialize($arg) {
-   			$this->url = $arg['url'];
-   			$this->html = file_get_contents($this->url);
-   		}
+           public function __construct($url) {
+               $this->url = $url;
+           }
    
-   	}
+           public function __serialize() {
+               return ['url' => $url];
+           }
+   
+           public function __unserialize($arg) {
+               $this->url = $arg['url'];
+               $this->html = file_get_contents($this->url);
+           }
+   
+       }
+   
    ?>
 
 

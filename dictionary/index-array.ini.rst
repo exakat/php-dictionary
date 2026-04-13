@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Index For Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A index is the identifier of an specific element in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Index For Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Index For Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:43:24 +0000","dateModified":"Thu, 09 Apr 2026 17:43:24 +0000","description":"A index is the identifier of an specific element in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Index For Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Index For Arrays
@@ -44,4 +44,4 @@ PHP index start at 0. They may be automatically assigned by appending a new valu
 
 See also https://vazaha.blog/en/9/php-frankenstein-arrays, https://yellowduck.be/posts/filtering-an-array-by-keys-in-php
 
-Related : :ref:`Array <array>`, :ref:`Data Container <data-container>`, :ref:`Collection <collection>`, :ref:`Index <index>`, :ref:`Map <map>`, :ref:`negative-index <negative-index>`, :ref:`Square Brackets <square-bracket>`
+Related : :ref:`Array <array>`, :ref:`Data Container <data-container>`, :ref:`Collection <collection>`, :ref:`Index <index>`, :ref:`Map <map>`, :ref:`negative-index <negative-index>`, :ref:`Square Brackets <square-bracket>`, :ref:`Array Element <array-element>`, :ref:`array_keys() <array_keys>`, :ref:`Automatic Index <automatic-index>`, :ref:`unset() <unset>`

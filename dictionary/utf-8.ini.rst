@@ -1,5 +1,5 @@
-.. _utf8:
 .. _utf-8:
+.. _utf8:
 .. meta::
 	:description:
 		UTF-8: UTF-8 is a character encoding standard.
@@ -13,11 +13,11 @@
 	:og:title: UTF-8
 	:og:type: article
 	:og:description: UTF-8 is a character encoding standard
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/utf8.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/utf-8.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"UTF-8","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"UTF-8 is a character encoding standard","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/UTF-8.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"UTF-8","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:52:10 +0000","dateModified":"Fri, 10 Apr 2026 16:52:10 +0000","description":"UTF-8 is a character encoding standard","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/UTF-8.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 UTF-8
@@ -29,7 +29,9 @@ PHP handles the UTF-8 encoding natively: at input time, with the ``input_encodin
 
 For other manipulations, such as converting sources such as file or databases content to and from UTF-8, PHP relies on ``mbstring`` and ``iconv`` libraries.
 
-Special functions, such as ``utf8_encode`` and ``utf8_decode()`` are deprecated since PHP 8.2, and should be be used.
+Special functions, such as ``utf8_encode()`` and ``utf8_decode()`` are deprecated since PHP 8.2, and should be be used.
 
 
 `Documentation <https://en.wikipedia.org/wiki/UTF-8>`__
+
+Related : :ref:`Encoding <encoding>`, :ref:`Latin1 <latin1>`

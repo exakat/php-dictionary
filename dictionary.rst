@@ -6,7 +6,7 @@ PHP Dictionary
    * :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`
    * :ref:`$_COOKIE <$_cookie>`
    * :ref:`$_ENV <$_env>`
-   * :ref:`$_FILES <$_files>`
+   * :ref:`$_FILES <$_FILES>`
    * :ref:`$_GET <$_get>`
    * :ref:`$_POST <$_post>`
    * :ref:`$_REQUEST <$_request>`
@@ -61,6 +61,7 @@ PHP Dictionary
    * :ref:`Abstraction <abstraction>`
    * :ref:`Abstraction Layer <abstraction-layer>`
    * :ref:`Accessibility <accessibility>`
+   * :ref:`Accountability <accountability>`
    * :ref:`Active Record <active-record>`
    * :ref:`Adapters <adapter>`
    * :ref:`Addition <addition>`
@@ -127,6 +128,7 @@ PHP Dictionary
    * :ref:`Autowiring <autowiring>`
    * :ref:`abs() <abs>`
    * :ref:`array_column <array_column>`
+   * :ref:`array_combine() <array_combine>`
    * :ref:`array_key_exists() <array_key_exists>`
    * :ref:`array_keys() <array_keys>`
    * :ref:`array_map() <array_map>`
@@ -158,15 +160,16 @@ PHP Dictionary
    * :ref:`Bind <bind>`
    * :ref:`Bitfield <bitfield>`
    * :ref:`Bitmask <bitmask>`
-   * :ref:`Bitshift Operators <bitshift>`
+   * :ref:`Bitshift Operators <bitshift-operator>`
    * :ref:`Bitwise Operators <bitwise-operator>`
-   * :ref:`Blind Variable <blind-variable>`
+   * :ref:`Blind Variable <blind-key>`
    * :ref:`Block <block>`
    * :ref:`Bloom Filter <bloom-filter>`
    * :ref:`Body <body>`
-   * :ref:`Boilerplate <boilterplate>`
+   * :ref:`Boilerplate <boilerplate>`
    * :ref:`Boolean <boolean>`
    * :ref:`Bootstrap <bootstrap>`
+   * :ref:`Bottleneck <bottleneck>`
    * :ref:`Bracket <bracket>`
    * :ref:`Bracketless <bracketless>`
    * :ref:`Branch <branch>`
@@ -232,12 +235,13 @@ PHP Dictionary
    * :ref:`Code Coverage <code-coverage>`
    * :ref:`Code Formatter <code-formatter>`
    * :ref:`Code Freeze <code-freeze>`
+   * :ref:`Code Generator <code-generator>`
    * :ref:`Code Injection <code-injection>`
    * :ref:`Code Inventory <inventory>`
    * :ref:`Code Reuse <code-reuse>`
    * :ref:`Code Review <code-review>`
    * :ref:`Code Smell <code-smell>`
-   * :ref:`Codepoint <code>`
+   * :ref:`Codepoint <codepoint>`
    * :ref:`Coding Conventions <coding-convention>`
    * :ref:`Coding Formatting <code-formatting>`
    * :ref:`Cognitive Complexity <cognitive-complexity>`
@@ -252,12 +256,14 @@ PHP Dictionary
    * :ref:`Comments <comment>`
    * :ref:`Commit <commit>`
    * :ref:`Common Interface Gateway (CGI) <cgi>`
+   * :ref:`Common Vulnerabilities and Exposures (CVE) <cve>`
    * :ref:`Community <community>`
    * :ref:`Compact Array <compact-array>`
-   * :ref:`Comparison <comparison-operator>`
+   * :ref:`Comparison <comparison>`
    * :ref:`Compatibility <compatibility>`
    * :ref:`Compile Time <compile-time>`
    * :ref:`Complexity <complexity>`
+   * :ref:`Compliance <compliance>`
    * :ref:`Component <component>`
    * :ref:`Composer <composer>`
    * :ref:`Composition <composition>`
@@ -294,7 +300,7 @@ PHP Dictionary
    * :ref:`Convention <convention>`
    * :ref:`Convert <convert>`
    * :ref:`Cookie <cookie>`
-   * :ref:`Copy On Write <copy-on-write>`
+   * :ref:`Copy On Write (COW) <copy-on-write>`
    * :ref:`Core <core>`
    * :ref:`Coroutine <coroutine>`
    * :ref:`Countable Interface <countable>`
@@ -332,6 +338,7 @@ PHP Dictionary
    * :ref:`Database Abstraction Layer (DBAL) <dbal>`
    * :ref:`Dataset <dataset>`
    * :ref:`Datastack <datastack>`
+   * :ref:`DateInterval <dateinterval>`
    * :ref:`DateTime <datetime>`
    * :ref:`Dates <date>`
    * :ref:`Datetime Trap <datetime-trap>`
@@ -371,7 +378,7 @@ PHP Dictionary
    * :ref:`Disable <disable>`
    * :ref:`Disable Classes <disable-classes>`
    * :ref:`Disable Functions <disable-functions>`
-   * :ref:`Disjunctive Normal Form (DNF) <dnf>`
+   * :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
    * :ref:`Division <division>`
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
    * :ref:`Do While <do-while>`
@@ -383,11 +390,12 @@ PHP Dictionary
    * :ref:`DomainException <domainexception>`
    * :ref:`Don't Repeat Yourself (DRY) <dry>`
    * :ref:`Dot Notation <dot-notation>`
+   * :ref:`Double <double>`
    * :ref:`Double Arrow <double-arrow>`
    * :ref:`Double Check <double-check>`
    * :ref:`Double Quotes Strings <double-quote>`
    * :ref:`Downtime <downtime>`
-   * :ref:`Duck Typing <duck-typing>`
+   * :ref:`Duck Typing <ducktyping>`
    * :ref:`Dynamic <dynamic>`
    * :ref:`Dynamic Call <dynamic-call>`
    * :ref:`Dynamic Class <dynamic-class>`
@@ -438,6 +446,7 @@ PHP Dictionary
    * :ref:`Event Storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
+   * :ref:`Execution Path <execution-path>`
    * :ref:`Execution Time <execution-time>`
    * :ref:`Exit <exit>`
    * :ref:`Explicit <explicit>`
@@ -457,6 +466,7 @@ PHP Dictionary
 * F
    * :ref:`Facade <facade>`
    * :ref:`Factory <factory>`
+   * :ref:`Faker <faker>`
    * :ref:`Fallback Function <fallback-function>`
    * :ref:`Fallback To Global <fallback-to-global>`
    * :ref:`False <false>`
@@ -471,7 +481,7 @@ PHP Dictionary
    * :ref:`File <file>`
    * :ref:`File Extension <file-extension>`
    * :ref:`File Mode <file-mode>`
-   * :ref:`File System <file-system>`
+   * :ref:`File System <filesystem>`
    * :ref:`File Transfer Protocol (FTP) <ftp>`
    * :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
    * :ref:`File Upload <upload>`
@@ -524,6 +534,7 @@ PHP Dictionary
    * :ref:`Golf <golf>`
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
+   * :ref:`Gradual Type Checking <gradual-type-checking>`
    * :ref:`GraphQL <graphql>`
    * :ref:`Graphic Draw (GD) <gd>`
    * :ref:`gRPC (Google Remote Procedure Call) <grpc>`
@@ -549,6 +560,7 @@ PHP Dictionary
    * :ref:`Haystack <haystack>`
    * :ref:`Headless <headless>`
    * :ref:`Heredocs <heredoc>`
+   * :ref:`Heuristics <heuristic>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
    * :ref:`Honey Pot <honeypot>`
@@ -561,7 +573,7 @@ PHP Dictionary
    * :ref:`hg <hg>`
    * :ref:`hrtime() <hrtime>`
    * :ref:`html_errors <html_errors>`
-   * :ref:`http:// <wrapper-https>`
+   * :ref:`http:// <wrapper-http>`
    * :ref:`http_build_query() <http_build_query>`
 * I
    * :ref:`INF <inf>`
@@ -624,6 +636,8 @@ PHP Dictionary
    * :ref:`is_object() <is_object>`
    * :ref:`iterator_to_array() <iterator_to_array>`
 * J
+   * :ref:`JSON Lines (JSONC) <jsonc>`
+   * :ref:`JSON Lines (JSONL) <jsonl>`
    * :ref:`JavaScript Object Notation (JSON) <json>`
    * :ref:`Javascript <javascript>`
    * :ref:`Jobqueue <jobqueue>`
@@ -632,6 +646,7 @@ PHP Dictionary
    * :ref:`Jump <jump>`
    * :ref:`Just In Time (JIT) <jit>`
    * :ref:`json_decode() <json_decode>`
+   * :ref:`json_encode() <json_encode>`
 * K
    * :ref:`KISS <kiss>`
    * :ref:`Key-value Stores <key-value-store>`
@@ -642,6 +657,7 @@ PHP Dictionary
    * :ref:`Large Language Model (LLM) <llm>`
    * :ref:`Last In, First Out (LIFO) <lifo>`
    * :ref:`Late Static Binding <late-static-binding>`
+   * :ref:`Latin1 <latin1>`
    * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`Lazy Objects <lazy-objects>`
    * :ref:`Leading Numeric String <leading-numeric-string>`
@@ -659,7 +675,7 @@ PHP Dictionary
    * :ref:`List <list>`
    * :ref:`Literal <literal>`
    * :ref:`Literal Types <literal-types>`
-   * :ref:`Local File Inclusion <lfi>`
+   * :ref:`Local File Inclusion <local-file-inclusion>`
    * :ref:`Local Scope <local>`
    * :ref:`Local Variable <local-variable>`
    * :ref:`Locale <locale>`
@@ -672,7 +688,7 @@ PHP Dictionary
 * M
    * :ref:`Machine Learning <machine-learning>`
    * :ref:`Magic <magic>`
-   * :ref:`Magic Bytes <magic-bytes>`
+   * :ref:`Magic Bytes <magic-byte>`
    * :ref:`Magic Code <magic-in-the-code>`
    * :ref:`Magic Constants <magic-constant>`
    * :ref:`Magic Hash <magic-hash>`
@@ -701,7 +717,7 @@ PHP Dictionary
    * :ref:`Methodcall <methodcall>`
    * :ref:`Micro-framework <microframework>`
    * :ref:`Micro-optimisation <micro-optimisation>`
-   * :ref:`Micro-second <microsecond>`
+   * :ref:`Micro-second <micro-second>`
    * :ref:`Microservice <microservice>`
    * :ref:`Middleware Pattern <middleware>`
    * :ref:`Migration <migration>`
@@ -791,15 +807,16 @@ PHP Dictionary
    * :ref:`Object Relational Mapping (ORM) <orm>`
    * :ref:`Object Syntax <object-syntax>`
    * :ref:`Object Type <object-type>`
+   * :ref:`Oblic Quotes <oblic-quote>`
    * :ref:`Observer Design Pattern <observer>`
    * :ref:`Octal Integer <octal-integer>`
    * :ref:`Offensive Programming <offensive-programming>`
    * :ref:`Offset <offset>`
    * :ref:`One Liner <one-liner>`
-   * :ref:`Onion Architecture <onion>`
+   * :ref:`Onion Architecture <onion-architecture>`
    * :ref:`Opcache <opcache>`
    * :ref:`Opcode <opcode>`
-   * :ref:`Opcode Specialisation <opcode-specialisation>`
+   * :ref:`Opcode Specialisation <opcode-specialization>`
    * :ref:`Open Closed Principle (OCP) <ocp>`
    * :ref:`Open Source <open-source>`
    * :ref:`Open Tag <open-tag>`
@@ -858,6 +875,7 @@ PHP Dictionary
    * :ref:`Parameter <parameter>`
    * :ref:`Parameter Removal <parameter-removal>`
    * :ref:`Parenthesis <parenthesis>`
+   * :ref:`Parquet <parquet>`
    * :ref:`Parse <parse>`
    * :ref:`ParseError <parseerror>`
    * :ref:`Parser <parser>`
@@ -889,7 +907,7 @@ PHP Dictionary
    * :ref:`Positional Parameters <positional-parameter>`
    * :ref:`Positive Integer <positive-integer>`
    * :ref:`Post-increment <post-increment>`
-   * :ref:`PostgreSQL <postgresql>`
+   * :ref:`PostgreSQL <pgsql>`
    * :ref:`Pre-increment <pre-increment>`
    * :ref:`Preappend File Directive <auto_prepend_file>`
    * :ref:`Precedence <precedence>`
@@ -913,7 +931,7 @@ PHP Dictionary
    * :ref:`Property Type Declaration <type-declaration-property>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
-   * :ref:`Pseudo-type <pseudotype>`
+   * :ref:`Pseudo-type <pseudo-type>`
    * :ref:`Pseudo-variable <pseudo-variable>`
    * :ref:`Public Visibility <public>`
    * :ref:`Pull Request (PR) <pr>`
@@ -1068,16 +1086,16 @@ PHP Dictionary
    * :ref:`Space <space>`
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Constant <special-constant>`
-   * :ref:`Special Types <special-type>`
+   * :ref:`Special Types <special-typehint>`
    * :ref:`SplDoublyLinkedList <spldoublylinkedlist>`
    * :ref:`SplStack <splstack>`
    * :ref:`SplStorageObjects <splstorageobjects>`
-   * :ref:`Sqlite3 <sqlite>`
+   * :ref:`Sqlite3 <sqlite3>`
    * :ref:`Square Brackets <square-bracket>`
    * :ref:`Stack <stack>`
-   * :ref:`Standalone Types <standalone-types>`
+   * :ref:`Standalone Types <standalone-type>`
    * :ref:`Standard PHP Library (SPL) <spl>`
-   * :ref:`Star * <start>`
+   * :ref:`Star * <star>`
    * :ref:`State <state>`
    * :ref:`Stateful <stateful>`
    * :ref:`Stateless <stateless>`
@@ -1103,8 +1121,8 @@ PHP Dictionary
    * :ref:`Strpos() Syndrome <strpos-syndrom>`
    * :ref:`Structure <structure>`
    * :ref:`Stubs Files <stubs>`
-   * :ref:`Sub (prefix) <sub-prefix>`
-   * :ref:`Subclass <sub-class>`
+   * :ref:`Sub (prefix) <sub>`
+   * :ref:`Subclass <subclass>`
    * :ref:`Subnamespaces <subnamespace>`
    * :ref:`Suffix <suffix>`
    * :ref:`Sunsetting <sunsetting>`
@@ -1151,9 +1169,12 @@ PHP Dictionary
    * :ref:`Three Dots <three-dots>`
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
+   * :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
+   * :ref:`Time Travel <time-travel>`
    * :ref:`Token <token>`
    * :ref:`Token Oriented Object Notation (TOON) <toon>`
    * :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
+   * :ref:`Total Cost Of Ownership (TCO) <tco>`
    * :ref:`Trailing Comma <trailing-comma>`
    * :ref:`Trait <trait>`
    * :ref:`Transpile <transpile>`
@@ -1162,6 +1183,7 @@ PHP Dictionary
    * :ref:`Traversal <traversal>`
    * :ref:`Tree <tree>`
    * :ref:`Treemap <treemap>`
+   * :ref:`Troubleshoot <troubleshoot>`
    * :ref:`True <true>`
    * :ref:`Truthy <truthy>`
    * :ref:`Try-catch <try-catch>`
@@ -1175,14 +1197,14 @@ PHP Dictionary
    * :ref:`Typed Constant <typed-constant>`
    * :ref:`Typed Property <typed-property>`
    * :ref:`Typo <typo>`
-   * :ref:`testdox <testdoc>`
+   * :ref:`testdox <testdox>`
    * :ref:`throw <throw>`
-   * :ref:`toctou : Time Of Check To Time Of Use <toctou>`
    * :ref:`trigger_error() <trigger_error>`
+   * :ref:`trim <trim>`
 * U
    * :ref:`URI Class <uri-class>`
    * :ref:`URI Extension <uri-extension>`
-   * :ref:`UTF-8 <utf8>`
+   * :ref:`UTF-8 <utf-8>`
    * :ref:`UUencode Encoding <uuencode>`
    * :ref:`Unary Operator <unary>`
    * :ref:`Unbacked Enum <unbacked-enum>`
@@ -1200,7 +1222,7 @@ PHP Dictionary
    * :ref:`Universally Unique IDentifier (UUID) <uuid>`
    * :ref:`Unpacking <unpacking>`
    * :ref:`Unreachable Code <unreachable-code>`
-   * :ref:`Unserialization <unserialization>`
+   * :ref:`Unserialization <unserialize>`
    * :ref:`Unused <unused>`
    * :ref:`Upgrade <upgrade>`
    * :ref:`Use <use>`
@@ -1229,7 +1251,7 @@ PHP Dictionary
    * :ref:`Version <version>`
    * :ref:`View <view>`
    * :ref:`View In Presentation <view-presentation>`
-   * :ref:`Virtual Machine <virtual-mchine>`
+   * :ref:`Virtual Machine (VM) <virtual-machine>`
    * :ref:`Virtual Property <virtual-property>`
    * :ref:`Visibility <visibility>`
    * :ref:`Visual Debt <visual-debt>`
@@ -1241,7 +1263,8 @@ PHP Dictionary
    * :ref:`Warning <warning>`
    * :ref:`Weak Cryptography <weak-cryptography>`
    * :ref:`Weak References <weak-reference>`
-   * :ref:`Weakmap <weakamp>`
+   * :ref:`Weakmap <weakmap>`
+   * :ref:`Web-spider <web-spider>`
    * :ref:`WebRTC <webrtc>`
    * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
@@ -1249,6 +1272,7 @@ PHP Dictionary
    * :ref:`Websocket <websocket>`
    * :ref:`While <while>`
    * :ref:`Whitespace <whitespace>`
+   * :ref:`Wildcard <wildcard>`
    * :ref:`Word Combination <word-combinaison>`
    * :ref:`Workflow <workflow>`
    * :ref:`World Wide Web (WWW) <web>`
@@ -1272,6 +1296,9 @@ PHP Dictionary
    * :ref:`Zero Cost <zero-cost>`
    * :ref:`Zombie Code <zombie-code>`
    * :ref:`Zval <zval>`
+   * :ref:`zend.assertions <zend-assertions>`
    * :ref:`zero <zero>`
    * :ref:`zip Extension <zip>`
    * :ref:`zlib extension <zlib>`
+* ~
+   * :ref:`~ Tilde <tilde>`

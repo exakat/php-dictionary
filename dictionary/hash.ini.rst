@@ -4,28 +4,28 @@
 .. _hashmap:
 .. meta::
 	:description:
-		Hash: Hash has several meanings : .
+		Hash: Hash has several meanings:.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Hash
-	:twitter:description: Hash: Hash has several meanings : 
+	:twitter:description: Hash: Hash has several meanings:
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hash
 	:og:type: article
-	:og:description: Hash has several meanings : 
+	:og:description: Hash has several meanings:
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 17 Mar 2026 14:34:25 +0000","dateModified":"Tue, 17 Mar 2026 14:34:25 +0000","description":"Hash has several meanings : ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:43:40 +0000","dateModified":"Thu, 09 Apr 2026 17:43:40 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash
 ----
 
-Hash has several meanings : 
+Hash has several meanings:
 
 + PHP extension
 + PHP function
@@ -36,7 +36,7 @@ Hash has several meanings :
 
 Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. 
 
-While the extension ``hash`` only process hashes, there are other extensions which offer these features : openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.
+While the extension ``hash`` only process hashes, there are other extensions which offer these features: openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.
 
 .. code-block:: php
    
@@ -63,4 +63,4 @@ While the extension ``hash`` only process hashes, there are other extensions whi
 
 See also https://ssojet.com/hashing/numeric-hash-nhash-in-php
 
-Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`, :ref:`Argon2 <argon2>`, :ref:`Automatic Index <automatic-index>`, :ref:`Dictionary <dictionary>`, :ref:`Data Structure <ds>`

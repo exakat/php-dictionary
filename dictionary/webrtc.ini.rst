@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"WebRTC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Mar 2026 11:06:35 +0000","dateModified":"Fri, 20 Mar 2026 11:06:35 +0000","description":"WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WebRTC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"WebRTC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 05:29:48 +0000","dateModified":"Mon, 13 Apr 2026 05:29:48 +0000","description":"WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WebRTC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 WebRTC
@@ -26,6 +26,6 @@ WebRTC, short for Web Real-Time Communication, is an open-source technology that
 
 `Documentation <https://webrtc.org/>`__
 
-See also https://grpc.io/docs/languages/php/quickstart/, https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df, https://github.com/PHP-WebRTC/webrtc, https://reintech.io/blog/building-php-chat-application-webrtc-ratchet
+See also https://grpc.io/docs/languages/php/quickstart/, https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df, https://github.com/PHP-WebRTC/webrtc, https://reintech.io/blog/building-php-chat-application-webrtc-ratchet, https://www.searchenginejournal.com/wordpresss-troubled-real-time-collaboration-feature/571201/
 
 Related : :ref:`REST API <rest-api>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Websocket <websocket>`

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$HTTP_RAW_POST_DATA.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_FILES.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_cookie.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_env.ini.html</loc>
- </url>
- <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_files.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$_get.ini.html</loc>
@@ -29,9 +32,6 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$globals.ini.html</loc>
- </url>
- <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$http_raw_post_data.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/$http_response_header.ini.html</loc>
@@ -137,6 +137,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/accessibility.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/accountability.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/active-record.ini.html</loc>
@@ -257,6 +260,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_column.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_combine.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_key_exists.ini.html</loc>
@@ -418,6 +424,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-integer.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-not.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/binary-operator.ini.html</loc>
  </url>
  <url>
@@ -461,6 +470,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/bootstrap.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/bottleneck.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/bracket.ini.html</loc>
@@ -655,6 +667,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-freeze.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-generator.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/code-injection.ini.html</loc>
  </url>
  <url>
@@ -716,6 +731,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/complexity.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/compliance.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/component.ini.html</loc>
@@ -874,6 +892,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/custom.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cve.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cvs.ini.html</loc>
  </url>
  <url>
@@ -905,6 +926,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dateinterval.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/datetime-trap.ini.html</loc>
@@ -1102,6 +1126,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/double-quote.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/double.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/downtime.ini.html</loc>
  </url>
  <url>
@@ -1270,6 +1297,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/exec.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/execution-path.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/execution-time.ini.html</loc>
  </url>
  <url>
@@ -1313,6 +1343,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/factory.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/faker.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fallback-function.ini.html</loc>
@@ -1528,6 +1561,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gradual-type-checking.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/graphql.ini.html</loc>
  </url>
  <url>
@@ -1571,6 +1607,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/heuristic.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal-integer.ini.html</loc>
@@ -1825,7 +1864,16 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/json_decode.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/json_encode.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonc.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonl.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonserializable.ini.html</loc>
@@ -1856,6 +1904,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/late-static-binding.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/latin1.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html</loc>
@@ -2293,6 +2344,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/oblic-quote.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/observer.ini.html</loc>
  </url>
  <url>
@@ -2371,10 +2425,10 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overengineer.ini.html</loc>
  </url>
  <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overflow-class.ini.html</loc>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overflow.ini.html</loc>
  </url>
  <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overflow.ini.html</loc>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overflowexception.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overloading.ini.html</loc>
@@ -2404,7 +2458,7 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/paradigm.ini.html</loc>
  </url>
  <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/paralell.ini.html</loc>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/parallel.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter-removal.ini.html</loc>
@@ -2417,6 +2471,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/parquet.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/parse.ini.html</loc>
@@ -2465,6 +2522,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pdoexception.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pdr.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pear.ini.html</loc>
@@ -2600,9 +2660,6 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pr.ini.html</loc>
- </url>
- <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/prd.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pre-increment.ini.html</loc>
@@ -3307,6 +3364,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/task-runner.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tco.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tcp.ini.html</loc>
  </url>
  <url>
@@ -3352,6 +3412,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tilde.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/time-travel.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tls.ini.html</loc>
  </url>
  <url>
@@ -3389,6 +3452,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/trigger_error.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/trim.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/troubleshoot.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/true.ini.html</loc>
@@ -3625,6 +3694,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/weakmap.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/web-spider.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/web.ini.html</loc>
  </url>
  <url>
@@ -3650,6 +3722,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wildcard.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/wither.ini.html</loc>
@@ -3719,6 +3794,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/yoda.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zend-assertions.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/zend-engine.ini.html</loc>

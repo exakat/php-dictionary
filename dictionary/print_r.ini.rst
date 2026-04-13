@@ -1,36 +1,45 @@
 .. _print_r:
 .. meta::
 	:description:
-		print_r(): print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format.
+		print_r(): ``print_r()`` is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: print_r()
-	:twitter:description: print_r(): print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format
+	:twitter:description: print_r(): ``print_r()`` is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: print_r()
 	:og:type: article
-	:og:description: print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format
+	:og:description: ``print_r()`` is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/print_r.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"print_r()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/print_r().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"print_r()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 06:14:50 +0000","dateModified":"Mon, 13 Apr 2026 06:14:50 +0000","description":"``print_r()`` is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/print_r().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 print_r()
 ---------
 
-print_r() is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. It's particularly helpful for debugging and understanding the structure of complex data structures in the PHP code. When using ``print_r()``, it displays the array or object's values and structure to the browser or the console.
+``print_r()`` is a built-in PHP function used for displaying the contents of an array or an object in a human-readable format. 
+
+It's particularly helpful for debugging and understanding the structure of complex data structures in the PHP code. 
+
+When using ``print_r()``, it displays the array or object's values and structure to the browser or the console.
+
+``print_r()`` has a second parameter, which controls the direct outputof the debug information to a string, instead of the standard output. This is useful to control the final destination of the message: it might be send to logging system, or duplicated.
+
+``print_r()`` carries the risk to have debugging tools published to production: while it doesn't provide any meaningful attack surface, it is a data leak. It has no eradication mechanism, like ``assert()``. 
+
 
 .. code-block:: php
    
    <?php
    
-   $a = 1;
+       $a = 1;
    
-   print_r($a);
+       print_r($a);
    /*
    Array
    (
@@ -43,4 +52,6 @@ print_r() is a built-in PHP function used for displaying the contents of an arra
 
 `Documentation <https://www.php.net/manual/en/function.print_r.php>`__
 
-Related : :ref:`Assertions <assert>`, :ref:`Echo <echo>`, :ref:`Print <print>`, :ref:`var_dump() <var_dump>`
+See also https://mikebranski.com/utilizing-phps-print_r-function/, https://reintech.io/blog/practical-guide-to-php-print-r-var-dump-functions
+
+Related : :ref:`Assertions <assert>`, , :ref:`Echo <echo>`, :ref:`Print <print>`, :ref:`var_dump() <var_dump>`

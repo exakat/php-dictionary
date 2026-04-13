@@ -1,3 +1,4 @@
+.. _sub:
 .. _sub-prefix:
 .. meta::
 	:description:
@@ -12,11 +13,11 @@
 	:og:title: Sub (prefix)
 	:og:type: article
 	:og:description: ``sub`` is a prefix, that is added to existing structure, to express that they are depending on a larger similar structure, which acts as a parent 
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sub-prefix.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/sub.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sub (prefix)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``sub`` is a prefix, that is added to existing structure, to express that they are depending on a larger similar structure, which acts as a parent ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sub (prefix).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sub (prefix)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:50:42 +0000","dateModified":"Fri, 10 Apr 2026 16:50:42 +0000","description":"``sub`` is a prefix, that is added to existing structure, to express that they are depending on a larger similar structure, which acts as a parent ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sub (prefix).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sub (prefix)

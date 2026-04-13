@@ -1,5 +1,5 @@
-.. _comparison-operator:
 .. _comparison:
+.. _comparison-operator:
 .. meta::
 	:description:
 		Comparison: Comparison operators check how two values related to each other.
@@ -13,11 +13,11 @@
 	:og:title: Comparison
 	:og:type: article
 	:og:description: Comparison operators check how two values related to each other
-	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison-operator.ini.html
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 16:33:47 +0000","dateModified":"Fri, 27 Mar 2026 16:33:47 +0000","description":"Comparison operators check how two values related to each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:45:23 +0000","dateModified":"Fri, 10 Apr 2026 16:45:23 +0000","description":"Comparison operators check how two values related to each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Comparison
@@ -37,9 +37,10 @@ Some of the functions include a loose or a strict version.
    
    <?php
    
-   if ($a == $b) {
-       print "a and b are equal";
-   }
+       if ($a == $b) {
+           print 'a and b are equal';
+       }
+   
    ?>
 
 

@@ -1,28 +1,28 @@
 .. _balanced:
 .. meta::
 	:description:
-		Balanced: A pair of token is balanced when the opening token has a corresponding unique closing token.
+		Balanced: A pair of tokens is balanced when the opening token has a corresponding and unique closing token.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Balanced
-	:twitter:description: Balanced: A pair of token is balanced when the opening token has a corresponding unique closing token
+	:twitter:description: Balanced: A pair of tokens is balanced when the opening token has a corresponding and unique closing token
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Balanced
 	:og:type: article
-	:og:description: A pair of token is balanced when the opening token has a corresponding unique closing token
+	:og:description: A pair of tokens is balanced when the opening token has a corresponding and unique closing token
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/balanced.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Balanced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A pair of token is balanced when the opening token has a corresponding unique closing token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Balanced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Balanced","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Apr 2026 07:13:22 +0000","dateModified":"Sat, 11 Apr 2026 07:13:22 +0000","description":"A pair of tokens is balanced when the opening token has a corresponding and unique closing token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Balanced.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Balanced
 --------
 
-A pair of token is balanced when the opening token has a corresponding unique closing token. 
+A pair of tokens is balanced when the opening token has a corresponding and unique closing token. 
 
 Tokens that needs balancing: 
 
@@ -32,7 +32,7 @@ Tokens that needs balancing:
 + square bracket, with ``[`` and ``]``
 + single quotes, with ``'``
 + double quotes, with ``"``
-+ oblique quotes, with `` \` ``
++ oblic quotes, with `` \` ``
 
 Quotes are the same for opening and closing tokens. 
 
@@ -46,12 +46,14 @@ Closing tokens are assigned to the last opening token: in case of mismatch, it p
    
    <?php
    
-   // This is a syntax error.
-   // $x = ([; 
-   
-   $y = '])(['; // this is OK inside quotes
-   // the curly brackets must be balanced when they enclose a variable or valid PHP expression.
-   // $y = "{$x"; 
+       // This is a syntax error.
+       // $x = ([; 
+       
+       $y = '])(['; // this is OK inside quotes
+       // the curly brackets must be balanced when they enclose a variable or valid PHP expression.
+       // $y = "{$x"; 
    
    ?>
 
+
+Related : :ref:`Parenthesis <parenthesis>`, :ref:`Bracket <bracket>`, :ref:`Curly Brackets <curly-bracket>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Oblic Quotes <oblic-quote>`

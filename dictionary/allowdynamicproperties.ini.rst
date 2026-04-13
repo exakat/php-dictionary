@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Allow Dynamic Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Allow Dynamic Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Allow Dynamic Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:22:59 +0000","dateModified":"Thu, 09 Apr 2026 17:22:59 +0000","description":"This is a native PHP attribute, which tells the engine that a class can dynamically create properties without declaring them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Allow Dynamic Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Allow Dynamic Properties
@@ -33,28 +33,28 @@ The attributes allow any dynamic property: there is no way to restrict this to a
    <?php
    
    class MyClass {
-   	function foo() {
-   		// creation of a property, without prior definition
-   		// This yields an error
-   		$this->p  = 1;
-   	}
+       function foo() {
+           // creation of a property, without prior definition
+           // This yields an error
+           $this->p  = 1;
+       }
    }
    
    #[AllowDynamicProperty]
    class MyOtherClass {
-   	function foo() {
-   		// creation of a property, without prior definition
-   		// This doesn't yields an error
-   		$this->p  = 1;
-   	}
+       function foo() {
+           // creation of a property, without prior definition
+           // This doesn't yields an error
+           $this->p  = 1;
+       }
    }
    
    class MyThirdClass extends Stdclass {
-   	function foo() {
-   		// creation of a property, without prior definition
-   		// This doesn't yields an error, yet no attribute
-   		$this->p  = 1;
-   	}
+       function foo() {
+           // creation of a property, without prior definition
+           // This doesn't yields an error, yet no attribute
+           $this->p  = 1;
+       }
    }
    
    ?>

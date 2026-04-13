@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Automagic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Automagic is a porte-manteau, merging automatic and magic","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Automagic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Automagic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:32:56 +0000","dateModified":"Thu, 09 Apr 2026 17:32:56 +0000","description":"Automagic is a porte-manteau, merging automatic and magic","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Automagic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Automagic
@@ -33,14 +33,16 @@ Automagic is mostly used as an adverb, automagically.
    
    <?php
    
-   var_dump(10 === '1e1');  // true
-   // PHP automagically converts the string into a number, and 1e1 yields 10. 
+       var_dump(10 === '1e1');  // true
+       // PHP automagically converts the string into a number, and 1e1 yields 10. 
    
-   $array = [null => 1, '33' => 2];
-   echo $array[0]; // 1
-   // PHP converts the NULL into 0
-   echo $array[33]; // 2
-   // PHP converts numeric strings to strings
+       $array = [null => 1, '33' => 2];
+       echo $array[0]; // 1
+       // PHP converts the NULL into 0
+       echo $array[33]; // 2
+       // PHP converts numeric strings to strings
    
    ?>
 
+
+Related : :ref:`Magic Methods <magic-method>`, :ref:`Magic Constants <magic-constant>`

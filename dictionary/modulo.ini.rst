@@ -1,28 +1,28 @@
 .. _modulo:
 .. meta::
 	:description:
-		Modulo: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another.
+		Modulo: Modulo is the mathematical operation: it produces the remaining of the integer division of a number by another.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Modulo
-	:twitter:description: Modulo: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another
+	:twitter:description: Modulo: Modulo is the mathematical operation: it produces the remaining of the integer division of a number by another
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Modulo
 	:og:type: article
-	:og:description: Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another
+	:og:description: Modulo is the mathematical operation: it produces the remaining of the integer division of a number by another
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/modulo.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Modulo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Modulo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Modulo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:10:07 +0000","dateModified":"Thu, 09 Apr 2026 06:10:07 +0000","description":"Modulo is the mathematical operation: it produces the remaining of the integer division of a number by another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Modulo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Modulo
 ------
 
-Modulo is the mathematical operation : it produces the remaining of the integer division of a number by another. 
+Modulo is the mathematical operation: it produces the remaining of the integer division of a number by another. 
 
 It also works with booleans and null, which are converted to integers. Other types are not allowed for modulo and yield a fatal error.
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Isset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 16:32:40 +0000","dateModified":"Fri, 27 Mar 2026 16:32:40 +0000","description":"``isset()`` is a function that determines if a variable is declared and is different than ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Isset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Isset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 05:38:41 +0000","dateModified":"Mon, 13 Apr 2026 05:38:41 +0000","description":"``isset()`` is a function that determines if a variable is declared and is different than ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Isset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Isset
@@ -48,6 +48,6 @@ Isset
 
 `Documentation <https://www.php.net/manual/en/function.isset.php>`__
 
-See also https://phppot.com/php/isset-vs-empty-vs-is_null/
+See also https://phppot.com/php/isset-vs-empty-vs-is_null/, https://php-tips.readthedocs.io/en/latest/tips/isset-empty-valued.html
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__isset() Method <-__isset>`, :ref:`array_key_exists() <array_key_exists>`

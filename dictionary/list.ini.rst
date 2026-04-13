@@ -1,36 +1,36 @@
 .. _list:
 .. meta::
 	:description:
-		List: List() acts as the contrary to array(): it will break an array into individual elements, and assign them to the arguments of the list.
+		List: ``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: List
-	:twitter:description: List: List() acts as the contrary to array(): it will break an array into individual elements, and assign them to the arguments of the list
+	:twitter:description: List: ``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: List
 	:og:type: article
-	:og:description: List() acts as the contrary to array(): it will break an array into individual elements, and assign them to the arguments of the list
+	:og:description: ``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"List","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:47:18 +0000","dateModified":"Mon, 16 Mar 2026 14:47:18 +0000","description":"List() acts as the contrary to array(): it will break an array into individual elements, and assign them to the arguments of the list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/List.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"List","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 06:04:04 +0000","dateModified":"Mon, 13 Apr 2026 06:04:04 +0000","description":"``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/List.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 List
 ----
 
-List() acts as the contrary to array(): it will break an array into individual elements, and assign them to the arguments of the list. 
+``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list. 
 
-List() also has a short array version, which is ``[ ]`` the square brackets. Those square brackets are only appearing on the left side of an assignation. 
+``list()`` also has a short array version, which is ``[ ]`` the square brackets. Those square brackets are only appearing on the left side of an assignation. 
 
-list() may omit extracted values by skipping their value, and leaving seemingly empty arguments. List() also supports double-arrow notation, where the key is provided. 
+``list()`` may omit extracted values by skipping their value, and leaving seemingly empty arguments. ``list()`` also supports double-arrow notation, where the key is provided. 
 
-list() may be nested. It may also be used with foreach() structures.
+``list()`` may be nested. It may also be used with foreach() structures.
 
-list() looks like a function, though it is the only one to appears on the left part of an assignation, and is actually a language-construct.
+``list()`` looks like a function, though it is the only one to appears on the left part of an assignation, and is actually a language-construct.
 
 A list is also the name given to arrays where the index are the automatic ones. 
 
@@ -64,4 +64,4 @@ A list is also the name given to arrays where the index are the automatic ones.
 
 See also https://markbakeruk.net/2022/06/06/list-o-mania/
 
-Related : :ref:`Array <array>`
+Related : :ref:`Array <array>`, :ref:`Comma <comma>`, :ref:`Double Arrow <double-arrow>`, :ref:`Square Brackets <square-bracket>`, :ref:`Tree <tree>`

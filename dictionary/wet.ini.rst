@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Write Everything Twice (WET)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Write Everything Twice, WET, is a principle of software development aimed at reducing abstraction levels and decoupling code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Write Everything Twice (WET).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Write Everything Twice (WET)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 09:31:41 +0000","dateModified":"Wed, 08 Apr 2026 09:31:41 +0000","description":"Write Everything Twice, WET, is a principle of software development aimed at reducing abstraction levels and decoupling code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Write Everything Twice (WET).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Write Everything Twice (WET)
@@ -31,3 +31,5 @@ This principle's nemesis is DRY: Don't Repeat Yourself.
 `Documentation <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
 
 See also https://medium.com/@nrk25693/dry-or-wet-and-why-867ac3096483, https://dev.to/nettab/we-should-all-be-writing-wet-code-3d95
+
+Related : :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`Design Pattern <pattern>`

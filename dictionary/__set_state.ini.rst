@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__set_state() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Mar 2026 15:49:54 +0000","dateModified":"Fri, 27 Mar 2026 15:49:54 +0000","description":"``__set_state()`` is a magic method: it is called when an object has been exported with ``var_export()``, and has to be instantiated again","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__set_state() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__set_state() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 17:20:16 +0000","dateModified":"Thu, 09 Apr 2026 17:20:16 +0000","description":"``__set_state()`` is a magic method: it is called when an object has been exported with ``var_export()``, and has to be instantiated again","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__set_state() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __set_state() Method
@@ -35,20 +35,20 @@ The ``__set_state()`` method has no counterpart: ``var_export()`` do not use any
    <?php
    
    class X {
-   	private $values = ['a' => 1,
-   					   'b' => 2,
-   					   ];
+       private $values = ['a' => 1,
+                          'b' => 2,
+                          ];
    
-   	// Checks the dictionary, or return 0
+       // Checks the dictionary, or return 0
        public static function __set_state($array) {
-       	$object = new self();
+           $object = new self();
    
-   		// This takes advantage of PHP object invasion
-       	$object->values['a'] = $array['a'] ?? '0';
-       	$object->values['b'] = $array['b'] ?? '0';
-   		
-   		return $object;
-   	}
+           // This takes advantage of PHP object invasion
+           $object->values['a'] = $array['a'] ?? '0';
+           $object->values['b'] = $array['b'] ?? '0';
+           
+           return $object;
+       }
    }
    
    ?>
