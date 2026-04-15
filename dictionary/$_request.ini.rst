@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_REQUEST","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_REQUEST.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$_REQUEST","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 07:49:50 +0000","dateModified":"Wed, 15 Apr 2026 07:49:50 +0000","description":"An associative array of variables, transmitted to the current script via the HTTP GET and HTTP methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_REQUEST.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_REQUEST
@@ -34,20 +34,20 @@ The received values are all strings or arrays. They are strings by default, and 
    
    <?php
    
-   // https://www.example.com/index.php?x=1
-   $_REQUEST['x'] === '1';
-   
-   // POST y=abc
-   $_REQUEST['y'] === 'abc';
-   
-   // https://www.example.com/index.php?z[]=def&z[]=ghi
-   $_REQUEST['z'] === ['def', 'ghi'];
+       // https://www.example.com/index.php?x=1
+       $_REQUEST['x'] === '1';
+       
+       // POST y=abc
+       $_REQUEST['y'] === 'abc';
+       
+       // https://www.example.com/index.php?z[]=def&z[]=ghi
+       $_REQUEST['z'] === ['def', 'ghi'];
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-See also https://x-team.com/magazine/basics-php-request, http://www.shodor.org/~elised/phpTutorial/nileshc_getreqpost.php
+See also https://x-team.com/magazine/basics-php-request, https://medium.com/@otabekjurabekov3/comprehensive-explanation-of-phps-request-superglobal-for-form-data-handling-6034ad14827d
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`Form <form>`, :ref:`Incoming Data <incoming-data>`, :ref:`variable_order <variable_order>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"YAML Ain't Markup Language (YAML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Apr 2026 09:30:35 +0000","dateModified":"Wed, 08 Apr 2026 09:30:35 +0000","description":"``YAML``, which stands for ``YAML Ain't Markup Language``, is a human-readable data serialization format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/YAML Ain't Markup Language (YAML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"YAML Ain't Markup Language (YAML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 07:54:21 +0000","dateModified":"Wed, 15 Apr 2026 07:54:21 +0000","description":"``YAML``, which stands for ``YAML Ain't Markup Language``, is a human-readable data serialization format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/YAML Ain't Markup Language (YAML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 YAML Ain't Markup Language (YAML)
@@ -45,7 +45,7 @@ YAML Ain't Markup Language (YAML)
 
 `Documentation <https://yaml.org/>`__
 
-See also https://pecl.php.net/package/yaml_, https://www.php.net/manual/en/book.yaml.php
+See also https://pecl.php.net/package/yaml, https://www.php.net/manual/en/book.yaml.php
 
 Related : :ref:`Parquet <parquet>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Format <format>`
 

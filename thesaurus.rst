@@ -15,7 +15,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Command Line Interface (CLI) <cli>`
 + :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`
 + :ref:`Common Interface Gateway (CGI) <cgi>`
-+ :ref:`Common Vulnerabilities and Exposures (CVE) <cve>`
++ :ref:`Common Vulnerabilities And Exposures (CVE) <cve>`
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Delivery (CD) <cd>`
 + :ref:`Continuous Integration (CI) <ci>`
@@ -78,6 +78,7 @@ List of acronyms, used in this dictionary.
 + :ref:`RFC <rfc>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
 + :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
++ :ref:`Remote Code Execution (RCE) <rce>`
 + :ref:`Remote Procedure Call (RPC) <rpc>`
 + :ref:`Request For Change (RFC) <rfchange>`
 + :ref:`Reserved For Future Use (RFU) <rfu>`
@@ -174,7 +175,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Code Smell <code-smell>`
 + :ref:`Command Bus <command-bus>`
 + :ref:`Compatibility <compatibility>`
++ :ref:`Compile <compile>`
 + :ref:`Complexity <complexity>`
++ :ref:`Component <component>`
 + :ref:`Concatenative <concatenative>`
 + :ref:`Condition <condition>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
@@ -212,6 +215,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
++ :ref:`Explicit <explicit>`
 + :ref:`Expression <expression>`
 + :ref:`Extensions <extension>`
 + :ref:`Facade <facade>`
@@ -308,6 +312,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text Encoding <encoding-text>`
++ :ref:`To Crypt <crypt>`
++ :ref:`To Decrypt <decrypt>`
 + :ref:`Traversal <traversal>`
 + :ref:`Truthy <truthy>`
 + :ref:`Tutorial <tutorial>`
@@ -356,10 +362,12 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 + :ref:`Error Reporting <error_reporting>`
 + :ref:`Preappend File Directive <auto_prepend_file>`
 + :ref:`default_charset <default_charset>`
++ :ref:`display_errors <display_errors>`
 + :ref:`html_errors <html_errors>`
 + :ref:`include_path <include_path>`
 + :ref:`max_execution_time <max_execution_time>`
 + :ref:`memory_limit <memory_limit>`
++ :ref:`open_basedir <open_basedir>`
 + :ref:`php.ini <php.ini>`
 + :ref:`register_argc_argv <register_argc_argv>`
 + :ref:`variable_order <variable_order>`
@@ -449,6 +457,7 @@ List of PHP keywords and reserved names.
 + :ref:`Var <var>`
 + :ref:`While <while>`
 + :ref:`Yield <yield>`
++ :ref:`extends <extends>`
 + :ref:`implements <implements>`
 + :ref:`include <include>`
 + :ref:`parent <parent>`
@@ -508,6 +517,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Type System <type>`
 + :ref:`Typed Property <typed-property>`
++ :ref:`Union Type <union-type>`
 + :ref:`Void <void>`
 + :ref:`resource <resource>`
 + :ref:`subtype <subtype>`

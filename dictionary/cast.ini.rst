@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cast Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Apr 2026 07:22:35 +0000","dateModified":"Sat, 11 Apr 2026 07:22:35 +0000","description":"Cast operators change the type of the variable to the desired type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cast Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cast Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 14:33:12 +0000","dateModified":"Tue, 14 Apr 2026 14:33:12 +0000","description":"Cast operators change the type of the variable to the desired type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cast Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cast Operator
@@ -48,6 +48,6 @@ The available casts are:
 
 `Documentation <https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`__
 
-See also https://tutorials.supunkavinda.blog/php/type-casting
+See also https://dev.to/altsyset/a-detailed-look-into-php-type-casting-4m6d, https://laranepal.com/blog/mastering-data-type-conversion-in-php-through-type-casting, https://phplang.org/spec/08-conversions.html
 
 Related : :ref:`__toString() Method <-__tostring>`, :ref:`Type Juggling <type-juggling>`, :ref:`ArrayObject <arrayobject>`, :ref:`Convert <convert>`, :ref:`Non-numeric <non-numeric>`, :ref:`Sign <sign>`, :ref:`array_keys() <array_keys>`, :ref:`Boolean <boolean>`, :ref:`Golf <golf>`, :ref:`Number <number>`

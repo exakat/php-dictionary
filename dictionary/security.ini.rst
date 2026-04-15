@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Security","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Apr 2026 19:54:55 +0000","dateModified":"Mon, 06 Apr 2026 19:54:55 +0000","description":"Security is a whole matter: it involves implementing measures and best practices to protect your application and its data from malicious attacks and vulnerabilities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Security.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Security","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:39:07 +0000","dateModified":"Wed, 15 Apr 2026 20:39:07 +0000","description":"Security is a whole matter: it involves implementing measures and best practices to protect your application and its data from malicious attacks and vulnerabilities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Security.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Security
@@ -40,4 +40,4 @@ Security applies to PHP itself, and also to the application written with it.
 
 `Documentation <https://www.php.net/manual/en/security.php>`__
 
-Related : :ref:`Audit Trail <audit-trail>`, :ref:`Framework <framework>`, :ref:`Taint Analysis <taint>`, :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
+Related : :ref:`Audit Trail <audit-trail>`, :ref:`Framework <framework>`, :ref:`Taint Analysis <taint>`, :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`, :ref:`Data Leak <data-leak>`, :ref:`Nonce <nonce>`, :ref:`OWASP <owasp>`, :ref:`Sensitive Parameter <sensitiveparameter>`

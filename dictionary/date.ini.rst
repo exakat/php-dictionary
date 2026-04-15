@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dates","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:55 +0000","dateModified":"Mon, 16 Mar 2026 14:40:55 +0000","description":"These functions allow to get the date and time from the server where the application is running","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dates.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dates","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 06:33:19 +0000","dateModified":"Tue, 14 Apr 2026 06:33:19 +0000","description":"These functions allow to get the date and time from the server where the application is running","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dates.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dates
@@ -27,13 +27,15 @@ These functions allow to get the date and time from the server where the applica
 .. code-block:: php
    
    <?php
-   $dt = new DateTimeImmutable('2015-11-01 00:00:00', new DateTimeZone('America/New_York'));
-   echo 'Start: ', $dt->format('Y-m-d H:i:s P'), PHP_EOL;
-   $dt = $dt->add(new DateInterval('PT3H'));
-   echo 'End:   ', $dt->format('Y-m-d H:i:s P'), PHP_EOL;
+   
+       $dt = new DateTimeImmutable('2015-11-01 00:00:00', new DateTimeZone('America/New_York'));
+       echo 'Start: ', $dt->format('Y-m-d H:i:s P'), PHP_EOL;
+       $dt = $dt->add(new DateInterval('PT3H'));
+       echo 'End:   ', $dt->format('Y-m-d H:i:s P'), PHP_EOL;
+   
    ?>
 
 
 `Documentation <https://www.php.net/datetime>`__
 
-See also https://alexwebdevelop.com/php-time-handling-part-1/, https://alexwebdevelop.com/php-time-handling-part-2/, https://alexwebdevelop.com/php-time-handling-part-3/
+See also https://dev.to/xwero/dates-and-periods-in-php-46o1, https://css-tricks.com/php-date-and-time-recipes/

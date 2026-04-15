@@ -2,30 +2,30 @@
 .. _array-short-syntax:
 .. meta::
 	:description:
-		Array: array is the array structure in PHP.
+		Array: ``array`` is the array structure in PHP.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Array
-	:twitter:description: Array: array is the array structure in PHP
+	:twitter:description: Array: ``array`` is the array structure in PHP
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Array
 	:og:type: article
-	:og:description: array is the array structure in PHP
+	:og:description: ``array`` is the array structure in PHP
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 06:08:35 +0000","dateModified":"Mon, 13 Apr 2026 06:08:35 +0000","description":"array is the array structure in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:23:31 +0000","dateModified":"Wed, 15 Apr 2026 20:23:31 +0000","description":"``array`` is the array structure in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Array
 -----
 
-array is the array structure in PHP. 
+``array`` is the array structure in PHP. 
 
-It may be written as array() or with square brackets ``[]``, which is also called the array short syntax.
+It may be written as ``array()`` or with square brackets ``[]``, which is also called the array short syntax.
 
 The keys that serve as index in the array may be string or integers. 
 

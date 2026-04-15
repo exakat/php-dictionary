@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pure Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Mar 2026 19:50:44 +0000","dateModified":"Sat, 21 Mar 2026 19:50:44 +0000","description":"A pure function is a function that adheres to two fundamental principles:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pure Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pure Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:42:30 +0000","dateModified":"Wed, 15 Apr 2026 20:42:30 +0000","description":"A pure function is a function that adheres to two fundamental principles:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pure Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pure Function
@@ -33,9 +33,9 @@ A pure function does not modify any external state or data. It does not change v
    
    <?php
    
-   function add(int $a, int $b): int {
-       return $a + $b;
-   }
+       function add(int $a, int $b): int {
+           return $a + $b;
+       }
    
    ?>
 
@@ -43,3 +43,5 @@ A pure function does not modify any external state or data. It does not change v
 `Documentation <https://en.wikipedia.org/wiki/Pure_function>`__
 
 See also https://leanpub.com/read/thinking-functionally-in-php/leanpub-auto-pure-functions, https://agiroloki.medium.com/functional-programming-in-php-part-2-9db0f5443cdf
+
+Related : :ref:`Functions <function>`

@@ -139,6 +139,7 @@ Index
    dictionary/backward-incompatible.ini
    dictionary/badfunctioncallexception.ini
    dictionary/balanced.ini
+   dictionary/bang.ini
    dictionary/base64.ini
    dictionary/basename.ini
    dictionary/batch.ini
@@ -166,6 +167,7 @@ Index
    dictionary/bracket.ini
    dictionary/bracketless.ini
    dictionary/branch.ini
+   dictionary/breach.ini
    dictionary/break.ini
    dictionary/browscap.ini
    dictionary/bucket.ini
@@ -248,6 +250,7 @@ Index
    dictionary/comparison.ini
    dictionary/compatibility.ini
    dictionary/compile-time.ini
+   dictionary/compile.ini
    dictionary/complexity.ini
    dictionary/compliance.ini
    dictionary/component.ini
@@ -294,6 +297,7 @@ Index
    dictionary/crc32.ini
    dictionary/cron.ini
    dictionary/crud.ini
+   dictionary/crypt.ini
    dictionary/cryptography.ini
    dictionary/csrf.ini
    dictionary/csv-injection.ini
@@ -308,6 +312,7 @@ Index
    dictionary/dangling-reference.ini
    dictionary/dao.ini
    dictionary/data-container.ini
+   dictionary/data-leak.ini
    dictionary/data-mapper.ini
    dictionary/data.ini
    dictionary/database.ini
@@ -331,6 +336,7 @@ Index
    dictionary/declare.ini
    dictionary/decorator.ini
    dictionary/decoupling.ini
+   dictionary/decrypt.ini
    dictionary/deep-clone.ini
    dictionary/default-parameter.ini
    dictionary/default-value.ini
@@ -363,12 +369,14 @@ Index
    dictionary/disable-classes.ini
    dictionary/disable-functions.ini
    dictionary/disable.ini
+   dictionary/display_errors.ini
    dictionary/division.ini
    dictionary/divisionbyzeroerror.ini
    dictionary/dnf-type.ini
    dictionary/dns.ini
    dictionary/do-while.ini
    dictionary/docblock.ini
+   dictionary/docker-container.ini
    dictionary/documentation.ini
    dictionary/dollar.ini
    dictionary/domainexception.ini
@@ -485,6 +493,7 @@ Index
    dictionary/flamegraph.ini
    dictionary/float.ini
    dictionary/fluent-interface.ini
+   dictionary/fnmatch.ini
    dictionary/folklore.ini
    dictionary/for.ini
    dictionary/foreach.ini
@@ -568,6 +577,7 @@ Index
    dictionary/identity-comparison.ini
    dictionary/if-then.ini
    dictionary/iffectation.ini
+   dictionary/image.ini
    dictionary/imagick.ini
    dictionary/imagickexception.ini
    dictionary/imagickpixelexception.ini
@@ -702,6 +712,7 @@ Index
    dictionary/method-overloading.ini
    dictionary/method.ini
    dictionary/methodcall.ini
+   dictionary/metrics.ini
    dictionary/micro-optimisation.ini
    dictionary/micro-second.ini
    dictionary/microframework.ini
@@ -926,6 +937,7 @@ Index
    dictionary/quality.ini
    dictionary/query-string.ini
    dictionary/query.ini
+   dictionary/question-mark.ini
    dictionary/queue.ini
    dictionary/quine.ini
    dictionary/quoted-printable.ini
@@ -1088,6 +1100,7 @@ Index
    dictionary/stdout.ini
    dictionary/stealth-generator.ini
    dictionary/storage-system.ini
+   dictionary/str_contains.ini
    dictionary/stream.ini
    dictionary/strict-comparison.ini
    dictionary/strict_types.ini
@@ -1260,6 +1273,7 @@ Index
    dictionary/wrapper.ini
    dictionary/writable.ini
    dictionary/writing.ini
+   dictionary/xml-database.ini
    dictionary/xml.ini
    dictionary/xmlreader.ini
    dictionary/xmlwriter.ini

@@ -148,6 +148,7 @@ PHP Dictionary
    * :ref:`Backward Incompatible <backward-incompatible>`
    * :ref:`BadFunctioncallException <badfunctioncallexception>`
    * :ref:`Balanced <balanced>`
+   * :ref:`Bang ! <bang>`
    * :ref:`Base 64 Encoding <base64>`
    * :ref:`Batch <batch>`
    * :ref:`Bcmath <bcmath>`
@@ -173,6 +174,7 @@ PHP Dictionary
    * :ref:`Bracket <bracket>`
    * :ref:`Bracketless <bracketless>`
    * :ref:`Branch <branch>`
+   * :ref:`Breach <breach>`
    * :ref:`Break <break>`
    * :ref:`Broken Object Level Authorization (BOLA) <bola>`
    * :ref:`Bucket <bucket>`
@@ -256,11 +258,12 @@ PHP Dictionary
    * :ref:`Comments <comment>`
    * :ref:`Commit <commit>`
    * :ref:`Common Interface Gateway (CGI) <cgi>`
-   * :ref:`Common Vulnerabilities and Exposures (CVE) <cve>`
+   * :ref:`Common Vulnerabilities And Exposures (CVE) <cve>`
    * :ref:`Community <community>`
    * :ref:`Compact Array <compact-array>`
    * :ref:`Comparison <comparison>`
    * :ref:`Compatibility <compatibility>`
+   * :ref:`Compile <compile>`
    * :ref:`Compile Time <compile-time>`
    * :ref:`Complexity <complexity>`
    * :ref:`Compliance <compliance>`
@@ -329,6 +332,7 @@ PHP Dictionary
    * :ref:`Data <data>`
    * :ref:`Data Access Object (DAO) <dao>`
    * :ref:`Data Container <data-container>`
+   * :ref:`Data Leak <data-leak>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
    * :ref:`Data Structure <ds>`
@@ -383,6 +387,7 @@ PHP Dictionary
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
    * :ref:`Do While <do-while>`
    * :ref:`Docblock <docblock>`
+   * :ref:`Docker Container <docker-container>`
    * :ref:`Documentation <documentation>`
    * :ref:`Dollar / <dollar>`
    * :ref:`Domain Design Driven (DDD) <ddd>`
@@ -412,6 +417,7 @@ PHP Dictionary
    * :ref:`defined() <defined>`
    * :ref:`delayedtargetvalidation <delayedtargetvalidation>`
    * :ref:`dirname <dirname>`
+   * :ref:`display_errors <display_errors>`
 * E
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
@@ -519,6 +525,7 @@ PHP Dictionary
    * :ref:`file_get_contents() <file_get_contents>`
    * :ref:`file_put_contents() <file_put_contents>`
    * :ref:`filter <filter>`
+   * :ref:`fnmatch() <fnmatch>`
    * :ref:`ftp:// <wrapper-ftp>`
    * :ref:`func_get_args() <func_get_args>`
 * G
@@ -586,6 +593,7 @@ PHP Dictionary
    * :ref:`Identity Comparison <identity-comparison>`
    * :ref:`If Then Else <if-then>`
    * :ref:`Iffectation <iffectation>`
+   * :ref:`Image <image>`
    * :ref:`ImagickException <imagickexception>`
    * :ref:`ImagickPixelException <imagickpixelexception>`
    * :ref:`Immutable <immutable>`
@@ -715,6 +723,7 @@ PHP Dictionary
    * :ref:`Method Overloading <method-overloading>`
    * :ref:`Method Signature <signature>`
    * :ref:`Methodcall <methodcall>`
+   * :ref:`Metrics <metrics>`
    * :ref:`Micro-framework <microframework>`
    * :ref:`Micro-optimisation <micro-optimisation>`
    * :ref:`Micro-second <micro-second>`
@@ -950,6 +959,7 @@ PHP Dictionary
    * :ref:`Quality <quality>`
    * :ref:`Query <query>`
    * :ref:`Query String <query-string>`
+   * :ref:`Question Mark ? <question-mark>`
    * :ref:`Queue <queue>`
    * :ref:`Quine <quine>`
    * :ref:`Quoted Printable <quoted-printable>`
@@ -1146,6 +1156,7 @@ PHP Dictionary
    * :ref:`sprintf <sprintf>`
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
+   * :ref:`str_contains() <str_contains>`
    * :ref:`strict_types <strict_types>`
    * :ref:`strpos <strpos>`
    * :ref:`subtype <subtype>`
@@ -1171,6 +1182,8 @@ PHP Dictionary
    * :ref:`Tick <tick>`
    * :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
    * :ref:`Time Travel <time-travel>`
+   * :ref:`To Crypt <crypt>`
+   * :ref:`To Decrypt <decrypt>`
    * :ref:`Token <token>`
    * :ref:`Token Oriented Object Notation (TOON) <toon>`
    * :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
@@ -1282,6 +1295,7 @@ PHP Dictionary
    * :ref:`Write Everything Twice (WET) <wet>`
    * :ref:`Writing <writing>`
 * X
+   * :ref:`XML Database <xml-database>`
    * :ref:`XMLReader <xmlreader>`
    * :ref:`XMLwriter <xmlwriter>`
    * :ref:`XXTEA <xxtea>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:03 +0000","dateModified":"Mon, 16 Mar 2026 14:41:03 +0000","description":"Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 15:44:27 +0000","dateModified":"Tue, 14 Apr 2026 15:44:27 +0000","description":"Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Scaling
@@ -26,4 +26,6 @@ Scaling refers to the ability of am application to handle increased workload or 
 
 There are several aspects to consider when scaling an application: vertical scaling, horizontal scaling, caching, asynchronous processing, code optimisation, monitoring.
 
-See also https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466, https://www.digitalocean.com/blog/horizontally-scaling-php-applications
+See also https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466, https://www.digitalocean.com/blog/horizontally-scaling-php-applications, https://dev.to/olatejuthedev/building-scalable-php-applications-best-practices-for-performance-and-security-56jj
+
+Related : :ref:`Performance <performance>`, :ref:`Architecture <architecture>`, , 

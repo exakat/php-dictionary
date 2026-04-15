@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transpile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Apr 2026 18:55:44 +0000","dateModified":"Sun, 12 Apr 2026 18:55:44 +0000","description":"Transpiling, short for \"source-to-source compiling,\" is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transpile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transpile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 08:42:31 +0000","dateModified":"Wed, 15 Apr 2026 08:42:31 +0000","description":"Transpiling, short for \"source-to-source compiling,\" is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transpile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Transpile
@@ -26,8 +26,11 @@ Transpiling, short for "source-to-source compiling," is a process in software de
 
 Transpilation is often used in the context of modern web development. For example, many developers write code using newer features of JavaScript, which may not be supported by older web browsers. In such cases, the code can be transpiled to an older version of JavaScript that is more widely supported.
 
+There are also languages that are converted to PHP, such as Haxe.
+
+
 `Documentation <https://kinsta.com/blog/transpiling-php/>`__
 
-See also https://www.codeconvert.ai/php-to-kotlin-converter, https://joeferguson.me/php-to-rust-via-copilot/
+See also https://www.codeconvert.ai/php-to-kotlin-converter, https://joeferguson.me/php-to-rust-via-copilot/, https://haxe.org/
 
-Related : , :ref:`Linting <lint>`, :ref:`Syntax <syntax>`
+Related : :ref:`Compile <compile>`, :ref:`Linting <lint>`, :ref:`Syntax <syntax>`

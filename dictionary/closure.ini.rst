@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:50:59 +0000","dateModified":"Mon, 16 Mar 2026 14:50:59 +0000","description":"Closures are anonymous functions: functions without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 07:46:06 +0000","dateModified":"Wed, 15 Apr 2026 07:46:06 +0000","description":"Closures are anonymous functions: functions without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Closure
@@ -31,13 +31,22 @@ They are close to the arrow-functions. They are also created with the ``...`` op
    
    <?php
    
-   $closure = function ($a) use ($b) {
-       return $a + $b + 1;
-   };
+       $closure = function ($a) use ($b) {
+           return $a + $b + 1;
+       };
+       print get_class($closure); // Closure
+   
+       $closure2 = strtolower(...);
+       print get_class($closure2); // Closure
+   
+       $closure3 = fn($a, $b) => $a + $b;
+       print get_class($closure3); // Closure
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/functions.anonymous.php>`__
+
+See also https://wiki.php.net/rfc/closure-optimizations
 
 Related : :ref:`static <static>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`, :ref:`Anonymous Class <anonymous-class>`, :ref:`Closure Binding <closure-binding>`, :ref:`Functions <function>`, :ref:`Return <return>`, :ref:`Sort <sort>`, :ref:`Use <use>`, :ref:`Callable Arrays <array-callable>`, :ref:`Array Callback <array-callback>`, :ref:`Bind <bind>`, :ref:`Inherited Variable <inherited-variable>`, :ref:`Closure Class <closure-class>`

@@ -1,28 +1,28 @@
 .. _false:
 .. meta::
 	:description:
-		False: false has two usages, as PHP keyword: the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true.
+		False: ``false`` has two usages, as PHP keyword: the opposite of ``true``, as a boolean value and a special type for functions that may return a boolean, but not ``true``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: False
-	:twitter:description: False: false has two usages, as PHP keyword: the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true
+	:twitter:description: False: ``false`` has two usages, as PHP keyword: the opposite of ``true``, as a boolean value and a special type for functions that may return a boolean, but not ``true``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: False
 	:og:type: article
-	:og:description: false has two usages, as PHP keyword: the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true
+	:og:description: ``false`` has two usages, as PHP keyword: the opposite of ``true``, as a boolean value and a special type for functions that may return a boolean, but not ``true``
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"False","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Apr 2026 06:09:56 +0000","dateModified":"Thu, 09 Apr 2026 06:09:56 +0000","description":"false has two usages, as PHP keyword: the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/False.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"False","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:27:48 +0000","dateModified":"Wed, 15 Apr 2026 20:27:48 +0000","description":"``false`` has two usages, as PHP keyword: the opposite of ``true``, as a boolean value and a special type for functions that may return a boolean, but not ``true``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/False.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 False
 -----
 
-false has two usages, as PHP keyword: the opposite of true, as a boolean value and a special type for functions that may return a boolean, but not true.
+``false`` has two usages, as PHP keyword: the opposite of ``true``, as a boolean value and a special type for functions that may return a boolean, but not ``true``.
 
 .. code-block:: php
    

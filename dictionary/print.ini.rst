@@ -1,40 +1,40 @@
 .. _print:
 .. meta::
 	:description:
-		Print: print() is a PHP language construct used to output text to the browser or the output stream.
+		Print: ``print()`` is a PHP language construct used to output text to the browser or the output stream.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Print
-	:twitter:description: Print: print() is a PHP language construct used to output text to the browser or the output stream
+	:twitter:description: Print: ``print()`` is a PHP language construct used to output text to the browser or the output stream
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Print
 	:og:type: article
-	:og:description: print() is a PHP language construct used to output text to the browser or the output stream
+	:og:description: ``print()`` is a PHP language construct used to output text to the browser or the output stream
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/print.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Print","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"print() is a PHP language construct used to output text to the browser or the output stream","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Print.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Print","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:37:10 +0000","dateModified":"Wed, 15 Apr 2026 20:37:10 +0000","description":"``print()`` is a PHP language construct used to output text to the browser or the output stream","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Print.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Print
 -----
 
-print() is a PHP language construct used to output text to the browser or the output stream. It is often used to display information to users on a web page or to debug and inspect variable values during development. The print construct can be used in two forms: with or without parentheses.
+``print()`` is a PHP language construct used to output text to the browser or the output stream. It is often used to display information to users on a web page or to debug and inspect variable values during development. The print construct can be used in two forms: with or without parentheses.
 
-print() is a language construct of PHP. It only accepts one argument and it returns 1. 
+``print()`` is a language construct of PHP. It only accepts one argument and it returns 1. 
 
-print() also has a closely related function called print_r(), used for debugging.
+``print()`` also has a closely related function called ``print_r()``, used for debugging.
 
 .. code-block:: php
    
    <?php
    
-   print 'Hello';
-   
-   print(' world!');
+       print 'Hello';
+       
+       print(' world!');
    
    ?>
 

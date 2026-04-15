@@ -51,4 +51,4 @@ To convert may also be called cast, encode/decode, escape, crypt/decrypt, hash, 
    ?>
 
 
-Related : :ref:`Cast Operator <cast>`, , , :ref:`Escape Data <escape>`, , , :ref:`Hash <hash>`, :ref:`Sign <sign>`
+Related : :ref:`Cast Operator <cast>`, , , :ref:`Escape Data <escape>`, :ref:`To Crypt <crypt>`, :ref:`To Decrypt <decrypt>`, :ref:`Hash <hash>`, :ref:`Sign <sign>`

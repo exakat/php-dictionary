@@ -2,49 +2,49 @@
 .. _parent-class:
 .. meta::
 	:description:
-		parent: parent is one of the three special keywords that are used to access properties or methods from inside the class definition.
+		parent: ``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: parent
-	:twitter:description: parent: parent is one of the three special keywords that are used to access properties or methods from inside the class definition
+	:twitter:description: parent: ``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: parent
 	:og:type: article
-	:og:description: parent is one of the three special keywords that are used to access properties or methods from inside the class definition
+	:og:description: ``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"parent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 08:28:17 +0000","dateModified":"Mon, 30 Mar 2026 08:28:17 +0000","description":"parent is one of the three special keywords that are used to access properties or methods from inside the class definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/parent.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"parent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:36:15 +0000","dateModified":"Wed, 15 Apr 2026 20:36:15 +0000","description":"``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/parent.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 parent
 ------
 
-parent is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the first parent class, or any or their own parents. In particular, when searching for methods or properties, it may skip the direct parent, and land on one of the parent above.
+``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition. It relates to the first parent class, or any or their own parents. In particular, when searching for methods or properties, it may skip the direct parent, and land on one of the parent above.
 
 ``parent`` represents the first parent of the class, and then, recursively, all parents of that class. 
 
 ``parent`` is the supertype of the current class. 
 
-In a trait, parent represents the host class's parent, not the trait own parent. In fact, the trait has no parent.
+In a trait, ``parent`` represents the host class's parent, not the trait own parent. In fact, the trait itself has no parent.
 
 .. code-block:: php
    
    <?php
    
-   class W {
-       protected const X = 1;
-   }
-   
-   class X extends W {
-       function foo() {
-           // could also be written as \W::C; here
-           return parent::C;
+       class W {
+           protected const X = 1;
        }
-   }
+       
+       class X extends W {
+           function foo() {
+               // could also be written as \W::C; here
+               return parent::C;
+           }
+       }
    
    ?>
 

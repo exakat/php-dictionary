@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Unicode","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Apr 2026 18:30:31 +0000","dateModified":"Sun, 12 Apr 2026 18:30:31 +0000","description":"Unicode is a standard to represent text","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unicode.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Unicode","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 15:31:48 +0000","dateModified":"Tue, 14 Apr 2026 15:31:48 +0000","description":"Unicode is a standard to represent text","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unicode.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unicode
@@ -26,7 +26,7 @@ Unicode is a standard to represent text. It is maintained by the Unicode Consort
 
 Unicode motto: 'Everyone in the world should be able to use their own language on phones and computers.'
 
-PHP supports unicode in its syntax with the declare() ``encoding`` option. 
+PHP supports unicode in its syntax with the ``declare()`` ``encoding`` option. 
 
 PHP may translate from and to Unicode to other character sets with extensions such as iconv, intl, mbstring. 
 
@@ -53,4 +53,4 @@ PHP may translate from and to Unicode to other character sets with extensions su
 
 See also https://mojoauth.com/escaping/unicode-escaping-in-php
 
-Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`Codepoint <codepoint>`, :ref:`Emoji <emoji>`, :ref:`Latin1 <latin1>`, :ref:`Multi-byte <multi-byte>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`Codepoint <codepoint>`, :ref:`Emoji <emoji>`, :ref:`Latin1 <latin1>`, :ref:`Multi-byte <multi-byte>`, :ref:`declare() <declare>`

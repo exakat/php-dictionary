@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 19:33:41 +0000","dateModified":"Mon, 30 Mar 2026 19:33:41 +0000","description":"A database is an organized set of data, which may be queried","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A database is an organized set of data, which may be queried","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Database
@@ -30,4 +30,4 @@ The database may be managed by a server, though it is not necessary.
 
 `Documentation <https://en.wikipedia.org/wiki/Database>`__
 
-Related : :ref:`Dataset <dataset>`, :ref:`Vector Database <vector-database>`, :ref:`SQL Database <sql-database>`, :ref:`Nosql Database <nosql-database>`, :ref:`Key-value Stores <key-value-store>`, , :ref:`Connexion Persistence <connexion-persistence>`, :ref:`Database Abstraction Layer (DBA) Extension <dba>`, :ref:`Framework <framework>`, :ref:`Schema <schema>`
+Related : :ref:`Dataset <dataset>`, :ref:`Vector Database <vector-database>`, :ref:`SQL Database <sql-database>`, :ref:`Nosql Database <nosql-database>`, :ref:`Key-value Stores <key-value-store>`, :ref:`XML Database <xml-database>`, :ref:`Connexion Persistence <connexion-persistence>`, :ref:`Database Abstraction Layer (DBA) Extension <dba>`, :ref:`Framework <framework>`, :ref:`Schema <schema>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Blind Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 16:42:09 +0000","dateModified":"Fri, 10 Apr 2026 16:42:09 +0000","description":"A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Blind Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Blind Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 09:32:31 +0000","dateModified":"Wed, 15 Apr 2026 09:32:31 +0000","description":"A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Blind Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Blind Variable
@@ -33,16 +33,18 @@ Blind variables are expected to be used only within their structure, although th
    
    <?php
    
-   // $key and $value are blind variables
-   foreach(source() as $key => $value) {
-   	doSomething($key, $value);
-   }
-   
-   
-   // standard loop syntax
-   for($i = 0; $i < 10; ++$i) {
-   	doSomething($i);
-   }
+       // $key and $value are blind variables
+       foreach(source() as $key => $value) {
+           doSomething($key, $value);
+       }
+       
+       
+       // standard loop syntax
+       for($i = 0; $i < 10; ++$i) {
+           doSomething($i);
+       }
    
    ?>
 
+
+Related : :ref:`Foreach <foreach>`, :ref:`For <for>`

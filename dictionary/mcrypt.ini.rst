@@ -1,30 +1,30 @@
 .. _mcrypt:
 .. meta::
 	:description:
-		mcrypt Extension: mcrypt is a PHP extension that provides access to the mcrypt library.
+		mcrypt Extension: ``mcrypt`` is a PHP extension that provides access to the mcrypt library.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: mcrypt Extension
-	:twitter:description: mcrypt Extension: mcrypt is a PHP extension that provides access to the mcrypt library
+	:twitter:description: mcrypt Extension: ``mcrypt`` is a PHP extension that provides access to the mcrypt library
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: mcrypt Extension
 	:og:type: article
-	:og:description: mcrypt is a PHP extension that provides access to the mcrypt library
+	:og:description: ``mcrypt`` is a PHP extension that provides access to the mcrypt library
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"mcrypt Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"mcrypt is a PHP extension that provides access to the mcrypt library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mcrypt Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"mcrypt Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:30:32 +0000","dateModified":"Wed, 15 Apr 2026 20:30:32 +0000","description":"``mcrypt`` is a PHP extension that provides access to the mcrypt library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mcrypt Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 mcrypt Extension
 ----------------
 
-mcrypt is a PHP extension that provides access to the mcrypt library. It provides a variety of cryptographic algorithms. 
+``mcrypt`` is a PHP extension that provides access to the mcrypt library. It provides a variety of cryptographic algorithms. 
 
-mcrypt was deprecated in PHP 7.1 and removed in PHP 7.2. It is recommended to use ``sodium`` or ``openssl`` instead.
+``mcrypt`` was deprecated in PHP 7.1 and removed in PHP 7.2. It is recommended to use ``sodium`` or ``openssl`` instead.
 
 .. code-block:: php
    

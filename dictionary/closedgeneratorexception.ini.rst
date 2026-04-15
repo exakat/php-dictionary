@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ClosedGeneratorException","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ClosedGeneratorException.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"ClosedGeneratorException","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 09:34:18 +0000","dateModified":"Wed, 15 Apr 2026 09:34:18 +0000","description":"A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ClosedGeneratorException.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ClosedGeneratorException
@@ -66,4 +66,6 @@ Once a generator is closed, it cannot be used for further iteration. Any attempt
    ?>
 
 
-See also https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303, https://blog.airbrake.io/blog/php-exception-handling/closedgeneratorexception
+See also https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303
+
+Related : :ref:`Generator <generator>`, :ref:`Foreach <foreach>`

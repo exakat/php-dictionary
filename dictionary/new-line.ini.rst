@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Mar 2026 12:15:17 +0000","dateModified":"Mon, 30 Mar 2026 12:15:17 +0000","description":"A new-line ``\\n`` character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/New expressions are not supported in this context.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:35:19 +0000","dateModified":"Wed, 15 Apr 2026 20:35:19 +0000","description":"A new-line ``\\n`` character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 New Line
@@ -43,4 +43,4 @@ It was possible to use new lines within a namespace name, until PHP 8.0. This is
 
 See also https://ssojet.com/special-characters/newline-n-in-php
 
-Related : :ref:`Line Feed <line-feed>`, :ref:`Return Carriage <return-carriage>`, 
+Related : :ref:`Line Feed <line-feed>`, :ref:`Return Carriage <return-carriage>`, :ref:`PHP Constants <php-constant>`

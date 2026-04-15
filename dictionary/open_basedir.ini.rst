@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"open_basedir","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Mar 2026 19:56:46 +0000","dateModified":"Sat, 21 Mar 2026 19:56:46 +0000","description":"The ``open_basedir`` directive limits access to files in a list of provided directories, and their nested directories","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/open_basedir.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"open_basedir","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 15:36:17 +0000","dateModified":"Tue, 14 Apr 2026 15:36:17 +0000","description":"The ``open_basedir`` directive limits access to files in a list of provided directories, and their nested directories","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/open_basedir.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 open_basedir
@@ -30,4 +30,4 @@ Functions such as ``fopen()``, ``file_get_contents``, ``file_put_contents``, ``c
 
 See also https://serveravatar.com/configure-open-basedir/
 
-Related : , :ref:`php.ini <php.ini>`
+Related : :ref:`include_path <include_path>`, :ref:`php.ini <php.ini>`

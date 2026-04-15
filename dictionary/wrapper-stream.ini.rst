@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Stream Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A stream wrapper is additional code which tells the stream how to handle specific protocols and encodings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Stream Wrapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Stream Wrapper","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 07:56:17 +0000","dateModified":"Wed, 15 Apr 2026 07:56:17 +0000","description":"A stream wrapper is additional code which tells the stream how to handle specific protocols and encodings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Stream Wrapper.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Stream Wrapper
@@ -34,20 +34,20 @@ Customs wrappers may be registered with ``stream_wrapper_register()``. A wrapper
    
    <?php
    
-   // opening a file with the file wrapper
-   $fp = fopen("file://tmp/myfile.txt", "r+");
-   
-   // opening a file with the ftp wrapper
-   $fp = fopen("ftp://user:password@example.com/pub/file.txt", "r+");
-   
-   // opening a file with the phar wrapper
-   $fp = fopen("phar://someFile.txt", "r+");
+       // opening a file with the file wrapper
+       $fp = fopen('file://tmp/myfile.txt', 'r+');
+       
+       // opening a file with the ftp wrapper
+       $fp = fopen('ftp://user:password@example.com/pub/file.txt', 'r+');
+       
+       // opening a file with the phar wrapper
+       $fp = fopen('phar://someFile.txt', 'r+');
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/intro.stream.php>`__
+`Documentation <https://www.php.net/manual/en/book.stream.php>`__
 
-See also `A Guide to Streams in PHP: In-Depth Tutorial With Examples <https://stackify.com/a-guide-to-streams-in-php-in-depth-tutorial-with-examples/>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_, `stream_wrapper_register <https://www.php.net/manual/en/function.stream-wrapper-register.php>`_, `Example class registered as stream wrapper <https://www.php.net/manual/en/stream.streamwrapper.example-1.php>`_
+See also https://stackify.com/a-guide-to-streams-in-php-in-depth-tutorial-with-examples/, https://www.php.net/manual/en/wrappers.php, https://www.php.net/manual/en/function.stream-wrapper-register.php, https://www.php.net/manual/en/stream.streamwrapper.example-1.php
 
 Related : :ref:`Protocol <protocol>`, :ref:`Stream <stream>`

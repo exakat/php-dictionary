@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or die() statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exception","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 08:44:40 +0000","dateModified":"Wed, 15 Apr 2026 08:44:40 +0000","description":"Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or die() statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exception.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Exception
@@ -30,17 +30,17 @@ Exceptions are thrown at the point of detection of the issue, and processed some
    
    <?php
    
-   class x {
-       final const X = 1;
+       class X {
+           final const X = 1;
        
-       final function method() { }
-   }
+           final function method() { }
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php>`__
 
-See also https://netgen.io/blog/modern-error-handling-in-php, https://benjamincrozat.com/php-exceptions, https://blog.airbrake.io/blog/php-exception-handling/the-php-exception-class-hierarchy, https://dev.to/devmahfuz/mastering-exception-handling-in-php-ensuring-code-resilience-3pk5
+See also https://netgen.io/blog/modern-error-handling-in-php, https://benjamincrozat.com/php-exceptions, https://dev.to/devmahfuz/mastering-exception-handling-in-php-ensuring-code-resilience-3pk5
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Chaining Exceptions <exception-chain>`, :ref:`RangeException <rangeexception>`, :ref:`Anonymous Catch <anonymous-catch>`, :ref:`BadFunctioncallException <badfunctioncallexception>`, :ref:`Chaining <chaining>`, :ref:`DomainException <domainexception>`, :ref:`Error Handling <error-handling>`, :ref:`Error <error>`, :ref:`Chaining Exceptions <chaining-exception>`, :ref:`ImagickException <imagickexception>`, :ref:`LengthException <lengthexception>`, :ref:`PharException <pharexception>`, :ref:`PHP Predefined Exception <predefined-exception>`, :ref:`SVMException <svmexception>`, :ref:`Throwable <throwable>`, :ref:`Traversable <traversable>`, :ref:`Type Error <typerror>`, :ref:`UnexpectedValueException <unexpectedvalueexception>`, :ref:`UnhandledMatchError <unhandledmatcherror>`

@@ -1,30 +1,30 @@
 .. _compact:
 .. meta::
 	:description:
-		compact(): compact() is a native PHP function, which creates an array containing variables and their values.
+		compact(): ``compact()`` is a native PHP function, which creates an array containing variables and their values.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: compact()
-	:twitter:description: compact(): compact() is a native PHP function, which creates an array containing variables and their values
+	:twitter:description: compact(): ``compact()`` is a native PHP function, which creates an array containing variables and their values
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: compact()
 	:og:type: article
-	:og:description: compact() is a native PHP function, which creates an array containing variables and their values
+	:og:description: ``compact()`` is a native PHP function, which creates an array containing variables and their values
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"compact()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"compact() is a native PHP function, which creates an array containing variables and their values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compact().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"compact()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:24:32 +0000","dateModified":"Wed, 15 Apr 2026 20:24:32 +0000","description":"``compact()`` is a native PHP function, which creates an array containing variables and their values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compact().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 compact()
 ---------
 
-compact() is a native PHP function, which creates an array containing variables and their values.
+``compact()`` is a native PHP function, which creates an array containing variables and their values.
 
-It is the opposite of extract().
+It is the opposite of ``extract()``.
 
 .. code-block:: php
    

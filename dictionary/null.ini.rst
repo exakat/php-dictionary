@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``null`` is a special data type that represents a variable with no value or an undefined value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 09:23:19 +0000","dateModified":"Wed, 15 Apr 2026 09:23:19 +0000","description":"``null`` is a special data type that represents a variable with no value or an undefined value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Null
@@ -32,9 +32,12 @@ There is also a design pattern called Null Pattern, although its main goal is to
    
    <?php
    
-   $a = null;
+       $a = null;
+       $B = NULL;
+       $c = \null;
    
-   function foo(?string $s = null) {}
+       // same as  null|string $s 
+       function foo(?string $s = null) {}
    
    ?>
 
@@ -43,4 +46,4 @@ There is also a design pattern called Null Pattern, although its main goal is to
 
 See also https://peakd.com/hive-168588/@crell/much-ado-about-null, https://afilina.com/null-hell, https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/
 
-Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`, :ref:`Authentication <authentication>`, :ref:`Empty <empty>`, :ref:`Overflow <overflow>`, :ref:`Underflow <underflow>`, :ref:`Void <void>`, :ref:`Default Value <default-value>`, :ref:`json_decode() <json_decode>`, :ref:`Return Value <return-value>`, :ref:`Value <value>`
+Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`, :ref:`Authentication <authentication>`, :ref:`Empty <empty>`, :ref:`Overflow <overflow>`, :ref:`Underflow <underflow>`, :ref:`Void <void>`, :ref:`Default Value <default-value>`, :ref:`json_decode() <json_decode>`, :ref:`Return Value <return-value>`, :ref:`Value <value>`, :ref:`Autovivification <autovivification>`, :ref:`PHP Natives <native-type>`, :ref:`Null Byte <null-byte>`, :ref:`str_contains() <str_contains>`

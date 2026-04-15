@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Remote Code Execution (RCE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"It is a type of security vulnerability where an attacker can remotely execute arbitrary code on a target server or system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Remote Code Execution (RCE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Remote Code Execution (RCE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 15:12:09 +0000","dateModified":"Tue, 14 Apr 2026 15:12:09 +0000","description":"It is a type of security vulnerability where an attacker can remotely execute arbitrary code on a target server or system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Remote Code Execution (RCE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Remote Code Execution (RCE)
@@ -28,8 +28,8 @@ It is a type of security vulnerability where an attacker can remotely execute ar
    
    <?php
    
-   // direct execution of the incoming 
-   shell_exec($_GET['shell']);
+       // direct execution of the incoming 
+       shell_exec($_GET['shell']);
    
    ?>
 
@@ -37,3 +37,5 @@ It is a type of security vulnerability where an attacker can remotely execute ar
 `Documentation <https://en.wikipedia.org/wiki/Arbitrary_code_execution>`__
 
 See also https://medium.com/@brun0ne/rce-via-a-malicious-svg-in-mpdf-216e613b250b
+
+Related : :ref:`Vulnerability <vulnerability>`, :ref:`Local File Inclusion <local-file-inclusion>`

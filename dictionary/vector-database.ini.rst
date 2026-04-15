@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Vector Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Apr 2026 04:47:13 +0000","dateModified":"Fri, 03 Apr 2026 04:47:13 +0000","description":"A vector database is a type of database designed to store, manage, and search vector embedding, which are numerical representations of data such as text, images, audio, or video","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Vector Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Vector Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 07:57:33 +0000","dateModified":"Wed, 15 Apr 2026 07:57:33 +0000","description":"A vector database is a type of database designed to store, manage, and search vector embedding, which are numerical representations of data such as text, images, audio, or video","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Vector Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Vector Database
@@ -24,7 +24,7 @@ Vector Database
 
 A vector database is a type of database designed to store, manage, and search vector embedding, which are numerical representations of data such as text, images, audio, or video.
 
-See also https://dev.to/ehtesham_ali_abc367f36a5b/how-to-build-a-vector-database-with-sqlite-in-laravel-for-llms-in-windows-59g0, https://www.wpsolr.com/what-is-weaviate-and-how-does-it-work/, https://centamori.com/index.php?slug=hierarchical-navigable-small-world-hnsw-php/, https://upstash.com/blog/announcing-vector-php-sdk
+See also https://dev.to/ehtesham_ali_abc367f36a5b/how-to-build-a-vector-database-with-sqlite-in-laravel-for-llms-in-windows-59g0, https://www.wpsolr.com/what-is-weaviate-and-how-does-it-work/, https://centamori.com/index.php?slug=hierarchical-navigable-small-world-hnsw-php, https://upstash.com/blog/announcing-vector-php-sdk
 
 Related : :ref:`Database <database>`
 

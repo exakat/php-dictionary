@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Code Reuse","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Reuse.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Code Reuse","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 09:35:31 +0000","dateModified":"Wed, 15 Apr 2026 09:35:31 +0000","description":"Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Reuse.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Reuse
@@ -34,15 +34,15 @@ In PHP, code reuse can be achieved through various techniques, including functio
    
    <?php
    
-   // list elements like humans.
-   function implodeWithAnd(array $array) : string {
-   	$last = array_pop($array);
-   	return implode(', ', $array).' and '.$last;
-   }
-   
-   print implodeWithAnd(['Alice', 'Bob', 'Eve']);
-   
-   print implodeWithAnd(['Tom', 'Jerry']);
+       // list elements like humans.
+       function implodeWithAnd(array $array) : string {
+       	$last = array_pop($array);
+       	return implode(', ', $array).' and '.$last;
+       }
+       
+       print implodeWithAnd(['Alice', 'Bob', 'Eve']);
+       
+       print implodeWithAnd(['Tom', 'Jerry']);
    
    ?>
 
@@ -50,3 +50,5 @@ In PHP, code reuse can be achieved through various techniques, including functio
 `Documentation <https://en.wikipedia.org/wiki/Code_reuse>`__
 
 See also https://www.opslevel.com/resources/what-is-code-reuse-and-why-is-it-important
+
+Related : :ref:`Code Architecture <code-architecture>`
