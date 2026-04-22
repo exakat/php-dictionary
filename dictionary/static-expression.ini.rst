@@ -37,4 +37,4 @@ A static expression is an expression that is wholy defined at coding time. It is
    ?>
 
 
-Related : 
+Related : :ref:`Dynamic Expression <dynamic-expression>`

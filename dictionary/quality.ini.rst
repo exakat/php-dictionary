@@ -25,4 +25,4 @@ Quality
 
 Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time. It's not just about whether code works: it's about how easy it is to understand, change, and extend without introducing problems.
 
-Related : :ref:`Readability <readability>`, :ref:`Test <test>`, , :ref:`Performance <performance>`, 
+Related : :ref:`Readability <readability>`, :ref:`Test <test>`, :ref:`Maintenability <maintenability>`, :ref:`Performance <performance>`, :ref:`Consistency <consistency>`

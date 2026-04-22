@@ -226,6 +226,7 @@ PHP Dictionary
    * :ref:`Clean Code <clean-code>`
    * :ref:`Client URL (CURL) <curl>`
    * :ref:`Clone <clone>`
+   * :ref:`Close Naming <close-naming>`
    * :ref:`Close Tag <close-tag>`
    * :ref:`Closed Source <closed-source>`
    * :ref:`ClosedGeneratorException <closedgeneratorexception>`
@@ -282,6 +283,7 @@ PHP Dictionary
    * :ref:`Conditioned Structures <conditioned>`
    * :ref:`Configuration <configuration>`
    * :ref:`Connexion Persistence <connexion-persistence>`
+   * :ref:`Consistency <consistency>`
    * :ref:`Const <const>`
    * :ref:`Constant Case <constant-case>`
    * :ref:`Constant Combinaison <constant-combinaison>`
@@ -383,6 +385,7 @@ PHP Dictionary
    * :ref:`Disable Classes <disable-classes>`
    * :ref:`Disable Functions <disable-functions>`
    * :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
+   * :ref:`Distributed Denial Of Service (DDOS) <ddos>`
    * :ref:`Division <division>`
    * :ref:`DivisionByZeroError <divisionbyzeroerror>`
    * :ref:`Do While <do-while>`
@@ -406,6 +409,7 @@ PHP Dictionary
    * :ref:`Dynamic Class <dynamic-class>`
    * :ref:`Dynamic Class Constant <dynamic-class-constant>`
    * :ref:`Dynamic Constant <dynamic-constant>`
+   * :ref:`Dynamic Expression <dynamic-expression>`
    * :ref:`Dynamic Loading <dynamic-loading>`
    * :ref:`Dynamic Method <dynamic-method>`
    * :ref:`Dynamic Properties <dynamic-property>`
@@ -431,10 +435,12 @@ PHP Dictionary
    * :ref:`Empty <empty>`
    * :ref:`Empty String <empty-string>`
    * :ref:`Enable <enable>`
+   * :ref:`Encapsulation <encapsulation>`
    * :ref:`Encoding <encoding>`
    * :ref:`Entities <entity>`
    * :ref:`Enumeration (enum) <enum>`
    * :ref:`Enumeration Case <enum-case>`
+   * :ref:`Environment <environment>`
    * :ref:`Environment Variables <environment-variable>`
    * :ref:`Eponymous <eponymous>`
    * :ref:`Equal Operator <equal>`
@@ -505,7 +511,6 @@ PHP Dictionary
    * :ref:`Fluent Interface <fluent-interface>`
    * :ref:`Folklore <folklore>`
    * :ref:`For <for>`
-   * :ref:`Foreach <foreach>`
    * :ref:`Foreign Function Interface (FFI) <ffi>`
    * :ref:`Form <form>`
    * :ref:`Format <format>`
@@ -526,6 +531,7 @@ PHP Dictionary
    * :ref:`file_put_contents() <file_put_contents>`
    * :ref:`filter <filter>`
    * :ref:`fnmatch() <fnmatch>`
+   * :ref:`foreach() <foreach>`
    * :ref:`ftp:// <wrapper-ftp>`
    * :ref:`func_get_args() <func_get_args>`
 * G
@@ -621,6 +627,7 @@ PHP Dictionary
    * :ref:`Insteadof <insteadof>`
    * :ref:`Interface <interface>`
    * :ref:`Interface Segregation Principle (ISP) <isp>`
+   * :ref:`Internals <internals>`
    * :ref:`Internationalization <internationalization>`
    * :ref:`Internationalization Functions <intl>`
    * :ref:`Internet Protocol (IP) <ip>`
@@ -631,12 +638,14 @@ PHP Dictionary
    * :ref:`Isset <isset>`
    * :ref:`Iterable <iterable>`
    * :ref:`Iterator <iterator>`
+   * :ref:`IteratorAggregate <iteratoraggregate>`
    * :ref:`imagick <imagick>`
    * :ref:`implements <implements>`
    * :ref:`implode() <implode>`
    * :ref:`in_array() <in_array>`
    * :ref:`include <include>`
    * :ref:`include_path <include_path>`
+   * :ref:`ini_set() <ini_set>`
    * :ref:`instance <instance>`
    * :ref:`instanceof <instanceof>`
    * :ref:`integer <integer>`
@@ -670,11 +679,13 @@ PHP Dictionary
    * :ref:`Lazy Objects <lazy-objects>`
    * :ref:`Leading Numeric String <leading-numeric-string>`
    * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
+   * :ref:`Leak <leak>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
    * :ref:`Lexical Variable <lexical>`
    * :ref:`Library Loading <library-loading>`
    * :ref:`Licence <licence>`
+   * :ref:`Lifecycle <lifecycle>`
    * :ref:`Line Feed <line-feed>`
    * :ref:`Lint, Won't Execute <lint-wont-execute>`
    * :ref:`Linting <linting>`
@@ -704,6 +715,7 @@ PHP Dictionary
    * :ref:`Magic Numbers <magic-number>`
    * :ref:`Magic Property <magic-property>`
    * :ref:`Mail <mail>`
+   * :ref:`Maintenability <maintenability>`
    * :ref:`Maintenance <maintenance>`
    * :ref:`Man In The Middle <man-in-the-middle>`
    * :ref:`Map <map>`
@@ -742,6 +754,7 @@ PHP Dictionary
    * :ref:`Model Context Protocol (MCP) <mcp>`
    * :ref:`Module <module>`
    * :ref:`Modulo <modulo>`
+   * :ref:`Monitoring <monitoring>`
    * :ref:`Monolith <monolith>`
    * :ref:`Multi-byte <multi-byte>`
    * :ref:`Multibyte String <mbstring>`
@@ -850,7 +863,6 @@ PHP Dictionary
 * P
    * :ref:`PDOException <pdoexception>`
    * :ref:`PEAR <pear>`
-   * :ref:`PHP <php>`
    * :ref:`PHP Constants <php-constant>`
    * :ref:`PHP Data Objects (PDO) <pdo>`
    * :ref:`PHP Docker Container <php-docker-container>`
@@ -873,6 +885,7 @@ PHP Dictionary
    * :ref:`PHP User Groups <php-ug>`
    * :ref:`PHP Variables <php-variable>`
    * :ref:`PHP Wrappers <php-wrapper>`
+   * :ref:`PHP, Hypertext Preprocessor (PHP) <php>`
    * :ref:`PHP_INT_MAX <php_int_max>`
    * :ref:`PHP_INT_MIN <php_int_min>`
    * :ref:`PHPdoc <phpdoc>`
@@ -922,6 +935,7 @@ PHP Dictionary
    * :ref:`Precedence <precedence>`
    * :ref:`Predefined Constants <predefined-constant>`
    * :ref:`Prefix <prefix>`
+   * :ref:`Preg_match <preg_match>`
    * :ref:`Prepared Query <prepared-query>`
    * :ref:`Preprocessing <preprocess>`
    * :ref:`Primitive Obsession <primitive-obsession>`
@@ -950,6 +964,7 @@ PHP Dictionary
    * :ref:`parse_str() <parse_str>`
    * :ref:`php.ini <php.ini>`
    * :ref:`php:// <wrapper-php>`
+   * :ref:`php://input <php-input>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`precision <precision>`
    * :ref:`preg_split() <preg_split>`
@@ -966,6 +981,7 @@ PHP Dictionary
 * R
    * :ref:`REST API <rest-api>`
    * :ref:`RFC <rfc>`
+   * :ref:`RSA <rsa>`
    * :ref:`Railroad Programming <railroad-programming>`
    * :ref:`Random <random>`
    * :ref:`RangeException <rangeexception>`
@@ -1059,6 +1075,8 @@ PHP Dictionary
    * :ref:`Server Application Programming Interface (SAPI) <sapi>`
    * :ref:`Server Architecture <server-architecture>`
    * :ref:`Server Sent Event (SSE) <sse>`
+   * :ref:`Service <service>`
+   * :ref:`Service Container <service-container>`
    * :ref:`Session <session>`
    * :ref:`Session Fixation <session-fixation>`
    * :ref:`Session Hijacking <session-highjacking>`
@@ -1151,6 +1169,7 @@ PHP Dictionary
    * :ref:`System <system>`
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
+   * :ref:`set_error_handler() <set_error_handler>`
    * :ref:`shell_exec() <shell_exec>`
    * :ref:`sleep <sleep>`
    * :ref:`sprintf <sprintf>`
@@ -1166,8 +1185,10 @@ PHP Dictionary
    * :ref:`Tabulation <tabulation>`
    * :ref:`Taint Analysis <taint>`
    * :ref:`Tarpit <tarpit>`
+   * :ref:`Task <task>`
    * :ref:`Task Runner <task-runner>`
    * :ref:`Technical Debt <debt>`
+   * :ref:`Telemetry <telemetry>`
    * :ref:`Template <template>`
    * :ref:`Temporary Expression <temporary-expression>`
    * :ref:`Ternary Operator <ternary>`
@@ -1241,6 +1262,7 @@ PHP Dictionary
    * :ref:`Use <use>`
    * :ref:`Use Alias <use-alias>`
    * :ref:`Use In Traits <use-trait>`
+   * :ref:`Used <used>`
    * :ref:`Useless <useless>`
    * :ref:`User Datagram Protocol (UDP) <udp>`
    * :ref:`User Operations For Zend (UOPZ) <uopz>`
@@ -1256,6 +1278,7 @@ PHP Dictionary
    * :ref:`Var <var>`
    * :ref:`Variable Arguments <variable-argument>`
    * :ref:`Variable Scope <variable-scope>`
+   * :ref:`Variable Shadowing <variable-shadowing>`
    * :ref:`Variable Variables <variable-variable>`
    * :ref:`Variables <variable>`
    * :ref:`Variadic <variadic>`

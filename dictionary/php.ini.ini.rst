@@ -30,4 +30,4 @@ They may be later redefined using other mechanisms, such as command line options
 
 `Documentation <https://www.php.net/manual/en/configuration.file.php>`__
 
-Related : :ref:`Directives <directive>`, , , :ref:`Disable Classes <disable-classes>`, :ref:`expose_php <expose_php>`, :ref:`open_basedir <open_basedir>`, :ref:`phpinfo() <phpinfo>`
+Related : :ref:`Directives <directive>`, , :ref:`ini_set() <ini_set>`, :ref:`Disable Classes <disable-classes>`, :ref:`expose_php <expose_php>`, :ref:`open_basedir <open_basedir>`, :ref:`phpinfo() <phpinfo>`

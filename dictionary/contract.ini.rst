@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Design By Contract (DBC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:54 +0000","dateModified":"Mon, 16 Mar 2026 14:40:54 +0000","description":"Design by Contract, or ``DbC``, is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Design By Contract (DBC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Design By Contract (DBC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Apr 2026 07:11:51 +0000","dateModified":"Sat, 18 Apr 2026 07:11:51 +0000","description":"Design by Contract, or ``DbC``, is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Design By Contract (DBC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Design By Contract (DBC)
@@ -28,6 +28,8 @@ Design by Contract, or ``DbC``, is a software development approach that focuses 
 
 `Documentation <https://en.wikipedia.org/wiki/Design_by_contract>`__
 
-See also https://laravel.com/docs/10.x/contracts
+See also https://laravel.com/docs/10.x/contracts, https://medium.com/@prunepal333/design-by-contract-an-approach-to-ensure-software-correctness-d2d6b5229dc3, https://github.com/php-deal/framework, https://brocksi.net/blog/contract-first-api-testing-openapi-as-your-test-suite/
+
+Related : :ref:`Paradigm <paradigm>`
 
 Related packages : `symfony/contracts <https://packagist.org/packages/symfony/contracts>`_

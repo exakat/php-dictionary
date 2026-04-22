@@ -45,4 +45,4 @@ The ``as`` operator often works to give a distinct name to an existing structure
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-Related : :ref:`Foreach <foreach>`, :ref:`Use Alias <use-alias>`, :ref:`Alias <alias>`
+Related : :ref:`foreach() <foreach>`, :ref:`Use Alias <use-alias>`, :ref:`Alias <alias>`

@@ -47,4 +47,4 @@ Blind variables are expected to be used only within their structure, although th
    ?>
 
 
-Related : :ref:`Foreach <foreach>`, :ref:`For <for>`
+Related : :ref:`foreach() <foreach>`, :ref:`For <for>`

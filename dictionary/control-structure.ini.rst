@@ -59,4 +59,4 @@ Usually, instructions and commands are executed one after each other. With contr
 
 See also https://alishoff.com/blog/500
 
-Related : :ref:`Foreach <foreach>`, :ref:`For <for>`, :ref:`declare() <declare>`, :ref:`Match <match>`
+Related : :ref:`foreach() <foreach>`, :ref:`For <for>`, :ref:`declare() <declare>`, :ref:`Match <match>`

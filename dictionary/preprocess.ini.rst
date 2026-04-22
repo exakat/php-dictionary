@@ -48,4 +48,4 @@ In terms of maintenance, it hides some implementation details in the result: one
 
 See also https://github.com/gizmore/php-preprocessor
 
-Related : :ref:`PHP <php>`, :ref:`Performance <performance>`
+Related : :ref:`PHP, Hypertext Preprocessor (PHP) <php>`, :ref:`Performance <performance>`

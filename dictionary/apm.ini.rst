@@ -30,6 +30,6 @@ It helps finding bottlenecks in the code.
 
 See also https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/, https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers
 
-Related : :ref:`Bottleneck <bottleneck>`, 
+Related : :ref:`Bottleneck <bottleneck>`, :ref:`Monitoring <monitoring>`
 
 Related packages : `datadog/dd-trace <https://packagist.org/packages/datadog/dd-trace>`_, `ekino/newrelic-bundle <https://packagist.org/packages/ekino/newrelic-bundle>`_

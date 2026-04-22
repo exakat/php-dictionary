@@ -49,4 +49,4 @@ XXTEA
 
 See also https://github.com/xxtea/xxtea-pecl
 
-Related : 
+Related : :ref:`RSA <rsa>`

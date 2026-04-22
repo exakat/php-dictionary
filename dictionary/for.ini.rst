@@ -55,4 +55,4 @@ Part of the block execution may be skipped by using the ``continue`` keyword.
 
 See also https://dev.to/rocksheep/stop-using-for-loops-and-start-showing-intent-3am0, https://www.guru99.com/php-loop.html
 
-Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`Control Flow <control-flow>`
+Related : :ref:`Continue <continue>`, :ref:`foreach() <foreach>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`Control Flow <control-flow>`

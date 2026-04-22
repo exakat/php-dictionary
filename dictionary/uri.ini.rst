@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Identifier (URI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Universal Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Identifier (URI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Identifier (URI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:38:45 +0000","dateModified":"Thu, 16 Apr 2026 05:38:45 +0000","description":"Universal Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Identifier (URI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Universal Resource Identifier (URI)
@@ -32,6 +32,6 @@ URI is closely related to URL, which provides the location of the desired resour
 
 `Documentation <https://en.wikipedia.org/wiki/URI>`__
 
-See also `List of URI schemes <https://en.wikipedia.org/wiki/List_of_URI_schemes>`_
+See also https://en.wikipedia.org/wiki/List_of_URI_schemes
 
-Related : :ref:`Universal Resource Locator (URL) <url>`
+Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`File <file>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`URI Class <uri-class>`, :ref:`URI Extension <uri-extension>`

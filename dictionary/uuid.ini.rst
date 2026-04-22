@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universally Unique IDentifier (UUID)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"UUID is a Universally Unique IDentifier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universally Unique IDentifier (UUID).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universally Unique IDentifier (UUID)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:40:47 +0000","dateModified":"Thu, 16 Apr 2026 05:40:47 +0000","description":"UUID is a Universally Unique IDentifier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universally Unique IDentifier (UUID).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Universally Unique IDentifier (UUID)
@@ -28,8 +28,6 @@ UUID are in contrast to classic integer ids, such as auto-increment primary keys
 
 UUID are a standard. The standard has versions from 1 to 5, each with improvements.
 
-
-
 .. code-block:: php
    
    
@@ -39,4 +37,6 @@ UUID are a standard. The standard has versions from 1 to 5, each with improvemen
 
 `Documentation <https://en.wikipedia.org/wiki/Universally_unique_identifier>`__
 
-See also `Introducing ramsey/uuid <https://benramsey.com/blog/2016/04/ramsey-uuid/>`_
+See also https://benramsey.com/blog/2016/04/ramsey-uuid/
+
+Related : :ref:`Identifier <identifier>`

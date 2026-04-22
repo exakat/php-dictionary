@@ -1,28 +1,28 @@
 .. _second-order-sql-injection:
 .. meta::
 	:description:
-		Second Order SQL Injection: A second-order SQL injection (also known as stored SQL injection or persistent SQL injection) is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability.
+		Second Order SQL Injection: A second-order SQL injection, also known as stored SQL injection or persistent SQL injection, is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Second Order SQL Injection
-	:twitter:description: Second Order SQL Injection: A second-order SQL injection (also known as stored SQL injection or persistent SQL injection) is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability
+	:twitter:description: Second Order SQL Injection: A second-order SQL injection, also known as stored SQL injection or persistent SQL injection, is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Second Order SQL Injection
 	:og:type: article
-	:og:description: A second-order SQL injection (also known as stored SQL injection or persistent SQL injection) is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability
+	:og:description: A second-order SQL injection, also known as stored SQL injection or persistent SQL injection, is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/second-order-sql-injection.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Second Order SQL Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:03 +0000","dateModified":"Mon, 16 Mar 2026 14:41:03 +0000","description":"A second-order SQL injection (also known as stored SQL injection or persistent SQL injection) is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Second Order SQL Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Second Order SQL Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Apr 2026 16:10:00 +0000","dateModified":"Tue, 21 Apr 2026 16:10:00 +0000","description":"A second-order SQL injection, also known as stored SQL injection or persistent SQL injection, is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Second Order SQL Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Second Order SQL Injection
 --------------------------
 
-A second-order SQL injection (also known as stored SQL injection or persistent SQL injection) is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability.
+A second-order SQL injection, also known as stored SQL injection or persistent SQL injection, is a type of SQL injection attack where the payload is not directly injected into the application's SQL query, but rather into the application's database, from where it is later retrieved and executed within another context, leading to a security vulnerability.
 
 `Documentation <https://portswigger.net/kb/issues/00100210_sql-injection-second-order>`__
 

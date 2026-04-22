@@ -55,4 +55,4 @@ Simpler search tools include ``str_contains()`` and ``strpos()``, and more compl
 
 See also https://reintech.io/blog/understanding-implementing-php-fnmatch-function
 
-Related : :ref:`str_contains() <str_contains>`, :ref:`strpos <strpos>`, , :ref:`Star * <star>`, :ref:`Bang ! <bang>`, :ref:`Square Brackets <square-bracket>`, :ref:`Question Mark ? <question-mark>`, :ref:`Backslash \ <back-slash>`
+Related : :ref:`str_contains() <str_contains>`, :ref:`strpos <strpos>`, :ref:`Preg_match <preg_match>`, :ref:`Star * <star>`, :ref:`Bang ! <bang>`, :ref:`Square Brackets <square-bracket>`, :ref:`Question Mark ? <question-mark>`, :ref:`Backslash \ <back-slash>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Agile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Agile refers to a set of software development methodologies that emphasize iterative delivery, collaboration, and adaptability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Agile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Agile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:20:32 +0000","dateModified":"Thu, 16 Apr 2026 05:20:32 +0000","description":"Agile refers to a set of software development methodologies that emphasize iterative delivery, collaboration, and adaptability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Agile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Agile
@@ -26,9 +26,9 @@ Agile refers to a set of software development methodologies that emphasize itera
 
 Agile is an umbrella term. The fine-grained methodologies include: 
 
-+ scrum: framework with roles, such as scrum master, product owner, sprints, and ceremonies
-+ kanban: workflow visualization method using boards and WIP limits
-+ sprint: time-boxed iteration, usually 1–4 weeks
++ Scrum: framework with roles, such as scrum master, product owner, sprints, and ceremonies
++ Kanban: workflow visualization method using boards and WIP limits
++ Sprint: time-boxed iteration, usually 1–4 weeks
 + User Story: short description of a feature from an end-user perspective
 + Backlog: prioritized list of work
 + Burndown Chart: visual showing remaining work over time

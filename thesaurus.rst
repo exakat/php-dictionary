@@ -29,6 +29,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
 + :ref:`Design By Contract (DBC) <contract>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
++ :ref:`Distributed Denial Of Service (DDOS) <ddos>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Domain Name System (DNS) <dns>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
@@ -66,16 +67,17 @@ List of acronyms, used in this dictionary.
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
 + :ref:`PEAR <pear>`
-+ :ref:`PHP <php>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
 + :ref:`PHP Installer For Extensions (PIE) <pie>`
 + :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
++ :ref:`PHP, Hypertext Preprocessor (PHP) <php>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
 + :ref:`Pull Request (PR) <pr>`
 + :ref:`RFC <rfc>`
++ :ref:`RSA <rsa>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
 + :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
 + :ref:`Remote Code Execution (RCE) <rce>`
@@ -172,6 +174,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Class Hoisting <class-hoisting>`
 + :ref:`Class Wither Method <wither>`
 + :ref:`Clone <clone>`
++ :ref:`Close Naming <close-naming>`
 + :ref:`Code Smell <code-smell>`
 + :ref:`Command Bus <command-bus>`
 + :ref:`Compatibility <compatibility>`
@@ -180,6 +183,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Component <component>`
 + :ref:`Concatenative <concatenative>`
 + :ref:`Condition <condition>`
++ :ref:`Consistency <consistency>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Constructor <constructor>`
 + :ref:`Controller <controller>`
@@ -322,6 +326,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`
++ :ref:`Used <used>`
 + :ref:`Validation <validation>`
 + :ref:`Value <value>`
 + :ref:`Value Object <value-object>`
@@ -343,13 +348,13 @@ List of command to control the flow of a program.
 
 + :ref:`Do While <do-while>`
 + :ref:`For <for>`
-+ :ref:`Foreach <foreach>`
 + :ref:`Goto <goto>`
 + :ref:`If Then Else <if-then>`
 + :ref:`Match <match>`
 + :ref:`Simple Switch <simple-switch>`
 + :ref:`Switch <switch>`
 + :ref:`While <while>`
++ :ref:`foreach() <foreach>`
 
 Directive
 ---------

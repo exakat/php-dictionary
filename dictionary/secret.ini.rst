@@ -28,4 +28,4 @@ These may be: passwords, API keys, Personal tokens, private keys, and not the pu
 
 Private data are not considered a secret, even if they should be kept secret. They are data used between two parties, while a secret usually is reserved for only one party, even when hosted another party infrastructure.
 
-Related : :ref:`Cryptography <cryptography>`, , 
+Related : :ref:`Cryptography <cryptography>`, , :ref:`Environment <environment>`

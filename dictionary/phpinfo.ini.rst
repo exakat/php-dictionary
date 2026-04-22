@@ -38,6 +38,6 @@ phpinfo()
 
 See also https://medium.com/@cybersecplayground/part-1-3-understanding-phpinfo-the-accidental-goldmine-c662da63a3c7, https://laravel-news.com/pretty-phpinfo
 
-Related : , :ref:`php.ini <php.ini>`, :ref:`Compile <compilation>`
+Related : :ref:`Leak <leak>`, :ref:`php.ini <php.ini>`, :ref:`Compile <compilation>`
 
 Added in PHP 4.0

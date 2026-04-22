@@ -50,6 +50,6 @@ Error reporting is set by calling the ``error_reporting()`` function, with a com
 
 See also https://www.scoutapm.com/blog/how-to-enable-php-error-reporting/, https://www.php.net/manual/en/function.error-reporting.php, https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting, https://stackify.com/display-php-errors/
 
-Related : 
+Related : :ref:`set_error_handler() <set_error_handler>`
 
 Related packages : `filp/whoops <https://packagist.org/packages/filp/whoops>`_

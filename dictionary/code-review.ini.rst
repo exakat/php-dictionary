@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Code Review","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Code review is a systematic process where developers examine each other's code to identify mistakes, improve quality, check local values usage and ensure adherence to best practices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Review.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Code Review","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 10:16:48 +0000","dateModified":"Wed, 22 Apr 2026 10:16:48 +0000","description":"Code review is a systematic process where developers examine each other's code to identify mistakes, improve quality, check local values usage and ensure adherence to best practices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Review.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Review
@@ -28,14 +28,15 @@ Code review is especially valuable due to the language's flexibility, and multip
 
 There may be several goals of a code review, including: 
 
-+ Bug Detection: Catch logical errors, or edge cases
-+ Security: Identify vulnerabilities like SQL injection, XSS, or CSRF
-+ Consistency: Ensure the code follows team or project standards
-+ Performance: Optimize slow or inefficient code
-+ Knowledge Sharing: Help team members understand the codebase.
-
++ Bug Detection: catch logical errors, or edge cases
++ Security: identify vulnerabilities like SQL injection, XSS, or CSRF
++ Consistency: ensure the code follows team or project standards
++ Performance: optimize slow or inefficient code
++ Knowledge Sharing: help team members understand the codebase.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Code_review>`__
 
 See also https://www.evozon.com/how-to-streamline-code-reviews-with-architecture-testing/
+
+Related : :ref:`Quality <quality>`, :ref:`Pipeline <pipeline>`, :ref:`Security <security>`

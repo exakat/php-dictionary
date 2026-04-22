@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","name":"Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:49:19 +0000","dateModified":"Mon, 16 Mar 2026 14:49:19 +0000","description":"Functions are defined with a set of parameters, a body of code for processing, and a returned value, typed or not","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","name":"Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 04:54:53 +0000","dateModified":"Thu, 16 Apr 2026 04:54:53 +0000","description":"Functions are defined with a set of parameters, a body of code for processing, and a returned value, typed or not","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Functions
@@ -32,13 +32,15 @@ A function is said anonymous when it has no name. This is the case of the closur
    
    <?php
    
-   function foo($a, $b) {
-       return $a - $b;
-   }
+       function foo($a, $b) {
+           return $a - $b;
+       }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/functions.php>`__
+`Documentation <https://www.php.net/manual/en/language.functions.php>`__
+
+See also https://www.tutorialrepublic.com/php-tutorial/php-functions.php, https://www.digitalocean.com/community/tutorials/how-to-use-functions-in-php
 
 Related : :ref:`Recursion <recursion>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Method <method>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Default Parameter <default-parameter>`, :ref:`Dereferencing <dereferencing>`, :ref:`Disable Functions <disable-functions>`, :ref:`Return <return>`, :ref:`Variable Arguments <variable-argument>`

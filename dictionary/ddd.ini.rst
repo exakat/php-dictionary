@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Domain Design Driven (DDD)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Domain-Driven Design, aka DDD, is a software development approach that emphasizes structuring and modeling software based on the real-world domain it is meant to represent","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Domain Design Driven (DDD).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Domain Design Driven (DDD)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Apr 2026 05:47:45 +0000","dateModified":"Sat, 18 Apr 2026 05:47:45 +0000","description":"Domain-Driven Design, aka DDD, is a software development approach that emphasizes structuring and modeling software based on the real-world domain it is meant to represent","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Domain Design Driven (DDD).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Domain Design Driven (DDD)
@@ -24,6 +24,6 @@ Domain Design Driven (DDD)
 
 Domain-Driven Design, aka DDD, is a software development approach that emphasizes structuring and modeling software based on the real-world domain it is meant to represent. It was popularized by ``Eric Evans`` in his book ``Domain-Driven Design: Tackling Complexity in the Heart of Software``.
 
-See also https://medium.com/@mohammad.roshandelpoor/domain-driven-design-in-php-unlocking-the-power-of-software-modeling-eeaeab234c12, https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf
+See also https://medium.com/@mohammad.roshandelpoor/domain-driven-design-in-php-unlocking-the-power-of-software-modeling-eeaeab234c12, https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf, https://codefyphp.com/
 
 Related : :ref:`Value Object (VO) <vo>`, :ref:`Data Transfer Object (DTO) <dto>`

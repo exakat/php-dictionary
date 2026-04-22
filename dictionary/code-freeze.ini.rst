@@ -27,4 +27,4 @@ A code freeze is a common practice in software development where all changes to 
 
 See also https://www.jetbrains.com/teamcity/ci-cd-guide/faq/code-freeze/
 
-Related : 
+Related : :ref:`Lifecycle <lifecycle>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file_put_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"``file_put_contents()`` is a PHP native function, which stores data in a file, in one call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file_put_contents().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file_put_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Apr 2026 05:46:03 +0000","dateModified":"Sat, 18 Apr 2026 05:46:03 +0000","description":"``file_put_contents()`` is a PHP native function, which stores data in a file, in one call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file_put_contents().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 file_put_contents()
@@ -26,7 +26,7 @@ file_put_contents()
 
 The function also include options to handle concurrency with locks; to append data rather than overwrite them with ``FILE_APPEND``, and a restriction to use file in the ``include_path`` configuration.
 
-``file_put_contents()`` accepts about any type of data, to store them on a file, yet strings are the best fitted for that. Scalar types are converted to a string; arrays are imploded without any separator and objects are converted to string, when the magic method ``__toString()`` is available, otherwise, they are ignored.
+``file_put_contents()`` accepts about any type of data, to store them on a file, yet strings are the best fitted for that. Scalar types are converted to a string; arrays are imploded, with the empty string as separator, and no recursive processing, and objects are converted to string, when the magic method ``__toString()`` is available, otherwise, they are ignored.
 
 .. code-block:: php
    
@@ -41,4 +41,4 @@ The function also include options to handle concurrency with locks; to append da
 
 See also https://reintech.io/blog/practical-guide-php-file-put-contents-function, https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html
 
-Related : :ref:`include_path <include_path>`, , , :ref:`Lock <lock>`, :ref:`Concurency <concurency>`, :ref:`file_get_contents() <file_get_contents>`
+Related : :ref:`include_path <include_path>`, , , :ref:`Lock <lock>`, :ref:`Concurency <concurency>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Empty String <empty-string>`, :ref:`Array <array>`

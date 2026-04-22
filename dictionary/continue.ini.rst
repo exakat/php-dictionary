@@ -42,4 +42,4 @@ Continue
 
 `Documentation <https://www.php.net/manual/en/control-structures.continue.php>`__
 
-Related : :ref:`Break <break>`, :ref:`Control Flow <control-flow>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`Foreach <foreach>`, :ref:`While <while>`
+Related : :ref:`Break <break>`, :ref:`Control Flow <control-flow>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`foreach() <foreach>`, :ref:`While <while>`

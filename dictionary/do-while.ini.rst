@@ -40,4 +40,4 @@ Part of the block execution may be skipped by using the ``continue`` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.do.while.php>`__
 
-Related : :ref:`Continue <continue>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`, :ref:`While <while>`
+Related : :ref:`Continue <continue>`, :ref:`foreach() <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`, :ref:`While <while>`

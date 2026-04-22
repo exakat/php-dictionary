@@ -48,4 +48,4 @@ Part of the loop execution may be skipped by using the ``continue`` keyword.
 
 See also `While Loop in PHP <https://www.scaler.com/topics/php-tutorial/while-loop-in-php/>`_
 
-Related : :ref:`Continue <continue>`, :ref:`Do While <do-while>`, :ref:`Foreach <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`
+Related : :ref:`Continue <continue>`, :ref:`Do While <do-while>`, :ref:`foreach() <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`

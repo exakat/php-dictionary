@@ -43,4 +43,4 @@ Bootstrapping include the following steps
 
 These list is a general panorama. The steps may not be in order, not exhaustive not applicable to specific frameworks.
 
-Related : 
+Related : :ref:`Lifecycle <lifecycle>`

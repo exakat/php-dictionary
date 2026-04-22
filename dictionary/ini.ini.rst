@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"INI","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The INI format is a simple, human-readable file format used for configuration settings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/INI.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"INI","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:09:13 +0000","dateModified":"Thu, 16 Apr 2026 05:09:13 +0000","description":"The INI format is a simple, human-readable file format used for configuration settings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/INI.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 INI
@@ -32,24 +32,26 @@ It is related to the TOML format.
    
    <?php
    
-   parse_ini_file('/path/to/php.ini');
-   
-   parse_ini_string(<<<INI
-   ; This is a comment
-   # Another comment
-   
-   [database]
-   host = localhost
-   username = root
-   password = secret
-   port = 3306
-   INI);
+       parse_ini_file('/path/to/php.ini');
+       
+       parse_ini_string(<<<INI
+       ; This is a comment
+       # Another comment
+       
+       [database]
+       host = localhost
+       username = root
+       password = secret
+       port = 3306
+       INI);
    
    ?>
 
 
-`Documentation <https://learn.microsoft.com/en-us/windows/win32/fileio/ini-files>`__
+`Documentation <https://en.wikipedia.org/wiki/INI_file>`__
 
-See also https://en.wikipedia.org/wiki/INI_file
+See also http://linuxcnc.org/docs/html/config/ini-config.html
+
+Related : :ref:`Format <format>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 
 Related packages : `matomo/ini <https://packagist.org/packages/matomo/ini>`_

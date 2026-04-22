@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Zend Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The Zend Engine is the core runtime engine of PHP: it's the part of PHP that actually interprets, compiles, and executes your PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Zend Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Zend Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 10:20:03 +0000","dateModified":"Wed, 22 Apr 2026 10:20:03 +0000","description":"The Zend Engine is the core runtime engine of PHP: it's the part of PHP that actually interprets, compiles, and executes your PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Zend Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Zend Engine
@@ -30,4 +30,4 @@ It is named after its two original authors: ``Zeev Zuraski`` and ``Andy Gutmans`
 
 See also https://faizymca.wordpress.com/php-zend-engine/
 
-Related : :ref:`PHP Engine <engine>`, :ref:`Virtual Machine (VM) <virtual-machine>`
+Related : :ref:`PHP Engine <engine>`, :ref:`Virtual Machine (VM) <virtual-machine>`, :ref:`Core <core>`, :ref:`Internals <internals>`, :ref:`PHP, Hypertext Preprocessor (PHP) <php>`, :ref:`Zval <zval>`

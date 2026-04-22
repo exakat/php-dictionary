@@ -46,6 +46,6 @@ PHPMetrics is also the name of an eponymous project.
 
 See also https://peteraba.com/blog/phpmetrics-of-popular-projects/, https://pdepend.org/, https://www.zend.com/blog/web-application-performance-metrics-security, https://stackify.com/php-performance-monitoring-a-developers-guide/
 
-Related : :ref:`Application Performance Management (APM) <apm>`, , :ref:`Continuous Integration (CI) <ci>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Cognitive Complexity <cognitive-complexity>`
+Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Monitoring <monitoring>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Cognitive Complexity <cognitive-complexity>`
 
 Related packages : `phpmetrics/phpmetrics <https://packagist.org/packages/phpmetrics/phpmetrics>`_, `php-code-archeology/php-code-archeology <https://packagist.org/packages/php-code-archeology/php-code-archeology>`_, `phpmd/phpmd <https://packagist.org/packages/phpmd/phpmd>`_

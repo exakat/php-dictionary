@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Remote Procedure Call (RPC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"RPC is an acronym for Remote Procedure Call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Remote Procedure Call (RPC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"Remote Procedure Call (RPC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Apr 2026 16:09:12 +0000","dateModified":"Tue, 21 Apr 2026 16:09:12 +0000","description":"RPC is an acronym for Remote Procedure Call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Remote Procedure Call (RPC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Remote Procedure Call (RPC)
@@ -24,21 +24,25 @@ Remote Procedure Call (RPC)
 
 RPC is an acronym for Remote Procedure Call. This happens when the program delegate the execution of a piece of code to a separate server.
 
-PHP offers xml-rpc, grpc, protocolbuffers and yar offers different standard way to do RPC.
+PHP offers xml-rpc, grpc, protocolbuffers or protobuf and yar offers different standard way to do RPC.
 
 .. code-block:: php
    
    <?php
-   $params = array ( "one"=>"red","two"=>"blue","three"=>"green" );
    
-   $response = xmlrpc_encode ( $params );
+       $params = ['one'=>'red', 'two'=>'blue', 'three'=>'green'];
    
-   echo ( $response );
+       $response = xmlrpc_encode($params);
+   
+       echo($response);
+   
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Remote_procedure_call>`__
 
 See also https://pecl.php.net/package/gRPC, https://pecl.php.net/package/yar
+
+Related : :ref:`gRPC (Google Remote Procedure Call) <grpc>`
 
 Related packages : `grpc/grpc <https://packagist.org/packages/grpc/grpc>`_

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Anonymous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"An anonymous structure is a structure that usually has a name, but may also go without it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anonymous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Anonymous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:26:08 +0000","dateModified":"Thu, 16 Apr 2026 05:26:08 +0000","description":"An anonymous structure is a structure that usually has a name, but may also go without it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anonymous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Anonymous
@@ -26,11 +26,11 @@ An anonymous structure is a structure that usually has a name, but may also go w
 
 There a several structures which have an anonymous version: 
 
-+ functions: there are two types: closures and arrow functions
-+ method: the magic method ``__invoke()``
-+ classes
-+ constants: basically, it is a literal value
-+ catch: in this case, the exception is caught, but it is not provided in a related variable
++ Functions: there are two types: closures and arrow functions
++ Method: the magic method ``__invoke()``
++ Classes
++ Constants: basically, it is a literal value
++ Catch: in this case, the exception is caught, but it is not provided in a related variable
 
 Some structures are always named: variables, properties, traits, interfaces, enums.
 

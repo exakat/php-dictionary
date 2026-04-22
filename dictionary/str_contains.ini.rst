@@ -52,4 +52,4 @@ The empty string is always found. ``null`` value is not accepted, but still defa
 
 `Documentation <https://www.php.net/manual/fr/function.str-contains.php>`__
 
-Related : :ref:`Null <null>`, :ref:`Empty String <empty-string>`, :ref:`fnmatch() <fnmatch>`, , :ref:`strpos <strpos>`
+Related : :ref:`Null <null>`, :ref:`Empty String <empty-string>`, :ref:`fnmatch() <fnmatch>`, :ref:`Preg_match <preg_match>`, :ref:`strpos <strpos>`

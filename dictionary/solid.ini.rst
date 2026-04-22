@@ -16,23 +16,23 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SOLID","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"SOLID is an acronym for a set of OOP design principle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SOLID.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SOLID","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Apr 2026 09:37:06 +0000","dateModified":"Mon, 20 Apr 2026 09:37:06 +0000","description":"SOLID is an acronym for a set of OOP design principle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SOLID.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SOLID
 -----
 
-SOLID is an acronym for a set of OOP design principle. They were coined by Robert C. Martin (also known as Uncle Bob).
+SOLID is an acronym for a set of OOP design principle. They were coined by Robert C. Martin, the famous Uncle Bob.
 
-+ S: Single Responsibility Principle
-+ O: Open Closed Principle
-+ L: Liskov Substitution Principle
-+ I: Interface Segregation Principle
-+ D: Dependency Inversion Principle
++ S: single Responsibility Principle
++ O: open Closed Principle
++ L: liskov Substitution Principle
++ I: interface Segregation Principle
++ D: dependency Inversion Principle
 
 Each principle may be used independently. Those principles are not dedicated to PHP, though they are used with PHP.
 
-The opposite of SOLID is STUPID: 
+The opposite of SOLID is STUPID.
 
 `Documentation <https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>`__
 

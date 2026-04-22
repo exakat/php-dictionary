@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"MySQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"``mysql`` is both the name of a PHP extension that provides the interface to interact with the MySQL database, and the database itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/MySQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"MySQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:09:48 +0000","dateModified":"Thu, 16 Apr 2026 05:09:48 +0000","description":"``mysql`` is both the name of a PHP extension that provides the interface to interact with the MySQL database, and the database itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/MySQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 MySQL
@@ -65,6 +65,6 @@ MySQL
 
 `Documentation <https://www.php.net/manual/en/book.mysql.php>`__
 
-See also https://www.mysql.org/, https://mariadb.org/, https://medium.com/@barbiedisemyworld/an-introduction-to-php-and-mysql-inserting-and-fetching-from-mysql-fe16261f3228
+See also https://www.mysql.org, https://mariadb.org/, https://medium.com/@barbiedisemyworld/an-introduction-to-php-and-mysql-inserting-and-fetching-from-mysql-fe16261f3228
 
 Related : :ref:`mysqli <mysqli>`

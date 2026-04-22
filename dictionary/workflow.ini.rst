@@ -26,6 +26,6 @@ A workflow is a sequence of tasks or steps that are performed to accomplish a sp
 
 `Documentation <https://en.wikipedia.org/wiki/Workflow>`__
 
-Related : :ref:`Algorithm <algorithm>`, 
+Related : :ref:`Algorithm <algorithm>`, :ref:`Task <task>`
 
 Related packages : `symfony/workflow <https://packagist.org/packages/symfony/workflow>`_, `laravel-workflow/laravel-workflow <https://packagist.org/packages/laravel-workflow/laravel-workflow>`_

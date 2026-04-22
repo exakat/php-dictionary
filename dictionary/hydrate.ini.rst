@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hydratation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:58 +0000","dateModified":"Mon, 16 Mar 2026 14:40:58 +0000","description":"To hydrate is to fill an object with data coming from an unstructured format, before using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hydratation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hydratation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:07:02 +0000","dateModified":"Thu, 16 Apr 2026 05:07:02 +0000","description":"To hydrate is to fill an object with data coming from an unstructured format, before using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hydratation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hydratation
@@ -26,7 +26,9 @@ To hydrate is to fill an object with data coming from an unstructured format, be
 
 Hydration is quite repetitive, as the source data must be mapped to the corresponding property. Validation may also play a part in that operation.
 
-See also https://www.doctrine-project.org/projects/doctrine1/en/latest/manual/data-hydrators.html, https://mvaliolahi.medium.com/laravel-request-hydration-f8aba2ae4851
+`Documentation <https://en.wikipedia.org/wiki/Hydration_(web_development)>`__
+
+See also https://tomasvotruba.com/blog/2020/04/20/how-to-hydrate-arrays-to-objects-via-constructor, https://mvaliolahi.medium.com/laravel-request-hydration-f8aba2ae4851
 
 Related : :ref:`Serialization <serialize>`, :ref:`Data Mapper <mapper>`
 

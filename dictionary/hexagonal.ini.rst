@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hexagonal Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Hexagonal architecture, also known as Ports and Adapters architecture or the Onion architecture, is a software architectural pattern that promotes the separation of concerns and emphasizes modularity and flexibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hexagonal Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hexagonal Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 04:56:57 +0000","dateModified":"Thu, 16 Apr 2026 04:56:57 +0000","description":"Hexagonal architecture, also known as Ports and Adapters architecture or the Onion architecture, is a software architectural pattern that promotes the separation of concerns and emphasizes modularity and flexibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hexagonal Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hexagonal Architecture
@@ -37,7 +37,7 @@ The hexagonal architecture promotes loose coupling, which makes the system more 
 
 `Documentation <https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>`__
 
-See also https://www.developers.nl/blog/35/hexagonal-architecture-in-php, https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656
+See also https://dev.to/helmarjunior/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01, https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656
 
 Related : :ref:`Adapters <adapter>`, :ref:`Onion Architecture <onion-architecture>`
 

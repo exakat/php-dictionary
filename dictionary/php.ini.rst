@@ -1,32 +1,32 @@
 .. _php:
 .. meta::
 	:description:
-		PHP: A popular general-purpose scripting language that is especially suited to web development.
+		PHP, Hypertext Preprocessor (PHP): A popular general-purpose scripting language that is especially suited to web development.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: PHP
-	:twitter:description: PHP: A popular general-purpose scripting language that is especially suited to web development
+	:twitter:title: PHP, Hypertext Preprocessor (PHP)
+	:twitter:description: PHP, Hypertext Preprocessor (PHP): A popular general-purpose scripting language that is especially suited to web development
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: PHP
+	:og:title: PHP, Hypertext Preprocessor (PHP)
 	:og:type: article
 	:og:description: A popular general-purpose scripting language that is especially suited to web development
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A popular general-purpose scripting language that is especially suited to web development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP, Hypertext Preprocessor (PHP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 09:53:12 +0000","dateModified":"Wed, 22 Apr 2026 09:53:12 +0000","description":"A popular general-purpose scripting language that is especially suited to web development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP, Hypertext Preprocessor (PHP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-PHP
----
+PHP, Hypertext Preprocessor (PHP)
+---------------------------------
 
 A popular general-purpose scripting language that is especially suited to web development.
 
-Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+Fast, flexible and pragmatic, PHP powers everything from personal blog to the most popular websites in the world.
 
-It was invented by Rasmus Lerdorf, on June 8th, 1995. PHP is a recursive acronym, which defines itself: PHP, Hypertext Preprocessor. It initially meant Personal Home Page.
+It was invented by Rasmus Lerdorf, on June 8th, 1995. PHP is a recursive acronym, which defines itself: ``PHP, Hypertext Preprocessor``. It initially meant ``Personal Home Page``.
 
 .. code-block:: php
    
@@ -40,3 +40,5 @@ It was invented by Rasmus Lerdorf, on June 8th, 1995. PHP is a recursive acronym
 `Documentation <https://groups.google.com/g/comp.infosystems.www.authoring.cgi/c/PyJ25gZ6z7A/m/M9FkTUVDfcwJ?pli=1>`__
 
 See also https://www.exakat.io/what-does-php-mean/
+
+Related : :ref:`Zend Engine <zend-engine>`

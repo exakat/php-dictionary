@@ -26,4 +26,4 @@ The PHP ecosystem refers to the entire environment around the language, made of 
 
 An active ecosystem is a strong sign of good health for the underlying language.
 
-Related : :ref:`PHP <php>`
+Related : :ref:`PHP, Hypertext Preprocessor (PHP) <php>`
