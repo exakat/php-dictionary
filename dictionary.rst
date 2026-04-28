@@ -66,6 +66,7 @@ PHP Dictionary
    * :ref:`Adapters <adapter>`
    * :ref:`Addition <addition>`
    * :ref:`Agile <agile>`
+   * :ref:`Ahead Of Time (OAT) <aot>`
    * :ref:`Algorithm <algorithm>`
    * :ref:`Algorithmic Complexity <algorithmic-complexity>`
    * :ref:`Alias <alias>`
@@ -431,6 +432,7 @@ PHP Dictionary
    * :ref:`Elephpant <elephpant>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Email <email>`
+   * :ref:`Embed <embed>`
    * :ref:`Emoji <emoji>`
    * :ref:`Empty <empty>`
    * :ref:`Empty String <empty-string>`
@@ -965,6 +967,8 @@ PHP Dictionary
    * :ref:`php.ini <php.ini>`
    * :ref:`php:// <wrapper-php>`
    * :ref:`php://input <php-input>`
+   * :ref:`php://memory <php-memory>`
+   * :ref:`php://output <php-output>`
    * :ref:`phpinfo() <phpinfo>`
    * :ref:`precision <precision>`
    * :ref:`preg_split() <preg_split>`

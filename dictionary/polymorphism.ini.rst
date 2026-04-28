@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Polymorphism is a fundamental concept in object-oriented programming, or OOP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polymorphism.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Apr 2026 07:15:57 +0000","dateModified":"Tue, 28 Apr 2026 07:15:57 +0000","description":"Polymorphism is a fundamental concept in object-oriented programming, or OOP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polymorphism.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polymorphism
@@ -47,6 +47,6 @@ Polymorphism is achieved through method overriding and interfaces. It is possibl
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also https://www.scaler.com/topics/php-tutorial/polymorphism-in-php/, https://phpenthusiast.com/object-oriented-php-tutorials/polymorphism-in-php, https://mohasin-dev.medium.com/polymorphism-in-php-with-example-83de1792c89d
+See also https://www.scaler.com/topics/php-tutorial/polymorphism-in-php/, https://mohasin-dev.medium.com/polymorphism-in-php-with-example-83de1792c89d
 
 Related : :ref:`Interface <interface>`, :ref:`Class <class>`, :ref:`Inheritance <inheritance>`, :ref:`Trait <trait>`

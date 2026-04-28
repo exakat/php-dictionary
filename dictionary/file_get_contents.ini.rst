@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file_get_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``file_get_contents()`` is a PHP native function, which reads all data from a file, in one call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file_get_contents().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file_get_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Apr 2026 07:40:27 +0000","dateModified":"Tue, 28 Apr 2026 07:40:27 +0000","description":"``file_get_contents()`` is a PHP native function, which reads all data from a file, in one call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file_get_contents().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 file_get_contents()
@@ -42,4 +42,6 @@ The function also include options to handle concurrency with locks; to append da
 
 `Documentation <https://www.php.net/manual/en/function.file-get-contents.php>`__
 
-Related : :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`False <false>`, :ref:`String <string>`, :ref:`Stream <stream>`, :ref:`Wrapper <wrapper>`
+See also https://www.geeksforgeeks.org/php/how-to-post-data-using-file_get_contents-in-php/
+
+Related : :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`False <false>`, :ref:`String <string>`, :ref:`Stream <stream>`, :ref:`Wrapper <wrapper>`, :ref:`$http_response_header <$http_response_header>`, :ref:`file_put_contents() <file_put_contents>`, :ref:`php://input <php-input>`, :ref:`php://memory <php-memory>`

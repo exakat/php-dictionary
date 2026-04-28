@@ -71,6 +71,7 @@ Index
    dictionary/anonymous-constant.ini
    dictionary/anonymous-function.ini
    dictionary/anonymous.ini
+   dictionary/aot.ini
    dictionary/api.ini
    dictionary/apm.ini
    dictionary/app-server.ini
@@ -417,6 +418,7 @@ Index
    dictionary/elephpant.ini
    dictionary/ellipsis.ini
    dictionary/email.ini
+   dictionary/embed.ini
    dictionary/emoji.ini
    dictionary/empty-string.ini
    dictionary/empty.ini
@@ -889,7 +891,9 @@ Index
    dictionary/php-group.ini
    dictionary/php-input.ini
    dictionary/php-interface.ini
+   dictionary/php-memory.ini
    dictionary/php-native-attribute.ini
+   dictionary/php-output.ini
    dictionary/php-rfc.ini
    dictionary/php-tag.ini
    dictionary/php-ug.ini

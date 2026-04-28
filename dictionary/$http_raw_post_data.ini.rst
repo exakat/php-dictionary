@@ -38,6 +38,6 @@ Since PHP 7.0, ``php://input`` should be used instead of ``$HTTP_RAW_POST_DATA``
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
 
-Related : :ref:`php://input <php-input>`, , 
+Related : :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`php://memory <php-memory>`
 
 Removed in PHP 

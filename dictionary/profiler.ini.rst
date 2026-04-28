@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Profiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Profiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Profiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Apr 2026 07:18:21 +0000","dateModified":"Tue, 28 Apr 2026 07:18:21 +0000","description":"A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Profiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Profiler
@@ -30,22 +30,22 @@ PHP has several profilers. They may provide an online interface to visualize the
    
    <?php
    
-   // code to use with PHP-spx, one of PHP profilers
-   
-   while ($task = get_next_ready_task()) {
-     spx_profiler_start();
-     try {
-       $task->process();
-     } finally {
-       spx_profiler_stop();
-     }
-   }
+       // code to use with PHP-spx, one of PHP profilers
+       
+       while ($task = get_next_ready_task()) {
+         spx_profiler_start();
+         try {
+           $task->process();
+         } finally {
+           spx_profiler_stop();
+         }
+       }
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Profiling_(computer_programming)>`__
 
-See also https://www.blackfire.io/php/, https://gprofiler.io/, https://github.com/perftools/php-profiler.git, https://github.com/reliforp/reli-prof.git, https://www.php.net/manual/en/book.xhprof.php, https://www.xdebug.org/
+See also https://www.blackfire.io/php/, https://github.com/perftools/php-profiler.git, https://github.com/reliforp/reli-prof.git, https://www.php.net/manual/en/book.xhprof.php, https://www.xdebug.org/
 
 Related : :ref:`Debugger <debugger>`

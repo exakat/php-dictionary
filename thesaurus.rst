@@ -215,6 +215,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Edge Case <edge-case>`
++ :ref:`Embed <embed>`
 + :ref:`Enable <enable>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
