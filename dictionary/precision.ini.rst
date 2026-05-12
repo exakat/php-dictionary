@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Precision refers to the number of digits are used to represent and display floating-point numbers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 08:48:44 +0000","dateModified":"Tue, 12 May 2026 08:48:44 +0000","description":"Precision refers to the number of digits are used to represent and display floating-point numbers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 precision
@@ -24,9 +24,9 @@ precision
 
 Precision refers to the number of digits are used to represent and display floating-point numbers. The exact meaning depends a bit on the context, but it's most commonly about float accuracy and formatting.
 
-Precision is important when using a decimal number as an array index: the conversion is implicit, but yields a warning, nowadays.
+Precision is important when using a decimal number as an array index: the conversion is implicit, and, nowadays, it yields a warning.
 
-Precision is also lost when an integer is converted to a decimal number, which may not be accurately represented.
+Precision is also lost when an integer is converted to a decimal number, which may not be accurately represented. This happens with large integers, when they are converted to float, because of their size.
 
 ``precision`` and ``serialize_precision`` are two PHP directives, that controls the display or conversion of numbers. 
 
@@ -35,15 +35,15 @@ Precision is also lost when an integer is converted to a decimal number, which m
    
    <<?php
    
-   echo 1 / 7;
-   
-   print PHP_EOL;
-   
-   ini_set('precision', 2);
-   
-   echo 1 / 7;
+       echo 1 / 7;
+       
+       print PHP_EOL;
+       
+       ini_set('precision', 2);
+       
+       echo 1 / 7;
    
    ?>
 
 
-Related : :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, , 
+Related : :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, 

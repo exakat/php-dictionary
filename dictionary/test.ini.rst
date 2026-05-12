@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 09:50:58 +0000","dateModified":"Wed, 22 Apr 2026 09:50:58 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 17:22:13 +0000","dateModified":"Fri, 08 May 2026 17:22:13 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test
@@ -46,6 +46,6 @@ PHP has several testing framework: PHPunit, pest, pint, simpletest, atoum.
 Tests are often further automated in a Continuous Integration Pipeline.
 
 
-See also `3 Compelling Reasons For Developers To Write Tests <https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests>`_, `Testing Best Practices: The Ultimate Guide <https://compiler.blog/testing-best-practices-the-ultimate-guide>`_, `Testing tips <https://testing-tips.sarvendev.com/>`_, https://unixdigest.com/tutorials/how-to-test-procedural-functions-with-phpunit.html_
+See also https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests, https://testing-tips.sarvendev.com/, https://unixdigest.com/tutorials/how-to-test-procedural-functions-with-phpunit.html
 
 Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Feature Testing <feature-testing>`, :ref:`Code Coverage <code-coverage>`, :ref:`PHPunit <phpunit>`, :ref:`Quality <quality>`, :ref:`Refactoring <refactoring>`

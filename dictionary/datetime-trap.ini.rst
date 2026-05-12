@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Datetime Trap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Datetime Trap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Datetime Trap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 15:53:10 +0000","dateModified":"Mon, 11 May 2026 15:53:10 +0000","description":"When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Datetime Trap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Datetime Trap
@@ -49,6 +49,6 @@ To avoid this trap, use the DatetimeImmutable class. This class is not modified 
 
 `Documentation <https://www.php.net/datetime>`__
 
-See also https://twitter.com/CodeWithKyrian/status/1727832972303143151, https://aiocollective.com/blog/php-datetime-difference-trap/, https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce
+See also https://twitter.com/CodeWithKyrian/status/1727832972303143151, https://aiocollective.com/blog/php-datetime-difference-trap/, https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce, https://medium.com/@segunibidokun/the-silent-bug-that-corrupts-your-monthly-data-in-laravel-b464706ada54
 
 Related packages : `nesbot/carbon <https://packagist.org/packages/nesbot/carbon>`_, `cakephp/chronos <https://packagist.org/packages/cakephp/chronos>`_

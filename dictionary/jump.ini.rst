@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Jump","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A jump typically refers to any non-linear control flow, where the program skips from one part of the code to another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Jump.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Jump","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"A jump typically refers to any non-linear control flow, where the program skips from one part of the code to another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Jump.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Jump
@@ -30,22 +30,22 @@ There are a few constructs in PHP that qualify as jumps: ``goto``, ``break``, ``
    
    <?php
    
-   function foo(int $a) {
-       // jumps out of the method
-       if ($a > 10) { return; }
-       
-       foreach(range(1, 10) as $i) {
-           if (doSomething($i, $a)) {
-               // jumps out of the loop
-               break 1; 
+       function foo(int $a) {
+           // jumps out of the method
+           if ($a > 10) { return; }
+           
+           foreach(range(1, 10) as $i) {
+               if (doSomething($i, $a)) {
+                   // jumps out of the loop
+                   break 1; 
+               }
            }
+           
+           // normal execution
+           return $a + 1;
        }
-       
-       // normal execution
-       return $a + 1;
-   }
    
    ?>
 
 
-Related : :ref:`Goto <goto>`, :ref:`Return <return>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`throw <throw>`
+Related : :ref:`Goto <goto>`, :ref:`Return <return>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`throw <throw>`, :ref:`Control Flow <control-flow>`

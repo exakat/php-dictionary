@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Null Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Null Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Null Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"The Null Pattern is a design pattern in software development that addresses the handling of null or undefined values in a more controlled and predictable manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Null Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Null Pattern
@@ -60,6 +60,6 @@ Key principles of the Null Pattern:
 
 `Documentation <https://en.wikipedia.org/wiki/Null_object_pattern>`__
 
-See also https://nunomaduro.com/null_object_pattern_in_php, https://www.amitmerchant.com/all-the-ways-to-handle-null-values-in-php/
+See also https://jorgecortes.dev/blog/10-the-null-object-pattern-simplify-your-php-code, https://www.amitmerchant.com/all-the-ways-to-handle-null-values-in-php/
 
 Related : :ref:`Design Pattern <pattern>`, :ref:`Default Parameter <default-parameter>`, :ref:`Default Value <default-value>`, :ref:`Neutral Element <neutral-element>`, :ref:`Null <null>`

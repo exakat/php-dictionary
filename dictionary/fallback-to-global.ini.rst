@@ -1,5 +1,4 @@
 .. _fallback-to-global:
-.. _fallback:
 .. meta::
 	:description:
 		Fallback To Global: The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing.
@@ -17,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fallback To Global","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fallback To Global.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fallback To Global","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fallback To Global.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fallback To Global
@@ -29,7 +28,7 @@ This feature was introduced as a transition mechanism, when namespaces were intr
 
 The fallback mechanism applies to global constants and functions. 
 
-This mechanism is usually transparent to users: PHP behaves with little friction. It introduces the possibility of a man in the middle attack: adding a local definition to a global function or constant will overwrite this function.
+This mechanism is usually transparent to users. It introduces the possibility of a man in the middle attack: adding a local definition to a global function or constant will overwrite this function.
 
 There is a penalty cost to use the fallback mechanism, as PHP has to search for the function locally, then globally, before finding it. Using the fully qualified name, or an import expression ``use`` speeds up the process.
 
@@ -37,33 +36,36 @@ There is a penalty cost to use the fallback mechanism, as PHP has to search for 
    
    <?php
    
-   namespace {
-       function goo() { echo __FUNCTION__;}
-       function hoo() { echo __FUNCTION__;}
-   }
-   
-   namespace A {
-   	use function hoo as ioo;
-   	
-   	function foo() { echo __FUNCTION__;}
-   	function hoo() { echo __FUNCTION__;}
-   	
-   	foo(); // A\foo;
-   	goo(); // goo;
-   	hoo(); // A\hoo;
-   	\hoo(); // hoo
-   	ioo(); // A\hoo;
-   
-   	// this replaces the native PHP strtolower with another function, 
-   	// in the A namespace
-   	function strtolower($string) { return \strtoupper($string);}
-   	
-   	echo strtolower('aB');  // AB
-   	echo \strtolower('aB'); // ab
-   }
-   
+       namespace {
+           function goo() { echo __FUNCTION__;}
+           function hoo() { echo __FUNCTION__;}
+       }
+       
+       namespace A {
+           use function hoo as ioo;
+           
+           function foo() { echo __FUNCTION__;}
+           function hoo() { echo __FUNCTION__;}
+           
+           foo(); // A\foo;
+           goo(); // goo;
+           hoo(); // A\hoo;
+           \hoo(); // hoo
+           ioo(); // A\hoo;
+       
+           // this replaces the native PHP strtolower with another function, 
+           // in the A namespace
+           function strtolower($string) { return \strtoupper($string);}
+           
+           echo strtolower('aB');  // AB
+           echo \strtolower('aB'); // ab
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.fallback.php>`__
+
+See also http://semantic-portal.net/php-language-reference-namespaces-global-function
+
+Related : :ref:`global Scope <global>`, :ref:`Functions <function>`, :ref:`Fallback <fallback>`

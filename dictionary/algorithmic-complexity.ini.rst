@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Algorithmic Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Algorithmic complexity, also called computational complexity, refers to the study of the resources required by an algorithm to solve a problem as a function of the input size","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Algorithmic Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Algorithmic Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Algorithmic complexity, also called computational complexity, refers to the study of the resources required by an algorithm to solve a problem as a function of the input size","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Algorithmic Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Algorithmic Complexity
@@ -24,7 +24,7 @@ Algorithmic Complexity
 
 Algorithmic complexity, also called computational complexity, refers to the study of the resources required by an algorithm to solve a problem as a function of the input size. It helps us understand how efficient an algorithm is, especially as the input size grows.
 
-Algorithmic complexity matters for scalability, resource optimisation, performance forecast and server dimensioning. 
+Algorithmic complexity matters for scalability, resource optimisation, performance forecast and server dimensionning. 
 
 The resources may be time, processing power, memory, disk usage or other computational resources.
 
@@ -34,4 +34,4 @@ Algorithmic complexity may be measured by metrics.
 
 See also https://codesignal.com/learn/courses/mastering-algorithms-in-php-two-pointers-and-beyond/lessons/complexity-analysis-and-code-optimization-with-php, https://devopedia.org/algorithmic-complexity
 
-Related : :ref:`Metrics <metrics>`, 
+Related : :ref:`Metrics <metrics>`, :ref:`Big-o-notation <big-o-notation>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 11:34:38 +0000","dateModified":"Mon, 11 May 2026 11:34:38 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 integer
@@ -31,16 +31,16 @@ Integers have several syntaxes: they may be written in binary, octal, decimal, h
    
    <?php
    
-   $a = 1234;       // decimal number
-   $a = 0123;       // octal number (equivalent to 83 decimal)
-   $a = 0o123;      // octal number (as of PHP 8.1.0)
-   $a = 0x1A;       // hexadecimal number (equivalent to 26 decimal)
-   $a = 0b11111111; // binary number (equivalent to 255 decimal)
-   $a = 1_234_567;  // decimal number (as of PHP 7.4.0)
+       $a = 1234;       // decimal number
+       $a = 0123;       // octal number (equivalent to 83 decimal)
+       $a = 0o123;      // octal number (as of PHP 8.1.0)
+       $a = 0x1A;       // hexadecimal number (equivalent to 26 decimal)
+       $a = 0b11111111; // binary number (equivalent to 255 decimal)
+       $a = 1_234_567;  // decimal number (as of PHP 7.4.0)
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-Related : :ref:`Addition <addition>`, :ref:`Binary Integer <binary-integer>`, :ref:`Multiplication <multiplication>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`Octal Integer <octal-integer>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Positive Integer <positive-integer>`, :ref:`precision <precision>`
+Related : :ref:`Addition <addition>`, :ref:`Binary Integer <binary-integer>`, :ref:`Multiplication <multiplication>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`Octal Integer <octal-integer>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Positive Integer <positive-integer>`, :ref:`precision <precision>`, :ref:`abs() <abs>`, :ref:`Number <number>`, :ref:`Numeric Base <numeric-base>`, :ref:`Rounding <rounding>`

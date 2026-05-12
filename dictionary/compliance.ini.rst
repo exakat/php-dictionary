@@ -28,4 +28,4 @@ Compliance generally refers to adhering to a set of predefined rules, standards,
 
 See also https://www.zend.com/blog/maintaining-php-compliance, https://codenteam.com/php-a-complete-due-diligence-assessment-guide/
 
-Related : , 
+Related : :ref:`Audit <audit>`, :ref:`Standard <standard>`

@@ -23,7 +23,7 @@ author = 'Damien Seguy'
 html_favicon = '_static/logo.png'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.157'
+release = '1.0.158'
 
 
 # -- General configuration ---------------------------------------------------

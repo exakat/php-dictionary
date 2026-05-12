@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"max_execution_time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_execution_time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"max_execution_time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 18:35:13 +0000","dateModified":"Fri, 08 May 2026 18:35:13 +0000","description":"The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_execution_time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 max_execution_time
@@ -32,4 +32,4 @@ It is recommended to set this value as low as possible, and optimize the code to
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.max-execution-time>`__
 
-See also https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time
+See also https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time, https://tideways.com/profiler/blog/what-is-the-best-value-for-max-execution-time-in-php

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Dynamic is a common concept in PHP, and may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 15:12:16 +0000","dateModified":"Mon, 11 May 2026 15:12:16 +0000","description":"Dynamic is a common concept in PHP, and may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic
@@ -34,18 +34,18 @@ Dynamic is a common concept in PHP, and may be used in three distinct situations
    
    <?php
    
-   // Dynamic call of a variable
-   $a = K;
-   $x = 'a';
-   echo $$x; // K
-   
-   const A = 1;
-   $name = 'A';
-   echo constant($name); // 1
+       // Dynamic call of a variable
+       $a = K;
+       $x = 'a';
+       echo $$x; // K
+       
+       const A = 1;
+       $name = 'A';
+       echo constant($name); // 1
    
    ?>
 
 
 See also https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/
 
-Related : :ref:`Dynamic Call <dynamic-call>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`Dynamic Loading <dynamic-loading>`, :ref:`Dynamic Variable <dynamic-variable>`, :ref:`Variable Variables <variable-variable>`
+Related : :ref:`Dynamic Call <dynamic-call>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`Dynamic Loading <dynamic-loading>`, :ref:`Dynamic Variable <dynamic-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`static <static>`

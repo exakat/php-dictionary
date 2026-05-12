@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Configuration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 10:17:20 +0000","dateModified":"Wed, 22 Apr 2026 10:17:20 +0000","description":"Configuration is a set of data that conditions the execution of the program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Configuration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","name":"Configuration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 May 2026 09:32:33 +0000","dateModified":"Wed, 06 May 2026 09:32:33 +0000","description":"Configuration is a set of data that conditions the execution of the program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Configuration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Configuration
@@ -26,7 +26,7 @@ Configuration is a set of data that conditions the execution of the program.
 
 Generally, configuration isn't changed during the execution of the program. 
 
-PHP has three locations for configuration : ``php.ini``, ``.htaccess`` and usage of the ``ini_set()`` functions. 
+PHP has three locations for configuration: ``php.ini``, ``.htaccess`` and usage of the ``ini_set()`` functions. 
 
 Each item of configuration is called a directive.
 

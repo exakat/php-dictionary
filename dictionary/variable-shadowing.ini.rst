@@ -1,4 +1,5 @@
 .. _variable-shadowing:
+.. _shadow:
 .. meta::
 	:description:
 		Variable Shadowing: Variable shadowing is the confusion between variables of the same name, but of different context.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Shadowing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Apr 2026 07:00:14 +0000","dateModified":"Sat, 18 Apr 2026 07:00:14 +0000","description":"Variable shadowing is the confusion between variables of the same name, but of different context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Shadowing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Shadowing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 16:14:12 +0000","dateModified":"Mon, 11 May 2026 16:14:12 +0000","description":"Variable shadowing is the confusion between variables of the same name, but of different context","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Shadowing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Variable Shadowing
@@ -27,11 +28,12 @@ Variable shadowing is the confusion between variables of the same name, but of d
 In PHP, this happens in different situations: 
 
 + with local variables, by defining it several times in the same context, and starting a new usage.
++ with local variables, by defining it once as parameter, once as local variable, once as blind variable in a ``foreach()``, take 2 distinct situations
 + with static variables, after it was a local variable
 + with global variables, where a local variable and a global one carry the same name
 + with structures like foreach() and catch(), which creates variables that actually overwrite existing ones, but are not perceived as such by a human coder
 
-Such pattern sow confusion and lead to bugs.
+Such pattern sow confusion and lead to bugs. Given the context, the shadow may be intermittent: for example, a variable change content and type only when an exception is caught.
 
 .. code-block:: php
    

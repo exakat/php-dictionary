@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","name":"Large Language Model (LLM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"An LLM, or Large Language Model, is a type of artificial intelligence model designed to understand, generate, and interact with human language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Large Language Model (LLM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","name":"Large Language Model (LLM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 May 2026 05:11:02 +0000","dateModified":"Thu, 07 May 2026 05:11:02 +0000","description":"An LLM, or Large Language Model, is a type of artificial intelligence model designed to understand, generate, and interact with human language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Large Language Model (LLM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Large Language Model (LLM)
@@ -25,3 +25,7 @@ Large Language Model (LLM)
 An LLM, or Large Language Model, is a type of artificial intelligence model designed to understand, generate, and interact with human language. These models are trained on vast amounts of text data, allowing them to recognize patterns, context, and nuances in language.
 
 `Documentation <https://en.wikipedia.org/wiki/Large_language_model>`__
+
+See also https://github.com/guilamu/llms-wordpress-plugin-benchmark/blob/main/README.md, https://medium.com/@leumas.a/from-arrays-to-gpu-how-the-php-ecosystem-is-moving-toward-real-ml-3e6d661e9abe, https://instructorphp.com/
+
+Related : , 

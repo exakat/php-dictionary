@@ -33,4 +33,4 @@ Often, the DDOS uses a operation on the target that is long or costly, so that t
 
 See also https://medium.com/@annxsa/what-happens-when-a-php-application-is-ddosed-a-guide-for-beginners-to-advanced-developers-0cc4908e8bfe, https://securityboulevard.com/2024/07/how-php-vulnerability-leads-to-ddos-and-malware-attack/
 
-Related : :ref:`Security <security>`, , :ref:`Vulnerability <vulnerability>`
+Related : :ref:`Security <security>`, :ref:`Attack <attack>`, :ref:`Vulnerability <vulnerability>`

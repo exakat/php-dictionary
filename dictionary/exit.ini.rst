@@ -2,48 +2,57 @@
 .. _die:
 .. meta::
 	:description:
-		Exit: Exit and dies terminates the current process.
+		Exit: ``exit``` and ``die()`` terminates the current execution.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Exit
-	:twitter:description: Exit: Exit and dies terminates the current process
+	:twitter:description: Exit: ``exit``` and ``die()`` terminates the current execution
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Exit
 	:og:type: article
-	:og:description: Exit and dies terminates the current process
+	:og:description: ``exit``` and ``die()`` terminates the current execution
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Exit and dies terminates the current process","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"``exit``` and ``die()`` terminates the current execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Exit
 ----
 
-Exit and dies terminates the current process. 
+``exit``` and ``die()`` terminates the current execution. They are 
 
-exit is a language construct. 
+``exit()`` is a language construct, and since PHP 8.4, it is also a function too. 
 
-shutdown functions and constructor are still executed after a call to exit.
+After the end of execution, the registered shutdown functions and destructors are executed. ``finally`` blocks are  not executed.
+
+They do not have access to the output stream ``php://output`` anymore, so ``echo`` doesn't work; but it may still write in files or database, if the connexion is still open.
+
+``exit()`` uses its argument to return its execution status. It is transmitted to the original caller of the application. When the argument is a string, it is displayed before ending the process.
 
 .. code-block:: php
    
    <?php
    
-   class x {
-       final const X = 1;
-   }
+       $total = 0;
+       for($i = 0; $i < 10; ++$i) {
+           $total += $i;
+           
+           if ($i == 5) {
+               exit($total);
+           }
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-See also https://www.geeksforgeeks.org/php-exit-function/
+See also https://www.geeksforgeeks.org/php-exit-function/, https://medium.com/@dominic_55284/php-die-sleep-functions-7e766f9900e4
 
-Related : :ref:`Language Construct <language-construct>`, :ref:`Shutdown Function <shutdown-function>`, :ref:`Destructor <destructor>`
+Related : :ref:`Language Construct <language-construct>`, :ref:`Shutdown Function <shutdown-function>`, :ref:`Destructor <destructor>`, :ref:`Finally <finally>`
 
 Added in PHP 8.1

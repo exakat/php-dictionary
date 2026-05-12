@@ -32,4 +32,4 @@ The value of ``default_charset`` must be a valid IANA character set name. Possib
 
 See also https://php.watch/codex/default_charset, https://www.iana.org/assignments/character-sets/character-sets.xhtml
 
-Related : :ref:`UTF-8 <utf-8>`, :ref:`Encoding <encoding>`, , , 
+Related : :ref:`UTF-8 <utf-8>`, :ref:`Encoding <encoding>`, :ref:`htmlentities() <htmlentities>`, , 

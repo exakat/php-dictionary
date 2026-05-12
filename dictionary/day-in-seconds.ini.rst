@@ -1,26 +1,26 @@
 .. _day-in-seconds:
 .. meta::
 	:description:
-		Day Are Not 86400 Seconds: Days in seconds is a classic bug when dealing with dates.
+		Days Are Not 86400 Seconds: Days in seconds is a classic bug when dealing with dates.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Day Are Not 86400 Seconds
-	:twitter:description: Day Are Not 86400 Seconds: Days in seconds is a classic bug when dealing with dates
+	:twitter:title: Days Are Not 86400 Seconds
+	:twitter:description: Days Are Not 86400 Seconds: Days in seconds is a classic bug when dealing with dates
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Day Are Not 86400 Seconds
+	:og:title: Days Are Not 86400 Seconds
 	:og:type: article
 	:og:description: Days in seconds is a classic bug when dealing with dates
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/day-in-seconds.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Day Are Not 86400 Seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Days in seconds is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Day Are Not 86400 Seconds.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Days Are Not 86400 Seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 May 2026 08:43:48 +0000","dateModified":"Wed, 06 May 2026 08:43:48 +0000","description":"Days in seconds is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days Are Not 86400 Seconds.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Day Are Not 86400 Seconds
--------------------------
+Days Are Not 86400 Seconds
+--------------------------
 
 Days in seconds is a classic bug when dealing with dates. It happens when adding 86400 seconds to a time to get the same time on the next day. 
 
@@ -45,4 +45,4 @@ When dealing with days, it is recommended to use an interval, or use relative ex
 
 See also https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622, https://bugs.php.net/bug.php?id=741
 
-Related : :ref:`Days In Month <days-in-month>`
+Related : :ref:`Days In Month <days-in-month>`, :ref:`DateTime <datetime>`

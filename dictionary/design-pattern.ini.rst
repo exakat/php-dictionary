@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A design pattern, or simply a pattern, is a general solution to a common problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 11:31:21 +0000","dateModified":"Mon, 11 May 2026 11:31:21 +0000","description":"A design pattern, or simply a pattern, is a general solution to a common problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Design Pattern
@@ -32,7 +32,7 @@ Common design patterns in PHP:
 + Decorator
 + Module
 + Iterators
-+ this list is not exhaustive...
++ This list is not exhaustive...
 
 Design patterns are not dedicated to PHP, though most of them do apply to PHP.
 
@@ -40,4 +40,4 @@ Design patterns are not dedicated to PHP, though most of them do apply to PHP.
 
 See also https://refactoring.guru/design-patterns/php, https://designpatternsphp.readthedocs.io/en/latest/README.html, https://en.wikipedia.org/wiki/Design_Patterns
 
-Related : :ref:`Best Practices <best-practice>`, :ref:`Observer Design Pattern <observer>`, :ref:`Singleton <singleton>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`
+Related : :ref:`Best Practices <best-practice>`, :ref:`Observer Design Pattern <observer>`, :ref:`Singleton <singleton>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Clean Code <clean-code>`, :ref:`Component <component>`, :ref:`Registry <registry>`

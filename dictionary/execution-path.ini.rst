@@ -33,4 +33,4 @@ The execution path refers to the sequence in which the PHP interpreter processes
 + Exit and Die, or simply the end of the file.
 
 
-Related : 
+Related : :ref:`Call Graph <call-graph>`

@@ -1,33 +1,39 @@
 .. _debugger:
-.. _debug:
 .. meta::
 	:description:
-		Debugger: A debugger is an extension or an external program that is used to help when searching for bugs in PHP code.
+		Debugger: A debugger is an extension or an external program that is used to help when searching for bugs in source code.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Debugger
-	:twitter:description: Debugger: A debugger is an extension or an external program that is used to help when searching for bugs in PHP code
+	:twitter:description: Debugger: A debugger is an extension or an external program that is used to help when searching for bugs in source code
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Debugger
 	:og:type: article
-	:og:description: A debugger is an extension or an external program that is used to help when searching for bugs in PHP code
+	:og:description: A debugger is an extension or an external program that is used to help when searching for bugs in source code
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/debugger.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Debugger","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A debugger is an extension or an external program that is used to help when searching for bugs in PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Debugger.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Debugger","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 14:51:24 +0000","dateModified":"Mon, 11 May 2026 14:51:24 +0000","description":"A debugger is an extension or an external program that is used to help when searching for bugs in source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Debugger.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Debugger
 --------
 
-A debugger is an extension or an external program that is used to help when searching for bugs in PHP code. 
+A debugger is an extension or an external program that is used to help when searching for bugs in source code. 
 
-There are several debuggers in PHP: Interactive PHP Debugger, xdebug, kint, krumo, whoops, PHP. 
+As there are many tactics to search for a bug, there are many tools available.
+
+This includes
+
++ PHP native functions such as ``var_dump()``, ``print_r()``, ``debug_backtrace()``...
++ external components like ``kint``, ``whoops``, ``krumo``, 
++ Debuggers: Interactive PHP Debugger, xdebug, PHP debugger, etc.
 
 Debugging include executing the code step by step, displaying and modifying the content of variables.
+
 
 .. code-block:: php
    
@@ -39,4 +45,6 @@ Debugging include executing the code step by step, displaying and modifying the 
    ?>
 
 
-See also https://www.xdebug.org/, https://www.php.net/manual/en/book.phpdbg.php, https://github.com/kint-php/kint, https://github.com/filp/whoops, http://krumo.kaloyan.info/
+See also https://www.xdebug.org/, https://www.php.net/manual/en/book.phpdbg.php, https://github.com/kint-php/kint, https://github.com/filp/whoops, http://krumo.kaloyan.info/, https://github.com/Protoqol/Quo
+
+Related : :ref:`Debug <debug>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`var_dump() <var_dump>`, :ref:`print_r() <print_r>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Standalone Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Types are standalone, as they can be use alone, in a type declaration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Standalone Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Standalone Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 17:14:21 +0000","dateModified":"Fri, 08 May 2026 17:14:21 +0000","description":"Types are standalone, as they can be use alone, in a type declaration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Standalone Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Standalone Types
@@ -32,16 +32,16 @@ Since PHP 8.2, and 8.3 for ``true``, those types are now standalone and can be u
    
    <?php
    
-   function foo(true $t) {
-       // $t can only be true
-       var_dump($t);
-   }
+       function foo(true $t) {
+           // $t can only be true
+           var_dump($t);
+       }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/language.types.literal.php>`__
+`Documentation <https://www.php.net/manual/en/language.types.singleton.php>`__
 
 See also https://www.designcise.com/web/tutorial/what-is-the-true-standalone-type-in-php
 
-Related : :ref:`Special Types <special-type>`, :ref:`Type System <type>`
+Related : :ref:`Special Types <special-type>`, :ref:`Type System <type>`, :ref:`True <true>`, :ref:`False <false>`, :ref:`Null <null>`

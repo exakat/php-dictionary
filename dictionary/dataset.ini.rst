@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dataset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:55 +0000","dateModified":"Mon, 16 Mar 2026 14:40:55 +0000","description":"A dataset is an organized collection of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dataset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dataset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 May 2026 05:50:50 +0000","dateModified":"Thu, 07 May 2026 05:50:50 +0000","description":"A dataset is an organized collection of data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dataset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dataset
@@ -29,3 +29,5 @@ The data may be structured or not. The dataset needs a programming language to q
 `Documentation <https://en.wikipedia.org/wiki/Data_set>`__
 
 See also https://www.kaggle.com/datasets
+
+Related : :ref:`Data <data>`, :ref:`Random <random>`, :ref:`Fixture <fixture>`, :ref:`Faker <faker>`

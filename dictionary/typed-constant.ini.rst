@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Typed Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A typed constant is a class constant that holds an explicit type, like a property or an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Typed Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Typed Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 20:07:44 +0000","dateModified":"Tue, 05 May 2026 20:07:44 +0000","description":"A typed constant is a class constant that holds an explicit type, like a property or an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Typed Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Typed Constant
@@ -35,20 +35,24 @@ Typed constants were introduced in PHP 8.3. They are optional.
    
    <?php
    
-   class X {
-       // expression with a condition
-       const string A = B ? 'A' : 'B'; 
-       // child class also provide an integer
-       const int C = 3; 
-       // D is defined with a global constant: Now, E also must be an integer
-       const int D = E; 
-   }
-   
-   class Y extends X {
-       const int C = 13; 
-   }
+       class X {
+           // expression with a condition
+           const string A = B ? 'A' : 'B'; 
+           // child class also provide an integer
+           const int C = 3; 
+           // D is defined with a global constant: Now, E also must be an integer
+           const int D = E; 
+       }
+       
+       class Y extends X {
+           const int C = 13; 
+       }
    
    ?>
 
+
+See also https://php.watch/versions/8.3/typed-constants
+
+Related : :ref:`Static Constant <class-constant>`
 
 Added in PHP 8.3+

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The ``static`` keyword has several distinct usages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 15:12:38 +0000","dateModified":"Mon, 11 May 2026 15:12:38 +0000","description":"The ``static`` keyword has several distinct usages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 static
@@ -36,20 +36,20 @@ Static is a keyword for variables: those variables aren't removed at the end of 
    
    <?php
    
-   class X {
-       private const X = 1;
+       class X {
+           private const X = 1;
+           
+           function foo() {
+               return static::X;
        
-       function foo() {
-           return static::X;
-   
-           // same as \X::C; when the object is of class X
-           // same as \Y::C; when the object is of class W
+               // same as \X::C; when the object is of class X
+               // same as \Y::C; when the object is of class W
+           }
        }
-   }
-   
-   class Y extends X {
-       private const X = 2;
-   }
+       
+       class Y extends X {
+           private const X = 2;
+       }
    
    ?>
 
@@ -58,4 +58,4 @@ Static is a keyword for variables: those variables aren't removed at the end of 
 
 See also https://blog.devgenius.io/stop-using-static-in-php-b150527819b2, https://www.exakat.io/en/5-usages-of-static-keyword-in-php/, https://jobtensor.com/Tutorial/PHP/en/Variables
 
-Related : :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`, :ref:`Child Class <child-class>`, :ref:`Language Construct <language-construct>`, :ref:`Properties <property>`, :ref:`Self <self>`, :ref:`Special Types <special-typehint>`
+Related : :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`, :ref:`Child Class <child-class>`, :ref:`Language Construct <language-construct>`, :ref:`Properties <property>`, :ref:`Self <self>`, :ref:`Dynamic <dynamic>`, :ref:`Special Types <special-typehint>`

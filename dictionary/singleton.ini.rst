@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Singleton","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A singleton is a class which can only have one object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Singleton.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Singleton","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"A singleton is a class which can only have one object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Singleton.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Singleton
@@ -31,6 +31,7 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 .. code-block:: php
    
    <?php
+   
    // One method to build a singleton class
    class Singleton {
      private static self $instance;
@@ -51,11 +52,12 @@ Singleton are more difficult to test, as there is only one instance, and it is d
        return self::$instance;
      }
    }
+   
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Singleton_pattern>`__
 
-See also https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html, https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php, https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2, https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html
+See also https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html, https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2, https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html
 
 Related : :ref:`Design Pattern <design-pattern>`

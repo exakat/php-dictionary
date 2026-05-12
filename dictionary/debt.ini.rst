@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Technical Debt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Debt generally refers to technical debt, as whole","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Technical Debt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Technical Debt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Debt generally refers to technical debt, as whole","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Technical Debt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Technical Debt
@@ -35,6 +35,6 @@ By extension, anything that currently slows down development is considered a deb
 
 `Documentation <https://en.wikipedia.org/wiki/Technical_debt>`__
 
-See also https://www.zend.com/blog/php-maintenance-trends, https://medium.com/@kimashleyrocks/taming-technical-debt-a-practical-guide-to-managing-deprecations-in-php-and-laravel-1b0aa991574b
+See also https://www.zend.com/blog/php-maintenance-trends, https://medium.com/@kimashleyrocks/taming-technical-debt-a-practical-guide-to-managing-deprecations-in-php-and-laravel-1b0aa991574b, https://phpunit.expert/articles/technical-debt-is-not-malice.html
 
 Related : :ref:`You Are Not Going To Need It (YAGNI) <yagni>`, :ref:`Visual Debt <visual-debt>`, :ref:`Maintenance <maintenance>`, :ref:`Readable <readable>`, :ref:`Documentation <documentation>`

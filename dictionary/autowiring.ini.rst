@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Autowiring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:29:56 +0000","dateModified":"Thu, 16 Apr 2026 05:29:56 +0000","description":"Autowiring is the ability of the framework to inject dependencies, based on the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Autowiring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Autowiring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 02 May 2026 09:25:21 +0000","dateModified":"Sat, 02 May 2026 09:25:21 +0000","description":"Autowiring is the ability of the framework to inject dependencies, based on the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Autowiring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Autowiring
@@ -50,6 +50,6 @@ Autowiring reduce boilerplate code, enhance type usage and make refactoring easi
 
 See also https://php-di.org/doc/autowiring.html, https://symfony.com/doc/current/service_container/autowiring.html
 
-Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`Type System <type>`, :ref:`Constructor <constructor>`, :ref:`Boilerplate <boilerplate>`, :ref:`Type System <type>`, 
+Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`Type System <type>`, :ref:`Constructor <constructor>`, :ref:`Boilerplate <boilerplate>`, :ref:`Type System <type>`, :ref:`Refactoring <refactoring>`
 
 Related packages : `nette/di <https://packagist.org/packages/nette/di>`_, `php-di/php-di <https://packagist.org/packages/php-di/php-di>`_

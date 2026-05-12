@@ -1,41 +1,44 @@
 .. _eval:
 .. meta::
 	:description:
-		Eval(): The eval() function executes a string as a PHP code.
+		Eval(): The ``eval()`` function executes a string as a PHP code.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Eval()
-	:twitter:description: Eval(): The eval() function executes a string as a PHP code
+	:twitter:description: Eval(): The ``eval()`` function executes a string as a PHP code
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Eval()
 	:og:type: article
-	:og:description: The eval() function executes a string as a PHP code
+	:og:description: The ``eval()`` function executes a string as a PHP code
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Eval()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The eval() function executes a string as a PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Eval().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Eval()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"The ``eval()`` function executes a string as a PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Eval().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Eval()
 ------
 
-The eval() function executes a string as a PHP code.
+The ``eval()`` function executes a string as a PHP code.
 
-eval() has been used originally to obtain features that PHP did not offer. Nowadays, those features are rare enough that it is recommended to find a safe alternative, before relying on it.
+``eval()`` has been used originally to obtain features that PHP did not offer. Nowadays, those features are rare enough that it is recommended to find a safe alternative, before using on it.
+
+When used, it is recommended to enclose ``eval()`` in a try-catch block, to catch syntax error.
+
 
 .. code-block:: php
    
    <?php
    
-   $name = 'v';
-   $value = 'vvvv';
-   
-   // Set a variable with a dynamic name
-   eval('$'.$name.' = '.$value);
-   // equivalent to $$name = $value;
+       $name = 'v';
+       $value = 'vvvv';
+       
+       // Set a variable with a dynamic name
+       eval('$'.$name.' = '.$value);
+       // equivalent to $$name = $value;
    
    ?>
 
@@ -43,3 +46,5 @@ eval() has been used originally to obtain features that PHP did not offer. Nowad
 `Documentation <https://www.php.net/manual/en/function.eval.php>`__
 
 See also https://www.tutorialspoint.com/eval-function-in-php, https://www.exakat.io/en/land-where-php-uses-eval/
+
+Related : :ref:`ParseError <parseerror>`, :ref:`Try-catch <try>`

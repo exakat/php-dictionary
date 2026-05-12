@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mock","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A mock replaces a code dependency with an object, to make testing easier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mock.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mock","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 07:52:35 +0000","dateModified":"Tue, 12 May 2026 07:52:35 +0000","description":"A mock replaces a code dependency with an object, to make testing easier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mock.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Mock
@@ -33,7 +33,7 @@ Mock objects are also called ``test double``.
 
 `Documentation <https://www.radview.com/glossary/what-is-mock-testing/>`__
 
-See also https://phpunit.readthedocs.io/en/9.5/test-doubles.html, https://laravel.com/docs/9.x/mocking, https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html, https://blog.frankdejonge.nl/testing-without-mocking-frameworks/
+See also https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles, https://laravel.com/docs/13.x/mocking, https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html, https://blog.frankdejonge.nl/testing-without-mocking-frameworks/
 
 Related : :ref:`Test Data Provider <test-data-provider>`
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file_put_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Apr 2026 05:46:03 +0000","dateModified":"Sat, 18 Apr 2026 05:46:03 +0000","description":"``file_put_contents()`` is a PHP native function, which stores data in a file, in one call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file_put_contents().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"file_put_contents()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 19:26:45 +0000","dateModified":"Tue, 05 May 2026 19:26:45 +0000","description":"``file_put_contents()`` is a PHP native function, which stores data in a file, in one call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/file_put_contents().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 file_put_contents()
@@ -41,4 +41,4 @@ The function also include options to handle concurrency with locks; to append da
 
 See also https://reintech.io/blog/practical-guide-php-file-put-contents-function, https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html
 
-Related : :ref:`include_path <include_path>`, , , :ref:`Lock <lock>`, :ref:`Concurency <concurency>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Empty String <empty-string>`, :ref:`Array <array>`
+Related : :ref:`include_path <include_path>`, :ref:`Lock <lock>`, :ref:`Concurency <concurency>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Empty String <empty-string>`, :ref:`Array <array>`, :ref:`File Mode <file-mode>`, :ref:`php://memory <php-memory>`, :ref:`php://output <php-output>`, :ref:`php://tmp <php-tmp>`

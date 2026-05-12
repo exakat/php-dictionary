@@ -57,4 +57,4 @@ The callstack is an important element of the execution path of PHP. In particula
 
 See also https://medium.com/@rob.fulwell/php-debug-backtrace-vs-debugger-call-stack-e13dbeebde71
 
-Related : :ref:`Stack <stack>`, :ref:`Backtrace <backtrace>`, :ref:`Debugger <debug>`
+Related : :ref:`Stack <stack>`, :ref:`Backtrace <backtrace>`, :ref:`Debug <debug>`

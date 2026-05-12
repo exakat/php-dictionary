@@ -49,6 +49,6 @@ Token Oriented Object Notation (TOON)
 
 See also https://github.com/toon-format/toon, https://www.nihardaily.com/133-how-to-use-toon-in-php-reduce-llm-token-consumption-by-50
 
-Related : :ref:`Markdown <markdown>`, 
+Related : :ref:`Markdown <markdown>`, :ref:`Text <text>`
 
 Related packages : `sbsaga/toon <https://packagist.org/packages/sbsaga/toon>`_, `helgesverre/toon <https://packagist.org/packages/helgesverre/toon>`_

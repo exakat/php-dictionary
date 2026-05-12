@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","name":"Typo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A typo is short for ``typographical error``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Typo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","name":"Typo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 20:05:21 +0000","dateModified":"Tue, 05 May 2026 20:05:21 +0000","description":"A typo is short for ``typographical error``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Typo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Typo
@@ -33,18 +33,21 @@ Typo happen in any text based system.
    
    <?php
    
-   // The typo has placed the === false INSIDE the in_array(), and changes the behavior
-   if (in_array($array, $value, $strict === false)) {
-   
-   }
-   
-   // the type and is not expected, instead of an integer
-   function foo(ant $i) {
-   
-   }
-   
+       // The typo has placed the === false INSIDE the in_array(), and changes the behavior
+       if (in_array($array, $value, $strict === false)) {
+       
+       }
+       
+       // the type and is not expected, instead of an integer
+       function foo(ant $i) {
+       
+       }
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Typographical_error>`__
+
+See also https://medium.com/@jaydipkumarjha/top-common-php-errors-9dd20dfcdf81, https://olixlab.com/blog/top-common-php-errors-and-how-to-fix-them/
+
+Related : :ref:`Silent Behavior <silent>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fixture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:57 +0000","dateModified":"Mon, 16 Mar 2026 14:40:57 +0000","description":"A fixture is a set of test data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fixture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fixture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 May 2026 05:31:06 +0000","dateModified":"Thu, 07 May 2026 05:31:06 +0000","description":"A fixture is a set of test data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fixture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fixture
@@ -26,6 +26,6 @@ A fixture is a set of test data. They are used to set up the environment in a kn
 
 `Documentation <https://en.wikipedia.org/wiki/Test_fixture>`__
 
-See also https://phpunit.readthedocs.io/en/9.5/fixtures.html, https://medium.com/ticketswap/fixture-factory-in-php-7969efd9c5d7
+See also https://docs.phpunit.de/en/12.5/fixtures.html, https://dyrynda.com.au/blog/working-with-test-fixtures, https://medium.com/ticketswap/fixture-factory-in-php-7969efd9c5d7
 
 Related : :ref:`Mock <mock>`

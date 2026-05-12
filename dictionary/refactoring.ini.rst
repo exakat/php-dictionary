@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refactoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refactoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refactoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refactoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Refactoring
@@ -28,30 +28,30 @@ Refactoring, in PHP as in any programming language, refers to the process of res
    
    <?php
    
-   function factorial(int $n) : int {
-   	$return = 2;
-   	for($i = 3; $i <= $n; ++$i) {
-   		$return *= $i;
-   	}
-   	
-   	return $return;
-   }
-   
-   function factorialr(int $n) : int {
-   	if ($n === 2) { return 1; }
-   	
-   	return factorialr($n - 1);
-   
-   	return $return;
-   }
-   
-   // Note : checks on $n >= 1 are omitted here.
+       function factorial(int $n) : int {
+           $return = 2;
+           for($i = 3; $i <= $n; ++$i) {
+               $return *= $i;
+           }
+           
+           return $return;
+       }
+       
+       function factorialr(int $n) : int {
+           if ($n === 2) { return 1; }
+           
+           return factorialr($n - 1);
+       
+           return $return;
+       }
+       
+       // Note : checks on $n >= 1 are omitted here.
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Code_refactoring>`__
 
-See also https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/, https://refactoring.guru/refactoring, https://www.fuseweb.io/en/2023/05/10/php-refactoring-code-quality-maintainability/
+See also https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/, https://refactoring.guru/refactoring, https://www.fuseweb.nl/en/blog/2023/05/10/php-refactoring-code-quality-maintainability
 
 Related : :ref:`Test <test>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 08:49:14 +0000","dateModified":"Tue, 12 May 2026 08:49:14 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polyfill
@@ -37,12 +37,12 @@ Polyfills exist for PHP, but also for any framework.
    
    <?php
    
-   // hand-made polyfill
-   if (!function_exists('str_contains')) {
-   	function str_contains(string $a, string $b) : bool {
-   		return substr($a, $b) !== false;
-   	}
-   }
+       // hand-made polyfill
+       if (!function_exists('str_contains')) {
+           function str_contains(string $a, string $b) : bool {
+               return substr($a, $b) !== false;
+           }
+       }
    
    ?>
 
@@ -51,6 +51,6 @@ Polyfills exist for PHP, but also for any framework.
 
 See also https://github.com/symfony/polyfill, https://github.com/Yoast/PHPUnit-Polyfills.git, https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e
 
-Related : 
+Related : :ref:`Backward Compatible <backward-compatible>`
 
 Related packages : `symfony/polyfill-php83 <https://packagist.org/packages/symfony/polyfill-php83>`_, `paragonie/random_compat <https://packagist.org/packages/paragonie/random_compat>`_, `guzzlehttp/uri-template <https://packagist.org/packages/guzzlehttp/uri-template>`_, `yoast/phpunit-polyfills <https://packagist.org/packages/yoast/phpunit-polyfills>`_

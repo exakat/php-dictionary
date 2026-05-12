@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HyperText Markup Language (HTML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"HyperText Markup Language, or HTML is the standard language used to create and structure content on the web","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HyperText Markup Language (HTML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HyperText Markup Language (HTML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 15:10:40 +0000","dateModified":"Mon, 11 May 2026 15:10:40 +0000","description":"HyperText Markup Language, or HTML is the standard language used to create and structure content on the web","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HyperText Markup Language (HTML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HyperText Markup Language (HTML)
@@ -30,8 +30,8 @@ HTML defines the structure of the page. It is completed by CSS, for styling, and
    
    <?php
    
-   // PHP outputing HTML code
-   echo '<p>'. nl2br('Hello,
+       // PHP outputing HTML code
+       echo '<p>'. nl2br('Hello,
    world').'</p>';
    
    ?>
@@ -41,4 +41,4 @@ HTML defines the structure of the page. It is completed by CSS, for styling, and
 
 See also https://www.php.net/manual/en/faq.html.php
 
-Related : :ref:`Javascript <javascript>`, 
+Related : :ref:`Javascript <javascript>`, , :ref:`htmlentities() <htmlentities>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Template <template>`, :ref:`World Wide Web (WWW) <web>`

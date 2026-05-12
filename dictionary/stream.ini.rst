@@ -48,6 +48,6 @@ Streams may be extended with the notion of wrapper and protocols.
 
 See also https://dev.to/gabrieloliverio/streams-in-php-55kb
 
-Related : :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`, :ref:`File <file>`, :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`php://memory <php-memory>`, 
+Related : :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`, :ref:`File <file>`, :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`php://memory <php-memory>`, :ref:`php://tmp <php-tmp>`
 
 Added in PHP 5.0

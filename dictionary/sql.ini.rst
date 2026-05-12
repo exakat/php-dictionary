@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Apr 2026 09:35:44 +0000","dateModified":"Mon, 20 Apr 2026 09:35:44 +0000","description":"Simple Query Language, SQL, is a database query language, use to access and update data in a a relational database management system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 14:08:47 +0000","dateModified":"Mon, 11 May 2026 14:08:47 +0000","description":"Simple Query Language, SQL, is a database query language, use to access and update data in a a relational database management system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Simple Query Language (SQL)
@@ -30,15 +30,17 @@ PHP supports several RDBMS natively, such as: Mysql, Oracle, IBM db2, DBA, ODBC.
    
    <?php
    
-   mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-   $mysqli = new mysqli('example.com', 'user', 'password', 'database');
-   
-   $mysqli->query('DROP TABLE IF EXISTS test');
-   $mysqli->query('CREATE TABLE test(id INT)');
+       mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+       $mysqli = new mysqli('example.com', 'user', 'password', 'database');
+       
+       $mysqli->query('DROP TABLE IF EXISTS test');
+       $mysqli->query('CREATE TABLE test(id INT)');
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
+
+See also https://www.phpmyadmin.net/, https://dev.to/_russell/an-introduction-to-php-and-sqlite-2agg, https://neon.com/postgresql/php
 
 Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Active Record <active-record>`, :ref:`Prepared Query <prepared-query>`, :ref:`Query <query>`, :ref:`Sqlite3 <sqlite3>`, :ref:`SQL Database <sql-database>`

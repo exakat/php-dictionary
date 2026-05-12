@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","name":"Non-numeric","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A non-numeric string is a string that can't be converted to a number without difficult choices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non-numeric.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","name":"Non-numeric","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 18:50:54 +0000","dateModified":"Fri, 08 May 2026 18:50:54 +0000","description":"A non-numeric string is a string that can't be converted to a number without difficult choices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non-numeric.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Non-numeric
@@ -26,21 +26,27 @@ A non-numeric string is a string that can't be converted to a number without dif
 
 When forced to a number, such string emits a warning, unless hidden with cast or noscream ``@`` operator.
 
+A string may be only constituted of digits, from 0 to 9. It might be converted to a float or to ``INF``, depending on its size. In arrays, when used as an index, a very long string is kept as a string, and it is not converted to integer.
+
+A string may be considered as ``is_numeric()`` when it is build with digits, whatever its size. In fact, when such a string is converted to float, it might go beyond the largest PHP float, and become ``INF``: this constant is of type ``float``.
+
 
 .. code-block:: php
    
    <?php
    
-   $string = '123';
-   $integer = (int) $string; // 123
-   
-   $string = '12.3E4';
-   $float = (float) $string; // 123000
-   
-   $nonNumeric = '12a3';
-   $integer = (int) $string; // 12
+       $string = '123';
+       $integer = (int) $string; // 123
+       
+       $string = '12.3E4';
+       $float = (float) $string; // 123000
+       
+       $nonNumeric = '12a3';
+       $integer = (int) $string; // 12
    
    ?>
 
 
-Related : :ref:`@, No Scream Operator <noscream>`, :ref:`Cast Operator <cast>`
+See also https://lindevs.com/code-snippets/remove-all-non-numeric-characters-from-string-using-php
+
+Related : :ref:`@, No Scream Operator <noscream>`, :ref:`Cast Operator <cast>`, :ref:`Floating Point Numbers <float>`, 

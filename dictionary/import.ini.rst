@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Import","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Imports are elements of a different namespaces, brought into the current one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Import.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Import","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 20:23:43 +0000","dateModified":"Tue, 05 May 2026 20:23:43 +0000","description":"Imports are elements of a different namespaces, brought into the current one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Import.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Import
@@ -32,24 +32,24 @@ Import is sometimes mistaken with inclusion, which bring in code.
    
    <?php
    
-   namespace A;
-   
-   // import classes
-   use B\C; 
-   use D\E as F; 
-   // import function
-   use function A\foo; 
-   // import constants
-   use const A\D;
-   
-   // call an imported function with an imported constant
-   foo(D); 
+       namespace A;
+       
+       // import classes
+       use B\C; 
+       use D\E as F; 
+       // import function
+       use function A\foo; 
+       // import constants
+       use const A\D;
+       
+       // call an imported function with an imported constant
+       foo(D); 
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-See also https://dev.to/khairuaqsara/avoiding-imports-and-aliases-in-php-52m0
+See also https://localheinz.com/articles/2020/05/19/avoiding-imports-and-aliases-in-php/, https://www.exakat.io/6-good-practices-for-use/
 
 Related : :ref:`Relative Name <relative-name>`, :ref:`Absolute Name <absolute-name>`

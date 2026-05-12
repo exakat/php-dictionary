@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scope Resolution Operator ::","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The Scope Resolution Operator ``::`` is a token that allows access to static, constant, and overridden properties or methods of a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scope Resolution Operator ::.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scope Resolution Operator ::","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"The Scope Resolution Operator ``::`` is a token that allows access to static, constant, and overridden properties or methods of a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scope Resolution Operator ::.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Scope Resolution Operator ::
@@ -30,10 +30,10 @@ Traditionally, this used to be a feature of the function ``get_class()``. The op
 
 The double colon operator is used to access class related elements, such as 
 
-+ static properties, ``X::$property``
-+ static methods, ``X::method()``
-+ static constants, ``X::CONSTANT``
-+ class name, ``X::class``
++ Static properties, ``X::$property``
++ Static methods, ``X::method()``
++ Static constants, ``X::CONSTANT``
++ Class name, ``X::class``
 
 This operator is often called double-colon, or ``paamayim-nekudotayim``: this means ``double-colon`` in Hebrew. It is said to be a lot easier to google than ``::``.
 
@@ -58,4 +58,4 @@ PHP also has a single colon operator ``:``, used for goto labels, ternary operat
 
 See also https://www.geeksforgeeks.org/php/scope-resolution-operator-in-php/, https://parsifar.com/scope-resolution-operator-in-php/
 
-Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`, :ref:`Static Method <static-method>`, :ref:`Static Constant <static-constant>`, , :ref:`Static Property <static-property>`, :ref:`Colon <colon>`
+Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`, :ref:`Static Method <static-method>`, :ref:`Static Constant <static-constant>`, :ref:`Static Class <static-class>`, :ref:`Static Property <static-property>`, :ref:`Colon <colon>`

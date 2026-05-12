@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Micro-optimisation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Micro-optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Micro-optimisation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Micro-optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Micro-optimisation
@@ -34,17 +34,17 @@ It is often a pointless to discuss the micro-optimisation. It is a do or don't, 
    
    <?php
    
-   // this is faster than calling 3 times echo
-   echo 1, 2, 3;
-   
-   // This is slower, yet it doesn't speed up the process a lot
-   echo 1;
-   echo 2;
-   echo 3;
+       // this is faster than calling 3 times echo
+       echo 1, 2, 3;
+       
+       // This is slower, yet it doesn't speed up the process a lot
+       echo 1;
+       echo 2;
+       echo 3;
    
    ?>
 
 
 `Documentation <https://en.wiktionary.org/wiki/micro-optimization>`__
 
-See also https://blobfolio.com/2017/25-easy-php7-micro-optimizations/, https://tideways.com/profiler/blog/compiler-optimized-php-functions/
+See also https://medium.com/@vlreshet/stop-using-these-5-outdated-optimization-tricks-in-php-d2d616fd83fa, https://tideways.com/profiler/blog/compiler-optimized-php-functions/, https://siit.co/blog/data-driven-php-7-performance-optimization-methods/15727

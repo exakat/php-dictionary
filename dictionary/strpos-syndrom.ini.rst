@@ -1,28 +1,28 @@
 .. _strpos-syndrom:
 .. meta::
 	:description:
-		Strpos() Syndrome: The strpos() syndrome is a classic bug: strpos() searches for a string inside another string.
+		Strpos() Syndrome: The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Strpos() Syndrome
-	:twitter:description: Strpos() Syndrome: The strpos() syndrome is a classic bug: strpos() searches for a string inside another string
+	:twitter:description: Strpos() Syndrome: The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Strpos() Syndrome
 	:og:type: article
-	:og:description: The strpos() syndrome is a classic bug: strpos() searches for a string inside another string
+	:og:description: The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/strpos-syndrom.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Strpos() Syndrome","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The strpos() syndrome is a classic bug: strpos() searches for a string inside another string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Strpos() Syndrome.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Strpos() Syndrome","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 16:59:00 +0000","dateModified":"Fri, 08 May 2026 16:59:00 +0000","description":"The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Strpos() Syndrome.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Strpos() Syndrome
 -----------------
 
-The strpos() syndrome is a classic bug: strpos() searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
+The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string. It reports its index upon finding it, or false, if the string was not found.
 
 PHP's string are indexed starting with 0, so the found string might be in an index from 0 to the size of the string. 
 
@@ -32,26 +32,27 @@ To avoid confusion, it is recommended to make an explicit comparison with false,
 
 Note that many PHP native functions behave that way, and should be treated with the same precaution.
 
-In the case of strpos(), it may be replaced with str_contains() (since PHP 8.0) or a regex, to get safer results.
+In the case of ``strpos()``, it may be replaced with ``str_contains()``, since PHP 8.0, or a regex, to get safer results.
 
 .. code-block:: php
    
    <?php
    
-   $haystack = 'abcdef';
-   
-   if (strpos($haystack, 'b')) {
-   	print "The haystack contains a 'b'\n";
-   }
-   
-   if (strpos($haystack, 'a')) {
-   	print "The haystack contains an 'a'\n";
-   } else {
-   	print "The haystack doesn't contain an 'a'\n";
-   }
-   
+       $haystack = 'abcdef';
+       
+       if (strpos($haystack, 'b')) {
+           print "The haystack contains a 'b'\n";
+       }
+       
+       if (strpos($haystack, 'a')) {
+           print "The haystack contains an 'a'\n";
+       } else {
+           print "The haystack doesn't contain an 'a'\n";
+       }
    
    ?>
 
 
-See also https://www.learn-codes.net/php/strpos-function-issue-in-php-not-finding-the-needle/
+See also https://medium.com/@jorisvdaalsvoort/the-hidden-pitfalls-why-empty-strpos-and-more-are-often-misunderstood-43800c88be33
+
+Related : :ref:`Bug <bug>`

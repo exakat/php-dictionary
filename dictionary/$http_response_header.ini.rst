@@ -48,6 +48,6 @@ This feature is deprecated since PHP 8.5.
 
 See also https://www.tutorialspoint.com/article/php-http-response-header
 
-Related : , :ref:`file_get_contents() <file_get_contents>`
+Related : :ref:`fopen() <fopen>`, :ref:`file_get_contents() <file_get_contents>`
 
 Removed in PHP 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__get() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"``__get()`` is a magic method: it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__get() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 08:41:42 +0000","dateModified":"Tue, 12 May 2026 08:41:42 +0000","description":"``__get()`` is a magic method: it is called when a property cannot be access, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __get() Method
@@ -32,26 +32,26 @@ The ``__get()`` method is usually paired with the ``__set()`` method.
    
    <?php
    
-   class X {
-       private $values = ['a' => 1,
-                          'b' => 2,
-                          ];
-   
-       // Checks the dictionary, or return 0
-       function __get($name) {
-           if (isset($this->values[$name])) {
-               return $this->values[$name];
+       class X {
+           private $values = ['a' => 1,
+                              'b' => 2,
+                              ];
+       
+           // Checks the dictionary, or return 0
+           function __get($name) {
+               if (isset($this->values[$name])) {
+                   return $this->values[$name];
+               }
+               
+               return 0;
            }
-           
-           return 0;
        }
-   }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-See also `What are magic methods and how to use them in PHP ? <https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/>`_
+See also https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/
 
 Related : :ref:`Magic Methods <magicmethod>`, :ref:`__set() Method <-__set>`, :ref:`__isset() Method <-__isset>`, :ref:`Magic Constants <magic-constant>`

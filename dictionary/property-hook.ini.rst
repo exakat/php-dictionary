@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Property hooks are a feature of PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 10:54:10 +0000","dateModified":"Mon, 11 May 2026 10:54:10 +0000","description":"Property hooks are a feature of PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Property Hook
@@ -39,7 +39,7 @@ Property hooks are also called ``Property Accessors``, in other languages.
            public string $property {
                // this is the single line definition of a hook
                // the expression is the returned value
-               get => $this->property . _1;
+               get => $this->property . '1';
        
                set {
                    // $value is the unique parameter of that function
@@ -53,8 +53,8 @@ Property hooks are also called ``Property Accessors``, in other languages.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.property-hooks.php>`__
 
-See also https://ashallendesign.co.uk/blog/php-84-property-hooks, https://qirolab.com/posts/php-84-property-hooks, https://wiki.php.net/rfc/hook_improvements, https://www.zend.com/blog/php-8-4-property-hooks
+See also https://ashallendesign.co.uk/blog/php-84-property-hooks, https://qirolab.com/posts/php-84-property-hooks, https://wiki.php.net/rfc/hook_improvements, https://www.zend.com/blog/php-8-4-property-hooks, https://hackernoon.com/phps-new-property-hooks-are-herebut-should-you-use-them, https://dyrynda.com.au/blog/using-property-hooks-in-php
 
-Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`
+Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`, :ref:`Double Arrow <double-arrow>`, :ref:`Magic Constants <magic-constant>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writeable <writeable>`
 
 Added in PHP 8.4

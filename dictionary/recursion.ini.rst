@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Recursion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Recursion in PHP is a method or a function, which calls itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Recursion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Recursion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Recursion in PHP is a method or a function, which calls itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Recursion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Recursion
@@ -35,23 +35,23 @@ Recursion is an abstract notion: it is also used in the PHP name itself. PHP: Hy
    
    <?php
    
-   function factorial(int $number) { 
-       if ($number < 2) { 
-           return 1; 
+       function factorial(int $number) { 
+           if ($number < 2) { 
+               return 1; 
+           }
+       
+           return ($number * factorial($number - 1)); 
        }
-   
-       return ($number * factorial($number - 1)); 
-   }
-   
-   // recursive closure
-   $factorial = function( $n ) use ( &$factorial ) {
-       if( $n == 1 ) return 1;
-       return $factorial( $n - 1 ) * $n;
-   };
+       
+       // recursive closure
+       $factorial = function( $n ) use ( &$factorial ) {
+           if( $n == 1 ) return 1;
+           return $factorial( $n - 1 ) * $n;
+       };
    
    ?>
 
 
-See also https://phpenthusiast.com/blog/recursion-in-php
+See also https://www.exakat.io/all-the-recursive-functions-in-php/
 
 Related : :ref:`Functions <function>`

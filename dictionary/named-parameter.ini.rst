@@ -1,4 +1,5 @@
 .. _named-parameter:
+.. _named-argument:
 .. meta::
 	:description:
 		Named Parameters: Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Named Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Named Parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Named Parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 16:05:33 +0000","dateModified":"Fri, 08 May 2026 16:05:33 +0000","description":"Named parameters, also known as named arguments allow to pass arguments to a function or method by specifying the parameter name along with the corresponding value, rather than relying on the order of the parameters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Named Parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Named Parameters
@@ -30,21 +31,21 @@ In traditional positional parameter passing, the values are provided to a functi
    
    <?php
    
-   function foo($a, $b) {
-       return $a - $b;
-   }
-   
-   echo foo(2, 3);  // return -1
-   echo foo(3, 2);  // return 1
-   
-   echo foo(a: 2, b: 3);  // return -1
-   echo foo(b: 2, a: 3);  // return 1
+       function foo($a, $b) {
+           return $a - $b;
+       }
+       
+       echo foo(2, 3);  // return -1
+       echo foo(3, 2);  // return 1
+       
+       echo foo(a: 2, b: 3);  // return -1
+       echo foo(b: 2, a: 3);  // return 1
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-See also https://platform.sh/blog/2020/php-80-feature-focus-named-arguments, https://sebastiandedeyne.com/named-arguments/, https://alexwebdevelop.activehosted.com/social/758874998f5bd0c393da094e1967a72b.326/, https://darkghosthunter.medium.com/php-named-arguments-are-your-friends-8076959b2f11/, https://php.watch/articles/no-named-arguments-docblock-attribute
+See also https://upsun.com/blog/php-8-0-named-arguments/, https://sebastiandedeyne.com/named-arguments/, https://darkghosthunter.medium.com/php-named-arguments-are-your-friends-8076959b2f11/, https://php.watch/articles/no-named-arguments-docblock-attribute
 
 Related : :ref:`Positional Parameters <positional-parameter>`

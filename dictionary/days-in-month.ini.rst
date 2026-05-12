@@ -45,4 +45,4 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 See also https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/
 
-Related : :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
+Related : :ref:`Days Are Not 86400 Seconds <day-in-seconds>`

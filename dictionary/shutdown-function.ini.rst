@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","name":"Shutdown Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The shutdown function is a PHP custom function which is called when the application is shutting down","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shutdown Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","name":"Shutdown Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"The shutdown function is a PHP custom function which is called when the application is shutting down","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shutdown Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shutdown Function
@@ -32,22 +32,24 @@ Shutdown function acts as destructors: they should clean up any unfinished jobs,
 .. code-block:: php
    
    <?php
-   // extract from the PHP manual
-   function shutdown()
-   {
-       // This is our shutdown function, in 
-       // here we can do any last operations
-       // before the script is complete.
    
-       echo 'Script executed with success', PHP_EOL;
-   }
+       // extract from the PHP manual
+       function shutdown()
+       {
+           // This is our shutdown function, in 
+           // here we can do any last operations
+           // before the script is complete.
+       
+           echo 'Script executed with success', PHP_EOL;
+       }
+       
+       register_shutdown_function('shutdown');
    
-   register_shutdown_function('shutdown');
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/function.register-shutdown-function.php>`__
 
-See also https://www.learn-codes.net/php/register-shutdown-function-php/
+See also https://reintech.io/blog/a-practical-guide-to-php-register_shutdown_function
 
 Related : :ref:`PHP Handlers <handler>`

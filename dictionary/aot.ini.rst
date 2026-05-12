@@ -28,4 +28,4 @@ Unlike PHP's traditional JITm, Just-in-Time, compilation, which compiles PHP to 
 
 `Documentation <https://en.wikipedia.org/wiki/Ahead-of-time_compilation>`__
 
-Related : :ref:`Compile <compile>`, :ref:`Just In Time (JIT) <jit>`, , :ref:`Opcode <opcode>`
+Related : :ref:`Compile <compile>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Interpreted <interpreted>`, :ref:`Opcode <opcode>`

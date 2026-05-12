@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:41:13 +0000","dateModified":"Wed, 15 Apr 2026 20:41:13 +0000","description":"PHP provides a set of predefined variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 16:09:46 +0000","dateModified":"Fri, 08 May 2026 16:09:46 +0000","description":"PHP provides a set of predefined variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Variables
@@ -32,19 +32,19 @@ The set of predefined variables also depended on PHP directives. ``$HTTP_RAW_POS
    
    <?php
    
-   print_r($_GET);
-   print_r($argv); // when in CLI
-   print_r($GLOBALS);
-   
-   function foo() {
-       global $argc;
-   }
+       print_r($_GET);
+       print_r($argv); // when in CLI
+       print_r($GLOBALS);
+       
+       function foo() {
+           global $argc;
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-See also https://www.webfx.com/blog/web-design/php-variables-the-ultimate-guide/
+See also https://theguerrilla.agency/predefined-variables-in-php-an-overview-for-complete-beginners
 
 Related : :ref:`Superglobal Variables <super-global>`, :ref:`Variables <variable>`, :ref:`Native <native>`

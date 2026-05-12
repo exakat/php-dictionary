@@ -76,6 +76,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
 + :ref:`Pull Request (PR) <pr>`
++ :ref:`RACI Model <raci>`
 + :ref:`RFC <rfc>`
 + :ref:`RSA <rsa>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
@@ -157,12 +158,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Arm <arm>`
 + :ref:`Artifact <artifact>`
 + :ref:`Asset <asset>`
++ :ref:`Audit <audit>`
 + :ref:`Authorize <authorize>`
 + :ref:`Autowiring <autowiring>`
 + :ref:`Backed <backed>`
 + :ref:`Backend <backend>`
 + :ref:`Batch <batch>`
 + :ref:`Benchmarking <benchmarking>`
++ :ref:`Big-o-notation <big-o-notation>`
 + :ref:`Blind Variable <blind-key>`
 + :ref:`Boilerplate <boilerplate>`
 + :ref:`Bucket <bucket>`
@@ -183,6 +186,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Component <component>`
 + :ref:`Concatenative <concatenative>`
 + :ref:`Condition <condition>`
++ :ref:`Conditional <conditional>`
 + :ref:`Consistency <consistency>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Constructor <constructor>`
@@ -198,6 +202,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Database <database>`
 + :ref:`Dataset <dataset>`
 + :ref:`Declaration <declaration>`
++ :ref:`Decode <decode>`
 + :ref:`Decoupling <decoupling>`
 + :ref:`Default Value <default-value>`
 + :ref:`Definition <definition>`
@@ -217,6 +222,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Edge Case <edge-case>`
 + :ref:`Embed <embed>`
 + :ref:`Enable <enable>`
++ :ref:`Encode <encode>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
@@ -225,6 +231,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Extensions <extension>`
 + :ref:`Facade <facade>`
 + :ref:`Faker <faker>`
++ :ref:`Fallback <fallback>`
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
@@ -276,11 +283,11 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Pagination <pagination>`
 + :ref:`Partial Function <partial-function>`
 + :ref:`Passphrase <passphrase>`
-+ :ref:`Password <password>`
 + :ref:`Path <path>`
 + :ref:`Permission <permission>`
 + :ref:`Persistence <persistence>`
 + :ref:`Pipeline <pipeline>`
++ :ref:`Plain Text <plain-text>`
 + :ref:`Plugin <plugin>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
@@ -296,6 +303,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Registry <registry>`
 + :ref:`Render <render>`
 + :ref:`Renderer <renderer>`
++ :ref:`Rich Text <rich-text>`
 + :ref:`SOLID <solid>`
 + :ref:`Sandbox <sandbox>`
 + :ref:`Scaffolding <scaffolding>`
@@ -307,6 +315,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`
++ :ref:`Standard <standard>`
 + :ref:`State <state>`
 + :ref:`Stateful <stateful>`
 + :ref:`Stateless <stateless>`
@@ -316,6 +325,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Taint Analysis <taint>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`
++ :ref:`Text <text>`
 + :ref:`Text Encoding <encoding-text>`
 + :ref:`To Crypt <crypt>`
 + :ref:`To Decrypt <decrypt>`
@@ -337,6 +347,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Visual Debt <visual-debt>`
 + :ref:`Workflow <workflow>`
 + :ref:`Writable <writable>`
++ :ref:`Writeable <writeable>`
 + :ref:`Writing <writing>`
 + :ref:`Zombie Code <zombie-code>`
 + :ref:`hash() Function <hash-function>`
@@ -375,6 +386,7 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 + :ref:`memory_limit <memory_limit>`
 + :ref:`open_basedir <open_basedir>`
 + :ref:`php.ini <php.ini>`
++ :ref:`precision <precision>`
 + :ref:`register_argc_argv <register_argc_argv>`
 + :ref:`variable_order <variable_order>`
 + :ref:`zend.assertions <zend-assertions>`
@@ -523,6 +535,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Type System <type>`
 + :ref:`Typed Property <typed-property>`
++ :ref:`Types Erasure <type-erasure>`
 + :ref:`Union Type <union-type>`
 + :ref:`Void <void>`
 + :ref:`resource <resource>`
@@ -556,7 +569,7 @@ List of named bugs.
 
 + :ref:`Dangling Reference <dangling-reference>`
 + :ref:`Datetime Trap <datetime-trap>`
-+ :ref:`Day Are Not 86400 Seconds <day-in-seconds>`
++ :ref:`Days Are Not 86400 Seconds <day-in-seconds>`
 + :ref:`Days In Month <days-in-month>`
 + :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
 + :ref:`Letter Logical Bug <letter-logical>`

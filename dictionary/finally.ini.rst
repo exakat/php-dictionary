@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","name":"Finally","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Finally is the default clause of a try-catch expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","name":"Finally","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 May 2026 06:22:54 +0000","dateModified":"Thu, 07 May 2026 06:22:54 +0000","description":"Finally is the default clause of a try-catch expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Finally.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Finally
@@ -30,20 +30,20 @@ Finally is run every time after a try, with or without any catch clause. It is a
    
    <?php
    
-   try{
-       doSomething();
-   } catch (\Exception $e) {
-       print "An exception was raised and caught";
-   } finally {
-       print "Finally\n";
-   }
+       try {
+           doSomething();
+       } catch (\Exception $e) {
+           print "An exception was raised and caught";
+       } finally {
+           print "Finally\n";
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally>`__
 
-See also https://thecodeprogram.com/how-to-use-try---catch---finally-in-php
+See also https://thecodeprogram.com/blog/how-to-use-try---catch---finally-in-php/
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Catch <catch>`
 

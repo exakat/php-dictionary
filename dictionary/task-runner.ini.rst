@@ -28,6 +28,6 @@ Task runners provide a way to define and execute tasks or scripts in a predefine
 
 See also https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners, https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/, https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner/
 
-Related : :ref:`Pipeline <pipeline>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Continuous Delivery (CD) <cd>`, 
+Related : :ref:`Pipeline <pipeline>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Continuous Delivery (CD) <cd>`, :ref:`Ssh <ssh>`
 
 Related packages : `consolidation/robo <https://packagist.org/packages/consolidation/robo>`_, `phing/phing <https://packagist.org/packages/phing/phing>`_, `jolicode/castor <https://packagist.org/packages/jolicode/castor>`_, `spatie/scotty <https://packagist.org/packages/spatie/scotty>`_

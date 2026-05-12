@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Perl Compatible Regular Expressions (PCRE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PCRE is the library that supports regular expressions in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Perl Compatible Regular Expressions (PCRE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Perl Compatible Regular Expressions (PCRE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"PCRE is the library that supports regular expressions in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Perl Compatible Regular Expressions (PCRE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Perl Compatible Regular Expressions (PCRE)
@@ -28,9 +28,9 @@ PCRE is the library that supports regular expressions in PHP. It offers function
    
    <?php
    
-   preg_match('/PHP is (.*?)\./', 'PHP is fantastic.', $r);
+       preg_match('/PHP is (.*?)\./', 'PHP is fantastic.', $r);
    
-   print $r[1]; // fantastic
+       print $r[1]; // fantastic
    
    ?>
 
@@ -38,3 +38,5 @@ PCRE is the library that supports regular expressions in PHP. It offers function
 `Documentation <https://www.php.net/manual/en/book.pcre.php>`__
 
 See also https://www.pcre.org/
+
+Related : :ref:`Regular Expressions <regex>`

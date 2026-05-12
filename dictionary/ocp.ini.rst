@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Closed Principle (OCP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:00 +0000","dateModified":"Mon, 16 Mar 2026 14:41:00 +0000","description":"The open\u2013closed principle states that classes should be open for extension, but closed for modification","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Closed Principle (OCP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Closed Principle (OCP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 18:41:10 +0000","dateModified":"Fri, 08 May 2026 18:41:10 +0000","description":"The open\u2013closed principle states that classes should be open for extension, but closed for modification","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Closed Principle (OCP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Open Closed Principle (OCP)
@@ -29,3 +29,5 @@ The OCP is a general principle, that is applicable to PHP's structures.
 `Documentation <https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle>`__
 
 See also https://codeburst.io/introduction-a1ba1f72b13, https://blog.devops.dev/open-closed-principle-example-using-php-3c310105ece4
+
+Related : :ref:`SOLID <solid>`

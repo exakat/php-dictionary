@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Model Context Protocol (MCP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"An MCP server usually refers to a server that implements the Model Context Protocol, or MCP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Model Context Protocol (MCP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Model Context Protocol (MCP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 07:23:17 +0000","dateModified":"Tue, 12 May 2026 07:23:17 +0000","description":"An MCP server usually refers to a server that implements the Model Context Protocol, or MCP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Model Context Protocol (MCP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Model Context Protocol (MCP)
@@ -26,6 +26,6 @@ An MCP server usually refers to a server that implements the Model Context Proto
 
 `Documentation <https://modelcontextprotocol.io/docs/getting-started/intro>`__
 
-See also https://thephp.foundation/blog/2025/09/05/php-mcp-sdk/
+See also https://thephp.foundation/blog/2025/09/05/php-mcp-sdk/, https://blog.devgenius.io/how-to-create-an-mcp-server-with-symfony-2b92f7bd7afe
 
 Related packages : `php-mcp/server <https://packagist.org/packages/php-mcp/server>`_

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Encoding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Encoding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Encoding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 20:20:59 +0000","dateModified":"Tue, 05 May 2026 20:20:59 +0000","description":"URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Encoding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTTP Encoding
@@ -29,14 +29,14 @@ When a URL contains characters outside this set, such as spaces or non-alphanume
 
 URL encoding works by replacing each non-alphanumeric character with a percent sign (%) followed by two hexadecimal digits that represent the ASCII (or Unicode) code of the character. For example:
 
-+ Space (' ') is encoded as %20.
-+ Ampersand ('&') is encoded as %26.
-+ Question mark ('?') is encoded as %3F.
-+ Slash ('/') is encoded as %2F.
++ Space (``' '``) is encoded as %20.
++ Ampersand (``&``) is encoded as %26.
++ Question mark (``?``) is encoded as %3F.
++ Slash (``/``) is encoded as %2F.
 
 URL encoding ensures that URLs remain valid and functional across different systems and protocols. It is commonly used in web browsers, HTTP requests, and other internet-related technologies to transmit data safely and reliably. Most programming languages provide built-in functions or libraries to perform URL encoding and decoding operations.
 
-PHP provides urlencode() and urldecode() to handle coding and decoding this format.
+PHP provides ``urlencode()`` and ``urldecode()`` to handle coding and decoding this format.
 
 .. code-block:: php
    
@@ -45,9 +45,9 @@ PHP provides urlencode() and urldecode() to handle coding and decoding this form
    $text = "This is the Euro symbol €.";
    
    // builds a valid URL 
-   $url = 'https://www.somesite.com/'.urlencode($text);
+   $url = 'https://www.example.com/'.urlencode($text);
    
-   // https://www.somesite.com/This+is+the+Euro+symbol+%27%E2%82%AC%27.
+   // https://www.example.com/This+is+the+Euro+symbol+%27%E2%82%AC%27.
    
    ?>
 

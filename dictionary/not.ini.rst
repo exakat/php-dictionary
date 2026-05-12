@@ -1,4 +1,5 @@
 .. _not:
+.. _not-operator:
 .. meta::
 	:description:
 		Not Operator: The not operator return the opposite boolean of a value.
@@ -16,13 +17,16 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Not Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 09:25:05 +0000","dateModified":"Wed, 15 Apr 2026 09:25:05 +0000","description":"The not operator return the opposite boolean of a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Not Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Not Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 02 May 2026 09:26:57 +0000","dateModified":"Sat, 02 May 2026 09:26:57 +0000","description":"The not operator return the opposite boolean of a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Not Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Not Operator
 ------------
 
 The not operator return the opposite boolean of a value. The value is first converted to boolean, according to classic PHP rules, then, negated. This operator returns a boolean.
+
+There is also a bitwise not operator, which works at the bit level, on the value: ``~``.
+
 
 .. code-block:: php
    
@@ -39,4 +43,6 @@ The not operator return the opposite boolean of a value. The value is first conv
    ?>
 
 
-Related : :ref:`Bang ! <bang>`
+`Documentation <https://www.php.net/manual/en/language.operators.logical.php>`__
+
+Related : :ref:`Bang ! <bang>`, :ref:`~ Tilde <tilde>`

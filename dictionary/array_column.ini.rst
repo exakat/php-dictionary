@@ -1,64 +1,64 @@
 .. _array_column:
 .. meta::
 	:description:
-		array_column: ``array_colum()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument.
+		array_column: ``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: array_column
-	:twitter:description: array_column: ``array_colum()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument
+	:twitter:description: array_column: ``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: array_column
 	:og:type: article
-	:og:description: ``array_colum()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument
+	:og:description: ``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array_column.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"array_column","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"``array_colum()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_column.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"array_column","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_column.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_column
 ------------
 
-``array_colum()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument. 
+``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument. 
 
 It may also assign a key in regards to that value, from a second index or property. 
 
-array_column() omits silently any missing index or property. 
+``array_column()`` omits silently any missing index or property. 
 
-array_column() uses the whole array or object as value, when the second argument is null.
+``array_column()`` uses the whole array or object as value, when the second argument is null.
 
-array_column() is more efficient than custom code to convert an array into a map.
+``array_column()`` is more efficient than custom code to convert an array into a map.
 
 .. code-block:: php
    
    <?php
    
-   $list = [
-       ['a' => 1, 'b' => 'x'],
-       ['a' => 2, 'b' => 'y'],
-       ['a' => 3, 'd' => 'z'],
-   ];
-   
-   array_column($list, 'a'); // [1, 2, 3]
-   
-   array_column($list, 'b'); // [x, y]
-   
-   array_column($list, 'a', 'b'); // [x => 1, y => 2, 0 => 3]
-   
-   class X {
-       function __construct(public int $a, public string $b, public string $c) {}
-   }
-   
-   $list = [
-       new X(a: 1, b: 'x'),
-       new X(a: 2, b: 'y'),
-       new X(a: 3, d: 'z'),
-   ];
-   
-   array_column($list, 'a'); // [1, 2, 3]
+       $list = [
+           ['a' => 1, 'b' => 'x'],
+           ['a' => 2, 'b' => 'y'],
+           ['a' => 3, 'd' => 'z'],
+       ];
+       
+       array_column($list, 'a'); // [1, 2, 3]
+       
+       array_column($list, 'b'); // [x, y]
+       
+       array_column($list, 'a', 'b'); // [x => 1, y => 2, 0 => 3]
+       
+       class X {
+           function __construct(public int $a, public string $b, public string $c) {}
+       }
+       
+       $list = [
+           new X(a: 1, b: 'x'),
+           new X(a: 2, b: 'y'),
+           new X(a: 3, d: 'z'),
+       ];
+       
+       array_column($list, 'a'); // [1, 2, 3]
    
    ?>
 
@@ -67,4 +67,4 @@ array_column() is more efficient than custom code to convert an array into a map
 
 See also https://3v4l.org/Nc1uL#veol
 
-Related : :ref:`array_combine() <array_combine>`
+Related : :ref:`array_combine() <array_combine>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Array <array>`, :ref:`Index For Arrays <index-array>`

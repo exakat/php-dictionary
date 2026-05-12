@@ -34,4 +34,4 @@ Conditions in PHP are expressed with comparisons operators. They are also expres
 
 See also https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-php
 
-Related : :ref:`Yoda Condition <yoda>`, , :ref:`Type Juggling <type-juggling>`
+Related : :ref:`Yoda Condition <yoda>`, :ref:`Conditional <conditional>`, :ref:`Type Juggling <type-juggling>`

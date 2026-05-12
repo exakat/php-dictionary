@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Environment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Apr 2026 16:10:36 +0000","dateModified":"Tue, 21 Apr 2026 16:10:36 +0000","description":"Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Environment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Environment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Environment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Environment
@@ -30,15 +30,15 @@ The environment variables are set in the operating system before the execution o
    
    <?php
    
-   // print all available environment variables at the start of the script
-   // it may be empty
-   print_r($_ENV);
-   
-   // retrieve an environment variable 
-   var_dump(getenv('MY_VARIABLE'));
-   
-   // sets an environment variable 
-   var_dump(setenv('MY_VARIABLE', 2));
+       // print all available environment variables at the start of the script
+       // it may be empty
+       print_r($_ENV);
+       
+       // retrieve an environment variable 
+       var_dump(getenv('MY_VARIABLE'));
+       
+       // sets an environment variable 
+       var_dump(setenv('MY_VARIABLE', 2));
    
    ?>
 
@@ -47,4 +47,4 @@ The environment variables are set in the operating system before the execution o
 
 See also https://www.twilio.com/blog/working-with-environment-variables-in-php
 
-Related : :ref:`.env File <env-file>`
+Related : :ref:`.env File <env-file>`, :ref:`Deployment <deploy>`, :ref:`display_errors <display_errors>`, :ref:`Production <production>`, :ref:`Secret <secret>`

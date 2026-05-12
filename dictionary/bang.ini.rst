@@ -39,4 +39,4 @@ Bang !
    ?>
 
 
-Related : , :ref:`~ Tilde <tilde>`
+Related : :ref:`Not Operator <not-operator>`, :ref:`~ Tilde <tilde>`

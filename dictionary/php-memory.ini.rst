@@ -41,4 +41,4 @@ php://memory
 
 See also https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html
 
-Related : , :ref:`Stream <stream>`, :ref:`memory_limit <memory_limit>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`file_put_contents() <file_put_contents>`
+Related : :ref:`php://tmp <php-tmp>`, :ref:`Stream <stream>`, :ref:`memory_limit <memory_limit>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`file_put_contents() <file_put_contents>`

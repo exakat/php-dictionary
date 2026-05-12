@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Faker","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A ``faker`` is a tool that generates fake data, for testing purposes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Faker.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Faker","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"A ``faker`` is a tool that generates fake data, for testing purposes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Faker.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Faker
@@ -27,11 +27,13 @@ A ``faker`` is a tool that generates fake data, for testing purposes.
 Using a faker happens in different situations: 
 
 + Seeding Databases: populating a database with sample users, products, or orders to test how your application performs under realistic conditions.
-+ Testing: Creating dummy data for unit and integration tests to ensure the code works correctly in more realistic circumstances.
++ Testing: creating dummy data for unit and integration tests to ensure the code works correctly in more realistic circumstances.
 + Prototyping: quickly generating placeholder content, like names and addresses, for a new feature demonstration.
 + Anonymizing Data: safely replacing sensitive production data with fake but realistic-looking data for use in development or debugging.
 
 
 See also https://www.sitepoint.com/simplifying-test-data-generation-with-faker/, https://medium.com/@opensource_52111/faker-16754ea6154b
+
+Related : :ref:`Data <data>`, :ref:`Test <test>`
 
 Related packages : `fakerphp/faker <https://packagist.org/packages/fakerphp/faker>`_, `xefi/faker-php <https://packagist.org/packages/xefi/faker-php>`_

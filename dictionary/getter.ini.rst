@@ -16,33 +16,40 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Getter Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Getters are methods used to access the values of a property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Getter Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Getter Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 07 May 2026 06:27:16 +0000","dateModified":"Thu, 07 May 2026 06:27:16 +0000","description":"Getters are methods used to access the values of a property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Getter Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Getter Method
 -------------------
 
-Getters are methods used to access the values of a property. Getters may include some formatting. 
+Getters are methods used to access the values of a property. Getters may include formatting, or not. 
 
 Getters are usually created with a setter method.
+
+Getters are build on top of private properties: that way, the getter is main way to reach the data. 
+
+Getters may be replaced by a property hook.
+
+Getters generates a lot of boilerplate code, as they must be created for each property, and are often reduced to returning the property itself. This does not help performances too, as a call to a property is now replaced by a method call.
+
 
 .. code-block:: php
    
    <?php
    
-   class x {
-       private $property;
-       
-       public function getProperty() {
-           return $this->property;
+       class X {
+           private $property;
+           
+           public function getProperty() {
+               return $this->property;
+           }
        }
-   }
    
    ?>
 
 
-`Documentation <https://thisinterestsme.com/php-getters-and-setters/>`__
+`Documentation <https://www.geeksforgeeks.org/php/what-are-getters-and-setters-methods-in-php/>`__
 
-Related : :ref:`Class <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Wither Method <wither>`
+Related : :ref:`Class <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Wither Method <wither>`, :ref:`Property Hook <property-hook>`, :ref:`Visibility <visibility>`, :ref:`Boilerplate <boilerplate>`
 
 Added in PHP 5.0+

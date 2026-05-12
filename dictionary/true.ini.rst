@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"True","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"true has two usages, as PHP keyword: the opposite of false, as a boolean value and a special type for functions that may return a boolean, but not false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/True.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"True","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 18:37:05 +0000","dateModified":"Fri, 08 May 2026 18:37:05 +0000","description":"true has two usages, as PHP keyword: the opposite of false, as a boolean value and a special type for functions that may return a boolean, but not false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/True.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 True
@@ -30,13 +30,13 @@ true has two usages, as PHP keyword: the opposite of false, as a boolean value a
    
    <?php
    
-   function foo($a) : true|A {
-       if ($a == 1) {
-           return true;
-       } else {
-           return new A();
+       function foo($a) : true|A {
+           if ($a == 1) {
+               return true;
+           } else {
+               return new A();
+           }
        }
-   }
    
    ?>
 
@@ -45,4 +45,4 @@ true has two usages, as PHP keyword: the opposite of false, as a boolean value a
 
 See also https://flatcoding.com/tutorials/php/php-boolean-true-and-false/
 
-Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`False <false>`, :ref:`Logical Operators <logical-operator>`
+Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`False <false>`, :ref:`Logical Operators <logical-operator>`, :ref:`Minus One -1 <minus-one>`, :ref:`PHP Natives <native-type>`, :ref:`Standalone Types <standalone-type>`, :ref:`Truthy <truthy>`
