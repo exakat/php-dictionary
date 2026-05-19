@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Middleware Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A middleware is a design pattern used to extend the behavior of a component by chaining layers that can modify inputs, outputs, or short-circuit the call, dynamically at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Middleware Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Middleware Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:32:03 +0000","dateModified":"Tue, 12 May 2026 16:32:03 +0000","description":"A middleware is a design pattern used to extend the behavior of a component by chaining layers that can modify inputs, outputs, or short-circuit the call, dynamically at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Middleware Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Middleware Pattern
@@ -33,57 +33,57 @@ The key characteristic is that the $next parameter is typed to the component's o
    
    <?php
    
-   interface HtmlRendererInterface
-   {
-       public function render(string $template, array $data = []): string;
-   }
-   
-   // The middleware interface mirrors the component interface,
-   // with an additional $next parameter typed to HtmlRendererInterface
-   interface MiddlewareInterface
-   {
-       public function render(
-           string $template,
-           array $data = [],
-           HtmlRendererInterface $next,
-       ): string;
-   }
-   
-   // Before pattern: modify input, then delegate
-   class TimestampMiddleware implements MiddlewareInterface
-   {
-       public function render(
-           string $template,
-           array $data = [],
-           HtmlRendererInterface $next,
-       ): string {
-           $data['generatedOn'] = date(DateTime::ATOM);
-   
-           return $next->render($template, $data);
+       interface HtmlRendererInterface
+       {
+           public function render(string $template, array $data = []): string;
        }
-   }
-   
-   // Before+After pattern: wrap $next to also process output
-   class CacheMiddleware implements MiddlewareInterface
-   {
-       private array $cache = [];
-   
-       public function render(
-           string $template,
-           array $data = [],
-           HtmlRendererInterface $next,
-       ): string {
-           $key = hash('sha256', $template . serialize($data));
-   
-           if (isset($this->cache[$key])) {
-               return $this->cache[$key]; // short-circuit: return early without calling $next
+       
+       // The middleware interface mirrors the component interface,
+       // with an additional $next parameter typed to HtmlRendererInterface
+       interface MiddlewareInterface
+       {
+           public function render(
+               string $template,
+               array $data,
+               HtmlRendererInterface $next,
+           ): string;
+       }
+       
+       // Before pattern: modify input, then delegate
+       class TimestampMiddleware implements MiddlewareInterface
+       {
+           public function render(
+               string $template,
+               array $data,
+               HtmlRendererInterface $next,
+           ): string {
+               $data['generatedOn'] = date(DateTime::ATOM);
+       
+               return $next->render($template, $data);
            }
-   
-           $this->cache[$key] = $next->render($template, $data);
-   
-           return $this->cache[$key];
        }
-   }
+       
+       // Before+After pattern: wrap $next to also process output
+       class CacheMiddleware implements MiddlewareInterface
+       {
+           private array $cache = [];
+       
+           public function render(
+               string $template,
+               array $data,
+               HtmlRendererInterface $next,
+           ): string {
+               $key = hash('sha256', $template . serialize($data));
+       
+               if (isset($this->cache[$key])) {
+                   return $this->cache[$key]; // short-circuit: return early without calling $next
+               }
+       
+               $this->cache[$key] = $next->render($template, $data);
+       
+               return $this->cache[$key];
+           }
+       }
    
    ?>
 

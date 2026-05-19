@@ -1,29 +1,29 @@
 .. _embed:
-.. _embeded:
+.. _embedded:
 .. meta::
 	:description:
-		Embed: To embed, or to be embeded, is integrating PHP code into another context, or vice versa.
+		Embed: To embed, or to be embedded, is integrating PHP code into another context, or vice versa.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Embed
-	:twitter:description: Embed: To embed, or to be embeded, is integrating PHP code into another context, or vice versa
+	:twitter:description: Embed: To embed, or to be embedded, is integrating PHP code into another context, or vice versa
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Embed
 	:og:type: article
-	:og:description: To embed, or to be embeded, is integrating PHP code into another context, or vice versa
+	:og:description: To embed, or to be embedded, is integrating PHP code into another context, or vice versa
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/embed.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Embed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Apr 2026 20:52:58 +0000","dateModified":"Mon, 27 Apr 2026 20:52:58 +0000","description":"To embed, or to be embeded, is integrating PHP code into another context, or vice versa","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Embed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Embed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 May 2026 20:38:52 +0000","dateModified":"Fri, 15 May 2026 20:38:52 +0000","description":"To embed, or to be embedded, is integrating PHP code into another context, or vice versa","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Embed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Embed
 -----
 
-To embed, or to be embeded, is integrating PHP code into another context, or vice versa. 
+To embed, or to be embedded, is integrating PHP code into another context, or vice versa. 
 
 Traditionaly, it is possible to embed PHP inside HTML files: here, PHP embeds HTML. It is also possible to execute PHP code inside other languages, such as Java: in this case, Java embeds PHP.
 

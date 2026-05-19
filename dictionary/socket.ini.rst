@@ -42,6 +42,6 @@ PHP provides a set of functions for working with sockets, allowing developers to
 
 See also https://reintech.io/blog/php-and-sockets-network-programming
 
-Related : , :ref:`Server <server>`, :ref:`User Datagram Protocol (UDP) <udp>`, :ref:`TCP <tcp>`
+Related : :ref:`Network <network>`, :ref:`Server <server>`, :ref:`User Datagram Protocol (UDP) <udp>`, :ref:`TCP <tcp>`
 
 Related packages : `react/socket <https://packagist.org/packages/react/socket>`_

@@ -53,6 +53,6 @@ It cannot be a totally different type, an union type, such as ``W|A``, any class
 
 See also https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html, https://dev.to/ashallendesign/covariance-and-contravariance-in-php-3cim
 
-Related : :ref:`Contravariance <type-contravariance>`, :ref:`Type Invariant <invariant>`, :ref:`Liskov Substitution Principle (LSP) <lsp>`, :ref:`Return Type <return-type>`, :ref:`Return <return>`
+Related : :ref:`Contravariance <type-contravariance>`, :ref:`Type Invariant <invariant>`, :ref:`LSP <lsp>`, :ref:`Return Type <return-type>`, :ref:`Return <return>`
 
 Added in PHP 7.4+

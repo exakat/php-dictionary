@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","name":"User Datagram Protocol (UDP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"UDP, or User Datagram Protocol, is a core communication protocol used on the Internet, alongside TCP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/User Datagram Protocol (UDP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","name":"User Datagram Protocol (UDP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:40:06 +0000","dateModified":"Tue, 12 May 2026 16:40:06 +0000","description":"UDP, or User Datagram Protocol, is a core communication protocol used on the Internet, alongside TCP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/User Datagram Protocol (UDP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 User Datagram Protocol (UDP)
@@ -26,7 +26,7 @@ UDP, or User Datagram Protocol, is a core communication protocol used on the Int
 
 UDP is connectionless: UDP does not establish a connection before sending data. It simply sends packets, called datagrams, to the destination without checking if the recipient is ready or available.
 
-UDP is fast and lightweight: Because it skips the handshake and error-checking steps, UDP is faster and uses fewer resources than TCP.
+UDP is fast and lightweight: because it skips the handshake and error-checking steps, UDP is faster and uses fewer resources than TCP.
 
 UDP is unreliable: UDP does not guarantee delivery, order, or error correction. Packets may be lost, duplicated, or arrive out of order.
 
@@ -38,15 +38,17 @@ In PHP, UDP is supported through socket programming. PHP provides functions to c
 .. code-block:: php
    
    <?php
-   // Create a UDP socket
-   $socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
    
-   if ($socket === false) {
-       $error = socket_last_error();
-       die('socket_create() failed: ' . socket_strerror($error));
-   }
+       // Create a UDP socket
+       $socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
+       
+       if ($socket === false) {
+           $error = socket_last_error();
+           die('socket_create() failed: ' . socket_strerror($error));
+       }
+       
+       echo "UDP socket created successfully.\n";
    
-   echo UDP socket created successfully.\n;
    ?>
 
 

@@ -1,0 +1,49 @@
+.. _method-signature:
+.. _closure-signature:
+.. _function-signature:
+.. meta::
+	:description:
+		Method Signature: The signature of a method or a function is the list of arguments and constraints that apply when calling it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method Signature
+	:twitter:description: Method Signature: The signature of a method or a function is the list of arguments and constraints that apply when calling it
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Method Signature
+	:og:type: article
+	:og:description: The signature of a method or a function is the list of arguments and constraints that apply when calling it
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/method-signature.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Method Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:54:05 +0000","dateModified":"Sun, 17 May 2026 07:54:05 +0000","description":"The signature of a method or a function is the list of arguments and constraints that apply when calling it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Method Signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Method Signature
+----------------
+
+The signature of a method or a function is the list of arguments and constraints that apply when calling it. 
+
+In its simplest form, signature of a method is its name, its argument's type and list, though modern syntax also include default values, visibilities, attributes and parameter names.
+
+Method signature also applies to functions and closures. It may also be referenced as signature.
+
+
+.. code-block:: php
+   
+   <?php
+   
+       function foo(string &$s = 'abc') {}
+       
+       class X {
+           function foo(string &$s = 'abc') {}
+       }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+Related : :ref:`Signature <signature>`

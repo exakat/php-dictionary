@@ -14,7 +14,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Comma Secparated Values (CSV) <csv>`
 + :ref:`Command Line Interface (CLI) <cli>`
 + :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`
-+ :ref:`Common Interface Gateway (CGI) <cgi>`
++ :ref:`Common Gateway Interface (CGI) <cgi>`
 + :ref:`Common Vulnerabilities And Exposures (CVE) <cve>`
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Delivery (CD) <cd>`
@@ -54,16 +54,18 @@ List of acronyms, used in this dictionary.
 + :ref:`JavaScript Object Notation (JSON) <json>`
 + :ref:`Just In Time (JIT) <jit>`
 + :ref:`KISS <kiss>`
++ :ref:`LSP <lsp>`
 + :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Last In, First Out (LIFO) <lifo>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
-+ :ref:`Liskov Substitution Principle (LSP) <lsp>`
++ :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
 + :ref:`Minimum Viable Product (MVP) <mvp>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
 + :ref:`Model Context Protocol (MCP) <mcp>`
 + :ref:`Not A Number (NAN) <nan>`
 + :ref:`OOP (Object Oriented Programming) <oop>`
++ :ref:`OWASP <owasp>`
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
 + :ref:`PEAR <pear>`
@@ -74,6 +76,7 @@ List of acronyms, used in this dictionary.
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`PHP, Hypertext Preprocessor (PHP) <php>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
++ :ref:`Plain Old PHP Object (POPO) <popo>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
 + :ref:`Pull Request (PR) <pr>`
 + :ref:`RACI Model <raci>`
@@ -212,6 +215,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
++ :ref:`Deterministic <deterministic>`
 + :ref:`Disable <disable>`
 + :ref:`Documentation <documentation>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
@@ -247,13 +251,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Infinite <infinite>`
 + :ref:`Infinite Loop <infinite-loop>`
 + :ref:`Injection <injection>`
++ :ref:`Internet <internet>`
 + :ref:`Jobqueue <jobqueue>`
 + :ref:`Jump <jump>`
 + :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Linting <linting>`
-+ :ref:`Liskov Substitution Principle (LSP) <lsp>`
++ :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Literal <literal>`
 + :ref:`Loops <loop>`
 + :ref:`Machine Learning <machine-learning>`
@@ -263,13 +268,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Marketplace <marketplace>`
 + :ref:`Memory Leak <memory-leak>`
 + :ref:`Merge <merge>`
-+ :ref:`Method Signature <signature>`
++ :ref:`Method Signature <method-signature>`
 + :ref:`Migration <migration>`
 + :ref:`Model <model>`
 + :ref:`Module <module>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
 + :ref:`Native <native>`
++ :ref:`Network <network>`
 + :ref:`Neutral Element <neutral-element>`
 + :ref:`Noop <noop>`
 + :ref:`Operator Overloading <operator-overloading>`
@@ -611,6 +617,7 @@ List of special PHP extensions.
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`SimpleXML <simplexml>`
 + :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`Tokenizer <tokenizer>`
 + :ref:`URI Extension <uri-extension>`
 + :ref:`XMLwriter <xmlwriter>`
 + :ref:`XXTEA <xxtea>`

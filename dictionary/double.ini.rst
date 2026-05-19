@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Double","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Double usually means that something is repeated once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Double.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Double","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 May 2026 20:26:13 +0000","dateModified":"Fri, 15 May 2026 20:26:13 +0000","description":"Double usually means that something is repeated once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Double.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Double
@@ -49,4 +49,4 @@ Things that may be double:
 
 See also https://www.exakat.io/1-2-3-php-operators/
 
-Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Floating Point Numbers <float>`, , :ref:`Post-increment <post-increment>`, :ref:`Pre-increment <pre-increment>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Exponent <exponentiation>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
+Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Floating Point Numbers <float>`, :ref:`Single <single>`, :ref:`Triple <triple>`, :ref:`Post-increment <post-increment>`, :ref:`Pre-increment <pre-increment>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Exponent <exponentiation>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`

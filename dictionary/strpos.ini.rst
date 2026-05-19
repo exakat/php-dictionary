@@ -1,4 +1,5 @@
 .. _strpos:
+.. _stripos:
 .. meta::
 	:description:
 		strpos: ``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a substring inside a string.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strpos","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 May 2026 08:51:32 +0000","dateModified":"Wed, 06 May 2026 08:51:32 +0000","description":"``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a substring inside a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strpos.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strpos","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 08:11:00 +0000","dateModified":"Tue, 19 May 2026 08:11:00 +0000","description":"``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a substring inside a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strpos.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 strpos
@@ -54,4 +55,4 @@ It is often used to check if a string contains another string. When the presence
 
 See also https://sivaramaaa.github.io/blog/prgm_vuln1.html
 
-Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Identical Operator <identical>`, , 
+Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Identical Operator <identical>`, :ref:`str_contains() <str_contains>`, , , :ref:`Case Sensitivity <case-insensitive>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Extensible Markup Language (XML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Extensible Markup Language (XML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Extensible Markup Language (XML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 May 2026 10:44:53 +0000","dateModified":"Thu, 14 May 2026 10:44:53 +0000","description":"XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Extensible Markup Language (XML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Extensible Markup Language (XML)
@@ -45,8 +45,8 @@ PHP offers several set of functions to handle XML: ``domxml``, ``simplexml``, ``
 
 `Documentation <https://www.php.net/manual/en/refs.xml.php>`__
 
-See also `PHP XML Tutorial: Create, Parse, Read with Example <https://www.guru99.com/php-and-xml.html>`_
+See also https://www.guru99.com/php-and-xml.html
 
-Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`
+Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`Schema <schema>`, :ref:`sitemap <sitemap>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`
 
 Related packages : `symfony/dom-crawler <https://packagist.org/packages/symfony/dom-crawler>`_, `spatie/array-to-xml <https://packagist.org/packages/spatie/array-to-xml>`_, `robrichards/xmlseclibs <https://packagist.org/packages/robrichards/xmlseclibs>`_, `sabre/xml <https://packagist.org/packages/sabre/xml>`_

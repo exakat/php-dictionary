@@ -39,6 +39,6 @@ var_dump() is one of the most famous PHP function. It is often related to ``prin
 
 `Documentation <https://www.php.net/var_dump>`__
 
-Related : :ref:`print_r() <print_r>`, , 
+Related : :ref:`print_r() <print_r>`, :ref:`debug_backtrace() <debug_backtrace>`, :ref:`var_export() <var_export>`
 
 Related packages : `koriym/printo <https://packagist.org/packages/koriym/printo>`_, `symfony/var-dumper <https://packagist.org/packages/symfony/var-dumper>`_, `spiral/dumper <https://packagist.org/packages/spiral/dumper>`_

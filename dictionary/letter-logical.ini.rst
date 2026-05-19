@@ -1,28 +1,28 @@
 .. _letter-logical:
 .. meta::
 	:description:
-		Letter Logical Bug: PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol).
+		Letter Logical Bug: PHP offers two sets of operators for logical operations: the letter operators, ``and``, ``or``, ``xor``, and the symbol operators, ``&&``, ``||``, no xor in symbol.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Letter Logical Bug
-	:twitter:description: Letter Logical Bug: PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
+	:twitter:description: Letter Logical Bug: PHP offers two sets of operators for logical operations: the letter operators, ``and``, ``or``, ``xor``, and the symbol operators, ``&&``, ``||``, no xor in symbol
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Letter Logical Bug
 	:og:type: article
-	:og:description: PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)
+	:og:description: PHP offers two sets of operators for logical operations: the letter operators, ``and``, ``or``, ``xor``, and the symbol operators, ``&&``, ``||``, no xor in symbol
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/letter-logical.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Letter Logical Bug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Letter Logical Bug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Letter Logical Bug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 10:22:01 +0000","dateModified":"Mon, 18 May 2026 10:22:01 +0000","description":"PHP offers two sets of operators for logical operations: the letter operators, ``and``, ``or``, ``xor``, and the symbol operators, ``&&``, ``||``, no xor in symbol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Letter Logical Bug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Letter Logical Bug
 ------------------
 
-PHP offers two sets of operators for logical operations: the letter operators (and, or, xor) and the symbol operators (&&, ||, no xor in symbol).
+PHP offers two sets of operators for logical operations: the letter operators, ``and``, ``or``, ``xor``, and the symbol operators, ``&&``, ``||``, no xor in symbol.
 
 While they do the same, those operators have a difference: they do not share the same precedence. In particular, && has higher priority than = while = has higher priority than and. This leads to a difference in execution.
 
@@ -36,16 +36,20 @@ It is recommended to always use the symbol logical operators, which is closer to
    
    <?php
    
-   $a = 1 && 3;
-   
-   $b = 1 and 3;
-   // equivalent to 
-   ($b = 1) and 3;
-   
-   var_dump($a); // true
-   var_dump($b); // 1
+       $a = 1 && 3;
+       
+       $b = 1 and 3;
+       // equivalent to 
+       ($b = 1) and 3;
+       
+       var_dump($a); // true
+       var_dump($b); // 1
    
    ?>
 
 
 `Documentation <https://bugs.php.net/bug.php?id=10162>`__
+
+See also https://qisthidev.medium.com/understanding-the-crucial-difference-vs-and-or-in-php-34dd9bb72c7e
+
+Related : :ref:`Bitwise Operators <bitwise-operator>`, :ref:`Logical Operators <logical-operator>`

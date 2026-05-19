@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Time Of Check To Time Of Use (TOCTOU)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Time Of Check To Time Of Use (TOCTOU).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Time Of Check To Time Of Use (TOCTOU)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 May 2026 08:33:27 +0000","dateModified":"Thu, 14 May 2026 08:33:27 +0000","description":"TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Time Of Check To Time Of Use (TOCTOU).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Time Of Check To Time Of Use (TOCTOU)
@@ -29,17 +29,17 @@ TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where t
    
    <?php
    
-   function foo($file) {
-       // Checking is the file exists
-       if (!file_exists($file)) {
-           return false;
+       function foo($file) {
+           // Checking is the file exists
+           if (!file_exists($file)) {
+               return false;
+           }
+           
+           $fp = fopen($file, 'r');
+           // $fp should be available, because it was checked just before
+           // The TOCTOU is here
+           $string = fget($fp, 1000);
        }
-       
-       $fp = fopen($file, 'r');
-       // $fp should be available, because it was checked just before
-       // The TOCTOU is here
-       $string = fget($fp, 1000);
-   }
    
    ?>
 

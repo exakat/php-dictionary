@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Write Everything Twice (WET)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Write Everything Twice, WET, is a principle of software development aimed at reducing abstraction levels and decoupling code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Write Everything Twice (WET).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Write Everything Twice (WET)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 May 2026 10:35:23 +0000","dateModified":"Thu, 14 May 2026 10:35:23 +0000","description":"Write Everything Twice, WET, is a principle of software development aimed at reducing abstraction levels and decoupling code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Write Everything Twice (WET).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Write Everything Twice (WET)
@@ -26,7 +26,7 @@ Write Everything Twice, WET, is a principle of software development aimed at red
 
 The basic idea is that centralizing pieces of code, just because they are the same, leads to extra abstraction layers, that ends up counter productive. It is more reasonable to duplicate code as needed, and review what part of the code are truly shared before centralizing them.
 
-This principle's nemesis is DRY: Don't Repeat Yourself.
+This principle's nemesis is DRY: ``Don't Repeat Yourself``.
 
 `Documentation <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
 

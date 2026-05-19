@@ -1,28 +1,28 @@
 .. _cgi:
 .. meta::
 	:description:
-		Common Interface Gateway (CGI): CGI stands for Common Interface Gateway.
+		Common Gateway Interface (CGI): CGI stands for Common Gateway Interface.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Common Interface Gateway (CGI)
-	:twitter:description: Common Interface Gateway (CGI): CGI stands for Common Interface Gateway
+	:twitter:title: Common Gateway Interface (CGI)
+	:twitter:description: Common Gateway Interface (CGI): CGI stands for Common Gateway Interface
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Common Interface Gateway (CGI)
+	:og:title: Common Gateway Interface (CGI)
 	:og:type: article
-	:og:description: CGI stands for Common Interface Gateway
+	:og:description: CGI stands for Common Gateway Interface
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/cgi.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Common Interface Gateway (CGI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"CGI stands for Common Interface Gateway","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Common Interface Gateway (CGI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Common Gateway Interface (CGI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 May 2026 20:39:42 +0000","dateModified":"Fri, 15 May 2026 20:39:42 +0000","description":"CGI stands for Common Gateway Interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Common Gateway Interface (CGI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Common Interface Gateway (CGI)
+Common Gateway Interface (CGI)
 ------------------------------
 
-CGI stands for Common Interface Gateway. It is a protocol, whose specification enables web server to execute programs. CGI is platform independent, and can be used with any programming language.
+CGI stands for Common Gateway Interface. It is a protocol, whose specification enables web server to execute programs. CGI is platform independent, and can be used with any programming language.
 
 PHP may be build as a CGI, but also as a webserver module or a CGI server. 
 

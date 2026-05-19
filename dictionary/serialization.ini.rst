@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 09:05:53 +0000","dateModified":"Mon, 18 May 2026 09:05:53 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Serialization
@@ -60,6 +60,6 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 See also https://peakd.com/hive-168588/@crell/benchmarking-serialization, https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php, https://blog.lepine.pro/en/protobuf-php-go/, https://ashallendesign.co.uk/blog/php-serialization
 
-Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`
+Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`, :ref:`Deep Clone <deep-clone>`, :ref:`Serde <serde>`, :ref:`Serializable <serializable>`, :ref:`var_export() <var_export>`
 
 Related packages : `google/protobuf <https://packagist.org/packages/google/protobuf>`_, `symfony/serializer <https://packagist.org/packages/symfony/serializer>`_, `jms/serializer <https://packagist.org/packages/jms/serializer>`_, `symfony/var-exporter <https://packagist.org/packages/symfony/var-exporter>`_

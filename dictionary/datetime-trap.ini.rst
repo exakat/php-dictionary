@@ -1,54 +1,54 @@
 .. _datetime-trap:
 .. meta::
 	:description:
-		Datetime Trap: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself.
+		Datetime Trap: When using ``Datetime`` objects, be aware that methods that return the modified date are actually returning the object itself.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Datetime Trap
-	:twitter:description: Datetime Trap: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself
+	:twitter:description: Datetime Trap: When using ``Datetime`` objects, be aware that methods that return the modified date are actually returning the object itself
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Datetime Trap
 	:og:type: article
-	:og:description: When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself
+	:og:description: When using ``Datetime`` objects, be aware that methods that return the modified date are actually returning the object itself
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/datetime-trap.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Datetime Trap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 15:53:10 +0000","dateModified":"Mon, 11 May 2026 15:53:10 +0000","description":"When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Datetime Trap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Datetime Trap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:54:04 +0000","dateModified":"Sun, 17 May 2026 07:54:04 +0000","description":"When using ``Datetime`` objects, be aware that methods that return the modified date are actually returning the object itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Datetime Trap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Datetime Trap
 -------------
 
-When using Datetime objects, be aware that methods that returns the modified date is actually returning the object itself. This means that calculating a difference with ``diff()``, ``add()``, ``modify()`` methods also changes the underlying object. 
+When using ``Datetime`` objects, be aware that methods that return the modified date are actually returning the object itself. This means that calculating a difference with ``diff()``, ``add()``, ``modify()`` methods also changes the underlying object. 
 
 This trap is also set in packages that are build on top of Datetime. 
 
-To avoid this trap, use the DatetimeImmutable class. This class is not modified by those methods, but returns a new object each time.
+To avoid this trap, use the ``DatetimeImmutable`` class. This class is not modified by those methods, but returns a new object every time.
 
 .. code-block:: php
    
    <?php
    
-   $today = new Datetime('now');
-   print $today->format('d-m-Y').PHP_EOL;
-   // 24-11-2023
-   
-   $tomorrow = $today->add(new DateInterval('P1D'));
-   print $tomorrow->format('d-m-Y').PHP_EOL;
-   // 25-11-2023 (as expected)
-   
-   $twoDaysLater = $today->add(new DateInterval('P2D'));
-   print $twoDaysLater->format('d-m-Y');
-   // 27-11-2023 (one day overshoot!)
+       $today = new Datetime('now');
+       print $today->format('d-m-Y').PHP_EOL;
+       // for example, 24-11-2026
+       
+       $tomorrow = $today->add(new DateInterval('P1D'));
+       print $tomorrow->format('d-m-Y').PHP_EOL;
+       // 25-11-2026 (as expected)
+       
+       $twoDaysLater = $today->add(new DateInterval('P2D'));
+       print $twoDaysLater->format('d-m-Y');
+       // 27-11-2026 (one day overshoot!)
    
    ?>
 
 
 `Documentation <https://www.php.net/datetime>`__
 
-See also https://twitter.com/CodeWithKyrian/status/1727832972303143151, https://aiocollective.com/blog/php-datetime-difference-trap/, https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce, https://medium.com/@segunibidokun/the-silent-bug-that-corrupts-your-monthly-data-in-laravel-b464706ada54
+See also https://twitter.com/CodeWithKyrian/status/1727832972303143151, https://aiocollective.com/blog/php-datetime-difference-trap/, https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce
 
-Related packages : `nesbot/carbon <https://packagist.org/packages/nesbot/carbon>`_, `cakephp/chronos <https://packagist.org/packages/cakephp/chronos>`_
+Related : :ref:`DateTime <datetime>`, :ref:`DateInterval <dateinterval>`

@@ -33,4 +33,4 @@ The PHP documentation is also called the PHP Manual. It is a reference documenta
 
 See also https://diataxis.fr/, https://docs.divio.com/documentation-system/
 
-Related : , :ref:`Tutorial <tutorial>`, , , , :ref:`C2 Framework <c2-framework>`, :ref:`Comments <comment>`, :ref:`Technical Debt <debt>`, :ref:`Docblock <docblock>`
+Related : , :ref:`Tutorial <tutorial>`, :ref:`Tutorial <how-to>`, , , :ref:`C2 Framework <c2-framework>`, :ref:`Comments <comment>`, :ref:`Technical Debt <debt>`, :ref:`Docblock <docblock>`

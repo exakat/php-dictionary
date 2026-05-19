@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Question Mark ?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 09:29:37 +0000","dateModified":"Wed, 15 Apr 2026 09:29:37 +0000","description":"``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Question Mark ?.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Question Mark ?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 17:06:24 +0000","dateModified":"Tue, 12 May 2026 17:06:24 +0000","description":"``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Question Mark ?.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Question Mark ?
@@ -25,19 +25,19 @@ Question Mark ?
 
 ``?`` is a character, used in various situations: 
 
-+ ternary operator: ``$a ? $b : $c``
-+ short ternary operator: ``$a ?: $c``
-+ coalesce operator: ``$a ??``
-+ null type, ``function foo(?int $int) {}``
-+ as a quantifier in regex, 0 or 1
-+ as a quantifier with ``fnmatch()``, 0 or 1
++ Ternary operator: ``$a ? $b : $c``
++ Short ternary operator: ``$a ?: $c``
++ Coalesce operator: ``$a ??``
++ Null type, ``function foo(?int $int) {}``
++ As a quantifier in regex, 0 or 1
++ As a quantifier with ``fnmatch()``, 0 or 1.
 
 .. code-block:: php
    
    <?php
    
        $a = 1;
-       $echo a ? 'b' : 'c'; // c
+       echo a ? 'b' : 'c'; // c
    
    ?>
 

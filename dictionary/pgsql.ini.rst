@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PostgreSQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"``pgsql`` is the name of the PHP extension that provides the interface to interact with the PostgreSQL database","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PostgreSQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PostgreSQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 13 May 2026 15:06:37 +0000","dateModified":"Wed, 13 May 2026 15:06:37 +0000","description":"``pgsql`` is the name of the PHP extension that provides the interface to interact with the PostgreSQL database","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PostgreSQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PostgreSQL
@@ -31,15 +31,15 @@ PostgreSQL
    
    <?php
    
-   // example from the PHP manual : https://www.php.net/manual/en/pgsql.examples-basic.php
-   
-   // Connecting, selecting database
-   $dbconn = pg_connect('host=localhost dbname=publishing user=www password=foo')
-       or die('Could not connect: ' . pg_last_error());
-   
-   // Performing SQL query
-   $query = 'SELECT * FROM authors';
-   $result = pg_query($dbconn, $query) or die('Query failed: ' . pg_last_error());
+       // example from the PHP manual : https://www.php.net/manual/en/pgsql.examples-basic.php
+       
+       // Connecting, selecting database
+       $dbconn = pg_connect('host=localhost dbname=publishing user=www password=foo')
+           or die('Could not connect: ' . pg_last_error());
+       
+       // Performing SQL query
+       $query = 'SELECT * FROM authors';
+       $result = pg_query($dbconn, $query) or die('Query failed: ' . pg_last_error());
    
    ?>
 
@@ -47,3 +47,5 @@ PostgreSQL
 `Documentation <https://www.php.net/manual/en/book.pgsql.php>`__
 
 See also https://www.postgresql.org/, https://dev.to/officialozioma/how-to-build-an-application-with-php-and-postgresql-4iad
+
+Related : :ref:`Database <database>`, :ref:`Simple Query Language (SQL) <sql>`, :ref:`JavaScript Object Notation (JSON) <json>`

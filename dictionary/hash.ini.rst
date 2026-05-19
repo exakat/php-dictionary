@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 04:55:45 +0000","dateModified":"Thu, 16 Apr 2026 04:55:45 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:29:23 +0000","dateModified":"Tue, 12 May 2026 16:29:23 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash
@@ -29,10 +29,10 @@ Hash has several meanings:
 
 + PHP extension
 + PHP function
-+ a general computer science concept, that transforms data into another value
-+ a general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert. It is also called a digest.
-+ a synonym for arrays with arbitrary keys, also known as map or associative array
-+ a character to start a one line comment: ``#``
++ A general computer science concept, that transforms data into another value
++ A general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert. It is also called a digest.
++ A synonym for arrays with arbitrary keys, also known as map or associative array
++ A character to start a one line comment: ``#``
 
 Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. 
 
@@ -63,4 +63,4 @@ While the extension ``hash`` only process hashes, there are other extensions whi
 
 See also https://ssojet.com/hashing/numeric-hash-nhash-in-php
 
-Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`, :ref:`Argon2 <argon2>`, :ref:`Automatic Index <automatic-index>`, :ref:`Dictionary <dictionary>`, :ref:`Data Structure <ds>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`, :ref:`Argon2 <argon2>`, :ref:`Automatic Index <automatic-index>`, :ref:`Dictionary <dictionary>`, :ref:`Data Structure <ds>`, :ref:`Pound # <pound>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Extensions are PHP module system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 13 May 2026 15:07:27 +0000","dateModified":"Wed, 13 May 2026 15:07:27 +0000","description":"Extensions are PHP module system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Extensions
@@ -30,15 +30,18 @@ Extensions are published in the PECL repository. Some are available by default, 
    
    <?php
    
-   // Example with the ext/pspell extensions, for orthographic checks
-   $pspell = pspell_new("en");
+       // Example with the ext/pspell extensions, for orthographic checks
+       $pspell = pspell_new("en");
+       
+       if (pspell_check($pspell, "testt")) {
+           echo "This is a valid spelling";
+       } else {
+           echo "Sorry, wrong spelling";
+       }
    
-   if (pspell_check($pspell, "testt")) {
-       echo "This is a valid spelling";
-   } else {
-       echo "Sorry, wrong spelling";
-   }
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/install.pecl.php>`__
+
+Related : :ref:`PHP Engine <php-engine>`

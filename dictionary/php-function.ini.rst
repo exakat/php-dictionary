@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Native Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 14:40:57 +0000","dateModified":"Mon, 11 May 2026 14:40:57 +0000","description":"PHP defines its own native functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Native Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 May 2026 05:37:20 +0000","dateModified":"Fri, 15 May 2026 05:37:20 +0000","description":"PHP defines its own native functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Native Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Native Function
@@ -30,6 +30,8 @@ For example, ``strlen`` is a PHP native function, which measures the length of a
 
 PHP native interfaces may be disabled at startup, with the ``disabled_functions`` directive.
 
+It is possible to reach PHP native function definitions on the php.net website by adding their name in the URL. For example: ``https://www.php.net/strlen``.
+
 
 .. code-block:: php
    
@@ -41,5 +43,7 @@ PHP native interfaces may be disabled at startup, with the ``disabled_functions`
 
 
 `Documentation <https://www.php.net/manual/en/language.functions.php>`__
+
+See also https://php-safari.com/, https://www.php.net/strlen
 
 Related : :ref:`Functions <function>`, 

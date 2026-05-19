@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Coverage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Type coverage reports how much of the PHP code has types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Coverage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Coverage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 05:51:40 +0000","dateModified":"Tue, 19 May 2026 05:51:40 +0000","description":"Type coverage reports how much of the PHP code has types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Coverage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Type Coverage
@@ -24,30 +24,32 @@ Type Coverage
 
 Type coverage reports how much of the PHP code has types. The elements that can be typed are: 
 
-+ arguments in methods
-+ return type
-+ properties
-+ class constants
++ Arguments in methods
++ Return type
++ Properties
++ Class constants
 
 Some elements cannot be typed: 
 
-+ arrays
-+ lexical variables
-+ yield values
-+ local variables.
++ Arrays
++ Lexical variables
++ Yield values
++ Local variables.
+
+Type coverage is used as a metrics, to ensure that every line of code is used at least once during the tests. While it is a necessary feature, this is not always sufficient to ensure that the application is well tested, as lines of code are reused in several situations, and would require multiple tests.
 
 .. code-block:: php
    
    <?php
    
-   function foo($i = 0) : int {
-       return $i + 1;
-   }
+       function foo($i = 0) : int {
+           return $i + 1;
+       }
    
    ?>
 
 
-See also https://tomasvotruba.com/blog/how-to-measure-your-type-coverage
+See also https://tomasvotruba.com/blog/how-to-measure-your-type-coverage, https://github.com/sebastianbergmann/php-code-coverage, https://php.watch/articles/php-code-coverage-comparison
 
 Related : :ref:`Type System <type>`, :ref:`Coverage <coverage>`
 

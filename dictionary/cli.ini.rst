@@ -28,6 +28,6 @@ PHP provides support for a Command Line Interface (CLI) mode, which allows devel
 
 See also https://www.ducxinh.com/en/techblog/detailed-guide-on-php-command-line-(cli)-and-essential-commands-for-php-developers
 
-Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Read Eval Print Loop (REPL) <repl>`, :ref:`$argc <$argc>`, :ref:`$argv <$argv>`, :ref:`Common Interface Gateway (CGI) <cgi>`, :ref:`FastCGI <fastcgi>`
+Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Read Eval Print Loop (REPL) <repl>`, :ref:`$argc <$argc>`, :ref:`$argv <$argv>`, :ref:`Common Gateway Interface (CGI) <cgi>`, :ref:`FastCGI <fastcgi>`
 
 Related packages : `splitbrain/php-cli <https://packagist.org/packages/splitbrain/php-cli>`_

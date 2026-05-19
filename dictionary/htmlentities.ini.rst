@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"htmlentities()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 15:10:13 +0000","dateModified":"Mon, 11 May 2026 15:10:13 +0000","description":"``htmlentities()`` is a native PHP function which convert special characters in a string to their equivalent in HTML","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/htmlentities().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"htmlentities()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:30:34 +0000","dateModified":"Tue, 12 May 2026 16:30:34 +0000","description":"``htmlentities()`` is a native PHP function which convert special characters in a string to their equivalent in HTML","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/htmlentities().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 htmlentities()
@@ -36,10 +36,10 @@ The contrary to ``htmlentities()`` is ``html_entity_decode()``.
    
    <?php
    
-       $str = A quote is <b>bold</b>;
+       $str = "A 'quote' is <b>bold</b>";
        
        echo htmlentities($str);
-       echo \n\n;
+       echo "\n\n";
        echo htmlentities($str, ENT_COMPAT);
    
    ?>

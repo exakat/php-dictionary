@@ -88,6 +88,7 @@ Index
    dictionary/array-callable.ini
    dictionary/array-callback.ini
    dictionary/array-curly-braces.ini
+   dictionary/array-dot-notation.ini
    dictionary/array-element.ini
    dictionary/array-spread.ini
    dictionary/array-syntax.ini
@@ -102,6 +103,8 @@ Index
    dictionary/array_pad.ini
    dictionary/array_pop.ini
    dictionary/array_push.ini
+   dictionary/array_slice.ini
+   dictionary/array_splice.ini
    dictionary/array_unique.ini
    dictionary/array_values.ini
    dictionary/array_walk.ini
@@ -118,6 +121,7 @@ Index
    dictionary/associative-array.ini
    dictionary/assumption.ini
    dictionary/ast.ini
+   dictionary/asymmetric-cryptography.ini
    dictionary/asymmetric-property.ini
    dictionary/asymmetric-visibility.ini
    dictionary/async.ini
@@ -208,6 +212,7 @@ Index
    dictionary/chaining-new-without-parenthesis.ini
    dictionary/chaining.ini
    dictionary/character.ini
+   dictionary/checksum.ini
    dictionary/child-class.ini
    dictionary/ci.ini
    dictionary/circuit-breaker.ini
@@ -281,8 +286,8 @@ Index
    dictionary/conditional.ini
    dictionary/conditioned.ini
    dictionary/configuration.ini
+   dictionary/connection.ini
    dictionary/connexion-persistence.ini
-   dictionary/connexion.ini
    dictionary/consistency.ini
    dictionary/const.ini
    dictionary/constant-case.ini
@@ -348,6 +353,7 @@ Index
    dictionary/dead-code.ini
    dictionary/debt.ini
    dictionary/debug.ini
+   dictionary/debug_backtrace.ini
    dictionary/debugger.ini
    dictionary/declaration.ini
    dictionary/declarative-programming.ini
@@ -380,9 +386,12 @@ Index
    dictionary/dereferencing.ini
    dictionary/design-pattern.ini
    dictionary/destructor.ini
+   dictionary/deterministic.ini
    dictionary/dictionary.ini
    dictionary/diff.ini
+   dictionary/digital-signature.ini
    dictionary/dir.ini
+   dictionary/direct-output.ini
    dictionary/directive.ini
    dictionary/directory_separator.ini
    dictionary/directoryiterator.ini
@@ -444,6 +453,7 @@ Index
    dictionary/encode.ini
    dictionary/encoding-text.ini
    dictionary/encoding.ini
+   dictionary/end-to-end-test.ini
    dictionary/engine.ini
    dictionary/entity.ini
    dictionary/enum-case.ini
@@ -518,6 +528,7 @@ Index
    dictionary/fixture.ini
    dictionary/flag.ini
    dictionary/flamegraph.ini
+   dictionary/flexibility.ini
    dictionary/float.ini
    dictionary/fluent-interface.ini
    dictionary/fnmatch.ini
@@ -649,9 +660,11 @@ Index
    dictionary/insteadof.ini
    dictionary/intdiv.ini
    dictionary/integer.ini
+   dictionary/integration-test.ini
    dictionary/interface.ini
    dictionary/internals.ini
    dictionary/internationalization.ini
+   dictionary/internet.ini
    dictionary/interpolation.ini
    dictionary/interpreted.ini
    dictionary/intersection-type.ini
@@ -686,6 +699,7 @@ Index
    dictionary/label.ini
    dictionary/lamp.ini
    dictionary/language-construct.ini
+   dictionary/language-service-protocol.ini
    dictionary/laravel.ini
    dictionary/late-static-binding.ini
    dictionary/latin1.ini
@@ -705,6 +719,7 @@ Index
    dictionary/line-feed.ini
    dictionary/lint-wont-execute.ini
    dictionary/linting.ini
+   dictionary/liskov.ini
    dictionary/list.ini
    dictionary/literal-types.ini
    dictionary/literal.ini
@@ -714,7 +729,9 @@ Index
    dictionary/local.ini
    dictionary/locale.ini
    dictionary/lock.ini
+   dictionary/log-file.ini
    dictionary/log.ini
+   dictionary/logarithm.ini
    dictionary/logical-operator.ini
    dictionary/logicexception.ini
    dictionary/loop.ini
@@ -751,6 +768,7 @@ Index
    dictionary/method-collision.ini
    dictionary/method-compatibility.ini
    dictionary/method-overloading.ini
+   dictionary/method-signature.ini
    dictionary/method.ini
    dictionary/methodcall.ini
    dictionary/metrics.ini
@@ -802,6 +820,7 @@ Index
    dictionary/negative-index.ini
    dictionary/nested-attribute.ini
    dictionary/nesting.ini
+   dictionary/network.ini
    dictionary/neutral-element.ini
    dictionary/never.ini
    dictionary/new-in-initializer.ini
@@ -948,11 +967,13 @@ Index
    dictionary/pointer.ini
    dictionary/polyfill.ini
    dictionary/polymorphism.ini
+   dictionary/popo.ini
    dictionary/port.ini
    dictionary/portability.ini
    dictionary/positional-parameter.ini
    dictionary/positive-integer.ini
    dictionary/post-increment.ini
+   dictionary/pound.ini
    dictionary/pr.ini
    dictionary/pre-increment.ini
    dictionary/precedence.ini
@@ -974,6 +995,7 @@ Index
    dictionary/process.ini
    dictionary/production.ini
    dictionary/profiler.ini
+   dictionary/program-to-interface.ini
    dictionary/promise.ini
    dictionary/promoted-property.ini
    dictionary/propagation.ini
@@ -993,6 +1015,7 @@ Index
    dictionary/queue.ini
    dictionary/quine.ini
    dictionary/quoted-printable.ini
+   dictionary/race-condition.ini
    dictionary/raci.ini
    dictionary/rag.ini
    dictionary/railroad-programming.ini
@@ -1049,6 +1072,8 @@ Index
    dictionary/rfchange.ini
    dictionary/rfu.ini
    dictionary/rich-text.ini
+   dictionary/rigidity.ini
+   dictionary/robots.txt.ini
    dictionary/rounding.ini
    dictionary/route.ini
    dictionary/rpc.ini
@@ -1114,7 +1139,9 @@ Index
    dictionary/simple-switch.ini
    dictionary/simplexml.ini
    dictionary/single-quote.ini
+   dictionary/single.ini
    dictionary/singleton.ini
+   dictionary/sitemap.ini
    dictionary/slash.ini
    dictionary/sleep.ini
    dictionary/smtp.ini
@@ -1216,6 +1243,7 @@ Index
    dictionary/test-data-provider.ini
    dictionary/test-pyramid.ini
    dictionary/test.ini
+   dictionary/testable.ini
    dictionary/testdox.ini
    dictionary/text.ini
    dictionary/thin-method.ini
@@ -1226,11 +1254,14 @@ Index
    dictionary/tick.ini
    dictionary/tilde.ini
    dictionary/time-travel.ini
+   dictionary/timing-attack.ini
    dictionary/tls.ini
    dictionary/toctou.ini
    dictionary/token.ini
+   dictionary/tokenizer.ini
    dictionary/toml.ini
    dictionary/toon.ini
+   dictionary/trace.ini
    dictionary/trailing-comma.ini
    dictionary/trait.ini
    dictionary/transpile.ini
@@ -1240,6 +1271,7 @@ Index
    dictionary/treemap.ini
    dictionary/trigger_error.ini
    dictionary/trim.ini
+   dictionary/triple.ini
    dictionary/troubleshoot.ini
    dictionary/true.ini
    dictionary/truthy.ini
@@ -1268,6 +1300,7 @@ Index
    dictionary/unicode.ini
    dictionary/uninitialized.ini
    dictionary/union-type.ini
+   dictionary/unit-test.ini
    dictionary/unitenum.ini
    dictionary/unpacking.ini
    dictionary/unreachable-code.ini
@@ -1296,6 +1329,7 @@ Index
    dictionary/valueerror.ini
    dictionary/var.ini
    dictionary/var_dump.ini
+   dictionary/var_export.ini
    dictionary/variable-argument.ini
    dictionary/variable-scope.ini
    dictionary/variable-shadowing.ini
@@ -1347,6 +1381,7 @@ Index
    dictionary/writable.ini
    dictionary/writeable.ini
    dictionary/writing.ini
+   dictionary/xdebug.ini
    dictionary/xml-database.ini
    dictionary/xml.ini
    dictionary/xmlreader.ini

@@ -1,28 +1,28 @@
 .. _shared-memory:
 .. meta::
 	:description:
-		Shared Memory: Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment.
+		Shared Memory: Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Shared Memory
-	:twitter:description: Shared Memory: Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment
+	:twitter:description: Shared Memory: Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Shared Memory
 	:og:type: article
-	:og:description: Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment
+	:og:description: Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/shared-memory.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 11:40:23 +0000","dateModified":"Mon, 11 May 2026 11:40:23 +0000","description":"Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:36:22 +0000","dateModified":"Tue, 12 May 2026 16:36:22 +0000","description":"Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shared Memory
 -------------
 
-Shared memory is a powerful feature in PHP that allows multiple processes to access and store data in a shared memory segment.
+Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment.
 
 .. code-block:: php
    

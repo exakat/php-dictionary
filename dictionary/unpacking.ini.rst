@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Unpacking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Unpacking has two meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unpacking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Unpacking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 08:13:43 +0000","dateModified":"Tue, 19 May 2026 08:13:43 +0000","description":"Unpacking has two meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unpacking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unpacking
@@ -26,7 +26,7 @@ Unpacking
 Unpacking has two meanings:
 
 + ``unpack()``, a PHP native function, which extracts data from a binary string. It has the ``pack()`` reverse function.
-+ unpacking arguments, with the ``...`` operator: turning an array into a list of arguments at call time. 
++ Unpacking arguments, with the ``...`` operator: turning an array into a list of arguments at call time. 
 
 
 
@@ -34,14 +34,14 @@ Unpacking has two meanings:
    
    <?php
    
-   // Unpacking arguments
-   function foo($a, $b, $c) {
-   	return $a + $b * $c;
-   }
-   
-   $arguments = ['a' => 1, 'b' => 2, 'c' => 3];
-   echo foo(...$arguments);
-   // display 7
+       // Unpacking arguments
+       function foo($a, $b, $c) {
+           return $a + $b * $c;
+       }
+       
+       $arguments = ['a' => 1, 'b' => 2, 'c' => 3];
+       echo foo(...$arguments);
+       // display 7
    
    ?>
 

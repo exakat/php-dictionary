@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Days In Month","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Days in month is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days In Month.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Days In Month","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:43:11 +0000","dateModified":"Sun, 17 May 2026 07:43:11 +0000","description":"Days in month is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days In Month.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Days In Month
 -------------
 
-Days in month is a classic bug when dealing with dates. It happens when adding a month to a date and ending on two months later. 
+Days in month is a classic bug when dealing with dates. It happens when adding a month to a date and ending up two months later. 
 
 This happens when adding a month to the last day of a month, while this month is longer than the next. For example, January 31st, or Halloween October 31st. After adding a month, PHP calculates it as the November 31st, which doesn't exists. Yet, PHP converts it to December 1st.
 
@@ -43,6 +43,8 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 `Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
 
-See also https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/
+See also https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/, https://medium.com/@segunibidokun/the-silent-bug-that-corrupts-your-monthly-data-in-laravel-b464706ada54
 
-Related : :ref:`Days Are Not 86400 Seconds <day-in-seconds>`
+Related : :ref:`Days Are Not 86400 Seconds <day-in-seconds>`, :ref:`Datetime Trap <datetime-trap>`
+
+Related packages : `nesbot/carbon <https://packagist.org/packages/nesbot/carbon>`_, `cakephp/chronos <https://packagist.org/packages/cakephp/chronos>`_

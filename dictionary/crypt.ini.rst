@@ -54,4 +54,4 @@ The opposite to crypt is to decrypt, when it is a legit operation, or to crack, 
    ?>
 
 
-Related : , :ref:`To Decrypt <decrypt>`, , :ref:`Convert <convert>`, :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Plain Text <plain-text>`, :ref:`Rich Text <rich-text>`
+Related : :ref:`Asymmetric Cryptography <asymmetric-cryptography>`, :ref:`To Decrypt <decrypt>`, , :ref:`Convert <convert>`, :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Plain Text <plain-text>`, :ref:`Rich Text <rich-text>`

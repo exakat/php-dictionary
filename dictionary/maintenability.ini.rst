@@ -38,4 +38,4 @@ A maintainable codebase is:
 
 See also https://reintech.io/blog/php-best-practices-maintainable-secure-scalable-code
 
-Related : :ref:`Readable <readable>`, , :ref:`Documentation <documentation>`
+Related : :ref:`Readable <readable>`, :ref:`Testable <testable>`, :ref:`Documentation <documentation>`

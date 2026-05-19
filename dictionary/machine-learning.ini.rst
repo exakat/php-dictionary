@@ -1,25 +1,25 @@
 .. _machine-learning:
 .. meta::
 	:description:
-		Machine Learning: Machine learning is the a field of artificial intelligence, which teach an application how to react to a vast number of situations with a training dataset, before applying these teaching on new situations.
+		Machine Learning: Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Machine Learning
-	:twitter:description: Machine Learning: Machine learning is the a field of artificial intelligence, which teach an application how to react to a vast number of situations with a training dataset, before applying these teaching on new situations
+	:twitter:description: Machine Learning: Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Machine Learning
 	:og:type: article
-	:og:description: Machine learning is the a field of artificial intelligence, which teach an application how to react to a vast number of situations with a training dataset, before applying these teaching on new situations
+	:og:description: Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/machine-learning.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Machine Learning","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Machine learning is the a field of artificial intelligence, which teach an application how to react to a vast number of situations with a training dataset, before applying these teaching on new situations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Machine Learning.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Machine Learning","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:54:09 +0000","dateModified":"Sun, 17 May 2026 07:54:09 +0000","description":"Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Machine Learning.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Machine Learning
 ----------------
 
-Machine learning is the a field of artificial intelligence, which teach an application how to react to a vast number of situations with a training dataset, before applying these teaching on new situations.
+Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations.

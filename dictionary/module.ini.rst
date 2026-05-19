@@ -1,4 +1,5 @@
 .. _module:
+.. _modularity:
 .. meta::
 	:description:
 		Module: In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Module","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:00 +0000","dateModified":"Mon, 16 Mar 2026 14:41:00 +0000","description":"In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Module.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Module","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 06:10:25 +0000","dateModified":"Tue, 19 May 2026 06:10:25 +0000","description":"In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Module.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Module
@@ -24,8 +25,10 @@ Module
 
 In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities. It is a fundamental concept in modular programming, which aims to break down complex systems into smaller, more manageable components.
 
+A module is also a standardized package, that can be replaced plugged in a system with a common interface.
+
 In the PHP world, modules often refers to specific frameworks' component : for example, Drupal and Laravel use modules to extends their features.
 
 See also https://www.drupal.org/project/project_module
 
-Related : :ref:`Plugin <plug-in>`, :ref:`Extensions <extension>`
+Related : :ref:`Plugin <plug-in>`, , :ref:`Extensions <extension>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Source","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:41:01 +0000","dateModified":"Mon, 16 Mar 2026 14:41:01 +0000","description":"Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Source.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Source","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 14:57:03 +0000","dateModified":"Tue, 12 May 2026 14:57:03 +0000","description":"Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Source.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Open Source
@@ -24,10 +24,14 @@ Open Source
 
 Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license. 
 
-PHP is open source, under the PHP licence.
+PHP is using an open source licence. It was under the PHP licence until 2026: that licence was OSI approved. Later, the licence was turned to BSD.
+
+PHP software may use a different licence thant PHP itself.
+
+Open source is often related to free, as in freedom to access the code and modify it. It needs to be distinguised from free as in gratis, or without fee, although both are often going together.
 
 `Documentation <https://simple.wikipedia.org/wiki/Open_source>`__
 
-See also https://www.php.net/license/3_01.txt
+See also https://www.php.net/license/3_01.txt, https://goodfirstissue.dev/language/php
 
-Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`
+Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`, , :ref:`Community <community>`, 

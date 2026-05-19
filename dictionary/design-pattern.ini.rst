@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 May 2026 11:31:21 +0000","dateModified":"Mon, 11 May 2026 11:31:21 +0000","description":"A design pattern, or simply a pattern, is a general solution to a common problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 04:58:05 +0000","dateModified":"Tue, 19 May 2026 04:58:05 +0000","description":"A design pattern, or simply a pattern, is a general solution to a common problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Design Pattern
@@ -38,6 +38,6 @@ Design patterns are not dedicated to PHP, though most of them do apply to PHP.
 
 `Documentation <https://en.wikipedia.org/wiki/Software_design_pattern>`__
 
-See also https://refactoring.guru/design-patterns/php, https://designpatternsphp.readthedocs.io/en/latest/README.html, https://en.wikipedia.org/wiki/Design_Patterns
+See also https://refactoring.guru/design-patterns/php, https://designpatternsphp.readthedocs.io/en/latest/, https://en.wikipedia.org/wiki/Design_Patterns, https://phpmagazine.net/2023/03/boosting-php-performance-with-design-patterns-real-world-examples.html
 
 Related : :ref:`Best Practices <best-practice>`, :ref:`Observer Design Pattern <observer>`, :ref:`Singleton <singleton>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Clean Code <clean-code>`, :ref:`Component <component>`, :ref:`Registry <registry>`

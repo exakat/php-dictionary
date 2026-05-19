@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","name":"Connexion Persistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 May 2026 09:36:34 +0000","dateModified":"Wed, 06 May 2026 09:36:34 +0000","description":"Connexion persistence refers to the practice of reusing the same database connection across multiple requests, rather than opening and closing a connection for each individual request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Connexion Persistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Connexion Persistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 May 2026 09:36:34 +0000","dateModified":"Wed, 06 May 2026 09:36:34 +0000","description":"Connexion persistence refers to the practice of reusing the same database connection across multiple requests, rather than opening and closing a connection for each individual request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Connexion Persistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Connexion Persistence
@@ -29,4 +29,4 @@ Connexion persistence refers to the practice of reusing the same database connec
 
 See also https://ilia.ws/blog/the-persistent-myth-why-your-php-app-needs-persistent-connection
 
-Related : :ref:`Persistence <persistence>`, :ref:`Connexion <connexion>`, :ref:`Database <database>`
+Related : :ref:`Persistence <persistence>`, :ref:`Connection <connexion>`, :ref:`Database <database>`

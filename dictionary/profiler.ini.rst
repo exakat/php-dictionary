@@ -1,28 +1,28 @@
 .. _profiler:
 .. meta::
 	:description:
-		PHP Profiler: A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation.
+		PHP Profiler: A profiler is an application that helps track execution performances, and spots slow parts of the application for optimization.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: PHP Profiler
-	:twitter:description: PHP Profiler: A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation
+	:twitter:description: PHP Profiler: A profiler is an application that helps track execution performances, and spots slow parts of the application for optimization
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Profiler
 	:og:type: article
-	:og:description: A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation
+	:og:description: A profiler is an application that helps track execution performances, and spots slow parts of the application for optimization
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/profiler.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Profiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Apr 2026 07:18:21 +0000","dateModified":"Tue, 28 Apr 2026 07:18:21 +0000","description":"A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Profiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Profiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 13 May 2026 17:28:35 +0000","dateModified":"Wed, 13 May 2026 17:28:35 +0000","description":"A profiler is an application that helps track execution performances, and spots slow parts of the application for optimization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Profiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Profiler
 ------------
 
-A profiler is an application that helps track execution performances, and spots slow part of the application for optimisation.
+A profiler is an application that helps track execution performances, and spots slow parts of the application for optimization.
 
 PHP has several profilers. They may provide an online interface to visualize the results, or a local server, or even a raw execution breakdown, which may then be processed to identify the bottlenecks.
 

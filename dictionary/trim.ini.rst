@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"trim","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The ``trim()`` function is used to remove whitespaces from the beginning and end of a string, at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/trim.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"trim","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 16 May 2026 08:02:46 +0000","dateModified":"Sat, 16 May 2026 08:02:46 +0000","description":"The ``trim()`` function is used to remove whitespaces from the beginning and end of a string, at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/trim.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 trim
@@ -26,13 +26,13 @@ The ``trim()`` function is used to remove whitespaces from the beginning and end
 
 By default, it removes any of the following characters from the start and end of the string:
 
-+ Space (``" "``)
-+ Horizontal tab (``\t``)
-+ Newline (``\n``)
-+ Carriage return (``\r``)
-+ Null-byte (``\0``)
++ Space ``" "``
++ Horizontal tab ``\t``
++ Newline ``\n``
++ Carriage return ``\r``
++ Null-byte ``\0``
 
-It is also possible to provide a list of single characters 
+Unbreakable spaces are not considered here, nor any other character, unless specified.
 
 This function does not support multi-bytes characters. It actually uses single bytes characters, and may leave inconsistent characters, or, with luck, it may actually removes the characters. Multibyte trim shall be done with ``mb_trim()``.
 
@@ -44,7 +44,7 @@ This function does not support multi-bytes characters. It actually uses single b
    
    <?php
    
-       $string = \n\t PHP;
+       $string = "\n\t PHP ";
        $trimmed = trim($string);
        // 'PHP'
    
@@ -61,3 +61,5 @@ This function does not support multi-bytes characters. It actually uses single b
 `Documentation <https://www.php.net/manual/en/function.trim.php>`__
 
 See also https://benjamincrozat.com/php-trim
+
+Related : :ref:`Non Breakable Spaces <non-breakable-space>`

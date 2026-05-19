@@ -16,18 +16,18 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OWASP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:38:51 +0000","dateModified":"Wed, 15 Apr 2026 20:38:51 +0000","description":"OWASP stands for Open Web Application Security Project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OWASP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OWASP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:43:05 +0000","dateModified":"Sun, 17 May 2026 07:43:05 +0000","description":"OWASP stands for Open Web Application Security Project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OWASP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OWASP
 -----
 
-OWASP stands for Open Web Application Security Project. It is a organization that educates people to design, code and maintain secure application.
+OWASP stands for Open Web Application Security Project. It is an organization that educates people to design, code and maintain secure applications.
 
 OWASP is famous for the TOP 10: a list of the top 10 threats to web applications. It is updated every three years.
 
 `Documentation <https://owasp.org/>`__
 
-See also https://owasp.org/Top10/
+See also https://owasp.org/Top10/, https://slicker.me/php/security.htm
 
-Related : :ref:`Security <security>`
+Related : :ref:`Security <security>`, :ref:`Audit <audit>`, :ref:`Vulnerability <vulnerability>`

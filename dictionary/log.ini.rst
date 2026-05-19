@@ -1,39 +1,31 @@
 .. _log:
 .. meta::
 	:description:
-		Log: Log is a list of event that happen during execution of a piece of software.
+		Log: Log has several meanings:.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Log
-	:twitter:description: Log: Log is a list of event that happen during execution of a piece of software
+	:twitter:description: Log: Log has several meanings:
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Log
 	:og:type: article
-	:og:description: Log is a list of event that happen during execution of a piece of software
+	:og:description: Log has several meanings:
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/log.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Log","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Log is a list of event that happen during execution of a piece of software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Log.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Log","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 10:24:54 +0000","dateModified":"Mon, 18 May 2026 10:24:54 +0000","description":"Log has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Log.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Log
 ---
 
-Log is a list of event that happen during execution of a piece of software.
+Log has several meanings:
 
-Log report meaningful events during execution. They are used after execution to provide overview of the process: performance, exceptional events, etc. 
++ log file, or logging, to collect events traces as they happen
++ logarithm, the math function.
 
-Logs may be saved on the local machine, or exported to external storage.
 
-Log is also the short name for logarithm.
-
-`Documentation <https://en.wikipedia.org/wiki/Logging_(computing)>`__
-
-See also https://betterstack.com/community/guides/logging/how-to-start-logging-with-monolog/
-
-Related : :ref:`Error Reporting <error_reporting>`, 
-
-Related packages : `psr/log <https://packagist.org/packages/psr/log>`_, `monolog/monolog <https://packagist.org/packages/monolog/monolog>`_, `sentry/sentry <https://packagist.org/packages/sentry/sentry>`_
+Related : :ref:`Logarithm <logarithm>`, :ref:`Log File <log-file>`

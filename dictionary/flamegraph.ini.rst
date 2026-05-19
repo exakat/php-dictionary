@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 05:22:09 +0000","dateModified":"Tue, 19 May 2026 05:22:09 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Flame Graph
@@ -27,6 +27,6 @@ Flame graphs are a visualization tool used to understand where a program spends 
 
 They help quickly spot hot paths in code: functions or routines that consume the most CPU or other resources.
 
-See also https://timotijhof.net/posts/2020/profiling-php-at-scale/, https://derickrethans.nl/flamboyant-flamegraphs.html, https://daniellockyer.com/php-flame-graphs/
+See also https://timotijhof.net/posts/2020/profiling-php-at-scale/, https://derickrethans.nl/flamboyant-flamegraphs.html, https://xdebug.org/docs/flamegraphs, https://daniellockyer.com/php-flame-graphs/
 
 Related packages : `wikimedia/arc-lamp <https://packagist.org/packages/wikimedia/arc-lamp>`_, `noisebynorthwest/php-spx <https://packagist.org/packages/noisebynorthwest/php-spx>`_, `reliforp/reli-prof <https://packagist.org/packages/reliforp/reli-prof>`_

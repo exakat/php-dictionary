@@ -31,4 +31,4 @@ Instead of nesting PHP in the web server, php-fpm makes PHP a server by itself. 
 
 See also https://www.plesk.com/blog/various/why-do-you-need-php-fpm/, https://www.digitalocean.com/community/tutorials/php-fpm-nginx, https://docs.cpanel.net/knowledge-base/php-fpm/php-fastcgi-process-manager-php-fpm/
 
-Related : :ref:`Common Interface Gateway (CGI) <cgi>`
+Related : :ref:`Common Gateway Interface (CGI) <cgi>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"MySQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:09:48 +0000","dateModified":"Thu, 16 Apr 2026 05:09:48 +0000","description":"``mysql`` is both the name of a PHP extension that provides the interface to interact with the MySQL database, and the database itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/MySQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"MySQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:33:09 +0000","dateModified":"Tue, 12 May 2026 16:33:09 +0000","description":"``mysql`` is both the name of a PHP extension that provides the interface to interact with the MySQL database, and the database itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/MySQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 MySQL
@@ -33,32 +33,32 @@ MySQL
    
    <?php
    
-   // Connecting, selecting database
-   $link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')
-       or die('Could not connect: ' . mysql_error());
-   echo 'Connected successfully';
-   mysql_select_db('my_database') or die('Could not select database');
-   
-   // Performing SQL query
-   $query = 'SELECT * FROM my_table';
-   $result = mysql_query($query) or die('Query failed: ' . mysql_error());
-   
-   // Printing results in HTML
-   echo <table>\n;
-   while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
-       echo \t<tr>\n;
-       foreach ($line as $col_value) {
-           echo \t\t<td>$col_value</td>\n;
+       // Connecting, selecting database
+       $link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')
+           or die('Could not connect: ' . mysql_error());
+       echo 'Connected successfully';
+       mysql_select_db('my_database') or die('Could not select database');
+       
+       // Performing SQL query
+       $query = 'SELECT * FROM my_table';
+       $result = mysql_query($query) or die('Query failed: ' . mysql_error());
+       
+       // Printing results in HTML
+       echo "<table>\n";
+       while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
+           echo "\t<tr>\n";
+           foreach ($line as $col_value) {
+               echo "\t\t<td>$col_value</td>\n";
+           }
+           echo "\t</tr>\n";
        }
-       echo \t</tr>\n;
-   }
-   echo </table>\n;
-   
-   // Free resultset
-   mysql_free_result($result);
-   
-   // Closing connection
-   mysql_close($link);
+       echo "</table>\n";
+       
+       // Free resultset
+       mysql_free_result($result);
+       
+       // Closing connection
+       mysql_close($link);
    
    ?>
 

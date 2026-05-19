@@ -36,4 +36,4 @@ SAPI stands for Server Application Programming Interface. SAPI are the interface
 
 `Documentation <https://docs.php.earth/php/sapi/>`__
 
-Related : :ref:`Common Interface Gateway (CGI) <cgi>`
+Related : :ref:`Common Gateway Interface (CGI) <cgi>`

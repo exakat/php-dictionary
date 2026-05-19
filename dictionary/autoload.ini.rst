@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Autoloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Autoloading provides a hook to allow the loading of a class, the first PHP requires it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Autoloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Autoloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 05:37:10 +0000","dateModified":"Tue, 19 May 2026 05:37:10 +0000","description":"Autoloading provides a hook to allow the loading of a class, the first PHP requires it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Autoloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Autoloading
@@ -27,7 +27,7 @@ Autoloading provides a hook to allow the loading of a class, the first PHP requi
 
 Autoloading requires each class, trait, interface or enumeration to be stored in a distinct file. This is the most popular way, yet autoloading allows any other strategy of storage, as long as the class may be loaded based only on its name.
 
-Autoloading relies on the spl_autoload_register() function. Prior to PHP 8.0, it was possible to define the  __autoload() method, and this has being deprecated since PHP 7.2.
+Autoloading relies on the ``spl_autoload_register()`` function. Prior to PHP 8.0, it was possible to define the  __autoload() method, and this has being deprecated since PHP 7.2.
 
 Autoloading does not work for global constants and functions. Those still require a specific inclusion mechanism.
 
@@ -36,18 +36,20 @@ In modern PHP, not using class autoloading is considered a bad practice.
 .. code-block:: php
    
    <?php
-   spl_autoload_register(function ($class_name) {
-       include $class_name . '.php';
-   });
    
-   $obj  = new MyClass1();
-   $obj2 = new MyClass2(); 
+       spl_autoload_register(function ($class_name) {
+           include $class_name . '.php';
+       });
+       
+       $obj  = new MyClass1();
+       $obj2 = new MyClass2(); 
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.autoload.php>`__
 
-See also https://solidlystated.com/scripting/what-is-autoloading-in-php/, https://tideways.com/profiler/blog/autoloading-performance-avoid-these-5-mistakes
+See also https://opensource.com/article/23/4/autoloading-namespaces-php, https://tideways.com/profiler/blog/autoloading-performance-avoid-these-5-mistakes, https://dev.to/abhay_yt_52a8e72b213be229/understanding-autoloading-in-php-how-to-implement-and-use-it-efficiently-3a44
 
 Related : :ref:`Autowiring <auto-wiring>`, :ref:`Definition <definition>`, :ref:`Call <call>`, :ref:`__autoload <-__autoload>`, :ref:`Class Hoisting <class-hoisting>`, :ref:`Inclusions <inclusion>`, :ref:`Standard PHP Library (SPL) <spl>`
 

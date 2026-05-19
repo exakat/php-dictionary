@@ -30,4 +30,4 @@ They are designed to handle requests, process them, and deliver responses.
 
 PHP can act both as a client and server, depending on the situation.
 
-Related : :ref:`SQL Database <sql-database>`, :ref:`Webserver <webserver>`, :ref:`Client <client>`, :ref:`Query <query>`, :ref:`Response <response>`, :ref:`Attack <attack>`, :ref:`Connexion <connexion>`, :ref:`Shard <shard>`, :ref:`Socket <socket>`
+Related : :ref:`SQL Database <sql-database>`, :ref:`Webserver <webserver>`, :ref:`Client <client>`, :ref:`Query <query>`, :ref:`Response <response>`, :ref:`Attack <attack>`, :ref:`Connection <connexion>`, :ref:`Shard <shard>`, :ref:`Socket <socket>`

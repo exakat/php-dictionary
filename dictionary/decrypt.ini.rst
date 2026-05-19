@@ -1,28 +1,28 @@
 .. _decrypt:
 .. meta::
 	:description:
-		To Decrypt: To decrypt is to apply a data transformation on crypted data to access the original and readable information.
+		To Decrypt: To decrypt is to apply a data transformation on encrypted data to access the original and readable information.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: To Decrypt
-	:twitter:description: To Decrypt: To decrypt is to apply a data transformation on crypted data to access the original and readable information
+	:twitter:description: To Decrypt: To decrypt is to apply a data transformation on encrypted data to access the original and readable information
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: To Decrypt
 	:og:type: article
-	:og:description: To decrypt is to apply a data transformation on crypted data to access the original and readable information
+	:og:description: To decrypt is to apply a data transformation on encrypted data to access the original and readable information
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/decrypt.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"To Decrypt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 10:21:48 +0000","dateModified":"Wed, 22 Apr 2026 10:21:48 +0000","description":"To decrypt is to apply a data transformation on crypted data to access the original and readable information","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/To Decrypt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"To Decrypt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 May 2026 20:37:47 +0000","dateModified":"Fri, 15 May 2026 20:37:47 +0000","description":"To decrypt is to apply a data transformation on encrypted data to access the original and readable information","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/To Decrypt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 To Decrypt
 ----------
 
-To decrypt is to apply a data transformation on crypted data to access the original and readable information. Usually, the transformation involves a key. That key may be public or private.
+To decrypt is to apply a data transformation on encrypted data to access the original and readable information. Usually, the transformation involves a key. That key may be public or private.
 
 Decrypting data may be done after the transit of information, or its storage, in a database. In both case, privacy is critical.
 
@@ -52,4 +52,4 @@ The opposite to crypt is to crypt, when it is a legit operation. The evil equiva
    ?>
 
 
-Related : , :ref:`To Crypt <crypt>`, 
+Related : :ref:`Asymmetric Cryptography <asymmetric-cryptography>`, :ref:`To Crypt <crypt>`, 

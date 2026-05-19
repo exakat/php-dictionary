@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"RecursiveTreeIterator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to generate an ASCII graphic tree","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/RecursiveTreeIterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"RecursiveTreeIterator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 16:35:46 +0000","dateModified":"Tue, 12 May 2026 16:35:46 +0000","description":"The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to generate an ASCII graphic tree","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/RecursiveTreeIterator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 RecursiveTreeIterator
@@ -29,16 +29,16 @@ The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to g
    <?php
    
    $data = [
-       fruit => [
-           apple,
-           banana
+       'fruit' => [
+           'apple',
+           'banana'
        ],
-       vegetables => [
-           carrot,
-           broccoli,
-           leafy => [
-               spinach,
-               lettuce
+       'vegetables' => [
+           'carrot',
+           'broccoli',
+           'leafy' => [
+               'spinach',
+               'lettuce'
            ]
        ]
    ];
@@ -54,7 +54,7 @@ The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to g
    
    // Loop and print the tree
    foreach ($treeIterator as $key => $value) {
-       echo $treeIterator->getPrefix() . $key: $value\n;
+       echo $treeIterator->getPrefix() . "$key: $value\n";
    }
    
    /**

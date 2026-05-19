@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dependency Injection Container","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A dependency injection container is a tool to make dependency injection easy to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dependency Injection Container.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dependency Injection Container","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 13 May 2026 17:12:47 +0000","dateModified":"Wed, 13 May 2026 17:12:47 +0000","description":"A dependency injection container is a tool to make dependency injection easy to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dependency Injection Container.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dependency Injection Container
@@ -30,7 +30,7 @@ PSR-11 is related to containers.
 
 `Documentation <https://en.wikipedia.org/wiki/Dependency_injection>`__
 
-See also https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6, https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm, https://getinstance.com/php-dependency-injection/
+See also https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6, https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`PHP Standards Recommendations (PSR) <psr>`
 

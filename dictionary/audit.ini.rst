@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Audit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"An audit is a systematic, independent, and documented process for obtaining evidence and evaluating it objectively to determine whether predefined criteria, policies, or standards are being met","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Audit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Audit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 09:06:29 +0000","dateModified":"Mon, 18 May 2026 09:06:29 +0000","description":"An audit is a systematic, independent, and documented process for obtaining evidence and evaluating it objectively to determine whether predefined criteria, policies, or standards are being met","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Audit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Audit
@@ -26,4 +26,4 @@ An audit is a systematic, independent, and documented process for obtaining evid
 
 Audits are conducted to verify compliance, accuracy, reliability, and integrity in various contexts, including finance, security, quality management, and software development.
 
-Related : :ref:`Audit Trail <audit-trail>`, :ref:`Standard <standard>`
+Related : :ref:`Audit Trail <audit-trail>`, :ref:`Standard <standard>`, :ref:`Accountability <accountability>`, :ref:`Compliance <compliance>`, :ref:`OWASP <owasp>`, :ref:`Static Code Analysis (SCA) <sca>`
