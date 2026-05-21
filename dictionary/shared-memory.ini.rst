@@ -53,6 +53,6 @@ Shared memory is a powerful PHP feature that allows multiple processes to access
 
 `Documentation <https://www.php.net/manual/en/shmop.examples-basic.php>`__
 
-See also https://reintech.io/blog/a-guide-to-php-shmop-library-for-shared-memory-operations
+See also `A Guide to the PHP SHMOP Library for Shared Memory Operations <https://reintech.io/blog/a-guide-to-php-shmop-library-for-shared-memory-operations>`_.
 
 Related : :ref:`Memory <memory>`

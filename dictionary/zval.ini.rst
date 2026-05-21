@@ -45,6 +45,6 @@ It may be access with ``debug_zval_dump()`` function, for debugging purposes. It
 
 `Documentation <https://www.phpinternalsbook.com/php5/zvals/basic_structure.html>`__
 
-See also https://www.php.net/manual/fr/function.debug-zval-dump.php
+See also `debug_zval_dump <https://www.php.net/manual/fr/function.debug-zval-dump.php>`_.
 
 Related : :ref:`Zend Engine <zend-engine>`

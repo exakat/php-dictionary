@@ -51,6 +51,6 @@ It is recommended to unset the referenced variable, after the loop. It destroys 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-See also https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md
+See also `No Dangling References <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_.
 
 Related : :ref:`Loops <loop>`, :ref:`References <reference>`

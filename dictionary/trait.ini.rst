@@ -49,6 +49,6 @@ Traits define methods and properties. They are included in one or several classe
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php>`__
 
-See also `Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_, `What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_, `Some lesser known facts of Traits in PHP <https://www.amitmerchant.com/some-lesser-known-facts-traits-php/>`_, `When to use a trait? <https://matthiasnoback.nl/2022/07/when-to-use-a-trait/>`_, `The difference between Traits, Interfaces, and Abstract Classes in PHP <https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/>`_
+See also `0 <`Traits are not inherited <https://doeken.org/tip/traits_are_not_inherited>`_>`_, `1 <`What are traits <https://riptutorial.com/php/example/10952/what-is-a-trait->`_>`_, `2 <`Some lesser known facts of Traits in PHP <https://www.amitmerchant.com/some-lesser-known-facts-traits-php/>`_>`_, `3 <`When to use a trait? <https://matthiasnoback.nl/2022/07/when-to-use-a-trait/>`_>`_ and `4 <`The difference between Traits, Interfaces, and Abstract Classes in PHP <https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/>`_>`_.
 
 Related : :ref:`Class <class>`, :ref:`Class Interface Trait Enumeration (CITE) <cite>`, :ref:`Use <use>`, :ref:`$this <$this>`, :ref:`Const <const>`, :ref:`Constants In Trait <constant-in-trait>`, :ref:`Use In Traits <use-trait>`

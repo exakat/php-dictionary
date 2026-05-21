@@ -53,6 +53,6 @@ When a class has the ``__invoke`` class, it is possible to can a method without 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.invoke>`__
 
-See also https://www.phptutorial.net/php-oop/php-__invoke/, https://www.juannicolas.eu/the-invoke-method-in-php/, https://medium.com/@jochelle.mendonca/why-phps-invoke-might-be-your-best-kept-secret-96c0bb8f1da9/
+See also `PHP __invoke <https://www.phptutorial.net/php-oop/php-__invoke/>`_, `The Magical invoke Method in PHP. Your Clean Code Ally <https://www.juannicolas.eu/the-invoke-method-in-php/>`_ and `Why PHP’s __invoke Might Be Your Best Kept Secret! <https://medium.com/@jochelle.mendonca/why-phps-invoke-might-be-your-best-kept-secret-96c0bb8f1da9/>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`SOLID <solid>`, :ref:`Anonymous <anonymous>`, :ref:`Functor <functor>`, :ref:`Callables <callable>`, :ref:`Invoke <invoke>`, :ref:`New Without Parenthesis <new-without-parenthesis>`

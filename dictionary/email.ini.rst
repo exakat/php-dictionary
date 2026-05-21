@@ -44,7 +44,7 @@ PHP also offers special filter to validate email addresses, with the filter exte
 
 `Documentation <https://www.php.net/manual/fr/function.mail.php>`__
 
-See also https://sendlayer.com/blog/how-to-send-email-in-php/
+See also `How to Send Email in PHP: Complete Guide with Code Examples <https://sendlayer.com/blog/how-to-send-email-in-php/>`_.
 
 Related : :ref:`filter <filter>`
 

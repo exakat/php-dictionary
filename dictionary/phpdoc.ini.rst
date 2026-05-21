@@ -52,6 +52,6 @@ PHPdoc may be exploited by automated documentation tools, or static analyzer, ID
 
 `Documentation <https://en.wikipedia.org/wiki/PHPDoc>`__
 
-See also https://www.educba.com/php-annotations/, https://www.phpdoc.org/
+See also `Introduction to PHP Annotations <https://www.educba.com/php-annotations/>`_ and `phpDocumentor <https://www.phpdoc.org/>`_.
 
 Related : :ref:`Attribute <attribute>`, :ref:`Annotations <annotation>`, :ref:`Comments <comment>`

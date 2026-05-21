@@ -42,6 +42,6 @@ The default configuration ensures that safer values, such as the session's value
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.variables-order>`__
 
-See also https://phppot.com/php/php-globals-with-egpcs-information/
+See also `PHP Globals with EGPCS Information <https://phppot.com/php/php-globals-with-egpcs-information/>`_.
 
 Related : :ref:`$_REQUEST <$_request>`

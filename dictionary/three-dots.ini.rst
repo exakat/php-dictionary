@@ -60,7 +60,7 @@ The various features of this operator were introduced in different PHP versions.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-See also https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/, https://medium.com/@sharminshanta/variadic-function-in-php-5e16c36c2727/
+See also `The many uses of ... ellipsis operator in PHP <https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/>`_ and `Variadic Function in PHP <https://medium.com/@sharminshanta/variadic-function-in-php-5e16c36c2727/>`_.
 
 Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`, :ref:`First Class Callable <first-class-callable>`
 

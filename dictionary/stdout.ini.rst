@@ -50,4 +50,4 @@ The standard output is also available via the protocol ``php``, with the special
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
 
-See also https://www.php.net/manual/en/wrappers.php.php
+See also `PHP Protocol <https://www.php.net/manual/en/wrappers.php.php>`_.

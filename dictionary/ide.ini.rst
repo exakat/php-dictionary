@@ -50,6 +50,6 @@ IDE are often compared to editor, which focus on reactivity and a more limited s
 
 `Documentation <https://en.wikipedia.org/wiki/Integrated_development_environment>`__
 
-See also https://www.jetbrains.com/phpstorm/promo/, https://code.visualstudio.com/, https://eclipseide.org/, https://netbeans.apache.org/front/main/index.html
+See also `PhpStorm <https://www.jetbrains.com/phpstorm/promo/>`_, `VS Code <https://code.visualstudio.com/>`_, `Eclipse <https://eclipseide.org/>`_ and `NetBeans <https://netbeans.apache.org/front/main/index.html>`_.
 
 Related : , 

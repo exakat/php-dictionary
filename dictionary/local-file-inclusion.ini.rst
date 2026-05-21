@@ -39,6 +39,6 @@ This vulnerability is often used to access password files, such as ``/etc/passwd
 
 `Documentation <https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion>`__
 
-See also https://gupta-bless.medium.com/exploiting-local-file-inclusion-lfi-using-php-wrapper-89904478b225, https://brightsec.com/blog/local-file-inclusion-lfi/, https://medium.com/@zoningxtr/from-lfi-to-rce-via-expect-php-wrapper-a-deep-dive-with-practical-examples-699690073fe8
+See also `Exploiting Local File Inclusion (LFI) Using PHP Wrapper <https://gupta-bless.medium.com/exploiting-local-file-inclusion-lfi-using-php-wrapper-89904478b225>`_, `Local File Inclusion (LFI): Understanding and Preventing LFI Attacks <https://brightsec.com/blog/local-file-inclusion-lfi/>`_ and `From LFI to RCE via expect:// PHP Wrapper — A Deep Dive with Practical Examples <https://medium.com/@zoningxtr/from-lfi-to-rce-via-expect-php-wrapper-a-deep-dive-with-practical-examples-699690073fe8>`_.
 
 Related : :ref:`Vulnerability <vulnerability>`, :ref:`Remote Code Execution (RCE) <rce>`

@@ -30,4 +30,4 @@ It can also run on the server side using environments like Node.js.
 
 `Documentation <https://en.wikipedia.org/wiki/JavaScript>`__
 
-See also https://www.php-js.com/
+See also `PHP-JS <https://www.php-js.com/>`_.

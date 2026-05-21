@@ -43,7 +43,7 @@ Promoted properties are a class's arguments, which are declared as properties an
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`__
 
-See also https://php.watch/versions/8.0/constructor-property-promotion
+See also `Class constructor property promotion <https://php.watch/versions/8.0/constructor-property-promotion>`_.
 
 Related : :ref:`Properties <property>`, :ref:`Class <class>`, :ref:`Constructor <constructor>`
 

@@ -52,6 +52,6 @@ The functions, defined by this extension, are deprecated, and shall be removed i
 
 `Documentation <https://www.php.net/manual/en/book.zip.php>`__
 
-See also https://medium.com/nerd-for-tech/how-to-upload-and-zip-single-or-multiple-files-in-php-4a6fcb8bbe02
+See also `How To Upload And Zip Single Or Multiple Files in PHP <https://medium.com/nerd-for-tech/how-to-upload-and-zip-single-or-multiple-files-in-php-4a6fcb8bbe02>`_.
 
 Related : :ref:`zlib extension <zlib>`, :ref:`bzip2 Extension <bzip2>`

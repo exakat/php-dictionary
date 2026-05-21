@@ -51,6 +51,6 @@ In a trait, ``parent`` represents the host class's parent, not the trait own par
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-See also https://madewithlove.com/blog/self-and-parent-type-hints/
+See also `PHP type hints: self and parent <https://madewithlove.com/blog/self-and-parent-type-hints/>`_.
 
 Related : :ref:`Overwrite <overwrite>`, :ref:`static <static>`, :ref:`Self <self>`, :ref:`Child Class <child-class>`, :ref:`Late Static Binding <late-static-binding>`, :ref:`Language Construct <language-construct>`, :ref:`PHP Natives <native-type>`, :ref:`Relative Types <relative-types>`, :ref:`Special Types <special-typehint>`

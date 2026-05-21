@@ -30,6 +30,6 @@ Since a lot of these operations a executed one after the other, they are called 
 
 Continuous integration is a building block for continuous delivery. This extended notion also include the automated release in production of the code.
 
-See also https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/
+See also `Continuous Integration and Continuous Delivery <https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/>`_.
 
 Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`, :ref:`Continuous Delivery (CD) <cd>`

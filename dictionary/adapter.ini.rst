@@ -28,6 +28,6 @@ Adapters are heavily used in hexagonal architecture. They area also a classic de
 
 `Documentation <https://en.wikipedia.org/wiki/Adapter_pattern>`__
 
-See also https://refactoring.guru/design-patterns/adapter/php/example
+See also `Adapter in PHP <https://refactoring.guru/design-patterns/adapter/php/example>`_.
 
 Related : :ref:`Hexagonal Architecture <hexagonal>`

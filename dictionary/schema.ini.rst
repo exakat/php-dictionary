@@ -33,6 +33,6 @@ A schema relies on simple types, such as strings, int, etc.
 
 `Documentation <https://en.wikipedia.org/wiki/Database_schema>`__
 
-See also https://github.com/api-platform/schema-generator
+See also `API Platform Schema Generator <https://github.com/api-platform/schema-generator>`_.
 
 Related : :ref:`Database <database>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Scheme <scheme>`, :ref:`Validation <validation>`

@@ -40,6 +40,6 @@ fopen()
 
 `Documentation <https://www.php.net/manual/en/function.fopen.php>`__
 
-See also https://www.phptutorial.net/php-tutorial/php-open-file/
+See also `PHP Open File <https://www.phptutorial.net/php-tutorial/php-open-file/>`_.
 
 Related : :ref:`File <file>`, :ref:`Writing <write>`, :ref:`Permission <permission>`, :ref:`Writeable <writeable>`, :ref:`Readable <readable>`, 

@@ -28,6 +28,6 @@ They are usually the basic operations needed whenever PHP communicates with a st
 
 `Documentation <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>`__
 
-See also https://dev.to/zuplo/building-a-json-crud-api-in-php-5ek9
+See also `Building a JSON CRUD API in PHP <https://dev.to/zuplo/building-a-json-crud-api-in-php-5ek9>`_.
 
 Related : :ref:`Storage Systems <storage-system>`

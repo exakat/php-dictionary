@@ -54,6 +54,6 @@ Other tools, like xDebug or php-trace, build the callgraph over the execution of
 
 `Documentation <https://en.wikipedia.org/wiki/Stack_trace>`__
 
-See also https://github.com/Chris-Kol/php-trace
+See also `Chris-Kol/php-trace <https://github.com/Chris-Kol/php-trace>`_.
 
 Related : :ref:`debug_backtrace() <debug_backtrace>`, :ref:`Audit Trail <audit-trail>`, :ref:`Xdebug <xdebug>`, :ref:`Flame Graph <flamegraph>`

@@ -48,6 +48,6 @@ The available casts are:
 
 `Documentation <https://www.php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`__
 
-See also https://dev.to/altsyset/a-detailed-look-into-php-type-casting-4m6d, https://laranepal.com/blog/mastering-data-type-conversion-in-php-through-type-casting, https://phplang.org/spec/08-conversions.html, https://www.exakat.io/mastering-the-array-cast-operator-in-php-a-comprehensive-guide/
+See also `A detailed look into PHP type casting <https://dev.to/altsyset/a-detailed-look-into-php-type-casting-4m6d>`_, `Mastering Data Type Conversion In Php Through Type Casting <https://laranepal.com/blog/mastering-data-type-conversion-in-php-through-type-casting>`_, `Conversion <https://phplang.org/spec/08-conversions.html>`_ and `Mastering the (array) cast <https://www.exakat.io/mastering-the-array-cast-operator-in-php-a-comprehensive-guide/>`_.
 
 Related : :ref:`__toString() Method <-__tostring>`, :ref:`Type Juggling <type-juggling>`, :ref:`ArrayObject <arrayobject>`, :ref:`Convert <convert>`, :ref:`Non-numeric <non-numeric>`, :ref:`Sign <sign>`, :ref:`array_keys() <array_keys>`, :ref:`Boolean <boolean>`, :ref:`Golf <golf>`, :ref:`Number <number>`

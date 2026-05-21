@@ -39,6 +39,6 @@ To make a code testable, the following features are useful:
 
 The golden rule: ``If you can't write a test for it without setting up the whole world first, the code is not testable``.
 
-See also https://dev.to/fabiothiroki/improve-your-php-code-testability-1onb, https://www.mediawiki.org/wiki/Manual:Writing_testable_PHP_code
+See also `Improve your PHP code testability <https://dev.to/fabiothiroki/improve-your-php-code-testability-1onb>`_ and `Manual:Writing testable PHP code <https://www.mediawiki.org/wiki/Manual:Writing_testable_PHP_code>`_.
 
-Related : :ref:`Exit <exit>`, :ref:`Deterministic <deterministic>`, :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Static Method <static-method>`, :ref:`Static Property <static-property>`, , :ref:`Pure Function <pure-function>`, :ref:`Direct Output <direct-output>`, :ref:`Dependency Injection <di>`, :ref:`Program To Interface <program-to-interface>`
+Related : :ref:`Exit <exit>`, :ref:`Deterministic <deterministic>`, :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Static Method <static-method>`, :ref:`Static Property <static-property>`, :ref:`Business Logic <business-logic>`, :ref:`Pure Function <pure-function>`, :ref:`Direct Output <direct-output>`, :ref:`Dependency Injection <di>`, :ref:`Program To Interface <program-to-interface>`

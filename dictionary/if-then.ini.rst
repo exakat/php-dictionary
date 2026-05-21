@@ -44,6 +44,6 @@ If-then structures may be chained with the ``elseif`` keyword. The ``else`` bran
 
 `Documentation <https://www.php.net/manual/en/control-structures.if.php>`__
 
-See also https://www.ionos.com/digitalguide/websites/web-development/php-if-else/
+See also `How to use PHP if-else for conditional logic and programming <https://www.ionos.com/digitalguide/websites/web-development/php-if-else/>`_.
 
 Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Arm <arm>`, :ref:`Branch <branch>`, :ref:`Jump <jump>`, :ref:`Conditional Structures <conditional-structure>`, :ref:`Control Flow <control-flow>`, :ref:`Simple Switch <simple-switch>`

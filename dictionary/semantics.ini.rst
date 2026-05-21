@@ -40,6 +40,6 @@ It is also possible to find inconsistencies between the name and its usage. For 
    ?>
 
 
-See also https://en.wikipedia.org/wiki/PHP_syntax_and_semantics, https://phpsemantics.org/
+See also `PHP syntax and semantics <https://en.wikipedia.org/wiki/PHP_syntax_and_semantics>`_ and ` KPHP: An Executable Formal Semantics for PHP <https://phpsemantics.org/>`_.
 
 Related : :ref:`Name <name>`

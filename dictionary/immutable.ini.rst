@@ -54,4 +54,4 @@ Immutable objects often return a clone version of themselves, after modification
 
 `Documentation <https://en.wikipedia.org/wiki/Immutable_object>`__
 
-See also https://dev.to/timoschinkel/the-case-for-immutability-1gfa, https://dev.to/hbgl/elegant-immutable-object-pattern-in-php-1dg3, https://medium.com/@mohamadshahkhajeh/immutable-objects-in-php-your-secret-weapon-for-safer-applications-04eb88c49150
+See also `The case for immutability <https://dev.to/timoschinkel/the-case-for-immutability-1gfa>`_, `Elegant immutable object pattern in PHP <https://dev.to/hbgl/elegant-immutable-object-pattern-in-php-1dg3>`_ and `Immutable Objects in PHP: Your Secret Weapon for Safer Applications <https://medium.com/@mohamadshahkhajeh/immutable-objects-in-php-your-secret-weapon-for-safer-applications-04eb88c49150>`_.

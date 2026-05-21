@@ -42,6 +42,6 @@ define()
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
 
-See also https://www.uptimia.com/questions/what-are-the-differences-between-define-and-const-in-php
+See also `Problem: Define() vs Const in PHP <https://www.uptimia.com/questions/what-are-the-differences-between-define-and-const-in-php>`_.
 
 Related : :ref:`Const <const>`, :ref:`Constants <constant>`, :ref:`Static Constant <class-constant>`, :ref:`defined() <defined>`

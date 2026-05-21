@@ -66,6 +66,6 @@ Once a generator is closed, it cannot be used for further iteration. Any attempt
    ?>
 
 
-See also https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303
+See also `Explaining the ClosedGeneratorException in PHP <https://gist.github.com/Potherca/a74a14e698158d927f9d32c4b5f4e303>`_.
 
 Related : :ref:`Generator <generator>`, :ref:`foreach() <foreach>`

@@ -46,6 +46,6 @@ This also covers ``usleep()``, which stops the execution of PHP for a given numb
 
 `Documentation <https://www.php.net/manual/en/features.commandline.php>`__
 
-See also https://reintech.io/blog/mastering-php-sleep-usleep-functions-time-delays
+See also `Mastering PHP's sleep() and usleep() Functions for Time Delays <https://reintech.io/blog/mastering-php-sleep-usleep-functions-time-delays>`_.
 
 Related : :ref:`hrtime() <hrtime>`

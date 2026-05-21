@@ -40,6 +40,6 @@ There is also a PHP wrapper for zlib, when the ``zlib`` extension is compiled: `
 
 `Documentation <https://www.php.net/manual/en/book.zlib.php>`__
 
-See also https://www.pair.com/support/kb/using-zlib-for-page-compression/, https://clue.engineering/2020/introducing-reactphp-zlib
+See also `Using zlib for Page Compression <https://www.pair.com/support/kb/using-zlib-for-page-compression/>`_ and `Introducing streaming zlib compression and decompression with ReactPHP <https://clue.engineering/2020/introducing-reactphp-zlib>`_.
 
 Related : :ref:`zip Extension <zip>`, :ref:`bzip2 Extension <bzip2>`, :ref:`File <file>`, :ref:`PHP Wrappers <php-wrapper>`

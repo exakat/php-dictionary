@@ -62,6 +62,6 @@ A list is also the name given to arrays where the index are the automatic ones.
 
 `Documentation <https://www.php.net/manual/en/function.list.php>`__
 
-See also https://markbakeruk.net/2022/06/06/list-o-mania/
+See also `List-o-mania <https://markbakeruk.net/2022/06/06/list-o-mania/>`_.
 
 Related : :ref:`Array <array>`, :ref:`Comma <comma>`, :ref:`Double Arrow <double-arrow>`, :ref:`Square Brackets <square-bracket>`, :ref:`Tree <tree>`

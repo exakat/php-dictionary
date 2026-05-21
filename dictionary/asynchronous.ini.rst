@@ -56,6 +56,6 @@ There are various libraries and frameworks available for implementing asynchrono
    ?>
 
 
-See also https://dev.to/jackmarchant/exploring-async-php-5b68, https://dariuszgafka.medium.com/async-failure-recovery-queue-vs-streaming-channel-strategies-d038165a42dd
+See also `Exploring Async PHP <https://dev.to/jackmarchant/exploring-async-php-5b68>`_ and `Asynchronous Processing: Practices, Use Cases, and Recovery Strategies <https://dariuszgafka.medium.com/async-failure-recovery-queue-vs-streaming-channel-strategies-d038165a42dd>`_.
 
 Related : :ref:`Synchronous <synchronous>`, :ref:`Concurency <concurency>`, :ref:`Multithreading <multithreading>`, :ref:`Promise <promise>`, :ref:`Real Time <real-time>`, :ref:`Thread <thread>`, :ref:`Async <async>`

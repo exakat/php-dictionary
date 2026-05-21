@@ -29,6 +29,6 @@ A module is also a standardized package, that can be replaced plugged in a syste
 
 In the PHP world, modules often refers to specific frameworks' component : for example, Drupal and Laravel use modules to extends their features.
 
-See also https://www.drupal.org/project/project_module
+See also `Download & Extend <https://www.drupal.org/project/project_module>`_.
 
-Related : :ref:`Plugin <plug-in>`, , :ref:`Extensions <extension>`
+Related : :ref:`Plugin <plug-in>`, :ref:`Drop-in <drop-in>`, :ref:`Extensions <extension>`

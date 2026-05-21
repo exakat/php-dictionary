@@ -39,6 +39,6 @@ The Browscap project originally started as a part of the PHP project, and PHP de
 
 `Documentation <https://www.php.net/manual/fr/function.get-browser.php>`__
 
-See also https://browscap.org/
+See also `Browser Capabilities Project <https://browscap.org/>`_.
 
 Related : :ref:`Browser <browser>`

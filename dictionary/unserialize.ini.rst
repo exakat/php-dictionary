@@ -50,7 +50,7 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 `Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
 
-See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `The Dangers of PHP’s unserialize and How to stay safe <https://heera.it/the-dangers-of-phps-unserialize-and-how-to-stay-safe>`_
+See also `0 <`Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_>`_ and `1 <`The Dangers of PHP’s unserialize and How to stay safe <https://heera.it/the-dangers-of-phps-unserialize-and-how-to-stay-safe>`_>`_.
 
 Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`
 

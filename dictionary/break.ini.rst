@@ -57,7 +57,7 @@ Break
 
 `Documentation <https://www.php.net/manual/en/control-structures.break.php>`__
 
-See also https://www.geeksforgeeks.org/php/difference-between-break-and-continue-in-php/, https://mmramadan.com/loop-control/breaking-multiple-loops-in-php
+See also `Difference between break and continue in PHP <https://www.geeksforgeeks.org/php/difference-between-break-and-continue-in-php/>`_ and `BREAKING MULTIPLE LOOPS IN PHP <https://mmramadan.com/loop-control/breaking-multiple-loops-in-php>`_.
 
 Related : :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Loops <loop>`, :ref:`Control Flow <control-flow>`, :ref:`InfiniteIterator <infiniteiterator>`, :ref:`Jump <jump>`, :ref:`Switch Case <switch-case>`
 

@@ -44,6 +44,6 @@ Some PHP functions are sensitive to this kind of attack: ``eval()``, ``include()
    ?>
 
 
-See also https://www.acunetix.com/websitesecurity/php-security-2/, https://beaglesecurity.com/blog/vulnerability/php-code-injection.html
+See also `PHP Security 2: Directory Traversal & Code Injection <https://www.acunetix.com/websitesecurity/php-security-2/>`_ and `PHP code injection <https://beaglesecurity.com/blog/vulnerability/php-code-injection.html>`_.
 
 Related : :ref:`Eval() <eval>`, :ref:`Inclusions <inclusion>`, :ref:`Dynamic Call <dynamic-call>`

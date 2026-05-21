@@ -26,6 +26,6 @@ An MCP server usually refers to a server that implements the Model Context Proto
 
 `Documentation <https://modelcontextprotocol.io/docs/getting-started/intro>`__
 
-See also https://thephp.foundation/blog/2025/09/05/php-mcp-sdk/, https://blog.devgenius.io/how-to-create-an-mcp-server-with-symfony-2b92f7bd7afe
+See also `Announcing the Official PHP SDK for MCP <https://thephp.foundation/blog/2025/09/05/php-mcp-sdk/>`_ and `How to create an MCP server with Symfony <https://blog.devgenius.io/how-to-create-an-mcp-server-with-symfony-2b92f7bd7afe>`_.
 
 Related packages : `php-mcp/server <https://packagist.org/packages/php-mcp/server>`_

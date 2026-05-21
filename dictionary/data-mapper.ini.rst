@@ -31,6 +31,6 @@ The data mapper is responsible for CRUD operations: Create, Read, Update and Del
 
 `Documentation <https://en.wikipedia.org/wiki/Data_mapper_pattern>`__
 
-See also https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html, https://www.doctrine-project.org/, https://github.com/cycle/orm, https://emre.xyz/how-to-write-a-data-mapper-with-php
+See also `Data Mapper <https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html>`_, `Doctrine <https://www.doctrine-project.org/>`_, `Cycle ORM <https://github.com/cycle/orm>`_ and `How to write a Data Mapper with PHP <https://emre.xyz/how-to-write-a-data-mapper-with-php>`_.
 
 Related : :ref:`Active Record <active-record>`, :ref:`Object Relational Mapping (ORM) <orm>`

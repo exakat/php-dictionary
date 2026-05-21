@@ -32,6 +32,6 @@ It takes some effort to understand the value of the rules, without running into 
 
 `Documentation <https://en.wikipedia.org/wiki/Best_practice>`__
 
-See also https://odan.github.io/2019/12/06/php-best-practice-2019.html, https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f
+See also `PHP - Best Practices 2019 <https://odan.github.io/2019/12/06/php-best-practice-2019.html>`_ and `Modern PHP Development: Best Practices for Today  <https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f>`_.
 
 Related : :ref:`Design Pattern <design-pattern>`, :ref:`Design Pattern <pattern>`

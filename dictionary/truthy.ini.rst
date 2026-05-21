@@ -43,6 +43,6 @@ There are some values which are difficult to guess, as is illustrated below.
    ?>
 
 
-See also https://dev.to/kengitahi/the-differences-in-truthiness-and-falsiness-in-javascript-vs-php-4fdb
+See also `The Differences in Truthiness and Falsiness in JavaScript vs PHP <https://dev.to/kengitahi/the-differences-in-truthiness-and-falsiness-in-javascript-vs-php-4fdb>`_.
 
 Related : :ref:`False <false>`, :ref:`Falsy <falsy>`, :ref:`True <true>`, :ref:`Boolean <boolean>`, :ref:`Comparison <comparison>`, :ref:`one <one>`, :ref:`Minus One -1 <minus-one>`, :ref:`zero <zero>`

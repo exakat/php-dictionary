@@ -48,7 +48,7 @@ A backtrace, in PHP and in other programming language, is a snapshot of the call
 
 `Documentation <https://www.php.net/manual/en/function.debug-backtrace.php>`__
 
-See also https://www.php.net/manual/en/function.debug-backtrace.php, https://www.php.net/manual/en/function.debug-print-backtrace.php
+See also `debug_backtrace <https://www.php.net/manual/en/function.debug-backtrace.php>`_ and `debug_print_backtrace <https://www.php.net/manual/en/function.debug-print-backtrace.php>`_.
 
 Related : :ref:`Debugger <debugger>`
 

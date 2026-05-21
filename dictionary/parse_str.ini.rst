@@ -51,6 +51,6 @@ All parsed values are strings or arrays. They may be numeric strings, though.
 
 `Documentation <https://www.php.net/manual/en/function.parse-str.php>`__
 
-See also https://tools.ietf.org/html/rfc3986
+See also `RFC-3986 <https://tools.ietf.org/html/rfc3986>`_.
 
 Related : :ref:`Parse <parse>`, :ref:`Query <query>`

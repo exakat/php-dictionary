@@ -42,6 +42,6 @@ An operand is an argument for an operator. It applies to any of the operand: to 
 
 `Documentation <https://en.wikipedia.org/wiki/Operand>`__
 
-See also https://www.merriam-webster.com/dictionary/operand
+See also `operand, noun <https://www.merriam-webster.com/dictionary/operand>`_.
 
 Related : :ref:`Addition <addition>`, :ref:`Unary Operator <unary>`, :ref:`Ternary Operator <ternary>`, :ref:`Bitshift Operators <bitshift>`, :ref:`Operators <operator>`

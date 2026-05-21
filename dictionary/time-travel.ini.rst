@@ -26,6 +26,6 @@ Time travel debugging is a technique in software development that allows the pro
 
 `Documentation <https://en.wikipedia.org/wiki/Time_travel_debugging>`__
 
-See also https://newsletter.systemdesignclassroom.com/p/event-sourcing-is-like-time-traveling, https://devcookies.medium.com/mastering-cqrs-event-sourcing-architecting-scalable-resilient-systems-765964e76180
+See also `Event Sourcing is like Time traveling <https://newsletter.systemdesignclassroom.com/p/event-sourcing-is-like-time-traveling>`_ and `Mastering CQRS & Event Sourcing: Architecting Scalable, Resilient Systems <https://devcookies.medium.com/mastering-cqrs-event-sourcing-architecting-scalable-resilient-systems-765964e76180>`_.
 
 Related : :ref:`Event Sourcing <event-sourcing>`

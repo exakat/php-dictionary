@@ -33,6 +33,6 @@ SNMP stands for 'Simple Network Management Protocol'. The SNMP extension provide
 
 `Documentation <https://www.php.net/manual/en/book.snmp.php>`__
 
-See also https://reintech.io/blog/a-guide-to-php-snmp-library-for-simple-network-management-protocol
+See also `A Guide to the PHP SNMP Library for Simple Network Management Protocol <https://reintech.io/blog/a-guide-to-php-snmp-library-for-simple-network-management-protocol>`_.
 
 Related : :ref:`SNMP3 <snmp3>`

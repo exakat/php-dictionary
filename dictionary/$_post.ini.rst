@@ -49,6 +49,6 @@ Values inside ``$_POST`` are always strings, or arrays.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.post.php>`__
 
-See also https://medium.com/@javasper/how-to-use-the-post-variable-in-php-d607cfc5891c
+See also `How To Use The $_POST[] Variable In PHP <https://medium.com/@javasper/how-to-use-the-post-variable-in-php-d607cfc5891c>`_.
 
 Related : :ref:`$_GET <$_get>`, :ref:`$_REQUEST <$_request>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`$_SERVER <$_server>`, :ref:`Form <form>`, :ref:`Incoming Data <incoming-data>`

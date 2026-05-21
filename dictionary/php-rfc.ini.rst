@@ -29,6 +29,6 @@ On the PHP wiki, a section is dedicated to PHP new features: they are presented,
 
 `Documentation <https://wiki.php.net/rfc>`__
 
-See also https://wiki.php.net/rfc/howto
+See also `How To Create an RFC <https://wiki.php.net/rfc/howto>`_.
 
 Related : :ref:`PHP Engine <engine>`, :ref:`PHP Foundation <php-foundation>`

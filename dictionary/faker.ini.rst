@@ -32,7 +32,7 @@ Using a faker happens in different situations:
 + Anonymizing Data: safely replacing sensitive production data with fake but realistic-looking data for use in development or debugging.
 
 
-See also https://www.sitepoint.com/simplifying-test-data-generation-with-faker/, https://medium.com/@opensource_52111/faker-16754ea6154b
+See also `Simplifying Test Data Generation with Faker <https://www.sitepoint.com/simplifying-test-data-generation-with-faker/>`_ and `A new PHP Faker: minimalist, extensible, and free of frills <https://medium.com/@opensource_52111/faker-16754ea6154b>`_.
 
 Related : :ref:`Data <data>`, :ref:`Test <test>`
 

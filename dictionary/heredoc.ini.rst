@@ -50,7 +50,7 @@ It is possible to indent the text in a nowdocs string: to avoid this indentation
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc>`__
 
-See also https://www.phptutorial.net/php-tutorial/php-heredoc/
+See also `PHP Heredoc <https://www.phptutorial.net/php-tutorial/php-heredoc/>`_.
 
 Related : :ref:`Nowdocs <nowdoc>`, :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Indentation <indentation>`, :ref:`Interpolation <interpolation>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Tabulation <tabulation>`, :ref:`Space <space>`
 

@@ -51,6 +51,6 @@ extends
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also https://blog.devgenius.io/stop-using-extends-in-php-37c9da1cce83, https://stitcher.io/blog/extends-vs-implements
+See also `Stop using “extends” in PHP <https://blog.devgenius.io/stop-using-extends-in-php-37c9da1cce83>`_ and `Extend or implement <https://stitcher.io/blog/extends-vs-implements>`_.
 
 Related : :ref:`implements <implements>`

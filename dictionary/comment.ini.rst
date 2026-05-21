@@ -57,6 +57,6 @@ As a side feature, comments may also be started with the Unicode #️⃣️ char
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.comments.php>`__
 
-See also https://flatcoding.com/tutorials/php-programming/php-comments/, https://www.phptutorial.net/php-tutorial/php-comments/
+See also `PHP Comments <https://flatcoding.com/tutorials/php-programming/php-comments/>`_ and `PHP Comment <https://www.phptutorial.net/php-tutorial/php-comments/>`_.
 
 Related : :ref:`PHPdoc <phpdoc>`, :ref:`Documentation <documentation>`, :ref:`Pound # <pound>`

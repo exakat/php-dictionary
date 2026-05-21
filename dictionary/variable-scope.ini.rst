@@ -53,6 +53,6 @@ Local variables are only available in one method or function, not counting the l
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
-See also https://www.geeksforgeeks.org/php/what-are-the-different-scopes-of-variables-in-php/
+See also `What are the different scopes of variables in PHP ? <https://www.geeksforgeeks.org/php/what-are-the-different-scopes-of-variables-in-php/>`_.
 
 Related : :ref:`Variables <variable>`, :ref:`global Scope <global>`, :ref:`Visibility <visibility>`

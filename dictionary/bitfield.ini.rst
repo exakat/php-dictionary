@@ -37,7 +37,7 @@ In PHP, bitfields are stored as integers.
 
 `Documentation <https://en.wikipedia.org/wiki/Bit_field>`__
 
-See also https://medium.com/codex/how-to-use-bitmasks-in-php-a594be597fd3
+See also `How to use bitmasks in PHP <https://medium.com/codex/how-to-use-bitmasks-in-php-a594be597fd3>`_.
 
 Related : :ref:`Bitmask <bitmask>`
 

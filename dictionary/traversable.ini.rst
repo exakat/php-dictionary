@@ -43,6 +43,6 @@ The traversable interface is used for typing purposes.
 
 `Documentation <https://www.php.net/manual/en/class.traversable.php>`__
 
-See also `Traversable interface in PHP <https://blog.eduonix.com/web-programming-tutorials/traversable-interface-in-php/>`_
+See also `0 <`Traversable interface in PHP <https://blog.eduonix.com/web-programming-tutorials/traversable-interface-in-php/>`_>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`Error <error>`

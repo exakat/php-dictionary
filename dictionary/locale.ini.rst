@@ -43,6 +43,6 @@ Locale are supported with the ext/icu extension, and also, natively with the ``s
 
 `Documentation <https://www.php.net/manual/en/class.locale.php>`__
 
-See also https://www.php.net/manual/en/class.locale.php
+See also `setlocale() <https://www.php.net/manual/en/class.locale.php>`_.
 
 Related : 

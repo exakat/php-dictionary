@@ -44,6 +44,6 @@ The constructor and destructors are not considered as magic methods, even though
 
 `Documentation <https://www.php.net/manual/en/language.constants.magic.php>`__
 
-See also https://www.edureka.co/blog/magic-methods-in-php, https://atakde.medium.com/php-magic-methods-explained-bac7053c007d, https://dev.to/ianpatricck/magic-methods-in-php-why-programmers-need-magic-too-2f02
+See also `What are magic methods in PHP? and How to Implement them? <https://www.edureka.co/blog/magic-methods-in-php>`_, `PHP Magic Methods Explained <https://atakde.medium.com/php-magic-methods-explained-bac7053c007d>`_ and `Magic Methods in PHP: Why Programmers Need Magic Too <https://dev.to/ianpatricck/magic-methods-in-php-why-programmers-need-magic-too-2f02>`_.
 
 Related : :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`__call() Method <-__call>`, :ref:`__isset() Method <-__isset>`, :ref:`__clone() Method <-__clone>`, :ref:`__sleep() Method <-__sleep>`, :ref:`__wakeup() Method <-__wakeup>`, :ref:`__toString() Method <-__tostring>`, :ref:`__invoke() Method <-__invoke>`, :ref:`__set_state() Method <-__set_state>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`String <string>`, :ref:`Deep Clone <deep-clone>`, :ref:`Isset <isset>`, :ref:`Magic Constants <magic-constant>`, :ref:`Magic <magic>`, :ref:`Object <object>`, :ref:`Property Hook <property-hook>`, :ref:`Shallow Clone <shallow-clone>`, :ref:`__callStatic() Method <-__callstatic>`, :ref:`Invoke <invoke>`, :ref:`Object Type <object-type>`, :ref:`Overloading <overloading>`

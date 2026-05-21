@@ -44,7 +44,7 @@ It is not possible to use a new operator in a property definition. All elements 
 
 `Documentation <https://wiki.php.net/rfc/new_in_initializers>`__
 
-See also https://wiki.php.net/rfc/new_in_initializers
+See also `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_.
 
 Related : :ref:`new <new>`, :ref:`Static Variables <static-variable>`, :ref:`Constants <constant>`, :ref:`Static Constant <class-constant>`, :ref:`Parameter <parameter>`
 

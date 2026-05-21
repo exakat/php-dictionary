@@ -52,6 +52,6 @@ Recursion is an abstract notion: it is also used in the PHP name itself. PHP: Hy
    ?>
 
 
-See also https://www.exakat.io/all-the-recursive-functions-in-php/
+See also `All the recursive Functions in PHP <https://www.exakat.io/all-the-recursive-functions-in-php/>`_.
 
 Related : :ref:`Functions <function>`

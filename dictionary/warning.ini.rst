@@ -38,6 +38,6 @@ Warnings are one of the error reporting levels, between error and notice.
 
 `Documentation <https://www.php.net/manual/en/errorfunc.constants.php>`__
 
-See also https://nyamsprod.com/blog/dealing-with-warnings-in-php-the-right-way/
+See also `Dealing with Warnings in PHP, the Right Way <https://nyamsprod.com/blog/dealing-with-warnings-in-php-the-right-way/>`_.
 
 Related : :ref:`Error <error>`, :ref:`Notice <notice>`, :ref:`Error Reporting <error-reporting>`

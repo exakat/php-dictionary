@@ -54,6 +54,6 @@ The ``__callStatic()`` method has a related version for non-static methods, call
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-See also https://dev.to/ngodinhcuong/understand-more-magic-methods-callstatic-2828
+See also `Understand more magic methods: __callStatic() <https://dev.to/ngodinhcuong/understand-more-magic-methods-callstatic-2828>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__call() Method <-__call>`

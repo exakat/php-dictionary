@@ -45,6 +45,6 @@ The default value of ``memory_limit`` is 128 Mb.
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.memory-limit>`__
 
-See also https://linuxblog.io/understanding-php-memory_limit/
+See also `PHP memory_limit – understanding and increasing <https://linuxblog.io/understanding-php-memory_limit/>`_.
 
 Related : :ref:`Memory <memory>`

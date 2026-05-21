@@ -48,6 +48,6 @@ Isset
 
 `Documentation <https://www.php.net/manual/en/function.isset.php>`__
 
-See also https://phppot.com/php/isset-vs-empty-vs-is_null/, https://php-tips.readthedocs.io/en/latest/tips/isset-empty-valued.html
+See also `isset vs empty vs is_null <https://phppot.com/php/isset-vs-empty-vs-is_null/>`_ and `isset(), empty() And the Magic Methods <https://php-tips.readthedocs.io/en/latest/tips/isset-empty-valued.html>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__isset() Method <-__isset>`, :ref:`array_key_exists() <array_key_exists>`

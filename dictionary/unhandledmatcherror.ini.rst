@@ -40,6 +40,6 @@ Instead of finishing the ``match`` expression without any returned value, it thr
 
 `Documentation <https://www.php.net/manual/en/class.unhandledmatcherror.php>`__
 
-See also https://php.watch/versions/8.0/match-expression
+See also `Match expression <https://php.watch/versions/8.0/match-expression>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`Error <error>`, :ref:`Match <match>`

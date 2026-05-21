@@ -26,6 +26,6 @@ CVE, or Common Vulnerabilities and Exposures, is a standardized, industry-recogn
 
 `Documentation <https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures>`__
 
-See also https://www.cvedetails.com/vendor/74/, https://www.cve.org/, https://attack.mitre.org/
+See also `PHP : Vulnerability Statistics <https://www.cvedetails.com/vendor/74/>`_, `cve.org <https://www.cve.org/>`_ and `MITRE <https://attack.mitre.org/>`_.
 
 Related : :ref:`Vulnerability <vulnerability>`

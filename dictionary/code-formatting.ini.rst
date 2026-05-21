@@ -28,6 +28,6 @@ For example, arrays must be in short array form ``[1,2,3]`` instead of long form
 
 `Documentation <https://book.the-turing-way.org/reproducible-research/code-quality/code-quality-style.html>`__
 
-See also https://quentin.delcourt.be/blog/learning-from-open-source-php-projects-part-1-code-formatting/index.html
+See also `Wordpress PHP coding standards <https://quentin.delcourt.be/blog/learning-from-open-source-php-projects-part-1-code-formatting/index.html>`_.
 
 Related : :ref:`Coding Conventions <coding-convention>`

@@ -41,6 +41,6 @@ Runtime checks refer to the process of verifying certain conditions or constrain
 
 `Documentation <https://en.wikipedia.org/wiki/Runtime_verification>`__
 
-See also https://blog.jez.io/runtime-type-checking/
+See also `Runtime type checking is great <https://blog.jez.io/runtime-type-checking/>`_.
 
 Related : :ref:`Assertions <assertion>`

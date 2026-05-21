@@ -46,7 +46,7 @@ The pipe operator is a reference to the ``|`` pipe operator from the command lin
    ?>
 
 
-See also https://php.watch/versions/8.5/pipe-operator, https://wiki.php.net/rfc/pipe-operator-v3, https://thephp.foundation/blog/2025/07/11/php-85-adds-pipe-operator/
+See also `PHP 8.5: Pipe operator (|>) <https://php.watch/versions/8.5/pipe-operator>`_, `PHP RFC: Pipe operator v3 <https://wiki.php.net/rfc/pipe-operator-v3>`_ and `PHP 8.5 Adds Pipe Operator: What it means <https://thephp.foundation/blog/2025/07/11/php-85-adds-pipe-operator/>`_.
 
 Related : :ref:`Bitwise Operators <bitwise-operator>`
 

@@ -47,6 +47,6 @@ From the manual: As short tags can be disabled it is recommended to only use the
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-See also https://wiki.php.net/rfc/deprecate_php_short_tags_v2
+See also `PHP RFC: Deprecate short open tags, again <https://wiki.php.net/rfc/deprecate_php_short_tags_v2>`_.
 
 Related : :ref:`PHP Tags <php-tag>`, :ref:`Echo Tag <echo-tag>`, :ref:`Open Tag <open-tag>`

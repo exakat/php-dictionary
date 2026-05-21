@@ -39,7 +39,7 @@ A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as 
 
 `Documentation <https://www.php.net/manual/en/class.parseerror.php>`__
 
-See also https://www.ionos.com/help/hosting/troubleshooting-for-php/what-is-a-parse-error/, https://php-errors.readthedocs.io/en/latest/syntaxerror.html
+See also `What is a Parse Error? <https://www.ionos.com/help/hosting/troubleshooting-for-php/what-is-a-parse-error/>`_ and `Syntax errors <https://php-errors.readthedocs.io/en/latest/syntaxerror.html>`_.
 
 Related : :ref:`Error <error>`, :ref:`Eval() <eval>`, :ref:`Parse <parse>`
 

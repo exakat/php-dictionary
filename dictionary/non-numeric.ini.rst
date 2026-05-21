@@ -47,6 +47,6 @@ A string may be considered as ``is_numeric()`` when it is build with digits, wha
    ?>
 
 
-See also https://lindevs.com/code-snippets/remove-all-non-numeric-characters-from-string-using-php
+See also `Remove All Non-Numeric Characters from String using PHP <https://lindevs.com/code-snippets/remove-all-non-numeric-characters-from-string-using-php>`_.
 
 Related : :ref:`@, No Scream Operator <noscream>`, :ref:`Cast Operator <cast>`, :ref:`Floating Point Numbers <float>`, 

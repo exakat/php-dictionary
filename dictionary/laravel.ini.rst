@@ -26,6 +26,6 @@ Laravel is a popular PHP framework used for building web applications. It follow
 
 `Documentation <https://laravel.com/>`__
 
-See also https://laravel.com/docs/13.x/installation, https://laracasts.com/, https://laravel-news.com/
+See also `Laravel 13 installation <https://laravel.com/docs/13.x/installation>`_, `Laracasts <https://laracasts.com/>`_ and `Laravel news <https://laravel-news.com/>`_.
 
 Related : :ref:`Framework <framework>`, :ref:`Model - View - Controller (MVC) <mvc>`

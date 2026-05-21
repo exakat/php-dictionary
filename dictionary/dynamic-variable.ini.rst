@@ -45,6 +45,6 @@ They are also called variable variable.
 
 `Documentation <https://www.php.net/manual/en/language.variables.variable.php>`__
 
-See also https://andy-carter.com/blog/the-dangers-of-php-variable-variables
+See also `The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-php-variable-variables>`_.
 
 Related : :ref:`Variables <variable>`

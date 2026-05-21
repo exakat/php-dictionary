@@ -45,6 +45,6 @@ When used, it is recommended to enclose ``eval()`` in a try-catch block, to catc
 
 `Documentation <https://www.php.net/manual/en/function.eval.php>`__
 
-See also https://www.tutorialspoint.com/eval-function-in-php, https://www.exakat.io/en/land-where-php-uses-eval/
+See also `Eval function in PHP <https://www.tutorialspoint.com/eval-function-in-php>`_ and `The Land where PHP uses eval() <https://www.exakat.io/en/land-where-php-uses-eval/>`_.
 
 Related : :ref:`ParseError <parseerror>`, :ref:`Try-catch <try>`

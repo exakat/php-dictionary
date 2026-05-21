@@ -43,7 +43,7 @@ NoDiscard
 
 `Documentation <https://www.php.net/manual/en/class.nodiscard.php>`__
 
-See also https://wiki.php.net/rfc/marking_return_value_as_important, https://haphpiness.com/#/happy/42
+See also `PHP RFC: Marking return values as important (#[\NoDiscard]) <https://wiki.php.net/rfc/marking_return_value_as_important>`_ and `#[\NoDiscard] — Warn When Return Values Are Ignored <https://haphpiness.com/#/happy/42>`_.
 
 Related : :ref:`Attribute <attribute>`, :ref:`Attribute Class <attribute-class>`, :ref:`PHP Native Attributes <php-attribute>`, :ref:`PHP Native Attribute <php-native-attribute>`, :ref:`(void) Cast <void-cast>`
 

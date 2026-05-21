@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Architecture refers to the global design of code, or it servers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 13:37:43 +0000","dateModified":"Wed, 20 May 2026 13:37:43 +0000","description":"Architecture refers to the global design of code, or it servers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Architecture
@@ -27,6 +27,6 @@ Architecture refers to the global design of code, or it servers.
 Architecture evolves into urbanisation: this happens when several applications have to be coordinated. 
 
 
-See also https://www.phparch.com/
+See also `PHP-architect <https://www.phparch.com/>`_.
 
-Related : :ref:`Code Architecture <code-architecture>`, :ref:`Server Architecture <server-architecture>`
+Related : :ref:`Code Architecture <code-architecture>`, :ref:`Server Architecture <server-architecture>`, :ref:`Business Logic <business-logic>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Scaling <scaling>`, :ref:`Shard <shard>`

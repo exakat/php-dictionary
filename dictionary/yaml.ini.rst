@@ -45,7 +45,7 @@ YAML Ain't Markup Language (YAML)
 
 `Documentation <https://yaml.org/>`__
 
-See also https://packagist.org/packages/pecl/yaml, https://www.php.net/manual/en/book.yaml.php
+See also `php-yaml <https://packagist.org/packages/pecl/yaml>`_ and `PHP YAML <https://www.php.net/manual/en/book.yaml.php>`_.
 
 Related : :ref:`Parquet <parquet>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Format <format>`
 

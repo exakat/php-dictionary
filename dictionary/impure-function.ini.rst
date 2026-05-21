@@ -51,6 +51,6 @@ This notion applies to functions, methods, native and custom functions, closures
 
 `Documentation <https://en.wikipedia.org/wiki/Pure_function>`__
 
-See also https://www.freecodecamp.org/news/pure-function-vs-impure-function/
+See also `Pure vs Impure Functions in Functional Programming – What's the Difference? <https://www.freecodecamp.org/news/pure-function-vs-impure-function/>`_.
 
 Related : :ref:`Functions <function>`, :ref:`Method <method>`, :ref:`Return <return>`, , :ref:`Side Effect <side-effect>`, :ref:`Pure Function <pure-function>`

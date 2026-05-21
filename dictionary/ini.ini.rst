@@ -50,7 +50,7 @@ It is related to the TOML format.
 
 `Documentation <https://en.wikipedia.org/wiki/INI_file>`__
 
-See also http://linuxcnc.org/docs/html/config/ini-config.html
+See also `INI configuration <http://linuxcnc.org/docs/html/config/ini-config.html>`_.
 
 Related : :ref:`Format <format>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 

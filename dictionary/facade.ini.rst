@@ -30,4 +30,4 @@ The Laravel framework is known for its intensive usage of facades.
 
 `Documentation <https://refactoring.guru/design-patterns/facade/php/example>`__
 
-See also https://laravel.com/docs/9.x/facades, https://designpatternsphp.readthedocs.io/en/latest/Structural/Facade/README.html
+See also `Facades @ Laravel <https://laravel.com/docs/9.x/facades>`_ and `Facade @ design pattern PHP <https://designpatternsphp.readthedocs.io/en/latest/Structural/Facade/README.html>`_.

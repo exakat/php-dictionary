@@ -51,7 +51,7 @@ It cannot be a totally different type, an union type, such as ``W|A``, any class
 
 `Documentation <https://www.php.net/manual/en/language.oop5.variance.php>`__
 
-See also https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html, https://dev.to/ashallendesign/covariance-and-contravariance-in-php-3cim
+See also `Type variance in PHP <https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html>`_ and `Covariance and Contravariance in PHP <https://dev.to/ashallendesign/covariance-and-contravariance-in-php-3cim>`_.
 
 Related : :ref:`Contravariance <type-contravariance>`, :ref:`Type Invariant <invariant>`, :ref:`LSP <lsp>`, :ref:`Return Type <return-type>`, :ref:`Return <return>`
 

@@ -50,7 +50,7 @@ Arrow functions may also be marked as ``static``, to prevent this import.
 
 `Documentation <https://www.php.net/manual/en/functions.arrow.php>`__
 
-See also https://drops-of-php.hi-folks.dev/functions/arrow/#_top, https://dev.to/eddiegoldman/php-arrow-functions-simple-short-and-effective-3lb5, https://oatllo.com/course/php/function/php-variable-scope-guide
+See also `Arrow functions in PHP <https://drops-of-php.hi-folks.dev/functions/arrow/#_top>`_, `PHP Arrow Functions – Simple, Short, and Effective <https://dev.to/eddiegoldman/php-arrow-functions-simple-short-and-effective-3lb5>`_ and `Variable Scope in PHP: Global, Static, and Closures <https://oatllo.com/course/php/function/php-variable-scope-guide>`_.
 
 Related : :ref:`static <static>`, :ref:`$this <$this>`, :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`
 

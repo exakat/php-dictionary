@@ -44,6 +44,6 @@ Optimisation is called micro-optimisation when the resulting code is both measur
    ?>
 
 
-See also https://sensiolabs.com/blog/2025/optimize-your-php-code-8-functions-you-need-for-efficient-table-handling
+See also `Optimize Your PHP Code: 8 Functions You Need for Efficient Table Handling <https://sensiolabs.com/blog/2025/optimize-your-php-code-8-functions-you-need-for-efficient-table-handling>`_.
 
 Related : :ref:`Performance <performance>`

@@ -26,6 +26,6 @@ Unit tests are tests that verify how a coherent piece of code work. The piece of
 
 `Documentation <https://en.wikipedia.org/wiki/Unit_testing>`__
 
-See also https://www.phpunit.de/
+See also `PHPUnit <https://www.phpunit.de/>`_.
 
 Related : :ref:`Test <test>`, :ref:`Integration Test <integration-test>`

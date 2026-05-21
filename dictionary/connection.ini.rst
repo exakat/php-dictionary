@@ -34,6 +34,6 @@ Once the connection is established, PHP sends queries to the remote server, and 
 The remote server may be on the same phyisical machine as PHP: it is considered remote as it acts autonomously.
 
 
-See also https://www.php.net/manual/en/pdo.connections.php
+See also `PDO Connections and Connection management <https://www.php.net/manual/en/pdo.connections.php>`_.
 
 Related : :ref:`Connexion Persistence <connexion-persistence>`, :ref:`File Transfer Protocol (FTP) <ftp>`, :ref:`Server <server>`

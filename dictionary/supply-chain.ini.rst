@@ -33,6 +33,6 @@ The supply chain is the set of components, libraries, tools and processes that a
 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 
-See also https://thephp.cc/presentations/the-php-stacks-supply-chain, https://dev.to/dobrenteiistvan/supply-chain-security-in-php-projects-10p4
+See also `The PHP Stack’s Supply Chain <https://thephp.cc/presentations/the-php-stacks-supply-chain>`_ and `Supply Chain Security in PHP Projects <https://dev.to/dobrenteiistvan/supply-chain-security-in-php-projects-10p4>`_.
 
 Related : :ref:`Supply Chain Attack <supply-chain-attack>`, :ref:`Composer <composer>`, :ref:`Packagist <packagist>`

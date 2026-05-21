@@ -24,6 +24,6 @@ Stateless
 
 Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices. In a stateless system, each transaction or request is treated as an independent and isolated event, and the system does not store any information about the context or history of those interactions. This design is often used in computer networking, web development, and distributed systems.
 
-See also https://fideloper.com/php-weird-stateless-and-beautiful, https://viktorprogger.name/posts/stateless-services-in-php.html
+See also `PHP is Weird, Stateless, and Beautiful <https://fideloper.com/php-weird-stateless-and-beautiful>`_ and `Stateless services in PHP <https://viktorprogger.name/posts/stateless-services-in-php.html>`_.
 
 Related : :ref:`Stateful <stateful>`, :ref:`State <state>`

@@ -37,6 +37,6 @@ Rounding has several techniques: that needs to be consistent across applications
    ?>
 
 
-See also https://nestify.io/blog/up-down-round-values-in-php-ceil-floor-functions/
+See also `Up and Down Round values in PHP: ceil, floor and round functions: The ultimate tutorial 2024 <https://nestify.io/blog/up-down-round-values-in-php-ceil-floor-functions/>`_.
 
 Related : :ref:`Math <math>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <decimal>`

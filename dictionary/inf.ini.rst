@@ -43,6 +43,6 @@ While the infinite is a float, it is possible to test a number with ``is_infinit
 
 `Documentation <https://www.php.net/manual/en/math.constants.php>`__
 
-See also https://www.php.net/manual/en/function.is-infinite.php
+See also `is_infinite() <https://www.php.net/manual/en/function.is-infinite.php>`_.
 
 Related : :ref:`Infinite <infinite>`

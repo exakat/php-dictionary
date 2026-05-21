@@ -43,6 +43,6 @@ When a file online contains PHP code, the closing tag is not necessary. Its abse
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-See also https://www.youtube.com/watch?v=mXzUwcDBtkA, https://www.sitepoint.com/closing-php-tags-debate/
+See also `You shouldn't use PHP Closing Tags <https://www.youtube.com/watch?v=mXzUwcDBtkA>`_ and `Should You Close PHP Tags? The Debate Continues… <https://www.sitepoint.com/closing-php-tags-debate/>`_.
 
 Related : :ref:`Open Tag <open-tag>`, :ref:`Short Tags <short-tag>`

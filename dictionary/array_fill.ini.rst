@@ -51,6 +51,6 @@ Literal values are copied, while objects are only copied at the reference level:
 
 `Documentation <https://www.php.net/manual/en/function.array-fill.php>`__
 
-See also https://reintech.io/blog/understanding-implementing-php-array-fill-function, https://medium.com/@ok4304571/php-array-fill-function-bde394c4b4d8
+See also `Understanding and Implementing PHP's `array_fill()` Function <https://reintech.io/blog/understanding-implementing-php-array-fill-function>`_ and `PHP array_fill( ) Function <https://medium.com/@ok4304571/php-array-fill-function-bde394c4b4d8>`_.
 
 Related : :ref:`range() <range>`, :ref:`array_pad() <array_pad>`

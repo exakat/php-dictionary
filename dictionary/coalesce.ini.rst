@@ -43,7 +43,7 @@ The coalesce operator ``??`` returns its first operand if it is set and not NULL
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`__
 
-See also https://riptutorial.com/php/example/7164/null-coalescing-operator-----, https://stackoverflow.com/questions/34571330/php-ternary-operator-vs-null-coalescing-operator
+See also `Null Coalescing Operator (??) <https://riptutorial.com/php/example/7164/null-coalescing-operator----->`_ and `PHP ternary operator vs null coalescing operator <https://stackoverflow.com/questions/34571330/php-ternary-operator-vs-null-coalescing-operator>`_.
 
 Related : :ref:`Ternary Operator <ternary>`, :ref:`Colon <colon>`, :ref:`If Then Else <if-then>`, :ref:`Short Ternary Operator <short-ternary>`, :ref:`Conditional Structures <conditional-structure>`, :ref:`Double <double>`, :ref:`Nullsafe <nullsafe>`, :ref:`Question Mark ? <question-mark>`
 

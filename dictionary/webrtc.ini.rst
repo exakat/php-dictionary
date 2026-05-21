@@ -26,6 +26,6 @@ WebRTC, short for Web Real-Time Communication, is an open-source technology that
 
 `Documentation <https://webrtc.org/>`__
 
-See also https://grpc.io/docs/languages/php/quickstart/, https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df, https://github.com/PHP-WebRTC/webrtc, https://reintech.io/blog/building-php-chat-application-webrtc-ratchet, https://www.searchenginejournal.com/wordpresss-troubled-real-time-collaboration-feature/571201/
+See also `gRPC quickstart <https://grpc.io/docs/languages/php/quickstart/>`_, `gRPC Fundamental and Concept <https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df>`_, `WebRTC In PHP <https://github.com/PHP-WebRTC/webrtc>`_, `Building a PHP Chat Application with WebRTC and the Ratchet Library <https://reintech.io/blog/building-php-chat-application-webrtc-ratchet>`_ and `WordPress’s Troubled Real-Time Collaboration Feature <https://www.searchenginejournal.com/wordpresss-troubled-real-time-collaboration-feature/571201/>`_.
 
 Related : :ref:`REST API <rest-api>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Websocket <websocket>`

@@ -42,7 +42,7 @@ Dead code is also known as unused code. It happens to any defined structure. Var
    ?>
 
 
-See also https://understandlegacycode.com/blog/delete-unused-code/, https://dev.to/adamgolan/the-art-of-code-deletion-why-removing-code-makes-you-a-better-developer-3cm, https://medium.com/@pogulailo/unused-code-detector-how-to-make-your-php-code-cleaner-50e6f5cb4109
+See also `Delete unused code (and how to retrieve it) <https://understandlegacycode.com/blog/delete-unused-code/>`_, `The Art of Code Deletion: Why Removing Code Makes You a Better Developer <https://dev.to/adamgolan/the-art-of-code-deletion-why-removing-code-makes-you-a-better-developer-3cm>`_ and `Unused code detector — How to make your PHP code cleaner <https://medium.com/@pogulailo/unused-code-detector-how-to-make-your-php-code-cleaner-50e6f5cb4109>`_.
 
 Related : :ref:`Zombie Code <zombie-code>`
 

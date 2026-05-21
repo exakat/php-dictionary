@@ -37,7 +37,7 @@ Nullable is the name of the NULL value, when used as a type. Until PHP 8.0, it w
 
 `Documentation <https://www.php.net/manual/en/language.types.null.php>`__
 
-See also https://front-line-php.com/dealing-with-null
+See also `Dealing with null <https://front-line-php.com/dealing-with-null>`_.
 
 Related : :ref:`Null <null>`, :ref:`Type System <type>`, :ref:`Contravariance <type-contravariance>`
 

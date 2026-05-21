@@ -51,7 +51,7 @@ There are related functions: ``func_get_arg()``, which returns a specific argume
 
 `Documentation <https://www.php.net/manual/en/function.func-get-args.php>`__
 
-See also https://www.geeksforgeeks.org/php/php-func_get_args-function/
+See also `https://www.geeksforgeeks.org/php/php-func_get_args-function/ <https://www.geeksforgeeks.org/php/php-func_get_args-function/>`_.
 
 Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Variadic <variadic>`, :ref:`Arbitrary Number Of Argument <arbitrary-argument>`
 

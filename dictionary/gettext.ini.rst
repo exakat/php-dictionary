@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"gettext Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``gettext`` is a library that provides features to translate messages for the users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettext Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"gettext Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 07:40:22 +0000","dateModified":"Thu, 21 May 2026 07:40:22 +0000","description":"``gettext`` is a library that provides features to translate messages for the users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettext Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 gettext Extension
@@ -30,27 +30,28 @@ It is based on the locale system, and the .mo files.
    
    <?php
    
-   // example from the PHP manual: https://www.php.net/manual/en/function.gettext.php
-   // Set language to German
-   putenv('LC_ALL=de_DE');
-   setlocale(LC_ALL, 'de_DE');
+       // example from the PHP manual: https://www.php.net/manual/en/function.gettext.php
+       // Set language to German
+       putenv('LC_ALL=de_DE');
+       setlocale(LC_ALL, 'de_DE');
+       
+       // Specify location of translation tables
+       bindtextdomain("myPHPApp", "./locale");
+       
+       // Choose domain
+       textdomain("myPHPApp");
+       
+       // Translation is looking for in ./locale/de_DE/LC_MESSAGES/myPHPApp.mo now
+       
+       // Print a test message
+       echo gettext("Welcome to My PHP Application");
+       
+       // Or use the alias _() for gettext()
+       echo "_(Have a nice day)";
    
-   // Specify location of translation tables
-   bindtextdomain("myPHPApp", "./locale");
-   
-   // Choose domain
-   textdomain("myPHPApp");
-   
-   // Translation is looking for in ./locale/de_DE/LC_MESSAGES/myPHPApp.mo now
-   
-   // Print a test message
-   echo gettext("Welcome to My PHP Application");
-   
-   // Or use the alias _() for gettext()
-   echo "_(Have a nice day)";
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/ref.gettext.php>`__
 
-See also https://www.php.net/manual/en/function.gettext.php
+See also `gettext site <https://www.gnu.org/software/gettext/>`_.

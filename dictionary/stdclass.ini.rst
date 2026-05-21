@@ -51,6 +51,6 @@ The stdClass is allowed to create dynamic properties on the fly, as its base def
 
 `Documentation <https://www.php.net/manual/en/language.types.object.php#language.types.object.casting>`__
 
-See also https://www.simonholywell.com/post/2016/11/quick-way-to-create-php-stdclass/
+See also `Quick way to create a PHP stdClass <https://www.simonholywell.com/post/2016/11/quick-way-to-create-php-stdclass/>`_.
 
 Related : :ref:`Properties <property>`, :ref:`Dynamic Properties <dynamic-property>`

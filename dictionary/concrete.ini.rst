@@ -42,6 +42,6 @@ PHP has abstract classes and methods: the contrary to ``abstract`` is concrete. 
    ?>
 
 
-See also https://medium.com/@msaimhashmi/understanding-concrete-classes-in-php-f97d73d21aa0
+See also `Understanding Concrete Classes in PHP. <https://medium.com/@msaimhashmi/understanding-concrete-classes-in-php-f97d73d21aa0>`_.
 
 Related : :ref:`Abstract Keyword <abstract>`, :ref:`Abstract Class <abstract-class>`, :ref:`Abstract Method <abstract-method>`, :ref:`Concrete Method <concrete-method>`, :ref:`Program To Interface <program-to-interface>`

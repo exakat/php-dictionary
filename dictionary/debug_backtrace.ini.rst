@@ -60,6 +60,6 @@ debug_backtrace()
 
 `Documentation <https://www.php.net/manual/en/function.debug-backtrace.php>`__
 
-See also https://www.php.net/manual/en/function.debug-print-backtrace.php
+See also `debug_print_backtrace <https://www.php.net/manual/en/function.debug-print-backtrace.php>`_.
 
 Related : :ref:`print_r() <print_r>`

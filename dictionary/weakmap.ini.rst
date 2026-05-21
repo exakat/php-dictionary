@@ -50,6 +50,6 @@ They may be considered as an associative array, where the keys must be objects. 
 
 `Documentation <https://www.php.net/manual/en/class.weakmap.php>`__
 
-See also https://withinboredom.info/posts/hacking-phps-weakmap-for-value-object-dx/, https://flareapp.io/blog/weakmaps-a-hidden-gem-in-php
+See also `Hacking PHP’s WeakMap for Value Object D× <https://withinboredom.info/posts/hacking-phps-weakmap-for-value-object-dx/>`_ and ` WeakMaps a hidden gem in PHP <https://flareapp.io/blog/weakmaps-a-hidden-gem-in-php>`_.
 
 Related : :ref:`Array <array>`, :ref:`SplStorageObjects <splstorageobjects>`, :ref:`Garbage Collection <garbage-collection>`

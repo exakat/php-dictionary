@@ -29,7 +29,7 @@ The ``env`` file holds a set of environment variables and their values. It is lo
 
 `Documentation <https://www.dotenv.org/>`__
 
-See also https://blog.devsense.com/2025/mastering-.env-files-in-php-concepts-tools-and-best-pra/, https://upsun.com/blog/what-is-env-file/, https://dotenvx.com/
+See also `Mastering .env Files in PHP: Concepts, Tools, and Best Practices <https://blog.devsense.com/2025/mastering-.env-files-in-php-concepts-tools-and-best-pra/>`_, `What is .env? <https://upsun.com/blog/what-is-env-file/>`_ and `Dotenvx <https://dotenvx.com/>`_.
 
 Related : :ref:`Environment Variables <environment-variable>`
 

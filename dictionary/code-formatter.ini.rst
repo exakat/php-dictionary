@@ -47,7 +47,7 @@ Popular coding conventions are ``PSR-12``, or per framework, such as ``Symfony C
    ?>
 
 
-See also https://github.com/rishirdua/awesome-code-formatters, https://paul-m-jones.com/post/2026/04/24/php-styler-a-back-to-formula-rewrite/
+See also `A curated list of code formatters <https://github.com/rishirdua/awesome-code-formatters>`_ and `PHP-Styler: A Back-To-Formula Rewrite <https://paul-m-jones.com/post/2026/04/24/php-styler-a-back-to-formula-rewrite/>`_.
 
 Related : :ref:`PHP Standards Recommendations (PSR) <psr>`
 

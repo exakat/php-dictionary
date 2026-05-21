@@ -27,6 +27,6 @@ Decoupling refers to the software engineering concept where different parts of a
 The opposite of decoupling is coupling.
 
 
-See also https://medium.com/@vuvanly/decoupling-business-logic-separating-entity-from-orm-model-in-php-a1d68133761c, https://dev.to/netlify/what-is-decoupling-actually-5agj
+See also `Decoupling Business Logic: Separating Entity from ORM Model in PHP <https://medium.com/@vuvanly/decoupling-business-logic-separating-entity-from-orm-model-in-php-a1d68133761c>`_ and ` What is decoupling, actually?  <https://dev.to/netlify/what-is-decoupling-actually-5agj>`_.
 
 Related : :ref:`Coupling <coupling>`, :ref:`Dependency <dependency>`

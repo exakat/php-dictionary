@@ -47,6 +47,6 @@ Things that may be double:
    ?>
 
 
-See also https://www.exakat.io/1-2-3-php-operators/
+See also `1-2-3 operators <https://www.exakat.io/1-2-3-php-operators/>`_.
 
 Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Floating Point Numbers <float>`, :ref:`Single <single>`, :ref:`Triple <triple>`, :ref:`Post-increment <post-increment>`, :ref:`Pre-increment <pre-increment>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Exponent <exponentiation>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`

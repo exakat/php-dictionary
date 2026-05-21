@@ -28,6 +28,6 @@ The PHP Foundation is nowadays taking the role to lead and organize the developm
 
 `Documentation <https://www.php.net/credits.php>`__
 
-See also https://externals.io/message/107098
+See also `Defining the PHP Group <https://externals.io/message/107098>`_.
 
 Related : :ref:`PHP Foundation <php-foundation>`

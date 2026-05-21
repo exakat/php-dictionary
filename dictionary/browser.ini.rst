@@ -27,6 +27,6 @@ A browser, short for web browser, is a software application designed to access, 
 
 `Documentation <https://en.wikipedia.org/wiki/Web_browser>`__
 
-See also https://en.wikipedia.org/wiki/List_of_web_browsers
+See also `List of web browsers <https://en.wikipedia.org/wiki/List_of_web_browsers>`_.
 
 Related : :ref:`World Wide Web (WWW) <web>`

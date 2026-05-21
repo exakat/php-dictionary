@@ -28,6 +28,6 @@ Stateful behavior is often required when the application needs to keep track of 
 
 `Documentation <https://www.php.net/manual/en/book.session.php>`__
 
-See also https://www.spiceworks.com/tech/cloud/articles/stateful-vs-stateless/
+See also `Stateful vs. Stateless: Understanding the Key Differences <https://www.spiceworks.com/tech/cloud/articles/stateful-vs-stateless/>`_.
 
 Related : :ref:`Stateless <stateless>`

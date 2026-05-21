@@ -28,6 +28,6 @@ Xdebug's most celebrated feature is its step debugger: it allows for pausing PHP
 
 `Documentation <https://xdebug.org/>`__
 
-See also https://dev.to/phpcontrols/debugging-php-with-vscode-and-xdebug-a-step-by-step-guide-4296
+See also `Debugging PHP with VSCode and XDebug: A Step-by-Step Guide <https://dev.to/phpcontrols/debugging-php-with-vscode-and-xdebug-a-step-by-step-guide-4296>`_.
 
 Related : :ref:`Framework <framework>`

@@ -41,6 +41,6 @@ MD5 was used a lot for secure hashing and control. Nowadays, it may be useful fo
 
 `Documentation <https://www.php.net/manual/fr/function.hash.php>`__
 
-See also https://www.php.net/manual/en/function.md5.php
+See also `PHP md5() function <https://www.php.net/manual/en/function.md5.php>`_.
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`Hash <hashing>`

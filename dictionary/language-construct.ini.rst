@@ -45,6 +45,6 @@ There have some special behavior: echo accepts an arbitrary number of argument, 
 
 `Documentation <https://www.php.net/manual/en/reserved.keywords.php>`__
 
-See also http://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions/
+See also `PHP Language Constructs vs Built-in Functions <http://www.phpknowhow.com/basics/language-constructs-vs-built-in-functions/>`_.
 
 Related : :ref:`Self <self>`, :ref:`static <static>`, :ref:`parent <parent>`

@@ -56,6 +56,6 @@ Scopes are generally considered as global or local.
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php>`__
 
-See also https://marcor.substack.com/p/understanding-scope-in-php
+See also `Understanding scope in PHP <https://marcor.substack.com/p/understanding-scope-in-php>`_.
 
 Related : :ref:`Local Scope <local>`, :ref:`global Scope <global>`

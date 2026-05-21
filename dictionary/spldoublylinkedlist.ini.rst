@@ -26,4 +26,4 @@ The ``SplDoublyLinkedList`` class is an implementation of the concept of doubly 
 
 `Documentation <https://www.php.net/manual/en/class.spldoublylinkedlist.php>`__
 
-See also https://en.wikipedia.org/wiki/Doubly_linked_list
+See also `Doubly Linked List <https://en.wikipedia.org/wiki/Doubly_linked_list>`_.

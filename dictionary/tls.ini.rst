@@ -49,6 +49,6 @@ TLS is a PHP context for sockets, and share the configuration options with SSL.
 
 `Documentation <https://www.php.net/manual/en/context.php>`__
 
-See also https://www.php.net/manual/en/transports.inet.php
+See also `Internet Domain: TCP, UDP, SSL, and TLS <https://www.php.net/manual/en/transports.inet.php>`_.
 
 Related : :ref:`Secure Sockets Layer (SSL) <ssl>`

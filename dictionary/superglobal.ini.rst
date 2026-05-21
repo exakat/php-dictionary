@@ -58,6 +58,6 @@ PHP superglobal variables are also called auto-global, as they are implicitly gl
 
 `Documentation <https://www.php.net/manual/en/language.variables.superglobals.php>`__
 
-See also https://www.educative.io/answers/what-are-superglobals-in-php
+See also `What are superglobals in PHP? <https://www.educative.io/answers/what-are-superglobals-in-php>`_.
 
 Related : :ref:`Variables <variable>`, :ref:`Session <session>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`

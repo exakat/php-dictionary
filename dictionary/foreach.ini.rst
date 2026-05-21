@@ -65,6 +65,6 @@ The value may be an ``list()`` construct: it sets several variables at the same 
 
 `Documentation <https://www.php.net/manual/en/control-structures.foreach.php>`__
 
-See also https://zerotomastery.io/blog/PHP-foreach-loop-explained/, https://zetcode.com/php/foreach/
+See also `Introduction To The Foreach Loop In PHP (With Code Examples) <https://zerotomastery.io/blog/PHP-foreach-loop-explained/>`_ and `PHP foreach <https://zetcode.com/php/foreach/>`_.
 
 Related : :ref:`Continue <continue>`, :ref:`For <for>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`As <as>`, :ref:`Control Flow <control-flow>`, :ref:`Control Structures <control-structure>`, :ref:`Iterator <iterator>`, :ref:`List <list>`, :ref:`Blind Variable <blind-variable>`

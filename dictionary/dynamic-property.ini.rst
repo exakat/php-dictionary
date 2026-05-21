@@ -51,6 +51,6 @@ When the class implements the magic methods ``__get()`` and ``__set()``, of if t
 
 `Documentation <https://wiki.php.net/rfc/deprecate_dynamic_properties>`__
 
-See also https://medium.com/geekculture/php-what-are-dynamic-properties-2509c6fbccf8, https://luandaphp.unaux.com/php-dynamic-properties-article.html
+See also `PHP, what are dynamic properties? <https://medium.com/geekculture/php-what-are-dynamic-properties-2509c6fbccf8>`_ and `PHP's Dynamic Properties RFC: A Case of Solving the Wrong Problem <https://luandaphp.unaux.com/php-dynamic-properties-article.html>`_.
 
 Related : :ref:`Properties <property>`, :ref:`Magic Methods <magic-method>`, :ref:`stdclass <stdclass>`

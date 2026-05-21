@@ -28,6 +28,6 @@ It is one level of abstraction above the simple factory pattern. While a simple 
 
 `Documentation <https://refactoring.guru/design-patterns/abstract-factory/php/example>`__
 
-See also https://refactoring.guru/design-patterns/abstract-factory, https://dev.to/zhukmax/design-patterns-in-php-8-abstract-factory-32d1
+See also `Abstract Factory <https://refactoring.guru/design-patterns/abstract-factory>`_ and `Abstract Factory in PHP 8 <https://dev.to/zhukmax/design-patterns-in-php-8-abstract-factory-32d1>`_.
 
 Related : :ref:`Factory <factory>`

@@ -43,6 +43,6 @@ Infinite loops are usually not wanted, and should be avoided. They are prevented
 
 `Documentation <https://fr.wikipedia.org/wiki/Infinite_Loop>`__
 
-See also https://www.exakat.io/infinite-loops-in-php/
+See also `Infinite loops in PHP <https://www.exakat.io/infinite-loops-in-php/>`_.
 
 Related : :ref:`INF <inf>`, :ref:`Infinite <infinite>`, :ref:`InfiniteIterator <infiniteiterator>`, :ref:`max_execution_time <max_execution_time>`

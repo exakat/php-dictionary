@@ -59,6 +59,6 @@ Lazy objects are good for objects that takes a lot of resources to initialize, o
 
 `Documentation <https://wiki.php.net/rfc/lazy-objects>`__
 
-See also https://chrastecky.dev/programming/lazy-objects-in-php-8-4, https://www.phparch.com/2025/01/using-php-8-4s-lazy-objects/, https://jolicode.com/blog/php-object-lazy-loading-is-more-than-what-you-think
+See also `Lazy objects in PHP 8.4 <https://chrastecky.dev/programming/lazy-objects-in-php-8-4>`_, `Using PHP 8.4’s Lazy Objects <https://www.phparch.com/2025/01/using-php-8-4s-lazy-objects/>`_ and `PHP Object Lazy-Loading is More Than What You Think <https://jolicode.com/blog/php-object-lazy-loading-is-more-than-what-you-think>`_.
 
 Related : :ref:`Lazy Loading <lazy-loading>`, :ref:`Class <class>`

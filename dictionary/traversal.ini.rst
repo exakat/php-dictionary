@@ -56,6 +56,6 @@ Traversal of a tree or graph datastructure turns the graph into a array-like lis
 
 `Documentation <https://en.wikipedia.org/wiki/Graph_traversal>`__
 
-See also https://www.sitepoint.com/php-arrays-tutorial/
+See also `Using PHP Arrays: A Guide for Beginners <https://www.sitepoint.com/php-arrays-tutorial/>`_.
 
 Related : :ref:`Iterator <iterator>`, :ref:`foreach() <foreach>`, :ref:`Loops <loop>`

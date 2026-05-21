@@ -38,6 +38,6 @@ A regular expression, or regex, is a sequence of characters that specifies a sea
 
 `Documentation <https://www.php.net/preg_match>`__
 
-See also https://medium.com/@olivia.j.01101001/how-to-use-php-regular-expressions-for-pattern-matching-and-data-validation-d58dacb06ea1, https://www.jotform.com/blog/php-regular-expressions/
+See also `How to Use PHP Regular Expressions for Pattern Matching and Data Validation <https://medium.com/@olivia.j.01101001/how-to-use-php-regular-expressions-for-pattern-matching-and-data-validation-d58dacb06ea1>`_ and `Getting Started with PHP Regular Expressions <https://www.jotform.com/blog/php-regular-expressions/>`_.
 
 Related : :ref:`Question Mark ? <question-mark>`, :ref:`Regexploit <regexploit>`, :ref:`Star * <star>`, :ref:`Wildcard <wildcard>`

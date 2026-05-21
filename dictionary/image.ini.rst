@@ -28,6 +28,6 @@ Images may be different things:
 + an image is also a Docker image: a pre-packaged snapshot of an application and everything it needs to run.
 
 
-See also https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php
+See also `How to Store Images in SQLite with PHP <https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php>`_.
 
 Related : , , , , , , :ref:`Docker Container <docker-container>`

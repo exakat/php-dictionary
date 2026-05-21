@@ -41,6 +41,6 @@ False
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-See also https://flatcoding.com/tutorials/php/php-boolean-true-and-false/
+See also `PHP Boolean: Assigning True or False to a Variable <https://flatcoding.com/tutorials/php/php-boolean-true-and-false/>`_.
 
 Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`True <true>`, :ref:`Falsy <falsy>`, :ref:`Truthy <truthy>`, :ref:`Underscore <underscore>`, :ref:`zero <zero>`, :ref:`Logical Operators <logical-operator>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`PHP Natives <native-type>`, :ref:`one <one>`, :ref:`Short Ternary Operator <short-ternary>`

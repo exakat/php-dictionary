@@ -31,6 +31,6 @@ Accessibility is also called ``a11y``, aka a, 11 letters and y. This is shorter 
 
 `Documentation <https://en.wikipedia.org/wiki/Accessibility>`__
 
-See also https://dev.to/alexandersandberg/why-we-should-default-to-tabs-instead-of-spaces-for-an-accessible-first-environment-101f, https://adamtuttle.codes/blog/2021/tabs-vs-spaces-its-an-accessibility-issue/
+See also `Why we should default to Tabs instead of Spaces for an 'accessible first' environment <https://dev.to/alexandersandberg/why-we-should-default-to-tabs-instead-of-spaces-for-an-accessible-first-environment-101f>`_ and `Tabs vs. Spaces: It's an Accessibility Issue <https://adamtuttle.codes/blog/2021/tabs-vs-spaces-its-an-accessibility-issue/>`_.
 
 Related : :ref:`Internationalization Functions <intl>`

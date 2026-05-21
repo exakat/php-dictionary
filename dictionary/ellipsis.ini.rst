@@ -40,7 +40,7 @@ Ellipsis is the classic punctuation description of the operator, and it applies 
 
 `Documentation <https://en.wikipedia.org/wiki/Ellipsis>`__
 
-See also https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/, https://www.hashbangcode.com/article/splat-operator-php
+See also `The many uses of ... ellipsis operator in PHP <https://www.amitmerchant.com/the-many-uses-of-ellipsis-operator-in-php/>`_ and `The Splat Operator In PHP <https://www.hashbangcode.com/article/splat-operator-php>`_.
 
 Related : :ref:`Array Spread <array-spread>`, :ref:`Variadic <variadic>`
 

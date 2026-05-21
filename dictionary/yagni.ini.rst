@@ -26,6 +26,6 @@ YAGNI advises developers to avoid adding functionality or code until it is expli
 
 `Documentation <https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it>`__
 
-See also https://dev.to/peixotons/simplify-your-php-code-with-kiss-yagni-and-dry-p5g
+See also `Simplify Your PHP Code with KISS, YAGNI, and DRY <https://dev.to/peixotons/simplify-your-php-code-with-kiss-yagni-and-dry-p5g>`_.
 
 Related : :ref:`Agile <agile>`, :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`KISS <kiss>`

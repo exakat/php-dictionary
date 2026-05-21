@@ -31,6 +31,6 @@ SQL views are usually non-writable, no UPDATE, no INSERT, as they do not mirror 
 
 `Documentation <https://en.wikipedia.org/wiki/View_(SQL)>`__
 
-See also https://www.geeksforgeeks.org/sql/sql-views/
+See also `SQL views <https://www.geeksforgeeks.org/sql/sql-views/>`_.
 
 Related : :ref:`View <view>`

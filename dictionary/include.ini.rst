@@ -55,6 +55,6 @@ Inclusion is often hidden in ``autoload()`` functions: the code is included clas
 
 `Documentation <https://www.php.net/manual/en/function.include.php>`__
 
-See also https://www.scoutapm.com/blog/how-to-use-php-include-and-require-statements/
+See also `How to Use PHP Include and Require Statements <https://www.scoutapm.com/blog/how-to-use-php-include-and-require-statements/>`_.
 
 Related : :ref:`include <require>`

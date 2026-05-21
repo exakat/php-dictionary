@@ -38,6 +38,6 @@ These functions allow to get the date and time from the server where the applica
 
 `Documentation <https://www.php.net/datetime>`__
 
-See also https://dev.to/xwero/dates-and-periods-in-php-46o1, https://css-tricks.com/php-date-and-time-recipes/
+See also `Dates and periods in PHP <https://dev.to/xwero/dates-and-periods-in-php-46o1>`_ and `PHP Date and Time Recipes <https://css-tricks.com/php-date-and-time-recipes/>`_.
 
 Related : :ref:`Datetime Trap <datetime-trap>`, :ref:`DateTime <datetime>`

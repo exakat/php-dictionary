@@ -33,6 +33,6 @@ PHP used ``Latin1`` as the default character set for publishing text on the web.
 
 `Documentation <https://en.wikipedia.org/wiki/ISO/IEC_8859-1>`__
 
-See also https://cs.stanford.edu/people/miles/iso8859.html
+See also ` ASCII / ISO 8859-1 (Latin-1) Table with HTML Entity Names <https://cs.stanford.edu/people/miles/iso8859.html>`_.
 
 Related : :ref:`Unicode <unicode>`, :ref:`UTF-8 <utf-8>`

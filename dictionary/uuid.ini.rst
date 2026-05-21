@@ -37,6 +37,6 @@ UUID are a standard. The standard has versions from 1 to 5, each with improvemen
 
 `Documentation <https://en.wikipedia.org/wiki/Universally_unique_identifier>`__
 
-See also https://benramsey.com/blog/2016/04/ramsey-uuid/
+See also `Introducing ramsey/uuid  <https://benramsey.com/blog/2016/04/ramsey-uuid/>`_.
 
 Related : :ref:`Identifier <identifier>`

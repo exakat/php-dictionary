@@ -27,6 +27,6 @@ Extensions are a custom way to add features to software. Extension is a very gen
 + PHP extensions
 + Extensions, as a concept.
 
-See also https://www.php-cpp.com/, https://www.zend.com/resources/writing-php-extensions, https://zephir-lang.com/en
+See also `PHP-cpp : A C++ library for developing PHP extensions. <https://www.php-cpp.com/>`_, `Writing PHP Extensions <https://www.zend.com/resources/writing-php-extensions>`_ and `Zephir PHP <https://zephir-lang.com/en>`_.
 
 Related : :ref:`Directives <directive>`, :ref:`Library Loading <library-loading>`, :ref:`Module <module>`, :ref:`PHP Extension C Library (PECL) <pecl>`, :ref:`PHP Installer For Extensions (PIE) <pie>`

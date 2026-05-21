@@ -36,6 +36,6 @@ A maintainable codebase is:
 
 `Documentation <https://en.wikipedia.org/wiki/Software_maintenance#Maintainability>`__
 
-See also https://reintech.io/blog/php-best-practices-maintainable-secure-scalable-code
+See also `PHP and Best Practices: Writing Maintainable, Secure, and Scalable PHP Code <https://reintech.io/blog/php-best-practices-maintainable-secure-scalable-code>`_.
 
 Related : :ref:`Readable <readable>`, :ref:`Testable <testable>`, :ref:`Documentation <documentation>`

@@ -35,6 +35,6 @@ By extension, anything that currently slows down development is considered a deb
 
 `Documentation <https://en.wikipedia.org/wiki/Technical_debt>`__
 
-See also https://www.zend.com/blog/php-maintenance-trends, https://medium.com/@kimashleyrocks/taming-technical-debt-a-practical-guide-to-managing-deprecations-in-php-and-laravel-1b0aa991574b, https://phpunit.expert/articles/technical-debt-is-not-malice.html
+See also `PHP Maintenance and Tech Debt: 2025 Trends <https://www.zend.com/blog/php-maintenance-trends>`_, `Taming Technical Debt: A Practical Guide to Managing Deprecations in PHP and Laravel <https://medium.com/@kimashleyrocks/taming-technical-debt-a-practical-guide-to-managing-deprecations-in-php-and-laravel-1b0aa991574b>`_ and `Technical debt is not malice <https://phpunit.expert/articles/technical-debt-is-not-malice.html>`_.
 
 Related : :ref:`You Are Not Going To Need It (YAGNI) <yagni>`, :ref:`Visual Debt <visual-debt>`, :ref:`Maintenance <maintenance>`, :ref:`Readable <readable>`, :ref:`Documentation <documentation>`

@@ -47,6 +47,6 @@ Polymorphism is achieved through method overriding and interfaces. It is possibl
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also https://www.scaler.com/topics/php-tutorial/polymorphism-in-php/, https://mohasin-dev.medium.com/polymorphism-in-php-with-example-83de1792c89d
+See also `PHP Polymorphism Explained ( By Examples ) <https://www.scaler.com/topics/php-tutorial/polymorphism-in-php/>`_ and `Polymorphism in PHP With Example <https://mohasin-dev.medium.com/polymorphism-in-php-with-example-83de1792c89d>`_.
 
 Related : :ref:`Interface <interface>`, :ref:`Class <class>`, :ref:`Inheritance <inheritance>`, :ref:`Trait <trait>`

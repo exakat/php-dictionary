@@ -42,7 +42,7 @@ Value objects are typically used to model concepts that don't have a distinct id
 
 `Documentation <https://en.wikipedia.org/wiki/Value_object>`__
 
-See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_, `Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_, `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_, `Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_, `Value Objects in PHP 8: Building a better code <https://dev.to/cnastasi/value-objects-in-php-8-building-a-better-code-38k8>`_, `Advanced Value Objects in PHP 8 <https://dev.to/cnastasi/advanced-value-objects-in-php-8-1lp0>`_
+See also `0 <`Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_>`_, `1 <`Value objects in PHP <https://lessthan12ms.com/value-objects-in-php.html>`_>`_, `2 <`Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_>`_, `3 <`Bring Value to your code <https://notes.belgeek.dev/2023/11/05/bring-value-to-your-code/>`_>`_, `4 <`Value Objects in PHP 8: Building a better code <https://dev.to/cnastasi/value-objects-in-php-8-building-a-better-code-38k8>`_>`_ and `5 <`Advanced Value Objects in PHP 8 <https://dev.to/cnastasi/advanced-value-objects-in-php-8-1lp0>`_>`_.
 
 Related : :ref:`Data Transfer Object (DTO) <dto>`, :ref:`Entities <entity>`, :ref:`Service <service>`
 

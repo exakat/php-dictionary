@@ -26,6 +26,6 @@ Big O notation is a way to describe how fast an algorithm's runtime or memory us
 
 It describes the shape of the curve on a graph, not the exact speed.
 
-See also https://codemia.io/knowledge-hub/path/list_of_big-o_for_php_functions, https://medium.com/@monstm/simple-big-o-notations-using-php-cli-b895b381e873
+See also `List of Big-O for PHP functions <https://codemia.io/knowledge-hub/path/list_of_big-o_for_php_functions>`_ and `Simple Big-O Notations using PHP CLI <https://medium.com/@monstm/simple-big-o-notations-using-php-cli-b895b381e873>`_.
 
 Related : :ref:`Algorithm <algorithm>`

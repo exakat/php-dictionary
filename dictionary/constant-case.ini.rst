@@ -50,6 +50,6 @@ Constant case is used for constants, both global and class. It is not used for m
 
 `Documentation <https://stringcase.org/cases/snake/>`__
 
-See also https://stringcase.org/
+See also `stringcase website <https://stringcase.org/>`_.
 
 Related : :ref:`Pascal Case <pascal-case>`, :ref:`Camel Case <camel-case>`, :ref:`Snake Case <snake-case>`, :ref:`Magic Constants <magic-constant>`, :ref:`Static Constant <class-constant>`, :ref:`Constants <constant>`, :ref:`Underscore <underscore>`

@@ -67,6 +67,6 @@ Object persistence may save the values of the object's property, such as scalars
 
 `Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
 
-See also https://dev.to/melia72/persist-php-objects-without-a-database-5fip
+See also `Persist Large Object Graphs in PHP  <https://dev.to/melia72/persist-php-objects-without-a-database-5fip>`_.
 
 Related : :ref:`Session <session>`

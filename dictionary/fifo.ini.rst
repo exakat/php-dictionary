@@ -29,6 +29,6 @@ The other management is LIFO: last in, first out.
 
 `Documentation <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>`__
 
-See also https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf
+See also `Introduction to Stacks & Queues in PHP <https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf>`_.
 
 Related : :ref:`Last In, First Out (LIFO) <lifo>`

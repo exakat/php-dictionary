@@ -58,7 +58,7 @@ In PHP, there are different ways to implement serialization. The native way is t
 
 `Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
 
-See also https://peakd.com/hive-168588/@crell/benchmarking-serialization, https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php, https://blog.lepine.pro/en/protobuf-php-go/, https://ashallendesign.co.uk/blog/php-serialization
+See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `Understanding Serialisation in PHP <https://ryangjchandler.co.uk/posts/understanding-serialisation-in-php>`_, `ProtoBuf in PHP for ultra-efficient and agnostic serialization <https://blog.lepine.pro/en/protobuf-php-go/>`_ and `A Guide to Serialization in PHP <https://ashallendesign.co.uk/blog/php-serialization>`_.
 
 Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Message Queue <message-queue>`, :ref:`Cache <cache>`, :ref:`Object Injection <object-injection>`, :ref:`Object Injection <deserialize-injection>`, :ref:`Deep Clone <deep-clone>`, :ref:`Serde <serde>`, :ref:`Serializable <serializable>`, :ref:`var_export() <var_export>`
 

@@ -56,6 +56,6 @@ PHP also has a single colon operator ``:``, used for goto labels, ternary operat
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-See also https://www.geeksforgeeks.org/php/scope-resolution-operator-in-php/, https://parsifar.com/scope-resolution-operator-in-php/
+See also `Scope Resolution operator in PHP <https://www.geeksforgeeks.org/php/scope-resolution-operator-in-php/>`_ and `Scope Resolution operator (in PHP) <https://parsifar.com/scope-resolution-operator-in-php/>`_.
 
 Related : :ref:`Object Operator -> <object-operator>`, :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`, :ref:`Static Method <static-method>`, :ref:`Static Constant <static-constant>`, :ref:`Static Class <static-class>`, :ref:`Static Property <static-property>`, :ref:`Colon <colon>`

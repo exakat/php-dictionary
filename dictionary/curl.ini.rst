@@ -52,7 +52,7 @@ cURL is used to access remote resources, using various protocols such as DICT, F
 
 `Documentation <https://www.php.net/manual/en/book.curl.php>`__
 
-See also https://curl.se/, https://dev.to/serpapi/how-to-use-curl-in-php-2aga, https://dev.to/danrot90/batch-curl-requests-in-php-using-multi-handles-3jg6
+See also `curl.se <https://curl.se/>`_, `How to use cURL in PHP <https://dev.to/serpapi/how-to-use-curl-in-php-2aga>`_ and `Batch curl requests in PHP using multi handles <https://dev.to/danrot90/batch-curl-requests-in-php-using-multi-handles-3jg6>`_.
 
 Related : :ref:`Webscraping <webscraping>`
 

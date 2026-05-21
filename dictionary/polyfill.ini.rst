@@ -49,7 +49,7 @@ Polyfills exist for PHP, but also for any framework.
 
 `Documentation <https://symfony.com/components/Polyfill%20PHP%208.0>`__
 
-See also https://github.com/symfony/polyfill, https://github.com/Yoast/PHPUnit-Polyfills.git, https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e
+See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_ and `PHP and the use of Polyfills <https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e>`_.
 
 Related : :ref:`Backward Compatible <backward-compatible>`
 

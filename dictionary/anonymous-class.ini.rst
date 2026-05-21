@@ -43,6 +43,6 @@ Also, arguments may be passed at instantiation time, unlike with named-class def
 
 `Documentation <https://www.php.net/manual/en/language.oop5.anonymous.php>`__
 
-See also https://www.phptutorial.net/php-oop/php-anonymous-class/, https://blog.programster.org/php7-0-anonymous-classes
+See also `PHP Anonymous Class <https://www.phptutorial.net/php-oop/php-anonymous-class/>`_ and `PHP 7.0 - Anonymous Classes <https://blog.programster.org/php7-0-anonymous-classes>`_.
 
 Related : :ref:`Closure <closure>`

@@ -42,6 +42,6 @@ Checksums are extensively used to check file downloads and network transmissions
 
 `Documentation <https://en.wikipedia.org/wiki/Checksum>`__
 
-See also https://johnothecoder.uk/2018/12/29/checksum-tutorial/
+See also `An introduction to Checksums <https://johnothecoder.uk/2018/12/29/checksum-tutorial/>`_.
 
 Related : :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, , :ref:`VCS <vcs>`, 

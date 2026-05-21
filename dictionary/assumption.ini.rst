@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Assumption","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"An assumption is a piece of code that makes use of knowledge that is not visible in the source","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assumption.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Assumption","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 14:27:00 +0000","dateModified":"Wed, 20 May 2026 14:27:00 +0000","description":"An assumption is a piece of code that makes use of knowledge that is not visible in the source","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assumption.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Assumption
@@ -38,21 +38,21 @@ Assumptions may be upgraded to assertions, by adding an explicit check on the si
    
    <?php
    
-   function foo($o) {
-       if ($o instanceof A) {
-           print $o->getName();
-       } else {
-           // if $o is not an object of type A, then it is an array. Where does this come from? 
-           print $o['name'];
-   
-           // if $o is an array, is 'name' always available?
-           
+       function foo($o) {
+           if ($o instanceof A) {
+               print $o->getName();
+           } else {
+               // if $o is not an object of type A, then it is an array. Where does this come from? 
+               print $o['name'];
+       
+               // if $o is an array, is 'name' always available?
+               
+           }
        }
-   }
    
    ?>
 
 
-See also https://rskuipers.com/entry/from-assumptions-to-assertions
+See also `From assumptions to assertions <https://rskuipers.com/entry/from-assumptions-to-assertions>`_.
 
 Related : :ref:`Assertions <assertion>`

@@ -45,7 +45,7 @@ There are two PHP operators that are nullsafe:
    ?>
 
 
-See also https://medium.com/@prevailexcellent/mastering-null-safety-in-php-8-a-comprehensive-guide-to-using-the-null-safe-operator-47835ba1140b, https://php.watch/versions/8.0/null-safe-operator
+See also `Mastering Null Safety in PHP 8: A Comprehensive Guide to Using the Null Safe Operator <https://medium.com/@prevailexcellent/mastering-null-safety-in-php-8-a-comprehensive-guide-to-using-the-null-safe-operator-47835ba1140b>`_ and `PHP 8.0: Null-safe operator <https://php.watch/versions/8.0/null-safe-operator>`_.
 
 Related : :ref:`Object Operator -> <object-operator>`, :ref:`Coalesce Operator <coalesce>`
 

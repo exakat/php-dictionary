@@ -50,6 +50,6 @@ The ``__sleep()`` method is usually paired with the ``__wakeup()`` method.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#object.sleep>`__
 
-See also `PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_, `__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_
+See also `0 <`PHP __sleep And __wakeup Magic Methods: How And When To Use Them? <https://medium.com/@lukaspereyra8/php-sleep-and-wakeup-magic-methods-how-and-when-to-use-them-938591584bdc>`_>`_ and `1 <`__sleep() and __wakeup() <https://riptutorial.com/php/example/4604/--sleep---and---wakeup-->`_>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__wakeup() Method <-__wakeup>`

@@ -55,6 +55,6 @@ array_keys()
 
 `Documentation <https://www.php.net/manual/en/function.array-keys.php>`__
 
-See also https://flatcoding.com/tutorials/php/php-array_keys-how-to-extract-keys-in-arrays-with-examples/
+See also `PHP array_keys: How to Extract Keys in Arrays with Examples <https://flatcoding.com/tutorials/php/php-array_keys-how-to-extract-keys-in-arrays-with-examples/>`_.
 
 Related : :ref:`Multidimensional Array <multidimensional-array>`, :ref:`Cast Operator <cast>`, :ref:`Comparison <comparison>`, :ref:`Index For Arrays <index-array>`, :ref:`array_values() <array_values>`, :ref:`array_combine() <array_combine>`

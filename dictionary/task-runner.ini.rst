@@ -26,7 +26,7 @@ A task runner refers to a tool or framework that automates repetitive tasks, suc
 
 Task runners provide a way to define and execute tasks or scripts in a predefined sequence, often using configuration files or scripts. These tasks can include various activities, such as compiling code, running tests, optimizing assets, generating documentation, and deploying the application to a server.
 
-See also https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners, https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/, https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner/
+See also `Castor, a journey across the sea of task runners <https://jolicode.com/blog/castor-a-journey-across-the-sea-of-task-runners>`_, `Being Productive With Task Runners <https://www.smashingmagazine.com/2016/06/harness-machines-productive-task-runners/>`_ and `Scotty: a beautiful SSH task runner <https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner/>`_.
 
 Related : :ref:`Pipeline <pipeline>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Continuous Delivery (CD) <cd>`, :ref:`Ssh <ssh>`
 

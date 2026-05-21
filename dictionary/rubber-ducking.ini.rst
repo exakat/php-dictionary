@@ -28,6 +28,6 @@ The 'rubber duck' reference is mentioned in the 'Pragmatic programmer' book.
 
 `Documentation <https://en.wikipedia.org/wiki/Rubber_duck_debugging>`__
 
-See also https://en.wikipedia.org/wiki/The_Pragmatic_Programmer, https://webdevstudios.com/2017/08/01/rubber-ducking/
+See also `The Pragmatic Programmer <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>`_ and `Rubber Ducking <https://webdevstudios.com/2017/08/01/rubber-ducking/>`_.
 
 Related : :ref:`Duck Typing <ducktyping>`

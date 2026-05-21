@@ -44,6 +44,6 @@ It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal vari
 
 `Documentation <https://www.php.net/manual/en/book.session.php>`__
 
-See also https://www.simplilearn.com/tutorials/php-tutorial/session-in-php, https://dev.to/ahmedraza_fyntune/php-session-security-4c60, https://phpforever.com/php/fixing-php-session-issues-troubleshooting-and-solutions/
+See also `Session in PHP: Creating, Destroying, and Working With Session in PHP <https://www.simplilearn.com/tutorials/php-tutorial/session-in-php>`_, `Sessions security <https://dev.to/ahmedraza_fyntune/php-session-security-4c60>`_ and `Fixing PHP Session Issues: Troubleshooting and Solutions <https://phpforever.com/php/fixing-php-session-issues-troubleshooting-and-solutions/>`_.
 
 Related : :ref:`Superglobal Variables <superglobal>`, :ref:`Object Persistence <object-persistence>`, :ref:`Persistence <persistence>`, :ref:`Session Fixation <session-fixation>`, :ref:`Session Hijacking <session-highjacking>`

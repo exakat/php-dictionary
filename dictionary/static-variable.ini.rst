@@ -52,6 +52,6 @@ Static variables may use any PHP expressions to define their default value. That
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
-See also https://brainbell.com/php/static.html, https://www.exakat.io/en/5-usages-of-static-keyword-in-php/, https://www.scaler.com/topics/static-variable-in-php/, https://medium.com/@arthurmonney/static-variable-in-php-a-silent-trap-with-laravel-octane-3a51013a0aa9
+See also `Static Variables and Methods <https://brainbell.com/php/static.html>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_, `PHP Static Variables <https://www.scaler.com/topics/static-variable-in-php/>`_ and `static $variable in PHP: a silent trap with Laravel Octane <https://medium.com/@arthurmonney/static-variable-in-php-a-silent-trap-with-laravel-octane-3a51013a0aa9>`_.
 
 Related : :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`, :ref:`global Scope <global>`, :ref:`$GLOBALS <globals>`, :ref:`Local Variable <local-variable>`, :ref:`Superglobal Variables <superglobal>`, :ref:`Static Property <static-property>`

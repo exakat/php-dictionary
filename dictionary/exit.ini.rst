@@ -51,7 +51,7 @@ They do not have access to the output stream ``php://output`` anymore, so ``echo
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-See also https://www.geeksforgeeks.org/php-exit-function/, https://medium.com/@dominic_55284/php-die-sleep-functions-7e766f9900e4
+See also `PHP | exit( ) Function <https://www.geeksforgeeks.org/php-exit-function/>`_ and `PHP | die() & sleep() functions <https://medium.com/@dominic_55284/php-die-sleep-functions-7e766f9900e4>`_.
 
 Related : :ref:`Language Construct <language-construct>`, :ref:`Shutdown Function <shutdown-function>`, :ref:`Destructor <destructor>`, :ref:`Finally <finally>`, :ref:`Propagation <propagation>`, :ref:`Return Value <return-value>`, :ref:`set_error_handler() <set_error_handler>`, :ref:`Testable <testable>`
 

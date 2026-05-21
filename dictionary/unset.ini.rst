@@ -41,6 +41,6 @@ It is not possible to remove a static property, but it is possible to remove a p
 
 `Documentation <https://www.php.net/manual/en/function.unset.php>`__
 
-See also https://zetcode.com/php/unset-keyword/, https://thelinuxcode.com/php-unset-function/
+See also `PHP unset Keyword <https://zetcode.com/php/unset-keyword/>`_ and `Demystifying PHP‘s Unset() Function <https://thelinuxcode.com/php-unset-function/>`_.
 
 Related : :ref:`Variables <variable>`, :ref:`Index For Arrays <index-array>`

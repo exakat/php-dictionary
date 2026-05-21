@@ -37,7 +37,7 @@ TCP is commonly used for applications that require high reliability and accurate
 
 `Documentation <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>`__
 
-See also `Example #1 Socket example: Simple TCP/IP server <https://www.php.net/manual/en/sockets.examples.php>`_
+See also `0 <`Example #1 Socket example: Simple TCP/IP server <https://www.php.net/manual/en/sockets.examples.php>`_>`_.
 
 Related : :ref:`Socket <socket>`
 

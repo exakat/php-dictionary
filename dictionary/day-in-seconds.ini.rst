@@ -43,6 +43,6 @@ When dealing with days, it is recommended to use an interval, or use relative ex
 
 `Documentation <https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622>`__
 
-See also https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622, https://bugs.php.net/bug.php?id=741
+See also `A Day is Not 86400 Seconds! <https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622>`_ and `Adding 86400 seconds to Oct. 25 1998 gives wrong answer <https://bugs.php.net/bug.php?id=741>`_.
 
 Related : :ref:`Days In Month <days-in-month>`, :ref:`DateTime <datetime>`

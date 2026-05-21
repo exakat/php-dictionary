@@ -38,7 +38,7 @@ A bitmask is a single integer, or sequence of bits, used to set, clear, or check
 
 `Documentation <https://en.wikipedia.org/wiki/Mask_(computing)>`__
 
-See also https://medium.com/codex/how-to-use-bitmasks-in-php-a594be597fd3
+See also `How to use bitmasks in PHP <https://medium.com/codex/how-to-use-bitmasks-in-php-a594be597fd3>`_.
 
 Related : :ref:`Bitfield <bitfield>`
 

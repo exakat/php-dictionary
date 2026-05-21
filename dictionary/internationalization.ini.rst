@@ -47,7 +47,7 @@ Internationalization is also called ``i18n``, aka i, 18 letters and n. This is s
 
 `Documentation <https://www.php.net/manual/en/book.intl.php>`__
 
-See also https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial, https://lokalise.com/blog/implementing-php-localization-complete-guide/
+See also `PHP internationalization - i18n mechanisms tutorial <https://lingohub.com/blog/2013/06/php-internationalization-i18n-mechanisms-tutorial>`_ and `Implementing PHP localization: A complete guide <https://lokalise.com/blog/implementing-php-localization-complete-guide/>`_.
 
 Related : :ref:`Locale <locale>`, :ref:`Internationalization Functions <intl>`
 

@@ -47,7 +47,7 @@ They were introduced in PHP 8.1 and provide cooperative multitasking, as opposed
 
 `Documentation <https://www.php.net/manual/en/language.fibers.php>`__
 
-See also https://aoeex.com/phile/php-fibers-a-practical-example/, https://fsck.sh/en/blog/practical-guide-to-php-fibers/, https://www.sages.io/blog/fibers-in-PHP-how-ulatwic-implement-asynchronicity-in-project, https://phpmagazine.net/2023/03/unleashing-the-power-of-php-fibers-boost-web-development-with-efficient-coroutines.html
+See also `PHP Fibers: A practical example <https://aoeex.com/phile/php-fibers-a-practical-example/>`_, `Async PHP is Here: A Practical Guide to Fibers <https://fsck.sh/en/blog/practical-guide-to-php-fibers/>`_, `Fibers in PHP - how to make it easier to implement asynchronicity in your project <https://www.sages.io/blog/fibers-in-PHP-how-ulatwic-implement-asynchronicity-in-project>`_ and `Unleashing the Power of PHP Fibers: Boost Web Development with Efficient Coroutines <https://phpmagazine.net/2023/03/unleashing-the-power-of-php-fibers-boost-web-development-with-efficient-coroutines.html>`_.
 
 Related : :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Multithreading <multithread>`
 

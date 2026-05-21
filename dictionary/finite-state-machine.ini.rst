@@ -29,7 +29,7 @@ A finite state machine, also called FSM, also called a finite automaton, is a ma
 
 `Documentation <https://en.wikipedia.org/wiki/Finite-state_machine>`__
 
-See also https://www.phparch.com/2024/01/creating-finite-state-machines-in-php-8-3/, https://medium.com/cook-php/creating-a-state-machine-using-php-ddef9395430e
+See also `Creating Finite State Machines in PHP 8.3 <https://www.phparch.com/2024/01/creating-finite-state-machines-in-php-8-3/>`_ and `Creating a State Machine using PHP <https://medium.com/cook-php/creating-a-state-machine-using-php-ddef9395430e>`_.
 
 Related : :ref:`Algorithm <algorithm>`
 

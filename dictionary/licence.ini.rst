@@ -32,6 +32,6 @@ Source code, written in PHP, may have a different licence. Common licences are M
 
 `Documentation <https://www.php.net/license/3_01.txt>`__
 
-See also https://www.php.net/license/index.php, https://lwn.net/Articles/1071253/
+See also `PHP Licensing <https://www.php.net/license/index.php>`_ and `The retirement of the PHP license <https://lwn.net/Articles/1071253/>`_.
 
 Related : :ref:`Open Source <open-source>`, 

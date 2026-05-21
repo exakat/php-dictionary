@@ -45,6 +45,6 @@ Camel case is often used for method and variable names. Class names, on the othe
 
 `Documentation <https://stringcase.org/cases/camel/>`__
 
-See also https://stringcase.org/
+See also `stringcase website <https://stringcase.org/>`_.
 
 Related : :ref:`Pascal Case <pascal-case>`, :ref:`Snake Case <snake-case>`, :ref:`Constant Case <constant-case>`

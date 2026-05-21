@@ -46,6 +46,6 @@ This extension is closely linked to the ICU library.
 
 `Documentation <https://www.php.net/manual/en/book.intl.php>`__
 
-See also https://icu.unicode.org/docs/
+See also `ICU lib <https://icu.unicode.org/docs/>`_.
 
 Related : :ref:`Locale <locale>`, :ref:`Accessibility <a11y>`, :ref:`Accessibility <accessibility>`

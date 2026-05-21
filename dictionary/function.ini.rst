@@ -41,6 +41,6 @@ A function is said anonymous when it has no name. This is the case of the closur
 
 `Documentation <https://www.php.net/manual/en/language.functions.php>`__
 
-See also https://www.tutorialrepublic.com/php-tutorial/php-functions.php, https://www.digitalocean.com/community/tutorials/how-to-use-functions-in-php
+See also `PHP Functions <https://www.tutorialrepublic.com/php-tutorial/php-functions.php>`_ and `How To Use Functions in PHP <https://www.digitalocean.com/community/tutorials/how-to-use-functions-in-php>`_.
 
 Related : :ref:`Recursion <recursion>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Method <method>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Default Parameter <default-parameter>`, :ref:`Dereferencing <dereferencing>`, :ref:`Disable Functions <disable-functions>`, :ref:`Return <return>`, :ref:`Variable Arguments <variable-argument>`, :ref:`Callbacks <callback>`, :ref:`Fallback Function <fallback-function>`, :ref:`Fallback To Global <fallback-to-global>`, :ref:`Pure Function <pure-function>`, :ref:`Call Graph <call-graph>`, :ref:`Impure Function <impure-function>`, :ref:`Parameter Removal <parameter-removal>`, :ref:`Undefined <undefined>`

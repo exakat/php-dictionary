@@ -36,6 +36,6 @@ A system call is a call to an operating system function. In PHP, those are done 
 
 `Documentation <https://en.wikipedia.org/wiki/System_call>`__
 
-See also https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/
+See also `Web Shells 101 Using PHP (Web Shells Part 2) <https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/>`_.
 
 Related : :ref:`System <system>`, :ref:`System <os>`

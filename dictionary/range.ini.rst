@@ -48,6 +48,6 @@ When both ``$start`` and ``$end`` are single byte strings, such as alphabet lett
 
 `Documentation <https://www.php.net/manual/en/function.range.php>`__
 
-See also https://clouddevs.com/php/range-function/
+See also `The Fundamentals of PHP’s range() Function <https://clouddevs.com/php/range-function/>`_.
 
 Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`, :ref:`yield from Keyword <yield-from>`

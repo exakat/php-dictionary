@@ -36,7 +36,7 @@ Sanitation is the process to clean data and remove any unwanted parts. The data 
 
 `Documentation <https://www.php.net/manual/en/filter.examples.validation.php>`__
 
-See also https://en.wikipedia.org/wiki/Data_sanitization
+See also `Data sanitization <https://en.wikipedia.org/wiki/Data_sanitization>`_.
 
 Related : :ref:`Validation <validation>`
 

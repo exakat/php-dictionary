@@ -40,7 +40,7 @@ In its simplest form, a yield statement looks much like a return statement, exce
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield>`__
 
-See also https://www.educba.com/php-yield/
+See also `Introduction to PHP yield <https://www.educba.com/php-yield/>`_.
 
 Related : :ref:`yield from Keyword <yield-from>`, :ref:`Generator <generator>`, :ref:`Jump <jump>`
 

@@ -55,6 +55,6 @@ There is no reverse method, where a JSON representation is converted into an obj
 
 `Documentation <https://www.php.net/manual/en/class.jsonserializable.php>`__
 
-See also https://www.sitepoint.com/use-jsonserializable-interface/, https://theiconic.tech/the-problem-with-jsonserializable-and-doctrine-when-using-symfony-ad760e986b04
+See also `How to Use the JsonSerializable Interface <https://www.sitepoint.com/use-jsonserializable-interface/>`_ and `The Problem with JsonSerializable and Doctrine when using Symfony <https://theiconic.tech/the-problem-with-jsonserializable-and-doctrine-when-using-symfony-ad760e986b04>`_.
 
 Related : :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Serialization <serialization>`

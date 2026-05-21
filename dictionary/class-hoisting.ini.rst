@@ -40,6 +40,6 @@ PHP doesn't do class hoisting: it does two passes on the code, and later, trigge
    ?>
 
 
-See also https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html
+See also `Early binding in PHP <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`_.
 
 Related : :ref:`Class Autoloading <autoload>`, :ref:`Linting <lint>`

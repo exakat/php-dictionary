@@ -40,6 +40,6 @@ Traditional native functions, such as ``rand()`` and ``mt_rand()`` are not recom
 
 `Documentation <https://www.php.net/manual/en/function.random-bytes.php>`__
 
-See also https://pimylifeup.com/php-rand/
+See also `How to Use the rand() Function in PHP <https://pimylifeup.com/php-rand/>`_.
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`Deterministic <deterministic>`

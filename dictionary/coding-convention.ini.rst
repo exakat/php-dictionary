@@ -28,6 +28,6 @@ Often, large projects have their own coding convention. When writing for a speci
 
 `Documentation <https://en.wikipedia.org/wiki/Coding_conventions>`__
 
-See also https://www.php-fig.org/psr/psr-12/, https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/, https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html
+See also `PSR-12: Extended Style Guide <https://www.php-fig.org/psr/psr-12/>`_, `Wordpress PHP coding standards <https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/>`_ and `PHP Coding Guidelines & Best Practices <https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html>`_.
 
 Related : :ref:`Control Structures <control-structure>`, :ref:`Coding Formatting <code-formatting>`

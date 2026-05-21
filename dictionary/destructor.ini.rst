@@ -54,6 +54,6 @@ Destructors are usually called after the end of the script, and has no access to
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
-See also https://www.educba.com/destructor-in-php/
+See also `Introduction to Destructor in PHP <https://www.educba.com/destructor-in-php/>`_.
 
 Related : :ref:`Constructor <constructor>`

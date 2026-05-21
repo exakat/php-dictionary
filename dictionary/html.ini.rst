@@ -39,6 +39,6 @@ HTML defines the structure of the page. It is completed by CSS, for styling, and
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/HTML>`__
 
-See also https://www.php.net/manual/en/faq.html.php
+See also `PHP and HTML <https://www.php.net/manual/en/faq.html.php>`_.
 
 Related : :ref:`Javascript <javascript>`, , :ref:`htmlentities() <htmlentities>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Template <template>`, :ref:`World Wide Web (WWW) <web>`

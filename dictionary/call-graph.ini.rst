@@ -30,6 +30,6 @@ In the callgraph, the nodes represent functions or methods, edges represent call
 
 `Documentation <https://en.wikipedia.org/wiki/Call_graph>`__
 
-See also https://docs.blackfire.io/php/training-resources/book/09-call-graphs-galore, https://github.com/koknat/callGraph
+See also `Chapter 9 - Call Graphs Galore <https://docs.blackfire.io/php/training-resources/book/09-call-graphs-galore>`_ and `koknat callGraph <https://github.com/koknat/callGraph>`_.
 
 Related : :ref:`Call <call>`, :ref:`Functions <function>`, :ref:`Method <method>`

@@ -34,6 +34,6 @@ In PHP ecosystems, monoliths are often preferred unless scale or team size truly
 
 `Documentation <https://en.wikipedia.org/wiki/Monolithic_application>`__
 
-See also https://lokalise.com/blog/decoupling-a-monolithic-php-application-a-practical-example/, https://www.zend.com/blog/php-monolith-to-microservices, https://www.fuseweb.nl/en/blog/2025/02/03/microservices-vs-monolith-php-architecture-guide-2025
+See also `Decoupling a monolithic PHP application: a practical example <https://lokalise.com/blog/decoupling-a-monolithic-php-application-a-practical-example/>`_, `PHP Monolith to Microservices: When to Split Web Applications <https://www.zend.com/blog/php-monolith-to-microservices>`_ and `Microservices vs. Monolith: A PHP Developer’s Guide to Architecture Decisions in 2025 <https://www.fuseweb.nl/en/blog/2025/02/03/microservices-vs-monolith-php-architecture-guide-2025>`_.
 
 Related : :ref:`Microservice <micro-service>`

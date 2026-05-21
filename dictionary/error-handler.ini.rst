@@ -51,6 +51,6 @@ There is a separate exception handler.
 
 `Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
 
-See also https://joshtronic.com/2013/07/15/convert-errors-to-exceptions/, https://netgen.io/blog/modern-error-handling-in-php
+See also `Convert Errors to Exceptions in PHP <https://joshtronic.com/2013/07/15/convert-errors-to-exceptions/>`_ and `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_.
 
 Related : :ref:`PHP Handlers <handler>`, :ref:`Exception Handler <exception-handler>`, :ref:`Shutdown Function <shutdown-handler>`

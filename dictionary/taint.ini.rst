@@ -43,6 +43,6 @@ There was a taint extension in PHP until PHP 8.0. It was not ported further.
    ?>
 
 
-See also https://blog.jetbrains.com/qodana/2023/03/taint-analysis-by-qodana/
+See also `Secure Your PHP Code With Taint Analysis by Qodana <https://blog.jetbrains.com/qodana/2023/03/taint-analysis-by-qodana/>`_.
 
 Related : :ref:`Security <security>`, :ref:`Injection <injection>`

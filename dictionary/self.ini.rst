@@ -44,6 +44,6 @@ Self
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-See also https://phppot.com/php/php-self-vs-this/, https://www.studytonight.com/php/php-this-keyword
+See also `PHP self Vs this <https://phppot.com/php/php-self-vs-this/>`_ and `PHP $this Keyword <https://www.studytonight.com/php/php-this-keyword>`_.
 
 Related : :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Keyword <keyword>`, :ref:`Child Class <child-class>`, :ref:`Language Construct <language-construct>`, :ref:`PHP Natives <native-type>`, :ref:`Special Types <special-typehint>`, :ref:`Late Static Binding <late-static-binding>`

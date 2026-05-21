@@ -28,6 +28,6 @@ When set to 0, the code is active, but not executed. When set to -1, the code is
 
 `Documentation <https://www.php.net/manual/en/function.assert.php>`__
 
-See also https://php.watch/codex/zend.assertions, https://www.drupal.org/project/drupal/issues/3380147
+See also `zend.assertions <https://php.watch/codex/zend.assertions>`_ and `Use zend.assertions PHP setting instead of assert.active <https://www.drupal.org/project/drupal/issues/3380147>`_.
 
 Related : :ref:`Assertions <assertion>`, :ref:`Assertions <assert>`, :ref:`one <one>`, :ref:`zero <zero>`, :ref:`Minus One -1 <minus-one>`

@@ -45,6 +45,6 @@ The library is integrated into PHP as an extension. It provides a lot of functio
 
 `Documentation <https://www.openssl.org/>`__
 
-See also https://www.virendrachandak.com/techtalk/encryption-using-php-openssl/
+See also `Encryption using PHP and OpenSSL <https://www.virendrachandak.com/techtalk/encryption-using-php-openssl/>`_.
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`libsodium <libsodium>`

@@ -27,4 +27,4 @@ A microservice is a software architectural style that structures an application 
 
 `Documentation <https://en.wikipedia.org/wiki/Microservices>`__
 
-See also https://reintech.io/blog/php-microservices-design-implementation, https://itnext.io/how-to-use-php-to-implement-microservice-94957206abc6
+See also `PHP and Microservices: Designing and Implementing Microservices in PHP <https://reintech.io/blog/php-microservices-design-implementation>`_ and `How to use PHP to build microservice? <https://itnext.io/how-to-use-php-to-implement-microservice-94957206abc6>`_.

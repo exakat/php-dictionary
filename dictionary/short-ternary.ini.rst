@@ -38,7 +38,7 @@ It is a short version of the ternary operator, and it is often used to set defau
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary>`__
 
-See also https://stitcher.io/blog/shorthand-comparisons-in-php
+See also `Short Hand Comparison in PHP <https://stitcher.io/blog/shorthand-comparisons-in-php>`_.
 
 Related : :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Empty <empty>`, :ref:`False <false>`
 

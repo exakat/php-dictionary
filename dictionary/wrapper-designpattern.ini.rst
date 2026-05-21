@@ -26,6 +26,6 @@ A wrapper is also a design pattern, also called an adaptor. This concept also ap
 
 `Documentation <https://refactoring.guru/design-patterns/decorator>`__
 
-See also https://packagist.org/packages/laravel/socialite
+See also `Laravel wrapper around OAuth 1 & OAuth 2 libraries <https://packagist.org/packages/laravel/socialite>`_.
 
 Related : :ref:`Design Pattern <design-pattern>`

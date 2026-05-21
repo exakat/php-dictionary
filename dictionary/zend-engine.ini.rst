@@ -28,6 +28,6 @@ It is named after its two original authors: ``Zeev Zuraski`` and ``Andy Gutmans`
 
 `Documentation <https://en.wikipedia.org/wiki/Zend_Engine>`__
 
-See also https://faizymca.wordpress.com/php-zend-engine/
+See also `PHP & Zend Engine <https://faizymca.wordpress.com/php-zend-engine/>`_.
 
 Related : :ref:`PHP Engine <engine>`, :ref:`Virtual Machine (VM) <virtual-machine>`, :ref:`Core <core>`, :ref:`Internals <internals>`, :ref:`PHP, Hypertext Preprocessor (PHP) <php>`, :ref:`Zval <zval>`

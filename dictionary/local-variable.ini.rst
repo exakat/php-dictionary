@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Local Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A local variable is a variable in a method or a function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Local Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Local Variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 07:22:02 +0000","dateModified":"Thu, 21 May 2026 07:22:02 +0000","description":"A local variable is a variable in a method or a function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Local Variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Local Variable
@@ -24,26 +24,26 @@ Local Variable
 
 A local variable is a variable in a method or a function. It is in the local scope, and is not available anywhere else.
 
-A local variable is created by assigning it a value in a method, using the ``static`` keyword, or using the extract() function. It might be removed by the ``unset()`` function.
+A local variable is created by assigning it a value in a method, using the ``static`` keyword, or using the ``extract()`` function. It might be removed by the ``unset()`` function.
 
 .. code-block:: php
    
    <?php
    
-   function foo() {
-       $localVariable = 1;
-       // ... more code
-   }
-   
-   function goo() {
-       // this variable is distinct from the one in foo()
-       $localVariable = 2;
-       // ... more code
-   }
+       function foo() {
+           $localVariable = 1;
+           // ... more code
+       }
+       
+       function goo() {
+           // this variable is distinct from the one in foo()
+           $localVariable = 2;
+           // ... more code
+       }
    
    ?>
 
 
-See also https://www.educba.com/local-variable-in-php/
+See also `PHP local variable <https://www.educba.com/local-variable-in-php/>`_.
 
 Related : :ref:`Static Variables <static-variable>`, :ref:`extract() <extract>`, :ref:`unset() <unset>`, :ref:`Global Variables <global-variable>`, :ref:`Superglobal Variables <superglobal>`

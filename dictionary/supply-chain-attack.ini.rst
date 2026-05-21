@@ -30,6 +30,6 @@ When those external repositories are infected with malicious component or code, 
 
 `Documentation <https://en.wikipedia.org/wiki/Supply_chain_attack>`__
 
-See also https://blog.sonarsource.com/php-supply-chain-attack-on-composer/, https://coderlegion.com/8958/supply-chain-security-in-php-projects?show=8958#q8958, https://www.reversinglabs.com/blog/packagist-php-repo-supply-chain-threat-what-you-need-to-know
+See also `PHP Supply Chain Attack on Composer <https://blog.sonarsource.com/php-supply-chain-attack-on-composer/>`_, `Supply Chain Security in PHP Projects <https://coderlegion.com/8958/supply-chain-security-in-php-projects?show=8958#q8958>`_ and `Packagist PHP repo supply chain attack: 3 key takeaways <https://www.reversinglabs.com/blog/packagist-php-repo-supply-chain-threat-what-you-need-to-know>`_.
 
 Related : :ref:`Supply Chain <supply-chain>`, :ref:`Software Bill Of Material (SBOM) <sbom>`

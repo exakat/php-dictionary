@@ -47,6 +47,6 @@ Class Wither Method
 
 `Documentation <https://projectlombok.org/features/With>`__
 
-See also `RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_
+See also `0 <`RFC: Accessors <https://wiki.php.net/rfc/property_accessors>`_>`_.
 
 Related : :ref:`Class <class>`, :ref:`Class Setter Method <setter>`, :ref:`Class Getter Method <getter>`, :ref:`Immutable <immutable>`

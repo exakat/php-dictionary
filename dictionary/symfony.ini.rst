@@ -28,7 +28,7 @@ Symfony is a high-performance PHP framework for building scalable, maintainable 
 
 `Documentation <https://symfony.com/>`__
 
-See also https://symfony.com/doc/current/setup.html, https://github.com/symfonycasts, https://symfony.com/blog/
+See also `Symfony 8 installation <https://symfony.com/doc/current/setup.html>`_, `Symfony cast <https://github.com/symfonycasts>`_ and `Symfony blog <https://symfony.com/blog/>`_.
 
 Related : :ref:`Framework <framework>`, :ref:`Model - View - Controller (MVC) <mvc>`
 

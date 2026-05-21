@@ -42,4 +42,4 @@ mysqli is included in PHP core distribution since PHP 5.
 
 `Documentation <https://www.php.net/manual/en/book.mysqli.php>`__
 
-See also https://mariadb.com/resources/blog/developer-quickstart-php-mysqli-and-mariadb/
+See also `Developer Quickstart: PHP mysqli and MariaDB <https://mariadb.com/resources/blog/developer-quickstart-php-mysqli-and-mariadb/>`_.

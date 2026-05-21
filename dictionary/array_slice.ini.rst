@@ -57,6 +57,6 @@ The complement function is ``array_splice()``, which extracts an array from anot
 
 `Documentation <https://www.php.net/manual/en/function.array-slice.php>`__
 
-See also https://www.thedataops.org/php-difference-between-array_slice-and-array_splice/
+See also `PHP | Difference between array_slice() and array_splice() <https://www.thedataops.org/php-difference-between-array_slice-and-array_splice/>`_.
 
 Related : :ref:`array_splice() <array_splice>`

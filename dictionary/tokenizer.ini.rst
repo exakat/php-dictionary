@@ -26,6 +26,6 @@ The PHP Tokenizer is a built-in extension that breaks down PHP source code into 
 
 `Documentation <https://www.php.net/manual/en/book.tokenizer.php>`__
 
-See also https://reintech.io/blog/beginners-guide-php-tokenizer-library-code-parsing
+See also `A Beginner's Guide to the PHP Tokenizer Library for Code Parsing <https://reintech.io/blog/beginners-guide-php-tokenizer-library-code-parsing>`_.
 
-Related : :ref:`Token <token>`, 
+Related : :ref:`Token <token>`, :ref:`Phptoken <phptoken>`

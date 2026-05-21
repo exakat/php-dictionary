@@ -34,6 +34,6 @@ In PHP, an expression is a combination of one or more variables, operators, cons
    ?>
 
 
-See also https://phplang.org/spec/10-expressions.html
+See also `Expressions <https://phplang.org/spec/10-expressions.html>`_.
 
 Related : :ref:`Constant Scalar Expression <constant-scalar-expression>`, , 

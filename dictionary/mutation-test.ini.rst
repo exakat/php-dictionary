@@ -32,6 +32,6 @@ When the suite is still green after mutating the code, this means that the test 
 
 `Documentation <https://en.wikipedia.org/wiki/Mutation_testing>`__
 
-See also https://infection.github.io/
+See also `Infection <https://infection.github.io/>`_.
 
 Related packages : `infection/infection <https://packagist.org/packages/infection/infection>`_

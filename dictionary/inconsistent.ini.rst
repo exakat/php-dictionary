@@ -39,6 +39,6 @@ Code may run correctly without being consistent.
    ?>
 
 
-See also https://sergheipogor.medium.com/how-not-to-write-code-in-php-5-bad-examples-9b4205f8de35, https://cs.nyu.edu/~wies/publ/fse2013.pdf, https://www.jamiebalfour.scot/articles/posts/the-inconsistencies-of-php
+See also `How NOT to write code in PHP — 5 Bad Examples <https://sergheipogor.medium.com/how-not-to-write-code-in-php-5-bad-examples-9b4205f8de35>`_, `Explaining Inconsistent Code <https://cs.nyu.edu/~wies/publ/fse2013.pdf>`_ and `The inconsistencies of PHP <https://www.jamiebalfour.scot/articles/posts/the-inconsistencies-of-php>`_.
 
 Related : :ref:`Coding Conventions <coding-convention>`

@@ -52,6 +52,6 @@ The ``__set()`` method is usually paired with the ``__get()`` method.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-See also https://www.dinocajic.com/built-in-functions-invoke-tostring-get-set/
+See also `PHP’s magic methods: Invoke, toString, get, set – Class wizardry in a nutshell <https://www.dinocajic.com/built-in-functions-invoke-tostring-get-set/>`_.
 
 Related : :ref:`Magic Methods <magicmethod>`, :ref:`__get() Method <-__get>`, :ref:`__isset() Method <-__isset>`, :ref:`Magic Constants <magic-constant>`, :ref:`__unset() Method <-__unset>`, :ref:`Magic Methods <magic-method>`, :ref:`Magic Property <magic-property>`, :ref:`Property Hook <property-hook>`

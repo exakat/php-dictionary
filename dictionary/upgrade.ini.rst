@@ -26,6 +26,6 @@ An upgrade refers to the process of updating or replacing an existing installati
 
 An upgrade often require a migration: the current code has to be made compatible with the current version, but also with the upcoming version. 
 
-See also `Deal with major upgrades in PHP <https://medium.com/yousign-engineering-product/deal-with-major-upgrades-in-php-490ed55c54a1>`_
+See also `0 <`Deal with major upgrades in PHP <https://medium.com/yousign-engineering-product/deal-with-major-upgrades-in-php-490ed55c54a1>`_>`_.
 
 Related : :ref:`Version <version>`, :ref:`Semantic Versioning <semver>`

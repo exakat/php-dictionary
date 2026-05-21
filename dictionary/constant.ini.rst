@@ -50,6 +50,6 @@ Global constants used to be case insensitive, when created with ``define()``. Th
 
 `Documentation <https://www.php.net/manual/en/language.constants.php>`__
 
-See also https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/
+See also `Understanding PHP Constants: A Simple Guide with Examples <https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/>`_.
 
 Related : :ref:`Static Constant <class-constant>`, :ref:`Centralization <centralization>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`New In Initializers <new-in-initializer>`, :ref:`Predefined Constants <predefined-constant>`, :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`Constant Case <constant-case>`, :ref:`define() <define>`, :ref:`Literal <literal>`

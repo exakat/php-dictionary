@@ -28,6 +28,6 @@ Functions such as ``fopen()``, ``file_get_contents``, ``file_put_contents``, ``c
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.open-basedir>`__
 
-See also https://serveravatar.com/configure-open-basedir/
+See also `What is open_basedir in PHP and How to Configure It Securely <https://serveravatar.com/configure-open-basedir/>`_.
 
-Related : :ref:`include_path <include_path>`, :ref:`php.ini <php.ini>`
+Related : :ref:`include_path <include_path>`, :ref:`php\.ini <php.ini>`

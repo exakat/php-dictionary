@@ -39,6 +39,6 @@ It's important to be aware of potential rounding errors or precision issues when
 
 `Documentation <https://www.php.net/manual/en/language.types.float.php>`__
 
-See also https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php
+See also `How To Work with Numbers in PHP <https://www.digitalocean.com/community/tutorials/how-to-work-with-numbers-in-php>`_.
 
 Related : :ref:`Floating Point Numbers <float>`, :ref:`Bcmath <bcmath>`, :ref:`GNU Multiple Precision (GMP) <gmp>`, :ref:`Rounding <rounding>`

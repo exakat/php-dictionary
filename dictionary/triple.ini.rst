@@ -41,6 +41,6 @@ Things that may be triple:
    ?>
 
 
-See also https://www.exakat.io/1-2-3-php-operators/
+See also `1-2-3 operators <https://www.exakat.io/1-2-3-php-operators/>`_.
 
 Related : :ref:`Single <single>`, :ref:`Double <double>`, :ref:`Comparison <comparison>`

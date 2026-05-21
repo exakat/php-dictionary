@@ -49,7 +49,7 @@ Type coverage is used as a metrics, to ensure that every line of code is used at
    ?>
 
 
-See also https://tomasvotruba.com/blog/how-to-measure-your-type-coverage, https://github.com/sebastianbergmann/php-code-coverage, https://php.watch/articles/php-code-coverage-comparison
+See also `How to Measure Your Type Coverage <https://tomasvotruba.com/blog/how-to-measure-your-type-coverage>`_, `phpunit/php-code-coverage <https://github.com/sebastianbergmann/php-code-coverage>`_ and `PHP code coverage tool <https://php.watch/articles/php-code-coverage-comparison>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Coverage <coverage>`
 

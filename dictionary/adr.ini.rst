@@ -36,6 +36,6 @@ Key Elements of an ``ADR``
 
 `Documentation <https://en.wikipedia.org/wiki/Architectural_decision>`__
 
-See also https://github.com/joelparkerhenderson/architecture-decision-record
+See also `Architecture decision record (ADR) <https://github.com/joelparkerhenderson/architecture-decision-record>`_.
 
 Related : :ref:`Product Requirements Document (PDR) <pdr>`

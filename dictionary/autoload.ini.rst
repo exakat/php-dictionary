@@ -49,7 +49,7 @@ In modern PHP, not using class autoloading is considered a bad practice.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.autoload.php>`__
 
-See also https://opensource.com/article/23/4/autoloading-namespaces-php, https://tideways.com/profiler/blog/autoloading-performance-avoid-these-5-mistakes, https://dev.to/abhay_yt_52a8e72b213be229/understanding-autoloading-in-php-how-to-implement-and-use-it-efficiently-3a44
+See also `Use autoloading and namespaces in PHP <https://opensource.com/article/23/4/autoloading-namespaces-php>`_, `Autoloading Performance – Avoid These 5 Mistakes! <https://tideways.com/profiler/blog/autoloading-performance-avoid-these-5-mistakes>`_ and `Understanding Autoloading in PHP: How to Implement and Use It Efficiently <https://dev.to/abhay_yt_52a8e72b213be229/understanding-autoloading-in-php-how-to-implement-and-use-it-efficiently-3a44>`_.
 
 Related : :ref:`Autowiring <auto-wiring>`, :ref:`Definition <definition>`, :ref:`Call <call>`, :ref:`__autoload <-__autoload>`, :ref:`Class Hoisting <class-hoisting>`, :ref:`Inclusions <inclusion>`, :ref:`Standard PHP Library (SPL) <spl>`
 

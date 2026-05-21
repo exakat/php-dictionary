@@ -32,6 +32,6 @@ PHP supports compression via zip, rar, zlib, bzip2.
 
 `Documentation <https://en.wikipedia.org/wiki/Data_compression>`__
 
-See also https://www.php.net/manual/en/book.zip.php, https://www.php.net/manual/en/book.bzip2.php
+See also `Zip <https://www.php.net/manual/en/book.zip.php>`_ and `Bz2 <https://www.php.net/manual/en/book.bzip2.php>`_.
 
 Related : :ref:`Archive <archive>`

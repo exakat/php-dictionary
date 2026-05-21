@@ -48,4 +48,4 @@ In PHP 8.3, a new syntax is available to do the same: ``class::{$name}``. The cu
    ?>
 
 
-See also https://php.watch/versions/8.3/dynamic-class-const-enum-member-syntax-support
+See also `PHP 8.3: Dynamic class constant and Enum member fetch support <https://php.watch/versions/8.3/dynamic-class-const-enum-member-syntax-support>`_.

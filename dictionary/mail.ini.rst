@@ -39,7 +39,7 @@ Mail
 
 `Documentation <https://www.php.net/manual/en/function.mail.php>`__
 
-See also https://www.mailersend.com/blog/php-send-email, https://www.mailslurp.com/blog/php-mail-function/
+See also `Guide: How to send emails in PHP (with examples) <https://www.mailersend.com/blog/php-send-email>`_ and `PHP mail() function: how to send email in PHP safely <https://www.mailslurp.com/blog/php-mail-function/>`_.
 
 Related : :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
 

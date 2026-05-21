@@ -26,6 +26,6 @@ The observer is an architectural pattern, where objects register to get notified
 
 In PHP, there is a native interface call SplObserver, coupled with the SplSubject, to implement such pattern.
 
-See also https://www.php.net/manual/en/class.splobserver.php, https://www.php.net/manual/en/class.splsubject.php, https://symfony.com/doc/current/event_dispatcher.html, https://medium.com/codex/observer-pattern-in-php-8-569c71dd7837
+See also `SplObserver <https://www.php.net/manual/en/class.splobserver.php>`_, `SplSubject <https://www.php.net/manual/en/class.splsubject.php>`_, `Events and Event Listeners <https://symfony.com/doc/current/event_dispatcher.html>`_ and `Observer Pattern In PHP 8+ <https://medium.com/codex/observer-pattern-in-php-8-569c71dd7837>`_.
 
 Related : :ref:`Design Pattern <design-pattern>`

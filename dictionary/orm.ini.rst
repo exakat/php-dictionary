@@ -30,7 +30,7 @@ PHP has several ORM: ``Doctrine``, ``Redbean``, ``Eloquent``, ``Propel``, etc..
 
 `Documentation <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>`__
 
-See also https://www.php.net/manual/en/book.pdo.php
+See also `PDO in PHP <https://www.php.net/manual/en/book.pdo.php>`_.
 
 Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, :ref:`Data Mapper <object-mapper>`, :ref:`Code Generator <code-generator>`, :ref:`Data Mapper <data-mapper>`, :ref:`N+1 Query Problem <n-query>`, :ref:`Simple Query Language (SQL) <sql>`
 

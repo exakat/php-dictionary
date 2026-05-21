@@ -51,6 +51,6 @@ Static constant syntax is the same than for enumeration cases.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.constants.php>`__
 
-See also https://pangea.ai/resources/everything-you-should-know-about-php-const-in-class, https://www.codewithharry.com/tutorial/php-class-constants, https://dev.to/ahmet_gedik778845/php-83-typed-constants-in-production-2cpa
+See also `Everything You Should Know About PHP Const in Class <https://pangea.ai/resources/everything-you-should-know-about-php-const-in-class>`_, `Class Constants <https://www.codewithharry.com/tutorial/php-class-constants>`_ and `PHP 8.3 Typed Constants in Production <https://dev.to/ahmet_gedik778845/php-83-typed-constants-in-production-2cpa>`_.
 
 Related : :ref:`Visibility <visibility>`, :ref:`Final Keyword <final>`, :ref:`Constants In Trait <constant-in-trait>`, :ref:`Constants <constant>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`Special Constant <special-constant>`, :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`define() <define>`, :ref:`Literal <literal>`, :ref:`New In Initializers <new-in-initializer>`

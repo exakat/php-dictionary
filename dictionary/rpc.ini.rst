@@ -41,7 +41,7 @@ PHP offers xml-rpc, grpc, protocolbuffers or protobuf and yar offers different s
 
 `Documentation <https://en.wikipedia.org/wiki/Remote_procedure_call>`__
 
-See also https://pecl.php.net/package/gRPC, https://pecl.php.net/package/yar
+See also `grpc <https://pecl.php.net/package/gRPC>`_ and `yar <https://pecl.php.net/package/yar>`_.
 
 Related : :ref:`gRPC (Google Remote Procedure Call) <grpc>`
 

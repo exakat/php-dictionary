@@ -62,6 +62,6 @@ imagick
 
 `Documentation <https://www.php.net/manual/en/imagick.cropimage.php>`__
 
-See also https://phpimagick.com/, https://www.jeeviacademy.com/installing-imagick-for-php-on-aws-ec2-everything-you-need-to-know/
+See also `PHP Imagick by Example <https://phpimagick.com/>`_ and `Installing Imagick for PHP on AWS EC2: Everything You Need to Know <https://www.jeeviacademy.com/installing-imagick-for-php-on-aws-ec2-everything-you-need-to-know/>`_.
 
 Related : :ref:`Graphic Draw (GD) <gd>`

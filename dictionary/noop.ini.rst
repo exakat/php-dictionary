@@ -63,4 +63,4 @@ This is distinct, though close, to the identity: identity returns the incoming d
 
 `Documentation <https://en.wikipedia.org/wiki/NOP_(code)>`__
 
-See also https://www.php.net/manual/en/function.eio-nop.php, https://backendtea.com/post/noop-polyfill/
+See also `eio_nop <https://www.php.net/manual/en/function.eio-nop.php>`_ and `Noop polyfills <https://backendtea.com/post/noop-polyfill/>`_.

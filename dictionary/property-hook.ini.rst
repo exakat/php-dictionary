@@ -53,7 +53,7 @@ Property hooks are also called ``Property Accessors``, in other languages.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.property-hooks.php>`__
 
-See also https://ashallendesign.co.uk/blog/php-84-property-hooks, https://qirolab.com/posts/php-84-property-hooks, https://wiki.php.net/rfc/hook_improvements, https://www.zend.com/blog/php-8-4-property-hooks, https://hackernoon.com/phps-new-property-hooks-are-herebut-should-you-use-them, https://dyrynda.com.au/blog/using-property-hooks-in-php
+See also `PHP 8.4 Property Hooks <https://ashallendesign.co.uk/blog/php-84-property-hooks>`_, `PHP 8.4 Property Hooks: The Ultimate Guide for Developers <https://qirolab.com/posts/php-84-property-hooks>`_, `PHP RFC: Property hook improvements <https://wiki.php.net/rfc/hook_improvements>`_, `A Guide to PHP 8.4 Property Hooks <https://www.zend.com/blog/php-8-4-property-hooks>`_, `PHP’s New Property Hooks Are Here—But Should You Use Them? <https://hackernoon.com/phps-new-property-hooks-are-herebut-should-you-use-them>`_ and `Using property hooks in PHP <https://dyrynda.com.au/blog/using-property-hooks-in-php>`_.
 
 Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`, :ref:`Double Arrow <double-arrow>`, :ref:`Magic Constants <magic-constant>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writeable <writeable>`
 

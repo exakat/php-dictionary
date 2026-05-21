@@ -32,7 +32,7 @@ There are many cron alternatives, like ``systemd`` timers, framework schedulers,
 
 `Documentation <https://en.wikipedia.org/wiki/Cron>`__
 
-See also https://blog.radwebhosting.com/create-php-cron-jobs-on-linux-server/
+See also `How to Create PHP Cron Jobs on Linux Server <https://blog.radwebhosting.com/create-php-cron-jobs-on-linux-server/>`_.
 
 Related : :ref:`Jobqueue <jobqueue>`
 

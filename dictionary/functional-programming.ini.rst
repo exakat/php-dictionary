@@ -27,7 +27,7 @@ Functional Programming (FP) is a programming paradigm where programs are built b
 
 PHP supports anonymous functions, closures, iterators and higher-order functions, needed for Functional programming.
 
-See also https://www.functionalphp.com/, https://leanpub.com/functional-php/read, https://medium.com/ifixit-engineering/functional-programming-with-php-generators-837a6c91b0e3
+See also `Functional Programming in PHP · 2nd Edition <https://www.functionalphp.com/>`_, `Thinking Functionally in PHP? <https://leanpub.com/functional-php/read>`_ and `Functional Programming with PHP Generators <https://medium.com/ifixit-engineering/functional-programming-with-php-generators-837a6c91b0e3>`_.
 
 Related : :ref:`OOP (Object Oriented Programming) <oop>`, :ref:`Paradigm <paradigm>`, :ref:`Partial Function <partial-function>`, :ref:`Procedural Programming <procedural-programming>`, :ref:`Side Effect <side-effect>`
 

@@ -65,6 +65,6 @@ MySQL
 
 `Documentation <https://www.php.net/manual/en/book.mysql.php>`__
 
-See also https://www.mysql.org, https://mariadb.org/, https://medium.com/@barbiedisemyworld/an-introduction-to-php-and-mysql-inserting-and-fetching-from-mysql-fe16261f3228
+See also `MySQL <https://www.mysql.org>`_, `MariaDB <https://mariadb.org/>`_ and `An Introduction to PHP and MySQL(Inserting and Fetching from MySQL) <https://medium.com/@barbiedisemyworld/an-introduction-to-php-and-mysql-inserting-and-fetching-from-mysql-fe16261f3228>`_.
 
 Related : :ref:`mysqli <mysqli>`

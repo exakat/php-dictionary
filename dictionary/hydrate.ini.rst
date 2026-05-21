@@ -28,7 +28,7 @@ Hydration is quite repetitive, as the source data must be mapped to the correspo
 
 `Documentation <https://en.wikipedia.org/wiki/Hydration_(web_development)>`__
 
-See also https://tomasvotruba.com/blog/2020/04/20/how-to-hydrate-arrays-to-objects-via-constructor, https://mvaliolahi.medium.com/laravel-request-hydration-f8aba2ae4851
+See also `How to Hydrate Arrays to Objects via Constructor <https://tomasvotruba.com/blog/2020/04/20/how-to-hydrate-arrays-to-objects-via-constructor>`_ and `Laravel Data Transfer Object Hydration <https://mvaliolahi.medium.com/laravel-request-hydration-f8aba2ae4851>`_.
 
 Related : :ref:`Serialization <serialize>`, :ref:`Data Mapper <mapper>`
 

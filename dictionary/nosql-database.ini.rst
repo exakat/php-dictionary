@@ -27,6 +27,6 @@ A NoSQL database, often interpreted as ``not only SQL`` is a type of database th
 
 `Documentation <https://en.wikipedia.org/wiki/NoSQL>`__
 
-See also https://sleekdb.github.io/, https://www.clariontech.com/blog/harvest-nosql-speed-with-the-combination-of-php
+See also `sleekdb <https://sleekdb.github.io/>`_ and `Harvest NoSQL Speed With The Combination Of PHP <https://www.clariontech.com/blog/harvest-nosql-speed-with-the-combination-of-php>`_.
 
 Related : :ref:`Key-value Stores <key-value-store>`, , , 

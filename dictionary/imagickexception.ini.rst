@@ -39,6 +39,6 @@ The ``ImagickException`` exception is thrown when an error happens while process
 
 `Documentation <https://www.php.net/manual/en/book.imagick.php>`__
 
-See also https://andy-carter.com/blog/how-to-fix-imagickexception-not-authorized
+See also `How to Fix 'ImagickException: not authorized' <https://andy-carter.com/blog/how-to-fix-imagickexception-not-authorized>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`imagick <imagick>`

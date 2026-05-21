@@ -43,6 +43,6 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 `Documentation <https://www.php.net/manual/en/language.types.float.php>`__
 
-See also https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc, https://0.30000000000000004.com/, https://www.geeksforgeeks.org/comparing-float-value-in-php/
+See also `Floating Dangers in PHP <https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc>`_, `Floating Point Math <https://0.30000000000000004.com/>`_ and `Comparing float value in PHP <https://www.geeksforgeeks.org/comparing-float-value-in-php/>`_.
 
 Related : :ref:`Real Numbers <real>`, :ref:`Addition <addition>`, :ref:`Multiplication <multiplication>`, :ref:`Not A Number (NAN) <nan>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`abs() <abs>`, :ref:`PHP Natives <native-type>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`precision <precision>`, :ref:`Double <double>`, :ref:`Logarithm <logarithm>`, :ref:`Non-numeric <non-numeric>`, :ref:`Number <number>`

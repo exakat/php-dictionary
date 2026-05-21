@@ -42,6 +42,6 @@ The function also include options to handle concurrency with locks; to append da
 
 `Documentation <https://www.php.net/manual/en/function.file-get-contents.php>`__
 
-See also https://www.geeksforgeeks.org/php/how-to-post-data-using-file_get_contents-in-php/
+See also `How to post data using file_get_contents in PHP ? <https://www.geeksforgeeks.org/php/how-to-post-data-using-file_get_contents-in-php/>`_.
 
 Related : :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`False <false>`, :ref:`String <string>`, :ref:`Stream <stream>`, :ref:`Wrapper <wrapper>`, :ref:`$http_response_header <$http_response_header>`, :ref:`file_put_contents() <file_put_contents>`, :ref:`php://input <php-input>`, :ref:`php://memory <php-memory>`

@@ -43,6 +43,6 @@ The motivation behind this proposal is to simplify exception handling code, espe
 
 `Documentation <https://wiki.php.net/rfc/anonymous_catch>`__
 
-See also https://wiki.php.net/rfc/anonymous_catch
+See also `PHP RFC: Support for anonymous catches <https://wiki.php.net/rfc/anonymous_catch>`_.
 
 Related : :ref:`Catch <catch>`, :ref:`Exception <exception>`, :ref:`Try-catch <try-catch>`

@@ -39,4 +39,4 @@ Fatal error is a type of PHP error, which ends the execution of the application.
 
 `Documentation <https://www.php.net/manual/en/language.errors.php7.php>`__
 
-See also https://trunc.org/learning/php-fatal-errors
+See also `A Guide to: PHP Fatal errors <https://trunc.org/learning/php-fatal-errors>`_.

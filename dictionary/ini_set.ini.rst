@@ -41,6 +41,6 @@ The complement to this function is ``ini_get()``, which collect the value of a d
 
 `Documentation <https://www.php.net/manual/en/function.ini-set.php>`__
 
-See also https://code.mu/en/php/manual/conf/ini_set/
+See also `The ini_set Function <https://code.mu/en/php/manual/conf/ini_set/>`_.
 
-Related : :ref:`php.ini <php.ini>`, :ref:`Directives <directive>`
+Related : :ref:`php\.ini <php.ini>`, :ref:`Directives <directive>`

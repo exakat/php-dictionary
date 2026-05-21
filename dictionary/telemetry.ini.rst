@@ -41,6 +41,6 @@ Telemetry is implemented with Application Performance Monitoring tools, or APM, 
 
 `Documentation <https://www.logicmonitor.com/blog/what-is-telemetry>`__
 
-See also https://opentelemetry.io/
+See also `OpenTelemetry <https://opentelemetry.io/>`_.
 
 Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Monitoring <monitoring>`, :ref:`Log <log>`

@@ -34,6 +34,6 @@ There are several technologies that are paired with PHP to achieve real-time fea
 
 `Documentation <https://en.wikipedia.org/wiki/Real-time_web>`__
 
-See also https://medium.com/@wwwebadvisor/building-real-time-applications-with-php-and-websockets-a860ca05ddc0, https://via.zweiundeins.gmbh/, http://socketo.me/
+See also `Building Real-Time Applications with PHP and WebSockets <https://medium.com/@wwwebadvisor/building-real-time-applications-with-php-and-websockets-a860ca05ddc0>`_, `php-via <https://via.zweiundeins.gmbh/>`_ and `Ratchet <http://socketo.me/>`_.
 
 Related : :ref:`Server Sent Event (SSE) <sse>`, :ref:`Websocket <websocket>`, , , :ref:`Asynchronous <asynchronous>`

@@ -30,6 +30,6 @@ The value of ``default_charset`` must be a valid IANA character set name. Possib
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.default-charset>`__
 
-See also https://php.watch/codex/default_charset, https://www.iana.org/assignments/character-sets/character-sets.xhtml
+See also `default_charset <https://php.watch/codex/default_charset>`_ and `IANA Character Sets <https://www.iana.org/assignments/character-sets/character-sets.xhtml>`_.
 
-Related : :ref:`UTF-8 <utf-8>`, :ref:`Encoding <encoding>`, :ref:`htmlentities() <htmlentities>`, , 
+Related : :ref:`UTF-8 <utf-8>`, :ref:`Encoding <encoding>`, :ref:`htmlentities() <htmlentities>`, :ref:`htmlspecialchars <htmlspecialchars>`, :ref:`html_entity_decode <html_entity_decode>`

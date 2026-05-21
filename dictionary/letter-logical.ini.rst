@@ -50,6 +50,6 @@ It is recommended to always use the symbol logical operators, which is closer to
 
 `Documentation <https://bugs.php.net/bug.php?id=10162>`__
 
-See also https://qisthidev.medium.com/understanding-the-crucial-difference-vs-and-or-in-php-34dd9bb72c7e
+See also `Understanding the Crucial Difference: &&/|| vs. and/or in PHP <https://qisthidev.medium.com/understanding-the-crucial-difference-vs-and-or-in-php-34dd9bb72c7e>`_.
 
 Related : :ref:`Bitwise Operators <bitwise-operator>`, :ref:`Logical Operators <logical-operator>`

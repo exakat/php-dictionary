@@ -56,6 +56,6 @@ A decorator is a design pattern used to add behavior or responsibilities to obje
 
 `Documentation <https://refactoring.guru/design-patterns/decorator/php/example>`__
 
-See also https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members, https://muhammedsari.me/hands-on-decoration
+See also `Decorating Member Objects <https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members>`_ and `Hands-on decoration <https://muhammedsari.me/hands-on-decoration>`_.
 
 Related packages : `zbateson/stream-decorators <https://packagist.org/packages/zbateson/stream-decorators>`_

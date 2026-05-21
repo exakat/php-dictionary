@@ -41,6 +41,6 @@ Variable variables are denoted by the double dollar sign ``$$`` followed by the 
 
 `Documentation <https://www.php.net/manual/en/language.variables.variable.php>`__
 
-See also `The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-php-variable-variables>`_
+See also `0 <`The Dangers of PHP's $$ <https://andy-carter.com/blog/the-dangers-of-php-variable-variables>`_>`_.
 
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`compact() <compact>`, :ref:`extract() <extract>`, :ref:`Global Variables <global-variable>`, :ref:`global Scope <global>`, :ref:`$GLOBALS <globals>`, :ref:`$GLOBALS <$_globals>`, :ref:`Superglobal Variables <superglobal>`, :ref:`Superglobal Variables <super-global>`

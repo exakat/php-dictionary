@@ -45,6 +45,6 @@ Previously, PHP supported also Javascript-style and ASP-style tags, though these
 
 `Documentation <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`__
 
-See also https://www.w3resource.com/php/syntax/syntax.php
+See also `PHP Syntax and tags <https://www.w3resource.com/php/syntax/syntax.php>`_.
 
 Related : :ref:`Short Tags <short-tag>`, :ref:`Short Tags <short-open-tag>`

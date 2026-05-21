@@ -37,6 +37,6 @@ $argv
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.argv.php>`__
 
-See also https://code.tutsplus.com/get-command-line-arguments-with-php-argv-or-getopt--cms-39201t
+See also `Get Command-Line Arguments With PHP $argv or getopt() <https://code.tutsplus.com/get-command-line-arguments-with-php-argv-or-getopt--cms-39201t>`_.
 
 Related : :ref:`$argc <$argc>`, :ref:`PHP Variables <php-variable>`, :ref:`global Scope <global>`, :ref:`$GLOBALS <$globals>`, :ref:`Command Line Interface (CLI) <cli>`

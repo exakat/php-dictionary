@@ -27,7 +27,7 @@ Pagination is a technique used in web development to break down and display a la
 
 `Documentation <https://en.wikipedia.org/wiki/Pagination>`__
 
-See also https://www.tpointtech.com/php-pagination, https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php
+See also `PHP Pagination <https://www.tpointtech.com/php-pagination>`_ and `What is Pagination in PHP? Understanding The Fundamentals <https://www.simplilearn.com/tutorials/php-tutorial/pagination-in-php>`_.
 
 Related : :ref:`Dataset <dataset>`
 

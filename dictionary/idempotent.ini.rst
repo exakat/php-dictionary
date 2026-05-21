@@ -44,4 +44,4 @@ This is the case of strtolower() and strtoupper(): once the string has been made
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Glossary/Idempotent>`__
 
-See also https://en.wikipedia.org/wiki/Idempotence, https://medium.com/tech-vibes/designing-idempotent-php-apis-for-distributed-systems-c1b52b1862b1, https://wendelladriel.com/blog/idempotency-what-why-and-how
+See also `Idempotence <https://en.wikipedia.org/wiki/Idempotence>`_, `Designing Idempotent PHP APIs for Distributed Systems <https://medium.com/tech-vibes/designing-idempotent-php-apis-for-distributed-systems-c1b52b1862b1>`_ and `Idempotency: What, Why and How <https://wendelladriel.com/blog/idempotency-what-why-and-how>`_.

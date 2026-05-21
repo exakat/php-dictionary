@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Forum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A forum is a web application that allows users to hold structured discussions online","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Forum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Forum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 19:55:50 +0000","dateModified":"Wed, 20 May 2026 19:55:50 +0000","description":"A forum is a web application that allows users to hold structured discussions online","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Forum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Forum
@@ -35,13 +35,13 @@ It's one of the earliest and most common types of PHP web applications.
 
 PHP has a lot of forums. Here is a list: 
 
-+ ``phpBB <https://www.phpbb.com/>``_
-+ ``MyBB <https://mybb.com/>``_
-+ ``Flarum <https://flarum.org/>``_
-+ ``Simple Machines Forum (SMF) <https://www.simplemachines.org/>``_
-+ ``XenForo <https://xenforo.com/>``_
-+ ``PunBB <https://punbb.informer.com/>``_
-+ ``ElkArte <https://www.elkarte.net/>``_.
++ `phpBB <https://www.phpbb.com/>`_
++ `MyBB <https://mybb.com/>`_
++ `Flarum <https://flarum.org/>`_
++ `Simple Machines Forum (SMF) <https://www.simplemachines.org/>`_
++ `XenForo <https://xenforo.com/>`_
++ `PunBB <https://punbb.informer.com/>`_
++ `ElkArte <https://www.elkarte.net/>`_.
 
 
 Related : :ref:`Open Source <open-source>`, :ref:`Marketplace <marketplace>`, :ref:`Plugin <plugin>`

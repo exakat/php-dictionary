@@ -42,6 +42,6 @@ In computer science, base 2, 10 and 16 are quite common, and require conversion 
 
 `Documentation <https://en.wikipedia.org/wiki/Radix>`__
 
-See also https://oliverlundquist.com/2025/04/06/encoding-schemes-in-php.html
+See also `How to interact with Number Systems and Encoding Schemes in PHP <https://oliverlundquist.com/2025/04/06/encoding-schemes-in-php.html>`_.
 
 Related : :ref:`integer <integer>`, 

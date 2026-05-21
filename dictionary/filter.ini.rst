@@ -47,7 +47,7 @@ The ``filter`` extension is a built-in extension that provides an efficient way 
 
 `Documentation <https://www.php.net/manual/en/book.xmlwriter.php>`__
 
-See also https://www.geeksforgeeks.org/php-filter-and-filter-constant/
+See also `PHP Filter and Filter Constant <https://www.geeksforgeeks.org/php-filter-and-filter-constant/>`_.
 
 Related packages : `clue/stream-filter <https://packagist.org/packages/clue/stream-filter>`_, `laminas/laminas-filter <https://packagist.org/packages/laminas/laminas-filter>`_
 

@@ -28,7 +28,7 @@ Encapsulation relies mostly on classes and visibility, to control access to data
 
 This is a fundamental principle of OOP, promoting security, modularity, and maintainability.
 
-See also https://mohasin-dev.medium.com/encapsulation-in-php-with-example-cb7e715bb49e, https://www.lexo.ch/blog/2025/03/php-encapsulation-getters-setters/
+See also `Encapsulation in PHP with Example <https://mohasin-dev.medium.com/encapsulation-in-php-with-example-cb7e715bb49e>`_ and `mastering encapsulation in php: getters, setters, and access modifiers demystified <https://www.lexo.ch/blog/2025/03/php-encapsulation-getters-setters/>`_.
 
 Related : :ref:`OOP (Object Oriented Programming) <oop>`, :ref:`Class Getter Method <getter>`, :ref:`Class Setter Method <setter>`
 

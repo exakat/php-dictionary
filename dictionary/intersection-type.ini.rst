@@ -45,7 +45,7 @@ Intersection types don't work with scalar values, which are excluding one anothe
 
 `Documentation <https://www.php.net/manual/en/language.types.type-system.php#language.types.type-system.composite.intersection>`__
 
-See also https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/
+See also `How the New Intersection Types in PHP 8.1 Give You More Flexibility <https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Named Type <named-type>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`
 

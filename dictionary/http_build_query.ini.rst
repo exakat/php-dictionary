@@ -46,6 +46,6 @@ The reverse function for http_build_query() is parse_str(), which converts a que
 
 `Documentation <https://www.php.net/manual/en/function.http-build-query.php>`__
 
-See also https://reintech.io/blog/mastering-php-http-build-query-function
+See also `Mastering PHP's `http_build_query()` Function for URL Manipulation <https://reintech.io/blog/mastering-php-http-build-query-function>`_.
 
 Related : :ref:`Enumeration (enum) <enum>`, :ref:`Backed Enum <backed-enum>`, :ref:`parse_str() <parse_str>`

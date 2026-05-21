@@ -61,6 +61,6 @@ The SHA hashes re commonly used for password hashing and storage (although it is
 
 `Documentation <https://www.php.net/manual/en/function.hash.php>`__
 
-See also https://datatracker.ietf.org/doc/html/rfc3174
+See also `SHA1 <https://datatracker.ietf.org/doc/html/rfc3174>`_.
 
 Related : :ref:`git <git>`, :ref:`Hash <hash>`

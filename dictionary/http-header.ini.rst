@@ -45,6 +45,6 @@ In PHP, they are handled by the following functions : ``headers_sent()``, ``head
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers>`__
 
-See also https://datatracker.ietf.org/doc/html/rfc4229, https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+See also `RFC 4229 : HTTP Header Field Registrations <https://datatracker.ietf.org/doc/html/rfc4229>`_ and `HTTP headers list <https://en.wikipedia.org/wiki/List_of_HTTP_header_fields>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`

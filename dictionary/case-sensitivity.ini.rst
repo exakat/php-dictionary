@@ -71,6 +71,6 @@ The different case sensitivities in the language is balanced by the common pract
    ?>
 
 
-See also https://www.exakat.io/unraveling-the-quest-for-the-fastest-case-insensitive-char-comparison-in-php/
+See also `Unraveling the Quest for the Fastest Case Insensitive Char Comparison in PHP <https://www.exakat.io/unraveling-the-quest-for-the-fastest-case-insensitive-char-comparison-in-php/>`_.
 
 Related : :ref:`Name <name>`, :ref:`String <string>`

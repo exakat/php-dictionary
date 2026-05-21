@@ -55,6 +55,6 @@ As Matthias Verraes puts it: ``Don't limit yourself by PHP's single constructor.
 
 `Documentation <https://verraes.net/2014/06/named-constructors-in-php/>`__
 
-See also https://verraes.net/2014/06/named-constructors-in-php/, https://localheinz.com/articles/2022/03/26/naming-constructors-in-php/
+See also `Named Constructors in PHP <https://verraes.net/2014/06/named-constructors-in-php/>`_ and `Naming constructors in PHP <https://localheinz.com/articles/2022/03/26/naming-constructors-in-php/>`_.
 
 Related : :ref:`Static Method <static-method>`

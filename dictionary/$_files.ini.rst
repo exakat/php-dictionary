@@ -47,6 +47,6 @@ When a file upload form is submitted, PHP populates the ``$_FILES`` variable wit
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.files.php>`__
 
-See also https://www.php.net/manual/en/features.file-upload.post-method.php
+See also `POST method uploads <https://www.php.net/manual/en/features.file-upload.post-method.php>`_.
 
 Related : :ref:`File Upload <upload>`, :ref:`Incoming Data <incoming-data>`, :ref:`File Upload <file-upload>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`$_GET <$_get>`, :ref:`$_SERVER <$_server>`

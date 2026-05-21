@@ -30,6 +30,6 @@ There are also other container which come with PHP preinstalled, or which are bu
 
 `Documentation <https://www.docker.com/>`__
 
-See also https://hub.docker.com/_/php, https://hub.docker.com/r/circleci/php
+See also `php official image on Docker Hub <https://hub.docker.com/_/php>`_ and `circleci/php image on Docker Hub <https://hub.docker.com/r/circleci/php>`_.
 
 Related : :ref:`Deployment <deployment>`

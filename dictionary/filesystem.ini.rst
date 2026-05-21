@@ -36,7 +36,7 @@ A file system is a method or structure used by operating systems to organize, st
 
 `Documentation <https://en.wikipedia.org/wiki/File_system>`__
 
-See also https://www.php.net/manual/en/book.filesystem.php
+See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_.
 
 Related : :ref:`File <file>`, :ref:`Dir <dir>`, 
 

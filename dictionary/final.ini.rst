@@ -41,7 +41,7 @@ The final keyword cannot be used with the private keyword: a private method is n
 
 `Documentation <https://www.php.net/manual/en/language.oop5.final.php>`__
 
-See also https://verraes.net/2014/05/final-classes-in-php/, https://tomasvotruba.com/blog/2019/03/28/how-to-mock-final-classes-in-phpunit/, https://matthewdaly.co.uk/blog/2023/08/13/why-nearly-every-php-class-you-write-should-be-abstract-or-final/, https://ocramius.github.io/blog/when-to-declare-classes-final/
+See also `Final Classes: Open for Extension, Closed for Inheritance <https://verraes.net/2014/05/final-classes-in-php/>`_, `How to Mock Final Classes in PHPUnit <https://tomasvotruba.com/blog/2019/03/28/how-to-mock-final-classes-in-phpunit/>`_, `Why (nearly) every PHP class you write should be abstract or final <https://matthewdaly.co.uk/blog/2023/08/13/why-nearly-every-php-class-you-write-should-be-abstract-or-final/>`_ and `When to declare classes final <https://ocramius.github.io/blog/when-to-declare-classes-final/>`_.
 
 Related : :ref:`Overwrite <overwrite>`, :ref:`Private Visibility <private>`, :ref:`Abstract Class <abstract-class>`, :ref:`Abstract Keyword <abstract>`, :ref:`Static Constant <class-constant>`, :ref:`Final Class Constants <final-class-constant>`, :ref:`Fluent Interface <fluent-interface>`, :ref:`Object <object>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`
 

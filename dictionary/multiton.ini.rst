@@ -65,6 +65,6 @@ A multiton is a singleton which holds several instances of itself. Each instance
 
 `Documentation <https://en.wikipedia.org/wiki/Multiton_pattern>`__
 
-See also https://www.jakowicz.com/multitons-in-php/
+See also `Multiton in PHP <https://www.jakowicz.com/multitons-in-php/>`_.
 
 Related : :ref:`Singleton <singleton>`

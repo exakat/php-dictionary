@@ -42,6 +42,6 @@ Since PHP 8.2, and 8.3 for ``true``, those types are now standalone and can be u
 
 `Documentation <https://www.php.net/manual/en/language.types.singleton.php>`__
 
-See also https://www.designcise.com/web/tutorial/what-is-the-true-standalone-type-in-php
+See also `What's the 'true' Standalone Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-true-standalone-type-in-php>`_.
 
 Related : :ref:`Special Types <special-type>`, :ref:`Type System <type>`, :ref:`True <true>`, :ref:`False <false>`, :ref:`Null <null>`

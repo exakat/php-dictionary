@@ -47,6 +47,6 @@ Methods are also called member functions. Indeed, they are functions, but they b
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.properties-methods>`__
 
-See also https://www.infoq.com/articles/php8-functions-methods/
+See also `PHP 8 – Functions and Methods <https://www.infoq.com/articles/php8-functions-methods/>`_.
 
 Related : :ref:`Class <class>`, :ref:`__call() Method <-__call>`, :ref:`Default Parameter <default-parameter>`, :ref:`Fossilized Methods <fossilized-method>`, :ref:`Functions <function>`, :ref:`Properties <property>`, :ref:`Return <return>`, :ref:`Static Method <static-method>`, :ref:`Visibility <visibility>`, :ref:`Call Graph <call-graph>`, :ref:`Callbacks <callback>`, :ref:`Impure Function <impure-function>`, :ref:`Method Compatibility <method-compatibility>`, :ref:`Pure Function <pure-function>`, :ref:`Trait <trait>`

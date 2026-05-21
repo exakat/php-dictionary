@@ -52,6 +52,6 @@ Loose comparison is know to have changed significantly in PHP 8.0: in particular
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/
+See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_.
 
 Related : :ref:`Switch <switch>`, :ref:`Strict Comparison <strict-comparison>`

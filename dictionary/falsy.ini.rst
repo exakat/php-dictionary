@@ -43,6 +43,6 @@ There are some falsy values which are difficult to guess, as is illustrated belo
    ?>
 
 
-See also https://www.thisprogrammingthing.com/2021/Truthy-and-Falsy/, https://medium.com/@waqar-ahmed/php-tricky-true-false-examples-6d94c1db59a2
+See also `Truthy and Falsy in PHP <https://www.thisprogrammingthing.com/2021/Truthy-and-Falsy/>`_ and `PHP Tricky True False Examples <https://medium.com/@waqar-ahmed/php-tricky-true-false-examples-6d94c1db59a2>`_.
 
 Related : :ref:`Truthy <truthy>`, :ref:`False <false>`, :ref:`Boolean <boolean>`

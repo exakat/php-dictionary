@@ -74,6 +74,6 @@ The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to g
 
 `Documentation <https://www.php.net/manual/en/class.recursivetreeiterator.php>`__
 
-See also https://tuhinbepari.medium.com/standard-php-library-from-a-to-z-9bcb4d7b3aa8
+See also `Standard PHP Library From A to Z <https://tuhinbepari.medium.com/standard-php-library-from-a-to-z-9bcb4d7b3aa8>`_.
 
 Related : :ref:`RecursiveIterator <recursiveiterator>`

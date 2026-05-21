@@ -28,6 +28,6 @@ OWASP is famous for the TOP 10: a list of the top 10 threats to web applications
 
 `Documentation <https://owasp.org/>`__
 
-See also https://owasp.org/Top10/, https://slicker.me/php/security.htm
+See also `TOP 10 2021 <https://owasp.org/Top10/>`_ and `OWASP Top 10:2025 for PHP Developers <https://slicker.me/php/security.htm>`_.
 
 Related : :ref:`Security <security>`, :ref:`Audit <audit>`, :ref:`Vulnerability <vulnerability>`

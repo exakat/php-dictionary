@@ -46,6 +46,6 @@ The separator has to be a static string. For dynamic separators, there is the ``
 
 `Documentation <https://www.php.net/manual/en/function.implode.php>`__
 
-See also https://zerotomastery.io/blog/php-explode-beginners-guide/
+See also `Beginner's Guide to PHP explode() Function (With Code Examples!) <https://zerotomastery.io/blog/php-explode-beginners-guide/>`_.
 
 Related : :ref:`preg_split() <preg_split>`

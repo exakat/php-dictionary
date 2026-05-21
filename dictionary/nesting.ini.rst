@@ -78,4 +78,4 @@ Nesting creates more complex and intricate logic. It usually erodes readability 
 
 `Documentation <https://en.wikipedia.org/wiki/Nesting_(computing)>`__
 
-See also https://rollbar.com/blog/php-nested-try-catch/#
+See also `PHP Nested Try-Catch <https://rollbar.com/blog/php-nested-try-catch/#>`_.

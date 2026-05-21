@@ -44,6 +44,6 @@ The ``(void)`` cast is a special cast. It doesn't actually cast a value to ``voi
 
 `Documentation <https://www.php.net/manual/en/class.nodiscard.php>`__
 
-See also https://www.php.net/manual/en/migration85.new-features.php#migration85.new-features.core.nodiscard-attribute, https://www.amitmerchant.com/the-nodiscard-attribute-in-php-85/
+See also `#[\NoDiscard] attribute <https://www.php.net/manual/en/migration85.new-features.php#migration85.new-features.core.nodiscard-attribute>`_ and `Stop Ignoring Important Returns with PHP 8.5’s #[\NoDiscard] Attribute <https://www.amitmerchant.com/the-nodiscard-attribute-in-php-85/>`_.
 
 Related : :ref:`NoDiscard <nodiscard>`

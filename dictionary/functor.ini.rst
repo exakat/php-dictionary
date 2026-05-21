@@ -26,6 +26,6 @@ A functor is a type that can be ``mapped over``. It must implement a function, u
 
 `Documentation <https://en.wikipedia.org/wiki/Functor_(functional_programming)>`__
 
-See also https://www.kai-sassnowski.com/post/php-functors-1/, https://github.com/widmogrod/php-functional, https://gist.github.com/pwm/2eb1fa03fcd54d8d32c21546ba80aa16
+See also `Functional Programming Principles in PHP – Functors  <https://www.kai-sassnowski.com/post/php-functors-1/>`_, `PHP Functional by widmogrod <https://github.com/widmogrod/php-functional>`_ and `pwm/functor <https://gist.github.com/pwm/2eb1fa03fcd54d8d32c21546ba80aa16>`_.
 
 Related : :ref:`Functional Programming <functional-programming>`, :ref:`__invoke() Method <-__invoke>`

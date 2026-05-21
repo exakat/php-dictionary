@@ -25,4 +25,4 @@ Micro-framework
 
 Small, minimal framework that provide only the core essentials for routing and handling HTTP requests, without large stacks or heavy dependencies. Examples include: Slim, Lumen.
 
-See also https://www.slimframework.com/, https://github.com/flightphp/core, https://www.exakat.io/php-framework-list/
+See also `Slim <https://www.slimframework.com/>`_, `flightPHP <https://github.com/flightphp/core>`_ and `PHP frameworks <https://www.exakat.io/php-framework-list/>`_.

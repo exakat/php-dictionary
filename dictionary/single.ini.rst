@@ -46,6 +46,6 @@ Things that may be single:
    ?>
 
 
-See also https://www.exakat.io/1-2-3-php-operators/
+See also `1-2-3 operators <https://www.exakat.io/1-2-3-php-operators/>`_.
 
 Related : :ref:`Single Quotes Strings <single-quote>`, :ref:`Double <double>`, :ref:`Triple <triple>`, :ref:`Addition <addition>`, :ref:`Multiplication <multiplication>`

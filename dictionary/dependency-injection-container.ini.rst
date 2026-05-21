@@ -30,7 +30,7 @@ PSR-11 is related to containers.
 
 `Documentation <https://en.wikipedia.org/wiki/Dependency_injection>`__
 
-See also https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6, https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm
+See also `Dependency Injection (DI) Container in PHP <https://medium.com/tech-tajawal/dependency-injection-di-container-in-php-a7e5d309ccc6>`_ and `Create PHP Dependency Injection Container and Learn How Laravel Initiate Controller and Method with Dependency and Parameter <https://dev.to/emrancu/let-s-create-php-dependency-injection-container-24lm>`_.
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`PHP Standards Recommendations (PSR) <psr>`
 

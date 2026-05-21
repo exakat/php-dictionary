@@ -41,6 +41,6 @@ Objects may also be callable, when their class implement the magic method ``__in
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-See also https://www.designcise.com/web/tutorial/what-is-the-callable-type-in-php
+See also `What Is the callable Type in PHP? <https://www.designcise.com/web/tutorial/what-is-the-callable-type-in-php>`_.
 
 Related : :ref:`Callbacks <callback>`, :ref:`Closure <closure>`, :ref:`__invoke() Method <-__invoke>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Callable Arrays <array-callable>`, :ref:`Call <call>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Special Types <special-typehint>`

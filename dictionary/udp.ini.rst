@@ -54,6 +54,6 @@ In PHP, UDP is supported through socket programming. PHP provides functions to c
 
 `Documentation <https://en.wikipedia.org/wiki/User_Datagram_Protocol>`__
 
-See also https://medium.com/@.Chromax/building-a-udp-server-gaming-client-and-tic-tac-toe-game-with-php-83409d89896e, https://www.robertprice.co.uk/robblog/using_php_to_send_a_udp_message-shtml/
+See also `Building a UDP Server, Gaming Client, and Tic-Tac-Toe Game with PHP <https://medium.com/@.Chromax/building-a-udp-server-gaming-client-and-tic-tac-toe-game-with-php-83409d89896e>`_ and `Using PHP To Send A UDP Message <https://www.robertprice.co.uk/robblog/using_php_to_send_a_udp_message-shtml/>`_.
 
 Related : :ref:`TCP <tcp>`, :ref:`Internet Protocol (IP) <ip>`

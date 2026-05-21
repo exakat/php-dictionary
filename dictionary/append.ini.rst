@@ -47,6 +47,6 @@ The opposite operation is a pop, with the function ``array_pop()``. ``array_unsh
 
 `Documentation <https://www.php.net/manual/en/language.operators.array.php>`__
 
-See also https://www.php.net/manual/en/function.array-push.php
+See also `array_push <https://www.php.net/manual/en/function.array-push.php>`_.
 
 Related : :ref:`Array Prepend <prepend>`

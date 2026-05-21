@@ -46,6 +46,6 @@ Dynamic is a common concept in PHP, and may be used in three distinct situations
    ?>
 
 
-See also https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/
+See also `All the Dynamic Syntaxes in PHP <https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/>`_.
 
 Related : :ref:`Dynamic Call <dynamic-call>`, :ref:`Dynamic Constant <dynamic-constant>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`Dynamic Loading <dynamic-loading>`, :ref:`Dynamic Variable <dynamic-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`static <static>`

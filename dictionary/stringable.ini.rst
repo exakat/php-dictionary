@@ -48,7 +48,7 @@ Stringable is automatically added to any class (and subclass) that has the ``__t
 
 `Documentation <https://www.php.net/manual/en/class.stringable.php>`__
 
-See also https://www.tutorialspoint.com/what-is-stringable-interface-in-php-8, https://php.watch/versions/8.0/stringable, https://spatie.be/courses/front-line-php/the-stringable-interface
+See also `What is Stringable Interface in PHP 8? <https://www.tutorialspoint.com/what-is-stringable-interface-in-php-8>`_, `PHP 8.0: New Stringable interface <https://php.watch/versions/8.0/stringable>`_ and `The Stringable interface <https://spatie.be/courses/front-line-php/the-stringable-interface>`_.
 
 Related : :ref:`String <string>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`__toString() Method <-__tostring>`
 

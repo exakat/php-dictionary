@@ -29,6 +29,6 @@ Timing attacks may be mitigated by using the ``hash_equals()`` function, instead
 The attack relies on trying various strings, and detecting when the comparison fails early or late to infer which part of the string is valid or not. 
 
 
-See also https://www.zend.com/blog/php-vulnerabilities, https://ephort.dk/blog/laravel-timing-attack-vulnerability
+See also `PHP Vulnerabilities: Assessment, Prevention, and Mitigation <https://www.zend.com/blog/php-vulnerabilities>`_ and `Timing Attack in Laravel (2022) <https://ephort.dk/blog/laravel-timing-attack-vulnerability>`_.
 
-Related : :ref:`Vulnerability <vulnerability>`, :ref:`Attack <attack>`, 
+Related : :ref:`Vulnerability <vulnerability>`, :ref:`Attack <attack>`, :ref:`hash_equals() <hash_equals>`

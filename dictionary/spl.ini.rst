@@ -50,6 +50,6 @@ One of the most famous SPL features is the function spl_autoload_register(), whi
 
 `Documentation <https://www.php.net/manual/en/book.spl.php>`__
 
-See also https://reintech.io/blog/php-spl-standard-library-functions-classes
+See also `PHP and SPL: Standard PHP Library Functions and Classes <https://reintech.io/blog/php-spl-standard-library-functions-classes>`_.
 
 Related : :ref:`Class Autoloading <autoload>`, :ref:`Datastack <datastack>`, :ref:`DirectoryIterator <directoryiterator>`, :ref:`Iterator <iterator>`, :ref:`UnexpectedValueException <unexpectedvalueexception>`

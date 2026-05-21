@@ -43,6 +43,6 @@ This interface ensure the ``enum::tryFrom()`` and ``enum::from()`` methods and t
 
 `Documentation <https://www.php.net/manual/en/class.backedenum.php>`__
 
-See also https://medium.com/@kczereczon/usage-php-unitenum-cases-in-testing-cf178a5ac372
+See also `Use the PHP UnitEnum::cases() during testing <https://medium.com/@kczereczon/usage-php-unitenum-cases-in-testing-cf178a5ac372>`_.
 
 Related : :ref:`Enumeration (enum) <enum>`, :ref:`UnitEnum <unitenum>`, :ref:`String <string>`, :ref:`integer <int>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`

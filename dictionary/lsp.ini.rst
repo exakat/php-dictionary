@@ -28,6 +28,6 @@ LSP is an acronym that has several meanings:
 + the Language Service Protocol, which provides language intelligence
 
 
-See also https://php.watch/articles/php-lsp
+See also `Liskov Substitution Principle in PHP <https://php.watch/articles/php-lsp>`_.
 
 Related : :ref:`Liskov Substitution Principle (LSP) <liskov>`, :ref:`LSP <language-service-protocol>`

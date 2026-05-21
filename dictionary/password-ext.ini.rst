@@ -35,6 +35,6 @@ The Password API, or extension, is a part of the Core of PHP, which provides an 
 
 `Documentation <https://www.php.net/manual/en/ref.password.php>`__
 
-See also https://reintech.io/blog/php-password-hashing-securely-storing-verifying-passwords
+See also `PHP and Password Hashing: Securely Storing and Verifying Passwords <https://reintech.io/blog/php-password-hashing-securely-storing-verifying-passwords>`_.
 
 Related : :ref:`Secret <secret>`, , :ref:`Hash <hash>`, :ref:`Password <password>`

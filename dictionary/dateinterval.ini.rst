@@ -46,6 +46,6 @@ DateInterval
 
 `Documentation <https://www.php.net/manual/en/class.dateinterval.php>`__
 
-See also https://darkghosthunter.medium.com/php-dominate-dates-with-intervals-and-periods-7e66351e6ce2
+See also `PHP: Dominate dates with intervals and periods <https://darkghosthunter.medium.com/php-dominate-dates-with-intervals-and-periods-7e66351e6ce2>`_.
 
 Related : :ref:`DateTime <datetimeimmutable>`, :ref:`DateTime <datetime>`, :ref:`Datetime Trap <datetime-trap>`

@@ -31,6 +31,6 @@ DNS requires the configuration of various records, with different types: ``A``, 
 
 `Documentation <https://en.wikipedia.org/wiki/Domain_Name_System>`__
 
-See also https://datatracker.ietf.org/doc/html/rfc1034, https://datatracker.ietf.org/doc/html/rfc1035
+See also `RFC-1034 <https://datatracker.ietf.org/doc/html/rfc1034>`_ and `RFC-1035 <https://datatracker.ietf.org/doc/html/rfc1035>`_.
 
 Related : :ref:`Internet Protocol (IP) <ip>`, , 

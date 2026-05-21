@@ -26,6 +26,6 @@ Magic is mostly used in the sentence: ``There is too much magic in this code``. 
 
 Magic has only a remote relationship to PHP's magic constants, magic numbers and magic methods.
 
-See also https://matthiasnoback.nl/2022/03/too-much-magic/
+See also `Too much magic? <https://matthiasnoback.nl/2022/03/too-much-magic/>`_.
 
 Related : :ref:`Magic Code <magic-in-the-code>`, :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Magic Property <magic-property>`, :ref:`Magic Numbers <magic-number>`, :ref:`Convention <convention>`, :ref:`Configuration <configuration>`

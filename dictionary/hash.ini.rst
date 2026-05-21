@@ -61,6 +61,6 @@ While the extension ``hash`` only process hashes, there are other extensions whi
 
 `Documentation <https://www.php.net/manual/en/book.hash.php>`__
 
-See also https://ssojet.com/hashing/numeric-hash-nhash-in-php
+See also `Numeric hash (nhash) in PHP <https://ssojet.com/hashing/numeric-hash-nhash-in-php>`_.
 
 Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`, :ref:`Argon2 <argon2>`, :ref:`Automatic Index <automatic-index>`, :ref:`Dictionary <dictionary>`, :ref:`Data Structure <ds>`, :ref:`Pound # <pound>`

@@ -26,6 +26,6 @@ The Liskov Substitution Principle states that an object from a class and a sub-o
 
 `Documentation <https://en.wikipedia.org/wiki/Liskov_substitution_principle>`__
 
-See also https://php.watch/articles/php-lsp, https://mohasin-dev.medium.com/how-to-use-liskov-substitution-principle-in-php-laravel-df253fd38c8
+See also `Liskov Substitution Principle in PHP <https://php.watch/articles/php-lsp>`_ and `Liskov Substitution Principle in PHP/Laravel <https://mohasin-dev.medium.com/how-to-use-liskov-substitution-principle-in-php-laravel-df253fd38c8>`_.
 
 Related : :ref:`Contravariance <type-contravariance>`, :ref:`Covariance <type-covariance>`, :ref:`LSP <lsp>`

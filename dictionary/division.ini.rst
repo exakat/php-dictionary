@@ -46,6 +46,6 @@ There is a function for the integer division: ``intdiv()``; and ``%`` for the mo
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
 
-See also https://www.php.net/manual/en/language.operators.array.php, https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php
+See also `Array operators <https://www.php.net/manual/en/language.operators.array.php>`_ and `Combining arrays using + versus array_merge in PHP <https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php>`_.
 
 Related : :ref:`Addition <addition>`, :ref:`Exponent <exponent>`, :ref:`Multiplication <multiplication>`, :ref:`Modulo <modulo>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`

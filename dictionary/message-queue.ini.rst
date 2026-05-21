@@ -26,7 +26,7 @@ A message queue server is a middleware component or service that facilitates com
 
 Message queues are commonly used in scenarios where components need to communicate and exchange data without requiring immediate responses or direct interaction. This decoupling of components through asynchronous communication offers several advantages, including improved scalability, fault tolerance, and responsiveness.
 
-See also https://blog.iron.io/best-lightweight-php-message-queue/
+See also `Best Lightweight PHP Message Queue <https://blog.iron.io/best-lightweight-php-message-queue/>`_.
 
 Related : :ref:`Jobqueue <jobqueue>`
 

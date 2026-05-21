@@ -53,6 +53,6 @@ Simpler search tools include ``str_contains()`` and ``strpos()``, and more compl
 
 `Documentation <https://www.php.net/manual/en/function.fnmatch.php>`__
 
-See also https://reintech.io/blog/understanding-implementing-php-fnmatch-function
+See also `Understanding and Implementing PHP's fnmatch() Function <https://reintech.io/blog/understanding-implementing-php-fnmatch-function>`_.
 
 Related : :ref:`str_contains() <str_contains>`, :ref:`strpos <strpos>`, :ref:`Preg_match <preg_match>`, :ref:`Star * <star>`, :ref:`Bang ! <bang>`, :ref:`Square Brackets <square-bracket>`, :ref:`Question Mark ? <question-mark>`, :ref:`Backslash \ <back-slash>`

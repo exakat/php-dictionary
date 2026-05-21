@@ -30,6 +30,6 @@ There are 22 PSR at the moment, covering subjects such as cache, factories, log,
 
 `Documentation <https://www.php-fig.org/psr/>`__
 
-See also https://github.com/jbboehr/php-psr, https://medium.com/@mickdes/why-you-should-implement-php-coding-standards-psr-in-your-projects-0440f6653099, https://www.juststeveking.com/articles/the-psr-standards-you-are-probably-ignoring/
+See also `PHP extension providing the accepted PSR interfaces <https://github.com/jbboehr/php-psr>`_, `Why You Should Implement PHP Coding Standards (PSR) in Your Projects <https://medium.com/@mickdes/why-you-should-implement-php-coding-standards-psr-in-your-projects-0440f6653099>`_ and `The PSR Standards You Are Probably Ignoring <https://www.juststeveking.com/articles/the-psr-standards-you-are-probably-ignoring/>`_.
 
 Related : :ref:`Framework Interoperability Group (FIG) <php-fig>`

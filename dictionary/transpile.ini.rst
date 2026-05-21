@@ -31,6 +31,6 @@ There are also languages that are converted to PHP, such as Haxe.
 
 `Documentation <https://kinsta.com/blog/transpiling-php/>`__
 
-See also https://www.codeconvert.ai/php-to-kotlin-converter, https://joeferguson.me/php-to-rust-via-copilot/, https://haxe.org/
+See also `Online PHP to Kotlin Converter <https://www.codeconvert.ai/php-to-kotlin-converter>`_, `PHP to Rust via Copilot <https://joeferguson.me/php-to-rust-via-copilot/>`_ and `Haxe to PHP <https://haxe.org/>`_.
 
 Related : :ref:`Compile <compile>`, :ref:`Linting <lint>`, :ref:`Syntax <syntax>`

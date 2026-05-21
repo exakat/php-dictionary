@@ -41,6 +41,6 @@ There is also ``PHP_INT_MAX``, which is the positive version of ``PHP_INT_MIN``,
    ?>
 
 
-See also https://flatcoding.com/tutorials/php/php-int/
+See also `PHP Integers Guide: Types, Limits, and Conversions <https://flatcoding.com/tutorials/php/php-int/>`_.
 
 Related : :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`precision <precision>`

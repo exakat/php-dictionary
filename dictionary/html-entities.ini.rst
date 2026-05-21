@@ -34,6 +34,6 @@ HTML entities are useful in the HTML code, but they are confusing in a text file
 
 `Documentation <https://www.freeformatter.com/html-entities.html>`__
 
-See also https://phppot.com/php/php-htmlentites/
+See also `PHP htmlentities <https://phppot.com/php/php-htmlentites/>`_.
 
 Related : :ref:`Entities <entity>`

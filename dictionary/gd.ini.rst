@@ -43,4 +43,4 @@ GD is the name of a PHP extension that can manipulate several image formats (suc
 
 `Documentation <https://www.php.net/manual/en/book.image.php>`__
 
-See also https://github.com/libgd/libgd
+See also `GD Graphics (Draw) Library <https://github.com/libgd/libgd>`_.

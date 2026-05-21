@@ -30,7 +30,7 @@ TOML is considered as a cleaner, stricter alternative to INI, and more readable 
 
 `Documentation <https://toml.io/en/>`__
 
-See also https://laravel-news.com/toml-configuration-in-php
+See also `Introduction to TOML Configuration in PHP <https://laravel-news.com/toml-configuration-in-php>`_.
 
 Related : :ref:`Serde <serde>`
 

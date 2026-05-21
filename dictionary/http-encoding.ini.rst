@@ -54,6 +54,6 @@ PHP provides ``urlencode()`` and ``urldecode()`` to handle coding and decoding t
 
 `Documentation <https://en.wikipedia.org/wiki/Percent-encoding>`__
 
-See also https://www.php.net/urlencode, https://www.php.net/urldecode
+See also `urlencode() <https://www.php.net/urlencode>`_ and `urldecode() <https://www.php.net/urldecode>`_.
 
 Related : :ref:`Text Encoding <text-encoding>`

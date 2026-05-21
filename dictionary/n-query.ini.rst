@@ -36,6 +36,6 @@ As a result, the code ends up performing ``N+1`` queries, hence the name of ``N+
 
 `Documentation <https://www.freecodecamp.org/news/n-plus-one-query-problem/>`__
 
-See also https://laravel-news.com/laravel-n1-query-problems, https://lighthouse-php.com/master/performance/n-plus-one.html
+See also `Eloquent Performance: 4 Examples of N+1 Query Problems <https://laravel-news.com/laravel-n1-query-problems>`_ and `The N+1 Query Problem <https://lighthouse-php.com/master/performance/n-plus-one.html>`_.
 
 Related : :ref:`Loops <loop>`, :ref:`Batch <batch>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Simple Query Language (SQL) <sql>`

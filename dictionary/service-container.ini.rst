@@ -28,6 +28,6 @@ Instead of creating objects manually all over the code, the container build and 
 
 Services can be used across different parts of an application, reducing code duplication.
 
-See also https://symfony.com/doc/current/service_container.html, https://laravel.com/docs/13.x/container, https://leafphp.dev/docs/config/container
+See also `Service Container in Symfony <https://symfony.com/doc/current/service_container.html>`_, `Service Container in Laravel <https://laravel.com/docs/13.x/container>`_ and `Service Container <https://leafphp.dev/docs/config/container>`_.
 
 Related : :ref:`Encapsulation <encapsulation>`, :ref:`Dependency Injection <di>`, :ref:`Service <service>`

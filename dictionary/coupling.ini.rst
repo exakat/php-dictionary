@@ -66,6 +66,6 @@ The opposite of coupling is decoupling.
 
 `Documentation <https://en.wikipedia.org/wiki/Coupling_(computer_programming)>`__
 
-See also https://dev.to/franiglesias/dependencies-and-coupling-4365
+See also `Dependencies and coupling <https://dev.to/franiglesias/dependencies-and-coupling-4365>`_.
 
 Related : :ref:`Decoupling <decoupling>`, :ref:`Dependency <dependency>`

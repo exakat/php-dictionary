@@ -49,6 +49,6 @@ Note: this is the documentation from PHP.net.
 
 `Documentation <https://www.php.net/manual/en/function.halt-compiler.php>`__
 
-See also https://coderwall.com/p/ts2kva/use-__halt_compiler-to-well-halt-the-php-compiler
+See also `Use "__halt_compiler" to ... well, halt the PHP compiler <https://coderwall.com/p/ts2kva/use-__halt_compiler-to-well-halt-the-php-compiler>`_.
 
 Related : :ref:`Compile <compile>`, :ref:`Zend Engine <zend-engine>`, :ref:`PHP Engine <php-engine>`

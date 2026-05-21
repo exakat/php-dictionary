@@ -46,6 +46,6 @@ Snake case is often used for PHP native functions.
 
 `Documentation <https://stringcase.org/cases/snake/>`__
 
-See also https://stringcase.org/
+See also `stringcase website <https://stringcase.org/>`_.
 
 Related : :ref:`Pascal Case <pascal-case>`, :ref:`Camel Case <camel-case>`, :ref:`Constant Case <constant-case>`, :ref:`Underscore <underscore>`

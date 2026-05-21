@@ -26,6 +26,6 @@ NativePHP is a framework that allows PHP developers to build native desktop and 
 
 `Documentation <https://nativephp.com/>`__
 
-See also https://medium.com/bunhere/native-php-how-to-start-911b27b40791
+See also `NativePHP: how to start? <https://medium.com/bunhere/native-php-how-to-start-911b27b40791>`_.
 
 Related : :ref:`Framework <framework>`, :ref:`Application <application>`

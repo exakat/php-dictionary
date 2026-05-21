@@ -26,6 +26,6 @@ Scaffolding is the automated generation of PHP code to set up a complex operatio
 
 Frameworks such as CakePHP and Spiral offer scaffolding.
 
-See also https://getscaffold.dev/
+See also `Scaffold tool <https://getscaffold.dev/>`_.
 
 Related : :ref:`Boilerplate <boilerplate>`

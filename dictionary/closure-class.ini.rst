@@ -46,6 +46,6 @@ The ``Closure`` class offers methods to call the closure, bind it to new objects
 
 `Documentation <https://www.php.net/manual/en/class.closure.php>`__
 
-See also https://medium.com/@serhii.shkarupa/closures-in-php-54f18b2f9dc1
+See also `Closures in PHP <https://medium.com/@serhii.shkarupa/closures-in-php-54f18b2f9dc1>`_.
 
 Related : :ref:`Closure <closure>`

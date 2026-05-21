@@ -27,6 +27,6 @@ The WWW stands for World Wide Web: it represents the internet, as a network of c
 
 `Documentation <https://en.wikipedia.org/wiki/World_Wide_Web>`__
 
-See also https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web
+See also `History of the World Wide Web <https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web>`_.
 
 Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Webserver <webserver>`, :ref:`Browser <browser>`, :ref:`CAPTCHA <captcha>`, :ref:`Internet <internet>`, :ref:`Network <network>`

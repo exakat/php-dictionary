@@ -24,6 +24,6 @@ Vendor Lock-in
 
 Vendor lock-in is a situation where a user becomes dependent on a specific vendor's products or services, making it difficult, expensive, or risky to switch to another provider.
 
-See also https://www.deployhq.com/blog/understanding-vendor-lock-in-what-every-developer-needs-to-know, https://martinfowler.com/articles/oss-lockin.html
+See also `Understanding Vendor Lock-In: What Every Developer Needs to Know <https://www.deployhq.com/blog/understanding-vendor-lock-in-what-every-developer-needs-to-know>`_ and `Don't get locked up into avoiding lock-in <https://martinfowler.com/articles/oss-lockin.html>`_.
 
 Related : :ref:`Open Source <open-source>`

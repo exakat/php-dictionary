@@ -39,6 +39,6 @@ Web-spiders should limit their visits according to the ``robots.txt`` file, avai
 
 `Documentation <https://en.wikipedia.org/wiki/Web_crawler>`__
 
-See also https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/
+See also `What is a web crawler? | How web spiders work <https://www.cloudflare.com/learning/bots/what-is-a-web-crawler/>`_.
 
-Related : :ref:`Webscraping <webscraping>`, :ref:`robots.txt <robots.txt>`, :ref:`sitemap <sitemap>`, :ref:`Webserver <webserver>`
+Related : :ref:`Webscraping <webscraping>`, :ref:`robots\.txt <robots.txt>`, :ref:`sitemap <sitemap>`, :ref:`Webserver <webserver>`

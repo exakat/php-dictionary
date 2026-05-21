@@ -50,7 +50,7 @@ Converting an ``ArrayObject`` to an array is done with a cast ``(array)`` or a c
 
 `Documentation <https://www.php.net/manual/en/class.arrayobject.php>`__
 
-See also https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667
+See also `Array Objects in PHP <https://gist.github.com/Jeff-Russ/e1f64273a471d440e8b4d9183f9a2667>`_.
 
 Related : :ref:`Array <array>`, :ref:`Cast Operator <cast>`, :ref:`iterator_to_array() <iterator_to_array>`
 

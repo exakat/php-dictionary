@@ -40,6 +40,6 @@ The SVMException exception is thrown by the ``SVM::train()`` method. It happens 
 
 `Documentation <https://www.php.net/manual/en/book.svm.php>`__
 
-See also https://medium.datadriveninvestor.com/machine-learning-with-php-using-support-vector-machine-svm-via-ext-svm-37ef9c3027cd
+See also `Machine Learning with PHP: using Support Vector Machine (SVM) via ext-svm <https://medium.datadriveninvestor.com/machine-learning-with-php-using-support-vector-machine-svm-via-ext-svm-37ef9c3027cd>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`Support Vector Machine (SVM) <svm>`

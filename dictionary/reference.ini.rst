@@ -41,6 +41,6 @@ References allow creating multiple variables that refer to the same underlying v
 
 `Documentation <https://www.php.net/manual/en/language.references.php>`__
 
-See also https://www.elated.com/php-references/, https://www.tutorialspoint.com/php-spotting-references, https://erikpoehler.com/2023/01/15/references-in-php/
+See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_, `PHP Spotting References <https://www.tutorialspoint.com/php-spotting-references>`_ and `References in PHP <https://erikpoehler.com/2023/01/15/references-in-php/>`_.
 
 Related : :ref:`Variables <variable>`, :ref:`Weak References <weak-reference>`, :ref:`Alias <alias>`, :ref:`Dangling Reference <dangling-reference>`, :ref:`Garbage Collection <garbage-collection>`, :ref:`Recursive Array <recursive-array>`, :ref:`Self-reference <self-reference>`

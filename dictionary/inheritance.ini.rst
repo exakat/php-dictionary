@@ -49,6 +49,6 @@ Inheritance is a mechanism where a class is build from another class, and form a
 
 `Documentation <https://www.php.net/manual/en/language.oop5.inheritance.php>`__
 
-See also https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/
+See also `This is why PHP don't have multiple inheritance <https://www.amitmerchant.com/this-is-why-php-dont-have-multiple-inheritance/>`_.
 
 Related : :ref:`Class <class>`, :ref:`Class Hierarchy <class-hierarchy>`, :ref:`Composition <composition>`, :ref:`Constructor <constructor>`, :ref:`Operator Overloading <operator-overloading>`, :ref:`Overwrite <overwrite>`

@@ -29,6 +29,6 @@ Generally speaking, coders never come close to opcodes. The only occasion is whe
 
 `Documentation <https://www.php.net/manual/en/book.opcache.php>`__
 
-See also https://wp-rocket.me/wordpress-cache/what-is-opcache/
+See also `What is OPcache and How Do You Use It? <https://wp-rocket.me/wordpress-cache/what-is-opcache/>`_.
 
 Related : :ref:`PHP Engine <php-engine>`

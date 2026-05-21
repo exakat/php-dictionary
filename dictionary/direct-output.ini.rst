@@ -33,6 +33,6 @@ Direct output is the root for the infamous ``Headers already sent`` error.
 The alternative is to output to logs, or return the results.
 
 
-See also https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen
+See also `PHP: The Flexibility that can Make or Break your Team Project <https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen>`_.
 
 Related : :ref:`Interface <interface>`, , :ref:`Relay Function <relay-function>`, :ref:`Rigidity <rigidity>`

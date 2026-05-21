@@ -58,6 +58,6 @@ Tokens of a specific code are accessible via the function ``token_get_all()``.
    ?>
 
 
-See also https://www.php.net/token_get_all, https://www.php.net/manual/en/tokens.php
+See also `token_get_all <https://www.php.net/token_get_all>`_ and `List of Parser Tokens <https://www.php.net/manual/en/tokens.php>`_.
 
 Related : :ref:`Abstract Syntactic Tree (AST) <ast>`

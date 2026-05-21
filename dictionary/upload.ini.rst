@@ -48,6 +48,6 @@ File upload code is based on the $_FILES superglobal, and ``move_uploaded_file()
 
 `Documentation <https://www.php.net/manual/en/features.file-upload.post-method.php>`__
 
-See also https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php, https://slicker.me/php/secure_uploads.html, https://medium.com/@waiyan.toshima12/how-to-upload-files-in-php-step-by-step-guide-for-beginners-0015ce787763
+See also `Learn Everything About File Upload in PHP With Examples <https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php>`_, `Secure File Uploads in PHP <https://slicker.me/php/secure_uploads.html>`_ and `How to Upload Files in PHP (Step-by-Step Guide for Beginners) <https://medium.com/@waiyan.toshima12/how-to-upload-files-in-php-step-by-step-guide-for-beginners-0015ce787763>`_.
 
 Related : :ref:`$_FILES <$_FILES>`

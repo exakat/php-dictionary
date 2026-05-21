@@ -45,6 +45,6 @@ Bugs have many different varieties:
    ?>
 
 
-See also https://labs.detectify.com/security-guidance/modern-php-security-part-1-bug-classes/
+See also `Modern PHP Security Part 1: bug classes <https://labs.detectify.com/security-guidance/modern-php-security-part-1-bug-classes/>`_.
 
 Related : :ref:`Linting <linting>`

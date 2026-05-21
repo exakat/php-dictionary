@@ -29,6 +29,6 @@ In production environments, it is recommended to set ``display_errors`` to 0. Th
 
 `Documentation <https://www.php.net/manual/en/errorfunc.configuration.php#ini.display-errors>`__
 
-See also https://developer.wordpress.org/advanced-administration/security/hardening/display-errors/
+See also `Display Errors <https://developer.wordpress.org/advanced-administration/security/hardening/display-errors/>`_.
 
 Related : :ref:`Data Leak <data-leak>`, :ref:`Environment <environment>`

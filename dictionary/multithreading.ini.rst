@@ -28,6 +28,6 @@ Multithreading refers to the ability of a PHP application to execute multiple th
 
 `Documentation <https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)>`__
 
-See also https://medium.com/@edmond.ht/multithreading-in-php-looking-to-the-future-4f42a48e47fe
+See also `Multithreading in PHP: Looking to the Future <https://medium.com/@edmond.ht/multithreading-in-php-looking-to-the-future-4f42a48e47fe>`_.
 
 Related : :ref:`Asynchronous <asynchronous>`, :ref:`Thread <thread>`

@@ -35,6 +35,6 @@ The ``URI`` class is the class provided by the uri extension. It is build with a
    ?>
 
 
-See also https://laravel-news.com/php-85-introduces-a-new-uri-extension
+See also `PHP 8.5 Introduces a New URI Extension <https://laravel-news.com/php-85-introduces-a-new-uri-extension>`_.
 
 Related : :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Universal Resource Locator (URL) <url>`

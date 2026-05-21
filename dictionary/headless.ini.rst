@@ -30,4 +30,4 @@ In contrast, a headless website is designed with a clear separation of concerns.
 
 `Documentation <https://en.wikipedia.org/wiki/Headless_content_management_system>`__
 
-See also https://blog.fortrabbit.com/headless-php, https://netgen.io/blog/headless-possibilities-for-php, https://www.zend.com/blog/headless-cms-vs-traditional-cms
+See also `Decopuled systems. Frontend in JavaScript. Backend in PHP. Why. How. If. <https://blog.fortrabbit.com/headless-php>`_, `Headless possibilities for PHP <https://netgen.io/blog/headless-possibilities-for-php>`_ and `Headless CMS vs. Traditional CMS: Which Is Best for PHP Apps? <https://www.zend.com/blog/headless-cms-vs-traditional-cms>`_.

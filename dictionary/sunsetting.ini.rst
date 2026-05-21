@@ -37,6 +37,6 @@ Sunsetting a feature is a period of deprecation, where the feature is still avai
    ?>
 
 
-See also https://producthq.org/agile/product-management/how-to-sunset-a-feature/, https://www.intercom.com/blog/how-to-sunset-a-feature/
+See also `How to Sunset a Feature (2025) <https://producthq.org/agile/product-management/how-to-sunset-a-feature/>`_ and `How to sunset a feature <https://www.intercom.com/blog/how-to-sunset-a-feature/>`_.
 
 Related : :ref:`Feature <feature>`, :ref:`Deprecation <deprecation>`

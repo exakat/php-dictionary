@@ -49,6 +49,6 @@ To avoid this trap, use the ``DatetimeImmutable`` class. This class is not modif
 
 `Documentation <https://www.php.net/datetime>`__
 
-See also https://twitter.com/CodeWithKyrian/status/1727832972303143151, https://aiocollective.com/blog/php-datetime-difference-trap/, https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce
+See also `I just fell into the Date Trap in PHP <https://twitter.com/CodeWithKyrian/status/1727832972303143151>`_, `PHP DateTime difference – it’s a trap! <https://aiocollective.com/blog/php-datetime-difference-trap/>`_ and `What’s all this “immutable date” stuff, anyway? <https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce>`_.
 
 Related : :ref:`DateTime <datetime>`, :ref:`DateInterval <dateinterval>`

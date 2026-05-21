@@ -26,7 +26,7 @@ A collection is an array in which only elements of the same type can be stored.
 
 Collections may be build with array, or dedicated classes. There is native support for collections in PHP, although there are several packages.
 
-See also https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13, https://hackernoon.com/illuminate-collections-vs-php-arrays
+See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_ and `Illuminate Collections vs PHP Arrays <https://hackernoon.com/illuminate-collections-vs-php-arrays>`_.
 
 Related : :ref:`Enumeration (enum) <enum>`, :ref:`Hash <hash>`, :ref:`Associative Array <associative-array>`, :ref:`Index For Arrays <index-array>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Generics <generics>`
 

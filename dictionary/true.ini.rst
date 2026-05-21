@@ -43,6 +43,6 @@ True
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-See also https://flatcoding.com/tutorials/php/php-boolean-true-and-false/
+See also `PHP Boolean: Assigning True or False to a Variable <https://flatcoding.com/tutorials/php/php-boolean-true-and-false/>`_.
 
 Related : :ref:`Boolean <boolean>`, :ref:`Type System <type>`, :ref:`False <false>`, :ref:`Logical Operators <logical-operator>`, :ref:`Minus One -1 <minus-one>`, :ref:`PHP Natives <native-type>`, :ref:`Standalone Types <standalone-type>`, :ref:`Truthy <truthy>`

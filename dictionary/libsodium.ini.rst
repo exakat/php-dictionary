@@ -38,6 +38,6 @@ The library is integrated into PHP as an extension. It provides a lot of functio
 
 `Documentation <https://libsodium.gitbook.io/doc/>`__
 
-See also https://github.com/jedisct1/libsodium.git
+See also `libsodium on github <https://github.com/jedisct1/libsodium.git>`_.
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`OpenSSL <openssl>`

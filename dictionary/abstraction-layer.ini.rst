@@ -30,7 +30,7 @@ The underlying components may be of various shapes: ``PDO`` offers an abstractio
 
 `Documentation <https://en.wikipedia.org/wiki/Abstraction_layer>`__
 
-See also https://bytes.com/topic/php/insights/632487-creating-data-abstraction-layer-php
+See also `Creating a Data Abstraction Layer in PHP <https://bytes.com/topic/php/insights/632487-creating-data-abstraction-layer-php>`_.
 
 Related : :ref:`Stream <stream>`, :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
 

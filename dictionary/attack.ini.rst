@@ -30,6 +30,6 @@ Attack may be automated in various manner, from brute force campaign targetting 
 
 Attack may be blocked by appropriate counter measures, such as access blocking, bug fixing, configuration application, server moving, etc.
 
-See also https://www.zend.com/blog/php-vulnerabilities
+See also `PHP Vulnerabilities: Assessment, Prevention, and Mitigation <https://www.zend.com/blog/php-vulnerabilities>`_.
 
 Related : :ref:`Zero Day Vulnerability <zero-day>`, :ref:`Vulnerability <vulnerability>`, :ref:`Server <server>`

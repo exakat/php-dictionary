@@ -48,7 +48,7 @@ Docblock improve readability, enables IDE features and automate reference docume
 
 `Documentation <https://en.wikipedia.org/wiki/PHPDoc>`__
 
-See also https://docs.phpdoc.org/guide/references/phpdoc/index.html#phpdoc-reference
+See also `PHPDoc reference <https://docs.phpdoc.org/guide/references/phpdoc/index.html#phpdoc-reference>`_.
 
 Related : :ref:`Self-documenting <self-documenting>`, :ref:`Documentation <documentation>`, :ref:`Readability <readability>`
 

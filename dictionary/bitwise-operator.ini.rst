@@ -48,6 +48,6 @@ These operator differ from logical operators, which convert the value to boolean
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
-See also https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/, https://rodstaines.medium.com/bitmasks-and-bitwise-operators-in-php-1718b80cd50f
+See also `Are Bitwise Operators Still Relevant in Modern PHP? <https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/>`_ and `Bitmasks and Bitwise Operators in PHP <https://rodstaines.medium.com/bitmasks-and-bitwise-operators-in-php-1718b80cd50f>`_.
 
 Related : :ref:`Logical Operators <logical-operator>`, :ref:`Logical Operators <or>`, :ref:`And Operator <and>`, :ref:`Logical Operators <xor>`, :ref:`Short Assignations <short-assignation>`, :ref:`Bitfield <bitfield>`, :ref:`Boolean <boolean>`, :ref:`Bitmask <bitmask>`

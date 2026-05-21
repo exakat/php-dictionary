@@ -53,6 +53,6 @@ Return type are covariant: they get more or equally precise with each new child 
 
 `Documentation <https://www.php.net/manual/en/functions.returning-values.php>`__
 
-See also https://dev.to/karleb/return-types-in-php-3fip
+See also `Return Types In PHP <https://dev.to/karleb/return-types-in-php-3fip>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Return <return>`, :ref:`Covariance <type-covariance>`

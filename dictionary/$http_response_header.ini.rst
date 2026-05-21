@@ -46,7 +46,7 @@ This feature is deprecated since PHP 8.5.
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.httpresponseheader.php>`__
 
-See also https://www.tutorialspoint.com/article/php-http-response-header
+See also `PHP $http_response_header <https://www.tutorialspoint.com/article/php-http-response-header>`_.
 
 Related : :ref:`fopen() <fopen>`, :ref:`file_get_contents() <file_get_contents>`
 

@@ -45,6 +45,6 @@ In PHP, string functions are single-byte. When needed, extensions such as ``icon
    ?>
 
 
-See also https://medium.com/@gftea/character-encoding-ff9a14a10ec7
+See also `Character Encoding <https://medium.com/@gftea/character-encoding-ff9a14a10ec7>`_.
 
 Related : :ref:`Unicode <unicode>`, :ref:`UTF-8 <utf8>`, :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`, :ref:`Byte <byte>`

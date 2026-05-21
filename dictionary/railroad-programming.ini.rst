@@ -26,6 +26,6 @@ Railroad programming is a functional programming paradigm that manages flow cont
 
 The image comes from the sequence of step, expressed as a train track: one rail links the different successes, while the other rail links all the failures. It is possible to go from success to failure. 
 
-See also https://www.cakedc.com/yevgeny_tomenko/2024/12/23/railway-oriented-programming-a-functional-approach-to-error-handling, https://speakerdeck.com/stuartherbert/railway-oriented-programming-in-php
+See also `Railway Oriented Programming: A Functional Approach to Error Handling <https://www.cakedc.com/yevgeny_tomenko/2024/12/23/railway-oriented-programming-a-functional-approach-to-error-handling>`_ and `Railway-Oriented Programming in PHP <https://speakerdeck.com/stuartherbert/railway-oriented-programming-in-php>`_.
 
 Related : :ref:`Paradigm <paradigm>`

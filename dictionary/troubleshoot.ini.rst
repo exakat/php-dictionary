@@ -29,4 +29,4 @@ Troubleshoot applies to every aspect of the lifecycle of PHP: installation, runn
 
 `Documentation <https://en.wikipedia.org/wiki/Troubleshooting>`__
 
-See also https://h5p.org/documentation/troubleshooting-php, https://phpstan.org/user-guide/troubleshooting-types
+See also `Troubleshooting PHP <https://h5p.org/documentation/troubleshooting-php>`_ and `Troubleshooting Types <https://phpstan.org/user-guide/troubleshooting-types>`_.

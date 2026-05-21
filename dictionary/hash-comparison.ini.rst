@@ -44,4 +44,4 @@ Cryptographic hashes are usually represented by strings in PHP. As such, they ar
    ?>
 
 
-See also https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l
+See also `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_.

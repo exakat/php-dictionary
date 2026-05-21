@@ -26,7 +26,7 @@ Event-driven programming is a programming paradigm that focuses on the flow of a
 
 `Documentation <https://en.wikipedia.org/wiki/Event-driven_architecture>`__
 
-See also https://reactphp.org/, https://stitcher.io/blog/event-driven-php, https://www.sitepoint.com/an-introduction-into-event-loops-in-php/
+See also `ReactPHP <https://reactphp.org/>`_, `Event driven server in PHP <https://stitcher.io/blog/event-driven-php>`_ and `An Introduction into Event Loops in PHP <https://www.sitepoint.com/an-introduction-into-event-loops-in-php/>`_.
 
 Related : :ref:`Event Loop <event-loop>`
 

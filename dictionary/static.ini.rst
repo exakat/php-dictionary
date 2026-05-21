@@ -56,6 +56,6 @@ Static is a keyword for variables: those variables aren't removed at the end of 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-See also https://blog.devgenius.io/stop-using-static-in-php-b150527819b2, https://www.exakat.io/en/5-usages-of-static-keyword-in-php/, https://jobtensor.com/Tutorial/PHP/en/Variables
+See also `Stop using “static” in PHP <https://blog.devgenius.io/stop-using-static-in-php-b150527819b2>`_, `5 usages of static keyword in PHP <https://www.exakat.io/en/5-usages-of-static-keyword-in-php/>`_ and `Scope of Variables <https://jobtensor.com/Tutorial/PHP/en/Variables>`_.
 
 Related : :ref:`parent <parent>`, :ref:`Closure <closure>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Variables <variable>`, :ref:`Late Static Binding <late-static-binding>`, :ref:`Child Class <child-class>`, :ref:`Language Construct <language-construct>`, :ref:`Properties <property>`, :ref:`Self <self>`, :ref:`Dynamic <dynamic>`, :ref:`Special Types <special-typehint>`

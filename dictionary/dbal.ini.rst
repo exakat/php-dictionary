@@ -24,7 +24,7 @@ Database Abstraction Layer (DBAL)
 
 A Database Abstraction Layer, a DBAL, provides one unique interface to build, and execute queries on different databases. This is said to help with migration between different flavors of databases, yet SQL language usually prevents it.
 
-See also https://www.doctrine-project.org/
+See also `Doctrine <https://www.doctrine-project.org/>`_.
 
 Related : :ref:`Object Relational Mapping (ORM) <orm>`
 

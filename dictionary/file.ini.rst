@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A file is a named collection of data or information that is stored and organized on a computer's storage system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 14:17:26 +0000","dateModified":"Wed, 20 May 2026 14:17:26 +0000","description":"A file is a named collection of data or information that is stored and organized on a computer's storage system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 File
@@ -36,13 +36,13 @@ A file is a resource for recording data on a computer storage device, such as a 
    
    <?php
    
-   file_put_contents('file.txt', 'some text.');
+       file_put_contents('file.txt', 'some text.');
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Computer_file>`__
 
-See also https://www.php.net/manual/en/book.filesystem.php
+See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_.
 
-Related : :ref:`file:// <wrapper-file>`, :ref:`File System <filesystem>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Stream <stream>`, :ref:`Dir <dir>`, :ref:`File Extension <file-extension>`, :ref:`Magic Bytes <magic-byte>`, :ref:`Path <path>`, :ref:`zlib extension <zlib>`
+Related : :ref:`file:// <wrapper-file>`, :ref:`File System <filesystem>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Stream <stream>`, :ref:`Dir <dir>`, :ref:`File Extension <file-extension>`, :ref:`Magic Bytes <magic-byte>`, :ref:`Path <path>`, :ref:`zlib extension <zlib>`, :ref:`Configuration <configuration>`, :ref:`Existence <existence>`, :ref:`fopen() <fopen>`, :ref:`Permission <permission>`

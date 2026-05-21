@@ -32,6 +32,6 @@ Algorithmic complexity may be measured by metrics.
 
 `Documentation <https://en.wikipedia.org/wiki/Algorithmic_complexity>`__
 
-See also https://codesignal.com/learn/courses/mastering-algorithms-in-php-two-pointers-and-beyond/lessons/complexity-analysis-and-code-optimization-with-php, https://devopedia.org/algorithmic-complexity
+See also `Complexity analysis and code optimisation with PHP <https://codesignal.com/learn/courses/mastering-algorithms-in-php-two-pointers-and-beyond/lessons/complexity-analysis-and-code-optimization-with-php>`_ and `algorithmic complexity <https://devopedia.org/algorithmic-complexity>`_.
 
 Related : :ref:`Metrics <metrics>`, :ref:`Big-o-notation <big-o-notation>`

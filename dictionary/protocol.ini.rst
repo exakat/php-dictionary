@@ -37,6 +37,6 @@ In a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and rela
 
 `Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
 
-See also https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/
+See also `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_.
 
 Related : :ref:`Wrapper <wrapper>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, :ref:`php:// <wrapper-php>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`

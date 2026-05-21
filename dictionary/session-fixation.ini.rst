@@ -28,7 +28,7 @@ To prevent session fixation attacks, web applications should employ secure sessi
 
 `Documentation <https://owasp.org/www-community/attacks/Session_fixation>`__
 
-See also https://stackoverflow.com/questions/5081025/php-session-fixation-hijacking
+See also `PHP Session Fixation / Hijacking <https://stackoverflow.com/questions/5081025/php-session-fixation-hijacking>`_.
 
 Related : :ref:`Session <session>`, :ref:`Vulnerability <vulnerability>`
 

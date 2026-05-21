@@ -28,6 +28,6 @@ The community is known for its collaboration, innovation, and inclusivity, makin
 
 The community is recognizable via its various artefact, which go beyond the computer circles: logos, T-shirt, plush toys, legends, events, news stories, recurrent themes, think tanks, speakers, side projects, etc. 
 
-See also https://afilina.com/why-phpc-tv, https://phpreads.com/issue-4
+See also `A community-run video platform for PHP <https://afilina.com/why-phpc-tv>`_ and `A community gaining momentum <https://phpreads.com/issue-4>`_.
 
 Related : :ref:`Folklore <folklore>`, :ref:`Elephpant <elephpant>`

@@ -28,7 +28,7 @@ RAG is widely used in chatbots, search engines, and knowledge management systems
 
 `Documentation <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>`__
 
-See also https://dev.to/robertobutti/building-a-rag-retrieval-augmented-generation-system-in-php-with-neuron-ai-4jmo, https://symfony.com/doc/current/ai/cookbook/rag-implementation.html
+See also `Building a RAG (Retrieval-Augmented Generation) system in PHP with Neuron AI <https://dev.to/robertobutti/building-a-rag-retrieval-augmented-generation-system-in-php-with-neuron-ai-4jmo>`_ and `Implementing Retrieval Augmented Generation (RAG) <https://symfony.com/doc/current/ai/cookbook/rag-implementation.html>`_.
 
 Related : :ref:`Vector Database <vector-database>`, :ref:`Large Language Model (LLM) <llm>`, :ref:`Model Context Protocol (MCP) <mcp>`
 

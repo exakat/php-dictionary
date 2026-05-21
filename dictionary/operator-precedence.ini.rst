@@ -51,6 +51,6 @@ Also, ``$a = $b & $c;`` means that ``$a = $b;``, because ``=`` has a higher prio
 
 `Documentation <https://www.php.net/manual/en/language.operators.precedence.php#language.operators.precedence>`__
 
-See also https://flatcoding.com/tutorials/php/understanding-the-php-operator-precedence/, https://www.dinocajic.com/php-operator-precedence/
+See also `Understanding the PHP Operator Precedence <https://flatcoding.com/tutorials/php/understanding-the-php-operator-precedence/>`_ and `Which Operators Come First? <https://www.dinocajic.com/php-operator-precedence/>`_.
 
 Related : :ref:`Operators <operator>`

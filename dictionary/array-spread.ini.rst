@@ -38,7 +38,7 @@ Array spread is the ellipsis operator, applied to an array. Then, the array itse
 
 `Documentation <https://www.php.net/manual/en/migration74.new-features.php#migration74.new-features.standard.array-merge-no-args>`__
 
-See also https://www.phptutorial.net/php-tutorial/php-spread-operator/
+See also `PHP Spread Operator <https://www.phptutorial.net/php-tutorial/php-spread-operator/>`_.
 
 Related : :ref:`Ellipsis <ellipsis>`
 

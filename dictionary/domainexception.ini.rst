@@ -50,6 +50,6 @@ Exception thrown if a value does not adhere to a defined valid data domain. For 
 
 `Documentation <https://www.php.net/manual/en/class.domainexception.php>`__
 
-See also https://devdocs.prestashop-project.org/9/development/architecture/domain/domain-exceptions/, https://kanishkame.medium.com/custom-exceptions-in-php-building-your-own-error-handling-system-83b8df4f58f5
+See also `Domain exceptions in Prestashop <https://devdocs.prestashop-project.org/9/development/architecture/domain/domain-exceptions/>`_ and `Custom Exceptions in PHP: Building Your Own Error Handling System <https://kanishkame.medium.com/custom-exceptions-in-php-building-your-own-error-handling-system-83b8df4f58f5>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`RangeException <rangeexception>`

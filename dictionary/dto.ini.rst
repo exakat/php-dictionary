@@ -30,6 +30,6 @@ DTO are easily confused with Value Object: the first one's role is to carry data
 
 `Documentation <https://en.wikipedia.org/wiki/Data_transfer_object>`__
 
-See also https://laravel-news.com/data-transfer-object-v3-php-8, https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/
+See also `Data Transfer Object V3 Modernizes DTOs With PHP 8 Features <https://laravel-news.com/data-transfer-object-v3-php-8>`_ and `Is it a DTO or a Value Object? <https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/>`_.
 
 Related : :ref:`Value Object (VO) <vo>`

@@ -51,6 +51,6 @@ The values are in the same order than in the original array.
 
 `Documentation <https://www.php.net/manual/en/function.array-values.php>`__
 
-See also https://www.php.net/manual/en/function.array-values.php
+See also `array_first() Function <https://www.php.net/manual/en/function.array-values.php>`_.
 
 Related : :ref:`array_keys() <array_keys>`

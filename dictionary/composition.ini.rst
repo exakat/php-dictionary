@@ -63,6 +63,6 @@ Composition is the creation of new classes, by including other classes, and deli
 
 `Documentation <https://en.wikipedia.org/wiki/Object_composition>`__
 
-See also https://wendelladriel.com/blog/composition-over-inheritance-in-php, https://mohasin-dev.medium.com/object-composition-in-php-with-example-ce5855b0473b
+See also `Composition Over Inheritance in PHP <https://wendelladriel.com/blog/composition-over-inheritance-in-php>`_ and `Object composition in PHP with Example <https://mohasin-dev.medium.com/object-composition-in-php-with-example-ce5855b0473b>`_.
 
 Related : :ref:`Inheritance <inheritance>`

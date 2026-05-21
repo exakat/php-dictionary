@@ -46,6 +46,6 @@ In terms of maintenance, it hides some implementation details in the result: one
 
 `Documentation <https://www.php.net/manual/en/class.locale.php>`__
 
-See also https://github.com/gizmore/php-preprocessor
+See also `PP: php-preprocessor <https://github.com/gizmore/php-preprocessor>`_.
 
 Related : :ref:`PHP, Hypertext Preprocessor (PHP) <php>`, :ref:`Performance <performance>`

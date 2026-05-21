@@ -28,6 +28,6 @@ There are good injections, such as the dependency injection.
 
 There are bad injections: all the security ones. SQL injection, PHP code injection, CSV injection, XML injection, etc. Those attempt to change reroute the execution of the method to gain access to unprotected resources.
 
-See also https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/PHP/
+See also `Server Side Template Injection - PHP <https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/PHP/>`_.
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL Injection <sql-injection>`, :ref:`Code Injection <code-injection>`, :ref:`CSV Injection <csv-injection>`

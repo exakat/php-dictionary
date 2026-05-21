@@ -50,6 +50,6 @@ PHP is a dynamically typed language, which means that variable types are not exp
 
 `Documentation <https://www.php.net/manual/en/class.typeerror.php>`__
 
-See also https://www.zipy.ai/blog/debug-php-typeerror
+See also `Guide to handling PHP TypeError: A step-by-step approach to fixing common programming errors <https://www.zipy.ai/blog/debug-php-typeerror>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`Throwable <throwable>`

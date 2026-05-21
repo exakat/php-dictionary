@@ -47,6 +47,6 @@ Process Control is a set of native PHP function, that handles signals coming fro
 
 `Documentation <https://www.php.net/manual/en/book.pcntl.php>`__
 
-See also https://gist.github.com/nicksantamaria/21dce5ff2a6640cdff76ce7bc57d2981
+See also `Example: Parallel processing in PHP using pcntl_fork() <https://gist.github.com/nicksantamaria/21dce5ff2a6640cdff76ce7bc57d2981>`_.
 
 Related : :ref:`PHP Handlers <handler>`, :ref:`Shell <shell>`, :ref:`System Event <system-event>`

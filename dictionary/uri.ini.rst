@@ -32,6 +32,6 @@ URI is closely related to URL, which provides the location of the desired resour
 
 `Documentation <https://en.wikipedia.org/wiki/URI>`__
 
-See also https://en.wikipedia.org/wiki/List_of_URI_schemes
+See also `List of URI schemes <https://en.wikipedia.org/wiki/List_of_URI_schemes>`_.
 
 Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`File <file>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`URI Class <uri-class>`, :ref:`URI Extension <uri-extension>`

@@ -53,6 +53,6 @@ The default comparison between elements may be adapted with ``sort()``'s paramet
 
 `Documentation <https://www.php.net/manual/en/function.sort.php>`__
 
-See also https://www.php.net/natsort
+See also `natural sort <https://www.php.net/natsort>`_.
 
 Related : :ref:`Array <array>`, :ref:`Closure <closure>`

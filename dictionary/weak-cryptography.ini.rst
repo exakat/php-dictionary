@@ -32,6 +32,6 @@ Weak cryptography refers to the use of:
 + Poor randomness, such as using rand() instead of random\random_bytes()
 + Improper implementations, such as ECB mode in block ciphers, custom crypto.
 
-See also https://derscanner.com/vulnerability-database/PHP-:-Weak-mode-for-encrypting-algorithm, https://docs.datadoghq.com/fr/security/code_security/static_analysis/static_analysis_rules/php-security/weak-hash-algorithm/
+See also `PHP : Weak mode for encrypting algorithm <https://derscanner.com/vulnerability-database/PHP-:-Weak-mode-for-encrypting-algorithm>`_ and `Do not use a weak hash algorithm <https://docs.datadoghq.com/fr/security/code_security/static_analysis/static_analysis_rules/php-security/weak-hash-algorithm/>`_.
 
 Related : :ref:`Cryptography <cryptography>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, :ref:`Vulnerability <vulnerability>`

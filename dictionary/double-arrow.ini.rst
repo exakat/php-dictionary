@@ -43,6 +43,6 @@ The double arrow is used in several situations:
    ?>
 
 
-See also https://www.php.net/manual/en/tokens.php, https://medium.com/@tajbidtousif/understanding-the-difference-between-and-in-php-and-laravel-60f8a38fc5be
+See also `List of Parser Tokens <https://www.php.net/manual/en/tokens.php>`_ and `Understanding the Difference between -> and => in PHP and Laravel <https://medium.com/@tajbidtousif/understanding-the-difference-between-and-in-php-and-laravel-60f8a38fc5be>`_.
 
 Related : :ref:`Arrow Functions <arrow-function>`, :ref:`List <list>`, :ref:`Yield <yield>`, :ref:`Property Hook <property-hook>`, :ref:`Comparison <comparison>`, :ref:`Object Operator -> <object-operator>`

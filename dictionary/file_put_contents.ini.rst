@@ -39,6 +39,6 @@ The function also include options to handle concurrency with locks; to append da
 
 `Documentation <https://www.php.net/manual/en/function.file-put-contents.php>`__
 
-See also https://reintech.io/blog/practical-guide-php-file-put-contents-function, https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html
+See also `A Practical Guide to PHP's `file_put_contents()` Function <https://reintech.io/blog/practical-guide-php-file-put-contents-function>`_ and `file_put_contents() With Array Argument <https://php-tips.readthedocs.io/en/latest/tips/file_put_array.html>`_.
 
 Related : :ref:`include_path <include_path>`, :ref:`Lock <lock>`, :ref:`Concurency <concurency>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Empty String <empty-string>`, :ref:`Array <array>`, :ref:`File Mode <file-mode>`, :ref:`php://memory <php-memory>`, :ref:`php://output <php-output>`, :ref:`php://tmp <php-tmp>`

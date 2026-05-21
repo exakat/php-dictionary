@@ -45,6 +45,6 @@ Debugging include executing the code step by step, displaying and modifying the 
    ?>
 
 
-See also https://www.xdebug.org/, https://www.php.net/manual/en/book.phpdbg.php, https://github.com/kint-php/kint, https://github.com/filp/whoops, http://krumo.kaloyan.info/, https://github.com/Protoqol/Quo
+See also `Xdebug <https://www.xdebug.org/>`_, `Interactive PHP Debugger <https://www.php.net/manual/en/book.phpdbg.php>`_, `Kint <https://github.com/kint-php/kint>`_, `Whoops <https://github.com/filp/whoops>`_, `Krumo <http://krumo.kaloyan.info/>`_ and `Quo <https://github.com/Protoqol/Quo>`_.
 
 Related : :ref:`Debug <debug>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`var_dump() <var_dump>`, :ref:`print_r() <print_r>`

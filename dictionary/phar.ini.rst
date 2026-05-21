@@ -38,4 +38,4 @@ Phar archives may be zipped.
 
 `Documentation <https://www.php.net/manual/en/book.phar.php>`__
 
-See also https://github.com/yannoff/phpcc
+See also `Phar executable compiling utility <https://github.com/yannoff/phpcc>`_.

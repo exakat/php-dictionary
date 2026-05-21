@@ -30,6 +30,6 @@ HTTP is related to HTTPS, the secure version of HTTP.
 
 `Documentation <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>`__
 
-See also https://dev.to/michiruf/copy-pasting-http-fakes-by-hand-laravel-http-automock-can-do-it-for-you-kok
+See also `Copy-Pasting HTTP Fakes by Hand? Laravel Http Automock Can Do It For You <https://dev.to/michiruf/copy-pasting-http-fakes-by-hand-laravel-http-automock-can-do-it-for-you-kok>`_.
 
 Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`, :ref:`Wrapper <wrapper>`, :ref:`Protocol <protocol>`, :ref:`HTTP Headers <http-header>`, :ref:`Cookie <cookie>`, :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`Query <query>`

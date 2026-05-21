@@ -47,7 +47,7 @@ This extension is meant to replace the ``parse_url()`` function. It also provide
 
 `Documentation <https://www.php.net/manual/en/book.uri.php>`__
 
-See also https://en.wikipedia.org/wiki/WHATWG, https://tools.ietf.org/html/rfc3986, https://www.infoworld.com/article/4094261/php-8-5-enables-secure-uri-and-url-parsing.html, https://www.php.net/manual/en/migration85.new-classes.php
+See also `WHATWG <https://en.wikipedia.org/wiki/WHATWG>`_, `RFC-3986 <https://tools.ietf.org/html/rfc3986>`_, `PHP 8.5 enables secure URI and URL parsing <https://www.infoworld.com/article/4094261/php-8-5-enables-secure-uri-and-url-parsing.html>`_ and `New Classes and Interfaces <https://www.php.net/manual/en/migration85.new-classes.php>`_.
 
 Related : :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`URI Class <uri-class>`
 

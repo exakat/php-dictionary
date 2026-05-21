@@ -44,6 +44,6 @@ This super-global is a PHP predefined variable, which holds a reference to every
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.globals.php>`__
 
-See also https://php.watch/versions/8.1/GLOBALS-restrictions, https://wpshout.com/php-globals-variable-scope-wordpress/#gref
+See also `PHP 8.1: $GLOBALS variable restrictions <https://php.watch/versions/8.1/GLOBALS-restrictions>`_ and `Understanding PHP Globals and Variable Scope in WordPress <https://wpshout.com/php-globals-variable-scope-wordpress/#gref>`_.
 
 Related : :ref:`$_ENV <$_env>`, :ref:`$_SERVER <$_server>`

@@ -29,6 +29,6 @@ PHP supports functions and global variables needed for Functional programming.
 
 A lot of legacy PHP code is written in a procedural style. It usually evolved to OOP, Object Oriented Programming.
 
-See also https://www.functionalphp.com/
+See also `Functional Programming in PHP · 2nd Edition <https://www.functionalphp.com/>`_.
 
 Related : :ref:`Functional Programming <functional-programming>`

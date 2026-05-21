@@ -54,6 +54,6 @@ The array should not use any string keys. It should only use index ``1`` and ``0
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-See also https://flatcoding.com/tutorials/php/understanding-the-php-callable-function/
+See also `PHP Callable & Callback: Pass a Function to Another <https://flatcoding.com/tutorials/php/understanding-the-php-callable-function/>`_.
 
 Related : :ref:`Callbacks <callback>`, :ref:`Closure <closure>`, :ref:`zero <zero>`, :ref:`one <one>`

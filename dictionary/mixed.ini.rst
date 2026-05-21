@@ -45,7 +45,7 @@ A ``mixed`` type may be also represented by a union of all possible types.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed>`__
 
-See also https://www.amitmerchant.com/mixed-type-php8/
+See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_.
 
 Related : :ref:`Type System <type>`
 

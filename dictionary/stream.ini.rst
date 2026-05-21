@@ -46,7 +46,7 @@ Streams may be extended with the notion of wrapper and protocols.
 
 `Documentation <https://www.php.net/manual/en/book.stream.php>`__
 
-See also https://dev.to/gabrieloliverio/streams-in-php-55kb
+See also `Streams in PHP: What you really need to know  <https://dev.to/gabrieloliverio/streams-in-php-55kb>`_.
 
 Related : :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`, :ref:`File <file>`, :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`php://memory <php-memory>`, :ref:`php://tmp <php-tmp>`
 

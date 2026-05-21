@@ -32,6 +32,6 @@ Disabled functions appear as undefined: in fact, they can also be redefined, wit
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
 
-See also https://kb.hosting.com/docs/php-disable_functions-directive
+See also `Disabling functions using the PHP disable_functions directive <https://kb.hosting.com/docs/php-disable_functions-directive>`_.
 
 Related : :ref:`Functions <function>`, :ref:`Preappend File Directive <auto_prepend_file>`, :ref:`Disable <disable>`, :ref:`Enable <enable>`

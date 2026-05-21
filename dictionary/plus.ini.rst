@@ -43,6 +43,6 @@ Plus +
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
 
-See also https://php-tips.readthedocs.io/en/latest/tips/cast_to_int.html
+See also `Another cast to int <https://php-tips.readthedocs.io/en/latest/tips/cast_to_int.html>`_.
 
 Related : :ref:`array_merge() <array_merge>`, :ref:`Sign <sign>`, :ref:`Addition <addition>`

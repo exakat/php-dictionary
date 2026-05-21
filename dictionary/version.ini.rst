@@ -30,6 +30,6 @@ Versions serve several purposes: tracking changes, Compatibility management, Rel
 
 `Documentation <https://en.wikipedia.org/wiki/Software_versioning>`__
 
-See also `Semantic versioning <https://semver.org/>`_, `Managing package versions in Packagist <https://packagist.org/about>`_
+See also `0 <`Semantic versioning <https://semver.org/>`_>`_ and `1 <`Managing package versions in Packagist <https://packagist.org/about>`_>`_.
 
 Related : :ref:`Release <release>`, :ref:`Semantic Versioning <semantic-versioning>`, :ref:`Upgrade <upgrade>`

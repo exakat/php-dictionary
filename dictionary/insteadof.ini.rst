@@ -62,7 +62,7 @@ When a class uses multiple traits that have methods or properties with the same 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict>`__
 
-See also https://linuxconfig.org/how-to-reuse-php-code-effectively-introduction-to-php-traits
+See also `How to Reuse PHP Code Effectively – Introduction to PHP traits <https://linuxconfig.org/how-to-reuse-php-code-effectively-introduction-to-php-traits>`_.
 
 Related : :ref:`Use <use>`
 

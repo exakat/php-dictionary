@@ -51,6 +51,6 @@ A factory is a design pattern used to create objects without exposing the instan
 
 `Documentation <https://refactoring.guru/design-patterns/factory-method/php/example>`__
 
-See also https://refactoring.guru/design-patterns/factory-method/php/example, https://medium.com/@bluznierca1/exploring-the-factory-pattern-in-php-8-2-d75f2de6f22e, https://dev.to/razielrodrigues/php-creational-patterns-factory-429c
+See also `Factory Method in PHP <https://refactoring.guru/design-patterns/factory-method/php/example>`_, `Exploring the Factory Pattern in PHP 8.2 <https://medium.com/@bluznierca1/exploring-the-factory-pattern-in-php-8-2-d75f2de6f22e>`_ and `PHP Tips | Exploring the Factory Pattern 🤖 <https://dev.to/razielrodrigues/php-creational-patterns-factory-429c>`_.
 
 Related : :ref:`Abstract Factory <abstract-factory>`

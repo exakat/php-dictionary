@@ -36,6 +36,6 @@ Error may be trigger manually with the trigger_error() function.
 
 `Documentation <https://www.php.net/manual/en/function.error-reporting.php>`__
 
-See also https://stackify.com/display-php-errors/
+See also `How to Display All PHP Errors: A Detailed Guide <https://stackify.com/display-php-errors/>`_.
 
 Related : :ref:`Error Handler <error-handler>`, :ref:`@, No Scream Operator <noscream>`, :ref:`html_errors <html_errors>`, :ref:`display_errors <display_errors>`

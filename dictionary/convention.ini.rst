@@ -30,6 +30,6 @@ There is also the concept of convention over configuration, where the common beh
 
 `Documentation <https://en.wikipedia.org/wiki/Coding_conventions>`__
 
-See also https://en.wikipedia.org/wiki/Convention_over_configuration, https://en.wikipedia.org/wiki/Principle_of_least_astonishment
+See also `Convention over configuration <https://en.wikipedia.org/wiki/Convention_over_configuration>`_ and `Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>`_.
 
 Related : :ref:`Configuration <configuration>`, :ref:`Naming <naming>`, :ref:`Best Practices <best-practice>`

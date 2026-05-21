@@ -55,6 +55,6 @@ Interfaces cannot have concrete methods.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-See also https://medium.com/@Amir_M4A/in-the-world-of-php-programming-there-are-several-key-concepts-that-developers-need-to-understand-b2ed1916287f
+See also `PHP: Abstract Classes, Interfaces, and Traits Explained <https://medium.com/@Amir_M4A/in-the-world-of-php-programming-there-are-several-key-concepts-that-developers-need-to-understand-b2ed1916287f>`_.
 
 Related : :ref:`Final Keyword <final>`, :ref:`Concrete Class <concrete>`, :ref:`Abstract Method <abstract-method>`

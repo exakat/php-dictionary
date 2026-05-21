@@ -56,6 +56,6 @@ The operator is called the ``no scream`` operator.
 
 `Documentation <https://www.php.net/manual/en/language.operators.errorcontrol.php>`__
 
-See also https://www.exakat.io/i-scream-you-scream-we-all-scream-for/
+See also `I scream, you scream, we all scream for @ no scream operator <https://www.exakat.io/i-scream-you-scream-we-all-scream-for/>`_.
 
 Related : :ref:`trigger_error() <trigger_error>`, :ref:`Error Reporting <error-reporting>`

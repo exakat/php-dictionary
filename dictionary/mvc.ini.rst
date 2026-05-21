@@ -30,7 +30,7 @@ MVC stands for Model - View - Controller. It is a programming paradigm, which pa
 
 `Documentation <https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`__
 
-See also https://www.guru99.com/php-mvc-frameworks.html, https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/, https://medium.com/@kardasch/mvc-model-view-controller-c324c5a150b5
+See also `PHP MVC Framework Tutorial: CodeIgniter Example <https://www.guru99.com/php-mvc-frameworks.html>`_, `How to build a simple PHP MVC framework <https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/>`_ and `MVC (Model-View-Controller) <https://medium.com/@kardasch/mvc-model-view-controller-c324c5a150b5>`_.
 
 Related : :ref:`Renderer <renderer>`, :ref:`Controller <controller>`, :ref:`Model <model>`, :ref:`View In Presentation <view-presentation>`, :ref:`View <view>`
 

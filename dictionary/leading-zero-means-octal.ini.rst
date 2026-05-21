@@ -44,6 +44,6 @@ Octals are mainly used with the mkdir() function, and special math domains.
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-See also https://php.watch/versions/8.1/explicit-octal-notation
+See also `PHP 8.1: Explicit Octal numeral notation <https://php.watch/versions/8.1/explicit-octal-notation>`_.
 
 Added in PHP 8.1

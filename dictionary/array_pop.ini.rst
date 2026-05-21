@@ -46,6 +46,6 @@ array_pop()
 
 `Documentation <https://www.php.net/manual/fr/function.array-pop.php>`__
 
-See also https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf
+See also `Introduction to Stacks & Queues in PHP <https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf>`_.
 
 Related : :ref:`Array Append <array-append>`, :ref:`array_push() <array_push>`, :ref:`First In, First Out (FIFO) <fifo>`

@@ -74,6 +74,6 @@ Sometimes, dynamic constants are also called variable constants.
 
 `Documentation <https://www.php.net/manual/en/function.constant.php>`__
 
-See also https://www.exakat.io/all-the-dynamic-syntaxes-in-php/
+See also `All the Dynamic Syntax in PHP <https://www.exakat.io/all-the-dynamic-syntaxes-in-php/>`_.
 
 Related : :ref:`Constants <constant>`, :ref:`constant() <constant-function>`, :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`Static Constant <class-constant>`, :ref:`Dynamic <dynamic>`

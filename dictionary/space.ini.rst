@@ -47,6 +47,6 @@ Spaces outside the PHP tags are important, as they are delivered as is to the cl
 
 `Documentation <https://en.wikipedia.org/wiki/Whitespace_character>`__
 
-See also https://designdebt.club/spaces-in-a-php-file/
+See also `Spaces in a PHP file. Unexpected output <https://designdebt.club/spaces-in-a-php-file/>`_.
 
 Related : :ref:`Heredocs <heredoc>`, :ref:`Indentation <indentation>`, :ref:`Non Breakable Spaces <non-breakable-space>`, :ref:`Nowdocs <nowdoc>`, :ref:`Tabulation <tabulation>`

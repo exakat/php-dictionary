@@ -53,6 +53,6 @@ Literal values are copied, while objects are only copied at the reference level:
 
 `Documentation <https://www.php.net/manual/en/function.array-pad.php>`__
 
-See also https://clouddevs.com/php/array_pad-function/
+See also `The Power of PHP’s array_pad() Function <https://clouddevs.com/php/array_pad-function/>`_.
 
 Related : :ref:`range() <range>`, :ref:`array_fill() <array_fill>`

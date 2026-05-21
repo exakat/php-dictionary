@@ -53,6 +53,6 @@ Plain Old PHP Object, or POPO for shorts, refers to a simple PHP class that does
    ?>
 
 
-See also https://medium.com/@damiankryger/popo-what-is-it-and-why-should-you-not-use-it-29c1487e2740, https://dev.to/fuadardiono/plain-old-php-object-usability-and-benefits-in-modern-php-programming-32oc, https://ivonascimento.com/2014/03/06/do-not-forget-popo-the-plain-old-php-object-approach/
+See also `POPO — What is it, and why should you not use it? <https://medium.com/@damiankryger/popo-what-is-it-and-why-should-you-not-use-it-29c1487e2740>`_, `Plain old PHP Object - Usability and benefits in modern PHP programming <https://dev.to/fuadardiono/plain-old-php-object-usability-and-benefits-in-modern-php-programming-32oc>`_ and `Do not Forget POPO, the Plain Old PHP Object approach <https://ivonascimento.com/2014/03/06/do-not-forget-popo-the-plain-old-php-object-approach/>`_.
 
 Related : :ref:`Data Transfer Object (DTO) <dto>`, :ref:`Value Object (VO) <vo>`, :ref:`stdclass <stdclass>`

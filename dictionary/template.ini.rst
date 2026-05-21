@@ -45,7 +45,7 @@ Some PHP template packages: Twig, Latte, Blade, smarty.
    
 
 
-See also https://www.virtualcuriosities.com/articles/5106/how-wordpress-tells-which-template-to-load-for-a-url
+See also `How WordPress Tells which Template to Load for a URL <https://www.virtualcuriosities.com/articles/5106/how-wordpress-tells-which-template-to-load-for-a-url>`_.
 
 Related : :ref:`View In Presentation <view-presentation>`, :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Markdown <markdown>`
 

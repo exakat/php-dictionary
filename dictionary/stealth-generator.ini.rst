@@ -42,4 +42,4 @@ A function becomes a generator as soon as the ``yield`` keyword is added to the 
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php>`__
 
-See also https://3v4l.org/p6niX
+See also `Stealth generator in action <https://3v4l.org/p6niX>`_.

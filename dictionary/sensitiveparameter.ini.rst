@@ -52,7 +52,7 @@ This prevent innocent mistakes, where reading the logs on the production server 
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
 
-See also https://flareapp.io/blog/57-sensitive-parameters-in-php-82
+See also `Sensitive parameters in PHP 8.2 <https://flareapp.io/blog/57-sensitive-parameters-in-php-82>`_.
 
 Related : :ref:`Attribute <attribute>`, :ref:`Security <security>`
 

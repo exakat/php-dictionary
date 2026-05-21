@@ -48,6 +48,6 @@ Being invokable means that an object may be used as a function name.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#object.invoke>`__
 
-See also https://www.juannicolas.eu/the-invoke-method-in-php/
+See also `The Magical invoke Method in PHP. Your Clean Code Ally <https://www.juannicolas.eu/the-invoke-method-in-php/>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__invoke() Method <-__invoke>`

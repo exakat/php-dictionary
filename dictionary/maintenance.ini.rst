@@ -26,4 +26,4 @@ Maintenance is the operation to keep a source code running, long time after it w
 
 Maintenance is also used to identify the period between two running versions of a software. To avoid interference with actual usage of the application, an application is put in maintenance mode, updated, and then, released from the maintenance mode. This notion of maintenance is related to operations and production.
 
-See also https://tomasvotruba.com/blog/how-we-maintain-dozens-of-symfony-workflows-with-peace
+See also `How we Maintain Dozens of Symfony Workflows with Peace <https://tomasvotruba.com/blog/how-we-maintain-dozens-of-symfony-workflows-with-peace>`_.

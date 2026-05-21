@@ -35,6 +35,6 @@ REST APIs are documented with OpenAPI, aka swagger.
 
 `Documentation <https://www.redhat.com/en/topics/api/what-is-a-rest-api>`__
 
-See also https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-php-8-0, https://www.openapis.org/
+See also `How To Use Web APIs in PHP 8.0 <https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-php-8-0>`_ and `OpenAPIs <https://www.openapis.org/>`_.
 
 Related : :ref:`Application Programming Interface (API) <api>`

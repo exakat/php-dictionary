@@ -56,6 +56,6 @@ When ``ArithmeticError`` are not raised, PHP may return a ``NaN`` value, and ``I
 
 `Documentation <https://www.php.net/manual/en/class.arithmeticerror.php>`__
 
-See also https://netgen.io/blog/modern-error-handling-in-php
+See also `Modern Error handling in PHP <https://netgen.io/blog/modern-error-handling-in-php>`_.
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Not A Number (NAN) <nan>`, :ref:`INF <inf>`, :ref:`zero <zero>`

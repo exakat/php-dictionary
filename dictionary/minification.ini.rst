@@ -57,7 +57,7 @@ Unminify is the contrary to minify.
    ?>
 
 
-See also https://rabbitloader.com/articles/minify-php/, https://php-minify.com/, https://dev.to/hexydec/the-state-of-minification-in-php-how-1-project-grew-into-6-536i
+See also `Minify PHP: Should you do it? The Helpful Tools For it? <https://rabbitloader.com/articles/minify-php/>`_, `PHP minify <https://php-minify.com/>`_ and `The State of Minification in PHP – How 1 Project Grew into 6 <https://dev.to/hexydec/the-state-of-minification-in-php-how-1-project-grew-into-6-536i>`_.
 
 Related : :ref:`Obfuscation <obfuscation>`
 

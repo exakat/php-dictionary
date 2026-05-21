@@ -43,6 +43,6 @@ Booleans have a related scalar type: ``bool``. There is also a special ``false``
 
 `Documentation <https://www.php.net/manual/en/language.types.boolean.php>`__
 
-See also https://dev.to/hurayraiit/understanding-php-types-booleans-256c
+See also `Understanding PHP Types – Booleans <https://dev.to/hurayraiit/understanding-php-types-booleans-256c>`_.
 
 Related : :ref:`Type Juggling <type-juggling>`, :ref:`Scalar Types <scalar-type>`, :ref:`False <false>`, :ref:`Falsy <falsy>`, :ref:`True <true>`, :ref:`Truthy <truthy>`, :ref:`Cast Operator <cast>`, :ref:`Bitwise Operators <bitwise-operator>`

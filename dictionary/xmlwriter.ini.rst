@@ -62,7 +62,7 @@ The ``XMLWriter`` extension offers several benefits when working with XML in PHP
 
 `Documentation <https://www.php.net/manual/en/book.xmlwriter.php>`__
 
-See also `PHP XMLWriter <https://www.educba.com/php-xmlwriter/>`_, `Create an XML file using XMLWriter <https://riptutorial.com/php/example/2731/create-an-xml-file-using-xmlwriter>`_
+See also `0 <`PHP XMLWriter <https://www.educba.com/php-xmlwriter/>`_>`_ and `1 <`Create an XML file using XMLWriter <https://riptutorial.com/php/example/2731/create-an-xml-file-using-xmlwriter>`_>`_.
 
 Related : :ref:`XMLReader <xmlreader>`, :ref:`Extensible Markup Language (XML) <xml>`
 

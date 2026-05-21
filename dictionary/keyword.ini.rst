@@ -50,6 +50,6 @@ While legit, it is usually recommended to avoid using PHP keywords as identifier
 
 `Documentation <https://www.php.net/manual/en/reserved.keywords.php>`__
 
-See also https://www.php.net/manual/en/reserved.other-reserved-words.php
+See also `List of other reserved words <https://www.php.net/manual/en/reserved.other-reserved-words.php>`_.
 
 Related : :ref:`Reserved Names <reserved-name>`

@@ -37,6 +37,6 @@ Often, the haystack is the first argument, and the needle the second one, althou
    ?>
 
 
-See also http://www.php.net/strstr, http://www.php.net/strpos, http://www.php.net/strrchr, http://www.php.net/array_search, https://teamtreehouse.com/community/what-is-needle-and-haystack-in-php
+See also `strstr <http://www.php.net/strstr>`_, `strpos <http://www.php.net/strpos>`_, `strrchr <http://www.php.net/strrchr>`_, `array_search <http://www.php.net/array_search>`_ and `what is 'needle' and 'haystack' in PHP ?? <https://teamtreehouse.com/community/what-is-needle-and-haystack-in-php>`_.
 
 Related : :ref:`Haystack <haystack>`

@@ -44,6 +44,6 @@ It is possible to reach PHP native function definitions on the php.net website b
 
 `Documentation <https://www.php.net/manual/en/language.functions.php>`__
 
-See also https://php-safari.com/, https://www.php.net/strlen
+See also `PHP Safari: see how they are used in the wild <https://php-safari.com/>`_ and `php.net/strlen <https://www.php.net/strlen>`_.
 
 Related : :ref:`Functions <function>`, 

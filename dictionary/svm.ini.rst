@@ -32,7 +32,7 @@ This acronym is easy to confuse with ``SVN``, which is a source control software
 
 `Documentation <https://www.php.net/manual/en/book.svm.php>`__
 
-See also https://github.com/ianbarber/php-svm, https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+See also `php-svm <https://github.com/ianbarber/php-svm>`_ and `Support Vector Machine — Introduction to Machine Learning Algorithms <https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47>`_.
 
 Related : :ref:`SVN <svn>`
 

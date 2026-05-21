@@ -38,6 +38,6 @@ The calendar extension provides functions to convert dates between different cal
 
 `Documentation <https://www.php.net/manual/en/book.calendar.php>`__
 
-See also https://codeshack.io/event-calendar-php/
+See also `Event Calendar with PHP <https://codeshack.io/event-calendar-php/>`_.
 
 Related : :ref:`DateTime <datetime>`, :ref:`DateInterval <dateinterval>`

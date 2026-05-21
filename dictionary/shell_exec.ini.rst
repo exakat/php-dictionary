@@ -35,6 +35,6 @@ The command has to be passed as a string.
    ?>
 
 
-See also https://www.geeksforgeeks.org/php/explain-the-difference-between-shell_exec-and-exec-functions/, https://www.linuxscrew.com/php-shell-exec
+See also `Explain the Difference Between shell_exec() and exec() Functions <https://www.geeksforgeeks.org/php/explain-the-difference-between-shell_exec-and-exec-functions/>`_ and `PHP shell_exec Function: How to Use It [With Examples] <https://www.linuxscrew.com/php-shell-exec>`_.
 
 Related : :ref:`Back-tick <backtick>`, :ref:`exec <exec>`

@@ -28,6 +28,6 @@ The alternative is the function API, which is a set of functions to execute feat
 
 Some PHP extensions have a dual object and function API, for example ``mysqli``, although they are rare.
 
-See also https://www.php.net/manual/fr/mysqli.construct.php
+See also `mysqli_connect <https://www.php.net/manual/fr/mysqli.construct.php>`_.
 
 Related : :ref:`mysqli <mysqli>`

@@ -46,7 +46,7 @@ A namespace may not be called ``namespace``. Otherwise, its name follows the sam
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.rationale.php>`__
 
-See also https://medium.com/@bluznierca1/understanding-php-namespaces-organising-your-code-ba2590c5e529
+See also `Understanding PHP Namespaces: Organising Your Code <https://medium.com/@bluznierca1/understanding-php-namespaces-organising-your-code-ba2590c5e529>`_.
 
 Related : :ref:`Use Alias <use-alias>`, :ref:`Fully Qualified Name <fully-qualified-name>`, :ref:`Subnamespaces <subnamespace>`, :ref:`Collision <collision>`, :ref:`global Scope <global>`, :ref:`Name <name>`, :ref:`Namespace Name <namespace-name>`
 

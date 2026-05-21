@@ -39,6 +39,6 @@ Identical operators are ``===``, ``!==``. The ``match()`` command also uses iden
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/
+See also `How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ? <https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/>`_.
 
 Related : :ref:`Comparison <comparison-operator>`, :ref:`Equal Operator <equal>`, :ref:`Match <match>`, :ref:`Relaxed Comparison <relaxed-comparison>`

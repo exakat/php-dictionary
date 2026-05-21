@@ -24,6 +24,6 @@ Docker Container
 
 A Docker container is a lightweight, standalone, executable unit of software that packages code and all its dependencies, like libraries, system tools, runtime, settings, so that the application runs quickly and reliably across different computing environments.
 
-See also https://hub.docker.com/_/php?xk=ShowRecommendedBadge&xt=Disabled, https://github.com/docker-library/php, https://codefresh.io/docs/docs/example-catalog/ci-examples/php/
+See also `php docker images <https://hub.docker.com/_/php?xk=ShowRecommendedBadge&xt=Disabled>`_, `docker library php <https://github.com/docker-library/php>`_ and `Create a Docker image for PHP <https://codefresh.io/docs/docs/example-catalog/ci-examples/php/>`_.
 
 Related : , :ref:`Deployment <deploiment>`, :ref:`System <os>`

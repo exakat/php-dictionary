@@ -40,6 +40,6 @@ C2-framework shall be used once a backdoor has been installed, to widen the cont
 
 `Documentation <https://en.wikipedia.org/wiki/Command_and_control>`__
 
-See also https://github.com/nil0x42/phpsploit
+See also `PHPSPLO1T <https://github.com/nil0x42/phpsploit>`_.
 
 Related : :ref:`Documentation <documentation>`

@@ -26,6 +26,6 @@ An LLM, or Large Language Model, is a type of artificial intelligence model desi
 
 `Documentation <https://en.wikipedia.org/wiki/Large_language_model>`__
 
-See also https://github.com/guilamu/llms-wordpress-plugin-benchmark/blob/main/README.md, https://medium.com/@leumas.a/from-arrays-to-gpu-how-the-php-ecosystem-is-moving-toward-real-ml-3e6d661e9abe, https://instructorphp.com/
+See also `I blind-tested 14 LLMs on a WordPress plugin task <https://github.com/guilamu/llms-wordpress-plugin-benchmark/blob/main/README.md>`_, `From Arrays to GPU — how the PHP ecosystem is moving toward real ML <https://medium.com/@leumas.a/from-arrays-to-gpu-how-the-php-ecosystem-is-moving-toward-real-ml-3e6d661e9abe>`_ and `LLMs, structured data, agents — one PHP SDK <https://instructorphp.com/>`_.
 
-Related : , 
+Related : :ref:`Artificial Intelligence (AI) <ai>`, :ref:`Neural Network <neural-network>`

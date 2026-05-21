@@ -33,6 +33,6 @@ SSA is used in the PHP engine, and it helps with several aspects of the executio
 
 `Documentation <https://en.wikipedia.org/wiki/Static_single-assignment_form>`__
 
-See also https://link.springer.com/chapter/10.1007/978-3-030-80515-9_24
+See also `Building SSA in a Compiler for PHP <https://link.springer.com/chapter/10.1007/978-3-030-80515-9_24>`_.
 
 Related : :ref:`Just In Time (JIT) <jit>`, :ref:`Performance <performance>`, :ref:`Static Code Analysis (SCA) <sca>`, :ref:`Control Flow Graph <control-flow-graph>`

@@ -47,6 +47,6 @@ hrtime() is a good replacement for microtime().
 
 `Documentation <https://www.php.net/manual/fr/function.hrtime.php>`__
 
-See also https://zetcode.com/php/hrtime/
+See also `PHP hrtime Function <https://zetcode.com/php/hrtime/>`_.
 
 Related : :ref:`microtime() <microtime>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strpos","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 May 2026 08:11:00 +0000","dateModified":"Tue, 19 May 2026 08:11:00 +0000","description":"``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a substring inside a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strpos.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strpos","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 09:23:43 +0000","dateModified":"Wed, 20 May 2026 09:23:43 +0000","description":"``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a substring inside a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strpos.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 strpos
@@ -53,6 +53,6 @@ It is often used to check if a string contains another string. When the presence
 
 `Documentation <https://www.php.net/manual/en/function.strpos.php>`__
 
-See also https://sivaramaaa.github.io/blog/prgm_vuln1.html
+See also `Strpos - vulnerability <https://sivaramaaa.github.io/blog/prgm_vuln1.html>`_.
 
-Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Identical Operator <identical>`, :ref:`str_contains() <str_contains>`, , , :ref:`Case Sensitivity <case-insensitive>`
+Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Identical Operator <identical>`, :ref:`str_contains() <str_contains>`, :ref:`str_starts_with() <str_starts_with>`, :ref:`str_ends_with() <str_ends_with>`, :ref:`Case Sensitivity <case-insensitive>`

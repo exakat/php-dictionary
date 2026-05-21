@@ -41,6 +41,6 @@ It was possible to use new lines within a namespace name, until PHP 8.0. This is
    ?>
 
 
-See also https://ssojet.com/special-characters/newline-n-in-php
+See also `Newline (\n) in PHP <https://ssojet.com/special-characters/newline-n-in-php>`_.
 
 Related : :ref:`Line Feed <line-feed>`, :ref:`Return Carriage <return-carriage>`, :ref:`PHP Constants <php-constant>`

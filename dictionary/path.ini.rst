@@ -29,6 +29,6 @@ A path is a representation of the location of a file or directory within the dir
 
 In PHP, path are represented by strings. The local OS's directory separator is stored in a constant called ``DIRECTORY_SEPARATOR``. Generally, the ``/`` is converted into the local dialect when needed, although there are special cases for the ``/``, aka root, string.
 
-See also https://php-path.readthedocs.io/en/latest/
+See also `php-path <https://php-path.readthedocs.io/en/latest/>`_.
 
-Related : :ref:`Stream <stream>`, :ref:`Protocol <protocol>`, :ref:`Dir <dir>`, :ref:`File <file>`, :ref:`DIRECTORY_SEPARATOR <directory_separator>`, :ref:`Absolute <absolute>`, :ref:`dirname <dirname>`, :ref:`. Directory <dot-directory>`, :ref:`.. Directory <dot-dot-directory>`, :ref:`Relative <relative>`
+Related : :ref:`Stream <stream>`, :ref:`Protocol <protocol>`, :ref:`Dir <dir>`, :ref:`File <file>`, :ref:`DIRECTORY_SEPARATOR <directory_separator>`, :ref:`Absolute <absolute>`, :ref:`dirname <dirname>`, :ref:`\. Directory <dot-directory>`, :ref:`Dot-dot Directory \.\. <dot-dot-directory>`, :ref:`Relative <relative>`

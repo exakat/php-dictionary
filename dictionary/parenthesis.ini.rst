@@ -57,6 +57,6 @@ Sometimes, parenthesis are used for make language structure look like a function
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-See also https://tfrommen.de/on-php-language-constructs-and-parentheses/
+See also `On PHP Language Constructs and Parentheses <https://tfrommen.de/on-php-language-constructs-and-parentheses/>`_.
 
 Related : :ref:`Argument <argument>`, :ref:`Balanced <balanced>`, :ref:`Bracket <bracket>`, :ref:`Bracketless <bracketless>`, :ref:`Square Brackets <square-bracket>`

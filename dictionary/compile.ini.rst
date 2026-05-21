@@ -37,6 +37,6 @@ Other tools transpile PHP code to another language, such as Rust or .NET, and th
 
 `Documentation <https://en.wikipedia.org/wiki/Lint_(software)>`__
 
-See also https://vkcom.github.io/kphp/, https://github.com/crazywhalecc/static-php-cli, https://roadrunner.dev/
+See also `kphp <https://vkcom.github.io/kphp/>`_, `static-php-cli <https://github.com/crazywhalecc/static-php-cli>`_ and `RoadRunner <https://roadrunner.dev/>`_.
 
 Related : :ref:`Linting <linting>`, :ref:`Interpreted <interpreted>`, :ref:`Ahead Of Time (OAT) <aot>`, :ref:`__halt_compiler() <halt-compiler>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Transpile <transpile>`, :ref:`Virtual Machine (VM) <runtime>`

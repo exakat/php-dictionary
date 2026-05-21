@@ -43,7 +43,7 @@ When dealing with months, it is recommended to use expressions like 'first day o
 
 `Documentation <https://derickrethans.nl/obtaining-the-next-month-in-php.html>`__
 
-See also https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/, https://medium.com/@segunibidokun/the-silent-bug-that-corrupts-your-monthly-data-in-laravel-b464706ada54
+See also `How to Get Number of Days in Current Month in PHP? <https://www.geeksforgeeks.org/how-to-get-number-of-days-in-current-month-in-php/>`_ and `The Silent Bug That Corrupts Your Monthly Data in Laravel <https://medium.com/@segunibidokun/the-silent-bug-that-corrupts-your-monthly-data-in-laravel-b464706ada54>`_.
 
 Related : :ref:`Days Are Not 86400 Seconds <day-in-seconds>`, :ref:`Datetime Trap <datetime-trap>`
 

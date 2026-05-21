@@ -38,6 +38,6 @@ Design patterns are not dedicated to PHP, though most of them do apply to PHP.
 
 `Documentation <https://en.wikipedia.org/wiki/Software_design_pattern>`__
 
-See also https://refactoring.guru/design-patterns/php, https://designpatternsphp.readthedocs.io/en/latest/, https://en.wikipedia.org/wiki/Design_Patterns, https://phpmagazine.net/2023/03/boosting-php-performance-with-design-patterns-real-world-examples.html
+See also `The Catalog of PHP Examples <https://refactoring.guru/design-patterns/php>`_, `DesignPatternsPHP <https://designpatternsphp.readthedocs.io/en/latest/>`_, `Design Pattenrs (the book) <https://en.wikipedia.org/wiki/Design_Patterns>`_ and `Boosting PHP Performance with Design Patterns: Real-World Examples <https://phpmagazine.net/2023/03/boosting-php-performance-with-design-patterns-real-world-examples.html>`_.
 
 Related : :ref:`Best Practices <best-practice>`, :ref:`Observer Design Pattern <observer>`, :ref:`Singleton <singleton>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Clean Code <clean-code>`, :ref:`Component <component>`, :ref:`Registry <registry>`

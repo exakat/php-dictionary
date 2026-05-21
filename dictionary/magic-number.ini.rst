@@ -48,6 +48,6 @@ Magic numbers are difficult to categorize, when they are very common across diff
 
 `Documentation <https://en.wikipedia.org/wiki/Magic_number_(programming)>`__
 
-See also https://medium.com/@yourpropertyexpert/what-are-php-magic-numbers-and-how-to-find-and-remove-them-d47a616261cc, https://refactoring.guru/replace-magic-number-with-symbolic-constant
+See also `What are PHP Magic Numbers, and how to find and remove them <https://medium.com/@yourpropertyexpert/what-are-php-magic-numbers-and-how-to-find-and-remove-them-d47a616261cc>`_ and `Replace Magic Number with Symbolic Constant <https://refactoring.guru/replace-magic-number-with-symbolic-constant>`_.
 
 Related packages : `povils/phpmnd <https://packagist.org/packages/povils/phpmnd>`_

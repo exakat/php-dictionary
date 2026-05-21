@@ -44,6 +44,6 @@ This interface ensure the ``enum::cases()`` method is available, that lists all 
 
 `Documentation <https://www.php.net/manual/en/class.unitenum.php>`__
 
-See also https://medium.com/@kczereczon/usage-php-unitenum-cases-in-testing-cf178a5ac372
+See also `Use the PHP UnitEnum::cases() during testing <https://medium.com/@kczereczon/usage-php-unitenum-cases-in-testing-cf178a5ac372>`_.
 
 Related : :ref:`Enumeration (enum) <enum>`, :ref:`BackedEnum <backedenum>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`

@@ -48,6 +48,6 @@ This is an extended version of the single-quoted strings. They are similar to th
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`__
 
-See also https://dev.to/parzival_computer/single-quotes-and-double-quotes-string-interpolation-and-performance-32p2
+See also `Single Quotes and Double Quotes : String Interpolation and Performance <https://dev.to/parzival_computer/single-quotes-and-double-quotes-string-interpolation-and-performance-32p2>`_.
 
 Related : :ref:`Single Quotes Strings <single-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`, :ref:`Heredocs <heredoc>`, :ref:`Escape Sequences <escape-sequence>`

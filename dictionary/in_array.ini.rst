@@ -58,6 +58,6 @@ A surprising pitfall is misplaced parentheses, which can lead to valid but incor
 
 `Documentation <https://www.php.net/manual/en/function.in-array.php>`__
 
-See also https://php-tips.readthedocs.io/en/latest/tips/misplaced_parenthesis.html, https://3v4l.org/YN2FK
+See also `A Case Of Misplaced Parenthesis <https://php-tips.readthedocs.io/en/latest/tips/misplaced_parenthesis.html>`_ and `When placing the parenthesis is ambiguous <https://3v4l.org/YN2FK>`_.
 
 Related : 

@@ -47,7 +47,7 @@ Dot notation is not a PHP native feature. It is available via independent packag
    ?>
 
 
-See also https://medium.com/@assertchris/dot-notation-3fd3e42edc61
+See also `Dot Notation <https://medium.com/@assertchris/dot-notation-3fd3e42edc61>`_.
 
 Related : :ref:`Array <array>`, :ref:`Multidimensional Array <multidimensional-array>`
 

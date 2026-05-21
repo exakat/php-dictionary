@@ -37,4 +37,4 @@ The ``.`` files are files whose name start with a dot. By convention, they are c
    ?>
 
 
-Related : :ref:`Path <path>`, :ref:`. Directory <dot-directory>`, :ref:`.. Directory <dot-dot-directory>`
+Related : :ref:`Path <path>`, :ref:`\. Directory <dot-directory>`, :ref:`Dot-dot Directory \.\. <dot-dot-directory>`

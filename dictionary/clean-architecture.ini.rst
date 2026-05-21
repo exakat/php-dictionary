@@ -26,6 +26,6 @@ Clean Architecture is a programming paradigm, where code is distributed in four 
 
 `Documentation <https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html>`__
 
-See also https://medium.com/@pogulailo/domain-driven-design-and-clean-architecture-in-php-part-1-layers-and-structure-edcce57be42a
+See also `Domain-Driven Design and Clean Architecture in PHP — Part 1 (Layers and Structure) <https://medium.com/@pogulailo/domain-driven-design-and-clean-architecture-in-php-part-1-layers-and-structure-edcce57be42a>`_.
 
 Related : :ref:`Design Pattern <design-pattern>`, :ref:`Architecture <architecture>`

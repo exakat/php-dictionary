@@ -26,6 +26,6 @@ Virtual Machine (VM)
 
 A virtual machine, or ``VM``, or also runtime, is a software-based emulation of a physical computer. It enables the running of multiple operating systems on a single physical machine, known as the host machine. The software that creates and manages virtual machines is called a hypervisor or virtual machine monitor.
 
-See also https://github.com/turbine-php/turbine
+See also `High-performance PHP application server written in Rust,  <https://github.com/turbine-php/turbine>`_.
 
 Related : :ref:`PHP Engine <engine>`, :ref:`Zend Engine <zend-engine>`

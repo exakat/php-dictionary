@@ -27,6 +27,6 @@ A honeypot is a spam-prevention technique used in forms. It's a hidden field or 
 
 `Documentation <https://en.wikipedia.org/wiki/Honeypot_(computing)>`__
 
-See also https://ivyforms.com/blog/what-is-a-honeypot/
+See also `What Is A Honeypot And How To Implement It In A Form <https://ivyforms.com/blog/what-is-a-honeypot/>`_.
 
 Related : :ref:`Tarpit <tarpit>`

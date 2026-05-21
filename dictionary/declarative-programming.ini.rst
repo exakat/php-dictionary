@@ -29,4 +29,4 @@ Declarative programming is flexible in the way it expresses its requirements. It
 
 `Documentation <https://en.wikipedia.org/wiki/Declarative_programming>`__
 
-See also https://mderis.medium.com/declarative-programming-in-php-a-comprehensive-overview-and-comparison-with-imperative-programming-f85587b44011
+See also `Declarative Programming in PHP: A Comprehensive Overview and Comparison with Imperative Programming <https://mderis.medium.com/declarative-programming-in-php-a-comprehensive-overview-and-comparison-with-imperative-programming-f85587b44011>`_.

@@ -29,4 +29,4 @@ LAMP is a popular open-source software stack used to build and deploy web applic
 + MySQL: The database management system, or alternatives like MariaDB.
 + PHP: The programming language used for server-side scripting.
 
-See also https://www.linux.com/, https://www.apache.org, https://www.mysql.com/, https://mariadb.org/
+See also `Linux <https://www.linux.com/>`_, `Apache <https://www.apache.org>`_, `MySQL <https://www.mysql.com/>`_ and `Mariadb <https://mariadb.org/>`_.

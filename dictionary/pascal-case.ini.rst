@@ -43,6 +43,6 @@ Pascal case was used for pascal programming language. It is very similar to came
 
 `Documentation <https://stringcase.org/cases/pascal/>`__
 
-See also https://stringcase.org/
+See also `stringcase website <https://stringcase.org/>`_.
 
 Related : :ref:`Camel Case <camel-case>`, :ref:`Snake Case <snake-case>`, :ref:`Constant Case <constant-case>`

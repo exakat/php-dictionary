@@ -50,6 +50,6 @@ That function allows for complex splitting of strings, including capturing the s
 
 `Documentation <https://www.php.net/manual/en/function.preg-split.php>`__
 
-See also https://clouddevs.com/php/preg_split-function/
+See also `Getting Started with PHP’s preg_split() Function <https://clouddevs.com/php/preg_split-function/>`_.
 
 Related : :ref:`explode() <explode>`

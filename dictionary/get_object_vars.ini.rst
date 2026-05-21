@@ -76,6 +76,6 @@ Constants are not returned by that function.
 
 `Documentation <https://www.php.net/manual/en/function.get-object-vars.php>`__
 
-See also https://www.elated.com/object-oriented-php-autoloading-serializing-and-querying-objects/, https://www.stechies.com/convert-php-object-array/
+See also `Object-Oriented PHP: Autoloading, Serializing, and Querying Objects <https://www.elated.com/object-oriented-php-autoloading-serializing-and-querying-objects/>`_ and `Convert PHP object to array <https://www.stechies.com/convert-php-object-array/>`_.
 
 Related : , :ref:`Reflection <reflection>`, :ref:`Visibility <visibility>`, :ref:`Properties <property>`, :ref:`Cast Operator <cast>`, :ref:`json_encode() <json_encode>`, :ref:`Static Property <static-property>`

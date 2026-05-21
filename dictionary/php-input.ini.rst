@@ -39,6 +39,6 @@ The raw data used to be accessed via ``$HTTP_RAW_POST_DATA``, but this is a depr
 
 `Documentation <https://www.php.net/manual/en/wrappers.php.php>`__
 
-See also https://www.geeksforgeeks.org/php/how-to-receive-json-post-with-php/
+See also `How to receive JSON POST with PHP ? <https://www.geeksforgeeks.org/php/how-to-receive-json-post-with-php/>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Stream <stream>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`

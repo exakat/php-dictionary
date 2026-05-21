@@ -52,7 +52,7 @@ Class constant may have a visibility option. This limits their accessibility to 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-constants>`__
 
-See also https://tomasvotruba.com/blog/how-to-add-visbility-to-338-class-constants-in-25-seconds
+See also `How to add visibility to 338 Class Constants in 25 seconds <https://tomasvotruba.com/blog/how-to-add-visbility-to-338-class-constants-in-25-seconds>`_.
 
 Related : :ref:`Visibility <visibility>`
 

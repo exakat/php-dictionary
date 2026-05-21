@@ -54,7 +54,7 @@ Other special types are the scalar types.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-See also https://medium.com/@berastis/an-exhaustive-guide-to-understanding-and-using-php-data-types-b56f6863c637
+See also `An Exhaustive Guide to Understanding and Using PHP Data Types <https://medium.com/@berastis/an-exhaustive-guide-to-understanding-and-using-php-data-types-b56f6863c637>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Type System <typehint>`, :ref:`Mixed <mixed>`, :ref:`Void <void>`, :ref:`Callables <callable>`, :ref:`Iterable <iterable>`, :ref:`Never Type <never>`, :ref:`Object <object>`, :ref:`parent <parent>`, :ref:`static <static>`, :ref:`Self <self>`
 

@@ -56,6 +56,6 @@ By implementing the ``Countable`` interface, a class defines custom logic for de
 
 `Documentation <https://www.php.net/manual/en/class.countable.php>`__
 
-See also https://pimylifeup.com/php-count/
+See also `Using the count() Function in PHP <https://pimylifeup.com/php-count/>`_.
 
 Related : :ref:`count() <count>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`

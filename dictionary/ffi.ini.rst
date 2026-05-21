@@ -40,4 +40,4 @@ Foreign Function Interface (FFI)
 
 `Documentation <https://www.php.net/manual/en/book.ffi.php#book.ffi>`__
 
-See also https://ryangjchandler.co.uk/posts/blazingly-fast-markdown-parsing-in-php-using-ffi-and-rust, https://platform.sh/blog/php-fun-with-ffi-getting-rust-ic/, https://sanixdk.xyz/blogs/build-go-code-and-use-in-php-codebase
+See also `Blazingly Fast Markdown Parsing in PHP using FFI and Rust <https://ryangjchandler.co.uk/posts/blazingly-fast-markdown-parsing-in-php-using-ffi-and-rust>`_, `PHPun with FFI: Getting Rust-ic <https://platform.sh/blog/php-fun-with-ffi-getting-rust-ic/>`_ and `BUILD GO CODE AND USE IT IN PHP CODEBASE <https://sanixdk.xyz/blogs/build-go-code-and-use-in-php-codebase>`_.

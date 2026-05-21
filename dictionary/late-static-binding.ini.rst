@@ -51,6 +51,6 @@ PHP implements a feature called late static bindings which can be used to refere
 
 `Documentation <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`__
 
-See also https://www.amitmerchant.com/late-static-binding-php-what-how-when/, https://dev.to/asifzcpe/a-real-life-example-of-using-late-static-binding-in-php-h6b/, https://dev.to/developeralamin/example-of-using-late-static-binding-in-php-18kh
+See also `Late static binding in PHP - What, How & When <https://www.amitmerchant.com/late-static-binding-php-what-how-when/>`_, `A real life example of using Late Static Binding in PHP <https://dev.to/asifzcpe/a-real-life-example-of-using-late-static-binding-in-php-h6b/>`_ and `Example of using Late Static Binding in PHP <https://dev.to/developeralamin/example-of-using-late-static-binding-in-php-18kh>`_.
 
 Related : :ref:`Self <self>`, :ref:`static <static>`, :ref:`parent <parent>`, :ref:`Early Binding <early-binding>`

@@ -24,7 +24,7 @@ Serde
 
 ``Serde`` is shorthand for SERialization + DEserialization. It designs a library that offers services of encoding and decoding with one or more formats, between PHP internal representations and an external interface.
 
-See also https://github.com/Crell/Serde, https://serde.rs/
+See also `PHP Serde <https://github.com/Crell/Serde>`_ and `Rust Serde <https://serde.rs/>`_.
 
 Related : :ref:`Serialization <serialization>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`, :ref:`Array <array>`, :ref:`Comma Secparated Values (CSV) <csv>`
 

@@ -43,4 +43,4 @@ Dependency injection is a design pattern in which an object receives other objec
 
 `Documentation <https://en.wikipedia.org/wiki/Dependency_injection>`__
 
-See also https://matthiasnoback.nl/2018/06/road-to-dependency-injection/, https://php-di.org/
+See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/>`_ and `PHP-di <https://php-di.org/>`_.

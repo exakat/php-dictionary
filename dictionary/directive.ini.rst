@@ -41,4 +41,4 @@ Directives are also set by PHP extensions or by PHP applications.
 
 `Documentation <https://www.php.net/manual/en/ini.list.php>`__
 
-Related : :ref:`Extensions <extension>`, :ref:`php.ini <php.ini>`, :ref:`.htaccess <htaccess>`, :ref:`Configuration <configuration>`, :ref:`Enable <enable>`, :ref:`Flag <flag>`, :ref:`ini_set() <ini_set>`
+Related : :ref:`Extensions <extension>`, :ref:`php\.ini <php.ini>`, :ref:`\.htaccess <htaccess>`, :ref:`Configuration <configuration>`, :ref:`Enable <enable>`, :ref:`Flag <flag>`, :ref:`ini_set() <ini_set>`

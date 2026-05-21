@@ -44,6 +44,6 @@ It is usually possible to define a neutral element for any operation or method c
 
 `Documentation <https://en.wikipedia.org/wiki/Identity_element>`__
 
-See also https://en.wikipedia.org/wiki/Null_object_pattern
+See also `Null Object Pattern <https://en.wikipedia.org/wiki/Null_object_pattern>`_.
 
 Related : :ref:`Null Pattern <nullpattern>`

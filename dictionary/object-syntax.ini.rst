@@ -41,6 +41,6 @@ Object syntax is also opposed to ``resource``: some PHP extensions produce resou
 
 `Documentation <https://www.php.net/manual/en/language.oop5.php>`__
 
-See also https://www.php.net/manual/en/language.oop5.basic.php
+See also `The basics <https://www.php.net/manual/en/language.oop5.basic.php>`_.
 
 Related : :ref:`Array Syntax <array-syntax>`, :ref:`resource <resource>`

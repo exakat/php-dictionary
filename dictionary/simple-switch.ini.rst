@@ -45,7 +45,7 @@ A simple switch is a switch where all the cases are simple literals. This helps 
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
-See also https://derickrethans.nl/php7.2-switch.html
+See also `PHP 7.2's 'switch' optimisations <https://derickrethans.nl/php7.2-switch.html>`_.
 
 Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`If Then Else <if-then>`, :ref:`Compact Array <compact-array>`
 

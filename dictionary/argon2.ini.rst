@@ -37,7 +37,7 @@ Argon2 is a modern, secure, and highly efficient password hashing algorithm. It 
 
 `Documentation <https://guriasoft.com/server-side/php/argon2>`__
 
-See also https://master-spring-ter.medium.com/from-basics-to-expert-a-deep-dive-into-argon2-password-hashing-95d17ba3b10f, https://mojoauth.com/hashing/argon2-in-php
+See also `From Basics to Expert: A Deep Dive into Argon2 Password Hashing <https://master-spring-ter.medium.com/from-basics-to-expert-a-deep-dive-into-argon2-password-hashing-95d17ba3b10f>`_ and `Argon2 in PHP <https://mojoauth.com/hashing/argon2-in-php>`_.
 
 Related : :ref:`Algorithm <algorithm>`, :ref:`Hash <hash>`
 

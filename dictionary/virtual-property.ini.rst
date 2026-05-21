@@ -45,7 +45,7 @@ A virtual property cannot be ``static``, as property hooks are not supported for
 
 `Documentation <https://www.php.net/manual/en/language.oop5.property-hooks.php>`__
 
-See also https://geekytomato.com/php-8-4-property-hooks-virtual-properties-and-potential-issues/
+See also `PHP 8.4: Property Hooks, Virtual Properties, and Potential Issues <https://geekytomato.com/php-8-4-property-hooks-virtual-properties-and-potential-issues/>`_.
 
 Related : :ref:`Properties <property>`, :ref:`Property Hook <property-hook>`
 

@@ -35,6 +35,6 @@ A webshell is a malicious script uploaded to a web server that allows an attacke
 
 `Documentation <https://en.wikipedia.org/wiki/Web_shell>`__
 
-See also https://github.com/tennc/webshell, https://www.acunetix.com/blog/articles/introduction-web-shells-part-1/
+See also `Webshell collection <https://github.com/tennc/webshell>`_ and `An Introduction to Web Shells (Web Shells Part 1) <https://www.acunetix.com/blog/articles/introduction-web-shells-part-1/>`_.
 
 Related : :ref:`System Call <system-call>`

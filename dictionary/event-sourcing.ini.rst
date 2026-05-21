@@ -34,7 +34,7 @@ Event sourcing pairs naturally with CQRS. The event stream is the write side; it
 
 `Documentation <https://martinfowler.com/eaaDev/EventSourcing.html>`__
 
-See also https://tech.osteel.me/posts/building-a-php-cli-tool-using-ddd-and-event-sourcing-getting-started-with-eventsauce
+See also `Building a PHP CLI tool using DDD and Event Sourcing: getting started with EventSauce <https://tech.osteel.me/posts/building-a-php-cli-tool-using-ddd-and-event-sourcing-getting-started-with-eventsauce>`_.
 
 Related : :ref:`Event Storming <event-storming>`, :ref:`Audit Trail <audit-trail>`, :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`, :ref:`Side Effect <side-effect>`, :ref:`Time Travel <time-travel>`
 

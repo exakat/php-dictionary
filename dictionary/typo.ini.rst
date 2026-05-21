@@ -48,6 +48,6 @@ Typo happen in any text based system.
 
 `Documentation <https://en.wikipedia.org/wiki/Typographical_error>`__
 
-See also https://medium.com/@jaydipkumarjha/top-common-php-errors-9dd20dfcdf81, https://olixlab.com/blog/top-common-php-errors-and-how-to-fix-them/
+See also `Top Common PHP Errors <https://medium.com/@jaydipkumarjha/top-common-php-errors-9dd20dfcdf81>`_ and `Top Common PHP Errors and How to Fix Them <https://olixlab.com/blog/top-common-php-errors-and-how-to-fix-them/>`_.
 
 Related : :ref:`Silent Behavior <silent>`

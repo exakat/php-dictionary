@@ -53,7 +53,7 @@ swoole, openswoole and fibers extensions offer coroutines.
 
 `Documentation <https://en.wikipedia.org/wiki/Coroutine>`__
 
-See also https://openswoole.com/coroutine
+See also `Coroutine in PHP <https://openswoole.com/coroutine>`_.
 
 Related : :ref:`Generator <generator>`
 

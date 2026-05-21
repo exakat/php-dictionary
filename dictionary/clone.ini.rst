@@ -60,7 +60,7 @@ Cloning had conflict with the ``readonly`` properties, until updating readonly d
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also https://doeken.org/blog/what-happens-when-we-clone, https://www.php.net/manual/en/language.oop5.cloning.php, https://linuxhint.com/cloning_objects_php/, https://jolicode.com/blog/php-clone-all-the-things, https://wiki.php.net/rfc/clone_with_v2
+See also `What happens when we clone? <https://doeken.org/blog/what-happens-when-we-clone>`_, `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_, `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_, `PHP Clone All The Things <https://jolicode.com/blog/php-clone-all-the-things>`_ and `Clone version 2 <https://wiki.php.net/rfc/clone_with_v2>`_.
 
 Related : :ref:`Shallow Clone <shallow-clone>`, :ref:`Deep Clone <deep-clone>`, :ref:`Readonly <readonly>`, :ref:`References <reference>`, :ref:`Object <object>`
 

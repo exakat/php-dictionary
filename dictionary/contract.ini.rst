@@ -28,7 +28,7 @@ Design by Contract, or ``DbC``, is a software development approach that focuses 
 
 `Documentation <https://en.wikipedia.org/wiki/Design_by_contract>`__
 
-See also https://laravel.com/docs/10.x/contracts, https://medium.com/@prunepal333/design-by-contract-an-approach-to-ensure-software-correctness-d2d6b5229dc3, https://github.com/php-deal/framework, https://brocksi.net/blog/contract-first-api-testing-openapi-as-your-test-suite/
+See also `Contracts <https://laravel.com/docs/10.x/contracts>`_, `Design by Contract: An approach to ensure Software Correctness <https://medium.com/@prunepal333/design-by-contract-an-approach-to-ensure-software-correctness-d2d6b5229dc3>`_, `php deal framework <https://github.com/php-deal/framework>`_ and `Contract-first API testing <https://brocksi.net/blog/contract-first-api-testing-openapi-as-your-test-suite/>`_.
 
 Related : :ref:`Paradigm <paradigm>`
 

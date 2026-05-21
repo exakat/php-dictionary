@@ -44,7 +44,7 @@ The ``match`` expression is the remote cousin of the ``switch``. It takes a valu
 
 `Documentation <https://www.php.net/manual/en/control-structures.match.php>`__
 
-See also https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match
+See also `PHP Tricks: Multi-value match() <https://peakd.com/hive-168588/@crell/php-tricks-multi-value-match>`_.
 
 Related : :ref:`Switch <switch>`, :ref:`Default <default>`, :ref:`If Then Else <if-then>`, :ref:`UnhandledMatchError <unhandledmatcherror>`, :ref:`Case <case>`, :ref:`Comparison <comparison>`, :ref:`Conditional Structures <conditional-structure>`, :ref:`Control Flow <control-flow>`, :ref:`Switch Fallthrough <fallthrough>`, :ref:`Simple Switch <simple-switch>`, :ref:`Strict Comparison <strict-comparison>`, :ref:`Switch Case <switch-case>`, :ref:`Switch Default <switch-default>`
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross Site Scripting (XSS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"It's a web security vulnerability where an attacker injects malicious JavaScript into a website, and that script then runs in other users' browsers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross Site Scripting (XSS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross Site Scripting (XSS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 07:34:20 +0000","dateModified":"Thu, 21 May 2026 07:34:20 +0000","description":"It's a web security vulnerability where an attacker injects malicious JavaScript into a website, and that script then runs in other users' browsers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross Site Scripting (XSS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cross Site Scripting (XSS)
@@ -28,6 +28,6 @@ XSS happens when a Web application accepts user input, fails to validate it prop
 
 XSS is dangerous as it allows the attacker to steal important information such as cookies, impersonate the usage, read or modify the page content.
 
-See also https://www.acunetix.com/websitesecurity/php-security-3/, https://portswigger.net/web-security/cross-site-scripting
+See also `PHP Security 3: XSS and Password Storage <https://www.acunetix.com/websitesecurity/php-security-3/>`_ and `What is cross-site scripting (XSS) and how to prevent it? <https://portswigger.net/web-security/cross-site-scripting>`_.
 
-Related : :ref:`Cross Site Request Forgery (CSRF) <csrf>`
+Related : :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`html_entity_decode <html_entity_decode>`, :ref:`htmlspecialchars <htmlspecialchars>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Session Hijacking <session-highjacking>`, :ref:`Vulnerability <vulnerability>`

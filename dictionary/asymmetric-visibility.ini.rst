@@ -50,6 +50,6 @@ Traditionally, the visibility options, ``private``, ``protected`` and ``public``
    ?>
 
 
-See also https://developerjoy.co/blog/php-asymmetric-visibility-rfc-an-in-depth-look, https://chrastecky.dev/programming/new-in-php-8-5-asymmetric-visibility-for-static-properties
+See also `PHP Asymmetric Visibility RFC: An In-Depth Look <https://developerjoy.co/blog/php-asymmetric-visibility-rfc-an-in-depth-look>`_ and `New in PHP 8.5: Asymmetric Visibility for Static Properties <https://chrastecky.dev/programming/new-in-php-8-5-asymmetric-visibility-for-static-properties>`_.
 
 Related : :ref:`Visibility <visibility>`, :ref:`Properties <property>`

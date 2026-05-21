@@ -43,6 +43,6 @@ Bootstrapping include the following steps
 
 These list is a general panorama. The steps may not be in order, not exhaustive not applicable to specific frameworks.
 
-See also https://maximegosselin.com/posts/bootstrapping-a-frameworkless-php-application/
+See also `Bootstrapping a Frameworkless PHP Application <https://maximegosselin.com/posts/bootstrapping-a-frameworkless-php-application/>`_.
 
 Related : :ref:`Lifecycle <lifecycle>`

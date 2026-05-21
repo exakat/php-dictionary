@@ -26,6 +26,6 @@ Continuous delivery refers to the software development practice where the code c
 
 `Documentation <https://continuousdelivery.com/>`__
 
-See also https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/, https://getlaminas.org/blog/2024-09-26-using-laminas-continuous-delivery-and-deployment.html
+See also `Continuous Integration and Continuous Delivery <https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/>`_ and `Using Laminas Continuous Delivery and Deployment <https://getlaminas.org/blog/2024-09-26-using-laminas-continuous-delivery-and-deployment.html>`_.
 
 Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`, :ref:`Continuous Integration (CI) <ci>`

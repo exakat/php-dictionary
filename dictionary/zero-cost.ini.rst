@@ -41,7 +41,7 @@ Some PHP packages and applications claim to be zero-cost. They are using some we
    ?>
 
 
-See also https://vkcom.github.io/kphp/
+See also `kphp <https://vkcom.github.io/kphp/>`_.
 
 Related : :ref:`Assertions <assertion>`
 

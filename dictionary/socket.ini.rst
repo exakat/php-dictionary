@@ -40,7 +40,7 @@ PHP provides a set of functions for working with sockets, allowing developers to
 
 `Documentation <https://www.php.net/manual/en/book.sockets.php>`__
 
-See also https://reintech.io/blog/php-and-sockets-network-programming
+See also `PHP and Sockets: Network Programming with PHP <https://reintech.io/blog/php-and-sockets-network-programming>`_.
 
 Related : :ref:`Network <network>`, :ref:`Server <server>`, :ref:`User Datagram Protocol (UDP) <udp>`, :ref:`TCP <tcp>`
 

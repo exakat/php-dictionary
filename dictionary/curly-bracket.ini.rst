@@ -50,6 +50,6 @@ They are also called curly braces.
    ?>
 
 
-See also https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/
+See also `PHP Curly Braces: How and When to Use it? <https://schoolsofweb.com/php-curly-braces-how-and-when-to-use-it/>`_.
 
 Related : :ref:`Block <block>`, :ref:`String <string>`, :ref:`Square Brackets <square-bracket>`, :ref:`Token <token>`

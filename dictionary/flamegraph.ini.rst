@@ -27,6 +27,6 @@ Flame graphs are a visualization tool used to understand where a program spends 
 
 They help quickly spot hot paths in code: functions or routines that consume the most CPU or other resources.
 
-See also https://timotijhof.net/posts/2020/profiling-php-at-scale/, https://derickrethans.nl/flamboyant-flamegraphs.html, https://xdebug.org/docs/flamegraphs, https://daniellockyer.com/php-flame-graphs/
+See also `Profiling PHP in production at scale <https://timotijhof.net/posts/2020/profiling-php-at-scale/>`_, `Flamboyant Flamegraphs <https://derickrethans.nl/flamboyant-flamegraphs.html>`_, `Flamegraphs with xDebug <https://xdebug.org/docs/flamegraphs>`_ and `How to generate PHP Flamegraphs <https://daniellockyer.com/php-flame-graphs/>`_.
 
 Related packages : `wikimedia/arc-lamp <https://packagist.org/packages/wikimedia/arc-lamp>`_, `noisebynorthwest/php-spx <https://packagist.org/packages/noisebynorthwest/php-spx>`_, `reliforp/reli-prof <https://packagist.org/packages/reliforp/reli-prof>`_

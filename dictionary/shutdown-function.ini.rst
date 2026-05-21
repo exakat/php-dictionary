@@ -50,6 +50,6 @@ Shutdown function acts as destructors: they should clean up any unfinished jobs,
 
 `Documentation <https://www.php.net/manual/en/function.register-shutdown-function.php>`__
 
-See also https://reintech.io/blog/a-practical-guide-to-php-register_shutdown_function
+See also `A Practical Guide to PHP's `register_shutdown_function()` Function <https://reintech.io/blog/a-practical-guide-to-php-register_shutdown_function>`_.
 
 Related : :ref:`PHP Handlers <handler>`

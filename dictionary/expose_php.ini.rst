@@ -30,6 +30,6 @@ It is considered a security leak to leave this configuration on, as it gives pot
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.expose_php>`__
 
-See also https://www.php.net/manual/en/security.hiding.php
+See also `Hiding <https://www.php.net/manual/en/security.hiding.php>`_.
 
-Related : :ref:`php.ini <php.ini>`
+Related : :ref:`php\.ini <php.ini>`

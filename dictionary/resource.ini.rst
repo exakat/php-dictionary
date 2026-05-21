@@ -42,6 +42,6 @@ There is a list of PHP resources available in the docs.
 
 `Documentation <https://www.php.net/manual/en/language.types.resource.php>`__
 
-See also https://www.php.net/manual/en/resource.php
+See also `List of Resource Types <https://www.php.net/manual/en/resource.php>`_.
 
 Related : :ref:`Type System <type>`, :ref:`PHP Natives <native-type>`

@@ -44,6 +44,6 @@ In case an error arise during parsing, a ``null`` value is returned, as the defa
 
 `Documentation <https://www.php.net/manual/en/function.json-encode.php>`__
 
-See also https://www.alldevutils.com/blog/php-json-encode.html
+See also `Mastering PHP json_encode: A Complete Guide <https://www.alldevutils.com/blog/php-json-encode.html>`_.
 
 Related : :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`JSON Lines (JSONC) <jsonc>`, :ref:`json_decode() <json_decode>`

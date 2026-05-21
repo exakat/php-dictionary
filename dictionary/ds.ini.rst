@@ -53,6 +53,6 @@ In particular, it provides the following structures:
 
 `Documentation <https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd>`__
 
-See also https://www.geeksforgeeks.org/php/php-dsset-functions-complete-reference/
+See also `ext-ds <https://www.geeksforgeeks.org/php/php-dsset-functions-complete-reference/>`_.
 
 Related : :ref:`Collection <collection>`, , :ref:`Hash <hash>`, :ref:`Stack <stack>`, :ref:`Queue <queue>`, , 

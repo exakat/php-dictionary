@@ -32,6 +32,6 @@ A function becomes non-deterministic when it relies on systems that may change b
 
 `Documentation <https://www.simplethread.com/pure-and-deterministic-functions/>`__
 
-See also https://docs.blackfire.io/continuous-profiling-cookbooks/understanding
+See also `Understanding the differences between deterministic and probabilistic observability <https://docs.blackfire.io/continuous-profiling-cookbooks/understanding>`_.
 
 Related : :ref:`Random <random>`, :ref:`Testable <testable>`

@@ -45,6 +45,6 @@ PHP supports FTP and FTPS, through the ext/ftp extension, the ext/curl extension
 
 `Documentation <https://www.php.net/manual/en/book.ftp.php>`__
 
-See also https://datatracker.ietf.org/doc/html/rfc959
+See also `RFC 765 <https://datatracker.ietf.org/doc/html/rfc959>`_.
 
 Related : :ref:`Wrapper <wrapper>`, :ref:`File Transfer Protocol Secure (FTPS) <ftps>`

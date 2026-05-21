@@ -60,6 +60,6 @@ This function does not support multi-bytes characters. It actually uses single b
 
 `Documentation <https://www.php.net/manual/en/function.trim.php>`__
 
-See also https://benjamincrozat.com/php-trim
+See also `How to trim strings with PHP <https://benjamincrozat.com/php-trim>`_.
 
 Related : :ref:`Non Breakable Spaces <non-breakable-space>`

@@ -44,6 +44,6 @@ Uuencode, short for ``Unix-to-Unix encoding``, is a binary-to-text encoding mech
 
 `Documentation <https://en.wikipedia.org/wiki/Uuencoding>`__
 
-See also https://inspector.dev/php-base64-encodedecode-best-practices-and-use-cases/, https://www.php.net/manual/en/function.convert-uuencode.php, https://mojoauth.com/binary-encoding-decoding/uuencoding-with-php/
+See also `Php Base64 encode/decode – best practices and use cases <https://inspector.dev/php-base64-encodedecode-best-practices-and-use-cases/>`_, `convert_uuencode <https://www.php.net/manual/en/function.convert-uuencode.php>`_ and `Uuencoding with PHP <https://mojoauth.com/binary-encoding-decoding/uuencoding-with-php/>`_.
 
 Related : :ref:`Base 64 Encoding <base64>`

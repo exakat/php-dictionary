@@ -28,6 +28,6 @@ PHP event loops are often implemented using extensions like ReactPHP or Amp.
 
 `Documentation <https://en.wikipedia.org/wiki/Event_loop>`__
 
-See also https://reactphp.org/, https://amphp.org/
+See also `ReactPHP <https://reactphp.org/>`_ and `AMPHP <https://amphp.org/>`_.
 
 Related : :ref:`Event Driven <event-driven>`

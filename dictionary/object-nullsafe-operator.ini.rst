@@ -46,6 +46,6 @@ Object Nullsafe Operator is directly related to the Object operator: the differe
 
 `Documentation <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`__
 
-See also https://www.delftstack.com/howto/php/php-object-operator/
+See also `Object Operator in PHP <https://www.delftstack.com/howto/php/php-object-operator/>`_.
 
 Related : :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Object Operator -> <object-operator>`

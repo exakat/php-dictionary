@@ -40,6 +40,6 @@ Ctype
 
 `Documentation <https://www.php.net/manual/en/book.ctype.php>`__
 
-See also https://www.sitepoint.com/an-introduction-to-ctype-functions/
+See also `An Introduction to Ctype Functions <https://www.sitepoint.com/an-introduction-to-ctype-functions/>`_.
 
 Related : :ref:`filter <filter>`

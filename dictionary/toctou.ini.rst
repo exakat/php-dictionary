@@ -46,6 +46,6 @@ TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where t
 
 `Documentation <https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use>`__
 
-See also https://defuse.ca/race-conditions-in-web-applications.htm
+See also `Practical Race Condition Vulnerabilities in Web Applications <https://defuse.ca/race-conditions-in-web-applications.htm>`_.
 
 Related : :ref:`Security <security>`

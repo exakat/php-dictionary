@@ -27,6 +27,6 @@ A tar pit is a deliberate slowdown of abusive or unwanted requests to waste an a
 
 `Documentation <https://en.wikipedia.org/wiki/Tarpit_(networking)>`__
 
-See also https://github.com/msigley/PHP-HTTP-Tarpit
+See also `PHP-HTTP-Tarpit <https://github.com/msigley/PHP-HTTP-Tarpit>`_.
 
 Related : :ref:`Honey Pot <honeypot>`

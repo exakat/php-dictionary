@@ -57,6 +57,6 @@ Usually, instructions and commands are executed one after each other. With contr
 
 `Documentation <https://www.php.net/manual/en/language.control-structures.php>`__
 
-See also https://alishoff.com/blog/500
+See also `PHP. Control Structures <https://alishoff.com/blog/500>`_.
 
 Related : :ref:`foreach() <foreach>`, :ref:`For <for>`, :ref:`declare() <declare>`, :ref:`Match <match>`

@@ -48,6 +48,6 @@ This may apply to a class that offers a set of methods, that are listed in an in
 
 `Documentation <https://en.wikipedia.org/wiki/Duck_typing>`__
 
-See also https://matthiasnoback.nl/2017/02/convenient-ducktyping-in-php/
+See also `Duck Typing in PHP <https://matthiasnoback.nl/2017/02/convenient-ducktyping-in-php/>`_.
 
 Related : :ref:`Rubber Ducking Debugging <rubber-ducking>`

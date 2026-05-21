@@ -26,6 +26,6 @@ Scaling refers to the ability of am application to handle increased workload or 
 
 There are several aspects to consider when scaling an application: vertical scaling, horizontal scaling, caching, asynchronous processing, code optimisation, monitoring.
 
-See also https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466, https://www.digitalocean.com/blog/horizontally-scaling-php-applications, https://dev.to/olatejuthedev/building-scalable-php-applications-best-practices-for-performance-and-security-56jj
+See also `Scaling PHP Applications: Strategies for High Traffic and Performance <https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466>`_, `Horizontally Scaling PHP Applications <https://www.digitalocean.com/blog/horizontally-scaling-php-applications>`_ and `Building Scalable PHP Applications: Best Practices for Performance and Security <https://dev.to/olatejuthedev/building-scalable-php-applications-best-practices-for-performance-and-security-56jj>`_.
 
 Related : :ref:`Performance <performance>`, :ref:`Architecture <architecture>`, , 

@@ -34,6 +34,6 @@ Special functions, such as ``utf8_encode()`` and ``utf8_decode()`` are deprecate
 
 `Documentation <https://en.wikipedia.org/wiki/UTF-8>`__
 
-See also https://blog.martinfjordvald.com/the-fun-that-is-utf-8-support-in-php/, https://akrabat.com/utf8-php-and-mysql//
+See also `The Fun that is UTF-8 Support in PHP <https://blog.martinfjordvald.com/the-fun-that-is-utf-8-support-in-php/>`_ and `UTF-8, PHP and MySQL <https://akrabat.com/utf8-php-and-mysql//>`_.
 
 Related : :ref:`Encoding <encoding>`, :ref:`Latin1 <latin1>`

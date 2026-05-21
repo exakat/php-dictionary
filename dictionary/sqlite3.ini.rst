@@ -43,6 +43,6 @@ SQLite3 is also available with PDO (Portable Document File), with the pdo_sqlite
 
 `Documentation <https://www.sqlite.org/index.html>`__
 
-See also https://www.php.net/sqlite3, https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php
+See also `SQLite3 in PHP <https://www.php.net/sqlite3>`_ and `How to Store Images in SQLite with PHP <https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php>`_.
 
 Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`SQL Database <sql-database>`, :ref:`PHP Data Objects (PDO) <pdo>`

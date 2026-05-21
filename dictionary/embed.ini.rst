@@ -31,6 +31,6 @@ Embeding usually means that the whole PHP engine is included in another technolo
 
 `Documentation <https://en.wikipedia.org/wiki/Embedded_system>`__
 
-See also https://medium.com/codetodeploy/java-php-php-in-java-977dbc0fe4ea
+See also `Java. PHP. PHP in Java! <https://medium.com/codetodeploy/java-php-php-in-java-977dbc0fe4ea>`_.
 
 Related : :ref:`Extensions <extension>`

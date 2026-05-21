@@ -26,6 +26,6 @@ Compliance generally refers to adhering to a set of predefined rules, standards,
 
 `Documentation <https://en.wikipedia.org/wiki/Regulatory_compliance>`__
 
-See also https://www.zend.com/blog/maintaining-php-compliance, https://codenteam.com/php-a-complete-due-diligence-assessment-guide/
+See also `Everything You Need to Know About Maintaining PHP Compliance <https://www.zend.com/blog/maintaining-php-compliance>`_ and `PHP: A Complete Due-Diligence Assessment Guide <https://codenteam.com/php-a-complete-due-diligence-assessment-guide/>`_.
 
 Related : :ref:`Audit <audit>`, :ref:`Standard <standard>`

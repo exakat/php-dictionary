@@ -42,6 +42,6 @@ Agile is an umbrella term. The fine-grained methodologies include:
 
 `Documentation <https://agilemanifesto.org/>`__
 
-See also hhttps://echodevelopment.io/blog/how-echodevelopment-io-utilizes-php-for-agile-software-development/, https://www.rabitsolutions.com/blog/what-are-the-4-pillars-of-agile-methodology/, https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6138/Why-choose-PHP-Frameworks-for-Agile-Application-Development.aspx
+See also `Utilize PHP for Agile Software Development <hhttps://echodevelopment.io/blog/how-echodevelopment-io-utilizes-php-for-agile-software-development/>`_, `What Are The 4 Pillars Of Agile Methodology And How It Can Enhance Development Efficiency? <https://www.rabitsolutions.com/blog/what-are-the-4-pillars-of-agile-methodology/>`_ and `Why choose PHP Frameworks for Agile Application Development? <https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6138/Why-choose-PHP-Frameworks-for-Agile-Application-Development.aspx>`_.
 
 Related : 

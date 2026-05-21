@@ -28,6 +28,6 @@ Only one file is prepended: if several files needs to be, they should be include
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.auto-prepend-file>`__
 
-See also https://medium.com/serveravatar/how-to-use-auto-prepend-file-in-php-effectively-ee3917b668f6, https://kitemetric.com/blogs/mastering-php-s-auto-prepend-file-a-comprehensive-guide
+See also `How to Use auto_prepend_file in PHP Effectively <https://medium.com/serveravatar/how-to-use-auto-prepend-file-in-php-effectively-ee3917b668f6>`_ and `Mastering PHP's auto_prepend_file: A Comprehensive Guide <https://kitemetric.com/blogs/mastering-php-s-auto-prepend-file-a-comprehensive-guide>`_.
 
 Related : :ref:`Disable Functions <disable-functions>`, :ref:`Disable Classes <disable-classes>`

@@ -36,6 +36,6 @@ It is a type of security vulnerability where an attacker can remotely execute ar
 
 `Documentation <https://en.wikipedia.org/wiki/Arbitrary_code_execution>`__
 
-See also https://medium.com/@brun0ne/rce-via-a-malicious-svg-in-mpdf-216e613b250b
+See also `RCE via a malicious SVG in mPDF <https://medium.com/@brun0ne/rce-via-a-malicious-svg-in-mpdf-216e613b250b>`_.
 
 Related : :ref:`Vulnerability <vulnerability>`, :ref:`Local File Inclusion <local-file-inclusion>`

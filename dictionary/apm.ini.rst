@@ -28,7 +28,7 @@ It helps finding bottlenecks in the code.
 
 `Documentation <https://en.wikipedia.org/wiki/Application_performance_management>`__
 
-See also https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/, https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers
+See also `Introduction to New Relic for PHP <https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/>`_ and `Tracing PHP Applications <https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers>`_.
 
 Related : :ref:`Bottleneck <bottleneck>`, :ref:`Monitoring <monitoring>`
 

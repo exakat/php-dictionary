@@ -65,7 +65,7 @@ Each case is an expression, and shall be used that way.
 
 `Documentation <https://www.php.net/manual/en/control-structures.switch.php>`__
 
-See also https://tomlankhorst.nl/compact-switch-alternative-php/, https://www.exakat.io/well-structured-switch-command-in-php/
+See also `Compact switch alternative <https://tomlankhorst.nl/compact-switch-alternative-php/>`_ and `PHP switch best practices <https://www.exakat.io/well-structured-switch-command-in-php/>`_.
 
 Related : :ref:`Match <match>`, :ref:`Default <default>`, :ref:`Strict Comparison <strict-comparison>`, :ref:`Simple Switch <simple-switch>`, :ref:`If Then Else <if-then>`, :ref:`Break <break>`, :ref:`Case <case>`, :ref:`Comparison <comparison>`, :ref:`Conditional Structures <conditional-structure>`, :ref:`Control Flow <control-flow>`, :ref:`Relaxed Comparison <relaxed-comparison>`, :ref:`Semicolon <semicolon>`, :ref:`Switch Case <switch-case>`, :ref:`Switch Default <switch-default>`
 

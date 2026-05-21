@@ -46,6 +46,6 @@ PHP also has special syntax for binary and octal numbers.
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
 
-See also https://en.wikipedia.org/wiki/Hexadecimal
+See also `Hexadecimal <https://en.wikipedia.org/wiki/Hexadecimal>`_.
 
 Related : :ref:`Binary Integer <binary-integer>`, :ref:`Octal Integer <octal-integer>`, :ref:`Floating Point Numbers <decimal>`

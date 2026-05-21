@@ -49,6 +49,6 @@ mcrypt Extension
 
 `Documentation <https://www.php.net/manual/en/ref.mcrypt.php>`__
 
-See also https://www.php.net/manual/en/book.sodium.php, https://www.php.net/manual/en/book.openssl.php
+See also `ext/sodium <https://www.php.net/manual/en/book.sodium.php>`_ and `ext/openssl <https://www.php.net/manual/en/book.openssl.php>`_.
 
 Related : :ref:`libsodium <sodium>`, :ref:`OpenSSL <openssl>`

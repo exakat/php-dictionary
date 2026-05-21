@@ -34,6 +34,6 @@ PHP uses several ways to handle concurency:
 
 `Documentation <https://en.wikipedia.org/wiki/Concurrency_(computer_science)>`__
 
-See also https://frankenphp.dev/, https://wiki.swoole.com/en/#/, https://openswoole.com/, https://amphp.org/, https://www.honeybadger.io/blog/php-concurrency/, https://itsimiro.medium.com/understanding-fibers-in-php-a-new-way-to-handle-concurrency-ed07424320ff
+See also `FrankenPHP <https://frankenphp.dev/>`_, `swoole <https://wiki.swoole.com/en/#/>`_, `openswoole <https://openswoole.com/>`_, `AMPHP <https://amphp.org/>`_, `Understanding Concurrency in PHP <https://www.honeybadger.io/blog/php-concurrency/>`_ and `Understanding Fibers in PHP: A New Way to Handle Concurrency <https://itsimiro.medium.com/understanding-fibers-in-php-a-new-way-to-handle-concurrency-ed07424320ff>`_.
 
 Related : :ref:`Thread <thread>`, :ref:`Process <process>`, :ref:`Asynchronous <asynchronous>`, :ref:`FastCGI Process Manager (FPM) <fpm>`

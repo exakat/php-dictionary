@@ -44,6 +44,6 @@ Invariance is the third type of variance, with contravariance and covariance.
    ?>
 
 
-See also https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html
+See also `Type variance in PHP <https://www.npopov.com/2021/11/08/Type-variance-in-PHP.html>`_.
 
 Related : :ref:`Covariance <type-covariance>`, :ref:`Contravariance <type-contravariance>`

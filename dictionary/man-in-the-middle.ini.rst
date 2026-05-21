@@ -30,6 +30,6 @@ To mitigate the risk of MitM attacks, encryption protocols like SSL/TLS are ofte
 
 `Documentation <https://en.wikipedia.org/wiki/Man-in-the-middle_attack>`__
 
-See also https://www.securify.nl/en/advisory/vaultpress-remote-code-execution-via-man-in-the-middle-attack/, https://nagvekar.medium.com/advanced-security-practices-for-php-developers-mitigating-session-hijacking-and-other-0a9e8052f3ff, https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/
+See also `VaultPress - Remote Code Execution via Man in The Middle attack <https://www.securify.nl/en/advisory/vaultpress-remote-code-execution-via-man-in-the-middle-attack/>`_, `Advanced Security Practices for PHP Developers: Mitigating Session Hijacking and Other Vulnerabilities <https://nagvekar.medium.com/advanced-security-practices-for-php-developers-mitigating-session-hijacking-and-other-0a9e8052f3ff>`_ and `Hackers abuse Google ads for GoDaddy ManageWP login phishing <https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/>`_.
 
 Related : :ref:`Session Hijacking <session-highjacking>`

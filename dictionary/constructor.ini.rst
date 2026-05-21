@@ -53,6 +53,6 @@ A constructor may have a visibility, and be not available to the outside. In par
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
-See also https://laracasts.com/discuss/channels/php/what-and-why-we-should-use-php-constructors, https://flatcoding.com/tutorials/php/php-oop-constructors-guide/
+See also `What and Why We Should Use PHP Constructors <https://laracasts.com/discuss/channels/php/what-and-why-we-should-use-php-constructors>`_ and `PHP OOP Constructor: How It Works in a Class with Examples <https://flatcoding.com/tutorials/php/php-oop-constructors-guide/>`_.
 
 Related : :ref:`Destructor <destructor>`, :ref:`Inheritance <inheritance>`, :ref:`Visibility <visibility>`, :ref:`Named Constructors <named-constructor>`

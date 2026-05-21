@@ -44,6 +44,6 @@ There are horizontal tabulations, which are the most commonly used, and vertical
 
 `Documentation <https://en.wikipedia.org/wiki/Tab_character>`__
 
-See also https://mojoauth.com/special-characters/vertical-tab-v-in-php#understanding-the-usage-of-vertical-tab-v-in-php, https://nick-gravgaard.com/elastic-tabstops/
+See also `Vertical Tab (\v) in PHP <https://mojoauth.com/special-characters/vertical-tab-v-in-php#understanding-the-usage-of-vertical-tab-v-in-php>`_ and `Elastic tabstops - a better way to indent and align code <https://nick-gravgaard.com/elastic-tabstops/>`_.
 
 Related : :ref:`Space <space>`, :ref:`Heredocs <heredoc>`

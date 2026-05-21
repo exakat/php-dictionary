@@ -28,6 +28,6 @@ Monitoring is a proactive practice: it helps teams identify and resolve problems
 
 `Documentation <https://en.wikipedia.org/wiki/Monitoring>`__
 
-See also https://www.zend.com/blog/php-monitoring
+See also `PHP Monitoring: Using PHP Observability Tools to Improve Web Apps <https://www.zend.com/blog/php-monitoring>`_.
 
 Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Telemetry <telemetry>`, :ref:`Log <log>`, :ref:`Trace <trace>`, :ref:`Metrics <metrics>`

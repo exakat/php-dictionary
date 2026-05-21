@@ -43,6 +43,6 @@ It's one of the most important OOP design principles. Using interface allows for
    ?>
 
 
-See also https://notes.sohag.pro/programming-to-interface-not-to-implementation-a-php-developers-journey
+See also `Programming to Interface, Not to Implementation: A PHP Developer's Journey <https://notes.sohag.pro/programming-to-interface-not-to-implementation-a-php-developers-journey>`_.
 
 Related : :ref:`Interface <interface>`, :ref:`Concrete Class <concrete>`, :ref:`Flexibility <flexibility>`, :ref:`Coupling <coupling>`

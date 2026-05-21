@@ -29,6 +29,6 @@ The other management is FIFO: first in, first out.
 
 `Documentation <https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)>`__
 
-See also https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf
+See also `Introduction to Stacks & Queues in PHP <https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf>`_.
 
 Related : :ref:`First In, First Out (FIFO) <fifo>`

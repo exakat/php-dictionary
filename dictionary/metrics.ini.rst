@@ -44,7 +44,7 @@ PHPMetrics is also the name of an eponymous project.
    <
 
 
-See also https://peteraba.com/blog/phpmetrics-of-popular-projects/, https://pdepend.org/, https://www.zend.com/blog/web-application-performance-metrics-security, https://stackify.com/php-performance-monitoring-a-developers-guide/
+See also `PhpMetrics of Popular PHP Projects <https://peteraba.com/blog/phpmetrics-of-popular-projects/>`_, `phpdepend <https://pdepend.org/>`_, `Using PHP Web Application Performance Metrics for Early Threat Detection <https://www.zend.com/blog/web-application-performance-metrics-security>`_ and `PHP Performance Monitoring: A Developer’s Guide <https://stackify.com/php-performance-monitoring-a-developers-guide/>`_.
 
 Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Monitoring <monitoring>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Cognitive Complexity <cognitive-complexity>`
 

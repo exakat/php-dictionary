@@ -43,6 +43,6 @@ Type juggling is usually done automatically, without user intervention. Explicit
 
 `Documentation <https://www.php.net/manual/en/language.types.type-juggling.php>`__
 
-See also https://www.freecodecamp.org/news/how-php-type-juggling-works-explained-with-code-examples/, https://medium.com/@abdelrahman0x01/php-type-juggling-vulnerability-768bca4d8b3b, https://swisskyrepo.github.io/PayloadsAllTheThings/Type%20Juggling/
+See also `How PHP Type Juggling Works – Explained with Code Examples <https://www.freecodecamp.org/news/how-php-type-juggling-works-explained-with-code-examples/>`_, `PHP Type Juggling Vulnerability <https://medium.com/@abdelrahman0x01/php-type-juggling-vulnerability-768bca4d8b3b>`_ and `Type Juggling <https://swisskyrepo.github.io/PayloadsAllTheThings/Type%20Juggling/>`_.
 
 Related : :ref:`Cast Operator <cast>`, :ref:`Boolean <boolean>`, :ref:`Comparison <comparison>`, :ref:`Condition <condition>`, :ref:`Magic Hash <magic-hash>`

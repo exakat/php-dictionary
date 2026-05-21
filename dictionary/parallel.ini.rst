@@ -26,6 +26,6 @@ Running processes in parallel means that several distinct processes are running 
 
 PHP has several ways to start threads or processes, and monitor them: ampphp, reactPHP, fibers.
 
-See also https://dev.to/robertobutti/parallel-processing-with-php-why-how-and-when-33gh
+See also `Parallel Processing with PHP: why, how, and when <https://dev.to/robertobutti/parallel-processing-with-php-why-how-and-when-33gh>`_.
 
 Related : :ref:`Asynchronous <asynch>`

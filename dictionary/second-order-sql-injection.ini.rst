@@ -26,6 +26,6 @@ A second-order SQL injection, also known as stored SQL injection or persistent S
 
 `Documentation <https://portswigger.net/kb/issues/00100210_sql-injection-second-order>`__
 
-See also https://phpdelusions.net/top#second_order_sql_injection, https://www.linkedin.com/pulse/second-order-sql-injection-attack-aravind-s#:~:text=In%20a%20Second%20Order%20SQL,a%20Second%20Order%20SQL%20Injection.
+See also `Second order SQL injection <https://phpdelusions.net/top#second_order_sql_injection>`_ and `Second-Order SQL Injection Attack <https://www.linkedin.com/pulse/second-order-sql-injection-attack-aravind-s#:~:text=In%20a%20Second%20Order%20SQL,a%20Second%20Order%20SQL%20Injection.>`_.
 
 Related : :ref:`SQL Injection <sql-injection>`

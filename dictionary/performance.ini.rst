@@ -28,6 +28,6 @@ The speed of execution is the time it takes for a task to be completed, and usua
 
 The performance of a piece of code may cover its memory consumption, or any other constraint resource.
 
-See also https://dev.to/parzival_computer/php-performance-optimization-2g3b, https://www.emulationonline.com/posts/comparing-scripting-language-speed/
+See also `PHP Performance Optimization <https://dev.to/parzival_computer/php-performance-optimization-2g3b>`_ and `Comparing Scripting Language Speed <https://www.emulationonline.com/posts/comparing-scripting-language-speed/>`_.
 
 Related : :ref:`Benchmarking <benchmarking>`, :ref:`Quality <quality>`, :ref:`Scaling <scaling>`, :ref:`Static Single Assignment Form (SSA) <ssa>`

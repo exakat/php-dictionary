@@ -28,6 +28,6 @@ PHP supports threads with extensions, such as the ``pthread`` extension. It also
 
 `Documentation <https://en.wikipedia.org/wiki/Thread_(computing)>`__
 
-See also https://www.php.net/manual/en/book.pthreads.php, https://www.php.net/manual/en/faq.obtaining.php#faq.obtaining.threadsafety, https://medium.com/@andreibirta95/php-and-threads-c6b7ea512fdc
+See also `pthreads <https://www.php.net/manual/en/book.pthreads.php>`_, `What does thread safety mean when downloading PHP? <https://www.php.net/manual/en/faq.obtaining.php#faq.obtaining.threadsafety>`_ and `PHP and Threads <https://medium.com/@andreibirta95/php-and-threads-c6b7ea512fdc>`_.
 
 Related : :ref:`Process <process>`, :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Multithreading <multithreading>`

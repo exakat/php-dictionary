@@ -38,6 +38,6 @@ There are also custom runtimes, which takes the PHP code as input, and execute i
 These projects are complete rewrite of PHP with another technology. This is distinct from embedding PHP, where an original PHP engine is incorporated in another language.
 
 
-See also https://github.com/turbine-dev/turbine, https://github.com/nvms/zphp, https://www.caucho.com/resin-3.1/doc/quercus.xtp, https://github.com/seanmorris/php-wasm
+See also `PHP on Rust <https://github.com/turbine-dev/turbine>`_, `PHP on Zig <https://github.com/nvms/zphp>`_, `PHP on Java <https://www.caucho.com/resin-3.1/doc/quercus.xtp>`_ and `PHP on wasm <https://github.com/seanmorris/php-wasm>`_.
 
 Related : :ref:`Embed <embed>`, :ref:`Transpile <transpile>`

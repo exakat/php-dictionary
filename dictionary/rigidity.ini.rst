@@ -29,6 +29,6 @@ Rigidity is reduced by using abstration or modularity.
 The opposite of rigidity is flexibility.
 
 
-See also https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen
+See also `PHP: The Flexibility that can Make or Break your Team Project <https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen>`_.
 
 Related : :ref:`Flexibility <flexibility>`, :ref:`Module <module>`

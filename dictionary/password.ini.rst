@@ -44,6 +44,6 @@ In PHP, password is also an extension for hashing.
    ?>
 
 
-See also https://oxomichael.github.io/en/posts/2025-07-08-generate-secure-password-php/
+See also `Generate a Secure Password in PHP (2025 Version) <https://oxomichael.github.io/en/posts/2025-07-08-generate-secure-password-php/>`_.
 
 Related : :ref:`Password API <password-ext>`, :ref:`Passphrase <passphrase>`, :ref:`Secret <secret>`, , 

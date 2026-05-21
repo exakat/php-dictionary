@@ -30,7 +30,7 @@ In PHP, promises are commonly used with libraries or frameworks that provide asy
 
 `Documentation <https://en.wikipedia.org/wiki/Futures_and_promises>`__
 
-See also https://evertpot.com/promises-in-php/, https://www.amitmerchant.com/using-javascript-style-promises-php/, https://benwendt.ca/articles/pointless-promises-in-php/
+See also `Promises in PHP <https://evertpot.com/promises-in-php/>`_, `Using JavaScript-style Promises in PHP <https://www.amitmerchant.com/using-javascript-style-promises-php/>`_ and `Pointless Promises in PHP <https://benwendt.ca/articles/pointless-promises-in-php/>`_.
 
 Related : :ref:`Asynchronous <asynchronous>`, :ref:`Fibers <fibers>`
 

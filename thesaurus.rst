@@ -57,6 +57,7 @@ List of acronyms, used in this dictionary.
 + :ref:`LSP <lsp>`
 + :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Last In, First Out (LIFO) <lifo>`
++ :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
@@ -173,6 +174,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Boilerplate <boilerplate>`
 + :ref:`Bucket <bucket>`
 + :ref:`Bug <bug>`
++ :ref:`Business Logic <business-logic>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
 + :ref:`Class <class>`
@@ -230,6 +232,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
++ :ref:`Existence <existence>`
 + :ref:`Explicit <explicit>`
 + :ref:`Expression <expression>`
 + :ref:`Extensions <extension>`
@@ -257,6 +260,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
++ :ref:`Library <library>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Literal <literal>`
@@ -272,6 +276,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Migration <migration>`
 + :ref:`Model <model>`
 + :ref:`Module <module>`
++ :ref:`Monomorphization <monomorphization>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
 + :ref:`Native <native>`

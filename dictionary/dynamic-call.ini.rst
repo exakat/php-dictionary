@@ -54,6 +54,6 @@ In PHP, every syntax may use a dynamic call.
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`__
 
-See also https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/
+See also `All the Dynamic Syntaxes in PHP <https://www.exakat.io/en/all-the-dynamic-syntaxes-in-php/>`_.
 
 Related : :ref:`Anonymous <anonymous>`, :ref:`Code Injection <code-injection>`, :ref:`Dynamic <dynamic>`, :ref:`Static Call <static-call>`

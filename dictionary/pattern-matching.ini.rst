@@ -54,6 +54,6 @@ Pattern Matching as a language concept contains two parts: matching a variable a
 
 `Documentation <https://wiki.php.net/rfc/pattern-matching>`__
 
-See also https://en.wikipedia.org/wiki/Pattern_matching
+See also `Pattern matching <https://en.wikipedia.org/wiki/Pattern_matching>`_.
 
 Related : :ref:`Syntax <syntax>`

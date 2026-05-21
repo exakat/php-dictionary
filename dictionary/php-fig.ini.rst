@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Framework Interoperability Group (FIG)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 08:41:36 +0000","dateModified":"Wed, 22 Apr 2026 08:41:36 +0000","description":"``FIG`` is the Framework Interoperability Group","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework Interoperability Group (FIG).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Framework Interoperability Group (FIG)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 07:39:20 +0000","dateModified":"Thu, 21 May 2026 07:39:20 +0000","description":"``FIG`` is the Framework Interoperability Group","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework Interoperability Group (FIG).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Framework Interoperability Group (FIG)
@@ -30,6 +30,6 @@ Famous PSR include: 12, Extended Coding Style Guide;  16, Simple Cache; 18 HTTP 
 
 `Documentation <https://www.php-fig.org/>`__
 
-See also https://fideloper.com/php-fig, https://www.php-fig.org/, https://www.php-fig.org/psr/psr-12/, https://www.php-fig.org/psr/psr-16/, https://www.php-fig.org/psr/psr-18/
+See also `PHP-FIG home <https://fideloper.com/php-fig>`_, `PHP-FIG site <https://www.php-fig.org/>`_, `PSR-12: Extended Style Guide <https://www.php-fig.org/psr/psr-12/>`_, `PSR-16 <https://www.php-fig.org/psr/psr-16/>`_ and `PSR-18 <https://www.php-fig.org/psr/psr-18/>`_.
 
 Related : :ref:`PHP Standards Recommendations (PSR) <psr>`

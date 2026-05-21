@@ -58,6 +58,6 @@ Singleton are more difficult to test, as there is only one instance, and it is d
 
 `Documentation <https://en.wikipedia.org/wiki/Singleton_pattern>`__
 
-See also https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html, https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2, https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html
+See also `The little singleton <https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html>`_, `Stop Using Singleton Pattern <https://medium.com/@dotcom.software/stop-using-singleton-pattern-c078abc99eb2>`_ and `PHP Design Patterns Game : The Singleton Pattern <https://phpmagazine.net/2023/03/php-design-patterns-game-the-singleton-pattern.html>`_.
 
 Related : :ref:`Design Pattern <design-pattern>`

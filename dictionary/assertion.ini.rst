@@ -43,8 +43,8 @@ There are packages providing assertions features and more.
 
 `Documentation <https://www.php.net/manual/en/function.assert.php>`__
 
-See also https://www.exakat.io/en/php-assertions-usage/, https://aleksandertabor.com/blog/assertions-in-php/
+See also `PHP assertions and their usage <https://www.exakat.io/en/php-assertions-usage/>`_ and `Assertions in PHP <https://aleksandertabor.com/blog/assertions-in-php/>`_.
 
-Related : :ref:`zend.assertions <zend-assertions>`, :ref:`Zero Cost <zero-cost>`
+Related : :ref:`zend\.assertions <zend-assertions>`, :ref:`Zero Cost <zero-cost>`
 
 Related packages : `webmozart/assert <https://packagist.org/packages/webmozart/assert>`_, `beberlei/assert <https://packagist.org/packages/beberlei/assert>`_

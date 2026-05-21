@@ -48,7 +48,7 @@ Most PHP DB extensions support prepared statements. Prepared statement may also 
 
 `Documentation <https://en.wikipedia.org/wiki/Prepared_statement>`__
 
-See also https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php, https://www.educative.io/answers/what-are-prepared-statements-in-php
+See also `Prepared Statements (Mysqli) <https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php>`_ and `What are prepared statements in PHP? <https://www.educative.io/answers/what-are-prepared-statements-in-php>`_.
 
 Related : :ref:`Simple Query Language (SQL) <sql>`
 

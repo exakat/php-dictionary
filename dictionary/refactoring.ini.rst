@@ -52,6 +52,6 @@ Refactoring, in PHP as in any programming language, refers to the process of res
 
 `Documentation <https://en.wikipedia.org/wiki/Code_refactoring>`__
 
-See also https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/, https://refactoring.guru/refactoring, https://www.fuseweb.nl/en/blog/2023/05/10/php-refactoring-code-quality-maintainability
+See also `Refactoring without tests should be fine <https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/>`_, `Refactoring Guru <https://refactoring.guru/refactoring>`_ and `PHP Refactoring: The Art of Improving Code Quality and Maintainability <https://www.fuseweb.nl/en/blog/2023/05/10/php-refactoring-code-quality-maintainability>`_.
 
 Related : :ref:`Test <test>`

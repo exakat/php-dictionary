@@ -32,6 +32,6 @@ Heuristics are practical, experience-based techniques or problem-solving approac
 
 `Documentation <https://en.wikipedia.org/wiki/Heuristic>`__
 
-See also https://medium.com/devsphere/heuristic-based-decision-making-in-php-that-beats-hard-rules-2cd9ad9dd233
+See also `Heuristic-Based Decision Making in PHP That Beats Hard Rules <https://medium.com/devsphere/heuristic-based-decision-making-in-php-that-beats-hard-rules-2cd9ad9dd233>`_.
 
 Related : :ref:`Algorithm <algorithm>`

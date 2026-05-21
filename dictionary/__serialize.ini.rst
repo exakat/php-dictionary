@@ -53,6 +53,6 @@ When no array is returned, a ``TypeError`` is thrown.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.serialize>`__
 
-See also `Serializing Data In PHP <https://www.phparch.com/2023/02/serializing-data-in-php/>`_
+See also `0 <`Serializing Data In PHP <https://www.phparch.com/2023/02/serializing-data-in-php/>`_>`_.
 
 Related : :ref:`Unserialization <unserialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Serialization <serialization>`, :ref:`Serialization <serialize>`, :ref:`Unserialization <unserialization>`

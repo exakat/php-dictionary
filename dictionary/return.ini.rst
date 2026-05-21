@@ -63,6 +63,6 @@ The ``return`` type may not always be returned: this is the case for ``never``, 
 
 `Documentation <https://www.php.net/manual/en/function.return.php>`__
 
-See also https://zetcode.com/php/return-keyword/
+See also `PHP return Keyword <https://zetcode.com/php/return-keyword/>`_.
 
 Related : :ref:`Functions <function>`, :ref:`Method <method>`, :ref:`Closure <closure>`, :ref:`Control Flow <control-flow>`, :ref:`Impure Function <impure-function>`, :ref:`Jump <jump>`, :ref:`Pure Function <pure-function>`, :ref:`Return Type <return-type>`, :ref:`Covariance <type-covariance>`

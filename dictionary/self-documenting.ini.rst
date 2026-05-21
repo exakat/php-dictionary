@@ -48,6 +48,6 @@ Self-documenting relies on the reader's knowledge: one need to have background k
 
 `Documentation <https://en.wikipedia.org/wiki/Self-documenting_code>`__
 
-See also https://www.sitepoint.com/keeping-php-code-well-documented/
+See also `Keeping Your PHP Code Well Documented <https://www.sitepoint.com/keeping-php-code-well-documented/>`_.
 
 Related : :ref:`Docblock <docblock>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Apr 2026 20:42:43 +0000","dateModified":"Wed, 15 Apr 2026 20:42:43 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Quine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 20:17:59 +0000","dateModified":"Wed, 20 May 2026 20:17:59 +0000","description":"A quine is a piece of code that produces itself","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Quine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Quine
@@ -37,6 +37,6 @@ A quine is a piece of code that produces itself. It takes not input, and outputs
 
 `Documentation <https://en.wikipedia.org/wiki/Quine_(computing)>`__
 
-See also https://bobtwells.wordpress.com/2010/01/09/php-quine/, https://dev.to/zxce3/php-quines-self-replicating-code-explained-5089, https://www.matthew.ath.cx/programs/quine, https://doganoo.medium.com/why-self-replicating-code-quines-in-php-is-a-security-red-flag-f6632e65050c
+See also `PHP Quine <https://bobtwells.wordpress.com/2010/01/09/php-quine/>`_, `PHP Quines: Self-Replicating Code Explained <https://dev.to/zxce3/php-quines-self-replicating-code-explained-5089>`_, `Quine (ath.cx) <https://www.matthew.ath.cx/programs/quine>`_ and `Why Self-Replicating Code (Quines) in PHP Is a Security Red Flag <https://doganoo.medium.com/why-self-replicating-code-quines-in-php-is-a-security-red-flag-f6632e65050c>`_.
 
 Related : :ref:`Folklore <folklore>`

@@ -50,6 +50,6 @@ When the arguments are dynamic, aka they are collected at execution time, the op
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-See also https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics
+See also `Variadic functions via ... <https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>`_.
 
 Related : :ref:`Variadic <variadic>`

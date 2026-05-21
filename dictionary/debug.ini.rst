@@ -39,6 +39,6 @@ Debugging uses various tools of analysis:
 
 `Documentation <https://en.wikipedia.org/wiki/Debugging>`__
 
-See also https://www.xdebug.org/, https://github.com/php-debugger/php-debugger, https://www.php.net/manual/en/book.phpdbg.php, https://www.honeybadger.io/blog/php-debugger/
+See also `Xdebug <https://www.xdebug.org/>`_, `PHP Debugger <https://github.com/php-debugger/php-debugger>`_, `Interactive PHP Debugger <https://www.php.net/manual/en/book.phpdbg.php>`_ and `How to Use a Debugger in PHP <https://www.honeybadger.io/blog/php-debugger/>`_.
 
 Related : :ref:`Debugger <debugger>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`Xdebug <xdebug>`

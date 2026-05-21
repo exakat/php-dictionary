@@ -50,7 +50,7 @@ Generator delegation works with another generators, ``Traversable`` objects, and
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`__
 
-See also https://code.tutsplus.com/tutorials/how-to-use-yield-and-generators-in-php--cms-39200
+See also `How to Use Yield and Generators in PHP <https://code.tutsplus.com/tutorials/how-to-use-yield-and-generators-in-php--cms-39200>`_.
 
 Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`, :ref:`Traversable <traversable>`, :ref:`Array <array>`, :ref:`Jump <jump>`
 

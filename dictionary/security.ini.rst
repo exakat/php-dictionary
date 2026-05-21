@@ -40,6 +40,6 @@ Security applies to PHP itself, and also to the application written with it.
 
 `Documentation <https://www.php.net/manual/en/security.php>`__
 
-See also https://www.vaadata.com/en/blog/php-security-best-practices-vulnerabilities-and-attacks/, https://www.aquasec.com/cloud-native-academy/application-security/php-security/, https://medium.com/@paunikarjayesh1/senior-php-developers-make-these-security-mistakes-too-and-nobody-talks-about-it-b6c581a30035
+See also `PHP Security Best Practices, Vulnerabilities and Attacks <https://www.vaadata.com/en/blog/php-security-best-practices-vulnerabilities-and-attacks/>`_, `PHP Security <https://www.aquasec.com/cloud-native-academy/application-security/php-security/>`_ and `Senior PHP Developers Make These Security Mistakes Too — And Nobody Talks About It <https://medium.com/@paunikarjayesh1/senior-php-developers-make-these-security-mistakes-too-and-nobody-talks-about-it-b6c581a30035>`_.
 
 Related : :ref:`Audit Trail <audit-trail>`, :ref:`Framework <framework>`, :ref:`Taint Analysis <taint>`, :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`, :ref:`Data Leak <data-leak>`, :ref:`Nonce <nonce>`, :ref:`OWASP <owasp>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Code Review <code-review>`, :ref:`Distributed Denial Of Service (DDOS) <ddos>`, :ref:`Race Condition <race-condition>`, :ref:`Zero Day Vulnerability <zero-day>`

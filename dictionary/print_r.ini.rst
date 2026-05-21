@@ -52,6 +52,6 @@ When using ``print_r()``, it displays the array or object's values and structure
 
 `Documentation <https://www.php.net/manual/en/function.print-r.php>`__
 
-See also https://mikebranski.com/utilizing-phps-print_r-function/, https://reintech.io/blog/practical-guide-to-php-print-r-var-dump-functions
+See also `Utilizing PHP's print_r() function <https://mikebranski.com/utilizing-phps-print_r-function/>`_ and `A practical Guide to PHP's `print_r()` and `var_dump()` Functions <https://reintech.io/blog/practical-guide-to-php-print-r-var-dump-functions>`_.
 
 Related : :ref:`Assertions <assert>`, :ref:`Data Leak <data-leak>`, :ref:`Echo <echo>`, :ref:`Print <print>`, :ref:`var_dump() <var_dump>`

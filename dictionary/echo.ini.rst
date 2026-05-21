@@ -39,6 +39,6 @@ echo works without parenthesis. It also accepts an arbitrary number of arguments
 
 `Documentation <https://www.php.net/manual/en/function.echo.php>`__
 
-See also https://roman-huliak.medium.com/the-difference-between-echo-and-print-in-php-5047006f5fc6
+See also `The difference between echo and print in PHP <https://roman-huliak.medium.com/the-difference-between-echo-and-print-in-php-5047006f5fc6>`_.
 
 Related : :ref:`Print <print>`, :ref:`Language Construct <language-construct>`

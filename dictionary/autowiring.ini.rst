@@ -48,7 +48,7 @@ Autowiring reduce boilerplate code, enhance type usage and make refactoring easi
 
 `Documentation <https://symfony.com/doc/current/service_container/autowiring.html>`__
 
-See also https://php-di.org/doc/autowiring.html, https://symfony.com/doc/current/service_container/autowiring.html
+See also `Autowiring - php-di <https://php-di.org/doc/autowiring.html>`_ and `Defining Services Dependencies Automatically (Autowiring) <https://symfony.com/doc/current/service_container/autowiring.html>`_.
 
 Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`Type System <type>`, :ref:`Constructor <constructor>`, :ref:`Boilerplate <boilerplate>`, :ref:`Type System <type>`, :ref:`Refactoring <refactoring>`
 

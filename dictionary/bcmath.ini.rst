@@ -36,7 +36,7 @@ For arbitrary precision mathematics PHP offers BCMath which supports numbers of 
 
 `Documentation <https://www.php.net/manual/en/book.bc.php>`__
 
-See also https://reintech.io/blog/comprehensive-guide-php-bcmath-library
+See also `A Comprehensive Guide to the PHP BCMath Library for Arbitrary Precision Arithmetic <https://reintech.io/blog/comprehensive-guide-php-bcmath-library>`_.
 
 Related : :ref:`GNU Multiple Precision (GMP) <gmp>`
 

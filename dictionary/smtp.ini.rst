@@ -28,6 +28,6 @@ PHP send emails with the ``mail`` funciton, which relies on the local SMTP serve
 
 `Documentation <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>`__
 
-See also https://datatracker.ietf.org/doc/html/rfc5321
+See also `RFC-5321 <https://datatracker.ietf.org/doc/html/rfc5321>`_.
 
 Related : :ref:`Email <email>`, :ref:`Mail <mail>`

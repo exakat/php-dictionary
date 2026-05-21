@@ -27,6 +27,6 @@ Connexion persistence refers to the practice of reusing the same database connec
 
 `Documentation <https://www.php.net/manual/en/features.persistent-connections.php>`__
 
-See also https://ilia.ws/blog/the-persistent-myth-why-your-php-app-needs-persistent-connection
+See also `The "Connection Tax": What You Pay Every Request <https://ilia.ws/blog/the-persistent-myth-why-your-php-app-needs-persistent-connection>`_.
 
 Related : :ref:`Persistence <persistence>`, :ref:`Connection <connexion>`, :ref:`Database <database>`

@@ -42,6 +42,6 @@ PHP shares several namespaces with the custom code, and has reserved some names 
 
 `Documentation <https://www.php.net/manual/en/reserved.php>`__
 
-See also https://www.php.net/manual/en/language.variables.predefined.php
+See also `Predefined Variables <https://www.php.net/manual/en/language.variables.predefined.php>`_.
 
 Related : :ref:`Name <name>`

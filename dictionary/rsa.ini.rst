@@ -63,6 +63,6 @@ RSA is a public-key cryptosystem, with a a public key, shared with everyone, and
 
 `Documentation <https://en.wikipedia.org/wiki/RSA_cryptosystem>`__
 
-See also https://www.php.net/manual/en/function.openssl-public-encrypt.php
+See also `openssl_public_encrypt <https://www.php.net/manual/en/function.openssl-public-encrypt.php>`_.
 
 Related : :ref:`Base 64 Encoding <base64>`

@@ -41,6 +41,6 @@ The equal operators are ``==``, ``!=``, ``<>``, and ``<=>``. The switch() comman
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/
+See also `How do the PHP equality (== double equals) and identity (=== triple equals) comparison operators differ? <https://www.geeksforgeeks.org/how-do-the-php-equality-double-equals-and-identity-triple-equals-comparison-operators-differ/>`_.
 
 Related : :ref:`Comparison <comparison-operator>`, :ref:`Identical Operator <identical>`

@@ -41,6 +41,6 @@ The system, or the operating system, is the environment where PHP is running. It
    ?>
 
 
-See also https://github.com/iliaal/statgrab
+See also `statgrab <https://github.com/iliaal/statgrab>`_.
 
 Related : :ref:`shell_exec() <shell_exec>`, :ref:`Back-tick <backtick>`

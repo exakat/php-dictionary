@@ -32,4 +32,4 @@ Total Cost of Ownership, aka TCO, is a financial estimate that helps businesses 
 
 `Documentation <https://en.wikipedia.org/wiki/Total_cost_of_ownership>`__
 
-See also https://why-php.com/tco-calculator.html
+See also `TCO calculator <https://why-php.com/tco-calculator.html>`_.

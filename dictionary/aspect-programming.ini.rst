@@ -26,7 +26,7 @@ Aspect programming is a programming paradigm that separate business logic with c
 
 `Documentation <https://en.wikipedia.org/wiki/Aspect-oriented_programming>`__
 
-See also https://flowframework.readthedocs.io/en/8.3/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html
+See also `Aspect-Oriented Programming <https://flowframework.readthedocs.io/en/8.3/TheDefinitiveGuide/PartIII/AspectOrientedProgramming.html>`_.
 
 Related : :ref:`Paradigm <paradigm>`
 

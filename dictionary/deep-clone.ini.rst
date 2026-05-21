@@ -58,6 +58,6 @@ Deep cloning is achieved by using the ``__clone`` magic method. By default, PHP 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also https://linuxhint.com/cloning_objects_php/, https://hackernoon.com/native-deepcloner-vs-manual-serialization-what-you-need-to-know
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_ and `Native DeepCloner vs. Manual Serialization: What You Need to Know <https://hackernoon.com/native-deepcloner-vs-manual-serialization-what-you-need-to-know>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`__clone() Method <-__clone>`, :ref:`Clone <clone>`, :ref:`Serialization <serialization>`, :ref:`Shallow Clone <shallow-clone>`

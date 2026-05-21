@@ -50,6 +50,6 @@ It's important to note that these errors are only thrown by internal PHP errors.
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-See also https://www.php.net/manual/en/class.error.php, https://www.geeksforgeeks.org/php/php-types-of-errors/
+See also `Error <https://www.php.net/manual/en/class.error.php>`_ and `PHP Types of Errors <https://www.geeksforgeeks.org/php/php-types-of-errors/>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Throwable <throwable>`, :ref:`Traversable <traversable>`, :ref:`UnhandledMatchError <unhandledmatcherror>`

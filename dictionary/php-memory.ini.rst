@@ -39,6 +39,6 @@ php://memory
 
 `Documentation <https://www.php.net/manual/en/wrappers.php.php>`__
 
-See also https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html
+See also `Speed Up CSV Write To Disk <https://php-tips.readthedocs.io/en/latest/tips/speed_up_write_to_disk.html>`_.
 
 Related : :ref:`php://tmp <php-tmp>`, :ref:`Stream <stream>`, :ref:`memory_limit <memory_limit>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`file_put_contents() <file_put_contents>`

@@ -37,6 +37,6 @@ SBOM uses the Cyclone DX format as a standard.
 
 `Documentation <https://en.wikipedia.org/wiki/Software_supply_chain>`__
 
-See also https://github.com/anchore/syft, https://github.com/CycloneDX/cyclonedx-php-composer
+See also `Syft <https://github.com/anchore/syft>`_ and `CycloneDX PHP Composer Plugin <https://github.com/CycloneDX/cyclonedx-php-composer>`_.
 
 Related : :ref:`Dependency <dependency>`, 

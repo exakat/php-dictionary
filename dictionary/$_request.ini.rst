@@ -48,6 +48,6 @@ The received values are all strings or arrays. They are strings by default, and 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.get.php>`__
 
-See also https://x-team.com/magazine/basics-php-request, https://medium.com/@otabekjurabekov3/comprehensive-explanation-of-phps-request-superglobal-for-form-data-handling-6034ad14827d
+See also `The Basics of the PHP Request <https://x-team.com/magazine/basics-php-request>`_ and `Comprehensive Explanation of PHP’s $_REQUEST Superglobal for Form Data Handling <https://medium.com/@otabekjurabekov3/comprehensive-explanation-of-phps-request-superglobal-for-form-data-handling-6034ad14827d>`_.
 
 Related : :ref:`$_POST <$_post>`, :ref:`$_GET <$_get>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_ENV <$_env>`, :ref:`Form <form>`, :ref:`Incoming Data <incoming-data>`, :ref:`variable_order <variable_order>`

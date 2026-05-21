@@ -51,6 +51,6 @@ There are PHP functions and operators that perform safe comparisons ,such as ``=
    ?>
 
 
-See also https://github.com/spaze/hashes, https://www.whitehatsec.com/blog/magic-hashes/, https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l
+See also `PHP magic hashes <https://github.com/spaze/hashes>`_, `Magic Hashes <https://www.whitehatsec.com/blog/magic-hashes/>`_ and `Can you find the bug in this piece of php code? <https://dev.to/nombrekeff/can-you-find-the-bug-in-this-piece-of-php-code-g7l>`_.
 
 Related : :ref:`Hash <hash>`, :ref:`Comparison <comparison>`, :ref:`Type Juggling <type-juggling>`

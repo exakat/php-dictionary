@@ -45,6 +45,6 @@ References are also considered an alias, as they stand for a variable with anoth
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-See also https://www.php.net/manual/en/language.namespaces.importing.php
+See also `Using namespaces: Aliasing/Importing <https://www.php.net/manual/en/language.namespaces.importing.php>`_.
 
 Related : :ref:`Use Alias <use-alias>`, :ref:`Alias Types <type-alias>`, :ref:`Insteadof <insteadof>`, :ref:`References <reference>`, :ref:`class_alias() <class_alias>`

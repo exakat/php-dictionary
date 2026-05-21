@@ -37,6 +37,6 @@ One alternative to type erasure is monomorphization, where every needed type is 
 
 `Documentation <https://en.wikipedia.org/wiki/Type_erasure>`__
 
-See also https://github.com/mrsuh/php-generics, https://wiki.php.net/rfc/bound_erased_generic_types
+See also `mrsuh/php-generics <https://github.com/mrsuh/php-generics>`_ and `Bound Erased Generic Types <https://wiki.php.net/rfc/bound_erased_generic_types>`_.
 
-Related : :ref:`Type System <type>`, :ref:`Deployment <deployment>`, :ref:`Transpile <transpile>`, , :ref:`Generics <generics>`, :ref:`Performance <performance>`
+Related : :ref:`Type System <type>`, :ref:`Deployment <deployment>`, :ref:`Transpile <transpile>`, :ref:`Monomorphization <monomorphization>`, :ref:`Generics <generics>`, :ref:`Performance <performance>`

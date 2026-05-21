@@ -43,6 +43,6 @@ There are different kind of lock:
    ?>
 
 
-See also https://lessthan12ms.com/data-locking-strategies-in-php-apps-practical-approach.html, https://locallost.net/?p=1091
+See also `Data locking strategies in PHP apps. Practical approach <https://lessthan12ms.com/data-locking-strategies-in-php-apps-practical-approach.html>`_ and `Locking in PHP to serialize execution of critical sections <https://locallost.net/?p=1091>`_.
 
 Related packages : `php-lock/lock <https://packagist.org/packages/php-lock/lock>`_

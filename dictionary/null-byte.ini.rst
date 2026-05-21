@@ -40,6 +40,6 @@ However, problems arise when PHP passes such strings to underlying C libraries, 
 
 `Documentation <https://en.wikipedia.org/wiki/Null_character>`__
 
-See also https://www.php.net/manual/en/security.filesystem.nullbytes.php, https://hadrian.io/blog/cve-2025-1220-null-byte-trickery-bypasses-hostname-allowlists-in-php
+See also `Null bytes related issues <https://www.php.net/manual/en/security.filesystem.nullbytes.php>`_ and `CVE-2025-1220: Null byte trickery bypasses hostname allowlists in PHP <https://hadrian.io/blog/cve-2025-1220-null-byte-trickery-bypasses-hostname-allowlists-in-php>`_.
 
 Related : :ref:`Null <null>`, :ref:`Character <character>`

@@ -38,7 +38,7 @@ Optionally, there is also:
 
 `Documentation <https://semver.org/>`__
 
-See also https://www.phparch.com/2022/11/semantic-versioning/
+See also `Semantic Versioning - PHP architect <https://www.phparch.com/2022/11/semantic-versioning/>`_.
 
 Related : :ref:`Version <version>`
 

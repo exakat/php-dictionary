@@ -37,6 +37,6 @@ Obfuscation refers to the practice of deliberately making something difficult to
    ?>
 
 
-See also https://medium.com/@chidozieduru/obfuscate-your-php-source-code-da8fa6e5f3f9
+See also `Obfuscate Your PHP Source Code <https://medium.com/@chidozieduru/obfuscate-your-php-source-code-da8fa6e5f3f9>`_.
 
 Related : :ref:`Minification <minification>`

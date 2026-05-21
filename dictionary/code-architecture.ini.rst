@@ -33,6 +33,6 @@ Key Aspects of Code Architecture:
 
 Frameworks bring their own code architecture.
 
-See also https://medium.com/codex/understanding-code-architecture-patterns-96bdbd8611d4, https://medium.com/unil-ci-software-engineering/clean-architecture-with-php-22de915a6c50
+See also `Understanding code architecture patterns <https://medium.com/codex/understanding-code-architecture-patterns-96bdbd8611d4>`_ and `Clean Architecture with PHP <https://medium.com/unil-ci-software-engineering/clean-architecture-with-php-22de915a6c50>`_.
 
 Related : :ref:`Architecture <architecture>`, :ref:`Server Architecture <server-architecture>`

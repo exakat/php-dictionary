@@ -26,6 +26,6 @@ PHP-UG are the PHP User Groups. They are informal groups of PHP developer and re
 
 `Documentation <https://php.ug/>`__
 
-See also https://wiki.php.net/usergroups
+See also `PHP User Groups <https://wiki.php.net/usergroups>`_.
 
 Related : :ref:`Community <community>`

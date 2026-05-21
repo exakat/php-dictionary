@@ -45,6 +45,6 @@ Here are the strict operators: ``==`` may be replaced with ``===``,  ``!=`` may 
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/, https://coderlegion.com/9440/strict-comparison-in-php-explained-at-the-zend-engine-level
+See also `Strict vs. Loose Comparisons in PHP <https://www.copterlabs.com/strict-vs-loose-comparisons-in-php/>`_ and `Strict Comparison in PHP Explained at the Zend Engine Level <https://coderlegion.com/9440/strict-comparison-in-php-explained-at-the-zend-engine-level>`_.
 
 Related : :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Relaxed Comparison <relaxed-comparison>`

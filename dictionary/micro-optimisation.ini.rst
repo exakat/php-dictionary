@@ -47,4 +47,4 @@ It is often a pointless to discuss the micro-optimisation. It is a do or don't, 
 
 `Documentation <https://en.wiktionary.org/wiki/micro-optimization>`__
 
-See also https://medium.com/@vlreshet/stop-using-these-5-outdated-optimization-tricks-in-php-d2d616fd83fa, https://tideways.com/profiler/blog/compiler-optimized-php-functions/, https://siit.co/blog/data-driven-php-7-performance-optimization-methods/15727
+See also `Stop Using These 5 Outdated Optimization Tricks in PHP <https://medium.com/@vlreshet/stop-using-these-5-outdated-optimization-tricks-in-php-d2d616fd83fa>`_, `What are compiler optimized internal PHP functions and should you import them via use statement? <https://tideways.com/profiler/blog/compiler-optimized-php-functions/>`_ and `Data-Driven PHP 7 Performance Optimization Methods <https://siit.co/blog/data-driven-php-7-performance-optimization-methods/15727>`_.

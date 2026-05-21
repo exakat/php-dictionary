@@ -41,6 +41,6 @@ The list of all the defined constants is available with the ``get_defined_consta
 
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
 
-See also https://dev.to/patricia1988hernandez2/understanding-php-predefined-constants-6db
+See also `Understanding PHP Predefined Constants <https://dev.to/patricia1988hernandez2/understanding-php-predefined-constants-6db>`_.
 
 Related : :ref:`Constants <constant>`, :ref:`PHP Constants <php-constant>`

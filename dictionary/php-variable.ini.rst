@@ -45,6 +45,6 @@ The set of predefined variables also depended on PHP directives. ``$HTTP_RAW_POS
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-See also https://theguerrilla.agency/predefined-variables-in-php-an-overview-for-complete-beginners
+See also `Predefined Variables in PHP: For complete beginners <https://theguerrilla.agency/predefined-variables-in-php-an-overview-for-complete-beginners>`_.
 
 Related : :ref:`Superglobal Variables <super-global>`, :ref:`Variables <variable>`, :ref:`Native <native>`

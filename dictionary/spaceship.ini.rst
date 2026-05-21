@@ -42,7 +42,7 @@ The spaceship operator got its name from its resemblance to an flying saucer. Ba
 
 `Documentation <https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op>`__
 
-See also https://www.exakat.io/en/weird-operators-in-php/, https://www.designcise.com/web/tutorial/what-is-the-php-spaceship-operator
+See also `Weird operators in PHP <https://www.exakat.io/en/weird-operators-in-php/>`_ and `What Is the PHP Spaceship Operator? <https://www.designcise.com/web/tutorial/what-is-the-php-spaceship-operator>`_.
 
 Related : :ref:`Comparison <comparison-operator>`
 

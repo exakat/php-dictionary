@@ -42,7 +42,7 @@ PHP includes an internal parser, that reads the source code, and produces the PH
 
 `Documentation <https://en.wikipedia.org/wiki/Parsing#Parser>`__
 
-See also https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/, https://github.com/kreuzberg-dev/tree-sitter-language-pack
+See also `Parse, don’t validate <https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/>`_ and `tree-sitter-language-pack <https://github.com/kreuzberg-dev/tree-sitter-language-pack>`_.
 
 Related : :ref:`Sanitation <sanitation>`, :ref:`Validation <validation>`, :ref:`Parse <parse>`, :ref:`ParseError <parseerror>`
 

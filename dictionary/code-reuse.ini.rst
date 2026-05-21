@@ -49,6 +49,6 @@ In PHP, code reuse can be achieved through various techniques, including functio
 
 `Documentation <https://en.wikipedia.org/wiki/Code_reuse>`__
 
-See also https://www.opslevel.com/resources/what-is-code-reuse-and-why-is-it-important
+See also `What is code reuse and why is it important? <https://www.opslevel.com/resources/what-is-code-reuse-and-why-is-it-important>`_.
 
 Related : :ref:`Code Architecture <code-architecture>`

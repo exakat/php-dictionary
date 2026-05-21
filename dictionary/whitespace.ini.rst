@@ -48,6 +48,6 @@ Whitespace is not a notion specific to PHP: other languages have them too. For e
    ?>
 
 
-See also https://www.php.net/manual/en/function.php-strip-whitespace.php, https://avdi.codes/be-careful-of-whitespace-in-php-files/
+See also `php_strip_whitespace() <https://www.php.net/manual/en/function.php-strip-whitespace.php>`_ and `Be careful of whitespace in .php files <https://avdi.codes/be-careful-of-whitespace-in-php-files/>`_.
 
 Related : :ref:`Token <token>`

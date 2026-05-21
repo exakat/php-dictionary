@@ -26,6 +26,6 @@ The Test Pyramid is a concept in software testing that represents the ideal dist
 
 `Documentation <https://martinfowler.com/articles/practical-test-pyramid.html>`__
 
-See also https://martinfowler.com/bliki/TestPyramid.html
+See also `TestPyramid <https://martinfowler.com/bliki/TestPyramid.html>`_.
 
 Related : :ref:`Test <test>`

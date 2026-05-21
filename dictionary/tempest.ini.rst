@@ -26,6 +26,6 @@ Tempest is the framework that gets out of your way. With zero configuration and 
 
 `Documentation <https://tempestphp.com/>`__
 
-See also https://www.juststeveking.com/articles/building-real-applications-with-tempestphp/
+See also `Building Real Applications with TempestPHP <https://www.juststeveking.com/articles/building-real-applications-with-tempestphp/>`_.
 
 Related : :ref:`Framework <framework>`

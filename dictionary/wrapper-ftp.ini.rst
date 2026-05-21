@@ -37,6 +37,6 @@ The ``ftp://`` wrapper is a native PHP wrapper, to access files on a remote ``FT
 
 `Documentation <https://www.php.net/manual/en/wrappers.ftp.php>`__
 
-See also https://medium.com/@zoningxtr/mastering-php-wrappers-concepts-use-cases-and-security-risks-380bb59cb6c1
+See also `Mastering PHP Wrappers: Concepts, Use Cases, and Security Risks <https://medium.com/@zoningxtr/mastering-php-wrappers-concepts-use-cases-and-security-risks-380bb59cb6c1>`_.
 
 Related : :ref:`Wrapper <wrapper>`, :ref:`PHP Wrappers <php-wrapper>`

@@ -36,8 +36,8 @@ SDKs are commonly provided by companies or organizations to encourage developers
 
 `Documentation <https://en.wikipedia.org/wiki/Software_development_kit>`__
 
-See also https://github.com/DisplaceTech/xai-sdk-php
+See also `xai-sdk-php <https://github.com/DisplaceTech/xai-sdk-php>`_.
 
-Related : , 
+Related : :ref:`Library <library>`, 
 
 Related packages : `aws/aws-sdk-php <https://packagist.org/packages/aws/aws-sdk-php>`_, `sentry/sentry <https://packagist.org/packages/sentry/sentry>`_, `twilio/sdk <https://packagist.org/packages/twilio/sdk>`_

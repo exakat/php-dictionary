@@ -27,6 +27,6 @@ The PHP Foundation focuses on providing financial support and guidance to PHP la
 
 `Documentation <https://thephp.foundation/>`__
 
-See also https://opensourcepledge.com/blog/the-php-foundation/
+See also `The PHP Foundation's mission to keep millions of sites safe <https://opensourcepledge.com/blog/the-php-foundation/>`_.
 
 Related : :ref:`PHP Group <php-group>`

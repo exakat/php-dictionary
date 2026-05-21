@@ -90,6 +90,6 @@ The key characteristic is that the $next parameter is typed to the component's o
 
 `Documentation <https://maximegosselin.com/posts/using-the-middleware-pattern-to-extend-php-libraries/>`__
 
-See also https://www.php-fig.org/psr/psr-15/, https://backslashphp.github.io/docs/customization/extending-with-middleware/
+See also `PSR-15 <https://www.php-fig.org/psr/psr-15/>`_ and `Extending with Middleware <https://backslashphp.github.io/docs/customization/extending-with-middleware/>`_.
 
 Related packages : `backslashphp/backslash <https://packagist.org/packages/backslashphp/backslash>`_

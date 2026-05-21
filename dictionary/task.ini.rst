@@ -34,7 +34,7 @@ Task are handled by a task manager, or a job queue. One process insert the tasks
 
 `Documentation <https://en.wikipedia.org/wiki/Task_(computing)>`__
 
-See also https://gearman.org/
+See also `Gearman <https://gearman.org/>`_.
 
 Related : :ref:`Jobqueue <jobqueue>`, :ref:`Cron <cron>`
 

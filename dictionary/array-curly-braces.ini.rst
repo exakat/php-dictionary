@@ -41,7 +41,7 @@ Since PHP 8.0, this is not supported anymore.
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing>`__
 
-See also https://wiki.php.net/rfc/deprecate_curly_braces_array_access
+See also `PHP RFC: Deprecate curly brace syntax for accessing array elements and string offsets <https://wiki.php.net/rfc/deprecate_curly_braces_array_access>`_.
 
 Related : :ref:`Array <array>`, :ref:`Bracket <bracket>`
 

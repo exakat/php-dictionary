@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","name":"Coverage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The coverage is the concept that an operation has been applied to every part of a whole body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coverage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Argument #1 ($value) must be of type Countable|array, object given .html","name":"Coverage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 13:54:20 +0000","dateModified":"Wed, 20 May 2026 13:54:20 +0000","description":"The coverage is the concept that an operation has been applied to every part of a whole body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coverage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Coverage
@@ -27,5 +27,7 @@ The coverage is the concept that an operation has been applied to every part of 
 PHP uses this notion with tests, where code coverage is expected to use as much as possible of the code; and type coverage, where as many types as possible have been applied.
 
 Usually, coverage refers to code coverage.
+
+See also `PHP code coverage tool <https://php.watch/articles/php-code-coverage-comparison>`_ and `Type Coverage <https://pestphp.com/docs/type-coverage>`_.
 
 Related : :ref:`Type Coverage <type-coverage>`, :ref:`Code Coverage <code-coverage>`

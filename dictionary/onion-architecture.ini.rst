@@ -27,7 +27,7 @@ Onion Architecture is a software architecture pattern introduced by ``Jeffrey Pa
 
 `Documentation <https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>`__
 
-See also https://fideloper.com/hexagonal-architecture, https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656
+See also `Hexagonal Architecture <https://fideloper.com/hexagonal-architecture>`_ and `Hexagonal Architechure (Ports and Adapters) with PHP <https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656>`_.
 
 Related : :ref:`Adapters <adapter>`, :ref:`Hexagonal Architecture <hexagonal-architecture>`
 

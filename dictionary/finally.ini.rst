@@ -43,7 +43,7 @@ Finally is run every time after a try, with or without any catch clause. It is a
 
 `Documentation <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.finally>`__
 
-See also https://thecodeprogram.com/blog/how-to-use-try---catch---finally-in-php/
+See also `How to use Try - Catch - Finally in PHP <https://thecodeprogram.com/blog/how-to-use-try---catch---finally-in-php/>`_.
 
 Related : :ref:`Try-catch <try-catch>`, :ref:`Catch <catch>`
 

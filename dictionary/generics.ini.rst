@@ -37,6 +37,6 @@ Generics are generally considered to be not supported in PHP, although external 
 
 `Documentation <https://stitcher.io/blog/generics-in-php-1>`__
 
-See also https://stitcher.io/blog/generics-in-php-3, https://wiki.php.net/rfc/generics, https://github.com/mrsuh/php-generics, https://dev.to/jszutkowski/how-to-start-using-generic-types-in-php-2f1k
+See also `Why we can't have generics in PHP <https://stitcher.io/blog/generics-in-php-3>`_, `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_, `mrsuh/php-generics <https://github.com/mrsuh/php-generics>`_ and `How To Start Using Generic Types In PHP <https://dev.to/jszutkowski/how-to-start-using-generic-types-in-php-2f1k>`_.
 
 Related : :ref:`Polymorphism <polymorphism>`

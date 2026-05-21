@@ -42,6 +42,6 @@ Callback may be build with on closures, arrow-functions, native PHP functions, m
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-See also https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/, https://doeken.org/tip/using-callbacks-to-prevent-code-duplication, https://codernex.hashnode.dev/how-to-use-php-callbacks-examples-and-guide
+See also `The Wonderful World of Callbacks <https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/>`_, `Using callbacks to prevent code duplication <https://doeken.org/tip/using-callbacks-to-prevent-code-duplication>`_ and `How to Use PHP Callbacks: Examples and Guide <https://codernex.hashnode.dev/how-to-use-php-callbacks-examples-and-guide>`_.
 
 Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`String <string>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Functions <function>`, :ref:`Method <method>`, :ref:`Magic Methods <magic-method>`

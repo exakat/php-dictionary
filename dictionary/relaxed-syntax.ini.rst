@@ -49,6 +49,6 @@ Note that using PHP keywords for method names may bring confusion to the next co
    ?>
 
 
-See also https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words
+See also `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`_.
 
 Related : :ref:`Naming <naming>`

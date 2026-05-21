@@ -31,6 +31,6 @@ Session hijacking is mitigated by having a way to identify if a user is the actu
 
 `Documentation <https://owasp.org/www-community/attacks/Session_hijacking_attack>`__
 
-See also https://sjinnovation.com/session-and-security-in-php, https://www.freecodecamp.org/news/php-security-vulnerabilities/
+See also `Session And Security in PHP <https://sjinnovation.com/session-and-security-in-php>`_ and `PHP Security Vulnerabilities: Session Hijacking, Cross-Site Scripting, SQL Injection, and How to Fix Them <https://www.freecodecamp.org/news/php-security-vulnerabilities/>`_.
 
 Related : :ref:`Session Fixation <session-fixation>`, :ref:`Session <session>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`Man In The Middle <man-in-the-middle>`

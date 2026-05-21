@@ -26,6 +26,6 @@ A Product Requirements Document, or PRD, is a formal document used in product ma
 
 `Documentation <https://en.wikipedia.org/wiki/Product_requirements_document>`__
 
-See also https://www.productplan.com/glossary/product-requirements-document/
+See also `Product Requirements Document <https://www.productplan.com/glossary/product-requirements-document/>`_.
 
 Related : :ref:`Documentation <documentation>`

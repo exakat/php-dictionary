@@ -57,6 +57,6 @@ Unlike standard JSON, which does not support comments, JSONC retains full compat
 
 `Documentation <https://github.com/aleron75/jsonc>`__
 
-See also https://jsonc.org/
+See also `JSONC <https://jsonc.org/>`_.
 
 Related : :ref:`json_decode() <json_decode>`, :ref:`JSON Lines (JSONL) <jsonl>`, :ref:`JavaScript Object Notation (JSON) <json>`

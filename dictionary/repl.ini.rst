@@ -39,7 +39,7 @@ This mode is also called the interactive mode. It is started, on command line, b
 
 `Documentation <https://www.php.net/manual/en/features.commandline.interactive.php>`__
 
-See also https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195, https://github.com/borisrepl/boris, https://www.sitepoint.com/say-hello-to-boris-a-better-repl-for-php/
+See also `Creating a PHP REPL for learning purposes <https://medium.com/@dat.tm24/creating-a-php-repl-for-learning-purposes-d90a6a717195>`_, `Boris, A tiny, but robust REPL for PHP. <https://github.com/borisrepl/boris>`_ and `Say Hello to Boris: A Better REPL for PHP <https://www.sitepoint.com/say-hello-to-boris-a-better-repl-for-php/>`_.
 
 Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Readline <readline>`
 

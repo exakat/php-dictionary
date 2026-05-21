@@ -37,6 +37,6 @@ There may be several goals of a code review, including:
 
 `Documentation <https://en.wikipedia.org/wiki/Code_review>`__
 
-See also https://www.evozon.com/how-to-streamline-code-reviews-with-architecture-testing/
+See also `How to streamline Code Reviews with Architecture Testing? <https://www.evozon.com/how-to-streamline-code-reviews-with-architecture-testing/>`_.
 
 Related : :ref:`Quality <quality>`, :ref:`Pipeline <pipeline>`, :ref:`Security <security>`

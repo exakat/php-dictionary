@@ -28,6 +28,6 @@ When a PHP script encounters a blocking operation, such as a file I/O operation,
 
 Synchronous is the default way of working for PHP.
 
-See also https://gorannikolovski.com/blog/asynchronous-and-concurrent-http-requests-in-php
+See also `Asynchronous and concurrent HTTP requests in PHP <https://gorannikolovski.com/blog/asynchronous-and-concurrent-http-requests-in-php>`_.
 
 Related : :ref:`Asynchronous <asynchronous>`

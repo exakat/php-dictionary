@@ -37,7 +37,7 @@ Among the predefined PHP wrapper, there are ``http://``, ``ftp://``, ``zlib://``
 
 `Documentation <https://www.php.net/manual/en/class.streamwrapper.php>`__
 
-See also https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/, https://medium.com/@robsfromashes/php-wrapper-and-local-file-inclusion-2fb82c891f55
+See also `Protocols and Wrapper in PHP <https://www.geeksforgeeks.org/protocols-and-wrapper-in-php/>`_ and `Php wrapper and Local File Inclusion <https://medium.com/@robsfromashes/php-wrapper-and-local-file-inclusion-2fb82c891f55>`_.
 
 Related : :ref:`Protocol <protocol>`, :ref:`Wrapper <wrapper>`, :ref:`file:// <wrapper-file>`, :ref:`Thin Method <thin-method>`, :ref:`ftp:// <wrapper-ftp>`, :ref:`Wrapper Pattern <wrapper-pattern>`, :ref:`php:// <wrapper-php>`
 

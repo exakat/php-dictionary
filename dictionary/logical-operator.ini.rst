@@ -50,6 +50,6 @@ The logical operators work on various types, and output booleans. They are diffe
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also https://www.php.net/manual/en/language.operators.precedence.php
+See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 
 Related : :ref:`Bitwise Operators <bitwise-operator>`, :ref:`Not Operator <not>`, :ref:`And Operator <and>`, :ref:`Bitshift Operators <bitshift-operator>`, :ref:`False <false>`, :ref:`True <true>`

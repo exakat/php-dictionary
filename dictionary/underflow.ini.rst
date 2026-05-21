@@ -45,6 +45,6 @@ Other situations, such as accessing an array element or a string character beyon
 
 `Documentation <https://en.wikipedia.org/wiki/Arithmetic_underflow>`__
 
-See also https://www.rapid7.com/db/modules/exploit/multi/http/php_fpm_rce/, https://secdim.com/lab/integer-underflow/php/
+See also `PHP-FPM Underflow RCE <https://www.rapid7.com/db/modules/exploit/multi/http/php_fpm_rce/>`_ and `Integer Underflow <https://secdim.com/lab/integer-underflow/php/>`_.
 
 Related : :ref:`Null <null>`, :ref:`Overflow <overflow>`

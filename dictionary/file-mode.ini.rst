@@ -39,6 +39,6 @@ There are several valid modes: 'r', 'r+', 'w', 'w+', 'a', 'a+', 'x', 'x+', 'c', 
 
 `Documentation <https://www.php.net/manual/fr/function.fopen.php>`__
 
-See also https://www.php.net/manual/en/function.fopen.php
+See also `fopen <https://www.php.net/manual/en/function.fopen.php>`_.
 
 Related : :ref:`fopen() <fopen>`, :ref:`file_put_contents() <file_put_contents>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Lock <lock>`

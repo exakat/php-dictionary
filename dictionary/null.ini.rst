@@ -44,6 +44,6 @@ There is also a design pattern called Null Pattern, although its main goal is to
 
 `Documentation <https://www.php.net/manual/en/language.types.null.php>`__
 
-See also https://peakd.com/hive-168588/@crell/much-ado-about-null, https://afilina.com/null-hell, https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/
+See also `Much ado about null <https://peakd.com/hive-168588/@crell/much-ado-about-null>`_, `Null Hell and How to Get Out of It <https://afilina.com/null-hell>`_ and `Avoiding Unnecessary Null Checks <https://www.arhohuttunen.com/avoiding-unnecessary-null-checks/>`_.
 
 Related : :ref:`Nullable <nullable>`, :ref:`Null Pattern <nullpattern>`, :ref:`Authentication <authentication>`, :ref:`Empty <empty>`, :ref:`Overflow <overflow>`, :ref:`Underflow <underflow>`, :ref:`Void <void>`, :ref:`Default Value <default-value>`, :ref:`json_decode() <json_decode>`, :ref:`Return Value <return-value>`, :ref:`Value <value>`, :ref:`Autovivification <autovivification>`, :ref:`PHP Natives <native-type>`, :ref:`Null Byte <null-byte>`, :ref:`str_contains() <str_contains>`

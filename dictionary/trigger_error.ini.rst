@@ -37,6 +37,6 @@ trigger_error()
 
 `Documentation <https://www.php.net/manual/en/function.trigger-error.php>`__
 
-See also https://code.mu/en/php/manual/error/trigger_error/
+See also `The trigger_error Function <https://code.mu/en/php/manual/error/trigger_error/>`_.
 
 Related : :ref:`@, No Scream Operator <noscream>`, :ref:`Error Reporting <error-reporting>`

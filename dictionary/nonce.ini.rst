@@ -26,6 +26,6 @@ A nonce is a security token used to protect actions against unauthorized or mali
 
 The word nonce comes from ``number used once“``. It is common in the wordpress ecosystem.
 
-See also https://developer.wordpress.org/apis/security/nonces/, https://pressidium.com/blog/nonces-in-wordpress-all-you-need-to-know/
+See also `Nonces <https://developer.wordpress.org/apis/security/nonces/>`_ and `Understanding WordPress Nonces: Enhance Site Security Effectively <https://pressidium.com/blog/nonces-in-wordpress-all-you-need-to-know/>`_.
 
 Related : :ref:`Security <security>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`

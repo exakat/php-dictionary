@@ -39,6 +39,6 @@ The bzip2 extension provides functions to handle the zip compression format: rea
 
 `Documentation <https://www.php.net/manual/en/book.bzip2.php>`__
 
-See also https://ssojet.com/compression/compress-files-with-bzip2-in-php/
+See also ` Compress Files with bzip2 in PHP <https://ssojet.com/compression/compress-files-with-bzip2-in-php/>`_.
 
 Related : :ref:`zlib extension <zlib>`, :ref:`zip Extension <zip>`

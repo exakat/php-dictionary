@@ -46,6 +46,6 @@ Method chaining happens when the result of a method call is used to call another
    ?>
 
 
-See also https://dev.to/devbalop/unleashing-the-power-of-method-chaining-in-laravel-e5h
+See also `Unleashing the Power of Method Chaining in PHP <https://dev.to/devbalop/unleashing-the-power-of-method-chaining-in-laravel-e5h>`_.
 
 Related : :ref:`Fluent Interface <fluent-interface>`, :ref:`Exception <exception>`, :ref:`Methodcall <methodcall>`

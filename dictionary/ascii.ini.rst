@@ -41,6 +41,6 @@ PHP handles ASCII characters with the functions ``ord()`` and ``chr()``.
 
 `Documentation <https://en.wikipedia.org/wiki/ASCII>`__
 
-See also http://www.hackingwithphp.com/4/7/3/converting-to-and-from-ascii
+See also `Converting to and from ASCII <http://www.hackingwithphp.com/4/7/3/converting-to-and-from-ascii>`_.
 
 Related : :ref:`Byte <byte>`, :ref:`Character <character>`

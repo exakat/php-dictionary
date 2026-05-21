@@ -45,6 +45,6 @@ Concatenation is done with the dot operator ``.``.
 
 `Documentation <https://www.php.net/manual/en/language.operators.string.php>`__
 
-See also https://www.exakat.io/en/all-string-concatenations-in-php/
+See also `All String Concatenations in PHP <https://www.exakat.io/en/all-string-concatenations-in-php/>`_.
 
 Related : :ref:`String <string>`, :ref:`Interpolation <interpolation>`, :ref:`Heredocs <heredoc>`

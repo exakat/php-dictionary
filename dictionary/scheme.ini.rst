@@ -26,6 +26,6 @@ Scheme is a format for a string.
 
 For example, URL, emails, dates have a scheme. It may be parsed from a string into atomic elements, and formatted back as a string.
 
-See also https://www.php.net/manual/fr/function.parse-url.php
+See also `parse_url <https://www.php.net/manual/fr/function.parse-url.php>`_.
 
 Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`Schema <schema>`

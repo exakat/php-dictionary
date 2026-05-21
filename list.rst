@@ -57,6 +57,7 @@ Index
    dictionary/addition.ini
    dictionary/adr.ini
    dictionary/agile.ini
+   dictionary/ai.ini
    dictionary/algorithm.ini
    dictionary/algorithmic-complexity.ini
    dictionary/alias-types.ini
@@ -186,6 +187,7 @@ Index
    dictionary/browser.ini
    dictionary/bucket.ini
    dictionary/bug.ini
+   dictionary/business-logic.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
    dictionary/byte.ini
@@ -420,6 +422,7 @@ Index
    dictionary/double-quote.ini
    dictionary/double.ini
    dictionary/downtime.ini
+   dictionary/drop-in.ini
    dictionary/dry.ini
    dictionary/ds.ini
    dictionary/dsn.ini
@@ -483,6 +486,7 @@ Index
    dictionary/exec.ini
    dictionary/execution-path.ini
    dictionary/execution-time.ini
+   dictionary/existence.ini
    dictionary/exit.ini
    dictionary/explicit-boolean-comparison.ini
    dictionary/explicit.ini
@@ -586,6 +590,7 @@ Index
    dictionary/hash-crypto.ini
    dictionary/hash-function.ini
    dictionary/hash.ini
+   dictionary/hash_equals.ini
    dictionary/haystack.ini
    dictionary/headless.ini
    dictionary/heredoc.ini
@@ -600,8 +605,10 @@ Index
    dictionary/html-entities.ini
    dictionary/html-entity.ini
    dictionary/html.ini
+   dictionary/html_entity_decode.ini
    dictionary/html_errors.ini
    dictionary/htmlentities.ini
+   dictionary/htmlspecialchars.ini
    dictionary/http-code.ini
    dictionary/http-encoding.ini
    dictionary/http-header.ini
@@ -705,6 +712,7 @@ Index
    dictionary/latin1.ini
    dictionary/lazy-loading.ini
    dictionary/lazy-objects.ini
+   dictionary/ldap.ini
    dictionary/leading-numeric-string.ini
    dictionary/leading-zero-means-octal.ini
    dictionary/leak.ini
@@ -712,6 +720,7 @@ Index
    dictionary/letter-logical.ini
    dictionary/lexical.ini
    dictionary/library-loading.ini
+   dictionary/library.ini
    dictionary/libsodium.ini
    dictionary/licence.ini
    dictionary/lifecycle.ini
@@ -790,6 +799,7 @@ Index
    dictionary/modulo.ini
    dictionary/monitoring.ini
    dictionary/monolith.ini
+   dictionary/monomorphization.ini
    dictionary/multi-byte.ini
    dictionary/multidimensional-array.ini
    dictionary/multiplication.ini
@@ -821,6 +831,7 @@ Index
    dictionary/nested-attribute.ini
    dictionary/nesting.ini
    dictionary/network.ini
+   dictionary/neural-network.ini
    dictionary/neutral-element.ini
    dictionary/never.ini
    dictionary/new-in-initializer.ini
@@ -956,6 +967,7 @@ Index
    dictionary/php_int_min.ini
    dictionary/phpdoc.ini
    dictionary/phpinfo.ini
+   dictionary/phptoken.ini
    dictionary/phpunit.ini
    dictionary/pie.ini
    dictionary/pipe-operator.ini
@@ -1170,6 +1182,7 @@ Index
    dictionary/square-bracket.ini
    dictionary/srp.ini
    dictionary/ssa.ini
+   dictionary/sscanf.ini
    dictionary/sse.ini
    dictionary/ssl.ini
    dictionary/sso.ini
@@ -1193,6 +1206,8 @@ Index
    dictionary/stealth-generator.ini
    dictionary/storage-system.ini
    dictionary/str_contains.ini
+   dictionary/str_ends_with.ini
+   dictionary/str_starts_with.ini
    dictionary/stream.ini
    dictionary/strict-comparison.ini
    dictionary/strict_types.ini

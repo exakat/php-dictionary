@@ -46,6 +46,6 @@ Part of the loop execution may be skipped by using the ``continue`` keyword.
 
 `Documentation <https://www.php.net/manual/en/control-structures.while.php>`__
 
-See also `While Loop in PHP <https://www.scaler.com/topics/php-tutorial/while-loop-in-php/>`_
+See also `0 <`While Loop in PHP <https://www.scaler.com/topics/php-tutorial/while-loop-in-php/>`_>`_.
 
 Related : :ref:`Continue <continue>`, :ref:`Do While <do-while>`, :ref:`foreach() <foreach>`, :ref:`Loops <loop>`, :ref:`For <for>`

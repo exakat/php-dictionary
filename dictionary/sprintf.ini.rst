@@ -50,6 +50,6 @@ sprintf
 
 `Documentation <https://www.php.net/manual/fr/function.sprintf.php>`__
 
-See also https://altorouter.com/sprintf-php/
+See also `Mastering PHP’s sprintf Function for Precise Formatting <https://altorouter.com/sprintf-php/>`_.
 
-Related : :ref:`String <string>`, :ref:`Format <format>`, 
+Related : :ref:`String <string>`, :ref:`Format <format>`, :ref:`sscanf() <sscanf>`

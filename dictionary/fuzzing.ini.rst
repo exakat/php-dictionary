@@ -26,4 +26,4 @@ Fuzzing refers to an automated software testing technique where the application 
 
 `Documentation <https://en.wikipedia.org/wiki/Fuzzing>`__
 
-See also https://github.com/nikic/PHP-Fuzzer, https://www.tripwire.com/state-of-security/fuzzing-php-for-fun-and-profit
+See also `PHP-Fuzzer <https://github.com/nikic/PHP-Fuzzer>`_ and `Fuzzing PHP for Fun and Profit <https://www.tripwire.com/state-of-security/fuzzing-php-for-fun-and-profit>`_.

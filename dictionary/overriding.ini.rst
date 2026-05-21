@@ -47,7 +47,7 @@ Incompatible overriding is not always detected at linting time: this happens whe
    ?>
 
 
-See also https://www.geeksforgeeks.org/php/function-overloading-and-overriding-in-php/
+See also `Function overloading and Overriding in PHP <https://www.geeksforgeeks.org/php/function-overloading-and-overriding-in-php/>`_.
 
 Related : :ref:`Override Attribute <override>`, :ref:`Abstract Keyword <abstract>`, :ref:`Overwrite <overwrite>`, :ref:`PHP Native Attributes <php-attribute>`, :ref:`PHP Native Attribute <php-native-attribute>`
 

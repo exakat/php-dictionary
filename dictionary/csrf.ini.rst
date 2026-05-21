@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross Site Request Forgery (CSRF)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A ``CSRF``, or ``XSRF`` attack happens when a malicious website tricks a logged-in user's browser into sending an unwanted request to another application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross Site Request Forgery (CSRF).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross Site Request Forgery (CSRF)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 13:35:37 +0000","dateModified":"Wed, 20 May 2026 13:35:37 +0000","description":"A ``CSRF``, or ``XSRF`` attack happens when a malicious website tricks a logged-in user's browser into sending an unwanted request to another application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross Site Request Forgery (CSRF).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cross Site Request Forgery (CSRF)
@@ -30,6 +30,6 @@ This is also called a ``SSRF``: server side request forgery.
 
 `Documentation <https://en.wikipedia.org/wiki/Cross-site_request_forgery>`__
 
-See also https://brightsec.com/blog/csrf-vs-xss/, https://owasp.org/www-community/attacks/csrf
+See also `CSRF vs XSS: What are their similarity and differences <https://brightsec.com/blog/csrf-vs-xss/>`_ and `Cross Site Request Forgery (CSRF) <https://owasp.org/www-community/attacks/csrf>`_.
 
-Related : :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Nonce <nonce>`
+Related : :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Nonce <nonce>`, :ref:`hash_equals() <hash_equals>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Session Hijacking <session-highjacking>`, :ref:`Vulnerability <vulnerability>`

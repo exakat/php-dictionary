@@ -45,6 +45,6 @@ Server-Sent Events, or SSE, is a web technology that allows a server to push rea
 
 `Documentation <https://en.wikipedia.org/wiki/Real-time_web>`__
 
-See also https://lucidar.me/en/web-dev/server-sent-event-simple-php-example/, https://minompi.medium.com/server-sent-events-with-php-and-symfony-5d6596cc84c8
+See also `Simple SSE in PHP <https://lucidar.me/en/web-dev/server-sent-event-simple-php-example/>`_ and `Server-Sent events with PHP and Symfony <https://minompi.medium.com/server-sent-events-with-php-and-symfony-5d6596cc84c8>`_.
 
 Related : :ref:`Real Time <real-time>`

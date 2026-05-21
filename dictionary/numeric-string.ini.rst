@@ -52,6 +52,6 @@ A string may be checked with the ``is_numeric()`` function. It cannot be checked
 
 `Documentation <https://www.php.net/manual/en/language.types.numeric-strings.php>`__
 
-See also https://derickrethans.nl/phpinternalsnews-62.html, https://code.tutsplus.com/php-integers-floats-and-number-strings--cms-32048t
+See also `PHP Internals News: Episode 62: Saner Numeric Strings <https://derickrethans.nl/phpinternalsnews-62.html>`_ and `PHP Integers, Floats, and Number Strings <https://code.tutsplus.com/php-integers-floats-and-number-strings--cms-32048t>`_.
 
 Related : :ref:`Leading Numeric String <leading-numeric-string>`

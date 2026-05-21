@@ -28,6 +28,6 @@ PHP is able to connect to many databases, including: SQLite3, mysql, postgresql,
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-See also https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/
+See also `Top 10 SQL Databases To Learn in 2025 <https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/>`_.
 
 Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`

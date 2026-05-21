@@ -30,6 +30,6 @@ BOLA is often detected by manipulating the ids of the objects.
 
 `Documentation <https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/>`__
 
-See also https://www.imperva.com/learn/application-security/broken-object-level-authorization-bola/, https://medium.com/@bubu.tripathy/broken-object-level-authorization-bola-the-silent-threat-in-api-security-2fe5f57b21b2
+See also `Broken Object Level Authorization <https://www.imperva.com/learn/application-security/broken-object-level-authorization-bola/>`_ and `Broken Object Level Authorization (BOLA): The Silent Threat in API Security <https://medium.com/@bubu.tripathy/broken-object-level-authorization-bola-the-silent-threat-in-api-security-2fe5f57b21b2>`_.
 
 Related : :ref:`Vulnerability <vulnerability>`

@@ -51,7 +51,7 @@ Typed constants were introduced in PHP 8.3. They are optional.
    ?>
 
 
-See also https://php.watch/versions/8.3/typed-constants
+See also `PHP 8.3: Typed Class Constants <https://php.watch/versions/8.3/typed-constants>`_.
 
 Related : :ref:`Static Constant <class-constant>`
 

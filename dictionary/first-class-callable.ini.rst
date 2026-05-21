@@ -39,7 +39,7 @@ Such closure may be created using any kind of function, such as native PHP funct
 
 `Documentation <https://www.php.net/closure>`__
 
-See also https://dev.to/damms005/phps-first-class-callable-syntax-1kjl
+See also `PHP's First-Class Callable Syntax <https://dev.to/damms005/phps-first-class-callable-syntax-1kjl>`_.
 
 Related : :ref:`Functions <function>`, :ref:`Closure <closure>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`Arrow Functions <fn>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Closure <lambda-functions>`
 

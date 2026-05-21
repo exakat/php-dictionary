@@ -52,6 +52,6 @@ Variable arguments may be static or dynamic. It is static when the list of argum
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-See also https://riptutorial.com/php/example/18652/variable-length-argument-lists
+See also `Variable-length argument lists <https://riptutorial.com/php/example/18652/variable-length-argument-lists>`_.
 
 Related : :ref:`Functions <function>`, :ref:`Variadic <variadic>`, :ref:`func_get_args() <func_get_args>`

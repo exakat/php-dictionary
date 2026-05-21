@@ -42,7 +42,7 @@ Weak references allow the programmer to retain a reference to an object which do
 
 `Documentation <https://www.php.net/manual/en/class.weakreference.php>`__
 
-See also `PHP 8.0 feature focus: Weak maps <https://platform.sh/blog/php-80-feature-focus-weak-maps/>`_, `WeakReferences <https://www.cmuir.co.nz/post/weakreferences/>`_
+See also `0 <`PHP 8.0 feature focus: Weak maps <https://platform.sh/blog/php-80-feature-focus-weak-maps/>`_>`_ and `1 <`WeakReferences <https://www.cmuir.co.nz/post/weakreferences/>`_>`_.
 
 Related : :ref:`References <reference>`
 

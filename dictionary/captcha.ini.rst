@@ -26,7 +26,7 @@ A ``CAPTCHA``` is a security test used on websites to tell whether the user is a
 
 `Documentation <https://en.wikipedia.org/wiki/CAPTCHA>`__
 
-See also https://www.cloudflare.com/learning/bots/how-captchas-work/
+See also `How CAPTCHAs work | What does CAPTCHA mean? <https://www.cloudflare.com/learning/bots/how-captchas-work/>`_.
 
 Related : :ref:`World Wide Web (WWW) <web>`, :ref:`Web-spider <web-spider>`, :ref:`Webscraping <webscraping>`
 

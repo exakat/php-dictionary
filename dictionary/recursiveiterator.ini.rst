@@ -48,6 +48,6 @@ The ``RecursiveIterator`` is implemented by the ``RecursiveArrayIterator``, and 
 
 `Documentation <https://www.php.net/manual/en/class.recursiveiteratoriterator.php>`__
 
-See also https://dev.to/gbhorwood/php-doing-recursion-with-recursive-iteratoriterators-fj1
+See also `php: doing recursion with recursive iterator(iterator)s <https://dev.to/gbhorwood/php-doing-recursion-with-recursive-iteratoriterators-fj1>`_.
 
 Related : :ref:`Iterator <iterator>`, :ref:`Standard PHP Library (SPL) <spl>`, , 

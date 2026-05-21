@@ -35,4 +35,4 @@ The DelayedTargetValidation attribute is meant to make other PHP engine attribut
    ?>
 
 
-See also https://scherzer.dev/Blog/20250820-delayed-target-validation, https://wiki.php.net/rfc/delayedtargetvalidation_attribute
+See also `#[\DelayedTargetValidation] Attribute Explained <https://scherzer.dev/Blog/20250820-delayed-target-validation>`_ and `PHP RFC: #[\DelayedTargetValidation] attribute <https://wiki.php.net/rfc/delayedtargetvalidation_attribute>`_.

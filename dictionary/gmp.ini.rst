@@ -38,6 +38,6 @@ The ``gmp`` extension allows the basic calculations, like addition, multiplicati
 
 `Documentation <https://www.php.net/manual/en/book.gmp.php>`__
 
-See also https://gmplib.org/, https://reintech.io/blog/beginners-guide-php-gmp-library-arbitrary-precision-arithmetic
+See also `GNU MP library <https://gmplib.org/>`_ and `A Beginner's Guide to the PHP GMP Library for Arbitrary Precision Arithmetic <https://reintech.io/blog/beginners-guide-php-gmp-library-arbitrary-precision-arithmetic>`_.
 
 Related : :ref:`Bcmath <bcmath>`

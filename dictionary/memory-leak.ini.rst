@@ -31,6 +31,6 @@ As PHP manage the memory itself, memory leaks happen in different situations:
 + Disabled garbage collector: the garbage collector was disabled, and does not perform
 + Bugs: sometimes, the memory usage is not voluntary.
 
-See also https://medium.com/@aji658911/preventing-memory-leaks-in-php-best-practices-for-efficient-memory-management-beac555020f2
+See also `Preventing Memory Leaks in PHP: Best Practices for Efficient Memory Management <https://medium.com/@aji658911/preventing-memory-leaks-in-php-best-practices-for-efficient-memory-management-beac555020f2>`_.
 
 Related : :ref:`Circular Reference <circular-reference>`, :ref:`Garbage Collection <garbage-collection>`

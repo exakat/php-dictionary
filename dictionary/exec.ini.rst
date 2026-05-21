@@ -36,6 +36,6 @@ exec
    ?>
 
 
-See also https://www.geeksforgeeks.org/php/php-shell_exec-vs-exec-function/
+See also `PHP shell_exec() vs exec() Function <https://www.geeksforgeeks.org/php/php-shell_exec-vs-exec-function/>`_.
 
 Related : :ref:`shell_exec() <shell_exec>`, :ref:`Back-tick <back-tick>`

@@ -47,6 +47,6 @@ The ``SplObjectStorage`` class provides a list for objects: it may also the valu
 
 `Documentation <https://www.php.net/manual/en/class.splobjectstorage.php>`__
 
-See also https://medium.com/@vishwa.chikate/php-splobjectstorage-class-530ff5b5aab7
+See also `SplObjectStorage Class <https://medium.com/@vishwa.chikate/php-splobjectstorage-class-530ff5b5aab7>`_.
 
 Related : :ref:`Object <object>`

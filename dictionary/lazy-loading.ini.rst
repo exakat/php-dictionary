@@ -71,7 +71,7 @@ PHP also uses lazy loading: some structures are checked at linting time, when th
 
 `Documentation <https://en.wikipedia.org/wiki/Lazy_loading>`__
 
-See also https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67, https://docs.php.earth/php/ref/oop/design-patterns/lazy-loading/, https://tideways.com/profiler/blog/lazy-loading-data-objects-in-php-8-4-with-doctrine-orm-example
+See also `Revisiting Lazy-Loading Proxies in PHP <https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67>`_, `Lazy loading design pattern in PHP <https://docs.php.earth/php/ref/oop/design-patterns/lazy-loading/>`_ and `Lazy Loading Data Objects in PHP 8.4 with Doctrine ORM Example <https://tideways.com/profiler/blog/lazy-loading-data-objects-in-php-8-4-with-doctrine-orm-example>`_.
 
 Related : :ref:`Lazy Objects <lazy-objects>`
 

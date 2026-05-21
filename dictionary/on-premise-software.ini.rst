@@ -31,6 +31,6 @@ On-premise software favors customer responsibility: the customer handles install
 
 `Documentation <https://en.wikipedia.org/wiki/On-premises_software>`__
 
-See also https://www.phpkb.com/on-premise-license
+See also `PHPKB on premise software <https://www.phpkb.com/on-premise-license>`_.
 
 Related : :ref:`Software-as-a-Service (SAAS) <saas>`

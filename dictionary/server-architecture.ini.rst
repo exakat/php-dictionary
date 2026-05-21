@@ -34,6 +34,6 @@ Key Aspects of Server Architecture:
 
 The server architecture may include production, pre-production and development servers.
 
-See also https://www.zend.com/blog/scaling-php
+See also `Scaling PHP Applications: Strategies for Meeting New Demand <https://www.zend.com/blog/scaling-php>`_.
 
 Related : :ref:`Scaling <scaling>`, :ref:`Architecture <architecture>`, :ref:`Code Architecture <code-architecture>`

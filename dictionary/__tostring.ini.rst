@@ -62,6 +62,6 @@ There is no magic method to convert an object to another type.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-See also `PHP __toString <https://www.phptutorial.net/php-oop/php-__tostring/>`_
+See also `0 <`PHP __toString <https://www.phptutorial.net/php-oop/php-__tostring/>`_>`_.
 
 Related : :ref:`strict_types <strict_types>`, :ref:`Magic Methods <magic-method>`, :ref:`Cast Operator <cast>`, :ref:`Concatenation <concatenation>`

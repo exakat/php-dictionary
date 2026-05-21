@@ -40,6 +40,6 @@ PHP calculates CRC32 values with the native ``crc32()`` function, and the ``hash
 
 `Documentation <https://www.php.net/manual/en/function.crc32.php>`__
 
-See also https://stackoverflow.com/questions/40741707/php-hashcrc32-and-crc32-return-different-value
+See also `php hash('crc32') and crc32() return different value <https://stackoverflow.com/questions/40741707/php-hashcrc32-and-crc32-return-different-value>`_.
 
 Related : :ref:`To Crypt <crypt>`, :ref:`Hash <hash>`

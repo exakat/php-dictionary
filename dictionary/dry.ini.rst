@@ -30,6 +30,6 @@ This principle is also known as Duplication Is Evil, or DIE. Its nemesis is ``WE
 
 `Documentation <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
 
-See also https://en.wikipedia.org/wiki/The_Pragmatic_Programmer, https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/, https://agileparrot.com/2022/07/19/dry-principle-in-php/
+See also `The Pragmatic Programmer <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>`_, `Why DRY is the most over-rated programming principle <https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/>`_ and `DRY Principle in PHP <https://agileparrot.com/2022/07/19/dry-principle-in-php/>`_.
 
 Related : :ref:`Write Everything Twice (WET) <wet>`, :ref:`SOLID <solid>`

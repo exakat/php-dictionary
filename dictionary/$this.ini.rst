@@ -47,6 +47,6 @@ There is no special variable called ``$that``.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php>`__
 
-See also https://www.phptutorial.net/php-oop/php-this/, https://medium.com/@erlandmuchasaj/what-is-this-16846fe8c15e
+See also `PHP $this <https://www.phptutorial.net/php-oop/php-this/>`_ and `What is $this? <https://medium.com/@erlandmuchasaj/what-is-this-16846fe8c15e>`_.
 
 Related : :ref:`Class <class>`, :ref:`Trait <trait>`

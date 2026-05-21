@@ -44,6 +44,6 @@ On the other hand, such external structure may also have its own life cycle, whi
 
 `Documentation <https://en.wikipedia.org/wiki/Inline_expansion>`__
 
-See also https://blog.jetbrains.com/phpstorm/2018/04/inline-method-refactoring/, hhttps://refactoring.guru/inline-method
+See also `Inline method refactoring <https://blog.jetbrains.com/phpstorm/2018/04/inline-method-refactoring/>`_ and `Inline Method <hhttps://refactoring.guru/inline-method>`_.
 
 Related : :ref:`Readability <readability>`, , :ref:`Literal <literal>`

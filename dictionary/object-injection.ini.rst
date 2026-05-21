@@ -35,6 +35,6 @@ While in the hand of the user, the data was doctored to retain its format validi
 
 `Documentation <https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection>`__
 
-See also https://snoopysecurity.github.io/posts/02_php_object_injection_exploitation-notes/
+See also `PHP Object Injection Exploitation Notes <https://snoopysecurity.github.io/posts/02_php_object_injection_exploitation-notes/>`_.
 
 Related : :ref:`Serialization <serialization>`

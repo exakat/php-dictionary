@@ -43,6 +43,6 @@ Zombie code slows down the application, yet are logged as being used. They are a
 
 `Documentation <https://www.calculquebec.ca/en/communiques/zombie-code/>`__
 
-See also `Zombie Code <https://www.calculquebec.ca/en/communiques/zombie-code/>`_
+See also `0 <`Zombie Code <https://www.calculquebec.ca/en/communiques/zombie-code/>`_>`_.
 
 Related : :ref:`Dead Code <dead-code>`

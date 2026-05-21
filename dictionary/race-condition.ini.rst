@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Race Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:43:14 +0000","dateModified":"Sun, 17 May 2026 07:43:14 +0000","description":"A Race Condition is a broad term for any situation where the outcome of a program depends on the timing of uncontrollable events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Race Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Race Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 15:32:43 +0000","dateModified":"Wed, 20 May 2026 15:32:43 +0000","description":"A Race Condition is a broad term for any situation where the outcome of a program depends on the timing of uncontrollable events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Race Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Race Condition
@@ -42,6 +42,6 @@ Race conditions may be migitated by using atomic operations, transactions, locks
 
 `Documentation <https://en.wikipedia.org/wiki/Race_condition>`__
 
-See also http://blog.hoangdoan.io/2015/11/php-race-condition-vulnerability-example.html, https://github.com/wzul/PHP-MySQLi-Race-Condition
+See also `PHP Race Condition Vulnerability Example <http://blog.hoangdoan.io/2015/11/php-race-condition-vulnerability-example.html>`_, `PHP MySQLi - Race condition 🏁 <https://github.com/wzul/PHP-MySQLi-Race-Condition>`_ and `Symfony Lock + Workflow: Taming the Race Condition that will hit you in production <https://nicolas-jourdan.medium.com/symfony-lock-workflow-taming-the-race-condition-that-will-hit-you-in-production-d04613e0b6a8>`_.
 
 Related : , , :ref:`Lock <lock>`, , :ref:`Session <session>`, :ref:`Security <security>`, :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`

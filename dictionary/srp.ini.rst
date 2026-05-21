@@ -30,6 +30,6 @@ Single Responsibility Principle relies on the possibility to identify one respon
 
 `Documentation <https://en.wikipedia.org/wiki/Single-responsibility_principle>`__
 
-See also https://mohasin-dev.medium.com/how-to-use-single-responsibility-principle-in-php-laravel-with-example-9c728360f4f2
+See also `How To Use Single Responsibility Principle in PHP/Laravel <https://mohasin-dev.medium.com/how-to-use-single-responsibility-principle-in-php-laravel-with-example-9c728360f4f2>`_.
 
 Related : :ref:`SOLID <solid>`

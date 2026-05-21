@@ -42,6 +42,6 @@ Readline
 
 `Documentation <https://www.php.net/manual/en/book.readline.php>`__
 
-See also https://tiswww.case.edu/php/chet/readline/rltop.html, https://impactmillions.org/how-to-read-user-or-console-input-in-php/, https://www.geeksforgeeks.org/php/how-to-read-user-or-console-input-in-php/, https://www.talkerscode.com/howto/how-to-take-input-from-user-in-php-without-form.php
+See also `GNU readline <https://tiswww.case.edu/php/chet/readline/rltop.html>`_, `How to read user or console input in PHP <https://impactmillions.org/how-to-read-user-or-console-input-in-php/>`_, `How to read user or console input in PHP ? <https://www.geeksforgeeks.org/php/how-to-read-user-or-console-input-in-php/>`_ and `How To Take Input From User In PHP Without Form <https://www.talkerscode.com/howto/how-to-take-input-from-user-in-php-without-form.php>`_.
 
 Related : :ref:`Extensions <extension>`

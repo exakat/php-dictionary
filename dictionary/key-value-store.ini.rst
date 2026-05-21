@@ -28,6 +28,6 @@ Classic key-value stores include memcache, redis, tokyo-tyrant.
 
 `Documentation <https://en.wikipedia.org/wiki/Key%E2%80%93value_database>`__
 
-See also https://developer.redis.com/develop/php/
+See also `Php and Redis <https://developer.redis.com/develop/php/>`_.
 
 Related : :ref:`Database <database>`

@@ -30,6 +30,6 @@ Value Object (VO)
 
 `Documentation <https://en.wikipedia.org/wiki/Data_transfer_object>`__
 
-See also https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg, https://wendelladriel.com/blog/understanding-value-objects-in-php
+See also `Writing value objects in PHP <https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg>`_ and `Understanding Value Objects in PHP <https://wendelladriel.com/blog/understanding-value-objects-in-php>`_.
 
 Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Class Entities <class-entity>`

@@ -33,7 +33,7 @@ Mock objects are also called ``test double``.
 
 `Documentation <https://www.radview.com/glossary/what-is-mock-testing/>`__
 
-See also https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles, https://laravel.com/docs/13.x/mocking, https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html, https://blog.frankdejonge.nl/testing-without-mocking-frameworks/
+See also `Test doubles <https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles>`_, `Mocking <https://laravel.com/docs/13.x/mocking>`_, `Avoid mocking repositories by using in-memory implementations <https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html>`_ and `Testing without mocking frameworks <https://blog.frankdejonge.nl/testing-without-mocking-frameworks/>`_.
 
 Related : :ref:`Test Data Provider <test-data-provider>`
 

@@ -53,6 +53,6 @@ Visibility may be by-passed with class-invasion, where an object of one class ma
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
 
-See also https://torquemag.io/2016/05/understanding-concept-visibility-object-oriented-php/, https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass
+See also `Understanding The Concept Of Visibility In Object Oriented PHP <https://torquemag.io/2016/05/understanding-concept-visibility-object-oriented-php/>`_ and `PHP Tricks: Access control bypass <https://peakd.com/hive-168588/@crell/php-tricks-access-control-bypass>`_.
 
 Related : :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Static Constant <class-constant>`, :ref:`Class Constants Visibility <class-constant-visibility>`, :ref:`Class Invasion <class-invasion>`, :ref:`Object <object>`, :ref:`Private Visibility <private>`, :ref:`Protected Visibility <protected>`, :ref:`Public Visibility <public>`, :ref:`Var <var>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`Constructor <constructor>`, :ref:`Readable <readable>`, :ref:`Writable <writable>`, :ref:`get_object_vars() <get_object_vars>`, :ref:`Class Getter Method <getter>`, :ref:`Variable Scope <variable-scope>`, :ref:`Writeable <writeable>`

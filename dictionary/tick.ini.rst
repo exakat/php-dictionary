@@ -56,6 +56,6 @@ Ticks are deprecated since PHP 5.3. They might entirely disappear in PHP 9.0.
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks>`__
 
-See also `The declare() function and ticks <http://www.hackingwithphp.com/4/21/0/the-declare-function-and-ticks>`_, `PHP RFC: Deprecate ticks <https://wiki.php.net/rfc/deprecate_ticks>`_
+See also `0 <`The declare() function and ticks <http://www.hackingwithphp.com/4/21/0/the-declare-function-and-ticks>`_>`_ and `1 <`PHP RFC: Deprecate ticks <https://wiki.php.net/rfc/deprecate_ticks>`_>`_.
 
 Related : :ref:`declare() <declare>`

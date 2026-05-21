@@ -43,6 +43,6 @@ A deque is a special kind of stack and queue: it is actually both of them at the
 
 `Documentation <https://en.wikipedia.org/wiki/Double-ended_queue>`__
 
-See also https://withinboredom.info/posts/algorithms-in-php-deques-and-circular-buffers-linked-lists/, https://www.php.net/manual/en/class.ds-deque.php
+See also `Algorithms in PHP: Deques (and circular buffers + linked lists) <https://withinboredom.info/posts/algorithms-in-php-deques-and-circular-buffers-linked-lists/>`_ and `Deque Class <https://www.php.net/manual/en/class.ds-deque.php>`_.
 
 Related : :ref:`Datastack <datastack>`

@@ -39,6 +39,6 @@ Syntax error happen for a variety of reasons, which may compound one with the ot
    ?>
 
 
-See also https://www.scaler.com/topics/php-tutorial/types-of-errors-in-php/
+See also `Types of Errors in PHP <https://www.scaler.com/topics/php-tutorial/types-of-errors-in-php/>`_.
 
 Related : :ref:`Syntax <syntax>`

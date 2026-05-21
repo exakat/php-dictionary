@@ -51,6 +51,6 @@ The easiest solution to this situation is to refrain from updating the signature
    ?>
 
 
-See also https://www.exakat.io/en/method-fossilisation/
+See also `Method fossilisation <https://www.exakat.io/en/method-fossilisation/>`_.
 
 Related : :ref:`Method <method>`

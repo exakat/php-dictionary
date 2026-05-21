@@ -42,6 +42,6 @@ It is convenient when the variable has to be assigned again to itself.
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-See also https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/
+See also `PHP.INI settings Disable exec, shell_exec, system, popen and Other Functions To Improve Security <https://www.cyberciti.biz/faq/linux-unix-apache-lighttpd-phpini-disable-functions/>`_.
 
 Related : :ref:`Assignations <assignation>`, :ref:`Operators <operator>`

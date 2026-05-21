@@ -31,7 +31,7 @@ Parquet is an Apache Software Foundation format.
 
 `Documentation <https://parquet.apache.org/>`__
 
-See also https://parquet.apache.org/, https://github.com/codename-hub/php-parquet, https://www.databricks.com/blog/what-is-parquet
+See also `Apache Parquet <https://parquet.apache.org/>`_, `php-parquet <https://github.com/codename-hub/php-parquet>`_ and `What is Parquet? <https://www.databricks.com/blog/what-is-parquet>`_.
 
 Related : :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`json_decode() <json_decode>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Serde <serde>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`JSON Lines (JSONC) <jsonc>`, :ref:`JSON Lines (JSONL) <jsonl>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`, :ref:`Text <text>`
 

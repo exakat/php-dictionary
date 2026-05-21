@@ -32,6 +32,6 @@ The typical life cycle of an RFC involves several stages, including drafting, di
 
 `Documentation <https://en.wikipedia.org/wiki/Change_request>`__
 
-See also https://wiki.php.net/rfc/howto
+See also `How To Create an RFC <https://wiki.php.net/rfc/howto>`_.
 
 Related : :ref:`PHP RFC <php-rfc>`, :ref:`RFC <rfc>`

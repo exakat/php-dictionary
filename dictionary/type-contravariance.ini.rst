@@ -51,7 +51,7 @@ It cannot be a totally different type, an intersectional type, such as ``W&A``, 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.variance.php>`__
 
-See also https://dev.to/ashallendesign/covariance-and-contravariance-in-php-3cim
+See also `Covariance and Contravariance in PHP <https://dev.to/ashallendesign/covariance-and-contravariance-in-php-3cim>`_.
 
 Related : :ref:`Covariance <type-covariance>`, :ref:`Nullable <nullable>`, :ref:`Intersection Type <intersectional>`, :ref:`Union Type <union>`, :ref:`Scalar Types <scalar>`
 

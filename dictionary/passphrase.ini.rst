@@ -24,6 +24,6 @@ Passphrase
 
 A passphrase is a longer and more critical password. It may be build by combining several words, hence building a phrase.
 
-See also https://laravel-news.com/generate-secure-memorable-passphrases-in-php-with-php-passphrase
+See also `Generate Secure, Memorable Passphrases in PHP with PHP Passphrase <https://laravel-news.com/generate-secure-memorable-passphrases-in-php-with-php-passphrase>`_.
 
 Related : :ref:`Password API <password-ext>`, :ref:`Password <password>`, :ref:`Secure Sockets Layer (SSL) <ssl>`

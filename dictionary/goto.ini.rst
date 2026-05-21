@@ -47,7 +47,7 @@ The target label must be within the same file and context, meaning that it is no
 
 `Documentation <https://www.php.net/manual/en/control-structures.goto.php>`__
 
-See also https://www.thecreativedev.com/goto-statement-in-php/, https://topher.io/writing/why-php-goto-and-bubblesort-are-good/
+See also `GoTo statement in PHP <https://www.thecreativedev.com/goto-statement-in-php/>`_ and `Why PHP, goto, and bubblesort, are good, actually <https://topher.io/writing/why-php-goto-and-bubblesort-are-good/>`_.
 
 Related : :ref:`Goto Labels <label>`, :ref:`Colon <colon>`, :ref:`Jump <jump>`
 

@@ -46,6 +46,6 @@ PHP has several profilers. They may provide an online interface to visualize the
 
 `Documentation <https://en.wikipedia.org/wiki/Profiling_(computer_programming)>`__
 
-See also https://www.blackfire.io/php/, https://github.com/perftools/php-profiler.git, https://github.com/reliforp/reli-prof.git, https://www.php.net/manual/en/book.xhprof.php, https://www.xdebug.org/
+See also `BlackFire <https://www.blackfire.io/php/>`_, `PHP-profiler <https://github.com/perftools/php-profiler.git>`_, `PHP-reli <https://github.com/reliforp/reli-prof.git>`_, `XHprof <https://www.php.net/manual/en/book.xhprof.php>`_ and `Xdebug <https://www.xdebug.org/>`_.
 
 Related : :ref:`Debugger <debugger>`

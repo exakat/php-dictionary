@@ -41,6 +41,6 @@ Quoted-printable is a content transfer encoding defined in RFC 2045 that's prima
 
 `Documentation <https://www.php.net/manual/en/function.quoted-printable-encode.php>`__
 
-See also https://datatracker.ietf.org/doc/html/rfc2045
+See also `RFC-2045 <https://datatracker.ietf.org/doc/html/rfc2045>`_.
 
 Related : :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`

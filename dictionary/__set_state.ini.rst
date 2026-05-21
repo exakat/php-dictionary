@@ -56,6 +56,6 @@ The ``__set_state()`` method has no counterpart: ``var_export()`` do not use any
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php#object.set-state>`__
 
-See also https://www.softcoded.com/articles/set_state.php
+See also `The Magic __set_state Method <https://www.softcoded.com/articles/set_state.php>`_.
 
 Related : :ref:`Magic Methods <magic-method>`, :ref:`Object Invasion <object-invasion>`

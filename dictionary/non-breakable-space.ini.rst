@@ -47,6 +47,6 @@ Unbreakable spaces is ``\u{00A0}`` as a PHP escape sequence, or ``\xc2\xa0`` as 
 
 `Documentation <https://en.wikipedia.org/wiki/Non-breaking_space>`__
 
-See also https://3v4l.org/ATkWY, https://dev.to/yasserelgammal/handling-invisible-characters-with-php-1507, https://www.bigmessowires.com/2021/10/14/non-breaking-spaces-and-utf-8-madness/, https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names
+See also `Non breakable space in PHP <https://3v4l.org/ATkWY>`_, `Handling Invisible characters with PHP <https://dev.to/yasserelgammal/handling-invisible-characters-with-php-1507>`_, `Non-Breaking Spaces and UTF-8 Madness <https://www.bigmessowires.com/2021/10/14/non-breaking-spaces-and-utf-8-madness/>`_ and `Using non-breakable spaces in test method names <https://mnapoli.fr/using-non-breakable-spaces-in-test-method-names>`_.
 
 Related : :ref:`Space <space>`

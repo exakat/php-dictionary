@@ -45,6 +45,6 @@ microtime()
 
 `Documentation <https://www.php.net/manual/fr/function.microtime.php>`__
 
-See also https://www.php.net/manual/fr/function.hrtime.php
+See also `hrtime <https://www.php.net/manual/fr/function.hrtime.php>`_.
 
 Related : :ref:`hrtime() <hrtime>`

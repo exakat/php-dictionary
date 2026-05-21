@@ -37,6 +37,6 @@ Notices are one of the error reporting levels, below error and warning.
 
 `Documentation <https://www.php.net/manual/en/errorfunc.constants.php>`__
 
-See also https://stackify.com/display-php-errors/
+See also `How to Display All PHP Errors: A Detailed Guide <https://stackify.com/display-php-errors/>`_.
 
 Related : :ref:`Error <error>`, :ref:`Warning <warning>`, :ref:`Error Reporting <error-reporting>`

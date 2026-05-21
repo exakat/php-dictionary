@@ -43,7 +43,7 @@ Web scraping is the process of extracting data from websites. It involves fetchi
 
 `Documentation <https://en.wikipedia.org/wiki/Web_scraping>`__
 
-See also https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide
+See also `Web Scraping in PHP - The Complete Guide <https://proxiesapi.com/articles/web-scraping-in-php-the-complete-guide>`_.
 
 Related : :ref:`Client URL (CURL) <curl>`, :ref:`Web-spider <web-spider>`
 

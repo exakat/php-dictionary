@@ -47,6 +47,6 @@ Base64 is not related to the notion of mathematical base, such as base 10, binar
 
 `Documentation <https://www.php.net/manual/en/function.base64-encode.php>`__
 
-See also https://inspector.dev/php-base64-encodedecode-best-practices-and-use-cases/
+See also `Php Base64 encode/decode – best practices and use cases <https://inspector.dev/php-base64-encodedecode-best-practices-and-use-cases/>`_.
 
 Related : :ref:`UUencode Encoding <uuencode>`

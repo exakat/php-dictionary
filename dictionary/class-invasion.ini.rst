@@ -1,28 +1,28 @@
 .. _class-invasion:
 .. meta::
 	:description:
-		Class Invasion: Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances.
+		Class Invasion: Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Class Invasion
-	:twitter:description: Class Invasion: Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances
+	:twitter:description: Class Invasion: Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Class Invasion
 	:og:type: article
-	:og:description: Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances
+	:og:description: Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Invasion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Invasion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Invasion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 07:44:21 +0000","dateModified":"Thu, 21 May 2026 07:44:21 +0000","description":"Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Invasion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Invasion
 --------------
 
-Objects of the same type have access to each others private and protected features (properties, constants and methods) even though they are not the same instances. 
+Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances. 
 
 This means that the host object of a class A can call any method and property on a different object of the same class.
 
@@ -53,9 +53,9 @@ Class invasion doesn't work when running an external closure inside the class.
        }
        
        function goo() {
-       	// The current object ($this) calls the local object's private method
-       	$x = new X; 
-       	$x->privateMethod();
+           // The current object ($this) calls the local object's private method
+           $x = new X; 
+           $x->privateMethod();
        }
    }
    
@@ -89,7 +89,7 @@ Class invasion doesn't work when running an external closure inside the class.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`__
 
-See also https://freek.dev/2192-invading-private-properties-and-methods-in-php
+See also `Invading private properties and methods in PHP <https://freek.dev/2192-invading-private-properties-and-methods-in-php>`_.
 
 Related : :ref:`Class <class>`, :ref:`Visibility <visibility>`
 

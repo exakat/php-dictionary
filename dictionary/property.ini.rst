@@ -52,6 +52,6 @@ Properties are also called members.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.properties.php>`__
 
-See also https://www.php-cpp.com/documentation/properties
+See also `Class properties <https://www.php-cpp.com/documentation/properties>`_.
 
 Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly <readonly>`, :ref:`Attribute <attribute>`, :ref:`Default Value <default-value>`, :ref:`Magic Property <magic-property>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`Property Hook <property-hook>`, :ref:`Asymmetric Visibility <set-visibility>`, :ref:`Type System <type>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`Data Container <data-container>`, :ref:`Static Property <static-property>`, :ref:`stdclass <stdclass>`, :ref:`Typed Property <typed-property>`, :ref:`Method <method>`, :ref:`Readable <readable>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writable <writable>`

@@ -33,6 +33,6 @@ SNMP3
 
 `Documentation <https://www.php.net/manual/en/book.snmp.php>`__
 
-See also https://www.net-snmp.org/
+See also `net-snmp.org <https://www.net-snmp.org/>`_.
 
 Related : :ref:`Simple Network Management Protocol (SNMP) <snmp>`

@@ -46,6 +46,6 @@ When associated, PHP and ``$`` often leads to the conversion rate of dollars to 
 
 `Documentation <https://www.php.net/manual/en/language.variables.variable.php>`__
 
-See also https://medium.com/the-code-compass/why-does-php-use-the-sign-for-variables-c2c233f59991, https://marianposaceanu.com/articles/programming-archaeology-phps-dollar-sigil
+See also `Why Does PHP Use the $ Sign for Variables? <https://medium.com/the-code-compass/why-does-php-use-the-sign-for-variables-c2c233f59991>`_ and `Programming archaeology: PHP's dollar sigil <https://marianposaceanu.com/articles/programming-archaeology-phps-dollar-sigil>`_.
 
 Related : :ref:`Interpolation <interpolation>`, :ref:`Variables <variable>`, :ref:`Variable Variables <variable-variable>`

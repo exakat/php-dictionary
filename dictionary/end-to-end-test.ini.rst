@@ -30,6 +30,6 @@ End to end tests are critical to ensure a smooth experience for the user experie
 
 `Documentation <https://en.wikipedia.org/wiki/Integration_testing>`__
 
-See also https://leapwork.com/blog/end-to-end-testing/
+See also `End-To-End Testing: 2026 Guide for E2E Testing <https://leapwork.com/blog/end-to-end-testing/>`_.
 
 Related : :ref:`Test <test>`, :ref:`Integration Test <integration-test>`, :ref:`Unit Test <unit-test>`

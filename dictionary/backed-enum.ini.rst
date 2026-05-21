@@ -49,7 +49,7 @@ Non backed enumerations are called unbacked enumerations.
 
 `Documentation <https://www.php.net/manual/en/language.types.enumerations.php>`__
 
-See also https://dev.to/tegos/using-php-backed-enums-in-laravel-with-testing-1f6
+See also `Using PHP Backed Enums in Laravel with Testing <https://dev.to/tegos/using-php-backed-enums-in-laravel-with-testing-1f6>`_.
 
 Related : :ref:`Enumeration (enum) <enum>`, :ref:`Unbacked Enum <unbacked-enum>`
 

@@ -37,6 +37,6 @@ PCRE is the library that supports regular expressions in PHP. It offers function
 
 `Documentation <https://www.php.net/manual/en/book.pcre.php>`__
 
-See also https://www.pcre.org/
+See also `PCRE - Perl Compatible Regular Expressions <https://www.pcre.org/>`_.
 
 Related : :ref:`Regular Expressions <regex>`

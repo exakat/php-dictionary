@@ -44,6 +44,6 @@ Abstraction is also the name of the refactor to replace a piece of code by an ea
 
 `Documentation <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>`__
 
-See also https://mohasin-dev.medium.com/abstraction-in-php-8c6685893bb8
+See also `Abstraction in PHP <https://mohasin-dev.medium.com/abstraction-in-php-8c6685893bb8>`_.
 
 Related : :ref:`Abstract Keyword <abstract>`, :ref:`Inlining <inlining>`

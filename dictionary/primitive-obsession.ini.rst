@@ -44,6 +44,6 @@ Primitive Obsession a bias in the way the code is written. It happens when the c
    ?>
 
 
-See also https://refactoring.guru/smells/primitive-obsession
+See also `Primitive Obsession <https://refactoring.guru/smells/primitive-obsession>`_.
 
 Related : :ref:`Scalar Types <scalar-type>`

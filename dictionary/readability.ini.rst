@@ -44,4 +44,4 @@ Readability is a human characteristic of the code: it depends on the level of kn
    ?>
 
 
-See also https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/, https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a, https://suckup.de/2020/07/how-to-write-readable-code/
+See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_ and `How to write readable code? <https://suckup.de/2020/07/how-to-write-readable-code/>`_.

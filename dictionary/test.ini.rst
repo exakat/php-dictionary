@@ -46,6 +46,6 @@ PHP has several testing framework: PHPunit, pest, pint, simpletest, atoum.
 Tests are often further automated in a Continuous Integration Pipeline.
 
 
-See also https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests, https://testing-tips.sarvendev.com/, https://unixdigest.com/tutorials/how-to-test-procedural-functions-with-phpunit.html
+See also `3 Compelling Reasons For Developers To Write Tests <https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests>`_, `Testing tips <https://testing-tips.sarvendev.com/>`_ and `How to test procedural functions with PHPUnit <https://unixdigest.com/tutorials/how-to-test-procedural-functions-with-phpunit.html>`_.
 
 Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Feature Testing <feature-testing>`, :ref:`Code Coverage <code-coverage>`, :ref:`Integration Test <integration-test>`, :ref:`Unit Test <unit-test>`, :ref:`End To End Test <end-to-end-test>`, :ref:`PHPunit <phpunit>`, :ref:`Quality <quality>`, :ref:`Refactoring <refactoring>`

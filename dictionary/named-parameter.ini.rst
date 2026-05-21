@@ -46,6 +46,6 @@ In traditional positional parameter passing, the values are provided to a functi
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
 
-See also https://upsun.com/blog/php-8-0-named-arguments/, https://sebastiandedeyne.com/named-arguments/, https://darkghosthunter.medium.com/php-named-arguments-are-your-friends-8076959b2f11/, https://php.watch/articles/no-named-arguments-docblock-attribute
+See also `PHP 8.0 feature focus: Named Arguments <https://upsun.com/blog/php-8-0-named-arguments/>`_, `Named Arguments (blog) <https://sebastiandedeyne.com/named-arguments/>`_, `PHP: Named arguments are your friends <https://darkghosthunter.medium.com/php-named-arguments-are-your-friends-8076959b2f11/>`_ and `Opting out of Named Parameters in PHP 8.0 <https://php.watch/articles/no-named-arguments-docblock-attribute>`_.
 
 Related : :ref:`Positional Parameters <positional-parameter>`

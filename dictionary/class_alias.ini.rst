@@ -48,6 +48,6 @@ There is no equivalent to ``class_alias()`` for functions, or constants.
 
 `Documentation <https://www.php.net/manual/en/function.class-alias.php>`__
 
-See also https://www.schmengler-se.de/en/2016/09/php-using-class_alias-to-maintain-bc-while-move-rename-classes/, hhttps://dev.to/khairuaqsara/exploring-php-classalias-k2n
+See also `PHP: Using class_alias to maintain BC while moving/renaming classes <https://www.schmengler-se.de/en/2016/09/php-using-class_alias-to-maintain-bc-while-move-rename-classes/>`_ and `Exploring PHP class_alias <hhttps://dev.to/khairuaqsara/exploring-php-classalias-k2n>`_.
 
 Related : :ref:`Use <use>`, :ref:`Alias <alias>`

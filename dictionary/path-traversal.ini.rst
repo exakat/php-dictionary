@@ -41,6 +41,6 @@ Path traversals are also called directory traversal.
 
 `Documentation <https://owasp.org/www-community/attacks/Path_Traversal>`__
 
-See also https://portswigger.net/web-security/file-path-traversal, https://www.ubikasec.com/en/posts/how-to-prevent-exploitation-of-path-traversal-vulnerabilities/
+See also `Path traversal <https://portswigger.net/web-security/file-path-traversal>`_ and `How to prevent exploitation of Path Traversal vulnerabilities <https://www.ubikasec.com/en/posts/how-to-prevent-exploitation-of-path-traversal-vulnerabilities/>`_.
 
 Related : :ref:`Vulnerability <vulnerability>`, :ref:`Attack <attack>`, :ref:`Leak <leak>`

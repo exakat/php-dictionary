@@ -30,6 +30,6 @@ This principle's nemesis is DRY: ``Don't Repeat Yourself``.
 
 `Documentation <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`__
 
-See also https://medium.com/@nrk25693/dry-or-wet-and-why-867ac3096483, https://dev.to/nettab/we-should-all-be-writing-wet-code-3d95
+See also `DRY or WET and Why? <https://medium.com/@nrk25693/dry-or-wet-and-why-867ac3096483>`_ and `We Should All Be Writing WET Code <https://dev.to/nettab/we-should-all-be-writing-wet-code-3d95>`_.
 
 Related : :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`Design Pattern <pattern>`

@@ -49,6 +49,6 @@ PHP supports a system of attributes, to add local configuration to methods, clas
 
 `Documentation <https://www.php.net/manual/en/reserved.attributes.php>`__
 
-See also https://www.exakat.io/en/php-native-attributes-quick-reference/
+See also `PHP Native Attributes <https://www.exakat.io/en/php-native-attributes-quick-reference/>`_.
 
 Related : :ref:`Attribute <attribute>`, :ref:`Allow Dynamic Properties <allowdynamicproperties>`, :ref:`Return Type Will Change <returntypewillchange>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Override Attribute <override>`, :ref:`Deprecated <deprecated>`, :ref:`delayedtargetvalidation <delayedtargetvalidation>`, :ref:`NoDiscard <nodiscard>`

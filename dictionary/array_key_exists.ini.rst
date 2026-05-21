@@ -44,6 +44,6 @@ Unlike its name, ``array_key_exists()`` works on array as well as objects. This 
 
 `Documentation <https://www.php.net/manual/en/function.array-key-exists.php>`__
 
-See also https://medium.com/@erlandmuchasaj/isset-vs-array-key-exists-b5b054f63eea
+See also `isset() vs array_key_exists() <https://medium.com/@erlandmuchasaj/isset-vs-array-key-exists-b5b054f63eea>`_.
 
 Related : :ref:`Isset <isset>`

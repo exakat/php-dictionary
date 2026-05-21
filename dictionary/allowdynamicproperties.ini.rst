@@ -62,7 +62,7 @@ The attributes allow any dynamic property: there is no way to restrict this to a
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
 
-See also https://medium.com/@dotcom.software/no-more-dynamic-properties-in-php-9-the-language-is-evolving-260fd70da5e8, https://www.reddit.com/r/PHP/comments/10u90o2/i_hate_the_deprecation_of_dynamic_properties/
+See also `No More Dynamic Properties in PHP 9. <https://medium.com/@dotcom.software/no-more-dynamic-properties-in-php-9-the-language-is-evolving-260fd70da5e8>`_ and `I hate the deprecation of dynamic properties. <https://www.reddit.com/r/PHP/comments/10u90o2/i_hate_the_deprecation_of_dynamic_properties/>`_.
 
 Related : :ref:`PHP Native Attribute <php-native-attribute>`
 

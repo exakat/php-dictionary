@@ -33,7 +33,7 @@ Linting is sometimes mistaken with ``compile``: linting is a part of a compilati
 
 `Documentation <https://en.wikipedia.org/wiki/Lint_(software)>`__
 
-See also https://docs.wpvip.com/wordpress-on-vip/php/versions/php-linting-scans/, https://php.watch/versions/8.3/cli-lint-multiple-files
+See also `PHP linting for PHP version compatibility <https://docs.wpvip.com/wordpress-on-vip/php/versions/php-linting-scans/>`_ and `PHP 8.3: PHP CLI Lint (php -l) supports linting multiple files at once <https://php.watch/versions/8.3/cli-lint-multiple-files>`_.
 
 Related : :ref:`Compile <compile>`
 

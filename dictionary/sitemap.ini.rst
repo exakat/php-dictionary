@@ -30,7 +30,7 @@ The ``sitemap`` file is an XML file that lists all the important pages of a webs
 
 `Documentation <https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview>`__
 
-See also https://phppot.com/php/how-to-generate-dynamic-xml-sitemap-for-website-in-php/
+See also `How to Generate Dynamic XML Sitemap for Website in PHP <https://phppot.com/php/how-to-generate-dynamic-xml-sitemap-for-website-in-php/>`_.
 
 Related : :ref:`Extensible Markup Language (XML) <xml>`, :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Web-spider <web-spider>`
 

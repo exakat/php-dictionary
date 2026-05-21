@@ -47,6 +47,6 @@ PHP has abstract classes, properties and methods. Classes defined as abstract ca
 
 `Documentation <https://www.php.net/manual/en/language.oop5.abstract.php>`__
 
-See also https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php, https://www.otsch.codes/blog/testing-abstract-classes-in-php-using-anonymous-classes, https://matthewdaly.co.uk/blog/2023/08/13/why-nearly-every-php-class-you-write-should-be-abstract-or-final/
+See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Testing Abstract Classes in PHP using Anonymous Classes <https://www.otsch.codes/blog/testing-abstract-classes-in-php-using-anonymous-classes>`_ and `Why (nearly) every PHP class you write should be abstract or final <https://matthewdaly.co.uk/blog/2023/08/13/why-nearly-every-php-class-you-write-should-be-abstract-or-final/>`_.
 
 Related : :ref:`Final Keyword <final>`, :ref:`Abstraction <abstraction>`, :ref:`Concrete Class <concrete>`, :ref:`Object <object>`, :ref:`Overriding <overriding>`

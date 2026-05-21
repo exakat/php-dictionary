@@ -47,4 +47,4 @@ A deprecation message is active since PHP 8.3.
    ?>
 
 
-See also https://www.php.net/manual/en/function.str-decrement.php, https://www.php.net/manual/en/function.str-increment.php
+See also `str_decrement <https://www.php.net/manual/en/function.str-decrement.php>`_ and `str_increment <https://www.php.net/manual/en/function.str-increment.php>`_.

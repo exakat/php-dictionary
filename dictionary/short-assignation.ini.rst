@@ -40,6 +40,6 @@ In addition to the basic assignment operator, there are combined operators for a
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-See also https://www.dinocajic.com/php-shorthand-operators/
+See also `PHP — P22: Shorthand Operators <https://www.dinocajic.com/php-shorthand-operators/>`_.
 
 Related : :ref:`Assignations <assignation>`, :ref:`Assignations <assignement>`

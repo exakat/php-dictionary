@@ -40,6 +40,6 @@ The conversion is lossless, and shall be reverted with an encode operation.
    ?>
 
 
-See also https://canopas.com/php-useful-encoding-and-decoding-functions-you-need-to-know-210e523a065f
+See also `PHP: Useful Encoding and decoding Functions You Need to Know <https://canopas.com/php-useful-encoding-and-decoding-functions-you-need-to-know-210e523a065f>`_.
 
 Related : :ref:`Encode <encode>`, :ref:`Convert <convert>`

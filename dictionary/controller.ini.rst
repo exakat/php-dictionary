@@ -26,7 +26,7 @@ Controllers takes in charge one or several URL, extract data from the request, p
 
 Controllers orchestrate the execution of the request, and act as gatekeeper, ensuring that data are correctly processed.
 
-See also https://laravel.com/docs/12.x/controllers, https://leafphp.dev/docs/mvc/controllers, https://route.thephpleague.com/5.x/controllers/
+See also `Controllers in Laravel 12 <https://laravel.com/docs/12.x/controllers>`_, `Controllers in LeafPHP <https://leafphp.dev/docs/mvc/controllers>`_ and `Controllers by the PHP league <https://route.thephpleague.com/5.x/controllers/>`_.
 
 Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`Model <model>`, :ref:`Route <route>`
 

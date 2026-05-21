@@ -32,4 +32,4 @@ Each item of configuration is called a directive.
 
 `Documentation <https://www.php.net/manual/en/configuration.php>`__
 
-Related : :ref:`Directives <directive>`, :ref:`File <file>`, :ref:`php.ini <php.ini>`
+Related : :ref:`Directives <directive>`, :ref:`File <file>`, :ref:`php\.ini <php.ini>`

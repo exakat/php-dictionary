@@ -43,6 +43,6 @@ There are different types of caches, depending on where they are applied: opcode
 
 `Documentation <https://en.wikipedia.org/wiki/Cache_(computing)>`__
 
-See also https://www.php-cache.com/en/latest/
+See also `PHP cache <https://www.php-cache.com/en/latest/>`_.
 
 Related : :ref:`Memoization <memoization>`

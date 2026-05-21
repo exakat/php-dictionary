@@ -24,6 +24,6 @@ Treemap
 
 Treemaps are a visualization tool used to understand the relative weight of partitions. It works on file systems, and nested code structures. Each zone may be dimensioned by its weight, and also colored with another indicator.
 
-See also https://findley.dev/projects/php-meminfo-treemap/
+See also `PHP Meminfo Treemap <https://findley.dev/projects/php-meminfo-treemap/>`_.
 
 Related packages : `wikimedia/arc-lamp <https://packagist.org/packages/wikimedia/arc-lamp>`_

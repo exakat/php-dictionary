@@ -41,6 +41,6 @@ Pre-increment and pre-decrement have a corresponding post-increment and post-dec
 
 `Documentation <https://www.php.net/manual/en/language.operators.increment.php>`__
 
-See also https://flatcoding.com/tutorials/php/increment-and-decrement-operators-in-php/, https://deepsource.com/directory/php/issues/PHP-W1090
+See also `Understanding the Increment and decrement operators in PHP <https://flatcoding.com/tutorials/php/increment-and-decrement-operators-in-php/>`_ and `Useless post increment/decrementPHP-W1090 <https://deepsource.com/directory/php/issues/PHP-W1090>`_.
 
 Related : :ref:`Post-increment <post-increment>`, :ref:`Variables <variable>`, :ref:`Increment <increment>`

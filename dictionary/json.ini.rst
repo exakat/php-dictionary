@@ -38,7 +38,7 @@ JSON, or JavaScript Object Notation, is a lightweight data-interchange format. I
 
 `Documentation <https://www.php.net/json>`__
 
-See also https://www.json.org/json-en.html, https://prahladyeri.github.io/blog/2024/11/working-with-json-data-in-php-mysql.html, https://www.anbowell.com/blog/an-in-depth-comparison-of-json-yaml-and-toml/
+See also `JSON home <https://www.json.org/json-en.html>`_, `Working with JSON data in PHP and MySQL: storing and retrieving complex structures <https://prahladyeri.github.io/blog/2024/11/working-with-json-data-in-php-mysql.html>`_ and `An In-depth Comparison of JSON, YAML, and TOML <https://www.anbowell.com/blog/an-in-depth-comparison-of-json-yaml-and-toml/>`_.
 
 Related : :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`json_decode() <json_decode>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Serde <serde>`, :ref:`JSON Lines (JSONC) <jsonc>`, :ref:`JSON Lines (JSONL) <jsonl>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`, :ref:`Text <text>`, :ref:`Format <format>`, :ref:`json_encode() <json_encode>`, :ref:`JsonException <jsonexception>`, :ref:`Parquet <parquet>`
 

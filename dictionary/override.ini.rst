@@ -52,7 +52,7 @@ This attribute may be added to any method.
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
 
-See also https://medium.com/@arifhossen.dev/understanding-php-override-attribute-a-beginners-complete-guide-55275bf7fc87
+See also `Understanding PHP #[Override] Attribute: A Beginner's Complete Guide — 2025 <https://medium.com/@arifhossen.dev/understanding-php-override-attribute-a-beginners-complete-guide-55275bf7fc87>`_.
 
 Related : :ref:`Overriding <overriding>`, :ref:`Overwrite <overwrite>`, :ref:`PHP Native Attributes <php-attribute>`, :ref:`PHP Native Attribute <php-native-attribute>`
 

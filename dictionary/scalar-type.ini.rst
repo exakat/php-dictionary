@@ -54,7 +54,7 @@ Note that ``null`` is not considered a scalar type, and is often behaving differ
 
 `Documentation <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield>`__
 
-See also https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration
+See also `PHP 7 Scalar Type Declaration <https://www.etutorialspoint.com/index.php/tutorial/php-scalar-type-declaration>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Special Types <special-type>`, :ref:`String <string>`, :ref:`Boolean <boolean>`, :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Alias Types <alias-types>`, :ref:`Constant Scalar Expression <constant-scalar-expression>`, :ref:`Literal Types <literal-types>`, :ref:`Primitive Obsession <primitive-obsession>`, :ref:`Relative Types <relative-types>`
 

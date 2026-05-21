@@ -37,7 +37,7 @@ The hexagonal architecture promotes loose coupling, which makes the system more 
 
 `Documentation <https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)>`__
 
-See also https://dev.to/helmarjunior/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01, https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656
+See also `From Chaos to Clean: Implementing Hexagonal Architecture in PHP <https://dev.to/helmarjunior/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01>`_ and `Hexagonal Architechure (Ports and Adapters) with PHP <https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656>`_.
 
 Related : :ref:`Adapters <adapter>`, :ref:`Onion Architecture <onion-architecture>`
 

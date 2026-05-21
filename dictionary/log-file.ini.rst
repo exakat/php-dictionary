@@ -33,7 +33,7 @@ Log is also the short name for logarithm.
 
 `Documentation <https://en.wikipedia.org/wiki/Logging_(computing)>`__
 
-See also https://betterstack.com/community/guides/logging/how-to-start-logging-with-monolog/
+See also `How to Get Started with Monolog Logging in PHP <https://betterstack.com/community/guides/logging/how-to-start-logging-with-monolog/>`_.
 
 Related : :ref:`Error Reporting <error_reporting>`, :ref:`Logarithm <logarithm>`
 

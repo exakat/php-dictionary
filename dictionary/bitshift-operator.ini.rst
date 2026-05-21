@@ -38,6 +38,6 @@ Bitshift operators ``<<`` and ``>>`` move bits within an integer. The bits are s
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
-See also https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/
+See also `Are Bitwise Operators Still Relevant in Modern PHP? <https://www.sitepoint.com/bitwise-operators-still-relevant-modern-php/>`_.
 
 Related : :ref:`Logical Operators <logical-operator>`, :ref:`Bitwise Operators <bitwise-operator>`

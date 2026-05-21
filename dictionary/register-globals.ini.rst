@@ -42,6 +42,6 @@ Register-globals has been removed in PHP 5.4.
 
 `Documentation <https://www.mediawiki.org/wiki/Register_globals>`__
 
-See also https://beaglesecurity.com/blog/vulnerability/php-register-globals-enabled.html
+See also `PHP register-globals is enabled <https://beaglesecurity.com/blog/vulnerability/php-register-globals-enabled.html>`_.
 
 Related : :ref:`Directives <directive>`

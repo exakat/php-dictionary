@@ -32,6 +32,6 @@ Conditions in PHP are expressed with comparisons operators. They are also expres
 
 `Documentation <https://www.php.net/manual/en/book.svm.php>`__
 
-See also https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-php
+See also `How To Write Conditional Statements in PHP <https://www.digitalocean.com/community/tutorials/how-to-write-conditional-statements-in-php>`_.
 
 Related : :ref:`Yoda Condition <yoda>`, :ref:`Conditional <conditional>`, :ref:`Type Juggling <type-juggling>`

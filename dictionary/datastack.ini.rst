@@ -44,6 +44,6 @@ There is also a class called ``SplStack``, in the ``spl`` extension, and ``Ds\St
 
 `Documentation <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>`__
 
-See also https://www.php.net/manual/en/class.ds-stack.php
+See also `Ds\Stack <https://www.php.net/manual/en/class.ds-stack.php>`_.
 
 Related : :ref:`SplStack <splstack>`, :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Last In, First Out (LIFO) <lifo>`

@@ -39,6 +39,6 @@ Code generation and libraries reduce boilerplate code, by automating the generat
    ?>
 
 
-See also https://jenskuerschner.medium.com/build-a-kick-ass-php-microsite-in-under-4h-f21b27b904d2
+See also `Build a kick-ass PHP Microsite in under 4h <https://jenskuerschner.medium.com/build-a-kick-ass-php-microsite-in-under-4h-f21b27b904d2>`_.
 
 Related : :ref:`Scaffolding <scaffolding>`

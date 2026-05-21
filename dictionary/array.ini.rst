@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 19:40:41 +0000","dateModified":"Mon, 18 May 2026 19:40:41 +0000","description":"``array`` is the array structure in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 15:33:24 +0000","dateModified":"Wed, 20 May 2026 15:33:24 +0000","description":"``array`` is the array structure in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Array
@@ -48,7 +48,7 @@ Mixed keys in an array refers to the practice add elements in the array with bot
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-See also https://ashallendesign.co.uk/blog/php-84-array-functions, https://lukasrotermund.de/posts/php-array-object-benchmarking/
+See also `New Array Functions in PHP 8.4 <https://ashallendesign.co.uk/blog/php-84-array-functions>`_, `PHP arrays are driving me mad <https://lukasrotermund.de/posts/php-array-object-benchmarking/>`_ and `PHP Oddities <https://flowtwo.io/post/php's-oddities>`_.
 
 Related : :ref:`Index For Arrays <index-array>`, :ref:`Addition <addition>`, :ref:`Comma <comma>`, :ref:`Dereferencing <dereferencing>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Hash <hash>`, :ref:`Hash <hashing>`, :ref:`Iterable <iterable>`, :ref:`List <list>`, :ref:`Map <map>`, :ref:`Sort <sort>`, :ref:`Sort <sorting>`, :ref:`Indexed Array <indexed-array>`, :ref:`Associative Array <associative-array>`, :ref:`ArrayObject <arrayobject>`, :ref:`Collection <collection>`, :ref:`Multiplication <multiplication>`, :ref:`Recursive Array <recursive-array>`, :ref:`Square Brackets <square-bracket>`, :ref:`Array With Curly Braces <array-curly-braces>`, :ref:`count() <count>`, :ref:`Tree <tree>`, :ref:`Weakmap <weakmap>`, :ref:`file_put_contents() <file_put_contents>`, :ref:`iterator_to_array() <iterator_to_array>`, :ref:`Offset <offset>`, :ref:`yield from Keyword <yield-from>`, :ref:`Dot Notation <dot-notation>`, :ref:`PHP Natives <native-type>`, :ref:`Self-reference <self-reference>`, :ref:`Serde <serde>`
 

@@ -38,6 +38,6 @@ In Unicode, code points are written as U+ followed by a hexadecimal number. For 
 
 `Documentation <https://en.wikipedia.org/wiki/Code_point>`__
 
-See also https://developer.mozilla.org/en-US/docs/Glossary/Code_point, https://www.unicode.org/versions/Unicode14.0.0/ch02.pdf#G25564, https://codepoints.net/?lang=en
+See also `Code point <https://developer.mozilla.org/en-US/docs/Glossary/Code_point>`_, `Unicode 14.0 <https://www.unicode.org/versions/Unicode14.0.0/ch02.pdf#G25564>`_ and `All the unicode codepoints <https://codepoints.net/?lang=en>`_.
 
 Related : :ref:`Unicode <unicode>`, :ref:`Escape Sequences <escape-sequence>`

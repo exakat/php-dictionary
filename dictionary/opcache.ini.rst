@@ -26,6 +26,6 @@ OPcache improves PHP performance by storing precompiled script bytecode in share
 
 `Documentation <https://www.php.net/manual/en/book.opcache.php>`__
 
-See also https://engineering.oneutilitybill.co/fixing-our-opcache-config-sped-up-our-php-application-by-3x-871c6fe49be1
+See also `Fixing Our OPcache Config Sped Up Our PHP Application By 3x <https://engineering.oneutilitybill.co/fixing-our-opcache-config-sped-up-our-php-application-by-3x-871c6fe49be1>`_.
 
 Related : :ref:`Opcode <opcode>`

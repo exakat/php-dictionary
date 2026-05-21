@@ -35,7 +35,7 @@ Here's a simplified overview of how a command bus works:
 
 `Documentation <https://tactician.thephpleague.com/>`__
 
-See also https://barryvanveen.nl/articles/49-what-is-a-command-bus-and-why-should-you-use-it, https://laravel.com/docs/5.0/bus
+See also `What is a command bus and why should you use it? <https://barryvanveen.nl/articles/49-what-is-a-command-bus-and-why-should-you-use-it>`_ and `Command Bus <https://laravel.com/docs/5.0/bus>`_.
 
 Related : :ref:`Code Architecture <code-architecture>`
 

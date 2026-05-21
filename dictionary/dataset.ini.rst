@@ -28,6 +28,6 @@ The data may be structured or not. The dataset needs a programming language to q
 
 `Documentation <https://en.wikipedia.org/wiki/Data_set>`__
 
-See also https://www.kaggle.com/datasets
+See also `Kaggle <https://www.kaggle.com/datasets>`_.
 
 Related : :ref:`Data <data>`, :ref:`Random <random>`, :ref:`Fixture <fixture>`, :ref:`Faker <faker>`

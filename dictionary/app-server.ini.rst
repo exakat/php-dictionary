@@ -29,6 +29,6 @@ While PHP itself runs as an interpreted scripting language, the application serv
 
 `Documentation <https://en.wikipedia.org/wiki/Application_server>`__
 
-See also https://roadrunner.dev/, https://frankenphp.dev/, https://github.com/el7cosmos/pasir, https://www.cloudways.com/blog/best-php-servers/, https://github.com/cubiclesoft/php-app-server
+See also `RoadRunner <https://roadrunner.dev/>`_, `FrankenPHP <https://frankenphp.dev/>`_, `pasir <https://github.com/el7cosmos/pasir>`_, `Best Open Source PHP Servers for Your Next Web Application <https://www.cloudways.com/blog/best-php-servers/>`_ and `php-app-server <https://github.com/cubiclesoft/php-app-server>`_.
 
 Related : :ref:`Webserver <webserver>`, :ref:`Database <database>`

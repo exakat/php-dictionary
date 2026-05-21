@@ -27,4 +27,4 @@ A ``god object`` is a term used in software development to describe a class or m
 
 `Documentation <https://en.wikipedia.org/wiki/God_object>`__
 
-See also https://dev.to/jszutkowski/when-classes-do-too-much-using-lcom-to-spot-god-classes-in-php-13mf, https://harasim.dev/from-bloated-repositories-to-atomic-query-builder-pattern/
+See also `When Classes Do Too Much: Using LCOM to Spot 'God Classes' in PHP <https://dev.to/jszutkowski/when-classes-do-too-much-using-lcom-to-spot-god-classes-in-php-13mf>`_ and `From Bloated Repositories to Atomic Query Builder Pattern <https://harasim.dev/from-bloated-repositories-to-atomic-query-builder-pattern/>`_.

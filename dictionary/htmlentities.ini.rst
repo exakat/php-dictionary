@@ -47,6 +47,6 @@ The contrary to ``htmlentities()`` is ``html_entity_decode()``.
 
 `Documentation <https://www.php.net/manual/en/function.htmlentities.php>`__
 
-See also https://www.freeformatter.com/html-entities.html
+See also `HTML Entity List <https://www.freeformatter.com/html-entities.html>`_.
 
 Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Entities <entity>`

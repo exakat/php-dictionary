@@ -45,4 +45,4 @@ PHP has functions to decode (turn HTML entities into characters) and encode (tur
 
 `Documentation <https://www.php.net/manual/en/function.htmlentities.php>`__
 
-See also https://html.spec.whatwg.org/multipage/named-characters.html
+See also `Named character references <https://html.spec.whatwg.org/multipage/named-characters.html>`_.

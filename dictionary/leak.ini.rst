@@ -30,6 +30,6 @@ Different types of leaks:
 + Resource leaks: resources such as file handles are not freed, voluntarily or not.
 + Data Leaks: sensitive data are made available, in an indirect way, and may even reach attackers.
 
-See also https://jolicode.com/blog/a-journey-to-find-a-memory-leak, https://medium.com/@aji658911/preventing-memory-leaks-in-php-best-practices-for-efficient-memory-management-beac555020f2
+See also `A Journey to find a memory leak <https://jolicode.com/blog/a-journey-to-find-a-memory-leak>`_ and `Preventing Memory Leaks in PHP: Best Practices for Efficient Memory Management <https://medium.com/@aji658911/preventing-memory-leaks-in-php-best-practices-for-efficient-memory-management-beac555020f2>`_.
 
 Related : , :ref:`Memory Leak <memory-leak>`, :ref:`Data Leak <data-leak>`

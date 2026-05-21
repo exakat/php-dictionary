@@ -28,6 +28,6 @@ It focuses on finding vulnerabilities before the source code hits production.
 
 For example, SAST searches for injections, XSS, path traversal, insecure deserialization, weak cryptography, missing validation.
 
-See also https://deepsource.com/, https://snyk.io/, https://www.sonarsource.com/products/sonarqube/, https://github.com/LioTree/php-sast-papers
+See also `deepsource <https://deepsource.com/>`_, `snyk <https://snyk.io/>`_, `sonar <https://www.sonarsource.com/products/sonarqube/>`_ and `PHP SAST Papers <https://github.com/LioTree/php-sast-papers>`_.
 
 Related : :ref:`Second Order SQL Injection <second-order-sql-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Static Code Analysis (SCA) <sca>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`SQL Injection <sql-injection>`, :ref:`Path Traversal <path-traversal>`, , :ref:`Weak Cryptography <weak-cryptography>`, :ref:`Missing Validation <missing-validation>`

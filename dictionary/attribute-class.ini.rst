@@ -41,7 +41,7 @@ This attribute is not necessary to make a class a valid attribute. Yet, it is re
 
 `Documentation <https://www.php.net/manual/en/language.attributes.classes.php>`__
 
-See also https://php.watch/articles/php-attributes, https://www.honeybadger.io/blog/php-attributes-guide/
+See also `Attributes in PHP 8 <https://php.watch/articles/php-attributes>`_ and `A guide to PHP attributes <https://www.honeybadger.io/blog/php-attributes-guide/>`_.
 
 Related : :ref:`Override Attribute <override>`, :ref:`NoDiscard <nodiscard>`, :ref:`Attribute <attribute>`
 

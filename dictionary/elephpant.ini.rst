@@ -30,6 +30,6 @@ The name elePHPant is a neologism, and is characteristic of the PHP community. T
 
 `Documentation <https://www.elephpant.com/>`__
 
-See also https://www.elephpant.com/, https://www.elephpant.me/, https://afieldguidetoelephpants.net/, https://www.exakat.io/en/where-can-you-get-an-elephpant-php-elephant/, https://iterativewonders.com/2025/11/19/the-elephant-in-the-server-room-why-is-phps-mascot-a-pachyderm/
+See also `elephpant.com <https://www.elephpant.com/>`_, `elephpant.me <https://www.elephpant.me/>`_, `A field Guide To ElePHPant <https://afieldguidetoelephpants.net/>`_, `Where can you get an elephpant ? <https://www.exakat.io/en/where-can-you-get-an-elephpant-php-elephant/>`_ and `The Elephant in the Server Room: Why Is PHP’s Mascot a Pachyderm? <https://iterativewonders.com/2025/11/19/the-elephant-in-the-server-room-why-is-phps-mascot-a-pachyderm/>`_.
 
 Related : :ref:`Community <community>`

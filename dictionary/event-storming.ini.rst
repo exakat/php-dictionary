@@ -26,4 +26,4 @@ Event storming is a workshop, aiming at discovering the domain for an applicatio
 
 `Documentation <https://en.wikipedia.org/wiki/Event_storming>`__
 
-See also https://www.eventstorming.com/
+See also `Event storming workshop <https://www.eventstorming.com/>`_.

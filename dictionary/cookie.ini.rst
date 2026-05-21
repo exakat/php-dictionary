@@ -35,7 +35,7 @@ Cookies serve as a fundamental web technology that enables websites to store sma
 
 `Documentation <https://www.php.net/manual/en/features.cookies.php>`__
 
-See also https://www.simplilearn.com/tutorials/php-tutorial/cookies-in-php, https://www.geeksforgeeks.org/php-cookies/
+See also `Cookies in PHP <https://www.simplilearn.com/tutorials/php-tutorial/cookies-in-php>`_ and `PHP Cookies <https://www.geeksforgeeks.org/php-cookies/>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 

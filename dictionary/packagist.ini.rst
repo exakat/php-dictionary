@@ -28,6 +28,6 @@ Packagist makes it easy for developers to share their packages with the communit
 
 `Documentation <https://packagist.org/>`__
 
-See also https://getcomposer.org
+See also `Composer <https://getcomposer.org>`_.
 
 Related : :ref:`Composer <composer>`

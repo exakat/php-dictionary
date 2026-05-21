@@ -37,6 +37,6 @@ It's important to note that while sharding can offer scalability benefits, it al
 
 `Documentation <https://www.techtarget.com/searchoracle/definition/sharding>`__
 
-See also https://en.wikipedia.org/wiki/Shard_(database_architecture)
+See also `Shard (database architecture) <https://en.wikipedia.org/wiki/Shard_(database_architecture)>`_.
 
 Related : :ref:`Server <server>`, :ref:`Architecture <architecture>`

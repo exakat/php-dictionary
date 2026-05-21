@@ -45,6 +45,6 @@ The environment variables are set in the operating system before the execution o
 
 `Documentation <https://en.wikipedia.org/wiki/Environment_variable>`__
 
-See also https://www.twilio.com/blog/working-with-environment-variables-in-php
+See also `Working with Environment Variables in PHP <https://www.twilio.com/blog/working-with-environment-variables-in-php>`_.
 
-Related : :ref:`.env File <env-file>`
+Related : :ref:`\.env File <env-file>`

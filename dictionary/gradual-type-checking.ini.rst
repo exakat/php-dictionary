@@ -41,6 +41,6 @@ Gradual Type Checking ends when the code is all typed: arguments, return types, 
 
 `Documentation <https://en.wikipedia.org/wiki/Gradual_typing>`__
 
-See also https://sorbet.org/docs/gradual, https://jsiek.github.io/home/WhatIsGradualTyping.html, https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html
+See also `Gradual Type Checking & Sorbet <https://sorbet.org/docs/gradual>`_, `What is Gradual Typing <https://jsiek.github.io/home/WhatIsGradualTyping.html>`_ and `PHP’s Gradual Typing Journey: From Wild West to Almost Respectable <https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html>`_.
 
 Related : :ref:`Type System <type>`

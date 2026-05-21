@@ -42,7 +42,7 @@ strict_types
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict>`__
 
-See also https://www.phptutorial.net/php-tutorial/php-strict_types/, https://dev.to/rocksheep/the-way-stricttypes-works-in-php-eb7, https://backendtea.com/post/php-declare-strict-types/, https://github.com/Girgias/unify-typing-modes-rfc
+See also `PHP strict_types <https://www.phptutorial.net/php-tutorial/php-strict_types/>`_, `The way declare(strict_types=1) works in PHP <https://dev.to/rocksheep/the-way-stricttypes-works-in-php-eb7>`_, `What is PHP's declare(strict_types=1); and why you should use it <https://backendtea.com/post/php-declare-strict-types/>`_ and `PHP RFC: Unify PHP's typing modes (aka remove strict_types declare) <https://github.com/Girgias/unify-typing-modes-rfc>`_.
 
 Related : :ref:`Type System <type>`, :ref:`declare() <declare>`
 

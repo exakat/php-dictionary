@@ -43,7 +43,7 @@ This metric measure the number of decisions happening within the code. Those dec
 
 `Documentation <https://en.wikipedia.org/wiki/Cyclomatic_complexity>`__
 
-See also https://pdepend.org/documentation/software-metrics/cyclomatic-complexity.html
+See also `Cyclomatic Complexity for PHP <https://pdepend.org/documentation/software-metrics/cyclomatic-complexity.html>`_.
 
 Related : :ref:`Metrics <metrics>`, :ref:`Cognitive Complexity <cognitive-complexity>`
 

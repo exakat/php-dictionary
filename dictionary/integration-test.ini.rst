@@ -30,6 +30,6 @@ Integration testing relies on mock objects, to simulate external, autonomous or 
 
 `Documentation <https://en.wikipedia.org/wiki/Integration_testing>`__
 
-See also https://medium.com/@sameernyaupane/php-test-driven-development-part-5-integration-testing-51535ca56bf0s
+See also `PHP Test Driven Development Part 5: Integration Testing <https://medium.com/@sameernyaupane/php-test-driven-development-part-5-integration-testing-51535ca56bf0s>`_.
 
 Related : :ref:`Test <test>`

@@ -41,7 +41,7 @@ Never Type
 
 `Documentation <https://wiki.php.net/rfc/noreturn_type>`__
 
-See also https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303, https://www.slingacademy.com/article/using-never-return-type-in-php-php-81/
+See also `The never Return Type for PHP <https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303>`_ and ` Using ‘never’ return type in PHP (PHP 8.1+)  <https://www.slingacademy.com/article/using-never-return-type-in-php-php-81/>`_.
 
 Related : :ref:`Type System <type>`
 

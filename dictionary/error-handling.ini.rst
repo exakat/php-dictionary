@@ -47,6 +47,6 @@ The exception system is based on the throw, try and catch keywords.
 
 `Documentation <https://www.php.net/manual/en/ref.errorfunc.php>`__
 
-See also https://roman-huliak.medium.com/php-error-handling-and-exceptions-best-practices-for-robust-applications-c02cf5e225f7
+See also `PHP Error Handling and Exceptions: Best practices for robust applications <https://roman-huliak.medium.com/php-error-handling-and-exceptions-best-practices-for-robust-applications-c02cf5e225f7>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`Error Handler <error-handler>`

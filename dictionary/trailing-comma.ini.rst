@@ -43,6 +43,6 @@ Trailing commas were introduced progressively in PHP. In PHP 7.2, in use stateme
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.arguments>`__
 
-See also https://c-harrison.medium.com/how-i-learned-to-stop-worrying-and-love-the-trailing-comma-480f3a73d203
+See also `How I learned to stop worrying and love the trailing comma <https://c-harrison.medium.com/how-i-learned-to-stop-worrying-and-love-the-trailing-comma-480f3a73d203>`_.
 
 Related : :ref:`Comma <comma>`, :ref:`Convention <convention>`

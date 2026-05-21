@@ -34,7 +34,7 @@ Active Record is often used in conjunction with other design patterns, such as t
 
 `Documentation <https://en.wikipedia.org/wiki/Active_record_pattern>`__
 
-See also https://www.martinfowler.com/eaaCatalog/activeRecord.html, https://www.linkedin.com/pulse/getting-started-eloquent-laravel-beginners-youssef-saleem/
+See also `Active Record <https://www.martinfowler.com/eaaCatalog/activeRecord.html>`_ and `Getting started with Eloquent in Laravel: (for Beginners)syste <https://www.linkedin.com/pulse/getting-started-eloquent-laravel-beginners-youssef-saleem/>`_.
 
 Related : :ref:`Data Mapper <data-mapper>`, :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 

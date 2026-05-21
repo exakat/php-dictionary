@@ -24,6 +24,6 @@ Feature Testing
 
 Feature testing validates that multiple components of a system work together correctly by simulating real user workflows.
 
-See also https://codecraftdiary.com/2025/10/30/feature-testing-in-php-ensuring-the-whole-system-works-together/
+See also `How practice Feature Testing with PHP examples <https://codecraftdiary.com/2025/10/30/feature-testing-in-php-ensuring-the-whole-system-works-together/>`_.
 
 Related : :ref:`Test <test>`

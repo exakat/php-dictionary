@@ -41,6 +41,6 @@ It is possible to list all available PHP native constants with the function ``ge
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.php>`__
 
-See also https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/
+See also `Understanding PHP Constants: A Simple Guide with Examples <https://flatcoding.com/tutorials/php/understanding-the-php-constant-expression/>`_.
 
 Related : :ref:`Superglobal Variables <super-global>`, :ref:`Variables <variable>`, :ref:`Native <native>`

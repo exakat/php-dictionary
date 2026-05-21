@@ -32,6 +32,6 @@ Services can be used across different parts of an application, reducing code dup
 
 Services are typically configured and managed by a service container.
 
-See also https://tuhinbepari.medium.com/mastering-symfony-service-container-modern-php-attributes-edition-74d7113614c0
+See also `Mastering Symfony Service Container: Modern PHP Attributes Edition <https://tuhinbepari.medium.com/mastering-symfony-service-container-modern-php-attributes-edition-74d7113614c0>`_.
 
 Related : :ref:`Encapsulation <encapsulation>`, :ref:`Dependency Injection <di>`, :ref:`Service Container <service-container>`

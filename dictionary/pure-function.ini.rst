@@ -45,6 +45,6 @@ This notion applies to functions, methods, native and custom functions, closures
 
 `Documentation <https://en.wikipedia.org/wiki/Pure_function>`__
 
-See also https://leanpub.com/read/thinking-functionally-in-php/leanpub-auto-pure-functions, https://agiroloki.medium.com/functional-programming-in-php-part-2-9db0f5443cdf
+See also `Pure Functions <https://leanpub.com/read/thinking-functionally-in-php/leanpub-auto-pure-functions>`_ and `Functional Programming in PHP: Part 2 <https://agiroloki.medium.com/functional-programming-in-php-part-2-9db0f5443cdf>`_.
 
 Related : :ref:`Functions <function>`, :ref:`Method <method>`, :ref:`Return <return>`, :ref:`Side Effect <side-effect>`, :ref:`Impure Function <impure-function>`

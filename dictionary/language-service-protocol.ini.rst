@@ -28,6 +28,6 @@ Language features may be autocomplete, go-to-definition, documentation, and diag
 
 LSP actually stands for the protocol, but it is often used for the LSP server itself. LSP may be provided by the IDE, or stand alone as an autonomous server.
 
-See also https://github.com/AJenbo/phpantom_lsp, https://intelephense.com/, https://www.devsense.com/en, https://github.com/phpactor/phpactor, https://github.com/chschneider/lsp_php, https://emacs-lsp.github.io/lsp-mode/tutorials/php-guide/
+See also `PHPantom <https://github.com/AJenbo/phpantom_lsp>`_, `Intelephense <https://intelephense.com/>`_, `PHP Tools <https://www.devsense.com/en>`_, `Phpactor <https://github.com/phpactor/phpactor>`_, `LSP PHP <https://github.com/chschneider/lsp_php>`_ and `Configuring Emacs as a PHP IDE <https://emacs-lsp.github.io/lsp-mode/tutorials/php-guide/>`_.
 
 Related : :ref:`LSP <lsp>`, :ref:`Integrated Environment of Development (IDE) <ide>`, 

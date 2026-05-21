@@ -47,6 +47,6 @@ XXTEA
 
 `Documentation <https://en.wikipedia.org/wiki/XXTEA>`__
 
-See also https://github.com/xxtea/xxtea-pecl
+See also `xxtea-pecl <https://github.com/xxtea/xxtea-pecl>`_.
 
 Related : :ref:`RSA <rsa>`

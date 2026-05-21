@@ -47,6 +47,6 @@ While a Not A Number value is a float, it is possible to test a number with ``is
 
 `Documentation <https://www.php.net/manual/en/math.constants.php>`__
 
-See also https://www.php.net/manual/en/function.is-nan.php
+See also `is_nan() <https://www.php.net/manual/en/function.is-nan.php>`_.
 
 Related : :ref:`Floating Point Numbers <float>`

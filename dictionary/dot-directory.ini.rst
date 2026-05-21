@@ -34,6 +34,6 @@ The ``.`` directory represents the current directory. It is useful to designate 
    ?>
 
 
-See also https://www.qnx.com/developers/docs/8.0/com.qnx.doc.neutrino.user_guide/topic/files_Dot.html
+See also `Dot and dot-dot directories <https://www.qnx.com/developers/docs/8.0/com.qnx.doc.neutrino.user_guide/topic/files_Dot.html>`_.
 
-Related : :ref:`Path <path>`, :ref:`Concatenation <dot>`, :ref:`.. Directory <dot-dot-directory>`
+Related : :ref:`Path <path>`, :ref:`Concatenation <dot>`, :ref:`Dot-dot Directory \.\. <dot-dot-directory>`

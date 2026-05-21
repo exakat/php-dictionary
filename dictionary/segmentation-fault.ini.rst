@@ -42,6 +42,6 @@ Segmentation fault are notoriously hard to fix. They are often linked to a bug, 
 
 `Documentation <https://www.zend.com/blog/debugging-php-segmentation-faults>`__
 
-See also https://jolicode.com/blog/find-segfaults-in-php-like-a-boss
+See also `Find Segfaults in PHP like a boss <https://jolicode.com/blog/find-segfaults-in-php-like-a-boss>`_.
 
 Related : :ref:`PHP Engine <php-engine>`

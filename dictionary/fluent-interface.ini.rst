@@ -54,6 +54,6 @@ A fluent interface is not related to an interface: it may be implemented without
 
 `Documentation <https://designpatternsphp.readthedocs.io/en/latest/Structural/FluentInterface/README.html>`__
 
-See also https://en.wikipedia.org/wiki/Fluent_interface, https://news.ycombinator.com/item?id=16619171, https://ocramius.github.io/blog/fluent-interfaces-are-evil/
+See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_, `Fluent Interfaces Are Bad for Maintainability <https://news.ycombinator.com/item?id=16619171>`_ and `Fluent Interfaces are Evil <https://ocramius.github.io/blog/fluent-interfaces-are-evil/>`_.
 
 Related : :ref:`Final Keyword <final>`, :ref:`Interface <interface>`

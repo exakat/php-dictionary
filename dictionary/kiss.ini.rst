@@ -26,4 +26,4 @@ KISS stands for ``Keep It Simple, Stupid``. It is a design principle that emphas
 
 `Documentation <https://en.wikipedia.org/wiki/KISS_principle>`__
 
-See also https://agileparrot.com/2022/03/01/the-kiss-principle-with-php-examples/, https://dev.to/parzival_computer/kiss-principle-keep-it-simple-stupid-3n08
+See also `The KISS Principle with PHP Examples <https://agileparrot.com/2022/03/01/the-kiss-principle-with-php-examples/>`_ and `KISS Principle (Keep It Simple, Stupid) <https://dev.to/parzival_computer/kiss-principle-keep-it-simple-stupid-3n08>`_.

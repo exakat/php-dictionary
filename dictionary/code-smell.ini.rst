@@ -30,6 +30,6 @@ Code smells are not strict rules or errors but rather indicators of areas that m
 
 `Documentation <https://en.wikipedia.org/wiki/Code_smell>`__
 
-See also https://betterprogramming.pub/what-are-code-smells-in-php-oop-approach-for-cleaner-code-c9729232dc5f, https://refactoring.guru/refactoring/smells
+See also `What Are Code Smells in PHP? An OOP Approach for Cleaner Code <https://betterprogramming.pub/what-are-code-smells-in-php-oop-approach-for-cleaner-code-c9729232dc5f>`_ and `Code Smells <https://refactoring.guru/refactoring/smells>`_.
 
 Related : :ref:`Quality <quality>`, :ref:`Code Review <code-review>`

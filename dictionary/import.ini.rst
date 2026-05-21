@@ -50,6 +50,6 @@ Import is sometimes mistaken with inclusion, which bring in code.
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.importing.php>`__
 
-See also https://localheinz.com/articles/2020/05/19/avoiding-imports-and-aliases-in-php/, https://www.exakat.io/6-good-practices-for-use/
+See also `Avoiding Imports and Aliases in PHP <https://localheinz.com/articles/2020/05/19/avoiding-imports-and-aliases-in-php/>`_ and `6 good practices for ‘use’ in PHP <https://www.exakat.io/6-good-practices-for-use/>`_.
 
 Related : :ref:`Relative Name <relative-name>`, :ref:`Absolute Name <absolute-name>`

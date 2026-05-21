@@ -48,7 +48,7 @@ Union types were introduced for exception catching, before PHP 8.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.union>`__
 
-See also https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php
+See also `What are union types and how do you use them in PHP?  <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Alias Types <alias-types>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Literal Types <literal-types>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Type System <typehint>`
 

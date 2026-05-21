@@ -24,4 +24,4 @@ Marketplace
 
 A marketplace usually means a platform where developers can buy, sell, or distribute PHP or framework related products or services. These products are typically code packages, themes, plugins, scripts, APIs, or SaaS integrations that other developers or businesses can use in their PHP projects.
 
-See also https://symfony.com/blog/introducing-the-symfony-marketplace
+See also ` Introducing the Symfony Marketplace <https://symfony.com/blog/introducing-the-symfony-marketplace>`_.

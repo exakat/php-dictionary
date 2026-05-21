@@ -36,6 +36,6 @@ Code golf is about creating the shortest code, in bytes, to solve a given proble
    ?>
 
 
-See also https://dsolstad.com/phpgolf/2018/05/01/phpGolf-tips-and-tricks.html
+See also `Tips and Tricks when Golfing in PHP <https://dsolstad.com/phpgolf/2018/05/01/phpGolf-tips-and-tricks.html>`_.
 
 Related : :ref:`Cast Operator <cast>`

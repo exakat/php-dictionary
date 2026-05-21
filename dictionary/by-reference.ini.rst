@@ -50,6 +50,6 @@ Returned value are passed back to the calling context with the same rule than fo
 
 `Documentation <https://www.php.net/manual/en/language.references.pass.php>`__
 
-See also https://www.elated.com/php-references/
+See also `PHP References: How They Work, and When to Use Them <https://www.elated.com/php-references/>`_.
 
 Related : :ref:`Passing By Value <by-value>`

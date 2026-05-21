@@ -65,6 +65,6 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 
 `Documentation <https://en.wikipedia.org/wiki/URL>`__
 
-See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_, `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
+See also `0 <`URL Functions <https://www.php.net/manual/en/ref.url.php>`_>`_ and `1 <`Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_>`_.
 
 Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`, :ref:`Query String <query-string>`, :ref:`Scheme <scheme>`, :ref:`URI Extension <uri-extension>`, :ref:`Universal Resource Identifier (URI) <uri>`

@@ -40,7 +40,7 @@ Void is only possible with methods, closures, functions and arrow functions. It 
 
 `Documentation <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`__
 
-See also `Type Hinting No Return(Void) <https://riptutorial.com/php/example/20542/type-hinting-no-return-void->`_
+See also `0 <`Type Hinting No Return(Void) <https://riptutorial.com/php/example/20542/type-hinting-no-return-void->`_>`_.
 
 Related : :ref:`Null <null>`
 

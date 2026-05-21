@@ -37,6 +37,6 @@ There are concatenative programming languages, and natural languages.
    ?>
 
 
-See also https://en.wikipedia.org/wiki/Concatenative_programming_language, https://inlpglossary.ca/concatenative-morphology/
+See also `Concatenative Programming Language <https://en.wikipedia.org/wiki/Concatenative_programming_language>`_ and `Concatenative Morphology <https://inlpglossary.ca/concatenative-morphology/>`_.
 
 Related : :ref:`Concatenation <dot>`

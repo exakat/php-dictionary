@@ -53,6 +53,6 @@ In the case of ``strpos()``, it may be replaced with ``str_contains()``, since P
    ?>
 
 
-See also https://medium.com/@jorisvdaalsvoort/the-hidden-pitfalls-why-empty-strpos-and-more-are-often-misunderstood-43800c88be33
+See also `The Hidden Pitfalls: Why empty(), strpos(), and More Are Often Misunderstood <https://medium.com/@jorisvdaalsvoort/the-hidden-pitfalls-why-empty-strpos-and-more-are-often-misunderstood-43800c88be33>`_.
 
 Related : :ref:`Bug <bug>`

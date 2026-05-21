@@ -38,7 +38,7 @@ Constant scalar expressions are used to initialize constants, and default values
 
 `Documentation <https://wiki.php.net/rfc/const_scalar_exprs>`__
 
-See also https://wiki.php.net/rfc/const_scalar_exprs
+See also `PHP RFC: Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exprs>`_.
 
 Related : :ref:`Constants <constant>`, :ref:`Parameter <parameter>`, :ref:`Scalar Types <scalar-type>`
 

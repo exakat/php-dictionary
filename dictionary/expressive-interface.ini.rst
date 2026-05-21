@@ -54,7 +54,7 @@ The notion of expressive interface is similar to the fluent interface.
    ?>
 
 
-See also https://en.wikipedia.org/wiki/Fluent_interface
+See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_.
 
 Related : :ref:`Fluent Interface <fluent-interface>`, :ref:`Self-documenting <self-documenting>`, :ref:`Interface <interface>`
 

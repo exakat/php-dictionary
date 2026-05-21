@@ -52,7 +52,7 @@ Used in a function signature, it collects all the values into one array.
 
 `Documentation <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`__
 
-See also https://dev.to/sharminshanta/variadic-function-in-php-49c1
+See also `Variadic Function in PHP <https://dev.to/sharminshanta/variadic-function-in-php-49c1>`_.
 
 Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Array Spread <array-spread>`, :ref:`Ellipsis <ellipsis>`, :ref:`Unpacking <unpacking>`, :ref:`Unpacking <unpack>`
 

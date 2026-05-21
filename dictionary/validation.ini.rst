@@ -43,7 +43,7 @@ Validation applies to simple values, such as strings or integer; they also apply
 
 `Documentation <https://www.php.net/manual/en/filter.examples.validation.php>`__
 
-See also https://www.geeksforgeeks.org/php-form-validation/
+See also `PHP Form Validation <https://www.geeksforgeeks.org/php-form-validation/>`_.
 
 Related : :ref:`Sanitation <sanitation>`
 

@@ -44,7 +44,7 @@ Non-complex code tends to:
 
 Code complexity applies to all programming languages, and is not specific to PHP.
 
-See also https://blog.codacy.com/code-complexity, https://jellyfish.co/library/code-complexity/
+See also `Code Complexity: An In-Depth Explanation and Metrics <https://blog.codacy.com/code-complexity>`_ and `What is Code Complexity? <https://jellyfish.co/library/code-complexity/>`_.
 
 Related : :ref:`Cognitive Complexity <cognitive-complexity>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`
 

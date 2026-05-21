@@ -43,6 +43,6 @@ Cloning is similar to creating another object of the same class, without requiri
 
 `Documentation <https://www.php.net/manual/en/language.oop5.cloning.php>`__
 
-See also https://linuxhint.com/cloning_objects_php/
+See also `How to clone an object in PHP <https://linuxhint.com/cloning_objects_php/>`_.
 
 Related : :ref:`Readonly <readonly>`, :ref:`Magic Methods <magic-method>`, :ref:`Deep Clone <deep-clone>`, :ref:`Shallow Clone <shallow-clone>`

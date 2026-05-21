@@ -62,6 +62,6 @@ Escape sequences should not be confused with escape characters, though they are 
 
 `Documentation <https://www.php.net/manual/en/regexp.reference.escape.php>`__
 
-See also https://dev.mysql.com/doc/refman/8.0/en/string-literals.html, https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20., https://en.wikipedia.org/wiki/INI_file.
+See also `String literals (MySQL) <https://dev.mysql.com/doc/refman/8.0/en/string-literals.html>`_, `Lexical Structure (PostgreSQL) <https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20.>`_ and `INI file <https://en.wikipedia.org/wiki/INI_file.>`_.
 
 Related : :ref:`Double Quotes Strings <double-quote>`

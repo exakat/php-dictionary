@@ -44,6 +44,6 @@ Both classes comes with the ``DateTimeInterface``, for typing purposes.
 
 `Documentation <https://www.php.net/manual/en/class.datetime.php>`__
 
-See also https://www.phparch.com/2022/10/the-php-datetime-class/, https://dev.to/xwero/dates-and-periods-in-php-46o1
+See also `The DateTime Class <https://www.phparch.com/2022/10/the-php-datetime-class/>`_ and `Dates and periods in PHP <https://dev.to/xwero/dates-and-periods-in-php-46o1>`_.
 
 Related : :ref:`Dates <date>`, :ref:`Calendar <calendar>`, :ref:`DateInterval <dateinterval>`, :ref:`Days Are Not 86400 Seconds <day-in-seconds>`, :ref:`Micro-second <micro-second>`

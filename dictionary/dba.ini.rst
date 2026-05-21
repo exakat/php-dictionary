@@ -50,6 +50,6 @@ The Database Abstraction Layer, or DBA, extension in PHP provides a unified and 
 
 `Documentation <https://www.php.net/manual/en/book.dba.php>`__
 
-See also https://reintech.io/blog/a-comprehensive-guide-to-php-dba-library-for-database-abstraction
+See also `A Comprehensive Guide to the PHP DBA Library for Database Abstraction <https://reintech.io/blog/a-comprehensive-guide-to-php-dba-library-for-database-abstraction>`_.
 
 Related : :ref:`Database <database>`

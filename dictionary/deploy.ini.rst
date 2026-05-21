@@ -26,7 +26,7 @@ Deployment
 
 Deployment refers to the process of making a web application or website available for use on a server or hosting environment. It involves transferring the necessary files and configuring the environment to run the PHP code.
 
-See also https://wikitech.wikimedia.org/wiki/How_to_deploy_code, https://buddy.works/guides/5-ways-to-deploy-php-applications, https://eric.mann.blog/why-i-built-a-kubernetes-deployment-tool/
+See also `How to deploy code <https://wikitech.wikimedia.org/wiki/How_to_deploy_code>`_, `5 ways to deploy PHP applications <https://buddy.works/guides/5-ways-to-deploy-php-applications>`_ and `Why I built a Kubernetes deployment tool <https://eric.mann.blog/why-i-built-a-kubernetes-deployment-tool/>`_.
 
 Related : :ref:`Environment <environment>`, :ref:`Ship <ship>`
 

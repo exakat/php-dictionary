@@ -28,7 +28,7 @@ It was originally developed by Google and is now an open-source project under th
 
 `Documentation <https://grpc.io/docs/languages/php/quickstart/>`__
 
-See also https://grpc.io/docs/languages/php/quickstart/, https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df, https://www.youtube.com/watch?v=pBASqUbZgkY
+See also `gRPC quickstart <https://grpc.io/docs/languages/php/quickstart/>`_, `gRPC Fundamental and Concept <https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df>`_ and `9 APIs explained <https://www.youtube.com/watch?v=pBASqUbZgkY>`_.
 
 Related : :ref:`REST API <rest-api>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`WebRTC <webrtc>`, :ref:`Websocket <websocket>`
 

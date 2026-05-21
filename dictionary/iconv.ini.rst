@@ -40,7 +40,7 @@ The ``iconv`` extension allows to convert strings from one character encoding to
 
 `Documentation <https://www.php.net/manual/en/book.iconv.php>`__
 
-See also http://www.gnu.org/software/libiconv/, https://topic.alibabacloud.com/a/how-to-use-font-colorrediconvfont-function-in-php_4_86_30934271.html
+See also `libiconv <http://www.gnu.org/software/libiconv/>`_ and `How to use Iconv function in PHP <https://topic.alibabacloud.com/a/how-to-use-font-colorrediconvfont-function-in-php_4_86_30934271.html>`_.
 
 Related : :ref:`Multibyte String <mbstring>`
 

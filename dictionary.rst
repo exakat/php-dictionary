@@ -21,7 +21,6 @@ PHP Dictionary
 * .
    * :ref:`. Directory <dot-directory>`
    * :ref:`. File <dot-file>`
-   * :ref:`.. Directory <dot-dot-directory>`
    * :ref:`.env File <env-file>`
    * :ref:`.htaccess <htaccess>`
 * @
@@ -108,6 +107,7 @@ PHP Dictionary
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
    * :ref:`Artifact <artifact>`
+   * :ref:`Artificial Intelligence (AI) <ai>`
    * :ref:`As <as>`
    * :ref:`Aspect Oriented Programming <aspect-programming>`
    * :ref:`Assertions <assertion>`
@@ -193,6 +193,7 @@ PHP Dictionary
    * :ref:`Browser <browser>`
    * :ref:`Bucket <bucket>`
    * :ref:`Bug <bug>`
+   * :ref:`Business Logic <business-logic>`
    * :ref:`Byte <byte>`
    * :ref:`basename <basename>`
    * :ref:`browscap <browscap>`
@@ -424,11 +425,13 @@ PHP Dictionary
    * :ref:`DomainException <domainexception>`
    * :ref:`Don't Repeat Yourself (DRY) <dry>`
    * :ref:`Dot Notation <dot-notation>`
+   * :ref:`Dot-dot Directory .. <dot-dot-directory>`
    * :ref:`Double <double>`
    * :ref:`Double Arrow <double-arrow>`
    * :ref:`Double Check <double-check>`
    * :ref:`Double Quotes Strings <double-quote>`
    * :ref:`Downtime <downtime>`
+   * :ref:`Drop-in <drop-in>`
    * :ref:`Duck Typing <ducktyping>`
    * :ref:`Dynamic <dynamic>`
    * :ref:`Dynamic Call <dynamic-call>`
@@ -490,6 +493,7 @@ PHP Dictionary
    * :ref:`Exception Handler <exception-handler>`
    * :ref:`Execution Path <execution-path>`
    * :ref:`Execution Time <execution-time>`
+   * :ref:`Existence <existence>`
    * :ref:`Exit <exit>`
    * :ref:`Explicit <explicit>`
    * :ref:`Explicit Boolean Comparison <explicit-boolean-comparison>`
@@ -616,10 +620,13 @@ PHP Dictionary
    * :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
    * :ref:`HyperText Markup Language (HTML) <html>`
    * :ref:`hash() Function <hash-function>`
+   * :ref:`hash_equals() <hash_equals>`
    * :ref:`hg <hg>`
    * :ref:`hrtime() <hrtime>`
+   * :ref:`html_entity_decode <html_entity_decode>`
    * :ref:`html_errors <html_errors>`
    * :ref:`htmlentities() <htmlentities>`
+   * :ref:`htmlspecialchars <htmlspecialchars>`
    * :ref:`http:// <wrapper-http>`
    * :ref:`http_build_query() <http_build_query>`
    * :ref:`hypot() <hypot>`
@@ -726,9 +733,11 @@ PHP Dictionary
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
    * :ref:`Lexical Variable <lexical>`
+   * :ref:`Library <library>`
    * :ref:`Library Loading <library-loading>`
    * :ref:`Licence <licence>`
    * :ref:`Lifecycle <lifecycle>`
+   * :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`
    * :ref:`Line Feed <line-feed>`
    * :ref:`Lint, Won't Execute <lint-wont-execute>`
    * :ref:`Linting <linting>`
@@ -801,6 +810,7 @@ PHP Dictionary
    * :ref:`Modulo <modulo>`
    * :ref:`Monitoring <monitoring>`
    * :ref:`Monolith <monolith>`
+   * :ref:`Monomorphization <monomorphization>`
    * :ref:`Multi-byte <multi-byte>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
@@ -833,6 +843,7 @@ PHP Dictionary
    * :ref:`Nested Attributes <nested-attribute>`
    * :ref:`Nesting <nesting>`
    * :ref:`Network <network>`
+   * :ref:`Neural Network <neural-network>`
    * :ref:`Neutral Element <neutral-element>`
    * :ref:`Never Type <never>`
    * :ref:`New In Initializers <new-in-initializer>`
@@ -968,6 +979,7 @@ PHP Dictionary
    * :ref:`Persistence <persistence>`
    * :ref:`Phar <phar>`
    * :ref:`PharException <pharexception>`
+   * :ref:`Phptoken <phptoken>`
    * :ref:`Pipe Operator <pipe>`
    * :ref:`Pipeline <pipeline>`
    * :ref:`Plain Old PHP Object (POPO) <popo>`
@@ -1247,9 +1259,12 @@ PHP Dictionary
    * :ref:`sleep <sleep>`
    * :ref:`sprintf <sprintf>`
    * :ref:`sqrt() <sqrt>`
+   * :ref:`sscanf() <sscanf>`
    * :ref:`static <static>`
    * :ref:`stdclass <stdclass>`
    * :ref:`str_contains() <str_contains>`
+   * :ref:`str_ends_with() <str_ends_with>`
+   * :ref:`str_starts_with() <str_starts_with>`
    * :ref:`strict_types <strict_types>`
    * :ref:`strpos <strpos>`
    * :ref:`subtype <subtype>`

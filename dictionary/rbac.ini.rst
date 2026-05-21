@@ -28,7 +28,7 @@ Alternatives to RBAC include Attribute Based Access Control for granular, rule-b
 
 `Documentation <https://en.wikipedia.org/wiki/Role-based_access_control>`__
 
-See also https://medium.com/@wwwebadvisor/implementing-role-based-access-control-rbac-in-php-85c0ea7bc86b
+See also `Implementing Role-Based Access Control (RBAC) in PHP <https://medium.com/@wwwebadvisor/implementing-role-based-access-control-rbac-in-php-85c0ea7bc86b>`_.
 
 Related : :ref:`Permission <permission>`, 
 

@@ -39,4 +39,4 @@ In PHP's strings and HEREDOC, the escape character is the backslash : \.
 
 `Documentation <https://www.php.net/manual/en/regexp.reference.escape.php>`__
 
-See also https://dev.mysql.com/doc/refman/8.0/en/string-literals.html
+See also `String literals (MySQL) <https://dev.mysql.com/doc/refman/8.0/en/string-literals.html>`_.

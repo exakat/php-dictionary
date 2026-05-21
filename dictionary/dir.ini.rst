@@ -47,6 +47,6 @@ There is a magic constant called ``__DIR__``, which holds the current directory 
 
 `Documentation <https://en.wikipedia.org/wiki/Computer_file>`__
 
-See also https://www.php.net/manual/en/book.filesystem.php
+See also `File system <https://www.php.net/manual/en/book.filesystem.php>`_.
 
 Related : :ref:`File <file>`

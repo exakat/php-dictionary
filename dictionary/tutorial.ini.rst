@@ -29,6 +29,6 @@ A tutorial is a step-by-step instructional guide designed to teach a specific sk
 
 `Documentation <https://en.wikipedia.org/wiki/Tutorial>`__
 
-See also https://www.phptutorial.net/, https://www.learn-php.org/
+See also `phptutorial <https://www.phptutorial.net/>`_ and `learn PHP <https://www.learn-php.org/>`_.
 
 Related : :ref:`Documentation <documentation>`

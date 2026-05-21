@@ -52,6 +52,6 @@ The second parameter, ``flags``, can be used to modify the comparison behavior:
 
 `Documentation <https://www.php.net/manual/en/function.array-unique.php>`__
 
-See also https://reintech.io/blog/understanding-implementing-php-array-unique-function
+See also `Understanding and Implementing PHP's `array_unique()` Function <https://reintech.io/blog/understanding-implementing-php-array-unique-function>`_.
 
 Related : :ref:`array_keys() <array_keys>`

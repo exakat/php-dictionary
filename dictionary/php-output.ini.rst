@@ -37,6 +37,6 @@ php://output
 
 `Documentation <https://www.php.net/manual/en/wrappers.php.php>`__
 
-See also https://medium.com/@eric.morand/php-output-buffering-for-dummies-fad9624554b4
+See also `PHP Output Buffering for dummies <https://medium.com/@eric.morand/php-output-buffering-for-dummies-fad9624554b4>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Stream <stream>`, :ref:`Echo <echo>`, :ref:`Print <print>`, :ref:`file_put_contents() <file_put_contents>`

@@ -43,6 +43,6 @@ PHP uses this technique for arrays and strings, unless they are passed by refere
 
 `Documentation <https://en.wikipedia.org/wiki/Copy-on-write>`__
 
-See also https://www.zend.com/resources/php-extensions/copy-on-write
+See also `Writing PHP Extensions: Copy on Write <https://www.zend.com/resources/php-extensions/copy-on-write>`_.
 
 Related : :ref:`Internals <internals>`

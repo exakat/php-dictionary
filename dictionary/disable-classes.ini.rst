@@ -28,6 +28,6 @@ Once disabled, the classes may be created again, via an extension or in the cust
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-classes>`__
 
-See also https://wiki.php.net/rfc/remove_disable_classes
+See also `PHP RFC: Remove disable_classes INI setting <https://wiki.php.net/rfc/remove_disable_classes>`_.
 
-Related : :ref:`Disable Functions <disable-functions>`, :ref:`php.ini <php.ini>`
+Related : :ref:`Disable Functions <disable-functions>`, :ref:`php\.ini <php.ini>`

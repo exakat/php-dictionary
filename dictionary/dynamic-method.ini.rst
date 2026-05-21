@@ -58,6 +58,6 @@ PHP calls this overloading.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.overloading.php>`__
 
-See also https://medium.com/@erlandmuchasaj/php-dynamic-method-calling-3c5dfbe816a2
+See also `PHP: Dynamic method calling <https://medium.com/@erlandmuchasaj/php-dynamic-method-calling-3c5dfbe816a2>`_.
 
 Related : :ref:`Dynamic <dynamic>`

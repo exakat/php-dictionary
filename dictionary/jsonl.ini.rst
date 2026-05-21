@@ -56,6 +56,6 @@ It is ideal for storing structured data, large datasets, and logging, as it allo
 
 `Documentation <https://github.com/indykoning/php-jsonl>`__
 
-See also https://jsonlines.org/
+See also `JSON Lines <https://jsonlines.org/>`_.
 
 Related : :ref:`json_decode() <json_decode>`, :ref:`JSON Lines (JSONC) <jsonc>`, :ref:`JavaScript Object Notation (JSON) <json>`

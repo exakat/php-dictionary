@@ -47,6 +47,6 @@ They are close to the arrow-functions. They are also created with the ``...`` op
 
 `Documentation <https://www.php.net/manual/en/functions.anonymous.php>`__
 
-See also https://wiki.php.net/rfc/closure-optimizations
+See also `Closure Optimisation (8.6) <https://wiki.php.net/rfc/closure-optimizations>`_.
 
 Related : :ref:`static <static>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Anonymous Function <anonymous-function>`, :ref:`First Class Callable <first-class-callable>`, :ref:`Callables <callable>`, :ref:`Callbacks <callback>`, :ref:`Anonymous Class <anonymous-class>`, :ref:`Closure Binding <closure-binding>`, :ref:`Functions <function>`, :ref:`Return <return>`, :ref:`Sort <sort>`, :ref:`Use <use>`, :ref:`Callable Arrays <array-callable>`, :ref:`Array Callback <array-callback>`, :ref:`Bind <bind>`, :ref:`Inherited Variable <inherited-variable>`, :ref:`Closure Class <closure-class>`

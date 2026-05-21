@@ -66,6 +66,6 @@ There is a penalty cost to use the fallback mechanism, as PHP has to search for 
 
 `Documentation <https://www.php.net/manual/en/language.namespaces.fallback.php>`__
 
-See also http://semantic-portal.net/php-language-reference-namespaces-global-function
+See also `Using namespaces: fallback to global function/constant <http://semantic-portal.net/php-language-reference-namespaces-global-function>`_.
 
 Related : :ref:`global Scope <global>`, :ref:`Functions <function>`, :ref:`Fallback <fallback>`

@@ -24,6 +24,6 @@ Sandbox
 
 An isolated environment where code can be run or tested, without affecting the real system. Sandboxes are very useful to check PHP feature across several versions.
 
-See also https://www.3v4l.org/, https://onlinephp.io/, https://php-play.dev/, https://www.einenlum.com/articles/how-to-use-sandboxed-claude-with-php/
+See also `3v4l.org <https://www.3v4l.org/>`_, `onlinephp.io <https://onlinephp.io/>`_, `PHP Playground <https://php-play.dev/>`_ and `extend class PHP <https://www.einenlum.com/articles/how-to-use-sandboxed-claude-with-php/>`_.
 
 Related : :ref:`Parser <parser>`

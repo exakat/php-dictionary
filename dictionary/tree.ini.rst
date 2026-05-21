@@ -29,7 +29,7 @@ PHP has no native tree.
 
 `Documentation <https://en.wikipedia.org/wiki/Tree_(data_structure)>`__
 
-See also https://doeken.org/blog/tree-traversal-in-php
+See also `Trees and Tree Traversal in PHP <https://doeken.org/blog/tree-traversal-in-php>`_.
 
 Related : :ref:`Array <array>`, :ref:`List <list>`
 

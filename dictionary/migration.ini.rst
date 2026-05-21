@@ -32,4 +32,4 @@ Migration may also be called upgrades.
 
 `Documentation <https://en.wikipedia.org/wiki/Data_migration>`__
 
-See also https://laravel.com/docs/9.x/migrations, https://www.php.net/manual/en/migration81.php
+See also `Database: Migrations <https://laravel.com/docs/9.x/migrations>`_ and `Migrating from PHP 8.0.x to PHP 8.1.x <https://www.php.net/manual/en/migration81.php>`_.

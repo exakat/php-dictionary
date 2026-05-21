@@ -36,7 +36,7 @@ PHP does not support a notion of ``async``. The closest feature is called ``fibe
    ?>
 
 
-See also https://github.com/true-async
+See also `TrueAsync <https://github.com/true-async>`_.
 
 Related : :ref:`Fibers <fiber>`, :ref:`Generator <generator>`
 

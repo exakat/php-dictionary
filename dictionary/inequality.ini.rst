@@ -41,6 +41,6 @@ Unlike the equality operators, they do not have a strict version, which takes in
 
 `Documentation <https://www.php.net/manual/en/language.operators.comparison.php>`__
 
-See also https://dev.to/zenulabidin/php-hack-testing-for-inequality-in-switch-statements-253d
+See also `PHP hack: Testing for inequality in switch statements <https://dev.to/zenulabidin/php-hack-testing-for-inequality-in-switch-statements-253d>`_.
 
 Related : :ref:`Equal Operator <equal>`

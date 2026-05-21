@@ -66,4 +66,4 @@ Here are some of the most common HTTP status codes and their general meanings:
     504 Gateway Timeout: The server, while acting as a gateway or proxy, did not receive a timely response from an upstream server.
     505 HTTP Version Not Supported: The server does not support the HTTP version used in the request.
 
-See also https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+See also `HTTP response status codes <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_.

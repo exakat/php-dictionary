@@ -51,6 +51,6 @@ Encoding is also called a character set.
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties>`__
 
-See also https://medium.com/canopas/php-useful-encoding-and-decoding-functions-you-need-to-know-210e523a065f, https://www.honeybadger.io/blog/php-character-encoding-unicode-utf8-ascii/
+See also `Useful Encoding and decoding Functions You Need to Know <https://medium.com/canopas/php-useful-encoding-and-decoding-functions-you-need-to-know-210e523a065f>`_ and `Character Encoding for PHP Developers: Unicode, UTF-8 and ASCII  <https://www.honeybadger.io/blog/php-character-encoding-unicode-utf8-ascii/>`_.
 
 Related : :ref:`Multibyte String <mbstring>`, :ref:`Iconv <iconv>`, :ref:`Internationalization Functions <intl>`, :ref:`Character <character>`

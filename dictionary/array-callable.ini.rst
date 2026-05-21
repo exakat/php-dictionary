@@ -49,6 +49,6 @@ With such a configuration, it is possible to use that array as a callback: eithe
 
 `Documentation <https://www.php.net/manual/en/language.types.callable.php>`__
 
-See also https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/
+See also `The Wonderful World of Callbacks <https://markbakeruk.net/2021/12/22/the-wonderful-world-of-callbacks/>`_.
 
 Related : :ref:`Callables <callable>`, :ref:`Closure <closure>`, :ref:`one <one>`, :ref:`zero <zero>`, :ref:`Arrow Functions <arrow-function>`

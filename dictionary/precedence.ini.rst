@@ -42,6 +42,6 @@ Precedence offers some reading surprises to human readers. For example, ``! $b i
 
 `Documentation <https://www.php.net/manual/en/language.operators.precedence.php>`__
 
-See also https://wpshout.com/php-logic-operators/
+See also `Understanding PHP Operators of Logic, or || and && and ! a lot more <https://wpshout.com/php-logic-operators/>`_.
 
 Related : :ref:`Operators <operator>`

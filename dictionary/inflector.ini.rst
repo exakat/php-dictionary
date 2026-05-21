@@ -37,7 +37,7 @@ An inflector processes strings to adapt them for various situations, such as sin
    ?>
 
 
-See also https://www.doctrine-project.org/projects/inflector.html
+See also `doctrine inflector <https://www.doctrine-project.org/projects/inflector.html>`_.
 
 Related : :ref:`Internationalization <localisation>`
 

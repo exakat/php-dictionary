@@ -32,4 +32,4 @@ It is recommended to set this value as low as possible, and optimize the code to
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.max-execution-time>`__
 
-See also https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time, https://tideways.com/profiler/blog/what-is-the-best-value-for-max-execution-time-in-php
+See also `PHP max_execution_time Guide <https://www.a2hosting.com/kb/developer-corner/php/using-php.ini-directives/php-maximum-execution-time>`_ and `What is the best value for max_execution_time in PHP? <https://tideways.com/profiler/blog/what-is-the-best-value-for-max-execution-time-in-php>`_.

@@ -46,6 +46,6 @@ No exception is raised for extra parameters, as those may still be processed by 
 
 `Documentation <https://www.php.net/manual/en/class.argumentcounterror.php>`__
 
-See also https://www.bestwebframeworks.com/tutorials/php/153/solve-php-uncaught-argumentcounterror-too-few-arguments-to-function/
+See also `Tutorial: Solve PHP uncaught ArgumentCountError: Too few arguments to function <https://www.bestwebframeworks.com/tutorials/php/153/solve-php-uncaught-argumentcounterror-too-few-arguments-to-function/>`_.
 
 Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`

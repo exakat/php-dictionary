@@ -51,6 +51,6 @@ PHP may translate from and to Unicode to other character sets with extensions su
 
 `Documentation <https://home.unicode.org/>`__
 
-See also https://mojoauth.com/escaping/unicode-escaping-in-php
+See also ` Unicode Escaping in PHP <https://mojoauth.com/escaping/unicode-escaping-in-php>`_.
 
 Related : :ref:`SimpleXML <simplexml>`, :ref:`DOM <domxml>`, :ref:`XMLwriter <xmlwriter>`, :ref:`XMLReader <xmlreader>`, :ref:`Codepoint <codepoint>`, :ref:`Emoji <emoji>`, :ref:`Latin1 <latin1>`, :ref:`Multi-byte <multi-byte>`, :ref:`declare() <declare>`

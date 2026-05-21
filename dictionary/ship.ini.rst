@@ -31,6 +31,6 @@ To ship is the ultimate goal of any piece of software: everything else is a toy 
 
 Here, to ship is not related to sending a package by postal service.
 
-See also https://ben.balter.com/2017/05/23/seven-ways-to-consistently-ship-great-features/
+See also `Seven ways to consistently ship great features <https://ben.balter.com/2017/05/23/seven-ways-to-consistently-ship-great-features/>`_.
 
 Related : :ref:`Deployment <deploy>`

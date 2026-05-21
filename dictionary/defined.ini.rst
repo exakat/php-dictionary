@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"defined()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"``defined()`` is a PHP function, that checks if a constant or a class constant is defined in the current context of execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/defined().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"defined()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 14:17:50 +0000","dateModified":"Wed, 20 May 2026 14:17:50 +0000","description":"``defined()`` is a PHP function, that checks if a constant or a class constant is defined in the current context of execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/defined().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 defined()
@@ -31,6 +31,7 @@ defined()
 .. code-block:: php
    
    <?php
+   
        var_dump(defined('UNKNOWN'));         // false
        var_dump(defined('Not a constant'));  // false
        var_dump(defined('E_ALL'));           // true
@@ -48,7 +49,10 @@ defined()
        // do not confuse the constant and its value
        const F = 'E';
        var_dump(defined(F));                  // false
+   
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`__
+
+Related : :ref:`Class Constant Syntax <class-constant-syntax>`, :ref:`Const <const>`, :ref:`define() <define>`, :ref:`Existence <existence>`

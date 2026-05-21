@@ -33,6 +33,6 @@ As such, PHP itself has a lifecycle, with the regular release of a new version e
 In PHP, lifecycle also refers to the execution cycle or request lifecycle, from starting the PHP engine, executing the code and terminating.
 
 
-See also https://www.phpinternalsbook.com/php7/extensions_design/php_lifecycle.html, https://www.zend.com/blog/php-release-cycle-changes
+See also `Learning the PHP lifecycle <https://www.phpinternalsbook.com/php7/extensions_design/php_lifecycle.html>`_ and `PHP Community Support Lifecycle Changes: What Do They Mean for Your Team? <https://www.zend.com/blog/php-release-cycle-changes>`_.
 
 Related : :ref:`Software Development Life Cycle (SDLC) <sdlc>`, 

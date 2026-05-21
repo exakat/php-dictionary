@@ -42,6 +42,6 @@ PHP also has a concept of numeric strings, which are strings that hold numbers. 
 
 `Documentation <https://www.php.net/manual/en/language.types.php>`__
 
-See also https://www.codeguage.com/v1/courses/php/numbers-basics, https://www.pixemweb.com/php/php-numbers/, https://medium.com/@philippebeck/exploring-number-manipulation-in-php-e51c85b44630
+See also `PHP Numbers Basics <https://www.codeguage.com/v1/courses/php/numbers-basics>`_, `PHP Numbers Explained <https://www.pixemweb.com/php/php-numbers/>`_ and `Exploring Number Manipulation in PHP <https://medium.com/@philippebeck/exploring-number-manipulation-in-php-e51c85b44630>`_.
 
 Related : :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Numeric String <numeric-string>`, :ref:`Cast Operator <cast>`
