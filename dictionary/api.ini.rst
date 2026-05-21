@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Programming Interface (API)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:26:30 +0000","dateModified":"Thu, 16 Apr 2026 05:26:30 +0000","description":"An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Programming Interface (API).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Programming Interface (API)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 09:12:10 +0000","dateModified":"Thu, 21 May 2026 09:12:10 +0000","description":"An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Programming Interface (API).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Application Programming Interface (API)
@@ -28,8 +28,34 @@ There are several API protocols: ``REST``, ``RPC``, ``gRPC``, ``GraphQL``, ``SOA
 
 They are sometimes supported directly by PHP, with extensions, or via components. There are usually a client version, used to connect to a remote API, and a server version, to host a service based on this protocol.
 
+.. code-block:: php
+   
+   <?php
+   
+   // Consuming a REST API with cURL
+   $ch = curl_init('https://api.example.com/users/1');
+   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+   curl_setopt($ch, CURLOPT_HTTPHEADER, [
+       'Authorization: Bearer your-api-token',
+       'Accept: application/json',
+   ]);
+   
+   $response = curl_exec($ch);
+   $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+   curl_close($ch);
+   
+   if ($statusCode === 200) {
+       $data = json_decode($response, true);
+       echo $data['name'];
+   }
+   
+   ?>
+
+
 `Documentation <https://en.wikipedia.org/wiki/API>`__
 
-Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`
+See also `What is an API? (Red Hat) <https://www.redhat.com/en/topics/api/what-is-an-api>`_, `PHP: HTTP context options <https://www.php.net/manual/en/context.http.php>`_ and `PHP: cURL <https://www.php.net/manual/en/book.curl.php>`_.
+
+Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Library <library>`, :ref:`Swagger <swagger>`, :ref:`WebRTC <webrtc>`, :ref:`Wrapper Pattern <wrapper-pattern>`
 
 Related packages : `webonyx/graphql-php <https://packagist.org/packages/webonyx/graphql-php>`_, `nuwave/lighthouse <https://packagist.org/packages/nuwave/lighthouse>`_

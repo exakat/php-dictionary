@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The ``Error`` class is a base class for all internal PHP error exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 08:23:08 +0000","dateModified":"Thu, 21 May 2026 08:23:08 +0000","description":"The ``Error`` class is a base class for all internal PHP error exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Error
@@ -39,17 +39,17 @@ It's important to note that these errors are only thrown by internal PHP errors.
    
    <?php
    
-   try {
-       eval('echo Hello, World!'); // Missing semicolon generates a ParseError
-   } catch (ParseError $e) {
-       echo 'Caught ParseError: ' . $e->getMessage();
-   }
+       try {
+           eval('echo Hello, World!'); // Missing semicolon generates a ParseError
+       } catch (ParseError $e) {
+           echo 'Caught ParseError: ' . $e->getMessage();
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-See also `Error <https://www.php.net/manual/en/class.error.php>`_ and `PHP Types of Errors <https://www.geeksforgeeks.org/php/php-types-of-errors/>`_.
+See also `The Error Class <https://www.php.net/manual/en/class.error.php>`_ and `PHP Types of Errors <https://www.geeksforgeeks.org/php/php-types-of-errors/>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Throwable <throwable>`, :ref:`Traversable <traversable>`, :ref:`UnhandledMatchError <unhandledmatcherror>`

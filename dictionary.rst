@@ -81,6 +81,7 @@ PHP Dictionary
    * :ref:`Anonymous Class <anonymous-class>`
    * :ref:`Anonymous Constant <anonymous-constant>`
    * :ref:`Anonymous Function <anonymous-function>`
+   * :ref:`Application <application>`
    * :ref:`Application Performance Management (APM) <apm>`
    * :ref:`Application Programming Interface (API) <api>`
    * :ref:`Application Server <app-server>`
@@ -633,6 +634,7 @@ PHP Dictionary
 * I
    * :ref:`INF <inf>`
    * :ref:`INI <ini>`
+   * :ref:`IaaS <iaas>`
    * :ref:`Iconv <iconv>`
    * :ref:`Idempotent <idempotent>`
    * :ref:`Identical Operator <identical>`
@@ -908,6 +910,7 @@ PHP Dictionary
    * :ref:`Operators <operator>`
    * :ref:`Optimisation <optimisation>`
    * :ref:`Optional Parameter <optional-parameter>`
+   * :ref:`Order Of Execution <order-of-execution>`
    * :ref:`OutOfRangeException <outofrangeexception>`
    * :ref:`Outgoing Data <outgoing-data>`
    * :ref:`Over-engineer <overengineer>`
@@ -951,6 +954,7 @@ PHP Dictionary
    * :ref:`PHP_INT_MIN <php_int_min>`
    * :ref:`PHPdoc <phpdoc>`
    * :ref:`PHPunit <phpunit>`
+   * :ref:`PaaS <paas>`
    * :ref:`Packagist <packagist>`
    * :ref:`Pagination <pagination>`
    * :ref:`Paradigm <paradigm>`
@@ -987,6 +991,7 @@ PHP Dictionary
    * :ref:`Plugin <plugin>`
    * :ref:`Plus + <plus>`
    * :ref:`Pointer <pointer>`
+   * :ref:`Polling <polling>`
    * :ref:`Polyfill <polyfill>`
    * :ref:`Polymorphism <polymorphism>`
    * :ref:`Port <port>`
@@ -1021,6 +1026,7 @@ PHP Dictionary
    * :ref:`Property Type Declaration <type-declaration-property>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
+   * :ref:`Proxy <proxy>`
    * :ref:`Pseudo-type <pseudo-type>`
    * :ref:`Pseudo-variable <pseudo-variable>`
    * :ref:`Public Visibility <public>`
@@ -1136,6 +1142,7 @@ PHP Dictionary
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
    * :ref:`Secret <secret>`
    * :ref:`Secure Hash Algorithm (SHA) <sha>`
+   * :ref:`Secure Shell (SSH) <ssh>`
    * :ref:`Secure Sockets Layer (SSL) <ssl>`
    * :ref:`Security <security>`
    * :ref:`Segmentation Fault <segmentation-fault>`
@@ -1241,6 +1248,7 @@ PHP Dictionary
    * :ref:`Supply Chain <supply-chain>`
    * :ref:`Supply Chain Attack <supply-chain-attack>`
    * :ref:`Support Vector Machine (SVM) <svm>`
+   * :ref:`Swagger <swagger>`
    * :ref:`Swap <swap>`
    * :ref:`Switch <switch>`
    * :ref:`Switch Case <switch-case>`
@@ -1271,6 +1279,7 @@ PHP Dictionary
    * :ref:`supertype <supertype>`
 * T
    * :ref:`TCP <tcp>`
+   * :ref:`TODO <todo>`
    * :ref:`Tabulation <tabulation>`
    * :ref:`Taint Analysis <taint>`
    * :ref:`Tarpit <tarpit>`

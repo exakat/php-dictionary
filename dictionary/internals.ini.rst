@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Internals","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Apr 2026 09:48:31 +0000","dateModified":"Wed, 22 Apr 2026 09:48:31 +0000","description":"In PHP, internals refers to everything under the hood of the language itself, not the code written with PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Internals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Internals","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 08:23:46 +0000","dateModified":"Thu, 21 May 2026 08:23:46 +0000","description":"In PHP, internals refers to everything under the hood of the language itself, not the code written with PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Internals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Internals
@@ -24,7 +24,7 @@ Internals
 
 In PHP, internals refers to everything under the hood of the language itself, not the code written with PHP.
 
-Internals are the features written in C, C++ language and compiled with the engine; the Zend engine itself. It also refers to the contributors working on the core of PHP, as they are member of the `internal mailing list'.
+Internals are the features written in C, C++ language and compiled with the engine; the Zend engine itself. It also refers to the contributors working on the core of PHP, as they are member of the ``internal mailing list``.
 
 See also `PHP Internal Books <https://github.com/phpinternalsbook/PHP-Internals-Book>`_.
 

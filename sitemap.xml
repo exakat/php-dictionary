@@ -217,6 +217,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/application.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/arbitrary-argument.ini.html</loc>
  </url>
  <url>
@@ -1837,6 +1840,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hypot.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/iaas.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/iconv.ini.html</loc>
  </url>
  <url>
@@ -2668,6 +2674,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/optional-parameter.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/order-of-execution.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/orm.ini.html</loc>
  </url>
  <url>
@@ -2699,6 +2708,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/owasp.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/paas.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pack.ini.html</loc>
@@ -2917,6 +2929,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pointer.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/polling.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/polyfill.ini.html</loc>
  </url>
  <url>
@@ -3029,6 +3044,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/protocol.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/proxy.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/pseudo-type.ini.html</loc>
@@ -3538,6 +3556,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sse.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ssh.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html</loc>
  </url>
  <url>
@@ -3682,6 +3703,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/svn.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/swagger.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/swap.ini.html</loc>
  </url>
  <url>
@@ -3800,6 +3824,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/toctou.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/todo.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/token.ini.html</loc>

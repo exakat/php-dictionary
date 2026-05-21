@@ -285,6 +285,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Noop <noop>`
 + :ref:`Operator Overloading <operator-overloading>`
 + :ref:`Optimisation <optimisation>`
++ :ref:`Order Of Execution <order-of-execution>`
 + :ref:`Outgoing Data <outgoing-data>`
 + :ref:`Over-engineer <overengineer>`
 + :ref:`Overflow <overflow>`
@@ -300,6 +301,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Pipeline <pipeline>`
 + :ref:`Plain Text <plain-text>`
 + :ref:`Plugin <plugin>`
++ :ref:`Polling <polling>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Promise <promise>`
@@ -333,6 +335,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Stubs Files <stubs>`
 + :ref:`Sub (prefix) <sub>`
 + :ref:`Subnamespaces <subnamespace>`
++ :ref:`TODO <todo>`
 + :ref:`Taint Analysis <taint>`
 + :ref:`Template <template>`
 + :ref:`Test Pyramid <test-pyramid>`

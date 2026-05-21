@@ -77,6 +77,7 @@ Index
    dictionary/apm.ini
    dictionary/app-server.ini
    dictionary/append.ini
+   dictionary/application.ini
    dictionary/arbitrary-argument.ini
    dictionary/arcane.ini
    dictionary/architecture.ini
@@ -617,6 +618,7 @@ Index
    dictionary/https.ini
    dictionary/hydrate.ini
    dictionary/hypot.ini
+   dictionary/iaas.ini
    dictionary/iconv.ini
    dictionary/ide.ini
    dictionary/idempotent.ini
@@ -894,6 +896,7 @@ Index
    dictionary/operator.ini
    dictionary/optimisation.ini
    dictionary/optional-parameter.ini
+   dictionary/order-of-execution.ini
    dictionary/orm.ini
    dictionary/outgoing-data.ini
    dictionary/outofrangeexception.ini
@@ -905,6 +908,7 @@ Index
    dictionary/overriding.ini
    dictionary/overwrite.ini
    dictionary/owasp.ini
+   dictionary/paas.ini
    dictionary/pack.ini
    dictionary/packagist.ini
    dictionary/pagination.ini
@@ -977,6 +981,7 @@ Index
    dictionary/plugin.ini
    dictionary/plus.ini
    dictionary/pointer.ini
+   dictionary/polling.ini
    dictionary/polyfill.ini
    dictionary/polymorphism.ini
    dictionary/popo.ini
@@ -1015,6 +1020,7 @@ Index
    dictionary/property.ini
    dictionary/protected.ini
    dictionary/protocol.ini
+   dictionary/proxy.ini
    dictionary/pseudo-type.ini
    dictionary/pseudo-variable.ini
    dictionary/psr.ini
@@ -1184,6 +1190,7 @@ Index
    dictionary/ssa.ini
    dictionary/sscanf.ini
    dictionary/sse.ini
+   dictionary/ssh.ini
    dictionary/ssl.ini
    dictionary/sso.ini
    dictionary/stack.ini
@@ -1232,6 +1239,7 @@ Index
    dictionary/svm.ini
    dictionary/svmexception.ini
    dictionary/svn.ini
+   dictionary/swagger.ini
    dictionary/swap.ini
    dictionary/switch-case.ini
    dictionary/switch-default.ini
@@ -1272,6 +1280,7 @@ Index
    dictionary/timing-attack.ini
    dictionary/tls.ini
    dictionary/toctou.ini
+   dictionary/todo.ini
    dictionary/token.ini
    dictionary/tokenizer.ini
    dictionary/toml.ini

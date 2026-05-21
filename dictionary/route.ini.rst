@@ -48,6 +48,6 @@ Routes may be a few, for which a basic system such as a switch is sufficient, to
 
 See also `How to create a basic PHP router <https://www.educative.io/answers/how-to-create-a-basic-php-router>`_.
 
-Related : , :ref:`Documentation <documentation>`
+Related : :ref:`Swagger <swagger>`, :ref:`Documentation <documentation>`
 
 Related packages : `nikic/fast-route <https://packagist.org/packages/nikic/fast-route>`_, `symfony/routing <https://packagist.org/packages/symfony/routing>`_, `altorouter/altorouter <https://packagist.org/packages/altorouter/altorouter>`_

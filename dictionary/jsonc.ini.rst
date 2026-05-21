@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JSON Lines (JSONC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"JSONC (JSON with Comments) is a superset of JSON that extends its functionality by allowing single-line ``\/\/`` and multi-line ``\/* *\/`` comments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JSON Lines (JSONC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JSON Lines (JSONC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 08:24:08 +0000","dateModified":"Thu, 21 May 2026 08:24:08 +0000","description":"JSONC (JSON with Comments) is a superset of JSON that extends its functionality by allowing single-line ``\/\/`` and multi-line ``\/* *\/`` comments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JSON Lines (JSONC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 JSON Lines (JSONC)
@@ -57,6 +57,6 @@ Unlike standard JSON, which does not support comments, JSONC retains full compat
 
 `Documentation <https://github.com/aleron75/jsonc>`__
 
-See also `JSONC <https://jsonc.org/>`_.
+See also `JSONC homepage <https://jsonc.org/>`_.
 
 Related : :ref:`json_decode() <json_decode>`, :ref:`JSON Lines (JSONL) <jsonl>`, :ref:`JavaScript Object Notation (JSON) <json>`

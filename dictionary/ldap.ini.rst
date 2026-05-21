@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lightweight Directory Access Protocol (LDAP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 13:50:41 +0000","dateModified":"Wed, 20 May 2026 13:50:41 +0000","description":"LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol, IP network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lightweight Directory Access Protocol (LDAP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lightweight Directory Access Protocol (LDAP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 08:24:19 +0000","dateModified":"Thu, 21 May 2026 08:24:19 +0000","description":"LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol, IP network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lightweight Directory Access Protocol (LDAP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lightweight Directory Access Protocol (LDAP)
@@ -80,6 +80,6 @@ LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutr
 
 `Documentation <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>`__
 
-See also `LDAP <https://ldap.com/>`_.
+See also `LDAP site <https://ldap.com/>`_.
 
 Related : :ref:`Internet Protocol (IP) <ip>`, :ref:`Server <server>`, :ref:`Service <service>`

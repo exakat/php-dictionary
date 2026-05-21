@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"compact()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 07:43:37 +0000","dateModified":"Thu, 21 May 2026 07:43:37 +0000","description":"``compact()`` is a native PHP function, which creates an array containing variables and their values, from a list of variable names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compact().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"compact()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 08:47:30 +0000","dateModified":"Thu, 21 May 2026 08:47:30 +0000","description":"``compact()`` is a native PHP function, which creates an array containing variables and their values, from a list of variable names","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compact().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 compact()
@@ -41,6 +41,6 @@ It is the opposite of ``extract()``.
 
 `Documentation <https://www.php.net/manual/en/function.compact.php>`__
 
-See also ``compact()` function in PHP, and why it is problematic due to its magic behavior <https://gist.github.com/Ocramius/c56a8e8ff25a8e0bd96800c41edab02a>`_.
+See also ```compact()`` function in PHP, and why it is problematic due to its magic behavior <https://gist.github.com/Ocramius/c56a8e8ff25a8e0bd96800c41edab02a>`_.
 
 Related : :ref:`extract() <extract>`, :ref:`Variable Variables <variable-variable>`
