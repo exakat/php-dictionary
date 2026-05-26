@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Strpos() Syndrome","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 16:59:00 +0000","dateModified":"Fri, 08 May 2026 16:59:00 +0000","description":"The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Strpos() Syndrome.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Strpos() Syndrome","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:15:10 +0000","dateModified":"Tue, 26 May 2026 08:15:10 +0000","description":"The ``strpos()`` syndrome is a classic bug: ``strpos()`` searches for a string inside another string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Strpos() Syndrome.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Strpos() Syndrome
@@ -55,4 +55,4 @@ In the case of ``strpos()``, it may be replaced with ``str_contains()``, since P
 
 See also `The Hidden Pitfalls: Why empty(), strpos(), and More Are Often Misunderstood <https://medium.com/@jorisvdaalsvoort/the-hidden-pitfalls-why-empty-strpos-and-more-are-often-misunderstood-43800c88be33>`_.
 
-Related : :ref:`Bug <bug>`
+Related : :ref:`Bug <bug>`, :ref:`array_search <array_search>`, :ref:`json_decode() <json_decode>`, :ref:`Preg_match <preg_match>`, :ref:`strpos <strpos>`

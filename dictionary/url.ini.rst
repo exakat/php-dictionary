@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:43:39 +0000","dateModified":"Tue, 26 May 2026 08:43:39 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Universal Resource Locator (URL)
@@ -47,7 +47,7 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
    
    <?php
    
-   print_r(parse_url('https://www.php.net/'));
+       print_r(parse_url('https://www.php.net/'));
    
    /*
    Array
@@ -58,13 +58,13 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
    )
    */
    
-   // fetch the PHP home page
-   $html = file_get_contents('https://www.php.net/'); 
+       // fetch the PHP home page
+       $html = file_get_contents('https://www.php.net/'); 
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/URL>`__
 
-See also `0 <`URL Functions <https://www.php.net/manual/en/ref.url.php>`_>`_ and `1 <`Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_>`_.
+See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_ and `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_.
 
-Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`, :ref:`Query String <query-string>`, :ref:`Scheme <scheme>`, :ref:`URI Extension <uri-extension>`, :ref:`Universal Resource Identifier (URI) <uri>`
+Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`, :ref:`Query String <query-string>`, :ref:`Scheme <scheme>`, :ref:`URI Extension <uri-extension>`, :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Canonical <canonical>`, :ref:`Pound # <pound>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`URI Class <uri-class>`

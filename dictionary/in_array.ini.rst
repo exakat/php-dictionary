@@ -60,4 +60,4 @@ A surprising pitfall is misplaced parentheses, which can lead to valid but incor
 
 See also `A Case Of Misplaced Parenthesis <https://php-tips.readthedocs.io/en/latest/tips/misplaced_parenthesis.html>`_ and `When placing the parenthesis is ambiguous <https://3v4l.org/YN2FK>`_.
 
-Related : 
+Related : :ref:`array_search <array_search>`

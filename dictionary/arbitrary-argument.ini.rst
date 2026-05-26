@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arbitrary Number Of Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"PHP allows any number of arguments to be passed to a functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arbitrary Number Of Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Arbitrary Number Of Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 17:23:21 +0000","dateModified":"Thu, 21 May 2026 17:23:21 +0000","description":"PHP allows any number of arguments to be passed to a functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Arbitrary Number Of Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Arbitrary Number Of Argument
@@ -24,7 +24,7 @@ Arbitrary Number Of Argument
 
 PHP allows any number of arguments to be passed to a functioncall. In the function definition, receiving those arguments means managing an arbitrary number of parameters. 
 
-This is achieved with the variadic operator, or with functions such as func_get_args().
+This is achieved with the variadic operator, or with functions such as ``func_get_args()``.
 
 They are also called variable argument lists.
 
@@ -34,16 +34,16 @@ When the arguments are dynamic, aka they are collected at execution time, the op
    
    <?php
    
-   function foo(...$args) {
-       print "This function is called with ".count($args)." arguments\n";
-       print "This function is called with ".func_get_count()." arguments\n";
-       print "This function is called with ".count($func_get_args())." arguments\n";
-   } 
-   
-   $array = range(0, rand(5, 10)); // generates an array with 1 to 11 elements
-   
-   foo(...$array);
-   call_user_func_array('foo', $array);
+       function foo(...$args) {
+           print "This function is called with ".count($args)." arguments\n";
+           print "This function is called with ".func_get_count()." arguments\n";
+           print "This function is called with ".count($func_get_args())." arguments\n";
+       } 
+       
+       $array = range(0, rand(5, 10)); // generates an array with 1 to 11 elements
+       
+       foo(...$array);
+       call_user_func_array('foo', $array);
    
    ?>
 
@@ -52,4 +52,4 @@ When the arguments are dynamic, aka they are collected at execution time, the op
 
 See also `Variadic functions via ... <https://www.php.net/manual/en/migration56.new-features.php#migration56.new-features.variadics>`_.
 
-Related : :ref:`Variadic <variadic>`
+Related : :ref:`Variadic <variadic>`, :ref:`func_get_args() <func_get_args>`

@@ -42,4 +42,4 @@ Canonical URL are HTML ``<link>`` tags that help prevent duplicate content issue
    ?>
 
 
-Related : , :ref:`Cast Operator <cast>`, :ref:`Universal Resource Locator (URL) <url>`, , :ref:`PHP Native Function <php-function>`
+Related : :ref:`Habit <habit>`, :ref:`Cast Operator <cast>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`PHP Native Function <php-function>`

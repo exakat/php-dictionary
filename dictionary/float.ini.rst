@@ -2,30 +2,30 @@
 .. _decimal:
 .. meta::
 	:description:
-		Floating Point Numbers: Floating point numbers (also known as \floats\, \doubles\, or \real numbers\) can be specified using a decimal dot and a mantis.
+		Floating Point Numbers: Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantis.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Floating Point Numbers
-	:twitter:description: Floating Point Numbers: Floating point numbers (also known as \floats\, \doubles\, or \real numbers\) can be specified using a decimal dot and a mantis
+	:twitter:description: Floating Point Numbers: Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantis
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Floating Point Numbers
 	:og:type: article
-	:og:description: Floating point numbers (also known as \floats\, \doubles\, or \real numbers\) can be specified using a decimal dot and a mantis
+	:og:description: Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantis
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Floating Point Numbers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 10:15:49 +0000","dateModified":"Mon, 18 May 2026 10:15:49 +0000","description":"Floating point numbers (also known as \\floats\\, \\doubles\\, or \\real numbers\\) can be specified using a decimal dot and a mantis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Floating Point Numbers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Floating Point Numbers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 17:24:56 +0000","dateModified":"Thu, 21 May 2026 17:24:56 +0000","description":"Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Floating Point Numbers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Floating Point Numbers
 ----------------------
 
-Floating point numbers (also known as \floats\, \doubles\, or \real numbers\) can be specified using a decimal dot and a mantis.
+Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantis.
 
-They may also use a number separator ``_``.
+They may also use a number separator ``_``: it may be placed anywhere between two digits, to help make the number more readable.
 
 Floats used be called ``real``, though this was abandoned progressively, since PHP 7.0.
 
@@ -45,4 +45,4 @@ Floats used be called ``real``, though this was abandoned progressively, since P
 
 See also `Floating Dangers in PHP <https://medium.com/@dotcom.software/floating-dangers-in-php-c4a2220bd8dc>`_, `Floating Point Math <https://0.30000000000000004.com/>`_ and `Comparing float value in PHP <https://www.geeksforgeeks.org/comparing-float-value-in-php/>`_.
 
-Related : :ref:`Real Numbers <real>`, :ref:`Addition <addition>`, :ref:`Multiplication <multiplication>`, :ref:`Not A Number (NAN) <nan>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`abs() <abs>`, :ref:`PHP Natives <native-type>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`precision <precision>`, :ref:`Double <double>`, :ref:`Logarithm <logarithm>`, :ref:`Non-numeric <non-numeric>`, :ref:`Number <number>`
+Related : :ref:`Real Numbers <real>`, :ref:`Addition <addition>`, :ref:`Multiplication <multiplication>`, :ref:`Not A Number (NAN) <nan>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`abs() <abs>`, :ref:`PHP Natives <native-type>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`precision <precision>`, :ref:`Double <double>`, :ref:`Logarithm <logarithm>`, :ref:`Non-numeric <non-numeric>`, :ref:`Number <number>`, :ref:`Readable <readable>`

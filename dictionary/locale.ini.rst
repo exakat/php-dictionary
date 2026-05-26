@@ -45,4 +45,4 @@ Locale are supported with the ext/icu extension, and also, natively with the ``s
 
 See also `setlocale() <https://www.php.net/manual/en/class.locale.php>`_.
 
-Related : 
+Related : :ref:`setlocale <setlocale>`

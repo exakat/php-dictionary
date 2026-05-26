@@ -91,6 +91,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Reserved For Future Use (RFU) <rfu>`
 + :ref:`Retrieval Augmented Generation (RAG) <rag>`
 + :ref:`Role Based Access Control (RBAC) <rbac>`
++ :ref:`Search Engine Optimization (SEO) <seo>`
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
 + :ref:`Server Sent Event (SSE) <sse>`
@@ -108,6 +109,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Static Code Analysis (SCA) <sca>`
 + :ref:`Static Single Assignment Form (SSA) <ssa>`
 + :ref:`Support Vector Machine (SVM) <svm>`
++ :ref:`Terminal User Interface (TUI) <tui>`
 + :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
 + :ref:`Token Oriented Object Notation (TOON) <toon>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
@@ -242,6 +244,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
++ :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
 + :ref:`Heuristics <heuristic>`
 + :ref:`Hydratation <hydrate>`
@@ -325,6 +328,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Scope <scope>`
 + :ref:`Security <security>`
 + :ref:`Semantics <semantics>`
++ :ref:`Separation of Concerns <separation-of-concerns>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Software Development Kit (SDK) <sdk>`

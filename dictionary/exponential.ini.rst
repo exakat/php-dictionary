@@ -17,23 +17,34 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exponential","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The exponential is a mathematical function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exponential.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exponential","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:22:38 +0000","dateModified":"Tue, 26 May 2026 08:22:38 +0000","description":"The exponential is a mathematical function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exponential.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Exponential
 -----------
 
-The exponential is a mathematical function. It satisfies the expression: ``exp($a + $a) = exp($a) * exp($b)``, and ``exp(0) === 1``.
+The exponential is a mathematical function. It satisfies the expressions: ``exp($a + $b) = exp($a) * exp($b)``, and ``exp(0) === 1``.
+
+There is a special ``expm1()`` function, which calculates the exponential value of ``$x - 1``. When ``$x`` is close to 0, this function provides more siginficant digits than using the expression ``exp($x) - 1``.
+
+Exponential calculations may also be lead with the constant ``M_E`` and the operator ``**`` or the function ``pow()``, although there is a slight difference.
 
 .. code-block:: php
    
    <?php
    
-   $e = exp(1); // also known as M_E
+       $e = exp(1); // also known as the contant M_E
+       
+       var_dump(exp(2) === M_E ** 2); // false
+       var_dump(exp(2) - M_E ** 2);   // float(8.881784197001252E-16)
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Exponential_function>`__
+
+See also `PHP Math Functions: A Comprehensive Guide with Examples <https://codingeasypeasy.com/blog/php-math-functions-a-comprehensive-guide-with-examples/>`_.
+
+Related : :ref:`Exponent <**>`, , :ref:`E <e>`, :ref:`Logarithm <logarithm>`, :ref:`sqrt() <sqrt>`, :ref:`Star * <star>`
 
 Added in PHP 8.1

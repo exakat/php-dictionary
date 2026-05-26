@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:20:08 +0000","dateModified":"Tue, 26 May 2026 08:20:08 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 zero
@@ -46,5 +46,9 @@ Division by zero emits the ``DivisionByZeroError``, as that operation is impossi
    
    ?>
 
+
+`Documentation <https://en.wikipedia.org/wiki/0>`__
+
+See also `What is the origin of Zero? <https://www.scientificamerican.com/article/what-is-the-origin-of-zer/>`_.
 
 Related : :ref:`False <false>`, :ref:`Comparison <comparison>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Empty String <empty-string>`, :ref:`one <one>`, :ref:`Callable Arrays <array-callable>`, :ref:`Array Callback <array-callback>`, :ref:`Minus One -1 <minus-one>`, :ref:`Truthy <truthy>`

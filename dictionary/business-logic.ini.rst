@@ -35,4 +35,4 @@ In PHP projects, business logic often leaks into controllers (``fat controllers`
 
 See also `Patterns of Enterprise Application Architecture (Fowler) <https://martinfowler.com/books/eaa.html>`_.
 
-Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Architecture <architecture>`, , :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Service <service>`
+Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Architecture <architecture>`, :ref:`Separation of Concerns <separation-of-concerns>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Service <service>`

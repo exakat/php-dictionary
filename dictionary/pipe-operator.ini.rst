@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"The pipe operator is ``|>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 06:03:44 +0000","dateModified":"Tue, 26 May 2026 06:03:44 +0000","description":"The pipe operator is ``|>``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pipe Operator
@@ -34,12 +34,12 @@ The pipe operator should not be mistaken with the ``|`` pipe logical operator, w
    
    <?php
    
-   $result = abc |> trim(...) |> 'strtoupper'; // 'ABC'
+       $result = abc |> trim(...) |> 'strtoupper'; // 'ABC'
    
    ?>
 
 
-See also `PHP 8.5: Pipe operator (|>) <https://php.watch/versions/8.5/pipe-operator>`_.
+See also `PHP 8.5: Pipe operator (|>) <https://php.watch/versions/8.5/pipe-operator>`_, `Introducing Piper: array and string manipulation with the pipe operator <https://spatie.be/blog/introducing-piper>`_ and `My thoughts on Spatie/Piper <https://dev.to/xwero/my-thoughts-on-spatiepiper-1ej7>`_.
 
 Related : :ref:`Logical Operators <logical-operator>`
 

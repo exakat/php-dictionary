@@ -143,6 +143,7 @@ PHP Dictionary
    * :ref:`array_pad() <array_pad>`
    * :ref:`array_pop() <array_pop>`
    * :ref:`array_push() <array_push>`
+   * :ref:`array_search <array_search>`
    * :ref:`array_slice() <array_slice>`
    * :ref:`array_splice() <array_splice>`
    * :ref:`array_unique() <array_unique>`
@@ -400,6 +401,7 @@ PHP Dictionary
    * :ref:`Design By Contract (DBC) <contract>`
    * :ref:`Design Pattern <design-pattern>`
    * :ref:`Design Pattern Wrapper <wrapper-designpattern>`
+   * :ref:`Desktop Application <desktop-app>`
    * :ref:`Destructor <destructor>`
    * :ref:`Deterministic <deterministic>`
    * :ref:`Dictionary <dictionary>`
@@ -454,6 +456,7 @@ PHP Dictionary
    * :ref:`dirname <dirname>`
    * :ref:`display_errors <display_errors>`
 * E
+   * :ref:`E <e>`
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
    * :ref:`Echo Tag <echo-tag>`
@@ -586,6 +589,7 @@ PHP Dictionary
    * :ref:`Goto <goto>`
    * :ref:`Goto Labels <label>`
    * :ref:`Gradual Type Checking <gradual-type-checking>`
+   * :ref:`Graph Database <graph-database>`
    * :ref:`GraphQL <graphql>`
    * :ref:`Graphic Draw (GD) <gd>`
    * :ref:`gRPC (Google Remote Procedure Call) <grpc>`
@@ -602,6 +606,7 @@ PHP Dictionary
    * :ref:`HTTP Code <http-code>`
    * :ref:`HTTP Encoding <http-encoding>`
    * :ref:`HTTP Headers <http-header>`
+   * :ref:`Habit <habit>`
    * :ref:`Handle <handle>`
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hardening <hardening>`
@@ -804,6 +809,7 @@ PHP Dictionary
    * :ref:`Minus One -1 <minus-one>`
    * :ref:`Missing Validation <missing-validation>`
    * :ref:`Mixed <mixed>`
+   * :ref:`Mobile Application <mobile-app>`
    * :ref:`Mock <mock>`
    * :ref:`Model <model>`
    * :ref:`Model - View - Controller (MVC) <mvc>`
@@ -913,6 +919,7 @@ PHP Dictionary
    * :ref:`Order Of Execution <order-of-execution>`
    * :ref:`OutOfRangeException <outofrangeexception>`
    * :ref:`Outgoing Data <outgoing-data>`
+   * :ref:`Output buffering <output-buffering>`
    * :ref:`Over-engineer <overengineer>`
    * :ref:`Overflow <overflow>`
    * :ref:`OverflowException <overflowexception>`
@@ -1139,6 +1146,7 @@ PHP Dictionary
    * :ref:`Scheme <scheme>`
    * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
+   * :ref:`Search Engine Optimization (SEO) <seo>`
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
    * :ref:`Secret <secret>`
    * :ref:`Secure Hash Algorithm (SHA) <sha>`
@@ -1153,6 +1161,7 @@ PHP Dictionary
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
+   * :ref:`Separation of Concerns <separation-of-concerns>`
    * :ref:`Separator <separator>`
    * :ref:`Serde <serde>`
    * :ref:`Serializable <serializable>`
@@ -1262,6 +1271,7 @@ PHP Dictionary
    * :ref:`System Call <system-call>`
    * :ref:`System Event <system-event>`
    * :ref:`set_error_handler() <set_error_handler>`
+   * :ref:`setlocale <setlocale>`
    * :ref:`shell_exec() <shell_exec>`
    * :ref:`sitemap <sitemap>`
    * :ref:`sleep <sleep>`
@@ -1290,6 +1300,7 @@ PHP Dictionary
    * :ref:`Tempest <tempest>`
    * :ref:`Template <template>`
    * :ref:`Temporary Expression <temporary-expression>`
+   * :ref:`Terminal User Interface (TUI) <tui>`
    * :ref:`Ternary Operator <ternary>`
    * :ref:`Test <test>`
    * :ref:`Test Data Provider <test-data-provider>`
@@ -1405,9 +1416,11 @@ PHP Dictionary
    * :ref:`variable_order <variable_order>`
 * W
    * :ref:`Warning <warning>`
+   * :ref:`Waterfall <waterfall>`
    * :ref:`Weak Cryptography <weak-cryptography>`
    * :ref:`Weak References <weak-reference>`
    * :ref:`Weakmap <weakmap>`
+   * :ref:`Web Application <web-app>`
    * :ref:`Web-spider <web-spider>`
    * :ref:`WebRTC <webrtc>`
    * :ref:`Webscraping <webscraping>`

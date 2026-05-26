@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"sqrt()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 06 May 2026 08:27:53 +0000","dateModified":"Wed, 06 May 2026 08:27:53 +0000","description":"``sqrt()`` is a PHP native function, that computes the square root of a number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/sqrt().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"sqrt()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 17:18:22 +0000","dateModified":"Thu, 21 May 2026 17:18:22 +0000","description":"``sqrt()`` is a PHP native function, that computes the square root of a number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/sqrt().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 sqrt()
@@ -24,8 +24,7 @@ sqrt()
 
 ``sqrt()`` is a PHP native function, that computes the square root of a number. That function takes a integer or a float, and returns the same types, depending on the actual value of the result.
 
-``sqrt()`` is not a specifically slow function.
-
+``sqrt()`` is not a particularly slow function. The opposite of ``sqrt()`` is ``** 2``, or ``pow($x, 2)``, or even ``$x * $x``, where ``$x`` is the result of ``sqrt()``.
 
 .. code-block:: php
    
@@ -42,4 +41,6 @@ sqrt()
 
 `Documentation <https://www.php.net/manual/en/function.sqrt.php>`__
 
-Related : :ref:`Exponent <power>`
+See also `PHP Math Functions: Understanding the Basics <https://wpshout.com/php-math-functions/#gref>`_.
+
+Related : :ref:`Exponent <power>`, :ref:`Exponential <exponential>`

@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","name":"Finite State Machine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A finite state machine, also called FSM, also called a finite automaton, is a mathematical model used to design systems that can be in one of a finite number of states at any given time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Finite State Machine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Y::C cannot override final constant X::C.html","name":"Finite State Machine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 17:25:19 +0000","dateModified":"Thu, 21 May 2026 17:25:19 +0000","description":"A finite state machine, also called FSM, also called a finite automaton, is a mathematical model used to design systems that can be in one of a finite number of states at any given time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Finite State Machine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Finite State Machine
@@ -31,6 +31,6 @@ A finite state machine, also called FSM, also called a finite automaton, is a ma
 
 See also `Creating Finite State Machines in PHP 8.3 <https://www.phparch.com/2024/01/creating-finite-state-machines-in-php-8-3/>`_ and `Creating a State Machine using PHP <https://medium.com/cook-php/creating-a-state-machine-using-php-ddef9395430e>`_.
 
-Related : :ref:`Algorithm <algorithm>`
+Related : :ref:`Algorithm <algorithm>`, :ref:`State <state>`
 
 Related packages : `yohang/finite <https://packagist.org/packages/yohang/finite>`_, `sofa/state-machine <https://packagist.org/packages/sofa/state-machine>`_

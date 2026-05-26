@@ -16,15 +16,17 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 09:23:55 +0000","dateModified":"Thu, 21 May 2026 09:23:55 +0000","description":"An application is a software program designed to perform specific tasks for end users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 14:38:10 +0000","dateModified":"Thu, 21 May 2026 14:38:10 +0000","description":"An application is a software program designed to perform specific tasks for end users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Application
 -----------
 
-An application is a software program designed to perform specific tasks for end users. In PHP, applications can take many forms: web applications served over HTTP, command-line tools, background daemons, REST APIs, or batch-processing scripts.
+An application is a software program designed to perform specific tasks for end users. PHP applications can take many forms: web applications served over HTTP, command-line tools, background daemons, REST APIs, batch-processing scripts, etc.
 
-PHP applications are typically structured around a framework or architecture pattern (MVC, ADR, hexagonal, etc.) and a dependency-injection container. The entry point is usually a single ``index.php`` for web apps, or a CLI script invoked via the shell.
+PHP applications are typically structured around a framework or architecture pattern, like MVC, ADR, hexagonal architecture, etc. and a dependency-injection container. The entry point is usually a single ``index.php`` for web apps, or a CLI script invoked via the shell.
+
+PHP applications excel at connecting to various sources of informations, to collect, process and store data.
 
 .. code-block:: php
    
@@ -53,6 +55,4 @@ PHP applications are typically structured around a framework or architecture pat
 
 See also `PHP: Namespaces and autoloading <https://www.php.net/manual/en/language.namespaces.php>`_, `PHP-FIG: PSR standards <https://www.php-fig.org/psr/>`_ and `The Twelve-Factor App <https://12factor.net/>`_.
 
-Related : , :ref:`Command Line Interface (CLI) <cli>`, , , 
-
-Related packages : `slim/slim <https://packagist.org/packages/slim/slim>`_, `symfony/framework-bundle <https://packagist.org/packages/symfony/framework-bundle>`_
+Related : :ref:`Terminal User Interface (TUI) <tui>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Desktop Application <desktop-app>`, :ref:`Mobile Application <mobile-app>`, :ref:`Web Application <web-app>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Architectural Decision Record (ADR) <adr>`, :ref:`REST API <rest-api>`, :ref:`Application Programming Interface (API) <api>`, :ref:`GraphQL <graphql>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`PaaS <paas>`, :ref:`IaaS <iaas>`, :ref:`Microservice <microservice>`, :ref:`Monolith <monolith>`, :ref:`Single Page Application (SPA) <spa>`, :ref:`Content Management System (CMS) <cms>`, :ref:`NativePHP <nativephp>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Clean Architecture <clean-architecture>`

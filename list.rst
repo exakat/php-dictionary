@@ -105,6 +105,7 @@ Index
    dictionary/array_pad.ini
    dictionary/array_pop.ini
    dictionary/array_push.ini
+   dictionary/array_search.ini
    dictionary/array_slice.ini
    dictionary/array_splice.ini
    dictionary/array_unique.ini
@@ -388,6 +389,7 @@ Index
    dictionary/deque.ini
    dictionary/dereferencing.ini
    dictionary/design-pattern.ini
+   dictionary/desktop-app.ini
    dictionary/destructor.ini
    dictionary/deterministic.ini
    dictionary/dictionary.ini
@@ -439,6 +441,7 @@ Index
    dictionary/dynamic-property.ini
    dictionary/dynamic-variable.ini
    dictionary/dynamic.ini
+   dictionary/e.ini
    dictionary/each.ini
    dictionary/early-binding.ini
    dictionary/echo-tag.ini
@@ -579,8 +582,10 @@ Index
    dictionary/golf.ini
    dictionary/goto.ini
    dictionary/gradual-type-checking.ini
+   dictionary/graph-database.ini
    dictionary/graphql.ini
    dictionary/grpc.ini
+   dictionary/habit.ini
    dictionary/halt-compiler.ini
    dictionary/handle.ini
    dictionary/handler.ini
@@ -795,6 +800,7 @@ Index
    dictionary/minus.ini
    dictionary/missing-validation.ini
    dictionary/mixed.ini
+   dictionary/mobile-app.ini
    dictionary/mock.ini
    dictionary/model.ini
    dictionary/module.ini
@@ -900,6 +906,7 @@ Index
    dictionary/orm.ini
    dictionary/outgoing-data.ini
    dictionary/outofrangeexception.ini
+   dictionary/output-buffering.ini
    dictionary/overengineer.ini
    dictionary/overflow.ini
    dictionary/overflowexception.ini
@@ -1125,6 +1132,8 @@ Index
    dictionary/semantics.ini
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
+   dictionary/seo.ini
+   dictionary/separation-of-concerns.ini
    dictionary/separator.ini
    dictionary/serde.ini
    dictionary/serializable.ini
@@ -1137,6 +1146,7 @@ Index
    dictionary/session-highjacking.ini
    dictionary/session.ini
    dictionary/set_error_handler.ini
+   dictionary/setlocale.ini
    dictionary/setter.ini
    dictionary/sha.ini
    dictionary/shallow-clone.ini
@@ -1300,6 +1310,7 @@ Index
    dictionary/true.ini
    dictionary/truthy.ini
    dictionary/try-catch.ini
+   dictionary/tui.ini
    dictionary/tutorial.ini
    dictionary/type-contravariance.ini
    dictionary/type-covariance.ini
@@ -1377,9 +1388,11 @@ Index
    dictionary/void.ini
    dictionary/vulnerability.ini
    dictionary/warning.ini
+   dictionary/waterfall.ini
    dictionary/weak-cryptography.ini
    dictionary/weak-reference.ini
    dictionary/weakmap.ini
+   dictionary/web-app.ini
    dictionary/web-spider.ini
    dictionary/web.ini
    dictionary/webrtc.ini

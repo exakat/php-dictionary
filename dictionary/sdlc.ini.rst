@@ -39,4 +39,4 @@ There are several models used to implement SDLC, including:
 
 See also `Software Development Life Cycle (SDLC) -Software Development Process <https://medium.com/@eneseren179/software-development-life-cycle-sdlc-software-development-process-ec5dcbdeffbf>`_.
 
-Related : , , , :ref:`Agile <agile>`
+Related : , :ref:`Waterfall <waterfall>`, , :ref:`Agile <agile>`

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Logarithm","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 May 2026 10:17:39 +0000","dateModified":"Mon, 18 May 2026 10:17:39 +0000","description":"The logarithm is a family of mathematical functions, where ``log($a * $b) == log($a) + log($b)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Logarithm.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Logarithm","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:22:50 +0000","dateModified":"Tue, 26 May 2026 08:22:50 +0000","description":"The logarithm is a family of mathematical functions, where ``log($a * $b) == log($a) + log($b)``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Logarithm.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Logarithm
@@ -54,4 +54,6 @@ A logarithm is not the same as an algorithm, or a log file.
 
 `Documentation <https://en.wikipedia.org/wiki/Logarithm>`__
 
-Related : :ref:`Algorithm <algorithm>`, :ref:`Exponential <exponential>`, :ref:`Exponent <power>`, :ref:`Floating Point Numbers <float>`, :ref:`zero <zero>`, :ref:`one <one>`, , :ref:`Log File <log-file>`
+See also `PHP Math Functions: A Comprehensive Guide with Examples <https://codingeasypeasy.com/blog/php-math-functions-a-comprehensive-guide-with-examples/>`_.
+
+Related : :ref:`Algorithm <algorithm>`, :ref:`Exponential <exponential>`, :ref:`Exponent <power>`, :ref:`Floating Point Numbers <float>`, :ref:`zero <zero>`, :ref:`one <one>`, :ref:`Log File <log-file>`

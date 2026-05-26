@@ -301,6 +301,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_push.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_search.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/array_slice.ini.html</loc>
  </url>
  <url>
@@ -1150,6 +1153,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/design-pattern.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/desktop-app.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/destructor.ini.html</loc>
  </url>
  <url>
@@ -1301,6 +1307,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/e.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/each.ini.html</loc>
@@ -1723,10 +1732,16 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gradual-type-checking.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/graph-database.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/graphql.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/grpc.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/habit.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/halt-compiler.ini.html</loc>
@@ -2371,6 +2386,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mobile-app.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mock.ini.html</loc>
  </url>
  <url>
@@ -2684,6 +2702,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/outofrangeexception.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/output-buffering.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/overengineer.ini.html</loc>
@@ -3361,6 +3382,12 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sensitiveparameter.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/seo.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/separation-of-concerns.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/separator.ini.html</loc>
  </url>
  <url>
@@ -3395,6 +3422,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/set_error_handler.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/setlocale.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/setter.ini.html</loc>
@@ -3886,6 +3916,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tui.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tutorial.ini.html</loc>
  </url>
  <url>
@@ -4117,6 +4150,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/warning.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/waterfall.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/weak-cryptography.ini.html</loc>
  </url>
  <url>
@@ -4124,6 +4160,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/weakmap.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/web-app.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/web-spider.ini.html</loc>

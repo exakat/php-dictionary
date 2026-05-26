@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_walk()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"``array_walk()`` is a PHP native function that applies a closure to every element of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_walk().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_walk()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:47:55 +0000","dateModified":"Tue, 26 May 2026 08:47:55 +0000","description":"``array_walk()`` is a PHP native function that applies a closure to every element of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_walk().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_walk()
@@ -36,16 +36,18 @@ Although both methods are very similar, ``array_walk()``  and ``array_map()`` do
    
    <?php
    
-   function square(&$x, $c) { $x = $x * $x + $c; }
-   
-   $array = [1,2,3];
-   array_walk($array, square(...));
-   print_r($array);
-   // [1, 5, 11];
+       function square(&$x, $c) { $x = $x * $x + $c; }
+       
+       $array = [1,2,3];
+       array_walk($array, square(...));
+       print_r($array);
+       // [1, 5, 11];
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/function.array-map.php>`__
+
+See also `Taming PHP’s array_walk() Function: A Detailed Guide <https://clouddevs.com/php/array_walk-function/>`_.
 
 Related : :ref:`array_map() <array_map>`

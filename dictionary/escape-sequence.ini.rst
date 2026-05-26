@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 18:58:24 +0000","dateModified":"Sun, 17 May 2026 18:58:24 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:14:52 +0000","dateModified":"Tue, 26 May 2026 08:14:52 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Escape Sequences
@@ -50,12 +50,12 @@ Escape sequences should not be confused with escape characters, though they are 
    
    <?php
    
-   // \1 is an escape sequence that represents the first capturing parenthsis. 
-   // It is a special meaning for REGEX.
-   preg_match('/(.)\1/', $string);
-   
-   // Displays AA
-   echo "A\101";
+       // \1 is an escape sequence that represents the first capturing parenthsis. 
+       // It is a special meaning for REGEX.
+       preg_match('/(.)\1/', $string);
+       
+       // Displays AA
+       echo "A\101";
    
    ?>
 
@@ -64,4 +64,4 @@ Escape sequences should not be confused with escape characters, though they are 
 
 See also `String literals (MySQL) <https://dev.mysql.com/doc/refman/8.0/en/string-literals.html>`_, `Lexical Structure (PostgreSQL) <https://www.postgresql.org/docs/current/sql-syntax-lexical.html#:~:text=PostgreSQL%20also%20accepts%20%E2%80%9Cescape%E2%80%9D%20string,e.g.%2C%20E'foo'%20.>`_ and `INI file <https://en.wikipedia.org/wiki/INI_file.>`_.
 
-Related : :ref:`Double Quotes Strings <double-quote>`
+Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Codepoint <codepoint>`, :ref:`E <e>`, :ref:`Emoji <emoji>`, :ref:`Escape Data <escape-data>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","name":"Typo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 20:05:21 +0000","dateModified":"Tue, 05 May 2026 20:05:21 +0000","description":"A typo is short for ``typographical error``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Typo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uncaught TypeError: Cannot assign string to class constant X::D of type int.html","name":"Typo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 15:37:21 +0000","dateModified":"Thu, 21 May 2026 15:37:21 +0000","description":"A typo is short for ``typographical error``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Typo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Typo
@@ -24,10 +24,11 @@ Typo
 
 A typo is short for ``typographical error``. It refers to a mistake made in the typing of the code. Typographical errors can include misspelled words, misplaced operators. Typos can occur in various contexts, such as types, expressions, naming. 
 
-A typo can lead to a visible or invisible error. An typo in the function name of ``array_slice()``, like ``array_sloce()`` leads to a fatal error, as the function is not defined; On the other hand, a typo on the same function, written ``array_splice()`` (extra p), leads to 
+A typo can lead to a visible or invisible error. An typo in the function name of ``array_slice()``, like ``array_sloce()`` leads to a fatal error, as the function is not defined; 
+
+On the other hand, a typo on the same function, written ``array_splice()``, note the extra p, leads to arguments errors, as this new function exists, but requests different types of data.
 
 Typo happen in any text based system.
-
 
 .. code-block:: php
    
@@ -50,4 +51,4 @@ Typo happen in any text based system.
 
 See also `Top Common PHP Errors <https://medium.com/@jaydipkumarjha/top-common-php-errors-9dd20dfcdf81>`_ and `Top Common PHP Errors and How to Fix Them <https://olixlab.com/blog/top-common-php-errors-and-how-to-fix-them/>`_.
 
-Related : :ref:`Silent Behavior <silent>`
+Related : :ref:`Silent Behavior <silent>`, :ref:`Semantics <semantics>`
