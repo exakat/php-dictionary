@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Question Mark ?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 17:06:24 +0000","dateModified":"Tue, 12 May 2026 17:06:24 +0000","description":"``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Question Mark ?.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Question Mark ?","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Question Mark ?.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Question Mark ?
@@ -42,4 +42,4 @@ Question Mark ?
    ?>
 
 
-Related : :ref:`Ternary Operator <ternary-operator>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Type System <type>`, :ref:`Regular Expressions <regex>`, :ref:`fnmatch() <fnmatch>`
+Related : :ref:`Ternary Operator <ternary-operator>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Type System <type>`, :ref:`Regular Expression <regex>`, :ref:`fnmatch() <fnmatch>`

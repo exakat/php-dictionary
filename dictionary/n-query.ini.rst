@@ -1,4 +1,5 @@
 .. _n-query:
+.. _n-plus-one-query:
 .. meta::
 	:description:
 		N+1 Query Problem: The ``N+1 query problem`` is a term used in the context of queries, and most often in the context of databases and Object-Relational Mapping (ORM) systems.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"N+1 Query Problem","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"The ``N+1 query problem`` is a term used in the context of queries, and most often in the context of databases and Object-Relational Mapping (ORM) systems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/N+1 Query Problem.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"N+1 Query Problem","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The ``N+1 query problem`` is a term used in the context of queries, and most often in the context of databases and Object-Relational Mapping (ORM) systems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/N+1 Query Problem.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 N+1 Query Problem
@@ -26,16 +27,15 @@ The ``N+1 query problem`` is a term used in the context of queries, and most oft
 
 Here's a breakdown of the issue:
 
-+ Initial query (1 query): the code retrieves a set of entities. This is a list of ``N`` results.
-+ Subsequent queries (N queries): For each of the 'N' result, the code issues a separate query to fetch additional related data.
++ Initial query, the 1 query: the code retrieves a set of entities. This is a list of ``N`` results.
++ Subsequent queries, the N queries: For each of the 'N' result, the code issues a separate query to fetch additional related data.
 
 As a result, the code ends up performing ``N+1`` queries, hence the name of ``N+1 query problem``. This approach can cause significant performance issues, as executing many individual queries is slower than fetching the required data in batches: either all of them in one call, or by groups of arbitrary size.
 
-``N+1 query problem`` happens with anything that requires a query. It may be a SQL database, but also remote API calls, or even system calls. 
-
+``N+1 query problem`` happens with anything that requires a query. It may be a SQL database, but also remote API calls, or even system calls.
 
 `Documentation <https://www.freecodecamp.org/news/n-plus-one-query-problem/>`__
 
-See also `Eloquent Performance: 4 Examples of N+1 Query Problems <https://laravel-news.com/laravel-n1-query-problems>`_ and `The N+1 Query Problem <https://lighthouse-php.com/master/performance/n-plus-one.html>`_.
+See also `Here's How You Can Stop N+1 Queries Forever <https://hackernoon.com/heres-how-you-can-stop-n1-queries-forever>`_, `Eloquent Performance: 4 Examples of N+1 Query Problems <https://laravel-news.com/laravel-n1-query-problems>`_ and `The N+1 Query Problem <https://lighthouse-php.com/master/performance/n-plus-one.html>`_.
 
 Related : :ref:`Loops <loop>`, :ref:`Batch <batch>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Simple Query Language (SQL) <sql>`

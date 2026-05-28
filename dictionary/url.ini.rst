@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:43:39 +0000","dateModified":"Tue, 26 May 2026 08:43:39 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Universal Resource Locator (URL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"Universal Resource Locator is a string that represents a resource, where to find it, how to access it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Universal Resource Locator (URL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Universal Resource Locator (URL)
@@ -26,21 +26,19 @@ Universal Resource Locator is a string that represents a resource, where to find
 
 The full URL include the following information: 
 
-+ protocol: for example, http, https, mongodb, zip
-+ user: the username for authentication purposes
-+ pass: the password associated with the username
-+ server: the name or the address of the server where the resource reside
-+ path: the location of the resource on the server
-+ query: extra parameters to reach the resource
-+ fragment: the location of the resource inside the previous address (server + path)
++ ``protocol``: for example, http, https, mongodb, zip
++ ``user``: the username for authentication purposes
++ ``pass``: the password associated with the username
++ ``server``: the name or the address of the server where the resource reside
++ ``path``: the location of the resource on the server
++ ``query``: extra parameters to reach the resource
++ ``fragment``: the location of the resource inside the previous address, server and path
 
-PHP has several functions dedicated to processing URL, such as parse_url() and http_build_query(). 
+PHP has several functions dedicated to processing URL, such as ``parse_url()`` and ``http_build_query()``. 
 
-PHP also makes use of URL as a generalisation for file path. For example, file_get_contents() and fopen() both work on local and remote files, via URL.
+PHP also makes use of URL as a generalisation for file path. For example, ``file_get_contents()`` and ``fopen()`` both work on local and remote files, via URL.
 
 PHP is able to process different protocols with its internal Protocols and Wrappers, using the file system functions.
-
-
 
 .. code-block:: php
    
@@ -67,4 +65,4 @@ PHP is able to process different protocols with its internal Protocols and Wrapp
 
 See also `URL Functions <https://www.php.net/manual/en/ref.url.php>`_ and `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_.
 
-Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`, :ref:`Query String <query-string>`, :ref:`Scheme <scheme>`, :ref:`URI Extension <uri-extension>`, :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Canonical <canonical>`, :ref:`Pound # <pound>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`URI Class <uri-class>`
+Related : :ref:`Secure Sockets Layer (SSL) <ssl>`, :ref:`File <file>`, :ref:`Query String <query-string>`, :ref:`Scheme <scheme>`, :ref:`URI Extension <uri-extension>`, :ref:`Universal Resource Identifier (URI) <uri>`, :ref:`Canonical <canonical>`, :ref:`Pound # <pound>`, :ref:`Search Engine Optimization (SEO) <seo>`, , :ref:`file_get_contents() <file_get_contents>`, :ref:`fopen() <fopen>`, :ref:`http_build_query() <http_build_query>`, :ref:`URI Class <uri-class>`

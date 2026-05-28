@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Command Line Interface (CLI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 08 May 2026 17:06:15 +0000","dateModified":"Fri, 08 May 2026 17:06:15 +0000","description":"PHP provides support for a Command Line Interface (CLI) mode, which allows developers to execute PHP scripts directly from the terminal or command prompt without needing a web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command Line Interface (CLI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Command Line Interface (CLI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"PHP provides support for a Command Line Interface (CLI) mode, which allows developers to execute PHP scripts directly from the terminal or command prompt without needing a web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command Line Interface (CLI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Command Line Interface (CLI)
@@ -28,6 +28,6 @@ PHP provides support for a Command Line Interface (CLI) mode, which allows devel
 
 See also `Detailed Guide on PHP Command Line (CLI) and Essential Commands for PHP Developers <https://www.ducxinh.com/en/techblog/detailed-guide-on-php-command-line-(cli)-and-essential-commands-for-php-developers>`_.
 
-Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Read Eval Print Loop (REPL) <repl>`, :ref:`$argc <$argc>`, :ref:`$argv <$argv>`, :ref:`Common Gateway Interface (CGI) <cgi>`, :ref:`FastCGI <fastcgi>`
+Related : :ref:`Webserver <webserver>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Read Eval Print Loop (REPL) <repl>`, :ref:`$argc <$argc>`, :ref:`$argv <$argv>`, :ref:`Common Gateway Interface (CGI) <cgi>`, :ref:`FastCGI <fastcgi>`, :ref:`Application <application>`, :ref:`Desktop Application <desktop-app>`, :ref:`Tool <tool>`, :ref:`Terminal User Interface (TUI) <tui>`
 
 Related packages : `splitbrain/php-cli <https://packagist.org/packages/splitbrain/php-cli>`_

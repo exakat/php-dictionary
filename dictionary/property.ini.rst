@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Class properties are variables, local to an object or a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Properties","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:56:14 +0000","dateModified":"Thu, 28 May 2026 06:56:14 +0000","description":"Class properties are variables, local to an object or a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Properties.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Properties
@@ -25,19 +25,21 @@ Properties
 
 Class properties are variables, local to an object or a class.
 
-They might have visibility, chosen among : public (default), protected and private.
+Class properties might have visibility, chosen among: public, protected and private. public is the default.
 
-They might have a default value. By default it is null.
+Class properties might have an asymmetric visiblity for writing, chosen among: ``public(set)``, ``protected(set)`` and ``private(set)``. By default, it is the same as the read visibility.
 
-They might have a type, since PHP 7.4
+Class properties might have a default value. By default it is ``null``.
 
-They might be readonly, for properties which are only set once, and cannot be modified. 
+Class properties might have a type, since PHP 7.4
 
-They might be static, and not related to an object, but to a class. 
+Class properties might be readonly, for properties which are only set once, and cannot be modified. 
 
-Property should be uniquely defined in a class. They may be redefined in children or parent when the visibility allows it.
+Class properties might be static, and not related to an object, but to a class. 
 
-Properties are also called members. 
+A property must be uniquely defined in a class. Class properties may be redefined in children or parent when the visibility allows it.
+
+Properties are also called members.
 
 .. code-block:: php
    
@@ -54,4 +56,4 @@ Properties are also called members.
 
 See also `Class properties <https://www.php-cpp.com/documentation/properties>`_.
 
-Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly <readonly>`, :ref:`Attribute <attribute>`, :ref:`Default Value <default-value>`, :ref:`Magic Property <magic-property>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`Property Hook <property-hook>`, :ref:`Asymmetric Visibility <set-visibility>`, :ref:`Type System <type>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`Data Container <data-container>`, :ref:`Static Property <static-property>`, :ref:`stdclass <stdclass>`, :ref:`Typed Property <typed-property>`, :ref:`Method <method>`, :ref:`Readable <readable>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writable <writable>`
+Related : :ref:`Visibility <visibility>`, :ref:`static <static>`, :ref:`Readonly <readonly>`, :ref:`Attribute <attribute>`, :ref:`Default Value <default-value>`, :ref:`Magic Property <magic-property>`, :ref:`Dynamic Properties <dynamic-property>`, :ref:`Property Hook <property-hook>`, :ref:`Asymmetric Visibility <set-visibility>`, :ref:`Type System <type>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`Data Container <data-container>`, :ref:`Static Property <static-property>`, :ref:`stdclass <stdclass>`, :ref:`Typed Property <typed-property>`, :ref:`Method <method>`, :ref:`Readable <readable>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writable <writable>`, :ref:`get_object_vars() <get_object_vars>`, :ref:`Promoted Properties <promoted-property>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Var <var>`, :ref:`Writeable <writeable>`

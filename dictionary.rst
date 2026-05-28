@@ -73,6 +73,7 @@ PHP Dictionary
    * :ref:`Allow Dynamic Properties <allowdynamicproperties>`
    * :ref:`Alternative Syntax <alternative-syntax>`
    * :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
+   * :ref:`Analysis <analysis>`
    * :ref:`And Operator <and>`
    * :ref:`Annotations <annotation>`
    * :ref:`Anonymize <anonymize>`
@@ -111,6 +112,7 @@ PHP Dictionary
    * :ref:`Artificial Intelligence (AI) <ai>`
    * :ref:`As <as>`
    * :ref:`Aspect Oriented Programming <aspect-programming>`
+   * :ref:`Aspect-Oriented <aspect-oriented>`
    * :ref:`Assertions <assertion>`
    * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
@@ -128,6 +130,7 @@ PHP Dictionary
    * :ref:`Audit Trail <audit-trail>`
    * :ref:`Authentication <authentication>`
    * :ref:`Authorize <authorize>`
+   * :ref:`Autocompletion <autocompletion>`
    * :ref:`Automagic <automagic>`
    * :ref:`Automatic Index <automatic-index>`
    * :ref:`Autovivification <autovivification>`
@@ -246,6 +249,7 @@ PHP Dictionary
    * :ref:`Clean Code <clean-code>`
    * :ref:`Client <client>`
    * :ref:`Client URL (CURL) <curl>`
+   * :ref:`Clock <clock>`
    * :ref:`Clone <clone>`
    * :ref:`Close Naming <close-naming>`
    * :ref:`Close Tag <close-tag>`
@@ -404,6 +408,7 @@ PHP Dictionary
    * :ref:`Desktop Application <desktop-app>`
    * :ref:`Destructor <destructor>`
    * :ref:`Deterministic <deterministic>`
+   * :ref:`DevOps <devops>`
    * :ref:`Dictionary <dictionary>`
    * :ref:`Diff <diff>`
    * :ref:`Digital Signature <digital-signature>`
@@ -495,6 +500,7 @@ PHP Dictionary
    * :ref:`Event Storming <event-storming>`
    * :ref:`Exception <exception>`
    * :ref:`Exception Handler <exception-handler>`
+   * :ref:`Execution <execution>`
    * :ref:`Execution Path <execution-path>`
    * :ref:`Execution Time <execution-time>`
    * :ref:`Existence <existence>`
@@ -619,7 +625,9 @@ PHP Dictionary
    * :ref:`Heuristics <heuristic>`
    * :ref:`Hexadecimal Integer <hexadecimal-integer>`
    * :ref:`Hexagonal Architecture <hexagonal>`
+   * :ref:`Hoisting <hoisting>`
    * :ref:`Honey Pot <honeypot>`
+   * :ref:`Horizontal Scaling <horizontal-scaling>`
    * :ref:`Hosting <hosting>`
    * :ref:`Hydratation <hydrate>`
    * :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
@@ -675,6 +683,7 @@ PHP Dictionary
    * :ref:`Initialisation <initialisation>`
    * :ref:`Injection <injection>`
    * :ref:`Inlining <inlining>`
+   * :ref:`Insecure Deserialization <insecure-deserialization>`
    * :ref:`Insteadof <insteadof>`
    * :ref:`Integrated Environment of Development (IDE) <ide>`
    * :ref:`Integration Test <integration-test>`
@@ -685,6 +694,7 @@ PHP Dictionary
    * :ref:`Internationalization Functions <intl>`
    * :ref:`Internet <internet>`
    * :ref:`Internet Protocol (IP) <ip>`
+   * :ref:`Interoperability <interoperability>`
    * :ref:`Interpolation <interpolation>`
    * :ref:`Interpreted <interpreted>`
    * :ref:`Intersection Type <intersection-type>`
@@ -737,6 +747,7 @@ PHP Dictionary
    * :ref:`Leading Numeric String <leading-numeric-string>`
    * :ref:`Leading Zero Means Octal <leading-zero-means-octal>`
    * :ref:`Leak <leak>`
+   * :ref:`Legacy <legacy>`
    * :ref:`LengthException <lengthexception>`
    * :ref:`Letter Logical Bug <letter-logical>`
    * :ref:`Lexical Variable <lexical>`
@@ -751,6 +762,7 @@ PHP Dictionary
    * :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
    * :ref:`Liskov Substitution Principle (LSP) <liskov>`
    * :ref:`List <list>`
+   * :ref:`Listener <listener>`
    * :ref:`Literal <literal>`
    * :ref:`Literal Types <literal-types>`
    * :ref:`Local File Inclusion <local-file-inclusion>`
@@ -788,6 +800,7 @@ PHP Dictionary
    * :ref:`Memory <memory>`
    * :ref:`Memory Leak <memory-leak>`
    * :ref:`Merge <merge>`
+   * :ref:`Message Bus <message-bus>`
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
    * :ref:`Message Queue <message-queue>`
    * :ref:`Method <method>`
@@ -1018,6 +1031,7 @@ PHP Dictionary
    * :ref:`Preprocessing <preprocess>`
    * :ref:`Primitive Obsession <primitive-obsession>`
    * :ref:`Print <print>`
+   * :ref:`Privacy <privacy>`
    * :ref:`Private Visibility <private>`
    * :ref:`Procedural Programming <procedural-programming>`
    * :ref:`Process <process>`
@@ -1025,17 +1039,20 @@ PHP Dictionary
    * :ref:`Product Requirements Document (PDR) <pdr>`
    * :ref:`Production <production>`
    * :ref:`Program To Interface <program-to-interface>`
+   * :ref:`Progressive Web App <pwa>`
    * :ref:`Promise <promise>`
    * :ref:`Promoted Properties <promoted-property>`
    * :ref:`Propagation <propagation>`
    * :ref:`Properties <property>`
    * :ref:`Property Hook <property-hook>`
    * :ref:`Property Type Declaration <type-declaration-property>`
+   * :ref:`Proprietary Source <proprietary-source>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
    * :ref:`Proxy <proxy>`
    * :ref:`Pseudo-type <pseudo-type>`
    * :ref:`Pseudo-variable <pseudo-variable>`
+   * :ref:`Pub/Sub <pubsub>`
    * :ref:`Public Visibility <public>`
    * :ref:`Pull Request (PR) <pr>`
    * :ref:`Pure Function <pure-function>`
@@ -1090,7 +1107,7 @@ PHP Dictionary
    * :ref:`Regexploit <regexploit>`
    * :ref:`Register Globals <register-globals>`
    * :ref:`Registry <registry>`
-   * :ref:`Regular Expressions <regex>`
+   * :ref:`Regular Expression <regex>`
    * :ref:`Relational DataBase Management System (RDBMS) <rdbms>`
    * :ref:`Relative <relative>`
    * :ref:`Relative Name <relative-name>`
@@ -1107,6 +1124,7 @@ PHP Dictionary
    * :ref:`Request For Change (RFC) <rfchange>`
    * :ref:`Reserved For Future Use (RFU) <rfu>`
    * :ref:`Reserved Names <reserved-name>`
+   * :ref:`Resource Leak <resource-leak>`
    * :ref:`Responsability <responsability>`
    * :ref:`Response <response>`
    * :ref:`Retrieval Augmented Generation (RAG) <rag>`
@@ -1115,10 +1133,12 @@ PHP Dictionary
    * :ref:`Return Type <return-type>`
    * :ref:`Return Type Will Change <returntypewillchange>`
    * :ref:`Return Value <return-value>`
+   * :ref:`Reverse Regex <reverse-regex>`
    * :ref:`Revision <revision>`
    * :ref:`Rich Text <rich-text>`
    * :ref:`Rigidity <rigidity>`
    * :ref:`Role Based Access Control (RBAC) <rbac>`
+   * :ref:`Rollback <rollback>`
    * :ref:`Rounding <rounding>`
    * :ref:`Route <route>`
    * :ref:`Rubber Ducking Debugging <rubber-ducking>`
@@ -1146,6 +1166,7 @@ PHP Dictionary
    * :ref:`Scheme <scheme>`
    * :ref:`Scope <scope>`
    * :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
+   * :ref:`Search Engine <search-engine>`
    * :ref:`Search Engine Optimization (SEO) <seo>`
    * :ref:`Second Order SQL Injection <second-order-sql-injection>`
    * :ref:`Secret <secret>`
@@ -1203,6 +1224,7 @@ PHP Dictionary
    * :ref:`Singleton <singleton>`
    * :ref:`Slash / <slash>`
    * :ref:`Snake Case <snake-case>`
+   * :ref:`Snapshot <snapshot>`
    * :ref:`Socket <socket>`
    * :ref:`Software Bill Of Material (SBOM) <sbom>`
    * :ref:`Software Development Kit (SDK) <sdk>`
@@ -1213,6 +1235,8 @@ PHP Dictionary
    * :ref:`Spaceship Operator <spaceship>`
    * :ref:`Special Constant <special-constant>`
    * :ref:`Special Types <special-typehint>`
+   * :ref:`Specification <specification>`
+   * :ref:`Spiral <spiral>`
    * :ref:`SplDoublyLinkedList <spldoublylinkedlist>`
    * :ref:`SplStack <splstack>`
    * :ref:`SplStorageObjects <splstorageobjects>`
@@ -1240,6 +1264,7 @@ PHP Dictionary
    * :ref:`Storage Systems <storage-system>`
    * :ref:`Stream <stream>`
    * :ref:`Stream Wrapper <wrapper-stream>`
+   * :ref:`Streamlining <streamlining>`
    * :ref:`Strict Comparison <strict-comparison>`
    * :ref:`String <string>`
    * :ref:`String Increment <string-increment>`
@@ -1322,6 +1347,7 @@ PHP Dictionary
    * :ref:`Token Oriented Object Notation (TOON) <toon>`
    * :ref:`Tokenizer <tokenizer>`
    * :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
+   * :ref:`Tool <tool>`
    * :ref:`Total Cost Of Ownership (TCO) <tco>`
    * :ref:`Trace <trace>`
    * :ref:`Trailing Comma <trailing-comma>`
@@ -1340,6 +1366,7 @@ PHP Dictionary
    * :ref:`Tutorial <tutorial>`
    * :ref:`Type Coverage <type-coverage>`
    * :ref:`Type Error <typerror>`
+   * :ref:`Type Inference <type-inference>`
    * :ref:`Type Invariant <invariant>`
    * :ref:`Type Juggling <type-juggling>`
    * :ref:`Type System <type>`
@@ -1388,6 +1415,7 @@ PHP Dictionary
    * :ref:`unset() <unset>`
 * V
    * :ref:`VCS <vcs>`
+   * :ref:`VCS Commit <vcs-commit>`
    * :ref:`Validation <validation>`
    * :ref:`Value <value>`
    * :ref:`Value Object <value-object>`
@@ -1403,6 +1431,7 @@ PHP Dictionary
    * :ref:`Vector Database <vector-database>`
    * :ref:`Vendor Lock-in <vendor-lockin>`
    * :ref:`Version <version>`
+   * :ref:`Vertical Scaling <vertical-scaling>`
    * :ref:`View <view>`
    * :ref:`View In Presentation <view-presentation>`
    * :ref:`Virtual Machine (VM) <virtual-machine>`
@@ -1415,6 +1444,7 @@ PHP Dictionary
    * :ref:`var_export() <var_export>`
    * :ref:`variable_order <variable_order>`
 * W
+   * :ref:`WHATWG <whatwg>`
    * :ref:`Warning <warning>`
    * :ref:`Waterfall <waterfall>`
    * :ref:`Weak Cryptography <weak-cryptography>`
@@ -1432,6 +1462,7 @@ PHP Dictionary
    * :ref:`Wildcard <wildcard>`
    * :ref:`Word Combination <word-combinaison>`
    * :ref:`Workflow <workflow>`
+   * :ref:`Worktree <worktree>`
    * :ref:`World Wide Web (WWW) <web>`
    * :ref:`Wrapper <wrapper>`
    * :ref:`Wrapper Pattern <wrapper-pattern>`

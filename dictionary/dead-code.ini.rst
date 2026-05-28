@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dead Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 15:24:54 +0000","dateModified":"Tue, 12 May 2026 15:24:54 +0000","description":"Dead code refers to sections of code that are no longer executed or reachable during the program's execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dead Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dead Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:01:20 +0000","dateModified":"Thu, 28 May 2026 07:01:20 +0000","description":"Dead code refers to sections of code that are no longer executed or reachable during the program's execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dead Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dead Code
@@ -44,6 +44,6 @@ Dead code is also known as unused code. It happens to any defined structure. Var
 
 See also `Delete unused code (and how to retrieve it) <https://understandlegacycode.com/blog/delete-unused-code/>`_, `The Art of Code Deletion: Why Removing Code Makes You a Better Developer <https://dev.to/adamgolan/the-art-of-code-deletion-why-removing-code-makes-you-a-better-developer-3cm>`_ and `Unused code detector — How to make your PHP code cleaner <https://medium.com/@pogulailo/unused-code-detector-how-to-make-your-php-code-cleaner-50e6f5cb4109>`_.
 
-Related : :ref:`Zombie Code <zombie-code>`
+Related : :ref:`Zombie Code <zombie-code>`, :ref:`Analysis <analysis>`, :ref:`Habit <habit>`, :ref:`Legacy <legacy>`, :ref:`Unreachable Code <unreachable-code>`
 
 Related packages : `scheb/tombstone <https://packagist.org/packages/scheb/tombstone>`_

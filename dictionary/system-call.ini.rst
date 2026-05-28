@@ -16,20 +16,20 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"System Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 05 May 2026 20:09:15 +0000","dateModified":"Tue, 05 May 2026 20:09:15 +0000","description":"A system call is a call to an operating system function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/System Call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"System Call","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A system call is a call to an operating system function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/System Call.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 System Call
 -----------
 
-A system call is a call to an operating system function. In PHP, those are done with the shell_exec(), system() and exec() functions; and the `` (back tick) operators.
+A system call is a call to an operating system function. In PHP, those are done with the ``shell_exec()``, ``system()`` and ``exec()`` functions; and the `` (back tick) operators.
 
 .. code-block:: php
    
    <?php
    
-   // list files
-   $list = shell_exec('ls -1');
+       // list files
+       $list = shell_exec('ls -1');
    
    ?>
 
@@ -38,4 +38,4 @@ A system call is a call to an operating system function. In PHP, those are done 
 
 See also `Web Shells 101 Using PHP (Web Shells Part 2) <https://www.acunetix.com/blog/articles/web-shells-101-using-php-introduction-web-shells-part-2/>`_.
 
-Related : :ref:`System <system>`, :ref:`System <os>`
+Related : :ref:`System <system>`, :ref:`System <os>`, :ref:`exec <exec>`

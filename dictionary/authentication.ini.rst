@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Authentication","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:53 +0000","dateModified":"Mon, 16 Mar 2026 14:40:53 +0000","description":"Authentication is the proof that a user is indeed who he claims to be","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Authentication.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Authentication","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Authentication is the proof that a user is indeed who he claims to be","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Authentication.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Authentication
@@ -24,8 +24,10 @@ Authentication
 
 Authentication is the proof that a user is indeed who he claims to be. In a couple ``username/password``, the password is the authentication, as only the user is supposed to know it. Identification is the other aspect of the problem.
 
-`Documentation <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`__
+`Documentation <https://en.wikipedia.org/wiki/Authentication>`__
 
-Related : :ref:`Identification <identification>`
+See also `HTTP authentication with PHP <https://www.php.net/manual/en/features.http-auth.php>`_.
+
+Related : :ref:`Identification <identification>`, :ref:`Framework <framework>`, :ref:`hash_equals() <hash_equals>`, :ref:`Null <null>`, :ref:`Privacy <privacy>`
 
 Added in PHP 8.0

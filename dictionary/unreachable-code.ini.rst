@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Unreachable Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 May 2026 16:33:54 +0000","dateModified":"Fri, 01 May 2026 16:33:54 +0000","description":"Unreachable code refers to a section of code within a program that can never be executed during the program's runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unreachable Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Unreachable Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"Unreachable code refers to a section of code within a program that can never be executed during the program's runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unreachable Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unreachable Code
@@ -47,10 +47,12 @@ Unreachable code can occur due to several reasons:
        
        // This is not unreachable, as PHP scoops the definition at linting time
        function foo($s) {
-       	return strtolower($s);
+           return strtolower($s);
        }
    
    ?>
 
+
+`Documentation <https://en.wikipedia.org/wiki/Unreachable_code>`__
 
 Related : :ref:`Dead Code <dead-code>`

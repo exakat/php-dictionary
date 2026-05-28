@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Concurency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"Concurrency is a concept in computing where multiple tasks are in progress at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Concurency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Concurency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Concurrency is a concept in computing where multiple tasks are in progress at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Concurency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Concurency
@@ -34,6 +34,6 @@ PHP uses several ways to handle concurency:
 
 `Documentation <https://en.wikipedia.org/wiki/Concurrency_(computer_science)>`__
 
-See also `FrankenPHP <https://frankenphp.dev/>`_, `swoole <https://wiki.swoole.com/en/#/>`_, `openswoole <https://openswoole.com/>`_, `AMPHP <https://amphp.org/>`_, `Understanding Concurrency in PHP <https://www.honeybadger.io/blog/php-concurrency/>`_ and `Understanding Fibers in PHP: A New Way to Handle Concurrency <https://itsimiro.medium.com/understanding-fibers-in-php-a-new-way-to-handle-concurrency-ed07424320ff>`_.
+See also `FrankenPHP <https://frankenphp.dev/>`_, `swoole <https://wiki.swoole.com/en/#/>`_, `openswoole <https://openswoole.com/>`_, `AMPHP <https://amphp.org/>`_, `Understanding Concurrency in PHP <https://www.honeybadger.io/blog/php-concurrency/>`_, `Understanding Fibers in PHP: A New Way to Handle Concurrency <https://itsimiro.medium.com/understanding-fibers-in-php-a-new-way-to-handle-concurrency-ed07424320ff>`_ and `PHP is 5x Faster Than NestJS? Rethinking High-Load with Swoole <https://dev.to/roman_shneer_9301c1e5f2fd/headline-php-is-5x-faster-than-nestjs-rethinking-high-load-with-swoole-31di>`_.
 
 Related : :ref:`Thread <thread>`, :ref:`Process <process>`, :ref:`Asynchronous <asynchronous>`, :ref:`FastCGI Process Manager (FPM) <fpm>`

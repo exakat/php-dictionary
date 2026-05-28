@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Software Development Kit (SDK)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 13 May 2026 15:09:05 +0000","dateModified":"Wed, 13 May 2026 15:09:05 +0000","description":"SDK stands for Software Development Kit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software Development Kit (SDK).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Software Development Kit (SDK)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"SDK stands for Software Development Kit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software Development Kit (SDK).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Software Development Kit (SDK)
@@ -38,6 +38,6 @@ SDKs are commonly provided by companies or organizations to encourage developers
 
 See also `xai-sdk-php <https://github.com/DisplaceTech/xai-sdk-php>`_.
 
-Related : :ref:`Library <library>`, 
+Related : :ref:`Library <library>`, :ref:`Tool <tool>`
 
 Related packages : `aws/aws-sdk-php <https://packagist.org/packages/aws/aws-sdk-php>`_, `sentry/sentry <https://packagist.org/packages/sentry/sentry>`_, `twilio/sdk <https://packagist.org/packages/twilio/sdk>`_

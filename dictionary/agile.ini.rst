@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Agile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Apr 2026 05:20:32 +0000","dateModified":"Thu, 16 Apr 2026 05:20:32 +0000","description":"Agile refers to a set of software development methodologies that emphasize iterative delivery, collaboration, and adaptability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Agile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Agile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Agile refers to a set of software development methodologies that emphasize iterative delivery, collaboration, and adaptability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Agile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Agile
@@ -44,4 +44,4 @@ Agile is an umbrella term. The fine-grained methodologies include:
 
 See also `Utilize PHP for Agile Software Development <hhttps://echodevelopment.io/blog/how-echodevelopment-io-utilizes-php-for-agile-software-development/>`_, `What Are The 4 Pillars Of Agile Methodology And How It Can Enhance Development Efficiency? <https://www.rabitsolutions.com/blog/what-are-the-4-pillars-of-agile-methodology/>`_ and `Why choose PHP Frameworks for Agile Application Development? <https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6138/Why-choose-PHP-Frameworks-for-Agile-Application-Development.aspx>`_.
 
-Related : :ref:`Waterfall <waterfall>`
+Related : :ref:`Waterfall <waterfall>`, :ref:`Minimum Viable Product (MVP) <mvp>`, :ref:`Software Development Life Cycle (SDLC) <sdlc>`, :ref:`Spiral <spiral>`, :ref:`You Are Not Going To Need It (YAGNI) <yagni>`

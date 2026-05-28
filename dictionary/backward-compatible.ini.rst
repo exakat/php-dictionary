@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Backward Compatible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 May 2026 09:01:06 +0000","dateModified":"Tue, 12 May 2026 09:01:06 +0000","description":"A feature is backward compatible when it can be handled by a previous version than its version of publication","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Backward Compatible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Backward Compatible","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A feature is backward compatible when it can be handled by a previous version than its version of publication","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Backward Compatible.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Backward Compatible
@@ -34,14 +34,16 @@ The contrary of a backward compatible feature is backward incompatible.
    
    <?php
    
-   #[Attribute] // This is backward compatible
-   class X {
-       function foo(#[AttributeForParameter] $a) { // This is not backward compatible
-       
+       #[Attribute] // This is backward compatible
+       class X {
+           function foo(#[AttributeForParameter] $a) { // This is not backward compatible
+           
+           }
        }
-   }
    
    ?>
 
+
+See also `Roave: BackwardCompatibilityCheck <https://github.com/Roave/BackwardCompatibilityCheck>`_.
 
 Related : :ref:`Backward Incompatible <backward-incompatible>`

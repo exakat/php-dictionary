@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Method Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 May 2026 07:54:05 +0000","dateModified":"Sun, 17 May 2026 07:54:05 +0000","description":"The signature of a method or a function is the list of arguments and constraints that apply when calling it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Method Signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Method Signature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:23:50 +0000","dateModified":"Thu, 28 May 2026 07:23:50 +0000","description":"The signature of a method or a function is the list of arguments and constraints that apply when calling it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Method Signature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Method Signature
@@ -26,7 +26,7 @@ Method Signature
 
 The signature of a method or a function is the list of arguments and constraints that apply when calling it. 
 
-In its simplest form, signature of a method is its name, its argument's type and list, though modern syntax also include default values, visibilities, attributes and parameter names.
+In its simplest form, signature of a method is its name, its argument's type and list, though modern syntax also includes default values, visibilities, attributes and parameter names.
 
 Method signature also applies to functions and closures. It may also be referenced as signature.
 

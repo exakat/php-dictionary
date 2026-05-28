@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP, Hypertext Preprocessor (PHP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 May 2026 15:37:23 +0000","dateModified":"Wed, 20 May 2026 15:37:23 +0000","description":"A popular general-purpose scripting language that is especially suited to web development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP, Hypertext Preprocessor (PHP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP, Hypertext Preprocessor (PHP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A popular general-purpose scripting language that is especially suited to web development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP, Hypertext Preprocessor (PHP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP, Hypertext Preprocessor (PHP)
@@ -39,6 +39,6 @@ It was invented by Rasmus Lerdorf, on June 8th, 1995. PHP is a recursive acronym
 
 `Documentation <https://groups.google.com/g/comp.infosystems.www.authoring.cgi/c/PyJ25gZ6z7A/m/M9FkTUVDfcwJ?pli=1>`__
 
-See also `What does PHP mean? <https://www.exakat.io/what-does-php-mean/>`_, `Taking PHP Seriously <https://madewithlove.com/blog/taking-php-seriously/>`_, `Revolutionizing Web Development with the Power of PHP <https://olixlab.com/blog/the-power-of-php-revolutionizing-web-development/>`_ and `What I Learned Implementing the Same Program in Seven Languages <https://matthewsetter.com/blog/item/implement-same-app-in-seven-languages>`_.
+See also `Learn PHP <https://odan.github.io/learn-php/>`_, `What does PHP mean? <https://www.exakat.io/what-does-php-mean/>`_, `Taking PHP Seriously <https://madewithlove.com/blog/taking-php-seriously/>`_, `Revolutionizing Web Development with the Power of PHP <https://olixlab.com/blog/the-power-of-php-revolutionizing-web-development/>`_ and `What I Learned Implementing the Same Program in Seven Languages <https://matthewsetter.com/blog/item/implement-same-app-in-seven-languages>`_.
 
 Related : :ref:`Zend Engine <zend-engine>`

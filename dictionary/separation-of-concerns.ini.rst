@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Separation of Concerns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 May 2026 08:48:57 +0000","dateModified":"Tue, 26 May 2026 08:48:57 +0000","description":"Separation of concerns is a design principle that advocates dividing a software system into distinct sections, each addressing a distinct concern","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Separation of Concerns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Separation of Concerns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:21:19 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Separation of concerns is a design principle that advocates dividing a software system into distinct sections, each addressing a distinct concern","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Separation of Concerns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Separation of Concerns
@@ -55,6 +55,6 @@ Violations of this principle often manifest as God Classes or functions that mix
 
 `Documentation <https://en.wikipedia.org/wiki/Separation_of_concerns>`__
 
-See also `Separation of concerns in PHP <https://phptherightway.com/>`_ and `On the Criteria To Be Used in Decomposing Systems into Modules <https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf>`_.
+See also `Code Decoupling and Modularization in PHP <https://codesignal.com/learn/courses/refactoring-code-for-readability-and-maintainability-6/lessons/code-decoupling-and-modularization-in-php>`_ and `On the Criteria To Be Used in Decomposing Systems into Modules <https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf>`_.
 
 Related : :ref:`SOLID <solid>`, :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`God Object <god-object>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Coupling <coupling>`, :ref:`Decoupling <decoupling>`, , :ref:`Abstraction <abstraction>`, :ref:`Onion Architecture <onion-architecture>`

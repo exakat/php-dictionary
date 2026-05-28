@@ -64,6 +64,7 @@ Index
    dictionary/alias.ini
    dictionary/allowdynamicproperties.ini
    dictionary/alternative-syntax.ini
+   dictionary/analysis.ini
    dictionary/and.ini
    dictionary/annotation.ini
    dictionary/anonymize.ini
@@ -117,6 +118,7 @@ Index
    dictionary/artifact.ini
    dictionary/as.ini
    dictionary/ascii.ini
+   dictionary/aspect-oriented.ini
    dictionary/aspect-programming.ini
    dictionary/assertion.ini
    dictionary/asset.ini
@@ -137,6 +139,7 @@ Index
    dictionary/authentication.ini
    dictionary/authorize.ini
    dictionary/auto_prepend_file.ini
+   dictionary/autocompletion.ini
    dictionary/autoload.ini
    dictionary/automagic.ini
    dictionary/automatic-index.ini
@@ -237,6 +240,7 @@ Index
    dictionary/clean-code.ini
    dictionary/cli.ini
    dictionary/client.ini
+   dictionary/clock.ini
    dictionary/clone.ini
    dictionary/close-naming.ini
    dictionary/close-tag.ini
@@ -344,6 +348,7 @@ Index
    dictionary/database.ini
    dictionary/dataset.ini
    dictionary/datastack.ini
+   dictionary/datastructure.ini
    dictionary/date.ini
    dictionary/dateinterval.ini
    dictionary/datetime-trap.ini
@@ -392,6 +397,7 @@ Index
    dictionary/desktop-app.ini
    dictionary/destructor.ini
    dictionary/deterministic.ini
+   dictionary/devops.ini
    dictionary/dictionary.ini
    dictionary/diff.ini
    dictionary/digital-signature.ini
@@ -490,6 +496,7 @@ Index
    dictionary/exec.ini
    dictionary/execution-path.ini
    dictionary/execution-time.ini
+   dictionary/execution.ini
    dictionary/existence.ini
    dictionary/exit.ini
    dictionary/explicit-boolean-comparison.ini
@@ -604,7 +611,9 @@ Index
    dictionary/hexadecimal-integer.ini
    dictionary/hexagonal.ini
    dictionary/hg.ini
+   dictionary/hoisting.ini
    dictionary/honeypot.ini
+   dictionary/horizontal-scaling.ini
    dictionary/hosting.ini
    dictionary/hrtime.ini
    dictionary/htaccess.ini
@@ -669,6 +678,7 @@ Index
    dictionary/initialisation.ini
    dictionary/injection.ini
    dictionary/inlining.ini
+   dictionary/insecure-deserialization.ini
    dictionary/instance.ini
    dictionary/instanceof.ini
    dictionary/insteadof.ini
@@ -679,6 +689,7 @@ Index
    dictionary/internals.ini
    dictionary/internationalization.ini
    dictionary/internet.ini
+   dictionary/interoperability.ini
    dictionary/interpolation.ini
    dictionary/interpreted.ini
    dictionary/intersection-type.ini
@@ -723,6 +734,7 @@ Index
    dictionary/leading-numeric-string.ini
    dictionary/leading-zero-means-octal.ini
    dictionary/leak.ini
+   dictionary/legacy.ini
    dictionary/lengthexception.ini
    dictionary/letter-logical.ini
    dictionary/lexical.ini
@@ -737,6 +749,7 @@ Index
    dictionary/linting.ini
    dictionary/liskov.ini
    dictionary/list.ini
+   dictionary/listener.ini
    dictionary/literal-types.ini
    dictionary/literal.ini
    dictionary/llm.ini
@@ -780,6 +793,7 @@ Index
    dictionary/memory.ini
    dictionary/memory_limit.ini
    dictionary/merge.ini
+   dictionary/message-bus.ini
    dictionary/message-queue.ini
    dictionary/method-collision.ini
    dictionary/method-compatibility.ini
@@ -1014,6 +1028,7 @@ Index
    dictionary/print.ini
    dictionary/print_r.ini
    dictionary/printf.ini
+   dictionary/privacy.ini
    dictionary/private.ini
    dictionary/procedural-programming.ini
    dictionary/process.ini
@@ -1025,6 +1040,7 @@ Index
    dictionary/propagation.ini
    dictionary/property-hook.ini
    dictionary/property.ini
+   dictionary/proprietary-source.ini
    dictionary/protected.ini
    dictionary/protocol.ini
    dictionary/proxy.ini
@@ -1032,7 +1048,9 @@ Index
    dictionary/pseudo-variable.ini
    dictionary/psr.ini
    dictionary/public.ini
+   dictionary/pubsub.ini
    dictionary/pure-function.ini
+   dictionary/pwa.ini
    dictionary/quality.ini
    dictionary/query-string.ini
    dictionary/query.ini
@@ -1083,6 +1101,7 @@ Index
    dictionary/renderer.ini
    dictionary/repl.ini
    dictionary/reserved-name.ini
+   dictionary/resource-leak.ini
    dictionary/resource.ini
    dictionary/responsability.ini
    dictionary/response.ini
@@ -1092,6 +1111,7 @@ Index
    dictionary/return-value.ini
    dictionary/return.ini
    dictionary/returntypewillchange.ini
+   dictionary/reverse-regex.ini
    dictionary/revision.ini
    dictionary/rfc.ini
    dictionary/rfchange.ini
@@ -1099,6 +1119,7 @@ Index
    dictionary/rich-text.ini
    dictionary/rigidity.ini
    dictionary/robots.txt.ini
+   dictionary/rollback.ini
    dictionary/rounding.ini
    dictionary/route.ini
    dictionary/rpc.ini
@@ -1121,6 +1142,7 @@ Index
    dictionary/scope.ini
    dictionary/sdk.ini
    dictionary/sdlc.ini
+   dictionary/search-engine.ini
    dictionary/second-order-sql-injection.ini
    dictionary/secret.ini
    dictionary/security.ini
@@ -1174,6 +1196,7 @@ Index
    dictionary/sleep.ini
    dictionary/smtp.ini
    dictionary/snake-case.ini
+   dictionary/snapshot.ini
    dictionary/snmp.ini
    dictionary/snmp3.ini
    dictionary/soap.ini
@@ -1185,6 +1208,8 @@ Index
    dictionary/spaceship.ini
    dictionary/special-constant.ini
    dictionary/special-typehint.ini
+   dictionary/specification.ini
+   dictionary/spiral.ini
    dictionary/spl.ini
    dictionary/spldoublylinkedlist.ini
    dictionary/splstack.ini
@@ -1226,6 +1251,7 @@ Index
    dictionary/str_ends_with.ini
    dictionary/str_starts_with.ini
    dictionary/stream.ini
+   dictionary/streamlining.ini
    dictionary/strict-comparison.ini
    dictionary/strict_types.ini
    dictionary/string-increment.ini
@@ -1294,6 +1320,7 @@ Index
    dictionary/token.ini
    dictionary/tokenizer.ini
    dictionary/toml.ini
+   dictionary/tool.ini
    dictionary/toon.ini
    dictionary/trace.ini
    dictionary/trailing-comma.ini
@@ -1317,6 +1344,7 @@ Index
    dictionary/type-coverage.ini
    dictionary/type-declaration-property.ini
    dictionary/type-erasure.ini
+   dictionary/type-inference.ini
    dictionary/type-juggling.ini
    dictionary/type.ini
    dictionary/typed-constant.ini
@@ -1372,10 +1400,12 @@ Index
    dictionary/variable.ini
    dictionary/variable_order.ini
    dictionary/variadic.ini
+   dictionary/vcs-commit.ini
    dictionary/vcs.ini
    dictionary/vector-database.ini
    dictionary/vendor-lockin.ini
    dictionary/version.ini
+   dictionary/vertical-scaling.ini
    dictionary/view-presentation.ini
    dictionary/view-sql.ini
    dictionary/view.ini
@@ -1401,12 +1431,14 @@ Index
    dictionary/webshell.ini
    dictionary/websocket.ini
    dictionary/wet.ini
+   dictionary/whatwg.ini
    dictionary/while.ini
    dictionary/whitespace.ini
    dictionary/wildcard.ini
    dictionary/wither.ini
    dictionary/word-combinaison.ini
    dictionary/workflow.ini
+   dictionary/worktree.ini
    dictionary/wrapper-designpattern.ini
    dictionary/wrapper-file.ini
    dictionary/wrapper-ftp.ini

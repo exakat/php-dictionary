@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Linting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 15:21:22 +0000","dateModified":"Tue, 14 Apr 2026 15:21:22 +0000","description":"Linting is the process to turn the Text file that holds the source code, into tokens","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Linting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Linting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Linting is the process to turn the Text file that holds the source code, into tokens","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Linting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Linting
@@ -35,6 +35,6 @@ Linting is sometimes mistaken with ``compile``: linting is a part of a compilati
 
 See also `PHP linting for PHP version compatibility <https://docs.wpvip.com/wordpress-on-vip/php/versions/php-linting-scans/>`_ and `PHP 8.3: PHP CLI Lint (php -l) supports linting multiple files at once <https://php.watch/versions/8.3/cli-lint-multiple-files>`_.
 
-Related : :ref:`Compile <compile>`
+Related : :ref:`Compile <compile>`, :ref:`Analysis <analysis>`, :ref:`Bug <bug>`, :ref:`Enumeration Case <enum-case>`, :ref:`Tool <tool>`
 
 Related packages : `php-parallel-lint/php-code-style <https://packagist.org/packages/php-parallel-lint/php-code-style>`_

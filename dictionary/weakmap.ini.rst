@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weakmap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 May 2026 05:28:57 +0000","dateModified":"Fri, 15 May 2026 05:28:57 +0000","description":"``WeakMap`` is a special object type introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Weakmap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"``WeakMap`` is a special object type introduced in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Weakmap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Weakmap
@@ -50,6 +50,6 @@ They may be considered as an associative array, where the keys must be objects. 
 
 `Documentation <https://www.php.net/manual/en/class.weakmap.php>`__
 
-See also `Hacking PHP’s WeakMap for Value Object D× <https://withinboredom.info/posts/hacking-phps-weakmap-for-value-object-dx/>`_ and ` WeakMaps a hidden gem in PHP <https://flareapp.io/blog/weakmaps-a-hidden-gem-in-php>`_.
+See also `Hacking PHP’s WeakMap for Value Object D× <https://withinboredom.info/posts/hacking-phps-weakmap-for-value-object-dx/>`_ and `WeakMaps a hidden gem in PHP <https://flareapp.io/blog/weakmaps-a-hidden-gem-in-php>`_.
 
 Related : :ref:`Array <array>`, :ref:`SplStorageObjects <splstorageobjects>`, :ref:`Garbage Collection <garbage-collection>`

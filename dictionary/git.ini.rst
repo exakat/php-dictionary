@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"git","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:40:57 +0000","dateModified":"Mon, 16 Mar 2026 14:40:57 +0000","description":"Git is a distributed version control system that is widely used for tracking changes in source code during software development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/git.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"git","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Git is a distributed version control system that is widely used for tracking changes in source code during software development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/git.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 git
@@ -26,6 +26,8 @@ Git is a distributed version control system that is widely used for tracking cha
 
 `Documentation <https://git-scm.com/>`__
 
-Related : :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Revision <revision>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`VCS <vcs>`
+See also `php-src on git <https://github.com/php/php-src>`_.
+
+Related : :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Revision <revision>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`VCS <vcs>`, :ref:`DevOps <devops>`, :ref:`Rollback <rollback>`, :ref:`VCS Commit <vcs-commit>`, :ref:`Worktree <worktree>`
 
 Related packages : `czproject/git-php <https://packagist.org/packages/czproject/git-php>`_, `gitonomy/gitlib <https://packagist.org/packages/gitonomy/gitlib>`_

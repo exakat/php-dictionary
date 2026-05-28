@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Apr 2026 15:44:27 +0000","dateModified":"Tue, 14 Apr 2026 15:44:27 +0000","description":"Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Scaling refers to the ability of am application to handle increased workload or traffic while maintaining performance, availability, and reliability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Scaling
@@ -28,4 +28,4 @@ There are several aspects to consider when scaling an application: vertical scal
 
 See also `Scaling PHP Applications: Strategies for High Traffic and Performance <https://medium.com/@london.lingo.01/scaling-php-applications-strategies-for-high-traffic-and-performance-e20bd80aa466>`_, `Horizontally Scaling PHP Applications <https://www.digitalocean.com/blog/horizontally-scaling-php-applications>`_ and `Building Scalable PHP Applications: Best Practices for Performance and Security <https://dev.to/olatejuthedev/building-scalable-php-applications-best-practices-for-performance-and-security-56jj>`_.
 
-Related : :ref:`Performance <performance>`, :ref:`Architecture <architecture>`, , 
+Related : :ref:`Performance <performance>`, :ref:`Architecture <architecture>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Vertical Scaling <vertical-scaling>`

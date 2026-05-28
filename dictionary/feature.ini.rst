@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Feature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Feature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Feature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:12:07 +0000","dateModified":"Thu, 28 May 2026 06:12:07 +0000","description":"A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Feature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Feature
@@ -28,4 +28,4 @@ Software features can vary widely depending on the type of application and its i
 
 Developers prioritize and implement features based on user needs, market demand, and the overall vision for the software. As software evolves, new features may be added to enhance its functionality or to keep up with advancements in technology and user expectations. Additionally, user feedback and requests often play a role in determining which features get added or improved in future updates of the software.
 
-See also `Can I PHP <https://caniphp.com/>`_ and `Top 10 PHP Features You Can Use in 2024 <https://backpackforlaravel.com/articles/tips-and-tricks/top-10-php-features-you-can-use-in-2024>`_.
+See also `Can I PHP <https://caniphp.com/>`_, `Top 10 PHP Features You Can Use in 2024 <https://backpackforlaravel.com/articles/tips-and-tricks/top-10-php-features-you-can-use-in-2024>`_ and `Lines of code and PHP Features <https://github.com/tomasVotruba/lines>`_.

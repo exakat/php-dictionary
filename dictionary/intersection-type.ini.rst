@@ -18,17 +18,21 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 16 Mar 2026 14:46:29 +0000","dateModified":"Mon, 16 Mar 2026 14:46:29 +0000","description":"Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:25:52 +0000","dateModified":"Thu, 28 May 2026 06:25:52 +0000","description":"Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Intersection Type
 -----------------
 
-Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type. The individual types are separated with the & operator. 
+Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type. The individual types are separated with the ``&`` operator.
 
-The value typed with an intersection type must satisfy all the types at the same time. 
+The value typed with an intersection type must satisfy all the types at the same time.
 
-Intersection types don't work with scalar values, which are excluding one another. It works with polymorphism, where one object may be of several types at the same time, when implementing interfaces.
+Intersection types only accept class and interface types: scalars (``int``, ``string``, ``bool``, etc.), ``null``, ``false``, ``true``, and ``void`` are not allowed, as a single value cannot simultaneously be of two scalar types. Redundant types are also rejected (e.g., ``A&A``).
+
+Intersection types work well with polymorphism: an object that implements multiple interfaces satisfies an intersection type naturally.
+
+PHP 8.2 introduced Disjunctive Normal Form (DNF) types, which combine intersection and union types, such as ``(A&B)|null``.
 
 .. code-block:: php
    
@@ -47,6 +51,6 @@ Intersection types don't work with scalar values, which are excluding one anothe
 
 See also `How the New Intersection Types in PHP 8.1 Give You More Flexibility <https://www.howtogeek.com/devops/how-the-new-intersection-types-in-php-8-1-give-you-more-flexibility/>`_.
 
-Related : :ref:`Type System <type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Named Type <named-type>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`
+Related : :ref:`Type System <type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Named Type <named-type>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Union Type <union-type>`, :ref:`Interface <interface>`, :ref:`Polymorphism <polymorphism>`, :ref:`Nullable <nullable>`, :ref:`Return Type <return-type>`, :ref:`TypeError <typeerror>`
 
 Added in PHP 8.1

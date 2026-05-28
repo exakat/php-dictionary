@@ -9,6 +9,7 @@ List of acronyms, used in this dictionary.
 + :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
 + :ref:`Application Performance Management (APM) <apm>`
 + :ref:`Architectural Decision Record (ADR) <adr>`
++ :ref:`Artificial Intelligence (AI) <ai>`
 + :ref:`Class Interface Trait Enumeration (CITE) <cite>`
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
@@ -79,6 +80,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`Plain Old PHP Object (POPO) <popo>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
++ :ref:`Progressive Web App <pwa>`
 + :ref:`Pull Request (PR) <pr>`
 + :ref:`RACI Model <raci>`
 + :ref:`RFC <rfc>`
@@ -166,6 +168,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Asset <asset>`
 + :ref:`Audit <audit>`
 + :ref:`Authorize <authorize>`
++ :ref:`Autocompletion <autocompletion>`
 + :ref:`Autowiring <autowiring>`
 + :ref:`Backed <backed>`
 + :ref:`Backend <backend>`
@@ -234,6 +237,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
++ :ref:`Execution <execution>`
 + :ref:`Existence <existence>`
 + :ref:`Explicit <explicit>`
 + :ref:`Expression <expression>`
@@ -247,6 +251,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
 + :ref:`Heuristics <heuristic>`
++ :ref:`Hoisting <hoisting>`
 + :ref:`Hydratation <hydrate>`
 + :ref:`Idempotent <idempotent>`
 + :ref:`Immutable <immutable>`
@@ -307,7 +312,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Polling <polling>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
++ :ref:`Progressive Web App <pwa>`
 + :ref:`Promise <promise>`
++ :ref:`Proprietary Source <proprietary-source>`
 + :ref:`Protocol <protocol>`
 + :ref:`Quality <quality>`
 + :ref:`Readable <readable>`
@@ -319,6 +326,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Registry <registry>`
 + :ref:`Render <render>`
 + :ref:`Renderer <renderer>`
++ :ref:`Resource Leak <resource-leak>`
 + :ref:`Rich Text <rich-text>`
 + :ref:`SOLID <solid>`
 + :ref:`Sandbox <sandbox>`
@@ -549,6 +557,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Stringable <stringable>`
 + :ref:`True <true>`
 + :ref:`Type Coverage <type-coverage>`
++ :ref:`Type Inference <type-inference>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
 + :ref:`Type System <type>`

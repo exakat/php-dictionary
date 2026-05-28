@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"REST API","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 May 2026 08:44:19 +0000","dateModified":"Thu, 21 May 2026 08:44:19 +0000","description":"REST stands for Representational state transfer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/REST API.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"REST API","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"REST stands for Representational state transfer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/REST API.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 REST API
@@ -37,4 +37,4 @@ REST APIs are documented with OpenAPI, aka swagger.
 
 See also `How To Use Web APIs in PHP 8.0 <https://www.digitalocean.com/community/tutorials/how-to-use-web-apis-in-php-8-0>`_ and `OpenAPIs <https://www.openapis.org/>`_.
 
-Related : :ref:`Application Programming Interface (API) <api>`, :ref:`GraphQL <graphql>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Swagger <swagger>`, :ref:`WebRTC <webrtc>`
+Related : :ref:`Application Programming Interface (API) <api>`, :ref:`GraphQL <graphql>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Swagger <swagger>`, :ref:`WebRTC <webrtc>`, :ref:`Application <application>`, :ref:`Mobile Application <mobile-app>`, :ref:`Progressive Web App <pwa>`, :ref:`Web Application <web-app>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch Fallthrough","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Apr 2026 09:35:21 +0000","dateModified":"Mon, 13 Apr 2026 09:35:21 +0000","description":"A fallthrough is the absence of break, or equivalent, at the end of a switch case","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch Fallthrough.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch Fallthrough","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:24:14 +0000","dateModified":"Thu, 28 May 2026 07:24:14 +0000","description":"A fallthrough is the absence of break, or equivalent, at the end of a switch case","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch Fallthrough.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Switch Fallthrough
@@ -24,7 +24,7 @@ Switch Fallthrough
 
 A fallthrough is the absence of break, or equivalent, at the end of a switch case. That way, the execution continues on the next case. 
 
-While this is an intended feature, and is useful to reduce code, it tends to surprise programmers, which expect the cases to always end.
+While this is an intended feature, and is useful to reduce code, it tends to surprise programmers, who expect the cases to always end.
 
 .. code-block:: php
    
@@ -33,7 +33,7 @@ While this is an intended feature, and is useful to reduce code, it tends to sur
    switch ($a) {
        case 1:
            $a = 2 * $a;
-           // fallthrough here : the execution continue
+           // fallthrough here : the execution continues
            
        case 2:
            $a = $a + 1;
