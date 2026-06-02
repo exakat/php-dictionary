@@ -1,5 +1,4 @@
 .. _iac:
-.. _IaC:
 .. meta::
 	:description:
 		Infrastructure as Code (IaC): Infrastructure as Code, aka IaC, is the practice of managing and provisioning infrastructure through machine-readable configuration files rather than manual processes or interactive configuration tools.
@@ -17,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Infrastructure as Code (IaC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:16:31 +0000","dateModified":"Fri, 29 May 2026 09:16:31 +0000","description":"Infrastructure as Code, aka IaC, is the practice of managing and provisioning infrastructure through machine-readable configuration files rather than manual processes or interactive configuration tools","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Infrastructure as Code (IaC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Infrastructure as Code (IaC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:20:23 +0000","dateModified":"Tue, 02 Jun 2026 17:20:23 +0000","description":"Infrastructure as Code, aka IaC, is the practice of managing and provisioning infrastructure through machine-readable configuration files rather than manual processes or interactive configuration tools","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Infrastructure as Code (IaC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Infrastructure as Code (IaC)

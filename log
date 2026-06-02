@@ -1532,13 +1532,7 @@ reading sources... [100%] introduction
 reading sources... [100%] list
 reading sources... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary/composer.ini.rst:29: WARNING: Inline literal start-string without end-string. [docutils]
-/Users/famille/Desktop/php-dictionary/dictionary/composer.ini.rst:29: WARNING: Inline literal start-string without end-string. [docutils]
-/Users/famille/Desktop/php-dictionary/dictionary/iac.ini.rst:2: WARNING: Duplicate explicit target name: "iac". [docutils]
-/Users/famille/Desktop/php-dictionary/dictionary/proxy-class.ini.rst:25: WARNING: Duplicate explicit target name: "ocramius/proxy-manager". [docutils]
 /Users/famille/Desktop/php-dictionary/dictionary/spiral.ini.rst:25: WARNING: Duplicate explicit target name: "spiral framework". [docutils]
-/Users/famille/Desktop/php-dictionary/dictionary/unique-identifier.ini.rst:23: WARNING: Duplicate explicit target name: "ramsey/uuid". [docutils]
-/Users/famille/Desktop/php-dictionary/dictionary/whatwg.ini.rst:24: WARNING: Duplicate explicit target name: "whatwg". [docutils]
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -3080,20 +3074,10 @@ writing output... [100%] introduction
 writing output... [100%] list
 writing output... [100%] thesaurus
 
-/Users/famille/Desktop/php-dictionary/dictionary.rst:705: WARNING: undefined label: 'iac' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary.rst:1502: WARNING: undefined label: 'whatwg' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary/devops.ini.rst:42: WARNING: undefined label: 'iac' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary/encoding.ini.rst:35: WARNING: undefined label: 'whatwg' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary/html.ini.rst:44: WARNING: undefined label: 'whatwg' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary/http.ini.rst:35: WARNING: undefined label: 'whatwg' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary/stream.ini.rst:51: WARNING: undefined label: 'whatwg' [ref.ref]
-/Users/famille/Desktop/php-dictionary/dictionary/web.ini.rst:32: WARNING: undefined label: 'whatwg' [ref.ref]
-/Users/famille/Desktop/php-dictionary/thesaurus.rst:53: WARNING: undefined label: 'iac' [ref.ref]
-/Users/famille/Desktop/php-dictionary/thesaurus.rst:286: WARNING: undefined label: 'iac' [ref.ref]
 generating indices... genindex done
 writing additional pages... search done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 17 warnings.
+build succeeded, 1 warning.
 
 The HTML pages are in build/html.

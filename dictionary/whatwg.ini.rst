@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"WHATWG","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:29:36 +0000","dateModified":"Thu, 28 May 2026 06:56:53 +0000","description":"WHATWG, the Web Hypertext Application Technology Working Group, is a community that develops and maintains web standards, including the HTML Living Standard, DOM, Fetch, URL, and Streams specifications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WHATWG.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"WHATWG","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:21:56 +0000","dateModified":"Tue, 02 Jun 2026 17:21:56 +0000","description":"WHATWG, the Web Hypertext Application Technology Working Group, is a community that develops and maintains web standards, including the HTML Living Standard, DOM, Fetch, URL, and Streams specifications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WHATWG.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 WHATWG
@@ -31,6 +31,6 @@ PHP developers encounter WHATWG specifications when implementing URL parsing com
 
 `Documentation <https://whatwg.org/>`__
 
-See also `WHATWG <https://whatwg.org/>`_, `HTML Living Standard <https://html.spec.whatwg.org/>`_ and `WHATWG URL Standard <https://url.spec.whatwg.org/>`_.
+See also `WHATWG home page <https://whatwg.org/>`_, `HTML Living Standard <https://html.spec.whatwg.org/>`_ and `WHATWG URL Standard <https://url.spec.whatwg.org/>`_.
 
 Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`Stream <stream>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Encoding <encoding>`, :ref:`Standard <standard>`

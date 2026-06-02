@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Unique Identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 07:06:26 +0000","dateModified":"Mon, 01 Jun 2026 07:06:26 +0000","description":"A unique identifier is a value that distinguishes one entity from all others within a given scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unique Identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Unique Identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:21:29 +0000","dateModified":"Tue, 02 Jun 2026 17:21:29 +0000","description":"A unique identifier is a value that distinguishes one entity from all others within a given scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unique Identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unique Identifier
@@ -52,7 +52,7 @@ In PHP, ``uniqid()`` generates a time-based string, while UUID generation is pro
 
 `Documentation <https://en.wikipedia.org/wiki/Unique_identifier>`__
 
-See also `ramsey/uuid <https://github.com/ramsey/uuid>`_ and `ULID specification <https://github.com/ulid/spec>`_.
+See also `ULID specification <https://github.com/ulid/spec>`_.
 
 Related : :ref:`Universally Unique IDentifier (UUID) <uuid>`, :ref:`Slug <slug>`, :ref:`Database <database>`, :ref:`Identifier <identifier>`
 
