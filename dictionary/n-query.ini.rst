@@ -38,4 +38,4 @@ As a result, the code ends up performing ``N+1`` queries, hence the name of ``N+
 
 See also `Here's How You Can Stop N+1 Queries Forever <https://hackernoon.com/heres-how-you-can-stop-n1-queries-forever>`_, `Eloquent Performance: 4 Examples of N+1 Query Problems <https://laravel-news.com/laravel-n1-query-problems>`_ and `The N+1 Query Problem <https://lighthouse-php.com/master/performance/n-plus-one.html>`_.
 
-Related : :ref:`Loops <loop>`, :ref:`Batch <batch>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Simple Query Language (SQL) <sql>`
+Related : :ref:`Loops <loop>`, :ref:`Batch <batch>`, :ref:`Object Relational Mapping (ORM) <orm>`, :ref:`Structured Query Language (SQL) <sql>`

@@ -68,4 +68,4 @@ It doesn't affect CLI scripts (no browser to buffer for).
 
 See also `PHP - simple way to send HTTP headers before a script ends <https://shkspr.mobi/blog/2026/05/php-simple-way-to-send-http-headers-before-a-script-ends/>`_ and `What is output buffering <https://notlaura.com/output-buffering/>`_.
 
-Related : 
+Related : :ref:`Headers <headers>`

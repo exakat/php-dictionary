@@ -1,5 +1,6 @@
 .. _sca:
 .. _static-code-analysis:
+.. _static-analysis:
 .. meta::
 	:description:
 		Static Code Analysis (SCA): Static code analysis, or SCA, analyze the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc.
@@ -17,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Code Analysis (SCA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Static code analysis, or SCA, analyze the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Code Analysis (SCA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Code Analysis (SCA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:12:31 +0000","dateModified":"Mon, 01 Jun 2026 09:12:31 +0000","description":"Static code analysis, or SCA, analyze the source code: it reports possible bugs, conventions violations, incorrect structures, vulnerabilities, versions or OS portability incompatibilities, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Code Analysis (SCA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Static Code Analysis (SCA)
@@ -29,6 +30,6 @@ PHP includes static code analysis, by reporting a wide range of errors before ex
 
 SCA is usually invoked manually, during development time, at commit time, to avoid pushing incorrect code, and in CI/CD pipelines, to ensure it was correctly run.
 
-Related : :ref:`Analysis <analysis>`, :ref:`Audit <audit>`
+Related : :ref:`Analysis <analysis>`, :ref:`Audit <audit>`, :ref:`Autocompletion <autocompletion>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Static Single Assignment Form (SSA) <ssa>`, :ref:`Tool <tool>`, :ref:`Type Checking <type-checking>`
 
 Related packages : `phpstan/phpstan <https://packagist.org/packages/phpstan/phpstan>`_, `phan/phan <https://packagist.org/packages/phan/phan>`_, `psalm/psalm <https://packagist.org/packages/psalm/psalm>`_, `exakat/exakat <https://packagist.org/packages/exakat/exakat>`_, `mago/mago <https://packagist.org/packages/mago/mago>`_

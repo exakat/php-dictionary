@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Terminal User Interface (TUI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"A Terminal User Interface, or TUI for short, is a type of user interface that uses text-based graphics and keyboard interaction within a terminal or console, providing a richer experience than a plain CLI while avoiding the overhead of a graphical desktop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Terminal User Interface (TUI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Terminal User Interface (TUI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 17:32:26 +0000","dateModified":"Mon, 01 Jun 2026 17:32:26 +0000","description":"A Terminal User Interface, or TUI for short, is a type of user interface that uses text-based graphics and keyboard interaction within a terminal or console, providing a richer experience than a plain CLI while avoiding the overhead of a graphical desktop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Terminal User Interface (TUI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Terminal User Interface (TUI)
@@ -29,4 +29,4 @@ See also `php-tui <https://github.com/php-tui/php-tui>`_ and `Introducing the Sy
 
 Related : :ref:`Command Line Interface (CLI) <cli>`, :ref:`Server Application Programming Interface (SAPI) <sapi>`, :ref:`Desktop Application <desktop-app>`
 
-Related packages : `php-tui/php-tui <https://packagist.org/packages/php-tui/php-tui>`_
+Related packages : `php-tui/php-tui <https://packagist.org/packages/php-tui/php-tui>`_, `thermage/thermage <https://packagist.org/packages/thermage/thermage>`_

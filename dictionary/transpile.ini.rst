@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transpile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"Transpiling, short for \"source-to-source compiling,\" is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transpile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transpile","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:12:31 +0000","dateModified":"Mon, 01 Jun 2026 09:12:31 +0000","description":"Transpiling, short for \"source-to-source compiling,\" is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transpile.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Transpile
@@ -33,4 +33,4 @@ There are also languages that are converted to PHP, such as Haxe.
 
 See also `Online PHP to Kotlin Converter <https://www.codeconvert.ai/php-to-kotlin-converter>`_, `PHP to Rust via Copilot <https://joeferguson.me/php-to-rust-via-copilot/>`_ and `Haxe to PHP <https://haxe.org/>`_.
 
-Related : :ref:`Compile <compile>`, :ref:`Linting <lint>`, :ref:`Syntax <syntax>`
+Related : :ref:`Compile <compile>`, :ref:`Linting <lint>`, :ref:`Syntax <syntax>`, :ref:`Interpreted <interpreted>`, :ref:`PHP Runtime <php-runtime>`, :ref:`Source Code <source>`, :ref:`Types Erasure <type-erasure>`

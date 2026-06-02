@@ -1,25 +1,25 @@
 .. _constant-combinaison:
 .. meta::
 	:description:
-		Constant Combinaison: PHP combines predefined constants using bitwise operators.
+		Constant Combination: PHP combines predefined constants using bitwise operators.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Constant Combinaison
-	:twitter:description: Constant Combinaison: PHP combines predefined constants using bitwise operators
+	:twitter:title: Constant Combination
+	:twitter:description: Constant Combination: PHP combines predefined constants using bitwise operators
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Constant Combinaison
+	:og:title: Constant Combination
 	:og:type: article
 	:og:description: PHP combines predefined constants using bitwise operators
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/constant-combinaison.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constant Combinaison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"PHP combines predefined constants using bitwise operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constant Combinaison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constant Combination","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:06:43 +0000","dateModified":"Fri, 29 May 2026 05:06:43 +0000","description":"PHP combines predefined constants using bitwise operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constant Combination.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Constant Combinaison
+Constant Combination
 --------------------
 
 PHP combines predefined constants using bitwise operators. This is heavily used with error level constants, file permissions, and various flags.
@@ -32,9 +32,9 @@ Exclude one flag, with the ``~`` tilde operator: ``E_ALL & ~E_WARNING``.
 
 Toggle flags, with the ``^``xor operator: ``E_ALL ^ E_WARNING``.
 
-These combinaisons are possible when the constants are distinct powers of 2. That way, combining ``E_WARNING = 2   // 0010`` and ``E_NOTICE  = 8   // 1000`` gives ``E_WARNING | E_NOTICE = 10  // 1010 (both bits set)``.
+These combinations are possible when the constants are distinct powers of 2. That way, combining ``E_WARNING = 2   // 0010`` and ``E_NOTICE  = 8   // 1000`` gives ``E_WARNING | E_NOTICE = 10  // 1010 (both bits set)``.
 
-Constant combinaison is used with such functions as ``error_reporting()``, ``phpcredits()``, ``htmlentities()``, ``sort()`` though not with all constants, etc.
+Constant combination is used with such functions as ``error_reporting()``, ``phpcredits()``, ``htmlentities()``, ``sort()`` though not with all constants, etc.
 
 .. code-block:: php
    

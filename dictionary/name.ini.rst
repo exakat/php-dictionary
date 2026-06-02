@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A name is a generic coding concept: it is a short and human handle to designate a larger or variable structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:45:26 +0000","dateModified":"Sun, 31 May 2026 07:45:26 +0000","description":"A name is a generic coding concept: it is a short and human handle to designate a larger or variable structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Name
@@ -32,13 +32,13 @@ Names usually require to be unique within a piece of code: this is the case for 
    
    <?php
    
-   // here, foo is the name of a function
-   function foo() {}
-   
-   // the name is used to call the function
-   foo();
+       // here, foo is the name of a function
+       function foo() {}
+       
+       // the name is used to call the function
+       foo();
    
    ?>
 
 
-Related : :ref:`Namespaces <namespace>`, :ref:`Anonymous <anonymous>`, :ref:`Case Sensitivity <case-sensitivity>`, :ref:`Namespace Name <namespace-name>`, :ref:`Structure <structure>`, :ref:`Word Combination <word-combinaison>`
+Related : :ref:`Namespaces <namespace>`, :ref:`Anonymous <anonymous>`, :ref:`Case Sensitivity <case-sensitivity>`, :ref:`Namespace Name <namespace-name>`, :ref:`Structure <structure>`, :ref:`Word Combination <word-combinaison>`, :ref:`Close Naming <close-naming>`, :ref:`Naming Conflict <naming-conflict>`, :ref:`Reserved Names <reserved-name>`, :ref:`Semantics <semantics>`

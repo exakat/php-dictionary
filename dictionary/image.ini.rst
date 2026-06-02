@@ -30,4 +30,4 @@ Images may be different things:
 
 See also `How to Store Images in SQLite with PHP <https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php>`_.
 
-Related : , , , , , , :ref:`Docker Container <docker-container>`
+Related : :ref:`JPEG <jpg>`, :ref:`PNG <png>`, :ref:`GIF <gif>`, :ref:`Scalable Vector Graphics (SVG) <svg>`, , , :ref:`Docker Container <docker-container>`

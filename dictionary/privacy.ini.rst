@@ -1,7 +1,7 @@
 .. _privacy:
-.. _data privacy:
+.. _data-privacy:
 .. _gdpr:
-.. _personal data:
+.. _personal-data:
 .. meta::
 	:description:
 		Privacy: Privacy in software refers to the protection of personal and sensitive user data.
@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Too few arguments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Too few arguments.html","name":"Privacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Privacy in software refers to the protection of personal and sensitive user data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Privacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Too few arguments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Too few arguments.html","name":"Privacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:42:46 +0000","dateModified":"Tue, 02 Jun 2026 16:42:46 +0000","description":"Privacy in software refers to the protection of personal and sensitive user data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Privacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Privacy
@@ -30,7 +30,7 @@ Privacy in software refers to the protection of personal and sensitive user data
 In PHP applications, privacy considerations include:
 
 + Minimising data collection: only collecting data that is strictly necessary
-+ Encryption: storing sensitive data (passwords, PII) in encrypted or hashed form
++ Encryption: storing sensitive data, such as passwords, secrets, personal informatin, in encrypted or hashed form
 + Anonymisation and pseudonymisation: replacing identifying information with tokens or hashes
 + Consent management: obtaining and recording user consent before collecting data
 + Data retention policies: deleting data after its retention period expires
@@ -67,4 +67,4 @@ PHP's ``SensitiveParameter`` attribute prevents sensitive argument values from a
 
 See also `GDPR full text <https://gdpr-info.eu/>`_, `PHP SensitiveParameter attribute <https://www.php.net/manual/en/class.sensitiveparameter.php>`_ and `OWASP Privacy Risks <https://owasp.org/www-project-top-10-privacy-risks/>`_.
 
-Related : :ref:`Security <security>`, :ref:`Compliance <compliance>`, :ref:`Anonymize <anonymize>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Cryptography <cryptography>`, :ref:`Audit Trail <audit-trail>`, :ref:`Authentication <authentication>`, :ref:`Data Leak <data-leak>`, :ref:`Privacy <gdpr>`
+Related : :ref:`Security <security>`, :ref:`Compliance <compliance>`, :ref:`Anonymize <anonymize>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Cryptography <cryptography>`, :ref:`Audit Trail <audit-trail>`, :ref:`Authentication <authentication>`, :ref:`Data Leak <data-leak>`

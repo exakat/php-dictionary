@@ -54,6 +54,6 @@ The list of implemented interfaces is accessible with the class_implements() fun
 
 See also `PHP Interfaces: How to Implement and Use Them <https://medium.com/@andreibirta95/php-interfaces-how-to-implement-and-use-them-58c8b0648480>`_.
 
-Related : :ref:`Class <class>`, :ref:`Class Getter Method <getter>`, :ref:`extends <extends>`, 
+Related : :ref:`Class <class>`, :ref:`Class Getter Method <getter>`, :ref:`extends <extends>`, :ref:`class_implements() <class_implements>`
 
 Added in PHP 5.0+

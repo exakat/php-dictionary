@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Snapshot","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:32:06 +0000","dateModified":"Thu, 28 May 2026 06:32:06 +0000","description":"A snapshot captures the complete state of an object or aggregate at a specific point in time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Snapshot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Snapshot","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 10:15:13 +0000","dateModified":"Thu, 28 May 2026 10:15:13 +0000","description":"A snapshot captures the complete state of an object or aggregate at a specific point in time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Snapshot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Snapshot
@@ -44,7 +44,7 @@ The Memento design pattern is the classical OOP formalization of the snapshot co
    ?>
 
 
-See also `Snapshotting in Event Sourcing <https://event-driven.io/en/how_to_do_snapshots_in_event_sourcing/>`_ and `Spatie Snapshot Testing <https://github.com/spatie/pest-plugin-snapshots>`_.
+See also `Spatie Snapshot Testing <https://github.com/spatie/pest-plugin-snapshots>`_.
 
 Related : :ref:`Event Sourcing <event-sourcing>`, :ref:`Immutable <immutable>`, :ref:`Serialization <serialization>`, :ref:`Test <test>`, :ref:`Design Pattern <design-pattern>`, :ref:`Object Persistence <object-persistence>`, :ref:`Domain Design Driven (DDD) <ddd>`
 

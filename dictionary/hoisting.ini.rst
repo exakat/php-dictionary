@@ -1,34 +1,34 @@
 .. _hoisting:
 .. meta::
 	:description:
-		Hoisting: Hoisting is a language feature where declarations (variables, functions, classes…) are automatically moved to the top of their scope before code execution.
+		Hoisting: Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Hoisting
-	:twitter:description: Hoisting: Hoisting is a language feature where declarations (variables, functions, classes…) are automatically moved to the top of their scope before code execution
+	:twitter:description: Hoisting: Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hoisting
 	:og:type: article
-	:og:description: Hoisting is a language feature where declarations (variables, functions, classes…) are automatically moved to the top of their scope before code execution
+	:og:description: Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hoisting.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hoisting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Hoisting is a language feature where declarations (variables, functions, classes\u2026) are automatically moved to the top of their scope before code execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hoisting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hoisting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 10:24:53 +0000","dateModified":"Thu, 28 May 2026 10:24:53 +0000","description":"Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hoisting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hoisting
 --------
 
-Hoisting is a language feature where declarations (variables, functions, classes…) are automatically moved to the top of their scope before code execution. It is notably a JavaScript feature.
+Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution. It is notably a JavaScript feature and not a PHP feature.
 
 PHP does not support hoisting for variables: a variable must be assigned before it is read, or it will be undefined.
 
 PHP functions are pre-compiled and can be called before their textual declaration in the same file, which may look like hoisting but is actually the result of PHP's two-pass compilation model.
 
-PHP classes are not hoisted either: a class must be declared — or reachable via autoloading — before it is instantiated.
+PHP classes are not hoisted either: a class must be declared, autoloaded, before it is instantiated.
 
 .. code-block:: php
    

@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Path","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A path is a representation of the location of a file or directory within the directory structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Path.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Path","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:07:22 +0000","dateModified":"Fri, 29 May 2026 05:07:22 +0000","description":"A path is a representation of the location of a file or directory within the directory structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Path.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Path
 ----
 
-A path is a representation of the location of a file or directory within the directory structure. It describes the route or sequence of directories  one must navigate from the root directory to reach a specific file or directory. There are two types of paths:
+A path is a representation of the location of a file or directory within the directory structure. It describes the route or sequence of directories one must navigate from the root directory to reach a specific file or directory. There are two types of paths:
 
 + Absolute Path: This provides the complete path from the root directory to the specific file or directory. For example, in Unix-like systems, an absolute path might look like ``/home/user/documents/file.txt`` or in Windows, it might look like ``C:\Users\User\Documents\file.txt``.
 + Relative Path: This specifies the location of a file or directory relative to the current working directory. It doesn't start from the root directory but describes the path relative to the current directory . For example, if the current working directory is ``/home/user/`` and there is a file in the ``documents`` directory, the relative path might be ``documents/file.txt`` in Unix-like systems.

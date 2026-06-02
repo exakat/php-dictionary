@@ -35,4 +35,4 @@ The alternative is to output to logs, or return the results.
 
 See also `PHP: The Flexibility that can Make or Break your Team Project <https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen>`_.
 
-Related : :ref:`Interface <interface>`, , :ref:`Relay Function <relay-function>`, :ref:`Rigidity <rigidity>`
+Related : :ref:`Interface <interface>`, :ref:`Proxy Class <proxy-class>`, :ref:`Relay Function <relay-function>`, :ref:`Rigidity <rigidity>`

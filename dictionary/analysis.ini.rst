@@ -1,6 +1,4 @@
 .. _analysis:
-.. _static analysis:
-.. _code analysis:
 .. meta::
 	:description:
 		Analysis: Analysis in software development refers to the systematic examination of source code, runtime behaviour, or architecture to detect issues, measure quality, or derive understanding.
@@ -18,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Analysis in software development refers to the systematic examination of source code, runtime behaviour, or architecture to detect issues, measure quality, or derive understanding","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:03:42 +0000","dateModified":"Tue, 02 Jun 2026 17:03:42 +0000","description":"Analysis in software development refers to the systematic examination of source code, runtime behaviour, or architecture to detect issues, measure quality, or derive understanding","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Analysis
@@ -51,7 +49,7 @@ Architectural analysis focuses on the relationships between components, coupling
 
 `Documentation <https://phpstan.org/>`__
 
-See also `PHPStan <https://phpstan.org/>`_, `Psalm <https://psalm.dev/>`_, `Phan <https://github.com/phanstatic/phan>`_ and `Exakat <https://www.exakat.io/>`_.
+See also `PHPStan <https://phpstan.org/>`_, `Psalm <https://psalm.dev/>`_ and `Exakat <https://www.exakat.io/>`_.
 
 Related : :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Linting <linting>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Metrics <metrics>`, :ref:`Quality <quality>`, :ref:`Code Review <code-review>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Dead Code <dead-code>`, :ref:`Type Coverage <type-coverage>`
 

@@ -30,6 +30,6 @@ Alternatives to RBAC include Attribute Based Access Control for granular, rule-b
 
 See also `Implementing Role-Based Access Control (RBAC) in PHP <https://medium.com/@wwwebadvisor/implementing-role-based-access-control-rbac-in-php-85c0ea7bc86b>`_.
 
-Related : :ref:`Permission <permission>`, 
+Related : :ref:`Permission <permission>`, :ref:`Access Control List (ACL) <acl>`
 
 Related packages : `zizaco/entrust <https://packagist.org/packages/zizaco/entrust>`_, `spatie/laravel-permission <https://packagist.org/packages/spatie/laravel-permission>`_, `casbin/casbin <https://packagist.org/packages/casbin/casbin>`_

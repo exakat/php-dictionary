@@ -55,6 +55,6 @@ A common mistake is to compare hashes with ``===``, which is semantically correc
 
 See also `Timing attacks explained <https://codahale.com/a-lesson-in-timing-attacks/>`_.
 
-Related : :ref:`Timing Attack <timing-attack>`, :ref:`Hash Comparisons <hash-comparison>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Authentication <authentication>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`Security <security>`, 
+Related : :ref:`Timing Attack <timing-attack>`, :ref:`Hash Comparisons <hash-comparison>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Authentication <authentication>`, :ref:`Cross Site Request Forgery (CSRF) <csrf>`, :ref:`Security <security>`, :ref:`HMAC <hmac>`
 
 Added in PHP 5.6

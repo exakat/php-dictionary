@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The PHP engine, often referred to as the PHP interpreter, is the core component of the PHP programming language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:13:44 +0000","dateModified":"Mon, 01 Jun 2026 09:13:44 +0000","description":"The PHP engine, often referred to as the PHP interpreter, is the core component of the PHP programming language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Engine
@@ -29,4 +29,4 @@ It is also called the php binary, or the PHP executable, although these names re
 
 `Documentation <https://www.php.net/manual/en/install.general.php>`__
 
-Related : :ref:`PHP RFC <php-rfc>`, :ref:`User Operations For Zend (UOPZ) <uopz>`, :ref:`Virtual Machine (VM) <virtual-machine>`, :ref:`Zend Engine <zend-engine>`, :ref:`Virtual Machine (VM) <runtime>`, :ref:`PHP RFC <php-rfc>`, :ref:`User Operations For Zend (UOPZ) <uopz>`, :ref:`Virtual Machine (VM) <virtual-machine>`, :ref:`Zend Engine <zend-engine>`
+Related : :ref:`PHP RFC <php-rfc>`, :ref:`User Operations For Zend (UOPZ) <uopz>`, :ref:`Virtual Machine (VM) <virtual-machine>`, :ref:`Zend Engine <zend-engine>`, :ref:`Virtual Machine (VM) <runtime>`

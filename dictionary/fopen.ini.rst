@@ -42,4 +42,4 @@ fopen()
 
 See also `PHP Open File <https://www.phptutorial.net/php-tutorial/php-open-file/>`_.
 
-Related : :ref:`File <file>`, :ref:`Writing <write>`, :ref:`Permission <permission>`, :ref:`Writeable <writeable>`, :ref:`Readable <readable>`, , :ref:`$http_response_header <$http_response_header>`, :ref:`File Mode <file-mode>`, :ref:`Resource Leak <resource-leak>`, :ref:`Text <text>`
+Related : :ref:`File <file>`, :ref:`Writing <write>`, :ref:`Permission <permission>`, :ref:`Writeable <writeable>`, :ref:`Readable <readable>`, :ref:`SplFileObject <splfileobject>`, :ref:`$http_response_header <$http_response_header>`, :ref:`File Mode <file-mode>`, :ref:`Resource Leak <resource-leak>`, :ref:`Text <text>`

@@ -43,13 +43,17 @@ List of acronyms, used in this dictionary.
 + :ref:`Foreign Function Interface (FFI) <ffi>`
 + :ref:`Framework Interoperability Group (FIG) <php-fig>`
 + :ref:`Functional Programming <functional-programming>`
++ :ref:`GIF <gif>`
 + :ref:`GNU Multiple Precision (GMP) <gmp>`
 + :ref:`Graphic Draw (GD) <gd>`
++ :ref:`HMAC <hmac>`
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
 + :ref:`HyperText Markup Language (HTML) <html>`
++ :ref:`Infrastructure as Code (IaC) <iac>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
 + :ref:`Internet Protocol (IP) <ip>`
++ :ref:`JPEG <jpg>`
 + :ref:`JSON Lines (JSONC) <jsonc>`
 + :ref:`JSON Lines (JSONL) <jsonl>`
 + :ref:`JavaScript Object Notation (JSON) <json>`
@@ -69,7 +73,9 @@ List of acronyms, used in this dictionary.
 + :ref:`OOP (Object Oriented Programming) <oop>`
 + :ref:`OWASP <owasp>`
 + :ref:`Object Relational Mapping (ORM) <orm>`
++ :ref:`One-Time Password (OTP) <otp>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
++ :ref:`PDF <pdf>`
 + :ref:`PEAR <pear>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`
@@ -77,6 +83,7 @@ List of acronyms, used in this dictionary.
 + :ref:`PHP RFC <php-rfc>`
 + :ref:`PHP Standards Recommendations (PSR) <psr>`
 + :ref:`PHP, Hypertext Preprocessor (PHP) <php>`
++ :ref:`PNG <png>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`Plain Old PHP Object (POPO) <popo>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
@@ -93,6 +100,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Reserved For Future Use (RFU) <rfu>`
 + :ref:`Retrieval Augmented Generation (RAG) <rag>`
 + :ref:`Role Based Access Control (RBAC) <rbac>`
++ :ref:`Scalable Vector Graphics (SVG) <svg>`
 + :ref:`Search Engine Optimization (SEO) <seo>`
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
@@ -100,7 +108,6 @@ List of acronyms, used in this dictionary.
 + :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
-+ :ref:`Simple Query Language (SQL) <sql>`
 + :ref:`Single Page Application (SPA) <spa>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Single Sign On (SSO) <sso>`
@@ -110,6 +117,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Static Application Security Testing (SAST) <sast>`
 + :ref:`Static Code Analysis (SCA) <sca>`
 + :ref:`Static Single Assignment Form (SSA) <ssa>`
++ :ref:`Structured Query Language (SQL) <sql>`
 + :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Terminal User Interface (TUI) <tui>`
 + :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
@@ -152,8 +160,10 @@ Concept
 List of concept, which are applied to PHP, but not exclusive to it.
 
 + :ref:`$this <$this>`
++ :ref:`AJAX <ajax>`
 + :ref:`Abstraction <abstraction>`
 + :ref:`Abstraction Layer <abstraction-layer>`
++ :ref:`Access Control List (ACL) <acl>`
 + :ref:`Accessibility <accessibility>`
 + :ref:`Active Record <active-record>`
 + :ref:`Algorithm <algorithm>`
@@ -166,20 +176,24 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Arm <arm>`
 + :ref:`Artifact <artifact>`
 + :ref:`Asset <asset>`
++ :ref:`Atomic Operation <atomic-operation>`
 + :ref:`Audit <audit>`
 + :ref:`Authorize <authorize>`
 + :ref:`Autocompletion <autocompletion>`
 + :ref:`Autowiring <autowiring>`
 + :ref:`Backed <backed>`
 + :ref:`Backend <backend>`
++ :ref:`Base <base>`
 + :ref:`Batch <batch>`
 + :ref:`Benchmarking <benchmarking>`
 + :ref:`Big-o-notation <big-o-notation>`
 + :ref:`Blind Variable <blind-key>`
++ :ref:`Blocking Wait <blocking-wait>`
 + :ref:`Boilerplate <boilerplate>`
 + :ref:`Bucket <bucket>`
 + :ref:`Bug <bug>`
 + :ref:`Business Logic <business-logic>`
++ :ref:`Cancellation <cancellation>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
 + :ref:`Class <class>`
@@ -188,7 +202,11 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Class Wither Method <wither>`
 + :ref:`Clone <clone>`
 + :ref:`Close Naming <close-naming>`
++ :ref:`Cloud <cloud>`
 + :ref:`Code Smell <code-smell>`
++ :ref:`Cohesion <cohesion>`
++ :ref:`Column Database <column-database>`
++ :ref:`Command <command>`
 + :ref:`Command Bus <command-bus>`
 + :ref:`Compatibility <compatibility>`
 + :ref:`Compile <compile>`
@@ -200,6 +218,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Consistency <consistency>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Constructor <constructor>`
++ :ref:`Contribution <contribution>`
 + :ref:`Controller <controller>`
 + :ref:`Convention <convention>`
 + :ref:`Convert <convert>`
@@ -207,6 +226,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Coupling <coupling>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Custom <custom>`
++ :ref:`Custom Function <custom-function>`
 + :ref:`Data Container <data-container>`
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Database <database>`
@@ -248,6 +268,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
++ :ref:`Future <future>`
++ :ref:`Graph <graph>`
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
 + :ref:`Heuristics <heuristic>`
@@ -261,8 +283,11 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Index <index>`
 + :ref:`Infinite <infinite>`
 + :ref:`Infinite Loop <infinite-loop>`
++ :ref:`Infrastructure as Code (IaC) <iac>`
 + :ref:`Injection <injection>`
++ :ref:`Instruction <instruction>`
 + :ref:`Internet <internet>`
++ :ref:`Introspection <introspection>`
 + :ref:`Jobqueue <jobqueue>`
 + :ref:`Jump <jump>`
 + :ref:`Large Language Model (LLM) <llm>`
@@ -287,6 +312,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Monomorphization <monomorphization>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
++ :ref:`Name Conventions <name-convention>`
 + :ref:`Native <native>`
 + :ref:`Network <network>`
 + :ref:`Neutral Element <neutral-element>`
@@ -331,15 +357,18 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`SOLID <solid>`
 + :ref:`Sandbox <sandbox>`
 + :ref:`Scaffolding <scaffolding>`
++ :ref:`Scalable Vector Graphics (SVG) <svg>`
 + :ref:`Schema <schema>`
 + :ref:`Scheme <scheme>`
 + :ref:`Scope <scope>`
 + :ref:`Security <security>`
 + :ref:`Semantics <semantics>`
-+ :ref:`Separation of Concerns <separation-of-concerns>`
++ :ref:`Separation Of Concerns <separation-of-concerns>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
++ :ref:`Slug <slug>`
 + :ref:`Software Development Kit (SDK) <sdk>`
++ :ref:`Source Code <source>`
 + :ref:`Standard <standard>`
 + :ref:`State <state>`
 + :ref:`Stateful <stateful>`
@@ -349,17 +378,22 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Subnamespaces <subnamespace>`
 + :ref:`TODO <todo>`
 + :ref:`Taint Analysis <taint>`
++ :ref:`Technical Reference <technical-reference>`
 + :ref:`Template <template>`
++ :ref:`Test Framework <test-framework>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text <text>`
 + :ref:`Text Encoding <encoding-text>`
 + :ref:`To Crypt <crypt>`
 + :ref:`To Decrypt <decrypt>`
++ :ref:`Transaction <transaction>`
 + :ref:`Traversal <traversal>`
 + :ref:`Truthy <truthy>`
 + :ref:`Tutorial <tutorial>`
++ :ref:`Type Checking <type-checking>`
 + :ref:`Undefined <undefined>`
 + :ref:`Underflow <underflow>`
++ :ref:`Unique Identifier <unique-identifier>`
 + :ref:`Universally Unique IDentifier (UUID) <uuid>`
 + :ref:`Unreachable Code <unreachable-code>`
 + :ref:`Unused <unused>`
@@ -556,6 +590,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Standalone Types <standalone-type>`
 + :ref:`Stringable <stringable>`
 + :ref:`True <true>`
++ :ref:`Type Checking <type-checking>`
 + :ref:`Type Coverage <type-coverage>`
 + :ref:`Type Inference <type-inference>`
 + :ref:`Type Invariant <invariant>`

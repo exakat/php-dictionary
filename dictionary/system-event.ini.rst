@@ -29,4 +29,4 @@ By default, PHP reacts to system events. It may also handle those events by conf
 
 See also `A Guide to the PHP PCNTL Library for Process Forking and Control <https://reintech.io/blog/guide-to-php-pcntl-library-for-process-forking-and-control>`_.
 
-Related : :ref:`PHP Handlers <handler>`, :ref:`Process Control (pcntl) <pcntl>`, 
+Related : :ref:`PHP Handlers <handler>`, :ref:`Process Control (pcntl) <pcntl>`, :ref:`pcntl_signal() <pcntl_signal>`

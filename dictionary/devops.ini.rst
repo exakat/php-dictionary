@@ -39,6 +39,6 @@ Key DevOps practices relevant to PHP projects include:
 
 See also `What is DevOps? (GitLab) <https://about.gitlab.com/topics/devops/>`_ and `GitHub Actions for PHP <https://github.com/shivammathur/setup-php>`_.
 
-Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Deployment <deploy>`, :ref:`Docker Container <docker-container>`, :ref:`Tool <tool>`, :ref:`Monitoring <monitoring>`, , :ref:`git <git>`, :ref:`Software Development Life Cycle (SDLC) <sdlc>`, 
+Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Deployment <deploy>`, :ref:`Docker Container <docker-container>`, :ref:`Tool <tool>`, :ref:`Monitoring <monitoring>`, , :ref:`git <git>`, :ref:`Software Development Life Cycle (SDLC) <sdlc>`, :ref:`Infrastructure as Code (IaC) <iac>`
 
 Related packages : `deployer/deployer <https://packagist.org/packages/deployer/deployer>`_

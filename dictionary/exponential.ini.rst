@@ -45,6 +45,6 @@ Exponential calculations may also be lead with the constant ``M_E`` and the oper
 
 See also `PHP Math Functions: A Comprehensive Guide with Examples <https://codingeasypeasy.com/blog/php-math-functions-a-comprehensive-guide-with-examples/>`_.
 
-Related : :ref:`Exponent <**>`, , :ref:`E <e>`, :ref:`Logarithm <logarithm>`, :ref:`sqrt() <sqrt>`, :ref:`Star * <star>`
+Related : :ref:`Exponent <**>`, :ref:`Exponent <pow>`, :ref:`E <e>`, :ref:`Logarithm <logarithm>`, :ref:`sqrt() <sqrt>`, :ref:`Star * <star>`
 
 Added in PHP 8.1

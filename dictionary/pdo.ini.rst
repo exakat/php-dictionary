@@ -49,4 +49,4 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 
 `Documentation <https://www.php.net/manual/en/book.pdo.php>`__
 
-Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Data Access Object (DAO) <dao>`, :ref:`Resource Leak <resource-leak>`, :ref:`Rollback <rollback>`, :ref:`Simple Query Language (SQL) <sql>`, :ref:`SQLite3 <sqlite3>`
+Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Data Access Object (DAO) <dao>`, :ref:`Resource Leak <resource-leak>`, :ref:`Rollback <rollback>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`SQLite3 <sqlite3>`

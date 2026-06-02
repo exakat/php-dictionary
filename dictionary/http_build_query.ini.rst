@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"http_build_query()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The http_build_query() function in PHP is used to generate a URL-encoded query string from an associative array (or object)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/http_build_query().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"http_build_query()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:12:38 +0000","dateModified":"Tue, 02 Jun 2026 17:12:38 +0000","description":"The http_build_query() function in PHP is used to generate a URL-encoded query string from an associative array (or object)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/http_build_query().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 http_build_query()
@@ -34,12 +34,12 @@ The reverse function for http_build_query() is parse_str(), which converts a que
    
    <?php
    
-   enum A: int {
-       case A = 1;
-   }
-   
-   print http_build_query(['x' => A::A, 'b' => 3]);
-   //    x=1&b=3
+       enum A: int {
+           case A = 1;
+       }
+       
+       print http_build_query(['x' => A::A, 'b' => 3]);
+       //    x=1&b=3
    
    ?>
 
@@ -48,4 +48,4 @@ The reverse function for http_build_query() is parse_str(), which converts a que
 
 See also `Mastering PHP's `http_build_query()` Function for URL Manipulation <https://reintech.io/blog/mastering-php-http-build-query-function>`_.
 
-Related : :ref:`Enumeration (enum) <enum>`, :ref:`Backed Enum <backed-enum>`, :ref:`parse_str() <parse_str>`
+Related : :ref:`Enumeration (enum) <enum>`, :ref:`Backed Enum <backed-enum>`, :ref:`parse_str() <parse_str>`, :ref:`Anchor <anchor>`, :ref:`parse_url() <parse_url>`, :ref:`Separator <separator>`, :ref:`Universal Resource Locator (URL) <url>`

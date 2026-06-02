@@ -55,4 +55,4 @@ In particular, it provides the following structures:
 
 See also `ext-ds <https://www.geeksforgeeks.org/php/php-dsset-functions-complete-reference/>`_.
 
-Related : :ref:`Collection <collection>`, , :ref:`Hash <hash>`, :ref:`Stack <stack>`, :ref:`Queue <queue>`, , 
+Related : :ref:`Collection <collection>`, , :ref:`Hash <hash>`, :ref:`Stack <stack>`, :ref:`Queue <queue>`, :ref:`Pair <pair>`, 

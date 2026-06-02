@@ -1,28 +1,28 @@
 .. _array_search:
 .. meta::
 	:description:
-		array_search: ``array_search()`` is a built-in PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found.
+		array_search: ``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: array_search
-	:twitter:description: array_search: ``array_search()`` is a built-in PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found
+	:twitter:description: array_search: ``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: array_search
 	:og:type: article
-	:og:description: ``array_search()`` is a built-in PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found
+	:og:description: ``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array_search.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_search","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``array_search()`` is a built-in PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_search.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_search","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:47:31 +0000","dateModified":"Tue, 02 Jun 2026 16:47:31 +0000","description":"``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_search.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_search
 ------------
 
-``array_search()`` is a built-in PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found.
+``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found.
 
 It is often used to check if a value exists in an array. When the presence of the value is the main goal of the check, it is advantageously replaced by ``in_array()``. Otherwise, this function is prone to the same trap as ``strpos()``: the returned key may be ``0``, the first element, which is confused with ``false`` in a loose comparison.
 

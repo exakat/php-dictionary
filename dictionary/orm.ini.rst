@@ -32,6 +32,6 @@ PHP has several ORM: ``Doctrine``, ``Redbean``, ``Eloquent``, ``Propel``, etc..
 
 See also `PDO in PHP <https://www.php.net/manual/en/book.pdo.php>`_.
 
-Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, :ref:`Data Mapper <object-mapper>`, :ref:`Code Generator <code-generator>`, :ref:`Data Mapper <data-mapper>`, :ref:`N+1 Query Problem <n-query>`, :ref:`Simple Query Language (SQL) <sql>`
+Related : :ref:`Database Abstraction Layer (DBAL) <dbal>`, :ref:`Data Mapper <object-mapper>`, :ref:`Code Generator <code-generator>`, :ref:`Data Mapper <data-mapper>`, :ref:`N+1 Query Problem <n-query>`, :ref:`Structured Query Language (SQL) <sql>`
 
 Related packages : `doctrine/orm <https://packagist.org/packages/doctrine/orm>`_, `illuminate/database <https://packagist.org/packages/illuminate/database>`_, `propel/propel <https://packagist.org/packages/propel/propel>`_, `gabordemooij/redbean <https://packagist.org/packages/gabordemooij/redbean>`_, `thecodingmachine/tdbm <https://packagist.org/packages/thecodingmachine/tdbm>`_

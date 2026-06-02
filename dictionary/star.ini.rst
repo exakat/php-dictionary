@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Star *","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``*`` is a character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Star *.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Star *","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:22:16 +0000","dateModified":"Fri, 29 May 2026 09:22:16 +0000","description":"``*`` is a character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Star *.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Star *
@@ -32,7 +32,7 @@ Star *
 + as a wildcard in ``fnmatch()`` calls
 + as a wildcard for all columns in SQL queries: ``SELECT * FROM table``
 + as a quantifier in regex: 0 or more, i.e. ``/a*/``
-+ as part of a multiline comment with ``/** */`` and ``/* */``
++ as part of a multiline comment with ``/** */`` and ``/* */``.
 
 
 .. code-block:: php
@@ -51,4 +51,4 @@ Star *
    ?>
 
 
-Related : :ref:`Multiplication <multiplication>`, :ref:`Comments <comment>`, :ref:`Exponential <exponential>`, :ref:`Regular Expression <regex>`, :ref:`Simple Query Language (SQL) <sql>`, :ref:`glob() <glob>`, :ref:`fnmatch() <fnmatch>`
+Related : :ref:`Multiplication <multiplication>`, :ref:`Comments <comment>`, :ref:`Exponential <exponential>`, :ref:`Regular Expression <regex>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`glob() <glob>`, :ref:`fnmatch() <fnmatch>`

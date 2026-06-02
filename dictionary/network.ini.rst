@@ -33,4 +33,4 @@ The network notion may also be generalized as a collection of objects with commo
 
 `Documentation <https://en.wikipedia.org/wiki/Computer_network>`__
 
-Related : , :ref:`World Wide Web (WWW) <web>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Internet <internet>`
+Related : :ref:`Graph <graph>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Internet <internet>`

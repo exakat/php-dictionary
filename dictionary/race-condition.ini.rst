@@ -44,4 +44,4 @@ Race conditions may be migitated by using atomic operations, transactions, locks
 
 See also `PHP Race Condition Vulnerability Example <http://blog.hoangdoan.io/2015/11/php-race-condition-vulnerability-example.html>`_, `PHP MySQLi - Race condition 🏁 <https://github.com/wzul/PHP-MySQLi-Race-Condition>`_ and `Symfony Lock + Workflow: Taming the Race Condition that will hit you in production <https://nicolas-jourdan.medium.com/symfony-lock-workflow-taming-the-race-condition-that-will-hit-you-in-production-d04613e0b6a8>`_.
 
-Related : , , :ref:`Lock <lock>`, , :ref:`Session <session>`, :ref:`Security <security>`, :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
+Related : :ref:`Atomic Operation <atomic-operation>`, :ref:`Unique Identifier <unique-identifier>`, :ref:`Lock <lock>`, :ref:`Transaction <transaction>`, :ref:`Session <session>`, :ref:`Security <security>`, :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`

@@ -31,4 +31,4 @@ Hence, query has several usages:
 + HTTP query, when processing or submitting command via HTTP
 + LDAP query, when communicating with a LDAP server.
 
-Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Query String <query-string>`, :ref:`Client <client>`, :ref:`parse_str() <parse_str>`, :ref:`Response <response>`, :ref:`Server <server>`
+Related : :ref:`Structured Query Language (SQL) <sql>`, :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Query String <query-string>`, :ref:`Client <client>`, :ref:`parse_str() <parse_str>`, :ref:`Response <response>`, :ref:`Server <server>`

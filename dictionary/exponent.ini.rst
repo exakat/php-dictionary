@@ -2,6 +2,7 @@
 .. _**:
 .. _power:
 .. _exponentiation:
+.. _pow:
 .. meta::
 	:description:
 		Exponent: Exponent is the mathematical operation to raise a number to the power of another number.
@@ -19,7 +20,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exponent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Exponent is the mathematical operation to raise a number to the power of another number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exponent.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Exponent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:34:33 +0000","dateModified":"Sun, 31 May 2026 07:34:33 +0000","description":"Exponent is the mathematical operation to raise a number to the power of another number","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Exponent.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Exponent
@@ -27,7 +28,7 @@ Exponent
 
 Exponent is the mathematical operation to raise a number to the power of another number. 
 
-There are two possibilities to use this operation: the ``**`` operator, and the ``pow()`` function.
+There are two possibilities to use this operation: the ``**`` operator, and the ``pow()`` native function.
 
 .. code-block:: php
    
@@ -42,4 +43,4 @@ There are two possibilities to use this operation: the ``**`` operator, and the 
 
 `Documentation <https://www.php.net/manual/en/language.operators.arithmetic.php>`__
 
-Related : :ref:`Multiplication <multiplication>`, :ref:`Division <division>`
+Related : :ref:`Multiplication <multiplication>`, :ref:`Division <division>`, 

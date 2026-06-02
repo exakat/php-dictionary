@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected namespaced name \"%s\", expecting \"function\".html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected namespaced name \"%s\", expecting \"function\".html","name":"Naming Conflict","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:24:49 +0000","dateModified":"Thu, 28 May 2026 07:24:49 +0000","description":"A naming conflict appears when two structures of the same type are using the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Naming Conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected namespaced name \"%s\", expecting \"function\".html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/syntax error, unexpected namespaced name \"%s\", expecting \"function\".html","name":"Naming Conflict","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:44:59 +0000","dateModified":"Sun, 31 May 2026 07:44:59 +0000","description":"A naming conflict appears when two structures of the same type are using the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Naming Conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Naming Conflict
@@ -34,11 +34,13 @@ Sometimes, PHP offers a mechanism to resolve conflicts. This is the case for met
    
    <?php
    
-   $a = 1;
-   $a = 2; // $a is two, the first one is forgotten
-   
-   function foo() {}
-   function foo() {} // Fatal error
+       $a = 1;
+       $a = 2; // $a is two, the first one is forgotten
+       
+       function foo() {}
+       function foo() {} // Fatal error
    
    ?>
 
+
+Related : :ref:`Name <name>`, :ref:`Functions <function>`, :ref:`Class <class>`, :ref:`Namespaces <namespace>`

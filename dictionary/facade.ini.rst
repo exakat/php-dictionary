@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Facade","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A facade provides a simplified interface to a complex library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Facade.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Facade","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:25:25 +0000","dateModified":"Sun, 31 May 2026 08:25:25 +0000","description":"A facade provides a simplified interface to a complex library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Facade.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Facade
@@ -31,3 +31,5 @@ The Laravel framework is known for its intensive usage of facades.
 `Documentation <https://refactoring.guru/design-patterns/facade/php/example>`__
 
 See also `Facades @ Laravel <https://laravel.com/docs/9.x/facades>`_ and `Facade @ design pattern PHP <https://designpatternsphp.readthedocs.io/en/latest/Structural/Facade/README.html>`_.
+
+Related : :ref:`Abstraction <abstraction>`, :ref:`Adapters <adapter>`, :ref:`Decorator Pattern <decorator>`, :ref:`Design Pattern <design-pattern>`, :ref:`Interface <interface>`, :ref:`Laravel <laravel>`, :ref:`Proxy <proxy>`, :ref:`Wrapper <wrapper>`

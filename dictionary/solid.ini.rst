@@ -38,4 +38,4 @@ The opposite of SOLID is STUPID.
 
 See also `Solid Relevance <https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html>`_, `SOLID principles in PHP <https://dev.to/devlinaung/solid-principles-in-php-363j>`_ and `STUPID Versus SOLID Programming <https://medium.com/unity-coder-corner/stupid-versus-solid-programming-7c0826d125a0>`_.
 
-Related : :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Open Closed Principle (OCP) <ocp>`, :ref:`LSP <lsp>`, :ref:`Interface Segregation Principle (ISP) <isp>`, :ref:`Dependency Injection <dip>`, :ref:`__invoke() Method <-__invoke>`, :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`Responsability <responsability>`, :ref:`Separation of Concerns <separation-of-concerns>`
+Related : :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`Open Closed Principle (OCP) <ocp>`, :ref:`LSP <lsp>`, :ref:`Interface Segregation Principle (ISP) <isp>`, :ref:`Dependency Injection <dip>`, :ref:`__invoke() Method <-__invoke>`, :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`Responsability <responsability>`, :ref:`Separation Of Concerns <separation-of-concerns>`

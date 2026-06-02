@@ -68,4 +68,4 @@ Several PHP native functions include polling as a configuration: ``curl_multi_se
 
 See also `stream_select <https://www.php.net/manual/en/function.stream-select.php>`_ and `pcntl_waitpid <https://www.php.net/manual/en/function.pcntl-waitpid.php>`_.
 
-Related : :ref:`sleep <sleep>`, :ref:`Stream <stream>`, :ref:`Socket <socket>`, :ref:`Event Driven <event-driven>`, 
+Related : :ref:`sleep <sleep>`, :ref:`Stream <stream>`, :ref:`Socket <socket>`, :ref:`Event Driven <event-driven>`, :ref:`Blocking Wait <blocking-wait>`

@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Permission","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A permission is the approval or consent given to someone or something to perform a specific action, access certain information, or use a resource","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Permission.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Permission","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:41:53 +0000","dateModified":"Tue, 02 Jun 2026 16:41:53 +0000","description":"A permission is the approval or consent given to someone or something to perform a specific action, access certain information, or use a resource","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Permission.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Permission
@@ -32,4 +32,4 @@ A permission may be assigned to, or revoked. A permission to grant permission is
 There are permissions to access a database or a server; there are permissions to access files. Permission may also be related to visibility, which is the permission to access the internals of an object, depending on the calling contewxt.
 
 
-Related : :ref:`File <file>`, :ref:`Visibility <visibility>`, :ref:`Database <database>`
+Related : :ref:`File <file>`, :ref:`Visibility <visibility>`, :ref:`Database <database>`, :ref:`Access Control List (ACL) <acl>`, :ref:`Authorize <authorize>`, :ref:`fopen() <fopen>`, :ref:`Role Based Access Control (RBAC) <rbac>`

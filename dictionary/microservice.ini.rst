@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Microservice","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Microservice.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Microservice","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:41:54 +0000","dateModified":"Tue, 02 Jun 2026 16:41:54 +0000","description":"A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Microservice.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Microservice
@@ -28,3 +28,5 @@ A microservice is a software architectural style that structures an application 
 `Documentation <https://en.wikipedia.org/wiki/Microservices>`__
 
 See also `PHP and Microservices: Designing and Implementing Microservices in PHP <https://reintech.io/blog/php-microservices-design-implementation>`_ and `How to use PHP to build microservice? <https://itnext.io/how-to-use-php-to-implement-microservice-94957206abc6>`_.
+
+Related : :ref:`Application <application>`, :ref:`Cloud <cloud>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Spiral <spiral>`

@@ -33,4 +33,4 @@ The opposite of flexibility is rigidity.
 
 See also `PHP: The Flexibility that can Make or Break your Team Project <https://www.linkedin.com/pulse/php-flexibility-can-make-break-your-team-project-gerrit-vermeulen>`_.
 
-Related : :ref:`Interface <interface>`, , :ref:`Relay Function <relay-function>`, :ref:`Rigidity <rigidity>`
+Related : :ref:`Interface <interface>`, :ref:`Proxy Class <proxy-class>`, :ref:`Relay Function <relay-function>`, :ref:`Rigidity <rigidity>`

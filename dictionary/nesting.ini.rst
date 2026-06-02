@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Nesting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Nesting refers to the practice of placing code block or construct inside another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Nesting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Nesting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:18:49 +0000","dateModified":"Mon, 01 Jun 2026 09:18:49 +0000","description":"Nesting refers to the practice of placing code block or construct inside another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Nesting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Nesting
@@ -33,45 +33,44 @@ Nesting creates more complex and intricate logic. It usually erodes readability 
    
    <?php
    
-   // Nested attributes
-   #[
-       MyAttribute(
-           new OptionA(),
-           new OptionB()
-       )
-   ]
-   function headers() : never {
-   }
-   
-   // Nested conditions
-   if ($condition1) {
-       if ($condition2) {
-           // Code to run when both condition1 and condition2 are true
+       // Nested attributes
+       #[
+           MyAttribute(
+               new OptionA(),
+               new OptionB()
+           )
+       ]
+       function headers() : never {
+       }
+       
+       // Nested conditions
+       if ($condition1) {
+           if ($condition2) {
+               // Code to run when both condition1 and condition2 are true
+           } else {
+               // Code to run when condition1 is true but condition2 is false
+           }
        } else {
-           // Code to run when condition1 is true but condition2 is false
-       }
-   } else {
-       // Code to run when condition1 is false
-   }
-   
-   // Nested loops
-   for ($i = 0; $i < 3; $i++) {
-       for ($j = 0; $j < 3; $j++) {
-           // Code to handle the combination of $i and $j
-       }
-   }
-   
-   // Nested functions
-   function outerFunction() {
-       // Code in the outer function
-       
-       function innerFunction() {
-           // Code in the inner function
+           // Code to run when condition1 is false
        }
        
-       innerFunction(); // Call the inner function
-   }
-   
+       // Nested loops
+       for ($i = 0; $i < 3; $i++) {
+           for ($j = 0; $j < 3; $j++) {
+               // Code to handle the combination of $i and $j
+           }
+       }
+       
+       // Nested functions
+       function outerFunction() {
+           // Code in the outer function
+           
+           function innerFunction() {
+               // Code in the inner function
+           }
+           
+           innerFunction(); // Call the inner function
+       }
    
    ?>
 
@@ -79,3 +78,5 @@ Nesting creates more complex and intricate logic. It usually erodes readability 
 `Documentation <https://en.wikipedia.org/wiki/Nesting_(computing)>`__
 
 See also `PHP Nested Try-Catch <https://rollbar.com/blog/php-nested-try-catch/#>`_.
+
+Related : :ref:`Array <array>`, :ref:`Attribute <attribute>`, :ref:`Ternary Operator <ternary>`, :ref:`Loops <loop>`, :ref:`If Then Else <ifthen>`

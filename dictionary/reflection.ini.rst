@@ -65,6 +65,6 @@ Reflection is also available in other programming languages.
 
 See also `Introduction to PHP Reflection API <https://medium.com/tech-tajawal/introduction-to-php-reflection-api-4af07cc17db4>`_ and `Understanding PHP Reflection: An In-Depth Guide with Examples <https://dev.to/galo4kin/understanding-php-reflection-an-in-depth-guide-with-examples-189n>`_.
 
-Related : :ref:`Class <class>`, :ref:`instance <instance>`, , :ref:`get_object_vars() <get_object_vars>`, :ref:`new <new>`, :ref:`ReflectionException <reflectionexception>`, :ref:`Writeable <writeable>`
+Related : :ref:`Class <class>`, :ref:`instance <instance>`, :ref:`Introspection <introspection>`, :ref:`get_object_vars() <get_object_vars>`, :ref:`new <new>`, :ref:`ReflectionException <reflectionexception>`, :ref:`Writeable <writeable>`
 
 Related packages : `bramus/reflection <https://packagist.org/packages/bramus/reflection>`_, `roave/better-reflection <https://packagist.org/packages/roave/better-reflection>`_

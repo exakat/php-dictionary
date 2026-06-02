@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Deployment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Deployment refers to the process of making a web application or website available for use on a server or hosting environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Deployment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Deployment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:39:28 +0000","dateModified":"Tue, 02 Jun 2026 16:39:28 +0000","description":"Deployment refers to the process of making a web application or website available for use on a server or hosting environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Deployment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Deployment
@@ -28,6 +28,6 @@ Deployment refers to the process of making a web application or website availabl
 
 See also `How to deploy code <https://wikitech.wikimedia.org/wiki/How_to_deploy_code>`_, `5 ways to deploy PHP applications <https://buddy.works/guides/5-ways-to-deploy-php-applications>`_ and `Why I built a Kubernetes deployment tool <https://eric.mann.blog/why-i-built-a-kubernetes-deployment-tool/>`_.
 
-Related : :ref:`Environment <environment>`, :ref:`Ship <ship>`
+Related : :ref:`Environment <environment>`, :ref:`Ship <ship>`, :ref:`Cloud <cloud>`, :ref:`DevOps <devops>`, :ref:`Phar <phar>`, :ref:`Rollback <rollback>`
 
 Related packages : `deployer/deployer <https://packagist.org/packages/deployer/deployer>`_, `bref/bref <https://packagist.org/packages/bref/bref>`_, `acquia/blt <https://packagist.org/packages/acquia/blt>`_

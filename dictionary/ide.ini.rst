@@ -52,4 +52,4 @@ IDE are often compared to editor, which focus on reactivity and a more limited s
 
 See also `PhpStorm <https://www.jetbrains.com/phpstorm/promo/>`_, `VS Code <https://code.visualstudio.com/>`_, `Eclipse <https://eclipseide.org/>`_ and `NetBeans <https://netbeans.apache.org/front/main/index.html>`_.
 
-Related : , , :ref:`Autocompletion <autocompletion>`, :ref:`Debug <debug>`, :ref:`Debugger <debugger>`, :ref:`LSP <language-service-protocol>`
+Related : :ref:`PHP Editor <php-editor>`, :ref:`PHP AI Editor <php-ai-editor>`, :ref:`Autocompletion <autocompletion>`, :ref:`Debug <debug>`, :ref:`Debugger <debugger>`, :ref:`LSP <language-service-protocol>`

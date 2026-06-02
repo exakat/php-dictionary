@@ -57,4 +57,4 @@ For locale-aware string handling, the ``Intl`` extension provides a more robust 
 
 See also `Implementing PHP localization: A complete guide <https://lokalise.com/blog/implementing-php-localization-complete-guide/>`_.
 
-Related : :ref:`Internationalization Functions <intl>`, , 
+Related : :ref:`Internationalization Functions <intl>`, :ref:`strtolower() <strtolower>`, :ref:`strtoupper() <strtoupper>`

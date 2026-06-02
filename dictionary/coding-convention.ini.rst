@@ -1,4 +1,5 @@
 .. _coding-convention:
+.. _code-style:
 .. meta::
 	:description:
 		Coding Conventions: Coding conventions are a set of guidelines for PHP that recommend source code writing, programming style and practices.
@@ -16,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coding Conventions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Coding conventions are a set of guidelines for PHP that recommend source code writing, programming style and practices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coding Conventions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coding Conventions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:38:14 +0000","dateModified":"Tue, 02 Jun 2026 16:38:14 +0000","description":"Coding conventions are a set of guidelines for PHP that recommend source code writing, programming style and practices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coding Conventions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Coding Conventions
@@ -30,4 +31,4 @@ Often, large projects have their own coding convention. When writing for a speci
 
 See also `PSR-12: Extended Style Guide <https://www.php-fig.org/psr/psr-12/>`_, `Wordpress PHP coding standards <https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/>`_ and `PHP Coding Guidelines & Best Practices <https://flowframework.readthedocs.io/en/stable/TheDefinitiveGuide/PartV/CodingGuideLines/PHP.html>`_.
 
-Related : :ref:`Control Structures <control-structure>`, :ref:`Coding Formatting <code-formatting>`
+Related : :ref:`Consistency <consistency>`, :ref:`Habit <habit>`, :ref:`Inconsistent <inconsistent>`, :ref:`Yoda Condition <yoda>`, :ref:`Control Structures <control-structure>`, :ref:`Coding Formatting <code-formatting>`

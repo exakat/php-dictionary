@@ -48,4 +48,4 @@ PostgreSQL
 
 See also `PostgreSQL homepage <https://www.postgresql.org/>`_, `How to Connect PHP and PostgreSQL <https://www.zend.com/blog/php-and-postgresql>`_ and `How to build an Application with PHP and PostgreSQL <https://dev.to/officialozioma/how-to-build-an-application-with-php-and-postgresql-4iad>`_.
 
-Related : :ref:`Database <database>`, :ref:`Simple Query Language (SQL) <sql>`, :ref:`JavaScript Object Notation (JSON) <json>`
+Related : :ref:`Database <database>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`JavaScript Object Notation (JSON) <json>`

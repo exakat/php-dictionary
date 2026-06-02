@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Graph Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A graph database is a database server that organize data in a network, rather than as tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Graph Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Graph Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:23:14 +0000","dateModified":"Fri, 29 May 2026 09:23:14 +0000","description":"A graph database is a database server that organize data in a network, rather than as tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Graph Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Graph Database
@@ -26,11 +26,11 @@ A graph database is a database server that organize data in a network, rather th
 
 PHP is able to connect to many grpah databases, including: Neo4j, Gremlin, Cassetc.
 
-Graph databases are close to RDF triple stores, which 
+Graph databases are close to RDF triple stores, which store data as a triplet: origin, destination and link type.
 
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
 See also `Top 10 SQL Databases To Learn in 2025 <https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/>`_.
 
-Related : :ref:`Simple Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`
+Related : :ref:`Structured Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`

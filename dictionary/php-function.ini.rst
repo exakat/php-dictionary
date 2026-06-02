@@ -46,4 +46,4 @@ It is possible to reach PHP native function definitions on the php.net website b
 
 See also `PHP Safari: see how they are used in the wild <https://php-safari.com/>`_ and `php.net/strlen <https://www.php.net/strlen>`_.
 
-Related : :ref:`Functions <function>`, 
+Related : :ref:`Functions <function>`, :ref:`Custom Function <custom-function>`

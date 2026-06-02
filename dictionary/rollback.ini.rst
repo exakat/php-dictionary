@@ -60,4 +60,4 @@ Having a reliable rollback strategy is a key aspect of safe deployments and syst
 
 See also `PDO::rollBack() <https://www.php.net/manual/en/pdo.rollback.php>`_ and `Deployer rollback <https://deployer.org/docs/7.x/recipe/deploy/rollback>`_.
 
-Related : :ref:`Database <database>`, :ref:`PHP Data Objects (PDO) <pdo>`, , :ref:`Deployment <deploy>`, :ref:`git <git>`, :ref:`Migration <migration>`, :ref:`Error Handling <error-handling>`
+Related : :ref:`Database <database>`, :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Transaction <transaction>`, :ref:`Deployment <deploy>`, :ref:`git <git>`, :ref:`Migration <migration>`, :ref:`Error Handling <error-handling>`

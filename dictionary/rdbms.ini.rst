@@ -28,6 +28,6 @@ PHP can connect to multiple RDBMS: MySQL, Oracle, MariaDB, SQLite3, MSSQL, PostG
 
 PHP offers a native abstraction layer: ``PDO``. There are database abstraction as components too.
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Simple Query Language (SQL) <sql>`, :ref:`Storage Systems <storage-system>`, :ref:`SQLite3 <sqlite3>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <pgsql>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`Storage Systems <storage-system>`, :ref:`SQLite3 <sqlite3>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <pgsql>`
 
 Related packages : `doctrine/dbal <https://packagist.org/packages/doctrine/dbal>`_, `adodb/adodb-php <https://packagist.org/packages/adodb/adodb-php>`_, `nextras/dbal <https://packagist.org/packages/nextras/dbal>`_

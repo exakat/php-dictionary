@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Legacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 08:09:34 +0000","dateModified":"Thu, 28 May 2026 08:09:34 +0000","description":"Legacy code refers to existing code written under older practices, PHP versions, or conventions that are no longer considered current","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Legacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Legacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:13:56 +0000","dateModified":"Mon, 01 Jun 2026 09:13:56 +0000","description":"Legacy code refers to existing code written under older practices, PHP versions, or conventions that are no longer considered current","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Legacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Legacy
@@ -43,4 +43,4 @@ Maintaining and evolving legacy code requires careful refactoring to avoid regre
 
 See also `Working Effectively with Legacy Code (book) <https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code>`_.
 
-Related : :ref:`Var <var>`, :ref:`Deprecated <deprecated>`, :ref:`Backward Compatible <backward-compatible>`, :ref:`Backward Incompatible <backward-incompatible>`, :ref:`Refactoring <refactoring>`, :ref:`Dead Code <dead-code>`, :ref:`Technical Debt <debt>`, :ref:`Upgrade <upgrade>`, :ref:`Refactoring <refactoring>`, :ref:`Global Variables <global-variable>`, :ref:`Register Globals <register-globals>`
+Related : :ref:`Var <var>`, :ref:`Deprecated <deprecated>`, :ref:`Backward Compatible <backward-compatible>`, :ref:`Backward Incompatible <backward-incompatible>`, :ref:`Refactoring <refactoring>`, :ref:`Dead Code <dead-code>`, :ref:`Technical Debt <debt>`, :ref:`Upgrade <upgrade>`, :ref:`Global Variables <global-variable>`, :ref:`Register Globals <register-globals>`

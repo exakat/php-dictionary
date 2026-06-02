@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Service","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A service is a class that encapsulates specific functionality, making it available to other parts of an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Service.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Service","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:47:23 +0000","dateModified":"Sun, 31 May 2026 08:47:23 +0000","description":"A service is a class that encapsulates specific functionality, making it available to other parts of an application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Service.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Service
@@ -34,4 +34,4 @@ Services are typically configured and managed by a service container.
 
 See also `Mastering Symfony Service Container: Modern PHP Attributes Edition <https://tuhinbepari.medium.com/mastering-symfony-service-container-modern-php-attributes-edition-74d7113614c0>`_.
 
-Related : :ref:`Encapsulation <encapsulation>`, :ref:`Dependency Injection <di>`, :ref:`Service Container <service-container>`
+Related : :ref:`Encapsulation <encapsulation>`, :ref:`Dependency Injection <di>`, :ref:`Service Container <service-container>`, :ref:`Business Logic <business-logic>`, :ref:`Downtime <downtime>`, :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`, :ref:`Value Object <value-object>`

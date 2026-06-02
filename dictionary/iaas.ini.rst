@@ -57,6 +57,6 @@ PHP applications hosted on IaaS run on virtual machines or bare-metal instances 
 
 See also `AWS EC2 <https://aws.amazon.com/ec2/>`_, `Google Compute Engine <https://cloud.google.com/compute>`_ and `Azure Virtual Machines <https://azure.microsoft.com/en-us/products/virtual-machines/>`_.
 
-Related : :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, 
+Related : :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Cloud <cloud>`
 
 Related packages : `aws/aws-sdk-php <https://packagist.org/packages/aws/aws-sdk-php>`_

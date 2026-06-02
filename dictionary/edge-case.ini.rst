@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Edge Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Edge Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Edge Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:25:15 +0000","dateModified":"Sun, 31 May 2026 08:25:15 +0000","description":"An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Edge Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Edge Case
 ---------
 
-An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment. It requires exceptional conditions to happen, yet is is a possible situation.
+An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment. It requires exceptional conditions to happen, yet it is a possible situation.
 
 .. code-block:: php
    
@@ -36,3 +36,5 @@ An edge case is a situation that occurs at the extreme ends of input, operating 
    
    ?>
 
+
+Related : :ref:`Coverage <coverage>`, :ref:`Overflow <overflow>`, :ref:`Test <test>`, :ref:`Unit Test <unit-test>`

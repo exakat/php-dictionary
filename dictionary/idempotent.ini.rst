@@ -46,4 +46,4 @@ This is the case of ``strtolower()`` and ``strtoupper()``: once the string has b
 
 See also `Idempotence <https://en.wikipedia.org/wiki/Idempotence>`_, `Designing Idempotent PHP APIs for Distributed Systems <https://medium.com/tech-vibes/designing-idempotent-php-apis-for-distributed-systems-c1b52b1862b1>`_ and `Idempotency: What, Why and How <https://wendelladriel.com/blog/idempotency-what-why-and-how>`_.
 
-Related : 
+Related : :ref:`strtolower() <strtolower>`

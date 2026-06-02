@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","name":"Noop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A noop, or no operation, is a command that does nothing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Noop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","name":"Noop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:41:31 +0000","dateModified":"Sun, 31 May 2026 07:41:31 +0000","description":"A noop, or no operation, is a command that does nothing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Noop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Noop
@@ -64,3 +64,5 @@ This is distinct, though close, to the identity: identity returns the incoming d
 `Documentation <https://en.wikipedia.org/wiki/NOP_(code)>`__
 
 See also `eio_nop <https://www.php.net/manual/en/function.eio-nop.php>`_ and `Noop polyfills <https://backendtea.com/post/noop-polyfill/>`_.
+
+Related : :ref:`Useless <useless>`, 

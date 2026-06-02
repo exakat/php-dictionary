@@ -1,28 +1,28 @@
 .. _array_pad:
 .. meta::
 	:description:
-		array_pad(): ``array_pad()`` is a PHP native function which complete an array up to ``$length`` elements with a specified ``$value``.
+		array_pad(): ``array_pad()`` is a PHP native function which completes an array up to ``$length`` elements with a specified ``$value``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: array_pad()
-	:twitter:description: array_pad(): ``array_pad()`` is a PHP native function which complete an array up to ``$length`` elements with a specified ``$value``
+	:twitter:description: array_pad(): ``array_pad()`` is a PHP native function which completes an array up to ``$length`` elements with a specified ``$value``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: array_pad()
 	:og:type: article
-	:og:description: ``array_pad()`` is a PHP native function which complete an array up to ``$length`` elements with a specified ``$value``
+	:og:description: ``array_pad()`` is a PHP native function which completes an array up to ``$length`` elements with a specified ``$value``
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array_pad.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_pad()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``array_pad()`` is a PHP native function which complete an array up to ``$length`` elements with a specified ``$value``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_pad().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_pad()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:06:02 +0000","dateModified":"Fri, 29 May 2026 05:06:02 +0000","description":"``array_pad()`` is a PHP native function which completes an array up to ``$length`` elements with a specified ``$value``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_pad().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_pad()
 -----------
 
-``array_pad()`` is a PHP native function which complete an array up to ``$length`` elements with a specified ``$value``. When ``$length`` is positive, the padding is to the right, and when ``$length`` is negative, it is a padding to the left.
+``array_pad()`` is a PHP native function which completes an array up to ``$length`` elements with a specified ``$value``. When ``$length`` is positive, the padding is to the right, and when ``$length`` is negative, it is a padding to the left.
 
 Literal values are copied, while objects are only copied at the reference level: the same object occupies all the requested slots, they are not cloned or made distinct in any way.
 

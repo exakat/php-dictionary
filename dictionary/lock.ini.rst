@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","name":"Lock","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A lock is a mechanism used to control access to a shared resource so that only one process (or script) can use it at a time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lock.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined Variable %s.html","name":"Lock","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:42:00 +0000","dateModified":"Tue, 02 Jun 2026 16:42:00 +0000","description":"A lock is a mechanism used to control access to a shared resource so that only one process (or script) can use it at a time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lock.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lock
@@ -44,5 +44,7 @@ There are different kind of lock:
 
 
 See also `Data locking strategies in PHP apps. Practical approach <https://lessthan12ms.com/data-locking-strategies-in-php-apps-practical-approach.html>`_ and `Locking in PHP to serialize execution of critical sections <https://locallost.net/?p=1091>`_.
+
+Related : :ref:`Atomic Operation <atomic-operation>`, :ref:`File Mode <file-mode>`, :ref:`file_put_contents() <file_put_contents>`, :ref:`Race Condition <race-condition>`
 
 Related packages : `php-lock/lock <https://packagist.org/packages/php-lock/lock>`_

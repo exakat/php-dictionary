@@ -50,6 +50,6 @@ Most PHP DB extensions support prepared statements. Prepared statement may also 
 
 See also `Prepared Statements (Mysqli) <https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php>`_ and `What are prepared statements in PHP? <https://www.educative.io/answers/what-are-prepared-statements-in-php>`_.
 
-Related : :ref:`Simple Query Language (SQL) <sql>`
+Related : :ref:`Structured Query Language (SQL) <sql>`
 
 Added in PHP 5.0+

@@ -34,4 +34,4 @@ Open source is often related to free, as in freedom to access the code and modif
 
 See also `PHP Licence 3.0.1 <https://www.php.net/license/3_01.txt>`_ and `Good First Issue/PHP <https://goodfirstissue.dev/language/php>`_.
 
-Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`, , :ref:`Community <community>`, , :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`, :ref:`Library <library>`, :ref:`Proprietary Source <proprietary-source>`
+Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`, :ref:`Contribution <contribution>`, :ref:`Community <community>`, , :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`, :ref:`Library <library>`, :ref:`Proprietary Source <proprietary-source>`

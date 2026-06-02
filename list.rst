@@ -52,12 +52,14 @@ Index
    dictionary/abstraction.ini
    dictionary/accessibility.ini
    dictionary/accountability.ini
+   dictionary/acl.ini
    dictionary/active-record.ini
    dictionary/adapter.ini
    dictionary/addition.ini
    dictionary/adr.ini
    dictionary/agile.ini
    dictionary/ai.ini
+   dictionary/ajax.ini
    dictionary/algorithm.ini
    dictionary/algorithmic-complexity.ini
    dictionary/alias-types.ini
@@ -65,6 +67,7 @@ Index
    dictionary/allowdynamicproperties.ini
    dictionary/alternative-syntax.ini
    dictionary/analysis.ini
+   dictionary/anchor.ini
    dictionary/and.ini
    dictionary/annotation.ini
    dictionary/anonymize.ini
@@ -110,6 +113,7 @@ Index
    dictionary/array_slice.ini
    dictionary/array_splice.ini
    dictionary/array_unique.ini
+   dictionary/array_unshift.ini
    dictionary/array_values.ini
    dictionary/array_walk.ini
    dictionary/arrayaccess.ini
@@ -131,6 +135,7 @@ Index
    dictionary/asymmetric-visibility.ini
    dictionary/async.ini
    dictionary/asynchronous.ini
+   dictionary/atomic-operation.ini
    dictionary/attack.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
@@ -158,6 +163,7 @@ Index
    dictionary/badfunctioncallexception.ini
    dictionary/balanced.ini
    dictionary/bang.ini
+   dictionary/base.ini
    dictionary/base64.ini
    dictionary/basename.ini
    dictionary/batch.ini
@@ -176,6 +182,7 @@ Index
    dictionary/bitwise-operator.ini
    dictionary/blind-key.ini
    dictionary/block.ini
+   dictionary/blocking-wait.ini
    dictionary/bloom-filter.ini
    dictionary/body.ini
    dictionary/boilerplate.ini
@@ -206,6 +213,7 @@ Index
    dictionary/callback.ini
    dictionary/callstack.ini
    dictionary/camel-case.ini
+   dictionary/cancellation.ini
    dictionary/canonical.ini
    dictionary/captcha.ini
    dictionary/carriage-return.ini
@@ -236,6 +244,7 @@ Index
    dictionary/class-operator.ini
    dictionary/class.ini
    dictionary/class_alias.ini
+   dictionary/class_implements.ini
    dictionary/clean-architecture.ini
    dictionary/clean-code.ini
    dictionary/cli.ini
@@ -249,6 +258,7 @@ Index
    dictionary/closure-binding.ini
    dictionary/closure-class.ini
    dictionary/closure.ini
+   dictionary/cloud.ini
    dictionary/cms.ini
    dictionary/coalesce.ini
    dictionary/code-architecture.ini
@@ -264,11 +274,14 @@ Index
    dictionary/codepoint.ini
    dictionary/coding-convention.ini
    dictionary/cognitive-complexity.ini
+   dictionary/cohesion.ini
    dictionary/collection.ini
    dictionary/collision.ini
    dictionary/colon.ini
+   dictionary/column-database.ini
    dictionary/comma.ini
    dictionary/command-bus.ini
+   dictionary/command.ini
    dictionary/comment.ini
    dictionary/commit.ini
    dictionary/community.ini
@@ -309,6 +322,7 @@ Index
    dictionary/container.ini
    dictionary/continue.ini
    dictionary/contract.ini
+   dictionary/contribution.ini
    dictionary/control-flow-graph.ini
    dictionary/control-flow.ini
    dictionary/control-structure.ini
@@ -324,17 +338,20 @@ Index
    dictionary/coupling.ini
    dictionary/coverage.ini
    dictionary/cqrs.ini
+   dictionary/crack.ini
    dictionary/crc32.ini
    dictionary/cron.ini
    dictionary/crud.ini
    dictionary/crypt.ini
    dictionary/cryptography.ini
    dictionary/csrf.ini
+   dictionary/css.ini
    dictionary/csv-injection.ini
    dictionary/csv.ini
    dictionary/ctype.ini
    dictionary/curl.ini
    dictionary/curly-bracket.ini
+   dictionary/custom-function.ini
    dictionary/custom.ini
    dictionary/cve.ini
    dictionary/cvs.ini
@@ -567,15 +584,18 @@ Index
    dictionary/function.ini
    dictionary/functional-programming.ini
    dictionary/functor.ini
+   dictionary/future.ini
    dictionary/fuzzing.ini
    dictionary/garbage-collection.ini
    dictionary/gd.ini
    dictionary/generator.ini
    dictionary/generics.ini
    dictionary/get_class.ini
+   dictionary/get_class_vars.ini
    dictionary/get_object_vars.ini
    dictionary/getter.ini
    dictionary/gettext.ini
+   dictionary/gif.ini
    dictionary/git.ini
    dictionary/glob.ini
    dictionary/global-code.ini
@@ -590,6 +610,7 @@ Index
    dictionary/goto.ini
    dictionary/gradual-type-checking.ini
    dictionary/graph-database.ini
+   dictionary/graph.ini
    dictionary/graphql.ini
    dictionary/grpc.ini
    dictionary/habit.ini
@@ -605,12 +626,14 @@ Index
    dictionary/hash.ini
    dictionary/hash_equals.ini
    dictionary/haystack.ini
+   dictionary/headers.ini
    dictionary/headless.ini
    dictionary/heredoc.ini
    dictionary/heuristic.ini
    dictionary/hexadecimal-integer.ini
    dictionary/hexagonal.ini
    dictionary/hg.ini
+   dictionary/hmac.ini
    dictionary/hoisting.ini
    dictionary/honeypot.ini
    dictionary/horizontal-scaling.ini
@@ -627,12 +650,14 @@ Index
    dictionary/http-code.ini
    dictionary/http-encoding.ini
    dictionary/http-header.ini
+   dictionary/http-headers.ini
    dictionary/http.ini
    dictionary/http_build_query.ini
    dictionary/https.ini
    dictionary/hydrate.ini
    dictionary/hypot.ini
    dictionary/iaas.ini
+   dictionary/iac.ini
    dictionary/iconv.ini
    dictionary/ide.ini
    dictionary/idempotent.ini
@@ -682,6 +707,7 @@ Index
    dictionary/instance.ini
    dictionary/instanceof.ini
    dictionary/insteadof.ini
+   dictionary/instruction.ini
    dictionary/intdiv.ini
    dictionary/integer.ini
    dictionary/integration-test.ini
@@ -694,6 +720,7 @@ Index
    dictionary/interpreted.ini
    dictionary/intersection-type.ini
    dictionary/intl.ini
+   dictionary/introspection.ini
    dictionary/invalidargumentexception.ini
    dictionary/invariant.ini
    dictionary/inventory.ini
@@ -710,6 +737,7 @@ Index
    dictionary/javascript.ini
    dictionary/jit.ini
    dictionary/jobqueue.ini
+   dictionary/jpg.ini
    dictionary/json.ini
    dictionary/json_decode.ini
    dictionary/json_encode.ini
@@ -834,6 +862,7 @@ Index
    dictionary/mysqli.ini
    dictionary/mysqli_sql_exception.ini
    dictionary/n-query.ini
+   dictionary/name-convention.ini
    dictionary/name.ini
    dictionary/named-constructor.ini
    dictionary/named-parameter.ini
@@ -918,6 +947,8 @@ Index
    dictionary/optional-parameter.ini
    dictionary/order-of-execution.ini
    dictionary/orm.ini
+   dictionary/otp.ini
+   dictionary/outeriterator.ini
    dictionary/outgoing-data.ini
    dictionary/outofrangeexception.ini
    dictionary/output-buffering.ini
@@ -931,8 +962,10 @@ Index
    dictionary/owasp.ini
    dictionary/paas.ini
    dictionary/pack.ini
+   dictionary/package-manager.ini
    dictionary/packagist.ini
    dictionary/pagination.ini
+   dictionary/pair.ini
    dictionary/paradigm.ini
    dictionary/parallel.ini
    dictionary/parameter-removal.ini
@@ -942,6 +975,7 @@ Index
    dictionary/parquet.ini
    dictionary/parse.ini
    dictionary/parse_str.ini
+   dictionary/parse_url.ini
    dictionary/parseerror.ini
    dictionary/parser.ini
    dictionary/partial-function.ini
@@ -953,7 +987,9 @@ Index
    dictionary/path.ini
    dictionary/pattern-matching.ini
    dictionary/pcntl.ini
+   dictionary/pcntl_signal.ini
    dictionary/pcre.ini
+   dictionary/pdf.ini
    dictionary/pdo.ini
    dictionary/pdoexception.ini
    dictionary/pdr.ini
@@ -966,9 +1002,11 @@ Index
    dictionary/pgsql.ini
    dictionary/phar.ini
    dictionary/pharexception.ini
+   dictionary/php-ai-editor.ini
    dictionary/php-attribute.ini
    dictionary/php-constant.ini
    dictionary/php-docker-container.ini
+   dictionary/php-editor.ini
    dictionary/php-extension.ini
    dictionary/php-fig.ini
    dictionary/php-foundation.ini
@@ -976,6 +1014,7 @@ Index
    dictionary/php-group.ini
    dictionary/php-input.ini
    dictionary/php-interface.ini
+   dictionary/php-manual.ini
    dictionary/php-memory.ini
    dictionary/php-native-attribute.ini
    dictionary/php-output.ini
@@ -1001,10 +1040,12 @@ Index
    dictionary/plain-text.ini
    dictionary/plugin.ini
    dictionary/plus.ini
+   dictionary/png.ini
    dictionary/pointer.ini
    dictionary/polling.ini
    dictionary/polyfill.ini
    dictionary/polymorphism.ini
+   dictionary/pop.ini
    dictionary/popo.ini
    dictionary/port.ini
    dictionary/portability.ini
@@ -1043,6 +1084,7 @@ Index
    dictionary/proprietary-source.ini
    dictionary/protected.ini
    dictionary/protocol.ini
+   dictionary/proxy-class.ini
    dictionary/proxy.ini
    dictionary/pseudo-type.ini
    dictionary/pseudo-variable.ini
@@ -1194,6 +1236,7 @@ Index
    dictionary/sitemap.ini
    dictionary/slash.ini
    dictionary/sleep.ini
+   dictionary/slug.ini
    dictionary/smtp.ini
    dictionary/snake-case.ini
    dictionary/snapshot.ini
@@ -1203,6 +1246,7 @@ Index
    dictionary/socket.ini
    dictionary/solid.ini
    dictionary/sort.ini
+   dictionary/source.ini
    dictionary/spa.ini
    dictionary/space.ini
    dictionary/spaceship.ini
@@ -1212,8 +1256,11 @@ Index
    dictionary/spiral.ini
    dictionary/spl.ini
    dictionary/spldoublylinkedlist.ini
+   dictionary/splfileobject.ini
+   dictionary/splobserver.ini
    dictionary/splstack.ini
    dictionary/splstorageobjects.ini
+   dictionary/splsubject.ini
    dictionary/sprintf.ini
    dictionary/sql-database.ini
    dictionary/sql-injection.ini
@@ -1260,6 +1307,8 @@ Index
    dictionary/stringable.ini
    dictionary/strpos-syndrom.ini
    dictionary/strpos.ini
+   dictionary/strtolower.ini
+   dictionary/strtoupper.ini
    dictionary/structure.ini
    dictionary/stubs.ini
    dictionary/sub.ini
@@ -1272,6 +1321,7 @@ Index
    dictionary/supertype.ini
    dictionary/supply-chain-attack.ini
    dictionary/supply-chain.ini
+   dictionary/svg.ini
    dictionary/svm.ini
    dictionary/svmexception.ini
    dictionary/svn.ini
@@ -1294,12 +1344,14 @@ Index
    dictionary/task.ini
    dictionary/tco.ini
    dictionary/tcp.ini
+   dictionary/technical-reference.ini
    dictionary/telemetry.ini
    dictionary/tempest.ini
    dictionary/template.ini
    dictionary/temporary-expression.ini
    dictionary/ternary.ini
    dictionary/test-data-provider.ini
+   dictionary/test-framework.ini
    dictionary/test-pyramid.ini
    dictionary/test.ini
    dictionary/testable.ini
@@ -1325,6 +1377,7 @@ Index
    dictionary/trace.ini
    dictionary/trailing-comma.ini
    dictionary/trait.ini
+   dictionary/transaction.ini
    dictionary/transpile.ini
    dictionary/traversable.ini
    dictionary/traversal.ini
@@ -1339,6 +1392,7 @@ Index
    dictionary/try-catch.ini
    dictionary/tui.ini
    dictionary/tutorial.ini
+   dictionary/type-checking.ini
    dictionary/type-contravariance.ini
    dictionary/type-covariance.ini
    dictionary/type-coverage.ini
@@ -1363,6 +1417,7 @@ Index
    dictionary/unicode.ini
    dictionary/uninitialized.ini
    dictionary/union-type.ini
+   dictionary/unique-identifier.ini
    dictionary/unit-test.ini
    dictionary/unitenum.ini
    dictionary/unpacking.ini

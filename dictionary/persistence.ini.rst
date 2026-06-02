@@ -30,4 +30,4 @@ Persistence also applies to database connection, where the connection is not clo
 
 Persistent storage may also be called permanent storage.
 
-Related : :ref:`Object Persistence <object-persistence>`, :ref:`Connexion Persistence <connexion-persistence>`, :ref:`Session <session>`
+Related : :ref:`Object Persistence <object-persistence>`, :ref:`Connection Persistence <connexion-persistence>`, :ref:`Session <session>`

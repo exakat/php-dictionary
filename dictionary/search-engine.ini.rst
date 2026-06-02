@@ -18,15 +18,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Search Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A search engine is a system that indexes and retrieves data based on queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Search Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Search Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:44:19 +0000","dateModified":"Tue, 02 Jun 2026 16:44:19 +0000","description":"A search engine is a system that indexes and retrieves data based on queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Search Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Search Engine
 -------------
 
-A search engine is a system that indexes and retrieves data based on queries. In the context of PHP applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.
+A search engine is a system that indexes and retrieves data based on queries. In applications, a search engine typically refers to a dedicated search service or library that provides full-text search capabilities beyond what a relational database can offer natively.
 
-Popular search engines used in PHP projects include Elasticsearch, OpenSearch, Meilisearch, Typesense, and Apache Solr. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.
+Popular search engines used with PHP projects include Elasticsearch, OpenSearch, Meilisearch, Typesense, and Apache Solr. They offer features such as full-text indexing, relevance ranking, faceted search, autocomplete, and typo tolerance.
 
 Search engines usually operate as external services communicating via HTTP APIs. PHP libraries are used as clients to index documents and execute queries against the engine.
 

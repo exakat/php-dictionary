@@ -55,4 +55,4 @@ PaaS sits between IaaS, full infrastructure control, and SaaS, fully managed sof
 
 See also `Heroku PHP <https://devcenter.heroku.com/categories/php-support>`_ and `Platform.sh <https://platform.sh/>`_.
 
-Related : :ref:`IaaS <iaas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, 
+Related : :ref:`IaaS <iaas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Cloud <cloud>`

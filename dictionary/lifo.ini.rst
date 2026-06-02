@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Last In, First Out (LIFO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Last In, First Out is the principle of management of a stack","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Last In, First Out (LIFO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Last In, First Out (LIFO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:41:57 +0000","dateModified":"Tue, 02 Jun 2026 16:41:57 +0000","description":"Last In, First Out is the principle of management of a stack","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Last In, First Out (LIFO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Last In, First Out (LIFO)
@@ -31,4 +31,4 @@ The other management is FIFO: first in, first out.
 
 See also `Introduction to Stacks & Queues in PHP <https://dev.to/matusstafura/introduction-to-stacks-queues-in-php-1lpf>`_.
 
-Related : :ref:`First In, First Out (FIFO) <fifo>`
+Related : :ref:`First In, First Out (FIFO) <fifo>`, :ref:`array_unshift() <array_unshift>`, :ref:`Datastack <datastack>`, :ref:`Pop <pop>`, :ref:`SplStack <splstack>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lazy Loading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Lazy loading is a programming pattern that postpone the actual loading of a resource to the moment it is actually used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lazy Loading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lazy Loading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:00:48 +0000","dateModified":"Fri, 29 May 2026 07:00:48 +0000","description":"Lazy loading is a programming pattern that postpone the actual loading of a resource to the moment it is actually used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lazy Loading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lazy Loading
@@ -35,20 +35,20 @@ PHP also uses lazy loading: some structures are checked at linting time, when th
    <?php
    
    class File {
-   	private $path;
-   	private $content = null;
+       private $path;
+       private $content = null;
    
-   	function __construct($path) {
-   		$this->path = $path;
-   	}
+       function __construct($path) {
+           $this->path = $path;
+       }
    
-   	function get() {
-   		if ($this->content === null) {
-   			$this->content = file_get_contents($path);
-   		}
-   		
-   		return $this->content;
-   	}
+       function get() {
+           if ($this->content === null) {
+               $this->content = file_get_contents($path);
+           }
+           
+           return $this->content;
+       }
    }
    
    $file = new File($path);
@@ -56,9 +56,9 @@ PHP also uses lazy loading: some structures are checked at linting time, when th
    echo $file->getContent();
    
    class ErroneousConstant {
-   	const VALID = 1;
-   	// invalid value for the INVALID constant
-   	const INVALID = [] + 1;
+       const VALID = 1;
+       // invalid value for the INVALID constant
+       const INVALID = [] + 1;
    }
    
    // displays 1

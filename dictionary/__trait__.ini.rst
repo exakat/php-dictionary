@@ -1,28 +1,28 @@
 .. _-__trait__:
 .. meta::
 	:description:
-		__TRAIT__: ``__TRAIT__`` holds the current trait name: this is trait of definition, not the called class.
+		__TRAIT__: ``__TRAIT__`` holds the current trait name: this is the trait of definition, not the called class.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: __TRAIT__
-	:twitter:description: __TRAIT__: ``__TRAIT__`` holds the current trait name: this is trait of definition, not the called class
+	:twitter:description: __TRAIT__: ``__TRAIT__`` holds the current trait name: this is the trait of definition, not the called class
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __TRAIT__
 	:og:type: article
-	:og:description: ``__TRAIT__`` holds the current trait name: this is trait of definition, not the called class
+	:og:description: ``__TRAIT__`` holds the current trait name: this is the trait of definition, not the called class
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__trait__.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__TRAIT__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``__TRAIT__`` holds the current trait name: this is trait of definition, not the called class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__TRAIT__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__TRAIT__","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:05:56 +0000","dateModified":"Fri, 29 May 2026 05:05:56 +0000","description":"``__TRAIT__`` holds the current trait name: this is the trait of definition, not the called class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__TRAIT__.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __TRAIT__
 ---------
 
-``__TRAIT__`` holds the current trait name: this is trait of definition, not the called class. It is not the same as ``self::class``, which may change depending on the calling context.
+``__TRAIT__`` holds the current trait name: this is the trait of definition, not the called class. It is not the same as ``self::class``, which may change depending on the calling context.
 
 The trait name includes the namespace it was declared in, e.g. ``N\X``. It does not include the leading ``\``. 
 

@@ -52,4 +52,4 @@ The opposite to crypt is to crypt, when it is a legit operation. The evil equiva
    ?>
 
 
-Related : :ref:`Asymmetric Cryptography <asymmetric-cryptography>`, :ref:`To Crypt <crypt>`, 
+Related : :ref:`Asymmetric Cryptography <asymmetric-cryptography>`, :ref:`To Crypt <crypt>`, :ref:`Crack <crack>`

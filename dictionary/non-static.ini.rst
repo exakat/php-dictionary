@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","name":"Non-static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Non-static is the opposite of static, when used with methods, closures, properties or variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non-static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A non-numeric value encountered.html","name":"Non-static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:43:29 +0000","dateModified":"Sun, 31 May 2026 07:43:29 +0000","description":"Non-static is the opposite of static, when used with methods, closures, properties or variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non-static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Non-static
@@ -24,15 +24,17 @@ Non-static
 
 Non-static is the opposite of static, when used with methods, closures, properties or variables. 
 
-There is no other term to designate them, beside the convention that a variable is non-static, by default.
+There is no other term to designate them, beside the convention that a variable is non-static, by default. Sometimes, the opposite of static is called normal.
 
 .. code-block:: php
    
    <?php
    
-   $variable = 1;
-   
-   static $staticVariable = 2;
+       $variable = 1;
+       
+       static $staticVariable = 2;
    
    ?>
 
+
+Related : :ref:`Variables <variable>`, :ref:`Properties <property>`, :ref:`Method <method>`, :ref:`Class <class>`

@@ -41,4 +41,4 @@ This is also called a hash, although hash as many other meanings.
    ?>
 
 
-Related : :ref:`Comments <comment>`, :ref:`Slash / <slash>`, :ref:`Universal Resource Locator (URL) <url>`, , :ref:`Hash <hash>`
+Related : :ref:`Comments <comment>`, :ref:`Slash / <slash>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`Anchor <anchor>`, :ref:`Hash <hash>`
