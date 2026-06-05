@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bucket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The term ``bucket`` is not commonly associated with a specific concept","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bucket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Bucket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 07:27:16 +0000","dateModified":"Fri, 05 Jun 2026 07:27:16 +0000","description":"The term ``bucket`` is not commonly associated with a specific concept","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Bucket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Bucket
@@ -25,3 +25,5 @@ Bucket
 The term ``bucket`` is not commonly associated with a specific concept. In a more general sense, the term ``bucket`` is often used in the context of data structures and algorithms to refer to a container or a storage space for holding several elements together.
 
 For example, in the context of hashing or hash tables, a ``bucket`` may be used to describe the individual storage locations where key-value pairs are stored. When a hash collision occurs, that is when two keys hash to the same location, the elements with the same hash value are often placed in a bucket, which is a data structure that allows multiple elements to be stored at the same location.
+
+Related : :ref:`Hash <hash>`, :ref:`Data Structure <datastructure>`, :ref:`Array <array>`, :ref:`Key-value Stores <key-value-store>`, :ref:`Collection <collection>`

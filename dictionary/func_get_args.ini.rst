@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"func_get_args()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``func_get_args()`` is a native function that returns an array containing the function's argument list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/func_get_args().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"func_get_args()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``func_get_args()`` is a native function that returns an array containing the function's argument list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/func_get_args().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 func_get_args()
@@ -53,6 +53,6 @@ There are related functions: ``func_get_arg()``, which returns a specific argume
 
 See also `https://www.geeksforgeeks.org/php/php-func_get_args-function/ <https://www.geeksforgeeks.org/php/php-func_get_args-function/>`_.
 
-Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Variadic <variadic>`, :ref:`Arbitrary Number Of Argument <arbitrary-argument>`
+Related : :ref:`Variable Arguments <variable-argument>`, :ref:`Variadic <variadic>`, :ref:`Arbitrary Number Of Argument <arbitrary-argument>`, :ref:`Method Overloading <method-overloading>`
 
 Added in PHP 5.0+

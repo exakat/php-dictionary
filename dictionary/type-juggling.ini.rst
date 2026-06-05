@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Juggling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Juggling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Juggling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Juggling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Type Juggling
@@ -45,4 +45,4 @@ Type juggling is usually done automatically, without user intervention. Explicit
 
 See also `How PHP Type Juggling Works – Explained with Code Examples <https://www.freecodecamp.org/news/how-php-type-juggling-works-explained-with-code-examples/>`_, `PHP Type Juggling Vulnerability <https://medium.com/@abdelrahman0x01/php-type-juggling-vulnerability-768bca4d8b3b>`_ and `Type Juggling <https://swisskyrepo.github.io/PayloadsAllTheThings/Type%20Juggling/>`_.
 
-Related : :ref:`Cast Operator <cast>`, :ref:`Boolean <boolean>`, :ref:`Comparison <comparison>`, :ref:`Condition <condition>`, :ref:`Magic Hash <magic-hash>`
+Related : :ref:`Cast Operator <cast>`, :ref:`Boolean <boolean>`, :ref:`Comparison <comparison>`, :ref:`Condition <condition>`, :ref:`Magic Hash <magic-hash>`, :ref:`Silent Behavior <silent>`, :ref:`String Increment <string-increment>`, :ref:`Type Checking <type-checking>`, :ref:`Type Inference <type-inference>`, :ref:`Hash Comparisons <hash-comparison>`

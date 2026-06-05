@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Software-as-a-Service (SAAS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"SaaS stands for Software as a Service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software-as-a-Service (SAAS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Software-as-a-Service (SAAS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"SaaS stands for Software as a Service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software-as-a-Service (SAAS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Software-as-a-Service (SAAS)
@@ -24,4 +24,4 @@ Software-as-a-Service (SAAS)
 
 SaaS stands for Software as a Service. It's a software distribution model where applications are hosted by a provider and made available to customers over the internet, typically through a web browser.
 
-Related : :ref:`On Premise Software <on-premise-software>`, :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`
+Related : :ref:`On Premise Software <on-premise-software>`, :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Application <application>`, :ref:`Cloud <cloud>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`Release <release>`, :ref:`Hosting <hosting>`, :ref:`Serverless <serverless>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mobile Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A mobile application runs on a mobile device such as a smartphone or tablet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mobile Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mobile Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A mobile application runs on a mobile device such as a smartphone or tablet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mobile Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Mobile Application
@@ -27,4 +27,4 @@ A mobile application runs on a mobile device such as a smartphone or tablet. PHP
 
 See also `NativePHP for Mobile <https://nativephp.com/docs/mobile/1/getting-started/introduction>`_ and `PHP-GUI <https://github.com/developersharif/php-gui>`_.
 
-Related : :ref:`Web Application <web-app>`, :ref:`Desktop Application <desktop-app>`, :ref:`REST API <rest-api>`, :ref:`NativePHP <nativephp>`, :ref:`Single Page Application (SPA) <spa>`, :ref:`Progressive Web App <pwa>`
+Related : :ref:`Web Application <web-app>`, :ref:`Desktop Application <desktop-app>`, :ref:`REST API <rest-api>`, :ref:`NativePHP <nativephp>`, :ref:`Single Page Application (SPA) <spa>`, :ref:`Progressive Web App <pwa>`, :ref:`Application <application>`

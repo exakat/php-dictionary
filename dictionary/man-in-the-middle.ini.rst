@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Man In The Middle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A Man-in-the-Middle attack, aka MitM, is a cyberattack where a malicious actor intercepts and possibly alters communications between two parties without their knowledge","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Man In The Middle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Man In The Middle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A Man-in-the-Middle attack, aka MitM, is a cyberattack where a malicious actor intercepts and possibly alters communications between two parties without their knowledge","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Man In The Middle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Man In The Middle
@@ -32,4 +32,4 @@ To mitigate the risk of MitM attacks, encryption protocols like SSL/TLS are ofte
 
 See also `VaultPress - Remote Code Execution via Man in The Middle attack <https://www.securify.nl/en/advisory/vaultpress-remote-code-execution-via-man-in-the-middle-attack/>`_, `Advanced Security Practices for PHP Developers: Mitigating Session Hijacking and Other Vulnerabilities <https://nagvekar.medium.com/advanced-security-practices-for-php-developers-mitigating-session-hijacking-and-other-0a9e8052f3ff>`_ and `Hackers abuse Google ads for GoDaddy ManageWP login phishing <https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/>`_.
 
-Related : :ref:`Session Hijacking <session-highjacking>`
+Related : :ref:`Session Hijacking <session-highjacking>`, :ref:`Vulnerability <vulnerability>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mock","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A mock replaces a code dependency with an object, to make testing easier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mock.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mock","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A mock replaces a code dependency with an object, to make testing easier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mock.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Mock
@@ -35,6 +35,6 @@ Mock objects are also called ``test double``.
 
 See also `Test doubles <https://docs.phpunit.de/en/13.1/test-doubles.html#test-doubles>`_, `Mocking <https://laravel.com/docs/13.x/mocking>`_, `Avoid mocking repositories by using in-memory implementations <https://danielrotter.at/2023/09/22/avoid-mocking-repositories-by-using-in-memory-implementations.html>`_ and `Testing without mocking frameworks <https://blog.frankdejonge.nl/testing-without-mocking-frameworks/>`_.
 
-Related : :ref:`Test Data Provider <test-data-provider>`
+Related : :ref:`Test Data Provider <test-data-provider>`, :ref:`Fixture <fixture>`, :ref:`Use Alias <use-alias>`
 
 Related packages : `mockery/mockery <https://packagist.org/packages/mockery/mockery>`_, `phpspec/prophecy <https://packagist.org/packages/phpspec/prophecy>`_

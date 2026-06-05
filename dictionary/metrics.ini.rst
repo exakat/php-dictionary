@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Metrics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Metrics refer to quantitative measurements used to evaluate the performance, quality, and behavior of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Metrics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Metrics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Metrics refer to quantitative measurements used to evaluate the performance, quality, and behavior of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Metrics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Metrics
@@ -46,6 +46,6 @@ PHPMetrics is also the name of an eponymous project.
 
 See also `PhpMetrics of Popular PHP Projects <https://peteraba.com/blog/phpmetrics-of-popular-projects/>`_, `phpdepend <https://pdepend.org/>`_, `Using PHP Web Application Performance Metrics for Early Threat Detection <https://www.zend.com/blog/web-application-performance-metrics-security>`_ and `PHP Performance Monitoring: A Developer’s Guide <https://stackify.com/php-performance-monitoring-a-developers-guide/>`_.
 
-Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Monitoring <monitoring>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Cognitive Complexity <cognitive-complexity>`
+Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Monitoring <monitoring>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Cognitive Complexity <cognitive-complexity>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`, :ref:`Analysis <analysis>`
 
 Related packages : `phpmetrics/phpmetrics <https://packagist.org/packages/phpmetrics/phpmetrics>`_, `php-code-archeology/php-code-archeology <https://packagist.org/packages/php-code-archeology/php-code-archeology>`_, `phpmd/phpmd <https://packagist.org/packages/phpmd/phpmd>`_

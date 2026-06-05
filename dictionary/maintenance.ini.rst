@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Maintenance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Maintenance is the operation to keep a source code running, long time after it was created","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Maintenance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Maintenance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Maintenance is the operation to keep a source code running, long time after it was created","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Maintenance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Maintenance
@@ -27,3 +27,5 @@ Maintenance is the operation to keep a source code running, long time after it w
 Maintenance is also used to identify the period between two running versions of a software. To avoid interference with actual usage of the application, an application is put in maintenance mode, updated, and then, released from the maintenance mode. This notion of maintenance is related to operations and production.
 
 See also `How we Maintain Dozens of Symfony Workflows with Peace <https://tomasvotruba.com/blog/how-we-maintain-dozens-of-symfony-workflows-with-peace>`_.
+
+Related : :ref:`Legacy <legacy>`, :ref:`Refactoring <refactoring>`, :ref:`Upgrade <upgrade>`, :ref:`Version <version>`, :ref:`Technical Reference <technical-reference>`, :ref:`Technical Debt <debt>`, :ref:`Downtime <downtime>`, :ref:`Total Cost Of Ownership (TCO) <tco>`

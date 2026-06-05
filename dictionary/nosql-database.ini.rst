@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Nosql Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A NoSQL database, often interpreted as ``not only SQL`` is a type of database that does not rely on the traditional relational model with tables, fixed schemas, and SQL as the primary query language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Nosql Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Nosql Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A NoSQL database, often interpreted as ``not only SQL`` is a type of database that does not rely on the traditional relational model with tables, fixed schemas, and SQL as the primary query language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Nosql Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Nosql Database
@@ -29,4 +29,4 @@ A NoSQL database, often interpreted as ``not only SQL`` is a type of database th
 
 See also `sleekdb <https://sleekdb.github.io/>`_ and `Harvest NoSQL Speed With The Combination Of PHP <https://www.clariontech.com/blog/harvest-nosql-speed-with-the-combination-of-php>`_.
 
-Related : :ref:`Key-value Stores <key-value-store>`, , :ref:`Column Database <column-database>`, :ref:`Graph Database <graph-database>`
+Related : :ref:`Key-value Stores <key-value-store>`, :ref:`Document Database <document-database>`, :ref:`Column Database <column-database>`, :ref:`Graph Database <graph-database>`, :ref:`Database <database>`, :ref:`XML Database <xml-database>`

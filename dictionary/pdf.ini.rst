@@ -1,5 +1,5 @@
 .. _pdf:
-.. _Portable Document Format:
+.. _portable-document-format:
 .. meta::
 	:description:
 		PDF: PDF, Portable Document Format, is a file format developed by Adobe that presents documents independently of software, hardware, or operating system.
@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PDF","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:27:39 +0000","dateModified":"Sun, 31 May 2026 07:27:39 +0000","description":"PDF, Portable Document Format, is a file format developed by Adobe that presents documents independently of software, hardware, or operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PDF.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PDF","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"PDF, Portable Document Format, is a file format developed by Adobe that presents documents independently of software, hardware, or operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PDF.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PDF
@@ -53,6 +53,6 @@ The ``libharu`` extension provides a binding to the Haru Free PDF Library.
 
 See also `Generate PDFs with PHP: The Best 5 Libraries Compared <https://docupotion.com/blog/generate-pdf-php>`_.
 
-Related : :ref:`Image <image>`, :ref:`JPEG <jpg>`, :ref:`PNG <png>`, :ref:`Plain Text <plain-text>`, :ref:`Rich Text <rich-text>`
+Related : :ref:`Image <image>`, :ref:`JPEG <jpg>`, :ref:`PNG <png>`, :ref:`Plain Text <plain-text>`, :ref:`Rich Text <rich-text>`, :ref:`Template <template>`
 
 Related packages : `dompdf/dompdf <https://packagist.org/packages/dompdf/dompdf>`_, `tecnickcom/tcpdf <https://packagist.org/packages/tecnickcom/tcpdf>`_, `mpdf/mpdf <https://packagist.org/packages/mpdf/mpdf>`_

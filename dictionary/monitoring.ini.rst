@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monitoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Monitoring is the process of observing, tracking, and analyzing the performance, health, and behavior of applications, or infrastructure over time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monitoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monitoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Monitoring is the process of observing, tracking, and analyzing the performance, health, and behavior of applications, or infrastructure over time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monitoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Monitoring
@@ -30,4 +30,4 @@ Monitoring is a proactive practice: it helps teams identify and resolve problems
 
 See also `PHP Monitoring: Using PHP Observability Tools to Improve Web Apps <https://www.zend.com/blog/php-monitoring>`_.
 
-Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Telemetry <telemetry>`, :ref:`Log <log>`, :ref:`Trace <trace>`, :ref:`Metrics <metrics>`
+Related : :ref:`Application Performance Management (APM) <apm>`, :ref:`Telemetry <telemetry>`, :ref:`Log <log>`, :ref:`Trace <trace>`, :ref:`Metrics <metrics>`, :ref:`DevOps <devops>`, :ref:`Downtime <downtime>`, :ref:`Flame Graph <flamegraph>`

@@ -1,6 +1,5 @@
 .. _proxy:
-.. _proxy pattern:
-.. _proxy class:
+.. _proxy-pattern:
 .. meta::
 	:description:
 		Proxy: A proxy class is a structural design pattern that provides a substitute or placeholder for another object.
@@ -18,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Proxy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A proxy class is a structural design pattern that provides a substitute or placeholder for another object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Proxy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Proxy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A proxy class is a structural design pattern that provides a substitute or placeholder for another object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Proxy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Proxy
@@ -72,6 +71,6 @@ In PHP, proxy classes are often built using magic methods such as ``__call()``, 
 
 See also `Proxy in PHP <https://refactoring.guru/design-patterns/proxy/php/example>`_, `PHP: The Right Way — Design Patterns <https://phptherightway.com/pages/Design-Patterns.html>`_ and `Revisiting Lazy-Loading Proxies in PHP <https://nicolas-grekas.medium.com/revisiting-lazy-loading-proxies-in-php-ef813eabeb67>`_.
 
-Related : :ref:`Lazy Loading <lazy-loading>`, :ref:`Lazy Objects <lazy-objects>`, :ref:`Interface <interface>`, :ref:`__call() Method <-__call>`
+Related : :ref:`Lazy Loading <lazy-loading>`, :ref:`Lazy Objects <lazy-objects>`, :ref:`Interface <interface>`, :ref:`__call() Method <-__call>`, :ref:`Aspect-Oriented <aspect-oriented>`, :ref:`Facade <facade>`, :ref:`Proxy Class <proxy-class>`
 
 Related packages : `ocramius/proxy-manager <https://packagist.org/packages/ocramius/proxy-manager>`_

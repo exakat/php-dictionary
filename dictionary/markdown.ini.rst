@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Markdown","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Markdown is a lightweight markup language that can be used to add formatting elements to plain text text documents","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Markdown.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Markdown","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Markdown is a lightweight markup language that can be used to add formatting elements to plain text text documents","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Markdown.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Markdown
@@ -27,5 +27,7 @@ Markdown is a lightweight markup language that can be used to add formatting ele
 `Documentation <https://www.markdownguide.org/>`__
 
 See also `markdown syntax <https://daringfireball.net/projects/markdown/syntax>`_.
+
+Related : :ref:`Format <format>`, :ref:`Documentation <documentation>`, :ref:`Plain Text <plain-text>`, :ref:`Comments <comment>`, :ref:`Template <template>`, :ref:`Token Oriented Object Notation (TOON) <toon>`
 
 Related packages : `league/commonmark <https://packagist.org/packages/league/commonmark>`_, `erusev/parsedown <https://packagist.org/packages/erusev/parsedown>`_, `michelf/php-markdown <https://packagist.org/packages/michelf/php-markdown>`_

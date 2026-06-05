@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"XMLwriter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XMLwriter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"XMLwriter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 15:02:46 +0000","dateModified":"Wed, 03 Jun 2026 15:02:46 +0000","description":"The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XMLwriter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 XMLwriter
@@ -64,7 +64,7 @@ The ``XMLWriter`` extension offers several benefits when working with XML in PHP
 
 See also `0 <`PHP XMLWriter <https://www.educba.com/php-xmlwriter/>`_>`_ and `1 <`Create an XML file using XMLWriter <https://riptutorial.com/php/example/2731/create-an-xml-file-using-xmlwriter>`_>`_.
 
-Related : :ref:`XMLReader <xmlreader>`, :ref:`Extensible Markup Language (XML) <xml>`
+Related : :ref:`XMLReader <xmlreader>`, :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Document Object Model (DOM) <dom>`, :ref:`DOM <domxml>`, :ref:`SimpleXML <simplexml>`, :ref:`Unicode <unicode>`
 
 Related packages : `sabre/xml <https://packagist.org/packages/sabre/xml>`_, `fluentdom/fluentdom <https://packagist.org/packages/fluentdom/fluentdom>`_
 

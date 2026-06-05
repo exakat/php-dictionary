@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``foreach()`` is the most popular loop in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/foreach().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``foreach()`` is the most popular loop in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/foreach().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 foreach()
@@ -67,4 +67,4 @@ The value may be an ``list()`` construct: it sets several variables at the same 
 
 See also `Introduction To The Foreach Loop In PHP (With Code Examples) <https://zerotomastery.io/blog/PHP-foreach-loop-explained/>`_ and `PHP foreach <https://zetcode.com/php/foreach/>`_.
 
-Related : :ref:`Continue <continue>`, :ref:`For <for>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`As <as>`, :ref:`Control Flow <control-flow>`, :ref:`Control Structures <control-structure>`, :ref:`Iterator <iterator>`, :ref:`List <list>`, :ref:`Blind Variable <blind-variable>`
+Related : :ref:`Continue <continue>`, :ref:`For <for>`, :ref:`Loops <loop>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`As <as>`, :ref:`Control Flow <control-flow>`, :ref:`Control Structures <control-structure>`, :ref:`Iterator <iterator>`, :ref:`List <list>`, :ref:`Blind Variable <blind-variable>`, :ref:`Blind Variable <blind-key>`, :ref:`ClosedGeneratorException <closedgeneratorexception>`, :ref:`IteratorAggregate <iteratoraggregate>`, :ref:`Traversal <traversal>`

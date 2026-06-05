@@ -1,6 +1,6 @@
 .. _specification:
 .. _spec:
-.. _specification pattern:
+.. _specification-pattern:
 .. meta::
 	:description:
 		Specification: A specification is a formal description of expected behaviour, constraints, or requirements.
@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","name":"Specification","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A specification is a formal description of expected behaviour, constraints, or requirements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Specification.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","name":"Specification","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A specification is a formal description of expected behaviour, constraints, or requirements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Specification.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Specification
@@ -68,6 +68,6 @@ In a broader sense, a specification can refer to an API specificationm such as O
 
 See also `Specification Pattern (Wikipedia) <https://en.wikipedia.org/wiki/Specification_pattern>`_ and `Specifications by Eric Evans & Martin Fowler <https://martinfowler.com/apsupp/spec.pdf>`_.
 
-Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Design Pattern <design-pattern>`, :ref:`Business Logic <business-logic>`, :ref:`Validation <validation>`, :ref:`Design By Contract (DBC) <contract>`, :ref:`Swagger <swagger>`, :ref:`Architectural Decision Record (ADR) <adr>`
+Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Design Pattern <design-pattern>`, :ref:`Business Logic <business-logic>`, :ref:`Validation <validation>`, :ref:`Design By Contract (DBC) <contract>`, :ref:`Swagger <swagger>`, :ref:`Architectural Decision Record (ADR) <adr>`, :ref:`Software Bill Of Material (SBOM) <sbom>`
 
 Related packages : `happyr/doctrine-specification <https://packagist.org/packages/happyr/doctrine-specification>`_

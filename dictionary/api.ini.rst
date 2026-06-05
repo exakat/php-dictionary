@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Programming Interface (API)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 10:05:37 +0000","dateModified":"Thu, 28 May 2026 10:05:37 +0000","description":"An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Programming Interface (API).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Programming Interface (API)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Programming Interface (API).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Application Programming Interface (API)
@@ -56,6 +56,6 @@ They are sometimes supported directly by PHP, with extensions, or via components
 
 See also `PHP: HTTP context options <https://www.php.net/manual/en/context.http.php>`_ and `PHP: cURL <https://www.php.net/manual/en/book.curl.php>`_.
 
-Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Library <library>`, :ref:`Swagger <swagger>`, :ref:`WebRTC <webrtc>`, :ref:`Wrapper Pattern <wrapper-pattern>`
+Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Library <library>`, :ref:`Swagger <swagger>`, :ref:`WebRTC <webrtc>`, :ref:`Wrapper Pattern <wrapper-pattern>`, :ref:`Application <application>`, :ref:`Headless <headless>`, :ref:`Model Context Protocol (MCP) <mcp>`, :ref:`OAuth <oauth>`, :ref:`Progressive Web App <pwa>`, :ref:`Search Engine <search-engine>`
 
 Related packages : `webonyx/graphql-php <https://packagist.org/packages/webonyx/graphql-php>`_, `nuwave/lighthouse <https://packagist.org/packages/nuwave/lighthouse>`_

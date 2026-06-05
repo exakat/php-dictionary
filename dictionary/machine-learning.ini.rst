@@ -16,10 +16,12 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Machine Learning","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Machine Learning.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Machine Learning","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 07:27:16 +0000","dateModified":"Fri, 05 Jun 2026 07:27:16 +0000","description":"Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Machine Learning.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Machine Learning
 ----------------
 
 Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations.
+
+Related : :ref:`Artificial Intelligence (AI) <ai>`, :ref:`Neural Network <neural-network>`, :ref:`Algorithm <algorithm>`, :ref:`Large Language Model (LLM) <llm>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Numeric String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:01:17 +0000","dateModified":"Sun, 31 May 2026 08:01:17 +0000","description":"A numeric string, is a string that contains a numeric value, or can be easily converted from string to numeric, integer or float","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Numeric String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Numeric String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A numeric string, is a string that contains a numeric value, or can be easily converted from string to numeric, integer or float","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Numeric String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Numeric String
@@ -54,4 +54,4 @@ A string may be checked with the ``is_numeric()`` function. It cannot be checked
 
 See also `PHP Internals News: Episode 62: Saner Numeric Strings <https://derickrethans.nl/phpinternalsnews-62.html>`_ and `PHP Integers, Floats, and Number Strings <https://code.tutsplus.com/php-integers-floats-and-number-strings--cms-32048t>`_.
 
-Related : :ref:`Leading Numeric String <leading-numeric-string>`
+Related : :ref:`Leading Numeric String <leading-numeric-string>`, :ref:`Number <number>`

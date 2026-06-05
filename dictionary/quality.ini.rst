@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Quality","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Quality.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Quality","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Quality.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Quality
@@ -27,4 +27,4 @@ Code quality describes how well software code meets the goals of being correct, 
 
 See also `PHP The Right Way <https://phptherightway.com/>`_.
 
-Related : :ref:`Readability <readability>`, :ref:`Test <test>`, :ref:`Maintenability <maintenability>`, :ref:`Performance <performance>`, :ref:`Consistency <consistency>`
+Related : :ref:`Readability <readability>`, :ref:`Test <test>`, :ref:`Maintenability <maintenability>`, :ref:`Performance <performance>`, :ref:`Consistency <consistency>`, :ref:`Analysis <analysis>`, :ref:`Code Review <code-review>`, :ref:`Code Smell <code-smell>`, :ref:`Code Inventory <inventory>`

@@ -1,6 +1,5 @@
 .. _insecure-deserialization:
-.. _object injection:
-.. _PHP object injection:
+.. _php-object-injection:
 .. meta::
 	:description:
 		Insecure Deserialization: Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code.
@@ -18,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Insecure Deserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:19:15 +0000","dateModified":"Mon, 01 Jun 2026 09:19:15 +0000","description":"Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Insecure Deserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Insecure Deserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Insecure Deserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Insecure Deserialization
@@ -53,4 +52,4 @@ Mitigations include: never deserializing untrusted data with native ``unserializ
 
 See also `OWASP: PHP Object Injection <https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection>`_, `OWASP Top 10 A8: Insecure Deserialization <https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization>`_ and `Developing a custom gadget chain for PHP deserialization <https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization>`_.
 
-Related : :ref:`Serialization <serialization>`, :ref:`Unserialization <unserialize>`, :ref:`Object Injection <object-injection>`, :ref:`__wakeup() Method <-__wakeup>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Attack <attack>`, :ref:`Vulnerability <vulnerability>`, :ref:`OWASP <owasp>`, :ref:`Security <security>`, :ref:`Pop <pop>`
+Related : :ref:`Serialization <serialization>`, :ref:`Unserialization <unserialize>`, :ref:`Object Injection <object-injection>`, :ref:`__wakeup() Method <-__wakeup>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Attack <attack>`, :ref:`Vulnerability <vulnerability>`, :ref:`OWASP <owasp>`, :ref:`Security <security>`, :ref:`Pop <pop>`, :ref:`Static Application Security Testing (SAST) <sast>`

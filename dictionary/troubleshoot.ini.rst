@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Troubleshoot","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"To troubleshoot is to diagnostic and correct a problem in a piece of software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Troubleshoot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Troubleshoot","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"To troubleshoot is to diagnostic and correct a problem in a piece of software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Troubleshoot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Troubleshoot
@@ -30,3 +30,5 @@ Troubleshoot applies to every aspect of the lifecycle of PHP: installation, runn
 `Documentation <https://en.wikipedia.org/wiki/Troubleshooting>`__
 
 See also `Troubleshooting PHP <https://h5p.org/documentation/troubleshooting-php>`_ and `Troubleshooting Types <https://phpstan.org/user-guide/troubleshooting-types>`_.
+
+Related : :ref:`Debug <debug>`, :ref:`Xdebug <xdebug>`, :ref:`Error <error>`, :ref:`Error Handling <error-handling>`, :ref:`Exception <exception>`, :ref:`Trace <trace>`, :ref:`Log <log>`, :ref:`Performance <performance>`, :ref:`Audit Trail <audit-trail>`

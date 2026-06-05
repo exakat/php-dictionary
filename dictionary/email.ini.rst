@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Email","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Email.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Email","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Email.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Email
@@ -46,6 +46,6 @@ PHP also offers special filter to validate email addresses, with the filter exte
 
 See also `How to Send Email in PHP: Complete Guide with Code Examples <https://sendlayer.com/blog/how-to-send-email-in-php/>`_.
 
-Related : :ref:`filter <filter>`
+Related : :ref:`filter <filter>`, :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
 
 Related packages : `phpmailer/phpmailer <https://packagist.org/packages/phpmailer/phpmailer>`_, `symfony/mailer <https://packagist.org/packages/symfony/mailer>`_, `swiftmailer/swiftmailer <https://packagist.org/packages/swiftmailer/swiftmailer>`_, `php-imap/php-imap <https://packagist.org/packages/php-imap/php-imap>`_

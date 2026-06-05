@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Parser","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The PHP parser is a piece of software that process a piece of text and extract tokens, with their PHP meanings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Parser.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Parser","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The PHP parser is a piece of software that process a piece of text and extract tokens, with their PHP meanings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Parser.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Parser
@@ -44,6 +44,6 @@ PHP includes an internal parser, that reads the source code, and produces the PH
 
 See also `Parse, don’t validate <https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/>`_ and `tree-sitter-language-pack <https://github.com/kreuzberg-dev/tree-sitter-language-pack>`_.
 
-Related : :ref:`Sanitation <sanitation>`, :ref:`Validation <validation>`, :ref:`Parse <parse>`, :ref:`ParseError <parseerror>`
+Related : :ref:`Sanitation <sanitation>`, :ref:`Validation <validation>`, :ref:`Parse <parse>`, :ref:`ParseError <parseerror>`, :ref:`Sandbox <sandbox>`
 
 Related packages : `nikic/PHP-Parser <https://packagist.org/packages/nikic/PHP-Parser>`_, `parsica-php/parsica <https://packagist.org/packages/parsica-php/parsica>`_

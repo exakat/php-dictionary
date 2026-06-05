@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"new","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``new`` creates a new object from a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/new.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"new","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``new`` creates a new object from a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/new.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 new
@@ -48,4 +48,4 @@ The constructor defines how many arguments are needed. When no argument is neede
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.new>`__
 
-Related : :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`, :ref:`Dynamic Class <dynamic-class>`, :ref:`New In Initializers <new-in-initializer>`, :ref:`New Without Parenthesis <new-without-parenthesis>`, :ref:`Reflection <reflection>`
+Related : :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`, :ref:`Dynamic Class <dynamic-class>`, :ref:`New In Initializers <new-in-initializer>`, :ref:`New Without Parenthesis <new-without-parenthesis>`, :ref:`Reflection <reflection>`, :ref:`instance <instance>`, :ref:`Static Call <static-call>`

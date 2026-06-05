@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Framework
@@ -70,4 +70,4 @@ This is not an exhaustive list.
 
 See also `PHP framework list <https://www.exakat.io/en/php-framework-list/>`_ and `10 Best PHP Frameworks for Web Development in 2025 <https://www.cloudways.com/blog/best-php-frameworks/>`_.
 
-Related : :ref:`Form <form>`, :ref:`Authentication <authentication>`, :ref:`Security <security>`, :ref:`Template <template>`, :ref:`Database <database>`, :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`, :ref:`Laravel <laravel>`, :ref:`NativePHP <nativephp>`, :ref:`Symfony <symfony>`, :ref:`Tempest <tempest>`
+Related : :ref:`Form <form>`, :ref:`Authentication <authentication>`, :ref:`Security <security>`, :ref:`Template <template>`, :ref:`Database <database>`, :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`, :ref:`Laravel <laravel>`, :ref:`NativePHP <nativephp>`, :ref:`Symfony <symfony>`, :ref:`Tempest <tempest>`, :ref:`Library <library>`, :ref:`Marketplace <marketplace>`, :ref:`Micro-framework <microframework>`, :ref:`Spiral <spiral>`, :ref:`Xdebug <xdebug>`

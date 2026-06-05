@@ -46,6 +46,6 @@ It is a convenient alternative to the procedural ``fopen()``/``fgets()``/``fclos
 
 See also `SplFileObject: The Hidden Gem of PHP's SPL <https://dev.to/bdelespierre/splfileobject-the-hidden-gem-of-phps-spl-4d95>`_.
 
-Related : :ref:`Standard PHP Library (SPL) <spl>`, , :ref:`Iterator <iterator>`, :ref:`fopen() <fopen>`, :ref:`File <file>`
+Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`SplFileInfo <splfileinfo>`, :ref:`Iterator <iterator>`, :ref:`fopen() <fopen>`, :ref:`File <file>`
 
 Added in PHP 5.1

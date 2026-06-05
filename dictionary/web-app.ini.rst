@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Web Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"A web application is software that runs in a web browser and is delivered over HTTP\/HTTPS from a web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Web Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Web Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A web application is software that runs in a web browser and is delivered over HTTP\/HTTPS from a web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Web Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Web Application
@@ -29,4 +29,4 @@ A web application is software that runs in a web browser and is delivered over H
 
 See also `Web application <https://en.wikipedia.org/wiki/Web_application>`_.
 
-Related : :ref:`Single Page Application (SPA) <spa>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Webserver <webserver>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Mobile Application <mobile-app>`, :ref:`Desktop Application <desktop-app>`, :ref:`REST API <rest-api>`, :ref:`Model - View - Controller (MVC) <mvc>`
+Related : :ref:`Single Page Application (SPA) <spa>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Webserver <webserver>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Mobile Application <mobile-app>`, :ref:`Desktop Application <desktop-app>`, :ref:`REST API <rest-api>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Application <application>`

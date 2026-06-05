@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Webserver
@@ -37,4 +37,4 @@ PHP is able to run in server mode. In command line, use the ``-S`` option.
 
 See also `Built-in web server <https://www.php.net/manual/en/features.commandline.webserver.php>`_ and `Installation and Configuration <https://www.php.net/manual/en/install.php>`_.
 
-Related : :ref:`Command Line Interface (CLI) <cli>`, :ref:`Application Server <app-server>`, :ref:`Read Eval Print Loop (REPL) <repl>`, :ref:`Server <server>`, :ref:`World Wide Web (WWW) <web>`
+Related : :ref:`Command Line Interface (CLI) <cli>`, :ref:`Application Server <app-server>`, :ref:`Read Eval Print Loop (REPL) <repl>`, :ref:`Server <server>`, :ref:`World Wide Web (WWW) <web>`, :ref:`\.htaccess <htaccess>`, :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`, :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`Web Application <web-app>`, :ref:`Web-spider <web-spider>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","name":"Connection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:49:24 +0000","dateModified":"Sun, 31 May 2026 08:49:24 +0000","description":"Connection refers to the communication link established between a running instance of PHP and a remote server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Connection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Syntax error, unexpected token \"const\".html","name":"Connection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Connection refers to the communication link established between a running instance of PHP and a remote server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Connection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Connection
@@ -35,4 +35,4 @@ The remote server may be on the same physical machine as PHP: it is considered r
 
 See also `PDO Connections and Connection management <https://www.php.net/manual/en/pdo.connections.php>`_.
 
-Related : :ref:`Connection Persistence <connexion-persistence>`, :ref:`File Transfer Protocol (FTP) <ftp>`, :ref:`Server <server>`
+Related : :ref:`Connection Persistence <connexion-persistence>`, :ref:`File Transfer Protocol (FTP) <ftp>`, :ref:`Server <server>`, :ref:`Data Source Name (DSN) <dsn>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:38:10 +0000","dateModified":"Sun, 31 May 2026 08:38:10 +0000","description":"Extensions are a custom way to add features to software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Extensions are a custom way to add features to software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Extensions
@@ -29,4 +29,4 @@ Extensions are a custom way to add features to software. Extension is a very gen
 
 See also `PHP-cpp : A C++ library for developing PHP extensions. <https://www.php-cpp.com/>`_, `Writing PHP Extensions <https://www.zend.com/resources/writing-php-extensions>`_ and `Zephir PHP <https://zephir-lang.com/en>`_.
 
-Related : :ref:`Directives <directive>`, :ref:`Library Loading <library-loading>`, :ref:`Module <module>`, :ref:`PHP Extension C Library (PECL) <pecl>`, :ref:`PHP Installer For Extensions (PIE) <pie>`, :ref:`Core <core>`, :ref:`Dynamic Loading <dynamic-loading>`, :ref:`Embed <embed>`, :ref:`Foreign Function Interface (FFI) <ffi>`, :ref:`Readline <readline>`
+Related : :ref:`Directives <directive>`, :ref:`Library Loading <library-loading>`, :ref:`Module <module>`, :ref:`PHP Extension C Library (PECL) <pecl>`, :ref:`PHP Installer For Extensions (PIE) <pie>`, :ref:`Core <core>`, :ref:`Dynamic Loading <dynamic-loading>`, :ref:`Embed <embed>`, :ref:`Foreign Function Interface (FFI) <ffi>`, :ref:`Readline <readline>`, :ref:`filter <filter>`, :ref:`gettext Extension <gettext>`, :ref:`mysqli <mysqli>`

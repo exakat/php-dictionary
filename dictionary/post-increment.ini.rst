@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Post-increment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 08:08:20 +0000","dateModified":"Thu, 28 May 2026 08:08:20 +0000","description":"Post-increment is the ``++`` operator, used on a variable, when it is placed after the variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Post-increment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Post-increment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Post-increment is the ``++`` operator, used on a variable, when it is placed after the variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Post-increment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Post-increment
@@ -41,4 +41,4 @@ Post-increment and post-decrement have a corresponding pre-increment and pre-dec
 
 `Documentation <https://www.php.net/manual/en/language.operators.increment.php>`__
 
-Related : :ref:`Pre-increment <pre-increment>`, :ref:`Variables <variable>`, :ref:`Increment <increment>`, :ref:`one <one>`
+Related : :ref:`Pre-increment <pre-increment>`, :ref:`Variables <variable>`, :ref:`Increment <increment>`, :ref:`one <one>`, :ref:`Double <double>`, :ref:`Minus - <minus>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Type Declaration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:29:31 +0000","dateModified":"Thu, 28 May 2026 06:25:48 +0000","description":"Type declaration property, also known as typed properties, is a feature introduced in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Type Declaration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Type Declaration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Type declaration property, also known as typed properties, is a feature introduced in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Type Declaration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Property Type Declaration
@@ -46,6 +46,6 @@ Since PHP 8.1, typed properties may also be declared ``readonly``, which prevent
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php>`__
 
-Related : :ref:`Type System <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Readonly <readonly>`, :ref:`Nullable <nullable>`, :ref:`Properties <property>`, :ref:`Uninitialized <uninitialized>`, :ref:`TypeError <typeerror>`, :ref:`Return Type <return-type>`, :ref:`Promoted Properties <promoted-property>`, :ref:`Property Hook <property-hook>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`static <static>`
+Related : :ref:`Type System <type>`, :ref:`Union Type <union-type>`, :ref:`Intersection Type <intersection-type>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Readonly <readonly>`, :ref:`Nullable <nullable>`, :ref:`Properties <property>`, :ref:`Uninitialized <uninitialized>`, :ref:`TypeError <typeerror>`, :ref:`Return Type <return-type>`, :ref:`Promoted Properties <promoted-property>`, :ref:`Property Hook <property-hook>`, :ref:`Asymmetric Visibility <asymmetric-visibility>`, :ref:`static <static>`, :ref:`Var <var>`
 
 Added in PHP 7.4

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Error reporting is the process to report any issue while executing the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Error reporting is the process to report any issue while executing the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Error Reporting
@@ -50,6 +50,6 @@ Error reporting is set by calling the ``error_reporting()`` function, with a com
 
 See also `How to Enable PHP Error Reporting <https://www.scoutapm.com/blog/how-to-enable-php-error-reporting/>`_, `error_reporting(), the function <https://www.php.net/manual/en/function.error-reporting.php>`_, `error_reporting, the directive <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_ and `How to Display All PHP Errors: A Detailed Guide <https://stackify.com/display-php-errors/>`_.
 
-Related : :ref:`set_error_handler() <set_error_handler>`
+Related : :ref:`set_error_handler() <set_error_handler>`, :ref:`Constant Combination <constant-combinaison>`, :ref:`Log File <log-file>`
 
 Related packages : `filp/whoops <https://packagist.org/packages/filp/whoops>`_

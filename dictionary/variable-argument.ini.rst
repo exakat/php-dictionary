@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 07:03:41 +0000","dateModified":"Fri, 29 May 2026 07:03:41 +0000","description":"Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Variable Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Variable arguments refers to a methodcall where the list of argument is depends on the call, rather than the signature of the method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Variable Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Variable Arguments
@@ -54,4 +54,4 @@ Variable arguments may be static or dynamic. It is static when the list of argum
 
 See also `Variable-length argument lists <https://riptutorial.com/php/example/18652/variable-length-argument-lists>`_ and `Named Arguments and Variadics in PHP 8 <https://markbakeruk.net/2021/09/28/named-arguments-and-variadics-in-php-8/>`_.
 
-Related : :ref:`Functions <function>`, :ref:`Variadic <variadic>`, :ref:`func_get_args() <func_get_args>`
+Related : :ref:`Functions <function>`, :ref:`Variadic <variadic>`, :ref:`func_get_args() <func_get_args>`, :ref:`Three Dots <three-dots>`

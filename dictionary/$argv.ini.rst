@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$argv","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:05:59 +0000","dateModified":"Fri, 29 May 2026 05:05:59 +0000","description":"``$argv`` is a PHP variable that contains an array of the arguments passed to the PHP script, in the command line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$argv.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/debug_zval_dump.html","name":"$argv","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``$argv`` is a PHP variable that contains an array of the arguments passed to the PHP script, in the command line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$argv.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $argv
@@ -39,4 +39,4 @@ $argv
 
 See also `Get Command-Line Arguments With PHP $argv or getopt() <https://code.tutsplus.com/get-command-line-arguments-with-php-argv-or-getopt--cms-39201t>`_.
 
-Related : :ref:`$argc <$argc>`, :ref:`PHP Variables <php-variable>`, :ref:`global Scope <global>`, :ref:`$GLOBALS <$globals>`, :ref:`Command Line Interface (CLI) <cli>`
+Related : :ref:`$argc <$argc>`, :ref:`PHP Variables <php-variable>`, :ref:`global Scope <global>`, :ref:`$GLOBALS <$globals>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`register_argc_argv <register_argc_argv>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_unshift()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 07:49:50 +0000","dateModified":"Tue, 02 Jun 2026 07:49:50 +0000","description":"``array_unshift()`` prepends one or more elements to the beginning of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_unshift().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_unshift()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``array_unshift()`` prepends one or more elements to the beginning of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_unshift().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_unshift()
@@ -53,4 +53,4 @@ Note that ``array_unshift()`` is an ``O(n)`` operation because all integer keys 
 
 See also `array_unshift - PHP Manual <https://www.php.net/manual/en/function.array-unshift.php>`_.
 
-Related : , :ref:`array_push() <array_push>`, :ref:`array_pop() <array_pop>`, :ref:`First In, First Out (FIFO) <fifo>`, :ref:`Last In, First Out (LIFO) <lifo>`
+Related : :ref:`array_shift() <array_shift>`, :ref:`array_push() <array_push>`, :ref:`array_pop() <array_pop>`, :ref:`First In, First Out (FIFO) <fifo>`, :ref:`Last In, First Out (LIFO) <lifo>`, :ref:`Array Prepend <prepend>`

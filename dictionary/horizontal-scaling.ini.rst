@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Horizontal Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Horizontal scaling, also called scaling out, means adding more instances of an application or service to distribute the workload across multiple machines, rather than increasing the resources of a single machine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Horizontal Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Horizontal Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Horizontal scaling, also called scaling out, means adding more instances of an application or service to distribute the workload across multiple machines, rather than increasing the resources of a single machine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Horizontal Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Horizontal Scaling
@@ -48,4 +48,4 @@ Horizontal scaling contrasts with vertical scaling, which adds physical resource
 
 See also `Horizontally Scaling PHP Applications <https://www.digitalocean.com/blog/horizontally-scaling-php-applications>`_ and `PHP Session Clustering with Redis <https://redis.io/docs/manual/patterns/>`_.
 
-Related : :ref:`Scaling <scaling>`, :ref:`Vertical Scaling <vertical-scaling>`, , :ref:`Stateless <stateless>`, :ref:`Session <session>`, :ref:`Cache <cache>`, :ref:`Microservice <microservice>`, :ref:`Architecture <architecture>`
+Related : :ref:`Scaling <scaling>`, :ref:`Vertical Scaling <vertical-scaling>`, :ref:`Load Balancer <load-balancer>`, :ref:`Stateless <stateless>`, :ref:`Session <session>`, :ref:`Cache <cache>`, :ref:`Microservice <microservice>`, :ref:`Architecture <architecture>`, :ref:`Cloud <cloud>`

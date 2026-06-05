@@ -65,4 +65,4 @@ This is distinct, though close, to the identity: identity returns the incoming d
 
 See also `eio_nop <https://www.php.net/manual/en/function.eio-nop.php>`_ and `Noop polyfills <https://backendtea.com/post/noop-polyfill/>`_.
 
-Related : :ref:`Useless <useless>`, 
+Related : :ref:`Useless <useless>`, :ref:`Identity <identity>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Performance Management (APM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"APM stands for Application Performance Management","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Performance Management (APM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Application Performance Management (APM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"APM stands for Application Performance Management","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Application Performance Management (APM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Application Performance Management (APM)
@@ -30,6 +30,6 @@ It helps finding bottlenecks in the code.
 
 See also `Introduction to New Relic for PHP <https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/>`_ and `Tracing PHP Applications <https://docs.datadoghq.com/fr/tracing/trace_collection/dd_libraries/php/?tab=containers>`_.
 
-Related : :ref:`Bottleneck <bottleneck>`, :ref:`Monitoring <monitoring>`
+Related : :ref:`Bottleneck <bottleneck>`, :ref:`Monitoring <monitoring>`, :ref:`Metrics <metrics>`, :ref:`Telemetry <telemetry>`
 
 Related packages : `datadog/dd-trace <https://packagist.org/packages/datadog/dd-trace>`_, `ekino/newrelic-bundle <https://packagist.org/packages/ekino/newrelic-bundle>`_

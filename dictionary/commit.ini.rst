@@ -27,4 +27,4 @@ A commit is a validation of changes.
 + Commit in VCS: when the source code has been modified and may be changed in the main code base as an atomic diff
 + Commit in Database: when data have been checked and changed in the database, and the  change may be stored and propagated to all other operations.
 
-Related : :ref:`VCS Commit <vcs-commit>`, , :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Pull Request (PR) <pr>`, :ref:`VCS <vcs>`, :ref:`Worktree <worktree>`
+Related : :ref:`VCS Commit <vcs-commit>`, :ref:`Database Commit <database-commit>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Pull Request (PR) <pr>`, :ref:`VCS <vcs>`, :ref:`Worktree <worktree>`

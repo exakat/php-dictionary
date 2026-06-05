@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"delayedtargetvalidation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The DelayedTargetValidation attribute is meant to make other PHP engine attributes optional","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/delayedtargetvalidation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"delayedtargetvalidation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:19:52 +0000","dateModified":"Fri, 05 Jun 2026 08:19:52 +0000","description":"The DelayedTargetValidation attribute is meant to make other PHP engine attributes optional","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/delayedtargetvalidation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 delayedtargetvalidation
@@ -36,3 +36,5 @@ The DelayedTargetValidation attribute is meant to make other PHP engine attribut
 
 
 See also `#[\DelayedTargetValidation] Attribute Explained <https://scherzer.dev/Blog/20250820-delayed-target-validation>`_ and `PHP RFC: #[\DelayedTargetValidation] attribute <https://wiki.php.net/rfc/delayedtargetvalidation_attribute>`_.
+
+Related : :ref:`Attribute <attribute>`, :ref:`PHP Native Attributes <php-attribute>`, :ref:`Forward Compatible <forward-compatible>`, :ref:`PHP Native Attribute <php-native-attribute>`

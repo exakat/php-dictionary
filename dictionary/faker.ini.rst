@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Faker","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A ``faker`` is a tool that generates fake data, for testing purposes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Faker.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Faker","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A ``faker`` is a tool that generates fake data, for testing purposes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Faker.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Faker
@@ -34,6 +34,6 @@ Using a faker happens in different situations:
 
 See also `Simplifying Test Data Generation with Faker <https://www.sitepoint.com/simplifying-test-data-generation-with-faker/>`_ and `A new PHP Faker: minimalist, extensible, and free of frills <https://medium.com/@opensource_52111/faker-16754ea6154b>`_.
 
-Related : :ref:`Data <data>`, :ref:`Test <test>`
+Related : :ref:`Data <data>`, :ref:`Test <test>`, :ref:`Anonymize <anonymize>`, :ref:`Dataset <dataset>`
 
 Related packages : `fakerphp/faker <https://packagist.org/packages/fakerphp/faker>`_, `xefi/faker-php <https://packagist.org/packages/xefi/faker-php>`_

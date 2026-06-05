@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Linux Apache Mysql PHP (LAMP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"LAMP is a popular open-source software stack used to build and deploy web applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Linux Apache Mysql PHP (LAMP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Linux Apache Mysql PHP (LAMP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"LAMP is a popular open-source software stack used to build and deploy web applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Linux Apache Mysql PHP (LAMP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Linux Apache Mysql PHP (LAMP)
@@ -29,4 +29,6 @@ LAMP is a popular open-source software stack used to build and deploy web applic
 + MySQL: The database management system, or alternatives like MariaDB.
 + PHP: The programming language used for server-side scripting.
 
-See also `Linux <https://www.linux.com/>`_, `Apache <https://www.apache.org>`_, `MySQL <https://www.mysql.com/>`_ and `Mariadb <https://mariadb.org/>`_.
+See also `Linux <https://www.linux.com/>`_, `Apache <https://www.apache.org>`_, `MySQL <https://www.mysql.com/>`_ and `MariaDB home <https://mariadb.org/>`_.
+
+Related : :ref:`MySQL <mysql>`, :ref:`Server <server>`, :ref:`Webserver <webserver>`, :ref:`PHP, Hypertext Preprocessor (PHP) <php>`, :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`, :ref:`Stack <stack>`

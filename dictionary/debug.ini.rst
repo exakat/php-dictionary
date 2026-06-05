@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Debug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Debugging is the action to diagnostic a bug, find its root cause, quick workaround and definitive fix for it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Debug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Debug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Debugging is the action to diagnostic a bug, find its root cause, quick workaround and definitive fix for it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Debug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Debug
@@ -41,4 +41,4 @@ Debugging uses various tools of analysis:
 
 See also `Xdebug <https://www.xdebug.org/>`_, `PHP Debugger <https://github.com/php-debugger/php-debugger>`_, `Interactive PHP Debugger <https://www.php.net/manual/en/book.phpdbg.php>`_ and `How to Use a Debugger in PHP <https://www.honeybadger.io/blog/php-debugger/>`_.
 
-Related : :ref:`Debugger <debugger>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`Xdebug <xdebug>`
+Related : :ref:`Debugger <debugger>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`Xdebug <xdebug>`, :ref:`Callstack <callstack>`, :ref:`html_errors <html_errors>`, :ref:`Troubleshoot <troubleshoot>`

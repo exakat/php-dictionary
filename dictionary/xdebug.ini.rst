@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Xdebug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:36:57 +0000","dateModified":"Sun, 31 May 2026 07:36:57 +0000","description":"Xdebug is an extension for PHP, and provides a range of features to improve the PHP development experience","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Xdebug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Xdebug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Xdebug is an extension for PHP, and provides a range of features to improve the PHP development experience","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Xdebug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Xdebug
@@ -30,4 +30,4 @@ Xdebug's most celebrated feature is its step debugger: it allows for pausing PHP
 
 See also `Debugging PHP with VSCode and XDebug: A Step-by-Step Guide <https://dev.to/phpcontrols/debugging-php-with-vscode-and-xdebug-a-step-by-step-guide-4296>`_.
 
-Related : :ref:`Framework <framework>`, :ref:`Debug <debug>`, :ref:`PHP Editor <php-editor>`, :ref:`PHP Editor <IDE>`, :ref:`Trace <trace>`
+Related : :ref:`Framework <framework>`, :ref:`Debug <debug>`, :ref:`PHP Editor <php-editor>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`Trace <trace>`, :ref:`Troubleshoot <troubleshoot>`

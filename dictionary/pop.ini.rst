@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:00:07 +0000","dateModified":"Sun, 31 May 2026 08:00:07 +0000","description":"Pop is the operation of removing and returning the last element of a stack or array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Pop is the operation of removing and returning the last element of a stack or array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pop
@@ -53,4 +53,4 @@ PHP's ``SplStack`` and ``SplDoublyLinkedList`` also expose a ``pop()`` method th
 
 `Documentation <https://www.php.net/manual/en/function.array-pop.php>`__
 
-Related : :ref:`array_push() <array_push>`, :ref:`array_pop() <array_pop>`, :ref:`Stack <stack>`, :ref:`SplStack <splstack>`, :ref:`Last In, First Out (LIFO) <lifo>`, :ref:`First In, First Out (FIFO) <fifo>`, :ref:`Data Structure <datastructure>`, :ref:`Array <array>`
+Related : :ref:`array_push() <array_push>`, :ref:`array_pop() <array_pop>`, :ref:`Stack <stack>`, :ref:`SplStack <splstack>`, :ref:`Last In, First Out (LIFO) <lifo>`, :ref:`First In, First Out (FIFO) <fifo>`, :ref:`Data Structure <datastructure>`, :ref:`Array <array>`, :ref:`Insecure Deserialization <insecure-deserialization>`

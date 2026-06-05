@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Source","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Source.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Source","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Source.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Open Source
@@ -34,4 +34,4 @@ Open source is often related to free, as in freedom to access the code and modif
 
 See also `PHP Licence 3.0.1 <https://www.php.net/license/3_01.txt>`_ and `Good First Issue/PHP <https://goodfirstissue.dev/language/php>`_.
 
-Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`, :ref:`Contribution <contribution>`, :ref:`Community <community>`, , :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`, :ref:`Library <library>`, :ref:`Proprietary Source <proprietary-source>`
+Related : :ref:`Closed Source <closed-source>`, :ref:`Licence <licence>`, :ref:`Vendor Lock-in <vendor-lockin>`, :ref:`Contribution <contribution>`, :ref:`Community <community>`, :ref:`Free <free>`, :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`, :ref:`Library <library>`, :ref:`Proprietary Source <proprietary-source>`, :ref:`Source Code <source>`

@@ -32,4 +32,4 @@ Example of flags:
 + ``json_decode()``, 4th argument: ``JSON_BIGINT_AS_STRING``, ``JSON_INVALID_UTF8_IGNORE``, ``JSON_INVALID_UTF8_SUBSTITUTE``, ``JSON_OBJECT_AS_ARRAY``, ``JSON_THROW_ON_ERROR``;
 + ``ArrayObject::setFlags()``, 1rst argument: 	``ArrayObject::STD_PROP_LIST`` or ``ArrayObject::ARRAY_AS_PROPS``.
 
-Related : , :ref:`Directives <directive>`, :ref:`Configuration <configuration>`
+Related : :ref:`Option <option>`, :ref:`Directives <directive>`, :ref:`Configuration <configuration>`

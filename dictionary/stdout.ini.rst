@@ -2,28 +2,28 @@
 .. _standard-output:
 .. meta::
 	:description:
-		STDOUT: stdout refers to the standard output stream.
+		STDOUT: ``stdout`` refers to the standard output stream.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: STDOUT
-	:twitter:description: STDOUT: stdout refers to the standard output stream
+	:twitter:description: STDOUT: ``stdout`` refers to the standard output stream
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: STDOUT
 	:og:type: article
-	:og:description: stdout refers to the standard output stream
+	:og:description: ``stdout`` refers to the standard output stream
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/stdout.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"STDOUT","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"stdout refers to the standard output stream","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/STDOUT.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"STDOUT","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 15:04:03 +0000","dateModified":"Wed, 03 Jun 2026 15:04:03 +0000","description":"``stdout`` refers to the standard output stream","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/STDOUT.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 STDOUT
 ------
 
-stdout refers to the standard output stream. It is a common term used in programming to represent the destination for standard output data. 
+``stdout`` refers to the standard output stream. It is a common term used in programming to represent the destination for standard output data. 
 
 Native PHP functions echo and print typically send their argument to the standard output stream.
 
@@ -35,15 +35,15 @@ The standard output is also available via the protocol ``php``, with the special
    
    <?php
    
-   // implicitely write to the standard output
-   echo 'Hello world';
-   
-   // explicitely write to the standard output
-   fwrite(STDOUT, 'Hello world');
-   
-   // explicitely write to the standard output
-   $fp = fopen('php://stdout', 'w');
-   fwrite($fp, 'Hello world');
+       // implicitely write to the standard output
+       echo 'Hello world';
+       
+       // explicitely write to the standard output
+       fwrite(STDOUT, 'Hello world');
+       
+       // explicitely write to the standard output
+       $fp = fopen('php://stdout', 'w');
+       fwrite($fp, 'Hello world');
    
    ?>
 
@@ -51,3 +51,5 @@ The standard output is also available via the protocol ``php``, with the special
 `Documentation <https://www.php.net/manual/en/reserved.constants.php>`__
 
 See also `PHP Protocol <https://www.php.net/manual/en/wrappers.php.php>`_.
+
+Related : :ref:`Echo <echo>`, :ref:`Print <print>`, :ref:`Stream <stream>`, :ref:`Pipe Operator <pipe>`, :ref:`Log <log>`

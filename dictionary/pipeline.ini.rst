@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pipeline
@@ -36,6 +36,6 @@ The pipeline image is related to the assembly line, from factories.
 
 See also `Laravel: When to use Pipelines? How to test them? <https://darkghosthunter.medium.com/laravel-when-to-use-pipelines-how-to-test-them-8993ed93e735>`_ and `Understanding the pipeline pattern <https://matthewdaly.co.uk/blog/2018/10/05/understanding-the-pipeline-pattern/>`_.
 
-Related : :ref:`Continuous Delivery (CD) <cd>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Pull Request (PR) <pr>`, :ref:`Task Runner <task-runner>`
+Related : :ref:`Continuous Delivery (CD) <cd>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Pull Request (PR) <pr>`, :ref:`Task Runner <task-runner>`, :ref:`Code Review <code-review>`, :ref:`Middleware Pattern <middleware>`, :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
 
 Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `league/pipeline <https://packagist.org/packages/league/pipeline>`_

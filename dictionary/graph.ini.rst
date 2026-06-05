@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:14:53 +0000","dateModified":"Fri, 29 May 2026 09:14:53 +0000","description":"A graph is a data structure consisting of a set of nodes, also called vertices, and edges that connect pairs of nodes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A graph is a data structure consisting of a set of nodes, also called vertices, and edges that connect pairs of nodes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Graph
@@ -50,6 +50,6 @@ PHP has no built-in graph data structure, but several libraries provide graph im
 
 `Documentation <https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>`__
 
-Related : :ref:`Call Graph <call-graph>`, :ref:`Control Flow Graph <control-flow-graph>`, :ref:`Graph Database <graph-database>`, :ref:`GraphQL <graphql>`, :ref:`Tree <tree>`
+Related : :ref:`Call Graph <call-graph>`, :ref:`Control Flow Graph <control-flow-graph>`, :ref:`Graph Database <graph-database>`, :ref:`GraphQL <graphql>`, :ref:`Tree <tree>`, :ref:`Network <network>`, :ref:`Treemap <treemap>`
 
 Related packages : `graphp/graph <https://packagist.org/packages/graphp/graph>`_

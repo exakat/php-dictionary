@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Property hooks are a feature of PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Property Hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Property hooks are a feature of PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Property Hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Property Hook
@@ -55,6 +55,6 @@ Property hooks are also called ``Property Accessors``, in other languages.
 
 See also `PHP 8.4 Property Hooks <https://ashallendesign.co.uk/blog/php-84-property-hooks>`_, `PHP 8.4 Property Hooks: The Ultimate Guide for Developers <https://qirolab.com/posts/php-84-property-hooks>`_, `PHP RFC: Property hook improvements <https://wiki.php.net/rfc/hook_improvements>`_, `A Guide to PHP 8.4 Property Hooks <https://www.zend.com/blog/php-8-4-property-hooks>`_, `PHP’s New Property Hooks Are Here—But Should You Use Them? <https://hackernoon.com/phps-new-property-hooks-are-herebut-should-you-use-them>`_ and `Using property hooks in PHP <https://dyrynda.com.au/blog/using-property-hooks-in-php>`_.
 
-Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`, :ref:`Double Arrow <double-arrow>`, :ref:`Magic Constants <magic-constant>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writeable <writeable>`
+Related : :ref:`Properties <property>`, :ref:`__get() Method <-__get>`, :ref:`__set() Method <-__set>`, :ref:`Magic Methods <magic-method>`, :ref:`Double Arrow <double-arrow>`, :ref:`Magic Constants <magic-constant>`, :ref:`Virtual Property <virtual-property>`, :ref:`Writeable <writeable>`, :ref:`Class Getter Method <getter>`, :ref:`Property Type Declaration <type-declaration-property>`
 
 Added in PHP 8.4

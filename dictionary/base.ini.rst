@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Base","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:12:19 +0000","dateModified":"Tue, 02 Jun 2026 17:12:19 +0000","description":"The term ``base`` has two common meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Base.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Base","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The term ``base`` has two common meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Base.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Base
@@ -25,7 +25,8 @@ Base
 The term ``base`` has two common meanings:
 
 + Base class: a parent class from which other classes inherit. A base class defines common attributes and behavior shared by all subclasses. In PHP, a base class is declared with ``class`` and extended with ``extends``. Abstract base classes use the ``abstract`` keyword to enforce method implementation in subclasses
-+ Numeric base: the number of unique digits in a positional numeral system. PHP natively supports base 2 (binary), base 8 (octal), base 10 (decimal), and base 16 (hexadecimal) integer literals. The ``base_convert()``, ``bindec()``, ``octdec()``, ``decoct()``, ``hexdec()``, and ``dechex()`` functions convert between bases.
++ Numeric base: the number of unique digits in a positional numeral system. PHP natively supports base 2 (binary), base 8 (octal), base 10 (decimal), and base 16 (hexadecimal) integer literals. The ``base_convert()``, ``bindec()``, ``octdec()``, ``decoct()``, ``hexdec()``, and ``dechex()`` functions convert between bases
++ Base 64 encoding: an encoding method a binary-to-text encoding scheme that represents binary data in an ASCII string format.
 
 
 .. code-block:: php
@@ -57,4 +58,4 @@ The term ``base`` has two common meanings:
 
 See also `base_convert - PHP Manual <https://www.php.net/manual/en/function.base-convert.php>`_.
 
-Related : :ref:`Abstract Class <abstract-class>`, :ref:`Inheritance <inheritance>`, :ref:`Numeric Base <numeric-base>`, , :ref:`Binary <binary>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`
+Related : :ref:`Abstract Class <abstract-class>`, :ref:`Inheritance <inheritance>`, :ref:`Numeric Base <numeric-base>`, :ref:`Base Class <base-class>`, :ref:`Binary <binary>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`, :ref:`Base 64 Encoding <base64>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Standards Recommendations (PSR)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:01:27 +0000","dateModified":"Thu, 28 May 2026 07:01:27 +0000","description":"``PSR`` stands for PHP Standards Recommendations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Standards Recommendations (PSR).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Standards Recommendations (PSR)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``PSR`` stands for PHP Standards Recommendations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Standards Recommendations (PSR).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Standards Recommendations (PSR)
@@ -32,4 +32,4 @@ There are 22 PSR in 2026, covering subjects such as cache, factories, log, codin
 
 See also `PHP extension providing the accepted PSR interfaces <https://github.com/jbboehr/php-psr>`_, `Why You Should Implement PHP Coding Standards (PSR) in Your Projects <https://medium.com/@mickdes/why-you-should-implement-php-coding-standards-psr-in-your-projects-0440f6653099>`_ and `The PSR Standards You Are Probably Ignoring <https://www.juststeveking.com/articles/the-psr-standards-you-are-probably-ignoring/>`_.
 
-Related : :ref:`Framework Interoperability Group (FIG) <php-fig>`, :ref:`Clock <clock>`, :ref:`Code Formatter <code-formatter>`, :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`Interoperability <interoperability>`
+Related : :ref:`Framework Interoperability Group (FIG) <php-fig>`, :ref:`Clock <clock>`, :ref:`Code Formatter <code-formatter>`, :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`Interoperability <interoperability>`, :ref:`Middleware Pattern <middleware>`

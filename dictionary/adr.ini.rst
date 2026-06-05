@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","name":"Architectural Decision Record (ADR)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"An Architectural Decision Record, or ADR, is a concise document that captures an important architectural decision made during the development of a software project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Architectural Decision Record (ADR).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unsupported operand types: %s + %s.html","name":"Architectural Decision Record (ADR)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"An Architectural Decision Record, or ADR, is a concise document that captures an important architectural decision made during the development of a software project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Architectural Decision Record (ADR).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Architectural Decision Record (ADR)
@@ -38,4 +38,4 @@ Key Elements of an ``ADR``
 
 See also `Architecture decision record (ADR) <https://github.com/joelparkerhenderson/architecture-decision-record>`_.
 
-Related : :ref:`Product Requirements Document (PDR) <pdr>`
+Related : :ref:`Product Requirements Document (PDR) <pdr>`, :ref:`Application <application>`, :ref:`Specification <specification>`

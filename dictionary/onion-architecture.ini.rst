@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Onion Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Onion Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Onion Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Onion Architecture is a software architecture pattern introduced by ``Jeffrey Palermo``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Onion Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Onion Architecture
@@ -29,6 +29,6 @@ Onion Architecture is a software architecture pattern introduced by ``Jeffrey Pa
 
 See also `Hexagonal Architecture <https://fideloper.com/hexagonal-architecture>`_ and `Hexagonal Architechure (Ports and Adapters) with PHP <https://leosteil.medium.com/hexagonal-architechure-ports-and-adpters-with-php-95d3fdb94656>`_.
 
-Related : :ref:`Adapters <adapter>`, :ref:`Hexagonal Architecture <hexagonal-architecture>`
+Related : :ref:`Adapters <adapter>`, :ref:`Hexagonal Architecture <hexagonal-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Separation Of Concerns <separation-of-concerns>`
 
 Related packages : `pccomponentes/ddd <https://packagist.org/packages/pccomponentes/ddd>`_

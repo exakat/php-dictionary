@@ -1,6 +1,5 @@
 .. _php-editor:
-.. _IDE:
-.. _PHP IDE:
+.. _php-ide:
 .. meta::
 	:description:
 		PHP Editor: A PHP editor is a software tool used to write, edit, and debug PHP source code.
@@ -18,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Editor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 30 May 2026 07:34:37 +0000","dateModified":"Sat, 30 May 2026 07:34:37 +0000","description":"A PHP editor is a software tool used to write, edit, and debug PHP source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Editor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Editor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A PHP editor is a software tool used to write, edit, and debug PHP source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Editor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Editor
@@ -32,4 +31,4 @@ Key IDE features for PHP development include: code completion and navigation, in
 
 `Documentation <https://www.php.net/manual/en/install.php>`__
 
-Related : :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`PHP AI Editor <php-ai-editor>`, :ref:`Debugger <debugger>`, :ref:`Xdebug <xdebug>`, :ref:`Autocompletion <autocompletion>`, :ref:`Linting <linting>`
+Related : :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`PHP AI Editor <php-ai-editor>`, :ref:`Debugger <debugger>`, :ref:`Xdebug <xdebug>`, :ref:`Autocompletion <autocompletion>`, :ref:`Linting <linting>`, :ref:`PHP Manual <php-manual>`

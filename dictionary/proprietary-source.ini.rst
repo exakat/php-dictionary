@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Proprietary Source","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Proprietary source code is software whose source code is not publicly available and is protected by copyright and licensing restrictions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Proprietary Source.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Proprietary Source","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Proprietary source code is software whose source code is not publicly available and is protected by copyright and licensing restrictions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Proprietary Source.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Proprietary Source
@@ -47,4 +47,4 @@ The distinction between proprietary and open-source matters for security audits,
 
 See also `ionCube PHP Encoder <https://www.ioncube.com/php_encoder.php>`_, `SourceGuardian <https://www.sourceguardian.com/>`_ and `Zend Guard <https://www.zend.com/products/zend-guard>`_.
 
-Related : :ref:`Open Source <open-source>`, :ref:`Licence <license>`, :ref:`Obfuscation <obfuscation>`, :ref:`Composer <composer>`
+Related : :ref:`Open Source <open-source>`, :ref:`Licence <license>`, :ref:`Obfuscation <obfuscation>`, :ref:`Composer <composer>`, :ref:`Free <free>`, :ref:`Licence <licence>`

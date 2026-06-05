@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Command Query Responsibility Segregation (CQRS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"CQRS is an architectural pattern that separates read operations, Queries from write operations, Commands, into distinct models","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command Query Responsibility Segregation (CQRS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Command Query Responsibility Segregation (CQRS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"CQRS is an architectural pattern that separates read operations, Queries from write operations, Commands, into distinct models","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command Query Responsibility Segregation (CQRS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Command Query Responsibility Segregation (CQRS)
@@ -32,6 +32,6 @@ CQRS pairs especially naturally with Event Sourcing, where state changes are sto
 
 `Documentation <https://martinfowler.com/bliki/CQRS.html>`__
 
-Related : :ref:`Event Sourcing <event-sourcing>`
+Related : :ref:`Event Sourcing <event-sourcing>`, :ref:`Command <command>`, :ref:`Event Storming <event-storming>`, :ref:`Message Bus <message-bus>`
 
 Related packages : `ecotone/ecotone <https://packagist.org/packages/ecotone/ecotone>`_, `backslashphp/backslash <https://packagist.org/packages/backslashphp/backslash>`_, `nontre/cqrs <https://packagist.org/packages/nontre/cqrs>`_

@@ -1,5 +1,5 @@
 .. _worktree:
-.. _git worktree:
+.. _git-worktree:
 .. meta::
 	:description:
 		Worktree: A worktree is a Git feature that allows multiple working directories to be linked to a single repository.
@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Worktree","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"A worktree is a Git feature that allows multiple working directories to be linked to a single repository","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Worktree.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Worktree","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A worktree is a Git feature that allows multiple working directories to be linked to a single repository","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Worktree.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Worktree
@@ -38,4 +38,4 @@ Each linked worktree has its own index and HEAD but shares the object store with
 
 See also `git-worktree documentation <https://git-scm.com/docs/git-worktree>`_ and `A practical guide to git worktrees <https://opensource.com/article/21/4/git-worktree>`_.
 
-Related : :ref:`git <git>`, :ref:`Branch <branch>`, :ref:`VCS <vcs>`, :ref:`Commit <commit>`
+Related : :ref:`git <git>`, :ref:`Branch <branch>`, :ref:`VCS <vcs>`, :ref:`Commit <commit>`, :ref:`Timing Attack <timing-attack>`, :ref:`VCS Commit <vcs-commit>`

@@ -31,6 +31,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Design By Contract (DBC) <contract>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 + :ref:`Distributed Denial Of Service (DDOS) <ddos>`
++ :ref:`Document Object Model (DOM) <dom>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Domain Name System (DNS) <dns>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
@@ -56,6 +57,7 @@ List of acronyms, used in this dictionary.
 + :ref:`JPEG <jpg>`
 + :ref:`JSON Lines (JSONC) <jsonc>`
 + :ref:`JSON Lines (JSONL) <jsonl>`
++ :ref:`JSON Web Token (JWT) <jwt>`
 + :ref:`JavaScript Object Notation (JSON) <json>`
 + :ref:`Just In Time (JIT) <jit>`
 + :ref:`KISS <kiss>`
@@ -64,6 +66,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Last In, First Out (LIFO) <lifo>`
 + :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
++ :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
 + :ref:`Minimum Viable Product (MVP) <mvp>`
@@ -86,6 +89,7 @@ List of acronyms, used in this dictionary.
 + :ref:`PNG <png>`
 + :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
 + :ref:`Plain Old PHP Object (POPO) <popo>`
++ :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
 + :ref:`Progressive Web App <pwa>`
 + :ref:`Pull Request (PR) <pr>`
@@ -171,6 +175,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Anonymous <anonymous>`
 + :ref:`Anonymous Constant <anonymous-constant>`
 + :ref:`Anonymous Function <anonymous-function>`
++ :ref:`Appeasement Pattern <appeasement-pattern>`
 + :ref:`Arcane <arcane>`
 + :ref:`Archive <archive>`
 + :ref:`Arm <arm>`
@@ -242,9 +247,12 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Dereferencing <dereferencing>`
 + :ref:`Design Pattern <design-pattern>`
 + :ref:`Destructor <destructor>`
++ :ref:`Determinism <determinism>`
 + :ref:`Deterministic <deterministic>`
 + :ref:`Disable <disable>`
++ :ref:`Distributed State <distributed-state>`
 + :ref:`Documentation <documentation>`
++ :ref:`Domain <domain>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Double Check <double-check>`
 + :ref:`Duck Typing <ducktyping>`
@@ -259,6 +267,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Event Driven <event-driven>`
 + :ref:`Execution <execution>`
 + :ref:`Existence <existence>`
++ :ref:`Explanation <explanation>`
 + :ref:`Explicit <explicit>`
 + :ref:`Expression <expression>`
 + :ref:`Extensions <extension>`
@@ -268,16 +277,20 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Feature <feature>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
++ :ref:`Free <free>`
 + :ref:`Future <future>`
 + :ref:`Graph <graph>`
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
 + :ref:`Heuristics <heuristic>`
++ :ref:`Hidden State <hidden-state>`
 + :ref:`Hoisting <hoisting>`
 + :ref:`Hydratation <hydrate>`
 + :ref:`Idempotent <idempotent>`
++ :ref:`Identity <identity>`
 + :ref:`Immutable <immutable>`
 + :ref:`Implicit <implicit>`
++ :ref:`Implicit State <implicit-state>`
 + :ref:`Import <import>`
 + :ref:`Increment <increment>`
 + :ref:`Index <index>`
@@ -294,6 +307,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Library <library>`
++ :ref:`Link <link>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Literal <literal>`
@@ -305,6 +319,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Marketplace <marketplace>`
 + :ref:`Memory Leak <memory-leak>`
 + :ref:`Merge <merge>`
++ :ref:`Method Resolution Order (MRO) <mro>`
 + :ref:`Method Signature <method-signature>`
 + :ref:`Migration <migration>`
 + :ref:`Model <model>`
@@ -319,6 +334,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Noop <noop>`
 + :ref:`Operator Overloading <operator-overloading>`
 + :ref:`Optimisation <optimisation>`
++ :ref:`Option <option>`
 + :ref:`Order Of Execution <order-of-execution>`
 + :ref:`Outgoing Data <outgoing-data>`
 + :ref:`Over-engineer <overengineer>`
@@ -330,11 +346,13 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Partial Function <partial-function>`
 + :ref:`Passphrase <passphrase>`
 + :ref:`Path <path>`
++ :ref:`Pay-as-you-go <pay-as-you-go>`
 + :ref:`Permission <permission>`
 + :ref:`Persistence <persistence>`
 + :ref:`Pipeline <pipeline>`
 + :ref:`Plain Text <plain-text>`
 + :ref:`Plugin <plugin>`
++ :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
 + :ref:`Polling <polling>`
 + :ref:`Polymorphism <polymorphism>`
 + :ref:`Preprocessing <preprocess>`
@@ -364,6 +382,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Security <security>`
 + :ref:`Semantics <semantics>`
 + :ref:`Separation Of Concerns <separation-of-concerns>`
++ :ref:`Serverless <serverless>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Slug <slug>`
@@ -448,6 +467,7 @@ List of configuration directives of PHP. They may be used in php.ini, ini_set()/
 + :ref:`php.ini <php.ini>`
 + :ref:`precision <precision>`
 + :ref:`register_argc_argv <register_argc_argv>`
++ :ref:`serialize_precision <serialize_precision>`
 + :ref:`variable_order <variable_order>`
 + :ref:`zend.assertions <zend-assertions>`
 
@@ -653,7 +673,10 @@ List of special PHP extensions.
 + :ref:`Core <core>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`DOM <domxml>`
++ :ref:`DOMChildNode <domchildnode>`
++ :ref:`DOMParentNode <domparentnode>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
++ :ref:`Document Object Model (DOM) <dom>`
 + :ref:`Fibers <fibers>`
 + :ref:`GNU Multiple Precision (GMP) <gmp>`
 + :ref:`Hash <hash>`
@@ -663,10 +686,13 @@ List of special PHP extensions.
 + :ref:`Multibyte String <mbstring>`
 + :ref:`MySQL <mysql>`
 + :ref:`OpenSSL <openssl>`
++ :ref:`Oracle <oracle>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
 + :ref:`PostgreSQL <pgsql>`
 + :ref:`Process Control (pcntl) <pcntl>`
++ :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`
++ :ref:`Random\Engine <random_engine>`
 + :ref:`Readline <readline>`
 + :ref:`Reflection <reflection>`
 + :ref:`SNMP3 <snmp3>`
@@ -714,6 +740,7 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Haystack <haystack>`
 + :ref:`KISS <kiss>`
 + :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`
++ :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`
 + :ref:`Needle <needle>`
 + :ref:`One Liner <one-liner>`
 + :ref:`PHP Extension C Library (PECL) <pecl>`

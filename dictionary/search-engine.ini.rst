@@ -1,6 +1,6 @@
 .. _search-engine:
-.. _full-text search:
-.. _search index:
+.. _full-text-search:
+.. _search-index:
 .. meta::
 	:description:
 		Search Engine: A search engine is a system that indexes and retrieves data based on queries.
@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Search Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:44:19 +0000","dateModified":"Tue, 02 Jun 2026 16:44:19 +0000","description":"A search engine is a system that indexes and retrieves data based on queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Search Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Search Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A search engine is a system that indexes and retrieves data based on queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Search Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Search Engine
@@ -72,6 +72,6 @@ Search engines usually operate as external services communicating via HTTP APIs.
 
 See also `Elasticsearch PHP client <https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html>`_, `Meilisearch PHP SDK <https://github.com/meilisearch/meilisearch-php>`_ and `Typesense PHP client <https://github.com/typesense/typesense-php>`_.
 
-Related : :ref:`Database <database>`, :ref:`Index For SQL <index-sql>`, :ref:`Cache <cache>`, :ref:`REST API <rest-api>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Storage Systems <storage-system>`
+Related : :ref:`Database <database>`, :ref:`Index For SQL <index-sql>`, :ref:`Cache <cache>`, :ref:`REST API <rest-api>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Storage Systems <storage-system>`, :ref:`robots\.txt <robots.txt>`
 
 Related packages : `elasticsearch/elasticsearch <https://packagist.org/packages/elasticsearch/elasticsearch>`_, `meilisearch/meilisearch-php <https://packagist.org/packages/meilisearch/meilisearch-php>`_, `typesense/typesense-php <https://packagist.org/packages/typesense/typesense-php>`_

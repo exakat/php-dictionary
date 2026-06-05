@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DateInterval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``DateInterval`` is a class for the representation of period of time, or stretch of time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DateInterval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DateInterval","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``DateInterval`` is a class for the representation of period of time, or stretch of time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DateInterval.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 DateInterval
@@ -48,6 +48,6 @@ DateInterval
 
 See also `PHP: Dominate dates with intervals and periods <https://darkghosthunter.medium.com/php-dominate-dates-with-intervals-and-periods-7e66351e6ce2>`_.
 
-Related : :ref:`DateTime <datetimeimmutable>`, :ref:`DateTime <datetime>`, :ref:`Datetime Trap <datetime-trap>`
+Related : :ref:`DateTime <datetimeimmutable>`, :ref:`DateTime <datetime>`, :ref:`Datetime Trap <datetime-trap>`, :ref:`Calendar <calendar>`, :ref:`Clock <clock>`, :ref:`DateTimeInterface <datetimeinterface>`
 
 Related packages : `league/period <https://packagist.org/packages/league/period>`_

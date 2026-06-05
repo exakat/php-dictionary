@@ -1,7 +1,7 @@
 .. _otp:
-.. _one-time password:
-.. _TOTP:
-.. _HOTP:
+.. _one-time-password:
+.. _totp:
+.. _hotp:
 .. meta::
 	:description:
 		One-Time Password (OTP): A One-Time Password (OTP) is a password that is valid for only one authentication session or transaction.
@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"One-Time Password (OTP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 30 May 2026 07:33:03 +0000","dateModified":"Sat, 30 May 2026 07:33:03 +0000","description":"A One-Time Password (OTP) is a password that is valid for only one authentication session or transaction","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/One-Time Password (OTP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"One-Time Password (OTP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A One-Time Password (OTP) is a password that is valid for only one authentication session or transaction","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/One-Time Password (OTP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 One-Time Password (OTP)
@@ -56,6 +56,6 @@ In PHP, OTP generation is commonly handled by libraries such as ``spomky-labs/ot
 
 See also `RFC 6238 – TOTP <https://datatracker.ietf.org/doc/html/rfc6238>`_ and `RFC 4226 – HOTP <https://datatracker.ietf.org/doc/html/rfc4226>`_.
 
-Related : :ref:`Authentication <authentication>`, :ref:`Cryptography <cryptography>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`HMAC <hmac>`, :ref:`Nonce <nonce>`, :ref:`Secret <secret>`
+Related : :ref:`Authentication <authentication>`, :ref:`Cryptography <cryptography>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`HMAC <hmac>`, :ref:`Nonce <nonce>`, :ref:`Secret <secret>`, :ref:`Password <password>`, :ref:`Single Sign On (SSO) <sso>`
 
 Related packages : `spomky-labs/otphp <https://packagist.org/packages/spomky-labs/otphp>`_, `pragmarx/google2fa <https://packagist.org/packages/pragmarx/google2fa>`_

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JPEG","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 09:19:09 +0000","dateModified":"Fri, 29 May 2026 09:19:09 +0000","description":"JPEG, the Joint Photographic Experts Group, is a lossy image compression format widely used for photographs and complex images","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JPEG.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JPEG","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"JPEG, the Joint Photographic Experts Group, is a lossy image compression format widely used for photographs and complex images","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JPEG.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 JPEG
@@ -45,4 +45,4 @@ PHP's GD extension handles JPEG images with functions such as ``imagecreatefromj
 
 `Documentation <https://www.php.net/manual/en/function.imagejpeg.php>`__
 
-Related : :ref:`GIF <gif>`, :ref:`PNG <png>`, :ref:`Image <image>`, :ref:`Graphic Draw (GD) <gd>`
+Related : :ref:`GIF <gif>`, :ref:`PNG <png>`, :ref:`Image <image>`, :ref:`Graphic Draw (GD) <gd>`, :ref:`PDF <pdf>`

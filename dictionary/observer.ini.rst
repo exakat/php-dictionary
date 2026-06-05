@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Observer Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The observer is an architectural pattern, where objects register to get notified when events happen to a specific object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Observer Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Observer Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The observer is an architectural pattern, where objects register to get notified when events happen to a specific object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Observer Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Observer Design Pattern
@@ -28,4 +28,4 @@ In PHP, there is a native interface call SplObserver, coupled with the SplSubjec
 
 See also `SplObserver <https://www.php.net/manual/en/class.splobserver.php>`_, `SplSubject <https://www.php.net/manual/en/class.splsubject.php>`_, `Events and Event Listeners <https://symfony.com/doc/current/event_dispatcher.html>`_ and `Observer Pattern In PHP 8+ <https://medium.com/codex/observer-pattern-in-php-8-569c71dd7837>`_.
 
-Related : :ref:`Design Pattern <design-pattern>`
+Related : :ref:`Design Pattern <design-pattern>`, :ref:`Listener <listener>`, :ref:`Observer Pattern <observer-pattern>`, :ref:`Pub/Sub <pubsub>`, :ref:`SplObserver <splobserver>`

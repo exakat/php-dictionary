@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Treemap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"Treemaps are a visualization tool used to understand the relative weight of partitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Treemap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Treemap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 08:28:01 +0000","dateModified":"Wed, 03 Jun 2026 08:28:01 +0000","description":"Treemaps are a visualization tool used to understand the relative weight of partitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Treemap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Treemap
@@ -25,5 +25,7 @@ Treemap
 Treemaps are a visualization tool used to understand the relative weight of partitions. It works on file systems, and nested code structures. Each zone may be dimensioned by its weight, and also colored with another indicator.
 
 See also `PHP Meminfo Treemap <https://findley.dev/projects/php-meminfo-treemap/>`_.
+
+Related : :ref:`Graph <graph>`, :ref:`Flame Graph <flamegraph>`, :ref:`Memory <memory>`, :ref:`Benchmarking <benchmarking>`, :ref:`Performance <performance>`
 
 Related packages : `wikimedia/arc-lamp <https://packagist.org/packages/wikimedia/arc-lamp>`_

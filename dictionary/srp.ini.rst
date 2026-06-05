@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Single Responsability Principle (SRP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:39:01 +0000","dateModified":"Tue, 02 Jun 2026 16:39:01 +0000","description":"Single Responsibility Principle is a coding principle where one component is responsible for one task, and nothing more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Single Responsability Principle (SRP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Single Responsability Principle (SRP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Single Responsibility Principle is a coding principle where one component is responsible for one task, and nothing more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Single Responsability Principle (SRP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Single Responsability Principle (SRP)
@@ -32,4 +32,4 @@ Single Responsibility Principle relies on the possibility to identify one respon
 
 See also `How To Use Single Responsibility Principle in PHP/Laravel <https://mohasin-dev.medium.com/how-to-use-single-responsibility-principle-in-php-laravel-with-example-9c728360f4f2>`_.
 
-Related : :ref:`SOLID <solid>`, :ref:`Cohesion <cohesion>`, :ref:`Responsability <responsability>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Testable <testable>`
+Related : :ref:`SOLID <solid>`, :ref:`Cohesion <cohesion>`, :ref:`Responsability <responsability>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Testable <testable>`, :ref:`God Object <god-object>`

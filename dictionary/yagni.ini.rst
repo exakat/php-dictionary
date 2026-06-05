@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"You Are Not Going To Need It (YAGNI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"YAGNI advises developers to avoid adding functionality or code until it is explicitly required","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/You Are Not Going To Need It (YAGNI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"You Are Not Going To Need It (YAGNI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"YAGNI advises developers to avoid adding functionality or code until it is explicitly required","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/You Are Not Going To Need It (YAGNI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 You Are Not Going To Need It (YAGNI)
@@ -28,4 +28,4 @@ YAGNI advises developers to avoid adding functionality or code until it is expli
 
 See also `Simplify Your PHP Code with KISS, YAGNI, and DRY <https://dev.to/peixotons/simplify-your-php-code-with-kiss-yagni-and-dry-p5g>`_.
 
-Related : :ref:`Agile <agile>`, :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`KISS <kiss>`
+Related : :ref:`Agile <agile>`, :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`KISS <kiss>`, :ref:`Technical Debt <debt>`

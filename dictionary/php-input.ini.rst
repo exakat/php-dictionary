@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"php:\/\/input","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``php:\/\/input`` is a special read-only stream that gives access the raw body of an incoming HTTP request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php:\/\/input.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"php:\/\/input","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``php:\/\/input`` is a special read-only stream that gives access the raw body of an incoming HTTP request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php:\/\/input.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 php://input
@@ -41,4 +41,4 @@ The raw data used to be accessed via ``$HTTP_RAW_POST_DATA``, but this is a depr
 
 See also `How to receive JSON POST with PHP ? <https://www.geeksforgeeks.org/php/how-to-receive-json-post-with-php/>`_.
 
-Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Stream <stream>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`
+Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Stream <stream>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`$HTTP_RAW_POST_DATA <$HTTP_RAW_POST_DATA>`, :ref:`php://output <php-output>`

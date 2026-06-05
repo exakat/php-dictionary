@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Marketplace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A marketplace usually means a platform where developers can buy, sell, or distribute PHP or framework related products or services","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Marketplace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Marketplace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A marketplace usually means a platform where developers can buy, sell, or distribute PHP or framework related products or services","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Marketplace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Marketplace
@@ -25,3 +25,5 @@ Marketplace
 A marketplace usually means a platform where developers can buy, sell, or distribute PHP or framework related products or services. These products are typically code packages, themes, plugins, scripts, APIs, or SaaS integrations that other developers or businesses can use in their PHP projects.
 
 See also `Introducing the Symfony Marketplace <https://symfony.com/blog/introducing-the-symfony-marketplace>`_.
+
+Related : :ref:`Composer <composer>`, :ref:`Packagist <packagist>`, :ref:`Plugin <plugin>`, :ref:`Framework <framework>`, :ref:`Ecosystem <ecosystem>`, :ref:`Content Management System (CMS) <cms>`, :ref:`Forum <forum>`

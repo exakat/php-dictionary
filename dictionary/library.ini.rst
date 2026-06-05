@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Library","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A library is a collection of reusable code, functions, classes, or constants, that provides specific functionality and can be included in different applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Library.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Library","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A library is a collection of reusable code, functions, classes, or constants, that provides specific functionality and can be included in different applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Library.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Library
@@ -35,4 +35,4 @@ Writing a library requires extra discipline compared to application code: the pu
 
 See also `Packagist <https://packagist.org/>`_ and `Composer documentation <https://getcomposer.org/doc/>`_.
 
-Related : :ref:`Composer <composer>`, :ref:`Packagist <packagist>`, :ref:`Framework <framework>`, :ref:`Dependency <dependency>`, :ref:`Class Autoloading <autoload>`, :ref:`Open Source <open-source>`, :ref:`Vendor Lock-in <vendor-lockin>`, :ref:`Application Programming Interface (API) <api>`
+Related : :ref:`Composer <composer>`, :ref:`Packagist <packagist>`, :ref:`Framework <framework>`, :ref:`Dependency <dependency>`, :ref:`Class Autoloading <autoload>`, :ref:`Open Source <open-source>`, :ref:`Vendor Lock-in <vendor-lockin>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Dynamic Loading <dynamic-loading>`, :ref:`Foreign Function Interface (FFI) <ffi>`, :ref:`Software Development Kit (SDK) <sdk>`

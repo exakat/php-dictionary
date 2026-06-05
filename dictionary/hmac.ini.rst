@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HMAC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:09:04 +0000","dateModified":"Tue, 02 Jun 2026 17:09:04 +0000","description":"HMAC, short for Hash-based Message Authentication Code, is a mechanism for message authentication using cryptographic hash functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HMAC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HMAC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"HMAC, short for Hash-based Message Authentication Code, is a mechanism for message authentication using cryptographic hash functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HMAC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HMAC
@@ -47,4 +47,4 @@ In PHP, HMAC is computed with ``hash_hmac()``, which accepts a hashing algorithm
 
 See also `RFC 2104 - HMAC: Keyed-Hashing for Message Authentication <https://datatracker.ietf.org/doc/html/rfc2104>`_.
 
-Related : :ref:`Cryptography <cryptography>`, :ref:`Hash <hash>`, , :ref:`Algorithm <algorithm>`
+Related : :ref:`Cryptography <cryptography>`, :ref:`Hash <hash>`, :ref:`JSON Web Token (JWT) <jwt>`, :ref:`Algorithm <algorithm>`, :ref:`hash_equals() <hash_equals>`, :ref:`One-Time Password (OTP) <otp>`

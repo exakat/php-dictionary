@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Command","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:07:02 +0000","dateModified":"Tue, 02 Jun 2026 17:07:02 +0000","description":"The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Command","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Command
@@ -71,4 +71,4 @@ Symfony Console and Laravel Artisan both build on this pattern for their CLI com
 
 See also `Command pattern - Refactoring Guru <https://refactoring.guru/design-patterns/command>`_ and `Command pattern - Wikipedia <https://en.wikipedia.org/wiki/Command_pattern>`_.
 
-Related : :ref:`Command Bus <command-bus>`, :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`, :ref:`Design Pattern <design-pattern>`, :ref:`Command Line Interface (CLI) <cli>`
+Related : :ref:`Command Bus <command-bus>`, :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`, :ref:`Design Pattern <design-pattern>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Expression <expression>`, :ref:`Instruction <instruction>`

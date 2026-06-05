@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Business Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 10:24:09 +0000","dateModified":"Thu, 28 May 2026 10:24:09 +0000","description":"Business logic is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Business Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Business Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Business logic is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Business Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Business Logic
@@ -35,4 +35,4 @@ In PHP projects, business logic often leaks into controllers, the infamous ``fat
 
 See also `Patterns of Enterprise Application Architecture (Fowler) <https://martinfowler.com/books/eaa.html>`_.
 
-Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Architecture <architecture>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Service <service>`
+Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Architecture <architecture>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Service <service>`, :ref:`Domain <domain>`, :ref:`Specification <specification>`, :ref:`Testable <testable>`

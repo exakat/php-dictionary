@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"World Wide Web (WWW)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:37:59 +0000","dateModified":"Tue, 02 Jun 2026 16:37:59 +0000","description":"The WWW stands for World Wide Web: it represents the internet, as a network of computers, the web, spanning the entire planet, World Wide","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/World Wide Web (WWW).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"World Wide Web (WWW)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The WWW stands for World Wide Web: it represents the internet, as a network of computers, the web, spanning the entire planet, World Wide","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/World Wide Web (WWW).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 World Wide Web (WWW)
@@ -29,4 +29,4 @@ The WWW stands for World Wide Web: it represents the internet, as a network of c
 
 See also `History of the World Wide Web <https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web>`_.
 
-Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Webserver <webserver>`, :ref:`Browser <browser>`, :ref:`CAPTCHA <captcha>`, :ref:`Internet <internet>`, :ref:`Network <network>`, :ref:`CSS <css>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`Web Application <web-app>`, :ref:`WHATWG <whatwg>`
+Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Webserver <webserver>`, :ref:`Browser <browser>`, :ref:`CAPTCHA <captcha>`, :ref:`Internet <internet>`, :ref:`Network <network>`, :ref:`CSS <css>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`Web Application <web-app>`, :ref:`WHATWG <whatwg>`, :ref:`Asset <asset>`

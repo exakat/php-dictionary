@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Decorator Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Decorator Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Decorator Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Decorator Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Decorator Pattern
@@ -57,5 +57,7 @@ A decorator is a design pattern used to add behavior or responsibilities to obje
 `Documentation <https://refactoring.guru/design-patterns/decorator/php/example>`__
 
 See also `Decorating Member Objects <https://rekalogika.dev/doctrine-collections-decorator/cookbook/decorating-members>`_ and `Hands-on decoration <https://muhammedsari.me/hands-on-decoration>`_.
+
+Related : :ref:`Design Pattern <design-pattern>`, :ref:`Design Pattern Wrapper <wrapper-designpattern>`, :ref:`Proxy Class <proxy-class>`, :ref:`Interface <interface>`, :ref:`Aspect-Oriented <aspect-oriented>`, :ref:`Facade <facade>`, :ref:`Middleware Pattern <middleware>`
 
 Related packages : `zbateson/stream-decorators <https://packagist.org/packages/zbateson/stream-decorators>`_

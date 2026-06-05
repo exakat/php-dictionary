@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 07:27:16 +0000","dateModified":"Fri, 05 Jun 2026 07:27:16 +0000","description":"Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Asset
@@ -25,5 +25,7 @@ Asset
 Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project. Specifically, in the context of web design and development, these 'assets' pertain to diverse components, such as CSS, JS libraries, textual content, graphics, photographs, videos, and audio files.
 
 Assets are often reduced to their URL, which might be hard coded or dynamically generated.
+
+Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`CSS <css>`, :ref:`Javascript <javascript>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Front-end <frontend>`
 
 Related packages : `symfony/asset <https://packagist.org/packages/symfony/asset>`_, `kriswallsmith/assetic <https://packagist.org/packages/kriswallsmith/assetic>`_

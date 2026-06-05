@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","name":"Community","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The PHP community is the global network of developers, contributors, and enthusiasts who use, improve, and promote PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Community.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Unterminated comment starting line %d.html","name":"Community","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 04 Jun 2026 06:51:17 +0000","dateModified":"Thu, 04 Jun 2026 06:51:17 +0000","description":"The PHP community is the global network of developers, contributors, and enthusiasts who use, improve, and promote PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Community.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Community
@@ -30,4 +30,4 @@ The community is recognizable via its various artefact, which go beyond the comp
 
 See also `A community-run video platform for PHP <https://afilina.com/why-phpc-tv>`_ and `A community gaining momentum <https://phpreads.com/issue-4>`_.
 
-Related : :ref:`Folklore <folklore>`, :ref:`Elephpant <elephpant>`
+Related : :ref:`Folklore <folklore>`, :ref:`Elephpant <elephpant>`, :ref:`Contribution <contribution>`, :ref:`Free <free>`, :ref:`Open Source <open-source>`, :ref:`PHP User Groups <php-ug>`

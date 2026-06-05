@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Access Control List (ACL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:03:05 +0000","dateModified":"Tue, 02 Jun 2026 17:03:05 +0000","description":"An Access Control List, or ACL, is a set of rules that defines which users or system processes are granted access to specific resources, and what operations they are allowed to perform","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Access Control List (ACL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Access Control List (ACL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"An Access Control List, or ACL, is a set of rules that defines which users or system processes are granted access to specific resources, and what operations they are allowed to perform","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Access Control List (ACL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Access Control List (ACL)
@@ -61,6 +61,6 @@ Several frameworks provide ACL components out of the box, or via packages.
 
 See also `ACL component - Symfony <https://symfony.com/doc/current/security/access_control.html>`_.
 
-Related : :ref:`Role Based Access Control (RBAC) <rbac>`, :ref:`Authentication <authentication>`, :ref:`Authorize <authorize>`, :ref:`Permission <permission>`, :ref:`Security <security>`
+Related : :ref:`Role Based Access Control (RBAC) <rbac>`, :ref:`Authentication <authentication>`, :ref:`Authorize <authorize>`, :ref:`Permission <permission>`, :ref:`Security <security>`, :ref:`Single Sign On (SSO) <sso>`
 
 Related packages : `laminas/laminas-permissions-acl <https://packagist.org/packages/laminas/laminas-permissions-acl>`_, `zendframework/zend-permissions-acl <https://packagist.org/packages/zendframework/zend-permissions-acl>`_

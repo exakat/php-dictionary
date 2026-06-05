@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Thread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"A thread is a set of instructions, designed to be executed independently from the parent process","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Thread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Thread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A thread is a set of instructions, designed to be executed independently from the parent process","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Thread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Thread
@@ -30,4 +30,4 @@ PHP supports threads with extensions, such as the ``pthread`` extension. It also
 
 See also `pthreads <https://www.php.net/manual/en/book.pthreads.php>`_, `What does thread safety mean when downloading PHP? <https://www.php.net/manual/en/faq.obtaining.php#faq.obtaining.threadsafety>`_ and `PHP and Threads <https://medium.com/@andreibirta95/php-and-threads-c6b7ea512fdc>`_.
 
-Related : :ref:`Process <process>`, :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Multithreading <multithreading>`
+Related : :ref:`Process <process>`, :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Multithreading <multithreading>`, :ref:`Concurency <concurency>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A collection is an array in which only elements of the same type can be stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A collection is an array in which only elements of the same type can be stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Collection
@@ -28,6 +28,6 @@ Collections may be build with array, or dedicated classes. There is native suppo
 
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_ and `Illuminate Collections vs PHP Arrays <https://hackernoon.com/illuminate-collections-vs-php-arrays>`_.
 
-Related : :ref:`Enumeration (enum) <enum>`, :ref:`Hash <hash>`, :ref:`Associative Array <associative-array>`, :ref:`Index For Arrays <index-array>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Generics <generics>`
+Related : :ref:`Enumeration (enum) <enum>`, :ref:`Hash <hash>`, :ref:`Associative Array <associative-array>`, :ref:`Index For Arrays <index-array>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Generics <generics>`, :ref:`Bucket <bucket>`, :ref:`Data Structure <datastructure>`, :ref:`Data Structure <ds>`, :ref:`Indexed Array <indexed-array>`, :ref:`Sequence <sequence>`, :ref:`Set <set>`, :ref:`SplDoublyLinkedList <spldoublylinkedlist>`, :ref:`SplObjectStorage <splobjectstorage>`
 
 Related packages : `ramsey/collection <https://packagist.org/packages/ramsey/collection>`_, `doctrine/collections <https://packagist.org/packages/doctrine/collections>`_, `illuminate/collections <https://packagist.org/packages/illuminate/collections>`_

@@ -30,4 +30,4 @@ The ``RecursiveIterator`` is implemented by the ``RecursiveArrayIterator``, and 
 
 See also `php: doing recursion with recursive iterator(iterator)s <https://dev.to/gbhorwood/php-doing-recursion-with-recursive-iteratoriterators-fj1>`_.
 
-Related : :ref:`Iterator <iterator>`, :ref:`Standard PHP Library (SPL) <spl>`, , , :ref:`DirectoryIterator <directoryiterator>`, :ref:`OuterIterator <outeriterator>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`RecursiveTreeIterator <recursivetreeiterator>`
+Related : :ref:`Iterator <iterator>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`RecursiveArrayIterator <recursivearrayiterator>`, :ref:`RecursiveDirectoryIterator <recursivedirectoryiterator>`, :ref:`DirectoryIterator <directoryiterator>`, :ref:`OuterIterator <outeriterator>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`RecursiveTreeIterator <recursivetreeiterator>`

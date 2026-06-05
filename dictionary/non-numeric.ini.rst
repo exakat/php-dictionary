@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","name":"Non-numeric","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A non-numeric string is a string that can't be converted to a number without difficult choices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non-numeric.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to private X::__construct() from global scope.html","name":"Non-numeric","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 08:22:57 +0000","dateModified":"Wed, 03 Jun 2026 08:22:57 +0000","description":"A non-numeric string is a string that can't be converted to a number without difficult choices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Non-numeric.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Non-numeric
@@ -49,4 +49,4 @@ A string may be considered as ``is_numeric()`` when it is build with digits, wha
 
 See also `Remove All Non-Numeric Characters from String using PHP <https://lindevs.com/code-snippets/remove-all-non-numeric-characters-from-string-using-php>`_.
 
-Related : :ref:`@, No Scream Operator <noscream>`, :ref:`Cast Operator <cast>`, :ref:`Floating Point Numbers <float>`, 
+Related : :ref:`@, No Scream Operator <noscream>`, :ref:`Cast Operator <cast>`, :ref:`Floating Point Numbers <float>`, :ref:`INF <inf>`

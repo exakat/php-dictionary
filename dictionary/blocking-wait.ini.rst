@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Blocking Wait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:05:26 +0000","dateModified":"Tue, 02 Jun 2026 17:05:26 +0000","description":"A blocking wait, or blocking call, is an operation that suspends the execution of the current process or thread until the operation completes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Blocking Wait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Blocking Wait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A blocking wait, or blocking call, is an operation that suspends the execution of the current process or thread until the operation completes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Blocking Wait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Blocking Wait
@@ -58,6 +58,6 @@ Blocking waits can become a bottleneck in high-concurrency scenarios, as each bl
 
 See also `Blocking vs non-blocking I/O <https://en.wikipedia.org/wiki/Asynchronous_I/O>`_.
 
-Related : :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Synchronous <synchronous>`, :ref:`Fibers <fibers>`, :ref:`Coroutine <coroutine>`, :ref:`Event Loop <event-loop>`
+Related : :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Synchronous <synchronous>`, :ref:`Fibers <fibers>`, :ref:`Coroutine <coroutine>`, :ref:`Event Loop <event-loop>`, :ref:`Polling <polling>`
 
 Related packages : `react/event-loop <https://packagist.org/packages/react/event-loop>`_, `amphp/amp <https://packagist.org/packages/amphp/amp>`_

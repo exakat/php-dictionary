@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Interoperability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 08:11:12 +0000","dateModified":"Thu, 28 May 2026 08:11:12 +0000","description":"Interoperability is the ability of distinct software components or systems to exchange information and work together effectively, without special adaptation effort","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Interoperability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Interoperability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Interoperability is the ability of distinct software components or systems to exchange information and work together effectively, without special adaptation effort","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Interoperability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Interoperability
@@ -47,4 +47,4 @@ Designing against interfaces rather than concrete implementations enables compon
 
 See also `PHP-FIG site <https://www.php-fig.org/>`_ and `PHP-FIG: PSR standards <https://www.php-fig.org/psr/>`_.
 
-Related : :ref:`PHP Standards Recommendations (PSR) <psr>`, :ref:`Interface <interface>`, :ref:`Framework Interoperability Group (FIG) <php-fig>`, :ref:`Dependency Injection <dependency-injection>`, :ref:`Composition <composition>`, :ref:`Decoupling <decoupling>`, :ref:`Compatibility <compatibility>`
+Related : :ref:`PHP Standards Recommendations (PSR) <psr>`, :ref:`Interface <interface>`, :ref:`Framework Interoperability Group (FIG) <php-fig>`, :ref:`Dependency Injection <dependency-injection>`, :ref:`Composition <composition>`, :ref:`Decoupling <decoupling>`, :ref:`Compatibility <compatibility>`, :ref:`Clock <clock>`, :ref:`Foreign Function Interface (FFI) <ffi>`

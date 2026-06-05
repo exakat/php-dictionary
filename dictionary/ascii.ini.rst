@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"American Standard Code for Information Interchange (ASCII)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"ASCII is a character encoding standard used to represent text in computers and electronic devices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/American Standard Code for Information Interchange (ASCII).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"American Standard Code for Information Interchange (ASCII)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 15:02:46 +0000","dateModified":"Wed, 03 Jun 2026 15:02:46 +0000","description":"ASCII is a character encoding standard used to represent text in computers and electronic devices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/American Standard Code for Information Interchange (ASCII).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 American Standard Code for Information Interchange (ASCII)
@@ -43,4 +43,4 @@ PHP handles ASCII characters with the functions ``ord()`` and ``chr()``.
 
 See also `Converting to and from ASCII <http://www.hackingwithphp.com/4/7/3/converting-to-and-from-ascii>`_.
 
-Related : :ref:`Byte <byte>`, :ref:`Character <character>`
+Related : :ref:`Byte <byte>`, :ref:`Character <character>`, :ref:`Carriage Return <carriage-return>`, :ref:`Line Feed <line-feed>`, :ref:`Multi-byte <multi-byte>`, :ref:`String Increment <string-increment>`

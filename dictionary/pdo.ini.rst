@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Data Objects (PDO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"PHP Data Objects, aka PDO, is an interface that abstract access to databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Data Objects (PDO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Data Objects (PDO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"PHP Data Objects, aka PDO, is an interface that abstract access to databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Data Objects (PDO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Data Objects (PDO)
@@ -49,4 +49,4 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 
 `Documentation <https://www.php.net/manual/en/book.pdo.php>`__
 
-Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Data Access Object (DAO) <dao>`, :ref:`Resource Leak <resource-leak>`, :ref:`Rollback <rollback>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`SQLite3 <sqlite3>`
+Related : :ref:`Data Source Name (DSN) <dsn>`, :ref:`Relational DataBase Management System (RDBMS) <rdbms>`, :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Data Access Object (DAO) <dao>`, :ref:`Resource Leak <resource-leak>`, :ref:`Rollback <rollback>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`SQLite3 <sqlite3>`, :ref:`Database Commit <database-commit>`, :ref:`mysqli <mysqli>`, :ref:`Oracle <oracle>`, :ref:`Transaction <transaction>`

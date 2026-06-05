@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"get_object_vars()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``get_object_vars()`` is a PHP native function, which returns an array with the object properties as index, and their related respective values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/get_object_vars().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"get_object_vars()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``get_object_vars()`` is a PHP native function, which returns an array with the object properties as index, and their related respective values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/get_object_vars().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 get_object_vars()
@@ -78,4 +78,4 @@ Constants are not returned by that function.
 
 See also `Object-Oriented PHP: Autoloading, Serializing, and Querying Objects <https://www.elated.com/object-oriented-php-autoloading-serializing-and-querying-objects/>`_ and `Convert PHP object to array <https://www.stechies.com/convert-php-object-array/>`_.
 
-Related : :ref:`get_class_vars() <get_class_vars>`, :ref:`Reflection <reflection>`, :ref:`Visibility <visibility>`, :ref:`Properties <property>`, :ref:`Cast Operator <cast>`, :ref:`json_encode() <json_encode>`, :ref:`Static Property <static-property>`
+Related : :ref:`get_class_vars() <get_class_vars>`, :ref:`Reflection <reflection>`, :ref:`Visibility <visibility>`, :ref:`Properties <property>`, :ref:`Cast Operator <cast>`, :ref:`json_encode() <json_encode>`, :ref:`Static Property <static-property>`, :ref:`Introspection <introspection>`

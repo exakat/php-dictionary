@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sign","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 07:23:56 +0000","dateModified":"Thu, 28 May 2026 07:23:56 +0000","description":"A signed expression is an expression that starts with the ``+`` or the ``-`` token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sign.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sign","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A signed expression is an expression that starts with the ``+`` or the ``-`` token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sign.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sign
@@ -55,4 +55,4 @@ It also leads to the unexpected result that ``-3 ** 2 == -9``. In this case, ``*
 
 `Documentation <https://en.wikipedia.org/wiki/Sign_(mathematics)>`__
 
-Related : :ref:`Exponent <power>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`Cast Operator <cast>`, :ref:`Expression <expression>`, :ref:`Convert <convert>`, :ref:`Digital Signature <digital-signature>`, :ref:`Minus - <minus>`, :ref:`Positive Integer <positive-integer>`
+Related : :ref:`Exponent <power>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`Cast Operator <cast>`, :ref:`Expression <expression>`, :ref:`Convert <convert>`, :ref:`Digital Signature <digital-signature>`, :ref:`Minus - <minus>`, :ref:`Positive Integer <positive-integer>`, :ref:`Plus + <plus>`

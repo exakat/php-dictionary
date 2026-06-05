@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Data Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 08:13:49 +0000","dateModified":"Thu, 28 May 2026 08:13:49 +0000","description":"A data structure is a way of organizing and storing data in memory to enable efficient access and modification","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Data Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Data Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A data structure is a way of organizing and storing data in memory to enable efficient access and modification","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Data Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Data Structure
@@ -49,6 +49,6 @@ Choosing the right data structure has a direct impact on algorithmic complexity 
 
 See also `Data Structures for PHP (ds extension) <https://www.php.net/manual/en/book.ds.php>`_ and `SPL Data Structures <https://www.php.net/manual/en/spl.datastructures.php>`_.
 
-Related : :ref:`Array <array>`, :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Collection <collection>`, :ref:`Deque <deque>`, :ref:`SplStack <splstack>`, :ref:`Map <map>`, :ref:`Tree <tree>`, :ref:`Queue <queue>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`, :ref:`Big-o-notation <big-o-notation>`
+Related : :ref:`Array <array>`, :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Collection <collection>`, :ref:`Deque <deque>`, :ref:`SplStack <splstack>`, :ref:`Map <map>`, :ref:`Tree <tree>`, :ref:`Queue <queue>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`, :ref:`Big-o-notation <big-o-notation>`, :ref:`Bucket <bucket>`, :ref:`Handle <handle>`, :ref:`Pair <pair>`, :ref:`Pop <pop>`, :ref:`Sequence <sequence>`, :ref:`Set <set>`, :ref:`SplDoublyLinkedList <spldoublylinkedlist>`, :ref:`SplObjectStorage <splobjectstorage>`
 
 Related packages : `php-ds/php-ds <https://packagist.org/packages/php-ds/php-ds>`_

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relational DataBase Management System (RDBMS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"RDBMS stands for Relational DataBase Management System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relational DataBase Management System (RDBMS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relational DataBase Management System (RDBMS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"RDBMS stands for Relational DataBase Management System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relational DataBase Management System (RDBMS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Relational DataBase Management System (RDBMS)
@@ -28,6 +28,6 @@ PHP can connect to multiple RDBMS: MySQL, Oracle, MariaDB, SQLite3, MSSQL, PostG
 
 PHP offers a native abstraction layer: ``PDO``. There are database abstraction as components too.
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`Storage Systems <storage-system>`, :ref:`SQLite3 <sqlite3>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <pgsql>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Structured Query Language (SQL) <sql>`, :ref:`Storage Systems <storage-system>`, :ref:`SQLite3 <sqlite3>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <pgsql>`, :ref:`Abstraction Layer <abstraction-layer>`
 
 Related packages : `doctrine/dbal <https://packagist.org/packages/doctrine/dbal>`_, `adodb/adodb-php <https://packagist.org/packages/adodb/adodb-php>`_, `nextras/dbal <https://packagist.org/packages/nextras/dbal>`_

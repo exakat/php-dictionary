@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cloud","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 17:05:36 +0000","dateModified":"Tue, 02 Jun 2026 17:05:36 +0000","description":"Cloud computing refers to the delivery of computing services, servers, storage, databases, networking, software, analytics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cloud.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cloud","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Cloud computing refers to the delivery of computing services, servers, storage, databases, networking, software, analytics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cloud.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cloud
@@ -60,6 +60,6 @@ For PHP applications, cloud platforms provide hosting environments, e.g. AWS Ela
 
 See also `Cloud computing - Wikipedia <https://en.wikipedia.org/wiki/Cloud_computing>`_.
 
-Related : :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Microservice <microservice>`, :ref:`Docker Container <docker-container>`, :ref:`Deployment <deploy>`, 
+Related : :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Microservice <microservice>`, :ref:`Docker Container <docker-container>`, :ref:`Deployment <deploy>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`Docker <docker>`, :ref:`Hosting <hosting>`, :ref:`Serverless <serverless>`
 
 Related packages : `aws/aws-sdk-php <https://packagist.org/packages/aws/aws-sdk-php>`_, `google/cloud <https://packagist.org/packages/google/cloud>`_

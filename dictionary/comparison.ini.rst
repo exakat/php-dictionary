@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined variable.html","name":"Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:06:26 +0000","dateModified":"Fri, 29 May 2026 05:06:26 +0000","description":"Comparison operators check how two values relate to each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Undefined variable.html","name":"Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Comparison operators check how two values relate to each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Comparison
@@ -48,4 +48,4 @@ Some of the functions include a loose or a strict version.
 
 See also `PHP Variable Comparison <https://phpcheatsheets.com/compare/>`_ and `Difference between the (=), (==), and (===) operators in PHP <https://www.educative.io/answers/difference-between-the-and-operators-in-php>`_.
 
-Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship Operator <spaceship>`, :ref:`Magic Hash <magic-hash>`, :ref:`Truthy <truthy>`, :ref:`Underscore <underscore>`, :ref:`zero <zero>`, :ref:`Identity Comparison <identity-comparison>`, :ref:`Relaxed Comparison <relaxed-comparison>`
+Related : :ref:`Operators <operator>`, :ref:`Type Juggling <type-juggling>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`Spaceship Operator <spaceship>`, :ref:`Magic Hash <magic-hash>`, :ref:`Truthy <truthy>`, :ref:`Underscore <underscore>`, :ref:`zero <zero>`, :ref:`Identity Comparison <identity-comparison>`, :ref:`Relaxed Comparison <relaxed-comparison>`, :ref:`array_keys() <array_keys>`, :ref:`Double Arrow <double-arrow>`, :ref:`Triple <triple>`

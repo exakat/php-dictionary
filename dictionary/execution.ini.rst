@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Execution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Execution refers to the ability to run code or system commands dynamically at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Execution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Execution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Execution refers to the ability to run code or system commands dynamically at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Execution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Execution
@@ -55,4 +55,4 @@ The flow of execution may be hijacked by a code injection, which route the execu
 
 See also `PHP: exec <https://www.php.net/manual/en/function.exec.php>`_.
 
-Related : :ref:`Eval() <eval>`, :ref:`exec <exec>`, , :ref:`System <system>`, :ref:`Virtual Machine (VM) <runtime>`, :ref:`Code Injection <code-injection>`, :ref:`Remote Code Execution (RCE) <rce>`
+Related : :ref:`Eval() <eval>`, :ref:`exec <exec>`, :ref:`Shell Exec <shell-exec>`, :ref:`System <system>`, :ref:`Virtual Machine (VM) <runtime>`, :ref:`Code Injection <code-injection>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Lifecycle <lifecycle>`, :ref:`Order Of Execution <order-of-execution>`

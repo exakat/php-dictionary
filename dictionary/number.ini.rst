@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Number","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A number is either a float or an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Number.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Number","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A number is either a float or an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Number.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Number
@@ -44,4 +44,4 @@ PHP also has a concept of numeric strings, which are strings that hold numbers. 
 
 See also `PHP Numbers Basics <https://www.codeguage.com/v1/courses/php/numbers-basics>`_, `PHP Numbers Explained <https://www.pixemweb.com/php/php-numbers/>`_ and `Exploring Number Manipulation in PHP <https://medium.com/@philippebeck/exploring-number-manipulation-in-php-e51c85b44630>`_.
 
-Related : :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Numeric String <numeric-string>`, :ref:`Cast Operator <cast>`
+Related : :ref:`Floating Point Numbers <float>`, :ref:`integer <integer>`, :ref:`Numeric String <numeric-string>`, :ref:`Cast Operator <cast>`, :ref:`abs() <abs>`

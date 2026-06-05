@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Server","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A server is a piece of computer hardware or software that provides functionality for other programs or devices, called clients","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Server.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Server","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A server is a piece of computer hardware or software that provides functionality for other programs or devices, called clients","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Server.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Server
@@ -30,4 +30,4 @@ They are designed to handle requests, process them, and deliver responses.
 
 PHP can act both as a client and server, depending on the situation.
 
-Related : :ref:`SQL Database <sql-database>`, :ref:`Webserver <webserver>`, :ref:`Client <client>`, :ref:`Query <query>`, :ref:`Response <response>`, :ref:`Attack <attack>`, :ref:`Connection <connexion>`, :ref:`Shard <shard>`, :ref:`Socket <socket>`
+Related : :ref:`SQL Database <sql-database>`, :ref:`Webserver <webserver>`, :ref:`Client <client>`, :ref:`Query <query>`, :ref:`Response <response>`, :ref:`Attack <attack>`, :ref:`Connection <connexion>`, :ref:`Shard <shard>`, :ref:`Socket <socket>`, :ref:`Connection <connection>`, :ref:`Hosting <hosting>`, :ref:`Linux Apache Mysql PHP (LAMP) <lamp>`, :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`, :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`, :ref:`Secure Shell (SSH) <ssh>`

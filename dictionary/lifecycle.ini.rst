@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lifecycle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The lifecycle of an application spans from initial development to decommissioning, covering stages like specifications, prototyping, coding, testing, deployment, maintenance, and eventual retirement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lifecycle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lifecycle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The lifecycle of an application spans from initial development to decommissioning, covering stages like specifications, prototyping, coding, testing, deployment, maintenance, and eventual retirement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lifecycle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lifecycle
@@ -35,4 +35,4 @@ In PHP, lifecycle also refers to the execution cycle or request lifecycle, from 
 
 See also `Learning the PHP lifecycle <https://www.phpinternalsbook.com/php7/extensions_design/php_lifecycle.html>`_ and `PHP Community Support Lifecycle Changes: What Do They Mean for Your Team? <https://www.zend.com/blog/php-release-cycle-changes>`_.
 
-Related : :ref:`Software Development Life Cycle (SDLC) <sdlc>`, :ref:`Execution <execution>`
+Related : :ref:`Software Development Life Cycle (SDLC) <sdlc>`, :ref:`Execution <execution>`, :ref:`Bootstrap <bootstrap>`, :ref:`Code Freeze <code-freeze>`, :ref:`Total Cost Of Ownership (TCO) <tco>`

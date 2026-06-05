@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Declarative Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:06:47 +0000","dateModified":"Fri, 29 May 2026 05:06:47 +0000","description":"Declarative programming is a programming style, where the goal of the task is described, but not the method to reach it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Declarative Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Declarative Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 07:27:16 +0000","dateModified":"Fri, 05 Jun 2026 07:27:16 +0000","description":"Declarative programming is a programming style, where the goal of the task is described, but not the method to reach it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Declarative Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Declarative Programming
@@ -30,3 +30,5 @@ Declarative programming is flexible in the way it expresses its requirements. It
 `Documentation <https://en.wikipedia.org/wiki/Declarative_programming>`__
 
 See also `Declarative Programming in PHP: A Comprehensive Overview and Comparison with Imperative Programming <https://mderis.medium.com/declarative-programming-in-php-a-comprehensive-overview-and-comparison-with-imperative-programming-f85587b44011>`_.
+
+Related : :ref:`Paradigm <paradigm>`, :ref:`Imperative Programming <imperative>`, :ref:`Functional Programming <functional-programming>`, :ref:`Procedural Programming <procedural-programming>`

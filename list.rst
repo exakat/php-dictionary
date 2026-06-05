@@ -80,6 +80,7 @@ Index
    dictionary/api.ini
    dictionary/apm.ini
    dictionary/app-server.ini
+   dictionary/appeasement-pattern.ini
    dictionary/append.ini
    dictionary/application.ini
    dictionary/arbitrary-argument.ini
@@ -110,6 +111,7 @@ Index
    dictionary/array_pop.ini
    dictionary/array_push.ini
    dictionary/array_search.ini
+   dictionary/array_shift.ini
    dictionary/array_slice.ini
    dictionary/array_splice.ini
    dictionary/array_unique.ini
@@ -163,6 +165,7 @@ Index
    dictionary/badfunctioncallexception.ini
    dictionary/balanced.ini
    dictionary/bang.ini
+   dictionary/base-class.ini
    dictionary/base.ini
    dictionary/base64.ini
    dictionary/basename.ini
@@ -362,6 +365,7 @@ Index
    dictionary/data-leak.ini
    dictionary/data-mapper.ini
    dictionary/data.ini
+   dictionary/database-commit.ini
    dictionary/database.ini
    dictionary/dataset.ini
    dictionary/datastack.ini
@@ -370,6 +374,7 @@ Index
    dictionary/dateinterval.ini
    dictionary/datetime-trap.ini
    dictionary/datetime.ini
+   dictionary/datetimeinterface.ini
    dictionary/day-in-seconds.ini
    dictionary/days-in-month.ini
    dictionary/dba.ini
@@ -413,6 +418,7 @@ Index
    dictionary/design-pattern.ini
    dictionary/desktop-app.ini
    dictionary/destructor.ini
+   dictionary/determinism.ini
    dictionary/deterministic.ini
    dictionary/devops.ini
    dictionary/dictionary.ini
@@ -428,6 +434,7 @@ Index
    dictionary/disable-functions.ini
    dictionary/disable.ini
    dictionary/display_errors.ini
+   dictionary/distributed-state.ini
    dictionary/division.ini
    dictionary/divisionbyzeroerror.ini
    dictionary/dnf-type.ini
@@ -435,9 +442,17 @@ Index
    dictionary/do-while.ini
    dictionary/docblock.ini
    dictionary/docker-container.ini
+   dictionary/docker-image.ini
+   dictionary/docker.ini
+   dictionary/document-database.ini
    dictionary/documentation.ini
    dictionary/dollar.ini
+   dictionary/dom.ini
+   dictionary/domain-name.ini
+   dictionary/domain.ini
    dictionary/domainexception.ini
+   dictionary/domchildnode.ini
+   dictionary/domparentnode.ini
    dictionary/domxml.ini
    dictionary/dot-directory.ini
    dictionary/dot-dot-directory.ini
@@ -454,6 +469,7 @@ Index
    dictionary/dsn.ini
    dictionary/dto.ini
    dictionary/ducktyping.ini
+   dictionary/duplicate.ini
    dictionary/dynamic-call.ini
    dictionary/dynamic-class-constant.ini
    dictionary/dynamic-class.ini
@@ -496,6 +512,7 @@ Index
    dictionary/error-handler.ini
    dictionary/error-handling.ini
    dictionary/error-reporting.ini
+   dictionary/error-suppression.ini
    dictionary/error.ini
    dictionary/error_reporting.ini
    dictionary/escape-character.ini
@@ -516,6 +533,7 @@ Index
    dictionary/execution.ini
    dictionary/existence.ini
    dictionary/exit.ini
+   dictionary/explanation.ini
    dictionary/explicit-boolean-comparison.ini
    dictionary/explicit.ini
    dictionary/explode.ini
@@ -575,6 +593,7 @@ Index
    dictionary/fossilized-method.ini
    dictionary/fpm.ini
    dictionary/framework.ini
+   dictionary/free.ini
    dictionary/frontend.ini
    dictionary/ftp.ini
    dictionary/ftps.ini
@@ -633,6 +652,7 @@ Index
    dictionary/hexadecimal-integer.ini
    dictionary/hexagonal.ini
    dictionary/hg.ini
+   dictionary/hidden-state.ini
    dictionary/hmac.ini
    dictionary/hoisting.ini
    dictionary/honeypot.ini
@@ -665,6 +685,7 @@ Index
    dictionary/identification.ini
    dictionary/identifier.ini
    dictionary/identity-comparison.ini
+   dictionary/identity.ini
    dictionary/if-then.ini
    dictionary/iffectation.ini
    dictionary/image.ini
@@ -674,6 +695,7 @@ Index
    dictionary/immutable.ini
    dictionary/imperative.ini
    dictionary/implements.ini
+   dictionary/implicit-state.ini
    dictionary/implicit.ini
    dictionary/implode.ini
    dictionary/import.ini
@@ -746,6 +768,7 @@ Index
    dictionary/jsonl.ini
    dictionary/jsonserializable.ini
    dictionary/jump.ini
+   dictionary/jwt.ini
    dictionary/key-value-store.ini
    dictionary/keyword.ini
    dictionary/kiss.ini
@@ -763,6 +786,7 @@ Index
    dictionary/leading-zero-means-octal.ini
    dictionary/leak.ini
    dictionary/legacy.ini
+   dictionary/lemp.ini
    dictionary/lengthexception.ini
    dictionary/letter-logical.ini
    dictionary/lexical.ini
@@ -773,6 +797,7 @@ Index
    dictionary/lifecycle.ini
    dictionary/lifo.ini
    dictionary/line-feed.ini
+   dictionary/link.ini
    dictionary/lint-wont-execute.ini
    dictionary/linting.ini
    dictionary/liskov.ini
@@ -781,6 +806,7 @@ Index
    dictionary/literal-types.ini
    dictionary/literal.ini
    dictionary/llm.ini
+   dictionary/load-balancer.ini
    dictionary/local-file-inclusion.ini
    dictionary/local-variable.ini
    dictionary/local.ini
@@ -850,6 +876,7 @@ Index
    dictionary/monitoring.ini
    dictionary/monolith.ini
    dictionary/monomorphization.ini
+   dictionary/mro.ini
    dictionary/multi-byte.ini
    dictionary/multidimensional-array.ini
    dictionary/multiplication.ini
@@ -911,6 +938,7 @@ Index
    dictionary/numeric-base.ini
    dictionary/numeric-separator.ini
    dictionary/numeric-string.ini
+   dictionary/oauth.ini
    dictionary/obfuscation.ini
    dictionary/object-api.ini
    dictionary/object-injection.ini
@@ -922,6 +950,7 @@ Index
    dictionary/object-type.ini
    dictionary/object.ini
    dictionary/oblic-quote.ini
+   dictionary/observer-pattern.ini
    dictionary/observer.ini
    dictionary/ocp.ini
    dictionary/octal-integer.ini
@@ -944,7 +973,9 @@ Index
    dictionary/operator-precedence.ini
    dictionary/operator.ini
    dictionary/optimisation.ini
+   dictionary/option.ini
    dictionary/optional-parameter.ini
+   dictionary/oracle.ini
    dictionary/order-of-execution.ini
    dictionary/orm.ini
    dictionary/otp.ini
@@ -986,6 +1017,7 @@ Index
    dictionary/path-traversal.ini
    dictionary/path.ini
    dictionary/pattern-matching.ini
+   dictionary/pay-as-you-go.ini
    dictionary/pcntl.ini
    dictionary/pcntl_signal.ini
    dictionary/pcre.ini
@@ -1009,6 +1041,7 @@ Index
    dictionary/php-editor.ini
    dictionary/php-extension.ini
    dictionary/php-fig.ini
+   dictionary/php-filter.ini
    dictionary/php-foundation.ini
    dictionary/php-function.ini
    dictionary/php-group.ini
@@ -1042,6 +1075,7 @@ Index
    dictionary/plus.ini
    dictionary/png.ini
    dictionary/pointer.ini
+   dictionary/poisoned-pipeline-execution.ini
    dictionary/polling.ini
    dictionary/polyfill.ini
    dictionary/polymorphism.ini
@@ -1105,6 +1139,8 @@ Index
    dictionary/rag.ini
    dictionary/railroad-programming.ini
    dictionary/random.ini
+   dictionary/random_cryptosafeengine.ini
+   dictionary/random_engine.ini
    dictionary/range.ini
    dictionary/rangeexception.ini
    dictionary/rbac.ini
@@ -1119,13 +1155,17 @@ Index
    dictionary/real.ini
    dictionary/recursion.ini
    dictionary/recursive-array.ini
+   dictionary/recursivearrayiterator.ini
+   dictionary/recursivedirectoryiterator.ini
    dictionary/recursiveiterator.ini
    dictionary/recursivetreeiterator.ini
+   dictionary/redirect.ini
    dictionary/refactoring.ini
    dictionary/reference-count.ini
    dictionary/reference.ini
    dictionary/reflection.ini
    dictionary/reflectionexception.ini
+   dictionary/reflector.ini
    dictionary/regex.ini
    dictionary/regexploit.ini
    dictionary/register-globals.ini
@@ -1188,6 +1228,7 @@ Index
    dictionary/second-order-sql-injection.ini
    dictionary/secret.ini
    dictionary/security.ini
+   dictionary/seekableiterator.ini
    dictionary/segmentation-fault.ini
    dictionary/self-documenting.ini
    dictionary/self-reference.ini
@@ -1199,16 +1240,23 @@ Index
    dictionary/seo.ini
    dictionary/separation-of-concerns.ini
    dictionary/separator.ini
+   dictionary/sequence.ini
    dictionary/serde.ini
    dictionary/serializable.ini
    dictionary/serialization.ini
+   dictionary/serialize_precision.ini
    dictionary/server-architecture.ini
    dictionary/server.ini
+   dictionary/serverless.ini
    dictionary/service-container.ini
    dictionary/service.ini
    dictionary/session-fixation.ini
    dictionary/session-highjacking.ini
    dictionary/session.ini
+   dictionary/sessionhandlerinterface.ini
+   dictionary/sessionidinterface.ini
+   dictionary/sessionupdatetimestamphandlerinterface.ini
+   dictionary/set.ini
    dictionary/set_error_handler.ini
    dictionary/setlocale.ini
    dictionary/setter.ini
@@ -1216,6 +1264,7 @@ Index
    dictionary/shallow-clone.ini
    dictionary/shard.ini
    dictionary/shared-memory.ini
+   dictionary/shell-exec.ini
    dictionary/shell.ini
    dictionary/shell_exec.ini
    dictionary/ship.ini
@@ -1256,7 +1305,9 @@ Index
    dictionary/spiral.ini
    dictionary/spl.ini
    dictionary/spldoublylinkedlist.ini
+   dictionary/splfileinfo.ini
    dictionary/splfileobject.ini
+   dictionary/splobjectstorage.ini
    dictionary/splobserver.ini
    dictionary/splstack.ini
    dictionary/splstorageobjects.ini
@@ -1344,6 +1395,8 @@ Index
    dictionary/task.ini
    dictionary/tco.ini
    dictionary/tcp.ini
+   dictionary/tech-island.ini
+   dictionary/tech-silo.ini
    dictionary/technical-reference.ini
    dictionary/telemetry.ini
    dictionary/tempest.ini

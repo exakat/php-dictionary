@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__invoke() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The ``__invoke()`` magic method is called when the code calls an object as a function name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__invoke() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"__invoke() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The ``__invoke()`` magic method is called when the code calls an object as a function name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__invoke() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __invoke() Method
@@ -55,4 +55,4 @@ When a class has the ``__invoke`` class, it is possible to can a method without 
 
 See also `PHP __invoke <https://www.phptutorial.net/php-oop/php-__invoke/>`_, `The Magical invoke Method in PHP. Your Clean Code Ally <https://www.juannicolas.eu/the-invoke-method-in-php/>`_ and `Why PHP’s __invoke Might Be Your Best Kept Secret! <https://medium.com/@jochelle.mendonca/why-phps-invoke-might-be-your-best-kept-secret-96c0bb8f1da9/>`_.
 
-Related : :ref:`Magic Methods <magic-method>`, :ref:`SOLID <solid>`, :ref:`Anonymous <anonymous>`, :ref:`Functor <functor>`, :ref:`Callables <callable>`, :ref:`Invoke <invoke>`, :ref:`New Without Parenthesis <new-without-parenthesis>`
+Related : :ref:`Magic Methods <magic-method>`, :ref:`SOLID <solid>`, :ref:`Anonymous <anonymous>`, :ref:`Functor <functor>`, :ref:`Callables <callable>`, :ref:`Invoke <invoke>`, :ref:`New Without Parenthesis <new-without-parenthesis>`, :ref:`Anonymous Function <anonymous-function>`

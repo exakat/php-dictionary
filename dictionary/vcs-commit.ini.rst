@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"VCS Commit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"A commit is a snapshot of source code at a specific point in time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/VCS Commit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"VCS Commit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A commit is a snapshot of source code at a specific point in time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/VCS Commit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 VCS Commit
@@ -33,4 +33,4 @@ Several commits are grouped into a pull request or PR, for code review. Commit m
 
 See also `git-commit reference <https://git-scm.com/docs/git-commit>`_, `Conventional Commits specification <https://www.conventionalcommits.org/>`_ and `Git internals: commits and objects <https://git-scm.com/book/en/v2/Git-Internals-Git-Objects>`_.
 
-Related : :ref:`git <git>`, :ref:`VCS <vcs>`, :ref:`Pull Request (PR) <pr>`, :ref:`Code Review <code-review>`, :ref:`Branch <branch>`, :ref:`Merge <merge>`, :ref:`Diff <diff>`, :ref:`Rollback <rollback>`, :ref:`Worktree <worktree>`, :ref:`SVN <svn>`, :ref:`hg <hg>`
+Related : :ref:`git <git>`, :ref:`VCS <vcs>`, :ref:`Pull Request (PR) <pr>`, :ref:`Code Review <code-review>`, :ref:`Branch <branch>`, :ref:`Merge <merge>`, :ref:`Diff <diff>`, :ref:`Rollback <rollback>`, :ref:`Worktree <worktree>`, :ref:`SVN <svn>`, :ref:`hg <hg>`, :ref:`Commit <commit>`, :ref:`Timing Attack <timing-attack>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Map","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A map refers to an abstract data type, ADT, that stores key-value pairs, where each key is unique within the map","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Map.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Map","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A map refers to an abstract data type, ADT, that stores key-value pairs, where each key is unique within the map","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Map.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Map
@@ -46,4 +46,4 @@ Maps are useful to associate a value with a specific key and perform operations 
 
 See also `Associative Arrays in PHP: An Overview <https://www.simplilearn.com/tutorials/php-tutorial/associative-array-in-php>`_.
 
-Related : :ref:`Array <array>`, :ref:`Index For Arrays <index-array>`, :ref:`Collection <collection>`, :ref:`array_column <array_column>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`
+Related : :ref:`Array <array>`, :ref:`Index For Arrays <index-array>`, :ref:`Collection <collection>`, :ref:`array_column <array_column>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`, :ref:`Data Structure <datastructure>`, :ref:`Pair <pair>`

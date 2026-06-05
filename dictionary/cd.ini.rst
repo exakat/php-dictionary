@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Continuous Delivery (CD)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Continuous delivery refers to the software development practice where the code changes are automatically built, tested, and prepared for release, so that the software can be deployed to production at any time with minimal manual effort","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Continuous Delivery (CD).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Continuous Delivery (CD)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Continuous delivery refers to the software development practice where the code changes are automatically built, tested, and prepared for release, so that the software can be deployed to production at any time with minimal manual effort","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Continuous Delivery (CD).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Continuous Delivery (CD)
@@ -28,4 +28,4 @@ Continuous delivery refers to the software development practice where the code c
 
 See also `Continuous Integration and Continuous Delivery <https://www.phparch.com/2023/08/continuous-integration-and-continuous-delivery/>`_ and `Using Laminas Continuous Delivery and Deployment <https://getlaminas.org/blog/2024-09-26-using-laminas-continuous-delivery-and-deployment.html>`_.
 
-Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`, :ref:`Continuous Integration (CI) <ci>`
+Related : :ref:`Pipeline <pipeline>`, :ref:`Release <release>`, :ref:`Revision <revision>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`, :ref:`Task Runner <task-runner>`

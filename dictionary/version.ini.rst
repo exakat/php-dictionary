@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Version","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"In the context of software development, a version refers to a specific iteration or release of a software product or application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Version.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Version","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"In the context of software development, a version refers to a specific iteration or release of a software product or application","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Version.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Version
@@ -32,4 +32,4 @@ Versions serve several purposes: tracking changes, Compatibility management, Rel
 
 See also `0 <`Semantic versioning <https://semver.org/>`_>`_ and `1 <`Managing package versions in Packagist <https://packagist.org/about>`_>`_.
 
-Related : :ref:`Release <release>`, :ref:`Semantic Versioning <semantic-versioning>`, :ref:`Upgrade <upgrade>`
+Related : :ref:`Release <release>`, :ref:`Semantic Versioning <semantic-versioning>`, :ref:`Upgrade <upgrade>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Forward Compatible <forward-compatible>`, :ref:`Maintenance <maintenance>`, :ref:`Migration <migration>`

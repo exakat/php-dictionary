@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Algorithmic Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Algorithmic complexity, also called computational complexity, refers to the study of the resources required by an algorithm to solve a problem as a function of the input size","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Algorithmic Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Algorithmic Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Algorithmic complexity, also called computational complexity, refers to the study of the resources required by an algorithm to solve a problem as a function of the input size","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Algorithmic Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Algorithmic Complexity
@@ -34,4 +34,4 @@ Algorithmic complexity may be measured by metrics.
 
 See also `Complexity analysis and code optimisation with PHP <https://codesignal.com/learn/courses/mastering-algorithms-in-php-two-pointers-and-beyond/lessons/complexity-analysis-and-code-optimization-with-php>`_ and `algorithmic complexity <https://devopedia.org/algorithmic-complexity>`_.
 
-Related : :ref:`Metrics <metrics>`, :ref:`Big-o-notation <big-o-notation>`
+Related : :ref:`Metrics <metrics>`, :ref:`Big-o-notation <big-o-notation>`, :ref:`Complexity <complexity>`, :ref:`Data Structure <datastructure>`

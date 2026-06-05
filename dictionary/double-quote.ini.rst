@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Double Quotes Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Double quoted strings are strings, similar to the single quoted strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Double Quotes Strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Double Quotes Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Double quoted strings are strings, similar to the single quoted strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Double Quotes Strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Double Quotes Strings
@@ -50,4 +50,4 @@ This is an extended version of the single-quoted strings. They are similar to th
 
 See also `Single Quotes and Double Quotes : String Interpolation and Performance <https://dev.to/parzival_computer/single-quotes-and-double-quotes-string-interpolation-and-performance-32p2>`_.
 
-Related : :ref:`Single Quotes Strings <single-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`, :ref:`Heredocs <heredoc>`, :ref:`Escape Sequences <escape-sequence>`
+Related : :ref:`Single Quotes Strings <single-quote>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`, :ref:`Heredocs <heredoc>`, :ref:`Escape Sequences <escape-sequence>`, :ref:`Balanced <balanced>`, :ref:`Double <double>`, :ref:`Oblic Quotes <oblic-quote>`

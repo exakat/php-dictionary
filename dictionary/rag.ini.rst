@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Retrieval Augmented Generation (RAG)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Retrieval Augmented Geenration, aka RAG, is a technique used in artificial intelligence, especially in large language models, to improve the accuracy and relevance of generated responses","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Retrieval Augmented Generation (RAG).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Retrieval Augmented Generation (RAG)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Retrieval Augmented Geenration, aka RAG, is a technique used in artificial intelligence, especially in large language models, to improve the accuracy and relevance of generated responses","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Retrieval Augmented Generation (RAG).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Retrieval Augmented Generation (RAG)
@@ -30,6 +30,6 @@ RAG is widely used in chatbots, search engines, and knowledge management systems
 
 See also `Building a RAG (Retrieval-Augmented Generation) system in PHP with Neuron AI <https://dev.to/robertobutti/building-a-rag-retrieval-augmented-generation-system-in-php-with-neuron-ai-4jmo>`_ and `Implementing Retrieval Augmented Generation (RAG) <https://symfony.com/doc/current/ai/cookbook/rag-implementation.html>`_.
 
-Related : :ref:`Vector Database <vector-database>`, :ref:`Large Language Model (LLM) <llm>`, :ref:`Model Context Protocol (MCP) <mcp>`
+Related : :ref:`Vector Database <vector-database>`, :ref:`Large Language Model (LLM) <llm>`, :ref:`Model Context Protocol (MCP) <mcp>`, :ref:`Artificial Intelligence (AI) <ai>`
 
 Related packages : `mzarnecki/php-rag <https://packagist.org/packages/mzarnecki/php-rag>`_

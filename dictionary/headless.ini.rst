@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Headless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Headless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Headless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 07:27:16 +0000","dateModified":"Fri, 05 Jun 2026 07:27:16 +0000","description":"A headless website, also known as a headless CMS (Content Management System) or decoupled website, is a web architecture where the frontend and backend are decoupled or separated from each other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Headless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Headless
@@ -31,3 +31,5 @@ In contrast, a headless website is designed with a clear separation of concerns.
 `Documentation <https://en.wikipedia.org/wiki/Headless_content_management_system>`__
 
 See also `Decopuled systems. Frontend in JavaScript. Backend in PHP. Why. How. If. <https://blog.fortrabbit.com/headless-php>`_, `Headless possibilities for PHP <https://netgen.io/blog/headless-possibilities-for-php>`_ and `Headless CMS vs. Traditional CMS: Which Is Best for PHP Apps? <https://www.zend.com/blog/headless-cms-vs-traditional-cms>`_.
+
+Related : :ref:`Content Management System (CMS) <cms>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Architecture <architecture>`, :ref:`REST API <rest-api>`, :ref:`Decoupling <decoupling>`, :ref:`Front-end <frontend>`

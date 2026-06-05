@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Name Conventions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:55:23 +0000","dateModified":"Sun, 31 May 2026 07:55:23 +0000","description":"A naming convention is a way to write a name for a structure, with a specific format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Name Conventions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Name Conventions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A naming convention is a way to write a name for a structure, with a specific format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Name Conventions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Name Conventions
@@ -54,4 +54,4 @@ Here are technical conventions for PHP:
 
 `Documentation <https://www.php.net/manual/en/language.variables.basics.php>`__
 
-Related : :ref:`Namespaces <namespace>`, :ref:`Anonymous <anonymous>`, :ref:`Case Sensitivity <case-sensitivity>`, :ref:`Namespace Name <namespace-name>`, :ref:`Structure <structure>`, :ref:`Word Combination <word-combinaison>`, :ref:`Close Naming <close-naming>`, :ref:`Naming Conflict <naming-conflict>`, :ref:`Reserved Names <reserved-name>`, :ref:`Semantics <semantics>`
+Related : :ref:`Namespaces <namespace>`, :ref:`Anonymous <anonymous>`, :ref:`Case Sensitivity <case-sensitivity>`, :ref:`Namespace Name <namespace-name>`, :ref:`Structure <structure>`, :ref:`Word Combination <word-combinaison>`, :ref:`Close Naming <close-naming>`, :ref:`Naming Conflict <naming-conflict>`, :ref:`Reserved Names <reserved-name>`, :ref:`Semantics <semantics>`, :ref:`Static Constant <class-constant>`

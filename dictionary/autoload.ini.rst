@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Autoloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:06:14 +0000","dateModified":"Fri, 29 May 2026 05:06:14 +0000","description":"Autoloading provides a hook to allow the loading of a class, the first time PHP requires it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Autoloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Class Autoloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Autoloading provides a hook to allow the loading of a class, the first time PHP requires it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Class Autoloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Class Autoloading
@@ -51,6 +51,6 @@ In modern PHP, not using class autoloading is considered a bad practice.
 
 See also `Use autoloading and namespaces in PHP <https://opensource.com/article/23/4/autoloading-namespaces-php>`_, `Autoloading Performance – Avoid These 5 Mistakes! <https://tideways.com/profiler/blog/autoloading-performance-avoid-these-5-mistakes>`_ and `Understanding Autoloading in PHP: How to Implement and Use It Efficiently <https://dev.to/abhay_yt_52a8e72b213be229/understanding-autoloading-in-php-how-to-implement-and-use-it-efficiently-3a44>`_.
 
-Related : :ref:`Autowiring <auto-wiring>`, :ref:`Definition <definition>`, :ref:`Call <call>`, :ref:`__autoload <-__autoload>`, :ref:`Class Hoisting <class-hoisting>`, :ref:`Inclusions <inclusion>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Existence <existence>`, :ref:`Hoisting <hoisting>`, :ref:`Library <library>`, :ref:`Order Of Execution <order-of-execution>`
+Related : :ref:`Autowiring <auto-wiring>`, :ref:`Definition <definition>`, :ref:`Call <call>`, :ref:`__autoload <-__autoload>`, :ref:`Class Hoisting <class-hoisting>`, :ref:`Inclusions <inclusion>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Existence <existence>`, :ref:`Hoisting <hoisting>`, :ref:`Library <library>`, :ref:`Order Of Execution <order-of-execution>`, :ref:`include <include>`
 
 Added in PHP 5.0

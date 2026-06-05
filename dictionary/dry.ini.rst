@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Don't repeat yourself, or DRY, is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Don't repeat yourself, or DRY, is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Don't Repeat Yourself (DRY)
@@ -32,4 +32,4 @@ This principle is also known as Duplication Is Evil, or DIE. Its nemesis is ``WE
 
 See also `The Pragmatic Programmer <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>`_, `Why DRY is the most over-rated programming principle <https://gordonc.bearblog.dev/dry-most-over-rated-programming-principle/>`_ and `DRY Principle in PHP <https://agileparrot.com/2022/07/19/dry-principle-in-php/>`_.
 
-Related : :ref:`Write Everything Twice (WET) <wet>`, :ref:`SOLID <solid>`
+Related : :ref:`Write Everything Twice (WET) <wet>`, :ref:`SOLID <solid>`, :ref:`Centralization <centralization>`, :ref:`KISS <kiss>`, :ref:`Tech Island <tech-island>`, :ref:`You Are Not Going To Need It (YAGNI) <yagni>`

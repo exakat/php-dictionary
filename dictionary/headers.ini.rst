@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Headers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 05:01:21 +0000","dateModified":"Fri, 29 May 2026 05:01:21 +0000","description":"In PHP, headers are HTTP response headers sent to the client before any body output","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Headers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Headers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"In PHP, headers are HTTP response headers sent to the client before any body output","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Headers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Headers
@@ -46,4 +46,4 @@ Headers must be sent before any output (HTML, whitespace, or ``echo``). Sending 
 
 `Documentation <https://www.php.net/manual/en/function.header.php>`__
 
-Related : :ref:`HTTP Headers <http-header>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Cookie <cookie>`
+Related : :ref:`HTTP Headers <http-header>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Cookie <cookie>`, :ref:`HTTP Request Headers <http-headers>`, :ref:`Output buffering <output-buffering>`

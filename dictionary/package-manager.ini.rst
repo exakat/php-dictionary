@@ -1,5 +1,5 @@
 .. _package-manager:
-.. _dependency manager:
+.. _dependency-manager:
 .. meta::
 	:description:
 		Package Manager: A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages.
@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Package Manager","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:33:14 +0000","dateModified":"Sun, 31 May 2026 07:33:14 +0000","description":"A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Package Manager.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Package Manager","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Package Manager.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Package Manager
@@ -35,4 +35,4 @@ Package managers bring reproducibility, security auditability, and semantic vers
 
 See also `Composer documentation <https://getcomposer.org/doc/>`_.
 
-Related : :ref:`Composer <composer>`, :ref:`Packagist <packagist>`, :ref:`PEAR <pear>`, :ref:`PHP Installer For Extensions (PIE) <pie>`, :ref:`Dependency <dependency>`, :ref:`Supply Chain <supply-chain>`, :ref:`Semantic Versioning <semantic-versioning>`
+Related : :ref:`Composer <composer>`, :ref:`Packagist <packagist>`, :ref:`PEAR <pear>`, :ref:`PHP Installer For Extensions (PIE) <pie>`, :ref:`Dependency <dependency>`, :ref:`Supply Chain <supply-chain>`, :ref:`Semantic Versioning <semantic-versioning>`, :ref:`Checksum <checksum>`

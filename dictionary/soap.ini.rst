@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Object Access Protocol (SOAP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"``SOAP`` is the acronym for Simple Object Access Protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Object Access Protocol (SOAP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Simple Object Access Protocol (SOAP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``SOAP`` is the acronym for Simple Object Access Protocol","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Simple Object Access Protocol (SOAP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Simple Object Access Protocol (SOAP)
@@ -65,6 +65,6 @@ PHP supports SOAP with a native extension called ``ext/soap``.
 
 `Documentation <https://www.php.net/manual/en/book.soap.php>`__
 
-Related : :ref:`Extensible Markup Language (XML) <xml>`
+Related : :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Application Programming Interface (API) <api>`
 
 Related packages : `phpro/soap-client <https://packagist.org/packages/phpro/soap-client>`_, `ricorocks-digital-agency/soap <https://packagist.org/packages/ricorocks-digital-agency/soap>`_, `laminas/laminas-soap <https://packagist.org/packages/laminas/laminas-soap>`_

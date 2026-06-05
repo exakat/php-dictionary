@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"BackedEnum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"The ``BackedENum`` interface identifies an enumeration with a string or int value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/BackedEnum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"BackedEnum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"The ``BackedENum`` interface identifies an enumeration with a string or int value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/BackedEnum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 BackedEnum
@@ -45,4 +45,4 @@ This interface ensure the ``enum::tryFrom()`` and ``enum::from()`` methods and t
 
 See also `Use the PHP UnitEnum::cases() during testing <https://medium.com/@kczereczon/usage-php-unitenum-cases-in-testing-cf178a5ac372>`_.
 
-Related : :ref:`Enumeration (enum) <enum>`, :ref:`UnitEnum <unitenum>`, :ref:`String <string>`, :ref:`integer <int>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`
+Related : :ref:`Enumeration (enum) <enum>`, :ref:`UnitEnum <unitenum>`, :ref:`String <string>`, :ref:`integer <int>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`Unbacked Enum <unbacked-enum>`

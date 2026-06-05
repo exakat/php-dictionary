@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Jun 2026 16:55:20 +0000","dateModified":"Tue, 02 Jun 2026 16:55:20 +0000","description":"PHP comments are used to add explanatory notes or annotations within the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Comments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"PHP comments are used to add explanatory notes or annotations within the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Comments
@@ -59,4 +59,4 @@ As a side feature, comments may also be started with the Unicode #️⃣️ char
 
 See also `PHP Comments <https://flatcoding.com/tutorials/php-programming/php-comments/>`_ and `PHP Comment <https://www.phptutorial.net/php-tutorial/php-comments/>`_.
 
-Related : :ref:`PHPdoc <phpdoc>`, :ref:`Documentation <documentation>`, :ref:`Pound # <pound>`
+Related : :ref:`PHPdoc <phpdoc>`, :ref:`Documentation <documentation>`, :ref:`Pound # <pound>`, :ref:`Explanation <explanation>`, :ref:`Hash # <hash-character>`, :ref:`Star * <star>`, :ref:`TODO <todo>`, :ref:`Markdown <markdown>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Installer For Extensions (PIE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"PIE is an extension installer for PHP, designed as a successor to PECL and developed by the PHP Foundation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Installer For Extensions (PIE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Installer For Extensions (PIE)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"PIE is an extension installer for PHP, designed as a successor to PECL and developed by the PHP Foundation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Installer For Extensions (PIE).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Installer For Extensions (PIE)
@@ -32,4 +32,4 @@ With the publication of PIE 1.0, in early 2026, PECL does not accept new package
 
 See also `All PIE extensions <https://packagist.org/extensions>`_, `Managing PHP Extensions Is As Easy As PIE <hhttps://developer.vonage.com/en/blog/managing-php-extensions-is-as-easy-as-pie>`_ and `Announcing the Pre-Release of the PHP Installer for Extensions (PIE) <https://thephp.foundation/blog/2024/11/19/pie-pre-release/>`_.
 
-Related : :ref:`Composer <composer>`, :ref:`Extensions <extension>`, :ref:`PHP Extension C Library (PECL) <pecl>`
+Related : :ref:`Composer <composer>`, :ref:`Extensions <extension>`, :ref:`PHP Extension C Library (PECL) <pecl>`, :ref:`Package Manager <package-manager>`

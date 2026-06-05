@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","name":"Functional Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Functional Programming (FP) is a programming paradigm where programs are built by combining pure functions, avoiding shared state, and minimizing side effects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Functional Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Illegal class name.html","name":"Functional Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Functional Programming (FP) is a programming paradigm where programs are built by combining pure functions, avoiding shared state, and minimizing side effects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Functional Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Functional Programming
@@ -29,6 +29,6 @@ PHP supports anonymous functions, closures, iterators and higher-order functions
 
 See also `Functional Programming in PHP · 2nd Edition <https://www.functionalphp.com/>`_, `Thinking Functionally in PHP? <https://leanpub.com/functional-php/read>`_ and `Functional Programming with PHP Generators <https://medium.com/ifixit-engineering/functional-programming-with-php-generators-837a6c91b0e3>`_.
 
-Related : :ref:`OOP (Object Oriented Programming) <oop>`, :ref:`Paradigm <paradigm>`, :ref:`Partial Function <partial-function>`, :ref:`Procedural Programming <procedural-programming>`, :ref:`Side Effect <side-effect>`
+Related : :ref:`OOP (Object Oriented Programming) <oop>`, :ref:`Paradigm <paradigm>`, :ref:`Partial Function <partial-function>`, :ref:`Procedural Programming <procedural-programming>`, :ref:`Side Effect <side-effect>`, :ref:`Declarative Programming <declarative-programming>`, :ref:`Determinism <determinism>`, :ref:`Functor <functor>`, :ref:`Imperative Programming <imperative>`, :ref:`Memoization <memoization>`
 
 Related packages : `phel-lang/phel-lang <https://packagist.org/packages/phel-lang/phel-lang>`_

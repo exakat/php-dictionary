@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Sourcing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Event Sourcing is a pattern where instead of storing the current state of an entity, the sequence of events that led to that state is stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Sourcing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Sourcing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Event Sourcing is a pattern where instead of storing the current state of an entity, the sequence of events that led to that state is stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Sourcing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Event Sourcing
@@ -36,6 +36,6 @@ Event sourcing pairs naturally with CQRS. The event stream is the write side; it
 
 See also `Building a PHP CLI tool using DDD and Event Sourcing: getting started with EventSauce <https://tech.osteel.me/posts/building-a-php-cli-tool-using-ddd-and-event-sourcing-getting-started-with-eventsauce>`_.
 
-Related : :ref:`Event Storming <event-storming>`, :ref:`Audit Trail <audit-trail>`, :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`, :ref:`Side Effect <side-effect>`, :ref:`Time Travel <time-travel>`
+Related : :ref:`Event Storming <event-storming>`, :ref:`Audit Trail <audit-trail>`, :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`, :ref:`Side Effect <side-effect>`, :ref:`Time Travel <time-travel>`, :ref:`Message Bus <message-bus>`, :ref:`Snapshot <snapshot>`
 
 Related packages : `temporal/sdk <https://packagist.org/packages/temporal/sdk>`_, `broadway/broadway <https://packagist.org/packages/broadway/broadway>`_, `eventsauce/eventsauce <https://packagist.org/packages/eventsauce/eventsauce>`_

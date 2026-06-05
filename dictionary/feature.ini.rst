@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Feature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 08:25:39 +0000","dateModified":"Sun, 31 May 2026 08:25:39 +0000","description":"A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Feature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Feature","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Feature.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Feature
@@ -30,4 +30,4 @@ Developers prioritize and implement features based on user needs, market demand,
 
 See also `Can I PHP <https://caniphp.com/>`_, `Top 10 PHP Features You Can Use in 2024 <https://backpackforlaravel.com/articles/tips-and-tricks/top-10-php-features-you-can-use-in-2024>`_ and `Lines of code and PHP Features <https://github.com/tomasVotruba/lines>`_.
 
-Related : :ref:`Feature Flag <feature-flag>`, :ref:`Feature Testing <feature-testing>`, :ref:`Release <release>`
+Related : :ref:`Feature Flag <feature-flag>`, :ref:`Feature Testing <feature-testing>`, :ref:`Release <release>`, :ref:`Internals <internals>`, :ref:`Sunsetting <sunsetting>`

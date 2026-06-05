@@ -1,6 +1,6 @@
 .. _php-ai-editor:
-.. _AI-assisted PHP editor:
-.. _AI code editor:
+.. _ai-assisted-php-editor:
+.. _ai-code-editor:
 .. meta::
 	:description:
 		PHP AI Editor: A PHP AI editor is a development environment or plugin that integrates artificial intelligence to assist with writing, reviewing, and refactoring PHP code.
@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP AI Editor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:16:48 +0000","dateModified":"Mon, 01 Jun 2026 09:16:48 +0000","description":"A PHP AI editor is a development environment or plugin that integrates artificial intelligence to assist with writing, reviewing, and refactoring PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP AI Editor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP AI Editor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 08:17:31 +0000","dateModified":"Wed, 03 Jun 2026 08:17:31 +0000","description":"A PHP AI editor is a development environment or plugin that integrates artificial intelligence to assist with writing, reviewing, and refactoring PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP AI Editor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP AI Editor

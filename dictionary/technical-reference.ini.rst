@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Technical Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:04:51 +0000","dateModified":"Mon, 01 Jun 2026 09:04:51 +0000","description":"A technical reference is a type of documentation that describes the precise behaviour of a system's components: functions, classes, configuration options, command-line flags, and API endpoints","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Technical Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Technical Reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A technical reference is a type of documentation that describes the precise behaviour of a system's components: functions, classes, configuration options, command-line flags, and API endpoints","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Technical Reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Technical Reference
@@ -32,4 +32,4 @@ In PHP, the official manual is the canonical technical reference. Projects often
 
 See also `PHP Manual <https://www.php.net/manual/en/>`_ and `phpDocumentor <https://www.phpdoc.org/>`_.
 
-Related : :ref:`Documentation <documentation>`, :ref:`PHPdoc <phpdoc>`, :ref:`Source Code <source>`
+Related : :ref:`Documentation <documentation>`, :ref:`PHPdoc <phpdoc>`, :ref:`Source Code <source>`, :ref:`Maintenance <maintenance>`

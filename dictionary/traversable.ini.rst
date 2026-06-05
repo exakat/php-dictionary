@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Traversable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 31 May 2026 07:36:02 +0000","dateModified":"Sun, 31 May 2026 07:36:02 +0000","description":"Traversable is a specific PHP interface that represents an object that can be iterated over","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Traversable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Traversable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Traversable is a specific PHP interface that represents an object that can be iterated over","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Traversable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Traversable
@@ -45,4 +45,4 @@ The traversable interface is used for typing purposes.
 
 See also `Traversable interface in PHP <https://blog.eduonix.com/web-programming-tutorials/traversable-interface-in-php/>`_.
 
-Related : :ref:`Exception <exception>`, :ref:`Error <error>`, :ref:`Iterable <iterable>`, :ref:`OuterIterator <outeriterator>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`yield from Keyword <yield-from>`
+Related : :ref:`Exception <exception>`, :ref:`Error <error>`, :ref:`Iterable <iterable>`, :ref:`OuterIterator <outeriterator>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`yield from Keyword <yield-from>`, :ref:`IteratorAggregate <iteratoraggregate>`

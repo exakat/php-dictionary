@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cognitive Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"Cognitive complexity is a way of measuring how difficult a piece of code is for a human to understand","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cognitive Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cognitive Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Cognitive complexity is a way of measuring how difficult a piece of code is for a human to understand","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cognitive Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cognitive Complexity
@@ -47,6 +47,6 @@ Cognitive complexity is a way of measuring how difficult a piece of code is for 
 
 `Documentation <https://en.wikipedia.org/wiki/Cognitive_complexity>`__
 
-Related : :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
+Related : :ref:`Cyclomatic Complexity <cyclomatic-complexity>`, :ref:`Complexity <complexity>`, :ref:`Metrics <metrics>`, :ref:`Streamlining <streamlining>`
 
 Related packages : `rarst/phpcs-cognitive-complexity <https://packagist.org/packages/rarst/phpcs-cognitive-complexity>`_, `tomasvotruba/cognitive-complexity <https://packagist.org/packages/tomasvotruba/cognitive-complexity>`_

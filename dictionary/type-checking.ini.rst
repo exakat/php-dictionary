@@ -1,5 +1,5 @@
 .. _type-checking:
-.. _type verification:
+.. _type-verification:
 .. meta::
 	:description:
 		Type Checking: Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage.
@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Checking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 09:07:14 +0000","dateModified":"Mon, 01 Jun 2026 09:07:14 +0000","description":"Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Checking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Checking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Checking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Type Checking
@@ -70,4 +70,4 @@ The two phases sit at different points in the order of execution: static analysi
 
 See also `PHP RFC: Scalar Type Declarations <https://wiki.php.net/rfc/scalar_type_hints_v5>`_, `PHPStan – Understanding Types <https://phpstan.org/writing-php-code/phpdoc-types>`_, `Psalm – Typing in Psalm <https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/>`_ and `Runtime type checking is great <https://blog.jez.io/runtime-type-checking/>`_.
 
-Related : :ref:`Type Inference <type-inference>`, :ref:`Static Code Analysis (SCA) <sca>`, :ref:`Runtime Checks <runtime-checks>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Generics <generics>`, :ref:`Types Erasure <type-erasure>`, :ref:`Order Of Execution <order-of-execution>`, :ref:`strict_types <strict_types>`, :ref:`Type System <type-hint>`, :ref:`TypeError <typeerror>`, :ref:`Type Juggling <type-juggling>`, :ref:`Type Coverage <type-coverage>`
+Related : :ref:`Type Inference <type-inference>`, :ref:`Static Code Analysis (SCA) <sca>`, :ref:`Runtime Checks <runtime-checks>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Generics <generics>`, :ref:`Types Erasure <type-erasure>`, :ref:`Order Of Execution <order-of-execution>`, :ref:`strict_types <strict_types>`, :ref:`Type System <type-hint>`, :ref:`TypeError <typeerror>`, :ref:`Type Juggling <type-juggling>`, :ref:`Type Coverage <type-coverage>`, :ref:`instanceof <instanceof>`, :ref:`is_a() <is_a>`
