@@ -1,28 +1,28 @@
 .. _active-record:
 .. meta::
 	:description:
-		Active Record: Active Record is a design pattern commonly used in PHP development.
+		Active Record: Active Record is a design pattern commonly used in development.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Active Record
-	:twitter:description: Active Record: Active Record is a design pattern commonly used in PHP development
+	:twitter:description: Active Record: Active Record is a design pattern commonly used in development
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Active Record
 	:og:type: article
-	:og:description: Active Record is a design pattern commonly used in PHP development
+	:og:description: Active Record is a design pattern commonly used in development
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/active-record.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Active Record","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Active Record is a design pattern commonly used in PHP development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Active Record.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Active Record","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 12 Jun 2026 06:59:15 +0000","dateModified":"Fri, 12 Jun 2026 06:59:15 +0000","description":"Active Record is a design pattern commonly used in development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Active Record.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Active Record
 -------------
 
-Active Record is a design pattern commonly used in PHP development. It provides an object-oriented approach to interact with a database table or view. In the Active Record pattern, each table or view in the database is represented by a corresponding class in the PHP code.
+Active Record is a design pattern commonly used in development. It provides an object-oriented approach to interact with a database table or view. In the Active Record pattern, each table or view in the database is represented by a corresponding class in the PHP code.
 
 The main purpose of Active Record is to encapsulate the database access logic within the objects themselves. This means that an Active Record object not only represents a single row of data, but it also includes methods to perform CRUD, or Create, Read, Update, Delete, operations on that data.
 

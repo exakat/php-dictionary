@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Streamlining","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 08:04:29 +0000","dateModified":"Thu, 28 May 2026 08:04:29 +0000","description":"Streamlining refers to the practice of simplifying code to reduce complexity, remove redundancy, and improve readability and maintainability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Streamlining.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Streamlining","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 11 Jun 2026 20:51:21 +0000","dateModified":"Thu, 11 Jun 2026 20:51:21 +0000","description":"Streamlining refers to the practice of simplifying code to reduce complexity, remove redundancy, and improve readability and maintainability","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Streamlining.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Streamlining
@@ -44,5 +44,7 @@ Streamlining is distinct from premature optimization: it targets structural and 
 
 
 `Documentation <https://dealhub.io/glossary/streamlining-in-business/>`__
+
+See also `PHP 8: before and after <https://stitcher.io/blog/php-8-before-and-after>`_, `Shorthand Comparisons in PHP <https://stitcher.io/blog/shorthand-comparisons-in-php>`_ and `Refactoring PHP Code for Better Readability <https://deliciousbrains.com/refactoring-php-code-better-readability/>`_.
 
 Related : :ref:`Match <match>`, :ref:`Arrow Functions <arrow-function>`, :ref:`Named Parameters <named-parameter>`, :ref:`Nullsafe <nullsafe>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Cognitive Complexity <cognitive-complexity>`, :ref:`Refactoring <refactoring>`, :ref:`Clean Code <clean-code>`, :ref:`Readability <readability>`, :ref:`Inlining <inlining>`

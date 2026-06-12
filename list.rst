@@ -152,6 +152,7 @@ Index
    dictionary/automatic-index.ini
    dictionary/autovivification.ini
    dictionary/autowiring.ini
+   dictionary/availability.ini
    dictionary/back-slash.ini
    dictionary/backed-enum.ini
    dictionary/backed-property.ini
@@ -778,6 +779,7 @@ Index
    dictionary/language-service-protocol.ini
    dictionary/laravel.ini
    dictionary/late-static-binding.ini
+   dictionary/latency.ini
    dictionary/latin1.ini
    dictionary/lazy-loading.ini
    dictionary/lazy-objects.ini
@@ -1127,6 +1129,7 @@ Index
    dictionary/pubsub.ini
    dictionary/pure-function.ini
    dictionary/pwa.ini
+   dictionary/qos.ini
    dictionary/quality.ini
    dictionary/query-string.ini
    dictionary/query.ini
@@ -1143,6 +1146,7 @@ Index
    dictionary/random_engine.ini
    dictionary/range.ini
    dictionary/rangeexception.ini
+   dictionary/rate-limit.ini
    dictionary/rbac.ini
    dictionary/rce.ini
    dictionary/rdbms.ini
@@ -1179,6 +1183,7 @@ Index
    dictionary/relaxed-syntax.ini
    dictionary/relay-function.ini
    dictionary/release.ini
+   dictionary/reliability.ini
    dictionary/render.ini
    dictionary/renderer.ini
    dictionary/repl.ini
@@ -1283,6 +1288,7 @@ Index
    dictionary/single.ini
    dictionary/singleton.ini
    dictionary/sitemap.ini
+   dictionary/sla.ini
    dictionary/slash.ini
    dictionary/sleep.ini
    dictionary/slug.ini

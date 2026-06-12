@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A structure is a complex data or processing routine, such as a class, trait, interface, function, enumeration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 06 Jun 2026 08:57:56 +0000","dateModified":"Sat, 06 Jun 2026 08:57:56 +0000","description":"A structure is a complex data or processing routine, such as a class, trait, interface, function, enumeration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Structure
@@ -36,5 +36,7 @@ Structure is an umbrella term to cover all the elements that have a definition, 
    
    ?>
 
+
+See also `Understanding All Relations Between Classes, Interfaces, Traits, and Enums in PHP <https://www.exakat.io/understanding-all-relations-between-classes-interfaces-traits-and-enums-in-php/>`_ and `The difference between Traits, Interfaces, and Abstract Classes in PHP <https://aschmelyun.com/blog/the-difference-between-traits-interfaces-and-abstract-classes-in-php/>`_.
 
 Related : :ref:`Anonymous <anonymous>`, :ref:`Name <name>`, :ref:`Class <class>`, :ref:`Name Conventions <name-convention>`

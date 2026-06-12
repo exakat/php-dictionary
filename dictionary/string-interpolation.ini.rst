@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"String Interpolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:54 +0000","dateModified":"Thu, 28 May 2026 06:09:54 +0000","description":"String interpolation is a feature where variables inside a string are dynamically replaced by their value at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/String Interpolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"String Interpolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 06 Jun 2026 08:57:56 +0000","dateModified":"Sat, 06 Jun 2026 08:57:56 +0000","description":"String interpolation is a feature where variables inside a string are dynamically replaced by their value at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/String Interpolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 String Interpolation
@@ -50,5 +50,7 @@ Interpolation happens inside strings, while concatenation happens between string
 
 
 `Documentation <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`__
+
+See also `PHP String Interpolation in 2026: Examples, Curly Braces, Heredoc, and PHP 8.2 Notes <https://phppot.com/php/variable-interpolation-in-php/>`_, `PHP 8.2:  string interpolation deprecated <https://php.watch/versions/8.2/$%7Bvar%7D-string-interpolation-deprecated>`_ and `PHP String Interpolation - Complete Tutorial with Examples <https://zetcode.com/php/string-interpolation/>`_.
 
 Related : :ref:`String <string>`

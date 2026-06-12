@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Wildcard","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 May 2026 06:09:55 +0000","dateModified":"Thu, 28 May 2026 06:09:55 +0000","description":"The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Wildcard.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Wildcard","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 11 Jun 2026 20:53:59 +0000","dateModified":"Thu, 11 Jun 2026 20:53:59 +0000","description":"The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Wildcard.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Wildcard
@@ -26,8 +26,8 @@ The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeh
 
 Wildcards are used in various places:
 
-+ glob patterns, to match any number of characters: ``*.php`` matches any PHP file
-+ regex patterns, with ``.*`` or ``.*?``
++ Glob patterns, to match any number of characters: ``*.php`` matches any PHP file
++ Regex patterns, with ``.*`` or ``.*?``
 + ``mixed`` type is a wildcard type
 + ``~`` in autoloading definition, which defines a minimum version
 

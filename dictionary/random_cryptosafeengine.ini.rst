@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Random\\CryptoSafeEngine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:27:59 +0000","dateModified":"Fri, 05 Jun 2026 08:27:59 +0000","description":"``Random\\CryptoSafeEngine`` is a marker interface in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Random\\CryptoSafeEngine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Random\\CryptoSafeEngine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 11 Jun 2026 20:56:57 +0000","dateModified":"Thu, 11 Jun 2026 20:56:57 +0000","description":"``Random\\CryptoSafeEngine`` is a marker interface in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Random\\CryptoSafeEngine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Random\CryptoSafeEngine
@@ -44,6 +44,6 @@ The only built-in engine implementing it is ``Random\Engine\Secure``. Type-hinti
 
 See also `Random\CryptoSafeEngine <https://www.php.net/manual/en/class.random-cryptosafeengine.php>`_ and `Random\Engine\Secure <https://www.php.net/manual/en/class.random-engine-secure.php>`_.
 
-Related : :ref:`Random <random>`, :ref:`Cryptography <cryptography>`, :ref:`Interface <interface>`, , :ref:`PHP Native Interfaces <php-interface>`
+Related : :ref:`Random <random>`, :ref:`Cryptography <cryptography>`, :ref:`Interface <interface>`, :ref:`Random\Engine <random_engine>`, :ref:`PHP Native Interfaces <php-interface>`
 
 Added in PHP 8.2

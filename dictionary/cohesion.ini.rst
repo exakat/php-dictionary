@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cohesion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Cohesion measures how closely related and focused the responsibilities of a single module, class, or function are","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cohesion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cohesion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 12 Jun 2026 06:30:37 +0000","dateModified":"Fri, 12 Jun 2026 06:30:37 +0000","description":"Cohesion measures how closely related and focused the responsibilities of a single module, class, or function are","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cohesion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cohesion
@@ -65,6 +65,6 @@ Architectes aim for high cohesion and low coupling.
 
 `Documentation <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>`__
 
-See also `Cohesion - Wikipedia <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>`_ and `Coupling and Cohesion <https://deviq.com/principles/cohesion>`_.
+See also `PHP and Microservices: Balancing Cohesion and Coupling <https://php-include.com/php-and-microservices-balancing-cohesion-and-coupling/>`_.
 
 Related : :ref:`Coupling <coupling>`, :ref:`Decoupling <decoupling>`, :ref:`Single Responsability Principle (SRP) <srp>`, :ref:`SOLID <solid>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`God Object <god-object>`, :ref:`Tech Silo <tech-silo>`

@@ -140,6 +140,7 @@ PHP Dictionary
    * :ref:`Automatic Index <automatic-index>`
    * :ref:`Autovivification <autovivification>`
    * :ref:`Autowiring <autowiring>`
+   * :ref:`Availability <availability>`
    * :ref:`abs() <abs>`
    * :ref:`array_column <array_column>`
    * :ref:`array_combine() <array_combine>`
@@ -792,6 +793,7 @@ PHP Dictionary
    * :ref:`Large Language Model (LLM) <llm>`
    * :ref:`Last In, First Out (LIFO) <lifo>`
    * :ref:`Late Static Binding <late-static-binding>`
+   * :ref:`Latency <latency>`
    * :ref:`Latin1 <latin1>`
    * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`Lazy Objects <lazy-objects>`
@@ -1148,6 +1150,7 @@ PHP Dictionary
    * :ref:`printf() <printf>`
 * Q
    * :ref:`Quality <quality>`
+   * :ref:`Quality of Service (QoS) <qos>`
    * :ref:`Query <query>`
    * :ref:`Query String <query-string>`
    * :ref:`Question Mark ? <question-mark>`
@@ -1165,6 +1168,7 @@ PHP Dictionary
    * :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`
    * :ref:`Random\Engine <random_engine>`
    * :ref:`RangeException <rangeexception>`
+   * :ref:`Rate Limiting <rate-limit>`
    * :ref:`Read Eval Print Loop (REPL) <repl>`
    * :ref:`Readability <readability>`
    * :ref:`Readable <readable>`
@@ -1199,6 +1203,7 @@ PHP Dictionary
    * :ref:`Relaxed Syntax <relaxed-syntax>`
    * :ref:`Relay Function <relay-function>`
    * :ref:`Release <release>`
+   * :ref:`Reliability <reliability>`
    * :ref:`Remote Code Execution (RCE) <rce>`
    * :ref:`Remote Procedure Call (RPC) <rpc>`
    * :ref:`Render <render>`
@@ -1279,6 +1284,7 @@ PHP Dictionary
    * :ref:`Serverless <serverless>`
    * :ref:`Service <service>`
    * :ref:`Service Container <service-container>`
+   * :ref:`Service Level Agreement (SLA) <sla>`
    * :ref:`Session <session>`
    * :ref:`Session Fixation <session-fixation>`
    * :ref:`Session Hijacking <session-highjacking>`

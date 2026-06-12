@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strtoupper()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"``strtoupper()`` converts all ASCII alphabetic characters in a string to uppercase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtoupper().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"strtoupper()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 06 Jun 2026 08:57:56 +0000","dateModified":"Sat, 06 Jun 2026 08:57:56 +0000","description":"``strtoupper()`` converts all ASCII alphabetic characters in a string to uppercase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtoupper().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 strtoupper()
@@ -43,5 +43,7 @@ It only handles the 26 ASCII letters (a–z). Characters outside the ASCII range
 
 
 `Documentation <https://www.php.net/manual/en/function.strtoupper.php>`__
+
+See also `PHP strtoupper() and strtolower() Functions: A Complete Guide <https://reintech.io/blog/php-strtoupper-strtolower-functions-complete-guide>`_.
 
 Related : :ref:`strtolower() <strtolower>`, :ref:`String <string>`, :ref:`Case Sensitivity <case-insensitive>`, :ref:`Multibyte String <mbstring>`, :ref:`setlocale <setlocale>`
