@@ -230,6 +230,7 @@ PHP Dictionary
    * :ref:`Camel Case <camel-case>`
    * :ref:`Cancellation <cancellation>`
    * :ref:`Canonical <canonical>`
+   * :ref:`Capture The Flag (CTF) <ctf>`
    * :ref:`Carriage Return <carriage-return>`
    * :ref:`Case <case>`
    * :ref:`Case Sensitivity <case-sensitivity>`
@@ -318,8 +319,8 @@ PHP Dictionary
    * :ref:`Concatenative <concatenative>`
    * :ref:`Concrete Class <concrete>`
    * :ref:`Concrete Method <concrete-method>`
-   * :ref:`Concurency <concurency>`
    * :ref:`Concurent Version System (CVS) <cvs>`
+   * :ref:`Concurrency <concurency>`
    * :ref:`Condition <condition>`
    * :ref:`Conditional <conditional>`
    * :ref:`Conditional Structures <conditional-structure>`
@@ -410,6 +411,7 @@ PHP Dictionary
    * :ref:`Decode <decode>`
    * :ref:`Decorator Pattern <decorator>`
    * :ref:`Decoupling <decoupling>`
+   * :ref:`Deduplication <deduplication>`
    * :ref:`Deep Clone <deep-clone>`
    * :ref:`Default <default>`
    * :ref:`Default Parameter <default-parameter>`
@@ -582,6 +584,7 @@ PHP Dictionary
    * :ref:`Final Class Constants <final-class-constant>`
    * :ref:`Final Keyword <final>`
    * :ref:`Finally <finally>`
+   * :ref:`Fingerprint <fingerprint>`
    * :ref:`Finite State Machine <finite-state-machine>`
    * :ref:`First Class Callable <first-class-callable>`
    * :ref:`First In, First Out (FIFO) <fifo>`
@@ -654,6 +657,7 @@ PHP Dictionary
    * :ref:`HTTP Code <http-code>`
    * :ref:`HTTP Encoding <http-encoding>`
    * :ref:`HTTP Headers <http-header>`
+   * :ref:`HTTP Method <http-method>`
    * :ref:`HTTP Request Headers <http-headers>`
    * :ref:`Habit <habit>`
    * :ref:`Handle <handle>`
@@ -1068,6 +1072,7 @@ PHP Dictionary
    * :ref:`Path Traversal <path-traversal>`
    * :ref:`Pattern Matching <pattern-matching>`
    * :ref:`Pay-as-you-go <pay-as-you-go>`
+   * :ref:`Payload <payload>`
    * :ref:`Penetration Test <pentest>`
    * :ref:`Performance <performance>`
    * :ref:`Perl Compatible Regular Expressions (PCRE) <pcre>`
@@ -1208,6 +1213,7 @@ PHP Dictionary
    * :ref:`Remote Procedure Call (RPC) <rpc>`
    * :ref:`Render <render>`
    * :ref:`Renderer <renderer>`
+   * :ref:`Replay <replay>`
    * :ref:`Request For Change (RFC) <rfchange>`
    * :ref:`Reserved For Future Use (RFU) <rfu>`
    * :ref:`Reserved Names <reserved-name>`
@@ -1215,6 +1221,7 @@ PHP Dictionary
    * :ref:`Responsability <responsability>`
    * :ref:`Response <response>`
    * :ref:`Retrieval Augmented Generation (RAG) <rag>`
+   * :ref:`Retry <retry>`
    * :ref:`Return <return>`
    * :ref:`Return Carriage <return-carriage>`
    * :ref:`Return Type <return-type>`
@@ -1350,6 +1357,7 @@ PHP Dictionary
    * :ref:`Standard PHP Library (SPL) <spl>`
    * :ref:`Star * <star>`
    * :ref:`State <state>`
+   * :ref:`State of the Art (SOTA) <sota>`
    * :ref:`Stateful <stateful>`
    * :ref:`Stateless <stateless>`
    * :ref:`Statement <statement>`
@@ -1450,6 +1458,7 @@ PHP Dictionary
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
    * :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
+   * :ref:`Time To Live (TTL) <ttl>`
    * :ref:`Time Travel <time-travel>`
    * :ref:`Timing Attack <timing-attack>`
    * :ref:`To Crypt <crypt>`
@@ -1567,6 +1576,7 @@ PHP Dictionary
    * :ref:`Web Application <web-app>`
    * :ref:`Web-spider <web-spider>`
    * :ref:`WebRTC <webrtc>`
+   * :ref:`Webhook <webhook>`
    * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
    * :ref:`Webshell <webshell>`

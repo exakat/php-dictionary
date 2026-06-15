@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Business Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Business logic is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Business Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Business Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Business logic is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Business Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Business Logic
@@ -31,8 +31,8 @@ Everything else in the application, like HTTP routing, database persistence, aut
 
 Well-structured applications isolate business logic from infrastructure. Domain-Driven Design, Hexagonal Architecture, and Clean Architecture all promote this separation. The domain layer, which holds the business logic, should have no dependencies on frameworks, databases, or external services. This makes it independently testable and resilient to technology changes.
 
-In PHP projects, business logic often leaks into controllers, the infamous ``fat controllers``, Eloquent models, the ``fat models``, or stored procedures, which are anti-patterns that couple the domain to infrastructure concerns.
+Business logic often leaks into controllers, the infamous ``fat controllers``, Eloquent models, the ``fat models``, or stored procedures, which are anti-patterns that couple the domain to infrastructure concerns.
 
 See also `Patterns of Enterprise Application Architecture (Fowler) <https://martinfowler.com/books/eaa.html>`_.
 
-Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Architecture <architecture>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Service <service>`, :ref:`Domain <domain>`, :ref:`Specification <specification>`, :ref:`Testable <testable>`
+Related : :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Architecture <architecture>`, , :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Service <service>`, :ref:`Domain <domain>`, :ref:`Specification <specification>`, :ref:`Testable <testable>`

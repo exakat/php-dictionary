@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"CSS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"CSS, the Cascading Style Sheets, is the language used to describe the visual presentation of HTML documents","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/CSS.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"CSS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"CSS, the Cascading Style Sheets, is the language used to describe the visual presentation of HTML documents","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/CSS.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 CSS
@@ -57,6 +57,6 @@ In modern PHP applications, CSS is typically bundled by a frontend build tool an
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/CSS>`__
 
-See also `CSS - MDN <https://developer.mozilla.org/en-US/docs/Web/CSS>`_ and `CSS Injection - OWASP <https://owasp.org/www-community/attacks/CSS_Injection>`_.
+See also `CSS - MDN <https://developer.mozilla.org/en-US/docs/Web/CSS>`_ and `CSS Injection <https://docs.brightsec.com/docs/css-injection>`_.
 
 Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Front-end <frontend>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Javascript <javascript>`, :ref:`Asset <asset>`, :ref:`Template <template>`

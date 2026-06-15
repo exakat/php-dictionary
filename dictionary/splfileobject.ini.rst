@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SplFileObject","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 01 Jun 2026 07:04:38 +0000","dateModified":"Mon, 01 Jun 2026 07:04:38 +0000","description":"``SplFileObject`` is an SPL class that offers an object-oriented interface for reading and writing files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SplFileObject.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SplFileObject","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``SplFileObject`` is an SPL class that offers an object-oriented interface for reading and writing files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SplFileObject.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SplFileObject
@@ -44,7 +44,7 @@ It is a convenient alternative to the procedural ``fopen()``/``fgets()``/``fclos
 
 `Documentation <https://www.php.net/manual/en/class.splfileobject.php>`__
 
-See also `SplFileObject: The Hidden Gem of PHP's SPL <https://dev.to/bdelespierre/splfileobject-the-hidden-gem-of-phps-spl-4d95>`_.
+See also `Reading large files in PHP with SplFileObject <https://write.corbpie.com/reading-large-files-in-php-with-splfileobject/>`_ and `php native SplFileObject class in CTF <https://medium.com/@lyltvip/php-native-splfileobject-class-in-ctf-b5c1355c0340>`_.
 
 Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`SplFileInfo <splfileinfo>`, :ref:`Iterator <iterator>`, :ref:`fopen() <fopen>`, :ref:`File <file>`
 

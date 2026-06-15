@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","name":"Tick","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:19:52 +0000","dateModified":"Fri, 05 Jun 2026 08:19:52 +0000","description":"Ticks are events that occur for a group of N statements, executed by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Tick.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Can only throw objects.html","name":"Tick","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Ticks are events that occur for a group of N statements, executed by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Tick.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Tick
@@ -56,6 +56,6 @@ Ticks are deprecated since PHP 5.3. They might entirely disappear in PHP 9.0.
 
 `Documentation <https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks>`__
 
-See also `0 <`The declare() function and ticks <http://www.hackingwithphp.com/4/21/0/the-declare-function-and-ticks>`_>`_ and `1 <`PHP RFC: Deprecate ticks <https://wiki.php.net/rfc/deprecate_ticks>`_>`_.
+See also `The declare() function and ticks <http://www.hackingwithphp.com/4/21/0/the-declare-function-and-ticks>`_ and `PHP RFC: Deprecate ticks <https://wiki.php.net/rfc/deprecate_ticks>`_.
 
 Related : :ref:`declare() <declare>`

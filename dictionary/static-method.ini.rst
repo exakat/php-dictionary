@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Static methods are methods defined with the static keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Static Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Static methods are methods defined with the static keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Static Method
@@ -28,20 +28,20 @@ Static methods are methods defined with the static keyword. They have to be call
    
    <?php
    
-   class x {
-       static function foo() {
-           echo __METHOD__;
+       class X {
+           static function foo() {
+               echo __METHOD__;
+           }
        }
-   }
-   
-   //displays x::foo
-   x::foo();
+       
+       //displays x::foo
+       x::foo();
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.methods>`__
 
-See also `When to use static methods <https://verraes.net/2014/06/when-to-use-static-methods-in-php/>`_ and `When Should You (And Shouldn’t You) Use Static Methods in Laravel/PHP? A Practical Guide <https://medium.com/@laravelprotips/when-should-you-and-shouldnt-you-use-static-methods-in-laravel-php-a-practical-guide-1b1caac46f2d/>`_.
+See also `When to use static methods <https://verraes.net/2014/06/when-to-use-static-methods-in-php/>`_, `When Should You (And Shouldn’t You) Use Static Methods in Laravel/PHP? A Practical Guide <https://medium.com/@laravelprotips/when-should-you-and-shouldnt-you-use-static-methods-in-laravel-php-a-practical-guide-1b1caac46f2d/>`_ and `Static Methods in PHP: Practical Patterns, Pitfalls, and Production Guidance (2026) <https://thelinuxcode.com/static-methods-in-php-practical-patterns-pitfalls-and-production-guidance-2026/>`_.
 
 Related : :ref:`Method <method>`, :ref:`Named Constructors <named-constructor>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Static Class <static-class>`, :ref:`Static Property <static-property>`, :ref:`Testable <testable>`

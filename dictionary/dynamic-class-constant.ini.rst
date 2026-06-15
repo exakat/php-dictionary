@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Class Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Dynamic class constant access has always been possible with a call to the ``constant()`` function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dynamic Class Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Dynamic class constant access has always been possible with a call to the ``constant()`` function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic Class Constant
@@ -24,7 +24,7 @@ Dynamic Class Constant
 
 Dynamic class constant access has always been possible with a call to the ``constant()`` function. With the ``class::constant`` syntax, it is possible to reach any visible constant, or, also, enumeration cases.
 
-In PHP 8.3, a new syntax is available to do the same: ``class::{$name}``. The curly braces are important in that call.
+A new syntax is available since version 8.3 to do the same: ``class::{$name}``. The curly braces are important in that call.
 
 .. code-block:: php
    
@@ -51,3 +51,5 @@ In PHP 8.3, a new syntax is available to do the same: ``class::{$name}``. The cu
 See also `PHP 8.3: Dynamic class constant and Enum member fetch support <https://php.watch/versions/8.3/dynamic-class-const-enum-member-syntax-support>`_.
 
 Related : :ref:`Static Constant <class-constant>`, :ref:`Constants <constant>`, :ref:`Dynamic <dynamic>`, :ref:`Enumeration (enum) <enum>`, :ref:`Functions <function>`, :ref:`constant() <constant-function>`
+
+Added in PHP 8.3

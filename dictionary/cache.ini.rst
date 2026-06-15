@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cache","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cache.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cache","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cache.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cache
@@ -45,4 +45,4 @@ There are different types of caches, depending on where they are applied: opcode
 
 See also `PHP cache <https://www.php-cache.com/en/latest/>`_.
 
-Related : :ref:`Memoization <memoization>`, :ref:`Hoisting <hoisting>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Search Engine <search-engine>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`Serialization <serialization>`, :ref:`var_export() <var_export>`, :ref:`Determinism <determinism>`, :ref:`Load Balancer <load-balancer>`
+Related : :ref:`Memoization <memoization>`, :ref:`Hoisting <hoisting>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Search Engine <search-engine>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`Serialization <serialization>`, :ref:`var_export() <var_export>`, :ref:`Determinism <determinism>`, :ref:`Load Balancer <load-balancer>`, :ref:`Deduplication <deduplication>`, :ref:`Fingerprint <fingerprint>`, :ref:`Latency <latency>`, :ref:`Rate Limiting <rate-limit>`, :ref:`Replay <replay>`, :ref:`Time To Live (TTL) <ttl>`

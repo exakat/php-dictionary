@@ -352,6 +352,7 @@ Index
    dictionary/css.ini
    dictionary/csv-injection.ini
    dictionary/csv.ini
+   dictionary/ctf.ini
    dictionary/ctype.ini
    dictionary/curl.ini
    dictionary/curly-bracket.ini
@@ -395,6 +396,7 @@ Index
    dictionary/decorator.ini
    dictionary/decoupling.ini
    dictionary/decrypt.ini
+   dictionary/deduplication.ini
    dictionary/deep-clone.ini
    dictionary/default-parameter.ini
    dictionary/default-value.ini
@@ -574,6 +576,7 @@ Index
    dictionary/final-class-constant.ini
    dictionary/final.ini
    dictionary/finally.ini
+   dictionary/fingerprint.ini
    dictionary/finite-state-machine.ini
    dictionary/first-class-callable.ini
    dictionary/fixture.ini
@@ -672,6 +675,7 @@ Index
    dictionary/http-encoding.ini
    dictionary/http-header.ini
    dictionary/http-headers.ini
+   dictionary/http-method.ini
    dictionary/http.ini
    dictionary/http_build_query.ini
    dictionary/https.ini
@@ -1020,6 +1024,7 @@ Index
    dictionary/path.ini
    dictionary/pattern-matching.ini
    dictionary/pay-as-you-go.ini
+   dictionary/payload.ini
    dictionary/pcntl.ini
    dictionary/pcntl_signal.ini
    dictionary/pcre.ini
@@ -1187,12 +1192,14 @@ Index
    dictionary/render.ini
    dictionary/renderer.ini
    dictionary/repl.ini
+   dictionary/replay.ini
    dictionary/reserved-name.ini
    dictionary/resource-leak.ini
    dictionary/resource.ini
    dictionary/responsability.ini
    dictionary/response.ini
    dictionary/rest-api.ini
+   dictionary/retry.ini
    dictionary/return-carriage.ini
    dictionary/return-type.ini
    dictionary/return-value.ini
@@ -1301,6 +1308,7 @@ Index
    dictionary/socket.ini
    dictionary/solid.ini
    dictionary/sort.ini
+   dictionary/sota.ini
    dictionary/source.ini
    dictionary/spa.ini
    dictionary/space.ini
@@ -1449,6 +1457,7 @@ Index
    dictionary/true.ini
    dictionary/truthy.ini
    dictionary/try-catch.ini
+   dictionary/ttl.ini
    dictionary/tui.ini
    dictionary/tutorial.ini
    dictionary/type-checking.ini
@@ -1539,6 +1548,7 @@ Index
    dictionary/web-app.ini
    dictionary/web-spider.ini
    dictionary/web.ini
+   dictionary/webhook.ini
    dictionary/webrtc.ini
    dictionary/webscraping.ini
    dictionary/webserver.ini

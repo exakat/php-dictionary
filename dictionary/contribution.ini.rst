@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Contribution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:19:52 +0000","dateModified":"Fri, 05 Jun 2026 08:19:52 +0000","description":"A contribution is a change submitted to a software project, typically in the form of a pull request or patch","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Contribution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Contribution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A contribution is a change submitted to a software project, typically in the form of a pull request or patch","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Contribution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Contribution
@@ -33,7 +33,7 @@ Contributions can take many forms:
 + Test coverage additions
 + Translations and localization
 
-Most PHP open-source projects are hosted on GitHub and follow a fork → branch → pull request workflow. Many projects provide a ``CONTRIBUTING.md`` file that describes coding standards, testing requirements, and the review process.
+Many Open Source projects provide a ``CONTRIBUTING.md`` file that describes coding standards, testing requirements, and the review process.
 
 PHP's own development process goes through RFCs (Request for Comments) voted on by internals contributors.
 
@@ -57,6 +57,6 @@ PHP's own development process goes through RFCs (Request for Comments) voted on 
 
 `Documentation <https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project>`__
 
-See also `Contributing to open source - GitHub Docs <https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project>`_ and `PHP Internals <https://www.php.net/manual/en/internals2.php>`_.
+See also `Contributing to open source - GitHub Docs <https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-open-source>`_ and `PHP Internals <https://www.php.net/get-involved.php>`_.
 
 Related : :ref:`Open Source <open-source>`, :ref:`git <git>`, :ref:`Pull Request (PR) <pr>`, :ref:`PHP RFC <php-rfc>`, :ref:`Community <community>`

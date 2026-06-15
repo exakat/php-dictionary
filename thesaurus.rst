@@ -10,6 +10,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Application Performance Management (APM) <apm>`
 + :ref:`Architectural Decision Record (ADR) <adr>`
 + :ref:`Artificial Intelligence (AI) <ai>`
++ :ref:`Capture The Flag (CTF) <ctf>`
 + :ref:`Class Interface Trait Enumeration (CITE) <cite>`
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
@@ -69,6 +70,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
++ :ref:`Method Resolution Order (MRO) <mro>`
 + :ref:`Minimum Viable Product (MVP) <mvp>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
 + :ref:`Model Context Protocol (MCP) <mcp>`
@@ -118,6 +120,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Software Bill Of Material (SBOM) <sbom>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`State of the Art (SOTA) <sota>`
 + :ref:`Static Application Security Testing (SAST) <sast>`
 + :ref:`Static Code Analysis (SCA) <sca>`
 + :ref:`Static Single Assignment Form (SSA) <ssa>`
@@ -125,6 +128,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Terminal User Interface (TUI) <tui>`
 + :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
++ :ref:`Time To Live (TTL) <ttl>`
 + :ref:`Token Oriented Object Notation (TOON) <toon>`
 + :ref:`Tom's Obvious Minimal Language (TOML) <toml>`
 + :ref:`Transport Layer Security (TLS) <tls>`
@@ -239,6 +243,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Declaration <declaration>`
 + :ref:`Decode <decode>`
 + :ref:`Decoupling <decoupling>`
++ :ref:`Deduplication <deduplication>`
 + :ref:`Default Value <default-value>`
 + :ref:`Definition <definition>`
 + :ref:`Dependency Injection <dependency-injection>`
@@ -275,11 +280,13 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Faker <faker>`
 + :ref:`Fallback <fallback>`
 + :ref:`Feature <feature>`
++ :ref:`Fingerprint <fingerprint>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Free <free>`
 + :ref:`Future <future>`
 + :ref:`Graph <graph>`
++ :ref:`HTTP Method <http-method>`
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
 + :ref:`Heuristics <heuristic>`
@@ -347,6 +354,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Passphrase <passphrase>`
 + :ref:`Path <path>`
 + :ref:`Pay-as-you-go <pay-as-you-go>`
++ :ref:`Payload <payload>`
 + :ref:`Permission <permission>`
 + :ref:`Persistence <persistence>`
 + :ref:`Pipeline <pipeline>`
@@ -370,6 +378,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Registry <registry>`
 + :ref:`Render <render>`
 + :ref:`Renderer <renderer>`
++ :ref:`Replay <replay>`
 + :ref:`Resource Leak <resource-leak>`
 + :ref:`Rich Text <rich-text>`
 + :ref:`SOLID <solid>`
@@ -390,6 +399,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Source Code <source>`
 + :ref:`Standard <standard>`
 + :ref:`State <state>`
++ :ref:`State of the Art (SOTA) <sota>`
 + :ref:`Stateful <stateful>`
 + :ref:`Stateless <stateless>`
 + :ref:`Stubs Files <stubs>`
@@ -403,6 +413,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text <text>`
 + :ref:`Text Encoding <encoding-text>`
++ :ref:`Time To Live (TTL) <ttl>`
 + :ref:`To Crypt <crypt>`
 + :ref:`To Decrypt <decrypt>`
 + :ref:`Transaction <transaction>`

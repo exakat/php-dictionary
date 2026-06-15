@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Inference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 12 Jun 2026 06:26:59 +0000","dateModified":"Fri, 12 Jun 2026 06:26:59 +0000","description":"Type inference is the ability of a tool, such as a static analyzer or the PHP engine, to deduce the type of an expression, variable, or return value without an explicit type declaration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Inference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Type Inference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Type inference is the ability of a tool, such as a static analyzer or the PHP engine, to deduce the type of an expression, variable, or return value without an explicit type declaration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Inference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Type Inference
@@ -47,7 +47,7 @@ A classic example is narrowing: after an ``is_string()`` guard, the analyzer inf
    ?>
 
 
-`Documentation <https://phpstan.org/blog/what-is-type-inference>`__
+`Documentation <https://en.wikipedia.org/wiki/Type_inference>`__
 
 See also `Type Inference in PHP using Deep Learning <https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9021447&fileOId=9021453>`_, `Psalm – Typing in Psalm <https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/>`_, `Narrowing types for static analysis <https://seld.be/notes/narrowing-types-for-static-analysis/>`_ and `Type inference for PHP <https://homepages.cwi.nl/~jurgenv/theses/RuudVanDerWeijde.pdf>`_.
 

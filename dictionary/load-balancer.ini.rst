@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Load Balancer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 04 Jun 2026 06:02:27 +0000","dateModified":"Thu, 04 Jun 2026 06:02:27 +0000","description":"A load balancer is a component that distributes incoming network traffic across multiple backend servers to improve availability, throughput, and fault tolerance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Load Balancer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Load Balancer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A load balancer is a component that distributes incoming network traffic across multiple backend servers to improve availability, throughput, and fault tolerance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Load Balancer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Load Balancer
@@ -29,7 +29,7 @@ In a PHP deployment, the load balancer sits in front of a pool of PHP applicatio
 
 Because requests can land on any server, PHP applications behind a load balancer must be stateless or externalise their state:
 + Sessions must be stored in a shared backend server, not on the local filesystem
-+ Uploaded files must be written to shared storage, like NFS, S3-compatible object store
++ Uploaded files must be written to shared storage, like NFS, an S3-compatible object store
 + Caches should be shared or invalidated across all nodes
 + Any resource that must persist between calls must be stored in a common server
 

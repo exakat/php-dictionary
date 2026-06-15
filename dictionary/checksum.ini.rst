@@ -1,5 +1,4 @@
 .. _checksum:
-.. _fingerprint:
 .. meta::
 	:description:
 		Checksum: A checksum is a small, fixed-size value derived from a longer piece of data, used to detect errors or verify integrity.
@@ -17,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Checksum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"A checksum is a small, fixed-size value derived from a longer piece of data, used to detect errors or verify integrity","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Checksum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Checksum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A checksum is a small, fixed-size value derived from a longer piece of data, used to detect errors or verify integrity","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Checksum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Checksum
@@ -44,4 +43,4 @@ Checksums are extensively used to check file downloads and network transmissions
 
 See also `An introduction to Checksums <https://johnothecoder.uk/2018/12/29/checksum-tutorial/>`_.
 
-Related : :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`VCS <vcs>`, :ref:`Package Manager <package-manager>`, :ref:`Digital Signature <digital-signature>`
+Related : :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`VCS <vcs>`, :ref:`Fingerprint <fingerprint>`, :ref:`Package Manager <package-manager>`, :ref:`Digital Signature <digital-signature>`

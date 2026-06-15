@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Big-o-notation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 12 Jun 2026 06:37:00 +0000","dateModified":"Fri, 12 Jun 2026 06:37:00 +0000","description":"Big O notation is a way to describe how fast an algorithm's runtime or memory usage grows as the input size gets very large","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Big-o-notation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Big-o-notation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Big O notation is a way to describe how fast an algorithm's runtime or memory usage grows as the input size gets very large","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Big-o-notation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Big-o-notation
@@ -26,6 +26,6 @@ Big O notation is a way to describe how fast an algorithm's runtime or memory us
 
 It describes the shape of the curve on a graph, not the exact speed.
 
-See also `List of Big-O for PHP functions <https://www.matheusmello.io/posts/php-list-of-big-o-for-php-functions>`_ and `Simple Big-O Notations using PHP CLI <https://medium.com/@monstm/simple-big-o-notations-using-php-cli-b895b381e873>`_.
+See also `List of Big-O for PHP functions <https://codemia.io/knowledge-hub/path/list_of_big-o_for_php_functions>`_, `Simple Big-O Notations using PHP CLI <https://medium.com/@monstm/simple-big-o-notations-using-php-cli-b895b381e873>`_, `Algorithm Complexity & Big O Notation <https://codewithphp.com/series/php-algorithms/chapters/01-algorithm-complexity-big-o-notation/>`_ and `Big O Cheat Sheet – Time Complexity Chart <https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/>`_.
 
 Related : :ref:`Algorithm <algorithm>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`, :ref:`Data Structure <datastructure>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","name":"Upgrade","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Upgrade.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","name":"Upgrade","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Upgrade.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Upgrade
@@ -26,6 +26,6 @@ An upgrade refers to the process of updating or replacing an existing installati
 
 An upgrade often require a migration: the current code has to be made compatible with the current version, but also with the upcoming version. 
 
-See also `0 <`Deal with major upgrades in PHP <https://medium.com/yousign-engineering-product/deal-with-major-upgrades-in-php-490ed55c54a1>`_>`_.
+See also `Deal with major upgrades in PHP <https://medium.com/yousign-engineering-product/deal-with-major-upgrades-in-php-490ed55c54a1>`_.
 
 Related : :ref:`Version <version>`, :ref:`Semantic Versioning <semver>`, :ref:`Forward Compatible <forward-compatible>`, :ref:`Legacy <legacy>`, :ref:`Maintenance <maintenance>`, :ref:`Migration <migration>`

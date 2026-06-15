@@ -1,30 +1,30 @@
 .. _concurency:
 .. meta::
 	:description:
-		Concurency: Concurrency is a concept in computing where multiple tasks are in progress at the same time.
+		Concurrency: Concurrency is a concept in computing where multiple tasks are in progress at the same time.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Concurency
-	:twitter:description: Concurency: Concurrency is a concept in computing where multiple tasks are in progress at the same time
+	:twitter:title: Concurrency
+	:twitter:description: Concurrency: Concurrency is a concept in computing where multiple tasks are in progress at the same time
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Concurency
+	:og:title: Concurrency
 	:og:type: article
 	:og:description: Concurrency is a concept in computing where multiple tasks are in progress at the same time
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/concurency.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Concurency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 08:47:46 +0000","dateModified":"Fri, 05 Jun 2026 08:47:46 +0000","description":"Concurrency is a concept in computing where multiple tasks are in progress at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Concurency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Concurrency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Concurrency is a concept in computing where multiple tasks are in progress at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Concurrency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Concurency
-----------
+Concurrency
+-----------
 
 Concurrency is a concept in computing where multiple tasks are in progress at the same time.
 
-PHP uses several ways to handle concurency: 
+PHP uses several ways to handle concurrency: 
 
 + externally, by the webserver or PHP-fpm
 + internally, with forked processes, with pcntl

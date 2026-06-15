@@ -3,28 +3,28 @@
 .. _euler:
 .. meta::
 	:description:
-		E: The letter ``e``, or ``E``, plays several distinct roles in PHP.
+		E: The letter ``e``, or ``E``, plays several distinct roles:.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: E
-	:twitter:description: E: The letter ``e``, or ``E``, plays several distinct roles in PHP
+	:twitter:description: E: The letter ``e``, or ``E``, plays several distinct roles:
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: E
 	:og:type: article
-	:og:description: The letter ``e``, or ``E``, plays several distinct roles in PHP
+	:og:description: The letter ``e``, or ``E``, plays several distinct roles:
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/e.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"E","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 08:17:31 +0000","dateModified":"Wed, 03 Jun 2026 08:17:31 +0000","description":"The letter ``e``, or ``E``, plays several distinct roles in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/E.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"E","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The letter ``e``, or ``E``, plays several distinct roles:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/E.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 E
 -
 
-The letter ``e``, or ``E``, plays several distinct roles in PHP.
+The letter ``e``, or ``E``, plays several distinct roles:
 
 + Floating number format: ``e`` is used as part of a float literal to denote a power of 10. ``1.5e3`` means ``1.5 × 10³ = 1500``, and ``7E-10`` means ``7 × 10⁻¹⁰``. The letter is case-insensitive in this context. It is not an operator; it is part of the numeric syntax
 + Exponential constant: ``M_E`` is a PHP predefined math constant equal to Euler's number ``e ≈ 2.718281828459045``. It is the base of the natural logarithm, and satisfies ``log(M_E) === 1``. The function ``exp(1)`` also returns this value, although floating-point rounding means ``exp(1) === M_E`` may evaluate to ``false``

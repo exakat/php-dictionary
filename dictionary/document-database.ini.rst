@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Document Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 03 Jun 2026 14:43:47 +0000","dateModified":"Wed, 03 Jun 2026 14:43:47 +0000","description":"A document database is a type of NoSQL database that stores data as semi-structured documents, typically in JSON, BSON, or XML format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Document Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Document Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A document database is a type of NoSQL database that stores data as semi-structured documents, typically in JSON, BSON, or XML format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Document Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Document Database
@@ -49,9 +49,9 @@ Document databases are well suited to hierarchical or varying-structure data, bu
    ?>
 
 
-`Documentation <https://www.mongodb.com/resources/languages/php>`__
+`Documentation <https://www.mongodb.com/>`__
 
-See also `MongoDB PHP Library <https://www.mongodb.com/resources/languages/php>`_.
+See also `MongoDB PHP Library <https://www.mongodb.com/docs/php-library/current/>`_.
 
 Related : :ref:`Nosql Database <nosql-database>`, :ref:`Database <database>`, :ref:`SQL Database <sql-database>`, :ref:`Key-value Stores <key-value-store>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Extensible Markup Language (XML) <xml>`, :ref:`Schema <schema>`
 
