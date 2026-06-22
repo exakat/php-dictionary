@@ -1,5 +1,6 @@
 {
     "require": {
-        "samdark/sitemap": "^2.4"
+        "samdark/sitemap": "^2.4",
+        "php-tui/php-tui": "^0.2.1"
     }
 }

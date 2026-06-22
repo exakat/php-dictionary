@@ -7,16 +7,39 @@ namespace Composer\Autoload;
 class ComposerStaticInita36fcd12cb69aac0d1dc300013ce64c8
 {
     public static $prefixLengthsPsr4 = array (
-        's' => 
+        's' =>
         array (
             'samdark\\sitemap\\' => 16,
+        ),
+        'P' =>
+        array (
+            'PhpTui\\Tui\\' => 11,
+            'PhpTui\\Term\\' => 12,
+            'PhpTui\\Cassowary\\' => 17,
+            'PhpTui\\BDF\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'samdark\\sitemap\\' => 
+        'samdark\\sitemap\\' =>
         array (
             0 => __DIR__ . '/..' . '/samdark/sitemap',
+        ),
+        'PhpTui\\Tui\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/php-tui/php-tui/src',
+        ),
+        'PhpTui\\Term\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/php-tui/term/src',
+        ),
+        'PhpTui\\Cassowary\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/php-tui/cassowary/src',
+        ),
+        'PhpTui\\BDF\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/php-tui/php-tui/lib/bdf/src',
         ),
     );
 

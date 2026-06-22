@@ -209,6 +209,7 @@ PHP Dictionary
    * :ref:`Browser <browser>`
    * :ref:`Bucket <bucket>`
    * :ref:`Bug <bug>`
+   * :ref:`Build <build>`
    * :ref:`Business Logic <business-logic>`
    * :ref:`Byte <byte>`
    * :ref:`basename <basename>`
@@ -568,6 +569,8 @@ PHP Dictionary
    * :ref:`Falsy <falsy>`
    * :ref:`FastCGI <fastcgi>`
    * :ref:`FastCGI Process Manager (FPM) <fpm>`
+   * :ref:`Fat <fat>`
+   * :ref:`Fat Controller <fat-controller>`
    * :ref:`Fatal Error <fatal-error>`
    * :ref:`Feature <feature>`
    * :ref:`Feature Flag <feature-flag>`
@@ -1000,7 +1003,7 @@ PHP Dictionary
    * :ref:`OutOfRangeException <outofrangeexception>`
    * :ref:`OuterIterator <outeriterator>`
    * :ref:`Outgoing Data <outgoing-data>`
-   * :ref:`Output buffering <output-buffering>`
+   * :ref:`Output Buffering <output-buffering>`
    * :ref:`Over-engineer <overengineer>`
    * :ref:`Overflow <overflow>`
    * :ref:`OverflowException <overflowexception>`
@@ -1214,6 +1217,7 @@ PHP Dictionary
    * :ref:`Render <render>`
    * :ref:`Renderer <renderer>`
    * :ref:`Replay <replay>`
+   * :ref:`Request <request>`
    * :ref:`Request For Change (RFC) <rfchange>`
    * :ref:`Reserved For Future Use (RFU) <rfu>`
    * :ref:`Reserved Names <reserved-name>`
@@ -1326,6 +1330,7 @@ PHP Dictionary
    * :ref:`Single Sign On (SSO) <sso>`
    * :ref:`Singleton <singleton>`
    * :ref:`Slash / <slash>`
+   * :ref:`Slim <slim>`
    * :ref:`Slug <slug>`
    * :ref:`Snake Case <snake-case>`
    * :ref:`Snapshot <snapshot>`
@@ -1411,6 +1416,7 @@ PHP Dictionary
    * :ref:`set_error_handler() <set_error_handler>`
    * :ref:`setlocale <setlocale>`
    * :ref:`shell_exec() <shell_exec>`
+   * :ref:`short_open_tag <short_open_tag>`
    * :ref:`sitemap <sitemap>`
    * :ref:`sleep <sleep>`
    * :ref:`sprintf <sprintf>`
@@ -1452,6 +1458,7 @@ PHP Dictionary
    * :ref:`Testable <testable>`
    * :ref:`Text <text>`
    * :ref:`Text Encoding <encoding-text>`
+   * :ref:`Thin <thin>`
    * :ref:`Thin Method <thin-method>`
    * :ref:`Thread <thread>`
    * :ref:`Three Dots <three-dots>`

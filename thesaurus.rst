@@ -201,6 +201,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Boilerplate <boilerplate>`
 + :ref:`Bucket <bucket>`
 + :ref:`Bug <bug>`
++ :ref:`Build <build>`
 + :ref:`Business Logic <business-logic>`
 + :ref:`Cancellation <cancellation>`
 + :ref:`Case Sensitivity <case-sensitivity>`
@@ -279,6 +280,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Facade <facade>`
 + :ref:`Faker <faker>`
 + :ref:`Fallback <fallback>`
++ :ref:`Fat <fat>`
++ :ref:`Fat Controller <fat-controller>`
 + :ref:`Feature <feature>`
 + :ref:`Fingerprint <fingerprint>`
 + :ref:`Format <format>`
@@ -379,6 +382,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Render <render>`
 + :ref:`Renderer <renderer>`
 + :ref:`Replay <replay>`
++ :ref:`Request <request>`
 + :ref:`Resource Leak <resource-leak>`
 + :ref:`Rich Text <rich-text>`
 + :ref:`SOLID <solid>`
@@ -394,6 +398,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Serverless <serverless>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
++ :ref:`Slim <slim>`
 + :ref:`Slug <slug>`
 + :ref:`Software Development Kit (SDK) <sdk>`
 + :ref:`Source Code <source>`
@@ -413,6 +418,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text <text>`
 + :ref:`Text Encoding <encoding-text>`
++ :ref:`Thin <thin>`
 + :ref:`Time To Live (TTL) <ttl>`
 + :ref:`To Crypt <crypt>`
 + :ref:`To Decrypt <decrypt>`

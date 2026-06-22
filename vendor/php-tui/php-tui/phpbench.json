@@ -1,0 +1,9 @@
+{
+  "runner.path": [
+    "tests/Benchmark",
+    "lib/bdf/tests/Benchmark"
+  ],
+  "$schema": "vendor/phpbench/phpbench/phpbench.schema.json",
+  "runner.bootstrap": "vendor/autoload.php",
+"storage.xml_storage_path": "dist/bench"
+}

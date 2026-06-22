@@ -203,6 +203,7 @@ Index
    dictionary/browser.ini
    dictionary/bucket.ini
    dictionary/bug.ini
+   dictionary/build.ini
    dictionary/business-logic.ini
    dictionary/by-reference.ini
    dictionary/by-value.ini
@@ -558,6 +559,8 @@ Index
    dictionary/false.ini
    dictionary/falsy.ini
    dictionary/fastcgi.ini
+   dictionary/fat-controller.ini
+   dictionary/fat.ini
    dictionary/fatal-error.ini
    dictionary/feature-flag.ini
    dictionary/feature-testing.ini
@@ -1193,6 +1196,7 @@ Index
    dictionary/renderer.ini
    dictionary/repl.ini
    dictionary/replay.ini
+   dictionary/request.ini
    dictionary/reserved-name.ini
    dictionary/resource-leak.ini
    dictionary/resource.ini
@@ -1284,6 +1288,7 @@ Index
    dictionary/short-syntax.ini
    dictionary/short-tag.ini
    dictionary/short-ternary.ini
+   dictionary/short_open_tag.ini
    dictionary/shutdown-function.ini
    dictionary/side-effect.ini
    dictionary/sign.ini
@@ -1298,6 +1303,7 @@ Index
    dictionary/sla.ini
    dictionary/slash.ini
    dictionary/sleep.ini
+   dictionary/slim.ini
    dictionary/slug.ini
    dictionary/smtp.ini
    dictionary/snake-case.ini
@@ -1425,6 +1431,7 @@ Index
    dictionary/testdox.ini
    dictionary/text.ini
    dictionary/thin-method.ini
+   dictionary/thin.ini
    dictionary/thread.ini
    dictionary/three-dots.ini
    dictionary/throw.ini
