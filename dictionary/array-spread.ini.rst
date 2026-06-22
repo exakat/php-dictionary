@@ -1,0 +1,45 @@
+.. _array-spread:
+.. meta::
+	:description:
+		Array Spread: Array spread is the ellipsis operator, applied to an array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array Spread
+	:twitter:description: Array Spread: Array spread is the ellipsis operator, applied to an array
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Array Spread
+	:og:type: article
+	:og:description: Array spread is the ellipsis operator, applied to an array
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array Spread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Array spread is the ellipsis operator, applied to an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Spread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Array Spread
+------------
+
+Array spread is the ellipsis operator, applied to an array. Then, the array itself is replaced by each of its own element, as if each element was spread from the array.
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = [1,2,3];
+   $b = [...$a, 4,5];
+   
+   // $b === [1,2,3,4,5];
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/migration74.new-features.php#migration74.new-features.standard.array-merge-no-args>`__
+
+See also `PHP Spread Operator <https://www.phptutorial.net/php-tutorial/php-spread-operator/>`_.
+
+Related : :ref:`Ellipsis <ellipsis>`, :ref:`Three Dots <three-dots>`, :ref:`Variadic <variadic>`
+
+Added in PHP 7.4

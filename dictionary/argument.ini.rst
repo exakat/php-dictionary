@@ -1,0 +1,43 @@
+.. _argument:
+.. meta::
+	:description:
+		Argument: Arguments are values passed to a function or method, at execution time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Argument
+	:twitter:description: Argument: Arguments are values passed to a function or method, at execution time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Argument
+	:og:type: article
+	:og:description: Arguments are values passed to a function or method, at execution time
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Arguments are values passed to a function or method, at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Argument
+--------
+
+Arguments are values passed to a function or method, at execution time. The argument is the execution time value, and the recipient of that value is the parameter, which is located in the signature of the method. They may be a variable or an expression.
+
+.. code-block:: php
+   
+   <?php
+   
+       function foo($parameter) {}
+   
+       $argument = 1;
+       foo($argument + 2);
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/functions.arguments.php>`__
+
+See also `What's the difference between an argument and a parameter? <https://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter>`_.
+
+Related : :ref:`Parameter <parameter>`, :ref:`Comma <comma>`, :ref:`Parenthesis <parenthesis>`

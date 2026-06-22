@@ -1,0 +1,41 @@
+.. _pipeline:
+.. meta::
+	:description:
+		Pipeline: A pipeline is a chain of steps that composes a sequential set of actions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Pipeline
+	:twitter:description: Pipeline: A pipeline is a chain of steps that composes a sequential set of actions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Pipeline
+	:og:type: article
+	:og:description: A pipeline is a chain of steps that composes a sequential set of actions
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/pipeline.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Pipeline
+--------
+
+A pipeline is a chain of steps that composes a sequential set of actions.
+
+A pipeline is used with: 
+
++ Datasets, to read, transform and save data
++ Continuous integration, where each check and packaging follows the previous one
++ Processing, where each step is a separate process
+
+The pipeline image is related to the assembly line, from factories.
+
+`Documentation <https://en.wikipedia.org/wiki/Pipeline_(software)>`__
+
+See also `Laravel: When to use Pipelines? How to test them? <https://darkghosthunter.medium.com/laravel-when-to-use-pipelines-how-to-test-them-8993ed93e735>`_ and `Understanding the pipeline pattern <https://matthewdaly.co.uk/blog/2018/10/05/understanding-the-pipeline-pattern/>`_.
+
+Related : :ref:`Continuous Delivery (CD) <cd>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Pull Request (PR) <pr>`, :ref:`Task Runner <task-runner>`, :ref:`Code Review <code-review>`, :ref:`Middleware Pattern <middleware>`, :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
+
+Related packages : `Illuminate/pipeline <https://packagist.org/packages/Illuminate/pipeline>`_, `league/pipeline <https://packagist.org/packages/league/pipeline>`_

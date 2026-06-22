@@ -1,0 +1,50 @@
+.. _deprecated:
+.. meta::
+	:description:
+		Deprecated: Deprecated is a native PHP attribute.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deprecated
+	:twitter:description: Deprecated: Deprecated is a native PHP attribute
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Deprecated
+	:og:type: article
+	:og:description: Deprecated is a native PHP attribute
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Deprecated is a native PHP attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Deprecated
+----------
+
+Deprecated is a native PHP attribute. It marks a method, function or class constant as available, but soon to be removed. 
+
+The Deprecated attribute accepts an argument, that is shown to help users move to an alternative.
+
+.. code-block:: php
+   
+   <?php
+   
+   #[Deprecated]
+   function foo() {}
+   
+   foo();
+   //Deprecated: Function foo() is deprecated
+   
+   #[Deprecated('Use hoo instead.')]
+   function goo() {}
+   
+   goo();
+   //Deprecated: Function goo() is deprecated, Use hoo instead.
+   
+   ?>
+
+
+`Documentation <https://wiki.php.net/rfc/deprecated_attribute>`__
+
+Related : :ref:`Deprecation <deprecation>`, :ref:`Arcane <arcane>`, :ref:`Legacy <legacy>`, :ref:`PHP Native Attributes <php-attribute>`, :ref:`PHP Native Attribute <php-native-attribute>`, :ref:`Forward Compatible <forward-compatible>`

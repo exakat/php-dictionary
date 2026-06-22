@@ -1,0 +1,55 @@
+.. _autowiring:
+.. _auto-wiring:
+.. meta::
+	:description:
+		Autowiring: Autowiring is the ability of the framework to inject dependencies, based on the constructor signature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Autowiring
+	:twitter:description: Autowiring: Autowiring is the ability of the framework to inject dependencies, based on the constructor signature
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Autowiring
+	:og:type: article
+	:og:description: Autowiring is the ability of the framework to inject dependencies, based on the constructor signature
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/autowiring.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Autowiring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Autowiring is the ability of the framework to inject dependencies, based on the constructor signature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Autowiring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Autowiring
+----------
+
+Autowiring is the ability of the framework to inject dependencies, based on the constructor signature.
+
+Autowiring is based on types, in the signature of the controller.
+
+Autowiring is  commonly used in dependency injection, ``DI`` containers.
+
+Autowiring reduce boilerplate code, enhance type usage and make refactoring easier.
+
+.. code-block:: php
+   
+   <?php
+   
+       class Renderer {
+           private View $view;
+       
+           function __construct(View $view) {
+               $this->view = $view;
+           }
+       }
+   
+   ?>
+
+
+`Documentation <https://symfony.com/doc/current/service_container/autowiring.html>`__
+
+See also `Autowiring - php-di <https://php-di.org/doc/autowiring.html>`_ and `Defining Services Dependencies Automatically (Autowiring) <https://symfony.com/doc/current/service_container/autowiring.html>`_.
+
+Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`Constructor <constructor>`, :ref:`Boilerplate <boilerplate>`, :ref:`Type System <type>`, :ref:`Refactoring <refactoring>`
+
+Related packages : `nette/di <https://packagist.org/packages/nette/di>`_, `php-di/php-di <https://packagist.org/packages/php-di/php-di>`_

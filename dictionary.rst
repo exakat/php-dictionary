@@ -129,6 +129,7 @@ PHP Dictionary
    * :ref:`Asynchronous <asynchronous>`
    * :ref:`Atomic Operation <atomic-operation>`
    * :ref:`Attack <attack>`
+   * :ref:`Attack Surface <attack-surface>`
    * :ref:`Attribute <attribute>`
    * :ref:`Attribute Class <attribute-class>`
    * :ref:`Audit <audit>`
@@ -221,6 +222,7 @@ PHP Dictionary
    * :ref:`CSS <css>`
    * :ref:`CSV Injection <csv-injection>`
    * :ref:`Cache <cache>`
+   * :ref:`Cache Stampede <cache-stampede>`
    * :ref:`Calendar <calendar>`
    * :ref:`Call <call>`
    * :ref:`Call Graph <call-graph>`
@@ -241,6 +243,7 @@ PHP Dictionary
    * :ref:`Chaining <chaining>`
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`
+   * :ref:`Change Data Capture <change-data-capture>`
    * :ref:`Character <character>`
    * :ref:`Checksum <checksum>`
    * :ref:`Child Class <child-class>`
@@ -314,6 +317,7 @@ PHP Dictionary
    * :ref:`Compliance <compliance>`
    * :ref:`Component <component>`
    * :ref:`Composer <composer>`
+   * :ref:`Composite Type <composite-type>`
    * :ref:`Composition <composition>`
    * :ref:`Compression <compression>`
    * :ref:`Concatenation <concatenation>`
@@ -896,6 +900,7 @@ PHP Dictionary
    * :ref:`Monitoring <monitoring>`
    * :ref:`Monolith <monolith>`
    * :ref:`Monomorphization <monomorphization>`
+   * :ref:`Multi-Factor Authentication (MFA) <mfa>`
    * :ref:`Multi-byte <multi-byte>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`

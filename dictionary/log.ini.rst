@@ -1,0 +1,33 @@
+.. _log:
+.. meta::
+	:description:
+		Log: Log has several meanings:.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Log
+	:twitter:description: Log: Log has several meanings:
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Log
+	:og:type: article
+	:og:description: Log has several meanings:
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/log.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Log","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:57 +0000","dateModified":"Fri, 19 Jun 2026 21:24:57 +0000","description":"Log has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Log.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Log
+---
+
+Log has several meanings:
+
++ log file, or logging, to collect events traces as they happen
++ logarithm, the math function.
+
+
+`Documentation <https://www.php.net/manual/en/function.error-log.php>`__
+
+Related : :ref:`Logarithm <logarithm>`, :ref:`Log File <log-file>`, :ref:`Monitoring <monitoring>`, :ref:`STDOUT <stdout>`, :ref:`Telemetry <telemetry>`, :ref:`Troubleshoot <troubleshoot>`

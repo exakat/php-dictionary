@@ -1,0 +1,33 @@
+.. _ast:
+.. meta::
+	:description:
+		Abstract Syntactic Tree (AST): An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Syntactic Tree (AST)
+	:twitter:description: Abstract Syntactic Tree (AST): An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Abstract Syntactic Tree (AST)
+	:og:type: article
+	:og:description: An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ast.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Abstract Syntactic Tree (AST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Syntactic Tree (AST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Abstract Syntactic Tree (AST)
+-----------------------------
+
+An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code.
+
+It is a representation of the code, that focuses on the syntactic elements that are later executed.
+
+`Documentation <https://en.wikipedia.org/wiki/Abstract_syntax_tree>`__
+
+Related : :ref:`Parser <php-parser>`, :ref:`Analysis <analysis>`, :ref:`Token <token>`
+
+Added in PHP 7.0

@@ -1,0 +1,66 @@
+.. _hash:
+.. _hashing:
+.. _digest:
+.. _hashmap:
+.. meta::
+	:description:
+		Hash: Hash has several meanings:.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hash
+	:twitter:description: Hash: Hash has several meanings:
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Hash
+	:og:type: article
+	:og:description: Hash has several meanings:
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Hash
+----
+
+Hash has several meanings:
+
++ PHP extension
++ PHP function
++ A general computer science concept, that transforms data into another value
++ A general computer science concept, that turns a string into another fixed-sized string, in a way that is difficult to revert. It is also called a digest.
++ A synonym for arrays with arbitrary keys, also known as map or associative array
++ A character to start a one line comment: ``#``
+
+Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. 
+
+While the extension ``hash`` only process hashes, there are other extensions which offer these features: openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.
+
+.. code-block:: php
+   
+   <?php
+   
+   echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');
+   // produces ec457d0a974c48d5685a7efa03d137dc8bbde7e3
+   
+   // a conversion table is a hash
+   $c = 2;
+   $dictionary = [1 => 'a', 2 => 'b', 3 => 'c'];
+   echo $dictionary[$c]; 
+   
+   // This is a hashmap, or also called a hash
+   $hashMap = ['name' => 'Henry', 
+               'family' => 'Troyat', 
+               'age' => 33,
+               ];
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/book.hash.php>`__
+
+See also `Numeric hash (nhash) in PHP <https://ssojet.com/hashing/numeric-hash-nhash-in-php>`_.
+
+Related : :ref:`hash() Function <hash-function>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Array Element <array-element>`, :ref:`Convert <convert>`, :ref:`Magic Hash <magic-hash>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Hash # <hash-character>`, :ref:`Argon2 <argon2>`, :ref:`Automatic Index <automatic-index>`, :ref:`Dictionary <dictionary>`, :ref:`Data Structure <ds>`, :ref:`Pound # <pound>`, :ref:`array_column <array_column>`, :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`HMAC <hmac>`, :ref:`Password API <password-ext>`, :ref:`Bucket <bucket>`, :ref:`Hash Comparisons <hash-comparison>`, :ref:`Single Sign On (SSO) <sso>`

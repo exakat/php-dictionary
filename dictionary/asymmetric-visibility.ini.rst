@@ -1,0 +1,57 @@
+.. _asymmetric-visibility:
+.. _set-visibility:
+.. meta::
+	:description:
+		Asymmetric Visibility: Asymmetric visibility is a feature of PHP class properties.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Asymmetric Visibility
+	:twitter:description: Asymmetric Visibility: Asymmetric visibility is a feature of PHP class properties
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Asymmetric Visibility
+	:og:type: article
+	:og:description: Asymmetric visibility is a feature of PHP class properties
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/asymmetric-visibility.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Asymmetric Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:43 +0000","dateModified":"Fri, 19 Jun 2026 21:24:43 +0000","description":"Asymmetric visibility is a feature of PHP class properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asymmetric Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Asymmetric Visibility
+---------------------
+
+Asymmetric visibility is a feature of PHP class properties. They refer to the situation where different scopes may read, or ``get`` or write, or ``set``. 
+
+Traditionally, the visibility options, ``private``, ``protected`` and ``public``, constraints the access to the property, both in reading and writing. With asymmetric visibility, there may be contexts may have different rights of access.
+
+.. code-block:: php
+   
+   <?php
+   
+   class X {
+       public private(set) string $p = 'abc';
+       
+       function setP($p) {
+           $this->p = $p;
+       }
+   }
+   
+   $x = new X();
+   echo $x->p; // abc
+   $x->setP('def'); 
+   echo $x->p; // def
+   
+   // 
+   $x->p = 'ghi';
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/language.oop5.visibility.php>`__
+
+See also `PHP Asymmetric Visibility RFC: An In-Depth Look <https://developerjoy.co/blog/php-asymmetric-visibility-rfc-an-in-depth-look>`_ and `New in PHP 8.5: Asymmetric Visibility for Static Properties <https://chrastecky.dev/programming/new-in-php-8-5-asymmetric-visibility-for-static-properties>`_.
+
+Related : :ref:`Visibility <visibility>`, :ref:`Properties <property>`, :ref:`Asymmetric Property <asymmetric-property>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Var <var>`

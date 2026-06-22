@@ -1,0 +1,47 @@
+.. _json:
+.. meta::
+	:description:
+		JavaScript Object Notation (JSON): JSON, or JavaScript Object Notation, is a lightweight data-interchange format.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: JavaScript Object Notation (JSON)
+	:twitter:description: JavaScript Object Notation (JSON): JSON, or JavaScript Object Notation, is a lightweight data-interchange format
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: JavaScript Object Notation (JSON)
+	:og:type: article
+	:og:description: JSON, or JavaScript Object Notation, is a lightweight data-interchange format
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JavaScript Object Notation (JSON)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"JSON, or JavaScript Object Notation, is a lightweight data-interchange format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JavaScript Object Notation (JSON).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+JavaScript Object Notation (JSON)
+---------------------------------
+
+JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
+
+.. code-block:: php
+   
+   <?php
+   
+       $array = ['a' => 1, 'b' => "c", 'c' => [3, 4], 'd' => new stdclass()];
+       
+       echo json_encode($arr);
+       // displays {\a\:1,\b\:\c\,\c\:[3,4],\d\:{}}
+   
+   ?>
+
+
+`Documentation <https://www.php.net/json>`__
+
+See also `JSON home <https://www.json.org/json-en.html>`_, `Working with JSON data in PHP and MySQL: storing and retrieving complex structures <https://prahladyeri.github.io/blog/2024/11/working-with-json-data-in-php-mysql.html>`_ and `An In-depth Comparison of JSON, YAML, and TOML <https://www.anbowell.com/blog/an-in-depth-comparison-of-json-yaml-and-toml/>`_.
+
+Related : :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`json_decode() <json_decode>`, :ref:`JsonSerializable <jsonserializable>`, :ref:`Serde <serde>`, :ref:`JSON Lines (JSONC) <jsonc>`, :ref:`JSON Lines (JSONL) <jsonl>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`, :ref:`Text <text>`, :ref:`Format <format>`, :ref:`json_encode() <json_encode>`, :ref:`JsonException <jsonexception>`, :ref:`Parquet <parquet>`, :ref:`INI <ini>`, :ref:`PostgreSQL <pgsql>`, :ref:`Progressive Web App <pwa>`, :ref:`Schema <schema>`, :ref:`AJAX <ajax>`, :ref:`Document Database <document-database>`, :ref:`JSON Web Token (JWT) <jwt>`, :ref:`Template <template>`, :ref:`Multidimensional Array <multidimensional-array>`
+
+Related packages : `jajo/jsondb <https://packagist.org/packages/jajo/jsondb>`_
+
+Added in PHP 5.0+

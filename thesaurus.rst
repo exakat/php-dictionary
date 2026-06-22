@@ -11,6 +11,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Architectural Decision Record (ADR) <adr>`
 + :ref:`Artificial Intelligence (AI) <ai>`
 + :ref:`Capture The Flag (CTF) <ctf>`
++ :ref:`Change Data Capture <change-data-capture>`
 + :ref:`Class Interface Trait Enumeration (CITE) <cite>`
 + :ref:`Client URL (CURL) <curl>`
 + :ref:`Comma Secparated Values (CSV) <csv>`
@@ -74,6 +75,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Minimum Viable Product (MVP) <mvp>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
 + :ref:`Model Context Protocol (MCP) <mcp>`
++ :ref:`Multi-Factor Authentication (MFA) <mfa>`
 + :ref:`Not A Number (NAN) <nan>`
 + :ref:`OOP (Object Oriented Programming) <oop>`
 + :ref:`OWASP <owasp>`
@@ -601,6 +603,7 @@ Type
 List of PHP types, used with the type system. They usually are not related to a class.
 
 + :ref:`Boolean <boolean>`
++ :ref:`Composite Type <composite-type>`
 + :ref:`Contravariance <type-contravariance>`
 + :ref:`Covariance <type-covariance>`
 + :ref:`Dependent Type <dependent-type>`

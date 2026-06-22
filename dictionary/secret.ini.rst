@@ -1,0 +1,33 @@
+.. _secret:
+.. meta::
+	:description:
+		Secret: In Computer Science, especially in cybersecurity, cryptography, and software development, a secret refers to any piece of sensitive information that must be kept confidential and protected from unauthorized access.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Secret
+	:twitter:description: Secret: In Computer Science, especially in cybersecurity, cryptography, and software development, a secret refers to any piece of sensitive information that must be kept confidential and protected from unauthorized access
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Secret
+	:og:type: article
+	:og:description: In Computer Science, especially in cybersecurity, cryptography, and software development, a secret refers to any piece of sensitive information that must be kept confidential and protected from unauthorized access
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/secret.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Secret","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:31:10 +0000","dateModified":"Fri, 19 Jun 2026 21:31:10 +0000","description":"In Computer Science, especially in cybersecurity, cryptography, and software development, a secret refers to any piece of sensitive information that must be kept confidential and protected from unauthorized access","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Secret.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Secret
+------
+
+In Computer Science, especially in cybersecurity, cryptography, and software development, a secret refers to any piece of sensitive information that must be kept confidential and protected from unauthorized access.
+
+These may be: passwords, API keys, Personal tokens, private keys, and not the public key, certificates, etc.
+
+Private data are not considered a secret, even if they should be kept secret. They are data used between two parties, while a secret usually is reserved for only one party, even when hosted on another party's infrastructure.
+
+`Documentation <https://en.wikipedia.org/wiki/Cryptographic_key>`__
+
+Related : :ref:`Cryptography <cryptography>`, :ref:`Privacy <privacy>`, :ref:`Environment <environment>`, :ref:`One-Time Password (OTP) <otp>`, :ref:`Password API <password-ext>`, :ref:`Password <password>`

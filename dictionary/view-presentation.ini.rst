@@ -1,0 +1,31 @@
+.. _view-presentation:
+.. meta::
+	:description:
+		View In Presentation: A view is the presentation layer in a MVC model.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: View In Presentation
+	:twitter:description: View In Presentation: A view is the presentation layer in a MVC model
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: View In Presentation
+	:og:type: article
+	:og:description: A view is the presentation layer in a MVC model
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/view-presentation.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"View In Presentation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:05 +0000","dateModified":"Fri, 19 Jun 2026 21:25:05 +0000","description":"A view is the presentation layer in a MVC model","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/View In Presentation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+View In Presentation
+--------------------
+
+A view is the presentation layer in a MVC model. It is in charge of formatting the provided data to fit the target reader: ``HTML``, ``JSON``, ``XML``, etc.
+
+Views are also synonym of renderer. They are build on templates, which provides a frame where custom data is inserted.
+
+`Documentation <https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller>`__
+
+Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Template <template>`, :ref:`Controller <controller>`, :ref:`Model <model>`, :ref:`View <view>`

@@ -138,6 +138,7 @@ Index
    dictionary/async.ini
    dictionary/asynchronous.ini
    dictionary/atomic-operation.ini
+   dictionary/attack-surface.ini
    dictionary/attack.ini
    dictionary/attribute-class.ini
    dictionary/attribute.ini
@@ -210,6 +211,7 @@ Index
    dictionary/byte.ini
    dictionary/bzip2.ini
    dictionary/c2-framework.ini
+   dictionary/cache-stampede.ini
    dictionary/cache.ini
    dictionary/calendar.ini
    dictionary/call-graph.ini
@@ -231,6 +233,7 @@ Index
    dictionary/cgi.ini
    dictionary/chaining-new-without-parenthesis.ini
    dictionary/chaining.ini
+   dictionary/change-data-capture.ini
    dictionary/character.ini
    dictionary/checksum.ini
    dictionary/child-class.ini
@@ -300,6 +303,7 @@ Index
    dictionary/compliance.ini
    dictionary/component.ini
    dictionary/composer.ini
+   dictionary/composite-type.ini
    dictionary/composition.ini
    dictionary/compression.ini
    dictionary/concatenation.ini
@@ -865,6 +869,7 @@ Index
    dictionary/method.ini
    dictionary/methodcall.ini
    dictionary/metrics.ini
+   dictionary/mfa.ini
    dictionary/micro-optimisation.ini
    dictionary/micro-second.ini
    dictionary/microframework.ini

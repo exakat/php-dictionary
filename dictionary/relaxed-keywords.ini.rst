@@ -1,0 +1,49 @@
+.. _relaxed-keywords:
+.. meta::
+	:description:
+		Relaxed Keywords: The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Relaxed Keywords
+	:twitter:description: Relaxed Keywords: The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Relaxed Keywords
+	:og:type: article
+	:og:description: The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/relaxed-keywords.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relaxed Keywords","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relaxed Keywords.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Relaxed Keywords
+----------------
+
+The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name. 
+
+Generally speaking, PHP keywords are not allowed as names for classes, functions, etc. This is still the case here, yet this constraint has been relaxed for method names. 
+
+Functions and global constants do not support that feature. Closures and arrow functions are not applicable, as they have no name. Only methods do use relaxed keywords.
+
+Property names do not have this constraints, as the ``$`` sign make them distinct. 
+
+Using PHP keywords as names is not a commonly known feature, and generate a lot of surprise, when used. As a convention, it is recommended to avoid using PHP keywords. Yet, it may apply in specific situations.
+
+.. code-block:: php
+   
+   <?php
+   
+       class x {
+           const function = 1;
+           function function() {}
+       }
+   
+   ?>
+
+
+`Documentation <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`__
+
+Related : :ref:`Dollar / <dollar>`

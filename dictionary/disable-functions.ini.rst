@@ -1,0 +1,39 @@
+.. _disable-functions:
+.. meta::
+	:description:
+		Disable Functions: The ``disable_functions`` PHP directive prevents specific native functions from being executed when called from code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Disable Functions
+	:twitter:description: Disable Functions: The ``disable_functions`` PHP directive prevents specific native functions from being executed when called from code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: Disable Functions
+	:og:type: article
+	:og:description: The ``disable_functions`` PHP directive prevents specific native functions from being executed when called from code
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/disable-functions.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Disable Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:41:48 +0000","dateModified":"Thu, 18 Jun 2026 13:41:48 +0000","description":"The ``disable_functions`` PHP directive prevents specific native functions from being executed when called from code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Disable Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+Disable Functions
+-----------------
+
+The ``disable_functions`` PHP directive prevents specific native functions from being executed when called from code. It helps mitigate potential security vulnerabilities or enforce practices by forbidding usage of specific functions, even when they are compiled into the engine.
+
+This directive requires a list of PHP functions, separated by a comma, and set in the PHP.ini file: this is read at startup time and cannot be changed later. 
+
+``disable_functions`` only works on native functions, and extension functions. It is not possible to preemptively disable a custom function: this may be achieved by defining the forbidden function, and assigning it a warning, or no operation. 
+
+A disabled function may be recreated as a custom function in the code.
+
+Disabled functions appear as undefined: in fact, they can also be redefined, with a custom code and then used.
+
+`Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
+
+See also `Disabling functions using the PHP disable_functions directive <https://kb.hosting.com/docs/php-disable_functions-directive>`_.
+
+Related : :ref:`Functions <function>`, :ref:`Preappend File Directive <auto_prepend_file>`, :ref:`Disable <disable>`, :ref:`Enable <enable>`, :ref:`Disable Classes <disable-classes>`
