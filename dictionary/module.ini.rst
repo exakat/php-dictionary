@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Module","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:29 +0000","dateModified":"Fri, 19 Jun 2026 21:25:29 +0000","description":"In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Module.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Module","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:48:06 +0000","dateModified":"Wed, 24 Jun 2026 05:48:06 +0000","description":"In computer science, a module refers to a self-contained unit of code or software that encapsulates a specific functionality or set of related functionalities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Module.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Module
@@ -27,7 +27,7 @@ In computer science, a module refers to a self-contained unit of code or softwar
 
 A module is also a standardized package, that can be replaced plugged in a system with a common interface.
 
-In the PHP world, modules often refers to specific frameworks' component : for example, Drupal and Laravel use modules to extends their features.
+In the PHP world, modules often refers to specific frameworks' component: for example, Drupal and Laravel use modules to extends their features.
 
 `Documentation <https://en.wikipedia.org/wiki/Modular_programming>`__
 

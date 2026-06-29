@@ -63,4 +63,4 @@ Control flow structures can't be called dynamically: they have to be hardcoded, 
 
 See also `PHP flow control <https://zetcode.com/php/flowcontrol/>`_ and `PHP Control Flow <https://www.codeguage.com/v1/courses/php/control-flow>`_.
 
-Related : :ref:`Statement <statement>`, :ref:`Loops <loop>`, :ref:`Semicolon <semicolon>`, :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`foreach() <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`Goto <goto>`, :ref:`Jump <jump>`
+Related : :ref:`Statement <statement>`, :ref:`Loops <loop>`, :ref:`Semicolon ; <semicolon>`, :ref:`If Then Else <if-then>`, :ref:`While <while>`, :ref:`Do While <do-while>`, :ref:`For <for>`, :ref:`foreach() <foreach>`, :ref:`Break <break>`, :ref:`Continue <continue>`, :ref:`Switch <switch>`, :ref:`Match <match>`, :ref:`declare() <declare>`, :ref:`Return <return>`, :ref:`Inclusions <inclusion>`, :ref:`Goto <goto>`, :ref:`Jump <jump>`

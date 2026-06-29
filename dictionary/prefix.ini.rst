@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"Prefix","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:28:34 +0000","dateModified":"Fri, 19 Jun 2026 21:28:34 +0000","description":"A prefix is a word extension, placed before the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Prefix.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Implicit conversion from float-string \"%s\" to int loses precision.html","name":"Prefix","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:36:58 +0000","dateModified":"Mon, 29 Jun 2026 09:36:58 +0000","description":"A prefix is a word extension, placed before the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Prefix.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Prefix
@@ -26,7 +26,7 @@ A prefix is a word extension, placed before the name.
 
 In linguistics, prefixes change the meaning of the word, and give it a new built meaning, based on the meanings of the word and the prefix. For example, ``reconnect`` is build with ``re``, which means again, and ``connect`` which means connect. Reconnect is the action to connect again, after a previous connection was lost.
 
-In PHP, prefixes are used for convention, where methods built with prefixes should deliver a specific behavior. 
+Prefixes are used for conventions: methods built with specific prefixes should deliver a specific behavior. 
 
 + ``get``: access a value
 + ``set``: assign a value

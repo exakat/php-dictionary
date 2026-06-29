@@ -52,6 +52,6 @@ It is possible to indent the text in a nowdocs string: to avoid this indentation
 
 See also `PHP Heredoc <https://www.phptutorial.net/php-tutorial/php-heredoc/>`_.
 
-Related : :ref:`Nowdocs <nowdoc>`, :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Indentation <indentation>`, :ref:`Interpolation <interpolation>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Tabulation <tabulation>`, :ref:`Space <space>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Empty String <empty-string>`, :ref:`Escape Character <escape-character>`
+Related : :ref:`Nowdocs <nowdoc>`, :ref:`String <string>`, :ref:`Concatenation \. <concatenation>`, :ref:`Indentation <indentation>`, :ref:`Interpolation <interpolation>`, :ref:`Single Quotes Strings <single-quote>`, :ref:`Tabulation <tabulation>`, :ref:`Space <space>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Empty String <empty-string>`, :ref:`Escape Character <escape-character>`
 
 Added in PHP 5.5

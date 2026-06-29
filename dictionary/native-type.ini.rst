@@ -56,4 +56,4 @@ PHP offers a selection of natives, which are not directly derived from a class, 
 
 `Documentation <https://www.php.net/manual/en/language.types.php>`__
 
-Related : :ref:`Null <null>`, :ref:`Boolean <bool>`, :ref:`integer <int>`, :ref:`Floating Point Numbers <float>`, :ref:`String <string>`, :ref:`Array <array>`, :ref:`Object <object>`, :ref:`resource <resource>`, :ref:`Never Type <never>`, :ref:`Void <void>`, :ref:`Self <self>`, :ref:`parent <parent>`, :ref:`static <static>`, :ref:`False <false>`, :ref:`True <true>`, :ref:`Callables <callable>`, :ref:`Iterable <iterable>`, :ref:`Stringable <stringable>`
+Related : :ref:`Null <null>`, :ref:`Boolean <bool>`, :ref:`integer <int>`, :ref:`Floating Point Numbers <float>`, :ref:`String <string>`, :ref:`Array, [] <array>`, :ref:`Object <object>`, :ref:`resource <resource>`, :ref:`Never Type <never>`, :ref:`Void <void>`, :ref:`Self <self>`, :ref:`parent <parent>`, :ref:`static <static>`, :ref:`False <false>`, :ref:`True <true>`, :ref:`Callables <callable>`, :ref:`Iterable <iterable>`, :ref:`Stringable <stringable>`

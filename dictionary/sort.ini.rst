@@ -55,4 +55,4 @@ The default comparison between elements may be adapted with ``sort()``'s paramet
 
 See also `natural sort <https://www.php.net/natsort>`_.
 
-Related : :ref:`Array <array>`, :ref:`Closure <closure>`, :ref:`Constant Combination <constant-combinaison>`, :ref:`Swap <swap>`
+Related : :ref:`Array, [] <array>`, :ref:`Closure <closure>`, :ref:`Constant Combination <constant-combinaison>`, :ref:`Swap <swap>`

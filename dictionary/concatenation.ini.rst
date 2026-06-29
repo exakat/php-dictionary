@@ -4,26 +4,26 @@
 .. _.:
 .. meta::
 	:description:
-		Concatenation: Concatenation is the PHP feature that appends two strings together, to make a third, longer one.
+		Concatenation .: Concatenation is the PHP feature that appends two strings together, to make a third, longer one.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Concatenation
-	:twitter:description: Concatenation: Concatenation is the PHP feature that appends two strings together, to make a third, longer one
+	:twitter:title: Concatenation .
+	:twitter:description: Concatenation .: Concatenation is the PHP feature that appends two strings together, to make a third, longer one
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Concatenation
+	:og:title: Concatenation .
 	:og:type: article
 	:og:description: Concatenation is the PHP feature that appends two strings together, to make a third, longer one
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Concatenation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Concatenation is the PHP feature that appends two strings together, to make a third, longer one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Concatenation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Concatenation .","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 06:13:04 +0000","dateModified":"Wed, 24 Jun 2026 06:13:04 +0000","description":"Concatenation is the PHP feature that appends two strings together, to make a third, longer one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Concatenation ..html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Concatenation
--------------
+Concatenation .
+---------------
 
 Concatenation is the PHP feature that appends two strings together, to make a third, longer one.
 

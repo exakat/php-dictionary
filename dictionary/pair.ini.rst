@@ -55,4 +55,4 @@ Pairs are also the basis of more complex structures such as maps and dictionarie
 
 `Documentation <https://www.php.net/manual/en/class.ds-pair.php>`__
 
-Related : :ref:`Array <array>`, :ref:`Associative Array <associative-array>`, :ref:`Data Structure <ds>`, :ref:`Data Structure <datastructure>`, :ref:`Map <map>`
+Related : :ref:`Array, [] <array>`, :ref:`Associative Array <associative-array>`, :ref:`Data Structure <ds>`, :ref:`Data Structure <datastructure>`, :ref:`Map <map>`

@@ -49,6 +49,6 @@ Sets are useful for membership testing, deduplication, and set operations such a
 
 See also `Ds\Set <https://www.php.net/manual/en/class.ds-set.php>`_ and `array_unique() <https://www.php.net/manual/en/function.array-unique.php>`_.
 
-Related : :ref:`Data Structure <datastructure>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`Data Structure <ds>`, :ref:`SplSubject <splsubject>`
+Related : :ref:`Data Structure <datastructure>`, :ref:`Collection <collection>`, :ref:`Array, [] <array>`, :ref:`Data Structure <ds>`, :ref:`SplSubject <splsubject>`
 
 Related packages : `php-ds/php-ds <https://packagist.org/packages/php-ds/php-ds>`_

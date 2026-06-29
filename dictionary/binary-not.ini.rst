@@ -40,4 +40,4 @@ The tilde ``~`` operator return the opposite value, bit by by. The value is firs
 
 `Documentation <https://www.php.net/manual/en/language.operators.bitwise.php>`__
 
-Related : :ref:`Not Operator <not>`, :ref:`~ Tilde <tilde>`
+Related : :ref:`Not Operator <not>`, :ref:`Tilde ~ <tilde>`

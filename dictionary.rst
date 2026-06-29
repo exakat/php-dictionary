@@ -100,7 +100,6 @@ PHP Dictionary
    * :ref:`ArgumentCountError <argumentcounterror>`
    * :ref:`ArithmeticError Error <arithmeticerror>`
    * :ref:`Arm <arm>`
-   * :ref:`Array <array>`
    * :ref:`Array Append <append>`
    * :ref:`Array Callback <array-callback>`
    * :ref:`Array Dot Notation <array-dot-notation>`
@@ -109,6 +108,7 @@ PHP Dictionary
    * :ref:`Array Spread <array-spread>`
    * :ref:`Array Syntax <array-syntax>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
+   * :ref:`Array, [] <array>`
    * :ref:`ArrayAccess <arrayaccess>`
    * :ref:`ArrayObject <arrayobject>`
    * :ref:`Arrow Functions <arrow-function>`
@@ -320,7 +320,7 @@ PHP Dictionary
    * :ref:`Composite Type <composite-type>`
    * :ref:`Composition <composition>`
    * :ref:`Compression <compression>`
-   * :ref:`Concatenation <concatenation>`
+   * :ref:`Concatenation . <concatenation>`
    * :ref:`Concatenative <concatenative>`
    * :ref:`Concrete Class <concrete>`
    * :ref:`Concrete Method <concrete-method>`
@@ -465,7 +465,7 @@ PHP Dictionary
    * :ref:`Document Database <document-database>`
    * :ref:`Document Object Model (DOM) <dom>`
    * :ref:`Documentation <documentation>`
-   * :ref:`Dollar / <dollar>`
+   * :ref:`Dollar $ <dollar>`
    * :ref:`Domain <domain>`
    * :ref:`Domain Design Driven (DDD) <ddd>`
    * :ref:`Domain Name <domain-name>`
@@ -1285,7 +1285,7 @@ PHP Dictionary
    * :ref:`Self-reference <self-reference>`
    * :ref:`Semantic Versioning <semantic-versioning>`
    * :ref:`Semantics <semantics>`
-   * :ref:`Semicolon <semicolon>`
+   * :ref:`Semicolon ; <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
    * :ref:`Separation Of Concerns <separation-of-concerns>`
    * :ref:`Separator <separator>`
@@ -1322,6 +1322,7 @@ PHP Dictionary
    * :ref:`Side Effect <side-effect>`
    * :ref:`Sign <sign>`
    * :ref:`Signature <signature>`
+   * :ref:`Signed Integer <signed-integer>`
    * :ref:`Silent Behavior <silent>`
    * :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
    * :ref:`Simple Network Management Protocol (SNMP) <snmp>`
@@ -1469,6 +1470,7 @@ PHP Dictionary
    * :ref:`Three Dots <three-dots>`
    * :ref:`Throwable <throwable>`
    * :ref:`Tick <tick>`
+   * :ref:`Tilde ~ <tilde>`
    * :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
    * :ref:`Time To Live (TTL) <ttl>`
    * :ref:`Time Travel <time-travel>`
@@ -1628,5 +1630,3 @@ PHP Dictionary
    * :ref:`zero <zero>`
    * :ref:`zip Extension <zip>`
    * :ref:`zlib extension <zlib>`
-* ~
-   * :ref:`~ Tilde <tilde>`

@@ -52,4 +52,4 @@ It is a Fatal error to call ``count()`` on an object that can't be counted. Use 
 
 `Documentation <https://www.php.net/manual/en/function.count.php>`__
 
-Related : :ref:`Countable Interface <countable>`, :ref:`Array <array>`, :ref:`Iterable <iterable>`, :ref:`Recursion <recursive>`, :ref:`Multidimensional Array <multidimensional-array>`
+Related : :ref:`Countable Interface <countable>`, :ref:`Array, [] <array>`, :ref:`Iterable <iterable>`, :ref:`Recursion <recursive>`, :ref:`Multidimensional Array <multidimensional-array>`

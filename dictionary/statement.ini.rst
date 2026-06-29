@@ -30,4 +30,4 @@ In addition, statements can be grouped into a statement-group by encapsulating a
 
 `Documentation <https://www.php.net/manual/en/control-structures.intro.php>`__
 
-Related : :ref:`Semicolon <semicolon>`, :ref:`Control Flow <control-flow>`, :ref:`Instruction <instruction>`
+Related : :ref:`Semicolon ; <semicolon>`, :ref:`Control Flow <control-flow>`, :ref:`Instruction <instruction>`

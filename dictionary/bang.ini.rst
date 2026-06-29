@@ -41,4 +41,4 @@ Bang !
 
 `Documentation <https://en.wikipedia.org/wiki/Exclamation_mark>`__
 
-Related : :ref:`Not Operator <not-operator>`, :ref:`~ Tilde <tilde>`, :ref:`fnmatch() <fnmatch>`, :ref:`Not Operator <not>`
+Related : :ref:`Not Operator <not-operator>`, :ref:`Tilde ~ <tilde>`, :ref:`fnmatch() <fnmatch>`, :ref:`Not Operator <not>`

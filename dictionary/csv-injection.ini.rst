@@ -34,4 +34,4 @@ PHP may relay an injection by saving it in a CSV file.
 
 See also `The Absurdly Underestimated Dangers of CSV Injection <http://georgemauer.net/2017/10/07/csv-injection.html>`_ and `Everything about CSV Injection and CSV Excel Macro Injection <https://blog.securelayer7.net/how-to-perform-csv-excel-macro-injection/>`_.
 
-Related : :ref:`Semicolon <semicolon>`, :ref:`Escape Data <escape-data>`, :ref:`Injection <injection>`, :ref:`Comma Secparated Values (CSV) <csv>`
+Related : :ref:`Semicolon ; <semicolon>`, :ref:`Escape Data <escape-data>`, :ref:`Injection <injection>`, :ref:`Comma Secparated Values (CSV) <csv>`

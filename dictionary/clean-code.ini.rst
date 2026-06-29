@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Clean Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:59 +0000","dateModified":"Fri, 19 Jun 2026 21:25:59 +0000","description":"Clean code refers to code that is well-organized, easy to read, and easy to maintain","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Clean Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Clean Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:30:21 +0000","dateModified":"Sun, 28 Jun 2026 10:30:21 +0000","description":"Clean code refers to code that is well-organized, easy to read, and easy to maintain","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Clean Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Clean Code
 ----------
 
-Clean code refers to code that is well-organized, easy to read, and easy to maintain. It follows best practices and principles that contribute to the overall quality of the codebase. Clean code is not only about functionality but also about readability, simplicity, and maintainability. It is a concept introduced by Robert C. Martin in his book 'Clean Code: A Handbook of Agile Software Craftsmanship'.
+Clean code refers to code that is well-organized, easy to read, and easy to maintain. It follows best practices and principles that contribute to the overall quality of the codebase. Clean code is not only about functionality but also about readability, simplicity, and maintainability. It is a concept introduced by ``Robert C. Martin`` in his book ``Clean Code: A Handbook of Agile Software Craftsmanship``.
 
 `Documentation <https://en.wikipedia.org/wiki/Clean_Code>`__
 

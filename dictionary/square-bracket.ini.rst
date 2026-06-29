@@ -52,4 +52,4 @@ Finally, an empty square bracket is the append operator.
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`Array <array>`, :ref:`Index For Arrays <index-array>`, :ref:`List <list>`, :ref:`Array Append <append>`, :ref:`Curly Brackets <curly-bracket>`, :ref:`Parenthesis <parenthesis>`, :ref:`Bracketless <bracketless>`, :ref:`fnmatch() <fnmatch>`
+Related : :ref:`Array, [] <array>`, :ref:`Index For Arrays <index-array>`, :ref:`List <list>`, :ref:`Array Append <append>`, :ref:`Curly Brackets <curly-bracket>`, :ref:`Parenthesis <parenthesis>`, :ref:`Bracketless <bracketless>`, :ref:`fnmatch() <fnmatch>`

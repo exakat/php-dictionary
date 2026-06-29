@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"func_get_args()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``func_get_args()`` is a native function that returns an array containing the function's argument list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/func_get_args().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"func_get_args()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 06:05:50 +0000","dateModified":"Wed, 24 Jun 2026 06:05:50 +0000","description":"``func_get_args()`` is a native function that returns an array containing the function's argument list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/func_get_args().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 func_get_args()
@@ -24,7 +24,7 @@ func_get_args()
 
 ``func_get_args()`` is a native function that returns an array containing the function's argument list.
 
-It is often used to handle a variable number of arguments in a function, especially before the introduction of the variadic operator ``...`` in PHP 5.6.
+It is often used to handle a variable number of arguments in a function, especially before the introduction of the variadic operator ``...`` in version 5.6.
 
 There are related functions: ``func_get_arg()``, which returns a specific argument from the list, and ``func_num_args()``, which returns the number of arguments passed to the function.
 
@@ -32,19 +32,19 @@ There are related functions: ``func_get_arg()``, which returns a specific argume
    
    <?php
    
-   function foo() {
-       $numargs = func_num_args();
-       echo "Number of arguments: $numargs\n";
-       if ($numargs >= 2) {
-           echo "Second argument is: " . func_get_arg(1) . "\n";
+       function foo() {
+           $numargs = func_num_args();
+           echo "Number of arguments: $numargs\n";
+           if ($numargs >= 2) {
+               echo "Second argument is: " . func_get_arg(1) . "\n";
+           }
+           $arg_list = func_get_args();
+           for ($i = 0; $i < $numargs; $i++) {
+               echo "Argument $i is: " . $arg_list[$i] . "\n";
+           }
        }
-       $arg_list = func_get_args();
-       for ($i = 0; $i < $numargs; $i++) {
-           echo "Argument $i is: " . $arg_list[$i] . "\n";
-       }
-   }
-   
-   foo(1, 2, 3);
+       
+       foo(1, 2, 3);
    
    ?>
 

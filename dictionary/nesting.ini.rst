@@ -79,4 +79,4 @@ Nesting creates more complex and intricate logic. It usually erodes readability 
 
 See also `PHP Nested Try-Catch <https://rollbar.com/blog/php-nested-try-catch/#>`_.
 
-Related : :ref:`Array <array>`, :ref:`Attribute <attribute>`, :ref:`Ternary Operator <ternary>`, :ref:`Loops <loop>`, :ref:`If Then Else <ifthen>`, :ref:`Nested Attributes <nested-attribute>`
+Related : :ref:`Array, [] <array>`, :ref:`Attribute <attribute>`, :ref:`Ternary Operator <ternary>`, :ref:`Loops <loop>`, :ref:`If Then Else <ifthen>`, :ref:`Nested Attributes <nested-attribute>`

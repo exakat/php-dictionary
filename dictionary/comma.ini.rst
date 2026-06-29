@@ -47,4 +47,4 @@ They do not have a value by themselves.
 
 `Documentation <https://en.wikipedia.org/wiki/Comma>`__
 
-Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array <array>`, :ref:`List <list>`, :ref:`Trailing Comma <trailing-comma>`
+Related : :ref:`Parameter <parameter>`, :ref:`Argument <argument>`, :ref:`Array, [] <array>`, :ref:`List <list>`, :ref:`Trailing Comma <trailing-comma>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Promise","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Promise.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Promise","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:38:26 +0000","dateModified":"Mon, 29 Jun 2026 09:38:26 +0000","description":"A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Promise.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Promise
@@ -24,13 +24,13 @@ Promise
 
 A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet. It allows to write code that can continue executing while waiting for the completion of a long-running task, such as making an HTTP request or querying a database.
 
-Promises follow the concept of promises in the context of the Promises/A+ specification, which is a widely adopted standard for asynchronous programming in many programming languages.
+Promises follow the concept from the context of the ``Promises/A+`` specification, which is a widely adopted standard for asynchronous programming in many programming languages.
 
-In PHP, promises are commonly used with libraries or frameworks that provide asynchronous functionality, such as Guzzle for making HTTP requests or ReactPHP for building asynchronous applications.
+Promises are commonly used with libraries or frameworks that provide asynchronous functionality, such as Guzzle for making HTTP requests or ReactPHP for building asynchronous applications.
 
 `Documentation <https://en.wikipedia.org/wiki/Futures_and_promises>`__
 
-See also `Promises in PHP <https://evertpot.com/promises-in-php/>`_, `Using JavaScript-style Promises in PHP <https://www.amitmerchant.com/using-javascript-style-promises-php/>`_ and `Pointless Promises in PHP <https://benwendt.ca/articles/pointless-promises-in-php/>`_.
+See also `Promises in PHP <https://evertpot.com/promises-in-php/>`_, `Using JavaScript-style Promises in PHP <https://www.amitmerchant.com/using-javascript-style-promises-php/>`_, `Pointless Promises in PHP <https://benwendt.ca/articles/pointless-promises-in-php/>`_ and `Promises/A+ <https://promisesaplus.com/>`_.
 
 Related : :ref:`Asynchronous <asynchronous>`, :ref:`Fibers <fibers>`, :ref:`Cancellation <cancellation>`, :ref:`Future <future>`
 

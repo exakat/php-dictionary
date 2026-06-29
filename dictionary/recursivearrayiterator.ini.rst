@@ -45,6 +45,6 @@ RecursiveArrayIterator
 
 See also `RecursiveArrayIterator Class <https://www.php.net/manual/en/class.recursivearrayiterator.php>`_ and `RecursiveIteratorIterator Class <https://www.php.net/manual/en/class.recursiveiteratoriterator.php>`_.
 
-Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Iterator <iterator>`, :ref:`Array <array>`, :ref:`Recursion <recursion>`, :ref:`Recursive Array <recursive-array>`, :ref:`RecursiveIterator <recursiveiterator>`, :ref:`SplSubject <splsubject>`
+Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Iterator <iterator>`, :ref:`Array, [] <array>`, :ref:`Recursion <recursion>`, :ref:`Recursive Array <recursive-array>`, :ref:`RecursiveIterator <recursiveiterator>`, :ref:`SplSubject <splsubject>`
 
 Added in PHP 5.1

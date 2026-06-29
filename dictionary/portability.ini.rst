@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Portability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:28:18 +0000","dateModified":"Fri, 19 Jun 2026 21:28:18 +0000","description":"Portability refers to the ability of a PHP codebase to run on different platforms or environments without requiring significant modifications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Portability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Portability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:36:20 +0000","dateModified":"Mon, 29 Jun 2026 09:36:20 +0000","description":"Portability refers to the ability of a PHP codebase to run on different platforms or environments without requiring significant modifications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Portability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Portability
@@ -26,7 +26,7 @@ Portability refers to the ability of a PHP codebase to run on different platform
 
 The notion of portability is essential because PHP applications are often deployed on various platforms, like Windows, Linux, or macOS, and different web servers like Apache HTTP Server or Nginx. 
 
-To ensure portability in PHP code, developers should follow best practices such as avoiding platform-specific functions, libraries, or configurations. Additionally, frameworks and libraries promote portability, such as Laravel or Symfony.
+To ensure portability of PHP code, developers should follow best practices such as avoiding platform-specific functions, libraries, or configurations. Additionally, frameworks and libraries promote portability, such as Laravel or Symfony.
 
 For example, some PHP functions are not available on Windows or Linux; Some extensions are not available on all platforms, such as ``scoutapm`` or ``com``. Such non-portable features should not be used, or made optional in code for which portability is important. For example, the COM extension, or win32service extensions are available only on Windows; the extensions ev and eio are only available on Linux. When accessing files, both the / used by Linux, and \ used by Windows are supported, though it is recommended to use the ``/``.
 

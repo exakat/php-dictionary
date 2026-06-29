@@ -41,6 +41,6 @@ Iterable is a pseudo-type, which accepts any array or object implementing the ``
 
 See also `Master PHP Iterables: Arrays, Objects, Traversable Interface <https://flatcoding.com/tutorials/php/the-essential-guide-for-php-iterable/>`_ and `PHP Iterators for walking through data structures – FastTips <https://inspector.dev/php-iterators-for-walking-through-data-structures-fasttips/>`_.
 
-Related : :ref:`Traversable <traversable>`, :ref:`Array <array>`, :ref:`Pseudo-type <pseudotype>`, :ref:`count() <count>`, :ref:`PHP Natives <native-type>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Special Types <special-typehint>`, :ref:`ArrayAccess <arrayaccess>`
+Related : :ref:`Traversable <traversable>`, :ref:`Array, [] <array>`, :ref:`Pseudo-type <pseudotype>`, :ref:`count() <count>`, :ref:`PHP Natives <native-type>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Special Types <special-typehint>`, :ref:`ArrayAccess <arrayaccess>`
 
 Added in PHP 7.1

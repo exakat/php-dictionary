@@ -1298,6 +1298,7 @@ Index
    dictionary/side-effect.ini
    dictionary/sign.ini
    dictionary/signature.ini
+   dictionary/signed-integer.ini
    dictionary/silent.ini
    dictionary/simple-switch.ini
    dictionary/simplexml.ini

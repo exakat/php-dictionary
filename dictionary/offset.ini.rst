@@ -41,4 +41,4 @@ The term offset refers to the position or index of an element within an array or
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`Array <array>`, :ref:`String <string>`, :ref:`Index For Arrays <index-array>`
+Related : :ref:`Array, [] <array>`, :ref:`String <string>`, :ref:`Index For Arrays <index-array>`

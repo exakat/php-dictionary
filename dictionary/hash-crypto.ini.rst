@@ -42,4 +42,4 @@ While the extension ``hash `` only process hashes, there are other extensions wh
 
 `Documentation <https://www.php.net/manual/en/book.hash.php>`__
 
-Related : :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Crack <crack>`, :ref:`hash_equals() <hash_equals>`, :ref:`One-Time Password (OTP) <otp>`
+Related : :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`, :ref:`Array, [] <array>`, :ref:`Map <map>`, :ref:`Crack <crack>`, :ref:`hash_equals() <hash_equals>`, :ref:`One-Time Password (OTP) <otp>`

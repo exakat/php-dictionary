@@ -52,6 +52,6 @@ Generator delegation works with another generators, ``Traversable`` objects, and
 
 See also `How to Use Yield and Generators in PHP <https://code.tutsplus.com/tutorials/how-to-use-yield-and-generators-in-php--cms-39200>`_.
 
-Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`, :ref:`Traversable <traversable>`, :ref:`Array <array>`, :ref:`Jump <jump>`, :ref:`range() <range>`, :ref:`Stealth Generator <stealth-generator>`
+Related : :ref:`Yield <yield>`, :ref:`Generator <generator>`, :ref:`Traversable <traversable>`, :ref:`Array, [] <array>`, :ref:`Jump <jump>`, :ref:`range() <range>`, :ref:`Stealth Generator <stealth-generator>`
 
 Added in PHP 7.0

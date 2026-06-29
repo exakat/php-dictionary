@@ -1,30 +1,30 @@
 .. _micro-optimisation:
 .. meta::
 	:description:
-		Micro-optimisation: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed.
+		Micro-optimisation: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Micro-optimisation
-	:twitter:description: Micro-optimisation: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed
+	:twitter:description: Micro-optimisation: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Micro-optimisation
 	:og:type: article
-	:og:description: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed
+	:og:description: A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Micro-optimisation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Micro-optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Micro-optimisation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:47:53 +0000","dateModified":"Wed, 24 Jun 2026 05:47:53 +0000","description":"A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Micro-optimisation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Micro-optimisation
 ------------------
 
-A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of speed.
+A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance.
 
-Micro-optimisation should be done only for highly constraints systems, or application that deliver a high number of hits in short times : usually, it takes one to ten millions usage for the gain to be visible. 
+Micro-optimisation should be done only for highly constraints systems, or application that deliver a high number of hits in short times: usually, it takes one to ten millions usage for the gain to be visible. 
 
 Yet, micro-optimisations may be valuable on the long run, or as a good practice. 
 

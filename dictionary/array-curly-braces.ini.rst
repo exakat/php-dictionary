@@ -43,6 +43,6 @@ This features was deprecated in version 8.0.
 
 See also `PHP RFC: Deprecate curly brace syntax for accessing array elements and string offsets <https://wiki.php.net/rfc/deprecate_curly_braces_array_access>`_.
 
-Related : :ref:`Array <array>`, :ref:`Bracket <bracket>`
+Related : :ref:`Array, [] <array>`, :ref:`Bracket <bracket>`
 
 Removed in PHP 

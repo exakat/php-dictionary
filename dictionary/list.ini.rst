@@ -64,4 +64,4 @@ A list is also the name given to arrays where the index are the automatic ones.
 
 See also `List-o-mania <https://markbakeruk.net/2022/06/06/list-o-mania/>`_.
 
-Related : :ref:`Array <array>`, :ref:`Comma <comma>`, :ref:`Double Arrow <double-arrow>`, :ref:`Square Brackets <square-bracket>`, :ref:`Tree <tree>`, :ref:`foreach() <foreach>`, :ref:`Sequence <sequence>`, :ref:`Swap <swap>`
+Related : :ref:`Array, [] <array>`, :ref:`Comma <comma>`, :ref:`Double Arrow <double-arrow>`, :ref:`Square Brackets <square-bracket>`, :ref:`Tree <tree>`, :ref:`foreach() <foreach>`, :ref:`Sequence <sequence>`, :ref:`Swap <swap>`

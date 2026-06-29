@@ -2,26 +2,26 @@
 .. _;:
 .. meta::
 	:description:
-		Semicolon: Semicolon ``.
+		Semicolon ;: Semicolon ``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Semicolon
-	:twitter:description: Semicolon: Semicolon ``
+	:twitter:title: Semicolon ;
+	:twitter:description: Semicolon ;: Semicolon ``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Semicolon
+	:og:title: Semicolon ;
 	:og:type: article
 	:og:description: Semicolon ``
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/semicolon.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Semicolon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:31:19 +0000","dateModified":"Fri, 19 Jun 2026 21:31:19 +0000","description":"Semicolon ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semicolon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Semicolon ;","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 06:12:06 +0000","dateModified":"Wed, 24 Jun 2026 06:12:06 +0000","description":"Semicolon ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semicolon ;.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Semicolon
----------
+Semicolon ;
+-----------
 
 Semicolon ``;`` is used to mark the end of a statement. 
 

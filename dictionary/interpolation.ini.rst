@@ -40,4 +40,4 @@ Interpolation is the PHP feature that automatically replaces variables and publi
 
 See also `String Interpolation in PHP <https://jeffreyeverhart.com/2019/11/21/string-interpolation-in-php/>`_ and `Interpolating Strings in PHP <https://reqbin.com/code/php/08tym4bq/php-string-interpolation-example>`_.
 
-Related : :ref:`String <string>`, :ref:`Concatenation <concatenation>`, :ref:`Heredocs <heredoc>`, :ref:`Variables <variable>`, :ref:`Dollar / <dollar>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Single Quotes Strings <single-quote>`
+Related : :ref:`String <string>`, :ref:`Concatenation \. <concatenation>`, :ref:`Heredocs <heredoc>`, :ref:`Variables <variable>`, :ref:`Dollar $ <dollar>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Single Quotes Strings <single-quote>`

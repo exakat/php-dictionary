@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:21 +0000","dateModified":"Fri, 19 Jun 2026 21:26:21 +0000","description":"Complexity refers to how difficult the code is to understand, maintain, test, and modify","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Complexity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:35:34 +0000","dateModified":"Sun, 28 Jun 2026 10:35:34 +0000","description":"Complexity refers to how difficult the code is to understand, maintain, test, and modify","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Complexity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Complexity
@@ -28,19 +28,19 @@ Complexity is measured with cyclomatic complexity, cognitive complexity, algorit
 
 Complexity increases when:
 
-+ code takes many decisions in one context
-+ logic is deeply nested
-+ responsibilities are mixed and matched
-+ behavior is not obvious, and includes magic
-+ code is not readable
-+ naming is confusing
++ Code takes many decisions in one context
++ Logic is deeply nested
++ Responsibilities are mixed and matched
++ Behavior is not obvious, and includes magic
++ Code is not readable
++ Naming is confusing
 
 Non-complex code tends to:
 
-+ have small functions
-+ clear naming
-+ limited branching
-+ avoid exploding combinaisons as much as possible
++ Have small functions
++ Clear naming
++ Limited branching
++ Avoid exploding combinaisons as much as possible
 
 Code complexity applies to all programming languages, and is not specific to PHP.
 

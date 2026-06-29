@@ -41,4 +41,4 @@ There are concatenative programming languages, and natural languages.
 
 See also `Concatenative Programming Language <https://en.wikipedia.org/wiki/Concatenative_programming_language>`_ and `Concatenative Morphology <https://inlpglossary.ca/concatenative-morphology/>`_.
 
-Related : :ref:`Concatenation <dot>`
+Related : :ref:`Concatenation \. <dot>`

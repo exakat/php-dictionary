@@ -40,6 +40,6 @@ An array with string index is an associative array.
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`Associative Array <associative-array>`, :ref:`Array <array>`, :ref:`Collection <collection>`
+Related : :ref:`Associative Array <associative-array>`, :ref:`Array, [] <array>`, :ref:`Collection <collection>`
 
 Related packages : `sebastian/object-enumerator <https://packagist.org/packages/sebastian/object-enumerator>`_, `ramsey/collection <https://packagist.org/packages/ramsey/collection>`_

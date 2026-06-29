@@ -45,4 +45,4 @@ There is also a bitwise not operator, which works at the bit level, on the value
 
 `Documentation <https://www.php.net/manual/en/language.operators.logical.php>`__
 
-Related : :ref:`Bang ! <bang>`, :ref:`~ Tilde <tilde>`, :ref:`Binary Not Operator <binary-not>`, :ref:`Logical Operators <logical-operator>`
+Related : :ref:`Bang ! <bang>`, :ref:`Tilde ~ <tilde>`, :ref:`Binary Not Operator <binary-not>`, :ref:`Logical Operators <logical-operator>`

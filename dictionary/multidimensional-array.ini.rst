@@ -56,4 +56,4 @@ PHP creates the arrays on the fly. When the intermediate array are undefined, PH
 
 `Documentation <https://www.php.net/manual/en/function.array.php>`__
 
-Related : :ref:`Array <array>`, :ref:`Array Element <array-element>`, :ref:`Index For Arrays <index-array>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`array_keys() <array_keys>`, :ref:`count() <count>`, :ref:`Dot Notation <dot-notation>`
+Related : :ref:`Array, [] <array>`, :ref:`Array Element <array-element>`, :ref:`Index For Arrays <index-array>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`array_keys() <array_keys>`, :ref:`count() <count>`, :ref:`Dot Notation <dot-notation>`

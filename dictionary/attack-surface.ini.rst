@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Attack Surface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Jun 2026 10:57:00 +0000","dateModified":"Mon, 22 Jun 2026 10:57:00 +0000","description":"The attack surface of an application is the sum of all the different points where an attacker could try to enter data, extract data, or trigger unintended behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Attack Surface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Attack Surface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:18:41 +0000","dateModified":"Sun, 28 Jun 2026 10:18:41 +0000","description":"The attack surface of an application is the sum of all the different points where an attacker could try to enter data, extract data, or trigger unintended behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Attack Surface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Attack Surface
@@ -24,12 +24,12 @@ Attack Surface
 
 The attack surface of an application is the sum of all the different points where an attacker could try to enter data, extract data, or trigger unintended behavior. The larger the attack surface, the more opportunities exist for exploitation.
 
-In PHP applications, the attack surface spans several layers:
+In applications, the attack surface spans several layers:
 
-+ **Application code**: input handling, query construction, file operations, (de)serialization.
-+ **Infrastructure endpoints**: PHP-FPM status pages, API diagnostic routes, health-check URLs: operational tooling that is often less hardened than the main application.
-+ **Dependencies**: every third-party package added to a project extends the attack surface with its own code, its own vulnerabilities, and its own transitive dependencies.
-+ **PHP extensions and shared libraries**: native extensions wrap C libraries whose vulnerabilities directly affect the PHP process.
++ Application code: input handling, query construction, file operations, serialization and deserialization.
++ Infrastructure endpoints: ``PHP-FPM`` status pages, API diagnostic routes, health-check URLs: operational tooling that is often less hardened than the main application.
++ Dependencies: every third-party package added to a project extends the attack surface with its own code, its own vulnerabilities, and its own transitive dependencies.
++ PHP extensions and shared libraries: native extensions wrap C libraries whose vulnerabilities directly affect the PHP process.
 
 A key principle is that every new feature or integration expands the attack surface. Modernizing a stack can improve security in many dimensions while simultaneously opening new areas that must be understood and managed.
 

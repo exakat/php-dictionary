@@ -49,6 +49,6 @@ Choosing the right data structure has a direct impact on algorithmic complexity 
 
 See also `Data Structures for PHP (ds extension) <https://www.php.net/manual/en/book.ds.php>`_ and `SPL Data Structures <https://www.php.net/manual/en/spl.datastructures.php>`_.
 
-Related : :ref:`Array <array>`, :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Collection <collection>`, :ref:`Deque <deque>`, :ref:`SplStack <splstack>`, :ref:`Map <map>`, :ref:`Tree <tree>`, :ref:`Queue <queue>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`, :ref:`Big-o-notation <big-o-notation>`, :ref:`Bucket <bucket>`, :ref:`Handle <handle>`, :ref:`Pair <pair>`, :ref:`Pop <pop>`, :ref:`Sequence <sequence>`, :ref:`Set <set>`, :ref:`SplDoublyLinkedList <spldoublylinkedlist>`, :ref:`SplObjectStorage <splobjectstorage>`
+Related : :ref:`Array, [] <array>`, :ref:`Data Structure <ds>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Collection <collection>`, :ref:`Deque <deque>`, :ref:`SplStack <splstack>`, :ref:`Map <map>`, :ref:`Tree <tree>`, :ref:`Queue <queue>`, :ref:`Algorithmic Complexity <algorithmic-complexity>`, :ref:`Big-o-notation <big-o-notation>`, :ref:`Bucket <bucket>`, :ref:`Handle <handle>`, :ref:`Pair <pair>`, :ref:`Pop <pop>`, :ref:`Sequence <sequence>`, :ref:`Set <set>`, :ref:`SplDoublyLinkedList <spldoublylinkedlist>`, :ref:`SplObjectStorage <splobjectstorage>`
 
 Related packages : `php-ds/php-ds <https://packagist.org/packages/php-ds/php-ds>`_

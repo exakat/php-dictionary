@@ -18,13 +18,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Build","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:37 +0000","dateModified":"Fri, 19 Jun 2026 21:25:37 +0000","description":"A build is the automated process of transforming source code into a deployable artifact","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Build.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Build","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:19:44 +0000","dateModified":"Sun, 28 Jun 2026 10:19:44 +0000","description":"A build is the automated process of transforming source code into a deployable artifact","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Build.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Build
 -----
 
-A build is the automated process of transforming source code into a deployable artifact. In PHP, build steps typically include: installing dependencies, running static analysis, executing tests, generating assets, and packaging the application.
+A build is the automated process of transforming source code into a deployable artifact. Build steps typically include: installing dependencies, running static analysis, executing tests, generating assets, and packaging the application.
 
 Build processes are commonly driven by tools such as Make, Phing, Composer scripts, or shell scripts, and are integrated into a Continuous Integration pipeline.
 
@@ -34,11 +34,11 @@ A reproducible build produces the same artifact from the same source code, which
    
    <?php
    
-   // composer.json scripts section acts as a simple build runner
-   // { "scripts": { "build": ["@lint", "@test", "@analyse"] } }
-   
-   // Phing build.xml target example:
-   // <target name="build" depends="lint,test,package"/>
+       // composer.json scripts section acts as a simple build runner
+       // { "scripts": { "build": ["@lint", "@test", "@analyse"] } }
+       
+       // Phing build.xml target example:
+       // <target name="build" depends="lint,test,package"/>
    
    ?>
 

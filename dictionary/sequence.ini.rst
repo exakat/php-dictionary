@@ -44,6 +44,6 @@ Unlike sets or maps, sequences allow duplicate values and maintain insertion ord
 
 See also `Ds\Sequence <https://www.php.net/manual/en/class.ds-sequence.php>`_ and `Ds\Vector <https://www.php.net/manual/en/class.ds-vector.php>`_.
 
-Related : :ref:`Data Structure <datastructure>`, :ref:`Collection <collection>`, :ref:`Array <array>`, :ref:`List <list>`, :ref:`Data Structure <ds>`, :ref:`SplSubject <splsubject>`
+Related : :ref:`Data Structure <datastructure>`, :ref:`Collection <collection>`, :ref:`Array, [] <array>`, :ref:`List <list>`, :ref:`Data Structure <ds>`, :ref:`SplSubject <splsubject>`
 
 Related packages : `php-ds/php-ds <https://packagist.org/packages/php-ds/php-ds>`_

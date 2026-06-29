@@ -67,4 +67,4 @@ It may also assign a key in regards to that value, from a second index or proper
 
 See also `array_column() on 3v4l.org <https://3v4l.org/Nc1uL#veol>`_.
 
-Related : :ref:`array_combine() <array_combine>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Array <array>`, :ref:`Index For Arrays <index-array>`
+Related : :ref:`array_combine() <array_combine>`, :ref:`Hash <hash>`, :ref:`Map <map>`, :ref:`Array, [] <array>`, :ref:`Index For Arrays <index-array>`

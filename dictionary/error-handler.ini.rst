@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error Handler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error Handler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error Handler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:39:54 +0000","dateModified":"Wed, 24 Jun 2026 05:39:54 +0000","description":"The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error Handler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Error Handler
@@ -24,7 +24,7 @@ Error Handler
 
 The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler. 
 
-The error handler is set with the set_error_handler() function. 
+The error handler is set with the ``set_error_handler()`` function. 
 
 The error handler is convenient to translate errors, handle custom levels of errors, or convert errors to exceptions. 
 
@@ -34,18 +34,19 @@ There is a separate exception handler.
    
    <?php
    
-   set_error_handler('customErrorHandler');
-   
-   function customErrorHandler($errno, $errstr, $errfile, $errline, array $errcontext)
-   {
-       // Handles @ error suppression
-       if (error_reporting === 0)
+       set_error_handler('customErrorHandler');
+       
+       function customErrorHandler($errno, $errstr, $errfile, $errline, array $errcontext)
        {
-           return false;
+           // Handles @ error suppression
+           if (error_reporting === 0)
+           {
+               return false;
+           }
+       
+           throw new Exception($errstr, 0, $errno, $errfile, $errline);
        }
    
-       throw new Exception($errstr, 0, $errno, $errfile, $errline);
-   }
    ?>
 
 

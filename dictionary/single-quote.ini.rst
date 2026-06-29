@@ -51,4 +51,4 @@ Single quote is also a simple characters. It is used for string, and as a delimi
 
 `Documentation <https://www.php.net/manual/en/ini.core.php#ini.disable-functions>`__
 
-Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Heredocs <heredoc>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`, :ref:`Dollar / <dollar>`, :ref:`Balanced <balanced>`, :ref:`Oblic Quotes <oblic-quote>`, :ref:`Single <single>`
+Related : :ref:`Double Quotes Strings <double-quote>`, :ref:`Heredocs <heredoc>`, :ref:`Interpolation <interpolation>`, :ref:`String <string>`, :ref:`Dollar $ <dollar>`, :ref:`Balanced <balanced>`, :ref:`Oblic Quotes <oblic-quote>`, :ref:`Single <single>`

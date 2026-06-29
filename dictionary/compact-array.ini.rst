@@ -46,4 +46,4 @@ This notion is not related to the ``compact()`` function.
 
 See also `PHP 7 performance improvements (1/5): Packed arrays <https://blog.blackfire.io/php-7-performance-improvements-packed-arrays.html>`_.
 
-Related : :ref:`Array <array>`, :ref:`compact() <compact>`, :ref:`array_values() <array_values>`, :ref:`array_keys() <array_keys>`, :ref:`Simple Switch <simple-switch>`
+Related : :ref:`Array, [] <array>`, :ref:`compact() <compact>`, :ref:`array_values() <array_values>`, :ref:`array_keys() <array_keys>`, :ref:`Simple Switch <simple-switch>`

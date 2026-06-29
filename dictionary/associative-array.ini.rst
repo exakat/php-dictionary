@@ -43,4 +43,4 @@ It is possible to use types others than integer and string with an array syntax:
 
 `Documentation <https://www.php.net/manual/en/language.types.array.php>`__
 
-Related : :ref:`Indexed Array <indexed-array>`, :ref:`Array <array>`, :ref:`Collection <collection>`, :ref:`Dictionary <dictionary>`, :ref:`Index <index>`, :ref:`ArrayAccess <arrayaccess>`, :ref:`Pair <pair>`
+Related : :ref:`Indexed Array <indexed-array>`, :ref:`Array, [] <array>`, :ref:`Collection <collection>`, :ref:`Dictionary <dictionary>`, :ref:`Index <index>`, :ref:`ArrayAccess <arrayaccess>`, :ref:`Pair <pair>`

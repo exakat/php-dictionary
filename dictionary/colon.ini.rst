@@ -48,4 +48,4 @@ The double colon is a distinct operator.
 
 `Documentation <https://en.wikipedia.org/wiki/Colon_(punctuation)>`__
 
-Related : :ref:`Goto <goto>`, :ref:`Goto Labels <label>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`, :ref:`Separator <separator>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Semicolon <semicolon>`, :ref:`Static Class <static-class>`
+Related : :ref:`Goto <goto>`, :ref:`Goto Labels <label>`, :ref:`Ternary Operator <ternary>`, :ref:`Coalesce Operator <null-ternary>`, :ref:`Coalesce Operator <coalesce>`, :ref:`Named Parameters <named-parameter>`, :ref:`Scope Resolution Operator :: <double-colon>`, :ref:`Separator <separator>`, :ref:`Scope Resolution Operator :: <scope-resolution-operator>`, :ref:`Semicolon ; <semicolon>`, :ref:`Static Class <static-class>`

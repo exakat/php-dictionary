@@ -44,4 +44,4 @@ Variables cannot be self-reference, although they might reference another variab
 
 `Documentation <https://en.wikipedia.org/wiki/Self-reference>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Array <array>`, :ref:`References <reference>`
+Related : :ref:`Variables <variable>`, :ref:`Array, [] <array>`, :ref:`References <reference>`

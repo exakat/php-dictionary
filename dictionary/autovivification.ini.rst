@@ -47,7 +47,7 @@ Autovivification from null is valid.
 
 See also `Autovivification on wikipedia <https://en.wikipedia.org/wiki/Autovivification>`_.
 
-Related : :ref:`Null <null>`, :ref:`False <false>`, :ref:`Array <array>`, :ref:`Default Value <default-value>`
+Related : :ref:`Null <null>`, :ref:`False <false>`, :ref:`Array, [] <array>`, :ref:`Default Value <default-value>`
 
 Added in PHP 5.0
 

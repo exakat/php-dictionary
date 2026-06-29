@@ -31,6 +31,6 @@ PHP has no native tree.
 
 See also `Trees and Tree Traversal in PHP <https://doeken.org/blog/tree-traversal-in-php>`_.
 
-Related : :ref:`Array <array>`, :ref:`List <list>`, :ref:`Data Structure <datastructure>`, :ref:`Graph <graph>`
+Related : :ref:`Array, [] <array>`, :ref:`List <list>`, :ref:`Data Structure <datastructure>`, :ref:`Graph <graph>`
 
 Related packages : `nicmart/tree <https://packagist.org/packages/nicmart/tree>`_

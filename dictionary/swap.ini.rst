@@ -43,4 +43,4 @@ Swap may be two things:
 
 `Documentation <https://en.wikipedia.org/wiki/Swap_(computer_programming)>`__
 
-Related : :ref:`List <list>`, :ref:`Array <array>`, :ref:`Variables <variable>`, :ref:`Algorithm <algorithm>`, :ref:`Sort <sort>`
+Related : :ref:`List <list>`, :ref:`Array, [] <array>`, :ref:`Variables <variable>`, :ref:`Algorithm <algorithm>`, :ref:`Sort <sort>`

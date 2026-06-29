@@ -28,6 +28,6 @@ Serde
 
 See also `PHP Serde <https://github.com/Crell/Serde>`_ and `Rust Serde <https://serde.rs/>`_.
 
-Related : :ref:`Serialization <serialization>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`, :ref:`Array <array>`, :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`Parquet <parquet>`
+Related : :ref:`Serialization <serialization>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`YAML Ain't Markup Language (YAML) <yaml>`, :ref:`Tom's Obvious Minimal Language (TOML) <toml>`, :ref:`Array, [] <array>`, :ref:`Comma Secparated Values (CSV) <csv>`, :ref:`Parquet <parquet>`
 
 Related packages : `crell/serde <https://packagist.org/packages/crell/serde>`_, `flix-tech/avro-serde-php <https://packagist.org/packages/flix-tech/avro-serde-php>`_

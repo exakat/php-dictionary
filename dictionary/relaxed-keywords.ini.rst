@@ -46,4 +46,4 @@ Using PHP keywords as names is not a commonly known feature, and generate a lot 
 
 `Documentation <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`__
 
-Related : :ref:`Dollar / <dollar>`
+Related : :ref:`Dollar $ <dollar>`

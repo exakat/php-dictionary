@@ -51,4 +51,4 @@ With objects or resources, a type error is emitted.
 
 See also `Array operators <https://www.php.net/manual/en/language.operators.array.php>`_ and `Combining arrays using + versus array_merge in PHP <https://www.texelate.co.uk/blog/combining-arrays-using-plus-versus-array-merge-in-php>`_.
 
-Related : :ref:`Array <array>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`TypeError <typeerror>`, :ref:`Division <division>`, :ref:`Operand <operand>`, :ref:`Plus + <plus>`, :ref:`Single <single>`
+Related : :ref:`Array, [] <array>`, :ref:`integer <integer>`, :ref:`Floating Point Numbers <float>`, :ref:`TypeError <typeerror>`, :ref:`Division <division>`, :ref:`Operand <operand>`, :ref:`Plus + <plus>`, :ref:`Single <single>`

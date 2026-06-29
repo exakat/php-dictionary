@@ -48,4 +48,4 @@ Maps are useful to associate a value with a specific key and perform operations 
 
 See also `Associative Arrays in PHP: An Overview <https://www.simplilearn.com/tutorials/php-tutorial/associative-array-in-php>`_.
 
-Related : :ref:`Array <array>`, :ref:`Index For Arrays <index-array>`, :ref:`Collection <collection>`, :ref:`array_column <array_column>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`, :ref:`Data Structure <datastructure>`, :ref:`Pair <pair>`
+Related : :ref:`Array, [] <array>`, :ref:`Index For Arrays <index-array>`, :ref:`Collection <collection>`, :ref:`array_column <array_column>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`hash() Function <hash-function>`, :ref:`Hash <hash>`, :ref:`Data Structure <datastructure>`, :ref:`Pair <pair>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:37 +0000","dateModified":"Fri, 19 Jun 2026 21:25:37 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 06:04:12 +0000","dateModified":"Wed, 24 Jun 2026 06:04:12 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Framework
@@ -28,7 +28,7 @@ Frameworks are often described as a platform: they stand as a layer above PHP, w
 
 Frameworks provides a set of tools and components to build applications, though they usually do not provide a comprehensive service out of the box: the framework must be used to build the application, usually in an original and creative way. For example, a framework may be used to build a forum or a CMS, while the opposite is rarely possible.
 
-There are lots of frameworks in PHP. In alphabetical order, here are some of them: 
+There are lots of frameworks written with PHP. In alphabetical order, here is a non exhaustive list: 
 
 + `Aura <https://auraphp.com/>`_
 + `Bolt CMS <https://boltcms.io/>`_

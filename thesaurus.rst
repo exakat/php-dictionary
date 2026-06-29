@@ -501,6 +501,7 @@ List of exceptions, available in PHP.
 + :ref:`Chaining Exceptions <exception-chain>`
 + :ref:`ClosedGeneratorException <closedgeneratorexception>`
 + :ref:`DivisionByZeroError <divisionbyzeroerror>`
++ :ref:`Exception <exception>`
 + :ref:`Exception Handler <exception-handler>`
 + :ref:`ImagickException <imagickexception>`
 + :ref:`ImagickPixelException <imagickpixelexception>`
@@ -528,7 +529,7 @@ List of PHP keywords and reserved names.
 
 + :ref:`Abstract Keyword <abstract>`
 + :ref:`And Operator <and>`
-+ :ref:`Array <array>`
++ :ref:`Array, [] <array>`
 + :ref:`Arrow Functions <arrow-function>`
 + :ref:`As <as>`
 + :ref:`Break <break>`
@@ -587,7 +588,7 @@ Language construct
 
 List of the PHP language construct: they look like a function, but are more special.
 
-+ :ref:`Array <array>`
++ :ref:`Array, [] <array>`
 + :ref:`Echo <echo>`
 + :ref:`Empty <empty>`
 + :ref:`Eval() <eval>`
@@ -626,6 +627,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Relative Types <relative-types>`
 + :ref:`Return Type <return-type>`
 + :ref:`Scalar Types <scalar-type>`
++ :ref:`Signed Integer <signed-integer>`
 + :ref:`Special Types <special-typehint>`
 + :ref:`Standalone Types <standalone-type>`
 + :ref:`Stringable <stringable>`
@@ -738,11 +740,11 @@ List of strings (characters, names), which are PHP tokens: they are useful to pa
 
 + :ref:`Colon <colon>`
 + :ref:`Comma <comma>`
-+ :ref:`Concatenation <concatenation>`
++ :ref:`Concatenation . <concatenation>`
 + :ref:`Double Arrow <double-arrow>`
 + :ref:`Ellipsis <ellipsis>`
 + :ref:`Parenthesis <parenthesis>`
-+ :ref:`Semicolon <semicolon>`
++ :ref:`Semicolon ; <semicolon>`
 + :ref:`Square Brackets <square-bracket>`
 
 Folklore
@@ -751,7 +753,7 @@ Folklore
 List of things that seems unrelated to PHP, but, suprisingly, are.
 
 + :ref:`Composer <composer>`
-+ :ref:`Dollar / <dollar>`
++ :ref:`Dollar $ <dollar>`
 + :ref:`Elephpant <elephpant>`
 + :ref:`Flag <flag>`
 + :ref:`Framework Interoperability Group (FIG) <php-fig>`
@@ -771,3 +773,80 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + :ref:`Scope Resolution Operator :: <scope-resolution-operator>`
 + :ref:`Separator <separator>`
 + :ref:`Tree <tree>`
+
+Static analysis
+---------------
+
+List of concepts related to static code analysis.
+
++ :ref:`Abstract Syntactic Tree (AST) <ast>`
++ :ref:`Analysis <analysis>`
++ :ref:`Appeasement Pattern <appeasement-pattern>`
++ :ref:`Call Graph <call-graph>`
++ :ref:`Code Smell <code-smell>`
++ :ref:`Cognitive Complexity <cognitive-complexity>`
++ :ref:`Complexity <complexity>`
++ :ref:`Control Flow Graph <control-flow-graph>`
++ :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
++ :ref:`Dead Code <dead-code>`
++ :ref:`Fossilized Methods <fossilized-method>`
++ :ref:`Gradual Type Checking <gradual-type-checking>`
++ :ref:`Lint, Won't Execute <lint-wont-execute>`
++ :ref:`Linting <linting>`
++ :ref:`Metrics <metrics>`
++ :ref:`Propagation <propagation>`
++ :ref:`Static Application Security Testing (SAST) <sast>`
++ :ref:`Static Code Analysis (SCA) <sca>`
++ :ref:`Static Single Assignment Form (SSA) <ssa>`
++ :ref:`Taint Analysis <taint>`
++ :ref:`Type Checking <type-checking>`
++ :ref:`Type Coverage <type-coverage>`
++ :ref:`Type Inference <type-inference>`
++ :ref:`Unreachable Code <unreachable-code>`
++ :ref:`Unused <unused>`
++ :ref:`Useless <useless>`
++ :ref:`Zombie Code <zombie-code>`
+
+Character
+---------
+
+List of single characters, and their special usage.
+
++ :ref:`@, No Scream Operator <noscream>`
++ :ref:`Backslash \ <back-slash>`
++ :ref:`Bang ! <bang>`
++ :ref:`Binary Not Operator <binary-not>`
++ :ref:`Carriage Return <carriage-return>`
++ :ref:`Codepoint <codepoint>`
++ :ref:`Colon <colon>`
++ :ref:`Concatenation . <concatenation>`
++ :ref:`Division <division>`
++ :ref:`Dollar $ <dollar>`
++ :ref:`E <e>`
++ :ref:`Emoji <emoji>`
++ :ref:`Escape Sequences <escape-sequence>`
++ :ref:`Hash # <hash-character>`
++ :ref:`Line Feed <line-feed>`
++ :ref:`Minus - <minus>`
++ :ref:`Modulo <modulo>`
++ :ref:`Multiplication <multiplication>`
++ :ref:`New Line <new-line>`
++ :ref:`Non Breakable Spaces <non-breakable-space>`
++ :ref:`Not Operator <not>`
++ :ref:`Null Byte <null-byte>`
++ :ref:`Oblic Quotes <oblic-quote>`
++ :ref:`Parenthesis <parenthesis>`
++ :ref:`Plus + <plus>`
++ :ref:`Pound # <pound>`
++ :ref:`Question Mark ? <question-mark>`
++ :ref:`Return Carriage <return-carriage>`
++ :ref:`Semicolon ; <semicolon>`
++ :ref:`Single Quotes Strings <single-quote>`
++ :ref:`Slash / <slash>`
++ :ref:`Space <space>`
++ :ref:`Square Brackets <square-bracket>`
++ :ref:`Star * <star>`
++ :ref:`Tabulation <tabulation>`
++ :ref:`Tilde ~ <tilde>`
++ :ref:`Underscore <underscore>`
++ :ref:`Whitespace <whitespace>`

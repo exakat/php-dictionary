@@ -48,4 +48,4 @@ Dereferencing is also possible to function and methods calls: when a function re
 
 See also `Function Array Dereferencing (FAD) <https://wiki.php.net/rfc/functionarraydereferencing>`_, `Array Dereferencing in PHP <https://xpertdeveloper.com/php-array-dereferencing/>`_ and `Function Array Dereferencing in PHP (example 8) <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax>`_.
 
-Related : :ref:`Functions <function>`, :ref:`Array <array>`, :ref:`Object <object>`, :ref:`Function Subscripting <function-subscripting>`
+Related : :ref:`Functions <function>`, :ref:`Array, [] <array>`, :ref:`Object <object>`, :ref:`Function Subscripting <function-subscripting>`

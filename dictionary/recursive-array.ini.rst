@@ -45,4 +45,4 @@ A recursive array is an array that contains a reference to itself. It is a legit
 
 `Documentation <https://en.wikipedia.org/wiki/Circular_reference>`__
 
-Related : :ref:`References <reference>`, :ref:`Array <array>`, :ref:`Recursion <recursion>`, :ref:`RecursiveArrayIterator <recursivearrayiterator>`
+Related : :ref:`References <reference>`, :ref:`Array, [] <array>`, :ref:`Recursion <recursion>`, :ref:`RecursiveArrayIterator <recursivearrayiterator>`

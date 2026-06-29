@@ -30,6 +30,6 @@ Collections may be build with array, or dedicated classes. There is native no su
 
 See also `Collections — How to improve your PHP code <https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13>`_ and `Illuminate Collections vs PHP Arrays <https://hackernoon.com/illuminate-collections-vs-php-arrays>`_.
 
-Related : :ref:`Enumeration (enum) <enum>`, :ref:`Hash <hash>`, :ref:`Associative Array <associative-array>`, :ref:`Index For Arrays <index-array>`, :ref:`Array <array>`, :ref:`Map <map>`, :ref:`Generics <generics>`, :ref:`Bucket <bucket>`, :ref:`Data Structure <datastructure>`, :ref:`Data Structure <ds>`, :ref:`Indexed Array <indexed-array>`, :ref:`Sequence <sequence>`, :ref:`Set <set>`, :ref:`SplDoublyLinkedList <spldoublylinkedlist>`, :ref:`SplObjectStorage <splobjectstorage>`
+Related : :ref:`Enumeration (enum) <enum>`, :ref:`Hash <hash>`, :ref:`Associative Array <associative-array>`, :ref:`Index For Arrays <index-array>`, :ref:`Array, [] <array>`, :ref:`Map <map>`, :ref:`Generics <generics>`, :ref:`Bucket <bucket>`, :ref:`Data Structure <datastructure>`, :ref:`Data Structure <ds>`, :ref:`Indexed Array <indexed-array>`, :ref:`Sequence <sequence>`, :ref:`Set <set>`, :ref:`SplDoublyLinkedList <spldoublylinkedlist>`, :ref:`SplObjectStorage <splobjectstorage>`
 
 Related packages : `ramsey/collection <https://packagist.org/packages/ramsey/collection>`_, `doctrine/collections <https://packagist.org/packages/doctrine/collections>`_, `illuminate/collections <https://packagist.org/packages/illuminate/collections>`_

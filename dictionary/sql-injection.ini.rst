@@ -44,4 +44,4 @@ Among the solutions to mitigate this problem: filter adequately the incoming dat
 
 See also `SQL Injection in PHP Web Applications <https://brightsec.com/blog/php-sql-injection/>`_ and `What is SQL injection and how to prevent it? <https://docs.php.earth/security/sql-injection/>`_.
 
-Related : :ref:`Semicolon <semicolon>`, :ref:`Prepared Query <prepared-query>`, :ref:`Injection <injection>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Second Order SQL Injection <second-order-sql-injection>`
+Related : :ref:`Semicolon ; <semicolon>`, :ref:`Prepared Query <prepared-query>`, :ref:`Injection <injection>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Second Order SQL Injection <second-order-sql-injection>`

@@ -54,4 +54,4 @@ The ``implode()`` function is used to join elements of an array into a glue, pla
 
 See also `How to use implode() in PHP (with examples) <https://tinkerwell.app/blog/how-to-use-implode-in-php>`_.
 
-Related : :ref:`Concatenation <concatenation>`, :ref:`Micro-optimisation <micro-optimisation>`, :ref:`Separator <separator>`
+Related : :ref:`Concatenation \. <concatenation>`, :ref:`Micro-optimisation <micro-optimisation>`, :ref:`Separator <separator>`

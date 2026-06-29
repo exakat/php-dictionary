@@ -47,4 +47,4 @@ While iterators play a similar role to arrays, they are not typed the same way. 
 
 `Documentation <https://www.php.net/manual/en/function.iterator-to-array.php>`__
 
-Related : :ref:`Iterator <iterator>`, :ref:`Array <array>`, :ref:`Generator <generator>`, :ref:`Yield <yield>`, :ref:`ArrayObject <arrayobject>`
+Related : :ref:`Iterator <iterator>`, :ref:`Array, [] <array>`, :ref:`Generator <generator>`, :ref:`Yield <yield>`, :ref:`ArrayObject <arrayobject>`
