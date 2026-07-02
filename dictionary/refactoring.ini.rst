@@ -1,28 +1,32 @@
 .. _refactoring:
 .. meta::
 	:description:
-		Refactoring: Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior.
+		Refactoring: Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Refactoring
-	:twitter:description: Refactoring: Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior
+	:twitter:description: Refactoring: Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Refactoring
 	:og:type: article
-	:og:description: Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior
+	:og:description: Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/refactoring.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refactoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refactoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refactoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:11:58 +0000","dateModified":"Wed, 01 Jul 2026 10:11:58 +0000","description":"Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refactoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Refactoring
 -----------
 
-Refactoring, in PHP as in any programming language, refers to the process of restructuring and improving the codebase of a PHP application without changing its external behavior. The primary goal of refactoring is to make the code more readable, maintainable, and efficient while reducing code duplication and potential bugs. Refactoring is an essential practice in software development to ensure that the code remains clean and adaptable as the project evolves.
+Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior. The primary goal of refactoring is to make the code more readable, maintainable, and efficient while reducing code duplication and potential bugs. 
+
+Refactoring is an essential practice in software development to ensure that the code remains clean and adaptable as the project evolves.
+
+The constraint of rewriting the code without changing the external behavior is somewhat misleading: for example, changing the algorithm to speed up the processing of a piece of data, changes its behavior as it is faster. Such behavior is usually desirable, so it is not considered as a change in behavior: at least, not a negative one. Yet, it still may have consequences on the rest of the application.
 
 .. code-block:: php
    

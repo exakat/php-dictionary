@@ -26,4 +26,4 @@ An artifact refers to any intermediate or final output that is produced during t
 
 `Documentation <https://en.wikipedia.org/wiki/Artifact_(software_development)>`__
 
-Related : :ref:`Deployment <deploy>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Release <release>`, :ref:`Compile <compile>`, :ref:`VCS <vcs>`, :ref:`Build <build>`
+Related : :ref:`Deployment <deploy>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Release <release>`, :ref:`Compile <compile>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`Build <build>`

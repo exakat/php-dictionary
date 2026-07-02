@@ -28,6 +28,6 @@ Git is a distributed version control system that is widely used for tracking cha
 
 See also `php-src on git <https://github.com/php/php-src>`_.
 
-Related : :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Revision <revision>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`VCS <vcs>`, :ref:`DevOps <devops>`, :ref:`Rollback <rollback>`, :ref:`VCS Commit <vcs-commit>`, :ref:`Worktree <worktree>`, :ref:`Contribution <contribution>`, :ref:`hg <hg>`
+Related : :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Revision <revision>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`DevOps <devops>`, :ref:`Rollback <rollback>`, :ref:`VCS Commit <vcs-commit>`, :ref:`Worktree <worktree>`, :ref:`Contribution <contribution>`, :ref:`hg <hg>`
 
 Related packages : `czproject/git-php <https://packagist.org/packages/czproject/git-php>`_, `gitonomy/gitlib <https://packagist.org/packages/gitonomy/gitlib>`_

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:26 +0000","dateModified":"Tue, 30 Jun 2026 09:14:26 +0000","description":"Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polling
@@ -66,6 +66,6 @@ Several PHP native functions include polling as a configuration: ``curl_multi_se
 
 `Documentation <https://en.wikipedia.org/wiki/Polling_(computer_science)>`__
 
-See also `stream_select <https://www.php.net/manual/en/function.stream-select.php>`_ and `pcntl_waitpid <https://www.php.net/manual/en/function.pcntl-waitpid.php>`_.
+See also `stream_select <https://www.php.net/manual/en/function.stream-select.php>`_, `pcntl_waitpid <https://www.php.net/manual/en/function.pcntl-waitpid.php>`_ and `The Polling API Is the Most Underrated RFC PHP Has Shipped in Years <https://www.juststeveking.com/articles/php-8-6-polling-api-rfc/>`_.
 
-Related : :ref:`sleep <sleep>`, :ref:`Stream <stream>`, :ref:`Socket <socket>`, :ref:`Event Driven <event-driven>`, :ref:`Blocking Wait <blocking-wait>`, :ref:`Real Time <real-time>`
+Related : :ref:`sleep <sleep>`, :ref:`Stream <stream>`, :ref:`Socket <socket>`, :ref:`Event Driven <event-driven>`, :ref:`Blocking Wait <blocking-wait>`, :ref:`Real Time <real-time>`, :ref:`C10K <c10k>`, :ref:`Edge Triggered <edge-triggered>`, :ref:`Fire-and-forget <fire-and-forget>`, :ref:`Non-blocking <non-blocking>`, :ref:`One-shot <one-shot>`

@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"TCP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/TCP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"TCP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:13:59 +0000","dateModified":"Thu, 02 Jul 2026 08:13:59 +0000","description":"``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/TCP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 TCP
 ---
 
-``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite. Together with IP (Internet Protocol), it forms the foundation for Internet communication. TCP is a connection-oriented protocol, meaning it establishes a reliable and secure connection between two devices before data is exchanged.
+``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite. Together with IP, it forms the foundation for Internet communication. TCP is a connection-oriented protocol, meaning it establishes a reliable and secure connection between two devices before data is exchanged.
 
 Key features of ``TCP`` include:
 
@@ -32,7 +32,7 @@ Key features of ``TCP`` include:
 + Error checking: it includes error-checking mechanisms to detect and retransmit lost or corrupted data. This contributes to the protocol's reliability.
 + Sequencing: it numbers each data packet so that the receiving device can reorder them and ensure that the data is delivered in the correct order.
 
-TCP is commonly used for applications that require high reliability and accurate delivery of data, such as web browsing, file transfers, and email. It operates at the transport layer of the OSI model and works in conjunction with the Internet Protocol (IP), which operates at the network layer. Together, TCP/IP provides a robust and standardized framework for communication over the Internet.
+TCP is commonly used for applications that require high reliability and accurate delivery of data, such as web browsing, file transfers, and email. It operates at the transport layer of the OSI model and works in conjunction with the Internet Protocol, which operates at the network layer. Together, TCP/IP provides a robust and standardized framework for communication over the Internet.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>`__

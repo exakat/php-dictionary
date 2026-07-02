@@ -43,4 +43,4 @@ Checksums are extensively used to check file downloads and network transmissions
 
 See also `An introduction to Checksums <https://johnothecoder.uk/2018/12/29/checksum-tutorial/>`_.
 
-Related : :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`VCS <vcs>`, :ref:`Fingerprint <fingerprint>`, :ref:`Package Manager <package-manager>`, :ref:`Digital Signature <digital-signature>`
+Related : :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`Fingerprint <fingerprint>`, :ref:`Package Manager <package-manager>`, :ref:`Digital Signature <digital-signature>`

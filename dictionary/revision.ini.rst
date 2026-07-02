@@ -26,4 +26,4 @@ A revision typically refers to a specific state or snapshot of a VCS repository 
 
 `Documentation <https://en.wikipedia.org/wiki/Revision_control>`__
 
-Related : :ref:`git <git>`, :ref:`VCS <vcs>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Continuous Delivery (CD) <cd>`, :ref:`Continuous Integration (CI) <ci>`
+Related : :ref:`git <git>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Continuous Delivery (CD) <cd>`, :ref:`Continuous Integration (CI) <ci>`

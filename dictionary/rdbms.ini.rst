@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relational DataBase Management System (RDBMS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:29:23 +0000","dateModified":"Fri, 19 Jun 2026 21:29:23 +0000","description":"RDBMS stands for Relational DataBase Management System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relational DataBase Management System (RDBMS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Relational DataBase Management System (RDBMS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:07:00 +0000","dateModified":"Wed, 01 Jul 2026 10:07:00 +0000","description":"RDBMS stands for Relational DataBase Management System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Relational DataBase Management System (RDBMS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Relational DataBase Management System (RDBMS)
@@ -24,7 +24,7 @@ Relational DataBase Management System (RDBMS)
 
 RDBMS stands for Relational DataBase Management System. It may also be called a SQL server.
 
-PHP can connect to multiple RDBMS: MySQL, Oracle, MariaDB, SQLite3, MSSQL, PostGreSQL, etc.
+PHP can connect to many different RDBMS, such as MySQL, Oracle, MariaDB, SQLite3, MSSQL, PostGreSQL, etc.
 
 PHP offers a native abstraction layer: ``PDO``. There are database abstraction as components too.
 

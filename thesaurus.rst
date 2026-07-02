@@ -30,6 +30,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Data Transfer Object (DTO) <dto>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Database Abstraction Layer (DBAL) <dbal>`
++ :ref:`Dependency Inversion (DIP) <dependency-inversion>`
 + :ref:`Design By Contract (DBC) <contract>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 + :ref:`Distributed Denial Of Service (DDOS) <ddos>`
@@ -56,6 +57,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Infrastructure as Code (IaC) <iac>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
 + :ref:`Internet Protocol (IP) <ip>`
++ :ref:`Internet of Things (IoT) <iot>`
 + :ref:`JPEG <jpg>`
 + :ref:`JSON Lines (JSONC) <jsonc>`
 + :ref:`JSON Lines (JSONL) <jsonl>`
@@ -113,6 +115,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
 + :ref:`Server Sent Event (SSE) <sse>`
++ :ref:`Service-Oriented Architecture (SOA) <soa>`
 + :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
@@ -140,6 +143,7 @@ List of acronyms, used in this dictionary.
 + :ref:`User Datagram Protocol (UDP) <udp>`
 + :ref:`User Operations For Zend (UOPZ) <uopz>`
 + :ref:`Value Object (VO) <vo>`
++ :ref:`Version Control System (VCS) <vcs>`
 + :ref:`Virtual Machine (VM) <virtual-machine>`
 + :ref:`World Wide Web (WWW) <web>`
 + :ref:`Write Everything Twice (WET) <wet>`
@@ -170,7 +174,9 @@ Concept
 List of concept, which are applied to PHP, but not exclusive to it.
 
 + :ref:`$this <$this>`
++ :ref:`ACID <acid>`
 + :ref:`AJAX <ajax>`
++ :ref:`API Gateway <api-gateway>`
 + :ref:`Abstraction <abstraction>`
 + :ref:`Abstraction Layer <abstraction-layer>`
 + :ref:`Access Control List (ACL) <acl>`
@@ -178,6 +184,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Active Record <active-record>`
 + :ref:`Algorithm <algorithm>`
 + :ref:`Alias <alias>`
++ :ref:`Anemic Domain Model <anemic-domain-model>`
++ :ref:`Anonymize <anonymize>`
 + :ref:`Anonymous <anonymous>`
 + :ref:`Anonymous Constant <anonymous-constant>`
 + :ref:`Anonymous Function <anonymous-function>`
@@ -205,6 +213,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Bug <bug>`
 + :ref:`Build <build>`
 + :ref:`Business Logic <business-logic>`
++ :ref:`C10K <c10k>`
++ :ref:`CAP Theorem <cap-theorem>`
 + :ref:`Cancellation <cancellation>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
@@ -217,10 +227,12 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Cloud <cloud>`
 + :ref:`Code Smell <code-smell>`
 + :ref:`Cohesion <cohesion>`
++ :ref:`Cold Start <cold-start>`
 + :ref:`Column Database <column-database>`
 + :ref:`Command <command>`
 + :ref:`Command Bus <command-bus>`
 + :ref:`Compatibility <compatibility>`
++ :ref:`Compensation Logic <compensation-logic>`
 + :ref:`Compile <compile>`
 + :ref:`Complexity <complexity>`
 + :ref:`Component <component>`
@@ -230,12 +242,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Consistency <consistency>`
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Constructor <constructor>`
++ :ref:`Container Orchestration <container-orchestration>`
 + :ref:`Contribution <contribution>`
 + :ref:`Controller <controller>`
 + :ref:`Convention <convention>`
 + :ref:`Convert <convert>`
 + :ref:`Coroutine <coroutine>`
 + :ref:`Coupling <coupling>`
++ :ref:`Cross-cutting Concerns <cross-cutting-concerns>`
 + :ref:`Cryptographic Hash <hash-crypto>`
 + :ref:`Custom <custom>`
 + :ref:`Custom Function <custom-function>`
@@ -250,6 +264,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Default Value <default-value>`
 + :ref:`Definition <definition>`
 + :ref:`Dependency Injection <dependency-injection>`
++ :ref:`Dependency Inversion (DIP) <dependency-inversion>`
 + :ref:`Deprecation <deprecation>`
 + :ref:`Depth <depth>`
 + :ref:`Dereferencing <dereferencing>`
@@ -258,7 +273,11 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Determinism <determinism>`
 + :ref:`Deterministic <deterministic>`
 + :ref:`Disable <disable>`
++ :ref:`Distributed Monolith <distributed-monolith>`
 + :ref:`Distributed State <distributed-state>`
++ :ref:`Distributed Systems <distributed-systems>`
++ :ref:`Distributed Tracing <distributed-tracing>`
++ :ref:`Distributed Transactions <distributed-transactions>`
 + :ref:`Documentation <documentation>`
 + :ref:`Domain <domain>`
 + :ref:`Domain Design Driven (DDD) <ddd>`
@@ -267,12 +286,18 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Dynamic <dynamic>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Edge Case <edge-case>`
++ :ref:`Edge Computing <edge-computing>`
++ :ref:`Edge Triggered <edge-triggered>`
 + :ref:`Embed <embed>`
 + :ref:`Enable <enable>`
 + :ref:`Encode <encode>`
 + :ref:`Escape Character <escape-character>`
 + :ref:`Escape Sequences <escape-sequence>`
 + :ref:`Event Driven <event-driven>`
++ :ref:`Event Replay <event-replay>`
++ :ref:`Event Store <event-store>`
++ :ref:`Event Streaming <event-streaming>`
++ :ref:`Eventual Consistency <eventual-consistency>`
 + :ref:`Execution <execution>`
 + :ref:`Existence <existence>`
 + :ref:`Explanation <explanation>`
@@ -284,11 +309,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Fallback <fallback>`
 + :ref:`Fat <fat>`
 + :ref:`Fat Controller <fat-controller>`
++ :ref:`Fault Isolation <fault-isolation>`
 + :ref:`Feature <feature>`
 + :ref:`Fingerprint <fingerprint>`
++ :ref:`Fire-and-forget <fire-and-forget>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Free <free>`
++ :ref:`Function-as-a-Service <faas>`
 + :ref:`Future <future>`
 + :ref:`Graph <graph>`
 + :ref:`HTTP Method <http-method>`
@@ -312,11 +340,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Injection <injection>`
 + :ref:`Instruction <instruction>`
 + :ref:`Internet <internet>`
++ :ref:`Internet of Things (IoT) <iot>`
 + :ref:`Introspection <introspection>`
 + :ref:`Jobqueue <jobqueue>`
 + :ref:`Jump <jump>`
++ :ref:`Kubernetes <kubernetes>`
 + :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Late Static Binding <late-static-binding>`
++ :ref:`Layered Architecture <layered-architecture>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Library <library>`
 + :ref:`Link <link>`
@@ -343,7 +374,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Native <native>`
 + :ref:`Network <network>`
 + :ref:`Neutral Element <neutral-element>`
++ :ref:`Non-blocking <non-blocking>`
 + :ref:`Noop <noop>`
++ :ref:`Numeronym <numeronym>`
++ :ref:`One-shot <one-shot>`
 + :ref:`Operator Overloading <operator-overloading>`
 + :ref:`Optimisation <optimisation>`
 + :ref:`Option <option>`
@@ -368,6 +402,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
 + :ref:`Polling <polling>`
 + :ref:`Polymorphism <polymorphism>`
++ :ref:`Ports And Adapters <ports-and-adapters>`
++ :ref:`Premature Optimization <premature-optimization>`
 + :ref:`Preprocessing <preprocess>`
 + :ref:`Progressive Web App <pwa>`
 + :ref:`Promise <promise>`
@@ -385,7 +421,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Renderer <renderer>`
 + :ref:`Replay <replay>`
 + :ref:`Request <request>`
++ :ref:`Request-Response <request-response>`
++ :ref:`Resilience <resilience>`
 + :ref:`Resource Leak <resource-leak>`
++ :ref:`Rich Domain Model <rich-domain-model>`
 + :ref:`Rich Text <rich-text>`
 + :ref:`SOLID <solid>`
 + :ref:`Sandbox <sandbox>`
@@ -398,6 +437,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Semantics <semantics>`
 + :ref:`Separation Of Concerns <separation-of-concerns>`
 + :ref:`Serverless <serverless>`
++ :ref:`Service Discovery <service-discovery>`
++ :ref:`Service Registry <service-registry>`
++ :ref:`Service-Oriented Architecture (SOA) <soa>`
++ :ref:`Shared Database <shared-database>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Slim <slim>`
@@ -421,6 +464,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Text <text>`
 + :ref:`Text Encoding <encoding-text>`
 + :ref:`Thin <thin>`
++ :ref:`Throughput <throughput>`
 + :ref:`Time To Live (TTL) <ttl>`
 + :ref:`To Crypt <crypt>`
 + :ref:`To Decrypt <decrypt>`
@@ -443,6 +487,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
 + :ref:`Visual Debt <visual-debt>`
++ :ref:`WAL <wal>`
 + :ref:`Workflow <workflow>`
 + :ref:`Writable <writable>`
 + :ref:`Writeable <writeable>`

@@ -39,4 +39,4 @@ Other tools transpile PHP code to another language, such as Rust or .NET, and th
 
 See also `kphp <https://vkcom.github.io/kphp/>`_, `static-php-cli <https://github.com/crazywhalecc/static-php-cli>`_ and `RoadRunner <https://roadrunner.dev/>`_.
 
-Related : :ref:`Linting <linting>`, :ref:`Interpreted <interpreted>`, :ref:`Ahead Of Time (OAT) <aot>`, :ref:`__halt_compiler() <halt-compiler>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Transpile <transpile>`, :ref:`Virtual Machine (VM) <runtime>`, :ref:`Artifact <artifact>`, :ref:`Monomorphization <monomorphization>`, :ref:`Order Of Execution <order-of-execution>`
+Related : :ref:`Linting <linting>`, :ref:`Interpreted <interpreted>`, :ref:`Ahead Of Time <aot>`, :ref:`__halt_compiler() <halt-compiler>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Transpile <transpile>`, :ref:`Virtual Machine (VM) <runtime>`, :ref:`Artifact <artifact>`, :ref:`Monomorphization <monomorphization>`, :ref:`Order Of Execution <order-of-execution>`

@@ -2,32 +2,32 @@
 .. _scm:
 .. meta::
 	:description:
-		VCS: VCS stands for Version Control System.
+		Version Control System (VCS): ``VCS`` stands for Version Control System.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: VCS
-	:twitter:description: VCS: VCS stands for Version Control System
+	:twitter:title: Version Control System (VCS)
+	:twitter:description: Version Control System (VCS): ``VCS`` stands for Version Control System
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: VCS
+	:og:title: Version Control System (VCS)
 	:og:type: article
-	:og:description: VCS stands for Version Control System
+	:og:description: ``VCS`` stands for Version Control System
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/vcs.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"VCS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"VCS stands for Version Control System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/VCS.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Version Control System (VCS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:00:41 +0000","dateModified":"Tue, 30 Jun 2026 09:00:41 +0000","description":"``VCS`` stands for Version Control System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Version Control System (VCS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-VCS
----
+Version Control System (VCS)
+----------------------------
 
-VCS stands for Version Control System. It is a software tool or system that helps manage changes to files and documents over time. It is particularly useful in situations where multiple people are collaborating on the same project, allowing them to track modifications, work on different versions of files concurrently, and manage the history of changes. Version control systems are commonly used in software development, but they can also be applied to various other types of projects where tracking changes is important.
+``VCS`` stands for Version Control System. It is a software tool or system that helps manage changes to files and documents over time. It is particularly useful in situations where multiple people are collaborating on the same project, allowing them to track modifications, work on different versions of files concurrently, and manage the history of changes. Version control systems are commonly used in software development, but they can also be applied to various other types of projects where tracking changes is important.
 
-A VCS is also called a SCM: Source Control Management. 
+A ``VCS`` is also called a SCM: ``Source Control Management``. 
 
-VCS is a common tool to manage code versions. There are many such systems: GIT, mercurial, SVN, CVS, etc.
+``VCS`` is a common tool to manage code versions. There are many such systems: git, mercurial, SVN, CVS, etc. The most popular is git.
 
 `Documentation <https://en.wikipedia.org/wiki/Version_control>`__
 

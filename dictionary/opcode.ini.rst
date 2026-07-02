@@ -31,4 +31,4 @@ Generally speaking, coders never come close to opcodes. The only occasion is whe
 
 See also `What is OPcache and How Do You Use It? <https://wp-rocket.me/wordpress-cache/what-is-opcache/>`_.
 
-Related : :ref:`PHP Engine <php-engine>`, :ref:`Ahead Of Time (OAT) <aot>`, :ref:`Opcache <opcache>`, :ref:`Opcode Specialisation <opcode-specialization>`
+Related : :ref:`PHP Engine <php-engine>`, :ref:`Ahead Of Time <aot>`, :ref:`Opcache <opcache>`, :ref:`Opcode Specialisation <opcode-specialization>`

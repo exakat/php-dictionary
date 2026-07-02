@@ -29,4 +29,4 @@ A commit is a validation of changes.
 
 `Documentation <https://en.wikipedia.org/wiki/Commit_(version_control)>`__
 
-Related : :ref:`VCS Commit <vcs-commit>`, :ref:`Database Commit <database-commit>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Pull Request (PR) <pr>`, :ref:`VCS <vcs>`, :ref:`Worktree <worktree>`
+Related : :ref:`VCS Commit <vcs-commit>`, :ref:`Database Commit <database-commit>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Pull Request (PR) <pr>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`Worktree <worktree>`

@@ -32,6 +32,6 @@ With Just-In-Time compilation, the code is not interpreted line by line. Instead
 
 See also `PHP 8.0: JIT <https://php.watch/versions/8.0/JIT>`_, `Exploring the New PHP JIT Compiler <https://www.zend.com/blog/exploring-new-php-jit-compiler>`_ and `PHP 8.4 JIT Under the Microscope: Benchmarking Real Symfony 7.4 Applications (Part 1) <https://medium.com/@laurentmn/%EF%B8%8F-php-8-4-jit-under-the-microscope-benchmarking-real-symfony-7-4-applications-part-1-c685e1326f5e>`_.
 
-Related : :ref:`Ahead Of Time (OAT) <aot>`, :ref:`Compile <compile>`, :ref:`Opcache <opcache>`, :ref:`Bottleneck <bottleneck>`, :ref:`Interpreted <interpreted>`, :ref:`Monomorphization <monomorphization>`, :ref:`Static Single Assignment Form (SSA) <ssa>`
+Related : :ref:`Ahead Of Time <aot>`, :ref:`Compile <compile>`, :ref:`Opcache <opcache>`, :ref:`Bottleneck <bottleneck>`, :ref:`Interpreted <interpreted>`, :ref:`Monomorphization <monomorphization>`, :ref:`Static Single Assignment Form (SSA) <ssa>`
 
 Added in PHP 8.0+

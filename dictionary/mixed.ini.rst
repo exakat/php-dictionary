@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mixed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A special type that represents any available type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mixed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mixed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 06:40:05 +0000","dateModified":"Thu, 02 Jul 2026 06:40:05 +0000","description":"A special type that represents any available type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mixed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Mixed
@@ -45,7 +45,7 @@ A ``mixed`` type may be also represented by a union of all possible types.
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed>`__
 
-See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_ and `A mixed type PHPStan journey <https://staabm.github.io/2024/11/26/phpstan-mixed-types.html>`_.
+See also `Mixed Type PHP 8 <https://www.amitmerchant.com/mixed-type-php8/>`_, `A mixed type PHPStan journey <https://staabm.github.io/2024/11/26/phpstan-mixed-types.html>`_ and `Why `mixed` Is the Worst Type in Your PHP Codebase (and How to Kill It) <https://dev.to/gabrielanhaia/why-mixed-is-the-worst-type-in-your-php-codebase-and-how-to-kill-it-3ie>`_.
 
 Related : :ref:`Type System <type>`, :ref:`Pseudo-type <pseudo-type>`, :ref:`Special Types <special-typehint>`, :ref:`Type Inference <type-inference>`, :ref:`Wildcard <wildcard>`
 

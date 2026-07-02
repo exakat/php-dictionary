@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Identity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:14 +0000","dateModified":"Fri, 19 Jun 2026 21:24:14 +0000","description":"Identity has several related but distinct meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Identity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Identity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 10:11:49 +0000","dateModified":"Mon, 29 Jun 2026 10:11:49 +0000","description":"Identity has several related but distinct meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Identity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Identity
@@ -50,6 +50,6 @@ PHP applications manage identity through unique IDs, session tokens, and authent
 
 `Documentation <https://en.wikipedia.org/wiki/Identity_(object-oriented_programming)>`__
 
-See also `Identity vs Equality in PHP <https://stitcher.io/blog/comparing-dates-php>`_, `DDD: Entities vs Value Objects <https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/>`_ and `A Comprehensive Analysis of PHP Equality (==) and Identity (===) Operators <https://devgex.com/en/article/00012697>`_.
+See also `Identity vs Equality in PHP <https://stitcher.io/blog/comparing-dates>`_, `DDD: Entities vs Value Objects <https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/>`_ and `A Comprehensive Analysis of PHP Equality (==) and Identity (===) Operators <https://devgex.com/en/article/00012697>`_.
 
 Related : :ref:`Identification <identification>`, :ref:`Authentication <authentication>`, :ref:`Identity Comparison <identity-comparison>`, :ref:`Equal Operator <equal>`, :ref:`JSON Web Token (JWT) <jwt>`, :ref:`Universally Unique IDentifier (UUID) <uuid>`, :ref:`Object <object>`, :ref:`Clone <clone>`, :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Noop <no-operation>`, :ref:`Callables <callable>`, :ref:`Functions <function>`, :ref:`Noop <noop>`

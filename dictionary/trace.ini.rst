@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Trace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A trace is the list of called functions during an execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Trace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Trace","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:11:58 +0000","dateModified":"Thu, 02 Jul 2026 08:11:58 +0000","description":"A trace is the list of called functions during an execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Trace.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Trace
@@ -25,7 +25,7 @@ Trace
 
 A trace is the list of called functions during an execution. It lists all the code that was executed, and helps with debugging.
 
-In PHP, a trace is automatically calculated with an exception, or the function ``debug_backtrace()``. This shows the stack trace at the error point.
+A trace is automatically calculated with an exception, or the function ``debug_backtrace()``. This shows the stack trace at the error point.
 
 Other tools, like xDebug or php-trace, build the callgraph over the execution of the whole code, not only on errors.
 
@@ -33,22 +33,23 @@ Other tools, like xDebug or php-trace, build the callgraph over the execution of
    
    <?php
    
-   function c() {
-       throw new Exception(Something went wrong);
-   }
-   function a() { b(); }
-   function b() { c(); }
+       function c() {
+           throw new Exception(Something went wrong);
+       }
+       function a() { b(); }
+       function b() { c(); }
+       
+       a();
+       
+       /**
+       Fatal error: Uncaught Exception: Something went wrong in file.php:3
+       Stack trace:
+       #0 file.php(7): c()
+       #1 file.php(11): b()
+       #2 file.php(14): a()
+       #3 {main}
+       */
    
-   a();
-   
-   /**
-   Fatal error: Uncaught Exception: Something went wrong in file.php:3
-   Stack trace:
-   #0 file.php(7): c()
-   #1 file.php(11): b()
-   #2 file.php(14): a()
-   #3 {main}
-   */
    ?>
 
 

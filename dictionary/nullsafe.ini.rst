@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Nullsafe","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:54 +0000","dateModified":"Fri, 19 Jun 2026 21:25:54 +0000","description":"A nullsafe operator is able to carry a function or fail graciously to ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Nullsafe.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Nullsafe","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 10:12:32 +0000","dateModified":"Mon, 29 Jun 2026 10:12:32 +0000","description":"A nullsafe operator is able to carry a function or fail graciously to ``null``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Nullsafe.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Nullsafe
@@ -33,19 +33,19 @@ There are two PHP operators that are nullsafe:
    
    <?php
    
-   $a = foo();
-   
-   $b = $a?->method();
-   
-   $b = $a?->chain1?->chain2?->method();
-   
-   // foo may return null
-   function foo() : ?A { }
+       $a = foo();
+       
+       $b = $a?->method();
+       
+       $b = $a?->chain1?->chain2?->method();
+       
+       // foo may return null
+       function foo() : ?A { }
    
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/language.oop5.nullsafe.php>`__
+`Documentation <https://www.php.net/oop5.basic>`__
 
 See also `Mastering Null Safety in PHP 8: A Comprehensive Guide to Using the Null Safe Operator <https://medium.com/@prevailexcellent/mastering-null-safety-in-php-8-a-comprehensive-guide-to-using-the-null-safe-operator-47835ba1140b>`_ and `PHP 8.0: Null-safe operator <https://php.watch/versions/8.0/null-safe-operator>`_.
 

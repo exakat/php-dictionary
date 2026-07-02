@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP AI Editor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:27:56 +0000","dateModified":"Fri, 19 Jun 2026 21:27:56 +0000","description":"A PHP AI editor is a development environment or plugin that integrates artificial intelligence to assist with writing, reviewing, and refactoring PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP AI Editor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP AI Editor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 10:13:09 +0000","dateModified":"Mon, 29 Jun 2026 10:13:09 +0000","description":"A PHP AI editor is a development environment or plugin that integrates artificial intelligence to assist with writing, reviewing, and refactoring PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP AI Editor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP AI Editor
@@ -29,7 +29,5 @@ A PHP AI editor is a development environment or plugin that integrates artificia
 Prominent AI editors and assistants used with PHP include GitHub Copilot, integrated into VS Code, JetBrains IDEs, and others, JetBrains AI Assistant, built into PhpStorm, Cursor, an AI-first fork of VS Code, and Claude Code, a CLI tool by Anthropic. Many editors rely on large language models trained on code to generate context-aware suggestions.
 
 AI editors are increasingly combined with static analysis tools, so that suggestions respect project-specific coding standards, type information, and detected issues.
-
-`Documentation <https://en.wikipedia.org/wiki/AI_programming_assistant>`__
 
 Related : :ref:`PHP Editor <php-editor>`, :ref:`Integrated Environment of Development (IDE) <ide>`, :ref:`Large Language Model (LLM) <llm>`, :ref:`Artificial Intelligence (AI) <ai>`, :ref:`Autocompletion <autocompletion>`

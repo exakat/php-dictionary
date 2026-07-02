@@ -33,4 +33,4 @@ A Pull Request may be build on a dedicated branch, and over several commits.
 
 `Documentation <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`__
 
-Related : :ref:`Commit <commit>`, :ref:`Branch <branch>`, :ref:`VCS <vcs>`, :ref:`Code Review <code-review>`, :ref:`Pipeline <pipeline>`, :ref:`Contribution <contribution>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`VCS Commit <vcs-commit>`
+Related : :ref:`Commit <commit>`, :ref:`Branch <branch>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`Code Review <code-review>`, :ref:`Pipeline <pipeline>`, :ref:`Contribution <contribution>`, :ref:`Concurent Version System (CVS) <cvs>`, :ref:`VCS Commit <vcs-commit>`

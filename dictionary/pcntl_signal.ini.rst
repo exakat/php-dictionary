@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"pcntl_signal()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``pcntl_signal()`` installs a signal handler for a given OS signal","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pcntl_signal().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"pcntl_signal()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:21:29 +0000","dateModified":"Thu, 02 Jul 2026 08:21:29 +0000","description":"``pcntl_signal()`` installs a signal handler for a given OS signal","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pcntl_signal().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 pcntl_signal()
@@ -24,9 +24,9 @@ pcntl_signal()
 
 ``pcntl_signal()`` installs a signal handler for a given OS signal. When the specified signal is received by the PHP process, the installed callable is executed.
 
-Common signals include ``SIGTERM`` (graceful termination), ``SIGINT`` (Ctrl+C interrupt), ``SIGHUP`` (reload configuration), and ``SIGCHLD`` (child process state change). The constant ``SIG_DFL`` restores the default OS handler and ``SIG_IGN`` ignores the signal.
+Common signals include ``SIGTERM``, the graceful termination, ``SIGINT``, the Ctrl+C interrupt, ``SIGHUP``, the reload configuration, and ``SIGCHLD``, the child process state change. The constant ``SIG_DFL`` restores the default OS handler and ``SIG_IGN`` ignores the signal.
 
-Signal handlers are not called immediately when a signal arrives: PHP checks for pending signals between opcodes. Calling ``pcntl_async_signals(true)`` enables asynchronous signal dispatching so that handlers run as soon as the signal is received, without waiting for the next opcode boundary.
+Signal handlers are not called immediately when a signal arrives: the engine checks for pending signals between opcodes. Calling ``pcntl_async_signals(true)`` enables asynchronous signal dispatching so that handlers run as soon as the signal is received, without waiting for the next opcode boundary.
 
 ``pcntl_signal()`` is available only in CLI SAPI and requires the ``pcntl`` extension.
 
@@ -34,23 +34,23 @@ Signal handlers are not called immediately when a signal arrives: PHP checks for
    
    <?php
    
-   pcntl_async_signals(true);
-   
-   pcntl_signal(SIGTERM, function (int $signal): void {
-       echo 'Received SIGTERM, shutting down gracefully.' . PHP_EOL;
-       // Clean up resources, flush buffers, etc.
-       exit(0);
-   });
-   
-   pcntl_signal(SIGINT, function (int $signal): void {
-       echo 'Received SIGINT (Ctrl+C).' . PHP_EOL;
-       exit(0);
-   });
-   
-   echo 'Running... send SIGTERM or press Ctrl+C' . PHP_EOL;
-   while (true) {
-       sleep(1);
-   }
+       pcntl_async_signals(true);
+       
+       pcntl_signal(SIGTERM, function (int $signal): void {
+           echo 'Received SIGTERM, shutting down gracefully.' . PHP_EOL;
+           // Clean up resources, flush buffers, etc.
+           exit(0);
+       });
+       
+       pcntl_signal(SIGINT, function (int $signal): void {
+           echo 'Received SIGINT (Ctrl+C).' . PHP_EOL;
+           exit(0);
+       });
+       
+       echo 'Running... send SIGTERM or press Ctrl+C' . PHP_EOL;
+       while (true) {
+           sleep(1);
+       }
    
    ?>
 

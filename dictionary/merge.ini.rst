@@ -42,4 +42,4 @@ To merge is the action of combining two things into one. There are usually two m
 
 `Documentation <https://www.php.net/manual/en/function.array-merge.php>`__
 
-Related : :ref:`array_merge() <array_merge>`, :ref:`VCS <vcs>`, :ref:`VCS Commit <vcs-commit>`
+Related : :ref:`array_merge() <array_merge>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`VCS Commit <vcs-commit>`

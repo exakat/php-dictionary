@@ -33,4 +33,4 @@ Several commits are grouped into a pull request or PR, for code review. Commit m
 
 See also `git-commit reference <https://git-scm.com/docs/git-commit>`_, `Conventional Commits specification <https://www.conventionalcommits.org/>`_ and `Git internals: commits and objects <https://git-scm.com/book/en/v2/Git-Internals-Git-Objects>`_.
 
-Related : :ref:`git <git>`, :ref:`VCS <vcs>`, :ref:`Pull Request (PR) <pr>`, :ref:`Code Review <code-review>`, :ref:`Branch <branch>`, :ref:`Merge <merge>`, :ref:`Diff <diff>`, :ref:`Rollback <rollback>`, :ref:`Worktree <worktree>`, :ref:`SVN <svn>`, :ref:`hg <hg>`, :ref:`Commit <commit>`, :ref:`Timing Attack <timing-attack>`
+Related : :ref:`git <git>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`Pull Request (PR) <pr>`, :ref:`Code Review <code-review>`, :ref:`Branch <branch>`, :ref:`Merge <merge>`, :ref:`Diff <diff>`, :ref:`Rollback <rollback>`, :ref:`Worktree <worktree>`, :ref:`SVN <svn>`, :ref:`hg <hg>`, :ref:`Commit <commit>`, :ref:`Timing Attack <timing-attack>`

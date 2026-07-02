@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Runtime","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:28:00 +0000","dateModified":"Fri, 19 Jun 2026 21:28:00 +0000","description":"The PHP runtime is the engine that executes PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Runtime.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Runtime","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 10:13:25 +0000","dateModified":"Mon, 29 Jun 2026 10:13:25 +0000","description":"The PHP runtime is the engine that executes PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Runtime.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Runtime
@@ -37,8 +37,6 @@ There are also custom runtimes, which takes the PHP code as input, and execute i
 
 These projects are complete rewrite of PHP with another technology. This is distinct from embedding PHP, where an original PHP engine is incorporated in another language.
 
-
-`Documentation <https://www.php.net/manual/en/internals2.php>`__
 
 See also `PHP on Rust <https://github.com/turbine-dev/turbine>`_, `PHP on Zig <https://github.com/nvms/zphp>`_, `PHP on Java <https://www.caucho.com/resin-3.1/doc/quercus.xtp>`_ and `PHP on wasm <https://github.com/seanmorris/php-wasm>`_.
 

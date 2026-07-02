@@ -27,4 +27,4 @@ hg
 
 `Documentation <https://www.mercurial-scm.org/>`__
 
-Related : :ref:`VCS <vcs>`, :ref:`git <git>`, :ref:`SVN <svn>`, :ref:`VCS Commit <vcs-commit>`, :ref:`Concurent Version System (CVS) <cvs>`
+Related : :ref:`Version Control System (VCS) <vcs>`, :ref:`git <git>`, :ref:`SVN <svn>`, :ref:`VCS Commit <vcs-commit>`, :ref:`Concurent Version System (CVS) <cvs>`

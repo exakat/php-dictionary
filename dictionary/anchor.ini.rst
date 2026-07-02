@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Anchor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An anchor is an HTML element ``<a>`` used to create hyperlinks, allowing navigation to other pages, resources, or sections within the same page","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anchor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Type iterable|array contains both iterable and array, which is redundant.html","name":"Anchor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:53:24 +0000","dateModified":"Thu, 02 Jul 2026 08:53:24 +0000","description":"An anchor is an HTML element ``<a>`` used to create hyperlinks, allowing navigation to other pages, resources, or sections within the same page","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anchor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Anchor
@@ -32,23 +32,23 @@ Anchors are frequently generated programmatically when building HTML output, nav
    
    <?php
    
-   // Generating an anchor safely in PHP
-   $url   = 'https://www.php.net/';
-   $label = 'PHP Manual';
-   
-   // htmlspecialchars prevents XSS
-   echo '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '">'
-       . htmlspecialchars($label, ENT_QUOTES, 'UTF-8')
-       . '</a>';
-   
-   // Fragment / in-page anchor
-   echo '<a href="#section-2">Go to section 2</a>';
+       // Generating an anchor safely in PHP
+       $url   = 'https://www.php.net/';
+       $label = 'PHP Manual';
+       
+       // htmlspecialchars prevents XSS
+       echo '<a href="' . htmlspecialchars($url, ENT_QUOTES, 'UTF-8') . '">'
+           . htmlspecialchars($label, ENT_QUOTES, 'UTF-8')
+           . '</a>';
+       
+       // Fragment / in-page anchor
+       echo '<a href="#section-2">Go to section 2</a>';
    
    ?>
 
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a>`__
 
-See also `HTML anchor element - MDN <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a>`_.
+See also `Nested Anchor Links using CSS <https://www.amitmerchant.com/nested-anchor-links-using-css/>`_.
 
 Related : :ref:`HyperText Markup Language (HTML) <html>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`parse_url() <parse_url>`, :ref:`http_build_query() <http_build_query>`, :ref:`HTML Escaping <escape-html>`, :ref:`Link <link>`, :ref:`Pound # <pound>`

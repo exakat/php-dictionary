@@ -3,28 +3,28 @@
 .. _development-operations:
 .. meta::
 	:description:
-		DevOps: DevOps is a set of cultural practices, tools, and methodologies that combine software development (Dev) and IT operations (Ops) to shorten the systems development lifecycle and deliver high-quality software continuously.
+		DevOps: DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: DevOps
-	:twitter:description: DevOps: DevOps is a set of cultural practices, tools, and methodologies that combine software development (Dev) and IT operations (Ops) to shorten the systems development lifecycle and deliver high-quality software continuously
+	:twitter:description: DevOps: DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: DevOps
 	:og:type: article
-	:og:description: DevOps is a set of cultural practices, tools, and methodologies that combine software development (Dev) and IT operations (Ops) to shorten the systems development lifecycle and deliver high-quality software continuously
+	:og:description: DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/devops.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DevOps","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"DevOps is a set of cultural practices, tools, and methodologies that combine software development (Dev) and IT operations (Ops) to shorten the systems development lifecycle and deliver high-quality software continuously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DevOps.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DevOps","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:12:03 +0000","dateModified":"Tue, 30 Jun 2026 09:12:03 +0000","description":"DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DevOps.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 DevOps
 ------
 
-DevOps is a set of cultural practices, tools, and methodologies that combine software development (Dev) and IT operations (Ops) to shorten the systems development lifecycle and deliver high-quality software continuously.
+DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously.
 
 Key DevOps practices relevant to PHP projects include:
 

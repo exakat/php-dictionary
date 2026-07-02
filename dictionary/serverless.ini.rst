@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serverless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:31:34 +0000","dateModified":"Fri, 19 Jun 2026 21:31:34 +0000","description":"Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serverless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serverless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:13:20 +0000","dateModified":"Tue, 30 Jun 2026 15:13:20 +0000","description":"Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serverless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Serverless
@@ -30,6 +30,6 @@ PHP runs serverlessly via AWS Lambda (using Bref), Google Cloud Functions, Azure
 
 See also `Bref — Serverless PHP <https://bref.sh/>`_ and `AWS Lambda with PHP <https://bref.sh/docs/runtimes/>`_.
 
-Related : :ref:`Cloud <cloud>`, :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Architecture <architecture>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`SplSubject <splsubject>`
+Related : :ref:`Cloud <cloud>`, :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Architecture <architecture>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`SplSubject <splsubject>`, :ref:`Cold Start <cold-start>`, :ref:`Edge Computing <edge-computing>`, :ref:`Function-as-a-Service <faas>`
 
 Related packages : `bref/bref <https://packagist.org/packages/bref/bref>`_

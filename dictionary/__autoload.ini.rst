@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Using $this when not in object context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Using $this when not in object context.html","name":"__autoload","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``__autoload()`` was the name of the userland function, used to load classes when they were not found yet in the current execution environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__autoload.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Using $this when not in object context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Using $this when not in object context.html","name":"__autoload","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:56:49 +0000","dateModified":"Mon, 29 Jun 2026 09:56:49 +0000","description":"``__autoload()`` was the name of the userland function, used to load classes when they were not found yet in the current execution environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__autoload.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __autoload
@@ -24,17 +24,17 @@ __autoload
 
 ``__autoload()`` was the name of the userland function, used to load classes when they were not found yet in the current execution environment. 
 
-This function was later replaced with ``spl_autoload_register()``, which allows the composition of multiple autoloading methods.
+``__autoload()`` was later replaced with ``spl_autoload_register()``, which allows the composition of multiple autoloading methods.
 
 .. code-block:: php
    
    <?php
    
-   function __autoload($name) {
-       if (file_exists(classes/$name.php)) {
-           include classes/$name.php;
+       function __autoload($name) {
+           if (file_exists(classes/$name.php)) {
+               include classes/$name.php;
+           }
        }
-   }
    
    ?>
 

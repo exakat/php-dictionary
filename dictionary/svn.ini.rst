@@ -26,4 +26,4 @@ SVN, or Subversion, is a version control system, VCS, used for managing and trac
 
 `Documentation <https://en.wikipedia.org/wiki/Apache_Subversion>`__
 
-Related : :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Support Vector Machine (SVM) <svm>`, :ref:`VCS Commit <vcs-commit>`, :ref:`VCS <vcs>`, :ref:`hg <hg>`
+Related : :ref:`Concurent Version System (CVS) <cvs>`, :ref:`Support Vector Machine (SVM) <svm>`, :ref:`VCS Commit <vcs-commit>`, :ref:`Version Control System (VCS) <vcs>`, :ref:`hg <hg>`

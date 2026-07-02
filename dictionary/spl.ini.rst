@@ -1,28 +1,28 @@
 .. _spl:
 .. meta::
 	:description:
-		Standard PHP Library (SPL): The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems.
+		Standard PHP Library (SPL): The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Standard PHP Library (SPL)
-	:twitter:description: Standard PHP Library (SPL): The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems
+	:twitter:description: Standard PHP Library (SPL): The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Standard PHP Library (SPL)
 	:og:type: article
-	:og:description: The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems
+	:og:description: The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/spl.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","name":"Standard PHP Library (SPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Standard PHP Library (SPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","name":"Standard PHP Library (SPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:08:31 +0000","dateModified":"Tue, 30 Jun 2026 09:08:31 +0000","description":"The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Standard PHP Library (SPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Standard PHP Library (SPL)
 --------------------------
 
-The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems.
+The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems.
 
 SPL offers features, functions, classes and interfaces in many different fields: iterators, data structures, files, exceptions, and observers. 
 

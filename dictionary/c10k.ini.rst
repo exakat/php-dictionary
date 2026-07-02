@@ -1,0 +1,75 @@
+.. _c10k:
+.. _C10K-problem:
+.. meta::
+	:description:
+		C10K: The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: C10K
+	:twitter:description: C10K: The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
+	:og:title: C10K
+	:og:type: article
+	:og:description: The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server
+	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/c10k.ini.html
+	:og:locale: en
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"C10K","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 09:59:22 +0000","dateModified":"Wed, 01 Jul 2026 09:59:22 +0000","description":"The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/C10K.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+
+C10K
+----
+
+The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server. The term was coined by Dan Kegel in 1999 and became a landmark milestone in server design.
+
+Traditional thread-per-connection or process-per-connection models collapse under this load: spawning 10,000 threads consumes gigabytes of stack memory and floods the OS scheduler. The solution is event-driven I/O, using ``epoll``, ``kqueue``, or ``WSAPoll`` to watch thousands of file descriptors simultaneously in a single thread, only waking when a descriptor is actually ready.
+
+C10K-scale concurrency historically required external tools: nginx as a front-end proxy, FrankenPHP workers, or userland event loops from ReactPHP, AMPHP, or Revolt. PHP 8.6 addresses this with the native ``Io\Poll`` API, which exposes epoll/kqueue directly without leaving PHP.
+
+The successor challenge, C10M or 10 million connections, requires kernel bypass techniques, that are out of scope for userland PHP.
+
+.. code-block:: php
+   
+   <?php
+   
+   // Without C10K-aware design: one process per connection
+   // Fails at high concurrency — each fork() is expensive
+   $server = stream_socket_server('tcp://0.0.0.0:8080');
+   while ($client = stream_socket_accept($server)) {
+       if (pcntl_fork() === 0) { // child per connection: does not scale to 10K
+           handle($client);
+           exit;
+       }
+   }
+   
+   // C10K-aware: single process, event-driven, PHP 8.6 Io\Poll
+   use Io\Poll\Context;
+   use Io\Poll\Event;
+   
+   $context = new Context();
+   $server  = stream_socket_server('tcp://0.0.0.0:8080');
+   stream_set_blocking($server, false);
+   
+   $context->add($server, Event::Read, function ($handle) use ($context) {
+       $client = stream_socket_accept($handle->stream, 0);
+       if ($client === false) { return; }
+       stream_set_blocking($client, false);
+       $context->add($client, Event::Read | Event::OneShot, function ($ch) {
+           echo fread($ch->stream, 8192);
+           fclose($ch->stream);
+       });
+   });
+   
+   $context->run(); // handles thousands of connections in one thread
+   
+   ?>
+
+
+`Documentation <http://www.kegel.com/c10k.html>`__
+
+See also `The C10K Problem — Dan Kegel <http://www.kegel.com/c10k.html>`_ and `PHP RFC: Polling API <https://wiki.php.net/rfc/polling_api>`_.
+
+Related : :ref:`Polling <polling>`, :ref:`Event Loop <event-loop>`, :ref:`Non-blocking <non-blocking>`, :ref:`Async <async>`, :ref:`Concurrency <concurency>`, :ref:`Edge Triggered <edge-triggered>`, :ref:`One-shot <one-shot>`, :ref:`Socket <socket>`, :ref:`Numeronym <numeronym>`

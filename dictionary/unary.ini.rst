@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Unary Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:49 +0000","dateModified":"Fri, 19 Jun 2026 21:24:49 +0000","description":"A unary operator is an operator that operates on a single operand","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unary Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Unary Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:04:54 +0000","dateModified":"Wed, 01 Jul 2026 10:04:54 +0000","description":"A unary operator is an operator that operates on a single operand","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unary Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unary Operator
@@ -29,13 +29,13 @@ A unary operator is an operator that operates on a single operand. It performs a
 + Pre increment operator ``++$a``
 + Post decrement operator ``$a--``
 + Pre decrement operator ``--$a``
-+ Negative operator ``-$a`` (produces the opposite of the value)
++ Positive operator ``+$a``, which produces the same value
++ Negative operator ``-$a``, which produces the opposite of the value
 + Logical Not operator ``!$a``
 + Bitwise Not operator ``~$a``
 + Noscream operator ``@$a``
 
 The four first operators change the underlying value and also return the value. The three last operators only return the changed value, leaving the original value unchanged.
-
 
 .. code-block:: php
    

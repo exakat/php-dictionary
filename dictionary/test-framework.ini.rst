@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:33 +0000","dateModified":"Fri, 19 Jun 2026 21:24:33 +0000","description":"A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:09:27 +0000","dateModified":"Thu, 02 Jul 2026 08:09:27 +0000","description":"A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test Framework
@@ -24,7 +24,7 @@ Test Framework
 
 A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests. It typically offers assertion helpers, test runners, fixtures, and reporting.
 
-In PHP, the dominant test framework is PHPUnit. Pest is a newer alternative built on top of PHPUnit, offering a more expressive, function-based syntax. Other frameworks include atoum and Codeception.
+The most popular test framework is PHPUnit. Pest is a newer alternative built on top of PHPUnit, offering a more expressive, function-based syntax. Other frameworks include atoum and Codeception.
 
 A test framework does not dictate what to test; it provides the mechanics to express and execute tests repeatably, integrate with CI pipelines, and produce machine-readable reports, such as JUnit XML, code coverage, etc.
 

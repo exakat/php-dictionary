@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Batch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Batch processing refers to the treatment of several items at the same time, instead of one at a time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Batch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Batch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 08:36:49 +0000","dateModified":"Wed, 01 Jul 2026 08:36:49 +0000","description":"Batch processing refers to the treatment of several items at the same time, instead of one at a time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Batch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Batch
@@ -26,7 +26,9 @@ Batch processing refers to the treatment of several items at the same time, inst
 
 Batch may mean all at the same time, or it may refers to processing the elements in several small groups. 
 
-Processing in batch is efficient when the overhead of an operation is high per unit (like storing one row at a time in a database), or when processing everything at once requires too much resources.
+Processing in batch is efficient when the overhead of an operation is high per unit, such as storing one row at a time in a database, or when processing everything at once requires too much resources.
+
+Processing in intermediate size batch may also be more efficient than processing everything by unit, or as a whole. It is related to the problem of ``the elephpant and the bananas``.
 
 .. code-block:: php
    
@@ -51,4 +53,8 @@ Processing in batch is efficient when the overhead of an operation is high per u
 
 `Documentation <https://en.wikipedia.org/wiki/Batch_processing>`__
 
+See also `The Elephant and the Bananas <https://puzzlesquant.substack.com/p/the-elephant-and-the-bananas>`_.
+
 Related : :ref:`Dataset <dataset>`, :ref:`N+1 Query Problem <n-query>`
+
+Related packages : `yokai-php/batch <https://packagist.org/packages/yokai-php/batch>`_

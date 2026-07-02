@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shell Exec","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:59:57 +0000","dateModified":"Thu, 18 Jun 2026 13:59:57 +0000","description":"Shell execution runs operating system commands from PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shell Exec.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shell Exec","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 09:05:47 +0000","dateModified":"Thu, 02 Jul 2026 09:05:47 +0000","description":"Shell execution runs operating system commands from PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shell Exec.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shell Exec
@@ -43,6 +43,6 @@ Using shell commands with user-supplied input without proper escaping is a criti
 
 `Documentation <https://www.php.net/manual/en/function.shell-exec.php>`__
 
-See also `shell_exec() <https://www.php.net/manual/en/function.shell-exec.php>`_, `escapeshellarg() <https://www.php.net/manual/en/function.escapeshellarg.php>`_ and `Command injection <https://owasp.org/www-community/attacks/Command_Injection>`_.
+See also `Command injection <https://owasp.org/www-community/attacks/Command_Injection>`_.
 
-Related : :ref:`shell_exec() <shell_exec>`, :ref:`Shell <shell>`, :ref:`exec <exec>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Security <security>`, :ref:`System Call <system-call>`, :ref:`Execution <execution>`, :ref:`SplSubject <splsubject>`
+Related : :ref:`shell_exec() <shell_exec>`, :ref:`Shell <shell>`, :ref:`exec <exec>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`Security <security>`, :ref:`System Call <system-call>`, :ref:`Execution <execution>`, :ref:`SplSubject <splsubject>`, 

@@ -18,13 +18,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cache Stampede","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 22 Jun 2026 10:46:30 +0000","dateModified":"Mon, 22 Jun 2026 10:46:30 +0000","description":"A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cache Stampede.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cache Stampede","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 09:59:41 +0000","dateModified":"Wed, 01 Jul 2026 09:59:41 +0000","description":"A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cache Stampede.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cache Stampede
 --------------
 
-A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing. All requests then attempt to regenerate the cache at the same time, flooding the backend (database, API, or computation layer) with redundant work. This is especially destructive under high traffic because the backend, already under load, receives a sudden spike just when it is needed most.
+A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing. All requests then attempt to regenerate the cache at the same time, flooding the backend  with redundant work. This is especially destructive under high traffic because the backend, already under load, receives a sudden spike just when it is needed most.
 
 Common mitigation strategies include: locking, where only one process regenerates the cache while others wait or serve stale data, probabilistic early expiration, where the cache refreshes slightly before it expires, based on a probability, and background revalidation, which returns stale data immediately while refreshing asynchronously.
 
@@ -63,8 +63,8 @@ Common mitigation strategies include: locking, where only one process regenerate
 
 `Documentation <https://en.wikipedia.org/wiki/Cache_stampede>`__
 
-See also `Cache stampede (Wikipedia) <https://en.wikipedia.org/wiki/Cache_stampede>`_, `Preventing Cache Stampede with PHP and Redis <https://redislabs.com/blog/cache-stampede-problem/>`_, `Laravel Cache Locks <https://laravel.com/docs/cache#atomic-locks>`_ and `XFetch: optimal probabilistic cache stampede prevention <https://cseweb.ucsd.edu/~avattani/papers/xfetch.pdf>`_.
+See also `Laravel Cache Locks <https://laravel.com/docs/cache#atomic-locks>`_ and `XFetch: optimal probabilistic cache stampede prevention <https://cseweb.ucsd.edu/~avattani/papers/cache_stampede.pdf>`_.
 
-Related : :ref:`Cache <cache>`, :ref:`Time To Live (TTL) <ttl>`, :ref:`Race Condition <race-condition>`, , :ref:`Lock <lock>`, , :ref:`Cache Stampede <thundering-herd>`, :ref:`Rate Limiting <rate-limit>`, :ref:`Availability <availability>`, :ref:`Reliability <reliability>`
+Related : :ref:`Cache <cache>`, :ref:`Time To Live (TTL) <ttl>`, :ref:`Race Condition <race-condition>`, :ref:`Mutex <mutex>`, :ref:`Lock <lock>`, :ref:`Concurrency <concurrency>`, :ref:`Rate Limiting <rate-limit>`, :ref:`Availability <availability>`, :ref:`Reliability <reliability>`
 
 Related packages : `symfony/lock <https://packagist.org/packages/symfony/lock>`_, `malkusch/lock <https://packagist.org/packages/malkusch/lock>`_, `php-cache/stampede-protection <https://packagist.org/packages/php-cache/stampede-protection>`_, `symfony/cache <https://packagist.org/packages/symfony/cache>`_, `ronnylt/redlock-php <https://packagist.org/packages/ronnylt/redlock-php>`_

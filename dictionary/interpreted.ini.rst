@@ -34,4 +34,4 @@ There are also tools to compile PHP directly to binary.
 
 `Documentation <https://en.wikipedia.org/wiki/Interpreter_(computing)>`__
 
-Related : :ref:`Transpile <transpile>`, :ref:`Compile <compile>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Opcode <bytecode>`, :ref:`Ahead Of Time (OAT) <aot>`
+Related : :ref:`Transpile <transpile>`, :ref:`Compile <compile>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Opcode <bytecode>`, :ref:`Ahead Of Time <aot>`
