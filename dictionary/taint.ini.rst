@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Taint Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:06:51 +0000","dateModified":"Thu, 02 Jul 2026 08:06:51 +0000","description":"Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Taint Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Taint Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:30:45 +0000","dateModified":"Fri, 03 Jul 2026 08:30:45 +0000","description":"Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Taint Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Taint Analysis
@@ -47,4 +47,4 @@ There was a taint extension until PHP 8.0. It was not ported further.
 
 See also `Secure Your PHP Code With Taint Analysis by Qodana <https://blog.jetbrains.com/qodana/2023/03/taint-analysis-by-qodana/>`_.
 
-Related : :ref:`Security <security>`, :ref:`Injection <injection>`
+Related : :ref:`Security <security>`, :ref:`Injection <injection>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`CRLF Injection <crlf-injection>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`LDAP Injection <ldap-injection>`, :ref:`Symbolic Analysis <symbolic-analysis>`

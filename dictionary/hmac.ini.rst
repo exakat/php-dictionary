@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HMAC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"HMAC, short for Hash-based Message Authentication Code, is a mechanism for message authentication using cryptographic hash functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HMAC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HMAC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:52:54 +0000","dateModified":"Fri, 03 Jul 2026 07:52:54 +0000","description":"HMAC, short for Hash-based Message Authentication Code, is a mechanism for message authentication using cryptographic hash functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HMAC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HMAC
@@ -27,18 +27,18 @@ HMAC, short for Hash-based Message Authentication Code, is a mechanism for messa
 
 HMAC is defined in RFC 2104 and is widely used in API authentication, JWT signatures, and webhook verification.
 
-In PHP, HMAC is computed with ``hash_hmac()``, which accepts a hashing algorithm, the message, and a secret key.
+HMAC is computed with ``hash_hmac()``, which accepts a hashing algorithm, the message, and a secret key.
 
 .. code-block:: php
    
    <?php
    
-   $key     = 'secret-key';
-   $message = 'important data';
-   
-   $hmac = hash_hmac('sha256', $message, $key);
-   
-   echo $hmac; // 64-character hexadecimal string
+       $key     = 'secret-key';
+       $message = 'important data';
+       
+       $hmac = hash_hmac('sha256', $message, $key);
+       
+       echo $hmac; // 64-character hexadecimal string
    
    ?>
 

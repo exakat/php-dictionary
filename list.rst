@@ -315,6 +315,7 @@ Index
    dictionary/composite-type.ini
    dictionary/composition.ini
    dictionary/compression.ini
+   dictionary/computed-property.ini
    dictionary/concatenation.ini
    dictionary/concatenative.ini
    dictionary/concrete-method.ini
@@ -342,6 +343,7 @@ Index
    dictionary/continue.ini
    dictionary/contract.ini
    dictionary/contribution.ini
+   dictionary/control-flow-analysis.ini
    dictionary/control-flow-graph.ini
    dictionary/control-flow.ini
    dictionary/control-structure.ini
@@ -359,6 +361,7 @@ Index
    dictionary/cqrs.ini
    dictionary/crack.ini
    dictionary/crc32.ini
+   dictionary/crlf-injection.ini
    dictionary/cron.ini
    dictionary/cross-cutting-concerns.ini
    dictionary/crud.ini
@@ -381,6 +384,7 @@ Index
    dictionary/dangling-reference.ini
    dictionary/dao.ini
    dictionary/data-container.ini
+   dictionary/data-flow-analysis.ini
    dictionary/data-leak.ini
    dictionary/data-mapper.ini
    dictionary/data.ini
@@ -460,6 +464,7 @@ Index
    dictionary/distributed-systems.ini
    dictionary/distributed-tracing.ini
    dictionary/distributed-transactions.ini
+   dictionary/distributed.ini
    dictionary/division.ini
    dictionary/divisionbyzeroerror.ini
    dictionary/dnf-type.ini
@@ -546,6 +551,7 @@ Index
    dictionary/escape-data.ini
    dictionary/escape-html.ini
    dictionary/escape-sequence.ini
+   dictionary/escapeshellarg.ini
    dictionary/eval.ini
    dictionary/event-driven.ini
    dictionary/event-loop.ini
@@ -652,6 +658,7 @@ Index
    dictionary/getter.ini
    dictionary/gettext.ini
    dictionary/gif.ini
+   dictionary/git-hook.ini
    dictionary/git.ini
    dictionary/glob.ini
    dictionary/global-code.ini
@@ -668,6 +675,7 @@ Index
    dictionary/graph-database.ini
    dictionary/graph.ini
    dictionary/graphql.ini
+   dictionary/green-thread.ini
    dictionary/grpc.ini
    dictionary/habit.ini
    dictionary/halt-compiler.ini
@@ -693,6 +701,7 @@ Index
    dictionary/hmac.ini
    dictionary/hoisting.ini
    dictionary/honeypot.ini
+   dictionary/hook.ini
    dictionary/horizontal-scaling.ini
    dictionary/hosting.ini
    dictionary/hrtime.ini
@@ -726,6 +735,7 @@ Index
    dictionary/identity.ini
    dictionary/if-then.ini
    dictionary/iffectation.ini
+   dictionary/image-injection.ini
    dictionary/image.ini
    dictionary/imagick.ini
    dictionary/imagickexception.ini
@@ -823,6 +833,7 @@ Index
    dictionary/layered-architecture.ini
    dictionary/lazy-loading.ini
    dictionary/lazy-objects.ini
+   dictionary/ldap-injection.ini
    dictionary/ldap.ini
    dictionary/leading-numeric-string.ini
    dictionary/leading-zero-means-octal.ini
@@ -831,6 +842,7 @@ Index
    dictionary/lemp.ini
    dictionary/lengthexception.ini
    dictionary/letter-logical.ini
+   dictionary/lexical-analysis.ini
    dictionary/lexical.ini
    dictionary/library-loading.ini
    dictionary/library.ini
@@ -860,6 +872,8 @@ Index
    dictionary/logical-operator.ini
    dictionary/logicexception.ini
    dictionary/loop.ini
+   dictionary/lossless.ini
+   dictionary/lossy.ini
    dictionary/lsp.ini
    dictionary/machine-learning.ini
    dictionary/magento.ini
@@ -913,6 +927,7 @@ Index
    dictionary/minus.ini
    dictionary/missing-validation.ini
    dictionary/mixed.ini
+   dictionary/mixin.ini
    dictionary/mobile-app.ini
    dictionary/mock.ini
    dictionary/model.ini
@@ -1014,6 +1029,7 @@ Index
    dictionary/opcache.ini
    dictionary/opcode-specialization.ini
    dictionary/opcode.ini
+   dictionary/open-class.ini
    dictionary/open-source.ini
    dictionary/open-tag.ini
    dictionary/open_basedir.ini
@@ -1066,6 +1082,7 @@ Index
    dictionary/password.ini
    dictionary/path-traversal.ini
    dictionary/path.ini
+   dictionary/pattern-based-analysis.ini
    dictionary/pattern-matching.ini
    dictionary/pay-as-you-go.ini
    dictionary/payload.ini
@@ -1296,6 +1313,7 @@ Index
    dictionary/self-documenting.ini
    dictionary/self-reference.ini
    dictionary/self.ini
+   dictionary/semantic-analysis.ini
    dictionary/semantic-versioning.ini
    dictionary/semantics.ini
    dictionary/semicolon.ini
@@ -1356,6 +1374,7 @@ Index
    dictionary/sleep.ini
    dictionary/slim.ini
    dictionary/slug.ini
+   dictionary/smart-cast.ini
    dictionary/smtp.ini
    dictionary/snake-case.ini
    dictionary/snapshot.ini
@@ -1453,6 +1472,7 @@ Index
    dictionary/switch-case.ini
    dictionary/switch-default.ini
    dictionary/switch.ini
+   dictionary/symbolic-analysis.ini
    dictionary/symfony.ini
    dictionary/synchronous.ini
    dictionary/syntax-error.ini

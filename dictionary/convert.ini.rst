@@ -53,4 +53,4 @@ To convert may also be called cast, encode/decode, escape, crypt/decrypt, hash, 
 
 `Documentation <https://en.wikipedia.org/wiki/Data_conversion>`__
 
-Related : :ref:`Cast Operator <cast>`, :ref:`Encode <encode>`, :ref:`Decode <decode>`, :ref:`Escape Data <escape>`, :ref:`To Crypt <crypt>`, :ref:`To Decrypt <decrypt>`, :ref:`Hash <hash>`, :ref:`Sign <sign>`, , 
+Related : :ref:`Cast Operator <cast>`, :ref:`Encode <encode>`, :ref:`Decode <decode>`, :ref:`Escape Data <escape>`, :ref:`To Crypt <crypt>`, :ref:`To Decrypt <decrypt>`, :ref:`Hash <hash>`, :ref:`Sign <sign>`, :ref:`Lossless <lossless>`, :ref:`Lossy <lossy>`

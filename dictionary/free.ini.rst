@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Free","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 06:04:45 +0000","dateModified":"Wed, 24 Jun 2026 06:04:45 +0000","description":"Free in a software context has two distinct meanings that are often conflated:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Free.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Free","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:36:01 +0000","dateModified":"Fri, 03 Jul 2026 07:36:01 +0000","description":"Free in a software context has two distinct meanings that are often conflated:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Free.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Free
@@ -35,6 +35,6 @@ The distinction matters when evaluating dependencies: a library that is free-of-
 
 `Documentation <https://www.gnu.org/philosophy/free-sw.html>`__
 
-See also `What is Free Software? — GNU <https://www.gnu.org/philosophy/free-sw.html>`_ and `Free as in Freedom vs Free as in Beer <https://en.wikipedia.org/wiki/Gratis_versus_libre>`_.
+See also `Free as in Freedom vs Free as in Beer <https://en.wikipedia.org/wiki/Gratis_versus_libre>`_.
 
 Related : :ref:`Open Source <open-source>`, :ref:`Licence <licence>`, :ref:`Proprietary Source <proprietary-source>`, :ref:`Community <community>`, :ref:`Memory <memory>`

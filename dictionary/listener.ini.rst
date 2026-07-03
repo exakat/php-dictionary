@@ -61,6 +61,6 @@ A listener differs from an observer in that listeners are usually registered ext
 
 See also `PSR-14: Event Dispatcher <https://www.php-fig.org/psr/psr-14/>`_, `Events and Event Listeners <https://symfony.com/doc/current/event_dispatcher.html>`_ and `Laravel Events <https://laravel.com/docs/events>`_.
 
-Related : :ref:`Pub/Sub <pubsub>`, :ref:`Event Driven <event-driven>`, :ref:`Message Bus <message-bus>`, :ref:`Observer Design Pattern <observer>`, :ref:`Decoupling <decoupling>`, :ref:`Callbacks <callback>`, :ref:`Property Hook <hook>`
+Related : :ref:`Pub/Sub <pubsub>`, :ref:`Event Driven <event-driven>`, :ref:`Message Bus <message-bus>`, :ref:`Observer Design Pattern <observer>`, :ref:`Decoupling <decoupling>`, :ref:`Callbacks <callback>`, :ref:`Hook <hook>`
 
 Related packages : `symfony/event-dispatcher <https://packagist.org/packages/symfony/event-dispatcher>`_, `league/event <https://packagist.org/packages/league/event>`_

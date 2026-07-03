@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hoisting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:02 +0000","dateModified":"Fri, 19 Jun 2026 21:24:02 +0000","description":"Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hoisting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hoisting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:52:11 +0000","dateModified":"Fri, 03 Jul 2026 07:52:11 +0000","description":"Hoisting is a language feature where declarations are automatically moved to the top of their scope before code execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hoisting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hoisting
@@ -34,21 +34,21 @@ PHP classes are not hoisted either: a class must be declared, autoloaded, before
    
    <?php
    
-   // This works: functions are pre-compiled
-   greet();
-   
-   function greet() { echo 'Hello'; }
-   
-   // This does NOT work: variables are not hoisted
-   echo $message; // Undefined variable
-   
-   $message = 'Hello';
+       // This works: functions are pre-compiled
+       greet();
+       
+       function greet() { echo 'Hello'; }
+       
+       // This does NOT work: variables are not hoisted
+       echo $message; // Undefined variable
+       
+       $message = 'Hello';
    
    ?>
 
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Glossary/Hoisting>`__
 
-See also `Hoisting (MDN) <https://developer.mozilla.org/en-US/docs/Glossary/Hoisting>`_.
+See also `What is Hoisting in JavaScript? <https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/>`_.
 
 Related : :ref:`Class Hoisting <class-hoisting>`, :ref:`Class Autoloading <autoload>`, :ref:`Undefined <undefined>`, :ref:`Compile <compilation>`, :ref:`Cache <cache>`, :ref:`Order Of Execution <order-of-execution>`

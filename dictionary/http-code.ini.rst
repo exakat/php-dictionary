@@ -16,39 +16,39 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:28:11 +0000","dateModified":"Sun, 28 Jun 2026 10:28:11 +0000","description":"HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:47:50 +0000","dateModified":"Fri, 03 Jul 2026 07:47:50 +0000","description":"HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTTP Code
 ---------
 
-HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server. These codes are a part of the HTTP (Hypertext Transfer Protocol) standard and provide information about the status of the request and the server's response. HTTP status codes are grouped into different ranges, each with a specific meaning.
+HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server. These codes are a part of the HTTP standard and provide information about the status of the request and the server's response. HTTP status codes are grouped into different ranges, each with a specific meaning.
 
 Here are some of the most common HTTP status codes and their general meanings:
 
-1xx (Informational):
+1xx Informational:
 
     100 Continue: the server has received the request headers and the client should proceed to send the request body.
     101 Switching Protocols: the server is switching protocols according to the client's request.
     102 Processing: the server has received the request and is processing it, but no response is available yet.
     103 Early Hints: this status code is used to return some response headers before final HTTP message.
 
-2xx (Successful):
+2xx Successful:
 
     200 OK: the request was successful, and the server has returned the requested resource.
     201 Created: the request was successful, and a new resource was created as a result.
     202 Accepted: the request has been accepted for processing, but the processing has not been completed. 
-    202 Non-Authoritative Information: the server is a transforming proxy (e.g. a Web accelerator) that received a 200 OK from its origin, but is returning a modified version of the origin's response. 
+    202 Non-Authoritative Information: the server is a transforming proxy, such as a Web accelerator, that received a 200 OK from its origin, but is returning a modified version of the origin's response. 
     204 No Content: the server has successfully processed the request, but there is no content to send in the response.
 
-3xx (Redirection):
+3xx Redirection:
 
     301 Moved Permanently: the requested resource has been permanently moved to a new location.
     302 Found: the requested resource has been temporarily moved to a different location.
     303 See Other: the requested resource has been temporarily moved to a different location.
     304 Not Modified: the client's cached version of the resource is still valid; no content is returned.
 
-4xx (Client Error):
+4xx Client Error:
 
     400 Bad Request: the request from the client was malformed or invalid.
     401 Unauthorized: authentication is required, and the client needs to provide valid credentials.
@@ -57,7 +57,7 @@ Here are some of the most common HTTP status codes and their general meanings:
     404 Not Found: the requested resource was not found on the server.
     405 Method Not Allowed: a request method is not supported for the requested resource.
 
-5xx (Server Error):
+5xx Server Error:
 
     500 Internal Server Error: the server encountered an error while processing the request.
     501 Not Implemented: the server either does not recognize the request method, or it lacks the ability to fulfil the request.
@@ -68,6 +68,6 @@ Here are some of the most common HTTP status codes and their general meanings:
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`__
 
-See also `HTTP response status codes <https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>`_.
+See also `http_response_code <https://www.php.net/manual/en/function.http-response-code.php>`_ and `How to send HTTP response code in PHP? <https://www.geeksforgeeks.org/php/how-to-send-http-response-code-in-php/>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Response <response>`, :ref:`HTTP Request Headers <http-headers>`, :ref:`REST API <rest-api>`, :ref:`Redirect <redirect>`

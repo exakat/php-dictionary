@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"One-shot","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:04:20 +0000","dateModified":"Tue, 30 Jun 2026 15:04:20 +0000","description":"One-shot is an I\/O watcher mode where the handler fires exactly once and is automatically deregistered after the first event","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/One-shot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"One-shot","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:51:44 +0000","dateModified":"Fri, 03 Jul 2026 08:51:44 +0000","description":"One-shot is an I\/O watcher mode where the handler fires exactly once and is automatically deregistered after the first event","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/One-shot.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 One-shot
@@ -30,7 +30,7 @@ This avoids the need for manual cleanup and is useful for request/response patte
 
 Without one-shot semantics, a persistent watcher must be explicitly removed inside its own callback to prevent it from firing again, which is error-prone under concurrent conditions.
 
-One-shot maps to ``EPOLLONESHOT`` in the Linux epoll API. In PHP 8.6, the ``Io\Poll`` API exposes this behaviour through the ``Event::OneShot`` enum case, combinable with ``Event::Read`` or ``Event::Write``.
+One-shot maps to ``EPOLLONESHOT`` in the Linux epoll API. In version 8.6, the ``Io\Poll`` API exposes this behaviour through the ``Event::OneShot`` enum case, combinable with ``Event::Read`` or ``Event::Write``.
 
 .. code-block:: php
    
@@ -55,7 +55,7 @@ One-shot maps to ``EPOLLONESHOT`` in the Linux epoll API. In PHP 8.6, the ``Io\P
 
 `Documentation <https://man7.org/linux/man-pages/man7/epoll.7.html>`__
 
-See also `PHP RFC: Polling API <https://wiki.php.net/rfc/polling_api>`_.
+See also `PHP RFC: Poll API <https://wiki.php.net/rfc/poll_api>`_.
 
 Related : :ref:`Polling <polling>`, :ref:`Event Loop <event-loop>`, :ref:`Edge Triggered <edge-triggered>`, :ref:`Non-blocking <non-blocking>`, :ref:`Async <async>`
 

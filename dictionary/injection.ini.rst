@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:29 +0000","dateModified":"Fri, 19 Jun 2026 21:24:29 +0000","description":"Injection is the usage of a resource, such as data, object or services, that is provided to the method, by the caller","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 13:30:57 +0000","dateModified":"Thu, 02 Jul 2026 13:30:57 +0000","description":"Injection is the usage of a resource, such as data, object or services, that is provided to the method, by the caller","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Injection
@@ -26,10 +26,10 @@ Injection is the usage of a resource, such as data, object or services, that is 
 
 There are good injections, such as the dependency injection.
 
-There are bad injections: all the security ones. SQL injection, PHP code injection, CSV injection, XML injection, etc. Those attempt to change reroute the execution of the method to gain access to unprotected resources.
+There are bad injections: all the security ones. SQL injection, PHP code injection, LDAP injection, CRLF injection, CSV injection, XML injection, etc. Those attempt to change reroute the execution of the method to gain access to unprotected resources.
 
 `Documentation <https://owasp.org/www-community/Injection_Flaws>`__
 
 See also `Server Side Template Injection - PHP <https://swisskyrepo.github.io/PayloadsAllTheThings/Server%20Side%20Template%20Injection/PHP/>`_.
 
-Related : :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL Injection <sql-injection>`, :ref:`Code Injection <code-injection>`, :ref:`CSV Injection <csv-injection>`, :ref:`Escape Character <escape-character>`, :ref:`Penetration Test <pentest>`, :ref:`Taint Analysis <taint>`, :ref:`Scalable Vector Graphics (SVG) <svg>`
+Related : :ref:`CRLF Injection <crlf-injection>`, :ref:`Dependency Injection <dependency-injection>`, :ref:`SQL Injection <sql-injection>`, :ref:`Code Injection <code-injection>`, :ref:`CSV Injection <csv-injection>`, :ref:`Escape Character <escape-character>`, :ref:`LDAP Injection <ldap-injection>`, :ref:`Penetration Test <pentest>`, :ref:`Taint Analysis <taint>`, :ref:`Scalable Vector Graphics (SVG) <svg>`

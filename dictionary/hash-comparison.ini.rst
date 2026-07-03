@@ -1,28 +1,28 @@
 .. _hash-comparison:
 .. meta::
 	:description:
-		Hash Comparisons: Cryptographic hashes are usually represented by strings in PHP.
+		Hash Comparisons: Cryptographic hashes are usually represented by strings.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Hash Comparisons
-	:twitter:description: Hash Comparisons: Cryptographic hashes are usually represented by strings in PHP
+	:twitter:description: Hash Comparisons: Cryptographic hashes are usually represented by strings
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Hash Comparisons
 	:og:type: article
-	:og:description: Cryptographic hashes are usually represented by strings in PHP
+	:og:description: Cryptographic hashes are usually represented by strings
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/hash-comparison.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash Comparisons","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:00 +0000","dateModified":"Fri, 19 Jun 2026 21:24:00 +0000","description":"Cryptographic hashes are usually represented by strings in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash Comparisons.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash Comparisons","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:02:53 +0000","dateModified":"Fri, 03 Jul 2026 08:02:53 +0000","description":"Cryptographic hashes are usually represented by strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash Comparisons.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash Comparisons
 ----------------
 
-Cryptographic hashes are usually represented by strings in PHP. As such, they are subjects to type juggling, and they should be compared with the identity operator, or a dedicated function.
+Cryptographic hashes are usually represented by strings. As such, they are subjects to type juggling, and they should be compared with the identity operator, or a dedicated function.
 
 .. code-block:: php
    

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cold Start","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:12:36 +0000","dateModified":"Tue, 30 Jun 2026 15:12:36 +0000","description":"A cold start is the delay incurred when a serverless function or containerised service must be initialised from scratch before handling a request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cold Start.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cold Start","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:44:13 +0000","dateModified":"Fri, 03 Jul 2026 08:44:13 +0000","description":"A cold start is the delay incurred when a serverless function or containerised service must be initialised from scratch before handling a request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cold Start.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cold Start
@@ -60,6 +60,6 @@ Mitigation strategies include: provisioned concurrency (pre-warming a fixed numb
 
 `Documentation <https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html>`__
 
-See also `AWS Lambda: Cold starts <https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html>`_ and `Bref: Performance <https://bref.sh/docs/performance>`_.
+See also `AWS Lambda: Cold starts <https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html>`_ and `Bref: Cold Start <https://bref.sh/docs/environment/cold-starts>`_.
 
 Related : :ref:`Function-as-a-Service <faas>`, :ref:`Serverless <serverless>`, :ref:`Latency <latency>`, :ref:`Performance <performance>`

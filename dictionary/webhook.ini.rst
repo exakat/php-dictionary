@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webhook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 25 Jun 2026 17:19:03 +0000","dateModified":"Thu, 25 Jun 2026 17:19:03 +0000","description":"A webhook is an HTTP callback mechanism where a server notifies a client by sending an HTTP POST request to a pre-registered URL when a specific event occurs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webhook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Webhook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 09:53:09 +0000","dateModified":"Thu, 02 Jul 2026 09:53:09 +0000","description":"A webhook is an HTTP callback mechanism where a server notifies a client by sending an HTTP POST request to a pre-registered URL when a specific event occurs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webhook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Webhook
@@ -33,6 +33,6 @@ A webhook endpoint typically reads the raw request body, validates a signature h
 
 See also `How to Create a Webhook in PHP <https://www.delftstack.com/howto/php/create-webhook-in-php/>`_.
 
-Related : :ref:`Idempotent <idempotent>`, :ref:`Event Driven <event-driven>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTP Headers <http-header>`, :ref:`Payload <payload>`, :ref:`Retry <retry>`, :ref:`Deduplication <deduplication>`, :ref:`Queue <queue>`, :ref:`Signature <signature>`
+Related : :ref:`Hook <hook>`, :ref:`Git Hook <git-hook>`, :ref:`Idempotent <idempotent>`, :ref:`Event Driven <event-driven>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`HTTP Headers <http-header>`, :ref:`Payload <payload>`, :ref:`Retry <retry>`, :ref:`Deduplication <deduplication>`, :ref:`Queue <queue>`, :ref:`Signature <signature>`
 
 Related packages : `spatie/laravel-webhook-client <https://packagist.org/packages/spatie/laravel-webhook-client>`_

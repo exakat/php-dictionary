@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fault Isolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:00:46 +0000","dateModified":"Tue, 30 Jun 2026 15:00:46 +0000","description":"Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fault Isolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fault Isolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:40:41 +0000","dateModified":"Fri, 03 Jul 2026 07:40:41 +0000","description":"Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fault Isolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fault Isolation
@@ -38,32 +38,32 @@ Fault isolation is implemented via timeout configuration on HTTP clients, circui
    
    <?php
    
-   // Circuit breaker with a library (e.g., Ganesha or php-circuit-breaker)
-   $circuitBreaker = Ackintosh\Ganesha\Builder::withRateStrategy()
-       ->timeWindow(30)
-       ->failureRateThreshold(50)
-       ->build();
-   
-   if ($circuitBreaker->isAvailable('payment-service')) {
-       try {
-           $result = $paymentClient->charge($order);
-           $circuitBreaker->success('payment-service');
-       } catch (Exception $e) {
-           $circuitBreaker->failure('payment-service');
-           // Degrade gracefully — queue for retry, show user a message
+       // Circuit breaker with a library (e.g., Ganesha or php-circuit-breaker)
+       $circuitBreaker = Ackintosh\Ganesha\Builder::withRateStrategy()
+           ->timeWindow(30)
+           ->failureRateThreshold(50)
+           ->build();
+       
+       if ($circuitBreaker->isAvailable('payment-service')) {
+           try {
+               $result = $paymentClient->charge($order);
+               $circuitBreaker->success('payment-service');
+           } catch (Exception $e) {
+               $circuitBreaker->failure('payment-service');
+               // Degrade gracefully — queue for retry, show user a message
+               $retryQueue->push(new RetryPayment($order->id));
+           }
+       } else {
+           // Circuit is open — skip the call entirely, don't block the user
            $retryQueue->push(new RetryPayment($order->id));
        }
-   } else {
-       // Circuit is open — skip the call entirely, don't block the user
-       $retryQueue->push(new RetryPayment($order->id));
-   }
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Fault_isolation>`__
 
-See also `Wikipedia: Fault isolation <https://en.wikipedia.org/wiki/Fault_isolation>`_.
+See also `PHP Monitoring: Using PHP Observability Tools to Improve Web Apps <https://www.zend.com/blog/php-monitoring>`_.
 
 Related : :ref:`Circuit Breaker <circuit-breaker>`, :ref:`Resilience <resilience>`, :ref:`Microservice <microservice>`, :ref:`Distributed Monolith <distributed-monolith>`, :ref:`Distributed Systems <distributed-systems>`, :ref:`Coupling <coupling>`
 

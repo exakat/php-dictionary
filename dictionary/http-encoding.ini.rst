@@ -17,22 +17,22 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Encoding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Encoding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Encoding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:57:54 +0000","dateModified":"Fri, 03 Jul 2026 07:57:54 +0000","description":"URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Encoding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTTP Encoding
 -------------
 
-URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet. URLs (Uniform Resource Locators) can only contain a limited set of characters, consisting mainly of alphanumeric characters along with a few special characters such as hyphens, underscores, periods, and tilde (~).
+URL encoding, also known as percent-encoding, is a mechanism used to convert characters into a format that can be transmitted over the Internet. URLs can only contain a limited set of characters, consisting mainly of alphanumeric characters along with a few special characters such as hyphens, underscores, periods, and tilde ``~``.
 
 When a URL contains characters outside this set, such as spaces or non-alphanumeric characters like ampersands, question marks, or slashes, URL encoding is used to represent those characters in a safe and compatible format.
 
-URL encoding works by replacing each non-alphanumeric character with a percent sign (%) followed by two hexadecimal digits that represent the ASCII (or Unicode) code of the character. For example:
+URL encoding works by replacing each non-alphanumeric character with a percent sign ``%`` followed by two hexadecimal digits that represent the ASCII or Unicode code of the character. For example:
 
-+ Space (``' '``) is encoded as %20.
-+ Ampersand (``&``) is encoded as %26.
-+ Question mark (``?``) is encoded as %3F.
-+ Slash (``/``) is encoded as %2F.
++ Space ``' '`` is encoded as %20.
++ Ampersand ``&`` is encoded as %26.
++ Question mark ``?`` is encoded as %3F.
++ Slash ``/`` is encoded as %2F.
 
 URL encoding ensures that URLs remain valid and functional across different systems and protocols. It is commonly used in web browsers, HTTP requests, and other internet-related technologies to transmit data safely and reliably. Most programming languages provide built-in functions or libraries to perform URL encoding and decoding operations.
 
@@ -42,12 +42,12 @@ PHP provides ``urlencode()`` and ``urldecode()`` to handle coding and decoding t
    
    <?php
    
-   $text = "This is the Euro symbol €.";
-   
-   // builds a valid URL 
-   $url = 'https://www.example.com/'.urlencode($text);
-   
-   // https://www.example.com/This+is+the+Euro+symbol+%27%E2%82%AC%27.
+       $text = "This is the Euro symbol €.";
+       
+       // builds a valid URL 
+       $url = 'https://www.example.com/'.urlencode($text);
+       
+       // https://www.example.com/This+is+the+Euro+symbol+%27%E2%82%AC%27.
    
    ?>
 

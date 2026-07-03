@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 17 Jun 2026 16:11:02 +0000","dateModified":"Wed, 17 Jun 2026 16:11:02 +0000","description":"An HTTP method, also called an HTTP verb, defines the intended action of an HTTP request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTTP Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:54:45 +0000","dateModified":"Fri, 03 Jul 2026 07:54:45 +0000","description":"An HTTP method, also called an HTTP verb, defines the intended action of an HTTP request","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTTP Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTTP Method
@@ -41,6 +41,6 @@ The request method is available via ``$_SERVER['REQUEST_METHOD']`` or through fr
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods>`__
 
-See also `HTTP request methods — MDN <https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods>`_ and `RFC 9110 — HTTP Semantics <https://www.rfc-editor.org/rfc/rfc9110#name-methods>`_.
+See also `RFC 9110 — HTTP Semantics <https://www.rfc-editor.org/rfc/rfc9110#name-methods>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`REST API <rest-api>`, :ref:`Idempotent <idempotent>`, :ref:`HTTP Headers <http-header>`, :ref:`Request <request>`, :ref:`Response <response>`

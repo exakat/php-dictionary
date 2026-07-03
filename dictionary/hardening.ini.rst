@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hardening","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:23:56 +0000","dateModified":"Fri, 19 Jun 2026 21:23:56 +0000","description":"Hardening refers to the raise of security level in the installation of PHP, and other related technologies","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hardening.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hardening","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:53:58 +0000","dateModified":"Fri, 03 Jul 2026 07:53:58 +0000","description":"Hardening refers to the raise of security level in the installation of PHP, and other related technologies","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hardening.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hardening
@@ -28,7 +28,7 @@ For example, by default, PHP displays its version number in the HTTP headers, wi
 
 `Documentation <https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html>`__
 
-See also `How to Hide PHP Version Number in HTTP Header <https://www.tecmint.com/hide-php-version-http-header/>`_, `PHP Hardening: Strategies to Meet Compliance Requirements <https://www.zend.com/blog/php-hardening-strategies>`_, `PHP Configuration Cheat Sheet <https://cheatsheetseries.owasp.org/cheatsheets/PHP_Configuration_Cheat_Sheet.html>`_ and `Modern PHP Security Part 2: Breaching and hardening the PHP engine <https://labs.detectify.com/security-guidance/modern-php-security-part-2-breaching-and-hardening-the-php-engine/>`_.
+See also `How to Hide PHP Version Number in HTTP Header <https://www.tecmint.com/hide-php-version-http-header/>`_, `PHP Hardening: Strategies to Meet Compliance Requirements <https://www.zend.com/blog/php-hardening-strategies>`_ and `Modern PHP Security Part 2: Breaching and hardening the PHP engine <https://labs.detectify.com/security-guidance/modern-php-security-part-2-breaching-and-hardening-the-php-engine/>`_.
 
 Related : :ref:`expose_php <expose_php>`
 

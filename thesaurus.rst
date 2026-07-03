@@ -273,6 +273,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Determinism <determinism>`
 + :ref:`Deterministic <deterministic>`
 + :ref:`Disable <disable>`
++ :ref:`Distributed <distributed>`
 + :ref:`Distributed Monolith <distributed-monolith>`
 + :ref:`Distributed State <distributed-state>`
 + :ref:`Distributed Systems <distributed-systems>`
@@ -325,6 +326,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Heuristics <heuristic>`
 + :ref:`Hidden State <hidden-state>`
 + :ref:`Hoisting <hoisting>`
++ :ref:`Hook <hook>`
 + :ref:`Hydratation <hydrate>`
 + :ref:`Idempotent <idempotent>`
 + :ref:`Identity <identity>`
@@ -673,6 +675,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Return Type <return-type>`
 + :ref:`Scalar Types <scalar-type>`
 + :ref:`Signed Integer <signed-integer>`
++ :ref:`Smart Cast <smart-cast>`
 + :ref:`Special Types <special-typehint>`
 + :ref:`Standalone Types <standalone-type>`
 + :ref:`Stringable <stringable>`
@@ -831,18 +834,24 @@ List of concepts related to static code analysis.
 + :ref:`Code Smell <code-smell>`
 + :ref:`Cognitive Complexity <cognitive-complexity>`
 + :ref:`Complexity <complexity>`
++ :ref:`Control Flow Analysis <control-flow-analysis>`
 + :ref:`Control Flow Graph <control-flow-graph>`
 + :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
++ :ref:`Data Flow Analysis <data-flow-analysis>`
 + :ref:`Dead Code <dead-code>`
 + :ref:`Fossilized Methods <fossilized-method>`
 + :ref:`Gradual Type Checking <gradual-type-checking>`
++ :ref:`Lexical Analysis <lexical-analysis>`
 + :ref:`Lint, Won't Execute <lint-wont-execute>`
 + :ref:`Linting <linting>`
 + :ref:`Metrics <metrics>`
++ :ref:`Pattern-Based Analysis <pattern-based-analysis>`
 + :ref:`Propagation <propagation>`
++ :ref:`Semantic Analysis <semantic-analysis>`
 + :ref:`Static Application Security Testing (SAST) <sast>`
 + :ref:`Static Code Analysis (SCA) <sca>`
 + :ref:`Static Single Assignment Form (SSA) <ssa>`
++ :ref:`Symbolic Analysis <symbolic-analysis>`
 + :ref:`Taint Analysis <taint>`
 + :ref:`Type Checking <type-checking>`
 + :ref:`Type Coverage <type-coverage>`
@@ -895,3 +904,93 @@ List of single characters, and their special usage.
 + :ref:`Tilde ~ <tilde>`
 + :ref:`Underscore <underscore>`
 + :ref:`Whitespace <whitespace>`
+
+Disambiguation
+--------------
+
+List of concepts that cover several fields, and usually require extra details to avoid confusion.
+
++ :ref:`Absolute <absolute>`
++ :ref:`As <as>`
++ :ref:`Backslash \ <back-slash>`
++ :ref:`Base <base>`
++ :ref:`Binary <binary>`
++ :ref:`Bracket <bracket>`
++ :ref:`Case <case>`
++ :ref:`Commit <commit>`
++ :ref:`Container <container>`
++ :ref:`Coverage <coverage>`
++ :ref:`Curly Brackets <curly-bracket>`
++ :ref:`Default <default>`
++ :ref:`Deque <deque>`
++ :ref:`Digital Signature <digital-signature>`
++ :ref:`Dollar $ <dollar>`
++ :ref:`Double <double>`
++ :ref:`Duplicate <duplicate>`
++ :ref:`Encoding <encoding>`
++ :ref:`Entities <entity>`
++ :ref:`Extensions <extension>`
++ :ref:`Hash # <hash-character>`
++ :ref:`Hash <hash>`
++ :ref:`Hook <hook>`
++ :ref:`Image <image>`
++ :ref:`Index <index>`
++ :ref:`Injection <injection>`
++ :ref:`LSP <lsp>`
++ :ref:`Leak <leak>`
++ :ref:`Link <link>`
++ :ref:`Log <log>`
++ :ref:`Minus - <minus>`
++ :ref:`Oracle <oracle>`
++ :ref:`Plus + <plus>`
++ :ref:`Pound # <pound>`
++ :ref:`Query <query>`
++ :ref:`Queue <queue>`
++ :ref:`RFC <rfc>`
++ :ref:`Relative <relative>`
++ :ref:`Signature <signature>`
++ :ref:`Single <single>`
++ :ref:`Slash / <slash>`
++ :ref:`Stack <stack>`
++ :ref:`Star * <star>`
++ :ref:`Swap <swap>`
++ :ref:`Triple <triple>`
++ :ref:`Unpacking <unpacking>`
++ :ref:`Use <use>`
++ :ref:`View <view>`
++ :ref:`Wrapper <wrapper>`
++ :ref:`static <static>`
+
+Unsupported
+-----------
+
+List of features supported in other languages, but not natively by PHP
+
++ :ref:`Async <async>`
++ :ref:`Computed Property <computed-property>`
++ :ref:`Currying <currying>`
++ :ref:`Green Thread <green-thread>`
++ :ref:`Hoisting <hoisting>`
++ :ref:`Mixin <mixin>`
++ :ref:`Open Class <open-class>`
++ :ref:`Pointer <pointer>`
++ :ref:`Sealed Class <sealed-class>`
++ :ref:`Smart Cast <smart-cast>`
+
+Adjective
+---------
+
+List of adjective that are used with several distinct noun, and carry similar concept in different aspects of software science.
+
++ :ref:`Abstract Keyword <abstract>`
++ :ref:`Anonymous <anonymous>`
++ :ref:`Arcane <arcane>`
++ :ref:`Asynchronous <asynchronous>`
++ :ref:`Conditional <conditional>`
++ :ref:`Conditioned Structures <conditioned>`
++ :ref:`Distributed <distributed>`
++ :ref:`Eponymous <eponymous>`
++ :ref:`Fat <fat>`
++ :ref:`Synchronous <synchronous>`
++ :ref:`Testable <testable>`
++ :ref:`Thin <thin>`
