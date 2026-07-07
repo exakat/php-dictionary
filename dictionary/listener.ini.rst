@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","name":"Listener","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:31:52 +0000","dateModified":"Sun, 28 Jun 2026 10:31:52 +0000","description":"A listener is a callable function that is registered to handle a specific event or message when it is dispatched","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Listener.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot mix keyed and unkeyed array entries in assignments.html","name":"Listener","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:07:36 +0000","dateModified":"Tue, 07 Jul 2026 05:07:36 +0000","description":"A listener is a callable function that is registered to handle a specific event or message when it is dispatched","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Listener.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Listener
@@ -26,9 +26,9 @@ Listener
 
 A listener is a callable function that is registered to handle a specific event or message when it is dispatched. Listeners are a core concept in event-driven and pub/sub architectures.
 
-In PHP, listeners are commonly registered with an event dispatcher. When an event is dispatched, the dispatcher calls all registered listeners for that event type, passing the event object as an argument. Listeners may be prioritised, stoppable, or asynchronous.
+Listeners are commonly registered with an event dispatcher. When an event is dispatched, the dispatcher calls all registered listeners for that event type, passing the event object as an argument. Listeners may be prioritised, stoppable, or asynchronous.
 
-PSR-14 standardises the event dispatcher interface in PHP, making listeners interoperable across frameworks. Symfony's EventDispatcher, Laravel's Events system, and many other frameworks implement this pattern.
+PSR-14 standardises the event dispatcher interface, making listeners interoperable across frameworks. Symfony's EventDispatcher, Laravel's Events system, and many other frameworks implement this pattern.
 
 A listener differs from an observer in that listeners are usually registered externally on a dispatcher, while observers are typically attached directly to the subject object they watch.
 
@@ -59,7 +59,7 @@ A listener differs from an observer in that listeners are usually registered ext
 
 `Documentation <https://www.php-fig.org/psr/psr-14/>`__
 
-See also `PSR-14: Event Dispatcher <https://www.php-fig.org/psr/psr-14/>`_, `Events and Event Listeners <https://symfony.com/doc/current/event_dispatcher.html>`_ and `Laravel Events <https://laravel.com/docs/events>`_.
+See also `Events and Event Listeners <https://symfony.com/doc/current/event_dispatcher.html>`_ and `Laravel Events <https://laravel.com/docs/events>`_.
 
 Related : :ref:`Pub/Sub <pubsub>`, :ref:`Event Driven <event-driven>`, :ref:`Message Bus <message-bus>`, :ref:`Observer Design Pattern <observer>`, :ref:`Decoupling <decoupling>`, :ref:`Callbacks <callback>`, :ref:`Hook <hook>`
 

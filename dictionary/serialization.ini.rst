@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 14:01:10 +0000","dateModified":"Thu, 18 Jun 2026 14:01:10 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:23:37 +0000","dateModified":"Mon, 06 Jul 2026 10:23:37 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Serialization
@@ -30,7 +30,7 @@ Serialization is commonly used in computer science and software development for 
 + Data Storage: serialized data can be saved to files or databases, allowing it to be retrieved and reconstructed at a later time.
 + Data Transmission: serialized data can be sent over a network or communication channel, allowing it to be transmitted between different systems or processes.
 + Caching: serialized data can be stored in memory caches, improving the performance of applications by reducing the need to regenerate complex data structures.
-+ Remote Procedure Calls (RPC): serialized data can be used to pass function arguments and return values between remote systems or services.
++ Remote Procedure Calls, RPC: serialized data can be used to pass function arguments and return values between remote systems or services.
 + Message Queues: serialized data can be placed in message queues to enable communication between different components or microservices.
 + State Persistence: serialized data can represent the state of an application, enabling it to be saved and restored across different sessions.
 
@@ -38,7 +38,7 @@ Common serialization formats include JSON, XML, Protocol Buffers, and MessagePac
 
 Deserialization, also known as unserialization, is the reverse process, where the serialized data is converted back into its original form, such as objects or data structures, so that it can be used and manipulated within a program.
 
-There are different ways to implement serialization. The native way is to rely on the serialize() and unserialize(), which, in turn, rely on the ``__serialize()`` and ``__unserialize()`` magic method. Then, ``var_export()`` and require() make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues.
+There are different ways to implement serialization. The native way is to rely on the ``serialize()`` and ``unserialize()``, which, in turn, rely on the ``__serialize()`` and ``__unserialize()`` magic method. Then, ``var_export()`` and require() make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues.
 
 .. code-block:: php
    

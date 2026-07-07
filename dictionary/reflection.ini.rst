@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Reflection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Reflection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Reflection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:15:42 +0000","dateModified":"Mon, 06 Jul 2026 10:15:42 +0000","description":"PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Reflection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Reflection
 ----------
 
-PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime. Reflection in PHP is made possible by the Reflection API, which provides a set of classes and functions for introspecting objects and classes.
+PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime. Reflection is made possible by the Reflection API, which provides a set of classes and functions for introspecting objects and classes.
 
 PHP offers a complete API to describe classes, methods, interfaces, constants, functions, extensions, traits, enums and their components. 
 
@@ -65,6 +65,6 @@ Reflection is also available in other programming languages.
 
 See also `Introduction to PHP Reflection API <https://medium.com/tech-tajawal/introduction-to-php-reflection-api-4af07cc17db4>`_ and `Understanding PHP Reflection: An In-Depth Guide with Examples <https://dev.to/galo4kin/understanding-php-reflection-an-in-depth-guide-with-examples-189n>`_.
 
-Related : :ref:`Class <class>`, :ref:`instance <instance>`, :ref:`Introspection <introspection>`, :ref:`get_object_vars() <get_object_vars>`, :ref:`new <new>`, :ref:`ReflectionException <reflectionexception>`, :ref:`Writeable <writeable>`, :ref:`get_class_vars() <get_class_vars>`, :ref:`Reflector <reflector>`
+Related : :ref:`Class <class>`, :ref:`instance <instance>`, :ref:`Introspection <introspection>`, :ref:`get_object_vars() <get_object_vars>`, :ref:`new <new>`, :ref:`ReflectionException <reflectionexception>`, :ref:`Writeable <writeable>`, :ref:`get_class_vars() <get_class_vars>`, :ref:`Reflector <reflector>`, :ref:`Code Generation <code-generation>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Meta-object Protocol <meta-object-protocol>`, :ref:`Metaclass <metaclass>`, :ref:`Metaprogramming <metaprogramming>`
 
 Related packages : `bramus/reflection <https://packagist.org/packages/bramus/reflection>`_, `roave/better-reflection <https://packagist.org/packages/roave/better-reflection>`_

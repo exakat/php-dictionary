@@ -56,4 +56,4 @@ Control flow analysis is a prerequisite for more advanced analyses such as data 
 
 See also `Control Flow Analysis — Wikipedia <https://en.wikipedia.org/wiki/Control_flow_analysis>`_.
 
-Related : :ref:`Control Flow <control-flow>`, :ref:`Control Flow Graph <control-flow-graph>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`Analysis <analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Dead Code <dead-code>`, :ref:`Taint Analysis <taint>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`
+Related : :ref:`Control Flow <control-flow>`, :ref:`Control Flow Graph (CFG) <control-flow-graph>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`Analysis <analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Dead Code <dead-code>`, :ref:`Taint Analysis <taint>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`

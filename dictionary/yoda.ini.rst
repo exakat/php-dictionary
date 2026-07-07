@@ -44,4 +44,4 @@ This prevents errors where the comparison operator is shortened, and turned into
 
 See also `Why using Yoda conditions you should probably not be <https://dev.to/greg0ire/why-using-yoda-conditions-you-should-probably-not>`_ and `Rule yoda_style <https://cs.symfony.com/doc/rules/control_structure/yoda_style.html>`_.
 
-Related : :ref:`Coding Conventions <coding-convention>`, :ref:`Design Pattern <pattern>`, :ref:`Condition <condition>`, :ref:`Explicit Boolean Comparison <explicit-boolean-comparison>`
+Related : :ref:`Coding Conventions <coding-convention>`, :ref:`Pattern <pattern>`, :ref:`Condition <condition>`, :ref:`Explicit Boolean Comparison <explicit-boolean-comparison>`

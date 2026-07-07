@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SplFileInfo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:55:43 +0000","dateModified":"Thu, 18 Jun 2026 13:55:43 +0000","description":"``SplFileInfo`` provides an object-oriented interface to query information about a file or directory: its path, type, permissions, size, modification time, and more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SplFileInfo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SplFileInfo","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:18:31 +0000","dateModified":"Mon, 06 Jul 2026 10:18:31 +0000","description":"``SplFileInfo`` provides an object-oriented interface to query information about a file or directory: its path, type, permissions, size, modification time, and more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SplFileInfo.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SplFileInfo
@@ -44,8 +44,6 @@ It is the base class for ``SplFileObject``, which also reads and writes the file
 
 
 `Documentation <https://www.php.net/manual/en/class.splfileinfo.php>`__
-
-See also `SplFileInfo Class <https://www.php.net/manual/en/class.splfileinfo.php>`_ and `SplFileObject Class <https://www.php.net/manual/en/class.splfileobject.php>`_.
 
 Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`File <file>`, :ref:`File System <filesystem>`, :ref:`SplFileObject <splfileobject>`, :ref:`DirectoryIterator <directoryiterator>`, :ref:`SplSubject <splsubject>`
 

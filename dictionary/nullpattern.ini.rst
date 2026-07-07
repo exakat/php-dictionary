@@ -62,4 +62,4 @@ Key principles of the Null Pattern:
 
 See also `The Null Object Pattern: Simplify Your PHP Code <https://jorgecortes.dev/blog/10-the-null-object-pattern-simplify-your-php-code>`_ and `All the way to handle null values in PHP <https://www.amitmerchant.com/all-the-ways-to-handle-null-values-in-php/>`_.
 
-Related : :ref:`Design Pattern <pattern>`, :ref:`Default Parameter <default-parameter>`, :ref:`Default Value <default-value>`, :ref:`Neutral Element <neutral-element>`, :ref:`Null <null>`
+Related : :ref:`Pattern <pattern>`, :ref:`Default Parameter <default-parameter>`, :ref:`Default Value <default-value>`, :ref:`Neutral Element <neutral-element>`, :ref:`Null <null>`

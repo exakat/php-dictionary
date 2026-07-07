@@ -50,6 +50,6 @@ PHP has no built-in graph data structure, but several libraries provide graph im
 
 `Documentation <https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>`__
 
-Related : :ref:`Call Graph <call-graph>`, :ref:`Control Flow Graph <control-flow-graph>`, :ref:`Graph Database <graph-database>`, :ref:`GraphQL <graphql>`, :ref:`Tree <tree>`, :ref:`Network <network>`, :ref:`Treemap <treemap>`
+Related : :ref:`Call Graph <call-graph>`, :ref:`Control Flow Graph (CFG) <control-flow-graph>`, :ref:`Graph Database <graph-database>`, :ref:`GraphQL <graphql>`, :ref:`Tree <tree>`, :ref:`Network <network>`, :ref:`Treemap <treemap>`
 
 Related packages : `graphp/graph <https://packagist.org/packages/graphp/graph>`_

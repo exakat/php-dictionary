@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Factory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A factory is a design pattern used to create objects without exposing the instantiation logic, i","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Factory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Factory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:15:54 +0000","dateModified":"Sat, 04 Jul 2026 08:15:54 +0000","description":"A factory is a design pattern used to create objects without exposing the instantiation logic, i","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Factory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Factory
@@ -51,6 +51,6 @@ A factory is a design pattern used to create objects without exposing the instan
 
 `Documentation <https://refactoring.guru/design-patterns/factory-method/php/example>`__
 
-See also `Factory Method in PHP <https://refactoring.guru/design-patterns/factory-method/php/example>`_, `Exploring the Factory Pattern in PHP 8.2 <https://medium.com/@bluznierca1/exploring-the-factory-pattern-in-php-8-2-d75f2de6f22e>`_ and `PHP Tips | Exploring the Factory Pattern 🤖 <https://dev.to/razielrodrigues/php-creational-patterns-factory-429c>`_.
+See also `Exploring the Factory Pattern in PHP 8.2 <https://medium.com/@bluznierca1/exploring-the-factory-pattern-in-php-8-2-d75f2de6f22e>`_ and `PHP Tips | Exploring the Factory Pattern 🤖 <https://dev.to/razielrodrigues/php-creational-patterns-factory-429c>`_.
 
 Related : :ref:`Abstract Factory <abstract-factory>`

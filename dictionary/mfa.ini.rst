@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Jun 2026 19:57:22 +0000","dateModified":"Sun, 21 Jun 2026 19:57:22 +0000","description":"Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:44:10 +0000","dateModified":"Tue, 07 Jul 2026 07:44:10 +0000","description":"Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Multi-Factor Authentication (MFA)
@@ -27,9 +27,9 @@ Multi-Factor Authentication (MFA)
 
 Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted. The three classical factors are:
 
-+ **Something you know**: a password or PIN.
-+ **Something you have**: a hardware token, authenticator app (TOTP/HOTP), or SMS code.
-+ **Something you are**: a biometric such as a fingerprint or face recognition.
++Something you know: a password or PIN.
++Something you have: a hardware token, authenticator app, TOTP/HOTP, or SMS code.
++Something you are: a biometric such as a fingerprint or face recognition.
 
 Requiring at least two factors dramatically reduces the risk of account compromise: stealing a password alone is no longer enough.
 

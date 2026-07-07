@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"API Gateway","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 08:30:42 +0000","dateModified":"Wed, 01 Jul 2026 08:30:42 +0000","description":"An API gateway is a server that acts as the single entry point for all client requests to a backend system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/API Gateway.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"API Gateway","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 04:49:07 +0000","dateModified":"Tue, 07 Jul 2026 04:49:07 +0000","description":"An API gateway is a server that acts as the single entry point for all client requests to a backend system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/API Gateway.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 API Gateway
@@ -70,6 +70,6 @@ Common API gateways: ``AWS API Gateway``, ``Kong``, ``Traefik``, ``NGINX`` with 
 
 `Documentation <https://microservices.io/patterns/apigateway.html>`__
 
-See also `API Gateway pattern — microservices.io <https://microservices.io/patterns/apigateway.html>`_.
+See also `API Gateway in PHP <https://habib-cst.medium.com/api-gateway-in-php-e22d7a6d57e3>`_ and `API Gateway examples using SDK for PHP <https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/php_api-gateway_code_examples.html>`_.
 
 Related : :ref:`Microservice <microservice>`, :ref:`Service Discovery <service-discovery>`, :ref:`Rate Limiting <rate-limit>`, :ref:`Authentication <authentication>`, :ref:`Middleware Pattern <middleware>`, :ref:`REST API <rest-api>`, :ref:`Service-Oriented Architecture (SOA) <soa>`

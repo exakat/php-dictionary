@@ -50,4 +50,4 @@ Exakat uses pattern-based analysis for many of its rules, alongside deeper analy
 
 See also `Pattern-based analysis — OWASP Code Review Guide <https://owasp.org/www-project-code-review-guide/>`_.
 
-Related : :ref:`Analysis <analysis>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Regular Expression <regex>`
+Related : :ref:`Analysis <analysis>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Regular Expression <regex>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","name":"Semantic Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:32:22 +0000","dateModified":"Fri, 03 Jul 2026 08:32:22 +0000","description":"Semantic analysis is the phase of compilation or static analysis that checks the meaning of a program after its structure has been parsed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semantic Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Recursion detected.html","name":"Semantic Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:33:17 +0000","dateModified":"Mon, 06 Jul 2026 19:33:17 +0000","description":"Semantic analysis is the phase of compilation or static analysis that checks the meaning of a program after its structure has been parsed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Semantic Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Semantic Analysis
@@ -32,7 +32,7 @@ Typical checks performed during semantic analysis include:
 + Constant folding: evaluating expressions whose values are known at compile time
 + Dead branch elimination: detecting conditions that are always true or always false
 
-In static analysis, semantic analysis underpins the type inference and undefined-variable checks performed by tools such as PHPStan, Psalm, and Exakat.
+In static analysis, semantic analysis underpins the type inference and undefined-variable checks performed by tools.
 
 .. code-block:: php
    
@@ -50,8 +50,6 @@ In static analysis, semantic analysis underpins the type inference and undefined
 
 `Documentation <https://en.wikipedia.org/wiki/Semantic_analysis_(compilers)>`__
 
-See also `Semantic analysis (compilers) — Wikipedia <https://en.wikipedia.org/wiki/Semantic_analysis_(compilers)>`_.
-
-Related : :ref:`Analysis <analysis>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, , :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`
+Related : :ref:`Analysis <analysis>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Type System <type-system>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`
 
 Related packages : `phpstan/phpstan <https://packagist.org/packages/phpstan/phpstan>`_, `vimeo/psalm <https://packagist.org/packages/vimeo/psalm>`_

@@ -30,6 +30,6 @@ PHP runs serverlessly via AWS Lambda (using Bref), Google Cloud Functions, Azure
 
 See also `Bref — Serverless PHP <https://bref.sh/>`_ and `AWS Lambda with PHP <https://bref.sh/docs/runtimes/>`_.
 
-Related : :ref:`Cloud <cloud>`, :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Architecture <architecture>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`SplSubject <splsubject>`, :ref:`Cold Start <cold-start>`, :ref:`Edge Computing <edge-computing>`, :ref:`Function-as-a-Service <faas>`
+Related : :ref:`Cloud <cloud>`, :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Architecture <architecture>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`SplSubject <splsubject>`, :ref:`Cold Start <cold-start>`, :ref:`Edge Computing <edge-computing>`, :ref:`Function-as-a-Service (FaaS) <faas>`
 
 Related packages : `bref/bref <https://packagist.org/packages/bref/bref>`_

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mixin","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:37:42 +0000","dateModified":"Fri, 03 Jul 2026 08:37:42 +0000","description":"A mixin is a class-level construct that provides a set of methods intended to be incorporated into other classes, without forming a base-class relationship","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mixin.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Mixin","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:19:41 +0000","dateModified":"Tue, 07 Jul 2026 05:19:41 +0000","description":"A mixin is a class-level construct that provides a set of methods intended to be incorporated into other classes, without forming a base-class relationship","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Mixin.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Mixin
@@ -63,6 +63,6 @@ PHP interfaces with default implementations (as in Java) are also a common compa
 
 `Documentation <https://en.wikipedia.org/wiki/Mixin>`__
 
-See also `Dart mixins <https://dart.dev/language/mixins>`_ and `Mixins vs Traits <https://en.wikipedia.org/wiki/Mixin>`_.
+See also `Dart mixins <https://dart.dev/language/mixins>`_.
 
 Related : :ref:`Trait <trait>`, :ref:`Use In Traits <use-trait>`, :ref:`Open Class <open-class>`, :ref:`Polymorphism <polymorphism>`, :ref:`Method Resolution Order (MRO) <mro>`

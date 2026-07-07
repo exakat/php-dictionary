@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dependency Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 08:44:27 +0000","dateModified":"Tue, 30 Jun 2026 08:44:27 +0000","description":"Dependency injection is a design pattern in which an object receives other objects that it depends on","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dependency Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Dependency Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 08:30:00 +0000","dateModified":"Mon, 06 Jul 2026 08:30:00 +0000","description":"Dependency injection is a design pattern in which an object receives other objects that it depends on","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dependency Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dependency Injection
@@ -29,13 +29,13 @@ Dependency injection is a design pattern in which an object receives other objec
    
    <?php
    
-   class MyObject {
-       function __construct(private readonly Connection $database) {}
-       
-       function load(int $id): self {
-           return $this->connection->select($id);
+       class MyObject {
+           function __construct(private readonly Connection $database) {}
+           
+           function load(int $id): self {
+               return $this->connection->select($id);
+           }
        }
-   }
    
    ?>
 
@@ -44,4 +44,4 @@ Dependency injection is a design pattern in which an object receives other objec
 
 See also `Road to dependency injection <https://matthiasnoback.nl/2018/06/road-to-dependency-injection/>`_, `PHP-di <https://php-di.org/>`_ and `Dependency Injection in PHP: Laravel’s Magic vs. Symfony’s Explicitness <https://lukaszzychal.medium.com/dependency-injection-in-php-laravels-magic-vs-symfony-s-explicitness-ce0170a30403>`_.
 
-Related : :ref:`Autowiring <autowiring>`, :ref:`Clock <clock>`, :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`Injection <injection>`, :ref:`Interoperability <interoperability>`
+Related : :ref:`Autowiring <autowiring>`, :ref:`Clock <clock>`, :ref:`Dependency Injection Container <dependency-injection-container>`, :ref:`Injection <injection>`, :ref:`Interoperability <interoperability>`, :ref:`Dependency Inversion (DIP) <dependency-inversion>`, :ref:`Greenfield <green-field>`, :ref:`Magento <magento>`, :ref:`Ports And Adapters <ports-and-adapters>`

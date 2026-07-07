@@ -66,4 +66,4 @@ Common edge use cases: A/B testing, personalisation headers, authentication toke
 
 See also `Wikipedia: Edge computing <https://en.wikipedia.org/wiki/Edge_computing>`_.
 
-Related : :ref:`Serverless <serverless>`, :ref:`Function-as-a-Service <faas>`, :ref:`Internet of Things (IoT) <iot>`, :ref:`Latency <latency>`, :ref:`CDN <cdn>`
+Related : :ref:`Serverless <serverless>`, :ref:`Function-as-a-Service (FaaS) <faas>`, :ref:`Internet of Things (IoT) <iot>`, :ref:`Latency <latency>`, :ref:`CDN <cdn>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monomorphization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Monomorphization is a compile-time technique used to optimize generic or polymorphic code by generating separate, type-specific versions of a function or class for each concrete type it is used with","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monomorphization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monomorphization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:19:50 +0000","dateModified":"Tue, 07 Jul 2026 05:19:50 +0000","description":"Monomorphization is a compile-time technique used to optimize generic or polymorphic code by generating separate, type-specific versions of a function or class for each concrete type it is used with","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monomorphization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Monomorphization
@@ -36,6 +36,6 @@ Understanding monomorphization helps explain both the performance ceiling of gen
 
 `Documentation <https://en.wikipedia.org/wiki/Monomorphization>`__
 
-See also `Monomorphization (Wikipedia) <https://en.wikipedia.org/wiki/Monomorphization>`_, `Rust reference: monomorphization <https://doc.rust-lang.org/reference/glossary.html#monomorphization>`_ and `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_.
+See also `Rust reference: monomorphization <https://doc.rust-lang.org/reference/glossary.html#monomorphization>`_ and `PHP RFC: Generic Types and Functions <https://wiki.php.net/rfc/generics>`_.
 
 Related : :ref:`Generics <generics>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Types Erasure <type-erasure>`, :ref:`Opcode Specialisation <opcode-specialization>`, :ref:`Polymorphism <polymorphism>`, :ref:`Compile <compile>`

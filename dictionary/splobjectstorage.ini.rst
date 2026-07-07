@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SplObjectStorage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``SplObjectStorage`` provides a map from objects to arbitrary data, or a set of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SplObjectStorage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SplObjectStorage","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:57:10 +0000","dateModified":"Mon, 06 Jul 2026 18:57:10 +0000","description":"``SplObjectStorage`` provides a map from objects to arbitrary data, or a set of objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SplObjectStorage.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SplObjectStorage
@@ -30,24 +30,22 @@ It is commonly used to manage observers in the Observer pattern, to associate me
    
    <?php
    
-   $storage = new SplObjectStorage();
-   
-   $obj1 = new stdClass();
-   $obj2 = new stdClass();
-   
-   $storage->attach($obj1, 'data for obj1');
-   $storage->attach($obj2, 'data for obj2');
-   
-   foreach ($storage as $object) {
-       echo $storage->getInfo() . PHP_EOL;
-   }
+       $storage = new SplObjectStorage();
+       
+       $obj1 = new stdClass();
+       $obj2 = new stdClass();
+       
+       $storage->attach($obj1, 'data for obj1');
+       $storage->attach($obj2, 'data for obj2');
+       
+       foreach ($storage as $object) {
+           echo $storage->getInfo() . PHP_EOL;
+       }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.splobjectstorage.php>`__
-
-See also `SplObjectStorage Class <https://www.php.net/manual/en/class.splobjectstorage.php>`_.
 
 Related : :ref:`Standard PHP Library (SPL) <spl>`, :ref:`Data Structure <datastructure>`, :ref:`Collection <collection>`, :ref:`Object <object>`, :ref:`Iterator <iterator>`, :ref:`SplStorageObjects <splstorageobjects>`, :ref:`SplSubject <splsubject>`
 

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Atomic Operation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An atomic operation is an operation that is indivisible: it either completes fully or not at all, with no intermediate state visible to other threads or processes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Atomic Operation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Atomic Operation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 04:50:39 +0000","dateModified":"Tue, 07 Jul 2026 04:50:39 +0000","description":"An atomic operation is an operation that is indivisible: it either completes fully or not at all, with no intermediate state visible to other threads or processes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Atomic Operation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Atomic Operation
@@ -38,26 +38,26 @@ Without atomicity guarantees, concurrent access can lead to race conditions and 
    
    <?php
    
-   // Atomic database transaction
-   $pdo = new PDO('sqlite::memory:');
-   $pdo->beginTransaction();
-   
-   try {
-       $pdo->exec('UPDATE accounts SET balance = balance - 100 WHERE id = 1');
-       $pdo->exec('UPDATE accounts SET balance = balance + 100 WHERE id = 2');
-       $pdo->commit();
-   } catch (PDOException $e) {
-       $pdo->rollBack();
-   }
-   
-   // Atomic increment in APCu (shared memory)
-   apcu_inc('page_views', 1, $success);
+       // Atomic database transaction
+       $pdo = new PDO('sqlite::memory:');
+       $pdo->beginTransaction();
+       
+       try {
+           $pdo->exec('UPDATE accounts SET balance = balance - 100 WHERE id = 1');
+           $pdo->exec('UPDATE accounts SET balance = balance + 100 WHERE id = 2');
+           $pdo->commit();
+       } catch (PDOException $e) {
+           $pdo->rollBack();
+       }
+       
+       // Atomic increment in APCu (shared memory)
+       apcu_inc('page_views', 1, $success);
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Atomicity_(database_systems)>`__
 
-See also `Atomicity - Wikipedia <https://en.wikipedia.org/wiki/Atomicity_(database_systems)>`_.
+See also `Transactions and auto-commit <https://www.php.net/manual/en/pdo.transactions.php>`_ and `PHP and Database Transactions: Ensuring Atomicity and Consistency <https://php-include.com/php-and-database-transactions-ensuring-atomicity-and-consistency/>`_.
 
 Related : :ref:`Transaction <transaction>`, :ref:`Race Condition <race-condition>`, :ref:`Concurrency <concurency>`, :ref:`Database <database>`, :ref:`Lock <lock>`, :ref:`Database Commit <database-commit>`

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:06:12 +0000","dateModified":"Tue, 30 Jun 2026 15:06:12 +0000","description":"The shared database pattern, and more commonly, the shared database anti-pattern, describes multiple services or applications reading from and writing to the same database schema","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:24:00 +0000","dateModified":"Mon, 06 Jul 2026 10:24:00 +0000","description":"The shared database pattern, and more commonly, the shared database anti-pattern, describes multiple services or applications reading from and writing to the same database schema","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shared Database
@@ -54,7 +54,5 @@ The shared database pattern is sometimes intentionally used during a monolith-to
 
 
 `Documentation <https://microservices.io/patterns/data/shared-database.html>`__
-
-See also `Shared database pattern — microservices.io <https://microservices.io/patterns/data/shared-database.html>`_.
 
 Related : :ref:`Distributed Monolith <distributed-monolith>`, :ref:`Microservice <microservice>`, :ref:`Database <database>`, :ref:`Coupling <coupling>`, :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Event Driven <event-driven>`

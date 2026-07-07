@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Union Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:27:22 +0000","dateModified":"Mon, 29 Jun 2026 09:27:22 +0000","description":"Union types refer to the ability to specify multiple possible types for a property, parameter, or return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Union Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Uninitialized string offset.html","name":"Union Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:41:52 +0000","dateModified":"Tue, 07 Jul 2026 07:41:52 +0000","description":"Union types refer to the ability to specify multiple possible types for a property, parameter, or return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Union Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Union Type
@@ -50,6 +50,6 @@ Union types were introduced for exception catching, before PHP 8.
 
 See also `What are union types and how do you use them in PHP? <https://www.educative.io/answers/what-are-union-types-and-how-do-you-use-them-in-php>`_.
 
-Related : :ref:`Type System <type>`, :ref:`Composite Type <composite-type>`, :ref:`Alias Types <alias-types>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Literal Types <literal-types>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Intersection Type <intersection-type>`, :ref:`Named Type <named-type>`, :ref:`Type Inference <type-inference>`
+Related : :ref:`Type System <type>`, :ref:`Composite Type <composite-type>`, :ref:`Alias Types <alias-types>`, :ref:`Disjunctive Normal Form (DNF) <dnf-type>`, :ref:`Literal Types <literal-types>`, :ref:`Relative Types <relative-types>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Intersection Type <intersection-type>`, :ref:`Named Type <named-type>`, :ref:`Type Inference <type-inference>`, :ref:`Algebraic Data Type <algebraic-data-type>`, :ref:`Duplicate <duplicate>`, :ref:`Sum Type <sum-type>`, :ref:`Type System <type-system>`
 
 Added in PHP 8.0

@@ -47,4 +47,4 @@ Note that ``escapeshellarg()`` escapes a single argument only. When the full com
 
 See also `escapeshellarg() — PHP Manual <https://www.php.net/manual/en/function.escapeshellarg.php>`_ and `escapeshellcmd() — PHP Manual <https://www.php.net/manual/en/function.escapeshellcmd.php>`_.
 
-Related : :ref:`Escape Data <escape-data>`, :ref:`Injection <injection>`, , :ref:`exec <exec>`, :ref:`System <system>`, :ref:`Shell Exec <shell-exec>`, , :ref:`Security <security>`
+Related : :ref:`Escape Data <escape-data>`, :ref:`Injection <injection>`, :ref:`Shell Injection <shell-injection>`, :ref:`exec <exec>`, :ref:`System <system>`, :ref:`Shell Exec <shell-exec>`, :ref:`escapeshellcmd() <escapeshellcmd>`, :ref:`Security <security>`

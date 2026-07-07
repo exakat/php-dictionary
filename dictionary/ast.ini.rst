@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Abstract Syntactic Tree (AST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Syntactic Tree (AST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Abstract Syntactic Tree (AST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:15:03 +0000","dateModified":"Sat, 04 Jul 2026 08:15:03 +0000","description":"An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Syntactic Tree (AST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstract Syntactic Tree (AST)
@@ -28,6 +28,8 @@ It is a representation of the code, that focuses on the syntactic elements that 
 
 `Documentation <https://en.wikipedia.org/wiki/Abstract_syntax_tree>`__
 
-Related : :ref:`Parser <php-parser>`, :ref:`Analysis <analysis>`, :ref:`Token <token>`
+See also `PHP AST viewer <https://php-ast-viewer.com/>`_.
+
+Related : :ref:`Parser <php-parser>`, :ref:`Analysis <analysis>`, :ref:`Token <token>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Hygienic Macro <hygienic-macro>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`
 
 Added in PHP 7.0

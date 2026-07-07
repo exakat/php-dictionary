@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Magento","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:19:02 +0000","dateModified":"Thu, 02 Jul 2026 08:19:02 +0000","description":"Magento is an open-source PHP e-commerce platform","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Magento.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Magento","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:11:09 +0000","dateModified":"Tue, 07 Jul 2026 05:11:09 +0000","description":"Magento is an open-source PHP e-commerce platform","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Magento.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Magento
@@ -31,7 +31,7 @@ Magento 2, released in 2015, is a full rewrite using modern PHP practices, inclu
 
 `Documentation <https://developer.adobe.com/commerce/docs/>`__
 
-See also `Magento Open Source <https://github.com/magento/magento2>`_ and `Adobe Commerce documentation <https://developer.adobe.com/commerce/docs/>`_.
+See also `Magento Open Source <https://github.com/magento/magento2>`_.
 
 Related : :ref:`Framework <framework>`, :ref:`Content Management System (CMS) <cms>`, :ref:`Dependency Injection <dependency-injection>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Object Relational Mapping (ORM) <orm>`
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SessionIdInterface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``SessionIdInterface`` is an optional interface a session handler can implement to generate its own session IDs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SessionIdInterface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SessionIdInterface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:32:48 +0000","dateModified":"Mon, 06 Jul 2026 19:32:48 +0000","description":"``SessionIdInterface`` is an optional interface a session handler can implement to generate its own session IDs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SessionIdInterface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SessionIdInterface
@@ -30,19 +30,17 @@ When PHP needs a new session ID and the handler implements this interface, ``cre
    
    <?php
    
-   class CustomSessionHandler implements SessionHandlerInterface, SessionIdInterface {
-       public function create_sid(): string {
-           return bin2hex(random_bytes(16));
+       class CustomSessionHandler implements SessionHandlerInterface, SessionIdInterface {
+           public function create_sid(): string {
+               return bin2hex(random_bytes(16));
+           }
+           // ... implement remaining SessionHandlerInterface methods
        }
-       // ... implement remaining SessionHandlerInterface methods
-   }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.sessionidinterface.php>`__
-
-See also `SessionIdInterface Interface <https://www.php.net/manual/en/class.sessionidinterface.php>`_.
 
 Related : :ref:`Session <session>`, :ref:`Interface <interface>`, :ref:`PHP Native Interfaces <php-interface>`, :ref:`SessionHandlerInterface <sessionhandlerinterface>`, :ref:`SplSubject <splsubject>`
 

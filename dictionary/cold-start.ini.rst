@@ -62,4 +62,4 @@ Mitigation strategies include: provisioned concurrency (pre-warming a fixed numb
 
 See also `AWS Lambda: Cold starts <https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html>`_ and `Bref: Cold Start <https://bref.sh/docs/environment/cold-starts>`_.
 
-Related : :ref:`Function-as-a-Service <faas>`, :ref:`Serverless <serverless>`, :ref:`Latency <latency>`, :ref:`Performance <performance>`
+Related : :ref:`Function-as-a-Service (FaaS) <faas>`, :ref:`Serverless <serverless>`, :ref:`Latency <latency>`, :ref:`Performance <performance>`

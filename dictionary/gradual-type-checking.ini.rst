@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Gradual Type Checking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"Gradual type checking is the progressive introduction of types in a code base","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Gradual Type Checking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Gradual Type Checking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:40:11 +0000","dateModified":"Tue, 07 Jul 2026 07:40:11 +0000","description":"Gradual type checking is the progressive introduction of types in a code base","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Gradual Type Checking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Gradual Type Checking
@@ -43,4 +43,4 @@ Gradual Type Checking ends when the code is all typed: arguments, return types, 
 
 See also `Gradual Type Checking & Sorbet <https://sorbet.org/docs/gradual>`_, `What is Gradual Typing <https://jsiek.github.io/home/WhatIsGradualTyping.html>`_ and `PHP’s Gradual Typing Journey: From Wild West to Almost Respectable <https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html>`_.
 
-Related : :ref:`Type System <type>`, :ref:`Type Checking <type-checking>`, :ref:`Type Inference <type-inference>`
+Related : :ref:`Type System <type>`, :ref:`Type Checking <type-checking>`, :ref:`Type Inference <type-inference>`, :ref:`Phantom Type <phantom-type>`, :ref:`Refinement Type <refinement-type>`, :ref:`Row Polymorphism <row-polymorphism>`, :ref:`Strict <strict>`

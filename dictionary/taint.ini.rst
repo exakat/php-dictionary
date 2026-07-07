@@ -47,4 +47,4 @@ There was a taint extension until PHP 8.0. It was not ported further.
 
 See also `Secure Your PHP Code With Taint Analysis by Qodana <https://blog.jetbrains.com/qodana/2023/03/taint-analysis-by-qodana/>`_.
 
-Related : :ref:`Security <security>`, :ref:`Injection <injection>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`CRLF Injection <crlf-injection>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`LDAP Injection <ldap-injection>`, :ref:`Symbolic Analysis <symbolic-analysis>`
+Related : :ref:`Security <security>`, :ref:`Injection <injection>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`CRLF Injection <crlf-injection>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`LDAP Injection <ldap-injection>`, :ref:`Symbolic Analysis <symbolic-analysis>`

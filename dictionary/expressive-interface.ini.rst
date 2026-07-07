@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Expressive Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:13 +0000","dateModified":"Fri, 19 Jun 2026 21:25:13 +0000","description":"An expressive interface, refers to an API design pattern that makes code more readable, intuitive, and natural to write","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Expressive Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Expressive Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:20:46 +0000","dateModified":"Sat, 04 Jul 2026 08:20:46 +0000","description":"An expressive interface, refers to an API design pattern that makes code more readable, intuitive, and natural to write","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Expressive Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Expressive Interface
@@ -34,29 +34,28 @@ The notion of expressive interface is similar to the fluent interface.
    
    <?php
    
-   class script {
-       function hello() {
-           print 'Hello ';
-           return $this;
+       class script {
+           function hello() {
+               print 'Hello ';
+               return $this;
+           }
+       
+           function word() {
+               print 'word.';
+               return $this;
+           }
        }
-   
-       function word() {
-           print 'word.';
-           return $this;
-       }
-   }
-   
-   $script = new Script();
-   
-   $script->hello()->world();
-   // 
+       
+       $script = new Script();
+       
+       $script->hello()->world();
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Fluent_interface>`__
 
-See also `Fluent Interface <https://en.wikipedia.org/wiki/Fluent_interface>`_.
+See also `Fluent Interface <https://www.codegenes.net/blog/php-method-chaining-or-fluent-interface/>`_ and `Fluent Interface Pattern in PHP <https://softwarepatternslexicon.com/php/structural-patterns-in-php/fluent-interface-pattern/>`_.
 
 Related : :ref:`Fluent Interface <fluent-interface>`, :ref:`Self-documenting <self-documenting>`, :ref:`Interface <interface>`
 

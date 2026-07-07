@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Existence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:44:40 +0000","dateModified":"Thu, 18 Jun 2026 13:44:40 +0000","description":"Existence is the general concept of checking whether something is available before using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Existence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Existence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:21:02 +0000","dateModified":"Sat, 04 Jul 2026 08:21:02 +0000","description":"Existence is the general concept of checking whether something is available before using it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Existence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Existence
@@ -63,6 +63,6 @@ The underlying concept is the same across all these cases: verify that an entity
 
 `Documentation <https://www.php.net/manual/en/function.isset.php>`__
 
-See also `isset <https://www.php.net/manual/en/function.isset.php>`_, `defined <https://www.php.net/manual/en/function.defined.php>`_, `file_exists <https://www.php.net/manual/en/function.file-exists.php>`_ and `class_exists <https://www.php.net/manual/en/function.class-exists.php>`_.
+See also `defined <https://www.php.net/manual/en/function.defined.php>`_, `file_exists <https://www.php.net/manual/en/function.file-exists.php>`_ and `class_exists <https://www.php.net/manual/en/function.class-exists.php>`_.
 
 Related : :ref:`Isset <isset>`, :ref:`defined() <defined>`, :ref:`Undefined <undefined>`, :ref:`Null <null>`, :ref:`File <file>`, :ref:`Class Autoloading <autoload>`, :ref:`Class <class>`, :ref:`Uninitialized <uninitialized>`

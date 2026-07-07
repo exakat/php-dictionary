@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Crack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cracking refers to breaking a security mechanism","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Crack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Crack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:53:27 +0000","dateModified":"Tue, 07 Jul 2026 07:53:27 +0000","description":"Cracking refers to breaking a security mechanism","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Crack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Crack
@@ -28,8 +28,8 @@ Cracking refers to breaking a security mechanism. Most commonly, it means recove
 
 + Brute force: trying every possible input
 + Dictionary attacks: trying common words and known passwords
-+ Rainbow tables: precomputed hash linked to plaintext mappings
-+ Rule-based attacks: applying transformations like capitalisation, digit appending, ... to existing wordlists
++ Rainbow tables: precomputed hash linked to plain-text mappings
++ Rule-based attacks: applying transformations like capitalisation, digit appending, ... to existing word lists
 
 In any application, passwords must be stored using a strong, salted hashing algorithm such as ``bcrypt`` or Argon2. These algorithms are deliberately slow and include a random salt, making cracking computationally expensive and rendering rainbow tables useless.
 

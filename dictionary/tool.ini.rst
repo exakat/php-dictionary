@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Tool","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:40 +0000","dateModified":"Fri, 19 Jun 2026 21:24:40 +0000","description":"A tool in the PHP ecosystem refers to any standalone application, script, or library that assists developers during the software development lifecycle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Tool.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Tool","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:54:12 +0000","dateModified":"Mon, 06 Jul 2026 18:54:12 +0000","description":"A tool in the PHP ecosystem refers to any standalone application, script, or library that assists developers during the software development lifecycle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Tool.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Tool
@@ -30,15 +30,15 @@ A tool in the PHP ecosystem refers to any standalone application, script, or lib
    
    <?php
    
-   // Example: running a tool programmatically via Symfony Process
-   use Symfony\Component\Process\Process;
-   
-   $process = new Process(['vendor/bin/phpstan', 'analyse', 'src', '--level=8']);
-   $process->run();
-   
-   if (!$process->isSuccessful()) {
-       echo $process->getErrorOutput();
-   }
+       // Example: running a tool programmatically via Symfony Process
+       use Symfony\Component\Process\Process;
+       
+       $process = new Process(['composer', 'update']);
+       $process->run();
+       
+       if (!$process->isSuccessful()) {
+           echo $process->getErrorOutput();
+       }
    
    ?>
 

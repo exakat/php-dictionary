@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"String Increment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:02:19 +0000","dateModified":"Tue, 30 Jun 2026 09:02:19 +0000","description":"String increment is the PHP feature that applies the ``++`` pre- and post-increment operators on non-numeric strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/String Increment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"String Increment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:19:50 +0000","dateModified":"Mon, 06 Jul 2026 10:19:50 +0000","description":"String increment is the PHP feature that applies the ``++`` pre- and post-increment operators on non-numeric strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/String Increment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 String Increment
@@ -26,7 +26,7 @@ String increment is the PHP feature that applies the ``++`` pre- and post-increm
 
 These strings last character's ASCII code is incremented by one, with possible extension of the string when the letters reach ``z`` and ``Z``. 
 
-This feature, when based on ``++`` is deprecated, and shall be removed in PHP 9. It has been replaced by the ``str_increment()`` function, which has the same feature, though not implicit in the engine anymore. It is also extended with It has been replaced by the ``str_decrement()``.
+This feature, when based on ``++`` is deprecated, and shall be removed in version 9. It has been replaced by the ``str_increment()`` function, which has the same feature, though not implicit in the engine anymore. It is also extended with It has been replaced by the ``str_decrement()``.
 
 A deprecation message is active since PHP 8.3.
 
@@ -34,15 +34,15 @@ A deprecation message is active since PHP 8.3.
    
    <?php
    
-   $s = 'y';
-   echo ++$s; // z
-   echo ++$s; // aa 
-   echo ++$s; // ab
-   
-   $s = 'Y';
-   echo ++$s; // Z
-   echo ++$s; // AA
-   echo ++$s; // AA
+       $s = 'y';
+       echo ++$s; // z
+       echo ++$s; // aa 
+       echo ++$s; // ab
+       
+       $s = 'Y';
+       echo ++$s; // Z
+       echo ++$s; // AA
+       echo ++$s; // AA
    
    ?>
 
@@ -52,3 +52,5 @@ A deprecation message is active since PHP 8.3.
 See also `str_decrement <https://www.php.net/manual/en/function.str-decrement.php>`_ and `str_increment <https://www.php.net/manual/en/function.str-increment.php>`_.
 
 Related : :ref:`Increment <increment>`, :ref:`String <string>`, :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`, :ref:`Type Juggling <type-juggling>`, :ref:`Deprecation <deprecation>`
+
+Removed in PHP 

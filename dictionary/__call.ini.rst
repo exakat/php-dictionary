@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead.html","name":"__call() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``__call()`` is a magic method: it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__call() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/ __autoload() is no longer supported, use spl_autoload_register() instead.html","name":"__call() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:05:30 +0000","dateModified":"Mon, 06 Jul 2026 10:05:30 +0000","description":"``__call()`` is a magic method: it is called when a method cannot be accessed, either because it doesn't exist, or because its visibility prevents it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__call() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __call() Method
@@ -56,4 +56,4 @@ The ``__call()`` method has a related version for static methods, called ``__cal
 
 See also `PHP _call (Lesson 3: PHP Magic Methods) <https://dev.to/cleancodestudio/php-call-lesson-3-php-magic-methods-5bi0>`_.
 
-Related : :ref:`__callStatic() Method <-__callstatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`, :ref:`Proxy <proxy>`
+Related : :ref:`__callStatic() Method <-__callstatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`, :ref:`Proxy <proxy>`, :ref:`Meta-object Protocol <meta-object-protocol>`, :ref:`Metaclass <metaclass>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Open Class <open-class>`

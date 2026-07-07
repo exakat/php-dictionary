@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Symbolic Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:10:52 +0000","dateModified":"Fri, 03 Jul 2026 08:10:52 +0000","description":"Symbolic analysis, also called symbolic execution, is a static analysis technique that executes a program with symbolic values instead of concrete inputs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Symbolic Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Symbolic Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:33:51 +0000","dateModified":"Mon, 06 Jul 2026 19:33:51 +0000","description":"Symbolic analysis, also called symbolic execution, is a static analysis technique that executes a program with symbolic values instead of concrete inputs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Symbolic Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Symbolic Analysis
@@ -52,6 +52,4 @@ Symbolic analysis is more powerful than pattern-based or data flow analysis but 
 
 `Documentation <https://en.wikipedia.org/wiki/Symbolic_execution>`__
 
-See also `Symbolic execution — Wikipedia <https://en.wikipedia.org/wiki/Symbolic_execution>`_.
-
-Related : :ref:`Analysis <analysis>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Taint Analysis <taint>`
+Related : :ref:`Analysis <analysis>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Taint Analysis <taint>`

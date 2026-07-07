@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","name":"Standard PHP Library (SPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:08:31 +0000","dateModified":"Tue, 30 Jun 2026 09:08:31 +0000","description":"The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Standard PHP Library (SPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot modify header information - headers already sent.html","name":"Standard PHP Library (SPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:18:52 +0000","dateModified":"Mon, 06 Jul 2026 10:18:52 +0000","description":"The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Standard PHP Library (SPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Standard PHP Library (SPL)
@@ -26,7 +26,7 @@ The Standard PHP Library, the SPL, is a collection of interfaces and classes tha
 
 SPL offers features, functions, classes and interfaces in many different fields: iterators, data structures, files, exceptions, and observers. 
 
-One of the most famous SPL features is the function spl_autoload_register(), which register an autoload handler.
+One of the most famous SPL features is the function ``spl_autoload_register()``, which register an autoload handler.
 
 .. code-block:: php
    

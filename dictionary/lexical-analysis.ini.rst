@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lexical Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:10:06 +0000","dateModified":"Fri, 03 Jul 2026 08:10:06 +0000","description":"Lexical analysis, also called tokenisation or scanning, is the first phase of a compiler or static analyser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lexical Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lexical Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:05:40 +0000","dateModified":"Sat, 04 Jul 2026 08:05:40 +0000","description":"Lexical analysis, also called tokenisation or scanning, is the first phase of a compiler or static analyser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lexical Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lexical Analysis
@@ -52,8 +52,8 @@ Lexical analysis operates on the surface form of the code and has no notion of p
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/function.token-get-all.php>`__
+`Documentation <https://en.wikipedia.org/wiki/Lexical_analysis>`__
 
-See also `token_get_all() — PHP Manual <https://www.php.net/manual/en/function.token-get-all.php>`_ and `Lexical analysis — Wikipedia <https://en.wikipedia.org/wiki/Lexical_analysis>`_.
+See also `token_get_all() <https://www.php.net/manual/en/function.token-get-all.php>`_.
 
-Related : :ref:`Lexical Variable <lexical>`, :ref:`Analysis <analysis>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Token <token>`, :ref:`Parse <parsing>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis <data-flow-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`
+Related : :ref:`Lexical Variable <lexical>`, :ref:`Analysis <analysis>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Token <token>`, :ref:`Parse <parsing>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`

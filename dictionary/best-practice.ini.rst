@@ -34,4 +34,4 @@ It takes some effort to understand the value of the rules, without running into 
 
 See also `PHP - Best Practices 2019 <https://odan.github.io/2019/12/06/php-best-practice-2019.html>`_ and `Modern PHP Development: Best Practices for Today <https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f>`_.
 
-Related : :ref:`Design Pattern <design-pattern>`, :ref:`Design Pattern <pattern>`, :ref:`Convention <convention>`, :ref:`Explanation <explanation>`, :ref:`Habit <habit>`, :ref:`Standard <standard>`
+Related : :ref:`Design Pattern <design-pattern>`, :ref:`Pattern <pattern>`, :ref:`Convention <convention>`, :ref:`Explanation <explanation>`, :ref:`Habit <habit>`, :ref:`Standard <standard>`

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Smart Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:41:28 +0000","dateModified":"Fri, 03 Jul 2026 08:41:28 +0000","description":"A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Smart Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Smart Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:54:37 +0000","dateModified":"Mon, 06 Jul 2026 18:54:37 +0000","description":"A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Smart Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Smart Cast
@@ -30,11 +30,11 @@ In Kotlin, after ``if (x is String)`` the compiler knows that ``x`` is a ``Strin
 
 PHP does not support smart casts. PHP's type system is verified at runtime, not compile time. Within an ``instanceof`` or ``is_string()`` branch, PHP will call the correct methods, but:
 
-+ There is no compile-time enforcement: the type-checker integrated into IDEs (PHPStan, Psalm, Rector) can simulate narrowing, but the PHP engine itself makes no such guarantee.
-+ The programmer may still write code that uses the variable as a different type, and PHP will only raise an error (or silently coerce) at runtime.
++ There is no compile-time enforcement: the type-checker integrated into IDEs can simulate narrowing, but the PHP engine itself makes no such guarantee.
++ The programmer may still write code that uses the variable as a different type, and PHP will only raise an error, or silently coerce, at runtime.
 + PHP does not have union-type narrowing built into the runtime in the sense that Kotlin's compiler tracks flow.
 
-Static analysis tools (PHPStan level 8, Psalm ``--strict-mode``) approximate smart-cast behaviour through flow-sensitive type inference, but this is a tool-level feature, not a language-engine feature.
+Static analysis tools approximate smart-cast behaviour through flow-sensitive type inference, but this is a tool-level feature, not a language-engine feature.
 
 .. code-block:: php
    
@@ -43,7 +43,7 @@ Static analysis tools (PHPStan level 8, Psalm ``--strict-mode``) approximate sma
    // PHP runtime checks — no compiler-enforced narrowing.
    function process(int|string $value): string {
        if (is_string($value)) {
-           // PHPStan / Psalm will narrow $value to string here,
+           // SCA will narrow $value to string here,
            // but the PHP engine itself does not enforce this at compile time.
            return strtoupper($value);
        }

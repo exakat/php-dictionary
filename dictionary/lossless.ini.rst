@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lossless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:10:15 +0000","dateModified":"Fri, 03 Jul 2026 08:10:15 +0000","description":"Lossless refers to any encoding, compression, or conversion process that preserves all of the original data exactly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lossless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lossless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:10:33 +0000","dateModified":"Tue, 07 Jul 2026 05:10:33 +0000","description":"Lossless refers to any encoding, compression, or conversion process that preserves all of the original data exactly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lossless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lossless
@@ -44,7 +44,5 @@ PHP's GD extension produces lossless output with ``imagepng()`` and ``imagegif()
 
 
 `Documentation <https://en.wikipedia.org/wiki/Lossless_compression>`__
-
-See also `Lossless compression — Wikipedia <https://en.wikipedia.org/wiki/Lossless_compression>`_.
 
 Related : :ref:`Lossy <lossy>`, :ref:`Compression <compression>`, :ref:`PNG <png>`, :ref:`GIF <gif>`, :ref:`Image <image>`, :ref:`Encode <encode>`, :ref:`Decode <decode>`

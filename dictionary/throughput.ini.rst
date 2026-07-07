@@ -20,7 +20,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Throughput","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:11:38 +0000","dateModified":"Thu, 02 Jul 2026 08:11:38 +0000","description":"Throughput is the number of operations a system can process per unit of time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Throughput.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Throughput","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:15:59 +0000","dateModified":"Mon, 06 Jul 2026 10:15:59 +0000","description":"Throughput is the number of operations a system can process per unit of time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Throughput.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Throughput
@@ -60,7 +60,5 @@ Tools for measuring PHP throughput include Apache Bench ``ab``, ``wrk``, ``k6``,
 
 
 `Documentation <https://en.wikipedia.org/wiki/Throughput>`__
-
-See also `Wikipedia: Throughput <https://en.wikipedia.org/wiki/Throughput>`_.
 
 Related : :ref:`Latency <latency>`, :ref:`Performance <performance>`, :ref:`Scaling <scalability>`, :ref:`FastCGI Process Manager (FPM) <fpm>`, :ref:`Benchmarking <benchmarking>`, :ref:`Concurrency <concurency>`

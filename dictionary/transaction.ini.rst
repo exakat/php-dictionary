@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transaction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:12:40 +0000","dateModified":"Thu, 02 Jul 2026 08:12:40 +0000","description":"A transaction is a sequence of database operations that is treated as a single atomic unit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transaction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Transaction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:16:10 +0000","dateModified":"Mon, 06 Jul 2026 10:16:10 +0000","description":"A transaction is a sequence of database operations that is treated as a single atomic unit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transaction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Transaction
@@ -53,6 +53,6 @@ ORMs such as Doctrine and Eloquent also expose transaction helpers and often wra
 
 `Documentation <https://www.php.net/manual/en/pdo.transactions.php>`__
 
-See also `ACID <https://en.wikipedia.org/wiki/ACID>`_ and `PDO Transactions and auto-commit <https://www.php.net/manual/en/pdo.transactions.php>`_.
+See also `ACID <https://en.wikipedia.org/wiki/ACID>`_.
 
 Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Database <database>`, :ref:`Exception <exception>`, :ref:`Try-catch <try>`, :ref:`Rollback <rollback>`, :ref:`Atomic Operation <atomic-operation>`, :ref:`Database Commit <database-commit>`, :ref:`Race Condition <race-condition>`

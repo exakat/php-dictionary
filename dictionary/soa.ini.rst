@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Service-Oriented Architecture (SOA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:05:10 +0000","dateModified":"Tue, 30 Jun 2026 15:05:10 +0000","description":"Service-Oriented Architecture, or SOA, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Service-Oriented Architecture (SOA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Service-Oriented Architecture (SOA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:21:56 +0000","dateModified":"Sat, 04 Jul 2026 08:21:56 +0000","description":"Service-Oriented Architecture, or SOA, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Service-Oriented Architecture (SOA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Service-Oriented Architecture (SOA)
@@ -35,25 +35,25 @@ SOA and microservices share the goal of decomposing a system into services, but 
    
    <?php
    
-   // PHP as a SOAP service consumer in an SOA context
-   $client = new SoapClient('https://services.example.com/orders?wsdl');
-   
-   $result = $client->getOrderStatus([
-       'orderId'    => 42,
-       'customerId' => 100,
-   ]);
-   
-   echo $result->status; // 'shipped'
-   
-   // PHP as a REST service in SOA
-   // Each endpoint maps to a shared business capability
-   // consumed by multiple internal applications
+       // PHP as a SOAP service consumer in an SOA context
+       $client = new SoapClient('https://services.example.com/orders?wsdl');
+       
+       $result = $client->getOrderStatus([
+           'orderId'    => 42,
+           'customerId' => 100,
+       ]);
+       
+       echo $result->status; // 'shipped'
+       
+       // PHP as a REST service in SOA
+       // Each endpoint maps to a shared business capability
+       // consumed by multiple internal applications
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Service-oriented_architecture>`__
 
-See also `Wikipedia: SOA <https://en.wikipedia.org/wiki/Service-oriented_architecture>`_.
+See also `How to Implement Service-Oriented Architecture with PHP <https://datatas.com/how-to-implement-service-oriented-architecture-with-php/>`_.
 
 Related : :ref:`Microservice <microservice>`, :ref:`Monolith <monolith>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`REST API <rest-api>`, :ref:`API Gateway <api-gateway>`, :ref:`Separation Of Concerns <separation-of-concerns>`

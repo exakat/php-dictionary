@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Index For SQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:24 +0000","dateModified":"Fri, 19 Jun 2026 21:24:24 +0000","description":"In SQL, an index is a database object that improves the performance of data retrieval operations on database tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Index For SQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Index For SQL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:08:41 +0000","dateModified":"Tue, 07 Jul 2026 05:08:41 +0000","description":"In SQL, an index is a database object that improves the performance of data retrieval operations on database tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Index For SQL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Index For SQL
@@ -26,18 +26,22 @@ In SQL, an index is a database object that improves the performance of data retr
 
 An index is created on one or more columns of a table and contains a sorted copy of the data in those columns, along with a pointer to the original data. This allows the database engine to locate and retrieve the required data more efficiently, reducing the need for scanning the entire table.
 
+The most common index structure is the B-tree, the balanced tree: a sorted tree where each leaf page holds a range of key values and a pointer to the corresponding data. B-tree indexes support range queries and ordering efficiently.
+
+A clustered index, or clustered primary key, determines the physical storage order of rows on disk. In InnoDB-MySQL, the primary key is always a clustered index, meaning rows are stored in primary key order. This has an important consequence for identifier choice: randomly generated primary keys such as ``UUIDv4`` scatter inserts across the entire index, causing frequent page splits and increased I/O. Time-ordered identifiers such as ``UUIDv7`` or ``ULID`` always append to the rightmost leaf page, avoiding this problem.
+
 Indexes provide the following benefits:
 
-+ Improved query performance: By creating an index on frequently queried columns, the database engine can quickly locate the relevant data, resulting in faster query execution times.
-+ Efficient data retrieval: Indexes allow the database to perform index-based seeks or scans instead of full table scans, which can significantly reduce the amount of disk I/O and improve overall system performance.
-+ Sorting and ordering: Indexes can be used to sort the data in a specific order, which is helpful when retrieving data in a specific sequence, such as ascending or descending order.
-+ Constraint enforcement: Indexes can be used to enforce unique constraints and primary key constraints on a table, ensuring data integrity and preventing duplicate or NULL values.
++ Improved query performance: by creating an index on frequently queried columns, the database engine can quickly locate the relevant data, resulting in faster query execution times.
++ Efficient data retrieval: indexes allow the database to perform index-based seeks or scans instead of full table scans, which can significantly reduce the amount of disk I/O and improve overall system performance.
++ Sorting and ordering: indexes can be used to sort the data in a specific order, which is helpful when retrieving data in a specific sequence, such as ascending or descending order.
++ Constraint enforcement: indexes can be used to enforce unique constraints and primary key constraints on a table, ensuring data integrity and preventing duplicate or NULL values.
 
 However, indexes also have some considerations:
 
-+ Overhead: Indexes consume disk space and require additional processing time for index maintenance during data modifications. So, creating too many indexes or indexes on frequently updated columns can impact performance.
-+ Maintenance: Indexes need to be maintained as the underlying data changes. This includes updating the index when data is inserted, modified, or deleted, which can impact overall system performance.
-+ Choosing the right columns: It's important to carefully choose the columns to index based on the specific queries and usage patterns of the database. Indexing every column is not always necessary or beneficial.
++ Overhead: indexes consume disk space and require additional processing time for index maintenance during data modifications. So, creating too many indexes or indexes on frequently updated columns can impact performance.
++ Maintenance: indexes need to be maintained as the underlying data changes. This includes updating the index when data is inserted, modified, or deleted, which can impact overall system performance.
++ Choosing the right columns: it's important to carefully choose the columns to index based on the specific queries and usage patterns of the database. Indexing every column is not always necessary or beneficial.
 
 .. code-block:: php
    
@@ -52,4 +56,4 @@ However, indexes also have some considerations:
 
 `Documentation <https://en.wikipedia.org/wiki/Database_index>`__
 
-Related : :ref:`Index <index>`, :ref:`Search Engine <search-engine>`
+Related : :ref:`Index <index>`, :ref:`Search Engine <search-engine>`, :ref:`Universally Unique IDentifier (UUID) <uuid>`, :ref:`Universally Unique Lexicographically Sortable Identifier (ULID) <ulid>`, :ref:`Database <database>`

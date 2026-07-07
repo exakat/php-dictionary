@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JSON Web Token (JWT)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:34:19 +0000","dateModified":"Mon, 29 Jun 2026 09:34:19 +0000","description":"A JSON Web Token, JWT, is a compact, URL-safe token format defined in RFC 7519, used to securely transmit claims between parties as a JSON object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JSON Web Token (JWT).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"JSON Web Token (JWT)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:09:45 +0000","dateModified":"Tue, 07 Jul 2026 05:09:45 +0000","description":"A JSON Web Token, JWT, is a compact, URL-safe token format defined in RFC 7519, used to securely transmit claims between parties as a JSON object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/JSON Web Token (JWT).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 JSON Web Token (JWT)
@@ -55,7 +55,7 @@ JWTs are typically handled via libraries such as ``firebase/php-jwt`` or ``lcobu
 
 `Documentation <https://datatracker.ietf.org/doc/html/rfc7519>`__
 
-See also `RFC 7519 — JSON Web Token <https://datatracker.ietf.org/doc/html/rfc7519>`_, `JWT.io — Debugger and documentation <https://jwt.io/>`_ and `Common JWT vulnerabilities <https://portswigger.net/web-security/jwt>`_.
+See also `JWT.io — Debugger and documentation <https://jwt.io/>`_ and `Common JWT vulnerabilities <https://portswigger.net/web-security/jwt>`_.
 
 Related : :ref:`Authentication <authentication>`, :ref:`Token <token>`, :ref:`Single Sign On (SSO) <sso>`, :ref:`Session <session>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Identity <identity>`, :ref:`OAuth <oauth>`, :ref:`HMAC <hmac>`
 

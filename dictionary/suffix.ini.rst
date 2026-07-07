@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Suffix","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:12 +0000","dateModified":"Fri, 19 Jun 2026 21:24:12 +0000","description":"A suffix is a word extension, placed after the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Suffix.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Suffix","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:20:27 +0000","dateModified":"Mon, 06 Jul 2026 10:20:27 +0000","description":"A suffix is a word extension, placed after the name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Suffix.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Suffix
@@ -26,7 +26,7 @@ A suffix is a word extension, placed after the name.
 
 In linguistics, suffixes change the meaning of the word, and give it a new built meaning, based on the meanings of the word and the prefix. For example, ``connectabl`` is built with ``connect`` which means connect, and ``able`` which signal that an operation is possible. Connectable, while not an actual Englis word, is the of an application to accept connections.
 
-In PHP, suffixes are used for convention, where classes signals their type with a suffix.
+Suffixes are used for convention, where classes signals their type with a suffix.
 
 + ``Controller``: a web controller
 + ``Enum``: an enumeration

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross-cutting Concerns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 14:58:28 +0000","dateModified":"Tue, 30 Jun 2026 14:58:28 +0000","description":"Cross-cutting concerns are aspects of a system that affect multiple layers or components but cannot be cleanly encapsulated in any single module","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross-cutting Concerns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cross-cutting Concerns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:04:07 +0000","dateModified":"Tue, 07 Jul 2026 05:04:07 +0000","description":"Cross-cutting concerns are aspects of a system that affect multiple layers or components but cannot be cleanly encapsulated in any single module","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cross-cutting Concerns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cross-cutting Concerns
@@ -29,12 +29,12 @@ Common examples: logging, authentication and authorisation, caching, transaction
 
 The problem is that naively implementing a cross-cutting concern leads to code duplication: the same logging or auth check is copy-pasted into dozens of classes. When the requirement changes, every copy must be updated.
 
-Solutions in PHP:
+Possible solutions:
 
-- Middleware, PSR-15: HTTP pipeline stages that wrap every request/response
+- Middleware, PSR-15: ``HTTP`` pipeline stages that wrap every request/response
 - Event listeners / hooks: framework events dispatched at lifecycle points
 - Decorators: wrap a service class to add behaviour without modifying it
-- PHP Attributes + compile-time code generation*(e.g., AOP with Spiral Framework)
+- PHP Attributes + compile-time code generation, such as AOP with Spiral Framework
 - Aspect-Oriented Programming, AOP: intercepts method calls to inject cross-cutting logic.
 
 .. code-block:: php
@@ -69,6 +69,6 @@ Solutions in PHP:
 
 `Documentation <https://en.wikipedia.org/wiki/Cross-cutting_concern>`__
 
-See also `Wikipedia: Cross-cutting concern <https://en.wikipedia.org/wiki/Cross-cutting_concern>`_.
+See also `Modeling Cross Cutting Concerns <https://docs.typo3.org/m/typo3/reference-coreapi/6.2/en-us/CodingGuidelines/PhpArchitecture/ModelingCrossCuttingConcerns/Index.html>`_.
 
 Related : :ref:`Aspect-Oriented <aspect-oriented>`, :ref:`Middleware Pattern <middleware>`, :ref:`Decorator Pattern <decorator>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Layered Architecture <layered-architecture>`, :ref:`Log File <logging>`
