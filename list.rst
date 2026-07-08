@@ -97,12 +97,14 @@ Index
    dictionary/argument.ini
    dictionary/argumentcounterror.ini
    dictionary/arithmeticerror.ini
+   dictionary/arity.ini
    dictionary/arm.ini
    dictionary/array-callable.ini
    dictionary/array-callback.ini
    dictionary/array-curly-braces.ini
    dictionary/array-dot-notation.ini
    dictionary/array-element.ini
+   dictionary/array-shape.ini
    dictionary/array-spread.ini
    dictionary/array-syntax.ini
    dictionary/array.ini
@@ -201,6 +203,7 @@ Index
    dictionary/bola.ini
    dictionary/boolean.ini
    dictionary/bootstrap.ini
+   dictionary/borrow-checking.ini
    dictionary/bottleneck.ini
    dictionary/bracket.ini
    dictionary/bracketless.ini
@@ -245,6 +248,7 @@ Index
    dictionary/chaining-new-without-parenthesis.ini
    dictionary/chaining.ini
    dictionary/change-data-capture.ini
+   dictionary/channel.ini
    dictionary/character.ini
    dictionary/checksum.ini
    dictionary/child-class.ini
@@ -346,6 +350,7 @@ Index
    dictionary/constructor.ini
    dictionary/container-orchestration.ini
    dictionary/container.ini
+   dictionary/continuation.ini
    dictionary/continue.ini
    dictionary/contract.ini
    dictionary/contribution.ini
@@ -431,6 +436,7 @@ Index
    dictionary/default.ini
    dictionary/default_charset.ini
    dictionary/defensive-programming.ini
+   dictionary/defer.ini
    dictionary/define.ini
    dictionary/defined.ini
    dictionary/definition.ini
@@ -526,6 +532,7 @@ Index
    dictionary/edge-case.ini
    dictionary/edge-computing.ini
    dictionary/edge-triggered.ini
+   dictionary/effect-system.ini
    dictionary/elephpant.ini
    dictionary/ellipsis.ini
    dictionary/email.ini
@@ -589,6 +596,7 @@ Index
    dictionary/expression.ini
    dictionary/expressive-interface.ini
    dictionary/extends.ini
+   dictionary/extension-method.ini
    dictionary/extension.ini
    dictionary/extract.ini
    dictionary/faas.ini
@@ -627,6 +635,7 @@ Index
    dictionary/finite-state-machine.ini
    dictionary/fire-and-forget.ini
    dictionary/first-class-callable.ini
+   dictionary/first-class-module.ini
    dictionary/fixture.ini
    dictionary/flag.ini
    dictionary/flamegraph.ini
@@ -786,6 +795,7 @@ Index
    dictionary/ini_set.ini
    dictionary/initialisation.ini
    dictionary/injection.ini
+   dictionary/inline-assembly.ini
    dictionary/inlining.ini
    dictionary/insecure-deserialization.ini
    dictionary/instance.ini
@@ -845,6 +855,7 @@ Index
    dictionary/latency.ini
    dictionary/latin1.ini
    dictionary/layered-architecture.ini
+   dictionary/lazy-evaluation.ini
    dictionary/lazy-loading.ini
    dictionary/lazy-objects.ini
    dictionary/ldap-injection.ini
@@ -870,6 +881,7 @@ Index
    dictionary/lint-wont-execute.ini
    dictionary/linting.ini
    dictionary/liskov.ini
+   dictionary/list-comprehension.ini
    dictionary/list.ini
    dictionary/listener.ini
    dictionary/literal-types.ini
@@ -952,14 +964,19 @@ Index
    dictionary/mobile-app.ini
    dictionary/mock.ini
    dictionary/model.ini
+   dictionary/module-system.ini
    dictionary/module.ini
    dictionary/modulo.ini
+   dictionary/monad.ini
    dictionary/monitoring.ini
    dictionary/monolith.ini
    dictionary/monomorphization.ini
+   dictionary/move-semantics.ini
    dictionary/mro.ini
    dictionary/multi-byte.ini
    dictionary/multidimensional-array.ini
+   dictionary/multiple-dispatch.ini
+   dictionary/multiple-return-value.ini
    dictionary/multiplication.ini
    dictionary/multithreading.ini
    dictionary/multiton.ini
@@ -975,6 +992,7 @@ Index
    dictionary/name.ini
    dictionary/named-constructor.ini
    dictionary/named-parameter.ini
+   dictionary/named-return-value.ini
    dictionary/named-type.ini
    dictionary/namespace-alias.ini
    dictionary/namespace-name.ini
@@ -1060,6 +1078,7 @@ Index
    dictionary/operator-precedence.ini
    dictionary/operator.ini
    dictionary/optimisation.ini
+   dictionary/option-type.ini
    dictionary/option.ini
    dictionary/optional-parameter.ini
    dictionary/oracle.ini
@@ -1081,6 +1100,7 @@ Index
    dictionary/paas.ini
    dictionary/pack.ini
    dictionary/package-manager.ini
+   dictionary/package-visibility.ini
    dictionary/packagist.ini
    dictionary/pagination.ini
    dictionary/pair.ini
@@ -1235,6 +1255,7 @@ Index
    dictionary/random.ini
    dictionary/random_cryptosafeengine.ini
    dictionary/random_engine.ini
+   dictionary/range-type.ini
    dictionary/range.ini
    dictionary/rangeexception.ini
    dictionary/rate-limit.ini
@@ -1248,6 +1269,7 @@ Index
    dictionary/readonly.ini
    dictionary/real-time.ini
    dictionary/real.ini
+   dictionary/record-type.ini
    dictionary/recursion.ini
    dictionary/recursive-array.ini
    dictionary/recursivearrayiterator.ini
@@ -1289,6 +1311,7 @@ Index
    dictionary/responsability.ini
    dictionary/response.ini
    dictionary/rest-api.ini
+   dictionary/result-type.ini
    dictionary/retry.ini
    dictionary/return-carriage.ini
    dictionary/return-type.ini
@@ -1445,6 +1468,7 @@ Index
    dictionary/ssh.ini
    dictionary/ssl.ini
    dictionary/sso.ini
+   dictionary/ssrf.ini
    dictionary/stack.ini
    dictionary/standalone-type.ini
    dictionary/standard.ini
@@ -1480,6 +1504,9 @@ Index
    dictionary/strpos.ini
    dictionary/strtolower.ini
    dictionary/strtoupper.ini
+   dictionary/struct-type.ini
+   dictionary/structural-pattern-matching.ini
+   dictionary/structural-typing.ini
    dictionary/structure.ini
    dictionary/stubs.ini
    dictionary/sub.ini
@@ -1572,8 +1599,10 @@ Index
    dictionary/try-catch.ini
    dictionary/ttl.ini
    dictionary/tui.ini
+   dictionary/tuple.ini
    dictionary/tutorial.ini
    dictionary/type-checking.ini
+   dictionary/type-class.ini
    dictionary/type-contravariance.ini
    dictionary/type-covariance.ini
    dictionary/type-coverage.ini
@@ -1581,7 +1610,9 @@ Index
    dictionary/type-erasure.ini
    dictionary/type-inference.ini
    dictionary/type-juggling.ini
+   dictionary/type-narrowing.ini
    dictionary/type-system.ini
+   dictionary/type-widening.ini
    dictionary/type.ini
    dictionary/typed-constant.ini
    dictionary/typed-property.ini
@@ -1627,6 +1658,7 @@ Index
    dictionary/uuid.ini
    dictionary/validation.ini
    dictionary/value-object.ini
+   dictionary/value-type.ini
    dictionary/value.ini
    dictionary/valueerror.ini
    dictionary/var.ini

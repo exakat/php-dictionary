@@ -1,5 +1,4 @@
 .. _smart-cast:
-.. _type-narrowing:
 .. _compiler-enforced-type-narrowing:
 .. meta::
 	:description:
@@ -18,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Smart Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:54:37 +0000","dateModified":"Mon, 06 Jul 2026 18:54:37 +0000","description":"A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Smart Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Smart Cast","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 09:41:57 +0000","dateModified":"Wed, 08 Jul 2026 09:41:57 +0000","description":"A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Smart Cast.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Smart Cast
@@ -68,4 +67,4 @@ Static analysis tools approximate smart-cast behaviour through flow-sensitive ty
 
 See also `Kotlin smart casts <https://kotlinlang.org/docs/typecasts.html#smart-casts>`_, `TypeScript type narrowing <https://www.typescriptlang.org/docs/handbook/2/narrowing.html>`_, `PHPStan type narrowing <https://phpstan.org/writing-php-code/narrowing-types>`_ and `Psalm – Typing in Psalm <https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/>`_.
 
-Related : :ref:`Cast Operator <cast>`, :ref:`instanceof <instanceof>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Typed Property <typed-property>`
+Related : :ref:`Cast Operator <cast>`, :ref:`instanceof <instanceof>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Typed Property <typed-property>`, :ref:`Type Narrowing <type-narrowing>`

@@ -105,12 +105,14 @@ PHP Dictionary
    * :ref:`Argument <argument>`
    * :ref:`ArgumentCountError <argumentcounterror>`
    * :ref:`ArithmeticError Error <arithmeticerror>`
+   * :ref:`Arity <arity>`
    * :ref:`Arm <arm>`
    * :ref:`Array Append <append>`
    * :ref:`Array Callback <array-callback>`
    * :ref:`Array Dot Notation <array-dot-notation>`
    * :ref:`Array Element <array-element>`
    * :ref:`Array Prepend <prepend>`
+   * :ref:`Array Shape <array-shape>`
    * :ref:`Array Spread <array-spread>`
    * :ref:`Array Syntax <array-syntax>`
    * :ref:`Array With Curly Braces <array-curly-braces>`
@@ -256,6 +258,7 @@ PHP Dictionary
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`
    * :ref:`Change Data Capture <change-data-capture>`
+   * :ref:`Channel <channel>`
    * :ref:`Character <character>`
    * :ref:`Checksum <checksum>`
    * :ref:`Child Class <child-class>`
@@ -362,6 +365,7 @@ PHP Dictionary
    * :ref:`Container <container>`
    * :ref:`Container Orchestration <container-orchestration>`
    * :ref:`Content Management System (CMS) <cms>`
+   * :ref:`Continuation <continuation>`
    * :ref:`Continue <continue>`
    * :ref:`Continuous Delivery (CD) <cd>`
    * :ref:`Continuous Integration (CI) <ci>`
@@ -445,6 +449,7 @@ PHP Dictionary
    * :ref:`Default Parameter <default-parameter>`
    * :ref:`Default Value <default-value>`
    * :ref:`Defensive Programming <defensive-programming>`
+   * :ref:`Defer Statement <defer>`
    * :ref:`Definition <definition>`
    * :ref:`Delimiter <delimiter>`
    * :ref:`Dependency <dependency>`
@@ -539,6 +544,7 @@ PHP Dictionary
    * :ref:`Edge Case <edge-case>`
    * :ref:`Edge Computing <edge-computing>`
    * :ref:`Edge Triggered <edge-triggered>`
+   * :ref:`Effect System <effect-system>`
    * :ref:`Elephpant <elephpant>`
    * :ref:`Ellipsis <ellipsis>`
    * :ref:`Email <email>`
@@ -591,6 +597,7 @@ PHP Dictionary
    * :ref:`Expression <expression>`
    * :ref:`Expressive Interface <expressive-interface>`
    * :ref:`Extensible Markup Language (XML) <xml>`
+   * :ref:`Extension Method <extension-method>`
    * :ref:`Extensions <extension>`
    * :ref:`each <each>`
    * :ref:`escapeshellarg() <escapeshellarg>`
@@ -635,6 +642,7 @@ PHP Dictionary
    * :ref:`Fire-and-forget <fire-and-forget>`
    * :ref:`First Class Callable <first-class-callable>`
    * :ref:`First In, First Out (FIFO) <fifo>`
+   * :ref:`First-Class Module <first-class-module>`
    * :ref:`Fixture <fixture>`
    * :ref:`Flag <flag>`
    * :ref:`Flame Graph <flamegraph>`
@@ -791,6 +799,7 @@ PHP Dictionary
    * :ref:`Inherited Variable <inherited-variable>`
    * :ref:`Initialisation <initialisation>`
    * :ref:`Injection <injection>`
+   * :ref:`Inline Assembly <inline-assembly>`
    * :ref:`Inlining <inlining>`
    * :ref:`Insecure Deserialization <insecure-deserialization>`
    * :ref:`Insteadof <insteadof>`
@@ -860,6 +869,7 @@ PHP Dictionary
    * :ref:`Latency <latency>`
    * :ref:`Latin1 <latin1>`
    * :ref:`Layered Architecture <layered-architecture>`
+   * :ref:`Lazy Evaluation <lazy-evaluation>`
    * :ref:`Lazy Loading <lazy-loading>`
    * :ref:`Lazy Objects <lazy-objects>`
    * :ref:`Leading Numeric String <leading-numeric-string>`
@@ -884,6 +894,7 @@ PHP Dictionary
    * :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`
    * :ref:`Liskov Substitution Principle (LSP) <liskov>`
    * :ref:`List <list>`
+   * :ref:`List Comprehension <list-comprehension>`
    * :ref:`Listener <listener>`
    * :ref:`Literal <literal>`
    * :ref:`Literal Types <literal-types>`
@@ -963,14 +974,19 @@ PHP Dictionary
    * :ref:`Model - View - Controller (MVC) <mvc>`
    * :ref:`Model Context Protocol (MCP) <mcp>`
    * :ref:`Module <module>`
+   * :ref:`Module System with Explicit Exports <module-system>`
    * :ref:`Modulo <modulo>`
+   * :ref:`Monad <monad>`
    * :ref:`Monitoring <monitoring>`
    * :ref:`Monolith <monolith>`
    * :ref:`Monomorphization <monomorphization>`
+   * :ref:`Move Semantics <move-semantics>`
    * :ref:`Multi-Factor Authentication (MFA) <mfa>`
    * :ref:`Multi-byte <multi-byte>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
+   * :ref:`Multiple Dispatch <multiple-dispatch>`
+   * :ref:`Multiple Return Values <multiple-return-value>`
    * :ref:`Multiplication <multiplication>`
    * :ref:`Multithreading <multithreading>`
    * :ref:`Multiton <multiton>`
@@ -989,6 +1005,7 @@ PHP Dictionary
    * :ref:`Name Conventions <name-convention>`
    * :ref:`Named Constructors <named-constructor>`
    * :ref:`Named Parameters <named-parameter>`
+   * :ref:`Named Return Values <named-return-value>`
    * :ref:`Named Type <named-type>`
    * :ref:`Namespace Alias <namespace-alias>`
    * :ref:`Namespace Name <namespace-name>`
@@ -1075,6 +1092,7 @@ PHP Dictionary
    * :ref:`Operators <operator>`
    * :ref:`Optimisation <optimisation>`
    * :ref:`Option <option>`
+   * :ref:`Option Type <option-type>`
    * :ref:`Optional Parameter <optional-parameter>`
    * :ref:`Oracle <oracle>`
    * :ref:`Order Of Execution <order-of-execution>`
@@ -1089,6 +1107,7 @@ PHP Dictionary
    * :ref:`Override Attribute <override>`
    * :ref:`Overriding <overriding>`
    * :ref:`Overwrite <overwrite>`
+   * :ref:`Ownership <borrow-checking>`
    * :ref:`one <one>`
    * :ref:`open_basedir <open_basedir>`
 * P
@@ -1130,6 +1149,7 @@ PHP Dictionary
    * :ref:`PNG <png>`
    * :ref:`PaaS <paas>`
    * :ref:`Package Manager <package-manager>`
+   * :ref:`Package-Level <package-visibility>`
    * :ref:`Packagist <packagist>`
    * :ref:`Pagination <pagination>`
    * :ref:`Pair <pair>`
@@ -1258,6 +1278,7 @@ PHP Dictionary
    * :ref:`Random <random>`
    * :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`
    * :ref:`Random\Engine <random_engine>`
+   * :ref:`Range Type <range-type>`
    * :ref:`RangeException <rangeexception>`
    * :ref:`Rate Limiting <rate-limit>`
    * :ref:`Read Eval Print Loop (REPL) <repl>`
@@ -1268,6 +1289,7 @@ PHP Dictionary
    * :ref:`Readonly <readonly>`
    * :ref:`Real Numbers <real>`
    * :ref:`Real Time <real-time>`
+   * :ref:`Record Type <record-type>`
    * :ref:`Recursion <recursion>`
    * :ref:`Recursive Array <recursive-array>`
    * :ref:`RecursiveArrayIterator <recursivearrayiterator>`
@@ -1310,6 +1332,7 @@ PHP Dictionary
    * :ref:`Resource Leak <resource-leak>`
    * :ref:`Responsability <responsability>`
    * :ref:`Response <response>`
+   * :ref:`Result Type <result-type>`
    * :ref:`Retrieval Augmented Generation (RAG) <rag>`
    * :ref:`Retry <retry>`
    * :ref:`Return <return>`
@@ -1382,6 +1405,7 @@ PHP Dictionary
    * :ref:`Server Application Programming Interface (SAPI) <sapi>`
    * :ref:`Server Architecture <server-architecture>`
    * :ref:`Server Sent Event (SSE) <sse>`
+   * :ref:`Server-Side Request Forgery (SSRF) <ssrf>`
    * :ref:`Serverless <serverless>`
    * :ref:`Service <service>`
    * :ref:`Service Container <service-container>`
@@ -1487,6 +1511,9 @@ PHP Dictionary
    * :ref:`String Interpolation <string-interpolation>`
    * :ref:`Stringable <stringable>`
    * :ref:`Strpos() Syndrome <strpos-syndrom>`
+   * :ref:`Struct Type <struct-type>`
+   * :ref:`Structural Pattern Matching <structural-pattern-matching>`
+   * :ref:`Structural Typing <structural-typing>`
    * :ref:`Structure <structure>`
    * :ref:`Structured Query Language (SQL) <sql>`
    * :ref:`Stubs Files <stubs>`
@@ -1598,14 +1625,18 @@ PHP Dictionary
    * :ref:`True <true>`
    * :ref:`Truthy <truthy>`
    * :ref:`Try-catch <try-catch>`
+   * :ref:`Tuple <tuple>`
    * :ref:`Tutorial <tutorial>`
    * :ref:`Type Checking <type-checking>`
+   * :ref:`Type Class <type-class>`
    * :ref:`Type Coverage <type-coverage>`
    * :ref:`Type Error <typerror>`
    * :ref:`Type Inference <type-inference>`
    * :ref:`Type Invariant <invariant>`
    * :ref:`Type Juggling <type-juggling>`
+   * :ref:`Type Narrowing <type-narrowing>`
    * :ref:`Type System <type>`
+   * :ref:`Type Widening <type-widening>`
    * :ref:`TypeError <typeerror>`
    * :ref:`Typed Constant <typed-constant>`
    * :ref:`Typed Property <typed-property>`
@@ -1658,6 +1689,7 @@ PHP Dictionary
    * :ref:`Value <value>`
    * :ref:`Value Object <value-object>`
    * :ref:`Value Object (VO) <vo>`
+   * :ref:`Value Type <value-type>`
    * :ref:`ValueError <valueerror>`
    * :ref:`Var <var>`
    * :ref:`Variable Arguments <variable-argument>`

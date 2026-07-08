@@ -16,33 +16,39 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``instanceof`` is used to determine whether a PHP variable is an instantiated object of a certain class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"instanceof","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:18:46 +0000","dateModified":"Wed, 08 Jul 2026 16:18:46 +0000","description":"``instanceof`` is used to determine whether a PHP variable is an instantiated object of a certain class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/instanceof.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 instanceof
 ----------
 
-``instanceof`` is used to determine whether a PHP variable is an instantiated object of a certain class. It is related to the function is_a().
+``instanceof`` is used to determine whether a PHP variable is an instantiated object of a certain class. It is related to the function ``is_a()``.
 
 ``instanceof`` has a higher precedence than ``!`` operator, so it is applied before the latter. In case of confusion, use parenthesis.
+
+``instanceof`` does not check that the checked class exists: it just checks that the provided object match the class name. If a typo happens in the class name or the class does not exists, the operator fails every time.
+
+
 
 .. code-block:: php
    
    <?php
    
-   if ($user instanceof Administrator) {
-       $user->admin();
-   }
-   
-   // If The user is not of class User...
-   if ( !$user instanceof User ) {
-   //if ( !($user instanceof User) ) {
-       $user->admin();
-   }
+       if ($user instanceof Administrator) {
+           $user->admin();
+       }
+       
+       // If The user is not of class User...
+       if ( !$user instanceof User ) {
+       //if ( !($user instanceof User) ) {
+           $user->admin();
+       }
+       
+       var_dump($user instanceof UndefinedClass); // false
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`__
 
-Related : :ref:`Operators <operator>`, :ref:`is_a() <is_a>`, :ref:`Type Checking <type-checking>`, :ref:`Object <object>`, :ref:`Polymorphism <polymorphism>`, :ref:`is_object() <is_object>`, :ref:`Object Type <object-type>`
+Related : :ref:`Operators <operator>`, :ref:`is_a() <is_a>`, :ref:`Type Checking <type-checking>`, :ref:`Object <object>`, :ref:`Polymorphism <polymorphism>`, :ref:`is_object() <is_object>`, :ref:`Object Type <object-type>`, :ref:`Multiple Dispatch <multiple-dispatch>`, :ref:`Smart Cast <smart-cast>`, :ref:`Sum Type <sum-type>`, :ref:`Type Narrowing <type-narrowing>`

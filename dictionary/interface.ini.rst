@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:40:41 +0000","dateModified":"Tue, 07 Jul 2026 07:40:41 +0000","description":"Object interfaces allow to create code which specifies which methods a class must implement, without having to define how these methods are implemented","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:23:55 +0000","dateModified":"Wed, 08 Jul 2026 16:23:55 +0000","description":"Object interfaces allow to create code which specifies which methods a class must implement, without having to define how these methods are implemented","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Interface
@@ -25,39 +25,44 @@ Interface
 
 Object interfaces allow to create code which specifies which methods a class must implement, without having to define how these methods are implemented.
 
-Interfaces may have methods signatures, without a body, and constants.
+Interfaces may have methods signatures, without a body, constants. Since version 8.4, they may also have properties, as long as the property is public, and the hooks are abstract, or without body.
 
 .. code-block:: php
    
    <?php
    
-   // Declare the interface 'Template'
-   interface Template
-   {
-       public function setVariable($name, $var);
-       public function getHtml($template);
-   }
+       // Declare the interface 'Template'
+       interface Template
+       {
+           public const A = 1;
    
-   // Implement the interface
-   // This will work
-   class WorkingTemplate implements Template
-   {
-       private $vars = [];
-     
-       public function setVariable($name, $var)
-       {
-           $this->vars[$name] = $var;
-       }
-     
-       public function getHtml($template)
-       {
-           foreach($this->vars as $name => $value) {
-               $template = str_replace('{' . $name . '}', $value, $template);
+           private string $p {
+               get;
            }
-    
-           return $template;
+   
+           public function setVariable($name, $var);
+           public function getHtml($template);
        }
-   }
+       
+       // Implement the interface
+       class WorkingTemplate implements Template
+       {
+           private $vars = [];
+         
+           public function setVariable($name, $var)
+           {
+               $this->vars[$name] = $var;
+           }
+         
+           public function getHtml($template)
+           {
+               foreach($this->vars as $name => $value) {
+                   $template = str_replace('{' . $name . '}', $value, $template);
+               }
+        
+               return $template;
+           }
+       }
    
    ?>
 
@@ -66,4 +71,4 @@ Interfaces may have methods signatures, without a body, and constants.
 
 See also `Interfaces vs Abstract Classes in PHP <https://ashallendesign.co.uk/blog/interfaces-vs-abstract-classes-in-php>`_, `Interfaces - the misunderstood concept <http://radify.io/blog/interfaces-the-misunderstood-concept/>`_, `Granular interfaces <https://sebastiandedeyne.com/granular-interfaces/>`_, `When to add an interface to a class <https://matthiasnoback.nl/2018/08/when-to-add-an-interface-to-a-class/>`_ and `Code to an interface! <https://blog.oussama-mater.tech/code-to-an-interface/>`_.
 
-Related : :ref:`Fluent Interface <fluent-interface>`, :ref:`BackedEnum <backedenum>`, :ref:`Class Interface Trait Enumeration (CITE) <cite>`, :ref:`Object <object>`, :ref:`UnitEnum <unitenum>`, :ref:`Countable Interface <countable>`, :ref:`Expressive Interface <expressive-interface>`, :ref:`Flexibility <flexibility>`, :ref:`Polymorphism <polymorphism>`, :ref:`Program To Interface <program-to-interface>`, :ref:`Direct Output <direct-output>`, :ref:`Interoperability <interoperability>`, :ref:`Intersection Type <intersection-type>`, :ref:`Proxy <proxy>`, :ref:`Facade <facade>`, :ref:`Proxy Class <proxy-class>`, :ref:`SplObserver <splobserver>`, :ref:`SplSubject <splsubject>`, :ref:`Base Class <base-class>`, :ref:`class_implements() <class_implements>`, :ref:`DateTimeInterface <datetimeinterface>`, :ref:`Decorator Pattern <decorator>`, :ref:`DOMChildNode <domchildnode>`, :ref:`DOMParentNode <domparentnode>`, :ref:`IteratorAggregate <iteratoraggregate>`, :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`, :ref:`Random\Engine <random_engine>`, :ref:`Reflector <reflector>`, :ref:`SeekableIterator <seekableiterator>`, :ref:`SessionHandlerInterface <sessionhandlerinterface>`, :ref:`SessionIdInterface <sessionidinterface>`, :ref:`SessionUpdateTimestampHandlerInterface <sessionupdatetimestamphandlerinterface>`, :ref:`Dependency Inversion (DIP) <dependency-inversion>`, :ref:`Existential Type <existential-type>`, :ref:`Ports And Adapters <ports-and-adapters>`, :ref:`Row Polymorphism <row-polymorphism>`
+Related : :ref:`Fluent Interface <fluent-interface>`, :ref:`BackedEnum <backedenum>`, :ref:`Class Interface Trait Enumeration (CITE) <cite>`, :ref:`Object <object>`, :ref:`UnitEnum <unitenum>`, :ref:`Countable Interface <countable>`, :ref:`Expressive Interface <expressive-interface>`, :ref:`Flexibility <flexibility>`, :ref:`Polymorphism <polymorphism>`, :ref:`Program To Interface <program-to-interface>`, :ref:`Direct Output <direct-output>`, :ref:`Interoperability <interoperability>`, :ref:`Intersection Type <intersection-type>`, :ref:`Proxy <proxy>`, :ref:`Facade <facade>`, :ref:`Proxy Class <proxy-class>`, :ref:`SplObserver <splobserver>`, :ref:`SplSubject <splsubject>`, :ref:`Base Class <base-class>`, :ref:`class_implements() <class_implements>`, :ref:`DateTimeInterface <datetimeinterface>`, :ref:`Decorator Pattern <decorator>`, :ref:`DOMChildNode <domchildnode>`, :ref:`DOMParentNode <domparentnode>`, :ref:`IteratorAggregate <iteratoraggregate>`, :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`, :ref:`Random\Engine <random_engine>`, :ref:`Reflector <reflector>`, :ref:`SeekableIterator <seekableiterator>`, :ref:`SessionHandlerInterface <sessionhandlerinterface>`, :ref:`SessionIdInterface <sessionidinterface>`, :ref:`SessionUpdateTimestampHandlerInterface <sessionupdatetimestamphandlerinterface>`, :ref:`Dependency Inversion (DIP) <dependency-inversion>`, :ref:`Existential Type <existential-type>`, :ref:`Ports And Adapters <ports-and-adapters>`, :ref:`Row Polymorphism <row-polymorphism>`, :ref:`First-Class Module <first-class-module>`, :ref:`Pattern <pattern>`, :ref:`Abstract Class <abstract-class>`, :ref:`Structural Typing <structural-typing>`, :ref:`Type Class <type-class>`

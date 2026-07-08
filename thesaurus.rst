@@ -25,6 +25,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Control Flow Graph (CFG) <control-flow-graph>`
 + :ref:`Copy On Write (COW) <copy-on-write>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
++ :ref:`Cross Site Request Forgery (CSRF) <csrf>`
 + :ref:`Cross Site Scripting (XSS) <xss>`
 + :ref:`Data Access Object (DAO) <dao>`
 + :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`
@@ -119,6 +120,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
 + :ref:`Server Sent Event (SSE) <sse>`
++ :ref:`Server-Side Request Forgery (SSRF) <ssrf>`
 + :ref:`Service-Oriented Architecture (SOA) <soa>`
 + :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
@@ -200,7 +202,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Appeasement Pattern <appeasement-pattern>`
 + :ref:`Arcane <arcane>`
 + :ref:`Archive <archive>`
++ :ref:`Arity <arity>`
 + :ref:`Arm <arm>`
++ :ref:`Array Shape <array-shape>`
 + :ref:`Artifact <artifact>`
 + :ref:`Asset <asset>`
 + :ref:`Atomic Operation <atomic-operation>`
@@ -226,6 +230,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Cancellation <cancellation>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
++ :ref:`Channel <channel>`
 + :ref:`Class <class>`
 + :ref:`Class Entities <class-entity>`
 + :ref:`Class Hoisting <class-hoisting>`
@@ -252,6 +257,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Constant Scalar Expression <constant-scalar-expression>`
 + :ref:`Constructor <constructor>`
 + :ref:`Container Orchestration <container-orchestration>`
++ :ref:`Continuation <continuation>`
 + :ref:`Contribution <contribution>`
 + :ref:`Controller <controller>`
 + :ref:`Convention <convention>`
@@ -272,6 +278,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Decoupling <decoupling>`
 + :ref:`Deduplication <deduplication>`
 + :ref:`Default Value <default-value>`
++ :ref:`Defer Statement <defer>`
 + :ref:`Definition <definition>`
 + :ref:`Dependency Injection <dependency-injection>`
 + :ref:`Dependency Inversion (DIP) <dependency-inversion>`
@@ -299,6 +306,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Edge Case <edge-case>`
 + :ref:`Edge Computing <edge-computing>`
 + :ref:`Edge Triggered <edge-triggered>`
++ :ref:`Effect System <effect-system>`
 + :ref:`Embed <embed>`
 + :ref:`Enable <enable>`
 + :ref:`Encode <encode>`
@@ -315,6 +323,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Explanation <explanation>`
 + :ref:`Explicit <explicit>`
 + :ref:`Expression <expression>`
++ :ref:`Extension Method <extension-method>`
 + :ref:`Extensions <extension>`
 + :ref:`Facade <facade>`
 + :ref:`Faker <faker>`
@@ -325,6 +334,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Feature <feature>`
 + :ref:`Fingerprint <fingerprint>`
 + :ref:`Fire-and-forget <fire-and-forget>`
++ :ref:`First-Class Module <first-class-module>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Free <free>`
@@ -353,6 +363,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Infinite Loop <infinite-loop>`
 + :ref:`Infrastructure as Code (IaC) <iac>`
 + :ref:`Injection <injection>`
++ :ref:`Inline Assembly <inline-assembly>`
 + :ref:`Instruction <instruction>`
 + :ref:`Internet <internet>`
 + :ref:`Internet of Things (IoT) <iot>`
@@ -363,12 +374,14 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Large Language Model (LLM) <llm>`
 + :ref:`Late Static Binding <late-static-binding>`
 + :ref:`Layered Architecture <layered-architecture>`
++ :ref:`Lazy Evaluation <lazy-evaluation>`
 + :ref:`Lazy Loading <lazy-loading>`
 + :ref:`Library <library>`
 + :ref:`Linear Type <linear-type>`
 + :ref:`Link <link>`
 + :ref:`Linting <linting>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
++ :ref:`List Comprehension <list-comprehension>`
 + :ref:`Literal <literal>`
 + :ref:`Look-up <look-up>`
 + :ref:`Loops <loop>`
@@ -388,10 +401,16 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Migration <migration>`
 + :ref:`Model <model>`
 + :ref:`Module <module>`
++ :ref:`Module System with Explicit Exports <module-system>`
++ :ref:`Monad <monad>`
 + :ref:`Monomorphization <monomorphization>`
++ :ref:`Move Semantics <move-semantics>`
++ :ref:`Multiple Dispatch <multiple-dispatch>`
++ :ref:`Multiple Return Values <multiple-return-value>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
 + :ref:`Name Conventions <name-convention>`
++ :ref:`Named Return Values <named-return-value>`
 + :ref:`Native <native>`
 + :ref:`Network <network>`
 + :ref:`Neutral Element <neutral-element>`
@@ -402,13 +421,16 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Operator Overloading <operator-overloading>`
 + :ref:`Optimisation <optimisation>`
 + :ref:`Option <option>`
++ :ref:`Option Type <option-type>`
 + :ref:`Order Of Execution <order-of-execution>`
 + :ref:`Outgoing Data <outgoing-data>`
 + :ref:`Over-engineer <overengineer>`
 + :ref:`Overflow <overflow>`
 + :ref:`Overloading <overloading>`
 + :ref:`Overwrite <overwrite>`
++ :ref:`Ownership <borrow-checking>`
 + :ref:`PHPdoc <phpdoc>`
++ :ref:`Package-Level <package-visibility>`
 + :ref:`Pagination <pagination>`
 + :ref:`Partial Function <partial-function>`
 + :ref:`Passphrase <passphrase>`
@@ -433,9 +455,11 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Proprietary Source <proprietary-source>`
 + :ref:`Protocol <protocol>`
 + :ref:`Quality <quality>`
++ :ref:`Range Type <range-type>`
 + :ref:`Readable <readable>`
 + :ref:`Reading <reading>`
 + :ref:`Real Numbers <real>`
++ :ref:`Record Type <record-type>`
 + :ref:`Recursion <recursion>`
 + :ref:`Refactoring <refactoring>`
 + :ref:`Refinement Type <refinement-type>`
@@ -448,6 +472,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Request-Response <request-response>`
 + :ref:`Resilience <resilience>`
 + :ref:`Resource Leak <resource-leak>`
++ :ref:`Result Type <result-type>`
 + :ref:`Rich Domain Model <rich-domain-model>`
 + :ref:`Rich Text <rich-text>`
 + :ref:`Row Polymorphism <row-polymorphism>`
@@ -478,6 +503,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`State of the Art (SOTA) <sota>`
 + :ref:`Stateful <stateful>`
 + :ref:`Stateless <stateless>`
++ :ref:`Struct Type <struct-type>`
++ :ref:`Structural Pattern Matching <structural-pattern-matching>`
++ :ref:`Structural Typing <structural-typing>`
 + :ref:`Stubs Files <stubs>`
 + :ref:`Sub (prefix) <sub>`
 + :ref:`Subnamespaces <subnamespace>`
@@ -498,9 +526,13 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Transaction <transaction>`
 + :ref:`Traversal <traversal>`
 + :ref:`Truthy <truthy>`
++ :ref:`Tuple <tuple>`
 + :ref:`Tutorial <tutorial>`
 + :ref:`Type Checking <type-checking>`
++ :ref:`Type Class <type-class>`
++ :ref:`Type Narrowing <type-narrowing>`
 + :ref:`Type System <type-system>`
++ :ref:`Type Widening <type-widening>`
 + :ref:`Undefined <undefined>`
 + :ref:`Underflow <underflow>`
 + :ref:`Unique Identifier <unique-identifier>`
@@ -512,6 +544,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Validation <validation>`
 + :ref:`Value <value>`
 + :ref:`Value Object <value-object>`
++ :ref:`Value Type <value-type>`
 + :ref:`Version <version>`
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
@@ -679,6 +712,7 @@ Type
 List of PHP types, used with the type system. They usually are not related to a class.
 
 + :ref:`Algebraic Data Type <algebraic-data-type>`
++ :ref:`Array Shape <array-shape>`
 + :ref:`Boolean <boolean>`
 + :ref:`Composite Type <composite-type>`
 + :ref:`Contravariance <type-contravariance>`
@@ -686,6 +720,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Dependent Type <dependent-type>`
 + :ref:`Disjunctive Normal Form (DNF) <dnf-type>`
 + :ref:`Duck Typing <ducktyping>`
++ :ref:`Effect System <effect-system>`
 + :ref:`Existential Type <existential-type>`
 + :ref:`False <false>`
 + :ref:`Floating Point Numbers <float>`
@@ -701,12 +736,16 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Nullable <nullable>`
 + :ref:`Object <object>`
 + :ref:`Object Type <object-type>`
++ :ref:`Option Type <option-type>`
 + :ref:`PHP Natives <native-type>`
 + :ref:`Phantom Type <phantom-type>`
 + :ref:`Positive Integer <positive-integer>`
++ :ref:`Range Type <range-type>`
 + :ref:`Real Numbers <real>`
++ :ref:`Record Type <record-type>`
 + :ref:`Refinement Type <refinement-type>`
 + :ref:`Relative Types <relative-types>`
++ :ref:`Result Type <result-type>`
 + :ref:`Return Type <return-type>`
 + :ref:`Row Polymorphism <row-polymorphism>`
 + :ref:`Scalar Types <scalar-type>`
@@ -716,18 +755,25 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Standalone Types <standalone-type>`
 + :ref:`Strict <strict>`
 + :ref:`Stringable <stringable>`
++ :ref:`Struct Type <struct-type>`
++ :ref:`Structural Typing <structural-typing>`
 + :ref:`Sum Type <sum-type>`
 + :ref:`True <true>`
++ :ref:`Tuple <tuple>`
 + :ref:`Type Checking <type-checking>`
++ :ref:`Type Class <type-class>`
 + :ref:`Type Coverage <type-coverage>`
 + :ref:`Type Inference <type-inference>`
 + :ref:`Type Invariant <invariant>`
 + :ref:`Type Juggling <type-juggling>`
++ :ref:`Type Narrowing <type-narrowing>`
 + :ref:`Type System <type-system>`
 + :ref:`Type System <type>`
++ :ref:`Type Widening <type-widening>`
 + :ref:`Typed Property <typed-property>`
 + :ref:`Types Erasure <type-erasure>`
 + :ref:`Union Type <union-type>`
++ :ref:`Value Type <value-type>`
 + :ref:`Void <void>`
 + :ref:`resource <resource>`
 + :ref:`subtype <subtype>`
@@ -758,6 +804,7 @@ Classic bug
 
 List of named bugs.
 
++ :ref:`Catch <catch>`
 + :ref:`Dangling Reference <dangling-reference>`
 + :ref:`Datetime Trap <datetime-trap>`
 + :ref:`Days Are Not 86400 Seconds <day-in-seconds>`
@@ -771,6 +818,7 @@ List of named bugs.
 + :ref:`Stealth Generator <stealth-generator>`
 + :ref:`Strpos() Syndrome <strpos-syndrom>`
 + :ref:`array_merge() <array_merge>`
++ :ref:`instanceof <instanceof>`
 
 Extension
 ---------
@@ -869,6 +917,7 @@ List of concepts related to static code analysis.
 + :ref:`Abstract Syntactic Tree (AST) <ast>`
 + :ref:`Analysis <analysis>`
 + :ref:`Appeasement Pattern <appeasement-pattern>`
++ :ref:`Array Shape <array-shape>`
 + :ref:`Call Graph <call-graph>`
 + :ref:`Code Smell <code-smell>`
 + :ref:`Cognitive Complexity <cognitive-complexity>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pattern Matching","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:41:23 +0000","dateModified":"Tue, 07 Jul 2026 07:41:23 +0000","description":"Pattern Matching as a language concept contains two parts: matching a variable against a potentially complex data structure pattern, and optionally extracting values out of that variable into their own variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pattern Matching.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pattern Matching","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:09:08 +0000","dateModified":"Wed, 08 Jul 2026 16:09:08 +0000","description":"Pattern Matching as a language concept contains two parts: matching a variable against a potentially complex data structure pattern, and optionally extracting values out of that variable into their own variables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pattern Matching.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pattern Matching
@@ -56,4 +56,4 @@ Pattern Matching as a language concept contains two parts: matching a variable a
 
 See also `Pattern matching <https://en.wikipedia.org/wiki/Pattern_matching>`_.
 
-Related : :ref:`Syntax <syntax>`, :ref:`Algebraic Data Type <algebraic-data-type>`, :ref:`Generalized Algebraic Data Type (GADT) <gadt>`, :ref:`Sealed Class <sealed-class>`, :ref:`Sum Type <sum-type>`
+Related : :ref:`Syntax <syntax>`, :ref:`Algebraic Data Type <algebraic-data-type>`, :ref:`Generalized Algebraic Data Type (GADT) <gadt>`, :ref:`Sealed Class <sealed-class>`, :ref:`Sum Type <sum-type>`, :ref:`Option Type <option-type>`, :ref:`Pattern <pattern>`, :ref:`Range Type <range-type>`, :ref:`Result Type <result-type>`, :ref:`Structural Pattern Matching <structural-pattern-matching>`
