@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Linear Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 15:59:30 +0000","dateModified":"Wed, 08 Jul 2026 15:59:30 +0000","description":"Linear types and affine types are type disciplines that constrain how many times a value may be used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Linear Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Linear Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:34:05 +0000","dateModified":"Thu, 09 Jul 2026 08:34:05 +0000","description":"Linear types and affine types are type disciplines that constrain how many times a value may be used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Linear Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Linear Type
@@ -34,7 +34,7 @@ The primary motivation is resource safety. A file handle typed as linear or affi
 
 Related to this is the concept of uniqueness types, Clean language, and borrowing, which temporarily grants read-only access without transferring ownership.
 
-PHP has no linear or affine types. Values are reference-counted and can be freely copied, aliased, or ignored. Resource handles (file handles, database connections) can be opened, re-used, or left unclosed without any static-analysis enforcement. The closest approximations are:
+PHP has no linear or affine types. Values are reference-counted and can be freely copied, aliased, or ignored. Resource handles, like file handles, database connections, can be opened, re-used, or left unclosed without any static-analysis enforcement. The closest approximations are:
 
 + Destructor-based cleanup, ``__destruct``, which runs when the last reference is dropped, but does not prevent double-use.
 + Value objects that track consumed state with a boolean flag at runtime.
@@ -42,6 +42,6 @@ PHP has no linear or affine types. Values are reference-counted and can be freel
 
 `Documentation <https://en.wikipedia.org/wiki/Substructural_type_system>`__
 
-See also `Substructural type system on Wikipedia <https://en.wikipedia.org/wiki/Substructural_type_system>`_ and `Ownership in Rust <https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html>`_.
+See also `Ownership in Rust <https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html>`_.
 
 Related : :ref:`Type System <type-system>`, :ref:`resource <resource>`, :ref:`Resource Leak <resource-leak>`, :ref:`References <reference>`, :ref:`Garbage Collection <garbage-collection>`, :ref:`Destructor <destructor>`, :ref:`Immutable <immutable>`

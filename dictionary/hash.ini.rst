@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:00:59 +0000","dateModified":"Thu, 09 Jul 2026 09:00:59 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash
@@ -42,20 +42,20 @@ While the extension ``hash`` only process hashes, there are other extensions whi
    
    <?php
    
-   echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');
-   // produces ec457d0a974c48d5685a7efa03d137dc8bbde7e3
-   
-   // a conversion table is a hash
-   $c = 2;
-   $dictionary = [1 => 'a', 2 => 'b', 3 => 'c'];
-   echo $dictionary[$c]; 
-   
-   // This is a hashmap, or also called a hash
-   $hashMap = ['name' => 'Henry', 
-               'family' => 'Troyat', 
-               'age' => 33,
-               ];
-   
+       echo hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');
+       // produces ec457d0a974c48d5685a7efa03d137dc8bbde7e3
+       
+       // a conversion table is a hash
+       $c = 2;
+       $dictionary = [1 => 'a', 2 => 'b', 3 => 'c'];
+       echo $dictionary[$c]; 
+       
+       // This is a hashmap, or also called a hash
+       $hashMap = ['name' => 'Henry', 
+                   'family' => 'Troyat', 
+                   'age' => 33,
+                   ];
+       
    ?>
 
 

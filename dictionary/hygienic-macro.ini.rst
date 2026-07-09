@@ -17,20 +17,20 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hygienic Macro","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:08:53 +0000","dateModified":"Sat, 04 Jul 2026 08:08:53 +0000","description":"A hygienic macro system is one in which macro expansions cannot accidentally capture or shadow variables from the calling scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hygienic Macro.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hygienic Macro","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:50:04 +0000","dateModified":"Thu, 09 Jul 2026 08:50:04 +0000","description":"A hygienic macro system is one in which macro expansions cannot accidentally capture or shadow variables from the calling scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hygienic Macro.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hygienic Macro
 --------------
 
-A hygienic macro system is one in which macro expansions cannot accidentally capture or shadow variables from the calling scope. In a non-hygienic macro system (such as C preprocessor macros), a macro that introduces a temporary variable risks clashing with a variable of the same name in the code that invokes it. Hygienic macros, pioneered in Scheme's ``syntax-rules`` and later adopted by Rust's ``macro_rules!``, solve this by tracking the lexical scope of every identifier introduced by the macro, renaming variables as needed during expansion so that caller and macro identifiers remain isolated.
+A hygienic macro system is one in which macro expansions cannot accidentally capture or shadow variables from the calling scope. In a non-hygienic macro system, such as C preprocessor macros, a macro that introduces a temporary variable risks clashing with a variable of the same name in the code that invokes it. Hygienic macros, pioneered in Scheme's ``syntax-rules`` and later adopted by Rust's ``macro_rules!``, solve this by tracking the lexical scope of every identifier introduced by the macro, renaming variables as needed during expansion so that caller and macro identifiers remain isolated.
 
 Other languages with hygienic or near-hygienic macro systems include Racket, Elixir with ``defmacro`` with quoted ASTs, Julia with ``@macro`` with hygiene by default, and Nim  and its ``macro`` statements.
 
 PHP has no macro system of any kind, hygienic or otherwise. PHP source code is parsed and executed directly; there is no macro-expansion phase. The closest available mechanisms are:
 
 + ``eval()``: executes a string as PHP code, but operates at runtime on already-parsed text; no variable hygiene is guaranteed.
-+ Token-level preprocessing: tools such as ``yay`` (a PHP macro preprocessor) run before the PHP parser and perform textual or token-level substitutions, but provide no hygiene guarantees.
++ Token-level preprocessing: tools such as ``yay``, a PHP macro preprocessor, run before the PHP parser and perform textual or token-level substitutions, but provide no hygiene guarantees.
 + ``nikic/php-parser``: allows full AST rewriting via a userland visitor, enabling macro-like transformations with explicit scope tracking that the author must implement manually.
 + Functions passed by reference: the most common PHP idiom for ``swap``-style macros is a plain function with ``&`` parameters, which requires an explicit call rather than inline expansion.
 
@@ -64,7 +64,7 @@ PHP has no macro system of any kind, hygienic or otherwise. PHP source code is p
 
 `Documentation <https://en.wikipedia.org/wiki/Hygienic_macro>`__
 
-See also `Hygienic macros (Wikipedia) <https://en.wikipedia.org/wiki/Hygienic_macro>`_, `Rust macro_rules! <https://doc.rust-lang.org/reference/macros-by-example.html>`_, `yay: PHP macro preprocessor <https://github.com/marcioAlmada/yay>`_ and `nikic/php-parser <https://github.com/nikic/PHP-Parser>`_.
+See also `Rust macro_rules! <https://doc.rust-lang.org/reference/macros-by-example.html>`_, `yay: PHP macro preprocessor <https://github.com/marcioAlmada/yay>`_ and `nikic/php-parser <https://github.com/nikic/PHP-Parser>`_.
 
 Related : :ref:`Macro <macro>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Eval() <eval>`, :ref:`Token <token>`, :ref:`Code Generation <code-generation>`, :ref:`Abstract Syntactic Tree (AST) <ast>`
 

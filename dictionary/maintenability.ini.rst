@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Maintenability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Maintainability refers to how easy it is to understand, modify, and extend source code over time, especially as the project grows or \/ and requirements change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Maintenability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Maintenability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:17:18 +0000","dateModified":"Thu, 09 Jul 2026 08:17:18 +0000","description":"Maintainability refers to how easy it is to understand, modify, and extend source code over time, especially as the project grows or \/ and requirements change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Maintenability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Maintenability
@@ -29,7 +29,7 @@ A maintainable codebase is:
 + Readable: code is well-structured, uses meaningful names, and follows consistent formatting
 + Modular: functions, classes, and files are logically organized and decoupled
 + Documented: clear comments and documentation explain complex logic and intent
-+ Testable: unit and integration tests ensure changes don’t break existing functionality
++ Testable: unit and integration tests ensure changes don't break existing functionality
 + Debuggable: errors and logs are clear, and debugging is straightforward
 + Up-to-date: code adheres to modern PHP standards and avoids deprecated features.
 

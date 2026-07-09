@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Memory Arena","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:38:08 +0000","dateModified":"Tue, 07 Jul 2026 07:38:08 +0000","description":"A memory arena is a large, contiguous block of memory that is pre-allocated upfront and then carved into smaller pieces on demand","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Memory Arena.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Memory Arena","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:14:53 +0000","dateModified":"Thu, 09 Jul 2026 08:14:53 +0000","description":"A memory arena is a large, contiguous block of memory that is pre-allocated upfront and then carved into smaller pieces on demand","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Memory Arena.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Memory Arena
@@ -33,6 +33,6 @@ From a PHP developer's perspective, arenas are invisible: the engine manages the
 
 `Documentation <https://en.wikipedia.org/wiki/Region-based_memory_management>`__
 
-See also `Region-based memory management <https://en.wikipedia.org/wiki/Region-based_memory_management>`_ and `PHP internals: memory management <https://www.phpinternalsbook.com/php7/memory_management/zend_memory_manager.html>`_.
+See also `PHP internals: memory management <https://www.phpinternalsbook.com/php7/memory_management/zend_memory_manager.html>`_.
 
 Related : :ref:`Memory <memory>`, :ref:`memory_limit <memory_limit>`, :ref:`Garbage Collection <garbage-collection>`, :ref:`Zval <zval>`, :ref:`Opcache <opcache>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Shared Memory <shared-memory>`, :ref:`Memory Leak <memory-leak>`, :ref:`php://memory <php-memory>`

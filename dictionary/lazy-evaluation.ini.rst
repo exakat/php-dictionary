@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lazy Evaluation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 15:33:57 +0000","dateModified":"Wed, 08 Jul 2026 15:33:57 +0000","description":"Lazy evaluation is an evaluation strategy in which an expression's value is not computed until it is actually needed, and, once computed, is often cached so it is never recomputed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lazy Evaluation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lazy Evaluation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:45:42 +0000","dateModified":"Thu, 09 Jul 2026 07:45:42 +0000","description":"Lazy evaluation is an evaluation strategy in which an expression's value is not computed until it is actually needed, and, once computed, is often cached so it is never recomputed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lazy Evaluation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lazy Evaluation
@@ -50,6 +50,6 @@ PHP is strictly, eagerly evaluated everywhere except in a few specific opt-in co
 
 `Documentation <https://en.wikipedia.org/wiki/Lazy_evaluation>`__
 
-See also `Lazy evaluation in Wikipedia <https://en.wikipedia.org/wiki/Lazy_evaluation>`_.
+See also `Lazy Evaluation in PHP: Real‑World Memory Savings with Generators <https://dev.to/phpner/lazy-evaluation-in-php-how-generators-and-iterators-save-memory-and-speed-up-code-3529>`_.
 
 Related : :ref:`Generator <generator>`, :ref:`Yield <yield>`, :ref:`Lazy Loading <lazy-loading>`, :ref:`Lazy Objects <lazy-objects>`, :ref:`Range Type <range-type>`

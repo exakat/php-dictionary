@@ -27,6 +27,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
 + :ref:`Cross Site Request Forgery (CSRF) <csrf>`
 + :ref:`Cross Site Scripting (XSS) <xss>`
++ :ref:`Cyclic Redundancy Check 32-bit (CRC32) <crc32>`
 + :ref:`Data Access Object (DAO) <dao>`
 + :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`
 + :ref:`Data Source Name (DSN) <dsn>`
@@ -227,6 +228,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Business Logic <business-logic>`
 + :ref:`C10K <c10k>`
 + :ref:`CAP Theorem <cap-theorem>`
++ :ref:`Canary <canary>`
 + :ref:`Cancellation <cancellation>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
@@ -345,6 +347,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`HTTP Method <http-method>`
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
++ :ref:`Hash Table <hash-table>`
 + :ref:`Heuristics <heuristic>`
 + :ref:`Hidden State <hidden-state>`
 + :ref:`Higher-Kinded Type <higher-kinded-type>`
@@ -405,6 +408,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Monad <monad>`
 + :ref:`Monomorphization <monomorphization>`
 + :ref:`Move Semantics <move-semantics>`
++ :ref:`Multi-pass Algorithm <multi-pass-algorithm>`
 + :ref:`Multiple Dispatch <multiple-dispatch>`
 + :ref:`Multiple Return Values <multiple-return-value>`
 + :ref:`N+1 Query Problem <n-query>`
@@ -414,11 +418,13 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Native <native>`
 + :ref:`Network <network>`
 + :ref:`Neutral Element <neutral-element>`
++ :ref:`Nominal Type <nominal-type>`
 + :ref:`Non-blocking <non-blocking>`
 + :ref:`Noop <noop>`
 + :ref:`Numeronym <numeronym>`
 + :ref:`One-shot <one-shot>`
 + :ref:`Operator Overloading <operator-overloading>`
++ :ref:`Opinionated <opinionated>`
 + :ref:`Optimisation <optimisation>`
 + :ref:`Option <option>`
 + :ref:`Option Type <option-type>`
@@ -455,6 +461,9 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Proprietary Source <proprietary-source>`
 + :ref:`Protocol <protocol>`
 + :ref:`Quality <quality>`
++ :ref:`RDF Triple Store <rdf-triple-store>`
++ :ref:`Rainbow Table <rainbow-table>`
++ :ref:`Random Access <random-access>`
 + :ref:`Range Type <range-type>`
 + :ref:`Readable <readable>`
 + :ref:`Reading <reading>`
@@ -485,6 +494,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Scope <scope>`
 + :ref:`Security <security>`
 + :ref:`Semantics <semantics>`
++ :ref:`Sentinel <sentinel>`
 + :ref:`Separation Of Concerns <separation-of-concerns>`
 + :ref:`Serverless <serverless>`
 + :ref:`Service Discovery <service-discovery>`
@@ -514,6 +524,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Taint Analysis <taint>`
 + :ref:`Technical Reference <technical-reference>`
 + :ref:`Template <template>`
++ :ref:`Temporal Replay <temporal-replay>`
 + :ref:`Test Framework <test-framework>`
 + :ref:`Test Pyramid <test-pyramid>`
 + :ref:`Text <text>`
@@ -733,6 +744,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Mixed <mixed>`
 + :ref:`Named Type <named-type>`
 + :ref:`Never Type <never>`
++ :ref:`Nominal Type <nominal-type>`
 + :ref:`Nullable <nullable>`
 + :ref:`Object <object>`
 + :ref:`Object Type <object-type>`
@@ -815,6 +827,7 @@ List of named bugs.
 + :ref:`Minus One -1 <minus-one>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Object Injection <object-injection>`
++ :ref:`Sentinel <sentinel>`
 + :ref:`Stealth Generator <stealth-generator>`
 + :ref:`Strpos() Syndrome <strpos-syndrom>`
 + :ref:`array_merge() <array_merge>`
@@ -836,6 +849,7 @@ List of special PHP extensions.
 + :ref:`Document Object Model (DOM) <dom>`
 + :ref:`Fibers <fibers>`
 + :ref:`GNU Multiple Precision (GMP) <gmp>`
++ :ref:`Graphic Draw (GD) <gd>`
 + :ref:`Hash <hash>`
 + :ref:`Iconv <iconv>`
 + :ref:`Internationalization Functions <intl>`
@@ -1004,6 +1018,7 @@ List of concepts that cover several fields, and usually require extra details to
 + :ref:`Base <base>`
 + :ref:`Binary <binary>`
 + :ref:`Bracket <bracket>`
++ :ref:`Canary <canary>`
 + :ref:`Case <case>`
 + :ref:`Commit <commit>`
 + :ref:`Container <container>`
@@ -1089,7 +1104,28 @@ List of adjective that are used with several distinct noun, and carry similar co
 + :ref:`Eponymous <eponymous>`
 + :ref:`Fat <fat>`
 + :ref:`Greenfield <green-field>`
++ :ref:`Inconsistent <inconsistent>`
++ :ref:`Opinionated <opinionated>`
 + :ref:`Synchronous <synchronous>`
 + :ref:`Temporary <temporary>`
 + :ref:`Testable <testable>`
 + :ref:`Thin <thin>`
+
+Animal
+------
+
+List of animals in the PHP ecosystem and its folklore.
+
++ :ref:`Camel Case <camel-case>`
++ :ref:`Copy On Write (COW) <copy-on-write>`
++ :ref:`Cryptographic Hash <hash-crypto>`
++ :ref:`Double Quotes Strings <double-quote>`
++ :ref:`Duck Typing <ducktyping>`
++ :ref:`Elephpant <elephpant>`
++ :ref:`Escape Sequences <escape-sequence>`
++ :ref:`Folklore <folklore>`
++ :ref:`Framework <framework>`
++ :ref:`Introspection <introspection>`
++ :ref:`Rubber Ducking Debugging <rubber-ducking>`
++ :ref:`Snake Case <snake-case>`
++ :ref:`hash() Function <hash-function>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 16 Jun 2026 15:25:44 +0000","dateModified":"Tue, 16 Jun 2026 15:25:44 +0000","description":"The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:22:31 +0000","dateModified":"Thu, 09 Jul 2026 08:22:31 +0000","description":"The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Constructor
@@ -53,6 +53,6 @@ A constructor may have a visibility, and be not available to the outside. In par
 
 `Documentation <https://www.php.net/manual/en/language.oop5.decon.php>`__
 
-See also `What and Why We Should Use PHP Constructors <https://laracasts.com/discuss/channels/php/what-and-why-we-should-use-php-constructors>`_ and `PHP OOP Constructor: How It Works in a Class with Examples <https://flatcoding.com/tutorials/php/php-oop-constructors-guide/>`_.
+See also `What and Why We Should Use PHP Constructors <https://laracasts.com/discuss/channels/php/what-and-why-we-should-use-php-constructors>`_, `PHP OOP Constructor: How It Works in a Class with Examples <https://flatcoding.com/tutorials/php/php-oop-constructors-guide/>`_ and `Constructor in PHP: Syntax, Types, Examples <https://www.scientecheasy.com/2025/11/constructor-in-php.html/>`_.
 
 Related : :ref:`Destructor <destructor>`, :ref:`Inheritance <inheritance>`, :ref:`Visibility <visibility>`, :ref:`Named Constructors <named-constructor>`, :ref:`Autowiring <autowiring>`, :ref:`instance <instance>`, :ref:`Promoted Properties <promoted-property>`

@@ -3,8 +3,8 @@ loading translations [en]... done
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
 writing output... 
-building [html]: targets for 1745 source files that are out of date
-updating environment: [new config] 1745 added, 0 changed, 0 removed
+building [html]: targets for 1759 source files that are out of date
+updating environment: [new config] 1759 added, 0 changed, 0 removed
 reading sources... [  0%] dictionary
 reading sources... [  0%] dictionary/$HTTP_RAW_POST_DATA.ini
 reading sources... [  0%] dictionary/$_FILES.ini
@@ -82,6 +82,7 @@ reading sources... [  4%] dictionary/anonymous-constant.ini
 reading sources... [  4%] dictionary/anonymous-function.ini
 reading sources... [  4%] dictionary/anonymous.ini
 reading sources... [  4%] dictionary/anti-pattern.ini
+reading sources... [  4%] dictionary/antlr4.ini
 reading sources... [  4%] dictionary/aot.ini
 reading sources... [  5%] dictionary/api-gateway.ini
 reading sources... [  5%] dictionary/api.ini
@@ -112,12 +113,14 @@ reading sources... [  6%] dictionary/array.ini
 reading sources... [  6%] dictionary/array_column.ini
 reading sources... [  6%] dictionary/array_combine.ini
 reading sources... [  6%] dictionary/array_fill.ini
+reading sources... [  6%] dictionary/array_find.ini
+reading sources... [  6%] dictionary/array_find_key.ini
 reading sources... [  6%] dictionary/array_key_exists.ini
 reading sources... [  6%] dictionary/array_keys.ini
 reading sources... [  6%] dictionary/array_map.ini
 reading sources... [  6%] dictionary/array_merge.ini
-reading sources... [  6%] dictionary/array_pad.ini
-reading sources... [  6%] dictionary/array_pop.ini
+reading sources... [  7%] dictionary/array_pad.ini
+reading sources... [  7%] dictionary/array_pop.ini
 reading sources... [  7%] dictionary/array_push.ini
 reading sources... [  7%] dictionary/array_search.ini
 reading sources... [  7%] dictionary/array_shift.ini
@@ -133,8 +136,8 @@ reading sources... [  7%] dictionary/arrow-function.ini
 reading sources... [  7%] dictionary/artifact.ini
 reading sources... [  7%] dictionary/as.ini
 reading sources... [  7%] dictionary/ascii.ini
-reading sources... [  7%] dictionary/aspect-oriented.ini
-reading sources... [  7%] dictionary/aspect-programming.ini
+reading sources... [  8%] dictionary/aspect-oriented.ini
+reading sources... [  8%] dictionary/aspect-programming.ini
 reading sources... [  8%] dictionary/assertion.ini
 reading sources... [  8%] dictionary/asset.ini
 reading sources... [  8%] dictionary/assignation.ini
@@ -151,8 +154,8 @@ reading sources... [  8%] dictionary/attack-surface.ini
 reading sources... [  8%] dictionary/attack.ini
 reading sources... [  8%] dictionary/attribute-class.ini
 reading sources... [  8%] dictionary/attribute.ini
-reading sources... [  8%] dictionary/audit-trail.ini
-reading sources... [  8%] dictionary/audit.ini
+reading sources... [  9%] dictionary/audit-trail.ini
+reading sources... [  9%] dictionary/audit.ini
 reading sources... [  9%] dictionary/authentication.ini
 reading sources... [  9%] dictionary/authorize.ini
 reading sources... [  9%] dictionary/auto_prepend_file.ini
@@ -169,7 +172,7 @@ reading sources... [  9%] dictionary/backed-property.ini
 reading sources... [  9%] dictionary/backed.ini
 reading sources... [  9%] dictionary/backedenum.ini
 reading sources... [  9%] dictionary/backend.ini
-reading sources... [  9%] dictionary/backtick.ini
+reading sources... [ 10%] dictionary/backtick.ini
 reading sources... [ 10%] dictionary/backtrace.ini
 reading sources... [ 10%] dictionary/backward-compatible.ini
 reading sources... [ 10%] dictionary/backward-incompatible.ini
@@ -186,8 +189,8 @@ reading sources... [ 10%] dictionary/benchmarking.ini
 reading sources... [ 10%] dictionary/best-practice.ini
 reading sources... [ 10%] dictionary/big-o-notation.ini
 reading sources... [ 10%] dictionary/binary-integer.ini
-reading sources... [ 10%] dictionary/binary-not.ini
-reading sources... [ 10%] dictionary/binary-operator.ini
+reading sources... [ 11%] dictionary/binary-not.ini
+reading sources... [ 11%] dictionary/binary-operator.ini
 reading sources... [ 11%] dictionary/binary.ini
 reading sources... [ 11%] dictionary/bind.ini
 reading sources... [ 11%] dictionary/bitfield.ini
@@ -204,7 +207,7 @@ reading sources... [ 11%] dictionary/boilerplate.ini
 reading sources... [ 11%] dictionary/bola.ini
 reading sources... [ 11%] dictionary/boolean.ini
 reading sources... [ 11%] dictionary/bootstrap.ini
-reading sources... [ 11%] dictionary/borrow-checking.ini
+reading sources... [ 12%] dictionary/borrow-checking.ini
 reading sources... [ 12%] dictionary/bottleneck.ini
 reading sources... [ 12%] dictionary/bracket.ini
 reading sources... [ 12%] dictionary/bracketless.ini
@@ -221,8 +224,8 @@ reading sources... [ 12%] dictionary/business-logic.ini
 reading sources... [ 12%] dictionary/by-reference.ini
 reading sources... [ 12%] dictionary/by-value.ini
 reading sources... [ 12%] dictionary/byte.ini
-reading sources... [ 12%] dictionary/bzip2.ini
-reading sources... [ 12%] dictionary/c10k.ini
+reading sources... [ 13%] dictionary/bzip2.ini
+reading sources... [ 13%] dictionary/c10k.ini
 reading sources... [ 13%] dictionary/c2-framework.ini
 reading sources... [ 13%] dictionary/cache-stampede.ini
 reading sources... [ 13%] dictionary/cache.ini
@@ -233,13 +236,14 @@ reading sources... [ 13%] dictionary/callable.ini
 reading sources... [ 13%] dictionary/callback.ini
 reading sources... [ 13%] dictionary/callstack.ini
 reading sources... [ 13%] dictionary/camel-case.ini
+reading sources... [ 13%] dictionary/canary.ini
 reading sources... [ 13%] dictionary/cancellation.ini
 reading sources... [ 13%] dictionary/canonical.ini
 reading sources... [ 13%] dictionary/cap-theorem.ini
 reading sources... [ 13%] dictionary/captcha.ini
 reading sources... [ 13%] dictionary/carriage-return.ini
-reading sources... [ 13%] dictionary/case-sensitivity.ini
-reading sources... [ 13%] dictionary/case.ini
+reading sources... [ 14%] dictionary/case-sensitivity.ini
+reading sources... [ 14%] dictionary/case.ini
 reading sources... [ 14%] dictionary/cast.ini
 reading sources... [ 14%] dictionary/catch.ini
 reading sources... [ 14%] dictionary/cd.ini
@@ -256,8 +260,8 @@ reading sources... [ 14%] dictionary/child-class.ini
 reading sources... [ 14%] dictionary/ci.ini
 reading sources... [ 14%] dictionary/circuit-breaker.ini
 reading sources... [ 14%] dictionary/circular-reference.ini
-reading sources... [ 14%] dictionary/cite.ini
-reading sources... [ 14%] dictionary/class-alias.ini
+reading sources... [ 15%] dictionary/cite.ini
+reading sources... [ 15%] dictionary/class-alias.ini
 reading sources... [ 15%] dictionary/class-constant-syntax.ini
 reading sources... [ 15%] dictionary/class-constant-visibility.ini
 reading sources... [ 15%] dictionary/class-constant.ini
@@ -273,8 +277,8 @@ reading sources... [ 15%] dictionary/clean-architecture.ini
 reading sources... [ 15%] dictionary/clean-code.ini
 reading sources... [ 15%] dictionary/cli.ini
 reading sources... [ 15%] dictionary/client.ini
-reading sources... [ 15%] dictionary/clock.ini
-reading sources... [ 15%] dictionary/clone.ini
+reading sources... [ 16%] dictionary/clock.ini
+reading sources... [ 16%] dictionary/clone.ini
 reading sources... [ 16%] dictionary/close-naming.ini
 reading sources... [ 16%] dictionary/close-tag.ini
 reading sources... [ 16%] dictionary/closed-source.ini
@@ -291,7 +295,7 @@ reading sources... [ 16%] dictionary/code-formatter.ini
 reading sources... [ 16%] dictionary/code-formatting.ini
 reading sources... [ 16%] dictionary/code-freeze.ini
 reading sources... [ 16%] dictionary/code-generation.ini
-reading sources... [ 16%] dictionary/code-generator.ini
+reading sources... [ 17%] dictionary/code-generator.ini
 reading sources... [ 17%] dictionary/code-injection.ini
 reading sources... [ 17%] dictionary/code-reuse.ini
 reading sources... [ 17%] dictionary/code-review.ini
@@ -308,8 +312,8 @@ reading sources... [ 17%] dictionary/column-database.ini
 reading sources... [ 17%] dictionary/comma.ini
 reading sources... [ 17%] dictionary/command-bus.ini
 reading sources... [ 17%] dictionary/command.ini
-reading sources... [ 17%] dictionary/comment.ini
-reading sources... [ 17%] dictionary/commit.ini
+reading sources... [ 18%] dictionary/comment.ini
+reading sources... [ 18%] dictionary/commit.ini
 reading sources... [ 18%] dictionary/community.ini
 reading sources... [ 18%] dictionary/compact-array.ini
 reading sources... [ 18%] dictionary/compact.ini
@@ -326,7 +330,7 @@ reading sources... [ 18%] dictionary/composer.ini
 reading sources... [ 18%] dictionary/composite-type.ini
 reading sources... [ 18%] dictionary/composition.ini
 reading sources... [ 18%] dictionary/compression.ini
-reading sources... [ 18%] dictionary/computed-property.ini
+reading sources... [ 19%] dictionary/computed-property.ini
 reading sources... [ 19%] dictionary/concatenation.ini
 reading sources... [ 19%] dictionary/concatenative.ini
 reading sources... [ 19%] dictionary/concrete-method.ini
@@ -344,7 +348,7 @@ reading sources... [ 19%] dictionary/const.ini
 reading sources... [ 19%] dictionary/constant-case.ini
 reading sources... [ 19%] dictionary/constant-combinaison.ini
 reading sources... [ 19%] dictionary/constant-expression.ini
-reading sources... [ 19%] dictionary/constant-function.ini
+reading sources... [ 20%] dictionary/constant-function.ini
 reading sources... [ 20%] dictionary/constant-in-trait.ini
 reading sources... [ 20%] dictionary/constant-scalar-expression.ini
 reading sources... [ 20%] dictionary/constant.ini
@@ -361,7 +365,7 @@ reading sources... [ 20%] dictionary/control-flow.ini
 reading sources... [ 20%] dictionary/control-structure.ini
 reading sources... [ 20%] dictionary/controller.ini
 reading sources... [ 20%] dictionary/convention.ini
-reading sources... [ 20%] dictionary/convert.ini
+reading sources... [ 21%] dictionary/convert.ini
 reading sources... [ 21%] dictionary/cookie.ini
 reading sources... [ 21%] dictionary/copy-on-write.ini
 reading sources... [ 21%] dictionary/core.ini
@@ -379,7 +383,7 @@ reading sources... [ 21%] dictionary/cron.ini
 reading sources... [ 21%] dictionary/cross-cutting-concerns.ini
 reading sources... [ 21%] dictionary/crud.ini
 reading sources... [ 21%] dictionary/crypt.ini
-reading sources... [ 21%] dictionary/cryptography.ini
+reading sources... [ 22%] dictionary/cryptography.ini
 reading sources... [ 22%] dictionary/csrf.ini
 reading sources... [ 22%] dictionary/css.ini
 reading sources... [ 22%] dictionary/csv-injection.ini
@@ -396,7 +400,7 @@ reading sources... [ 22%] dictionary/cvs.ini
 reading sources... [ 22%] dictionary/cyclomatic-complexity.ini
 reading sources... [ 22%] dictionary/dangling-reference.ini
 reading sources... [ 22%] dictionary/dao.ini
-reading sources... [ 22%] dictionary/data-container.ini
+reading sources... [ 23%] dictionary/data-container.ini
 reading sources... [ 23%] dictionary/data-flow-analysis.ini
 reading sources... [ 23%] dictionary/data-leak.ini
 reading sources... [ 23%] dictionary/data-mapper.ini
@@ -414,7 +418,7 @@ reading sources... [ 23%] dictionary/datetimeinterface.ini
 reading sources... [ 23%] dictionary/day-in-seconds.ini
 reading sources... [ 23%] dictionary/days-in-month.ini
 reading sources... [ 23%] dictionary/dba.ini
-reading sources... [ 23%] dictionary/dbal.ini
+reading sources... [ 24%] dictionary/dbal.ini
 reading sources... [ 24%] dictionary/ddd.ini
 reading sources... [ 24%] dictionary/ddos.ini
 reading sources... [ 24%] dictionary/dead-code.ini
@@ -431,7 +435,7 @@ reading sources... [ 24%] dictionary/decorator.ini
 reading sources... [ 24%] dictionary/decoupling.ini
 reading sources... [ 24%] dictionary/decrypt.ini
 reading sources... [ 24%] dictionary/deduplication.ini
-reading sources... [ 24%] dictionary/deep-clone.ini
+reading sources... [ 25%] dictionary/deep-clone.ini
 reading sources... [ 25%] dictionary/default-parameter.ini
 reading sources... [ 25%] dictionary/default-value.ini
 reading sources... [ 25%] dictionary/default.ini
@@ -488,6 +492,7 @@ reading sources... [ 28%] dictionary/docblock.ini
 reading sources... [ 28%] dictionary/docker-container.ini
 reading sources... [ 28%] dictionary/docker-image.ini
 reading sources... [ 28%] dictionary/docker.ini
+reading sources... [ 28%] dictionary/doctrine.ini
 reading sources... [ 28%] dictionary/document-database.ini
 reading sources... [ 28%] dictionary/documentation.ini
 reading sources... [ 28%] dictionary/dollar.ini
@@ -501,7 +506,7 @@ reading sources... [ 28%] dictionary/domxml.ini
 reading sources... [ 28%] dictionary/dot-directory.ini
 reading sources... [ 28%] dictionary/dot-dot-directory.ini
 reading sources... [ 28%] dictionary/dot-file.ini
-reading sources... [ 28%] dictionary/dot-notation.ini
+reading sources... [ 29%] dictionary/dot-notation.ini
 reading sources... [ 29%] dictionary/double-arrow.ini
 reading sources... [ 29%] dictionary/double-check.ini
 reading sources... [ 29%] dictionary/double-quote.ini
@@ -518,7 +523,7 @@ reading sources... [ 29%] dictionary/dynamic-call.ini
 reading sources... [ 29%] dictionary/dynamic-class-constant.ini
 reading sources... [ 29%] dictionary/dynamic-class.ini
 reading sources... [ 29%] dictionary/dynamic-constant.ini
-reading sources... [ 29%] dictionary/dynamic-expression.ini
+reading sources... [ 30%] dictionary/dynamic-expression.ini
 reading sources... [ 30%] dictionary/dynamic-loading.ini
 reading sources... [ 30%] dictionary/dynamic-method.ini
 reading sources... [ 30%] dictionary/dynamic-property.ini
@@ -536,7 +541,7 @@ reading sources... [ 30%] dictionary/edge-triggered.ini
 reading sources... [ 30%] dictionary/effect-system.ini
 reading sources... [ 30%] dictionary/elephpant.ini
 reading sources... [ 30%] dictionary/ellipsis.ini
-reading sources... [ 30%] dictionary/email.ini
+reading sources... [ 31%] dictionary/email.ini
 reading sources... [ 31%] dictionary/embed.ini
 reading sources... [ 31%] dictionary/emoji.ini
 reading sources... [ 31%] dictionary/empty-string.ini
@@ -571,7 +576,7 @@ reading sources... [ 32%] dictionary/escapeshellcmd.ini
 reading sources... [ 32%] dictionary/eval.ini
 reading sources... [ 32%] dictionary/event-driven.ini
 reading sources... [ 32%] dictionary/event-loop.ini
-reading sources... [ 32%] dictionary/event-replay.ini
+reading sources... [ 33%] dictionary/event-replay.ini
 reading sources... [ 33%] dictionary/event-sourcing.ini
 reading sources... [ 33%] dictionary/event-store.ini
 reading sources... [ 33%] dictionary/event-storming.ini
@@ -606,7 +611,7 @@ reading sources... [ 34%] dictionary/factory.ini
 reading sources... [ 34%] dictionary/faker.ini
 reading sources... [ 34%] dictionary/fallback-function.ini
 reading sources... [ 34%] dictionary/fallback-to-global.ini
-reading sources... [ 34%] dictionary/fallback.ini
+reading sources... [ 35%] dictionary/fallback.ini
 reading sources... [ 35%] dictionary/fallthrough.ini
 reading sources... [ 35%] dictionary/false.ini
 reading sources... [ 35%] dictionary/falsy.ini
@@ -641,7 +646,7 @@ reading sources... [ 36%] dictionary/fixture.ini
 reading sources... [ 36%] dictionary/flag.ini
 reading sources... [ 36%] dictionary/flamegraph.ini
 reading sources... [ 36%] dictionary/flexibility.ini
-reading sources... [ 37%] dictionary/float.ini
+reading sources... [ 36%] dictionary/float.ini
 reading sources... [ 37%] dictionary/fluent-interface.ini
 reading sources... [ 37%] dictionary/fnmatch.ini
 reading sources... [ 37%] dictionary/folklore.ini
@@ -676,7 +681,7 @@ reading sources... [ 38%] dictionary/get_class.ini
 reading sources... [ 38%] dictionary/get_class_vars.ini
 reading sources... [ 38%] dictionary/get_object_vars.ini
 reading sources... [ 38%] dictionary/getter.ini
-reading sources... [ 39%] dictionary/gettext.ini
+reading sources... [ 38%] dictionary/gettext.ini
 reading sources... [ 39%] dictionary/gif.ini
 reading sources... [ 39%] dictionary/git-hook.ini
 reading sources... [ 39%] dictionary/git.ini
@@ -708,6 +713,7 @@ reading sources... [ 40%] dictionary/hash-character.ini
 reading sources... [ 40%] dictionary/hash-comparison.ini
 reading sources... [ 40%] dictionary/hash-crypto.ini
 reading sources... [ 40%] dictionary/hash-function.ini
+reading sources... [ 40%] dictionary/hash-table.ini
 reading sources... [ 40%] dictionary/hash.ini
 reading sources... [ 40%] dictionary/hash_equals.ini
 reading sources... [ 40%] dictionary/haystack.ini
@@ -728,7 +734,7 @@ reading sources... [ 41%] dictionary/hook.ini
 reading sources... [ 41%] dictionary/horizontal-scaling.ini
 reading sources... [ 41%] dictionary/hosting.ini
 reading sources... [ 41%] dictionary/hrtime.ini
-reading sources... [ 41%] dictionary/htaccess.ini
+reading sources... [ 42%] dictionary/htaccess.ini
 reading sources... [ 42%] dictionary/html-entities.ini
 reading sources... [ 42%] dictionary/html-entity.ini
 reading sources... [ 42%] dictionary/html.ini
@@ -798,7 +804,7 @@ reading sources... [ 45%] dictionary/initialisation.ini
 reading sources... [ 45%] dictionary/injection.ini
 reading sources... [ 45%] dictionary/inline-assembly.ini
 reading sources... [ 45%] dictionary/inlining.ini
-reading sources... [ 46%] dictionary/insecure-deserialization.ini
+reading sources... [ 45%] dictionary/insecure-deserialization.ini
 reading sources... [ 46%] dictionary/instance.ini
 reading sources... [ 46%] dictionary/instanceof.ini
 reading sources... [ 46%] dictionary/insteadof.ini
@@ -833,7 +839,7 @@ reading sources... [ 47%] dictionary/iteratoraggregate.ini
 reading sources... [ 47%] dictionary/javascript.ini
 reading sources... [ 47%] dictionary/jit.ini
 reading sources... [ 47%] dictionary/jobqueue.ini
-reading sources... [ 48%] dictionary/jpg.ini
+reading sources... [ 47%] dictionary/jpg.ini
 reading sources... [ 48%] dictionary/json.ini
 reading sources... [ 48%] dictionary/json_decode.ini
 reading sources... [ 48%] dictionary/json_encode.ini
@@ -851,7 +857,7 @@ reading sources... [ 48%] dictionary/label.ini
 reading sources... [ 48%] dictionary/lamp.ini
 reading sources... [ 48%] dictionary/language-construct.ini
 reading sources... [ 48%] dictionary/language-service-protocol.ini
-reading sources... [ 49%] dictionary/laravel.ini
+reading sources... [ 48%] dictionary/laravel.ini
 reading sources... [ 49%] dictionary/late-static-binding.ini
 reading sources... [ 49%] dictionary/latency.ini
 reading sources... [ 49%] dictionary/latin1.ini
@@ -868,7 +874,7 @@ reading sources... [ 49%] dictionary/legacy.ini
 reading sources... [ 49%] dictionary/lemp.ini
 reading sources... [ 49%] dictionary/lengthexception.ini
 reading sources... [ 49%] dictionary/letter-logical.ini
-reading sources... [ 50%] dictionary/lexical-analysis.ini
+reading sources... [ 49%] dictionary/lexical-analysis.ini
 reading sources... [ 50%] dictionary/lexical.ini
 reading sources... [ 50%] dictionary/library-loading.ini
 reading sources... [ 50%] dictionary/library.ini
@@ -886,7 +892,7 @@ reading sources... [ 50%] dictionary/list-comprehension.ini
 reading sources... [ 50%] dictionary/list.ini
 reading sources... [ 50%] dictionary/listener.ini
 reading sources... [ 50%] dictionary/literal-types.ini
-reading sources... [ 51%] dictionary/literal.ini
+reading sources... [ 50%] dictionary/literal.ini
 reading sources... [ 51%] dictionary/llm.ini
 reading sources... [ 51%] dictionary/load-balancer.ini
 reading sources... [ 51%] dictionary/local-file-inclusion.ini
@@ -903,7 +909,7 @@ reading sources... [ 51%] dictionary/look-up.ini
 reading sources... [ 51%] dictionary/loop.ini
 reading sources... [ 51%] dictionary/lossless.ini
 reading sources... [ 51%] dictionary/lossy.ini
-reading sources... [ 52%] dictionary/lsp.ini
+reading sources... [ 51%] dictionary/lsp.ini
 reading sources... [ 52%] dictionary/machine-learning.ini
 reading sources... [ 52%] dictionary/macro.ini
 reading sources... [ 52%] dictionary/magento.ini
@@ -921,7 +927,7 @@ reading sources... [ 52%] dictionary/maintenance.ini
 reading sources... [ 52%] dictionary/makefile.ini
 reading sources... [ 52%] dictionary/man-in-the-middle.ini
 reading sources... [ 52%] dictionary/map.ini
-reading sources... [ 53%] dictionary/markdown.ini
+reading sources... [ 52%] dictionary/markdown.ini
 reading sources... [ 53%] dictionary/marketplace.ini
 reading sources... [ 53%] dictionary/match.ini
 reading sources... [ 53%] dictionary/math.ini
@@ -938,8 +944,8 @@ reading sources... [ 53%] dictionary/memory_limit.ini
 reading sources... [ 53%] dictionary/merge.ini
 reading sources... [ 53%] dictionary/message-bus.ini
 reading sources... [ 53%] dictionary/message-queue.ini
-reading sources... [ 54%] dictionary/meta-object-protocol.ini
-reading sources... [ 54%] dictionary/metaclass.ini
+reading sources... [ 53%] dictionary/meta-object-protocol.ini
+reading sources... [ 53%] dictionary/metaclass.ini
 reading sources... [ 54%] dictionary/metaprogramming.ini
 reading sources... [ 54%] dictionary/method-collision.ini
 reading sources... [ 54%] dictionary/method-compatibility.ini
@@ -956,7 +962,7 @@ reading sources... [ 54%] dictionary/microservice.ini
 reading sources... [ 54%] dictionary/microtime.ini
 reading sources... [ 54%] dictionary/middleware.ini
 reading sources... [ 54%] dictionary/migration.ini
-reading sources... [ 55%] dictionary/minification.ini
+reading sources... [ 54%] dictionary/minification.ini
 reading sources... [ 55%] dictionary/minus-one.ini
 reading sources... [ 55%] dictionary/minus.ini
 reading sources... [ 55%] dictionary/missing-validation.ini
@@ -973,8 +979,9 @@ reading sources... [ 55%] dictionary/monitoring.ini
 reading sources... [ 55%] dictionary/monolith.ini
 reading sources... [ 55%] dictionary/monomorphization.ini
 reading sources... [ 55%] dictionary/move-semantics.ini
-reading sources... [ 56%] dictionary/mro.ini
-reading sources... [ 56%] dictionary/multi-byte.ini
+reading sources... [ 55%] dictionary/mro.ini
+reading sources... [ 55%] dictionary/multi-byte.ini
+reading sources... [ 56%] dictionary/multi-pass-algorithm.ini
 reading sources... [ 56%] dictionary/multidimensional-array.ini
 reading sources... [ 56%] dictionary/multiple-dispatch.ini
 reading sources... [ 56%] dictionary/multiple-return-value.ini
@@ -990,7 +997,7 @@ reading sources... [ 56%] dictionary/mysqli.ini
 reading sources... [ 56%] dictionary/mysqli_sql_exception.ini
 reading sources... [ 56%] dictionary/n-query.ini
 reading sources... [ 56%] dictionary/name-convention.ini
-reading sources... [ 57%] dictionary/name.ini
+reading sources... [ 56%] dictionary/name.ini
 reading sources... [ 57%] dictionary/named-constructor.ini
 reading sources... [ 57%] dictionary/named-parameter.ini
 reading sources... [ 57%] dictionary/named-return-value.ini
@@ -1008,7 +1015,7 @@ reading sources... [ 57%] dictionary/nativephp.ini
 reading sources... [ 57%] dictionary/needle.ini
 reading sources... [ 57%] dictionary/negative-index.ini
 reading sources... [ 57%] dictionary/nested-attribute.ini
-reading sources... [ 58%] dictionary/nesting.ini
+reading sources... [ 57%] dictionary/nesting.ini
 reading sources... [ 58%] dictionary/network.ini
 reading sources... [ 58%] dictionary/neural-network.ini
 reading sources... [ 58%] dictionary/neutral-element.ini
@@ -1018,6 +1025,7 @@ reading sources... [ 58%] dictionary/new-line.ini
 reading sources... [ 58%] dictionary/new-without-parenthesis.ini
 reading sources... [ 58%] dictionary/new.ini
 reading sources... [ 58%] dictionary/nodiscard.ini
+reading sources... [ 58%] dictionary/nominal-type.ini
 reading sources... [ 58%] dictionary/non-blocking.ini
 reading sources... [ 58%] dictionary/non-breakable-space.ini
 reading sources... [ 58%] dictionary/non-instantiable.ini
@@ -1025,7 +1033,7 @@ reading sources... [ 58%] dictionary/non-numeric.ini
 reading sources... [ 58%] dictionary/non-static.ini
 reading sources... [ 58%] dictionary/nonce.ini
 reading sources... [ 58%] dictionary/noop.ini
-reading sources... [ 59%] dictionary/noscream.ini
+reading sources... [ 58%] dictionary/noscream.ini
 reading sources... [ 59%] dictionary/nosql-database.ini
 reading sources... [ 59%] dictionary/not.ini
 reading sources... [ 59%] dictionary/notice.ini
@@ -1060,7 +1068,7 @@ reading sources... [ 60%] dictionary/octal-integer.ini
 reading sources... [ 60%] dictionary/offensive-programming.ini
 reading sources... [ 60%] dictionary/offset.ini
 reading sources... [ 60%] dictionary/on-premise-software.ini
-reading sources... [ 61%] dictionary/one-liner.ini
+reading sources... [ 60%] dictionary/one-liner.ini
 reading sources... [ 61%] dictionary/one-shot.ini
 reading sources... [ 61%] dictionary/one.ini
 reading sources... [ 61%] dictionary/onion-architecture.ini
@@ -1078,6 +1086,7 @@ reading sources... [ 61%] dictionary/operand.ini
 reading sources... [ 61%] dictionary/operator-overloading.ini
 reading sources... [ 61%] dictionary/operator-precedence.ini
 reading sources... [ 61%] dictionary/operator.ini
+reading sources... [ 62%] dictionary/opinionated.ini
 reading sources... [ 62%] dictionary/optimisation.ini
 reading sources... [ 62%] dictionary/option-type.ini
 reading sources... [ 62%] dictionary/option.ini
@@ -1112,7 +1121,7 @@ reading sources... [ 63%] dictionary/parameter.ini
 reading sources... [ 63%] dictionary/parent.ini
 reading sources... [ 63%] dictionary/parenthesis.ini
 reading sources... [ 63%] dictionary/parquet.ini
-reading sources... [ 63%] dictionary/parse.ini
+reading sources... [ 64%] dictionary/parse.ini
 reading sources... [ 64%] dictionary/parse_str.ini
 reading sources... [ 64%] dictionary/parse_url.ini
 reading sources... [ 64%] dictionary/parseerror.ini
@@ -1147,7 +1156,7 @@ reading sources... [ 65%] dictionary/phantom-type.ini
 reading sources... [ 65%] dictionary/phar.ini
 reading sources... [ 65%] dictionary/pharexception.ini
 reading sources... [ 65%] dictionary/php-ai-editor.ini
-reading sources... [ 66%] dictionary/php-attribute.ini
+reading sources... [ 65%] dictionary/php-attribute.ini
 reading sources... [ 66%] dictionary/php-constant.ini
 reading sources... [ 66%] dictionary/php-docker-container.ini
 reading sources... [ 66%] dictionary/php-editor.ini
@@ -1182,7 +1191,7 @@ reading sources... [ 67%] dictionary/pie.ini
 reading sources... [ 67%] dictionary/pipe-operator.ini
 reading sources... [ 67%] dictionary/pipe.ini
 reading sources... [ 67%] dictionary/pipeline.ini
-reading sources... [ 68%] dictionary/plain-text.ini
+reading sources... [ 67%] dictionary/plain-text.ini
 reading sources... [ 68%] dictionary/plugin.ini
 reading sources... [ 68%] dictionary/plus.ini
 reading sources... [ 68%] dictionary/png.ini
@@ -1217,7 +1226,7 @@ reading sources... [ 69%] dictionary/primitive-obsession.ini
 reading sources... [ 69%] dictionary/print.ini
 reading sources... [ 69%] dictionary/print_r.ini
 reading sources... [ 69%] dictionary/printf.ini
-reading sources... [ 70%] dictionary/privacy.ini
+reading sources... [ 69%] dictionary/privacy.ini
 reading sources... [ 70%] dictionary/private.ini
 reading sources... [ 70%] dictionary/procedural-programming.ini
 reading sources... [ 70%] dictionary/process.ini
@@ -1235,7 +1244,7 @@ reading sources... [ 70%] dictionary/protocol.ini
 reading sources... [ 70%] dictionary/proxy-class.ini
 reading sources... [ 70%] dictionary/proxy.ini
 reading sources... [ 70%] dictionary/pseudo-type.ini
-reading sources... [ 71%] dictionary/pseudo-variable.ini
+reading sources... [ 70%] dictionary/pseudo-variable.ini
 reading sources... [ 71%] dictionary/psr.ini
 reading sources... [ 71%] dictionary/public.ini
 reading sources... [ 71%] dictionary/pubsub.ini
@@ -1252,7 +1261,9 @@ reading sources... [ 71%] dictionary/quoted-printable.ini
 reading sources... [ 71%] dictionary/race-condition.ini
 reading sources... [ 71%] dictionary/raci.ini
 reading sources... [ 71%] dictionary/rag.ini
-reading sources... [ 72%] dictionary/railroad-programming.ini
+reading sources... [ 71%] dictionary/railroad-programming.ini
+reading sources... [ 72%] dictionary/rainbow-table.ini
+reading sources... [ 72%] dictionary/random-access.ini
 reading sources... [ 72%] dictionary/random.ini
 reading sources... [ 72%] dictionary/random_cryptosafeengine.ini
 reading sources... [ 72%] dictionary/random_engine.ini
@@ -1263,13 +1274,14 @@ reading sources... [ 72%] dictionary/rate-limit.ini
 reading sources... [ 72%] dictionary/rbac.ini
 reading sources... [ 72%] dictionary/rce.ini
 reading sources... [ 72%] dictionary/rdbms.ini
+reading sources... [ 72%] dictionary/rdf-triple-store.ini
 reading sources... [ 72%] dictionary/readability.ini
 reading sources... [ 72%] dictionary/readable.ini
 reading sources... [ 72%] dictionary/reading.ini
 reading sources... [ 72%] dictionary/readline.ini
 reading sources... [ 72%] dictionary/readonly.ini
-reading sources... [ 72%] dictionary/real-time.ini
-reading sources... [ 72%] dictionary/real.ini
+reading sources... [ 73%] dictionary/real-time.ini
+reading sources... [ 73%] dictionary/real.ini
 reading sources... [ 73%] dictionary/record-type.ini
 reading sources... [ 73%] dictionary/recursion.ini
 reading sources... [ 73%] dictionary/recursive-array.ini
@@ -1285,8 +1297,8 @@ reading sources... [ 73%] dictionary/refinement-type.ini
 reading sources... [ 73%] dictionary/reflection.ini
 reading sources... [ 73%] dictionary/reflectionexception.ini
 reading sources... [ 73%] dictionary/reflector.ini
-reading sources... [ 73%] dictionary/regex.ini
-reading sources... [ 73%] dictionary/regexploit.ini
+reading sources... [ 74%] dictionary/regex.ini
+reading sources... [ 74%] dictionary/regexploit.ini
 reading sources... [ 74%] dictionary/register-globals.ini
 reading sources... [ 74%] dictionary/register_argc_argv.ini
 reading sources... [ 74%] dictionary/registry.ini
@@ -1303,8 +1315,8 @@ reading sources... [ 74%] dictionary/render.ini
 reading sources... [ 74%] dictionary/renderer.ini
 reading sources... [ 74%] dictionary/repl.ini
 reading sources... [ 74%] dictionary/replay.ini
-reading sources... [ 74%] dictionary/request-response.ini
-reading sources... [ 74%] dictionary/request.ini
+reading sources... [ 75%] dictionary/request-response.ini
+reading sources... [ 75%] dictionary/request.ini
 reading sources... [ 75%] dictionary/reserved-name.ini
 reading sources... [ 75%] dictionary/resilience.ini
 reading sources... [ 75%] dictionary/resource-leak.ini
@@ -1321,7 +1333,7 @@ reading sources... [ 75%] dictionary/return.ini
 reading sources... [ 75%] dictionary/returntypewillchange.ini
 reading sources... [ 75%] dictionary/reverse-regex.ini
 reading sources... [ 75%] dictionary/revision.ini
-reading sources... [ 75%] dictionary/rfc.ini
+reading sources... [ 76%] dictionary/rfc.ini
 reading sources... [ 76%] dictionary/rfchange.ini
 reading sources... [ 76%] dictionary/rfu.ini
 reading sources... [ 76%] dictionary/rich-domain-model.ini
@@ -1338,7 +1350,7 @@ reading sources... [ 76%] dictionary/rubber-ducking.ini
 reading sources... [ 76%] dictionary/runtime-checks.ini
 reading sources... [ 76%] dictionary/saas.ini
 reading sources... [ 76%] dictionary/sandbox.ini
-reading sources... [ 76%] dictionary/sanitation.ini
+reading sources... [ 77%] dictionary/sanitation.ini
 reading sources... [ 77%] dictionary/sapi.ini
 reading sources... [ 77%] dictionary/sast.ini
 reading sources... [ 77%] dictionary/sbom.ini
@@ -1356,7 +1368,7 @@ reading sources... [ 77%] dictionary/sealed-class.ini
 reading sources... [ 77%] dictionary/search-engine.ini
 reading sources... [ 77%] dictionary/second-order-sql-injection.ini
 reading sources... [ 77%] dictionary/secret.ini
-reading sources... [ 77%] dictionary/security.ini
+reading sources... [ 78%] dictionary/security.ini
 reading sources... [ 78%] dictionary/seekableiterator.ini
 reading sources... [ 78%] dictionary/segmentation-fault.ini
 reading sources... [ 78%] dictionary/self-documenting.ini
@@ -1367,13 +1379,14 @@ reading sources... [ 78%] dictionary/semantic-versioning.ini
 reading sources... [ 78%] dictionary/semantics.ini
 reading sources... [ 78%] dictionary/semicolon.ini
 reading sources... [ 78%] dictionary/sensitiveparameter.ini
+reading sources... [ 78%] dictionary/sentinel.ini
 reading sources... [ 78%] dictionary/seo.ini
 reading sources... [ 78%] dictionary/separation-of-concerns.ini
 reading sources... [ 78%] dictionary/separator.ini
 reading sources... [ 78%] dictionary/sequence.ini
 reading sources... [ 78%] dictionary/serde.ini
-reading sources... [ 78%] dictionary/serializable.ini
-reading sources... [ 78%] dictionary/serialization.ini
+reading sources... [ 79%] dictionary/serializable.ini
+reading sources... [ 79%] dictionary/serialization.ini
 reading sources... [ 79%] dictionary/serialize_precision.ini
 reading sources... [ 79%] dictionary/server-architecture.ini
 reading sources... [ 79%] dictionary/server.ini
@@ -1390,8 +1403,8 @@ reading sources... [ 79%] dictionary/sessionidinterface.ini
 reading sources... [ 79%] dictionary/sessionupdatetimestamphandlerinterface.ini
 reading sources... [ 79%] dictionary/set.ini
 reading sources... [ 79%] dictionary/set_error_handler.ini
-reading sources... [ 79%] dictionary/setlocale.ini
-reading sources... [ 79%] dictionary/setter.ini
+reading sources... [ 80%] dictionary/setlocale.ini
+reading sources... [ 80%] dictionary/setter.ini
 reading sources... [ 80%] dictionary/sha.ini
 reading sources... [ 80%] dictionary/shallow-clone.ini
 reading sources... [ 80%] dictionary/shard.ini
@@ -1407,8 +1420,8 @@ reading sources... [ 80%] dictionary/short-syntax.ini
 reading sources... [ 80%] dictionary/short-tag.ini
 reading sources... [ 80%] dictionary/short-ternary.ini
 reading sources... [ 80%] dictionary/short_open_tag.ini
-reading sources... [ 80%] dictionary/shutdown-function.ini
-reading sources... [ 80%] dictionary/side-effect.ini
+reading sources... [ 81%] dictionary/shutdown-function.ini
+reading sources... [ 81%] dictionary/side-effect.ini
 reading sources... [ 81%] dictionary/sign.ini
 reading sources... [ 81%] dictionary/signature.ini
 reading sources... [ 81%] dictionary/signed-integer.ini
@@ -1425,8 +1438,8 @@ reading sources... [ 81%] dictionary/sleep.ini
 reading sources... [ 81%] dictionary/slim.ini
 reading sources... [ 81%] dictionary/slug.ini
 reading sources... [ 81%] dictionary/smart-cast.ini
-reading sources... [ 81%] dictionary/smtp.ini
-reading sources... [ 81%] dictionary/snake-case.ini
+reading sources... [ 82%] dictionary/smtp.ini
+reading sources... [ 82%] dictionary/snake-case.ini
 reading sources... [ 82%] dictionary/snapshot.ini
 reading sources... [ 82%] dictionary/snmp.ini
 reading sources... [ 82%] dictionary/snmp3.ini
@@ -1443,7 +1456,7 @@ reading sources... [ 82%] dictionary/space.ini
 reading sources... [ 82%] dictionary/spaceship.ini
 reading sources... [ 82%] dictionary/special-constant.ini
 reading sources... [ 82%] dictionary/special-typehint.ini
-reading sources... [ 82%] dictionary/specification.ini
+reading sources... [ 83%] dictionary/specification.ini
 reading sources... [ 83%] dictionary/spiral.ini
 reading sources... [ 83%] dictionary/spl.ini
 reading sources... [ 83%] dictionary/spldoublylinkedlist.ini
@@ -1460,8 +1473,8 @@ reading sources... [ 83%] dictionary/sql-database.ini
 reading sources... [ 83%] dictionary/sql-injection.ini
 reading sources... [ 83%] dictionary/sql.ini
 reading sources... [ 83%] dictionary/sqlite3.ini
-reading sources... [ 83%] dictionary/sqrt.ini
-reading sources... [ 83%] dictionary/square-bracket.ini
+reading sources... [ 84%] dictionary/sqrt.ini
+reading sources... [ 84%] dictionary/square-bracket.ini
 reading sources... [ 84%] dictionary/srp.ini
 reading sources... [ 84%] dictionary/ssa.ini
 reading sources... [ 84%] dictionary/sscanf.ini
@@ -1478,7 +1491,7 @@ reading sources... [ 84%] dictionary/state.ini
 reading sources... [ 84%] dictionary/stateful.ini
 reading sources... [ 84%] dictionary/stateless.ini
 reading sources... [ 84%] dictionary/statement.ini
-reading sources... [ 84%] dictionary/static-call.ini
+reading sources... [ 85%] dictionary/static-call.ini
 reading sources... [ 85%] dictionary/static-class.ini
 reading sources... [ 85%] dictionary/static-expression.ini
 reading sources... [ 85%] dictionary/static-method.ini
@@ -1495,7 +1508,7 @@ reading sources... [ 85%] dictionary/str_starts_with.ini
 reading sources... [ 85%] dictionary/stream.ini
 reading sources... [ 85%] dictionary/streamlining.ini
 reading sources... [ 85%] dictionary/strict-comparison.ini
-reading sources... [ 85%] dictionary/strict.ini
+reading sources... [ 86%] dictionary/strict.ini
 reading sources... [ 86%] dictionary/strict_types.ini
 reading sources... [ 86%] dictionary/string-increment.ini
 reading sources... [ 86%] dictionary/string-interpolation.ini
@@ -1513,7 +1526,7 @@ reading sources... [ 86%] dictionary/stubs.ini
 reading sources... [ 86%] dictionary/sub.ini
 reading sources... [ 86%] dictionary/subclass.ini
 reading sources... [ 86%] dictionary/subnamespace.ini
-reading sources... [ 86%] dictionary/subtype.ini
+reading sources... [ 87%] dictionary/subtype.ini
 reading sources... [ 87%] dictionary/suffix.ini
 reading sources... [ 87%] dictionary/sum-type.ini
 reading sources... [ 87%] dictionary/sunsetting.ini
@@ -1548,10 +1561,11 @@ reading sources... [ 88%] dictionary/tcp.ini
 reading sources... [ 88%] dictionary/tech-island.ini
 reading sources... [ 88%] dictionary/tech-silo.ini
 reading sources... [ 88%] dictionary/technical-reference.ini
-reading sources... [ 88%] dictionary/telemetry.ini
+reading sources... [ 89%] dictionary/telemetry.ini
 reading sources... [ 89%] dictionary/tempest.ini
 reading sources... [ 89%] dictionary/template-metaprogramming.ini
 reading sources... [ 89%] dictionary/template.ini
+reading sources... [ 89%] dictionary/temporal-replay.ini
 reading sources... [ 89%] dictionary/temporary-expression.ini
 reading sources... [ 89%] dictionary/temporary.ini
 reading sources... [ 89%] dictionary/ternary.ini
@@ -1565,7 +1579,7 @@ reading sources... [ 89%] dictionary/text.ini
 reading sources... [ 89%] dictionary/thin-method.ini
 reading sources... [ 89%] dictionary/thin.ini
 reading sources... [ 89%] dictionary/thread.ini
-reading sources... [ 89%] dictionary/three-dots.ini
+reading sources... [ 90%] dictionary/three-dots.ini
 reading sources... [ 90%] dictionary/throughput.ini
 reading sources... [ 90%] dictionary/throw.ini
 reading sources... [ 90%] dictionary/throwable.ini
@@ -1582,8 +1596,8 @@ reading sources... [ 90%] dictionary/tokenizer.ini
 reading sources... [ 90%] dictionary/toml.ini
 reading sources... [ 90%] dictionary/tool.ini
 reading sources... [ 90%] dictionary/toon.ini
-reading sources... [ 90%] dictionary/trace.ini
-reading sources... [ 90%] dictionary/trailing-comma.ini
+reading sources... [ 91%] dictionary/trace.ini
+reading sources... [ 91%] dictionary/trailing-comma.ini
 reading sources... [ 91%] dictionary/trait.ini
 reading sources... [ 91%] dictionary/transaction.ini
 reading sources... [ 91%] dictionary/transpile.ini
@@ -1600,7 +1614,7 @@ reading sources... [ 91%] dictionary/truthy.ini
 reading sources... [ 91%] dictionary/try-catch.ini
 reading sources... [ 91%] dictionary/ttl.ini
 reading sources... [ 91%] dictionary/tui.ini
-reading sources... [ 91%] dictionary/tuple.ini
+reading sources... [ 92%] dictionary/tuple.ini
 reading sources... [ 92%] dictionary/tutorial.ini
 reading sources... [ 92%] dictionary/type-checking.ini
 reading sources... [ 92%] dictionary/type-class.ini
@@ -1618,7 +1632,7 @@ reading sources... [ 92%] dictionary/type.ini
 reading sources... [ 92%] dictionary/typed-constant.ini
 reading sources... [ 92%] dictionary/typed-property.ini
 reading sources... [ 92%] dictionary/typeerror.ini
-reading sources... [ 92%] dictionary/typerror.ini
+reading sources... [ 93%] dictionary/typerror.ini
 reading sources... [ 93%] dictionary/typo.ini
 reading sources... [ 93%] dictionary/udp.ini
 reading sources... [ 93%] dictionary/ulid.ini
@@ -1635,7 +1649,7 @@ reading sources... [ 93%] dictionary/union-type.ini
 reading sources... [ 93%] dictionary/unique-identifier.ini
 reading sources... [ 93%] dictionary/unique.ini
 reading sources... [ 93%] dictionary/unit-test.ini
-reading sources... [ 93%] dictionary/unitenum.ini
+reading sources... [ 94%] dictionary/unitenum.ini
 reading sources... [ 94%] dictionary/unpacking.ini
 reading sources... [ 94%] dictionary/unreachable-code.ini
 reading sources... [ 94%] dictionary/unserialize.ini
@@ -1653,7 +1667,7 @@ reading sources... [ 94%] dictionary/use-trait.ini
 reading sources... [ 94%] dictionary/use.ini
 reading sources... [ 94%] dictionary/used.ini
 reading sources... [ 94%] dictionary/useless.ini
-reading sources... [ 94%] dictionary/userland.ini
+reading sources... [ 95%] dictionary/userland.ini
 reading sources... [ 95%] dictionary/utf-8.ini
 reading sources... [ 95%] dictionary/uuencode.ini
 reading sources... [ 95%] dictionary/uuid.ini
@@ -1670,7 +1684,7 @@ reading sources... [ 95%] dictionary/variable-scope.ini
 reading sources... [ 95%] dictionary/variable-shadowing.ini
 reading sources... [ 95%] dictionary/variable-variable.ini
 reading sources... [ 95%] dictionary/variable.ini
-reading sources... [ 95%] dictionary/variable_order.ini
+reading sources... [ 96%] dictionary/variable_order.ini
 reading sources... [ 96%] dictionary/variadic.ini
 reading sources... [ 96%] dictionary/vcs-commit.ini
 reading sources... [ 96%] dictionary/vcs.ini
@@ -1751,6 +1765,7 @@ reading sources... [100%] introduction
 reading sources... [100%] list
 reading sources... [100%] thesaurus
 
+/Users/famille/Desktop/php-dictionary/dictionary/antlr4.ini.rst:24: WARNING: Duplicate explicit target name: "antlr". [docutils]
 /Users/famille/Desktop/php-dictionary/dictionary/code-generation.ini.rst:25: WARNING: Duplicate explicit target name: "nikic/php-parser". [docutils]
 /Users/famille/Desktop/php-dictionary/dictionary/code-generation.ini.rst:25: WARNING: Duplicate explicit target name: "ocramius/proxy-manager". [docutils]
 /Users/famille/Desktop/php-dictionary/dictionary/escapeshellcmd.ini.rst:25: WARNING: Inline literal start-string without end-string. [docutils]
@@ -1855,6 +1870,7 @@ writing output... [  4%] dictionary/anonymous-constant.ini
 writing output... [  4%] dictionary/anonymous-function.ini
 writing output... [  4%] dictionary/anonymous.ini
 writing output... [  4%] dictionary/anti-pattern.ini
+writing output... [  4%] dictionary/antlr4.ini
 writing output... [  4%] dictionary/aot.ini
 writing output... [  5%] dictionary/api-gateway.ini
 writing output... [  5%] dictionary/api.ini
@@ -1885,12 +1901,14 @@ writing output... [  6%] dictionary/array.ini
 writing output... [  6%] dictionary/array_column.ini
 writing output... [  6%] dictionary/array_combine.ini
 writing output... [  6%] dictionary/array_fill.ini
+writing output... [  6%] dictionary/array_find.ini
+writing output... [  6%] dictionary/array_find_key.ini
 writing output... [  6%] dictionary/array_key_exists.ini
 writing output... [  6%] dictionary/array_keys.ini
 writing output... [  6%] dictionary/array_map.ini
 writing output... [  6%] dictionary/array_merge.ini
-writing output... [  6%] dictionary/array_pad.ini
-writing output... [  6%] dictionary/array_pop.ini
+writing output... [  7%] dictionary/array_pad.ini
+writing output... [  7%] dictionary/array_pop.ini
 writing output... [  7%] dictionary/array_push.ini
 writing output... [  7%] dictionary/array_search.ini
 writing output... [  7%] dictionary/array_shift.ini
@@ -1906,8 +1924,8 @@ writing output... [  7%] dictionary/arrow-function.ini
 writing output... [  7%] dictionary/artifact.ini
 writing output... [  7%] dictionary/as.ini
 writing output... [  7%] dictionary/ascii.ini
-writing output... [  7%] dictionary/aspect-oriented.ini
-writing output... [  7%] dictionary/aspect-programming.ini
+writing output... [  8%] dictionary/aspect-oriented.ini
+writing output... [  8%] dictionary/aspect-programming.ini
 writing output... [  8%] dictionary/assertion.ini
 writing output... [  8%] dictionary/asset.ini
 writing output... [  8%] dictionary/assignation.ini
@@ -1924,8 +1942,8 @@ writing output... [  8%] dictionary/attack-surface.ini
 writing output... [  8%] dictionary/attack.ini
 writing output... [  8%] dictionary/attribute-class.ini
 writing output... [  8%] dictionary/attribute.ini
-writing output... [  8%] dictionary/audit-trail.ini
-writing output... [  8%] dictionary/audit.ini
+writing output... [  9%] dictionary/audit-trail.ini
+writing output... [  9%] dictionary/audit.ini
 writing output... [  9%] dictionary/authentication.ini
 writing output... [  9%] dictionary/authorize.ini
 writing output... [  9%] dictionary/auto_prepend_file.ini
@@ -1942,7 +1960,7 @@ writing output... [  9%] dictionary/backed-property.ini
 writing output... [  9%] dictionary/backed.ini
 writing output... [  9%] dictionary/backedenum.ini
 writing output... [  9%] dictionary/backend.ini
-writing output... [  9%] dictionary/backtick.ini
+writing output... [ 10%] dictionary/backtick.ini
 writing output... [ 10%] dictionary/backtrace.ini
 writing output... [ 10%] dictionary/backward-compatible.ini
 writing output... [ 10%] dictionary/backward-incompatible.ini
@@ -1959,8 +1977,8 @@ writing output... [ 10%] dictionary/benchmarking.ini
 writing output... [ 10%] dictionary/best-practice.ini
 writing output... [ 10%] dictionary/big-o-notation.ini
 writing output... [ 10%] dictionary/binary-integer.ini
-writing output... [ 10%] dictionary/binary-not.ini
-writing output... [ 10%] dictionary/binary-operator.ini
+writing output... [ 11%] dictionary/binary-not.ini
+writing output... [ 11%] dictionary/binary-operator.ini
 writing output... [ 11%] dictionary/binary.ini
 writing output... [ 11%] dictionary/bind.ini
 writing output... [ 11%] dictionary/bitfield.ini
@@ -1977,7 +1995,7 @@ writing output... [ 11%] dictionary/boilerplate.ini
 writing output... [ 11%] dictionary/bola.ini
 writing output... [ 11%] dictionary/boolean.ini
 writing output... [ 11%] dictionary/bootstrap.ini
-writing output... [ 11%] dictionary/borrow-checking.ini
+writing output... [ 12%] dictionary/borrow-checking.ini
 writing output... [ 12%] dictionary/bottleneck.ini
 writing output... [ 12%] dictionary/bracket.ini
 writing output... [ 12%] dictionary/bracketless.ini
@@ -1994,8 +2012,8 @@ writing output... [ 12%] dictionary/business-logic.ini
 writing output... [ 12%] dictionary/by-reference.ini
 writing output... [ 12%] dictionary/by-value.ini
 writing output... [ 12%] dictionary/byte.ini
-writing output... [ 12%] dictionary/bzip2.ini
-writing output... [ 12%] dictionary/c10k.ini
+writing output... [ 13%] dictionary/bzip2.ini
+writing output... [ 13%] dictionary/c10k.ini
 writing output... [ 13%] dictionary/c2-framework.ini
 writing output... [ 13%] dictionary/cache-stampede.ini
 writing output... [ 13%] dictionary/cache.ini
@@ -2006,13 +2024,14 @@ writing output... [ 13%] dictionary/callable.ini
 writing output... [ 13%] dictionary/callback.ini
 writing output... [ 13%] dictionary/callstack.ini
 writing output... [ 13%] dictionary/camel-case.ini
+writing output... [ 13%] dictionary/canary.ini
 writing output... [ 13%] dictionary/cancellation.ini
 writing output... [ 13%] dictionary/canonical.ini
 writing output... [ 13%] dictionary/cap-theorem.ini
 writing output... [ 13%] dictionary/captcha.ini
 writing output... [ 13%] dictionary/carriage-return.ini
-writing output... [ 13%] dictionary/case-sensitivity.ini
-writing output... [ 13%] dictionary/case.ini
+writing output... [ 14%] dictionary/case-sensitivity.ini
+writing output... [ 14%] dictionary/case.ini
 writing output... [ 14%] dictionary/cast.ini
 writing output... [ 14%] dictionary/catch.ini
 writing output... [ 14%] dictionary/cd.ini
@@ -2029,8 +2048,8 @@ writing output... [ 14%] dictionary/child-class.ini
 writing output... [ 14%] dictionary/ci.ini
 writing output... [ 14%] dictionary/circuit-breaker.ini
 writing output... [ 14%] dictionary/circular-reference.ini
-writing output... [ 14%] dictionary/cite.ini
-writing output... [ 14%] dictionary/class-alias.ini
+writing output... [ 15%] dictionary/cite.ini
+writing output... [ 15%] dictionary/class-alias.ini
 writing output... [ 15%] dictionary/class-constant-syntax.ini
 writing output... [ 15%] dictionary/class-constant-visibility.ini
 writing output... [ 15%] dictionary/class-constant.ini
@@ -2046,8 +2065,8 @@ writing output... [ 15%] dictionary/clean-architecture.ini
 writing output... [ 15%] dictionary/clean-code.ini
 writing output... [ 15%] dictionary/cli.ini
 writing output... [ 15%] dictionary/client.ini
-writing output... [ 15%] dictionary/clock.ini
-writing output... [ 15%] dictionary/clone.ini
+writing output... [ 16%] dictionary/clock.ini
+writing output... [ 16%] dictionary/clone.ini
 writing output... [ 16%] dictionary/close-naming.ini
 writing output... [ 16%] dictionary/close-tag.ini
 writing output... [ 16%] dictionary/closed-source.ini
@@ -2064,7 +2083,7 @@ writing output... [ 16%] dictionary/code-formatter.ini
 writing output... [ 16%] dictionary/code-formatting.ini
 writing output... [ 16%] dictionary/code-freeze.ini
 writing output... [ 16%] dictionary/code-generation.ini
-writing output... [ 16%] dictionary/code-generator.ini
+writing output... [ 17%] dictionary/code-generator.ini
 writing output... [ 17%] dictionary/code-injection.ini
 writing output... [ 17%] dictionary/code-reuse.ini
 writing output... [ 17%] dictionary/code-review.ini
@@ -2081,8 +2100,8 @@ writing output... [ 17%] dictionary/column-database.ini
 writing output... [ 17%] dictionary/comma.ini
 writing output... [ 17%] dictionary/command-bus.ini
 writing output... [ 17%] dictionary/command.ini
-writing output... [ 17%] dictionary/comment.ini
-writing output... [ 17%] dictionary/commit.ini
+writing output... [ 18%] dictionary/comment.ini
+writing output... [ 18%] dictionary/commit.ini
 writing output... [ 18%] dictionary/community.ini
 writing output... [ 18%] dictionary/compact-array.ini
 writing output... [ 18%] dictionary/compact.ini
@@ -2099,7 +2118,7 @@ writing output... [ 18%] dictionary/composer.ini
 writing output... [ 18%] dictionary/composite-type.ini
 writing output... [ 18%] dictionary/composition.ini
 writing output... [ 18%] dictionary/compression.ini
-writing output... [ 18%] dictionary/computed-property.ini
+writing output... [ 19%] dictionary/computed-property.ini
 writing output... [ 19%] dictionary/concatenation.ini
 writing output... [ 19%] dictionary/concatenative.ini
 writing output... [ 19%] dictionary/concrete-method.ini
@@ -2117,7 +2136,7 @@ writing output... [ 19%] dictionary/const.ini
 writing output... [ 19%] dictionary/constant-case.ini
 writing output... [ 19%] dictionary/constant-combinaison.ini
 writing output... [ 19%] dictionary/constant-expression.ini
-writing output... [ 19%] dictionary/constant-function.ini
+writing output... [ 20%] dictionary/constant-function.ini
 writing output... [ 20%] dictionary/constant-in-trait.ini
 writing output... [ 20%] dictionary/constant-scalar-expression.ini
 writing output... [ 20%] dictionary/constant.ini
@@ -2134,7 +2153,7 @@ writing output... [ 20%] dictionary/control-flow.ini
 writing output... [ 20%] dictionary/control-structure.ini
 writing output... [ 20%] dictionary/controller.ini
 writing output... [ 20%] dictionary/convention.ini
-writing output... [ 20%] dictionary/convert.ini
+writing output... [ 21%] dictionary/convert.ini
 writing output... [ 21%] dictionary/cookie.ini
 writing output... [ 21%] dictionary/copy-on-write.ini
 writing output... [ 21%] dictionary/core.ini
@@ -2152,7 +2171,7 @@ writing output... [ 21%] dictionary/cron.ini
 writing output... [ 21%] dictionary/cross-cutting-concerns.ini
 writing output... [ 21%] dictionary/crud.ini
 writing output... [ 21%] dictionary/crypt.ini
-writing output... [ 21%] dictionary/cryptography.ini
+writing output... [ 22%] dictionary/cryptography.ini
 writing output... [ 22%] dictionary/csrf.ini
 writing output... [ 22%] dictionary/css.ini
 writing output... [ 22%] dictionary/csv-injection.ini
@@ -2169,7 +2188,7 @@ writing output... [ 22%] dictionary/cvs.ini
 writing output... [ 22%] dictionary/cyclomatic-complexity.ini
 writing output... [ 22%] dictionary/dangling-reference.ini
 writing output... [ 22%] dictionary/dao.ini
-writing output... [ 22%] dictionary/data-container.ini
+writing output... [ 23%] dictionary/data-container.ini
 writing output... [ 23%] dictionary/data-flow-analysis.ini
 writing output... [ 23%] dictionary/data-leak.ini
 writing output... [ 23%] dictionary/data-mapper.ini
@@ -2187,7 +2206,7 @@ writing output... [ 23%] dictionary/datetimeinterface.ini
 writing output... [ 23%] dictionary/day-in-seconds.ini
 writing output... [ 23%] dictionary/days-in-month.ini
 writing output... [ 23%] dictionary/dba.ini
-writing output... [ 23%] dictionary/dbal.ini
+writing output... [ 24%] dictionary/dbal.ini
 writing output... [ 24%] dictionary/ddd.ini
 writing output... [ 24%] dictionary/ddos.ini
 writing output... [ 24%] dictionary/dead-code.ini
@@ -2204,7 +2223,7 @@ writing output... [ 24%] dictionary/decorator.ini
 writing output... [ 24%] dictionary/decoupling.ini
 writing output... [ 24%] dictionary/decrypt.ini
 writing output... [ 24%] dictionary/deduplication.ini
-writing output... [ 24%] dictionary/deep-clone.ini
+writing output... [ 25%] dictionary/deep-clone.ini
 writing output... [ 25%] dictionary/default-parameter.ini
 writing output... [ 25%] dictionary/default-value.ini
 writing output... [ 25%] dictionary/default.ini
@@ -2261,6 +2280,7 @@ writing output... [ 28%] dictionary/docblock.ini
 writing output... [ 28%] dictionary/docker-container.ini
 writing output... [ 28%] dictionary/docker-image.ini
 writing output... [ 28%] dictionary/docker.ini
+writing output... [ 28%] dictionary/doctrine.ini
 writing output... [ 28%] dictionary/document-database.ini
 writing output... [ 28%] dictionary/documentation.ini
 writing output... [ 28%] dictionary/dollar.ini
@@ -2274,7 +2294,7 @@ writing output... [ 28%] dictionary/domxml.ini
 writing output... [ 28%] dictionary/dot-directory.ini
 writing output... [ 28%] dictionary/dot-dot-directory.ini
 writing output... [ 28%] dictionary/dot-file.ini
-writing output... [ 28%] dictionary/dot-notation.ini
+writing output... [ 29%] dictionary/dot-notation.ini
 writing output... [ 29%] dictionary/double-arrow.ini
 writing output... [ 29%] dictionary/double-check.ini
 writing output... [ 29%] dictionary/double-quote.ini
@@ -2291,7 +2311,7 @@ writing output... [ 29%] dictionary/dynamic-call.ini
 writing output... [ 29%] dictionary/dynamic-class-constant.ini
 writing output... [ 29%] dictionary/dynamic-class.ini
 writing output... [ 29%] dictionary/dynamic-constant.ini
-writing output... [ 29%] dictionary/dynamic-expression.ini
+writing output... [ 30%] dictionary/dynamic-expression.ini
 writing output... [ 30%] dictionary/dynamic-loading.ini
 writing output... [ 30%] dictionary/dynamic-method.ini
 writing output... [ 30%] dictionary/dynamic-property.ini
@@ -2309,7 +2329,7 @@ writing output... [ 30%] dictionary/edge-triggered.ini
 writing output... [ 30%] dictionary/effect-system.ini
 writing output... [ 30%] dictionary/elephpant.ini
 writing output... [ 30%] dictionary/ellipsis.ini
-writing output... [ 30%] dictionary/email.ini
+writing output... [ 31%] dictionary/email.ini
 writing output... [ 31%] dictionary/embed.ini
 writing output... [ 31%] dictionary/emoji.ini
 writing output... [ 31%] dictionary/empty-string.ini
@@ -2344,7 +2364,7 @@ writing output... [ 32%] dictionary/escapeshellcmd.ini
 writing output... [ 32%] dictionary/eval.ini
 writing output... [ 32%] dictionary/event-driven.ini
 writing output... [ 32%] dictionary/event-loop.ini
-writing output... [ 32%] dictionary/event-replay.ini
+writing output... [ 33%] dictionary/event-replay.ini
 writing output... [ 33%] dictionary/event-sourcing.ini
 writing output... [ 33%] dictionary/event-store.ini
 writing output... [ 33%] dictionary/event-storming.ini
@@ -2379,7 +2399,7 @@ writing output... [ 34%] dictionary/factory.ini
 writing output... [ 34%] dictionary/faker.ini
 writing output... [ 34%] dictionary/fallback-function.ini
 writing output... [ 34%] dictionary/fallback-to-global.ini
-writing output... [ 34%] dictionary/fallback.ini
+writing output... [ 35%] dictionary/fallback.ini
 writing output... [ 35%] dictionary/fallthrough.ini
 writing output... [ 35%] dictionary/false.ini
 writing output... [ 35%] dictionary/falsy.ini
@@ -2414,7 +2434,7 @@ writing output... [ 36%] dictionary/fixture.ini
 writing output... [ 36%] dictionary/flag.ini
 writing output... [ 36%] dictionary/flamegraph.ini
 writing output... [ 36%] dictionary/flexibility.ini
-writing output... [ 37%] dictionary/float.ini
+writing output... [ 36%] dictionary/float.ini
 writing output... [ 37%] dictionary/fluent-interface.ini
 writing output... [ 37%] dictionary/fnmatch.ini
 writing output... [ 37%] dictionary/folklore.ini
@@ -2449,7 +2469,7 @@ writing output... [ 38%] dictionary/get_class.ini
 writing output... [ 38%] dictionary/get_class_vars.ini
 writing output... [ 38%] dictionary/get_object_vars.ini
 writing output... [ 38%] dictionary/getter.ini
-writing output... [ 39%] dictionary/gettext.ini
+writing output... [ 38%] dictionary/gettext.ini
 writing output... [ 39%] dictionary/gif.ini
 writing output... [ 39%] dictionary/git-hook.ini
 writing output... [ 39%] dictionary/git.ini
@@ -2481,6 +2501,7 @@ writing output... [ 40%] dictionary/hash-character.ini
 writing output... [ 40%] dictionary/hash-comparison.ini
 writing output... [ 40%] dictionary/hash-crypto.ini
 writing output... [ 40%] dictionary/hash-function.ini
+writing output... [ 40%] dictionary/hash-table.ini
 writing output... [ 40%] dictionary/hash.ini
 writing output... [ 40%] dictionary/hash_equals.ini
 writing output... [ 40%] dictionary/haystack.ini
@@ -2501,7 +2522,7 @@ writing output... [ 41%] dictionary/hook.ini
 writing output... [ 41%] dictionary/horizontal-scaling.ini
 writing output... [ 41%] dictionary/hosting.ini
 writing output... [ 41%] dictionary/hrtime.ini
-writing output... [ 41%] dictionary/htaccess.ini
+writing output... [ 42%] dictionary/htaccess.ini
 writing output... [ 42%] dictionary/html-entities.ini
 writing output... [ 42%] dictionary/html-entity.ini
 writing output... [ 42%] dictionary/html.ini
@@ -2571,7 +2592,7 @@ writing output... [ 45%] dictionary/initialisation.ini
 writing output... [ 45%] dictionary/injection.ini
 writing output... [ 45%] dictionary/inline-assembly.ini
 writing output... [ 45%] dictionary/inlining.ini
-writing output... [ 46%] dictionary/insecure-deserialization.ini
+writing output... [ 45%] dictionary/insecure-deserialization.ini
 writing output... [ 46%] dictionary/instance.ini
 writing output... [ 46%] dictionary/instanceof.ini
 writing output... [ 46%] dictionary/insteadof.ini
@@ -2606,7 +2627,7 @@ writing output... [ 47%] dictionary/iteratoraggregate.ini
 writing output... [ 47%] dictionary/javascript.ini
 writing output... [ 47%] dictionary/jit.ini
 writing output... [ 47%] dictionary/jobqueue.ini
-writing output... [ 48%] dictionary/jpg.ini
+writing output... [ 47%] dictionary/jpg.ini
 writing output... [ 48%] dictionary/json.ini
 writing output... [ 48%] dictionary/json_decode.ini
 writing output... [ 48%] dictionary/json_encode.ini
@@ -2624,7 +2645,7 @@ writing output... [ 48%] dictionary/label.ini
 writing output... [ 48%] dictionary/lamp.ini
 writing output... [ 48%] dictionary/language-construct.ini
 writing output... [ 48%] dictionary/language-service-protocol.ini
-writing output... [ 49%] dictionary/laravel.ini
+writing output... [ 48%] dictionary/laravel.ini
 writing output... [ 49%] dictionary/late-static-binding.ini
 writing output... [ 49%] dictionary/latency.ini
 writing output... [ 49%] dictionary/latin1.ini
@@ -2641,7 +2662,7 @@ writing output... [ 49%] dictionary/legacy.ini
 writing output... [ 49%] dictionary/lemp.ini
 writing output... [ 49%] dictionary/lengthexception.ini
 writing output... [ 49%] dictionary/letter-logical.ini
-writing output... [ 50%] dictionary/lexical-analysis.ini
+writing output... [ 49%] dictionary/lexical-analysis.ini
 writing output... [ 50%] dictionary/lexical.ini
 writing output... [ 50%] dictionary/library-loading.ini
 writing output... [ 50%] dictionary/library.ini
@@ -2659,7 +2680,7 @@ writing output... [ 50%] dictionary/list-comprehension.ini
 writing output... [ 50%] dictionary/list.ini
 writing output... [ 50%] dictionary/listener.ini
 writing output... [ 50%] dictionary/literal-types.ini
-writing output... [ 51%] dictionary/literal.ini
+writing output... [ 50%] dictionary/literal.ini
 writing output... [ 51%] dictionary/llm.ini
 writing output... [ 51%] dictionary/load-balancer.ini
 writing output... [ 51%] dictionary/local-file-inclusion.ini
@@ -2676,7 +2697,7 @@ writing output... [ 51%] dictionary/look-up.ini
 writing output... [ 51%] dictionary/loop.ini
 writing output... [ 51%] dictionary/lossless.ini
 writing output... [ 51%] dictionary/lossy.ini
-writing output... [ 52%] dictionary/lsp.ini
+writing output... [ 51%] dictionary/lsp.ini
 writing output... [ 52%] dictionary/machine-learning.ini
 writing output... [ 52%] dictionary/macro.ini
 writing output... [ 52%] dictionary/magento.ini
@@ -2694,7 +2715,7 @@ writing output... [ 52%] dictionary/maintenance.ini
 writing output... [ 52%] dictionary/makefile.ini
 writing output... [ 52%] dictionary/man-in-the-middle.ini
 writing output... [ 52%] dictionary/map.ini
-writing output... [ 53%] dictionary/markdown.ini
+writing output... [ 52%] dictionary/markdown.ini
 writing output... [ 53%] dictionary/marketplace.ini
 writing output... [ 53%] dictionary/match.ini
 writing output... [ 53%] dictionary/math.ini
@@ -2711,8 +2732,8 @@ writing output... [ 53%] dictionary/memory_limit.ini
 writing output... [ 53%] dictionary/merge.ini
 writing output... [ 53%] dictionary/message-bus.ini
 writing output... [ 53%] dictionary/message-queue.ini
-writing output... [ 54%] dictionary/meta-object-protocol.ini
-writing output... [ 54%] dictionary/metaclass.ini
+writing output... [ 53%] dictionary/meta-object-protocol.ini
+writing output... [ 53%] dictionary/metaclass.ini
 writing output... [ 54%] dictionary/metaprogramming.ini
 writing output... [ 54%] dictionary/method-collision.ini
 writing output... [ 54%] dictionary/method-compatibility.ini
@@ -2729,7 +2750,7 @@ writing output... [ 54%] dictionary/microservice.ini
 writing output... [ 54%] dictionary/microtime.ini
 writing output... [ 54%] dictionary/middleware.ini
 writing output... [ 54%] dictionary/migration.ini
-writing output... [ 55%] dictionary/minification.ini
+writing output... [ 54%] dictionary/minification.ini
 writing output... [ 55%] dictionary/minus-one.ini
 writing output... [ 55%] dictionary/minus.ini
 writing output... [ 55%] dictionary/missing-validation.ini
@@ -2746,8 +2767,9 @@ writing output... [ 55%] dictionary/monitoring.ini
 writing output... [ 55%] dictionary/monolith.ini
 writing output... [ 55%] dictionary/monomorphization.ini
 writing output... [ 55%] dictionary/move-semantics.ini
-writing output... [ 56%] dictionary/mro.ini
-writing output... [ 56%] dictionary/multi-byte.ini
+writing output... [ 55%] dictionary/mro.ini
+writing output... [ 55%] dictionary/multi-byte.ini
+writing output... [ 56%] dictionary/multi-pass-algorithm.ini
 writing output... [ 56%] dictionary/multidimensional-array.ini
 writing output... [ 56%] dictionary/multiple-dispatch.ini
 writing output... [ 56%] dictionary/multiple-return-value.ini
@@ -2763,7 +2785,7 @@ writing output... [ 56%] dictionary/mysqli.ini
 writing output... [ 56%] dictionary/mysqli_sql_exception.ini
 writing output... [ 56%] dictionary/n-query.ini
 writing output... [ 56%] dictionary/name-convention.ini
-writing output... [ 57%] dictionary/name.ini
+writing output... [ 56%] dictionary/name.ini
 writing output... [ 57%] dictionary/named-constructor.ini
 writing output... [ 57%] dictionary/named-parameter.ini
 writing output... [ 57%] dictionary/named-return-value.ini
@@ -2781,7 +2803,7 @@ writing output... [ 57%] dictionary/nativephp.ini
 writing output... [ 57%] dictionary/needle.ini
 writing output... [ 57%] dictionary/negative-index.ini
 writing output... [ 57%] dictionary/nested-attribute.ini
-writing output... [ 58%] dictionary/nesting.ini
+writing output... [ 57%] dictionary/nesting.ini
 writing output... [ 58%] dictionary/network.ini
 writing output... [ 58%] dictionary/neural-network.ini
 writing output... [ 58%] dictionary/neutral-element.ini
@@ -2791,6 +2813,7 @@ writing output... [ 58%] dictionary/new-line.ini
 writing output... [ 58%] dictionary/new-without-parenthesis.ini
 writing output... [ 58%] dictionary/new.ini
 writing output... [ 58%] dictionary/nodiscard.ini
+writing output... [ 58%] dictionary/nominal-type.ini
 writing output... [ 58%] dictionary/non-blocking.ini
 writing output... [ 58%] dictionary/non-breakable-space.ini
 writing output... [ 58%] dictionary/non-instantiable.ini
@@ -2798,7 +2821,7 @@ writing output... [ 58%] dictionary/non-numeric.ini
 writing output... [ 58%] dictionary/non-static.ini
 writing output... [ 58%] dictionary/nonce.ini
 writing output... [ 58%] dictionary/noop.ini
-writing output... [ 59%] dictionary/noscream.ini
+writing output... [ 58%] dictionary/noscream.ini
 writing output... [ 59%] dictionary/nosql-database.ini
 writing output... [ 59%] dictionary/not.ini
 writing output... [ 59%] dictionary/notice.ini
@@ -2833,7 +2856,7 @@ writing output... [ 60%] dictionary/octal-integer.ini
 writing output... [ 60%] dictionary/offensive-programming.ini
 writing output... [ 60%] dictionary/offset.ini
 writing output... [ 60%] dictionary/on-premise-software.ini
-writing output... [ 61%] dictionary/one-liner.ini
+writing output... [ 60%] dictionary/one-liner.ini
 writing output... [ 61%] dictionary/one-shot.ini
 writing output... [ 61%] dictionary/one.ini
 writing output... [ 61%] dictionary/onion-architecture.ini
@@ -2851,6 +2874,7 @@ writing output... [ 61%] dictionary/operand.ini
 writing output... [ 61%] dictionary/operator-overloading.ini
 writing output... [ 61%] dictionary/operator-precedence.ini
 writing output... [ 61%] dictionary/operator.ini
+writing output... [ 62%] dictionary/opinionated.ini
 writing output... [ 62%] dictionary/optimisation.ini
 writing output... [ 62%] dictionary/option-type.ini
 writing output... [ 62%] dictionary/option.ini
@@ -2885,7 +2909,7 @@ writing output... [ 63%] dictionary/parameter.ini
 writing output... [ 63%] dictionary/parent.ini
 writing output... [ 63%] dictionary/parenthesis.ini
 writing output... [ 63%] dictionary/parquet.ini
-writing output... [ 63%] dictionary/parse.ini
+writing output... [ 64%] dictionary/parse.ini
 writing output... [ 64%] dictionary/parse_str.ini
 writing output... [ 64%] dictionary/parse_url.ini
 writing output... [ 64%] dictionary/parseerror.ini
@@ -2920,7 +2944,7 @@ writing output... [ 65%] dictionary/phantom-type.ini
 writing output... [ 65%] dictionary/phar.ini
 writing output... [ 65%] dictionary/pharexception.ini
 writing output... [ 65%] dictionary/php-ai-editor.ini
-writing output... [ 66%] dictionary/php-attribute.ini
+writing output... [ 65%] dictionary/php-attribute.ini
 writing output... [ 66%] dictionary/php-constant.ini
 writing output... [ 66%] dictionary/php-docker-container.ini
 writing output... [ 66%] dictionary/php-editor.ini
@@ -2955,7 +2979,7 @@ writing output... [ 67%] dictionary/pie.ini
 writing output... [ 67%] dictionary/pipe-operator.ini
 writing output... [ 67%] dictionary/pipe.ini
 writing output... [ 67%] dictionary/pipeline.ini
-writing output... [ 68%] dictionary/plain-text.ini
+writing output... [ 67%] dictionary/plain-text.ini
 writing output... [ 68%] dictionary/plugin.ini
 writing output... [ 68%] dictionary/plus.ini
 writing output... [ 68%] dictionary/png.ini
@@ -2990,7 +3014,7 @@ writing output... [ 69%] dictionary/primitive-obsession.ini
 writing output... [ 69%] dictionary/print.ini
 writing output... [ 69%] dictionary/print_r.ini
 writing output... [ 69%] dictionary/printf.ini
-writing output... [ 70%] dictionary/privacy.ini
+writing output... [ 69%] dictionary/privacy.ini
 writing output... [ 70%] dictionary/private.ini
 writing output... [ 70%] dictionary/procedural-programming.ini
 writing output... [ 70%] dictionary/process.ini
@@ -3008,7 +3032,7 @@ writing output... [ 70%] dictionary/protocol.ini
 writing output... [ 70%] dictionary/proxy-class.ini
 writing output... [ 70%] dictionary/proxy.ini
 writing output... [ 70%] dictionary/pseudo-type.ini
-writing output... [ 71%] dictionary/pseudo-variable.ini
+writing output... [ 70%] dictionary/pseudo-variable.ini
 writing output... [ 71%] dictionary/psr.ini
 writing output... [ 71%] dictionary/public.ini
 writing output... [ 71%] dictionary/pubsub.ini
@@ -3025,7 +3049,9 @@ writing output... [ 71%] dictionary/quoted-printable.ini
 writing output... [ 71%] dictionary/race-condition.ini
 writing output... [ 71%] dictionary/raci.ini
 writing output... [ 71%] dictionary/rag.ini
-writing output... [ 72%] dictionary/railroad-programming.ini
+writing output... [ 71%] dictionary/railroad-programming.ini
+writing output... [ 72%] dictionary/rainbow-table.ini
+writing output... [ 72%] dictionary/random-access.ini
 writing output... [ 72%] dictionary/random.ini
 writing output... [ 72%] dictionary/random_cryptosafeengine.ini
 writing output... [ 72%] dictionary/random_engine.ini
@@ -3036,13 +3062,14 @@ writing output... [ 72%] dictionary/rate-limit.ini
 writing output... [ 72%] dictionary/rbac.ini
 writing output... [ 72%] dictionary/rce.ini
 writing output... [ 72%] dictionary/rdbms.ini
+writing output... [ 72%] dictionary/rdf-triple-store.ini
 writing output... [ 72%] dictionary/readability.ini
 writing output... [ 72%] dictionary/readable.ini
 writing output... [ 72%] dictionary/reading.ini
 writing output... [ 72%] dictionary/readline.ini
 writing output... [ 72%] dictionary/readonly.ini
-writing output... [ 72%] dictionary/real-time.ini
-writing output... [ 72%] dictionary/real.ini
+writing output... [ 73%] dictionary/real-time.ini
+writing output... [ 73%] dictionary/real.ini
 writing output... [ 73%] dictionary/record-type.ini
 writing output... [ 73%] dictionary/recursion.ini
 writing output... [ 73%] dictionary/recursive-array.ini
@@ -3058,8 +3085,8 @@ writing output... [ 73%] dictionary/refinement-type.ini
 writing output... [ 73%] dictionary/reflection.ini
 writing output... [ 73%] dictionary/reflectionexception.ini
 writing output... [ 73%] dictionary/reflector.ini
-writing output... [ 73%] dictionary/regex.ini
-writing output... [ 73%] dictionary/regexploit.ini
+writing output... [ 74%] dictionary/regex.ini
+writing output... [ 74%] dictionary/regexploit.ini
 writing output... [ 74%] dictionary/register-globals.ini
 writing output... [ 74%] dictionary/register_argc_argv.ini
 writing output... [ 74%] dictionary/registry.ini
@@ -3076,8 +3103,8 @@ writing output... [ 74%] dictionary/render.ini
 writing output... [ 74%] dictionary/renderer.ini
 writing output... [ 74%] dictionary/repl.ini
 writing output... [ 74%] dictionary/replay.ini
-writing output... [ 74%] dictionary/request-response.ini
-writing output... [ 74%] dictionary/request.ini
+writing output... [ 75%] dictionary/request-response.ini
+writing output... [ 75%] dictionary/request.ini
 writing output... [ 75%] dictionary/reserved-name.ini
 writing output... [ 75%] dictionary/resilience.ini
 writing output... [ 75%] dictionary/resource-leak.ini
@@ -3094,7 +3121,7 @@ writing output... [ 75%] dictionary/return.ini
 writing output... [ 75%] dictionary/returntypewillchange.ini
 writing output... [ 75%] dictionary/reverse-regex.ini
 writing output... [ 75%] dictionary/revision.ini
-writing output... [ 75%] dictionary/rfc.ini
+writing output... [ 76%] dictionary/rfc.ini
 writing output... [ 76%] dictionary/rfchange.ini
 writing output... [ 76%] dictionary/rfu.ini
 writing output... [ 76%] dictionary/rich-domain-model.ini
@@ -3111,7 +3138,7 @@ writing output... [ 76%] dictionary/rubber-ducking.ini
 writing output... [ 76%] dictionary/runtime-checks.ini
 writing output... [ 76%] dictionary/saas.ini
 writing output... [ 76%] dictionary/sandbox.ini
-writing output... [ 76%] dictionary/sanitation.ini
+writing output... [ 77%] dictionary/sanitation.ini
 writing output... [ 77%] dictionary/sapi.ini
 writing output... [ 77%] dictionary/sast.ini
 writing output... [ 77%] dictionary/sbom.ini
@@ -3129,7 +3156,7 @@ writing output... [ 77%] dictionary/sealed-class.ini
 writing output... [ 77%] dictionary/search-engine.ini
 writing output... [ 77%] dictionary/second-order-sql-injection.ini
 writing output... [ 77%] dictionary/secret.ini
-writing output... [ 77%] dictionary/security.ini
+writing output... [ 78%] dictionary/security.ini
 writing output... [ 78%] dictionary/seekableiterator.ini
 writing output... [ 78%] dictionary/segmentation-fault.ini
 writing output... [ 78%] dictionary/self-documenting.ini
@@ -3140,13 +3167,14 @@ writing output... [ 78%] dictionary/semantic-versioning.ini
 writing output... [ 78%] dictionary/semantics.ini
 writing output... [ 78%] dictionary/semicolon.ini
 writing output... [ 78%] dictionary/sensitiveparameter.ini
+writing output... [ 78%] dictionary/sentinel.ini
 writing output... [ 78%] dictionary/seo.ini
 writing output... [ 78%] dictionary/separation-of-concerns.ini
 writing output... [ 78%] dictionary/separator.ini
 writing output... [ 78%] dictionary/sequence.ini
 writing output... [ 78%] dictionary/serde.ini
-writing output... [ 78%] dictionary/serializable.ini
-writing output... [ 78%] dictionary/serialization.ini
+writing output... [ 79%] dictionary/serializable.ini
+writing output... [ 79%] dictionary/serialization.ini
 writing output... [ 79%] dictionary/serialize_precision.ini
 writing output... [ 79%] dictionary/server-architecture.ini
 writing output... [ 79%] dictionary/server.ini
@@ -3163,8 +3191,8 @@ writing output... [ 79%] dictionary/sessionidinterface.ini
 writing output... [ 79%] dictionary/sessionupdatetimestamphandlerinterface.ini
 writing output... [ 79%] dictionary/set.ini
 writing output... [ 79%] dictionary/set_error_handler.ini
-writing output... [ 79%] dictionary/setlocale.ini
-writing output... [ 79%] dictionary/setter.ini
+writing output... [ 80%] dictionary/setlocale.ini
+writing output... [ 80%] dictionary/setter.ini
 writing output... [ 80%] dictionary/sha.ini
 writing output... [ 80%] dictionary/shallow-clone.ini
 writing output... [ 80%] dictionary/shard.ini
@@ -3180,8 +3208,8 @@ writing output... [ 80%] dictionary/short-syntax.ini
 writing output... [ 80%] dictionary/short-tag.ini
 writing output... [ 80%] dictionary/short-ternary.ini
 writing output... [ 80%] dictionary/short_open_tag.ini
-writing output... [ 80%] dictionary/shutdown-function.ini
-writing output... [ 80%] dictionary/side-effect.ini
+writing output... [ 81%] dictionary/shutdown-function.ini
+writing output... [ 81%] dictionary/side-effect.ini
 writing output... [ 81%] dictionary/sign.ini
 writing output... [ 81%] dictionary/signature.ini
 writing output... [ 81%] dictionary/signed-integer.ini
@@ -3198,8 +3226,8 @@ writing output... [ 81%] dictionary/sleep.ini
 writing output... [ 81%] dictionary/slim.ini
 writing output... [ 81%] dictionary/slug.ini
 writing output... [ 81%] dictionary/smart-cast.ini
-writing output... [ 81%] dictionary/smtp.ini
-writing output... [ 81%] dictionary/snake-case.ini
+writing output... [ 82%] dictionary/smtp.ini
+writing output... [ 82%] dictionary/snake-case.ini
 writing output... [ 82%] dictionary/snapshot.ini
 writing output... [ 82%] dictionary/snmp.ini
 writing output... [ 82%] dictionary/snmp3.ini
@@ -3216,7 +3244,7 @@ writing output... [ 82%] dictionary/space.ini
 writing output... [ 82%] dictionary/spaceship.ini
 writing output... [ 82%] dictionary/special-constant.ini
 writing output... [ 82%] dictionary/special-typehint.ini
-writing output... [ 82%] dictionary/specification.ini
+writing output... [ 83%] dictionary/specification.ini
 writing output... [ 83%] dictionary/spiral.ini
 writing output... [ 83%] dictionary/spl.ini
 writing output... [ 83%] dictionary/spldoublylinkedlist.ini
@@ -3233,8 +3261,8 @@ writing output... [ 83%] dictionary/sql-database.ini
 writing output... [ 83%] dictionary/sql-injection.ini
 writing output... [ 83%] dictionary/sql.ini
 writing output... [ 83%] dictionary/sqlite3.ini
-writing output... [ 83%] dictionary/sqrt.ini
-writing output... [ 83%] dictionary/square-bracket.ini
+writing output... [ 84%] dictionary/sqrt.ini
+writing output... [ 84%] dictionary/square-bracket.ini
 writing output... [ 84%] dictionary/srp.ini
 writing output... [ 84%] dictionary/ssa.ini
 writing output... [ 84%] dictionary/sscanf.ini
@@ -3251,7 +3279,7 @@ writing output... [ 84%] dictionary/state.ini
 writing output... [ 84%] dictionary/stateful.ini
 writing output... [ 84%] dictionary/stateless.ini
 writing output... [ 84%] dictionary/statement.ini
-writing output... [ 84%] dictionary/static-call.ini
+writing output... [ 85%] dictionary/static-call.ini
 writing output... [ 85%] dictionary/static-class.ini
 writing output... [ 85%] dictionary/static-expression.ini
 writing output... [ 85%] dictionary/static-method.ini
@@ -3268,7 +3296,7 @@ writing output... [ 85%] dictionary/str_starts_with.ini
 writing output... [ 85%] dictionary/stream.ini
 writing output... [ 85%] dictionary/streamlining.ini
 writing output... [ 85%] dictionary/strict-comparison.ini
-writing output... [ 85%] dictionary/strict.ini
+writing output... [ 86%] dictionary/strict.ini
 writing output... [ 86%] dictionary/strict_types.ini
 writing output... [ 86%] dictionary/string-increment.ini
 writing output... [ 86%] dictionary/string-interpolation.ini
@@ -3286,7 +3314,7 @@ writing output... [ 86%] dictionary/stubs.ini
 writing output... [ 86%] dictionary/sub.ini
 writing output... [ 86%] dictionary/subclass.ini
 writing output... [ 86%] dictionary/subnamespace.ini
-writing output... [ 86%] dictionary/subtype.ini
+writing output... [ 87%] dictionary/subtype.ini
 writing output... [ 87%] dictionary/suffix.ini
 writing output... [ 87%] dictionary/sum-type.ini
 writing output... [ 87%] dictionary/sunsetting.ini
@@ -3321,10 +3349,11 @@ writing output... [ 88%] dictionary/tcp.ini
 writing output... [ 88%] dictionary/tech-island.ini
 writing output... [ 88%] dictionary/tech-silo.ini
 writing output... [ 88%] dictionary/technical-reference.ini
-writing output... [ 88%] dictionary/telemetry.ini
+writing output... [ 89%] dictionary/telemetry.ini
 writing output... [ 89%] dictionary/tempest.ini
 writing output... [ 89%] dictionary/template-metaprogramming.ini
 writing output... [ 89%] dictionary/template.ini
+writing output... [ 89%] dictionary/temporal-replay.ini
 writing output... [ 89%] dictionary/temporary-expression.ini
 writing output... [ 89%] dictionary/temporary.ini
 writing output... [ 89%] dictionary/ternary.ini
@@ -3338,7 +3367,7 @@ writing output... [ 89%] dictionary/text.ini
 writing output... [ 89%] dictionary/thin-method.ini
 writing output... [ 89%] dictionary/thin.ini
 writing output... [ 89%] dictionary/thread.ini
-writing output... [ 89%] dictionary/three-dots.ini
+writing output... [ 90%] dictionary/three-dots.ini
 writing output... [ 90%] dictionary/throughput.ini
 writing output... [ 90%] dictionary/throw.ini
 writing output... [ 90%] dictionary/throwable.ini
@@ -3355,8 +3384,8 @@ writing output... [ 90%] dictionary/tokenizer.ini
 writing output... [ 90%] dictionary/toml.ini
 writing output... [ 90%] dictionary/tool.ini
 writing output... [ 90%] dictionary/toon.ini
-writing output... [ 90%] dictionary/trace.ini
-writing output... [ 90%] dictionary/trailing-comma.ini
+writing output... [ 91%] dictionary/trace.ini
+writing output... [ 91%] dictionary/trailing-comma.ini
 writing output... [ 91%] dictionary/trait.ini
 writing output... [ 91%] dictionary/transaction.ini
 writing output... [ 91%] dictionary/transpile.ini
@@ -3373,7 +3402,7 @@ writing output... [ 91%] dictionary/truthy.ini
 writing output... [ 91%] dictionary/try-catch.ini
 writing output... [ 91%] dictionary/ttl.ini
 writing output... [ 91%] dictionary/tui.ini
-writing output... [ 91%] dictionary/tuple.ini
+writing output... [ 92%] dictionary/tuple.ini
 writing output... [ 92%] dictionary/tutorial.ini
 writing output... [ 92%] dictionary/type-checking.ini
 writing output... [ 92%] dictionary/type-class.ini
@@ -3391,7 +3420,7 @@ writing output... [ 92%] dictionary/type.ini
 writing output... [ 92%] dictionary/typed-constant.ini
 writing output... [ 92%] dictionary/typed-property.ini
 writing output... [ 92%] dictionary/typeerror.ini
-writing output... [ 92%] dictionary/typerror.ini
+writing output... [ 93%] dictionary/typerror.ini
 writing output... [ 93%] dictionary/typo.ini
 writing output... [ 93%] dictionary/udp.ini
 writing output... [ 93%] dictionary/ulid.ini
@@ -3408,7 +3437,7 @@ writing output... [ 93%] dictionary/union-type.ini
 writing output... [ 93%] dictionary/unique-identifier.ini
 writing output... [ 93%] dictionary/unique.ini
 writing output... [ 93%] dictionary/unit-test.ini
-writing output... [ 93%] dictionary/unitenum.ini
+writing output... [ 94%] dictionary/unitenum.ini
 writing output... [ 94%] dictionary/unpacking.ini
 writing output... [ 94%] dictionary/unreachable-code.ini
 writing output... [ 94%] dictionary/unserialize.ini
@@ -3426,7 +3455,7 @@ writing output... [ 94%] dictionary/use-trait.ini
 writing output... [ 94%] dictionary/use.ini
 writing output... [ 94%] dictionary/used.ini
 writing output... [ 94%] dictionary/useless.ini
-writing output... [ 94%] dictionary/userland.ini
+writing output... [ 95%] dictionary/userland.ini
 writing output... [ 95%] dictionary/utf-8.ini
 writing output... [ 95%] dictionary/uuencode.ini
 writing output... [ 95%] dictionary/uuid.ini
@@ -3443,7 +3472,7 @@ writing output... [ 95%] dictionary/variable-scope.ini
 writing output... [ 95%] dictionary/variable-shadowing.ini
 writing output... [ 95%] dictionary/variable-variable.ini
 writing output... [ 95%] dictionary/variable.ini
-writing output... [ 95%] dictionary/variable_order.ini
+writing output... [ 96%] dictionary/variable_order.ini
 writing output... [ 96%] dictionary/variadic.ini
 writing output... [ 96%] dictionary/vcs-commit.ini
 writing output... [ 96%] dictionary/vcs.ini
@@ -3528,6 +3557,6 @@ generating indices... genindex done
 writing additional pages... search done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 13 warnings.
+build succeeded, 14 warnings.
 
 The HTML pages are in build/html.

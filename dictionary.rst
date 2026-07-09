@@ -51,6 +51,7 @@ PHP Dictionary
 * A
    * :ref:`ACID <acid>`
    * :ref:`AJAX <ajax>`
+   * :ref:`ANTLR4 <antlr4>`
    * :ref:`API Gateway <api-gateway>`
    * :ref:`Absolute <absolute>`
    * :ref:`Absolute Name <absolute-name>`
@@ -154,6 +155,8 @@ PHP Dictionary
    * :ref:`array_column <array_column>`
    * :ref:`array_combine() <array_combine>`
    * :ref:`array_fill() <array_fill>`
+   * :ref:`array_find() <array_find>`
+   * :ref:`array_find_key() <array_find_key>`
    * :ref:`array_key_exists() <array_key_exists>`
    * :ref:`array_keys() <array_keys>`
    * :ref:`array_map() <array_map>`
@@ -245,6 +248,7 @@ PHP Dictionary
    * :ref:`Callbacks <callback>`
    * :ref:`Callstack <callstack>`
    * :ref:`Camel Case <camel-case>`
+   * :ref:`Canary <canary>`
    * :ref:`Cancellation <cancellation>`
    * :ref:`Canonical <canonical>`
    * :ref:`Capture The Flag (CTF) <ctf>`
@@ -496,6 +500,7 @@ PHP Dictionary
    * :ref:`Docker <docker>`
    * :ref:`Docker Container <docker-container>`
    * :ref:`Docker Image <docker-image>`
+   * :ref:`Doctrine <doctrine>`
    * :ref:`Document Database <document-database>`
    * :ref:`Document Object Model (DOM) <dom>`
    * :ref:`Documentation <documentation>`
@@ -726,6 +731,7 @@ PHP Dictionary
    * :ref:`Hash <hash>`
    * :ref:`Hash # <hash-character>`
    * :ref:`Hash Comparisons <hash-comparison>`
+   * :ref:`Hash Table <hash-table>`
    * :ref:`Haystack <haystack>`
    * :ref:`Headers <headers>`
    * :ref:`Headless <headless>`
@@ -983,6 +989,7 @@ PHP Dictionary
    * :ref:`Move Semantics <move-semantics>`
    * :ref:`Multi-Factor Authentication (MFA) <mfa>`
    * :ref:`Multi-byte <multi-byte>`
+   * :ref:`Multi-pass Algorithm <multi-pass-algorithm>`
    * :ref:`Multibyte String <mbstring>`
    * :ref:`Multidimensional Array <multidimensional-array>`
    * :ref:`Multiple Dispatch <multiple-dispatch>`
@@ -1026,6 +1033,7 @@ PHP Dictionary
    * :ref:`New Line <new-line>`
    * :ref:`New Without Parenthesis <new-without-parenthesis>`
    * :ref:`NoDiscard <nodiscard>`
+   * :ref:`Nominal Type <nominal-type>`
    * :ref:`Non Breakable Spaces <non-breakable-space>`
    * :ref:`Non-blocking <non-blocking>`
    * :ref:`Non-instantiable <non-instantiable>`
@@ -1090,6 +1098,7 @@ PHP Dictionary
    * :ref:`Operator Overloading <operator-overloading>`
    * :ref:`Operator Precedence <operator-precedence>`
    * :ref:`Operators <operator>`
+   * :ref:`Opinionated <opinionated>`
    * :ref:`Optimisation <optimisation>`
    * :ref:`Option <option>`
    * :ref:`Option Type <option-type>`
@@ -1270,12 +1279,15 @@ PHP Dictionary
    * :ref:`Quoted Printable <quoted-printable>`
 * R
    * :ref:`RACI Model <raci>`
+   * :ref:`RDF Triple Store <rdf-triple-store>`
    * :ref:`REST API <rest-api>`
    * :ref:`RFC <rfc>`
    * :ref:`RSA <rsa>`
    * :ref:`Race Condition <race-condition>`
    * :ref:`Railroad Programming <railroad-programming>`
+   * :ref:`Rainbow Table <rainbow-table>`
    * :ref:`Random <random>`
+   * :ref:`Random Access <random-access>`
    * :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`
    * :ref:`Random\Engine <random_engine>`
    * :ref:`Range Type <range-type>`
@@ -1395,6 +1407,7 @@ PHP Dictionary
    * :ref:`Semantics <semantics>`
    * :ref:`Semicolon ; <semicolon>`
    * :ref:`Sensitive Parameter <sensitiveparameter>`
+   * :ref:`Sentinel <sentinel>`
    * :ref:`Separation Of Concerns <separation-of-concerns>`
    * :ref:`Separator <separator>`
    * :ref:`Sequence <sequence>`
@@ -1578,6 +1591,7 @@ PHP Dictionary
    * :ref:`Tempest <tempest>`
    * :ref:`Template <template>`
    * :ref:`Template Metaprogramming (TMP) <template-metaprogramming>`
+   * :ref:`Temporal Replay <temporal-replay>`
    * :ref:`Temporary <temporary>`
    * :ref:`Temporary Expression <temporary-expression>`
    * :ref:`Terminal User Interface (TUI) <tui>`

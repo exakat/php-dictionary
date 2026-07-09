@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:19:29 +0000","dateModified":"Fri, 03 Jul 2026 07:19:29 +0000","description":"Open classes allow external code to add or replace methods on an existing class after it has been defined, including built-in or third-party classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Open Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:08:44 +0000","dateModified":"Thu, 09 Jul 2026 09:08:44 +0000","description":"Open classes allow external code to add or replace methods on an existing class after it has been defined, including built-in or third-party classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Open Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Open Class
@@ -30,7 +30,7 @@ Languages such as Ruby expose this feature natively: any class can be reopened w
 
 PHP does not support open classes. Once a class is defined its set of methods is fixed. The closest approximations are:
 
-+ Traits, which must be composed at the point of class definition (not after).
++ Traits, which must be composed at the point of class definition, not after.
 + ``__call`` / ``__callStatic`` magic methods, which dispatch unknown method calls dynamically but without type-level visibility.
 + Wrapper or decorator classes that delegate to the original.
 
@@ -40,18 +40,18 @@ None of these allow retrofitting a method onto a class that has already been ful
    
    <?php
    
-   // PHP does not support reopening a class.
-   // The following is illustrative of what the feature would look like,
-   // but it is a syntax error in PHP.
-   
-   class MyString {
-       public function upper(): string { return strtoupper($this->value); }
-   }
-   
-   // Hypothetical open-class syntax (NOT valid PHP):
-   // open class MyString {
-   //     public function lower(): string { return strtolower($this->value); }
-   // }
+       // PHP does not support reopening a class.
+       // The following is illustrative of what the feature would look like,
+       // but it is a syntax error in PHP.
+       
+       class MyString {
+           public function upper(): string { return strtoupper($this->value); }
+       }
+       
+       // Hypothetical open-class syntax (NOT valid PHP):
+       // open class MyString {
+       //     public function lower(): string { return strtolower($this->value); }
+       // }
    
    ?>
 

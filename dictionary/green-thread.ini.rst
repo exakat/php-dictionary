@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Green Thread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:04:27 +0000","dateModified":"Fri, 03 Jul 2026 08:04:27 +0000","description":"Green threads, also called goroutines in Go, virtual threads in Java 21+, or lightweight threads in Erlang\/Haskell, are user-space threads managed entirely by the language runtime rather than the operating system kernel","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Green Thread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Green Thread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:29:00 +0000","dateModified":"Thu, 09 Jul 2026 07:29:00 +0000","description":"Green threads, also called goroutines in Go, virtual threads in Java 21+, or lightweight threads in Erlang\/Haskell, are user-space threads managed entirely by the language runtime rather than the operating system kernel","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Green Thread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Green Thread
@@ -51,34 +51,34 @@ None of these match the ergonomics of goroutines, where spawning a concurrent ta
    
    <?php
    
-   // PHP 8.1 Fibers: closest native approximation.
-   // Unlike goroutines, suspension must be explicit and there is no parallelism.
-   
-   $fiber = new Fiber(function (): void {
-       echo "Fiber started\n";
-       $received = Fiber::suspend('first yield');  // explicit yield point required
-       echo "Fiber resumed with: $received\n";
-   });
-   
-   $yielded = $fiber->start();           // run until first suspend()
-   echo "Main got: $yielded\n";         // 'first yield'
-   $fiber->resume('hello');              // hand control back
-   
-   // Swoole coroutines (extension, not standard PHP) come closer
-   // to transparent green threads:
-   //
-   // Co\run(function () {
-   //     go(function () {
-   //         // Co::sleep() suspends this coroutine transparently;
-   //         // other coroutines run during the wait.
-   //         Co::sleep(1);
-   //         echo "task A done\n";
-   //     });
-   //     go(function () {
-   //         Co::sleep(1);
-   //         echo "task B done\n";
-   //     });
-   // });
+       // PHP 8.1 Fibers: closest native approximation.
+       // Unlike goroutines, suspension must be explicit and there is no parallelism.
+       
+       $fiber = new Fiber(function (): void {
+           echo "Fiber started\n";
+           $received = Fiber::suspend('first yield');  // explicit yield point required
+           echo "Fiber resumed with: $received\n";
+       });
+       
+       $yielded = $fiber->start();           // run until first suspend()
+       echo "Main got: $yielded\n";         // 'first yield'
+       $fiber->resume('hello');              // hand control back
+       
+       // Swoole coroutines (extension, not standard PHP) come closer
+       // to transparent green threads:
+       //
+       // Co\run(function () {
+       //     go(function () {
+       //         // Co::sleep() suspends this coroutine transparently;
+       //         // other coroutines run during the wait.
+       //         Co::sleep(1);
+       //         echo "task A done\n";
+       //     });
+       //     go(function () {
+       //         Co::sleep(1);
+       //         echo "task B done\n";
+       //     });
+       // });
    
    ?>
 

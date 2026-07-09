@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Snake Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Snake case, also written ``snake_case`` is a way of writing names without spaces, where:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Snake Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Snake Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:09:32 +0000","dateModified":"Thu, 09 Jul 2026 09:09:32 +0000","description":"Snake case, also written ``snake_case`` is a way of writing names without spaces, where:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Snake Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Snake Case
@@ -24,8 +24,8 @@ Snake Case
 
 Snake case, also written ``snake_case`` is a way of writing names without spaces, where:
 
-+ all the letters are set to lower case
-+ each word is separated from the other by an underscore
++ All the letters are set to lower case
++ Each word is separated from the other by an underscore
 
 The underscore letters create ``humps`` like a camel's back: this is the origin of the name.
 
@@ -36,10 +36,10 @@ Snake case is often used for PHP native functions.
    
    <?php
    
-   function to_lower(string $string): int {
-       // PHP native function
-       return mb_strtolower($string);
-   }
+       function to_lower(string $string): int {
+           // PHP native function
+           return mb_strtolower($string);
+       }
    
    ?>
 

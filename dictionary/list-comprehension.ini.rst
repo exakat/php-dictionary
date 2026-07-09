@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"List Comprehension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 06:37:22 +0000","dateModified":"Wed, 08 Jul 2026 06:37:22 +0000","description":"A list comprehension is an expression-level syntax for building a new collection by describing it declaratively: a source, a transformation, and an optional filter, all in a single readable expression, as in Python's ``[x * 2 for x in items if x > 0]`` or Haskell's ``[x * 2 | x <- items, x > 0]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/List Comprehension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"List Comprehension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:49:54 +0000","dateModified":"Thu, 09 Jul 2026 07:49:54 +0000","description":"A list comprehension is an expression-level syntax for building a new collection by describing it declaratively: a source, a transformation, and an optional filter, all in a single readable expression, as in Python's ``[x * 2 for x in items if x > 0]`` or Haskell's ``[x * 2 | x <- items, x > 0]``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/List Comprehension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 List Comprehension
@@ -42,7 +42,5 @@ PHP has no list comprehension syntax. The same result requires either an explici
 
 
 `Documentation <https://en.wikipedia.org/wiki/List_comprehension>`__
-
-See also `List comprehension in Wikipedia <https://en.wikipedia.org/wiki/List_comprehension>`_.
 
 Related : :ref:`array_map() <array_map>`, :ref:`Generator <generator>`, :ref:`Functional Programming <functional-programming>`

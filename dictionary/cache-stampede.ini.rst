@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cache Stampede","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 09:59:41 +0000","dateModified":"Wed, 01 Jul 2026 09:59:41 +0000","description":"A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cache Stampede.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Cache Stampede","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:57:58 +0000","dateModified":"Thu, 09 Jul 2026 08:57:58 +0000","description":"A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cache Stampede.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cache Stampede
@@ -32,31 +32,31 @@ Common mitigation strategies include: locking, where only one process regenerate
    
    <?php
    
-   // Naive approach — prone to cache stampede
-   $value = $cache->get('key');
-   if ($value === null) {
-       // All concurrent requests reach here simultaneously on expiry
-       $value = expensiveComputation();
-       $cache->set('key', $value, ttl: 60);
-   }
-   
-   // Lock-based mitigation
-   $value = $cache->get('key');
-   if ($value === null) {
-       $lock = $cache->lock('key:lock', ttl: 5);
-       if ($lock->get()) {
-           try {
-               $value = expensiveComputation();
-               $cache->set('key', $value, ttl: 60);
-           } finally {
-               $lock->release();
-           }
-       } else {
-           // Wait for the lock holder to populate the cache
-           $lock->block(4);
-           $value = $cache->get('key');
+       // Naive approach — prone to cache stampede
+       $value = $cache->get('key');
+       if ($value === null) {
+           // All concurrent requests reach here simultaneously on expiry
+           $value = expensiveComputation();
+           $cache->set('key', $value, ttl: 60);
        }
-   }
+       
+       // Lock-based mitigation
+       $value = $cache->get('key');
+       if ($value === null) {
+           $lock = $cache->lock('key:lock', ttl: 5);
+           if ($lock->get()) {
+               try {
+                   $value = expensiveComputation();
+                   $cache->set('key', $value, ttl: 60);
+               } finally {
+                   $lock->release();
+               }
+           } else {
+               // Wait for the lock holder to populate the cache
+               $lock->block(4);
+               $value = $cache->get('key');
+           }
+       }
    
    ?>
 

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Algebraic Data Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:46:19 +0000","dateModified":"Tue, 07 Jul 2026 07:46:19 +0000","description":"An algebraic data type is a composite type built by combining simpler types through two fundamental operations: product and sum","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Algebraic Data Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Algebraic Data Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:19:02 +0000","dateModified":"Thu, 09 Jul 2026 07:19:02 +0000","description":"An algebraic data type is a composite type built by combining simpler types through two fundamental operations: product and sum","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Algebraic Data Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Algebraic Data Type
@@ -39,4 +39,4 @@ PHP does not support true ADT.
 
 See also `Algebraic data types in Wikipedia <https://en.wikipedia.org/wiki/Algebraic_data_type>`_ and `ADTs in PHP: an approximation guide <https://stitcher.io/blog/php-enums>`_.
 
-Related : :ref:`Sum Type <sum-type>`, :ref:`Generalized Algebraic Data Type (GADT) <gadt>`, :ref:`Union Type <union-type>`, :ref:`Enumeration (enum) <enum>`, :ref:`Intersection Type <intersection-type>`, :ref:`Pattern Matching <pattern-matching>`, :ref:`Type System <type-system>`, :ref:`Generics <generics>`
+Related : :ref:`Sum Type <sum-type>`, :ref:`Generalized Algebraic Data Type (GADT) <gadt>`, :ref:`Union Type <union-type>`, :ref:`Enumeration (enum) <enum>`, :ref:`Intersection Type <intersection-type>`, :ref:`Pattern Matching <pattern-matching>`, :ref:`Type System <type-system>`, :ref:`Generics <generics>`, :ref:`Existential Type <existential-type>`, :ref:`Higher-Kinded Type <higher-kinded-type>`, :ref:`Option Type <option-type>`, :ref:`Result Type <result-type>`, :ref:`Structural Pattern Matching <structural-pattern-matching>`

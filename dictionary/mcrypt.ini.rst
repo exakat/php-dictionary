@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"mcrypt Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``mcrypt`` is a PHP extension that provides access to the mcrypt library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mcrypt Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"mcrypt Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:15:16 +0000","dateModified":"Thu, 09 Jul 2026 08:15:16 +0000","description":"``mcrypt`` is a PHP extension that provides access to the mcrypt library","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mcrypt Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 mcrypt Extension
@@ -24,7 +24,7 @@ mcrypt Extension
 
 ``mcrypt`` is a PHP extension that provides access to the mcrypt library. It provides a variety of cryptographic algorithms. 
 
-``mcrypt`` was deprecated in PHP 7.1 and removed in PHP 7.2. It is recommended to use ``sodium`` or ``openssl`` instead.
+``mcrypt`` was deprecated in version 7.1 and removed in version 7.2. It is recommended to use ``sodium`` or ``openssl`` instead.
 
 .. code-block:: php
    
@@ -52,3 +52,5 @@ mcrypt Extension
 See also `ext/sodium <https://www.php.net/manual/en/book.sodium.php>`_ and `ext/openssl <https://www.php.net/manual/en/book.openssl.php>`_.
 
 Related : :ref:`libsodium <sodium>`, :ref:`OpenSSL <openssl>`
+
+Added in PHP 4.0

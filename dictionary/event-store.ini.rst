@@ -18,19 +18,19 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Store","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:14:50 +0000","dateModified":"Tue, 30 Jun 2026 15:14:50 +0000","description":"An event store is an append-only database that stores domain events as the primary source of truth","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Store.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Store","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:49:25 +0000","dateModified":"Thu, 09 Jul 2026 08:49:25 +0000","description":"An event store is an append-only database that stores domain events as the primary source of truth","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Store.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Event Store
 -----------
 
-An event store is an append-only database that stores domain events as the primary source of truth. Instead of persisting the current state of an entity (as a traditional relational database does), the event store records every state-changing event in the order it occurred. The current state is derived by replaying all events for a given aggregate.
+An event store is an append-only database that stores domain events as the primary source of truth. Instead of persisting the current state of an entity, as a traditional relational database does, the event store records every state-changing event in the order it occurred. The current state is derived by replaying all events for a given aggregate.
 
-Event stores have three fundamental properties: events are immutable (never updated or deleted), ordered (within an aggregate stream), and complete (no information is lost). This makes them naturally auditable, debuggable, and replayable.
+Event stores have three fundamental properties: events are immutable, as in never updated or deleted, ordered, as in within an aggregate stream, and complete , as in no information is lost. This makes them naturally auditable, debuggable, and replayable.
 
 An event store differs from a general-purpose message queue: it is designed for long-term persistence and random-access replay, not just for transient message delivery. EventStoreDB is a purpose-built event store. Kafka is also used as an event store when configured with long retention periods.
 
-In PHP event-sourcing implementations, the event store is typically an abstraction over a PostgreSQL table (with JSON event payloads), Kafka, or EventStoreDB. Libraries such as Prooph or Broadway provide event store interfaces.
+In event-sourcing implementations, the event store is typically an abstraction over a PostgreSQL table, with JSON event payloads, Kafka, or EventStoreDB. Libraries such as Prooph or Broadway provide event store interfaces.
 
 .. code-block:: php
    
@@ -69,7 +69,7 @@ In PHP event-sourcing implementations, the event store is typically an abstracti
 
 `Documentation <https://en.wikipedia.org/wiki/Event_store>`__
 
-See also `EventStoreDB <https://www.eventstore.com/>`_ and `Wikipedia: Event store <https://en.wikipedia.org/wiki/Event_store>`_.
+See also `EventStoreDB <https://www.eventstore.com/>`_.
 
 Related : :ref:`Event Sourcing <event-sourcing>`, :ref:`Event Replay <event-replay>`, :ref:`Event Streaming <event-streaming>`, :ref:`Audit Trail <audit-trail>`, :ref:`Domain Design Driven (DDD) <ddd>`
 

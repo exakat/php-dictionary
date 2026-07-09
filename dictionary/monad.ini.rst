@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monad","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 15:37:02 +0000","dateModified":"Wed, 08 Jul 2026 15:37:02 +0000","description":"A monad is a design pattern from functional programming, formalized as a language construct in Haskell, that wraps a value in a context and defines two operations: one to wrap a plain value into the monad, and one, usually called ``bind`` or ``>>=``, to chain functions that each take a plain value and return a new wrapped value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monad.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monad","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:35:02 +0000","dateModified":"Thu, 09 Jul 2026 08:35:02 +0000","description":"A monad is a design pattern from functional programming, formalized as a language construct in Haskell, that wraps a value in a context and defines two operations: one to wrap a plain value into the monad, and one, usually called ``bind`` or ``>>=``, to chain functions that each take a plain value and return a new wrapped value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monad.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Monad
 -----
 
-A monad is a design pattern from functional programming, formalized as a language construct in Haskell, that wraps a value in a context and defines two operations: one to wrap a plain value into the monad, and one, usually called ``bind`` or ``>>=``, to chain functions that each take a plain value and return a new wrapped value. Common monads model optionality (``Maybe``), failure (``Either``), asynchronous computation, or sequencing of side effects (``IO``).
+A monad is a design pattern from functional programming, formalized as a language construct in Haskell, that wraps a value in a context and defines two operations: one to wrap a plain value into the monad, and one, usually called ``bind`` or ``>>=``, to chain functions that each take a plain value and return a new wrapped value. Common monads model optionality ``Maybe``, failure ``Either``, asynchronous computation, or sequencing of side effects ``IO``.
 
 The reason it is a language construct in Haskell, via ``do`` notation, rather than just a library pattern, is that the compiler rewrites the imperative-looking ``do`` block into nested ``bind`` calls automatically, giving monadic code the visual shape of ordinary sequential statements.
 
@@ -49,7 +49,7 @@ PHP has no monad construct and no syntax to chain wrapped values automatically. 
 
 `Documentation <https://en.wikipedia.org/wiki/Monad_(functional_programming)>`__
 
-See also `Monad in Wikipedia <https://en.wikipedia.org/wiki/Monad_(functional_programming)>`_.
+See also `Practical Monads <https://www.educative.io/courses/learn-functional-programming-in-php/practical-monads>`_.
 
 Related : :ref:`Functor <functor>`, :ref:`Functional Programming <functional-programming>`, :ref:`Option Type <option-type>`, :ref:`Result Type <result-type>`
 

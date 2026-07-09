@@ -16,15 +16,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"gettext Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:23:02 +0000","dateModified":"Sun, 28 Jun 2026 10:23:02 +0000","description":"``gettext`` is a library that provides features to translate messages for the users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettext Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"gettext Extension","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:30:14 +0000","dateModified":"Thu, 09 Jul 2026 07:30:14 +0000","description":"``gettext`` is a library that provides features to translate messages for the users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettext Extension.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 gettext Extension
 -----------------
 
-``gettext`` is a library that provides features to translate messages for the users. It includes the famous gettext() function, and its alias ``_()``, the underscore.
+``gettext`` is a library that provides features to translate messages for the users. It includes the famous ``gettext()`` function, and its alias ``_()``, the underscore.
 
-It is based on the locale system, and the .mo files.
+It is based on the locale system, and the ``.mo`` files.
 
 .. code-block:: php
    

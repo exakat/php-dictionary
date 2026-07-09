@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Insecure Deserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Jun 2026 19:57:57 +0000","dateModified":"Sun, 21 Jun 2026 19:57:57 +0000","description":"Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Insecure Deserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Insecure Deserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:31:41 +0000","dateModified":"Thu, 09 Jul 2026 08:31:41 +0000","description":"Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Insecure Deserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Insecure Deserialization
@@ -25,7 +25,7 @@ Insecure Deserialization
 
 Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code.
 
-In PHP, the most common vector is the native ``unserialize()`` function. When user-controlled data is passed to ``unserialize()``, an attacker can craft a malicious serialized payload that instantiates arbitrary classes available in the application's scope. By targeting classes that implement magic methods such as ``__wakeup()``, ``__destruct()``, or ``__toString()``, the attacker can chain method calls, known as a Property Oriented Programming chain, to achieve remote code execution.
+The most common vector is the native ``unserialize()`` function. When user-controlled data is passed to ``unserialize()``, an attacker can craft a malicious serialized payload that instantiates arbitrary classes available in the application's scope. By targeting classes that implement magic methods such as ``__wakeup()``, ``__destruct()``, or ``__toString()``, the attacker can chain method calls, known as a Property Oriented Programming chain, to achieve remote code execution.
 
 OWASP lists insecure deserialization as one of the Top 10 web application security risks.
 
@@ -50,6 +50,6 @@ Mitigations include: never deserializing untrusted data with native ``unserializ
 
 `Documentation <https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection>`__
 
-See also `OWASP: PHP Object Injection <https://owasp.org/www-community/vulnerabilities/PHP_Object_Injection>`_, `OWASP Top 10 A8: Insecure Deserialization <https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization>`_, `Developing a custom gadget chain for PHP deserialization <https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization>`_ and `The Quiet Shift Reshaping PHP Security <https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/>`_.
+See also `OWASP Top 10 A8: Insecure Deserialization <https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization>`_, `Developing a custom gadget chain for PHP deserialization <https://portswigger.net/web-security/deserialization/exploiting/lab-deserialization-developing-a-custom-gadget-chain-for-php-deserialization>`_ and `The Quiet Shift Reshaping PHP Security <https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/>`_.
 
 Related : :ref:`Serialization <serialization>`, :ref:`Unserialization <unserialize>`, :ref:`Object Injection <object-injection>`, :ref:`__wakeup() Method <-__wakeup>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Attack <attack>`, :ref:`Vulnerability <vulnerability>`, :ref:`OWASP <owasp>`, :ref:`Security <security>`, :ref:`Pop <pop>`, :ref:`Static Application Security Testing (SAST) <sast>`

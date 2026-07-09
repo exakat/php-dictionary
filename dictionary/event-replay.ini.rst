@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Replay","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 08:50:23 +0000","dateModified":"Tue, 30 Jun 2026 08:50:23 +0000","description":"Event replay is the process of re-reading stored events from an event store to reconstruct the state of an aggregate, rebuild a projection, or bootstrap a new view of the data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Replay.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Replay","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:41:56 +0000","dateModified":"Thu, 09 Jul 2026 08:41:56 +0000","description":"Event replay is the process of re-reading stored events from an event store to reconstruct the state of an aggregate, rebuild a projection, or bootstrap a new view of the data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Replay.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Event Replay
@@ -74,6 +74,4 @@ Temporal replay enables querying the state of the system at any point in the pas
 
 `Documentation <https://martinfowler.com/eaaDev/EventSourcing.html>`__
 
-See also `Martin Fowler: Event Sourcing <https://martinfowler.com/eaaDev/EventSourcing.html>`_.
-
-Related : :ref:`Event Store <event-store>`, :ref:`Event Sourcing <event-sourcing>`, :ref:`Event Streaming <event-streaming>`, :ref:`Snapshot <snapshot>`, :ref:`Domain Design Driven (DDD) <ddd>`
+Related : :ref:`Event Store <event-store>`, :ref:`Event Sourcing <event-sourcing>`, :ref:`Event Streaming <event-streaming>`, :ref:`Snapshot <snapshot>`, :ref:`Domain Design Driven (DDD) <ddd>`, :ref:`Temporal Replay <temporal-replay>`

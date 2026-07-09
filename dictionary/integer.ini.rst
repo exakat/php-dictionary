@@ -17,13 +17,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:44:50 +0000","dateModified":"Thu, 09 Jul 2026 07:44:50 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 integer
 -------
 
-An integer, or ``int`` is a number of the set ℤ = ``{..., -2, -1, 0, 1, 2, ...}``. It is limited by ``PHP_INT_MIN`` (lower bound) and ``PHP_INT_MAX`` (upper bound). 
+An integer, or ``int`` is a number of the set ℤ = ``{..., -2, -1, 0, 1, 2, ...}``. It is limited by ``PHP_INT_MIN``, the lower bound, and ``PHP_INT_MAX``, the upper bound. 
 
 Integers have several syntaxes: they may be written in binary, octal, decimal, hexadecimal and with ``_`` as a separator.
 

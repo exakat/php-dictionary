@@ -81,6 +81,7 @@ Index
    dictionary/anonymous-function.ini
    dictionary/anonymous.ini
    dictionary/anti-pattern.ini
+   dictionary/antlr4.ini
    dictionary/aot.ini
    dictionary/api-gateway.ini
    dictionary/api.ini
@@ -111,6 +112,8 @@ Index
    dictionary/array_column.ini
    dictionary/array_combine.ini
    dictionary/array_fill.ini
+   dictionary/array_find.ini
+   dictionary/array_find_key.ini
    dictionary/array_key_exists.ini
    dictionary/array_keys.ini
    dictionary/array_map.ini
@@ -232,6 +235,7 @@ Index
    dictionary/callback.ini
    dictionary/callstack.ini
    dictionary/camel-case.ini
+   dictionary/canary.ini
    dictionary/cancellation.ini
    dictionary/canonical.ini
    dictionary/cap-theorem.ini
@@ -487,6 +491,7 @@ Index
    dictionary/docker-container.ini
    dictionary/docker-image.ini
    dictionary/docker.ini
+   dictionary/doctrine.ini
    dictionary/document-database.ini
    dictionary/documentation.ini
    dictionary/dollar.ini
@@ -707,6 +712,7 @@ Index
    dictionary/hash-comparison.ini
    dictionary/hash-crypto.ini
    dictionary/hash-function.ini
+   dictionary/hash-table.ini
    dictionary/hash.ini
    dictionary/hash_equals.ini
    dictionary/haystack.ini
@@ -974,6 +980,7 @@ Index
    dictionary/move-semantics.ini
    dictionary/mro.ini
    dictionary/multi-byte.ini
+   dictionary/multi-pass-algorithm.ini
    dictionary/multidimensional-array.ini
    dictionary/multiple-dispatch.ini
    dictionary/multiple-return-value.ini
@@ -1017,6 +1024,7 @@ Index
    dictionary/new-without-parenthesis.ini
    dictionary/new.ini
    dictionary/nodiscard.ini
+   dictionary/nominal-type.ini
    dictionary/non-blocking.ini
    dictionary/non-breakable-space.ini
    dictionary/non-instantiable.ini
@@ -1077,6 +1085,7 @@ Index
    dictionary/operator-overloading.ini
    dictionary/operator-precedence.ini
    dictionary/operator.ini
+   dictionary/opinionated.ini
    dictionary/optimisation.ini
    dictionary/option-type.ini
    dictionary/option.ini
@@ -1252,6 +1261,8 @@ Index
    dictionary/raci.ini
    dictionary/rag.ini
    dictionary/railroad-programming.ini
+   dictionary/rainbow-table.ini
+   dictionary/random-access.ini
    dictionary/random.ini
    dictionary/random_cryptosafeengine.ini
    dictionary/random_engine.ini
@@ -1262,6 +1273,7 @@ Index
    dictionary/rbac.ini
    dictionary/rce.ini
    dictionary/rdbms.ini
+   dictionary/rdf-triple-store.ini
    dictionary/readability.ini
    dictionary/readable.ini
    dictionary/reading.ini
@@ -1366,6 +1378,7 @@ Index
    dictionary/semantics.ini
    dictionary/semicolon.ini
    dictionary/sensitiveparameter.ini
+   dictionary/sentinel.ini
    dictionary/seo.ini
    dictionary/separation-of-concerns.ini
    dictionary/separator.ini
@@ -1551,6 +1564,7 @@ Index
    dictionary/tempest.ini
    dictionary/template-metaprogramming.ini
    dictionary/template.ini
+   dictionary/temporal-replay.ini
    dictionary/temporary-expression.ini
    dictionary/temporary.ini
    dictionary/ternary.ini
