@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Stringable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``stringable`` is a type, which represents data that may be used as a string: either a string, a heredoc or a string constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Stringable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Stringable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:38:18 +0000","dateModified":"Mon, 13 Jul 2026 09:38:18 +0000","description":"``stringable`` is a type, which represents data that may be used as a string: either a string, a heredoc or a string constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Stringable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Stringable
@@ -24,24 +24,24 @@ Stringable
 
 ``stringable`` is a type, which represents data that may be used as a string: either a string, a heredoc or a string constant; or an object which has the ``__toString()`` method.
 
-Stringable is automatically added to any class (and subclass) that has the ``__toString()`` method, though it is recommended to add it explicitly.
+Stringable is automatically added to any class and subclasses that has the ``__toString()`` method, though it is recommended to add it explicitly.
 
 .. code-block:: php
    
    <?php
    
-   function foo(Stringable $s) {
-       print $s;
-   }
-   
-   class MyString implements Stringable {
-       function __toString() {
-           return __METHOD__;
+       function foo(Stringable $s) {
+           print $s;
        }
-   }
-   
-   foo('foo');    // foo
-   foo(new X());  // MyString::__toString
+       
+       class MyString implements Stringable {
+           function __toString() {
+               return __METHOD__;
+           }
+       }
+       
+       foo('foo');    // foo
+       foo(new X());  // MyString::__toString
    
    ?>
 

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Opinionated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:55:30 +0000","dateModified":"Thu, 09 Jul 2026 09:55:30 +0000","description":"A tool, library, or framework is called opinionated when it enforces a specific way of solving a problem: conventions for file structure, naming, architecture, or workflow, with little or no configuration to deviate from them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Opinionated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Opinionated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:14:18 +0000","dateModified":"Fri, 10 Jul 2026 09:14:18 +0000","description":"A tool, library, or framework is called opinionated when it enforces a specific way of solving a problem: conventions for file structure, naming, architecture, or workflow, with little or no configuration to deviate from them","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Opinionated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Opinionated
@@ -31,7 +31,5 @@ Opinionated tools trade flexibility for consistency and speed: once its conventi
 In the PHP ecosystem, Laravel is generally considered more opinionated than Symfony, which favors composability and bring-your-own-components. PHPUnit is opinionated about the naming and location of test methods, while Behat is opinionated about describing behavior in Gherkin.
 
 `Documentation <https://en.wikipedia.org/wiki/Convention_over_configuration>`__
-
-See also `Convention over configuration <https://en.wikipedia.org/wiki/Convention_over_configuration>`_.
 
 Related : :ref:`Framework <framework>`, :ref:`Boilerplate <boilerplate>`

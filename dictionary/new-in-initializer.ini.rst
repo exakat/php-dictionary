@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"New In Initializers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"It is possible to use a new expression for default values of static variables, parameter and constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New In Initializers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"New In Initializers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 07:58:30 +0000","dateModified":"Mon, 13 Jul 2026 07:58:30 +0000","description":"It is possible to use a new expression for default values of static variables, parameter and constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/New In Initializers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 New In Initializers
@@ -44,7 +44,7 @@ It is not possible to use a new operator in a property definition. All elements 
 
 `Documentation <https://wiki.php.net/rfc/new_in_initializers>`__
 
-See also `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_.
+See also `Initialize objects right into the constructor parameters in PHP 8.1 <https://www.amitmerchant.com/initialize-objects-right-into-the-constructor-parameters-in-php-81/>`_.
 
 Related : :ref:`new <new>`, :ref:`Static Variables <static-variable>`, :ref:`Constants <constant>`, :ref:`Static Constant <class-constant>`, :ref:`Parameter <parameter>`
 

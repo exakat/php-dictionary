@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"set_error_handler()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``set_error_handler()`` is a native PHP function, which replaces the default error handler from PHP with a custom one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/set_error_handler().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"set_error_handler()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:18:12 +0000","dateModified":"Mon, 13 Jul 2026 09:18:12 +0000","description":"``set_error_handler()`` is a native PHP function, which replaces the default error handler from PHP with a custom one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/set_error_handler().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 set_error_handler()
@@ -51,7 +51,7 @@ The callback in ``set_error_handler()`` returns a boolean. When it returns ``tru
            string $errstr,
            string $errfile = '',
            int $errline = 0,
-           array $errcontext = array()
+           array $errcontext = []
        ): bool {
            print 'A warning was detected: '.$errstr;
            
@@ -69,5 +69,7 @@ The callback in ``set_error_handler()`` returns a boolean. When it returns ``tru
 
 
 `Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
+
+See also `How to Convert PHP Errors, Notices & Warnings into Exceptions: Enhance Debugging Flow with set_error_handler <https://www.w3tutorials.net/blog/convert-errors-notices-warnings-into-exceptions/>`_.
 
 Related : :ref:`Try-catch <try>`, :ref:`trigger_error() <trigger_error>`, :ref:`Exception <exception>`, :ref:`PHP Handlers <handler>`, :ref:`Exit <exit>`, :ref:`display_errors <display_errors>`, :ref:`Error Reporting <error_reporting>`

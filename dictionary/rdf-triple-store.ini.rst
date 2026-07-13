@@ -34,6 +34,6 @@ Popular triple stores include Apache Jena / Fuseki, Virtuoso, Blazegraph and Gra
 
 See also `RDF - Resource Description Framework <https://www.w3.org/RDF/>`_ and `SPARQL Query Language <https://www.w3.org/TR/sparql11-query/>`_.
 
-Related : :ref:`Triple <triple>`, 
+Related : :ref:`Triple <triple>`, :ref:`SPARQL <sparql>`
 
 Related packages : `easyrdf/easyrdf <https://packagist.org/packages/easyrdf/easyrdf>`_

@@ -3,32 +3,32 @@
 .. _stream-processing:
 .. meta::
 	:description:
-		Event Streaming: Event streaming is a pattern where events are continuously published to an ordered, durable log (a stream), and consumers read from that log at their own pace, independently of producers.
+		Event Streaming: Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Event Streaming
-	:twitter:description: Event Streaming: Event streaming is a pattern where events are continuously published to an ordered, durable log (a stream), and consumers read from that log at their own pace, independently of producers
+	:twitter:description: Event Streaming: Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Event Streaming
 	:og:type: article
-	:og:description: Event streaming is a pattern where events are continuously published to an ordered, durable log (a stream), and consumers read from that log at their own pace, independently of producers
+	:og:description: Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/event-streaming.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Streaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:15:02 +0000","dateModified":"Tue, 30 Jun 2026 15:15:02 +0000","description":"Event streaming is a pattern where events are continuously published to an ordered, durable log (a stream), and consumers read from that log at their own pace, independently of producers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Streaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Streaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:45:28 +0000","dateModified":"Sat, 11 Jul 2026 14:45:28 +0000","description":"Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Streaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Event Streaming
 ---------------
 
-Event streaming is a pattern where events are continuously published to an ordered, durable log (a stream), and consumers read from that log at their own pace, independently of producers. Unlike message queues (where a message is consumed once and deleted), a stream is retained and can be replayed, and multiple consumer groups can read the same events independently.
+Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers. Unlike message queues, where a message is consumed once and deleted, a stream is retained and can be replayed, and multiple consumer groups can read the same events independently.
 
-The key properties of event streaming are: persistence (events are stored durably), ordering (events within a partition are ordered), and replayability (consumers can reset their offset and re-read events from the beginning or any point in time). These properties make event streaming suitable for event sourcing, real-time analytics, change data capture, and building multiple independent views from the same event log.
+The key properties of event streaming are: persistence where events are stored durably, ordering where events within a partition are ordered, and replayability where consumers can reset their offset and re-read events from the beginning or any point in time. These properties make event streaming suitable for event sourcing, real-time analytics, change data capture, and building multiple independent views from the same event log.
 
-Apache Kafka is the most widely used event streaming platform. AWS Kinesis and Google Cloud Pub/Sub provide managed alternatives. In PHP, producers publish events via the ``rdkafka`` extension or high-level libraries; consumers run as long-lived workers using RoadRunner, Swoole, or ReactPHP.
+Apache Kafka is the most widely used event streaming platform. AWS Kinesis and Google Cloud Pub/Sub provide managed alternatives. Producers publish events via the ``rdkafka`` extension or high-level libraries; consumers run as long-lived workers using RoadRunner, Swoole, or ReactPHP.
 
 .. code-block:: php
    

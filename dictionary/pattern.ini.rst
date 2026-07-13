@@ -1,6 +1,5 @@
 .. _pattern:
-.. _design pattern:
-.. _software pattern:
+.. _software-pattern:
 .. meta::
 	:description:
 		Pattern: A pattern is a named, reusable solution to a commonly recurring problem in software design.
@@ -18,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 08:16:36 +0000","dateModified":"Tue, 07 Jul 2026 08:16:36 +0000","description":"A pattern is a named, reusable solution to a commonly recurring problem in software design","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:57:43 +0000","dateModified":"Sat, 11 Jul 2026 14:57:43 +0000","description":"A pattern is a named, reusable solution to a commonly recurring problem in software design","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pattern
@@ -26,15 +25,15 @@ Pattern
 
 A pattern is a named, reusable solution to a commonly recurring problem in software design. Patterns are not finished code; they are templates that describe a proven structure, the problem it solves, and the trade-offs involved in applying it.
 
-The concept was popularised in software by the Gang of Four, Gamma, Helm, Johnson, Vlissides, in their 1994 book Design Patterns: Elements of Reusable Object-Oriented Software, which catalogued 23 patterns grouped into three categories:
+The concept was popularised in software by the Gang of Four, Gamma, Helm, Johnson, Vlissides, in their 1994 book ``Design Patterns: Elements of Reusable Object-Oriented Software``, which catalogued 23 patterns grouped into three categories:
 
 + Creational patterns manage object creation: singleton, factory method, abstract factory, builder, prototype
 + Structural patterns organise classes and objects: adapter, bridge, composite, decorator, facade, flyweight, proxy
 + Behavioural patterns define communication between objects: chain of responsibility, command, iterator, mediator, memento, observer, state, strategy, template method, visitor
 
-PHP supports all classical OOP patterns through its class system. Many patterns are also embedded in popular frameworks: Laravel uses Facade, Repository, and Observer; Symfony uses Decorator, Event Dispatcher (Observer), and Dependency Injection (Constructor Injection).
+PHP supports all classical OOP patterns through its class system. Many patterns are also embedded in popular frameworks. For example, Laravel uses Facade, Repository, and Observer, Symfony uses Decorator, Event Dispatcher, and Dependency Injection.
 
-Patterns have a broader scope beyond OOP: architectural patterns (MVC, CQRS, Event Sourcing), concurrency patterns, and enterprise integration patterns all describe recurring solutions at different levels of abstraction.
+Patterns have a broader scope beyond OOP: architectural patterns such as MVC, CQRS, Event Sourcing, etc, concurrency patterns, and enterprise integration patterns all describe recurring solutions at different levels of abstraction.
 
 A pattern applied in the wrong context becomes an anti-pattern.
 

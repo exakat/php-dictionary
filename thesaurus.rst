@@ -22,6 +22,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Concurent Version System (CVS) <cvs>`
 + :ref:`Continuous Delivery (CD) <cd>`
 + :ref:`Continuous Integration (CI) <ci>`
++ :ref:`Continuous Integration <continuous-integration>`
 + :ref:`Control Flow Graph (CFG) <control-flow-graph>`
 + :ref:`Copy On Write (COW) <copy-on-write>`
 + :ref:`Create, Read, Update And Delete (CRUD) <crud>`
@@ -43,6 +44,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Domain Name System (DNS) <dns>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
 + :ref:`Extensible Markup Language (XML) <xml>`
++ :ref:`Fast Artificial Neural Network (FANN) <fann>`
 + :ref:`FastCGI <fastcgi>`
 + :ref:`FastCGI Process Manager (FPM) <fpm>`
 + :ref:`File Transfer Protocol (FTP) <ftp>`
@@ -60,6 +62,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Hyper Text Transfer Protocol (HTTP) <http>`
 + :ref:`Hyper Text Transfer Protocol Secure (HTTPS) <https>`
 + :ref:`HyperText Markup Language (HTML) <html>`
++ :ref:`IMAP <imap>`
 + :ref:`Infrastructure as Code (IaC) <iac>`
 + :ref:`Interface Segregation Principle (ISP) <isp>`
 + :ref:`Internet Protocol (IP) <ip>`
@@ -90,6 +93,8 @@ List of acronyms, used in this dictionary.
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`One-Time Password (OTP) <otp>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
++ :ref:`OpenTelemetry <opentelemetry>`
++ :ref:`PCOV <pcov>`
 + :ref:`PDF <pdf>`
 + :ref:`PEAR <pear>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
@@ -104,6 +109,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
 + :ref:`Progressive Web App <pwa>`
++ :ref:`Protocol Buffers (protobuf) <protobuf>`
 + :ref:`Pull Request (PR) <pr>`
 + :ref:`RACI Model <raci>`
 + :ref:`RFC <rfc>`
@@ -116,6 +122,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Reserved For Future Use (RFU) <rfu>`
 + :ref:`Retrieval Augmented Generation (RAG) <rag>`
 + :ref:`Role Based Access Control (RBAC) <rbac>`
++ :ref:`SSH2 <ssh2>`
 + :ref:`Scalable Vector Graphics (SVG) <svg>`
 + :ref:`Search Engine Optimization (SEO) <seo>`
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
@@ -123,6 +130,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Server Sent Event (SSE) <sse>`
 + :ref:`Server-Side Request Forgery (SSRF) <ssrf>`
 + :ref:`Service-Oriented Architecture (SOA) <soa>`
++ :ref:`Shared Memory Operations (SHMOP) <shmop>`
 + :ref:`Simple Mail Transfer Protocol (SMTP) <smtp>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`Simple Object Access Protocol (SOAP) <soap>`
@@ -250,6 +258,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Compatibility <compatibility>`
 + :ref:`Compensation Logic <compensation-logic>`
 + :ref:`Compile <compile>`
++ :ref:`Compiler <compiler>`
 + :ref:`Complexity <complexity>`
 + :ref:`Component <component>`
 + :ref:`Concatenative <concatenative>`
@@ -337,13 +346,16 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Fingerprint <fingerprint>`
 + :ref:`Fire-and-forget <fire-and-forget>`
 + :ref:`First-Class Module <first-class-module>`
++ :ref:`Footgun <footgun>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Free <free>`
 + :ref:`Function-as-a-Service (FaaS) <faas>`
 + :ref:`Future <future>`
 + :ref:`Generalized Algebraic Data Type (GADT) <gadt>`
++ :ref:`Global State <global-state>`
 + :ref:`Graph <graph>`
++ :ref:`Green <green>`
 + :ref:`HTTP Method <http-method>`
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
@@ -393,6 +405,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Magic <magic>`
 + :ref:`Magic Code <magic-in-the-code>`
 + :ref:`Magic Numbers <magic-number>`
++ :ref:`Magic Values <magic-value>`
 + :ref:`Marketplace <marketplace>`
 + :ref:`Memory Arena <memory-arena>`
 + :ref:`Memory Leak <memory-leak>`
@@ -411,6 +424,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Multi-pass Algorithm <multi-pass-algorithm>`
 + :ref:`Multiple Dispatch <multiple-dispatch>`
 + :ref:`Multiple Return Values <multiple-return-value>`
++ :ref:`Mutable State <mutable-state>`
 + :ref:`N+1 Query Problem <n-query>`
 + :ref:`Name <name>`
 + :ref:`Name Conventions <name-convention>`
@@ -456,6 +470,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Ports And Adapters <ports-and-adapters>`
 + :ref:`Premature Optimization <premature-optimization>`
 + :ref:`Preprocessing <preprocess>`
++ :ref:`Profiling <profiling>`
 + :ref:`Progressive Web App <pwa>`
 + :ref:`Promise <promise>`
 + :ref:`Proprietary Source <proprietary-source>`
@@ -474,6 +489,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Refinement Type <refinement-type>`
 + :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
++ :ref:`Regression <regression>`
 + :ref:`Render <render>`
 + :ref:`Renderer <renderer>`
 + :ref:`Replay <replay>`
@@ -500,6 +516,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Service Discovery <service-discovery>`
 + :ref:`Service Registry <service-registry>`
 + :ref:`Service-Oriented Architecture (SOA) <soa>`
++ :ref:`Shared <shared>`
 + :ref:`Shared Database <shared-database>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
@@ -847,29 +864,43 @@ List of special PHP extensions.
 + :ref:`DOMParentNode <domparentnode>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Document Object Model (DOM) <dom>`
++ :ref:`Excimer <excimer>`
++ :ref:`Fast Artificial Neural Network (FANN) <fann>`
 + :ref:`Fibers <fibers>`
 + :ref:`GNU Multiple Precision (GMP) <gmp>`
++ :ref:`Gearman <gearman>`
 + :ref:`Graphic Draw (GD) <gd>`
++ :ref:`Haru (PDF) <haru>`
 + :ref:`Hash <hash>`
++ :ref:`IMAP <imap>`
 + :ref:`Iconv <iconv>`
 + :ref:`Internationalization Functions <intl>`
 + :ref:`Library Loading <library-loading>`
++ :ref:`MongoDB <mongodb>`
 + :ref:`Multibyte String <mbstring>`
 + :ref:`MySQL <mysql>`
 + :ref:`OpenSSL <openssl>`
++ :ref:`OpenSwoole <openswoole>`
++ :ref:`OpenTelemetry <opentelemetry>`
 + :ref:`Oracle <oracle>`
++ :ref:`PCOV <pcov>`
 + :ref:`PHP Data Objects (PDO) <pdo>`
 + :ref:`Phar <phar>`
 + :ref:`PostgreSQL <pgsql>`
 + :ref:`Process Control (pcntl) <pcntl>`
++ :ref:`Protocol Buffers (protobuf) <protobuf>`
 + :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`
 + :ref:`Random\Engine <random_engine>`
++ :ref:`RdKafka <rdkafka>`
 + :ref:`Readline <readline>`
 + :ref:`Reflection <reflection>`
 + :ref:`SNMP3 <snmp3>`
++ :ref:`SSH2 <ssh2>`
++ :ref:`Shared Memory Operations (SHMOP) <shmop>`
 + :ref:`Simple Network Management Protocol (SNMP) <snmp>`
 + :ref:`SimpleXML <simplexml>`
 + :ref:`Standard PHP Library (SPL) <spl>`
++ :ref:`Swoole <swoole>`
 + :ref:`Tokenizer <tokenizer>`
 + :ref:`URI Extension <uri-extension>`
 + :ref:`XMLwriter <xmlwriter>`
@@ -1020,6 +1051,7 @@ List of concepts that cover several fields, and usually require extra details to
 + :ref:`Bracket <bracket>`
 + :ref:`Canary <canary>`
 + :ref:`Case <case>`
++ :ref:`Chaining (disambiguation) <chaining>`
 + :ref:`Commit <commit>`
 + :ref:`Container <container>`
 + :ref:`Coverage <coverage>`
@@ -1033,6 +1065,7 @@ List of concepts that cover several fields, and usually require extra details to
 + :ref:`Encoding <encoding>`
 + :ref:`Entities <entity>`
 + :ref:`Extensions <extension>`
++ :ref:`Green <green>`
 + :ref:`Hash # <hash-character>`
 + :ref:`Hash <hash>`
 + :ref:`Hook <hook>`
@@ -1041,6 +1074,7 @@ List of concepts that cover several fields, and usually require extra details to
 + :ref:`Injection <injection>`
 + :ref:`LSP <lsp>`
 + :ref:`Leak <leak>`
++ :ref:`Lifecycle <lifecycle>`
 + :ref:`Link <link>`
 + :ref:`Log <log>`
 + :ref:`Minus - <minus>`
@@ -1051,6 +1085,7 @@ List of concepts that cover several fields, and usually require extra details to
 + :ref:`Queue <queue>`
 + :ref:`RFC <rfc>`
 + :ref:`Relative <relative>`
++ :ref:`Shared <shared>`
 + :ref:`Signature <signature>`
 + :ref:`Single <single>`
 + :ref:`Slash / <slash>`
@@ -1076,6 +1111,7 @@ List of features supported in other languages, but not natively by PHP
 + :ref:`Computed Property <computed-property>`
 + :ref:`Currying <currying>`
 + :ref:`Green Thread <green-thread>`
++ :ref:`Haru (PDF) <haru>`
 + :ref:`Hoisting <hoisting>`
 + :ref:`Hygienic Macro <hygienic-macro>`
 + :ref:`Macro <macro>`
@@ -1103,9 +1139,12 @@ List of adjective that are used with several distinct noun, and carry similar co
 + :ref:`Distributed <distributed>`
 + :ref:`Eponymous <eponymous>`
 + :ref:`Fat <fat>`
++ :ref:`Green <green>`
 + :ref:`Greenfield <green-field>`
 + :ref:`Inconsistent <inconsistent>`
++ :ref:`Infinite <infinite>`
 + :ref:`Opinionated <opinionated>`
++ :ref:`Shared <shared>`
 + :ref:`Synchronous <synchronous>`
 + :ref:`Temporary <temporary>`
 + :ref:`Testable <testable>`

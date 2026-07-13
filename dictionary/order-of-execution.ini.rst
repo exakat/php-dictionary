@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Order Of Execution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The order of execution is the sequence that PHP uses to run the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Order Of Execution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Order Of Execution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:13:14 +0000","dateModified":"Fri, 10 Jul 2026 09:13:14 +0000","description":"The order of execution is the sequence that PHP uses to run the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Order Of Execution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Order Of Execution
@@ -73,7 +73,5 @@ As a result, the rules for what must be defined before use depend on the kind of
 
 
 `Documentation <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`__
-
-See also `Early binding in PHP <https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html>`_.
 
 Related : :ref:`Type Checking <type-checking>`, :ref:`Linting <lint>`, :ref:`Compile <compile>`, :ref:`Early Binding <early-binding>`, :ref:`Class Hoisting <class-hoisting>`, :ref:`Class Autoloading <autoload>`, :ref:`Constants <constant>`, :ref:`include <include>`, :ref:`Execution <execution>`, :ref:`Hoisting <hoisting>`, :ref:`Global Code <global-code>`

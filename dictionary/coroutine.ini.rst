@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coroutine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Coroutines are methods whose execution may be suspended and resumed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coroutine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Coroutine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:12:26 +0000","dateModified":"Sat, 11 Jul 2026 09:12:26 +0000","description":"Coroutines are methods whose execution may be suspended and resumed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Coroutine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Coroutine
@@ -26,7 +26,7 @@ Coroutines are methods whose execution may be suspended and resumed.
 
 PHP generators are a sort of coroutines.
 
-swoole, openswoole and fibers extensions offer coroutines.
+Swoole, Openswoole and fibers extensions offer coroutines.
 
 .. code-block:: php
    
@@ -55,6 +55,6 @@ swoole, openswoole and fibers extensions offer coroutines.
 
 See also `Coroutine in PHP <https://openswoole.com/coroutine>`_.
 
-Related : :ref:`Generator <generator>`, :ref:`Blocking Wait <blocking-wait>`, :ref:`Stealth Generator <stealth-generator>`
+Related : :ref:`Generator <generator>`, :ref:`Blocking Wait <blocking-wait>`, :ref:`Stealth Generator <stealth-generator>`, :ref:`Actor Model <actor-model>`, :ref:`Channel <channel>`, :ref:`Continuation <continuation>`, :ref:`Green Thread <green-thread>`
 
 Related packages : `swow/swow <https://packagist.org/packages/swow/swow>`_, `swlib/saber <https://packagist.org/packages/swlib/saber>`_, `amphp/amp <https://packagist.org/packages/amphp/amp>`_

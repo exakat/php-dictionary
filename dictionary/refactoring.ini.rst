@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refactoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:11:58 +0000","dateModified":"Wed, 01 Jul 2026 10:11:58 +0000","description":"Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refactoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refactoring","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:36:25 +0000","dateModified":"Mon, 13 Jul 2026 09:36:25 +0000","description":"Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refactoring.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Refactoring
@@ -58,4 +58,4 @@ The constraint of rewriting the code without changing the external behavior is s
 
 See also `Refactoring without tests should be fine <https://matthiasnoback.nl/2022/10/refactoring-without-tests-should-be-fine/>`_, `Refactoring Guru <https://refactoring.guru/refactoring>`_ and `PHP Refactoring: The Art of Improving Code Quality and Maintainability <https://www.fuseweb.nl/en/blog/2023/05/10/php-refactoring-code-quality-maintainability>`_.
 
-Related : :ref:`Test <test>`, :ref:`Autowiring <autowiring>`, :ref:`Drop-in <drop-in>`, :ref:`Legacy <legacy>`, :ref:`Streamlining <streamlining>`, :ref:`Maintenance <maintenance>`, :ref:`Total Cost Of Ownership (TCO) <tco>`
+Related : :ref:`Test <test>`, :ref:`Autowiring <autowiring>`, :ref:`Drop-in <drop-in>`, :ref:`Legacy <legacy>`, :ref:`Streamlining <streamlining>`, :ref:`Maintenance <maintenance>`, :ref:`Total Cost Of Ownership (TCO) <tco>`, :ref:`Brownfield <brownfield>`, :ref:`Fat <fat>`, :ref:`Rector <rector>`, :ref:`Test-Driven Development <test-driven-development>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:07:29 +0000","dateModified":"Wed, 01 Jul 2026 10:07:29 +0000","description":"A property can be declared with the readonly modifier, which prevents modification of the property after initialization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 14:50:56 +0000","dateModified":"Fri, 10 Jul 2026 14:50:56 +0000","description":"A property can be declared with the readonly modifier, which prevents modification of the property after initialization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Readonly
@@ -56,6 +56,6 @@ A class may be readonly since version 8.2, making all of of its properties reado
 
 See also `PHP 8.1: Readonly Properties <https://php.watch/versions/8.1/readonly>`_ and `The Hidden Surprises of PHP Readonly Properties <https://phpfashion.com/en/php-readonly-properties>`_.
 
-Related : :ref:`Class <class>`, :ref:`__clone() Method <-__clone>`, :ref:`Properties <property>`, :ref:`Clone <clone>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Var <var>`, :ref:`Writeable <writeable>`
+Related : :ref:`Class <class>`, :ref:`__clone() Method <-__clone>`, :ref:`Properties <property>`, :ref:`Clone <clone>`, :ref:`Property Type Declaration <type-declaration-property>`, :ref:`Var <var>`, :ref:`Writeable <writeable>`, :ref:`Ownership <borrow-checking>`, :ref:`Record Type <record-type>`, :ref:`Struct Type <struct-type>`, :ref:`Type System <type-system>`
 
 Added in PHP 8.1

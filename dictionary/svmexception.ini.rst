@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SVMException","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The SVMException exception is thrown by the ``SVM::train()`` method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SVMException.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"SVMException","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 08:03:36 +0000","dateModified":"Mon, 13 Jul 2026 08:03:36 +0000","description":"The SVMException exception is thrown by the ``SVM::train()`` method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/SVMException.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 SVMException
 ------------
 
-The SVMException exception is thrown by the ``SVM::train()`` method. It happens when the model could not be trained.
+The SVMException exception is thrown by the ``SVM::train()`` method. It happens when the model could not be trained. More generally, ``SVMException`` is the error class used throughout the ``svm`` extension, which provides PHP bindings to the ``libsvm`` library for support vector machine classification and regression. It can also be thrown by other methods, such as ``SVM::crossvalidate()``, ``SVMModel::load()``, or ``SVMModel::save()``, typically because of malformed training data, invalid kernel or cost parameters, or file I/O failures.
 
 .. code-block:: php
    

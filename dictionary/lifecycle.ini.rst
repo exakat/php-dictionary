@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lifecycle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:51 +0000","dateModified":"Fri, 19 Jun 2026 21:24:51 +0000","description":"The lifecycle of an application spans from initial development to decommissioning, covering stages like specifications, prototyping, coding, testing, deployment, maintenance, and eventual retirement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lifecycle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Lifecycle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:51:00 +0000","dateModified":"Sat, 11 Jul 2026 14:51:00 +0000","description":"The lifecycle of an application spans from initial development to decommissioning, covering stages like specifications, prototyping, coding, testing, deployment, maintenance, and eventual retirement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Lifecycle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Lifecycle
@@ -30,7 +30,7 @@ The lifecycle is different depending on the team building it, and factors like c
 
 As such, PHP itself has a lifecycle, with the regular release of a new version every year.
 
-In PHP, lifecycle also refers to the execution cycle or request lifecycle, from starting the PHP engine, executing the code and terminating.
+Lifecycle also refers to the execution cycle or request lifecycle, from starting the PHP engine, executing the code and terminating.
 
 
 `Documentation <https://en.wikipedia.org/wiki/Systems_development_life_cycle>`__

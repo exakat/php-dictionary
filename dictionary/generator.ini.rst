@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:12:32 +0000","dateModified":"Fri, 10 Jul 2026 09:12:32 +0000","description":"Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Generator
@@ -36,16 +36,17 @@ Generators are also used to implement asynchronous properties: they may stop exe
    
    <?php
    
-   function evenIntegers() {
-       for ($i = 0; $i < 10; ++$i) {
-           yield 2 * $i;
+       function evenIntegers() {
+           for ($i = 0; $i < 10; ++$i) {
+               yield 2 * $i;
+           }
        }
-   }
+       
+       foreach (evenInteger() as $number) {
+           echo "$number ";
+       }
+       echo "\n";
    
-   foreach (evenInteger() as $number) {
-       echo "$number ";
-   }
-   echo "\n";
    ?>
 
 
@@ -53,4 +54,4 @@ Generators are also used to implement asynchronous properties: they may stop exe
 
 See also `Do generators really reduce the memory usage? <https://phpdelusions.net/articles/generators>`_, `PHP Generators From Scratch <https://alanstorm.com/php-generators-from-scratch/>`_ and `Unlocking PHP Generators: Revolutionizing Memory Efficiency <https://itnext.io/unlocking-php-generators-revolutionizing-memory-efficiency-c6b894aacd22>`_.
 
-Related : :ref:`Yield <yield>`, :ref:`yield from Keyword <yield-from>`, :ref:`Return Type <return-type>`, :ref:`Async <async>`, :ref:`ClosedGeneratorException <closedgeneratorexception>`, :ref:`Coroutine <coroutine>`, :ref:`iterator_to_array() <iterator_to_array>`, :ref:`range() <range>`, :ref:`Stealth Generator <stealth-generator>`
+Related : :ref:`Yield <yield>`, :ref:`yield from Keyword <yield-from>`, :ref:`Return Type <return-type>`, :ref:`Async <async>`, :ref:`ClosedGeneratorException <closedgeneratorexception>`, :ref:`Coroutine <coroutine>`, :ref:`iterator_to_array() <iterator_to_array>`, :ref:`range() <range>`, :ref:`Stealth Generator <stealth-generator>`, :ref:`Continuation <continuation>`, :ref:`Lazy Evaluation <lazy-evaluation>`, :ref:`List Comprehension <list-comprehension>`, :ref:`Range Type <range-type>`

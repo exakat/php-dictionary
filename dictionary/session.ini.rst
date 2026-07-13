@@ -1,28 +1,28 @@
 .. _session:
 .. meta::
 	:description:
-		Session: Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server.
+		Session: Session support consists of a way to preserve certain data across subsequent accesses to the web server.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Session
-	:twitter:description: Session: Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server
+	:twitter:description: Session: Session support consists of a way to preserve certain data across subsequent accesses to the web server
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Session
 	:og:type: article
-	:og:description: Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server
+	:og:description: Session support consists of a way to preserve certain data across subsequent accesses to the web server
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Session","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Session.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Session","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:02:58 +0000","dateModified":"Sat, 11 Jul 2026 09:02:58 +0000","description":"Session support consists of a way to preserve certain data across subsequent accesses to the web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Session.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Session
 -------
 
-Session support in PHP consists of a way to preserve certain data across subsequent accesses to the web server. 
+Session support consists of a way to preserve certain data across subsequent accesses to the web server. 
 
 By default, each query to a webserver is independent from the others. With session, it is possible to keep some data on the server, and retrieve them at each access.
 

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:26 +0000","dateModified":"Tue, 30 Jun 2026 09:14:26 +0000","description":"Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:11 +0000","dateModified":"Sat, 11 Jul 2026 09:06:11 +0000","description":"Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polling
@@ -26,7 +26,7 @@ Polling
 
 Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached.
 
-In PHP, polling is common when waiting for asynchronous results: checking a queue, a database row, a file, or a socket. Short polling loops with a ``sleep()`` or ``usleep()`` call between iterations, while long polling holds the HTTP connection open until the server has a response.
+Polling is common when waiting for asynchronous results: checking a queue, a database row, a file, or a socket. Short polling loops with a ``sleep()`` or ``usleep()`` call between iterations, while long polling holds the HTTP connection open until the server has a response.
 
 ``stream_select()`` is the native PHP primitive for polling multiple streams simultaneously without busy-waiting. For process-level polling, ``pcntl_waitpid()`` with the ``WNOHANG`` flag avoids blocking.
 

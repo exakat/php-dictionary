@@ -2,28 +2,28 @@
 .. _preloading:
 .. meta::
 	:description:
-		OPcache Preloading: OPcache preloading, introduced in PHP 7.
+		OPcache Preloading: OPcache preloading, introduced in version 7.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: OPcache Preloading
-	:twitter:description: OPcache Preloading: OPcache preloading, introduced in PHP 7
+	:twitter:description: OPcache Preloading: OPcache preloading, introduced in version 7
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: OPcache Preloading
 	:og:type: article
-	:og:description: OPcache preloading, introduced in PHP 7
+	:og:description: OPcache preloading, introduced in version 7
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/opcache-preloading.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OPcache Preloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:20:26 +0000","dateModified":"Tue, 30 Jun 2026 15:20:26 +0000","description":"OPcache preloading, introduced in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OPcache Preloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OPcache Preloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:09:53 +0000","dateModified":"Sat, 11 Jul 2026 09:09:53 +0000","description":"OPcache preloading, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OPcache Preloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OPcache Preloading
 ------------------
 
-OPcache preloading, introduced in PHP 7.4, allows loading PHP files into shared memory at PHP-FPM startup so they are permanently available to all worker processes without any parsing overhead on each request.
+OPcache preloading, introduced in version 7.4, allows loading PHP files into shared memory at PHP-FPM startup so they are permanently available to all worker processes without any parsing overhead on each request.
 
 A preload script is specified with ``opcache.preload`` in ``php.ini``. All files required or compiled in that script are cached for the lifetime of the PHP-FPM master process. Changes to preloaded files require a PHP-FPM restart to take effect.
 
@@ -32,18 +32,19 @@ Preloading is most effective for framework core files, base classes, and heavily
 .. code-block:: php
    
    <?php
-   // preload.php  —  referenced in php.ini:
-   // opcache.preload = /var/www/preload.php
-   // opcache.preload_user = www-data
    
-   // Preload all PHP files from the framework kernel
-   $dir  = new RecursiveDirectoryIterator('/var/www/vendor/symfony/http-kernel');
-   $iter = new RecursiveIteratorIterator($dir);
-   
-   foreach ($iter as $file) {
-       if ($file->getExtension() === 'php') {
-           opcache_compile_file($file->getPathname());
-       }
+       // preload.php  —  referenced in php.ini:
+       // opcache.preload = /var/www/preload.php
+       // opcache.preload_user = www-data
+       
+       // Preload all PHP files from the framework kernel
+       $dir  = new RecursiveDirectoryIterator('/var/www/vendor/symfony/http-kernel');
+       $iter = new RecursiveIteratorIterator($dir);
+       
+       foreach ($iter as $file) {
+           if ($file->getExtension() === 'php') {
+               opcache_compile_file($file->getPathname());
+           }
    }
    
    ?>

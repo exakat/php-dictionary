@@ -51,4 +51,4 @@ PHP classes are not hoisted either: a class must be declared, autoloaded, before
 
 See also `What is Hoisting in JavaScript? <https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/>`_.
 
-Related : :ref:`Class Hoisting <class-hoisting>`, :ref:`Class Autoloading <autoload>`, :ref:`Undefined <undefined>`, :ref:`Compile <compilation>`, :ref:`Cache <cache>`, :ref:`Order Of Execution <order-of-execution>`
+Related : :ref:`Class Hoisting <class-hoisting>`, :ref:`Class Autoloading <autoload>`, :ref:`Undefined <undefined>`, :ref:`Compiler <compilation>`, :ref:`Cache <cache>`, :ref:`Order Of Execution <order-of-execution>`

@@ -1,28 +1,28 @@
 .. _overriding:
 .. meta::
 	:description:
-		Overriding: Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class.
+		Overriding: Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Overriding
-	:twitter:description: Overriding: Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class
+	:twitter:description: Overriding: Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Overriding
 	:og:type: article
-	:og:description: Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class
+	:og:description: Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/overriding.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","name":"Overriding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:27:05 +0000","dateModified":"Fri, 19 Jun 2026 21:27:05 +0000","description":"Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Overriding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/%s::%s() has #[\\Override] attribute, but no matching parent method exists.html","name":"Overriding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:19:09 +0000","dateModified":"Fri, 10 Jul 2026 09:19:09 +0000","description":"Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Overriding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Overriding
 ----------
 
-Overriding in PHP is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class.
+Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class.
 
 Child classes may override constant values, properties and methods. 
 

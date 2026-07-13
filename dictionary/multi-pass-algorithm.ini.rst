@@ -34,4 +34,4 @@ Exakat itself follows a multi-pass approach: it tokenizes the source, builds an 
 
 See also `Multi-pass compiler <https://en.wikipedia.org/wiki/Multi-pass_compiler>`_.
 
-Related : :ref:`Parser <parser>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, , :ref:`Tokenizer <tokenizer>`
+Related : :ref:`Parser <parser>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Compiler <compiler>`, :ref:`Tokenizer <tokenizer>`

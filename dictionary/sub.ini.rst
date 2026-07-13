@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sub (prefix)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:10 +0000","dateModified":"Fri, 19 Jun 2026 21:24:10 +0000","description":"``sub`` is a prefix, that is added to existing structure, to express that they are depending on a larger similar structure, which acts as a parent ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sub (prefix).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sub (prefix)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:16:37 +0000","dateModified":"Fri, 10 Jul 2026 09:16:37 +0000","description":"``sub`` is a prefix, that is added to existing structure, to express that they are depending on a larger similar structure, which acts as a parent ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sub (prefix).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sub (prefix)
@@ -27,8 +27,8 @@ Sub (prefix)
 
 It applies to several concepts: 
 
-+ subclasses: classes that extends another class
-+ subnamespaces: a namespace that share a prefix with another one
++ Subclasses: classes that extends another class
++ Subnamespaces: a namespace that share a prefix with another one
 
 While ``sub-`` is a generic prefix, it is not applied to every possible words, as they are seldom used. It may still produce neologisms, which sound funny, but may become mainstream. For example, a ``sub-interface`` makes sense, but is not used; a sub-trait makes no sense.
 

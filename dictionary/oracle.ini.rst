@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Oracle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Oracle is a relational database management system developed by Oracle Corporation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Oracle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Oracle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:13:30 +0000","dateModified":"Fri, 10 Jul 2026 09:13:30 +0000","description":"Oracle is a relational database management system developed by Oracle Corporation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Oracle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Oracle
@@ -49,6 +49,6 @@ The term ``oracle`` is also used in testing to describe the mechanism by which a
 
 `Documentation <https://www.php.net/manual/en/book.oci8.php>`__
 
-See also `OCI8 Extension — PHP Manual <https://www.php.net/manual/en/book.oci8.php>`_ and `PDO_OCI — PHP Manual <https://www.php.net/manual/en/ref.pdo-oci.php>`_.
+See also `PDO_OCI — PHP Manual <https://www.php.net/manual/en/ref.pdo-oci.php>`_.
 
 Related : :ref:`Database <database>`, :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`MySQL <mysql>`, :ref:`Database Abstraction Layer (DBA) Extension <dba>`, :ref:`SQL Database <sql-database>`

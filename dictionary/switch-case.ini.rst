@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A switch case, also called case, is an option in a ``switch()`` or a ``match()`` expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Switch Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:17:09 +0000","dateModified":"Fri, 10 Jul 2026 09:17:09 +0000","description":"A switch case, also called case, is an option in a ``switch()`` or a ``match()`` expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Switch Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Switch Case
@@ -24,9 +24,9 @@ Switch Case
 
 A switch case, also called case, is an option in a ``switch()`` or a ``match()`` expression. 
 
-In a switch(), several cases may be used in a row, to apply the same code. This is not possible with ``match()``.
+In a ``switch()``, several cases may be used in a row, to apply the same code. This is not possible with ``match()``.
 
-In a switch(), the case's code is executed until the end of the ``switch()``, or a ``break`` command. A case that uses its own code, and the following case's code is called a fallthrough. 
+In a`` switch()``, the case's code is executed until the end of the ``switch()``, or a ``break`` command. A case that uses its own code, and the following case's code is called a fallthrough. 
 
 There is a default case, which is called when all other cases fail.
 

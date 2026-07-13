@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monomorphization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:19:50 +0000","dateModified":"Tue, 07 Jul 2026 05:19:50 +0000","description":"Monomorphization is a compile-time technique used to optimize generic or polymorphic code by generating separate, type-specific versions of a function or class for each concrete type it is used with","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monomorphization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monomorphization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:39:21 +0000","dateModified":"Sat, 11 Jul 2026 14:39:21 +0000","description":"Monomorphization is a compile-time technique used to optimize generic or polymorphic code by generating separate, type-specific versions of a function or class for each concrete type it is used with","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monomorphization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Monomorphization
@@ -32,7 +32,7 @@ The opposite approach is called type erasure: a single generic implementation op
 
 PHP does not implement monomorphization directly because it has no generics at the language level. However, PHP's JIT compiler performs a related optimization called type specialization or opcode specialization: once the runtime observes that a variable consistently holds a specific type, it emits a native-code path for that type only. This is dynamic, profile-guided monomorphization.
 
-Understanding monomorphization helps explain both the performance ceiling of generic code in languages that support it and the design trade-offs in PHP's JIT strategy.
+Understanding monomorphization helps explain both the performance ceiling of generic code in languages that support it and the design trade-offs of the JIT strategy.
 
 `Documentation <https://en.wikipedia.org/wiki/Monomorphization>`__
 

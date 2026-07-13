@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"IteratorAggregate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``IteratorAggregate`` is an interface to create a custom iterator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/IteratorAggregate.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"IteratorAggregate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:08:02 +0000","dateModified":"Sun, 12 Jul 2026 20:08:02 +0000","description":"``IteratorAggregate`` is an interface to create a custom iterator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/IteratorAggregate.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 IteratorAggregate
@@ -33,40 +33,41 @@ It also suggest that several iterators may be merged in one, by creating a class
    
    <?php
    
-   declare(strict_types=1);
-   
-   class MergedIteratorAggregate implements IteratorAggregate
-   {
-       /** @var iterable[] */
-       private array $iterables = [];
-   
-       public function addIterable(iterable $iterable): void
+       declare(strict_types=1);
+       
+       class MergedIteratorAggregate implements IteratorAggregate
        {
-           $this->iterables[] = $iterable;
-       }
-   
-       public function getIterator(): Traversable
-       {
-           foreach ($this->iterables as $iterable) {
-               // yield from works with arrays AND Traversable objects
-               yield from $iterable;
+           /** @var iterable[] */
+           private array $iterables = [];
+       
+           public function addIterable(iterable $iterable): void
+           {
+               $this->iterables[] = $iterable;
+           }
+       
+           public function getIterator(): Traversable
+           {
+               foreach ($this->iterables as $iterable) {
+                   // yield from works with arrays AND Traversable objects
+                   yield from $iterable;
+               }
            }
        }
-   }
+       
+       $x = new MergedIteratorAggregate();
+       
+       function foo() {
+           yield rand(0, 10);
+       
+       }
+       
+       // Using iterator with generators
+       $x->addIterable(foo());
+       $x->addIterable(foo());
+       foreach($x as $y) {
+           print $y.PHP_EOL;
+       }
    
-   $x = new MergedIteratorAggregate();
-   
-   function foo() {
-       yield rand(0, 10);
-   
-   }
-   
-   // Using iterator with generators
-   $x->addIterable(foo());
-   $x->addIterable(foo());
-   foreach($x as $y) {
-       print $y.PHP_EOL;
-   }
    ?>
 
 

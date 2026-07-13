@@ -47,4 +47,4 @@ Random access also applies to files: ``fopen()`` combined with ``fseek()`` lets 
 
 See also `Random access <https://en.wikipedia.org/wiki/Random_access>`_.
 
-Related : :ref:`Array, [] <array>`, :ref:`Hash Table <hash-table>`, 
+Related : :ref:`Array, [] <array>`, :ref:`Hash Table <hash-table>`, :ref:`fseek() <fseek>`

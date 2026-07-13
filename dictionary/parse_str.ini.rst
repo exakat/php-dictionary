@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"parse_str()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``parse_str()`` parses a query string and extracts its components, name and value, in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/parse_str().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"parse_str()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:08:42 +0000","dateModified":"Sat, 11 Jul 2026 09:08:42 +0000","description":"``parse_str()`` parses a query string and extracts its components, name and value, in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/parse_str().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 parse_str()
@@ -26,7 +26,7 @@ parse_str()
 
 The resulting array uses the names of the variables in the query string as keys, and the value in the query string as values. 
 
-``parse_str()`` handles some special conventions: ``[]`` turns the variable into an array, including multidimensional arrays and hash. Dots ``.`` and spaces `` `` are replaced automatically with underscore ``_``, as they are not allowed in PHP variables. This is a legacy leftover, as no variable is created anymore.
+``parse_str()`` handles some special conventions: ``[]`` turns the variable into an array, including multidimensional arrays and hash. Dots ``.`` and spaces `` `` are replaced automatically with underscore ``_``, as they are not allowed in variables. This is a legacy leftover, as no variable is created anymore.
 
 All parsed values are strings or arrays. They may be numeric strings, though.
 

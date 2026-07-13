@@ -47,6 +47,6 @@ Because ``0`` and the empty string are valid, yet falsy, array keys, the result 
 
 See also `PHP RFC: array_find <https://wiki.php.net/rfc/array_find>`_.
 
-Related : :ref:`array_find() <array_find>`, :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`array_search <array_search>`, 
+Related : :ref:`array_find() <array_find>`, :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`array_search <array_search>`, :ref:`array_key_first() <array_key_first>`
 
 Added in PHP 8.4

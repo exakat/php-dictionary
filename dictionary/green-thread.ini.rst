@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Green Thread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:29:00 +0000","dateModified":"Thu, 09 Jul 2026 07:29:00 +0000","description":"Green threads, also called goroutines in Go, virtual threads in Java 21+, or lightweight threads in Erlang\/Haskell, are user-space threads managed entirely by the language runtime rather than the operating system kernel","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Green Thread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Green Thread","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:18:59 +0000","dateModified":"Mon, 13 Jul 2026 09:18:59 +0000","description":"Green threads, also called goroutines in Go, virtual threads in Java 21+, or lightweight threads in Erlang\/Haskell, are user-space threads managed entirely by the language runtime rather than the operating system kernel","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Green Thread.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Green Thread
@@ -87,6 +87,6 @@ None of these match the ergonomics of goroutines, where spawning a concurrent ta
 
 See also `Go: Goroutines <https://go.dev/tour/concurrency/1>`_, `Java 21 Virtual Threads <https://openjdk.org/jeps/444>`_, `Swoole coroutines <https://wiki.swoole.com/en/#/coroutine>`_, `PHP Fibers RFC <https://wiki.php.net/rfc/fibers>`_ and `AMPHP <https://amphp.org/>`_.
 
-Related : :ref:`Fibers <fibers>`, :ref:`Coroutine <coroutine>`, :ref:`Concurrency <concurrency>`, :ref:`Asynchronous <asynchronous>`, :ref:`Async <async>`, :ref:`Multithreading <multithreading>`, :ref:`Thread <thread>`
+Related : :ref:`Fibers <fibers>`, :ref:`Coroutine <coroutine>`, :ref:`Concurrency <concurrency>`, :ref:`Asynchronous <asynchronous>`, :ref:`Async <async>`, :ref:`Multithreading <multithreading>`, :ref:`Thread <thread>`, :ref:`Green <green>`, :ref:`OpenSwoole <openswoole>`, :ref:`Semaphore <sem>`, :ref:`Swoole <swoole>`
 
 Related packages : `amphp/amp <https://packagist.org/packages/amphp/amp>`_, `react/event-loop <https://packagist.org/packages/react/event-loop>`_

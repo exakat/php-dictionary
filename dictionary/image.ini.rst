@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Image","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:17 +0000","dateModified":"Fri, 19 Jun 2026 21:24:17 +0000","description":"Images may be different things: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Image.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Image","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:18:39 +0000","dateModified":"Mon, 13 Jul 2026 09:18:39 +0000","description":"Images may be different things: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Image.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Image
@@ -24,7 +24,7 @@ Image
 
 Images may be different things: 
 
-+ A visual representation. PHP has several extensions to handle images: ``imagick``, ``gd``. 
++ A visual representation. PHP has several extensions to handle images: ``imagick``, ``gd``
 + A Docker image: a pre-packaged snapshot of an application and everything it needs to run.
 
 
@@ -32,4 +32,4 @@ Images may be different things:
 
 See also `How to Store Images in SQLite with PHP <https://www.twilio.com/en-us/blog/developers/tutorials/building-blocks/store-images-sqlite-php>`_.
 
-Related : :ref:`JPEG <jpg>`, :ref:`PNG <png>`, :ref:`GIF <gif>`, :ref:`Scalable Vector Graphics (SVG) <svg>`, :ref:`Docker <docker>`, :ref:`Docker Image <docker-image>`, :ref:`Docker Container <docker-container>`, :ref:`PDF <pdf>`
+Related : :ref:`JPEG <jpg>`, :ref:`PNG <png>`, :ref:`GIF <gif>`, :ref:`Scalable Vector Graphics (SVG) <svg>`, :ref:`Docker <docker>`, :ref:`Docker Image <docker-image>`, :ref:`Docker Container <docker-container>`, :ref:`PDF <pdf>`, :ref:`Image Injection <image-injection>`, :ref:`Lossless <lossless>`, :ref:`Lossy <lossy>`, :ref:`Steganography <steganography>`

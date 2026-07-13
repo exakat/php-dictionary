@@ -74,6 +74,6 @@ Code generation differs from metaprogramming in that it produces static files be
 
 See also `nikic/php-parser <https://github.com/nikic/PHP-Parser>`_, `Rector <https://getrector.com/>`_ and `ocramius/proxy-manager <https://github.com/Ocramius/ProxyManager>`_.
 
-Related : :ref:`Code Generator <code-generator>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Template Metaprogramming (TMP) <template-metaprogramming>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Attribute <attribute>`, :ref:`Reflection <reflection>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, , :ref:`Scaffolding <scaffolding>`
+Related : :ref:`Code Generator <code-generator>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Template Metaprogramming (TMP) <template-metaprogramming>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Attribute <attribute>`, :ref:`Reflection <reflection>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Rector <rector>`, :ref:`Scaffolding <scaffolding>`
 
 Related packages : `nikic/php-parser <https://packagist.org/packages/nikic/php-parser>`_, `ocramius/proxy-manager <https://packagist.org/packages/ocramius/proxy-manager>`_

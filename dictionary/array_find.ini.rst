@@ -47,6 +47,6 @@ Since ``array_find()`` returns ``null`` when nothing matches, and ``null`` may a
 
 See also `PHP RFC: array_find <https://wiki.php.net/rfc/array_find>`_.
 
-Related : :ref:`array_find_key() <array_find_key>`, , :ref:`array_search <array_search>`, :ref:`array_walk() <array_walk>`
+Related : :ref:`array_find_key() <array_find_key>`, :ref:`array_filter() <array_filter>`, :ref:`array_search <array_search>`, :ref:`array_walk() <array_walk>`
 
 Added in PHP 8.4

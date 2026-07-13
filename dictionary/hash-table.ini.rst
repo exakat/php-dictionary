@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash Table","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 10:27:07 +0000","dateModified":"Thu, 09 Jul 2026 10:27:07 +0000","description":"A hash table is a data structure that stores key-value pairs, and uses a hash function to compute an index, called a bucket, from the key, so that a value can be inserted, looked up, or deleted in average constant time ``O(1)``, regardless of the size of the table","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash Table.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Hash Table","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 19:55:00 +0000","dateModified":"Sun, 12 Jul 2026 19:55:00 +0000","description":"A hash table is a data structure that stores key-value pairs, and uses a hash function to compute an index, called a bucket, from the key, so that a value can be inserted, looked up, or deleted in average constant time ``O(1)``, regardless of the size of the table","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Hash Table.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Hash Table
@@ -44,7 +44,5 @@ Every PHP array is, internally, an ordered hash table: the Zend Engine's ``HashT
 
 
 `Documentation <https://en.wikipedia.org/wiki/Hash_table>`__
-
-See also `Hash table <https://en.wikipedia.org/wiki/Hash_table>`_.
 
 Related : :ref:`Hash <hash>`, :ref:`Array, [] <array>`, :ref:`Random Access <random-access>`, :ref:`Rainbow Table <rainbow-table>`, :ref:`Bucket <bucket>`

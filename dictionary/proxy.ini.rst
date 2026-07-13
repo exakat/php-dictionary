@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Proxy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A proxy class is a structural design pattern that provides a substitute or placeholder for another object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Proxy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Proxy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:05:50 +0000","dateModified":"Sat, 11 Jul 2026 09:05:50 +0000","description":"A proxy class is a structural design pattern that provides a substitute or placeholder for another object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Proxy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Proxy
@@ -29,40 +29,40 @@ A proxy implements the same interface as the real subject, so it can be used whe
 
 Common proxy types are: virtual proxy, for lazy initialization, protection proxy, for access control, logging proxy, for recording operations for audit or debugging, and caching proxy, for storing results to avoid repeated work.
 
-In PHP, proxy classes are often built using magic methods such as ``__call()``, ``__get()``, and ``__set()`` to intercept and forward access transparently. PHP 8.4 also introduced native lazy objects in the engine, which implement the virtual proxy pattern at the language level.
+Proxy classes are often built using magic methods such as ``__call()``, ``__get()``, and ``__set()`` to intercept and forward access transparently. PHP 8.4 also introduced native lazy objects in the engine, which implement the virtual proxy pattern at the language level.
 
 .. code-block:: php
    
    <?php
    
-   interface UserRepository {
-       public function find(int $id): array;
-   }
-   
-   class RealUserRepository implements UserRepository {
-       public function find(int $id): array {
-           // expensive database call
-           return ['id' => $id, 'name' => 'Alice'];
+       interface UserRepository {
+           public function find(int $id): array;
        }
-   }
-   
-   class CachingUserRepositoryProxy implements UserRepository {
-       private array $cache = [];
-   
-       public function __construct(private UserRepository $real) {}
-   
-       public function find(int $id): array {
-           if (!isset($this->cache[$id])) {
-               $this->cache[$id] = $this->real->find($id);
+       
+       class RealUserRepository implements UserRepository {
+           public function find(int $id): array {
+               // expensive database call
+               return ['id' => $id, 'name' => 'Alice'];
            }
-   
-           return $this->cache[$id];
        }
-   }
-   
-   $repo = new CachingUserRepositoryProxy(new RealUserRepository());
-   $user = $repo->find(1); // hits the database
-   $user = $repo->find(1); // served from cache
+       
+       class CachingUserRepositoryProxy implements UserRepository {
+           private array $cache = [];
+       
+           public function __construct(private UserRepository $real) {}
+       
+           public function find(int $id): array {
+               if (!isset($this->cache[$id])) {
+                   $this->cache[$id] = $this->real->find($id);
+               }
+       
+               return $this->cache[$id];
+           }
+       }
+       
+       $repo = new CachingUserRepositoryProxy(new RealUserRepository());
+       $user = $repo->find(1); // hits the database
+       $user = $repo->find(1); // served from cache
    
    ?>
 

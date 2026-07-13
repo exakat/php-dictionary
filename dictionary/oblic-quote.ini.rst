@@ -17,15 +17,15 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Oblic Quotes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Oblic quotes, also called backticks, `` \\` `` were used to make a shell call to the operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Oblic Quotes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Oblic Quotes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:14:11 +0000","dateModified":"Sat, 11 Jul 2026 09:14:11 +0000","description":"Oblic quotes, also called backticks, `` \\` `` were used to make a shell call to the operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Oblic Quotes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Oblic Quotes
 ------------
 
-Oblic quotes, also called backticks, `` \` `` were used to make a shell call to the operating system. They are deprecated in PHP 8.5, and they have no more specific usage.
+Oblic quotes, also called backticks, `` \` `` were used to make a shell call to the operating system. They are deprecated since version 8.5, and they have no more specific usage.
 
-`` \` `` is a character, that needs to be balanced, when used in PHP.
+`` \` `` is a character, that needs to be balanced, when used in code syntax.
 
 
 .. code-block:: php
@@ -43,3 +43,5 @@ Oblic quotes, also called backticks, `` \` `` were used to make a shell call to 
 `Documentation <https://www.php.net/manual/en/language.operators.execution.php>`__
 
 Related : :ref:`Balanced <balanced>`, :ref:`Double Quotes Strings <double-quote>`, :ref:`Single Quotes Strings <single-quote>`
+
+Removed in PHP 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Parallel","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:27:13 +0000","dateModified":"Fri, 19 Jun 2026 21:27:13 +0000","description":"Running processes in parallel means that several distinct processes are running at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Parallel.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Parallel","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:37:49 +0000","dateModified":"Sat, 11 Jul 2026 14:37:49 +0000","description":"Running processes in parallel means that several distinct processes are running at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Parallel.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Parallel
@@ -30,4 +30,4 @@ PHP has several ways to start threads or processes, and monitor them: ampphp, re
 
 See also `Parallel Processing with PHP: why, how, and when <https://dev.to/robertobutti/parallel-processing-with-php-why-how-and-when-33gh>`_.
 
-Related : :ref:`Asynchronous <asynch>`
+Related : :ref:`Asynchronous <asynch>`, :ref:`Actor Model <actor-model>`, :ref:`OpenSwoole <openswoole>`, :ref:`Software Transactional Memory (STM) <software-transactional-memory>`, :ref:`Swoole <swoole>`

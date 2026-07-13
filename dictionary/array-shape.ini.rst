@@ -1,5 +1,4 @@
 .. _array-shape:
-.. _array shape:
 .. meta::
 	:description:
 		Array Shape: An array shape is a type annotation that describes an array by its exact set of keys and the type of the value stored under each one, instead of describing it only by the type of its elements in general.
@@ -17,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array Shape","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 15:04:18 +0000","dateModified":"Wed, 08 Jul 2026 15:04:18 +0000","description":"An array shape is a type annotation that describes an array by its exact set of keys and the type of the value stored under each one, instead of describing it only by the type of its elements in general","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Shape.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Call to undefined function each().html","name":"Array Shape","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:54:46 +0000","dateModified":"Sat, 11 Jul 2026 14:54:46 +0000","description":"An array shape is a type annotation that describes an array by its exact set of keys and the type of the value stored under each one, instead of describing it only by the type of its elements in general","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Shape.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Array Shape

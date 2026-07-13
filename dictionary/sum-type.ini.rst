@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sum Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:39:15 +0000","dateModified":"Tue, 07 Jul 2026 07:39:15 +0000","description":"A sum type is a type whose value is exactly one of a fixed set of cases, where each case may carry a different payload","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sum Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sum Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:14:56 +0000","dateModified":"Fri, 10 Jul 2026 09:14:56 +0000","description":"A sum type is a type whose value is exactly one of a fixed set of cases, where each case may carry a different payload","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sum Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sum Type
@@ -66,6 +66,6 @@ PHP does not suport sum types.
 
 `Documentation <https://en.wikipedia.org/wiki/Tagged_union>`__
 
-See also `Tagged union on Wikipedia <https://en.wikipedia.org/wiki/Tagged_union>`_ and `PHP RFC: Sealed classes <https://wiki.php.net/rfc/sealed_classes>`_.
+See also `PHP RFC: Sealed classes <https://wiki.php.net/rfc/sealed_classes>`_.
 
 Related : :ref:`Algebraic Data Type <algebraic-data-type>`, :ref:`Generalized Algebraic Data Type (GADT) <gadt>`, :ref:`Union Type <union-type>`, :ref:`Enumeration (enum) <enum>`, :ref:`Backed Enum <backed-enum>`, :ref:`Pattern Matching <pattern-matching>`, :ref:`Match <match>`, :ref:`instanceof <instanceof>`, :ref:`Sealed Class <sealed-class>`

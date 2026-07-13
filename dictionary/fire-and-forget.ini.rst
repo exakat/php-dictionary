@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fire-and-forget","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:01:03 +0000","dateModified":"Tue, 30 Jun 2026 15:01:03 +0000","description":"Fire-and-forget is a pattern where a task is dispatched and the caller does not wait for its result, does not check for errors, and does not expect a return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fire-and-forget.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fire-and-forget","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:46:22 +0000","dateModified":"Sat, 11 Jul 2026 14:46:22 +0000","description":"Fire-and-forget is a pattern where a task is dispatched and the caller does not wait for its result, does not check for errors, and does not expect a return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fire-and-forget.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fire-and-forget
@@ -24,9 +24,9 @@ Fire-and-forget
 
 Fire-and-forget is a pattern where a task is dispatched and the caller does not wait for its result, does not check for errors, and does not expect a return value. The caller continues execution immediately after dispatching.
 
-Common uses in PHP include sending emails, dispatching jobs to a queue, logging, analytics events, and cache invalidation: any side-effect that should not delay the main response.
+Common uses include sending emails, dispatching jobs to a queue, logging, analytics events, and cache invalidation: any side-effect that should not delay the main response.
 
-In synchronous PHP, fire-and-forget is often approximated by closing the HTTP response early, ``fastcgi_finish_request()``, and continuing processing, or by pushing work onto a message queue (Redis, RabbitMQ, SQS). With fibers or async runtimes (ReactPHP, AMPHP, Revolt), true non-blocking dispatch becomes possible.
+In synchronous PHP, fire-and-forget is often approximated by closing the HTTP response early, ``fastcgi_finish_request()``, and continuing processing, or by pushing work onto a message queue, like Redis, RabbitMQ, SQS, etc. With fibers or async runtimes such as ReactPHP, AMPHP, Revolt, etc. true non-blocking dispatch becomes possible.
 
 The risk of fire-and-forget is silent failure: if the dispatched task errors, the caller has no way to detect or recover from it. Robust implementations route failures to a dead-letter queue or structured log.
 

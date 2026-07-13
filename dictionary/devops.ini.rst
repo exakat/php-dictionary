@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DevOps","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:12:03 +0000","dateModified":"Tue, 30 Jun 2026 09:12:03 +0000","description":"DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DevOps.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"DevOps","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:35:53 +0000","dateModified":"Mon, 13 Jul 2026 09:35:53 +0000","description":"DevOps is a set of cultural practices, tools, and methodologies that combine software development, the Dev part and IT operations, the Ops part, to shorten the systems development lifecycle and deliver high-quality software continuously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/DevOps.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 DevOps
@@ -39,6 +39,6 @@ Key DevOps practices relevant to PHP projects include:
 
 See also `What is DevOps? (GitLab) <https://about.gitlab.com/topics/devops/>`_ and `GitHub Actions for PHP <https://github.com/shivammathur/setup-php>`_.
 
-Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Deployment <deploy>`, :ref:`Docker Container <docker-container>`, :ref:`Tool <tool>`, :ref:`Monitoring <monitoring>`, :ref:`Test <test>`, :ref:`git <git>`, :ref:`Software Development Life Cycle (SDLC) <sdlc>`, :ref:`Infrastructure as Code (IaC) <iac>`, :ref:`Docker <docker>`, :ref:`Timing Attack <timing-attack>`
+Related : :ref:`Continuous Integration (CI) <ci>`, :ref:`Deployment <deploy>`, :ref:`Docker Container <docker-container>`, :ref:`Tool <tool>`, :ref:`Monitoring <monitoring>`, :ref:`Test <test>`, :ref:`git <git>`, :ref:`Software Development Life Cycle (SDLC) <sdlc>`, :ref:`Infrastructure as Code (IaC) <iac>`, :ref:`Docker <docker>`, :ref:`Timing Attack <timing-attack>`, :ref:`Build <build>`, :ref:`Continuous Integration <continuous-integration>`, :ref:`Continuous Integration <CI>`, :ref:`Service Level Agreement (SLA) <sla>`
 
 Related packages : `deployer/deployer <https://packagist.org/packages/deployer/deployer>`_

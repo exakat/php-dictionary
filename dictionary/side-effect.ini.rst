@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","name":"Side Effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A side effect refers to any change in the state of a program or system that occurs when a function or expression is evaluated, beyond simply returning a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Side Effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/The backtick (`) operator is deprecated, use shell_exec() instead.html","name":"Side Effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:33:28 +0000","dateModified":"Mon, 13 Jul 2026 09:33:28 +0000","description":"A side effect refers to any change in the state of a program or system that occurs when a function or expression is evaluated, beyond simply returning a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Side Effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Side Effect
@@ -47,6 +47,8 @@ Side effect has also the literal meaning of a consequence to an action or a situ
 
 `Documentation <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>`__
 
-Related : :ref:`Pure Function <pure-function>`, :ref:`Functional Programming <functional-programming>`, :ref:`Determinism <determinism>`, :ref:`Event Sourcing <event-sourcing>`, :ref:`Impure Function <impure-function>`
+See also `side-effects-detector <https://github.com/staabm/side-effects-detector>`_.
+
+Related : :ref:`Pure Function <pure-function>`, :ref:`Functional Programming <functional-programming>`, :ref:`Determinism <determinism>`, :ref:`Event Sourcing <event-sourcing>`, :ref:`Impure Function <impure-function>`, :ref:`Effect System <effect-system>`, :ref:`Fire-and-forget <fire-and-forget>`, :ref:`Global State <global-state>`, :ref:`Mutable State <mutable-state>`
 
 Related packages : `staabm/side-effects-detector <https://packagist.org/packages/staabm/side-effects-detector>`_

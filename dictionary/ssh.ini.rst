@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Secure Shell (SSH)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"SSH, acronym of Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Secure Shell (SSH).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Secure Shell (SSH)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:19:39 +0000","dateModified":"Sat, 11 Jul 2026 14:19:39 +0000","description":"SSH, acronym of Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Secure Shell (SSH).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Secure Shell (SSH)
@@ -59,7 +59,7 @@ PHP provides the ``ssh2`` extension to connect to SSH servers, execute commands,
 
 `Documentation <https://en.wikipedia.org/wiki/Secure_Shell>`__
 
-See also `PHP: SSH2 extension <https://www.php.net/manual/en/book.ssh2.php>`_, `phpseclib: pure PHP SSH implementation <https://phpseclib.com/>`_ and `SSH Academy: SSH Protocol <https://www.ssh.com/academy/ssh/protocol>`_.
+See also `PHP: SSH2 extension <https://www.php.net/manual/en/book.ssh2.php>`_, `phpseclib, a pure-PHP alternative <https://phpseclib.com/>`_ and `SSH Academy: SSH Protocol <https://www.ssh.com/academy/ssh/protocol>`_.
 
 Related : :ref:`Server <server>`, :ref:`Port <port>`, :ref:`shell_exec() <shell_exec>`, :ref:`Lightweight Directory Access Protocol (LDAP) <ldap>`, :ref:`Task Runner <task-runner>`
 

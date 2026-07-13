@@ -34,4 +34,4 @@ Source code is distinct from bytecode, machine code, or other intermediate repre
 
 See also `php-src on git <https://github.com/php/php-src>`_.
 
-Related : :ref:`Open Source <open-source>`, :ref:`Closed Source <closed-source>`, :ref:`Transpile <transpile>`, :ref:`Compile <compilation>`, :ref:`Opcode <bytecode>`, :ref:`Technical Reference <technical-reference>`, :ref:`Lint, Won't Execute <lint-wont-execute>`, :ref:`Phar <phar>`
+Related : :ref:`Open Source <open-source>`, :ref:`Closed Source <closed-source>`, :ref:`Transpile <transpile>`, :ref:`Compiler <compilation>`, :ref:`Opcode <bytecode>`, :ref:`Technical Reference <technical-reference>`, :ref:`Lint, Won't Execute <lint-wont-execute>`, :ref:`Phar <phar>`

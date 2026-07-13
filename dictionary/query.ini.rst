@@ -1,28 +1,28 @@
 .. _query:
 .. meta::
 	:description:
-		Query: Query is a generic term in PHP.
+		Query: Query is a generic term.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Query
-	:twitter:description: Query: Query is a generic term in PHP
+	:twitter:description: Query: Query is a generic term
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Query
 	:og:type: article
-	:og:description: Query is a generic term in PHP
+	:og:description: Query is a generic term
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/query.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Query","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:29:11 +0000","dateModified":"Fri, 19 Jun 2026 21:29:11 +0000","description":"Query is a generic term in PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Query.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Query","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:05:21 +0000","dateModified":"Sat, 11 Jul 2026 09:05:21 +0000","description":"Query is a generic term","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Query.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Query
 -----
 
-Query is a generic term in PHP. It refers to a command, written in a specific format, and that is processed by a separate engine. 
+Query is a generic term. It refers to a command, written in a specific format, and that is processed by a separate engine. 
 
 Hence, query has several usages: 
 

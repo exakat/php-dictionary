@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTML Escaping","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTML Escaping.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"HTML Escaping","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:00:40 +0000","dateModified":"Sun, 12 Jul 2026 20:00:40 +0000","description":"HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/HTML Escaping.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 HTML Escaping
@@ -25,20 +25,22 @@ HTML Escaping
 
 HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities. This is done to prevent these characters from being interpreted as HTML code by the browser, which could potentially lead to security vulnerabilities or incorrect rendering of the webpage.
 
-For example, the less-than sign (``<``) is represented as ``<`` and the greater-than sign (``>``) is represented as ``>``. Similarly, characters such as ampersand (``&``) and double quotation marks (``"``) have their own HTML entities.
+For example, the less-than sign ``<`` is represented as ``&lt;`` and the greater-than sign ``>`` is represented as ``&gt;``. Similarly, characters such as ampersand ``&`` and double quotation marks ``"`` have their own HTML entities, resp. ``&amp;`` and ``&quote;``.
 
 HTML escaping is commonly used when displaying user-generated content on a webpage, such as comments or forum posts, to ensure that any HTML code contained within the content does not interfere with the structure of the page or execute malicious scripts. It helps maintain the integrity and security of the webpage.
 
 .. code-block:: php
    
    <?php
-   $str = "A 'quote' is <b>bold</b>";
    
-   // Outputs: A 'quote' is &lt;b&gt;bold&lt;/b&gt;
-   echo htmlentities($str);
+       $str = "A 'quote' is <b>bold</b>";
+       
+       // Outputs: A 'quote' is &lt;b&gt;bold&lt;/b&gt;
+       echo htmlentities($str);
+       
+       // Outputs: A &#039;quote&#039; is &lt;b&gt;bold&lt;/b&gt;
+       echo htmlentities($str, ENT_QUOTES);
    
-   // Outputs: A &#039;quote&#039; is &lt;b&gt;bold&lt;/b&gt;
-   echo htmlentities($str, ENT_QUOTES);
    ?>
 
 

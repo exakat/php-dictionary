@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Metrics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"Metrics refer to quantitative measurements used to evaluate the performance, quality, and behavior of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Metrics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Metrics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:53:50 +0000","dateModified":"Sat, 11 Jul 2026 14:53:50 +0000","description":"Metrics refer to quantitative measurements used to evaluate the performance, quality, and behavior of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Metrics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Metrics
@@ -26,23 +26,18 @@ Metrics refer to quantitative measurements used to evaluate the performance, qua
 
 These metrics help understand how the application behaves in production, identify bottlenecks, optimize performance, and ensure code quality. 
 
-Here are some common metrics in PHP:
+Here are some common metrics:
 
 + Time of execution
 + Memory consumption
 + Number of database queries
-+ cyclomatic complexity
-+ code coverage
-+ cognitive complexity
-+ code duplication
-+ lines of code
++ Cyclomatic complexity
++ Code coverage
++ Cognitive complexity
++ Code duplication
++ Lines of code
 
 PHPMetrics is also the name of an eponymous project.
-
-.. code-block:: php
-   
-   <
-
 
 `Documentation <https://en.wikipedia.org/wiki/Software_metric>`__
 

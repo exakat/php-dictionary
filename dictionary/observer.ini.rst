@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Observer Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:56 +0000","dateModified":"Fri, 19 Jun 2026 21:25:56 +0000","description":"The observer is an architectural pattern, where objects register to get notified when events happen to a specific object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Observer Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Observer Design Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:10:15 +0000","dateModified":"Sat, 11 Jul 2026 09:10:15 +0000","description":"The observer is an architectural pattern, where objects register to get notified when events happen to a specific object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Observer Design Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Observer Design Pattern
@@ -24,7 +24,7 @@ Observer Design Pattern
 
 The observer is an architectural pattern, where objects register to get notified when events happen to a specific object. It is also known as the listener pattern.
 
-In PHP, there is a native interface call SplObserver, coupled with the SplSubject, to implement such pattern.
+There is a native interface call ``SplObserver``, coupled with the ``SplSubject``, to implement such pattern.
 
 `Documentation <https://www.php.net/manual/en/class.splobserver.php>`__
 

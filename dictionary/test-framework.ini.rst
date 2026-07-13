@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 04:16:55 +0000","dateModified":"Tue, 07 Jul 2026 04:16:55 +0000","description":"A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Test Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:20:28 +0000","dateModified":"Mon, 13 Jul 2026 09:20:28 +0000","description":"A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test Framework
@@ -46,4 +46,4 @@ A test framework does not dictate what to test; it provides the mechanics to exp
 
 See also `PHPUnit <https://phpunit.de/>`_, `Pest <https://pestphp.com/>`_, `Codeception <https://codeception.com/>`_, `Testo <https://php-testo.github.io/>`_ and `Atoum <https://atoum.org/>`_.
 
-Related : :ref:`Test <test>`, :ref:`PHPunit <phpunit>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Double <double>`, :ref:`Fixture <fixture>`, :ref:`Code Coverage <code-coverage>`
+Related : :ref:`Test <test>`, :ref:`PHPunit <phpunit>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Double <double>`, :ref:`Fixture <fixture>`, :ref:`Code Coverage <code-coverage>`, :ref:`Continuous Integration <continuous-integration>`, :ref:`Continuous Integration <CI>`, :ref:`Regression <regression>`, :ref:`Test-Driven Development <test-driven-development>`

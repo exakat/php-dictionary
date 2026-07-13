@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monolith","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:03:49 +0000","dateModified":"Tue, 30 Jun 2026 15:03:49 +0000","description":"A monolith refers to an application that is built and deployed as one single, tightly integrated codebase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monolith.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Monolith","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:39:40 +0000","dateModified":"Sat, 11 Jul 2026 14:39:40 +0000","description":"A monolith refers to an application that is built and deployed as one single, tightly integrated codebase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Monolith.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Monolith
@@ -33,7 +33,7 @@ In a monolithic application, all concerns live in one project, may it be routing
 
 The opposite of a monolith is micro-services. 
 
-In PHP ecosystems, monoliths are often preferred unless scale or team size truly demands microservices.
+Monoliths are often preferred unless scale or team size truly demands microservices.
 
 `Documentation <https://en.wikipedia.org/wiki/Monolithic_application>`__
 

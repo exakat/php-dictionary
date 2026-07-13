@@ -1,5 +1,5 @@
 .. _ssrf:
-.. _server-side request forgery:
+.. _server-side-request-forgery:
 .. meta::
 	:description:
 		Server-Side Request Forgery (SSRF): Server-Side Request Forgery, or SSRF, is a vulnerability where an attacker induces the server itself to issue an HTTP or other network request to a destination the attacker controls or chooses, by supplying or influencing a URL that the server later fetches.
@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Server-Side Request Forgery (SSRF)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 15:00:15 +0000","dateModified":"Wed, 08 Jul 2026 15:00:15 +0000","description":"Server-Side Request Forgery, or SSRF, is a vulnerability where an attacker induces the server itself to issue an HTTP or other network request to a destination the attacker controls or chooses, by supplying or influencing a URL that the server later fetches","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Server-Side Request Forgery (SSRF).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Server-Side Request Forgery (SSRF)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:58:06 +0000","dateModified":"Sat, 11 Jul 2026 14:58:06 +0000","description":"Server-Side Request Forgery, or SSRF, is a vulnerability where an attacker induces the server itself to issue an HTTP or other network request to a destination the attacker controls or chooses, by supplying or influencing a URL that the server later fetches","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Server-Side Request Forgery (SSRF).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Server-Side Request Forgery (SSRF)
@@ -37,7 +37,7 @@ Consequences include:
 Mitigation strategies include:
 
 + Validating the destination against an allowlist of hosts or URL patterns, rather than a denylist.
-+ Resolving the hostname and rejecting requests to private, loopback, and link-local IP ranges (``127.0.0.0/8``, ``10.0.0.0/8``, ``169.254.0.0/16``, etc.) before connecting.
++ Resolving the hostname and rejecting requests to private, loopback, and link-local IP ranges, ``127.0.0.0/8``, ``10.0.0.0/8``, ``169.254.0.0/16``, etc. before connecting.
 + Disabling automatic redirect following, or re-validating the destination on every redirect hop.
 + Restricting the allowed URL schemes to ``http``/``https`` and rejecting ``file://``, ``gopher://``, ``dict://``, and other wrapper.
 

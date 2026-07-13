@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_search","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_search.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_search","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:36:53 +0000","dateModified":"Mon, 13 Jul 2026 09:36:53 +0000","description":"``array_search()`` is a native PHP function that searches an array for a value and returns the corresponding key if found, or ``false`` if not found","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_search.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_search
@@ -56,4 +56,4 @@ It is often used to check if a value exists in an array. When the presence of th
 
 See also `How to Search in a PHP Associative Array — Fast tips <https://medium.com/@valerio_27709/how-to-search-in-a-php-associative-array-fast-tips-5890cdf818e0>`_.
 
-Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Identical Operator <identical>`, :ref:`in_array() <in_array>`
+Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Identical Operator <identical>`, :ref:`in_array() <in_array>`, :ref:`array_find() <array_find>`, :ref:`array_find_key() <array_find_key>`, :ref:`array_key_first() <array_key_first>`, :ref:`Sentinel <sentinel>`

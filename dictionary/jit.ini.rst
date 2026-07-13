@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Just In Time (JIT)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:09:57 +0000","dateModified":"Tue, 07 Jul 2026 05:09:57 +0000","description":"Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Just In Time (JIT).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Just In Time (JIT)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:35:19 +0000","dateModified":"Mon, 13 Jul 2026 09:35:19 +0000","description":"Just-In-Time compilation is a technique used in computer science and programming languages to improve the runtime performance of code execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Just In Time (JIT).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Just In Time (JIT)
@@ -32,6 +32,6 @@ With Just-In-Time compilation, the code is not interpreted line by line. Instead
 
 See also `Exploring the New PHP JIT Compiler <https://www.zend.com/blog/exploring-new-php-jit-compiler>`_ and `PHP 8.4 JIT Under the Microscope: Benchmarking Real Symfony 7.4 Applications (Part 1) <https://medium.com/@laurentmn/%EF%B8%8F-php-8-4-jit-under-the-microscope-benchmarking-real-symfony-7-4-applications-part-1-c685e1326f5e>`_.
 
-Related : :ref:`Ahead Of Time <aot>`, :ref:`Compile <compile>`, :ref:`Opcache <opcache>`, :ref:`Bottleneck <bottleneck>`, :ref:`Interpreted <interpreted>`, :ref:`Monomorphization <monomorphization>`, :ref:`Static Single Assignment Form (SSA) <ssa>`
+Related : :ref:`Ahead Of Time <aot>`, :ref:`Compile <compile>`, :ref:`Opcache <opcache>`, :ref:`Bottleneck <bottleneck>`, :ref:`Interpreted <interpreted>`, :ref:`Monomorphization <monomorphization>`, :ref:`Static Single Assignment Form (SSA) <ssa>`, :ref:`Compile-time Evaluation <compile-time-evaluation>`, :ref:`Compiler <compiler>`, :ref:`Memory Arena <memory-arena>`, :ref:`OPcache Preloading <opcache-preloading>`
 
 Added in PHP 8.0+

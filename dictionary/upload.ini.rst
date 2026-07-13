@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","name":"File Upload","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Jun 2026 20:35:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP is able to receive files as part of a form submission","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File Upload.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Attempt to unset static property %s::$%s.html","name":"File Upload","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:23:05 +0000","dateModified":"Sun, 12 Jul 2026 20:23:05 +0000","description":"PHP is able to receive files as part of a form submission","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/File Upload.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 File Upload
@@ -49,6 +49,6 @@ File upload code is based on the $_FILES superglobal, and ``move_uploaded_file()
 
 `Documentation <https://www.php.net/manual/en/features.file-upload.post-method.php>`__
 
-See also `Learn Everything About File Upload in PHP With Examples <https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php>`_, `Secure File Uploads in PHP <https://slicker.me/php/secure_uploads.html>`_, `How to Upload Files in PHP (Step-by-Step Guide for Beginners) <https://medium.com/@waiyan.toshima12/how-to-upload-files-in-php-step-by-step-guide-for-beginners-0015ce787763>`_, `RFC-1867 <https://www.rfc-editor.org/info/rfc1867/>`_, `RFC-2854 <https://www.rfc-editor.org/info/rfc2854/>`_ and `RFC-2388 <https://www.rfc-editor.org/info/rfc2388/>`_.
+See also `Learn Everything About File Upload in PHP With Examples <https://www.simplilearn.com/tutorials/php-tutorial/file-upload-in-php>`_, `Secure File Uploads in PHP <https://slicker.me/php/secure_uploads.html>`_, `How to Upload Files in PHP (Step-by-Step Guide for Beginners) <https://medium.com/@waiyan.toshima12/how-to-upload-files-in-php-step-by-step-guide-for-beginners-0015ce787763>`_, `RFC-1867 <https://www.rfc-editor.org/info/rfc1867/>`_, `RFC-2854 <https://www.rfc-editor.org/info/rfc2854/>`_, `RFC-2388 <https://www.rfc-editor.org/info/rfc2388/>`_ and `How Does File Upload in PHP Really Work? <https://blog.newtum.com/file-upload-in-php-with-forms/>`_.
 
 Related : :ref:`$_FILES <$_FILES>`

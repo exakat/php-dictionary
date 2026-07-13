@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Search Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A search engine is a system that indexes and retrieves data based on queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Search Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Search Engine","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:21:48 +0000","dateModified":"Fri, 10 Jul 2026 09:21:48 +0000","description":"A search engine is a system that indexes and retrieves data based on queries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Search Engine.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Search Engine
@@ -34,43 +34,43 @@ Search engines usually operate as external services communicating via HTTP APIs.
    
    <?php
    
-   // Indexing a document with Elasticsearch PHP client
-   use Elastic\Elasticsearch\ClientBuilder;
-   
-   $client = ClientBuilder::create()
-       ->setHosts(['localhost:9200'])
-       ->build();
-   
-   $client->index([
-       'index' => 'products',
-       'id'    => 42,
-       'body'  => [
-           'title'       => 'Widget Pro',
-           'description' => 'A high-quality widget for professionals.',
-           'price'       => 29.99,
-       ],
-   ]);
-   
-   // Searching documents
-   $response = $client->search([
-       'index' => 'products',
-       'body'  => [
-           'query' => [
-               'match' => ['description' => 'widget'],
+       // Indexing a document with Elasticsearch PHP client
+       use Elastic\Elasticsearch\ClientBuilder;
+       
+       $client = ClientBuilder::create()
+           ->setHosts(['localhost:9200'])
+           ->build();
+       
+       $client->index([
+           'index' => 'products',
+           'id'    => 42,
+           'body'  => [
+               'title'       => 'Widget Pro',
+               'description' => 'A high-quality widget for professionals.',
+               'price'       => 29.99,
            ],
-       ],
-   ]);
-   
-   foreach ($response['hits']['hits'] as $hit) {
-       echo $hit['_source']['title'] . PHP_EOL;
-   }
+       ]);
+       
+       // Searching documents
+       $response = $client->search([
+           'index' => 'products',
+           'body'  => [
+               'query' => [
+                   'match' => ['description' => 'widget'],
+               ],
+           ],
+       ]);
+       
+       foreach ($response['hits']['hits'] as $hit) {
+           echo $hit['_source']['title'] . PHP_EOL;
+       }
    
    ?>
 
 
 `Documentation <https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html>`__
 
-See also `Elasticsearch PHP client <https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html>`_, `Meilisearch PHP SDK <https://github.com/meilisearch/meilisearch-php>`_ and `Typesense PHP client <https://github.com/typesense/typesense-php>`_.
+See also `Meilisearch PHP SDK <https://github.com/meilisearch/meilisearch-php>`_ and `Typesense PHP client <https://github.com/typesense/typesense-php>`_.
 
 Related : :ref:`Database <database>`, :ref:`Index For SQL <index-sql>`, :ref:`Cache <cache>`, :ref:`REST API <rest-api>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Storage Systems <storage-system>`, :ref:`robots\.txt <robots.txt>`
 

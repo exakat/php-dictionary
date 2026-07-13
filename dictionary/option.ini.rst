@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Option","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:52 +0000","dateModified":"Fri, 19 Jun 2026 21:26:52 +0000","description":"An option represents a value that may or may not be present","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Option.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Option","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:13:50 +0000","dateModified":"Fri, 10 Jul 2026 09:13:50 +0000","description":"An option represents a value that may or may not be present","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Option.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Option
@@ -35,24 +35,22 @@ Options are sometimes used as synonyms as configuration or directive: this is th
    
    <?php
    
-   // Nullable type: value may be absent
-   function findUser(?int $id): ?User {
-       if ($id === null) {
-           return null;
+       // Nullable type: value may be absent
+       function findUser(?int $id): ?User {
+           if ($id === null) {
+               return null;
+           }
+           return User::find($id);
        }
-       return User::find($id);
-   }
-   
-   // Default value as option
-   function greet(string $name = 'World'): string {
-       return 'Hello, ' . $name;
-   }
+       
+       // Default value as option
+       function greet(string $name = 'World'): string {
+           return 'Hello, ' . $name;
+       }
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Option_type>`__
-
-See also `Option type <https://en.wikipedia.org/wiki/Option_type>`_.
 
 Related : :ref:`Named Parameters <named-parameter>`, :ref:`Default Parameter <default-parameter>`, :ref:`Configuration <configuration>`, :ref:`Flag <flag>`, :ref:`SplSubject <splsubject>`

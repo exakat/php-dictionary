@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OAuth","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OAuth.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OAuth","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:11:07 +0000","dateModified":"Sat, 11 Jul 2026 09:11:07 +0000","description":"OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OAuth.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OAuth
@@ -24,7 +24,7 @@ OAuth
 
 OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords. OAuth 2.0 is the current version, defined in RFC 6749.
 
-In PHP, OAuth is typically implemented via libraries such as ``league/oauth2-server`` for building an authorisation server, or ``league/oauth2-client`` for consuming third-party OAuth 2.0 providers such as Google, GitHub, or Facebook.
+OAuth is typically implemented via libraries such as ``league/oauth2-server`` for building an authorisation server, or ``league/oauth2-client`` for consuming third-party OAuth 2.0 providers such as Google, GitHub, or Facebook.
 
 `Documentation <https://oauth.net/2/>`__
 

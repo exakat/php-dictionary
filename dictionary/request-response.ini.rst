@@ -1,34 +1,34 @@
 .. _request-response:
 .. meta::
 	:description:
-		Request-Response: Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee (server) to return a response before continuing.
+		Request-Response: Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Request-Response
-	:twitter:description: Request-Response: Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee (server) to return a response before continuing
+	:twitter:description: Request-Response: Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Request-Response
 	:og:type: article
-	:og:description: Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee (server) to return a response before continuing
+	:og:description: Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/request-response.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Request-Response","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:25:13 +0000","dateModified":"Mon, 06 Jul 2026 10:25:13 +0000","description":"Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee (server) to return a response before continuing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request-Response.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Request-Response","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:31:29 +0000","dateModified":"Fri, 10 Jul 2026 09:31:29 +0000","description":"Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request-Response.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Request-Response
 ----------------
 
-Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee (server) to return a response before continuing. It is the fundamental interaction model of HTTP, RPC, and most database queries.
+Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing. It is the fundamental interaction model of HTTP, RPC, and most database queries.
 
 In the request-response pattern, the caller is blocked while the server processes the request. The server handles the request, computes a result, and sends it back. The caller then resumes with the result. Both parties must be available simultaneously.
 
 This is distinct from fire-and-forget, with no response expected, pub/sub, with no direct coupling between publisher and subscriber, and streaming, with continuous flow of data rather than a single response.
 
-PHP's traditional execution model is built entirely around request-response: the browser (client) sends an HTTP request, PHP processes it synchronously and returns an HTTP response. This model is simple and debuggable but imposes a one-request-per-worker constraint without async extensions.
+PHP's traditional execution model is built entirely around request-response: the browser, as the client, sends an HTTP request, PHP processes it synchronously and returns an HTTP response. This model is simple and debuggable but imposes a one-request-per-worker constraint without async extensions.
 
 .. code-block:: php
    

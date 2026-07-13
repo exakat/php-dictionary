@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot declare promoted property in an abstract constructor.html","name":"Abstraction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Non-abstract property hook must have a body .html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Non-abstract property hook must have a body .html","name":"Abstraction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 21:22:47 +0000","dateModified":"Fri, 10 Jul 2026 21:22:47 +0000","description":"An abstraction, or also an abstraction layer, is a way to hide the underlying complexity of some logic behind a simpler interface so that other parts of the program don't need to worry about the details","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstraction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstraction
@@ -32,12 +32,12 @@ Abstraction is also the name of the refactor to replace a piece of code by an ea
    
    <?php
    
-   echo 1; // displays 1 
-   
-   // This depends on the execution environment
-   const A = PHP_OS == 'win' ? 'Windows' : 'Others';
-   
-   echo A; // display the value of A
+       echo 1; // displays 1 
+       
+       // This depends on the execution environment
+       const A = PHP_OS == 'win' ? 'Windows' : 'Others';
+       
+       echo A; // display the value of A
    
    ?>
 

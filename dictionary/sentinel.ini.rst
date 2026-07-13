@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sentinel","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:55:15 +0000","dateModified":"Thu, 09 Jul 2026 09:55:15 +0000","description":"A sentinel is a special, reserved value used to signal a specific condition, such as the end of a sequence, an absence of data, or an error, instead of adding a separate flag or an exception for it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sentinel.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Sentinel","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:29:07 +0000","dateModified":"Fri, 10 Jul 2026 09:29:07 +0000","description":"A sentinel is a special, reserved value used to signal a specific condition, such as the end of a sequence, an absence of data, or an error, instead of adding a separate flag or an exception for it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sentinel.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sentinel
@@ -53,6 +53,6 @@ PHP relies on sentinels extensively: ``false`` is the sentinel returned by many 
 
 `Documentation <https://en.wikipedia.org/wiki/Sentinel_value>`__
 
-See also `Sentinel value <https://en.wikipedia.org/wiki/Sentinel_value>`_.
+See also `How to Use Redis Sentinel with PHP <https://oneuptime.com/blog/post/2026-03-31-redis-sentinel-php/view>`_.
 
-Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Null <null>`, :ref:`False <false>`, :ref:`Default Value <default-value>`, , :ref:`array_search <array_search>`
+Related : :ref:`Strpos() Syndrome <strpos-syndrom>`, :ref:`Null <null>`, :ref:`False <false>`, :ref:`Default Value <default-value>`, :ref:`Magic Values <magic-value>`, :ref:`array_search <array_search>`

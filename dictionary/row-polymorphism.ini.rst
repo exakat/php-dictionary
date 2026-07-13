@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Row Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:05:21 +0000","dateModified":"Thu, 09 Jul 2026 09:05:21 +0000","description":"Row polymorphism is a type system feature that allows functions to be polymorphic over records or objects with an open set of fields","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Row Polymorphism.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Row Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:32:24 +0000","dateModified":"Fri, 10 Jul 2026 09:32:24 +0000","description":"Row polymorphism is a type system feature that allows functions to be polymorphic over records or objects with an open set of fields","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Row Polymorphism.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Row Polymorphism
@@ -62,6 +62,6 @@ None of these is full row polymorphism: interfaces cover methods only, not arbit
 
 `Documentation <https://en.wikipedia.org/wiki/Row_polymorphism>`__
 
-See also `Row polymorphism on Wikipedia <https://en.wikipedia.org/wiki/Row_polymorphism>`_ and `TypeScript structural typing <https://www.typescriptlang.org/docs/handbook/type-compatibility.html>`_.
+See also `TypeScript structural typing <https://www.typescriptlang.org/docs/handbook/type-compatibility.html>`_.
 
 Related : :ref:`Type System <type-system>`, :ref:`Polymorphism <polymorphism>`, :ref:`Interface <interface>`, :ref:`Duck Typing <ducktyping>`, :ref:`Generics <generics>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Structural Typing <structural-typing>`, :ref:`Array Shape <array-shape>`

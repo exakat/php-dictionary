@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Premature Optimization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:17:51 +0000","dateModified":"Thu, 02 Jul 2026 08:17:51 +0000","description":"Premature optimization is the practice of optimizing code before profiling has identified it as a bottleneck","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Premature Optimization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Premature Optimization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:01 +0000","dateModified":"Sat, 11 Jul 2026 09:06:01 +0000","description":"Premature optimization is the practice of optimizing code before profiling has identified it as a bottleneck","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Premature Optimization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Premature Optimization
@@ -26,7 +26,7 @@ Premature optimization is the practice of optimizing code before profiling has i
 
 The full quote is often truncated. Knuth's point is not that performance is unimportant, but that optimizing the wrong part of the code wastes time and introduces complexity with no measurable benefit. The 97% refers to micro-optimisations on non-critical paths.
 
-In PHP, premature optimization manifests as: avoiding readable constructs in favour of micro-benchmarked alternatives, using ``isset()`` instead of ``array_key_exists()`` everywhere for a perceived speed gain, avoiding abstractions like interfaces, DI container, for hypothetical performance reasons, inlining queries to avoid method calls, or caching results that are computed rarely.
+Premature optimization manifests as: avoiding readable constructs in favour of micro-benchmarked alternatives, using ``isset()`` instead of ``array_key_exists()`` everywhere for a perceived speed gain, avoiding abstractions like interfaces, DI container, for hypothetical performance reasons, inlining queries to avoid method calls, or caching results that are computed rarely.
 
 The correct approach: write clear, maintainable code first; profile with Blackfire, Xdebug, or Tideways to find the actual bottleneck; then optimize the identified hot path with evidence.
 
