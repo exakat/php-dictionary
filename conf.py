@@ -79,3 +79,5 @@ html_js_files = [
     'js/custom.js',
     'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
 ]
+
+html_copy_source = false
