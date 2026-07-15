@@ -32,7 +32,7 @@ release = '1.0.173'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinxcontrib.googleanalytics',
+#    'sphinxcontrib.googleanalytics',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,7 +59,9 @@ html_static_path = ['_static']
 html_extra_path = ["googlee919cb0917e4fefc.html",
 					"sitemap.xml",
 					"BingSiteAuth.xml",
-					"robots.txt"]
+					"robots.txt",
+					"llms.txt",
+					]
 					
 html_theme_options = {
     'light_logo': 'logo.png',
@@ -71,7 +73,7 @@ html_theme_options = {
 
 html_baseurl = 'https://php-dictionary.readthedocs.io/en/latest/'
 
-googleanalytics_id = 'G-29LCZ34CDW';
+#googleanalytics_id = 'G-29LCZ34CDW';
 
 html_js_files = [
     'js/custom.js',
