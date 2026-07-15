@@ -69,6 +69,8 @@ html_theme_options = {
     'source_directory': '',
 }
 
+html_baseurl = 'https://php-dictionary.readthedocs.io/en/latest/'
+
 googleanalytics_id = 'G-29LCZ34CDW';
 
 html_js_files = [
