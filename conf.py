@@ -32,7 +32,6 @@ release = '1.0.173'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-#    'sphinxcontrib.googleanalytics',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -80,4 +79,5 @@ html_js_files = [
     'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
 ]
 
-html_copy_source = false
+html_copy_source = False
+html_show_sourcelink = False
