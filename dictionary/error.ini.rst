@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 17 Jun 2026 16:16:53 +0000","dateModified":"Wed, 17 Jun 2026 16:16:53 +0000","description":"The ``Error`` class is a base class for all internal PHP error exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/error.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/error.ini.html","name":"Error","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:54:19 +0000","dateModified":"Wed, 15 Jul 2026 13:54:19 +0000","description":"The ``Error`` class is a base class for all internal PHP error exceptions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Error.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Error
@@ -50,6 +50,6 @@ It's important to note that these errors are only thrown by internal PHP errors.
 
 `Documentation <https://www.php.net/manual/en/class.error.php>`__
 
-See also `The Error Class <https://www.php.net/manual/en/class.error.php>`_ and `PHP Types of Errors <https://www.geeksforgeeks.org/php/php-types-of-errors/>`_.
+See also `PHP Types of Errors <https://www.geeksforgeeks.org/php/php-types-of-errors/>`_.
 
 Related : :ref:`Exception <exception>`, :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`ParseError <parseerror>`, :ref:`TypeError <typeerror>`, :ref:`DivisionByZeroError <divisionbyzeroerror>`, :ref:`Throwable <throwable>`, :ref:`Traversable <traversable>`, :ref:`UnhandledMatchError <unhandledmatcherror>`, :ref:`Downtime <downtime>`, :ref:`Fatal Error <fatal-error>`, :ref:`Notice <notice>`, :ref:`ValueError <valueerror>`, :ref:`Warning <warning>`, :ref:`Error Suppression <error-suppression>`, :ref:`html_errors <html_errors>`, :ref:`Lint, Won't Execute <lint-wont-execute>`, :ref:`Troubleshoot <troubleshoot>`

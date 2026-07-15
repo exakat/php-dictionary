@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Garbage Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:21:50 +0000","dateModified":"Sun, 28 Jun 2026 10:21:50 +0000","description":"Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Garbage Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/garbage-collection.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/garbage-collection.ini.html","name":"Garbage Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:41:30 +0000","dateModified":"Mon, 13 Jul 2026 18:41:30 +0000","description":"Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Garbage Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Garbage Collection
@@ -50,4 +50,4 @@ Garbage collection is needed to handle circular reference: objects that mutually
 
 See also `Easy to understand PHP garbage collection mechanism <https://medium.com/geekculture/easy-to-understand-php-garbage-collection-mechanism-ee5c5bde5a5d>`_.
 
-Related : :ref:`Zval <zval>`, :ref:`References <reference>`, :ref:`Reference Count <reference-count>`, :ref:`Circular Reference <circular-reference>`, :ref:`unset() <unset>`, :ref:`Weakmap <weakmap>`, :ref:`Memory <memory>`, :ref:`Memory Leak <memory-leak>`
+Related : :ref:`Zval <zval>`, :ref:`References <reference>`, :ref:`Reference Count <reference-count>`, :ref:`Circular Reference <circular-reference>`, :ref:`unset() <unset>`, :ref:`Weakmap <weakmap>`, :ref:`Memory <memory>`, :ref:`Memory Leak <memory-leak>`, :ref:`Ownership <borrow-checking>`, :ref:`Linear Type <linear-type>`, :ref:`Memory Arena <memory-arena>`, :ref:`Object Lifecycle <object-lifecycle>`, :ref:`Shutdown <shutdown>`

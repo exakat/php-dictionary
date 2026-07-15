@@ -1,28 +1,28 @@
 .. _fann:
 .. meta::
 	:description:
-		Fast Artificial Neural Network (FANN): ``FANN``, for Fast Artificial Neural Network, is a PECL extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks.
+		Fast Artificial Neural Network (FANN): ``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Fast Artificial Neural Network (FANN)
-	:twitter:description: Fast Artificial Neural Network (FANN): ``FANN``, for Fast Artificial Neural Network, is a PECL extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks
+	:twitter:description: Fast Artificial Neural Network (FANN): ``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Fast Artificial Neural Network (FANN)
 	:og:type: article
-	:og:description: ``FANN``, for Fast Artificial Neural Network, is a PECL extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks
+	:og:description: ``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/fann.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Fast Artificial Neural Network (FANN)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:30:15 +0000","dateModified":"Sat, 11 Jul 2026 09:30:15 +0000","description":"``FANN``, for Fast Artificial Neural Network, is a PECL extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fast Artificial Neural Network (FANN).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fann.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fann.ini.html","name":"Fast Artificial Neural Network (FANN)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:36:20 +0000","dateModified":"Tue, 14 Jul 2026 05:36:20 +0000","description":"``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fast Artificial Neural Network (FANN).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fast Artificial Neural Network (FANN)
 -------------------------------------
 
-``FANN``, for Fast Artificial Neural Network, is a PECL extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks.
+``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks.
 
 The extension exposes functions to build a network with a chosen number of layers and neurons, train it against a data set using algorithms such as backpropagation, and then run inference on new inputs. Networks can be saved to and loaded from disk, so a model can be trained once and reused across requests without retraining.
 

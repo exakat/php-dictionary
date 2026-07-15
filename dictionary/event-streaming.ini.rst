@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Streaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:45:28 +0000","dateModified":"Sat, 11 Jul 2026 14:45:28 +0000","description":"Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Streaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/event-streaming.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/event-streaming.ini.html","name":"Event Streaming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:52:36 +0000","dateModified":"Wed, 15 Jul 2026 13:52:36 +0000","description":"Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Streaming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Event Streaming
@@ -69,7 +69,5 @@ Apache Kafka is the most widely used event streaming platform. AWS Kinesis and G
 
 
 `Documentation <https://kafka.apache.org/documentation/>`__
-
-See also `Apache Kafka documentation <https://kafka.apache.org/documentation/>`_.
 
 Related : :ref:`Event Sourcing <event-sourcing>`, :ref:`Event Driven <event-driven>`, :ref:`Message Queue <message-queue>`, :ref:`Pub/Sub <pubsub>`, :ref:`Event Store <event-store>`, :ref:`Event Replay <event-replay>`

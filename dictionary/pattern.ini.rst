@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:57:43 +0000","dateModified":"Sat, 11 Jul 2026 14:57:43 +0000","description":"A pattern is a named, reusable solution to a commonly recurring problem in software design","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pattern.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pattern.ini.html","name":"Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:49:17 +0000","dateModified":"Wed, 15 Jul 2026 13:49:17 +0000","description":"A pattern is a named, reusable solution to a commonly recurring problem in software design","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pattern
@@ -41,41 +41,39 @@ A pattern applied in the wrong context becomes an anti-pattern.
    
    <?php
    
-   // Strategy pattern: swap algorithms at runtime behind a common interface
-   interface SortStrategy {
-       public function sort(array $data): array;
-   }
-   
-   class BubbleSort implements SortStrategy {
-       public function sort(array $data): array {
-           // bubble sort implementation
-           return $data;
+       // Strategy pattern: swap algorithms at runtime behind a common interface
+       interface SortStrategy {
+           public function sort(array $data): array;
        }
-   }
-   
-   class QuickSort implements SortStrategy {
-       public function sort(array $data): array {
-           // quicksort implementation
-           return $data;
+       
+       class BubbleSort implements SortStrategy {
+           public function sort(array $data): array {
+               // bubble sort implementation
+               return $data;
+           }
        }
-   }
-   
-   class Sorter {
-       public function __construct(private SortStrategy $strategy) {}
-   
-       public function sort(array $data): array {
-           return $this->strategy->sort($data);
+       
+       class QuickSort implements SortStrategy {
+           public function sort(array $data): array {
+               // quicksort implementation
+               return $data;
+           }
        }
-   }
-   
-   $sorter = new Sorter(new QuickSort());
-   $sorted = $sorter->sort([3, 1, 4, 1, 5]);
+       
+       class Sorter {
+           public function __construct(private SortStrategy $strategy) {}
+       
+           public function sort(array $data): array {
+               return $this->strategy->sort($data);
+           }
+       }
+       
+       $sorter = new Sorter(new QuickSort());
+       $sorted = $sorter->sort([3, 1, 4, 1, 5]);
    
    ?>
 
 
 `Documentation <https://en.wikipedia.org/wiki/Software_design_pattern>`__
-
-See also `Software design pattern — Wikipedia <https://en.wikipedia.org/wiki/Software_design_pattern>`_ and `Design Pattenrs (the book) <https://en.wikipedia.org/wiki/Design_Patterns>`_.
 
 Related : :ref:`Anti-Pattern <anti-pattern>`, :ref:`Pattern Matching <pattern-matching>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`, :ref:`Polymorphism <polymorphism>`, :ref:`Interface <interface>`, :ref:`Specification <specification>`, :ref:`Best Practices <best-practice>`, :ref:`Look-up <look-up>`, :ref:`Null Pattern <nullpattern>`, :ref:`Write Everything Twice (WET) <wet>`, :ref:`Yoda Condition <yoda>`

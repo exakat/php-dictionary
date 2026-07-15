@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Refinement Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 06:40:22 +0000","dateModified":"Tue, 07 Jul 2026 06:40:22 +0000","description":"A refinement type is a base type combined with a logical predicate that every value of that type must satisfy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refinement Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/refinement-type.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/refinement-type.ini.html","name":"Refinement Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:04 +0000","dateModified":"Mon, 13 Jul 2026 18:49:04 +0000","description":"A refinement type is a base type combined with a logical predicate that every value of that type must satisfy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Refinement Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Refinement Type
@@ -27,12 +27,12 @@ A refinement type is a base type combined with a logical predicate that every va
 
 Refinement types shift constraint validation from runtime guards into the type system itself. A function accepting a ``PositiveInt`` can never be called with a negative number without a type error; the caller must prove the precondition, typically by producing a value through a smart constructor.
 
-Languages with native or library-based refinement type support include Liquid Haskell (via SMT-solver-backed liquid types), F*, and some dependently-typed systems. TypeScript libraries such as ``io-ts`` and ``zod`` approximate refinements at the boundary layer.
+Languages with native or library-based refinement type support include Liquid Haskell, via SMT-solver-backed liquid types, F*, and some dependently-typed systems. TypeScript libraries such as ``io-ts`` and ``zod`` approximate refinements at the boundary layer.
 
 PHP does not support refinement types. The closest approximations are:
 
 + Value objects with a constructor that throws on invalid input, enforcing the predicate at instantiation.
-+ Psalm and PHPStan assertion annotations (``@psalm-assert positive-int $n``) which let static analysis track some refinements across control flow.
++ Psalm and PHPStan assertion annotations ``@psalm-assert positive-int $n`` which let static analysis track some refinements across control flow.
 + PHP 8.0 ``assert()`` in development mode for runtime checks.
 
 None of these approaches enforces the predicate at the type system level in a way that is verified statically across all call sites.
@@ -66,6 +66,6 @@ None of these approaches enforces the predicate at the type system level in a wa
 
 `Documentation <https://en.wikipedia.org/wiki/Refinement_type>`__
 
-See also `Refinement type on Wikipedia <https://en.wikipedia.org/wiki/Refinement_type>`_ and `Liquid Haskell <https://ucsd-progsys.github.io/liquidhaskell/>`_.
+See also `Liquid Haskell <https://ucsd-progsys.github.io/liquidhaskell/>`_.
 
 Related : :ref:`Dependent Type <dependent-type>`, :ref:`Type System <type-system>`, :ref:`Type Checking <type-checking>`, :ref:`Value Object <value-object>`, :ref:`Type Invariant <invariant>`, :ref:`Validation <validation>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Assertions <assertion>`

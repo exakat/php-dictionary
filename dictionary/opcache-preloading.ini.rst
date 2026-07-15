@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OPcache Preloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:09:53 +0000","dateModified":"Sat, 11 Jul 2026 09:09:53 +0000","description":"OPcache preloading, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OPcache Preloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/opcache-preloading.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/opcache-preloading.ini.html","name":"OPcache Preloading","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:50:11 +0000","dateModified":"Wed, 15 Jul 2026 13:50:11 +0000","description":"OPcache preloading, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OPcache Preloading.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OPcache Preloading
@@ -52,7 +52,7 @@ Preloading is most effective for framework core files, base classes, and heavily
 
 `Documentation <https://www.php.net/manual/en/opcache.preloading.php>`__
 
-See also `OPcache Preloading <https://www.php.net/manual/en/opcache.preloading.php>`_ and `Preloading in PHP 7.4 <https://stitcher.io/blog/preloading-in-php-74>`_.
+See also `Preloading in PHP 7.4 <https://stitcher.io/blog/preloading-in-php-74>`_.
 
 Related : :ref:`Opcache <opcache>`, :ref:`Cold Start <cold-start>`, :ref:`Just In Time (JIT) <jit>`, :ref:`Opcode <opcode>`, :ref:`FastCGI Process Manager (FPM) <fpm>`, :ref:`Ahead Of Time <aot>`
 

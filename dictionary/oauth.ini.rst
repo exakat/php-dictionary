@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"OAuth","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:11:07 +0000","dateModified":"Sat, 11 Jul 2026 09:11:07 +0000","description":"OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OAuth.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/oauth.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/oauth.ini.html","name":"OAuth","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:50:55 +0000","dateModified":"Wed, 15 Jul 2026 13:50:55 +0000","description":"OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OAuth.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OAuth
@@ -28,7 +28,7 @@ OAuth is typically implemented via libraries such as ``league/oauth2-server`` fo
 
 `Documentation <https://oauth.net/2/>`__
 
-See also `OAuth 2.0 <https://oauth.net/2/>`_ and `RFC 6749 <https://datatracker.ietf.org/doc/html/rfc6749>`_.
+See also `RFC 6749 <https://datatracker.ietf.org/doc/html/rfc6749>`_.
 
 Related : :ref:`Authentication <authentication>`, :ref:`Security <security>`, :ref:`JSON Web Token (JWT) <jwt>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Protocol <protocol>`, :ref:`Token <token>`, :ref:`SplSubject <splsubject>`
 

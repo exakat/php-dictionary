@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Request","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 15:12:29 +0000","dateModified":"Thu, 18 Jun 2026 15:12:29 +0000","description":"A request is an object that encapsulates an incoming HTTP message: method, URL, headers, query parameters, body, and uploaded files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/request.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/request.ini.html","name":"Request","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:43:55 +0000","dateModified":"Mon, 13 Jul 2026 18:43:55 +0000","description":"A request is an object that encapsulates an incoming HTTP message: method, URL, headers, query parameters, body, and uploaded files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Request
@@ -59,7 +59,7 @@ PSR-7 defines a standard ``ServerRequestInterface`` that many frameworks and lib
 
 `Documentation <https://www.php-fig.org/psr/psr-7/>`__
 
-See also `PSR-7: HTTP message interfaces <https://www.php-fig.org/psr/psr-7/>`_, `Symfony HttpFoundation Request <https://symfony.com/doc/current/components/http_foundation.html>`_ and `Laravel Requests <https://laravel.com/docs/12.x/requests>`_.
+See also `Symfony HttpFoundation Request <https://symfony.com/doc/current/components/http_foundation.html>`_ and `Laravel Requests <https://laravel.com/docs/12.x/requests>`_.
 
 Related : :ref:`$_REQUEST <$_request>`, :ref:`$_GET <$_get>`, :ref:`$_POST <$_post>`, :ref:`$_SERVER <$_server>`, :ref:`Controller <controller>`, :ref:`Route <route>`, :ref:`Middleware Pattern <middleware>`, :ref:`Incoming Data <incoming-data>`, :ref:`Form <form>`
 

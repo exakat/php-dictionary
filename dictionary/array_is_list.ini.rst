@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"array_is_list()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:16:10 +0000","dateModified":"Mon, 13 Jul 2026 09:16:10 +0000","description":"``array_is_list()`` is a native PHP function that checks if the given array is a list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_is_list().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_is_list.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_is_list.ini.html","name":"array_is_list()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:16:10 +0000","dateModified":"Mon, 13 Jul 2026 09:16:10 +0000","description":"``array_is_list()`` is a native PHP function that checks if the given array is a list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array_is_list().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 array_is_list()
@@ -49,6 +49,6 @@ An array is considered a list if its keys are sequential integers starting from 
 
 See also `How to Encode an Array in JSON with PHP (Production-Ready Guide) <https://thelinuxcode.com/how-to-encode-an-array-in-json-with-php-production-ready-guide/>`_.
 
-Related : , :ref:`json_encode() <json_encode>`, :ref:`count() <count>`, :ref:`array_keys() <array_keys>`
+Related : :ref:`is_array() <is_array>`, :ref:`json_encode() <json_encode>`, :ref:`count() <count>`, :ref:`array_keys() <array_keys>`
 
 Added in PHP 8.1

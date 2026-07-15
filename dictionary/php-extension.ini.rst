@@ -1,30 +1,32 @@
 .. _php-extension:
 .. meta::
 	:description:
-		PHP Extensions: Extensions are PHP module system.
+		PHP Extensions: Extensions are PHP engine module system.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: PHP Extensions
-	:twitter:description: PHP Extensions: Extensions are PHP module system
+	:twitter:description: PHP Extensions: Extensions are PHP engine module system
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: PHP Extensions
 	:og:type: article
-	:og:description: Extensions are PHP module system
+	:og:description: Extensions are PHP engine module system
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/php-extension.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Extensions are PHP module system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php-extension.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php-extension.ini.html","name":"PHP Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:39:08 +0000","dateModified":"Tue, 14 Jul 2026 05:39:08 +0000","description":"Extensions are PHP engine module system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Extensions
 --------------
 
-Extensions are PHP module system. They are compiled into PHP, and offer extra features, such as functions, classes, traits and directive.
+Extensions are PHP engine module system. They are compiled into PHP, and offer extra features, such as functions, classes, traits and directive.
 
-Extensions are published in the PECL repository. Some are available by default, in the PHP standard configuration.
+Extensions are published in the PIE repository. They were used to be published in the PECL repository, but it is being sunset at the moment.
+
+Some are available by default, in the PHP standard configuration.
 
 .. code-block:: php
    
@@ -42,6 +44,8 @@ Extensions are published in the PECL repository. Some are available by default, 
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/install.pecl.php>`__
+`Documentation <https://packagist.org/search/>`__
+
+See also `PECL repository (deprecated) <https://pecl.php.net/>`_.
 
 Related : :ref:`PHP Engine <php-engine>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/A never-returning function must not return.html","name":"rewind()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:17:17 +0000","dateModified":"Mon, 13 Jul 2026 09:17:17 +0000","description":"``rewind()`` is a native PHP function that sets the file position indicator for a file pointer to the beginning of the file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rewind().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rewind.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rewind.ini.html","name":"rewind()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:17:17 +0000","dateModified":"Mon, 13 Jul 2026 09:17:17 +0000","description":"``rewind()`` is a native PHP function that sets the file position indicator for a file pointer to the beginning of the file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rewind().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 rewind()
@@ -48,4 +48,4 @@ It is equivalent to ``fseek($fp, 0)`` and is useful when re-reading a file from 
 
 See also `rewind() function <https://www.w3docs.com/learn-php/rewind-in-php>`_.
 
-Related : :ref:`fseek() <fseek>`, , :ref:`fopen() <fopen>`, , :ref:`File <file>`
+Related : :ref:`fseek() <fseek>`, :ref:`ftell() <ftell>`, :ref:`fopen() <fopen>`, :ref:`fread() <fread>`, :ref:`File <file>`

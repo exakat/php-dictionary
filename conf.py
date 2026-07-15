@@ -32,6 +32,7 @@ release = '1.0.173'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinxcontrib.googleanalytics',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,7 +49,7 @@ exclude_patterns = ['_build', 'build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'furo'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -61,14 +62,14 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
 					"robots.txt"]
 					
 html_theme_options = {
-    'logo': 'logo.png',
-    'analytics_id': 'G-29LCZ34CDW',
-    'github_button': True,
-    'github_repo':'php-dictionary',
-    'github_user':'exakat',
-    'description': 'The definitive reference with all things PHP, and their definitions.',
+    'light_logo': 'logo.png',
+    'dark_logo': 'logo.png',
+    'source_view_link': 'https://github.com/exakat/php-dictionary/',
+    'source_branch': 'main',
+    'source_directory': '',
 }
 
+googleanalytics_id = 'G-29LCZ34CDW';
 
 html_js_files = [
     'js/custom.js',

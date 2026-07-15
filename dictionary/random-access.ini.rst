@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Random Access","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 10:28:13 +0000","dateModified":"Thu, 09 Jul 2026 10:28:13 +0000","description":"Random access is the ability to read or write any element of a data structure, or any byte of a file, directly, in constant time, without having to traverse the elements that precede it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Random Access.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/random-access.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/random-access.ini.html","name":"Random Access","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:27 +0000","dateModified":"Mon, 13 Jul 2026 18:47:27 +0000","description":"Random access is the ability to read or write any element of a data structure, or any byte of a file, directly, in constant time, without having to traverse the elements that precede it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Random Access.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Random Access
@@ -44,7 +44,5 @@ Random access also applies to files: ``fopen()`` combined with ``fseek()`` lets 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Random_access>`__
-
-See also `Random access <https://en.wikipedia.org/wiki/Random_access>`_.
 
 Related : :ref:`Array, [] <array>`, :ref:`Hash Table <hash-table>`, :ref:`fseek() <fseek>`

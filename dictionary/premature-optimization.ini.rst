@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Premature Optimization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:01 +0000","dateModified":"Sat, 11 Jul 2026 09:06:01 +0000","description":"Premature optimization is the practice of optimizing code before profiling has identified it as a bottleneck","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Premature Optimization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/premature-optimization.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/premature-optimization.ini.html","name":"Premature Optimization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:27:25 +0000","dateModified":"Tue, 14 Jul 2026 05:27:25 +0000","description":"Premature optimization is the practice of optimizing code before profiling has identified it as a bottleneck","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Premature Optimization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Premature Optimization
@@ -56,6 +56,6 @@ The correct approach: write clear, maintainable code first; profile with Blackfi
 
 `Documentation <https://wiki.c2.com/?PrematureOptimization>`__
 
-See also `C2 Wiki: Premature Optimization <https://wiki.c2.com/?PrematureOptimization>`_.
+See also `Premature Optimization in PHP: Avoiding Common Pitfalls <https://softwarepatternslexicon.com/php/anti-patterns-in-php/premature-optimization/>`_.
 
 Related : :ref:`Optimisation <optimisation>`, :ref:`Performance <performance>`, :ref:`PHP Profiler <profiler>`, :ref:`Benchmarking <benchmarking>`, :ref:`Micro-optimisation <micro-optimisation>`, :ref:`Readability <readability>`, :ref:`Xdebug <xdebug>`, :ref:`Tideways <tideways>`, :ref:`Blackfire <blackfire>`

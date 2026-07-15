@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Base","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The term ``base`` has two common meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Base.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/base.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/base.ini.html","name":"Base","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 14:01:42 +0000","dateModified":"Wed, 15 Jul 2026 14:01:42 +0000","description":"The term ``base`` has two common meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Base.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Base
@@ -33,29 +33,27 @@ The term ``base`` has two common meanings:
    
    <?php
    
-   // Base class (parent class)
-   abstract class Shape {
-       abstract public function area(): float;
-   }
-   
-   class Circle extends Shape {
-       public function __construct(private float $radius) {}
-       public function area(): float { return M_PI * $this->radius ** 2; }
-   }
-   
-   // Numeric base conversions
-   echo base_convert('ff', 16, 10); // 255  (hex -> decimal)
-   echo base_convert('255', 10, 2); // 11111111  (decimal -> binary)
-   
-   echo 0b11111111; // 255  (binary literal)
-   echo 0xFF;       // 255  (hex literal)
-   echo 0377;       // 255  (octal literal)
+       // Base class (parent class)
+       abstract class Shape {
+           abstract public function area(): float;
+       }
+       
+       class Circle extends Shape {
+           public function __construct(private float $radius) {}
+           public function area(): float { return M_PI * $this->radius ** 2; }
+       }
+       
+       // Numeric base conversions
+       echo base_convert('ff', 16, 10); // 255  (hex -> decimal)
+       echo base_convert('255', 10, 2); // 11111111  (decimal -> binary)
+       
+       echo 0b11111111; // 255  (binary literal)
+       echo 0xFF;       // 255  (hex literal)
+       echo 0377;       // 255  (octal literal)
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/function.base-convert.php>`__
-
-See also `base_convert - PHP Manual <https://www.php.net/manual/en/function.base-convert.php>`_.
 
 Related : :ref:`Abstract Class <abstract-class>`, :ref:`Inheritance <inheritance>`, :ref:`Numeric Base <numeric-base>`, :ref:`Base Class <base-class>`, :ref:`Binary <binary>`, :ref:`Hexadecimal Integer <hexadecimal-integer>`, :ref:`Base 64 Encoding <base64>`

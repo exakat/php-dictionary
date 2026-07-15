@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Too few arguments.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Too few arguments.html","name":"Privacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Privacy in software refers to the protection of personal and sensitive user data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Privacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/privacy.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/privacy.ini.html","name":"Privacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:31:08 +0000","dateModified":"Tue, 14 Jul 2026 05:31:08 +0000","description":"Privacy in software refers to the protection of personal and sensitive user data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Privacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Privacy
@@ -44,27 +44,27 @@ PHP's ``SensitiveParameter`` attribute prevents sensitive argument values from a
    
    <?php
    
-   // PHP 8.2+: SensitiveParameter prevents the value from appearing in stack traces
-   function authenticate(
-       string $username,
-       #[\SensitiveParameter] string $password
-   ): bool {
-       // ...
-       return password_verify($password, getStoredHash($username));
-   }
-   
-   // Anonymising an email address for logging
-   function anonymizeEmail(string $email): string
-   {
-       [$local, $domain] = explode('@', $email);
-       return substr($local, 0, 2) . '***@' . $domain;
-   }
+       // PHP 8.2+: SensitiveParameter prevents the value from appearing in stack traces
+       function authenticate(
+           string $username,
+           #[\SensitiveParameter] string $password
+       ): bool {
+           // ...
+           return password_verify($password, getStoredHash($username));
+       }
+       
+       // Anonymising an email address for logging
+       function anonymizeEmail(string $email): string
+       {
+           [$local, $domain] = explode('@', $email);
+           return substr($local, 0, 2) . '***@' . $domain;
+       }
    
    ?>
 
 
 `Documentation <https://gdpr-info.eu/>`__
 
-See also `GDPR full text <https://gdpr-info.eu/>`_, `PHP SensitiveParameter attribute <https://www.php.net/manual/en/class.sensitiveparameter.php>`_ and `OWASP Privacy Risks <https://owasp.org/www-project-top-10-privacy-risks/>`_.
+See also `PHP SensitiveParameter attribute <https://www.php.net/manual/en/class.sensitiveparameter.php>`_ and `OWASP Privacy Risks <https://owasp.org/www-project-top-10-privacy-risks/>`_.
 
 Related : :ref:`Security <security>`, :ref:`Compliance <compliance>`, :ref:`Anonymize <anonymize>`, :ref:`Sensitive Parameter <sensitiveparameter>`, :ref:`Cryptography <cryptography>`, :ref:`Audit Trail <audit-trail>`, :ref:`Authentication <authentication>`, :ref:`Data Leak <data-leak>`, :ref:`Password API <password-ext>`, :ref:`Password <password>`, :ref:`Secret <secret>`

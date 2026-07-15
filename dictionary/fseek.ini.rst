@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"fseek()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:12:58 +0000","dateModified":"Sun, 12 Jul 2026 20:12:58 +0000","description":"``fseek()`` is a native PHP function that sets the file position indicator for a file pointer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fseek().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fseek.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fseek.ini.html","name":"fseek()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:12:58 +0000","dateModified":"Sun, 12 Jul 2026 20:12:58 +0000","description":"``fseek()`` is a native PHP function that sets the file position indicator for a file pointer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fseek().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 fseek()
@@ -46,4 +46,4 @@ It moves the file pointer to a specified position, allowing random access to fil
 
 `Documentation <https://www.php.net/manual/en/function.fseek.php>`__
 
-Related : :ref:`File <file>`, :ref:`fopen() <fopen>`, , :ref:`rewind() <rewind>`, :ref:`File Mode <file-mode>`
+Related : :ref:`File <file>`, :ref:`fopen() <fopen>`, :ref:`ftell() <ftell>`, :ref:`rewind() <rewind>`, :ref:`File Mode <file-mode>`

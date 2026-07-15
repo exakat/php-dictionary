@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Compensation Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:11:03 +0000","dateModified":"Tue, 30 Jun 2026 15:11:03 +0000","description":"Compensation logic refers to the set of actions taken to undo or neutralise the effects of a previously completed step when a subsequent step in a distributed process fails","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compensation Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compensation-logic.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compensation-logic.ini.html","name":"Compensation Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:15:27 +0000","dateModified":"Tue, 14 Jul 2026 06:15:27 +0000","description":"Compensation logic refers to the set of actions taken to undo or neutralise the effects of a previously completed step when a subsequent step in a distributed process fails","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compensation Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Compensation Logic
@@ -60,7 +60,5 @@ Compensation logic is typically implemented as event handlers or command handler
 
 
 `Documentation <https://microservices.io/patterns/data/saga.html>`__
-
-See also `Saga pattern <https://microservices.io/patterns/data/saga.html>`_.
 
 Related : :ref:`Distributed Transactions <distributed-transactions>`, :ref:`Event Sourcing <event-sourcing>`, :ref:`Event Driven <event-driven>`, :ref:`Microservice <microservice>`, :ref:`Idempotent <idempotent>`, :ref:`ACID <acid>`

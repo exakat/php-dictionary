@@ -1,28 +1,50 @@
 .. _shared-memory:
 .. meta::
 	:description:
-		Shared Memory: Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment.
+		Shared Memory: Shared memory is a technique that allows multiple processes to access the same region of memory, enabling fast inter-process communication, IPC, without the overhead of serialization or network transfers.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Shared Memory
-	:twitter:description: Shared Memory: Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment
+	:twitter:description: Shared Memory: Shared memory is a technique that allows multiple processes to access the same region of memory, enabling fast inter-process communication, IPC, without the overhead of serialization or network transfers
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Shared Memory
 	:og:type: article
-	:og:description: Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment
+	:og:description: Shared memory is a technique that allows multiple processes to access the same region of memory, enabling fast inter-process communication, IPC, without the overhead of serialization or network transfers
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/shared-memory.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Shared Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:09:28 +0000","dateModified":"Sat, 11 Jul 2026 09:09:28 +0000","description":"Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/shared-memory.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/shared-memory.ini.html","name":"Shared Memory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:48:26 +0000","dateModified":"Tue, 14 Jul 2026 05:48:26 +0000","description":"Shared memory is a technique that allows multiple processes to access the same region of memory, enabling fast inter-process communication, IPC, without the overhead of serialization or network transfers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Shared Memory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Shared Memory
 -------------
 
-Shared memory is a powerful PHP feature that allows multiple processes to access and store data in a shared memory segment.
+Shared memory is a technique that allows multiple processes to access the same region of memory, enabling fast inter-process communication, IPC, without the overhead of serialization or network transfers.
+
+PHP provides several mechanisms for shared memory:
+
++ Shmop extension: low-level shared memory operations using SysV shared memory segments. Functions include ``shmop_open()``, ``shmop_read()``, ``shmop_write()``, ``shmop_close()``, and ``shmop_delete()``. Uses a key ``shm_key`` to identify segments.
+
++ APCu, APC User Cache: a widely-used in-memory key-value store that provides shared memory caching across requests. Functions like ``apcu_store()``, ``apcu_fetch()``, and ``apcu_delete()`` are commonly used for application-level caching.
+
++ ``msg_send()`` / ``msg_receive()``: message queue functions that enable structured communication between processes.
+
++ ``sysvsem``: system V semaphore functions for synchronization between processes accessing shared memory.
+
++ OPcache: while not directly a shared memory API, OPcache stores compiled PHP bytecode in shared memory, allowing all PHP processes to reuse compiled scripts.
+
+Shared memory is essential for:
+
++ Session handling in load-balanced environments
++ Application-level caching, APCu
++ Inter-process communication in worker pools
++ Real-time data sharing between processes
++ Reducing database load through in-memory caching
+
+Note that shared memory segments persist until explicitly deleted or the system is restarted, which requires careful lifecycle management.
 
 .. code-block:: php
    
@@ -55,4 +77,4 @@ Shared memory is a powerful PHP feature that allows multiple processes to access
 
 See also `A Guide to the PHP SHMOP Library for Shared Memory Operations <https://reintech.io/blog/a-guide-to-php-shmop-library-for-shared-memory-operations>`_.
 
-Related : :ref:`Memory <memory>`, :ref:`Actor Model <actor-model>`, :ref:`Ownership <borrow-checking>`, :ref:`Channel <channel>`, :ref:`Memory Arena <memory-arena>`, :ref:`Software Transactional Memory (STM) <software-transactional-memory>`
+Related : :ref:`Memory <memory>`, :ref:`Actor Model <actor-model>`, :ref:`Ownership <borrow-checking>`, :ref:`Channel <channel>`, :ref:`Memory Arena <memory-arena>`, :ref:`Software Transactional Memory (STM) <software-transactional-memory>`, :ref:`Cache <cache>`, , :ref:`Session <session>`, :ref:`Opcache <opcache>`, :ref:`Concurrency <concurrency>`, :ref:`Mutex <mutex>`, :ref:`Semaphore <semaphore>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Phantom Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 06:40:48 +0000","dateModified":"Tue, 07 Jul 2026 06:40:48 +0000","description":"A phantom type is a generic type that carries a type parameter which does not appear in the runtime representation of the value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Phantom Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/phantom-type.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/phantom-type.ini.html","name":"Phantom Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:30:09 +0000","dateModified":"Tue, 14 Jul 2026 06:30:09 +0000","description":"A phantom type is a generic type that carries a type parameter which does not appear in the runtime representation of the value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Phantom Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Phantom Type
@@ -26,7 +26,7 @@ A phantom type is a generic type that carries a type parameter which does not ap
 
 The classic use case is encoding state in the type. A ``Connection<Closed>`` and a ``Connection<Open>`` have identical runtime structure but different static types, so calling ``query()`` on a closed connection becomes a compile-time error rather than a runtime exception. The phantom parameter ``Closed`` or ``Open`` holds no data; it is purely a type-level marker.
 
-Phantom types are a lightweight alternative to dependent types for expressing invariants that can be tracked statically. They are used in Haskell, Rust (zero-sized marker types), and TypeScript (branded types via ``& { readonly __brand: 'USD' }``).
+Phantom types are a lightweight alternative to dependent types for expressing invariants that can be tracked statically. They are used in Haskell, Rust, zero-sized marker types, and TypeScript, branded types via ``& { readonly __brand: 'USD' }``.
 
 PHP does not support phantom types natively. Generic type parameters are not a language feature. However, a partial simulation is possible using PHPStan or Psalm template annotations for static analysis purposes only, with no runtime enforcement. Branded value objects achieve a similar discrimination effect at the cost of wrapping every value in an object.
 
@@ -61,6 +61,6 @@ PHP does not support phantom types natively. Generic type parameters are not a l
 
 `Documentation <https://en.wikipedia.org/wiki/Phantom_type>`__
 
-See also `Phantom type on Wikipedia <https://en.wikipedia.org/wiki/Phantom_type>`_ and `Branded types in TypeScript <https://egghead.io/blog/using-branded-types-in-typescript>`_.
+See also `Branded types in TypeScript <https://egghead.io/blog/using-branded-types-in-typescript>`_.
 
 Related : :ref:`Generics <generics>`, :ref:`Type System <type-system>`, :ref:`Type Checking <type-checking>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Value Object <value-object>`, :ref:`Dependent Type <dependent-type>`, :ref:`Immutable <immutable>`

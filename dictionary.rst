@@ -37,6 +37,7 @@ PHP Dictionary
    * :ref:`__call() Method <-__call>`
    * :ref:`__callStatic() Method <-__callstatic>`
    * :ref:`__clone() Method <-__clone>`
+   * :ref:`__debugInfo() Method <-__debuginfo>`
    * :ref:`__get() Method <-__get>`
    * :ref:`__halt_compiler() <halt-compiler>`
    * :ref:`__invoke() Method <-__invoke>`
@@ -52,6 +53,7 @@ PHP Dictionary
 * A
    * :ref:`ACID <acid>`
    * :ref:`AJAX <ajax>`
+   * :ref:`AMP (Asynchronous Markup Protocol) <amp>`
    * :ref:`ANTLR4 <antlr4>`
    * :ref:`API Gateway <api-gateway>`
    * :ref:`Absolute <absolute>`
@@ -130,6 +132,7 @@ PHP Dictionary
    * :ref:`Assertions <assertion>`
    * :ref:`Asset <asset>`
    * :ref:`Assignations <assignation>`
+   * :ref:`Assignment <assignment>`
    * :ref:`Associative Array <associative-array>`
    * :ref:`Assumption <assumption>`
    * :ref:`Asymmetric Cryptography <asymmetric-cryptography>`
@@ -428,6 +431,7 @@ PHP Dictionary
    * :ref:`Data Access Object (DAO) <dao>`
    * :ref:`Data Container <data-container>`
    * :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`
+   * :ref:`Data Hiding <data-hiding>`
    * :ref:`Data Leak <data-leak>`
    * :ref:`Data Mapper <data-mapper>`
    * :ref:`Data Source Name (DSN) <dsn>`
@@ -549,6 +553,7 @@ PHP Dictionary
    * :ref:`display_errors <display_errors>`
 * E
    * :ref:`E <e>`
+   * :ref:`EXIF (Exchangeable Image File Format) <exif>`
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
    * :ref:`Echo Tag <echo-tag>`
@@ -691,7 +696,9 @@ PHP Dictionary
    * :ref:`fnmatch() <fnmatch>`
    * :ref:`fopen() <fopen>`
    * :ref:`foreach() <foreach>`
+   * :ref:`fread() <fread>`
    * :ref:`fseek() <fseek>`
+   * :ref:`ftell() <ftell>`
    * :ref:`ftp:// <wrapper-ftp>`
    * :ref:`func_get_args() <func_get_args>`
 * G
@@ -747,6 +754,7 @@ PHP Dictionary
    * :ref:`Hash # <hash-character>`
    * :ref:`Hash Comparisons <hash-comparison>`
    * :ref:`Hash Table <hash-table>`
+   * :ref:`Hashing <hashing>`
    * :ref:`Haystack <haystack>`
    * :ref:`Headers <headers>`
    * :ref:`Headless <headless>`
@@ -859,6 +867,7 @@ PHP Dictionary
    * :ref:`intdiv() <intdiv>`
    * :ref:`integer <integer>`
    * :ref:`is_a() <is_a>`
+   * :ref:`is_array() <is_array>`
    * :ref:`is_object() <is_object>`
    * :ref:`iterator_to_array() <iterator_to_array>`
 * J
@@ -965,6 +974,7 @@ PHP Dictionary
    * :ref:`Memory Leak <memory-leak>`
    * :ref:`Merge <merge>`
    * :ref:`Message Bus <message-bus>`
+   * :ref:`Message Digest <message-digest>`
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
    * :ref:`Message Queue <message-queue>`
    * :ref:`Meta-object Protocol <meta-object-protocol>`
@@ -996,6 +1006,7 @@ PHP Dictionary
    * :ref:`Model <model>`
    * :ref:`Model - View - Controller (MVC) <mvc>`
    * :ref:`Model Context Protocol (MCP) <mcp>`
+   * :ref:`Modifier <modifier>`
    * :ref:`Module <module>`
    * :ref:`Module System with Explicit Exports <module-system>`
    * :ref:`Modulo <modulo>`
@@ -1088,6 +1099,7 @@ PHP Dictionary
    * :ref:`Object API <object-api>`
    * :ref:`Object Injection <object-injection>`
    * :ref:`Object Invasion <object-invasion>`
+   * :ref:`Object Lifecycle <object-lifecycle>`
    * :ref:`Object Nullsafe Operator ?-> <object-nullsafe-operator>`
    * :ref:`Object Operator -> <object-operator>`
    * :ref:`Object Persistence <object-persistence>`
@@ -1266,7 +1278,7 @@ PHP Dictionary
    * :ref:`Proprietary Source <proprietary-source>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
-   * :ref:`Protocol Buffers (protobuf) <protobuf>`
+   * :ref:`Protocol Buffers <protobuf>`
    * :ref:`Proxy <proxy>`
    * :ref:`Proxy Class <proxy-class>`
    * :ref:`Pseudo-type <pseudo-type>`
@@ -1318,6 +1330,7 @@ PHP Dictionary
    * :ref:`RangeException <rangeexception>`
    * :ref:`Rate Limiting <rate-limit>`
    * :ref:`RdKafka <rdkafka>`
+   * :ref:`ReactPHP <reactphp>`
    * :ref:`Read Eval Print Loop (REPL) <repl>`
    * :ref:`Readability <readability>`
    * :ref:`Readable <readable>`
@@ -1334,6 +1347,7 @@ PHP Dictionary
    * :ref:`RecursiveDirectoryIterator <recursivedirectoryiterator>`
    * :ref:`RecursiveIterator <recursiveiterator>`
    * :ref:`RecursiveTreeIterator <recursivetreeiterator>`
+   * :ref:`Red-Green-Refactor <red-green-refactor>`
    * :ref:`Redirect <redirect>`
    * :ref:`Refactoring <refactoring>`
    * :ref:`Reference Count <reference-count>`
@@ -1478,6 +1492,7 @@ PHP Dictionary
    * :ref:`Short Syntax <short-syntax>`
    * :ref:`Short Tags <short-tag>`
    * :ref:`Short Ternary Operator <short-ternary>`
+   * :ref:`Shutdown <shutdown>`
    * :ref:`Shutdown Function <shutdown-function>`
    * :ref:`Side Effect <side-effect>`
    * :ref:`Sign <sign>`
@@ -1679,6 +1694,7 @@ PHP Dictionary
    * :ref:`Tutorial <tutorial>`
    * :ref:`Type Checking <type-checking>`
    * :ref:`Type Class <type-class>`
+   * :ref:`Type Coercion <coercion>`
    * :ref:`Type Coverage <type-coverage>`
    * :ref:`Type Error <typerror>`
    * :ref:`Type Inference <type-inference>`

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Escape Data","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:07:16 +0000","dateModified":"Mon, 06 Jul 2026 10:07:16 +0000","description":"Escaping data is a method to write data in a neutral syntax for a target technology","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Data.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escape-data.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escape-data.ini.html","name":"Escape Data","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:53:47 +0000","dateModified":"Wed, 15 Jul 2026 13:53:47 +0000","description":"Escaping data is a method to write data in a neutral syntax for a target technology","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Escape Data.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Escape Data
@@ -28,7 +28,7 @@ Escaping data is a method to write data in a neutral syntax for a target technol
 
 For example, angular brackets and quotes are special characters for HTML: to display them without their actual HTML meaning, they have to be escaped as HTML entities, such as ``&quote`` or ``&gt;``. 
 
-Escaping applies to technologies which mix raw strings and executable expression: SQL, CSV, HTML, LDAP, etc. 
+Escaping applies to technologies which mix raw strings and executable expression: ``SQL``, ``CSV``, ``HTML``, ``LDAP``, etc. 
 
 Escaping data replace some symbols with a longer sequence of symbols. The escaping is made with a special character, which must itself be escaped. For example, CSV escapes anti-slash with a double anti-slash.
 

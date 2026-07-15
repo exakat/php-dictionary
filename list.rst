@@ -24,6 +24,7 @@ Index
    dictionary/__callstatic.ini
    dictionary/__class__.ini
    dictionary/__clone.ini
+   dictionary/__debuginfo.ini
    dictionary/__dir__.ini
    dictionary/__file__.ini
    dictionary/__function__.ini
@@ -70,6 +71,7 @@ Index
    dictionary/alias.ini
    dictionary/allowdynamicproperties.ini
    dictionary/alternative-syntax.ini
+   dictionary/amp.ini
    dictionary/analysis.ini
    dictionary/anchor.ini
    dictionary/and.ini
@@ -144,6 +146,7 @@ Index
    dictionary/assertion.ini
    dictionary/asset.ini
    dictionary/assignation.ini
+   dictionary/assignment.ini
    dictionary/associative-array.ini
    dictionary/assumption.ini
    dictionary/ast.ini
@@ -306,6 +309,7 @@ Index
    dictionary/code-smell.ini
    dictionary/codepoint.ini
    dictionary/coding-convention.ini
+   dictionary/coercion.ini
    dictionary/cognitive-complexity.ini
    dictionary/cohesion.ini
    dictionary/cold-start.ini
@@ -408,6 +412,7 @@ Index
    dictionary/dao.ini
    dictionary/data-container.ini
    dictionary/data-flow-analysis.ini
+   dictionary/data-hiding.ini
    dictionary/data-leak.ini
    dictionary/data-mapper.ini
    dictionary/data.ini
@@ -596,6 +601,7 @@ Index
    dictionary/execution-path.ini
    dictionary/execution-time.ini
    dictionary/execution.ini
+   dictionary/exif.ini
    dictionary/existence.ini
    dictionary/existential-type.ini
    dictionary/exit.ini
@@ -669,9 +675,11 @@ Index
    dictionary/fossilized-method.ini
    dictionary/fpm.ini
    dictionary/framework.ini
+   dictionary/fread.ini
    dictionary/free.ini
    dictionary/frontend.ini
    dictionary/fseek.ini
+   dictionary/ftell.ini
    dictionary/ftp.ini
    dictionary/ftps.ini
    dictionary/fully-qualified-name.ini
@@ -730,6 +738,7 @@ Index
    dictionary/hash-table.ini
    dictionary/hash.ini
    dictionary/hash_equals.ini
+   dictionary/hashing.ini
    dictionary/haystack.ini
    dictionary/headers.ini
    dictionary/headless.ini
@@ -844,6 +853,7 @@ Index
    dictionary/iot.ini
    dictionary/ip.ini
    dictionary/is_a.ini
+   dictionary/is_array.ini
    dictionary/is_object.ini
    dictionary/isp.ini
    dictionary/isset.ini
@@ -959,6 +969,7 @@ Index
    dictionary/memory_limit.ini
    dictionary/merge.ini
    dictionary/message-bus.ini
+   dictionary/message-digest.ini
    dictionary/message-queue.ini
    dictionary/meta-object-protocol.ini
    dictionary/metaclass.ini
@@ -987,6 +998,7 @@ Index
    dictionary/mobile-app.ini
    dictionary/mock.ini
    dictionary/model.ini
+   dictionary/modifier.ini
    dictionary/module-system.ini
    dictionary/module.ini
    dictionary/modulo.ini
@@ -1072,6 +1084,7 @@ Index
    dictionary/object-api.ini
    dictionary/object-injection.ini
    dictionary/object-invasion.ini
+   dictionary/object-lifecycle.ini
    dictionary/object-nullsafe-operator.ini
    dictionary/object-operator.ini
    dictionary/object-persistence.ini
@@ -1299,6 +1312,7 @@ Index
    dictionary/rdbms.ini
    dictionary/rdf-triple-store.ini
    dictionary/rdkafka.ini
+   dictionary/reactphp.ini
    dictionary/readability.ini
    dictionary/readable.ini
    dictionary/reading.ini
@@ -1314,6 +1328,7 @@ Index
    dictionary/recursivedirectoryiterator.ini
    dictionary/recursiveiterator.ini
    dictionary/recursivetreeiterator.ini
+   dictionary/red-green-refactor.ini
    dictionary/redirect.ini
    dictionary/refactoring.ini
    dictionary/reference-count.ini
@@ -1451,6 +1466,7 @@ Index
    dictionary/short-ternary.ini
    dictionary/short_open_tag.ini
    dictionary/shutdown-function.ini
+   dictionary/shutdown.ini
    dictionary/side-effect.ini
    dictionary/sign.ini
    dictionary/signature.ini

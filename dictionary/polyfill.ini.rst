@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/polyfill.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/polyfill.ini.html","name":"Polyfill","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:25:03 +0000","dateModified":"Mon, 13 Jul 2026 18:25:03 +0000","description":"A polyfill is a piece of code that provides modern functionality on older browsers or environments that lack support for certain features","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Polyfill.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Polyfill
@@ -49,7 +49,7 @@ Polyfills exist for PHP, but also for any framework.
 
 `Documentation <https://symfony.com/components/Polyfill%20PHP%208.0>`__
 
-See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_ and `PHP and the use of Polyfills <https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e>`_.
+See also `Polyfill Symfony <https://github.com/symfony/polyfill>`_, `Polyfill PHPUnit <https://github.com/Yoast/PHPUnit-Polyfills.git>`_, `PHP and the use of Polyfills <https://roman-huliak.medium.com/php-and-the-use-of-polyfills-3c399b100c7e>`_ and `In defense of polyfills <https://lea.verou.me/blog/2026/polyfills/>`_.
 
 Related : :ref:`Backward Compatible <backward-compatible>`
 

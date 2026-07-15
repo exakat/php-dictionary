@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Anti-Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:13:40 +0000","dateModified":"Wed, 08 Jul 2026 16:13:40 +0000","description":"An anti-pattern is a common but counterproductive solution to a recurring problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anti-Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/anti-pattern.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/anti-pattern.ini.html","name":"Anti-Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:28:54 +0000","dateModified":"Tue, 14 Jul 2026 05:28:54 +0000","description":"An anti-pattern is a common but counterproductive solution to a recurring problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Anti-Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Anti-Pattern
@@ -63,6 +63,6 @@ Recognising anti-patterns is a key skill in code review and static analysis. Exa
 
 `Documentation <https://en.wikipedia.org/wiki/Anti-pattern>`__
 
-See also `Anti-pattern — Wikipedia <https://en.wikipedia.org/wiki/Anti-pattern>`_ and `AntiPatterns book (Brown et al., 1998) <https://en.wikipedia.org/wiki/AntiPatterns>`_.
+See also `Anti-pattern — Wikipedia <https://en.wikipedia.org/wiki/Anti-pattern>`_, `Recognizing Common PHP Anti-Patterns <https://softwarepatternslexicon.com/php/anti-patterns-in-php/recognizing-common-php-anti-patterns/>`_ and `AntiPatterns book (Brown et al., 1998) <https://en.wikipedia.org/wiki/AntiPatterns>`_.
 
 Related : :ref:`Pattern <pattern>`, :ref:`Fat Controller <fat-controller>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Analysis <analysis>`

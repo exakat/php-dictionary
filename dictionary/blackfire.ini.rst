@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Blackfire","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:17:27 +0000","dateModified":"Thu, 02 Jul 2026 08:17:27 +0000","description":"Blackfire is a PHP profiler and performance testing platform","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Blackfire.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/blackfire.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/blackfire.ini.html","name":"Blackfire","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 14:02:59 +0000","dateModified":"Wed, 15 Jul 2026 14:02:59 +0000","description":"Blackfire is a PHP profiler and performance testing platform","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Blackfire.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Blackfire
@@ -27,8 +27,8 @@ Blackfire is a PHP profiler and performance testing platform. It instruments PHP
 
 Blackfire integrates with IDEs, CI pipelines, and the Blackfire Player tool for automated performance assertions. It is developed and maintained by Blackfire.io, acquired by Platform.sh in 2020.
 
-`Documentation <https://blackfire.io/docs/introduction>`__
+`Documentation <https://blackfire.io/>`__
 
 See also `Blackfire documentation <https://blackfire.io/docs/introduction>`_.
 
-Related : :ref:`PHP Profiler <profiler>`, :ref:`Performance <performance>`, :ref:`Xdebug <xdebug>`, :ref:`Tideways <tideways>`, :ref:`Benchmarking <benchmarking>`, :ref:`Flame Graph <flamegraph>`, :ref:`Application Performance Management (APM) <apm>`
+Related : :ref:`PHP Profiler <profiler>`, :ref:`Performance <performance>`, :ref:`Xdebug <xdebug>`, :ref:`Tideways <tideways>`, :ref:`Benchmarking <benchmarking>`, :ref:`Flame Graph <flamegraph>`, :ref:`Application Performance Management (APM) <apm>`, :ref:`Excimer <excimer>`, :ref:`OpenTelemetry <opentelemetry>`, :ref:`Premature Optimization <premature-optimization>`, :ref:`Profiling <profiling>`

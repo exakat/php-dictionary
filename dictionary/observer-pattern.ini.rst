@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Observer Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The Observer pattern defines a one-to-many dependency between objects: when one object changes state, all registered dependents are notified automatically","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Observer Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/observer-pattern.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/observer-pattern.ini.html","name":"Observer Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:50:35 +0000","dateModified":"Wed, 15 Jul 2026 13:50:35 +0000","description":"The Observer pattern defines a one-to-many dependency between objects: when one object changes state, all registered dependents are notified automatically","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Observer Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Observer Pattern
@@ -30,39 +30,39 @@ PHP provides built-in interfaces ``SplSubject`` and ``SplObserver`` to implement
    
    <?php
    
-   class EventSource implements SplSubject {
-       private SplObjectStorage $observers;
-       private string $state = '';
-   
-       public function __construct() {
-           $this->observers = new SplObjectStorage();
-       }
-   
-       public function attach(SplObserver $observer): void {
-           $this->observers->attach($observer);
-       }
-   
-       public function detach(SplObserver $observer): void {
-           $this->observers->detach($observer);
-       }
-   
-       public function notify(): void {
-           foreach ($this->observers as $observer) {
-               $observer->update($this);
+       class EventSource implements SplSubject {
+           private SplObjectStorage $observers;
+           private string $state = '';
+       
+           public function __construct() {
+               $this->observers = new SplObjectStorage();
+           }
+       
+           public function attach(SplObserver $observer): void {
+               $this->observers->attach($observer);
+           }
+       
+           public function detach(SplObserver $observer): void {
+               $this->observers->detach($observer);
+           }
+       
+           public function notify(): void {
+               foreach ($this->observers as $observer) {
+                   $observer->update($this);
+               }
+           }
+       
+           public function setState(string $state): void {
+               $this->state = $state;
+               $this->notify();
            }
        }
-   
-       public function setState(string $state): void {
-           $this->state = $state;
-           $this->notify();
-       }
-   }
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/class.splsubject.php>`__
 
-See also `SplSubject <https://www.php.net/manual/en/class.splsubject.php>`_, `SplObserver <https://www.php.net/manual/en/class.splobserver.php>`_ and `Observer pattern <https://en.wikipedia.org/wiki/Observer_pattern>`_.
+See also `SplObserver <https://www.php.net/manual/en/class.splobserver.php>`_ and `Observer pattern <https://en.wikipedia.org/wiki/Observer_pattern>`_.
 
 Related : :ref:`Design Pattern <design-pattern>`, :ref:`Observer Design Pattern <observer>`, :ref:`SplObserver <splobserver>`, :ref:`SplSubject <splsubject>`

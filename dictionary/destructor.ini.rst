@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Destructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The destructor is a magic method in a class, which is called at shutdown of an object, in order to do any last minute cleaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Destructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/destructor.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/destructor.ini.html","name":"Destructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:40:45 +0000","dateModified":"Mon, 13 Jul 2026 18:40:45 +0000","description":"The destructor is a magic method in a class, which is called at shutdown of an object, in order to do any last minute cleaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Destructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Destructor
@@ -56,4 +56,4 @@ Destructors are usually called after the end of the script, and has no access to
 
 See also `Introduction to Destructor in PHP <https://www.educba.com/destructor-in-php/>`_.
 
-Related : :ref:`Constructor <constructor>`, :ref:`Exit <exit>`, :ref:`Literal <literal>`
+Related : :ref:`Constructor <constructor>`, :ref:`Exit <exit>`, :ref:`Literal <literal>`, :ref:`Defer Statement <defer>`, :ref:`Linear Type <linear-type>`, :ref:`Object Lifecycle <object-lifecycle>`, :ref:`Shutdown <shutdown>`

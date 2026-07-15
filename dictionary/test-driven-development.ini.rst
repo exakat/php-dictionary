@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/Cannot use temporary expression in write context.html","name":"Test-Driven Development","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:13:17 +0000","dateModified":"Sun, 12 Jul 2026 20:13:17 +0000","description":"Test-driven development is a software development approach where tests are written before the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test-Driven Development.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/test-driven-development.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/test-driven-development.ini.html","name":"Test-Driven Development","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:13:17 +0000","dateModified":"Sun, 12 Jul 2026 20:13:17 +0000","description":"Test-driven development is a software development approach where tests are written before the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test-Driven Development.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test-Driven Development
@@ -34,4 +34,4 @@ TDD promotes better code design, higher test coverage, and confidence in code ch
 
 `Documentation <https://en.wikipedia.org/wiki/Test-driven_development>`__
 
-Related : :ref:`Test <test>`, :ref:`Test Framework <test-framework>`, :ref:`PHPunit <phpunit>`, , :ref:`Refactoring <refactoring>`, :ref:`Continuous Integration (CI) <ci>`
+Related : :ref:`Test <test>`, :ref:`Test Framework <test-framework>`, :ref:`PHPunit <phpunit>`, :ref:`Red-Green-Refactor <red-green-refactor>`, :ref:`Refactoring <refactoring>`, :ref:`Continuous Integration (CI) <ci>`

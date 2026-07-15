@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Steganography","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 08:01:32 +0000","dateModified":"Mon, 13 Jul 2026 08:01:32 +0000","description":"Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Steganography.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/steganography.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/steganography.ini.html","name":"Steganography","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:30:06 +0000","dateModified":"Tue, 14 Jul 2026 05:30:06 +0000","description":"Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Steganography.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Steganography
@@ -24,7 +24,7 @@ Steganography
 
 Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. Unlike cryptography, which makes content unreadable, steganography aims to hide the very existence of the secret communication.
 
-In the context of PHP and web development, steganography is most commonly associated with hiding data within image files. This can be achieved by embedding information in the least significant bits of pixel data, appending data after image metadata, or exploiting image format specifications to store hidden payloads.
+In web development, steganography is most commonly associated with hiding data within image files. This can be achieved by embedding information in the least significant bits of pixel data, appending data after image metadata, or exploiting image format specifications to store hidden payloads.
 
 Common techniques include:
 
@@ -80,4 +80,4 @@ Steganography can be used for legitimate purposes such as digital watermarking a
 
 See also `Steganography in Images with PHP <https://www.hashbangcode.com/article/steganography-images-php>`_ and `OWASP: Steganography <https://owasp.org/www-community/vulnerabilities/Stealth_Coordination>`_.
 
-Related : :ref:`Image <image>`, :ref:`Security <security>`, :ref:`Graphic Draw (GD) <gd>`, :ref:`imagick <imagick>`, , 
+Related : :ref:`Image <image>`, :ref:`Security <security>`, :ref:`Graphic Draw (GD) <gd>`, :ref:`imagick <imagick>`, :ref:`EXIF (Exchangeable Image File Format) <exif>`, :ref:`Data Hiding <data-hiding>`

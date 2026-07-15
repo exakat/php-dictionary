@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"PHP Manual","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The PHP Manual is the official documentation for the PHP language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Manual.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php-manual.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php-manual.ini.html","name":"PHP Manual","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:47 +0000","dateModified":"Mon, 13 Jul 2026 18:49:47 +0000","description":"The PHP Manual is the official documentation for the PHP language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Manual.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Manual
@@ -45,6 +45,6 @@ The manual is available offline through the downloadable ``many HTML files`` or 
 
 `Documentation <https://www.php.net/manual/en/>`__
 
-See also `PHP Manual <https://www.php.net/manual/en/>`_ and `Downloading the manual <https://www.php.net/download-docs.php>`_.
+See also `Downloading the manual <https://www.php.net/download-docs.php>`_.
 
 Related : :ref:`PHP, Hypertext Preprocessor (PHP) <php>`, :ref:`Documentation <documentation>`, :ref:`PHPdoc <phpdoc>`, :ref:`PHP Native Function <php-function>`, :ref:`PHP Editor <php-editor>`

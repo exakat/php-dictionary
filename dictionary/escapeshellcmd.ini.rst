@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"escapeshellcmd()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 08:34:53 +0000","dateModified":"Mon, 06 Jul 2026 08:34:53 +0000","description":"``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd.ini.html","name":"escapeshellcmd()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:52:51 +0000","dateModified":"Wed, 15 Jul 2026 13:52:51 +0000","description":"``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 escapeshellcmd()
@@ -36,26 +36,26 @@ Important caveats:
    
    <?php
    
-   $userInput = $_GET['path'] ?? '';
-   
-   // Escapes metacharacters in the whole command string
-   $cmd = escapeshellcmd('ls -la ' . $userInput);
-   exec($cmd, $output);
-   
-   // Preferred: escape each argument individually with escapeshellarg()
-   $safeInput = escapeshellarg($userInput);
-   exec('ls -la ' . $safeInput, $output);
-   
-   // Safest: avoid shell entirely with proc_open + array (Symfony Process component)
-   // $process = new \Symfony\Component\Process\Process(['ls', '-la', $userInput]);
-   // $process->run();
+       $userInput = $_GET['path'] ?? '';
+       
+       // Escapes metacharacters in the whole command string
+       $cmd = escapeshellcmd('ls -la ' . $userInput);
+       exec($cmd, $output);
+       
+       // Preferred: escape each argument individually with escapeshellarg()
+       $safeInput = escapeshellarg($userInput);
+       exec('ls -la ' . $safeInput, $output);
+       
+       // Safest: avoid shell entirely with proc_open + array (Symfony Process component)
+       // $process = new \Symfony\Component\Process\Process(['ls', '-la', $userInput]);
+       // $process->run();
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/function.escapeshellcmd.php>`__
 
-See also `escapeshellcmd() — PHP Manual <https://www.php.net/manual/en/function.escapeshellcmd.php>`_, `escapeshellarg() — PHP Manual <https://www.php.net/manual/en/function.escapeshellarg.php>`_ and `Symfony Process component <https://symfony.com/doc/current/components/process.html>`_.
+See also `escapeshellarg() — PHP Manual <https://www.php.net/manual/en/function.escapeshellarg.php>`_ and `Symfony Process component <https://symfony.com/doc/current/components/process.html>`_.
 
 Related : :ref:`escapeshellarg() <escapeshellarg>`, :ref:`Shell Injection <shell-injection>`, :ref:`Injection <injection>`, :ref:`Shell Exec <shell-exec>`, :ref:`exec <exec>`, :ref:`System <system>`, :ref:`Security <security>`, :ref:`Escape Data <escape-data>`
 

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"php:\/\/filter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:46 +0000","dateModified":"Sat, 11 Jul 2026 09:06:46 +0000","description":"``php:\/\/filter`` is a meta-wrapper that allows applying one or more filter chains to a stream before the data is read or written","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php:\/\/filter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php-filter.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php-filter.ini.html","name":"php:\/\/filter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:40 +0000","dateModified":"Mon, 13 Jul 2026 18:49:40 +0000","description":"``php:\/\/filter`` is a meta-wrapper that allows applying one or more filter chains to a stream before the data is read or written","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/php:\/\/filter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 php://filter
@@ -46,6 +46,6 @@ While legitimately used to read or transform stream data on-the-fly, ``php://fil
 
 `Documentation <https://www.php.net/manual/en/wrappers.php.php>`__
 
-See also `PHP Protocol <https://www.php.net/manual/en/wrappers.php.php>`_, `LFI to RCE via php://filter <https://www.synacktiv.com/publications/php-filters-chain-what-is-it-and-how-to-use-it.html>`_ and `PHP filter chains: file read from error-based oracle <https://github.com/synacktiv/php_filter_chain_generator>`_.
+See also `LFI to RCE via php://filter <https://www.synacktiv.com/publications/php-filters-chain-what-is-it-and-how-to-use-it.html>`_ and `PHP filter chains: file read from error-based oracle <https://github.com/synacktiv/php_filter_chain_generator>`_.
 
 Related : :ref:`php:// <wrapper-php>`, :ref:`Wrapper <wrapper>`, :ref:`Stream <stream>`, :ref:`Local File Inclusion <local-file-inclusion>`, :ref:`Remote Code Execution (RCE) <rce>`, :ref:`filter <filter>`, :ref:`Security <security>`, :ref:`Base 64 Encoding <base64>`

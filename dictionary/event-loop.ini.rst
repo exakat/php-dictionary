@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Event Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:01:22 +0000","dateModified":"Sun, 12 Jul 2026 20:01:22 +0000","description":"An event loop is a mechanism for handling asynchronous operations and event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/event-loop.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/event-loop.ini.html","name":"Event Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:01:22 +0000","dateModified":"Sun, 12 Jul 2026 20:01:22 +0000","description":"An event loop is a mechanism for handling asynchronous operations and event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Event Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Event Loop
@@ -30,4 +30,4 @@ PHP event loops are often implemented using extensions like ReactPHP or Amp.
 
 See also `ReactPHP <https://reactphp.org/>`_ and `AMPHP <https://amphp.org/>`_.
 
-Related : :ref:`Event Driven <event-driven>`, :ref:`Blocking Wait <blocking-wait>`, :ref:`C10K <c10k>`, , , :ref:`Edge Triggered <edge-triggered>`, :ref:`Fire-and-forget <fire-and-forget>`, :ref:`Non-blocking <non-blocking>`, :ref:`One-shot <one-shot>`
+Related : :ref:`Event Driven <event-driven>`, :ref:`Blocking Wait <blocking-wait>`, :ref:`C10K <c10k>`, :ref:`AMP (Asynchronous Markup Protocol) <amp>`, :ref:`ReactPHP <reactphp>`, :ref:`Edge Triggered <edge-triggered>`, :ref:`Fire-and-forget <fire-and-forget>`, :ref:`Non-blocking <non-blocking>`, :ref:`One-shot <one-shot>`

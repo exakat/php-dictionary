@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Ports And Adapters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:16:06 +0000","dateModified":"Tue, 30 Jun 2026 15:16:06 +0000","description":"Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by Alistair Cockburn","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Ports And Adapters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ports-and-adapters.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ports-and-adapters.ini.html","name":"Ports And Adapters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:29:35 +0000","dateModified":"Tue, 14 Jul 2026 05:29:35 +0000","description":"Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by Alistair Cockburn","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Ports And Adapters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Ports And Adapters
@@ -28,7 +28,7 @@ A port is an interface declared by the application core. It expresses what the a
 
 An adapter is an implementation of a port that bridges the application core to a specific technology. A database adapter implements a repository port; an HTTP adapter implements a web input port; a test adapter implements a port using in-memory fakes.
 
-Input ports represent entry points into the application: HTTP controllers, CLI commands, queue consumers. Output ports represent dependencies the application calls: databases, email senders, external APIs.
+Input ports represent entry points into the application: ``HTTP`` controllers, ``CLI`` commands, queue consumers. Output ports represent dependencies the application calls: databases, email senders, external APIs.
 
 This pattern is expressed through interfaces and dependency injection: the core declares an interface which acts as the port, and a framework or infrastructure class implements it, which acts as the adapter. The DI container wires them together.
 
@@ -66,6 +66,6 @@ This pattern is expressed through interfaces and dependency injection: the core 
 
 `Documentation <https://alistair.cockburn.us/hexagonal-architecture/>`__
 
-See also `Alistair Cockburn: Hexagonal Architecture <https://alistair.cockburn.us/hexagonal-architecture/>`_.
+See also `From Chaos to Clean: Implementing Hexagonal Architecture in PHP <https://dev.to/helmarjunior/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01>`_.
 
 Related : :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Adapters <adapter>`, :ref:`Dependency Injection <dependency-injection>`, :ref:`Interface <interface>`, :ref:`Clean Architecture <clean-architecture>`, :ref:`Layered Architecture <layered-architecture>`, :ref:`Domain Design Driven (DDD) <ddd>`

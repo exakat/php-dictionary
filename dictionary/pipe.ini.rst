@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:22 +0000","dateModified":"Sat, 11 Jul 2026 09:06:22 +0000","description":"The ``pipe`` operator is the ``|>`` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pipe.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pipe.ini.html","name":"Pipe Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:30:41 +0000","dateModified":"Tue, 14 Jul 2026 05:30:41 +0000","description":"The ``pipe`` operator is the ``|>`` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pipe Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pipe Operator
@@ -36,19 +36,19 @@ The pipe operator is a reference to the ``|`` pipe operator from the command lin
    
    <?php
    
-   $result = "HELLO world" |> trim(...) |> strtolower(...) |> ucfirst(...);
-   // Hello World
-   
-   // Same as 
-   $result = ucfirst(strtolower(trim("HELLO World")));
-   // Hello World
+       $result = "HELLO world" |> trim(...) |> strtolower(...) |> ucfirst(...);
+       // Hello World
+       
+       // Same as 
+       $result = ucfirst(strtolower(trim("HELLO World")));
+       // Hello World
    
    ?>
 
 
 `Documentation <https://wiki.php.net/rfc/pipe-operator-v3>`__
 
-See also `PHP 8.5: Pipe operator (|>) <https://php.watch/versions/8.5/pipe-operator>`_, `PHP RFC: Pipe operator v3 <https://wiki.php.net/rfc/pipe-operator-v3>`_ and `PHP 8.5 Adds Pipe Operator: What it means <https://thephp.foundation/blog/2025/07/11/php-85-adds-pipe-operator/>`_.
+See also `PHP 8.5: Pipe operator (|>) <https://php.watch/versions/8.5/pipe-operator>`_ and `PHP 8.5 Adds Pipe Operator: What it means <https://thephp.foundation/blog/2025/07/11/php-85-adds-pipe-operator/>`_.
 
 Related : :ref:`Bitwise Operators <bitwise-operator>`, :ref:`STDOUT <stdout>`
 

@@ -5,6 +5,7 @@ Acronym
 
 List of acronyms, used in this dictionary.
 
++ :ref:`AMP (Asynchronous Markup Protocol) <amp>`
 + :ref:`Abstract Syntactic Tree (AST) <ast>`
 + :ref:`American Standard Code for Information Interchange (ASCII) <ascii>`
 + :ref:`Application Performance Management (APM) <apm>`
@@ -43,6 +44,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Domain Name System (DNS) <dns>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
++ :ref:`EXIF (Exchangeable Image File Format) <exif>`
 + :ref:`Extensible Markup Language (XML) <xml>`
 + :ref:`Fast Artificial Neural Network (FANN) <fann>`
 + :ref:`FastCGI <fastcgi>`
@@ -109,7 +111,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Poisoned Pipeline Execution (PPE) <poisoned-pipeline-execution>`
 + :ref:`Product Requirements Document (PDR) <pdr>`
 + :ref:`Progressive Web App <pwa>`
-+ :ref:`Protocol Buffers (protobuf) <protobuf>`
++ :ref:`Protocol Buffers <protobuf>`
 + :ref:`Pull Request (PR) <pr>`
 + :ref:`RACI Model <raci>`
 + :ref:`RFC <rfc>`
@@ -281,6 +283,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Custom <custom>`
 + :ref:`Custom Function <custom-function>`
 + :ref:`Data Container <data-container>`
++ :ref:`Data Hiding <data-hiding>`
 + :ref:`Data Mapper <data-mapper>`
 + :ref:`Database <database>`
 + :ref:`Dataset <dataset>`
@@ -360,6 +363,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Habit <habit>`
 + :ref:`Hash <hash>`
 + :ref:`Hash Table <hash-table>`
++ :ref:`Hashing <hashing>`
 + :ref:`Heuristics <heuristic>`
 + :ref:`Hidden State <hidden-state>`
 + :ref:`Higher-Kinded Type <higher-kinded-type>`
@@ -410,6 +414,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Memory Arena <memory-arena>`
 + :ref:`Memory Leak <memory-leak>`
 + :ref:`Merge <merge>`
++ :ref:`Message Digest <message-digest>`
 + :ref:`Metaclass <metaclass>`
 + :ref:`Metaprogramming <metaprogramming>`
 + :ref:`Method Resolution Order (MRO) <mro>`
@@ -436,6 +441,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Non-blocking <non-blocking>`
 + :ref:`Noop <noop>`
 + :ref:`Numeronym <numeronym>`
++ :ref:`Object Lifecycle <object-lifecycle>`
 + :ref:`One-shot <one-shot>`
 + :ref:`Operator Overloading <operator-overloading>`
 + :ref:`Opinionated <opinionated>`
@@ -518,6 +524,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Service-Oriented Architecture (SOA) <soa>`
 + :ref:`Shared <shared>`
 + :ref:`Shared Database <shared-database>`
++ :ref:`Shutdown <shutdown>`
 + :ref:`Side Effect <side-effect>`
 + :ref:`Single Responsability Principle (SRP) <srp>`
 + :ref:`Slim <slim>`
@@ -694,6 +701,7 @@ List of PHP keywords and reserved names.
 + :ref:`Iterable <iterable>`
 + :ref:`Match <match>`
 + :ref:`Mixed <mixed>`
++ :ref:`Modifier <modifier>`
 + :ref:`Private Visibility <private>`
 + :ref:`Protected Visibility <protected>`
 + :ref:`Public Visibility <public>`
@@ -791,6 +799,7 @@ List of PHP types, used with the type system. They usually are not related to a 
 + :ref:`Tuple <tuple>`
 + :ref:`Type Checking <type-checking>`
 + :ref:`Type Class <type-class>`
++ :ref:`Type Coercion <coercion>`
 + :ref:`Type Coverage <type-coverage>`
 + :ref:`Type Inference <type-inference>`
 + :ref:`Type Invariant <invariant>`
@@ -816,6 +825,7 @@ List of PHP magic method, which are providing special behavior throught the defi
 + :ref:`__call() Method <-__call>`
 + :ref:`__callStatic() Method <-__callstatic>`
 + :ref:`__clone() Method <-__clone>`
++ :ref:`__debugInfo() Method <-__debuginfo>`
 + :ref:`__get() Method <-__get>`
 + :ref:`__invoke() Method <-__invoke>`
 + :ref:`__isset() Method <-__isset>`
@@ -834,6 +844,7 @@ Classic bug
 List of named bugs.
 
 + :ref:`Catch <catch>`
++ :ref:`Chaining Assignation <chaining-assignation>`
 + :ref:`Dangling Reference <dangling-reference>`
 + :ref:`Datetime Trap <datetime-trap>`
 + :ref:`Days Are Not 86400 Seconds <day-in-seconds>`
@@ -864,6 +875,7 @@ List of special PHP extensions.
 + :ref:`DOMParentNode <domparentnode>`
 + :ref:`Database Abstraction Layer (DBA) Extension <dba>`
 + :ref:`Document Object Model (DOM) <dom>`
++ :ref:`EXIF (Exchangeable Image File Format) <exif>`
 + :ref:`Excimer <excimer>`
 + :ref:`Fast Artificial Neural Network (FANN) <fann>`
 + :ref:`Fibers <fibers>`
@@ -888,7 +900,7 @@ List of special PHP extensions.
 + :ref:`Phar <phar>`
 + :ref:`PostgreSQL <pgsql>`
 + :ref:`Process Control (pcntl) <pcntl>`
-+ :ref:`Protocol Buffers (protobuf) <protobuf>`
++ :ref:`Protocol Buffers <protobuf>`
 + :ref:`Random\CryptoSafeEngine <random_cryptosafeengine>`
 + :ref:`Random\Engine <random_engine>`
 + :ref:`RdKafka <rdkafka>`

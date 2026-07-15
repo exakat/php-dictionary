@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Compiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:12:54 +0000","dateModified":"Sun, 12 Jul 2026 20:12:54 +0000","description":"A compiler is a program that translates source code into another form, typically machine code or bytecode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compiler.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compiler.ini.html","name":"Compiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:25:17 +0000","dateModified":"Tue, 14 Jul 2026 05:25:17 +0000","description":"A compiler is a program that translates source code into another form, typically machine code or bytecode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Compiler
@@ -25,11 +25,11 @@ Compiler
 
 A compiler is a program that translates source code into another form, typically machine code or bytecode.
 
-In the context of PHP, the term compiler can refer to:
+The term compiler can refer to:
 + The PHP compiler that translates PHP source code into opcodes
 + Tools like kphp or static-php-cli that compile PHP to binary
 + The halt-compiler construct that signals end of PHP code in a file
-+ The PHP-Parser library which provides a compiler-like AST transformation
++ The PHP-Parser library which provides a compiler-like AST transformation.
 
 `Documentation <https://en.wikipedia.org/wiki/Compiler>`__
 

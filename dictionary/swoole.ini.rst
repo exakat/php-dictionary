@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Swoole","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 08:02:27 +0000","dateModified":"Mon, 13 Jul 2026 08:02:27 +0000","description":"``Swoole`` is a PIE extension that turns PHP into an event-driven, asynchronous, coroutine-capable runtime, replacing the traditional process-per-request model with long-running server processes that handle HTTP, WebSocket, TCP, and UDP connections directly, without a separate web server such as Nginx or PHP-FPM in front","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Swoole.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/swoole.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/swoole.ini.html","name":"Swoole","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:43:34 +0000","dateModified":"Mon, 13 Jul 2026 18:43:34 +0000","description":"``Swoole`` is a PIE extension that turns PHP into an event-driven, asynchronous, coroutine-capable runtime, replacing the traditional process-per-request model with long-running server processes that handle HTTP, WebSocket, TCP, and UDP connections directly, without a separate web server such as Nginx or PHP-FPM in front","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Swoole.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Swoole
@@ -46,6 +46,6 @@ Because the server process persists across requests, application state that woul
 
 `Documentation <https://wiki.swoole.com/en/>`__
 
-See also `Swoole documentation <https://wiki.swoole.com/en/>`_.
+See also `Asynchronous PHP Programming with Swoole <https://medium.com/@lfoster49203/asynchronous-php-programming-with-swoole-01f85b730484>`_.
 
 Related : :ref:`OpenSwoole <openswoole>`, :ref:`Coroutine <coroutine>`, :ref:`Fibers <fibers>`, :ref:`Green Thread <green-thread>`, :ref:`Asynchronous <asynchronous>`, :ref:`Parallel <parallel>`

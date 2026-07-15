@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Request-Response","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:31:29 +0000","dateModified":"Fri, 10 Jul 2026 09:31:29 +0000","description":"Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request-Response.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/request-response.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/request-response.ini.html","name":"Request-Response","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:44:12 +0000","dateModified":"Mon, 13 Jul 2026 18:44:12 +0000","description":"Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Request-Response.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Request-Response
@@ -55,7 +55,5 @@ PHP's traditional execution model is built entirely around request-response: the
 
 
 `Documentation <https://en.wikipedia.org/wiki/Request%E2%80%93response>`__
-
-See also `Wikipedia: Request-response <https://en.wikipedia.org/wiki/Request%E2%80%93response>`_.
 
 Related : :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Synchronous <synchronous>`, :ref:`Fire-and-forget <fire-and-forget>`, :ref:`Pub/Sub <pubsub>`, :ref:`Asynchronous <asynchronous>`, :ref:`API Gateway <api-gateway>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Progressive Web App","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:29:06 +0000","dateModified":"Fri, 19 Jun 2026 21:29:06 +0000","description":"A Progressive Web App, or PWA, is a web application that uses modern browser APIs to deliver an app-like experience: offline support, push notifications, home-screen installation, and fast loading","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Progressive Web App.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pwa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pwa.ini.html","name":"Progressive Web App","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:49 +0000","dateModified":"Mon, 13 Jul 2026 18:47:49 +0000","description":"A Progressive Web App, or PWA, is a web application that uses modern browser APIs to deliver an app-like experience: offline support, push notifications, home-screen installation, and fast loading","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Progressive Web App.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Progressive Web App
@@ -59,6 +59,6 @@ PHP frameworks such as Symfony and Laravel ship tools and bundles for generating
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps>`__
 
-See also `MDN – Progressive Web Apps <https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps>`_, `web.dev – Learn PWA <https://web.dev/learn/pwa/>`_ and `Symfony UX PWA <https://github.com/symfony/ux>`_.
+See also `web.dev – Learn PWA <https://web.dev/learn/pwa/>`_ and `Symfony UX PWA <https://github.com/symfony/ux>`_.
 
 Related : :ref:`Application Programming Interface (API) <api>`, :ref:`REST API <rest-api>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Javascript <javascript>`, :ref:`Single Page Application (SPA) <spa>`, :ref:`Mobile Application <mobile-app>`

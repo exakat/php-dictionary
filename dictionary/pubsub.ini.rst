@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/tips\/0.html","name":"Pub\/Sub","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:15:42 +0000","dateModified":"Tue, 30 Jun 2026 15:15:42 +0000","description":"Publish\/Subscribe, or pubsub for short, is a messaging pattern in which message producers, the publishers, send messages to named channels or topics without knowing who will receive them, and message consumers, the subscribers, register interest in topics and receive only the messages published to those topics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pub\/Sub.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pubsub.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pubsub.ini.html","name":"Pub\/Sub","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:56 +0000","dateModified":"Mon, 13 Jul 2026 18:47:56 +0000","description":"Publish\/Subscribe, or pubsub for short, is a messaging pattern in which message producers, the publishers, send messages to named channels or topics without knowing who will receive them, and message consumers, the subscribers, register interest in topics and receive only the messages published to those topics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pub\/Sub.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pub/Sub
@@ -70,7 +70,7 @@ pubsub differs from a message queue in that a queue typically delivers each mess
 
 `Documentation <https://www.php-fig.org/psr/psr-14/>`__
 
-See also `PSR-14: Event Dispatcher <https://www.php-fig.org/psr/psr-14/>`_, `Publish/Subscribe pattern (Wikipedia) <https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern>`_ and `Redis Pub/Sub <https://redis.io/docs/interact/pubsub/>`_.
+See also `Publish/Subscribe pattern (Wikipedia) <https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern>`_ and `Redis Pub/Sub <https://redis.io/docs/interact/pubsub/>`_.
 
 Related : :ref:`Message Bus <message-bus>`, :ref:`Message Queue <message-queue>`, :ref:`Event Driven <event-driven>`, :ref:`Listener <listener>`, :ref:`Observer Design Pattern <observer>`, :ref:`Decoupling <decoupling>`, :ref:`Server Sent Event (SSE) <sse>`, :ref:`Websocket <websocket>`, :ref:`Change Data Capture <change-data-capture>`, :ref:`Event Streaming <event-streaming>`, :ref:`Request-Response <request-response>`
 
