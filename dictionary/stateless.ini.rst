@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/stateless.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/stateless.ini.html","name":"Stateless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:01 +0000","dateModified":"Fri, 19 Jun 2026 21:24:01 +0000","description":"Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Stateless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/stateless.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/stateless.ini.html","name":"Stateless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:30:42 +0000","dateModified":"Thu, 16 Jul 2026 14:30:42 +0000","description":"Stateless refers to a system or protocol that does not retain information about the previous interactions or states of users or devices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Stateless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Stateless
@@ -26,6 +26,6 @@ Stateless refers to a system or protocol that does not retain information about 
 
 `Documentation <https://en.wikipedia.org/wiki/Stateless_protocol>`__
 
-See also `PHP is Weird, Stateless, and Beautiful <https://fideloper.com/php-weird-stateless-and-beautiful>`_ and `Stateless services in PHP <https://viktorprogger.name/posts/stateless-services-in-php.html>`_.
+See also `PHP is Weird, Stateless, and Beautiful <https://fideloper.com/php-weird-stateless-and-beautiful>`_.
 
 Related : :ref:`Stateful <stateful>`, :ref:`State <state>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Load Balancer <load-balancer>`, :ref:`Pay-as-you-go <pay-as-you-go>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/graph-database.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/graph-database.ini.html","name":"Graph Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:27:27 +0000","dateModified":"Thu, 09 Jul 2026 07:27:27 +0000","description":"A graph database is a database server that organize data in a network, rather than as tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Graph Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/graph-database.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/graph-database.ini.html","name":"Graph Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 09:04:15 +0000","dateModified":"Thu, 16 Jul 2026 09:04:15 +0000","description":"A graph database is a database server that organize data in a network, rather than as tables","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Graph Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Graph Database
@@ -24,13 +24,15 @@ Graph Database
 
 A graph database is a database server that organize data in a network, rather than as tables.  
 
-PHP is able to connect to many graph databases, including Neo4j, Gremlin, etc.
+PHP is able to connect to many graph databases, including Neo4j, Gremlin servers, etc.
 
 Graph databases are close to RDF triple stores, which store data as a triplet: origin, destination and link type.
 
 
 `Documentation <https://en.wikipedia.org/wiki/SQL>`__
 
-See also `Top 10 SQL Databases To Learn in 2025 <https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/>`_.
+See also `Top 10 SQL Databases To Learn in 2025 <https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/>`_ and `Neo4j PHP Community <https://github.com/neo4j-php>`_.
 
-Related : :ref:`Structured Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`, :ref:`Column Database <column-database>`, :ref:`Graph <graph>`, :ref:`Nosql Database <nosql-database>`
+Related : :ref:`Structured Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`, :ref:`Column Database <column-database>`, :ref:`Graph <graph>`, , :ref:`Nosql Database <nosql-database>`
+
+Related packages : `laudis/neo4j-php-client <https://packagist.org/packages/laudis/neo4j-php-client>`_, `everyman/neo4jphp <https://packagist.org/packages/everyman/neo4jphp>`_

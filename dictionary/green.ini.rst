@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/green.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/green.ini.html","name":"Green","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 19:56:17 +0000","dateModified":"Sun, 12 Jul 2026 19:56:17 +0000","description":"Green describes a build, a test run, or a pipeline stage that has passed: every assertion succeeded, nothing failed, nothing errored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Green.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/green.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/green.ini.html","name":"Green","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:34:00 +0000","dateModified":"Thu, 16 Jul 2026 14:34:00 +0000","description":"Green describes a build, a test run, or a pipeline stage that has passed: every assertion succeeded, nothing failed, nothing errored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Green.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Green
@@ -57,6 +57,6 @@ At the pipeline level, a green build means every stage, tests, static analysis, 
 
 `Documentation <https://en.wikipedia.org/wiki/Test-driven_development>`__
 
-See also `Red, green, refactor <https://martinfowler.com/bliki/TestDrivenDevelopment.html>`_ and `Test-Driven Development (TDD) in PHP <https://webreference.com/php/testing/tdd/>`_.
+See also `Test-Driven Development by Kent Beck <https://martinfowler.com/bliki/TestDrivenDevelopment.html>`_ and `Test-Driven Development (TDD) in PHP <https://webreference.com/php/testing/tdd/>`_.
 
 Related : :ref:`Test-Driven Development <test-driven-development>`, :ref:`Continuous Integration <continuous-integration>`, :ref:`Regression <regression>`, :ref:`Greenfield <green-field>`, :ref:`Green Thread <green-thread>`, :ref:`Testable <testable>`

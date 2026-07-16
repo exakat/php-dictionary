@@ -1561,6 +1561,7 @@ STRING`` (Nowdoc syntax).
 [Storage Systems](https://php-dictionary.readthedocs.io/en/latest/dictionary/storage-system.ini.html): A storage system is a generic term to describe an external service that store data for a longer time than the current PHP request.
 [str_contains()](https://php-dictionary.readthedocs.io/en/latest/dictionary/str_contains.ini.html): ``str_contains()`` is a PHP native function that checks if a string contains another string.
 [str_ends_with()](https://php-dictionary.readthedocs.io/en/latest/dictionary/str_ends_with.ini.html): ``str_ends_with()`` is a built-in PHP function that checks that the string ends with the specified suffix.
+[str_replace()](https://php-dictionary.readthedocs.io/en/latest/dictionary/str_replace.ini.html): ``str_replace()`` is a PHP native function that replaces all occurrences of a search string with a replacement string.
 [str_starts_with()](https://php-dictionary.readthedocs.io/en/latest/dictionary/str_starts_with.ini.html): ``str_starts_with()`` is a built-in PHP function that checks that the string starts with the specified prefix.
 [Stream](https://php-dictionary.readthedocs.io/en/latest/dictionary/stream.ini.html): Streams are a generalisation of the notion of files.
 [Streamlining](https://php-dictionary.readthedocs.io/en/latest/dictionary/streamlining.ini.html): Streamlining refers to the practice of simplifying code to reduce complexity, remove redundancy, and improve readability and maintainability.
@@ -1575,6 +1576,7 @@ STRING`` (Nowdoc syntax).
 [strpos](https://php-dictionary.readthedocs.io/en/latest/dictionary/strpos.ini.html): ``strpos()`` is a built-in PHP function that finds the position of the first occurrence of a string inside another string.
 [strtolower()](https://php-dictionary.readthedocs.io/en/latest/dictionary/strtolower.ini.html): ``strtolower()`` converts all ASCII alphabetic characters in a string to lowercase.
 [strtoupper()](https://php-dictionary.readthedocs.io/en/latest/dictionary/strtoupper.ini.html): ``strtoupper()`` converts all ASCII alphabetic characters in a string to uppercase.
+[strtr()](https://php-dictionary.readthedocs.io/en/latest/dictionary/strtr.ini.html): ``strtr()`` is a PHP native function that translates characters or replaces substrings in a string.
 [Struct Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/struct-type.ini.html): A struct is a value type that groups named fields together, as in C, Go, Rust, or Swift.
 [Structural Pattern Matching](https://php-dictionary.readthedocs.io/en/latest/dictionary/structural-pattern-matching.ini.html): Structural pattern matching, found in Rust, Haskell, Scala, and OCaml, matches a value against a shape that mirrors the value's own structure, and simultaneously binds the pieces it finds to new variables.
 [Structural Typing](https://php-dictionary.readthedocs.io/en/latest/dictionary/structural-typing.ini.html): Structural typing is a type-compatibility rule under which a value satisfies a type purely because it exposes the required shape:

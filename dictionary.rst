@@ -1629,11 +1629,13 @@ PHP Dictionary
    * :ref:`stdclass <stdclass>`
    * :ref:`str_contains() <str_contains>`
    * :ref:`str_ends_with() <str_ends_with>`
+   * :ref:`str_replace() <str_replace>`
    * :ref:`str_starts_with() <str_starts_with>`
    * :ref:`strict_types <strict_types>`
    * :ref:`strpos <strpos>`
    * :ref:`strtolower() <strtolower>`
    * :ref:`strtoupper() <strtoupper>`
+   * :ref:`strtr() <strtr>`
    * :ref:`subtype <subtype>`
    * :ref:`supertype <supertype>`
 * T

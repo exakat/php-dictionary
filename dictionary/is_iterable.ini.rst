@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_iterable.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_iterable.ini.html","name":"is_iterable()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:20:34 +0000","dateModified":"Thu, 16 Jul 2026 04:20:34 +0000","description":"``is_iterable()`` is a PHP native function, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_iterable().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_iterable.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_iterable.ini.html","name":"is_iterable()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:49 +0000","dateModified":"Thu, 16 Jul 2026 14:20:49 +0000","description":"``is_iterable()`` is a PHP native function, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_iterable().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 is_iterable()
@@ -48,7 +48,7 @@ It is typically used to validate arguments of functions designed to accept both 
 
 `Documentation <https://www.php.net/manual/en/function.is-iterable.php>`__
 
-See also `Type comparison tables <https://www.php.net/manual/en/types.comparison.php>`_.
+See also `Type comparison tables <https://www.php.net/manual/en/types.comparisons.php>`_.
 
 Related : :ref:`Iterable <iterable>`, :ref:`Traversable <traversable>`, :ref:`Iterator <iterator>`, :ref:`Generator <generator>`, :ref:`is_array() <is_array>`, :ref:`is_object() <is_object>`, :ref:`gettype() <gettype>`, :ref:`Type Checking <type-checking>`
 

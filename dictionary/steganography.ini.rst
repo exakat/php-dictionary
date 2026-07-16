@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/steganography.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/steganography.ini.html","name":"Steganography","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:30:06 +0000","dateModified":"Tue, 14 Jul 2026 05:30:06 +0000","description":"Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Steganography.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/steganography.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/steganography.ini.html","name":"Steganography","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:32:01 +0000","dateModified":"Thu, 16 Jul 2026 14:32:01 +0000","description":"Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Steganography.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Steganography
@@ -78,6 +78,6 @@ Steganography can be used for legitimate purposes such as digital watermarking a
 
 `Documentation <https://en.wikipedia.org/wiki/Steganography>`__
 
-See also `Steganography in Images with PHP <https://www.hashbangcode.com/article/steganography-images-php>`_ and `OWASP: Steganography <https://owasp.org/www-community/vulnerabilities/Stealth_Coordination>`_.
+See also `Steganography in Images with PHP <https://www.hashbangcode.com/article/steganography-images-php>`_ and `Security through Obscurity <https://help.owasp-juice.shop/part2/security-through-obscurity.html>`_.
 
 Related : :ref:`Image <image>`, :ref:`Security <security>`, :ref:`Graphic Draw (GD) <gd>`, :ref:`imagick <imagick>`, :ref:`EXIF (Exchangeable Image File Format) <exif>`, :ref:`Data Hiding <data-hiding>`

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_bool.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_bool.ini.html","name":"is_bool()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 20:10:13 +0000","dateModified":"Wed, 15 Jul 2026 20:10:13 +0000","description":"``is_bool()`` is a PHP native function that checks whether a variable is of type ``bool``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_bool().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_bool.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_bool.ini.html","name":"is_bool()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:03 +0000","dateModified":"Thu, 16 Jul 2026 14:20:03 +0000","description":"``is_bool()`` is a PHP native function that checks whether a variable is of type ``bool``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_bool().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 is_bool()
@@ -47,6 +47,6 @@ It is commonly used in input validation, for instance when reading configuration
 
 `Documentation <https://www.php.net/manual/en/function.is-bool.php>`__
 
-See also `Type comparison tables <https://www.php.net/manual/en/types.comparison.php>`_.
+See also `Type comparison tables <https://www.php.net/manual/en/types.comparisons.php>`_.
 
 Related : :ref:`Boolean <bool>`, :ref:`is_array() <is_array>`, :ref:`is_int() <is_int>`, :ref:`is_string() <is_string>`, :ref:`is_iterable() <is_iterable>`, :ref:`gettype() <gettype>`, :ref:`Type Checking <type-checking>`, :ref:`Truthy <truthy>`, :ref:`Validation <validation>`

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/sealed-class.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/sealed-class.ini.html","name":"Sealed Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:32:09 +0000","dateModified":"Fri, 10 Jul 2026 09:32:09 +0000","description":"A sealed class, or sealed interface, is a class whose set of direct subclasses is restricted and known at compile time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sealed Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/sealed-class.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/sealed-class.ini.html","name":"Sealed Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:29:27 +0000","dateModified":"Thu, 16 Jul 2026 14:29:27 +0000","description":"A sealed class, or sealed interface, is a class whose set of direct subclasses is restricted and known at compile time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Sealed Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Sealed Class
@@ -45,7 +45,7 @@ PHP has no concept of sealed classes or sealed interfaces. Inheritance cannot be
    ?>
 
 
-`Documentation <https://en.wikipedia.org/wiki/Sealed_class>`__
+`Documentation <https://www.scala-lang.org/api/3.3.2/scala/caps$$Sealed.html>`__
 
 See also `Kotlin sealed classes <https://kotlinlang.org/docs/sealed-classes.html>`_, `Java 17 sealed classes JEP 409 <https://openjdk.org/jeps/409>`_ and `Scala 3 sealed traits <https://docs.scala-lang.org/scala3/reference/other-new-features/sealed.html>`_.
 

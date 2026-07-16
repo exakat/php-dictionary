@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/phantom-type.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/phantom-type.ini.html","name":"Phantom Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:30:09 +0000","dateModified":"Tue, 14 Jul 2026 06:30:09 +0000","description":"A phantom type is a generic type that carries a type parameter which does not appear in the runtime representation of the value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Phantom Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/phantom-type.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/phantom-type.ini.html","name":"Phantom Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:26:09 +0000","dateModified":"Thu, 16 Jul 2026 14:26:09 +0000","description":"A phantom type is a generic type that carries a type parameter which does not appear in the runtime representation of the value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Phantom Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Phantom Type
@@ -59,8 +59,6 @@ PHP does not support phantom types natively. Generic type parameters are not a l
    ?>
 
 
-`Documentation <https://en.wikipedia.org/wiki/Phantom_type>`__
-
-See also `Branded types in TypeScript <https://egghead.io/blog/using-branded-types-in-typescript>`_.
+`Documentation <https://wiki.haskell.org/Phantom_type>`__
 
 Related : :ref:`Generics <generics>`, :ref:`Type System <type-system>`, :ref:`Type Checking <type-checking>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Value Object <value-object>`, :ref:`Dependent Type <dependent-type>`, :ref:`Immutable <immutable>`

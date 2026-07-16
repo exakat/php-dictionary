@@ -1564,6 +1564,7 @@ Index
    dictionary/storage-system.ini
    dictionary/str_contains.ini
    dictionary/str_ends_with.ini
+   dictionary/str_replace.ini
    dictionary/str_starts_with.ini
    dictionary/stream.ini
    dictionary/streamlining.ini
@@ -1578,6 +1579,7 @@ Index
    dictionary/strpos.ini
    dictionary/strtolower.ini
    dictionary/strtoupper.ini
+   dictionary/strtr.ini
    dictionary/struct-type.ini
    dictionary/structural-pattern-matching.ini
    dictionary/structural-typing.ini

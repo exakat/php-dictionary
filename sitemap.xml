@@ -4678,6 +4678,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/str_ends_with.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/str_replace.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/str_starts_with.ini.html</loc>
  </url>
  <url>
@@ -4718,6 +4721,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/strtoupper.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/strtr.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/struct-type.ini.html</loc>

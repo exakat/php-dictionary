@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_string.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_string.ini.html","name":"is_string()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 20:10:43 +0000","dateModified":"Wed, 15 Jul 2026 20:10:43 +0000","description":"``is_string()`` is a PHP native function that checks whether a variable is of type ``string``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_string().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_string.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_string.ini.html","name":"is_string()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:21:00 +0000","dateModified":"Thu, 16 Jul 2026 14:21:00 +0000","description":"``is_string()`` is a PHP native function that checks whether a variable is of type ``string``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_string().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 is_string()
@@ -48,6 +48,6 @@ It is frequently used in input validation, and in functions accepting mixed argu
 
 `Documentation <https://www.php.net/manual/en/function.is-string.php>`__
 
-See also `Type comparison tables <https://www.php.net/manual/en/types.comparison.php>`_.
+See also `Type comparison tables <https://www.php.net/manual/en/types.comparisons.php>`_.
 
 Related : :ref:`is_array() <is_array>`, :ref:`is_bool() <is_bool>`, :ref:`is_int() <is_int>`, , :ref:`is_iterable() <is_iterable>`, :ref:`gettype() <gettype>`, :ref:`__toString() Method <-__tostring>`, :ref:`Type Checking <type-checking>`, :ref:`Validation <validation>`

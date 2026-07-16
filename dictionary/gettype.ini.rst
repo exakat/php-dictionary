@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettype.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettype.ini.html","name":"gettype()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 20:10:01 +0000","dateModified":"Wed, 15 Jul 2026 20:10:01 +0000","description":"``gettype()`` is a PHP native function that returns the type of a variable as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettype().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettype.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettype.ini.html","name":"gettype()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:19:44 +0000","dateModified":"Thu, 16 Jul 2026 14:19:44 +0000","description":"``gettype()`` is a PHP native function that returns the type of a variable as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/gettype().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 gettype()
@@ -44,6 +44,6 @@ These return values are historical and do not match the type names used in type 
 
 `Documentation <https://www.php.net/manual/en/function.gettype.php>`__
 
-See also `Type comparison tables <https://www.php.net/manual/en/types.comparison.php>`_.
+See also `Type comparison tables <https://www.php.net/manual/en/types.comparisons.php>`_.
 
 Related : , , :ref:`is_array() <is_array>`, :ref:`is_string() <is_string>`, :ref:`is_int() <is_int>`, :ref:`is_bool() <is_bool>`, :ref:`is_iterable() <is_iterable>`, :ref:`Type Checking <type-checking>`, :ref:`Type Juggling <type-juggling>`

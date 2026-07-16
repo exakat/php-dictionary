@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/framework.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/framework.ini.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:00:15 +0000","dateModified":"Thu, 09 Jul 2026 08:54:45 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/framework.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/framework.ini.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:17:45 +0000","dateModified":"Thu, 16 Jul 2026 14:17:45 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Framework
@@ -60,7 +60,6 @@ There are lots of frameworks written with PHP. In alphabetical order, here is a 
 + `Symfony <https://symfony.com/>`_
 + `Typo3 <https://typo3.org/>`_
 + `Ubiquity <https://github.com/phpMv/ubiquity>`_
-+ `Vanilla PHP <https://github.com/vanilla/vanilla>`_
 + `Wordpress <https://www.wordpress.org/>`_
 + `X <https://github.com/clue/framework-x.git>`_
 + `Yii <https://www.yiiframework.com/>`_

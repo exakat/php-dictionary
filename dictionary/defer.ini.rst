@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/defer.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/defer.ini.html","name":"Defer Statement","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 15:20:29 +0000","dateModified":"Wed, 08 Jul 2026 15:20:29 +0000","description":"Go's ``defer`` statement schedules a function call to run when the enclosing function returns, regardless of which ``return`` statement was reached or whether a panic is in flight: ``defer file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Defer Statement.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/defer.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/defer.ini.html","name":"Defer Statement","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:15:07 +0000","dateModified":"Thu, 16 Jul 2026 14:15:07 +0000","description":"Go's ``defer`` statement schedules a function call to run when the enclosing function returns, regardless of which ``return`` statement was reached or whether a panic is in flight: ``defer file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Defer Statement.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Defer Statement
@@ -45,7 +45,7 @@ PHP has no ``defer`` statement. Guaranteed cleanup on every exit path is express
    ?>
 
 
-`Documentation <https://en.wikipedia.org/wiki/Defer_(computer_science)>`__
+`Documentation <https://en.wikipedia.org/wiki/Manual_memory_management#Defer>`__
 
 See also `Defer statement in the Go specification <https://go.dev/ref/spec#Defer_statements>`_.
 

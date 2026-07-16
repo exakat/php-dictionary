@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_array.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_array.ini.html","name":"is_array()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 17:16:40 +0000","dateModified":"Wed, 15 Jul 2026 17:16:40 +0000","description":"``is_array()`` is a PHP native function that checks whether a variable is of type array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_array().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_array.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_array.ini.html","name":"is_array()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:33 +0000","dateModified":"Thu, 16 Jul 2026 14:20:33 +0000","description":"``is_array()`` is a PHP native function that checks whether a variable is of type array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_array().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 is_array()
@@ -55,6 +55,6 @@ This function is essential for type checking and validation before performing ar
 
 `Documentation <https://www.php.net/manual/en/function.is-array.php>`__
 
-See also `Type comparison tables <https://www.php.net/manual/en/types.comparison.php>`_.
+See also `Type comparison tables <https://www.php.net/manual/en/types.comparisons.php>`_.
 
 Related : :ref:`Array, [] <array>`, :ref:`is_object() <is_object>`, :ref:`is_string() <is_string>`, :ref:`is_int() <is_int>`, :ref:`is_bool() <is_bool>`, :ref:`is_iterable() <is_iterable>`, :ref:`gettype() <gettype>`, :ref:`Type Checking <type-checking>`, :ref:`ArrayAccess <arrayaccess>`, :ref:`ArrayObject <arrayobject>`, :ref:`Validation <validation>`

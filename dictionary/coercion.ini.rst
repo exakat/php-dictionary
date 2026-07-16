@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/coercion.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/coercion.ini.html","name":"Type Coercion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:40:11 +0000","dateModified":"Mon, 13 Jul 2026 18:40:11 +0000","description":"Type coercion is the automatic conversion of a value to match a declared type, when it does not already have that type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Coercion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/coercion.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/coercion.ini.html","name":"Type Coercion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:14:09 +0000","dateModified":"Thu, 16 Jul 2026 14:14:09 +0000","description":"Type coercion is the automatic conversion of a value to match a declared type, when it does not already have that type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Type Coercion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Type Coercion
@@ -51,7 +51,7 @@ Coercion is a specific case of type juggling, restricted to the boundary of type
 
 `Documentation <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.strict>`__
 
-See also `PHP type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_ and `Coercive typing vs strict typing in PHP <https://stitcher.io/blog/php-type-system>`_.
+See also `PHP type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_.
 
 Related : :ref:`strict_types <strict_types>`, :ref:`Type Juggling <type-juggling>`, :ref:`Cast Operator <cast>`, :ref:`Scalar Types <scalar-type>`, :ref:`Type Checking <type-checking>`, :ref:`TypeError <typeerror>`, :ref:`Type System <type>`
 

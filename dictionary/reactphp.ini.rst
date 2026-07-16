@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/reactphp.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/reactphp.ini.html","name":"ReactPHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:09:33 +0000","dateModified":"Tue, 14 Jul 2026 06:09:33 +0000","description":"ReactPHP is a low-level library for event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ReactPHP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/reactphp.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/reactphp.ini.html","name":"ReactPHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:28:00 +0000","dateModified":"Thu, 16 Jul 2026 14:28:00 +0000","description":"ReactPHP is a low-level library for event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ReactPHP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ReactPHP
@@ -62,7 +62,7 @@ It is the foundation for many production-grade PHP applications requiring high c
 
 `Documentation <https://reactphp.org/>`__
 
-See also `ReactPHP documentation <https://reactphp.org/docs>`_ and `ReactPHP benchmarking <https://reactphp.org/#benchmarks>`_.
+See also `ReactPHP EventLoop <https://reactphp.org/event-loop/>`_ and `ReactPHP benchmarking <https://reactphp.org/#benchmarks>`_.
 
 Related : :ref:`AMP (Asynchronous Markup Protocol) <amp>`, :ref:`Async <async>`, :ref:`Asynchronous <asynchronous>`, :ref:`Event Loop <event-loop>`, :ref:`Event Driven <event-driven>`, :ref:`Coroutine <coroutine>`, :ref:`Promise <promise>`, :ref:`Non-blocking <non-blocking>`, :ref:`Concurrency <concurrency>`, :ref:`Fibers <fibers>`, :ref:`Microservice <microservice>`, :ref:`Swoole <swoole>`, :ref:`OpenSwoole <openswoole>`, :ref:`Websocket <websocket>`, :ref:`Socket <socket>`
 

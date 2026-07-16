@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/modifier.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/modifier.ini.html","name":"Modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:10:52 +0000","dateModified":"Tue, 14 Jul 2026 06:10:52 +0000","description":"A modifier is a keyword that changes the behavior or properties of a class element, such as property, method, or constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/modifier.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/modifier.ini.html","name":"Modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:23:15 +0000","dateModified":"Thu, 16 Jul 2026 14:23:15 +0000","description":"A modifier is a keyword that changes the behavior or properties of a class element, such as property, method, or constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Modifier
@@ -71,7 +71,7 @@ Modifiers are essential for implementing encapsulation, polymorphism, and other 
    ?>
 
 
-`Documentation <https://www.php.net/manual/en/oop5.php>`__
+`Documentation <https://www.php.net/manual/en/language.oop5.php>`__
 
 See also `PHP Visibility <https://www.php.net/manual/en/language.oop5.php#language.oop5.visibility>`_ and `PHP Class Keywords <https://www.php.net/manual/en/language.oop5.php#language.oop5.basic.class>`_.
 

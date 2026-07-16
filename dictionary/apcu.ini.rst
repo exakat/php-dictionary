@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/apcu.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/apcu.ini.html","name":"APCu","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 20:09:15 +0000","dateModified":"Wed, 15 Jul 2026 20:09:15 +0000","description":"APCu, APC User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/APCu.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/apcu.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/apcu.ini.html","name":"APCu","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:35:16 +0000","dateModified":"Thu, 16 Jul 2026 14:35:16 +0000","description":"APCu, APC User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/APCu.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 APCu
@@ -55,7 +55,5 @@ Because the cache lives in shared memory local to the PHP process pool, it is fa
 
 
 `Documentation <https://www.php.net/manual/en/book.apcu.php>`__
-
-See also `PHP manual: APCu <https://www.php.net/manual/en/book.apcu.php>`_.
 
 Related : :ref:`Shared Memory <shared-memory>`, :ref:`Opcache <opcache>`, :ref:`Cache <cache>`, , , :ref:`Session <session>`

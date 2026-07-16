@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/protobuf.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/protobuf.ini.html","name":"Protocol Buffers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:37:24 +0000","dateModified":"Tue, 14 Jul 2026 05:37:24 +0000","description":"``protobuf`` is a PIE extension implementing Protocol Buffers, Google's language-neutral, binary serialization format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Protocol Buffers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/protobuf.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/protobuf.ini.html","name":"Protocol Buffers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:26:53 +0000","dateModified":"Thu, 16 Jul 2026 14:26:53 +0000","description":"``protobuf`` is a PIE extension implementing Protocol Buffers, Google's language-neutral, binary serialization format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Protocol Buffers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Protocol Buffers
@@ -50,7 +50,7 @@ The extension provides a native C implementation of the generated message classe
    ?>
 
 
-`Documentation <https://protobuf.dev/getting-started/phptutorial/>`__
+`Documentation <https://protobuf.dev/reference/php/>`__
 
 Related : :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`JavaScript Object Notation (JSON) <json>`, :ref:`Serialization <serialization>`, :ref:`PHP Installer For Extensions (PIE) <pie>`
 
