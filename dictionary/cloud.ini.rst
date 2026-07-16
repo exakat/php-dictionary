@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/cloud.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/cloud.ini.html","name":"Cloud","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cloud computing refers to the delivery of computing services, servers, storage, databases, networking, software, analytics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cloud.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/cloud.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/cloud.ini.html","name":"Cloud","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:21:14 +0000","dateModified":"Thu, 16 Jul 2026 08:21:14 +0000","description":"Cloud computing refers to the delivery of computing services, servers, storage, databases, networking, software, analytics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Cloud.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Cloud
@@ -57,8 +57,6 @@ For PHP applications, cloud platforms provide hosting environments, e.g. AWS Ela
 
 
 `Documentation <https://en.wikipedia.org/wiki/Cloud_computing>`__
-
-See also `Cloud computing - Wikipedia <https://en.wikipedia.org/wiki/Cloud_computing>`_.
 
 Related : :ref:`IaaS <iaas>`, :ref:`PaaS <paas>`, :ref:`Software-as-a-Service (SAAS) <saas>`, :ref:`Horizontal Scaling <horizontal-scaling>`, :ref:`Microservice <microservice>`, :ref:`Docker Container <docker-container>`, :ref:`Deployment <deploy>`, :ref:`Pay-as-you-go <pay-as-you-go>`, :ref:`Docker <docker>`, :ref:`Hosting <hosting>`, :ref:`Serverless <serverless>`
 

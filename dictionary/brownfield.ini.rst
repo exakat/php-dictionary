@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/brownfield.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/brownfield.ini.html","name":"Brownfield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:55:31 +0000","dateModified":"Mon, 06 Jul 2026 18:55:31 +0000","description":"A brownfield project is a software development effort that takes place within or alongside an existing codebase, legacy system, or inherited infrastructure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Brownfield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/brownfield.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/brownfield.ini.html","name":"Brownfield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:34:09 +0000","dateModified":"Thu, 16 Jul 2026 08:34:09 +0000","description":"A brownfield project is a software development effort that takes place within or alongside an existing codebase, legacy system, or inherited infrastructure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Brownfield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Brownfield
@@ -40,9 +40,9 @@ The opposite of brownfield is greenfield development: starting a new project fro
 
 Strategies for managing brownfield PHP code:
 
-+ Introduce static analysis tools, incrementally using a baseline file to suppress existing errors while preventing new ones.
-+ Add a test harness around untested modules before refactoring them (characterisation tests).
-+ Use PHP-CS-Fixer or Rector to automate style and upgrade migrations without manual churn.
++ Introduce static analysis tools, incrementally using a baseline file to suppress existing errors while preventing new ones
++ Add a test harness around untested modules before refactoring them
++ Use PHP-CS-Fixer or Rector to automate style and upgrade migrations without manual churn
 + Enforce ``declare(strict_types=1)`` file by file as modules are touched.
 
 .. code-block:: php
@@ -68,6 +68,6 @@ Strategies for managing brownfield PHP code:
 
 `Documentation <https://en.wikipedia.org/wiki/Brownfield_(software_development)>`__
 
-See also `Wikipedia: Brownfield (software development) <https://en.wikipedia.org/wiki/Brownfield_(software_development)>`_ and `Strangler Fig Application (Fowler) <https://martinfowler.com/bliki/StranglerFigApplication.html>`_.
+See also `Strangler Fig Application (Fowler) <https://martinfowler.com/bliki/StranglerFigApplication.html>`_.
 
 Related : :ref:`Greenfield <greenfield>`, :ref:`Legacy <legacy>`, :ref:`Technical Debt <technical-debt>`, :ref:`Refactoring <refactoring>`, :ref:`Architecture <architecture>`

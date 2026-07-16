@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/canary.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/canary.ini.html","name":"Canary","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:55:23 +0000","dateModified":"Thu, 09 Jul 2026 09:55:23 +0000","description":"Canary, borrowed from the miner's canary once used to detect dangerous gas underground, has two distinct meanings in software engineering:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Canary.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/canary.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/canary.ini.html","name":"Canary","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:20:03 +0000","dateModified":"Thu, 16 Jul 2026 08:20:03 +0000","description":"Canary, borrowed from the miner's canary once used to detect dangerous gas underground, has two distinct meanings in software engineering:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Canary.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Canary
@@ -48,6 +48,6 @@ PHP scripts do not manage the stack directly, so stack canaries are not a PHP-le
 
 `Documentation <https://martinfowler.com/bliki/CanaryRelease.html>`__
 
-See also `Canary Release <https://martinfowler.com/bliki/CanaryRelease.html>`_ and `Stack canary <https://en.wikipedia.org/wiki/Buffer_overflow_protection#Canaries>`_.
+See also `Stack canary <https://en.wikipedia.org/wiki/Buffer_overflow_protection#Canaries>`_.
 
 Related : :ref:`Feature Flag <feature-flag>`, :ref:`Release <release>`, :ref:`Circuit Breaker <circuit-breaker>`, :ref:`Sentinel <sentinel>`

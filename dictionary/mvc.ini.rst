@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mvc.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mvc.ini.html","name":"Model - View - Controller (MVC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"MVC stands for Model - View - Controller","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Model - View - Controller (MVC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mvc.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mvc.ini.html","name":"Model - View - Controller (MVC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"MVC stands for Model - View - Controller","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Model - View - Controller (MVC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Model - View - Controller (MVC)
@@ -32,6 +32,6 @@ MVC stands for Model - View - Controller. It is a programming paradigm, which pa
 
 See also `PHP MVC Framework Tutorial: CodeIgniter Example <https://www.guru99.com/php-mvc-frameworks.html>`_, `How to build a simple PHP MVC framework <https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/>`_ and `MVC (Model-View-Controller) <https://medium.com/@kardasch/mvc-model-view-controller-c324c5a150b5>`_.
 
-Related : :ref:`Renderer <renderer>`, :ref:`Controller <controller>`, :ref:`Model <model>`, :ref:`View In Presentation <view-presentation>`, :ref:`View <view>`, :ref:`Application <application>`, :ref:`Business Logic <business-logic>`, :ref:`Laravel <laravel>`, :ref:`Symfony <symfony>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Tempest <tempest>`, :ref:`Web Application <web-app>`
+Related : :ref:`Renderer <renderer>`, :ref:`Controller <controller>`, :ref:`Model <model>`, :ref:`View In Presentation <view-presentation>`, :ref:`View <view>`, :ref:`Application <application>`, :ref:`Business Logic <business-logic>`, :ref:`Laravel <laravel>`, :ref:`Symfony <symfony>`, :ref:`Separation Of Concerns <separation-of-concerns>`, :ref:`Tempest <tempest>`, :ref:`Web Application <web-app>`, :ref:`Fat Controller <fat-controller>`, :ref:`Layered Architecture <layered-architecture>`, :ref:`Magento <magento>`, :ref:`Twig <twig>`
 
 Related packages : `laminas/laminas-mvc <https://packagist.org/packages/laminas/laminas-mvc>`_

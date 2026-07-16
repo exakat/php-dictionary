@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array-shape.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array-shape.ini.html","name":"Array Shape","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:54:46 +0000","dateModified":"Sat, 11 Jul 2026 14:54:46 +0000","description":"An array shape is a type annotation that describes an array by its exact set of keys and the type of the value stored under each one, instead of describing it only by the type of its elements in general","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Shape.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array-shape.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/array-shape.ini.html","name":"Array Shape","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:19:11 +0000","dateModified":"Thu, 16 Jul 2026 08:19:11 +0000","description":"An array shape is a type annotation that describes an array by its exact set of keys and the type of the value stored under each one, instead of describing it only by the type of its elements in general","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Array Shape.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Array Shape
@@ -55,6 +55,6 @@ PHP's engine has no notion of array shape: an ``array`` type declaration accepts
 
 `Documentation <https://phpstan.org/writing-php-code/phpdoc-types#array-shapes>`__
 
-See also `PHPStan array shapes <https://phpstan.org/writing-php-code/phpdoc-types#array-shapes>`_ and `Psalm array types <https://psalm.dev/docs/annotating_code/type_syntax/array_types/#array-shapes>`_.
+See also `Psalm array types <https://psalm.dev/docs/annotating_code/type_syntax/array_types/#array-shapes>`_.
 
 Related : :ref:`Row Polymorphism <row-polymorphism>`, :ref:`Type System <type-system>`, :ref:`Type Checking <type-checking>`, :ref:`Generics <generics>`, :ref:`Gradual Type Checking <gradual-type-checking>`, :ref:`Static Code Analysis (SCA) <static-analysis>`, :ref:`Structural Typing <structural-typing>`

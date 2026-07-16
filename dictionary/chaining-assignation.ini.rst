@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/chaining-assignation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/chaining-assignation.ini.html","name":"Chaining Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:14:19 +0000","dateModified":"Tue, 14 Jul 2026 05:14:19 +0000","description":"Chaining assignation is the ability to assign the same value to several variables in a single expression, using successive ``=`` operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Chaining Assignation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/chaining-assignation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/chaining-assignation.ini.html","name":"Chaining Assignation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:20:31 +0000","dateModified":"Thu, 16 Jul 2026 08:20:31 +0000","description":"Chaining assignation is the ability to assign the same value to several variables in a single expression, using successive ``=`` operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Chaining Assignation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Chaining Assignation
@@ -51,6 +51,6 @@ Note that magic methods such as ``__set()`` and ``__get()`` are never called dur
 
 `Documentation <https://www.php.net/manual/en/language.assignments.php>`__
 
-See also `Assignment Operators <https://www.php.net/manual/en/language.assignments.php>`_, `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_ and `Hidden Traps with Chained Assignments <https://www.exakat.io/hidden-traps-with-chained-assignments/>`_.
+See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_ and `Hidden Traps with Chained Assignments <https://www.exakat.io/hidden-traps-with-chained-assignments/>`_.
 
 Related : :ref:`Assignment <assignment>`, :ref:`__set() Method <-__set>`, :ref:`__get() Method <-__get>`, :ref:`Chaining (disambiguation) <chaining>`, :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`

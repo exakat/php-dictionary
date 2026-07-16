@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/c10k.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/c10k.ini.html","name":"C10K","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:43:36 +0000","dateModified":"Fri, 03 Jul 2026 08:43:36 +0000","description":"The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/C10K.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/c10k.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/c10k.ini.html","name":"C10K","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:19:51 +0000","dateModified":"Thu, 16 Jul 2026 08:19:51 +0000","description":"The C10K problem is the challenge of handling 10,000 concurrent network connections on a single server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/C10K.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 C10K
@@ -70,6 +70,6 @@ The successor challenge, C10M or 10 million connections, requires kernel bypass 
 
 `Documentation <http://www.kegel.com/c10k.html>`__
 
-See also `The C10K Problem — Dan Kegel <http://www.kegel.com/c10k.html>`_ and `PHP RFC: Poll API <https://wiki.php.net/rfc/poll_api>`_.
+See also `PHP RFC: Poll API <https://wiki.php.net/rfc/poll_api>`_.
 
 Related : :ref:`Polling <polling>`, :ref:`Event Loop <event-loop>`, :ref:`Non-blocking <non-blocking>`, :ref:`Async <async>`, :ref:`Concurrency <concurency>`, :ref:`Edge Triggered <edge-triggered>`, :ref:`One-shot <one-shot>`, :ref:`Socket <socket>`, :ref:`Numeronym <numeronym>`

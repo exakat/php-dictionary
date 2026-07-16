@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignment.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignment.ini.html","name":"Assignment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:12:54 +0000","dateModified":"Tue, 14 Jul 2026 06:12:54 +0000","description":"Assignment is the fundamental operation of binding a value to a variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assignment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignment.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignment.ini.html","name":"Assignment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:19:33 +0000","dateModified":"Thu, 16 Jul 2026 08:19:33 +0000","description":"Assignment is the fundamental operation of binding a value to a variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assignment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Assignment
@@ -61,6 +61,6 @@ PHP 7.4 introduced the null coalescing assignment operator ``??=``, which assign
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
 
-See also `PHP Assignment Operators <https://www.php.net/manual/en/language.operators.assignment.php>`_ and `PHP Reference <https://www.php.net/manual/en/language.oop5.references.php>`_.
+See also `PHP Reference <https://www.php.net/manual/en/language.oop5.references.php>`_.
 
 Related : :ref:`Assignations <assignation>`, :ref:`Short Assignations <short-assignation>`, :ref:`Overwrite <overwrite>`, :ref:`Variables <variable>`, :ref:`References <reference>`, :ref:`Passing By Reference <by-reference>`, :ref:`Passing By Value <by-value>`, :ref:`List <list>`, :ref:`Short Syntax <short-syntax>`, :ref:`Iffectation <iffectation>`

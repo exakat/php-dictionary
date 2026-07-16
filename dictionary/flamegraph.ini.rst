@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/flamegraph.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/flamegraph.ini.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 04:40:24 +0000","dateModified":"Wed, 08 Jul 2026 04:40:24 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/flamegraph.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/flamegraph.ini.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Flame Graph
@@ -31,6 +31,6 @@ They help quickly spot hot paths in code: functions or routines that consume the
 
 See also `Profiling PHP in production at scale <https://timotijhof.net/posts/2020/profiling-php-at-scale/>`_, `Flamboyant Flamegraphs <https://derickrethans.nl/flamboyant-flamegraphs.html>`_, `Flamegraphs with xDebug <https://xdebug.org/docs/flamegraphs>`_, `How to generate PHP Flamegraphs <https://daniellockyer.com/php-flame-graphs/>`_ and `Flamegraph with xhprof on buggregator <https://docs.buggregator.dev/config/xhprof.html>`_.
 
-Related : :ref:`PHP Profiler <profiler>`, :ref:`Performance <performance>`, :ref:`Monitoring <monitoring>`, :ref:`Benchmarking <benchmarking>`, :ref:`Trace <trace>`, :ref:`Treemap <treemap>`
+Related : :ref:`PHP Profiler <profiler>`, :ref:`Performance <performance>`, :ref:`Monitoring <monitoring>`, :ref:`Benchmarking <benchmarking>`, :ref:`Trace <trace>`, :ref:`Treemap <treemap>`, :ref:`Blackfire <blackfire>`, :ref:`Profiling <profiling>`, :ref:`Tideways <tideways>`, :ref:`XHProf <xhprof>`
 
 Related packages : `wikimedia/arc-lamp <https://packagist.org/packages/wikimedia/arc-lamp>`_, `noisebynorthwest/php-spx <https://packagist.org/packages/noisebynorthwest/php-spx>`_, `reliforp/reli-prof <https://packagist.org/packages/reliforp/reli-prof>`_

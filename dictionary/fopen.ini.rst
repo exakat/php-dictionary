@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fopen.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fopen.ini.html","name":"fopen()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:13:58 +0000","dateModified":"Tue, 14 Jul 2026 06:13:58 +0000","description":"``fopen()`` is a PHP native function which opens a file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fopen().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fopen.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fopen.ini.html","name":"fopen()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"``fopen()`` is a PHP native function which opens a file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fopen().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 fopen()
@@ -42,4 +42,4 @@ fopen()
 
 See also `PHP Open File <https://www.phptutorial.net/php-tutorial/php-open-file/>`_.
 
-Related : :ref:`File <file>`, :ref:`Writing <write>`, :ref:`Permission <permission>`, :ref:`Writeable <writeable>`, :ref:`Readable <readable>`, :ref:`SplFileObject <splfileobject>`, :ref:`$http_response_header <$http_response_header>`, :ref:`File Mode <file-mode>`, :ref:`Resource Leak <resource-leak>`, :ref:`Text <text>`, :ref:`Handle <handle>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`fread() <fread>`, :ref:`fseek() <fseek>`, :ref:`ftell() <ftell>`, :ref:`rewind() <rewind>`
+Related : :ref:`File <file>`, :ref:`Writing <write>`, :ref:`Permission <permission>`, :ref:`Writeable <writeable>`, :ref:`Readable <readable>`, :ref:`SplFileObject <splfileobject>`, :ref:`$http_response_header <$http_response_header>`, :ref:`File Mode <file-mode>`, :ref:`Resource Leak <resource-leak>`, :ref:`Text <text>`, :ref:`Handle <handle>`, :ref:`Universal Resource Locator (URL) <url>`, :ref:`fread() <fread>`, :ref:`fseek() <fseek>`, :ref:`ftell() <ftell>`, :ref:`rewind() <rewind>`, :ref:`fclose() <fclose>`, :ref:`fgetc() <fgetc>`, :ref:`fgets() <fgets>`, :ref:`fwrite() <fwrite>`
