@@ -58,4 +58,4 @@ In templating: the ``view()`` pattern refers to any mechanism that renders outpu
 
 See also `PHP MVC Architecture <https://webreference.com/php/web-development/mvc/>`_ and `SQL Views <https://www.php.net/manual/pdo.transactions.php>`_.
 
-Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`SQL Views <view-sql>`, :ref:`Render <render>`, :ref:`Controller <controller>`, :ref:`Model <model>`, :ref:`Template <template>`, , :ref:`Middleware Pattern <middleware>`, :ref:`Direct Output <direct-output>`, :ref:`HyperText Markup Language (HTML) <html>`
+Related : :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`View In Presentation <view-presentation>`, :ref:`SQL Views <view-sql>`, :ref:`Render <render>`, :ref:`Controller <controller>`, :ref:`Model <model>`, :ref:`Template <template>`, :ref:`Twig <twig>`, :ref:`Middleware Pattern <middleware>`, :ref:`Direct Output <direct-output>`, :ref:`HyperText Markup Language (HTML) <html>`

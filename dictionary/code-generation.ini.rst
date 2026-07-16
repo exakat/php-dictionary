@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-generation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-generation.ini.html","name":"Code Generation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:04:46 +0000","dateModified":"Mon, 06 Jul 2026 10:04:46 +0000","description":"Code generation is the automatic production of source code from a higher-level specification, model, schema, or set of rules","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Generation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-generation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-generation.ini.html","name":"Code Generation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:44:12 +0000","dateModified":"Thu, 16 Jul 2026 04:44:12 +0000","description":"Code generation is the automatic production of source code from a higher-level specification, model, schema, or set of rules","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Generation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Generation
@@ -35,7 +35,7 @@ Code generation takes several forms:
 + AST rewriting: ``nikic/php-parser`` parses PHP source into an AST, applies transformations via a visitor, and regenerates source, used by Rector for automated refactoring and upgrade migrations.
 + Template-based generation: tools such as ``twig`` or custom scripts emit PHP classes, configuration files, or API clients from templates.
 
-Generated code is typically committed to the repository (so deployment does not require a build step), or kept out of version control and regenerated as part of CI. The choice depends on whether the generated output is considered an artefact or a first-class source file.
+Generated code is typically committed to the repository, so that deployment does not require a build step, or kept out of version control and regenerated as part of CI. The choice depends on whether the generated output is considered an artefact or a first-class source file.
 
 Code generation differs from metaprogramming in that it produces static files before runtime; metaprogramming operates on the live program at runtime.
 
@@ -72,7 +72,7 @@ Code generation differs from metaprogramming in that it produces static files be
 
 `Documentation <https://en.wikipedia.org/wiki/Automatic_programming>`__
 
-See also `nikic/php-parser <https://github.com/nikic/PHP-Parser>`_, `Rector <https://getrector.com/>`_ and `ocramius/proxy-manager <https://github.com/Ocramius/ProxyManager>`_.
+See also `Rector <https://getrector.com/>`_ and `phpMyEdit <https://www.phpmyedit.org/>`_.
 
 Related : :ref:`Code Generator <code-generator>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Template Metaprogramming (TMP) <template-metaprogramming>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Attribute <attribute>`, :ref:`Reflection <reflection>`, :ref:`Abstract Syntactic Tree (AST) <ast>`, :ref:`Rector <rector>`, :ref:`Scaffolding <scaffolding>`
 

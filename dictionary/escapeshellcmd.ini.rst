@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd.ini.html","name":"escapeshellcmd()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:52:51 +0000","dateModified":"Wed, 15 Jul 2026 13:52:51 +0000","description":"``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd.ini.html","name":"escapeshellcmd()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:44:49 +0000","dateModified":"Thu, 16 Jul 2026 04:44:49 +0000","description":"``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/escapeshellcmd().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 escapeshellcmd()
 ----------------
 
-``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``;``, ``|``, ``(``, ``)``, ``[``, ``]``, ``{``, ``}``, ``$``, ````, ``\``, ``"``, ``'``, and whitespace sequences that could alter the intended command.
+``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``;``, ``|``, ``(``, ``)``, ``[``, ``]``, ``{``, ``}``, ``$``, `` \` ``, ``\``, ``"``, ``'``, and whitespace sequences that could alter the intended command.
 
 Unlike ``escapeshellarg()``, which wraps a single argument in quotes, ``escapeshellcmd()`` is applied to the entire command string and escapes individual special characters with a backslash. It is suitable when the command itself is dynamic, not just its arguments.
 
@@ -30,7 +30,7 @@ Important caveats:
 
 + ``escapeshellcmd()`` does not make arbitrary shell strings safe. It is designed for use with ``exec()``, ``system()``, ``passthru()``, and ``shell_exec()``, but cannot protect against every shell injection vector. Prefer ``escapeshellarg()`` on each argument individually, as this is generally more reliable.
 + On Windows, ``escapeshellcmd()`` has different behaviour: it escapes a different set of special characters. Code relying on it must be tested on the target platform.
-+ The safest approach to shell execution is to avoid building a command string at all. Use ``proc_open()`` with an array argument form (where available via wrapper libraries) or pass arguments as an explicit array, which bypasses the shell entirely.
++ The safest approach to shell execution is to avoid building a command string at all. Use ``proc_open()`` with an array argument form, where available via wrapper libraries, or pass arguments as an explicit array, which bypasses the shell entirely.
 
 .. code-block:: php
    

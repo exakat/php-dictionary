@@ -84,6 +84,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Linux Nginx Mysql PHP (LEMP) <lemp>`
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`Message Digest Algorithm 5 (MD5) <md5>`
++ :ref:`Meta-object Protocol (MOP) <meta-object-protocol>`
 + :ref:`Method Resolution Order (MRO) <mro>`
 + :ref:`Minimum Viable Product (MVP) <mvp>`
 + :ref:`Model - View - Controller (MVC) <mvc>`
@@ -416,6 +417,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Merge <merge>`
 + :ref:`Message Digest <message-digest>`
 + :ref:`Metaclass <metaclass>`
++ :ref:`Metadata <metadata>`
 + :ref:`Metaprogramming <metaprogramming>`
 + :ref:`Method Resolution Order (MRO) <mro>`
 + :ref:`Method Signature <method-signature>`
@@ -592,6 +594,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Zero-code <zero-code>`
 + :ref:`Zombie Code <zombie-code>`
 + :ref:`hash() Function <hash-function>`
++ :ref:`max_memory_limit <max_memory_limit>`
 + :ref:`precision <precision>`
 
 Control flow
@@ -866,6 +869,7 @@ Extension
 
 List of special PHP extensions.
 
++ :ref:`APCu <apcu>`
 + :ref:`Bcmath <bcmath>`
 + :ref:`Calendar <calendar>`
 + :ref:`Core <core>`
@@ -882,7 +886,6 @@ List of special PHP extensions.
 + :ref:`GNU Multiple Precision (GMP) <gmp>`
 + :ref:`Gearman <gearman>`
 + :ref:`Graphic Draw (GD) <gd>`
-+ :ref:`Haru (PDF) <haru>`
 + :ref:`Hash <hash>`
 + :ref:`IMAP <imap>`
 + :ref:`Iconv <iconv>`
@@ -915,6 +918,7 @@ List of special PHP extensions.
 + :ref:`Swoole <swoole>`
 + :ref:`Tokenizer <tokenizer>`
 + :ref:`URI Extension <uri-extension>`
++ :ref:`XHProf <xhprof>`
 + :ref:`XMLwriter <xmlwriter>`
 + :ref:`XXTEA <xxtea>`
 + :ref:`bzip2 Extension <bzip2>`
@@ -1123,11 +1127,10 @@ List of features supported in other languages, but not natively by PHP
 + :ref:`Computed Property <computed-property>`
 + :ref:`Currying <currying>`
 + :ref:`Green Thread <green-thread>`
-+ :ref:`Haru (PDF) <haru>`
 + :ref:`Hoisting <hoisting>`
 + :ref:`Hygienic Macro <hygienic-macro>`
 + :ref:`Macro <macro>`
-+ :ref:`Meta-object Protocol <meta-object-protocol>`
++ :ref:`Meta-object Protocol (MOP) <meta-object-protocol>`
 + :ref:`Metaclass <metaclass>`
 + :ref:`Mixin <mixin>`
 + :ref:`Open Class <open-class>`

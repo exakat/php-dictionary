@@ -79,6 +79,7 @@
 [Anti-Pattern](https://php-dictionary.readthedocs.io/en/latest/dictionary/anti-pattern.ini.html): An anti-pattern is a common but counterproductive solution to a recurring problem.
 [ANTLR4](https://php-dictionary.readthedocs.io/en/latest/dictionary/antlr4.ini.html): ANTLR, ANother Tool for Language Recognition, currently at its 4th major version, is a parser generator:
 [Ahead Of Time](https://php-dictionary.readthedocs.io/en/latest/dictionary/aot.ini.html): Ahead-of-Time, AOT, compilation is the process of compiling source code to machine code before execution, as opposed to at runtime.
+[APCu](https://php-dictionary.readthedocs.io/en/latest/dictionary/apcu.ini.html): APCu, APC User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis.
 [API Gateway](https://php-dictionary.readthedocs.io/en/latest/dictionary/api-gateway.ini.html): An API gateway is a server that acts as the single entry point for all client requests to a backend system.
 [Application Programming Interface (API)](https://php-dictionary.readthedocs.io/en/latest/dictionary/api.ini.html): An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service.
 [Application Performance Management (APM)](https://php-dictionary.readthedocs.io/en/latest/dictionary/apm.ini.html): APM stands for Application Performance Management.
@@ -578,7 +579,7 @@ STRING`` (Nowdoc syntax).
 [HTML Escaping](https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-html.ini.html): HTML escaping, also known as HTML encoding or character escaping, is a technique used to convert special characters in HTML markup into their corresponding HTML entities.
 [Escape Sequences](https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html): Escape sequences are sequences of characters with a special meaning.
 [escapeshellarg()](https://php-dictionary.readthedocs.io/en/latest/dictionary/escapeshellarg.ini.html): ``escapeshellarg()`` is a PHP function that wraps a string in single quotes and escapes any existing single quotes within it, making the string safe to pass as a single argument to a shell command.
-[escapeshellcmd()](https://php-dictionary.readthedocs.io/en/latest/dictionary/escapeshellcmd.ini.html): ``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``;``, ``|``, ``(``, ``)``, ``[``, ``]``, ``{``, ``}``, ``$``, ````, ``\``, ``"``, ``'``, and whitespace sequences that could alter the intended command.
+[escapeshellcmd()](https://php-dictionary.readthedocs.io/en/latest/dictionary/escapeshellcmd.ini.html): ``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``;``, ``|``, ``(``, ``)``, ``[``, ``]``, ``{``, ``}``, ``$``, `` \` ``, ``\``, ``"``, ``'``, and whitespace sequences that could alter the intended command.
 [Eval()](https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html): The ``eval()`` function executes a string as a PHP code.
 [Event Driven](https://php-dictionary.readthedocs.io/en/latest/dictionary/event-driven.ini.html): Event-driven programming is a programming paradigm that focuses on the flow of a program's execution being determined by events or actions that occur, rather than following a strictly sequential, procedural path.
 [Event Loop](https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html): An event loop is a mechanism for handling asynchronous operations and event-driven programming.
@@ -629,10 +630,13 @@ STRING`` (Nowdoc syntax).
 [Fat](https://php-dictionary.readthedocs.io/en/latest/dictionary/fat.ini.html): Fat is an informal qualifier applied to a class, most commonly a controller or a model, that has grown too large in terms of responsibilities, methods, and lines of code.
 [Fatal Error](https://php-dictionary.readthedocs.io/en/latest/dictionary/fatal-error.ini.html): Fatal error is a type of PHP error, which ends the execution of the application.
 [Fault Isolation](https://php-dictionary.readthedocs.io/en/latest/dictionary/fault-isolation.ini.html): Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system.
+[fclose()](https://php-dictionary.readthedocs.io/en/latest/dictionary/fclose.ini.html): ``fclose()`` is a PHP native function that closes an open file pointer, previously created with ``fopen()``, ``fsockopen()``, or similar functions.
 [Feature Flag](https://php-dictionary.readthedocs.io/en/latest/dictionary/feature-flag.ini.html): A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system.
 [Feature Testing](https://php-dictionary.readthedocs.io/en/latest/dictionary/feature-testing.ini.html): Feature testing validates that multiple components of a system work together correctly by simulating real user workflows.
 [Feature](https://php-dictionary.readthedocs.io/en/latest/dictionary/feature.ini.html): A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose.
 [Foreign Function Interface (FFI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ffi.ini.html): ``Foreign Function Interface``, also known as ``FFI`` allows loading external libraries, such as ``.
+[fgetc()](https://php-dictionary.readthedocs.io/en/latest/dictionary/fgetc.ini.html): ``fgetc()`` is a PHP native function that reads a single character from an open file pointer.
+[fgets()](https://php-dictionary.readthedocs.io/en/latest/dictionary/fgets.ini.html): ``fgets()`` is a PHP native function that reads a single line from an open file pointer, up to and including the next newline character, or until an optional ``length`` limit of bytes is reached.
 [Fibers](https://php-dictionary.readthedocs.io/en/latest/dictionary/fibers.ini.html): Fibers are a low-level mechanism for lightweight concurrency, they allow to pause and resume blocks of code at specific points without blocking the rest of the application.
 [First In, First Out (FIFO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/fifo.ini.html): First In, First Out is the principle of management of a queue.
 [File Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/file-extension.ini.html): File extensions are the suffixes at the end of file names that indicate the type or format of the file.
@@ -685,6 +689,7 @@ STRING`` (Nowdoc syntax).
 [Functor](https://php-dictionary.readthedocs.io/en/latest/dictionary/functor.ini.html): A functor is a type that can be ``mapped over``.
 [Future](https://php-dictionary.readthedocs.io/en/latest/dictionary/future.ini.html): A future is a programming construct representing a value that is not yet available but will be resolved at some point.
 [Fuzzing](https://php-dictionary.readthedocs.io/en/latest/dictionary/fuzzing.ini.html): Fuzzing refers to an automated software testing technique where the application is fed random, unexpected, or malformed data to discover bugs, vulnerabilities, and unexpected behaviors.
+[fwrite()](https://php-dictionary.readthedocs.io/en/latest/dictionary/fwrite.ini.html): ``fwrite()`` is a PHP native function that writes a string to an open file pointer.
 [Generalized Algebraic Data Type (GADT)](https://php-dictionary.readthedocs.io/en/latest/dictionary/gadt.ini.html): A Generalized Algebraic Data Type, GADT, is an extension of algebraic data types in which each constructor of the type can return a different, more specific instantiation of the type.
 [Garbage Collection](https://php-dictionary.readthedocs.io/en/latest/dictionary/garbage-collection.ini.html): Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values.
 [Graphic Draw (GD)](https://php-dictionary.readthedocs.io/en/latest/dictionary/gd.ini.html): ``GD`` is the name of a PHP extension that can manipulate several image formats, such as GIF, PNG, JPEG, WBMP, and XPM, and draw graphics.
@@ -696,6 +701,7 @@ STRING`` (Nowdoc syntax).
 [get_object_vars()](https://php-dictionary.readthedocs.io/en/latest/dictionary/get_object_vars.ini.html): ``get_object_vars()`` is a PHP native function, which returns an array with the object properties as index, and their related respective values.
 [Class Getter Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/getter.ini.html): Getters are methods used to access the values of a property.
 [gettext Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/gettext.ini.html): ``gettext`` is a library that provides features to translate messages for the users.
+[gettype()](https://php-dictionary.readthedocs.io/en/latest/dictionary/gettype.ini.html): ``gettype()`` is a PHP native function that returns the type of a variable as a string.
 [GIF](https://php-dictionary.readthedocs.io/en/latest/dictionary/gif.ini.html): GIF, for Graphics Interchange Format, is a bitmap image format developed by CompuServe in 1987.
 [Git Hook](https://php-dictionary.readthedocs.io/en/latest/dictionary/git-hook.ini.html): Git hooks are scripts that Git executes automatically at specific points in the version-control workflow.
 [git](https://php-dictionary.readthedocs.io/en/latest/dictionary/git.ini.html): Git is a distributed version control system that is widely used for tracking changes in source code during software development.
@@ -725,7 +731,6 @@ STRING`` (Nowdoc syntax).
 [PHP Handlers](https://php-dictionary.readthedocs.io/en/latest/dictionary/handler.ini.html): PHP handlers are methods which are called to customize the processing of specific events.
 [Hard Coded](https://php-dictionary.readthedocs.io/en/latest/dictionary/hard-coded.ini.html): Hard coded data in code happens when a value is set as a literal in the code, and can't be change through any directives or parameters.
 [Hardening](https://php-dictionary.readthedocs.io/en/latest/dictionary/hardening.ini.html): Hardening refers to the raise of security level in the installation of PHP, and other related technologies.
-[Haru (PDF)](https://php-dictionary.readthedocs.io/en/latest/dictionary/haru.ini.html): ``Haru`` is a PECL extension that wraps libharu, a free, cross-platform C library for generating PDF documents from scratch.
 [Hash #](https://php-dictionary.readthedocs.io/en/latest/dictionary/hash-character.ini.html): ``#`` is character, used in various situations:
 [Hash Comparisons](https://php-dictionary.readthedocs.io/en/latest/dictionary/hash-comparison.ini.html): Cryptographic hashes are usually represented by strings.
 [Cryptographic Hash](https://php-dictionary.readthedocs.io/en/latest/dictionary/hash-crypto.ini.html): A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert.
@@ -849,7 +854,11 @@ STRING`` (Nowdoc syntax).
 [Internet Protocol (IP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html): Internet Protocol:
 [is_a()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_a.ini.html): ``is_a()`` is a PHP native function, that checks if an object is of a specific class.
 [is_array()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_array.ini.html): ``is_array()`` is a PHP native function that checks whether a variable is of type array.
+[is_bool()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_bool.ini.html): ``is_bool()`` is a PHP native function that checks whether a variable is of type ``bool``.
+[is_int()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_int.ini.html): ``is_int()`` is a PHP native function that checks whether a variable is of type ``int``.
+[is_iterable()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_iterable.ini.html): ``is_iterable()`` is a PHP native function, introduced in version 7.
 [is_object()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_object.ini.html): ``is_object()`` is a PHP native function that checks if the content of a variable is an object or not, without consideration for the actual class.
+[is_string()](https://php-dictionary.readthedocs.io/en/latest/dictionary/is_string.ini.html): ``is_string()`` is a PHP native function that checks whether a variable is of type ``string``.
 [Interface Segregation Principle (ISP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/isp.ini.html): The interface segregation principle, or ISP, states that no code should be forced to depend on methods it does not use.
 [Isset](https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html): ``isset()`` is a function that determines if a variable is declared and is different than ``null``.
 [Iterable](https://php-dictionary.readthedocs.io/en/latest/dictionary/iterable.ini.html): Iterable is a pseudo-type, which accepts any array or object implementing the ``Traversable`` interface.
@@ -953,6 +962,7 @@ STRING`` (Nowdoc syntax).
 [Match](https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html): The ``match`` expression is the remote cousin of the ``switch``.
 [Math](https://php-dictionary.readthedocs.io/en/latest/dictionary/math.ini.html): PHP offers many math features.
 [max_execution_time](https://php-dictionary.readthedocs.io/en/latest/dictionary/max_execution_time.ini.html): The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application.
+[max_memory_limit](https://php-dictionary.readthedocs.io/en/latest/dictionary/max_memory_limit.ini.html): ``max_memory_limit`` is not a PHP core directive:
 [Multibyte String](https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html): ``mbstring`` provides function to process multibyte strings functions.
 [Model Context Protocol (MCP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/mcp.ini.html): An MCP server usually refers to a server that implements the Model Context Protocol, or MCP.
 [mcrypt Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html): ``mcrypt`` is a PHP extension that provides access to the mcrypt library.
@@ -966,8 +976,9 @@ STRING`` (Nowdoc syntax).
 [Message Bus](https://php-dictionary.readthedocs.io/en/latest/dictionary/message-bus.ini.html): A message bus is a communication mechanism that allows different components or services to exchange messages in a decoupled manner.
 [Message Digest](https://php-dictionary.readthedocs.io/en/latest/dictionary/message-digest.ini.html): A message digest is the fixed-size output of a cryptographic hash function, applied to an arbitrary piece of data, called the message.
 [Message Queue](https://php-dictionary.readthedocs.io/en/latest/dictionary/message-queue.ini.html): A message queue server is a middleware component or service that facilitates communication between different software components or systems by enabling asynchronous message passing.
-[Meta-object Protocol](https://php-dictionary.readthedocs.io/en/latest/dictionary/meta-object-protocol.ini.html): A Meta-object Protocol (MOP) is an API that exposes a language's own object system as a first-class, programmable layer.
+[Meta-object Protocol (MOP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/meta-object-protocol.ini.html): A Meta-object Protocol, also called for MOP, is an API that exposes a language's own object system as a first-class, programmable layer.
 [Metaclass](https://php-dictionary.readthedocs.io/en/latest/dictionary/metaclass.ini.html): A metaclass is a class whose instances are themselves classes.
+[Metadata](https://php-dictionary.readthedocs.io/en/latest/dictionary/metadata.ini.html): Metadata is data that describes other data:
 [Metaprogramming](https://php-dictionary.readthedocs.io/en/latest/dictionary/metaprogramming.ini.html): Metaprogramming is the practice of writing code that treats other code as data:
 [Method Collision](https://php-dictionary.readthedocs.io/en/latest/dictionary/method-collision.ini.html): A method collision happens when a trait is imported in a class, and it holds a method that already exists in the class.
 [Method Compatibility](https://php-dictionary.readthedocs.io/en/latest/dictionary/method-compatibility.ini.html): Method compatibility means that when a class overrides a method, from a parent class or interface, the new method must keep a compatible signature.
@@ -1666,6 +1677,7 @@ It applies to several concepts:
 [Terminal User Interface (TUI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/tui.ini.html): A Terminal User Interface, or TUI for short, is a type of user interface that uses text-based graphics and keyboard interaction within a terminal or console, providing a richer experience than a plain CLI while avoiding the overhead of a graphical desktop.
 [Tuple](https://php-dictionary.readthedocs.io/en/latest/dictionary/tuple.ini.html): A tuple is a fixed-size, ordered collection of values, where each position may hold a different type, and the type of the whole tuple is the sequence of its element types, such as Rust's ``(i32, String, bool)`` or Python's ``(1, 'a', True)``.
 [Tutorial](https://php-dictionary.readthedocs.io/en/latest/dictionary/tutorial.ini.html): Tutorial is a type of documentation.
+[Twig](https://php-dictionary.readthedocs.io/en/latest/dictionary/twig.ini.html): Twig is a template engine for PHP, created by SensioLabs and used as the default templating layer of the Symfony framework.
 [Type Checking](https://php-dictionary.readthedocs.io/en/latest/dictionary/type-checking.ini.html): Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage.
 [Type Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/type-class.ini.html): A type class, as found in Haskell and similar languages, is a named set of functions that a type must implement in order to belong to that class.
 [Contravariance](https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html): Contravariance allows a parameter type to be less specific in a child method, than that of its parent.
@@ -1789,6 +1801,7 @@ It applies to several concepts:
 [Writeable](https://php-dictionary.readthedocs.io/en/latest/dictionary/writeable.ini.html): Something is writeable when its current value may be modified.
 [Writing](https://php-dictionary.readthedocs.io/en/latest/dictionary/writing.ini.html): Writing is the action to replace a value in a data container with another one.
 [Xdebug](https://php-dictionary.readthedocs.io/en/latest/dictionary/xdebug.ini.html): Xdebug is an extension for PHP, and provides a range of features to improve the PHP development experience.
+[XHProf](https://php-dictionary.readthedocs.io/en/latest/dictionary/xhprof.ini.html): XHProf is a hierarchical, function-level profiler for PHP, originally developed at Facebook and later open-sourced.
 [XML Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/xml-database.ini.html): An XML database is a database which uses XML for the storage format.
 [Extensible Markup Language (XML)](https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html): XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use.
 [XMLReader](https://php-dictionary.readthedocs.io/en/latest/dictionary/xmlreader.ini.html): The ``XMLReader`` extension is an XML Pull parser.

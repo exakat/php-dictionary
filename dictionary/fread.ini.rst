@@ -57,4 +57,4 @@ Key characteristics:
 
 See also `Filesystem functions <https://www.php.net/manual/en/ref.filesystem.php>`_.
 
-Related : :ref:`fopen() <fopen>`, , , :ref:`file_get_contents() <file_get_contents>`, :ref:`File <file>`, :ref:`Stream <stream>`, , , :ref:`fseek() <fseek>`, :ref:`ftell() <ftell>`, :ref:`rewind() <rewind>`, :ref:`Readable <readable>`, :ref:`Binary <binary>`, :ref:`Resource Leak <resource-leak>`
+Related : :ref:`fopen() <fopen>`, :ref:`fgets() <fgets>`, :ref:`fgetc() <fgetc>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`File <file>`, :ref:`Stream <stream>`, :ref:`fclose() <fclose>`, :ref:`fwrite() <fwrite>`, :ref:`fseek() <fseek>`, :ref:`ftell() <ftell>`, :ref:`rewind() <rewind>`, :ref:`Readable <readable>`, :ref:`Binary <binary>`, :ref:`Resource Leak <resource-leak>`

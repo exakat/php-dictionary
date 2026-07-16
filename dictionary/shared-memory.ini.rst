@@ -77,4 +77,4 @@ Note that shared memory segments persist until explicitly deleted or the system 
 
 See also `A Guide to the PHP SHMOP Library for Shared Memory Operations <https://reintech.io/blog/a-guide-to-php-shmop-library-for-shared-memory-operations>`_.
 
-Related : :ref:`Memory <memory>`, :ref:`Actor Model <actor-model>`, :ref:`Ownership <borrow-checking>`, :ref:`Channel <channel>`, :ref:`Memory Arena <memory-arena>`, :ref:`Software Transactional Memory (STM) <software-transactional-memory>`, :ref:`Cache <cache>`, , :ref:`Session <session>`, :ref:`Opcache <opcache>`, :ref:`Concurrency <concurrency>`, :ref:`Mutex <mutex>`, :ref:`Semaphore <semaphore>`
+Related : :ref:`Memory <memory>`, :ref:`Actor Model <actor-model>`, :ref:`Ownership <borrow-checking>`, :ref:`Channel <channel>`, :ref:`Memory Arena <memory-arena>`, :ref:`Software Transactional Memory (STM) <software-transactional-memory>`, :ref:`Cache <cache>`, :ref:`APCu <apcu>`, :ref:`Session <session>`, :ref:`Opcache <opcache>`, :ref:`Concurrency <concurrency>`, :ref:`Mutex <mutex>`, :ref:`Semaphore <semaphore>`

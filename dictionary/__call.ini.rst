@@ -56,4 +56,4 @@ The ``__call()`` method has a related version for static methods, called ``__cal
 
 See also `PHP _call (Lesson 3: PHP Magic Methods) <https://dev.to/cleancodestudio/php-call-lesson-3-php-magic-methods-5bi0>`_.
 
-Related : :ref:`__callStatic() Method <-__callstatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`, :ref:`Proxy <proxy>`, :ref:`Meta-object Protocol <meta-object-protocol>`, :ref:`Metaclass <metaclass>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Open Class <open-class>`
+Related : :ref:`__callStatic() Method <-__callstatic>`, :ref:`Magic Methods <magic-method>`, :ref:`Method <method>`, :ref:`Proxy <proxy>`, :ref:`Meta-object Protocol (MOP) <meta-object-protocol>`, :ref:`Metaclass <metaclass>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Open Class <open-class>`

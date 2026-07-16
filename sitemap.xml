@@ -244,6 +244,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/aot.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/apcu.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/api-gateway.ini.html</loc>
  </url>
  <url>
@@ -1888,6 +1891,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fault-isolation.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fclose.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/feature-flag.ini.html</loc>
  </url>
  <url>
@@ -1898,6 +1904,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/ffi.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fgetc.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fgets.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fibers.ini.html</loc>
@@ -2056,6 +2068,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fuzzing.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/fwrite.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gadt.ini.html</loc>
  </url>
  <url>
@@ -2087,6 +2102,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gettext.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gettype.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/gif.ini.html</loc>
@@ -2174,9 +2192,6 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hardening.ini.html</loc>
- </url>
- <url>
-  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/haru.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/hash-character.ini.html</loc>
@@ -2548,7 +2563,19 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/is_array.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/is_bool.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/is_int.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/is_iterable.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/is_object.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/is_string.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/isp.ini.html</loc>
@@ -2860,6 +2887,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/max_execution_time.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/max_memory_limit.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html</loc>
  </url>
  <url>
@@ -2903,6 +2933,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/metaclass.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/metadata.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/metaprogramming.ini.html</loc>
@@ -4987,6 +5020,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/tutorial.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/twig.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/type-checking.ini.html</loc>
  </url>
  <url>
@@ -5354,6 +5390,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/xdebug.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/xhprof.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/xml-database.ini.html</loc>

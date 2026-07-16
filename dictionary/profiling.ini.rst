@@ -33,4 +33,4 @@ Profiling is typically done using extensions like Xdebug, Blackfire, or XHProf. 
 
 `Documentation <https://en.wikipedia.org/wiki/Profiling_(computer_programming)>`__
 
-Related : :ref:`PHP Profiler <profiler>`, :ref:`Debugger <debugger>`, :ref:`Flame Graph <flamegraph>`, :ref:`Bottleneck <bottleneck>`, :ref:`Micro-optimisation <micro-optimisation>`, :ref:`Performance <performance>`, :ref:`Xdebug <xdebug>`, :ref:`Blackfire <blackfire>`, 
+Related : :ref:`PHP Profiler <profiler>`, :ref:`Debugger <debugger>`, :ref:`Flame Graph <flamegraph>`, :ref:`Bottleneck <bottleneck>`, :ref:`Micro-optimisation <micro-optimisation>`, :ref:`Performance <performance>`, :ref:`Xdebug <xdebug>`, :ref:`Blackfire <blackfire>`, :ref:`XHProf <xhprof>`

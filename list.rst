@@ -86,6 +86,7 @@ Index
    dictionary/anti-pattern.ini
    dictionary/antlr4.ini
    dictionary/aot.ini
+   dictionary/apcu.ini
    dictionary/api-gateway.ini
    dictionary/api.ini
    dictionary/apm.ini
@@ -634,10 +635,13 @@ Index
    dictionary/fat.ini
    dictionary/fatal-error.ini
    dictionary/fault-isolation.ini
+   dictionary/fclose.ini
    dictionary/feature-flag.ini
    dictionary/feature-testing.ini
    dictionary/feature.ini
    dictionary/ffi.ini
+   dictionary/fgetc.ini
+   dictionary/fgets.ini
    dictionary/fibers.ini
    dictionary/fifo.ini
    dictionary/file-extension.ini
@@ -690,6 +694,7 @@ Index
    dictionary/functor.ini
    dictionary/future.ini
    dictionary/fuzzing.ini
+   dictionary/fwrite.ini
    dictionary/gadt.ini
    dictionary/garbage-collection.ini
    dictionary/gd.ini
@@ -701,6 +706,7 @@ Index
    dictionary/get_object_vars.ini
    dictionary/getter.ini
    dictionary/gettext.ini
+   dictionary/gettype.ini
    dictionary/gif.ini
    dictionary/git-hook.ini
    dictionary/git.ini
@@ -730,7 +736,6 @@ Index
    dictionary/handler.ini
    dictionary/hard-coded.ini
    dictionary/hardening.ini
-   dictionary/haru.ini
    dictionary/hash-character.ini
    dictionary/hash-comparison.ini
    dictionary/hash-crypto.ini
@@ -854,7 +859,11 @@ Index
    dictionary/ip.ini
    dictionary/is_a.ini
    dictionary/is_array.ini
+   dictionary/is_bool.ini
+   dictionary/is_int.ini
+   dictionary/is_iterable.ini
    dictionary/is_object.ini
+   dictionary/is_string.ini
    dictionary/isp.ini
    dictionary/isset.ini
    dictionary/iterable.ini
@@ -958,6 +967,7 @@ Index
    dictionary/match.ini
    dictionary/math.ini
    dictionary/max_execution_time.ini
+   dictionary/max_memory_limit.ini
    dictionary/mbstring.ini
    dictionary/mcp.ini
    dictionary/mcrypt.ini
@@ -973,6 +983,7 @@ Index
    dictionary/message-queue.ini
    dictionary/meta-object-protocol.ini
    dictionary/metaclass.ini
+   dictionary/metadata.ini
    dictionary/metaprogramming.ini
    dictionary/method-collision.ini
    dictionary/method-compatibility.ini
@@ -1667,6 +1678,7 @@ Index
    dictionary/tui.ini
    dictionary/tuple.ini
    dictionary/tutorial.ini
+   dictionary/twig.ini
    dictionary/type-checking.ini
    dictionary/type-class.ini
    dictionary/type-contravariance.ini
@@ -1790,6 +1802,7 @@ Index
    dictionary/writeable.ini
    dictionary/writing.ini
    dictionary/xdebug.ini
+   dictionary/xhprof.ini
    dictionary/xml-database.ini
    dictionary/xml.ini
    dictionary/xmlreader.ini

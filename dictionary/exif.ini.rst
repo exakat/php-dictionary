@@ -63,4 +63,4 @@ Common EXIF functions include ``exif_read_data()``, ``exif_imagetype()``, ``exif
 
 See also `PHP EXIF functions <https://www.php.net/manual/en/ref.exif.php>`_ and `EXIF standard <https://en.wikipedia.org/wiki/Exchangeable_image_file_format>`_.
 
-Related : :ref:`Graphic Draw (GD) <gd>`, :ref:`imagick <imagick>`, :ref:`File <file>`, :ref:`Image <image>`, , :ref:`Privacy <privacy>`, :ref:`Steganography <steganography>`, :ref:`Security <security>`, :ref:`Text Encoding <encoding-text>`
+Related : :ref:`Graphic Draw (GD) <gd>`, :ref:`imagick <imagick>`, :ref:`File <file>`, :ref:`Image <image>`, :ref:`Metadata <metadata>`, :ref:`Privacy <privacy>`, :ref:`Steganography <steganography>`, :ref:`Security <security>`, :ref:`Text Encoding <encoding-text>`

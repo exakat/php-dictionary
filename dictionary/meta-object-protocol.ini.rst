@@ -2,35 +2,35 @@
 .. _mop:
 .. meta::
 	:description:
-		Meta-object Protocol: A Meta-object Protocol (MOP) is an API that exposes a language's own object system as a first-class, programmable layer.
+		Meta-object Protocol (MOP): A Meta-object Protocol, also called for MOP, is an API that exposes a language's own object system as a first-class, programmable layer.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Meta-object Protocol
-	:twitter:description: Meta-object Protocol: A Meta-object Protocol (MOP) is an API that exposes a language's own object system as a first-class, programmable layer
+	:twitter:title: Meta-object Protocol (MOP)
+	:twitter:description: Meta-object Protocol (MOP): A Meta-object Protocol, also called for MOP, is an API that exposes a language's own object system as a first-class, programmable layer
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: Meta-object Protocol
+	:og:title: Meta-object Protocol (MOP)
 	:og:type: article
-	:og:description: A Meta-object Protocol (MOP) is an API that exposes a language's own object system as a first-class, programmable layer
+	:og:description: A Meta-object Protocol, also called for MOP, is an API that exposes a language's own object system as a first-class, programmable layer
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/meta-object-protocol.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/meta-object-protocol.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/meta-object-protocol.ini.html","name":"Meta-object Protocol","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:09:37 +0000","dateModified":"Sat, 04 Jul 2026 08:09:37 +0000","description":"A Meta-object Protocol (MOP) is an API that exposes a language's own object system as a first-class, programmable layer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Meta-object Protocol.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/meta-object-protocol.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/meta-object-protocol.ini.html","name":"Meta-object Protocol (MOP)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:47:13 +0000","dateModified":"Thu, 16 Jul 2026 04:47:13 +0000","description":"A Meta-object Protocol, also called for MOP, is an API that exposes a language's own object system as a first-class, programmable layer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Meta-object Protocol (MOP).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-Meta-object Protocol
---------------------
+Meta-object Protocol (MOP)
+--------------------------
 
-A Meta-object Protocol (MOP) is an API that exposes a language's own object system as a first-class, programmable layer. Through a MOP, user code can redefine how classes are created, how methods are looked up and dispatched, how instances are allocated, and how inheritance is resolved: extending or replacing the object model itself from within the language. The canonical MOP is CLOS (Common Lisp Object System), which exposes generic functions such as ``make-instance``, ``compute-applicable-methods``, and ``slot-value`` as overridable entry points.
+A Meta-object Protocol, also called for MOP, is an API that exposes a language's own object system as a first-class, programmable layer. Through a MOP, user code can redefine how classes are created, how methods are looked up and dispatched, how instances are allocated, and how inheritance is resolved: extending or replacing the object model itself from within the language. The canonical MOP is CLOS, Common Lisp Object System, which exposes generic functions such as ``make-instance``, ``compute-applicable-methods``, and ``slot-value`` as overridable entry points.
 
 Python's data model, with ``__new__``, ``__init_subclass__``, ``__class_getitem__``, metaclasses, and Ruby's ``BasicObject`` and ``method_missing`` give partial MOP-like access. Smalltalk's entire class hierarchy is itself a set of Smalltalk objects, making it fully reflective by design.
 
-PHP does not have a Meta-object Protocol. PHP's object system is implemented in C (the Zend Engine) and is not programmable from userland. PHP does provide several approximations:
+PHP does not have a Meta-object Protocol. PHP's object system is implemented in C and is not programmable from userland. PHP does provide several approximations:
 
 + The Reflection API, ``ReflectionClass``, ``ReflectionMethod``, ``ReflectionProperty``, exposes read access to the object model at runtime, but cannot modify it.
-+ Magic methods, (``__get``, ``__set``, ``__call``, ``__callStatic``, ``__isset``, ``__unset``, intercept individual property and method access operations, giving hook points that resemble parts of a MOP.
++ Magic methods, ``__get``, ``__set``, ``__call``, ``__callStatic``, ``__isset``, ``__unset``, intercept individual property and method access operations, giving hook points that resemble parts of a MOP.
 + ``class_alias()`` lets user code create alternative names for classes, but cannot alter dispatch behaviour.
 + ``Closure::bind()`` and ``Closure::bindTo()`` allow closures to be rebound to a different object scope, approximating dynamic method injection.
 + Libraries such as ``ocramius/proxy-manager`` implement lazy-loading and interception proxies on top of these primitives, simulating part of what a MOP would provide natively.
@@ -78,7 +78,7 @@ PHP does not have a Meta-object Protocol. PHP's object system is implemented in 
 
 `Documentation <https://en.wikipedia.org/wiki/Metaobject>`__
 
-See also `The Art of the Metaobject Protocol (Kiczales et al.) <https://en.wikipedia.org/wiki/The_Art_of_the_Metaobject_Protocol>`_, `PHP Reflection API <https://www.php.net/manual/en/book.reflection.php>`_ and `ocramius/proxy-manager <https://github.com/Ocramius/ProxyManager>`_.
+See also `The Art of the Metaobject Protocol (Kiczales et al.) <https://en.wikipedia.org/wiki/The_Art_of_the_Metaobject_Protocol>`_ and `PHP Reflection API <https://www.php.net/manual/en/book.reflection.php>`_.
 
 Related : :ref:`Reflection <reflection>`, :ref:`Magic Methods <magic-method>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Homoiconicity <homoiconicity>`, :ref:`Proxy <proxy>`, :ref:`Closure <closure>`, :ref:`__get() Method <-__get>`, :ref:`__call() Method <-__call>`, :ref:`Metaclass <metaclass>`
 

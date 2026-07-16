@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/forum.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/forum.ini.html","name":"Forum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:54:33 +0000","dateModified":"Fri, 03 Jul 2026 08:54:33 +0000","description":"A forum is a web application that allows users to hold structured discussions online","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Forum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/forum.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/forum.ini.html","name":"Forum","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:45:22 +0000","dateModified":"Thu, 16 Jul 2026 04:45:22 +0000","description":"A forum is a web application that allows users to hold structured discussions online","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Forum.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Forum
@@ -33,17 +33,19 @@ A forum, also called a discussion board, is software where users can:
 
 It's one of the earliest and most common types of PHP web applications.
 
-PHP has a lot of forums. Here is a list: 
+The PHP ecosystem offers a lot of forums. Here is a non-exhaustive list: 
 
-+ ``phpBB <https://www.phpbb.com/>``_ 
-+ ``MyBB <https://mybb.com/>``_ 
-+ ``Flarum <https://flarum.org/>``_ 
-+ ``Simple Machines Forum, SMF <https://www.simplemachines.org/>``_ 
-+ ``XenForo <https://xenforo.com/>``_ 
-+ ``PunBB <https://punbb.informer.com/>``_ 
-+ ``ElkArte <https://www.elkarte.net/>``_ 
++ ``phpBB``
++ ``MyBB``
++ ``Flarum``
++ ``Simple Machines Forum``, SMF
++ ``XenForo``
++ ``PunBB``
++ ``ElkArte``
 
 
 `Documentation <https://en.wikipedia.org/wiki/Internet_forum>`__
+
+See also `phpBB <https://www.phpbb.com/>`_, `MyBB <https://mybb.com/>`_, `Flarum <https://flarum.org/>`_, `XenForo <https://punbb.informer.com/>`_, `ElkArte <https://www.elkarte.net/>`_ and `Simple Machines Forum, SMF <https://www.simplemachines.org/>`_.
 
 Related : :ref:`Open Source <open-source>`, :ref:`Marketplace <marketplace>`, :ref:`Plugin <plugin>`, :ref:`Framework <framework>`

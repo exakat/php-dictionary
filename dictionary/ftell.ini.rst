@@ -58,4 +58,4 @@ Key characteristics:
 
 See also `Filesystem functions <https://www.php.net/manual/en/ref.filesystem.php>`_.
 
-Related : :ref:`fseek() <fseek>`, :ref:`rewind() <rewind>`, :ref:`fopen() <fopen>`, :ref:`fread() <fread>`, , :ref:`File <file>`, :ref:`Stream <stream>`, , :ref:`Resource Leak <resource-leak>`
+Related : :ref:`fseek() <fseek>`, :ref:`rewind() <rewind>`, :ref:`fopen() <fopen>`, :ref:`fread() <fread>`, :ref:`fwrite() <fwrite>`, :ref:`File <file>`, :ref:`Stream <stream>`, :ref:`fclose() <fclose>`, :ref:`Resource Leak <resource-leak>`

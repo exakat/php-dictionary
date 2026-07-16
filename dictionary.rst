@@ -55,6 +55,7 @@ PHP Dictionary
    * :ref:`AJAX <ajax>`
    * :ref:`AMP (Asynchronous Markup Protocol) <amp>`
    * :ref:`ANTLR4 <antlr4>`
+   * :ref:`APCu <apcu>`
    * :ref:`API Gateway <api-gateway>`
    * :ref:`Absolute <absolute>`
    * :ref:`Absolute Name <absolute-name>`
@@ -689,6 +690,9 @@ PHP Dictionary
    * :ref:`Functor <functor>`
    * :ref:`Future <future>`
    * :ref:`Fuzzing <fuzzing>`
+   * :ref:`fclose() <fclose>`
+   * :ref:`fgetc() <fgetc>`
+   * :ref:`fgets() <fgets>`
    * :ref:`file:// <wrapper-file>`
    * :ref:`file_get_contents() <file_get_contents>`
    * :ref:`file_put_contents() <file_put_contents>`
@@ -701,6 +705,7 @@ PHP Dictionary
    * :ref:`ftell() <ftell>`
    * :ref:`ftp:// <wrapper-ftp>`
    * :ref:`func_get_args() <func_get_args>`
+   * :ref:`fwrite() <fwrite>`
 * G
    * :ref:`GIF <gif>`
    * :ref:`GNU Multiple Precision (GMP) <gmp>`
@@ -732,6 +737,7 @@ PHP Dictionary
    * :ref:`get_class_vars() <get_class_vars>`
    * :ref:`get_object_vars() <get_object_vars>`
    * :ref:`gettext Extension <gettext>`
+   * :ref:`gettype() <gettype>`
    * :ref:`git <git>`
    * :ref:`glob() <glob>`
    * :ref:`global Scope <global>`
@@ -749,7 +755,6 @@ PHP Dictionary
    * :ref:`Handle <handle>`
    * :ref:`Hard Coded <hard-coded>`
    * :ref:`Hardening <hardening>`
-   * :ref:`Haru (PDF) <haru>`
    * :ref:`Hash <hash>`
    * :ref:`Hash # <hash-character>`
    * :ref:`Hash Comparisons <hash-comparison>`
@@ -868,7 +873,11 @@ PHP Dictionary
    * :ref:`integer <integer>`
    * :ref:`is_a() <is_a>`
    * :ref:`is_array() <is_array>`
+   * :ref:`is_bool() <is_bool>`
+   * :ref:`is_int() <is_int>`
+   * :ref:`is_iterable() <is_iterable>`
    * :ref:`is_object() <is_object>`
+   * :ref:`is_string() <is_string>`
    * :ref:`iterator_to_array() <iterator_to_array>`
 * J
    * :ref:`JPEG <jpg>`
@@ -977,8 +986,9 @@ PHP Dictionary
    * :ref:`Message Digest <message-digest>`
    * :ref:`Message Digest Algorithm 5 (MD5) <md5>`
    * :ref:`Message Queue <message-queue>`
-   * :ref:`Meta-object Protocol <meta-object-protocol>`
+   * :ref:`Meta-object Protocol (MOP) <meta-object-protocol>`
    * :ref:`Metaclass <metaclass>`
+   * :ref:`Metadata <metadata>`
    * :ref:`Metaprogramming <metaprogramming>`
    * :ref:`Method <method>`
    * :ref:`Method Collision <method-collision>`
@@ -1031,6 +1041,7 @@ PHP Dictionary
    * :ref:`Mutex <mutex>`
    * :ref:`MySQL <mysql>`
    * :ref:`max_execution_time <max_execution_time>`
+   * :ref:`max_memory_limit <max_memory_limit>`
    * :ref:`mcrypt Extension <mcrypt>`
    * :ref:`memory_limit <memory_limit>`
    * :ref:`microtime() <microtime>`
@@ -1692,6 +1703,7 @@ PHP Dictionary
    * :ref:`Try-catch <try-catch>`
    * :ref:`Tuple <tuple>`
    * :ref:`Tutorial <tutorial>`
+   * :ref:`Twig <twig>`
    * :ref:`Type Checking <type-checking>`
    * :ref:`Type Class <type-class>`
    * :ref:`Type Coercion <coercion>`
@@ -1810,6 +1822,7 @@ PHP Dictionary
    * :ref:`Writeable <writeable>`
    * :ref:`Writing <writing>`
 * X
+   * :ref:`XHProf <xhprof>`
    * :ref:`XML Database <xml-database>`
    * :ref:`XMLReader <xmlreader>`
    * :ref:`XMLwriter <xmlwriter>`

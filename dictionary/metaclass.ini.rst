@@ -73,4 +73,4 @@ PHP approximations of metaclass-like behaviour:
 
 See also `PHP Reflection API <https://www.php.net/manual/en/book.reflection.php>`_ and `Python metaclasses <https://docs.python.org/3/reference/datamodel.html#metaclasses>`_.
 
-Related : :ref:`Meta-object Protocol <meta-object-protocol>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Reflection <reflection>`, :ref:`Attribute <attribute>`, :ref:`Magic Methods <magic-method>`, :ref:`Abstract Class <abstract-class>`, :ref:`__call() Method <-__call>`
+Related : :ref:`Meta-object Protocol (MOP) <meta-object-protocol>`, :ref:`Metaprogramming <metaprogramming>`, :ref:`Reflection <reflection>`, :ref:`Attribute <attribute>`, :ref:`Magic Methods <magic-method>`, :ref:`Abstract Class <abstract-class>`, :ref:`__call() Method <-__call>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/higher-kinded-type.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/higher-kinded-type.ini.html","name":"Higher-Kinded Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:40:13 +0000","dateModified":"Thu, 09 Jul 2026 08:40:13 +0000","description":"A higher-kinded type is a type that abstracts over type constructors rather than over concrete types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Higher-Kinded Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/higher-kinded-type.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/higher-kinded-type.ini.html","name":"Higher-Kinded Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:49:31 +0000","dateModified":"Thu, 16 Jul 2026 04:49:31 +0000","description":"A higher-kinded type is a type that abstracts over type constructors rather than over concrete types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Higher-Kinded Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Higher-Kinded Type
@@ -33,7 +33,7 @@ PHP does not support higher-kinded types. PHP lacks native generics entirely, wh
 
 `Documentation <https://en.wikipedia.org/wiki/Kind_(type_theory)>`__
 
-See also `marcosh/lamphpda <https://github.com/marcosh/lamphpda>`_.
+See also `Higher-Kinded Types in Depth <https://www.numberanalytics.com/blog/higher-kinded-types-in-depth>`_.
 
 Related : :ref:`Generics <generics>`, :ref:`Type System <type-system>`, :ref:`Polymorphism <polymorphism>`, :ref:`Functional Programming <functional-programming>`, :ref:`Types Erasure <type-erasure>`, :ref:`Monomorphization <monomorphization>`, :ref:`Algebraic Data Type <algebraic-data-type>`
 
