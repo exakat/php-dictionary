@@ -1,4 +1,2 @@
-furo
 sphinx>=9,<10
 pygments
-sphinxcontrib-googleanalytics
