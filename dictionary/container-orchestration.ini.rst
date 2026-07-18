@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/container-orchestration.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/container-orchestration.ini.html","name":"Container Orchestration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 14:58:13 +0000","dateModified":"Tue, 30 Jun 2026 14:58:13 +0000","description":"Container orchestration is the automated management of the full lifecycle of containerised workloads across a cluster of machines: scheduling containers onto nodes, scaling replicas up or down, restarting failed containers, routing network traffic, managing rolling updates and rollbacks, and injecting configuration and secrets","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Container Orchestration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/container-orchestration.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/container-orchestration.ini.html","name":"Container Orchestration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:14:28 +0000","dateModified":"Sat, 18 Jul 2026 05:14:28 +0000","description":"Container orchestration is the automated management of the full lifecycle of containerised workloads across a cluster of machines: scheduling containers onto nodes, scaling replicas up or down, restarting failed containers, routing network traffic, managing rolling updates and rollbacks, and injecting configuration and secrets","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Container Orchestration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Container Orchestration
@@ -27,9 +27,9 @@ Container orchestration is the automated management of the full lifecycle of con
 
 Without orchestration, deploying many containers manually is error-prone and does not scale. Orchestration platforms solve the operational burden of running containers in production.
 
-Kubernetes is the dominant container orchestration platform. Docker Swarm is a simpler alternative built into Docker Engine. Managed cloud offerings (AWS ECS, AWS EKS, Google GKE, Azure AKS) run Kubernetes with reduced operational overhead.
+Kubernetes is the dominant container orchestration platform. Docker Swarm is a simpler alternative built into Docker Engine. Managed cloud offerings, the like of AWS ECS, AWS EKS, Google GKE, Azure AKS, etc. run Kubernetes with reduced operational overhead.
 
-PHP applications benefit from container orchestration through: horizontal scaling (adding replicas under load), zero-downtime rolling deploys (old pods kept alive until new pods are healthy), and self-healing (crashed PHP-FPM pods are automatically restarted).
+PHP applications benefit from container orchestration through: horizontal scaling, like adding replicas under load, zero-downtime rolling deploys, like old pods kept alive until new pods are healthy, and self-healing, like crashed PHP-FPM pods are automatically restarted.
 
 .. code-block:: php
    
@@ -61,7 +61,5 @@ PHP applications benefit from container orchestration through: horizontal scalin
 
 
 `Documentation <https://kubernetes.io/docs/concepts/overview/>`__
-
-See also `Kubernetes: What is container orchestration? <https://kubernetes.io/docs/concepts/overview/>`_.
 
 Related : :ref:`Kubernetes <kubernetes>`, :ref:`Docker <docker>`, :ref:`Docker Container <docker-container>`, :ref:`Microservice <microservice>`, :ref:`Scaling <scalability>`, :ref:`Load Balancer <load-balancer>`

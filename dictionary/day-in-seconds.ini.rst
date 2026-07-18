@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/day-in-seconds.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/day-in-seconds.ini.html","name":"Days Are Not 86400 Seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Days in seconds is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days Are Not 86400 Seconds.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/day-in-seconds.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/day-in-seconds.ini.html","name":"Days Are Not 86400 Seconds","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:40:04 +0000","dateModified":"Fri, 17 Jul 2026 08:40:04 +0000","description":"Days in seconds is a classic bug when dealing with dates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Days Are Not 86400 Seconds.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Days Are Not 86400 Seconds
@@ -43,6 +43,6 @@ When dealing with days, it is recommended to use an interval, or use relative ex
 
 `Documentation <https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622>`__
 
-See also `A Day is Not 86400 Seconds! <https://medium.com/@dotcom.software/a-day-is-not-86400-seconds-51d95848b622>`_ and `Adding 86400 seconds to Oct. 25 1998 gives wrong answer <https://bugs.php.net/bug.php?id=741>`_.
+See also `Adding 86400 seconds to Oct. 25 1998 gives wrong answer <https://bugs.php.net/bug.php?id=741>`_.
 
 Related : :ref:`Days In Month <days-in-month>`, :ref:`DateTime <datetime>`

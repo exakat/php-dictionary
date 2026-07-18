@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_memory_limit.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_memory_limit.ini.html","name":"max_memory_limit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 20:09:02 +0000","dateModified":"Wed, 15 Jul 2026 20:09:02 +0000","description":"``max_memory_limit`` is not a PHP core directive: it designates the pattern, used by several frameworks and CMS, of defining an upper bound that a script is allowed to raise ``memory_limit`` to at runtime, on top of the regular, lower, day-to-day ``memory_limit``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_memory_limit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_memory_limit.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_memory_limit.ini.html","name":"max_memory_limit","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:42:56 +0000","dateModified":"Fri, 17 Jul 2026 08:42:56 +0000","description":"``max_memory_limit`` is not a PHP core directive: it designates the pattern, used by several frameworks and CMS, of defining an upper bound that a script is allowed to raise ``memory_limit`` to at runtime, on top of the regular, lower, day-to-day ``memory_limit``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/max_memory_limit.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 max_memory_limit
@@ -50,6 +50,6 @@ This two-tier approach avoids granting every request the same generous ceiling: 
 
 `Documentation <https://developer.wordpress.org/reference/functions/wp_raise_memory_limit/>`__
 
-See also `WordPress increase_memory_limit <https://developer.wordpress.org/reference/functions/wp_raise_memory_limit/>`_.
+See also `PHP 8.5: New max_memory_limit INI directive to set a ceiling memory_limit <https://php.watch/versions/8.5/max_memory_limit>`_.
 
 Related : :ref:`memory_limit <memory_limit>`, :ref:`php://memory <php-memory>`, :ref:`Vertical Scaling <vertical-scaling>`, :ref:`ini_set() <ini_set>`

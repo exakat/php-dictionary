@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/crack.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/crack.ini.html","name":"Crack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:53:27 +0000","dateModified":"Tue, 07 Jul 2026 07:53:27 +0000","description":"Cracking refers to breaking a security mechanism","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Crack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/crack.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/crack.ini.html","name":"Crack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:40:38 +0000","dateModified":"Fri, 17 Jul 2026 08:40:38 +0000","description":"Cracking refers to breaking a security mechanism","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Crack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Crack
@@ -59,6 +59,6 @@ Using weak algorithms such as MD5 or SHA-1 for passwords is a critical vulnerabi
 
 `Documentation <https://www.php.net/manual/en/function.password-hash.php>`__
 
-See also `password_hash - PHP Manual <https://www.php.net/manual/en/function.password-hash.php>`_ and `OWASP Password Storage Cheat Sheet <https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html>`_.
+See also `OWASP Password Storage Cheat Sheet <https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html>`_.
 
 Related : :ref:`Password <password>`, :ref:`Cryptographic Hash <hash-crypto>`, :ref:`Weak Cryptography <weak-cryptography>`, :ref:`Argon2 <argon2>`, :ref:`Message Digest Algorithm 5 (MD5) <md5>`, :ref:`Secure Hash Algorithm (SHA) <sha>`, :ref:`Timing Attack <timing-attack>`, :ref:`To Crypt <crypt>`, :ref:`To Decrypt <decrypt>`

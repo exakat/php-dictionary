@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_implements.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_implements.ini.html","name":"class_implements()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``class_implements()`` returns an array of all interfaces implemented by a given class, including interfaces implemented by its parent classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_implements().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_implements.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_implements.ini.html","name":"class_implements()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:18:04 +0000","dateModified":"Fri, 17 Jul 2026 09:18:04 +0000","description":"``class_implements()`` returns an array of all interfaces implemented by a given class, including interfaces implemented by its parent classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/class_implements().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 class_implements()
@@ -24,11 +24,11 @@ class_implements()
 
 ``class_implements()`` returns an array of all interfaces implemented by a given class, including interfaces implemented by its parent classes. The keys and values of the returned array are both the interface names.
 
-An optional second parameter (default ``true``) controls whether the autoloader should be invoked if the class does not yet exist. Pass ``false`` to suppress autoloading.
+An optional second parameter, by default ``true``, controls whether the autoloader should be invoked if the class does not yet exist. Pass ``false`` to suppress autoloading.
 
 ``class_implements()`` returns ``false`` if the class does not exist and autoloading is disabled.
 
-Related functions are ``class_parents()`` (returns parent classes) and ``class_uses()`` (returns traits used by the class).
+Related functions are ``class_parents()``, which returns parent classes, and ``class_uses()``, which returns traits used by the class.
 
 
 .. code-block:: php

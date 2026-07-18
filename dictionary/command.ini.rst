@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/command.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/command.ini.html","name":"Command","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/command.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/command.ini.html","name":"Command","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:07:28 +0000","dateModified":"Fri, 17 Jul 2026 09:07:28 +0000","description":"The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Command.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Command
@@ -39,36 +39,36 @@ Symfony Console and Laravel Artisan both build on this pattern for their CLI com
    
    <?php
    
-   interface Command {
-       public function execute(): void;
-   }
-   
-   class CreateUserCommand implements Command {
-       public function __construct(
-           private string $email,
-           private string $password,
-       ) {}
-   
-       public function execute(): void {
-           // Create user logic
-           echo "Creating user: {$this->email}" . PHP_EOL;
+       interface Command {
+           public function execute(): void;
        }
-   }
-   
-   class CommandBus {
-       public function dispatch(Command $command): void {
-           $command->execute();
+       
+       class CreateUserCommand implements Command {
+           public function __construct(
+               private string $email,
+               private string $password,
+           ) {}
+       
+           public function execute(): void {
+               // Create user logic
+               echo "Creating user: {$this->email}" . PHP_EOL;
+           }
        }
-   }
-   
-   $bus = new CommandBus();
-   $bus->dispatch(new CreateUserCommand('user@example.com', 'secret'));
+       
+       class CommandBus {
+           public function dispatch(Command $command): void {
+               $command->execute();
+           }
+       }
+       
+       $bus = new CommandBus();
+       $bus->dispatch(new CreateUserCommand('user@example.com', 'secret'));
    
    ?>
 
 
 `Documentation <https://refactoring.guru/design-patterns/command>`__
 
-See also `Command pattern - Refactoring Guru <https://refactoring.guru/design-patterns/command>`_ and `Command pattern - Wikipedia <https://en.wikipedia.org/wiki/Command_pattern>`_.
+See also `Command pattern - Wikipedia <https://en.wikipedia.org/wiki/Command_pattern>`_.
 
 Related : :ref:`Command Bus <command-bus>`, :ref:`Command Query Responsibility Segregation (CQRS) <cqrs>`, :ref:`Design Pattern <design-pattern>`, :ref:`Command Line Interface (CLI) <cli>`, :ref:`Expression <expression>`, :ref:`Instruction <instruction>`

@@ -182,7 +182,7 @@
 [Base Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/base-class.ini.html): A base class is a class that serves as the root of an inheritance hierarchy.
 [Base](https://php-dictionary.readthedocs.io/en/latest/dictionary/base.ini.html): The term ``base`` has two common meanings:
 [Base 64 Encoding](https://php-dictionary.readthedocs.io/en/latest/dictionary/base64.ini.html): Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format.
-[basename](https://php-dictionary.readthedocs.io/en/latest/dictionary/basename.ini.html): Basename is the name of a file, without the file's path, but including the extension.
+[basename()](https://php-dictionary.readthedocs.io/en/latest/dictionary/basename.ini.html): Basename is a PHP native function that returns the name of a file, extracted from a full path.
 [Batch](https://php-dictionary.readthedocs.io/en/latest/dictionary/batch.ini.html): Batch processing refers to the treatment of several items at the same time, instead of one at a time.
 [Bcmath](https://php-dictionary.readthedocs.io/en/latest/dictionary/bcmath.ini.html): For arbitrary precision mathematics PHP offers BCMath which supports numbers of any size and precision up to ``2147483647``, or ``0x7FFFFFFF`` decimal digits, if there is sufficient memory, represented as strings.
 [Benchmarking](https://php-dictionary.readthedocs.io/en/latest/dictionary/benchmarking.ini.html): Benchmarking is a process of measuring performances.
@@ -310,7 +310,7 @@
 [Collection](https://php-dictionary.readthedocs.io/en/latest/dictionary/collection.ini.html): A collection is an array in which only elements of the same type can be stored.
 [Collision](https://php-dictionary.readthedocs.io/en/latest/dictionary/collision.ini.html): A collision happens when two entities of the same type have two distinct definitions.
 [Colon](https://php-dictionary.readthedocs.io/en/latest/dictionary/colon.ini.html): Colons are used in a variety of situations:
-[Column Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/column-database.ini.html): A column database (or column-oriented / columnar database) stores data by column rather than by row.
+[Column Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/column-database.ini.html): A column database, or column-oriented, columnar database, stores data by column rather than by row.
 [Comma](https://php-dictionary.readthedocs.io/en/latest/dictionary/comma.ini.html): Commas are syntax elements, to separate elements when provided as a list.
 [Command Bus](https://php-dictionary.readthedocs.io/en/latest/dictionary/command-bus.ini.html): A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design (DDD) and CQRS (Command Query Responsibility Segregation).
 [Command](https://php-dictionary.readthedocs.io/en/latest/dictionary/command.ini.html): The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone.
@@ -486,7 +486,7 @@
 [Distributed State](https://php-dictionary.readthedocs.io/en/latest/dictionary/distributed-state.ini.html): Distributed state refers to application state that is scattered across multiple, loosely-connected locations rather than being owned by a single, well-defined component.
 [Distributed Systems](https://php-dictionary.readthedocs.io/en/latest/dictionary/distributed-systems.ini.html): A distributed system is a collection of independent computers that appear to their users as a single coherent system.
 [Distributed Tracing](https://php-dictionary.readthedocs.io/en/latest/dictionary/distributed-tracing.ini.html): Distributed tracing tracks a single request as it flows through multiple services in a distributed system.
-[Distributed Transactions](https://php-dictionary.readthedocs.io/en/latest/dictionary/distributed-transactions.ini.html): A distributed transaction is a transaction that spans multiple independent data stores or services, requiring all participants to agree on the outcome (all commit or all abort).
+[Distributed Transactions](https://php-dictionary.readthedocs.io/en/latest/dictionary/distributed-transactions.ini.html): A distributed transaction is a transaction that spans multiple independent data stores or services, requiring all participants to agree on the outcome:
 [Distributed](https://php-dictionary.readthedocs.io/en/latest/dictionary/distributed.ini.html): When something is distributed, it is spread across several autonomous instances, though it is reputed working as one.
 [Division](https://php-dictionary.readthedocs.io/en/latest/dictionary/division.ini.html): Division is the mathematical division.
 [DivisionByZeroError](https://php-dictionary.readthedocs.io/en/latest/dictionary/divisionbyzeroerror.ini.html): The ``DivisionByZeroError`` exception is thrown when an attempt is made to divide a number by zero.
@@ -1531,7 +1531,7 @@ STRING`` (Nowdoc syntax).
 [sqrt()](https://php-dictionary.readthedocs.io/en/latest/dictionary/sqrt.ini.html): ``sqrt()`` is a PHP native function, that computes the square root of a number.
 [Square Brackets](https://php-dictionary.readthedocs.io/en/latest/dictionary/square-bracket.ini.html): Square brackets ``[`` and ``]`` are used with the array syntax:
 [Single Responsability Principle (SRP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/srp.ini.html): Single Responsibility Principle is a coding principle where one component is responsible for one task, and nothing more.
-[Static Single Assignment Form (SSA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssa.ini.html): SSA stands for Static Single Assignment form.
+[Static Single Assignment Form (SSA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssa.ini.html): ``SSA`` stands for Static Single Assignment form.
 [sscanf()](https://php-dictionary.readthedocs.io/en/latest/dictionary/sscanf.ini.html): ``sscanf()`` is a built-in PHP function that parses input from a string according to a format string.
 [Server Sent Event (SSE)](https://php-dictionary.readthedocs.io/en/latest/dictionary/sse.ini.html): Server-Sent Events, or SSE, is a web technology that allows a server to push real-time updates to a client, often the web browser, over a single HTTP connection.
 [Secure Shell (SSH)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssh.ini.html): SSH, acronym of Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network.

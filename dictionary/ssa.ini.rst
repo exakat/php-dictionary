@@ -1,32 +1,32 @@
 .. _ssa:
 .. meta::
 	:description:
-		Static Single Assignment Form (SSA): SSA stands for Static Single Assignment form.
+		Static Single Assignment Form (SSA): ``SSA`` stands for Static Single Assignment form.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Static Single Assignment Form (SSA)
-	:twitter:description: Static Single Assignment Form (SSA): SSA stands for Static Single Assignment form
+	:twitter:description: Static Single Assignment Form (SSA): ``SSA`` stands for Static Single Assignment form
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Static Single Assignment Form (SSA)
 	:og:type: article
-	:og:description: SSA stands for Static Single Assignment form
+	:og:description: ``SSA`` stands for Static Single Assignment form
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/ssa.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ssa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ssa.ini.html","name":"Static Single Assignment Form (SSA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"SSA stands for Static Single Assignment form","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Single Assignment Form (SSA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ssa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ssa.ini.html","name":"Static Single Assignment Form (SSA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:17:09 +0000","dateModified":"Sat, 18 Jul 2026 05:17:09 +0000","description":"``SSA`` stands for Static Single Assignment form","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Static Single Assignment Form (SSA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Static Single Assignment Form (SSA)
 -----------------------------------
 
-SSA stands for Static Single Assignment form. It is a property of code where each variable is assigned exactly once, making it easier to analyze and optimize.
+``SSA`` stands for Static Single Assignment form. It is a property of code where each variable is assigned exactly once, making it easier to analyze and optimize.
 
 SSA is used in the PHP engine, and it helps with several aspects of the execution engine: 
 
-+ Performance: SSA enables more efficient code optimization, such as dead code elimination, constant propagation, and loop optimizations.
++ Performance: ``SSA`` enables more efficient code optimization, such as dead code elimination, constant propagation, and loop optimizations.
 + JIT Compilation: the PHP JIT compiler, introduced in version 8.0, benefits from SSA to generate faster machine code.
 
 

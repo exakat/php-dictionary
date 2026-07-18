@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/control-flow-analysis.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/control-flow-analysis.ini.html","name":"Control Flow Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:09:20 +0000","dateModified":"Fri, 03 Jul 2026 08:09:20 +0000","description":"Control flow analysis is a static analysis technique that examines the possible execution paths through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Control Flow Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/control-flow-analysis.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/control-flow-analysis.ini.html","name":"Control Flow Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:12:54 +0000","dateModified":"Sat, 18 Jul 2026 05:12:54 +0000","description":"Control flow analysis is a static analysis technique that examines the possible execution paths through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Control Flow Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Control Flow Analysis
@@ -53,7 +53,5 @@ Control flow analysis is a prerequisite for more advanced analyses such as data 
 
 
 `Documentation <https://en.wikipedia.org/wiki/Control_flow_analysis>`__
-
-See also `Control Flow Analysis — Wikipedia <https://en.wikipedia.org/wiki/Control_flow_analysis>`_.
 
 Related : :ref:`Control Flow <control-flow>`, :ref:`Control Flow Graph (CFG) <control-flow-graph>`, :ref:`Data Flow Analysis (DFA) <data-flow-analysis>`, :ref:`Analysis <analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`Dead Code <dead-code>`, :ref:`Taint Analysis <taint>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`

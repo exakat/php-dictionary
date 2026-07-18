@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty.ini.html","name":"Empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Empty is a language structure, which determines whether a variable is empty","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Empty.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty.ini.html","name":"Empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:13:18 +0000","dateModified":"Sat, 18 Jul 2026 05:13:18 +0000","description":"Empty is a language structure, which determines whether a variable is empty","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Empty.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Empty
@@ -24,7 +24,7 @@ Empty
 
 Empty is a language structure, which determines whether a variable is empty. 
 
-A variable is considered empty if it does not exist or if its value equals false. This may overlap with the usage of isset().
+A variable is considered empty if it does not exist or if its value equals false. This may overlap with the usage of ``isset()``.
 
 ``empty()`` has an error suppression feature, that masks various errors, such as undefined offset or undefined variables. Some other errors, like an invalid type as offset, are still reported.
 
@@ -32,12 +32,12 @@ A variable is considered empty if it does not exist or if its value equals false
    
    <?php
    
-   // True
-   var_dump(empty($a));
-   
-   $b = [];
-   // True
-   var_dump(empty($b));
+       // True
+       var_dump(empty($a));
+       
+       $b = [];
+       // True
+       var_dump(empty($b));
    
    ?>
 

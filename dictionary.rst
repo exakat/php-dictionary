@@ -234,7 +234,7 @@ PHP Dictionary
    * :ref:`Build <build>`
    * :ref:`Business Logic <business-logic>`
    * :ref:`Byte <byte>`
-   * :ref:`basename <basename>`
+   * :ref:`basename() <basename>`
    * :ref:`browscap <browscap>`
    * :ref:`bzip2 Extension <bzip2>`
 * C

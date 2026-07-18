@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xhprof.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xhprof.ini.html","name":"XHProf","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:38:43 +0000","dateModified":"Thu, 16 Jul 2026 04:38:43 +0000","description":"XHProf is a hierarchical, function-level profiler for PHP, originally developed at Facebook and later open-sourced","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XHProf.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xhprof.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xhprof.ini.html","name":"XHProf","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:36:42 +0000","dateModified":"Fri, 17 Jul 2026 08:36:42 +0000","description":"XHProf is a hierarchical, function-level profiler for PHP, originally developed at Facebook and later open-sourced","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XHProf.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 XHProf
@@ -49,6 +49,6 @@ Modern forks and alternatives, such as Tideways' extension or the ``excimer`` sa
 
 `Documentation <https://www.php.net/manual/en/book.xhprof.php>`__
 
-See also `XHprof (PHP manual) <https://www.php.net/manual/en/book.xhprof.php>`_ and `XHProf on GitHub <https://github.com/longxinH/xhprof>`_.
+See also `XHProf on GitHub <https://github.com/longxinH/xhprof>`_.
 
 Related : :ref:`Profiling <profiling>`, :ref:`PHP Profiler <profiler>`, :ref:`Xdebug <xdebug>`, :ref:`Blackfire <blackfire>`, :ref:`Tideways <tideways>`, :ref:`Flame Graph <flamegraph>`, :ref:`Bottleneck <bottleneck>`, :ref:`Micro-optimisation <micro-optimisation>`

@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/data-flow-analysis.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/data-flow-analysis.ini.html","name":"Data Flow Analysis (DFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:55:24 +0000","dateModified":"Tue, 07 Jul 2026 07:55:24 +0000","description":"Data flow analysis is a static analysis technique that tracks how data values move through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Data Flow Analysis (DFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/data-flow-analysis.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/data-flow-analysis.ini.html","name":"Data Flow Analysis (DFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:16:59 +0000","dateModified":"Fri, 17 Jul 2026 09:16:59 +0000","description":"Data flow analysis is a static analysis technique that tracks how data values move through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Data Flow Analysis (DFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Data Flow Analysis (DFA)
@@ -55,6 +55,6 @@ Data flow analysis requires a control flow graph. It is foundational for securit
 
 `Documentation <https://en.wikipedia.org/wiki/Data-flow_analysis>`__
 
-See also `Data-flow analysis — Wikipedia <https://en.wikipedia.org/wiki/Data-flow_analysis>`_.
+See also `Yama: Precise Opcode-based Data Flow Analysis for Detecting PHP Applications Vulnerabilities <https://github.com/xjzzzxx/Yama>`_.
 
 Related : :ref:`Control Flow Analysis <control-flow-analysis>`, :ref:`Control Flow Graph (CFG) <control-flow-graph>`, :ref:`Taint Analysis <taint>`, :ref:`Analysis <analysis>`, :ref:`Static Application Security Testing (SAST) <sast>`, :ref:`SQL Injection <sql-injection>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`Lexical Analysis <lexical-analysis>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Symbolic Analysis <symbolic-analysis>`, :ref:`Pattern-Based Analysis <pattern-based-analysis>`

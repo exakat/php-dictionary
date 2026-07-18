@@ -30,4 +30,4 @@ In the path ``/var/www/index.php``, the dirname is ``/var/www``.
 
 `Documentation <https://www.php.net/manual/en/function.dirname.php>`__
 
-Related : :ref:`Path <path>`, :ref:`Dir <dir>`, :ref:`basename <basename>`
+Related : :ref:`Path <path>`, :ref:`Dir <dir>`, :ref:`basename() <basename>`
