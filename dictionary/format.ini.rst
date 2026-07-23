@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/format.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/format.ini.html","name":"Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:31 +0000","dateModified":"Fri, 19 Jun 2026 21:25:31 +0000","description":"Format is a set of rules to structure a piece of text, and make it parsable by a specific engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/format.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/format.ini.html","name":"Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:33:01 +0000","dateModified":"Mon, 20 Jul 2026 08:33:01 +0000","description":"Format is a set of rules to structure a piece of text, and make it parsable by a specific engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Format
@@ -27,23 +27,23 @@ Format is a set of rules to structure a piece of text, and make it parsable by a
 Formats have various shapes. Here are some examples of formats: 
 
 + ``SQL`` Structure Query Language: ``SELECT column FROM table`` 
-+ Date and time (human): ``2020-01-01`` 
-+ sprintf(): ``%d 9`` 
++ Date and time: ``2020-01-01`` 
++ ``sprintf()``, with ``%d 9`` 
 + Regular expressions
 + ``YAML``
 + ``INI``
 + ``CSV``
 + ``JSON``
 
-It is possible to define one's custom format. Common formats have a comprehensive specifications (how to build them) and assorted tools (encode, decode, use, combine, etc. ).
+It is possible to define one's custom format. Common formats have a comprehensive specifications, such as how to build them, and assorted tools, to encode, decode, use, combine, etc. 
 
 .. code-block:: php
    
    <?php
    
-   // displays 123 with 9 characters, and fills with dots any empty characters
-   // ......123
-   echo sprintf("%'.9d\n", 123);
+       // displays 123 with 9 characters, and fills with dots any empty characters
+       // ......123
+       echo sprintf("%'.9d\n", 123);
    
    ?>
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/star.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/star.ini.html","name":"Star *","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:23:59 +0000","dateModified":"Fri, 19 Jun 2026 21:23:59 +0000","description":"``*`` is a character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Star *.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/star.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/star.ini.html","name":"Star *","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 16:54:36 +0000","dateModified":"Mon, 20 Jul 2026 16:54:36 +0000","description":"``*`` is a character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Star *.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Star *
@@ -24,29 +24,29 @@ Star *
 
 ``*`` is a character, used in various situations: 
 
-+ multiplication: ``3 * 2 == 6``
-+ power: ``3 ** 2 == 3 * 3 == 9``
-+ with slash, ``/*`` is a multi line comment: ``/* */``
-+ with double star and a slash, ``/**`` is a phpdoc comment: ``/** */``.
-+ as a wildcard in ``glob()`` calls
-+ as a wildcard in ``fnmatch()`` calls
-+ as a wildcard for all columns in SQL queries: ``SELECT * FROM table``
-+ as a quantifier in regex: 0 or more, i.e. ``/a*/``
-+ as part of a multiline comment with ``/** */`` and ``/* */``.
++ Multiplication: ``3 * 2 == 6``
++ Power: ``3 ** 2 == 3 * 3 == 9``
++ With slash, ``/*`` is a multi line comment: ``/* */``
++ With double star and a slash, ``/**`` is a phpdoc comment: ``/** */``.
++ As a wildcard in ``glob()`` calls
++ As a wildcard in ``fnmatch()`` calls
++ As a wildcard for all columns in SQL queries: ``SELECT * FROM table``
++ As a quantifier in regex: 0 or more, i.e. ``/a*/``
++ As part of a multiline comment with ``/** */`` and ``/* */``.
 
 
 .. code-block:: php
    
    <?php
    
-   file_get_contents('/tmp/test.txt');
-   
-   echo 2 * 3; // 6 
-   echo 2 ** 3; // * 
-   
-   /*
-    A multiline comment
-   */
+       file_get_contents('/tmp/test.txt');
+       
+       echo 2 * 3; // 6 
+       echo 2 ** 3; // * 
+       
+       /*
+        A multiline comment
+       */
    
    ?>
 

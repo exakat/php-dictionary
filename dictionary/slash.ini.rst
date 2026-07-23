@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/slash.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/slash.ini.html","name":"Slash \/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:23:52 +0000","dateModified":"Fri, 19 Jun 2026 21:23:52 +0000","description":"``\/`` is character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Slash \/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/slash.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/slash.ini.html","name":"Slash \/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 17:03:08 +0000","dateModified":"Mon, 20 Jul 2026 17:03:08 +0000","description":"``\/`` is character, used in various situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Slash \/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Slash /
@@ -24,7 +24,7 @@ Slash /
 
 ``/`` is character, used in various situations: 
 
-+ decimal division: ``3 / 2``
++ Decimal division: ``3 / 2``
 + Path separator: ``/user/php/document.txt``
 + Regex delimiter: ``/[abc]/i``, very frequent but not the only one
 + Regex escape char: ``/a\.b/i``

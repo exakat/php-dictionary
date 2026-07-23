@@ -53,4 +53,4 @@ The previous exception is available with the ``Exception::getPrevious()`` method
 
 See also `Best practices for PHP exception handling <https://moxio.com/blog/best-practices-for-php-exception-handling/>`_.
 
-Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`, :ref:`Chaining (disambiguation) <chaining>`
+Related : :ref:`throw <throw>`, :ref:`Try-catch <try-catch>`, :ref:`Exception <exception>`, :ref:`Chaining <chaining>`

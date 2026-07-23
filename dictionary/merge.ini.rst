@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/merge.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/merge.ini.html","name":"Merge","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:17 +0000","dateModified":"Fri, 19 Jun 2026 21:25:17 +0000","description":"To merge is the action of combining two things into one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/merge.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/merge.ini.html","name":"Merge","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 17:03:43 +0000","dateModified":"Mon, 20 Jul 2026 17:03:43 +0000","description":"To merge is the action of combining two things into one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Merge.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Merge
@@ -24,8 +24,8 @@ Merge
 
 To merge is the action of combining two things into one. There are usually two meaning associated with PHP code: 
 
-+ merging arrays, with the eponymous function ``array_merge()``, or the ``+`` operator
-+ code merge, using a VCS, such as git, svn, etc.
++ Merging arrays, with the eponymous function ``array_merge()``, or the ``+`` operator
++ Code merge, using a VCS, such as git, svn, etc.
 
 .. code-block:: php
    

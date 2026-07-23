@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/iteratoraggregate.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/iteratoraggregate.ini.html","name":"IteratorAggregate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:08:02 +0000","dateModified":"Sun, 12 Jul 2026 20:08:02 +0000","description":"``IteratorAggregate`` is an interface to create a custom iterator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/IteratorAggregate.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/iteratoraggregate.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/iteratoraggregate.ini.html","name":"IteratorAggregate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 16:43:40 +0000","dateModified":"Mon, 20 Jul 2026 16:43:40 +0000","description":"``IteratorAggregate`` is an interface to create a custom iterator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/IteratorAggregate.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 IteratorAggregate
@@ -72,5 +72,7 @@ It also suggest that several iterators may be merged in one, by creating a class
 
 
 `Documentation <https://www.php.net/manual/en/class.iteratoraggregate.php>`__
+
+See also `SPL: Using the iteratorAggregate interface <https://adayinthelifeof.nl/2011/12/04/spl-using-the-iteratoraggregate-interface/>`_.
 
 Related : :ref:`Interface <interface>`, :ref:`Iterator <iterator>`, :ref:`Traversable <traversable>`, :ref:`foreach() <foreach>`, :ref:`Standard PHP Library (SPL) <spl>`, :ref:`OuterIterator <outeriterator>`, :ref:`PHP Native Interfaces <php-interface>`

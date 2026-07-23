@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/named-constructor.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/named-constructor.ini.html","name":"Named Constructors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:35:45 +0000","dateModified":"Thu, 09 Jul 2026 08:35:45 +0000","description":"Named constructor is a class organisation, where several static factories are created to instantiate the object, based on arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Named Constructors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/named-constructor.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/named-constructor.ini.html","name":"Named Constructors","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:31:16 +0000","dateModified":"Thu, 23 Jul 2026 13:31:16 +0000","description":"Named constructor is a class organisation, where several static factories are created to instantiate the object, based on arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Named Constructors.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Named Constructors
@@ -53,6 +53,8 @@ As ``Matthias Verraes`` puts it: ``Don't limit yourself by PHP's single construc
    ?>
 
 
-See also `Named Constructors in PHP <https://verraes.net/2014/06/named-constructors-in-php/>`_, `Naming constructors in PHP <https://localheinz.com/articles/2022/03/26/naming-constructors-in-php/>`_, `How to mimic multiple constructors in PHP ? <https://www.geeksforgeeks.org/php/how-to-mimic-multiple-constructors-in-php/>`_ and `Multiple constructors in PHP <https://www.amitmerchant.com/multiple-constructors-php/>`_.
+`Documentation <https://localheinz.com/articles/2022/03/26/naming-constructors-in-php/>`__
+
+See also `Named Constructors in PHP <https://verraes.net/2014/06/named-constructors-in-php/>`_, `How to mimic multiple constructors in PHP ? <https://www.geeksforgeeks.org/php/how-to-mimic-multiple-constructors-in-php/>`_ and `Multiple constructors in PHP <https://www.amitmerchant.com/multiple-constructors-php/>`_.
 
 Related : :ref:`Static Method <static-method>`, :ref:`Constructor <constructor>`

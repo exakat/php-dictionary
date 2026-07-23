@@ -333,6 +333,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Event Streaming <event-streaming>`
 + :ref:`Eventual Consistency <eventual-consistency>`
 + :ref:`Execution <execution>`
++ :ref:`Execution Path <execution-path>`
 + :ref:`Existence <existence>`
 + :ref:`Existential Type <existential-type>`
 + :ref:`Explanation <explanation>`
@@ -387,6 +388,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Instruction <instruction>`
 + :ref:`Internet <internet>`
 + :ref:`Internet of Things (IoT) <iot>`
++ :ref:`Interpreted <interpreted>`
 + :ref:`Introspection <introspection>`
 + :ref:`Jobqueue <jobqueue>`
 + :ref:`Jump <jump>`
@@ -403,6 +405,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Liskov Substitution Principle (LSP) <liskov>`
 + :ref:`List Comprehension <list-comprehension>`
 + :ref:`Literal <literal>`
++ :ref:`Lock <lock>`
 + :ref:`Look-up <look-up>`
 + :ref:`Loops <loop>`
 + :ref:`Machine Learning <machine-learning>`
@@ -1067,7 +1070,7 @@ List of concepts that cover several fields, and usually require extra details to
 + :ref:`Bracket <bracket>`
 + :ref:`Canary <canary>`
 + :ref:`Case <case>`
-+ :ref:`Chaining (disambiguation) <chaining>`
++ :ref:`Chaining <chaining>`
 + :ref:`Commit <commit>`
 + :ref:`Container <container>`
 + :ref:`Coverage <coverage>`

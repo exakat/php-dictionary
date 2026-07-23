@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtr.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtr.ini.html","name":"strtr()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 13:44:12 +0000","dateModified":"Thu, 16 Jul 2026 13:44:12 +0000","description":"``strtr()`` is a PHP native function that translates characters or replaces substrings in a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtr().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtr.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtr.ini.html","name":"strtr()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 16:48:52 +0000","dateModified":"Mon, 20 Jul 2026 16:48:52 +0000","description":"``strtr()`` is a PHP native function that translates characters or replaces substrings in a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/strtr().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 strtr()
@@ -48,5 +48,7 @@ With two arguments, ``strtr($string, $replace_pairs)``, it takes an array mappin
 
 
 `Documentation <https://www.php.net/manual/en/function.strtr.php>`__
+
+See also `A Practical Guide to PHP's strtr() Function <https://reintech.io/blog/a-practical-guide-to-phps-strtr-function>`_.
 
 Related : :ref:`str_replace() <str_replace>`, :ref:`String <string>`, :ref:`strpos <strpos>`

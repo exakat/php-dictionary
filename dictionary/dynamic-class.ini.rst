@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/dynamic-class.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/dynamic-class.ini.html","name":"Dynamic Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:47 +0000","dateModified":"Fri, 19 Jun 2026 21:24:47 +0000","description":"A dynamic class is a class whose fully qualified name is defined at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/dynamic-class.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/dynamic-class.ini.html","name":"Dynamic Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:46:53 +0000","dateModified":"Thu, 23 Jul 2026 13:46:53 +0000","description":"A dynamic class is a class whose fully qualified name is defined at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Dynamic Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Dynamic Class
@@ -40,18 +40,20 @@ It is also possible to use an object of the same class for all these calls.
    
    <?php
    
-   class AB {}
-   
-   class AC {}
-   
-   $name = '\A'.(rand(0, 1) ? 'B' : 'C');
-   
-   $object = new $name;    // creates a class of AB or AC
-   $object2 = new $object; // creates another object of AB or AC, same as $object
+       class AB {}
+       
+       class AC {}
+       
+       $name = '\A'.(rand(0, 1) ? 'B' : 'C');
+       
+       $object = new $name;    // creates a class of AB or AC
+       $object2 = new $object; // creates another object of AB or AC, same as $object
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.oop5.basic.php>`__
+
+See also `How to Dynamically Generate Classes at Runtime in PHP: A Guide to Using __autoload and Avoiding eval() Issues <https://www.codestudy.net/blog/dynamically-generate-classes-at-runtime-in-php/#google_vignette>`_.
 
 Related : :ref:`new <new>`, :ref:`Static Call <static-call>`, :ref:`Late Static Binding <late-binding>`, :ref:`Early Binding <early-binding>`

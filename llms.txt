@@ -252,8 +252,8 @@
 [Common Gateway Interface (CGI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/cgi.ini.html): CGI stands for Common Gateway Interface.
 [Chaining Assignation](https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining-assignation.ini.html): Chaining assignation is the ability to assign the same value to several variables in a single expression, using successive ``=`` operators.
 [Chaining New Without Parenthesis](https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining-new-without-parenthesis.ini.html): Since PHP 8.
-[Chaining (disambiguation)](https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining.ini.html): The word ``chaining`` appears in several distinct PHP concepts:
-[Change Data Capture](https://php-dictionary.readthedocs.io/en/latest/dictionary/change-data-capture.ini.html): Change Data Capture (CDC) is a pattern that tracks and records row-level changes in a database, such as inserts, updates, and deletes, and makes them available to other systems in near real-time.
+[Chaining](https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining.ini.html): The word ``chaining`` appears in several distinct PHP concepts:
+[Change Data Capture](https://php-dictionary.readthedocs.io/en/latest/dictionary/change-data-capture.ini.html): Change Data Capture, or CDC, is a pattern that tracks and records row-level changes in a database, such as inserts, updates, and deletes, and makes them available to other systems in near real-time.
 [Channel](https://php-dictionary.readthedocs.io/en/latest/dictionary/channel.ini.html): A channel is a typed, synchronized queue used to pass values between concurrent tasks, popularized by Go's ``chan`` and modeled on Communicating Sequential Processes, CSP:
 [Character](https://php-dictionary.readthedocs.io/en/latest/dictionary/character.ini.html): A character is a unit of information, that represents represents letters, punctuation signs, ideogram, etc.
 [Checksum](https://php-dictionary.readthedocs.io/en/latest/dictionary/checksum.ini.html): A checksum is a small, fixed-size value derived from a longer piece of data, used to detect errors or verify integrity.
@@ -265,7 +265,7 @@
 [Class Aliases](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-alias.ini.html): It is possible to make an alias of a class and call it with this new name.
 [Class Constant Syntax](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant-syntax.ini.html): The class constant syntax is the full name of a class constant, formalized in a string.
 [Class Constants Visibility](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant-visibility.ini.html): Class constant may have a visibility option.
-[Static Constant](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html): Static constants are constants that are defined inside a class, interface, trait (since PHP 8.
+[Static Constant](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html): Static constants are constants that are defined inside a class, interface, trait since PHP 8.
 [Class Entities](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-entity.ini.html): An entity represents a single object, with a unique identifier and a set of properties.
 [Class Hierarchy](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-hierarchy.ini.html): The class hierarchy is a list of classes, which are extending one from another.
 [Class Hoisting](https://php-dictionary.readthedocs.io/en/latest/dictionary/class-hoisting.ini.html): Class hoisting is a compilation mode where the declaration of functions, classes.
@@ -312,7 +312,7 @@
 [Colon](https://php-dictionary.readthedocs.io/en/latest/dictionary/colon.ini.html): Colons are used in a variety of situations:
 [Column Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/column-database.ini.html): A column database, or column-oriented, columnar database, stores data by column rather than by row.
 [Comma](https://php-dictionary.readthedocs.io/en/latest/dictionary/comma.ini.html): Commas are syntax elements, to separate elements when provided as a list.
-[Command Bus](https://php-dictionary.readthedocs.io/en/latest/dictionary/command-bus.ini.html): A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design (DDD) and CQRS (Command Query Responsibility Segregation).
+[Command Bus](https://php-dictionary.readthedocs.io/en/latest/dictionary/command-bus.ini.html): A command bus is a design pattern used in software development, particularly in the context of Domain-Driven Design, DDD, and CQRS, Command Query Responsibility Segregation.
 [Command](https://php-dictionary.readthedocs.io/en/latest/dictionary/command.ini.html): The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone.
 [Comments](https://php-dictionary.readthedocs.io/en/latest/dictionary/comment.ini.html): PHP comments are used to add explanatory notes or annotations within the code.
 [Commit](https://php-dictionary.readthedocs.io/en/latest/dictionary/commit.ini.html): A commit is a validation of changes.
@@ -872,7 +872,7 @@ STRING`` (Nowdoc syntax).
 [JavaScript Object Notation (JSON)](https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html): JSON, or JavaScript Object Notation, is a lightweight data-interchange format.
 [json_decode()](https://php-dictionary.readthedocs.io/en/latest/dictionary/json_decode.ini.html): ``json_decode()`` decodes a JSON string into a data structure.
 [json_encode()](https://php-dictionary.readthedocs.io/en/latest/dictionary/json_encode.ini.html): ``json_encode()`` encodes a data structure into a JSON string.
-[JSON Lines (JSONC)](https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonc.ini.html): JSONC (JSON with Comments) is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.
+[JSON Lines (JSONC)](https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonc.ini.html): JSONC, aka SON with Comments, is a superset of JSON that extends its functionality by allowing single-line ``//`` and multi-line ``/* */`` comments.
 [JsonException](https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html): Exception thrown if ``JSON_THROW_ON_ERROR`` option is set for ``json_encode()`` or ``json_decode()``.
 [JSON Lines (JSONL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonl.ini.html): JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters.
 [JsonSerializable](https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonserializable.ini.html): The ``JsonSerializable`` interface is used to customize how an object is serialized into JSON using ``json_encode()``.
@@ -896,7 +896,7 @@ STRING`` (Nowdoc syntax).
 [Lazy Objects](https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-objects.ini.html): Lazy objects is a application of lazy-loading, directly available in the PHP engine, and available as an engine feature since PHP 8.
 [LDAP Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/ldap-injection.ini.html): LDAP injection is a security vulnerability that occurs when untrusted user input is incorporated into an LDAP query without proper sanitisation or escaping.
 [Lightweight Directory Access Protocol (LDAP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ldap.ini.html): LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol, IP network.
-[Leading Numeric String](https://php-dictionary.readthedocs.io/en/latest/dictionary/leading-numeric-string.ini.html): A leading numeric string is subset of numeric string, where the first characters are numbers (or the occasional + or -), and the rest of the string is non digits.
+[Leading Numeric String](https://php-dictionary.readthedocs.io/en/latest/dictionary/leading-numeric-string.ini.html): A leading numeric string is subset of numeric string, where the first characters are numbers, or the occasional ``+`` or ``-``, and the rest of the string is non digits.
 [Leading Zero Means Octal](https://php-dictionary.readthedocs.io/en/latest/dictionary/leading-zero-means-octal.ini.html): PHP integer syntax has some special formats for binary, octal and hexadecimal formats.
 [Leak](https://php-dictionary.readthedocs.io/en/latest/dictionary/leak.ini.html): A leak generally refers to a situation where resources are not properly released after they should have been.
 [Legacy](https://php-dictionary.readthedocs.io/en/latest/dictionary/legacy.ini.html): Legacy code refers to existing code written under older practices, PHP versions, or conventions that are no longer considered current.
@@ -928,7 +928,7 @@ STRING`` (Nowdoc syntax).
 [Local Variable](https://php-dictionary.readthedocs.io/en/latest/dictionary/local-variable.ini.html): A local variable is a variable in a method or a function.
 [Local Scope](https://php-dictionary.readthedocs.io/en/latest/dictionary/local.ini.html): The local scope is the scope inside a function or method.
 [Locale](https://php-dictionary.readthedocs.io/en/latest/dictionary/locale.ini.html): Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time.
-[Lock](https://php-dictionary.readthedocs.io/en/latest/dictionary/lock.ini.html): A lock is a mechanism used to control access to a shared resource so that only one process (or script) can use it at a time.
+[Lock](https://php-dictionary.readthedocs.io/en/latest/dictionary/lock.ini.html): A lock is a mechanism used to control access to a shared resource so that only one process can use it at a time.
 [Log File](https://php-dictionary.readthedocs.io/en/latest/dictionary/log-file.ini.html): Log is a list of event that happen during execution of a piece of software.
 [Log](https://php-dictionary.readthedocs.io/en/latest/dictionary/log.ini.html): Log has several meanings:
 [Logarithm](https://php-dictionary.readthedocs.io/en/latest/dictionary/logarithm.ini.html): The logarithm is a family of mathematical functions, where ``log($a * $b) == log($a) + log($b)``.
@@ -987,7 +987,7 @@ STRING`` (Nowdoc syntax).
 [Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html): Methods are functions, dedicated to a class.
 [Methodcall](https://php-dictionary.readthedocs.io/en/latest/dictionary/methodcall.ini.html): A method call is the actual usage of a method.
 [Metrics](https://php-dictionary.readthedocs.io/en/latest/dictionary/metrics.ini.html): Metrics refer to quantitative measurements used to evaluate the performance, quality, and behavior of the code.
-[Multi-Factor Authentication (MFA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/mfa.ini.html): Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted.
+[Multi-Factor Authentication (MFA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/mfa.ini.html): Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted.
 [Micro-optimisation](https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html): A micro-optimisation is a piece of code that performs better than another, yet brings only a small gain of performance.
 [Micro-second](https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-second.ini.html): Micro-seconds are one thousandth of a second.
 [Micro-framework](https://php-dictionary.readthedocs.io/en/latest/dictionary/microframework.ini.html): Small, minimal framework that provide only the core essentials for routing and handling HTTP requests, without large stacks or heavy dependencies.
@@ -1018,7 +1018,7 @@ STRING`` (Nowdoc syntax).
 [Multi-byte](https://php-dictionary.readthedocs.io/en/latest/dictionary/multi-byte.ini.html): Multi-byte refers to string encoding where characters are coded over several bytes, rather than just one.
 [Multi-pass Algorithm](https://php-dictionary.readthedocs.io/en/latest/dictionary/multi-pass-algorithm.ini.html): A multi-pass algorithm processes its input more than once, each pass building on information gathered, or output produced, by the previous one, instead of trying to solve the whole problem while reading the data only a single time, as a one-pass, or single-pass, algorithm would.
 [Multidimensional Array](https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html): An array inside an array is called a multidimensional array.
-[Multiple Dispatch](https://php-dictionary.readthedocs.io/en/latest/dictionary/multiple-dispatch.ini.html): Multiple dispatch, as found in Common Lisp (CLOS), Julia, and Dylan, selects which implementation of a function to run based on the runtime types of all of its arguments, not just the first one, the way ordinary object-oriented method calls do.
+[Multiple Dispatch](https://php-dictionary.readthedocs.io/en/latest/dictionary/multiple-dispatch.ini.html): Multiple dispatch, as found in Common Lisp, Julia, and Dylan, selects which implementation of a function to run based on the runtime types of all of its arguments, not just the first one, the way ordinary object-oriented method calls do.
 [Multiple Return Values](https://php-dictionary.readthedocs.io/en/latest/dictionary/multiple-return-value.ini.html): Some languages, such as Go and Lua, let a function return several values directly, separated by commas, without wrapping them in a container:
 [Multiplication](https://php-dictionary.readthedocs.io/en/latest/dictionary/multiplication.ini.html): Multiplication is the mathematical multiplication.
 [Multithreading](https://php-dictionary.readthedocs.io/en/latest/dictionary/multithreading.ini.html): Multithreading refers to the ability of a PHP application to execute multiple threads, smaller units of a process, within the same process, allowing for concurrent execution of code.

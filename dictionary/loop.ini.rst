@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/loop.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/loop.ini.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/loop.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/loop.ini.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:42:45 +0000","dateModified":"Thu, 23 Jul 2026 13:42:45 +0000","description":"A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Loops
@@ -24,7 +24,7 @@ Loops
 
 A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition. Loops are essential for automating repetitive tasks and processing arrays or collections of data. PHP provides several types of loops, including: for, while, do...while and foreach.
 
-The most popular loop is foreach().
+The most popular loop is ``foreach()``.
 
 Loops may hide in certain functions: for example, ``array_map()`` and ``array_walk()`` apply a method to every element in an array. 
 
@@ -34,23 +34,23 @@ Generators are closely related to the ``foreach()`` loop.
    
    <?php
    
-   foreach([11,12,13] as $id => $value) {
-       print "$id => $value\n";
-   }
-   
-   for ($i = 1; $i <= 10; $i++) {
-       echo $i;
-   }
-   
-   $i = 10;
-   while ($i <= 10) {
-       echo $i++;  
-   }
-   
-   $i = 10;
-   do {
-       echo $i++;  
-   } while ($i <= 10);
+       foreach([11,12,13] as $id => $value) {
+           print "$id => $value\n";
+       }
+       
+       for ($i = 1; $i <= 10; $i++) {
+           echo $i;
+       }
+       
+       $i = 10;
+       while ($i <= 10) {
+           echo $i++;  
+       }
+       
+       $i = 10;
+       do {
+           echo $i++;  
+       } while ($i <= 10);
    
    ?>
 

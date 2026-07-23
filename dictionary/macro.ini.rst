@@ -17,17 +17,17 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/macro.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/macro.ini.html","name":"Macro","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:10:56 +0000","dateModified":"Tue, 07 Jul 2026 05:10:56 +0000","description":"A macro is a rule or pattern that maps a source text or syntax fragment to a replacement, which is then substituted before or during compilation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Macro.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/macro.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/macro.ini.html","name":"Macro","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:44:16 +0000","dateModified":"Thu, 23 Jul 2026 13:44:16 +0000","description":"A macro is a rule or pattern that maps a source text or syntax fragment to a replacement, which is then substituted before or during compilation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Macro.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Macro
 -----
 
-A macro is a rule or pattern that maps a source text or syntax fragment to a replacement, which is then substituted before or during compilation. Macros operate at the level of source text (C preprocessor), tokens (Rust ``macro_rules!``), or AST nodes (Lisp, Elixir), and allow programmers to extend the syntax of a language or eliminate repetitive code without the overhead of a function call.
+A macro is a rule or pattern that maps a source text or syntax fragment to a replacement, which is then substituted before or during compilation. Macros operate at the level of source text, for example the C preprocessor, tokens, for example Rust ``macro_rules!``, or AST nodes, asin Lisp and Elixir, and allow programmers to extend the syntax of a language or eliminate repetitive code without the overhead of a function call.
 
 Two main families of macros exist:
 
-+ Textual macros (non-hygienic): the C preprocessor ``#define`` replaces a name with a literal text fragment. Variable names inside the macro can accidentally shadow names in the calling scope, leading to subtle bugs.
++ Textual macros non-hygienic: the C preprocessor ``#define`` replaces a name with a literal text fragment. Variable names inside the macro can accidentally shadow names in the calling scope, leading to subtle bugs.
 + Hygienic macros: as in Scheme's ``syntax-rules``, Rust's ``macro_rules!``, and Elixir's ``defmacro``, each identifier introduced by the macro is automatically renamed to prevent accidental capture of caller variables.
 
 PHP has no native macro system. PHP source code is parsed and executed directly by the Zend Engine; there is no macro-expansion phase. The mechanisms that approximate macros are:
@@ -35,7 +35,7 @@ PHP has no native macro system. PHP source code is parsed and executed directly 
 + ``eval()``: executes a PHP string at runtime, but provides no hygiene and operates after parsing.
 + Token-level preprocessors such as ``yay`` run before the PHP parser and perform textual or token-level substitutions, but offer no hygiene guarantees.
 + ``nikic/php-parser`` allows full AST rewriting via a visitor pattern, enabling macro-like transformations with explicit, manually implemented scope tracking.
-+ Compile-time constants (``const``) and class constants serve a narrow, value-substitution role similar to object-like C macros, but without the generality of function-like macros.
++ Compile-time constants ``const`` and class constants serve a narrow, value-substitution role similar to object-like C macros, but without the generality of function-like macros.
 
 See also hygienic macro for the hygiene-specific aspects of macro systems.
 

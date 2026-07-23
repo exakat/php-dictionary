@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/closure-binding.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/closure-binding.ini.html","name":"Closure Binding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:34:43 +0000","dateModified":"Sun, 28 Jun 2026 10:34:43 +0000","description":"A closure acquires values from its context of creation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Closure Binding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/closure-binding.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/closure-binding.ini.html","name":"Closure Binding","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:23:40 +0000","dateModified":"Mon, 20 Jul 2026 08:23:40 +0000","description":"A closure acquires values from its context of creation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Closure Binding.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Closure Binding
@@ -24,7 +24,7 @@ Closure Binding
 
 A closure acquires values from its context of creation. When the closure is created in a different context than wished, one may rebind the closure to another context.
 
-This is done with the two methods Closure::bind() and Closure::bindTo().
+This is done with the two methods ``Closure::bind()`` and ``Closure::bindTo()``.
 
 .. code-block:: php
    

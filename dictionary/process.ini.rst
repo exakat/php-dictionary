@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/process.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/process.ini.html","name":"Process","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:37:18 +0000","dateModified":"Mon, 29 Jun 2026 09:37:18 +0000","description":"A process is an instance of a running program managed by the operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Process.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/process.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/process.ini.html","name":"Process","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 17:02:24 +0000","dateModified":"Mon, 20 Jul 2026 17:02:24 +0000","description":"A process is an instance of a running program managed by the operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Process.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Process
 -------
 
-A process is an instance of a running program managed by the operating system. A process is executed by the web server, the operating system directly, or a worker (such as in a job queue).
+A process is an instance of a running program managed by the operating system. A process is executed by the web server, the operating system directly, or a worker, such as in a job queue.
 
 A process has its own memory space, process identifier, and share nothing with other processes. It requires interprocess communications channels, such as files or sockets.
 

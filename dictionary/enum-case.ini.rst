@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/enum-case.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/enum-case.ini.html","name":"Enumeration Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An Enumeration may have zero or more case definitions, with no maximum","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Enumeration Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/enum-case.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/enum-case.ini.html","name":"Enumeration Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:58:54 +0000","dateModified":"Thu, 23 Jul 2026 13:58:54 +0000","description":"An Enumeration may have zero or more case definitions, with no maximum","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Enumeration Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Enumeration Case
@@ -32,27 +32,27 @@ Enumeration cases must be distinct: this is enforced by the engine with the unit
    
    <?php
    
-   enum Suit
-   {
-       case Hearts;
-       case Diamonds;
-       case Clubs;
-       case Spades;
-   }
-   
-   enum DayOfTheWeek: int
-   {
-       case Monday = 1;
-       case Tuesday = 2;
-       case Wednesday = 3;
-       case Thursday = 4;
-       case Friday = 4;    // This is an error, that lints but won't execute
-       case Saturday = 6;
-       case Sunday = 7;
+       enum Suit
+       {
+           case Hearts;
+           case Diamonds;
+           case Clubs;
+           case Spades;
+       }
        
-       const string MONDAY = 'monday'; // constant MUST have distinct names from other constants and cases. 
-                                       // names are case sensitive, so this one is valid.
-   }
+       enum DayOfTheWeek: int
+       {
+           case Monday = 1;
+           case Tuesday = 2;
+           case Wednesday = 3;
+           case Thursday = 4;
+           case Friday = 4;    // This is an error, that lints but won't execute
+           case Saturday = 6;
+           case Sunday = 7;
+           
+           const string MONDAY = 'monday'; // constant MUST have distinct names from other constants and cases. 
+                                           // names are case sensitive, so this one is valid.
+       }
    
    ?>
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/comma.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/comma.ini.html","name":"Comma","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:18 +0000","dateModified":"Fri, 19 Jun 2026 21:26:18 +0000","description":"Commas are syntax elements, to separate elements when provided as a list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/comma.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/comma.ini.html","name":"Comma","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:24:47 +0000","dateModified":"Mon, 20 Jul 2026 08:24:47 +0000","description":"Commas are syntax elements, to separate elements when provided as a list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Comma
@@ -24,11 +24,11 @@ Comma
 
 Commas are syntax elements, to separate elements when provided as a list. 
 
-+ argument separator
-+ parameter separator
-+ trait name separator, in use expression
-+ array element separator
-+ list separator, where unused values may be omitted, leaving commas back to back.
++ Argument separator
++ Parameter separator
++ Trait name separator, in use expression
++ Array element separator
++ List separator, where unused values may be omitted, leaving commas back to back.
 
 They do not have a value by themselves.
 

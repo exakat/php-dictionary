@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pascal-case.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pascal-case.ini.html","name":"Pascal Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Pascal case, also written ``PascalCase`` is a way of writing names without spaces, where:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pascal Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pascal-case.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/pascal-case.ini.html","name":"Pascal Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 16:47:50 +0000","dateModified":"Mon, 20 Jul 2026 16:47:50 +0000","description":"Pascal case, also written ``PascalCase`` is a way of writing names without spaces, where:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Pascal Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Pascal Case
@@ -24,8 +24,8 @@ Pascal Case
 
 Pascal case, also written ``PascalCase`` is a way of writing names without spaces, where:
 
-+ the first word starts with an uppercase letter
-+ each following word starts with an uppercase letter
++ The first word starts with an uppercase letter
++ Each following word starts with an uppercase letter
 
 Pascal case was used for pascal programming language. It is very similar to camel case, though it is not the same.
 
@@ -34,9 +34,9 @@ Pascal case was used for pascal programming language. It is very similar to came
    
    <?php
    
-   function CalculatePrice(int $price): int {
-       return $price * SALE_TAX_RATE;
-   }
+       function CalculatePrice(int $price): int {
+           return $price * SALE_TAX_RATE;
+       }
    
    ?>
 

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/case.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/case.ini.html","name":"Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:41 +0000","dateModified":"Fri, 19 Jun 2026 21:25:41 +0000","description":"``case`` is a PHP keyword, which may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/case.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/case.ini.html","name":"Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:24:29 +0000","dateModified":"Mon, 20 Jul 2026 08:24:29 +0000","description":"``case`` is a PHP keyword, which may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Case
@@ -24,9 +24,9 @@ Case
 
 ``case`` is a PHP keyword, which may be used in three distinct situations: 
 
-+ with ``switch()`` expression
-+ with ``match()`` expression
-+ with enumeration
++ With ``switch()`` expression
++ With ``match()`` expression
++ With enumeration
 
 ``case`` is often complemented with ``default``.
 

@@ -49,6 +49,6 @@ This should not be confused with calling ``new`` without parenthesis for the con
 
 `Documentation <https://www.php.net/manual/en/migration84.new-features.php#migration84.new-features.core.new-chaining>`__
 
-Related : :ref:`new <new>`, :ref:`New Without Parenthesis <new-without-parenthesis>`, :ref:`Chaining (disambiguation) <chaining>`
+Related : :ref:`new <new>`, :ref:`New Without Parenthesis <new-without-parenthesis>`, :ref:`Chaining <chaining>`
 
 Added in PHP 8.4

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/naming-conflict.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/naming-conflict.ini.html","name":"Naming Conflict","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:36 +0000","dateModified":"Fri, 19 Jun 2026 21:25:36 +0000","description":"A naming conflict appears when two structures of the same type are using the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Naming Conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/naming-conflict.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/naming-conflict.ini.html","name":"Naming Conflict","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 17:06:00 +0000","dateModified":"Mon, 20 Jul 2026 17:06:00 +0000","description":"A naming conflict appears when two structures of the same type are using the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Naming Conflict.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Naming Conflict
@@ -26,7 +26,7 @@ A naming conflict appears when two structures of the same type are using the sam
 
 This may lead to a fatal error, when the first defined structure has priority: this happens with functions, classes, etc.
 
-It may also lead to overwriting, when the last structure can overwrite the first one. This approach is often silently executed, leading to late surprises. This is the case with array indices, variables, methods in class hierarchies, or arguments (in older versions of PHP).
+It may also lead to overwriting, when the last structure can overwrite the first one. This approach is often silently executed, leading to late surprises. This is the case with array indices, variables, methods in class hierarchies, or arguments, in older versions of PHP.
 
 Sometimes, PHP offers a mechanism to resolve conflicts. This is the case for methods in traits.
 

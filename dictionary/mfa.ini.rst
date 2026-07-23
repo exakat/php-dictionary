@@ -4,32 +4,32 @@
 .. _multi-factor:
 .. meta::
 	:description:
-		Multi-Factor Authentication (MFA): Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted.
+		Multi-Factor Authentication (MFA): Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Multi-Factor Authentication (MFA)
-	:twitter:description: Multi-Factor Authentication (MFA): Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted
+	:twitter:description: Multi-Factor Authentication (MFA): Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Multi-Factor Authentication (MFA)
 	:og:type: article
-	:og:description: Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted
+	:og:description: Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/mfa.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:44:10 +0000","dateModified":"Tue, 07 Jul 2026 07:44:10 +0000","description":"Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:45:45 +0000","dateModified":"Thu, 23 Jul 2026 13:45:45 +0000","description":"Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Multi-Factor Authentication (MFA)
 ---------------------------------
 
-Multi-Factor Authentication (MFA) is a security mechanism that requires a user to provide two or more independent verification factors before access is granted. The three classical factors are:
+Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted. The three classical factors are:
 
-+Something you know: a password or PIN.
-+Something you have: a hardware token, authenticator app, TOTP/HOTP, or SMS code.
-+Something you are: a biometric such as a fingerprint or face recognition.
++ Something known: a password or PIN.
++ Something possessed: a hardware token, authenticator app, TOTP/HOTP, or SMS code.
++ Something being: a biometric such as a fingerprint or face recognition.
 
 Requiring at least two factors dramatically reduces the risk of account compromise: stealing a password alone is no longer enough.
 
@@ -41,17 +41,17 @@ PHP itself does not ship MFA libraries, but the ecosystem offers several: ``sche
    
    <?php
    
-   use OTPHP\TOTP;
-   
-   // Generate a TOTP secret for a user at enrolment time
-   $totp   = TOTP::generate();
-   $secret = $totp->getSecret(); // store this in the user record
-   
-   // At login time, verify the code the user typed
-   $userCode = $_POST['totp_code'];
-   if (!$totp->verify($userCode)) {
-       throw new RuntimeException('Invalid MFA code');
-   }
+       use OTPHP\TOTP;
+       
+       // Generate a TOTP secret for a user at enrolment time
+       $totp   = TOTP::generate();
+       $secret = $totp->getSecret(); // store this in the user record
+       
+       // At login time, verify the code the user typed
+       $userCode = $_POST['totp_code'];
+       if (!$totp->verify($userCode)) {
+           throw new RuntimeException('Invalid MFA code');
+       }
    
    ?>
 

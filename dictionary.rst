@@ -266,7 +266,7 @@ PHP Dictionary
    * :ref:`Cast Operator <cast>`
    * :ref:`Catch <catch>`
    * :ref:`Centralization <centralization>`
-   * :ref:`Chaining (disambiguation) <chaining>`
+   * :ref:`Chaining <chaining>`
    * :ref:`Chaining Assignation <chaining-assignation>`
    * :ref:`Chaining Exceptions <exception-chain>`
    * :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`

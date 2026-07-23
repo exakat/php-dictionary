@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/var_dump.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/var_dump.ini.html","name":"var_dump()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:30:23 +0000","dateModified":"Mon, 29 Jun 2026 09:30:23 +0000","description":"``var_dump()`` displays the information in a variable or any data container","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/var_dump().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/var_dump.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/var_dump.ini.html","name":"var_dump()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 17:01:38 +0000","dateModified":"Mon, 20 Jul 2026 17:01:38 +0000","description":"``var_dump()`` displays the information in a variable or any data container","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/var_dump().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 var_dump()
@@ -38,6 +38,8 @@ var_dump()
 
 
 `Documentation <https://www.php.net/var_dump>`__
+
+See also `PHP var_dump() Function: Explanation with Examples <https://www.slingacademy.com/article/php-var-dump-function-explanation-with-examples/>`_.
 
 Related : :ref:`print_r() <print_r>`, :ref:`debug_backtrace() <debug_backtrace>`, :ref:`var_export() <var_export>`, :ref:`Debugger <debugger>`
 

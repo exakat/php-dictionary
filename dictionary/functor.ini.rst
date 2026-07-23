@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/functor.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/functor.ini.html","name":"Functor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A functor is a type that can be ``mapped over``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Functor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/functor.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/functor.ini.html","name":"Functor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:36:50 +0000","dateModified":"Mon, 20 Jul 2026 08:36:50 +0000","description":"A functor is a type that can be ``mapped over``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Functor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Functor
@@ -26,6 +26,8 @@ A functor is a type that can be ``mapped over``. It must implement a function, u
 
 `Documentation <https://en.wikipedia.org/wiki/Functor_(functional_programming)>`__
 
-See also `Functional Programming Principles in PHP – Functors <https://www.kai-sassnowski.com/post/php-functors-1/>`_, `PHP Functional by widmogrod <https://github.com/widmogrod/php-functional>`_ and `pwm/functor <https://gist.github.com/pwm/2eb1fa03fcd54d8d32c21546ba80aa16>`_.
+See also `Functional Programming Principles in PHP – Functors <https://www.kai-sassnowski.com/post/php-functors-1/>`_, `pwm/functor <https://gist.github.com/pwm/2eb1fa03fcd54d8d32c21546ba80aa16>`_ and `Functors in PHP Programming <https://www.educative.io/courses/learn-functional-programming-in-php/functors-in-php-programming>`_.
 
 Related : :ref:`Functional Programming <functional-programming>`, :ref:`__invoke() Method <-__invoke>`
+
+Related packages : `widmogrod/php-functional <https://packagist.org/packages/widmogrod/php-functional>`_

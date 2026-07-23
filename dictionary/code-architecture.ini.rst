@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-architecture.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-architecture.ini.html","name":"Code Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:06 +0000","dateModified":"Fri, 19 Jun 2026 21:26:06 +0000","description":"Code architecture refers to the high-level design and organization of a software system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-architecture.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-architecture.ini.html","name":"Code Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:24:07 +0000","dateModified":"Mon, 20 Jul 2026 08:24:07 +0000","description":"Code architecture refers to the high-level design and organization of a software system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Architecture
@@ -26,9 +26,9 @@ Code architecture refers to the high-level design and organization of a software
 
 Key Aspects of Code Architecture: 
 
-+ Modularity: breaking the codebase into smaller, reusable modules or components (e.g., classes, functions, packages).
-+ Separation of Concerns: dividing the system into distinct layers or components, each responsible for a specific task (e.g., presentation, business logic, data access).
-+ Directory Layout: organizing files and folders in a logical way (e.g., by feature, layer, or domain).
++ Modularity: breaking the codebase into smaller, reusable modules or components, e.g., classes, functions, packages
++ Separation of Concerns: dividing the system into distinct layers or components, each responsible for a specific task, e.g., presentation, business logic, data access
++ Directory Layout: organizing files and folders in a logical way, e.g., by feature, layer, or domain
 + Namespace Layout: code organization by namespaces
 
 Frameworks bring their own code architecture.

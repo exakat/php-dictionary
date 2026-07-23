@@ -53,4 +53,4 @@ Note that magic methods such as ``__set()`` and ``__get()`` are never called dur
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_ and `Hidden Traps with Chained Assignments <https://www.exakat.io/hidden-traps-with-chained-assignments/>`_.
 
-Related : :ref:`Assignment <assignment>`, :ref:`__set() Method <-__set>`, :ref:`__get() Method <-__get>`, :ref:`Chaining (disambiguation) <chaining>`, :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`
+Related : :ref:`Assignment <assignment>`, :ref:`__set() Method <-__set>`, :ref:`__get() Method <-__get>`, :ref:`Chaining <chaining>`, :ref:`Chaining New Without Parenthesis <chaining-new-without-parenthesis>`
