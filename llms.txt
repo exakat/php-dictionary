@@ -1150,7 +1150,7 @@ STRING`` (Nowdoc syntax).
 [pack](https://php-dictionary.readthedocs.io/en/latest/dictionary/pack.ini.html): ``pack()`` is a native PHP function which converts given arguments into a binary string according to format.
 [Package Manager](https://php-dictionary.readthedocs.io/en/latest/dictionary/package-manager.ini.html): A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages.
 [Package-Level](https://php-dictionary.readthedocs.io/en/latest/dictionary/package-visibility.ini.html): Package-level, or internal, visibility is an access modifier that sits between ``public`` and ``private``:
-[Packagist](https://php-dictionary.readthedocs.io/en/latest/dictionary/packagist.ini.html): Packagist is the default package repository for PHP.
+[Packagist](https://php-dictionary.readthedocs.io/en/latest/dictionary/packagist.ini.html): Packagist is the most popular package repository for PHP.
 [Pagination](https://php-dictionary.readthedocs.io/en/latest/dictionary/pagination.ini.html): Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages.
 [Pair](https://php-dictionary.readthedocs.io/en/latest/dictionary/pair.ini.html): A pair is a data structure that holds exactly two related values, often a key and a value, or two correlated items.
 [Paradigm](https://php-dictionary.readthedocs.io/en/latest/dictionary/paradigm.ini.html): A programming paradigm is basically a style or way of thinking about how the code is written.
@@ -1810,7 +1810,7 @@ It applies to several concepts:
 [XMLwriter](https://php-dictionary.readthedocs.io/en/latest/dictionary/xmlwriter.ini.html): The ``XMLWriter`` PHP extension is a built-in extension that provides a simple and efficient way to generate XML documents.
 [Cross Site Scripting (XSS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/xss.ini.html): It's a web security vulnerability where an attacker injects malicious JavaScript into a website, and that script then runs in other users' browsers.
 [XXTEA](https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html): ``XXTEA`` is a symmetric encryption algorithm that stands for ``Corrected Block TEA``:
-[You Are Not Going To Need It (YAGNI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/yagni.ini.html): YAGNI advises developers to avoid adding functionality or code until it is explicitly required.
+[You Are Not Going To Need It (YAGNI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/yagni.ini.html): ``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required.
 [YAML Ain't Markup Language (YAML)](https://php-dictionary.readthedocs.io/en/latest/dictionary/yaml.ini.html): ``YAML``, which stands for ``YAML Ain't Markup Language``, is a human-readable data serialization format.
 [yield from Keyword](https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html): The ``yield from`` keyword is used to delegate the iteration control of one generator to another.
 [Yield](https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html): In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.

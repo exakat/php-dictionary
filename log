@@ -1832,6 +1832,7 @@ reading sources... [100%] introduction
 reading sources... [100%] list
 reading sources... [100%] thesaurus
 
+/Users/famille/Desktop/php-dictionary/dictionary/shell_exec.ini.rst:25: WARNING: Inline literal start-string without end-string. [docutils]
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -3682,6 +3683,6 @@ generating indices... genindex done
 writing additional pages... search done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 5 warnings.
+build succeeded, 6 warnings.
 
 The HTML pages are in build/html.

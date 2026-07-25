@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/missing-validation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/missing-validation.ini.html","name":"Missing Validation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Missing Validation is a common security vulnerability that occurs when an application fails to validate user input or data before processing it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Missing Validation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/missing-validation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/missing-validation.ini.html","name":"Missing Validation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:21:32 +0000","dateModified":"Fri, 24 Jul 2026 15:21:32 +0000","description":"Missing Validation is a common security vulnerability that occurs when an application fails to validate user input or data before processing it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Missing Validation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Missing Validation
@@ -26,9 +26,9 @@ Missing Validation is a common security vulnerability that occurs when an applic
 
 Missing validation means the application does not check whether the input or data it receives is:
 
-+ Correctly formatted (e.g., an email address, number, or date).
-+ Within expected boundaries (e.g., length, type, or range).
-+ Safe to process (e.g., free from malicious code or unexpected characters)
++ Correctly formatted, e.g., an email address, number, or date
++ Within expected boundaries, e.g., length, type, or range
++ Safe to process, e.g., free from malicious code or unexpected characters
 
 It is important to remember that validation applies to incoming variables, such as ``$_GET``, but also with formated data, like ``JSON`` or ``YAML``; formated files like ``PDF`` or ``Zip``; database data, etc. In fact, every external source of data should be considered a potential vector of attack.
 

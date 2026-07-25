@@ -1,28 +1,28 @@
 .. _yagni:
 .. meta::
 	:description:
-		You Are Not Going To Need It (YAGNI): YAGNI advises developers to avoid adding functionality or code until it is explicitly required.
+		You Are Not Going To Need It (YAGNI): ``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: You Are Not Going To Need It (YAGNI)
-	:twitter:description: You Are Not Going To Need It (YAGNI): YAGNI advises developers to avoid adding functionality or code until it is explicitly required
+	:twitter:description: You Are Not Going To Need It (YAGNI): ``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: You Are Not Going To Need It (YAGNI)
 	:og:type: article
-	:og:description: YAGNI advises developers to avoid adding functionality or code until it is explicitly required
+	:og:description: ``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/yagni.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/yagni.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/yagni.ini.html","name":"You Are Not Going To Need It (YAGNI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"YAGNI advises developers to avoid adding functionality or code until it is explicitly required","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/You Are Not Going To Need It (YAGNI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/yagni.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/yagni.ini.html","name":"You Are Not Going To Need It (YAGNI)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:42:46 +0000","dateModified":"Fri, 24 Jul 2026 15:42:46 +0000","description":"``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/You Are Not Going To Need It (YAGNI).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 You Are Not Going To Need It (YAGNI)
 ------------------------------------
 
-YAGNI advises developers to avoid adding functionality or code until it is explicitly required. Instead of anticipating future needs and over-engineering solutions, focus only on what is necessary to fulfill current requirements.
+``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required. Instead of anticipating future needs and over-engineering solutions, focus only on what is necessary to fulfill current requirements.
 
 `Documentation <https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it>`__
 

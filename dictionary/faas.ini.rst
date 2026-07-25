@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/faas.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/faas.ini.html","name":"Function-as-a-Service (FaaS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:16:17 +0000","dateModified":"Sat, 04 Jul 2026 08:16:17 +0000","description":"Function-as-a-Service, or FaaS, is a serverless execution model where individual functions are deployed, invoked on demand, and billed per execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Function-as-a-Service (FaaS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/faas.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/faas.ini.html","name":"Function-as-a-Service (FaaS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:30:16 +0000","dateModified":"Fri, 24 Jul 2026 15:30:16 +0000","description":"Function-as-a-Service, or FaaS, is a serverless execution model where individual functions are deployed, invoked on demand, and billed per execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Function-as-a-Service (FaaS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Function-as-a-Service (FaaS)
@@ -25,7 +25,7 @@ Function-as-a-Service (FaaS)
 
 Function-as-a-Service, or FaaS, is a serverless execution model where individual functions are deployed, invoked on demand, and billed per execution. The cloud provider manages all infrastructure: provisioning, scaling, and teardown.
 
-Each function is stateless, short-lived, and triggered by an event (HTTP request, queue message, scheduled cron, S3 upload). The provider scales instances automatically from zero to thousands.
+Each function is stateless, short-lived, and triggered by an event, such as HTTP request, queue message, scheduled cron, S3 upload. The provider scales instances automatically from zero to thousands.
 
 PHP runs on FaaS platforms through runtime layers. The most common approach is Bref, a PHP Lambda layer for AWS Lambda that handles bootstrapping the PHP runtime, forwarding events, and returning responses. Similar support exists for Google Cloud Functions and Azure Functions.
 

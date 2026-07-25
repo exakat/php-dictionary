@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/metadata.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/metadata.ini.html","name":"Metadata","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:39:58 +0000","dateModified":"Thu, 16 Jul 2026 04:39:58 +0000","description":"Metadata is data that describes other data: it does not carry the actual content, but information about its structure, origin, or meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Metadata.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/metadata.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/metadata.ini.html","name":"Metadata","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 14:06:30 +0000","dateModified":"Thu, 23 Jul 2026 14:06:30 +0000","description":"Metadata is data that describes other data: it does not carry the actual content, but information about its structure, origin, or meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Metadata.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Metadata
@@ -62,4 +62,4 @@ Metadata is central to many cross-cutting concerns: ``ORM`` use it to map classe
 
 See also `PHP Attributes overview <https://www.php.net/manual/en/language.attributes.overview.php>`_.
 
-Related : , :ref:`Reflection <reflection>`, :ref:`Docblock <docblock>`, :ref:`Annotations <annotation>`, :ref:`EXIF (Exchangeable Image File Format) <exif>`, :ref:`Serialization <serialization>`, :ref:`Object Relational Mapping (ORM) <orm>`
+Related : :ref:`Attribute <attribute>`, :ref:`Reflection <reflection>`, :ref:`Docblock <docblock>`, :ref:`Annotations <annotation>`, :ref:`EXIF (Exchangeable Image File Format) <exif>`, :ref:`Serialization <serialization>`, :ref:`Object Relational Mapping (ORM) <orm>`

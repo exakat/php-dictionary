@@ -16,17 +16,19 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xml-database.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xml-database.ini.html","name":"XML Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"An XML database is a database which uses XML for the storage format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XML Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xml-database.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/xml-database.ini.html","name":"XML Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:59:31 +0000","dateModified":"Fri, 24 Jul 2026 15:59:31 +0000","description":"An XML database is a database which uses XML for the storage format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/XML Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 XML Database
 ------------
 
-An XML database is a database which uses XML for the storage format. Then, the database may be stored, queried, transformed and returned with XML related technologies: xslt, xquery, xproc...
+An XML database is a database which uses XML for the storage format. Then, the database may be stored, queried, transformed and returned with XML related technologies: ``xslt``, ``xquery``, ``xproc``, etc.
 
 XML databases are considered NoSQL databases. They may be build on top of a SQL database too.
 
 
 `Documentation <https://en.wikipedia.org/wiki/XML_database>`__
+
+See also `ExistDB <https://exist-db.org/exist/apps/homepage/index.html>`_ and `php-eXist-db-Client <https://github.com/CuAnnan/php-eXist-db-Client>`_.
 
 Related : :ref:`Nosql Database <nosql-database>`, :ref:`Database <database>`

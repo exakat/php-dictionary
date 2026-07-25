@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/webserver.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/webserver.ini.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/webserver.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/webserver.ini.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:33:13 +0000","dateModified":"Fri, 24 Jul 2026 17:33:13 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Webserver
@@ -24,7 +24,7 @@ Webserver
 
 A web server is a computer system or software application that delivers web pages to users over the internet. It handles requests from clients, typically web browsers and responds by serving content like HTML pages, images, videos, or other files.
 
-PHP is able to be integrated in many webservers: nginx, Apache, Caddy, lighthttpd, Litespeed,...
+PHP is able to be integrated in many webservers: ``nginx``, ``Apache``, ``Caddy``, ``lighthttpd``, ``Litespeed``, etc.
 
 PHP is able to run in server mode. In command line, use the ``-S`` option.
 

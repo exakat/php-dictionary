@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:45:45 +0000","dateModified":"Thu, 23 Jul 2026 13:45:45 +0000","description":"Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/mfa.ini.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:20:51 +0000","dateModified":"Fri, 24 Jul 2026 15:20:51 +0000","description":"Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Multi-Factor Authentication (MFA)
@@ -33,9 +33,9 @@ Multi-Factor Authentication, MFA, is a security mechanism that requires a user t
 
 Requiring at least two factors dramatically reduces the risk of account compromise: stealing a password alone is no longer enough.
 
-In the PHP ecosystem, MFA is relevant both at the application level (protecting user accounts) and at the infrastructure level. Packagist, for example, has introduced mandatory MFA for package publishers to harden the supply chain against account takeover.
+In the PHP ecosystem, MFA is relevant both at the application level, protecting user accounts, and at the infrastructure level. Packagist, for example, has introduced mandatory MFA for package publishers to harden the supply chain against account takeover.
 
-PHP itself does not ship MFA libraries, but the ecosystem offers several: ``scheb/2fa-bundle`` (Symfony), ``pragmarx/google2fa`` (Laravel), and generic TOTP/HOTP packages.
+PHP itself does not ship MFA libraries, but the ecosystem offers several: ``scheb/2fa-bundle`` with Symfony, ``pragmarx/google2fa`` with Laravel, and generic TOTP/HOTP packages.
 
 .. code-block:: php
    

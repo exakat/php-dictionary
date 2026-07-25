@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/numeric-base.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/numeric-base.ini.html","name":"Numeric Base","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The numeric base is the number of digits to be used when counting","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Numeric Base.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/numeric-base.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/numeric-base.ini.html","name":"Numeric Base","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:22:53 +0000","dateModified":"Fri, 24 Jul 2026 15:22:53 +0000","description":"The numeric base is the number of digits to be used when counting","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Numeric Base.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Numeric Base
 ------------
 
-The numeric base is the number of digits to be used when counting. The most common bases are: binary (0, 1), octal (0 to 7), decimal (0 to 9), duodecimal (0 to 11), hexadecimal (0 to F, aka 15).
+The numeric base is the number of digits to be used when counting. The most common bases are: binary 0 and 1, octal 0 to 7, decimal 0 to 9, duodecimal 0 to 11, hexadecimal 0 to F, aka 15.
 
 All other bases, starting from 2, are possible.
 
