@@ -3355,6 +3355,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/open_basedir.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/openid.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html</loc>
  </url>
  <url>
@@ -3832,6 +3835,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/propagation.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/property-based-testing.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/property-hook.ini.html</loc>
  </url>
  <url>
@@ -3950,6 +3956,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/rdf-triple-store.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/rdf.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/rdkafka.ini.html</loc>
@@ -4190,6 +4199,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/saas.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/saml.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/sandbox.ini.html</loc>

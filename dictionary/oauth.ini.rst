@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/oauth.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/oauth.ini.html","name":"OAuth","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:50:55 +0000","dateModified":"Wed, 15 Jul 2026 13:50:55 +0000","description":"OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OAuth.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/oauth.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/oauth.ini.html","name":"OAuth","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:21:50 +0000","dateModified":"Sun, 02 Aug 2026 06:21:50 +0000","description":"OAuth is an open standard for access delegation, commonly used to grant applications access to user information on other services without exposing passwords","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/OAuth.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 OAuth
@@ -30,6 +30,6 @@ OAuth is typically implemented via libraries such as ``league/oauth2-server`` fo
 
 See also `RFC 6749 <https://datatracker.ietf.org/doc/html/rfc6749>`_.
 
-Related : :ref:`Authentication <authentication>`, :ref:`Security <security>`, :ref:`JSON Web Token (JWT) <jwt>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Protocol <protocol>`, :ref:`Token <token>`, :ref:`SplSubject <splsubject>`
+Related : :ref:`Authentication <authentication>`, :ref:`Security <security>`, :ref:`JSON Web Token (JWT) <jwt>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Protocol <protocol>`, :ref:`Token <token>`, :ref:`SplSubject <splsubject>`, :ref:`Multi-Factor Authentication (MFA) <mfa>`, :ref:`OpenID Connect (OIDC) <openid>`, :ref:`Security Assertion Markup Language (SAML) <saml>`, :ref:`Single Sign On (SSO) <sso>`
 
 Related packages : `league/oauth2-server <https://packagist.org/packages/league/oauth2-server>`_, `league/oauth2-client <https://packagist.org/packages/league/oauth2-client>`_

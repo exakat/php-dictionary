@@ -2,28 +2,28 @@
 .. _stm:
 .. meta::
 	:description:
-		Software Transactional Memory (STM): Software Transactional Memory, or STM, introduced by Shavit and Touitou in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
+		Software Transactional Memory (STM): Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Software Transactional Memory (STM)
-	:twitter:description: Software Transactional Memory (STM): Software Transactional Memory, or STM, introduced by Shavit and Touitou in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations
+	:twitter:description: Software Transactional Memory (STM): Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Software Transactional Memory (STM)
 	:og:type: article
-	:og:description: Software Transactional Memory, or STM, introduced by Shavit and Touitou in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations
+	:og:description: Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/software-transactional-memory.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/software-transactional-memory.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/software-transactional-memory.ini.html","name":"Software Transactional Memory (STM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:22:45 +0000","dateModified":"Sat, 04 Jul 2026 08:22:45 +0000","description":"Software Transactional Memory, or STM, introduced by Shavit and Touitou in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software Transactional Memory (STM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/software-transactional-memory.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/software-transactional-memory.ini.html","name":"Software Transactional Memory (STM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:03:53 +0000","dateModified":"Sun, 02 Aug 2026 06:03:53 +0000","description":"Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Software Transactional Memory (STM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Software Transactional Memory (STM)
 -----------------------------------
 
-Software Transactional Memory, or STM, introduced by Shavit and Touitou in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations. Code that reads and writes shared variables is wrapped in a transaction block. The runtime tracks every read and write optimistically (without acquiring locks). When the transaction commits, the runtime checks whether any other transaction has modified the same memory locations. If a conflict is detected the transaction is rolled back and retried transparently; otherwise all writes are applied atomically.
+Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations. Code that reads and writes shared variables is wrapped in a transaction block. The runtime tracks every read and write optimistically, without acquiring locks. When the transaction commits, the runtime checks whether any other transaction has modified the same memory locations. If a conflict is detected the transaction is rolled back and retried transparently; otherwise all writes are applied atomically.
 
 The key properties of an STM transaction are:
 

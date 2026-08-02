@@ -1135,6 +1135,7 @@ PHP Dictionary
    * :ref:`Open Closed Principle (OCP) <ocp>`
    * :ref:`Open Source <open-source>`
    * :ref:`Open Tag <open-tag>`
+   * :ref:`OpenID Connect (OIDC) <openid>`
    * :ref:`OpenSSL <openssl>`
    * :ref:`OpenSwoole <openswoole>`
    * :ref:`OpenTelemetry <opentelemetry>`
@@ -1286,6 +1287,7 @@ PHP Dictionary
    * :ref:`Properties <property>`
    * :ref:`Property Hook <property-hook>`
    * :ref:`Property Type Declaration <type-declaration-property>`
+   * :ref:`Property-Based Testing <property-based-testing>`
    * :ref:`Proprietary Source <proprietary-source>`
    * :ref:`Protected Visibility <protected>`
    * :ref:`Protocol <protocol>`
@@ -1326,6 +1328,7 @@ PHP Dictionary
    * :ref:`Quoted Printable <quoted-printable>`
 * R
    * :ref:`RACI Model <raci>`
+   * :ref:`RDF (Resource Description Framework) <rdf>`
    * :ref:`RDF Triple Store <rdf-triple-store>`
    * :ref:`REST API <rest-api>`
    * :ref:`RFC <rfc>`
@@ -1452,6 +1455,7 @@ PHP Dictionary
    * :ref:`Secure Shell (SSH) <ssh>`
    * :ref:`Secure Sockets Layer (SSL) <ssl>`
    * :ref:`Security <security>`
+   * :ref:`Security Assertion Markup Language (SAML) <saml>`
    * :ref:`SeekableIterator <seekableiterator>`
    * :ref:`Segmentation Fault <segmentation-fault>`
    * :ref:`Self <self>`

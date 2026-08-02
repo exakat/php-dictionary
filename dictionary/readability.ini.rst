@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/readability.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/readability.ini.html","name":"Readability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:29:30 +0000","dateModified":"Fri, 19 Jun 2026 21:29:30 +0000","description":"A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Readability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/readability.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/readability.ini.html","name":"Readability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jul 2026 16:15:05 +0000","dateModified":"Mon, 27 Jul 2026 16:15:05 +0000","description":"A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Readability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Readability
@@ -46,6 +46,6 @@ Readability is a human characteristic of the code: it depends on the level of kn
 
 `Documentation <https://en.wikipedia.org/wiki/Readability>`__
 
-See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_ and `How to write readable code? <https://suckup.de/2020/07/how-to-write-readable-code/>`_.
+See also `The Complete Guide to Readable Code: 11 Principles <https://fellow.app/blog/engineering/the-complete-guide-to-readable-code/>`_, `Why Code Readability is important <https://thehosk.medium.com/why-code-readability-is-important-e0c228a238a>`_, `How to write readable code? <https://suckup.de/2020/07/how-to-write-readable-code/>`_ and `Refactoring PHP Code for Better Readability <https://deliciousbrains.com/refactoring-php-code-better-readability/>`_.
 
 Related : :ref:`Docblock <docblock>`, :ref:`Habit <habit>`, :ref:`Inlining <inlining>`, :ref:`Quality <quality>`, :ref:`Magic Numbers <magic-number>`, :ref:`Naming <naming>`, :ref:`Streamlining <streamlining>`

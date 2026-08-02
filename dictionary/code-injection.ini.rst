@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-injection.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-injection.ini.html","name":"Code Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:10 +0000","dateModified":"Fri, 19 Jun 2026 21:26:10 +0000","description":"A CODE injection is a vulnerability, where external data is used as PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-injection.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/code-injection.ini.html","name":"Code Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:13:26 +0000","dateModified":"Sun, 02 Aug 2026 06:13:26 +0000","description":"A CODE injection is a vulnerability, where external data is used as PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Code Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Code Injection
@@ -24,7 +24,7 @@ Code Injection
 
 A CODE injection is a vulnerability, where external data is used as PHP code.  
 
-In the example below, ``$_GET`` is directly used in the ``eval()`` function. By using a clever string (shown in comment), it is possible to assign the variable, and run the phpinfo() command. 
+In the example below, ``$_GET`` is directly used in the ``eval()`` function. By using a clever string, as shown in illustration below, it is possible to assign the variable, and run the ``phpinfo()`` command. 
 
 Among the solutions to mitigate this problem: filter adequately the incoming data; use prepared statements. 
 

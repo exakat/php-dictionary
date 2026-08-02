@@ -16,13 +16,13 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/haystack.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/haystack.ini.html","name":"Haystack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:02:23 +0000","dateModified":"Fri, 03 Jul 2026 08:02:23 +0000","description":"Haystack is a classic name, used to designate a dataset where something will be searched in","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Haystack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/haystack.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/haystack.ini.html","name":"Haystack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:08:13 +0000","dateModified":"Sun, 02 Aug 2026 06:08:13 +0000","description":"Haystack is a classic name, used to designate a dataset where something will be searched in","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Haystack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Haystack
 --------
 
-Haystack is a classic name, used to designate a dataset where something will be searched in. For example, with the functions ``strstr()``, ``strpos()``, ``strrchr()``, array_search(), ``mb_strstr()``, ``Grapheme::stristr()``, etc. 
+Haystack is a classic name, used to designate a dataset where something will be searched in. For example, with the functions ``strstr()``, ``strpos()``, ``strrchr()``, ``array_search()``, ``mb_strstr()``, ``Grapheme::stristr()``, etc. 
 
 This name refers to the expression 'to search for a needle in a haystack': when something is difficult to find in a large stack. In this context, the haystack is usually the data that is searched, while the needle is the thing that is searched for.
 

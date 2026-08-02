@@ -1123,6 +1123,7 @@ Index
    dictionary/open-source.ini
    dictionary/open-tag.ini
    dictionary/open_basedir.ini
+   dictionary/openid.ini
    dictionary/openssl.ini
    dictionary/openswoole.ini
    dictionary/opentelemetry.ini
@@ -1282,6 +1283,7 @@ Index
    dictionary/promise.ini
    dictionary/promoted-property.ini
    dictionary/propagation.ini
+   dictionary/property-based-testing.ini
    dictionary/property-hook.ini
    dictionary/property.ini
    dictionary/proprietary-source.ini
@@ -1322,6 +1324,7 @@ Index
    dictionary/rce.ini
    dictionary/rdbms.ini
    dictionary/rdf-triple-store.ini
+   dictionary/rdf.ini
    dictionary/rdkafka.ini
    dictionary/reactphp.ini
    dictionary/readability.ini
@@ -1402,6 +1405,7 @@ Index
    dictionary/rubber-ducking.ini
    dictionary/runtime-checks.ini
    dictionary/saas.ini
+   dictionary/saml.ini
    dictionary/sandbox.ini
    dictionary/sanitation.ini
    dictionary/sapi.ini

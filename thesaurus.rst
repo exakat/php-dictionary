@@ -96,6 +96,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Object Relational Mapping (ORM) <orm>`
 + :ref:`One-Time Password (OTP) <otp>`
 + :ref:`Open Closed Principle (OCP) <ocp>`
++ :ref:`OpenID Connect (OIDC) <openid>`
 + :ref:`OpenTelemetry <opentelemetry>`
 + :ref:`PCOV <pcov>`
 + :ref:`PDF <pdf>`
@@ -115,6 +116,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Protocol Buffers <protobuf>`
 + :ref:`Pull Request (PR) <pr>`
 + :ref:`RACI Model <raci>`
++ :ref:`RDF (Resource Description Framework) <rdf>`
 + :ref:`RFC <rfc>`
 + :ref:`RSA <rsa>`
 + :ref:`Read Eval Print Loop (REPL) <repl>`
@@ -129,6 +131,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Scalable Vector Graphics (SVG) <svg>`
 + :ref:`Search Engine Optimization (SEO) <seo>`
 + :ref:`Secure Sockets Layer (SSL) <ssl>`
++ :ref:`Security Assertion Markup Language (SAML) <saml>`
 + :ref:`Server Application Programming Interface (SAPI) <sapi>`
 + :ref:`Server Sent Event (SSE) <sse>`
 + :ref:`Server-Side Request Forgery (SSRF) <ssrf>`

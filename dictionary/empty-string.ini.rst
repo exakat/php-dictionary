@@ -1,30 +1,28 @@
 .. _empty-string:
 .. meta::
 	:description:
-		Empty String: The empty string is ``''``, ``""``, ``<<<STRING.
+		Empty String: The empty string is a string without any content.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Empty String
-	:twitter:description: Empty String: The empty string is ``''``, ``""``, ``<<<STRING
+	:twitter:description: Empty String: The empty string is a string without any content
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Empty String
 	:og:type: article
-	:og:description: The empty string is ``''``, ``""``, ``<<<STRING
+	:og:description: The empty string is a string without any content
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/empty-string.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty-string.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty-string.ini.html","name":"Empty String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:53 +0000","dateModified":"Fri, 19 Jun 2026 21:24:53 +0000","description":"The empty string is ``''``, ``\"\"``, ``<<<STRING","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Empty String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty-string.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/empty-string.ini.html","name":"Empty String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:16:48 +0000","dateModified":"Sun, 02 Aug 2026 06:16:48 +0000","description":"The empty string is a string without any content","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Empty String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Empty String
 ------------
 
-The empty string is ``''``, ``""``, ``<<<STRING
-STRING`` (Heredoc syntax), or ``<<<'STRING'
-STRING`` (Nowdoc syntax). Is it a string without any content. 
+The empty string is a string without any content. It may be build with single quotes, double quotes or the Heredoc and NowDoc syntaxes.
 
 The empty string is the neutral element for concatenation: concatenating an empty string to another string does not change the latter.
 
@@ -40,7 +38,12 @@ The empty string is falsy: it is converted to the ``false`` boolean when implici
    
    <?php
    
-       $emptyString = '';
+       $emptyString1 = '';  // single quote
+       $emptyString2 = "";  // double quote
+       $emptyString3 = <<<STRING
+   STRING;
+       $emptyString4 = <<<'STRING'
+   STRING;
    
    ?>
 

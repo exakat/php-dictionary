@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compression.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compression.ini.html","name":"Compression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Compression is the representation of data in a format that uses less space that the original raw data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compression.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/compression.ini.html","name":"Compression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:12:33 +0000","dateModified":"Sun, 02 Aug 2026 06:12:33 +0000","description":"Compression is the representation of data in a format that uses less space that the original raw data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Compression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Compression
@@ -26,9 +26,9 @@ Compression is the representation of data in a format that uses less space that 
 
 A compression algorithm must provide a way to compress data, and a way to uncompress it, and give access to the original data.
 
-There are lossless compression, which can provide the exact original data (for text, ...) and lossy compression which degrades the original data (for images, video, ...).
+There are lossless compression, which can provide the exact original data, for text, and lossy compression which degrades the original data for images, video.
 
-PHP supports compression via zip, rar, zlib, bzip2.
+PHP supports compression via zip, rar, zlib, bzip2, brotli, etc.
 
 `Documentation <https://en.wikipedia.org/wiki/Data_compression>`__
 

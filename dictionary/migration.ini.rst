@@ -1,4 +1,7 @@
 .. _migration:
+.. _database-migration:
+.. _framework-migration:
+.. _version-migration:
 .. meta::
 	:description:
 		Migration: Migration is the incremental upgrade of a piece of code.
@@ -16,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","name":"Migration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Migration is the incremental upgrade of a piece of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Migration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","name":"Migration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jul 2026 16:14:09 +0000","dateModified":"Mon, 27 Jul 2026 16:14:09 +0000","description":"Migration is the incremental upgrade of a piece of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Migration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Migration
@@ -24,14 +27,14 @@ Migration
 
 Migration is the incremental upgrade of a piece of code. 
 
-It is often used for databases, for example, with Laravel database migrations; for components and frameworks: for example, CakePHP migration.
+It is often used for databases, for example, with Laravel database migrations; for components and frameworks: for example, CakePHP migration. Migration applies to versions, within a framework, or between two distinct framework.
 
 Usually, migration requires some action from the user, although a migration script may be provided.
 
-Migration may also be called upgrades.
+Migration may also be called upgrades. They may be paired with a rollback, which allows to go back to the previous state, and try again later.
 
 `Documentation <https://en.wikipedia.org/wiki/Data_migration>`__
 
 See also `Database: Migrations <https://laravel.com/docs/9.x/migrations>`_ and `Migrating from PHP 8.0.x to PHP 8.1.x <https://www.php.net/manual/en/migration81.php>`_.
 
-Related : :ref:`Database <database>`, :ref:`Upgrade <upgrade>`, :ref:`Version <version>`, :ref:`Backward Compatible <backward-compatible>`, :ref:`Compatibility <compatibility>`, :ref:`Rollback <rollback>`
+Related : :ref:`Database <database>`, :ref:`Upgrade <upgrade>`, :ref:`Version <version>`, :ref:`Backward Compatible <backward-compatible>`, :ref:`Compatibility <compatibility>`, :ref:`Rollback <rollback>`, 

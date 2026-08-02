@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/serverless.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/serverless.ini.html","name":"Serverless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:13:20 +0000","dateModified":"Tue, 30 Jun 2026 15:13:20 +0000","description":"Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serverless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/serverless.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/serverless.ini.html","name":"Serverless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:07:32 +0000","dateModified":"Sun, 02 Aug 2026 06:07:32 +0000","description":"Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Serverless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Serverless
@@ -24,7 +24,7 @@ Serverless
 
 Serverless computing is an execution model where a cloud provider allocates compute resources on demand, scaling to zero when idle. Developers deploy functions or entire applications without managing servers.
 
-PHP runs serverlessly via AWS Lambda (using Bref), Google Cloud Functions, Azure Functions, or Vercel. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.
+PHP runs serverlessly via AWS Lambda with Bref, Google Cloud Functions, Azure Functions, or Vercel. The ``bref`` package is the most common bridge, wrapping PHP applications for Lambda execution.
 
 `Documentation <https://en.wikipedia.org/wiki/Serverless_computing>`__
 

@@ -33,6 +33,6 @@ Graph databases are close to RDF triple stores, which store data as a triplet: o
 
 See also `Top 10 SQL Databases To Learn in 2025 <https://www.geeksforgeeks.org/blogs/top-sql-databases-to-learn/>`_ and `Neo4j PHP Community <https://github.com/neo4j-php>`_.
 
-Related : :ref:`Structured Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`, :ref:`Column Database <column-database>`, :ref:`Graph <graph>`, , :ref:`Nosql Database <nosql-database>`
+Related : :ref:`Structured Query Language (SQL) <sql>`, :ref:`MySQL <mysql>`, :ref:`PostgreSQL <postgresql>`, :ref:`Column Database <column-database>`, :ref:`Graph <graph>`, :ref:`RDF (Resource Description Framework) <rdf>`, :ref:`Nosql Database <nosql-database>`
 
 Related packages : `laudis/neo4j-php-client <https://packagist.org/packages/laudis/neo4j-php-client>`_, `everyman/neo4jphp <https://packagist.org/packages/everyman/neo4jphp>`_

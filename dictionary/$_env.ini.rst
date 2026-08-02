@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/%24_env.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/%24_env.ini.html","name":"$_ENV","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_ENV.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/%24_env.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/%24_env.ini.html","name":"$_ENV","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:21:35 +0000","dateModified":"Sun, 02 Aug 2026 06:21:35 +0000","description":"The ``$_ENV`` variable is a special superglobal variable that is used to retrieve the environment values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/$_ENV.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 $_ENV
@@ -62,4 +62,6 @@ The content of the ``$_ENV`` array varies from installation to installation: the
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.environment.php>`__
 
-Related : :ref:`$_GET <$_get>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_FILES>`, :ref:`$_SERVER <$_server>`, :ref:`$GLOBALS <$globals>`
+See also `Environment Variables in PHP: A Practical Guide <https://envmanager.com/blog/environment-variables-in-php>`_.
+
+Related : :ref:`$_GET <$_get>`, :ref:`$_COOKIE <$_cookie>`, :ref:`$_POST <$_post>`, :ref:`$_REQUEST <$_request>`, :ref:`$_FILES <$_FILES>`, :ref:`$_SERVER <$_server>`, :ref:`$GLOBALS <$globals>`, :ref:`Superglobal Variables <superglobal>`, 

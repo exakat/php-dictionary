@@ -549,9 +549,7 @@
 [Email](https://php-dictionary.readthedocs.io/en/latest/dictionary/email.ini.html): Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices.
 [Embed](https://php-dictionary.readthedocs.io/en/latest/dictionary/embed.ini.html): To embed, or to be embedded, is integrating PHP code into another context, or vice versa.
 [Emoji](https://php-dictionary.readthedocs.io/en/latest/dictionary/emoji.ini.html): Emojis are small digital images or icons used to express ideas, emotions, objects, or concepts in electronic communication.
-[Empty String](https://php-dictionary.readthedocs.io/en/latest/dictionary/empty-string.ini.html): The empty string is ``''``, ``""``, ``<<<STRING
-STRING`` (Heredoc syntax), or ``<<<'STRING'
-STRING`` (Nowdoc syntax).
+[Empty String](https://php-dictionary.readthedocs.io/en/latest/dictionary/empty-string.ini.html): The empty string is a string without any content.
 [Empty](https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html): Empty is a language structure, which determines whether a variable is empty.
 [Enable](https://php-dictionary.readthedocs.io/en/latest/dictionary/enable.ini.html): To enable is to activate a feature and allow it to perform.
 [Encapsulation](https://php-dictionary.readthedocs.io/en/latest/dictionary/encapsulation.ini.html): Encapsulation is the practice of bundling data, in properties, and methods that operate on that data into a single unit, a class, while restricting direct access to some of the object's components.
@@ -1118,6 +1116,7 @@ STRING`` (Nowdoc syntax).
 [Open Source](https://php-dictionary.readthedocs.io/en/latest/dictionary/open-source.ini.html): Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license.
 [Open Tag](https://php-dictionary.readthedocs.io/en/latest/dictionary/open-tag.ini.html): PHP commands are placed between the PHP tags:
 [open_basedir](https://php-dictionary.readthedocs.io/en/latest/dictionary/open_basedir.ini.html): The ``open_basedir`` directive limits access to files in a list of provided directories, and their nested directories.
+[OpenID Connect (OIDC)](https://php-dictionary.readthedocs.io/en/latest/dictionary/openid.ini.html): OpenID Connect, aka OIDC, is an identity layer built on top of OAuth 2.
 [OpenSSL](https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html): The OpenSSL Project develops and maintains the OpenSSL software - a robust, commercial-grade, full-featured toolkit for general-purpose cryptography and secure communication.
 [OpenSwoole](https://php-dictionary.readthedocs.io/en/latest/dictionary/openswoole.ini.html): ``OpenSwoole`` is a PIE extension providing an event-driven, asynchronous, coroutine-based programming framework for PHP.
 [OpenTelemetry](https://php-dictionary.readthedocs.io/en/latest/dictionary/opentelemetry.ini.html): ``OpenTelemetry`` is a PIE extension that provides the low-level instrumentation hooks needed to generate distributed traces, metrics, and logs from PHP applications, following the vendor-neutral OpenTelemetry standard.
@@ -1277,6 +1276,7 @@ STRING`` (Nowdoc syntax).
 [Promise](https://php-dictionary.readthedocs.io/en/latest/dictionary/promise.ini.html): A promise is a programming construct used in asynchronous programming to handle the results or errors of an asynchronous operation that may not have completed yet.
 [Promoted Properties](https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html): Promoted properties are a class's arguments, which are declared as properties and automatically assigned their value at instantiation.
 [Propagation](https://php-dictionary.readthedocs.io/en/latest/dictionary/propagation.ini.html): Propagation is the consequence of one piece of code, that applies to another part of the code, via a dependency.
+[Property-Based Testing](https://php-dictionary.readthedocs.io/en/latest/dictionary/property-based-testing.ini.html): Property-based testing is a testing technique where, instead of writing individual examples, the developer describes properties that should always hold for a function, then a framework generates a large number of random inputs to try to falsify them.
 [Property Hook](https://php-dictionary.readthedocs.io/en/latest/dictionary/property-hook.ini.html): Property hooks are a feature of PHP 8.
 [Properties](https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html): Class properties are variables, local to an object or a class.
 [Proprietary Source](https://php-dictionary.readthedocs.io/en/latest/dictionary/proprietary-source.ini.html): Proprietary source code is software whose source code is not publicly available and is protected by copyright and licensing restrictions.
@@ -1319,6 +1319,7 @@ STRING`` (Nowdoc syntax).
 [Remote Code Execution (RCE)](https://php-dictionary.readthedocs.io/en/latest/dictionary/rce.ini.html): It is a type of security vulnerability where an attacker can remotely execute arbitrary code on a target server or system.
 [Relational DataBase Management System (RDBMS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/rdbms.ini.html): RDBMS stands for Relational DataBase Management System.
 [RDF Triple Store](https://php-dictionary.readthedocs.io/en/latest/dictionary/rdf-triple-store.ini.html): An RDF triple store is a database purpose-built to store and query RDF, Resource Description Framework, data:
+[RDF (Resource Description Framework)](https://php-dictionary.readthedocs.io/en/latest/dictionary/rdf.ini.html): RDF, Resource Description Framework, is a W3C standard model for describing and exchanging data on the Web.
 [RdKafka](https://php-dictionary.readthedocs.io/en/latest/dictionary/rdkafka.ini.html): ``rdkafka`` is a PIE extension providing a PHP client for Apache Kafka, a distributed event-streaming platform.
 [ReactPHP](https://php-dictionary.readthedocs.io/en/latest/dictionary/reactphp.ini.html): ReactPHP is a low-level library for event-driven programming.
 [Readability](https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html): A code is readable, or easy to read, if all the needed information is available in the code, without the need to reach for an extra piece of reference to understand it.
@@ -1399,6 +1400,7 @@ STRING`` (Nowdoc syntax).
 [Rubber Ducking Debugging](https://php-dictionary.readthedocs.io/en/latest/dictionary/rubber-ducking.ini.html): Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner.
 [Runtime Checks](https://php-dictionary.readthedocs.io/en/latest/dictionary/runtime-checks.ini.html): Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script.
 [Software-as-a-Service (SAAS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/saas.ini.html): SaaS stands for Software as a Service.
+[Security Assertion Markup Language (SAML)](https://php-dictionary.readthedocs.io/en/latest/dictionary/saml.ini.html): SAML, the Security Assertion Markup Language, is an open XML-based standard for exchanging authentication and authorization data between an identity provider, and a service provider.
 [Sandbox](https://php-dictionary.readthedocs.io/en/latest/dictionary/sandbox.ini.html): An isolated environment where code can be run or tested, without affecting the real system.
 [Sanitation](https://php-dictionary.readthedocs.io/en/latest/dictionary/sanitation.ini.html): Sanitation is the process to clean data and remove any unwanted parts.
 [Server Application Programming Interface (SAPI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/sapi.ini.html): SAPI stands for Server Application Programming Interface.
@@ -1500,7 +1502,7 @@ STRING`` (Nowdoc syntax).
 [Service-Oriented Architecture (SOA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/soa.ini.html): Service-Oriented Architecture, or SOA, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces.
 [Simple Object Access Protocol (SOAP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/soap.ini.html): ``SOAP`` is the acronym for Simple Object Access Protocol.
 [Socket](https://php-dictionary.readthedocs.io/en/latest/dictionary/socket.ini.html): A socket refers to a communication endpoint that allows two processes to exchange data over a network.
-[Software Transactional Memory (STM)](https://php-dictionary.readthedocs.io/en/latest/dictionary/software-transactional-memory.ini.html): Software Transactional Memory, or STM, introduced by Shavit and Touitou in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
+[Software Transactional Memory (STM)](https://php-dictionary.readthedocs.io/en/latest/dictionary/software-transactional-memory.ini.html): Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
 [SOLID](https://php-dictionary.readthedocs.io/en/latest/dictionary/solid.ini.html): SOLID is an acronym for a set of OOP design principle.
 [Sort](https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html): Sorting is the action to put a list of object into a specific order.
 [State of the Art (SOTA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/sota.ini.html): State of the Art, abbreviated SOTA, refers to the highest level of development achieved in a field at a given point in time.
@@ -1523,7 +1525,7 @@ STRING`` (Nowdoc syntax).
 [SplStorageObjects](https://php-dictionary.readthedocs.io/en/latest/dictionary/splstorageobjects.ini.html): The ``SplObjectStorage`` class provides a list for objects:
 [SplSubject](https://php-dictionary.readthedocs.io/en/latest/dictionary/splsubject.ini.html): ``SplSubject`` is an SPL interface that represents the subject, also known as the observable, role in the Observer design pattern.
 [sprintf](https://php-dictionary.readthedocs.io/en/latest/dictionary/sprintf.ini.html): ``sprintf()`` is a PHP native function, which format a string based on a format string, and one or more values.
-[Sqids](https://php-dictionary.readthedocs.io/en/latest/dictionary/sqids.ini.html): Sqids (formerly known as Hashids) is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.
+[Sqids](https://php-dictionary.readthedocs.io/en/latest/dictionary/sqids.ini.html): Sqids, formerly known as Hashids, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.
 [SQL Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/sql-database.ini.html): A SQL database is a database server that process data based on the SQL language.
 [SQL Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/sql-injection.ini.html): A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query.
 [Structured Query Language (SQL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/sql.ini.html): Structured Query Language, SQL, is a database query language, used to access and update data in a relational database management system.
@@ -1537,7 +1539,7 @@ STRING`` (Nowdoc syntax).
 [Secure Shell (SSH)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssh.ini.html): SSH, acronym of Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network.
 [SSH2](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssh2.ini.html): ``ssh2`` is a PIE extension, built on libssh2, that provides functions to open SSH connections from PHP and use them to execute remote commands, transfer files over SFTP or SCP, forward ports, and manage host authentication.
 [Secure Sockets Layer (SSL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html): SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web.
-[Single Sign On (SSO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/sso.ini.html): Single Sign-On (SSO) is an authentication process that allows users to access multiple applications or services with one set of login credentials (username and password).
+[Single Sign On (SSO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/sso.ini.html): Single Sign-On, also shortened as SSO, is an authentication process that allows users to access multiple applications or services with one set of login credentials.
 [Server-Side Request Forgery (SSRF)](https://php-dictionary.readthedocs.io/en/latest/dictionary/ssrf.ini.html): Server-Side Request Forgery, or SSRF, is a vulnerability where an attacker induces the server itself to issue an HTTP or other network request to a destination the attacker controls or chooses, by supplying or influencing a URL that the server later fetches.
 [Stack](https://php-dictionary.readthedocs.io/en/latest/dictionary/stack.ini.html): A stack may have several meanings:
 [Standalone Types](https://php-dictionary.readthedocs.io/en/latest/dictionary/standalone-type.ini.html): Types are standalone, as they can be use alone, in a type declaration.
