@@ -48,6 +48,6 @@ Streams may be extended with the notion of wrapper and protocols.
 
 See also `Streams in PHP: What you really need to know <https://dev.to/gabrieloliverio/streams-in-php-55kb>`_.
 
-Related : :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`, :ref:`File <file>`, :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`php://memory <php-memory>`, :ref:`php://tmp <php-tmp>`, :ref:`php://filter <php-filter>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Path <path>`, :ref:`Polling <polling>`, :ref:`WHATWG <whatwg>`, :ref:`STDOUT <stdout>`, :ref:`fclose() <fclose>`, :ref:`fgetc() <fgetc>`, :ref:`fgets() <fgets>`, :ref:`fread() <fread>`, :ref:`ftell() <ftell>`, :ref:`fwrite() <fwrite>`, :ref:`Non-blocking <non-blocking>`
+Related : :ref:`Abstraction Layer <abstraction-layer>`, :ref:`Stream Wrapper <wrapper-stream>`, :ref:`Stream Wrapper <stream-wrapper>`, :ref:`File <file>`, :ref:`php://input <php-input>`, :ref:`php://output <php-output>`, :ref:`php://memory <php-memory>`, :ref:`php://tmp <php-tmp>`, :ref:`php://filter <php-filter>`, :ref:`file_get_contents() <file_get_contents>`, :ref:`Path <path>`, :ref:`Polling <polling>`, :ref:`Web Hypertext Application Technology Working Group (WHATWG) <whatwg>`, :ref:`STDOUT <stdout>`, :ref:`fclose() <fclose>`, :ref:`fgetc() <fgetc>`, :ref:`fgets() <fgets>`, :ref:`fread() <fread>`, :ref:`ftell() <ftell>`, :ref:`fwrite() <fwrite>`, :ref:`Non-blocking <non-blocking>`
 
 Added in PHP 5.0

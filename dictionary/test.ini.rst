@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/test.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/test.ini.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 05:58:18 +0000","dateModified":"Sun, 02 Aug 2026 05:58:18 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/test.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/test.ini.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 05:50:53 +0000","dateModified":"Tue, 04 Aug 2026 05:50:53 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Test
@@ -42,7 +42,7 @@ There are many different types of tests:
 
 Tests may be manual, when they are executed manually. Those are not recorded. Test may be automated, when they are executed by another piece of software. 
 
-PHP offers several testing framework, such as PHPunit, pest, pint, simpletest, atoum.
+PHP offers several testing framework, such as ``PHPunit``, ``pest``, ``pint``, ``simpletest``, ``atoum``.
 
 Tests are often further automated in a Continuous Integration Pipeline.
 
@@ -51,4 +51,4 @@ Tests are often further automated in a Continuous Integration Pipeline.
 
 See also `3 Compelling Reasons For Developers To Write Tests <https://christoph-rumpel.com/2023/6/three-compelling-reasons-for-developers-to-write-tests>`_, `Testing tips <https://testing-tips.sarvendev.com/>`_ and `How to test procedural functions with PHPUnit <https://unixdigest.com/tutorials/how-to-test-procedural-functions-with-phpunit.html>`_.
 
-Related : :ref:`Feature Testing <feature-testing>`, :ref:`Code Coverage <code-coverage>`, :ref:`Integration Test <integration-test>`, :ref:`Unit Test <unit-test>`, :ref:`End To End Test <end-to-end-test>`, :ref:`PHPunit <phpunit>`, :ref:`Quality <quality>`, :ref:`Refactoring <refactoring>`, :ref:`Clock <clock>`, :ref:`Faker <faker>`, :ref:`Snapshot <snapshot>`, :ref:`Test Pyramid <test-pyramid>`, :ref:`DevOps <devops>`, :ref:`Edge Case <edge-case>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Continuous Delivery (CD) <cd>`, :ref:`Fuzzing <fuzzing>`, :ref:`Property-Based Testing <property-based-testing>`, :ref:`Mutation Testing <mutation-test>`, :ref:`Test Framework <test-framework>`, :ref:`Build <build>`, :ref:`Continuous Integration <continuous-integration>`, :ref:`Continuous Integration <CI>`, :ref:`Regression <regression>`, :ref:`Reliability <reliability>`, :ref:`Test-Driven Development <test-driven-development>`
+Related : :ref:`Feature Testing <feature-testing>`, :ref:`Code Coverage <code-coverage>`, :ref:`Integration Test <integration-test>`, :ref:`Unit Test <unit-test>`, :ref:`End To End Test <end-to-end-test>`, :ref:`PHPunit <phpunit>`, :ref:`Quality <quality>`, :ref:`Refactoring <refactoring>`, :ref:`Clock <clock>`, :ref:`Faker <faker>`, :ref:`Snapshot <snapshot>`, :ref:`Test Pyramid <test-pyramid>`, :ref:`DevOps <devops>`, :ref:`Edge Case <edge-case>`, :ref:`Continuous Integration (CI) <ci>`, :ref:`Continuous Delivery (CD) <cd>`, :ref:`Fuzzing <fuzzing>`, :ref:`Property-Based Testing <property-based-testing>`, :ref:`Mutation Testing <mutation-test>`, :ref:`Test Framework <test-framework>`, :ref:`Build <build>`, :ref:`Continuous Integration <continuous-integration>`, :ref:`Continuous Integration <CI>`, :ref:`Regression <regression>`, :ref:`Reliability <reliability>`, :ref:`Test-Driven Development <test-driven-development>`, :ref:`Test Impact Analysis <test-impact-analysis>`

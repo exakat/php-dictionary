@@ -19,7 +19,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","name":"Migration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jul 2026 16:14:09 +0000","dateModified":"Mon, 27 Jul 2026 16:14:09 +0000","description":"Migration is the incremental upgrade of a piece of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Migration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/migration.ini.html","name":"Migration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:12:17 +0000","dateModified":"Tue, 04 Aug 2026 06:12:17 +0000","description":"Migration is the incremental upgrade of a piece of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Migration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Migration
@@ -37,4 +37,4 @@ Migration may also be called upgrades. They may be paired with a rollback, which
 
 See also `Database: Migrations <https://laravel.com/docs/9.x/migrations>`_ and `Migrating from PHP 8.0.x to PHP 8.1.x <https://www.php.net/manual/en/migration81.php>`_.
 
-Related : :ref:`Database <database>`, :ref:`Upgrade <upgrade>`, :ref:`Version <version>`, :ref:`Backward Compatible <backward-compatible>`, :ref:`Compatibility <compatibility>`, :ref:`Rollback <rollback>`, 
+Related : :ref:`Database <database>`, :ref:`Upgrade <upgrade>`, :ref:`Version <version>`, :ref:`Backward Compatible <backward-compatible>`, :ref:`Compatibility <compatibility>`, :ref:`Rollback <rollback>`, , :ref:`ETL <etl>`, :ref:`Referential Integrity <referential-integrity>`

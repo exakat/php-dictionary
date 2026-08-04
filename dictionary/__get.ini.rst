@@ -1,28 +1,28 @@
 .. _-__get:
 .. meta::
 	:description:
-		__get() Method: ``__get()`` is a magic method: it is utilized for reading data from inaccessible (protected or private) or non-existing properties.
+		__get() Method: ``__get()`` is a magic method: it is utilized for reading data from inaccessible, either protected or private, or non-existing properties.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: __get() Method
-	:twitter:description: __get() Method: ``__get()`` is a magic method: it is utilized for reading data from inaccessible (protected or private) or non-existing properties
+	:twitter:description: __get() Method: ``__get()`` is a magic method: it is utilized for reading data from inaccessible, either protected or private, or non-existing properties
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: __get() Method
 	:og:type: article
-	:og:description: ``__get()`` is a magic method: it is utilized for reading data from inaccessible (protected or private) or non-existing properties
+	:og:description: ``__get()`` is a magic method: it is utilized for reading data from inaccessible, either protected or private, or non-existing properties
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/-__get.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get.ini.html","name":"__get() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 19:49:03 +0000","dateModified":"Sun, 12 Jul 2026 19:49:03 +0000","description":"``__get()`` is a magic method: it is utilized for reading data from inaccessible (protected or private) or non-existing properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get.ini.html","name":"__get() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:44:29 +0000","dateModified":"Mon, 03 Aug 2026 16:44:29 +0000","description":"``__get()`` is a magic method: it is utilized for reading data from inaccessible, either protected or private, or non-existing properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/__get() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 __get() Method
 --------------
 
-``__get()`` is a magic method: it is utilized for reading data from inaccessible (protected or private) or non-existing properties.
+``__get()`` is a magic method: it is utilized for reading data from inaccessible, either protected or private, or non-existing properties.
 
 That way, it is possible to create dynamically properties, without hardcoding them.
 
@@ -58,6 +58,6 @@ The method must be declared as ``public``, or it is implicit. Arguments cannot b
 
 `Documentation <https://www.php.net/manual/en/language.oop5.magic.php>`__
 
-See also `What are magic methods and how to use them in PHP ? <https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/>`_.
+See also `What are magic methods and how to use them in PHP ? <https://www.geeksforgeeks.org/what-are-magic-methods-and-how-to-use-them-in-php/>`_ and `__get(), __set(), __isset() and __unset() <https://riptutorial.com/php/example/3635/--get------set------isset---and---unset-->`_.
 
 Related : :ref:`Magic Methods <magicmethod>`, :ref:`__set() Method <-__set>`, :ref:`__isset() Method <-__isset>`, :ref:`Magic Constants <magic-constant>`, :ref:`Magic Methods <magic-method>`, :ref:`Magic Property <magic-property>`, :ref:`Property Hook <property-hook>`

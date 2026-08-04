@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/abstract.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/abstract.ini.html","name":"Abstract Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 21:34:49 +0000","dateModified":"Fri, 10 Jul 2026 21:34:49 +0000","description":"PHP has ``abstract`` classes, properties and methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/abstract.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/abstract.ini.html","name":"Abstract Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:32:14 +0000","dateModified":"Tue, 04 Aug 2026 11:32:14 +0000","description":"PHP has ``abstract`` classes, properties and methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Abstract Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Abstract Keyword
@@ -28,7 +28,7 @@ PHP does not support abstract constants, so a class constant must be defined wit
 
 Traits may have abstract methods, and they don't have to be labelled abstract. On the other hand, any class that holds such a trait must either overwrite the abstract methods, or be itself declared abstract. 
 
-Interfaces acts has implicit and systematic abstract classes: each of the methods in an interface is implicitely considered abstract.
+Interfaces acts has implicit and systematic abstract classes: each of the methods in an interface is implicitly considered abstract.
 
 An abstract method may be made concrete. It cannot be turned back into an abstract method later. 
 

@@ -34,4 +34,4 @@ Text encoding is the process of converting characters into a specific format tha
 
 See also `Supported Character Encodings <https://www.php.net/manual/en/mbstring.supported-encodings.php>`_.
 
-Related : :ref:`declare Encoding <declare-encoding>`, :ref:`Text Encoding <text-encoding>`, :ref:`HTTP Encoding <http-encoding>`, :ref:`Iconv <iconv>`, :ref:`Multibyte String <mbstring>`, :ref:`Character <character>`, :ref:`default_charset <default_charset>`, :ref:`UTF-8 <utf-8>`, :ref:`WHATWG <whatwg>`, :ref:`HTML Entity <html-entity>`
+Related : :ref:`declare Encoding <declare-encoding>`, :ref:`Text Encoding <text-encoding>`, :ref:`HTTP Encoding <http-encoding>`, :ref:`Iconv <iconv>`, :ref:`Multibyte String <mbstring>`, :ref:`Character <character>`, :ref:`default_charset <default_charset>`, :ref:`UTF-8 <utf-8>`, :ref:`Web Hypertext Application Technology Working Group (WHATWG) <whatwg>`, :ref:`HTML Entity <html-entity>`

@@ -30,6 +30,6 @@ It was originally developed by Google and is now an open-source project under th
 
 See also `gRPC Fundamental and Concept <https://medium.com/swlh/grpc-fundamental-and-concept-93414d7956df>`_ and `9 APIs explained <https://www.youtube.com/watch?v=pBASqUbZgkY>`_.
 
-Related : :ref:`REST API <rest-api>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`WebRTC <webrtc>`, :ref:`Websocket <websocket>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Application <application>`
+Related : :ref:`REST API <rest-api>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`Web Real-Time Communication (WebRTC) <webrtc>`, :ref:`Websocket <websocket>`, :ref:`Application Programming Interface (API) <api>`, :ref:`Application <application>`
 
 Related packages : `grpc/grpc <https://packagist.org/packages/grpc/grpc>`_, `spiral/roadrunner-grpc <https://packagist.org/packages/spiral/roadrunner-grpc>`_

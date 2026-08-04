@@ -44,6 +44,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Domain Design Driven (DDD) <ddd>`
 + :ref:`Domain Name System (DNS) <dns>`
 + :ref:`Don't Repeat Yourself (DRY) <dry>`
++ :ref:`ETL <etl>`
 + :ref:`EXIF (Exchangeable Image File Format) <exif>`
 + :ref:`Extensible Markup Language (XML) <xml>`
 + :ref:`Fast Artificial Neural Network (FANN) <fann>`
@@ -53,6 +54,7 @@ List of acronyms, used in this dictionary.
 + :ref:`File Transfer Protocol Secure (FTPS) <ftps>`
 + :ref:`First In, First Out (FIFO) <fifo>`
 + :ref:`Foreign Function Interface (FFI) <ffi>`
++ :ref:`Foreign Key <foreign-key>`
 + :ref:`Framework Interoperability Group (FIG) <php-fig>`
 + :ref:`Function-as-a-Service (FaaS) <faas>`
 + :ref:`Functional Programming <functional-programming>`
@@ -154,6 +156,7 @@ List of acronyms, used in this dictionary.
 + :ref:`Support Vector Machine (SVM) <svm>`
 + :ref:`Template Metaprogramming (TMP) <template-metaprogramming>`
 + :ref:`Terminal User Interface (TUI) <tui>`
++ :ref:`Test Impact Analysis <test-impact-analysis>`
 + :ref:`Time Of Check To Time Of Use (TOCTOU) <toctou>`
 + :ref:`Time To Live (TTL) <ttl>`
 + :ref:`Token Oriented Object Notation (TOON) <toon>`
@@ -168,8 +171,11 @@ List of acronyms, used in this dictionary.
 + :ref:`Value Object (VO) <vo>`
 + :ref:`Version Control System (VCS) <vcs>`
 + :ref:`Virtual Machine (VM) <virtual-machine>`
++ :ref:`Web Hypertext Application Technology Working Group (WHATWG) <whatwg>`
++ :ref:`Web Real-Time Communication (WebRTC) <webrtc>`
 + :ref:`World Wide Web (WWW) <web>`
 + :ref:`Write Everything Twice (WET) <wet>`
++ :ref:`Write-Ahead Logging (WAL) <wal>`
 + :ref:`YAML Ain't Markup Language (YAML) <yaml>`
 + :ref:`You Are Not Going To Need It (YAGNI) <yagni>`
 
@@ -244,6 +250,8 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`CAP Theorem <cap-theorem>`
 + :ref:`Canary <canary>`
 + :ref:`Cancellation <cancellation>`
++ :ref:`Cascading <cascading>`
++ :ref:`Cascading Failure <cascading-failure>`
 + :ref:`Case Sensitivity <case-sensitivity>`
 + :ref:`Centralization <centralization>`
 + :ref:`Channel <channel>`
@@ -320,6 +328,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Double Check <double-check>`
 + :ref:`Duck Typing <ducktyping>`
 + :ref:`Dynamic <dynamic>`
++ :ref:`ETL <etl>`
 + :ref:`Early Binding <early-binding>`
 + :ref:`Edge Case <edge-case>`
 + :ref:`Edge Computing <edge-computing>`
@@ -355,6 +364,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Fire-and-forget <fire-and-forget>`
 + :ref:`First-Class Module <first-class-module>`
 + :ref:`Footgun <footgun>`
++ :ref:`Foreign Key <foreign-key>`
 + :ref:`Format <format>`
 + :ref:`Framework <framework>`
 + :ref:`Free <free>`
@@ -500,6 +510,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`Record Type <record-type>`
 + :ref:`Recursion <recursion>`
 + :ref:`Refactoring <refactoring>`
++ :ref:`Referential Integrity <referential-integrity>`
 + :ref:`Refinement Type <refinement-type>`
 + :ref:`Reflection <reflection>`
 + :ref:`Registry <registry>`
@@ -592,9 +603,10 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + :ref:`View <view>`
 + :ref:`View In Presentation <view-presentation>`
 + :ref:`Visual Debt <visual-debt>`
-+ :ref:`WAL <wal>`
++ :ref:`Worker <worker>`
 + :ref:`Workflow <workflow>`
 + :ref:`Writable <writable>`
++ :ref:`Write-Ahead Logging (WAL) <wal>`
 + :ref:`Writeable <writeable>`
 + :ref:`Writing <writing>`
 + :ref:`Zero-code <zero-code>`

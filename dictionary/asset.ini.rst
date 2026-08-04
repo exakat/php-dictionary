@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/asset.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/asset.ini.html","name":"Asset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:41 +0000","dateModified":"Fri, 19 Jun 2026 21:24:41 +0000","description":"Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/asset.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/asset.ini.html","name":"Asset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 10:53:36 +0000","dateModified":"Tue, 04 Aug 2026 10:53:36 +0000","description":"Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Asset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Asset
@@ -27,6 +27,8 @@ Web assets, or also assets, is an encompassing term, that designates all essenti
 Assets are often reduced to their URL, which might be hard coded or dynamically generated.
 
 `Documentation <https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/web_performance_basics>`__
+
+See also `An Introduction to Web Assets: Components and Elements for Digital Design <https://www.institutedata.com/us/blog/an-introduction-to-web-assets-components-and-elements-for-digital-design/>`_ and `What are Website Assets <https://vonclaro.com/blog/what-are-website-assets>`_.
 
 Related : :ref:`Universal Resource Locator (URL) <url>`, :ref:`CSS <css>`, :ref:`Javascript <javascript>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Front-end <frontend>`
 

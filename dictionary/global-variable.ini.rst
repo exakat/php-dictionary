@@ -1,28 +1,28 @@
 .. _global-variable:
 .. meta::
 	:description:
-		Global Variables: Variables that reside in the global scope, and may be imported with the global keyword.
+		Global Variables: Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Global Variables
-	:twitter:description: Global Variables: Variables that reside in the global scope, and may be imported with the global keyword
+	:twitter:description: Global Variables: Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:title: Global Variables
 	:og:type: article
-	:og:description: Variables that reside in the global scope, and may be imported with the global keyword
+	:og:description: Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global-variable.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global-variable.ini.html","name":"Global Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Variables that reside in the global scope, and may be imported with the global keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Global Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global-variable.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global-variable.ini.html","name":"Global Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:19:59 +0000","dateModified":"Mon, 03 Aug 2026 16:19:59 +0000","description":"Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Global Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Global Variables
 ----------------
 
-Variables that reside in the global scope, and may be imported with the global keyword.
+Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword.
 
 To become a global variable, a variable may use one of the following ways: 
 
@@ -37,25 +37,28 @@ Global variables provides a way to share data in different and remote scopes. It
    
    <?php
    
-   
-   global $count;
-   $count = 0;
-   
-   function counter() {
        global $count;
+       $count = 0;
        
-       // no return here
-       ++$count;
-   }
-   
-   counter(); 
-   echo $count; // print 1
-   counter(); 
-   echo $count; // print 2
+       function counter() {
+           global $count;
+           
+           // no return here
+           ++$count;
+       }
+       
+       counter(); 
+       echo $count; // print 1
+       counter(); 
+       echo $count; // print 2
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`__
 
+See also `How to Declare a Global Variable in PHP? <https://www.geeksforgeeks.org/php/how-to-declare-a-global-variable-in-php/>`_.
+
 Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`$GLOBALS <$globals>`, :ref:`global Scope <global>`, :ref:`Superglobal Variables <superglobal>`, :ref:`Distributed State <distributed-state>`, :ref:`$GLOBALS <globals>`, :ref:`Hidden State <hidden-state>`, :ref:`Implicit State <implicit-state>`, :ref:`Legacy <legacy>`, :ref:`Local Variable <local-variable>`
+
+Related packages : `sebastian/global-state <https://packagist.org/packages/sebastian/global-state>`_

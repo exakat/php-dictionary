@@ -30,6 +30,6 @@ PHP does not have built-in WebSocket support. There are libraries like Ratchet o
 
 See also `WebSocket with PHP <https://dev.to/robertobutti/websocket-with-php-4k2c>`_ and `Building realtime apps with PHP and WebSockets <https://ably.com/topic/websockets-php>`_.
 
-Related : :ref:`Socket <socket>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Pub/Sub <pubsub>`, :ref:`Real Time <real-time>`, :ref:`WebRTC <webrtc>`
+Related : :ref:`Socket <socket>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Pub/Sub <pubsub>`, :ref:`Real Time <real-time>`, :ref:`Web Real-Time Communication (WebRTC) <webrtc>`
 
 Related packages : `cboden/ratchet <https://packagist.org/packages/cboden/ratchet>`_, `textalk/websocket <https://packagist.org/packages/textalk/websocket>`_

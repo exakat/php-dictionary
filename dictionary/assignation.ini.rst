@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignation.ini.html","name":"Assignations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Assignation refers to the process of assigning a value to a variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assignations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/assignation.ini.html","name":"Assignations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 10:55:03 +0000","dateModified":"Tue, 04 Aug 2026 10:55:03 +0000","description":"Assignation refers to the process of assigning a value to a variable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Assignations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Assignations
@@ -33,18 +33,20 @@ Finally, there are some inherent assignations: ``foreach()`` loops, method calls
    
    <?php
    
-   $a = 'b';
-   
-   // $c is assigned by 
-   foreach([1, 2, 3] as $c) {}
-   echo $c; // $c is 3
-   
-   // list call that assigns values
-   [$a, $b, $c] = ['a', 'b', 'C'];
+       $a = 'b';
+       
+       // $c is assigned by 
+       foreach([1, 2, 3] as $c) {}
+       echo $c; // $c is 3
+       
+       // list call that assigns values
+       [$a, $b, $c] = ['a', 'b', 'C'];
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
+
+See also `Assignment Operators Explained with Examples <https://softwarebhai.com/blog/php-assignment-operators>`_.
 
 Related : :ref:`Short Assignations <short-assignation>`, :ref:`Overwrite <overwrite>`, :ref:`Iffectation <iffectation>`, :ref:`Short Syntax <short-syntax>`

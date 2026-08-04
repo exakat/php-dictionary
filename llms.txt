@@ -26,7 +26,7 @@
 [__isset() Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/__isset.ini.html): ``__isset()`` is a magic method:
 [__LINE__](https://php-dictionary.readthedocs.io/en/latest/dictionary/__line__.ini.html): ``__LINE__`` holds the current line number in the current file.
 [__METHOD__](https://php-dictionary.readthedocs.io/en/latest/dictionary/__method__.ini.html): ``__METHOD__`` holds the current method or function name.
-[__serialize() Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/__serialize.ini.html): The ``__serialize()`` magic method is called when a script tries to construct an associative array of key/value pairs that represent the serialized form of the object.
+[__serialize() Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/__serialize.ini.html): The ``__serialize()`` method is called when a script tries to construct an associative array of key/value pairs that represent the serialized form of the object.
 [__set() Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/__set.ini.html): ``__set()`` is a magic method:
 [__set_state() Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/__set_state.ini.html): ``__set_state()`` is a magic method:
 [__sleep() Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/__sleep.ini.html): ``__sleep()`` is a magic method:
@@ -242,6 +242,8 @@
 [CAP Theorem](https://php-dictionary.readthedocs.io/en/latest/dictionary/cap-theorem.ini.html): The CAP theorem, also known as Brewer's theorem, states that a distributed data store can provide at most two of the following three guarantees simultaneously:
 [CAPTCHA](https://php-dictionary.readthedocs.io/en/latest/dictionary/captcha.ini.html): A ``CAPTCHA`` is a security test used on websites to tell whether the user is a human or a computer program, aka bot.
 [Carriage Return](https://php-dictionary.readthedocs.io/en/latest/dictionary/carriage-return.ini.html): A carriage return is a whitespace character, that historically represents moving the cursor to the beginning of the line, without changing line.
+[Cascading Failure](https://php-dictionary.readthedocs.io/en/latest/dictionary/cascading-failure.ini.html): A cascading failure is a failure that starts in one component and propagates to dependent components, each overload or error triggering the next, until a localized problem becomes a system-wide outage.
+[Cascading](https://php-dictionary.readthedocs.io/en/latest/dictionary/cascading.ini.html): Cascading is the general pattern where an action, or a change, applied to one element automatically triggers the same, or a related, action on the elements that depend on it, propagating outward from the original point.
 [Case Sensitivity](https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html): Case sensitivity refers to the way PHP retrieves names when it looks for a definition:
 [Case](https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html): ``case`` is a PHP keyword, which may be used in three distinct situations:
 [Cast Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html): Cast operators change the type of the variable to the desired type.
@@ -434,7 +436,7 @@
 [Declaration](https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html): A declaration is a statement that defines a structure, such as a function, a class, method, property, etc.
 [Declarative Programming](https://php-dictionary.readthedocs.io/en/latest/dictionary/declarative-programming.ini.html): Declarative programming is a programming style, where the goal of the task is described, but not the method to reach it.
 [declare Encoding](https://php-dictionary.readthedocs.io/en/latest/dictionary/declare-encoding.ini.html): ``declare()`` with the ``encoding`` keyword specifies the encoding of the file that holds PHP script.
-[declare()](https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html): ``declare()`` is a language construct.
+[declare()](https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html): ``declare()``is used to set execution directives for a block of code.
 [Decode](https://php-dictionary.readthedocs.io/en/latest/dictionary/decode.ini.html): To decode is to transform a piece of data, from a specialized format to a human readable one.
 [Decorator Pattern](https://php-dictionary.readthedocs.io/en/latest/dictionary/decorator.ini.html): A decorator is a design pattern used to add behavior or responsibilities to objects dynamically, without altering their code.
 [Decoupling](https://php-dictionary.readthedocs.io/en/latest/dictionary/decoupling.ini.html): Decoupling refers to the software engineering concept where different parts of a system are made as independent from each other as possible.
@@ -448,7 +450,7 @@
 [Defensive Programming](https://php-dictionary.readthedocs.io/en/latest/dictionary/defensive-programming.ini.html): Defensive programming is a programming approach where the code is written assuming that things can go wrong, even when they shouldn't, and it should actively guard against incorrect input, unexpected states, or misuse.
 [Defer Statement](https://php-dictionary.readthedocs.io/en/latest/dictionary/defer.ini.html): Go's ``defer`` statement schedules a function call to run when the enclosing function returns, regardless of which ``return`` statement was reached or whether a panic is in flight:
 [define()](https://php-dictionary.readthedocs.io/en/latest/dictionary/define.ini.html): ``define()`` is a PHP function, that introduces global constant definitions.
-[defined()](https://php-dictionary.readthedocs.io/en/latest/dictionary/defined.ini.html): ``defined()`` is a PHP function, that checks if a constant or a class constant is defined in the current context of execution.
+[defined()](https://php-dictionary.readthedocs.io/en/latest/dictionary/defined.ini.html): ``defined()`` checks if a constant or a class constant is defined in the current context of execution.
 [Definition](https://php-dictionary.readthedocs.io/en/latest/dictionary/definition.ini.html): A definition is the description of a particular constant, function, method, property, class, trait, interface or enum.
 [delayedtargetvalidation](https://php-dictionary.readthedocs.io/en/latest/dictionary/delayedtargetvalidation.ini.html): The DelayedTargetValidation attribute is meant to make other PHP engine attributes optional.
 [Delimiter](https://php-dictionary.readthedocs.io/en/latest/dictionary/delimiter.ini.html): Delimiters are specific characters that starts and ends a specific area.
@@ -536,7 +538,7 @@
 [Dynamic](https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic.ini.html): Dynamic is a common concept, and may be used in three distinct situations:
 [E](https://php-dictionary.readthedocs.io/en/latest/dictionary/e.ini.html): The letter ``e``, or ``E``, plays several distinct roles:
 [each](https://php-dictionary.readthedocs.io/en/latest/dictionary/each.ini.html): ``each()`` was a native function, that would yield each element in an array.
-[Early Binding](https://php-dictionary.readthedocs.io/en/latest/dictionary/early-binding.ini.html): Early binding is the fact that PHP allows using a class before its declaration in the same file.
+[Early Binding](https://php-dictionary.readthedocs.io/en/latest/dictionary/early-binding.ini.html): Early binding is the feature that makes PHP allow using a class before its declaration, when the declaration is in same file.
 [Echo Tag](https://php-dictionary.readthedocs.io/en/latest/dictionary/echo-tag.ini.html): Echo tag is a special PHP opening tag:
 [Echo](https://php-dictionary.readthedocs.io/en/latest/dictionary/echo.ini.html): ``echo`` is a language construct used to output text to the browser or the output stream.
 [Ecosystem](https://php-dictionary.readthedocs.io/en/latest/dictionary/ecosystem.ini.html): The PHP ecosystem refers to the entire environment around the language, made of the tools, communities, innovations, libraries, standards, events, and platforms built around, with and for the programming language.
@@ -578,6 +580,7 @@
 [Escape Sequences](https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html): Escape sequences are sequences of characters with a special meaning.
 [escapeshellarg()](https://php-dictionary.readthedocs.io/en/latest/dictionary/escapeshellarg.ini.html): ``escapeshellarg()`` is a PHP function that wraps a string in single quotes and escapes any existing single quotes within it, making the string safe to pass as a single argument to a shell command.
 [escapeshellcmd()](https://php-dictionary.readthedocs.io/en/latest/dictionary/escapeshellcmd.ini.html): ``escapeshellcmd()`` is a PHP function that escapes shell metacharacters in a full command string, preventing shell interpretation of characters such as ``&``, ``;``, ``|``, ``(``, ``)``, ``[``, ``]``, ``{``, ``}``, ``$``, `` \` ``, ``\``, ``"``, ``'``, and whitespace sequences that could alter the intended command.
+[ETL](https://php-dictionary.readthedocs.io/en/latest/dictionary/etl.ini.html): ETL, for Extract, Transform, Load, is a three-stage process used to move data from one or more source systems into a target system.
 [Eval()](https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html): The ``eval()`` function executes a string as a PHP code.
 [Event Driven](https://php-dictionary.readthedocs.io/en/latest/dictionary/event-driven.ini.html): Event-driven programming is a programming paradigm that focuses on the flow of a program's execution being determined by events or actions that occur, rather than following a strictly sequential, procedural path.
 [Event Loop](https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html): An event loop is a mechanism for handling asynchronous operations and event-driven programming.
@@ -665,6 +668,7 @@
 [fopen()](https://php-dictionary.readthedocs.io/en/latest/dictionary/fopen.ini.html): ``fopen()`` is a PHP native function which opens a file.
 [For](https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html): ``for()`` is a loop structure.
 [foreach()](https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html): ``foreach()`` is the most popular type of loop.
+[Foreign Key](https://php-dictionary.readthedocs.io/en/latest/dictionary/foreign-key.ini.html): A foreign key is a column, or set of columns, in a relational database table that references the primary key of another table.
 [Form](https://php-dictionary.readthedocs.io/en/latest/dictionary/form.ini.html): A form is a web page component to collect and submit information.
 [Format](https://php-dictionary.readthedocs.io/en/latest/dictionary/format.ini.html): Format is a set of rules to structure a piece of text, and make it parsable by a specific engine.
 [Forum](https://php-dictionary.readthedocs.io/en/latest/dictionary/forum.ini.html): A forum is a web application that allows users to hold structured discussions online.
@@ -707,7 +711,7 @@
 [Global Code](https://php-dictionary.readthedocs.io/en/latest/dictionary/global-code.ini.html): The global code is the code that doesn't belong to any method or function.
 [Global Space](https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html): The term ``global space`` refers to the global namespace ``\\\\`` or the top-level scope in the PHP language.
 [Global State](https://php-dictionary.readthedocs.io/en/latest/dictionary/global-state.ini.html): Global state refers to data that is accessible from anywhere in the application, typically stored in global variables, superglobals, or static class properties.
-[Global Variables](https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html): Variables that reside in the global scope, and may be imported with the global keyword.
+[Global Variables](https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html): Global variables reside in the global scope, and may be imported in a local scope with the ``global`` keyword.
 [global Scope](https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html): The global scope is the top level scope.
 [$GLOBALS](https://php-dictionary.readthedocs.io/en/latest/dictionary/globals.ini.html): $GLOBALS is a global variable, that host all other global variables, during a PHP execution.
 [Glue](https://php-dictionary.readthedocs.io/en/latest/dictionary/glue.ini.html): Glue represents the piece of string that is used as separator between elements in a ``join()`` operation.
@@ -844,7 +848,7 @@
 [Intersection Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html): Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type.
 [Internationalization Functions](https://php-dictionary.readthedocs.io/en/latest/dictionary/intl.ini.html): The internationalization extension performs operations with locales.
 [Introspection](https://php-dictionary.readthedocs.io/en/latest/dictionary/introspection.ini.html): Introspection is the ability to examine the properties and behavior of objects, classes, and functions at runtime.
-[InvalidArgumentException](https://php-dictionary.readthedocs.io/en/latest/dictionary/invalidargumentexception.ini.html): Exception thrown if an argument is not of the expected type.
+[InvalidArgumentException](https://php-dictionary.readthedocs.io/en/latest/dictionary/invalidargumentexception.ini.html): ``InvalidArgumentException`` is an ``Exception`` thrown when an argument is not of the expected type.
 [Type Invariant](https://php-dictionary.readthedocs.io/en/latest/dictionary/invariant.ini.html): A type invariant is a data container whose type can't change between a parent class and a child class.
 [Code Inventory](https://php-dictionary.readthedocs.io/en/latest/dictionary/inventory.ini.html): A code inventory is the collection of all elements of the same type, for categorized review.
 [Invoke](https://php-dictionary.readthedocs.io/en/latest/dictionary/invoke.ini.html): It is possible to invoke an object, that means calling a function built with the object as the function name.
@@ -1342,6 +1346,7 @@
 [Refactoring](https://php-dictionary.readthedocs.io/en/latest/dictionary/refactoring.ini.html): Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior.
 [Reference Count](https://php-dictionary.readthedocs.io/en/latest/dictionary/reference-count.ini.html): Reference counting is the way PHP keeps track of the usage of a value.
 [References](https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html): References allow creating multiple variables that refer to the same underlying value in memory.
+[Referential Integrity](https://php-dictionary.readthedocs.io/en/latest/dictionary/referential-integrity.ini.html): Referential integrity is a database property guaranteeing that a reference from one row to another always points to a row that actually exists.
 [Refinement Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/refinement-type.ini.html): A refinement type is a base type combined with a logical predicate that every value of that type must satisfy.
 [Reflection](https://php-dictionary.readthedocs.io/en/latest/dictionary/reflection.ini.html): PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime.
 [ReflectionException](https://php-dictionary.readthedocs.io/en/latest/dictionary/reflectionexception.ini.html): ReflectionException is thrown whenever the Reflection API encounters an error.
@@ -1499,7 +1504,7 @@
 [Snapshot](https://php-dictionary.readthedocs.io/en/latest/dictionary/snapshot.ini.html): A snapshot captures the complete state of an object or aggregate at a specific point in time.
 [Simple Network Management Protocol (SNMP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/snmp.ini.html): SNMP stands for 'Simple Network Management Protocol'.
 [SNMP3](https://php-dictionary.readthedocs.io/en/latest/dictionary/snmp3.ini.html): ``SNMP3`` The SNMP extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
-[Service-Oriented Architecture (SOA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/soa.ini.html): Service-Oriented Architecture, or SOA, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces.
+[Service-Oriented Architecture (SOA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/soa.ini.html): Service-Oriented Architecture, or ``SOA``, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces.
 [Simple Object Access Protocol (SOAP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/soap.ini.html): ``SOAP`` is the acronym for Simple Object Access Protocol.
 [Socket](https://php-dictionary.readthedocs.io/en/latest/dictionary/socket.ini.html): A socket refers to a communication endpoint that allows two processes to exchange data over a network.
 [Software Transactional Memory (STM)](https://php-dictionary.readthedocs.io/en/latest/dictionary/software-transactional-memory.ini.html): Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
@@ -1510,7 +1515,7 @@
 [Single Page Application (SPA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/spa.ini.html): SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server.
 [Space](https://php-dictionary.readthedocs.io/en/latest/dictionary/space.ini.html): Space is the `` `` character:
 [Spaceship Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html): Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value.
-[SPARQL](https://php-dictionary.readthedocs.io/en/latest/dictionary/sparql.ini.html): SPARQL is a query language for RDF, Resource Description Framework, data stores.
+[SPARQL](https://php-dictionary.readthedocs.io/en/latest/dictionary/sparql.ini.html): ``SPARQL`` is a query language for RDF, Resource Description Framework, data stores.
 [Special Constant](https://php-dictionary.readthedocs.io/en/latest/dictionary/special-constant.ini.html): The only special constant is the ``:
 [Special Types](https://php-dictionary.readthedocs.io/en/latest/dictionary/special-typehint.ini.html): PHP defines some special types.
 [Specification](https://php-dictionary.readthedocs.io/en/latest/dictionary/specification.ini.html): A specification is a formal description of expected behaviour, constraints, or requirements.
@@ -1636,6 +1641,7 @@ It applies to several concepts:
 [Test Data Provider](https://php-dictionary.readthedocs.io/en/latest/dictionary/test-data-provider.ini.html): A test data provider is a mechanism or component that supplies the necessary data for executing test cases.
 [Test-Driven Development](https://php-dictionary.readthedocs.io/en/latest/dictionary/test-driven-development.ini.html): Test-driven development is a software development approach where tests are written before the code.
 [Test Framework](https://php-dictionary.readthedocs.io/en/latest/dictionary/test-framework.ini.html): A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests.
+[Test Impact Analysis](https://php-dictionary.readthedocs.io/en/latest/dictionary/test-impact-analysis.ini.html): Test Impact Analysis, or ``TIA``, is a technique that selects and runs only the tests affected by a given code change, instead of running the whole test suite.
 [Test Pyramid](https://php-dictionary.readthedocs.io/en/latest/dictionary/test-pyramid.ini.html): The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy.
 [Test](https://php-dictionary.readthedocs.io/en/latest/dictionary/test.ini.html): Tests are tools that monitor the behavior of a code.
 [Testable](https://php-dictionary.readthedocs.io/en/latest/dictionary/testable.ini.html): A piece of code is testable when it may have related tests, that checks its behavior.
@@ -1769,7 +1775,7 @@ It applies to several concepts:
 [(void) Cast](https://php-dictionary.readthedocs.io/en/latest/dictionary/void-cast.ini.html): The ``(void)`` cast is a special cast.
 [Void](https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html): Void is a return type.
 [Vulnerability](https://php-dictionary.readthedocs.io/en/latest/dictionary/vulnerability.ini.html): A vulnerability is a weakness or flaw in a computer system, software, hardware, or even a process that can be exploited by an attacker to perform unauthorized actions.
-[WAL](https://php-dictionary.readthedocs.io/en/latest/dictionary/wal.ini.html): Write-Ahead Logging, also called WAL, is a standard technique for ensuring data integrity in databases.
+[Write-Ahead Logging (WAL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/wal.ini.html): Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases.
 [Warning](https://php-dictionary.readthedocs.io/en/latest/dictionary/warning.ini.html): A warning is a non-fatal runtime error that alerts developers about a problem in the code, but doesn't stop script execution at that point.
 [Waterfall](https://php-dictionary.readthedocs.io/en/latest/dictionary/waterfall.ini.html): Waterfall is a sequential software development methodology where each phase must be completed before the next one begins.
 [Weak Cryptography](https://php-dictionary.readthedocs.io/en/latest/dictionary/weak-cryptography.ini.html): A weak cryptography vulnerability occurs when an application uses outdated, poorly designed, or insufficient cryptographic algorithms, protocols, or implementations to protect sensitive data.
@@ -1779,18 +1785,19 @@ It applies to several concepts:
 [Web-spider](https://php-dictionary.readthedocs.io/en/latest/dictionary/web-spider.ini.html): A web spider, also called a web crawler or bot, is a program that automatically browses the internet and collects information from websites.
 [World Wide Web (WWW)](https://php-dictionary.readthedocs.io/en/latest/dictionary/web.ini.html): The WWW stands for World Wide Web:
 [Webhook](https://php-dictionary.readthedocs.io/en/latest/dictionary/webhook.ini.html): A webhook is an HTTP callback mechanism where a server notifies a client by sending an HTTP POST request to a pre-registered URL when a specific event occurs.
-[WebRTC](https://php-dictionary.readthedocs.io/en/latest/dictionary/webrtc.ini.html): WebRTC, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software.
+[Web Real-Time Communication (WebRTC)](https://php-dictionary.readthedocs.io/en/latest/dictionary/webrtc.ini.html): ``WebRTC``, short for Web Real-Time Communication, is an open-source technology that enables real-time communication directly between web browsers or applications without the need for plugins or external software.
 [Webscraping](https://php-dictionary.readthedocs.io/en/latest/dictionary/webscraping.ini.html): Web scraping is the process of extracting data from websites.
 [Webserver](https://php-dictionary.readthedocs.io/en/latest/dictionary/webserver.ini.html): A web server is a computer system or software application that delivers web pages to users over the internet.
 [Webshell](https://php-dictionary.readthedocs.io/en/latest/dictionary/webshell.ini.html): A webshell is a malicious script uploaded to a web server that allows an attacker to remotely control the server using a web browser.
 [Websocket](https://php-dictionary.readthedocs.io/en/latest/dictionary/websocket.ini.html): WebSockets are a communication protocol that enables full-duplex, real-time communication between a client, such as a a web browser, and a server over a single, persistent TCP connection.
 [Write Everything Twice (WET)](https://php-dictionary.readthedocs.io/en/latest/dictionary/wet.ini.html): Write Everything Twice, WET, is a principle of software development aimed at reducing abstraction levels and decoupling code.
-[WHATWG](https://php-dictionary.readthedocs.io/en/latest/dictionary/whatwg.ini.html): WHATWG, the Web Hypertext Application Technology Working Group, is a community that develops and maintains web standards, including the HTML Living Standard, DOM, Fetch, URL, and Streams specifications.
+[Web Hypertext Application Technology Working Group (WHATWG)](https://php-dictionary.readthedocs.io/en/latest/dictionary/whatwg.ini.html): ``WHATWG``, the Web Hypertext Application Technology Working Group, is a community that develops and maintains web standards, including the HTML Living Standard, ``DOM``, Fetch, URL, and Streams specifications.
 [While](https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html): While is a loop structure.
 [Whitespace](https://php-dictionary.readthedocs.io/en/latest/dictionary/whitespace.ini.html): Whitespace refers to spaces, tabulations, and newline characters:
 [Wildcard](https://php-dictionary.readthedocs.io/en/latest/dictionary/wildcard.ini.html): The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything.
 [Class Wither Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/wither.ini.html): ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself.
 [Word Combination](https://php-dictionary.readthedocs.io/en/latest/dictionary/word-combinaison.ini.html): Word combination is the technique to build a new word by putting one or several words next to each other, and making the whole a distinct or specialized entity from the individual elements.
+[Worker](https://php-dictionary.readthedocs.io/en/latest/dictionary/worker.ini.html): A worker is a process, or thread, that consumes tasks from a queue and executes them, usually outside of the request/response cycle.
 [Workflow](https://php-dictionary.readthedocs.io/en/latest/dictionary/workflow.ini.html): A workflow is a sequence of tasks or steps that are performed to accomplish a specific goal.
 [Worktree](https://php-dictionary.readthedocs.io/en/latest/dictionary/worktree.ini.html): A worktree is a Git feature that allows multiple working directories to be linked to a single repository.
 [Design Pattern Wrapper](https://php-dictionary.readthedocs.io/en/latest/dictionary/wrapper-designpattern.ini.html): A wrapper is also a design pattern, also called an adaptor.
@@ -1805,7 +1812,7 @@ It applies to several concepts:
 [Writeable](https://php-dictionary.readthedocs.io/en/latest/dictionary/writeable.ini.html): Something is writeable when its current value may be modified.
 [Writing](https://php-dictionary.readthedocs.io/en/latest/dictionary/writing.ini.html): Writing is the action to replace a value in a data container with another one.
 [Xdebug](https://php-dictionary.readthedocs.io/en/latest/dictionary/xdebug.ini.html): Xdebug is an extension for PHP, and provides a range of features to improve the PHP development experience.
-[XHProf](https://php-dictionary.readthedocs.io/en/latest/dictionary/xhprof.ini.html): XHProf is a hierarchical, function-level profiler for PHP, originally developed at Facebook and later open-sourced.
+[XHProf](https://php-dictionary.readthedocs.io/en/latest/dictionary/xhprof.ini.html): ``XHProf`` is a hierarchical, function-level profiler for PHP, originally developed at Facebook and later open-sourced.
 [XML Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/xml-database.ini.html): An XML database is a database which uses XML for the storage format.
 [Extensible Markup Language (XML)](https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html): XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use.
 [XMLReader](https://php-dictionary.readthedocs.io/en/latest/dictionary/xmlreader.ini.html): The ``XMLReader`` extension is an XML Pull parser.

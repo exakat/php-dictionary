@@ -1,0 +1,7 @@
+# Database
+A database is an organized set of data, which may be queried.
+
+The database differs from the dataset by the query mechanism. 
+
+The database may be managed by a server, though it is not necessary.
+Related : [Dataset](Dataset), [Vector Database](Vector Database), [SQL Database](SQL Database), [Nosql Database](Nosql Database), [Key-value Stores](Key-value Stores), [XML Database](XML Database), [Connection Persistence](Connection Persistence), [Database Abstraction Layer (DBA) Extension](Database Abstraction Layer (DBA) Extension), [Framework](Framework), [Schema](Schema), [Application Server](Application Server), [Permission](Permission), [PostgreSQL](PostgreSQL), [Rollback](Rollback), [Search Engine](Search Engine), [Atomic Operation](Atomic Operation), [Column Database](Column Database), [Data Source Name (DSN)](Data Source Name (DSN)), [Transaction](Transaction), [Unique Identifier](Unique Identifier), [Database Commit](Database Commit), [Document Database](Document Database), [Handle](Handle), [Migration](Migration), [Foreign Key](Foreign Key), [Referential Integrity](Referential Integrity), [mysqli](mysqli), [Oracle](Oracle), [Change Data Capture](Change Data Capture), [Index For SQL](Index For SQL), [Latency](Latency), [Shared Database](Shared Database), [Universally Unique Lexicographically Sortable Identifier (ULID)](Universally Unique Lexicographically Sortable Identifier (ULID))

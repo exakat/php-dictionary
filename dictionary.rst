@@ -261,6 +261,8 @@ PHP Dictionary
    * :ref:`Canonical <canonical>`
    * :ref:`Capture The Flag (CTF) <ctf>`
    * :ref:`Carriage Return <carriage-return>`
+   * :ref:`Cascading <cascading>`
+   * :ref:`Cascading Failure <cascading-failure>`
    * :ref:`Case <case>`
    * :ref:`Case Sensitivity <case-sensitivity>`
    * :ref:`Cast Operator <cast>`
@@ -554,6 +556,7 @@ PHP Dictionary
    * :ref:`display_errors <display_errors>`
 * E
    * :ref:`E <e>`
+   * :ref:`ETL <etl>`
    * :ref:`EXIF (Exchangeable Image File Format) <exif>`
    * :ref:`Early Binding <early-binding>`
    * :ref:`Echo <echo>`
@@ -673,6 +676,7 @@ PHP Dictionary
    * :ref:`Footgun <footgun>`
    * :ref:`For <for>`
    * :ref:`Foreign Function Interface (FFI) <ffi>`
+   * :ref:`Foreign Key <foreign-key>`
    * :ref:`Form <form>`
    * :ref:`Format <format>`
    * :ref:`Forum <forum>`
@@ -1366,6 +1370,7 @@ PHP Dictionary
    * :ref:`Refactoring <refactoring>`
    * :ref:`Reference Count <reference-count>`
    * :ref:`References <reference>`
+   * :ref:`Referential Integrity <referential-integrity>`
    * :ref:`Refinement Type <refinement-type>`
    * :ref:`Reflection <reflection>`
    * :ref:`ReflectionException <reflectionexception>`
@@ -1666,6 +1671,7 @@ PHP Dictionary
    * :ref:`Test <test>`
    * :ref:`Test Data Provider <test-data-provider>`
    * :ref:`Test Framework <test-framework>`
+   * :ref:`Test Impact Analysis <test-impact-analysis>`
    * :ref:`Test Pyramid <test-pyramid>`
    * :ref:`Test-Driven Development <test-driven-development>`
    * :ref:`Testable <testable>`
@@ -1799,16 +1805,15 @@ PHP Dictionary
    * :ref:`var_export() <var_export>`
    * :ref:`variable_order <variable_order>`
 * W
-   * :ref:`WAL <wal>`
-   * :ref:`WHATWG <whatwg>`
    * :ref:`Warning <warning>`
    * :ref:`Waterfall <waterfall>`
    * :ref:`Weak Cryptography <weak-cryptography>`
    * :ref:`Weak References <weak-reference>`
    * :ref:`Weakmap <weakmap>`
    * :ref:`Web Application <web-app>`
+   * :ref:`Web Hypertext Application Technology Working Group (WHATWG) <whatwg>`
+   * :ref:`Web Real-Time Communication (WebRTC) <webrtc>`
    * :ref:`Web-spider <web-spider>`
-   * :ref:`WebRTC <webrtc>`
    * :ref:`Webhook <webhook>`
    * :ref:`Webscraping <webscraping>`
    * :ref:`Webserver <webserver>`
@@ -1818,6 +1823,7 @@ PHP Dictionary
    * :ref:`Whitespace <whitespace>`
    * :ref:`Wildcard <wildcard>`
    * :ref:`Word Combination <word-combinaison>`
+   * :ref:`Worker <worker>`
    * :ref:`Workflow <workflow>`
    * :ref:`Worktree <worktree>`
    * :ref:`World Wide Web (WWW) <web>`
@@ -1825,6 +1831,7 @@ PHP Dictionary
    * :ref:`Wrapper Pattern <wrapper-pattern>`
    * :ref:`Writable <writable>`
    * :ref:`Write Everything Twice (WET) <wet>`
+   * :ref:`Write-Ahead Logging (WAL) <wal>`
    * :ref:`Writeable <writeable>`
    * :ref:`Writing <writing>`
 * X

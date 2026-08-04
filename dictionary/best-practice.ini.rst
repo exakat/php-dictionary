@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/best-practice.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/best-practice.ini.html","name":"Best Practices","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Best Practices.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/best-practice.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/best-practice.ini.html","name":"Best Practices","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:53:47 +0000","dateModified":"Mon, 03 Aug 2026 16:53:47 +0000","description":"Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Best Practices.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Best Practices
@@ -26,12 +26,16 @@ Best practices, or also called good practices, are rules and guidelines that are
 
 For example, 'comment the code', 'use meaningful names' and 'optimisation is the root of all evil' are such rules. 
 
-Best practices are often grouped in a ruleset, such as SOLID, DRY or Calisthenics. 
+Best practices are often grouped in a ruleset, such as ``SOLID``, ``DRY`` or ``Calisthenics``. 
 
 It takes some effort to understand the value of the rules, without running into the errors they protect against.
 
+Some best practices focuses on syntax level elements, such as forbidding usage of ``@`` operator, or always using ``strict_types``.
+
+Best practices may be at odds one with another one. They may also be rejected by some developers while adored by others. There is no common list of best practices, and it evolves with time.
+
 `Documentation <https://en.wikipedia.org/wiki/Best_practice>`__
 
-See also `PHP - Best Practices 2019 <https://odan.github.io/2019/12/06/php-best-practice-2019.html>`_ and `Modern PHP Development: Best Practices for Today <https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f>`_.
+See also `PHP - Best Practices 2019 <https://odan.github.io/2019/12/06/php-best-practice-2019.html>`_, `PHP: The Right Way — Design Patterns <https://phptherightway.com/pages/Design-Patterns.html>`_ and `Modern PHP Development: Best Practices for Today <https://dev.to/sepehr/modern-php-development-best-practices-for-today-322f>`_.
 
-Related : :ref:`Design Pattern <design-pattern>`, :ref:`Pattern <pattern>`, :ref:`Convention <convention>`, :ref:`Explanation <explanation>`, :ref:`Habit <habit>`, :ref:`Standard <standard>`
+Related : :ref:`Design Pattern <design-pattern>`, :ref:`Pattern <pattern>`, :ref:`Convention <convention>`, :ref:`Explanation <explanation>`, :ref:`Habit <habit>`, :ref:`Standard <standard>`, :ref:`Don't Repeat Yourself (DRY) <dry>`, :ref:`SOLID <solid>`, 

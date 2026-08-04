@@ -733,6 +733,12 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/carriage-return.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cascading-failure.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/cascading.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html</loc>
  </url>
  <url>
@@ -1741,6 +1747,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/escapeshellcmd.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/etl.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/eval.ini.html</loc>
  </url>
  <url>
@@ -2000,6 +2009,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/foreign-key.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/form.ini.html</loc>
@@ -4027,6 +4039,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/referential-integrity.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/refinement-type.ini.html</loc>
  </url>
  <url>
@@ -4903,6 +4918,9 @@
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/test-framework.ini.html</loc>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/test-impact-analysis.ini.html</loc>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/test-pyramid.ini.html</loc>
  </url>
  <url>
@@ -5366,6 +5384,9 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/word-combinaison.ini.html</loc>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/worker.ini.html</loc>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/dictionary/workflow.ini.html</loc>

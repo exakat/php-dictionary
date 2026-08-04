@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fault-isolation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fault-isolation.ini.html","name":"Fault Isolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:40:41 +0000","dateModified":"Fri, 03 Jul 2026 07:40:41 +0000","description":"Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fault Isolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fault-isolation.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/fault-isolation.ini.html","name":"Fault Isolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:12:17 +0000","dateModified":"Tue, 04 Aug 2026 06:12:17 +0000","description":"Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Fault Isolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Fault Isolation
@@ -65,6 +65,6 @@ Fault isolation is implemented via timeout configuration on HTTP clients, circui
 
 See also `PHP Monitoring: Using PHP Observability Tools to Improve Web Apps <https://www.zend.com/blog/php-monitoring>`_.
 
-Related : :ref:`Circuit Breaker <circuit-breaker>`, :ref:`Resilience <resilience>`, :ref:`Microservice <microservice>`, :ref:`Distributed Monolith <distributed-monolith>`, :ref:`Distributed Systems <distributed-systems>`, :ref:`Coupling <coupling>`
+Related : :ref:`Circuit Breaker <circuit-breaker>`, :ref:`Resilience <resilience>`, :ref:`Microservice <microservice>`, :ref:`Distributed Monolith <distributed-monolith>`, :ref:`Distributed Systems <distributed-systems>`, :ref:`Coupling <coupling>`, :ref:`Cascading Failure <cascading-failure>`
 
 Related packages : `ackintosh/ganesha <https://packagist.org/packages/ackintosh/ganesha>`_

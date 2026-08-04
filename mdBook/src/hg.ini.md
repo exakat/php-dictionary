@@ -1,0 +1,3 @@
+# hg
+``HG`` is another name for Mercurial, which is a distributed version control system, DVCS, similar to Git. Mercurial is designed to help developers manage and track changes to source code and other files, like Subversion and Git. It is often used for collaborative software development and version control of various types of digital assets.
+Related : [Version Control System (VCS)](Version Control System (VCS)), [git](git), [SVN](SVN), [VCS Commit](VCS Commit), [Concurent Version System (CVS)](Concurent Version System (CVS))

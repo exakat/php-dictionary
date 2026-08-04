@@ -36,4 +36,4 @@ Standards emerge from practice, or are specified first, then implemented.
 
 `Documentation <https://en.wikipedia.org/wiki/De_facto_standard>`__
 
-Related : :ref:`Audit <audit>`, :ref:`Best Practices <best-practice>`, :ref:`Compliance <compliance>`, :ref:`WHATWG <whatwg>`
+Related : :ref:`Audit <audit>`, :ref:`Best Practices <best-practice>`, :ref:`Compliance <compliance>`, :ref:`Web Hypertext Application Technology Working Group (WHATWG) <whatwg>`

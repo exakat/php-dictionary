@@ -1,0 +1,23 @@
+# Days Are Not 86400 Seconds
+Days in seconds is a classic bug when dealing with dates. It happens when adding 86400 seconds to a time to get the same time on the next day. 
+
+The bug will happen most commonly twice a year, at the change of time from winter to summer time. Those days are one hour longer or shorter and lead to calculating the wrong time on the next day. 
+
+This bug may also have impact when the internal clock of the server is updated, or when extra leap seconds are added, by ``December 31st`` or ``June 30th``. It depends on the years.
+
+When dealing with days, it is recommended to use an interval, or use relative expression like ``'``tomorrow'``.
+```php
+<?php
+
+    $tomorrow = new DateTime('tomorrow');
+    $secondsLeft = $tomorrow->getTimestamp() - time();
+    echo $secondsLeft;
+
+?>
+```
+
+## See Also
+
++ [Adding 86400 seconds to Oct. 25 1998 gives wrong answer](https://bugs.php.net/bug.php?id=741)
+
+Related : [Days In Month](Days In Month), [DateTime](DateTime)

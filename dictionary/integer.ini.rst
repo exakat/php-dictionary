@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.ini.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 07:44:50 +0000","dateModified":"Thu, 09 Jul 2026 07:44:50 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.ini.html","name":"integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:12:07 +0000","dateModified":"Mon, 03 Aug 2026 16:12:07 +0000","description":"An integer, or ``int`` is a number of the set \u2124 = ``{","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 integer
@@ -42,5 +42,7 @@ Integers have several syntaxes: they may be written in binary, octal, decimal, h
 
 
 `Documentation <https://www.php.net/manual/en/language.types.integer.php>`__
+
+See also `PHP Integers <https://www.tutorialkart.com/php/php-integer/>`_.
 
 Related : :ref:`Addition <addition>`, :ref:`Binary Integer <binary-integer>`, :ref:`Multiplication <multiplication>`, :ref:`Numeric Separator <numeric-separator>`, :ref:`Octal Integer <octal-integer>`, :ref:`Scalar Types <scalar-type>`, :ref:`Sign <sign>`, :ref:`PHP_INT_MAX <php_int_max>`, :ref:`PHP_INT_MIN <php_int_min>`, :ref:`Positive Integer <positive-integer>`, :ref:`precision <precision>`, :ref:`abs() <abs>`, :ref:`Number <number>`, :ref:`Numeric Base <numeric-base>`, :ref:`Rounding <rounding>`, :ref:`Leading Zero Means Octal <leading-zero-means-octal>`, :ref:`Math <math>`

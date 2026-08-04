@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global.ini.html","name":"global Scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The global scope is the top level scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global Scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global.ini.html","name":"global Scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:17:24 +0000","dateModified":"Mon, 03 Aug 2026 16:17:24 +0000","description":"The global scope is the top level scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/global Scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 global Scope
@@ -27,25 +27,30 @@ The global scope is the top level scope. It is the scope when no function, or me
 
 Variables from the global scope are accessible in other scopes by using the ``global`` keyword, or the ``$GLOBALS`` variable. Variables in the global scope are automatically added to the $GLOBALS variable; in local scopes, the ``global`` keyword have that effect too.
 
+Some special variables are called superglobal: they are available in every scope.
+
+The opposite of the global scope is the local scope. 
+
+
 .. code-block:: php
    
    <?php
    
-   $x = 'A';
-   
-   function counter() {
-       echo $GLOBALS['A'];
-   
-       global $x;
+       $x = 'A';
        
-       echo $x;
-   }
-   
-   foo();
+       function counter() {
+           echo $GLOBALS['A'];
+       
+           global $x;
+           
+           echo $x;
+       }
+       
+       foo();
    
    ?>
 
 
 `Documentation <https://www.php.net/manual/en/reserved.variables.globals.php>`__
 
-Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`, :ref:`Namespaces <namespace>`, :ref:`$argv <$argv>`, :ref:`glob() <glob>`, :ref:`Local Scope <local>`, :ref:`Scope <scope>`, :ref:`Fallback To Global <fallback-to-global>`, :ref:`Variable Scope <variable-scope>`
+Related : :ref:`Variables <variable>`, :ref:`Static Variables <static-variable>`, :ref:`Variable Variables <variable-variable>`, :ref:`Global Variables <global-variable>`, :ref:`Namespaces <namespace>`, :ref:`$argv <$argv>`, :ref:`glob() <glob>`, :ref:`Local Scope <local>`, :ref:`Scope <scope>`, :ref:`Fallback To Global <fallback-to-global>`, :ref:`Variable Scope <variable-scope>`, :ref:`Superglobal Variables <superglobal>`

@@ -18,7 +18,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unserialize.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unserialize.ini.html","name":"Unserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:02:52 +0000","dateModified":"Wed, 01 Jul 2026 10:02:52 +0000","description":"Unserialization is the extraction of an object from a string representation of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unserialize.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unserialize.ini.html","name":"Unserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:40:35 +0000","dateModified":"Mon, 03 Aug 2026 16:40:35 +0000","description":"Unserialization is the extraction of an object from a string representation of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unserialization
@@ -48,7 +48,7 @@ There are different ways to implement serialization. The native way is to rely o
 
 `Documentation <https://www.php.net/manual/en/language.oop5.serialization.php>`__
 
-See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_ and `The Dangers of PHP’s unserialize and How to stay safe <https://heera.it/the-dangers-of-phps-unserialize-and-how-to-stay-safe>`_.
+See also `Benchmarking serialization <https://peakd.com/hive-168588/@crell/benchmarking-serialization>`_, `The Dangers of PHP’s unserialize and How to stay safe <https://heera.it/the-dangers-of-phps-unserialize-and-how-to-stay-safe>`_ and `unserialize.com <https://www.unserialize.com>`_.
 
 Related : :ref:`__serialize() Method <-__serialize>`, :ref:`__unserialize() Method <-__unserialize>`, :ref:`Insecure Deserialization <insecure-deserialization>`
 

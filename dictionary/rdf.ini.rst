@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rdf.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rdf.ini.html","name":"RDF (Resource Description Framework)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:23:58 +0000","dateModified":"Sun, 02 Aug 2026 06:23:58 +0000","description":"RDF, Resource Description Framework, is a W3C standard model for describing and exchanging data on the Web","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/RDF (Resource Description Framework).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rdf.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/rdf.ini.html","name":"RDF (Resource Description Framework)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 19:56:14 +0000","dateModified":"Sun, 02 Aug 2026 19:56:14 +0000","description":"RDF, Resource Description Framework, is a W3C standard model for describing and exchanging data on the Web","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/RDF (Resource Description Framework).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 RDF (Resource Description Framework)
@@ -44,6 +44,6 @@ Libraries such as EasyRdf provide an API to parse, build, and serialize RDF data
 
 See also `RDF 1.1 Primer <https://www.w3.org/TR/rdf11-primer/>`_ and `EasyRdf <https://www.easyrdf.org/>`_.
 
-Related : :ref:`RDF Triple Store <rdf-triple-store>`, :ref:`Triple <triple>`, :ref:`SPARQL <sparql>`, :ref:`Graph Database <graph-database>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Extensible Markup Language (XML) <xml>`, 
+Related : :ref:`RDF Triple Store <rdf-triple-store>`, :ref:`Triple <triple>`, :ref:`SPARQL <sparql>`, :ref:`Graph Database <graph-database>`, :ref:`Semantic Analysis <semantic-analysis>`, :ref:`Extensible Markup Language (XML) <xml>`
 
 Related packages : `easyrdf/easyrdf <https://packagist.org/packages/easyrdf/easyrdf>`_

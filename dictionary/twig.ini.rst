@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/twig.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/twig.ini.html","name":"Twig","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:37:17 +0000","dateModified":"Fri, 17 Jul 2026 08:37:17 +0000","description":"Twig is a template engine for PHP, created by SensioLabs and used as the default templating layer of the Symfony framework","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Twig.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/twig.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/twig.ini.html","name":"Twig","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 19:55:40 +0000","dateModified":"Sun, 02 Aug 2026 19:55:40 +0000","description":"Twig is a template engine for PHP, created by SensioLabs and used as the default templating layer of the Symfony framework","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Twig.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Twig
@@ -49,6 +49,6 @@ Key Twig features include template inheritance with ``{% extends %}`` and ``{% b
 
 See also `Twig tutorial <https://riptutorial.com/twig>`_.
 
-Related : :ref:`View <view>`, :ref:`Template <template>`, :ref:`Symfony <symfony>`, , , :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`HyperText Markup Language (HTML) <html>`
+Related : :ref:`View <view>`, :ref:`Template <template>`, :ref:`Symfony <symfony>`, :ref:`Model - View - Controller (MVC) <mvc>`, :ref:`Cross Site Scripting (XSS) <xss>`, :ref:`HyperText Markup Language (HTML) <html>`
 
 Related packages : `twig/twig <https://packagist.org/packages/twig/twig>`_

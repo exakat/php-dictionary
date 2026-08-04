@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/retry.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/retry.ini.html","name":"Retry","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A retry is the act of re-attempting an operation that previously failed, typically due to a transient error such as a network timeout, a temporarily unavailable service, or a rate-limit response","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Retry.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/retry.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/retry.ini.html","name":"Retry","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:52:17 +0000","dateModified":"Tue, 04 Aug 2026 06:52:17 +0000","description":"A retry is the act of re-attempting an operation that previously failed, typically due to a transient error such as a network timeout, a temporarily unavailable service, or a rate-limit response","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Retry.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Retry
@@ -31,4 +31,4 @@ Because retries re-send the same request, the server-side operation must be idem
 
 `Documentation <https://en.wikipedia.org/wiki/Exponential_backoff>`__
 
-Related : :ref:`Idempotent <idempotent>`, :ref:`Circuit Breaker <circuit-breaker>`, :ref:`Webhook <webhook>`, :ref:`Deduplication <deduplication>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Reliability <reliability>`, :ref:`Error Handling <error-handling>`, :ref:`Queue <queue>`
+Related : :ref:`Idempotent <idempotent>`, :ref:`Circuit Breaker <circuit-breaker>`, :ref:`Webhook <webhook>`, :ref:`Deduplication <deduplication>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Reliability <reliability>`, :ref:`Error Handling <error-handling>`, :ref:`Queue <queue>`, :ref:`Cascading Failure <cascading-failure>`, :ref:`Replay <replay>`, :ref:`Resilience <resilience>`, :ref:`Worker <worker>`

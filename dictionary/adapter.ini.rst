@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/adapter.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/adapter.ini.html","name":"Adapters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Adapters are the link between the application and the rest of the universe","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Adapters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/adapter.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/adapter.ini.html","name":"Adapters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:37:19 +0000","dateModified":"Mon, 03 Aug 2026 16:37:19 +0000","description":"Adapters are the link between the application and the rest of the universe","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Adapters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Adapters
@@ -26,8 +26,11 @@ Adapters are the link between the application and the rest of the universe. They
 
 Adapters are heavily used in hexagonal architecture. They area also a classic design pattern.
 
+Adapters are related to decoupling code. They bridge two pieces of code, that evolve independently.
+
+
 `Documentation <https://en.wikipedia.org/wiki/Adapter_pattern>`__
 
 See also `Adapter in PHP <https://refactoring.guru/design-patterns/adapter/php/example>`_.
 
-Related : :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Facade <facade>`, :ref:`Onion Architecture <onion-architecture>`
+Related : :ref:`Hexagonal Architecture <hexagonal>`, :ref:`Facade <facade>`, , :ref:`Onion Architecture <onion-architecture>`

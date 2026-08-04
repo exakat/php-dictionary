@@ -249,6 +249,8 @@ Index
    dictionary/cap-theorem.ini
    dictionary/captcha.ini
    dictionary/carriage-return.ini
+   dictionary/cascading-failure.ini
+   dictionary/cascading.ini
    dictionary/case-sensitivity.ini
    dictionary/case.ini
    dictionary/cast.ini
@@ -585,6 +587,7 @@ Index
    dictionary/escape-sequence.ini
    dictionary/escapeshellarg.ini
    dictionary/escapeshellcmd.ini
+   dictionary/etl.ini
    dictionary/eval.ini
    dictionary/event-driven.ini
    dictionary/event-loop.ini
@@ -672,6 +675,7 @@ Index
    dictionary/fopen.ini
    dictionary/for.ini
    dictionary/foreach.ini
+   dictionary/foreign-key.ini
    dictionary/form.ini
    dictionary/format.ini
    dictionary/forum.ini
@@ -1347,6 +1351,7 @@ Index
    dictionary/refactoring.ini
    dictionary/reference-count.ini
    dictionary/reference.ini
+   dictionary/referential-integrity.ini
    dictionary/refinement-type.ini
    dictionary/reflection.ini
    dictionary/reflectionexception.ini
@@ -1639,6 +1644,7 @@ Index
    dictionary/test-data-provider.ini
    dictionary/test-driven-development.ini
    dictionary/test-framework.ini
+   dictionary/test-impact-analysis.ini
    dictionary/test-pyramid.ini
    dictionary/test.ini
    dictionary/testable.ini
@@ -1794,6 +1800,7 @@ Index
    dictionary/wildcard.ini
    dictionary/wither.ini
    dictionary/word-combinaison.ini
+   dictionary/worker.ini
    dictionary/workflow.ini
    dictionary/worktree.ini
    dictionary/wrapper-designpattern.ini

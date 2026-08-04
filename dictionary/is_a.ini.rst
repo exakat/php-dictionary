@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_a.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_a.ini.html","name":"is_a()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``is_a()`` is a PHP native function, that checks if an object is of a specific class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_a().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_a.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_a.ini.html","name":"is_a()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:30:29 +0000","dateModified":"Tue, 04 Aug 2026 11:30:29 +0000","description":"``is_a()`` is a PHP native function, that checks if an object is of a specific class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/is_a().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 is_a()
@@ -24,7 +24,7 @@ is_a()
 
 ``is_a()`` is a PHP native function, that checks if an object is of a specific class. 
 
-Usually, ``is_a()`` is replaced by ``instanceof``, which is a PHP operator. The function might be needed to create a closure, though.
+Usually, ``is_a()`` is better replaced by ``instanceof``, which is a PHP operator. The function might be needed to create a closure, though.
 
 .. code-block:: php
    
@@ -38,5 +38,7 @@ Usually, ``is_a()`` is replaced by ``instanceof``, which is a PHP operator. The 
 
 
 `Documentation <https://www.php.net/manual/en/function.is-a.php>`__
+
+See also `is_a() versus instanceof <https://php-tips.readthedocs.io/en/latest/tips/is_a_and_instanceof.html>`_.
 
 Related : :ref:`instanceof <instanceof>`, :ref:`Type Checking <type-checking>`, :ref:`Object <object>`, :ref:`Polymorphism <polymorphism>`, :ref:`Class <class>`, :ref:`is_object() <is_object>`

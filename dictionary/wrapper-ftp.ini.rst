@@ -17,7 +17,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wrapper-ftp.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wrapper-ftp.ini.html","name":"ftp:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The ``ftp:\/\/`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ftp:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wrapper-ftp.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wrapper-ftp.ini.html","name":"ftp:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:17:54 +0000","dateModified":"Tue, 04 Aug 2026 11:17:54 +0000","description":"The ``ftp:\/\/`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/ftp:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 ftp://
@@ -25,12 +25,16 @@ ftp://
 
 The ``ftp://`` wrapper is a native PHP wrapper, to access files on a remote ``FTP`` server. It handles both ``FTP`` and ``FTPS``.
 
+Because it is a stream wrapper, ``ftp://``, and its encrypted counterpart ``ftps://``, can be used directly wherever PHP accepts a filesystem path, including functions like ``file_get_contents()``, ``file_put_contents()``, ``fopen()``, ``copy()``, and ``file_exists()``. Credentials and the target path are encoded in the URL itself, in the form ``ftp://user:password@host:port/path``, and the wrapper supports both reading and, depending on server permissions, writing and appending.
+
+Using the ``ftp://`` wrapper requires PHP's ``allow_url_fopen`` setting to be enabled, and, because credentials travel in the URL and plain FTP transmits data unencrypted, it is generally safer to prefer ``ftps://`` or a dedicated SFTP/SSH2-based approach when handling sensitive data over an untrusted network.
+
 .. code-block:: php
    
    <?php
    
-   // display a distant file from a FTP server
-   print_r(file_get_content('ftp://user:password@ftp.server.com:/pub/file.txt'));
+       // display a distant file from a FTP server
+       print_r(file_get_content('ftp://user:password@ftp.server.com:/pub/file.txt'));
    
    ?>
 

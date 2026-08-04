@@ -56,6 +56,6 @@ They are sometimes supported directly by PHP, with extensions, or via components
 
 See also `PHP: HTTP context options <https://www.php.net/manual/en/context.http.php>`_ and `PHP: cURL <https://www.php.net/manual/en/book.curl.php>`_.
 
-Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Library <library>`, :ref:`Swagger <swagger>`, :ref:`WebRTC <webrtc>`, :ref:`Wrapper Pattern <wrapper-pattern>`, :ref:`Application <application>`, :ref:`Headless <headless>`, :ref:`Model Context Protocol (MCP) <mcp>`, :ref:`OAuth <oauth>`, :ref:`Progressive Web App <pwa>`, :ref:`Search Engine <search-engine>`
+Related : :ref:`REST API <rest-api>`, :ref:`GraphQL <graphql-api>`, :ref:`Simple Object Access Protocol (SOAP) <soap>`, :ref:`Remote Procedure Call (RPC) <rpc>`, :ref:`gRPC (Google Remote Procedure Call) <grpc>`, :ref:`Library <library>`, :ref:`Swagger <swagger>`, :ref:`Web Real-Time Communication (WebRTC) <webrtc>`, :ref:`Wrapper Pattern <wrapper-pattern>`, :ref:`Application <application>`, :ref:`Headless <headless>`, :ref:`Model Context Protocol (MCP) <mcp>`, :ref:`OAuth <oauth>`, :ref:`Progressive Web App <pwa>`, :ref:`Search Engine <search-engine>`
 
 Related packages : `webonyx/graphql-php <https://packagist.org/packages/webonyx/graphql-php>`_, `nuwave/lighthouse <https://packagist.org/packages/nuwave/lighthouse>`_

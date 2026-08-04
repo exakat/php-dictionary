@@ -1,0 +1,27 @@
+# array_is_list()
+``array_is_list()`` is a native PHP function that checks if the given array is a list.
+
+An array is considered a list if its keys are sequential integers starting from 0. Associative arrays or arrays with gaps, non-integer or out of sequence keys are not considered lists. This function was introduced in version 8.1 to help distinguish between sequential and associative arrays, which is useful when working with functions like ``json_encode()`` that treat lists as JSON arrays and associative arrays as JSON objects.
+```php
+<?php
+
+    $list = [1, 2, 3];
+    var_dump(array_is_list($list)); // true
+    
+    $assoc = ['a' => 1, 'b' => 2];
+    var_dump(array_is_list($assoc)); // false
+    
+    $empty = [];
+    var_dump(array_is_list($empty)); // true
+    
+    $gapped = [0 => 'a', 2 => 'c'];
+    var_dump(array_is_list($gapped)); // false
+
+?>
+```
+
+## See Also
+
++ [How to Encode an Array in JSON with PHP (Production-Ready Guide)](https://thelinuxcode.com/how-to-encode-an-array-in-json-with-php-production-ready-guide/)
+
+Related : [is_array()](is_array()), [json_encode()](json_encode()), [count()](count()), [array_keys()](array_keys())

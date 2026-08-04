@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/handler.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/handler.ini.html","name":"PHP Handlers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP handlers are methods which are called to customize the processing of specific events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Handlers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/handler.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/handler.ini.html","name":"PHP Handlers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:11:28 +0000","dateModified":"Tue, 04 Aug 2026 11:11:28 +0000","description":"PHP handlers are methods which are called to customize the processing of specific events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/PHP Handlers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 PHP Handlers
@@ -46,6 +46,10 @@ Handlers are usually named by their setting function:
     + ``spl_autoload_register()``
 
 PHP handlers may be functions, closures and arrow functions.
+
+Registering a handler replaces the engine's built-in behavior for that event with user-defined code, until the script ends or the handler is explicitly restored, for example with ``restore_error_handler()``. This makes handlers a powerful hook for cross-cutting concerns such as centralized logging, custom error reporting, graceful cleanup on shutdown, or lazy class loading via ``spl_autoload_register()``.
+
+Because a handler runs in place of PHP's default behavior, a poorly written one can mask real problems: an error handler that swallows all errors without logging them, for instance, makes debugging much harder. Most handler-registering functions also accept an array to allow multiple handlers to be chained, or return the previously registered handler so it can be restored later.
 
 `Documentation <https://www.php.net/manual/en/function.set-error-handler.php>`__
 

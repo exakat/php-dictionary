@@ -1,0 +1,30 @@
+# $_GET
+The ``$_GET`` variable is a special superglobal variable that is used to retrieve data from the query string or URL parameters. When a user submits a form using the HTTP GET method or includes parameters in the URL, PHP populates the ``$_GET`` variable with key-value pairs representing those parameters.
+
+The ``$_GET`` variable is an associative array where the keys are the parameter names and the values are the corresponding values passed in the URL. 
+
+The received values are strings or arrays. They are strings by default, and other scalar types needs a casting to have the correct type. The values are arrays when the URL uses the ``[]`` format: that format handles arrays and map.
+
+``$_GET`` is a superglobal, or auto-global: it is always available, in every scope.
+
+Values inside ``$_GET`` are always strings, or arrays. ``https://www.site.com/index.php?x=1`` or ``https://www.site.com/index.php?x[2]=1``.
+```php
+<?php
+
+    // https://www.example.com/index.php?x=1
+    $_GET['x'] === '1';
+    
+    // https://www.example.com/index.php?y=abc
+    $_GET['y'] === 'abc';
+    
+    // https://www.example.com/index.php?z[]=def&z[][]=ghi
+    $_GET['z'] === ['def', ['ghi']];
+
+?>
+```
+
+## See Also
+
++ [$_GET in PHP](https://oregoom.com/en/php/get/)
+
+Related : [$_POST]($_POST), [$_REQUEST]($_REQUEST), [$_FILES]($_FILES), [$_SERVER]($_SERVER), [$_COOKIE]($_COOKIE), [$_ENV]($_ENV), [Form](Form), [Incoming Data](Incoming Data), [Query String](Query String)

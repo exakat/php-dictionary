@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unit-test.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unit-test.ini.html","name":"Unit Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Unit tests are tests that verify how a coherent piece of code work","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unit Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unit-test.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/unit-test.ini.html","name":"Unit Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:52:17 +0000","dateModified":"Tue, 04 Aug 2026 06:52:17 +0000","description":"Unit tests are tests that verify how a coherent piece of code work","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Unit Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Unit Test
@@ -28,4 +28,4 @@ Unit tests are tests that verify how a coherent piece of code work. The piece of
 
 See also `PHPUnit <https://www.phpunit.de/>`_.
 
-Related : :ref:`Test <test>`, :ref:`Integration Test <integration-test>`, :ref:`Edge Case <edge-case>`, :ref:`End To End Test <end-to-end-test>`, :ref:`Mutation Testing <mutation-test>`
+Related : :ref:`Test <test>`, :ref:`Integration Test <integration-test>`, :ref:`Edge Case <edge-case>`, :ref:`End To End Test <end-to-end-test>`, :ref:`Mutation Testing <mutation-test>`, :ref:`Global State <global-state>`, :ref:`Property-Based Testing <property-based-testing>`, :ref:`Red-Green-Refactor <red-green-refactor>`, :ref:`Test Impact Analysis <test-impact-analysis>`

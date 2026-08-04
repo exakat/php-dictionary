@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/transaction.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/transaction.ini.html","name":"Transaction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:16:10 +0000","dateModified":"Mon, 06 Jul 2026 10:16:10 +0000","description":"A transaction is a sequence of database operations that is treated as a single atomic unit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transaction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/transaction.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/transaction.ini.html","name":"Transaction","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:52:17 +0000","dateModified":"Tue, 04 Aug 2026 06:52:17 +0000","description":"A transaction is a sequence of database operations that is treated as a single atomic unit","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Transaction.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Transaction
@@ -55,4 +55,4 @@ ORMs such as Doctrine and Eloquent also expose transaction helpers and often wra
 
 See also `ACID <https://en.wikipedia.org/wiki/ACID>`_.
 
-Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Database <database>`, :ref:`Exception <exception>`, :ref:`Try-catch <try>`, :ref:`Rollback <rollback>`, :ref:`Atomic Operation <atomic-operation>`, :ref:`Database Commit <database-commit>`, :ref:`Race Condition <race-condition>`
+Related : :ref:`PHP Data Objects (PDO) <pdo>`, :ref:`Database <database>`, :ref:`Exception <exception>`, :ref:`Try-catch <try>`, :ref:`Rollback <rollback>`, :ref:`Atomic Operation <atomic-operation>`, :ref:`Database Commit <database-commit>`, :ref:`Race Condition <race-condition>`, :ref:`ACID <acid>`, :ref:`Foreign Key <foreign-key>`, :ref:`Referential Integrity <referential-integrity>`, :ref:`Software Transactional Memory (STM) <software-transactional-memory>`, :ref:`Write-Ahead Logging (WAL) <wal>`

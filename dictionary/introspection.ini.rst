@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/introspection.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/introspection.ini.html","name":"Introspection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:47:14 +0000","dateModified":"Sat, 11 Jul 2026 14:47:14 +0000","description":"Introspection is the ability to examine the properties and behavior of objects, classes, and functions at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Introspection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/introspection.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/introspection.ini.html","name":"Introspection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:09:23 +0000","dateModified":"Mon, 03 Aug 2026 16:09:23 +0000","description":"Introspection is the ability to examine the properties and behavior of objects, classes, and functions at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Introspection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 Introspection
@@ -48,5 +48,7 @@ For deeper introspection, the Reflection API provides programmatic access to cla
 
 
 `Documentation <https://www.php.net/manual/en/book.reflection.php>`__
+
+See also `PHP Introspection Functions and Example Program <https://www.computerscienceai.com/2019/11/php-introspective-functions-and-example-program.html>`_.
 
 Related : :ref:`Reflection <reflection>`, :ref:`get_class() <get_class>`, :ref:`get_class_vars() <get_class_vars>`, :ref:`get_object_vars() <get_object_vars>`, :ref:`class_implements() <class_implements>`, :ref:`Reflector <reflector>`

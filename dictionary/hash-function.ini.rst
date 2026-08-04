@@ -16,13 +16,17 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/hash-function.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/hash-function.ini.html","name":"hash() Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:00:38 +0000","dateModified":"Thu, 09 Jul 2026 08:54:45 +0000","description":"``hash()`` is a PHP native function, that computes the hash of strings, with a wide range of algorithms, cryptographic or not","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/hash() Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/hash-function.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/hash-function.ini.html","name":"hash() Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:11:48 +0000","dateModified":"Tue, 04 Aug 2026 11:11:48 +0000","description":"``hash()`` is a PHP native function, that computes the hash of strings, with a wide range of algorithms, cryptographic or not","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/hash() Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 hash() Function
 ---------------
 
 ``hash()`` is a PHP native function, that computes the hash of strings, with a wide range of algorithms, cryptographic or not.
+
+It takes an algorithm name, such as ``md5``, ``sha256``, ``sha3-512``, ``crc32``, or ``ripemd160``, and a string of data, and returns a hexadecimal digest by default, or raw binary output when the optional third argument is set to ``true``. The list of algorithms available at runtime can be retrieved with ``hash_algos()``, since it depends on how PHP was built.
+
+``hash()`` is meant for general-purpose hashing, such as checksums, cache keys, or data fingerprinting, and should not be used to store passwords: for that, PHP provides the dedicated ``password_hash()`` and ``password_verify()`` functions, which apply a slow, salted, adaptive algorithm designed to resist brute-force attacks. Fast general hashes like MD5 or SHA-1 are also considered cryptographically weak for security-sensitive purposes such as digital signatures.
 
 .. code-block:: php
    

@@ -41,4 +41,4 @@ HTML defines the structure of the page. It is completed by CSS, for styling, and
 
 See also `PHP and HTML <https://www.php.net/manual/en/faq.html.php>`_.
 
-Related : :ref:`Javascript <javascript>`, :ref:`CSS <css>`, :ref:`htmlentities() <htmlentities>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Template <template>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`sitemap <sitemap>`, :ref:`Scalable Vector Graphics (SVG) <svg>`, :ref:`WHATWG <whatwg>`, :ref:`Anchor <anchor>`, :ref:`Document Object Model (DOM) <dom>`, :ref:`HTML Entity <html-entity>`, :ref:`Link <link>`
+Related : :ref:`Javascript <javascript>`, :ref:`CSS <css>`, :ref:`htmlentities() <htmlentities>`, :ref:`Hyper Text Transfer Protocol (HTTP) <http>`, :ref:`Template <template>`, :ref:`World Wide Web (WWW) <web>`, :ref:`Search Engine Optimization (SEO) <seo>`, :ref:`sitemap <sitemap>`, :ref:`Scalable Vector Graphics (SVG) <svg>`, :ref:`Web Hypertext Application Technology Working Group (WHATWG) <whatwg>`, :ref:`Anchor <anchor>`, :ref:`Document Object Model (DOM) <dom>`, :ref:`HTML Entity <html-entity>`, :ref:`Link <link>`

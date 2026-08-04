@@ -3,32 +3,32 @@
 .. _write-ahead-log:
 .. meta::
 	:description:
-		WAL: Write-Ahead Logging, also called WAL, is a standard technique for ensuring data integrity in databases.
+		Write-Ahead Logging (WAL): Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: WAL
-	:twitter:description: WAL: Write-Ahead Logging, also called WAL, is a standard technique for ensuring data integrity in databases
+	:twitter:title: Write-Ahead Logging (WAL)
+	:twitter:description: Write-Ahead Logging (WAL): Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
 	:og:image: https://php-dictionary.readthedocs.io/en/latest/_static/logo.png
-	:og:title: WAL
+	:og:title: Write-Ahead Logging (WAL)
 	:og:type: article
-	:og:description: Write-Ahead Logging, also called WAL, is a standard technique for ensuring data integrity in databases
+	:og:description: Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases
 	:og:url: https://php-dictionary.readthedocs.io/en/latest/dictionary/wal.ini.html
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wal.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wal.ini.html","name":"WAL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 09:05:15 +0000","dateModified":"Thu, 02 Jul 2026 09:05:15 +0000","description":"Write-Ahead Logging, also called WAL, is a standard technique for ensuring data integrity in databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/WAL.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wal.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/wal.ini.html","name":"Write-Ahead Logging (WAL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 17:06:12 +0000","dateModified":"Mon, 03 Aug 2026 17:06:12 +0000","description":"Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/Write-Ahead Logging (WAL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
-WAL
----
+Write-Ahead Logging (WAL)
+-------------------------
 
-Write-Ahead Logging, also called WAL, is a standard technique for ensuring data integrity in databases. Before modifying data pages on disk, the database first appends a record of the change to a durable sequential log. If a crash occurs mid-transaction, the database replays the log at startup to reach a consistent state.
+Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases. Before modifying data pages on disk, the database first appends a record of the change to a durable sequential log. If a crash occurs mid-transaction, the database replays the log at startup to reach a consistent state.
 
-WAL is the durability mechanism behind ACID transactions in PostgreSQL, SQLite with its WAL journal mode, and MySQL/InnoDB, with its redo log. It also enables streaming replication: replicas consume the primary's WAL stream to stay in sync.
+``WAL`` is the durability mechanism behind ACID transactions in PostgreSQL, SQLite with its ``WAL`` journal mode, and MySQL/InnoDB, with its redo log. It also enables streaming replication: replicas consume the primary's ``WAL`` stream to stay in sync.
 
-PHP applications interact with WAL indirectly through PDO or MySQLi. SQLite's WAL mode can be activated explicitly and improves read concurrency because readers no longer block writers.
+PHP applications interact with ``WAL`` indirectly through PDO or ``MySQLi``. SQLite's ``WAL`` mode can be activated explicitly and improves read concurrency because readers no longer block writers.
 
 .. code-block:: php
    

@@ -16,7 +16,7 @@
 	:og:locale: en
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/as.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/as.ini.html","name":"As","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The as operator has several usage:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/As.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/as.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/as.ini.html","name":"As","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 10:52:49 +0000","dateModified":"Tue, 04 Aug 2026 10:52:49 +0000","description":"The as operator has several usage:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/As.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 
 As
@@ -44,5 +44,7 @@ The ``as`` operator often works to give a distinct name to an existing structure
 
 
 `Documentation <https://www.php.net/manual/en/language.operators.assignment.php>`__
+
+See also `PHP as Keyword <https://zetcode.com/php/as-keyword/>`_.
 
 Related : :ref:`foreach() <foreach>`, :ref:`Use Alias <use-alias>`, :ref:`Alias <alias>`
