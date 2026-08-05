@@ -1,0 +1,36 @@
+# http\_build\_query()
+The ``http_build_query()`` native function is used to generate a URL-encoded query string from an associative array or an object. This is commonly used to build query strings for HTTP GET requests or for use in URLs.
+
+``http_build_query()`` converts automatically backed enumerations to their type value, integer or string, when they are used as values in the array. This is a PHP 8.4 feature.
+
+``http_build_query()`` provides arguments to deal with numeric keys, a prefix may be added, with custom separators and encoding type. 
+
+The reverse function for ``http_build_query()`` is ``parse_str()``, which converts a query string into an array.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/http_build_query.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/http_build_query.ini.html","name":"http_build_query()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:58:18 +0000","dateModified":"Fri, 03 Jul 2026 07:58:18 +0000","description":"The ``http_build_query()`` native function is used to generate a URL-encoded query string from an associative array or an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/http_build_query().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    enum A: int {
+        case A = 1;
+    }
+    
+    print http_build_query(['x' => A::A, 'b' => 3]);
+    //    x=1&b=3
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/function.http-build-query.php)**
+## See Also
+
++ [Mastering PHP's `http_build_query()` Function for URL Manipulation](https://reintech.io/blog/mastering-php-http-build-query-function)
+
+## Related
+
++ [Enumeration (enum)](enum.ini.html)
++ [Backed Enum](backed-enum.ini.html)
++ [parse\_str()](parse_str.ini.html)
++ [Anchor](anchor.ini.html)
++ [parse\_url()](parse_url.ini.html)
++ [Separator](separator.ini.html)
++ [Universal Resource Locator (URL)](url.ini.html)

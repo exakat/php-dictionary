@@ -1,0 +1,45 @@
+# Absolute
+An ``absolute`` value is independent from the context in which it operates. 
+
+The notion of ``absolute`` has several usages:
+
++ There are absolute names, also known as fully qualified name: ``\get_class()``, ``new myClass()``
++ There are absolute path, which are path that starts at the root of the file system: ``/tmp/path/to/file.txt``
++ There are absolute values, supported by ``abs()`` math function
++ The ``absolute`` parameter, when processing a ``DateTimeInterface`` difference
+
+The notion of absolute is the opposite of the notion of relative, which depends on a local context.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/absolute.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/absolute.ini.html","name":"Absolute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:27 +0000","dateModified":"Fri, 19 Jun 2026 21:24:27 +0000","description":"An ``absolute`` value is independent from the context in which it operates","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Absolute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+// global namespace
+namespace {
+    // first definition
+    function bar() { 
+        echo 'in the global scope.';
+    }
+}
+
+namespace foo{
+    // second definition
+    function bar() { 
+        echo 'in the foo scope.';
+    }
+
+    bar(); // relative call: it goes to the second definition
+    \bar(); // absolute call: it goes to the first definition
+    \foo\bar(); // absolute call: it goes to the second definition
+}
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/language.namespaces.basics.php)**
+## Related
+
++ [Fully Qualified Name](fully-qualified-name.ini.html)
++ [Absolute Value](absolute-value.ini.html)
++ [Path](path.ini.html)
++ [Relative](relative.ini.html)
++ [abs()](abs.ini.html)

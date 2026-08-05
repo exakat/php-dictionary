@@ -1,0 +1,30 @@
+# Anonymous Catch
+Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception.
+
+PHP 8.0 introduced a new language constructs that makes the identifier variable optional, allowing for a fully anonymous catch statement. This means there is no need to specify a variable to hold the caught exception.
+
+The motivation behind this proposal is to simplify exception handling code, especially in cases where there is no need to use the caught exception object. It leads to cleaner and more concise code, especially when the specific details of the exception are not interesting and can be handled generically.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/anonymous-catch.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/anonymous-catch.ini.html","name":"Anonymous Catch","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:56:18 +0000","dateModified":"Thu, 02 Jul 2026 08:56:18 +0000","description":"Traditionally, the catch statement requires specifying both an Exception class and an identifier variable to hold the caught exception","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Anonymous Catch.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    try {
+        $a / 0;
+    } catch (DivisionByZero) {
+    
+    }
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/language.exceptions.php)**
+## See Also
+
++ [PHP RFC: Support for anonymous catches](https://wiki.php.net/rfc/anonymous_catch)
+
+## Related
+
++ [Catch](catch.ini.html)
++ [Exception](exception.ini.html)
++ [Try-catch](try-catch.ini.html)
++ [Anonymous](anonymous.ini.html)

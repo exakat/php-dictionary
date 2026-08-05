@@ -1,0 +1,26 @@
+# file://
+The ``file://`` wrapper is a native PHP wrapper, to access files on a local files, on the host system.
+
+It may also be omitted, as the default behavior is to read files on the local system.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/wrapper-file.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/wrapper-file.ini.html","name":"file:\/\/","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The ``file:\/\/`` wrapper is a native PHP wrapper, to access files on a local files, on the host system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/file:\/\/.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+// display the content of a file
+// 3 / : two for protocol, one for path
+print_r(file_get_content('file:///tmp/file.txt'));
+
+// also possible
+print_r(file_get_content('/tmp/file.txt'));
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/wrappers.file.php)**
+## Related
+
++ [Wrapper](wrapper.ini.html)
++ [PHP Wrappers](php-wrapper.ini.html)
++ [File](file.ini.html)
++ [Thin Method](thin-method.ini.html)
++ [Wrapper Pattern](wrapper-pattern.ini.html)

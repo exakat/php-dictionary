@@ -1,0 +1,28 @@
+# System
+The system, or the operating system, is the environment where PHP is running. It might be ``Linux``, ``MacOSX``, ``Windows``, ``Debian`` etc. The system provides specific features, such as access to the file system, or a shell to run commands.
+
+``system()`` is also a PHP native function, which execute a system command, and immediately display it to the standard output. It is usually recommended to use ``shell_exec()``, which returns the results, rather than display it.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/system.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/system.ini.html","name":"System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:20 +0000","dateModified":"Fri, 19 Jun 2026 21:24:20 +0000","description":"The system, or the operating system, is the environment where PHP is running","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+// use a system command to get the name of the underlying OS name
+echo shell_exec('cat /etc/os-releaselsb_release –ahostnamectl');
+
+// same as above
+system('cat /etc/os-releaselsb_release –ahostnamectl');
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/function.system.php)**
+## See Also
+
++ [statgrab](https://github.com/iliaal/statgrab)
+
+## Related
+
++ [shell\_exec()](shell_exec.ini.html)
++ [Back-tick](backtick.ini.html)
++ [Execution](execution.ini.html)
++ [System Call](system-call.ini.html)

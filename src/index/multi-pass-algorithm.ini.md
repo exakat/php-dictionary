@@ -1,0 +1,14 @@
+# Multi-pass Algorithm
+A multi-pass algorithm processes its input more than once, each pass building on information gathered, or output produced, by the previous one, instead of trying to solve the whole problem while reading the data only a single time, as a one-pass, or single-pass, algorithm would. It trades memory or execution time for simplicity, correctness, or completeness, since a later pass can rely on a full, already-computed picture of the earlier ones, rather than on partial, streamed information.
+
+Compilers are the archetypal example: a multi-pass compiler will first tokenize, then parse into an AST, resolve symbols, and only then generate code, each phase being an independent pass over an evolving representation of the program, instead of translating source directly to machine code in one sweep.
+
+Exakat itself follows a multi-pass approach: it tokenizes the source, builds an AST, loads it into a graph database, and only then runs each analyzer as its own pass over that graph, instead of examining the source code once, top to bottom.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/multi-pass-algorithm.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/multi-pass-algorithm.ini.html","name":"Multi-pass Algorithm","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:17:46 +0000","dateModified":"Tue, 14 Jul 2026 06:17:46 +0000","description":"A multi-pass algorithm processes its input more than once, each pass building on information gathered, or output produced, by the previous one, instead of trying to solve the whole problem while reading the data only a single time, as a one-pass, or single-pass, algorithm would","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Multi-pass Algorithm.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+**[Documentation](https://en.wikipedia.org/wiki/Multi-pass_compiler)**
+## Related
+
++ [Parser](parser.ini.html)
++ [Abstract Syntactic Tree (AST)](ast.ini.html)
++ [Compiler](compiler.ini.html)
++ [Tokenizer](tokenizer.ini.html)

@@ -1,0 +1,47 @@
+# Special Types
+PHP defines some special types.
+
++ ``mixed``: any type
++ ``void``: no returned value
++ ``callable``: may be used as a callback
++ ``iterable``: may be used with ``foreach()``, including array
++ ``never``: never returns
++ ``object``: object of any class
++ ``parent``: any of the parent class of the current class, excluding it
++ ``self``: the current class
++ ``static``: the current called class
+
+Other special types are the scalar types.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/special-typehint.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/special-typehint.ini.html","name":"Special Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP defines some special types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Special Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    function foo(iterable $i) : never {
+        foreach ($i as $j) {
+            echo $j;
+        }
+    
+        die();
+    }
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/language.types.declarations.php)**
+## See Also
+
++ [An Exhaustive Guide to Understanding and Using PHP Data Types](https://medium.com/@berastis/an-exhaustive-guide-to-understanding-and-using-php-data-types-b56f6863c637)
+
+## Related
+
++ [Type System](type.ini.html)
++ [Type System](typehint.ini.html)
++ [Mixed](mixed.ini.html)
++ [Void](void.ini.html)
++ [Callables](callable.ini.html)
++ [Iterable](iterable.ini.html)
++ [Never Type](never.ini.html)
++ [Object](object.ini.html)
++ [parent](parent.ini.html)
++ [static](static.ini.html)
++ [Self](self.ini.html)

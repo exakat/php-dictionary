@@ -1,0 +1,40 @@
+# array\_unshift()
+``array_unshift()`` prepends one or more elements to the beginning of an array. All numeric keys are reset starting from zero, while string keys remain unchanged. The function returns the new number of elements in the array.
+
+``array_unshift()`` is the opposite of ``array_shift()``, which removes and returns the first element. Together with ``array_push()`` and ``array_pop()``, these four functions are used to implement queue, FIFO, or stack, LIFO, data structures.
+
+Note that ``array_unshift()`` is an ``O(n)`` operation because all integer keys must be renumbered.
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/array_unshift.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/array_unshift.ini.html","name":"array_unshift()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``array_unshift()`` prepends one or more elements to the beginning of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/array_unshift().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    $array = [1, 2, 3];
+    $count = array_unshift($array, 0);
+    // $array == [0, 1, 2, 3], $count == 4
+
+    // Prepend multiple elements
+    array_unshift($array, -2, -1);
+    // $array == [-2, -1, 0, 1, 2, 3]
+
+    // String keys are preserved; integer keys are reset
+    $assoc = ['b' => 2, 'c' => 3];
+    array_unshift($assoc, 1);
+    // $assoc == [0 => 1, 'b' => 2, 'c' => 3]
+
+?>
+```
+
+**[Documentation](https://www.php.net/array_unshift)**
+## See Also
+
++ [array_unshift - PHP Manual](https://www.php.net/manual/en/function.array-unshift.php)
+
+## Related
+
++ [array\_shift()](array_shift.ini.html)
++ [array\_push()](array_push.ini.html)
++ [array\_pop()](array_pop.ini.html)
++ [First In, First Out (FIFO)](fifo.ini.html)
++ [Last In, First Out (LIFO)](lifo.ini.html)
++ [Array Prepend](prepend.ini.html)

@@ -1,0 +1,9 @@
+[book]
+title = "The PHP dictionary"
+authors = ["Damien Seguy"]
+language = "en"
+
+[output.html]
+git-repository-url = "https://github.com/exakat/php-dictionary"
+git-repository-icon = "fab-github"
+additional-css = ["theme/custom.css"]

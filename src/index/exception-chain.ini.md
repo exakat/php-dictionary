@@ -1,0 +1,37 @@
+# Chaining Exceptions
+Chaining exception is throwing again a caught exception, with a new type, and with the previous exception. 
+
+To provide the previous exception to a new exception, use the third parameter of the ``Exception`` constructor. Also, always provide a third argument to custom exceptions.
+
+The previous exception is available with the ``Exception::getPrevious()`` method of the ``Exception`` class.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/exception-chain.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/exception-chain.ini.html","name":"Chaining Exceptions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:10:50 +0000","dateModified":"Mon, 13 Jul 2026 09:10:50 +0000","description":"Chaining exception is throwing again a caught exception, with a new type, and with the previous exception","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Chaining Exceptions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+class myException extends \Exception {
+    function __construct(string $message, $code, \Throwable $exception) {
+        parent::__construct($message, $code, $exception);
+    }
+}
+
+try {
+    doSomething();
+} catch(\Exception $e) {
+    // chaining exception
+    throw new myException('doSomething failed', 0, $e);
+}
+
+?>
+```
+
+**[Documentation](https://en.wikipedia.org/wiki/Exception_chaining)**
+## See Also
+
++ [Best practices for PHP exception handling](https://moxio.com/blog/best-practices-for-php-exception-handling/)
+
+## Related
+
++ [throw](throw.ini.html)
++ [Try-catch](try-catch.ini.html)
++ [Exception](exception.ini.html)
++ [Chaining](chaining.ini.html)

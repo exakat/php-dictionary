@@ -1,0 +1,16 @@
+# Declarative Programming
+Declarative programming is a programming style, where the goal of the task is described, but not the method to reach it. This is left to the source code to solve it in the way it sees fit.
+
+Declarative programming is flexible in the way it expresses its requirements. It leaves room to optimization: as long as a step fulfills its mission, it may be used. On the other hand, several versions of the step may be created, with various optimisations. When several options are available, it requires a way to make a choice.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/declarative-programming.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/declarative-programming.ini.html","name":"Declarative Programming","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Declarative programming is a programming style, where the goal of the task is described, but not the method to reach it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Declarative Programming.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+**[Documentation](https://en.wikipedia.org/wiki/Declarative_programming)**
+## See Also
+
++ [Declarative Programming in PHP: A Comprehensive Overview and Comparison with Imperative Programming](https://mderis.medium.com/declarative-programming-in-php-a-comprehensive-overview-and-comparison-with-imperative-programming-f85587b44011)
+
+## Related
+
++ [Paradigm](paradigm.ini.html)
++ [Imperative Programming](imperative.ini.html)
++ [Functional Programming](functional-programming.ini.html)
++ [Procedural Programming](procedural-programming.ini.html)

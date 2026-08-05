@@ -1,0 +1,30 @@
+# fseek()
+``fseek()`` is a native PHP function that sets the file position indicator for a file pointer.
+
+It moves the file pointer to a specified position, allowing random access to file content. This is useful for reading or writing specific parts of a file without processing the entire file.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fseek.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fseek.ini.html","name":"fseek()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:12:58 +0000","dateModified":"Sun, 12 Jul 2026 20:12:58 +0000","description":"``fseek()`` is a native PHP function that sets the file position indicator for a file pointer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fseek().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    $fp = fopen('/tmp/test.txt', 'r');
+    
+    // Skip first 10 bytes
+    fseek($fp, 10);
+    
+    // Move to end of file
+    fseek($fp, 0, SEEK_END);
+    
+    // Move back 5 bytes from current position
+    fseek($fp, -5, SEEK_CUR);
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/function.fseek.php)**
+## Related
+
++ [File](file.ini.html)
++ [fopen()](fopen.ini.html)
++ [ftell()](ftell.ini.html)
++ [rewind()](rewind.ini.html)
++ [File Mode](file-mode.ini.html)

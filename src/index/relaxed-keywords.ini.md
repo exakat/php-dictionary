@@ -1,0 +1,26 @@
+# Relaxed Keywords
+The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name. 
+
+Generally speaking, PHP keywords are not allowed as names for classes, functions, etc. This is still the case here, yet this constraint has been relaxed for method names. 
+
+Functions and global constants do not support that feature. Closures and arrow functions are not applicable, as they have no name. Only methods do use relaxed keywords.
+
+Property names do not have this constraints, as the ``$`` sign make them distinct. 
+
+Using PHP keywords as names is not a commonly known feature, and generate a lot of surprise, when used. As a convention, it is recommended to avoid using PHP keywords. Yet, it may apply in specific situations.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/relaxed-keywords.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/relaxed-keywords.ini.html","name":"Relaxed Keywords","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The relaxed keywords is the feature that allows most PHP keywords to be used as a method or class constant name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Relaxed Keywords.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    class x {
+        const function = 1;
+        function function() {}
+    }
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words)**
+## Related
+
++ [Dollar $](dollar.ini.html)

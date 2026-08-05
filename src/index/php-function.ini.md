@@ -1,0 +1,32 @@
+# PHP Native Function
+PHP defines its own native functions. They are part of the core extensions, which are always compiled, or extensions. 
+
+PHP native function do not have a definition available, unlike component or custom functions. They are handled by the PHP engine, and documented.
+
+For example, ``strlen`` is a PHP native function, which measures the length of a string, in bytes. There are a lot of PHP functions available.
+
+PHP native interfaces may be disabled at startup, with the ``disabled_functions`` directive.
+
+It is possible to reach PHP native function definitions on the php.net website by adding their name in the URL. For example: ``https://www.php.net/strlen``.
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php-function.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php-function.ini.html","name":"PHP Native Function","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP defines its own native functions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/PHP Native Function.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    print_r(get_defined_functions());
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/language.functions.php)**
+## See Also
+
++ [PHP Safari: see how they are used in the wild](https://php-safari.com/)
++ [php.net/strlen](https://www.php.net/strlen)
+
+## Related
+
++ [Functions](function.ini.html)
++ [Custom Function](custom-function.ini.html)
++ [Canonical](canonical.ini.html)
++ [PHP Manual](php-manual.ini.html)

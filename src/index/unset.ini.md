@@ -1,0 +1,29 @@
+# unset()
+``unset()`` removes a variable, an array item or an property. This feature used to be available as a function call ``unset()`` or as a type cast ``(unset)``. The type-cast was removed in version 7.2. 
+
+It is not possible to remove a static property, but it is possible to remove a property: a defined property will be reverted to its definition, while an undefined property is removed. It may end up being uninitialized if it does not have a default value.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unset.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unset.ini.html","name":"unset()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 09:29:43 +0000","dateModified":"Mon, 29 Jun 2026 09:29:43 +0000","description":"``unset()`` removes a variable, an array item or an property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unset().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    $a = ['b' => 1];
+    unset($a['b']); // unset an element
+    unset($a);      // unset the whole array
+    
+    var_dump(isset($a)); // false
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/function.unset.php)**
+## See Also
+
++ [PHP unset Keyword](https://zetcode.com/php/unset-keyword/)
++ [Demystifying PHP‘s Unset() Function](https://thelinuxcode.com/php-unset-function/)
+
+## Related
+
++ [Variables](variable.ini.html)
++ [Index For Arrays](index-array.ini.html)
++ [Garbage Collection](garbage-collection.ini.html)
++ [Local Variable](local-variable.ini.html)

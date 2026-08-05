@@ -1,0 +1,53 @@
+# Multi-Factor Authentication (MFA)
+Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted. The three classical factors are:
+
++ Something known: a password or PIN.
++ Something possessed: a hardware token, authenticator app, TOTP/HOTP, or SMS code.
++ Something being: a biometric such as a fingerprint or face recognition.
+
+Requiring at least two factors dramatically reduces the risk of account compromise: stealing a password alone is no longer enough.
+
+In the PHP ecosystem, MFA is relevant both at the application level, protecting user accounts, and at the infrastructure level. Packagist, for example, has introduced mandatory MFA for package publishers to harden the supply chain against account takeover.
+
+PHP itself does not ship MFA libraries, but the ecosystem offers several: ``scheb/2fa-bundle`` with Symfony, ``pragmarx/google2fa`` with Laravel, and generic TOTP/HOTP packages.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/mfa.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/mfa.ini.html","name":"Multi-Factor Authentication (MFA)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:20:51 +0000","dateModified":"Fri, 24 Jul 2026 15:20:51 +0000","description":"Multi-Factor Authentication, MFA, is a security mechanism that requires a user to provide two or more independent verification factors before access is granted","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Multi-Factor Authentication (MFA).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    use OTPHP\TOTP;
+    
+    // Generate a TOTP secret for a user at enrolment time
+    $totp   = TOTP::generate();
+    $secret = $totp->getSecret(); // store this in the user record
+    
+    // At login time, verify the code the user typed
+    $userCode = $_POST['totp_code'];
+    if (!$totp->verify($userCode)) {
+        throw new RuntimeException('Invalid MFA code');
+    }
+
+?>
+```
+
+**[Documentation](https://en.wikipedia.org/wiki/Multi-factor_authentication)**
+## See Also
+
++ [The Quiet Shift Reshaping PHP Security](https://www.linkedin.com/pulse/quiet-shift-reshaping-php-security-matthew-weier-o-phinney-fgquc/)
++ [NIST SP 800-63B: MFA guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html)
+
+## Related
+
++ [Authentication](authentication.ini.html)
++ [One-Time Password (OTP)](otp.ini.html)
++ [Single Sign On (SSO)](sso.ini.html)
++ [OAuth](oauth.ini.html)
++ [Password](password.ini.html)
++ [Security](security.ini.html)
++ [Supply Chain Attack](supply-chain-attack.ini.html)
++ [Packagist](packagist.ini.html)
+
+## Related packages
+
++ [scheb/2fa-bundle](https://packagist.org/packages/scheb/2fa-bundle)
++ [pragmarx/google2fa](https://packagist.org/packages/pragmarx/google2fa)
++ [spomky-labs/otphp](https://packagist.org/packages/spomky-labs/otphp)

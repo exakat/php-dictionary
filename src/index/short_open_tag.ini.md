@@ -1,0 +1,37 @@
+# short\_open\_tag
+``short_open_tag`` is a php.ini directive that controls whether the short PHP opening tag ``<?`` is recognised by the parser.
+
+When ``short_open_tag = Off``, only ``<?php`` and ``<?=`` are valid opening tags. This is the recommended setting and the default since version 7.0.
+
+The directive also affects ASP-style tags ``<% %>``, which were removed entirely in version 7.0.
+
+Using short tags in production code is discouraged because the code breaks silently when ``short_open_tag`` is disabled, which frequently happens on shared hosting or when moving between environments.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/short_open_tag.ini.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/short_open_tag.ini.html","name":"short_open_tag","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:32:10 +0000","dateModified":"Mon, 06 Jul 2026 19:32:10 +0000","description":"``short_open_tag`` is a php","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/short_open_tag.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+    // php.ini
+    // short_open_tag = Off   (recommended)
+    // short_open_tag = On    (legacy / risky)
+    
+    // With short_open_tag = On, these are equivalent:
+    //   <?php echo $x; ?>
+    //   <? echo $x; ?>
+    
+    // <?= is always available since PHP 5.4, regardless of the directive.
+    echo $x;
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/ini.core.php#ini.short-open-tag)**
+## See Also
+
++ [PHP RFC: Deprecate short open tags, again](https://wiki.php.net/rfc/deprecate_php_short_tags_v2)
+
+## Related
+
++ [Short Tags](short-tag.ini.html)
++ [Open Tag](open-tag.ini.html)
++ [Echo Tag](echo-tag.ini.html)
++ [Close Tag](close-tag.ini.html)
++ [PHP Tags](php-tag.ini.html)
++ [php\\.ini](php.ini.ini.html)
