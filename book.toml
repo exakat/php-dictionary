@@ -7,3 +7,5 @@ language = "en"
 git-repository-url = "https://github.com/exakat/php-dictionary"
 git-repository-icon = "fab-github"
 additional-css = ["theme/custom.css"]
+input-404 = "not-found.md"
+site-url = "https://php-dictionary.readthedocs.io/en/latest/"
