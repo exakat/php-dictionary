@@ -1,0 +1,31 @@
+# Leading Zero Means Octal
+PHP integer syntax has some special formats for binary, octal and hexadecimal formats. In particular, an integer starting with 0 is in octal format. This leads to easy confusion, as the leading 0 is considered neutral.
+
+A new notation with an 0 was introduced in version 8.0: it makes the octal format just as explicit as the binary or the hexadecimal one. 
+
+Octals are mainly used with the ``mkdir()`` function, and special math domains.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/leading-zero-means-octal.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/leading-zero-means-octal.html","name":"Leading Zero Means Octal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:48:08 +0000","dateModified":"Sat, 11 Jul 2026 14:48:08 +0000","description":"PHP integer syntax has some special formats for binary, octal and hexadecimal formats","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Leading Zero Means Octal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    echo 017; // displays 15
+    echo 0o17; // displays 15
+    
+    echo 17; // displays 17
+    
+    echo 0x17; // displays 23 (hexadecimal format)
+
+?>
+```
+
+**[Documentation](https://www.php.net/manual/en/language.types.integer.php)**
+## See Also
+
++ [PHP 8.1: Explicit Octal numeral notation](https://php.watch/versions/8.1/explicit-octal-notation)
+
+## Related
+
++ [integer](integer.ini.html)
++ [Octal Integer](octal-integer.ini.html)
++ [Numeric Base](numeric-base.ini.html)
++ [Format](format.ini.html)

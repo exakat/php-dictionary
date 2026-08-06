@@ -1,0 +1,44 @@
+# zero
+Zero is the ``0`` integer. Zero is part of the falsy values: it is the equivalent of ``false``. 
+
+It is often used to return successful execution, where non-zero answers are unsuccessful execution, represented by their error message.
+
+Adding 0 to a string turns it into an integer, just like the cast operator ``(int)`` does.
+
+Comparisons between 0 and other falsy values, such as empty string ``''`` changed with PHP 8.0: it was true and became false.
+
+Division by zero emits the ``DivisionByZeroError``, as that operation is impossible. Multiplication is possible and always returns 0.
+
+0 is one of the two valid index when building a callback with an array, along with 1.
+
+0 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/zero.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/zero.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    $zero = 0;
+    
+    $four = 4 + 0;
+
+?>
+```
+
+**[Documentation](https://en.wikipedia.org/wiki/0)**
+## See Also
+
++ [What is the origin of Zero?](https://www.scientificamerican.com/article/what-is-the-origin-of-zer/)
+
+## Related
+
++ [False](false.ini.html)
++ [Comparison](comparison.ini.html)
++ [DivisionByZeroError](divisionbyzeroerror.ini.html)
++ [Empty String](empty-string.ini.html)
++ [one](one.ini.html)
++ [Callable Arrays](array-callable.ini.html)
++ [Array Callback](array-callback.ini.html)
++ [Minus One -1](minus-one.ini.html)
++ [Truthy](truthy.ini.html)
++ [ArithmeticError Error](arithmeticerror.ini.html)
++ [Logarithm](logarithm.ini.html)
++ [zend\\.assertions](zend-assertions.ini.html)

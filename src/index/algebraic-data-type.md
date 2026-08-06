@@ -1,0 +1,33 @@
+# Algebraic Data Type
+An algebraic data type is a composite type built by combining simpler types through two fundamental operations: product and sum.
+
+A product type holds values of several types simultaneously, connected by AND. Every field is always present. A struct, record, or tuple is a product type: ``{ name: string, age: int }`` means a name AND an age, always both.
+
+A sum type holds a value of exactly one of several alternatives, connected by OR. Only one case is active at a time, and each case may carry different data. ``Circle(Float) | Rectangle(Float, Float)`` means either a circle, with a radius, or a rectangle, with two sides, never both at once.
+
+Full ADT systems pair sum types with exhaustive pattern matching: the compiler enforces that every case is handled, turning incomplete switches into compile-time errors.
+
+PHP supports product types natively through classes and arrays. Sum types are approximated by union types ``int|string`` and by enums, but neither carries associated data per variant, and ``match`` does not perform exhaustive structural decomposition over union type values.
+
+PHP does not support true ADT.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/algebraic-data-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/algebraic-data-type.html","name":"Algebraic Data Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:12:12 +0000","dateModified":"Sat, 18 Jul 2026 05:12:12 +0000","description":"An algebraic data type is a composite type built by combining simpler types through two fundamental operations: product and sum","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Algebraic Data Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+**[Documentation](https://en.wikipedia.org/wiki/Algebraic_data_type)**
+## See Also
+
++ [ADTs in PHP: an approximation guide](https://stitcher.io/blog/php-enums)
+
+## Related
+
++ [Sum Type](sum-type.ini.html)
++ [Generalized Algebraic Data Type (GADT)](gadt.ini.html)
++ [Union Type](union-type.ini.html)
++ [Enumeration (enum)](enum.ini.html)
++ [Intersection Type](intersection-type.ini.html)
++ [Pattern Matching](pattern-matching.ini.html)
++ [Type System](type-system.ini.html)
++ [Generics](generics.ini.html)
++ [Existential Type](existential-type.ini.html)
++ [Higher-Kinded Type](higher-kinded-type.ini.html)
++ [Option Type](option-type.ini.html)
++ [Result Type](result-type.ini.html)
++ [Structural Pattern Matching](structural-pattern-matching.ini.html)

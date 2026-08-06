@@ -1,0 +1,44 @@
+# Sign
+A signed expression is an expression that starts with the ``+`` or the ``-`` token. 
+
+``+`` is the default value, and omitted most of the time. When present, it has no impact on the value, except that it forces the conversion to ``float`` or ``int``, depending on the value. It may also yield a type error, if the conversion is not possible.
+
+``-`` is the explicit value, and the most useful. When present, it turns the value into a ``float`` or ``int``, and multiplies it with ``-1``.
+
+PHP tolerates multiple distinct sign tokens: ``+-+-+1`` is the same as ``1``. It is strongly recommended to avoid using it. When an arbitrary number of sign changes must be executed, a multiplication by ``-1`` works well.
+
+The signs are distinct from numeric values: ``-9`` is not ``minus nine``, but rather ``-1 * 9``. This is needed to handle expressions such as ``- ($a * 2)``, where ``-`` applies to the result of the parenthesis. 
+
+It also leads to the unexpected result that ``-3 ** 2 == -9``. In this case, ``**`` power has priority over ``-``, so this is really ``-(3 ** 2) == -9``.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sign.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sign.html","name":"Sign","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A signed expression is an expression that starts with the ``+`` or the ``-`` token","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Sign.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    $a = 2;
+    $b = -$a; // -2
+    
+    $c = 123.4;
+    $d = +$c; // float(123.4)
+    
+    // Warning
+    
+    $e = -3 ** 2; // -9
+    
+    $f = +-+-+-+-+-4; // -4
+
+?>
+```
+
+**[Documentation](https://en.wikipedia.org/wiki/Sign_(mathematics))**
+## Related
+
++ [Exponent](power.ini.html)
++ [integer](integer.ini.html)
++ [Floating Point Numbers](float.ini.html)
++ [Cast Operator](cast.ini.html)
++ [Expression](expression.ini.html)
++ [Convert](convert.ini.html)
++ [Digital Signature](digital-signature.ini.html)
++ [Minus -](minus.ini.html)
++ [Positive Integer](positive-integer.ini.html)
++ [Plus +](plus.ini.html)

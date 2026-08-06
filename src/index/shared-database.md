@@ -1,0 +1,38 @@
+# Shared Database
+The shared database pattern, and more commonly, the shared database anti-pattern, describes multiple services or applications reading from and writing to the same database schema.
+
+In a monolithic application, a shared database is natural and appropriate. In a microservices architecture, it is an anti-pattern: it creates tight coupling between services at the data layer. A schema change, such as renaming a column, changing a data type, splitting a table, in one service can silently break another, even with no API change. Services cannot be deployed or scaled independently when they share schema.
+
+The alternative is the database-per-service pattern: each service owns its data exclusively, and other services access it only through the service's API or via events. This decouples the services at the data level, enabling independent schema evolution.
+
+The shared database pattern is sometimes intentionally used during a monolith-to-microservices migration as a transitional step, but should be eliminated progressively.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/shared-database.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/shared-database.html","name":"Shared Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:24:00 +0000","dateModified":"Mon, 06 Jul 2026 10:24:00 +0000","description":"The shared database pattern, and more commonly, the shared database anti-pattern, describes multiple services or applications reading from and writing to the same database schema","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Shared Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+```php
+<?php
+
+    // Anti-pattern: two services query the same 'orders' table directly
+    
+    // OrderService writes
+    $pdo->exec('INSERT INTO orders (user_id, total) VALUES (1, 9900)');
+    
+    // ShippingService reads — tightly coupled to OrderService's schema
+    $rows = $pdo->query('SELECT id, user_id, total FROM orders WHERE shipped = 0')->fetchAll();
+    // A rename of 'total' to 'amount' in OrderService silently breaks ShippingService.
+    
+    // Correct approach: ShippingService calls the OrderService API or subscribes to events
+    $orders = $httpClient->get('http://order-service/orders?shipped=false');
+    // OR
+    $event = new OrderPlaced($orderId, $total); // ShippingService listens for this event
+
+?>
+```
+
+**[Documentation](https://microservices.io/patterns/data/shared-database.html)**
+## Related
+
++ [Distributed Monolith](distributed-monolith.ini.html)
++ [Microservice](microservice.ini.html)
++ [Database](database.ini.html)
++ [Coupling](coupling.ini.html)
++ [Domain Design Driven (DDD)](ddd.ini.html)
++ [Event Driven](event-driven.ini.html)
