@@ -1,1 +1,26 @@
-.sidebar-logo img { display: block; max-width: 80%; margin: 1rem auto 1.5rem; }
+#sidebar {
+    position: relative;
+}
+
+.sidebar-logo {
+    flex: 0 0 auto;
+    padding: 10px;
+    background-color: var(--sidebar-bg);
+}
+
+.sidebar-logo img {
+    max-width: 100%;
+    display: block;
+}
+
+#sidebar .sidebar-scrollbox {
+    display: block;        /* custom elements are inline by default */
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    flex: 1 1 auto;
+    min-height: 0;
+}
+

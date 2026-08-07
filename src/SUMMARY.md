@@ -1,5 +1,8 @@
 [Introduction](introduction.md)
 [Index](index.md)
+[Thesaurus](thesaurus.md)
+[Glossary](dictionary.md)
+
 + [$HTTP\_RAW\_POST\_DATA](index/$HTTP_RAW_POST_DATA.md)
 + [$\_FILES](index/$_FILES.md)
 + [$\_COOKIE](index/$_cookie.md)
@@ -1247,8 +1250,8 @@
 + [Phptoken](index/phptoken.md)
 + [PHPunit](index/phpunit.md)
 + [PHP Installer For Extensions (PIE)](index/pie.md)
-+ [Pipe Operator](index/pipe-operator.md)
-+ [Pipe Operator](index/pipe.md)
++ [Pipe Operator ``|>``](index/pipe-operator.md)
++ [Pipe ``|``, the logical operator](index/pipe.md)
 + [Pipeline](index/pipeline.md)
 + [Plain Text](index/plain-text.md)
 + [Plugin](index/plugin.md)
@@ -1850,6 +1853,3 @@
 + [zlib extension](index/zlib.md)
 + [Zombie Code](index/zombie-code.md)
 + [Zval](index/zval.md)
-
-[Thesaurus](thesaurus.md)
-[Glossary](dictionary.md)
