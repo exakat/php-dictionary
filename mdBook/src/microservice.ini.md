@@ -1,8 +1,0 @@
-# Microservice
-A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality. These services are designed to work together seamlessly, usually communicating over well-defined APIs. Unlike traditional monolithic architectures, where an entire application is built as a single, tightly integrated unit, microservices break down the application into smaller, loosely coupled components.
-## See Also
-
-+ [PHP and Microservices: Designing and Implementing Microservices in PHP](https://reintech.io/blog/php-microservices-design-implementation)
-+ [How to use PHP to build microservice?](https://itnext.io/how-to-use-php-to-implement-microservice-94957206abc6)
-
-Related : [Application](Application), [Cloud](Cloud), [Horizontal Scaling](Horizontal Scaling), [Spiral](Spiral), [API Gateway](API Gateway), [Compensation Logic](Compensation Logic), [Container Orchestration](Container Orchestration), [Distributed Monolith](Distributed Monolith), [Distributed Systems](Distributed Systems), [Distributed Tracing](Distributed Tracing), [Distributed Transactions](Distributed Transactions), [Fault Isolation](Fault Isolation), [Kubernetes](Kubernetes), [Service Discovery](Service Discovery), [Service Registry](Service Registry), [Shared Database](Shared Database), [Service-Oriented Architecture (SOA)](Service-Oriented Architecture (SOA)), [AMP (Asynchronous Markup Protocol)](AMP (Asynchronous Markup Protocol)), [Correlation ID](Correlation ID), [OpenTelemetry](OpenTelemetry), [ReactPHP](ReactPHP)
