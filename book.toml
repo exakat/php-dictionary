@@ -229,6 +229,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/branch.ini.html" = "/en/latest/index/branch.html"
 "/dictionary/breach.ini.html" = "/en/latest/index/breach.html"
 "/dictionary/break.ini.html" = "/en/latest/index/break.html"
+"/dictionary/broken-access-control.ini.html" = "/en/latest/index/broken-access-control.html"
 "/dictionary/brownfield.ini.html" = "/en/latest/index/brownfield.html"
 "/dictionary/browscap.ini.html" = "/en/latest/index/browscap.html"
 "/dictionary/browser.ini.html" = "/en/latest/index/browser.html"
@@ -807,6 +808,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/identifier.ini.html" = "/en/latest/index/identifier.html"
 "/dictionary/identity-comparison.ini.html" = "/en/latest/index/identity-comparison.html"
 "/dictionary/identity.ini.html" = "/en/latest/index/identity.html"
+"/dictionary/idor.ini.html" = "/en/latest/index/idor.html"
 "/dictionary/if-then.ini.html" = "/en/latest/index/if-then.html"
 "/dictionary/iffectation.ini.html" = "/en/latest/index/iffectation.html"
 "/dictionary/image-injection.ini.html" = "/en/latest/index/image-injection.html"
@@ -835,6 +837,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/index-sql.ini.html" = "/en/latest/index/index-sql.html"
 "/dictionary/index.ini.html" = "/en/latest/index/index.html"
 "/dictionary/indexed-array.ini.html" = "/en/latest/index/indexed-array.html"
+"/dictionary/indirect-reference-map.ini.html" = "/en/latest/index/indirect-reference-map.html"
 "/dictionary/inequality.ini.html" = "/en/latest/index/inequality.html"
 "/dictionary/inf.ini.html" = "/en/latest/index/inf.html"
 "/dictionary/infinite-loop.ini.html" = "/en/latest/index/infinite-loop.html"
@@ -981,6 +984,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/man-in-the-middle.ini.html" = "/en/latest/index/man-in-the-middle.html"
 "/dictionary/map.ini.html" = "/en/latest/index/map.html"
 "/dictionary/markdown.ini.html" = "/en/latest/index/markdown.html"
+"/dictionary/marker-interface.ini.html" = "/en/latest/index/marker-interface.html"
 "/dictionary/marketplace.ini.html" = "/en/latest/index/marketplace.html"
 "/dictionary/match.ini.html" = "/en/latest/index/match.html"
 "/dictionary/math.ini.html" = "/en/latest/index/math.html"
@@ -1858,6 +1862,30 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
