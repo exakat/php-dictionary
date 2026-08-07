@@ -126,12 +126,11 @@
         </script>
 
         <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
-            <!-- populated by js -->
-            <mdbook-sidebar-scrollbox class="sidebar-scrollbox">
             <a href="{{ path_to_root }}index.html" class="sidebar-logo">
                 <img src="{{ path_to_root }}logo.png" alt="The PHP Dictionary">
             </a>
-            {{#toc}}{{/toc}}
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox">
             </mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html"></iframe>
