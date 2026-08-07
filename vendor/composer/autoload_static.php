@@ -23,7 +23,7 @@ class ComposerStaticInita36fcd12cb69aac0d1dc300013ce64c8
     public static $prefixDirsPsr4 = array (
         'samdark\\sitemap\\' =>
         array (
-            0 => __DIR__ . '/..' . '/samdark/sitemap',
+            0 => __DIR__ . '/..' . '/samdark/sitemap/src',
         ),
         'PhpTui\\Tui\\' =>
         array (

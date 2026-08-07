@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'samdark\\sitemap\\' => array($vendorDir . '/samdark/sitemap'),
+    'samdark\\sitemap\\' => array($vendorDir . '/samdark/sitemap/src'),
     'PhpTui\\Tui\\' => array($vendorDir . '/php-tui/php-tui/src'),
     'PhpTui\\Term\\' => array($vendorDir . '/php-tui/term/src'),
     'PhpTui\\Cassowary\\' => array($vendorDir . '/php-tui/cassowary/src'),
