@@ -10,7 +10,7 @@ Commas are syntax elements, to separate elements when provided as a list. There 
 Comma are important in the CSV and JSON formats, and other such formats.
 
 Comma do not have a value by themselves.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/comma.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/comma.html","name":"Comma","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 17:00:34 +0000","dateModified":"Mon, 03 Aug 2026 17:00:34 +0000","description":"Commas are syntax elements, to separate elements when provided as a list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/comma.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/comma.html","name":"Comma","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 17:00:34 +0000","dateModified":"Mon, 03 Aug 2026 17:00:34 +0000","description":"Commas are syntax elements, to separate elements when provided as a list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Comma.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Comma"}]}]}</script>
 ```php
 <?php
 
@@ -30,10 +30,10 @@ Comma do not have a value by themselves.
 **[Documentation](https://en.wikipedia.org/wiki/Comma)**
 ## Related
 
-+ [Parameter](parameter.ini.html)
-+ [Argument](argument.ini.html)
-+ [Array, []](array.ini.html)
-+ [List](list.ini.html)
-+ [Comma Secparated Values (CSV)](csv.ini.html)
-+ [JavaScript Object Notation (JSON)](json.ini.html)
-+ [Trailing Comma](trailing-comma.ini.html)
++ [Parameter](parameter.html)
++ [Argument](argument.html)
++ [Array, []](array.html)
++ [List](list.html)
++ [Comma Separated Values (CSV)](csv.html)
++ [JavaScript Object Notation (JSON)](json.html)
++ [Trailing Comma](trailing-comma.html)

@@ -1,6 +1,6 @@
 # Cookie
 Cookies serve as a fundamental web technology that enables websites to store small pieces of data directly within a user's web browser. This stored information persists across browsing sessions, allowing websites to remember specific details about visitors when they return. The primary purposes include tracking user behavior, maintaining login states, personalizing content, and identifying returning visitors to provide customized experiences based on their previous interactions with the site.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cookie.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cookie.html","name":"Cookie","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cookies serve as a fundamental web technology that enables websites to store small pieces of data directly within a user's web browser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Cookie.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cookie.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cookie.html","name":"Cookie","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cookies serve as a fundamental web technology that enables websites to store small pieces of data directly within a user's web browser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Cookie.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Cookie"}]}]}</script>
 ```php
 <?php
 
@@ -17,9 +17,9 @@ setcookie('aCookieName', 'Cookie value', time()+3600);  /* expire in 1 hour */
 
 ## Related
 
-+ [Hyper Text Transfer Protocol (HTTP)](http.ini.html)
-+ [Headers](headers.ini.html)
-+ [Single Sign On (SSO)](sso.ini.html)
++ [Hyper Text Transfer Protocol (HTTP)](http.html)
++ [Headers](headers.html)
++ [Single Sign On (SSO)](sso.html)
 
 ## Related packages
 

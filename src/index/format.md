@@ -13,7 +13,7 @@ Formats have various shapes. Here are some examples of formats:
 + ``JSON``
 
 It is possible to define one's custom format. Common formats have a comprehensive specifications, such as how to build them, and assorted tools, to encode, decode, use, combine, etc. 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/format.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/format.html","name":"Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:33:01 +0000","dateModified":"Mon, 20 Jul 2026 08:33:01 +0000","description":"Format is a set of rules to structure a piece of text, and make it parsable by a specific engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/format.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/format.html","name":"Format","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:33:01 +0000","dateModified":"Mon, 20 Jul 2026 08:33:01 +0000","description":"Format is a set of rules to structure a piece of text, and make it parsable by a specific engine","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Format.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Format"}]}]}</script>
 ```php
 <?php
 
@@ -27,13 +27,13 @@ It is possible to define one's custom format. Common formats have a comprehensiv
 **[Documentation](https://en.wikipedia.org/wiki/File_format)**
 ## Related
 
-+ [String](string.ini.html)
-+ [Comma Secparated Values (CSV)](csv.ini.html)
-+ [YAML Ain't Markup Language (YAML)](yaml.ini.html)
-+ [JavaScript Object Notation (JSON)](json.ini.html)
-+ [Data](data.ini.html)
-+ [sprintf](sprintf.ini.html)
-+ [printf()](printf.ini.html)
-+ [INI](ini.ini.html)
-+ [Leading Zero Means Octal](leading-zero-means-octal.ini.html)
-+ [Markdown](markdown.ini.html)
++ [String](string.html)
++ [Comma Separated Values (CSV)](csv.html)
++ [YAML Ain't Markup Language (YAML)](yaml.html)
++ [JavaScript Object Notation (JSON)](json.html)
++ [Data](data.html)
++ [sprintf](sprintf.html)
++ [printf()](printf.html)
++ [INI](ini.html)
++ [Leading Zero Means Octal](leading-zero-means-octal.html)
++ [Markdown](markdown.html)

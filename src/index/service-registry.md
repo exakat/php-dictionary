@@ -6,7 +6,7 @@ The registry must be highly available and consistent, since all service communic
 Services are expected to send periodic heartbeats to the registry; instances that fail to heartbeat are automatically removed, ensuring the registry only lists healthy instances.
 
 With microservices, the registry is rarely queried directly. Kubernetes DNS or an API gateway abstracts it. When using Consul directly, PHP can register via the Consul HTTP API at startup, e.g., in a Swoole or FrankenPHP worker, and query it for service locations.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/service-registry.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/service-registry.html","name":"Service Registry","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:35:28 +0000","dateModified":"Mon, 06 Jul 2026 19:35:28 +0000","description":"A service registry is a database of available service instances in a distributed system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Service Registry.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/service-registry.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/service-registry.html","name":"Service Registry","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:35:28 +0000","dateModified":"Mon, 06 Jul 2026 19:35:28 +0000","description":"A service registry is a database of available service instances in a distributed system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Service Registry.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Service Registry"}]}]}</script>
 ```php
 <?php
 
@@ -35,9 +35,9 @@ With microservices, the registry is rarely queried directly. Kubernetes DNS or a
 **[Documentation](https://microservices.io/patterns/service-registry.html)**
 ## Related
 
-+ [Service Discovery](service-discovery.ini.html)
-+ [Microservice](microservice.ini.html)
-+ [Kubernetes](kubernetes.ini.html)
-+ [API Gateway](api-gateway.ini.html)
-+ [Distributed Systems](distributed-systems.ini.html)
-+ [Load Balancer](load-balancer.ini.html)
++ [Service Discovery](service-discovery.html)
++ [Microservice](microservice.html)
++ [Kubernetes](kubernetes.html)
++ [API Gateway](api-gateway.html)
++ [Distributed Systems](distributed-systems.html)
++ [Load Balancer](load-balancer.html)

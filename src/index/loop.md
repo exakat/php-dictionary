@@ -6,7 +6,7 @@ The most popular loop is ``foreach()``.
 Loops may hide in certain functions: for example, ``array_map()`` and ``array_walk()`` apply a method to every element in an array. 
 
 Generators are closely related to the ``foreach()`` loop.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/loop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/loop.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:42:45 +0000","dateModified":"Thu, 23 Jul 2026 13:42:45 +0000","description":"A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/loop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/loop.html","name":"Loops","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:42:45 +0000","dateModified":"Thu, 23 Jul 2026 13:42:45 +0000","description":"A loop is a control structure that allows to execute a block of code repeatedly based on a specified condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Loops.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Loops"}]}]}</script>
 ```php
 <?php
 
@@ -34,15 +34,15 @@ Generators are closely related to the ``foreach()`` loop.
 **[Documentation](https://www.php.net/manual/en/language.control-structures.php)**
 ## Related
 
-+ [Do While](do-while.ini.html)
-+ [While](while.ini.html)
-+ [Break](break.ini.html)
-+ [Control Flow](control-flow.ini.html)
-+ [Dangling Reference](dangling-reference.ini.html)
-+ [For](for.ini.html)
-+ [foreach()](foreach.ini.html)
-+ [N+1 Query Problem](n-query.ini.html)
-+ [Array Element](array-element.ini.html)
-+ [InfiniteIterator](infiniteiterator.ini.html)
-+ [Nesting](nesting.ini.html)
-+ [Traversal](traversal.ini.html)
++ [Do While](do-while.html)
++ [While](while.html)
++ [Break](break.html)
++ [Control Flow](control-flow.html)
++ [Dangling Reference](dangling-reference.html)
++ [For](for.html)
++ [foreach()](foreach.html)
++ [N+1 Query Problem](n-query.html)
++ [Array Element](array-element.html)
++ [InfiniteIterator](infiniteiterator.html)
++ [Nesting](nesting.html)
++ [Traversal](traversal.html)

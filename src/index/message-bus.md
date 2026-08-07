@@ -10,7 +10,7 @@ A message bus often covers three patterns:
 + Query bus: routes queries to a single handler that returns a result.
 
 Using a message bus decouples the code that sends a message from the code that handles it, improving maintainability, testability, and scalability.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/message-bus.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/message-bus.html","name":"Message Bus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:11:48 +0000","dateModified":"Tue, 07 Jul 2026 05:11:48 +0000","description":"A message bus is a communication mechanism that allows different components or services to exchange messages in a decoupled manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Message Bus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/message-bus.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/message-bus.html","name":"Message Bus","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:11:48 +0000","dateModified":"Tue, 07 Jul 2026 05:11:48 +0000","description":"A message bus is a communication mechanism that allows different components or services to exchange messages in a decoupled manner","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Message Bus.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Message Bus"}]}]}</script>
 ```php
 <?php
 
@@ -43,15 +43,15 @@ Using a message bus decouples the code that sends a message from the code that h
 
 ## Related
 
-+ [Message Queue](message-queue.ini.html)
-+ [Command Bus](command-bus.ini.html)
-+ [Command Query Responsibility Segregation (CQRS)](cqrs.ini.html)
-+ [Event Driven](event-driven.ini.html)
-+ [Event Sourcing](event-sourcing.ini.html)
-+ [Pub/Sub](pubsub.ini.html)
-+ [Listener](listener.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
-+ [Decoupling](decoupling.ini.html)
++ [Message Queue](message-queue.html)
++ [Command Bus](command-bus.html)
++ [Command Query Responsibility Segregation (CQRS)](cqrs.html)
++ [Event Driven](event-driven.html)
++ [Event Sourcing](event-sourcing.html)
++ [Pub/Sub](pubsub.html)
++ [Listener](listener.html)
++ [Middleware Pattern](middleware.html)
++ [Decoupling](decoupling.html)
 
 ## Related packages
 

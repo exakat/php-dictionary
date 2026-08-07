@@ -2,7 +2,7 @@
 Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class.
 
 A class name may be validated with the following regex: ``^[a-zA-Z_\x80-\xff][a-zA-Z0-9_\x80-\xff]*$``; and by avoiding a list of PHP keywords, such as ``namespace``, ``class``, ``interface``, etc.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/class.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/class.html","name":"Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/class.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/class.html","name":"Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Class"}]}]}</script>
 ```php
 <?php
 
@@ -27,28 +27,28 @@ class X {
 
 ## Related
 
-+ [Readonly](readonly.ini.html)
-+ [Class Invasion](class-invasion.ini.html)
-+ [Const](const.ini.html)
-+ [Class Getter Method](getter.ini.html)
-+ [implements](implements.ini.html)
-+ [Inheritance](inheritance.ini.html)
-+ [Method](method.ini.html)
-+ [Class Setter Method](setter.ini.html)
-+ [Trait](trait.ini.html)
-+ [Class Wither Method](wither.ini.html)
-+ [Structure](structure.ini.html)
-+ [Class Interface Trait Enumeration (CITE)](cite.ini.html)
-+ [$this]($this.ini.html)
-+ [Lazy Objects](lazy-objects.ini.html)
-+ [Polymorphism](polymorphism.ini.html)
-+ [Promoted Properties](promoted-property.ini.html)
-+ [Existence](existence.ini.html)
-+ [Phptoken](phptoken.ini.html)
-+ [Reflection](reflection.ini.html)
-+ [Undefined](undefined.ini.html)
-+ [Base Class](base-class.ini.html)
-+ [instance](instance.ini.html)
-+ [is\_a()](is_a.ini.html)
-+ [Naming Conflict](naming-conflict.ini.html)
-+ [Non-static](non-static.ini.html)
++ [Readonly](readonly.html)
++ [Class Invasion](class-invasion.html)
++ [Const](const.html)
++ [Class Getter Method](getter.html)
++ [implements](implements.html)
++ [Inheritance](inheritance.html)
++ [Method](method.html)
++ [Class Setter Method](setter.html)
++ [Trait](trait.html)
++ [Class Wither Method](wither.html)
++ [Structure](structure.html)
++ [Class Interface Trait Enumeration (CITE)](cite.html)
++ [$this]($this.html)
++ [Lazy Objects](lazy-objects.html)
++ [Polymorphism](polymorphism.html)
++ [Promoted Properties](promoted-property.html)
++ [Existence](existence.html)
++ [Phptoken](phptoken.html)
++ [Reflection](reflection.html)
++ [Undefined](undefined.html)
++ [Base Class](base-class.html)
++ [instance](instance.html)
++ [is\_a()](is_a.html)
++ [Naming Conflict](naming-conflict.html)
++ [Non-static](non-static.html)

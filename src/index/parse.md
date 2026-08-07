@@ -6,7 +6,7 @@ PHP has a phase of parsing: it is handled by the tokenizer, a part of the PHP en
 Parsing is commonly used when working with data formats like XML, JSON, HTML, YAML, or even custom text formats. It involves breaking down a string into its individual components or tokens to understand its underlying structure.
 
 The simplest usage of parsing is to identify errors in the structure, leading to an early aborting of the processing.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parse.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parse.html","name":"Parse","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Parse.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parse.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parse.html","name":"Parse","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Parse.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Parse"}]}]}</script>
 ```php
 <?php
 
@@ -26,11 +26,11 @@ $object = json_decode($json);
 
 ## Related
 
-+ [Sanitation](sanitation.ini.html)
-+ [Validation](validation.ini.html)
-+ [parse\_str()](parse_str.ini.html)
-+ [ParseError](parseerror.ini.html)
-+ [Parser](parser.ini.html)
-+ [Phptoken](phptoken.ini.html)
-+ [Lint, Won't Execute](lint-wont-execute.ini.html)
-+ [parse\_url()](parse_url.ini.html)
++ [Sanitation](sanitation.html)
++ [Validation](validation.html)
++ [parse\_str()](parse_str.html)
++ [ParseError](parseerror.html)
++ [Parser](parser.html)
++ [Phptoken](phptoken.html)
++ [Lint, Won't Execute](lint-wont-execute.html)
++ [parse\_url()](parse_url.html)

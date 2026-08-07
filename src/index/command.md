@@ -10,7 +10,7 @@ The Command pattern separates the object that invokes an operation from the obje
 
 Symfony Console and Laravel Artisan both build on this pattern for their CLI command systems.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/command.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/command.html","name":"Command","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:07:28 +0000","dateModified":"Fri, 17 Jul 2026 09:07:28 +0000","description":"The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Command.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/command.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/command.html","name":"Command","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:07:28 +0000","dateModified":"Fri, 17 Jul 2026 09:07:28 +0000","description":"The Command design pattern encapsulates a request as an object, allowing it to be stored, queued, logged, or undone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Command.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Command"}]}]}</script>
 ```php
 <?php
 
@@ -49,9 +49,9 @@ Symfony Console and Laravel Artisan both build on this pattern for their CLI com
 
 ## Related
 
-+ [Command Bus](command-bus.ini.html)
-+ [Command Query Responsibility Segregation (CQRS)](cqrs.ini.html)
-+ [Design Pattern](design-pattern.ini.html)
-+ [Command Line Interface (CLI)](cli.ini.html)
-+ [Expression](expression.ini.html)
-+ [Instruction](instruction.ini.html)
++ [Command Bus](command-bus.html)
++ [Command Query Responsibility Segregation (CQRS)](cqrs.html)
++ [Design Pattern](design-pattern.html)
++ [Command Line Interface (CLI)](cli.html)
++ [Expression](expression.html)
++ [Instruction](instruction.html)

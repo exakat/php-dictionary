@@ -28,7 +28,7 @@ PHP offers a complete API to describe classes, methods, interfaces, constants, f
 + Reflector
 
 Reflection is also available in other programming languages.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/reflection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/reflection.html","name":"Reflection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:15:07 +0000","dateModified":"Tue, 14 Jul 2026 05:15:07 +0000","description":"PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Reflection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/reflection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/reflection.html","name":"Reflection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:15:07 +0000","dateModified":"Tue, 14 Jul 2026 05:15:07 +0000","description":"PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Reflection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Reflection"}]}]}</script>
 ```php
 <?php
 
@@ -46,20 +46,20 @@ Reflection is also available in other programming languages.
 
 ## Related
 
-+ [Class](class.ini.html)
-+ [instance](instance.ini.html)
-+ [Introspection](introspection.ini.html)
-+ [get\_object\_vars()](get_object_vars.ini.html)
-+ [new](new.ini.html)
-+ [ReflectionException](reflectionexception.ini.html)
-+ [Writeable](writeable.ini.html)
-+ [get\_class\_vars()](get_class_vars.ini.html)
-+ [Reflector](reflector.ini.html)
-+ [Code Generation](code-generation.ini.html)
-+ [Homoiconicity](homoiconicity.ini.html)
-+ [Meta-object Protocol (MOP)](meta-object-protocol.ini.html)
-+ [Metaclass](metaclass.ini.html)
-+ [Metaprogramming](metaprogramming.ini.html)
++ [Class](class.html)
++ [instance](instance.html)
++ [Introspection](introspection.html)
++ [get\_object\_vars()](get_object_vars.html)
++ [new](new.html)
++ [ReflectionException](reflectionexception.html)
++ [Writeable](writeable.html)
++ [get\_class\_vars()](get_class_vars.html)
++ [Reflector](reflector.html)
++ [Code Generation](code-generation.html)
++ [Homoiconicity](homoiconicity.html)
++ [Meta-object Protocol (MOP)](meta-object-protocol.html)
++ [Metaclass](metaclass.html)
++ [Metaprogramming](metaprogramming.html)
 
 ## Related packages
 

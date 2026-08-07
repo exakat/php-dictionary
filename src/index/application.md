@@ -4,7 +4,7 @@ An application is a software program designed to perform specific tasks for end 
 PHP applications are typically structured around a framework or architecture pattern, like MVC, ADR, hexagonal architecture, etc. and a dependency-injection container. The entry point is usually a single ``index.php`` for web apps, or a CLI script invoked via the shell.
 
 PHP applications excel at connecting to various sources of informations, to collect, process and store data.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/application.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/application.html","name":"Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An application is a software program designed to perform specific tasks for end users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/application.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/application.html","name":"Application","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"An application is a software program designed to perform specific tasks for end users","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Application.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Application"}]}]}</script>
 ```php
 <?php
 
@@ -36,24 +36,24 @@ $response->send();
 
 ## Related
 
-+ [Terminal User Interface (TUI)](tui.ini.html)
-+ [Command Line Interface (CLI)](cli.ini.html)
-+ [Desktop Application](desktop-app.ini.html)
-+ [Mobile Application](mobile-app.ini.html)
-+ [Web Application](web-app.ini.html)
-+ [Model - View - Controller (MVC)](mvc.ini.html)
-+ [Architectural Decision Record (ADR)](adr.ini.html)
-+ [REST API](rest-api.ini.html)
-+ [Application Programming Interface (API)](api.ini.html)
-+ [GraphQL](graphql.ini.html)
-+ [gRPC (Google Remote Procedure Call)](grpc.ini.html)
-+ [Software-as-a-Service (SAAS)](saas.ini.html)
-+ [PaaS](paas.ini.html)
-+ [IaaS](iaas.ini.html)
-+ [Microservice](microservice.ini.html)
-+ [Monolith](monolith.ini.html)
-+ [Single Page Application (SPA)](spa.ini.html)
-+ [Content Management System (CMS)](cms.ini.html)
-+ [NativePHP](nativephp.ini.html)
-+ [Hexagonal Architecture](hexagonal.ini.html)
-+ [Clean Architecture](clean-architecture.ini.html)
++ [Terminal User Interface (TUI)](tui.html)
++ [Command Line Interface (CLI)](cli.html)
++ [Desktop Application](desktop-app.html)
++ [Mobile Application](mobile-app.html)
++ [Web Application](web-app.html)
++ [Model - View - Controller (MVC)](mvc.html)
++ [Architectural Decision Record (ADR)](adr.html)
++ [REST API](rest-api.html)
++ [Application Programming Interface (API)](api.html)
++ [GraphQL](graphql.html)
++ [gRPC (Google Remote Procedure Call)](grpc.html)
++ [Software-as-a-Service (SAAS)](saas.html)
++ [PaaS](paas.html)
++ [IaaS](iaas.html)
++ [Microservice](microservice.html)
++ [Monolith](monolith.html)
++ [Single Page Application (SPA)](spa.html)
++ [Content Management System (CMS)](cms.html)
++ [NativePHP](nativephp.html)
++ [Hexagonal Architecture](hexagonal.html)
++ [Clean Architecture](clean-architecture.html)

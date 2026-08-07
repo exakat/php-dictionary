@@ -4,7 +4,7 @@ A index is the identifier of an specific element in an array. They may automatic
 PHP index may be integers or strings only. Other data types generate an error or a type conversion. For example, floats are turned into integer. integer-shaped strings will also be turned into integer.
 
 PHP index start at 0. They may be automatically assigned by appending a new value with the ``[]`` operator: then, they use the greatest available index + 1.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/index-array.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/index-array.html","name":"Index For Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A index is the identifier of an specific element in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Index For Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index-array.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index-array.html","name":"Index For Arrays","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A index is the identifier of an specific element in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Index For Arrays.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Index For Arrays"}]}]}</script>
 ```php
 <?php
 
@@ -23,19 +23,19 @@ PHP index start at 0. They may be automatically assigned by appending a new valu
 
 ## Related
 
-+ [Array, []](array.ini.html)
-+ [Data Container](data-container.ini.html)
-+ [Collection](collection.ini.html)
-+ [Index](index.ini.html)
-+ [Map](map.ini.html)
-+ [negative-index](negative-index.ini.html)
-+ [Square Brackets](square-bracket.ini.html)
-+ [Array Element](array-element.ini.html)
-+ [array\_keys()](array_keys.ini.html)
-+ [Automatic Index](automatic-index.ini.html)
-+ [unset()](unset.ini.html)
-+ [Array Dot Notation](array-dot-notation.ini.html)
-+ [array\_column](array_column.ini.html)
-+ [array\_push()](array_push.ini.html)
-+ [Offset](offset.ini.html)
-+ [Multidimensional Array](multidimensional-array.ini.html)
++ [Array, []](array.html)
++ [Data Container](data-container.html)
++ [Collection](collection.html)
++ [Index](index.html)
++ [Map](map.html)
++ [negative-index](negative-index.html)
++ [Square Brackets](square-bracket.html)
++ [Array Element](array-element.html)
++ [array\_keys()](array_keys.html)
++ [Automatic Index](automatic-index.html)
++ [unset()](unset.html)
++ [Array Dot Notation](array-dot-notation.html)
++ [array\_column](array_column.html)
++ [array\_push()](array_push.html)
++ [Offset](offset.html)
++ [Multidimensional Array](multidimensional-array.html)

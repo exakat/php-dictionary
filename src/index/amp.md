@@ -4,7 +4,7 @@ AMP refers to the AMP PHP library, formerly Amp Project, an event-driven, non-bl
 It provides primitives for working with async operations: ``Promises``, ``Futures``, and an event loop. Amp is the foundation behind popular projects like ReactPHP and PHP-PM, and is widely used for building high-concurrency network services, WebSocket servers, and HTTP clients.
 
 In a broader web context, AMP also stands for Accelerated Mobile Pages, a Google-backed project for creating fast-loading mobile web pages.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/amp.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/amp.html","name":"AMP (Asynchronous Markup Protocol)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:12:40 +0000","dateModified":"Thu, 16 Jul 2026 14:12:40 +0000","description":"AMP refers to the AMP PHP library, formerly Amp Project, an event-driven, non-blocking I\/O framework for building asynchronous applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/AMP (Asynchronous Markup Protocol).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/amp.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/amp.html","name":"AMP (Asynchronous Markup Protocol)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:12:40 +0000","dateModified":"Thu, 16 Jul 2026 14:12:40 +0000","description":"AMP refers to the AMP PHP library, formerly Amp Project, an event-driven, non-blocking I\/O framework for building asynchronous applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/AMP (Asynchronous Markup Protocol).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"AMP (Asynchronous Markup Protocol)"}]}]}</script>
 ```php
 <?php
 
@@ -27,18 +27,18 @@ In a broader web context, AMP also stands for Accelerated Mobile Pages, a Google
 
 ## Related
 
-+ [ReactPHP](reactphp.ini.html)
-+ [Async](async.ini.html)
-+ [Asynchronous](asynchronous.ini.html)
-+ [Event Loop](event-loop.ini.html)
-+ [Coroutine](coroutine.ini.html)
-+ [Promise](promise.ini.html)
-+ [Fibers](fibers.ini.html)
-+ [Non-blocking](non-blocking.ini.html)
-+ [Concurrency](concurrency.ini.html)
-+ [Microservice](microservice.ini.html)
-+ [Swoole](swoole.ini.html)
-+ [OpenSwoole](openswoole.ini.html)
++ [ReactPHP](reactphp.html)
++ [Async](async.html)
++ [Asynchronous](asynchronous.html)
++ [Event Loop](event-loop.html)
++ [Coroutine](coroutine.html)
++ [Promise](promise.html)
++ [Fibers](fibers.html)
++ [Non-blocking](non-blocking.html)
++ [Concurrency](concurrency.html)
++ [Microservice](microservice.html)
++ [Swoole](swoole.html)
++ [OpenSwoole](openswoole.html)
 
 ## Related packages
 

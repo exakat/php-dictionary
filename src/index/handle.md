@@ -4,7 +4,7 @@ A handle represents a datastructure that has established a link with an independ
 The content of the handle is usually opaque: there is no need to know what is inside, except that this handle must be provided to every function call.
 
 Handles are often build with the type ``resource``, and they are evolving toward objects. The content is still opaque, but the objects carry the dataset between method calls.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/handle.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/handle.html","name":"Handle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:50:31 +0000","dateModified":"Thu, 06 Aug 2026 05:50:31 +0000","description":"A handle represents a datastructure that has established a link with an independent resource","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Handle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/handle.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/handle.html","name":"Handle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:50:31 +0000","dateModified":"Thu, 06 Aug 2026 05:50:31 +0000","description":"A handle represents a datastructure that has established a link with an independent resource","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Handle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Handle"}]}]}</script>
 ```php
 <?php
 
@@ -22,9 +22,9 @@ Handles are often build with the type ``resource``, and they are evolving toward
 
 ## Related
 
-+ [resource](resource.ini.html)
-+ [Object](object.ini.html)
-+ [Data Structure](datastructure.ini.html)
-+ [fopen()](fopen.ini.html)
-+ [Client URL (CURL)](curl.ini.html)
-+ [Database](database.ini.html)
++ [resource](resource.html)
++ [Object](object.html)
++ [Data Structure](datastructure.html)
++ [fopen()](fopen.html)
++ [Client URL (CURL)](curl.html)
++ [Database](database.html)

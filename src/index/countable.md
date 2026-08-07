@@ -2,7 +2,7 @@
 The ``Countable`` interface is a native built-in interface that allows objects to be counted using the ``count()`` function. 
 
 By implementing the ``Countable`` interface, a class defines custom logic for determining its count.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/countable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/countable.html","name":"Countable Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 16 Jun 2026 15:31:37 +0000","dateModified":"Tue, 16 Jun 2026 15:31:37 +0000","description":"The ``Countable`` interface is a native built-in interface that allows objects to be counted using the ``count()`` function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Countable Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/countable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/countable.html","name":"Countable Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 16 Jun 2026 15:31:37 +0000","dateModified":"Tue, 16 Jun 2026 15:31:37 +0000","description":"The ``Countable`` interface is a native built-in interface that allows objects to be counted using the ``count()`` function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Countable Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Countable Interface"}]}]}</script>
 ```php
 <?php
 class Collection implements Countable
@@ -36,7 +36,7 @@ print count($count).PHP_EOL;
 
 ## Related
 
-+ [count()](count.ini.html)
-+ [Interface](interface.ini.html)
-+ [PHP Native Interfaces](php-interface.ini.html)
-+ [ArrayAccess](arrayaccess.ini.html)
++ [count()](count.html)
++ [Interface](interface.html)
++ [PHP Native Interfaces](php-interface.html)
++ [ArrayAccess](arrayaccess.html)

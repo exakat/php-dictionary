@@ -1,6 +1,6 @@
 # Operators
 An operator takes one or more values, or expressions in programming jargon, and yields another value, so that the construction itself becomes an expression.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/operator.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/operator.html","name":"Operators","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"An operator takes one or more values, or expressions in programming jargon, and yields another value, so that the construction itself becomes an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Operators.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/operator.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/operator.html","name":"Operators","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"An operator takes one or more values, or expressions in programming jargon, and yields another value, so that the construction itself becomes an expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Operators.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Operators"}]}]}</script>
 ```php
 <?php
 
@@ -24,12 +24,12 @@ $e = $d ? 3 : 2;
 
 ## Related
 
-+ [Short Tags](short-tag.ini.html)
-+ [Short Syntax](short-syntax.ini.html)
-+ [Operator Overloading](operator-overloading.ini.html)
-+ [Comparison](comparison.ini.html)
-+ [Operand](operand.ini.html)
-+ [Operator Precedence](operator-precedence.ini.html)
-+ [Precedence](precedence.ini.html)
-+ [Error Suppression](error-suppression.ini.html)
-+ [instanceof](instanceof.ini.html)
++ [Short Tags](short-tag.html)
++ [Short Syntax](short-syntax.html)
++ [Operator Overloading](operator-overloading.html)
++ [Comparison](comparison.html)
++ [Operand](operand.html)
++ [Operator Precedence](operator-precedence.html)
++ [Precedence](precedence.html)
++ [Error Suppression](error-suppression.html)
++ [instanceof](instanceof.html)

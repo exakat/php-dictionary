@@ -14,7 +14,7 @@ PHP's classic model, one thread per request with no shared state, makes STM larg
 + The ``parallel`` extension, which gives threads access to a ``\parallel\Channel`` and ``\parallel\Future``, allowing structured inter-thread communication that approximates transactional semantics.
 + Swoole shared-memory tables, with ``Swoole\Table``, which provide atomic row-level operations across coroutines.
 + Database-backed STM, where the database engine itself provides MVCC and serializable isolation as a proxy for in-memory STM.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/software-transactional-memory.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/software-transactional-memory.html","name":"Software Transactional Memory (STM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:03:53 +0000","dateModified":"Sun, 02 Aug 2026 06:03:53 +0000","description":"Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Software Transactional Memory (STM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/software-transactional-memory.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/software-transactional-memory.html","name":"Software Transactional Memory (STM)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:03:53 +0000","dateModified":"Sun, 02 Aug 2026 06:03:53 +0000","description":"Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Software Transactional Memory (STM).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Software Transactional Memory (STM)"}]}]}</script>
 ```php
 <?php
 
@@ -45,12 +45,12 @@ PHP's classic model, one thread per request with no shared state, makes STM larg
 
 ## Related
 
-+ [Concurrency](concurrency.ini.html)
-+ [Atomic Operation](atomic-operation.ini.html)
-+ [Transaction](transaction.ini.html)
-+ [Mutex](mutex.ini.html)
-+ [Lock](lock.ini.html)
-+ [Shared Memory](shared-memory.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Parallel](parallel.ini.html)
-+ [Actor Model](actor-model.ini.html)
++ [Concurrency](concurrency.html)
++ [Atomic Operation](atomic-operation.html)
++ [Transaction](transaction.html)
++ [Mutex](mutex.html)
++ [Lock](lock.html)
++ [Shared Memory](shared-memory.html)
++ [Race Condition](race-condition.html)
++ [Parallel](parallel.html)
++ [Actor Model](actor-model.html)

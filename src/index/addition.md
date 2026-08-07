@@ -10,7 +10,7 @@ With boolean, addition first cast the boolean to an integer, 0 or 1, and then, o
 With string, addition first try to convert the string to a numeric value. If it succeed, it operates as a math addition. Otherwise, it emits a type error.
 
 With objects or resources, a type error is emitted.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/addition.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/addition.html","name":"Addition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"PHP additions apply to two different types: numbers and arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Addition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/addition.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/addition.html","name":"Addition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"PHP additions apply to two different types: numbers and arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Addition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Addition"}]}]}</script>
 ```php
 <?php
 
@@ -31,11 +31,11 @@ $b = [1] + [3, 4]; // [1, 4]
 
 ## Related
 
-+ [Array, []](array.ini.html)
-+ [integer](integer.ini.html)
-+ [Floating Point Numbers](float.ini.html)
-+ [TypeError](typeerror.ini.html)
-+ [Division](division.ini.html)
-+ [Operand](operand.ini.html)
-+ [Plus +](plus.ini.html)
-+ [Single](single.ini.html)
++ [Array, []](array.html)
++ [integer](integer.html)
++ [Floating Point Numbers](float.html)
++ [TypeError](typeerror.html)
++ [Division](division.html)
++ [Operand](operand.html)
++ [Plus +](plus.html)
++ [Single](single.html)

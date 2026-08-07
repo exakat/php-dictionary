@@ -12,7 +12,7 @@ The available casts are:
 + ``(void)``: complement operator to the ``NoDiscard`` attribute. It is not really a cast operator.
 + ``(unset)``: cast to NULL, deprecated since PHP 7.2
 + ``(real)``: cast to float.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cast.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cast.html","name":"Cast Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cast operators change the type of the variable to the desired type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Cast Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cast.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cast.html","name":"Cast Operator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cast operators change the type of the variable to the desired type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Cast Operator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Cast Operator"}]}]}</script>
 ```php
 <?php
 
@@ -32,15 +32,15 @@ The available casts are:
 
 ## Related
 
-+ [\_\_toString() Method](__tostring.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
-+ [ArrayObject](arrayobject.ini.html)
-+ [Convert](convert.ini.html)
-+ [Non-numeric](non-numeric.ini.html)
-+ [Sign](sign.ini.html)
-+ [array\_keys()](array_keys.ini.html)
-+ [Boolean](boolean.ini.html)
-+ [Golf](golf.ini.html)
-+ [Number](number.ini.html)
-+ [Canonical](canonical.ini.html)
-+ [get\_object\_vars()](get_object_vars.ini.html)
++ [\_\_toString() Method](__tostring.html)
++ [Type Juggling](type-juggling.html)
++ [ArrayObject](arrayobject.html)
++ [Convert](convert.html)
++ [Non-numeric](non-numeric.html)
++ [Sign](sign.html)
++ [array\_keys()](array_keys.html)
++ [Boolean](boolean.html)
++ [Golf](golf.html)
++ [Number](number.html)
++ [Canonical](canonical.html)
++ [get\_object\_vars()](get_object_vars.html)

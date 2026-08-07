@@ -6,7 +6,7 @@ Multiplying, or dividing, a string by 1 turns it into an integer, just like the 
 1 is one of the two valid index when building a callback with an array, along with 0.
 
 1 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/one.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/one.html","name":"one","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 17:16:39 +0000","dateModified":"Mon, 03 Aug 2026 17:16:39 +0000","description":"One is the ``1`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/one.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/one.html","name":"one","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 09:44:24 +0000","dateModified":"Fri, 07 Aug 2026 09:44:24 +0000","description":"One is the ``1`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/one.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"one"}]}]}</script>
 ```php
 <?php
 
@@ -18,17 +18,22 @@ Multiplying, or dividing, a string by 1 turns it into an integer, just like the 
 ```
 
 **[Documentation](https://en.wikipedia.org/wiki/Magic_number_(programming))**
+## See Also
+
++ [phpmnd: PHP Magic Number Detector](https://github.com/povils/phpmnd)
++ [PHP: Booleans - Manual](https://www.php.net/manual/en/language.types.boolean.php)
+
 ## Related
 
-+ [False](false.ini.html)
-+ [Callbacks](callback.ini.html)
-+ [zero](zero.ini.html)
-+ [Multiplication](multiplication.ini.html)
-+ [Callable Arrays](array-callable.ini.html)
-+ [Array Callback](array-callback.ini.html)
-+ [Minus One -1](minus-one.ini.html)
-+ [Truthy](truthy.ini.html)
-+ [Magic Numbers](magic-number.ini.html)
-+ [Logarithm](logarithm.ini.html)
-+ [Post-increment](post-increment.ini.html)
-+ [zend\\.assertions](zend-assertions.ini.html)
++ [False](false.html)
++ [Callbacks](callback.html)
++ [zero](zero.html)
++ [Multiplication](multiplication.html)
++ [Callable Arrays](array-callable.html)
++ [Array Callback](array-callback.html)
++ [Minus One -1](minus-one.html)
++ [Truthy](truthy.html)
++ [Magic Numbers](magic-number.html)
++ [Logarithm](logarithm.html)
++ [Post-increment](post-increment.html)
++ [zend\\.assertions](zend-assertions.html)

@@ -12,7 +12,7 @@ Division by zero emits the ``DivisionByZeroError``, as that operation is impossi
 0 is one of the two valid index when building a callback with an array, along with 1.
 
 0 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/zero.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/zero.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/zero.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/zero.html","name":"zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Zero is the ``0`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"zero"}]}]}</script>
 ```php
 <?php
 
@@ -30,15 +30,15 @@ Division by zero emits the ``DivisionByZeroError``, as that operation is impossi
 
 ## Related
 
-+ [False](false.ini.html)
-+ [Comparison](comparison.ini.html)
-+ [DivisionByZeroError](divisionbyzeroerror.ini.html)
-+ [Empty String](empty-string.ini.html)
-+ [one](one.ini.html)
-+ [Callable Arrays](array-callable.ini.html)
-+ [Array Callback](array-callback.ini.html)
-+ [Minus One -1](minus-one.ini.html)
-+ [Truthy](truthy.ini.html)
-+ [ArithmeticError Error](arithmeticerror.ini.html)
-+ [Logarithm](logarithm.ini.html)
-+ [zend\\.assertions](zend-assertions.ini.html)
++ [False](false.html)
++ [Comparison](comparison.html)
++ [DivisionByZeroError](divisionbyzeroerror.html)
++ [Empty String](empty-string.html)
++ [one](one.html)
++ [Callable Arrays](array-callable.html)
++ [Array Callback](array-callback.html)
++ [Minus One -1](minus-one.html)
++ [Truthy](truthy.html)
++ [ArithmeticError Error](arithmeticerror.html)
++ [Logarithm](logarithm.html)
++ [zend\\.assertions](zend-assertions.html)

@@ -10,7 +10,7 @@ PHP's engine performs no static narrowing: types are checked at runtime, not tra
 + None of this narrowing is enforced by the PHP runtime; a value can still be used inconsistently with the narrowed type and only fail, if at all, when the offending operation actually executes.
 
 ``smart-cast`` names the specific compiler-enforced flavor of narrowing found in languages like Kotlin and TypeScript; type narrowing is the broader concept those features are instances of.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-narrowing.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-narrowing.html","name":"Type Narrowing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:08:48 +0000","dateModified":"Wed, 08 Jul 2026 16:08:48 +0000","description":"Type narrowing is the general process of refining the type of a value to a more specific subtype within a scope, based on information gathered from a preceding check: a type test, a comparison, an assignment, or a control-flow branch","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Type Narrowing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-narrowing.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-narrowing.html","name":"Type Narrowing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:08:48 +0000","dateModified":"Wed, 08 Jul 2026 16:08:48 +0000","description":"Type narrowing is the general process of refining the type of a value to a more specific subtype within a scope, based on information gathered from a preceding check: a type test, a comparison, an assignment, or a control-flow branch","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Type Narrowing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Type Narrowing"}]}]}</script>
 ```php
 <?php
 
@@ -37,11 +37,11 @@ PHP's engine performs no static narrowing: types are checked at runtime, not tra
 
 ## Related
 
-+ [Smart Cast](smart-cast.ini.html)
-+ [Type Widening](type-widening.ini.html)
-+ [instanceof](instanceof.ini.html)
-+ [Type System](type-system.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [Gradual Type Checking](gradual-type-checking.ini.html)
-+ [Union Type](union-type.ini.html)
-+ [Static Code Analysis (SCA)](static-analysis.ini.html)
++ [Smart Cast](smart-cast.html)
++ [Type Widening](type-widening.html)
++ [instanceof](instanceof.html)
++ [Type System](type-system.html)
++ [Type Checking](type-checking.html)
++ [Gradual Type Checking](gradual-type-checking.html)
++ [Union Type](union-type.html)
++ [Static Code Analysis (SCA)](static-analysis.html)

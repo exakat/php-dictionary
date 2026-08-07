@@ -16,7 +16,7 @@ PDO provides access 10 different databases:
 + SQLite 2 and 3
 
 The different access relies on drivers and DSN to connect to a database. The DSN describes the server to reach, and the driver handles the communication protocol.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pdo.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pdo.html","name":"PHP Data Objects (PDO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP Data Objects, aka PDO, is an interface that abstract access to databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/PHP Data Objects (PDO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pdo.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pdo.html","name":"PHP Data Objects (PDO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP Data Objects, aka PDO, is an interface that abstract access to databases","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/PHP Data Objects (PDO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"PHP Data Objects (PDO)"}]}]}</script>
 ```php
 <?php
   $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);
@@ -26,15 +26,15 @@ The different access relies on drivers and DSN to connect to a database. The DSN
 **[Documentation](https://www.php.net/manual/en/book.pdo.php)**
 ## Related
 
-+ [Data Source Name (DSN)](dsn.ini.html)
-+ [Relational DataBase Management System (RDBMS)](rdbms.ini.html)
-+ [Abstraction Layer](abstraction-layer.ini.html)
-+ [Data Access Object (DAO)](dao.ini.html)
-+ [Resource Leak](resource-leak.ini.html)
-+ [Rollback](rollback.ini.html)
-+ [Structured Query Language (SQL)](sql.ini.html)
-+ [SQLite3](sqlite3.ini.html)
-+ [Database Commit](database-commit.ini.html)
-+ [mysqli](mysqli.ini.html)
-+ [Oracle](oracle.ini.html)
-+ [Transaction](transaction.ini.html)
++ [Data Source Name (DSN)](dsn.html)
++ [Relational DataBase Management System (RDBMS)](rdbms.html)
++ [Abstraction Layer](abstraction-layer.html)
++ [Data Access Object (DAO)](dao.html)
++ [Resource Leak](resource-leak.html)
++ [Rollback](rollback.html)
++ [Structured Query Language (SQL)](sql.html)
++ [SQLite3](sqlite3.html)
++ [Database Commit](database-commit.html)
++ [mysqli](mysqli.html)
++ [Oracle](oracle.html)
++ [Transaction](transaction.html)

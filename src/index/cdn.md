@@ -4,7 +4,7 @@ A Content Delivery Network, or CDN, is a geographically distributed network of p
 CDNs cache static assets, images, CSS, JavaScript, fonts, etc. and serve them with appropriate HTTP headers. They can also handle dynamic content acceleration, DDoS mitigation, TLS termination, and edge-side logic.
 
 PHP contributes by setting correct HTTP caching headers so the CDN knows what to cache, for how long, and when to revalidate.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cdn.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cdn.html","name":"CDN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:37:02 +0000","dateModified":"Thu, 16 Jul 2026 08:37:02 +0000","description":"A Content Delivery Network, or CDN, is a geographically distributed network of proxy servers that delivers content to end-users from the node closest to them, reducing latency and offloading traffic from the origin server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/CDN.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cdn.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cdn.html","name":"CDN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:37:02 +0000","dateModified":"Thu, 16 Jul 2026 08:37:02 +0000","description":"A Content Delivery Network, or CDN, is a geographically distributed network of proxy servers that delivers content to end-users from the node closest to them, reducing latency and offloading traffic from the origin server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/CDN.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"CDN"}]}]}</script>
 ```php
 <?php
 
@@ -32,10 +32,10 @@ PHP contributes by setting correct HTTP caching headers so the CDN knows what to
 
 ## Related
 
-+ [Cache](cache.ini.html)
-+ [Latency](latency.ini.html)
-+ [HTTP Headers](http-header.ini.html)
-+ [Load Balancer](load-balancer.ini.html)
-+ [Edge Computing](edge-computing.ini.html)
-+ [Horizontal Scaling](horizontal-scaling.ini.html)
-+ [Time To Live (TTL)](ttl.ini.html)
++ [Cache](cache.html)
++ [Latency](latency.html)
++ [HTTP Headers](http-header.html)
++ [Load Balancer](load-balancer.html)
++ [Edge Computing](edge-computing.html)
++ [Horizontal Scaling](horizontal-scaling.html)
++ [Time To Live (TTL)](ttl.html)

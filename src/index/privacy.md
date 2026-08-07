@@ -13,7 +13,7 @@ In applications, privacy considerations include:
 + Secure transmission: using HTTPS and TLS for all data in transit
 
 PHP's ``SensitiveParameter`` attribute prevents sensitive argument values from appearing in stack traces.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/privacy.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/privacy.html","name":"Privacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:31:08 +0000","dateModified":"Tue, 14 Jul 2026 05:31:08 +0000","description":"Privacy in software refers to the protection of personal and sensitive user data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Privacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/privacy.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/privacy.html","name":"Privacy","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:31:08 +0000","dateModified":"Tue, 14 Jul 2026 05:31:08 +0000","description":"Privacy in software refers to the protection of personal and sensitive user data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Privacy.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Privacy"}]}]}</script>
 ```php
 <?php
 
@@ -44,14 +44,14 @@ PHP's ``SensitiveParameter`` attribute prevents sensitive argument values from a
 
 ## Related
 
-+ [Security](security.ini.html)
-+ [Compliance](compliance.ini.html)
-+ [Anonymize](anonymize.ini.html)
-+ [Sensitive Parameter](sensitiveparameter.ini.html)
-+ [Cryptography](cryptography.ini.html)
-+ [Audit Trail](audit-trail.ini.html)
-+ [Authentication](authentication.ini.html)
-+ [Data Leak](data-leak.ini.html)
-+ [Password API](password-ext.ini.html)
-+ [Password](password.ini.html)
-+ [Secret](secret.ini.html)
++ [Security](security.html)
++ [Compliance](compliance.html)
++ [Anonymize](anonymize.html)
++ [Sensitive Parameter](sensitiveparameter.html)
++ [Cryptography](cryptography.html)
++ [Audit Trail](audit-trail.html)
++ [Authentication](authentication.html)
++ [Data Leak](data-leak.html)
++ [Password API](password-ext.html)
++ [Password](password.html)
++ [Secret](secret.html)

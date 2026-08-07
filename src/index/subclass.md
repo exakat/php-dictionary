@@ -2,7 +2,7 @@
 A ``subclass`` is a class that extends another class. It is also called a child of that class.
 
 Subclasses have the same features than any other class, besides the extension.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/subclass.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/subclass.html","name":"Subclass","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:11 +0000","dateModified":"Fri, 19 Jun 2026 21:24:11 +0000","description":"A ``subclass`` is a class that extends another class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Subclass.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/subclass.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/subclass.html","name":"Subclass","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:11 +0000","dateModified":"Fri, 19 Jun 2026 21:24:11 +0000","description":"A ``subclass`` is a class that extends another class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Subclass.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Subclass"}]}]}</script>
 ```php
 <?php
 
@@ -17,7 +17,7 @@ class B extends A {}
 **[Documentation](https://www.php.net/manual/en/language.oop5.inheritance.php)**
 ## Related
 
-+ [Sub (prefix)](sub-prefix.ini.html)
-+ [Child Class](child-class.ini.html)
-+ [Base Class](base-class.ini.html)
-+ [Sub (prefix)](sub.ini.html)
++ [Sub (prefix)](sub-prefix.html)
++ [Child Class](child-class.html)
++ [Base Class](base-class.html)
++ [Sub (prefix)](sub.html)

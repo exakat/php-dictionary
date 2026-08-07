@@ -2,7 +2,7 @@
 A mutex, a mutual exclusion, is a synchronization primitive that prevents multiple processes or threads from accessing a shared resource simultaneously. Only one holder can acquire the mutex at a time; all others must wait until it is released.
 
 Thread-level mutexes are provided by the ``parallel`` extension. For process-level mutual exclusion, e.g., preventing concurrent cron runs, the standard approach is file-based locking with ``flock()``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/mutex.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/mutex.html","name":"Mutex","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:25:07 +0000","dateModified":"Thu, 16 Jul 2026 14:25:07 +0000","description":"A mutex, a mutual exclusion, is a synchronization primitive that prevents multiple processes or threads from accessing a shared resource simultaneously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Mutex.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/mutex.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/mutex.html","name":"Mutex","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:25:07 +0000","dateModified":"Thu, 16 Jul 2026 14:25:07 +0000","description":"A mutex, a mutual exclusion, is a synchronization primitive that prevents multiple processes or threads from accessing a shared resource simultaneously","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Mutex.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Mutex"}]}]}</script>
 ```php
 <?php
 
@@ -34,12 +34,12 @@ Thread-level mutexes are provided by the ``parallel`` extension. For process-lev
 
 ## Related
 
-+ [Race Condition](race-condition.ini.html)
-+ [Concurrency](concurrency.ini.html)
-+ [Thread](thread.ini.html)
-+ [Lock](lock.ini.html)
-+ [Atomic Operation](atomic-operation.ini.html)
-+ [Cache Stampede](cache-stampede.ini.html)
-+ [Semaphore](sem.ini.html)
-+ [Shared Memory](shared-memory.ini.html)
-+ [Software Transactional Memory (STM)](software-transactional-memory.ini.html)
++ [Race Condition](race-condition.html)
++ [Concurrency](concurrency.html)
++ [Thread](thread.html)
++ [Lock](lock.html)
++ [Atomic Operation](atomic-operation.html)
++ [Cache Stampede](cache-stampede.html)
++ [Semaphore](sem.html)
++ [Shared Memory](shared-memory.html)
++ [Software Transactional Memory (STM)](software-transactional-memory.html)

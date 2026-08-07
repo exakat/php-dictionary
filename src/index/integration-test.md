@@ -4,7 +4,7 @@ Integration tests are tests that verify how multiple components or packages work
 The most important with integration testing is to test realistic scenarios: actual HTTP requests, real database writes, real service interactions, so as to cover the bugs that only appear when everything is wired together.
 
 Integration testing relies on mock objects, to simulate external, autonomous or hard to generate situations.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/integration-test.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/integration-test.html","name":"Integration Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Integration tests are tests that verify how multiple components or packages work together, as opposed to unit tests, where test are dedicated to one component","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Integration Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/integration-test.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/integration-test.html","name":"Integration Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Integration tests are tests that verify how multiple components or packages work together, as opposed to unit tests, where test are dedicated to one component","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Integration Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Integration Test"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Integration_testing)**
 ## See Also
 
@@ -12,6 +12,6 @@ Integration testing relies on mock objects, to simulate external, autonomous or 
 
 ## Related
 
-+ [Test](test.ini.html)
-+ [End To End Test](end-to-end-test.ini.html)
-+ [Unit Test](unit-test.ini.html)
++ [Test](test.html)
++ [End To End Test](end-to-end-test.html)
++ [Unit Test](unit-test.html)

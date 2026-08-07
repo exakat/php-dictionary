@@ -2,7 +2,7 @@
 Yoda condition is a way to write condition by using any literal value on the left, instead of the right.
 
 This prevents errors where the comparison operator is shortened, and turned into an assignation, which is usually true.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/yoda.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/yoda.html","name":"Yoda Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Yoda condition is a way to write condition by using any literal value on the left, instead of the right","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Yoda Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/yoda.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/yoda.html","name":"Yoda Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Yoda condition is a way to write condition by using any literal value on the left, instead of the right","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Yoda Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Yoda Condition"}]}]}</script>
 ```php
 <?php
 
@@ -23,7 +23,7 @@ This prevents errors where the comparison operator is shortened, and turned into
 
 ## Related
 
-+ [Coding Conventions](coding-convention.ini.html)
-+ [Pattern](pattern.ini.html)
-+ [Condition](condition.ini.html)
-+ [Explicit Boolean Comparison](explicit-boolean-comparison.ini.html)
++ [Coding Conventions](coding-convention.html)
++ [Pattern](pattern.html)
++ [Condition](condition.html)
++ [Explicit Boolean Comparison](explicit-boolean-comparison.html)

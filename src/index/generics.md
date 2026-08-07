@@ -10,7 +10,7 @@ Generics have been submitted as RFC since 2016, and are currently not implemente
 One implementation of generics is available, with transpiling: see ``mrsuh/php-generics``.
 
 Generics are generally considered to be not supported, although external tools provide this feature, such as static analysis. Generics are not supported at the engine level.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/generics.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/generics.html","name":"Generics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:40:53 +0000","dateModified":"Tue, 07 Jul 2026 07:40:53 +0000","description":"Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Generics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/generics.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/generics.html","name":"Generics","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:40:53 +0000","dateModified":"Tue, 07 Jul 2026 07:40:53 +0000","description":"Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Generics.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Generics"}]}]}</script>
 **[Documentation](https://stitcher.io/blog/generics-in-php-1)**
 ## See Also
 
@@ -21,16 +21,16 @@ Generics are generally considered to be not supported, although external tools p
 
 ## Related
 
-+ [Type Checking](type-checking.ini.html)
-+ [Polymorphism](polymorphism.ini.html)
-+ [Collection](collection.ini.html)
-+ [Monomorphization](monomorphization.ini.html)
-+ [Types Erasure](type-erasure.ini.html)
-+ [Algebraic Data Type](algebraic-data-type.ini.html)
-+ [Existential Type](existential-type.ini.html)
-+ [Generalized Algebraic Data Type (GADT)](gadt.ini.html)
-+ [Higher-Kinded Type](higher-kinded-type.ini.html)
-+ [Phantom Type](phantom-type.ini.html)
-+ [Row Polymorphism](row-polymorphism.ini.html)
-+ [Template Metaprogramming (TMP)](template-metaprogramming.ini.html)
-+ [Type System](type-system.ini.html)
++ [Type Checking](type-checking.html)
++ [Polymorphism](polymorphism.html)
++ [Collection](collection.html)
++ [Monomorphization](monomorphization.html)
++ [Types Erasure](type-erasure.html)
++ [Algebraic Data Type](algebraic-data-type.html)
++ [Existential Type](existential-type.html)
++ [Generalized Algebraic Data Type (GADT)](gadt.html)
++ [Higher-Kinded Type](higher-kinded-type.html)
++ [Phantom Type](phantom-type.html)
++ [Row Polymorphism](row-polymorphism.html)
++ [Template Metaprogramming (TMP)](template-metaprogramming.html)
++ [Type System](type-system.html)

@@ -6,7 +6,7 @@ Triple is opposed to double and single, but it may also be distinct with any oth
 Things that may be triple: 
 
 + Triple equal ``===``, not to be confused with the single equal ``=`` or the double one ``==``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/triple.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/triple.html","name":"Triple","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:56:48 +0000","dateModified":"Thu, 09 Jul 2026 09:56:48 +0000","description":"Triple usually means that something appears only three times in a row","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Triple.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/triple.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/triple.html","name":"Triple","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:56:48 +0000","dateModified":"Thu, 09 Jul 2026 09:56:48 +0000","description":"Triple usually means that something appears only three times in a row","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Triple.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Triple"}]}]}</script>
 ```php
 <?php
 
@@ -24,7 +24,7 @@ Things that may be triple:
 
 ## Related
 
-+ [Single](single.ini.html)
-+ [Double](double.ini.html)
-+ [Comparison](comparison.ini.html)
-+ [RDF Triple Store](rdf-triple-store.ini.html)
++ [Single](single.html)
++ [Double](double.html)
++ [Comparison](comparison.html)
++ [RDF Triple Store](rdf-triple-store.html)

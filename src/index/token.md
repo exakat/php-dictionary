@@ -3,7 +3,7 @@ A PHP token is the smallest unit of code that has meaning in the language. When 
 
 Tokens of a specific code are accessible via the function ``token_get_all()``.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/token.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/token.html","name":"Token","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:06:35 +0000","dateModified":"Mon, 06 Jul 2026 10:06:35 +0000","description":"A PHP token is the smallest unit of code that has meaning in the language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Token.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/token.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/token.html","name":"Token","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:06:35 +0000","dateModified":"Mon, 06 Jul 2026 10:06:35 +0000","description":"A PHP token is the smallest unit of code that has meaning in the language","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Token.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Token"}]}]}</script>
 ```php
 <?php
 
@@ -42,14 +42,14 @@ Array
 
 ## Related
 
-+ [Abstract Syntactic Tree (AST)](ast.ini.html)
-+ [Curly Brackets](curly-bracket.ini.html)
-+ [Single Sign On (SSO)](sso.ini.html)
-+ [Tokenizer](tokenizer.ini.html)
-+ [Whitespace](whitespace.ini.html)
-+ [JSON Web Token (JWT)](jwt.ini.html)
-+ [OAuth](oauth.ini.html)
-+ [Homoiconicity](homoiconicity.ini.html)
-+ [Hygienic Macro](hygienic-macro.ini.html)
-+ [Lexical Analysis](lexical-analysis.ini.html)
-+ [Macro](macro.ini.html)
++ [Abstract Syntactic Tree (AST)](ast.html)
++ [Curly Brackets](curly-bracket.html)
++ [Single Sign On (SSO)](sso.html)
++ [Tokenizer](tokenizer.html)
++ [Whitespace](whitespace.html)
++ [JSON Web Token (JWT)](jwt.html)
++ [OAuth](oauth.html)
++ [Homoiconicity](homoiconicity.html)
++ [Hygienic Macro](hygienic-macro.html)
++ [Lexical Analysis](lexical-analysis.html)
++ [Macro](macro.html)

@@ -2,7 +2,7 @@
 Polymorphism is a fundamental concept in object-oriented programming, or OOP. It allows different classes to be treated as instances of a common base class, interface, or abstract class, and it allow to write code that works with these objects without needing to know their specific types. 
 
 Polymorphism is achieved through method overriding and interfaces. It is possible to inherit from several parent classes, as long as they inherit from each other. On the other hand, implementing interfaces can be arbitrary chosen for any class and their children.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/polymorphism.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/polymorphism.html","name":"Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:27:16 +0000","dateModified":"Wed, 08 Jul 2026 16:27:16 +0000","description":"Polymorphism is a fundamental concept in object-oriented programming, or OOP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Polymorphism.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/polymorphism.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/polymorphism.html","name":"Polymorphism","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:27:16 +0000","dateModified":"Wed, 08 Jul 2026 16:27:16 +0000","description":"Polymorphism is a fundamental concept in object-oriented programming, or OOP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Polymorphism.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Polymorphism"}]}]}</script>
 ```php
 <?php
 
@@ -30,22 +30,22 @@ Polymorphism is achieved through method overriding and interfaces. It is possibl
 
 ## Related
 
-+ [Interface](interface.ini.html)
-+ [Class](class.ini.html)
-+ [Inheritance](inheritance.ini.html)
-+ [Trait](trait.ini.html)
-+ [Generics](generics.ini.html)
-+ [instanceof](instanceof.ini.html)
-+ [Intersection Type](intersection-type.ini.html)
-+ [is\_a()](is_a.ini.html)
-+ [OOP (Object Oriented Programming)](oop.ini.html)
-+ [Monomorphization](monomorphization.ini.html)
-+ [Existential Type](existential-type.ini.html)
-+ [Higher-Kinded Type](higher-kinded-type.ini.html)
-+ [Mixin](mixin.ini.html)
-+ [Row Polymorphism](row-polymorphism.ini.html)
-+ [Sealed Class](sealed-class.ini.html)
-+ [Multiple Dispatch](multiple-dispatch.ini.html)
-+ [Pattern](pattern.ini.html)
-+ [Structural Typing](structural-typing.ini.html)
-+ [Type Class](type-class.ini.html)
++ [Interface](interface.html)
++ [Class](class.html)
++ [Inheritance](inheritance.html)
++ [Trait](trait.html)
++ [Generics](generics.html)
++ [instanceof](instanceof.html)
++ [Intersection Type](intersection-type.html)
++ [is\_a()](is_a.html)
++ [OOP (Object Oriented Programming)](oop.html)
++ [Monomorphization](monomorphization.html)
++ [Existential Type](existential-type.html)
++ [Higher-Kinded Type](higher-kinded-type.html)
++ [Mixin](mixin.html)
++ [Row Polymorphism](row-polymorphism.html)
++ [Sealed Class](sealed-class.html)
++ [Multiple Dispatch](multiple-dispatch.html)
++ [Pattern](pattern.html)
++ [Structural Typing](structural-typing.html)
++ [Type Class](type-class.html)

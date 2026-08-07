@@ -2,7 +2,7 @@
 A collection is an array in which only elements of the same type can be stored.
 
 Collections may be build with array, or dedicated classes. There is native no support for native PHP collections, although there are several packages which provide such features.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/collection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/collection.html","name":"Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 16 Jun 2026 15:00:00 +0000","dateModified":"Tue, 16 Jun 2026 15:00:00 +0000","description":"A collection is an array in which only elements of the same type can be stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/collection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/collection.html","name":"Collection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 16 Jun 2026 15:00:00 +0000","dateModified":"Tue, 16 Jun 2026 15:00:00 +0000","description":"A collection is an array in which only elements of the same type can be stored","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Collection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Collection"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Collection_%28abstract_data_type%29)**
 ## See Also
 
@@ -11,21 +11,21 @@ Collections may be build with array, or dedicated classes. There is native no su
 
 ## Related
 
-+ [Enumeration (enum)](enum.ini.html)
-+ [Hash](hash.ini.html)
-+ [Associative Array](associative-array.ini.html)
-+ [Index For Arrays](index-array.ini.html)
-+ [Array, []](array.ini.html)
-+ [Map](map.ini.html)
-+ [Generics](generics.ini.html)
-+ [Bucket](bucket.ini.html)
-+ [Data Structure](datastructure.ini.html)
-+ [Data Structure](ds.ini.html)
-+ [Indexed Array](indexed-array.ini.html)
-+ [Sequence](sequence.ini.html)
-+ [Set](set.ini.html)
-+ [SplDoublyLinkedList](spldoublylinkedlist.ini.html)
-+ [SplObjectStorage](splobjectstorage.ini.html)
++ [Enumeration (enum)](enum.html)
++ [Hash](hash.html)
++ [Associative Array](associative-array.html)
++ [Index For Arrays](index-array.html)
++ [Array, []](array.html)
++ [Map](map.html)
++ [Generics](generics.html)
++ [Bucket](bucket.html)
++ [Data Structure](datastructure.html)
++ [Data Structure](ds.html)
++ [Indexed Array](indexed-array.html)
++ [Sequence](sequence.html)
++ [Set](set.html)
++ [SplDoublyLinkedList](spldoublylinkedlist.html)
++ [SplObjectStorage](splobjectstorage.html)
 
 ## Related packages
 

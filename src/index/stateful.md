@@ -2,7 +2,7 @@
 Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests. PHP, by default, is stateless, meaning that each HTTP request is independent, and the server doesn't inherently maintain information about previous requests from the same user.
 
 Stateful behavior is often required when the application needs to keep track of user data or the progress of a process over multiple page loads or requests. There are various mechanisms to implement statefulness with PHP, and some common methods include: cookies, session, hidden form fields.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/stateful.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/stateful.html","name":"Stateful","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:19:18 +0000","dateModified":"Mon, 06 Jul 2026 10:19:18 +0000","description":"Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Stateful.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/stateful.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/stateful.html","name":"Stateful","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:19:18 +0000","dateModified":"Mon, 06 Jul 2026 10:19:18 +0000","description":"Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Stateful.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Stateful"}]}]}</script>
 **[Documentation](https://www.php.net/manual/en/book.session.php)**
 ## See Also
 
@@ -10,8 +10,8 @@ Stateful behavior is often required when the application needs to keep track of 
 
 ## Related
 
-+ [Stateless](stateless.ini.html)
-+ [Distributed State](distributed-state.ini.html)
-+ [Hidden State](hidden-state.ini.html)
-+ [Implicit State](implicit-state.ini.html)
-+ [State](state.ini.html)
++ [Stateless](stateless.html)
++ [Distributed State](distributed-state.html)
++ [Hidden State](hidden-state.html)
++ [Implicit State](implicit-state.html)
++ [State](state.html)

@@ -9,7 +9,7 @@ Applications include:
 + Return path coverage: verifying that all execution paths through a function return a value
 
 Control flow analysis is a prerequisite for more advanced analyses such as data flow analysis and taint analysis.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/control-flow-analysis.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/control-flow-analysis.html","name":"Control Flow Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:12:54 +0000","dateModified":"Sat, 18 Jul 2026 05:12:54 +0000","description":"Control flow analysis is a static analysis technique that examines the possible execution paths through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Control Flow Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/control-flow-analysis.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/control-flow-analysis.html","name":"Control Flow Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jul 2026 05:12:54 +0000","dateModified":"Sat, 18 Jul 2026 05:12:54 +0000","description":"Control flow analysis is a static analysis technique that examines the possible execution paths through a program","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Control Flow Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Control Flow Analysis"}]}]}</script>
 ```php
 <?php
 
@@ -30,14 +30,14 @@ function divide(int $a, int $b): float {
 **[Documentation](https://en.wikipedia.org/wiki/Control_flow_analysis)**
 ## Related
 
-+ [Control Flow](control-flow.ini.html)
-+ [Control Flow Graph (CFG)](control-flow-graph.ini.html)
-+ [Data Flow Analysis (DFA)](data-flow-analysis.ini.html)
-+ [Analysis](analysis.ini.html)
-+ [Static Application Security Testing (SAST)](sast.ini.html)
-+ [Dead Code](dead-code.ini.html)
-+ [Taint Analysis](taint.ini.html)
-+ [Lexical Analysis](lexical-analysis.ini.html)
-+ [Semantic Analysis](semantic-analysis.ini.html)
-+ [Symbolic Analysis](symbolic-analysis.ini.html)
-+ [Pattern-Based Analysis](pattern-based-analysis.ini.html)
++ [Control Flow](control-flow.html)
++ [Control Flow Graph (CFG)](control-flow-graph.html)
++ [Data Flow Analysis (DFA)](data-flow-analysis.html)
++ [Analysis](analysis.html)
++ [Static Application Security Testing (SAST)](sast.html)
++ [Dead Code](dead-code.html)
++ [Taint Analysis](taint.html)
++ [Lexical Analysis](lexical-analysis.html)
++ [Semantic Analysis](semantic-analysis.html)
++ [Symbolic Analysis](symbolic-analysis.html)
++ [Pattern-Based Analysis](pattern-based-analysis.html)

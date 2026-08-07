@@ -6,7 +6,7 @@ It is used together with ``exec()``, ``system()``, ``passthru()``, or ``shell_ex
 On Windows, ``escapeshellarg()`` uses double quotes and escapes double quotes, percent signs, and exclamation marks instead.
 
 Note that ``escapeshellarg()`` escapes a single argument only. When the full command string needs to be sanitised, ``escapeshellcmd()`` should be used, though combining both functions correctly is preferred.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/escapeshellarg.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/escapeshellarg.html","name":"escapeshellarg()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 19:59:01 +0000","dateModified":"Sun, 12 Jul 2026 19:59:01 +0000","description":"``escapeshellarg()`` is a PHP function that wraps a string in single quotes and escapes any existing single quotes within it, making the string safe to pass as a single argument to a shell command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/escapeshellarg().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/escapeshellarg.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/escapeshellarg.html","name":"escapeshellarg()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 19:59:01 +0000","dateModified":"Sun, 12 Jul 2026 19:59:01 +0000","description":"``escapeshellarg()`` is a PHP function that wraps a string in single quotes and escapes any existing single quotes within it, making the string safe to pass as a single argument to a shell command","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/escapeshellarg().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"escapeshellarg()"}]}]}</script>
 ```php
 <?php
 
@@ -26,11 +26,11 @@ Note that ``escapeshellarg()`` escapes a single argument only. When the full com
 
 ## Related
 
-+ [Escape Data](escape-data.ini.html)
-+ [Injection](injection.ini.html)
-+ [Shell Injection](shell-injection.ini.html)
-+ [exec](exec.ini.html)
-+ [System](system.ini.html)
-+ [Shell Exec](shell-exec.ini.html)
-+ [escapeshellcmd()](escapeshellcmd.ini.html)
-+ [Security](security.ini.html)
++ [Escape Data](escape-data.html)
++ [Injection](injection.html)
++ [Shell Injection](shell-injection.html)
++ [exec](exec.html)
++ [System](system.html)
++ [Shell Exec](shell-exec.html)
++ [escapeshellcmd()](escapeshellcmd.html)
++ [Security](security.html)

@@ -8,7 +8,7 @@ Static is a keyword for methods and properties: they are turned into class eleme
 Static is a keyword for closures and arrow functions: it prevents the current scope to be included in with the closure, thus limiting the number of accessible values.
 
 Static is a keyword for variables: those variables aren't removed at the end of the method execution and are available at the beginning of the next call.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/static.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/static.html","name":"static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:50:16 +0000","dateModified":"Wed, 24 Jun 2026 05:50:16 +0000","description":"The ``static`` keyword has several distinct usages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/static.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/static.html","name":"static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:50:16 +0000","dateModified":"Wed, 24 Jun 2026 05:50:16 +0000","description":"The ``static`` keyword has several distinct usages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"static"}]}]}</script>
 ```php
 <?php
 
@@ -39,18 +39,18 @@ Static is a keyword for variables: those variables aren't removed at the end of 
 
 ## Related
 
-+ [parent](parent.ini.html)
-+ [Closure](closure.ini.html)
-+ [Arrow Functions](arrow-function.ini.html)
-+ [Variables](variable.ini.html)
-+ [Late Static Binding](late-static-binding.ini.html)
-+ [Child Class](child-class.ini.html)
-+ [Language Construct](language-construct.ini.html)
-+ [Properties](property.ini.html)
-+ [Self](self.ini.html)
-+ [Dynamic](dynamic.ini.html)
-+ [Special Types](special-typehint.ini.html)
-+ [PHP Natives](native-type.ini.html)
-+ [Relative Types](relative-types.ini.html)
-+ [Property Type Declaration](type-declaration-property.ini.html)
-+ [Var](var.ini.html)
++ [parent](parent.html)
++ [Closure](closure.html)
++ [Arrow Functions](arrow-function.html)
++ [Variables](variable.html)
++ [Late Static Binding](late-static-binding.html)
++ [Child Class](child-class.html)
++ [Language Construct](language-construct.html)
++ [Properties](property.html)
++ [Self](self.html)
++ [Dynamic](dynamic.html)
++ [Special Types](special-typehint.html)
++ [PHP Natives](native-type.html)
++ [Relative Types](relative-types.html)
++ [Property Type Declaration](type-declaration-property.html)
++ [Var](var.html)

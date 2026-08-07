@@ -1,6 +1,6 @@
 # JavaScript Object Notation (JSON)
 JSON, or JavaScript Object Notation, is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/json.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/json.html","name":"JavaScript Object Notation (JSON)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:02:11 +0000","dateModified":"Tue, 04 Aug 2026 11:02:11 +0000","description":"JSON, or JavaScript Object Notation, is a lightweight data-interchange format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/JavaScript Object Notation (JSON).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/json.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/json.html","name":"JavaScript Object Notation (JSON)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:02:11 +0000","dateModified":"Tue, 04 Aug 2026 11:02:11 +0000","description":"JSON, or JavaScript Object Notation, is a lightweight data-interchange format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/JavaScript Object Notation (JSON).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"JavaScript Object Notation (JSON)"}]}]}</script>
 ```php
 <?php
 
@@ -21,32 +21,32 @@ JSON, or JavaScript Object Notation, is a lightweight data-interchange format. I
 
 ## Related
 
-+ [Comma Secparated Values (CSV)](csv.ini.html)
-+ [json\_decode()](json_decode.ini.html)
-+ [JsonSerializable](jsonserializable.ini.html)
-+ [Serde](serde.ini.html)
-+ [JSON Lines (JSONC)](jsonc.ini.html)
-+ [JSON Lines (JSONL)](jsonl.ini.html)
-+ [YAML Ain't Markup Language (YAML)](yaml.ini.html)
-+ [Tom's Obvious Minimal Language (TOML)](toml.ini.html)
-+ [Text](text.ini.html)
-+ [Format](format.ini.html)
-+ [json\_encode()](json_encode.ini.html)
-+ [JsonException](jsonexception.ini.html)
-+ [Parquet](parquet.ini.html)
-+ [INI](ini.ini.html)
-+ [PostgreSQL](pgsql.ini.html)
-+ [Progressive Web App](pwa.ini.html)
-+ [Schema](schema.ini.html)
-+ [AJAX](ajax.ini.html)
-+ [Document Database](document-database.ini.html)
-+ [JSON Web Token (JWT)](jwt.ini.html)
-+ [Template](template.ini.html)
-+ [Multidimensional Array](multidimensional-array.ini.html)
-+ [Comma](comma.ini.html)
-+ [MongoDB](mongodb.ini.html)
-+ [Payload](payload.ini.html)
-+ [Protocol Buffers](protobuf.ini.html)
++ [Comma Separated Values (CSV)](csv.html)
++ [json\_decode()](json_decode.html)
++ [JsonSerializable](jsonserializable.html)
++ [Serde](serde.html)
++ [JSON Lines (JSONC)](jsonc.html)
++ [JSON Lines (JSONL)](jsonl.html)
++ [YAML Ain't Markup Language (YAML)](yaml.html)
++ [Tom's Obvious Minimal Language (TOML)](toml.html)
++ [Text](text.html)
++ [Format](format.html)
++ [json\_encode()](json_encode.html)
++ [JsonException](jsonexception.html)
++ [Parquet](parquet.html)
++ [INI](ini.html)
++ [PostgreSQL](pgsql.html)
++ [Progressive Web App](pwa.html)
++ [Schema](schema.html)
++ [AJAX](ajax.html)
++ [Document Database](document-database.html)
++ [JSON Web Token (JWT)](jwt.html)
++ [Template](template.html)
++ [Multidimensional Array](multidimensional-array.html)
++ [Comma](comma.html)
++ [MongoDB](mongodb.html)
++ [Payload](payload.html)
++ [Protocol Buffers](protobuf.html)
 
 ## Related packages
 

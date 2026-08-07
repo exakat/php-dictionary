@@ -1,6 +1,6 @@
 # String
 A string is series of characters, where a character is the same as a byte. This means that PHP only supports a 256-character set, and hence does not offer native Unicode support.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/string.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/string.html","name":"String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A string is series of characters, where a character is the same as a byte","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/string.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/string.html","name":"String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A string is series of characters, where a character is the same as a byte","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"String"}]}]}</script>
 ```php
 <?php
 
@@ -17,36 +17,36 @@ $string = 'Hello world';
 
 ## Related
 
-+ [Stringable](stringable.ini.html)
-+ [Single Quotes Strings](single-quote.ini.html)
-+ [Double Quotes Strings](double-quote.ini.html)
-+ [Magic Methods](magic-method.ini.html)
-+ [sprintf](sprintf.ini.html)
-+ [sprintf](vprintf.ini.html)
-+ [Concatenation \\.](concatenation.ini.html)
-+ [Curly Brackets](curly-bracket.ini.html)
-+ [Format](format.ini.html)
-+ [Heredocs](heredoc.ini.html)
-+ [Interpolation](interpolation.ini.html)
-+ [Nowdocs](nowdoc.ini.html)
-+ [Scalar Types](scalar-typehint.ini.html)
-+ [String Interpolation](string-interpolation.ini.html)
-+ [Case Sensitivity](case-sensitivity.ini.html)
-+ [negative-index](negative-index.ini.html)
-+ [Scalar Types](scalar-type.ini.html)
-+ [printf()](printf.ini.html)
-+ [BackedEnum](backedenum.ini.html)
-+ [Callbacks](callback.ini.html)
-+ [Empty String](empty-string.ini.html)
-+ [PHP Natives](native-type.ini.html)
-+ [Escape Character](escape-character.ini.html)
-+ [file\_get\_contents()](file_get_contents.ini.html)
-+ [Offset](offset.ini.html)
-+ [Text](text.ini.html)
-+ [Slug](slug.ini.html)
-+ [String Increment](string-increment.ini.html)
-+ [strtolower()](strtolower.ini.html)
-+ [strtoupper()](strtoupper.ini.html)
++ [Stringable](stringable.html)
++ [Single Quotes Strings](single-quote.html)
++ [Double Quotes Strings](double-quote.html)
++ [Magic Methods](magic-method.html)
++ [sprintf](sprintf.html)
++ [sprintf](vprintf.html)
++ [Concatenation \\.](concatenation.html)
++ [Curly Brackets](curly-bracket.html)
++ [Format](format.html)
++ [Heredocs](heredoc.html)
++ [Interpolation](interpolation.html)
++ [Nowdocs](nowdoc.html)
++ [Scalar Types](scalar-typehint.html)
++ [String Interpolation](string-interpolation.html)
++ [Case Sensitivity](case-sensitivity.html)
++ [negative-index](negative-index.html)
++ [Scalar Types](scalar-type.html)
++ [printf()](printf.html)
++ [BackedEnum](backedenum.html)
++ [Callbacks](callback.html)
++ [Empty String](empty-string.html)
++ [PHP Natives](native-type.html)
++ [Escape Character](escape-character.html)
++ [file\_get\_contents()](file_get_contents.html)
++ [Offset](offset.html)
++ [Text](text.html)
++ [Slug](slug.html)
++ [String Increment](string-increment.html)
++ [strtolower()](strtolower.html)
++ [strtoupper()](strtoupper.html)
 
 ## Related packages
 

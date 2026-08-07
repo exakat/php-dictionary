@@ -2,7 +2,7 @@
 XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use.
 
 PHP offers several set of functions to handle XML: ``domxml``, ``simplexml``, ``xmlreader``, ``xmlwriter``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/xml.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/xml.html","name":"Extensible Markup Language (XML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Extensible Markup Language (XML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/xml.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/xml.html","name":"Extensible Markup Language (XML)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"XML, Extensible Markup Language, is a markup language similar to HTML, but without predefined tags to use","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Extensible Markup Language (XML).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Extensible Markup Language (XML)"}]}]}</script>
 ```php
 <?php
 $string = <<<XML
@@ -26,17 +26,17 @@ print_r($xml);
 
 ## Related
 
-+ [SimpleXML](simplexml.ini.html)
-+ [DOM](domxml.ini.html)
-+ [XMLwriter](xmlwriter.ini.html)
-+ [XMLReader](xmlreader.ini.html)
-+ [Schema](schema.ini.html)
-+ [sitemap](sitemap.ini.html)
-+ [Simple Object Access Protocol (SOAP)](soap.ini.html)
-+ [YAML Ain't Markup Language (YAML)](yaml.ini.html)
-+ [Document Database](document-database.ini.html)
-+ [Document Object Model (DOM)](dom.ini.html)
-+ [Scalable Vector Graphics (SVG)](svg.ini.html)
++ [SimpleXML](simplexml.html)
++ [DOM](domxml.html)
++ [XMLwriter](xmlwriter.html)
++ [XMLReader](xmlreader.html)
++ [Schema](schema.html)
++ [sitemap](sitemap.html)
++ [Simple Object Access Protocol (SOAP)](soap.html)
++ [YAML Ain't Markup Language (YAML)](yaml.html)
++ [Document Database](document-database.html)
++ [Document Object Model (DOM)](dom.html)
++ [Scalable Vector Graphics (SVG)](svg.html)
 
 ## Related packages
 

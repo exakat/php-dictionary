@@ -1,6 +1,6 @@
 # \_\_unserialize() Method
 The ``__unserialize()`` magic method is called when a script tries to construct an object from an associative array of key/value pairs.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/__unserialize.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/__unserialize.html","name":"__unserialize() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:41:39 +0000","dateModified":"Mon, 03 Aug 2026 16:41:39 +0000","description":"The ``__unserialize()`` magic method is called when a script tries to construct an object from an associative array of key\/value pairs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/__unserialize() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/__unserialize.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/__unserialize.html","name":"__unserialize() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:41:39 +0000","dateModified":"Mon, 03 Aug 2026 16:41:39 +0000","description":"The ``__unserialize()`` magic method is called when a script tries to construct an object from an associative array of key\/value pairs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/__unserialize() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"__unserialize() Method"}]}]}</script>
 ```php
 <?php
 
@@ -33,8 +33,8 @@ The ``__unserialize()`` magic method is called when a script tries to construct 
 
 ## Related
 
-+ [Unserialization](unserialize.ini.html)
-+ [Serialization](serialize.ini.html)
-+ [\_\_serialize() Method](__serialize.ini.html)
-+ [Insecure Deserialization](insecure-deserialization.ini.html)
-+ [Serialization](serialization.ini.html)
++ [Unserialization](unserialize.html)
++ [Serialization](serialize.html)
++ [\_\_serialize() Method](__serialize.html)
++ [Insecure Deserialization](insecure-deserialization.html)
++ [Serialization](serialization.html)

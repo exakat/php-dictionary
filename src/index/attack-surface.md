@@ -11,7 +11,7 @@ In applications, the attack surface spans several layers:
 A key principle is that every new feature or integration expands the attack surface. Modernizing a stack can improve security in many dimensions while simultaneously opening new areas that must be understood and managed.
 
 Reducing attack surface is itself a security strategy: disabling unused extensions, hiding diagnostic endpoints behind authentication, limiting the PHP functions available via ``disable_functions``, and keeping dependencies minimal all shrink the area an attacker can target.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/attack-surface.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/attack-surface.html","name":"Attack Surface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:18:41 +0000","dateModified":"Sun, 28 Jun 2026 10:18:41 +0000","description":"The attack surface of an application is the sum of all the different points where an attacker could try to enter data, extract data, or trigger unintended behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Attack Surface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/attack-surface.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/attack-surface.html","name":"Attack Surface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:18:41 +0000","dateModified":"Sun, 28 Jun 2026 10:18:41 +0000","description":"The attack surface of an application is the sum of all the different points where an attacker could try to enter data, extract data, or trigger unintended behavior","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Attack Surface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Attack Surface"}]}]}</script>
 ```php
 <?php
 
@@ -33,13 +33,13 @@ Reducing attack surface is itself a security strategy: disabling unused extensio
 
 ## Related
 
-+ [Attack](attack.ini.html)
-+ [Vulnerability](vulnerability.ini.html)
-+ [Security](security.ini.html)
-+ [FastCGI Process Manager (FPM)](fpm.ini.html)
-+ [Simple Object Access Protocol (SOAP)](soap.ini.html)
-+ [Dependency](dependency.ini.html)
-+ [Supply Chain Attack](supply-chain-attack.ini.html)
-+ [Disable Functions](disable-functions.ini.html)
-+ [Hardening](hardening.ini.html)
-+ [PHP Extensions](php-extension.ini.html)
++ [Attack](attack.html)
++ [Vulnerability](vulnerability.html)
++ [Security](security.html)
++ [FastCGI Process Manager (FPM)](fpm.html)
++ [Simple Object Access Protocol (SOAP)](soap.html)
++ [Dependency](dependency.html)
++ [Supply Chain Attack](supply-chain-attack.html)
++ [Disable Functions](disable-functions.html)
++ [Hardening](hardening.html)
++ [PHP Extensions](php-extension.html)

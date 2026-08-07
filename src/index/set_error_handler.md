@@ -17,7 +17,7 @@ The callback in ``set_error_handler()`` returns a boolean. When it returns ``tru
 
 ``set_error_handler()`` may be reverted to default with ``restore_error_handler()``.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/set_error_handler.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/set_error_handler.html","name":"set_error_handler()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:18:12 +0000","dateModified":"Mon, 13 Jul 2026 09:18:12 +0000","description":"``set_error_handler()`` is a native PHP function, which replaces the default error handler from PHP with a custom one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/set_error_handler().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/set_error_handler.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/set_error_handler.html","name":"set_error_handler()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:18:12 +0000","dateModified":"Mon, 13 Jul 2026 09:18:12 +0000","description":"``set_error_handler()`` is a native PHP function, which replaces the default error handler from PHP with a custom one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/set_error_handler().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"set_error_handler()"}]}]}</script>
 ```php
 <?php
 
@@ -50,10 +50,10 @@ The callback in ``set_error_handler()`` returns a boolean. When it returns ``tru
 
 ## Related
 
-+ [Try-catch](try.ini.html)
-+ [trigger\_error()](trigger_error.ini.html)
-+ [Exception](exception.ini.html)
-+ [PHP Handlers](handler.ini.html)
-+ [Exit](exit.ini.html)
-+ [display\_errors](display_errors.ini.html)
-+ [Error Reporting](error_reporting.ini.html)
++ [Try-catch](try.html)
++ [trigger\_error()](trigger_error.html)
++ [Exception](exception.html)
++ [PHP Handlers](handler.html)
++ [Exit](exit.html)
++ [display\_errors](display_errors.html)
++ [Error Reporting](error_reporting.html)

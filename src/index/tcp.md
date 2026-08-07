@@ -11,7 +11,7 @@ Key features of ``TCP`` include:
 
 TCP is commonly used for applications that require high reliability and accurate delivery of data, such as web browsing, file transfers, and email. It operates at the transport layer of the OSI model and works in conjunction with the Internet Protocol, which operates at the network layer. Together, TCP/IP provides a robust and standardized framework for communication over the Internet.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/tcp.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/tcp.html","name":"TCP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:13:59 +0000","dateModified":"Thu, 02 Jul 2026 08:13:59 +0000","description":"``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/TCP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/tcp.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/tcp.html","name":"TCP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:13:59 +0000","dateModified":"Thu, 02 Jul 2026 08:13:59 +0000","description":"``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/TCP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"TCP"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)**
 ## See Also
 
@@ -19,9 +19,9 @@ TCP is commonly used for applications that require high reliability and accurate
 
 ## Related
 
-+ [Socket](socket.ini.html)
-+ [Port](port.ini.html)
-+ [User Datagram Protocol (UDP)](udp.ini.html)
++ [Socket](socket.html)
++ [Port](port.html)
++ [User Datagram Protocol (UDP)](udp.html)
 
 ## Related packages
 

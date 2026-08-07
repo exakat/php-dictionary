@@ -2,7 +2,7 @@
 A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing. All requests then attempt to regenerate the cache at the same time, flooding the backend  with redundant work. This is especially destructive under high traffic because the backend, already under load, receives a sudden spike just when it is needed most.
 
 Common mitigation strategies include: locking, where only one process regenerates the cache while others wait or serve stale data, probabilistic early expiration, where the cache refreshes slightly before it expires, based on a probability, and background revalidation, which returns stale data immediately while refreshing asynchronously.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cache-stampede.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cache-stampede.html","name":"Cache Stampede","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:57:58 +0000","dateModified":"Thu, 09 Jul 2026 08:57:58 +0000","description":"A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Cache Stampede.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cache-stampede.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cache-stampede.html","name":"Cache Stampede","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:57:58 +0000","dateModified":"Thu, 09 Jul 2026 08:57:58 +0000","description":"A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Cache Stampede.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Cache Stampede"}]}]}</script>
 ```php
 <?php
 
@@ -43,15 +43,15 @@ Common mitigation strategies include: locking, where only one process regenerate
 
 ## Related
 
-+ [Cache](cache.ini.html)
-+ [Time To Live (TTL)](ttl.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Mutex](mutex.ini.html)
-+ [Lock](lock.ini.html)
-+ [Concurrency](concurrency.ini.html)
-+ [Rate Limiting](rate-limit.ini.html)
-+ [Availability](availability.ini.html)
-+ [Reliability](reliability.ini.html)
++ [Cache](cache.html)
++ [Time To Live (TTL)](ttl.html)
++ [Race Condition](race-condition.html)
++ [Mutex](mutex.html)
++ [Lock](lock.html)
++ [Concurrency](concurrency.html)
++ [Rate Limiting](rate-limit.html)
++ [Availability](availability.html)
++ [Reliability](reliability.html)
 
 ## Related packages
 

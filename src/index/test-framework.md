@@ -2,7 +2,7 @@
 A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests. It typically offers assertion helpers, double, test runners, fixtures, and reporting.
 
 A test framework does not dictate what to test; it provides the mechanics to express and execute tests repeatably, integrate with CI pipelines, and produce machine-readable reports, such as JUnit XML, code coverage, etc.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/test-framework.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/test-framework.html","name":"Test Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:20:28 +0000","dateModified":"Mon, 13 Jul 2026 09:20:28 +0000","description":"A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Test Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/test-framework.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/test-framework.html","name":"Test Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:20:28 +0000","dateModified":"Mon, 13 Jul 2026 09:20:28 +0000","description":"A test framework is a library or tool that provides the infrastructure for writing, organising, and running automated tests","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Test Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Test Framework"}]}]}</script>
 ```php
 <?php
 
@@ -29,13 +29,13 @@ A test framework does not dictate what to test; it provides the mechanics to exp
 
 ## Related
 
-+ [Test](test.ini.html)
-+ [PHPunit](phpunit.ini.html)
-+ [Continuous Integration (CI)](ci.ini.html)
-+ [Double](double.ini.html)
-+ [Fixture](fixture.ini.html)
-+ [Code Coverage](code-coverage.ini.html)
-+ [Continuous Integration](continuous-integration.ini.html)
-+ [Continuous Integration](CI.ini.html)
-+ [Regression](regression.ini.html)
-+ [Test-Driven Development](test-driven-development.ini.html)
++ [Test](test.html)
++ [PHPunit](phpunit.html)
++ [Continuous Integration (CI)](ci.html)
++ [Double](double.html)
++ [Fixture](fixture.html)
++ [Code Coverage](code-coverage.html)
++ [Continuous Integration](continuous-integration.html)
++ [Continuous Integration](CI.html)
++ [Regression](regression.html)
++ [Test-Driven Development](test-driven-development.html)

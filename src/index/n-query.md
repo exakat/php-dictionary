@@ -9,7 +9,7 @@ Here's a breakdown of the issue:
 As a result, the code ends up performing ``N+1`` queries, hence the name of ``N+1 query problem``. This approach can cause significant performance issues, as executing many individual queries is slower than fetching the required data in batches: either all of them in one call, or by groups of arbitrary size.
 
 ``N+1 query problem`` happens with anything that requires a query. It may be a SQL database, but also remote API calls, or even system calls.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/n-query.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/n-query.html","name":"N+1 Query Problem","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:14:29 +0000","dateModified":"Thu, 16 Jul 2026 08:14:29 +0000","description":"The ``N+1 query problem`` is a term used in the context of queries, and most often in the context of databases and Object-Relational Mapping systems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/N+1 Query Problem.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/n-query.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/n-query.html","name":"N+1 Query Problem","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:14:29 +0000","dateModified":"Thu, 16 Jul 2026 08:14:29 +0000","description":"The ``N+1 query problem`` is a term used in the context of queries, and most often in the context of databases and Object-Relational Mapping systems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/N+1 Query Problem.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"N+1 Query Problem"}]}]}</script>
 **[Documentation](https://www.freecodecamp.org/news/n-plus-one-query-problem/)**
 ## See Also
 
@@ -19,7 +19,7 @@ As a result, the code ends up performing ``N+1`` queries, hence the name of ``N+
 
 ## Related
 
-+ [Loops](loop.ini.html)
-+ [Batch](batch.ini.html)
-+ [Object Relational Mapping (ORM)](orm.ini.html)
-+ [Structured Query Language (SQL)](sql.ini.html)
++ [Loops](loop.html)
++ [Batch](batch.html)
++ [Object Relational Mapping (ORM)](orm.html)
++ [Structured Query Language (SQL)](sql.html)

@@ -8,7 +8,7 @@ In the context of deployments, a rollback means re-deploying an earlier version 
 In version control, a rollback can mean reverting a commit or resetting a branch to an earlier state using ``git revert`` or ``git reset``.
 
 Having a reliable rollback strategy is a key aspect of safe deployments and system resilience.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/rollback.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/rollback.html","name":"Rollback","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:32:41 +0000","dateModified":"Fri, 10 Jul 2026 09:32:41 +0000","description":"A rollback is the process of reverting a system, database, or deployment to a previous known-good state after a failure or undesirable change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Rollback.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/rollback.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/rollback.html","name":"Rollback","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:32:41 +0000","dateModified":"Fri, 10 Jul 2026 09:32:41 +0000","description":"A rollback is the process of reverting a system, database, or deployment to a previous known-good state after a failure or undesirable change","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Rollback.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Rollback"}]}]}</script>
 ```php
 <?php
 
@@ -37,13 +37,13 @@ Having a reliable rollback strategy is a key aspect of safe deployments and syst
 
 ## Related
 
-+ [Database](database.ini.html)
-+ [PHP Data Objects (PDO)](pdo.ini.html)
-+ [Transaction](transaction.ini.html)
-+ [Deployment](deploy.ini.html)
-+ [git](git.ini.html)
-+ [Migration](migration.ini.html)
-+ [Error Handling](error-handling.ini.html)
-+ [Database Commit](database-commit.ini.html)
-+ [Timing Attack](timing-attack.ini.html)
-+ [VCS Commit](vcs-commit.ini.html)
++ [Database](database.html)
++ [PHP Data Objects (PDO)](pdo.html)
++ [Transaction](transaction.html)
++ [Deployment](deploy.html)
++ [git](git.html)
++ [Migration](migration.html)
++ [Error Handling](error-handling.html)
++ [Database Commit](database-commit.html)
++ [Timing Attack](timing-attack.html)
++ [VCS Commit](vcs-commit.html)

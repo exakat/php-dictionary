@@ -6,7 +6,7 @@ Static analysis examines code without executing it. Tools such as PHPStan, Psalm
 Dynamic analysis examines code during execution. It covers profiling, fuzzing, mutation testing, and runtime error detection.
 
 Architectural analysis focuses on the relationships between components, coupling, cohesion, and adherence to intended design patterns.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/analysis.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/analysis.html","name":"Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:35:32 +0000","dateModified":"Tue, 04 Aug 2026 11:35:32 +0000","description":"Analysis in software development refers to the systematic examination of source code, runtime behaviour, or architecture to detect issues, measure quality, or derive understanding","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/analysis.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/analysis.html","name":"Analysis","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:35:32 +0000","dateModified":"Tue, 04 Aug 2026 11:35:32 +0000","description":"Analysis in software development refers to the systematic examination of source code, runtime behaviour, or architecture to detect issues, measure quality, or derive understanding","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Analysis.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Analysis"}]}]}</script>
 ```php
 <?php
 
@@ -33,24 +33,24 @@ Architectural analysis focuses on the relationships between components, coupling
 
 ## Related
 
-+ [Static Application Security Testing (SAST)](sast.ini.html)
-+ [Abstract Syntactic Tree (AST)](ast.ini.html)
-+ [Metrics](metrics.ini.html)
-+ [Quality](quality.ini.html)
-+ [Code Review](code-review.ini.html)
-+ [Continuous Integration (CI)](ci.ini.html)
-+ [Dead Code](dead-code.ini.html)
-+ [Type Coverage](type-coverage.ini.html)
-+ [Code Inventory](inventory.ini.html)
-+ [Static Code Analysis (SCA)](sca.ini.html)
-+ [Tool](tool.ini.html)
-+ [Lexical Analysis](lexical-analysis.ini.html)
-+ [Semantic Analysis](semantic-analysis.ini.html)
-+ [Control Flow Analysis](control-flow-analysis.ini.html)
-+ [Data Flow Analysis (DFA)](data-flow-analysis.ini.html)
-+ [Symbolic Analysis](symbolic-analysis.ini.html)
-+ [Pattern-Based Analysis](pattern-based-analysis.ini.html)
-+ [Linting](linting.ini.html)
++ [Static Application Security Testing (SAST)](sast.html)
++ [Abstract Syntactic Tree (AST)](ast.html)
++ [Metrics](metrics.html)
++ [Quality](quality.html)
++ [Code Review](code-review.html)
++ [Continuous Integration (CI)](ci.html)
++ [Dead Code](dead-code.html)
++ [Type Coverage](type-coverage.html)
++ [Code Inventory](inventory.html)
++ [Static Code Analysis (SCA)](sca.html)
++ [Tool](tool.html)
++ [Lexical Analysis](lexical-analysis.html)
++ [Semantic Analysis](semantic-analysis.html)
++ [Control Flow Analysis](control-flow-analysis.html)
++ [Data Flow Analysis (DFA)](data-flow-analysis.html)
++ [Symbolic Analysis](symbolic-analysis.html)
++ [Pattern-Based Analysis](pattern-based-analysis.html)
++ [Linting](linting.html)
 
 ## Related packages
 

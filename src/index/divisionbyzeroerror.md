@@ -1,6 +1,6 @@
 # DivisionByZeroError
 The ``DivisionByZeroError`` exception is thrown when an attempt is made to divide a number by zero. It is never possible to divide by zero, the result is undefined. It is true for all zeroes: ``0``, ``+0``, ``-0``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/divisionbyzeroerror.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/divisionbyzeroerror.html","name":"DivisionByZeroError","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 08:01:59 +0000","dateModified":"Tue, 07 Jul 2026 08:01:59 +0000","description":"The ``DivisionByZeroError`` exception is thrown when an attempt is made to divide a number by zero","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/DivisionByZeroError.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/divisionbyzeroerror.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/divisionbyzeroerror.html","name":"DivisionByZeroError","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 08:01:59 +0000","dateModified":"Tue, 07 Jul 2026 08:01:59 +0000","description":"The ``DivisionByZeroError`` exception is thrown when an attempt is made to divide a number by zero","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/DivisionByZeroError.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"DivisionByZeroError"}]}]}</script>
 ```php
 <?php
 
@@ -16,7 +16,7 @@ The ``DivisionByZeroError`` exception is thrown when an attempt is made to divid
 **[Documentation](https://www.php.net/manual/en/class.divisionbyzeroerror.php)**
 ## Related
 
-+ [Error](error.ini.html)
-+ [ArithmeticError Error](arithmeticerror.ini.html)
-+ [Division](division.ini.html)
-+ [zero](zero.ini.html)
++ [Error](error.html)
++ [ArithmeticError Error](arithmeticerror.html)
++ [Division](division.html)
++ [zero](zero.html)

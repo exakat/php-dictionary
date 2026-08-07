@@ -6,7 +6,7 @@ Overwriting is applicable to constants, methods and properties. Methods still sh
 Overwriting methods is prevented by the ``final`` keyword, or the ``private`` visibility.
 
 Overwriting is also called overloading.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/overwrite.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/overwrite.html","name":"Overwrite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Overwriting is the process to replace an existing structure, with another one, entirely different","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Overwrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/overwrite.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/overwrite.html","name":"Overwrite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 09:44:44 +0000","dateModified":"Fri, 07 Aug 2026 09:44:44 +0000","description":"Overwriting is the process to replace an existing structure, with another one, entirely different","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Overwrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Overwrite"}]}]}</script>
 ```php
 <?php
 
@@ -32,13 +32,18 @@ $a = function() use ($a) {};
 ```
 
 **[Documentation](https://www.php.net/manual/en/language.oop5.inheritance.php)**
+## See Also
+
++ [PHP: The final Keyword - Manual](https://www.php.net/manual/en/language.oop5.final.php)
++ [How to Override Method in PHP](https://www.phptutorial.net/php-oop/php-override-method/)
+
 ## Related
 
-+ [Final Keyword](final.ini.html)
-+ [Private Visibility](private.ini.html)
-+ [Inheritance](inheritance.ini.html)
-+ [Override Attribute](override.ini.html)
-+ [Assignations](assignation.ini.html)
-+ [Child Class](child-class.ini.html)
-+ [Overriding](overriding.ini.html)
-+ [parent](parent.ini.html)
++ [Final Keyword](final.html)
++ [Private Visibility](private.html)
++ [Inheritance](inheritance.html)
++ [Override Attribute](override.html)
++ [Assignations](assignation.html)
++ [Child Class](child-class.html)
++ [Overriding](overriding.html)
++ [parent](parent.html)

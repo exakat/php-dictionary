@@ -6,7 +6,7 @@ Some famous algorithms:  ``MD5``,  ``SHA1``,  ``SHA256``,  ``HAVAL``,  ``Bcrypt`
 Other algorithms include  ``crc32()``, though it is not considered a cryptography. 
 
 While the extension ``hash `` only process hashes, there are other extensions which offer these features:  ``openssl``, ``sodium `` and  ``password hashing``. ``Mhash`` and ``mcrypt`` are older PHP extensions, which are now discontinued.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash-crypto.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash-crypto.html","name":"Cryptographic Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:50:35 +0000","dateModified":"Thu, 06 Aug 2026 05:50:35 +0000","description":"A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Cryptographic Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash-crypto.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash-crypto.html","name":"Cryptographic Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:50:35 +0000","dateModified":"Thu, 06 Aug 2026 05:50:35 +0000","description":"A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Cryptographic Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Cryptographic Hash"}]}]}</script>
 ```php
 <?php
 
@@ -23,10 +23,10 @@ While the extension ``hash `` only process hashes, there are other extensions wh
 
 ## Related
 
-+ [hash() Function](hash-function.ini.html)
-+ [Hash](hash.ini.html)
-+ [Array, []](array.ini.html)
-+ [Map](map.ini.html)
-+ [Crack](crack.ini.html)
-+ [hash\_equals()](hash_equals.ini.html)
-+ [One-Time Password (OTP)](otp.ini.html)
++ [hash() Function](hash-function.html)
++ [Hash](hash.html)
++ [Array, []](array.html)
++ [Map](map.html)
++ [Crack](crack.html)
++ [hash\_equals()](hash_equals.html)
++ [One-Time Password (OTP)](otp.html)

@@ -8,7 +8,7 @@ The CAP theorem, also known as Brewer's theorem, states that a distributed data 
 Since network partitions are unavoidable in real distributed systems, the practical choice is between CP, that is consistent and partition-tolerant, e.g., HBase, ZooKeeper, and AP, that is available and partition-tolerant, e.g., Cassandra, CouchDB.
 
 PHP applications interact with distributed stores from the client side, selecting a backend that matches their consistency or availability requirements.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cap-theorem.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cap-theorem.html","name":"CAP Theorem","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:34:57 +0000","dateModified":"Thu, 16 Jul 2026 08:34:57 +0000","description":"The CAP theorem, also known as Brewer's theorem, states that a distributed data store can provide at most two of the following three guarantees simultaneously:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/CAP Theorem.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cap-theorem.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cap-theorem.html","name":"CAP Theorem","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:34:57 +0000","dateModified":"Thu, 16 Jul 2026 08:34:57 +0000","description":"The CAP theorem, also known as Brewer's theorem, states that a distributed data store can provide at most two of the following three guarantees simultaneously:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/CAP Theorem.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"CAP Theorem"}]}]}</script>
 ```php
 <?php
 
@@ -33,10 +33,10 @@ PHP applications interact with distributed stores from the client side, selectin
 
 ## Related
 
-+ [Distributed Systems](distributed-systems.ini.html)
-+ [Eventual Consistency](eventual-consistency.ini.html)
-+ [Consistency](consistency.ini.html)
-+ [Availability](availability.ini.html)
-+ [ACID](acid.ini.html)
-+ [Nosql Database](nosql-database.ini.html)
-+ [Distributed Transactions](distributed-transactions.ini.html)
++ [Distributed Systems](distributed-systems.html)
++ [Eventual Consistency](eventual-consistency.html)
++ [Consistency](consistency.html)
++ [Availability](availability.html)
++ [ACID](acid.html)
++ [Nosql Database](nosql-database.html)
++ [Distributed Transactions](distributed-transactions.html)

@@ -10,7 +10,7 @@ SOLID is an acronym for a set of OOP design principle. They were coined by Rober
 Each principle may be used independently. Those principles are not dedicated to PHP, though they are used with PHP.
 
 The opposite of SOLID is STUPID.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/solid.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/solid.html","name":"SOLID","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:16:50 +0000","dateModified":"Wed, 05 Aug 2026 08:16:50 +0000","description":"SOLID is an acronym for a set of OOP design principle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/SOLID.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/solid.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/solid.html","name":"SOLID","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:16:50 +0000","dateModified":"Wed, 05 Aug 2026 08:16:50 +0000","description":"SOLID is an acronym for a set of OOP design principle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/SOLID.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"SOLID"}]}]}</script>
 **[Documentation](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)**
 ## See Also
 
@@ -20,16 +20,16 @@ The opposite of SOLID is STUPID.
 
 ## Related
 
-+ [Single Responsability Principle (SRP)](srp.ini.html)
-+ [Open Closed Principle (OCP)](ocp.ini.html)
-+ [LSP](lsp.ini.html)
-+ [Interface Segregation Principle (ISP)](isp.ini.html)
-+ [Dependency Inversion (DIP)](dip.ini.html)
-+ [\_\_invoke() Method](__invoke.ini.html)
-+ [Don't Repeat Yourself (DRY)](dry.ini.html)
-+ [Responsability](responsability.ini.html)
-+ [Separation Of Concerns](separation-of-concerns.ini.html)
-+ [Cohesion](cohesion.ini.html)
-+ [God Object](god-object.ini.html)
-+ [KISS](kiss.ini.html)
-+ [Object Calisthenics](calisthenics.ini.html)
++ [Single Responsability Principle (SRP)](srp.html)
++ [Open Closed Principle (OCP)](ocp.html)
++ [LSP](lsp.html)
++ [Interface Segregation Principle (ISP)](isp.html)
++ [Dependency Inversion (DIP)](dip.html)
++ [\_\_invoke() Method](__invoke.html)
++ [Don't Repeat Yourself (DRY)](dry.html)
++ [Responsability](responsability.html)
++ [Separation Of Concerns](separation-of-concerns.html)
++ [Cohesion](cohesion.html)
++ [God Object](god-object.html)
++ [KISS](kiss.html)
++ [Object Calisthenics](calisthenics.html)

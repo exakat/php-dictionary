@@ -2,7 +2,7 @@
 Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value. In other words, it does not apply any type-juggling to the values before processing. 
 
 Here are the strict operators: ``==`` may be replaced with ``===``,  ``!=`` may be replaced with ``!==``, ``switch`` may be replaced with ``match``, ``in_array()`` with the third parameter ``strict`` set to true.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/strict-comparison.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/strict-comparison.html","name":"Strict Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:37:54 +0000","dateModified":"Mon, 13 Jul 2026 09:37:54 +0000","description":"Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Strict Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/strict-comparison.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/strict-comparison.html","name":"Strict Comparison","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 09:37:54 +0000","dateModified":"Mon, 13 Jul 2026 09:37:54 +0000","description":"Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Strict Comparison.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Strict Comparison"}]}]}</script>
 ```php
 <?php
 
@@ -27,7 +27,7 @@ Here are the strict operators: ``==`` may be replaced with ``===``,  ``!=`` may 
 
 ## Related
 
-+ [Switch](switch.ini.html)
-+ [Match](match.ini.html)
-+ [Relaxed Comparison](relaxed-comparison.ini.html)
-+ [Hash Comparisons](hash-comparison.ini.html)
++ [Switch](switch.html)
++ [Match](match.html)
++ [Relaxed Comparison](relaxed-comparison.html)
++ [Hash Comparisons](hash-comparison.html)

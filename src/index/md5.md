@@ -2,7 +2,7 @@
 MD5 is a hash function, that produce a 128-bit footprint for a value. 
 
 MD5 was used a lot for secure hashing and control. Nowadays, it may be useful for hashing and comparing data, though it is not considered secure.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/md5.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/md5.html","name":"Message Digest Algorithm 5 (MD5)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"MD5 is a hash function, that produce a 128-bit footprint for a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Message Digest Algorithm 5 (MD5).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/md5.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/md5.html","name":"Message Digest Algorithm 5 (MD5)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"MD5 is a hash function, that produce a 128-bit footprint for a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Message Digest Algorithm 5 (MD5).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Message Digest Algorithm 5 (MD5)"}]}]}</script>
 ```php
 <?php
 
@@ -22,8 +22,8 @@ print md5("Some text.")
 
 ## Related
 
-+ [Cryptography](cryptography.ini.html)
-+ [Hashing](hashing.ini.html)
-+ [Checksum](checksum.ini.html)
-+ [Crack](crack.ini.html)
-+ [Weak Cryptography](weak-cryptography.ini.html)
++ [Cryptography](cryptography.html)
++ [Hashing](hashing.html)
++ [Checksum](checksum.html)
++ [Crack](crack.html)
++ [Weak Cryptography](weak-cryptography.html)

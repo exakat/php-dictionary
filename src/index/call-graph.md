@@ -4,7 +4,7 @@ In programming languages, a call graph is a representation of the relationships 
 The representation may be visual, or simply figurative, for further processing and analysis.
 
 In the callgraph, the nodes represent functions or methods, edges represent calls from one function to another and the direction is usually an arrow from function A to function B means ``A calls B``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/call-graph.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/call-graph.html","name":"Call Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"In programming languages, a call graph is a representation of the relationships between functions and methods in the codebase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Call Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/call-graph.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/call-graph.html","name":"Call Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"In programming languages, a call graph is a representation of the relationships between functions and methods in the codebase","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Call Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Call Graph"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Call_graph)**
 ## See Also
 
@@ -13,8 +13,8 @@ In the callgraph, the nodes represent functions or methods, edges represent call
 
 ## Related
 
-+ [Call](call.ini.html)
-+ [Functions](function.ini.html)
-+ [Method](method.ini.html)
-+ [Execution Path](execution-path.ini.html)
-+ [Graph](graph.ini.html)
++ [Call](call.html)
++ [Functions](function.html)
++ [Method](method.html)
++ [Execution Path](execution-path.html)
++ [Graph](graph.html)

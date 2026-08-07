@@ -9,7 +9,7 @@ Double quoted strings use the anti-slash ``\`` to escape special characters, suc
 
 Single quote is also a simple characters. It is used for string, and as a delimiter in many other languages, such as HTML, XML or SQL.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/single-quote.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/single-quote.html","name":"Single Quotes Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:06:31 +0000","dateModified":"Thu, 09 Jul 2026 09:06:31 +0000","description":"Single quoted strings are strings that include a literal value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Single Quotes Strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/single-quote.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/single-quote.html","name":"Single Quotes Strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:06:31 +0000","dateModified":"Thu, 09 Jul 2026 09:06:31 +0000","description":"Single quoted strings are strings that include a literal value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Single Quotes Strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Single Quotes Strings"}]}]}</script>
 ```php
 <?php
 
@@ -28,11 +28,11 @@ Single quote is also a simple characters. It is used for string, and as a delimi
 **[Documentation](https://www.php.net/manual/en/ini.core.php#ini.disable-functions)**
 ## Related
 
-+ [Double Quotes Strings](double-quote.ini.html)
-+ [Heredocs](heredoc.ini.html)
-+ [Interpolation](interpolation.ini.html)
-+ [String](string.ini.html)
-+ [Dollar $](dollar.ini.html)
-+ [Balanced](balanced.ini.html)
-+ [Oblic Quotes](oblic-quote.ini.html)
-+ [Single](single.ini.html)
++ [Double Quotes Strings](double-quote.html)
++ [Heredocs](heredoc.html)
++ [Interpolation](interpolation.html)
++ [String](string.html)
++ [Dollar $](dollar.html)
++ [Balanced](balanced.html)
++ [Oblic Quotes](oblic-quote.html)
++ [Single](single.html)

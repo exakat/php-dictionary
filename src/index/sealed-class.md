@@ -6,7 +6,7 @@ This makes sealed hierarchies exhaustively enumerable: a compiler can verify tha
 Sealed classes are available in Kotlin ``sealed class``, Java since version 17, ``sealed interface ... permits ...``, Scala 3 ``sealed trait``, and Swift, ``enum`` with associated values serves a similar role. C# has no direct equivalent but approximates it with abstract classes and internal constructors.
 
 PHP has no concept of sealed classes or sealed interfaces. Inheritance cannot be restricted beyond ``final``, which prevents all subclassing rather than allowing a controlled set.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sealed-class.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sealed-class.html","name":"Sealed Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:59:03 +0000","dateModified":"Fri, 24 Jul 2026 15:59:03 +0000","description":"A sealed class, or sealed interface, is a class whose set of direct subclasses is restricted and known at compile time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Sealed Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/sealed-class.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/sealed-class.html","name":"Sealed Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:59:03 +0000","dateModified":"Fri, 24 Jul 2026 15:59:03 +0000","description":"A sealed class, or sealed interface, is a class whose set of direct subclasses is restricted and known at compile time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Sealed Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Sealed Class"}]}]}</script>
 ```php
 <?php
 
@@ -28,9 +28,9 @@ PHP has no concept of sealed classes or sealed interfaces. Inheritance cannot be
 
 ## Related
 
-+ [Final Keyword](final.ini.html)
-+ [Abstract Class](abstract-class.ini.html)
-+ [Inheritance](inheritance.ini.html)
-+ [Enumeration (enum)](enum.ini.html)
-+ [Pattern Matching](pattern-matching.ini.html)
-+ [Polymorphism](polymorphism.ini.html)
++ [Final Keyword](final.html)
++ [Abstract Class](abstract-class.html)
++ [Inheritance](inheritance.html)
++ [Enumeration (enum)](enum.html)
++ [Pattern Matching](pattern-matching.html)
++ [Polymorphism](polymorphism.html)

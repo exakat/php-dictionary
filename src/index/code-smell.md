@@ -4,7 +4,7 @@ A code smell refers to any characteristic or symptom in source code that indicat
 Long methods, duplicate code are code smells. 
 
 Code smells are not strict rules or errors but rather indicators of areas that may need improvement. Recognizing and addressing code smells early in the development process can lead to cleaner, more maintainable, and bug-free code. Automated code analysis tools and code reviews can be helpful in identifying code smells and promoting better coding practices.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/code-smell.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/code-smell.html","name":"Code Smell","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Code Smell.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/code-smell.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/code-smell.html","name":"Code Smell","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 23 Jun 2026 11:45:46 +0000","dateModified":"Tue, 23 Jun 2026 11:45:46 +0000","description":"A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Code Smell.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Code Smell"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Code_smell)**
 ## See Also
 
@@ -13,8 +13,8 @@ Code smells are not strict rules or errors but rather indicators of areas that m
 
 ## Related
 
-+ [Quality](quality.ini.html)
-+ [Code Review](code-review.ini.html)
-+ [Appeasement Pattern](appeasement-pattern.ini.html)
-+ [Consistency](consistency.ini.html)
-+ [Magic Numbers](magic-number.ini.html)
++ [Quality](quality.html)
++ [Code Review](code-review.html)
++ [Appeasement Pattern](appeasement-pattern.html)
++ [Consistency](consistency.html)
++ [Magic Numbers](magic-number.html)

@@ -5,7 +5,7 @@ The ``eval()`` function executes a string as a PHP code.
 
 When used, it is recommended to enclose ``eval()`` in a try-catch block, to catch syntax error.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/eval.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/eval.html","name":"Eval()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:06:59 +0000","dateModified":"Mon, 06 Jul 2026 10:06:59 +0000","description":"The ``eval()`` function executes a string as a PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Eval().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/eval.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/eval.html","name":"Eval()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:06:59 +0000","dateModified":"Mon, 06 Jul 2026 10:06:59 +0000","description":"The ``eval()`` function executes a string as a PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Eval().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Eval()"}]}]}</script>
 ```php
 <?php
 
@@ -27,12 +27,12 @@ When used, it is recommended to enclose ``eval()`` in a try-catch block, to catc
 
 ## Related
 
-+ [ParseError](parseerror.ini.html)
-+ [Try-catch](try.ini.html)
-+ [Code Injection](code-injection.ini.html)
-+ [Execution](execution.ini.html)
-+ [Capture The Flag (CTF)](ctf.ini.html)
-+ [Homoiconicity](homoiconicity.ini.html)
-+ [Hygienic Macro](hygienic-macro.ini.html)
-+ [Macro](macro.ini.html)
-+ [Metaprogramming](metaprogramming.ini.html)
++ [ParseError](parseerror.html)
++ [Try-catch](try.html)
++ [Code Injection](code-injection.html)
++ [Execution](execution.html)
++ [Capture The Flag (CTF)](ctf.html)
++ [Homoiconicity](homoiconicity.html)
++ [Hygienic Macro](hygienic-macro.html)
++ [Macro](macro.html)
++ [Metaprogramming](metaprogramming.html)

@@ -13,7 +13,7 @@ Software designers aim to achieve low coupling and high cohesion in their system
 
 The opposite of coupling is decoupling.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/coupling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/coupling.html","name":"Coupling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:45 +0000","dateModified":"Tue, 30 Jun 2026 09:14:45 +0000","description":"Coupling refers to the degree of dependency between different classes of a software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Coupling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/coupling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/coupling.html","name":"Coupling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:45 +0000","dateModified":"Tue, 30 Jun 2026 09:14:45 +0000","description":"Coupling refers to the degree of dependency between different classes of a software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Coupling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Coupling"}]}]}</script>
 ```php
 <?php
 
@@ -47,15 +47,15 @@ class User {
 
 ## Related
 
-+ [Decoupling](decoupling.ini.html)
-+ [Dependency](dependency.ini.html)
-+ [Cohesion](cohesion.ini.html)
-+ [God Object](god-object.ini.html)
-+ [Program To Interface](program-to-interface.ini.html)
-+ [Separation Of Concerns](separation-of-concerns.ini.html)
-+ [Tech Island](tech-island.ini.html)
-+ [Tech Silo](tech-silo.ini.html)
-+ [Dependency Inversion (DIP)](dependency-inversion.ini.html)
-+ [Distributed Monolith](distributed-monolith.ini.html)
-+ [Fault Isolation](fault-isolation.ini.html)
-+ [Shared Database](shared-database.ini.html)
++ [Decoupling](decoupling.html)
++ [Dependency](dependency.html)
++ [Cohesion](cohesion.html)
++ [God Object](god-object.html)
++ [Program To Interface](program-to-interface.html)
++ [Separation Of Concerns](separation-of-concerns.html)
++ [Tech Island](tech-island.html)
++ [Tech Silo](tech-silo.html)
++ [Dependency Inversion (DIP)](dependency-inversion.html)
++ [Distributed Monolith](distributed-monolith.html)
++ [Fault Isolation](fault-isolation.html)
++ [Shared Database](shared-database.html)

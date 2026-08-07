@@ -2,7 +2,7 @@
 The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
 
 The final keyword cannot be used with the private keyword: a private method is not visible in the child classes, and can't also be redefined.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/final.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/final.html","name":"Final Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Final Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/final.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/final.html","name":"Final Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Final Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Final Keyword"}]}]}</script>
 ```php
 <?php
 
@@ -25,16 +25,16 @@ class x {
 
 ## Related
 
-+ [Overwrite](overwrite.ini.html)
-+ [Private Visibility](private.ini.html)
-+ [Abstract Class](abstract-class.ini.html)
-+ [Abstract Keyword](abstract.ini.html)
-+ [Static Constant](class-constant.ini.html)
-+ [Final Class Constants](final-class-constant.ini.html)
-+ [Fluent Interface](fluent-interface.ini.html)
-+ [Object](object.ini.html)
-+ [Protected Visibility](protected.ini.html)
-+ [Public Visibility](public.ini.html)
-+ [Abstract Method](abstract-method.ini.html)
-+ [Concrete Method](concrete-method.ini.html)
-+ [Var](var.ini.html)
++ [Overwrite](overwrite.html)
++ [Private Visibility](private.html)
++ [Abstract Class](abstract-class.html)
++ [Abstract Keyword](abstract.html)
++ [Static Constant](class-constant.html)
++ [Final Class Constants](final-class-constant.html)
++ [Fluent Interface](fluent-interface.html)
++ [Object](object.html)
++ [Protected Visibility](protected.html)
++ [Public Visibility](public.html)
++ [Abstract Method](abstract-method.html)
++ [Concrete Method](concrete-method.html)
++ [Var](var.html)

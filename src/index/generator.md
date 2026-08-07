@@ -8,7 +8,7 @@ Generator always have the \Generator return type: in fact, there is not return t
 Generators are used to reduce the memory footprint of an integration, has they do not require all data to be loaded to run: they can be created along the way. 
 
 Generators are also used to implement asynchronous properties: they may stop execution, using yield, and then, return later to continue. This allows for partial execution of the method.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/generator.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/generator.html","name":"Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:12:32 +0000","dateModified":"Fri, 10 Jul 2026 09:12:32 +0000","description":"Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/generator.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/generator.html","name":"Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:12:32 +0000","dateModified":"Fri, 10 Jul 2026 09:12:32 +0000","description":"Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Generator"}]}]}</script>
 ```php
 <?php
 
@@ -35,16 +35,16 @@ Generators are also used to implement asynchronous properties: they may stop exe
 
 ## Related
 
-+ [Yield](yield.ini.html)
-+ [yield from Keyword](yield-from.ini.html)
-+ [Return Type](return-type.ini.html)
-+ [Async](async.ini.html)
-+ [ClosedGeneratorException](closedgeneratorexception.ini.html)
-+ [Coroutine](coroutine.ini.html)
-+ [iterator\_to\_array()](iterator_to_array.ini.html)
-+ [range()](range.ini.html)
-+ [Stealth Generator](stealth-generator.ini.html)
-+ [Continuation](continuation.ini.html)
-+ [Lazy Evaluation](lazy-evaluation.ini.html)
-+ [List Comprehension](list-comprehension.ini.html)
-+ [Range Type](range-type.ini.html)
++ [Yield](yield.html)
++ [yield from Keyword](yield-from.html)
++ [Return Type](return-type.html)
++ [Async](async.html)
++ [ClosedGeneratorException](closedgeneratorexception.html)
++ [Coroutine](coroutine.html)
++ [iterator\_to\_array()](iterator_to_array.html)
++ [range()](range.html)
++ [Stealth Generator](stealth-generator.html)
++ [Continuation](continuation.html)
++ [Lazy Evaluation](lazy-evaluation.html)
++ [List Comprehension](list-comprehension.html)
++ [Range Type](range-type.html)

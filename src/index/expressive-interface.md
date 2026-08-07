@@ -6,7 +6,7 @@ The goal is to make your code self-documenting and reduce the cognitive load on 
 An expressive interface is not related to an interface: it may be implemented without them.
 
 The notion of expressive interface is similar to the fluent interface.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/expressive-interface.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/expressive-interface.html","name":"Expressive Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:20:46 +0000","dateModified":"Sat, 04 Jul 2026 08:20:46 +0000","description":"An expressive interface, refers to an API design pattern that makes code more readable, intuitive, and natural to write","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Expressive Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/expressive-interface.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/expressive-interface.html","name":"Expressive Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:20:46 +0000","dateModified":"Sat, 04 Jul 2026 08:20:46 +0000","description":"An expressive interface, refers to an API design pattern that makes code more readable, intuitive, and natural to write","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Expressive Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Expressive Interface"}]}]}</script>
 ```php
 <?php
 
@@ -37,9 +37,9 @@ The notion of expressive interface is similar to the fluent interface.
 
 ## Related
 
-+ [Fluent Interface](fluent-interface.ini.html)
-+ [Self-documenting](self-documenting.ini.html)
-+ [Interface](interface.ini.html)
++ [Fluent Interface](fluent-interface.html)
++ [Self-documenting](self-documenting.html)
++ [Interface](interface.html)
 
 ## Related packages
 

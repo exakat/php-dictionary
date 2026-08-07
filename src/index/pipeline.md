@@ -8,7 +8,7 @@ A pipeline is used with:
 + Processing, where each step is a separate process
 
 The pipeline image is related to the assembly line, from factories.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pipeline.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pipeline.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pipeline.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pipeline.html","name":"Pipeline","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A pipeline is a chain of steps that composes a sequential set of actions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Pipeline.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Pipeline"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Pipeline_(software))**
 ## See Also
 
@@ -17,13 +17,13 @@ The pipeline image is related to the assembly line, from factories.
 
 ## Related
 
-+ [Continuous Delivery (CD)](cd.ini.html)
-+ [Continuous Integration (CI)](ci.ini.html)
-+ [Pull Request (PR)](pr.ini.html)
-+ [Task Runner](task-runner.ini.html)
-+ [Code Review](code-review.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
-+ [Poisoned Pipeline Execution (PPE)](poisoned-pipeline-execution.ini.html)
++ [Continuous Delivery (CD)](cd.html)
++ [Continuous Integration (CI)](ci.html)
++ [Pull Request (PR)](pr.html)
++ [Task Runner](task-runner.html)
++ [Code Review](code-review.html)
++ [Middleware Pattern](middleware.html)
++ [Poisoned Pipeline Execution (PPE)](poisoned-pipeline-execution.html)
 
 ## Related packages
 

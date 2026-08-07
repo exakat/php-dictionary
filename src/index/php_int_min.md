@@ -6,7 +6,7 @@ Nowadays, ``PHP_INT_MIN`` is often -9223372036854775808. This value depends on t
 Beyond ``PHP_INT_MIN``, integers are often converted to floats, and loose precision. 
 
 There is also ``PHP_INT_MAX``, which is the positive version of ``PHP_INT_MIN``, minus one.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php_int_min.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php_int_min.html","name":"PHP_INT_MIN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:27:49 +0000","dateModified":"Fri, 19 Jun 2026 21:27:49 +0000","description":"``PHP_INT_MIN`` is the smallest integer that can be processed by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/PHP_INT_MIN.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php_int_min.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php_int_min.html","name":"PHP_INT_MIN","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:27:49 +0000","dateModified":"Fri, 19 Jun 2026 21:27:49 +0000","description":"``PHP_INT_MIN`` is the smallest integer that can be processed by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/PHP_INT_MIN.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"PHP_INT_MIN"}]}]}</script>
 ```php
 <?php
 
@@ -24,7 +24,7 @@ var_dump(is_int($max)); // true
 
 ## Related
 
-+ [integer](integer.ini.html)
-+ [Floating Point Numbers](float.ini.html)
-+ [PHP\_INT\_MAX](php_int_max.ini.html)
-+ [precision](precision.ini.html)
++ [integer](integer.html)
++ [Floating Point Numbers](float.html)
++ [PHP\_INT\_MAX](php_int_max.html)
++ [precision](precision.html)

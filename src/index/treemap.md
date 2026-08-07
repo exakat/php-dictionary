@@ -1,6 +1,6 @@
 # Treemap
 Treemaps are a visualization tool used to understand the relative weight of partitions. It works on file systems, and nested code structures. Each zone may be dimensioned by its weight, and also colored with another indicator.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/treemap.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/treemap.html","name":"Treemap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:41 +0000","dateModified":"Fri, 19 Jun 2026 21:24:41 +0000","description":"Treemaps are a visualization tool used to understand the relative weight of partitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Treemap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/treemap.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/treemap.html","name":"Treemap","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:41 +0000","dateModified":"Fri, 19 Jun 2026 21:24:41 +0000","description":"Treemaps are a visualization tool used to understand the relative weight of partitions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Treemap.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Treemap"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Treemapping)**
 ## See Also
 
@@ -8,11 +8,11 @@ Treemaps are a visualization tool used to understand the relative weight of part
 
 ## Related
 
-+ [Graph](graph.ini.html)
-+ [Flame Graph](flamegraph.ini.html)
-+ [Memory](memory.ini.html)
-+ [Benchmarking](benchmarking.ini.html)
-+ [Performance](performance.ini.html)
++ [Graph](graph.html)
++ [Flame Graph](flamegraph.html)
++ [Memory](memory.html)
++ [Benchmarking](benchmarking.html)
++ [Performance](performance.html)
 
 ## Related packages
 

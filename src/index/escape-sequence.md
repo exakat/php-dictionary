@@ -20,7 +20,7 @@ Here are some examples of escape sequences from HTML:
 + There are many more of them. See external links.
 
 Escape sequences should not be confused with escape characters, though they are related: some escape sequences are introduced by an escape character. Others rely on a format.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/escape-sequence.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/escape-sequence.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:08:29 +0000","dateModified":"Thu, 09 Jul 2026 09:08:29 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/escape-sequence.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/escape-sequence.html","name":"Escape Sequences","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:08:29 +0000","dateModified":"Thu, 09 Jul 2026 09:08:29 +0000","description":"Escape sequences are sequences of characters with a special meaning","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Escape Sequences.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Escape Sequences"}]}]}</script>
 ```php
 <?php
 
@@ -43,8 +43,8 @@ Escape sequences should not be confused with escape characters, though they are 
 
 ## Related
 
-+ [Double Quotes Strings](double-quote.ini.html)
-+ [Codepoint](codepoint.ini.html)
-+ [E](e.ini.html)
-+ [Emoji](emoji.ini.html)
-+ [Escape Data](escape-data.ini.html)
++ [Double Quotes Strings](double-quote.html)
++ [Codepoint](codepoint.html)
++ [E](e.html)
++ [Emoji](emoji.html)
++ [Escape Data](escape-data.html)

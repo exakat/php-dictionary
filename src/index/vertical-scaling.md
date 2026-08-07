@@ -1,10 +1,10 @@
 # Vertical Scaling
 Vertical scaling, also called scaling up, means increasing the resources: processor cores, RAM, disk I/O, or network bandwidth, of an existing machine or container to handle a greater workload, rather than adding more instances.
 
-Vertical scaling may involve upgrading the server hardware, increasing PHP-FPM worker counts, raising ``memory_limit``, or enabling OPcache to reduce CPU pressure. It is generally simpler to implement than horizontal scaling because it does not require architectural changes to externalise shared state.
+Vertical scaling may involve upgrading the server hardware, increasing ``PHP-FPM``` worker counts, raising ``memory_limit``, or enabling ``OPcache`` to reduce CPU pressure. It is generally simpler to implement than horizontal scaling because it does not require architectural changes to externalise shared state.
 
 However, vertical scaling has an upper limit dictated by the maximum hardware configuration available, and a single large server remains a single point of failure. For most production workloads, vertical and horizontal scaling are used together.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/vertical-scaling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/vertical-scaling.html","name":"Vertical Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:01:29 +0000","dateModified":"Tue, 30 Jun 2026 09:01:29 +0000","description":"Vertical scaling, also called scaling up, means increasing the resources: processor cores, RAM, disk I\/O, or network bandwidth, of an existing machine or container to handle a greater workload, rather than adding more instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Vertical Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/vertical-scaling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/vertical-scaling.html","name":"Vertical Scaling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 09:59:07 +0000","dateModified":"Fri, 07 Aug 2026 09:59:07 +0000","description":"Vertical scaling, also called scaling up, means increasing the resources: processor cores, RAM, disk I\/O, or network bandwidth, of an existing machine or container to handle a greater workload, rather than adding more instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Vertical Scaling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Vertical Scaling"}]}]}</script>
 ```php
 <?php
 
@@ -27,9 +27,11 @@ However, vertical scaling has an upper limit dictated by the maximum hardware co
 
 ## Related
 
-+ [Scaling](scaling.ini.html)
-+ [Horizontal Scaling](horizontal-scaling.ini.html)
-+ [Performance](performance.ini.html)
-+ [memory\_limit](memory_limit.ini.html)
-+ [Opcache](opcache.ini.html)
-+ [Architecture](architecture.ini.html)
++ [Scaling](scaling.html)
++ [Horizontal Scaling](horizontal-scaling.html)
++ [Performance](performance.html)
++ [memory\_limit](memory_limit.html)
++ [Opcache](opcache.html)
++ [Architecture](architecture.html)
++ [FastCGI Process Manager (FPM)](php-fpm.html)
++ [Worker](worker.html)

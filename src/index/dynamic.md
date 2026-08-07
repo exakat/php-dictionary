@@ -6,7 +6,7 @@ Dynamic is a common concept, and may be used in three distinct situations:
 + Dynamic property, to access a property whose name is in a variable
 + Dynamic loading, for PHP to load an extension after the start of execution
 + Dynamic variable, to access a variable whose name is in another variable.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/dynamic.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/dynamic.html","name":"Dynamic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:46 +0000","dateModified":"Fri, 19 Jun 2026 21:24:46 +0000","description":"Dynamic is a common concept, and may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Dynamic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic.html","name":"Dynamic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:46 +0000","dateModified":"Fri, 19 Jun 2026 21:24:46 +0000","description":"Dynamic is a common concept, and may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Dynamic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Dynamic"}]}]}</script>
 ```php
 <?php
 
@@ -29,12 +29,12 @@ Dynamic is a common concept, and may be used in three distinct situations:
 
 ## Related
 
-+ [Dynamic Call](dynamic-call.ini.html)
-+ [Dynamic Constant](dynamic-constant.ini.html)
-+ [Dynamic Properties](dynamic-property.ini.html)
-+ [Dynamic Loading](dynamic-loading.ini.html)
-+ [Dynamic Variable](dynamic-variable.ini.html)
-+ [Variable Variables](variable-variable.ini.html)
-+ [static](static.ini.html)
-+ [Dynamic Class Constant](dynamic-class-constant.ini.html)
-+ [Dynamic Method](dynamic-method.ini.html)
++ [Dynamic Call](dynamic-call.html)
++ [Dynamic Constant](dynamic-constant.html)
++ [Dynamic Properties](dynamic-property.html)
++ [Dynamic Loading](dynamic-loading.html)
++ [Dynamic Variable](dynamic-variable.html)
++ [Variable Variables](variable-variable.html)
++ [static](static.html)
++ [Dynamic Class Constant](dynamic-class-constant.html)
++ [Dynamic Method](dynamic-method.html)

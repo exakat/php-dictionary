@@ -7,7 +7,7 @@ The search is case-sensitive. ``str_ireplace()`` is the case-insensitive counter
 
 An optional fourth argument, passed by reference, receives the number of replacements performed.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/str_replace.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/str_replace.html","name":"str_replace()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 13:44:28 +0000","dateModified":"Thu, 16 Jul 2026 13:44:28 +0000","description":"``str_replace()`` is a PHP native function that replaces all occurrences of a search string with a replacement string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/str_replace().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/str_replace.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/str_replace.html","name":"str_replace()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 13:44:28 +0000","dateModified":"Thu, 16 Jul 2026 13:44:28 +0000","description":"``str_replace()`` is a PHP native function that replaces all occurrences of a search string with a replacement string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/str_replace().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"str_replace()"}]}]}</script>
 ```php
 <?php
 
@@ -31,8 +31,8 @@ An optional fourth argument, passed by reference, receives the number of replace
 **[Documentation](https://www.php.net/manual/en/function.str-replace.php)**
 ## Related
 
-+ [strtr()](strtr.ini.html)
-+ [String](string.ini.html)
-+ [strpos](strpos.ini.html)
-+ [Case Sensitivity](case-insensitive.ini.html)
-+ [preg\_replace()](preg_replace.ini.html)
++ [strtr()](strtr.html)
++ [String](string.html)
++ [strpos](strpos.html)
++ [Case Sensitivity](case-insensitive.html)
++ [preg\_replace()](preg_replace.html)

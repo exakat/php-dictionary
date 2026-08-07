@@ -2,7 +2,7 @@
 A socket refers to a communication endpoint that allows two processes to exchange data over a network. Sockets provide a mechanism for processes on different devices to communicate with each other, whether they are on the same machine or across the Internet.
 
 PHP provides a set of functions for working with sockets, allowing developers to create both client and server applications that can communicate over networks using various protocols, including TCP and UDP.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/socket.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/socket.html","name":"Socket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:37:12 +0000","dateModified":"Sat, 11 Jul 2026 14:37:12 +0000","description":"A socket refers to a communication endpoint that allows two processes to exchange data over a network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Socket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/socket.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/socket.html","name":"Socket","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:37:12 +0000","dateModified":"Sat, 11 Jul 2026 14:37:12 +0000","description":"A socket refers to a communication endpoint that allows two processes to exchange data over a network","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Socket.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Socket"}]}]}</script>
 ```php
 <?php
 
@@ -21,16 +21,16 @@ PHP provides a set of functions for working with sockets, allowing developers to
 
 ## Related
 
-+ [Network](network.ini.html)
-+ [Server](server.ini.html)
-+ [User Datagram Protocol (UDP)](udp.ini.html)
-+ [TCP](tcp.ini.html)
-+ [Polling](polling.ini.html)
-+ [Websocket](websocket.ini.html)
-+ [C10K](c10k.ini.html)
-+ [IMAP](imap.ini.html)
-+ [Non-blocking](non-blocking.ini.html)
-+ [SSH2](ssh2.ini.html)
++ [Network](network.html)
++ [Server](server.html)
++ [User Datagram Protocol (UDP)](udp.html)
++ [TCP](tcp.html)
++ [Polling](polling.html)
++ [Websocket](websocket.html)
++ [C10K](c10k.html)
++ [IMAP](imap.html)
++ [Non-blocking](non-blocking.html)
++ [SSH2](ssh2.html)
 
 ## Related packages
 

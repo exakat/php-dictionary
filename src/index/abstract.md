@@ -17,7 +17,7 @@ Static methods may be declared abstract.
 
 abstract applies to the property, and is used by either or both of the ``get`` and ``set`` hook. At least one of them has to be without a body, as should be any abstract method.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/abstract.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/abstract.html","name":"Abstract Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:32:14 +0000","dateModified":"Tue, 04 Aug 2026 11:32:14 +0000","description":"PHP has ``abstract`` classes, properties and methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Abstract Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/abstract.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/abstract.html","name":"Abstract Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:32:14 +0000","dateModified":"Tue, 04 Aug 2026 11:32:14 +0000","description":"PHP has ``abstract`` classes, properties and methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Abstract Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Abstract Keyword"}]}]}</script>
 ```php
 <?php
 
@@ -55,11 +55,11 @@ abstract applies to the property, and is used by either or both of the ``get`` a
 
 ## Related
 
-+ [Abstraction](abstraction.ini.html)
-+ [Concrete Class](concrete.ini.html)
-+ [Object](object.ini.html)
-+ [Overriding](overriding.ini.html)
-+ [Final Keyword](final.ini.html)
-+ [Private Visibility](private.ini.html)
-+ [static](static.ini.html)
-+ [Property Hook](property-hook.ini.html)
++ [Abstraction](abstraction.html)
++ [Concrete Class](concrete.html)
++ [Object](object.html)
++ [Overriding](overriding.html)
++ [Final Keyword](final.html)
++ [Private Visibility](private.html)
++ [static](static.html)
++ [Property Hook](property-hook.html)

@@ -42,7 +42,7 @@ Here are some of the most common HTTP status codes and their general meanings:
     503 Service Unavailable: the server is currently unable to handle the request due to temporary overloading or maintenance of the server.
     504 Gateway Timeout: the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server.
     505 HTTP Version Not Supported: the server does not support the HTTP version used in the request.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/http-code.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/http-code.html","name":"HTTP Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:47:50 +0000","dateModified":"Fri, 03 Jul 2026 07:47:50 +0000","description":"HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/HTTP Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/http-code.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/http-code.html","name":"HTTP Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 07:47:50 +0000","dateModified":"Fri, 03 Jul 2026 07:47:50 +0000","description":"HTTP status codes are three-digit numeric codes that are returned by web servers to indicate the outcome of a client's request to a server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/HTTP Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"HTTP Code"}]}]}</script>
 **[Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)**
 ## See Also
 
@@ -51,8 +51,8 @@ Here are some of the most common HTTP status codes and their general meanings:
 
 ## Related
 
-+ [Hyper Text Transfer Protocol (HTTP)](http.ini.html)
-+ [Response](response.ini.html)
-+ [HTTP Request Headers](http-headers.ini.html)
-+ [REST API](rest-api.ini.html)
-+ [Redirect](redirect.ini.html)
++ [Hyper Text Transfer Protocol (HTTP)](http.html)
++ [Response](response.html)
++ [HTTP Request Headers](http-headers.html)
++ [REST API](rest-api.html)
++ [Redirect](redirect.html)

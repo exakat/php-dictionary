@@ -9,7 +9,7 @@ A typed property that has not been initialized before it is read triggers an ``E
 
 Since PHP 8.1, typed properties may also be declared ``readonly``, which prevents any assignment after the initial one.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-declaration-property.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-declaration-property.html","name":"Property Type Declaration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:04:50 +0000","dateModified":"Tue, 30 Jun 2026 09:04:50 +0000","description":"Type declaration property, also known as typed properties, is a feature introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Property Type Declaration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-declaration-property.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-declaration-property.html","name":"Property Type Declaration","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:04:50 +0000","dateModified":"Tue, 30 Jun 2026 09:04:50 +0000","description":"Type declaration property, also known as typed properties, is a feature introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Property Type Declaration.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Property Type Declaration"}]}]}</script>
 ```php
 <?php
 
@@ -23,18 +23,18 @@ Since PHP 8.1, typed properties may also be declared ``readonly``, which prevent
 **[Documentation](https://www.php.net/manual/en/language.types.declarations.php)**
 ## Related
 
-+ [Type System](type.ini.html)
-+ [Union Type](union-type.ini.html)
-+ [Intersection Type](intersection-type.ini.html)
-+ [Disjunctive Normal Form (DNF)](dnf-type.ini.html)
-+ [Readonly](readonly.ini.html)
-+ [Nullable](nullable.ini.html)
-+ [Properties](property.ini.html)
-+ [Uninitialized](uninitialized.ini.html)
-+ [TypeError](typeerror.ini.html)
-+ [Return Type](return-type.ini.html)
-+ [Promoted Properties](promoted-property.ini.html)
-+ [Property Hook](property-hook.ini.html)
-+ [Asymmetric Visibility](asymmetric-visibility.ini.html)
-+ [static](static.ini.html)
-+ [Var](var.ini.html)
++ [Type System](type.html)
++ [Union Type](union-type.html)
++ [Intersection Type](intersection-type.html)
++ [Disjunctive Normal Form (DNF)](dnf-type.html)
++ [Readonly](readonly.html)
++ [Nullable](nullable.html)
++ [Properties](property.html)
++ [Uninitialized](uninitialized.html)
++ [TypeError](typeerror.html)
++ [Return Type](return-type.html)
++ [Promoted Properties](promoted-property.html)
++ [Property Hook](property-hook.html)
++ [Asymmetric Visibility](asymmetric-visibility.html)
++ [static](static.html)
++ [Var](var.html)

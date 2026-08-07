@@ -6,7 +6,7 @@ In event sourcing, the current state of any aggregate is not stored directly: it
 Replay is also used at the projection level: a read model can be dropped and rebuilt entirely from the event store by replaying all events through the projection's handlers. This is invaluable for fixing bugs in projections, adding new read models, and migrating to a new schema.
 
 Temporal replay enables querying the state of the system at any point in the past by replaying events up to a given timestamp.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/event-replay.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/event-replay.html","name":"Event Replay","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:41:56 +0000","dateModified":"Thu, 09 Jul 2026 08:41:56 +0000","description":"Event replay is the process of re-reading stored events from an event store to reconstruct the state of an aggregate, rebuild a projection, or bootstrap a new view of the data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Event Replay.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-replay.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-replay.html","name":"Event Replay","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:41:56 +0000","dateModified":"Thu, 09 Jul 2026 08:41:56 +0000","description":"Event replay is the process of re-reading stored events from an event store to reconstruct the state of an aggregate, rebuild a projection, or bootstrap a new view of the data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Event Replay.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Event Replay"}]}]}</script>
 ```php
 <?php
 
@@ -49,9 +49,9 @@ class RebuildOrderSummaryProjection {
 **[Documentation](https://martinfowler.com/eaaDev/EventSourcing.html)**
 ## Related
 
-+ [Event Store](event-store.ini.html)
-+ [Event Sourcing](event-sourcing.ini.html)
-+ [Event Streaming](event-streaming.ini.html)
-+ [Snapshot](snapshot.ini.html)
-+ [Domain Design Driven (DDD)](ddd.ini.html)
-+ [Temporal Replay](temporal-replay.ini.html)
++ [Event Store](event-store.html)
++ [Event Sourcing](event-sourcing.html)
++ [Event Streaming](event-streaming.html)
++ [Snapshot](snapshot.html)
++ [Domain Design Driven (DDD)](ddd.html)
++ [Temporal Replay](temporal-replay.html)

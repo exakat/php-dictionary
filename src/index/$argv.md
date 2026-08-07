@@ -2,7 +2,7 @@
 ``$argv`` is a PHP variable that contains an array of the arguments passed to the PHP script, in the command line. ``$argv`` is not defined when PHP is run in a webserver.
 
 ``$argv`` is not a superglobal: it has to be imported in a non-global scope with the ``global`` keyword.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/%24argv.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/%24argv.html","name":"$argv","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:32:54 +0000","dateModified":"Fri, 24 Jul 2026 15:32:54 +0000","description":"``$argv`` is a PHP variable that contains an array of the arguments passed to the PHP script, in the command line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/$argv.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/%24argv.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/%24argv.html","name":"$argv","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:32:54 +0000","dateModified":"Fri, 24 Jul 2026 15:32:54 +0000","description":"``$argv`` is a PHP variable that contains an array of the arguments passed to the PHP script, in the command line","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/$argv.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"$argv"}]}]}</script>
 ```php
 <?php
 
@@ -18,9 +18,9 @@
 
 ## Related
 
-+ [$argc]($argc.ini.html)
-+ [PHP Variables](php-variable.ini.html)
-+ [global Scope](global.ini.html)
-+ [$GLOBALS]($globals.ini.html)
-+ [Command Line Interface (CLI)](cli.ini.html)
-+ [register\_argc\_argv](register_argc_argv.ini.html)
++ [$argc]($argc.html)
++ [PHP Variables](php-variable.html)
++ [global Scope](global.html)
++ [$GLOBALS]($globals.html)
++ [Command Line Interface (CLI)](cli.html)
++ [register\_argc\_argv](register_argc_argv.html)

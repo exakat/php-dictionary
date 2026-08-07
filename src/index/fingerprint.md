@@ -4,7 +4,7 @@ A fingerprint is a compact, deterministic identifier derived by hashing a set of
 In the context of HTTP request idempotency, a request fingerprint is computed from the method, route, query string, payload, and content type. It is stored alongside the idempotency key so that retried requests carrying the same key but a different payload can be detected and rejected.
 
 More broadly, fingerprinting is used for cache keying, change detection, file integrity checks, and browser device identification.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fingerprint.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fingerprint.html","name":"Fingerprint","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:24 +0000","dateModified":"Fri, 19 Jun 2026 21:25:24 +0000","description":"A fingerprint is a compact, deterministic identifier derived by hashing a set of attributes that together describe something uniquely","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Fingerprint.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fingerprint.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fingerprint.html","name":"Fingerprint","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:24 +0000","dateModified":"Fri, 19 Jun 2026 21:25:24 +0000","description":"A fingerprint is a compact, deterministic identifier derived by hashing a set of attributes that together describe something uniquely","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Fingerprint.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Fingerprint"}]}]}</script>
 ```php
 <?php
 
@@ -26,9 +26,9 @@ $fingerprint = hash('sha256', implode('|', [
 
 ## Related
 
-+ [hash() Function](hash-function.ini.html)
-+ [Idempotent](idempotent.ini.html)
-+ [Deduplication](deduplication.ini.html)
-+ [Cache](cache.ini.html)
-+ [Checksum](checksum.ini.html)
-+ [Payload](payload.ini.html)
++ [hash() Function](hash-function.html)
++ [Idempotent](idempotent.html)
++ [Deduplication](deduplication.html)
++ [Cache](cache.html)
++ [Checksum](checksum.html)
++ [Payload](payload.html)

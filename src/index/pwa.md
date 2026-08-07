@@ -10,7 +10,7 @@ Key PWA components PHP can serve:
 + API endpoints that the front-end fetches while online and caches for offline use
 
 PHP frameworks such as Symfony and Laravel ship tools and bundles for generating manifests and managing API layers that power PWAs.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pwa.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pwa.html","name":"Progressive Web App","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:49 +0000","dateModified":"Mon, 13 Jul 2026 18:47:49 +0000","description":"A Progressive Web App, or PWA, is a web application that uses modern browser APIs to deliver an app-like experience: offline support, push notifications, home-screen installation, and fast loading","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Progressive Web App.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pwa.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pwa.html","name":"Progressive Web App","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:49 +0000","dateModified":"Mon, 13 Jul 2026 18:47:49 +0000","description":"A Progressive Web App, or PWA, is a web application that uses modern browser APIs to deliver an app-like experience: offline support, push notifications, home-screen installation, and fast loading","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Progressive Web App.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Progressive Web App"}]}]}</script>
 ```php
 <?php
 
@@ -40,9 +40,9 @@ PHP frameworks such as Symfony and Laravel ship tools and bundles for generating
 
 ## Related
 
-+ [Application Programming Interface (API)](api.ini.html)
-+ [REST API](rest-api.ini.html)
-+ [JavaScript Object Notation (JSON)](json.ini.html)
-+ [Javascript](javascript.ini.html)
-+ [Single Page Application (SPA)](spa.ini.html)
-+ [Mobile Application](mobile-app.ini.html)
++ [Application Programming Interface (API)](api.html)
++ [REST API](rest-api.html)
++ [JavaScript Object Notation (JSON)](json.html)
++ [Javascript](javascript.html)
++ [Single Page Application (SPA)](spa.html)
++ [Mobile Application](mobile-app.html)

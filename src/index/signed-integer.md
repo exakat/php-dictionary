@@ -6,7 +6,7 @@ On a 64-bit platform, a PHP integer spans from ``PHP_INT_MIN``, aka -9,223,372,0
 When an operation would produce a value outside that range, PHP silently promotes the result to a ``float``, which has a larger range but reduced precision for large integers.
 
 Languages such as C or Rust distinguish signed integers ``int``, ``i64`` from unsigned integers ``uint``, ``u64``. PHP makes no such distinction: all integers are signed.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/signed-integer.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/signed-integer.html","name":"Signed Integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:04:21 +0000","dateModified":"Sun, 02 Aug 2026 06:04:21 +0000","description":"PHP integers are always signed: they use one bit to represent the sign, allowing both negative and positive values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Signed Integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/signed-integer.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/signed-integer.html","name":"Signed Integer","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:04:21 +0000","dateModified":"Sun, 02 Aug 2026 06:04:21 +0000","description":"PHP integers are always signed: they use one bit to represent the sign, allowing both negative and positive values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Signed Integer.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Signed Integer"}]}]}</script>
 ```php
 <?php
 
@@ -24,10 +24,10 @@ Languages such as C or Rust distinguish signed integers ``int``, ``i64`` from un
 **[Documentation](https://www.php.net/manual/en/language.types.integer.php)**
 ## Related
 
-+ [integer](integer.ini.html)
-+ [Sign](sign.ini.html)
-+ [Positive Integer](positive-integer.ini.html)
-+ [PHP\_INT\_MAX](php_int_max.ini.html)
-+ [PHP\_INT\_MIN](php_int_min.ini.html)
-+ [Floating Point Numbers](float.ini.html)
-+ [Overflow](overflow.ini.html)
++ [integer](integer.html)
++ [Sign](sign.html)
++ [Positive Integer](positive-integer.html)
++ [PHP\_INT\_MAX](php_int_max.html)
++ [PHP\_INT\_MIN](php_int_min.html)
++ [Floating Point Numbers](float.html)
++ [Overflow](overflow.html)

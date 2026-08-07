@@ -7,7 +7,7 @@ The function returns ``true`` if both strings are equal, ``false`` otherwise. If
 
 A common mistake is to compare hashes with ``===``, which is semantically correct but vulnerable to timing attacks. ``hash_equals()`` should be used whenever the compared value could be guessed by an attacker through repeated requests.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash_equals.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash_equals.html","name":"hash_equals()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``hash_equals()`` is a built-in PHP function that compares two strings in constant time, regardless of where they differ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash_equals().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash_equals.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash_equals.html","name":"hash_equals()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``hash_equals()`` is a built-in PHP function that compares two strings in constant time, regardless of where they differ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash_equals().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"hash_equals()"}]}]}</script>
 ```php
 <?php
 
@@ -34,10 +34,10 @@ A common mistake is to compare hashes with ``===``, which is semantically correc
 
 ## Related
 
-+ [Timing Attack](timing-attack.ini.html)
-+ [Hash Comparisons](hash-comparison.ini.html)
-+ [Cryptographic Hash](hash-crypto.ini.html)
-+ [Authentication](authentication.ini.html)
-+ [Cross Site Request Forgery (CSRF)](csrf.ini.html)
-+ [Security](security.ini.html)
-+ [HMAC](hmac.ini.html)
++ [Timing Attack](timing-attack.html)
++ [Hash Comparisons](hash-comparison.html)
++ [Cryptographic Hash](hash-crypto.html)
++ [Authentication](authentication.html)
++ [Cross Site Request Forgery (CSRF)](csrf.html)
++ [Security](security.html)
++ [HMAC](hmac.html)

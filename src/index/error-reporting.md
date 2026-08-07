@@ -10,7 +10,7 @@ Exceptions are not covered by the error reporting, even though one of the except
 Error reporting may be further configured with an error handler function. 
 
 Error may be trigger manually with the ``trigger_error()`` function.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/error-reporting.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/error-reporting.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:40:26 +0000","dateModified":"Wed, 24 Jun 2026 05:40:26 +0000","description":"Error reporting is both a feature, a directive and a PHP native function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/error-reporting.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/error-reporting.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:40:26 +0000","dateModified":"Wed, 24 Jun 2026 05:40:26 +0000","description":"Error reporting is both a feature, a directive and a PHP native function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Error Reporting"}]}]}</script>
 **[Documentation](https://www.php.net/manual/en/function.error-reporting.php)**
 ## See Also
 
@@ -18,12 +18,12 @@ Error may be trigger manually with the ``trigger_error()`` function.
 
 ## Related
 
-+ [Error Handler](error-handler.ini.html)
-+ [@, No Scream Operator](noscream.ini.html)
-+ [html\_errors](html_errors.ini.html)
-+ [display\_errors](display_errors.ini.html)
-+ [E](e.ini.html)
-+ [Notice](notice.ini.html)
-+ [trigger\_error()](trigger_error.ini.html)
-+ [Warning](warning.ini.html)
-+ [Error Suppression](error-suppression.ini.html)
++ [Error Handler](error-handler.html)
++ [@, No Scream Operator](noscream.html)
++ [html\_errors](html_errors.html)
++ [display\_errors](display_errors.html)
++ [E](e.html)
++ [Notice](notice.html)
++ [trigger\_error()](trigger_error.html)
++ [Warning](warning.html)
++ [Error Suppression](error-suppression.html)

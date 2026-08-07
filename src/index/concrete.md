@@ -1,6 +1,6 @@
 # Concrete Class
 PHP has abstract classes and methods: the contrary to ``abstract`` is concrete. This is the default state of a method or class, when it has a code block with implementation. It also has no specific keyword to designate it.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/concrete.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/concrete.html","name":"Concrete Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:24 +0000","dateModified":"Fri, 19 Jun 2026 21:26:24 +0000","description":"PHP has abstract classes and methods: the contrary to ``abstract`` is concrete","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Concrete Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/concrete.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/concrete.html","name":"Concrete Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:24 +0000","dateModified":"Fri, 19 Jun 2026 21:26:24 +0000","description":"PHP has abstract classes and methods: the contrary to ``abstract`` is concrete","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Concrete Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Concrete Class"}]}]}</script>
 ```php
 <?php
 
@@ -25,8 +25,8 @@ PHP has abstract classes and methods: the contrary to ``abstract`` is concrete. 
 
 ## Related
 
-+ [Abstract Keyword](abstract.ini.html)
-+ [Abstract Class](abstract-class.ini.html)
-+ [Abstract Method](abstract-method.ini.html)
-+ [Concrete Method](concrete-method.ini.html)
-+ [Program To Interface](program-to-interface.ini.html)
++ [Abstract Keyword](abstract.html)
++ [Abstract Class](abstract-class.html)
++ [Abstract Method](abstract-method.html)
++ [Concrete Method](concrete-method.html)
++ [Program To Interface](program-to-interface.html)

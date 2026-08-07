@@ -4,7 +4,7 @@ Static Application Security Testing, or SAST, is a branch of static analysis, de
 It focuses on finding vulnerabilities before the source code hits production. 
 
 For example, SAST searches for injections, XSS, path traversal, insecure deserialization, weak cryptography, missing validation.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sast.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sast.html","name":"Static Application Security Testing (SAST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:31:04 +0000","dateModified":"Fri, 03 Jul 2026 08:31:04 +0000","description":"Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Static Application Security Testing (SAST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/sast.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/sast.html","name":"Static Application Security Testing (SAST)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:31:04 +0000","dateModified":"Fri, 03 Jul 2026 08:31:04 +0000","description":"Static Application Security Testing, or SAST, is a branch of static analysis, dedicated to security","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Static Application Security Testing (SAST).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Static Application Security Testing (SAST)"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Static_application_security_testing)**
 ## See Also
 
@@ -15,20 +15,20 @@ For example, SAST searches for injections, XSS, path traversal, insecure deseria
 
 ## Related
 
-+ [Second Order SQL Injection](second-order-sql-injection.ini.html)
-+ [Remote Code Execution (RCE)](rce.ini.html)
-+ [Static Code Analysis (SCA)](sca.ini.html)
-+ [Cross Site Scripting (XSS)](xss.ini.html)
-+ [Cross Site Request Forgery (CSRF)](csrf.ini.html)
-+ [SQL Injection](sql-injection.ini.html)
-+ [Path Traversal](path-traversal.ini.html)
-+ [Insecure Deserialization](insecure-deserialization.ini.html)
-+ [Weak Cryptography](weak-cryptography.ini.html)
-+ [Missing Validation](missing-validation.ini.html)
-+ [Analysis](analysis.ini.html)
-+ [Control Flow Analysis](control-flow-analysis.ini.html)
-+ [Data Flow Analysis (DFA)](data-flow-analysis.ini.html)
-+ [LDAP Injection](ldap-injection.ini.html)
-+ [Pattern-Based Analysis](pattern-based-analysis.ini.html)
-+ [Semantic Analysis](semantic-analysis.ini.html)
-+ [Symbolic Analysis](symbolic-analysis.ini.html)
++ [Second Order SQL Injection](second-order-sql-injection.html)
++ [Remote Code Execution (RCE)](rce.html)
++ [Static Code Analysis (SCA)](sca.html)
++ [Cross Site Scripting (XSS)](xss.html)
++ [Cross Site Request Forgery (CSRF)](csrf.html)
++ [SQL Injection](sql-injection.html)
++ [Path Traversal](path-traversal.html)
++ [Insecure Deserialization](insecure-deserialization.html)
++ [Weak Cryptography](weak-cryptography.html)
++ [Missing Validation](missing-validation.html)
++ [Analysis](analysis.html)
++ [Control Flow Analysis](control-flow-analysis.html)
++ [Data Flow Analysis (DFA)](data-flow-analysis.html)
++ [LDAP Injection](ldap-injection.html)
++ [Pattern-Based Analysis](pattern-based-analysis.html)
++ [Semantic Analysis](semantic-analysis.html)
++ [Symbolic Analysis](symbolic-analysis.html)

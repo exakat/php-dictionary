@@ -4,7 +4,7 @@ Introspection is the ability to examine the properties and behavior of objects, 
 PHP provides many native introspection functions: ``get_class()``, ``get_object_vars()``, ``get_class_vars()``, ``get_class_methods()``, ``method_exists()``, ``property_exists()``, ``function_exists()``, ``is_a()``, ``instanceof``, and others.
 
 For deeper introspection, the Reflection API provides programmatic access to class hierarchies, method signatures, parameter types, and attributes.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/introspection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/introspection.html","name":"Introspection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:09:23 +0000","dateModified":"Mon, 03 Aug 2026 16:09:23 +0000","description":"Introspection is the ability to examine the properties and behavior of objects, classes, and functions at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Introspection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/introspection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/introspection.html","name":"Introspection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:09:23 +0000","dateModified":"Mon, 03 Aug 2026 16:09:23 +0000","description":"Introspection is the ability to examine the properties and behavior of objects, classes, and functions at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Introspection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Introspection"}]}]}</script>
 ```php
 <?php
 
@@ -30,9 +30,9 @@ For deeper introspection, the Reflection API provides programmatic access to cla
 
 ## Related
 
-+ [Reflection](reflection.ini.html)
-+ [get\_class()](get_class.ini.html)
-+ [get\_class\_vars()](get_class_vars.ini.html)
-+ [get\_object\_vars()](get_object_vars.ini.html)
-+ [class\_implements()](class_implements.ini.html)
-+ [Reflector](reflector.ini.html)
++ [Reflection](reflection.html)
++ [get\_class()](get_class.html)
++ [get\_class\_vars()](get_class_vars.html)
++ [get\_object\_vars()](get_object_vars.html)
++ [class\_implements()](class_implements.html)
++ [Reflector](reflector.html)

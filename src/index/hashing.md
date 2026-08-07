@@ -11,7 +11,7 @@ Hashing serves several distinct purposes applications:
 + Cryptographic fingerprints, with algorithms like the ``SHA`` family, to sign or verify data.
 
 Hashing is one-way: a hash cannot be reversed to recover the original data. This distinguishes it from encryption, which is meant to be decrypted with a key.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hashing.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hashing.html","name":"Hashing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:51:55 +0000","dateModified":"Wed, 15 Jul 2026 13:51:55 +0000","description":"Hashing is the process of running data through a hash function, to produce a fixed-size value called a hash, or digest","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Hashing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hashing.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hashing.html","name":"Hashing","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:51:55 +0000","dateModified":"Wed, 15 Jul 2026 13:51:55 +0000","description":"Hashing is the process of running data through a hash function, to produce a fixed-size value called a hash, or digest","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Hashing.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Hashing"}]}]}</script>
 ```php
 <?php
 
@@ -34,15 +34,15 @@ Hashing is one-way: a hash cannot be reversed to recover the original data. This
 
 ## Related
 
-+ [Hash](hash.ini.html)
-+ [hash() Function](hash-function.ini.html)
-+ [Cryptographic Hash](hash-crypto.ini.html)
-+ [Hash Table](hash-table.ini.html)
-+ [Message Digest](message-digest.ini.html)
-+ [Checksum](checksum.ini.html)
-+ [Cryptography](cryptography.ini.html)
-+ [Password API](password-ext.ini.html)
-+ [Hash Comparisons](hash-comparison.ini.html)
-+ [Crack](crack.ini.html)
-+ [Deterministic](deterministic.ini.html)
-+ [Weak Cryptography](weak-cryptography.ini.html)
++ [Hash](hash.html)
++ [hash() Function](hash-function.html)
++ [Cryptographic Hash](hash-crypto.html)
++ [Hash Table](hash-table.html)
++ [Message Digest](message-digest.html)
++ [Checksum](checksum.html)
++ [Cryptography](cryptography.html)
++ [Password API](password-ext.html)
++ [Hash Comparisons](hash-comparison.html)
++ [Crack](crack.html)
++ [Deterministic](deterministic.html)
++ [Weak Cryptography](weak-cryptography.html)

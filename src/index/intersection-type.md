@@ -8,7 +8,7 @@ Intersection types only accept class and interface types: scalars, ``int``, ``st
 Intersection types work well with polymorphism: an object that implements multiple interfaces satisfies an intersection type naturally.
 
 PHP 8.2 introduced Disjunctive Normal Form, aka DNF, types, which combine intersection and union types, such as ``(A&B)|null``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/intersection-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/intersection-type.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:38:56 +0000","dateModified":"Mon, 20 Jul 2026 08:38:56 +0000","description":"Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/intersection-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/intersection-type.html","name":"Intersection Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:38:56 +0000","dateModified":"Mon, 20 Jul 2026 08:38:56 +0000","description":"Intersection types, also called intersectional types, is a specification syntax where several types act together as a single type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Intersection Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Intersection Type"}]}]}</script>
 ```php
 <?php
 
@@ -28,15 +28,15 @@ PHP 8.2 introduced Disjunctive Normal Form, aka DNF, types, which combine inters
 
 ## Related
 
-+ [Type System](type.ini.html)
-+ [Composite Type](composite-type.ini.html)
-+ [Disjunctive Normal Form (DNF)](dnf-type.ini.html)
-+ [Named Type](named-type.ini.html)
-+ [Relative Types](relative-types.ini.html)
-+ [Property Type Declaration](type-declaration-property.ini.html)
-+ [Union Type](union-type.ini.html)
-+ [Interface](interface.ini.html)
-+ [Polymorphism](polymorphism.ini.html)
-+ [Nullable](nullable.ini.html)
-+ [Return Type](return-type.ini.html)
-+ [TypeError](typeerror.ini.html)
++ [Type System](type.html)
++ [Composite Type](composite-type.html)
++ [Disjunctive Normal Form (DNF)](dnf-type.html)
++ [Named Type](named-type.html)
++ [Relative Types](relative-types.html)
++ [Property Type Declaration](type-declaration-property.html)
++ [Union Type](union-type.html)
++ [Interface](interface.html)
++ [Polymorphism](polymorphism.html)
++ [Nullable](nullable.html)
++ [Return Type](return-type.html)
++ [TypeError](typeerror.html)

@@ -8,7 +8,7 @@ The resulting name does not include the initial ``\``.
 ``::class`` is similar to the ``get_class()`` function, although it is compatible with ``static``, ``self`` or ``parent``.
 
 The notion of special constant is distinct from the magic constants, such as ``__FILE__``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/special-constant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/special-constant.html","name":"Special Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The only special constant is the ``::class`` constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Special Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/special-constant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/special-constant.html","name":"Special Constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"The only special constant is the ``::class`` constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Special Constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Special Constant"}]}]}</script>
 ```php
 <?php
 
@@ -32,7 +32,7 @@ echo $object::class; // similar to get_class($object)
 **[Documentation](https://www.php.net/manual/en/language.oop5.constants.php)**
 ## Related
 
-+ [Fully Qualified Name](fqn.ini.html)
-+ [Static Constant](class-constant.ini.html)
-+ [Magic Constants](magic-constant.ini.html)
-+ [\_\_FILE\_\_](__file__.ini.html)
++ [Fully Qualified Name](fqn.html)
++ [Static Constant](class-constant.html)
++ [Magic Constants](magic-constant.html)
++ [\_\_FILE\_\_](__file__.html)

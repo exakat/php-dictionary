@@ -12,7 +12,7 @@ Common forms of unique identifiers include:
 The choice of identifier affects indexing performance, URL exposure, privacy as auto-increment IDs reveal record counts, and the ability to generate identifiers outside the database.
 
 ``uniqid()`` generates a time-based string, while UUID generation is provided by libraries such as ``ramsey/uuid``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unique-identifier.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unique-identifier.html","name":"Unique Identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:30:41 +0000","dateModified":"Mon, 06 Jul 2026 19:30:41 +0000","description":"A unique identifier is a value that distinguishes one entity from all others within a given scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Unique Identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/unique-identifier.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/unique-identifier.html","name":"Unique Identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:30:41 +0000","dateModified":"Mon, 06 Jul 2026 19:30:41 +0000","description":"A unique identifier is a value that distinguishes one entity from all others within a given scope","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Unique Identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Unique Identifier"}]}]}</script>
 ```php
 <?php
 
@@ -34,15 +34,15 @@ The choice of identifier affects indexing performance, URL exposure, privacy as 
 
 ## Related
 
-+ [Universally Unique IDentifier (UUID)](uuid.ini.html)
-+ [Slug](slug.ini.html)
-+ [Database](database.ini.html)
-+ [Identifier](identifier.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Correlation ID](correlation-id.ini.html)
-+ [Idempotent](idempotent.ini.html)
-+ [Sqids](sqids.ini.html)
-+ [Universally Unique Lexicographically Sortable Identifier (ULID)](ulid.ini.html)
++ [Universally Unique IDentifier (UUID)](uuid.html)
++ [Slug](slug.html)
++ [Database](database.html)
++ [Identifier](identifier.html)
++ [Race Condition](race-condition.html)
++ [Correlation ID](correlation-id.html)
++ [Idempotent](idempotent.html)
++ [Sqids](sqids.html)
++ [Universally Unique Lexicographically Sortable Identifier (ULID)](ulid.html)
 
 ## Related packages
 

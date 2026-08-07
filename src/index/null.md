@@ -4,7 +4,7 @@
 ``null`` may be used as a default value for variables, parameter or properties that are expected to hold some value later but don't have a value assigned initially. It was also be used to unset a variable and free up memory, when using the operator ``(unset)``. 
 
 There is also a design pattern called Null Pattern, although its main goal is to remove usage of null and replace it with an actual object.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/null.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/null.html","name":"Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``null`` is a special data type that represents a variable with no value or an undefined value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/null.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/null.html","name":"Null","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``null`` is a special data type that represents a variable with no value or an undefined value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Null"}]}]}</script>
 ```php
 <?php
 
@@ -27,20 +27,20 @@ There is also a design pattern called Null Pattern, although its main goal is to
 
 ## Related
 
-+ [Nullable](nullable.ini.html)
-+ [Null Pattern](nullpattern.ini.html)
-+ [Authentication](authentication.ini.html)
-+ [Empty](empty.ini.html)
-+ [Overflow](overflow.ini.html)
-+ [Underflow](underflow.ini.html)
-+ [Void](void.ini.html)
-+ [Default Value](default-value.ini.html)
-+ [json\_decode()](json_decode.ini.html)
-+ [Return Value](return-value.ini.html)
-+ [Value](value.ini.html)
-+ [Autovivification](autovivification.ini.html)
-+ [PHP Natives](native-type.ini.html)
-+ [Null Byte](null-byte.ini.html)
-+ [str\_contains()](str_contains.ini.html)
-+ [Existence](existence.ini.html)
-+ [Standalone Types](standalone-type.ini.html)
++ [Nullable](nullable.html)
++ [Null Pattern](nullpattern.html)
++ [Authentication](authentication.html)
++ [Empty](empty.html)
++ [Overflow](overflow.html)
++ [Underflow](underflow.html)
++ [Void](void.html)
++ [Default Value](default-value.html)
++ [json\_decode()](json_decode.html)
++ [Return Value](return-value.html)
++ [Value](value.html)
++ [Autovivification](autovivification.html)
++ [PHP Natives](native-type.html)
++ [Null Byte](null-byte.html)
++ [str\_contains()](str_contains.html)
++ [Existence](existence.html)
++ [Standalone Types](standalone-type.html)

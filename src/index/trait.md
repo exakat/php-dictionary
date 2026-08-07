@@ -3,7 +3,7 @@ Traits are a mechanism for code reuse in single inheritance languages.
 
 Traits define methods and properties. They are included in one or several classes by the use of ``use`` expression.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/trait.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/trait.html","name":"Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 04:37:25 +0000","dateModified":"Mon, 13 Jul 2026 04:37:25 +0000","description":"Traits are a mechanism for code reuse in single inheritance languages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/trait.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/trait.html","name":"Trait","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 04:37:25 +0000","dateModified":"Mon, 13 Jul 2026 04:37:25 +0000","description":"Traits are a mechanism for code reuse in single inheritance languages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Trait"}]}]}</script>
 ```php
 <?php
 
@@ -34,14 +34,14 @@ class x {
 
 ## Related
 
-+ [Class](class.ini.html)
-+ [Class Interface Trait Enumeration (CITE)](cite.ini.html)
-+ [Use](use.ini.html)
-+ [$this]($this.ini.html)
-+ [Const](const.ini.html)
-+ [Constants In Trait](constant-in-trait.ini.html)
-+ [Use In Traits](use-trait.ini.html)
-+ [Method Collision](method-collision.ini.html)
-+ [Method](method.ini.html)
-+ [Method Resolution Order (MRO)](mro.ini.html)
-+ [Polymorphism](polymorphism.ini.html)
++ [Class](class.html)
++ [Class Interface Trait Enumeration (CITE)](cite.html)
++ [Use](use.html)
++ [$this]($this.html)
++ [Const](const.html)
++ [Constants In Trait](constant-in-trait.html)
++ [Use In Traits](use-trait.html)
++ [Method Collision](method-collision.html)
++ [Method](method.html)
++ [Method Resolution Order (MRO)](mro.html)
++ [Polymorphism](polymorphism.html)

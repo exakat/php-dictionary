@@ -6,7 +6,7 @@ It is a weaker guarantee than strong consistency, where all nodes see the same d
 In practice, eventual consistency means a write to one node may not be immediately visible on another. A user updating their profile may see the old value for a few hundred milliseconds while the change propagates to read replicas.
 
 In applications, eventual consistency arises when using: read replicas which write to primary and read from replica, caches which serve stale data after a write, event sourcing where projections lag behind the event store, or microservices communicating via events rather than synchronous API calls.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/eventual-consistency.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/eventual-consistency.html","name":"Eventual Consistency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:03:23 +0000","dateModified":"Tue, 30 Jun 2026 15:03:23 +0000","description":"Eventual consistency is a data consistency model used in distributed systems where replicas of the same data are allowed to diverge temporarily, but are guaranteed to converge to the same value if no new updates are made","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Eventual Consistency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/eventual-consistency.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/eventual-consistency.html","name":"Eventual Consistency","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 15:03:23 +0000","dateModified":"Tue, 30 Jun 2026 15:03:23 +0000","description":"Eventual consistency is a data consistency model used in distributed systems where replicas of the same data are allowed to diverge temporarily, but are guaranteed to converge to the same value if no new updates are made","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Eventual Consistency.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Eventual Consistency"}]}]}</script>
 ```php
 <?php
 
@@ -31,9 +31,9 @@ In applications, eventual consistency arises when using: read replicas which wri
 **[Documentation](https://en.wikipedia.org/wiki/Eventual_consistency)**
 ## Related
 
-+ [Consistency](consistency.ini.html)
-+ [ACID](acid.ini.html)
-+ [Distributed Systems](distributed-systems.ini.html)
-+ [Event Sourcing](event-sourcing.ini.html)
-+ [Distributed Transactions](distributed-transactions.ini.html)
-+ [Cache](cache.ini.html)
++ [Consistency](consistency.html)
++ [ACID](acid.html)
++ [Distributed Systems](distributed-systems.html)
++ [Event Sourcing](event-sourcing.html)
++ [Distributed Transactions](distributed-transactions.html)
++ [Cache](cache.html)

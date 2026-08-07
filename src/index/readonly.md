@@ -4,7 +4,7 @@ A property or a class can be declared readonly, which prevents modification of t
 ``readonly`` also applies inside the ``__clone()`` magic method: cloning doesn't allow for changing a readonly property.
 
 A class may be readonly since version 8.2, making all of of its properties readonly too. The children classes must also be readonly.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/readonly.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/readonly.html","name":"Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:26:32 +0000","dateModified":"Mon, 13 Jul 2026 14:26:32 +0000","description":"A property or a class can be declared readonly, which prevents modification of the property or all properties after initialization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/readonly.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/readonly.html","name":"Readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 14:26:32 +0000","dateModified":"Mon, 13 Jul 2026 14:26:32 +0000","description":"A property or a class can be declared readonly, which prevents modification of the property or all properties after initialization","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Readonly"}]}]}</script>
 ```php
 <?php
 
@@ -36,15 +36,15 @@ A class may be readonly since version 8.2, making all of of its properties reado
 
 ## Related
 
-+ [Class](class.ini.html)
-+ [\_\_clone() Method](__clone.ini.html)
-+ [Properties](property.ini.html)
-+ [Clone](clone.ini.html)
-+ [Property Type Declaration](type-declaration-property.ini.html)
-+ [Var](var.ini.html)
-+ [Writeable](writeable.ini.html)
-+ [Ownership](borrow-checking.ini.html)
-+ [Record Type](record-type.ini.html)
-+ [Struct Type](struct-type.ini.html)
-+ [Type System](type-system.ini.html)
-+ [Modifier](modifier.ini.html)
++ [Class](class.html)
++ [\_\_clone() Method](__clone.html)
++ [Properties](property.html)
++ [Clone](clone.html)
++ [Property Type Declaration](type-declaration-property.html)
++ [Var](var.html)
++ [Writeable](writeable.html)
++ [Ownership](borrow-checking.html)
++ [Record Type](record-type.html)
++ [Struct Type](struct-type.html)
++ [Type System](type-system.html)
++ [Modifier](modifier.html)

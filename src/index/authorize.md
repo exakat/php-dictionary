@@ -5,7 +5,7 @@ To authorize relies on a system of permission and privilege, that represents wha
 
 The authorizations may be local to the current application, or it may be remote, such as an SSO.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/authorize.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/authorize.html","name":"Authorize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:01:53 +0000","dateModified":"Tue, 04 Aug 2026 11:01:53 +0000","description":"To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Authorize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/authorize.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/authorize.html","name":"Authorize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 10:14:33 +0000","dateModified":"Fri, 07 Aug 2026 10:14:33 +0000","description":"To authorize means to give permission or approval for someone to do something, or to officially empower them to take a certain action","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Authorize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Authorize"}]}]}</script>
 ```php
 <?php
 
@@ -19,8 +19,9 @@ The authorizations may be local to the current application, or it may be remote,
 **[Documentation](https://en.wikipedia.org/wiki/Authorization)**
 ## Related
 
-+ [Single Sign On (SSO)](sso.ini.html)
-+ [Role Based Access Control (RBAC)](rbac.ini.html)
-+ [Identification](identification.ini.html)
-+ [Permission](permission.ini.html)
-+ [Access Control List (ACL)](acl.ini.html)
++ [Single Sign On (SSO)](sso.html)
++ [Role Based Access Control (RBAC)](rbac.html)
++ [Identification](identification.html)
++ [Permission](permission.html)
++ [Access Control List (ACL)](acl.html)
++ [Broken Access Control](broken-access-control.html)

@@ -12,7 +12,7 @@ Things that may be double:
 + Double star ``**``, or exponentiation operator
 + Double question mark ``??``, or coalesce operator
 + Double also refers to float or decimal point numbers.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/double.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/double.html","name":"Double","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:31 +0000","dateModified":"Fri, 19 Jun 2026 21:24:31 +0000","description":"Double usually means that something is repeated once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Double.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/double.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/double.html","name":"Double","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:31 +0000","dateModified":"Fri, 19 Jun 2026 21:24:31 +0000","description":"Double usually means that something is repeated once","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Double.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Double"}]}]}</script>
 ```php
 <?php
 
@@ -30,12 +30,12 @@ Things that may be double:
 
 ## Related
 
-+ [Double Quotes Strings](double-quote.ini.html)
-+ [Floating Point Numbers](float.ini.html)
-+ [Single](single.ini.html)
-+ [Triple](triple.ini.html)
-+ [Post-increment](post-increment.ini.html)
-+ [Pre-increment](pre-increment.ini.html)
-+ [Coalesce Operator](coalesce.ini.html)
-+ [Exponent](exponentiation.ini.html)
-+ [Scope Resolution Operator ::](scope-resolution-operator.ini.html)
++ [Double Quotes Strings](double-quote.html)
++ [Floating Point Numbers](float.html)
++ [Single](single.html)
++ [Triple](triple.html)
++ [Post-increment](post-increment.html)
++ [Pre-increment](pre-increment.html)
++ [Coalesce Operator](coalesce.html)
++ [Exponent](exponentiation.html)
++ [Scope Resolution Operator ::](scope-resolution-operator.html)

@@ -2,7 +2,7 @@
 Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling.
 
 They help quickly spot hot paths in code: functions or routines that consume the most CPU or other resources.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/flamegraph.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/flamegraph.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/flamegraph.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/flamegraph.html","name":"Flame Graph","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Flame Graph.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Flame Graph"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Profiling_(computer_programming))**
 ## See Also
 
@@ -14,16 +14,16 @@ They help quickly spot hot paths in code: functions or routines that consume the
 
 ## Related
 
-+ [PHP Profiler](profiler.ini.html)
-+ [Performance](performance.ini.html)
-+ [Monitoring](monitoring.ini.html)
-+ [Benchmarking](benchmarking.ini.html)
-+ [Trace](trace.ini.html)
-+ [Treemap](treemap.ini.html)
-+ [Blackfire](blackfire.ini.html)
-+ [Profiling](profiling.ini.html)
-+ [Tideways](tideways.ini.html)
-+ [XHProf](xhprof.ini.html)
++ [PHP Profiler](profiler.html)
++ [Performance](performance.html)
++ [Monitoring](monitoring.html)
++ [Benchmarking](benchmarking.html)
++ [Trace](trace.html)
++ [Treemap](treemap.html)
++ [Blackfire](blackfire.html)
++ [Profiling](profiling.html)
++ [Tideways](tideways.html)
++ [XHProf](xhprof.html)
 
 ## Related packages
 

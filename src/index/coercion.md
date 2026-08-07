@@ -8,7 +8,7 @@ Not every value can be coerced: an array cannot be coerced to an ``int``, and a 
 Coercion only applies to scalar type declarations. Objects, arrays, and ``callable`` are never coerced: they must already match the declared type, or a ``TypeError`` is raised, regardless of ``strict_types``.
 
 Coercion is a specific case of type juggling, restricted to the boundary of typed declarations, such as parameters, return values and properties.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/coercion.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/coercion.html","name":"Type Coercion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:14:09 +0000","dateModified":"Thu, 16 Jul 2026 14:14:09 +0000","description":"Type coercion is the automatic conversion of a value to match a declared type, when it does not already have that type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Type Coercion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/coercion.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/coercion.html","name":"Type Coercion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:14:09 +0000","dateModified":"Thu, 16 Jul 2026 14:14:09 +0000","description":"Type coercion is the automatic conversion of a value to match a declared type, when it does not already have that type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Type Coercion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Type Coercion"}]}]}</script>
 ```php
 <?php
 
@@ -31,10 +31,10 @@ Coercion is a specific case of type juggling, restricted to the boundary of type
 
 ## Related
 
-+ [strict\_types](strict_types.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
-+ [Cast Operator](cast.ini.html)
-+ [Scalar Types](scalar-type.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [TypeError](typeerror.ini.html)
-+ [Type System](type.ini.html)
++ [strict\_types](strict_types.html)
++ [Type Juggling](type-juggling.html)
++ [Cast Operator](cast.html)
++ [Scalar Types](scalar-type.html)
++ [Type Checking](type-checking.html)
++ [TypeError](typeerror.html)
++ [Type System](type.html)

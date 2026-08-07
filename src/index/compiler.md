@@ -7,15 +7,15 @@ The term compiler can refer to:
 + Tools like kphp or static-php-cli that compile PHP to binary
 + The halt-compiler construct that signals end of PHP code in a file
 + The PHP-Parser library which provides a compiler-like AST transformation.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/compiler.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/compiler.html","name":"Compiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:11:44 +0000","dateModified":"Thu, 16 Jul 2026 08:11:44 +0000","description":"A compiler is a program that translates source code into another form, typically machine code or bytecode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Compiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/compiler.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/compiler.html","name":"Compiler","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:11:44 +0000","dateModified":"Thu, 16 Jul 2026 08:11:44 +0000","description":"A compiler is a program that translates source code into another form, typically machine code or bytecode","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Compiler.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Compiler"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Compiler)**
 ## Related
 
-+ [Compile](compile.ini.html)
-+ [Transpile](transpile.ini.html)
-+ [Ahead Of Time](aot.ini.html)
-+ [Just In Time (JIT)](jit.ini.html)
-+ [Opcode](opcode.ini.html)
-+ [Abstract Syntactic Tree (AST)](ast.ini.html)
-+ [\_\_halt\_compiler()](halt-compiler.ini.html)
-+ [Interpreted](interpreted.ini.html)
++ [Compile](compile.html)
++ [Transpile](transpile.html)
++ [Ahead Of Time](aot.html)
++ [Just In Time (JIT)](jit.html)
++ [Opcode](opcode.html)
++ [Abstract Syntactic Tree (AST)](ast.html)
++ [\_\_halt\_compiler()](halt-compiler.html)
++ [Interpreted](interpreted.html)

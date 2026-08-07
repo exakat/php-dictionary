@@ -1,6 +1,6 @@
 # File System
 A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage. It provides a logical and efficient way to store and retrieve data on these storage media.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/filesystem.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/filesystem.html","name":"File System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/File System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/filesystem.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/filesystem.html","name":"File System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/File System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"File System"}]}]}</script>
 ```php
 <?php
 
@@ -16,12 +16,12 @@ A file system is a method or structure used by operating systems to organize, st
 
 ## Related
 
-+ [File](file.ini.html)
-+ [Dir](dir.ini.html)
-+ [Link](link.ini.html)
-+ [DIRECTORY\_SEPARATOR](directory_separator.ini.html)
-+ [RecursiveDirectoryIterator](recursivedirectoryiterator.ini.html)
-+ [SplFileInfo](splfileinfo.ini.html)
++ [File](file.html)
++ [Dir](dir.html)
++ [Link](link.html)
++ [DIRECTORY\_SEPARATOR](directory_separator.html)
++ [RecursiveDirectoryIterator](recursivedirectoryiterator.html)
++ [SplFileInfo](splfileinfo.html)
 
 ## Related packages
 

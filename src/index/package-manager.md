@@ -6,7 +6,7 @@ In the PHP ecosystem, Composer is the dominant package manager. It resolves depe
 Other ecosystems have their own package managers: npm and Yarn for JavaScript, pip for Python, gem for Ruby, and apt or brew at the OS level. PHP also has PEAR, older, mostly replaced by Composer, and PIE, a modern extension installer.
 
 Package managers bring reproducibility, security auditability, and semantic versioning to dependency management.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/package-manager.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/package-manager.html","name":"Package Manager","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:11:17 +0000","dateModified":"Thu, 09 Jul 2026 09:11:17 +0000","description":"A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Package Manager.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/package-manager.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/package-manager.html","name":"Package Manager","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 09:11:17 +0000","dateModified":"Thu, 09 Jul 2026 09:11:17 +0000","description":"A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Package Manager.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Package Manager"}]}]}</script>
 **[Documentation](https://getcomposer.org/)**
 ## See Also
 
@@ -14,11 +14,11 @@ Package managers bring reproducibility, security auditability, and semantic vers
 
 ## Related
 
-+ [Composer](composer.ini.html)
-+ [Packagist](packagist.ini.html)
-+ [PEAR](pear.ini.html)
-+ [PHP Installer For Extensions (PIE)](pie.ini.html)
-+ [Dependency](dependency.ini.html)
-+ [Supply Chain](supply-chain.ini.html)
-+ [Semantic Versioning](semantic-versioning.ini.html)
-+ [Checksum](checksum.ini.html)
++ [Composer](composer.html)
++ [Packagist](packagist.html)
++ [PEAR](pear.html)
++ [PHP Installer For Extensions (PIE)](pie.html)
++ [Dependency](dependency.html)
++ [Supply Chain](supply-chain.html)
++ [Semantic Versioning](semantic-versioning.html)
++ [Checksum](checksum.html)

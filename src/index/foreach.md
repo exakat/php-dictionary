@@ -14,7 +14,7 @@ The value may be an array, collecting several values at the same time.
 The value may be an ``list()`` construct: it sets several variables at the same time, to be used in the loop block. Any missing value yields a warning. 
 
 ``foreach()`` may also be replaced by array functions, such as ``array_map()``, ``implode()`` or ``array_merge()``, for specific operations. It is usually recommended to use native functions, when available.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/foreach.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/foreach.html","name":"foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:53:43 +0000","dateModified":"Thu, 18 Jun 2026 13:53:43 +0000","description":"``foreach()`` is the most popular type of loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/foreach().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/foreach.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/foreach.html","name":"foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:53:43 +0000","dateModified":"Thu, 18 Jun 2026 13:53:43 +0000","description":"``foreach()`` is the most popular type of loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/foreach().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"foreach()"}]}]}</script>
 ```php
 <?php
 
@@ -49,18 +49,18 @@ The value may be an ``list()`` construct: it sets several variables at the same 
 
 ## Related
 
-+ [Continue](continue.ini.html)
-+ [For](for.ini.html)
-+ [Loops](loop.ini.html)
-+ [While](while.ini.html)
-+ [Do While](do-while.ini.html)
-+ [As](as.ini.html)
-+ [Control Flow](control-flow.ini.html)
-+ [Control Structures](control-structure.ini.html)
-+ [Iterator](iterator.ini.html)
-+ [List](list.ini.html)
-+ [Blind Variable](blind-variable.ini.html)
-+ [Blind Variable](blind-key.ini.html)
-+ [ClosedGeneratorException](closedgeneratorexception.ini.html)
-+ [IteratorAggregate](iteratoraggregate.ini.html)
-+ [Traversal](traversal.ini.html)
++ [Continue](continue.html)
++ [For](for.html)
++ [Loops](loop.html)
++ [While](while.html)
++ [Do While](do-while.html)
++ [As](as.html)
++ [Control Flow](control-flow.html)
++ [Control Structures](control-structure.html)
++ [Iterator](iterator.html)
++ [List](list.html)
++ [Blind Variable](blind-variable.html)
++ [Blind Variable](blind-key.html)
++ [ClosedGeneratorException](closedgeneratorexception.html)
++ [IteratorAggregate](iteratoraggregate.html)
++ [Traversal](traversal.html)

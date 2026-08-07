@@ -6,7 +6,7 @@ PHP uses the ``\r\f`` representation for a new line: it is a combinaison of line
 By convention, PHP files are expected to end on a new line.
 
 It was possible to use new lines within a namespace name, until PHP 8.0. This is not possible anymore.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/new-line.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/new-line.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:40 +0000","dateModified":"Fri, 19 Jun 2026 21:25:40 +0000","description":"A new-line ``\\n`` character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/new-line.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/new-line.html","name":"New Line","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:40 +0000","dateModified":"Fri, 19 Jun 2026 21:25:40 +0000","description":"A new-line ``\\n`` character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/New Line.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"New Line"}]}]}</script>
 ```php
 <?php
 
@@ -23,7 +23,7 @@ another new line\nAnd then another new line" . PHP_EOL
 
 ## Related
 
-+ [Line Feed](line-feed.ini.html)
-+ [Return Carriage](return-carriage.ini.html)
-+ [PHP Constants](php-constant.ini.html)
-+ [Carriage Return](carriage-return.ini.html)
++ [Line Feed](line-feed.html)
++ [Return Carriage](return-carriage.html)
++ [PHP Constants](php-constant.html)
++ [Carriage Return](carriage-return.html)

@@ -4,7 +4,7 @@ An immutable object is an object that can't be changed. It may be created, read 
 Immutable objects are thread-safe. 
 
 Immutable objects often return a clone version of themselves, after modification.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/immutable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/immutable.html","name":"Immutable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:09:13 +0000","dateModified":"Sat, 11 Jul 2026 09:09:13 +0000","description":"An immutable object is an object that can't be changed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Immutable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/immutable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/immutable.html","name":"Immutable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:09:13 +0000","dateModified":"Sat, 11 Jul 2026 09:09:13 +0000","description":"An immutable object is an object that can't be changed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Immutable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Immutable"}]}]}</script>
 ```php
 <?php
 
@@ -36,14 +36,14 @@ Immutable objects often return a clone version of themselves, after modification
 
 ## Related
 
-+ [Clock](clock.ini.html)
-+ [Determinism](determinism.ini.html)
-+ [Snapshot](snapshot.ini.html)
-+ [State](state.ini.html)
-+ [Class Wither Method](wither.ini.html)
-+ [Actor Model](actor-model.ini.html)
-+ [Ownership](borrow-checking.ini.html)
-+ [Linear Type](linear-type.ini.html)
-+ [Phantom Type](phantom-type.ini.html)
-+ [Record Type](record-type.ini.html)
-+ [Value Type](value-type.ini.html)
++ [Clock](clock.html)
++ [Determinism](determinism.html)
++ [Snapshot](snapshot.html)
++ [State](state.html)
++ [Class Wither Method](wither.html)
++ [Actor Model](actor-model.html)
++ [Ownership](borrow-checking.html)
++ [Linear Type](linear-type.html)
++ [Phantom Type](phantom-type.html)
++ [Record Type](record-type.html)
++ [Value Type](value-type.html)

@@ -12,7 +12,7 @@
 A list is also the name given to arrays where the index are the automatic ones. 
 
 ``list()`` is the only expression where successive commas may be used.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/list.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/list.html","name":"List","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:48:29 +0000","dateModified":"Thu, 06 Aug 2026 05:48:29 +0000","description":"``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/List.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/list.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/list.html","name":"List","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:48:29 +0000","dateModified":"Thu, 06 Aug 2026 05:48:29 +0000","description":"``list()`` acts as the contrary to ``array()``: it will break an array into individual elements, and assign them to the arguments of the list","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/List.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"List"}]}]}</script>
 ```php
 <?php
 
@@ -43,16 +43,16 @@ A list is also the name given to arrays where the index are the automatic ones.
 
 ## Related
 
-+ [Array, []](array.ini.html)
-+ [Comma](comma.ini.html)
-+ [Double Arrow](double-arrow.ini.html)
-+ [Square Brackets](square-bracket.ini.html)
-+ [Tree](tree.ini.html)
-+ [foreach()](foreach.ini.html)
-+ [Sequence](sequence.ini.html)
-+ [Swap](swap.ini.html)
-+ [Assignment](assignment.ini.html)
-+ [Multiple Return Values](multiple-return-value.ini.html)
-+ [Structural Pattern Matching](structural-pattern-matching.ini.html)
-+ [Tuple](tuple.ini.html)
-+ [Destructuring](destructuring.ini.html)
++ [Array, []](array.html)
++ [Comma](comma.html)
++ [Double Arrow](double-arrow.html)
++ [Square Brackets](square-bracket.html)
++ [Tree](tree.html)
++ [foreach()](foreach.html)
++ [Sequence](sequence.html)
++ [Swap](swap.html)
++ [Assignment](assignment.html)
++ [Multiple Return Values](multiple-return-value.html)
++ [Structural Pattern Matching](structural-pattern-matching.html)
++ [Tuple](tuple.html)
++ [Destructuring](destructuring.html)

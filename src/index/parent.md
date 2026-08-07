@@ -6,7 +6,7 @@
 ``parent`` is the supertype of the current class. 
 
 In a trait, ``parent`` represents the host class's parent, not the trait own parent. In fact, the trait itself has no parent.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parent.html","name":"parent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parent.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parent.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parent.html","name":"parent","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parent.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"parent"}]}]}</script>
 ```php
 <?php
 
@@ -31,15 +31,15 @@ In a trait, ``parent`` represents the host class's parent, not the trait own par
 
 ## Related
 
-+ [Overwrite](overwrite.ini.html)
-+ [static](static.ini.html)
-+ [Self](self.ini.html)
-+ [Child Class](child-class.ini.html)
-+ [Late Static Binding](late-static-binding.ini.html)
-+ [Language Construct](language-construct.ini.html)
-+ [PHP Natives](native-type.ini.html)
-+ [Relative Types](relative-types.ini.html)
-+ [Special Types](special-typehint.ini.html)
-+ [Base Class](base-class.ini.html)
-+ [Class Hierarchy](class-hierarchy.ini.html)
-+ [Method Resolution Order (MRO)](mro.ini.html)
++ [Overwrite](overwrite.html)
++ [static](static.html)
++ [Self](self.html)
++ [Child Class](child-class.html)
++ [Late Static Binding](late-static-binding.html)
++ [Language Construct](language-construct.html)
++ [PHP Natives](native-type.html)
++ [Relative Types](relative-types.html)
++ [Special Types](special-typehint.html)
++ [Base Class](base-class.html)
++ [Class Hierarchy](class-hierarchy.html)
++ [Method Resolution Order (MRO)](mro.html)

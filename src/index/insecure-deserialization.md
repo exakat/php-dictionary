@@ -6,7 +6,7 @@ The most common vector is the native ``unserialize()`` function. When user-contr
 OWASP lists insecure deserialization as one of the Top 10 web application security risks.
 
 Mitigations include: never deserializing untrusted data with native ``unserialize()``; using safer formats such as JSON; using the ``allowed_classes`` option to whitelist permitted classes; and using HMAC signatures to authenticate serialized payloads.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/insecure-deserialization.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/insecure-deserialization.html","name":"Insecure Deserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:31:41 +0000","dateModified":"Thu, 09 Jul 2026 08:31:41 +0000","description":"Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Insecure Deserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/insecure-deserialization.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/insecure-deserialization.html","name":"Insecure Deserialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:31:41 +0000","dateModified":"Thu, 09 Jul 2026 08:31:41 +0000","description":"Insecure deserialization is a vulnerability that occurs when untrusted data is deserialized without sufficient validation, allowing an attacker to manipulate the serialized object to execute arbitrary code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Insecure Deserialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Insecure Deserialization"}]}]}</script>
 ```php
 <?php
 
@@ -32,14 +32,14 @@ Mitigations include: never deserializing untrusted data with native ``unserializ
 
 ## Related
 
-+ [Serialization](serialization.ini.html)
-+ [Unserialization](unserialize.ini.html)
-+ [Object Injection](object-injection.ini.html)
-+ [\_\_wakeup() Method](__wakeup.ini.html)
-+ [\_\_unserialize() Method](__unserialize.ini.html)
-+ [Attack](attack.ini.html)
-+ [Vulnerability](vulnerability.ini.html)
-+ [OWASP](owasp.ini.html)
-+ [Security](security.ini.html)
-+ [Pop](pop.ini.html)
-+ [Static Application Security Testing (SAST)](sast.ini.html)
++ [Serialization](serialization.html)
++ [Unserialization](unserialize.html)
++ [Object Injection](object-injection.html)
++ [\_\_wakeup() Method](__wakeup.html)
++ [\_\_unserialize() Method](__unserialize.html)
++ [Attack](attack.html)
++ [Vulnerability](vulnerability.html)
++ [OWASP](owasp.html)
++ [Security](security.html)
++ [Pop](pop.html)
++ [Static Application Security Testing (SAST)](sast.html)

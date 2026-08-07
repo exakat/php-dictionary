@@ -16,7 +16,7 @@ This disciplined approach ensures:
 + Confidence to make changes without breaking existing functionality
 
 TDD was popularized by Kent Beck in his book ``Test-Driven Development: By Example`` and is widely adopted in modern software development practices.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/red-green-refactor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/red-green-refactor.html","name":"Red-Green-Refactor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:56:07 +0000","dateModified":"Fri, 24 Jul 2026 15:56:07 +0000","description":"Red-Green-Refactor is the core cycle of Test-Driven Development, TDD, a software development methodology where tests are written before the implementation code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Red-Green-Refactor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/red-green-refactor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/red-green-refactor.html","name":"Red-Green-Refactor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:56:07 +0000","dateModified":"Fri, 24 Jul 2026 15:56:07 +0000","description":"Red-Green-Refactor is the core cycle of Test-Driven Development, TDD, a software development methodology where tests are written before the implementation code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Red-Green-Refactor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Red-Green-Refactor"}]}]}</script>
 ```php
 <?php
 
@@ -53,16 +53,16 @@ TDD was popularized by Kent Beck in his book ``Test-Driven Development: By Examp
 
 ## Related
 
-+ [Test-Driven Development](test-driven-development.ini.html)
-+ [Refactoring](refactoring.ini.html)
-+ [Unit Test](unit-test.ini.html)
-+ [Test](test.ini.html)
-+ [PHPunit](phpunit.ini.html)
-+ [Clean Code](clean-code.ini.html)
-+ [Best Practices](best-practice.ini.html)
-+ [Test Framework](test-framework.ini.html)
-+ [Assertions](assertion.ini.html)
-+ [Test Pyramid](test-pyramid.ini.html)
++ [Test-Driven Development](test-driven-development.html)
++ [Refactoring](refactoring.html)
++ [Unit Test](unit-test.html)
++ [Test](test.html)
++ [PHPunit](phpunit.html)
++ [Clean Code](clean-code.html)
++ [Best Practices](best-practice.html)
++ [Test Framework](test-framework.html)
++ [Assertions](assertion.html)
++ [Test Pyramid](test-pyramid.html)
 
 ## Related packages
 

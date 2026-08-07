@@ -10,7 +10,7 @@ PHP has several conversion systems:
 + Number base conversion, with ``base_convert()`` and ``intval()``.
 
 To convert may also be called cast, encode/decode, escape, crypt/decrypt, hash, sign, etc. depending on the context.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/convert.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/convert.html","name":"Convert","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:18:10 +0000","dateModified":"Wed, 01 Jul 2026 10:18:10 +0000","description":"To convert is to transform a piece of data, from one format to another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Convert.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/convert.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/convert.html","name":"Convert","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:18:10 +0000","dateModified":"Wed, 01 Jul 2026 10:18:10 +0000","description":"To convert is to transform a piece of data, from one format to another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Convert.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Convert"}]}]}</script>
 ```php
 <?php
 
@@ -30,13 +30,13 @@ To convert may also be called cast, encode/decode, escape, crypt/decrypt, hash, 
 **[Documentation](https://en.wikipedia.org/wiki/Data_conversion)**
 ## Related
 
-+ [Cast Operator](cast.ini.html)
-+ [Encode](encode.ini.html)
-+ [Decode](decode.ini.html)
-+ [Escape Data](escape.ini.html)
-+ [To Crypt](crypt.ini.html)
-+ [To Decrypt](decrypt.ini.html)
-+ [Hash](hash.ini.html)
-+ [Sign](sign.ini.html)
-+ [Lossless](lossless.ini.html)
-+ [Lossy](lossy.ini.html)
++ [Cast Operator](cast.html)
++ [Encode](encode.html)
++ [Decode](decode.html)
++ [Escape Data](escape.html)
++ [To Crypt](crypt.html)
++ [To Decrypt](decrypt.html)
++ [Hash](hash.html)
++ [Sign](sign.html)
++ [Lossless](lossless.html)
++ [Lossy](lossy.html)

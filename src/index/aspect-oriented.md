@@ -4,7 +4,7 @@ Aspect-oriented design structures code so that cross-cutting concerns: behaviors
 In applications, common cross-cutting concerns include logging, caching, authorization, validation, and transaction management. They are typically implemented through decorators, middleware chains, event listeners, or AOP frameworks.
 
 The key principle is that business logic classes should remain unaware of these concerns: they are woven in by the surrounding infrastructure rather than being called explicitly. This improves cohesion, reduces duplication, and makes each concern independently testable and replaceable.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/aspect-oriented.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/aspect-oriented.html","name":"Aspect-Oriented","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Aspect-oriented design structures code so that cross-cutting concerns: behaviors that affect multiple classes or layers without belonging to any single one, are isolated into dedicated units called aspects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Aspect-Oriented.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/aspect-oriented.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/aspect-oriented.html","name":"Aspect-Oriented","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Aspect-oriented design structures code so that cross-cutting concerns: behaviors that affect multiple classes or layers without belonging to any single one, are isolated into dedicated units called aspects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Aspect-Oriented.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Aspect-Oriented"}]}]}</script>
 ```php
 <?php
 
@@ -31,13 +31,13 @@ final class LoggingRepository implements UserRepositoryInterface {
 
 ## Related
 
-+ [Aspect Oriented Programming](aspect-programming.ini.html)
-+ [Decorator Pattern](decorator.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
-+ [Proxy](proxy.ini.html)
-+ [Paradigm](paradigm.ini.html)
-+ [Separation Of Concerns](separation-of-concerns.ini.html)
-+ [Decoupling](decoupling.ini.html)
++ [Aspect Oriented Programming](aspect-programming.html)
++ [Decorator Pattern](decorator.html)
++ [Middleware Pattern](middleware.html)
++ [Proxy](proxy.html)
++ [Paradigm](paradigm.html)
++ [Separation Of Concerns](separation-of-concerns.html)
++ [Decoupling](decoupling.html)
 
 ## Related packages
 

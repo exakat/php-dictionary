@@ -2,7 +2,7 @@
 PHP includes a complete object model. Some of its features are: visibility, abstract and final classes and methods, additional magic methods, interfaces, and cloning.
 
 ``object`` is also a PHP type, which represent an object of any class.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/object.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/object.html","name":"Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP includes a complete object model","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/object.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/object.html","name":"Object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP includes a complete object model","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Object"}]}]}</script>
 ```php
 <?php
 
@@ -37,22 +37,22 @@ var_dump($a instanceof object);
 
 ## Related
 
-+ [Visibility](visibility.ini.html)
-+ [Abstract Keyword](abstract.ini.html)
-+ [Final Keyword](final.ini.html)
-+ [Magic Methods](magic-method.ini.html)
-+ [Interface](interface.ini.html)
-+ [Clone](clone.ini.html)
-+ [Type System](type.ini.html)
-+ [Dereferencing](dereferencing.ini.html)
-+ [PHP Natives](native-type.ini.html)
-+ [Pseudo-type](pseudo-type.ini.html)
-+ [Special Types](special-typehint.ini.html)
-+ [Handle](handle.ini.html)
-+ [Identity](identity.ini.html)
-+ [instance](instance.ini.html)
-+ [instanceof](instanceof.ini.html)
-+ [is\_a()](is_a.ini.html)
-+ [SplObjectStorage](splobjectstorage.ini.html)
-+ [SplStorageObjects](splstorageobjects.ini.html)
-+ [State](state.ini.html)
++ [Visibility](visibility.html)
++ [Abstract Keyword](abstract.html)
++ [Final Keyword](final.html)
++ [Magic Methods](magic-method.html)
++ [Interface](interface.html)
++ [Clone](clone.html)
++ [Type System](type.html)
++ [Dereferencing](dereferencing.html)
++ [PHP Natives](native-type.html)
++ [Pseudo-type](pseudo-type.html)
++ [Special Types](special-typehint.html)
++ [Handle](handle.html)
++ [Identity](identity.html)
++ [instance](instance.html)
++ [instanceof](instanceof.html)
++ [is\_a()](is_a.html)
++ [SplObjectStorage](splobjectstorage.html)
++ [SplStorageObjects](splstorageobjects.html)
++ [State](state.html)

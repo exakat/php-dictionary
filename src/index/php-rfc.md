@@ -2,7 +2,7 @@
 PHP evolution is organized by RFC, a Request for comments. They are also called change proposals. 
 
 On the PHP wiki, a section is dedicated to PHP new features: they are presented, then voted upon.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php-rfc.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php-rfc.html","name":"PHP RFC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP evolution is organized by RFC, a Request for comments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/PHP RFC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php-rfc.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php-rfc.html","name":"PHP RFC","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PHP evolution is organized by RFC, a Request for comments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/PHP RFC.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"PHP RFC"}]}]}</script>
 **[Documentation](https://wiki.php.net/rfc)**
 ## See Also
 
@@ -10,8 +10,8 @@ On the PHP wiki, a section is dedicated to PHP new features: they are presented,
 
 ## Related
 
-+ [PHP Engine](engine.ini.html)
-+ [PHP Foundation](php-foundation.ini.html)
-+ [Contribution](contribution.ini.html)
-+ [RFC](rfc.ini.html)
-+ [Request For Change (RFC)](rfchange.ini.html)
++ [PHP Engine](engine.html)
++ [PHP Foundation](php-foundation.html)
++ [Contribution](contribution.html)
++ [RFC](rfc.html)
++ [Request For Change (RFC)](rfchange.html)

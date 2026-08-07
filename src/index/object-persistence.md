@@ -10,7 +10,7 @@ The text representation of the object may then be stored in various medium, such
 It is also possible to achieve object persistence by using a different format, such as json, xml, csv, etc. The whole process works similarly to PHP's own process, though it has to be reconstructed entirely.
 
 Object persistence may save the values of the object's property, such as scalars or arrays; or it may remove data, and reconstruct it later, such as database connections, composed objects or references.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/object-persistence.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/object-persistence.html","name":"Object Persistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:10:56 +0000","dateModified":"Sat, 11 Jul 2026 09:10:56 +0000","description":"Object persistence is the feature that keeps an object available between two different PHP requests, on a web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Object Persistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/object-persistence.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/object-persistence.html","name":"Object Persistence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:10:56 +0000","dateModified":"Sat, 11 Jul 2026 09:10:56 +0000","description":"Object persistence is the feature that keeps an object available between two different PHP requests, on a web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Object Persistence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Object Persistence"}]}]}</script>
 ```php
 <?php
 
@@ -48,6 +48,6 @@ echo $loadedUser->name; // Outputs: Damien
 
 ## Related
 
-+ [Session](session.ini.html)
-+ [Persistence](persistence.ini.html)
-+ [Snapshot](snapshot.ini.html)
++ [Session](session.html)
++ [Persistence](persistence.html)
++ [Snapshot](snapshot.html)

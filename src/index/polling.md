@@ -9,7 +9,7 @@ Polling trades simplicity for efficiency: it is easy to implement but may waste 
 
 Several PHP native functions include polling as a configuration: ``curl_multi_select()``, ``inotify_read()``.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/polling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/polling.html","name":"Polling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:11 +0000","dateModified":"Sat, 11 Jul 2026 09:06:11 +0000","description":"Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Polling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/polling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/polling.html","name":"Polling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 09:06:11 +0000","dateModified":"Sat, 11 Jul 2026 09:06:11 +0000","description":"Polling is a technique where a script repeatedly checks the status of a resource or condition at regular intervals, until a result is available or a timeout is reached","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Polling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Polling"}]}]}</script>
 ```php
 <?php
 
@@ -47,14 +47,14 @@ Several PHP native functions include polling as a configuration: ``curl_multi_se
 
 ## Related
 
-+ [sleep](sleep.ini.html)
-+ [Stream](stream.ini.html)
-+ [Socket](socket.ini.html)
-+ [Event Driven](event-driven.ini.html)
-+ [Blocking Wait](blocking-wait.ini.html)
-+ [Real Time](real-time.ini.html)
-+ [C10K](c10k.ini.html)
-+ [Edge Triggered](edge-triggered.ini.html)
-+ [Fire-and-forget](fire-and-forget.ini.html)
-+ [Non-blocking](non-blocking.ini.html)
-+ [One-shot](one-shot.ini.html)
++ [sleep](sleep.html)
++ [Stream](stream.html)
++ [Socket](socket.html)
++ [Event Driven](event-driven.html)
++ [Blocking Wait](blocking-wait.html)
++ [Real Time](real-time.html)
++ [C10K](c10k.html)
++ [Edge Triggered](edge-triggered.html)
++ [Fire-and-forget](fire-and-forget.html)
++ [Non-blocking](non-blocking.html)
++ [One-shot](one-shot.html)

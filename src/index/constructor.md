@@ -9,7 +9,7 @@ When a class has a parent, with a constructor, and not constructor itself, then 
 
 A constructor may have a visibility, and be not available to the outside. In particular, when creating named constructors, the magic method ``__construct`` is usually made ``private`` and object instantiation happens in a static method of that same class.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/constructor.html","name":"Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:22:31 +0000","dateModified":"Thu, 09 Jul 2026 08:22:31 +0000","description":"The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/constructor.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/constructor.html","name":"Constructor","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:22:31 +0000","dateModified":"Thu, 09 Jul 2026 08:22:31 +0000","description":"The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Constructor.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Constructor"}]}]}</script>
 ```php
 <?php
 
@@ -35,10 +35,10 @@ A constructor may have a visibility, and be not available to the outside. In par
 
 ## Related
 
-+ [Destructor](destructor.ini.html)
-+ [Inheritance](inheritance.ini.html)
-+ [Visibility](visibility.ini.html)
-+ [Named Constructors](named-constructor.ini.html)
-+ [Autowiring](autowiring.ini.html)
-+ [instance](instance.ini.html)
-+ [Promoted Properties](promoted-property.ini.html)
++ [Destructor](destructor.html)
++ [Inheritance](inheritance.html)
++ [Visibility](visibility.html)
++ [Named Constructors](named-constructor.html)
++ [Autowiring](autowiring.html)
++ [instance](instance.html)
++ [Promoted Properties](promoted-property.html)

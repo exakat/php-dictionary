@@ -4,7 +4,7 @@ Autocompletion is an IDE or editor feature that suggests or completes code while
 PHP autocompletion relies on static analysis: type declarations in the source, PHPDoc annotations, and type inference where a type is not explicitly specified by may be guessed with a high level of confidence. Autocompletion relies on a LSP server: ``Language Server Protocol``.
 
 Autocompletion also applies to IDE plugins, framework-specific stubs, and tools like stub files to enable completion for external components.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/autocompletion.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/autocompletion.html","name":"Autocompletion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:50 +0000","dateModified":"Fri, 19 Jun 2026 21:24:50 +0000","description":"Autocompletion is an IDE or editor feature that suggests or completes code while the developer is typing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Autocompletion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/autocompletion.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/autocompletion.html","name":"Autocompletion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:50 +0000","dateModified":"Fri, 19 Jun 2026 21:24:50 +0000","description":"Autocompletion is an IDE or editor feature that suggests or completes code while the developer is typing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Autocompletion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Autocompletion"}]}]}</script>
 ```php
 <?php
 
@@ -28,16 +28,16 @@ Autocompletion also applies to IDE plugins, framework-specific stubs, and tools 
 
 ## Related
 
-+ [Type System](type.ini.html)
-+ [Type System](type-hint.ini.html)
-+ [Type Inference](type-inference.ini.html)
-+ [PHPdoc](phpdoc.ini.html)
-+ [Static Code Analysis (SCA)](sca.ini.html)
-+ [LSP](lsp.ini.html)
-+ [LSP](language-service-protocol.ini.html)
-+ [PHP AI Editor](php-ai-editor.ini.html)
-+ [PHP Editor](php-editor.ini.html)
-+ [Integrated Environment of Development (IDE)](ide.ini.html)
++ [Type System](type.html)
++ [Type System](type-hint.html)
++ [Type Inference](type-inference.html)
++ [PHPdoc](phpdoc.html)
++ [Static Code Analysis (SCA)](sca.html)
++ [LSP](lsp.html)
++ [LSP](language-service-protocol.html)
++ [PHP AI Editor](php-ai-editor.html)
++ [PHP Editor](php-editor.html)
++ [Integrated Environment of Development (IDE)](ide.html)
 
 ## Related packages
 

@@ -7,7 +7,7 @@ Colons are used in a variety of situations:
 + In ``include_path`` and ``open_basedir``, double-colon is used as a separator
 
 The double colon is a distinct operator.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/colon.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/colon.html","name":"Colon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:12 +0000","dateModified":"Fri, 19 Jun 2026 21:26:12 +0000","description":"Colons are used in a variety of situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Colon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/colon.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/colon.html","name":"Colon","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:26:12 +0000","dateModified":"Fri, 19 Jun 2026 21:26:12 +0000","description":"Colons are used in a variety of situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Colon.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Colon"}]}]}</script>
 ```php
 <?php
 
@@ -25,14 +25,14 @@ The double colon is a distinct operator.
 **[Documentation](https://en.wikipedia.org/wiki/Colon_(punctuation))**
 ## Related
 
-+ [Goto](goto.ini.html)
-+ [Goto Labels](label.ini.html)
-+ [Ternary Operator](ternary.ini.html)
-+ [Coalesce Operator](null-ternary.ini.html)
-+ [Coalesce Operator](coalesce.ini.html)
-+ [Named Parameters](named-parameter.ini.html)
-+ [Scope Resolution Operator ::](double-colon.ini.html)
-+ [Separator](separator.ini.html)
-+ [Scope Resolution Operator ::](scope-resolution-operator.ini.html)
-+ [Semicolon ;](semicolon.ini.html)
-+ [Static Class](static-class.ini.html)
++ [Goto](goto.html)
++ [Goto Labels](label.html)
++ [Ternary Operator](ternary.html)
++ [Coalesce Operator](null-ternary.html)
++ [Coalesce Operator](coalesce.html)
++ [Named Parameters](named-parameter.html)
++ [Scope Resolution Operator ::](double-colon.html)
++ [Separator](separator.html)
++ [Scope Resolution Operator ::](scope-resolution-operator.html)
++ [Semicolon ;](semicolon.html)
++ [Static Class](static-class.html)

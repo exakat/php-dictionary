@@ -6,7 +6,7 @@ That value may be typed with a data type. In that case, each call to ``return`` 
 It may also be typed with ``never``, in case the method doesn't return anything. In that case, it would never ends, throw an exception or kill the execution.
 
 A value is returned with the keyword ``return``. When no such command is used, for example when a method doesn't have a return command and reach the end of the method's body, then ``null`` is returned.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/return-value.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/return-value.html","name":"Return Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Return value is the value returned by a method or function call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Return Value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/return-value.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/return-value.html","name":"Return Value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Return value is the value returned by a method or function call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Return Value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Return Value"}]}]}</script>
 ```php
 <?php
 
@@ -32,9 +32,9 @@ function bar() { }
 **[Documentation](https://www.php.net/manual/en/function.include.php)**
 ## Related
 
-+ [Null](null.ini.html)
-+ [Never Type](never.ini.html)
-+ [Void](void.ini.html)
-+ [throw](throw.ini.html)
-+ [Exit](exit.ini.html)
-+ [Infinite Loop](infinite-loop.ini.html)
++ [Null](null.html)
++ [Never Type](never.html)
++ [Void](void.html)
++ [throw](throw.html)
++ [Exit](exit.html)
++ [Infinite Loop](infinite-loop.html)

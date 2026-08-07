@@ -12,7 +12,7 @@ PHP exposes several built-in mechanisms for temporary storage:
 + Sessions: sessions store temporary per-user state across requests, but that state expires once the session is destroyed or times out.
 + Cookies: a cookie without an explicit ``Expires`` or ``Max-Age`` attribute is a session cookie: the browser discards it when the session ends.
 + Cache entries: cached values are temporary by design, governed by a TTL after which they are invalidated and regenerated.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/temporary.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/temporary.html","name":"Temporary","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:16:49 +0000","dateModified":"Mon, 06 Jul 2026 10:16:49 +0000","description":"Temporary describes resources, values, or storage that exist only for a bounded duration and are automatically discarded when that boundary is crossed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Temporary.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/temporary.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/temporary.html","name":"Temporary","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:16:49 +0000","dateModified":"Mon, 06 Jul 2026 10:16:49 +0000","description":"Temporary describes resources, values, or storage that exist only for a bounded duration and are automatically discarded when that boundary is crossed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Temporary.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Temporary"}]}]}</script>
 ```php
 <?php
 
@@ -44,12 +44,12 @@ PHP exposes several built-in mechanisms for temporary storage:
 
 ## Related
 
-+ [php://tmp](php-tmp.ini.html)
-+ [php://memory](php-memory.ini.html)
-+ [SQLite3](sqlite3.ini.html)
-+ [Session](session.ini.html)
-+ [Cookie](cookie.ini.html)
-+ [Cache](cache.ini.html)
-+ [Time To Live (TTL)](ttl.ini.html)
-+ [Variables](variable.ini.html)
-+ [Temporary Expression](temporary-expression.ini.html)
++ [php://tmp](php-tmp.html)
++ [php://memory](php-memory.html)
++ [SQLite3](sqlite3.html)
++ [Session](session.html)
++ [Cookie](cookie.html)
++ [Cache](cache.html)
++ [Time To Live (TTL)](ttl.html)
++ [Variables](variable.html)
++ [Temporary Expression](temporary-expression.html)

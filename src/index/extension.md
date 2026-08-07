@@ -3,7 +3,7 @@ Extensions are a custom way to add features to software. Extension is a very gen
 
 + PHP extensions
 + Extensions, as a concept.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/extension.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/extension.html","name":"Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:14 +0000","dateModified":"Fri, 19 Jun 2026 21:25:14 +0000","description":"Extensions are a custom way to add features to software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/extension.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/extension.html","name":"Extensions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:14 +0000","dateModified":"Fri, 19 Jun 2026 21:25:14 +0000","description":"Extensions are a custom way to add features to software","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Extensions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Extensions"}]}]}</script>
 **[Documentation](https://www.php.net/manual/en/extensions.php)**
 ## See Also
 
@@ -13,16 +13,16 @@ Extensions are a custom way to add features to software. Extension is a very gen
 
 ## Related
 
-+ [Directives](directive.ini.html)
-+ [Library Loading](library-loading.ini.html)
-+ [Module](module.ini.html)
-+ [PHP Extension C Library (PECL)](pecl.ini.html)
-+ [PHP Installer For Extensions (PIE)](pie.ini.html)
-+ [Core](core.ini.html)
-+ [Dynamic Loading](dynamic-loading.ini.html)
-+ [Embed](embed.ini.html)
-+ [Foreign Function Interface (FFI)](ffi.ini.html)
-+ [Readline](readline.ini.html)
-+ [filter](filter.ini.html)
-+ [gettext Extension](gettext.ini.html)
-+ [mysqli](mysqli.ini.html)
++ [Directives](directive.html)
++ [Library Loading](library-loading.html)
++ [Module](module.html)
++ [PHP Extension C Library (PECL)](pecl.html)
++ [PHP Installer For Extensions (PIE)](pie.html)
++ [Core](core.html)
++ [Dynamic Loading](dynamic-loading.html)
++ [Embed](embed.html)
++ [Foreign Function Interface (FFI)](ffi.html)
++ [Readline](readline.html)
++ [filter](filter.html)
++ [gettext Extension](gettext.html)
++ [mysqli](mysqli.html)

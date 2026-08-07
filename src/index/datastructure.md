@@ -4,7 +4,7 @@ A data structure is a way of organizing and storing data in memory to enable eff
 For more specialized needs, the spl and ds extensions offers types beyond the default PHP ones.
 
 Choosing the right data structure has a direct impact on algorithmic complexity and memory usage.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/datastructure.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/datastructure.html","name":"Data Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A data structure is a way of organizing and storing data in memory to enable efficient access and modification","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Data Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/datastructure.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/datastructure.html","name":"Data Structure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A data structure is a way of organizing and storing data in memory to enable efficient access and modification","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Data Structure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Data Structure"}]}]}</script>
 ```php
 <?php
 
@@ -28,25 +28,25 @@ Choosing the right data structure has a direct impact on algorithmic complexity 
 
 ## Related
 
-+ [Array, []](array.ini.html)
-+ [Data Structure](ds.ini.html)
-+ [Standard PHP Library (SPL)](spl.ini.html)
-+ [Collection](collection.ini.html)
-+ [Deque](deque.ini.html)
-+ [SplStack](splstack.ini.html)
-+ [Map](map.ini.html)
-+ [Tree](tree.ini.html)
-+ [Queue](queue.ini.html)
-+ [Algorithmic Complexity](algorithmic-complexity.ini.html)
-+ [Big-o-notation](big-o-notation.ini.html)
-+ [Bucket](bucket.ini.html)
-+ [Handle](handle.ini.html)
-+ [Pair](pair.ini.html)
-+ [Pop](pop.ini.html)
-+ [Sequence](sequence.ini.html)
-+ [Set](set.ini.html)
-+ [SplDoublyLinkedList](spldoublylinkedlist.ini.html)
-+ [SplObjectStorage](splobjectstorage.ini.html)
++ [Array, []](array.html)
++ [Data Structure](ds.html)
++ [Standard PHP Library (SPL)](spl.html)
++ [Collection](collection.html)
++ [Deque](deque.html)
++ [SplStack](splstack.html)
++ [Map](map.html)
++ [Tree](tree.html)
++ [Queue](queue.html)
++ [Algorithmic Complexity](algorithmic-complexity.html)
++ [Big-o-notation](big-o-notation.html)
++ [Bucket](bucket.html)
++ [Handle](handle.html)
++ [Pair](pair.html)
++ [Pop](pop.html)
++ [Sequence](sequence.html)
++ [Set](set.html)
++ [SplDoublyLinkedList](spldoublylinkedlist.html)
++ [SplObjectStorage](splobjectstorage.html)
 
 ## Related packages
 

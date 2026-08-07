@@ -16,7 +16,7 @@ In a trait, ``$this`` refers to the object of the class that uses the trait, not
 ``$this`` may use the array syntax, if the underlying class supports the ``ArrayAccess`` interface.
 
 There is no special variable called ``$that``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/%24this.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/%24this.html","name":"$this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 14:49:45 +0000","dateModified":"Fri, 10 Jul 2026 14:49:45 +0000","description":"``$this`` is a variable that represents the current object instance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/$this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/%24this.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/%24this.html","name":"$this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 14:49:45 +0000","dateModified":"Fri, 10 Jul 2026 14:49:45 +0000","description":"``$this`` is a variable that represents the current object instance","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/$this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"$this"}]}]}</script>
 ```php
 <?php
 
@@ -39,13 +39,13 @@ There is no special variable called ``$that``.
 
 ## Related
 
-+ [Class](class.ini.html)
-+ [Trait](trait.ini.html)
-+ [$php\_errormsg]($php_errormsg.ini.html)
-+ [Arrow Functions](arrow-function.ini.html)
-+ [get\_class()](get_class.ini.html)
-+ [Closure](closure.ini.html)
-+ [Closure Binding](closure-binding.ini.html)
-+ [Static Method](static-method.ini.html)
-+ [Scope Resolution Operator ::](scope-resolution-operator.ini.html)
-+ [Pseudo-variable](pseudo-variable.ini.html)
++ [Class](class.html)
++ [Trait](trait.html)
++ [$php\_errormsg]($php_errormsg.html)
++ [Arrow Functions](arrow-function.html)
++ [get\_class()](get_class.html)
++ [Closure](closure.html)
++ [Closure Binding](closure-binding.html)
++ [Static Method](static-method.html)
++ [Scope Resolution Operator ::](scope-resolution-operator.html)
++ [Pseudo-variable](pseudo-variable.html)

@@ -14,7 +14,7 @@ Those constants are magic, because they have a constant syntax, yet their value 
 + __PROPERTY__ The name of the current property hook.
 
 Those constants are case insensitive. While the common convention is to use them all in uppercase, all the following syntaxes work: ``__METHOD__``, ``__method__``, ``__meTHod__``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/magic-constant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/magic-constant.html","name":"Magic Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Constants which hold information about the current location of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Magic Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/magic-constant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/magic-constant.html","name":"Magic Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Constants which hold information about the current location of the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Magic Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Magic Constants"}]}]}</script>
 ```php
 <?php
 
@@ -34,18 +34,18 @@ function goo() {
 **[Documentation](https://www.php.net/manual/en/language.constants.magic.php)**
 ## Related
 
-+ [Magic](magic.ini.html)
-+ [Magic Property](magic-property.ini.html)
-+ [Magic Methods](magic-method.ini.html)
-+ [\_\_CLASS\_\_](__class__.ini.html)
-+ [\_\_FUNCTION\_\_](__function__.ini.html)
-+ [\_\_METHOD\_\_](__method__.ini.html)
-+ [Property Hook](property-hook.ini.html)
-+ [\_\_get() Method](__get.ini.html)
-+ [\_\_set() Method](__set.ini.html)
-+ [Special Constant](special-constant.ini.html)
-+ [\_\_FILE\_\_](__file__.ini.html)
-+ [\_\_LINE\_\_](__line__.ini.html)
-+ [\_\_unset() Method](__unset.ini.html)
-+ [Constant Case](constant-case.ini.html)
-+ [Automagic](automagic.ini.html)
++ [Magic](magic.html)
++ [Magic Property](magic-property.html)
++ [Magic Methods](magic-method.html)
++ [\_\_CLASS\_\_](__class__.html)
++ [\_\_FUNCTION\_\_](__function__.html)
++ [\_\_METHOD\_\_](__method__.html)
++ [Property Hook](property-hook.html)
++ [\_\_get() Method](__get.html)
++ [\_\_set() Method](__set.html)
++ [Special Constant](special-constant.html)
++ [\_\_FILE\_\_](__file__.html)
++ [\_\_LINE\_\_](__line__.html)
++ [\_\_unset() Method](__unset.html)
++ [Constant Case](constant-case.html)
++ [Automagic](automagic.html)

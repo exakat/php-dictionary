@@ -4,7 +4,7 @@
 ``is_numeric()`` is deliberately more permissive than ``is_int()`` or ``is_float()``: it accepts leading whitespace, scientific notation, and numeric strings, which makes it well suited to validating raw input from ``$_GET``, ``$_POST``, or a CSV file, where numbers always arrive as strings. It does not, however, confirm the actual internal type, so code that also needs to know whether a value is already an ``int`` versus a numeric ``string`` should combine it with ``is_int()`` or a cast.
 
 Since PHP 8.0, leading numeric strings that also contain trailing non-numeric characters, such as ``"123abc"``, are treated differently from earlier versions: ``is_numeric()`` still returns ``false`` for them, only fully numeric strings qualify.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_numeric.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_numeric.html","name":"is_numeric()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:13:59 +0000","dateModified":"Wed, 05 Aug 2026 08:13:59 +0000","description":"``is_numeric()`` is a PHP native function that checks whether a variable is a number or a numeric string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_numeric().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_numeric.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_numeric.html","name":"is_numeric()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:13:59 +0000","dateModified":"Wed, 05 Aug 2026 08:13:59 +0000","description":"``is_numeric()`` is a PHP native function that checks whether a variable is a number or a numeric string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_numeric().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"is_numeric()"}]}]}</script>
 ```php
 <?php
 
@@ -28,10 +28,10 @@ Since PHP 8.0, leading numeric strings that also contain trailing non-numeric ch
 
 ## Related
 
-+ [is\_int()](is_int.ini.html)
-+ [is\_float()](is_float.ini.html)
-+ [is\_string()](is_string.ini.html)
-+ [Numeric String](numeric-string.ini.html)
-+ [Leading Numeric String](leading-numeric-string.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
-+ [Validation](validation.ini.html)
++ [is\_int()](is_int.html)
++ [is\_float()](is_float.html)
++ [is\_string()](is_string.html)
++ [Numeric String](numeric-string.html)
++ [Leading Numeric String](leading-numeric-string.html)
++ [Type Juggling](type-juggling.html)
++ [Validation](validation.html)

@@ -6,7 +6,7 @@ An optional second parameter accepts a ``PHP_URL_*`` constant to return a single
 ``parse_url()`` is deliberately lenient: it does not validate that the URL is well-formed or reachable. It only splits the string according to RFC 3986 syntax. Providing a relative URL or a partial URL will return only the components that are present.
 
 For validation, combine ``parse_url()`` with ``filter_var($url, FILTER_VALIDATE_URL)``. For building URLs, use ``http_build_query()`` for the query string part.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parse_url.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parse_url.html","name":"parse_url()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``parse_url()`` parses a URL string and returns its components as an associative array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/parse_url().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parse_url.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parse_url.html","name":"parse_url()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``parse_url()`` parses a URL string and returns its components as an associative array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/parse_url().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"parse_url()"}]}]}</script>
 ```php
 <?php
 
@@ -41,11 +41,11 @@ $host = parse_url($url, PHP_URL_HOST); // 'example.com'
 
 ## Related
 
-+ [Universal Resource Locator (URL)](url.ini.html)
-+ [Hyper Text Transfer Protocol (HTTP)](http.ini.html)
-+ [Parse](parse.ini.html)
-+ [parse\_str()](parse_str.ini.html)
-+ [http\_build\_query()](http_build_query.ini.html)
-+ [Universal Resource Identifier (URI)](uri.ini.html)
-+ [Validation](validation.ini.html)
-+ [Anchor](anchor.ini.html)
++ [Universal Resource Locator (URL)](url.html)
++ [Hyper Text Transfer Protocol (HTTP)](http.html)
++ [Parse](parse.html)
++ [parse\_str()](parse_str.html)
++ [http\_build\_query()](http_build_query.html)
++ [Universal Resource Identifier (URI)](uri.html)
++ [Validation](validation.html)
++ [Anchor](anchor.html)

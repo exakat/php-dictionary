@@ -2,7 +2,7 @@
 Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed. These variables are part of the operating system's environment and can be used to retrieve information about the server, the operating system, or custom configuration parameters that are set for a particular application. PHP provides a way to access these variables through the ``$_ENV`` superglobal array.
 
 The environment variables are set in the operating system before the execution of the script, using commands such as ``export``, ``setenv``, or else, depending on the OS. They may also be provided at the start of containerized images.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/environment.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/environment.html","name":"Environment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:41:28 +0000","dateModified":"Wed, 24 Jun 2026 05:41:28 +0000","description":"Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Environment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/environment.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/environment.html","name":"Environment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Jun 2026 05:41:28 +0000","dateModified":"Wed, 24 Jun 2026 05:41:28 +0000","description":"Environment variables are a way to store and access configuration information or settings related to the runtime environment in which a PHP script is executed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Environment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Environment"}]}]}</script>
 ```php
 <?php
 
@@ -26,8 +26,8 @@ The environment variables are set in the operating system before the execution o
 
 ## Related
 
-+ [\\.env File](env-file.ini.html)
-+ [Deployment](deploy.ini.html)
-+ [display\_errors](display_errors.ini.html)
-+ [Production](production.ini.html)
-+ [Secret](secret.ini.html)
++ [\\.env File](env-file.html)
++ [Deployment](deploy.html)
++ [display\_errors](display_errors.html)
++ [Production](production.html)
++ [Secret](secret.html)

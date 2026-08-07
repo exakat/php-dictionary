@@ -23,7 +23,7 @@ PHP offers several testing framework, such as ``PHPunit``, ``pest``, ``pint``, `
 
 Tests are often further automated in a Continuous Integration Pipeline.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/test.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/test.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 05:50:53 +0000","dateModified":"Tue, 04 Aug 2026 05:50:53 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/test.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/test.html","name":"Test","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 05:50:53 +0000","dateModified":"Tue, 04 Aug 2026 05:50:53 +0000","description":"Tests are tools that monitor the behavior of a code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Test.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Test"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Software_testing)**
 ## See Also
 
@@ -33,30 +33,30 @@ Tests are often further automated in a Continuous Integration Pipeline.
 
 ## Related
 
-+ [Feature Testing](feature-testing.ini.html)
-+ [Code Coverage](code-coverage.ini.html)
-+ [Integration Test](integration-test.ini.html)
-+ [Unit Test](unit-test.ini.html)
-+ [End To End Test](end-to-end-test.ini.html)
-+ [PHPunit](phpunit.ini.html)
-+ [Quality](quality.ini.html)
-+ [Refactoring](refactoring.ini.html)
-+ [Clock](clock.ini.html)
-+ [Faker](faker.ini.html)
-+ [Snapshot](snapshot.ini.html)
-+ [Test Pyramid](test-pyramid.ini.html)
-+ [DevOps](devops.ini.html)
-+ [Edge Case](edge-case.ini.html)
-+ [Continuous Integration (CI)](ci.ini.html)
-+ [Continuous Delivery (CD)](cd.ini.html)
-+ [Fuzzing](fuzzing.ini.html)
-+ [Property-Based Testing](property-based-testing.ini.html)
-+ [Mutation Testing](mutation-test.ini.html)
-+ [Test Framework](test-framework.ini.html)
-+ [Build](build.ini.html)
-+ [Continuous Integration](continuous-integration.ini.html)
-+ [Continuous Integration](CI.ini.html)
-+ [Regression](regression.ini.html)
-+ [Reliability](reliability.ini.html)
-+ [Test-Driven Development](test-driven-development.ini.html)
-+ [Test Impact Analysis](test-impact-analysis.ini.html)
++ [Feature Testing](feature-testing.html)
++ [Code Coverage](code-coverage.html)
++ [Integration Test](integration-test.html)
++ [Unit Test](unit-test.html)
++ [End To End Test](end-to-end-test.html)
++ [PHPunit](phpunit.html)
++ [Quality](quality.html)
++ [Refactoring](refactoring.html)
++ [Clock](clock.html)
++ [Faker](faker.html)
++ [Snapshot](snapshot.html)
++ [Test Pyramid](test-pyramid.html)
++ [DevOps](devops.html)
++ [Edge Case](edge-case.html)
++ [Continuous Integration (CI)](ci.html)
++ [Continuous Delivery (CD)](cd.html)
++ [Fuzzing](fuzzing.html)
++ [Property-Based Testing](property-based-testing.html)
++ [Mutation Testing](mutation-test.html)
++ [Test Framework](test-framework.html)
++ [Build](build.html)
++ [Continuous Integration](continuous-integration.html)
++ [Continuous Integration](CI.html)
++ [Regression](regression.html)
++ [Reliability](reliability.html)
++ [Test-Driven Development](test-driven-development.html)
++ [Test Impact Analysis](test-impact-analysis.html)

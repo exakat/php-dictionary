@@ -2,7 +2,7 @@
 A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state.
 
 Bitfields are stored as integers. They may be specified with the binary integer notation, which makes the individual bits visible.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/bitfield.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/bitfield.html","name":"Bitfield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Bitfield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/bitfield.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/bitfield.html","name":"Bitfield","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A bitfield is a data structure that packs multiple related boolean flags or small integers into a single integer or sequence of bits, where each bit or group of bits represents a distinct value or state","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Bitfield.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Bitfield"}]}]}</script>
 ```php
 <?php
 
@@ -18,10 +18,10 @@ Bitfields are stored as integers. They may be specified with the binary integer 
 
 ## Related
 
-+ [Bitmask](bitmask.ini.html)
-+ [Bitwise Operators](bitwise-operator.ini.html)
-+ [Constant Combination](constant-combinaison.ini.html)
-+ [integer](integer.ini.html)
++ [Bitmask](bitmask.html)
++ [Bitwise Operators](bitwise-operator.html)
++ [Constant Combination](constant-combinaison.html)
++ [integer](integer.html)
 
 ## Related packages
 

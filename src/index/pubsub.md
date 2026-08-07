@@ -10,7 +10,7 @@ Pub/Sub can be implemented:
 + Via Server-Sent Events, SSE or WebSockets:  for real-time browser notifications.
 
 pubsub differs from a message queue in that a queue typically delivers each message to a single consumer, while pubsub delivers to all active subscribers.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pubsub.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pubsub.html","name":"Pub\/Sub","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:56 +0000","dateModified":"Mon, 13 Jul 2026 18:47:56 +0000","description":"Publish\/Subscribe, or pubsub for short, is a messaging pattern in which message producers, the publishers, send messages to named channels or topics without knowing who will receive them, and message consumers, the subscribers, register interest in topics and receive only the messages published to those topics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Pub\/Sub.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pubsub.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pubsub.html","name":"Pub\/Sub","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:47:56 +0000","dateModified":"Mon, 13 Jul 2026 18:47:56 +0000","description":"Publish\/Subscribe, or pubsub for short, is a messaging pattern in which message producers, the publishers, send messages to named channels or topics without knowing who will receive them, and message consumers, the subscribers, register interest in topics and receive only the messages published to those topics","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Pub\/Sub.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Pub\/Sub"}]}]}</script>
 ```php
 <?php
 
@@ -51,17 +51,17 @@ final class SendOrderConfirmationListener
 
 ## Related
 
-+ [Message Bus](message-bus.ini.html)
-+ [Message Queue](message-queue.ini.html)
-+ [Event Driven](event-driven.ini.html)
-+ [Listener](listener.ini.html)
-+ [Observer Design Pattern](observer.ini.html)
-+ [Decoupling](decoupling.ini.html)
-+ [Server Sent Event (SSE)](sse.ini.html)
-+ [Websocket](websocket.ini.html)
-+ [Change Data Capture](change-data-capture.ini.html)
-+ [Event Streaming](event-streaming.ini.html)
-+ [Request-Response](request-response.ini.html)
++ [Message Bus](message-bus.html)
++ [Message Queue](message-queue.html)
++ [Event Driven](event-driven.html)
++ [Listener](listener.html)
++ [Observer Design Pattern](observer.html)
++ [Decoupling](decoupling.html)
++ [Server Sent Event (SSE)](sse.html)
++ [Websocket](websocket.html)
++ [Change Data Capture](change-data-capture.html)
++ [Event Streaming](event-streaming.html)
++ [Request-Response](request-response.html)
 
 ## Related packages
 

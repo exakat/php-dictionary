@@ -12,7 +12,7 @@ Debugging uses various tools of analysis:
 + Debuggers, such as ``xdebug``, ``php debugger``, ``php-dbg``.
 
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/debug.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/debug.html","name":"Debug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:25:27 +0000","dateModified":"Mon, 20 Jul 2026 08:25:27 +0000","description":"Debugging is the action to diagnostic a bug, find its root cause, quick workaround and definitive fix for it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Debug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/debug.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/debug.html","name":"Debug","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:25:27 +0000","dateModified":"Mon, 20 Jul 2026 08:25:27 +0000","description":"Debugging is the action to diagnostic a bug, find its root cause, quick workaround and definitive fix for it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Debug.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Debug"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Debugging)**
 ## See Also
 
@@ -23,9 +23,9 @@ Debugging uses various tools of analysis:
 
 ## Related
 
-+ [Debugger](debugger.ini.html)
-+ [Integrated Environment of Development (IDE)](ide.ini.html)
-+ [Xdebug](xdebug.ini.html)
-+ [Callstack](callstack.ini.html)
-+ [html\_errors](html_errors.ini.html)
-+ [Troubleshoot](troubleshoot.ini.html)
++ [Debugger](debugger.html)
++ [Integrated Environment of Development (IDE)](ide.html)
++ [Xdebug](xdebug.html)
++ [Callstack](callstack.html)
++ [html\_errors](html_errors.html)
++ [Troubleshoot](troubleshoot.html)

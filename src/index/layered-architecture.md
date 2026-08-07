@@ -6,7 +6,7 @@ The Presentation layer handles user interaction and HTTP concerns, with controll
 Layered architecture is the implicit structure of most MVC frameworks: controllers belong to the presentation layer, services to the business logic layer, and repositories to the data access layer.
 
 The main risk is layer bleeding: business logic leaking into controllers, aka fat controller, or SQL queries scattered through the business layer. The anemic domain model anti-pattern often accompanies layered architecture when domain logic is spread across service classes rather than entities.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/layered-architecture.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/layered-architecture.html","name":"Layered Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:09:15 +0000","dateModified":"Tue, 07 Jul 2026 05:09:15 +0000","description":"Layered architecture organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Layered Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html","name":"Layered Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:09:15 +0000","dateModified":"Tue, 07 Jul 2026 05:09:15 +0000","description":"Layered architecture organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Layered Architecture.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Layered Architecture"}]}]}</script>
 ```php
 <?php
 
@@ -45,10 +45,10 @@ class OrderRepository {
 **[Documentation](https://en.wikipedia.org/wiki/Multitier_architecture)**
 ## Related
 
-+ [Hexagonal Architecture](hexagonal.ini.html)
-+ [Clean Architecture](clean-architecture.ini.html)
-+ [Model - View - Controller (MVC)](mvc.ini.html)
-+ [Separation Of Concerns](separation-of-concerns.ini.html)
-+ [Business Logic](business-logic.ini.html)
-+ [Anemic Domain Model](anemic-domain-model.ini.html)
-+ [Fat Controller](fat-controller.ini.html)
++ [Hexagonal Architecture](hexagonal.html)
++ [Clean Architecture](clean-architecture.html)
++ [Model - View - Controller (MVC)](mvc.html)
++ [Separation Of Concerns](separation-of-concerns.html)
++ [Business Logic](business-logic.html)
++ [Anemic Domain Model](anemic-domain-model.html)
++ [Fat Controller](fat-controller.html)

@@ -16,7 +16,7 @@ PHP has accumulated a fair number of footguns over the years, among them:
 + ``array_merge()`` versus the ``+`` operator on arrays, which handle numeric keys and duplicate keys very differently
 
 Static analysis tools like Exakat can flag most of these footguns automatically, before they misfire in production.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/footgun.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/footgun.html","name":"Footgun","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 10:04:48 +0000","dateModified":"Mon, 13 Jul 2026 10:04:48 +0000","description":"A footgun is a feature or a piece of code that makes it easy to unintentionally shoot oneself in the foot: it works as documented, yet its default behavior, its naming, or its side effects are so counter-intuitive that developers routinely misuse it and cause bugs, security holes, or data loss","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Footgun.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/footgun.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/footgun.html","name":"Footgun","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 10:04:48 +0000","dateModified":"Mon, 13 Jul 2026 10:04:48 +0000","description":"A footgun is a feature or a piece of code that makes it easy to unintentionally shoot oneself in the foot: it works as documented, yet its default behavior, its naming, or its side effects are so counter-intuitive that developers routinely misuse it and cause bugs, security holes, or data loss","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Footgun.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Footgun"}]}]}</script>
 ```php
 <?php
 
@@ -44,13 +44,13 @@ Static analysis tools like Exakat can flag most of these footguns automatically,
 
 ## Related
 
-+ [Eval()](eval.ini.html)
-+ [extract()](extract.ini.html)
-+ [Error Suppression](error-suppression.ini.html)
-+ [Variable Variables](variable-variable.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
-+ [References](reference.ini.html)
-+ [Code Injection](code-injection.ini.html)
-+ [Anti-Pattern](anti-pattern.ini.html)
-+ [Code Smell](code-smell.ini.html)
-+ [Unserialization](unserialize.ini.html)
++ [Eval()](eval.html)
++ [extract()](extract.html)
++ [Error Suppression](error-suppression.html)
++ [Variable Variables](variable-variable.html)
++ [Type Juggling](type-juggling.html)
++ [References](reference.html)
++ [Code Injection](code-injection.html)
++ [Anti-Pattern](anti-pattern.html)
++ [Code Smell](code-smell.html)
++ [Unserialization](unserialize.html)

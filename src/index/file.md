@@ -8,7 +8,7 @@ A file consists of two main components: the file name and the file content. The 
 A file is a resource for recording data on a computer storage device, such as a hard drive or memory.
 
 ``file://`` is also the name of a wrapper, for stream.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/file.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/file.html","name":"File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:36:48 +0000","dateModified":"Thu, 16 Jul 2026 04:36:48 +0000","description":"A file is a named collection of data or information that is stored and organized on a computer's storage system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/file.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/file.html","name":"File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 04:36:48 +0000","dateModified":"Thu, 16 Jul 2026 04:36:48 +0000","description":"A file is a named collection of data or information that is stored and organized on a computer's storage system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"File"}]}]}</script>
 ```php
 <?php
 
@@ -24,29 +24,29 @@ A file is a resource for recording data on a computer storage device, such as a 
 
 ## Related
 
-+ [file://](wrapper-file.ini.html)
-+ [File System](filesystem.ini.html)
-+ [Universal Resource Locator (URL)](url.ini.html)
-+ [Universal Resource Identifier (URI)](uri.ini.html)
-+ [Stream](stream.ini.html)
-+ [Dir](dir.ini.html)
-+ [File Extension](file-extension.ini.html)
-+ [Magic Bytes](magic-byte.ini.html)
-+ [Path](path.ini.html)
-+ [zlib extension](zlib.ini.html)
-+ [Configuration](configuration.ini.html)
-+ [Existence](existence.ini.html)
-+ [fopen()](fopen.ini.html)
-+ [Permission](permission.ini.html)
-+ [include](include.ini.html)
-+ [SplFileInfo](splfileinfo.ini.html)
-+ [SplFileObject](splfileobject.ini.html)
-+ [EXIF (Exchangeable Image File Format)](exif.ini.html)
-+ [fread()](fread.ini.html)
-+ [fseek()](fseek.ini.html)
-+ [ftell()](ftell.ini.html)
-+ [rewind()](rewind.ini.html)
-+ [fclose()](fclose.ini.html)
-+ [fgetc()](fgetc.ini.html)
-+ [fgets()](fgets.ini.html)
-+ [fwrite()](fwrite.ini.html)
++ [file://](wrapper-file.html)
++ [File System](filesystem.html)
++ [Universal Resource Locator (URL)](url.html)
++ [Universal Resource Identifier (URI)](uri.html)
++ [Stream](stream.html)
++ [Dir](dir.html)
++ [File Extension](file-extension.html)
++ [Magic Bytes](magic-byte.html)
++ [Path](path.html)
++ [zlib extension](zlib.html)
++ [Configuration](configuration.html)
++ [Existence](existence.html)
++ [fopen()](fopen.html)
++ [Permission](permission.html)
++ [include](include.html)
++ [SplFileInfo](splfileinfo.html)
++ [SplFileObject](splfileobject.html)
++ [EXIF (Exchangeable Image File Format)](exif.html)
++ [fread()](fread.html)
++ [fseek()](fseek.html)
++ [ftell()](ftell.html)
++ [rewind()](rewind.html)
++ [fclose()](fclose.html)
++ [fgetc()](fgetc.html)
++ [fgets()](fgets.html)
++ [fwrite()](fwrite.html)

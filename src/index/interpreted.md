@@ -8,7 +8,7 @@ On the other hand, compiled languages take more time to review the code at compi
 PHP is known to be an interpreted language. This is not strictly the case, as PHP make keep the code compiled in bytecode, or use JIT to compile the frequent code faster. 
 
 There are also tools to compile PHP directly to binary code for compiled execution.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/interpreted.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/interpreted.html","name":"Interpreted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 16:42:03 +0000","dateModified":"Mon, 20 Jul 2026 16:42:03 +0000","description":"An interpreted language is a programming language in which the source code is executed line by line by another program called an interpreter, rather than being converted directly into machine code by a compiler","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Interpreted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/interpreted.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/interpreted.html","name":"Interpreted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 16:42:03 +0000","dateModified":"Mon, 20 Jul 2026 16:42:03 +0000","description":"An interpreted language is a programming language in which the source code is executed line by line by another program called an interpreter, rather than being converted directly into machine code by a compiler","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Interpreted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Interpreted"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Interpreter_(computing))**
 ## See Also
 
@@ -17,8 +17,8 @@ There are also tools to compile PHP directly to binary code for compiled executi
 
 ## Related
 
-+ [Transpile](transpile.ini.html)
-+ [Compile](compile.ini.html)
-+ [Just In Time (JIT)](jit.ini.html)
-+ [Opcode](bytecode.ini.html)
-+ [Ahead Of Time](aot.ini.html)
++ [Transpile](transpile.html)
++ [Compile](compile.html)
++ [Just In Time (JIT)](jit.html)
++ [Opcode](bytecode.html)
++ [Ahead Of Time](aot.html)

@@ -6,7 +6,7 @@ The ``for()`` loop executes the init expression first, and only once. Then it ex
 The initialization, ending and increment expression may all host several instructions: they have to be separated by comma, rather than semi colons.
 
 Part of the block execution may be skipped by using the ``continue`` keyword.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/for.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/for.html","name":"For","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``for()`` is a loop structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/For.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/for.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/for.html","name":"For","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"``for()`` is a loop structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/For.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"For"}]}]}</script>
 ```php
 <?php
 
@@ -35,12 +35,12 @@ for($i = 0, $j = 0; $i < 10; ++$i, $j += 2) {
 
 ## Related
 
-+ [Continue](continue.ini.html)
-+ [foreach()](foreach.ini.html)
-+ [Loops](loop.ini.html)
-+ [While](while.ini.html)
-+ [Do While](do-while.ini.html)
-+ [Control Flow](control-flow.ini.html)
-+ [Blind Variable](blind-key.ini.html)
-+ [Control Structures](control-structure.ini.html)
-+ [Semicolon ;](semicolon.ini.html)
++ [Continue](continue.html)
++ [foreach()](foreach.html)
++ [Loops](loop.html)
++ [While](while.html)
++ [Do While](do-while.html)
++ [Control Flow](control-flow.html)
++ [Blind Variable](blind-key.html)
++ [Control Structures](control-structure.html)
++ [Semicolon ;](semicolon.html)

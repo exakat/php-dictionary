@@ -4,7 +4,7 @@ A web server is a computer system or software application that delivers web page
 PHP is able to be integrated in many webservers: ``nginx``, ``Apache``, ``Caddy``, ``lighthttpd``, ``Litespeed``, etc.
 
 PHP is able to run in server mode. In command line, use the ``-S`` option.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/webserver.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/webserver.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:33:13 +0000","dateModified":"Fri, 24 Jul 2026 17:33:13 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/webserver.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/webserver.html","name":"Webserver","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:33:13 +0000","dateModified":"Fri, 24 Jul 2026 17:33:13 +0000","description":"A web server is a computer system or software application that delivers web pages to users over the internet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Webserver.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Webserver"}]}]}</script>
 ```php
 php -S localhost:8000 index.php
 ```
@@ -17,14 +17,14 @@ php -S localhost:8000 index.php
 
 ## Related
 
-+ [Command Line Interface (CLI)](cli.ini.html)
-+ [Application Server](app-server.ini.html)
-+ [Read Eval Print Loop (REPL)](repl.ini.html)
-+ [Server](server.ini.html)
-+ [World Wide Web (WWW)](web.ini.html)
-+ [\\.htaccess](htaccess.ini.html)
-+ [Linux Apache Mysql PHP (LAMP)](lamp.ini.html)
-+ [Linux Nginx Mysql PHP (LEMP)](lemp.ini.html)
-+ [Search Engine Optimization (SEO)](seo.ini.html)
-+ [Web Application](web-app.ini.html)
-+ [Web-spider](web-spider.ini.html)
++ [Command Line Interface (CLI)](cli.html)
++ [Application Server](app-server.html)
++ [Read Eval Print Loop (REPL)](repl.html)
++ [Server](server.html)
++ [World Wide Web (WWW)](web.html)
++ [\\.htaccess](htaccess.html)
++ [Linux Apache Mysql PHP (LAMP)](lamp.html)
++ [Linux Nginx Mysql PHP (LEMP)](lemp.html)
++ [Search Engine Optimization (SEO)](seo.html)
++ [Web Application](web-app.html)
++ [Web-spider](web-spider.html)

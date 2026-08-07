@@ -9,7 +9,7 @@ REST defines four interface constraints:
 + Hypermedia as the engine of application state
 
 REST APIs are documented with OpenAPI, aka swagger.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/rest-api.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/rest-api.html","name":"REST API","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"REST stands for Representational state transfer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/REST API.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/rest-api.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/rest-api.html","name":"REST API","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"REST stands for Representational state transfer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/REST API.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"REST API"}]}]}</script>
 **[Documentation](https://www.redhat.com/en/topics/api/what-is-a-rest-api)**
 ## See Also
 
@@ -18,17 +18,17 @@ REST APIs are documented with OpenAPI, aka swagger.
 
 ## Related
 
-+ [Application Programming Interface (API)](api.ini.html)
-+ [GraphQL](graphql.ini.html)
-+ [gRPC (Google Remote Procedure Call)](grpc.ini.html)
-+ [Swagger](swagger.ini.html)
-+ [Web Real-Time Communication (WebRTC)](webrtc.ini.html)
-+ [Application](application.ini.html)
-+ [Mobile Application](mobile-app.ini.html)
-+ [Progressive Web App](pwa.ini.html)
-+ [Web Application](web-app.ini.html)
-+ [AJAX](ajax.ini.html)
-+ [Headless](headless.ini.html)
-+ [HTTP Code](http-code.ini.html)
-+ [Micro-framework](microframework.ini.html)
-+ [Search Engine](search-engine.ini.html)
++ [Application Programming Interface (API)](api.html)
++ [GraphQL](graphql.html)
++ [gRPC (Google Remote Procedure Call)](grpc.html)
++ [Swagger](swagger.html)
++ [Web Real-Time Communication (WebRTC)](webrtc.html)
++ [Application](application.html)
++ [Mobile Application](mobile-app.html)
++ [Progressive Web App](pwa.html)
++ [Web Application](web-app.html)
++ [AJAX](ajax.html)
++ [Headless](headless.html)
++ [HTTP Code](http-code.html)
++ [Micro-framework](microframework.html)
++ [Search Engine](search-engine.html)

@@ -4,7 +4,7 @@ The ``yield from`` keyword is used to delegate the iteration control of one gene
 This keyword allows to create more maintainable and modular code by reusing the code logic of one generator within another.
 
 Generator delegation works with another generators, ``Traversable`` objects, and arrays.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/yield-from.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/yield-from.html","name":"yield from Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:54:25 +0000","dateModified":"Thu, 18 Jun 2026 13:54:25 +0000","description":"The ``yield from`` keyword is used to delegate the iteration control of one generator to another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/yield from Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/yield-from.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/yield-from.html","name":"yield from Keyword","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:54:25 +0000","dateModified":"Thu, 18 Jun 2026 13:54:25 +0000","description":"The ``yield from`` keyword is used to delegate the iteration control of one generator to another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/yield from Keyword.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"yield from Keyword"}]}]}</script>
 ```php
 <?php
 
@@ -31,10 +31,10 @@ Generator delegation works with another generators, ``Traversable`` objects, and
 
 ## Related
 
-+ [Yield](yield.ini.html)
-+ [Generator](generator.ini.html)
-+ [Traversable](traversable.ini.html)
-+ [Array, []](array.ini.html)
-+ [Jump](jump.ini.html)
-+ [range()](range.ini.html)
-+ [Stealth Generator](stealth-generator.ini.html)
++ [Yield](yield.html)
++ [Generator](generator.html)
++ [Traversable](traversable.html)
++ [Array, []](array.html)
++ [Jump](jump.html)
++ [range()](range.html)
++ [Stealth Generator](stealth-generator.html)

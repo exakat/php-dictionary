@@ -2,7 +2,7 @@
 Closures are anonymous functions: functions without a name. They are also supported by the eponymous ``Closure`` class.
 
 They are close to the arrow-functions. They are also created with the ``...`` operator, also known as the first class callable.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/closure.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/closure.html","name":"Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:13:51 +0000","dateModified":"Sat, 04 Jul 2026 08:13:51 +0000","description":"Closures are anonymous functions: functions without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/closure.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/closure.html","name":"Closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:13:51 +0000","dateModified":"Sat, 04 Jul 2026 08:13:51 +0000","description":"Closures are anonymous functions: functions without a name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Closure"}]}]}</script>
 ```php
 <?php
 
@@ -27,26 +27,26 @@ They are close to the arrow-functions. They are also created with the ``...`` op
 
 ## Related
 
-+ [static](static.ini.html)
-+ [Arrow Functions](arrow-function.ini.html)
-+ [Anonymous Function](anonymous-function.ini.html)
-+ [First Class Callable](first-class-callable.ini.html)
-+ [Callables](callable.ini.html)
-+ [Callbacks](callback.ini.html)
-+ [Anonymous Class](anonymous-class.ini.html)
-+ [Closure Binding](closure-binding.ini.html)
-+ [Functions](function.ini.html)
-+ [Return](return.ini.html)
-+ [Sort](sort.ini.html)
-+ [Use](use.ini.html)
-+ [Callable Arrays](array-callable.ini.html)
-+ [Array Callback](array-callback.ini.html)
-+ [Bind](bind.ini.html)
-+ [Inherited Variable](inherited-variable.ini.html)
-+ [Closure Class](closure-class.ini.html)
-+ [Custom Function](custom-function.ini.html)
-+ [Lexical Variable](lexical.ini.html)
-+ [Currying](currying.ini.html)
-+ [Homoiconicity](homoiconicity.ini.html)
-+ [Meta-object Protocol (MOP)](meta-object-protocol.ini.html)
-+ [Recursion](recursion.ini.html)
++ [static](static.html)
++ [Arrow Functions](arrow-function.html)
++ [Anonymous Function](anonymous-function.html)
++ [First Class Callable](first-class-callable.html)
++ [Callables](callable.html)
++ [Callbacks](callback.html)
++ [Anonymous Class](anonymous-class.html)
++ [Closure Binding](closure-binding.html)
++ [Functions](function.html)
++ [Return](return.html)
++ [Sort](sort.html)
++ [Use](use.html)
++ [Callable Arrays](array-callable.html)
++ [Array Callback](array-callback.html)
++ [Bind](bind.html)
++ [Inherited Variable](inherited-variable.html)
++ [Closure Class](closure-class.html)
++ [Custom Function](custom-function.html)
++ [Lexical Variable](lexical.html)
++ [Currying](currying.html)
++ [Homoiconicity](homoiconicity.html)
++ [Meta-object Protocol (MOP)](meta-object-protocol.html)
++ [Recursion](recursion.html)

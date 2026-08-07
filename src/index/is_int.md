@@ -4,7 +4,7 @@
 ``is_int()`` returns ``false`` for numeric strings, such as ``"42"``, and for floats, even when they hold a whole number like ``4.0``: only the actual internal ``int`` type qualifies. This makes ``is_int()`` stricter than a numeric check like ``is_numeric()``, which also accepts numeric strings and floats.
 
 It is commonly used to validate array keys, loop counters, or values decoded from external sources, such as JSON, where the distinction between an integer and a numeric string matters, for instance before using the value as an array offset or passing it to a strictly-typed function parameter.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_int.html","name":"is_int()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:19 +0000","dateModified":"Thu, 16 Jul 2026 14:20:19 +0000","description":"``is_int()`` is a PHP native function that checks whether a variable is of type ``int``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_int().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_int.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_int.html","name":"is_int()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:19 +0000","dateModified":"Thu, 16 Jul 2026 14:20:19 +0000","description":"``is_int()`` is a PHP native function that checks whether a variable is of type ``int``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_int().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"is_int()"}]}]}</script>
 ```php
 <?php
 
@@ -27,12 +27,12 @@ It is commonly used to validate array keys, loop counters, or values decoded fro
 
 ## Related
 
-+ [is\_array()](is_array.ini.html)
-+ [is\_bool()](is_bool.ini.html)
-+ [is\_string()](is_string.ini.html)
-+ [is\_float()](is_float.ini.html)
-+ [is\_numeric()](is_numeric.ini.html)
-+ [is\_iterable()](is_iterable.ini.html)
-+ [gettype()](gettype.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [Validation](validation.ini.html)
++ [is\_array()](is_array.html)
++ [is\_bool()](is_bool.html)
++ [is\_string()](is_string.html)
++ [is\_float()](is_float.html)
++ [is\_numeric()](is_numeric.html)
++ [is\_iterable()](is_iterable.html)
++ [gettype()](gettype.html)
++ [Type Checking](type-checking.html)
++ [Validation](validation.html)

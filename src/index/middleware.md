@@ -4,7 +4,7 @@ A middleware is a design pattern used to extend the behavior of a component by c
 Unlike the Decorator pattern, middlewares can be added at runtime, conditionally, from configuration. This pattern is inspired by PSR-15, which standardizes HTTP middleware for request handlers.
 
 The key characteristic is that the $next parameter is typed to the component's own interface, enabling IDE autocompletion and type safety throughout the chain. Implementing the middleware stack requires some glue code to chain the layers together; see the documentation link below for a complete implementation.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/middleware.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/middleware.html","name":"Middleware Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:19 +0000","dateModified":"Tue, 30 Jun 2026 09:14:19 +0000","description":"A middleware is a design pattern used to extend the behavior of a component by chaining layers that can modify inputs, outputs, or short-circuit the call, dynamically at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Middleware Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/middleware.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/middleware.html","name":"Middleware Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:19 +0000","dateModified":"Tue, 30 Jun 2026 09:14:19 +0000","description":"A middleware is a design pattern used to extend the behavior of a component by chaining layers that can modify inputs, outputs, or short-circuit the call, dynamically at runtime","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Middleware Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Middleware Pattern"}]}]}</script>
 ```php
 <?php
 
@@ -71,19 +71,19 @@ The key characteristic is that the $next parameter is typed to the component's o
 
 ## Related
 
-+ [Design Pattern](design-pattern.ini.html)
-+ [Decorator Pattern](decorator.ini.html)
-+ [PHP Standards Recommendations (PSR)](psr.ini.html)
-+ [Pipeline](pipeline.ini.html)
-+ [Response](response.ini.html)
-+ [Aspect-Oriented](aspect-oriented.ini.html)
-+ [Message Bus](message-bus.ini.html)
-+ [Micro-framework](microframework.ini.html)
-+ [API Gateway](api-gateway.ini.html)
-+ [Cross-cutting Concerns](cross-cutting-concerns.ini.html)
-+ [Rate Limiting](rate-limit.ini.html)
-+ [Request](request.ini.html)
-+ [Slim](slim.ini.html)
++ [Design Pattern](design-pattern.html)
++ [Decorator Pattern](decorator.html)
++ [PHP Standards Recommendations (PSR)](psr.html)
++ [Pipeline](pipeline.html)
++ [Response](response.html)
++ [Aspect-Oriented](aspect-oriented.html)
++ [Message Bus](message-bus.html)
++ [Micro-framework](microframework.html)
++ [API Gateway](api-gateway.html)
++ [Cross-cutting Concerns](cross-cutting-concerns.html)
++ [Rate Limiting](rate-limit.html)
++ [Request](request.html)
++ [Slim](slim.html)
 
 ## Related packages
 

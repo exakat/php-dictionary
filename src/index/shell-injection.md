@@ -12,7 +12,7 @@ Mitigation strategies, in order of preference:
 + Escape every argument with ``escapeshellarg()`` individually; do not rely on ``escapeshellcmd()`` alone.
 + Validate and whitelist input before any shell call: only accept known-good values, e.g., a filename that matches ``/^[a-zA-Z0-9._-]+$/``.
 + Run the PHP process with the minimum required OS privileges; use a chroot or container to limit blast radius.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/shell-injection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/shell-injection.html","name":"Shell Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:05:33 +0000","dateModified":"Sun, 02 Aug 2026 06:05:33 +0000","description":"Shell injection, also called OS command injection, is a security vulnerability in which attacker-controlled data is passed unsanitised to a shell command, allowing the attacker to execute arbitrary commands on the host operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Shell Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/shell-injection.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/shell-injection.html","name":"Shell Injection","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:05:33 +0000","dateModified":"Sun, 02 Aug 2026 06:05:33 +0000","description":"Shell injection, also called OS command injection, is a security vulnerability in which attacker-controlled data is passed unsanitised to a shell command, allowing the attacker to execute arbitrary commands on the host operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Shell Injection.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Shell Injection"}]}]}</script>
 ```php
 <?php
 
@@ -47,14 +47,14 @@ Mitigation strategies, in order of preference:
 
 ## Related
 
-+ [Injection](injection.ini.html)
-+ [escapeshellarg()](escapeshellarg.ini.html)
-+ [escapeshellcmd()](escapeshellcmd.ini.html)
-+ [exec](exec.ini.html)
-+ [Shell Exec](shell-exec.ini.html)
-+ [System](system.ini.html)
-+ [Security](security.ini.html)
-+ [Taint Analysis](taint.ini.html)
++ [Injection](injection.html)
++ [escapeshellarg()](escapeshellarg.html)
++ [escapeshellcmd()](escapeshellcmd.html)
++ [exec](exec.html)
++ [Shell Exec](shell-exec.html)
++ [System](system.html)
++ [Security](security.html)
++ [Taint Analysis](taint.html)
 
 ## Related packages
 

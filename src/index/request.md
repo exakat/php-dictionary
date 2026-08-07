@@ -4,7 +4,7 @@ A request is an object that encapsulates an incoming HTTP message: method, URL, 
 PHP frameworks provide a dedicated Request object that replaces direct access to superglobals such as ``$_GET``, ``$_POST``, ``$_SERVER``, and ``$_FILES``. This makes code more testable and explicit.
 
 PSR-7 defines a standard ``ServerRequestInterface`` that many frameworks and libraries implement, enabling interoperability.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/request.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/request.html","name":"Request","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:43:55 +0000","dateModified":"Mon, 13 Jul 2026 18:43:55 +0000","description":"A request is an object that encapsulates an incoming HTTP message: method, URL, headers, query parameters, body, and uploaded files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Request.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/request.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/request.html","name":"Request","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:43:55 +0000","dateModified":"Mon, 13 Jul 2026 18:43:55 +0000","description":"A request is an object that encapsulates an incoming HTTP message: method, URL, headers, query parameters, body, and uploaded files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Request.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Request"}]}]}</script>
 ```php
 <?php
 
@@ -39,15 +39,15 @@ class UserController {
 
 ## Related
 
-+ [$\_REQUEST]($_request.ini.html)
-+ [$\_GET]($_get.ini.html)
-+ [$\_POST]($_post.ini.html)
-+ [$\_SERVER]($_server.ini.html)
-+ [Controller](controller.ini.html)
-+ [Route](route.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
-+ [Incoming Data](incoming-data.ini.html)
-+ [Form](form.ini.html)
++ [$\_REQUEST]($_request.html)
++ [$\_GET]($_get.html)
++ [$\_POST]($_post.html)
++ [$\_SERVER]($_server.html)
++ [Controller](controller.html)
++ [Route](route.html)
++ [Middleware Pattern](middleware.html)
++ [Incoming Data](incoming-data.html)
++ [Form](form.html)
 
 ## Related packages
 

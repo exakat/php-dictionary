@@ -6,7 +6,7 @@ In image processing, lossless formats such as PNG and GIF use lossless compressi
 In data serialisation and encoding, lossless round-trips guarantee that encoding then decoding returns the original input, with no data truncated or altered.
 
 PHP's GD extension produces lossless output with ``imagepng()`` and ``imagegif()``. The compression level passed to ``imagepng()`` affects file size but not image fidelity.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/lossless.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/lossless.html","name":"Lossless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:10:33 +0000","dateModified":"Tue, 07 Jul 2026 05:10:33 +0000","description":"Lossless refers to any encoding, compression, or conversion process that preserves all of the original data exactly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Lossless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/lossless.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/lossless.html","name":"Lossless","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 05:10:33 +0000","dateModified":"Tue, 07 Jul 2026 05:10:33 +0000","description":"Lossless refers to any encoding, compression, or conversion process that preserves all of the original data exactly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Lossless.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Lossless"}]}]}</script>
 ```php
 <?php
 
@@ -21,10 +21,10 @@ imagedestroy($image);
 **[Documentation](https://en.wikipedia.org/wiki/Lossless_compression)**
 ## Related
 
-+ [Lossy](lossy.ini.html)
-+ [Compression](compression.ini.html)
-+ [PNG](png.ini.html)
-+ [GIF](gif.ini.html)
-+ [Image](image.ini.html)
-+ [Encode](encode.ini.html)
-+ [Decode](decode.ini.html)
++ [Lossy](lossy.html)
++ [Compression](compression.html)
++ [PNG](png.html)
++ [GIF](gif.html)
++ [Image](image.html)
++ [Encode](encode.html)
++ [Decode](decode.html)

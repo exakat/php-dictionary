@@ -9,7 +9,7 @@ PHP is typically single-threaded per request, so atomicity concerns arise mainly
 
 Without atomicity guarantees, concurrent access can lead to race conditions and data corruption.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/atomic-operation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/atomic-operation.html","name":"Atomic Operation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 04:50:39 +0000","dateModified":"Tue, 07 Jul 2026 04:50:39 +0000","description":"An atomic operation is an operation that is indivisible: it either completes fully or not at all, with no intermediate state visible to other threads or processes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Atomic Operation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/atomic-operation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/atomic-operation.html","name":"Atomic Operation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 04:50:39 +0000","dateModified":"Tue, 07 Jul 2026 04:50:39 +0000","description":"An atomic operation is an operation that is indivisible: it either completes fully or not at all, with no intermediate state visible to other threads or processes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Atomic Operation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Atomic Operation"}]}]}</script>
 ```php
 <?php
 
@@ -39,9 +39,9 @@ Without atomicity guarantees, concurrent access can lead to race conditions and 
 
 ## Related
 
-+ [Transaction](transaction.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Concurrency](concurency.ini.html)
-+ [Database](database.ini.html)
-+ [Lock](lock.ini.html)
-+ [Database Commit](database-commit.ini.html)
++ [Transaction](transaction.html)
++ [Race Condition](race-condition.html)
++ [Concurrency](concurency.html)
++ [Database](database.html)
++ [Lock](lock.html)
++ [Database Commit](database-commit.html)

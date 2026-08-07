@@ -8,7 +8,7 @@ Common patterns that implement fault isolation: the circuit breaker, that stops 
 Microservices architecture promotes fault isolation by deploying each service independently. However, it requires explicit design: synchronous call chains without timeouts or circuit breakers produce the opposite: a single slow service that blocks all callers.
 
 Fault isolation is implemented via timeout configuration on HTTP clients, circuit breaker libraries, and queue-based decoupling of non-critical side-effects.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fault-isolation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fault-isolation.html","name":"Fault Isolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:12:17 +0000","dateModified":"Tue, 04 Aug 2026 06:12:17 +0000","description":"Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Fault Isolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fault-isolation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fault-isolation.html","name":"Fault Isolation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:12:17 +0000","dateModified":"Tue, 04 Aug 2026 06:12:17 +0000","description":"Fault isolation is the design property that limits the impact of a failure to the component or service where it originates, preventing it from cascading to other parts of the system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Fault Isolation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Fault Isolation"}]}]}</script>
 ```php
 <?php
 
@@ -42,13 +42,13 @@ Fault isolation is implemented via timeout configuration on HTTP clients, circui
 
 ## Related
 
-+ [Circuit Breaker](circuit-breaker.ini.html)
-+ [Resilience](resilience.ini.html)
-+ [Microservice](microservice.ini.html)
-+ [Distributed Monolith](distributed-monolith.ini.html)
-+ [Distributed Systems](distributed-systems.ini.html)
-+ [Coupling](coupling.ini.html)
-+ [Cascading Failure](cascading-failure.ini.html)
++ [Circuit Breaker](circuit-breaker.html)
++ [Resilience](resilience.html)
++ [Microservice](microservice.html)
++ [Distributed Monolith](distributed-monolith.html)
++ [Distributed Systems](distributed-systems.html)
++ [Coupling](coupling.html)
++ [Cascading Failure](cascading-failure.html)
 
 ## Related packages
 

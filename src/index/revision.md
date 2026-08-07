@@ -1,11 +1,11 @@
 # Revision
 A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history. These revisions are identified by unique identifiers called commit hashes or commit SHA, or Secure Hash Algorithms.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/revision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/revision.html","name":"Revision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:30:32 +0000","dateModified":"Fri, 19 Jun 2026 21:30:32 +0000","description":"A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Revision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/revision.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/revision.html","name":"Revision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:30:32 +0000","dateModified":"Fri, 19 Jun 2026 21:30:32 +0000","description":"A revision typically refers to a specific state or snapshot of a VCS repository at a particular point in its history","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Revision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Revision"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Revision_control)**
 ## Related
 
-+ [git](git.ini.html)
-+ [Version Control System (VCS)](vcs.ini.html)
-+ [Secure Hash Algorithm (SHA)](sha.ini.html)
-+ [Continuous Delivery (CD)](cd.ini.html)
-+ [Continuous Integration (CI)](ci.ini.html)
++ [git](git.html)
++ [Version Control System (VCS)](vcs.html)
++ [Secure Hash Algorithm (SHA)](sha.html)
++ [Continuous Delivery (CD)](cd.html)
++ [Continuous Integration (CI)](ci.html)

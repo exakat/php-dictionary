@@ -10,7 +10,7 @@ Division by zero, or by any value that is cast to 0, leads to a ``DivisionByZero
 The operator for division is the slash ``/``. The backslash ``\`` is used for namespaces. 
 
 There is a function for the integer division: ``intdiv()``; and ``%`` for the modulo operator, aka the remaining.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/division.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/division.html","name":"Division","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Division is the mathematical division","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Division.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/division.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/division.html","name":"Division","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Division is the mathematical division","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Division.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Division"}]}]}</script>
 ```php
 <?php
 
@@ -27,9 +27,9 @@ $a = 10 / 2.5; // 4.0
 
 ## Related
 
-+ [Addition](addition.ini.html)
-+ [Exponent](exponent.ini.html)
-+ [Multiplication](multiplication.ini.html)
-+ [Modulo](modulo.ini.html)
-+ [DivisionByZeroError](divisionbyzeroerror.ini.html)
-+ [intdiv()](intdiv.ini.html)
++ [Addition](addition.html)
++ [Exponent](exponent.html)
++ [Multiplication](multiplication.html)
++ [Modulo](modulo.html)
++ [DivisionByZeroError](divisionbyzeroerror.html)
++ [intdiv()](intdiv.html)

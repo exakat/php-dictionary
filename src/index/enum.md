@@ -1,6 +1,6 @@
 # Enumeration (enum)
 Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/enum.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/enum.html","name":"Enumeration (enum)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:41:36 +0000","dateModified":"Tue, 07 Jul 2026 07:41:36 +0000","description":"Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Enumeration (enum).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/enum.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/enum.html","name":"Enumeration (enum)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jul 2026 07:41:36 +0000","dateModified":"Tue, 07 Jul 2026 07:41:36 +0000","description":"Enumerations are a restricting layer on top of classes and class constants, intended to provide a way to define a closed set of possible values for a type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Enumeration (enum).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Enumeration (enum)"}]}]}</script>
 ```php
 <?php
 
@@ -25,20 +25,20 @@ enum Suit
 
 ## Related
 
-+ [Enumeration Case](enum-case.ini.html)
-+ [Collection](collection.ini.html)
-+ [Class Interface Trait Enumeration (CITE)](cite.ini.html)
-+ [Backed Enum](backed-enum.ini.html)
-+ [BackedEnum](backedenum.ini.html)
-+ [Case](case.ini.html)
-+ [http\_build\_query()](http_build_query.ini.html)
-+ [Unbacked Enum](unbacked-enum.ini.html)
-+ [UnitEnum](unitenum.ini.html)
-+ [Dynamic Class Constant](dynamic-class-constant.ini.html)
-+ [Algebraic Data Type](algebraic-data-type.ini.html)
-+ [Compile-time Evaluation](compile-time-evaluation.ini.html)
-+ [Sealed Class](sealed-class.ini.html)
-+ [Sum Type](sum-type.ini.html)
++ [Enumeration Case](enum-case.html)
++ [Collection](collection.html)
++ [Class Interface Trait Enumeration (CITE)](cite.html)
++ [Backed Enum](backed-enum.html)
++ [BackedEnum](backedenum.html)
++ [Case](case.html)
++ [http\_build\_query()](http_build_query.html)
++ [Unbacked Enum](unbacked-enum.html)
++ [UnitEnum](unitenum.html)
++ [Dynamic Class Constant](dynamic-class-constant.html)
++ [Algebraic Data Type](algebraic-data-type.html)
++ [Compile-time Evaluation](compile-time-evaluation.html)
++ [Sealed Class](sealed-class.html)
++ [Sum Type](sum-type.html)
 
 ## Related packages
 

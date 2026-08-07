@@ -3,7 +3,7 @@
 
 ``fopen()`` may also be replaced by the ``SplFileObject`` class, which provides a OOP syntax alternative to access files.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fopen.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fopen.html","name":"fopen()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"``fopen()`` is a PHP native function which opens a file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/fopen().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fopen.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fopen.html","name":"fopen()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"``fopen()`` is a PHP native function which opens a file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fopen().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"fopen()"}]}]}</script>
 ```php
 <?php
 
@@ -21,23 +21,23 @@
 
 ## Related
 
-+ [File](file.ini.html)
-+ [Writing](write.ini.html)
-+ [Permission](permission.ini.html)
-+ [Writeable](writeable.ini.html)
-+ [Readable](readable.ini.html)
-+ [SplFileObject](splfileobject.ini.html)
-+ [$http\_response\_header]($http_response_header.ini.html)
-+ [File Mode](file-mode.ini.html)
-+ [Resource Leak](resource-leak.ini.html)
-+ [Text](text.ini.html)
-+ [Handle](handle.ini.html)
-+ [Universal Resource Locator (URL)](url.ini.html)
-+ [fread()](fread.ini.html)
-+ [fseek()](fseek.ini.html)
-+ [ftell()](ftell.ini.html)
-+ [rewind()](rewind.ini.html)
-+ [fclose()](fclose.ini.html)
-+ [fgetc()](fgetc.ini.html)
-+ [fgets()](fgets.ini.html)
-+ [fwrite()](fwrite.ini.html)
++ [File](file.html)
++ [Writing](write.html)
++ [Permission](permission.html)
++ [Writeable](writeable.html)
++ [Readable](readable.html)
++ [SplFileObject](splfileobject.html)
++ [$http\_response\_header]($http_response_header.html)
++ [File Mode](file-mode.html)
++ [Resource Leak](resource-leak.html)
++ [Text](text.html)
++ [Handle](handle.html)
++ [Universal Resource Locator (URL)](url.html)
++ [fread()](fread.html)
++ [fseek()](fseek.html)
++ [ftell()](ftell.html)
++ [rewind()](rewind.html)
++ [fclose()](fclose.html)
++ [fgetc()](fgetc.html)
++ [fgets()](fgets.html)
++ [fwrite()](fwrite.html)

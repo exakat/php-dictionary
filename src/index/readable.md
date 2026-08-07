@@ -5,7 +5,7 @@ Variable, properties with the correct visibility, static properties, constants, 
 
 Files are another object that requires permissions. This time, the operating system provides the permissions. A file is readable when the ``is_readable()`` function returns true.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/readable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/readable.html","name":"Readable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:29:38 +0000","dateModified":"Fri, 19 Jun 2026 21:29:38 +0000","description":"Something is readable when its current value may be accessed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Readable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/readable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/readable.html","name":"Readable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:29:38 +0000","dateModified":"Fri, 19 Jun 2026 21:29:38 +0000","description":"Something is readable when its current value may be accessed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Readable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Readable"}]}]}</script>
 ```php
 <?php
 
@@ -18,15 +18,15 @@ Files are another object that requires permissions. This time, the operating sys
 **[Documentation](https://www.php.net/manual/en/function.is-readable.php)**
 ## Related
 
-+ [Visibility](visibility.ini.html)
-+ [Variables](variable.ini.html)
-+ [Static Property](static-property.ini.html)
-+ [Properties](property.ini.html)
-+ [Container](container.ini.html)
-+ [Array Element](array-element.ini.html)
-+ [Writeable](writeable.ini.html)
-+ [Technical Debt](debt.ini.html)
-+ [fopen()](fopen.ini.html)
-+ [Maintenability](maintenability.ini.html)
-+ [Writable](writable.ini.html)
-+ [Floating Point Numbers](float.ini.html)
++ [Visibility](visibility.html)
++ [Variables](variable.html)
++ [Static Property](static-property.html)
++ [Properties](property.html)
++ [Container](container.html)
++ [Array Element](array-element.html)
++ [Writeable](writeable.html)
++ [Technical Debt](debt.html)
++ [fopen()](fopen.html)
++ [Maintenability](maintenability.html)
++ [Writable](writable.html)
++ [Floating Point Numbers](float.html)

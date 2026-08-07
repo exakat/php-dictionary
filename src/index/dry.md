@@ -4,7 +4,7 @@ Don't repeat yourself, or DRY, is a principle of software development aimed at r
 The concept was coined in Andy Hunt and Dave Thomas's book ``The Pragmatic Programmer``, in 1999.
 
 This principle is also known as Duplication Is Evil, or DIE. Its nemesis is ``WET``. It means write everything twice.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/dry.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/dry.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Don't repeat yourself, or DRY, is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dry.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dry.html","name":"Don't Repeat Yourself (DRY)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Don't repeat yourself, or DRY, is a principle of software development aimed at reducing repetition of software patterns","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Don't Repeat Yourself (DRY).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Don't Repeat Yourself (DRY)"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**
 ## See Also
 
@@ -14,9 +14,9 @@ This principle is also known as Duplication Is Evil, or DIE. Its nemesis is ``WE
 
 ## Related
 
-+ [Write Everything Twice (WET)](wet.ini.html)
-+ [SOLID](solid.ini.html)
-+ [Centralization](centralization.ini.html)
-+ [KISS](kiss.ini.html)
-+ [Tech Island](tech-island.ini.html)
-+ [You Are Not Going To Need It (YAGNI)](yagni.ini.html)
++ [Write Everything Twice (WET)](wet.html)
++ [SOLID](solid.html)
++ [Centralization](centralization.html)
++ [KISS](kiss.html)
++ [Tech Island](tech-island.html)
++ [You Are Not Going To Need It (YAGNI)](yagni.html)

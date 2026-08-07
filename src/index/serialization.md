@@ -15,7 +15,7 @@ Common serialization formats include JSON, XML, Protocol Buffers, and MessagePac
 Deserialization, also known as unserialization, is the reverse process, where the serialized data is converted back into its original form, such as objects or data structures, so that it can be used and manipulated within a program.
 
 There are different ways to implement serialization. The native way is to rely on the ``serialize()`` and ``unserialize()``, which, in turn, rely on the ``__serialize()`` and ``__unserialize()`` magic method. Then, ``var_export()`` and ``require()`` make another serialization method. WDDX, XML, JSON or YAML all work as serialization, yet they usually are not considered, over speed or performance issues.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/serialization.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/serialization.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:26:14 +0000","dateModified":"Fri, 24 Jul 2026 15:26:14 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/serialization.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/serialization.html","name":"Serialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:26:14 +0000","dateModified":"Fri, 24 Jul 2026 15:26:14 +0000","description":"Serialization refers to the process of converting a data structure or object into a format that can be easily stored, transmitted, or reconstructed later","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Serialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Serialization"}]}]}</script>
 ```php
 <?php
 
@@ -41,21 +41,21 @@ There are different ways to implement serialization. The native way is to rely o
 
 ## Related
 
-+ [\_\_serialize() Method](__serialize.ini.html)
-+ [\_\_unserialize() Method](__unserialize.ini.html)
-+ [JsonSerializable](jsonserializable.ini.html)
-+ [Remote Procedure Call (RPC)](rpc.ini.html)
-+ [Message Queue](message-queue.ini.html)
-+ [Cache](cache.ini.html)
-+ [Object Injection](object-injection.ini.html)
-+ [Object Injection](deserialize-injection.ini.html)
-+ [Deep Clone](deep-clone.ini.html)
-+ [Serde](serde.ini.html)
-+ [Serializable](serializable.ini.html)
-+ [var\_export()](var_export.ini.html)
-+ [Insecure Deserialization](insecure-deserialization.ini.html)
-+ [serialize\_precision](serialize_precision.ini.html)
-+ [Snapshot](snapshot.ini.html)
++ [\_\_serialize() Method](__serialize.html)
++ [\_\_unserialize() Method](__unserialize.html)
++ [JsonSerializable](jsonserializable.html)
++ [Remote Procedure Call (RPC)](rpc.html)
++ [Message Queue](message-queue.html)
++ [Cache](cache.html)
++ [Object Injection](object-injection.html)
++ [Object Injection](deserialize-injection.html)
++ [Deep Clone](deep-clone.html)
++ [Serde](serde.html)
++ [Serializable](serializable.html)
++ [var\_export()](var_export.html)
++ [Insecure Deserialization](insecure-deserialization.html)
++ [serialize\_precision](serialize_precision.html)
++ [Snapshot](snapshot.html)
 
 ## Related packages
 

@@ -11,7 +11,7 @@ Popular columnar databases used with PHP include ClickHouse, Apache Parquet and 
 
 Row-oriented databases, such as MariaDB, Mysql, PostgreSQL, remain better for OLTP workloads that access full records.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/column-database.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/column-database.html","name":"Column Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:08:33 +0000","dateModified":"Fri, 17 Jul 2026 09:08:33 +0000","description":"A column database, or column-oriented, columnar database, stores data by column rather than by row","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Column Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/column-database.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/column-database.html","name":"Column Database","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 09:08:33 +0000","dateModified":"Fri, 17 Jul 2026 09:08:33 +0000","description":"A column database, or column-oriented, columnar database, stores data by column rather than by row","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Column Database.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Column Database"}]}]}</script>
 ```php
 <?php
 
@@ -30,8 +30,8 @@ Row-oriented databases, such as MariaDB, Mysql, PostgreSQL, remain better for OL
 **[Documentation](https://en.wikipedia.org/wiki/Column-oriented_DBMS)**
 ## Related
 
-+ [Database](database.ini.html)
-+ [SQL Database](sql-database.ini.html)
-+ [Graph Database](graph-database.ini.html)
-+ [Nosql Database](nosql-database.ini.html)
-+ [Parquet](parquet.ini.html)
++ [Database](database.html)
++ [SQL Database](sql-database.html)
++ [Graph Database](graph-database.html)
++ [Nosql Database](nosql-database.html)
++ [Parquet](parquet.html)

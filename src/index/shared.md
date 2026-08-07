@@ -12,7 +12,7 @@ Common qualifiers built on ``shared``:
 + Shared database: multiple services reading and writing the same schema, often considered an anti-pattern in microservices.
 + Shared library: compiled code, ``.so`` or ``.dll``, loaded once and used by multiple processes, such as a PHP extension.
 + Shared nothing: the opposite architecture, where each unit of execution owns its own state exclusively.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/shared.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/shared.html","name":"Shared","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:21:32 +0000","dateModified":"Sat, 11 Jul 2026 14:21:32 +0000","description":"Shared describes a resource, whether it is memory, state, a database, a library, a connection, or an object, that is accessible by more than one process, thread, request, or component at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Shared.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/shared.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/shared.html","name":"Shared","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 11 Jul 2026 14:21:32 +0000","dateModified":"Sat, 11 Jul 2026 14:21:32 +0000","description":"Shared describes a resource, whether it is memory, state, a database, a library, a connection, or an object, that is accessible by more than one process, thread, request, or component at the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Shared.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Shared"}]}]}</script>
 ```php
 <?php
 
@@ -37,10 +37,10 @@ Common qualifiers built on ``shared``:
 **[Documentation](https://www.php.net/manual/en/language.variables.scope.php)**
 ## Related
 
-+ [Shared Memory](shared-memory.ini.html)
-+ [Shared Database](shared-database.ini.html)
-+ [Mutable State](mutable-state.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Global State](global-state.ini.html)
-+ [Singleton](singleton.ini.html)
-+ [Concurrency](concurrency.ini.html)
++ [Shared Memory](shared-memory.html)
++ [Shared Database](shared-database.html)
++ [Mutable State](mutable-state.html)
++ [Race Condition](race-condition.html)
++ [Global State](global-state.html)
++ [Singleton](singleton.html)
++ [Concurrency](concurrency.html)

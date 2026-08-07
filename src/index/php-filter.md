@@ -4,7 +4,7 @@
 A filter chain is specified in the URL itself: ``php://filter/read=<filters>/resource=<target>``. Built-in filters include string conversions ``string.toupper``, encoding transforms ``convert.base64-encode``, ``convert.iconv.*``, and compression ``zlib.deflate``.
 
 While legitimately used to read or transform stream data on-the-fly, ``php://filter`` is widely exploited in Local File Inclusion vulnerabilities. By using ``convert.base64-encode``, an attacker can read the raw PHP source of any included file instead of executing it, leaking credentials and logic. Advanced exploit chains using ``iconv`` filters can even achieve remote code execution from an LFI alone.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php-filter.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php-filter.html","name":"php:\/\/filter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:40 +0000","dateModified":"Mon, 13 Jul 2026 18:49:40 +0000","description":"``php:\/\/filter`` is a meta-wrapper that allows applying one or more filter chains to a stream before the data is read or written","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/php:\/\/filter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php-filter.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php-filter.html","name":"php:\/\/filter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:40 +0000","dateModified":"Mon, 13 Jul 2026 18:49:40 +0000","description":"``php:\/\/filter`` is a meta-wrapper that allows applying one or more filter chains to a stream before the data is read or written","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/php:\/\/filter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"php:\/\/filter"}]}]}</script>
 ```php
 <?php
 
@@ -27,11 +27,11 @@ While legitimately used to read or transform stream data on-the-fly, ``php://fil
 
 ## Related
 
-+ [php://](wrapper-php.ini.html)
-+ [Wrapper](wrapper.ini.html)
-+ [Stream](stream.ini.html)
-+ [Local File Inclusion](local-file-inclusion.ini.html)
-+ [Remote Code Execution (RCE)](rce.ini.html)
-+ [filter](filter.ini.html)
-+ [Security](security.ini.html)
-+ [Base 64 Encoding](base64.ini.html)
++ [php://](wrapper-php.html)
++ [Wrapper](wrapper.html)
++ [Stream](stream.html)
++ [Local File Inclusion](local-file-inclusion.html)
++ [Remote Code Execution (RCE)](rce.html)
++ [filter](filter.html)
++ [Security](security.html)
++ [Base 64 Encoding](base64.html)

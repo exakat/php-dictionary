@@ -10,7 +10,7 @@ The third argument, when provided, receives the results of the search, if any. I
 An ``$offset`` argument is available, to start the search beyond the beginning of the string.
 
 ``preg_match()`` returns 1 if there is at least on matched string, and 0 otherwise. It also returns ``false`` in case of error during execution, such as invalid regex, or passing backtracking limits. It is recommended to use ``===`` with its result.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/preg_match.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/preg_match.html","name":"Preg_match","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:17:02 +0000","dateModified":"Wed, 05 Aug 2026 08:17:02 +0000","description":"``preg_match()`` searches a string for a match to the regular expression given in pattern","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Preg_match.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/preg_match.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/preg_match.html","name":"Preg_match","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:17:02 +0000","dateModified":"Wed, 05 Aug 2026 08:17:02 +0000","description":"``preg_match()`` searches a string for a match to the regular expression given in pattern","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Preg_match.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Preg_match"}]}]}</script>
 ```php
 <?php
 
@@ -27,8 +27,8 @@ An ``$offset`` argument is available, to start the search beyond the beginning o
 
 ## Related
 
-+ [Regular Expression](regex.ini.html)
-+ [Strpos() Syndrome](strpos-syndrom.ini.html)
-+ [fnmatch()](fnmatch.ini.html)
-+ [str\_contains()](str_contains.ini.html)
-+ [preg\_replace()](preg_replace.ini.html)
++ [Regular Expression](regex.html)
++ [Strpos() Syndrome](strpos-syndrom.html)
++ [fnmatch()](fnmatch.html)
++ [str\_contains()](str_contains.html)
++ [preg\_replace()](preg_replace.html)

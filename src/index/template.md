@@ -8,7 +8,7 @@ Templates may be produced in any file format, such as HTML, CSS, Javascript, JSO
 Template may be large: they are then broken down into smaller and reusable sub-templates.
 
 There are many PHP template packages, such as Twig, Latte, Blade, smarty, etc.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/template.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/template.html","name":"Template","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:37:17 +0000","dateModified":"Wed, 05 Aug 2026 08:37:17 +0000","description":"A template is a preset document, filled with values in placeholders, to display the resulting data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Template.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/template.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/template.html","name":"Template","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:37:17 +0000","dateModified":"Wed, 05 Aug 2026 08:37:17 +0000","description":"A template is a preset document, filled with values in placeholders, to display the resulting data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Template.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Template"}]}]}</script>
 ```php
 <?php
 
@@ -25,19 +25,19 @@ There are many PHP template packages, such as Twig, Latte, Blade, smarty, etc.
 
 ## Related
 
-+ [View In Presentation](view-presentation.ini.html)
-+ [HyperText Markup Language (HTML)](html.ini.html)
-+ [CSS](css.ini.html)
-+ [PDF](pdf.ini.html)
-+ [JavaScript Object Notation (JSON)](json.ini.html)
-+ [Markdown](markdown.ini.html)
-+ [Code Generator](code-generator.ini.html)
-+ [Framework](framework.ini.html)
-+ [Render](render.ini.html)
-+ [Blade](blade.ini.html)
-+ [Twig](twig.ini.html)
-+ [View](view.ini.html)
-+ [Zero-code](zero-code.ini.html)
++ [View In Presentation](view-presentation.html)
++ [HyperText Markup Language (HTML)](html.html)
++ [CSS](css.html)
++ [PDF](pdf.html)
++ [JavaScript Object Notation (JSON)](json.html)
++ [Markdown](markdown.html)
++ [Code Generator](code-generator.html)
++ [Framework](framework.html)
++ [Render](render.html)
++ [Blade](blade.html)
++ [Twig](twig.html)
++ [View](view.html)
++ [Zero-code](zero-code.html)
 
 ## Related packages
 

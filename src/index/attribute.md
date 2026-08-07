@@ -8,7 +8,7 @@ Attributes are a modern version of the phpdoc comment blocks.
 Attributes are backward compatible: they can be used in any PHP version, and are ignored when not supported. 
 
 Attributes may or may not have a supporting class: attributes may be used for their semantic value, or with related code.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/attribute.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/attribute.html","name":"Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:07:45 +0000","dateModified":"Mon, 06 Jul 2026 10:07:45 +0000","description":"Attributes are machine readable options that may be added PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/attribute.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/attribute.html","name":"Attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:07:45 +0000","dateModified":"Mon, 06 Jul 2026 10:07:45 +0000","description":"Attributes are machine readable options that may be added PHP code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Attribute"}]}]}</script>
 ```php
 <?php
 
@@ -34,17 +34,17 @@ Attributes may or may not have a supporting class: attributes may be used for th
 
 ## Related
 
-+ [PHPdoc](phpdoc.ini.html)
-+ [PHP Native Attribute](php-native-attribute.ini.html)
-+ [Annotations](annotation.ini.html)
-+ [Attribute Class](attribute-class.ini.html)
-+ [NoDiscard](nodiscard.ini.html)
-+ [Properties](property.ini.html)
-+ [delayedtargetvalidation](delayedtargetvalidation.ini.html)
-+ [Nested Attributes](nested-attribute.ini.html)
-+ [Nesting](nesting.ini.html)
-+ [Sensitive Parameter](sensitiveparameter.ini.html)
-+ [Code Generation](code-generation.ini.html)
-+ [Metaclass](metaclass.ini.html)
-+ [Metaprogramming](metaprogramming.ini.html)
-+ [Template Metaprogramming (TMP)](template-metaprogramming.ini.html)
++ [PHPdoc](phpdoc.html)
++ [PHP Native Attribute](php-native-attribute.html)
++ [Annotations](annotation.html)
++ [Attribute Class](attribute-class.html)
++ [NoDiscard](nodiscard.html)
++ [Properties](property.html)
++ [delayedtargetvalidation](delayedtargetvalidation.html)
++ [Nested Attributes](nested-attribute.html)
++ [Nesting](nesting.html)
++ [Sensitive Parameter](sensitiveparameter.html)
++ [Code Generation](code-generation.html)
++ [Metaclass](metaclass.html)
++ [Metaprogramming](metaprogramming.html)
++ [Template Metaprogramming (TMP)](template-metaprogramming.html)

@@ -7,7 +7,7 @@ PHP supports unicode in its syntax with the ``declare()`` ``encoding`` option.
 
 PHP may translate from and to Unicode to other character sets with extensions such as iconv, intl, mbstring. 
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unicode.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/unicode.html","name":"Unicode","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:31:12 +0000","dateModified":"Mon, 20 Jul 2026 08:31:12 +0000","description":"Unicode is a standard to represent text","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Unicode.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/unicode.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/unicode.html","name":"Unicode","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:31:12 +0000","dateModified":"Mon, 20 Jul 2026 08:31:12 +0000","description":"Unicode is a standard to represent text","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Unicode.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Unicode"}]}]}</script>
 ```php
 <?php
 
@@ -33,12 +33,12 @@ PHP may translate from and to Unicode to other character sets with extensions su
 
 ## Related
 
-+ [SimpleXML](simplexml.ini.html)
-+ [DOM](domxml.ini.html)
-+ [XMLwriter](xmlwriter.ini.html)
-+ [XMLReader](xmlreader.ini.html)
-+ [Codepoint](codepoint.ini.html)
-+ [Emoji](emoji.ini.html)
-+ [Latin1](latin1.ini.html)
-+ [Multi-byte](multi-byte.ini.html)
-+ [declare()](declare.ini.html)
++ [SimpleXML](simplexml.html)
++ [DOM](domxml.html)
++ [XMLwriter](xmlwriter.html)
++ [XMLReader](xmlreader.html)
++ [Codepoint](codepoint.html)
++ [Emoji](emoji.html)
++ [Latin1](latin1.html)
++ [Multi-byte](multi-byte.html)
++ [declare()](declare.html)

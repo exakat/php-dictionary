@@ -2,7 +2,7 @@
 JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters. 
 
 It is ideal for storing structured data, large datasets, and logging, as it allows for streaming and processing files line-by-line without loading the entire file into memory. It is also known as newline-delimited JSON, NDJSON.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/jsonl.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/jsonl.html","name":"JSON Lines (JSONL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:40:59 +0000","dateModified":"Thu, 23 Jul 2026 13:40:59 +0000","description":"JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/JSON Lines (JSONL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/jsonl.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/jsonl.html","name":"JSON Lines (JSONL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jul 2026 13:40:59 +0000","dateModified":"Thu, 23 Jul 2026 13:40:59 +0000","description":"JSONL, JSON Lines, is a text-based format where each line is a valid, independent JSON object, separated by newline characters","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/JSON Lines (JSONL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"JSON Lines (JSONL)"}]}]}</script>
 ```php
 <?php
 
@@ -36,7 +36,7 @@ stdClass Object
 
 ## Related
 
-+ [json\_decode()](json_decode.ini.html)
-+ [JSON Lines (JSONC)](jsonc.ini.html)
-+ [JavaScript Object Notation (JSON)](json.ini.html)
-+ [Parquet](parquet.ini.html)
++ [json\_decode()](json_decode.html)
++ [JSON Lines (JSONC)](jsonc.html)
++ [JavaScript Object Notation (JSON)](json.html)
++ [Parquet](parquet.html)

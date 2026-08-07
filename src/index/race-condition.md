@@ -4,7 +4,7 @@ A Race Condition is a broad term for any situation where the outcome of a progra
 Race conditions happen in file systems, database accesses, sessions, cache, global variables, signals. 
 
 Race conditions may be migitated by using atomic operations, transactions, locks and unique identifiers.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/race-condition.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/race-condition.html","name":"Race Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:14:09 +0000","dateModified":"Sat, 04 Jul 2026 08:14:09 +0000","description":"A Race Condition is a broad term for any situation where the outcome of a program depends on the timing of uncontrollable events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Race Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/race-condition.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/race-condition.html","name":"Race Condition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 04 Jul 2026 08:14:09 +0000","dateModified":"Sat, 04 Jul 2026 08:14:09 +0000","description":"A Race Condition is a broad term for any situation where the outcome of a program depends on the timing of uncontrollable events","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Race Condition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Race Condition"}]}]}</script>
 ```php
 <?php
 
@@ -25,15 +25,15 @@ Race conditions may be migitated by using atomic operations, transactions, locks
 
 ## Related
 
-+ [Atomic Operation](atomic-operation.ini.html)
-+ [Unique Identifier](unique-identifier.ini.html)
-+ [Lock](lock.ini.html)
-+ [Transaction](transaction.ini.html)
-+ [Session](session.ini.html)
-+ [Security](security.ini.html)
-+ [Time Of Check To Time Of Use (TOCTOU)](toctou.ini.html)
-+ [Actor Model](actor-model.ini.html)
-+ [Cache Stampede](cache-stampede.ini.html)
-+ [Concurrency](concurrency.ini.html)
-+ [Mutex](mutex.ini.html)
-+ [Software Transactional Memory (STM)](software-transactional-memory.ini.html)
++ [Atomic Operation](atomic-operation.html)
++ [Unique Identifier](unique-identifier.html)
++ [Lock](lock.html)
++ [Transaction](transaction.html)
++ [Session](session.html)
++ [Security](security.html)
++ [Time Of Check To Time Of Use (TOCTOU)](toctou.html)
++ [Actor Model](actor-model.html)
++ [Cache Stampede](cache-stampede.html)
++ [Concurrency](concurrency.html)
++ [Mutex](mutex.html)
++ [Software Transactional Memory (STM)](software-transactional-memory.html)

@@ -1,6 +1,6 @@
 # Docker Container
 A Docker container is a lightweight, standalone, executable unit of software that packages code and all its dependencies, like libraries, system tools, runtime, settings, so that the application runs quickly and reliably across different computing environments.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/docker-container.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/docker-container.html","name":"Docker Container","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:24 +0000","dateModified":"Fri, 19 Jun 2026 21:24:24 +0000","description":"A Docker container is a lightweight, standalone, executable unit of software that packages code and all its dependencies, like libraries, system tools, runtime, settings, so that the application runs quickly and reliably across different computing environments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Docker Container.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/docker-container.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/docker-container.html","name":"Docker Container","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:24 +0000","dateModified":"Fri, 19 Jun 2026 21:24:24 +0000","description":"A Docker container is a lightweight, standalone, executable unit of software that packages code and all its dependencies, like libraries, system tools, runtime, settings, so that the application runs quickly and reliably across different computing environments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Docker Container.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Docker Container"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Docker_(software))**
 ## See Also
 
@@ -10,11 +10,11 @@ A Docker container is a lightweight, standalone, executable unit of software tha
 
 ## Related
 
-+ [Docker](docker.ini.html)
-+ [Deployment](deploiment.ini.html)
-+ [System](os.ini.html)
-+ [Cloud](cloud.ini.html)
-+ [Container](container.ini.html)
-+ [DevOps](devops.ini.html)
-+ [Image](image.ini.html)
-+ [Docker Image](docker-image.ini.html)
++ [Docker](docker.html)
++ [Deployment](deploiment.html)
++ [System](os.html)
++ [Cloud](cloud.html)
++ [Container](container.html)
++ [DevOps](devops.html)
++ [Image](image.html)
++ [Docker Image](docker-image.html)

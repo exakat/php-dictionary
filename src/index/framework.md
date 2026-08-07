@@ -43,7 +43,7 @@ There are lots of frameworks written with PHP. In alphabetical order, here is a 
 + `Zend Framework <https://framework.zend.com/>`_
 
 This is not an exhaustive list.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/framework.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/framework.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:31:16 +0000","dateModified":"Fri, 24 Jul 2026 15:31:16 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/framework.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/framework.html","name":"Framework","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:31:16 +0000","dateModified":"Fri, 24 Jul 2026 15:31:16 +0000","description":"A framework is a library of code and practices that helps building PHP applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Framework.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Framework"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Software_framework)**
 ## See Also
 
@@ -52,19 +52,19 @@ This is not an exhaustive list.
 
 ## Related
 
-+ [Form](form.ini.html)
-+ [Authentication](authentication.ini.html)
-+ [Security](security.ini.html)
-+ [Template](template.ini.html)
-+ [Database](database.ini.html)
-+ [Content Management System (CMS)](cms.ini.html)
-+ [Forum](forum.ini.html)
-+ [Laravel](laravel.ini.html)
-+ [NativePHP](nativephp.ini.html)
-+ [Symfony](symfony.ini.html)
-+ [Tempest](tempest.ini.html)
-+ [Library](library.ini.html)
-+ [Marketplace](marketplace.ini.html)
-+ [Micro-framework](microframework.ini.html)
-+ [Spiral](spiral.ini.html)
-+ [Xdebug](xdebug.ini.html)
++ [Form](form.html)
++ [Authentication](authentication.html)
++ [Security](security.html)
++ [Template](template.html)
++ [Database](database.html)
++ [Content Management System (CMS)](cms.html)
++ [Forum](forum.html)
++ [Laravel](laravel.html)
++ [NativePHP](nativephp.html)
++ [Symfony](symfony.html)
++ [Tempest](tempest.html)
++ [Library](library.html)
++ [Marketplace](marketplace.html)
++ [Micro-framework](microframework.html)
++ [Spiral](spiral.html)
++ [Xdebug](xdebug.html)

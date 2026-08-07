@@ -4,7 +4,7 @@ Session support consists of a way to preserve certain data across subsequent acc
 By default, each query to a webserver is independent from the others. With session, it is possible to keep some data on the server, and retrieve them at each access.
 
 It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal variable.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/session.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/session.html","name":"Session","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Session support consists of a way to preserve certain data across subsequent accesses to the web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Session.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/session.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/session.html","name":"Session","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Session support consists of a way to preserve certain data across subsequent accesses to the web server","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Session.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Session"}]}]}</script>
 ```php
 <?php
 
@@ -27,21 +27,21 @@ It relies on the ``session_*`` functions, and the ``$_SESSION`` superglobal vari
 
 ## Related
 
-+ [Superglobal Variables](superglobal.ini.html)
-+ [Object Persistence](object-persistence.ini.html)
-+ [Persistence](persistence.ini.html)
-+ [Session Fixation](session-fixation.ini.html)
-+ [Session Hijacking](session-highjacking.ini.html)
-+ [Horizontal Scaling](horizontal-scaling.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Single Sign On (SSO)](sso.ini.html)
-+ [State](state.ini.html)
-+ [JSON Web Token (JWT)](jwt.ini.html)
-+ [Load Balancer](load-balancer.ini.html)
-+ [SessionHandlerInterface](sessionhandlerinterface.ini.html)
-+ [SessionIdInterface](sessionidinterface.ini.html)
-+ [SessionUpdateTimestampHandlerInterface](sessionupdatetimestamphandlerinterface.ini.html)
-+ [APCu](apcu.ini.html)
-+ [Shared Memory](shared-memory.ini.html)
-+ [Temporary](temporary.ini.html)
-+ [Time To Live (TTL)](ttl.ini.html)
++ [Superglobal Variables](superglobal.html)
++ [Object Persistence](object-persistence.html)
++ [Persistence](persistence.html)
++ [Session Fixation](session-fixation.html)
++ [Session Hijacking](session-highjacking.html)
++ [Horizontal Scaling](horizontal-scaling.html)
++ [Race Condition](race-condition.html)
++ [Single Sign On (SSO)](sso.html)
++ [State](state.html)
++ [JSON Web Token (JWT)](jwt.html)
++ [Load Balancer](load-balancer.html)
++ [SessionHandlerInterface](sessionhandlerinterface.html)
++ [SessionIdInterface](sessionidinterface.html)
++ [SessionUpdateTimestampHandlerInterface](sessionupdatetimestamphandlerinterface.html)
++ [APCu](apcu.html)
++ [Shared Memory](shared-memory.html)
++ [Temporary](temporary.html)
++ [Time To Live (TTL)](ttl.html)

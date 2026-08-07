@@ -6,7 +6,7 @@ In the PHP ecosystem, interoperability is promoted by PHP-FIG, the PHP Framework
 Designing against interfaces rather than concrete implementations enables components from different libraries and frameworks to be composed freely. This is the foundation of the modern PHP package ecosystem.
 
 Interoperability also extends beyond the PHP ecosystem itself: PHP natively handles many exchange formats, such as JSON, XML, YAML, CSV, and Protocol Buffers, which lets it talk to services and applications written in any other language. A PHP application can consume a JSON API served by a Node.js backend, exchange Protobuf messages with a Go microservice over gRPC, or parse a CSV export produced by a legacy system, without either side knowing what language the other is written in. The FFI extension pushes this further, allowing PHP to call C libraries directly, in process.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/interoperability.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/interoperability.html","name":"Interoperability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:22:05 +0000","dateModified":"Tue, 04 Aug 2026 06:22:05 +0000","description":"Interoperability is the ability of distinct software components or systems to exchange information and work together effectively, without special adaptation effort","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Interoperability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/interoperability.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/interoperability.html","name":"Interoperability","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 06:22:05 +0000","dateModified":"Tue, 04 Aug 2026 06:22:05 +0000","description":"Interoperability is the ability of distinct software components or systems to exchange information and work together effectively, without special adaptation effort","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Interoperability.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Interoperability"}]}]}</script>
 ```php
 <?php
 
@@ -27,20 +27,20 @@ Interoperability also extends beyond the PHP ecosystem itself: PHP natively hand
 
 ## Related
 
-+ [PHP Standards Recommendations (PSR)](psr.ini.html)
-+ [Interface](interface.ini.html)
-+ [Framework Interoperability Group (FIG)](php-fig.ini.html)
-+ [Dependency Injection](dependency-injection.ini.html)
-+ [Composition](composition.ini.html)
-+ [Decoupling](decoupling.ini.html)
-+ [Compatibility](compatibility.ini.html)
-+ [Clock](clock.ini.html)
-+ [Foreign Function Interface (FFI)](ffi.ini.html)
-+ [JavaScript Object Notation (JSON)](json.ini.html)
-+ [Extensible Markup Language (XML)](xml.ini.html)
-+ [YAML Ain't Markup Language (YAML)](yaml.ini.html)
-+ [Comma Secparated Values (CSV)](csv.ini.html)
-+ [Protocol Buffers](protobuf.ini.html)
-+ [gRPC (Google Remote Procedure Call)](grpc.ini.html)
-+ [Serialization](serialization.ini.html)
-+ [Simple Object Access Protocol (SOAP)](soap.ini.html)
++ [PHP Standards Recommendations (PSR)](psr.html)
++ [Interface](interface.html)
++ [Framework Interoperability Group (FIG)](php-fig.html)
++ [Dependency Injection](dependency-injection.html)
++ [Composition](composition.html)
++ [Decoupling](decoupling.html)
++ [Compatibility](compatibility.html)
++ [Clock](clock.html)
++ [Foreign Function Interface (FFI)](ffi.html)
++ [JavaScript Object Notation (JSON)](json.html)
++ [Extensible Markup Language (XML)](xml.html)
++ [YAML Ain't Markup Language (YAML)](yaml.html)
++ [Comma Separated Values (CSV)](csv.html)
++ [Protocol Buffers](protobuf.html)
++ [gRPC (Google Remote Procedure Call)](grpc.html)
++ [Serialization](serialization.html)
++ [Simple Object Access Protocol (SOAP)](soap.html)

@@ -4,7 +4,7 @@
 ``PSR`` are edited by the ``PHP-FIG``: ``Framework Interoperability Group``.
 
 There are 22 PSR in 2026, covering subjects such as cache, factories, log, coding standards, etc.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/psr.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/psr.html","name":"PHP Standards Recommendations (PSR)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``PSR`` stands for PHP Standards Recommendations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/PHP Standards Recommendations (PSR).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/psr.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/psr.html","name":"PHP Standards Recommendations (PSR)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"``PSR`` stands for PHP Standards Recommendations","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/PHP Standards Recommendations (PSR).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"PHP Standards Recommendations (PSR)"}]}]}</script>
 **[Documentation](https://www.php-fig.org/psr/)**
 ## See Also
 
@@ -14,9 +14,9 @@ There are 22 PSR in 2026, covering subjects such as cache, factories, log, codin
 
 ## Related
 
-+ [Framework Interoperability Group (FIG)](php-fig.ini.html)
-+ [Clock](clock.ini.html)
-+ [Code Formatter](code-formatter.ini.html)
-+ [Dependency Injection Container](dependency-injection-container.ini.html)
-+ [Interoperability](interoperability.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
++ [Framework Interoperability Group (FIG)](php-fig.html)
++ [Clock](clock.html)
++ [Code Formatter](code-formatter.html)
++ [Dependency Injection Container](dependency-injection-container.html)
++ [Interoperability](interoperability.html)
++ [Middleware Pattern](middleware.html)

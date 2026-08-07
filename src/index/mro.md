@@ -6,7 +6,7 @@ PHP MRO applies to class hierarchies, via ``extends`` and trait composition, via
 For traits, since there may be several of them, PHP uses a priority system: methods defined in the using class override trait methods, and traits listed first take precedence over those listed later. Conflicts between traits must be resolved explicitly using ``insteadof`` and ``as`` operators.
 
 This becomes critical in deep inheritance chains or with multiple traits, where the resolution order may not be immediately obvious and can lead to unexpected behavior if not managed carefully.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/mro.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/mro.html","name":"Method Resolution Order (MRO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:20:19 +0000","dateModified":"Thu, 09 Jul 2026 08:20:19 +0000","description":"Method Resolution Order, or MRO, is the algorithm that determines the order in which base classes are searched when looking up a method or property in an inheritance hierarchy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Method Resolution Order (MRO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/mro.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/mro.html","name":"Method Resolution Order (MRO)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jul 2026 08:20:19 +0000","dateModified":"Thu, 09 Jul 2026 08:20:19 +0000","description":"Method Resolution Order, or MRO, is the algorithm that determines the order in which base classes are searched when looking up a method or property in an inheritance hierarchy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Method Resolution Order (MRO).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Method Resolution Order (MRO)"}]}]}</script>
 ```php
 <?php
 
@@ -35,11 +35,11 @@ This becomes critical in deep inheritance chains or with multiple traits, where 
 **[Documentation](https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.conflict)**
 ## Related
 
-+ [Trait](trait.ini.html)
-+ [Inheritance](inheritance.ini.html)
-+ [parent](parent.ini.html)
-+ [Child Class](child-class.ini.html)
-+ [Overloading](overloading.ini.html)
-+ [Override Attribute](override.ini.html)
-+ [Late Static Binding](late-static-binding.ini.html)
-+ [Abstract Class](abstract-class.ini.html)
++ [Trait](trait.html)
++ [Inheritance](inheritance.html)
++ [parent](parent.html)
++ [Child Class](child-class.html)
++ [Overloading](overloading.html)
++ [Override Attribute](override.html)
++ [Late Static Binding](late-static-binding.html)
++ [Abstract Class](abstract-class.html)

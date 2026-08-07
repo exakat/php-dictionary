@@ -15,7 +15,7 @@ High cohesion is a desirable property: it makes code easier to understand, test,
 
 Architectes aim for high cohesion and low coupling.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cohesion.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/cohesion.html","name":"Cohesion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cohesion measures how closely related and focused the responsibilities of a single module, class, or function are","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Cohesion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cohesion.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/cohesion.html","name":"Cohesion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Cohesion measures how closely related and focused the responsibilities of a single module, class, or function are","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Cohesion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Cohesion"}]}]}</script>
 ```php
 <?php
 
@@ -45,10 +45,10 @@ class TaxCalculator {
 
 ## Related
 
-+ [Coupling](coupling.ini.html)
-+ [Decoupling](decoupling.ini.html)
-+ [Single Responsability Principle (SRP)](srp.ini.html)
-+ [SOLID](solid.ini.html)
-+ [Separation Of Concerns](separation-of-concerns.ini.html)
-+ [God Object](god-object.ini.html)
-+ [Tech Silo](tech-silo.ini.html)
++ [Coupling](coupling.html)
++ [Decoupling](decoupling.html)
++ [Single Responsability Principle (SRP)](srp.html)
++ [SOLID](solid.html)
++ [Separation Of Concerns](separation-of-concerns.html)
++ [God Object](god-object.html)
++ [Tech Silo](tech-silo.html)

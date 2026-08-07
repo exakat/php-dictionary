@@ -4,7 +4,7 @@ Benchmarking is a process of measuring performances. In the computer science, it
 Benchmarks are set up at the code level, to compare various syntaxes and algorithms; per PHP versions, to compare the evolution of features; at application level, where a high level feature is run on a full installation. 
 
 Benchmarks are usually a good indicator of performance, and should be reviewed with the environment in mind: the hardware, operating system, versions, configurations, feature description ... all have impacts on the final results, or the actual representation of real world situations.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/benchmarking.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/benchmarking.html","name":"Benchmarking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:46 +0000","dateModified":"Tue, 30 Jun 2026 09:14:46 +0000","description":"Benchmarking is a process of measuring performances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Benchmarking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/benchmarking.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/benchmarking.html","name":"Benchmarking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:14:46 +0000","dateModified":"Tue, 30 Jun 2026 09:14:46 +0000","description":"Benchmarking is a process of measuring performances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Benchmarking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Benchmarking"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Benchmark_(computing))**
 ## See Also
 
@@ -16,14 +16,14 @@ Benchmarks are usually a good indicator of performance, and should be reviewed w
 
 ## Related
 
-+ [Performance](performance.ini.html)
-+ [Flame Graph](flamegraph.ini.html)
-+ [Micro-optimisation](micro-optimisation.ini.html)
-+ [Treemap](treemap.ini.html)
-+ [Latency](latency.ini.html)
-+ [Premature Optimization](premature-optimization.ini.html)
-+ [State of the Art (SOTA)](sota.ini.html)
-+ [Throughput](throughput.ini.html)
++ [Performance](performance.html)
++ [Flame Graph](flamegraph.html)
++ [Micro-optimisation](micro-optimisation.html)
++ [Treemap](treemap.html)
++ [Latency](latency.html)
++ [Premature Optimization](premature-optimization.html)
++ [State of the Art (SOTA)](sota.html)
++ [Throughput](throughput.html)
 
 ## Related packages
 

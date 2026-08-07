@@ -12,7 +12,7 @@ PHP provides the ``exif`` extension, which offers functions to read and write EX
 The EXIF data is stored in the file header and does not affect image quality. It is a subset of the TIFF format and is defined by the JEIDA standard, the Japan Electronic Industry Development Association.
 
 Common EXIF functions include ``exif_read_data()``, ``exif_imagetype()``, ``exif_thumbnail()``, and ``exif_process_raw_data()``. Note that EXIF data may contain sensitive information such as GPS location, which should be considered for privacy.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/exif.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/exif.html","name":"EXIF (Exchangeable Image File Format)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:43:38 +0000","dateModified":"Tue, 14 Jul 2026 05:43:38 +0000","description":"EXIF is a standard for storing metadata in image files, particularly JPEG and TIFF","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/EXIF (Exchangeable Image File Format).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/exif.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/exif.html","name":"EXIF (Exchangeable Image File Format)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:43:38 +0000","dateModified":"Tue, 14 Jul 2026 05:43:38 +0000","description":"EXIF is a standard for storing metadata in image files, particularly JPEG and TIFF","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/EXIF (Exchangeable Image File Format).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"EXIF (Exchangeable Image File Format)"}]}]}</script>
 ```php
 <?php
 
@@ -42,12 +42,12 @@ Common EXIF functions include ``exif_read_data()``, ``exif_imagetype()``, ``exif
 
 ## Related
 
-+ [Graphic Draw (GD)](gd.ini.html)
-+ [imagick](imagick.ini.html)
-+ [File](file.ini.html)
-+ [Image](image.ini.html)
-+ [Metadata](metadata.ini.html)
-+ [Privacy](privacy.ini.html)
-+ [Steganography](steganography.ini.html)
-+ [Security](security.ini.html)
-+ [Text Encoding](encoding-text.ini.html)
++ [Graphic Draw (GD)](gd.html)
++ [imagick](imagick.html)
++ [File](file.html)
++ [Image](image.html)
++ [Metadata](metadata.html)
++ [Privacy](privacy.html)
++ [Steganography](steganography.html)
++ [Security](security.html)
++ [Text Encoding](encoding-text.html)

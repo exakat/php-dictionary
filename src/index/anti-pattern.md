@@ -11,7 +11,7 @@ Anti-patterns appear at every level of software development:
 + PHP-specific anti-patterns: suppressing errors with ``@``, using ``eval()`` for configuration, ``register_globals``-era dynamic variable injection
 
 Recognising anti-patterns is a key skill in code review and static analysis. Exakat detects a wide range of PHP anti-patterns through dedicated rules.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/anti-pattern.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/anti-pattern.html","name":"Anti-Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:34:53 +0000","dateModified":"Thu, 16 Jul 2026 14:34:53 +0000","description":"An anti-pattern is a common but counterproductive solution to a recurring problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Anti-Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/anti-pattern.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/anti-pattern.html","name":"Anti-Pattern","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:34:53 +0000","dateModified":"Thu, 16 Jul 2026 14:34:53 +0000","description":"An anti-pattern is a common but counterproductive solution to a recurring problem","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Anti-Pattern.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Anti-Pattern"}]}]}</script>
 ```php
 <?php
 
@@ -44,7 +44,7 @@ Recognising anti-patterns is a key skill in code review and static analysis. Exa
 
 ## Related
 
-+ [Pattern](pattern.ini.html)
-+ [Fat Controller](fat-controller.ini.html)
-+ [Static Application Security Testing (SAST)](sast.ini.html)
-+ [Analysis](analysis.ini.html)
++ [Pattern](pattern.html)
++ [Fat Controller](fat-controller.html)
++ [Static Application Security Testing (SAST)](sast.html)
++ [Analysis](analysis.html)

@@ -13,7 +13,7 @@ A ``Lit`` produces an ``Expr Int``, while ``IsZero`` produces an ``Expr Bool``. 
 GADTs effectively let data constructors act as proofs. They are natively supported in Haskell, OCaml, and Scala via type refinement in pattern matches.
 
 PHP supports none of the prerequisites for GADTs: it has no algebraic data types, no generics, and no exhaustive pattern matching. Class hierarchies with ``instanceof`` dispatch approximate the structural separation of cases, but without the type refinement that makes GADTs powerful. The return type of a method cannot vary based on which subclass was constructed.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/gadt.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/gadt.html","name":"Generalized Algebraic Data Type (GADT)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:17:23 +0000","dateModified":"Wed, 05 Aug 2026 08:17:23 +0000","description":"A Generalized Algebraic Data Type, GADT, is an extension of algebraic data types in which each constructor of the type can return a different, more specific instantiation of the type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Generalized Algebraic Data Type (GADT).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/gadt.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/gadt.html","name":"Generalized Algebraic Data Type (GADT)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:17:23 +0000","dateModified":"Wed, 05 Aug 2026 08:17:23 +0000","description":"A Generalized Algebraic Data Type, GADT, is an extension of algebraic data types in which each constructor of the type can return a different, more specific instantiation of the type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Generalized Algebraic Data Type (GADT).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Generalized Algebraic Data Type (GADT)"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Generalized_algebraic_data_type)**
 ## See Also
 
@@ -22,10 +22,10 @@ PHP supports none of the prerequisites for GADTs: it has no algebraic data types
 
 ## Related
 
-+ [Algebraic Data Type](algebraic-data-type.ini.html)
-+ [Sum Type](sum-type.ini.html)
-+ [Generics](generics.ini.html)
-+ [Type System](type-system.ini.html)
-+ [Type Inference](type-inference.ini.html)
-+ [Pattern Matching](pattern-matching.ini.html)
-+ [Dependent Type](dependent-type.ini.html)
++ [Algebraic Data Type](algebraic-data-type.html)
++ [Sum Type](sum-type.html)
++ [Generics](generics.html)
++ [Type System](type-system.html)
++ [Type Inference](type-inference.html)
++ [Pattern Matching](pattern-matching.html)
++ [Dependent Type](dependent-type.html)

@@ -4,7 +4,7 @@
 These return values are historical and do not match the type names used in type declarations, such as ``int``, ``float``, or ``bool``: for that purpose, ``get_debug_type()``, available since PHP 8.0, is recommended, as it returns the actual type name, including the class name for objects.
 
 ``gettype()`` is mostly used for debugging or logging, rather than for type checking in conditional logic: dedicated functions like ``is_array()``, ``is_string()``, ``is_int()``, ``is_bool()`` are faster and clearer for that purpose. Changing a variable's type is done with ``settype()``, the counterpart of ``gettype()``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/gettype.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/gettype.html","name":"gettype()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:19:44 +0000","dateModified":"Thu, 16 Jul 2026 14:19:44 +0000","description":"``gettype()`` is a PHP native function that returns the type of a variable as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/gettype().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/gettype.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/gettype.html","name":"gettype()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:19:44 +0000","dateModified":"Thu, 16 Jul 2026 14:19:44 +0000","description":"``gettype()`` is a PHP native function that returns the type of a variable as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/gettype().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"gettype()"}]}]}</script>
 ```php
 <?php
 
@@ -25,10 +25,10 @@ These return values are historical and do not match the type names used in type 
 
 ## Related
 
-+ [is\_array()](is_array.ini.html)
-+ [is\_string()](is_string.ini.html)
-+ [is\_int()](is_int.ini.html)
-+ [is\_bool()](is_bool.ini.html)
-+ [is\_iterable()](is_iterable.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
++ [is\_array()](is_array.html)
++ [is\_string()](is_string.html)
++ [is\_int()](is_int.html)
++ [is\_bool()](is_bool.html)
++ [is\_iterable()](is_iterable.html)
++ [Type Checking](type-checking.html)
++ [Type Juggling](type-juggling.html)

@@ -4,7 +4,7 @@ Error reporting is the process to report any issue while executing the code. It 
 Error reporting is set by calling the ``error_reporting()`` function, with a combinaison of constants: ``E_ERROR``, ``E_WARNING``, ``E_PARSE``, ``E_NOTICE``, ``E_CORE_ERROR``, ``E_CORE_WARNING``, ``E_COMPILE_ERROR``, ``E_COMPILE_WARNING``, ``E_USER_ERROR``, ``E_USER_WARNING``, ``E_USER_NOTICE``, ``E_STRICT``, ``E_RECOVERABLE_ERROR``, ``E_DEPRECATED``, ``E_USER_DEPRECATED``, ``E_ALL``. They are combined as a bitfield, or may be replaced by their integer counterpart. One special value is ``-1``, which is the universal error reporting: it activates all types of errors, past present and future.
 
 ``error_reporting``, the directive, is set in the ``php.ini`` file. It doesn't support the bitfield, so it must be set as an integer.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/error_reporting.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/error_reporting.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:54:09 +0000","dateModified":"Wed, 15 Jul 2026 13:54:09 +0000","description":"Error reporting is the process to report any issue while executing the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/error_reporting.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/error_reporting.html","name":"Error Reporting","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 13:54:09 +0000","dateModified":"Wed, 15 Jul 2026 13:54:09 +0000","description":"Error reporting is the process to report any issue while executing the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Error Reporting.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Error Reporting"}]}]}</script>
 ```php
 <?php
 
@@ -33,9 +33,9 @@ Error reporting is set by calling the ``error_reporting()`` function, with a com
 
 ## Related
 
-+ [set\_error\_handler()](set_error_handler.ini.html)
-+ [Constant Combination](constant-combinaison.ini.html)
-+ [Log File](log-file.ini.html)
++ [set\_error\_handler()](set_error_handler.html)
++ [Constant Combination](constant-combinaison.html)
++ [Log File](log-file.html)
 
 ## Related packages
 

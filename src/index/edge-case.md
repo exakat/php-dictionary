@@ -1,6 +1,6 @@
 # Edge Case
 An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment. It requires exceptional conditions to happen, yet it is a possible situation.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/edge-case.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/edge-case.html","name":"Edge Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:52 +0000","dateModified":"Fri, 19 Jun 2026 21:24:52 +0000","description":"An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Edge Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/edge-case.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/edge-case.html","name":"Edge Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:52 +0000","dateModified":"Fri, 19 Jun 2026 21:24:52 +0000","description":"An edge case is a situation that occurs at the extreme ends of input, operating conditions, or environment","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Edge Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Edge Case"}]}]}</script>
 ```php
 <?php
 
@@ -16,7 +16,7 @@ $integer = PHP_INT_MAX + 1;
 **[Documentation](https://en.wikipedia.org/wiki/Edge_case)**
 ## Related
 
-+ [Coverage](coverage.ini.html)
-+ [Overflow](overflow.ini.html)
-+ [Test](test.ini.html)
-+ [Unit Test](unit-test.ini.html)
++ [Coverage](coverage.html)
++ [Overflow](overflow.html)
++ [Test](test.html)
++ [Unit Test](unit-test.html)

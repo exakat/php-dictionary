@@ -5,7 +5,7 @@ For example, integers are translated into string when displayed, or kept as inte
 
 Type juggling is usually done automatically, without user intervention. Explicit type juggling is achieved with the cast operators.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-juggling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-juggling.html","name":"Type Juggling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:41:00 +0000","dateModified":"Mon, 13 Jul 2026 18:41:00 +0000","description":"Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Type Juggling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-juggling.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-juggling.html","name":"Type Juggling","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:41:00 +0000","dateModified":"Mon, 13 Jul 2026 18:41:00 +0000","description":"Type juggling is the emblematic PHP feature, where data has no specific type definition, and its type may change depending on the situation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Type Juggling.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Type Juggling"}]}]}</script>
 ```php
 <?php
 
@@ -27,17 +27,17 @@ Type juggling is usually done automatically, without user intervention. Explicit
 
 ## Related
 
-+ [Cast Operator](cast.ini.html)
-+ [Boolean](boolean.ini.html)
-+ [Comparison](comparison.ini.html)
-+ [Condition](condition.ini.html)
-+ [Magic Hash](magic-hash.ini.html)
-+ [Silent Behavior](silent.ini.html)
-+ [String Increment](string-increment.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [Type Inference](type-inference.ini.html)
-+ [Hash Comparisons](hash-comparison.ini.html)
-+ [Type Coercion](coercion.ini.html)
-+ [Capture The Flag (CTF)](ctf.ini.html)
-+ [Footgun](footgun.ini.html)
-+ [Strict](strict.ini.html)
++ [Cast Operator](cast.html)
++ [Boolean](boolean.html)
++ [Comparison](comparison.html)
++ [Condition](condition.html)
++ [Magic Hash](magic-hash.html)
++ [Silent Behavior](silent.html)
++ [String Increment](string-increment.html)
++ [Type Checking](type-checking.html)
++ [Type Inference](type-inference.html)
++ [Hash Comparisons](hash-comparison.html)
++ [Type Coercion](coercion.html)
++ [Capture The Flag (CTF)](ctf.html)
++ [Footgun](footgun.html)
++ [Strict](strict.html)

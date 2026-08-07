@@ -2,7 +2,7 @@
 A switch default, also called default, is the catch-all option in a ``switch()`` or a ``match()`` expression. 
 
 In a ``switch()``, the default case may be stacked with other cases, to apply the same code. This is not possible with ``match()``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/switch-default.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/switch-default.html","name":"Switch Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:15:13 +0000","dateModified":"Thu, 02 Jul 2026 08:15:13 +0000","description":"A switch default, also called default, is the catch-all option in a ``switch()`` or a ``match()`` expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Switch Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/switch-default.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/switch-default.html","name":"Switch Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:15:13 +0000","dateModified":"Thu, 02 Jul 2026 08:15:13 +0000","description":"A switch default, also called default, is the catch-all option in a ``switch()`` or a ``match()`` expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Switch Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Switch Default"}]}]}</script>
 ```php
 <?php
 
@@ -23,7 +23,7 @@ In a ``switch()``, the default case may be stacked with other cases, to apply th
 **[Documentation](https://www.php.net/manual/en/control-structures.switch.php)**
 ## Related
 
-+ [Default](default.ini.html)
-+ [Switch](switch.ini.html)
-+ [Match](match.ini.html)
-+ [Switch Case](switch-case.ini.html)
++ [Default](default.html)
++ [Switch](switch.html)
++ [Match](match.html)
++ [Switch Case](switch-case.html)

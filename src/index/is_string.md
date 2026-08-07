@@ -4,7 +4,7 @@
 ``is_string()`` does not perform any conversion: it only reports the actual internal type. A numeric string like ``"42"`` is a string, and ``is_string()`` returns ``true`` for it, even though ``is_numeric()`` also returns ``true`` for the same value. Objects implementing ``__toString()`` are not strings, even though they may be used anywhere a string is expected through implicit conversion.
 
 It is frequently used in input validation, and in functions accepting mixed arguments that need to branch on whether a string, as opposed to an array, an object, or a number, was actually passed.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_string.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_string.html","name":"is_string()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:21:00 +0000","dateModified":"Thu, 16 Jul 2026 14:21:00 +0000","description":"``is_string()`` is a PHP native function that checks whether a variable is of type ``string``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_string().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_string.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_string.html","name":"is_string()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:21:00 +0000","dateModified":"Thu, 16 Jul 2026 14:21:00 +0000","description":"``is_string()`` is a PHP native function that checks whether a variable is of type ``string``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_string().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"is_string()"}]}]}</script>
 ```php
 <?php
 
@@ -29,12 +29,12 @@ It is frequently used in input validation, and in functions accepting mixed argu
 
 ## Related
 
-+ [is\_array()](is_array.ini.html)
-+ [is\_bool()](is_bool.ini.html)
-+ [is\_int()](is_int.ini.html)
-+ [is\_numeric()](is_numeric.ini.html)
-+ [is\_iterable()](is_iterable.ini.html)
-+ [gettype()](gettype.ini.html)
-+ [\_\_toString() Method](__tostring.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [Validation](validation.ini.html)
++ [is\_array()](is_array.html)
++ [is\_bool()](is_bool.html)
++ [is\_int()](is_int.html)
++ [is\_numeric()](is_numeric.html)
++ [is\_iterable()](is_iterable.html)
++ [gettype()](gettype.html)
++ [\_\_toString() Method](__tostring.html)
++ [Type Checking](type-checking.html)
++ [Validation](validation.html)

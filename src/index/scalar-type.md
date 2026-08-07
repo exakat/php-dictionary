@@ -12,7 +12,7 @@ String  ``string``: strings are sequences of characters enclosed in quotes, sing
 Boolean  ``bool``: booleans have two possible values: true or false. 
 
 Note that ``null`` is not considered a scalar type, and often behaves differently.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/scalar-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/scalar-type.html","name":"Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Scalar types refer to the basic data types that hold a single value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/scalar-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/scalar-type.html","name":"Scalar Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Scalar types refer to the basic data types that hold a single value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Scalar Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Scalar Types"}]}]}</script>
 ```php
 <?php
 function gen_one_to_three() {
@@ -32,14 +32,14 @@ function gen_one_to_three() {
 
 ## Related
 
-+ [Type System](type.ini.html)
-+ [Special Types](special-type.ini.html)
-+ [String](string.ini.html)
-+ [Boolean](boolean.ini.html)
-+ [Floating Point Numbers](float.ini.html)
-+ [integer](integer.ini.html)
-+ [Alias Types](alias-types.ini.html)
-+ [Constant Scalar Expression](constant-scalar-expression.ini.html)
-+ [Literal Types](literal-types.ini.html)
-+ [Primitive Obsession](primitive-obsession.ini.html)
-+ [Relative Types](relative-types.ini.html)
++ [Type System](type.html)
++ [Special Types](special-type.html)
++ [String](string.html)
++ [Boolean](boolean.html)
++ [Floating Point Numbers](float.html)
++ [integer](integer.html)
++ [Alias Types](alias-types.html)
++ [Constant Scalar Expression](constant-scalar-expression.html)
++ [Literal Types](literal-types.html)
++ [Primitive Obsession](primitive-obsession.html)
++ [Relative Types](relative-types.html)

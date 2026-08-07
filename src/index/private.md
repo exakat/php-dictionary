@@ -5,7 +5,7 @@ The private keyword cannot be used with the ``final`` keyword: a private method 
 
 The private keyword cannot be used with the ``abstract`` keyword: a private method is not visible in the child classes, and can't also be overriden.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/private.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/private.html","name":"Private Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:28:00 +0000","dateModified":"Tue, 14 Jul 2026 06:28:00 +0000","description":"The private keyword is part of the three keywords to define visibility of a method, property or class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Private Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/private.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/private.html","name":"Private Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:28:00 +0000","dateModified":"Tue, 14 Jul 2026 06:28:00 +0000","description":"The private keyword is part of the three keywords to define visibility of a method, property or class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Private Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Private Visibility"}]}]}</script>
 ```php
 <?php
 
@@ -23,13 +23,13 @@ The private keyword cannot be used with the ``abstract`` keyword: a private meth
 **[Documentation](https://www.php.net/manual/en/language.oop5.visibility.php)**
 ## Related
 
-+ [Final Keyword](final.ini.html)
-+ [Visibility](visibility.ini.html)
-+ [Protected Visibility](protected.ini.html)
-+ [Public Visibility](public.ini.html)
-+ [Var](var.ini.html)
-+ [Overwrite](overwrite.ini.html)
-+ [Abstract Keyword](abstract.ini.html)
-+ [Data Hiding](data-hiding.ini.html)
-+ [Modifier](modifier.ini.html)
-+ [Package-Level](package-visibility.ini.html)
++ [Final Keyword](final.html)
++ [Visibility](visibility.html)
++ [Protected Visibility](protected.html)
++ [Public Visibility](public.html)
++ [Var](var.html)
++ [Overwrite](overwrite.html)
++ [Abstract Keyword](abstract.html)
++ [Data Hiding](data-hiding.html)
++ [Modifier](modifier.html)
++ [Package-Level](package-visibility.html)

@@ -8,7 +8,7 @@ With Active Record, developers can easily create, retrieve, update, and delete r
 Additionally, Active Record allows developers to add domain logic to the objects. This means that business rules and validations can be implemented directly within the Active Record classes. For example, it is possible to define methods to validate input, perform calculations, or enforce certain constraints on the data.
 
 Active Record is often used in conjunction with other design patterns, such as the Data Mapper pattern. While Active Record focuses on the direct interaction between objects and the database, the Data Mapper pattern separates the database access logic into a separate layer, providing more flexibility and decoupling between the domain objects and the persistence layer.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/active-record.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/active-record.html","name":"Active Record","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:35:11 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Active Record is a design pattern commonly used in development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Active Record.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/active-record.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/active-record.html","name":"Active Record","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Active Record is a design pattern commonly used in development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Active Record.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Active Record"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Active_record_pattern)**
 ## See Also
 
@@ -17,9 +17,9 @@ Active Record is often used in conjunction with other design patterns, such as t
 
 ## Related
 
-+ [Data Mapper](data-mapper.ini.html)
-+ [Create, Read, Update And Delete (CRUD)](crud.ini.html)
-+ [Structured Query Language (SQL)](sql.ini.html)
++ [Data Mapper](data-mapper.html)
++ [Create, Read, Update And Delete (CRUD)](crud.html)
++ [Structured Query Language (SQL)](sql.html)
 
 ## Related packages
 

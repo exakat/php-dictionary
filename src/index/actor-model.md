@@ -15,7 +15,7 @@ PHP is single-threaded in its classic request/response model, so the Actor Model
 + Swoole / OpenSwoole provide coroutines and channels that enable actor-style communication.
 + The ``parallel`` extension gives true multi-threaded execution with channels for inter-thread messaging.
 + Libraries such as Phluxor and Thespian implement explicit actor runtimes on top of these primitives.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/actor-model.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/actor-model.html","name":"Actor Model","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:12:25 +0000","dateModified":"Thu, 16 Jul 2026 08:12:25 +0000","description":"The Actor Model, introduced by Carl Hewitt in 1973, is a mathematical model of concurrent computation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Actor Model.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/actor-model.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/actor-model.html","name":"Actor Model","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:12:25 +0000","dateModified":"Thu, 16 Jul 2026 08:12:25 +0000","description":"The Actor Model, introduced by Carl Hewitt in 1973, is a mathematical model of concurrent computation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Actor Model.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Actor Model"}]}]}</script>
 ```php
 <?php
 
@@ -50,13 +50,13 @@ PHP is single-threaded in its classic request/response model, so the Actor Model
 
 ## Related
 
-+ [Concurrency](concurrency.ini.html)
-+ [Message Queue](message-queue.ini.html)
-+ [Fibers](fibers.ini.html)
-+ [Coroutine](coroutine.ini.html)
-+ [Asynchronous](asynchronous.ini.html)
-+ [Parallel](parallel.ini.html)
-+ [Race Condition](race-condition.ini.html)
-+ [Shared Memory](shared-memory.ini.html)
-+ [Immutable](immutable.ini.html)
-+ [Software Transactional Memory (STM)](software-transactional-memory.ini.html)
++ [Concurrency](concurrency.html)
++ [Message Queue](message-queue.html)
++ [Fibers](fibers.html)
++ [Coroutine](coroutine.html)
++ [Asynchronous](asynchronous.html)
++ [Parallel](parallel.html)
++ [Race Condition](race-condition.html)
++ [Shared Memory](shared-memory.html)
++ [Immutable](immutable.html)
++ [Software Transactional Memory (STM)](software-transactional-memory.html)

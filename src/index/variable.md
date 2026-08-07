@@ -4,47 +4,52 @@ Variables are used to store and manipulate data. They are containers that hold v
 Variables must start with a dollar sign ``$`` followed by the variable name. The name should begin with a letter or an underscore and can contain letters, numbers, and underscores. PHP variable names are case-sensitive.
 
 PHP is a loosely typed language, which means there is no need to explicitly declare the type of a variable. PHP determines the variable's type based on the assigned value.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/variable.html","name":"Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"Variables are used to store and manipulate data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/variable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/variable.html","name":"Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 09:49:30 +0000","dateModified":"Fri, 07 Aug 2026 09:49:30 +0000","description":"Variables are used to store and manipulate data","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Variables"}]}]}</script>
 ```php
 <?php
 
-$a = 'a';
-// more calculations
-echo a;
+    $a = 'b';
+    // more code
+    echo $a; // displays b
 
 ?>
 ```
 
 **[Documentation](https://www.php.net/manual/en/language.variables.php)**
+## See Also
+
++ [How to store and process data with PHP variables](https://www.ionos.com/digitalguide/websites/web-development/php-variable/)
+
 ## Related
 
-+ [Static Variables](static-variable.ini.html)
-+ [Variable Variables](variable-variable.ini.html)
-+ [Type System](type.ini.html)
-+ [Naming](naming.ini.html)
-+ [Interpolation](interpolation.ini.html)
-+ [Dynamic Variable](dynamic-variable.ini.html)
-+ [Global Variables](global-variable.ini.html)
-+ [global Scope](global.ini.html)
-+ [PHP Variables](php-variable.ini.html)
-+ [Pseudo-variable](pseudo-variable.ini.html)
-+ [References](reference.ini.html)
-+ [static](static.ini.html)
-+ [Superglobal Variables](superglobal.ini.html)
-+ [unset()](unset.ini.html)
-+ [Data Container](data-container.ini.html)
-+ [PHP Constants](php-constant.ini.html)
-+ [Post-increment](post-increment.ini.html)
-+ [Pre-increment](pre-increment.ini.html)
-+ [Self-reference](self-reference.ini.html)
-+ [Dollar $](dollar.ini.html)
-+ [Readable](readable.ini.html)
-+ [Variable Scope](variable-scope.ini.html)
-+ [Writable](writable.ini.html)
-+ [Close Naming](close-naming.ini.html)
-+ [Undefined](undefined.ini.html)
-+ [Variable Shadowing](variable-shadowing.ini.html)
-+ [Writeable](writeable.ini.html)
-+ [Lexical Variable](lexical.ini.html)
-+ [Non-static](non-static.ini.html)
-+ [Swap](swap.ini.html)
++ [Static Variables](static-variable.html)
++ [Variable Variables](variable-variable.html)
++ [Type System](type.html)
++ [Naming](naming.html)
++ [Interpolation](interpolation.html)
++ [Dynamic Variable](dynamic-variable.html)
++ [Global Variables](global-variable.html)
++ [global Scope](global.html)
++ [$GLOBALS]($globals.html)
++ [PHP Variables](php-variable.html)
++ [Pseudo-variable](pseudo-variable.html)
++ [References](reference.html)
++ [static](static.html)
++ [Superglobal Variables](superglobal.html)
++ [unset()](unset.html)
++ [Data Container](data-container.html)
++ [PHP Constants](php-constant.html)
++ [Post-increment](post-increment.html)
++ [Pre-increment](pre-increment.html)
++ [Self-reference](self-reference.html)
++ [Dollar $](dollar.html)
++ [Readable](readable.html)
++ [Variable Scope](variable-scope.html)
++ [Writable](writable.html)
++ [Close Naming](close-naming.html)
++ [Undefined](undefined.html)
++ [Variable Shadowing](variable-shadowing.html)
++ [Writeable](writeable.html)
++ [Lexical Variable](lexical.html)
++ [Non-static](non-static.html)
++ [Swap](swap.html)

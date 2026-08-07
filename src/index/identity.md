@@ -8,7 +8,7 @@ Identity has several related but distinct meanings:
 + Domain identity: in Domain-Driven Design, an entity is defined by its identity rather than its attributes. Two ``User`` objects with the same ``$id`` are the same entity even if other properties differ, while two ``Money`` value objects with the same amount are equal without having an identity
 
 PHP applications manage identity through unique IDs, session tokens, and authentication tokens such as JWTs.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/identity.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/identity.html","name":"Identity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 10:11:49 +0000","dateModified":"Mon, 29 Jun 2026 10:11:49 +0000","description":"Identity has several related but distinct meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Identity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/identity.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/identity.html","name":"Identity","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 29 Jun 2026 10:11:49 +0000","dateModified":"Mon, 29 Jun 2026 10:11:49 +0000","description":"Identity has several related but distinct meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Identity.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Identity"}]}]}</script>
 ```php
 <?php
 
@@ -33,16 +33,16 @@ PHP applications manage identity through unique IDs, session tokens, and authent
 
 ## Related
 
-+ [Identification](identification.ini.html)
-+ [Authentication](authentication.ini.html)
-+ [Identity Comparison](identity-comparison.ini.html)
-+ [Equal Operator](equal.ini.html)
-+ [JSON Web Token (JWT)](jwt.ini.html)
-+ [Universally Unique IDentifier (UUID)](uuid.ini.html)
-+ [Object](object.ini.html)
-+ [Clone](clone.ini.html)
-+ [Domain Design Driven (DDD)](ddd.ini.html)
-+ [Noop](no-operation.ini.html)
-+ [Callables](callable.ini.html)
-+ [Functions](function.ini.html)
-+ [Noop](noop.ini.html)
++ [Identification](identification.html)
++ [Authentication](authentication.html)
++ [Identity Comparison](identity-comparison.html)
++ [Equal Operator](equal.html)
++ [JSON Web Token (JWT)](jwt.html)
++ [Universally Unique IDentifier (UUID)](uuid.html)
++ [Object](object.html)
++ [Clone](clone.html)
++ [Domain Design Driven (DDD)](ddd.html)
++ [Noop](no-operation.html)
++ [Callables](callable.html)
++ [Functions](function.html)
++ [Noop](noop.html)

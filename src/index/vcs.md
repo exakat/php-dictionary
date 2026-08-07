@@ -4,22 +4,22 @@
 A ``VCS`` is also called a SCM: ``Source Control Management``. 
 
 ``VCS`` is a common tool to manage code versions. There are many such systems: git, mercurial, SVN, CVS, etc. The most popular is git.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/vcs.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/vcs.html","name":"Version Control System (VCS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:00:41 +0000","dateModified":"Tue, 30 Jun 2026 09:00:41 +0000","description":"``VCS`` stands for Version Control System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Version Control System (VCS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/vcs.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/vcs.html","name":"Version Control System (VCS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 30 Jun 2026 09:00:41 +0000","dateModified":"Tue, 30 Jun 2026 09:00:41 +0000","description":"``VCS`` stands for Version Control System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Version Control System (VCS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Version Control System (VCS)"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Version_control)**
 ## Related
 
-+ [git](git.ini.html)
-+ [Concurent Version System (CVS)](cvs.ini.html)
-+ [SVN](svn.ini.html)
-+ [hg](hg.ini.html)
-+ [Commit](commit.ini.html)
-+ [Merge](merge.ini.html)
-+ [Pull Request (PR)](pr.ini.html)
-+ [Revision](revision.ini.html)
-+ [Artifact](artifact.ini.html)
-+ [Checksum](checksum.ini.html)
-+ [VCS Commit](vcs-commit.ini.html)
-+ [Worktree](worktree.ini.html)
++ [git](git.html)
++ [Concurent Version System (CVS)](cvs.html)
++ [SVN](svn.html)
++ [hg](hg.html)
++ [Commit](commit.html)
++ [Merge](merge.html)
++ [Pull Request (PR)](pr.html)
++ [Revision](revision.html)
++ [Artifact](artifact.html)
++ [Checksum](checksum.html)
++ [VCS Commit](vcs-commit.html)
++ [Worktree](worktree.html)
 
 ## Related packages
 

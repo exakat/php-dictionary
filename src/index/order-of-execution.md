@@ -10,7 +10,7 @@ As a result, the rules for what must be defined before use depend on the kind of
 + Constants: ``const`` declarations at the top level are evaluated at compile time and are available immediately. ``define()`` calls are runtime statements and only take effect when execution reaches them
 + Variables: a variable must be assigned before it is read. Reading an uninitialized variable produces a notice and yields ``null``. PHP has no variable hoisting at all
 + Included files: code from an ``include`` or ``require`` runs at the point where the statement is reached, not before. Any definitions in the included file become available from that point onward.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/order-of-execution.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/order-of-execution.html","name":"Order Of Execution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:13:14 +0000","dateModified":"Fri, 10 Jul 2026 09:13:14 +0000","description":"The order of execution is the sequence that PHP uses to run the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Order Of Execution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/order-of-execution.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/order-of-execution.html","name":"Order Of Execution","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 09:44:33 +0000","dateModified":"Fri, 07 Aug 2026 09:44:33 +0000","description":"The order of execution is the sequence that PHP uses to run the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Order Of Execution.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Order Of Execution"}]}]}</script>
 ```php
 <?php
 
@@ -48,16 +48,21 @@ As a result, the rules for what must be defined before use depend on the kind of
 ```
 
 **[Documentation](https://www.npopov.com/2021/10/20/Early-binding-in-PHP.html)**
+## See Also
+
++ [Compare define() vs const in PHP](https://www.tutorialspoint.com/article/compare-define-vs-const-in-php)
++ [PHP: Syntax - Manual](https://www.php.net/manual/en/language.constants.syntax.php)
+
 ## Related
 
-+ [Type Checking](type-checking.ini.html)
-+ [Linting](lint.ini.html)
-+ [Compile](compile.ini.html)
-+ [Early Binding](early-binding.ini.html)
-+ [Class Hoisting](class-hoisting.ini.html)
-+ [Class Autoloading](autoload.ini.html)
-+ [Constants](constant.ini.html)
-+ [include](include.ini.html)
-+ [Execution](execution.ini.html)
-+ [Hoisting](hoisting.ini.html)
-+ [Global Code](global-code.ini.html)
++ [Type Checking](type-checking.html)
++ [Linting](lint.html)
++ [Compile](compile.html)
++ [Early Binding](early-binding.html)
++ [Class Hoisting](class-hoisting.html)
++ [Class Autoloading](autoload.html)
++ [Constants](constant.html)
++ [include](include.html)
++ [Execution](execution.html)
++ [Hoisting](hoisting.html)
++ [Global Code](global-code.html)

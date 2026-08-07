@@ -2,7 +2,7 @@
 Arrow functions are a type of closure with a specific syntax. It only accepts one expression, and automatically imports all the variables from the local context of definition. 
 
 Arrow functions may also be marked as ``static``, to prevent this import.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/arrow-function.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/arrow-function.html","name":"Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Arrow functions are a type of closure with a specific syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/arrow-function.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/arrow-function.html","name":"Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Arrow functions are a type of closure with a specific syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Arrow Functions"}]}]}</script>
 ```php
 <?php
 
@@ -32,15 +32,15 @@ Arrow functions may also be marked as ``static``, to prevent this import.
 
 ## Related
 
-+ [static](static.ini.html)
-+ [$this]($this.ini.html)
-+ [Functions](function.ini.html)
-+ [Closure](closure.ini.html)
-+ [Anonymous Function](anonymous-function.ini.html)
-+ [First Class Callable](first-class-callable.ini.html)
-+ [Callables](callable.ini.html)
-+ [Callbacks](callback.ini.html)
-+ [Callable Arrays](array-callable.ini.html)
-+ [Custom Function](custom-function.ini.html)
-+ [Double Arrow](double-arrow.ini.html)
-+ [Streamlining](streamlining.ini.html)
++ [static](static.html)
++ [$this]($this.html)
++ [Functions](function.html)
++ [Closure](closure.html)
++ [Anonymous Function](anonymous-function.html)
++ [First Class Callable](first-class-callable.html)
++ [Callables](callable.html)
++ [Callbacks](callback.html)
++ [Callable Arrays](array-callable.html)
++ [Custom Function](custom-function.html)
++ [Double Arrow](double-arrow.html)
++ [Streamlining](streamlining.html)

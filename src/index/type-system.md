@@ -21,7 +21,7 @@ PHP's type system has evolved significantly:
 + PHP 8.3+: typed class constants, ``\Override`` attribute.
 
 Static analysers add a richer layer of type inference and generics ``@template`` on top of PHP's native declarations, providing near-sound type checking as a development tool without changing runtime behaviour.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-system.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-system.html","name":"Type System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:57:38 +0000","dateModified":"Thu, 06 Aug 2026 05:57:38 +0000","description":"A type system is a formal set of rules that assigns a type to every expression in a program and uses those types to determine which operations are valid, how values are stored, and what errors can be detected before or during execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Type System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-system.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-system.html","name":"Type System","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:57:38 +0000","dateModified":"Thu, 06 Aug 2026 05:57:38 +0000","description":"A type system is a formal set of rules that assigns a type to every expression in a program and uses those types to determine which operations are valid, how values are stored, and what errors can be detected before or during execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Type System.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Type System"}]}]}</script>
 ```php
 <?php
 
@@ -76,27 +76,27 @@ Static analysers add a richer layer of type inference and generics ``@template``
 
 ## Related
 
-+ [strict\_types](strict_types.ini.html)
-+ [Union Type](union-type.ini.html)
-+ [Intersection Type](intersection-type.ini.html)
-+ [Nullable](nullable.ini.html)
-+ [Generics](generics.ini.html)
-+ [Readonly](readonly.ini.html)
-+ [Template Metaprogramming (TMP)](template-metaprogramming.ini.html)
-+ [Static Code Analysis (SCA)](static-analysis.ini.html)
-+ [Algebraic Data Type](algebraic-data-type.ini.html)
-+ [Existential Type](existential-type.ini.html)
-+ [Generalized Algebraic Data Type (GADT)](gadt.ini.html)
-+ [Higher-Kinded Type](higher-kinded-type.ini.html)
-+ [Linear Type](linear-type.ini.html)
-+ [Phantom Type](phantom-type.ini.html)
-+ [Refinement Type](refinement-type.ini.html)
-+ [Row Polymorphism](row-polymorphism.ini.html)
-+ [Semantic Analysis](semantic-analysis.ini.html)
-+ [Array Shape](array-shape.ini.html)
-+ [Effect System](effect-system.ini.html)
-+ [Nominal Type](nominal-type.ini.html)
-+ [Structural Typing](structural-typing.ini.html)
-+ [Type Class](type-class.ini.html)
-+ [Type Narrowing](type-narrowing.ini.html)
-+ [Type Widening](type-widening.ini.html)
++ [strict\_types](strict_types.html)
++ [Union Type](union-type.html)
++ [Intersection Type](intersection-type.html)
++ [Nullable](nullable.html)
++ [Generics](generics.html)
++ [Readonly](readonly.html)
++ [Template Metaprogramming (TMP)](template-metaprogramming.html)
++ [Static Code Analysis (SCA)](static-analysis.html)
++ [Algebraic Data Type](algebraic-data-type.html)
++ [Existential Type](existential-type.html)
++ [Generalized Algebraic Data Type (GADT)](gadt.html)
++ [Higher-Kinded Type](higher-kinded-type.html)
++ [Linear Type](linear-type.html)
++ [Phantom Type](phantom-type.html)
++ [Refinement Type](refinement-type.html)
++ [Row Polymorphism](row-polymorphism.html)
++ [Semantic Analysis](semantic-analysis.html)
++ [Array Shape](array-shape.html)
++ [Effect System](effect-system.html)
++ [Nominal Type](nominal-type.html)
++ [Structural Typing](structural-typing.html)
++ [Type Class](type-class.html)
++ [Type Narrowing](type-narrowing.html)
++ [Type Widening](type-widening.html)

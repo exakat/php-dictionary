@@ -6,7 +6,7 @@ In MVC architecture: a view is the presentation layer of the Model-View-Controll
 In SQL databases: a view is a stored query that acts as a virtual table. It does not store data itself but provides a way to simplify complex queries, restrict access to specific columns or rows, and present a consistent interface even when the underlying schema changes. Views can be read-only or updateable depending on the database engine and query complexity.
 
 In templating: the ``view()`` pattern refers to any mechanism that renders output to the user, including template engines, the ``View`` class in MVC frameworks, or even direct ``echo`` statements in simpler applications.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/view.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/view.html","name":"View","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:39:19 +0000","dateModified":"Mon, 03 Aug 2026 16:39:19 +0000","description":"A view may be several things: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/View.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/view.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/view.html","name":"View","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Aug 2026 16:39:19 +0000","dateModified":"Mon, 03 Aug 2026 16:39:19 +0000","description":"A view may be several things: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/View.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"View"}]}]}</script>
 ```php
 <?php
 
@@ -38,14 +38,14 @@ In templating: the ``view()`` pattern refers to any mechanism that renders outpu
 
 ## Related
 
-+ [Model - View - Controller (MVC)](mvc.ini.html)
-+ [View In Presentation](view-presentation.ini.html)
-+ [SQL Views](view-sql.ini.html)
-+ [Render](render.ini.html)
-+ [Controller](controller.ini.html)
-+ [Model](model.ini.html)
-+ [Template](template.ini.html)
-+ [Twig](twig.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
-+ [Direct Output](direct-output.ini.html)
-+ [HyperText Markup Language (HTML)](html.ini.html)
++ [Model - View - Controller (MVC)](mvc.html)
++ [View In Presentation](view-presentation.html)
++ [SQL Views](view-sql.html)
++ [Render](render.html)
++ [Controller](controller.html)
++ [Model](model.html)
++ [Template](template.html)
++ [Twig](twig.html)
++ [Middleware Pattern](middleware.html)
++ [Direct Output](direct-output.html)
++ [HyperText Markup Language (HTML)](html.html)

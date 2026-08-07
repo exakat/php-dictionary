@@ -26,7 +26,7 @@ Control flow structures can't be called dynamically: they have to be hardcoded, 
 Each of these constructs answers a different question about the order of execution: conditionals, ``if``, ``elseif``, ``match``, choose between branches; loops, ``while``, ``do...while``, ``for``, ``foreach``, repeat a block until a condition changes; jump statements, ``break``, ``continue``, ``return``, ``goto``, leave the current structure early or transfer control elsewhere; and the file-inclusion constructs, ``require``, ``include``, and their ``_once`` variants, bring another script's control flow into the current one.
 
 Understanding control flow is central to reading any PHP program, since it determines which statements actually run for a given input, in what order, and how many times. Poorly structured control flow, such as deeply nested conditionals or unbounded loops, is a common source of bugs and a frequent target of static analysis and refactoring.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/control-flow.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/control-flow.html","name":"Control Flow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:14:57 +0000","dateModified":"Tue, 04 Aug 2026 11:14:57 +0000","description":"Control flow structures direct the way PHP executes the statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Control Flow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/control-flow.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/control-flow.html","name":"Control Flow","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 11:14:57 +0000","dateModified":"Tue, 04 Aug 2026 11:14:57 +0000","description":"Control flow structures direct the way PHP executes the statements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Control Flow.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Control Flow"}]}]}</script>
 ```php
 <?php
 
@@ -47,20 +47,20 @@ Understanding control flow is central to reading any PHP program, since it deter
 
 ## Related
 
-+ [Statement](statement.ini.html)
-+ [Loops](loop.ini.html)
-+ [Semicolon ;](semicolon.ini.html)
-+ [If Then Else](if-then.ini.html)
-+ [While](while.ini.html)
-+ [Do While](do-while.ini.html)
-+ [For](for.ini.html)
-+ [foreach()](foreach.ini.html)
-+ [Break](break.ini.html)
-+ [Continue](continue.ini.html)
-+ [Switch](switch.ini.html)
-+ [Match](match.ini.html)
-+ [declare()](declare.ini.html)
-+ [Return](return.ini.html)
-+ [Inclusions](inclusion.ini.html)
-+ [Goto](goto.ini.html)
-+ [Jump](jump.ini.html)
++ [Statement](statement.html)
++ [Loops](loop.html)
++ [Semicolon ;](semicolon.html)
++ [If Then Else](if-then.html)
++ [While](while.html)
++ [Do While](do-while.html)
++ [For](for.html)
++ [foreach()](foreach.html)
++ [Break](break.html)
++ [Continue](continue.html)
++ [Switch](switch.html)
++ [Match](match.html)
++ [declare()](declare.html)
++ [Return](return.html)
++ [Inclusions](inclusion.html)
++ [Goto](goto.html)
++ [Jump](jump.html)

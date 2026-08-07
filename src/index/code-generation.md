@@ -13,7 +13,7 @@ Code generation takes several forms:
 Generated code is typically committed to the repository, so that deployment does not require a build step, or kept out of version control and regenerated as part of CI. The choice depends on whether the generated output is considered an artefact or a first-class source file.
 
 Code generation differs from metaprogramming in that it produces static files before runtime; metaprogramming operates on the live program at runtime.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/code-generation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/code-generation.html","name":"Code Generation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:06:24 +0000","dateModified":"Sun, 02 Aug 2026 06:06:24 +0000","description":"Code generation is the automatic production of source code from a higher-level specification, model, schema, or set of rules","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Code Generation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/code-generation.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/code-generation.html","name":"Code Generation","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:06:24 +0000","dateModified":"Sun, 02 Aug 2026 06:06:24 +0000","description":"Code generation is the automatic production of source code from a higher-level specification, model, schema, or set of rules","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Code Generation.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Code Generation"}]}]}</script>
 ```php
 <?php
 
@@ -52,15 +52,15 @@ Code generation differs from metaprogramming in that it produces static files be
 
 ## Related
 
-+ [Code Generator](code-generator.ini.html)
-+ [Metaprogramming](metaprogramming.ini.html)
-+ [Template Metaprogramming (TMP)](template-metaprogramming.ini.html)
-+ [Homoiconicity](homoiconicity.ini.html)
-+ [Attribute](attribute.ini.html)
-+ [Reflection](reflection.ini.html)
-+ [Abstract Syntactic Tree (AST)](ast.ini.html)
-+ [Rector](rector.ini.html)
-+ [Scaffolding](scaffolding.ini.html)
++ [Code Generator](code-generator.html)
++ [Metaprogramming](metaprogramming.html)
++ [Template Metaprogramming (TMP)](template-metaprogramming.html)
++ [Homoiconicity](homoiconicity.html)
++ [Attribute](attribute.html)
++ [Reflection](reflection.html)
++ [Abstract Syntactic Tree (AST)](ast.html)
++ [Rector](rector.html)
++ [Scaffolding](scaffolding.html)
 
 ## Related packages
 

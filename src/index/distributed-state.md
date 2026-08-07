@@ -8,7 +8,7 @@ Distributed state creates several detectable problems:
 + Untestable code: a function cannot be tested in isolation if it reads global state
 + Hidden dependencies: the function signature lies. It looks pure but reads from $_SESSION or a static.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/distributed-state.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/distributed-state.html","name":"Distributed State","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Jun 2026 20:35:58 +0000","dateModified":"Fri, 19 Jun 2026 21:24:22 +0000","description":"Distributed state refers to application state that is scattered across multiple, loosely-connected locations rather than being owned by a single, well-defined component","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Distributed State.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/distributed-state.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/distributed-state.html","name":"Distributed State","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 09:44:11 +0000","dateModified":"Fri, 07 Aug 2026 09:44:11 +0000","description":"Distributed state refers to application state that is scattered across multiple, loosely-connected locations rather than being owned by a single, well-defined component","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Distributed State.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Distributed State"}]}]}</script>
 ```php
 <?php
 
@@ -32,11 +32,12 @@ Distributed state creates several detectable problems:
 **[Documentation](https://en.wikipedia.org/wiki/Distributed_computing)**
 ## Related
 
-+ [State](state.ini.html)
-+ [Implicit State](implicit-state.ini.html)
-+ [Hidden State](hidden-state.ini.html)
-+ [Implicit](implicit.ini.html)
-+ [Stateful](stateful.ini.html)
-+ [Global Variables](global-variable.ini.html)
-+ [Appeasement Pattern](appeasement-pattern.ini.html)
-+ [Load Balancer](load-balancer.ini.html)
++ [State](state.html)
++ [Implicit State](implicit-state.html)
++ [Hidden State](hidden-state.html)
++ [Implicit](implicit.html)
++ [Stateful](stateful.html)
++ [Global Variables](global-variable.html)
++ [$GLOBALS]($globals.html)
++ [Appeasement Pattern](appeasement-pattern.html)
++ [Load Balancer](load-balancer.html)

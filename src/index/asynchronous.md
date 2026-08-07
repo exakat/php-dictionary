@@ -2,7 +2,7 @@
 Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete. Traditional PHP scripts execute code synchronously, where each task must finish before the next one starts. Asynchronous PHP allows tasks to start and run independently, improving efficiency and performance, especially for tasks like handling multiple HTTP requests, database operations, or file I/O.
 
 There are various libraries and frameworks available for implementing asynchronous PHP, such as Fiber, ReactPHP, Amp, and Swoole.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/asynchronous.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/asynchronous.html","name":"Asynchronous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:24:17 +0000","dateModified":"Tue, 14 Jul 2026 06:24:17 +0000","description":"Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Asynchronous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/asynchronous.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/asynchronous.html","name":"Asynchronous","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:24:17 +0000","dateModified":"Tue, 14 Jul 2026 06:24:17 +0000","description":"Asynchronous PHP, often abbreviated as async PHP, refers to the capability of executing PHP code asynchronously, meaning that tasks can run concurrently without waiting for each other to complete","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Asynchronous.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Asynchronous"}]}]}</script>
 ```php
 <?php
 
@@ -39,23 +39,23 @@ There are various libraries and frameworks available for implementing asynchrono
 
 ## Related
 
-+ [Synchronous](synchronous.ini.html)
-+ [Concurrency](concurency.ini.html)
-+ [Multithreading](multithreading.ini.html)
-+ [Promise](promise.ini.html)
-+ [Real Time](real-time.ini.html)
-+ [Thread](thread.ini.html)
-+ [Async](async.ini.html)
-+ [Blocking Wait](blocking-wait.ini.html)
-+ [Cancellation](cancellation.ini.html)
-+ [Fibers](fibers.ini.html)
-+ [Future](future.ini.html)
-+ [Concurrency](concurrency.ini.html)
-+ [Fire-and-forget](fire-and-forget.ini.html)
-+ [Green Thread](green-thread.ini.html)
-+ [Request-Response](request-response.ini.html)
-+ [Actor Model](actor-model.ini.html)
-+ [AMP (Asynchronous Markup Protocol)](amp.ini.html)
-+ [OpenSwoole](openswoole.ini.html)
-+ [ReactPHP](reactphp.ini.html)
-+ [Swoole](swoole.ini.html)
++ [Synchronous](synchronous.html)
++ [Concurrency](concurency.html)
++ [Multithreading](multithreading.html)
++ [Promise](promise.html)
++ [Real Time](real-time.html)
++ [Thread](thread.html)
++ [Async](async.html)
++ [Blocking Wait](blocking-wait.html)
++ [Cancellation](cancellation.html)
++ [Fibers](fibers.html)
++ [Future](future.html)
++ [Concurrency](concurrency.html)
++ [Fire-and-forget](fire-and-forget.html)
++ [Green Thread](green-thread.html)
++ [Request-Response](request-response.html)
++ [Actor Model](actor-model.html)
++ [AMP (Asynchronous Markup Protocol)](amp.html)
++ [OpenSwoole](openswoole.html)
++ [ReactPHP](reactphp.html)
++ [Swoole](swoole.html)

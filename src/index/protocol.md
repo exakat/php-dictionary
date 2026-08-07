@@ -2,7 +2,7 @@
 A protocol is a scheme part of a URL, with an associated wrapper. 
 
 In a URL like ``ftp://www.site.com/file.txt``, the protocol is ``ftp``, and relates to the FTP protocol. It is also a predefined PHP wrapper.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/protocol.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/protocol.html","name":"Protocol","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A protocol is a scheme part of a URL, with an associated wrapper","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Protocol.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/protocol.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/protocol.html","name":"Protocol","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"A protocol is a scheme part of a URL, with an associated wrapper","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Protocol.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Protocol"}]}]}</script>
 ```php
 <?php
 
@@ -18,13 +18,13 @@ $html = file_get_content('http://www.php.net/');
 
 ## Related
 
-+ [Wrapper](wrapper.ini.html)
-+ [Hyper Text Transfer Protocol (HTTP)](http.ini.html)
-+ [Hyper Text Transfer Protocol Secure (HTTPS)](https.ini.html)
-+ [php://](wrapper-php.ini.html)
-+ [Stream Wrapper](wrapper-stream.ini.html)
-+ [Stream Wrapper](stream-wrapper.ini.html)
-+ [Model Context Protocol (MCP)](mcp.ini.html)
-+ [OAuth](oauth.ini.html)
-+ [Path](path.ini.html)
-+ [PHP Wrappers](php-wrapper.ini.html)
++ [Wrapper](wrapper.html)
++ [Hyper Text Transfer Protocol (HTTP)](http.html)
++ [Hyper Text Transfer Protocol Secure (HTTPS)](https.html)
++ [php://](wrapper-php.html)
++ [Stream Wrapper](wrapper-stream.html)
++ [Stream Wrapper](stream-wrapper.html)
++ [Model Context Protocol (MCP)](mcp.html)
++ [OAuth](oauth.html)
++ [Path](path.html)
++ [PHP Wrappers](php-wrapper.html)

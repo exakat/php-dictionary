@@ -4,7 +4,7 @@ A callable is an object that can pass the ``callable`` type.
 A callable may be a callback function or method, represented as a string, a closure or an arrow function. 
 
 Objects may also be callable, when their class implement the magic method ``__invoke()``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/callable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/callable.html","name":"Callables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A callable is an object that can pass the ``callable`` type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Callables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/callable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/callable.html","name":"Callables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"A callable is an object that can pass the ``callable`` type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Callables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Callables"}]}]}</script>
 ```php
 <?php
 
@@ -22,13 +22,13 @@ call_user_func('foo');
 
 ## Related
 
-+ [Callbacks](callback.ini.html)
-+ [Closure](closure.ini.html)
-+ [\_\_invoke() Method](__invoke.ini.html)
-+ [Arrow Functions](arrow-function.ini.html)
-+ [Callable Arrays](array-callable.ini.html)
-+ [Call](call.ini.html)
-+ [Pseudo-type](pseudo-type.ini.html)
-+ [Special Types](special-typehint.ini.html)
-+ [Identity](identity.ini.html)
-+ [PHP Natives](native-type.ini.html)
++ [Callbacks](callback.html)
++ [Closure](closure.html)
++ [\_\_invoke() Method](__invoke.html)
++ [Arrow Functions](arrow-function.html)
++ [Callable Arrays](array-callable.html)
++ [Call](call.html)
++ [Pseudo-type](pseudo-type.html)
++ [Special Types](special-typehint.html)
++ [Identity](identity.html)
++ [PHP Natives](native-type.html)

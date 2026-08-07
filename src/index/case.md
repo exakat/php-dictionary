@@ -6,7 +6,7 @@
 + With enumeration
 
 ``case`` is often complemented with ``default``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/case.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/case.html","name":"Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:24:29 +0000","dateModified":"Mon, 20 Jul 2026 08:24:29 +0000","description":"``case`` is a PHP keyword, which may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/case.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/case.html","name":"Case","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jul 2026 08:24:29 +0000","dateModified":"Mon, 20 Jul 2026 08:24:29 +0000","description":"``case`` is a PHP keyword, which may be used in three distinct situations: ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Case.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Case"}]}]}</script>
 ```php
 <?php
 
@@ -36,9 +36,9 @@ switch ($i) {
 **[Documentation](https://www.php.net/manual/en/control-structures.switch.php)**
 ## Related
 
-+ [Default](default.ini.html)
-+ [Match](match.ini.html)
-+ [Enumeration (enum)](enum.ini.html)
-+ [Enumeration Case](enum-case.ini.html)
-+ [Switch](switch.ini.html)
-+ [Switch Case](switch-case.ini.html)
++ [Default](default.html)
++ [Match](match.html)
++ [Enumeration (enum)](enum.html)
++ [Enumeration Case](enum-case.html)
++ [Switch](switch.html)
++ [Switch Case](switch-case.html)

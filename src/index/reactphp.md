@@ -17,7 +17,7 @@ ReactPHP is widely used for building:
 + File watchers and process managers
 
 It is the foundation for many production-grade PHP applications requiring high concurrency, such as chat servers, real-time APIs, and IoT gateways. ReactPHP 1.x requires PHP 7.1+, and the upcoming 2.0 version will leverage Fibers for simpler coroutine-like syntax.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/reactphp.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/reactphp.html","name":"ReactPHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:28:00 +0000","dateModified":"Thu, 16 Jul 2026 14:28:00 +0000","description":"ReactPHP is a low-level library for event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/ReactPHP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/reactphp.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/reactphp.html","name":"ReactPHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:28:00 +0000","dateModified":"Thu, 16 Jul 2026 14:28:00 +0000","description":"ReactPHP is a low-level library for event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ReactPHP.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"ReactPHP"}]}]}</script>
 ```php
 <?php
 
@@ -43,21 +43,21 @@ It is the foundation for many production-grade PHP applications requiring high c
 
 ## Related
 
-+ [AMP (Asynchronous Markup Protocol)](amp.ini.html)
-+ [Async](async.ini.html)
-+ [Asynchronous](asynchronous.ini.html)
-+ [Event Loop](event-loop.ini.html)
-+ [Event Driven](event-driven.ini.html)
-+ [Coroutine](coroutine.ini.html)
-+ [Promise](promise.ini.html)
-+ [Non-blocking](non-blocking.ini.html)
-+ [Concurrency](concurrency.ini.html)
-+ [Fibers](fibers.ini.html)
-+ [Microservice](microservice.ini.html)
-+ [Swoole](swoole.ini.html)
-+ [OpenSwoole](openswoole.ini.html)
-+ [Websocket](websocket.ini.html)
-+ [Socket](socket.ini.html)
++ [AMP (Asynchronous Markup Protocol)](amp.html)
++ [Async](async.html)
++ [Asynchronous](asynchronous.html)
++ [Event Loop](event-loop.html)
++ [Event Driven](event-driven.html)
++ [Coroutine](coroutine.html)
++ [Promise](promise.html)
++ [Non-blocking](non-blocking.html)
++ [Concurrency](concurrency.html)
++ [Fibers](fibers.html)
++ [Microservice](microservice.html)
++ [Swoole](swoole.html)
++ [OpenSwoole](openswoole.html)
++ [Websocket](websocket.html)
++ [Socket](socket.html)
 
 ## Related packages
 

@@ -4,7 +4,7 @@ Performance refers to the speed of execution, or, to a lesser extent, to the eco
 The speed of execution is the time it takes for a task to be completed, and usually, the faster the better. In that context, there is a distinction between unit performance and parallel performances, where several instances are executed at the same time. 
 
 The performance of a piece of code may cover its memory consumption, or any other constrained resource.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/performance.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/performance.html","name":"Performance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:18:12 +0000","dateModified":"Thu, 02 Jul 2026 08:18:12 +0000","description":"Performance refers to the speed of execution, or, to a lesser extent, to the economy of resources used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Performance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/performance.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/performance.html","name":"Performance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jul 2026 08:18:12 +0000","dateModified":"Thu, 02 Jul 2026 08:18:12 +0000","description":"Performance refers to the speed of execution, or, to a lesser extent, to the economy of resources used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Performance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Performance"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Software_performance_testing)**
 ## See Also
 
@@ -13,28 +13,28 @@ The performance of a piece of code may cover its memory consumption, or any othe
 
 ## Related
 
-+ [Benchmarking](benchmarking.ini.html)
-+ [Quality](quality.ini.html)
-+ [Scaling](scaling.ini.html)
-+ [Static Single Assignment Form (SSA)](ssa.ini.html)
-+ [Optimisation](optimisation.ini.html)
-+ [Preprocessing](preprocess.ini.html)
-+ [Types Erasure](type-erasure.ini.html)
-+ [Vertical Scaling](vertical-scaling.ini.html)
-+ [Dynamic Loading](dynamic-loading.ini.html)
-+ [Foreign Function Interface (FFI)](ffi.ini.html)
-+ [Total Cost Of Ownership (TCO)](tco.ini.html)
-+ [Treemap](treemap.ini.html)
-+ [Troubleshoot](troubleshoot.ini.html)
-+ [Flame Graph](flamegraph.ini.html)
-+ [Memoization](memoization.ini.html)
-+ [Micro-optimisation](micro-optimisation.ini.html)
-+ [Latency](latency.ini.html)
-+ [Quality of Service (QoS)](qos.ini.html)
-+ [Rate Limiting](rate-limit.ini.html)
-+ [Service Level Agreement (SLA)](sla.ini.html)
-+ [Blackfire](blackfire.ini.html)
-+ [Cold Start](cold-start.ini.html)
-+ [Premature Optimization](premature-optimization.ini.html)
-+ [Throughput](throughput.ini.html)
-+ [Tideways](tideways.ini.html)
++ [Benchmarking](benchmarking.html)
++ [Quality](quality.html)
++ [Scaling](scaling.html)
++ [Static Single Assignment Form (SSA)](ssa.html)
++ [Optimisation](optimisation.html)
++ [Preprocessing](preprocess.html)
++ [Types Erasure](type-erasure.html)
++ [Vertical Scaling](vertical-scaling.html)
++ [Dynamic Loading](dynamic-loading.html)
++ [Foreign Function Interface (FFI)](ffi.html)
++ [Total Cost Of Ownership (TCO)](tco.html)
++ [Treemap](treemap.html)
++ [Troubleshoot](troubleshoot.html)
++ [Flame Graph](flamegraph.html)
++ [Memoization](memoization.html)
++ [Micro-optimisation](micro-optimisation.html)
++ [Latency](latency.html)
++ [Quality of Service (QoS)](qos.html)
++ [Rate Limiting](rate-limit.html)
++ [Service Level Agreement (SLA)](sla.html)
++ [Blackfire](blackfire.html)
++ [Cold Start](cold-start.html)
++ [Premature Optimization](premature-optimization.html)
++ [Throughput](throughput.html)
++ [Tideways](tideways.html)

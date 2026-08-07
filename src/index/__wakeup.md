@@ -4,7 +4,7 @@
 In particular, some resources, such as database connections or files cannot be serialized. They should be closed, stored as a path in ``__sleep()``, and reopened later with ``__wakeup()``.
 
 The ``__wakeup()`` method is usually paired with the ``__sleep()`` method.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/__wakeup.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/__wakeup.html","name":"__wakeup() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:49:51 +0000","dateModified":"Wed, 05 Aug 2026 08:49:51 +0000","description":"``__wakeup()`` is a magic method: it is called when an object is being deserialized, so that the object may be restored to its working condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/__wakeup() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/__wakeup.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/__wakeup.html","name":"__wakeup() Method","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 08:49:51 +0000","dateModified":"Wed, 05 Aug 2026 08:49:51 +0000","description":"``__wakeup()`` is a magic method: it is called when an object is being deserialized, so that the object may be restored to its working condition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/__wakeup() Method.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"__wakeup() Method"}]}]}</script>
 ```php
 <?php
 
@@ -33,6 +33,6 @@ The ``__wakeup()`` method is usually paired with the ``__sleep()`` method.
 
 ## Related
 
-+ [Magic Methods](magic-method.ini.html)
-+ [\_\_sleep() Method](__sleep.ini.html)
-+ [Insecure Deserialization](insecure-deserialization.ini.html)
++ [Magic Methods](magic-method.html)
++ [\_\_sleep() Method](__sleep.html)
++ [Insecure Deserialization](insecure-deserialization.html)

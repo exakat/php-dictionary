@@ -10,7 +10,7 @@ Bitwise operators are convenient to handle bit fields.
 All these operators have a short assignation version, as shown above.
 
 These operator differ from logical operators, which convert the value to boolean before manipulation.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/bitwise-operator.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/bitwise-operator.html","name":"Bitwise Operators","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Bitwise operators evaluate specific bits within an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Bitwise Operators.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/bitwise-operator.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/bitwise-operator.html","name":"Bitwise Operators","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:58 +0000","dateModified":"Mon, 15 Jun 2026 11:03:58 +0000","description":"Bitwise operators evaluate specific bits within an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Bitwise Operators.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Bitwise Operators"}]}]}</script>
 ```php
 <?php
 
@@ -30,14 +30,14 @@ print $a & $b; // 3; binary : 11
 
 ## Related
 
-+ [Logical Operators](logical-operator.ini.html)
-+ [Logical Operators](or.ini.html)
-+ [And Operator](and.ini.html)
-+ [Logical Operators](xor.ini.html)
-+ [Short Assignations](short-assignation.ini.html)
-+ [Bitfield](bitfield.ini.html)
-+ [Boolean](boolean.ini.html)
-+ [Bitmask](bitmask.ini.html)
-+ [Bitshift Operators](bitshift-operator.ini.html)
-+ [Letter Logical Bug](letter-logical.ini.html)
-+ [Pipe Operator](pipe.ini.html)
++ [Logical Operators](logical-operator.html)
++ [Logical Operators](or.html)
++ [And Operator](and.html)
++ [Logical Operators](xor.html)
++ [Short Assignations](short-assignation.html)
++ [Bitfield](bitfield.html)
++ [Boolean](boolean.html)
++ [Bitmask](bitmask.html)
++ [Bitshift Operators](bitshift-operator.html)
++ [Letter Logical Bug](letter-logical.html)
++ [Pipe Operator](pipe.html)

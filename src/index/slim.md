@@ -4,7 +4,7 @@ Slim is a lightweight PHP micro-framework designed for building APIs and small w
 Slim follows the philosophy of doing less: it ships with no ORM, no templating engine, and no authentication layer. Developers add only the components they need.
 
 In a broader sense, slim is also used informally to describe code or classes that are deliberately minimal and focused on a single task.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/slim.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/slim.html","name":"Slim","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:58:02 +0000","dateModified":"Mon, 06 Jul 2026 18:58:02 +0000","description":"Slim is a lightweight PHP micro-framework designed for building APIs and small web applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Slim.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/slim.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/slim.html","name":"Slim","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 18:58:02 +0000","dateModified":"Mon, 06 Jul 2026 18:58:02 +0000","description":"Slim is a lightweight PHP micro-framework designed for building APIs and small web applications","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Slim.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Slim"}]}]}</script>
 ```php
 <?php
 
@@ -27,13 +27,13 @@ In a broader sense, slim is also used informally to describe code or classes tha
 **[Documentation](https://www.slimframework.com/docs/v4/)**
 ## Related
 
-+ [Thin](thin.ini.html)
-+ [Fat](fat.ini.html)
-+ [Micro-framework](micro-framework.ini.html)
-+ [Request](request.ini.html)
-+ [Middleware Pattern](middleware.ini.html)
-+ [Route](route.ini.html)
-+ [PHP Standards Recommendations (PSR)](psr.ini.html)
++ [Thin](thin.html)
++ [Fat](fat.html)
++ [Micro-framework](micro-framework.html)
++ [Request](request.html)
++ [Middleware Pattern](middleware.html)
++ [Route](route.html)
++ [PHP Standards Recommendations (PSR)](psr.html)
 
 ## Related packages
 

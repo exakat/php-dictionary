@@ -1,6 +1,6 @@
 # Design By Contract (DBC)
 Design by Contract, or ``DbC``, is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants. Although DbC is not natively supported, any application may incorporate its principles into its source code using libraries and coding practices.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/contract.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/contract.html","name":"Design By Contract (DBC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:39:49 +0000","dateModified":"Thu, 18 Jun 2026 13:39:49 +0000","description":"Design by Contract, or ``DbC``, is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Design By Contract (DBC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/contract.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/contract.html","name":"Design By Contract (DBC)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:39:49 +0000","dateModified":"Thu, 18 Jun 2026 13:39:49 +0000","description":"Design by Contract, or ``DbC``, is a software development approach that focuses on specifying the expected behavior of software components through preconditions, postconditions, and invariants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Design By Contract (DBC).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Design By Contract (DBC)"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Design_by_contract)**
 ## See Also
 
@@ -11,8 +11,8 @@ Design by Contract, or ``DbC``, is a software development approach that focuses 
 
 ## Related
 
-+ [Paradigm](paradigm.ini.html)
-+ [Specification](specification.ini.html)
++ [Paradigm](paradigm.html)
++ [Specification](specification.html)
 
 ## Related packages
 

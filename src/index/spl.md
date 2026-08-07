@@ -4,7 +4,7 @@ The Standard PHP Library, the SPL, is a collection of interfaces and classes tha
 SPL offers features, functions, classes and interfaces in many different fields: iterators, data structures, files, exceptions, and observers. 
 
 One of the most famous SPL features is the function ``spl_autoload_register()``, which register an autoload handler.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/spl.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/spl.html","name":"Standard PHP Library (SPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:18:52 +0000","dateModified":"Mon, 06 Jul 2026 10:18:52 +0000","description":"The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Standard PHP Library (SPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/spl.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/spl.html","name":"Standard PHP Library (SPL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:18:52 +0000","dateModified":"Mon, 06 Jul 2026 10:18:52 +0000","description":"The Standard PHP Library, the SPL, is a collection of interfaces and classes that are meant to solve common problems","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Standard PHP Library (SPL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Standard PHP Library (SPL)"}]}]}</script>
 ```php
 <?php
 
@@ -31,22 +31,22 @@ One of the most famous SPL features is the function ``spl_autoload_register()``,
 
 ## Related
 
-+ [Class Autoloading](autoload.ini.html)
-+ [Datastack](datastack.ini.html)
-+ [DirectoryIterator](directoryiterator.ini.html)
-+ [Iterator](iterator.ini.html)
-+ [UnexpectedValueException](unexpectedvalueexception.ini.html)
-+ [Data Structure](datastructure.ini.html)
-+ [OuterIterator](outeriterator.ini.html)
-+ [Overflow](overflow.ini.html)
-+ [RecursiveIterator](recursiveiterator.ini.html)
-+ [IteratorAggregate](iteratoraggregate.ini.html)
-+ [RecursiveArrayIterator](recursivearrayiterator.ini.html)
-+ [RecursiveDirectoryIterator](recursivedirectoryiterator.ini.html)
-+ [SeekableIterator](seekableiterator.ini.html)
-+ [SplDoublyLinkedList](spldoublylinkedlist.ini.html)
-+ [SplFileInfo](splfileinfo.ini.html)
-+ [SplFileObject](splfileobject.ini.html)
-+ [SplObjectStorage](splobjectstorage.ini.html)
-+ [SplObserver](splobserver.ini.html)
-+ [SplSubject](splsubject.ini.html)
++ [Class Autoloading](autoload.html)
++ [Datastack](datastack.html)
++ [DirectoryIterator](directoryiterator.html)
++ [Iterator](iterator.html)
++ [UnexpectedValueException](unexpectedvalueexception.html)
++ [Data Structure](datastructure.html)
++ [OuterIterator](outeriterator.html)
++ [Overflow](overflow.html)
++ [RecursiveIterator](recursiveiterator.html)
++ [IteratorAggregate](iteratoraggregate.html)
++ [RecursiveArrayIterator](recursivearrayiterator.html)
++ [RecursiveDirectoryIterator](recursivedirectoryiterator.html)
++ [SeekableIterator](seekableiterator.html)
++ [SplDoublyLinkedList](spldoublylinkedlist.html)
++ [SplFileInfo](splfileinfo.html)
++ [SplFileObject](splfileobject.html)
++ [SplObjectStorage](splobjectstorage.html)
++ [SplObserver](splobserver.html)
++ [SplSubject](splsubject.html)

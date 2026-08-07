@@ -8,7 +8,7 @@ Identifiers are mentioned in syntax errors, where a string is used while the par
 Identifiers are relative to the current namespace. They may be created by creating one of the supporting structure, such as function, global constant... Their features are related to absolute names, such as ``\A``, and relative names, such as ``B\C``, not shown here.
 
 In the illustration, ``A`` is an identifier for a global constant: it is valid. ``B`` should most probably be a variable, and yields an error.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/identifier.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/identifier.html","name":"Identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:13 +0000","dateModified":"Fri, 19 Jun 2026 21:24:13 +0000","description":"An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/identifier.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/identifier.html","name":"Identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:24:13 +0000","dateModified":"Fri, 19 Jun 2026 21:24:13 +0000","description":"An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Identifier"}]}]}</script>
 ```php
 <?php
 
@@ -21,7 +21,7 @@ In the illustration, ``A`` is an identifier for a global constant: it is valid. 
 **[Documentation](https://www.php.net/manual/en/language.variables.basics.php)**
 ## Related
 
-+ [Fully Qualified Name](fully-qualified-name.ini.html)
-+ [Relative Name](relative-name.ini.html)
-+ [Unique Identifier](unique-identifier.ini.html)
-+ [Universally Unique IDentifier (UUID)](uuid.ini.html)
++ [Fully Qualified Name](fully-qualified-name.html)
++ [Relative Name](relative-name.html)
++ [Unique Identifier](unique-identifier.html)
++ [Universally Unique IDentifier (UUID)](uuid.html)

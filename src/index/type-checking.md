@@ -7,7 +7,7 @@ Runtime type checking is enforced by the PHP engine at the moment a typed bounda
 
 The two phases sit at different points in the order of execution: static analysis happens entirely before the script starts, while runtime enforcement happens progressively as each statement executes. A type error caught statically prevents a whole class of bugs from ever reaching production; a runtime error caught by PHP's engine surfaces only when the relevant code path is actually reached.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-checking.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/type-checking.html","name":"Type Checking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Type Checking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-checking.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/type-checking.html","name":"Type Checking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:18:07 +0000","dateModified":"Thu, 16 Jul 2026 08:18:07 +0000","description":"Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Type Checking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Type Checking"}]}]}</script>
 ```php
 <?php
 
@@ -51,31 +51,31 @@ The two phases sit at different points in the order of execution: static analysi
 
 ## Related
 
-+ [Type Inference](type-inference.ini.html)
-+ [Static Code Analysis (SCA)](sca.ini.html)
-+ [Runtime Checks](runtime-checks.ini.html)
-+ [Gradual Type Checking](gradual-type-checking.ini.html)
-+ [Generics](generics.ini.html)
-+ [Types Erasure](type-erasure.ini.html)
-+ [Order Of Execution](order-of-execution.ini.html)
-+ [strict\_types](strict_types.ini.html)
-+ [Type System](type-hint.ini.html)
-+ [TypeError](typeerror.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
-+ [Type Coverage](type-coverage.ini.html)
-+ [instanceof](instanceof.ini.html)
-+ [is\_a()](is_a.ini.html)
-+ [Array Shape](array-shape.ini.html)
-+ [Nominal Type](nominal-type.ini.html)
-+ [Phantom Type](phantom-type.ini.html)
-+ [Refinement Type](refinement-type.ini.html)
-+ [Strict](strict.ini.html)
-+ [Structural Typing](structural-typing.ini.html)
-+ [Type Narrowing](type-narrowing.ini.html)
-+ [Type Coercion](coercion.ini.html)
-+ [gettype()](gettype.ini.html)
-+ [is\_array()](is_array.ini.html)
-+ [is\_bool()](is_bool.ini.html)
-+ [is\_int()](is_int.ini.html)
-+ [is\_iterable()](is_iterable.ini.html)
-+ [is\_string()](is_string.ini.html)
++ [Type Inference](type-inference.html)
++ [Static Code Analysis (SCA)](sca.html)
++ [Runtime Checks](runtime-checks.html)
++ [Gradual Type Checking](gradual-type-checking.html)
++ [Generics](generics.html)
++ [Types Erasure](type-erasure.html)
++ [Order Of Execution](order-of-execution.html)
++ [strict\_types](strict_types.html)
++ [Type System](type-hint.html)
++ [TypeError](typeerror.html)
++ [Type Juggling](type-juggling.html)
++ [Type Coverage](type-coverage.html)
++ [instanceof](instanceof.html)
++ [is\_a()](is_a.html)
++ [Array Shape](array-shape.html)
++ [Nominal Type](nominal-type.html)
++ [Phantom Type](phantom-type.html)
++ [Refinement Type](refinement-type.html)
++ [Strict](strict.html)
++ [Structural Typing](structural-typing.html)
++ [Type Narrowing](type-narrowing.html)
++ [Type Coercion](coercion.html)
++ [gettype()](gettype.html)
++ [is\_array()](is_array.html)
++ [is\_bool()](is_bool.html)
++ [is\_int()](is_int.html)
++ [is\_iterable()](is_iterable.html)
++ [is\_string()](is_string.html)

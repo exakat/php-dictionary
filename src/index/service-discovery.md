@@ -6,7 +6,7 @@ In a microservices environment, service instances are ephemeral: they start, sto
 Two main patterns exist: client-side discovery, where the caller queries the registry and selects an instance itself; and server-side discovery, where the caller sends the request to a router that performs the lookup transparently .
 
 With microservices, server-side discovery via Kubernetes DNS or an API gateway is the most common approach. The PHP service simply calls ``http://order-service/orders`` and the infrastructure resolves and routes the request to an available instance.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/service-discovery.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/service-discovery.html","name":"Service Discovery","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:37:01 +0000","dateModified":"Mon, 06 Jul 2026 19:37:01 +0000","description":"Service discovery is the mechanism by which services in a distributed system find each other's network locations, such as host, port, protocol, dynamically, without hardcoding addresses","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Service Discovery.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/service-discovery.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/service-discovery.html","name":"Service Discovery","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 19:37:01 +0000","dateModified":"Mon, 06 Jul 2026 19:37:01 +0000","description":"Service discovery is the mechanism by which services in a distributed system find each other's network locations, such as host, port, protocol, dynamically, without hardcoding addresses","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Service Discovery.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Service Discovery"}]}]}</script>
 ```php
 <?php
 
@@ -40,9 +40,9 @@ $response = $httpClient->post(http://$host:$port/charge, ['json' => $payload]);
 
 ## Related
 
-+ [Microservice](microservice.ini.html)
-+ [Service Registry](service-registry.ini.html)
-+ [API Gateway](api-gateway.ini.html)
-+ [Load Balancer](load-balancer.ini.html)
-+ [Kubernetes](kubernetes.ini.html)
-+ [Distributed Systems](distributed-systems.ini.html)
++ [Microservice](microservice.html)
++ [Service Registry](service-registry.html)
++ [API Gateway](api-gateway.html)
++ [Load Balancer](load-balancer.html)
++ [Kubernetes](kubernetes.html)
++ [Distributed Systems](distributed-systems.html)

@@ -12,7 +12,7 @@ PHP does not support refinement types. The closest approximations are:
 + PHP 8.0 ``assert()`` in development mode for runtime checks.
 
 None of these approaches enforces the predicate at the type system level in a way that is verified statically across all call sites.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/refinement-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/refinement-type.html","name":"Refinement Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:04 +0000","dateModified":"Mon, 13 Jul 2026 18:49:04 +0000","description":"A refinement type is a base type combined with a logical predicate that every value of that type must satisfy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Refinement Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/refinement-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/refinement-type.html","name":"Refinement Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:49:04 +0000","dateModified":"Mon, 13 Jul 2026 18:49:04 +0000","description":"A refinement type is a base type combined with a logical predicate that every value of that type must satisfy","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Refinement Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Refinement Type"}]}]}</script>
 ```php
 <?php
 
@@ -46,11 +46,11 @@ None of these approaches enforces the predicate at the type system level in a wa
 
 ## Related
 
-+ [Dependent Type](dependent-type.ini.html)
-+ [Type System](type-system.ini.html)
-+ [Type Checking](type-checking.ini.html)
-+ [Value Object](value-object.ini.html)
-+ [Type Invariant](invariant.ini.html)
-+ [Validation](validation.ini.html)
-+ [Gradual Type Checking](gradual-type-checking.ini.html)
-+ [Assertions](assertion.ini.html)
++ [Dependent Type](dependent-type.html)
++ [Type System](type-system.html)
++ [Type Checking](type-checking.html)
++ [Value Object](value-object.html)
++ [Type Invariant](invariant.html)
++ [Validation](validation.html)
++ [Gradual Type Checking](gradual-type-checking.html)
++ [Assertions](assertion.html)

@@ -6,7 +6,7 @@ PHP does not include a built-in PDF extension in its standard library. Several l
 For reading or manipulating existing PDFs, ``smalot/pdfparser`` extracts text and metadata, and tools like ``pdftk`` can be called via ``exec()``.
 
 The ``libharu`` extension provides a binding to the Haru Free PDF Library.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pdf.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/pdf.html","name":"PDF","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PDF, Portable Document Format, is a file format developed by Adobe that presents documents independently of software, hardware, or operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/PDF.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pdf.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/pdf.html","name":"PDF","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Jun 2026 11:03:59 +0000","dateModified":"Mon, 15 Jun 2026 11:03:59 +0000","description":"PDF, Portable Document Format, is a file format developed by Adobe that presents documents independently of software, hardware, or operating system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/PDF.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"PDF"}]}]}</script>
 ```php
 <?php
 
@@ -31,12 +31,12 @@ $dompdf->stream('document.pdf', ['Attachment' => false]);
 
 ## Related
 
-+ [Image](image.ini.html)
-+ [JPEG](jpg.ini.html)
-+ [PNG](png.ini.html)
-+ [Plain Text](plain-text.ini.html)
-+ [Rich Text](rich-text.ini.html)
-+ [Template](template.ini.html)
++ [Image](image.html)
++ [JPEG](jpg.html)
++ [PNG](png.html)
++ [Plain Text](plain-text.html)
++ [Rich Text](rich-text.html)
++ [Template](template.html)
 
 ## Related packages
 

@@ -1,6 +1,6 @@
 # Hash Comparisons
 Cryptographic hashes are usually represented by strings. As such, they are subjects to type juggling, and they should be compared with the identity operator, or a dedicated function.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash-comparison.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash-comparison.html","name":"Hash Comparisons","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:02:53 +0000","dateModified":"Fri, 03 Jul 2026 08:02:53 +0000","description":"Cryptographic hashes are usually represented by strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Hash Comparisons.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash-comparison.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash-comparison.html","name":"Hash Comparisons","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jul 2026 08:02:53 +0000","dateModified":"Fri, 03 Jul 2026 08:02:53 +0000","description":"Cryptographic hashes are usually represented by strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Hash Comparisons.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Hash Comparisons"}]}]}</script>
 ```php
 <?php
 
@@ -27,9 +27,9 @@ var_dump($expected === $incorrect);
 
 ## Related
 
-+ [Hash](hash.ini.html)
-+ [Type Juggling](type-juggling.ini.html)
-+ [Identity Comparison](identity-comparison.ini.html)
-+ [Strict Comparison](strict-comparison.ini.html)
-+ [hash\_equals()](hash_equals.ini.html)
-+ [Security](security.ini.html)
++ [Hash](hash.html)
++ [Type Juggling](type-juggling.html)
++ [Identity Comparison](identity-comparison.html)
++ [Strict Comparison](strict-comparison.html)
++ [hash\_equals()](hash_equals.html)
++ [Security](security.html)

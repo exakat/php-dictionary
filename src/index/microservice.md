@@ -1,6 +1,6 @@
 # Microservice
 A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality. These services are designed to work together seamlessly, usually communicating over well-defined APIs. Unlike traditional monolithic architectures, where an entire application is built as a single, tightly integrated unit, microservices break down the application into smaller, loosely coupled components.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/microservice.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/microservice.html","name":"Microservice","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:22:30 +0000","dateModified":"Tue, 14 Jul 2026 06:22:30 +0000","description":"A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Microservice.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/microservice.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/microservice.html","name":"Microservice","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 06:22:30 +0000","dateModified":"Tue, 14 Jul 2026 06:22:30 +0000","description":"A microservice is a software architectural style that structures an application as a collection of small, independent services, each focused on performing a specific business functionality","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Microservice.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Microservice"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Microservices)**
 ## See Also
 
@@ -9,24 +9,24 @@ A microservice is a software architectural style that structures an application 
 
 ## Related
 
-+ [Application](application.ini.html)
-+ [Cloud](cloud.ini.html)
-+ [Horizontal Scaling](horizontal-scaling.ini.html)
-+ [Spiral](spiral.ini.html)
-+ [API Gateway](api-gateway.ini.html)
-+ [Compensation Logic](compensation-logic.ini.html)
-+ [Container Orchestration](container-orchestration.ini.html)
-+ [Distributed Monolith](distributed-monolith.ini.html)
-+ [Distributed Systems](distributed-systems.ini.html)
-+ [Distributed Tracing](distributed-tracing.ini.html)
-+ [Distributed Transactions](distributed-transactions.ini.html)
-+ [Fault Isolation](fault-isolation.ini.html)
-+ [Kubernetes](kubernetes.ini.html)
-+ [Service Discovery](service-discovery.ini.html)
-+ [Service Registry](service-registry.ini.html)
-+ [Shared Database](shared-database.ini.html)
-+ [Service-Oriented Architecture (SOA)](soa.ini.html)
-+ [AMP (Asynchronous Markup Protocol)](amp.ini.html)
-+ [Correlation ID](correlation-id.ini.html)
-+ [OpenTelemetry](opentelemetry.ini.html)
-+ [ReactPHP](reactphp.ini.html)
++ [Application](application.html)
++ [Cloud](cloud.html)
++ [Horizontal Scaling](horizontal-scaling.html)
++ [Spiral](spiral.html)
++ [API Gateway](api-gateway.html)
++ [Compensation Logic](compensation-logic.html)
++ [Container Orchestration](container-orchestration.html)
++ [Distributed Monolith](distributed-monolith.html)
++ [Distributed Systems](distributed-systems.html)
++ [Distributed Tracing](distributed-tracing.html)
++ [Distributed Transactions](distributed-transactions.html)
++ [Fault Isolation](fault-isolation.html)
++ [Kubernetes](kubernetes.html)
++ [Service Discovery](service-discovery.html)
++ [Service Registry](service-registry.html)
++ [Shared Database](shared-database.html)
++ [Service-Oriented Architecture (SOA)](soa.html)
++ [AMP (Asynchronous Markup Protocol)](amp.html)
++ [Correlation ID](correlation-id.html)
++ [OpenTelemetry](opentelemetry.html)
++ [ReactPHP](reactphp.html)

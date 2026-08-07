@@ -1,13 +1,13 @@
 # Struct Type
-A struct is a value type that groups named fields together, as in C, Go, Rust, or Swift. Unlike a class instance in most object-oriented languages, a struct value is typically copied by value on assignment or when passed to a function, is allocated inline rather than behind a pointer, and carries no built-in identity or inheritance: two structs are simply equal when their fields are equal.
+A ``struct`` is a value type that groups named fields together, as in C, Go, Rust, or Swift. Unlike a class instance in most object-oriented languages, a ``struct`` value is typically copied by value on assignment or when passed to a function, is allocated inline rather than behind a pointer, and carries no built-in identity or inheritance: two ``struct`` are simply equal when their fields are equal.
 
-Structs are commonly used for small, self-contained data, such as a 2D point or an RGB color, where the overhead of heap allocation and reference semantics would be wasted.
+``struct`` are commonly used for small, self-contained data, such as a 2D point or an RGB color, where the overhead of heap allocation and reference semantics would be wasted.
 
-PHP has no struct type. Every ``class`` instance is a heap-allocated object with reference semantics: assigning an object to a new variable, or passing it to a function, copies the reference, not the object's contents, so mutations through one variable are visible through the other. A PHP ``class`` can imitate the field-grouping role of a struct, but not its value semantics; achieving copy-on-assign behavior requires implementing ``__clone()`` and calling it manually, or declaring the class ``readonly``.
+PHP has no ``struct`` type. Every ``class`` instance is a heap-allocated object with reference semantics: assigning an object to a new variable, or passing it to a function, copies the reference, not the object's contents, so mutations through one variable are visible through the other. A PHP ``class`` can imitate the field-grouping role of a ``struct``, but not its value semantics; achieving copy-on-assign behavior requires implementing ``__clone()`` and calling it manually, or declaring the class ``readonly``.
 
-The closest notion ofa struct type is ``stdClass`` which is an empty class, with dynamic typeless properties, which may be populated at will, or an ``array``: both notions are actually accessible to the other with casting. 
+The closest notion of a ``struct`` type is ``stdClass`` which is an empty class, with dynamic properties without type, which may be populated at will, or an ``array``: both notions are actually accessible to the other with casting. 
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/struct-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/struct-type.html","name":"Struct Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 08 Jul 2026 16:08:33 +0000","dateModified":"Wed, 08 Jul 2026 16:08:33 +0000","description":"A struct is a value type that groups named fields together, as in C, Go, Rust, or Swift","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Struct Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/struct-type.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/struct-type.html","name":"Struct Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Aug 2026 10:15:41 +0000","dateModified":"Fri, 07 Aug 2026 10:15:41 +0000","description":"A ``struct`` is a value type that groups named fields together, as in C, Go, Rust, or Swift","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Struct Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Struct Type"}]}]}</script>
 ```php
 <?php
 
@@ -29,8 +29,8 @@ The closest notion ofa struct type is ``stdClass`` which is an empty class, with
 
 ## Related
 
-+ [Class](class.ini.html)
-+ [Record Type](record-type.ini.html)
-+ [Value Type](value-type.ini.html)
-+ [\_\_clone() Method](__clone.ini.html)
-+ [Readonly](readonly.ini.html)
++ [Class](class.html)
++ [Record Type](record-type.html)
++ [Value Type](value-type.html)
++ [\_\_clone() Method](__clone.html)
++ [Readonly](readonly.html)

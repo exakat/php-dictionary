@@ -1,6 +1,6 @@
 # Hyper Text Transfer Protocol Secure (HTTPS)
 Hypertext Transfer Protocol Secure, or HTTPS, is an extension of the Hypertext Transfer Protocol, HTTP. It is used for secure communication over a computer network, and is widely used on the Internet.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/https.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/https.html","name":"Hyper Text Transfer Protocol Secure (HTTPS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:50:47 +0000","dateModified":"Thu, 06 Aug 2026 05:50:47 +0000","description":"Hypertext Transfer Protocol Secure, or HTTPS, is an extension of the Hypertext Transfer Protocol, HTTP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Hyper Text Transfer Protocol Secure (HTTPS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/https.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/https.html","name":"Hyper Text Transfer Protocol Secure (HTTPS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 05:50:47 +0000","dateModified":"Thu, 06 Aug 2026 05:50:47 +0000","description":"Hypertext Transfer Protocol Secure, or HTTPS, is an extension of the Hypertext Transfer Protocol, HTTP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Hyper Text Transfer Protocol Secure (HTTPS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Hyper Text Transfer Protocol Secure (HTTPS)"}]}]}</script>
 ```php
 <?php
 
@@ -16,7 +16,7 @@ Hypertext Transfer Protocol Secure, or HTTPS, is an extension of the Hypertext T
 
 ## Related
 
-+ [Hyper Text Transfer Protocol (HTTP)](http.ini.html)
-+ [Wrapper](wrapper.ini.html)
-+ [Protocol](protocol.ini.html)
-+ [HTTP Headers](http-header.ini.html)
++ [Hyper Text Transfer Protocol (HTTP)](http.html)
++ [Wrapper](wrapper.html)
++ [Protocol](protocol.html)
++ [HTTP Headers](http-header.html)

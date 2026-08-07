@@ -6,7 +6,7 @@ PHP connects to Oracle databases via the OCI8 extensionm called ``ext/oci8``, wh
 Oracle-specific features that PHP developers encounter include: sequences in lieu of auto-increment, ``ROWNUM`` for pagination, PL/SQL stored procedures, and CLOB/BLOB handling for large data.
 
 The term ``oracle`` is also used in testing to describe the mechanism by which a test determines whether its output is correct, and in cryptography for an attacker-accessible function that reveals partial information about a secret.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/oracle.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/oracle.html","name":"Oracle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:13:30 +0000","dateModified":"Fri, 10 Jul 2026 09:13:30 +0000","description":"Oracle is a relational database management system developed by Oracle Corporation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Oracle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/oracle.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/oracle.html","name":"Oracle","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jul 2026 09:13:30 +0000","dateModified":"Fri, 10 Jul 2026 09:13:30 +0000","description":"Oracle is a relational database management system developed by Oracle Corporation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Oracle.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Oracle"}]}]}</script>
 ```php
 <?php
 
@@ -29,8 +29,8 @@ The term ``oracle`` is also used in testing to describe the mechanism by which a
 
 ## Related
 
-+ [Database](database.ini.html)
-+ [PHP Data Objects (PDO)](pdo.ini.html)
-+ [MySQL](mysql.ini.html)
-+ [Database Abstraction Layer (DBA) Extension](dba.ini.html)
-+ [SQL Database](sql-database.ini.html)
++ [Database](database.html)
++ [PHP Data Objects (PDO)](pdo.html)
++ [MySQL](mysql.html)
++ [Database Abstraction Layer (DBA) Extension](dba.html)
++ [SQL Database](sql-database.html)

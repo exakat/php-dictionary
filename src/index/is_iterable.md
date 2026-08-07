@@ -4,7 +4,7 @@
 ``is_iterable()`` is the runtime counterpart of the ``iterable`` pseudo-type, which may be used in type declarations for parameters, return types, and properties. It is looser than ``is_array()``, since it also accepts objects, but it does not accept plain objects that merely implement ``ArrayAccess`` without also being ``Traversable``.
 
 It is typically used to validate arguments of functions designed to accept both arrays and generators or iterators interchangeably, before looping over them with ``foreach``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_iterable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_iterable.html","name":"is_iterable()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:49 +0000","dateModified":"Thu, 16 Jul 2026 14:20:49 +0000","description":"``is_iterable()`` is a PHP native function, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/is_iterable().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_iterable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_iterable.html","name":"is_iterable()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 14:20:49 +0000","dateModified":"Thu, 16 Jul 2026 14:20:49 +0000","description":"``is_iterable()`` is a PHP native function, introduced in version 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/is_iterable().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"is_iterable()"}]}]}</script>
 ```php
 <?php
 
@@ -29,11 +29,11 @@ It is typically used to validate arguments of functions designed to accept both 
 
 ## Related
 
-+ [Iterable](iterable.ini.html)
-+ [Traversable](traversable.ini.html)
-+ [Iterator](iterator.ini.html)
-+ [Generator](generator.ini.html)
-+ [is\_array()](is_array.ini.html)
-+ [is\_object()](is_object.ini.html)
-+ [gettype()](gettype.ini.html)
-+ [Type Checking](type-checking.ini.html)
++ [Iterable](iterable.html)
++ [Traversable](traversable.html)
++ [Iterator](iterator.html)
++ [Generator](generator.html)
++ [is\_array()](is_array.html)
++ [is\_object()](is_object.html)
++ [gettype()](gettype.html)
++ [Type Checking](type-checking.html)

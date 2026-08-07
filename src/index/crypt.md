@@ -6,7 +6,7 @@ Crypting data may be done for the transit of information, or its storage, in a d
 Since the data may be decrypted, it is always possible that an unwanted actor access the crypted data. The notion of impossible to read is related to the difficulty to perform the decryption without the critical key. 
 
 The opposite to crypt is to decrypt, when it is a legit operation, or to crack, when it is an unwanted operation.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/crypt.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/crypt.html","name":"To Crypt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:23:46 +0000","dateModified":"Fri, 19 Jun 2026 21:23:46 +0000","description":"To crypt is to apply a data transformation that keeps the original information, but makes it impossible to read without decrypting","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/To Crypt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/crypt.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/crypt.html","name":"To Crypt","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:23:46 +0000","dateModified":"Fri, 19 Jun 2026 21:23:46 +0000","description":"To crypt is to apply a data transformation that keeps the original information, but makes it impossible to read without decrypting","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/To Crypt.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"To Crypt"}]}]}</script>
 ```php
 <?php
 
@@ -33,10 +33,10 @@ The opposite to crypt is to decrypt, when it is a legit operation, or to crack, 
 **[Documentation](https://en.wikipedia.org/wiki/Encryption)**
 ## Related
 
-+ [Asymmetric Cryptography](asymmetric-cryptography.ini.html)
-+ [To Decrypt](decrypt.ini.html)
-+ [Crack](crack.ini.html)
-+ [Convert](convert.ini.html)
-+ [Cyclic Redundancy Check 32-bit (CRC32)](crc32.ini.html)
-+ [Plain Text](plain-text.ini.html)
-+ [Rich Text](rich-text.ini.html)
++ [Asymmetric Cryptography](asymmetric-cryptography.html)
++ [To Decrypt](decrypt.html)
++ [Crack](crack.html)
++ [Convert](convert.html)
++ [Cyclic Redundancy Check 32-bit (CRC32)](crc32.html)
++ [Plain Text](plain-text.html)
++ [Rich Text](rich-text.html)

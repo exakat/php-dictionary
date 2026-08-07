@@ -11,7 +11,7 @@ Hash has several meanings:
 Hash allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms. 
 
 While the extension ``hash`` only process hashes, there are other extensions which offer these features: openssl, sodium and password hashing. Mhash and mcrypt are older PHP extensions, which are now discontinued.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/hash.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:40:29 +0000","dateModified":"Mon, 13 Jul 2026 18:40:29 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hash.html","name":"Hash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 18:40:29 +0000","dateModified":"Mon, 13 Jul 2026 18:40:29 +0000","description":"Hash has several meanings:","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Hash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Hash"}]}]}</script>
 ```php
 <?php
 
@@ -39,25 +39,25 @@ While the extension ``hash`` only process hashes, there are other extensions whi
 
 ## Related
 
-+ [hash() Function](hash-function.ini.html)
-+ [Cryptographic Hash](hash-crypto.ini.html)
-+ [Collection](collection.ini.html)
-+ [Array, []](array.ini.html)
-+ [Map](map.ini.html)
-+ [Array Element](array-element.ini.html)
-+ [Convert](convert.ini.html)
-+ [Magic Hash](magic-hash.ini.html)
-+ [Secure Hash Algorithm (SHA)](sha.ini.html)
-+ [Hash #](hash-character.ini.html)
-+ [Argon2](argon2.ini.html)
-+ [Automatic Index](automatic-index.ini.html)
-+ [Dictionary](dictionary.ini.html)
-+ [Data Structure](ds.ini.html)
-+ [Pound #](pound.ini.html)
-+ [array\_column](array_column.ini.html)
-+ [Cyclic Redundancy Check 32-bit (CRC32)](crc32.ini.html)
-+ [HMAC](hmac.ini.html)
-+ [Password API](password-ext.ini.html)
-+ [Bucket](bucket.ini.html)
-+ [Hash Comparisons](hash-comparison.ini.html)
-+ [Single Sign On (SSO)](sso.ini.html)
++ [hash() Function](hash-function.html)
++ [Cryptographic Hash](hash-crypto.html)
++ [Collection](collection.html)
++ [Array, []](array.html)
++ [Map](map.html)
++ [Array Element](array-element.html)
++ [Convert](convert.html)
++ [Magic Hash](magic-hash.html)
++ [Secure Hash Algorithm (SHA)](sha.html)
++ [Hash #](hash-character.html)
++ [Argon2](argon2.html)
++ [Automatic Index](automatic-index.html)
++ [Dictionary](dictionary.html)
++ [Data Structure](ds.html)
++ [Pound #](pound.html)
++ [array\_column](array_column.html)
++ [Cyclic Redundancy Check 32-bit (CRC32)](crc32.html)
++ [HMAC](hmac.html)
++ [Password API](password-ext.html)
++ [Bucket](bucket.html)
++ [Hash Comparisons](hash-comparison.html)
++ [Single Sign On (SSO)](sso.html)

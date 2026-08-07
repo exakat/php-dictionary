@@ -6,7 +6,7 @@ Throughput and latency are related but distinct. Latency is the time for a singl
 Throughput is limited by the PHP-FPM worker pool, since each worker handles one request at a time, database connection pools, and I/O blocking. Increasing throughput involves: adding FPM workers or servers, using a read replica to offload reads, caching expensive computations, using queues to defer work, and adopting async runtimes, like Swoole, RoadRunner, FrankenPHP, etc. that serve multiple requests per worker.
 
 Tools for measuring PHP throughput include Apache Bench ``ab``, ``wrk``, ``k6``, and ``Blackfire``.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/throughput.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/throughput.html","name":"Throughput","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:15:59 +0000","dateModified":"Mon, 06 Jul 2026 10:15:59 +0000","description":"Throughput is the number of operations a system can process per unit of time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Throughput.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/throughput.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/throughput.html","name":"Throughput","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:15:59 +0000","dateModified":"Mon, 06 Jul 2026 10:15:59 +0000","description":"Throughput is the number of operations a system can process per unit of time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Throughput.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Throughput"}]}]}</script>
 ```php
 <?php
 
@@ -34,9 +34,9 @@ Tools for measuring PHP throughput include Apache Bench ``ab``, ``wrk``, ``k6``,
 **[Documentation](https://en.wikipedia.org/wiki/Throughput)**
 ## Related
 
-+ [Latency](latency.ini.html)
-+ [Performance](performance.ini.html)
-+ [Scaling](scalability.ini.html)
-+ [FastCGI Process Manager (FPM)](fpm.ini.html)
-+ [Benchmarking](benchmarking.ini.html)
-+ [Concurrency](concurency.ini.html)
++ [Latency](latency.html)
++ [Performance](performance.html)
++ [Scaling](scalability.html)
++ [FastCGI Process Manager (FPM)](fpm.html)
++ [Benchmarking](benchmarking.html)
++ [Concurrency](concurency.html)

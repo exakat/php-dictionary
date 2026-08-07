@@ -10,7 +10,7 @@ In any application, passwords must be stored using a strong, salted hashing algo
 
 Using weak algorithms such as MD5 or SHA-1 for passwords is a critical vulnerability, as they can be cracked rapidly with modern GPUs.
 
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/crack.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/crack.html","name":"Crack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:40:38 +0000","dateModified":"Fri, 17 Jul 2026 08:40:38 +0000","description":"Cracking refers to breaking a security mechanism","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Crack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/crack.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/crack.html","name":"Crack","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 08:40:38 +0000","dateModified":"Fri, 17 Jul 2026 08:40:38 +0000","description":"Cracking refers to breaking a security mechanism","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Crack.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Crack"}]}]}</script>
 ```php
 <?php
 
@@ -38,12 +38,12 @@ Using weak algorithms such as MD5 or SHA-1 for passwords is a critical vulnerabi
 
 ## Related
 
-+ [Password](password.ini.html)
-+ [Cryptographic Hash](hash-crypto.ini.html)
-+ [Weak Cryptography](weak-cryptography.ini.html)
-+ [Argon2](argon2.ini.html)
-+ [Message Digest Algorithm 5 (MD5)](md5.ini.html)
-+ [Secure Hash Algorithm (SHA)](sha.ini.html)
-+ [Timing Attack](timing-attack.ini.html)
-+ [To Crypt](crypt.ini.html)
-+ [To Decrypt](decrypt.ini.html)
++ [Password](password.html)
++ [Cryptographic Hash](hash-crypto.html)
++ [Weak Cryptography](weak-cryptography.html)
++ [Argon2](argon2.html)
++ [Message Digest Algorithm 5 (MD5)](md5.html)
++ [Secure Hash Algorithm (SHA)](sha.html)
++ [Timing Attack](timing-attack.html)
++ [To Crypt](crypt.html)
++ [To Decrypt](decrypt.html)

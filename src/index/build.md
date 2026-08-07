@@ -4,7 +4,7 @@ A build is the automated process of transforming source code into a deployable a
 Build processes are commonly driven by tools such as Make, Phing, Composer scripts, or shell scripts, and are integrated into a Continuous Integration pipeline.
 
 A reproducible build produces the same artifact from the same source code, which is essential for reliable deployments.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/build.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/build.html","name":"Build","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:19:44 +0000","dateModified":"Sun, 28 Jun 2026 10:19:44 +0000","description":"A build is the automated process of transforming source code into a deployable artifact","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Build.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/build.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/build.html","name":"Build","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 28 Jun 2026 10:19:44 +0000","dateModified":"Sun, 28 Jun 2026 10:19:44 +0000","description":"A build is the automated process of transforming source code into a deployable artifact","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Build.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Build"}]}]}</script>
 ```php
 <?php
 
@@ -26,12 +26,12 @@ A reproducible build produces the same artifact from the same source code, which
 
 ## Related
 
-+ [Continuous Integration (CI)](ci.ini.html)
-+ [DevOps](devops.ini.html)
-+ [Composer](composer.ini.html)
-+ [Deployment](deploy.ini.html)
-+ [Test](test.ini.html)
-+ [Makefile](makefile.ini.html)
++ [Continuous Integration (CI)](ci.html)
++ [DevOps](devops.html)
++ [Composer](composer.html)
++ [Deployment](deploy.html)
++ [Test](test.html)
++ [Makefile](makefile.html)
 
 ## Related packages
 

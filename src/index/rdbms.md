@@ -4,17 +4,17 @@ RDBMS stands for Relational DataBase Management System. It may also be called a 
 PHP can connect to many different RDBMS, such as MySQL, Oracle, MariaDB, SQLite3, MSSQL, PostGreSQL, etc.
 
 PHP offers a native abstraction layer: ``PDO``. There are database abstraction as components too.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/rdbms.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/rdbms.html","name":"Relational DataBase Management System (RDBMS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:07:00 +0000","dateModified":"Wed, 01 Jul 2026 10:07:00 +0000","description":"RDBMS stands for Relational DataBase Management System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Relational DataBase Management System (RDBMS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/rdbms.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/rdbms.html","name":"Relational DataBase Management System (RDBMS)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jul 2026 10:07:00 +0000","dateModified":"Wed, 01 Jul 2026 10:07:00 +0000","description":"RDBMS stands for Relational DataBase Management System","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Relational DataBase Management System (RDBMS).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Relational DataBase Management System (RDBMS)"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Relational_database_management_system)**
 ## Related
 
-+ [PHP Data Objects (PDO)](pdo.ini.html)
-+ [Structured Query Language (SQL)](sql.ini.html)
-+ [Storage Systems](storage-system.ini.html)
-+ [SQLite3](sqlite3.ini.html)
-+ [MySQL](mysql.ini.html)
-+ [PostgreSQL](pgsql.ini.html)
-+ [Abstraction Layer](abstraction-layer.ini.html)
++ [PHP Data Objects (PDO)](pdo.html)
++ [Structured Query Language (SQL)](sql.html)
++ [Storage Systems](storage-system.html)
++ [SQLite3](sqlite3.html)
++ [MySQL](mysql.html)
++ [PostgreSQL](pgsql.html)
++ [Abstraction Layer](abstraction-layer.html)
 
 ## Related packages
 

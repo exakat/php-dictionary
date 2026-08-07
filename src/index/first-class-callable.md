@@ -6,7 +6,7 @@ First class callable may be used on functions, closures, arrow functions and met
 The number of arguments is not important: it is the same as the actual definition of the underlying method, and will be checked at call time only.
 
 Such closure may be created using any kind of function, such as native PHP function, or library methods.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/first-class-callable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/first-class-callable.html","name":"First Class Callable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:47:21 +0000","dateModified":"Thu, 18 Jun 2026 13:47:21 +0000","description":"First Class Callable Syntax is a new feature that creates a closure directly from a function, by using the triple dot operator as an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/First Class Callable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/first-class-callable.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/first-class-callable.html","name":"First Class Callable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Jun 2026 13:47:21 +0000","dateModified":"Thu, 18 Jun 2026 13:47:21 +0000","description":"First Class Callable Syntax is a new feature that creates a closure directly from a function, by using the triple dot operator as an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/First Class Callable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"First Class Callable"}]}]}</script>
 ```php
 <?php
 
@@ -26,11 +26,11 @@ Such closure may be created using any kind of function, such as native PHP funct
 
 ## Related
 
-+ [Functions](function.ini.html)
-+ [Closure](closure.ini.html)
-+ [Anonymous Function](anonymous-function.ini.html)
-+ [Arrow Functions](fn.ini.html)
-+ [Arrow Functions](arrow-function.ini.html)
-+ [Closure](lambda-functions.ini.html)
-+ [Custom Function](custom-function.ini.html)
-+ [Three Dots](three-dots.ini.html)
++ [Functions](function.html)
++ [Closure](closure.html)
++ [Anonymous Function](anonymous-function.html)
++ [Arrow Functions](fn.html)
++ [Arrow Functions](arrow-function.html)
++ [Closure](lambda-functions.html)
++ [Custom Function](custom-function.html)
++ [Three Dots](three-dots.html)

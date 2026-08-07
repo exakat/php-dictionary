@@ -10,7 +10,7 @@ The empty string often serves as a default value, for properties and variables.
 Comparisons between ``''`` and other falsy values, such as 0 changed with PHP 8.0: it was true and became false.
 
 The empty string is falsy: it is converted to the ``false`` boolean when implicit conversion is need, such as in a condition.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/empty-string.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/empty-string.html","name":"Empty String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:16:48 +0000","dateModified":"Sun, 02 Aug 2026 06:16:48 +0000","description":"The empty string is a string without any content","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Empty String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/empty-string.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/empty-string.html","name":"Empty String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Aug 2026 06:16:48 +0000","dateModified":"Sun, 02 Aug 2026 06:16:48 +0000","description":"The empty string is a string without any content","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Empty String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Empty String"}]}]}</script>
 ```php
 <?php
 
@@ -27,10 +27,10 @@ STRING;
 **[Documentation](https://en.wikipedia.org/wiki/Empty_string)**
 ## Related
 
-+ [String](string.ini.html)
-+ [Heredocs](heredoc.ini.html)
-+ [Nowdocs](nowdoc.ini.html)
-+ [Falsy](falsy.ini.html)
-+ [file\_put\_contents()](file_put_contents.ini.html)
-+ [str\_contains()](str_contains.ini.html)
-+ [zero](zero.ini.html)
++ [String](string.html)
++ [Heredocs](heredoc.html)
++ [Nowdocs](nowdoc.html)
++ [Falsy](falsy.html)
++ [file\_put\_contents()](file_put_contents.html)
++ [str\_contains()](str_contains.html)
++ [zero](zero.html)

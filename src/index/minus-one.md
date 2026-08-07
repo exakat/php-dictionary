@@ -4,7 +4,7 @@ Minus one is the ``-1`` integer. ``-1`` is part of the thruty values: it is the 
 ``-1`` is part of the three values returned by the spaceship operator. 
 
 0 is a classic magic number, although it has so many uses that it is usually look over, as generating too many false positives or scattered issues.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/minus-one.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/minus-one.html","name":"Minus One -1","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:25 +0000","dateModified":"Fri, 19 Jun 2026 21:25:25 +0000","description":"Minus one is the ``-1`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Minus One -1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/minus-one.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/minus-one.html","name":"Minus One -1","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:25 +0000","dateModified":"Fri, 19 Jun 2026 21:25:25 +0000","description":"Minus one is the ``-1`` integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Minus One -1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Minus One -1"}]}]}</script>
 ```php
 <?php
 
@@ -22,9 +22,9 @@ Minus one is the ``-1`` integer. ``-1`` is part of the thruty values: it is the 
 **[Documentation](https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.spaceship)**
 ## Related
 
-+ [True](true.ini.html)
-+ [Spaceship Operator](spaceship.ini.html)
-+ [one](one.ini.html)
-+ [zero](zero.ini.html)
-+ [Truthy](truthy.ini.html)
-+ [zend\\.assertions](zend-assertions.ini.html)
++ [True](true.html)
++ [Spaceship Operator](spaceship.html)
++ [one](one.html)
++ [zero](zero.html)
++ [Truthy](truthy.html)
++ [zend\\.assertions](zend-assertions.html)

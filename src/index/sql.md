@@ -2,7 +2,7 @@
 Structured Query Language, SQL, is a database query language, used to access and update data in a relational database management system.
 
 PHP supports several RDBMS natively, such as: ``Mysql``, ``Oracle``, ``IBM db2``, ``DBA``, ``ODBC``. PHP also offers a database abstraction layer, called PDO.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sql.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/sql.html","name":"Structured Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:17:20 +0000","dateModified":"Mon, 06 Jul 2026 10:17:20 +0000","description":"Structured Query Language, SQL, is a database query language, used to access and update data in a relational database management system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Structured Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/sql.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/sql.html","name":"Structured Query Language (SQL)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jul 2026 10:17:20 +0000","dateModified":"Mon, 06 Jul 2026 10:17:20 +0000","description":"Structured Query Language, SQL, is a database query language, used to access and update data in a relational database management system","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Structured Query Language (SQL).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Structured Query Language (SQL)"}]}]}</script>
 ```php
 <?php
 
@@ -24,17 +24,17 @@ PHP supports several RDBMS natively, such as: ``Mysql``, ``Oracle``, ``IBM db2``
 
 ## Related
 
-+ [PHP Data Objects (PDO)](pdo.ini.html)
-+ [Relational DataBase Management System (RDBMS)](rdbms.ini.html)
-+ [Object Relational Mapping (ORM)](orm.ini.html)
-+ [Active Record](active-record.ini.html)
-+ [Prepared Query](prepared-query.ini.html)
-+ [Query](query.ini.html)
-+ [SQLite3](sqlite3.ini.html)
-+ [SQL Database](sql-database.ini.html)
-+ [Graph Database](graph-database.ini.html)
-+ [N+1 Query Problem](n-query.ini.html)
-+ [PostgreSQL](pgsql.ini.html)
-+ [Star \*](star.ini.html)
-+ [Escape Character](escape-character.ini.html)
-+ [mysqli](mysqli.ini.html)
++ [PHP Data Objects (PDO)](pdo.html)
++ [Relational DataBase Management System (RDBMS)](rdbms.html)
++ [Object Relational Mapping (ORM)](orm.html)
++ [Active Record](active-record.html)
++ [Prepared Query](prepared-query.html)
++ [Query](query.html)
++ [SQLite3](sqlite3.html)
++ [SQL Database](sql-database.html)
++ [Graph Database](graph-database.html)
++ [N+1 Query Problem](n-query.html)
++ [PostgreSQL](pgsql.html)
++ [Star \*](star.html)
++ [Escape Character](escape-character.html)
++ [mysqli](mysqli.html)

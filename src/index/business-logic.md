@@ -8,7 +8,7 @@ Everything else in the application, like HTTP routing, database persistence, aut
 Well-structured applications isolate business logic from infrastructure. Domain-Driven Design, Hexagonal Architecture, and Clean Architecture all promote this separation. The domain layer, which holds the business logic, should have no dependencies on frameworks, databases, or external services. This makes it independently testable and resilient to technology changes.
 
 Business logic often leaks into controllers, the infamous ``fat controllers``, Eloquent models, the ``fat models``, or stored procedures, which are anti-patterns that couple the domain to infrastructure concerns.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/business-logic.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/business-logic.html","name":"Business Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:38 +0000","dateModified":"Fri, 19 Jun 2026 21:25:38 +0000","description":"Business logic is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/dictionary\/index\/Business Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.13","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/business-logic.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/business-logic.html","name":"Business Logic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Jun 2026 21:25:38 +0000","dateModified":"Fri, 19 Jun 2026 21:25:38 +0000","description":"Business logic is the part of the application that encodes the real-world rules, workflows, and decisions that the software is built to fulfill","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Business Logic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Business Logic"}]}]}</script>
 **[Documentation](https://en.wikipedia.org/wiki/Business_logic)**
 ## See Also
 
@@ -16,14 +16,14 @@ Business logic often leaks into controllers, the infamous ``fat controllers``, E
 
 ## Related
 
-+ [Domain Design Driven (DDD)](ddd.ini.html)
-+ [Clean Architecture](clean-architecture.ini.html)
-+ [Hexagonal Architecture](hexagonal.ini.html)
-+ [Architecture](architecture.ini.html)
-+ [Fat Controller](fat-controller.ini.html)
-+ [Separation Of Concerns](separation-of-concerns.ini.html)
-+ [Model - View - Controller (MVC)](mvc.ini.html)
-+ [Service](service.ini.html)
-+ [Domain](domain.ini.html)
-+ [Specification](specification.ini.html)
-+ [Testable](testable.ini.html)
++ [Domain Design Driven (DDD)](ddd.html)
++ [Clean Architecture](clean-architecture.html)
++ [Hexagonal Architecture](hexagonal.html)
++ [Architecture](architecture.html)
++ [Fat Controller](fat-controller.html)
++ [Separation Of Concerns](separation-of-concerns.html)
++ [Model - View - Controller (MVC)](mvc.html)
++ [Service](service.html)
++ [Domain](domain.html)
++ [Specification](specification.html)
++ [Testable](testable.html)
