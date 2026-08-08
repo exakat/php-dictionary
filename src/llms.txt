@@ -232,13 +232,13 @@
 [C2 Framework](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/c2-framework.html): A C2 framework is also known as a C&C framework, or command-and-control framework.
 [Cache Stampede](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cache-stampede.html): A cache stampede, also known as thundering herd or dog-piling, is a failure mode that occurs when many concurrent requests simultaneously discover that a cached value has expired or is missing.
 [Cache](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cache.html): Cache, or caching, is a technique used to store and reuse the results of expensive operations to improve performance.
-[Calendar](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/calendar.html): The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unixtimestamp, French Revolutionary, Jewish, and others.
+[Calendar](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/calendar.html): The calendar extension provides functions to convert dates between different calendars, such as Gregorian, Julian Day Count, Unix Timestamp, French Revolutionary, Jewish, and others.
 [Object Calisthenics](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/calisthenics.html): Object Calisthenics is a set of nine coding constraints, introduced by ``Jeff Bay``, meant to be practiced as an exercise to force better object-oriented design habits, rather than followed strictly in production code at all times.
 [Call Graph](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/call-graph.html): In programming languages, a call graph is a representation of the relationships between functions and methods in the codebase.
 [Call](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/call.html): A call is the usage action of a definition or declaration.
 [Callables](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/callable.html): A callable is an object that can pass the ``callable`` type.
 [Callbacks](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/callback.html): Callbacks are functions or methods which are used as parameters for other functions.
-[Callstack](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/callstack.html): Everytime a function, or method, is called, PHP enters a new context.
+[Callstack](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/callstack.html): Every time a function, or method, is called, PHP enters a new context.
 [Camel Case](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/camel-case.html): Camel case, also written ``camelCase`` is a way of writing names without spaces, where:
 [Canary](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/canary.html): Canary, borrowed from the miner's canary once used to detect dangerous gas underground, has two distinct meanings in software engineering:
 [Cancellation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cancellation.html): Cancellation is the ability to abort an ongoing asynchronous operation before it completes.
@@ -566,7 +566,7 @@
 [Encode](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/encode.html): To encode is to transform a piece of data, from a human readable format to a specialized format.
 [Text Encoding](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/encoding-text.html): Encoding is the way characters are organized to hold a meaning while being transmitted, stored or manipulated.
 [Encoding](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/encoding.html): Encoding is a generic term, and is used in different places:
-[End To End Test](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/end-to-end-test.html): End to end tests are integration tests that cover entire application, so it checks that it works correctly from the user's perspective.
+[End To End Test](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/end-to-end-test.html): End to end tests are integration tests that cover the entire application, so it checks that it works correctly from the user's perspective.
 [PHP Engine](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/engine.html): The PHP engine, often referred to as the PHP interpreter, is the core component of the PHP programming language.
 [Entities](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/entity.html): Entities are different things:
 [Enumeration Case](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/enum-case.html): An Enumeration may have zero or more case definitions, with no maximum.
@@ -805,7 +805,7 @@
 [ImagickPixelException](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/imagickpixelexception.html): ``ImagickPixelException`` is an exception class that is used to handle exceptions related to problems with ``ImagickPixel`` objects.
 [IMAP](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/imap.html): ``IMAP``, for Internet Message Access Protocol, is a PHP extension that provides functions to connect to mail servers over IMAP, POP3, and NNTP, list and search mailboxes, fetch message headers and bodies, and manage flags such as read, deleted, or flagged.
 [Immutable](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/immutable.html): An immutable object is an object that can't be changed.
-[Imperative Programming](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/imperative.html): Declarative programming is the programming style where each step is described to the programm, which then, executes them one after the other.
+[Imperative Programming](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/imperative.html): Declarative programming is the programming style where each step is described to the program, which then, executes them one after the other.
 [implements](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/implements.html): ``implements`` is a keyword, dedicated to classes.
 [Implicit State](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/implicit-state.html): Implicit state is state that a function or method relies on without declaring it as a parameter or return value.
 [Implicit](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/implicit.html): A feature is implicit when it is available, yet not explicitly visible.
@@ -817,7 +817,7 @@
 [include_path](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/include_path.html): The ``include_path`` directive sets the directories where the file functions look for files to read or write files.
 [Inclusions](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/inclusion.html): Inclusion is the operation to add PHP code stored in an external file, into another PHP code.
 [Incoming Data](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/incoming-data.html): Incoming data are data submitted to PHP by the user.
-[Inconsistent](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/inconsistent.html): Inconsistent is a trait of written code, where different conventions or style are used at the same time.
+[Inconsistent](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/inconsistent.html): Inconsistent is a trait of written code, where different conventions or styles are used at the same time.
 [Increment](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/increment.html): Increment refers to the process of increasing or adding a small amount to a value, or simply one unit.
 [Indentation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/indentation.html): Indentation is a convention governing the layout of blocks of code to convey program structure.
 [Index For Arrays](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/index-array.html): A index is the identifier of an specific element in an array.
@@ -942,7 +942,7 @@
 [Local Scope](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/local.html): The local scope is the scope inside a function or method.
 [Locale](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/locale.html): Locale are a set of configuration which describe how to handle different formats of data, such as monetary values, dates and time.
 [Lock](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lock.html): A lock is a mechanism used to control access to a shared resource so that only one process can use it at a time.
-[Log File](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/log-file.html): Log is a list of event that happen during execution of a piece of software.
+[Log File](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/log-file.html): Log is a list of events that happen during execution of a piece of software.
 [Log](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/log.html): Log has several meanings:
 [Logarithm](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/logarithm.html): The logarithm is a family of mathematical functions, where ``log($a * $b) == log($a) + log($b)``.
 [Logical Operators](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/logical-operator.html): Logical operators applies four logical functions to booleans.
@@ -1266,7 +1266,7 @@
 [Positive Integer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/positive-integer.html): A positive integer is an integer value which is 0 or larger.
 [Post-increment](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/post-increment.html): Post-increment is the ``++`` operator, used on a variable, when it is placed after the variable.
 [Pound #](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pound.html): ``#`` is character, used in various situations:
-[Pull Request (PR)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pr.html): A Pull Request is a feature of version control systems, vcs, that allows a developer to propose changes to a codebase.
+[Pull Request (PR)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pr.html): A Pull Request is a feature of version control systems, VCS, that allows a developer to propose changes to a codebase.
 [Pre-increment](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pre-increment.html): Pre-increment is the ``++`` operator, used on a variable, when it is placed before the variable.
 [Precedence](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/precedence.html): Precedence organizes the way operators are executed, when they are mixed in the same expression.
 [precision](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/precision.html): Precision refers to the number of digits are used to represent and display floating-point numbers.
@@ -1320,10 +1320,10 @@
 [Quine](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/quine.html): A quine is a piece of code that produces itself.
 [Quoted Printable](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/quoted-printable.html): Quoted-printable is a content transfer encoding defined in RFC 2045 that's primarily used in email to ensure that message data remains intact when transmitted over protocols that are not 8-bit clean, such as SMTP.
 [Race Condition](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/race-condition.html): A Race Condition is a broad term for any situation where the outcome of a program depends on the timing of uncontrollable events.
-[RACI Model](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/raci.html): RACI model is an accountability model, which list 
+[RACI Model](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/raci.html): RACI model is an accountability model, which lists
 
 + Responsible:
-[Retrieval Augmented Generation (RAG)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rag.html): Retrieval Augmented Geenration, aka RAG, is a technique used in artificial intelligence, especially in large language models, to improve the accuracy and relevance of generated responses.
+[Retrieval Augmented Generation (RAG)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rag.html): Retrieval Augmented Generation, aka RAG, is a technique used in artificial intelligence, especially in large language models, to improve the accuracy and relevance of generated responses.
 [Railroad Programming](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/railroad-programming.html): Railroad programming is a functional programming paradigm that manages flow control, especially success vs failure, without messy if/else chains or exceptions everywhere.
 [Rainbow Table](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rainbow-table.html): A rainbow table is a precomputed table used to reverse cryptographic hash functions, mainly to recover plaintext passwords from their hash.
 [Random Access](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/random-access.html): Random access is the ability to read or write any element of a data structure, or any byte of a file, directly, in constant time, without having to traverse the elements that precede it.
@@ -1367,7 +1367,7 @@
 [ReflectionException](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reflectionexception.html): ReflectionException is thrown whenever the Reflection API encounters an error.
 [Reflector](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reflector.html): ``Reflector`` is the base interface that all PHP Reflection classes implement.
 [Regular Expression](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/regex.html): A regular expression, or regex, is a sequence of characters that specifies a search pattern.
-[Regexploit](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/regexploit.html): A regexploit is a poorly build regex, which takes a long time to execute, even for small inputs.
+[Regexploit](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/regexploit.html): A regexploit is a poorly built regex, which takes a long time to execute, even for small inputs.
 [Register Globals](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/register-globals.html): Register globals is an old and removed feature of PHP, which automatically created variables from the incoming super globals, such as $_GET, $_POST, $_REQUEST, $_COOKIES.
 [register_argc_argv](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/register_argc_argv.html): This directive controls the availability of the ``$argv`` and ``$argc`` PHP native variables.
 [Registry](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/registry.html): A registry may be the following things:
@@ -1381,7 +1381,7 @@
 [Relay Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/relay-function.html): A relay function, or a relay method, is a function that calls another function, with the same arguments.
 [Release](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/release.html): A release is a final version of a software.
 [Reliability](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reliability.html): Reliability is the ability of a system to perform its intended function consistently and without failure over a given period.
-[Render](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/render.html): To render, or renderingm is the action to take a template and its related data, to produce a target format.
+[Render](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/render.html): To render, or rendering, is the action to take a template and its related data, to produce a target format.
 [Renderer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/renderer.html): A renderer is an piece of code that applies the rules to produce a target format.
 [Read Eval Print Loop (REPL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/repl.html): PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results.
 [Replay](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/replay.html): A replay is the act of returning a previously stored result to a repeated request without re-executing the underlying operation.
@@ -1527,7 +1527,7 @@
 [Sort](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sort.html): Sorting is the action to put a list of object into a specific order.
 [State of the Art (SOTA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sota.html): State of the Art, abbreviated SOTA, refers to the highest level of development achieved in a field at a given point in time.
 [Source Code](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/source.html): Source code is the human-readable set of instructions written in a programming language.
-[Single Page Application (SPA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/spa.html): SPA's a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server.
+[Single Page Application (SPA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/spa.html): An SPA is a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server.
 [Space](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/space.html): Space is the `` `` character:
 [Spaceship Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/spaceship.html): Spaceship operator is an operator which reports if a value is larger, equal or smaller than another value.
 [SPARQL](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sparql.html): ``SPARQL`` is a query language for RDF, Resource Description Framework, data stores.
@@ -1661,7 +1661,7 @@ It applies to several concepts:
 [Test Pyramid](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/test-pyramid.html): The Test Pyramid is a concept in software testing that represents the ideal distribution of different types of tests in a software testing strategy.
 [Test](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/test.html): Tests are tools that monitor the behavior of a code.
 [Testable](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/testable.html): A piece of code is testable when it may have related tests, that checks its behavior.
-[testdox](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/testdox.html): TestDox, which stands for TestDocs, is an output format for unit test frameworks, where the name of the tests, aka the methods, are converted into a human readable string.
+[testdox](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/testdox.html): TestDox, which stands for Test Documentation, is an output format for unit test frameworks, where the name of the tests, aka the methods, are converted into a human readable string.
 [Text](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/text.html): Text refers to data that is human-readable and composed of characters, such as letters, numbers, punctuation, according to a specific encoding, such as ASCII or UTF-8.
 [Thin Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/thin-method.html): A thin method is an informal term used to describe a method that contains very little logic of its own and mostly delegates work to another method or object.
 [Thin](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/thin.html): Thin is an informal qualifier applied to a class that has very few responsibilities:
