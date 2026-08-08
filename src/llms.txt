@@ -898,7 +898,7 @@
 [Goto Labels](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/label.html): Labels are the receiving end of a goto call.
 [Linux Apache Mysql PHP (LAMP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lamp.html): LAMP is a popular open-source software stack used to build and deploy web applications.
 [Language Construct](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/language-construct.html): PHP has a notion of ``language construct``, which are special keywords, with an attached feature.
-[LSP](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/language-service-protocol.html): A Language Server Protocol, an LSP server, is a program that provides language-intelligence features to any code editor and IDE that speaks the LSP standard.
+[Language Server Protocol (LSP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/language-service-protocol.html): A Language Server Protocol, an LSP server, is a program that provides language-intelligence features to any code editor and IDE that speaks the LSP standard.
 [Laravel](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/laravel.html): Laravel is a popular PHP framework used for building web applications.
 [Late Static Binding](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/late-static-binding.html): PHP implements a feature called late static bindings which can be used to reference the called class in a context of static inheritance.
 [Latency](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/latency.html): Latency is the delay between a request being made and the response being received.
@@ -1687,7 +1687,7 @@ It applies to several concepts:
 [Trailing Comma](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/trailing-comma.html): The trailing comma is the possibility to leave the last element of a list empty.
 [Trait](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/trait.html): Traits are a mechanism for code reuse in single inheritance languages.
 [Transaction](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/transaction.html): A transaction is a sequence of database operations that is treated as a single atomic unit.
-[Transpile](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/transpile.html): Transpiling, short for "source-to-source compiling," is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language.
+[Transpile](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/transpile.html): Transpiling, short for ``source-to-source compiling``, is a process in software development where source code written in one programming language is transformed into equivalent code in another programming language.
 [Traversable](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/traversable.html): Traversable is a specific PHP interface that represents an object that can be iterated over.
 [Traversal](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/traversal.html): A traversal is the process of listing all elements in a data structure.
 [Tree](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tree.html): A tree is a datastructure which represents data as a set of connected nodes, where each node has only one parent.
@@ -1703,7 +1703,7 @@ It applies to several concepts:
 [Terminal User Interface (TUI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tui.html): A Terminal User Interface, or TUI for short, is a type of user interface that uses text-based graphics and keyboard interaction within a terminal or console, providing a richer experience than a plain CLI while avoiding the overhead of a graphical desktop.
 [Tuple](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tuple.html): A tuple is a fixed-size, ordered collection of values, where each position may hold a different type, and the type of the whole tuple is the sequence of its element types, such as Rust's ``(i32, String, bool)`` or Python's ``(1, 'a', True)``.
 [Tutorial](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tutorial.html): Tutorial is a type of documentation.
-[Twig](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/twig.html): Twig is a template engine for PHP, created by SensioLabs and used as the default templating layer of the Symfony framework.
+[Twig](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/twig.html): Twig is a template engine for PHP, created by ``SensioLabs`` and used as the default templating layer of the Symfony framework.
 [Type Checking](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/type-checking.html): Type checking is the process of verifying that the types of expressions, variables, arguments, and return values are consistent with their declarations and usage.
 [Type Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/type-class.html): A type class, as found in Haskell and similar languages, is a named set of functions that a type must implement in order to belong to that class.
 [Contravariance](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/type-contravariance.html): Contravariance allows a parameter type to be less specific in a child method, than that of its parent.
@@ -1747,7 +1747,7 @@ It applies to several concepts:
 [Upgrade](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/upgrade.html): An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version.
 [File Upload](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/upload.html): PHP is able to receive files as part of a form submission.
 [URI Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/uri-class.html): The ``URI`` class is the class provided by the uri extension.
-[URI Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/uri-extension.html): ``uri`` is an extension that provides APIs to securely parse and modify URIs and URLs according to the RFC 3986 and WHATWG URL standards.
+[URI Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/uri-extension.html): ``uri`` is an extension that provides APIs to securely parse and modify URI and URL according to the RFC 3986 and WHATWG URL standards.
 [Universal Resource Identifier (URI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/uri.html): Universal Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies.
 [Universal Resource Locator (URL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/url.html): Universal Resource Locator is a string that represents a resource, where to find it, how to access it.
 [Use Alias](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/use-alias.html): The ``use`` operator can create aliases for a class, function or constant.
@@ -1791,7 +1791,7 @@ It applies to several concepts:
 [(void) Cast](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/void-cast.html): The ``(void)`` cast is a special cast.
 [Void](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/void.html): Void is a return type.
 [Vulnerability](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/vulnerability.html): A vulnerability is a weakness or flaw in a computer system, software, hardware, or even a process that can be exploited by an attacker to perform unauthorized actions.
-[World Wide Web Consortium (W3C)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/w3c.html): The W3C, or World Wide Web Consortium, is the international standards organization for the World Wide Web.
+[World Wide Web Consortium (W3C)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/w3c.html): The ``W3C``, or World Wide Web Consortium, is the international standards organization for the World Wide Web.
 [Write-Ahead Logging (WAL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/wal.html): Write-Ahead Logging, also called ``WAL``, is a standard technique for ensuring data integrity in databases.
 [Warning](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/warning.html): A warning is a non-fatal runtime error that alerts developers about a problem in the code, but doesn't stop script execution at that point.
 [Waterfall](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/waterfall.html): Waterfall is a sequential software development methodology where each phase must be completed before the next one begins.

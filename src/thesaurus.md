@@ -76,7 +76,7 @@ List of acronyms, used in this dictionary.
 + [JavaScript Object Notation (JSON)](index/json.html)
 + [Just In Time (JIT)](index/jit.html)
 + [KISS](index/kiss.html)
-+ [LSP](index/lsp.html)
++ [Language Server Protocol (LSP)](index/language-service-protocol.html)
 + [Large Language Model (LLM)](index/llm.html)
 + [Last In, First Out (LIFO)](index/lifo.html)
 + [Lightweight Directory Access Protocol (LDAP)](index/ldap.html)

@@ -903,7 +903,7 @@
 + [Goto Labels](index/label.md)
 + [Linux Apache Mysql PHP (LAMP)](index/lamp.md)
 + [Language Construct](index/language-construct.md)
-+ [LSP](index/language-service-protocol.md)
++ [Language Server Protocol (LSP)](index/language-service-protocol.md)
 + [Laravel](index/laravel.md)
 + [Late Static Binding](index/late-static-binding.md)
 + [Latency](index/latency.md)

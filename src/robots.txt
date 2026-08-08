@@ -1,7 +1,4 @@
 User-agent: *
-Disallow:
-
-User-agent: *
-Disallow: /en/latest/_sources/
+Allow:
 
 Sitemap: https://php-dictionary.readthedocs.io/en/latest/sitemap.xml

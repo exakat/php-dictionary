@@ -34,7 +34,7 @@ Autocompletion also applies to IDE plugins, framework-specific stubs, and tools 
 + [PHPdoc](phpdoc.html)
 + [Static Code Analysis (SCA)](sca.html)
 + [LSP](lsp.html)
-+ [LSP](language-service-protocol.html)
++ [Language Server Protocol (LSP)](language-service-protocol.html)
 + [PHP AI Editor](php-ai-editor.html)
 + [PHP Editor](php-editor.html)
 + [Integrated Environment of Development (IDE)](ide.html)

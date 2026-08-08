@@ -917,6 +917,7 @@
   + [LDAP Injection](index/ldap-injection.ini.html)
   + [LSP](index/lsp.ini.html)
   + [Language Construct](index/language-construct.ini.html)
+  + [Language Server Protocol (LSP)](index/language-service-protocol.ini.html)
   + [Laravel](index/laravel.ini.html)
   + [Large Language Model (LLM)](index/llm.ini.html)
   + [Last In, First Out (LIFO)](index/lifo.ini.html)

@@ -40,5 +40,5 @@ IDE are often compared to editor, which focus on reactivity and a more limited s
 + [Autocompletion](autocompletion.html)
 + [Debug](debug.html)
 + [Debugger](debugger.html)
-+ [LSP](language-service-protocol.html)
++ [Language Server Protocol (LSP)](language-service-protocol.html)
 + [Xdebug](xdebug.html)
