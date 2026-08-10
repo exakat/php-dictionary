@@ -49,9 +49,9 @@
 [Accessibility](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/accessibility.html): Accessibility is the process to make the code accessible to everyone.
 [Accountability](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/accountability.html): Accountability isn't a built-in language feature:
 [ACID](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/acid.html): ACID is an acronym for the four properties that guarantee reliable database transactions.
-[Access Control List (ACL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/acl.html): An Access Control List, or ACL, is a set of rules that defines which users or system processes are granted access to specific resources, and what operations they are allowed to perform.
+[Access Control List (ACL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/acl.html): An Access Control List, or ``ACL``, is a set of rules that defines which users or system processes are granted access to specific resources, and what operations they are allowed to perform.
 [Active Record](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/active-record.html): Active Record is a design pattern commonly used in development.
-[Actor Model](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/actor-model.html): The Actor Model, introduced by Carl Hewitt in 1973, is a mathematical model of concurrent computation.
+[Actor Model](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/actor-model.html): The Actor Model, introduced by ``Carl Hewitt`` in 1973, is a mathematical model of concurrent computation.
 [Adapters](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/adapter.html): Adapters are the link between the application and the rest of the universe.
 [Addition](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/addition.html): PHP additions apply to two different types:
 [Architectural Decision Record (ADR)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/adr.html): An Architectural Decision Record, or ADR, is a concise document that captures an important architectural decision made during the development of a software project.
@@ -743,6 +743,7 @@
 [Hash Comparisons](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash-comparison.html): Cryptographic hashes are usually represented by strings.
 [Cryptographic Hash](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash-crypto.html): A cryptographic hash is an algorithm which maps a string to a fixed sized string, with a method that is difficult or impossible to revert.
 [hash() Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash-function.html): ``hash()`` is a PHP native function, that computes the hash of strings, with a wide range of algorithms, cryptographic or not.
+[Hash Table Attack](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash-table-attack.html): A hash table attack, also known as HashDoS or hash-flooding attack, is a denial of service technique that exploits the worst-case behavior of a hash table.
 [Hash Table](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash-table.html): A hash table is a data structure that stores key-value pairs, and uses a hash function to compute an index, called a bucket, from the key, so that a value can be inserted, looked up, or deleted in average constant time ``O(1)``, regardless of the size of the table.
 [Hash](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash.html): Hash has several meanings:
 [hash_equals()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/hash_equals.html): ``hash_equals()`` is a built-in PHP function that compares two strings in constant time, regardless of where they differ.
@@ -1246,7 +1247,7 @@
 [PHPunit](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phpunit.html): PHPUnit is an open-source testing framework for the PHP programming language.
 [PHP Installer For Extensions (PIE)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pie.html): PIE is an extension installer for PHP, designed as a successor to PECL and developed by the PHP Foundation.
 [Pipe Operator ``|>``](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pipe-operator.html): The pipe operator is ``|>``.
-[Pipe ``|``, the logical operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pipe.html): The ``pipe operator`` is the ``|>`` operator.
+[Pipe ``|``, The Logical Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pipe.html): The ``pipe operator`` is the ``|>`` operator.
 [Pipeline](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pipeline.html): A pipeline is a chain of steps that composes a sequential set of actions.
 [Plain Text](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/plain-text.html): Plain Text refers to data that is human-readable, and not protected by any cryptography transformation.
 [Plugin](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/plugin.html): A plugin is a component that add new features to an existing code.
@@ -1526,6 +1527,7 @@
 [SOLID](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/solid.html): SOLID is an acronym for a set of OOP design principle.
 [Sort](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sort.html): Sorting is the action to put a list of object into a specific order.
 [State of the Art (SOTA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sota.html): State of the Art, abbreviated SOTA, refers to the highest level of development achieved in a field at a given point in time.
+[Source Of Truth](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/source-of-truth.html): A source of truth is the one place designated to hold the authoritative version of a piece of data.
 [Source Code](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/source.html): Source code is the human-readable set of instructions written in a programming language.
 [Single Page Application (SPA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/spa.html): An SPA is a web application or website that interacts with the user by dynamically rewriting the current page, rather than loading entire new pages from the server.
 [Space](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/space.html): Space is the `` `` character:
@@ -1676,7 +1678,7 @@ It applies to several concepts:
 [Time Travel](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/time-travel.html): Time travel debugging is a technique in software development that allows the program to step backward as well as forward through its execution path.
 [Timing Attack](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/timing-attack.html): A timing attack is a type of side-channel attack where an attacker exploits variations in the time it takes for a system to perform operations to infer secret information.
 [Transport Layer Security (TLS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tls.html): ``TLS``, the Transport Layer Security is a cryptographic protocol designed to provide communications security over a computer network and on the Web.
-[Time Of Check To Time Of Use (TOCTOU)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/toctou.html): TOCTOU, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it.
+[Time Of Check To Time Of Use (TOCTOU)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/toctou.html): ``TOCTOU``, which stands for Time Of Check To Time Of Use, is a class of bug where there is a time interval between checking a resource and then using it.
 [TODO](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/todo.html): ``TODO`` is a conventional comment marker used in source code to flag unfinished work, known limitations, or planned improvements.
 [Token](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/token.html): A PHP token is the smallest unit of code that has meaning in the language.
 [Tokenizer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tokenizer.html): The PHP Tokenizer is a built-in extension that breaks down PHP source code into its fundamental components called tokens.

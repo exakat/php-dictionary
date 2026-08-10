@@ -1,5 +1,5 @@
 # Actor Model
-The Actor Model, introduced by Carl Hewitt in 1973, is a mathematical model of concurrent computation. Its fundamental unit is the actor: a lightweight, isolated entity with its own private state and a mailbox. Actors never share memory. All communication happens exclusively through asynchronous message passing.
+The Actor Model, introduced by ``Carl Hewitt`` in 1973, is a mathematical model of concurrent computation. Its fundamental unit is the actor: a lightweight, isolated entity with its own private state and a mailbox. Actors never share memory. All communication happens exclusively through asynchronous message passing.
 
 When an actor receives a message it may:
 
@@ -11,11 +11,11 @@ Because no memory is shared, race conditions and the need for explicit locks are
 
 PHP is single-threaded in its classic request/response model, so the Actor Model is not natively available in the language. However, several frameworks and extensions bring actor-like concurrency to PHP:
 
-+ ReactPHP and AMPHP implement event loops with async message passing via promises and fibers.
-+ Swoole / OpenSwoole provide coroutines and channels that enable actor-style communication.
++ ``ReactPHP`` and ``AMPHP`` implement event loops with async message passing via promises and fibers.
++ ``Swoole`` / ``OpenSwoole`` provide coroutines and channels that enable actor-style communication.
 + The ``parallel`` extension gives true multi-threaded execution with channels for inter-thread messaging.
-+ Libraries such as Phluxor and Thespian implement explicit actor runtimes on top of these primitives.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.15","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/actor-model.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/actor-model.html","name":"Actor Model","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jul 2026 08:12:25 +0000","dateModified":"Thu, 16 Jul 2026 08:12:25 +0000","description":"The Actor Model, introduced by Carl Hewitt in 1973, is a mathematical model of concurrent computation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Actor Model.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Actor Model"}]}]}</script>
++ Libraries such as ``Phluxor`` implement explicit actor runtimes on top of these primitives.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.16","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/actor-model.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/actor-model.html","name":"Actor Model","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Aug 2026 16:59:06 +0000","dateModified":"Mon, 10 Aug 2026 16:59:06 +0000","description":"The Actor Model, introduced by ``Carl Hewitt`` in 1973, is a mathematical model of concurrent computation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Actor Model.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":2,"name":"Actor Model"}]}]}</script>
 ```php
 <?php
 
@@ -46,6 +46,7 @@ PHP is single-threaded in its classic request/response model, so the Actor Model
 + [ReactPHP](https://reactphp.org/)
 + [AMPHP](https://amphp.org/)
 + [Swoole](https://www.swoole.com/)
++ [Phluxor](https://phluxor.github.io/)
 + [parallel extension](https://www.php.net/manual/en/book.parallel.php)
 
 ## Related

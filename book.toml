@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.15"
+title = "The PHP dictionary - 1.1.16"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -756,6 +756,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/hash-comparison.ini.html" = "/en/latest/index/hash-comparison.html"
 "/dictionary/hash-crypto.ini.html" = "/en/latest/index/hash-crypto.html"
 "/dictionary/hash-function.ini.html" = "/en/latest/index/hash-function.html"
+"/dictionary/hash-table-attack.ini.html" = "/en/latest/index/hash-table-attack.html"
 "/dictionary/hash-table.ini.html" = "/en/latest/index/hash-table.html"
 "/dictionary/hash.ini.html" = "/en/latest/index/hash.html"
 "/dictionary/hash_equals.ini.html" = "/en/latest/index/hash_equals.html"
@@ -1537,6 +1538,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/solid.ini.html" = "/en/latest/index/solid.html"
 "/dictionary/sort.ini.html" = "/en/latest/index/sort.html"
 "/dictionary/sota.ini.html" = "/en/latest/index/sota.html"
+"/dictionary/source-of-truth.ini.html" = "/en/latest/index/source-of-truth.html"
 "/dictionary/source.ini.html" = "/en/latest/index/source.html"
 "/dictionary/spa.ini.html" = "/en/latest/index/spa.html"
 "/dictionary/space.ini.html" = "/en/latest/index/space.html"
@@ -1862,6 +1864,43 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

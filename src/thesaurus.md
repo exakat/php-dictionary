@@ -548,6 +548,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + [Slug](index/slug.html)
 + [Software Development Kit (SDK)](index/sdk.html)
 + [Source Code](index/source.html)
++ [Source Of Truth](index/source-of-truth.html)
 + [Sqids](index/sqids.html)
 + [Standard](index/standard.html)
 + [State of the Art (SOTA)](index/sota.html)
