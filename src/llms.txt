@@ -78,8 +78,8 @@
 [Anonymous Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/anonymous-function.html): A function may be instantiated, without defining a function name.
 [Anonymous](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/anonymous.html): An anonymous structure is a structure that usually has a name, but may also go without it.
 [Anti-Pattern](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/anti-pattern.html): An anti-pattern is a common but counterproductive solution to a recurring problem.
-[ANTLR4](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/antlr4.html): ANTLR, ANother Tool for Language Recognition, currently at its 4th major version, is a parser generator:
-[Ahead Of Time](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/aot.html): Ahead-of-Time, AOT, compilation is the process of compiling source code to machine code before execution, as opposed to at runtime.
+[ANTLR4](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/antlr4.html): ``ANTLR``, ANother Tool for Language Recognition, currently at its 4th major version, is a parser generator:
+[Ahead Of Time](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/aot.html): Ahead-of-Time, ``AOT``, compilation is the process of compiling source code to machine code before execution, as opposed to at runtime.
 [APCu](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/apcu.html): APCu, APC User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis.
 [API Gateway](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/api-gateway.html): An API gateway is a server that acts as the single entry point for all client requests to a backend system.
 [Application Programming Interface (API)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/api.html): An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service.
@@ -531,7 +531,7 @@
 [Don't Repeat Yourself (DRY)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dry.html): Don't repeat yourself, or DRY, is a principle of software development aimed at reducing repetition of software patterns.
 [Data Structure](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ds.html): Data Structures, is a PHP extension which provides efficient data structures, provided as an alternative to the array.
 [Data Source Name (DSN)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dsn.html): A DSN is a string that describes a database location and access.
-[Data Transfer Object (DTO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dto.html): DTO stands for Data Transfer Object:
+[Data Transfer Object (DTO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dto.html): ``DTO`` stands for Data Transfer Object:
 [Duck Typing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ducktyping.html): In duck typing, an object is of a given type if it has all methods and properties required by that type.
 [Duplicate](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/duplicate.html): There are things that PHP does not accept as duplicate:
 [Dynamic Call](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dynamic-call.html): A dynamic call happens when part of the syntax comes from a variable, and is not known at code writing time.
@@ -663,7 +663,7 @@
 [Finite State Machine](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/finite-state-machine.html): A finite state machine, also called FSM, also called a finite automaton, is a mathematical model used to design systems that can be in one of a finite number of states at any given time.
 [Fire-and-forget](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fire-and-forget.html): Fire-and-forget is a pattern where a task is dispatched and the caller does not wait for its result, does not check for errors, and does not expect a return value.
 [First Class Callable](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/first-class-callable.html): First Class Callable Syntax is a new feature that creates a closure directly from a function, by using the triple dot operator as an argument.
-[First-Class Module](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/first-class-module.html): In OCaml and a few other ML-family languages, a module can itself be treated as an ordinary value:
+[First-Class Module](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/first-class-module.html): In ``OCaml`` and a few other ML-family languages, a module can itself be treated as an ordinary value:
 [Fixture](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fixture.html): A fixture is a set of test data.
 [Flag](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/flag.html): A flag is another name for an option.
 [Flame Graph](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/flamegraph.html): Flame graphs are a visualization tool used to understand where a program spends its time, especially useful for performance profiling.
@@ -700,10 +700,10 @@
 [Future](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/future.html): A future is a programming construct representing a value that is not yet available but will be resolved at some point.
 [Fuzzing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fuzzing.html): Fuzzing refers to an automated software testing technique where the application is fed random, unexpected, or malformed data to discover bugs, vulnerabilities, and unexpected behaviors.
 [fwrite()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fwrite.html): ``fwrite()`` is a PHP native function that writes a string to an open file pointer.
-[Generalized Algebraic Data Type (GADT)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gadt.html): A Generalized Algebraic Data Type, GADT, is an extension of algebraic data types in which each constructor of the type can return a different, more specific instantiation of the type.
+[Generalized Algebraic Data Type (GADT)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gadt.html): A Generalized Algebraic Data Type, ``GADT``, is an extension of algebraic data types in which each constructor of the type can return a different, more specific instantiation of the type.
 [Garbage Collection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/garbage-collection.html): Garbage collection is a PHP mechanism that checks memory and frees it when it needs to store new values.
 [Graphic Draw (GD)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gd.html): ``GD`` is the name of a PHP extension that can manipulate several image formats, such as GIF, PNG, JPEG, WBMP, and XPM, and draw graphics.
-[Gearman](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gearman.html): ``Gearman`` is a PECL extension that provides a client for the Gearman job server, a system for distributing work across machines or processes.
+[Gearman](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gearman.html): ``Gearman`` is a PECL extension that provides a client for the ``Gearman`` job server, a system for distributing work across machines or processes.
 [Generator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/generator.html): Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface.
 [Generics](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/generics.html): Generics are a style of types, where the type of a property, parameter or return is specified at the declaration level.
 [get_class()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/get_class.html): ``get_class()`` is a PHP native function, that returns the name of the class of an object.
@@ -1547,6 +1547,7 @@
 [SplStorageObjects](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/splstorageobjects.html): The ``SplObjectStorage`` class provides a list for objects:
 [SplSubject](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/splsubject.html): ``SplSubject`` is an SPL interface that represents the subject, also known as the observable, role in the Observer design pattern.
 [sprintf](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sprintf.html): ``sprintf()`` is a PHP native function, which format a string based on a format string, and one or more values.
+[Spy](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/spy.html): A spy is a test double that wraps a real object, letting its original behavior run while recording how it was called:
 [Sqids](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sqids.html): Sqids, formerly known as Hashids, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.
 [SQL Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sql-database.html): A SQL database is a database server that process data based on the SQL language.
 [SQL Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sql-injection.html): A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query.
@@ -1603,7 +1604,7 @@
 [strtoupper()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/strtoupper.html): ``strtoupper()`` converts all ASCII alphabetic characters in a string to uppercase.
 [strtr()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/strtr.html): ``strtr()`` is a PHP native function that translates characters or replaces substrings in a string.
 [Struct Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/struct-type.html): A ``struct`` is a value type that groups named fields together, as in C, Go, Rust, or Swift.
-[Structural Pattern Matching](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/structural-pattern-matching.html): Structural pattern matching, found in Rust, Haskell, Scala, and OCaml, matches a value against a shape that mirrors the value's own structure, and simultaneously binds the pieces it finds to new variables.
+[Structural Pattern Matching](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/structural-pattern-matching.html): Structural pattern matching, found in Rust, ``Haskell``, ``Scala``, and ``OCaml``, matches a value against a shape that mirrors the value's own structure, and simultaneously binds the pieces it finds to new variables.
 [Structural Typing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/structural-typing.html): Structural typing is a type-compatibility rule under which a value satisfies a type purely because it exposes the required shape:
 [Structure](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/structure.html): A structure is a complex data or processing routine, such as a class, trait, interface, function, enumeration.
 [Stubs Files](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/stubs.html): Stubs files are PHP code, that contains only the definitions of classic PHP structures:

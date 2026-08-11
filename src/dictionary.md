@@ -1578,6 +1578,7 @@
   + [SplStack](index/splstack.ini.html)
   + [SplStorageObjects](index/splstorageobjects.ini.html)
   + [SplSubject](index/splsubject.ini.html)
+  + [Spy](index/spy.ini.html)
   + [Sqids](index/sqids.ini.html)
   + [Square Brackets](index/square-bracket.ini.html)
   + [Stack](index/stack.ini.html)

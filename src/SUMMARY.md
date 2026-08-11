@@ -1550,6 +1550,7 @@
 + [SplStorageObjects](index/splstorageobjects.md)
 + [SplSubject](index/splsubject.md)
 + [sprintf](index/sprintf.md)
++ [Spy](index/spy.md)
 + [Sqids](index/sqids.md)
 + [SQL Database](index/sql-database.md)
 + [SQL Injection](index/sql-injection.md)
