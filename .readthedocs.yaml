@@ -10,3 +10,4 @@ build:
       html:
         - /home/docs/.asdf/installs/rust/1.96.0/bin/mdbook build --dest-dir $READTHEDOCS_OUTPUT/html
         - python3 scripts/canonical.py $READTHEDOCS_OUTPUT/html
+        - python3 scripts/description.py $READTHEDOCS_OUTPUT/html
