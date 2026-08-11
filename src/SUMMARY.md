@@ -801,6 +801,7 @@
 + [Identifier](index/identifier.md)
 + [Identity Comparison](index/identity-comparison.md)
 + [Identity](index/identity.md)
++ [Idiomatic](index/idiomatic.md)
 + [Insecure Direct Object Reference (IDOR)](index/idor.md)
 + [If Then Else](index/if-then.md)
 + [Iffectation](index/iffectation.md)

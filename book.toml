@@ -809,6 +809,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/identifier.ini.html" = "/en/latest/index/identifier.html"
 "/dictionary/identity-comparison.ini.html" = "/en/latest/index/identity-comparison.html"
 "/dictionary/identity.ini.html" = "/en/latest/index/identity.html"
+"/dictionary/idiomatic.ini.html" = "/en/latest/index/idiomatic.html"
 "/dictionary/idor.ini.html" = "/en/latest/index/idor.html"
 "/dictionary/if-then.ini.html" = "/en/latest/index/if-then.html"
 "/dictionary/iffectation.ini.html" = "/en/latest/index/iffectation.html"
@@ -1558,6 +1559,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/splstorageobjects.ini.html" = "/en/latest/index/splstorageobjects.html"
 "/dictionary/splsubject.ini.html" = "/en/latest/index/splsubject.html"
 "/dictionary/sprintf.ini.html" = "/en/latest/index/sprintf.html"
+"/dictionary/spy.ini.html" = "/en/latest/index/spy.html"
 "/dictionary/sqids.ini.html" = "/en/latest/index/sqids.html"
 "/dictionary/sql-database.ini.html" = "/en/latest/index/sql-database.html"
 "/dictionary/sql-injection.ini.html" = "/en/latest/index/sql-injection.html"
@@ -1864,6 +1866,14 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
 
 
 

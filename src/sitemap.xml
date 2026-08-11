@@ -672,7 +672,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/arrow-function.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-11T14:34:31+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3988,6 +3988,11 @@
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/identity.html</loc>
   <lastmod>2026-08-08T14:31:54+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/idiomatic.html</loc>
+  <lastmod>2026-08-11T14:34:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>

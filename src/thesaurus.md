@@ -382,6 +382,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + [Hydratation](index/hydrate.html)
 + [Idempotent](index/idempotent.html)
 + [Identity](index/identity.html)
++ [Idiomatic](index/idiomatic.html)
 + [Immutable](index/immutable.html)
 + [Implicit State](index/implicit-state.html)
 + [Implicit](index/implicit.html)

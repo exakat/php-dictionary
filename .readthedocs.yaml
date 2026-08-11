@@ -8,5 +8,5 @@ build:
       - cargo install mdbook
     build:
       html:
-        # /home/docs/.asdf/installs/rust/1.96.0/bin/mdbook is read from the logs of readthedocs
         - /home/docs/.asdf/installs/rust/1.96.0/bin/mdbook build --dest-dir $READTHEDOCS_OUTPUT/html
+        - python3 scripts/canonical.py $READTHEDOCS_OUTPUT/html

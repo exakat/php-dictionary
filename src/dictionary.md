@@ -815,6 +815,7 @@
   + [Identifier](index/identifier.ini.html)
   + [Identity](index/identity.ini.html)
   + [Identity Comparison](index/identity-comparison.ini.html)
+  + [Idiomatic](index/idiomatic.ini.html)
   + [If Then Else](index/if-then.ini.html)
   + [Iffectation](index/iffectation.ini.html)
   + [Image](index/image.ini.html)
