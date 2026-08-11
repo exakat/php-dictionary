@@ -1,4 +1,4 @@
 User-agent: *
-Allow:
+Allow: /
 
 Sitemap: https://php-dictionary.readthedocs.io/en/latest/sitemap.xml
