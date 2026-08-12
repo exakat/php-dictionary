@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.16"
+title = "The PHP dictionary - 1.1.17"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -172,6 +172,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/audit.ini.html" = "/en/latest/index/audit.html"
 "/dictionary/authentication.ini.html" = "/en/latest/index/authentication.html"
 "/dictionary/authorize.ini.html" = "/en/latest/index/authorize.html"
+"/dictionary/auto-increment.ini.html" = "/en/latest/index/auto-increment.html"
 "/dictionary/auto_prepend_file.ini.html" = "/en/latest/index/auto_prepend_file.html"
 "/dictionary/autocompletion.ini.html" = "/en/latest/index/autocompletion.html"
 "/dictionary/autoload.ini.html" = "/en/latest/index/autoload.html"
@@ -1295,6 +1296,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/prepared-query.ini.html" = "/en/latest/index/prepared-query.html"
 "/dictionary/prepend.ini.html" = "/en/latest/index/prepend.html"
 "/dictionary/preprocess.ini.html" = "/en/latest/index/preprocess.html"
+"/dictionary/primary-key.ini.html" = "/en/latest/index/primary-key.html"
 "/dictionary/primitive-obsession.ini.html" = "/en/latest/index/primitive-obsession.html"
 "/dictionary/print.ini.html" = "/en/latest/index/print.html"
 "/dictionary/print_r.ini.html" = "/en/latest/index/print_r.html"
@@ -1535,6 +1537,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/soa.ini.html" = "/en/latest/index/soa.html"
 "/dictionary/soap.ini.html" = "/en/latest/index/soap.html"
 "/dictionary/socket.ini.html" = "/en/latest/index/socket.html"
+"/dictionary/soft-delete.ini.html" = "/en/latest/index/soft-delete.html"
 "/dictionary/software-transactional-memory.ini.html" = "/en/latest/index/software-transactional-memory.html"
 "/dictionary/solid.ini.html" = "/en/latest/index/solid.html"
 "/dictionary/sort.ini.html" = "/en/latest/index/sort.html"
@@ -1631,6 +1634,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/supertype.ini.html" = "/en/latest/index/supertype.html"
 "/dictionary/supply-chain-attack.ini.html" = "/en/latest/index/supply-chain-attack.html"
 "/dictionary/supply-chain.ini.html" = "/en/latest/index/supply-chain.html"
+"/dictionary/surrogate-key.ini.html" = "/en/latest/index/surrogate-key.html"
 "/dictionary/svg.ini.html" = "/en/latest/index/svg.html"
 "/dictionary/svm.ini.html" = "/en/latest/index/svm.html"
 "/dictionary/svmexception.ini.html" = "/en/latest/index/svmexception.html"
@@ -1866,6 +1870,19 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
