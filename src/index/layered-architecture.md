@@ -6,38 +6,38 @@ The Presentation layer handles user interaction and HTTP concerns, with controll
 Layered architecture is the implicit structure of most MVC frameworks: controllers belong to the presentation layer, services to the business logic layer, and repositories to the data access layer.
 
 The main risk is layer bleeding: business logic leaking into controllers, aka fat controller, or SQL queries scattered through the business layer. The anemic domain model anti-pattern often accompanies layered architecture when domain logic is spread across service classes rather than entities.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html","name":"Layered Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Aug 2026 08:59:07 +0000","dateModified":"Tue, 11 Aug 2026 08:59:07 +0000","description":"Layered architecture organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Layered Architecture.html"]}],"0":{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.17","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"layered-architecture"}]}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html","name":"Layered Architecture","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 13 Aug 2026 05:49:32 +0000","dateModified":"Thu, 13 Aug 2026 05:49:32 +0000","description":"Layered architecture organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Layered Architecture.html"]}],"0":{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.18","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"layered-architecture"}]}]}</script>
 ```php
 <?php
 
-// Presentation layer — controller
-class OrderController {
-    public function __construct(private OrderService $service) {}
-
-    public function create(Request $request): Response {
-        $order = $this->service->placeOrder($request->validated());
-        return new JsonResponse($order->toArray(), 201);
+    // Presentation layer, controller
+    class OrderController {
+        public function __construct(private OrderService $service) {}
+    
+        public function create(Request $request): Response {
+            $order = $this->service->placeOrder($request->validated());
+            return new JsonResponse($order->toArray(), 201);
+        }
     }
-}
-
-// Business logic layer — service
-class OrderService {
-    public function __construct(private OrderRepository $orders) {}
-
-    public function placeOrder(array $data): Order {
-        $order = Order::new($data);
-        $order->validate();
-        return $this->orders->save($order);
+    
+    // Business logic layer, service
+    class OrderService {
+        public function __construct(private OrderRepository $orders) {}
+    
+        public function placeOrder(array $data): Order {
+            $order = Order::new($data);
+            $order->validate();
+            return $this->orders->save($order);
+        }
     }
-}
 
-// Data access layer — repository
-class OrderRepository {
-    public function save(Order $order): Order {
-        $this->pdo->prepare('INSERT INTO orders ...');
-        return $order;
+    // Data access layer, repository
+    class OrderRepository {
+        public function save(Order $order): Order {
+            $this->pdo->prepare('INSERT INTO orders ...');
+            return $order;
+        }
     }
-}
 
 ?>
 ```
@@ -45,7 +45,6 @@ class OrderRepository {
 **[Documentation](https://en.wikipedia.org/wiki/Multitier_architecture)**
 ## See Also
 
-+ [Multitier architecture - Wikipedia](https://en.wikipedia.org/wiki/Multitier_architecture)
 + [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Related

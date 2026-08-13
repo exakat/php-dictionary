@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.17"
+title = "The PHP dictionary - 1.1.18"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -620,6 +620,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/execution-path.ini.html" = "/en/latest/index/execution-path.html"
 "/dictionary/execution-time.ini.html" = "/en/latest/index/execution-time.html"
 "/dictionary/execution.ini.html" = "/en/latest/index/execution.html"
+"/dictionary/exhaustiveness.ini.html" = "/en/latest/index/exhaustiveness.html"
 "/dictionary/exif.ini.html" = "/en/latest/index/exif.html"
 "/dictionary/existence.ini.html" = "/en/latest/index/existence.html"
 "/dictionary/existential-type.ini.html" = "/en/latest/index/existential-type.html"
@@ -741,6 +742,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/golf.ini.html" = "/en/latest/index/golf.html"
 "/dictionary/goto.ini.html" = "/en/latest/index/goto.html"
 "/dictionary/gradual-type-checking.ini.html" = "/en/latest/index/gradual-type-checking.html"
+"/dictionary/gradual-typing.ini.html" = "/en/latest/index/gradual-typing.html"
 "/dictionary/graph-database.ini.html" = "/en/latest/index/graph-database.html"
 "/dictionary/graph.ini.html" = "/en/latest/index/graph.html"
 "/dictionary/graphql.ini.html" = "/en/latest/index/graphql.html"
@@ -992,6 +994,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/match.ini.html" = "/en/latest/index/match.html"
 "/dictionary/math.ini.html" = "/en/latest/index/math.html"
 "/dictionary/max_execution_time.ini.html" = "/en/latest/index/max_execution_time.html"
+"/dictionary/max_input_vars.ini.html" = "/en/latest/index/max_input_vars.html"
 "/dictionary/max_memory_limit.ini.html" = "/en/latest/index/max_memory_limit.html"
 "/dictionary/mbstring.ini.html" = "/en/latest/index/mbstring.html"
 "/dictionary/mcp.ini.html" = "/en/latest/index/mcp.html"
@@ -1258,6 +1261,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/php_int_min.ini.html" = "/en/latest/index/php_int_min.html"
 "/dictionary/phpdoc.ini.html" = "/en/latest/index/phpdoc.html"
 "/dictionary/phpinfo.ini.html" = "/en/latest/index/phpinfo.html"
+"/dictionary/phpstan.ini.html" = "/en/latest/index/phpstan.html"
 "/dictionary/phptoken.ini.html" = "/en/latest/index/phptoken.html"
 "/dictionary/phpunit.ini.html" = "/en/latest/index/phpunit.html"
 "/dictionary/pie.ini.html" = "/en/latest/index/pie.html"
@@ -1321,6 +1325,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/protocol.ini.html" = "/en/latest/index/protocol.html"
 "/dictionary/proxy-class.ini.html" = "/en/latest/index/proxy-class.html"
 "/dictionary/proxy.ini.html" = "/en/latest/index/proxy.html"
+"/dictionary/psalm.ini.html" = "/en/latest/index/psalm.html"
 "/dictionary/pseudo-type.ini.html" = "/en/latest/index/pseudo-type.html"
 "/dictionary/pseudo-variable.ini.html" = "/en/latest/index/pseudo-variable.html"
 "/dictionary/psr.ini.html" = "/en/latest/index/psr.html"
@@ -1498,6 +1503,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/shard.ini.html" = "/en/latest/index/shard.html"
 "/dictionary/shared-database.ini.html" = "/en/latest/index/shared-database.html"
 "/dictionary/shared-memory.ini.html" = "/en/latest/index/shared-memory.html"
+"/dictionary/shared-nothing.ini.html" = "/en/latest/index/shared-nothing.html"
 "/dictionary/shared.ini.html" = "/en/latest/index/shared.html"
 "/dictionary/shell-exec.ini.html" = "/en/latest/index/shell-exec.html"
 "/dictionary/shell-injection.ini.html" = "/en/latest/index/shell-injection.html"
@@ -1731,6 +1737,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/type-inference.ini.html" = "/en/latest/index/type-inference.html"
 "/dictionary/type-juggling.ini.html" = "/en/latest/index/type-juggling.html"
 "/dictionary/type-narrowing.ini.html" = "/en/latest/index/type-narrowing.html"
+"/dictionary/type-parametricity.ini.html" = "/en/latest/index/type-parametricity.html"
 "/dictionary/type-system.ini.html" = "/en/latest/index/type-system.html"
 "/dictionary/type-widening.ini.html" = "/en/latest/index/type-widening.html"
 "/dictionary/type.ini.html" = "/en/latest/index/type.html"
@@ -1870,6 +1877,37 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
