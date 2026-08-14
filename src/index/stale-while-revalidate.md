@@ -1,0 +1,40 @@
+# Stale-While-Revalidate
+Stale-while-revalidate is a caching strategy where, once a cached value has expired, the cache immediately serves that stale value to the caller while triggering a background refresh, rather than making the caller wait for a fresh value or fail outright when the origin is slow or unavailable. It began as an HTTP ``Cache-Control`` extension, ``stale-while-revalidate=N``, understood by browsers and CDNs, but the same idea is commonly reimplemented by hand in application-level caches.
+
+As a resilience pattern, stale-while-revalidate is a specific, graceful form of fallback: when a circuit breaker is open, a bulkhead is saturated, or a dependency is simply slow, returning the last known-good value, clearly marked as potentially stale, keeps the application responsive and usable instead of propagating the failure to the end user. It trades strict freshness for availability, and is appropriate whenever slightly outdated data, for example a product price that may be a few seconds old, is preferable to no data at all.
+
+In PHP, stale-while-revalidate is usually implemented by storing both a value and its expiry in the cache, for example in Redis or through ``Symfony\Contracts\Cache``, checking on read whether the value is stale, and if so, returning it immediately while dispatching a job, or using a short-lived lock so only one process refreshes it, to fetch a fresh value in the background.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/stale-while-revalidate.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/stale-while-revalidate.html","name":"Stale-While-Revalidate","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 14 Aug 2026 09:18:57 +0000","dateModified":"Fri, 14 Aug 2026 09:18:57 +0000","description":"Stale-while-revalidate is a caching strategy where, once a cached value has expired, the cache immediately serves that stale value to the caller while triggering a background refresh, rather than making the caller wait for a fresh value or fail outright when the origin is slow or unavailable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/Stale-While-Revalidate.html"]}],"0":{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.19","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"stale-while-revalidate"}]}]}</script>
+```php
+<?php
+
+    // Simplified stale-while-revalidate around a cache read
+    $entry = $cache->get($key); // ['value' => ..., 'expiresAt' => ...]
+
+    if ($entry !== null) {
+        if ($entry['expiresAt'] < time()) {
+            dispatch(new RefreshCacheJob($key)); // refresh in the background
+        }
+        return $entry['value']; // serve the (possibly stale) value immediately
+    }
+
+?>
+```
+
+**[Documentation](https://www.rfc-editor.org/rfc/rfc5861)**
+## See Also
+
++ [RFC 5861: HTTP Cache-Control Extensions for Stale Content](https://www.rfc-editor.org/rfc/rfc5861)
++ [Resilience Patterns in PHP: Timeouts, Retries with Jitter, Circuit Breakers, and Bulkheads](https://medium.com/@mohamadshahkhajeh/%EF%B8%8F-resilience-patterns-in-php-timeouts-retries-with-jitter-circuit-breakers-and-bulkheads-962ebf8deed1)
+
+## Related
+
++ [Fallback](fallback.html)
++ [Cache](cache.html)
++ [Resilience](resilience.html)
++ [Circuit Breaker](circuit-breaker.html)
++ [Bulkhead](bulkhead.html)
+
+## Related packages
+
++ [symfony/cache](https://packagist.org/packages/symfony/cache)
