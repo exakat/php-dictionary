@@ -182,7 +182,7 @@
 [Backward Incompatible](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/backward-incompatible.html): A feature is backward incompatible when it cannot work with a previous version, and requires a specific version, or more recent.
 [BadFunctioncallException](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/badfunctioncallexception.html): The ``BadFunctioncallException`` exception is thrown if the callback refers to an undefined function or if some arguments are missing.
 [Balanced](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/balanced.html): A pair of tokens is balanced when the opening token has a corresponding and unique closing token.
-[Bang !](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/bang.html): ``!`` is a character, used in various situations:
+[Bang !](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/bang.html): ``!`` is a character, used in various situations.
 [Base Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/base-class.html): A base class is a class that serves as the root of an inheritance hierarchy.
 [Base](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/base.html): The term ``base`` has two common meanings:
 [Base 64 Encoding](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/base64.html): ``Base64`` is a binary-to-text encoding scheme that represents binary data in an ASCII string format.
@@ -292,7 +292,7 @@
 [Clock](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/clock.html): A clock abstraction encapsulates the current time behind an interface, making code that depends on the current time testable with a controlled, deterministic value instead of the real system clock.
 [Clone](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/clone.html): Clone creates a duplicate of an object.
 [Close Naming](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/close-naming.html): Close naming is the creation of names that have little differences between them, and which leads human to easily confusing them more often.
-[Close Tag](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/close-tag.html): PHP commands are placed between the PHP tags:
+[Close Tag](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/close-tag.html): PHP commands are placed between the PHP tags, ``<?php`` and ``?>``.
 [Closed Source](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/closed-source.html): Closed source, also called proprietary software, means that the source code is not publicly available.
 [ClosedGeneratorException](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/closedgeneratorexception.html): A ``ClosedGeneratorException`` is an exception that occurs when the code tries to perform an operation on a generator that has already been closed.
 [Closure Binding](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/closure-binding.html): A closure acquires values from its context of creation.
@@ -350,7 +350,7 @@
 [Concatenation .](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/concatenation.html): Concatenation is the PHP feature that appends two strings together, to make a third, longer one.
 [Concatenative](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/concatenative.html): A concatenative structure is a structure that is valid after placing values one after the other.
 [Concrete Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/concrete-method.html): A concrete method is a method that has code.
-[Concrete Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/concrete.html): PHP has abstract classes and methods:
+[Concrete Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/concrete.html): The contrary to ``abstract`` is concrete.
 [Concurrency](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/concurrency.html): Concurrency is a concept in computing where multiple tasks are in progress at the same time.
 [Condition](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/condition.html): Conditions are an expression that are either true or false.
 [Conditional Structures](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/conditional-structure.html): Conditional structures are instructions which run different code, based on a condition.
@@ -477,7 +477,7 @@
 [Deprecated](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/deprecated.html): Deprecated is a native PHP attribute.
 [Deprecation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/deprecation.html): Deprecation is the state of a feature which is still available, but not recommended anymore.
 [Depth](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/depth.html): Depth is a measure of how many an operation has been repeatedly applies, over and over.
-[Deque](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/deque.html): A deque is a special kind of stack and queue:
+[Deque](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/deque.html): A deque is a special kind of stack and queue.
 [Dereferencing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dereferencing.html): Dereferencing is the action to access a value, which is referenced with a pointer.
 [Design Pattern](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/design-pattern.html): A design pattern, or simply a pattern, is a general solution to a common problem.
 [Desktop Application](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/desktop-app.html): A desktop application runs natively on a user's local operating system and has direct access to the file system, hardware, and system APIs.
@@ -679,7 +679,7 @@
 [Flexibility](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/flexibility.html): Flexibility means that a piece of code can change the way it works, without changing the code that uses it.
 [Floating Point Numbers](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/float.html): Floating point numbers, also known as ``floats``, ``doubles``, or ``real numbers``, can be specified using a decimal dot and a mantissa.
 [Fluent Interface](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fluent-interface.html): A fluent interface, or fluid interface, is an object-oriented API whose design relies extensively on method chaining.
-[fnmatch()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fnmatch.html): ``fnmatch()`` is a matching native function:
+[fnmatch()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fnmatch.html): ``fnmatch()`` is a native function for matching.
 [Folklore](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/folklore.html): The PHP community's folklore is all the non-language related creations, that serves as a link in the community.
 [Footgun](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/footgun.html): A ``footgun`` is a feature or a piece of code that makes it easy to unintentionally shoot oneself in the foot:
 [fopen()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fopen.html): ``fopen()`` is a PHP native function which opens a file.
@@ -1179,7 +1179,7 @@
 [PaaS](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/paas.html): PaaS, or Platform as a Service, is a cloud-computing model in which a provider manages the underlying infrastructure, like hardware, operating system, and runtime, so that developers can focus on deploying and running applications without administering servers.
 [pack](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pack.html): ``pack()`` is a native PHP function which converts given arguments into a binary string according to format.
 [Package Manager](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/package-manager.html): A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages.
-[Package-Level](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/package-visibility.html): Package-level, or internal, visibility is an access modifier that sits between ``public`` and ``private``:
+[Package-Level](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/package-visibility.html): Package-level, or internal, visibility is an access modifier that sits between ``public`` and ``private``.
 [Packagist](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/packagist.html): Packagist is the most popular package repository for PHP.
 [Pagination](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pagination.html): Pagination is a technique used in web development to break down and display a large set of data or content into smaller, more manageable chunks called pages.
 [Pair](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pair.html): A pair is a data structure that holds exactly two related values, often a key and a value, or two correlated items.
@@ -1327,7 +1327,7 @@
 [PHP Standards Recommendations (PSR)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/psr.html): ``PSR`` stands for PHP Standards Recommendations.
 [Public Visibility](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/public.html): The ``public`` keyword is part of the three keywords to define visibility of a method, property or constant.
 [Pub/Sub](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pubsub.html): Publish/Subscribe, or pubsub for short, is a messaging pattern in which message producers, the publishers, send messages to named channels or topics without knowing who will receive them, and message consumers, the subscribers, register interest in topics and receive only the messages published to those topics.
-[Pure Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pure-function.html): A pure function is a function that adheres to two fundamental principles:
+[Pure Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pure-function.html): A pure function is a function with no side effects.
 [Progressive Web App](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pwa.html): A Progressive Web App, or PWA, is a web application that uses modern browser APIs to deliver an app-like experience:
 [Quality of Service (QoS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/qos.html): Quality of Service, also known as QoS, refers to the overall level of performance and reliability of a service, particularly in terms of network, application, or infrastructure behavior.
 [Quality](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/quality.html): Code quality describes how well software code meets the goals of being correct, readable, maintainable, efficient, and reliable over time.
@@ -1519,7 +1519,7 @@
 [Side Effect](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/side-effect.html): A side effect refers to any change in the state of a program or system that occurs when a function or expression is evaluated, beyond simply returning a value.
 [Sign](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sign.html): A signed expression is an expression that starts with the ``+`` or the ``-`` token.
 [Signature](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/signature.html): Signature has several meanings in PHP.
-[Signed Integer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/signed-integer.html): PHP integers are always signed:
+[Signed Integer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/signed-integer.html): PHP integers are always signed.
 [Silent Behavior](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/silent.html): Silent behaviors are expressions that do not raise any error, yet perform a transformation on data, with or without the programmer's knowledge.
 [Simple Switch](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/simple-switch.html): A simple switch is a switch where all the cases are simple literals.
 [SimpleXML](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/simplexml.html): The SimpleXML extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.
