@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.20"
+title = "The PHP dictionary - 1.1.21"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -214,6 +214,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/bitmask.ini.html" = "/en/latest/index/bitmask.html"
 "/dictionary/bitshift-operator.ini.html" = "/en/latest/index/bitshift-operator.html"
 "/dictionary/bitwise-operator.ini.html" = "/en/latest/index/bitwise-operator.html"
+"/dictionary/blackbox.ini.html" = "/en/latest/index/blackbox.html"
 "/dictionary/blackfire.ini.html" = "/en/latest/index/blackfire.html"
 "/dictionary/blade.ini.html" = "/en/latest/index/blade.html"
 "/dictionary/blind-key.ini.html" = "/en/latest/index/blind-key.html"
@@ -1145,6 +1146,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/octal-integer.ini.html" = "/en/latest/index/octal-integer.html"
 "/dictionary/offensive-programming.ini.html" = "/en/latest/index/offensive-programming.html"
 "/dictionary/offset.ini.html" = "/en/latest/index/offset.html"
+"/dictionary/okg.ini.html" = "/en/latest/index/okg.html"
 "/dictionary/on-premise-software.ini.html" = "/en/latest/index/on-premise-software.html"
 "/dictionary/one-liner.ini.html" = "/en/latest/index/one-liner.html"
 "/dictionary/one-shot.ini.html" = "/en/latest/index/one-shot.html"
@@ -1337,6 +1339,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/psalm.ini.html" = "/en/latest/index/psalm.html"
 "/dictionary/pseudo-type.ini.html" = "/en/latest/index/pseudo-type.html"
 "/dictionary/pseudo-variable.ini.html" = "/en/latest/index/pseudo-variable.html"
+"/dictionary/pseudonymisation.ini.html" = "/en/latest/index/pseudonymisation.html"
 "/dictionary/psr.ini.html" = "/en/latest/index/psr.html"
 "/dictionary/public.ini.html" = "/en/latest/index/public.html"
 "/dictionary/pubsub.ini.html" = "/en/latest/index/pubsub.html"
@@ -1845,7 +1848,9 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/wet.ini.html" = "/en/latest/index/wet.html"
 "/dictionary/whatwg.ini.html" = "/en/latest/index/whatwg.html"
 "/dictionary/while.ini.html" = "/en/latest/index/while.html"
+"/dictionary/whitebox.ini.html" = "/en/latest/index/whitebox.html"
 "/dictionary/whitespace.ini.html" = "/en/latest/index/whitespace.html"
+"/dictionary/whm.ini.html" = "/en/latest/index/whm.html"
 "/dictionary/wildcard.ini.html" = "/en/latest/index/wildcard.html"
 "/dictionary/wither.ini.html" = "/en/latest/index/wither.html"
 "/dictionary/word-combinaison.ini.html" = "/en/latest/index/word-combinaison.html"
@@ -1870,6 +1875,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/xml.ini.html" = "/en/latest/index/xml.html"
 "/dictionary/xmlreader.ini.html" = "/en/latest/index/xmlreader.html"
 "/dictionary/xmlwriter.ini.html" = "/en/latest/index/xmlwriter.html"
+"/dictionary/xss-payload.ini.html" = "/en/latest/index/xss-payload.html"
 "/dictionary/xss.ini.html" = "/en/latest/index/xss.html"
 "/dictionary/xxtea.ini.html" = "/en/latest/index/xxtea.html"
 "/dictionary/yagni.ini.html" = "/en/latest/index/yagni.html"
@@ -1888,6 +1894,11 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
 
 
 
