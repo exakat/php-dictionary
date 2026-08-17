@@ -109,11 +109,13 @@
 [Array, []](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array.html): ``array`` is the array structure.
 [array_column](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_column.html): ``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument.
 [array_combine()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_combine.html): ``array_combine()`` creates an array from an array of keys and an array of values.
+[array_diff()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_diff.html): ``array_diff()`` is a PHP native function that computes the difference between arrays, comparing values, using their string representation.
 [array_fill()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_fill.html): ``array_fill()`` is a PHP native function which creates an array with ``$count`` times a specified ``$value``, starting at integer offset ``$start_index``.
 [array_filter()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_filter.html): ``array_filter()`` is a native PHP function that filters elements of an array using a callback.
 [array_find()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_find.html): ``array_find()`` is a PHP native function, introduced in version 8.
 [array_find_key()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_find_key.html): ``array_find_key()`` is a PHP native function, introduced in version 8.
 [array_intersect()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_intersect.html): ``array_intersect()`` is a PHP native function that computes the intersection of arrays, comparing values, using their string representation.
+[array_intersect_key()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_intersect_key.html): ``array_intersect_key()`` is a PHP native function that computes the intersection of arrays, comparing keys instead of values.
 [array_is_list()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_is_list.html): ``array_is_list()`` is a native PHP function that checks if the given array is a list.
 [array_key_exists()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_key_exists.html): ``array_key_exists()`` reports if a key has been assigned any value in an array.
 [array_key_first()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_key_first.html): ``array_key_first()`` is a native PHP function that returns the first key of an array, or null if the array is empty.
@@ -669,6 +671,7 @@
 [Final Class Constants](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/final-class-constant.html): Using the final option with class constants, the constant cannot be redefined by a child class.
 [Final Keyword](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/final.html): The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
 [Finally](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/finally.html): Finally is the default clause of a try-catch expression.
+[finfo](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/finfo.html): ``finfo`` is a native PHP class, part of the Fileinfo extension, that detects the MIME type and encoding of a file or a string buffer by inspecting its content, using the ``libmagic`` library, rather than trusting its filename or extension.
 [Fingerprint](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fingerprint.html): A fingerprint is a compact, deterministic identifier derived by hashing a set of attributes that together describe something uniquely.
 [Finite State Machine](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/finite-state-machine.html): A finite state machine, also called FSM, also called a finite automaton, is a mathematical model used to design systems that can be in one of a finite number of states at any given time.
 [Fire-and-forget](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fire-and-forget.html): Fire-and-forget is a pattern where a task is dispatched and the caller does not wait for its result, does not check for errors, and does not expect a return value.
@@ -1042,7 +1045,9 @@
 [Monitoring](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/monitoring.html): Monitoring is the process of observing, tracking, and analyzing the performance, health, and behavior of applications or infrastructure over time.
 [Monolith](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/monolith.html): A monolith refers to an application that is built and deployed as one single, tightly integrated codebase.
 [Monomorphization](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/monomorphization.html): Monomorphization is a compile-time technique used to optimize generic or polymorphic code by generating separate, type-specific versions of a function or class for each concrete type it is used with.
+[Monotonic](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/monotonic.html): A monotonic value only ever moves in one direction:
 [Move Semantics](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/move-semantics.html): Move semantics, central to C++11 and Rust, let a value's underlying resources be transferred from a source object to a destination object instead of copied, when the source is about to be discarded anyway, such as a temporary or a variable passed by value into a function.
+[move_uploaded_file()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/move_uploaded_file.html): ``move_uploaded_file()`` is a native PHP function that moves a file that was uploaded via an HTTP POST request to a new destination.
 [Method Resolution Order (MRO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/mro.html): Method Resolution Order, or MRO, is the algorithm that determines the order in which base classes are searched when looking up a method or property in an inheritance hierarchy.
 [Multi-byte](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/multi-byte.html): Multi-byte refers to string encoding where characters are coded over several bytes, rather than just one.
 [Multi-pass Algorithm](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/multi-pass-algorithm.html): A multi-pass algorithm processes its input more than once, each pass building on information gathered, or output produced, by the previous one, instead of trying to solve the whole problem while reading the data only a single time, as a one-pass, or single-pass, algorithm would.
@@ -1145,6 +1150,7 @@
 [Opcode Specialisation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/opcode-specialization.html): Opcode specialization refers to the process of optimizing how PHP's Zend Engine executes opcodes, by tailoring them to specific contexts, data types, or execution paths.
 [Opcode](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/opcode.html): Opcodes, short for ``operation codes``, refer to low-level instructions that the PHP interpreter uses to execute PHP scripts.
 [Open Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/open-class.html): Open classes allow external code to add or replace methods on an existing class after it has been defined, including built-in or third-party classes.
+[Open Data](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/open-data.html): Open data is information, often collected or produced by public bodies, that is made freely available for anyone to access, use, and redistribute, usually under a permissive or open license and with no more than a reasonable reproduction cost.
 [Open Source](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/open-source.html): Open source means that the source code of software is publicly available, and people are allowed to view, use, modify, and share it under a specific license.
 [Open Tag](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/open-tag.html): PHP commands are placed between the PHP tags:
 [open_basedir](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/open_basedir.html): The ``open_basedir`` directive limits access to files in a list of provided directories, and their nested directories.
@@ -1379,6 +1385,7 @@
 [RecursiveTreeIterator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/recursivetreeiterator.html): The ``RecursiveTreeIterator`` allows iterating over a ``RecursiveIterator`` to generate an ASCII graphic tree.
 [Red-Green-Refactor](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/red-green-refactor.html): Red-Green-Refactor is the core cycle of Test-Driven Development, TDD, a software development methodology where tests are written before the implementation code.
 [Redirect](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/redirect.html): An HTTP redirect instructs the client to navigate to a different URL.
+[Redis](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/redis.html): Redis is an in-memory key-value data store, used as a database, cache, message broker, or queue.
 [Refactoring](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/refactoring.html): Refactoring, as in any programming language, refers to the process of restructuring and improving the codebase of an application without changing its external behavior.
 [Reference Count](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reference-count.html): Reference counting is the way PHP keeps track of the usage of a value.
 [References](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reference.html): References allow creating multiple variables that refer to the same underlying value in memory.
@@ -1428,6 +1435,7 @@
 [RFC](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rfc.html): The RFC acronym has several usage:
 [Request For Change (RFC)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rfchange.html): A Request For Change is a document containing a call for an adjustment of a source code.
 [Reserved For Future Use (RFU)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rfu.html): RFU stands for Reserved for Future Use.
+[RGB](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rgb.html): ``RGB`` is an additive color model in which a color is produced by combining three channels of light:
 [Rich Domain Model](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rich-domain-model.html): A rich domain model is one where domain objects, entities, aggregates, value objects, encapsulate both state and the business behaviour that depends on that state.
 [Rich Text](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rich-text.html): Rich Text refers to data that is human-readable, yet includes extra information to apply style to that text, such as paragraph, section, font, bold, italic, etc.
 [Rigidity](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rigidity.html): Rigidity is when a change in one place forces changes in many other places.
@@ -1521,7 +1529,7 @@
 [Shutdown](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/shutdown.html): Shutdown is the final phase of a PHP request lifecycle, when the engine tears down everything that was set up to run the script.
 [Side Effect](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/side-effect.html): A side effect refers to any change in the state of a program or system that occurs when a function or expression is evaluated, beyond simply returning a value.
 [Sign](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sign.html): A signed expression is an expression that starts with the ``+`` or the ``-`` token.
-[Signature](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/signature.html): Signature has several meanings in PHP.
+[Signature](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/signature.html): Signature has several meanings.
 [Signed Integer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/signed-integer.html): PHP integers are always signed.
 [Silent Behavior](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/silent.html): Silent behaviors are expressions that do not raise any error, yet perform a transformation on data, with or without the programmer's knowledge.
 [Simple Switch](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/simple-switch.html): A simple switch is a switch where all the cases are simple literals.

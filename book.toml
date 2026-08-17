@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.21"
+title = "The PHP dictionary - 1.1.22"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -122,11 +122,13 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/array.ini.html" = "/en/latest/index/array.html"
 "/dictionary/array_column.ini.html" = "/en/latest/index/array_column.html"
 "/dictionary/array_combine.ini.html" = "/en/latest/index/array_combine.html"
+"/dictionary/array_diff.ini.html" = "/en/latest/index/array_diff.html"
 "/dictionary/array_fill.ini.html" = "/en/latest/index/array_fill.html"
 "/dictionary/array_filter.ini.html" = "/en/latest/index/array_filter.html"
 "/dictionary/array_find.ini.html" = "/en/latest/index/array_find.html"
 "/dictionary/array_find_key.ini.html" = "/en/latest/index/array_find_key.html"
 "/dictionary/array_intersect.ini.html" = "/en/latest/index/array_intersect.html"
+"/dictionary/array_intersect_key.ini.html" = "/en/latest/index/array_intersect_key.html"
 "/dictionary/array_is_list.ini.html" = "/en/latest/index/array_is_list.html"
 "/dictionary/array_key_exists.ini.html" = "/en/latest/index/array_key_exists.html"
 "/dictionary/array_key_first.ini.html" = "/en/latest/index/array_key_first.html"
@@ -682,6 +684,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/final-class-constant.ini.html" = "/en/latest/index/final-class-constant.html"
 "/dictionary/final.ini.html" = "/en/latest/index/final.html"
 "/dictionary/finally.ini.html" = "/en/latest/index/finally.html"
+"/dictionary/finfo.ini.html" = "/en/latest/index/finfo.html"
 "/dictionary/fingerprint.ini.html" = "/en/latest/index/fingerprint.html"
 "/dictionary/finite-state-machine.ini.html" = "/en/latest/index/finite-state-machine.html"
 "/dictionary/fire-and-forget.ini.html" = "/en/latest/index/fire-and-forget.html"
@@ -1055,7 +1058,9 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/monitoring.ini.html" = "/en/latest/index/monitoring.html"
 "/dictionary/monolith.ini.html" = "/en/latest/index/monolith.html"
 "/dictionary/monomorphization.ini.html" = "/en/latest/index/monomorphization.html"
+"/dictionary/monotonic.ini.html" = "/en/latest/index/monotonic.html"
 "/dictionary/move-semantics.ini.html" = "/en/latest/index/move-semantics.html"
+"/dictionary/move_uploaded_file.ini.html" = "/en/latest/index/move_uploaded_file.html"
 "/dictionary/mro.ini.html" = "/en/latest/index/mro.html"
 "/dictionary/multi-byte.ini.html" = "/en/latest/index/multi-byte.html"
 "/dictionary/multi-pass-algorithm.ini.html" = "/en/latest/index/multi-pass-algorithm.html"
@@ -1158,6 +1163,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/opcode-specialization.ini.html" = "/en/latest/index/opcode-specialization.html"
 "/dictionary/opcode.ini.html" = "/en/latest/index/opcode.html"
 "/dictionary/open-class.ini.html" = "/en/latest/index/open-class.html"
+"/dictionary/open-data.ini.html" = "/en/latest/index/open-data.html"
 "/dictionary/open-source.ini.html" = "/en/latest/index/open-source.html"
 "/dictionary/open-tag.ini.html" = "/en/latest/index/open-tag.html"
 "/dictionary/open_basedir.ini.html" = "/en/latest/index/open_basedir.html"
@@ -1390,6 +1396,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/recursivetreeiterator.ini.html" = "/en/latest/index/recursivetreeiterator.html"
 "/dictionary/red-green-refactor.ini.html" = "/en/latest/index/red-green-refactor.html"
 "/dictionary/redirect.ini.html" = "/en/latest/index/redirect.html"
+"/dictionary/redis.ini.html" = "/en/latest/index/redis.html"
 "/dictionary/refactoring.ini.html" = "/en/latest/index/refactoring.html"
 "/dictionary/reference-count.ini.html" = "/en/latest/index/reference-count.html"
 "/dictionary/reference.ini.html" = "/en/latest/index/reference.html"
@@ -1439,6 +1446,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/rfc.ini.html" = "/en/latest/index/rfc.html"
 "/dictionary/rfchange.ini.html" = "/en/latest/index/rfchange.html"
 "/dictionary/rfu.ini.html" = "/en/latest/index/rfu.html"
+"/dictionary/rgb.ini.html" = "/en/latest/index/rgb.html"
 "/dictionary/rich-domain-model.ini.html" = "/en/latest/index/rich-domain-model.html"
 "/dictionary/rich-text.ini.html" = "/en/latest/index/rich-text.html"
 "/dictionary/rigidity.ini.html" = "/en/latest/index/rigidity.html"
@@ -1894,6 +1902,16 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
 
 
 
