@@ -22,7 +22,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/%24_get.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:16+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -272,7 +272,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/adapter.html</loc>
-  <lastmod>2026-08-05T08:01:43+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -317,7 +317,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/alias-types.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -422,12 +422,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/api.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/apm.html</loc>
-  <lastmod>2026-08-12T07:57:44+00:00</lastmod>
+  <lastmod>2026-08-19T08:22:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -437,7 +437,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/appeasement-pattern.html</loc>
-  <lastmod>2026-08-11T14:42:09+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:46+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -452,7 +452,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/arbitrary-argument.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -497,7 +497,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/arm.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -558,6 +558,16 @@
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_diff.html</loc>
   <lastmod>2026-08-17T09:22:06+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_diff_assoc.html</loc>
+  <lastmod>2026-08-18T05:29:58+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_diff_key.html</loc>
+  <lastmod>2026-08-18T05:29:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -622,12 +632,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_pad.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_pop.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-18T05:33:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -647,7 +657,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_slice.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T08:03:28+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -667,7 +677,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/array_values.html</loc>
-  <lastmod>2026-08-12T07:58:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -847,7 +857,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/automatic-index.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -862,7 +872,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/availability.html</loc>
-  <lastmod>2026-07-07T07:50:38+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1007,12 +1017,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/bitfield.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:56+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/bitmask.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:58+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1057,7 +1067,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/bloom-filter.html</loc>
-  <lastmod>2026-06-19T21:25:13+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:58+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1072,7 +1082,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/bola.html</loc>
-  <lastmod>2026-08-07T10:14:32+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:22+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1162,7 +1172,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/business-logic.html</loc>
-  <lastmod>2026-06-19T21:25:38+00:00</lastmod>
+  <lastmod>2026-08-19T08:01:37+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1297,7 +1307,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/cast.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:25+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1387,7 +1397,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/cite.html</loc>
-  <lastmod>2026-06-19T21:25:55+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1422,7 +1432,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/class-hoisting.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:28+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1477,7 +1487,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/clone.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:31+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1517,7 +1527,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/cloud.html</loc>
-  <lastmod>2026-07-16T08:21:14+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1567,7 +1577,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/code-injection.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:35+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1617,7 +1627,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/collection.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:59+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1657,7 +1667,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/commit.html</loc>
-  <lastmod>2026-06-19T21:26:18+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:36+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1792,7 +1802,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/conditional-structure.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:16+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1837,7 +1847,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/constant-case.html</loc>
-  <lastmod>2026-07-20T08:25:04+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1882,7 +1892,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/container.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:19+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -1927,7 +1937,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/control-structure.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:22+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2062,7 +2072,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/ctf.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:23+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2107,7 +2117,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/cyclomatic-complexity.html</loc>
-  <lastmod>2026-06-23T11:45:46+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2152,7 +2162,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/database-commit.html</loc>
-  <lastmod>2026-08-17T09:06:21+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:25+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2167,7 +2177,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/datastack.html</loc>
-  <lastmod>2026-06-16T15:33:09+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2242,7 +2252,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/debt.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:16+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2392,7 +2402,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/deploy.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:54+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2432,7 +2442,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/destructor.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:39+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2457,7 +2467,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/dictionary.html</loc>
-  <lastmod>2026-08-17T09:06:22+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:01+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2467,7 +2477,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/digital-signature.html</loc>
-  <lastmod>2026-08-17T09:06:22+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:37+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2527,7 +2537,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/distributed-state.html</loc>
-  <lastmod>2026-08-07T09:44:11+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2567,7 +2577,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/dns.html</loc>
-  <lastmod>2026-08-13T06:02:13+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2622,7 +2632,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/domain-name.html</loc>
-  <lastmod>2026-07-10T09:41:47+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2707,7 +2717,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/ds.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:02+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2832,7 +2842,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/elephpant.html</loc>
-  <lastmod>2026-08-11T20:59:09+00:00</lastmod>
+  <lastmod>2026-08-18T05:17:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2872,7 +2882,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/enable.html</loc>
-  <lastmod>2026-08-09T12:10:41+00:00</lastmod>
+  <lastmod>2026-08-19T07:58:33+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -2957,7 +2967,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/error-reporting.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:57+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3187,7 +3197,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/faas.html</loc>
-  <lastmod>2026-07-24T15:30:16+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3232,7 +3242,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/falsy.html</loc>
-  <lastmod>2026-08-11T20:53:18+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:13+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3247,12 +3257,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/fat-controller.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/fat.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3312,7 +3322,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/file-extension.html</loc>
-  <lastmod>2026-08-09T13:28:28+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:14+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3412,7 +3422,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/flexibility.html</loc>
-  <lastmod>2026-06-19T21:25:30+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:26+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3502,7 +3512,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/free.html</loc>
-  <lastmod>2026-07-03T07:36:01+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3522,12 +3532,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/ftp.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:56+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/ftps.html</loc>
-  <lastmod>2026-06-15T11:03:58+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:57+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3547,7 +3557,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/function.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:28+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3582,7 +3592,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/garbage-collection.html</loc>
-  <lastmod>2026-08-08T14:31:49+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3618,6 +3628,11 @@
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/get_object_vars.html</loc>
   <lastmod>2026-08-08T14:31:52+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/getenv.html</loc>
+  <lastmod>2026-08-18T05:30:04+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3677,7 +3692,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/global.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:36+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3727,7 +3742,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/graphql.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3757,7 +3772,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/handle.html</loc>
-  <lastmod>2026-08-06T05:50:31+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:04+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3802,12 +3817,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/hash-table.html</loc>
-  <lastmod>2026-08-06T05:50:37+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:03+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/hash.html</loc>
-  <lastmod>2026-08-16T08:03:44+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3862,7 +3877,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/hidden-state.html</loc>
-  <lastmod>2026-08-07T09:56:00+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -3902,7 +3917,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/hosting.html</loc>
-  <lastmod>2026-08-11T21:02:06+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4012,7 +4027,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/iaas.html</loc>
-  <lastmod>2026-06-19T21:24:10+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:50+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4037,7 +4052,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/identical.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:10+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4127,7 +4142,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/implicit-state.html</loc>
-  <lastmod>2026-08-16T07:46:07+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4152,7 +4167,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/in_array.html</loc>
-  <lastmod>2026-07-03T07:59:19+00:00</lastmod>
+  <lastmod>2026-08-18T05:31:53+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4172,7 +4187,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/incoming-data.html</loc>
-  <lastmod>2026-08-16T07:46:07+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:14+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4217,7 +4232,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/inequality.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:15+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4317,7 +4332,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/integer.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:05+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4397,12 +4412,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/iot.html</loc>
-  <lastmod>2026-07-07T05:13:25+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/ip.html</loc>
-  <lastmod>2026-07-18T05:19:16+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4622,12 +4637,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/lazy-loading.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/lazy-objects.html</loc>
-  <lastmod>2026-06-16T15:35:46+00:00</lastmod>
+  <lastmod>2026-08-18T05:30:46+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4802,7 +4817,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/lock.html</loc>
-  <lastmod>2026-07-20T16:46:32+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4892,7 +4907,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/magic-method.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -4942,7 +4957,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/map.html</loc>
-  <lastmod>2026-08-11T20:51:26+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:06+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5006,6 +5021,11 @@
   <changefreq>monthly</changefreq>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/memcached.html</loc>
+  <lastmod>2026-08-18T05:30:14+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/memoization.html</loc>
   <lastmod>2026-08-13T08:15:55+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -5017,7 +5037,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/memory-leak.html</loc>
-  <lastmod>2026-06-19T21:25:16+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5112,7 +5132,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/micro-optimisation.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5157,7 +5177,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/minus.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5202,7 +5222,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/module.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5222,7 +5242,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/monitoring.html</loc>
-  <lastmod>2026-06-21T20:22:17+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:46+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5337,7 +5357,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/n-query.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5382,7 +5402,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/namespace.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5412,7 +5432,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/native.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:52+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5427,7 +5447,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/negative-index.html</loc>
-  <lastmod>2026-08-13T06:30:19+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5442,7 +5462,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/network.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5481,8 +5501,13 @@
   <changefreq>monthly</changefreq>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/nines.html</loc>
+  <lastmod>2026-08-19T08:21:35+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/nodiscard.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5517,7 +5542,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/nonce.html</loc>
-  <lastmod>2026-06-19T21:25:49+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5562,7 +5587,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/nullable.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5652,7 +5677,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/object-syntax.html</loc>
-  <lastmod>2026-08-14T08:03:26+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5697,7 +5722,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/offset.html</loc>
-  <lastmod>2026-08-07T09:44:23+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -5861,6 +5886,11 @@
   <changefreq>monthly</changefreq>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/osi-model.html</loc>
+  <lastmod>2026-08-19T08:21:24+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/otp.html</loc>
   <lastmod>2026-07-10T09:21:15+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -5932,7 +5962,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/paas.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:51+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6002,7 +6032,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/parse.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:50:09+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6057,7 +6087,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/path-traversal.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:50:10+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6146,6 +6176,11 @@
   <changefreq>monthly</changefreq>
  </url>
  <url>
+  <loc>https://php-dictionary.readthedocs.io/en/latest/index/percentile.html</loc>
+  <lastmod>2026-08-19T08:21:30+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+ </url>
+ <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/performance.html</loc>
   <lastmod>2026-07-02T08:18:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -6187,7 +6222,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/php-attribute.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:03+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6202,7 +6237,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/php-editor.html</loc>
-  <lastmod>2026-07-24T15:25:48+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:04+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6242,7 +6277,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/php-interface.html</loc>
-  <lastmod>2026-08-11T20:51:35+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:05+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6272,7 +6307,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/php-runtime.html</loc>
-  <lastmod>2026-08-08T14:32:20+00:00</lastmod>
+  <lastmod>2026-08-19T06:50:31+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6307,7 +6342,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/php.ini.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:06+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6327,7 +6362,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/phpinfo.html</loc>
-  <lastmod>2026-08-14T08:46:11+00:00</lastmod>
+  <lastmod>2026-08-19T06:50:32+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6367,12 +6402,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/plain-text.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:07+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/plugin.html</loc>
-  <lastmod>2026-08-11T20:53:04+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:08+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6387,7 +6422,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/pointer.html</loc>
-  <lastmod>2026-06-19T21:28:13+00:00</lastmod>
+  <lastmod>2026-08-19T08:01:19+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6417,7 +6452,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/pop.html</loc>
-  <lastmod>2026-06-29T09:36:02+00:00</lastmod>
+  <lastmod>2026-08-19T08:00:57+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6427,12 +6462,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/port.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/portability.html</loc>
-  <lastmod>2026-08-11T14:41:27+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:13+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6442,17 +6477,17 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/positional-parameter.html</loc>
-  <lastmod>2026-08-11T20:51:24+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:13+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/positive-integer.html</loc>
-  <lastmod>2026-08-11T14:40:59+00:00</lastmod>
+  <lastmod>2026-08-19T07:59:09+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/post-increment.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:16+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6462,7 +6497,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/pr.html</loc>
-  <lastmod>2026-08-08T14:31:03+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6477,7 +6512,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/precision.html</loc>
-  <lastmod>2026-08-11T14:40:35+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:18+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6487,12 +6522,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/predefined-exception.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:00:22+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/prefix.html</loc>
-  <lastmod>2026-08-11T14:40:24+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:20+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6552,7 +6587,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/printf.html</loc>
-  <lastmod>2026-08-11T20:59:06+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:22+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6562,7 +6597,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/private.html</loc>
-  <lastmod>2026-08-17T07:39:12+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:22+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6577,7 +6612,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/production.html</loc>
-  <lastmod>2026-06-19T21:28:44+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:23+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6587,7 +6622,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/profiling.html</loc>
-  <lastmod>2026-07-15T14:02:40+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:08+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6607,7 +6642,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/propagation.html</loc>
-  <lastmod>2026-08-04T06:12:15+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:12+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6632,22 +6667,22 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/protected.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:15+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/protobuf.html</loc>
-  <lastmod>2026-07-16T14:26:53+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:18+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/protocol.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:50:34+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/proxy-class.html</loc>
-  <lastmod>2026-07-13T18:48:17+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:21+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6662,12 +6697,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/pseudo-type.html</loc>
-  <lastmod>2026-06-19T21:29:03+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/pseudo-variable.html</loc>
-  <lastmod>2026-07-11T09:05:31+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:27+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6682,7 +6717,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/public.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:29+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6732,7 +6767,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/quine.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:16+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6767,7 +6802,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/random-access.html</loc>
-  <lastmod>2026-08-14T08:11:31+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:07+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6867,7 +6902,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/real-time.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6882,7 +6917,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rector.html</loc>
-  <lastmod>2026-07-15T14:03:22+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:32+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6897,7 +6932,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/recursivearrayiterator.html</loc>
-  <lastmod>2026-08-14T07:59:16+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:35+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6907,7 +6942,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/recursiveiterator.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-18T05:31:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6957,7 +6992,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/reflection.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -6987,7 +7022,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/register_argc_argv.html</loc>
-  <lastmod>2026-08-14T08:10:22+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7042,12 +7077,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/reliability.html</loc>
-  <lastmod>2026-08-14T08:10:01+00:00</lastmod>
+  <lastmod>2026-08-19T08:22:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/render.html</loc>
-  <lastmod>2026-08-14T08:11:42+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7067,7 +7102,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/request-response.html</loc>
-  <lastmod>2026-07-13T18:44:12+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7102,27 +7137,27 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/response.html</loc>
-  <lastmod>2026-06-19T21:30:30+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:45+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rest-api.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/result-type.html</loc>
-  <lastmod>2026-07-08T15:29:30+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:48+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/retry.html</loc>
-  <lastmod>2026-08-14T09:19:13+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:52+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/return-carriage.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:54+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7132,17 +7167,17 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/return-value.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-18T05:24:57+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/return.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/returntypewillchange.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-18T05:25:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7152,7 +7187,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/revision.html</loc>
-  <lastmod>2026-06-19T21:30:32+00:00</lastmod>
+  <lastmod>2026-08-18T05:25:04+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7162,7 +7197,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rfc.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-18T05:31:49+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7172,12 +7207,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rfu.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-18T05:25:10+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rgb.html</loc>
-  <lastmod>2026-08-17T09:22:39+00:00</lastmod>
+  <lastmod>2026-08-18T05:30:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7187,7 +7222,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rich-text.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7197,7 +7232,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/robots.txt.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T07:53:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7222,12 +7257,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rpc.html</loc>
-  <lastmod>2026-08-10T15:45:33+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/rsa.html</loc>
-  <lastmod>2026-08-14T07:52:17+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:36+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7242,7 +7277,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/saas.html</loc>
-  <lastmod>2026-06-19T21:30:47+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:52+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7272,7 +7307,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/sbom.html</loc>
-  <lastmod>2026-08-08T14:31:03+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7317,7 +7352,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/sdk.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:39+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7362,7 +7397,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/self-documenting.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7427,7 +7462,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/sequence.html</loc>
-  <lastmod>2026-07-06T19:33:00+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:08+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7437,7 +7472,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/serializable.html</loc>
-  <lastmod>2026-08-14T08:47:05+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:46+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7452,12 +7487,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/server-architecture.html</loc>
-  <lastmod>2026-06-19T21:31:32+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:58+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/server.html</loc>
-  <lastmod>2026-08-08T08:01:43+00:00</lastmod>
+  <lastmod>2026-08-19T08:16:53+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7517,7 +7552,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/set.html</loc>
-  <lastmod>2026-07-04T08:24:06+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:08+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7557,7 +7592,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/shared-memory.html</loc>
-  <lastmod>2026-07-14T05:48:26+00:00</lastmod>
+  <lastmod>2026-08-18T05:31:53+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7582,7 +7617,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/shell.html</loc>
-  <lastmod>2026-08-08T08:01:43+00:00</lastmod>
+  <lastmod>2026-08-19T06:47:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7677,7 +7712,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/single.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:03+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7692,7 +7727,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/sla.html</loc>
-  <lastmod>2026-06-21T20:22:13+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7807,7 +7842,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/spaceship.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:05+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7827,7 +7862,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/specification.html</loc>
-  <lastmod>2026-08-14T08:29:57+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7857,7 +7892,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/splobjectstorage.html</loc>
-  <lastmod>2026-07-06T18:57:10+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:10+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -7897,7 +7932,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/sql-database.html</loc>
-  <lastmod>2026-07-20T16:54:08+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:07+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8212,7 +8247,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/subtype.html</loc>
-  <lastmod>2026-06-19T21:24:11+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:38+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8257,7 +8292,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/svg.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:39+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8337,7 +8372,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/system-event.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:40+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8347,7 +8382,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/tabulation.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8377,7 +8412,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/tcp.html</loc>
-  <lastmod>2026-07-02T08:13:59+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8397,7 +8432,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/telemetry.html</loc>
-  <lastmod>2026-06-15T11:03:59+00:00</lastmod>
+  <lastmod>2026-08-19T08:17:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8437,7 +8472,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/test-data-provider.html</loc>
-  <lastmod>2026-06-19T21:24:29+00:00</lastmod>
+  <lastmod>2026-08-19T06:48:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8537,7 +8572,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/timeout.html</loc>
-  <lastmod>2026-08-17T07:35:40+00:00</lastmod>
+  <lastmod>2026-08-19T08:14:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8617,12 +8652,12 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/traversal.html</loc>
-  <lastmod>2026-08-11T21:02:13+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:15+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/tree.html</loc>
-  <lastmod>2026-08-14T08:22:37+00:00</lastmod>
+  <lastmod>2026-08-19T08:26:10+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8662,17 +8697,17 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/try-catch.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:17+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/ttl.html</loc>
-  <lastmod>2026-08-17T09:47:37+00:00</lastmod>
+  <lastmod>2026-08-19T08:09:06+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/tui.html</loc>
-  <lastmod>2026-08-17T04:48:01+00:00</lastmod>
+  <lastmod>2026-08-19T08:08:18+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8697,7 +8732,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/type-class.html</loc>
-  <lastmod>2026-07-08T15:28:11+00:00</lastmod>
+  <lastmod>2026-08-19T08:06:11+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8707,7 +8742,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/type-covariance.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:20+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8737,7 +8772,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/type-narrowing.html</loc>
-  <lastmod>2026-07-08T16:08:48+00:00</lastmod>
+  <lastmod>2026-08-19T08:05:41+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8787,7 +8822,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/udp.html</loc>
-  <lastmod>2026-06-18T20:01:13+00:00</lastmod>
+  <lastmod>2026-08-19T08:21:43+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8797,7 +8832,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/unary.html</loc>
-  <lastmod>2026-08-10T16:53:45+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:21+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8842,7 +8877,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/union-type.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:22+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8887,7 +8922,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/unused.html</loc>
-  <lastmod>2026-08-12T04:19:42+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -8932,7 +8967,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/use-trait.html</loc>
-  <lastmod>2026-08-12T08:20:21+00:00</lastmod>
+  <lastmod>2026-08-19T06:49:25+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -9082,7 +9117,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/view-sql.html</loc>
-  <lastmod>2026-08-08T08:10:54+00:00</lastmod>
+  <lastmod>2026-08-19T08:25:39+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>
@@ -9237,7 +9272,7 @@
  </url>
  <url>
   <loc>https://php-dictionary.readthedocs.io/en/latest/index/whm.html</loc>
-  <lastmod>2026-08-17T07:36:17+00:00</lastmod>
+  <lastmod>2026-08-19T08:11:44+00:00</lastmod>
   <changefreq>monthly</changefreq>
  </url>
  <url>

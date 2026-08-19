@@ -88,7 +88,7 @@
 [Appeasement Pattern](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/appeasement-pattern.html): The appeasement pattern is a code smell where validation, error checking, or security controls are weakened or bypassed to satisfy code quality tools, a demanding caller or to silence errors, instead of fixing the underlying issue.
 [Array Append](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/append.html): Append is an array operation, which adds an element at the end of the array.
 [Application](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/application.html): An application is a software program designed to perform specific tasks for end users.
-[Arbitrary Number Of Argument](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/arbitrary-argument.html): PHP allows any number of arguments to be passed to a functioncall.
+[Arbitrary Number Of Argument](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/arbitrary-argument.html): PHP allows any number of arguments to be passed to a function call.
 [Arcane](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/arcane.html): Arcane refers to weird and obscure features, that are unknown, unused or forgotten:
 [Architecture](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/architecture.html): Architecture refers to the global design of code, or its servers.
 [Archive](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/archive.html): An archive is a single document that stores a collection of files and directories.
@@ -110,6 +110,8 @@
 [array_column](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_column.html): ``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument.
 [array_combine()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_combine.html): ``array_combine()`` creates an array from an array of keys and an array of values.
 [array_diff()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_diff.html): ``array_diff()`` is a PHP native function that computes the difference between arrays, comparing values, using their string representation.
+[array_diff_assoc()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_diff_assoc.html): ``array_diff_assoc()`` is a PHP native function that computes the difference between arrays, comparing both keys and values, using their string representation.
+[array_diff_key()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_diff_key.html): ``array_diff_key()`` is a PHP native function that computes the difference between arrays, comparing keys instead of values.
 [array_fill()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_fill.html): ``array_fill()`` is a PHP native function which creates an array with ``$count`` times a specified ``$value``, starting at integer offset ``$start_index``.
 [array_filter()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_filter.html): ``array_filter()`` is a native PHP function that filters elements of an array using a callback.
 [array_find()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/array_find.html): ``array_find()`` is a PHP native function, introduced in version 8.
@@ -167,7 +169,7 @@
 [Autocompletion](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/autocompletion.html): Autocompletion is an IDE or editor feature that suggests or completes code while the developer is typing.
 [Class Autoloading](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/autoload.html): Autoloading provides a hook to allow the loading of a class, the first time PHP requires it.
 [Automagic](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/automagic.html): Automagic is a porte-manteau, merging automatic and magic.
-[Automatic Index](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/automatic-index.html): Automatic index is the index that PHP assign to a value, when it is added to an array, without specifying the index.
+[Automatic Index](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/automatic-index.html): Automatic index is the index that PHP assigns to a value, when it is added to an array, without specifying the index.
 [Autovivification](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/autovivification.html): Autovivification is the automatic creation of an array when a value is dereferenced.
 [Autowiring](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/autowiring.html): Autowiring is the ability of the framework to inject dependencies, based on the constructor signature.
 [Availability](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/availability.html): Availability is the proportion of time a system or service is operational and accessible to users.
@@ -212,7 +214,7 @@
 [Bloom Filter](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/bloom-filter.html): A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set.
 [Body](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/body.html): The body, of a function or a command, is the related block that is commanded by the command.
 [Boilerplate](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/boilerplate.html): Boilerplate refers to sections of code, documentation, or configuration that are repeated in multiple places with little or no variation.
-[Broken Object Level Authorization (BOLA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/bola.html): Object Level Authorization is a mechanism that checks if a user has right to access or execute an action on a specific object.
+[Broken Object Level Authorization (BOLA)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/bola.html): Object Level Authorization is a mechanism that checks if a user has the right to access or execute an action on a specific object.
 [Boolean](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/boolean.html): A boolean is a value that is either ``true`` or ``false``.
 [Bootstrap](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/bootstrap.html): The bootstrap concept generally means starting something using minimal initial resources and building it up by using the results of earlier steps.
 [Ownership](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/borrow-checking.html): Ownership, and Borrow Checking, is a compile-time memory model, central to Rust, in which every value has exactly one owning variable at a time.
@@ -282,7 +284,7 @@
 [Static Constant](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-constant.html): Static constants are constants that are defined inside a class, an interface, a trait since PHP 8.
 [Class Entities](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-entity.html): An entity represents a single object, with a unique identifier and a set of properties.
 [Class Hierarchy](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-hierarchy.html): The class hierarchy is a list of classes, which are extending one from another.
-[Class Hoisting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-hoisting.html): Class hoisting is a compilation mode where the declaration of functions, classes.
+[Class Hoisting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-hoisting.html): Class hoisting is a compilation mode where the declarations of functions, classes.
 [Class Invasion](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-invasion.html): Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances.
 [Class Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class-operator.html): Class operator is the ``:
 [Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/class.html): Basic class definitions begin with the keyword class, followed by a class name, followed by a pair of curly braces which enclose the definitions of the properties and methods belonging to the class.
@@ -311,7 +313,7 @@
 [Code Freeze](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-freeze.html): A code freeze is a common practice in software development where all changes to the source code are temporarily halted or restricted for a specific period, typically leading up to a major release or milestone.
 [Code Generation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-generation.html): Code generation is the automatic production of source code from a higher-level specification, model, schema, or set of rules.
 [Code Generator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-generator.html): A code generator is a tool or library that automates the creation of repetitive, boilerplate, or complex code based on predefined templates, configurations, best practices or rules.
-[Code Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-injection.html): A CODE injection is a vulnerability, where external data is used as PHP code.
+[Code Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-injection.html): A code injection is a vulnerability, where external data is used as PHP code.
 [Code Reuse](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-reuse.html): Code reuse, as in any programming language, refers to the practice of writing code that can be used in multiple parts of an application or across different projects.
 [Code Review](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-review.html): Code review is a systematic process where developers examine each other's code to identify mistakes, improve quality, check local values usage and ensure adherence to best practices.
 [Code Smell](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/code-smell.html): A code smell refers to any characteristic or symptom in source code that indicates a potential problem or violation of good programming practices.
@@ -365,7 +367,7 @@
 [Connection Persistence](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/connexion-persistence.html): Connection persistence refers to the practice of reusing the same database connection across multiple requests, rather than opening and closing a connection for each individual request.
 [Consistency](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/consistency.html): Consistency means writing code that follows predictable patterns, standards, and conventions across a project or team.
 [Const](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/const.html): ``const`` is a PHP keyword, that creates constant definitions.
-[Constant Case](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constant-case.html): Constant case, also written ``CONSTANT_CASE`` is a way of writing constant names, without spaces, where:
+[Constant Case](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constant-case.html): Constant case, also written ``CONSTANT_CASE``, is a way of writing constant names, without spaces, where:
 [Constant Combination](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constant-combinaison.html): PHP combines predefined constants using bitwise operators.
 [Constant Expression](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constant-expression.html): A constant expression is an expression built with others constants and a limited subset of PHP operators.
 [constant()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constant-function.html): The ``constant()`` function is a native function, which provide the value of a declared global constant, a class constant or an enumeration case.
@@ -374,7 +376,7 @@
 [Constants](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constant.html): Constants are named values, that never change.
 [Constructor](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/constructor.html): The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments.
 [Container Orchestration](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/container-orchestration.html): Container orchestration is the automated management of the full lifecycle of containerised workloads across a cluster of machines:
-[Container](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/container.html): There are several usage of the word container:
+[Container](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/container.html): There are several usages of the word container:
 [Continuation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/continuation.html): A continuation represents the rest of a program's computation at a given point, reified as a callable value.
 [Continue](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/continue.html): ``continue`` is used within looping structures to skip the rest of the current loop iteration and resume the execution at the condition evaluation and then the beginning of the next iteration.
 [Continuous Integration](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/continuous-integration.html): Continuous integration refers to the automation of the build and test phase of development.
@@ -446,7 +448,7 @@
 [Distributed Denial Of Service (DDOS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ddos.html): Distributed Denial Of Service, or DDOS, is a type of attack where many computers flood a target, like a website or server, with traffic to overwhelm it and make it unavailable.
 [Dead Code](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dead-code.html): Dead code refers to sections of code that are no longer executed or reachable during the program's execution.
 [Deadline](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/deadline.html): A deadline is an absolute point in time by which an entire unit of work, potentially spanning several retries and several downstream calls, must finish, as opposed to a timeout, which bounds a single call.
-[Technical Debt](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/debt.html): Debt generally refers to technical debt, as whole.
+[Technical Debt](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/debt.html): Debt generally refers to technical debt, as a whole.
 [Debug](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/debug.html): Debugging is the action to diagnostic a bug, find its root cause, quick workaround and definitive fix for it.
 [debug_backtrace()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/debug_backtrace.html): ``debug_backtrace()`` is a PHP native function that generates a backtrace.
 [Debugger](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/debugger.html): A debugger is an extension or an external program that is used to help when searching for bugs or issues in source code.
@@ -589,7 +591,7 @@
 [Equal Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/equal.html): Equal is the state of two variables, which contains the same data, after an optional cast to a common type.
 [Error Handler](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error-handler.html): The PHP error handler is a method that manages errors when they arise, instead of the default PHP handler.
 [Error Handling](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error-handling.html): Error handling is a broad concept that covers the different ways that PHP uses to signal that an error occurred.
-[Error Reporting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error-reporting.html): Error reporting is both a feature, a directive and a PHP native function.
+[Error Reporting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error-reporting.html): Error reporting is a feature, a directive and a PHP native function.
 [Error Suppression](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error-suppression.html): Error suppression is achieved with the ``@`` operator placed before an expression.
 [Error](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error.html): The ``Error`` class is a base class for all internal PHP error exceptions.
 [Error Reporting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/error_reporting.html): Error reporting is the process to report any issue while executing the code.
@@ -722,6 +724,7 @@
 [get_class()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/get_class.html): ``get_class()`` is a PHP native function, that returns the name of the class of an object.
 [get_class_vars()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/get_class_vars.html): ``get_class_vars()`` is a PHP native function that returns the default properties of a class as an associative array.
 [get_object_vars()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/get_object_vars.html): ``get_object_vars()`` is a PHP native function, which returns an array with the object properties as index, and their related respective values.
+[getenv()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/getenv.html): ``getenv()`` is a PHP native function that reads the value of an environment variable.
 [Class Getter Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/getter.html): Getters are methods used to access the values of a property.
 [gettext Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gettext.html): ``gettext`` is a library that provides features to translate messages for the users.
 [gettype()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/gettype.html): ``gettype()`` is a PHP native function that returns the type of a variable as a string.
@@ -805,7 +808,7 @@
 [Iconv](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/iconv.html): ``iconv`` is a PHP extension that stands for "Internationalized CONVersion".
 [Integrated Environment of Development (IDE)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ide.html): An IDE is a development tools which thrive to gather all needed tools in one place to allow for a full development experience.
 [Idempotent](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/idempotent.html): Idempotent is said of an operation, which always yields the same result after the first call.
-[Identical Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/identical.html): Identical is the state of two variables, which contains the same data, with the same type.
+[Identical Operator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/identical.html): Identical is the state of two variables, which contain the same data, with the same type.
 [Identification](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/identification.html): Identification refers to the process of recognizing who the user is, usually by having them provide a unique identifier.
 [Identifier](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/identifier.html): An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant.
 [Identity Comparison](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/identity-comparison.html): The identity comparison ``===`` compares two values, using their respective types, and then, their value.
@@ -841,7 +844,7 @@
 [Index](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/index.html): An index may be several things:
 [Indexed Array](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/indexed-array.html): An indexed array is an array whose keys are only integers.
 [Indirect Reference Map](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/indirect-reference-map.html): An indirect reference map is a technique that replaces a direct, guessable reference to an internal object, such as a sequential database id, with an unpredictable substitute, such as a UUID or a random per-session token.
-[Inequality](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/inequality.html): Inequalities are the mathematical comparison of values, with the ``>``,  ``>=``,  ``<`` and ``=<`` operators.
+[Inequality](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/inequality.html): Inequalities are the mathematical comparison of values, with the ``>``,  ``>=``,  ``<`` and ``<=`` operators.
 [INF](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/inf.html): Infinite is a PHP constant, called ``INF``.
 [Infinite Loop](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/infinite-loop.html): An infinite loop never ends, unless there is an external event.
 [Infinite](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/infinite.html): Infinite means that an operation is repeated and will never stop being repeated.
@@ -922,7 +925,7 @@
 [Latin1](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/latin1.html): ``Latin1``, also called ``ISO/IEC 8859-1`` and ``iso-8859-1``, is a character encoding.
 [Layered Architecture](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/layered-architecture.html): Layered architecture organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it.
 [Lazy Evaluation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-evaluation.html): Lazy evaluation is an evaluation strategy in which an expression's value is not computed until it is actually needed, and, once computed, is often cached so it is never recomputed.
-[Lazy Loading](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-loading.html): Lazy loading is a programming pattern that postpone the actual loading of a resource to the moment it is actually used.
+[Lazy Loading](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-loading.html): Lazy loading is a programming pattern that postpones the actual loading of a resource to the moment it is actually used.
 [Lazy Objects](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-objects.html): Lazy objects is a application of lazy-loading, directly available in the PHP engine, and available as an engine feature since PHP 8.
 [LDAP Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ldap-injection.html): LDAP injection is a security vulnerability that occurs when untrusted user input is incorporated into an LDAP query without proper sanitisation or escaping.
 [Lightweight Directory Access Protocol (LDAP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ldap.html): LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol, IP network.
@@ -999,6 +1002,7 @@
 [Model Context Protocol (MCP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/mcp.html): An MCP server usually refers to a server that implements the Model Context Protocol, or MCP.
 [mcrypt Extension](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/mcrypt.html): ``mcrypt`` is a PHP extension that provides access to the mcrypt library.
 [Message Digest Algorithm 5 (MD5)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/md5.html): MD5 is a hash function, that produce a 128-bit footprint for a value.
+[Memcached](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/memcached.html): Memcached is a distributed, in-memory key-value store used to cache the results of database queries, API calls, or rendered fragments, so that repeated requests can be served from RAM instead of recomputing them.
 [Memoization](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/memoization.html): Memoization is an optimisation technique to speed up a function by avoiding re-processing previously calculated results.
 [Memory Arena](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/memory-arena.html): A memory arena is a large, contiguous block of memory that is pre-allocated upfront and then carved into smaller pieces on demand.
 [Memory Leak](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/memory-leak.html): A memory leak is the allocation of memory, without its deallocation when that memory is not needed anymore.
@@ -1029,7 +1033,7 @@
 [Migration](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/migration.html): Migration is the incremental upgrade of a piece of code.
 [Minification](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/minification.html): Minification is the process to remove elements that are useless in a PHP code, without changing its execution.
 [Minus One -1](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/minus-one.html): Minus one is the ``-1`` integer.
-[Minus -](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/minus.html): ``-`` is a native PHP operator, which allows to do subtraction on numbers, both integer and decimals, or produce the opposite of a number.
+[Minus -](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/minus.html): ``-`` is a native PHP operator, which allows subtraction on numbers, both integers and decimals, or produce the opposite of a number.
 [Missing Validation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/missing-validation.html): Missing Validation is a common security vulnerability that occurs when an application fails to validate user input or data before processing it.
 [Mixed](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/mixed.html): A special type that represents any available type.
 [Mixin](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/mixin.html): A mixin is a class-level construct that provides a set of methods intended to be incorporated into other classes, without forming a base-class relationship.
@@ -1094,6 +1098,7 @@
 [New Line](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/new-line.html): A new-line ``\n`` character.
 [New Without Parenthesis](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/new-without-parenthesis.html): The ``new`` operator may be called without using the parenthesis after the class name.
 [new](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/new.html): ``new`` creates a new object from a class.
+[The Nines (Availability)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/nines.html): ``The nines`` is a shorthand used to express an availability target as a count of the ``9`` digits in its percentage:
 [NoDiscard](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/nodiscard.html): ``NoDiscard`` attribute ensures that the returned value of a method is collected in the calling context.
 [Nominal Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/nominal-type.html): Nominal typing is a type-compatibility rule under which two types are considered compatible only if they are explicitly declared as such, by name, through inheritance or interface implementation, regardless of whether they happen to share the same shape.
 [Non-blocking](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/non-blocking.html): Non-blocking I/O is a mode where read and write operations return immediately, even if no data is available or the buffer is full, instead of suspending execution until the operation can complete.
@@ -1128,7 +1133,7 @@
 [Object Nullsafe Operator ?->](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object-nullsafe-operator.html): The object nullsafe operator is an operator which gives access to properties and methods of an object.
 [Object Operator ->](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object-operator.html): The Object Operator is the operator to access properties and methods from an object.
 [Object Persistence](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object-persistence.html): Object persistence is the feature that keeps an object available between two different PHP requests, on a web server.
-[Object Syntax](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object-syntax.html): The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extend, the static operator ``:
+[Object Syntax](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object-syntax.html): The object syntax is a coding style that involves using the object operator ``->``, and, to a lesser extent, the static operator ``:
 [Object Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object-type.html): ``object`` is a PHP type, which represents an object of any class, including anonymous classes.
 [Object](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/object.html): PHP includes a complete object model.
 [Oblic Quotes](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/oblic-quote.html): Oblic quotes, also called backticks, `` \` `` were used to make a shell call to the operating system.
@@ -1170,6 +1175,7 @@
 [Oracle](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/oracle.html): Oracle is a relational database management system developed by Oracle Corporation.
 [Order Of Execution](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/order-of-execution.html): The order of execution is the sequence that PHP uses to run the code.
 [Object Relational Mapping (ORM)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/orm.html): Object Relational Mapping is a tool that bridges the OOP world to databases:
+[OSI Model](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/osi-model.html): The OSI Model, Open Systems Interconnection Model, is a conceptual framework that standardizes how computer systems communicate over a network, by splitting communication into seven abstract layers.
 [One-Time Password (OTP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/otp.html): A One-Time Password, the OTP, is a password that is valid for only one authentication session or transaction.
 [OuterIterator](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/outeriterator.html): ``OuterIterator`` is a PHP interface that extends ``Iterator`` to represent iterators that wrap other iterators.
 [Outgoing Data](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/outgoing-data.html): Outgoing data are data submitted by PHP to an external user.
@@ -1198,7 +1204,7 @@
 [parent](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parent.html): ``parent`` is one of the three special keywords that are used to access properties or methods from inside the class definition.
 [Parenthesis](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parenthesis.html): Parenthesis are the ``(`` and ``)``.
 [Parquet](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parquet.html): Parquet an open-source, column-oriented data file format designed for efficient data storage and high-performance analytics.
-[Parse](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parse.html): To parse, or parsing, refers to the process of analyzing and interpreting the structure of a data to extract meaningful information.
+[Parse](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parse.html): To parse, or parsing, refers to the process of analyzing and interpreting the structure of data to extract meaningful information.
 [parse_str()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parse_str.html): ``parse_str()`` parses a query string and extracts its components, name and value, in an array.
 [parse_url()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parse_url.html): ``parse_url()`` parses a URL string and returns its components as an associative array.
 [ParseError](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/parseerror.html): A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as when ``eval()`` is called or when including non-compilable code.
@@ -1227,6 +1233,7 @@
 [PEAR](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pear.html): PEAR stands for 'PHP Extension and Application Repository'.
 [PHP Extension C Library (PECL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pecl.html): PECL is a repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions.
 [Penetration Test](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/pentest.html): A pentest, short for penetration test, is a simulated cyberattack against a server, or application to identify and exploit security vulnerabilities.
+[Percentile](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/percentile.html): A percentile is a statistical measure indicating the value below which a given percentage of observations in a dataset fall.
 [Performance](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/performance.html): Performance refers to the speed of execution, or, to a lesser extent, to the economy of resources used.
 [Permission](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/permission.html): A permission is the approval or consent given to someone or something to perform a specific action, access certain information, or use a resource.
 [Persistence](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/persistence.html): Persistence is related to the life cycle of a resource.
@@ -1263,7 +1270,7 @@
 [PHP_INT_MAX](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/php_int_max.html): ``PHP_INT_MAX`` is the largest integer that can be processed by PHP.
 [PHP_INT_MIN](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/php_int_min.html): ``PHP_INT_MIN`` is the smallest integer that can be processed by PHP.
 [PHPdoc](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phpdoc.html): PHPDoc is a style of PHP comments.
-[phpinfo()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phpinfo.html): ``phpinfo()`` is one of the most famous PHP function.
+[phpinfo()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phpinfo.html): ``phpinfo()`` is one of the most famous PHP functions.
 [PHPStan](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phpstan.html): PHPStan is a static analysis tool for PHP that finds bugs without running the code, by reading the source, its type declarations, and its docblocks, and checking them for consistency.
 [Phptoken](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phptoken.html): ``PHPToken`` is a class, part of the Tokenizer extension, that provides an object-oriented interface for working with tokens generated by PHP's tokenizer, used for parsing PHP code into tokens.
 [PHPunit](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/phpunit.html): PHPUnit is an open-source testing framework for the PHP programming language.
@@ -1326,7 +1333,7 @@
 [Proprietary Source](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/proprietary-source.html): Proprietary source code is software whose source code is not publicly available and is protected by copyright and licensing restrictions.
 [Protected Visibility](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/protected.html): The ``protected`` keyword is part of the three keywords to define visibility of a method, property or constant.
 [Protocol Buffers](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/protobuf.html): ``protobuf`` is a PIE extension implementing Protocol Buffers, Google's language-neutral, binary serialization format.
-[Protocol](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/protocol.html): A protocol is a scheme part of a URL, with an associated wrapper.
+[Protocol](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/protocol.html): A protocol is the scheme part of a URL, with an associated wrapper.
 [Proxy Class](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/proxy-class.html): A proxy class is a class that stands in for another class, intercepting calls and delegating them to the real object.
 [Proxy](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/proxy.html): A proxy class is a structural design pattern that provides a substitute or placeholder for another object.
 [Psalm](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/psalm.html): Psalm is a static analysis tool for PHP, developed to find type errors and bugs by reading docblock type annotations and inferring types across the codebase without running it.
@@ -1391,7 +1398,7 @@
 [References](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reference.html): References allow creating multiple variables that refer to the same underlying value in memory.
 [Referential Integrity](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/referential-integrity.html): Referential integrity is a database property guaranteeing that a reference from one row to another always points to a row that actually exists.
 [Refinement Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/refinement-type.html): A refinement type is a base type combined with a logical predicate that every value of that type must satisfy.
-[Reflection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reflection.html): PHP reflection is a feature that allows to inspect and interact with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime.
+[Reflection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reflection.html): PHP reflection is a feature that allows inspecting and interacting with the structure of classes, interfaces, methods, properties, and other elements of the code, during runtime.
 [ReflectionException](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reflectionexception.html): ReflectionException is thrown whenever the Reflection API encounters an error.
 [Reflector](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reflector.html): ``Reflector`` is the base interface that all PHP Reflection classes implement.
 [Regular Expression](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/regex.html): A regular expression, or regex, is a sequence of characters that specifies a search pattern.
@@ -1409,7 +1416,7 @@
 [Relay Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/relay-function.html): A relay function, or a relay method, is a function that calls another function, with the same arguments.
 [Release](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/release.html): A release is a final version of a software.
 [Reliability](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reliability.html): Reliability is the ability of a system to perform its intended function consistently and without failure over a given period.
-[Render](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/render.html): To render, or rendering, is the action to take a template and its related data, to produce a target format.
+[Render](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/render.html): To render, or rendering, is the action of taking a template and its related data to produce a target format.
 [Renderer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/renderer.html): A renderer is an piece of code that applies the rules to produce a target format.
 [Read Eval Print Loop (REPL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/repl.html): PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results.
 [Replay](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/replay.html): A replay is the act of returning a previously stored result to a repeated request without re-executing the underlying operation.
@@ -1445,7 +1452,7 @@
 [Route](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/route.html): A route links an HTTP URL to a request handler.
 [Row Polymorphism](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/row-polymorphism.html): Row polymorphism is a type system feature that allows functions to be polymorphic over records or objects with an open set of fields.
 [Remote Procedure Call (RPC)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rpc.html): RPC is an acronym for Remote Procedure Call.
-[RSA](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rsa.html): RSA is the Rivest–Shamir–Adleman algorithm, a widely used method of encryption in the field of Cryptography.
+[RSA](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rsa.html): RSA is the Rivest–Shamir–Adleman algorithm, a widely used method of encryption in the field of cryptography.
 [Rubber Ducking Debugging](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/rubber-ducking.html): Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner.
 [Runtime Checks](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/runtime-checks.html): Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script.
 [Software-as-a-Service (SAAS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/saas.html): SaaS stands for Software as a Service.
@@ -1579,7 +1586,7 @@
 [sprintf](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sprintf.html): ``sprintf()`` is a PHP native function, which format a string based on a format string, and one or more values.
 [Spy](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/spy.html): A spy is a test double that wraps a real object, letting its original behavior run while recording how it was called:
 [Sqids](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sqids.html): Sqids, formerly known as Hashids, is an open-source library that encodes one or more non-negative integers into short, YouTube-like alphanumeric strings, and decodes them back.
-[SQL Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sql-database.html): A SQL database is a database server that process data based on the SQL language.
+[SQL Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sql-database.html): A SQL database is a database server that processes data based on the SQL language.
 [SQL Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sql-injection.html): A SQL injection is a vulnerability, where external data are used to change the behavior of a SQL query.
 [Structured Query Language (SQL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sql.html): Structured Query Language, SQL, is a database query language, used to access and update data in a relational database management system.
 [SQLite3](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/sqlite3.html): SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
@@ -1671,7 +1678,7 @@ It applies to several concepts:
 [System Call](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/system-call.html): A system call is a call to an operating system function.
 [System Event](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/system-event.html): System events, also known as signals, are software interrupts sent to a program to indicate that an important event has occurred.
 [System](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/system.html): The system, or the operating system, is the environment where PHP is running.
-[Tabulation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tabulation.html): A tabulation is a whitespace character, that often represents the equivalent of four spaces characters.
+[Tabulation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tabulation.html): A tabulation is a whitespace character, that often represents the equivalent of four space characters.
 [Taint Analysis](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/taint.html): Taint analysis is a security technique used to identify and trace potentially unsafe or untrusted data as it flows through a program.
 [Tarpit](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tarpit.html): A tar pit is a deliberate slowdown of abusive or unwanted requests to waste an attacker's time and resources.
 [Task Runner](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/task-runner.html): A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications.
@@ -1734,7 +1741,7 @@ It applies to several concepts:
 [Troubleshoot](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/troubleshoot.html): To troubleshoot is to diagnostic and correct a problem in a piece of software.
 [True](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/true.html): ``true`` has two usages, as PHP keyword:
 [Truthy](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/truthy.html): A truthy value is a value that evaluate to true, when cast to a boolean.
-[Try-catch](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/try-catch.html): Try-catch is a PHP command, which run a block of code, and catch some configured exceptions that the block may throw.
+[Try-catch](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/try-catch.html): Try-catch is a PHP command, which runs a block of code, and catches some configured exceptions that the block may throw.
 [Time To Live (TTL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ttl.html): Time To Live, abbreviated TTL, is a value that defines how long a piece of data remains valid before it expires and must be refreshed or discarded.
 [Terminal User Interface (TUI)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tui.html): A Terminal User Interface, or TUI for short, is a type of user interface that uses text-based graphics and keyboard interaction within a terminal or console, providing a richer experience than a plain CLI while avoiding the overhead of a graphical desktop.
 [Tuple](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/tuple.html): A tuple is a fixed-size, ordered collection of values, where each position may hold a different type, and the type of the whole tuple is the sequence of its element types, such as Rust's ``(i32, String, bool)`` or Python's ``(1, 'a', True)``.
@@ -1849,7 +1856,7 @@ It applies to several concepts:
 [While](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/while.html): While is a loop structure.
 [White Box Testing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whitebox.html): White box testing is a testing approach where the tester has full knowledge of the system's internal code, structure, and logic, and uses that knowledge to design test cases.
 [Whitespace](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whitespace.html): Whitespace refers to spaces, tabulations, and newline characters:
-[WHM (WebHost Manager)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whm.html): WHM, short for WebHost Manager, is a web-based server administration panel from cPanel Inc.
+[WHM (WebHost Manager)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whm.html): WHM, short for WebHost Manager, is a web-based server administration panel from ``cPanel`` Inc.
 [Wildcard](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/wildcard.html): The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything.
 [Class Wither Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/wither.html): ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself.
 [Word Combination](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/word-combinaison.html): Word combination is the technique to build a new word by putting one or several words next to each other, and making the whole a distinct or specialized entity from the individual elements.

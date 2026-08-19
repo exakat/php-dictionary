@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.22"
+title = "The PHP dictionary - 1.1.23"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -123,6 +123,8 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/array_column.ini.html" = "/en/latest/index/array_column.html"
 "/dictionary/array_combine.ini.html" = "/en/latest/index/array_combine.html"
 "/dictionary/array_diff.ini.html" = "/en/latest/index/array_diff.html"
+"/dictionary/array_diff_assoc.ini.html" = "/en/latest/index/array_diff_assoc.html"
+"/dictionary/array_diff_key.ini.html" = "/en/latest/index/array_diff_key.html"
 "/dictionary/array_fill.ini.html" = "/en/latest/index/array_fill.html"
 "/dictionary/array_filter.ini.html" = "/en/latest/index/array_filter.html"
 "/dictionary/array_find.ini.html" = "/en/latest/index/array_find.html"
@@ -735,6 +737,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/get_class.ini.html" = "/en/latest/index/get_class.html"
 "/dictionary/get_class_vars.ini.html" = "/en/latest/index/get_class_vars.html"
 "/dictionary/get_object_vars.ini.html" = "/en/latest/index/get_object_vars.html"
+"/dictionary/getenv.ini.html" = "/en/latest/index/getenv.html"
 "/dictionary/getter.ini.html" = "/en/latest/index/getter.html"
 "/dictionary/gettext.ini.html" = "/en/latest/index/gettext.html"
 "/dictionary/gettype.ini.html" = "/en/latest/index/gettype.html"
@@ -1012,6 +1015,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/mcp.ini.html" = "/en/latest/index/mcp.html"
 "/dictionary/mcrypt.ini.html" = "/en/latest/index/mcrypt.html"
 "/dictionary/md5.ini.html" = "/en/latest/index/md5.html"
+"/dictionary/memcached.ini.html" = "/en/latest/index/memcached.html"
 "/dictionary/memoization.ini.html" = "/en/latest/index/memoization.html"
 "/dictionary/memory-arena.ini.html" = "/en/latest/index/memory-arena.html"
 "/dictionary/memory-leak.ini.html" = "/en/latest/index/memory-leak.html"
@@ -1107,6 +1111,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/new-line.ini.html" = "/en/latest/index/new-line.html"
 "/dictionary/new-without-parenthesis.ini.html" = "/en/latest/index/new-without-parenthesis.html"
 "/dictionary/new.ini.html" = "/en/latest/index/new.html"
+"/dictionary/nines.ini.html" = "/en/latest/index/nines.html"
 "/dictionary/nodiscard.ini.html" = "/en/latest/index/nodiscard.html"
 "/dictionary/nominal-type.ini.html" = "/en/latest/index/nominal-type.html"
 "/dictionary/non-blocking.ini.html" = "/en/latest/index/non-blocking.html"
@@ -1183,6 +1188,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/oracle.ini.html" = "/en/latest/index/oracle.html"
 "/dictionary/order-of-execution.ini.html" = "/en/latest/index/order-of-execution.html"
 "/dictionary/orm.ini.html" = "/en/latest/index/orm.html"
+"/dictionary/osi-model.ini.html" = "/en/latest/index/osi-model.html"
 "/dictionary/otp.ini.html" = "/en/latest/index/otp.html"
 "/dictionary/outeriterator.ini.html" = "/en/latest/index/outeriterator.html"
 "/dictionary/outgoing-data.ini.html" = "/en/latest/index/outgoing-data.html"
@@ -1240,6 +1246,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/pear.ini.html" = "/en/latest/index/pear.html"
 "/dictionary/pecl.ini.html" = "/en/latest/index/pecl.html"
 "/dictionary/pentest.ini.html" = "/en/latest/index/pentest.html"
+"/dictionary/percentile.ini.html" = "/en/latest/index/percentile.html"
 "/dictionary/performance.ini.html" = "/en/latest/index/performance.html"
 "/dictionary/permission.ini.html" = "/en/latest/index/permission.html"
 "/dictionary/persistence.ini.html" = "/en/latest/index/persistence.html"
@@ -1902,6 +1909,20 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
