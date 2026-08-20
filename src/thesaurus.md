@@ -5,6 +5,7 @@ List of acronyms, used in this dictionary.
 + [Abstract Syntactic Tree (AST)](index/ast.html)
 + [American Standard Code for Information Interchange (ASCII)](index/ascii.html)
 + [Application Performance Management (APM)](index/apm.html)
++ [Application-Layer Protocol Negotiation (ALPN)](index/alpn.html)
 + [Architectural Decision Record (ADR)](index/adr.html)
 + [Artificial Intelligence (AI)](index/ai.html)
 + [Capture The Flag (CTF)](index/ctf.html)
@@ -118,6 +119,7 @@ List of acronyms, used in this dictionary.
 + [Progressive Web App](index/pwa.html)
 + [Protocol Buffers](index/protobuf.html)
 + [Pull Request (PR)](index/pr.html)
++ [QUIC](index/quic.html)
 + [RACI Model](index/raci.html)
 + [RDF (Resource Description Framework)](index/rdf.html)
 + [RFC](index/rfc.html)
@@ -873,6 +875,7 @@ List of named bugs.
 + [Datetime Trap](index/datetime-trap.html)
 + [Days Are Not 86400 Seconds](index/day-in-seconds.html)
 + [Days In Month](index/days-in-month.html)
++ [Floating Point Numbers](index/float.html)
 + [Leading Zero Means Octal](index/leading-zero-means-octal.html)
 + [Letter Logical Bug](index/letter-logical.html)
 + [Magic Hash](index/magic-hash.html)
@@ -883,7 +886,9 @@ List of named bugs.
 + [Stealth Generator](index/stealth-generator.html)
 + [Strpos() Syndrome](index/strpos-syndrom.html)
 + [array\_merge()](index/array_merge.html)
++ [in\_array()](index/in_array.html)
 + [instanceof](index/instanceof.html)
++ [max\_input\_vars](index/max_input_vars.html)
 
 ## Extension
 List of special PHP extensions.

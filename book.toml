@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.23"
+title = "The PHP dictionary - 1.1.24"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -77,6 +77,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/alias-types.ini.html" = "/en/latest/index/alias-types.html"
 "/dictionary/alias.ini.html" = "/en/latest/index/alias.html"
 "/dictionary/allowdynamicproperties.ini.html" = "/en/latest/index/allowdynamicproperties.html"
+"/dictionary/alpn.ini.html" = "/en/latest/index/alpn.html"
 "/dictionary/alternative-syntax.ini.html" = "/en/latest/index/alternative-syntax.html"
 "/dictionary/amp.ini.html" = "/en/latest/index/amp.html"
 "/dictionary/analysis.ini.html" = "/en/latest/index/analysis.html"
@@ -805,6 +806,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/htmlentities.ini.html" = "/en/latest/index/htmlentities.html"
 "/dictionary/htmlpurifier.ini.html" = "/en/latest/index/htmlpurifier.html"
 "/dictionary/htmlspecialchars.ini.html" = "/en/latest/index/htmlspecialchars.html"
+"/dictionary/http-3.ini.html" = "/en/latest/index/http-3.html"
 "/dictionary/http-code.ini.html" = "/en/latest/index/http-code.html"
 "/dictionary/http-encoding.ini.html" = "/en/latest/index/http-encoding.html"
 "/dictionary/http-header.ini.html" = "/en/latest/index/http-header.html"
@@ -1364,6 +1366,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/query.ini.html" = "/en/latest/index/query.html"
 "/dictionary/question-mark.ini.html" = "/en/latest/index/question-mark.html"
 "/dictionary/queue.ini.html" = "/en/latest/index/queue.html"
+"/dictionary/quic.ini.html" = "/en/latest/index/quic.html"
 "/dictionary/quine.ini.html" = "/en/latest/index/quine.html"
 "/dictionary/quoted-printable.ini.html" = "/en/latest/index/quoted-printable.html"
 "/dictionary/race-condition.ini.html" = "/en/latest/index/race-condition.html"
@@ -1909,6 +1912,19 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
