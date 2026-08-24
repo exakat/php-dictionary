@@ -421,7 +421,7 @@
 [Custom Function](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/custom-function.html): A custom function, or user-defined function, is a function declared by the developer, as opposed to a native PHP function provided by the engine or an extension.
 [Custom](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/custom.html): A feature is called ``custom`` when it is not part of the standard installation of PHP, any PHP extension or a publish library.
 [Common Vulnerabilities And Exposures (CVE)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cve.html): CVE, or Common Vulnerabilities and Exposures, is a standardized, industry-recognized list of publicly disclosed cybersecurity vulnerabilities and exposures in software and hardware.
-[Concurent Version System (CVS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cvs.html): CSV is Concurrent Version System.
+[Concurent Version System (CVS)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cvs.html): CVS is Concurrent Versions System.
 [Cyclomatic Complexity](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/cyclomatic-complexity.html): Cyclomatic complexity is a software metric of the complexity of a program.
 [Dangling Reference](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dangling-reference.html): In a foreach loop, a variable is used for looping through the array.
 [Data Access Object (DAO)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/dao.html): Data Access Object is a design pattern used to abstract and encapsulate all access to a data source, typically a database.
@@ -613,7 +613,7 @@
 [Event Storming](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/event-storming.html): Event storming is a workshop, aiming at discovering the domain for an application.
 [Event Streaming](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/event-streaming.html): Event streaming is a pattern where events are continuously published to an ordered, durable log, called a stream, and consumers read from that log at their own pace, independently of producers.
 [Eventual Consistency](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/eventual-consistency.html): Eventual consistency is a data consistency model used in distributed systems where replicas of the same data are allowed to diverge temporarily, but are guaranteed to converge to the same value if no new updates are made.
-[Chaining Exceptions](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/exception-chain.html): Chaining exception is throwing again a caught exception, with a new type, and with the previous exception.
+[Chaining Exceptions](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/exception-chain.html): Exception chaining is the act of re-throwing a caught exception, with a new type, and with a reference to the previous exception.
 [Exception Handler](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/exception-handler.html): The exception handler is a default or custom function, which is called once an exception has exhausted all available ``try-catch`` blocks.
 [Exception](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/exception.html): Exceptions are a mechanism for handling errors and exceptional situations in a more structured and controlled way compared to traditional error handling methods like using error codes or ``die()`` statements.
 [Excimer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/excimer.html): ``Excimer`` is a low-overhead sampling profiler for PHP, developed by the Wikimedia Foundation.
@@ -648,7 +648,7 @@
 [Fallback To Global](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fallback-to-global.html): The fallback to global mechanism is a PHP feature, which search for functions and global constants, first in the current namespace, then in the global namespace, before failing.
 [Fallback](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fallback.html): A fallback refers to a backup plan or default behavior that is executed when the primary operation fails, is unavailable, or doesn't meet certain conditions.
 [Switch Fallthrough](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fallthrough.html): A fallthrough is the absence of break, or equivalent, at the end of a switch case.
-[False](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/false.html): ``false`` has two usages, as PHP keyword:
+[False](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/false.html): ``false`` has two usages, as a PHP keyword:
 [Falsy](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/falsy.html): A falsy value is a value that evaluates to false, when cast to a boolean.
 [Fast Artificial Neural Network (FANN)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fann.html): ``FANN``, for Fast Artificial Neural Network, is a PIE extension that wraps the FANN C library, a lightweight library for creating, training, and running multilayer feedforward artificial neural networks.
 [FastCGI](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/fastcgi.html): FastCGI stands for Fast Common Gateway Interface.
@@ -819,7 +819,7 @@
 [Identity](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/identity.html): Identity has several related but distinct meanings:
 [Idiomatic](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/idiomatic.html): Idiomatic code follows the conventions and constructs that are natural to a specific language, rather than code that merely compiles or runs correctly.
 [Insecure Direct Object Reference (IDOR)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/idor.html): An Insecure Direct Object Reference, or IDOR, is a vulnerability where an application exposes a direct reference to an internal object, such as a database id, a filename, or a primary key, and lets a user access that object without checking whether they are actually authorized to do so.
-[If Then Else](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/if-then.html): A ``if-then-else`` command branches the execution based on an condition.
+[If Then Else](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/if-then.html): A ``if-then-else`` command branches the execution based on a condition.
 [Iffectation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/iffectation.html): An iffectation is both an assignation and a condition at the same time.
 [Image Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/image-injection.html): Image injection is a class of attack where malicious content is embedded inside a file that is presented or processed as an image.
 [Image](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/image.html): Images may be different things:
@@ -930,7 +930,7 @@
 [Layered Architecture](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/layered-architecture.html): Layered architecture organises a codebase into horizontal layers, each with a specific responsibility, where each layer only depends on the layer directly below it.
 [Lazy Evaluation](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-evaluation.html): Lazy evaluation is an evaluation strategy in which an expression's value is not computed until it is actually needed, and, once computed, is often cached so it is never recomputed.
 [Lazy Loading](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-loading.html): Lazy loading is a programming pattern that postpones the actual loading of a resource to the moment it is actually used.
-[Lazy Objects](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-objects.html): Lazy objects is a application of lazy-loading, directly available in the PHP engine, and available as an engine feature since PHP 8.
+[Lazy Objects](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lazy-objects.html): Lazy objects are an application of lazy-loading, directly available in the PHP engine, and available as an engine feature since PHP 8.
 [LDAP Injection](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ldap-injection.html): LDAP injection is a security vulnerability that occurs when untrusted user input is incorporated into an LDAP query without proper sanitisation or escaping.
 [Lightweight Directory Access Protocol (LDAP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ldap.html): LDAP, acronym of Lightweight Directory Access Protocol, is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol, IP network.
 [Leading Numeric String](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/leading-numeric-string.html): A leading numeric string is a subset of numeric strings, where the first characters are numbers, or the occasional ``+`` or ``-``, and the rest of the string is non-digits.
@@ -952,7 +952,7 @@
 [Linear Type](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/linear-type.html): Linear types and affine types are type disciplines that constrain how many times a value may be used.
 [Link](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/link.html): A link connects two resources, allowing navigation or reference from one to the other.
 [Lint, Won't Execute](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/lint-wont-execute.html): ``Lint, won't execute`` is a special state of the code, where the source can be parsed, but cannot be executed.
-[Linting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/linting.html): Linting is the process to turn the Text file that holds the source code, into tokens.
+[Linting](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/linting.html): Linting is the process to turn the text file that holds the source code into tokens.
 [Liskov Substitution Principle (LSP)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/liskov.html): The Liskov Substitution Principle states that an object from a class and a sub-object, from a class that extends that object, must be interchangeable without breaking the program.
 [List Comprehension](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/list-comprehension.html): A list comprehension is an expression-level syntax for building a new collection by describing it declaratively:
 [List](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/list.html): ``list()`` acts as the contrary to ``array()``:
@@ -1422,7 +1422,7 @@
 [Release](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/release.html): A release is a final version of a software.
 [Reliability](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/reliability.html): Reliability is the ability of a system to perform its intended function consistently and without failure over a given period.
 [Render](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/render.html): To render, or rendering, is the action of taking a template and its related data to produce a target format.
-[Renderer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/renderer.html): A renderer is an piece of code that applies the rules to produce a target format.
+[Renderer](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/renderer.html): A renderer is a piece of code that applies the rules to produce a target format.
 [Read Eval Print Loop (REPL)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/repl.html): PHP's REPL mode, or Read-Eval-Print Loop, is an interactive shell that allows to execute PHP code line by line and see immediate results.
 [Replay](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/replay.html): A replay is the act of returning a previously stored result to a repeated request without re-executing the underlying operation.
 [Request-Response](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/request-response.html): Request-response is a communication pattern where a caller, the client, sends a request and synchronously waits for the callee, the server, to return a response before continuing.
