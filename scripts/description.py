@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Populate <meta name="description"> from each page's ld+json description."""
+"""Populate <meta name="description"> from each page's ld+json description,
+falling back to the og:description meta tag for pages without ld+json (e.g.
+top-level chapters like index.html, introduction.html, thesaurus.html)."""
 
 import argparse
 import html
@@ -8,7 +10,7 @@ import pathlib
 import re
 import sys
 
-SKIP = {"404.html", "print.html"}
+SKIP = {"404.html"}
 
 LD_JSON_RE = re.compile(
     r'<script[^>]*\btype\s*=\s*["\']application/ld\+json["\'][^>]*>(.*?)</script>',
@@ -16,6 +18,10 @@ LD_JSON_RE = re.compile(
 )
 META_DESC_RE = re.compile(
     r'<meta\b(?=[^>]*\bname\s*=\s*["\']description["\'])[^>]*>',
+    re.IGNORECASE,
+)
+OG_DESC_RE = re.compile(
+    r'<meta\b(?=[^>]*\bproperty\s*=\s*["\']og:description["\'])[^>]*>',
     re.IGNORECASE,
 )
 CONTENT_RE = re.compile(
@@ -63,6 +69,13 @@ def extract_description(source):
             text = as_text(node.get("description"))
             if text and text.strip():
                 return text
+
+    og_match = OG_DESC_RE.search(source)
+    if og_match:
+        content = CONTENT_RE.search(og_match.group(0))
+        text = next((g for g in content.groups() if g is not None), '') if content else ''
+        if text.strip():
+            return text
     return None
 
 

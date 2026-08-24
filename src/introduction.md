@@ -1,6 +1,6 @@
 # Introduction
 
-PHP dictionary is a complement to the PHP manual. 
+PHP dictionary is an exhaustive list of words and notions, from the PHP ecosystem. 
 
 Do you know what is the 'dangling reference' problem? Or the Last Static binding? or the 'garbage collection'? 
 

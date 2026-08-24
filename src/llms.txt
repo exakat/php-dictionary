@@ -567,6 +567,7 @@
 [Edge Computing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/edge-computing.html): Edge computing is a distributed computing paradigm that processes data at or near the source:
 [Edge Triggered](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/edge-triggered.html): Edge-triggered is an I/O notification mode where the system notifies a watcher only when the stream transitions from not-ready to ready, rather than continuously while the condition holds.
 [Effect System](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/effect-system.html): An effect system is a type-system extension that tracks, in a function's signature, which side effects it may perform:
+[Egress Filtering](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/egress-filtering.html): Egress filtering is the practice of monitoring and restricting outbound network traffic leaving a server or network, as opposed to ingress filtering, which controls incoming traffic.
 [Elephpant](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/elephpant.html): The elephpant is the generic name for the unofficial logo of PHP.
 [Ellipsis](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/ellipsis.html): Ellipsis operator is the ``.
 [Email](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/email.html): Email, short for electronic mail, is a method of exchanging digital messages between people using electronic devices.
@@ -620,6 +621,7 @@
 [Execution Path](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/execution-path.html): The execution path refers to the sequence in which the PHP interpreter processes and executes the code.
 [Execution Time](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/execution-time.html): Execution time is a phase of PHP processing, where the source code is executed.
 [Execution](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/execution.html): Execution refers to the ability to run code or system commands dynamically at runtime.
+[execve()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/execve.html): ``execve()`` is the underlying Unix system call that replaces the currently running process's program, code, data, heap and stack, with a new one.
 [Exhaustiveness](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/exhaustiveness.html): Exhaustiveness is the property of a pattern-matching or ``switch``-like construct that guarantees every possible case has been handled, checked by the compiler or engine rather than left to the developer to remember.
 [EXIF (Exchangeable Image File Format)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/exif.html): EXIF is a standard for storing metadata in image files, particularly JPEG and TIFF.
 [Existence](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/existence.html): Existence is the general concept of checking whether something is available before using it.
@@ -1631,6 +1633,7 @@
 [str_replace()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/str_replace.html): ``str_replace()`` is a PHP native function that replaces all occurrences of a search string with a replacement string.
 [str_starts_with()](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/str_starts_with.html): ``str_starts_with()`` is a built-in PHP function that checks that the string starts with the specified prefix.
 [Stream](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/stream.html): Streams are a generalisation of the notion of files.
+[Streaming Database](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/streaming-database.html): A streaming database is a database engine that runs continuous SQL queries directly over unbounded data streams, maintaining incrementally updated materialized views instead of static tables.
 [Streamlining](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/streamlining.html): Streamlining refers to the practice of simplifying code to reduce complexity, remove redundancy, and improve readability and maintainability.
 [Strict Comparison](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/strict-comparison.html): Strict comparison is a comparison operator or a control structure that checks not only the value but also the type of the value.
 [Strict](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/strict.html): The word ``strict`` appears in several distinct PHP concepts:
@@ -1860,6 +1863,7 @@ It applies to several concepts:
 [White Box Testing](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whitebox.html): White box testing is a testing approach where the tester has full knowledge of the system's internal code, structure, and logic, and uses that knowledge to design test cases.
 [Whitespace](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whitespace.html): Whitespace refers to spaces, tabulations, and newline characters:
 [WHM (WebHost Manager)](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/whm.html): WHM, short for WebHost Manager, is a web-based server administration panel from ``cPanel`` Inc.
+[Wiki](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/wiki.html): A wiki is a web application that lets users create, edit and link pages collaboratively, directly from the browser, without needing a separate publishing workflow.
 [Wildcard](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/wildcard.html): The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything.
 [Class Wither Method](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/wither.html): ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself.
 [Word Combination](https://php-dictionary.readthedocs.io/en/latest/dictionary/index/word-combinaison.html): Word combination is the technique to build a new word by putting one or several words next to each other, and making the whole a distinct or specialized entity from the individual elements.

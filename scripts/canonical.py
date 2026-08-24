@@ -2,7 +2,7 @@
 import pathlib, re, sys
 
 BASE = "https://php-dictionary.readthedocs.io/en/latest/"
-SKIP = {"404.html", "print.html"}
+SKIP = {"404.html"}
 root = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "book")
 
 for html in root.rglob("*.html"):

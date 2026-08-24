@@ -580,6 +580,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/edge-computing.ini.html" = "/en/latest/index/edge-computing.html"
 "/dictionary/edge-triggered.ini.html" = "/en/latest/index/edge-triggered.html"
 "/dictionary/effect-system.ini.html" = "/en/latest/index/effect-system.html"
+"/dictionary/egress-filtering.ini.html" = "/en/latest/index/egress-filtering.html"
 "/dictionary/elephpant.ini.html" = "/en/latest/index/elephpant.html"
 "/dictionary/ellipsis.ini.html" = "/en/latest/index/ellipsis.html"
 "/dictionary/email.ini.html" = "/en/latest/index/email.html"
@@ -633,6 +634,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/execution-path.ini.html" = "/en/latest/index/execution-path.html"
 "/dictionary/execution-time.ini.html" = "/en/latest/index/execution-time.html"
 "/dictionary/execution.ini.html" = "/en/latest/index/execution.html"
+"/dictionary/execve.ini.html" = "/en/latest/index/execve.html"
 "/dictionary/exhaustiveness.ini.html" = "/en/latest/index/exhaustiveness.html"
 "/dictionary/exif.ini.html" = "/en/latest/index/exif.html"
 "/dictionary/existence.ini.html" = "/en/latest/index/existence.html"
@@ -1642,6 +1644,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/str_replace.ini.html" = "/en/latest/index/str_replace.html"
 "/dictionary/str_starts_with.ini.html" = "/en/latest/index/str_starts_with.html"
 "/dictionary/stream.ini.html" = "/en/latest/index/stream.html"
+"/dictionary/streaming-database.ini.html" = "/en/latest/index/streaming-database.html"
 "/dictionary/streamlining.ini.html" = "/en/latest/index/streamlining.html"
 "/dictionary/strict-comparison.ini.html" = "/en/latest/index/strict-comparison.html"
 "/dictionary/strict.ini.html" = "/en/latest/index/strict.html"
@@ -1869,6 +1872,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/whitebox.ini.html" = "/en/latest/index/whitebox.html"
 "/dictionary/whitespace.ini.html" = "/en/latest/index/whitespace.html"
 "/dictionary/whm.ini.html" = "/en/latest/index/whm.html"
+"/dictionary/wiki.ini.html" = "/en/latest/index/wiki.html"
 "/dictionary/wildcard.ini.html" = "/en/latest/index/wildcard.html"
 "/dictionary/wither.ini.html" = "/en/latest/index/wither.html"
 "/dictionary/word-combinaison.ini.html" = "/en/latest/index/word-combinaison.html"
@@ -1912,6 +1916,14 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
 
 
 
