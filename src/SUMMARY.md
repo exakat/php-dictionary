@@ -1636,6 +1636,7 @@
   + [str\_ends\_with()](index/str_ends_with.md)
   + [str\_replace()](index/str_replace.md)
   + [str\_starts\_with()](index/str_starts_with.md)
+  + [Strategy](index/strategy.md)
   + [Stream](index/stream.md)
   + [Streaming Database](index/streaming-database.md)
   + [Streamlining](index/streamlining.md)

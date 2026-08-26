@@ -6,17 +6,17 @@ Conditional means that some condition must be met for something to happen or to 
 + Constant definition: when specifying a global constant with ``const``, the definition cannot be conditional: it cannot be set in a ``if-then`` block, or any other block, including functions or closures.
 
 
-<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/conditional.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/conditional.html","name":"Conditional","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 25 Aug 2026 12:17:01 +0000","dateModified":"Tue, 25 Aug 2026 12:17:01 +0000","description":"Conditional means that some condition must be met for something to happen or to be","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/conditional.html"]}],"keywords":["concept","adjective"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/const.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/condition.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/www.php.net\/manual\/en\/language.control-structures.php"},{"@type":"CreativeWork","name":"PHP: The if Statement","url":"https:\/\/www.php.net\/manual\/en\/control-structures.if.php"},{"@type":"CreativeWork","name":"PHP: match","url":"https:\/\/www.php.net\/manual\/en\/control-structures.match.php"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.25","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"conditional"}]}]}</script>
+<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/conditional.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/conditional.html","name":"Conditional","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 25 Aug 2026 18:08:00 +0000","dateModified":"Tue, 25 Aug 2026 18:08:00 +0000","description":"Conditional means that some condition must be met for something to happen or to be","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/conditional.html"]}],"keywords":["concept","adjective"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/const.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/condition.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/www.php.net\/manual\/en\/language.control-structures.php"},{"@type":"CreativeWork","name":"PHP: The if Statement","url":"https:\/\/www.php.net\/manual\/en\/control-structures.if.php"},{"@type":"CreativeWork","name":"match","url":"https:\/\/www.php.net\/manual\/en\/control-structures.match.php"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.27","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"conditional"}]}]}</script>
 ```php
 <?php
 
-// Conditioned constant value
-const A = PHP_OS == 'Linux' ? 'PHP On Linux' : 'PHP Not On Linux';
-
-if (PHP_OS == 'Linux') {
-    // This is a syntax error
-    const B = 1; 
-}
+    // Conditioned constant value
+    const A = PHP_OS == 'Linux' ? 'PHP On Linux' : 'PHP Not On Linux';
+    
+    if (PHP_OS == 'Linux') {
+        // This is a syntax error
+        const B = 1; 
+    }
 
 ?>
 ```
@@ -25,7 +25,7 @@ if (PHP_OS == 'Linux') {
 ## See Also
 
 + [PHP: The if Statement](https://www.php.net/manual/en/control-structures.if.php)
-+ [PHP: match](https://www.php.net/manual/en/control-structures.match.php)
++ [match](https://www.php.net/manual/en/control-structures.match.php)
 
 ## Related
 

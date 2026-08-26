@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.25"
+title = "The PHP dictionary - 1.1.27"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -1643,6 +1643,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/str_ends_with.ini.html" = "/en/latest/index/str_ends_with.html"
 "/dictionary/str_replace.ini.html" = "/en/latest/index/str_replace.html"
 "/dictionary/str_starts_with.ini.html" = "/en/latest/index/str_starts_with.html"
+"/dictionary/strategy.ini.html" = "/en/latest/index/strategy.html"
 "/dictionary/stream.ini.html" = "/en/latest/index/stream.html"
 "/dictionary/streaming-database.ini.html" = "/en/latest/index/streaming-database.html"
 "/dictionary/streamlining.ini.html" = "/en/latest/index/streamlining.html"
@@ -1916,6 +1917,66 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

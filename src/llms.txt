@@ -1632,6 +1632,7 @@
 [str_ends_with()](https://php-dictionary.readthedocs.io/en/latest/index/str_ends_with.html): ``str_ends_with()`` is a built-in PHP function that checks that the string ends with the specified suffix.
 [str_replace()](https://php-dictionary.readthedocs.io/en/latest/index/str_replace.html): ``str_replace()`` is a PHP native function that replaces all occurrences of a search string with a replacement string.
 [str_starts_with()](https://php-dictionary.readthedocs.io/en/latest/index/str_starts_with.html): ``str_starts_with()`` is a built-in PHP function that checks that the string starts with the specified prefix.
+[Strategy](https://php-dictionary.readthedocs.io/en/latest/index/strategy.html): The Strategy design pattern defines a family of interchangeable algorithms, encapsulates each one in its own class, and lets the algorithm vary independently from the code that uses it.
 [Stream](https://php-dictionary.readthedocs.io/en/latest/index/stream.html): Streams are a generalisation of the notion of files.
 [Streaming Database](https://php-dictionary.readthedocs.io/en/latest/index/streaming-database.html): A streaming database is a database engine that runs continuous SQL queries directly over unbounded data streams, maintaining incrementally updated materialized views instead of static tables.
 [Streamlining](https://php-dictionary.readthedocs.io/en/latest/index/streamlining.html): Streamlining refers to the practice of simplifying code to reduce complexity, remove redundancy, and improve readability and maintainability.
@@ -1689,7 +1690,7 @@ It applies to several concepts:
 [Tarpit](https://php-dictionary.readthedocs.io/en/latest/index/tarpit.html): A tar pit is a deliberate slowdown of abusive or unwanted requests to waste an attacker's time and resources.
 [Task Runner](https://php-dictionary.readthedocs.io/en/latest/index/task-runner.html): A task runner refers to a tool or framework that automates repetitive tasks, such as building, testing, and deploying PHP applications.
 [Task](https://php-dictionary.readthedocs.io/en/latest/index/task.html): A task is simply a unit of work:
-[Total Cost Of Ownership (TCO)](https://php-dictionary.readthedocs.io/en/latest/index/tco.html): Total Cost of Ownership, aka TCO, is a financial estimate that helps businesses and individuals calculate the direct and indirect costs associated with owning and operating software, hardware, equipment, or even a service, over its entire lifecycle.
+[Total Cost Of Ownership (TCO)](https://php-dictionary.readthedocs.io/en/latest/index/tco.html): Total Cost of Ownership, also known as ``TCO``, is a financial estimate that helps businesses and individuals calculate the direct and indirect costs associated with owning and operating software, hardware, equipment, or even a service, over its entire lifecycle.
 [TCP](https://php-dictionary.readthedocs.io/en/latest/index/tcp.html): ``TCP``, which stands for Transmission Control Protocol, is one of the main protocols in the Internet Protocol ``IP`` suite.
 [Tech Island](https://php-dictionary.readthedocs.io/en/latest/index/tech-island.html): A tech island is an organisational behaviour where a team replicates tools, libraries, or infrastructure internally rather than depending on external ones.
 [Tech Silo](https://php-dictionary.readthedocs.io/en/latest/index/tech-silo.html): A tech silo is a situation where a team or department develops and operates its technology stack in isolation, without sharing tools, knowledge, or practices with the rest of the organisation.
@@ -1862,7 +1863,7 @@ It applies to several concepts:
 [While](https://php-dictionary.readthedocs.io/en/latest/index/while.html): While is a loop structure.
 [White Box Testing](https://php-dictionary.readthedocs.io/en/latest/index/whitebox.html): White box testing is a testing approach where the tester has full knowledge of the system's internal code, structure, and logic, and uses that knowledge to design test cases.
 [Whitespace](https://php-dictionary.readthedocs.io/en/latest/index/whitespace.html): Whitespace refers to spaces, tabulations, and newline characters:
-[WHM (WebHost Manager)](https://php-dictionary.readthedocs.io/en/latest/index/whm.html): WHM, short for WebHost Manager, is a web-based server administration panel from ``cPanel`` Inc.
+[WHM (WebHost Manager)](https://php-dictionary.readthedocs.io/en/latest/index/whm.html): WHM, short for ``WebHost Manager``, is a web-based server administration panel from ``cPanel`` Inc.
 [Wiki](https://php-dictionary.readthedocs.io/en/latest/index/wiki.html): A wiki is a web application that lets users create, edit and link pages collaboratively, directly from the browser, without needing a separate publishing workflow.
 [Wildcard](https://php-dictionary.readthedocs.io/en/latest/index/wildcard.html): The wildcard, for example the ``*``, ``%``, ``_``, ``~`` characters, is a placeholder that matches anything.
 [Class Wither Method](https://php-dictionary.readthedocs.io/en/latest/index/wither.html): ``with`` is a prefix, that tells the reader that the method returns a copy of the object, and not the object itself.

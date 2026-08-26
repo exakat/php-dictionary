@@ -1647,6 +1647,7 @@
   + [Steganography](index/steganography.ini.html)
   + [Storage Systems](index/storage-system.ini.html)
   + [Stored XSS](index/stored-xss.ini.html)
+  + [Strategy](index/strategy.ini.html)
   + [Stream](index/stream.ini.html)
   + [Stream Wrapper](index/wrapper-stream.ini.html)
   + [Streaming Database](index/streaming-database.ini.html)
