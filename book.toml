@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.27"
+title = "The PHP dictionary - 1.1.28"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -207,6 +207,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/basename.ini.html" = "/en/latest/index/basename.html"
 "/dictionary/batch.ini.html" = "/en/latest/index/batch.html"
 "/dictionary/bcmath.ini.html" = "/en/latest/index/bcmath.html"
+"/dictionary/behavior.ini.html" = "/en/latest/index/behavior.html"
 "/dictionary/benchmarking.ini.html" = "/en/latest/index/benchmarking.html"
 "/dictionary/best-practice.ini.html" = "/en/latest/index/best-practice.html"
 "/dictionary/big-o-notation.ini.html" = "/en/latest/index/big-o-notation.html"
@@ -275,6 +276,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/case.ini.html" = "/en/latest/index/case.html"
 "/dictionary/cast.ini.html" = "/en/latest/index/cast.html"
 "/dictionary/catch.ini.html" = "/en/latest/index/catch.html"
+"/dictionary/catchable-fatal-error.ini.html" = "/en/latest/index/catchable-fatal-error.html"
 "/dictionary/cd.ini.html" = "/en/latest/index/cd.html"
 "/dictionary/cdn.ini.html" = "/en/latest/index/cdn.html"
 "/dictionary/centralization.ini.html" = "/en/latest/index/centralization.html"
@@ -388,6 +390,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/constant-in-trait.ini.html" = "/en/latest/index/constant-in-trait.html"
 "/dictionary/constant-scalar-expression.ini.html" = "/en/latest/index/constant-scalar-expression.html"
 "/dictionary/constant.ini.html" = "/en/latest/index/constant.html"
+"/dictionary/constraint.ini.html" = "/en/latest/index/constraint.html"
 "/dictionary/constructor.ini.html" = "/en/latest/index/constructor.html"
 "/dictionary/container-orchestration.ini.html" = "/en/latest/index/container-orchestration.html"
 "/dictionary/container.ini.html" = "/en/latest/index/container.html"
@@ -536,6 +539,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/doctrine.ini.html" = "/en/latest/index/doctrine.html"
 "/dictionary/document-database.ini.html" = "/en/latest/index/document-database.html"
 "/dictionary/documentation.ini.html" = "/en/latest/index/documentation.html"
+"/dictionary/dog-food.ini.html" = "/en/latest/index/dog-food.html"
 "/dictionary/dollar.ini.html" = "/en/latest/index/dollar.html"
 "/dictionary/dom.ini.html" = "/en/latest/index/dom.html"
 "/dictionary/domain-name.ini.html" = "/en/latest/index/domain-name.html"
@@ -760,6 +764,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/goto.ini.html" = "/en/latest/index/goto.html"
 "/dictionary/gradual-type-checking.ini.html" = "/en/latest/index/gradual-type-checking.html"
 "/dictionary/gradual-typing.ini.html" = "/en/latest/index/gradual-typing.html"
+"/dictionary/grammar.ini.html" = "/en/latest/index/grammar.html"
 "/dictionary/graph-database.ini.html" = "/en/latest/index/graph-database.html"
 "/dictionary/graph.ini.html" = "/en/latest/index/graph.html"
 "/dictionary/graphql.ini.html" = "/en/latest/index/graphql.html"
@@ -842,6 +847,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/imap.ini.html" = "/en/latest/index/imap.html"
 "/dictionary/immutable.ini.html" = "/en/latest/index/immutable.html"
 "/dictionary/imperative.ini.html" = "/en/latest/index/imperative.html"
+"/dictionary/implementation-defined-behavior.ini.html" = "/en/latest/index/implementation-defined-behavior.html"
 "/dictionary/implements.ini.html" = "/en/latest/index/implements.html"
 "/dictionary/implicit-state.ini.html" = "/en/latest/index/implicit-state.html"
 "/dictionary/implicit.ini.html" = "/en/latest/index/implicit.html"
@@ -989,6 +995,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/lossless.ini.html" = "/en/latest/index/lossless.html"
 "/dictionary/lossy.ini.html" = "/en/latest/index/lossy.html"
 "/dictionary/lsp.ini.html" = "/en/latest/index/lsp.html"
+"/dictionary/lvalue.ini.html" = "/en/latest/index/lvalue.html"
 "/dictionary/machine-learning.ini.html" = "/en/latest/index/machine-learning.html"
 "/dictionary/macro.ini.html" = "/en/latest/index/macro.html"
 "/dictionary/magento.ini.html" = "/en/latest/index/magento.html"
@@ -1335,6 +1342,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/printf.ini.html" = "/en/latest/index/printf.html"
 "/dictionary/privacy.ini.html" = "/en/latest/index/privacy.html"
 "/dictionary/private.ini.html" = "/en/latest/index/private.html"
+"/dictionary/prng.ini.html" = "/en/latest/index/prng.html"
 "/dictionary/procedural-programming.ini.html" = "/en/latest/index/procedural-programming.html"
 "/dictionary/process.ini.html" = "/en/latest/index/process.html"
 "/dictionary/production.ini.html" = "/en/latest/index/production.html"
@@ -1786,6 +1794,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/ulid.ini.html" = "/en/latest/index/ulid.html"
 "/dictionary/unary.ini.html" = "/en/latest/index/unary.html"
 "/dictionary/unbacked-enum.ini.html" = "/en/latest/index/unbacked-enum.html"
+"/dictionary/undefined-behavior.ini.html" = "/en/latest/index/undefined-behavior.html"
 "/dictionary/undefined.ini.html" = "/en/latest/index/undefined.html"
 "/dictionary/underflow.ini.html" = "/en/latest/index/underflow.html"
 "/dictionary/underscore.ini.html" = "/en/latest/index/underscore.html"
@@ -1802,6 +1811,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/unreachable-code.ini.html" = "/en/latest/index/unreachable-code.html"
 "/dictionary/unserialize.ini.html" = "/en/latest/index/unserialize.html"
 "/dictionary/unset.ini.html" = "/en/latest/index/unset.html"
+"/dictionary/unspecified-behavior.ini.html" = "/en/latest/index/unspecified-behavior.html"
 "/dictionary/unused.ini.html" = "/en/latest/index/unused.html"
 "/dictionary/uopz.ini.html" = "/en/latest/index/uopz.html"
 "/dictionary/upgrade.ini.html" = "/en/latest/index/upgrade.html"
@@ -1917,6 +1927,24 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

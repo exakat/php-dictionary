@@ -81,7 +81,7 @@
 [Anti-Pattern](https://php-dictionary.readthedocs.io/en/latest/index/anti-pattern.html): An anti-pattern is a common but counterproductive solution to a recurring problem.
 [ANTLR4](https://php-dictionary.readthedocs.io/en/latest/index/antlr4.html): ``ANTLR``, ANother Tool for Language Recognition, currently at its 4th major version, is a parser generator:
 [Ahead Of Time](https://php-dictionary.readthedocs.io/en/latest/index/aot.html): Ahead-of-Time, ``AOT``, compilation is the process of compiling source code to machine code before execution, as opposed to at runtime.
-[APCu](https://php-dictionary.readthedocs.io/en/latest/index/apcu.html): ``APCu``, ``APC``` User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis.
+[APCu](https://php-dictionary.readthedocs.io/en/latest/index/apcu.html): ``APCu``, ``APC`` User Cache, is a PHP extension that provides a shared-memory, in-process key-value store for caching arbitrary data between requests, without needing an external service like Memcached or Redis.
 [API Gateway](https://php-dictionary.readthedocs.io/en/latest/index/api-gateway.html): An API gateway is a server that acts as the single entry point for all client requests to a backend system.
 [Application Programming Interface (API)](https://php-dictionary.readthedocs.io/en/latest/index/api.html): An API is a set of functions and procedures allowing the creation of applications that access the features or data of another service.
 [Application Performance Management (APM)](https://php-dictionary.readthedocs.io/en/latest/index/apm.html): ``APM`` stands for Application Performance Management.
@@ -194,6 +194,7 @@
 [basename()](https://php-dictionary.readthedocs.io/en/latest/index/basename.html): Basename is a PHP native function that returns the name of a file, extracted from a full path.
 [Batch](https://php-dictionary.readthedocs.io/en/latest/index/batch.html): Batch processing refers to the treatment of several items at the same time, instead of one at a time.
 [Bcmath](https://php-dictionary.readthedocs.io/en/latest/index/bcmath.html): For arbitrary precision mathematics, PHP offers ``BCMath``, which supports numbers of any size and precision up to ``2147483647``, or ``0x7FFFFFFF`` decimal digits, if there is sufficient memory, represented as strings.
+[Behavior](https://php-dictionary.readthedocs.io/en/latest/index/behavior.html): Behavior is the external, observable appearance or action of a system:
 [Benchmarking](https://php-dictionary.readthedocs.io/en/latest/index/benchmarking.html): Benchmarking is a process of measuring performances.
 [Best Practices](https://php-dictionary.readthedocs.io/en/latest/index/best-practice.html): Best practices, or also called good practices, are rules and guidelines that are known to produce a desirable outcome.
 [Big-o-notation](https://php-dictionary.readthedocs.io/en/latest/index/big-o-notation.html): Big O notation is a way to describe how fast an algorithm's runtime or memory usage grows as the input size gets very large.
@@ -262,6 +263,7 @@
 [Case](https://php-dictionary.readthedocs.io/en/latest/index/case.html): ``case`` is a PHP keyword, which may be used in three distinct situations:
 [Cast Operator](https://php-dictionary.readthedocs.io/en/latest/index/cast.html): Cast operators change the type of the variable to the desired type.
 [Catch](https://php-dictionary.readthedocs.io/en/latest/index/catch.html): ``catch`` is the complement clause of try:
+[Catchable Fatal Error](https://php-dictionary.readthedocs.io/en/latest/index/catchable-fatal-error.html): A catchable fatal error is a fatal error that PHP allows user code to intercept before the script terminates, instead of stopping execution unconditionally.
 [Continuous Delivery (CD)](https://php-dictionary.readthedocs.io/en/latest/index/cd.html): Continuous delivery refers to the software development practice where the code changes are automatically built, tested, and prepared for release, so that the software can be deployed to production at any time with minimal manual effort.
 [CDN](https://php-dictionary.readthedocs.io/en/latest/index/cdn.html): A Content Delivery Network, or CDN, is a geographically distributed network of proxy servers that delivers content to end-users from the node closest to them, reducing latency and offloading traffic from the origin server.
 [Centralization](https://php-dictionary.readthedocs.io/en/latest/index/centralization.html): Centralization is the concept to bring all identical elements at the same place.
@@ -375,6 +377,7 @@
 [Constants In Trait](https://php-dictionary.readthedocs.io/en/latest/index/constant-in-trait.html): Constants were added to trait in version 8.
 [Constant Scalar Expression](https://php-dictionary.readthedocs.io/en/latest/index/constant-scalar-expression.html): A constant scalar expression is an expression that can be evaluated at compile time and consists only of scalar values, constants, and some operators operators.
 [Constants](https://php-dictionary.readthedocs.io/en/latest/index/constant.html): Constants are named values, that never change.
+[Constraint](https://php-dictionary.readthedocs.io/en/latest/index/constraint.html): A constraint is a syntactic or semantic restriction on how a language construct may be used.
 [Constructor](https://php-dictionary.readthedocs.io/en/latest/index/constructor.html): The constructor is a magic method in a class, which is called at instantiation of an object, with the provided arguments.
 [Container Orchestration](https://php-dictionary.readthedocs.io/en/latest/index/container-orchestration.html): Container orchestration is the automated management of the full lifecycle of containerised workloads across a cluster of machines:
 [Container](https://php-dictionary.readthedocs.io/en/latest/index/container.html): There are several usages of the word container:
@@ -523,6 +526,7 @@
 [Doctrine](https://php-dictionary.readthedocs.io/en/latest/index/doctrine.html): Doctrine is a set of PHP libraries built around persistence and object-relational mapping.
 [Document Database](https://php-dictionary.readthedocs.io/en/latest/index/document-database.html): A document database is a type of NoSQL database that stores data as semi-structured documents, typically in JSON, BSON, or XML format.
 [Documentation](https://php-dictionary.readthedocs.io/en/latest/index/documentation.html): Documentation refers to the written material that describes a software project, its components, functionality, architecture, and usage.
+[Dog Fooding](https://php-dictionary.readthedocs.io/en/latest/index/dog-food.html): Dog fooding, or ``eating your own dog food``, is the practice of an organisation using its own product internally, in production conditions, instead of relying only on artificial tests.
 [Dollar $](https://php-dictionary.readthedocs.io/en/latest/index/dollar.html): ``$`` is character, used in various situations:
 [Document Object Model (DOM)](https://php-dictionary.readthedocs.io/en/latest/index/dom.html): The Document Object Model, also called DOM, is a programming interface for HTML and XML documents.
 [Domain Name](https://php-dictionary.readthedocs.io/en/latest/index/domain-name.html): A domain name is a human-readable label that identifies a network resource, such as a web server.
@@ -747,6 +751,7 @@
 [Goto](https://php-dictionary.readthedocs.io/en/latest/index/goto.html): The ``goto`` operator is a language construct that allows to perform an unconditional jump in the flow of your code to a specified label.
 [Gradual Type Checking](https://php-dictionary.readthedocs.io/en/latest/index/gradual-type-checking.html): Gradual type checking is the progressive introduction of types in a code base.
 [Gradual Typing](https://php-dictionary.readthedocs.io/en/latest/index/gradual-typing.html): Gradual typing is a type system that lets typed and untyped, or loosely typed, code coexist and interoperate, with the amount of checking growing incrementally rather than being all-or-nothing.
+[Grammar](https://php-dictionary.readthedocs.io/en/latest/index/grammar.html): The grammar of a language is the formal set of rules that describes which sequences of tokens form valid statements and expressions.
 [Graph Database](https://php-dictionary.readthedocs.io/en/latest/index/graph-database.html): A graph database is a database server that organize data in a network, rather than as tables.
 [Graph](https://php-dictionary.readthedocs.io/en/latest/index/graph.html): A graph is a data structure consisting of a set of nodes, also called vertices, and edges that connect pairs of nodes.
 [GraphQL](https://php-dictionary.readthedocs.io/en/latest/index/graphql.html): GraphQL is a query language for APIs.
@@ -829,6 +834,7 @@
 [IMAP](https://php-dictionary.readthedocs.io/en/latest/index/imap.html): ``IMAP``, for Internet Message Access Protocol, is a PHP extension that provides functions to connect to mail servers over IMAP, POP3, and NNTP, list and search mailboxes, fetch message headers and bodies, and manage flags such as read, deleted, or flagged.
 [Immutable](https://php-dictionary.readthedocs.io/en/latest/index/immutable.html): An immutable object is an object that can't be changed.
 [Imperative Programming](https://php-dictionary.readthedocs.io/en/latest/index/imperative.html): Declarative programming is the programming style where each step is described to the program, which then, executes them one after the other.
+[Implementation-Defined Behavior](https://php-dictionary.readthedocs.io/en/latest/index/implementation-defined-behavior.html): Implementation-defined behavior is behavior that the language specification leaves to the engine to decide, on the condition that the engine picks one consistent option and documents it.
 [implements](https://php-dictionary.readthedocs.io/en/latest/index/implements.html): ``implements`` is a keyword, dedicated to classes.
 [Implicit State](https://php-dictionary.readthedocs.io/en/latest/index/implicit-state.html): Implicit state is state that a function or method relies on without declaring it as a parameter or return value.
 [Implicit](https://php-dictionary.readthedocs.io/en/latest/index/implicit.html): A feature is implicit when it is available, yet not explicitly visible.
@@ -976,6 +982,7 @@
 [Lossless](https://php-dictionary.readthedocs.io/en/latest/index/lossless.html): Lossless refers to any encoding, compression, or conversion process that preserves all of the original data exactly.
 [Lossy](https://php-dictionary.readthedocs.io/en/latest/index/lossy.html): Lossy refers to any encoding, compression, or conversion process that permanently discards some of the original data in order to reduce size or simplify the representation.
 [LSP](https://php-dictionary.readthedocs.io/en/latest/index/lsp.html): LSP is an acronym that has several meanings:
+[Lvalue](https://php-dictionary.readthedocs.io/en/latest/index/lvalue.html): An lvalue is an expression that designates a storage location capable of holding a value, as opposed to an rvalue, which only produces a value.
 [Machine Learning](https://php-dictionary.readthedocs.io/en/latest/index/machine-learning.html): Machine learning is a field of artificial intelligence, which teaches an application how to react to a vast number of situations with a training dataset, before applying these teachings on new situations.
 [Macro](https://php-dictionary.readthedocs.io/en/latest/index/macro.html): A macro is a rule or pattern that maps a source text or syntax fragment to a replacement, which is then substituted before or during compilation.
 [Magento](https://php-dictionary.readthedocs.io/en/latest/index/magento.html): Magento is an open-source PHP e-commerce platform.
@@ -1322,6 +1329,7 @@
 [printf()](https://php-dictionary.readthedocs.io/en/latest/index/printf.html): ``printf()`` is a PHP native function, that places the content of variables into strings, with the help of placeholders and formatting commands.
 [Privacy](https://php-dictionary.readthedocs.io/en/latest/index/privacy.html): Privacy in software refers to the protection of personal and sensitive user data.
 [Private Visibility](https://php-dictionary.readthedocs.io/en/latest/index/private.html): The private keyword is part of the three keywords to define visibility of a method, property or class constant.
+[PRNG](https://php-dictionary.readthedocs.io/en/latest/index/prng.html): A ``PRNG``, or pseudorandom number generator, is an algorithm that produces a sequence of numbers which appears random, but is entirely determined by its initial seed.
 [Procedural Programming](https://php-dictionary.readthedocs.io/en/latest/index/procedural-programming.html): Procedural Programming is a programming paradigm where a program is structured as a series of step-by-step instructions, using procedures, or functions, and control flow statements like loops, conditionals, and function calls.
 [Process](https://php-dictionary.readthedocs.io/en/latest/index/process.html): A process is an instance of a running program managed by the operating system.
 [Production](https://php-dictionary.readthedocs.io/en/latest/index/production.html): In web development and IT infrastructure, the term production refers to the environment or set of servers where the final, fully functional version of an application is deployed and actively running for real users or a live audience.
@@ -1777,6 +1785,7 @@ It applies to several concepts:
 [Universally Unique Lexicographically Sortable Identifier (ULID)](https://php-dictionary.readthedocs.io/en/latest/index/ulid.html): ULID is a Universally Unique Lexicographically Sortable Identifier.
 [Unary Operator](https://php-dictionary.readthedocs.io/en/latest/index/unary.html): A unary operator is an operator that operates on a single operand.
 [Unbacked Enum](https://php-dictionary.readthedocs.io/en/latest/index/unbacked-enum.html): Unbacked enums are enumeration without a string or integer equivalent for each of its cases.
+[Undefined Behavior](https://php-dictionary.readthedocs.io/en/latest/index/undefined-behavior.html): Undefined behavior is behavior for which the language specification imposes no requirement whatsoever:
 [Undefined](https://php-dictionary.readthedocs.io/en/latest/index/undefined.html): Something ``undefined`` has not been defined yet.
 [Underflow](https://php-dictionary.readthedocs.io/en/latest/index/underflow.html): Underflow happens when a value goes below a limit:
 [Underscore](https://php-dictionary.readthedocs.io/en/latest/index/underscore.html): Underscore is the ``_`` character.
@@ -1793,6 +1802,7 @@ It applies to several concepts:
 [Unreachable Code](https://php-dictionary.readthedocs.io/en/latest/index/unreachable-code.html): Unreachable code refers to a section of code within a program that can never be executed during the program's runtime.
 [Unserialization](https://php-dictionary.readthedocs.io/en/latest/index/unserialize.html): Unserialization is the extraction of an object from a string representation of an object.
 [unset()](https://php-dictionary.readthedocs.io/en/latest/index/unset.html): ``unset()`` removes a variable, an array item or an property.
+[Unspecified Behavior](https://php-dictionary.readthedocs.io/en/latest/index/unspecified-behavior.html): Unspecified behavior is behavior for which the language specification provides two or more valid options, without requiring the engine to document which one it picked, or to stay consistent across calls.
 [Unused](https://php-dictionary.readthedocs.io/en/latest/index/unused.html): Unused is a state of a structure.
 [User Operations For Zend (UOPZ)](https://php-dictionary.readthedocs.io/en/latest/index/uopz.html): The ``UOPZ`` extension, User Operations for Zend, exposes Zend Engine functionality normally used at compilation and execution time in order to allow modification of the internal structures that represent PHP code, and for user code to interact with the VM.
 [Upgrade](https://php-dictionary.readthedocs.io/en/latest/index/upgrade.html): An upgrade refers to the process of updating or replacing an existing installation of PHP or any library or component with a newer version.
