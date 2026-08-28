@@ -107,6 +107,7 @@
 [Array Shape](https://php-dictionary.readthedocs.io/en/latest/index/array-shape.html): An array shape is a type annotation that describes an array by its exact set of keys and the type of the value stored under each one, instead of describing it only by the type of its elements in general.
 [Array Spread](https://php-dictionary.readthedocs.io/en/latest/index/array-spread.html): Array spread is the ellipsis operator, applied to an array.
 [Array Syntax](https://php-dictionary.readthedocs.io/en/latest/index/array-syntax.html): The array syntax is the usage of square brackets after a data container, such as variables or properties, or a literal, to access an element.
+[Array Zip](https://php-dictionary.readthedocs.io/en/latest/index/array-zip.html): Array zip is the operation of combining several arrays element-by-element by position:
 [Array, []](https://php-dictionary.readthedocs.io/en/latest/index/array.html): ``array`` is the array structure.
 [array_column](https://php-dictionary.readthedocs.io/en/latest/index/array_column.html): ``array_column()`` extracts the index or property of the second argument from a list of arrays or objects passed as first argument.
 [array_combine()](https://php-dictionary.readthedocs.io/en/latest/index/array_combine.html): ``array_combine()`` creates an array from an array of keys and an array of values.
@@ -145,6 +146,7 @@
 [Aspect-Oriented](https://php-dictionary.readthedocs.io/en/latest/index/aspect-oriented.html): Aspect-oriented design structures code so that cross-cutting concerns:
 [Aspect Oriented Programming](https://php-dictionary.readthedocs.io/en/latest/index/aspect-programming.html): Aspect programming is a programming paradigm that separates business logic from cross-cutting concerns:
 [Assertions](https://php-dictionary.readthedocs.io/en/latest/index/assertion.html): Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production.
+[AssertionError](https://php-dictionary.readthedocs.io/en/latest/index/assertionerror.html): ``AssertionError`` is thrown when an assertion made with ``assert()`` fails.
 [Asset](https://php-dictionary.readthedocs.io/en/latest/index/asset.html): Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project.
 [Assignations](https://php-dictionary.readthedocs.io/en/latest/index/assignation.html): Assignation refers to the process of assigning a value to a variable.
 [Assignment](https://php-dictionary.readthedocs.io/en/latest/index/assignment.html): Assignment is the fundamental operation of binding a value to a variable.
@@ -600,6 +602,7 @@
 [Error Reporting](https://php-dictionary.readthedocs.io/en/latest/index/error-reporting.html): Error reporting is a feature, a directive and a PHP native function.
 [Error Suppression](https://php-dictionary.readthedocs.io/en/latest/index/error-suppression.html): Error suppression is achieved with the ``@`` operator placed before an expression.
 [Error](https://php-dictionary.readthedocs.io/en/latest/index/error.html): The ``Error`` class is a base class for all internal PHP error exceptions.
+[Error_log()](https://php-dictionary.readthedocs.io/en/latest/index/error_log.html): ``error_log()`` sends an error message to a logging destination:
 [Error Reporting](https://php-dictionary.readthedocs.io/en/latest/index/error_reporting.html): Error reporting is the process to report any issue while executing the code.
 [Escape Character](https://php-dictionary.readthedocs.io/en/latest/index/escape-character.html): Escape characters are special characters, that introduce a special meaning, for example when redacting an escape sequence.
 [Escape Data](https://php-dictionary.readthedocs.io/en/latest/index/escape-data.html): Escaping data is a method to write data in a neutral syntax for a target technology.
@@ -677,6 +680,7 @@
 [File System](https://php-dictionary.readthedocs.io/en/latest/index/filesystem.html): A file system is a method or structure used by operating systems to organize, store, and manage files and data on storage devices such as hard drives, solid-state drives, USB drives, and network-attached storage.
 [FileSystemIterator](https://php-dictionary.readthedocs.io/en/latest/index/filesystemiterator.html): The ``FilesystemIterator`` class is part of the SPL Library and is used for iterating over the contents of a directory.
 [filter](https://php-dictionary.readthedocs.io/en/latest/index/filter.html): The ``filter`` extension is a built-in extension that provides an efficient way to filter, validate and sanitize data.
+[Filter_var()](https://php-dictionary.readthedocs.io/en/latest/index/filter_var.html): ``filter_var()`` filters a single variable with a specified filter, either validating its content or sanitizing it.
 [Final Class Constants](https://php-dictionary.readthedocs.io/en/latest/index/final-class-constant.html): Using the final option with class constants, the constant cannot be redefined by a child class.
 [Final Keyword](https://php-dictionary.readthedocs.io/en/latest/index/final.html): The final keyword prevents child classes from overriding a method or a constant by prefixing the definition with final.
 [Finally](https://php-dictionary.readthedocs.io/en/latest/index/finally.html): Finally is the default clause of a try-catch expression.
@@ -1216,6 +1220,7 @@
 [Parenthesis](https://php-dictionary.readthedocs.io/en/latest/index/parenthesis.html): Parenthesis are the ``(`` and ``)``.
 [Parquet](https://php-dictionary.readthedocs.io/en/latest/index/parquet.html): Parquet an open-source, column-oriented data file format designed for efficient data storage and high-performance analytics.
 [Parse](https://php-dictionary.readthedocs.io/en/latest/index/parse.html): To parse, or parsing, refers to the process of analyzing and interpreting the structure of data to extract meaningful information.
+[parse_ini_file()](https://php-dictionary.readthedocs.io/en/latest/index/parse_ini_file.html): ``parse_ini_file()`` is a PHP native function that reads an INI configuration file and returns its content as an associative array.
 [parse_str()](https://php-dictionary.readthedocs.io/en/latest/index/parse_str.html): ``parse_str()`` parses a query string and extracts its components, name and value, in an array.
 [parse_url()](https://php-dictionary.readthedocs.io/en/latest/index/parse_url.html): ``parse_url()`` parses a URL string and returns its components as an associative array.
 [ParseError](https://php-dictionary.readthedocs.io/en/latest/index/parseerror.html): A ``ParseError`` is thrown when an error occurs while parsing PHP code, such as when ``eval()`` is called or when including non-compilable code.
@@ -1468,6 +1473,7 @@
 [RSA](https://php-dictionary.readthedocs.io/en/latest/index/rsa.html): RSA is the Rivest–Shamir–Adleman algorithm, a widely used method of encryption in the field of cryptography.
 [Rubber Ducking Debugging](https://php-dictionary.readthedocs.io/en/latest/index/rubber-ducking.html): Rubber Ducking is a debugging technique, where one explains the bug in human language, to a partner.
 [Runtime Checks](https://php-dictionary.readthedocs.io/en/latest/index/runtime-checks.html): Runtime checks refer to the process of verifying certain conditions or constraints during the execution of a script.
+[RuntimeException](https://php-dictionary.readthedocs.io/en/latest/index/runtimeexception.html): Exception thrown if an error which can only be found on runtime occurs.
 [Software-as-a-Service (SAAS)](https://php-dictionary.readthedocs.io/en/latest/index/saas.html): SaaS stands for Software as a Service.
 [Security Assertion Markup Language (SAML)](https://php-dictionary.readthedocs.io/en/latest/index/saml.html): SAML, the Security Assertion Markup Language, is an open XML-based standard for exchanging authentication and authorization data between an identity provider, and a service provider.
 [Sandbox](https://php-dictionary.readthedocs.io/en/latest/index/sandbox.html): An isolated environment where code can be run or tested, without affecting the real system.
@@ -1610,7 +1616,7 @@
 [sscanf()](https://php-dictionary.readthedocs.io/en/latest/index/sscanf.html): ``sscanf()`` is a built-in PHP function that parses input from a string according to a format string.
 [Server Sent Event (SSE)](https://php-dictionary.readthedocs.io/en/latest/index/sse.html): Server-Sent Events, or SSE, is a web technology that allows a server to push real-time updates to a client, often the web browser, over a single HTTP connection.
 [Secure Shell (SSH)](https://php-dictionary.readthedocs.io/en/latest/index/ssh.html): SSH, acronym of Secure Shell, is a cryptographic network protocol for operating network services securely over an unsecured network.
-[SSH2](https://php-dictionary.readthedocs.io/en/latest/index/ssh2.html): ``ssh2`` is a PIE extension, built on libssh2, that provides functions to open SSH connections from PHP and use them to execute remote commands, transfer files over SFTP or SCP, forward ports, and manage host authentication.
+[SSH2](https://php-dictionary.readthedocs.io/en/latest/index/ssh2.html): ``ssh2`` is a PIE extension, built on ``libssh2``, that provides functions to open SSH connections from PHP and use them to execute remote commands, transfer files over ``SFTP`` or ``SCP``, forward ports, and manage host authentication.
 [Secure Sockets Layer (SSL)](https://php-dictionary.readthedocs.io/en/latest/index/ssl.html): SSL, the Secure Sockets Layer, is a cryptographic protocol designed to provide communications security over a computer network and on the Web.
 [Single Sign On (SSO)](https://php-dictionary.readthedocs.io/en/latest/index/sso.html): Single Sign-On, also shortened as SSO, is an authentication process that allows users to access multiple applications or services with one set of login credentials.
 [Server-Side Request Forgery (SSRF)](https://php-dictionary.readthedocs.io/en/latest/index/ssrf.html): Server-Side Request Forgery, or SSRF, is a vulnerability where an attacker induces the server itself to issue an HTTP or other network request to a destination the attacker controls or chooses, by supplying or influencing a URL that the server later fetches.
@@ -1666,6 +1672,7 @@
 It applies to several concepts:
 [Subclass](https://php-dictionary.readthedocs.io/en/latest/index/subclass.html): A ``subclass`` is a class that extends another class.
 [Subnamespaces](https://php-dictionary.readthedocs.io/en/latest/index/subnamespace.html): In PHP, there is no such notion as subnamespaces.
+[substr()](https://php-dictionary.readthedocs.io/en/latest/index/substr.html): ``substr()`` is a PHP native function that extracts a portion of a string, starting at a given position, for an optional given length.
 [subtype](https://php-dictionary.readthedocs.io/en/latest/index/subtype.html): A subtype is any of the child types.
 [Suffix](https://php-dictionary.readthedocs.io/en/latest/index/suffix.html): A suffix is a word extension, placed after the name.
 [Sum Type](https://php-dictionary.readthedocs.io/en/latest/index/sum-type.html): A sum type is a type whose value is exactly one of a fixed set of cases, where each case may carry a different payload.
@@ -1676,7 +1683,7 @@ It applies to several concepts:
 [Supply Chain](https://php-dictionary.readthedocs.io/en/latest/index/supply-chain.html): The supply chain is the set of components, libraries, tools and processes that are used to build an application.
 [Surrogate Key](https://php-dictionary.readthedocs.io/en/latest/index/surrogate-key.html): A surrogate key is a primary key column with no meaning outside the database:
 [Scalable Vector Graphics (SVG)](https://php-dictionary.readthedocs.io/en/latest/index/svg.html): SVG, for Scalable Vector Graphics, is an XML-based format for two-dimensional vector graphics.
-[Support Vector Machine (SVM)](https://php-dictionary.readthedocs.io/en/latest/index/svm.html): SVM stands for Support Vector Machine.
+[Support Vector Machine (SVM)](https://php-dictionary.readthedocs.io/en/latest/index/svm.html): ``SVM`` stands for Support Vector Machine.
 [SVMException](https://php-dictionary.readthedocs.io/en/latest/index/svmexception.html): The SVMException exception is thrown by the ``SVM:
 [SVN](https://php-dictionary.readthedocs.io/en/latest/index/svn.html): SVN, or Subversion, is a version control system, VCS, used for managing and tracking changes to files and directories in software development and other collaborative environments.
 [Swagger](https://php-dictionary.readthedocs.io/en/latest/index/swagger.html): Swagger is a toolset for designing, documenting, and consuming REST APIs.
@@ -1684,7 +1691,7 @@ It applies to several concepts:
 [Switch Case](https://php-dictionary.readthedocs.io/en/latest/index/switch-case.html): A switch case, also called case, is an option in a ``switch()`` or a ``match()`` expression.
 [Switch Default](https://php-dictionary.readthedocs.io/en/latest/index/switch-default.html): A switch default, also called default, is the catch-all option in a ``switch()`` or a ``match()`` expression.
 [Switch](https://php-dictionary.readthedocs.io/en/latest/index/switch.html): The ``switch`` expression branches evaluation based on an equality check of a value.
-[Swoole](https://php-dictionary.readthedocs.io/en/latest/index/swoole.html): ``Swoole`` is a PIE extension that turns PHP into an event-driven, asynchronous, coroutine-capable runtime, replacing the traditional process-per-request model with long-running server processes that handle HTTP, WebSocket, TCP, and UDP connections directly, without a separate web server such as Nginx or PHP-FPM in front.
+[Swoole](https://php-dictionary.readthedocs.io/en/latest/index/swoole.html): ``Swoole`` is a PIE extension that turns PHP into an event-driven, asynchronous, coroutine-capable runtime, replacing the traditional process-per-request model with long-running server processes that handle HTTP, WebSocket, TCP, and UDP connections directly, without a separate web server such as ``Nginx`` or ``PHP-FPM`` in front.
 [Symbolic Analysis](https://php-dictionary.readthedocs.io/en/latest/index/symbolic-analysis.html): Symbolic analysis, also called symbolic execution, is a static analysis technique that executes a program with symbolic values instead of concrete inputs.
 [Symfony](https://php-dictionary.readthedocs.io/en/latest/index/symfony.html): Symfony is a popular PHP framework:
 [Synchronous](https://php-dictionary.readthedocs.io/en/latest/index/synchronous.html): Synchronous PHP refers to the traditional way PHP applications execute code:

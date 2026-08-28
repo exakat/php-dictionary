@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.28"
+title = "The PHP dictionary - 1.1.29"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -120,6 +120,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/array-shape.ini.html" = "/en/latest/index/array-shape.html"
 "/dictionary/array-spread.ini.html" = "/en/latest/index/array-spread.html"
 "/dictionary/array-syntax.ini.html" = "/en/latest/index/array-syntax.html"
+"/dictionary/array-zip.ini.html" = "/en/latest/index/array-zip.html"
 "/dictionary/array.ini.html" = "/en/latest/index/array.html"
 "/dictionary/array_column.ini.html" = "/en/latest/index/array_column.html"
 "/dictionary/array_combine.ini.html" = "/en/latest/index/array_combine.html"
@@ -158,6 +159,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/aspect-oriented.ini.html" = "/en/latest/index/aspect-oriented.html"
 "/dictionary/aspect-programming.ini.html" = "/en/latest/index/aspect-programming.html"
 "/dictionary/assertion.ini.html" = "/en/latest/index/assertion.html"
+"/dictionary/assertionerror.ini.html" = "/en/latest/index/assertionerror.html"
 "/dictionary/asset.ini.html" = "/en/latest/index/asset.html"
 "/dictionary/assignation.ini.html" = "/en/latest/index/assignation.html"
 "/dictionary/assignment.ini.html" = "/en/latest/index/assignment.html"
@@ -613,6 +615,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/error-reporting.ini.html" = "/en/latest/index/error-reporting.html"
 "/dictionary/error-suppression.ini.html" = "/en/latest/index/error-suppression.html"
 "/dictionary/error.ini.html" = "/en/latest/index/error.html"
+"/dictionary/error_log.ini.html" = "/en/latest/index/error_log.html"
 "/dictionary/error_reporting.ini.html" = "/en/latest/index/error_reporting.html"
 "/dictionary/escape-character.ini.html" = "/en/latest/index/escape-character.html"
 "/dictionary/escape-data.ini.html" = "/en/latest/index/escape-data.html"
@@ -690,6 +693,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/filesystem.ini.html" = "/en/latest/index/filesystem.html"
 "/dictionary/filesystemiterator.ini.html" = "/en/latest/index/filesystemiterator.html"
 "/dictionary/filter.ini.html" = "/en/latest/index/filter.html"
+"/dictionary/filter_var.ini.html" = "/en/latest/index/filter_var.html"
 "/dictionary/final-class-constant.ini.html" = "/en/latest/index/final-class-constant.html"
 "/dictionary/final.ini.html" = "/en/latest/index/final.html"
 "/dictionary/finally.ini.html" = "/en/latest/index/finally.html"
@@ -1229,6 +1233,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/parenthesis.ini.html" = "/en/latest/index/parenthesis.html"
 "/dictionary/parquet.ini.html" = "/en/latest/index/parquet.html"
 "/dictionary/parse.ini.html" = "/en/latest/index/parse.html"
+"/dictionary/parse_ini_file.ini.html" = "/en/latest/index/parse_ini_file.html"
 "/dictionary/parse_str.ini.html" = "/en/latest/index/parse_str.html"
 "/dictionary/parse_url.ini.html" = "/en/latest/index/parse_url.html"
 "/dictionary/parseerror.ini.html" = "/en/latest/index/parseerror.html"
@@ -1479,6 +1484,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/rsa.ini.html" = "/en/latest/index/rsa.html"
 "/dictionary/rubber-ducking.ini.html" = "/en/latest/index/rubber-ducking.html"
 "/dictionary/runtime-checks.ini.html" = "/en/latest/index/runtime-checks.html"
+"/dictionary/runtimeexception.ini.html" = "/en/latest/index/runtimeexception.html"
 "/dictionary/saas.ini.html" = "/en/latest/index/saas.html"
 "/dictionary/saml.ini.html" = "/en/latest/index/saml.html"
 "/dictionary/sandbox.ini.html" = "/en/latest/index/sandbox.html"
@@ -1675,6 +1681,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/sub.ini.html" = "/en/latest/index/sub.html"
 "/dictionary/subclass.ini.html" = "/en/latest/index/subclass.html"
 "/dictionary/subnamespace.ini.html" = "/en/latest/index/subnamespace.html"
+"/dictionary/substr.ini.html" = "/en/latest/index/substr.html"
 "/dictionary/subtype.ini.html" = "/en/latest/index/subtype.html"
 "/dictionary/suffix.ini.html" = "/en/latest/index/suffix.html"
 "/dictionary/sum-type.ini.html" = "/en/latest/index/sum-type.html"
@@ -1927,6 +1934,35 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
