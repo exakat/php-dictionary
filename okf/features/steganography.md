@@ -1,0 +1,81 @@
+---
+type: "PHP Feature"
+title: "Steganography"
+description: "Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video."
+resource: "https://en.wikipedia.org/wiki/Steganography"
+tags: ["security", "images", "data-hiding", "steganography"]
+generated:
+  by: "analyzeG3/scripts/makeKnowledgeGraph"
+  at: "2026-08-30T10:00:00+00:00"
+---
+
+# Steganography
+
+Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. Unlike cryptography, which makes content unreadable, steganography aims to hide the very existence of the secret communication.
+
+In web development, steganography is most commonly associated with hiding data within image files. This can be achieved by embedding information in the least significant bits of pixel data, appending data after image metadata, or exploiting image format specifications to store hidden payloads.
+
+Common techniques include:
+
++ ``LSB``, Least Significant Bit, insertion, where the least significant bits of pixel color values are modified to encode secret data.
++ Metadata injection, where hidden information is stored in EXIF or other image metadata fields.
++ Appending data after the image's end-of-file marker, which most image viewers ignore.
++ Exploiting comments sections within image formats like JPEG or PNG.
+
+Steganography can be used for legitimate purposes such as digital watermarking and covert communication, but it is also employed in malicious contexts for data ex-filtration, command-and-control communication, or smuggling payloads past security filters.
+
+```php
+<?php
+
+    // Example: hiding a secret message in the least significant bits of an image
+    $source = imagecreatefrompng('cover.png');
+    $secret = 'Hidden message';
+    $bits = '';
+    
+    for ($i = 0; $i < strlen($secret); $i++) {
+        $bits .= str_pad(decbin(ord($secret[$i])), 8, '0', STR_PAD_LEFT);
+    }
+    
+    $bitIndex = 0;
+    for ($y = 0; $y < imagesy($source) && $bitIndex < strlen($bits); $y++) {
+        for ($x = 0; $x < imagesx($source) && $bitIndex < strlen($bits); $x++) {
+            $rgb = imagecolorat($source, $x, $y);
+            $r = ($rgb >> 16) & 0xFF;
+            $g = ($rgb >> 8) & 0xFF;
+            $b = $rgb & 0xFF;
+            
+            if ($bitIndex < strlen($bits)) {
+                $r = ($r & 0xFE) | $bits[$bitIndex++];
+            }
+            if ($bitIndex < strlen($bits)) {
+                $g = ($g & 0xFE) | $bits[$bitIndex++];
+            }
+            if ($bitIndex < strlen($bits)) {
+                $b = ($b & 0xFE) | $bits[$bitIndex++];
+            }
+            
+            imagesetpixel($source, $x, $y, imagecolorallocate($source, $r, $g, $b));
+        }
+    }
+    
+    imagepng($source, 'stego.png');
+    imagedestroy($source);
+
+?>
+```
+
+## Documentation
+- [https://en.wikipedia.org/wiki/Steganography](https://en.wikipedia.org/wiki/Steganography)
+
+## See Also
+- [Steganography in Images with PHP](https://www.hashbangcode.com/article/steganography-images-php)
+- [Security through Obscurity](https://help.owasp-juice.shop/part2/security-through-obscurity.html)
+
+## Related
+- [Image](/features/image.md)
+- [Security](/features/security.md)
+- [Graphic Draw (GD)](/features/gd.md)
+- [imagick](/features/imagick.md)
+- [EXIF (Exchangeable Image File Format)](/features/exif.md)
+- [Data Hiding](/features/data-hiding.md)
+

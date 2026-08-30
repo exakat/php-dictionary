@@ -1,0 +1,90 @@
+---
+type: "PHP Feature"
+title: "Class Invasion"
+description: "Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances."
+resource: "https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects"
+tags: ["class", "feature", "php specific"]
+generated:
+  by: "analyzeG3/scripts/makeKnowledgeGraph"
+  at: "2026-08-30T10:00:00+00:00"
+---
+
+# Class Invasion
+
+Objects of the same type have access to each others private and protected features, like properties, constants and methods, even though they are not the same instances. 
+
+This means that the host object of a class A can call any method and property on a different object of the same class.
+
+It also works between siblings class. When the called method is defined in the parent class, protected methods are also accessible that way. 
+
+Class invasion works on private and protected methods, properties and constants. 
+
+Class invasion doesn't work when running an external closure inside the class.
+
+```php
+<?php
+
+// Example of Host class accessing local object (direct class invasion)
+class X {
+    private $p = 'abc';
+    private const X = 'def';
+    
+    private function privateMethod() { echo __METHOD__; }
+
+    function foo(X $x) {
+        echo $x->p;
+        echo $x::X; // also works on constant, though less useful
+    }
+    
+    function set($s) {
+        $this->p = $s;
+    }
+    
+    function goo() {
+        // The current object ($this) calls the local object's private method
+        $x = new X; 
+        $x->privateMethod();
+    }
+}
+
+$x1 = new x;
+$x1->set('xyz');
+
+$x2 = new x;
+$x2->foo($x1);
+// display xyzdef
+
+// class invasion between sibling classes
+class theParent {
+    // Necessary. Could be abstract too.     
+    protected function execute() { echo __METHOD__; }
+}
+
+class sister extends theParent {
+    // cannot be called outside of y or x
+    protected function execute() { echo __METHOD__; }
+}
+
+class brother extends theParent {
+    // calling a sister's class method 
+    function foo($y) { $y->execute(); }
+}
+
+(new brother)->foo(new sister);
+
+?>
+```
+
+## Documentation
+- [https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects](https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects)
+
+## See Also
+- [Invading private properties and methods in PHP](https://freek.dev/2192-invading-private-properties-and-methods-in-php)
+
+## Related
+- [Class](/features/class.md)
+- [Visibility](/features/visibility.md)
+
+## Details
+- Packagist: [spatie/invade](https://packagist.org/packages/spatie/invade)
+

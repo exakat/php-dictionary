@@ -1,0 +1,45 @@
+---
+type: "PHP Feature"
+title: "Identifier"
+description: "An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant."
+resource: "https://www.php.net/manual/en/language.variables.basics.php"
+tags: ["name"]
+generated:
+  by: "analyzeG3/scripts/makeKnowledgeGraph"
+  at: "2026-08-30T10:00:00+00:00"
+---
+
+# Identifier
+
+An identifier is simply a name used to identify a function, class, enum, interface, trait, method, constant, or class constant. 
+
+Identifiers are subject to certain rules, depending on their usage: for example, ``xor`` may be used as a name for a method, but not for a global constant.
+
+Identifiers are mentioned in syntax errors, where a string is used while the parser expected another kind of token.
+
+Identifiers are relative to the current namespace. They may be created by creating one of the supporting structure, such as function, global constant... Their features are related to absolute names, such as ``\A``, and relative names, such as ``B\C``, not shown here.
+
+In the illustration, ``A`` is an identifier for a global constant: it is valid. ``B`` should most probably be a variable, and yields an error.
+
+```php
+<?php
+
+    // A is a valid identifier
+    foreach(A as $b) {}
+
+?>
+```
+
+## Documentation
+- [https://www.php.net/manual/en/language.variables.basics.php](https://www.php.net/manual/en/language.variables.basics.php)
+
+## See Also
+- [Identifier (Wikipedia)](https://en.wikipedia.org/wiki/Identifier)
+- [Variable variables](https://www.php.net/manual/en/language.variables.variable.php)
+
+## Related
+- [Fully Qualified Name](/features/fully-qualified-name.md)
+- [Relative Name](/features/relative-name.md)
+- [Unique Identifier](/features/unique-identifier.md)
+- [Universally Unique IDentifier (UUID)](/features/uuid.md)
+

@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.29"
+title = "The PHP dictionary - 1.1.30"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -59,6 +59,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/abstract.ini.html" = "/en/latest/index/abstract.html"
 "/dictionary/abstraction-layer.ini.html" = "/en/latest/index/abstraction-layer.html"
 "/dictionary/abstraction.ini.html" = "/en/latest/index/abstraction.html"
+"/dictionary/acceptance-test.ini.html" = "/en/latest/index/acceptance-test.html"
 "/dictionary/accessibility.ini.html" = "/en/latest/index/accessibility.html"
 "/dictionary/accountability.ini.html" = "/en/latest/index/accountability.html"
 "/dictionary/acid.ini.html" = "/en/latest/index/acid.html"
@@ -132,6 +133,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/array_find.ini.html" = "/en/latest/index/array_find.html"
 "/dictionary/array_find_key.ini.html" = "/en/latest/index/array_find_key.html"
 "/dictionary/array_intersect.ini.html" = "/en/latest/index/array_intersect.html"
+"/dictionary/array_intersect_assoc.ini.html" = "/en/latest/index/array_intersect_assoc.html"
 "/dictionary/array_intersect_key.ini.html" = "/en/latest/index/array_intersect_key.html"
 "/dictionary/array_is_list.ini.html" = "/en/latest/index/array_is_list.html"
 "/dictionary/array_key_exists.ini.html" = "/en/latest/index/array_key_exists.html"
@@ -471,6 +473,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/debug.ini.html" = "/en/latest/index/debug.html"
 "/dictionary/debug_backtrace.ini.html" = "/en/latest/index/debug_backtrace.html"
 "/dictionary/debugger.ini.html" = "/en/latest/index/debugger.html"
+"/dictionary/decbin.ini.html" = "/en/latest/index/decbin.html"
 "/dictionary/declaration.ini.html" = "/en/latest/index/declaration.html"
 "/dictionary/declarative-programming.ini.html" = "/en/latest/index/declarative-programming.html"
 "/dictionary/declare-encoding.ini.html" = "/en/latest/index/declare-encoding.html"
@@ -735,6 +738,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/function-subscripting.ini.html" = "/en/latest/index/function-subscripting.html"
 "/dictionary/function.ini.html" = "/en/latest/index/function.html"
 "/dictionary/functional-programming.ini.html" = "/en/latest/index/functional-programming.html"
+"/dictionary/functional-test.ini.html" = "/en/latest/index/functional-test.html"
 "/dictionary/functor.ini.html" = "/en/latest/index/functor.html"
 "/dictionary/future.ini.html" = "/en/latest/index/future.html"
 "/dictionary/fuzzing.ini.html" = "/en/latest/index/fuzzing.html"
@@ -745,6 +749,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/gearman.ini.html" = "/en/latest/index/gearman.html"
 "/dictionary/generator.ini.html" = "/en/latest/index/generator.html"
 "/dictionary/generics.ini.html" = "/en/latest/index/generics.html"
+"/dictionary/get_browser.ini.html" = "/en/latest/index/get_browser.html"
 "/dictionary/get_class.ini.html" = "/en/latest/index/get_class.html"
 "/dictionary/get_class_vars.ini.html" = "/en/latest/index/get_class_vars.html"
 "/dictionary/get_object_vars.ini.html" = "/en/latest/index/get_object_vars.html"
@@ -1296,6 +1301,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/php-wrapper.ini.html" = "/en/latest/index/php-wrapper.html"
 "/dictionary/php.ini.html" = "/en/latest/index/php.html"
 "/dictionary/php.ini.ini.html" = "/en/latest/index/php.ini.html"
+"/dictionary/php_eol.ini.html" = "/en/latest/index/php_eol.html"
 "/dictionary/php_int_max.ini.html" = "/en/latest/index/php_int_max.html"
 "/dictionary/php_int_min.ini.html" = "/en/latest/index/php_int_min.html"
 "/dictionary/phpdoc.ini.html" = "/en/latest/index/phpdoc.html"
@@ -1841,6 +1847,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/value-type.ini.html" = "/en/latest/index/value-type.html"
 "/dictionary/value.ini.html" = "/en/latest/index/value.html"
 "/dictionary/valueerror.ini.html" = "/en/latest/index/valueerror.html"
+"/dictionary/vanilla.ini.html" = "/en/latest/index/vanilla.html"
 "/dictionary/var.ini.html" = "/en/latest/index/var.html"
 "/dictionary/var_dump.ini.html" = "/en/latest/index/var_dump.html"
 "/dictionary/var_export.ini.html" = "/en/latest/index/var_export.html"
@@ -1934,6 +1941,17 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
 
 
 

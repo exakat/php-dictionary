@@ -1,0 +1,68 @@
+---
+type: "unsupported"
+title: "Smart Cast"
+description: "A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression."
+resource: "https://kotlinguide.com/examples/smart-cast-example"
+tags: ["unsupported", "type", "cast"]
+generated:
+  by: "analyzeG3/scripts/makeKnowledgeGraph"
+  at: "2026-08-30T10:00:00+00:00"
+---
+
+# Smart Cast
+
+A smart cast, also called compiler-enforced type narrowing, is a feature where the compiler automatically refines the static type of a variable inside a branch, based on a preceding type-check, without requiring the programmer to insert an explicit cast expression.
+
+In Kotlin, after ``if (x is String)`` the compiler knows that ``x`` is a ``String`` inside that branch, and all ``String`` methods become available without casting. In TypeScript, a type guard such as ``typeof x === 'string'`` narrows ``x`` from ``string | number`` to ``string`` in the truthy branch. In both cases the narrowing is enforced by the compiler or type-checker: code that tries to use the variable as a different type is a compile-time error.
+
+PHP does not support smart casts. PHP's type system is verified at runtime, not compile time. Within an ``instanceof`` or ``is_string()`` branch, PHP will call the correct methods, but:
+
++ There is no compile-time enforcement: the type-checker integrated into IDEs can simulate narrowing, but the PHP engine itself makes no such guarantee.
++ The programmer may still write code that uses the variable as a different type, and PHP will only raise an error, or silently coerce, at runtime.
++ PHP does not have union-type narrowing built into the runtime in the sense that Kotlin's compiler tracks flow.
+
+Static analysis tools approximate smart-cast behaviour through flow-sensitive type inference, but this is a tool-level feature, not a language-engine feature.
+
+```php
+<?php
+
+    // PHP runtime checks: no compiler-enforced narrowing.
+    function process(int|string $value): string {
+        if (is_string($value)) {
+            // SCA will narrow $value to string here,
+            // but the PHP engine itself does not enforce this at compile time.
+            return strtoupper($value);
+        }
+    
+        // $value is int here: again, tools narrow, not the engine.
+        return (string) ($value * 2);
+    }
+    
+    // instanceof narrows for IDEs and static analysers, not for the runtime.
+    function describe(object $obj): string {
+        if ($obj instanceof \DateTimeImmutable) {
+            // Tools know $obj is DateTimeImmutable; PHP does not enforce it statically.
+            return $obj->format('Y-m-d');
+        }
+        return get_class($obj);
+    }
+
+?>
+```
+
+## Documentation
+- [https://kotlinguide.com/examples/smart-cast-example](https://kotlinguide.com/examples/smart-cast-example)
+
+## See Also
+- [Kotlin smart casts](https://kotlinlang.org/docs/typecasts.html#smart-casts)
+- [TypeScript type narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
+- [PHPStan type narrowing](https://phpstan.org/writing-php-code/narrowing-types)
+- [Psalm – Typing in Psalm](https://psalm.dev/docs/annotating_code/type_syntax/atomic_types/)
+
+## Related
+- [Cast Operator](/features/cast.md)
+- [instanceof](/features/instanceof.md)
+- [Property Type Declaration](/features/type-declaration-property.md)
+- [Typed Property](/features/typed-property.md)
+- [Type Narrowing](/features/type-narrowing.md)
+

@@ -1,0 +1,65 @@
+---
+type: "concept"
+title: "Resource Leak"
+description: "A resource leak occurs when a resource, such as a file handle, database connection, network socket, or stream, is opened but never properly closed."
+resource: "https://en.wikipedia.org/wiki/Resource_leak"
+tags: ["bug", "concept", "vulnerability"]
+generated:
+  by: "analyzeG3/scripts/makeKnowledgeGraph"
+  at: "2026-08-30T10:00:00+00:00"
+---
+
+# Resource Leak
+
+A resource leak occurs when a resource, such as a file handle, database connection, network socket, or stream, is opened but never properly closed. The resource remains allocated until the process ends or the PHP request finishes, consuming memory and system file descriptors unnecessarily.
+
+Resource leaks are common with ``fopen()``, ``fsockopen()``, database connections opened via ``mysqli_connect()`` or PDO, and cURL handles. If the code returns early, throws an exception, or follows an unexpected path before reaching the ``fclose()`` / ``mysqli_close()`` / ``curl_close()`` call, the resource is leaked. 
+
+In a regular code execution, function returns trigger variable cleaning, which, in turn, leads to the automatic closing of resources. So, the leak might happen when a resource is stored in a property, with a longer life-span, even though it might not be used. ``WeakMap`` is a solution to store data where it might be removed when memory gets tight.
+
+PHP's request lifecycle mitigates leaks for short-lived web requests: resources are released at the end of the request. However, in long-running CLI scripts, daemons, or applications using ReactPHP or Swoole, leaked resources accumulate and can exhaust system limits.
+
+The recommended mitigation is to use ``try``/``finally`` blocks to guarantee cleanup, or to wrap resources in objects that close themselves in their destructor.
+
+```php
+<?php
+
+    // BAD: fclose() may never be reached if an exception is thrown
+    $fp = fopen('data.csv', 'r');
+    processLines($fp);   // may throw
+    fclose($fp);         // skipped on exception → resource leak
+
+    // GOOD: finally guarantees the handle is always closed
+    $fp = fopen('data.csv', 'r');
+    try {
+        processLines($fp);
+    } finally {
+        fclose($fp);
+    }
+
+?>
+```
+
+## Documentation
+- [https://en.wikipedia.org/wiki/Resource_leak](https://en.wikipedia.org/wiki/Resource_leak)
+
+## See Also
+- [PHP: fclose](https://www.php.net/manual/en/function.fclose.php)
+- [Exceptions](https://www.php.net/manual/en/language.exceptions.php)
+
+## Related
+- [resource](/features/resource.md)
+- [Exception](/features/exception.md)
+- [Try-catch](/features/try-catch.md)
+- [Finally](/features/finally.md)
+- [fopen()](/features/fopen.md)
+- [PHP Data Objects (PDO)](/features/pdo.md)
+- [Weakmap](/features/weakmap.md)
+- [Memory Leak](/features/memory-leak.md)
+- [Leak](/features/leak.md)
+- [fclose()](/features/fclose.md)
+- [fread()](/features/fread.md)
+- [ftell()](/features/ftell.md)
+- [fwrite()](/features/fwrite.md)
+- [Linear Type](/features/linear-type.md)
+

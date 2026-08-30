@@ -633,6 +633,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 + [Value Object](index/value-object.html)
 + [Value Type](index/value-type.html)
 + [Value](index/value.html)
++ [Vanilla PHP](index/vanilla.html)
 + [Version](index/version.html)
 + [View In Presentation](index/view-presentation.html)
 + [View](index/view.html)
