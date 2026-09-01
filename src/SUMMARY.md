@@ -2,8 +2,6 @@
 [Introduction](introduction.md)
 [Thesaurus](thesaurus.md)
 
-# Reference
-+ [Index](index.md)
   + [$HTTP\_RAW\_POST\_DATA](index/$HTTP_RAW_POST_DATA.md)
   + [$\_FILES](index/$_FILES.md)
   + [$\_COOKIE](index/$_cookie.md)
