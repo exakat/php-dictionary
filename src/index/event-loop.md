@@ -2,12 +2,44 @@
 An event loop is a mechanism for handling asynchronous operations and event-driven programming. While PHP traditionally follows a synchronous execution model where each operation blocks the execution until it completes, the introduction of event loops enables non-blocking I/O operations and improves concurrency.
 
 PHP event loops are often implemented using extensions like ReactPHP or Amp.
-<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-loop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-loop.html","name":"Event Loop","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:01:22 +0000","dateModified":"Sun, 12 Jul 2026 20:01:22 +0000","description":"An event loop is a mechanism for handling asynchronous operations and event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-loop.html"]}],"keywords":["event-driven"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-driven.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/blocking-wait.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/c10k.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/amp.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/reactphp.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/edge-triggered.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fire-and-forget.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/non-blocking.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/one-shot.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/en.wikipedia.org\/wiki\/Event_loop"},{"@type":"CreativeWork","name":"ReactPHP","url":"https:\/\/reactphp.org\/"},{"@type":"CreativeWork","name":"AMPHP","url":"https:\/\/amphp.org\/"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.30","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"event-loop"}]}]}</script>
+<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-loop.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-loop.html","name":"Event Loop","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 01 Sep 2026 08:36:09 +0000","dateModified":"Tue, 01 Sep 2026 08:36:09 +0000","description":"An event loop is a mechanism for handling asynchronous operations and event-driven programming","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-loop.html"]}],"keywords":["event-driven"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/event-driven.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/blocking-wait.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/c10k.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/amp.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/reactphp.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/edge-triggered.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/fire-and-forget.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/non-blocking.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/one-shot.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/en.wikipedia.org\/wiki\/Event_loop"},{"@type":"CreativeWork","name":"ReactPHP","url":"https:\/\/reactphp.org\/"},{"@type":"CreativeWork","name":"AMPHP","url":"https:\/\/amphp.org\/"},{"@type":"CreativeWork","name":"Revolt","url":"hhttps:\/\/revolt.run\/"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.31","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"event-loop"}]}]}</script>
+```php
+<?php
+
+// Code from revolt's event loop
+// https://revolt.run/fundamentals
+require __DIR__ . '/vendor/autoload.php';
+
+use Revolt\EventLoop;
+
+$suspension = EventLoop::getSuspension();
+
+$repeatId = EventLoop::repeat(1, function (): void {
+    print '++ Executing callback created by EventLoop::repeat()' . PHP_EOL;
+});
+
+EventLoop::delay(5, function () use ($suspension, $repeatId): void {
+    print '++ Executing callback created by EventLoop::delay()' . PHP_EOL;
+
+    EventLoop::cancel($repeatId);
+    $suspension->resume(null);
+
+    print '++ Suspension::resume() is async!' . PHP_EOL;
+});
+
+print '++ Suspending to event loop...' . PHP_EOL;
+
+$suspension->suspend();
+
+print '++ Script end' . PHP_EOL;
+```
+
 **[Documentation](https://en.wikipedia.org/wiki/Event_loop)**
 ## See Also
 
 + [ReactPHP](https://reactphp.org/)
 + [AMPHP](https://amphp.org/)
++ [Revolt](hhttps://revolt.run/)
 
 ## Related
 
@@ -20,3 +52,7 @@ PHP event loops are often implemented using extensions like ReactPHP or Amp.
 + [Fire-and-forget](fire-and-forget.html)
 + [Non-blocking](non-blocking.html)
 + [One-shot](one-shot.html)
+
+## Related packages
+
++ [revolt/event-loop](https://packagist.org/packages/revolt/event-loop)
