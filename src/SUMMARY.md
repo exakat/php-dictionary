@@ -1306,7 +1306,6 @@
   + [PHPdoc](index/phpdoc.md)
   + [phpinfo()](index/phpinfo.md)
   + [PHPStan](index/phpstan.md)
-  + [PHPStreamServer](index/phpstreamserver.md)
   + [Phptoken](index/phptoken.md)
   + [PHPunit](index/phpunit.md)
   + [PHP Installer For Extensions (PIE)](index/pie.md)

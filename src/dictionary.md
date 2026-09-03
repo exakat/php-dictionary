@@ -1271,7 +1271,6 @@
   + [PHP Wrappers](index/php-wrapper.ini.html)
   + [PHP, Hypertext Preprocessor (PHP)](index/php.ini.html)
   + [PHPStan](index/phpstan.ini.html)
-  + [PHPStreamServer](index/phpstreamserver.ini.html)
   + [PHP_EOL](index/php_eol.ini.html)
   + [PHP_INT_MAX](index/php_int_max.ini.html)
   + [PHP_INT_MIN](index/php_int_min.ini.html)

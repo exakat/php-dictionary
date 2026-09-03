@@ -663,6 +663,7 @@ List of concept, which are applied to PHP, but not exclusive to it.
 
 ## Control flow
 List of command to control the flow of a program.
++ [Control Structures](index/control-structure.html)
 + [Do While](index/do-while.html)
 + [For](index/for.html)
 + [Goto](index/goto.html)
@@ -1154,22 +1155,7 @@ List of concepts that cover several fields, and usually require extra details to
 
 ## Unsupported
 List of features supported in other languages, but not natively by PHP
-+ [Async](index/async.html)
-+ [Compile-time Evaluation](index/compile-time-evaluation.html)
-+ [Computed Property](index/computed-property.html)
-+ [Currying](index/currying.html)
-+ [Green Thread](index/green-thread.html)
-+ [Hoisting](index/hoisting.html)
-+ [Hygienic Macro](index/hygienic-macro.html)
-+ [Macro](index/macro.html)
-+ [Meta-object Protocol (MOP)](index/meta-object-protocol.html)
-+ [Metaclass](index/metaclass.html)
-+ [Mixin](index/mixin.html)
-+ [Open Class](index/open-class.html)
-+ [Pointer](index/pointer.html)
-+ [Sealed Class](index/sealed-class.html)
-+ [Smart Cast](index/smart-cast.html)
-+ [Template Metaprogramming (TMP)](index/template-metaprogramming.html)
++ 
 
 ## Adjective
 List of adjective that are used with several distinct noun, and carry similar concept in different aspects of software science.
@@ -1187,6 +1173,7 @@ List of adjective that are used with several distinct noun, and carry similar co
 + [Greenfield](index/green-field.html)
 + [Inconsistent](index/inconsistent.html)
 + [Infinite](index/infinite.html)
++ [Interpreted](index/interpreted.html)
 + [Opinionated](index/opinionated.html)
 + [Shared](index/shared.html)
 + [Synchronous](index/synchronous.html)

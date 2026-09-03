@@ -1315,7 +1315,6 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/phpdoc.ini.html" = "/en/latest/index/phpdoc.html"
 "/dictionary/phpinfo.ini.html" = "/en/latest/index/phpinfo.html"
 "/dictionary/phpstan.ini.html" = "/en/latest/index/phpstan.html"
-"/dictionary/phpstreamserver.ini.html" = "/en/latest/index/phpstreamserver.html"
 "/dictionary/phptoken.ini.html" = "/en/latest/index/phptoken.html"
 "/dictionary/phpunit.ini.html" = "/en/latest/index/phpunit.html"
 "/dictionary/pie.ini.html" = "/en/latest/index/pie.html"
@@ -1951,6 +1950,26 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
