@@ -50,12 +50,13 @@ List of acronyms, used in this dictionary.
 + [FastCGI](index/fastcgi.html)
 + [File Transfer Protocol (FTP)](index/ftp.html)
 + [File Transfer Protocol Secure (FTPS)](index/ftps.html)
++ [Finite State Machine (FSM)](index/finite-state-machine.html)
 + [First In, First Out (FIFO)](index/fifo.html)
 + [Foreign Function Interface (FFI)](index/ffi.html)
 + [Foreign Key](index/foreign-key.html)
 + [Framework Interoperability Group (FIG)](index/php-fig.html)
 + [Function-as-a-Service (FaaS)](index/faas.html)
-+ [Functional Programming](index/functional-programming.html)
++ [Functional Programming (FP)](index/functional-programming.html)
 + [GIF](index/gif.html)
 + [GNU Multiple Precision (GMP)](index/gmp.html)
 + [Generalized Algebraic Data Type (GADT)](index/gadt.html)
@@ -1014,6 +1015,7 @@ List of things that seems unrelated to PHP, but, suprisingly, are.
 + [Scope Resolution Operator ::](index/scope-resolution-operator.html)
 + [Separator](index/separator.html)
 + [Tree](index/tree.html)
++ [Userland](index/userland.html)
 
 ## Static analysis
 List of concepts related to static code analysis.
