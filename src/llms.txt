@@ -214,6 +214,7 @@
 [Black Box Testing](https://php-dictionary.readthedocs.io/en/latest/index/blackbox.html): Black box testing is a testing approach where the tester examines the behavior of a system without any knowledge of its internal code, structure, or implementation.
 [Blackfire](https://php-dictionary.readthedocs.io/en/latest/index/blackfire.html): ``Blackfire`` is a PHP profiler and performance testing platform.
 [Blade](https://php-dictionary.readthedocs.io/en/latest/index/blade.html): Blade is the templating engine bundled with the Laravel framework.
+[Blast Radius](https://php-dictionary.readthedocs.io/en/latest/index/blast-radius.html): Blast radius, borrowed from the vocabulary of explosives, is the extent of the damage caused when something goes wrong:
 [Blind Variable](https://php-dictionary.readthedocs.io/en/latest/index/blind-key.html): A blind variable is a variable that is needed in an expression, but doesn't carry much semantic value.
 [Block](https://php-dictionary.readthedocs.io/en/latest/index/block.html): Blocks are zero, one or more instructions, grouped together with or without curly brackets.
 [Blocking Wait](https://php-dictionary.readthedocs.io/en/latest/index/blocking-wait.html): A blocking wait, or blocking call, also called a synchronous wait, is an operation that suspends the execution of the current process or thread until the operation completes.
@@ -229,6 +230,7 @@
 [Bracketless](https://php-dictionary.readthedocs.io/en/latest/index/bracketless.html): Bracketless refers to situations where a block of code has optional enclosing curly brackets ``{}``.
 [Branch](https://php-dictionary.readthedocs.io/en/latest/index/branch.html): A branch is one of the two alternative in a if then expression.
 [Breach](https://php-dictionary.readthedocs.io/en/latest/index/breach.html): A breach is the actual usage of a vulnerability to gain unwanted access to resources on a server.
+[Breadth-First Search](https://php-dictionary.readthedocs.io/en/latest/index/breadth-first-search.html): Breadth-first search, or BFS, is an algorithm for traversing or searching a tree or graph that explores all neighbors of a node before moving on to the next level of neighbors.
 [Break](https://php-dictionary.readthedocs.io/en/latest/index/break.html): ``break`` is a control structure, which ends execution of the current ``for``, ``foreach``, ``while``, ``do-while`` or ``switch`` structure.
 [Broken Access Control](https://php-dictionary.readthedocs.io/en/latest/index/broken-access-control.html): Broken access control is a category of vulnerability where an application fails to properly enforce what an authenticated, or even anonymous, user is allowed to do.
 [Brownfield](https://php-dictionary.readthedocs.io/en/latest/index/brownfield.html): A brownfield project is a software development effort that takes place within or alongside an existing codebase, legacy system, or inherited infrastructure.
@@ -492,6 +494,7 @@
 [Deployment](https://php-dictionary.readthedocs.io/en/latest/index/deploy.html): Deployment, sometimes misspelled ``deploiment``, refers to the process of making a web application or website available for use on a server or hosting environment.
 [Deprecated](https://php-dictionary.readthedocs.io/en/latest/index/deprecated.html): Deprecated is a native PHP attribute.
 [Deprecation](https://php-dictionary.readthedocs.io/en/latest/index/deprecation.html): Deprecation, or making a feature obsolete, is the state of a feature which is still available, but not recommended anymore.
+[Depth-First Search](https://php-dictionary.readthedocs.io/en/latest/index/depth-first-search.html): Depth-first search, or DFS, is an algorithm for traversing or searching a tree or graph that follows one branch as far down as it can go before backtracking and trying the next unexplored branch.
 [Depth](https://php-dictionary.readthedocs.io/en/latest/index/depth.html): Depth is a measure of how many an operation has been repeatedly applies, over and over.
 [Deque](https://php-dictionary.readthedocs.io/en/latest/index/deque.html): A deque, short for double-ended queue, pronounced "deck", is a linear data structure that generalizes both a stack and a queue by allowing elements to be inserted and removed efficiently, in constant time, from either end:
 [Dereferencing](https://php-dictionary.readthedocs.io/en/latest/index/dereferencing.html): Dereferencing is the action to access a value, which is referenced with a pointer.
@@ -669,6 +672,7 @@
 [Fatal Error](https://php-dictionary.readthedocs.io/en/latest/index/fatal-error.html): Fatal error is a type of PHP error, which ends the execution of the application.
 [Fault Isolation](https://php-dictionary.readthedocs.io/en/latest/index/fault-isolation.html): Fault isolation, also called failure isolation, is the design property that limits the impact, or blast radius, of a failure to the component or service where it originates, preventing it from cascading to other parts of the system.
 [fclose()](https://php-dictionary.readthedocs.io/en/latest/index/fclose.html): ``fclose()`` is a PHP native function that closes an open file pointer, previously created with ``fopen()``, ``fsockopen()``, or similar functions.
+[Feature Detection](https://php-dictionary.readthedocs.io/en/latest/index/feature-detection.html): Feature detection is the practice of testing, at runtime, whether a specific capability is actually available before using it, instead of inferring availability indirectly from something like a version number or a ``User-Agent`` string.
 [Feature Flag](https://php-dictionary.readthedocs.io/en/latest/index/feature-flag.html): A feature flag, also known as a feature toggle or feature switch, is a software development technique used to enable or disable certain features or functionalities in an application or system.
 [Feature Testing](https://php-dictionary.readthedocs.io/en/latest/index/feature-testing.html): Feature testing validates that multiple components of a system work together correctly by simulating real user workflows, exercising the application through its public interface, via HTTP requests, console commands, or a browser, rather than calling internal classes directly.
 [Feature](https://php-dictionary.readthedocs.io/en/latest/index/feature.html): A software feature is a specific functionality or capability that is designed and implemented within a software application to provide a specific benefit or serve a particular purpose.
@@ -737,7 +741,7 @@
 [Graphic Draw (GD)](https://php-dictionary.readthedocs.io/en/latest/index/gd.html): ``GD`` is the name of a PHP extension that can manipulate several image formats, such as GIF, PNG, JPEG, WBMP, and XPM, and draw graphics.
 [Gearman](https://php-dictionary.readthedocs.io/en/latest/index/gearman.html): ``Gearman`` is a PECL extension that provides a client for the ``Gearman`` job server, a system for distributing work across machines or processes.
 [Generative Engine Optimization (GEO)](https://php-dictionary.readthedocs.io/en/latest/index/generative-engine-optimization.html): Generative Engine Optimization, or GEO, is the practice of shaping content so that it is more likely to be retrieved, cited, and favorably summarized by generative AI systems, such as ``ChatGPT``, ``Perplexity``, ``Google Gemini``, ``Claude``, ``Copilot``, etc, when they answer a user's question.
-[Generator](https://php-dictionary.readthedocs.io/en/latest/index/generator.html): Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface.
+[Generator](https://php-dictionary.readthedocs.io/en/latest/index/generator.html): ``generator`` has several distinct usages:
 [Generics](https://php-dictionary.readthedocs.io/en/latest/index/generics.html): Generics, sometimes called ``parametered polymorphism``, or more precisely parametric polymorphism, are a style of types, where the type of a property, parameter or return is specified at the declaration level.
 [GeoIP](https://php-dictionary.readthedocs.io/en/latest/index/geoip.html): GeoIP is the technique of resolving an IP address to an approximate geographic location, typically a country, region, or city, by looking it up in a database that maps IP address ranges to places, such as MaxMind's GeoLite2 and GeoIP2 databases.
 [Geolocation](https://php-dictionary.readthedocs.io/en/latest/index/geolocation.html): Geolocation is the process of determining the real-world physical location of a device, a user, or a piece of content.
@@ -1020,6 +1024,8 @@
 [Markdown](https://php-dictionary.readthedocs.io/en/latest/index/markdown.html): Markdown is a lightweight markup language that can be used to add formatting elements to plain text documents.
 [Marker Interface](https://php-dictionary.readthedocs.io/en/latest/index/marker-interface.html): A marker interface, also called a tagging interface, embodying the marker interface pattern, is an interface with no methods or constants.
 [Marketplace](https://php-dictionary.readthedocs.io/en/latest/index/marketplace.html): A marketplace usually means a platform where developers can buy, sell, or distribute PHP or framework related products or services.
+[Mass Assignment](https://php-dictionary.readthedocs.io/en/latest/index/mass-assignment.html): Mass assignment is the practice of setting several properties of an object at once from an associative array, instead of assigning each property individually.
+[Mass](https://php-dictionary.readthedocs.io/en/latest/index/mass.html): ``mass`` shows up in several distinct PHP and ORM concepts.
 [Match](https://php-dictionary.readthedocs.io/en/latest/index/match.html): The ``match`` expression is the remote cousin of the ``switch``.
 [Math](https://php-dictionary.readthedocs.io/en/latest/index/math.html): PHP offers many math features.
 [max_execution_time](https://php-dictionary.readthedocs.io/en/latest/index/max_execution_time.html): The ``max_execution_time`` directive sets the maximum amount of time that PHP will work on an application.
@@ -1089,7 +1095,7 @@
 [Multiplication](https://php-dictionary.readthedocs.io/en/latest/index/multiplication.html): Multiplication is the mathematical multiplication.
 [Multithreading](https://php-dictionary.readthedocs.io/en/latest/index/multithreading.html): Multithreading, sometimes loosely called multitasking or to multitask, refers to the ability of a PHP application to execute multiple threads, smaller units of a process, within the same process, allowing for concurrent execution of code.
 [Multiton](https://php-dictionary.readthedocs.io/en/latest/index/multiton.html): A multiton is a singleton which holds several instances of itself.
-[Mutable State](https://php-dictionary.readthedocs.io/en/latest/index/mutable-state.html): Mutable state refers to data that can be changed after it is created.
+[Mutability](https://php-dictionary.readthedocs.io/en/latest/index/mutable-state.html): Mutable state, or mutability, refers to data that can be changed after it is created.
 [Mutation Testing](https://php-dictionary.readthedocs.io/en/latest/index/mutation-test.html): Mutation testing is a way to enhance the quality of tests by checking how they react to a small perturbation of the code source.
 [Mutex](https://php-dictionary.readthedocs.io/en/latest/index/mutex.html): A mutex, a mutual exclusion, is a synchronization primitive that prevents multiple processes or threads from accessing a shared resource simultaneously.
 [Model - View - Controller (MVC)](https://php-dictionary.readthedocs.io/en/latest/index/mvc.html): MVC stands for Model - View - Controller.
@@ -1217,8 +1223,8 @@
 [Overriding](https://php-dictionary.readthedocs.io/en/latest/index/overriding.html): Overriding is an OOP concept where a child class provides its own implementation of a method that already exists in a parent class.
 [Overwrite](https://php-dictionary.readthedocs.io/en/latest/index/overwrite.html): Overwriting is the process to replace an existing structure, with another one, entirely different.
 [OWASP](https://php-dictionary.readthedocs.io/en/latest/index/owasp.html): OWASP stands for Open Web Application Security Project.
-[Peer-to-Peer (P2P)](https://php-dictionary.readthedocs.io/en/latest/index/p2p.html): Peer-to-peer, or P2P, is a network architecture where participants, called peers, communicate directly with one another instead of routing every exchange through a central server.
-[PaaS](https://php-dictionary.readthedocs.io/en/latest/index/paas.html): PaaS, or Platform as a Service, is a cloud-computing model in which a provider manages the underlying infrastructure, like hardware, operating system, and runtime, so that developers can focus on deploying and running applications without administering servers.
+[Peer-to-Peer (P2P)](https://php-dictionary.readthedocs.io/en/latest/index/p2p.html): Peer-to-peer, or ``P2P``, is a network architecture where participants, called peers, communicate directly with one another instead of routing every exchange through a central server.
+[PaaS](https://php-dictionary.readthedocs.io/en/latest/index/paas.html): ``PaaS``, or Platform as a Service, is a cloud-computing model in which a provider manages the underlying infrastructure, like hardware, operating system, and runtime, so that developers can focus on deploying and running applications without administering servers.
 [pack](https://php-dictionary.readthedocs.io/en/latest/index/pack.html): ``pack()`` is a native PHP function which converts given arguments into a binary string according to format.
 [Package Manager](https://php-dictionary.readthedocs.io/en/latest/index/package-manager.html): A package manager is a tool that automates the process of installing, upgrading, configuring, and removing software packages.
 [Package-Level](https://php-dictionary.readthedocs.io/en/latest/index/package-visibility.html): Package-level, or internal, visibility is an access modifier that sits between ``public`` and ``private``.
@@ -1838,6 +1844,7 @@ It applies to several concepts:
 [Use](https://php-dictionary.readthedocs.io/en/latest/index/use.html): The use operator has three distinct usages.
 [Used](https://php-dictionary.readthedocs.io/en/latest/index/used.html): Used is a state of a PHP structure.
 [Useless](https://php-dictionary.readthedocs.io/en/latest/index/useless.html): Some piece of code is useless when it doesn't bring any feature to the code.
+[User-Agent](https://php-dictionary.readthedocs.io/en/latest/index/user-agent.html): The ``User-Agent`` is an HTTP request header sent by a browser, bot, or any other HTTP client, describing what sent the request:
 [Userland](https://php-dictionary.readthedocs.io/en/latest/index/userland.html): A ``userland`` feature, or definition, is a piece of code defined with PHP code, by one of the PHP developers.
 [UTF-8](https://php-dictionary.readthedocs.io/en/latest/index/utf-8.html): UTF-8 is a character encoding standard.
 [UUencode Encoding](https://php-dictionary.readthedocs.io/en/latest/index/uuencode.html): Uuencode, short for ``Unix-to-Unix encoding``, is a binary-to-text encoding mechanism originally designed to transfer binary data over mediums that only support text, such as email or newsgroups.
@@ -1928,6 +1935,7 @@ It applies to several concepts:
 [You Are Not Going To Need It (YAGNI)](https://php-dictionary.readthedocs.io/en/latest/index/yagni.html): ``YAGNI`` advises developers to avoid adding functionality or code until it is explicitly required.
 [YAML Ain't Markup Language (YAML)](https://php-dictionary.readthedocs.io/en/latest/index/yaml.html): ``YAML``, which stands for ``YAML Ain't Markup Language``, is a human-readable data serialization format.
 [yield from Keyword](https://php-dictionary.readthedocs.io/en/latest/index/yield-from.html): The ``yield from`` keyword is used to delegate the iteration control of one generator to another.
+[Yield Generator](https://php-dictionary.readthedocs.io/en/latest/index/yield-generator.html): Generators are a way to implement simple iterators without the overhead or complexity of implementing a class that extends the Iterator interface.
 [Yield](https://php-dictionary.readthedocs.io/en/latest/index/yield.html): In its simplest form, a yield statement looks much like a return statement, except that instead of stopping execution of the function and returning, yield instead provides a value to the code looping over the generator and pauses execution of the generator function.
 [Yoda Condition](https://php-dictionary.readthedocs.io/en/latest/index/yoda.html): Yoda condition is a way to write a condition by using any literal value on the left, instead of the right.
 [zend.assertions](https://php-dictionary.readthedocs.io/en/latest/index/zend-assertions.html): ``zend.

@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.32"
+title = "The PHP dictionary - 1.1.33"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -227,6 +227,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/blackbox.ini.html" = "/en/latest/index/blackbox.html"
 "/dictionary/blackfire.ini.html" = "/en/latest/index/blackfire.html"
 "/dictionary/blade.ini.html" = "/en/latest/index/blade.html"
+"/dictionary/blast-radius.ini.html" = "/en/latest/index/blast-radius.html"
 "/dictionary/blind-key.ini.html" = "/en/latest/index/blind-key.html"
 "/dictionary/block.ini.html" = "/en/latest/index/block.html"
 "/dictionary/blocking-wait.ini.html" = "/en/latest/index/blocking-wait.html"
@@ -242,6 +243,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/bracketless.ini.html" = "/en/latest/index/bracketless.html"
 "/dictionary/branch.ini.html" = "/en/latest/index/branch.html"
 "/dictionary/breach.ini.html" = "/en/latest/index/breach.html"
+"/dictionary/breadth-first-search.ini.html" = "/en/latest/index/breadth-first-search.html"
 "/dictionary/break.ini.html" = "/en/latest/index/break.html"
 "/dictionary/broken-access-control.ini.html" = "/en/latest/index/broken-access-control.html"
 "/dictionary/brownfield.ini.html" = "/en/latest/index/brownfield.html"
@@ -505,6 +507,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/deploy.ini.html" = "/en/latest/index/deploy.html"
 "/dictionary/deprecated.ini.html" = "/en/latest/index/deprecated.html"
 "/dictionary/deprecation.ini.html" = "/en/latest/index/deprecation.html"
+"/dictionary/depth-first-search.ini.html" = "/en/latest/index/depth-first-search.html"
 "/dictionary/depth.ini.html" = "/en/latest/index/depth.html"
 "/dictionary/deque.ini.html" = "/en/latest/index/deque.html"
 "/dictionary/dereferencing.ini.html" = "/en/latest/index/dereferencing.html"
@@ -682,6 +685,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/fatal-error.ini.html" = "/en/latest/index/fatal-error.html"
 "/dictionary/fault-isolation.ini.html" = "/en/latest/index/fault-isolation.html"
 "/dictionary/fclose.ini.html" = "/en/latest/index/fclose.html"
+"/dictionary/feature-detection.ini.html" = "/en/latest/index/feature-detection.html"
 "/dictionary/feature-flag.ini.html" = "/en/latest/index/feature-flag.html"
 "/dictionary/feature-testing.ini.html" = "/en/latest/index/feature-testing.html"
 "/dictionary/feature.ini.html" = "/en/latest/index/feature.html"
@@ -1033,6 +1037,8 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/markdown.ini.html" = "/en/latest/index/markdown.html"
 "/dictionary/marker-interface.ini.html" = "/en/latest/index/marker-interface.html"
 "/dictionary/marketplace.ini.html" = "/en/latest/index/marketplace.html"
+"/dictionary/mass-assignment.ini.html" = "/en/latest/index/mass-assignment.html"
+"/dictionary/mass.ini.html" = "/en/latest/index/mass.html"
 "/dictionary/match.ini.html" = "/en/latest/index/match.html"
 "/dictionary/math.ini.html" = "/en/latest/index/math.html"
 "/dictionary/max_execution_time.ini.html" = "/en/latest/index/max_execution_time.html"
@@ -1847,6 +1853,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/use.ini.html" = "/en/latest/index/use.html"
 "/dictionary/used.ini.html" = "/en/latest/index/used.html"
 "/dictionary/useless.ini.html" = "/en/latest/index/useless.html"
+"/dictionary/user-agent.ini.html" = "/en/latest/index/user-agent.html"
 "/dictionary/userland.ini.html" = "/en/latest/index/userland.html"
 "/dictionary/utf-8.ini.html" = "/en/latest/index/utf-8.html"
 "/dictionary/uuencode.ini.html" = "/en/latest/index/uuencode.html"
@@ -1937,6 +1944,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/yagni.ini.html" = "/en/latest/index/yagni.html"
 "/dictionary/yaml.ini.html" = "/en/latest/index/yaml.html"
 "/dictionary/yield-from.ini.html" = "/en/latest/index/yield-from.html"
+"/dictionary/yield-generator.ini.html" = "/en/latest/index/yield-generator.html"
 "/dictionary/yield.ini.html" = "/en/latest/index/yield.html"
 "/dictionary/yoda.ini.html" = "/en/latest/index/yoda.html"
 "/dictionary/zend-assertions.ini.html" = "/en/latest/index/zend-assertions.html"
@@ -1950,6 +1958,18 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
