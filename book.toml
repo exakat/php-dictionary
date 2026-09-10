@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.33"
+title = "The PHP dictionary - 1.1.34"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -875,7 +875,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/in_array.ini.html" = "/en/latest/index/in_array.html"
 "/dictionary/include.ini.html" = "/en/latest/index/include.html"
 "/dictionary/include_path.ini.html" = "/en/latest/index/include_path.html"
-"/dictionary/inclusion.ini.html" = "/en/latest/index/inclusion.html"
+"/dictionary/inclusion-hell.ini.html" = "/en/latest/index/inclusion-hell.html"
 "/dictionary/incoming-data.ini.html" = "/en/latest/index/incoming-data.html"
 "/dictionary/inconsistent.ini.html" = "/en/latest/index/inconsistent.html"
 "/dictionary/increment.ini.html" = "/en/latest/index/increment.html"
@@ -1155,6 +1155,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/non-static.ini.html" = "/en/latest/index/non-static.html"
 "/dictionary/nonce.ini.html" = "/en/latest/index/nonce.html"
 "/dictionary/noop.ini.html" = "/en/latest/index/noop.html"
+"/dictionary/normalisation.ini.html" = "/en/latest/index/normalisation.html"
 "/dictionary/noscream.ini.html" = "/en/latest/index/noscream.html"
 "/dictionary/nosql-database.ini.html" = "/en/latest/index/nosql-database.html"
 "/dictionary/not.ini.html" = "/en/latest/index/not.html"
@@ -1384,6 +1385,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/protected.ini.html" = "/en/latest/index/protected.html"
 "/dictionary/protobuf.ini.html" = "/en/latest/index/protobuf.html"
 "/dictionary/protocol.ini.html" = "/en/latest/index/protocol.html"
+"/dictionary/prototype.ini.html" = "/en/latest/index/prototype.html"
 "/dictionary/proxy-class.ini.html" = "/en/latest/index/proxy-class.html"
 "/dictionary/proxy.ini.html" = "/en/latest/index/proxy.html"
 "/dictionary/psalm.ini.html" = "/en/latest/index/psalm.html"
@@ -1958,6 +1960,14 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
 
 
 

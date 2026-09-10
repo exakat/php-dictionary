@@ -1,5 +1,5 @@
 # Ports And Adapters
-Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by Alistair Cockburn. It separates the application core from its external dependencies by defining two types of boundary:
+Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by ``Alistair Cockburn``. It separates the application core from its external dependencies by defining two types of boundary:
 
 A port is an interface declared by the application core. It expresses what the application needs or what it accepts without knowing anything about the outside world.
 
@@ -8,34 +8,34 @@ An adapter is an implementation of a port that bridges the application core to a
 Input ports represent entry points into the application: ``HTTP`` controllers, ``CLI`` commands, queue consumers. Output ports represent dependencies the application calls: databases, email senders, external APIs.
 
 This pattern is expressed through interfaces and dependency injection: the core declares an interface which acts as the port, and a framework or infrastructure class implements it, which acts as the adapter. The DI container wires them together.
-<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ports-and-adapters.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ports-and-adapters.html","name":"Ports And Adapters","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jul 2026 05:29:35 +0000","dateModified":"Tue, 14 Jul 2026 05:29:35 +0000","description":"Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by Alistair Cockburn","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ports-and-adapters.html"]}],"keywords":["concept"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hexagonal.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/adapter.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dependency-injection.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/interface.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/clean-architecture.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ddd.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/alistair.cockburn.us\/hexagonal-architecture\/"},{"@type":"CreativeWork","name":"From Chaos to Clean: Implementing Hexagonal Architecture in PHP","url":"https:\/\/dev.to\/helmarjunior\/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.33","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"ports-and-adapters"}]}]}</script>
+<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ports-and-adapters.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ports-and-adapters.html","name":"Ports And Adapters","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 10 Sep 2026 09:21:17 +0000","dateModified":"Thu, 10 Sep 2026 09:21:17 +0000","description":"Ports and Adapters is the formal name for the pattern underlying hexagonal architecture, coined by Alistair Cockburn","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ports-and-adapters.html"]}],"keywords":["concept"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/hexagonal.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/adapter.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dependency-injection.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/interface.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/clean-architecture.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/layered-architecture.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/ddd.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/alistair.cockburn.us\/hexagonal-architecture\/"},{"@type":"CreativeWork","name":"From Chaos to Clean: Implementing Hexagonal Architecture in PHP","url":"https:\/\/dev.to\/helmarjunior\/from-chaos-to-clean-implementing-hexagonal-architecture-in-php-2n01"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.34","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"ports-and-adapters"}]}]}</script>
 ```php
 <?php
 
-// Output port — declared in the domain layer
-interface OrderRepository {
-    public function findById(int $id): ?Order;
-    public function save(Order $order): void;
-}
-
-// Adapter — lives in the infrastructure layer
-class PdoOrderRepository implements OrderRepository {
-    public function findById(int $id): ?Order { /* SQL */ }
-    public function save(Order $order): void   { /* SQL */ }
-}
-
-// Test adapter — in-memory, no database needed
-class InMemoryOrderRepository implements OrderRepository {
-    private array $store = [];
-    public function findById(int $id): ?Order  { return $this->store[$id] ?? null; }
-    public function save(Order $order): void    { $this->store[$order->id] = $order; }
-}
-
-// Input port — application service driven by an HTTP adapter (controller)
-class PlaceOrderUseCase {
-    public function __construct(private OrderRepository $orders) {}
-    public function execute(PlaceOrderCommand $cmd): Order { /* domain logic */ }
-}
+    // Output port — declared in the domain layer
+    interface OrderRepository {
+        public function findById(int $id): ?Order;
+        public function save(Order $order): void;
+    }
+    
+    // Adapter — lives in the infrastructure layer
+    class PdoOrderRepository implements OrderRepository {
+        public function findById(int $id): ?Order { /* SQL */ }
+        public function save(Order $order): void   { /* SQL */ }
+    }
+    
+    // Test adapter — in-memory, no database needed
+    class InMemoryOrderRepository implements OrderRepository {
+        private array $store = [];
+        public function findById(int $id): ?Order  { return $this->store[$id] ?? null; }
+        public function save(Order $order): void    { $this->store[$order->id] = $order; }
+    }
+    
+    // Input port — application service driven by an HTTP adapter (controller)
+    class PlaceOrderUseCase {
+        public function __construct(private OrderRepository $orders) {}
+        public function execute(PlaceOrderCommand $cmd): Order { /* domain logic */ }
+    }
 
 ?>
 ```
