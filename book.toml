@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.34"
+title = "The PHP dictionary - 1.1.35"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -164,7 +164,6 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/assertionerror.ini.html" = "/en/latest/index/assertionerror.html"
 "/dictionary/asset.ini.html" = "/en/latest/index/asset.html"
 "/dictionary/assignation.ini.html" = "/en/latest/index/assignation.html"
-"/dictionary/assignment.ini.html" = "/en/latest/index/assignment.html"
 "/dictionary/associative-array.ini.html" = "/en/latest/index/associative-array.html"
 "/dictionary/assumption.ini.html" = "/en/latest/index/assumption.html"
 "/dictionary/ast.ini.html" = "/en/latest/index/ast.html"
@@ -1960,6 +1959,17 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
 
 
 

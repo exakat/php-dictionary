@@ -150,8 +150,7 @@
 [Assertions](https://php-dictionary.readthedocs.io/en/latest/index/assertion.html): Assertions are checks that take effect in development and testing environments, but are optimised away to have zero cost in production.
 [AssertionError](https://php-dictionary.readthedocs.io/en/latest/index/assertionerror.html): ``AssertionError`` is thrown when an assertion made with ``assert()`` fails.
 [Asset](https://php-dictionary.readthedocs.io/en/latest/index/asset.html): Web assets, or also assets, is an encompassing term, that designates all essential elements necessary for the successful execution of a web-based project.
-[Assignations](https://php-dictionary.readthedocs.io/en/latest/index/assignation.html): Assignation, sometimes misspelled ``assignement``, refers to the process of assigning a value to a variable.
-[Assignment](https://php-dictionary.readthedocs.io/en/latest/index/assignment.html): Assignment, called ``affectation`` in French, is the fundamental operation of binding a value to a variable.
+[Assignation](https://php-dictionary.readthedocs.io/en/latest/index/assignation.html): Assignation, sometimes misspelled ``assignement``, refers to the process of assigning a value to a variable.
 [Associative Array](https://php-dictionary.readthedocs.io/en/latest/index/associative-array.html): An associative array, also called a hash array, is an array whose keys are strings; there may also be integer index, mixed with the string ones.
 [Assumption](https://php-dictionary.readthedocs.io/en/latest/index/assumption.html): An assumption is a piece of code that makes use of knowledge that is not visible in the source.
 [Abstract Syntactic Tree (AST)](https://php-dictionary.readthedocs.io/en/latest/index/ast.html): An abstract syntax tree, also called an AST, is a tree representation of the abstract syntactic structure of PHP source code.
@@ -874,7 +873,7 @@
 [Indirect Reference Map](https://php-dictionary.readthedocs.io/en/latest/index/indirect-reference-map.html): An indirect reference map, or indirect object reference, is a technique that replaces a direct, guessable reference to an internal object, such as a sequential database id, with an unpredictable substitute, such as a UUID or a random per-session token.
 [Inequality](https://php-dictionary.readthedocs.io/en/latest/index/inequality.html): Inequalities are the mathematical comparison of values, with the ``>``,  ``>=``,  ``<`` and ``<=`` operators.
 [INF](https://php-dictionary.readthedocs.io/en/latest/index/inf.html): Infinite is a PHP constant, called ``INF``.
-[Infinite Loop](https://php-dictionary.readthedocs.io/en/latest/index/infinite-loop.html): An infinite loop never ends, unless there is an external event.
+[Infinite Loop](https://php-dictionary.readthedocs.io/en/latest/index/infinite-loop.html): An infinite loop never ends, unless an external event make it break out of itself.
 [Infinite](https://php-dictionary.readthedocs.io/en/latest/index/infinite.html): Infinite means that an operation is repeated and will never stop being repeated.
 [InfiniteIterator](https://php-dictionary.readthedocs.io/en/latest/index/infiniteiterator.html):  The InfiniteIterator allows one to infinitely iterate over an iterator without having to manually rewind the iterator upon reaching its end.
 [Inflector](https://php-dictionary.readthedocs.io/en/latest/index/inflector.html): An inflector processes strings to adapt them for various situations, such as singular/plural, or for uppercase/lowercase.
@@ -1570,7 +1569,7 @@
 [Ship](https://php-dictionary.readthedocs.io/en/latest/index/ship.html): Shipping, or to ship, refers to the publication of one or more features or services, to the public.
 [Shared Memory Operations (SHMOP)](https://php-dictionary.readthedocs.io/en/latest/index/shmop.html): ``shmop`` is a PHP extension that gives direct, low-level access to Unix shared memory segments.
 [Short Assignations](https://php-dictionary.readthedocs.io/en/latest/index/short-assignation.html): In addition to the basic assignment operator, there are combined operators for all of the binary arithmetic, array union and string operators that allow to use a value in an expression and then set its value to the result of that expression.
-[Short Syntax](https://php-dictionary.readthedocs.io/en/latest/index/short-syntax.html): A short syntax is the fusion of an operator with the ``=`` operator.
+[Short Syntax](https://php-dictionary.readthedocs.io/en/latest/index/short-syntax.html): A short syntax is the fusion of a binary operator with the ``=`` operator.
 [Short Tags](https://php-dictionary.readthedocs.io/en/latest/index/short-tag.html): PHP uses special tags to identify code that has to be executed.
 [Short Ternary Operator](https://php-dictionary.readthedocs.io/en/latest/index/short-ternary.html): The expression ``(expr1) ?:
 [short_open_tag](https://php-dictionary.readthedocs.io/en/latest/index/short_open_tag.html): ``short_open_tag`` is a php.
@@ -1596,13 +1595,13 @@
 [Simple Mail Transfer Protocol (SMTP)](https://php-dictionary.readthedocs.io/en/latest/index/smtp.html): Simple Mail Transfer Protocol, aka SMTP, is the standard protocol used for sending emails across the internet.
 [Snake Case](https://php-dictionary.readthedocs.io/en/latest/index/snake-case.html): Snake case, also written ``snake_case`` is a way of writing names without spaces, where:
 [Snapshot](https://php-dictionary.readthedocs.io/en/latest/index/snapshot.html): A snapshot captures the complete state of an object or aggregate at a specific point in time.
-[Simple Network Management Protocol (SNMP)](https://php-dictionary.readthedocs.io/en/latest/index/snmp.html): SNMP stands for 'Simple Network Management Protocol'.
-[SNMP3](https://php-dictionary.readthedocs.io/en/latest/index/snmp3.html): ``SNMP3`` The SNMP extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
+[Simple Network Management Protocol (SNMP)](https://php-dictionary.readthedocs.io/en/latest/index/snmp.html): ``SNMP`` stands for 'Simple Network Management Protocol'.
+[SNMP3](https://php-dictionary.readthedocs.io/en/latest/index/snmp3.html): ``SNMP3``, the ``SNMP`` extension, provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
 [Service-Oriented Architecture (SOA)](https://php-dictionary.readthedocs.io/en/latest/index/soa.html): Service-Oriented Architecture, or ``SOA``, is an architectural style where software is composed of discrete, reusable services that communicate over a network through well-defined interfaces.
 [Simple Object Access Protocol (SOAP)](https://php-dictionary.readthedocs.io/en/latest/index/soap.html): ``SOAP`` is the acronym for Simple Object Access Protocol.
 [Socket](https://php-dictionary.readthedocs.io/en/latest/index/socket.html): A socket refers to a communication endpoint that allows two processes to exchange data over a network.
 [Soft Delete](https://php-dictionary.readthedocs.io/en/latest/index/soft-delete.html): A soft delete marks a row as deleted, usually by setting a ``deleted_at`` timestamp or a boolean flag, instead of removing it from the table with a ``DELETE`` statement.
-[Software Transactional Memory (STM)](https://php-dictionary.readthedocs.io/en/latest/index/software-transactional-memory.html): Software Transactional Memory, or STM, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
+[Software Transactional Memory (STM)](https://php-dictionary.readthedocs.io/en/latest/index/software-transactional-memory.html): Software Transactional Memory, or ``STM``, introduced by ``Shavit`` and ``Touitou`` in 1995, is a concurrency control mechanism that borrows the transactional semantics from databases and applies them to in-memory operations.
 [SOLID](https://php-dictionary.readthedocs.io/en/latest/index/solid.html): SOLID is an acronym for a set of OOP design principle.
 [Sort](https://php-dictionary.readthedocs.io/en/latest/index/sort.html): Sorting is the action to put a list of object into a specific order.
 [State of the Art (SOTA)](https://php-dictionary.readthedocs.io/en/latest/index/sota.html): State of the Art, abbreviated SOTA, refers to the highest level of development achieved in a field at a given point in time.
@@ -1646,7 +1645,7 @@
 [Stack](https://php-dictionary.readthedocs.io/en/latest/index/stack.html): A stack may have several meanings:
 [Stale-While-Revalidate](https://php-dictionary.readthedocs.io/en/latest/index/stale-while-revalidate.html): Stale-while-revalidate is a caching strategy where, once a cached value has expired, the cache immediately serves that stale value to the caller while triggering a background refresh, rather than making the caller wait for a fresh value or fail outright when the origin is slow or unavailable.
 [Standalone Types](https://php-dictionary.readthedocs.io/en/latest/index/standalone-type.html): Types are standalone, as they can be use alone, in a type declaration.
-[Standard](https://php-dictionary.readthedocs.io/en/latest/index/standard.html): A standard, in the context of programming languages and software development, refers to a de facto set of rules, specifications, or guidelines that ensure consistency, interoperability, and quality.
+[Standard](https://php-dictionary.readthedocs.io/en/latest/index/standard.html): A standard, in the context of programming languages and software development, refers to a set of rules, specifications, or guidelines that ensure consistency, interoperability, and quality.
 [Star *](https://php-dictionary.readthedocs.io/en/latest/index/star.html): ``*`` is a character, used in various situations:
 [State](https://php-dictionary.readthedocs.io/en/latest/index/state.html): In object-oriented PHP, the state of an object refers to the values of its properties at a given time.
 [Stateful](https://php-dictionary.readthedocs.io/en/latest/index/stateful.html): Stateful refers to the retaining and managing the state or information about a user or a process across multiple requests.

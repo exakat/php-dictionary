@@ -4,46 +4,46 @@ A constant is dynamic when its name is in a variable, or another container, and 
 Reaching a constant's value is done by using the ``constant()`` function, or the dynamic constant fetch with classes. 
 
 Sometimes, dynamic constants are also called variable constants.
-<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic-constant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic-constant.html","name":"Dynamic Constant","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 08 Aug 2026 08:10:54 +0000","dateModified":"Sat, 08 Aug 2026 08:10:54 +0000","description":"A constant is dynamic when its name is in a variable, or another container, and is accessed at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic-constant.html"]}],"keywords":["feature","dynamic"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/constant.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/constant-function.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/class-constant-syntax.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/class-constant.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/www.php.net\/manual\/en\/function.constant.php"},{"@type":"CreativeWork","name":"All the Dynamic Syntax in PHP","url":"https:\/\/www.exakat.io\/all-the-dynamic-syntaxes-in-php\/"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.34","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"dynamic-constant"}]}]}</script>
+<script type="application/ld+json">{"@context":["https:\/\/schema.org",{"skos":"http:\/\/www.w3.org\/2004\/02\/skos\/core#"}],"@graph":[{"@type":"DefinedTerm","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic-constant.html","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic-constant.html","name":"Dynamic Constant","inDefinedTermSet":{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary"},"isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 11 Sep 2026 09:05:27 +0000","dateModified":"Fri, 11 Sep 2026 09:05:27 +0000","description":"A constant is dynamic when its name is in a variable, or another container, and is accessed at execution time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic-constant.html"]}],"keywords":["feature","dynamic"],"skos:related":[{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/constant.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/constant-function.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/class-constant-syntax.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/class-constant.html"},{"@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/dynamic.html"}],"citation":[{"@type":"CreativeWork","name":"Documentation","url":"https:\/\/www.php.net\/manual\/en\/function.constant.php"},{"@type":"CreativeWork","name":"All the Dynamic Syntax in PHP","url":"https:\/\/www.exakat.io\/all-the-dynamic-syntaxes-in-php\/"}]},{"@type":"DefinedTermSet","@id":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html#dictionary","name":"The PHP Dictionary","alternateName":"PHP Dictionary","description":"A dictionary of PHP terms, keywords, functions, concepts and jargon.","url":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html","inLanguage":"en","version":"1.1.35","creator":{"@type":"Organization","name":"Exakat","url":"https:\/\/www.exakat.io\/"}},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The PHP Dictionary","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index.html"},{"@type":"ListItem","position":2,"name":"Index","item":"https:\/\/php-dictionary.readthedocs.io\/en\/latest\/index\/index.html"},{"@type":"ListItem","position":3,"name":"dynamic-constant"}]}]}</script>
 ```php
 <?php
 
-const A = 1;
-// simple case
-$a = 'A';
-echo constant($a); // displays 1
-
-// with leading backslash
-$b = '\A';
-echo constant($b); // displays 1
-
-// definition has no leading backslash
-define('B\C', d);
-// reading has no leading backslash, or not
-$c = '\b\C';
-echo constant($c); // displays d
-$c = 'b\C';
-echo constant($c); // displays d
-
-// constant() works also on class constants.
-class D {
-    const E = 'f';
-}
-echo constant('d::E'); // displays f
-
-// dynamic constant access on classes or enumeration
-$k = 'E';
-echo D::{$k}; // f
-
-// constant works also on enumeration cases
-enum I: string {
-    case G = 'h';
-}
-echo constant('I::G')->value; // displays h
-
-// dynamic constant access on classes or enumeration
-$g = 'G';
-echo I::{$g}->value; // h
+    const A = 1;
+    // simple case
+    $a = 'A';
+    echo constant($a); // displays 1
+    
+    // with leading backslash
+    $b = '\A';
+    echo constant($b); // displays 1
+    
+    // definition has no leading backslash
+    define('B\C', d);
+    // reading has no leading backslash, or not
+    $c = '\b\C';
+    echo constant($c); // displays d
+    $c = 'b\C';
+    echo constant($c); // displays d
+    
+    // constant() works also on class constants.
+    class D {
+        const E = 'f';
+    }
+    echo constant('d::E'); // displays f
+    
+    // dynamic constant access on classes or enumeration
+    $k = 'E';
+    echo D::{$k}; // f
+    
+    // constant works also on enumeration cases
+    enum I: string {
+        case G = 'h';
+    }
+    echo constant('I::G')->value; // displays h
+    
+    // dynamic constant access on classes or enumeration
+    $g = 'G';
+    echo I::{$g}->value; // h
 
 ?>
 ```
