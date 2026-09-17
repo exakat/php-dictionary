@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.35"
+title = "The PHP dictionary - 1.1.36"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -224,7 +224,6 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/bitshift-operator.ini.html" = "/en/latest/index/bitshift-operator.html"
 "/dictionary/bitwise-operator.ini.html" = "/en/latest/index/bitwise-operator.html"
 "/dictionary/blackbox.ini.html" = "/en/latest/index/blackbox.html"
-"/dictionary/blackfire.ini.html" = "/en/latest/index/blackfire.html"
 "/dictionary/blade.ini.html" = "/en/latest/index/blade.html"
 "/dictionary/blast-radius.ini.html" = "/en/latest/index/blast-radius.html"
 "/dictionary/blind-key.ini.html" = "/en/latest/index/blind-key.html"
@@ -260,6 +259,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/c10k.ini.html" = "/en/latest/index/c10k.html"
 "/dictionary/c2-framework.ini.html" = "/en/latest/index/c2-framework.html"
 "/dictionary/cache-stampede.ini.html" = "/en/latest/index/cache-stampede.html"
+"/dictionary/cache-warming.ini.html" = "/en/latest/index/cache-warming.html"
 "/dictionary/cache.ini.html" = "/en/latest/index/cache.html"
 "/dictionary/calendar.ini.html" = "/en/latest/index/calendar.html"
 "/dictionary/calisthenics.ini.html" = "/en/latest/index/calisthenics.html"
@@ -344,6 +344,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/coercion.ini.html" = "/en/latest/index/coercion.html"
 "/dictionary/cognitive-complexity.ini.html" = "/en/latest/index/cognitive-complexity.html"
 "/dictionary/cohesion.ini.html" = "/en/latest/index/cohesion.html"
+"/dictionary/cold-cache.ini.html" = "/en/latest/index/cold-cache.html"
 "/dictionary/cold-start.ini.html" = "/en/latest/index/cold-start.html"
 "/dictionary/collation.ini.html" = "/en/latest/index/collation.html"
 "/dictionary/collection.ini.html" = "/en/latest/index/collection.html"
@@ -403,7 +404,6 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/container.ini.html" = "/en/latest/index/container.html"
 "/dictionary/continuation.ini.html" = "/en/latest/index/continuation.html"
 "/dictionary/continue.ini.html" = "/en/latest/index/continue.html"
-"/dictionary/continuous-integration.ini.html" = "/en/latest/index/continuous-integration.html"
 "/dictionary/contract.ini.html" = "/en/latest/index/contract.html"
 "/dictionary/contribution.ini.html" = "/en/latest/index/contribution.html"
 "/dictionary/control-flow-analysis.ini.html" = "/en/latest/index/control-flow-analysis.html"
@@ -709,6 +709,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/fingerprint.ini.html" = "/en/latest/index/fingerprint.html"
 "/dictionary/finite-state-machine.ini.html" = "/en/latest/index/finite-state-machine.html"
 "/dictionary/fire-and-forget.ini.html" = "/en/latest/index/fire-and-forget.html"
+"/dictionary/firewall.ini.html" = "/en/latest/index/firewall.html"
 "/dictionary/first-class-callable.ini.html" = "/en/latest/index/first-class-callable.html"
 "/dictionary/first-class-module.ini.html" = "/en/latest/index/first-class-module.html"
 "/dictionary/fixture.ini.html" = "/en/latest/index/fixture.html"
@@ -765,6 +766,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/getter.ini.html" = "/en/latest/index/getter.html"
 "/dictionary/gettext.ini.html" = "/en/latest/index/gettext.html"
 "/dictionary/gettype.ini.html" = "/en/latest/index/gettype.html"
+"/dictionary/ghost-object.ini.html" = "/en/latest/index/ghost-object.html"
 "/dictionary/gif.ini.html" = "/en/latest/index/gif.html"
 "/dictionary/git-hook.ini.html" = "/en/latest/index/git-hook.html"
 "/dictionary/git.ini.html" = "/en/latest/index/git.html"
@@ -820,6 +822,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/hook.ini.html" = "/en/latest/index/hook.html"
 "/dictionary/horizontal-scaling.ini.html" = "/en/latest/index/horizontal-scaling.html"
 "/dictionary/hosting.ini.html" = "/en/latest/index/hosting.html"
+"/dictionary/hot-cache.ini.html" = "/en/latest/index/hot-cache.html"
 "/dictionary/hrtime.ini.html" = "/en/latest/index/hrtime.html"
 "/dictionary/htaccess.ini.html" = "/en/latest/index/htaccess.html"
 "/dictionary/html-entities.ini.html" = "/en/latest/index/html-entities.html"
@@ -856,6 +859,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/idor.ini.html" = "/en/latest/index/idor.html"
 "/dictionary/if-then.ini.html" = "/en/latest/index/if-then.html"
 "/dictionary/iffectation.ini.html" = "/en/latest/index/iffectation.html"
+"/dictionary/ignored-catch.ini.html" = "/en/latest/index/ignored-catch.html"
 "/dictionary/image-injection.ini.html" = "/en/latest/index/image-injection.html"
 "/dictionary/image.ini.html" = "/en/latest/index/image.html"
 "/dictionary/imagick.ini.html" = "/en/latest/index/imagick.html"
@@ -1079,6 +1083,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/minification.ini.html" = "/en/latest/index/minification.html"
 "/dictionary/minus-one.ini.html" = "/en/latest/index/minus-one.html"
 "/dictionary/minus.ini.html" = "/en/latest/index/minus.html"
+"/dictionary/missing-subpattern.ini.html" = "/en/latest/index/missing-subpattern.html"
 "/dictionary/missing-validation.ini.html" = "/en/latest/index/missing-validation.html"
 "/dictionary/mixed.ini.html" = "/en/latest/index/mixed.html"
 "/dictionary/mixin.ini.html" = "/en/latest/index/mixin.html"
@@ -1093,6 +1098,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/monetary.ini.html" = "/en/latest/index/monetary.html"
 "/dictionary/mongodb.ini.html" = "/en/latest/index/mongodb.html"
 "/dictionary/monitoring.ini.html" = "/en/latest/index/monitoring.html"
+"/dictionary/monkey-patch.ini.html" = "/en/latest/index/monkey-patch.html"
 "/dictionary/monolith.ini.html" = "/en/latest/index/monolith.html"
 "/dictionary/monomorphization.ini.html" = "/en/latest/index/monomorphization.html"
 "/dictionary/monotonic.ini.html" = "/en/latest/index/monotonic.html"
@@ -1681,6 +1687,7 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/str_starts_with.ini.html" = "/en/latest/index/str_starts_with.html"
 "/dictionary/strategy.ini.html" = "/en/latest/index/strategy.html"
 "/dictionary/stream.ini.html" = "/en/latest/index/stream.html"
+"/dictionary/streamable.ini.html" = "/en/latest/index/streamable.html"
 "/dictionary/streaming-database.ini.html" = "/en/latest/index/streaming-database.html"
 "/dictionary/streamlining.ini.html" = "/en/latest/index/streamlining.html"
 "/dictionary/strict-comparison.ini.html" = "/en/latest/index/strict-comparison.html"
@@ -1766,7 +1773,6 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/throw.ini.html" = "/en/latest/index/throw.html"
 "/dictionary/throwable.ini.html" = "/en/latest/index/throwable.html"
 "/dictionary/tick.ini.html" = "/en/latest/index/tick.html"
-"/dictionary/tideways.ini.html" = "/en/latest/index/tideways.html"
 "/dictionary/tilde.ini.html" = "/en/latest/index/tilde.html"
 "/dictionary/time-travel.ini.html" = "/en/latest/index/time-travel.html"
 "/dictionary/timeout.ini.html" = "/en/latest/index/timeout.html"
@@ -1959,6 +1965,38 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
