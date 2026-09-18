@@ -1,5 +1,5 @@
 [book]
-title = "The PHP dictionary - 1.1.36"
+title = "The PHP dictionary - 1.1.37"
 authors = ["Damien Seguy"]
 language = "en"
 
@@ -1965,6 +1965,9 @@ site-url = "https://php-dictionary.readthedocs.io/en/latest/"
 "/dictionary/zombie-code.ini.html" = "/en/latest/index/zombie-code.html"
 "/dictionary/zval.ini.html" = "/en/latest/index/zval.html"
 #[output.html.redirect]
+
+
+
 
 
 
